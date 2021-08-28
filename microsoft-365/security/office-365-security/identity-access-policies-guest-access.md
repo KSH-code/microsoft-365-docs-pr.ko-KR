@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: cfcbe9f330940f32ffff605bf4c2aa17689611e8af26e8f41b8ce10915c6a8d8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 719b754e8e3486c281b23f4c38c7e33f548b118c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53805287"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569864"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>게스트 액세스 및 B2B 외부 사용자 액세스를 허용하기 위한 정책
 
@@ -38,7 +38,7 @@ B2B 계정이 Azure AD 테넌트에 인증하는 경로를 제공해도 이러�
 
 이 다이어그램은 B2B 게스트 및 외부 사용자 액세스에 대해 공통 ID 및 장치 액세스 정책 사이에 추가하거나 업데이트할 정책을 보여 주며,
 
-[![게스트 액세스 보호를 위한 정책 업데이트 요약](../../media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)
+[![게스트 액세스를 보호하기 위한 정책 업데이트 요약입니다.](../../media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)
 
 다음 표에는 만들고 업데이트해야 하는 정책이 나열되어 있습니다. 일반 정책은 일반 ID 및 장치 액세스 정책 문서의 관련 구성 [지침에 연결됩니다.](identity-access-policies.md)
 
@@ -50,7 +50,7 @@ B2B 계정이 Azure AD 테넌트에 인증하는 경로를 제공해도 이러�
 
 조건부 액세스 정책에서 게스트 및 외부 사용자를 포함하거나 제외하기 위해 **Assignments** > 사용자 및 그룹에 대해 포함 또는 > 제외 **,** 모든 게스트 및 외부 사용자를 **확인 합니다.**
 
-![게스트 및 외부 사용자를 제외하는 컨트롤의 화면 캡처](../../media/microsoft-365-policies-configurations/identity-access-exclude-guests-ui.png)
+![게스트 및 외부 사용자를 제외하는 컨트롤의 화면 캡처입니다.](../../media/microsoft-365-policies-configurations/identity-access-exclude-guests-ui.png)
 
 ## <a name="more-information"></a>추가 정보
 
@@ -82,7 +82,7 @@ Microsoft Teams 다음 사용자를 정의합니다.
 
 ## <a name="next-step"></a>다음 단계
 
-![4단계: 클라우드 Microsoft 365 및 앱에 대한 Microsoft Cloud App Security](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![4단계: 클라우드 앱 및 Microsoft 365 정책 Microsoft Cloud App Security.](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 조건부 액세스 정책 구성:
 

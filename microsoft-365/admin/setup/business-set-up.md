@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 도메인 및 사용자 추가, Microsoft 365 Business Premium 정책 설정 등을 포함하여 사용자 지정에 대한 설정 단계를 검색합니다.
-ms.openlocfilehash: b3e15ecefd2130d1a15875128d0519b80b486eca
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.openlocfilehash: 7e01a27361ba681a6475c5e0165d8efbb16371a8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58377920"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568195"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 Microsoft 365 Business Premium 설정
 
@@ -83,7 +83,7 @@ ms.locfileid: "58377920"
 
 마법사에서 추가하는 모든 사용자에게 자동으로 라이선스가 Microsoft 365 Business Premium.
 
-![마법사에서 새 사용자 추가 페이지의 스크린샷](../../media/addnewuserspage.png)
+![Screenshot of the Add new users page in the wizard.](../../media/addnewuserspage.png)
 
 1. Microsoft 365 Business Premium 구독에 기존 사용자가 있는 경우(예: Azure AD 커넥트 사용하는 경우) 라이선스를 사용자에게 지금 할당할 수 있는 옵션이 제공됩니다. 해당 사용자에게도 라이선스를 추가합니다.
 

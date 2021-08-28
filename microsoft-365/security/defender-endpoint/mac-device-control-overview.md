@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 40f783e8a99ef5bcbd3db516f65ff43812e83091fe93ace49562f5b45926afd1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6f24a610e82388cead88b68e33b76c6404d68ec9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53868429"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570032"
 ---
 # <a name="device-control-for-macos"></a>macOS용 장치 제어
 
@@ -68,7 +68,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 적용한 장치 제어 정책이 장치에 적용될 때(예: 이동식 미디어 장치에 대한 액세스가 제한되는 경우) 사용자에게 알림이 표시됩니다.
 
-![장치 제어 알림](images/mac-device-control-notification.png)
+![장치 제어 알림.](images/mac-device-control-notification.png)
 
 최종 사용자가 이 알림을 클릭하면 웹 페이지가 기본 브라우저에서 열립니다. 최종 사용자가 알림을 클릭할 때 열 수 있는 URL을 구성할 수 있습니다.
 
@@ -287,19 +287,19 @@ USB 장치의 공급업체 ID, 제품 ID 및 일련 번호를 찾으시다:
 1. 식별자를 찾아보는 USB 장치를 연결합니다.
 1. MacOS의 최상위 메뉴에서 이 Mac **정보를 선택합니다.**
 
-    ![About this Mac](images/mac-device-control-lookup-1.png)
+    ![Mac에 대해.](images/mac-device-control-lookup-1.png)
 
 1. 시스템 **보고서를 선택합니다.**
 
-    ![시스템 보고서](images/mac-device-control-lookup-2.png)
+    ![시스템 보고서.](images/mac-device-control-lookup-2.png)
 
 1. 왼쪽 열에서 USB 를 **선택합니다.**
 
-    ![모든 USB 장치 보기](images/mac-device-control-lookup-3.png)
+    ![모든 USB 장치 보기.](images/mac-device-control-lookup-3.png)
 
 1. **USB 장치 트리에서** 연결한 USB 장치로 이동합니다.
 
-    ![USB 장치의 세부 정보](images/mac-device-control-lookup-4.png)
+    ![USB 장치의 세부 정보입니다.](images/mac-device-control-lookup-4.png)
 
 1. 공급업체 ID, 제품 ID 및 일련 번호가 표시됩니다. 이동식 미디어 정책에 공급업체 ID 및 제품 ID를 추가할 때 다음에 부분만 추가해야 `0x` 합니다. 예를 들어 아래 이미지에서 공급업체 ID는 입니다. `1000` 제품 ID는 입니다. `090c`
 

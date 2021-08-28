@@ -20,12 +20,12 @@ ms.custom: ''
 localization_priority: Priority
 recommendations: false
 description: Microsoft 365에서 공유를 제한하거나 해제할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: fbbf5630938c89d71a0b09c21cb1f1b2360faa510109796b44b354daa4b878cf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ba7bd7796e0c70b91f7f1c5073e8f51cd5d778be
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827936"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569276"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Microsoft 365에서의 공유 제한
 
@@ -71,7 +71,7 @@ Microsoft 365 그룹에서 게스트 공유를 해제하려면
 3. **조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스할 수 있도록 허용** 및 **그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용** 확인란을 선택 취소합니다.
 4. **변경 내용 저장** 을 클릭합니다.
 
-    ![Microsoft 365 관리 센터의 Microsoft 365 그룹 공유 설정 스크린샷](../media/office-365-groups-guest-settings-off.png)
+    ![Microsoft 365 관리 센터의 Microsoft 36.5 그룹 공유 설정 스크린샷](../media/office-365-groups-guest-settings-off.png)
 
 > [!NOTE]
 > 특정 그룹이나 팀에 대한 게스트 공유를 방지하려는 경우 [Microsoft PowerShell](per-group-guest-access.md) 또는 [민감도 레이블](../compliance/sensitivity-labels-teams-groups-sites.md)을 사용하여 이 작업을 수행할 수 있습니다.
@@ -84,7 +84,7 @@ Azure Active Directory에서 도메인을 허용하거나 차단하여 게스트
 3. **공동 작업 제한 사항** 에서 **지정된 도메인에 대한 초대 거부** 또는 **지정된 도메인에 대한 초대만 허용** 을 선택한 다음 사용하려는 도메인을 입력하십시오.
 4. **저장** 을 클릭합니다.
 
-    ![Azure Active Directory의 공동 작업 제한 설정 스크린샷](../media/azure-ad-allow-only-specified-domains.png)
+    ![Azure Active Directory의 공동 작업 제한 설정 스크린샷.](../media/azure-ad-allow-only-specified-domains.png)
 
 ## <a name="sharepoint-site"></a>SharePoint 사이트
 
@@ -96,7 +96,7 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 3. **사이트 소유자 및 구성원, 편집 권한이 있는 사용자는 파일 및 폴더를 공유할 수 있지만 사이트는 오직 사이트 소유자만 공유** 를 선택합니다.
 4. **저장** 을 클릭합니다.
 
-    ![SharePoint 사이트의 공유 권한 설정의 스크린샷](../media/sharepoint-site-sharing-permissions-level-two.png)
+    ![SharePoint 사이트의 공유 권한 설정의 스크린샷.](../media/sharepoint-site-sharing-permissions-level-two.png)
 
 액세스 요청을 해제하여 사이트의 구성원이 아닌 사용자가 액세스를 요청하지 못하도록 할 수 있습니다.
 
@@ -115,7 +115,7 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 5. 허용하거나 차단할 도메인을 추가하고 **저장** 을 클릭합니다.
 6. **저장** 을 클릭합니다.
 
-    ![허용된 도메인 사이트 수준 설정 스크린샷](../media/limit-site-sharing-by-domain.png)
+    ![허용된 도메인 사이트 수준 설정 스크린샷.](../media/limit-site-sharing-by-domain.png)
 
 ### <a name="block-access-to-a-site"></a>사이트에 대한 액세스 차단
 
@@ -135,7 +135,7 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 3. **오직 사이트 소유자만 파일, 폴더 및 사이트를 공유** 를 선택합니다.
 4. **저장** 을 클릭합니다.
 
-    ![SharePoint 사이트에서 공유 사용 권한 설정이 소유자 전용으로 설정된 스크린샷](../media/sharepoint-site-only-site-owners-can-share.png)
+    ![SharePoint 사이트에서 공유 사용 권한 설정이 소유자 전용으로 설정된 스크린샷.](../media/sharepoint-site-only-site-owners-can-share.png)
 
 ## <a name="sharepoint-guest-sharing"></a>SharePoint 게스트 공유
 
@@ -146,7 +146,7 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 2. **외부 공유** 에서 SharePoint 슬라이더를 아래쪽에 있는 **조직의 사용자에게만** 으로 드래그합니다.
 3. **저장** 을 클릭합니다.
 
-    ![SharePoint 조직 수준 공유 설정이 누구나로 설정된 스크린샷](../media/sharepoint-tenant-sharing-off.png)
+    ![SharePoint 조직 수준 공유 설정이 누구나로 설정된 스크린샷.](../media/sharepoint-tenant-sharing-off.png)
 
 
 사이트에 대해 게스트 공유를 해제하려면
@@ -155,7 +155,7 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 3. **정책** 탭의 **외부 공유** 에서 **편집** 을 클릭합니다.
 4. **외부 공유** 에서 **조직의 사용자에게만** 을 선택한 다음 **저장** 을 클릭합니다.
 
-    ![SharePoint 사이트 수준 공유 설정이 조직 내의 사용자만으로 설정된 스크린샷](../media/sharepoint-site-external-sharing-settings-off.png)
+    ![SharePoint 사이트 수준 공유 설정이 조직 내의 사용자만으로 설정된 스크린샷.](../media/sharepoint-site-external-sharing-settings-off.png)
 
 Microsoft 365 관리 센터에서 사용자를 클릭하고 **OneDrive** 탭에서 **외부 공유 관리** 를 선택하여 개별 OneDrive에 대한 게스트 공유를 해제할 수 있습니다.
 
@@ -174,7 +174,7 @@ Microsoft 365 관리 센터에서 사용자를 클릭하고 **OneDrive** 탭에�
 3. **정책** 탭의 **외부 공유** 에서 **편집** 을 클릭합니다.
 4. **외부 공유** 에서 OneDrive에 대한 **신규 및 기존 게스트** 를 선택한 다음, **저장** 을 클릭합니다.
 
-    ![SharePoint 사이트 수준 공유 설정이 신규 및 기존 설정으로 설정된 스크린샷](../media/sharepoint-site-external-sharing-settings-new-existing-guests.png)
+    ![SharePoint 사이트 수준 공유 설정이 신규 및 기존 설정으로 설정된 스크린샷.](../media/sharepoint-site-external-sharing-settings-new-existing-guests.png)
 
 ## <a name="people-in-your-organization-sharing-links"></a>*조직 내부 사용자* 공유 링크
 

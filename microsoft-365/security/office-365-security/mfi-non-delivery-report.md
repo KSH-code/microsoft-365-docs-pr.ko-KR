@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 배달되지 않는 세부 정보 보고서를 사용하여 조직의 보낸 사람으로부터 배달되지 않는 보고서(NDR 또는 반송 메시지라고도 알려)에서 가장 자주 발생하는 오류 코드를 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d2ac4d55557165c3f6cf327bcff529edc3dc16ad1fc08eb2a5a30828b7a57661
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6e49fa403789f7c923bfbdd86b4b1555400a8a99
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56786169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568747"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 배달 & 보고서
 
@@ -32,7 +32,7 @@ ms.locfileid: "56786169"
 
 보안  & 준수 센터의 메일 흐름 [](https://protection.office.com) 대시보드에 있는 배달되지 않은 보고서에는 조직의 사용자에 대해 배달되지 않는 보고서(NDR 또는 반송 메시지라고도 알려)에서 가장 많이 발생하는 오류 코드가 표시됩니다. [](mail-flow-insights-v2.md) 이 보고서에는 전자 메일 배달 문제를 해결할 수 있도록 NDRS의 세부 정보가 표시되어 있습니다.
 
-![보안 및 준수 센터의 메일 흐름 대시보드에 있는 & 보고서 위젯](../../media/mfi-non-delivery-report-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에서 배달 & 위젯입니다.](../../media/mfi-non-delivery-report-widget.png)
 
 ## <a name="report-view-for-the-non-delivery-report"></a>배달되지 않은 보고서에 대한 보고서 보기
 
@@ -42,7 +42,7 @@ ms.locfileid: "56786169"
 
 차트에서 특정 일에 특정 색(오류 코드)을 마우스로 마우스로 대면 오류에 대한 총 메시지 수가 표시됩니다.
 
-![허용되지 않는 도메인 보고서의 보고서 보기](../../media/mfi-non-delivery-report-overview-view.png)
+![허용되지 않는 도메인 보고서의 보고서 보기입니다.](../../media/mfi-non-delivery-report-overview-view.png)
 
 ## <a name="details-table-view-for-the-non-delivery-report"></a>배달되지 않은 보고서에 대한 세부 정보 테이블 보기
 
@@ -64,7 +64,7 @@ ms.locfileid: "56786169"
 - **개수**
 - **샘플 메시지:** 샘플  메시지 보기를 클릭하여 [](message-trace-scc.md) 영향을 받는 메시지의 샘플에 대한 메시지 추적 결과를 볼 수 있습니다.
 
-![세부 정보 테이블 보기에서 행을 선택한 후 배달되지 않는 보고서에서 플라이아웃 세부 정보](../../media/mfi-non-delivery-report-details-flyout.png)
+![세부 정보 테이블 보기에서 배달하지 않는 보고서의 행을 선택한 후 플라이아웃에 대한 세부 정보입니다.](../../media/mfi-non-delivery-report-details-flyout.png)
 
 ## <a name="related-topics"></a>관련 항목
 

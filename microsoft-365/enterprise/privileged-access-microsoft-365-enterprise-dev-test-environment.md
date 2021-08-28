@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경에 Microsoft 365 액세스 관리를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 9599048ae7ed4f4b3627da15d22d00e795bf28fc
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: d4d3658ad8c7533e2540dde6c390b4f2b4691cb8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58250781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569408"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 Microsoft 365 권한 있는 액세스 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "58250781"
 - [2단계: 권한 있는 액세스 관리 구성](#phase-2-configure-privileged-access-management)
 - [3단계: 권한이 상승된 작업에 승인이 필요한지 확인](#phase-3-verify-that-approval-is-required-for-elevated-and-privileged-tasks)
 
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
@@ -154,7 +154,7 @@ ms.locfileid: "58250781"
 
 테스트 환경의 추가 [정보](m365-enterprise-test-lab-guides.md#information-protection) 보호 기능을 살펴보아야 합니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 - [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)

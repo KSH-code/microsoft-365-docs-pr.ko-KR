@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: 4c721dfcc95a2e07cdbfc04de3d3b6df872e036d639e86c5330db942267fa3e3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 96a27d562bdde03d5d94d8a39ecf45d64ec9bf18
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567967"
 ---
 # <a name="step-4-the-tasks-tab"></a>4단계: 작업 탭
 
@@ -33,7 +33,7 @@ ms.locfileid: "53862343"
 
 ## <a name="set-script-path"></a>스크립트 경로 설정
 
-![테스트 작업의 이미지](Media/testtask.png)
+![테스트 작업의 이미지입니다.](Media/testtask.png)
 
 폴더 구조에 상대 경로를 제공하는 방법의 샘플은 아래와 같습니다.
 

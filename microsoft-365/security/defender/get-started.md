@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 8d479a5cacc5db8961084135eb2b155c4b3af509cc06adecc9b3c2c42688f7d8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3b111fe66e35bcd87898eefa2d336b8031651098
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828529"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568807"
 ---
 # <a name="get-started-with-microsoft-365-for-defender"></a>Defender용 Microsoft 365 시작
 
@@ -37,7 +37,7 @@ Microsoft 365 Defender 기업 전체의 보안을 모니터링하고 관리할 �
 
 Microsoft 보안 제품 제품군을 잘 알고 있는 사용자나 개별 워크플로에 익숙한 경우 이 항목에서는 Microsoft 보안 제품을 시작하는 데 필요한 간단한 단계를 Microsoft 365 Defender.
 
-![단계 시작의 Microsoft 365 Defender 이미지](../../media/mtp/get-started-m365d.png)
+![단계 시작의 Microsoft 365 Defender.](../../media/mtp/get-started-m365d.png)
 
 일반적으로 다음 단계를 수행하여 시작해야 합니다.
 

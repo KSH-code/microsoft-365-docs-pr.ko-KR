@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: da145578dd8dedcd5358d9bb9ef850c17ea282729dc16503cddcd7fc75b07414
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 33022fa1ad57b7adf13139272bcdca09a1d9487b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828777"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568831"
 ---
 # <a name="step-1-triage-and-analyze-your-first-incident"></a>1단계. 첫 번째 인시던트의 세분화 및 분석
 
@@ -69,7 +69,7 @@ Microsoft 365 Defender Microsoft 보안 플랫폼에서 경고 및 이벤트를 
 
 1. [인시던트 페이지로](incidents-overview.md) 이동하여 재판을 시작하세요. 조직에 영향을 주는 인시던트 목록을 볼 수 있습니다. 기본적으로 가장 최근 인시던트부터 가장 오래된 인시던트까지 정렬됩니다. 여기에서 각 인시던트의 심각도, 범주, 활성 경고 수 및 영향을 미치는 엔터티를 보여 미치는 각 인시던트에 대한 다양한 열을 볼 수도 있습니다. 열 집합을 사용자 지정하고 열 이름을 선택하여 이러한 열을 사용하여 인시던트 큐를 정렬할 수 있습니다. 요구에 따라 인시던트 큐를 필터링할 수도 있습니다. 사용 가능한 필터의 전체 목록은 인시던트 [우선 순위 지정을 참조하세요.](incident-queue.md#available-filters)
 
-   :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-queue.png" alt-text="인시던트 큐의 예":::
+   :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-queue.png" alt-text="인시던트 큐의 예입니다.":::
 
     이 인시던트 집합에 대해 순위를 지정하는 방법의 한 가지 예는 더 많은 사용자 및 장치에 영향을 주는 인시던트의 우선 순위를 지정하는 것입니다. 이 예에서는 인시던트 ID 6769가 최대 엔터티 수(장치 7개, 사용자 6명 및 사서함 2개)에 영향을 주어 인시던트 ID 6769의 우선 순위를 지정할 수 있습니다. 또한 인시던트는 ID 기반 경고 및 가능한 자격 증명 도난을 나타내는 Id에 대한 Microsoft Defender의 경고를 포함하는 것으로 나타납니다.
 
@@ -77,7 +77,7 @@ Microsoft 365 Defender Microsoft 보안 플랫폼에서 경고 및 이벤트를 
 
 2. 인시던트 이름 옆의 원을 선택하여 세부 정보를 검토합니다. 왼쪽 창이 오른쪽에 표시될 수 있습니다. 이 창에는 추가 정보를 포함해 더 많은 정보를 사용할 수 있습니다.
 
-   :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-incident-flyout.png" alt-text="인시던트 쪽 창의 예":::
+   :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-incident-flyout.png" alt-text="인시던트 쪽 창의 예입니다.":::
 
    예를 들어 [MITRE ATT&CK에서](https://attack.mitre.org/) 공격자가 인시던트의 범주에 따라 사용하는 전술을 보고, 공격자가 훔친 자격 증명을 사용, 설정한 명령 및 제어, 측면 이동을 수행하고 일부 데이터를 유출하기 때문에 이 인시던트의 우선 순위를 지정할 수 있습니다. 이는 공격자가 이미 네트워크로 깊숙이 들어간 후 기밀 정보를 훔친 것일 수 있습니다.
 
@@ -85,13 +85,13 @@ Microsoft 365 Defender Microsoft 보안 플랫폼에서 경고 및 이벤트를 
 
    왼쪽 창 아래로 스크롤하면 사용자, 장치 및 사서함과 같은 영향을 받는 특정 엔터티가 표시됩니다. 각 장치 및 영향을 받는 사서함의 소유자의 노출 수준을 확인할 수 있습니다.
 
-   :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-incident-flyout-details.png" alt-text="인시던트 쪽 창 세부 정보의 예":::
+   :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-incident-flyout-details.png" alt-text="인시던트 쪽 창 세부 정보의 예입니다.":::
 
 3. 왼쪽 창 아래에서 관련 경고를 찾을 수 있습니다. Microsoft 365 Defender 경고의 상관 관계가 이미 수행되어 공격을 수정하는 데 필요한 시간 및 리소스를 절약할 수 있습니다. 경고는 의심스러우며 네트워크에서 공격자가 존재할 수 있는 악성 시스템 이벤트일 수 있습니다.
 
    이 예에서는 87개 개별 경고가 하나의 보안 인시던트의 일부로 결정했습니다. 모든 경고를 보고 공격이 어떻게 재생된 방식에 대한 빠른 보기를 얻을 수 있습니다.
 
-   :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-incident-flyout-alerts.png" alt-text="인시던트 쪽 창의 경고 예":::
+   :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-incident-flyout-alerts.png" alt-text="인시던트 쪽 창에 있는 경고의 예입니다.":::
 
 ## <a name="analyze-your-first-incident"></a>첫 번째 인시던트 분석
 
@@ -109,27 +109,27 @@ Microsoft 365 Defender Microsoft 보안 플랫폼에서 경고 및 이벤트를 
 
 2. 경고 **탭에서** 분석가가 검색 원본에 피벗하여 보다 심층적인 조사 및 분석을 수행 할 수 있습니다. 예를 들어 검색 원본으로 Microsoft Cloud App Security 맬웨어 검색을 선택하면 분석가가 해당 경고 페이지로 이동합니다.
 
-    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-select-alert.png" alt-text="인시던트 경고 선택의 예":::
+    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-select-alert.png" alt-text="인시던트 경고를 선택하는 예입니다.":::
 
-    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-link-to-mcas.png" alt-text="2016의 해당 페이지의 Microsoft Cloud App Security":::
+    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-link-to-mcas.png" alt-text="에 있는 해당 페이지의 Microsoft Cloud App Security.":::
 
 3. 예제를 더 조사하려면 페이지 맨 아래로 스크롤하여 영향을 받은 **사용자를 를 니다.** 맬웨어 검색을 둘러싼 활동 및 컨텍스트를 확인하려면 AnnetteEtte의 사용자 페이지를 선택합니다.
 
-    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-user-page.png" alt-text="사용자 페이지의 예":::
+    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-user-page.png" alt-text="사용자 페이지의 예입니다.":::
 
 4. 사용자 페이지에는 TOR 네트워크 IP 주소 경고에서 위험한 로그인으로 시작하는 이벤트의 연대기 *목록이* 있습니다. 활동의 의심스러운 가능성은 조직이 비즈니스를 수행한 방식의 특성에 따라 달라지지만, 대부분의 경우 사용자가 웹을 익명으로 탐색할 수 있는 네트워크인 TOR(Onion 라우터)을 사용하는 경우 엔터프라이즈 환경에서는 일반 온라인 작업의 경우 매우 가능성 높고 불필요한 것으로 간주될 수 있습니다.
 
-    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-user-event-list.png" alt-text="사용자에 대한 이벤트의 연도 목록 예":::
+    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-user-event-list.png" alt-text="사용자에 대한 이벤트의 연도 목록의 예입니다.":::
 
 5. 각 경고를 선택하면 활동에 대한 자세한 정보를 얻을 수 있습니다. 예를 들어 **Tor IP 주소** 경고에서 활동을 선택하면 해당 경고의 자체 페이지로 연결됩니다. Annette는 관리자로서 Office 365 권한이 상승되어 원본 인시던트가 기밀 정보에 액세스하게 됐을 수 있습니다.
 
-    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-mcas-alert.png" alt-text="알림 세부 정보의 Microsoft Cloud App Security":::
+    :::image type="content" source="../../media/first-incident-analyze/first-incident-analyze-mcas-alert.png" alt-text="에 대한 경고 세부 정보 Microsoft Cloud App Security.":::
 
 6. 다른 경고를 선택하면 분석가가 공격의 전체적인 그림을 얻을 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 
-[![2단계: 인시던트 수정 방법 학습](../../media/first-incident-overview/first-incident-path-step2.png)](first-incident-remediate.md)
+[![2단계: 인시던트 수정 방법을 배워야 합니다.](../../media/first-incident-overview/first-incident-path-step2.png)](first-incident-remediate.md)
 
 인시던트 [수정 방법을 학습합니다.](first-incident-remediate.md)
 

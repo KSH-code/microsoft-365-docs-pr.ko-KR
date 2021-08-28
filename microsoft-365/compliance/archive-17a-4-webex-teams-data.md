@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 Cisco Webex DataParser 커넥터를 설정하고 사용하여 Cisco Webex 데이터를 Microsoft 365.
-ms.openlocfilehash: 9ecae0c9794f68d8739ed5dc4ecbca8197e069667ce57329bd1ea0f02f68895b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9210b11f3c707bccff02ae806d75f1f2f957d7ce
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836081"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569180"
 ---
 # <a name="set-up-a-connector-to-archive-cisco-webex-data"></a>Cisco Webex 데이터를 보관할 커넥터 설정
 

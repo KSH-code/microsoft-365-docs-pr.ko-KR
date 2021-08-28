@@ -15,12 +15,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.date: 08/05/2021
-ms.openlocfilehash: 85e3eea9eb2b19bde7516c91409e73e0747a0523
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: fe4f3dbd85ca71aabfca87cecc6478acdb21ecae
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257583"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568135"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Windows Server의 Microsoft Defender 바이러스 백신
 
@@ -67,7 +67,7 @@ GUI가 서버에 설치되어 있지 않은 경우 역할 및 기능 추가  마
 
    이 Windows Server 2016 역할 및 기능 추가 **마법사는** 다음과 같습니다.
 
-   ![역할 및 기능 마법사에 대한 GUI를 Windows Defender 추가](images/server-add-gui.png)
+   ![사용자 설정 옵션에 대한 GUI를 보여 Windows Defender 추가합니다.](images/server-add-gui.png)
 
    Windows Server 2019에서 역할 추가 및 **기능 마법사는 비슷합니다.**
 

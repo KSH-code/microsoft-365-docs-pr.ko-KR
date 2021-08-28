@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 네트워킹 인프라와 회사에서 엔터프라이즈 클라우드 서비스에 최적화된 네트워킹 성능을 위해 SD-WAN 기술을 사용하는 Microsoft 365 이해합니다.
-ms.openlocfilehash: ad7bac187a81564c3d222069bce06756dd176a58
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: af2c68cb31450fe17449f95391dd3e5c298a2395
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569492"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Contoso Corporation에 대한 네트워킹
 
@@ -43,7 +43,7 @@ Contoso는 클라우드 포함 인프라를 채택하기 위해 클라우드 서
 
 그림 1에서는 Contoso 네트워킹 인프라와 인터넷에 대한 연결을 보여줍니다.
 
-![Contoso 네트워크](../media/contoso-networking/contoso-networking-fig1.png)
+![Contoso 네트워크.](../media/contoso-networking/contoso-networking-fig1.png)
  
 **그림 1: Contoso 네트워크**
 
@@ -76,7 +76,7 @@ Contoso는 다음을 위해 업무용 응용 프로그램 및 서버 인트라�
 
 그림 2에서는 Contoso 인트라넷을 통해 서버에 액세스할 때 사용되는 네트워크 트래픽 용량의 백분율을 보여줍니다.
 
-![내부 응용 프로그램에 대한 Contoso 인프라](../media/contoso-networking/contoso-networking-fig2.png)
+![내부 응용 프로그램에 대한 Contoso 인프라입니다.](../media/contoso-networking/contoso-networking-fig2.png)
  
 **그림 2: 내부 응용 프로그램용 Contoso 인프라**
 

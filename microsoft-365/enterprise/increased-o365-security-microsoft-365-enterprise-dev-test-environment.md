@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경에 Microsoft 365 추가 보안 Microsoft 365 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: ad739ed76d903ece388dde4c4fbc6337bb230051
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 08b1db95a35debfa465d57d30ab0a8a2bd9f9732
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354443"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567907"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 Microsoft 365 환경의 Microsoft 365 보안 강화
 
@@ -27,7 +27,7 @@ ms.locfileid: "58354443"
 
 이 문서의 지침에 따라 엔터프라이즈 테스트 환경의 보안 Microsoft 365 추가 Microsoft 365 구성합니다.
 
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > [여기](../downloads/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.

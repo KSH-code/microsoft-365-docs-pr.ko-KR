@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex의 구문 목록, 정규식 및 근접 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: 45b5e472623d8122dad47be5b28df5f89766936b9dc444c35b90ed4cc00c521a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 405080575f48f439e7d978a8fc7ca00ecf956be0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865656"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568399"
 ---
 # <a name="explanation-types-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 설명 유형
 
@@ -42,7 +42,7 @@ ms.locfileid: "53865656"
 
 레이블을 식별하는데 대/소문자 구분이 필요하다면, 구 목록 유형을 사용하하면 **정확한 대소문자 사용** 체크박스를 선택하여 이를 설명에 지정할 수 있습니다.
 
-![대/소문자 구분](../media/content-understanding/case-sensitivity.png)
+![대/소문자 구분.](../media/content-understanding/case-sensitivity.png)
 
 구 유형은 날짜, 전화번호, 신용 카드 번호 등 다양한 형식으로 정보를 식별하고 추출하는 설명을 만들 때 특히 유용합니다. 예를 들어 날짜는 다양한 형식(1/1/2020, 1-1-2020, 01/01/20, 01/01/2020 혹은 2020년 1월 1일)으로 표시될 수 있습니다. 구 목록을 정의하면 식별하고 추출하려는 데이터의 가능한 변형을 캡처하여 설명을 더 효율적으로 만들 수 있습니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "53865656"
 
 이 예에서는 **고급 설정** 에서 **0-9 사이의 임의의 수** 확인란을 선택하여 구 목록에 사용된 각 "0" 값을 0부터 9까지의 숫자로 인식합니다.
 
-![0부터 9 사이 아무 숫자](../media/content-understanding/digit-identity.png)
+![0부터 9 사이 아무 숫자.](../media/content-understanding/digit-identity.png)
 
 마찬가지로 텍스트 문자를 포함하는 구 목록을 만들 경우 **a-z 사이의 임의의 문자** 확인란을 선택하여 구 목록에 사용된 각 "a" 문자를 "a"에서 "z"까지의 문자로 인식합니다.
 
@@ -61,14 +61,14 @@ ms.locfileid: "53865656"
 - 구 목록에 *aaa 0, 0000* 및 *aaa 00, 0000* 을 추가합니다.
 - **a부터 z 사이 아무 문자** 를 선택했는지 확인합니다.
 
-![a부터 z 사이 아무 문자](../media/content-understanding/any-letter.png)
+![a부터 z 사이 아무 문자.](../media/content-understanding/any-letter.png)
 
 구 목록에 대문자 표시 요구 사항이 있는 경우 **정확한 대문자 표시** 확인란을 선택할 수 있습니다. 날짜 예제의 경우 월의 첫 글자를 대문자로 표기해야 하는 경우 다음을 수행해야 합니다.
 
 - 구 목록에 *Aaa 0, 0000* 및 *Aaa 00, 0000* 을 추가합니다.
 - **정확한 대소문자 사용** 이 선택되어 있는지 확인합니다.
 
-![정확한 대소문자 사용](../media/content-understanding/exact-caps.png)
+![정확한 대소문자 사용.](../media/content-understanding/exact-caps.png)
 
 > [!NOTE]
 > 구 목록 설명을 수동으로 만드는 대신 [설명 라이브러리](explanation-types-overview.md#use-explanation-templates)를 사용하여 *날짜*, *전화 번호* 또는 *신용 카드 번호* 와 같은 일반적인 구 목록 서식 파일을 사용할 수 있습니다.
@@ -137,7 +137,7 @@ Redmond, WA 98034<br>
 
 근접 설명을 사용하여 전화 번호 설명이 문서에서 거리 주소 번호를 식별해내기에 근접하지 않은 설명이라는 것을 규정할 수 있습니다.
 
-![근접 설명](../media/content-understanding/proximity.png)
+![근접 설명.](../media/content-understanding/proximity.png)
 
 #### <a name="what-are-tokens"></a>토큰이란?
 
@@ -173,7 +173,7 @@ Redmond, WA 98034<br>
 
 근접 설정이 0에서 3의 범위를 갖도록 구성합니다.
 
-![근접의 예](../media/content-understanding/proximity-example.png)
+![근접의 예.](../media/content-understanding/proximity-example.png)
 
 ## <a name="configure-where-phrases-occur-in-the-document"></a>문서에서 구가 발생하는 위치 구성
 
@@ -181,7 +181,7 @@ Redmond, WA 98034<br>
 
 의료 추천 문서 예제를 참조하면 *추천 의사* 는 항상 문서의 첫 번째 단락에서 언급됩니다. 이 예에서는 **이러한 구가 발생하는 위치** 설정을 사용하여 문서의 시작 부분 또는 이 구가 발생할 수 있는 다른 위치에서만 이 레이블을 검색하도록 설명을 구성할 수 있습니다.
 
-![이러한 구가 발생하는 위치 설정](../media/content-understanding/phrase-location.png)
+![이러한 구가 발생하는 위치 설정.](../media/content-understanding/phrase-location.png)
 
 이 설정에 대해 다음 옵션 중에서 선택할 수 있습니다.
 
@@ -189,23 +189,23 @@ Redmond, WA 98034<br>
 
 - 파일의 시작: 문서가 처음부터 구 위치까지 검색합니다.
 
-   ![파일의 시작 부분](../media/content-understanding/beginning-of-file.png)
+   ![파일의 시작 부분.](../media/content-understanding/beginning-of-file.png)
 
     뷰어에서 구가 발생하는 위치를 포함하기 위해 선택 상자를 수동으로 조정할 수 있습니다. **끝 위치** 값이 업데이트되어 선택한 영역에 포함된 토큰 수가 표시됩니다. **끝 위치** 값을 업데이트하여 선택한 영역을 조정할 수도 있습니다.
 
-   ![파일 위치 상자의 시작 부분](../media/content-understanding/beginning-box.png)
+   ![파일 위치 상자의 시작 부분.](../media/content-understanding/beginning-box.png)
 
 - 파일의 끝: 문서가 끝부터 구 위치까지 검색됩니다.
 
-   ![파일의 끝 부분](../media/content-understanding/end-of-file.png)
+   ![파일의 끝 부분.](../media/content-understanding/end-of-file.png)
 
     뷰어에서 구가 발생하는 위치를 포함하기 위해 선택 상자를 수동으로 조정할 수 있습니다. **시작 위치** 값이 업데이트되어 선택한 영역에 포함된 토큰 수가 표시됩니다. 시작 위치 값을 업데이트하고 선택한 영역을 조정할 수도 있습니다.
 
-   ![파일 끝 상자의 끝](../media/content-understanding/end-box.png)
+   ![파일 끝 상자의 끝.](../media/content-understanding/end-box.png)
 
 - 사용자 지정 범위: 문서가 지정된 구 위치 범위 내에서 검색됩니다.
 
-   ![사용자 지정 범위](../media/content-understanding/custom-file.png)
+   ![사용자 지정 범위.](../media/content-understanding/custom-file.png)
 
     뷰어에서 구가 발생하는 위치를 포함하기 위해 선택 상자를 수동으로 조정할 수 있습니다. 이 설정의 경우 시작 **시작** 과 **끝** 위치를 선택해야 합니다. 이러한 값은 문서의 시작 부분의 토큰 수를 나타냅니다. 이러한 값은 수동으로 입력할 수 있지만 뷰어에서 선택 상자를 수동으로 조정하는 것이 더 쉽습니다.
 
@@ -215,7 +215,7 @@ Redmond, WA 98034<br>
 
 예를 들어 *날짜* 에 대한 모든 변형을 수동으로 추가하는 대신 이미 많은 구 목록 값을 포함하고 있는 *날짜* 에 대한 구 목록 템플릿을 사용할 수 있습니다.
 
-![설명 라이브러리](../media/content-understanding/explanation-template.png)
+![설명 라이브러리.](../media/content-understanding/explanation-template.png)
 
 설명 라이브러리에는 다음을 비롯하여 일반적으로 사용되는 *구 목록* 설명이 포함되어 있습니다.
 
@@ -254,28 +254,28 @@ Redmond, WA 98034<br>
 
 자동 템플릿의 작동 방식에 대한 예제를 제공하기 위해 다음 예제 파일에서 이전 레이블 설명 템플릿을 사용하여 모델에 보다 정확한 일치를 얻기 위한 추가 정보를 제공합니다.
 
-![예제 파일](../media/content-understanding/before-label.png)
+![예제 파일.](../media/content-understanding/before-label.png)
 
 이전 레이블 설명 템플릿을 선택하면 예제 파일의 레이블 앞에 나타나는 첫 번째 단어 집합을 찾습니다. 예를 들어 첫번째 예제 파일에서 식별되는 단어는 “As of”입니다.
 
-![레이블 서식 파일 전](../media/content-understanding/before-label-explanation.png)
+![레이블 서식 파일 전.](../media/content-understanding/before-label-explanation.png)
 
 서식 파일에서 **추가** 를 선택하여 설명을 만들 수 있습니다.  예제 파일을 더 추가하면 추가 단어가 식별되어 구 목록에 추가됩니다.
 
-![레이블 추가](../media/content-understanding/before-label-add.png)
+![레이블 추가.](../media/content-understanding/before-label-add.png)
 
 #### <a name="to-use-a-template-from-the-explanation-library"></a>설명 라이브러리에서 서식 파일을 사용하려면
 
 1. 모델의 **교육** 페이지의 **설명** 구역에서 **신규** 를 선택한 다음 **서식 파일 사용** 을 선택합니다.
 
-   ![레이블 전에 추가](../media/content-understanding/from-template.png)
+   ![레이블 전에 추가.](../media/content-understanding/from-template.png)
 
 2.  **설명 서식 파일** 페이지에서 사용하려는 설명을 선택하고 **추가** 를 선택합니다.
 
-    ![서식 파일 선택](../media/content-understanding/phone-template.png)
+    ![서식 파일을 선택합니다.](../media/content-understanding/phone-template.png)
 
 3. 선택한 서식 파일에 대한 정보는 **설명 만들기** 페이지에 나와 있습니다. 필요한 경우 설명 이름을 편집하고 구 목록에서 항목을 추가 또는 제거합니다.
 
-    ![서식 파일 편집](../media/content-understanding/phone-template-live.png)
+    ![서식 파일 편집.](../media/content-understanding/phone-template-live.png)
 
 4. 작업을 끝낸 후 **저장** 을 선택합니다.

@@ -14,12 +14,12 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: f8d274443e67ab89952508870aa118d7e13378e0
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 3138d1c0a4b4d2b5726b87e6e86897091d237854
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533426"
+ms.locfileid: "58568643"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -344,7 +344,7 @@ Get-MpPreference
 
 다음 예제에서는 목록에 포함된 항목이 `ExclusionExtension` 강조 표시됩니다.
 
-:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="Get-MpPreference에 대한 PowerShell 출력":::
+:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="Get-MpPreference에 대한 PowerShell 출력.":::
 
 자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/)을 참조하세요.
 
@@ -360,7 +360,7 @@ $WDAVprefs.ExclusionPath
 
 다음 예제에서는 cmdlet을 사용할 때마다 목록을 새 `Add-MpPreference` 줄로 분할합니다.
 
-:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="제외 목록의 항목만 표시하는 PowerShell 출력":::
+:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="제외 목록의 항목만 표시하는 PowerShell 출력입니다.":::
 
 자세한 내용은 [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)과 [Defender cmdlet](/powershell/module/defender/)을 참조하세요.
 

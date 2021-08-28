@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4c2b33a319b98215241f13f80adc8e2e1cc849a02c6044b939465adead69e683
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6f80c0edeeb0d05287dc43aa9e3dea906504ac4e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888994"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568123"
 ---
 # <a name="create-an-app-to-access-microsoft-365-defender-apis-on-behalf-of-a-user"></a>사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기
 
@@ -52,7 +52,7 @@ Microsoft 365 Defender API 집합을 통해 많은 데이터와 작업을 노출
 
 이 문서에서는 이러한 방법을 설명합니다.
 
-- Azure AD 애플리케이션 만들기
+- Azure AD 응용 프로그램 만들기
 - 액세스 토큰을 Microsoft 365 Defender
 - 토큰 유효성 검사
 
@@ -68,11 +68,11 @@ Microsoft 365 Defender API 집합을 통해 많은 데이터와 작업을 노출
 
 2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.**
 
-   ![응용 Microsoft Azure 탐색 및 이미지](../../media/atp-azure-new-app2.png)
+   ![응용 프로그램 Microsoft Azure 탐색하는 이미지입니다.](../../media/atp-azure-new-app2.png)
 
 3. 양식에서 응용 프로그램의 이름을 선택하고 리디렉션 URI에 대해 다음 정보를 입력한 다음 등록을 **선택합니다.**
 
-   ![응용 프로그램 만들기 창의 이미지](../../media/nativeapp-create2.PNG)
+   ![응용 프로그램 만들기 창의 이미지입니다.](../../media/nativeapp-create2.PNG)
 
    - **응용 프로그램 유형:** 공용 클라이언트
    - **리디렉션 URI:**https://portal.azure.com
@@ -82,11 +82,11 @@ Microsoft 365 Defender API 집합을 통해 많은 데이터와 작업을 노출
    > [!TIP]
    > *Microsoft Threat Protection은* 이전 이름인 Microsoft 365 Defender 목록에 나타나지 않습니다. 표시하려면 텍스트 상자에 이름을 쓰기 시작해야 합니다.
 
-   ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
+   ![API 권한 선택의 이미지입니다.](../../media/apis-in-my-org-tab.PNG)
 
    - 사용 **권한 위임 을 선택 합니다.** 시나리오에 대한 관련 사용 권한(예: **Incident.Read)을** 선택한 다음 사용 권한 추가 **를 선택합니다.**
 
-   ![API 액세스 및 API 선택 이미지](../../media/request-api-permissions-delegated.PNG)
+   ![API 액세스 및 API 선택 이미지입니다.](../../media/request-api-permissions-delegated.PNG)
 
     > [!NOTE]
     > 시나리오에 대한 관련 권한을 선택해야 합니다. *모든 인시던트 읽기는* 예시일 것입니다. 필요한 사용 권한을 확인하려면 호출할  API의 사용 권한 섹션을 참조하세요.
@@ -95,11 +95,11 @@ Microsoft 365 Defender API 집합을 통해 많은 데이터와 작업을 노출
 
 5. 관리자 **동의 부여를 선택합니다.** 권한을 추가할 때마다 권한을 적용하려면 **관리자** 동의 부여를 선택해야 합니다.
 
-   ![권한 부여 이미지](../../media/grant-consent-delegated.PNG)
+   ![권한 부여 이미지.](../../media/grant-consent-delegated.PNG)
 
 6. 안전한 곳에 응용 프로그램 ID와 테넌트 ID를 기록합니다. 응용 프로그램 페이지 **개요** 아래에 나열됩니다.
 
-   ![생성된 앱 ID의 이미지](../../media/app-and-tenant-ids.png)
+   ![생성된 앱 ID의 이미지입니다.](../../media/app-and-tenant-ids.png)
 
 ## <a name="get-an-access-token"></a>액세스 토큰을 얻게 됩니다.
 
@@ -130,7 +130,7 @@ $response.AccessToken
 
 다음 이미지에서는 , 및 권한을 사용하여 앱에서 획득한 디코딩된 ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` ```AdvancedHunting.Read.All``` 토큰을 볼 수 있습니다.
 
-![토큰 유효성 검사 이미지](../../media/webapp-decoded-token.png)
+![토큰 유효성 검사의 이미지입니다.](../../media/webapp-decoded-token.png)
 
 ## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>토큰을 사용하여 Microsoft 365 Defender API에 액세스
 

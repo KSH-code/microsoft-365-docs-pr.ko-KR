@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 211d8071d0b8fcf8c650acb15f2fa29ac9bed456b0c8eed8829a0c4502817d8d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a69a90db168bd58266c65c8573a233e1932e025c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817307"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568903"
 ---
 # <a name="track-and-respond-to-emerging-threats-through-threat-analytics"></a>위협 분석을 통해 새로운 위협 추적 및 대응
 
@@ -66,7 +66,7 @@ ms.locfileid: "53817307"
 
 대시보드에서 위협을 선택하여 해당 위협에 대한 보고서를 볼 수 있습니다.
 
-![위협 분석 대시보드의 이미지](images/ta_dashboard.png)
+![위협 분석 대시보드의 이미지입니다.](images/ta_dashboard.png)
 
 ## <a name="view-a-threat-analytics-report"></a>위협 분석 보고서 보기
 
@@ -76,8 +76,8 @@ ms.locfileid: "53817307"
 
 개요 **섹션에서는** 자세한 분석 보고서의 미리 보기를 제공합니다. 또한 잘못 구성 및 패치되지 않은 장치를 통해 조직에 위협이 미치는 영향과 노출을 강조하는 차트도 제공합니다.
 
-![위협 분석 보고서 개요 섹션의 개요 ](images/ta-overview.png)
- _섹션 이미지_
+![위협 분석 보고서의 개요 섹션 이미지입니다. ](images/ta-overview.png)
+ _위협 분석 보고서의 개요 섹션_
 
 #### <a name="assess-the-impact-to-your-organization"></a>조직에 미치는 영향 평가
 
@@ -112,7 +112,7 @@ ms.locfileid: "53817307"
 
 이 섹션의 완화 정보는 보고서의 [](next-gen-threat-and-vuln-mgt.md)다양한 링크에 위협 및 취약성 관리 자세한 드릴다운 정보도 제공하는 위협 및 취약성 관리 데이터를 통합합니다.
 
-![위협 분석 보고서의 완화 섹션 이미지](images/ta-mitigations.png)
+![위협 분석 보고서의 완화 섹션 이미지입니다.](images/ta-mitigations.png)
 
 _위협 분석 보고서의 완화 섹션_
 

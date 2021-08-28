@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1563d44aded4c018a659b70d16800decf4bcd46f
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: a1f51fcf497db0ca36a06fdcb5554e5cdc2861d7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533402"
+ms.locfileid: "58569732"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>ASR 규칙 배포 및 검색 최적화
 
@@ -36,7 +36,7 @@ ms.locfileid: "58533402"
 [ASR(공격 표면 감소) 규칙은](./attack-surface-reduction.md) 일반적인 맬웨어 악용을 식별하고 방지합니다. 잠재적으로 악성 코드가 실행될 수 있는 경우와 방법을 제어합니다. 예를 들어 JavaScript 또는 VBScript가 다운로드된 실행 파일을 시작하지 못하게 방지하고, Office 매크로에서 Win32 API 호출을 차단하고, USB 드라이브에서 실행되는 프로세스를 차단할 수 있습니다.
 
 
-:::image type="content" source="../../media/attack-surface-mgmt.png" alt-text="공격 표면 관리 카드":::
+:::image type="content" source="../../media/attack-surface-mgmt.png" alt-text="공격 표면 관리 카드.":::
 <br>
 *공격 표면 관리 카드*
 
@@ -48,7 +48,7 @@ ms.locfileid: "58533402"
 
 공격 **표면 관리** 보고서 공격 표면 축소 규칙 제외 추가로 \>  \>  \> **이동을 선택합니다.** 이 섹션에서 보안 센터의 다른 섹션으로 Microsoft 365 있습니다.
 
-![보안 센터의 공격 표면 축소 규칙 페이지에서 제외 Microsoft 365 추가](images/secconmgmt_asr_m365exlusions.png)<br>
+![보안 센터의 공격 표면 축소 규칙 페이지에서 제외 Microsoft 365 추가합니다.](images/secconmgmt_asr_m365exlusions.png)<br>
 보안 ***센터의** 공격 표면 축소 규칙 페이지의 제외 Microsoft 365 탭*
 
 > [!NOTE]

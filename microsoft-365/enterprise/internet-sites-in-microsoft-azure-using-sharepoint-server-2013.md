@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 0d93ff4a-8fbd-42b8-9227-d817dba0046d
 description: 이 문서에서는 Azure 인프라 서비스에서 호스팅되는 SharePoint Server 2013 인터넷 사이트를 디자인하고 구현하기 위한 리소스를 제공합니다.
-ms.openlocfilehash: f0d3ef56fc204f7d4bc9579102761792762edc7f
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: d51a2833c5e14ad966272574c643a3a1e6b05aed
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567895"
 ---
 # <a name="internet-sites-in-microsoft-azure-using-sharepoint-server-2013"></a>SharePoint Server 2013을 사용하는 Microsoft Azure의 인터넷 사이트
 
@@ -47,8 +47,8 @@ Microsoft Azure Server 2013을 기반으로 인터넷 사이트를 호스팅하�
 
 |리소스|추가 정보|
 |---|---|
-|**SharePoint Azure의 Server 2013 인터넷 사이트** <br/> [![SharePoint를 사용한 Azure의 인터넷 사이트 이미지](../media/MS-AZ-SPInternetSites.jpg)](https://go.microsoft.com/fwlink/p/?LinkId=392552) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392552) \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392551)|이 아키텍처 모델은 Azure의 인터넷 사이트에 대한 주요 디자인 활동 및 권장 아키텍처 선택에 대해 간략하게 설명합니다.|
-|**디자인 샘플: SharePoint Server 2013용 Azure의 인터넷 사이트** <br/> [ ![ 디자인 예제의 이미지: Microsoft Azure 2013용 SharePoint ](../media/MS-AZ-InternetSitesDesignSample.jpg) 사이트] <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548)|이 디자인 예제를 자체 아키텍처의 시작점으로 활용합니다.|
+|**SharePoint Azure의 Server 2013 인터넷 사이트** <br/> [![Azure에서 인터넷 사이트를 사용하는 SharePoint.](../media/MS-AZ-SPInternetSites.jpg)](https://go.microsoft.com/fwlink/p/?LinkId=392552) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392552) \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392551)|이 아키텍처 모델은 Azure의 인터넷 사이트에 대한 주요 디자인 활동 및 권장 아키텍처 선택에 대해 간략하게 설명합니다.|
+|**디자인 샘플: SharePoint Server 2013용 Azure의 인터넷 사이트** <br/> [ ![ 디자인 예제의 이미지: Microsoft Azure 2013용 SharePoint ](../media/MS-AZ-InternetSitesDesignSample.jpg) 사이트. ] <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548)|이 디자인 예제를 자체 아키텍처의 시작점으로 활용합니다.|
 |**[Microsoft Azure SharePoint 아키텍처](microsoft-azure-architectures-for-sharepoint-2013.md)** <br/> |이 문서에서는 Azure 아키텍처를 디자인하여 솔루션 솔루션을 호스팅하는 SharePoint 설명합니다.|
 |
 

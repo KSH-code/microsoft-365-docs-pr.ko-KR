@@ -24,18 +24,18 @@ ms.custom: migrationguides
 ms.date: 08/16/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 27f1dff34e8e403afb3a8e45263d30a587952da5
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.openlocfilehash: 6fa205147dc3fa042d9bdb3a1d03c67f2b2efecb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58364484"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568879"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 
 Microsoft가 아닌 끝점 보호 솔루션에서 [끝점용 Microsoft Defender(Defender for Endpoint)로](microsoft-defender-endpoint.md) 전환하는 방안을 고민하고 있는 경우 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
 
-:::image type="content" source="images/nonms-mde-migration.png" alt-text="끝점 보호 솔루션을 Endpoint용 Defender로 전환":::
+:::image type="content" source="images/nonms-mde-migration.png" alt-text="끝점 보호 솔루션을 Endpoint용 Defender로 전환합니다.":::
 
 Endpoint용 Defender로 전환할 때 활성 모드에서 Microsoft가 아닌 바이러스 백신/맬웨어 방지 보호 기능으로 전환합니다. 그런 다음 수동 Microsoft Defender 바이러스 백신 구성하고 끝점용 Defender에 장치를 온보딩합니다. 그런 다음 끝점 보호 기능을 구성하고, Microsoft Defender 바이러스 백신 모드로 설정하고, 모든 기능이 제대로 작동하고 있는지 확인합니다. 마지막으로 Microsoft가 아닌 솔루션을 제거합니다.
 
@@ -43,7 +43,7 @@ Endpoint용 Defender로 전환할 때 활성 모드에서 Microsoft가 아닌 �
 
 다음 표에 설명된 바와 같이 끝점용 Defender로 마이그레이션하는 프로세스는 세 단계로 나눌 수 있습니다.
 
-![MDE 마이그레이션 프로세스](images/phase-diagrams/migration-phases.png)
+![MDE 마이그레이션 프로세스.](images/phase-diagrams/migration-phases.png)
 
 |단계 |설명 |
 |--|--|

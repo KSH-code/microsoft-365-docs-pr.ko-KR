@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
 description: '요약: Microsoft Azure 대해 고가용성 페더러스트 인증을 호스트하도록 Microsoft 365.'
-ms.openlocfilehash: 759b6f72a0d86a090c0db265abd23feea6aa1543
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 6f9e06f74b2ce635b05faa0da6cb2eae3d430c31
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569444"
 ---
 # <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>고가용성 페더레이션 인증 1단계: Azure 구성
 
@@ -41,11 +41,11 @@ Azure 구성 요소를 구성하기 전에 다음 테이블을 채워야 합니�
   
 |**항목**|**구성 설정**|**설명**|**값**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |VNet 이름  <br/> |VNet에 할당할 이름입니다(예: FedAuthNet).  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |VNet 위치  <br/> |가상 네트워크를 포함할 지역 Azure 데이터 센터입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |VPN 장치 IP 주소  <br/> |인터넷에서 VPN 장치 인터페이스의 공용 IPv4 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|4.  <br/> |VNet 주소 공간  <br/> |가상 네트워크의 주소 공간입니다. IT 부서에서 이 주소 공간을 확인합니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|5.  <br/> |IPsec 공유 키  <br/> |사이트 간 VPN 연결의 양측을 인증하는 데 사용되는 32자의 무작위 영숫자 문자열입니다. IT 또는 보안 부서에서 이 키 값을 확인합니다. 또한, [IPsec 미리 공유한 키의 무작위 문자열 만들기](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx)를 참조하세요.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |VNet 이름  <br/> |VNet에 할당할 이름입니다(예: FedAuthNet).  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |VNet 위치  <br/> |가상 네트워크를 포함할 지역 Azure 데이터 센터입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |VPN 장치 IP 주소  <br/> |인터넷에서 VPN 장치 인터페이스의 공용 IPv4 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|4.  <br/> |VNet 주소 공간  <br/> |가상 네트워크의 주소 공간입니다. IT 부서에서 이 주소 공간을 확인합니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|5.  <br/> |IPsec 공유 키  <br/> |사이트 간 VPN 연결의 양측을 인증하는 데 사용되는 32자의 무작위 영숫자 문자열입니다. IT 또는 보안 부서에서 이 키 값을 확인합니다. 또한, [IPsec 미리 공유한 키의 무작위 문자열 만들기](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx)를 참조하세요.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
    
  **테이블 V: 프레미스 간 가상 네트워크 구성**
   
@@ -63,10 +63,10 @@ IT 부서에서 가상 네트워크 주소 공간의 이러한 주소 공간을 
   
 |**항목**|**서브넷 이름**|**서브넷 주소 공간**|**용도**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |AD DS(Active Directory 도메인 서비스) 도메인 컨트롤러 및 디렉터리 동기화 서버 VM(가상 컴퓨터)에서 사용하는 서브넷입니다.  <br/> |
-|2.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |AD FS VM에서 사용하는 서브넷입니다.  <br/> |
-|3.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |웹 응용 프로그램 프록시 VM에서 사용하는 서브넷입니다.  <br/> |
-|4.  <br/> |GatewaySubnet  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |Azure 게이트웨이 VM에서 사용하는 서브넷입니다.  <br/> |
+|1.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |AD DS(Active Directory 도메인 서비스) 도메인 컨트롤러 및 디렉터리 동기화 서버 VM(가상 컴퓨터)에서 사용하는 서브넷입니다.  <br/> |
+|2.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |AD FS VM에서 사용하는 서브넷입니다.  <br/> |
+|3.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |웹 응용 프로그램 프록시 VM에서 사용하는 서브넷입니다.  <br/> |
+|4.  <br/> |GatewaySubnet  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |Azure 게이트웨이 VM에서 사용하는 서브넷입니다.  <br/> |
    
  **테이블 S: 가상 네트워크의 서브넷**
   
@@ -74,14 +74,14 @@ IT 부서에서 가상 네트워크 주소 공간의 이러한 주소 공간을 
   
 |**항목**|**용도**|**서브넷의 IP 주소**|**값**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |첫 번째 도메인 컨트롤러의 고정 IP 주소  <br/> |테이블 S의 항목 1에 정의된 서브넷의 주소 공간에 사용할 수 있는 네 번째 IP 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |두 번째 도메인 컨트롤러의 고정 IP 주소  <br/> |테이블 S의 항목 1에 정의된 서브넷의 주소 공간에 사용할 수 있는 다섯 번째 IP 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |디렉터리 동기화 서버의 고정 IP 주소  <br/> |테이블 S의 항목 1에 정의된 서브넷의 주소 공간에 사용할 수 있는 여섯 번째 IP 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|4.  <br/> |AD FS 서버에 대한 내부 부하 잔액의 고정 IP 주소  <br/> |테이블 S의 항목 2에 정의된 서브넷의 주소 공간에 사용할 수 있는 네 번째 IP 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|5.  <br/> |첫 번째 AD FS 서버의 고정 IP 주소  <br/> |테이블 S의 항목 2에 정의된 서브넷의 주소 공간에 사용할 수 있는 다섯 번째 IP 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|6.  <br/> |두 번째 AD FS 서버의 고정 IP 주소  <br/> |테이블 S의 항목 2에 정의된 서브넷의 주소 공간에 사용할 수 있는 여섯 번째 IP 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|7.  <br/> |첫 번째 웹 응용 프로그램 프록시 서버의 고정 IP 주소  <br/> |테이블 S의 항목 3에 정의된 서브넷의 주소 공간에 사용할 수 있는 네 번째 IP 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|8.  <br/> |두 번째 웹 응용 프로그램 프록시 서버의 고정 IP 주소  <br/> |테이블 S의 항목 3에 정의된 서브넷의 주소 공간에 사용할 수 있는 다섯 번째 IP 주소입니다.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |첫 번째 도메인 컨트롤러의 고정 IP 주소  <br/> |테이블 S의 항목 1에 정의된 서브넷의 주소 공간에 사용할 수 있는 네 번째 IP 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |두 번째 도메인 컨트롤러의 고정 IP 주소  <br/> |테이블 S의 항목 1에 정의된 서브넷의 주소 공간에 사용할 수 있는 다섯 번째 IP 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |디렉터리 동기화 서버의 고정 IP 주소  <br/> |테이블 S의 항목 1에 정의된 서브넷의 주소 공간에 사용할 수 있는 여섯 번째 IP 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|4.  <br/> |AD FS 서버에 대한 내부 부하 잔액의 고정 IP 주소  <br/> |테이블 S의 항목 2에 정의된 서브넷의 주소 공간에 사용할 수 있는 네 번째 IP 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|5.  <br/> |첫 번째 AD FS 서버의 고정 IP 주소  <br/> |테이블 S의 항목 2에 정의된 서브넷의 주소 공간에 사용할 수 있는 다섯 번째 IP 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|6.  <br/> |두 번째 AD FS 서버의 고정 IP 주소  <br/> |테이블 S의 항목 2에 정의된 서브넷의 주소 공간에 사용할 수 있는 여섯 번째 IP 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|7.  <br/> |첫 번째 웹 응용 프로그램 프록시 서버의 고정 IP 주소  <br/> |테이블 S의 항목 3에 정의된 서브넷의 주소 공간에 사용할 수 있는 네 번째 IP 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|8.  <br/> |두 번째 웹 응용 프로그램 프록시 서버의 고정 IP 주소  <br/> |테이블 S의 항목 3에 정의된 서브넷의 주소 공간에 사용할 수 있는 다섯 번째 IP 주소입니다.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
    
  **테이블 I: 가상 네트워크의 고정 IP 주소**
   
@@ -89,8 +89,8 @@ IT 부서에서 가상 네트워크 주소 공간의 이러한 주소 공간을 
   
 |**항목**|**DNS 서버 식별 이름**|**DNS 서버 IP 주소**|
 |:-----|:-----|:-----|
-|1.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
    
  **테이블 D: 온-프레미스 DNS 서버**
   
@@ -100,9 +100,9 @@ IT 부서에서 가상 네트워크 주소 공간의 이러한 주소 공간을 
   
 |**항목**|**로컬 네트워크 주소 공간**|
 |:-----|:-----|
-|1.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
    
  **테이블 L: 로컬 네트워크의 주소 접두사**
   
@@ -149,10 +149,10 @@ Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
   
 |**항목**|**리소스 그룹 이름**|**용도**|
 |:-----|:-----|:-----|
-|1.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |도메인 컨트롤러  <br/> |
-|2.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |AD FS 서버  <br/> |
-|3.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |웹 응용 프로그램 프록시 서버  <br/> |
-|4.  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |인프라 구성 요소  <br/> |
+|1.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |도메인 컨트롤러  <br/> |
+|2.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |AD FS 서버  <br/> |
+|3.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |웹 응용 프로그램 프록시 서버  <br/> |
+|4.  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |인프라 구성 요소  <br/> |
    
  **테이블 R: 리소스 그룹**
   
@@ -275,9 +275,9 @@ Get-AzPublicIpAddress -Name $publicGatewayVipName -ResourceGroupName $rgName
   
 |**항목**|**용도**|**가용성 집합 이름**|
 |:-----|:-----|:-----|
-|1.  <br/> |도메인 컨트롤러  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|2.  <br/> |AD FS 서버  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |웹 응용 프로그램 프록시 서버  <br/> |![라인](../media/Common-Images/TableLine.png)  <br/> |
+|1.  <br/> |도메인 컨트롤러  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|2.  <br/> |AD FS 서버  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |웹 응용 프로그램 프록시 서버  <br/> |![선을 다.](../media/Common-Images/TableLine.png)  <br/> |
    
  **테이블 A: 가용성 집합**
   
@@ -302,7 +302,7 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
   
 **1단계: 클라이언트용 고가용성 페더맹 인증을 위한 Azure Microsoft 365**
 
-![Azure 인프라를 Microsoft 365 Azure의 고가용성 인증 1단계](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
+![Azure 인프라를 사용하여 Azure의 Microsoft 365 인증에 대한 고가용성 1단계.](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
   
 ## <a name="next-step"></a>다음 단계
 

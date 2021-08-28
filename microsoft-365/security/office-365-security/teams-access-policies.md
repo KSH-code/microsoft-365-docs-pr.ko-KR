@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 18044d469e90137ea14fa2dde9a6afe75e5dd0998d67e015e71d20b049ad30fb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b135c6dd691607dd128bfd83e0d2b484bb3a97ae
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853233"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568063"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>채팅, 그룹 및 Teams 보안에 대한 정책 권장 사항
 
@@ -49,7 +49,7 @@ ms.locfileid: "53853233"
 
 채팅, 그룹 및 콘텐츠 Teams 보호하기 위해 다음 다이어그램에서는 공통 ID 및 장치 액세스 정책에서 업데이트할 정책을 보여 제공합니다. 업데이트할 각 정책에 대해 클라우드 Teams 및 종속 서비스가 클라우드 앱 할당에 포함해야 합니다.
 
-[![사용자 및 해당 종속 서비스에 대한 액세스를 Teams 정책 업데이트 요약](../../media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
+[![사용자 및 해당 종속 서비스에 대한 액세스를 보호하기 위한 Teams 업데이트 요약입니다.](../../media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
 
 이러한 서비스는 비즈니스용 클라우드 앱 할당에 포함할 종속 Teams.
 
@@ -79,7 +79,7 @@ ms.locfileid: "53853233"
 
 참조를 위해 다음 다이어그램에서는 사용하는 서비스를 Teams 있습니다. 자세한 내용은 IT 설계자용 Microsoft Teams 및 관련 생산성 Microsoft 365 [참조하세요.](../../solutions/productivity-illustrations.md)
 
-[![Teams, 비즈니스용 OneDrive 및 SharePoint 종속성 Exchange](../../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
+[![Teams, Teams 및 SharePoint 종속성 비즈니스용 OneDrive 다이어그램을 Exchange.](../../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
 [이 이미지의 더 큰 버전 참조](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
@@ -144,7 +144,7 @@ Teams 통해 채널 또는 개인 채팅과 같은 다양한 장소에서 앱을
 
 ## <a name="next-steps"></a>다음 단계
 
-![4단계: 클라우드 Microsoft 365 정책](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![4단계: 클라우드 Microsoft 365 정책.](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 조건부 액세스 정책 구성:
 

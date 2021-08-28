@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: 항목의 설정 Microsoft Viva 방법
-ms.openlocfilehash: fedf5efd6021dc425dcd7c26666edb66b1b780d6
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: fc5647b65a62afdff55c22b8a8b5526a7ddfa14a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568699"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>항목 Microsoft Viva 설정
 
@@ -53,7 +53,7 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
 4. 앱 **아래에서** **Graph(Viva 항목)** 및 **Viva** 항목을 사용하여 커넥터 검색을 모두 선택해야 합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![Microsoft Viva 항목의 Microsoft 365 관리 센터](../media/topic-experiences-licenses.png)
+   > ![Microsoft Viva 항목 라이선스를 Microsoft 365 관리 센터.](../media/topic-experiences-licenses.png)
 
 5. **변경 내용 저장** 을 클릭합니다.
 
@@ -72,7 +72,7 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
 
 3. 사용자 **커넥트** 페이지에서 시작을 클릭하여 설정  프로세스를 진행합니다.
 
-    ![시작](../media/k-get-started.png) 
+    ![시작.](../media/k-get-started.png) 
 
 4. **Viva 항목을 찾는 방법** 선택 페이지에서 항목 검색을 구성합니다. 검색 **SharePoint** 원본 선택 섹션에서 SharePoint 항목의 원본으로 크롤링할 사이트를 선택합니다. 다음 중 선택:
     - **모든 사이트**: 조직의 모든 SharePoint 사이트입니다. 여기에는 현재 사이트와 향후 사이트가 포함됩니다.
@@ -80,13 +80,13 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
     - **선택한 사이트만:** 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 이후에 생성된 사이트는 토픽 검색의 원본으로 포함되지 않습니다.
     - **사이트 없음**: SharePoint 사이트는 포함하지 않습니다.
 
-    ![항목을 찾는 방법 선택](../media/ksetup1.png) 
+    ![항목을 찾는 방법을 선택하십시오.](../media/ksetup1.png) 
    
 5. 이름 **항목 제외 섹션에서** 항목 검색에서 제외하려는 항목의 이름을 추가할 수 있습니다. 이 설정을 사용하여 중요한 정보가 항목으로 포함되지 않도록 합니다. 다음과 같은 옵션이 있습니다.
     - **항목을 제외하지 않습니다.** 
     - **이름으로 토픽 제외**
 
-    ![제외 항목](../media/topics-excluded-by-name.png) 
+    ![항목을 제외합니다.](../media/topics-excluded-by-name.png) 
 
     (기술 관리자는 검색 후 항목 센터의 항목을 제외할 수 있습니다.)
 
@@ -94,7 +94,7 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
 
     항목을 제외해야 하는 경우 이름으로 항목 제외를 선택한 후 .csv 템플릿을 다운로드하고 검색 결과에서 제외하려는 항목 목록으로 업데이트합니다.
 
-    ![CSV 템플릿에서 항목 제외](../media/exclude-topics-csv.png) 
+    ![CSV 서식 파일에서 항목을 제외합니다.](../media/exclude-topics-csv.png) 
 
     CSV 템플릿에서 제외할 토픽에 대한 다음 정보를 입력합니다.
 
@@ -140,7 +140,7 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
 
    **다음** 을 선택합니다.
 
-   ![기술 센터 만들기](../media/ksetup4.png)  
+   ![기술 센터를 만드시다.](../media/ksetup4.png)  
 
 10. **검토 및 마침** 페이지에서 선택한 설정을 보고 변경하도록 선택할 수 있습니다. 원하는 항목을 선택한 경우 **활성화** 를 선택합니다.
 
@@ -148,7 +148,7 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
 
 12. You'll be returned to your **커넥트 people to knowledge** page. 이 페이지에서 **관리** 를 선택하여 구성 설정을 변경할 수 있습니다. 
 
-    ![설정 적용](../media/ksetup7.png)    
+    ![설정.](../media/ksetup7.png)    
 
 ## <a name="manage-topic-experiences"></a>항목 환경 관리
 

@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 778ff1aebf7ea0a559d2ec5fb036de7218865df9
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: d7474a3cb2f04627c5da16f84dbde6d195021551
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256885"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569924"
 ---
 # <a name="review-architecture-requirements-and-key-concepts-for-microsoft-defender-for-identity"></a>Microsoft Defender for Identity에 대한 아키텍처 요구 사항 및 주요 개념 검토
 
@@ -46,7 +46,7 @@ Id에 대한 Defender는 Azure AD(Active Directory)에 동기화된 사용자 �
 
 다음 다이어그램은 Id용 Defender에 대한 기준 아키텍처를 보여 제공합니다. 
 
-![Id용 Microsoft Defender 아키텍처](../../media/defender/m365-defender-identity-architecture.png)
+![Id용 Microsoft Defender의 아키텍처입니다.](../../media/defender/m365-defender-identity-architecture.png)
 
 이 그림에서는 다음을 참조합니다.
 - AD 도메인 컨트롤러에 설치된 센서는 로그 및 네트워크 트래픽을 구문 분석하고 분석 및 보고를 위해 ID를 위해 Microsoft Defender로 전송합니다.

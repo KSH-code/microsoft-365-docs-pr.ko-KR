@@ -19,12 +19,12 @@ ms.assetid: ''
 description: eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 Office 365 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7b4c5389ec650be18c9f65e7fc85f4166a8eef14
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: b562e3d22557133630fa8c7c7d343432736b9f4f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394591"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569612"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
@@ -60,7 +60,7 @@ ms.locfileid: "58394591"
 
 eDiscovery 또는 콘텐츠 검색을 통해 다음 오류가 발생할 수 있습니다. `This search completed with (#) errors.  Would you like to retry the search on the failed locations?`
 
-![검색 관련 위치 실패 오류 스크린샷](../media/edisc-tshoot-specific-location-search-fails.png)
+![검색 관련 위치 실패 오류 스크린샷.](../media/edisc-tshoot-specific-location-search-fails.png)
 
 ### <a name="resolution"></a>해결 방법
 
@@ -159,7 +159,7 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 이
 
 eDiscovery 검색을 실행하는 경우 "내부 서버 오류(500)가 발생했습니다."와 유사한 오류로 검색이 계속 실패하면 특정 사서함 위치에서만 검색을 다시 실행해야 할 수 있습니다.
 
-![내부 서버 오류 500 스크린샷](../media/edisc-tshoot-error-500.png)
+![내부 서버 오류 500 스크린샷.](../media/edisc-tshoot-error-500.png)
 
 ### <a name="resolution"></a>해결 방법
 

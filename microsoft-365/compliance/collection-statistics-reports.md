@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보고서의 검토 집합에 커밋된 초안 컬렉션 및 컬렉션에 대해 통계 및 보고서에 액세스하고 사용하는 Advanced eDiscovery.
-ms.openlocfilehash: 050c2f026e0d821befde5aa4437a1e1c5ecfcfd2c0ad4c267995f7d2eefb0fac
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d5c1fa3ccb8d9657570b7d0bf3640ac1834248d9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866581"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569108"
 ---
 # <a name="collection-statistics-and-reports-in-advanced-ediscovery"></a>컬렉션 통계 및 보고서의 Advanced eDiscovery
 
@@ -37,7 +37,7 @@ ms.locfileid: "53866581"
 
 이 섹션에는 컬렉션에서 반환된 예상 항목에 대한 그래픽 요약이 표시됩니다. 컬렉션의 검색 조건과 일치하는 항목 수를 나타냅니다. 이 정보는 컬렉션에서 반환되는 예상 항목 수에 대한 아이디어를 제공합니다.
 
-![초안 컬렉션의 예상 컬렉션](../media/AeDCollectionEstimates.png)
+![초안 컬렉션의 예상 컬렉션입니다.](../media/AeDCollectionEstimates.png)
 
 - **위치 기준 예상 항목:** 컬렉션에서 반환된 예상 항목의 총 수입니다. 사서함에 있으며 사이트에 있는 특정 항목 수도 표시됩니다.
 

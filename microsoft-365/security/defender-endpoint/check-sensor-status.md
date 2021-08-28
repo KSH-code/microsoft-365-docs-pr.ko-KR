@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 64643873c9032af92d7093d5d75535cf3af118bc
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: 7d2c18c080f6f8fc313f17a5e2820b8a8b8a69fa
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509548"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568351"
 ---
 # <a name="check-sensor-health-state-in-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender의 센서 상태 확인
 
@@ -43,7 +43,7 @@ ms.locfileid: "58509548"
 
 그룹을 클릭하면 선택에 따라 필터링된 **장치** 목록으로 연결됩니다.
 
-![센서 문제 타일이 있는 장치의 스크린샷](images/atp-devices-with-sensor-issues-tile.png)
+![센서 문제 타일이 있는 장치의 스크린샷.](images/atp-devices-with-sensor-issues-tile.png)
 
 장치 **목록에서** 다음 상태를 사용하여 상태 목록을 필터링할 수 있습니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "58509548"
 > [!NOTE]
 > CSV 형식으로 목록을 내보내 필터되지 않은 데이터를 표시합니다. CSV 파일에는 보기 자체에 적용된 필터링에 관계없이 조직의 모든 장치가 포함되고 조직의 규모에 따라 다운로드하는 데 많은 시간이 걸릴 수 있습니다.
 
-![장치 목록 페이지의 스크린샷](images/atp-devices-list-page.png)
+![장치 목록 페이지의 스크린샷.](images/atp-devices-list-page.png)
 
 잘못 구성되거나 비활성 장치를 클릭할 때 장치 세부 정보를 볼 수 있습니다.
 

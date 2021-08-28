@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: aa083adfc6734ad8fbb230f4fa35097a16698e23
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 402ae897717e935b59f0f63a48f7307a2ff522e4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247419"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568171"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -48,7 +48,7 @@ ms.locfileid: "58247419"
 
 에서 해당 규칙에 대한 보안 권장을 열면 공격 표면 감소 규칙이 네트워크에 어떤 [영향을 줄 수](/windows/security/threat-protection/#tvm)위협 및 취약성 관리.
 
-:::image type="content" source="images/asrrecommendation.png" alt-text="공격 표면 감소 규칙에 대한 보안 다시코":::
+:::image type="content" source="images/asrrecommendation.png" alt-text="공격 표면 감소 규칙에 대한 보안 재코입니다.":::
 
 권장 사항 세부 정보 창에서 사용자 영향을 확인하여 생산성에 부정적인 영향을 주지 않으면서 차단 모드에서 규칙을 사용하도록 설정하는 새 정책을 허용할 수 있는 장치의 비율을 결정할 수 있습니다.
 

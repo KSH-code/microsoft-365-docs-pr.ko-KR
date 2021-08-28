@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 AT&T Mobile Network에서 SMS 및 MMS 데이터를 가져오고 보관할 수 있습니다. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: ec3b134dd5d26848e3a3b00d4aa66f81abc64363268ce91b329dfc7d79fba7f9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e17f5d369eefd5a2d7b2d9b8e55df0d1a4c9714b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820706"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567955"
 ---
 # <a name="set-up-a-connector-to-archive-att-smsmms-data"></a>AT SMS/MMS 데이터를 보관할&설정
 
@@ -29,7 +29,7 @@ SMS 및 MMS 메시지가 사용자 사서함에 저장되고 나면 소송 보�
 
 다음 개요에서는 커넥터를 사용하여 AT&T 네트워크 데이터를 보관하는 Microsoft 365.
 
-![ATT 네트워크 보관 워크플로](../media/ATTNetworkConnectorWorkflow.png)
+![ATT 네트워크 보관 워크플로.](../media/ATTNetworkConnectorWorkflow.png)
 
 1. 조직은 TeleMessage와 함께 AT&T 네트워크 커넥터를 설치합니다. 자세한 내용은 [AT&T Network Archiver 를 참조하세요.](https://www.telemessage.com/office365-activation-for-atnt-network-archiver/)
 

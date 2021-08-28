@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 레거시 파일을 조직의 OME(Office 365 메시지 암호화)로 전환하는 방법을 이해합니다.
-ms.openlocfilehash: 6f2b2719a66449f01b3810c8bb65020c49568248de253a7e35b84c8ae283f220
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 324447fe09280cef52c607613f5db8fb61b4a0b2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53859839"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569792"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Office 365 메시지 암호화 레거시 정보
 
@@ -51,7 +51,7 @@ Office 365 메시지 암호화 Azure RMS(권한 관리)를 Microsoft Azure 온�
   
 다음 다이어그램은 암호화 및 암호 해독 프로세스를 통한 전자 메일 메시지의 흐름이 요약되어 있습니다.
   
-![암호화된 전자 메일의 경로를 보여 주는 다이어그램](../media/O365-Office365MessageEncryption-Concept.png)
+![암호화된 전자 메일의 경로를 보여주는 다이어그램입니다.](../media/O365-Office365MessageEncryption-Concept.png)
   
 자세한 내용은 새 OME 기능 Office 365 메시지 암호화 이전 레거시 서비스에 대한 서비스 [정보를 참조하세요.](legacy-information-for-message-encryption.md#LegacyServiceInfo)
   
@@ -71,7 +71,7 @@ Office 365 메시지 암호화 Azure RMS(권한 관리)를 Microsoft Azure 온�
 
 3. In the Microsoft 365 관리 센터, choose **Admin centers** \> **Exchange.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** \> **이동하고** 새 새 **아이콘을** ![ 선택합니다.](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \>**새 규칙을 만드시다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 
 5. **이름에** 규칙의 이름(예: 사용자에 대한 메일 암호화)을 DrToniRamos@hotmail.com.
 
@@ -127,7 +127,7 @@ Office 365 메시지 암호화 Azure RMS(권한 관리)를 Microsoft Azure 온�
 
 3. In the Microsoft 365 관리 센터, choose **Admin centers** \> **Exchange.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** \> **이동하고** 새 새 **아이콘을** ![ 선택합니다.](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \>**새 규칙을 만드시다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 
 5. **이름에** 규칙의 이름(예: 받는 메일에서 암호화 제거)을 입력합니다.
 
@@ -181,7 +181,7 @@ Office 365 메시지 암호화 Azure RMS(권한 관리)를 Microsoft Azure 온�
 다음 예에서는 전자 메일 첨부 파일에 포함된 ContosoPharma의 사용자 지정 로고를 보여 줍니다.
 
 > [!div class="mx-imgBorder"]
-> ![암호화된 메시지 보기 페이지 예제](../media/TA-OME-3attachment2.jpg)
+> ![암호화된 메시지 보기 페이지의 샘플입니다.](../media/TA-OME-3attachment2.jpg)
   
 **조직의 브랜드를 사용하여 암호화 전자 메일 메시지 및 암호화 포털을 사용자 지정**
   
@@ -193,10 +193,10 @@ Office 365 메시지 암호화 Azure RMS(권한 관리)를 Microsoft Azure 온�
 
    | 암호화 환경에서 사용자 지정하려는 기능 | 사용할 Windows PowerShell 명령 |
    |:-----|:-----|
-   |암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<string of up to 1024 characters>"` <br/> **예:** `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system"` <br/> |
-   |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **예:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
-   |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **예:** `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
-   |로고  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **예:** `Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 최적 로그 이미지 크기: 170x70 픽셀  <br/> |
+   |암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<string of up to 1024 characters>"` <br/> **예제:**`Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system"` <br/> |
+   |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **예제:**`Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
+   |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **예제:**`Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
+   |로고  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **예제:**`Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 최적 로그 이미지 크기: 170x70 픽셀  <br/> |
 
 **암호화 전자 메일 메시지 및 암호화 포털에서 브랜드 사용자 지정을 제거하려면**
   
@@ -208,8 +208,8 @@ Office 365 메시지 암호화 Azure RMS(권한 관리)를 Microsoft Azure 온�
 
    | 암호화 환경의 이 기능을 기본 텍스트 및 이미지로 되돌리려면 | 사용할 Windows PowerShell 명령 |
    |:-----|:-----|
-   |암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> **예:** `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""` <br/> |
-   |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **예:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""` <br/> |
+   |암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> **예제:**`Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""` <br/> |
+   |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **예제:**`Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""` <br/> |
    |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<empty string>"` <br/> **기본값으로 되돌리기 예제:**`Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""` <br/> |
    |로고  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> **기본값으로 되돌리기 예제:**`Set-OMEConfiguration -Identity "OME configuration" -Image $null` <br/> |
 

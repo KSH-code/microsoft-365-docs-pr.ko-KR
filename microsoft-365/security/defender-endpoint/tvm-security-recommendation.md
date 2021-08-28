@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dde4eef3382c3a1c5e22a78b1965c30b46c9749dcb847c707ea418898aa7a3e5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: de94125566985447b10997cd354c7c9aed01630d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863560"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569948"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항 - 위협 및 취약성 관리
 
@@ -92,7 +92,7 @@ ms.locfileid: "53863560"
 유용한 아이콘도 빠르게 주의를 끌 수 있습니다.
 
 - ![대상을 타격하는 화살표](images/tvm_alert_icon.png) 가능한 활성 경고
-- ![빨간색 버그](images/tvm_bug_icon.png) 연결된 공용 악용
+- ![빨간색 버그입니다.](images/tvm_bug_icon.png) 연결된 공용 악용
 - ![전구](images/tvm_insight_icon.png) 권장 정보
 
 ### <a name="explore-security-recommendation-options"></a>보안 권장 옵션 살펴보기

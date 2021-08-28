@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 8c78cf0f8ff49d2b81533e064a16089d8fe75d15
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: edd6aea4aade2378a195aa471ba0aa329afb7582
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400406"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569036"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -50,11 +50,11 @@ ms.locfileid: "58400406"
 
 컨테이너에서 민감도 레이블을 사용하도록 설정하고 새 설정에 대한 민감도 레이블을 구성하기 전에 사용자는 앱에서 민감도 레이블을 보고 적용할 수 있습니다. 예를 들어, Word에서 다음을 수행할 수 있습니다.
 
-![Word 데스크톱 앱에 표시되는 민감도 레이블](../media/sensitivity-label-word.png)
+![Word 데스크톱 앱에 표시되는 민감도 레이블.](../media/sensitivity-label-word.png)
 
 컨테이너에서 민감도 레이블을 활성화하고 구성한 후 사용자는 Microsoft Teams 사이트, Microsoft 365 그룹 및 SharePoint 사이트에 대한 민감도 레이블을 추가로 확인하고 적용할 수 있습니다.
 
-![SharePoint에서 팀 사이트를 만들 때의 민감도 레이블](../media/sensitivity-labels-new-team-site.png)
+![SharePoint에서 팀 사이트를 만들 때의 민감도 레이블.](../media/sensitivity-labels-new-team-site.png)
 
 ## <a name="how-to-enable-sensitivity-labels-for-containers-and-synchronize-labels"></a>컨테이너에서 민감도 레이블을 사용하도록 설정하고 레이블을 동기화하는 방법
 
@@ -78,7 +78,7 @@ ms.locfileid: "58400406"
 
 1. 일반 지침에 따라 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)하고 레이블 범위에 대한 **그룹 및 사이트** 를 반드시 선택합니다. 
     
-    ![파일 및 전자 메일에 대한 민감도 레이블 범위 옵션](../media/groupsandsites-scope-options-sensitivity-label.png)
+    ![파일 및 전자 메일에 대한 민감도 레이블 범위 옵션.](../media/groupsandsites-scope-options-sensitivity-label.png)
     
     해당 레이블에 이 범위만 선택된 경우, 레이블은 민감도 레이블을 지원하는 Office 앱에서 표시되지 않으며 파일 및 전자 메일에 적용할 수 없습니다. 레이블의 분리는 사용자와 관리자 모두에게 도움이 될 수 있지만 레이블 배포의 복잡성을 추가할 수도 있습니다.
     
@@ -241,7 +241,7 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
 
 [Teams용 민감도 레이블에 대해 자세히 알아보기](/microsoftteams/sensitivity-labels)
 
-![새 팀을 만드는 경우 개인 정보 설정](../media/privacy-setting-new-team.png)
+![새 팀을 만드는 경우 개인 정보 설정.](../media/privacy-setting-new-team.png)
 
 팀을 만든 후에는 모든 채널의 우측 상단 모서리에 민감도 레이블이 표시됩니다.
 
@@ -253,19 +253,19 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
 
 웹용 Outlook에서 새 그룹을 만들 때 게시된 레이블에 대한 **민감도** 옵션을 선택하거나 변경할 수 있습니다.
 
-![그룹 만들기 및 민감도 아래의 옵션 선택](../media/sensitivity-label-new-group.png)
+![그룹 만들기 및 민감도 아래의 옵션 선택.](../media/sensitivity-label-new-group.png)
 
 ### <a name="apply-a-sensitivity-label-to-a-new-site"></a>새 사이트에 민감도 레이블을 적용
 
 관리자 및 최종 사용자는 [최신 팀 사이트 및 커뮤니케이션 사이트를 만들고](/sharepoint/create-site-collection), **고급 설정** 을 확장하는 경우 민감도 레이블을 선택할 수 있습니다.
 
-![사이트 만들기 및 민감도 아래의 옵션 선택](../media/sensitivity-label-new-communication-site.png)
+![사이트 만들기 및 민감도 아래의 옵션 선택.](../media/sensitivity-label-new-communication-site.png)
 
 드롭다운 상자에는 선택에 대한 레이블 이름이 표시되고 도움말 아이콘에는 사용자가 적용할 올바른 레이블을 결정할 수 있도록 도구 설명과 함께 모든 레이블 이름이 표시됩니다.
 
 레이블이 적용되고, 사용자가 사이트로 이동할 때 레이블의 이름과 적용된 정책을 볼 수 있습니다. 예를 들어 이 사이트에는 **기밀** 레이블이 지정되고 개인 정보 설정은 **비공개** 로 설정 됩니다.
 
-![민감도 레이블이 적용된 사이트](../media/sensitivity-label-site.png)
+![민감도 레이블이 적용된 사이트.](../media/sensitivity-label-site.png)
 
 ### <a name="use-powershell-to-apply-a-sensitivity-label-to-multiple-sites"></a>PowerShell을 사용하여 여러 사이트에 민감도 레이블 적용하기
 
@@ -305,7 +305,7 @@ SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 �
 
 적용된 민감도 레이블을 보고, 정렬하고, 검색하려면 새 SharePoint 관리 센터의 **활성 사이트** 페이지를 사용합니다. 먼저 **민감도** 열을 추가해야 할 수 있습니다.
 
-![활성 사이트 페이지의 민감도 열](../media/manage-site-sensitivity-labels.png)
+![활성 사이트 페이지의 민감도 열.](../media/manage-site-sensitivity-labels.png)
 
 열을 추가하는 방법을 포함하여 활성 사이트 페이지에서 사이트를 관리하는 방법에 대한 자세한 내용은 [새 SharePoint 관리 센터에서 사이트 관리하기](/sharepoint/manage-sites-in-new-admin-center)를 참조하세요.
 

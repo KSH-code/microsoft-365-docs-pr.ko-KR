@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 자세한 내용은 Advanced eDiscovery 솔루션에 대해 Microsoft 365. 이 문서에서는 내부 및 외부 Advanced eDiscovery 관리하는 Microsoft 365 도구인 2016의 개요를 제공합니다. 또한 법적 조사를 관리하는 데 Advanced eDiscovery 비즈니스 이유에 대한 프레임을 틀 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 611748b00df53f4988d37e92a93e63ef8348d9937f8092209c6b2320939c3af0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 59052e862e84b5cf9eabdf2cdce58e8e743887ee
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895517"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569768"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>개요 Microsoft 365 Advanced eDiscovery
 
@@ -37,7 +37,7 @@ Advanced eDiscovery 데이터를 검색하여 조직이 법적 문제 또는 내
 
 다음 섹션에서는 이러한 Advanced eDiscovery 기능이 조직에 어떻게 도움이 되는지 설명합니다.
 
-![Advanced eDiscovery 기능](../media/advanced-ediscovery-capabilities.png)
+![Advanced eDiscovery 기능을 제공합니다.](../media/advanced-ediscovery-capabilities.png)
 
 ### <a name="discover-and-collect-data-in-place"></a>데이터 검색 및 원본치 수집
 
@@ -122,7 +122,7 @@ Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM �
 
 두 가지 빠르고 쉬운 단계로 시작할 수 Advanced eDiscovery.
 
-![워크플로 시작 Advanced eDiscovery](../media/get-started-AeD.png)
+![워크플로 시작 Advanced eDiscovery.](../media/get-started-AeD.png)
 
 |단계  |설명  |
 |:---------|:---------|
@@ -134,7 +134,7 @@ Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM �
 
 다음은 단일 Advanced eDiscovery 및 다중 위치 환경의 종단-종단식 워크플로와 [EDRM에](#advanced-ediscovery-alignment-with-the-electronic-discovery-reference-model)맞게 조정된 종단-종단 데이터 흐름을 보여 줍니다.
 
-[![모델 포스터: Advanced eDiscovery 아키텍처를 Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+[![모델 포스터: Advanced eDiscovery 아키텍처를 Microsoft 365.](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
 
 [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
 

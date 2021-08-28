@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 데이터 커넥터를 설정하여 조직의 물리적 배지 시스템에서 데이터 원본으로 데이터를 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책에서 이 데이터를 사용하여 조직에 대한 내부 위협을 나타낼 수 있는 특정 사용자의 실제 건물 액세스를 검색할 수 있습니다.
-ms.openlocfilehash: 800614ef38e065027238d32bf877a059e2022378a1a86b2f33c6f11f3827de2a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ae513d01917c0fe4148d265865a77775a5ff2555
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895443"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567931"
 ---
 # <a name="set-up-a-connector-to-import-physical-badging-data-preview"></a>물리적 배지 데이터를 가져오는 커넥터 설정(미리 보기)
 
@@ -219,7 +219,7 @@ JSON 파일은 커넥터에 필요한 Schema 정의를 준수해야 합니다. J
 
 2. 커넥터 **탭을** 클릭한 다음 실제 배지 커넥터를 선택하여 플라이아웃 페이지를 표시합니다. 이 페이지에는 커넥터에 대한 속성과 정보가 포함되어 있습니다.
 
-   ![실제 배지 커넥터에 대한 상태 플라이아웃 페이지](..\media\PhysicalBadgingStatusFlyout.png)
+   ![실제 배지 커넥터의 상태 플라이아웃 페이지입니다.](..\media\PhysicalBadgingStatusFlyout.png)
 
 3. 마지막 **가져오기 아래에서** 로그 다운로드 링크를 클릭하여 커넥터의 상태 로그를 열거나 저장합니다.  이 로그에는 스크립트를 실행하고 CSV 파일의 데이터를 Microsoft 클라우드에 업로드할 때마다 대한 정보가 포함되어 있습니다.
 

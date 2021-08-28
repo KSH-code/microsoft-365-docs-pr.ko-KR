@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 가시성 및 인사이트를 시작합니다.
-ms.openlocfilehash: 63b55b6c943d1ccd274477aff9b3327f58aade5da9e6fd4b89db2c73c21d809c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 30871804c9e8cf4e548698ecb326917baef36c37
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887066"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569660"
 ---
 # <a name="get-started-with-visibility-and-insights"></a>가시성 및 인사이트 시작
 
@@ -27,7 +27,7 @@ ms.locfileid: "53887066"
 
 가장 먼저 시작할 곳은 [https://aka.ms/appgovernance](https://aka.ms/appgovernance)의 앱 거버넌스 대시보드입니다. 앱 거버넌스 데이터를 보려면 로그인 계정에 [이와 같은 앱 거버넌스 관리자 역할 ](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
 
-![Microsoft 365 준수 센터의 앱 거버넌스 개요 페이지](..\media\manage-app-protection-governance\mapg-cc-overview.png)
+![Microsoft 365 준수 센터의 앱 거버넌스 개요 페이지.](..\media\manage-app-protection-governance\mapg-cc-overview.png)
 
 **Office 365 > Microsoft 365 준수 센터 > 앱 거버넌스 > 개요 페이지** 에서 앱 거버넌스 대시보드에 액세스할 수도 있습니다.
 

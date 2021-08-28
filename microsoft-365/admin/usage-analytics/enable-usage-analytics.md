@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 테넌트에 대한 데이터 수집을 시작하는 방법을 Power BI.
-ms.openlocfilehash: 4d569c40283eb7f88c734de91821e1fe7a7793ab
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 6c2dfef0d925df92316d407e5a425a7ddfa03952
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569684"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -84,7 +84,7 @@ Microsoft 365 US 정부 커뮤니티 클라우드(GCC) 테넌트에서 Microsoft
 
 7. 다음 화면에서 인증 방법 **로그인으로 OAuth2를**  \> **선택합니다.** 다른 인증 방법을 선택하면 템플릿 앱에 대한 연결이 실패합니다.
 
-    ![인증 방법으로 Microsoft 계정 선택](../../media/ab6f0463-c3f7-4088-a605-67c699fa86adnew.png)
+    ![인증 방법으로 Microsoft 계정을 선택하세요.](../../media/ab6f0463-c3f7-4088-a605-67c699fa86adnew.png)
 
 8. 템플릿 앱을 인스턴스화한 후 Microsoft 365 사용 현황 분석 대시보드를 웹의 Power BI 사용할 수 있습니다. 대시보드의 초기 로드에는 2~30분 정도 걸립니다.
 

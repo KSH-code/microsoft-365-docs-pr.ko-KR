@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da726aeaf82f13cef862b105e951f28c9fdf80e3
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 43b15b8fb43a06fa56e18c735868058fcfd6d24f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533054"
+ms.locfileid: "58568555"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics-in-microsoft-365-defender"></a>위협 분석을 사용하여 새로운 위협을 추적하고 Microsoft 365 Defender 
 
@@ -54,7 +54,7 @@ ms.locfileid: "58533054"
 
 보안 포털의 탐색 모음 왼쪽 위 또는 Microsoft 365 가장 큰 위협을 표시하는 전용 대시보드 카드에서 위협 분석에 액세스할 수 있습니다. 활성 또는 지속적인 캠페인에 대한 가시성을 확보하고 위협 분석을 통해 무엇을 할지 알면 보안 운영 팀에 정보를 제공한 결정을 내리는 데 도움이 될 수 있습니다. 
 
-![위협 분석 대시보드의 이미지](../../media/threat-analytics/ta_inlandingpage_mtp.png)
+![위협 분석 대시보드의 이미지입니다.](../../media/threat-analytics/ta_inlandingpage_mtp.png)
 
 _위협 분석에 액세스하는 위치_
 
@@ -78,7 +78,7 @@ _위협 분석에 액세스하는 위치_
 
 대시보드에서 위협을 선택하여 해당 위협에 대한 보고서를 볼 수 있습니다.
 
-![위협 분석 대시보드 스크린샷](../../media/threat-analytics/ta_dashboard_mtp.png)
+![위협 분석 대시보드의 스크린샷.](../../media/threat-analytics/ta_dashboard_mtp.png)
 
 _위협 분석 대시보드. 검색 아이콘을 클릭하여 읽은 위협 분석 보고서와 관련된 키워드의 키를 클릭할 수도 있습니다._ 
 
@@ -97,7 +97,7 @@ _위협 분석 대시보드. 검색 아이콘을 클릭하여 읽은 위협 분�
 
 개요 **섹션에서는** 자세한 분석 보고서의 미리 보기를 제공합니다. 또한 잘못 구성 및 패치되지 않은 장치를 통해 조직에 위협이 미치는 영향과 노출을 강조하는 차트도 제공합니다.
 
-![위협 분석 보고서의 개요 섹션 이미지](../../media/threat-analytics/ta_overview_mtp.png)
+![위협 분석 보고서의 개요 섹션 이미지입니다.](../../media/threat-analytics/ta_overview_mtp.png)
 
 _위협 분석 보고서의 개요 섹션_
 
@@ -138,15 +138,15 @@ Microsoft 위협 인텔리전스 팀에서 각 위협 보고서에 위협 태그
   - 활동 그룹
 - 위협 태그는 위협 분석 페이지의 맨 위에 표시하고 각 태그 아래에 사용 가능한 보고서 수에 대한 카운터를 제공합니다.
 
-  ![위협 태그](../../media/threat-analytics/ta-threattags-mtp.png)
+  ![위협 태그.](../../media/threat-analytics/ta-threattags-mtp.png)
 
 - 위협 태그를 사용하여 목록을 정렬할 수도 있습니다.
 
-  ![lists](../../media/threat-analytics//ta-taglist-mtp.png)
+  ![lists.](../../media/threat-analytics//ta-taglist-mtp.png)
 
 - 필터는 위협 태그 및 보고서 유형별로 사용할 수 있습니다.
 
-  ![filters](../../media/threat-analytics/ta-threattag-filters-mtp.png)
+  ![filters.](../../media/threat-analytics/ta-threattag-filters-mtp.png)
 
 ### <a name="analyst-report-get-expert-insight-from-microsoft-security-researchers"></a>분석가 보고서: Microsoft 보안 연구원으로부터 전문가 인사이트 얻기
 
@@ -159,7 +159,7 @@ Microsoft 위협 인텔리전스 팀에서 각 위협 보고서에 위협 태그
 관련 **인시던트 탭은** 추적된 위협과 관련된 모든 인시던트 목록을 제공합니다. 인시던트를 할당하거나 각 인시던트에 연결된 알림을 관리할 수 있습니다. 
 
 
-![위협 분석 보고서의 관련 인시던트 섹션 이미지](../../media/threat-analytics/ta_related_incidents_mtp.png)
+![위협 분석 보고서의 관련 인시던트 섹션 이미지입니다.](../../media/threat-analytics/ta_related_incidents_mtp.png)
 
 _위협 분석 보고서의 관련 인시던트 섹션_
 
@@ -170,7 +170,7 @@ _위협 분석 보고서의 관련 인시던트 섹션_
 - **영향을 미치는 장치**- 끝점 경고에 대한 Microsoft Defender를 해결하지 않은 끝점입니다. 이러한 경고는 일반적으로 알려진 위협 표시기 및 활동을 볼 때 발생됩니다.
 - **영향을 받는 사서함**- 경고에 대해 Microsoft Defender를 트리거한 전자 메일 메시지를 받은 Office 365. 경고를 트리거하는 대부분의 메시지는 일반적으로 차단되는 반면, 사용자 수준 정책은 필터를 대체할 수 있습니다.
 
-![위협 분석 보고서의 영향을 미치는 자산 섹션 이미지](../../media/threat-analytics/ta_impacted_assets_mtp.png)
+![위협 분석 보고서의 영향을 미치는 자산 섹션의 이미지입니다.](../../media/threat-analytics/ta_impacted_assets_mtp.png)
 
 _위협 분석 보고서의 영향을 미치는 자산 섹션_
 
@@ -180,7 +180,7 @@ Microsoft Defender for Office 365 악성 링크 또는 첨부 파일을 포함�
 
 **금지된** 전자 메일 시도 탭에는 배달 전에 차단되거나 Microsoft Defender에서 정크 메일 폴더로 전송한 모든 전자 메일이 Office 365. 
 
-![위협 분석 보고서의 방지된 전자 메일 시도 섹션 이미지](../../media/threat-analytics/ta_prevented_email_attempts_mtp.png)
+![위협 분석 보고서의 금지된 전자 메일 시도 섹션 이미지입니다.](../../media/threat-analytics/ta_prevented_email_attempts_mtp.png)
 
 _위협 분석 보고서의 전자 메일 시도 방지 섹션_
 
@@ -196,9 +196,9 @@ _위협 분석 보고서의 전자 메일 시도 방지 섹션_
 
 이 섹션의 완화 정보는 보고서의 [](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)다양한 링크에 위협 및 취약성 관리 자세한 드릴다운 정보도 제공하는 위협 및 취약성 관리 데이터를 통합합니다.
 
-![보안 구성 세부 정보를 보여주는 위협 분석 보고서의 완화 섹션 이미지](../../media/threat-analytics/ta_mitigations_mtp.png)
+![보안 구성 세부 정보를 표시하는 위협 분석 보고서의 완화 섹션 이미지입니다.](../../media/threat-analytics/ta_mitigations_mtp.png)
 
-![취약점 세부 정보를 보여주는 위협 분석 보고서의 완화 섹션 이미지](../../media/threat-analytics/ta_mitigations_mtp2.png)
+![취약점 세부 정보를 보여주는 위협 분석 보고서의 완화 섹션 이미지입니다.](../../media/threat-analytics/ta_mitigations_mtp2.png)
 
 _위협 분석 보고서의 완화 섹션_
 

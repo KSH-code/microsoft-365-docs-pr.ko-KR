@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 서비스 암호화가 고객 키와 함께 작동하는 방식에 대해 Microsoft 365.
-ms.openlocfilehash: 291f1161eb820efe6bc09149ae73b911888013844d9c2dd107b357018ba6a51f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4798c3fb2193fbd3c513a16246e288fb8e9177c4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842603"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568411"
 ---
 # <a name="service-encryption-with-customer-key"></a>고객 키를 사용한 서비스 암호화
 
@@ -95,11 +95,11 @@ DEP는 사용자 사서함에 대한 라이선스 요구 사항을 충족하는 
 
 #### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Exchange Online 암호화하는 데 사용되는 암호화 비즈니스용 Skype
 
-![고객 키에 대한 Exchange Online 암호화](../media/customerkeyencryptionhierarchiesexchangeskype.png)
+![고객 키에 대한 Exchange Online 암호화입니다.](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 #### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>SharePoint Online, 비즈니스용 OneDrive 및 Teams 암호화
 
-![온라인 고객 SharePoint 암호화](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![온라인 고객 SharePoint 암호화.](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>관련 문서
 

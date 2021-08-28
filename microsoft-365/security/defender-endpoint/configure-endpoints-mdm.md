@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7628a46a2a6d166dcc37b551f2effcb42367084f
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 145a22d0fdc37072f6f3047d3694e770bf9fb01a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533126"
+ms.locfileid: "58568339"
 ---
 # <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>모바일 Windows 10 관리 도구를 사용하여 디바이스 온보드
 
@@ -45,7 +45,7 @@ MDM과 함께 MDM을 사용하도록 설정하는 Microsoft Intune 장치 [등�
 
 ## <a name="onboard-devices-using-microsoft-intune"></a>디바이스를 사용하여 장치 온보 Microsoft Intune
 
-[![끝점용 Defender에 온보딩 장치를 표시하는 PDF Microsoft Intune](images/onboard-intune.png)](images/onboard-intune-big.png#lightbox)
+[![온보딩 장치를 사용하여 끝점용 Defender에 대한 온보딩 장치를 표시하는 PDF Microsoft Intune.](images/onboard-intune.png)](images/onboard-intune-big.png#lightbox)
 
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 

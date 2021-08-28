@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 6b1d684687c271150fa7e297c0a243ba61bd1b39
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: d67d92029ccb4da6711010b291dc2ad71bcaff70
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569888"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 통해 보안 환경 평가
 
@@ -44,7 +44,7 @@ Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, �
 
 Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가 분할된 방법과 사용 가능한 포인트를 들을 수 있습니다. 또한 총 점수, 벤치마크 비교를 통해 보안 점수의 기록 추세, 점수를 개선하기 위해 수행할 수 있는 우선 순위가 높은 개선 작업에 대한 전체 보기를 얻을 수도 있습니다.
 
-![보안 점수 홈페이지](../../media/secure-score/secure-score-home-page.png)
+![보안 점수 홈페이지입니다.](../../media/secure-score/secure-score-home-page.png)
 
 ## <a name="check-your-current-score"></a>현재 점수 확인
 
@@ -60,7 +60,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 이 보기는 가능한 모든 점수 보기를 포함하면 다음과 같이 표시됩니다.
 
-![계획된 점수, 현재 라이선스 점수 및 달성 가능한 점수를 포함한 보안 점수](../../media/secure-score/secure-score-achievable.png)
+![계획된 점수, 현재 라이선스 점수 및 달성 가능한 점수를 포함한 보안 점수입니다.](../../media/secure-score/secure-score-achievable.png)
 
 ## <a name="take-action-to-improve-your-score"></a>점수 향상을 위한 조치 수행
 
@@ -74,7 +74,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 특정 개선 작업을 선택하면 전체 페이지 플라이아웃이 나타납니다.  
 
-![개선 작업 플라이아웃 예제](../../media/secure-score/secure-score-improvement-action-details.png)
+![개선 작업 플라이아웃 예제.](../../media/secure-score/secure-score-improvement-action-details.png)
 
 작업을 완료하기 위해 다음과 같은 몇 가지 옵션이 있습니다.
 

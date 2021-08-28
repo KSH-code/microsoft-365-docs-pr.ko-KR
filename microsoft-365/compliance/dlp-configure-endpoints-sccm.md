@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configuration Manager를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
-ms.openlocfilehash: febe5148d6f4a341cd29d3950bc319d36bcfa0a6f0d4a4afe2c4ebb9038613b0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 309f6b7ee396baba0fcec0061d48f062510d7350
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569804"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>구성 관리자를 사용하여 Windows 10 장치 온보딩
 
@@ -182,7 +182,7 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 
     배포에 실패한 **경우(오류,** 요구 사항이 충족되지 않은 장치 **또는** 실패 상태인 **장치)** 장치 문제를 해결해야 할 수 있습니다. 자세한 내용은 Microsoft [Defender Advanced Threat Protection 온보딩 문제 해결을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
 
-    ![오류 없는 성공적인 배포를 보여주는 Configuration Manager](../media/sccm-deployment.png)
+    ![오류 없는 성공적인 배포를 보여 주는 Configuration Manager입니다.](../media/sccm-deployment.png)
 
 ### <a name="check-that-the-devices-are-compliant-with-the-microsoft-365-endpoint-data-loss-prevention-service"></a>장치가 끝점 데이터 손실 방지 Microsoft 365 준수하는지 확인
 

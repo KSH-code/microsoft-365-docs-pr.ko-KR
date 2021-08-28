@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: a403cfa7e4e2348827a9ff7f127a815c5ec4fdca0a239716dfc8453e16d116d8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5a38f1347c959cd52e0ae393fa60b4e9c371eb2a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569996"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 헌팅 이벤트를 사용자 계정으로 스트리밍하도록 끝점에 대한 Microsoft Defender Storage 구성
 
@@ -54,7 +54,7 @@ ms.locfileid: "53793049"
 
 6. 계정 Storage **ID를 입력합니다.** 계정 리소스 ID를 [Storage하려면 Azure](https://ms.portal.azure.com/) > Portal Storage 속성 탭의 Storage 계정 페이지로 이동하고 > 계정 리소스 **ID의** Storage **복사합니다.**
 
-   ![이벤트 허브 리소스 ID1의 이미지](images/storage-account-resource-id.png)
+   ![이벤트 허브 리소스 ID1의 이미지입니다.](images/storage-account-resource-id.png)
 
 7. 스트리밍할 이벤트를 선택하고 저장을 **클릭합니다.**
 
@@ -62,7 +62,7 @@ ms.locfileid: "53793049"
 
 - 각 이벤트 유형에 대해 Blob 컨테이너가 만들어집니다. 
 
-  ![이벤트 허브 리소스 ID2의 이미지](images/storage-account-event-schema.png)
+  ![이벤트 허브 리소스 ID2의 이미지입니다.](images/storage-account-event-schema.png)
 
 - Blob에 있는 각 행의 Schema는 다음과 같은 JSON입니다. 
 
@@ -99,9 +99,9 @@ ms.locfileid: "53793049"
 
 - 장치 정보 이벤트의 예는 다음과 같습니다. 
 
-  ![이벤트 허브 리소스 ID3의 이미지](images/machine-info-datatype-example.png)
+  ![이벤트 허브 리소스 ID3의 이미지입니다.](images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [끝점 스트리밍 API용 Microsoft Defender](raw-data-export.md)
 - [Azure 저장소 계정으로 Endpoint용 Microsoft Defender 이벤트 스트림](raw-data-export-storage.md)

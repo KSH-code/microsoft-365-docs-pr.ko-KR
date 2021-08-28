@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 0de5817d4eb741885be6e43133b0886e90488bd4af04699a8c9dd970fbae8491
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a247aac370ba65e4ede48b0232ded1d93f6e8b99
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793337"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568891"
 ---
 # <a name="microsoft-defender-antivirus-in-the-windows-security-app"></a>Microsoft Defender 바이러스 백신 앱의 Windows 보안
 
@@ -45,7 +45,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 
 ## <a name="review-virus-and-threat-protection-settings-in-the-windows-security-app"></a>앱의 바이러스 및 위협 방지 Windows 보안 검토
 
-:::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="앱의 바이러스 및 위협 Windows 보안 설정":::
+:::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="앱의 바이러스 및 위협 방지 Windows 보안.":::
 
 1. 작업 표시줄에서 방패 아이콘을 클릭하거나 **Defender의** 시작 메뉴를 검색하여 Windows 보안 앱을 열 수 있습니다.
 
@@ -66,7 +66,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 
 ## <a name="review-the-security-intelligence-update-version-and-download-the-latest-updates-in-the-windows-security-app"></a>보안 인텔리전스 업데이트 버전을 검토하고 Windows 보안 업데이트 다운로드
 
-:::image type="content" source="../../media/wdav-wdsc-defs.png" alt-text="보안 인텔리전스 버전 번호":::
+:::image type="content" source="../../media/wdav-wdsc-defs.png" alt-text="보안 인텔리전스 버전 번호입니다.":::
 
 1. 시작 메뉴에서 보안 Windows 보안 를 검색한 다음 을 선택하여 앱 앱을 **Windows 보안.**
 

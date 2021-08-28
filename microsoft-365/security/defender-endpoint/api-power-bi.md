@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0e64ccef09af6a8ab9ff3f798a0754a605a7f122
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 04c95cffec8f0c5bde417526d6b0cbc8dbe760ee
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507749"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568663"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>사용자 지정 보고서를 사용하여 Power BI
 
@@ -49,11 +49,11 @@ ms.locfileid: "58507749"
 
 - 데이터 **빈 쿼리** \> **다운로드를 클릭합니다.**
 
-  ![빈 쿼리 만들기 이미지](images/power-bi-create-blank-query.png)
+  ![빈 쿼리를 만드는 이미지입니다.](images/power-bi-create-blank-query.png)
 
 - 고급 **편집기를 클릭합니다.**
 
-  ![고급 편집기 열기 이미지](images/power-bi-open-advanced-editor.png)
+  ![열려 있는 고급 편집기 이미지입니다.](images/power-bi-open-advanced-editor.png)
 
 - 아래를 복사하여 편집기에 붙여 넣습니다.
 
@@ -99,17 +99,17 @@ ms.locfileid: "58507749"
 
 - 자격 **증명 편집을 클릭합니다.**
 
-    ![자격 증명 편집 이미지0](images/power-bi-edit-credentials.png)
+    ![자격 증명 편집 이미지0.](images/power-bi-edit-credentials.png)
 
 - 조직 **계정 로그인** \> **선택**
 
-    ![자격 증명 설정 이미지1](images/power-bi-set-credentials-organizational.png)
+    ![자격 증명 집합의 이미지1.](images/power-bi-set-credentials-organizational.png)
 
 - 자격 증명을 입력하고 로그인 대기
 
 - 사용자 **커넥트**
 
-    ![자격 증명 설정 이미지2](images/power-bi-set-credentials-organizational-cont.png)
+    ![자격 증명 집합 이미지2.](images/power-bi-set-credentials-organizational-cont.png)
 
 - 이제 쿼리 결과가 표로 표시될 것이고 그 위에 시각화 빌드를 시작할 수 있습니다!
 

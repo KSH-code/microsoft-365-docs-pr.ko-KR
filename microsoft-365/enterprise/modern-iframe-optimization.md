@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: SharePoint Online 모던 및 클래식 게시 사이트 페이지의 Iframe 성능을 최적화하는 방법에 대해 배워보세요.
-ms.openlocfilehash: cd7d6a09581e716b0b1179bb251d24d927b0c03e06552d381d809f54887238b5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7f50b6582a0a65cd29a91f450642e5d38b346d77
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53848871"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569420"
 ---
 # <a name="optimize-iframes-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>SharePoint Online 모던 및 클래식 게시 사이트 페이지에서 Iframe 최적화
 
@@ -50,7 +50,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 **검색된 iFrame을 사용하는 웹 파트** 결과가결과의 **개선 기회** 또는 **주의 필요** 섹션에 표시되는 경우 결과를 클릭하여 iFrame을 포함하는 웹 파트를 확인할 수 있습니다.
 
-![페이지 진단 도구 결과](../media/modern-portal-optimization/pagediag-iframe-yellow.png)
+![페이지 진단 도구 결과입니다.](../media/modern-portal-optimization/pagediag-iframe-yellow.png)
 
 ## <a name="remediate-iframe-performance-issues"></a>iFrame 성능 문제 해결
 
@@ -69,7 +69,7 @@ iFrame의 최적화된 사용을 보장하기 위해 아래 지침을 따르세�
 
 성능 문제를 개선하기 위해 페이지를 수정하기 전에 분석 결과에 페이지 로드 시간을 기록해 둡니다. 수정 후에 다시 도구를 실행하여 새 결과가 기준선 표준에 포함되는지 확인하고 새 페이지 로드 시간을 확인하여 개선이 되었는지 확인합니다.
 
-![페이지 로드 시간 결과](../media/modern-portal-optimization/pagediag-page-load-time.png)
+![페이지 로드 시간 결과입니다.](../media/modern-portal-optimization/pagediag-page-load-time.png)
 
 >[!NOTE]
 >페이지 로드 시간은 네트워크 부하, 하루 중 시간 및 기타 일시적인 조건과 같은 다양한 요인에 따라 다를 수 있습니다. 결과의 평균을 내는데 도움이 되도록 수정을 하기 전과 후에 페이지 로드 시간을 몇 번 정도 테스트해야 합니다.

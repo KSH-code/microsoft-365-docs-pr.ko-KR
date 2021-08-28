@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 5fb3ee5abfb2f6d8f86832967ed6f88386421c9e
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 1e8b5745e67741535f0c521fc6c6dc1f83868b3c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607104"
+ms.locfileid: "58568795"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -85,7 +85,7 @@ Microsoft 365 Defender 제품 간 계층은 개별 제품군 구성 요소를 �
 
 
 Microsoft 365 Defender 제품 간 기능에는 다음이 포함됩니다. 
-- **제품 간** 단일 창 - 검색, 영향을 미치는 자산, 수행된 자동화된 작업 및 단일 큐의 관련 증거에 대한 모든 정보 및 단일 큐의 단일 창에 대한 중앙 [security.microsoft.com.](https://security.microsoft.com) 
+- **제품 간** 단일 창 - 검색, 영향을 미치는 자산, 수행된 자동화된 작업 및 단일 큐의 관련 증거에 대한 모든 정보를 중앙에서 볼 수 [security.microsoft.com.](https://security.microsoft.com) 
 - **결합된** 인시던트 큐 - 전체 공격 범위를 보장하여 보안 전문가가 중요한 작업에 집중할 수 있도록 영향을 미치는 자산 및 자동화된 수정 작업이 그룹화되어 시기적합한 방식으로 표시됩니다. 
 - **위협에 대한** 자동 대응 - 위험 위협 정보는 공격의 진행을 Microsoft 365 Defender 제품 간에 실시간으로 공유됩니다. 예를 들어 끝점용 Microsoft Defender가 보호하는 끝점에서 악성 파일이 감지되면 Defender에 모든 전자 Office 365 파일을 검사하고 제거합니다. 이 파일은 전체 보안 제품군에 의해 Microsoft 365 차단됩니다.
 - **손상된 장치,** 사용자 ID 및 사서함에 대한 자체 복구 - Microsoft 365 Defender AI 기반 자동 작업 및 플레이북을 사용하여 영향을 받는 자산을 안전한 상태로 다시 수정합니다. Microsoft 365 Defender 제품군 제품의 자동 수정 기능을 활용하여 인시던트와 관련된 모든 영향을 미치는 자산이 가능한 경우 자동으로 수정되도록 합니다.

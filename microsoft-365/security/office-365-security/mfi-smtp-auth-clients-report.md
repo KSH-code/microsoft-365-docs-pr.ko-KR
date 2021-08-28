@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 인사이트를 사용하여 보고를 통해 조직의 전자 메일 보낸 사람이 SMTP AUTH(인증된 SM & TP AUTH)를 사용하여 전자 메일 메시지를 보내는지 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 68dc38bb04697a59f606131d6674074d2822f6e369d850835f02125f0c83fdcb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3d4c39e722ed7d9853a4fb328a8e87aac535bea9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56883816"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568087"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 SMTP & 인사이트 및 보고
 
@@ -34,11 +34,11 @@ ms.locfileid: "56883816"
 
 위젯은 지난 7일 동안 SMTP 인증 프로토콜을 사용한 사용자 또는 서비스 계정의 수를 나타냅니다.
 
-![보안 및 준수 센터의 메일 흐름 대시보드에서 SMTP & 위젯](../../media/mfi-smtp-auth-clients-report-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에 있는 SMTP & 위젯](../../media/mfi-smtp-auth-clients-report-widget.png)
 
 위젯에서 메시지 수를 클릭하면 **SMTPAuth 클라이언트** 플라이아웃이 나타납니다. 플라이아웃은 지난 주에 대한 TLS 사용량 및 볼륨의 집계 보기를 제공합니다.
 
-![메일 흐름 대시보드에서 SMTPAuth 클라이언트 위젯을 클릭한 후 세부 정보 플라이아웃](../../media/mfi-smtp-auth-clients-report-details.png)
+![메일 흐름 대시보드에서 SMTPAuth 클라이언트 위젯을 클릭한 후 플라이아웃에 대한 세부 정보](../../media/mfi-smtp-auth-clients-report-details.png)
 
 다음 섹션에 설명된 **SMTPAuth** 클라이언트 보고서 링크를 클릭하여 SMTP Auth 클라이언트 보고서로 이동하면 됩니다.
 
@@ -52,11 +52,11 @@ ms.locfileid: "56883816"
 
 - **데이터 보기:** 볼륨 보내기: 기본적으로 차트에는 모든 도메인에서 보낸 SMTPAuth 클라이언트 메시지 수가 표시됩니다(**데이터 표시:** 모든 보낸 사람 도메인은 기본적으로 선택되어 있습니다. 데이터 표시를 클릭하고 드롭다운 목록에서  보낸 사람 도메인을 선택하여 결과를 특정 보낸 사람 도메인으로 필터링할 수 있습니다. 특정 데이터 포인트(일)를 마우스로 마우스로 대면 메시지 수가 표시됩니다.
 
-  ![보안 및 준수 센터의 SMTP Auth 클라이언트 보고서에서 & 보기 보내기](../../media/mfi-smtp-auth-clients-report-sending-volume-view.png)
+  ![보안 및 준수 센터의 SMTP Auth 클라이언트에서 볼륨 & 보고합니다.](../../media/mfi-smtp-auth-clients-report-sending-volume-view.png)
 
 - **다음을 통해 데이터 보기: TLS** 사용법: 차트는 선택한 기간 동안 모든 SMTPAuth 클라이언트 메시지에 대한 TLS 사용률을 보여 줍니다. 이 차트를 사용하면 이전 버전의 TLS를 계속 사용하는 사용자 및 시스템 계정을 식별하고 조치를 취할 수 있습니다.
 
-  ![보안 및 준수 센터의 SMTP Auth 클라이언트 보고서의 TLS & 보기](../../media/mfi-smtp-auth-clients-report-tls-usage-view.png)
+  ![SMTP Auth 클라이언트의 TLS 사용 현황 보기는 보안 및 준수 & 보고합니다.](../../media/mfi-smtp-auth-clients-report-tls-usage-view.png)
 
 보고서 보기에서 **필터를** 클릭하면 시작 날짜 및  종료 날짜로 날짜 범위를 **지정할 수 있습니다.**
 
@@ -87,7 +87,7 @@ ms.locfileid: "56883816"
 
 행을 선택하면 플라이아웃에 유사한 세부 정보가 표시됩니다.
 
-![SMTPAuth 클라이언트 보고서의 TLS 사용 현황 보기의 세부 정보 표에서 플라이아웃 세부 정보](../../media/mfi-smtp-auth-clients-report-tls-usage-view-view-details-table-details.png)
+![SMTPAuth 클라이언트 보고서의 TLS 사용 현황 보기의 세부 정보 표에서 플라이아웃에 대한 세부 정보를 제공합니다.](../../media/mfi-smtp-auth-clients-report-tls-usage-view-view-details-table-details.png)
 
 보고서 **요청을 클릭하여** 전자 메일 메시지에 보고서의 자세한 버전을 수신합니다. 보고서를 받을 날짜 범위와 받는 사람을 지정할 수 있습니다.
 

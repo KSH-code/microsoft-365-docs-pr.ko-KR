@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 011e816a7a01c0065f46113962d2b4fab356639b
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 0a8d6ea1805d4783a9326ebd0eeed269ff5fef72
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568867"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -119,7 +119,7 @@ ms.locfileid: "58255921"
 
 웹 사이트의 범주를 확인하기 위해 웹 사이트 포털(끝점 검색에서 Microsoft 365 Defender URL 검색 기능을 사용할 https://security.microsoft.com) **수**  >  **있습니다.** URL 검색 결과에서 웹 콘텐츠 필터링 범주는 **URL/도메인 세부 정보 아래에 표시됩니다.** 관리자는 다음 이미지와 같이 이 페이지에서 직접 도메인 범주에 이의를 제기할 수도 있습니다. 범주 결과가 표시되어 있지 않은 경우 URL은 현재 기존 웹 콘텐츠 필터링 범주에 할당되지 않습니다.
 
-![웹 콘텐츠 필터링 범주 검색 결과의 이미지](../../media/web-content-filtering-category-lookup.png)
+![웹 콘텐츠 필터링 범주 검색 결과의 이미지입니다.](../../media/web-content-filtering-category-lookup.png)
 
 ## <a name="web-content-filtering-cards-and-details"></a>웹 콘텐츠 필터링 카드 및 세부 정보
 
@@ -131,25 +131,25 @@ ms.locfileid: "58255921"
 
 이 기능을 처음 30일 동안 사용하면 조직에 이 정보를 표시할 데이터가 부족할 수 있습니다.
 
-![범주 카드별 웹 활동 이미지](images/web-activity-by-category600.png)
+![범주 카드별 웹 활동 이미지입니다.](images/web-activity-by-category600.png)
 
 ### <a name="web-content-filtering--summary-card"></a>웹 콘텐츠 필터링 요약 카드
 
 이 카드는 여러 상위 웹 콘텐츠 범주에 대해 차단된 액세스 시도의 분포를 표시됩니다. 특정 상위 웹 범주에 대한 자세한 정보를 표시하려면 색 막대 중 하나를 선택합니다.
 
-![웹 콘텐츠 필터링 요약 카드의 이미지](images/web-content-filtering-summary.png)
+![웹 콘텐츠 필터링 요약 카드의 이미지입니다.](images/web-content-filtering-summary.png)
 
 ### <a name="web-activity-summary-card"></a>웹 활동 요약 카드
 
 이 카드에는 모든 URL의 웹 콘텐츠에 대한 총 요청 수가 표시됩니다.
 
-![웹 활동 요약 카드의 이미지](images/web-activity-summary.png)
+![웹 활동 요약 카드의 이미지입니다.](images/web-activity-summary.png)
 
 ### <a name="view-card-details"></a>카드 세부 정보 보기
 
 카드의 차트에서 표 행이나 색이 있는 막대를 선택하여 각 카드에 대한 보고서 세부 정보에 액세스할 수 있습니다.  각 카드의 보고서 세부 정보 페이지에는 웹 콘텐츠 범주, 웹 사이트 도메인 및 장치 그룹에 대한 광범위한 통계 데이터가 포함되어 있습니다.
 
-![웹 보호 보고서 세부 정보 이미지](images/web-protection-report-details.png)
+![웹 보호 보고서 세부 정보의 이미지입니다.](images/web-protection-report-details.png)
 
 - **웹 범주:** 조직에서 액세스 시도가 시도된 웹 콘텐츠 범주를 나열합니다. 요약 플라이아웃을 열기 위해 특정 범주를 선택합니다.
 

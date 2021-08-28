@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: 19b45f3b3b26bf553830061bf63879647bfeec8f
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: f806991bfd00cbaf9b96b7750d0358409785b206
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602968"
+ms.locfileid: "58569240"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
@@ -87,7 +87,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 사용자에게 비즈니스 Windows 따라 서로 다른 365 Business 라이선스 유형을 사용자에게 할당할 수 있습니다. 사용자에게 적합한 라이선스 유형에 대한 지침은 Windows [365 Business](windows-365-business-sizing.md) 크기 조정 옵션을 참조하세요.
 
 > [!IMPORTANT]
-> 테넌트에 Windows 365 라이선스가 처음 할당되면 Windows **365 BPRT** 영구 사용자라는 시스템 계정이 Azure Active Directory. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 다음 [문제 해결 단계를 따릅니다.](/microsoft-365/admin/setup/troubleshoot-windows-365-business?#step-2-verify-that-the-windows-365-bprt-permanent-user-system-account-is-active)
+> 테넌트에 Windows 365 라이선스가 처음 할당되면 Windows **365 BPRT** 영구 사용자라는 시스템 계정이 Azure Active Directory. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 지원 중앙을 통해 티켓을 제출합니다.
 
 ## <a name="get-your-users-started-with-cloud-pc"></a>클라우드 PC 시작
 

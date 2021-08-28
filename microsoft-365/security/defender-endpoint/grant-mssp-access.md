@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e14188a797a99b506e3714ab3f0974e5d9f0c4578c495ae1c620db96180807f8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4b86df7e4b5ef5a0717e3f646726e9ef3ac4993f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53890531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570044"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>MSSP(관리되는 보안 서비스 공급자) 액세스 권한 부여(미리 보기)
 
@@ -59,7 +59,7 @@ ms.locfileid: "53890531"
 
     고객 서비스에서 RBAC를 사용하도록 Microsoft Defender 보안 센터  전역 관리자 또는 보안 관리자 권한이 > 사용자 계정에서 설정 > 권한 및 "역할 켜기"에 액세스합니다.
 
-    ![MSSP 액세스 이미지](images/mssp-access.png)
+    ![MSSP 액세스의 이미지입니다.](images/mssp-access.png)
 
     그런 다음 MSSP SOC 계층 요구 사항을 충족하는 RBAC 역할을 생성합니다. "할당된 사용자 그룹"을 통해 이러한 역할을 만든 사용자 그룹에 연결합니다.
 
@@ -89,7 +89,7 @@ ms.locfileid: "53890531"
 
     이를 위해 고객 AD 테넌트에서 ID 거버넌스: 카탈로그에 액세스하고 새 **카탈로그를 추가합니다.** 이 예제에서는 **MSSP Accesses 를 호출합니다.**
 
-    ![새 카탈로그의 이미지](images/goverance-catalog.png)
+    ![새 카탈로그의 이미지입니다.](images/goverance-catalog.png)
 
     자세한 내용은 리소스 카탈로그 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-catalog-create)
 
@@ -105,7 +105,7 @@ ms.locfileid: "53890531"
     - 365일 후에 액세스 자동 만료
 
     > [!div class="mx-imgBorder"]
-    > ![새 액세스 패키지의 이미지](images/new-access-package.png)
+    > ![새 액세스 패키지의 이미지입니다.](images/new-access-package.png)
 
     자세한 내용은 새 액세스 패키지 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-access-package-create)
 
@@ -114,7 +114,7 @@ ms.locfileid: "53890531"
     내 액세스 포털 링크는 MSSP SOC 분석가가 만든 액세스 패키지를 통해 액세스를 요청하는 데 사용됩니다. 링크는 지속형으로, 시간이 지날 때 새 분석가에게 동일한 링크를 사용할 수 있습니다. 분석가 요청은 MSSP 분석가 승인자 의 승인을 **위해 큐로 들어갑니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![액세스 속성의 이미지](images/access-properties.png)
+    > ![액세스 속성의 이미지입니다.](images/access-properties.png)
 
     링크는 각 액세스 패키지의 개요 페이지에 있습니다.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c7edb02a-fdab-4f91-9a20-cba01dad28ef
 description: 버전 및 스프라이트를 사용하여 온라인 클래식 게시 사이트에서 이미지 성능을 SharePoint 방법을 학습합니다.
-ms.openlocfilehash: d3bc078bd462e6695afd74d36712757d291215a7b9bbdb6158c1862c034f8158
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1400b3f3bd78f6c3fda4b587b6974e3aaef18199
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864728"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568375"
 ---
 # <a name="image-optimization-for-sharepoint-online-classic-publishing-sites"></a>온라인 클래식 게시 SharePoint 이미지 최적화
 
@@ -35,7 +35,7 @@ ms.locfileid: "53864728"
   
 ## <a name="using-sprites-to-speed-up-image-loading"></a>스프라이트를 사용하여 이미지 로드 속도 향상
 
-![spcommon의 스크린샷](../media/cc5cdee1-8e54-4537-9a8a-8854f4ee849f.png)
+![spcommon의 스크린샷.](../media/cc5cdee1-8e54-4537-9a8a-8854f4ee849f.png)
 
 이미지 스프라이트에는 여러 개의 작은 이미지가 포함되어 있습니다. CSS를 사용하면 절대 위치가 있는 페이지의 특정 부분에 표시할 복합 이미지 부분을 선택합니다. 기본적으로 여러 이미지를 로드하는 대신 페이지 주위에 단일 이미지를 이동하고 스프라이트 이미지의 필수 부분이 최종 사용자에게 표시되는 작은 창을 통해 해당 이미지의 작은 부분을 볼 수 있도록 만듭니다. SharePoint 온라인에서는 스프라이트를 사용하여 스프라이트 파일에서 스프라이트 spcommon.png 표시합니다.
 
@@ -75,17 +75,17 @@ ms.locfileid: "53864728"
 
     기본으로 변경하거나 이미지 변경을 선택해  새 이미지를 만들 수 있습니다.
 
-    ![Image Rendition 스크린샷](../media/eaae0d53-657d-47ef-b687-65c5167eae4d.PNG)
+    ![Image Rendition의 스크린샷.](../media/eaae0d53-657d-47ef-b687-65c5167eae4d.PNG)
   
 5. 이미지 **재배포 페이지에서** 새 항목 **추가 를 선택합니다.**
 
-    ![새 항목 추가를 보여 주는 스크린샷](../media/8cede22e-52bf-4d9d-99cb-162f2f6ce92b.PNG)
+    ![새 항목 추가 스크린샷.](../media/8cede22e-52bf-4d9d-99cb-162f2f6ce92b.PNG)
   
 6. 새 **이미지 재배포** 페이지의 이름  상자에 해당 변경의 이름을 입력합니다.
 
 7. 너비 **및** 높이 텍스트 **상자에** 변경의 너비와 높이를 픽셀 단위로 입력한 다음 저장을 **선택 합니다.**
 
-    ![이미지 변환 이름을 보여 주는 스크린샷](../media/5a6119ed-c163-40df-a4db-ec629d15607d.PNG)
+    ![Image Rendition Name의 스크린샷.](../media/5a6119ed-c163-40df-a4db-ec629d15607d.PNG)
   
 ## <a name="custom-cropping-with-image-renditions"></a>이미지 재배포를 사용하여 사용자 지정 자르기
 

@@ -19,12 +19,12 @@ description: 보안 및 준수 센터에서 사용할 수 있는 스마트 보�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 360151fa68309d53f788c18637aa95d61374b62be4815669dc22a6325caa1283
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ef92717dc43e5af7a6c98d497405160fec45b7cd
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56814743"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569288"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 똑똑한 보고서 및 분석
 
@@ -41,7 +41,7 @@ ms.locfileid: "56814743"
 
 보안 & 준수 센터에서 사용할 수 있는 모니터링 기능에는 규정 준수 및 보안 관리자가 보안 공격이나 증가된 의심스러운 활동과 같은 우선 순위가 높은 문제에 집중할 수 있도록 하는 스마트 보고서 및 인사이트가 포함되어 있습니다. 대시보드에서 스마트 보고서 및 인사이트는 다음 이미지와 같습니다.
 
-![보안 및 준수 센터의 & 대시보드](../../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
+![보안 및 준수 센터의 & 대시보드입니다.](../../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
 
 문제 영역을 강조 표시하는 것 외에도 스마트 보고서 및 인사이트에는 데이터를 보고 탐색하는 권장 사항과 링크가 포함되어 있으며, 빠른 작업을 수행할 수 있습니다. 예를 들어 조직에 최종 사용자가 스팸으로 표시한 전자 메일 메시지가 갑자기 많은 경우 적절한 수준의 보호가 적용되도록 스팸 방지 정책을 다시 문의하는 것이 좋습니다.
 

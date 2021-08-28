@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: d760a122527c3d5c9578188043ec2fdc56c5840b457a2f177263bfb9fcc4ad93
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 29b174af6755718ef8c2fd446cf84aeb0f390310
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53889481"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568591"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>실시간 보호와 관련된 성능 문제 해결
 
@@ -62,7 +62,7 @@ ms.locfileid: "53889481"
 |---|---|
 |ProcessImageName|프로세스 이미지 이름|
 |TotalTime|이 프로세스에서 액세스한 파일 검색에 소요된 누적 기간(밀리초)입니다.|
-|Count|이 프로세스에서 액세스하는 검사된 파일 수|
+|갯수|이 프로세스에서 액세스하는 검사된 파일 수|
 |MaxTime|이 프로세스에서 액세스하는 파일의 가장 긴 단일 검색 기간(밀리초)입니다.|
 |MaxTimeFile|가장 긴 기간 스캔이 기록된 이 프로세스에서 액세스하는 `MaxTime` 파일의 경로입니다.|
 |EstimatedImpact|이 프로세스에서 검색 활동을 경험한 기간을 지난 기간 동안 이 프로세스에서 액세스한 파일을 검색하는 데 소요된 시간의 백분율|
@@ -83,7 +83,7 @@ ms.locfileid: "53889481"
     1. 차단 해제 **옆의 확인란을 선택합니다.**
     1. **적용** 을 선택합니다.
 
-    ![MOTW 제거](images/procmon-motw.png)
+    ![MOTW를 제거합니다.](images/procmon-motw.png)
 
 3. 폴더 경로가 으로 표시될 수 있도록 파일에서 `C:\temp` 파일의zip을 `C:\temp\ProcessMonitor` 제거합니다.
 
@@ -100,17 +100,17 @@ ms.locfileid: "53889481"
 
         캡처를 중지했다는 확인을 위해 돋보기 아이콘이 빨간색 X와 함께 나타나는지 여부를 검사합니다.
 
-        ![빨간색 슬래시](images/procmon-magglass-stop.png)
+        ![빨간색 슬래시.](images/procmon-magglass-stop.png)
 
         다음으로, 이전 캡처를 지우기 위해 지우개 아이콘을 선택합니다.
 
-        ![지우기 아이콘](images/procmon-eraser-clear.png)
+        ![아이콘 지우기](images/procmon-eraser-clear.png)
 
         또는 바로 가기 키 **Ctrl+X를 사용합니다.**
 
     2. 두 번째 방법은 명령줄을 관리자로 실행한 다음 프로세스 모니터 경로에서 다음을 실행하는 것입니다. 
 
-        ![cmd procmon](images/cmd-procmon.png)
+        ![cmd procmon.](images/cmd-procmon.png)
 
         ```console
         Procmon.exe /AcceptEula /Noconnect /Profiling
@@ -119,11 +119,11 @@ ms.locfileid: "53889481"
         > [!TIP]
         > 데이터를 캡처할 때 ProcMon 창을 최대한 작게 만들어 추적을 쉽게 시작 및 중지할 수 있습니다.
         >
-        > ![Procmon 최소화](images/procmon-minimize.png)
+        > ![Procmon을 최소화합니다.](images/procmon-minimize.png)
 
 7. 6단계의 절차 중 하나를 수행한 후 필터를 설정하는 옵션이 표시될 것입니다. **확인** 을 선택합니다. 캡처가 완료된 후 항상 결과를 필터링할 수 있습니다.
 
-    ![시스템 제외 프로세스 이름 필터링](images/procmon-filter-options.png)
+    ![필터링 프로세스 이름은 시스템 제외입니다.](images/procmon-filter-options.png)
 
 8. 캡처를 시작하려면 돋보기 아이콘을 다시 선택합니다.
 
@@ -136,7 +136,7 @@ ms.locfileid: "53889481"
 
 11. 고유한 이름과 .pml 형식으로 캡처를 저장하려면 **파일,** **저장... 을 선택합니다.** 라디오 단추 모든 이벤트  및 네이티브 프로세스 모니터 **형식(PML)을 선택해야 합니다.**
 
-    ![설정 저장](images/procmon-savesettings1.png)
+    ![설정을 저장합니다.](images/procmon-savesettings1.png)
 
 12. 더 나은 추적을 위해 기본 경로를 다음 위치로 `C:\temp\ProcessMonitor\LogFile.PML` `C:\temp\ProcessMonitor\%ComputerName%_LogFile_MMDDYEAR_Repro_of_issue.PML` 변경합니다.
     - `%ComputerName%` 은 장치 이름입니다.
@@ -167,25 +167,25 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 
 2. Windows *에서* Performance **Recorder를 Windows 클릭합니다.**
 
-    ![시작 메뉴](images/wpr-01.png)
+    ![시작 메뉴.](images/wpr-01.png)
 
     추가 **를 선택합니다.** 관리자 **권한으로 실행을 선택합니다.**
 
 3. 사용자 계정 컨트롤 대화 상자가 나타나면 예를 **선택합니다.**
 
-    ![UAC](images/wpt-yes.png)
+    ![UAC.](images/wpt-yes.png)
 
 4. 그런 다음 [끝점용 Microsoft Defender 분석](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp) 프로필을 다운로드하고 과 같은 `MDAV.wprp` 폴더에 `C:\temp` 저장합니다.
 
 5. WPR 대화 상자에서 추가 옵션을 **선택합니다.**
 
-    ![다른 옵션 선택](images/wpr-03.png)
+    ![다른 옵션을 선택합니다.](images/wpr-03.png)
 
 6. 프로필 **추가...를** 선택하고 파일의 경로를 `MDAV.wprp` 탐색합니다.
 
 7. 그런 다음 사용자 지정 측정 아래에  끝점 *분석용 Microsoft Defender라는* 새 프로필 집합이 표시됩니다.
 
-    ![파일 내](images/wpr-infile.png)
+    ![in-file.](images/wpr-infile.png)
 
     >[!WARNING]
     >Windows 서버에 64GB 이상의 RAM이 있는 경우 대신 사용자 지정 측정을 `Microsoft Defender for Endpoint analysis for large servers` `Microsoft Defender for Endpoint analysis` 사용합니다. 그렇지 않으면 시스템에서 많은 양의 비페이지 풀 메모리 또는 버퍼를 사용할 수 있으며, 이로 인해 시스템 비보안이 발생할 수 있습니다. 자원 분석을 확장하여 추가할 **프로필을 선택할 수 있습니다.**
@@ -204,14 +204,14 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 
 9. 이제 데이터를 수집할 준비가 완료되었습니다. 성능 문제를 다시 재현하는 데 관련이 없는 모든 응용 프로그램을 종료합니다. 옵션 **숨기기** 옵션을 선택하여 WPR 창에 차지하는 공간을 작게 유지할 수 있습니다.
 
-    ![옵션 숨기기](images/wpr-08.png)
+    ![옵션을 숨길 수 있습니다.](images/wpr-08.png)
 
     > [!TIP]
     > 정수 초에 추적을 시작해 하세요. 예를 들어 01:30:00입니다. 이렇게 하면 데이터를 보다 쉽게 분석할 수 있습니다. 또한 문제가 재현된 정확한 타임스탬프를 추적하려고 시도합니다.
 
 10. **시작** 을 선택합니다.
 
-    ![추적 시작 선택](images/wpr-09.png)
+    ![추적 시작을 선택합니다.](images/wpr-09.png)
 
 11. 문제를 재현합니다.
 
@@ -220,26 +220,26 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 
 12. **저장** 을 선택합니다.
 
-    ![저장 선택](images/wpr-10.png)
+    ![저장을 선택합니다.](images/wpr-10.png)
 
 13. 문제 **및** 문제를 재현한 방법에 대한 정보를 입력하여 자세한 문제 설명을 입력합니다.
 
-    ![세부 정보 채우기](images/wpr-12.png)
+    ![세부 정보를 입력합니다.](images/wpr-12.png)
 
     1. 파일 **이름:** 추적 파일을 저장할 위치를 결정하려면 선택합니다. 기본적으로 에 1.is `%user%\Documents\WPR Files\` 저장됩니다.
     1. **저장** 을 선택합니다.
 
 14. 추적이 병합되는 동안 기다릴 수 있습니다.
 
-    ![WPR 수집 일반 추적](images/wpr-13.png)
+    ![WPR 수집 일반 추적.](images/wpr-13.png)
 
 15. 추적이 저장되고 나면 폴더 **열기 를 선택합니다.**
 
-    ![저장된 WPR 추적](images/wpr-14.png)
+    ![저장한 WPR 추적입니다.](images/wpr-14.png)
 
     Microsoft 지원에 제출할 파일과 폴더를 모두 포함합니다.
 
-    ![파일 및 폴더](images/wpr-15.png)
+    ![파일 및 폴더.](images/wpr-15.png)
 
 ### <a name="capture-performance-logs-using-the-wpr-cli"></a>WPR CLI를 사용하여 성능 로그 캡처
 

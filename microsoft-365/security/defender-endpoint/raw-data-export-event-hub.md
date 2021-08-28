@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 613ed8427f5068ab9a2709b68e5a6bf5586676a9f9fb36383b772458f16f3332
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d0e872390fbcc80a7427c28b2a7cdf5382ac839c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53845050"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570008"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Azure 이벤트 허브에 고급 헌팅 이벤트를 스트리밍하도록 끝점에 대한 Microsoft Defender 구성
 
@@ -57,7 +57,7 @@ ms.locfileid: "53845050"
 
    이벤트 허브 리소스 **ID를** 얻기 위해 Azure > 속성 탭의 [Azure](https://ms.portal.azure.com/) 이벤트 허브 네임스페이스 페이지로 이동하여 리소스 ID 아래 텍스트를 \> **복사합니다.**
 
-   ![이벤트 허브 리소스 Id1의 이미지](images/event-hub-resource-id.png)
+   ![이벤트 허브 리소스 Id1의 이미지입니다.](images/event-hub-resource-id.png)
 
 7. 스트리밍할 이벤트를 선택하고 저장을 **클릭합니다.**
 
@@ -101,7 +101,7 @@ ms.locfileid: "53845050"
 
 - 장치 정보 이벤트의 예는 다음과 같습니다.
 
-  ![이벤트 허브 리소스 Id2의 이미지](images/machine-info-datatype-example.png)
+  ![이벤트 허브 리소스 Id2의 이미지입니다.](images/machine-info-datatype-example.png)
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -22,12 +22,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 17b850cb26e9743afc807e3d72e3067eec2c7bd1
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 7338292b784cdad17548efc3dd148f3ea6a72b28
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256897"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568267"
 ---
 # <a name="try-microsoft-365-defender-incident-response-capabilities-in-a-pilot-environment"></a>파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 
@@ -50,7 +50,7 @@ ms.locfileid: "58256897"
 
 인시던트 및  인시던트 & 포털(>)의 빠른 실행에서 인시던트 Microsoft 365 Defender 큐로[security.microsoft.com.](https://security.microsoft.com) 다음은 예입니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예입니다.":::
 
 최근 **인시던트** 및 알림 섹션에는 지난 24시간 동안 수신된 경고 및 인시던트 수의 그래프가 표시됩니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "58256897"
 
 기본 인시던트 큐에서 **필터를** 선택하여 특정 인시던트 집합을 지정할 수 있는 필터 창을 표시합니다.  예를 들면 다음과 같습니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-filters.png" alt-text="인시던트 큐에 대한 필터 창의 예":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-filters.png" alt-text="문제 큐에 대한 필터 창의 예입니다.":::
 
 자세한 내용은 인시던트 [우선 순위 지정을 참조하세요.](incident-queue.md)
 
@@ -111,11 +111,11 @@ ms.locfileid: "58256897"
 
 다음은 예입니다.
 
-:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Microsoft 365 Defender":::
+:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Microsoft 365 Defender.":::
 
 작업 센터에서 보류 중인 작업을 선택한 다음 플라이아웃 창에서 해당 작업을 승인하거나 거부할 수 있습니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/air-actioncenter-itemselected.png" alt-text="조치 승인 또는 거부":::
+:::image type="content" source="../../media/air-actioncenter-itemselected.png" alt-text="작업을 승인하거나 거부합니다.":::
 
 자동화된 조사를 진행하고 제시간에 완료할 수 있도록 가능한 한 빨리 보류 중인 작업을 승인(또는 거부)합니다.
 
@@ -186,7 +186,7 @@ ms.locfileid: "58256897"
       > [!NOTE]
       > 데이터 반환을 제한하는 필터링 옵션에 대한 다음 단계를 참조하세요.
 
-      ![고급 헌팅 쿼리 결과의 예](../../media/mtp/fig19.png)
+      ![고급 헌팅 쿼리 결과의 예입니다.](../../media/mtp/fig19.png)
 
         > [!NOTE]
         > 고급 헌팅은 쿼리 결과를 테이블형 데이터로 표시됩니다. 차트와 같은 다른 형식의 데이터를 볼 수도 있습니다.
@@ -200,7 +200,7 @@ ms.locfileid: "58256897"
 
    1. 레코드를 검사할 수 있도록 쿼리에서 결과 행을 클릭합니다.
 
-      ![고급 헌팅 결과가 선택될 때 열 수 있는 조사 레코드 쪽 패널의 예](../../media/mtp/fig21.png)
+      ![고급 헌팅 결과를 선택할 때 열 수 있는 조사 레코드 쪽 패널의 예입니다.](../../media/mtp/fig21.png)
 
 4. 이제 전자 메일을 볼 수 있는 것으로 확인되면 첨부 파일에 대한 필터를 추가합니다. 환경의 첨부 파일이 있는 모든 전자 메일에 집중합니다. 이 시뮬레이션에서는 사용자 환경에서 전송되는 전자 메일이 아니라 인바운드 전자 메일에 중점을 니다. 메시지를 찾기 위해 추가한 필터를 제거하고 "| 여기서 **AttachmentCount > 및** **EmailDirection**  ==  **"Inbound""**
 
@@ -265,21 +265,21 @@ ms.locfileid: "58256897"
 
 2. 보안 팀에서 경고를 이해할 수 있는 정보, 경고가 생성된 이유 및 수행할 것으로 예상되는 작업을 파악하는 데 필요한 필드를 입력합니다.
 
-   ![경고 세부 정보를 정의할 수 있는 검색 규칙 만들기 페이지의 예](../../media/mtp/fig23.png)
+   ![경고 세부 정보를 정의할 수 있는 검색 규칙 만들기 페이지의 예입니다.](../../media/mtp/fig23.png)
 
    이 검색 규칙 경고에 대한 정보를 통해 다음 사용자에게 정보를 제공하도록 필드를 명확히 작성해야 합니다.
 
 3. 이 경고에 영향을 미치는 엔터티를 선택합니다. 이 경우 장치 및 **사서함 을** **선택합니다.**
 
-   ![영향을 미치는 엔터티의 매개 변수를 선택할 수 있는 검색 규칙 만들기 페이지의 예](../../media/mtp/fig24.png)
+   ![영향을 미치는 엔터티의 매개 변수를 선택할 수 있는 검색 규칙 만들기 페이지의 예입니다.](../../media/mtp/fig24.png)
 
 4. 경고가 트리거되는 경우 수행할 작업을 결정 합니다. 이 경우 다른 작업을 수행할 수 있는 경우에도 바이러스 백신 검색을 실행합니다.
 
-   ![위협을 해결하기 위해 경고가 트리거될 때 바이러스 백신 검색을 실행할 수 있는 검색 규칙 만들기 페이지의 예](../../media/mtp/fig25.png)
+   ![위협을 해결하기 위해 경고가 트리거될 때 바이러스 백신 검색을 실행할 수 있는 검색 규칙 만들기 페이지의 예입니다.](../../media/mtp/fig25.png)
 
 5. 경고 규칙의 범위를 선택합니다. 이 쿼리에는 디바이스가 포함되는 것이기 때문에 장치 그룹은 끝점 컨텍스트에 대한 Microsoft Defender에 따라 이 사용자 지정 검색과 관련이 있습니다. 영향을 미치는 엔터티로 장치를 포함하지 않는 사용자 지정 검색을 만드는 경우 범위가 적용되지 않습니다.
 
-   ![경고 규칙의 범위를 설정할 수 있는 검색 규칙 만들기 페이지의 예는 결과에 대한 기대치를 관리합니다.](../../media/mtp/fig26.png)
+   ![경고 규칙의 범위를 설정할 수 있는 검색 규칙 만들기 페이지의 예로는 결과에 대한 기대치가 관리됩니다.](../../media/mtp/fig26.png)
 
    이 파일럿에서는 이 규칙을 프로덕션 환경의 테스트 장치 하위 집합으로 제한할 수 있습니다.
 
@@ -287,11 +287,11 @@ ms.locfileid: "58256897"
 
    ![메뉴의 사용자 지정 검색 규칙 옵션 예](../../media/mtp/fig27a.png)
 
-   ![규칙 및 실행 세부 정보를 표시하는 검색 규칙 페이지의 예](../../media/mtp/fig27b.png)
+   ![규칙 및 실행 세부 정보를 표시하는 검색 규칙 페이지의 예입니다.](../../media/mtp/fig27b.png)
 
    이 페이지에서 세부 정보 페이지를 여는 검색 규칙을 선택할 수 있습니다.
 
-   ![규칙 실행, 트리거된 경고 및 작업, 검색 편집 등 상태를 확인할 수 있는 전자 메일 첨부 파일 페이지의 예](../../media/mtp/fig28.png)
+   ![규칙 실행, 트리거된 경고 및 작업, 검색 편집 등 상태를 확인할 수 있는 전자 메일 첨부 파일 페이지의 예입니다.](../../media/mtp/fig28.png)
 
 <!--
 

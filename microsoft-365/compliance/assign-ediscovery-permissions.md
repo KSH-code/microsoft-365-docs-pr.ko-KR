@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: eDiscovery 관련 작업을 수행하는 데 필요한 사용 권한을 Microsoft 365 규정 준수 센터.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 080514ba2d802ca0aa3438e00966cc84df59f32149ff9392a180344949d9ec26
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 87fe1f6a6f02e00e6c4884ac8ddb439939ed8c74
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569120"
 ---
 # <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>전자 메일 그룹에 eDiscovery 권한 Microsoft 365 규정 준수 센터
 
@@ -64,9 +64,9 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
   
 5. **eDiscovery 관리자** 플라이아웃 페이지에서 할당할 eDiscovery 권한에 따라 다음 중 하나를 선택합니다.
   
-    **사용자를 eDiscovery 관리자로 설정:** **eDiscovery 관리자 옆에 있는** 편집 을 **선택합니다.** **eDiscovery 관리자** 선택 마법사 페이지에서 아이콘 ![ 추가 를 ](../media/ITPro-EAC-AddIcon.gif) **클릭합니다.** eDiscovery 관리자로 추가할 사용자(또는 사용자)를 선택하고 추가 를 **선택합니다.** 사용자 추가를 마치면 완료 를 **선택합니다.** 그런 다음 편집 **eDiscovery** 관리자 선택 마법사 페이지에서 저장을 선택하여 eDiscovery 관리자 구성원에 대한 변경 내용을 저장합니다. 
+    **사용자를 eDiscovery 관리자로 설정:** **eDiscovery 관리자 옆에 있는** 편집 을 **선택합니다.** **eDiscovery** 관리자 선택 마법사 페이지에서 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **추가** 합니다. eDiscovery 관리자로 추가할 사용자(또는 사용자)를 선택하고 추가 를 **선택합니다.** 사용자 추가를 마치면 완료 를 **선택합니다.** 그런 다음 편집 **eDiscovery** 관리자 선택 마법사 페이지에서 저장을 선택하여 eDiscovery 관리자 구성원에 대한 변경 내용을 저장합니다. 
   
-    **사용자를 eDiscovery 관리자로 설정:** **eDiscovery 관리자 옆에 있는** 편집 **을 선택합니다.** **eDiscovery** 관리자 선택 페이지에서 아이콘 ![ 추가 를 ](../media/ITPro-EAC-AddIcon.gif) **클릭합니다.** **eDiscovery 관리자(Administrator)로** 추가할 사용자를 선택한 다음 추가 **를 선택합니다.** 사용자 추가를 마치면 완료 를 **선택합니다.** 그런 다음 편집 **eDiscovery** 관리자 선택 마법사 페이지에서 저장을 선택하여 변경 내용을 eDiscovery 관리자 구성원에 저장합니다. 
+    **사용자를 eDiscovery 관리자로 설정:** **eDiscovery 관리자 옆에 있는** 편집 **을 선택합니다.** **eDiscovery** 관리자 선택 페이지에서 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **추가** 합니다. **eDiscovery 관리자(Administrator)로** 추가할 사용자를 선택한 다음 추가 **를 선택합니다.** 사용자 추가를 마치면 완료 를 **선택합니다.** 그런 다음 편집 **eDiscovery** 관리자 선택 마법사 페이지에서 저장을 선택하여 변경 내용을 eDiscovery 관리자 구성원에 저장합니다. 
   
 > [!NOTE]
 > **Add-eDiscoveryCaseAdmin** cmdlet을 사용하여 사용자를 eDiscovery 관리자로 만들 수 있습니다. 그러나 이 cmdlet을 사용하여 사용자에게 eDiscovery 관리자로 지정하려면 먼저 사용자에게 사례 관리 역할을 할당해야 합니다. 자세한 내용은 [Add-eDiscoveryCaseAdmin을 참조하세요.](/powershell/module/exchange/add-ediscoverycaseadmin) 
@@ -79,14 +79,14 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
   
 | 역할 | 규정 준수 관리자 | eDiscovery 관리자 & 관리자 | 조직 관리 | Reviewer |
 |:-----|:-----:|:-----:|:-----:|:-----:|
-|사례 관리 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
-|커뮤니케이션 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
-|준수 검색 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
-|Custodian <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
-|내보내기 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
-|Hold <br/>  |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
-|미리 보기 <br/>  | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
-|검토 <br/>  | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> |
+|사례 관리 <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> |
+|통신 <br/> | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|준수 검색 <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> |
+|Custodian <br/> | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|내보내기 <br/> | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|Hold <br/>  |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> |
+|Preview <br/>  | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|검토 <br/>  | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> |
 |RMS 암호 해독 <br/>  ||![확인 표시](../media/checkmark.png) <br/> |||
 |검색 및 제거 <br/> | <br/> | <br/> |![확인 표시](../media/checkmark.png)           <br/> | <br/> |
 ||||
@@ -97,13 +97,13 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 이 역할을 통해 사용자는 이 역할에서 Core eDiscovery 및 핵심 eDiscovery 및 Advanced eDiscovery 사례에 대한 액세스를 Microsoft 365 규정 준수 센터. 앞서 설명한처럼 **Add-eDiscoveryCaseAdmin** cmdlet을 사용하여 사용자를 eDiscovery 관리자로 지정하려면 먼저 사용자에게 사례 관리 역할을 할당해야 합니다.
 
-자세한 내용은 다음 항목을 참조하세요.
+자세한 내용은 다음을 참조하세요.
 
 - [핵심 eDiscovery 시작](get-started-core-ediscovery.md)
 
 - [고급 eDiscovery 시작](get-started-with-advanced-ediscovery.md)
 
-### <a name="communication"></a>커뮤니케이션
+### <a name="communication"></a>통신
 
 이 역할을 사용하면 사용자가 사례에서 식별된 관리인과의 모든 통신을 Advanced eDiscovery 있습니다. 여기에는 보류 알림 만들기, 보류 미리 알림 및 관리로의 에스컬레이터가 포함됩니다. 또한 사용자는 보유자 확인을 추적하고 각 보유자에서 보유자 포털에 대한 액세스를 관리하여 보유자로 식별된 사례에 대한 통신을 추적할 수 있습니다.
 
@@ -141,7 +141,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 - [보류를 Advanced eDiscovery](add-custodians-to-case.md)
 
-### <a name="preview"></a>미리 보기
+### <a name="preview"></a>Preview
 
 이 역할을 사용하면 콘텐츠 검색에서 반환된 항목 목록을 볼 수 있습니다. 또한 목록에서 각 항목을 열고 보고 콘텐츠를 볼 수 있습니다.
 

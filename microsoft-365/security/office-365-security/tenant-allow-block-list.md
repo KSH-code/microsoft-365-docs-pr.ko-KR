@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 관리하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6223720f6977d3c4399ad36e1ad29894feabe63d
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 4ff987128047522a5f8cb20a76c81bd950c1b7cf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533690"
+ms.locfileid: "58568735"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -149,7 +149,7 @@ Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **
    - **파일**: 작업을 사용하여 결과를 그룹화할 **수 있습니다.**
    - **스푸핑**: 작업 또는 스푸핑 유형별로 결과를 **그룹화할 수 있습니다.** 
 
-   **검색을** 클릭하고 값의 전체 또는 일부를 입력한 다음 Enter를 눌러 특정 값을 찾습니다. 완료되면 검색 아이콘 지우기 ![ 검색 ](../../media/m365-cc-sc-close-icon.png) **지우기 를 클릭합니다.**
+   **검색을** 클릭하고 값의 전체 또는 일부를 입력한 다음 Enter를 눌러 특정 값을 찾습니다. 완료되면 검색 아이콘 ![ 지우기 를 클릭합니다.](../../media/m365-cc-sc-close-icon.png) **검색 지우기**.
 
    **필터를** 클릭하여 결과를 필터링합니다. 필터 플라이아웃에서  사용할 수 있는 값은 선택한 탭에 따라 다를 수 있습니다.
 

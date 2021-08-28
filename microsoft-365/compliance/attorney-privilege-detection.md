@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 변호사-클라이언트 권한 검색 모델을 사용하여 특정 사례의 콘텐츠를 검토할 때 권한이 부여된 콘텐츠에 대한 기계 학습 기반 검색을 Advanced eDiscovery 있습니다.
-ms.openlocfilehash: 814caf417de58a51b43d5c4b8ef2b99c11263986
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: babf0088b7880e614234c0eea0432b0a7fa22db0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503110"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569132"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>2013에서 변호사-클라이언트 권한 검색 Advanced eDiscovery
 
@@ -79,7 +79,7 @@ eDiscovery 프로세스의 검토 단계에서 중요한 비용과 관련이 있
 
    **변호사-클라이언트 권한** 페이지가 표시되고, **변호사-클라이언트** 권한 검색 토글이 켜져 있습니다.
 
-   ![변호사-클라이언트 권한 플라이아웃 페이지](../media/AeDUploadAttorneyList.png)
+   ![변호사-클라이언트 권한 플라이아웃 페이지.](../media/AeDUploadAttorneyList.png)
 
 3. **찾아보기를** 선택한 다음 1단계에서 .csv 파일을 찾아 선택합니다.
 
@@ -103,7 +103,7 @@ eDiscovery 프로세스의 검토 단계에서 중요한 비용과 관련이 있
 
    변호사-클라이언트 **권한이라는** 태그 그룹이 표시됩니다. 이 태그에는 **모델에서** 생성한 가능한 결과에 해당하는 Positive 및 **Negative이라는** 두 개의 자식 태그가 포함되어 있습니다.
 
-   ![변호사-클라이언트 권한 스마트 태그 그룹](../media/AeDAttorneyClientSmartTagGroup.png)
+   ![변호사-클라이언트 권한 스마트 태그 그룹입니다.](../media/AeDAttorneyClientSmartTagGroup.png)
 
 3. 검토에 따라 태그 그룹 및 태그 이름을 변경합니다. 예를 들어 양수 이름을  **Privileged로,** **음수는** 권한 없습니다.로 **이름을 다시 사용할 수 있습니다.**
 
@@ -125,8 +125,8 @@ eDiscovery 프로세스의 검토 단계에서 중요한 비용과 관련이 있
 
 예를 들어 다음 스크린샷에는 두 개의 문서가 나와 있습니다. 첫 번째 콘텐츠에는 본질적으로 합법적인 콘텐츠가 포함되어 있으며 참가자가 변호사 목록에 있습니다. 두 번째에는 둘 다 포함되어 있으므로 레이블을 표시하지 않습니다.
 
-![변호사 및 법률 콘텐츠 레이블이 있는 문서화](../media/AeDTaggingPanelLegalContentAttorney.png)
+![변호사 및 법률 콘텐츠 레이블로 문서화합니다.](../media/AeDTaggingPanelLegalContentAttorney.png)
 
-![레이블이 없는 문서](../media/AeDTaggingPanelNegative.png)
+![레이블 없이 문서화합니다.](../media/AeDTaggingPanelNegative.png)
 
 문서를 검토하여 문서에 권한이 부여된 콘텐츠가 포함되어 있는지 확인한 후 해당 태그를 지정하여 문서에 태그를 지정하면 됩니다.

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2f9e100cf6ebb4ec09caba7d6a14f93344cafedfad1ab012baea68f61a94dab5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 05747374e2a28331ec0742fe11ca2dbc660771c5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570020"
 ---
 # <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>엔드포인트용 Microsoft Defender(Linux) 업데이트 예약
 
@@ -118,7 +118,7 @@ CRON_TZ=America/Los_Angeles
 
 크로인 작업을 보시고 입력합니다. `sudo crontab -l`
 
-:::image type="content" source="images/update-MDE-linux-4634577.jpg" alt-text="Linux의 끝점용 Defender 업데이트":::
+:::image type="content" source="images/update-MDE-linux-4634577.jpg" alt-text="Linux에서 끝점용 Defender를 업데이트합니다.":::
 
 크론 작업을 검사하기 위해 실행됩니다.
 

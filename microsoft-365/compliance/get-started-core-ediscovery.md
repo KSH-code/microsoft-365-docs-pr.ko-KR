@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 2016에서 Core eDiscovery를 사용하는 방법을 Microsoft 365. eDiscovery 권한을 할당하고 사례를 만든 후 구성원을 추가하고 eDiscovery 보류를 만든 다음 조사와 관련된 콘텐츠를 검색하고 내보낼 수 있습니다.
-ms.openlocfilehash: 9662045a77b1af69de68729697972821a7a7a589
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: d1a9e68bedc77f3b74b13f438e73dcbcb83b4c8c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508037"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569588"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>2013에서 Core eDiscovery 시작 Microsoft 365
 
@@ -130,7 +130,7 @@ eDiscovery 사용 권한에 대한 자세한 내용과 eDiscovery 관리자 역�
 
 핵심 eDiscovery 사용을 시작하기 위해 관심 있는 사용자에 대해 eDiscovery 보류를 만들고, 조사와 관련된 콘텐츠를 검색한 다음 추가 검토를 위해 해당 데이터를 내보내는 간단한 워크플로가 있습니다. 이러한 각 단계에서는 탐색할 수 있는 몇 가지 확장된 Core eDiscovery 기능도 강조합니다.
 
-![핵심 eDiscovery 워크플로](../media/CoreEdiscoveryWorkflow.png)
+![핵심 eDiscovery 워크플로.](../media/CoreEdiscoveryWorkflow.png)
 
 1. **[eDiscovery 보류를 생성합니다.](create-ediscovery-holds.md)** 사례를 작성한 후 첫 번째 단계는 조사에 관심이 있는 사용자 콘텐츠 위치에 *보류(eDiscovery* 보류라고도 불리며)를 배치하는 것입니다. 콘텐츠 위치에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정, Microsoft Teams 그룹과 연결된 사서함 및 Office 365 포함됩니다. 이 단계는 선택 사항이지만 eDiscovery 보류를 만들면 조사 중에 사례와 관련이 있을 수 있는 콘텐츠가 보존됩니다. eDiscovery 보류를 만들 때 특정 콘텐츠 위치에 있는 모든 콘텐츠를 보존하거나 쿼리 기반 보류를 만들어 보류 쿼리와 일치하는 콘텐츠만 보존할 수 있습니다. 다음 단계에서 검색을 만들고 실행할 때 eDiscovery 보류를 만드는 또 다른 좋은 이유는 검색할 각 위치를 선택하는 대신 보류된 콘텐츠 위치를 빠르게 검색하기 위한 것입니다. 조사를 완료한 후 만든 보류를 해제할 수 있습니다.
 

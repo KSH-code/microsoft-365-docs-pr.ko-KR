@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: 70ad9d19fac15f7fb0b996a5afc759a0c3e69279d79bea406da9d22d314a4f56
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7db257ddd1645c5a2ba8ecd992a65d08962660c7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53798510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568435"
 ---
 # <a name="windows-server-application-testing"></a>Windows 서버 응용 프로그램 테스트
 
@@ -31,17 +31,17 @@ Windows Server 2016 및 2019 운영 체제의 시험판 업데이트에 대해 �
 
 2. `Security updates`OS 업데이트 유형으로 선택:
 
-   ![보안 업데이트 선택](Media/selecting-security-updates.png)
+   ![보안 업데이트를 선택합니다.](Media/selecting-security-updates.png)
 
 3. 테스트할 OS 버전에서 해당 OS 버전을 선택합니다. 서버 OS Windows 또는 서버 및 클라이언트 OS 버전 조합을 선택할 수 있습니다.
 
-   ![OS 버전 선택](Media/selecting-OS-versions.png)
+   ![OS 버전을 선택합니다.](Media/selecting-OS-versions.png)
 
 4. 다른 필수 정보를 제공하고, 제공된 세부 정보를 검토하고, 응용 프로그램 패키지를 업로드합니다. 업로드한 후 패키지 관리 메뉴 탭에서 패키지 상태를 볼 수 있습니다.
 
 5. Windows Server 2016 및 2019의 시험판 보안 업데이트에 대해 응용 프로그램의 유효성 검사에서 테스트 결과 및 인사이트를 확인한 다음 테스트 요약 페이지 또는 보안 업데이트 결과 페이지로 이동하세요.
 
-   ![테스트 결과 보기](Media/access-test-results.png)
+   ![테스트 결과를 시청합니다.](Media/access-test-results.png)
 
 기능 테스트 시작을 위해 다음 **문서로 진행**
 > [!div class="nextstepaction"]

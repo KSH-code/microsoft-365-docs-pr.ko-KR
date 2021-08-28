@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 웹 페이지 캡처 데이터를 웹 페이지로 가져오고 보관할 커넥터를 설정하여 2016년 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 333c97661267b662fe9743649a54cd8725f4d2511805eba36064a2d030c8e592
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9d35f23371bfdf0f3f3c9d29d059d862f9cd93ac
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570164"
 ---
 # <a name="set-up-a-connector-to-archive-webpage-data"></a>웹 페이지 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "53820561"
 
 다음 개요에서는 커넥터를 사용하여 웹 페이지 콘텐츠를 커넥터에 보관하는 프로세스에 대해 Microsoft 365.
 
-![웹 페이지 데이터에 대한 보관 워크플로](../media/WebPageCaptureConnectorWorkflow.png)
+![웹 페이지 데이터에 대한 보관 워크플로입니다.](../media/WebPageCaptureConnectorWorkflow.png)
 
 1. 조직은 웹 페이지 원본과 함께 작업하여 웹 페이지 캡처 사이트를 설정하고 구성합니다.
 

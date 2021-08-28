@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1e2ba8b02bc6be4001e7083677fc69824c98ec7a2bc0ca61a6beadcd1199c9de
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 65ed76f115b9e9f39e18d69a50e736c561d18c7c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569972"
 ---
 # <a name="microsoft-365-defender-time-zone-settings"></a>Microsoft 365 Defender 표준 시간대 설정
 
@@ -33,7 +33,7 @@ ms.locfileid: "53817234"
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-settings-abovefoldlink)
 
-표준 시간대 **메뉴** 표준 시간대 설정 아이콘1을 사용하여 표준 시간대를 구성하고 라이선스 ![ 정보를 ](images/atp-time-zone.png) 확인합니다.
+표준 시간대 **메뉴** 표준 시간대 ![ 설정 아이콘1을 사용합니다.](images/atp-time-zone.png) 표준 시간대를 구성하고 라이선스 정보를 볼 수 있습니다.
 
 ## <a name="time-zone-settings"></a>표준 시간대 설정
 
@@ -45,7 +45,7 @@ ms.locfileid: "53817234"
 
 현재 표준 시간대 설정은 끝점용 Microsoft Defender 메뉴에 표시됩니다. 표준 시간대 메뉴에서 표시된 표준 시간대를 **변경할 수** 있습니다.
 
-![표준 시간대 설정 아이콘2](images/atp-time-zone-menu.png).
+![표준 시간대 설정 아이콘2.](images/atp-time-zone-menu.png).
 
 ### <a name="utc-time-zone"></a>UTC 표준 시간대
 

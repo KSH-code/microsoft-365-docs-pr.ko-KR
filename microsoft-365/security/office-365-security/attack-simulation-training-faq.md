@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 시뮬레이션 및 교육과 관련하여 배포 고려 사항과 Office 365 정보를 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12d00fee09ca21245812917fb00cff89c322e4112df970b25f853032344f6faf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a47f953b0c87e3ab88df45f150bd2e6d71611664
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568099"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>공격 시뮬레이션 교육 배포 고려 사항 및 FAQ
 
@@ -41,7 +41,7 @@ ms.locfileid: "53873408"
 
 URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 이상의 URL을 안전하지 않은 것으로 식별할 수 있습니다. Google 금고 검색을 통해 시뮬레이션된 피싱 URL 중 일부를 기만 사이트 미리 **메시지로 차단합니다.** 항상 시뮬레이션 URL을 허용하기 위해 많은 URL 신뢰도 공급업체와 협력하고 있습니다. 그러나 항상 전체 범위가 있는 것은 아니며,
 
-![Google Chrome에서 기만적 사이트 미리 경고](../../media/attack-sim-chrome-deceptive-site-message.png)
+![Google Chrome에서 기만적인 사이트 경고.](../../media/attack-sim-chrome-deceptive-site-message.png)
 
 이 문제는 이 문제의 영향을 Microsoft Edge.
 
@@ -51,7 +51,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="phishing-simulation-and-admin-urls-blocked-by-network-proxy-solutions-and-filter-drivers"></a>네트워크 프록시 솔루션 및 필터 드라이버에 의해 차단되는 피싱 시뮬레이션 및 관리자 URL
 
-피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예시:
 
 - 방화벽
 - WAF(웹 응용 프로그램 방화벽) 솔루션
@@ -118,7 +118,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="messages-reported-as-phishing-by-users-arent-appearing-in-simulation-reports"></a>사용자가 피싱으로 보고한 메시지가 시뮬레이션 보고서에 나타나지 않습니다.
 
-공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예시:
 
 - 메시지의 링크를 클릭한 사용자입니다.
 - 자격 증명을 포기한 사용자입니다.
@@ -168,7 +168,7 @@ A: Microsoft 365 Office 365 사용자 계정에 대해 언어 구성이 구체�
 
 A: 예! 마법사의 **마지막** 시뮬레이션 검토 페이지에서 새 시뮬레이션을 만들 수 있습니다. 테스트 보내기 옵션이 **있습니다.** 이 옵션은 현재 로그인한 사용자에게 샘플 피싱 시뮬레이션 메시지를 전송합니다. 받은 편지함에서 피싱 메시지의 유효성을 검사한 후 시뮬레이션을 제출할 수 있습니다.
 
-![시뮬레이션 검토 페이지에서 테스트 단추 보내기](../../media/attack-sim-review-simulation-page.png)
+![시뮬레이션 검토 페이지에서 테스트 단추를 보내십시오.](../../media/attack-sim-review-simulation-page.png)
 
 ### <a name="q-can-i-target-users-that-belong-to-a-different-tenant-as-part-of-the-same-simulation-campaign"></a>Q: 동일한 시뮬레이션 캠페인의 일부로 다른 테넌트에 속한 사용자를 대상으로 할 수 있나요?
 

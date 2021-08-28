@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b81a01ed239ec58dd736be51074117de1dae9e97386431e89a6343e9c01a1142
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8c296ab7f5f01c62b7342d2027ab90a894e1e55c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569720"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 장치 온보딩
 
@@ -44,7 +44,7 @@ ms.locfileid: "53894630"
 
 **온보딩** 카드는 실제로 끝점용 Defender에 온보딩된 Windows 10 장치 수를 Intune 관리 Windows 10 비교하여 온보딩 속도에 대한 간략한 개요를 제공합니다.
 
-![장치 구성 관리 온보더링 카드](images/secconmgmt_onboarding_card.png)
+![장치 구성 관리 온보더링 카드.](images/secconmgmt_onboarding_card.png)
 
 *Intune에서 관리하는 총 장치 수와 비교한 온보더 장치를 보여 Windows 10 카드*
 
@@ -57,7 +57,7 @@ Endpoint용 Defender는 디바이스를 온보딩하기 위한 몇 가지 [편�
 
 **온보더링 카드에서** 더 많은 디바이스 온보더를 **선택하여** Intune에서 프로필을 만들고 할당합니다. 이 링크를 통해 Intune의 장치 준수 페이지로 이동하여 온보더링 상태를 비슷한 개요로 제공합니다.
 
-![Intune 장치 관리의 끝점 장치 준수 페이지용 Microsoft Defender](images/secconmgmt_onboarding_1deviceconfprofile.png)
+![Intune 장치 관리의 끝점 장치 준수에 대한 Microsoft Defender 페이지입니다.](images/secconmgmt_onboarding_1deviceconfprofile.png)
 
 *Intune 장치 관리의 끝점 장치 준수 페이지용 Microsoft Defender*
 

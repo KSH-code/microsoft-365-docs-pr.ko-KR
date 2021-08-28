@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 그룹에서 채팅 대화를 재구성, 검토 및 내보내기하기 위한 Advanced eDiscovery 재구성 기능에 대해 Microsoft Teams Yammer 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2c1790646587d46f39a13b153a8cd152fb21468f
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 62ebfc054db260fd5e41fec3809ba1efdf46b44b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256462"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569624"
 ---
 # <a name="conversation-threading-in-advanced-ediscovery"></a>Advanced eDiscovery
 
@@ -48,7 +48,7 @@ ms.locfileid: "58256462"
 
 - **대화:** 하나 이상의 메시지 그룹화 여러 응용 프로그램에서 대화는 서로 다른 방식으로 표현될 수 있습니다. 일부 응용 프로그램에서는 기존 메시지에 회신하여 수행한 명시적 작업이 있습니다. 대화는 이 사용자 작업의 결과로 명시적으로 구성됩니다. 예를 들어 여기에 채널 대화의 스크린샷이 Microsoft Teams.
 
-   ![Microsoft Teams 채널 대화](../media/threadedchat.png)
+   ![Microsoft Teams 채널 대화.](../media/threadedchat.png)
 
    다른 앱(예: Teams의 그룹 채팅 메시지)에는 공식적인 회신 체인이 없는 대신 메시지가 단일 스레드 내에서 "평평한 메시지 강"으로 표시됩니다. 이러한 유형의 앱에서는 특정 시간 내에 발생하는 메시지 그룹에서 대화가 유추됩니다. 이 "소프트 그룹화" 메시지는 회신 체인이 아니라 특정 관심 주제에 대한 "전방" 대화를 나타내고 있습니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "58256462"
 
 대화의 항목을 검토 집합에 추가할 때 스레드된 대화 옵션을 사용하여 컬렉션의 검색 조건과 일치하는 항목이 포함된 대화에서 상황에 맞는 메시지를 수집할 수 있습니다. 스레드 대화 옵션을 선택한 후 다음과 같은 상황이 발생 할 수 있습니다.
 
-  ![대화 검색](../media/messagesandconversations.png)
+  ![Conversation Retrieval.](../media/messagesandconversations.png)
 
 1. 키워드 및 날짜 범위 쿼리를 사용하여 메시지 3에서 검색이 *적중을 반환했습니다.* 이 메시지는 CRC1에 의해 설명된 대규모 *대화의 일부입니다.*
 
@@ -76,7 +76,7 @@ ms.locfileid: "58256462"
 
 콘텐츠가 처리되고 검토 집합에 추가된 후 검토 집합의 데이터 검토를 시작할 수 있습니다. 개별 메시지는 함께 스레드로 처리된 후 대화로 표시됩니다. 이를 통해 상황에 맞는 대화를 검토하고 내보낼 수 있습니다.
 
-  ![대화 검토 집합](../media/ConversationRSOptions.PNG)
+  ![대화 검토 집합.](../media/ConversationRSOptions.PNG)
 
 다음 섹션에서는 대화 검토 및 내보내기에 대해 설명합니다.
 

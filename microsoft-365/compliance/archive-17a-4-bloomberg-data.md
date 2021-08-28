@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 Bloomberg DataParser 커넥터를 설정하고 사용하여 Bloomberg 데이터를 Microsoft 365.
-ms.openlocfilehash: c4f1ff76d03fc63ae746f433056ee544969d4470d2736ffb165042c881f6d72d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 93cc1fa23bd5cee77d12db7f2a6867ed030764b4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53836322"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569204"
 ---
 # <a name="set-up-a-connector-to-archive-bloomberg-data"></a>Bloomberg 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ Bloomberg 데이터가 사용자 사서함에 저장되고 나면 소송 보존,
 
 다음 개요에서는 데이터 커넥터를 사용하여 Bloomberg 데이터를 데이터 원본에 보관하는 Microsoft 365.
 
-![Bloomberg 데이터에 대한 보관 워크플로(17a-4)](../media/BloombergDataParserConnectorWorkflow.png)
+![Bloomberg 데이터에 대한 보관 워크플로(17a-4).](../media/BloombergDataParserConnectorWorkflow.png)
 
 1. 조직은 17a-4와 함께 Bloomberg DataParser를 설정하고 구성합니다.
 

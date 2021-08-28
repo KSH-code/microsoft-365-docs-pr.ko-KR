@@ -19,12 +19,12 @@ description: 관리자는 전자 메일 포털에서 사용할 수 있는 전자
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 78764102c873c784d03fdb7df4c1e27c5c9227ad
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 06817f5ce73800e3688820534404cb2893307dc2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394919"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568723"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기
 
@@ -37,7 +37,7 @@ ms.locfileid: "58394919"
 
 의 Microsoft 365 Defender 포털에서 다양한 보고서를 사용하여 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 Microsoft 365 보호하는 방법을 볼 <https://security.microsoft.com> 수 있습니다. 필요한 권한이 [](#what-permissions-are-needed-to-view-these-reports)있는 경우 보고서 전자 메일 Microsoft 365 Defender 공동 작업 전자  메일 & 공동 작업 보고서로 이동하여 & \>  \> **수 있습니다.** 전자 메일 및 공동 작업 **& 페이지로** 직접 이동하기 위해 를 를 를 열 수 <https://security.microsoft.com/emailandcollabreport> 있습니다.
 
-![& 포털의 전자 메일 Microsoft 365 Defender 공동 작업 보고서 페이지](../../media/email-collaboration-reports.png)
+![전자 & 포털의 공동 작업 보고서 Microsoft 365 Defender 전자 메일로 보내기](../../media/email-collaboration-reports.png)
 
 > [!NOTE]
 >
@@ -52,7 +52,7 @@ ms.locfileid: "58394919"
 
 손상된 **사용자 보고서에는** 지난 7일 이내에  의심 또는 제한으로  표시된 사용자 계정 수가 표시됩니다. 이러한 상태 중 하나에 있는 계정이 문제가 발생하거나 손상될 수도 있습니다. 자주 사용하는 경우 보고서를 사용하여 의심스러우거나 제한된 계정에서 스파이크 및 추세를 파악할 수 있습니다. 손상된 사용자에 대한 자세한 내용은 손상된 전자 메일 계정에 응답을 [참조하세요.](responding-to-a-compromised-email-account.md)
 
-![전자 메일 및 공동 작업 보고서 & 손상된 사용자 위젯](../../media/compromised-users-report-widget.png)
+![전자 메일 및 공동 작업 보고서 페이지의 & 위젯](../../media/compromised-users-report-widget.png)
 
 집계 보기는 지난 90일간의 데이터를 표시하고 세부 정보 보기에는 지난 30일간의 데이터가 표시됩니다.
 
@@ -84,13 +84,13 @@ Exchange **전송** 규칙 보고서는 조직에서 들어오고 오는 메시�
 
 Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 **& 공동** 작업 보고서 페이지에서 Exchange 전송 규칙을 찾은 다음 세부 정보 **보기를** **클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/ETRRuleReport> 습니다.
 
-![Exchange 공동 작업 보고서 페이지의 전자 메일 & 규칙 위젯](../../media/transport-rule-report-widget.png)
+![Exchange 공동 작업 보고서 페이지의 전자 메일 & 규칙 위젯을 선택합니다.](../../media/transport-rule-report-widget.png)
 
 전송 **Exchange** 보고서 페이지에서 사용 가능한 차트 및 데이터는 다음 섹션에 설명되어 있습니다.
 
 ### <a name="chart-breakdown-by-direction"></a>방향별 차트 분석
 
-![전송 규칙 Exchange 전송 규칙에 대한 방향 Exchange 보기](../../media/transport-rule-report-etr-direction-view.png)
+![전송 규칙 Exchange 전송 규칙에 대한 Exchange 보기입니다.](../../media/transport-rule-report-etr-direction-view.png)
 
 방향별 **차트 분석 을 선택하면** 다음 차트를 사용할 수 있습니다.
 
@@ -118,7 +118,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="chart-breakdown-by-severity"></a>심각도별 차트 분석
 
-![전송 규칙 보고서의 Exchange 전송 규칙에 대한 Exchange 보기](../../media/transport-rule-report-etr-severity-view.png)
+![전송 규칙 보고서의 Exchange 전송 규칙에 대한 Exchange 보기입니다.](../../media/transport-rule-report-etr-severity-view.png)
 
 심각도별 차트 분석 **을** 선택하면 다음 차트를 사용할 수 있습니다.
 
@@ -156,11 +156,11 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 메일 흐름 상태 요약을 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/mailflowStatusReport> 습니다.
 
-![메일 흐름 상태 요약 위젯 전자 메일 & 공동 작업 보고서 페이지의](../../media/mail-flow-status-report-widget.png)
+![메일 흐름 상태 요약 위젯의 전자 메일 & 공동 작업 보고서 페이지에서 확인할 수 있습니다.](../../media/mail-flow-status-report-widget.png)
 
 ### <a name="type-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 형식 보기
 
-![메일 흐름 상태 보고서에 보기 입력](../../media/mail-flow-status-report-type-view.png)
+![메일 흐름 상태 보고서에 보기를 입력합니다.](../../media/mail-flow-status-report-type-view.png)
 
 메일 흐름 **상태 보고서** 페이지에서  유형 탭이 기본적으로 선택되어 있습니다. 이 차트에는 지정된 날짜 범위에 대한 다음 정보가 표시됩니다.
 
@@ -215,7 +215,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="direction-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 방향 보기
 
-![메일 흐름 상태 보고서의 방향 보기](../../media/mail-flow-status-report-direction-view.png)
+![메일 흐름 상태 보고서의 방향 보기입니다.](../../media/mail-flow-status-report-direction-view.png)
 
 방향 탭을 **클릭하면** 차트에 지정된 날짜 범위에 대한 다음 정보가 표시됩니다.
 
@@ -239,7 +239,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 **Funnel** 보기는 Microsoft의 전자 메일 위협 방지 기능이 조직에서 받는 전자 메일과 보내기 전자 메일을 필터링하는 방법을 보여줍니다. 전체 전자 메일 수와 에지 보호, 맬웨어 방지, 피싱 방지, 스팸 방지 및 스푸핑 방지를 포함하여 구성된 위협 방지 기능이 이 수에 미치는 영향을 자세히 제공합니다.
 
-![메일 흐름 상태 보고서의 유입경로 보기](../../media/mail-flow-status-report-funnel-view.png)
+![메일 흐름 상태 보고서의 유입경로 보기입니다.](../../media/mail-flow-status-report-funnel-view.png)
 
 집계 보기 및 세부 정보 테이블 보기에서는 90일 동안 필터링할 수 있습니다.
 
@@ -306,7 +306,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 기술 **보기는** **Funnel** 보기와 유사하여 구성된 위협 방지 기능에 대해 보다 세부적인 세부 정보를 제공합니다. 차트에서 다양한 위협 방지 단계에서 메시지를 분류하는 방법을 볼 수 있습니다.
 
-![메일 흐름 상태 보고서의 기술 보기](../../media/mail-flow-status-report-tech-view.png)
+![메일 흐름 상태 보고서의 기술 보기입니다.](../../media/mail-flow-status-report-tech-view.png)
 
 집계 보기 및 세부 정보 표에서는 90일 동안 필터링할 수 있습니다.
 
@@ -372,7 +372,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & 공동 작업 보고서 페이지에서 전자 **메일에서** 검색된 **맬웨어를** 찾은 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/MalwareDetections> 습니다.
 
-![전자 메일 및 공동 작업 보고서 페이지의 전자 메일 위젯에서 & 검색](../../media/malware-detections-widget.png)
+![전자 메일 위젯의 맬웨어 검색은 전자 메일 & 보고서 페이지의 맬웨어 검색입니다.](../../media/malware-detections-widget.png)
 
 맬웨어 검색 **보고서 페이지의** 차트에는 지정된 날짜 범위에 대한 다음 정보가 표시됩니다.
 
@@ -420,7 +420,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 **& 공동 작업** 보고서  페이지에서 스푸핑 검색을 찾은 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/SpoofMailReportV2> 습니다.
 
-![전자 메일 및 공동 작업 보고서 페이지의 & 위젯 스푸핑](../../media/spoof-detections-widget.png)
+![전자 메일 공유 공동 작업 보고서 페이지에서 & 위젯을 스푸핑합니다.](../../media/spoof-detections-widget.png)
 
 차트에는 다음 정보가 표시됩니다.
 
@@ -443,7 +443,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
   - **기타**
 - **스푸핑 유형:** **내부 및** **외부**
 
-![사이트 포털의 스푸핑 메일 보고서 Microsoft 365 Defender 페이지](../../media/spoof-detections-report-page.png)
+![웹 사이트 포털의 메일 보고서 Microsoft 365 Defender 페이지입니다.](../../media/spoof-detections-report-page.png)
 
 그래프 아래의 세부 정보 표에는 다음 정보가 표시됩니다.
 
@@ -466,7 +466,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 제출을 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/adminSubmissionReport> 습니다. Microsoft 365 Defender 포털에서 관리 [제출으로 이동하려면 제출로](admin-submission.md) **이동을 클릭합니다.** 관리자는 지난 30일 동안 보고서를 볼 수 있습니다. 
 
-![전자 메일 및 공동 작업 & 페이지의 제출 위젯](../../media/submissions-report-widget.png)
+![전자 메일 및 공동 작업 보고서 & 제출 위젯입니다.](../../media/submissions-report-widget.png)
 
 차트에는 다음 정보가 표시됩니다.
 
@@ -496,7 +496,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 그래프 아래의 세부 정보 표에는 동일한 정보가  표시되어  있으며 전자 메일  및 공동 작업 제출의 분석 제출 탭에서와 동일한 **그룹 또는 & 옵션이** \> **있습니다.** 자세한 내용은 Microsoft에 대한 [관리자 제출 보기를 참조하세요.](admin-submission.md#view-admin-submissions-to-microsoft)
 
-![Microsoft 365 Defender 포털의 제출 보고서 페이지](../../media/submissions-report-page.png)
+![제출 포털의 Microsoft 365 Defender 페이지입니다.](../../media/submissions-report-page.png)
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
@@ -511,7 +511,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - Defender for Office 365:<https://security.microsoft.com/reports/TPSAggregateReportATP>
 - EOP: <https://security.microsoft.com/reports/TPSAggregateReport>
 
-![전자 메일 및 공동 작업 보고서 & 위협 방지 상태 위젯](../../media/threat-protection-status-report-widget.png)
+![전자 메일 및 공동 작업 보고서 & 위협 방지 상태 위젯입니다.](../../media/threat-protection-status-report-widget.png)
 
 기본적으로 차트에는 지난 7일간의 데이터가 표시됩니다. 위협 방지  상태  보고서 페이지에서 필터링을 클릭하면 90일 날짜 범위를 선택할 수 있습니다(평가판 구독은 30일로 제한될 수 있습니다). 세부 정보 표에서는 30일 동안 필터링할 수 있습니다.
 
@@ -519,7 +519,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="view-data-by-overview"></a>개요로 데이터 보기
 
-![위협 방지 상태 보고서의 개요 보기](../../media/threat-protection-status-report-overview-view.png)
+![위협 방지 상태 보고서의 개요 보기입니다.](../../media/threat-protection-status-report-overview-view.png)
 
 개요로 **데이터** 보기 보기에서 차트에 다음과 같은 검색 정보가 표시됩니다.
 
@@ -543,7 +543,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="view-data-by-email--phish-and-chart-breakdown-by-detection-technology"></a>검색 기술별 전자 메일 피싱 및 차트 \> 분석으로 데이터 보기
 
-![위협 방지 상태 보고서의 피싱 전자 메일에 대한 검색 기술 보기](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
+![위협 방지 상태 보고서의 피싱 전자 메일에 대한 검색 기술 보기입니다.](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
 
 전자 메일 **피싱으로 데이터 \> 보기** **및** 검색 기술별 차트 분석 보기에서 차트에 다음 정보가 표시됩니다.
 
@@ -592,7 +592,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="view-data-by-email--malware-and-chart-breakdown-by-detection-technology"></a>전자 메일 맬웨어 및 검색 기술별 \> 차트 분석으로 데이터 보기
 
-![위협 방지 상태 보고서의 맬웨어에 대한 검색 기술 보기](../../media/threat-protection-status-report-malware-detection-tech-view.png)
+![위협 방지 상태 보고서의 맬웨어에 대한 검색 기술 보기입니다.](../../media/threat-protection-status-report-malware-detection-tech-view.png)
 
 전자 메일 **맬웨어로 \> 데이터** 보기 및 검색 기술별 **차트** 분석 보기에서 차트에 다음 정보가 표시됩니다.
 
@@ -633,7 +633,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="chart-breakdown-by-policy-type-and-view-data-by-email--phish-or-view-data-by-email--malware"></a>정책 유형별 차트 분석 및 전자 메일 피싱 또는 전자 메일 맬웨어로 데이터 \> \> 보기
 
-![위협 방지 상태 보고서의 피싱 전자 메일 또는 맬웨어 전자 메일에 대한 정책 유형 보기](../../media/threat-protection-status-report-phishing-policy-type-view.png)
+![위협 방지 상태 보고서의 피싱 전자 메일 또는 맬웨어 전자 메일에 대한 정책 유형 보기입니다.](../../media/threat-protection-status-report-phishing-policy-type-view.png)
 
 정책 **유형별** 차트 분석 및 전자 메일 피싱 또는 전자 메일 맬웨어 보기로 데이터 보기에서 차트에 표시되는 정보는 다음과 같습니다. **\>** **\>**
 
@@ -671,7 +671,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="chart-breakdown-by-delivery-status-and-view-data-by-email--phish-or-view-data-by-email--malware"></a>배달 상태별 차트 분석 및 전자 메일 피싱 또는 전자 메일 맬웨어로 데이터 \> \> 보기
 
-![위협 방지 상태 보고서의 피싱 전자 메일 및 맬웨어 전자 메일에 대한 배달 상태 보기](../../media/threat-protection-status-report-phishing-delivery-status-view.png)
+![위협 방지 상태 보고서의 피싱 전자 메일 및 맬웨어 전자 메일에 대한 배달 상태 보기입니다.](../../media/threat-protection-status-report-phishing-delivery-status-view.png)
 
 배달 **상태별** 차트 분석 및 전자 메일 피싱으로 데이터 **\> 보기** 또는 전자 메일 맬웨어 보기로 데이터 **\> 보기에서** 차트에 표시되는 정보는 다음과 같습니다.
 
@@ -712,7 +712,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="view-data-by-content--malware"></a>콘텐츠 맬웨어로 \> 데이터 보기
 
-![위협 방지 상태 보고서의 콘텐츠 맬웨어 보기](../../media/threat-protection-status-report-content-malware-view.png)
+![위협 방지 상태 보고서의 콘텐츠 맬웨어 보기입니다.](../../media/threat-protection-status-report-content-malware-view.png)
 
 콘텐츠 **맬웨어로 \> 데이터** 보기 보기에서 조직의 Microsoft Defender에 대한 차트에 다음 Office 365 표시됩니다.
 
@@ -735,7 +735,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 ### <a name="view-data-by-system-override-and-chart-breakdown-by-reason"></a>시스템 오버라이드 및 이유별 차트 분석별 데이터 보기
 
-![위협 방지 상태 보고서의 메시지 오버라이드 및 이유별 차트 분석 보기](../../media/threat-protection-status-report-system-override-view-breakdown-by-reason.png)
+![위협 방지 상태 보고서의 메시지 은(는) 및 이유별 차트 분석 보기입니다.](../../media/threat-protection-status-report-system-override-view-breakdown-by-reason.png)
 
 시스템  **오버라이드별** 데이터 보기 및 이유별 차트 분석 보기에서 차트에 다음과 같은 이유 정보가 표시됩니다.
 
@@ -835,7 +835,7 @@ Top **malware report** shows the various kinds of malware that was detected by [
 
 Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동** 작업 보고서 페이지에서 상위 맬웨어를 찾은 다음 세부 정보  **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/TopMalware> 습니다.
 
-![전자 메일 및 공동 작업 & 페이지의 상위 맬웨어 위젯](../../media/top-malware-report-widget.png)
+![전자 메일 및 공동 작업 보고서 & 맬웨어 위젯입니다.](../../media/top-malware-report-widget.png)
 
 파이 차트에서 에지 위에 마우스를 대면 맬웨어의 종류 이름과 해당 맬웨어가 있는 것으로 감지된 메시지 수를 볼 수 있습니다.
 
@@ -846,7 +846,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 필터를 **클릭하면** 시작 날짜 및 종료 날짜로 날짜 범위를 **지정할** **수 있습니다.**
 
-![상위 맬웨어 보고서 보기](../../media/top-malware-report-view.png)
+![상위 맬웨어 보고서 보기입니다.](../../media/top-malware-report-view.png)
 
 ## <a name="url-threat-protection-report"></a>URL 위협 방지 보고서
 
@@ -888,7 +888,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **결과 다시 검색**
 - **피싱 시뮬레이션**
 
-![사용자가 보고한 메시지 보고서](../../media/user-reported-messages-report.png)
+![사용자가 보고한 메시지 보고서입니다.](../../media/user-reported-messages-report.png)
 
 그래프 아래의 세부 정보 표에는 다음 정보가 표시됩니다.
 
@@ -914,8 +914,8 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기 권한자**
-- **전역 읽기**
+- **보안 읽기**
+- **전역 읽기 권한자**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 

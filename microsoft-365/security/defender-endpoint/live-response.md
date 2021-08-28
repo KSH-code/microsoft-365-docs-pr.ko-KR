@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b72291e1c5b63cea65b6990a82e9de24cfc8fd5ea2ae75e31b82bc4033a0bc5f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0fb08635f50eedbf5fd96b8abc64ef9dfae60cbf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569696"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 
@@ -85,7 +85,7 @@ ms.locfileid: "53800120"
 
   다음 오류가 표시됩니다.
 
-  ![오류 메시지의 이미지](images/live-response-error.png)
+  ![오류 메시지의 이미지입니다.](images/live-response-error.png)
 
 - **라이브 응답 부호 없는** 스크립트 실행을 사용하도록 설정(선택 사항).
 
@@ -296,7 +296,7 @@ PowerShell 스크립트를 실행하려면 먼저 라이브러리에 업로드�
 
 실시간 응답은 CLI 및 파일에 대한 출력 파이핑을 지원합니다. CLI는 기본 출력 동작입니다. [command] > [filename]을 사용하여 출력을 파일에 파이프할 수 .txt.
 
-예:
+예제:
 
 ```console
 processes > output.txt

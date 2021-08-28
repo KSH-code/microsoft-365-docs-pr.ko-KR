@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: PostgreSQL에서 Cisco Jabber의 데이터를 가져오고 보관하기 위해 Microsoft 365 규정 준수 센터 커넥터를 설정하고 사용하는 방법을 Microsoft 365.
-ms.openlocfilehash: fc73fe178c59a50da81dd6e17ccf63e2e8b655419e24d0f17adcfffabc9449a4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b7372c61e70ca23108c6bb6d5aa98549738f553a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569840"
 ---
 # <a name="set-up-a-connector-to-archive-cisco-jabber-on-postgresql-data"></a>PostgreSQL 데이터에 Cisco Jabber를 보관할 커넥터 설정
 
@@ -32,7 +32,7 @@ PostgreSQL 데이터의 Cisco Jabber가 사용자 사서함에 저장되고 나�
 
 다음 개요에서는 커넥터를 사용하여 해당 커넥터의 PostgreSQL 데이터에 Cisco Jabber를 보관하는 Microsoft 365.
 
-![PostgreSQL 데이터에 대한 Cisco Jabber용 보관 워크플로](../media/CiscoJabberonPostgreSQLConnectorWorkflow.png)
+![PostgreSQL 데이터에 대한 Cisco Jabber용 보관 워크플로입니다.](../media/CiscoJabberonPostgreSQLConnectorWorkflow.png)
 
 1. 조직은 PostgreSQL의 Cisco Jabber와 함께 PostgreSQL 사이트에서 Cisco Jabber를 설정하고 구성합니다.
 

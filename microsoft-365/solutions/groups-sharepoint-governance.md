@@ -16,18 +16,18 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: Microsoft 365 그룹과 그룹 간의 설정 상호 작용에 대해 SharePoint
-ms.openlocfilehash: 6f24f18a91e897467a85a31945efe34c78b51db74dd2ffc0aa65322fd936a9ae
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: eb2f4ff9745eb73f23c48630582aa455ee2bb561
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853051"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567979"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-and-sharepoint"></a>설정 그룹과 Microsoft 365 상호 작용 SharePoint
 
 Microsoft 365 그룹 및 SharePoint Microsoft 365, 특히 공유 및 그룹 및 팀 사이트 만들기와 관련된 일부 설정은 서로 겹칩니다. 이 문서에서는 이러한 상호 작용에 대한 설명과 이러한 설정을 사용하여 작업하는 방법에 대한 모범 사례를 제공합니다.
 
-![SharePoint, Yammer 및 그룹 기능의 Venn 다이어그램](../media/groups-sharepoint-venn.png)
+![SharePoint, Yammer 및 그룹 기능의 Venn 다이어그램입니다.](../media/groups-sharepoint-venn.png)
 
 ## <a name="the-effects-of-sharepoint-settings-on-microsoft-365-groups"></a>그룹에서 SharePoint 설정이 Microsoft 365 효과
 
@@ -35,7 +35,7 @@ Microsoft 365 그룹 및 SharePoint Microsoft 365, 특히 공유 및 그룹 및 
 |:-----------------|:----------|:-----------------------------|:-------------|
 |조직 및 사이트에 대한 외부 공유|사이트, 파일 및 폴더를 조직 외부의 사용자와 공유할 수 있는지 여부를 확인합니다.|그룹 SharePoint 설정이 일치하지 않는 경우 그룹의 게스트가 사이트에 액세스하지 못하게 차단되거나, 사이트에서 외부 액세스를 사용할 수 있지만 그룹은 사용할 수 없습니다.|공유 설정을 변경할 때 그룹 설정과 그룹 연결 SharePoint 사이트 설정을 모두 확인합니다.<br><br>사이트에서 [게스트와 공동 작업을 참조하세요.](./collaborate-in-site.md)|
 |도메인 허용/차단|콘텐츠가 지정된 도메인과 공유되는 것을 허용하거나 차단합니다.|그룹이 허용 또는 차단 SharePoint 인식하지 못합니다. 사용자 계정에서 허용되지 SharePoint 그룹을 통해 SharePoint 액세스할 수 있습니다.|Azure AD에 대한 도메인 허용/차단 목록을 관리하고 함께 SharePoint 관리합니다. 도메인을 허용하고 차단하기 위한 관리 프로세스를 구성합니다.<br><br>도메인 [SharePoint](/sharepoint/restricted-domains-sharing) Azure AD [도메인 설정 참조](/azure/active-directory/b2b/allow-deny-list)|
-|특정 보안 그룹의 사용자만 외부로 공유할 수 있도록 허용|외부에서 사이트, 폴더 및 파일을 공유할 수 있는 보안 그룹을 지정합니다.|이 설정은 그룹 소유자 공유 그룹에 외부적으로 영향을 주지 않습니다. 그룹 게스트는 연결된 사이트와 연결된 SharePoint 있습니다.||
+|Allow only users in specific security groups to share externally(특정 보안 그룹의 사용자만 외부로 공유할 수 있도록 허용)|외부에서 사이트, 폴더 및 파일을 공유할 수 있는 보안 그룹을 지정합니다.|이 설정은 그룹 소유자 공유 그룹에 외부적으로 영향을 주지 않습니다. 그룹 게스트는 연결된 사이트와 연결된 SharePoint 있습니다.||
 |SharePoint 공유 설정|그룹 구성원 자격 외부에서 직접 사이트를 공유할 수 있는 사용자 결정 그룹 또는 사이트 소유자가 구성합니다.|이 설정은 그룹에 직접 영향을 주지 않지만 사용자가 사이트에 추가될 수 있도록 허용하고 다른 그룹 리소스에 액세스할 수 없습니다.|이 설정을 사용하여 사이트 공유를 직접 제한하고 그룹을 통해 사이트 액세스를 관리하는 것이 좋습니다.|
 |사용자가 시작 페이지 및 SharePoint 사이트에서 사이트를 만들 수 있도록 OneDrive|사용자가 사이트를 새로 만들 수 SharePoint 지정합니다.|이 설정을 해제한 경우 사용자는 그룹을 만들어 그룹 연결 팀 사이트를 만들 수 있습니다.||
 

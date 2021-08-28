@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 네트워크 구성을 구현하기 위한 Microsoft 365 로드맵입니다.
-ms.openlocfilehash: 7c8c67305ef67e9e7a20b2d341f339b8bdbab4090426861e37b5b5277bb249e7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3fb9c99bd0381730a41bd65012efe5488b85509d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800984"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570056"
 ---
 # <a name="networking-roadmap-for-microsoft-365"></a>네트워크용 네트워킹 로드맵 Microsoft 365
 
@@ -66,7 +66,7 @@ Microsoft 365 엔터프라이즈용 클라우드 서비스에는 공동 작업 �
 
 가상의 대표적 다국적 기업인 Contoso Corporation이 Microsoft 365 클라우드 서비스에 맞게 [네트워크 장치 및 인터넷 연결을 최적화](contoso-networking.md)한 방법을 알아봅니다.
 
-![Contoso Corporation](../media/contoso-overview/contoso-icon.png)
+![The Contoso Corporation.](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>다음 단계
 

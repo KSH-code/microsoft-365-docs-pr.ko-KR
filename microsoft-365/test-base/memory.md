@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: ea4ce5d4883f3e3263a8885f1c347cf9f6fb8fb0c1d4062c1c2a843387d9aea3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 714cea98e5dd876a5a9e2568a6c8488f595f2f39
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888071"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568711"
 ---
 # <a name="memory-regression-analysis"></a>메모리 회귀 분석
 
@@ -39,12 +39,12 @@ M365용 테스트 기준 대시보드는 응용 프로그램에서 사전 릴리
 
 메모리 회귀로 인한 오류 신호는 테스트 결과 페이지의 메모리 사용률 아래에 있는 M365용 테스트 기준 대시보드에 표시됩니다.
 
-![메모리 사용률 결과](Media/01_memory-utilization-results.png)
+![메모리 사용률 결과.](Media/01_memory-utilization-results.png)
 
 
 메모리 사용량이 높기 때문에 응용 프로그램에 대한 오류도 테스트 요약 페이지에 ```Fail``` 표시됩니다.
 
-![요약 결과 테스트](Media/02_test-summary.png)
+![요약 결과를 테스트합니다.](Media/02_test-summary.png)
 
 이러한 오류 신호를 선행에 제공하여 응용 프로그램의 최종 사용자 환경을 중단하고 영향을 줄 수 있는 잠재적인 문제에 명확하게 플래그를 지정하는 것이 목표입니다. 
 
@@ -52,7 +52,7 @@ M365용 테스트 기준 대시보드는 응용 프로그램에서 사전 릴리
 
 모든 테스트 실행에 대한 M365용 테스트 기준 서비스의 메모리 사용률 탭에 메모리 신호가 캡처됩니다. 아래 예제에서는 2020년 8월 시험판 보안 업데이트에 대해 온보드 응용 프로그램 "연기 테스트 메모리 스트레스"를 통해 최근 테스트 실행을 보여 주었다. (이 응용 프로그램은 메모리 회귀를 설명하기 위해 팀에서 작성했습니다.)
 
-![메모리 회귀 결과](Media/03_memory-regression%20comparison.png)
+![메모리 회귀 결과.](Media/03_memory-regression%20comparison.png)
 
 이 예에서 즐겨찾기 프로세스 "USLTestMemoryStress.exe" 프로세스는 릴리스된 7월 업데이트와 비교하여 시험판 8월 업데이트에서 평균 약 100MB를 소비하여 M365용 테스트 베이스에서 회귀를 확인했습니다. 
 
@@ -66,7 +66,7 @@ M365용 테스트 기준 대시보드는 응용 프로그램에서 사전 릴리
 
 이러한 zip 파일에는 스크립트 결과, 메모리 및 ETL 파일에 포함된 CPU 성능 데이터를 포함하여 테스트 실행 결과가 포함됩니다.
 
-![메모리 회귀 테스트 파일](Media/04_memory-regression-test-files.png)
+![메모리 회귀 테스트 파일.](Media/04_memory-regression-test-files.png)
 
 두 테스트 실행에 대한 로그를 다운로드 및 제거한 다음 각 폴더 내에서 ETL 파일을 찾아 target.etl(시험판 업데이트에서 테스트 실행용) 및 baseline.etl(마지막 릴리스된 업데이트에서 테스트 실행용)으로 이름을 변경하여 탐색 및 탐색을 간소화할 수 있습니다.
  

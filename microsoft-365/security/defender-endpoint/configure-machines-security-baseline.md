@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d0f2d14a6005ff067e0c46d7bc582199ec7d2e4fbf7112705e7acebd4891dbf5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 907925669176135944f2327c39ac86ed823a9fd9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894520"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568651"
 ---
 # <a name="increase-compliance-to-the-microsoft-defender-for-endpoint-security-baseline"></a>엔드포인트 보안 기준에 대한 Microsoft Defender 준수 강화
 
@@ -58,7 +58,7 @@ Windows Intune 보안 기준은 브라우저 설정, PowerShell 설정, 브라�
 
 장치 **구성 관리의** 보안 기준 카드는 끝점 보안 기준에 Windows 10 장치 전반에 걸쳐 규정 준수에 대한 개요를 제공합니다. [](configure-machines.md)
 
-![보안 기준 카드](images/secconmgmt_baseline_card.png)
+![보안 기준 카드.](images/secconmgmt_baseline_card.png)
 
 *엔드포인트 보안 기준에 대한 Defender 준수를 보여주는 카드*
 
@@ -85,22 +85,22 @@ Windows Intune 보안 기준은 브라우저 설정, PowerShell 설정, 브라�
 
 2. 새 프로필을 만들 수 있습니다.
 
-   ![Intune의 끝점용 Microsoft Defender 보안 기준 개요](images/secconmgmt_baseline_intuneprofile1.png)<br>
+   ![Intune의 끝점용 Microsoft Defender 보안 기준 개요입니다.](images/secconmgmt_baseline_intuneprofile1.png)<br>
    *Intune의 끝점용 Microsoft Defender 보안 기준 개요*
 
 3. 프로필을 만들 때 기준에 따라 특정 설정을 검토하고 조정할 수 있습니다.
 
-   ![Intune에서 프로필을 만들 때 보안 기준 옵션](images/secconmgmt_baseline_intuneprofile2.png)<br>
+   ![Intune에서 프로필을 만들 때 보안 기준 옵션입니다.](images/secconmgmt_baseline_intuneprofile2.png)<br>
    *Intune에서 프로필을 만들 때 보안 기준 옵션*
 
 4. 프로필을 적절한 장치 그룹에 할당합니다.
 
-   ![Intune의 보안 기준 프로필](images/secconmgmt_baseline_intuneprofile3.png)<br>
+   ![Intune의 보안 기준 프로필.](images/secconmgmt_baseline_intuneprofile3.png)<br>
    *Intune에서 보안 기준 프로필 할당*
 
 5. 프로필을 만들어 저장하고 할당된 장치 그룹에 배포합니다.
 
-   ![Intune에서 보안 기준 할당](images/secconmgmt_baseline_intuneprofile4.png)<br>
+   ![Intune에 보안 기준 할당](images/secconmgmt_baseline_intuneprofile4.png)<br>
    *Intune에서 보안 기준 프로필 만들기*
 
 > [!TIP]

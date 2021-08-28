@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 조직이 현재 해당 Microsoft 365 가장 일반적인 위협 및 공격 시나리오와 이러한 위험을 완화하기 위한 권장 조치를 제공합니다.
-ms.openlocfilehash: dabd4e094962c15ade360db317fa197698733e2da4cedc752d602337df090a37
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8f5c6e75097814841f8478cd8240c80b4eebc51a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839985"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568183"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 BDM(비즈니스 의사 결정자)에 대한 보안
 
@@ -27,7 +27,7 @@ ms.locfileid: "53839985"
 
 이 문서는 테넌트, 전자 메일 및 자산과 같은 가장 중요한 서비스 및 자산을 관리하는 데 사용되는 계정 보호부터 시작하여 작업의 우선 순위에 따라 SharePoint. 조직 전체의 이해 관계자 및 팀과 진행 상황을 추적할 수 있도록 다음과 같은 스프레드시트와 함께 작업할 수 있는 조직 내 조직의 이해 관계자 및 팀과의 진행 상황을 추적할 [수](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)있도록 Microsoft 365 방법을 제공합니다. 
 
-[![BDM Microsoft 365 권장 스프레드시트의 축소판 이미지](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
+[![BDM Microsoft 365 권장 스프레드시트의 축소판 이미지입니다.](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
 Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적인 활동에 따라 보안 자세를 자동으로 분석하고, 점수를 할당하고, 보안 개선 권장 사항을 제공합니다. 이 문서에서 권장하는 작업을 수행하기 전에 현재 점수와 권장 사항을 기록해 넣습니다. 이 문서에서 권장하는 작업을 수행하면 점수가 향상됩니다. 목표는 최대 점수를 달성하는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 방식으로 환경을 보호할 기회를 인식하는 것입니다. [Microsoft 보안 점수를 참조합니다.](defender/microsoft-secure-score.md)
 
@@ -92,7 +92,7 @@ Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적�
 |**이 Microsoft Cloud App Security** 사용하여 SaaS 앱을 검색하고 동작 분석 및 이상 검색 사용을 시작하세요. |         |![녹색 확인 표시](../media/green-check-mark.png) |
 
 다음 다이어그램에는 이러한 기능이 설명되어 있습니다.
-![알 수 없는 위협으로부터 보호하기 위한 권장 기능](../media/m365-security-bdm-illustrations-unknown-threats.png)
+![알 수 없는 위협으로부터 보호하기 위한 권장 기능입니다.](../media/m365-security-bdm-illustrations-unknown-threats.png)
 
 추가 권장 사항:
 - TLS를 사용하는 전자 메일과 같은 파트너 채널 통신을 보호합니다.
@@ -126,7 +126,7 @@ Microsoft 365 보호 기능을 사용하면 저장되는 정보, 추가 보호�
 |**[AIP 스캐너를](/azure/information-protection/deploy-aip-scanner) 사용하여 서버** 및 파일 공유에서 정보를 식별하고 분류합니다. AIP 보고 도구를 사용하여 결과를 보고 적절한 작업을 수행할 수 있습니다.|         |![녹색 확인 표시](../media/green-check-mark.png)|
 
 다음 다이어그램에는 이러한 기능이 설명되어 있습니다.
-![위반으로부터 보호하기 위한 권장 기능](../media/m365-security-bdm-illustrations-assume-breach.png)
+![위반으로부터 보호하기 위한 권장 기능입니다.](../media/m365-security-bdm-illustrations-assume-breach.png)
 
 ## <a name="continuous-monitoring-and-auditing"></a>지속적인 모니터링 및 감사
 

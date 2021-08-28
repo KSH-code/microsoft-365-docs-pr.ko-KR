@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03843707ebffc6798b3d73526a2e95b884047b13
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: c785941529823048b55ab3590c91f365ea17a1ba
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594025"
+ms.locfileid: "58570140"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -73,7 +73,7 @@ EDM 기반 분류가 이 구독에 포함되어 있습니다
 
 |포털|전세계/GCC|GCC-High|DOD|
 |---|---|---|---|
-|Office SCC|compliance.microsoft.com|scc.office365.us|scc.protection.apps.mil|
+|Office SCC|protection.office.com|scc.office365.us|scc.protection.apps.mil|
 |Microsoft 365 보안 센터|security.microsoft.com|security.microsoft.us|security.apps.mil|
 |Microsoft 365 규정 준수 센터|compliance.microsoft.com|compliance.microsoft.us|compliance.apps.mil|
 

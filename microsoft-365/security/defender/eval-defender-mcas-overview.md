@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 386a7efcc5cb47df835e8465c323e5cdfdf486c7
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 43792367d4ec1cd31c2122badd74a32bc7ae8a19
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569300"
 ---
 # <a name="evaluate-microsoft-cloud-app-security"></a>평가 Microsoft Cloud App Security
 
@@ -39,7 +39,7 @@ ms.locfileid: "58247582"
 
 다음 단계에 따라 Microsoft 클라우드 앱 보안을 사용하도록 설정하고 파일럿합니다.
 
-![Defender 평가 환경에 Office Microsoft Defender를 추가하는 단계](../../media/defender/m365-defender-office-eval-steps.png)
+![Defender 평가 환경에 Office Microsoft Defender를 추가하는 단계입니다.](../../media/defender/m365-defender-office-eval-steps.png)
 
 
 

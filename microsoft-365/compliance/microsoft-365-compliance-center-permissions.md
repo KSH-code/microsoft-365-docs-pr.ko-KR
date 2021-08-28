@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: 2013에서 사용 권한을 관리하는 방법을 Microsoft 365 규정 준수 센터.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 8787deb94cbe8a0f2f5b3a17b220c933df48e7b21fb023f5bbc78f154e7008d5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 717b8cd312aad805107536b174b3a9cd58e72a55
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570092"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터 사용 권한
 
@@ -24,7 +24,7 @@ ms.locfileid: "53871772"
 
 조직에서  사용 권한 탭을 Microsoft 365 규정 준수 센터 사용자는 전역 관리자 또는 역할 관리 역할(역할은 조직 관리 역할 그룹에만  할당)을 할당해야 합니다.  역할 *관리 역할을* 사용하면 사용자가 역할 그룹을 보고 만들고 수정할 수 있습니다.
 
-![사용 권한 페이지의 Microsoft 365 규정 준수 센터](../media/m365-compliance-center-permissions.png)
+![사용 권한 페이지의 Microsoft 365 규정 준수 센터.](../media/m365-compliance-center-permissions.png)
 
 사용 권한은 Microsoft 365 규정 준수 센터 RBAC(역할 기반 액세스 제어) 권한 모델을 기반으로 합니다. RBAC는 대부분의 Microsoft 365 서비스에서 사용하는 사용 권한 모델과 동일하기 때문에 이러한 서비스의 사용 권한 구조에 익숙한 경우 해당 서비스에서 사용 권한을 Microsoft 365 규정 준수 센터 익숙합니다. 각 개별 서비스에서 관리되는 사용 권한은 Microsoft 365 규정 준수 센터 필요한 모든 사용 권한 관리를 다루지 않습니다. 관리 센터에서 특정 서비스에 대한 특정 서비스 관련 권한을 관리해야 합니다. 예를 들어 보관, 감사 및 MRM 보존 정책에 대한 사용 권한을 할당해야 하는 경우 Exchange 관리 센터에서 이러한 사용 권한을 관리해야 합니다.
 
@@ -34,7 +34,7 @@ ms.locfileid: "53871772"
 
 역할 그룹은 사용자가 역할 그룹에서 규정 준수 솔루션 전반에 걸쳐 작업을 할 수 있도록 하는 Microsoft 365 규정 준수 센터. 예를 들어 내부자 위험  관리 역할 그룹에 사용자를 추가하면 지정된 관리자, 분석가, 조사자 및 감사자는 단일 그룹에서 필요한 내부자 위험 관리 권한에 맞게 구성됩니다. 이 Microsoft 365 규정 준수 센터 사용자 할당에 필요한 각 준수 솔루션에 대한 작업 및 기능에 대한 기본 역할 그룹이 포함되어 있습니다. 일반적으로 개별 사용자를 필요한 경우 기본 준수 역할 그룹에 구성원으로 추가하는 것이 좋습니다.
 
-![역할 그룹에 역할 및 멤버의 관계를 보여 주는 다이어그램](../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
+![역할 그룹과 역할 및 구성원의 관계를 보여주는 다이어그램](../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
 
 ## <a name="permissions-needed-to-use-features-in-the-microsoft-365-compliance-center"></a>사용 권한의 기능을 사용하는 데 필요한 Microsoft 365 규정 준수 센터
 

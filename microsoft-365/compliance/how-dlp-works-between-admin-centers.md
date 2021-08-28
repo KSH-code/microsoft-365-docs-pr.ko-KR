@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: 보안 및 준수 센터의 DLP가 & 관리 센터의 DLP 및 메일 흐름 규칙(전송 규칙)에서 작동하는 Exchange 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 897c7a758778f8f31c94d989fdb7c05519aba90c5c153a407a77b27c132113b1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 37d1c4a5900fb9a6d42934246cbed6666e0609eb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813889"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570116"
 ---
 # <a name="how-dlp-works-between-the-microsoft-365-compliance-center-and-exchange-admin-center"></a>DLP가 Microsoft 365 및 Exchange 관리 센터 간의 작동 방식
 
@@ -35,7 +35,7 @@ ms.locfileid: "53813889"
     
 이러한 관리 센터에서 만든 DLP 경찰은 나란히 작동됩니다. 이 항목에서는 방법을 설명합니다.
   
-![보안 및 준수 센터 및 Exchange 관리 센터의 DLP 페이지](../media/d3eaa7e7-3b16-457b-bd9c-26707f7b584f.png)
+![보안 및 준수 센터의 DLP 페이지 및 Exchange 관리 센터.](../media/d3eaa7e7-3b16-457b-bd9c-26707f7b584f.png)
   
 ## <a name="how-dlp-in-the-security--compliance-center-works-with-dlp-and-mail-flow-rules-in-the-exchange-admin-center"></a>보안 및 준수 센터의 DLP가 & 관리 센터의 DLP 및 메일 흐름 규칙과 Exchange 방법
 

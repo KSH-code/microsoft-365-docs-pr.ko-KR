@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
 description: 검색 창의 콘텐츠 Microsoft 365 규정 준수 센터 사용하여 특정 사서함 또는 사이트 폴더의 항목을 검색하는 대상 컬렉션을 수행할 수 있습니다.
-ms.openlocfilehash: fb7b6e9f1115aae64a2e0e2a3776acf535d71509
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: e5da234d78d2f26af70f3e69ff6a1917f9d99b34
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508145"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569552"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>대상 컬렉션에 콘텐츠 검색 사용
 
@@ -202,7 +202,7 @@ Microsoft 365 규정 준수 센터 콘텐츠 검색 도구는 UI에서 특정 �
 
 다음은 사서함 폴더에 대한 스크립트에서 반환된 출력의 예입니다.
 
-![스크립트에서 반환된 사서함 폴더 및 폴더의 목록 예](../media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
+![스크립트에서 반환된 사서함 폴더 및 폴더의 목록 예입니다.](../media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
 
 2단계의 예제에서는 사용자의 복구 가능한 항목 폴더에서 제거 하위 폴더를 검색하는 데 사용되는 쿼리를 보여 제공합니다.
 
@@ -212,7 +212,7 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
 
 다음은 사이트 폴더에 대한 스크립트에서 반환된 출력의 예입니다.
 
-![스크립트에서 반환된 사이트 폴더의 문서링크 이름 목록 예](../media/519e8347-7365-4067-af78-96c465dc3d15.png)
+![스크립트에서 반환된 사이트 폴더의 문서링크 이름 목록 예제입니다.](../media/519e8347-7365-4067-af78-96c465dc3d15.png)
 
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>2단계: 폴더 ID 또는 문서 링크를 사용하여 대상 컬렉션 수행
 
@@ -226,7 +226,7 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
 
     예를 들어 다음 스크린샷의 쿼리는 사용자의 복구 가능한 항목 폴더에 있는 제거 하위 폴더의 항목을 검색합니다. 제거 하위 폴더의 속성 값은 1단계의 스크린샷에 표시됩니다. `folderid`
 
-    ![검색 쿼리의 키워드 상자에 folderid 또는 documentlink를 붙여 넣습니다.](../media/FolderIDSearchQuery.png)
+    ![folderid 또는 documentlink를 검색 쿼리의 키워드 상자에 붙여 넣습니다.](../media/FolderIDSearchQuery.png)
     > [!IMPORTANT]
     > documentlink 검색에는 후행 을 사용해야  `asterisk '/*'` 합니다.  
 

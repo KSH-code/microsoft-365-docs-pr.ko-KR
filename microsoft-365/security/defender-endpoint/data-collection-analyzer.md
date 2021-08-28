@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: dcf7ecede8eb870edbeb015d0c7a5005ed006ab2
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 7fa72bc6e96199fb7773e4df385e3527ac14938e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533570"
+ms.locfileid: "58568627"
 ---
 # <a name="data-collection-for-advanced-troubleshooting-on-windows"></a>Windows에서 고급 문제 해결을 위한 데이터 수집
 
@@ -36,7 +36,7 @@ Microsoft 지원 전문가와 공동 작업할 때 클라이언트 분석기를 
 
 '**MDEClientAnalyzer.cmd /?**' 실행 사용 가능한 매개 변수 목록과 해당 설명을 볼 수 있습니다.
 
-![명령줄의 클라이언트 분석기 매개 변수 이미지](images/d89a1c04cf8441e4df72005879871bd0.png)
+![명령줄에 있는 클라이언트 분석기 매개 변수의 이미지입니다.](images/d89a1c04cf8441e4df72005879871bd0.png)
 
 > [!NOTE]
 > 고급 문제 해결 매개 변수를 사용하는 경우 [](/windows/security/threat-protection/microsoft-defender-antivirus/collect-diagnostic-data-update-compliance) 분석기에서 관련MpCmdRun.exe로그를 Microsoft Defender 바이러스 백신 호출합니다.
@@ -72,7 +72,7 @@ Microsoft 지원 전문가와 공동 작업할 때 클라이언트 분석기를 
 
 분석기 도구et에 번들로 묶인 'RemoteMDEClientAnalyzer.cmd'를 실행하여 분석기 및 위의 모든 시나리오 플래그를 원격으로 시작할 수 있습니다.
 
-![분석기 정보가 있는 명령줄 이미지](images/57cab9d82d08f672a92bf9e748ac9572.png)
+![분석기 정보가 있는 명령줄의 이미지입니다.](images/57cab9d82d08f672a92bf9e748ac9572.png)
 
 > [!NOTE]
 >

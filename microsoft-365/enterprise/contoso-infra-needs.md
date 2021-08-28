@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 사내 IT 인프라의 기본 구조와 엔터프라이즈용 클라우드를 통해 회사의 비즈니스 요구를 Microsoft 365 이해합니다.
-ms.openlocfilehash: abed7e47ab0654c44c047ef09a9a75a46d2a0e17
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 36fec158926bfa4530c0dfa6a862e877204be0cd
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569504"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT 인프라 및 비즈니스 요구
 
@@ -31,7 +31,7 @@ Contoso는 주로 중앙 집중식 온-프레미스 IT 인프라를 사용하며
 
 다음은 응용 프로그램 데이터 센터, DMZ 및 인터넷이 있는 본사입니다.
 
-![기존 Contoso IT 인프라](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
+![기존 Contoso IT 인프라.](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
 
 온-프레미스 응용 프로그램 데이터 센터에서는 다음과 같은 것들을 호스팅합니다. 
 

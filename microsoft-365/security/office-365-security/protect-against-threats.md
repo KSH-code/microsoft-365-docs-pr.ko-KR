@@ -20,12 +20,12 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 06f87213131f8fccdd9cfd83d7bdf4ead10c0667
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 69f36a26792d37f66fca46ec7905be89483c61f6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594319"
+ms.locfileid: "58568075"
 ---
 # <a name="protect-against-threats"></a>위협에 대한 보호
 
@@ -75,7 +75,7 @@ ms.locfileid: "58594319"
 |역할 또는 역할 그룹|자세한 내용을 알아보는 위치|
 |---|---|
 |전역 관리자|[Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)|
-|보안 관리자|[Azure AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference#security-administrator)
+|보안 관리자|[Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Exchange Online 조직 관리|[Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)|
 |
 
@@ -306,7 +306,7 @@ SharePoint Online 또는 비즈니스용 OneDrive 파일이 악성으로 식별�
    완료되면 다음을 **클릭합니다.**
 
 5. 받는 **사람 설정 페이지에서** 다음 설정을 구성합니다.
-   - **전자 메일 알림 보내기:** 이 설정이 선택되어 있는지 확인
+   - **전자 메일 알림 보내기:** 이 설정이 lclcted인지 확인
    - **전자 메일 받는 사람:** 악의적인 파일이 감지될 때 알림을 수신해야 하는 전역 관리자, 보안 관리자 또는 보안 독자를 하나 이상 선택합니다.
    - **일별 알림 제한:** **제한 없음이 선택되어** 있는지 확인
 

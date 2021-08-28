@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: abadce38582408ec7105bdfcec7181210a775e85af2354be08bb33aca3b5764e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dfc770e22f0fb4fc6dbb7e7d24bc1a8690d44032
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853771"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569960"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>대시보드 정보 - 위협 및 취약성 관리
 
@@ -59,7 +59,7 @@ ms.locfileid: "53853771"
 
 ## <a name="threat-and-vulnerability-management-dashboard"></a>위협 및 취약성 관리 대시보드
 
-:::image type="content" source="../../media/tvmdashboard.png" lightbox="../../media/tvmdashboard.png" alt-text="장치용 위협 및 취약성 관리 대시보드":::
+:::image type="content" source="../../media/tvmdashboard.png" lightbox="../../media/tvmdashboard.png" alt-text="장치용 위협 및 취약성 관리 대시보드.":::
 
 영역|설명
 :---|:---

@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: f79372a210a256720654c92e5ce580d772ef4527
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 591a98e07f47717f0475c88584a161c93198c084
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58249667"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569312"
 ---
 # <a name="review-architecture-requirements-and-key-concepts-for-microsoft-cloud-app-security"></a>아키텍처 요구 사항 및 주요 개념을 Microsoft Cloud App Security
 
@@ -45,7 +45,7 @@ Microsoft Cloud App Security CASB(클라우드 액세스 보안 브로커)입니
 
 이 Cloud App Security 없는 경우 조직에서 사용하는 클라우드 앱은 그림과 같은 관리되지 않고 보호되지 않습니다.
 
-![Microsoft Cloud App Security](../../media/defender/m365-defender-mcas-architecture-a.png)
+![Microsoft Cloud App Security.](../../media/defender/m365-defender-mcas-architecture-a.png)
 
 이 그림의 내용
 - 조직에서 클라우드 앱을 사용하는 것은 원치 않는 것이고 보호되지 않습니다. 
@@ -55,7 +55,7 @@ Microsoft Cloud App Security CASB(클라우드 액세스 보안 브로커)입니
 
 클라우드 앱 사용을 관리하는 첫 번째 단계는 조직에서 사용하는 클라우드 앱을 검색하는 것입니다. 다음 다이어그램은 클라우드 검색이 클라우드 검색에서 작동하는 Cloud App Security.
 
-![Microsoft Cloud App Security 아키텍처 - 클라우드 검색](../../media/defender/m365-defender-mcas-architecture-b.png)
+![비즈니스용 Microsoft Cloud App Security - 클라우드 검색.](../../media/defender/m365-defender-mcas-architecture-b.png)
 
 이 그림에는 네트워크 트래픽을 모니터링하고 조직에서 사용중인 클라우드 앱을 검색하는 데 사용할 수 있는 두 가지 방법이 있습니다.
 - 대답. Cloud App Discovery는 기본적으로 끝점용 Microsoft Defender와 통합됩니다. Endpoint용 Defender는 IT 관리 디바이스에서 액세스하는 클라우드 앱 및 Windows 10 보고합니다. 
@@ -65,7 +65,7 @@ Microsoft Cloud App Security CASB(클라우드 액세스 보안 브로커)입니
 
 클라우드 앱을 검색하고 조직에서 이러한 앱을 사용하는 방식의 동작을 분석한 후 선택한 클라우드 앱 관리를 시작할 수 있습니다. 
 
-![비즈니스용 Microsoft Cloud App Security - 클라우드 앱 관리](../../media/defender/m365-defender-mcas-architecture-c.png)
+![비즈니스용 Microsoft Cloud App Security - 클라우드 앱 관리.](../../media/defender/m365-defender-mcas-architecture-c.png)
 
 이 그림에서는 다음을 참조합니다.
 - 일부 앱은 사용이 제재됩니다. 이는 앱을 관리하는 간단한 방법입니다.
@@ -76,7 +76,7 @@ Microsoft Cloud App Security CASB(클라우드 액세스 보안 브로커)입니
 
 Microsoft Cloud App Security 역방향 프록시 역할을 하여 인증된 클라우드 앱에 대한 프록시 액세스를 제공합니다. 이렇게 하면 Cloud App Security 세션 컨트롤을 적용할 수 있습니다. 
 
-![Microsoft Cloud App Security 아키텍처 - 프록시 액세스 세션 제어](../../media/defender/m365-defender-mcas-architecture-d.png)
+![클라이언트용 Microsoft Cloud App Security - 프록시 액세스 세션 제어.](../../media/defender/m365-defender-mcas-architecture-d.png)
 
 이 그림에서는 다음을 참조합니다.
 - 조직의 사용자 및 장치에서 허용된 클라우드 앱에 대한 액세스는 사용자 및 디바이스를 통해 Cloud App Security.
@@ -89,7 +89,7 @@ Microsoft Cloud App Security 역방향 프록시 역할을 하여 인증된 클�
 
 다단계 인증 및 기타 조건부 액세스 정책을 적용하기 위해 Azure AD 테넌트에 SaaS 앱을 이미 추가한 상태일 수 있습니다. Microsoft Cloud App Security Azure AD와 기본적으로 통합됩니다. Azure AD에서 조건부 액세스 앱 제어를 사용하도록 Azure AD에서 정책을 구성하기만 Cloud App Security. 이렇게 하면 이러한 관리되는 SaaS 앱에 대한 네트워크 트래픽이 Cloud App Security 프록시로 라우팅됩니다. 이 Cloud App Security 모니터링하고 세션 컨트롤을 적용할 수 있습니다. 
 
-![Microsoft Cloud App Security 아키텍처 - SaaS 앱](../../media/defender/m365-defender-mcas-architecture-e.png)
+![Microsoft Cloud App Security 아키텍처 - SaaS 앱.](../../media/defender/m365-defender-mcas-architecture-e.png)
 
 이 그림에서는 다음을 참조합니다.
 - SaaS 앱은 Azure AD 테넌트와 통합됩니다. 이를 통해 Azure AD는 다단계 인증을 비롯한 조건부 액세스 정책을 적용할 수 있습니다.

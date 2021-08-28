@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 다중 위치 및 이동 위치를 Microsoft 365 단일 또는 Microsoft 365 테넌트를 배포하고 관리합니다.
-ms.openlocfilehash: 6cf7ca2a754077172aa5d90752109ea6773378f7a6b7457ac158cc599ad06ba9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5dee78835de1e3e64f52f653f52ea4f32dcf6547
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888410"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568447"
 ---
 # <a name="step-1-your-microsoft-365-for-enterprise-tenants"></a>1단계. 엔터프라이즈 Microsoft 365 대한 사용자 설정
 
@@ -49,7 +49,7 @@ ms.locfileid: "53888410"
 
 다음은 동일한 기본 데이터 센터 지리적으로 두 테넌트(테넌트 A 및 테넌트 B)가 있는 조직의 예입니다. 각 테넌트는 별도의 Azure AD 테넌트로 구성됩니다.
 
-![자체 Microsoft 365 테넌트가 있는 여러 테넌트](../media/tenant-management-overview/tenant-management-example-multi-tenant.png)
+![여러 Microsoft 365 Azure AD 테넌트가 있는 테넌트가 여러 개 있습니다.](../media/tenant-management-overview/tenant-management-example-multi-tenant.png)
 
 테넌트가 여러 개인 경우 테넌트 관리 및 사용자에게 서비스를 제공하는 경우 제한 사항 및 추가 고려 사항이 있습니다.
 
@@ -65,13 +65,13 @@ ms.locfileid: "53888410"
 
 다음은 테넌트 간 사서함 마이그레이션 전에 두 가지 예 테넌트와 해당 사서함입니다.
 
-![여러 Microsoft 365 테넌트 및 해당 사서함](../media/tenant-management-overview/tenant-management-cross-tenant-mailbox-before.png)
+![여러 Microsoft 365 테넌트와 해당 사서함을 저장합니다.](../media/tenant-management-overview/tenant-management-cross-tenant-mailbox-before.png)
 
 이 그림에서는 두 개의 별도 테넌트가 자체 도메인과 각기 다른 사서함 집합을 Exchange 있습니다.
 
 다음은 테넌트 간 사서함 마이그레이션 후 대상 테넌트(테넌트 A)입니다.
 
-![테넌트 간 사서함 마이그레이션 후 대상 테넌트](../media/tenant-management-overview/tenant-management-cross-tenant-mailbox-after.png)
+![테넌트 간 사서함 마이그레이션 후의 대상 테넌트입니다.](../media/tenant-management-overview/tenant-management-cross-tenant-mailbox-after.png)
 
 이 그림에서 단일 테넌트에는 도메인과 두 도메인 사서함 집합이 모두 Exchange 있습니다.
 
@@ -91,7 +91,7 @@ Multi-Geo 환경에서 Microsoft 365 테넌트는 Microsoft 365 구독이 원래
 
 다음은 유럽의 기본 위치와 북미의 위성 위치를 가지는 조직의 예입니다. 두 위치는 단일 테넌트에 대해 동일한 전역 Azure AD Microsoft 365 공유합니다.
 
-![다중 위치 Microsoft 365 예](../media/tenant-management-overview/tenant-management-example-multi-geo.png)
+![다중 위치 Microsoft 365 예입니다.](../media/tenant-management-overview/tenant-management-example-multi-geo.png)
 
 자세한 내용은 [Microsoft 365 Multi-Geo](../enterprise/microsoft-365-multi-geo.md)을 참조하세요.
 
@@ -103,7 +103,7 @@ Microsoft는 계속해서 서비스용 새 데이터 센터 지역을 Microsoft 
 
 다음은 테넌트가 유럽 연합(EU) Microsoft 365 지역에서 영국(영국)에 있는 테넌트로 이동된 예입니다.
 
-![데이터 센터 지리적 Microsoft 365 테넌트 이동의 예](../media/tenant-management-overview/tenant-management-example-tenant-move.png)
+![데이터 센터 Microsoft 365 테넌트 이동의 예입니다.](../media/tenant-management-overview/tenant-management-example-tenant-move.png)
 
 자세한 내용은 핵심 데이터를 새 데이터 센터 지역으로 [Microsoft 365 이동을 참조하세요.](../enterprise/moving-data-to-new-datacenter-geos.md)
 
@@ -130,7 +130,7 @@ Microsoft 365 같은 첫 번째 제품을 구매하면 테넌트가 Microsoft 36
 
 다음은 새 테넌트의 예입니다.
 
-![새 테넌트의 예](../media/tenant-management-overview/tenant-management-tenant-build-step1.png)
+![새 테넌트의 예입니다.](../media/tenant-management-overview/tenant-management-tenant-build-step1.png)
 
 이 그림에서 테넌트에는 다음이 있습니다.
 
@@ -154,6 +154,6 @@ Microsoft 365 같은 첫 번째 제품을 구매하면 테넌트가 Microsoft 36
 
 ## <a name="next-step"></a>다음 단계
 
-[![2단계. 액세스를 위해 네트워크에 맞게 테넌트 최적화](../media/tenant-management-overview/tenant-management-step-grid-networking.png)](tenant-management-networking.md)
+[![2단계. 액세스를 위해 테넌트의 네트워크를 최적화합니다.](../media/tenant-management-overview/tenant-management-step-grid-networking.png)](tenant-management-networking.md)
 
 네트워킹을 [계속 진행하여](tenant-management-networking.md) 직원들이 클라우드 서비스에서 클라우드 서비스에 Microsoft 365 제공합니다.

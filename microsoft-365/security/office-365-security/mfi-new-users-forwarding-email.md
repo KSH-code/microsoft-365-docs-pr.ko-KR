@@ -12,12 +12,12 @@ ms.assetid: ''
 description: 관리자는 보안 및 준수 센터에서 새 사용자 전달 전자 메일 정보를 사용하여 조직의 사용자가 메시지를 새 도메인으로 전달하는 & 조사하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1791f8663e7ffa0e9d0fb0b55f625f73f1482cf4f61e5f4ce03cdf1e1e525552
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d517b5f9a7146d7256b89ae4e4d4d5f4aa6fc14f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56817142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568471"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전자 메일 정보를 전달하는 & 사용자
 
@@ -34,11 +34,11 @@ ms.locfileid: "56817142"
 
 이 인사이트는 문제가 검색된 경우만 표시되고 전달 보고서 페이지에 [표시됩니다.](view-mail-flow-reports.md#forwarding-report)
 
-![전자 메일을 전달하는 새 사용자](../../media/mfi-new-users-forwarding-email.png)
+![새 사용자가 전자 메일 인사이트를 전달합니다.](../../media/mfi-new-users-forwarding-email.png)
 
 위젯을 클릭하면 이 문서 나중에 설명된 전달 수정 보고서에 대한 링크를 포함하여 전달된 [](#forwarding-modifications-report) 메시지에 대한 자세한 정보를 찾을 수 있는 플라이아웃이 나타납니다.
 
-![새 사용자 전달 전자 메일 정보를 클릭한 후 나타나는 세부 정보 플라이아웃](../../media/mfi-new-users-forwarding-email-details.png)
+![새 사용자 전달 전자 메일 정보를 클릭한 후 나타나는 플라이아웃에 대해 자세히 설명](../../media/mfi-new-users-forwarding-email-details.png)
 
 또한 ( 보고서 대시보드 또는 **)의** 상위 인사이트 및 추천 영역에 있는 모든 정보 보기를 클릭한 & 세부 정보 페이지로 이동될 **수도**  \>  <https://protection.office.com/insightdashboard> 있습니다.
 
@@ -66,11 +66,11 @@ ms.locfileid: "56817142"
 
 - **데이터 표시: 새** 전달 사용자:
 
-  ![전달 수정 내용 보고서의 새 전달 사용자 보기](../../media/forwarding-modifications-report-new-forwarding-users.png)
+  ![새 전달 사용자는 전달 수정 내용 보고서에서 볼 수 있습니다.](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
 - **데이터 표시: 새** 전달 도메인 :
 
-  ![전달 수정 내용 보고서의 새 전달된 도메인 보기](../../media/forwarding-modifications-report-new-forwarded-domains.png)
+  ![전달 수정 내용 보고서의 새 전달된 도메인 보기입니다.](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
 보고서 보기에서 **필터를** 클릭하면 시작 날짜 및  종료 날짜로 날짜 범위를 **지정할 수 있습니다.**
 
@@ -108,7 +108,7 @@ ms.locfileid: "56817142"
 - **시작 날짜**
 - **권장 사항:** 여기에서 링크를 클릭하여 사용자 관리 Microsoft 365 관리 센터.
 
-![전달 수정 보고서의 새 전달 사용자 보기의 세부 정보 테이블에서 플라이아웃 세부 정보](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
+![전달 수정 보고서의 새 전달 사용자 보기의 세부 정보 표에서 플라이아웃에 대한 세부 정보입니다.](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 
 보고서 보기로 돌아가려면 보고서 **보기 를 클릭합니다.**
 

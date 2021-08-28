@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 428211e890bcff816209b003566fc76072749bda
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.openlocfilehash: 404670e42f46b249b748d0a54f882c631c6f91ee
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58378004"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570080"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -68,7 +68,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 - 엔터프라이즈용 Microsoft 365에서 사용 가능한 Microsoft 최신 작업 공간의 주요 구성 요소
 - [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success/) 및 몇 가지 일반적인 조직 부서의 대표적인 시나리오
 
-[![엔터프라이즈용 Microsoft 365 포스터 이미지](../media/microsoft-365-overview/m365e-poster.png)](../downloads/Microsoft365Enterprise.pdf)
+[![엔터프라이즈용 Microsoft 365 포스터 이미지.](../media/microsoft-365-overview/m365e-poster.png)](../downloads/Microsoft365Enterprise.pdf)
 
 [포스터 복사본](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft365Enterprise.pdf)을 다운로드할 수 있습니다.
 
@@ -77,7 +77,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 전체 조직이 엔터프라이즈용 Microsoft 365의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)를 참조하세요.
 
-[![Microsoft 365로 전환 포스터 이미지](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
+[![Microsoft 365로의 전환 포스터 이미지.](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 기존 인프라를 신속하게 인벤터리하는 방법입니다. 이를 사용하여 Microsoft 365에서 엔터프라이즈에 대한 지침을 찾고 해당 제품이나 서비스로 이동할 수 있습니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 
@@ -94,7 +94,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 이러한 제품에 대한 업그레이드, 클라우드로 이동 옵션을 알기 쉽게 요약한 내용을 보려면 [지원 종료 포스터](../downloads/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
 
-[![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지](../media/microsoft-365-overview/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지.](../media/microsoft-365-overview/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
 기본적으로 사용되는 경루와 엔터프라이즈용 Microsoft 365 지원을 보여주는 이 한 페이지 포스터를 통해 Windows 7 및 Office 2010 클라이언트 및 서버 제품의 지원 종료를 방지하는 방법에 대해 빠르게 이해 할 수 있습니다.
 
@@ -143,7 +143,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 다음은 엔터프라이즈 조직의 예입니다.
 
-![Microsoft 365, Surface 디바이스 및 Edge 브라우저를 사용하는 엔터프라이즈 조직](../media/microsoft-365-overview/best-together-with-surface-and-edge.png)
+![Microsoft 365, Surface 디바이스 및 Edge 브라우저를 사용하는 엔터프라이즈 조직.](../media/microsoft-365-overview/best-together-with-surface-and-edge.png)
 
 중소 기업 및 교육 기관에 대한 자세한 내용 및 구성 예제를 보려면 [최상의 조합 포스터](https://download.microsoft.com/download/2/8/d/28db0cf9-2f5a-4f63-91e2-46ff5c4d3baf/microsoft-best-together-poster.pdf)를 다운로드하세요.
 
@@ -152,7 +152,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 ## <a name="microsoft-365-training"></a>Microsoft 365 교육
 
-![Microsoft 365 기본 교육](../media/microsoft-365-overview/m365-fundamentals.svg)
+![Microsoft 365 기본 교육.](../media/microsoft-365-overview/m365-fundamentals.svg)
 
 Microsoft 365와 Microsoft 365 인증에 대한 자세한 내용은 [Microsoft 365 인증: 기본](/learn/paths/m365-fundamentals/)에서 시작할 수 있습니다.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ac151ec33943a4d6c93b8bec08999931e867fb114fc36ce98695e7a976545cdd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d7982e8a8c320336a47cd64152b5477be7ae51f5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884159"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568111"
 ---
 # <a name="microsoft-365-defender-integration-with-azure-sentinel"></a>Microsoft 365 Defender와 Azure Sentinel 통합
 
@@ -51,7 +51,7 @@ Azure Sentinel과 Azure Sentinel의 통합에 대한 이 Microsoft 365 Defender(
 
 작동 방식은 다음과 있습니다.
 
-:::image type="content" source="../../media/microsoft-365-defender-integration-with-azure-sentinel/microsoft-365-defender-integration-with-azure-sentinel.png" alt-text="인시던트와 Azure Sentinel 간의 문제 Microsoft 365 Defender 흐름 및 공유":::
+:::image type="content" source="../../media/microsoft-365-defender-integration-with-azure-sentinel/microsoft-365-defender-integration-with-azure-sentinel.png" alt-text="Azure Sentinel과 Azure Sentinel 간의 인시던트 Microsoft 365 Defender 흐름 및 공유":::
 
 ## <a name="next-steps"></a>다음 단계
 

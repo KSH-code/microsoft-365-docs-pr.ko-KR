@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso Corporation의 기업 정보와 전 세계 사무소의 계층 구조를 파악합니다.
-ms.openlocfilehash: 0690f942a72dedbd1247fcff9d6705ec638e189e
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 87508d47e5124f55a0302ca305b0dbd9de07e841
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569468"
 ---
 # <a name="overview-of-contoso-corporation"></a>Contoso Corporation 개요
 

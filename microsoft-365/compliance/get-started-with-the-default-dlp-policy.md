@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 보고서를 사용하여 조직의 기본 DLP(데이터 손실 방지) 정책을 구체화하는 방법을 학습합니다.
-ms.openlocfilehash: d2b140c6cd55896739c2500c7bc5a9196dfdf7e2e5971c4a45ef312acdcd75ca
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 95c4ebae431bea1db033826459ca1595614ab5cb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814000"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569576"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>기본 DLP 정책을 사용하여 시작
 
@@ -32,7 +32,7 @@ ms.locfileid: "53814000"
   
 이 위젯을 사용하여 공유된 중요한 정보의 수와 정보를 빠르게 확인한 다음 한 두 번의 클릭 또는 두 번으로 기본 DLP 정책을 구체화할 수 있습니다. 기본 DLP 정책은 사용자 지정이 완전히 가능하기 때문에 원하는 경우 편집할 수도 있습니다. 처음에 추천이 없는 경우 권장 섹션 아래쪽에서 **+More를** **클릭해 봐야** 합니다. 
   
-![Widget named Further protect shared content](../media/2bae6dbc-cc92-4f35-b54c-c36e60226b5b.png)
+![Widget named Further protect shared content.](../media/2bae6dbc-cc92-4f35-b54c-c36e60226b5b.png)
   
 ## <a name="view-the-report-and-refine-the-default-dlp-policy"></a>보고서를 보고 기본 DLP 정책 구체화
 
@@ -60,7 +60,7 @@ ms.locfileid: "53814000"
   
 나중에 이러한 옵션을 변경하려는 경우 기본 DLP 정책을 편집할 수 있습니다. 다음 섹션을 참조하세요.
   
-![설정 보호라는 위젯에 대한 정보 표시](../media/dad30a84-2715-4c0a-a5c5-44d85492363e.png)
+![설정 보호라는 위젯을 사용할 수 있습니다.](../media/dad30a84-2715-4c0a-a5c5-44d85492363e.png)
   
 ## <a name="edit-the-default-dlp-policy"></a>기본 DLP 정책 편집
 

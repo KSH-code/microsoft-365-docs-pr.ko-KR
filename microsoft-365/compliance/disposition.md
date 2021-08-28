@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하거나 사용자가 구성한 설정에 따라 레코드로 표시된 항목이 자동으로 삭제되는 경우에 대한 콘텐츠 폐기 작업을 모니터링하고 관리합니다.
-ms.openlocfilehash: 8a223a49e0fe648dee3bb8c47449538b8f0bfa5614066f4bfecc76e622e1ae65
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b949b712721acc7921d3c6ac25a07c14338d7609
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895949"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58567943"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -106,18 +106,18 @@ Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionrevi
 
 관리자는 보류 중인 모든 배치에 대한 개요를 **개요** 탭에서 볼 수 있습니다. 검토자는 처리 보류 중인 항목만 봅니다. 예:
 
-![레코드 관리에서 보류 중인 처리 개요](../media/dispositions-overview.png)
+![레코드 관리에서 보류 중인 처리 개요.](../media/dispositions-overview.png)
 
 **보류 중인 모든 처리 보기** 를 선택하면 **처리** 페이지로 이동됩니다. 예를 들면 다음과 같습니다.
 
-![Microsoft 365 규정 준수 센터의 처리 페이지](../media/disposition-tab.png)
+![Microsoft 365 규정 준수 센터의 처리 페이지.](../media/disposition-tab.png)
 
 
 ### <a name="workflow-for-a-disposition-review"></a>처리 검토를 위한 워크플로
 
 다음 다이어그램에서는 보존 레이블을 게시한 다음 사용자가 수동으로 적용하는 경우 처리 검토에 대한 기본 워크플로를 보여줍니다. 또는 처리 검토를 위해 구성된 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
   
-![처리 작업 진행 방식의 흐름을 보여 주는 차트](../media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
+![처리 작업 진행 방식의 흐름을 보여 주는 차트.](../media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
 
 ### <a name="how-to-configure-a-retention-label-for-disposition-review"></a>처리 검토를 위해 보존 레이블을 구성하는 방법
 
@@ -125,11 +125,11 @@ Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionrevi
 
 보존 레이블을 위한 **보존 설정 정의** 페이지에서:
 
-![레이블에 대한 보존 설정](../media/disposition-review-option.png)
+![레이블에 대한 보존 설정.](../media/disposition-review-option.png)
  
 이 **처리 검토 트리거** 옵션을 선택한 후 마법사의 다음 페이지에서 원하는 연속 처리 스테이지 수와 각 스테이지에 대한 처리 검토자를 지정합니다.
 
-![처리 검토자 지정](../media/disposition-reviewers.png) 
+![처리 검토자 지정.](../media/disposition-reviewers.png) 
 
 **스테이지 추가** 를 선택하고 식별을 위해 스테이지 이름을 지정합니다. 그런 다음 해당 스테이지에 대한 검토자를 지정합니다.
 
@@ -144,7 +144,7 @@ Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionrevi
 
 구성 단계에서 지정된 각 스테이지에 대해 스테이작업 옵션(**...**)을 선택하여 이름을 변경하거나 순서를 변경하거나 제거할 수 있습니다. 
 
-![처리 검토를 위한 스테이지 작업](../media/stage-actions-disposition-review.png)
+![처리 검토를 위한 스테이지 작업.](../media/stage-actions-disposition-review.png)
 
 그러나 보존 레이블을 만든 후에는 스테이지를 다시 정렬하거나 제거할 수 없습니다.
 
@@ -154,13 +154,13 @@ Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionrevi
 
 검토자에게 보내는 기본 전자 메일 알림의 예:
 
-![항목이 처리 검토 준비가 되었을 때 기본 텍스트가 포함된 전자 메일 알림 예](../media/disposition-review-email.png)
+![항목이 처리 검토 준비가 되었을 때 기본 텍스트가 포함된 전자 메일 알림 예.](../media/disposition-review-email.png)
 
 또한 미리 보기에서 초기 알림 및 미리 알림에 대해 처리 검토자에게 보내는 전자 메일 메시지를 사용자 지정할 수 있습니다.
 
 규정 준수 센터의 모든 처리 페이지에서 **기록 관리 설정** 을 선택하세요.  
 
-![기록 관리 설정](../media/record-management-settings.png)
+![기록 관리 설정.](../media/record-management-settings.png)
 
 그런 다음 **처리 알림** 탭을 선택하고 기본 전자 메일 메시지만 사용할지 아니면 기본 메시지에 자신만의 텍스트를 추가할지 지정합니다. 사용자 지정 텍스트는 보존 레이블에 대한 정보 뒤와 다음 단계 지침 전에 전자 메일 지침에 추가됩니다.
 
@@ -178,11 +178,11 @@ If you need additional information, visit the helpdesk website (https://support.
 
 검토자가 콘텐츠를 검토할 준비가 되었다는 전자 메일 알림을 받으면 전자 메일의 링크를 클릭하여 Microsoft 365 규정 준수 센터의 **기록 관리** 에서 **처리** 페이지로 직접 이동할 수 있습니다. 해당 페이지에서 검토자는 **유형** 이 **처리 보류** 로 표시되어 처리를 기다리고 있는 각 보존 레이블의 항목 수를 확인할 수 있습니다. 그런 다음 보존 레이블을 선택하고 **새 창에서 열기** 를 선택하여 해당 레이블의 모든 콘텐츠를 확인합니다.
 
-![처리 검토를 위해 새 창에서 열기](../media/open-in-new-window.png)
+![처리 검토를 위해 새 창에서 열기.](../media/open-in-new-window.png)
 
 **보류 중인 처리** 페이지에 해당 레이블에 대해 보류 중인 모든 처리가 표시됩니다. 하나 이상의 항목을 선택하면 미니 미리 보기 창과 **원본**, **세부 정보** 및 **기록** 탭을 사용하여 콘텐츠를 검사한 후 작업을 수행할 수 있습니다.
 
-![처리 옵션](../media/retention-disposition-options.png)
+![처리 옵션.](../media/retention-disposition-options.png)
 
 수평 스크롤 막대를 사용하거나 최소 검토 창을 닫으면 만료 날짜 및 처리 검토 스테이지의 이름이 포함된 열이 추가로 표시됩니다.
 
@@ -214,7 +214,7 @@ If you need additional information, visit the helpdesk website (https://support.
 
 이러한 항목에는 **유형** 열에 **처리된 레코드** 를 표시합니다. 예를 들면 다음과 같습니다.
 
-![처리 검토가 없이 처리된 항목](../media/records-disposed2.png)
+![처리 검토가 없이 처리된 항목.](../media/records-disposed2.png)
 
 > [!NOTE]
 > 이 기능은 [통합 감사 로그](search-the-audit-log-in-security-and-compliance.md)의 정보를 사용하며, 따라서 해당 이벤트를 캡처할 수 있도록 감사를 [사용하도록 설정하고 검색 가능하도록](turn-audit-log-search-on-or-off.md) 해야 합니다.

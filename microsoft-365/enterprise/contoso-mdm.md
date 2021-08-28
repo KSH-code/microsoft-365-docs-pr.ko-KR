@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 Microsoft Intune Microsoft 365 사용하여 장치 및 장치에서 실행되는 앱을 관리하는 방법을 이해합니다.
-ms.openlocfilehash: 7c7a3a40867e15059c527edb0069ff639d68ae7c
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: c9acdbaa66af212a57bf66b2c64200b02ade6ad7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354899"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569480"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Contoso의 모바일 장치 관리
 
@@ -66,7 +66,7 @@ Contoso는 등록된 PC 및 회사 소유의 스마트폰 및 태블릿을 해�
 
 다음은 Contoso 모바일 장치 관리 배포 아키텍처입니다.
 
-![Contoso 모바일 장치 관리 배포 인프라](../media/contoso-mdm/contoso-mdm-fig1.png)
+![Contoso 모바일 장치 관리 배포 인프라.](../media/contoso-mdm/contoso-mdm-fig1.png)
 
 ## <a name="next-step"></a>다음 단계
 

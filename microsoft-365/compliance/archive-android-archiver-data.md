@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Android 휴대폰에서 SMS, MMS 및 음성 통화를 가져오고 보관할 TeleMessage 커넥터를 설정할 수 있습니다. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 6ef42c5e5fe1fe42ca88c1f464ee5321d1560a21679f933bc23ce4026b0605d2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dce5599e4402e60c163e1ed770b091df012a616a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866759"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569156"
 ---
 # <a name="set-up-a-connector-to-archive-android-mobile-data"></a>Android 모바일 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ Android 휴대폰의 데이터가 사용자 사서함에 저장되고 나면 소
 
 다음 개요에서는 커넥터를 사용하여 Android 모바일 데이터를 커넥터에 보관하는 Microsoft 365.
 
-![Android Archiver 커넥터 워크플로](../media/AndroidArchiverConnectorWorkflow.png)
+![Android Archiver 커넥터 워크플로.](../media/AndroidArchiverConnectorWorkflow.png)
 
 1. 조직은 TeleMessage와 함께 Android Archiver 커넥터를 설치합니다. 자세한 내용은 [Android Archiver를 참조하세요.](https://www.telemessage.com/office365-activation-for-android-archiver/)
 

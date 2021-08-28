@@ -19,12 +19,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 7fee84e9be504427bb4320599310c3872ea311d6e2c640d87d83b938a27131ad
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8c808bd8c742666c407a59cc6a3bc654d96257b3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569912"
 ---
 # <a name="microsoft-defender-for-endpoint-in-microsoft-365-defender"></a>Microsoft Defender for Endpoint in <DICT__Microsoft⚐365⚐Defender>Microsoft 365 Defender</DICT__Microsoft⚐365⚐Defender>
 
@@ -40,7 +40,7 @@ ms.locfileid: "53828408"
 아래 이미지와 아래 표에는 이미지와 웹 페이지 간의 탐색 Microsoft Defender 보안 센터 Microsoft 365 Defender.
 
 > [!div class="mx-imgBorder"]
-> ![이동한 위치의 이미지](../../media/mde-m3d-security-center.png)
+> ![이동한 위치의 이미지입니다.](../../media/mde-m3d-security-center.png)
 
 | Microsoft Defender 보안 센터 | Microsoft 365 Defender |
 |---------|---------|
@@ -129,7 +129,7 @@ Microsoft Defender for Endpoint Microsoft 365 Defender Microsoft Defender 보안
 - [인시던트에 대해 자세히 알아보기](incidents-overview.md)
 - [경고 관리에 대한 자세한 정보](investigate-alerts.md)
 
-![경고 및 작업 빠른 실행 표시줄](../../media/converge-1-alerts-and-actions.png)
+![경고 및 작업 빠른 실행 표시줄입니다.](../../media/converge-1-alerts-and-actions.png)
 
 ### <a name="hunting"></a>헌팅
 
@@ -160,13 +160,13 @@ Microsoft Defender for Endpoint Microsoft 365 Defender Microsoft Defender 보안
 
 조직의 끝점 보안을 보고 관리합니다. 해당 응용 Microsoft Defender 보안 센터 익숙해 보이게 됩니다.
 
-![끝점 빠른 실행 표시줄](../../media/converge-2-endpoints.png)
+![끝점 빠른 실행 표시줄입니다.](../../media/converge-2-endpoints.png)
 
 ### <a name="access-and-reports"></a>액세스 및 보고서
 
 보고서를 보고, 설정을 변경하고, 사용자 역할을 수정합니다.
 
-![액세스 및 보고 빠른 시작 표시줄](../../media/converge-4-access-and-reporting-new.png)
+![Access 및 Reporting 빠른 시작 표시줄입니다.](../../media/converge-4-access-and-reporting-new.png)
 
 ### <a name="siem-api-connections"></a>SIEM API 연결
 

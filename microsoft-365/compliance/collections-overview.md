@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 검색 Advanced eDiscovery 모음을 사용하여 사례 또는 조사와 관련이 있는 콘텐츠를 검색하고 수집할 수 있습니다.
-ms.openlocfilehash: e808db2829c8742fe34faa56965bacb79283b14b67a6ffbfccd8c43c88f12bac
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dabc321f432996d888686b16e05d8ad6cb6cfc3f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866483"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568423"
 ---
 # <a name="learn-about-collections-in-advanced-ediscovery"></a>컬렉션에 대해 Advanced eDiscovery
 
@@ -44,7 +44,7 @@ eDiscovery Advanced eDiscovery 컬렉션을 사용하면 eDiscovery 관리자가
 
 이 문서의 컬렉션 사용을 Advanced eDiscovery 프로세스의 각 단계에 대한 기본 워크플로와 설명은 다음과 있습니다.
 
-![컬렉션 워크플로의 Advanced eDiscovery](../media/CollectionsWorkflow.png)
+![컬렉션 워크플로의 Advanced eDiscovery.](../media/CollectionsWorkflow.png)
 
 1. **초안 컬렉션을 만들고 실행합니다.** 첫 번째 단계는 초안 컬렉션을 만들고 검색할 양부 및 비보조 데이터 원본을 정의하는 것입니다. 사례에 추가되지 않은 다른 데이터 원본을 검색할 수도 있습니다. 데이터 원본을 추가한 후 데이터 원본에서 사례와 관련된 콘텐츠를 검색하도록 검색 쿼리를 구성합니다. 키워드, 속성 및 조건을 사용하여 사례와 가장 관련성이 높은 콘텐츠를 반환하는 검색 쿼리를 만들 수 있습니다. 자세한 내용은 초안 컬렉션 [만들기를 참조하세요.](create-draft-collection.md)
 

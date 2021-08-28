@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 사례에서 지원되는 조사 또는 법률 사례가 닫히거나 삭제될 때 발생하는 일에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f67fbbbc57af2802da8aa73803c3ba106b1a9fc55d608a1468feec327bc99fec
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1096223c3bc6d0648aa45207595c816e26e70da8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900135"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569636"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>사례 닫기 또는 Advanced eDiscovery 삭제
 
@@ -46,7 +46,7 @@ Advanced eDiscovery 지원되는 법률 사례 또는 조사가 완료되면 사
 
 2. **설정** 탭의 **케이스 정보** 에서 **선택** 을 클릭합니다.
 
-   ![사례 정보 플라이아웃 페이지에 액세스하는 Advanced eDiscovery 있습니다.](..\media\AeDSelectCaseInformation.png) 
+   ![사례 정보 플라이아웃 페이지에 액세스하여 사례 Advanced eDiscovery 액세스합니다.](..\media\AeDSelectCaseInformation.png) 
 
 3. 사례 정보 플라이아웃 페이지의 아래쪽에서 동작 **을** 클릭한 다음 사례 **닫기 를 클릭합니다.** 
 

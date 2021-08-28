@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 전체 처리 품질을 테스트, 비교 및 유효성을 검사하기 위해 Advanced eDiscovery 후 테스트 탭을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 97adafae8cc6113fbc2f34a1c9a95276439fc834e14ef0b45b345e1deb577ca9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 16f8004afb5a0731f684c0d35e55ebf2d06f91f0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569540"
 ---
 # <a name="test-relevance-analysis-in-advanced-ediscovery"></a>Advanced eDiscovery
   
@@ -46,7 +46,7 @@ ms.locfileid: "53865249"
 
 2. 테스트 **탭에서** 새 테스트 **를 클릭합니다.** 다음 **예제와** 같이 테스트 만들기 대화 상자가 표시됩니다.
 
-    ![나머지 결과 테스트 하는 관련성](../media/46e6898a-f929-4fd0-88d9-6f91d04b6ce2.png)
+    ![Relevance Rest 결과를 테스트합니다.](../media/46e6898a-f929-4fd0-88d9-6f91d04b6ce2.png)
   
 3. 테스트 **이름** 및 **설명에** 이름과 설명을 입력합니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "53865249"
 
 11. 테스트 탭에서 결과 보기를 클릭하여 테스트 결과를 볼 수 있습니다.  다음 스크린샷에는 예제가 나와 있습니다.
 
-    ![나머지 결과 테스트 합니다.](../media/b95744a9-047d-4c29-992d-04fa7e58e58a.png)
+    ![나머지 결과를 테스트합니다.](../media/b95744a9-047d-4c29-992d-04fa7e58e58a.png)
   
 이전 스크린샷에서 표의 **샘플** 매개 변수 섹션에는 전문가가 태그를 지정한 샘플의 파일 수와 해당 샘플에서 찾은 관련 파일 수에 대한 세부 정보가 포함되어 있습니다.
   

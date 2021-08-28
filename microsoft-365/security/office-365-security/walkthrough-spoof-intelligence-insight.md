@@ -20,12 +20,12 @@ ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0ea429fb9817f7daa9cbae62b4a56837a1592d34
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: d23e6ab170b200626b422163daaafdbdd11e5fca
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58254837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568039"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>EOP에서 스푸핑 인텔리전스 정책 및 스푸핑 인텔리전스 인사이트를 사용하여 스푸핑된 보낸 사람 관리
 
@@ -87,7 +87,7 @@ Microsoft 365 Defender 포털 또는 Exchange Online 사서함이 있는 Microso
 
 2. 스팸 **방지 정책 페이지에서** 이름을  클릭하여 스푸핑 인텔리전스 정책을 선택합니다.
 
-   ![스푸핑 인텔리전스 정책 선택](../../media/anti-spam-settings-spoof-intelligence-policy.png)
+   ![스푸핑 인텔리전스 정책을 선택합니다.](../../media/anti-spam-settings-spoof-intelligence-policy.png)
 
 3. 나타나는 **스푸핑** 인텔리전스 정책 플라이아웃에서 다음 중 하나를 선택합니다.
    - **이미 검토한 보낸 사람 표시**
@@ -97,11 +97,11 @@ Microsoft 365 Defender 포털 또는 Exchange Online 사서함이 있는 Microso
    - **도메인:** 보낸 사람이 내부 도메인의 사용자를 스푸핑합니다.
    - **외부 도메인:** 보낸 사람이 외부 도메인의 사용자를 스푸핑합니다.
 
-5. 스푸핑 허용 여부 열에서 확장 아이콘을 클릭하고 다음 중 하나를 ![ ](../../media/scc-expand-icon.png) 선택합니다. 
+5. 확장 ![ 아이콘을 클릭합니다.](../../media/scc-expand-icon.png) 스푸핑 허용 **여부 열에서** 다음 중 하나를 선택합니다.
    - **예:** 스푸핑된 보낸 사람 허용.
    - **아니요:** 메시지를 스푸핑으로 표시 이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책에 의해 제어됩니다. 자세한 내용은 [피싱 방지 정책의 스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)을 참조하세요.
 
-   ![스푸핑된 보낸 사람 플라이아웃 및 보낸 사람이 스푸핑할 수 있는지 여부를 보여 주는 스크린샷](../../media/spoof-allow-block-flyout.png)
+   ![스푸핑된 보낸 사람 플라이아웃과 보낸 사람이 스푸핑을 허용할지 여부를 보여 주는 스크린샷.](../../media/spoof-allow-block-flyout.png)
 
    다음 목록에는 열과 값이 설명됩니다.
 
@@ -196,7 +196,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 3. 대시보드의 인사이트에는 다음 정보가 표시됩니다.
 
-   ![스푸핑 인텔리전스 정보의 스크린샷](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
+   ![스푸핑 인텔리전스 정보의 스크린샷.](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
 
    이 인사이트에는 두 가지 모드가 있습니다.
 
@@ -232,7 +232,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
    여기에서 허용된 보낸 사람 스푸핑 허용 목록에서 도메인/보내는 인프라 쌍을 추가하거나 제거하도록 선택할 수도 있습니다.  그에 따라 토글을 설정하기만 합니다.
 
-   ![스푸핑 인텔리전스 인사이트 세부 정보 창의 도메인 스크린샷](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
+   ![스푸핑 인텔리전스 인사이트 세부 정보 창에 있는 도메인의 스크린샷.](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 

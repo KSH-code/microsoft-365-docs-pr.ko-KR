@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1f61fa2e2d5231d6e9c6a879a0827144282f1285
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: bd3e933d759d40f41ef585f0b5bcf68229386ba1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533258"
+ms.locfileid: "58568675"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전 Microsoft Flow) 및 Azure Functions
 
@@ -39,7 +39,7 @@ ms.locfileid: "58533258"
 
 Microsoft Defender API에는 다양한 기능이 있는 공식 Power Automate 커넥터가 있습니다.
 
-![자격 증명 편집 이미지1](images/api-flow-0.png)
+![자격 증명 편집 이미지1.](images/api-flow-0.png)
 
 > [!NOTE]
 > 프리미엄 커넥터 라이선싱 선행 조건에 대한 자세한 내용은 프리미엄 커넥터에 대한 라이선싱을 [참조합니다.](/power-automate/triggers-introduction#licensing-for-premium-connectors)
@@ -53,15 +53,15 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Power Automate �
 
 2. Go to **My flows** \> **New** \> **Automated-from blank**.
 
-    ![자격 증명 편집 이미지2](images/api-flow-1.png)
+    ![자격 증명 편집 이미지2.](images/api-flow-1.png)
 
 3. 사용자 이름 Flow 트리거로 "Microsoft Defender ATP 트리거"를 검색한 다음 새 경고 트리거를 선택합니다.
 
-    ![자격 증명 편집 이미지3](images/api-flow-2.png)
+    ![자격 증명 편집 이미지3.](images/api-flow-2.png)
 
 이제 새 Flow 발생할 때마다 트리거되는 이벤트가 있습니다.
 
-![자격 증명 편집 이미지4](images/api-flow-3.png)
+![자격 증명 편집 이미지4.](images/api-flow-3.png)
 
 이제 다음 단계를 선택하면 됩니다.
 예를 들어 경고의 심각도가 높음인 경우 장치를 격리하고 장치에 대한 전자 메일을 보낼 수 있습니다.
@@ -75,7 +75,7 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Power Automate �
 
 3. 마지막 단계에서 **경고 ID를** 입력으로 **설정**
 
-    ![자격 증명 편집 이미지5](images/api-flow-4.png)
+    ![자격 증명 편집의 이미지5.](images/api-flow-4.png)
 
 ### <a name="isolate-the-device-if-the-alerts-severity-is-high"></a>경고 심각도 높음인 경우 장치 격리
 
@@ -85,7 +85,7 @@ Microsoft Defender API에는 다양한 기능이 있는 공식 Power Automate �
 
    그렇다면 **Microsoft Defender ATP - 컴퓨터** ID 및 설명을 사용하여 컴퓨터 격리 작업을 추가합니다.
 
-    ![자격 증명 편집 이미지6](images/api-flow-5.png)
+    ![자격 증명 편집 이미지6.](images/api-flow-5.png)
 
 3. 경고 및 Isolation에 대한 전자 메일을 보내기 위한 새 단계를 추가합니다. 메일 또는 Gmail과 같이 사용하기 쉬운 여러 전자 메일 Outlook 있습니다.
 

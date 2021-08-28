@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 150ae09184298cf57887cfb7e9b7efe96a600445ea1a246944e5085b48d9ec0d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3de298100e5a66e53bd34e110c35749e15e58044
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817345"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568603"
 ---
 # <a name="the-analyst-report-in-threat-analytics"></a>위협 분석의 분석가 보고서
 
@@ -36,7 +36,7 @@ ms.locfileid: "53817345"
 
 각 [위협 분석 보고서에는](threat-analytics.md) 동적 섹션과 분석 보고서라는 포괄적인 서면 _섹션이 포함되어 있습니다._ 이 섹션에 액세스하려면 추적된 위협에 대한 보고서를 열고 분석가 보고서 **탭을** 선택합니다.
 
-![위협 분석 보고서의 분석 보고서 섹션 이미지](images/ta-analyst-report-small.png)
+![위협 분석 보고서의 분석 보고서 섹션 이미지입니다.](images/ta-analyst-report-small.png)
 
 _위협 분석 보고서의 분석가 보고서 섹션_
 

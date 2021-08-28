@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 커넥터를 설정하여 Veritas에서 다른 사용자로 EML 데이터를 가져오고 보관할 수 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 389eaccc4153afcc63bd069a1ff412068c6b429f97ead97a9b2c5711880bfd1d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 81d6ccc2ca364fed536b802a3b922ebc25c02557
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814849"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569828"
 ---
 # <a name="set-up-a-connector-to-archive-eml-data"></a>EML 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ EML 메시지가 사용자 사서함에 저장되고 나면 소송 보존, eDisc
 
 다음 개요에서는 커넥터를 사용하여 EML 데이터를 커넥터에 보관하는 Microsoft 365.
 
-![EML 데이터에 대한 보관 워크플로](../media/EMLConnectorWorkflow.png)
+![EML 데이터에 대한 보관 워크플로입니다.](../media/EMLConnectorWorkflow.png)
 
 1. 조직은 EML 원본과 함께 EML 사이트를 설정하고 구성합니다.
 

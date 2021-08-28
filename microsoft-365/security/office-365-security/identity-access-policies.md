@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 564747e31f7ab412d14790e42e6c8e901e382de4e08834b9a5b2f7c775454c74
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7b3e5e5f404d2758597b81a11d204baa629bff31
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816996"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568759"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -42,7 +42,7 @@ ms.locfileid: "53816996"
 
 다음 다이어그램에서는 권장되는 정책 집합을 보여 제공합니다. 이 매크로는 각 정책이 적용되는 보호 계층과 정책이 PC 또는 휴대폰 및 태블릿에 적용되는지 또는 두 장치 범주에 적용되는지 여부를 보여 주며, 또한 이러한 정책을 구성하는 위치도 나타냅니다.
 
-[![ID 및 장치 액세스를 구성하기 위한 일반적인 정책](../../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
+[![ID 및 장치 액세스를 구성하기 위한 일반적인 정책입니다.](../../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
 
 다음은 개별 정책에 대한 링크가 있는 한 페이지 PDF 요약입니다.
 
@@ -95,7 +95,7 @@ ms.locfileid: "53816996"
 
 이러한 권장 사항의 일부로 만들어진 모든 Azure AD 그룹은 해당 그룹으로 Microsoft 365 합니다. 이러한 구성은 사용자가 문서 및 문서의 문서를 보안할 때 민감도 레이블을 배포하는 Microsoft Teams SharePoint.
 
-![그룹 만들기의 Microsoft 365 예](../../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
+![Microsoft 365 예제입니다.](../../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>로그인 위험에 따라 MFA 필요
 
@@ -359,7 +359,7 @@ Android Enterprise 프로필 장치의 경우:
 
 장치 상태 > Windows 상태 설명 서비스 평가 **규칙은** 다음 표를 참조하세요.
 
-|특성|값|작업|
+|속성|값|작업|
 |---|---|---|
 |BitLocker 필요|Require|선택|
 |디바이스에서 보안 부팅을 사용하도록 설정해야 합니다.|Require|선택|
@@ -378,7 +378,7 @@ Android Enterprise 프로필 장치의 경우:
 ||간단한 암호|차단|선택|
 ||암호 유형|장치 기본값|선택|
 ||최소 암호 길이|6 |유형|
-||암호가 필요하기 전 최대 비활성 시간(분)|15|유형 <p> 이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에서 지원됩니다. iOS 장치의 경우 iOS 8.0 이상에서 지원됩니다.|
+||암호가 필요하기 전 최대 비활성 시간(분)|15 |유형 <p> 이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에서 지원됩니다. iOS 장치의 경우 iOS 8.0 이상에서 지원됩니다.|
 ||암호 만료(일)|41|유형|
 ||재사용을 방지할 이전 암호 수|5 |유형|
 ||장치가 유휴 상태(모바일 및 홀로그램)에서 반환되는 경우 암호 필요|Require|추가 Windows 10 사용할 수 있습니다.|

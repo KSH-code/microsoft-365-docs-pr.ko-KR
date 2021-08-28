@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: d0d4fe867664d090359b1a9f7ab13d3ad46497ce8673a9d1615a112bfe8d78ff
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3ce1715baaf9b23fe53d900d67fc378d8fa624bb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827689"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568207"
 ---
 # <a name="security-hurdles-you-can-sail-overone-architects-viewpoint"></a>설계자 한 의 관점에서 볼 수 있는 보안 허점을 다분화할 수 있습니다.
 
@@ -27,7 +27,7 @@ ms.locfileid: "53827689"
 
 ## <a name="about-the-author"></a>만든 이 정보
 
-![Kozeta Garrett 사진](../media/solutions-architecture-center/kozeta-garrett-security.jpg)
+![Kozeta Garrett 사진.](../media/solutions-architecture-center/kozeta-garrett-security.jpg)
 
 클라우드 보안 설계자 역할을 할 때 여러 조직과 협력하여 Microsoft 365 및 Azure로 마이그레이션하는 고객을 위한 보안 아키텍처를 디자인 및 구현하고, 엔터프라이즈 보안 솔루션을 개발하고, 비즈니스 탄력을 위한 보안 아키텍처와 문화를 혁신하는 데 중점을 두는 전략적 및 기술 지침을 제공했습니다. 내 경험에는 인시던트 감지 및 대응, 맬웨어 분석, 침투 테스트, IT 보안 및 방어 환경 개선 권장이 포함됩니다. 현대화 노력을 포함하여 보안을 비즈니스에 대한 지원으로 이르게 하는 선행 변환에 매우 열정을 가지고 있습니다.
 

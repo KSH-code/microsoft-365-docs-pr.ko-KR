@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Plan 2용 Microsoft Defender에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 Office 365 있습니다. 태그 필터링은 Microsoft Defender의 경고, 보고서 및 조사에서 사용할 수 있으며, Office 365 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9f3a3f82b510d0910858784bedae3f1be724efd099398e3b1dcbfe57978e3f8b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d224718502725e760c6a844f3bfd289bf3dd179c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883926"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568051"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -46,6 +46,7 @@ ms.locfileid: "53883926"
 - [전자 메일 엔터티 페이지](mdo-email-entity-page.md#other-innovations)
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 - [캠페인 보기](campaigns.md)
+- [관리자 및 사용자 제출](admin-submission.md)
 - 우선 순위 계정의 경우 [](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) EAC(Exchange 관리 센터)의 우선 순위 계정 보고서에 전자 메일 문제를 사용할 수 있습니다.
 
 이 문서에서는 사이트 포털에서 사용자 태그를 구성하는 Microsoft 365 Defender 설명합니다. 사용자 태그를 관리하는 Microsoft 365 Defender cmdlet이 없습니다.
@@ -77,7 +78,7 @@ ms.locfileid: "53883926"
 
 1. Microsoft 365 Defender 포털에서 설정 전자 메일  & \>  \> **사용자 태그로 이동하세요.**
 
-2. 사용자 **태그 페이지에서** 태그 만들기 ![ 아이콘 태그 ](../../media/m365-cc-sc-create-icon.png) **만들기를 클릭합니다.**
+2. 사용자 **태그 페이지에서** 태그 ![ 만들기 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **태그 만들기**.
 
 3. 태그 **만들기 마법사가** 새 플라이아웃에서 열립니다. 태그 **정의 페이지에서** 다음 설정을 구성합니다.
    - **이름:** 태그를 설명하는 고유한 이름을 입력합니다. 이 값은 표시하고 사용할 수 있습니다. 태그를 만든 후 태그 이름을 다시 만들 수 없습니다.
@@ -86,16 +87,16 @@ ms.locfileid: "53883926"
    작업을 마친 후 **다음** 을 클릭합니다.
 
 4. 구성원 **할당 페이지에서** 다음 단계 중 하나를 수행합니다.
-   - 구성원 ![ 추가 아이콘 구성원 ](../../media/m365-cc-sc-create-icon.png) **추가를 클릭합니다.** 플라이아웃이 나타나면 다음 단계에 따라 개별 사용자 또는 그룹을 추가합니다.
+   - 구성원 ![ 추가 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **구성원을 추가합니다.** 플라이아웃이 나타나면 다음 단계에 따라 개별 사용자 또는 그룹을 추가합니다.
      - 상자를 클릭하고 목록을 스크롤하여 사용자 또는 그룹을 선택합니다.
      - 상자를 클릭하고 입력을 시작하여 목록을 필터링하고 사용자 또는 그룹을 선택합니다.
      - 값을 더 추가하려면 상자의 빈 영역을 클릭합니다.
-     - 개별 항목을 제거하려면 ![항목 제거 아이콘](../../media/m365-cc-sc-remove-selection-icon.png) 상자의 항목 옆에 있습니다.
-     - 모든 항목을 제거하려면 상자 아래의 선택한 nn 사용자 및 nn 그룹 항목에서 항목 ![ ](../../media/m365-cc-sc-remove-selection-icon.png) **제거** 아이콘을 클릭합니다.
+     - 개별 항목을 제거하려면 ![항목 아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 상자의 항목 옆에 있습니다.
+     - 모든 항목을 제거하려면 항목 제거 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 상자 **아래의 선택한 nn 사용자 및 nn** 그룹 항목
 
      작업을 마쳤으면 **추가** 를 클릭합니다.
 
-     구성원 할당 **페이지에서** 항목 옆에 있는 삭제 아이콘을 클릭하여 항목을 ![ 제거할 수도 ](../../media/m365-cc-sc-delete-icon.png) 있습니다.
+     구성원 할당 **페이지에서** 삭제 아이콘을 클릭하여 항목을 제거할 ![ 수도 있습니다.](../../media/m365-cc-sc-delete-icon.png) 항목 옆의
 
    - 가져오기 **를** 클릭하여 사용자 또는 그룹의 전자 메일 주소가 포함된 텍스트 파일을 선택합니다. 텍스트 파일에 한 줄에 항목이 하나씩 포함되어 있는지 확인
 
@@ -122,7 +123,7 @@ ms.locfileid: "53883926"
 
 1. Microsoft 365 Defender 포털에서 설정 전자 메일  & \>  \> **사용자 태그로 이동하세요.**
 
-2. 사용자 **태그 페이지에서** 목록에서 사용자 태그를 선택한 다음 태그 아이콘 편집 태그 ![ ](../../media/m365-cc-sc-edit-icon.png) **편집을 클릭합니다.**
+2. 사용자 **태그 페이지에서** 목록에서 사용자 태그를 선택한 다음 태그 편집 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-edit-icon.png) **태그를 편집합니다.**
 
 3. 나타나는 세부 정보 플라이아웃에서 이 문서 앞부분의 Microsoft 365 Defender [](#use-the-microsoft-365-defender-portal-to-create-user-tags) 포털을 사용하여 사용자 태그 만들기 섹션에 설명된 대로 동일한 마법사 및 설정을 사용할 수 있습니다.
 
@@ -138,6 +139,6 @@ ms.locfileid: "53883926"
 
 1. Microsoft 365 Defender 포털에서 설정 전자 메일  & \>  \> **사용자 태그로 이동하세요.**
 
-2. 사용자 **태그 페이지에서** 목록에서 사용자 태그를 선택한 다음 태그 삭제 ![ 아이콘 삭제 태그 ](../../media/m365-cc-sc-delete-icon.png) **를 클릭합니다.**
+2. 사용자 **태그 페이지에서** 목록에서 사용자 태그를 선택한 다음 태그 삭제 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-delete-icon.png) **태그를 삭제합니다.**
 
 3. 나타나는 확인 대화 상자에서 경고를 읽은 다음 **예, 제거를 클릭합니다.**

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 recommendations: false
 description: 사용자 그룹에 대한 이름 정책을 만드는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 20d993ed4a799c68b33c9187c8b4b2021731e9415c6dc39726543343bec4517a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8c13e946644d25fc76745dc2c9f286bf204f6ba1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853087"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568231"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 그룹 이름 정책
 
@@ -128,7 +128,7 @@ GAL 및 그룹 워크로드의 왼쪽 탐색에서 그룹을 차별화하는 데
 5. 각 **줄에 대해 Attribute** 및 **String을** 선택한 다음 특성 또는 문자열을 지정합니다.
 6. 필요한 접두사와 접미사를 추가한 후 저장을 **클릭합니다.**
 
-![Screenshot of the groups naming policy settings in Azure Active Directory](../media/groups-naming-policy-azure.png)
+![Screenshot of the groups naming policy settings in Azure Active Directory.](../media/groups-naming-policy-azure.png)
 
 ## <a name="related-topics"></a>관련 항목
 

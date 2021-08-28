@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(2016년 8월 2일)의 최종 사용자 스팸 알림에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ed012977bdd8c05e0dae2e77e81ea64498e6db2dcbc795e697d6289660d2beec
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a07a4196b9ad936c6dc83d8eb300332ad9aaac47
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56886166"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568459"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>사용자 스팸 알림을 사용하여 메시지 릴리스 및 보고
 
@@ -39,14 +39,14 @@ ms.locfileid: "56886166"
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP에서 Quarantined messages를 참조하세요.](quarantine-email-messages.md)
 
-기본적으로 최종 사용자 스팸 알림은 스팸 방지 정책에서 사용하지 않도록 설정됩니다. 관리자가 최종 [](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)사용자 스팸 알림을 사용하도록 설정하면 받는 사람(자동 응용 프로그램을 사용하는 공유 사서함 포함)은 스팸, 대량 전자 메일 또는 (2020년 4월부터) 피싱으로 스팸으로 차단된 메시지에 대한 주기적인 알림을 받게 됩니다.
+기본적으로 최종 사용자 스팸 알림은 스팸 방지 정책에서 사용하지 않도록 설정됩니다. 관리자가 최종 [](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)사용자 스팸 알림을 사용할 수 있도록 설정하면 받는 사람(공유 사서함 포함)은 스팸, 대량 전자 메일 또는 피싱(2020년 4월부터)으로 검색된 메시지에 대한 주기적인 알림을 받게 됩니다.
 
 공유 사서함의 경우 최종 사용자 스팸 알림은 공유 사서함에 대한 FullAccess 권한이 부여된 사용자에 한해 지원됩니다. 자세한 내용은 EAC를 사용하여 공유 사서함 위임 [편집을 참조하세요.](/Exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation)
 
-최종 사용자 스팸 알림은 그룹에 대해 지원되지 않습니다.
-
 > [!NOTE]
 > 높은 신뢰도 피싱, 맬웨어 또는 메일 흐름 규칙(전송 규칙)에 의해서만 차단된 메시지는 관리자만 사용할 수 있습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
+>
+> 최종 사용자 스팸 알림은 그룹에 대해 지원되지 않습니다.
 
 최종 사용자 스팸 알림에는 각 고지된 메시지에 대한 다음 정보가 포함되어 있습니다.
 

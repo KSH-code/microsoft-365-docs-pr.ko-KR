@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 07/29/2021
 manager: dansimp
 ms.custom: nextgen
-ms.openlocfilehash: 63fcaf72f487f162c93f89723ba9e87b5881f509
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 93a22ef86be7067c8bda955fdfd085f7ef6cbd64
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532586"
+ms.locfileid: "58568327"
 ---
 # <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성
 
@@ -44,8 +44,8 @@ ms.locfileid: "58532586"
     1. 작업 Windows 10 상자에 **gpedit 를 입력합니다.**
 
     2. 최상의 **일치 아래에서** 그룹 정책 **편집을 선택하여** 로컬 그룹 정책 **편집기를 실행합니다.**
-
-       ![GPEdit 작업 표시줄 검색 결과](images/gpedit-search.png)
+    
+       ![GPEdit 작업 표시줄 검색 결과입니다.](images/gpedit-search.png)
 
 2. 로컬 그룹 정책 편집기 왼쪽 창에서 트리를 컴퓨터 구성 관리 템플릿 Windows  \>  \> **구성 요소** \> Microsoft Defender 바이러스 백신.
 
@@ -79,7 +79,9 @@ ms.locfileid: "58532586"
 
 5. 다음과 Microsoft Defender 바이러스 백신 검사 정책 설정을 구성합니다.
 
-   1. 왼쪽 **창의** Microsoft Defender 바이러스 백신 트리에서 스캔 을 **선택합니다.**
+    1. 왼쪽 **창의** Microsoft Defender 바이러스 백신 트리에서 스캔 을 **선택합니다.**
+    
+       ![Microsoft Defender 바이러스 백신 검사 옵션.](images/gpedit-windows-defender-antivirus-scan.png)
 
       ![Microsoft Defender 바이러스 백신 검사 옵션](images/gpedit-windows-defender-antivirus-scan.png)
 
@@ -139,12 +141,12 @@ ms.locfileid: "58532586"
 
 3. 오른쪽의  실시간 보호 세부 정보 창에서 실시간 보호 끄기 를 **두 번 클릭합니다.**
 
-   ![실시간 보호 끄기](images/gpedit-turn-off-real-time-protection.png)
+   ![실시간 보호를 해제합니다.](images/gpedit-turn-off-real-time-protection.png)
 
 4. 실시간 **보호** 설정 끄기 창에서 옵션을 사용으로 **설정합니다.**
 
-   ![실시간 보호 사용 끄기](images/gpedit-turn-off-real-time-protection-enabled.png)
-
+   ![실시간 보호를 사용하도록 설정하지 않습니다.](images/gpedit-turn-off-real-time-protection-enabled.png)
+   
 5. 확인을 **선택합니다.**
 
 6. 로컬 **그룹 정책 편집기를 닫습니다.**

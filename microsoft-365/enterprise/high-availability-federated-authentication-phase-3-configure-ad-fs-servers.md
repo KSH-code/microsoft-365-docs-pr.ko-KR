@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
 description: 2016년 6월 1일부로 전송되는 2013의 고가용성 페더전 인증을 위한 AD FS 서버를 만들고 Microsoft 365 Microsoft Azure.
-ms.openlocfilehash: 83e8dd5f97017f19e709dd5a65a89275e7be12b3
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 7f6e7801c8185cebc66e653a39930ee9af120946
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569432"
 ---
 # <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a>고가용성 페더레이션 인증 3단계: AD FS 서버 구성
 
@@ -148,7 +148,7 @@ Restart-Computer
   
 **3단계: Azure의 고가용성 페더레이션 인증 인프라용 AD FS 서버 및 내부 부하 분산 장치**
 
-![AD FS 서버와 azure의 Microsoft 365 인증 인프라의 고가용성 기능 3단계](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
+![Azure의 고가용성 Microsoft 365 AD FS 서버와의 페더러이트 인증 인프라의 3단계](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
   
 ## <a name="next-step"></a>다음 단계
 

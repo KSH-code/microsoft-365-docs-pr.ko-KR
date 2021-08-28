@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: 7ab3a0a533c9e2f74087a3c43e0678e99297e16a
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: 37a0ff60f9f12bd2738d6d587d5cad5e6d55af55
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509512"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568159"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>관리 센터를 방문하여 수정 작업 보기
 
@@ -40,15 +40,15 @@ ms.locfileid: "58509512"
 
 새로운 통합된 통합 동작 센터( )를 발표하게 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 됩니다.
 
-:::image type="content" source="images/mde-action-center-unified.png" alt-text="Microsoft 365 센터의 관리 센터":::
+:::image type="content" source="images/mde-action-center-unified.png" alt-text="보안 센터의 Microsoft 365 센터.":::
 
 다음 표에서는 새로운 통합된 작업 센터와 이전 작업 센터를 비교합니다.
 
-|새로운 통합된 동작 센터|이전 작업 센터|
-|---|---|
-|장치 및 전자 메일에 대해 보류 중인 작업과 완료된 작업을 한 위치에 나열합니다. <br/>([Endpoint용 Microsoft Defender와](microsoft-defender-endpoint.md) [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/office-365-atp))|장치에 대한 보류 중인 작업 및 완료된 작업 목록 <br> [(끝점용 Microsoft Defender만 해당)](microsoft-defender-endpoint.md)|
-|에 있습니다.<br/><https://security.microsoft.com/action-center>|에 있습니다.<br/><https://securitycenter.windows.com/action-center>|
-|보안 Microsoft 365 센터에서 **관리 센터 를 선택 합니다.** <p>:::image type="content" source="images/action-center-nav-new.png" alt-text="Microsoft 365 센터로":::|In the Microsoft Defender 보안 센터, choose **Automated investigations** \> **Action center**. <p>:::image type="content" source="images/action-center-nav-old.png" alt-text="2016년 8월 1일부로 Microsoft Defender 보안 센터":::|
+|새로운 통합된 동작 센터  |이전 작업 센터  |
+|---------|---------|
+|장치 및 전자 메일에 대해 보류 중인 작업과 완료된 작업을 한 위치에 나열합니다. <br/>([Endpoint용 Microsoft Defender와](microsoft-defender-endpoint.md) [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/office-365-atp))|장치에 대한 보류 중인 작업 및 완료된 작업 목록 <br/> [(끝점용 Microsoft Defender만 해당)](microsoft-defender-endpoint.md)   |
+|에 있습니다.<br/>[https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)         |에 있습니다.<br/>[https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center)     |
+| 보안 Microsoft 365 센터에서 **관리 센터 를 선택 합니다.** <p>:::image type="content" source="images/action-center-nav-new.png" alt-text="보안 센터의 관리 센터로 Microsoft 365."::: | In the Microsoft Defender 보안 센터, choose **Automated investigations**  >  **Action center**. <p>:::image type="content" source="images/action-center-nav-old.png" alt-text="Microsoft Defender 보안 센터.":::  |
 
 통합 관리 센터는 Endpoint용 Defender 및 2016용 Defender에 대한 수정 Office 365. 모든 수정 작업에 대한 공통 언어를 정의하고 통합 조사 환경을 제공합니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "58509512"
 
 관리 센터에서 데이터를 사용자 지정, 정렬, 필터링 및 내보낼 수 있습니다.
 
-:::image type="content" source="images/new-action-center-columnsfilters.png" alt-text="작업 센터의 열 및 필터":::
+:::image type="content" source="images/new-action-center-columnsfilters.png" alt-text="작업 센터의 열 및 필터입니다.":::
 
 - 열 제목을 선택하여 항목을 오차 또는 내선 순서로 정렬합니다.
 - 기간 필터를 사용하여 지난 일, 주, 30일 또는 6개월의 데이터를 볼 수 있습니다.

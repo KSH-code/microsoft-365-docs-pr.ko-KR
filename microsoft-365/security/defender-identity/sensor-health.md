@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: e2052652e1ded79d8605c5b5f84b82d8c6504fd9
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.openlocfilehash: 9d57272626c6f6c5d0e44052522cb73b9b675fd8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360143"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569324"
 ---
 # <a name="microsoft-defender-for-identity-sensor-health-and-settings-in-microsoft-365-defender"></a>Microsoft Defender for Identity 센서 상태 및 설정 Microsoft 365 Defender
 
@@ -30,38 +30,38 @@ ms.locfileid: "58360143"
 
 1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
 
-    ![다음 설정 다음 ID로 이동](../../media/defender-identity/settings-identities.png)
+    ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
 1. ID **센서에** 대한 모든 Defender를 표시하는 센서 페이지를 선택합니다. 각 센서에 대해 이름, 도메인 멤버 자격, 버전 번호, 업데이트가 지연되는 경우, 서비스 상태, 업데이트 상태, 상태, 상태 문제 수 및 센서를 만든 시간이 표시됩니다.
 
-    [![센서 페이지](../../media/defender-identity/sensor-page.png)](../../media/defender-identity/sensor-page.png#lightbox)
+    [![센서 페이지.](../../media/defender-identity/sensor-page.png)](../../media/defender-identity/sensor-page.png#lightbox)
 
     >[!NOTE]
     >ID용 Defender 포털에서 센서 설정 및 상태 정보는 별도의 위치에 있습니다. 이 Microsoft 365 Defender 동일한 페이지에 있습니다.
 
 1. 필터를 **선택하는** 경우 사용할 수 있는 필터를 선택할 수 있습니다. 그런 다음 각 필터를 사용하여 표시할 센서를 선택할 수 있습니다.
 
-    [![센서 필터](../../media/defender-identity/sensor-filters.png)](../../media/defender-identity/sensor-filters.png#lightbox)
+    [![센서 필터.](../../media/defender-identity/sensor-filters.png)](../../media/defender-identity/sensor-filters.png#lightbox)
 
-    ![필터링된 센서](../../media/defender-identity/filtered-sensor.png)
+    ![필터링된 센서입니다.](../../media/defender-identity/filtered-sensor.png)
 
 1. 센서 중 하나를 선택하면 센서 및 해당 상태에 대한 정보가 있는 창이 표시됩니다.
 
-    [![센서 세부 정보](../../media/defender-identity/sensor-details.png)](../../media/defender-identity/sensor-details.png#lightbox)
+    [![센서 세부 정보입니다.](../../media/defender-identity/sensor-details.png)](../../media/defender-identity/sensor-details.png#lightbox)
 
 1. 상태 문제를 선택하면 해당 문제에 대한 자세한 정보가 있는 창이 있습니다. 닫힌 문제를 선택하면 여기에서 다시 열 수 있습니다.
 
-    ![문제 세부 정보](../../media/defender-identity/issue-details.png)
+    ![Issue details.](../../media/defender-identity/issue-details.png)
 
 1. 센서 관리를 **선택하면** 센서 세부 정보를 구성할 수 있는 창이 열립니다.
 
-    ![센서 관리](../../media/defender-identity/manage-sensor.png)
+    ![센서를 관리합니다.](../../media/defender-identity/manage-sensor.png)
 
-    ![센서 세부 정보 구성](../../media/defender-identity/configure-sensor-details.png)
+    ![센서 세부 정보를 구성합니다.](../../media/defender-identity/configure-sensor-details.png)
 
 1. 센서 **페이지에서** 내보내기 를 선택하여 센서 목록을 .csv 수 **있습니다.**
 
-    ![센서 목록 내보내기](../../media/defender-identity/export-sensors.png)
+    ![센서 목록을 내보낼 수 있습니다.](../../media/defender-identity/export-sensors.png)
 
 ## <a name="add-a-sensor"></a>센서 추가
 
@@ -69,11 +69,11 @@ ms.locfileid: "58360143"
 
 1. 센서 **추가를 선택합니다.**
 
-    ![센서 추가](../../media/defender-identity/add-sensor.png)
+    ![센서를 추가합니다.](../../media/defender-identity/add-sensor.png)
 
 1. 창이 열리며 센서 설치 관리자 및 생성된 선택키를 다운로드할 수 있는 단추를 제공합니다.
 
-    ![설치 관리자 및 액세스 키 다운로드](../../media/defender-identity/installer-access-key.png)
+    ![설치 관리자 및 액세스 키를 다운로드합니다.](../../media/defender-identity/installer-access-key.png)
 
 1. 설치 **관리자 다운로드를 선택하여** 패키지를 로컬로 저장합니다. zip 파일에는 다음 파일이 포함됩니다.
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 손실된 고객 키를 복구하는 데 사용되는 가용성 키에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4de9df3fd60a8afe8608615f90d51486d42b6a20
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: 76137438231e69f5d93673322ab6825146ee6e2e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349923"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58570128"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>고객 키에 대한 가용성 키 알아보기
 
@@ -172,11 +172,11 @@ SharePoint Online, 비즈니스용 OneDrive 및 Teams 파일의 경우 가용성
 
 로그 레코드에는 날짜, 시간, 활동, 조직 ID 및 데이터 암호화 정책 ID와 같은 특성이 포함됩니다. 레코드는 통합 감사 로그의 일부로 사용할 수 있으며 보안 및 준수 센터 감사 로그 & 탭에서 액세스할 수 있습니다.
 
-![가용성 주요 이벤트에 대한 감사 로그 검색](../media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
+![가용성 키 이벤트에 대한 감사 로그 검색](../media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
 
 Exchange Online 및 비즈니스용 Skype 키 레코드는 추가된 사용자 지정 [](/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) 매개 변수와 함께 Office 365 관리 활동 일반적인 정책 ID, 범위 키 버전 ID 및 요청 ID를 사용합니다.
 
-![가용성 키 사용자 지정 매개 변수](../media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
+![가용성 키 사용자 지정 매개 변수입니다.](../media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
 
 ### <a name="sharepoint-online-onedrive-for-business-and-teams-files-availability-key-logging"></a>SharePoint 온라인, 비즈니스용 OneDrive 및 Teams 파일 가용성 키 로깅
 
@@ -192,11 +192,11 @@ Microsoft 365 키를 사용하여 고객 키 서비스 암호화에 대해 설�
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Exchange Online 암호화하는 데 사용되는 암호화 비즈니스용 Skype
 
-![고객 키에 대한 Exchange Online 암호화](../media/customerkeyencryptionhierarchiesexchangeskype.png)
+![고객 키에 대한 Exchange Online 암호화입니다.](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive
 
-![온라인 고객 SharePoint 암호화](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![온라인 고객 SharePoint 암호화.](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>관련 문서
 

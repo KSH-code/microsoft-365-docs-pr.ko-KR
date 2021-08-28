@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사용자 계정이 손상된 경우 포렌식 조사를 수행하거나 기타 보안 관련 인시던트에 대한 조사를 수행할 수 있도록 고급 감사를 설정하는 방법을 설명합니다.
-ms.openlocfilehash: e23f5c9ce4212e4974de97977bb2e0785bad69ed
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: 0df68516795c094aa33d048e77b5ca2d1b396ed7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386963"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569756"
 ---
 # <a name="set-up-advanced-audit-in-microsoft-365"></a>2013에서 고급 감사 Microsoft 365
 
 조직에 고급 감사를 지원하는 구독 및 최종 사용자 라이선스가 있는 경우 다음 단계를 수행하여 고급 감사의 추가 기능을 설정하고 사용하세요.
 
-![고급 감사 설정 워크플로](../media/AdvancedAuditWorkflow.png)
+![고급 감사를 설정하는 워크플로입니다.](../media/AdvancedAuditWorkflow.png)
 
 ## <a name="step-1-set-up-advanced-audit-for-users"></a>1단계: 사용자에 대한 고급 감사 설정
 

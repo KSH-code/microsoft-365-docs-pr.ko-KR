@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: 재무 서비스 기관에서 Microsoft 365와 Teams를 사용하여 재무 보안 규정 준수를 유지하고 효과적으로 공동 작업하는 방법을 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 88aa46e08a450953e940d625e7f35cf9732d668d
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 0e3fada6a74776e4edf2c8c41ef9026ce17871ad
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400274"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568003"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -165,7 +165,7 @@ ID 보호는 Microsoft가 Azure AD를 사용하는 조직, Microsoft 계정을 �
 
 조직은 ID 보호를 통해 Microsoft 에코시스템 전반에 걸쳐 UEBA(휴리스틱, 사용자 및 엔터티 동작 분석) 및 ML(머신 러닝)을 기반으로 하는 고급 탐지를 통해 제공되는 클라우드 인텔리전스를 활용하여 ID 유출을 자동으로 방지할 수 있습니다.
 
-![다섯 명의 정보부서 직원이 다른 직원의 프레젠테이션을 보고 있습니다.](../media/win17-15021-00-n9.jpg)
+![정보부서 직원 다섯 명이 다른 직원의 프레젠테이션을 보고 있습니다.](../media/win17-15021-00-n9.jpg)
  
 ## <a name="identify-sensitive-data-and-prevent-data-loss"></a>중요한 데이터 식별 및 데이터 손실 방지
 모든 조직은 Microsoft 365를 사용하여 이 다음을 포함한 강력한 기능의 조합을 통해 조직 내의 중요한 데이터를 식별할 수 있습니다.

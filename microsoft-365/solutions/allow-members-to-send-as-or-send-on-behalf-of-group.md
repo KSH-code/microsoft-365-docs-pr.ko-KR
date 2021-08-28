@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 recommendations: false
 description: 그룹 구성원이 전자 메일을 그룹으로 보내거나 Microsoft 365 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용하는 Microsoft 365 있습니다.
-ms.openlocfilehash: 9e214614ea8ab1cba7809251219546410c9778f35f231a6e5cf48540251ff8e7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f2147e49c66e4ad8b4504c00cbd7902dd482cdfc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883652"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568027"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹으로 보내거나 그룹을 대신하여 보내기 허용
 
@@ -47,17 +47,17 @@ ms.locfileid: "53883652"
   
 1. Exchange <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">관리 센터에서</a>받는 사람 **그룹으로** \> **이동하세요.**
     
-2. 사용자가 **다른 사람으로** 보낼 수 있도록 허용할 그룹에서 그룹 편집 아이콘 ![ ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 편집을 선택합니다.   
+2. 그룹 **편집** ![ 아이콘 편집을 선택합니다.  ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 을(를) 사용하여 사용자가 다른 사람으로 보낼 수 있도록 합니다. 
     
 3. 그룹 **위임 을 선택합니다.**
     
 4. 다른 **사람으로 보내기 섹션에서** 그룹으로 보낼 사용자를 추가하려면 **+** 기호를 선택합니다. 
     
-    ![다른 사람으로 보내기 대화 상자 스크린샷](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
+    ![다른 사람으로 보내기 대화 상자의 스크린샷.](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
 5. 목록에서 사용자를 검색하거나 선택합니다. 확인 **및** **저장을 선택합니다.**
     
-    ![목록에서 사용자를 검색하거나 선택하기 위해 입력](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    ![목록에서 사용자를 검색하거나 선택합니다.](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
   
 ## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>구성원이 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용
 
@@ -65,17 +65,17 @@ ms.locfileid: "53883652"
   
 1. Exchange <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">관리 센터에서</a>받는 사람 **그룹으로** \> **이동하세요.**
     
-2. 사용자가 **다른 사람으로** 보낼 수 있도록 허용할 그룹에서 그룹 편집 아이콘 ![ ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 편집을 선택합니다. 
+2. 그룹 **편집** ![ 아이콘 편집을 선택합니다.](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 을(를) 사용하여 사용자가 다른 사람으로 보낼 수 있도록 합니다. 
     
 3. 그룹 **위임 을 선택합니다.**
     
 4. 대신 보내기 섹션에서 그룹으로 보낼 사용자를 추가하려면 **+** 기호를 선택합니다. 
     
-    ![대화 상자 대신 보내기 스크린샷](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
+    ![대화 상자 대신 보내기 스크린샷.](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
 5. 목록에서 사용자를 검색하거나 선택합니다. 확인 **및** **저장을 선택합니다.**
     
-    ![목록에서 사용자를 검색하거나 선택하기 위해 입력](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    ![목록에서 사용자를 검색하거나 선택합니다.](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
 ## <a name="related-articles"></a>관련 문서
 

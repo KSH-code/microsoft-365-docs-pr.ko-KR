@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: bc709de74135dfbee58b98dd0133b1e43c3c14ad
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: e1a681fb7d521c26327bec3d22bff233926a279f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533114"
+ms.locfileid: "58569384"
 ---
 # <a name="onboard-the-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 Windows 10 장치 온보딩
 
@@ -40,7 +40,7 @@ ms.locfileid: "58533114"
 
 ## <a name="onboard-devices"></a>온보딩 장치
 
-[![다양한 배포 경로를 보여 주며 PDF 이미지](images/onboard-script.png)](images/onboard-script.png#lightbox)
+[![다양한 배포 경로를 보여 주며 PDF의 이미지입니다.](images/onboard-script.png)](images/onboard-script.png#lightbox)
 
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
@@ -56,11 +56,11 @@ ms.locfileid: "58533114"
    1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
    2. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-     ![관리자 시작 메뉴 실행을 설정하는 창 창](images/run-as-admin.png)
+    ![관리자 시작 메뉴 실행을 설정하는 창 창입니다.](images/run-as-admin.png)
 
-4. 스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPLocalOnboardingScript.cmd를 입력합니다.*
+4.  스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPLocalOnboardingScript.cmd를 입력합니다.*
 
-5. Enter 키를 **누르거나** 확인을 **클릭합니다.**
+5.  Enter 키를 **누르거나** 확인을 **클릭합니다.**
 
 장치가 규격을 확인하고 센서 데이터를 올바르게 보고하는지 수동으로 확인할 수 있는 방법에 대한 자세한 내용은 Endpoint 온보딩 문제에 [대한 Microsoft Defender 문제 해결을 참조하세요.](troubleshoot-onboarding.md)
 
@@ -111,7 +111,7 @@ Value: 0 or 1
    1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
    2. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-      ![관리자 시작 메뉴 실행을 설정하는 창 창](images/run-as-admin.png)
+        ![관리자 시작 메뉴 실행을 설정하는 창 창입니다.](images/run-as-admin.png)
 
 4. 스크립트 파일의 위치를 입력합니다. 바탕 화면에 파일을 복사한 경우 *%userprofile%\Desktop\WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd를 입력합니다.*
 

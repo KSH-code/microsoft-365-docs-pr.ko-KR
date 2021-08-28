@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 8f5ddd873d5303748bab5ba391cfbf1d4f2b0066
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: b630c1b10722056c3d201eb300aba8f68a38bbca
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256519"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568855"
 ---
 # <a name="evaluate-microsoft-defender-for-endpoint-overview"></a>끝점용 Microsoft Defender 개요 평가
 
@@ -40,7 +40,7 @@ ms.locfileid: "58256519"
 
 다음 단계에 따라 끝점용 Microsoft Defender를 사용하도록 설정하고 파일럿합니다.
 
-![Defender 평가 환경에 끝점용 Microsoft Defender를 추가하는 단계](../../media/defender/m365-defender-endpoint-eval-steps.png)
+![Defender 평가 환경에 끝점용 Microsoft Defender를 추가하는 단계입니다.](../../media/defender/m365-defender-endpoint-eval-steps.png)
 
 
 다음 표에서는 그림의 단계에 대해 설명합니다.

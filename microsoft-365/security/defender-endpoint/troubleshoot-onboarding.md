@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: e74ca9a12938028d3e9710e46de8b2f82bca00a3c01f241c74b344f9e211d082
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fbf7b2328a453f1fb20d77553548a71a0e1ca8ab
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53890160"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569984"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -163,7 +163,7 @@ ID | 심각도 | 이벤트 설명 | 문제 해결 단계
 
 5. 필터 **탭의** 이벤트 수준 **아래에서 위험,** 경고 **및** 오류를 선택하고 확인 을 **클릭합니다.** 
 
-   ![이벤트 뷰어 로그 필터의 이미지](images/filter-log.png)
+   ![이벤트 뷰어 로그 필터의 이미지입니다.](images/filter-log.png)
 
 6. 문제를 나타낼 수 있는 이벤트가 작업 **창에** 표시됩니다. 다음 표의 솔루션에 따라 문제를 해결할 수 있습니다.
 
@@ -217,7 +217,7 @@ ID | 심각도 | 이벤트 설명 | 문제 해결 단계
 
    서비스가 사용하도록 설정된 경우 결과는 다음 스크린샷과 같아야 합니다.
 
-   ![diagtrack에 대한 sc 쿼리 명령의 결과](images/windefatp-sc-qc-diagtrack.png)
+   ![diagtrack에 대한 sc 쿼리 명령의 결과입니다.](images/windefatp-sc-qc-diagtrack.png)
 
    로 설정되지 않은 경우 서비스를 자동으로 `START_TYPE` `AUTO_START` 시작으로 설정해야 합니다.
 
@@ -289,7 +289,7 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 - 레지스트리 키를 열고 이전 레지스트리 키 값을 확인하여 정책이 사용하지 않도록 설정되어 있는지 확인할 수도 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` 있습니다.
 
-    ![레지스트리 키의 Microsoft Defender 바이러스 백신](images/atp-disableantispyware-regkey.png)
+    ![레지스트리 키의 Microsoft Defender 바이러스 백신.](images/atp-disableantispyware-regkey.png)
 
    > [!NOTE]
    > 모든 Windows Defender 서비스(wdboot, wdfilter, wdnisdrv, wdnissvc 및 windefend)는 기본 상태입니다. 이러한 서비스의 시작을 변경하는 것은 지원되지 않는 것이고 강제로 시스템을 다시 그만 두게 될 수 있습니다.
@@ -310,19 +310,19 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 다음을 확인해야 할 수도 있습니다.
 
-- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예를 들어 다음과 같은 가치를 제공해야 합니다.
+- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예시:
 
-    ![Endpoint Service용 Microsoft Defender를 실행하는 프로세스 보기의 이미지](images/atp-task-manager.png)
+    ![Endpoint Service용 Microsoft Defender가 실행되는 프로세스 보기의 이미지입니다.](images/atp-task-manager.png)
 
 - 이벤트 **뷰어** 응용 프로그램 및 서비스 로그 작업 관리자에서 오류가 발생  >    >   하는지 확인 합니다.
 
 - 서비스 **에서** 서버 Microsoft Monitoring Agent **실행** 중인지 검사합니다. 예를 들면 다음과 같습니다.
 
-    ![서비스 이미지](images/atp-services.png)
+    ![서비스 이미지.](images/atp-services.png)
 
 - Azure **Microsoft Monitoring Agent**  >  **분석(OMS)에서** 작업 영역과 상태가 실행 중인지 확인 합니다.
 
-    ![속성 Microsoft Monitoring Agent 이미지](images/atp-mma-properties.png)
+    ![속성 Microsoft Monitoring Agent 이미지입니다.](images/atp-mma-properties.png)
 
 - 디바이스가 포털의 장치 목록에 **반영되는지** 확인
 
@@ -346,119 +346,119 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 1. 응용 프로그램을 Microsoft Endpoint Configuration Manager.
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지1](images/mecm-1.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-1.png)
 
 2. 응용 **프로그램 정보 수동 지정을 선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-2.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-2.png)
 
 3. 응용 프로그램에 대한 정보를 지정하고 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-3.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-3.png)
 
 4. 소프트웨어 센터에 대한 정보를 지정하고 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-4.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-4.png)
 
 5. 배포 **유형에서 추가를** **선택합니다.**
 
-    ![Microsoft Endpoint Configuration Manager configuration5의 이미지](images/mecm-5.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-5.png)
 
 6. 배포 **유형 정보 수동 지정을 선택하고** 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-6.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-6.png)
 
 7. 배포 유형에 대한 정보를 지정하고 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-7.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-7.png)
 
 8. 콘텐츠 **설치**  >  **프로그램에서 명령을** 지정합니다. `net start sense` .
 
-    ![Microsoft Endpoint Configuration Manager configuration8의 이미지](images/mecm-8.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-8.png)
 
 9. 검색 **방법에서** **규칙 구성을** 선택하여 이 배포 유형이 있는지 검색한 다음 **절 추가 를 선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-9.png)
+    ![Microsoft Endpoint Configuration Manager configuration9의 이미지입니다.](images/mecm-9.png)
 
 10. 다음 검색 규칙 세부 정보를 지정하고 확인을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지10](images/mecm-10.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-10.png)
 
 11. 검색 **방법에서** 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-11.png)
+    ![Microsoft Endpoint Configuration Manager configuration11의 이미지입니다.](images/mecm-11.png)
 
 12. 사용자 **환경에서** 다음 정보를 지정하고 다음을 **선택합니다.**
 
-    ![Microsoft Endpoint Configuration Manager configuration12의 이미지](images/mecm-12.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-12.png)
 
 13. 요구 **사항에서** 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-13.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-13.png)
 
 14. **종속성에서** 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-14.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-14.png)
 
 15. 요약에서 **다음** 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-15.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-15.png)
 
 16. **완료에서** **닫기 를 선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-16.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-16.png)
 
 17. 배포 **유형에서** 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-17.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-17.png)
 
 18. 요약에서 **다음** 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-18.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-18.png)
 
-    그러면 상태가 표시됩니다. ![ Microsoft Endpoint Configuration Manager configuration19](images/mecm-19.png)
+    그러면 상태가 ![ configuration19의 Microsoft Endpoint Configuration Manager 표시됩니다.](images/mecm-19.png)
 
 19. **완료에서** **닫기 를 선택합니다.**
 
-    ![Microsoft Endpoint Configuration Manager configuration20 이미지](images/mecm-20.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-20.png)
 
 20. 이제 앱을 마우스 오른쪽 단추로 클릭하고 배포를 선택하여 응용 프로그램을 배포할 수 **있습니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-21.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-21.png)
 
 21. 일반적으로 **종속성에 대한** 콘텐츠 자동 배포 및 **찾아보기를 선택합니다.** 
 
-    ![Microsoft Endpoint Configuration Manager configuration22의 이미지](images/mecm-22.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-22.png)
 
 22. **콘텐츠에서** 다음 **을 선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-23.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-23.png)
 
 23. 배포 **설정에서** 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-24.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-24.png)
 
 24. **Scheduling** select **As soon as soon after the available time**, then select **Next**.
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-25.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-25.png)
 
 25. 사용자 **환경의** 마감일 또는 유지 관리 기간 동안 변경 내용 커밋(다시 시작 필요)을 선택하고 다음 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-26.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-26.png)
 
 26. 알림에서 **다음** 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-27.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-27.png)
 
 27. 요약에서 **다음** 을 **선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-28.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-28.png)
 
-    그러면 상태는 Microsoft Endpoint Configuration Manager ![ 구성29의 이미지로 표시됩니다.](images/mecm-29.png)
+    그러면 상태가 ![ configuration29의 Microsoft Endpoint Configuration Manager 표시됩니다.](images/mecm-29.png)
 
 28. **완료에서** **닫기 를 선택합니다.**
 
-    ![구성 Microsoft Endpoint Configuration Manager 이미지](images/mecm-30.png)
+    ![구성 Microsoft Endpoint Configuration Manager 이미지입니다.](images/mecm-30.png)
 
 
 ## <a name="related-topics"></a>관련 항목

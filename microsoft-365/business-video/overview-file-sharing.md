@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스 파일을 공유하는 방법에 대한 개요입니다.
-ms.openlocfilehash: a377735f077df81556621a06e2367929d966aaf45f36e9f4425309f5dabaae0e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d762620cf07cd9f1201bf173e6e6aa0c16e050eb
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867186"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569672"
 ---
 # <a name="overview-of-sharing-business-files"></a>비즈니스 파일 공유 개요
 
 클라이언트, 고객, 파트너, 공급자 및 비즈니스의 다른 사용자와 파일을 공유해야 합니다. 모든 사람이 파일을 찾고, 열고, 편집할 수 있도록 파일을 공유하는 방법
 
-|![안전하게 공유](../media/securely-share-file.png)<br/>[회사 외부의 사용자와 파일 공유](#share-a-file-with-someone-outside-of-your-company)|![클라이언트와 공동 작업](../media/share-and-collab-with-partner.png) <br/>[클라이언트 또는 비즈니스 파트너와 공유 및 공동 작업](#share-and-collaborate-with-a-client-or-business-partner) | ![Org 내부 공유](../media/share-inside-your-org.png) <br/>[비즈니스 내부 공유](#share-inside-your-business) |
+|![안전하게 공유합니다.](../media/securely-share-file.png)<br/>[회사 외부의 사용자와 파일 공유](#share-a-file-with-someone-outside-of-your-company)|![클라이언트와 공동 작업](../media/share-and-collab-with-partner.png) <br/>[클라이언트 또는 비즈니스 파트너와 공유 및 공동 작업](#share-and-collaborate-with-a-client-or-business-partner) | ![Org 내부 공유](../media/share-inside-your-org.png) <br/>[비즈니스 내부 공유](#share-inside-your-business) |
 |--|--|--|
 
 인포그래픽을 다운로드하여 비즈니스 파일을 공유하는 방법에 대한 간략한 개요를 확인할 수 있습니다. 

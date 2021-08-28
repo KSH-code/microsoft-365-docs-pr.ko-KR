@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: bec4ca87c3827c8b24fa7017c01b40a60fce80eecb636d6d91adf0ceb9b8ecf1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4176b718105643b59f23024c1a70cd8fe220eea9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53897782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58568819"
 ---
 # <a name="introduction-to-responding-to-your-first-incident"></a>첫 번째 인시던트에 대한 응답 소개
 
@@ -52,7 +52,7 @@ ms.locfileid: "53897782"
 
 ## <a name="next-step"></a>다음 단계
 
-[![조직 및 테넌트 Microsoft 365 준비](../../media/first-incident-overview/first-incident-path.png)](first-incident-prepare.md)
+[![조직 및 테넌트 Microsoft 365 준비합니다.](../../media/first-incident-overview/first-incident-path.png)](first-incident-prepare.md)
 
 조직 및 Microsoft 365 테넌트가 인시던트 [처리를 준비해야 합니다.](first-incident-prepare.md)
 

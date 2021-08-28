@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 7f8ecf697049f5e4fe6f4c1ee153dc621b66a1c9433e1e13dff2717d0adec74f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 45bf3204a092bac6597c4e43f4ca29dbc06cd631
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793602"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569348"
 ---
 # <a name="investigate-alerts-in-microsoft-defender-for-endpoint"></a>Microsoft Defender에서 끝점에 대한 경고 조사
 
@@ -53,7 +53,7 @@ ms.locfileid: "53793602"
 > [!NOTE]
 > 경고 스토리 섹션에는 두 개 이상의 경고가 포함될 수 있습니다. 이 섹션에서는 선택한 경고 전후에 동일한 실행 트리와 관련된 추가 경고가 나타납니다.
 
-![포커스가 있는 경고와 일부 확장된 카드가 있는 경고 스토리의 예](images/alert-story-tree.png)
+![포커스가 있는 경고와 일부 확장된 카드가 있는 경고 스토리의 예입니다.](images/alert-story-tree.png)
 
 ## <a name="take-action-from-the-details-pane"></a>세부 정보 창에서 작업 수행
 
@@ -63,7 +63,7 @@ ms.locfileid: "53793602"
 
 이를 실제 경고로 분류하는 경우 아래 이미지에 표시된 같이 결정도 선택할 수 있습니다.
 
-![해결된 경고 및 결정 드롭다운이 확장된 세부 정보 창의 스니킷](images/alert-details-resolved-true.png)
+![해결된 경고 및 결정 드롭다운이 확장된 세부 정보 창의 스니킷입니다.](images/alert-details-resolved-true.png)
 
 업무용 응용 프로그램에서 거짓 경고가 발생하는 경우 향후 이러한 유형의 경고를 방지하는 제거 규칙을 만들어야 합니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "53793602"
 > 위에서 설명하지 않은 문제가 발생하는 경우 단추를 사용하여 피드백을 제공하거나 지원 🙂 티켓을 여십시오.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성](alerts-queue.md)
 - [끝점 경고에 대한 Microsoft Defender 관리](manage-alerts.md)
 - [끝점 경고에 대한 Defender와 관련된 파일 조사](investigate-files.md)

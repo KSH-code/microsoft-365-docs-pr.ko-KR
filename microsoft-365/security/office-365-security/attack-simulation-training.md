@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지를 위한 Microsoft Defender의 공격 시뮬레이션 교육을 사용하여 피싱 방지를 교육하는 방법을 Office 365.
 ms.technology: mdo
-ms.openlocfilehash: ecf759b0fddef6404d6962b76805602f19eefcbd
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 40baa8aa3eda6f0f6045115d45e2dac1426c4455
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247928"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58569876"
 ---
 # <a name="simulate-a-phishing-attack"></a>피싱 공격 시뮬레이션
 
@@ -31,7 +31,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 
 **시뮬레이션에서**+ **시뮬레이션 실행을 선택합니다.**
 
-![웹 사이트 포털에서 시뮬레이션 Microsoft 365 Defender 실행](../../media/attack-sim-preview-launch.png)
+![웹 사이트 포털에서 시뮬레이션 Microsoft 365 Defender 실행합니다.](../../media/attack-sim-preview-launch.png)
 
 > [!NOTE]
 > 시뮬레이션을 만들 때 어느 시점에서든 저장하고 닫아서 나중에 시뮬레이션을 계속 구성할 수 있습니다.
@@ -49,7 +49,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 > [!TIP]
 > 각 기술에 **대한** 설명 내에서 세부 정보 보기를 클릭하면 해당 기술에 대한 추가 정보와 시뮬레이션 단계가 표시됩니다.
 >
-> ![포털에서 공격 시뮬레이션 교육 내에서 자격 증명 수집을 위한 시뮬레이션 Microsoft 365 Defender 단계](../../media/attack-sim-preview-sim-steps.png)
+> ![포털에서 공격 시뮬레이션 교육 내에서 자격 증명 수집을 위한 시뮬레이션 Microsoft 365 Defender 단계입니다.](../../media/attack-sim-preview-sim-steps.png)
 
 기술을 선택한 후 다음 을 클릭한 후 **시뮬레이션에** 이름과 설명(옵션)을 제공합니다.
 
@@ -65,7 +65,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 - **필터를** **통해** 사용할 수 있는 복잡성은 페이로드 내에서 공격 대상을 단서하는 지표 수를 기반으로 계산됩니다. 지표가 수록 복잡성이 낮아집니다.
 - **Source** 는 필터를 **통해** 사용할 수 있습니다. 페이로드가 테넌트에서 만들어지거나 Microsoft의 기존 페이로드 카탈로그(전역)의 일부인지 여부를 나타냅니다.
 
-![Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육 내에서 선택한 페이로드](../../media/attack-sim-preview-select-payload.png)
+![포털에서 공격 시뮬레이션 교육 내에서 선택한 페이로드를 Microsoft 365 Defender 있습니다.](../../media/attack-sim-preview-select-payload.png)
 
 목록에서 페이로드를 선택하여 페이로드에 대한 추가 정보가 있는 미리 보기를 볼 수 있습니다.
 
@@ -79,7 +79,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 
 - **사용자를 추가하여** 지난 3개월 동안 시뮬레이션의 대상으로 지정되지 않은 사용자를 대상으로 지정하는 등 테넌트에 대한 검색뿐만 아니라 고급 검색 및 필터링 기능을 활용할 수 있습니다.
 
-  ![Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육의 사용자 필터링](../../media/attack-sim-preview-user-targeting.png)
+  ![포털에서 공격 시뮬레이션 교육의 사용자 Microsoft 365 Defender.](../../media/attack-sim-preview-user-targeting.png)
 
 - **CSV에서 가져오기에서는** 이 시뮬레이션에 대해 미리 정의한 사용자 집합을 가져올 수 있습니다.
 
@@ -94,7 +94,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 > [!NOTE]
 > 과정 및 모듈을 직접 선택하기로 선택한 경우 권장되는 콘텐츠와 사용 가능한 모든 과정 및 모듈을 계속 볼 수 있습니다.
 >
-> ![Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육에 권장되는 교육 추가](../../media/attack-sim-preview-add-training.png)
+> ![포털에서 공격 시뮬레이션 교육 내에서 권장 교육을 Microsoft 365 Defender 추가합니다.](../../media/attack-sim-preview-add-training.png)
 
 다음 단계에서 직접 교육을  선택하기로 선택한 경우 교육을 추가하고 교육 방문 페이지를 사용자 지정해야 합니다. 교육 방문 페이지를 미리 보고 머리더와 본문을 변경할 수 있습니다.
 
