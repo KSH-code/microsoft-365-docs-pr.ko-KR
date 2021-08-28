@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 61407295ef414d14441803bf39320615f2b1329c
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 0796d9d7388ff80ea5ad4917413a42f60e0f06dd
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532670"
+ms.locfileid: "58560921"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 연결된 응용 프로그램
 
@@ -47,8 +47,8 @@ ms.locfileid: "58532670"
 
 연결된 응용 프로그램 페이지에서는 조직의 끝점용 Microsoft Defender에 연결된 Azure AD 응용 프로그램에 대한 정보를 제공합니다. 마지막으로 확인한 응용 프로그램, 지난 24시간 동안의 요청 수 및 지난 30일 동안의 추세 요청과 같은 연결된 응용 프로그램의 사용을 검토할 수 있습니다.
 
-![연결된 앱의 이미지](images/connected-apps.png)
-
+![연결된 앱의 이미지입니다.](images/connected-apps.png)
+ 
 ## <a name="edit-reconfigure-or-delete-a-connected-application"></a>연결된 응용 프로그램 편집, 다시 구성 또는 삭제
 
 응용 **프로그램 설정 열기 링크를** 클릭하면 Azure Portal에서 해당 Azure AD 응용 프로그램 관리 페이지가 열립니다. Azure Portal에서 연결된 응용 프로그램을 관리하거나, 다시 구성하거나, 삭제할 수 있습니다.

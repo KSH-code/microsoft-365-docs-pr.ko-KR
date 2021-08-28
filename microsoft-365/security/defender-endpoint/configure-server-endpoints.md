@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 23f6b23d958a51bd84498c08ef95672ec62ff6e5
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 6c3adb8b07de50ca655c27a2d70f7868efd32332
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532766"
+ms.locfileid: "58561041"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -175,7 +175,7 @@ Windows Server에 대한 지원은 서버 활동, 커널 및 메모리 공격 �
 
     1. 수동 모드 이벤트가 포함된 최근 이벤트가 발견된지 확인:
 
-       ![수동 모드 확인 결과의 이미지](images/atp-verify-passive-mode.png)
+       ![수동 모드 확인 결과의 이미지입니다.](images/atp-verify-passive-mode.png)
 
 3. 다음 명령을 실행하여 Microsoft Defender AV가 설치되어 있는지 확인합니다.
 
@@ -260,7 +260,7 @@ Windows 서버를 오프보딩하기 위해 MMA 에이전트를 Windows 끝점 �
 
 2. 끝점 작업 영역용 Defender를 선택하고 제거를 **클릭합니다.**
 
-    ![속성 Microsoft Monitoring Agent 이미지](images/atp-mma.png)
+    ![속성 Microsoft Monitoring Agent 이미지입니다.](images/atp-mma.png)
 
 #### <a name="run-a-powershell-command-to-remove-the-configuration"></a>PowerShell 명령을 실행하여 구성 제거
 
@@ -270,7 +270,7 @@ Windows 서버를 오프보딩하기 위해 MMA 에이전트를 Windows 끝점 �
 
    1. 운영 **Windows Server 2008 R2 SP1, 2012 R2 및 2016을** 선택하고 작업 영역 ID를 얻습니다.
 
-      ![서버 Windows 이미지](images/atp-server-offboarding-workspaceid.png)
+      ![서버 Windows 이미지입니다.](images/atp-server-offboarding-workspaceid.png)
 
 2. 승강된 PowerShell을 열고 다음 명령을 실행합니다. 얻은 작업 영역 ID를 사용하여 을 `WorkspaceID` 대체합니다.
 
@@ -325,28 +325,28 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
 
 - "c:\windows\MMA"라는 그룹 정책 폴더 만들기
 
-     :::image type="content" source="images/grppolicyconfig1.png" alt-text="폴더":::
+     :::image type="content" source="images/grppolicyconfig1.png" alt-text="폴더를 지정합니다.":::
 
     **이렇게 하면 MMA라는 GPO를 적용하는 모든 서버에 새 폴더가 추가되고 c:\windows에 저장됩니다. 여기에는 MMA, 선행 구성 및 설치 스크립트에 대한 설치 파일이 포함되어 있습니다.**
 
 - Net 로그온에 저장된 각 파일에 대해 그룹 정책 파일 기본 설정을 만들 수 있습니다.
 
-     :::image type="content" source="images/grppolicyconfig2.png" alt-text="그룹 정책 이미지1":::
+     :::image type="content" source="images/grppolicyconfig2.png" alt-text="그룹 정책 이미지1.":::
 
 도메인\NETLOGON\MMA\filename의 파일을 C:\windows\MMA\filename에 복사하여 설치 파일이 서버에 **로컬로 저장됩니다.**
 
-:::image type="content" source="images/deploymma.png" alt-text="mma cmd 배포":::
+:::image type="content" source="images/deploymma.png" alt-text="mma cmd를 배포합니다.":::
 
 두 KB(Windows Server 2008R2/Windows 7 및 Windows Server 2012 R2용 KB)의 경우 프로세스를 반복하지만 COMMON 탭에 항목 수준 대상 지정을 만들면 파일이 범위의 해당 플랫폼/운영 체제 버전으로만 복사됩니다.
 
-:::image type="content" source="images/targeteditor.png" alt-text="대상 편집기":::
+:::image type="content" source="images/targeteditor.png" alt-text="대상 편집기.":::
 
 - Windows Server 2008 R2의 경우 Windows6.1-BJ3080149-x64.msu가 필요하며 복사만 됩니다.
 - R2의 Windows Server 2012 Windows8.1-BJ3080149-x64.msu가 필요하며(복사만 해당)
 
 이 작업을 수행한 후 시작 스크립트 정책을 만들어야 합니다.
 
-:::image type="content" source="images/startupprops.png" alt-text="속성 시작":::
+:::image type="content" source="images/startupprops.png" alt-text="속성을 시작합니다.":::
 
 여기서 실행할 파일의 이름은 c:\windows\MMA\DeployMMA.cmd입니다.
 시작 프로세스의 일부로 서버를 다시 시작하면 고객 환경 및 진단 원격 분석 KB에 대한 업데이트가 설치된 다음 MMA 에이전트를 설치하고 작업 영역 ID 및 키를 설정하면 서버가 온보드됩니다.
@@ -356,13 +356,13 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
 
 Script에는 종료 메서드가 있으며 MMA가 설치된 경우 다시 실행되지 않습니다. 또한 매일 예약된 작업을 사용하여 동일한 결과를 얻을 수도 있습니다. Configuration Manager 준수 정책과 마찬가지로 MMA가 있는지 매일 검사합니다.
 
-:::image type="content" source="images/schtask.png" alt-text="일정 작업":::
+:::image type="content" source="images/schtask.png" alt-text="작업 예약.":::
 
 :::image type="content" source="images/newtaskprops.png" alt-text="새 작업 속성":::
 
-:::image type="content" source="images/deploymmadowmload.png" alt-text="mma 다운로드 제안 배포":::
+:::image type="content" source="images/deploymmadowmload.png" alt-text="mma 다운로드 props를 배포합니다.":::
 
-:::image type="content" source="images/tasksch.png" alt-text="작업 스케줄러":::
+:::image type="content" source="images/tasksch.png" alt-text="작업 스케줄러.":::
 
 Server 2008 R2 관련 서버의 온보더링 설명서에 설명된 것 처럼 아래를 참조하세요.
 

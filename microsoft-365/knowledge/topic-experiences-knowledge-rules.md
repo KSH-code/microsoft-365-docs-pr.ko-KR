@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 표시를 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 6ac247ba758929f367c99b963a19b0619ab588c077687c8027c2807d98732211
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b1ea14ccd1872825cd9ce7edb35ddc8c0a7f176e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561065"
 ---
 # <a name="manage-topic-visibility-in-microsoft-viva-topics"></a>항목의 항목 표시 Microsoft Viva 관리
 
@@ -30,7 +30,7 @@ ms.locfileid: "53864121"
 
 3. 항목 **표시 여부 탭을** 선택합니다. 각 설정에 대한 자세한 내용은 다음 섹션을 참조하세요.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-visibility.png) 
+    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-visibility.png) 
 
 ##  <a name="change-who-can-see-topics-in-your-organization"></a>조직에서 항목을 볼 수 있는 사용자 변경
 
@@ -38,7 +38,7 @@ ms.locfileid: "53864121"
 
 1. 항목 **표시 여부 탭의** Who **수 있습니다.** 에서 편집을 **선택합니다.**
 2. 항목 **Who** 수 있습니다. 페이지에서 강조 표시된 항목, 항목 카드, 검색의 항목 답변 및 항목 페이지와 같은 항목 세부 정보에 액세스할 수 있는 사용자 선택 다음을 선택할 수 있습니다.
-    - **사용자 조직의 모든 사용자**
+    - **조직의 모든 사람**
     - **선택한 사용자 또는 보안 그룹만**
     - **아무도 없어**
 

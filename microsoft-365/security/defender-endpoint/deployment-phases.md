@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e1188f1310ce06c2d3e695294f2212df1f5a9c60
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: b5d7f7384d60a5353ce4c0363e07d3451e146598
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532826"
+ms.locfileid: "58563561"
 ---
 # <a name="deployment-phases"></a>배포 단계
 
@@ -41,9 +41,10 @@ ms.locfileid: "58532826"
 
 각 섹션은 이 솔루션의 별도 문서에 해당합니다.
 
-![표의 세부 정보가 있는 배포 단계의 이미지](images/deployment-guide-phases.png)
+![표의 세부 정보가 있는 배포 단계의 이미지입니다.](images/deployment-guide-phases.png)
 
-![배포 단계 요약: 준비, 설정, 온보드](images/phase-diagrams/deployment-phases.png)
+
+![배포 단계의 요약: 준비, 설정, 온보드.](images/phase-diagrams/deployment-phases.png)
 
 <br>
 

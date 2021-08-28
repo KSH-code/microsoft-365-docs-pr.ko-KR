@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: 사서함에 무제한 보관 저장소를 제공하는 자동 확장 보관에 Exchange Online 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3473145231a70942311b5855036220fa247f0716
-ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
+ms.openlocfilehash: be6fc33879a43d01dfde1312d7144994ff18fd18
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372679"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561185"
 ---
 # <a name="overview-of-unlimited-archiving"></a>무제한 보관 개요
 
@@ -67,11 +67,11 @@ ms.locfileid: "58372679"
 
  **추가 저장소가 추가되기 전에**
 
-![자동 확장 보관이 프로비전되기 전 보관 사서함의 폴더 목록](../media/5d6d6420-e562-4912-aaab-1c111762b3f6.png)
+![자동 확장 보관이 프로비전되기 전 보관 사서함의 폴더 목록입니다.](../media/5d6d6420-e562-4912-aaab-1c111762b3f6.png)
 
  **추가 저장소 추가 후**
 
-![자동 확장 보관함이 프로비전된 후 보관 사서함의 폴더 목록](../media/c03c5f51-23fa-4fc2-b887-7e7e5cce30da.png)
+![자동 확장 보관이 프로비전된 후 보관 사서함의 폴더 목록입니다.](../media/c03c5f51-23fa-4fc2-b887-7e7e5cce30da.png)
 
 > [!NOTE]
 > 앞서 Microsoft 365 항목을 하위폴더로 이동하고 위에 설명된 명명 규칙을 사용하여 이름을 변경하여 보조 보관함으로 콘텐츠를 배포할 수 있습니다. 그러나 항목을 하위폴더로 이동하는 경우도 있을 수 있습니다. 경우에 따라 전체 폴더가 보조 보관함으로 이동될 수 있습니다. 이 경우 폴더는 원래 이름을 그대로 하게 됩니다.  폴더가 보조 보관함으로 Outlook 폴더 목록에는 분명하지 않습니다.

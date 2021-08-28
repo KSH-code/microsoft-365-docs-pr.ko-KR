@@ -15,12 +15,12 @@ manager: dansimp
 ms.date: 05/10/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 24e144b6134c4d32b15220ed3b3608b3b4a1c1df
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: e104a8180ad9099e795a014060921387de642668
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533090"
+ms.locfileid: "58560909"
 ---
 # <a name="customize-controlled-folder-access"></a>제어된 폴더 액세스 사용자 지정
 
@@ -120,7 +120,7 @@ Windows 보안, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 
 
 4. 허용된 **앱 추가를 선택하고** 프롬프트에 따라 앱을 추가합니다.
 
-   :::image type="content" source="images/cfa-allow-app.png" alt-text="허용된 앱 단추 추가":::
+   :::image type="content" source="images/cfa-allow-app.png" alt-text="허용된 앱 단추를 추가합니다.":::
 
 ### <a name="use-group-policy-to-allow-specific-apps"></a>그룹 정책을 사용하여 특정 앱 허용
 
@@ -149,7 +149,7 @@ Windows 보안, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 
 
    계속 사용하여 목록에 앱을 `Add-MpPreference -ControlledFolderAccessAllowedApplications` 더 추가합니다. 이 cmdlet을 사용하여 추가된 앱은 앱의 Windows 보안 표시됩니다.
 
-   :::image type="content" source="images/cfa-allow-app-ps.png" alt-text="앱을 허용하는 PowerShell cmdlet":::
+   :::image type="content" source="images/cfa-allow-app-ps.png" alt-text="앱을 허용하는 PowerShell cmdlet입니다.":::
 
 > [!IMPORTANT]
 > 목록에 `Add-MpPreference` 앱을 추가하거나 추가하는 데 사용할 수 있습니다. `Set-MpPreference`cmdlet을 사용하여 기존 목록을 덮어 습니다.

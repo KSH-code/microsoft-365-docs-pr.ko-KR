@@ -16,12 +16,12 @@ ms.collection:
 description: 금고 문서 또는 Microsoft 365 E5 문서에 대해 Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dd9928034c8043f7852df0eeecdae870c9393c66
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: b1009e3c8e75497b32222b61b95810d7a50b33d2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563333"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -32,7 +32,7 @@ ms.locfileid: "58255049"
 
 금고 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 Security [Microsoft Defender for Endpoint를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 [Application Guard에서](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)열 수 있는 문서 및 파일을 검사하는 Office. [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 금고 문서는 라이선스가 없는  사용자만 사용할 *Microsoft 365 E5* Microsoft 365 E5 Security 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 포함되어 있지 않습니다.
 
@@ -67,8 +67,8 @@ ms.locfileid: "58255049"
 2. 첨부 **금고 페이지에서** 전역 설정을 **클릭합니다.**
 
 3. 전역 **설정** 플라이아웃이 나타나면 다음 설정을 구성합니다.
-   - **금고** 클라이언트에 대한 Office 설정 : 토글을 오른쪽으로 이동하여 기능을 ![ 켜기: ](../../media/scc-toggle-on.png) 토글합니다.
-   - **파일을 악성으로** 식별한 문서가 금고 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용 : 이 옵션을 해제한 후(토글을 왼쪽으로 두기: 토글 해제) 하는 것이 ![ 좋습니다. ](../../media/scc-toggle-off.png)
+   - **금고 클라이언트에** 대한 Office 설정 : 토글을 오른쪽으로 이동하여 기능을 ![ 켜기: 토글합니다. ](../../media/scc-toggle-on.png) .
+   - **사용자가 파일을** 악성으로 식별한 경우에도 금고 보기를 클릭할 수 있도록 허용 : 이 옵션을 해제한 후(토글을 왼쪽으로 그대로 두기: ![ 토글 해제). ](../../media/scc-toggle-off.png)
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
 

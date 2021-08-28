@@ -17,12 +17,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 사용자 그룹, Microsoft 365, Teams, SharePoint 및 관리 Yammer 대해 Yammer.
-ms.openlocfilehash: 5c18dec0f2394273482366dcf230489b13b1b2e90e4d8459a006bc31fabbc6a0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fefda518d9864984d7fb8ee6f82e57ad14ff7b6e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883719"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563321"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란 무엇인가요?
 
@@ -34,7 +34,7 @@ ms.locfileid: "53883719"
 
 Microsoft 365 그룹, Teams 및 Yammer 같은 서비스는 사용자가 공동 작업하는 데 필요한 도구를 제공하여 섀도 IT의 위험을 줄입니다. Microsoft 365 조직에 필요할 수 있는 거버넌스 기능을 구현하기 위한 다양한 도구 집합이 있습니다. 
 
-![2013의 공동 작업 거버넌스 옵션을 Microsoft 365](../media/collaboration-governance-overview.png)
+![2013의 공동 작업 거버넌스 옵션을 Microsoft 365.](../media/collaboration-governance-overview.png)
 
 이 문서 시리즈는 그룹, 팀 및 SharePoint 설정이 상호 작용하는 방식, 사용 가능한 거버넌스 기능 및 그룹에서 공동 작업 기능에 대한 거버넌스 계획을 만들고 구현하는 방법을 이해하는 데 Microsoft 365.
 
@@ -52,7 +52,7 @@ Microsoft 365 그룹을 사용하면 공동 작업할 사용자 집합을 선택
 
 Microsoft 365 그룹에는 사용자가 통신 및 공동 작업을 위해 사용할 수 있는 연결된 리소스 모음이 포함됩니다. 그룹에는 항상 SharePoint 사이트, Planner, Power BI 작업 영역, 사서함 및 일정, Stream이 포함됩니다. 그룹을 만드는 방법에 따라 선택적으로 Teams, Yammer 및 Project.
 
-![Microsoft 365 및 관련 서비스를 보여 주는 다이어그램](../media/microsoft-365-groups-hub-spoke.png)
+![그룹 및 Microsoft 365 서비스를 보여주는 다이어그램입니다.](../media/microsoft-365-groups-hub-spoke.png)
 
 |리소스|설명|
 |:------|:----------|
@@ -79,7 +79,7 @@ Microsoft 365 그룹에는 만료 정책, 이름 규칙 및 차단된 단어 정
 - Microsoft Teams: 특정 하위 그룹으로 구성되는 다양한 주제에 대한 비공식적인 실시간 대화를 할 수 있는 영구 채팅 기반 작업 영역
 - Yammer: 공동 작업을 위한 엔터프라이즈 소셜 환경
 
-![사용자, 사용자 Teams, Yammer 및 Outlook](../media/inner-loop-outer-loop.png)
+![사용자, Teams, Yammer 및 Outlook.](../media/inner-loop-outer-loop.png)
 
 - Teams: 채팅 기반 작업 영역(고속 공동 작업) – 내부 루프
   - 사용자가 매일 작업하는 사용자와의 공동 작업을 위해 제작
@@ -164,7 +164,7 @@ Microsoft 365 공동 작업을 위한 거버넌스 기능에는 Microsoft 365, T
 5. 통신 관리 계획 - 공동 작업 시나리오에 사용할 수 있는 통신 거버넌스 [옵션을 검토합니다.](groups-teams-communication-governance.md)
 6. 조직 및 수명 주기 거버넌스 계획 - 그룹 및 팀 만들기, 이름, 만료 및 보관에 사용할 정책을 [선택하십시오.](plan-organization-lifecycle-governance.md) 또한 그룹, 팀 및 팀에 대한 수명 [주기의](end-life-cycle-groups-teams-sites-yammer.md) 끝 옵션을 Yammer
 
-![권장되는 거버넌스 단계 그림](../media/collaboration-governance-steps.png)
+![권장되는 거버넌스 단계 그림.](../media/collaboration-governance-steps.png)
 
 ## <a name="training-for-administrators"></a>관리자 교육
 
@@ -174,7 +174,7 @@ Microsoft Learn의 이러한 교육 모듈은 Microsoft의 관리 기능을 학�
 
 |교육:|정보 보호 및 거버넌스 관리|
 |:---|:---|
-|![정보 보호 교육 아이콘](../media/information-protection-governance.svg)|오늘날 생성되는 데이터의 양은 그 어느 때보다 빠르게 증가하고 있으며, 직원들은 어디에서나 작업을 수행하기를 원하며, 규제 환경은 끊임없이 변화하고 있습니다. 정보 보호 및 거버넌스를 위한 Microsoft의 솔루션을 통해 조직은 데이터 보호 유지와 직원의 생산성 사이에서 적절한 균형을 이룰 수 있습니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 학위 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증서를 준비할 수 있습니다.<br><br>5분 13분 - Learning 경로 - 7개 모듈|
+|![정보 보호 교육 아이콘.](../media/information-protection-governance.svg)|오늘날 생성되는 데이터의 양은 그 어느 때보다 빠르게 증가하고 있으며, 직원들은 어디에서나 작업을 수행하기를 원하며, 규제 환경은 끊임없이 변화하고 있습니다. 정보 보호 및 거버넌스를 위한 Microsoft의 솔루션을 통해 조직은 데이터 보호 유지와 직원의 생산성 사이에서 적절한 균형을 이룰 수 있습니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 학위 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증서를 준비할 수 있습니다.<br><br>5분 13분 - Learning 경로 - 7개 모듈|
 
 > [!div class="nextstepaction"]
 > [시작 >](/learn/modules/m365-compliance-information-governance/introduction/)
@@ -183,7 +183,7 @@ Microsoft Learn의 이러한 교육 모듈은 Microsoft의 관리 기능을 학�
 
 |교육:|Microsoft 365를 사용하여 엔터프라이즈 정보 보호|
 |:---|:---|
-|![Teams 교육 아이콘](../media/protect-enterprise-information-microsoft-365.svg)|조직의 정보를 보호하고 보안을 유지하는 것이 어느 때보다 어려워졌습니다. Microsoft 365로 엔터프라이즈 정보 보호 학습 경로는 우발적인 과도한 공유 또는 오용으로부터 중요한 정보를 보호하는 방법, 데이터를 검색하고 분류하는 방법, 민감도 레이블을 사용하여 중요한 정보를 보호하는 방법 및 중요한 정보가 손실되지 않도록 보호하기 위해 모니터링하고 분석하는 방법에 대해 설명합니다. 이 학습 경로를 통해 인증된 Microsoft 365: 보안 관리자 연결 및 인증: Microsoft 365 인증: 관리 전문가 인증을 Enterprise 수 있습니다.<br><br>1 hr - Learning 경로 - 5개 모듈|
+|![Teams 아이콘입니다.](../media/protect-enterprise-information-microsoft-365.svg)|조직의 정보를 보호하고 보안을 유지하는 것이 어느 때보다 어려워졌습니다. Microsoft 365로 엔터프라이즈 정보 보호 학습 경로는 우발적인 과도한 공유 또는 오용으로부터 중요한 정보를 보호하는 방법, 데이터를 검색하고 분류하는 방법, 민감도 레이블을 사용하여 중요한 정보를 보호하는 방법 및 중요한 정보가 손실되지 않도록 보호하기 위해 모니터링하고 분석하는 방법에 대해 설명합니다. 이 학습 경로를 통해 인증된 Microsoft 365: 보안 관리자 연결 및 인증: Microsoft 365 인증: 관리 전문가 인증을 Enterprise 수 있습니다.<br><br>1 hr - Learning 경로 - 5개 모듈|
 
 > [!div class="nextstepaction"]
 > [시작 >](/learn/modules/m365-security-info-overview/introduction/)
@@ -192,7 +192,7 @@ Microsoft Learn의 이러한 교육 모듈은 Microsoft의 관리 기능을 학�
 
 |교육:|Microsoft 365 보안 및 규정 준수 기능에 대한 기본 지식 입증|
 |:---|:---|
-|![보안 및 규정 준수 교육 아이콘](../media/microsoft-365-security-and-compliance-capabilities.svg)|Microsoft 365 보안 및 규정 준수 솔루션 영역과 기업의 엔터프라이즈 보안 및 규정 요구사항을 충족하는 데 사용할 수 있는 기능에 대해 알아법니다. 기본 클라우드 컴퓨팅 개념에 익숙하지 않은 경우 클라우드 컴퓨팅의 원칙인 클라우드 개념을 [활용하는 것이 좋습니다.](/learn/modules/principles-cloud-computing/index)<br><br>3분 11분 - Learning 경로 - 8개 모듈|
+|![보안 및 규정 준수 교육 아이콘.](../media/microsoft-365-security-and-compliance-capabilities.svg)|Microsoft 365 보안 및 규정 준수 솔루션 영역과 기업의 엔터프라이즈 보안 및 규정 요구사항을 충족하는 데 사용할 수 있는 기능에 대해 알아법니다. 기본 클라우드 컴퓨팅 개념에 익숙하지 않은 경우 클라우드 컴퓨팅의 원칙인 클라우드 개념을 [활용하는 것이 좋습니다.](/learn/modules/principles-cloud-computing/index)<br><br>3분 11분 - Learning 경로 - 8개 모듈|
 
 > [!div class="nextstepaction"]
 > [시작 >](/learn/modules/what-is-m365/1-introduction/)
@@ -206,14 +206,14 @@ IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점
 
 |**항목**|**설명**|
 |:-----|:-----|
-|[![그룹 인포그래픽용 축소판 이미지](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> 2019년 6월에 업데이트됨|이러한 일러스트레이션은 다양한 그룹의 종류, 그룹을 만들고 관리하는 방법, 몇 가지 관리 권장 사항에 대해 자세한 설명을 제공합니다.|
+|[![그룹 정보 그래픽의 축소판 이미지입니다.](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> 2019년 6월에 업데이트됨|이러한 일러스트레이션은 다양한 그룹의 종류, 그룹을 만들고 관리하는 방법, 몇 가지 관리 권장 사항에 대해 자세한 설명을 제공합니다.|
 
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>IT 설계자용 Microsoft 365의 Microsoft Teams 및 관련 생산성 서비스
 Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처입니다.
 
 |**항목**|**설명**|
 |:-----|:-----|
-|[![Teams 논리 아키텍처 포스터의 축소판 그림 이미지](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>2019년 4월에 업데이트됨   |Microsoft는 생산성 서비스 제품군을 제공하여 데이터 관리, 보안 및 규정 준수 기능이 포함된 공동 작업 환경을 제공합니다. <br/> <br/>이 일러스트레이션 시리즈는 엔터프라이즈 설계자를 위해 Microsoft Teams로 시장을 선도하는 생산성 서비스의 논리 아키텍처를 보여줍니다.|
+|[![논리 아키텍처 Teams 포스터의 축소판 이미지입니다.](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>2019년 4월에 업데이트됨   |Microsoft는 생산성 서비스 제품군을 제공하여 데이터 관리, 보안 및 규정 준수 기능이 포함된 공동 작업 환경을 제공합니다. <br/> <br/>이 일러스트레이션 시리즈는 엔터프라이즈 설계자를 위해 Microsoft Teams로 시장을 선도하는 생산성 서비스의 논리 아키텍처를 보여줍니다.|
 
 ### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Microsoft 365 보호 및 규정 준수 기능
 
@@ -224,7 +224,7 @@ Microsoft 365 광범위한 정보 보호 및 규정 준수 기능이 포함되�
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 일본어: [PDF로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> 2020년 11월에 업데이트됨|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
+|[![모델 포스터: Microsoft 365 및 규정 준수 기능을 제공합니다.](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 일본어: [PDF로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> 2020년 11월에 업데이트됨|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
 
 ## <a name="conference-sessions"></a>회의 세션
 

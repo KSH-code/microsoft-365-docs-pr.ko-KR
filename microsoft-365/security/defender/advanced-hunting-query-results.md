@@ -1,7 +1,7 @@
 ---
-title: Defender에서 고급 헌팅 쿼리 결과 Microsoft 365 작업
-description: Defender에서 고급 헌팅에서 반환된 쿼리 결과를 Microsoft 365 만들기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto, 시각화, 차트, 필터, 드릴다운
+title: 고급 헌팅 쿼리 결과를 사용하여 작업할 Microsoft 365 Defender
+description: 고급 헌팅을 통해 반환된 쿼리 결과를 대부분 Microsoft 365 Defender
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 검색, schema, kusto, 시각화, 차트, 필터, 드릴다운
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eccf93b019baa240a46260a28f3f0bc109345dd4
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: 713a2c8b824b5c8fbffb1dcb35465d8f19f727d0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952599"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563525"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>고급 헌팅 쿼리 결과 사용
 
@@ -71,8 +71,8 @@ AlertInfo
 ```
 결과를 렌더링할 때 열 차트에는 각 심각도 값이 별도의 열로 표시됩니다.
 
-![열 차트로 표시되는 고급 헌팅 쿼리 결과의 이미지 열 차트로 표시되는 심각도에 따라 경고에 대한 쿼리 ](../../media/advanced-hunting-column-chart.jpg)
- *결과*
+![열 차트로 표시되는 고급 헌팅 쿼리 결과의 이미지입니다. ](../../media/advanced-hunting-column-chart.jpg)
+ *열 차트로 표시되는* 심각도에 따라 경고에 대한 쿼리 결과
 
 #### <a name="alert-severity-by-operating-system"></a>운영 체제의 경고 심각도
 연산자를 사용하여 여러 필드의 차트 값에 대한 `summarize` 결과를 준비할 수도 있습니다. 예를 들어 운영 체제(OS)에 경고 심각도가 분산되어 있는 방법을 이해해야 할 수 있습니다. 
@@ -87,7 +87,7 @@ AlertInfo
 ```
 이러한 결과는 누적 세로형 차트를 사용하여 가장 잘 시각화됩니다.
 
-![누적 차트로 표시되는 고급 헌팅 쿼리 결과의 이미지 ](../../media/advanced-hunting-stacked-chart.jpg)
+![누적 차트로 표시되는 고급 헌팅 쿼리 결과의 이미지입니다. ](../../media/advanced-hunting-stacked-chart.jpg)
  *누적 차트로 표시되는 OS의* 경고 및 심각도에 대한 쿼리 결과
 
 #### <a name="phishing-emails-across-top-ten-sender-domains"></a>상위 10개 보낸 사람 도메인의 피싱 전자 메일
@@ -101,8 +101,8 @@ EmailEvents
 ```
 파이 차트 보기를 사용하여 최상위 도메인에 대한 배포를 효과적으로 보여 주면 됩니다.
 
-![상위 보낸 사람 도메인의 피싱 전자 메일 배포를 보여 주며, 파이 차트로 표시되는 고급 헌팅 쿼리 ](../../media/advanced-hunting-pie-chart.jpg)
- *결과의 이미지*
+![고급 헌팅 쿼리 결과가 파이 차트로 표시되는 이미지입니다. ](../../media/advanced-hunting-pie-chart.jpg)
+ 상위 보낸 사람 도메인에 걸쳐 피싱 전자 메일 *배포를 보여주는 파이 차트*
 
 #### <a name="file-activities-over-time"></a>시간의에 대한 파일 활동
 함수와 함께 연산자를 사용하면 시간이 지날 때 특정 표시기가 `summarize` 관련된 이벤트를 확인할 수 `bin()` 있습니다. 아래 쿼리는 해당 파일과 관련된 활동의 스파이크를 표시하기 위해 30분 간격으로 파일이 관련된 이벤트를 `invoice.doc` 계산합니다.
@@ -115,8 +115,8 @@ AppFileEvents
 ```
 아래 라인 차트는 관련 활동이 더 많은 기간을 명확하게 `invoice.doc` 강조합니다. 
 
-![라인 차트로 표시되는 고급 헌팅 쿼리 결과의 이미지 시간의 지난 파일 관련 이벤트 수를 보여주는 라인 ](../../media/advanced-hunting-line-chart.jpg)
- *차트입니다.*
+![고급 헌팅 쿼리 결과가 라인 차트로 표시되는 이미지입니다. ](../../media/advanced-hunting-line-chart.jpg)
+ 시간의 지난 파일 관련 이벤트 *수를 보여 주는* 라인 차트
 
 
 ## <a name="export-tables-and-charts"></a>표 및 차트 내보내기
@@ -132,7 +132,7 @@ AppFileEvents
 - **프로세스 트리** - 프로세스 정보가 있는 레코드에 대해 생성되어 사용 가능한 상황 정보를 사용하여 강화됩니다. 일반적으로 더 많은 열을 반환하는 쿼리의 경우 프로세스 트리가 더 다양할 수 있습니다.
 - **모든 세부 정보** - 레코드의 열에 있는 모든 값  
 
-![레코드를 검사하기 위한 패널이 있는 선택한 레코드의 이미지](../../media/mtp-ah/inspect-record.png)
+![레코드를 검사하기 위한 패널이 있는 선택한 레코드의 이미지입니다.](../../media/mtp-ah/inspect-record.png)
 
 컴퓨터, 파일, 사용자, IP 주소 또는 URL과 같은 쿼리 결과의 특정 엔터티에 대한 자세한 내용을 확인하려면 엔터티 식별자를 선택하여 해당 엔터티에 대한 자세한 프로필 페이지를 열 수 있습니다.
 
@@ -143,19 +143,19 @@ AppFileEvents
 - 쿼리에서 선택한 값을 제외합니다 (`!=`)
 - 쿼리에 값을 추가하는 고급 연산자를 사용합니다 (예: `contains`, `starts with` 및 `ends with`) 
 
-![고급 헌팅 결과 집합의 이미지](../../media/advanced-hunting-results-filter.png)
+![고급 헌팅 결과 집합의 이미지입니다.](../../media/advanced-hunting-results-filter.png)
 
 ## <a name="filter-the-query-results"></a>쿼리 결과 필터링
 오른쪽에 표시되는 필터는 결과 집합에 대한 요약을 제공합니다. 각 열에는 해당 열에 대해 발견된 고유 값과 인스턴스 수를 나열하는 자체적인 섹션이 있습니다.
 
 포함하거나 제외하려는 값에서 또는 단추를 선택한 다음 쿼리 실행 을 선택하여 쿼리를 `+` `-` **구체화합니다.**
 
-![고급 헌팅 필터 이미지](../../media/advanced-hunting-filter.png)
+![고급 헌팅 필터의 이미지입니다.](../../media/advanced-hunting-filter.png)
 
 필터를 적용하여 쿼리를 수정한 다음 쿼리를 실행하면 그에 따라 결과가 업데이트됩니다.
 
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [더 많은 Microsoft 365 Defender](m365d-enable.md) 사용하여 위협을 헌팅할 수 있습니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 Defender [Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 쿼리 마이그레이션의 단계를 수행하여 고급 헌팅 워크플로를 끝점으로 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

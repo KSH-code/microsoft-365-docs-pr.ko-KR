@@ -20,12 +20,12 @@ search.appverid:
 description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dc34894998fda5ec28db6752f50c9122d3a2b416c5e5d7bd443e756681ce50b7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 193afd61509b7361ac18dd32d827182752fb61ed
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56815373"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563345"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
@@ -130,7 +130,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
 
 1. <https://admin.microsoft.com>에서 Microsoft 365 관리 센터를 열고 **사용자** \> **활성 사용자** 로 이동합니다.
 
-2. 사용자 계정을 찾아 선택하고 ![아이콘 더 보기](../../media/ITPro-EAC-MoreOptionsIcon.png)를 클릭한 다음 **로그인 상태 편집** 을 선택 합니다.
+2. 사용자 계정을 찾아 선택하고 ![아이콘 더 보기](../../media/ITPro-EAC-MoreOptionsIcon.png)를 클릭한 다음 **로그인 상태 편집** 을 선택합니다.
 
 3. 표시 되는 **로그인 차단** 창에서 **해당 사용자 로그인 차단** 을 선택한 다음 **변경 내용 저장** 을 클릭합니다.
 
@@ -171,7 +171,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
    1. **역할** \>**관리자 역할** 을 선택합니다.
    2. **관리자 역할** 페이지에서 각 역할 그룹을 수동으로 선택하고, 세부 정보 창에서 **할당된 항목** 탭을 선택하여 사용자 계정을 확인합니다. 역할 그룹에 사용자 계정이 포함되어 있는 경우 다음 단계를 수행합니다.
       1. 사용자 계정을 선택합니다.
-      2. 등록하려면 이 페이지 맨 위에 있는 ![삭제 아이콘](../../media/m365-cc-sc-delete-icon.png).
+      2. 등록하려면 이 페이지 맨 위에 있는 ![삭제 아이콘.](../../media/m365-cc-sc-delete-icon.png).
 
          작업을 마쳤으면 **저장** 을 클릭합니다.
 

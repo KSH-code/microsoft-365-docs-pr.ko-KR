@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일을 통해 법적 보류 Advanced eDiscovery 보내고 추가하고 의무 상태를 모니터링하는 데 사용할 수 있는 방법을 배워야 합니다.
-ms.openlocfilehash: 1826d6376dffc6717909accc7d4c3844cdf6b8a1206cdfad1dc655d7dee5b508
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 43c2474bdc485a87c30d1fa2a31c3d008d2a383e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53837197"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563287"
 ---
 # <a name="acknowledge-a-hold-notification"></a>보류 알림 승인
 
@@ -54,4 +54,4 @@ ms.locfileid: "53837197"
 
 전자 메일 알림 외에도 각 관리자는 고유한 준수 포털에 액세스할 수 있습니다. 포털을 통해 각 보유자들은 활성 보류 알림을 보고, 액세스하고, 인정할 수 있습니다.
 
-![규제자용 규정 준수 포털](../media/CustodianPortal.jpg)
+![관리인에 대한 준수 포털입니다.](../media/CustodianPortal.jpg)

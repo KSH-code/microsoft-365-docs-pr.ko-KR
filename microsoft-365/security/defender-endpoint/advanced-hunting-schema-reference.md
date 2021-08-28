@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: b13e3974e71ca5cb24598720b2fe273df7fe82b34e13e24bd2ed53e926c519ba
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7795f4d7f02a9b60e0bbd58fb97608733385dc9c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53829909"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563585"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 고급 헌팅 스마 이해
 
@@ -50,7 +50,7 @@ ms.locfileid: "53829909"
 
 스마마 참조에 빠르게 액세스하려면  해당 Schema 표현에서 테이블 이름 옆에 있는 참조 보기 작업을 선택합니다. 또한 **Schema 참조를 선택하여** 테이블을 검색할 수도 있습니다.
 
-![포털 내 Schema 참조에 액세스하는 방법을 보여주는 이미지](images/ah-reference.png)
+![포털 내 Schema 참조에 액세스하는 방법을 보여주는 이미지입니다.](images/ah-reference.png)
 
 ## <a name="learn-the-schema-tables"></a>Schema 테이블에 대해 자세히 알아보기
 

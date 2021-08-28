@@ -13,12 +13,12 @@ ms.collection:
 description: 보고서 메시지 기능을 사용하여 가짓 긍정 및 Outlook 보고하는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a0e69b16167ff796b68a2eea492a4dea180a4fb7
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 34afd8d8e15bc301f42850763d39e1846a66e6d4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400370"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563489"
 ---
 # <a name="report-false-positives-and-false-negatives-in-outlook"></a>Outlook에서 가양성 및 가음성 보고
 
@@ -59,9 +59,9 @@ ms.locfileid: "58400370"
 
 1. 선택한 **메시지의** 오른쪽 위에 있는 추가 작업 줄임표를  선택하고 드롭다운 메뉴에서 메시지 보고를 선택한 다음 정크 또는 피싱 을 **선택합니다.** 
 
-   ![보고서 메시지 - 추가 작업](../../media/report-message-more-actions.png)
+   ![보고서 메시지 - 추가 작업.](../../media/report-message-more-actions.png)
 
-   ![보고서 메시지 - 정크 및 피싱](../../media/report-message-junk-phishing.png)
+   ![보고서 메시지 - 정크 및 피싱.](../../media/report-message-junk-phishing.png)
 
 2. 선택한 메시지는 분석을 위해 Microsoft로 전송됩니다.
    - 스팸으로 보고된 경우 정크 메일 폴더로 이동되었습니다.
@@ -71,9 +71,9 @@ ms.locfileid: "58400370"
 
 1. 선택한 **메시지의** 오른쪽 위 모서리에 있는 추가 작업 줄임표를 선택하고 드롭다운 메뉴에서 메시지 보고를 선택한 다음 정크 메일 아님 **을 선택합니다.** 
 
-   ![보고서 메시지 - 추가 작업](../../media/report-message-more-actions.png)
+   ![보고서 메시지 - 추가 작업.](../../media/report-message-more-actions.png)
 
-   ![보고서 메시지 - 정크 메일 아님](../../media/report-message-not-junk.png)
+   ![보고서 메시지 - 정크 메일 아님.](../../media/report-message-not-junk.png)
 
 2. 선택한 메시지가 분석을 위해 Microsoft로 전송되어 받은 편지함 또는 기타 지정된 폴더로 이동됩니다.
 

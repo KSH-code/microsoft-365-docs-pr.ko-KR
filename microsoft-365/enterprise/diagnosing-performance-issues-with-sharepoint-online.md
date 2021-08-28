@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 3c364f9e-b9f6-4da4-a792-c8e8c8cd2e86
 description: 이 문서에서는 개발자 도구를 사용하여 SharePoint 일반적인 문제를 진단하는 Internet Explorer 방법을 보여줍니다.
-ms.openlocfilehash: ff552963923fd6b3fe8d482a5892e8e4ad2779a41c08c0c554a65b98be5a408f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 44e60a2144b1a9a8ecc9ef5572e5cfd988c4b8af
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891492"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561101"
 ---
 # <a name="diagnosing-performance-issues-with-sharepoint-online"></a>SharePoint Online의 성능 문제 진단
 
@@ -51,7 +51,7 @@ ms.locfileid: "53891492"
 
 개발자 도구를 표시하려면 **F12를 누를** 때 다음 아이콘을 Wi-Fi 클릭합니다.
   
-![F12 개발자 도구 Wi-Fi 아이콘 스크린샷](../media/27acacbb-5688-459a-aa2f-5c8c5f17b76e.png)
+![F12 개발자 도구 Wi-Fi 아이콘 스크린샷.](../media/27acacbb-5688-459a-aa2f-5c8c5f17b76e.png)
   
 네트워크 **탭에서** 녹색 재생 단추를 눌러 페이지를 로드합니다. 이 도구는 요청한 페이지를 다운로드하기 위해 브라우저에서 요청하는 모든 파일을 반환합니다. 다음 스크린샷에는 이러한 목록이 하나 표시됩니다.
   
@@ -59,7 +59,7 @@ ms.locfileid: "53891492"
   
 이 스크린샷과 같이 오른쪽에서 파일의 다운로드 시간을 볼 수 있습니다.
   
-![SharePoint에서 요청된 페이지를 로드하는 데 걸리는 시간을 보여 주는 다이어그램](../media/d71ad1fa-9018-4fae-82eb-c1838e7db0ff.png)
+![요청된 페이지를 웹 페이지에서 로드하는 데 걸리는 시간을 보여 SharePoint.](../media/d71ad1fa-9018-4fae-82eb-c1838e7db0ff.png)
   
 이렇게 하면 파일을 로드하는 데 걸려진 기간을 시각적으로 확인할 수 있습니다. 녹색 선은 브라우저에서 페이지를 렌더링할 준비가 된 때를 나타내는 선입니다. 이렇게하면 사이트에서 페이지 로드가 느려질 수 있는 여러 파일을 빠르게 볼 수 있습니다.
   
@@ -81,11 +81,11 @@ ms.locfileid: "53891492"
 
 3. 도구에서 반환된 .aspx 파일 중 하나를 클릭한 다음 **세부 정보 를 클릭합니다.**
 
-    ![응답 헤더의 세부 정보 표시](../media/1f8a044a-caf8-4613-be2b-7e064141ac8a.png)
+    ![응답 헤더의 세부 정보를 보여줍니다.](../media/1f8a044a-caf8-4613-be2b-7e064141ac8a.png)
   
 4. 응답 **헤더 를 클릭합니다.**
 
-    ![응답 헤더의 URL을 보여 주는 다이어그램](../media/efc7076e-447e-447e-882a-ae3aa721e2c3.png)
+    ![응답 헤더의 URL을 보여 주는 다이어그램입니다.](../media/efc7076e-447e-447e-882a-ae3aa721e2c3.png)
   
 ## <a name="whats-causing-performance-issues-in-sharepoint-online"></a>온라인에서 성능 문제를 일으키는 원인은 SharePoint?
 <a name="F12ToolInfo"> </a>

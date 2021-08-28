@@ -18,12 +18,12 @@ localization_priority: Normal
 f1.keywords: NOCSH
 recommendations: false
 description: 이 문서에서는 게스트와 공동 작업하는 방법을 SharePoint OneDrive.
-ms.openlocfilehash: 725e500990697a54b1892c428353790f2aaf9091d2789e0d20f648eb7af87266
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: db7e619e674a270745b783e85bca803b85ee54ff
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53810135"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563309"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서 상 공동 작업하기
 
@@ -41,7 +41,7 @@ Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 �
 
 B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단되지 않는지 확인합니다.
 
-![Azure Active Directory 조직 관계 설정 페이지 스크린샷](../media/azure-ad-organizational-relationships-settings.png)
+![조직 Azure Active Directory 페이지의 설정 스크린샷.](../media/azure-ad-organizational-relationships-settings.png)
 
 외부 공동 작업 설정을 지정하려면
 
@@ -66,7 +66,7 @@ B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단
 
 이 SharePoint 조직의 모든 사이트에서 필요한 가장 적합한 설정을 선택하세요.
 
-![SharePoint 조직 수준 공유 설정의 스크린샷](../media/sharepoint-organization-external-sharing-controls.png)
+![조직 수준 SharePoint 설정의 스크린샷.](../media/sharepoint-organization-external-sharing-controls.png)
 
 
 SharePoint 조직 수준 공유 설정을 설정하려면
@@ -88,7 +88,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 - **조직 내 사용자만** - 대부분의 파일 및 폴더 공유가 조직 내부 사용자와 공유될 것으로 예상되는 경우 이 옵션을 선택합니다.
 - **특정 사용자** - 게스트와 많은 파일 및 폴더 공유를 할 것으로 예상되는 경우 이 옵션을 고려하세요. 이러한 유형의 링크는 게스트와 함께 작동하며 인증을 요구합니다.
  
-![SharePoint 조직 수준 파일 및 폴더 공유 설정 스크린샷](../media/sharepoint-organization-files-folders-sharing-settings.png)
+![조직 수준 SharePoint 공유 설정의 스크린샷.](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
 
 조직 수준의 SharePoint 설정 OneDrive 설정하려면
@@ -118,7 +118,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 
 SharePoint 사이트에 있는 파일 및 폴더를 공유하는 경우 해당 사이트의 사이트 수준 공유 설정도 확인해야 합니다.
 
-![SharePoint 사이트 외부 공유 설정 스크린샷](../media/sharepoint-site-external-sharing-settings.png)
+![사이트 SharePoint 공유 설정의 스크린샷.](../media/sharepoint-site-external-sharing-settings.png)
 
 사이트 수준 공유 설정을 설정하려면
 

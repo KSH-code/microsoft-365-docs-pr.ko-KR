@@ -12,12 +12,12 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010의 지원이 종료됩니다. 이 계획 로드맵을 사용하여 Exchange Online 또는 최신 버전의 Exchange Server 준비합니다.
-ms.openlocfilehash: dc7a9355be8232daefb158ca143fac377949480e714de77a644b5f8b1bdc3c6a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 14875c793380c509c578d86d2d835596fa57cc73
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904958"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561077"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Exchange 2010 지원 종료 로드맵
 
@@ -56,7 +56,7 @@ Exchange Server 2010년 **10월 13일** 지원이 종료됩니다. Exchange 2010
 
 다음은 2010의 지원이 종료되는 것을 방지하기 위해 취할 수 있는 세 가지 Exchange Server 있습니다.
 
-![Exchange Server 2010 업그레이드 경로](../media/exchange-2010-end-of-support/exchange-2010-end-of-support-options.png)
+![Exchange Server 2010 업그레이드 경로입니다.](../media/exchange-2010-end-of-support/exchange-2010-end-of-support-options.png)
 
 다음 섹션에서는 각 옵션을 보다 자세히 설명합니다.
 
@@ -221,7 +221,7 @@ Exchange 2016에는 이전 릴리스의 모든 기능이 Exchange. 일부 기능
 
 Office 2010 클라이언트 및 서버와 Windows 7에 대한 업그레이드, 마이그레이션 및 클라우드 옵션으로 이동에 대한 시각적 요약은 [지원 종료 포스터](../downloads/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
 
-[![Office 2010 클라이언트 및 서버 및 Windows 포스터 지원 종료](../media/microsoft-365-overview/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![2010 클라이언트 및 Office 지원 종료 및 Windows 7 포스터.](../media/microsoft-365-overview/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
 이 한 페이지 포스터는 Office 2010 클라이언트 및 서버 제품 및 Windows 7의 지원 종료에 응답하기 위해 취할 수 있는 다양한 경로를 보여 주며 기본 설정 경로 및 옵션 지원은 강조 표시되어 Microsoft 365 Enterprise 있습니다.
 
@@ -229,9 +229,9 @@ Office 2010 클라이언트 및 서버와 Windows 7에 대한 업그레이드, �
 
 ## <a name="what-if-i-need-help"></a>도움이 필요한 경우 어떻게 하나요?
 
-사용자 계정으로 마이그레이션하는 Microsoft 365 Microsoft FastTrack 서비스를 사용할 수 있습니다. FastTrack은 가능한 한 원활하게 마이그레이션할 수 있도록 모범 Microsoft 365, 도구 및 리소스를 제공합니다. 무엇보다 지원 엔지니어가 계획 및 디자인에서 마지막 사서함 마이그레이션에 대해 단계적 정보를 제공합니다. FastTrack에 대한 자세한 내용은 [Microsoft FastTrack을 참조합니다.](https://fasttrack.microsoft.com/)
+사용자 계정으로 마이그레이션하는 Microsoft 365 Microsoft FastTrack 서비스를 사용할 수 있습니다. FastTrack 가능한 한 원활하게 마이그레이션할 수 있도록 모범 사례Microsoft 365 도구 및 리소스를 제공합니다. 무엇보다 지원 엔지니어가 계획 및 디자인에서 마지막 사서함 마이그레이션에 대해 단계적 정보를 제공합니다. 자세한 내용은 FastTrack [Microsoft](https://fasttrack.microsoft.com/)FastTrack.
 
-Microsoft 365 마이그레이션하는 동안 문제가 발생하여 FastTrack을 사용하지 않는 경우 또는 최신 버전의 Exchange Server 마이그레이션하는 경우 사용할 수 있는 몇 가지 리소스는 다음과 같습니다.
+Microsoft 365 마이그레이션하는 동안 문제가 발생하고 FastTrack 또는 최신 버전의 Exchange Server 마이그레이션하는 경우 사용할 수 있는 몇 가지 리소스는 다음과 같습니다.
 
 - [기술 커뮤니티](https://social.technet.microsoft.com/Forums/office/home?category=exchangeserver)
 - [고객 지원](https://support.microsoft.com/gp/support-options-for-business)

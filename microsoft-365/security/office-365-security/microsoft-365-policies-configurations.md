@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 50898cf6062719b81b75de07ffab6b9a8c58cd8759d92c7cccc330a1389feb5c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9a44e4fcaff4ff774e0884fb78ec7399049d6d11
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563501"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -85,7 +85,7 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호, �
 - **중요한 보호:** 일부 고객은 더 높은 수준에서 보호해야 하는 데이터의 하위 집합을 들이거나 모든 데이터를 더 높은 수준에서 보호해야 할 수 있습니다. 사용자 환경의 모든 또는 특정 데이터 집합에 강화된 보호를 적용할 Microsoft 365 있습니다. 중요 데이터에 액세스하는 ID와 장치를 유사한 보안 수준으로 보호하는 것이 좋습니다.
 - **높은 규제:** 일부 조직에는 고도로 분류되거나, 거래 비밀을 구성하거나, 규제 대상 데이터인 소량의 데이터가 있을 수 있습니다. Microsoft는 ID와 장치에 대한 추가된 보호를 포함하여 조직이 이러한 요구 사항을 충족하는 데 도움이 되는 기능을 제공합니다.
 
-![보안 원동기 - 모든 > 일부 고객은 > 있습니다. 특정 응용 프로그램에 대한 광범위한 응용 프로그램](../../media/microsoft-365-policies-configurations/M365-idquality-threetiers.png)
+![보안 원동기 - 모든 > 일부 고객은 > 있습니다. 특정 응용 프로그램에 대한 광범위한 응용 프로그램.](../../media/microsoft-365-policies-configurations/M365-idquality-threetiers.png)
 
 이 지침은 이러한 각 보호 계층에 대해 ID 및 장치에 대한 보호를 구현하는 방법을 보여 주며, 이 지침을 조직의 시작 지점으로 활용하고 조직의 특정 요구 사항에 맞게 정책을 조정합니다.
 
@@ -93,7 +93,7 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호, �
 
 Microsoft 365 **아키텍처** 모델에 대한 ID 및 장치 보호는 비교할 수 있는 기능을 보여줍니다.
 
-[![사용자용 ID 및 장치 보호를 위한 축소판 Microsoft 365 포스터](../../media/microsoft-365-policies-configurations/o365-identity-device-protection-thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [PDF로 보기](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
+[![포스터의 ID 및 장치 보호에 대한 Microsoft 365 이미지입니다.](../../media/microsoft-365-policies-configurations/o365-identity-device-protection-thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [PDF로 보기](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
 
 또한 데이터 개인 [](../../solutions/information-protection-deploy.md) 정보 보호 규정에 대한 정보 보호 배포 솔루션을 참조하여 데이터 보호에 저장된 정보를 Microsoft 365.
 
@@ -131,7 +131,7 @@ Azure AD는 전체 ID 관리 기능 제품군을 제공합니다. 이러한 기�
 
 Intune 및 Azure AD 개체, 설정 및 하위 서비스를 포함하여 ID 및 장치 액세스의 구성 요소는 다음과 같습니다.
 
-![ID 및 장치 액세스의 구성 요소](../../media/microsoft-365-policies-configurations/identity-device-access-components.png)
+![ID 및 장치 액세스의 구성 요소입니다.](../../media/microsoft-365-policies-configurations/identity-device-access-components.png)
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 

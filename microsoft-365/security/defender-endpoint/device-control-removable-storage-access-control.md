@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 73d863584a1712f5619bd045a51e651edb4ff636
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 8220fee635fde5551c76e9b6b8a88301bb8b41ec
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507989"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563549"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -38,7 +38,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 |권한|사용 권한|
 |---|---|
-|액세스|읽기, 쓰기, 실행|
+|Access|읽기, 쓰기, 실행|
 |작업 모드|감사, 허용, 방지|
 |CSP 지원|예|
 |GPO 지원|예|
@@ -54,7 +54,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 - **4.18.2105** 이상 : HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId에 대한 와일드카드 지원 추가, 특정 컴퓨터의 특정 사용자 조합, 제거 가능한 SSD(SanDisk Extreme SSD)/UAS(USB 연결된 SCSI) 지원
 - **4.18.2107** 이상: WPD(Windows 이동식 장치) 지원 추가(태블릿 등의 모바일 장치용) 고급 헌팅에 AccountName [추가](device-control-removable-storage-access-control.md#view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint)
 
-:::image type="content" source="images/powershell.png" alt-text="PowerShell 인터페이스":::
+:::image type="content" source="images/powershell.png" alt-text="PowerShell 인터페이스.":::
 
 > [!NOTE]
 > 이동식 Windows 보안 상태와는 독립적으로 이동식 액세스 제어를 실행할 수 Storage 구성 요소를 활성화할 Windows 보안 없습니다.
@@ -139,7 +139,7 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
     다음 이미지는 시나리오 1: 쓰기 금지 및 모든 승인된 USB에 대한 액세스 실행을 허용하는 [예제를 보여 줍니다.](#scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs)
 
-    :::image type="content" source="images/prevent-write-access-allow-usb.png" alt-text="장치에서 승인된 특정 USB를 허용하는 구성 설정을 표시하는 화면":::
+    :::image type="content" source="images/prevent-write-access-allow-usb.png" alt-text="장치에서 승인된 특정 USB를 허용하는 구성 설정을 표시하는 화면입니다.":::
 
 2. 모든 규칙을 하나의 `<PolicyRules>` `</PolicyRules>` xml 파일로 결합합니다.
 
@@ -147,7 +147,7 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
     다음 이미지는 SID 속성의 사용을 보여 주며 시나리오 [1:](#scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs)모든 승인된 USB는 허용하지만 모든 사용자에 대해 쓰기 및 실행 액세스 금지의 예를 보여 줍니다.
 
-    :::image type="content" source="images/usage-sid-property.png" alt-text="SID 속성 특성의 사용을 나타내는 코드를 표시하는 화면":::
+    :::image type="content" source="images/usage-sid-property.png" alt-text="SID 속성 특성의 사용을 나타내는 코드를 표시하는 화면입니다.":::
 
 3. 네트워크 공유 폴더에 규칙 및 그룹 XML 파일을 저장하고 네트워크 공유 폴더 경로를 그룹 정책 설정: **컴퓨터** 구성 관리 템플릿 Windows 구성 요소 Microsoft Defender 바이러스 백신 \>  \>  \>  \> **장치** 제어: **'장치** 제어 정책 그룹 정의' 및 '장치 제어 정책 규칙 정의' 에 저장합니다.
 
@@ -155,7 +155,7 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
    - 대상 컴퓨터는 정책을 사용하려면 네트워크 공유에 액세스할 수 있어야 합니다. 그러나 정책을 읽은 후 컴퓨터 재부팅 후에도 네트워크 공유 연결이 더 이상 필요하지 않습니다.
 
-    :::image type="content" source="images/device-control.png" alt-text="장치 제어 화면":::
+    :::image type="content" source="images/device-control.png" alt-text="장치 제어 화면입니다.":::
 
 ## <a name="deploying-and-managing-policy-via-intune-oma-uri"></a>Intune OMA-URI를 통해 정책 배포 및 관리
 
@@ -188,7 +188,7 @@ Microsoft Endpoint Manager 관리 센터( ) 장치 구성 프로필 프로필 �
 
     - 데이터 형식: 문자열(XML 파일)
 
-      :::image type="content" source="images/xml-data-type-string.png" alt-text="STRING 데이터 형식의 xml 파일":::
+      :::image type="content" source="images/xml-data-type-string.png" alt-text="STRING 데이터 형식의 xml 파일입니다.":::
 
 2. 각 정책에 대해 OMA-URI도 생성합니다.
     - OMA-URI: 
@@ -232,9 +232,9 @@ DeviceEvents
 | order by Timestamp desc
 ```
 
-:::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면":::
+:::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면입니다.":::
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="what-is-the-removable-storage-media-limitation-for-the-maximum-number-of-usbs"></a>최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?
 

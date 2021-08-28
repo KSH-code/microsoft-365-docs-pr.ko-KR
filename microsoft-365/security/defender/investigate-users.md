@@ -19,12 +19,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: cc09593c7a8ceef04d0a61cc9bd7d5624943b28f
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: d8e83cfd877266bac6247246c078dbdc811368e5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58563513"
 ---
 # <a name="investigate-users-in-microsoft-365-defender"></a>사용자 조사에서 Microsoft 365 Defender
 
@@ -36,7 +36,7 @@ ms.locfileid: "58247119"
 
 인시던트 조사의 일부에는 사용자 계정이 포함됩니다. 사용자 탭에서 인시던트  및 인시던트 & 인시던트에 대한 사용자 >*>* **합니다.**  
 
-:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예":::
+:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예입니다.":::
 
 인시던트에 대한 사용자 계정을 빠르게 요약하려면 사용자 계정 이름 옆의 확인 표시를 선택합니다. 다음은 예입니다.
 
