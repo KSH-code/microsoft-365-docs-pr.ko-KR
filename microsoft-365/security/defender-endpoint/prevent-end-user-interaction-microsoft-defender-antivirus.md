@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 66f9f571411c61bd8944ceb01a13f237ecd1d483
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 73a802f158b8804d7cf94708ecf3a6ac9355baae
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575783"
 ---
 # <a name="prevent-users-from-seeing-or-interacting-with-the-microsoft-defender-antivirus-user-interface"></a>사용자가 사용자 인터페이스를 보거나 상호 작용하지 Microsoft Defender 바이러스 백신 방지
 
@@ -40,11 +40,11 @@ Windows 10 버전 1703에서는 인터페이스를 숨기면 Microsoft Defender 
 
 설정이 **사용으로** 설정된 경우 :
 
-:::image type="content" source="../../media/wdav-headless-mode-off-1703.png" alt-text="방패 Windows 보안 및 바이러스 및 위협 방지 섹션이 없는 경우의 스크린샷":::
+:::image type="content" source="../../media/wdav-headless-mode-off-1703.png" alt-text="방패 Windows 보안 및 바이러스 및 위협 방지 섹션이 없는 경우의 스크린샷.":::
 
 설정이 사용 안 하도록 **설정되거나** 구성되지 않은 경우:
 
-:::image type="content" source="../../media/wdav-headless-mode-1703.png" alt-text="방패 Windows 보안 및 위협 방지 섹션이 있는 스크린샷":::
+:::image type="content" source="../../media/wdav-headless-mode-1703.png" alt-text="방패 Windows 보안 및 위협 방지 섹션이 있는 스크린샷.":::
 
 >[!NOTE]
 >또한 인터페이스를 숨기면 Microsoft Defender 바이러스 백신 끝점에 알림이 나타나지 않습니다. 끝점용 Microsoft Defender 알림이 계속 표시됩니다. 끝점에 나타나는 알림을 개별적으로 [구성할 수도 있습니다.](configure-notifications-microsoft-defender-antivirus.md)

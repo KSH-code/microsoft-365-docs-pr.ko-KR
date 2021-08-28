@@ -13,12 +13,12 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 description: Multi-geo 환경에서 Microsoft 365 기본 설정 데이터 위치를 사용하여 그룹 그룹을 만드는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a3f878e17a6d3956458be8705b43cb8e4b8fc4b843499c4ebab5998fb57eede
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0a035856344cf49e3a7221a00b98c175b95f9a72
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53812976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575843"
 ---
 # <a name="create-a-microsoft-365-group-with-a-specific-preferred-data-location"></a>특정 기본 Microsoft 365 위치로 Microsoft 365 그룹 만들기
 
@@ -47,7 +47,7 @@ Exchange Online PowerShell에 연결하고 *MailBoxRegion* 매개 변수를 지�
 New-UnifiedGroup -DisplayName MultiGeoEUR -Alias "MultiGeoEUR" -AccessType Public -MailboxRegion EUR 
 ```
 
-![구문을 사용하는 New-UnifiedGroup PowerShell cmdlet의 스크린 샷](../media/multi-geo-new-group-with-pdl-powershell.png)
+![구문을 New-UnifiedGroup PowerShell cmdlet의 스크린샷입니다.](../media/multi-geo-new-group-with-pdl-powershell.png)
 
 SharePoint 그룹 사이트 프로비전은 주문형입니다. 그룹 소유자 또는 구성원이 처음 액세스할 때 사이트가 프로비저닝됩니다.
 

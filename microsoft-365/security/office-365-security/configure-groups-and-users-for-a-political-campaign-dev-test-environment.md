@@ -19,12 +19,12 @@ description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d96d91d264911343bac32baee5eee7da08064f5546ac787730ad62a80c441cac
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f39a898a6926938790b7adb3d18ec66641224bd9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56816873"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575735"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -195,11 +195,11 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
 이 개발/테스트 환경에 대해 Office 365 및 EMS 평가판 구독을 사용하려면 이러한 값을 기록해둡니다.
 
-- 평가판 구독 조직 이름:  ![Underline](../../media/Common-Images/TableLine.png)
+- 평가판 구독 조직 이름:  ![밑줄 표시](../../media/Common-Images/TableLine.png)
 
   예를 들어 평가판 구독 도메인 이름 contoso.onmicrosoft.com의 경우 조직 이름은 "contoso"입니다.
 
-- 전역 관리자 이름: ![Underline](../../media/Common-Images/TableLine.png).onmicrosoft.com
+- 전역 관리자 이름: ![밑줄 표시](../../media/Common-Images/TableLine.png).onmicrosoft.com
 
   이 계정에 대한 암호와 다른 사용자 계정에 대한 일반적인 초기 암호를 안전한 위치에 기록해둡니다.
 

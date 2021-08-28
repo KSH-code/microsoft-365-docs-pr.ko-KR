@@ -15,12 +15,12 @@ ms.date: 06/10/2021
 description: Microsoft Defender for Office 365 계획에서 자동화된 조사 및 응답 기능을 통해 손상된 사용자 계정을 검색하고 처리하는 프로세스를 Office 365 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0f72b876570f7551694053d81d716dce8f92379c1d57a3f4bd8b1a83ffa57f7b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4a90768038bde3126dd4ac3e5016f4d04aded9af
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867527"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572482"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동화된 조사 및 응답을 통해 손상된 사용자 계정 해결
 
@@ -32,7 +32,7 @@ ms.locfileid: "53867527"
 
 [Microsoft Defender for Office 365 Plan 2에는](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 강력한 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다. [](office-365-air.md) 이러한 기능을 통해 보안 운영 팀이 위협을 처리하기 위한 시간과 노력을 많이 절약할 수 있습니다. Microsoft는 계속해서 보안 기능을 개선하고 있습니다. 최근에는 손상된 사용자 보안 플레이북(현재 미리 보기에서)을 포함하도록 AIR 기능이 향상했습니다. 손상된 사용자 보안 플레이북에 대한 자세한 내용은 이 문서를 읽어 하세요. 추가 세부 정보는 Microsoft [Defender를](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) 통해 사용자 손상을 감지하고 대응하고 위반 범위를 제한하는 시간 Office 365 블로그 게시물을 참조하세요.
 
-![손상된 사용자에 대한 자동화된 조사](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
+![손상된 사용자에 대한 자동화된 조사.](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
 손상된 사용자 보안 플레이북을 사용하면 조직의 보안 팀에서 다음을 할 수 있습니다.
 
@@ -46,11 +46,11 @@ ms.locfileid: "53867527"
 
 예를 들어 다음은 의심스러운 전자 메일을 보내기 때문에 트리거된 경고입니다.
 
-![의심스러운 전자 메일 보내기 때문에 트리거된 경고](/microsoft-365/media/office365atp-suspiciousemailsendalert.jpg)
+![의심스러운 전자 메일 보내기 때문에 경고가 트리거됩니다.](/microsoft-365/media/office365atp-suspiciousemailsendalert.jpg)
 
 다음은 사용자에 대한 전송 제한에 도달할 때 트리거된 경고의 예입니다.
 
-![전송 제한에 도달하여 트리거된 경고](/microsoft-365/media/office365atp-sendinglimitreached.jpg)
+![전송 제한에 도달하여 트리거된 경고입니다.](/microsoft-365/media/office365atp-sendinglimitreached.jpg)
 
 ## <a name="investigate-and-respond-to-a-compromised-user"></a>손상된 사용자 조사 및 대응
 
@@ -71,11 +71,11 @@ ms.locfileid: "53867527"
 
 2. 알림 **페이지에서** 기간 및 전자 메일 보내기에서 **제한된 사용자라는 정책을 사용하여 결과를 필터링합니다.**
 
-   ![제한된 사용자에 대해 필터링된 Microsoft 365 Defender 포털의 알림 페이지](../../media/m365-sc-alerts-page-with-restricted-user.png)
+   ![제한된 사용자에 대해 필터링된 Microsoft 365 Defender 포털의 알림 페이지입니다.](../../media/m365-sc-alerts-page-with-restricted-user.png)
 
-3. 이름을 클릭하여 항목을 선택하면 사용자가 검토할  수 있는 추가 세부 정보가 있는 전자 메일 보내기 제한 페이지가 열립니다. 경고 **관리 단추** 옆에 있는 추가 옵션 아이콘 추가 옵션을 클릭한 다음 제한된 사용자 세부 정보 보기를 선택하여 제한된 사용자를 해제할 수 있는 제한된 사용자 페이지로 ![ ](../../media/m365-cc-sc-more-actions-icon.png)  이동합니다.   [](removing-user-from-restricted-users-portal-after-spam.md)
+3. 이름을 클릭하여 항목을 선택하면 사용자가 검토할  수 있는 추가 세부 정보가 있는 전자 메일 보내기 제한 페이지가 열립니다. 경고 관리 **단추 옆에** 있는 추가 옵션 ![ 아이콘을 클릭할 수 있습니다.](../../media/m365-cc-sc-more-actions-icon.png) **다른 옵션을 선택한** 다음 **제한된** 사용자 세부 정보 보기를 선택하여 제한된 사용자를 해제할 수 있는 **제한된** 사용자 [페이지로 이동합니다.](removing-user-from-restricted-users-portal-after-spam.md)
 
-   ![알림 센터에서 전자 메일 보내기 제한 페이지](../../media/m365-sc-alerts-user-restricted-from-sending-email-page.png)
+   ![사용자가 알림 센터에서 전자 메일 보내기 페이지에서 제한했습니다.](../../media/m365-sc-alerts-user-restricted-from-sending-email-page.png)
 
 ### <a name="view-details-about-automated-investigations"></a>자동화된 조사에 대한 세부 정보 보기
 

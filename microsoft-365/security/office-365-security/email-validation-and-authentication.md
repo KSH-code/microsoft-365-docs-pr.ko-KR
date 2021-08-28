@@ -19,12 +19,12 @@ localization_priority: Priority
 description: 관리자는 EOP가 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸을 방지하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 38fccc89b7fa3717bd000a23a61b1cf6b69e10488756678d862598f290cf1832
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4662b036ebc92f69e4cba1c1a7b6c8d8231a4b2c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56813776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575723"
 ---
 # <a name="email-authentication-in-eop"></a>EOP에서 전자 메일 인증
 
@@ -54,7 +54,7 @@ DMARC는 메시지의 **보낸 사람** 주소를 검사하여 스푸핑을 방�
 
 2018년 3월 현재 Fortune지 500대 기업의 도메인 중 9%만이 강력한 전자 메일 인증 정책을 게시했습니다. 나머지 91%의 기업이 공격자에 의해 스푸핑될 수 있습니다. 현재 위치에 일부 다른 전자 메일 필터링 메커니즘이 없는 경우 이러한 도메인에 있는 스푸핑된 보낸 사람의 전자 메일이 사용자에게 전달될 수 있습니다.
 
-![Fortune 500대 기업의 DMARC 정책](../../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
+![Fortune 500대 기업의 DMARC 정책.](../../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
 
 강력한 전자 메일 인증 정책을 게시하는 중소기업의 비율은 더 적습니다. 북미 및 서유럽 이외의 전자 메일 도메인의 경우 그 수가 훨씬 적습니다.
 

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스에 대한 추가 장치 정보입니다.'
-ms.openlocfilehash: 49db57e49a7f3bc603b6d6b88368569ee2b326d6e3f568961eab028faa7e28c5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 79234b1398e26af5a2848002ea606d97137e3053
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795101"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573094"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 장치 정보
 
@@ -32,7 +32,7 @@ ms.locfileid: "53795101"
 ## <a name="azure-ad-joined-windows-10-devices"></a>Azure AD 가입 Windows 10 장치
 Azure Windows 10 디바이스가 연결된 경우 Azure AD에서 연결을 끊고 다시 연결해야 합니다.
 
-[![Azure AD 장치 Re-Join Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
+[![Azure AD 장치 Re-Join Flow. ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 
 사용자가 Windows 10 디바이스의 관리자인 경우 사용자는 Azure AD에서 디바이스 등록을 등록을 해지하고 3단계로 다시 가입할 수 있습니다.
@@ -74,7 +74,7 @@ Azure Windows 10 디바이스가 연결된 경우 Azure AD에서 연결을 끊�
 
 Azure Windows 10 등록된 경우 Azure AD에서 연결을 끊고 다시 연결해야 합니다.
 
-[![Azure AD 장치 Re-Registration Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReRegistration-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
+[![Azure AD 장치 Re-Registration Flow. ](../media/ms-cloud-germany-migration-opt-in/AAD-ReRegistration-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 ### <a name="step-1-determine-if-the-device-is-azure-id-registered"></a>1단계: 장치가 Azure ID로 등록되어 있는지 확인
 
@@ -153,7 +153,7 @@ iOS 장치에서는 캐시된 계정을 장치에서 수동으로 제거하고, 
 
 사용자는 앱, 앱 Outlook, Teams 및 OneDrive 앱으로 이동하고 해당 앱에서 계정을 제거할 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **조직이 영향을 받는지 어떻게 알 수 있나요?**
 

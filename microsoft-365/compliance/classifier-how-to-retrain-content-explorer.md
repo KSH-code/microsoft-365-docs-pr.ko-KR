@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기에서 학습 가능한 분류자에 피드백을 제공하는 방법을 학습합니다.
-ms.openlocfilehash: fddb25bb1ebf702d19767c13f65df4f925fcfc78a7036eb769b96241b271471c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7c021a1fb7a79e335f53fd99b162c9062c4f43a0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796349"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571088"
 ---
 # <a name="how-to-retrain-a-classifier-in-content-explorer"></a>콘텐츠 탐색기에서 분류자를 재학습하는 방법
 
@@ -37,7 +37,7 @@ ms.locfileid: "53796349"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyGMs]
 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 규정 준수 센터에서 분류자에 Microsoft 365:
 
@@ -88,11 +88,11 @@ ms.locfileid: "53796349"
 9. 교육 **가능한 분류자 를 열기**
 10. 통신 준수 정책에 사용된 분류자는 재교육 제목 **아래에** 표시됩니다.
 
-![재조정 상태의 분류자](../media/classifier-retraining.png)
+![재조정 상태의 분류자입니다.](../media/classifier-retraining.png)
 
 11. 재 교육이 완료되면 분류기를 선택해 재 교육 개요를 열 수 있습니다.
 
-![분류자 재조정 결과 개요](../media/classifier-retraining-overview.png)
+![분류자 재조정 결과 개요.](../media/classifier-retraining-overview.png)
 
 12. 권장 작업과 재실행 및 현재 게시된 분류자 버전의 예측 비교를 검토합니다.
 13. 재작성 결과가 만족스러우면 다시 **게시를 선택 합니다.**

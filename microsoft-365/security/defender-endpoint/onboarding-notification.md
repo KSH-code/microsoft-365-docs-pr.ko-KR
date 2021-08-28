@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9c4fa624d6c0fb6ea299834fd4b57f37dd5f8f7c
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 9b00d971afa714b89a473ff75cf6022f8bba9ef8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531566"
+ms.locfileid: "58572566"
 ---
 # <a name="create-a-notification-rule-when-a-local-onboarding-or-offboarding-script-is-used"></a>로컬 온보딩 또는 등록 해제 스크립트를 사용하는 경우 알림 규칙 만들기
 
@@ -54,18 +54,18 @@ ms.locfileid: "58531566"
 
 2. 내 흐름 > 새 > **- 비어 있는 에서 로 이동합니다.**
 
-    ![흐름 이미지](images/new-flow.png)
+    ![흐름의 이미지입니다.](images/new-flow.png)
 
 3. 예약된 흐름을 작성합니다.
    1. 흐름 이름을 입력합니다.
    2. 시작 및 시간을 지정합니다.
    3. 빈도를 지정합니다. 예를 들어 5분마다.
 
-    ![알림 흐름의 이미지](images/build-flow.png)
+    ![알림 흐름의 이미지입니다.](images/build-flow.png)
 
 4. + 단추를 선택하여 새 작업을 추가합니다. 새 작업은 끝점 보안 센터 장치용 Defender API에 대한 HTTP 요청입니다. "WDATP 커넥터&quot;(작업: &quot;컴퓨터 - 컴퓨터 목록 확인")로 바꿀 수도 있습니다.
 
-    ![재발 및 작업 추가의 이미지](images/recurrence-add.png)
+    ![재발 및 추가 작업의 이미지입니다.](images/recurrence-add.png)
 
 5. 다음 HTTP 필드를 입력합니다.
 
@@ -78,11 +78,11 @@ ms.locfileid: "58531566"
    - 자격 증명 유형: "비밀"을 선택합니다.
    - 비밀: 로그인하여 앱 등록을 Azure Active Directory > 테넌트 https://portal.azure.com ID 값을  얻습니다.
 
-    ![HTTP 조건의 이미지](images/http-conditions.png)
+    ![HTTP 조건의 이미지입니다.](images/http-conditions.png)
 
 6. 새 작업 추가를  선택한 다음 데이터  작업을 검색하고 JSON 구문 분석 을 선택하여 새 **단계를 추가합니다.**
 
-    ![데이터 작업의 이미지](images/data-operations.png)
+    ![데이터 작업의 이미지입니다.](images/data-operations.png)
 
 7. 콘텐츠 필드에 **본문을 추가합니다.**
 
@@ -90,7 +90,7 @@ ms.locfileid: "58531566"
 
 8. 예제 **페이로드를 사용하여 Schema 링크를 생성합니다.를** 선택합니다.
 
-    ![페이로드가 있는 json 구문 분석 이미지](images/parse-json-schema.png)
+    ![페이로드가 있는 json 구문 분석 이미지입니다.](images/parse-json-schema.png)
 
 9. 다음 JSON 코드의 복사 및 붙여넣기:
 
@@ -179,22 +179,22 @@ ms.locfileid: "58531566"
     - 예인 경우 알림이 트리거되지 않습니다.
     - 아니요인 경우 새 등록된 장치를 SharePoint 등록하고 끝점용 Defender 관리자에게 알림이 전송됩니다.
 
-    ![각 이미지에 적용](images/flow-apply.png)
+    ![각 이미지에 적용됩니다.](images/flow-apply.png)
 
-    ![항목 get이 있는 각 항목에 적용의 이미지](images/apply-to-each.png)
+    ![항목 get이 있는 각 항목에 적용되는 이미지입니다.](images/apply-to-each.png)
 
 11. 조건 **아래에서**"length(body('Get_items')?[' 식을 추가합니다. value'])"를 설정하고 조건을 0으로 설정합니다.
 
-    ![각 조건에 적용 이미지 ](images/apply-to-each-value.png)
-     ![ 조건의 이미지1 ](images/conditions-2.png)
-     ![ 조건의 이미지2 전자 ](images/condition3.png)
-     ![ 메일 보내기 이미지](images/send-email.png)
+    ![각 조건에 적용되는 이미지입니다. ](images/apply-to-each-value.png)
+     ![ condition1의 이미지입니다. ](images/conditions-2.png)
+     ![ condition2의 이미지입니다. ](images/condition3.png)
+     ![ 전자 메일 보내기 이미지입니다.](images/send-email.png)
 
 ## <a name="alert-notification"></a>경고 알림
 
 다음 이미지는 전자 메일 알림의 예입니다.
 
-![전자 메일 알림 이미지](images/alert-notification.png)
+![전자 메일 알림의 이미지입니다.](images/alert-notification.png)
 
 ## <a name="tips"></a>팁
 

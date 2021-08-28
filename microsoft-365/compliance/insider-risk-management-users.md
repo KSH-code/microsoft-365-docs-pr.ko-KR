@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9b097336cadcc4c76c0a9d8026d9a73d079d3572f39dd53a3b98e52caa59cb65
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e50e9b0dfa9119cd3c3f6fe8b45158ca9f8c5cc3
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53879553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571040"
 ---
 # <a name="insider-risk-management-users-dashboard"></a>내부자 위험 관리 사용자 대시보드
 
@@ -69,7 +69,7 @@ ms.locfileid: "53879553"
 - **확인된 위반:** 사용자에 대한 확인된 정책 *위반으로* 확인된 사례 수입니다.
 - **사례:** 사용자의 현재 활성 사례입니다.
 
-![내부자 위험 관리 사용자 대시보드](../media/insider-risk-users-dashboard.png)
+![내부자 위험 관리 사용자 대시보드.](../media/insider-risk-users-dashboard.png)
 
 > [!NOTE]
 > 사용자 대시보드에 표시되는  사용자 수는 활성 경고의 양과 일치하는 정책에 따라 일부 경우에는 제한될 수 있습니다. 활성 경고가 있는 사용자는  알림이 생성될 때 사용자 대시보드에 표시되고 표시되는 최대 사용자 수에 도달하는 경우는 드물게 있을 수 있습니다. 이 제한이 발생하면 활성 경고가 표시되지 않은 사용자가 기존  사용자 알림을심사할 때 사용자 대시보드에 추가됩니다.

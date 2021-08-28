@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 33de1e3adc004e05a8c383c8277c358d769bf520528c4c7332e23c5d05635051
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 028723dfb41f8e4cca71ea67aea5a88a46c9bb50
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572962"
 ---
 # <a name="get-incident-notifications-by-email"></a>전자 메일로 인시던트 알림 확인
 
@@ -65,7 +65,7 @@ ms.locfileid: "53838937"
     - **전자 메일에** 조직 이름 포함 - 전자 메일 알림에 조직 이름을 표시하려면 선택합니다.
     - **테넌트별** 포털 링크 포함 - 특정 테넌트에 대한 액세스를 위해 전자 메일 알림에 테넌트 ID가 포함된 링크를 Microsoft 365 선택합니다.
 
-    :::image type="content" source="../../media/get-incident-notifications/incidents-ss-email-notification-settings.png" alt-text="인시던트 전자 메일 알림에 대한 알림 설정":::
+    :::image type="content" source="../../media/get-incident-notifications/incidents-ss-email-notification-settings.png" alt-text="인시던트 전자 메일 알림에 대한 알림 설정입니다.":::
 
 5. **다음** 을 선택합니다. 받는 **사람 페이지에서** 인시던트 알림을 받을 전자 메일 주소를 추가합니다. 각 **새 전자** 메일 주소를 입력한 후 추가를 선택합니다. 알림을 테스트하고 받는 사람이 받은 편지함으로 받는지 확인하려면 테스트 전자 메일 **보내기 를 선택합니다.** 
 6. **다음** 을 선택합니다. 규칙 **검토 페이지에서** 규칙 설정을 검토한 다음 규칙 만들기 **를 선택합니다.** 받는 사람은 설정에 따라 전자 메일을 통해 인시던트 알림을 수신하기 시작할 것입니다.

@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cfabb6a33c2d107e4f4822ed57e6e9ff1f8cc718
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 50558ef4ff9c4f05f0e7833ef8a1697330c35362
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258441"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572842"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -130,7 +130,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
    - **그룹**
    - **도메인**
 
-   적절한 상자를 클릭하고, 값 입력을 시작하고, 결과에서 원하는 값을 선택합니다. 이 프로세스를 필요한 만큼 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![아이콘 제거](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+   적절한 상자를 클릭하고, 값 입력을 시작하고, 결과에서 원하는 값을 선택합니다. 이 프로세스를 필요한 만큼 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
    사용자 또는 그룹의 경우 대부분의 식별자(이름, 표시 이름, 별칭, 전자 메일 주소, 계정 이름 등)를 사용할 수 있지만 해당 표시 이름은 결과에 표시됩니다. 사용자의 경우 별표(\*)만 입력하여 사용 가능한 모든 값을 확인합니다.
 
@@ -150,7 +150,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
 
 **표준** 보호 또는 **엄격한** 보호 보안 정책 할당을 수정하는 단계는 미리 설정한 보안 정책을 사용자에게 처음 할당할 때와 [동일합니다.](#use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users)
 
-기존 조건 및 예외를 보존하면서 **표준** 보호 또는 **엄격한** 보호 보안 정책을 사용하지  않도록 설정하거나 해제 해제로 ![ 토글합니다. ](../../media/scc-toggle-off.png) 정책을 사용하도록 설정하려면 토글을 사용 토글 **으로** ![ 밀어 으로 끄면 ](../../media/scc-toggle-on.png) 됩니다.
+기존 조건 및 예외를 보존하면서 **표준** 보호 또는 **엄격한** 보호 보안 정책을 사용하지 않도록 설정하고 토글을 **사용** 안 하여 해제로 ![ 전환합니다. ](../../media/scc-toggle-off.png) 정책을 사용하도록 설정하려면 토글을 사용 토글 **으로** ![ 밀어 으로 끄면 ](../../media/scc-toggle-on.png) 됩니다.
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 

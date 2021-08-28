@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 52e7a3098f157e52ecf32802a9f69328b28e2e52
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.openlocfilehash: 6328d9879bf816e69c44007e7e85a30cfee086bc
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684163"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572602"
 ---
 # <a name="investigate-a-file-associated-with-a-microsoft-defender-for-endpoint-alert"></a>끝점 경고에 대한 Microsoft Defender와 관련된 파일 조사
 
@@ -72,9 +72,9 @@ ms.locfileid: "58684163"
 
 파일의 MD5, 바이러스 총 검색 비율, Microsoft Defender AV 검색(사용 가능한 경우) 및 파일의 보전과 같은 세부 정보가 표시됩니다.
 
-파일 보전 카드는 파일이 조직 및 전 세계 디바이스에서 어디에서 표시 봤는가를 보여줍니다.
+파일 보전 카드는 파일이 조직 및 전 세계 디바이스에서 어디에서 표시 봤는가를 보여줍니다. 
 
-> [!NOTE]
+> [!NOTE] 
 > 다른 사용자는 파일 보충 카드의 조직 섹션에 있는 디바이스에서 *서로* 다른 값을 볼 수 있습니다. 이는 카드에 사용자가 있는 RBAC 범위에 따라 정보가 표시하기 때문에입니다. 즉, 사용자에게 특정 장치 집합에 대한 표시 권한이 부여된 경우 해당 디바이스에 대한 파일 조직 보전만 볼 수 있습니다.
 
 ![파일 정보의 이미지입니다.](images/atp-file-information.png)
@@ -89,8 +89,8 @@ ms.locfileid: "58684163"
 
 조직에서 **관찰 탭을** 사용하면 날짜 범위를 지정하여 파일로 관찰된 장치를 볼 수 있습니다.
 
-> [!NOTE]
-> 이 탭에는 최대 100대의 디바이스가 표시됩니다. 파일이 _있는_ 모든 장치를 표시하려면 탭의 열 헤더 위에  있는 작업 메뉴에서 내보내기를 선택하여 탭을 CSV 파일로 내보낼 수 있습니다.
+>[!NOTE]
+>이 탭에는 최대 100대의 디바이스가 표시됩니다. 파일이 _있는_ 모든 장치를 표시하려면 탭의 열 헤더 위에  있는 작업 메뉴에서 내보내기를 선택하여 탭을 CSV 파일로 내보낼 수 있습니다.
 
 ![파일이 있는 가장 최근에 관찰한 장치의 이미지입니다.](images/atp-observed-machines.png)
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: a3895b2d3e5ee435f0aeb1bb9b2becf23b6da71ecd387bbbc06fac3f1941a8d7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e65d7e869011cbbc6a55828f693782a6b7e0dfd6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838820"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575939"
 ---
 # <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender for Office 365 Microsoft 365 Defender
 
@@ -48,7 +48,7 @@ ms.locfileid: "53838820"
 |레코드 관리||자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |정보 거버넌스||자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |위협 관리|[전자 메일 & 공동 작업](https://security.microsoft.com/homepage)|||
-|사용 권한|[역할에 & 사용 권한](https://security.microsoft.com/emailandcollabpermissions)|자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
+|권한|[역할에 & 사용 권한](https://security.microsoft.com/emailandcollabpermissions)|자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |메일 흐름|||관리 [Exchange 참조](https://admin.exchange.microsoft.com/#/)|
 |데이터 개인 정보||자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |검색|[감사](https://security.microsoft.com/auditlogsearch?viewid=Async%20Search)|검색(콘텐츠 검색)||
@@ -72,11 +72,11 @@ ms.locfileid: "53838820"
 
 통합된 Microsoft 365 Defender 솔루션을 사용하여 위협 신호를 통합하고 위협의 전체 범위 및 영향과 위협이 현재 조직에 미치는 영향을 확인할 수 있습니다.
 
-:::image type="content" source="../../media/M365-defender-converge-experience.png" alt-text="수렴형 Microsoft 365 Defender 이미지":::
+:::image type="content" source="../../media/M365-defender-converge-experience.png" alt-text="수렴형 Microsoft 365 Defender 이미지입니다.":::
 
 보호를 위한 Office 365 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다.
 
-:::image type="content" source="../../media/Defender-for-O365.png" alt-text="2016용 Defender Office 365":::
+:::image type="content" source="../../media/Defender-for-O365.png" alt-text="에 대한 Defender의 Office 365.":::
 
 ### <a name="incidents-and-alerts"></a>인시던트 및 경고
 
@@ -85,7 +85,7 @@ ms.locfileid: "53838820"
 - [조사에 대한 자세한 정보](incidents-overview.md)
 - [경고 관리에 대한 자세한 정보](/windows/security/threat-protection/microsoft-defender-atp/review-alerts)
 
-![경고 및 작업 빠른 실행 표시줄](../../media/converge-1-alerts-and-actions.png)
+![경고 및 작업 빠른 실행 표시줄입니다.](../../media/converge-1-alerts-and-actions.png)
 
 ### <a name="hunting"></a>헌팅
 

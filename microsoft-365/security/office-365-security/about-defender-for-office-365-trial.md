@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: 0164d7f5017ebf3b2076bf7231da4ca30a36427500c6782602e6e50812f914df
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a11528df6960293ba4b5a3f6e4d287989049556a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817009"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572494"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
 
@@ -73,7 +73,7 @@ Defender for Office 365 평가판은 90일 동안 사용할 수 있으며 모든
 
 평가판 설정의 일부로, Office 365 대한 Defender 라이선스가 조직에 자동으로 적용됩니다. 라이선스는 처음 90일 동안 무료로 제공됩니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 평가판을 시작하거나 종료하려면 평가판에서 전역  관리자  또는 보안 관리자 역할의 구성원 Azure Active Directory. 자세한 내용은 관리자 역할 [정보를 참조하세요.](../../admin/add-users/about-admin-roles.md)
 
@@ -93,7 +93,7 @@ Office 365 평가판의 Defender는 특정 기준(지리 포함)을 충족하고
 
 또한 이 대화형 가이드 에서 Office 365 대한 자세한 내용을 볼 [수 있습니다.](https://techcommunity.microsoft.com/t5/video-hub/protect-your-organization-with-microsoft-365-defender/m-p/1671189)
 
-![Microsoft Defender for Office 365 다이어그램](../../media/microsoft-defender-for-office-365.png)
+![Microsoft Defender for Office 365 다이어그램입니다.](../../media/microsoft-defender-for-office-365.png)
 
 ### <a name="prevention"></a>방지
 

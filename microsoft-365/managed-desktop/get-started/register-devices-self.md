@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: e68a2013a2c883356f11b94d21ac68169faa42d8b719f8a41af1b73cbadc970f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9be51ab9204ac8a950bf316f716b70b824980ba8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854462"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572626"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -83,11 +83,11 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 
 In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devices** in the left navigation pane. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop 작업 영역에서 **+** 장치 등록을 선택합니다. 이 경우 플라이인을 열어 새 장치를 등록합니다.
 
-<!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
+<!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age.](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-다음 단계를 따릅니다:
+다음 단계를 따르세요.
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
 2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.
@@ -98,7 +98,7 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 
 기본 페이지에서 장치 등록 진행률을 모니터링할 수 있습니다. 보고된 가능한 상태는 다음과 같습니다.
 
-| 상태 | 설명 |
+| 시/도 | 설명 |
 |---------------|-------------|
 | 등록 보류 중 | 등록이 아직 완료되지 않았습니다. 나중에 다시 확인 합니다. |
 | 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치 등록](#troubleshooting-device-registration) 문제 해결을 참조하세요. |

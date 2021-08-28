@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Salesforce Chatter, Yahoo Messenger 또는 Yammer.
-ms.openlocfilehash: e388ab360ccd82b6391272e01a36b78fca99971d0f43ab20b447e33113eef282
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8a18f84cce226ce4255c47772e2f858eaa6f1bb4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807591"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573178"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>타사 데이터를 저장하는 데 파트너와 협력
 

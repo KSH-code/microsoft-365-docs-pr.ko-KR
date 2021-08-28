@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: d27f8849efa9b1548fdb189ff6b1d97e1af5e424
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 92c74ae2f7e7236138f28cf30b3e835eb10b636d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58249144"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572506"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>2013에서 경고 Microsoft 365 Defender
 
@@ -42,7 +42,7 @@ ms.locfileid: "58249144"
 
 경고 **큐에는** 현재 경고 집합이 표시됩니다. 인시던트 및 경고  & > 포털(Microsoft 365 Defender)을 빠르게 실행하면 경고[큐로 security.microsoft.com.](https://security.microsoft.com)
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-queue.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-queue.png" alt-text="경고 큐의 예":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-queue.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-queue.png" alt-text="경고 큐의 예입니다.":::
 
 Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 같은 다양한 Microsoft Microsoft 365 Defender 여기에 표시됩니다.
 
@@ -50,13 +50,13 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 
 
 기본 경고 큐에서 필터를  선택하여 경고의  하위 집합을 지정할 수 있는 필터 창을 볼 수 있습니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-filter.png" alt-text="경고 큐에 대한 필터 창의 예":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-filter.png" alt-text="경고 큐에 대한 필터 창의 예입니다.":::
 
 다음 조건에 따라 경고를 필터링할 수 있습니다.
 
 - 심각도
 - 상태
-- Category
+- 범주
 - 검색 원본
 - 태그
 - 정책
@@ -115,7 +115,7 @@ Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33
 
 경고를 관리하려면 해당 행의 경고 큐에서 경고를 선택하여 경고 관리 **창을** 봐야 합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-manage.png" alt-text="경고에 대한 요약 창의 예":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-manage.png" alt-text="경고에 대한 요약 창의 예입니다.":::
 
 경고 **관리 창에서** 다음을 지정할 수 있습니다.
 

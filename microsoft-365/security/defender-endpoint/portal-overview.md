@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 94b546026e5a8a060cfe97776392b0f4b12fc1e94a3e80560748c8c361080713
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 63a3592e2bb8a89c373910e73b0bc91d544415d6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53868814"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572578"
 ---
 # <a name="microsoft-365-defender-portal-overview"></a>Microsoft 365 Defender 포털 개요
 
@@ -50,7 +50,7 @@ Enterprise 보안 팀은 보안 팀을 사용하여 Microsoft 365 Defender 지�
 - (1) 탐색 창(탐색 창 위쪽의 가로줄을 선택하여 표시하거나 숨기기)
 - (2) 검색, Community 센터, 지역화, 도움말 및 지원, 피드백
 
- ![끝점 포털용 Microsoft Defender](images/mdatp-portal-overview.png)
+ ![끝점 포털용 Microsoft Defender.](images/mdatp-portal-overview.png)
 
 > [!NOTE]
 > 맬웨어 관련 검색은 장치가 실시간 보호 기본 Microsoft Defender 바이러스 백신 맬웨어 방지 제품으로 사용하는 경우만 표시됩니다.
@@ -84,50 +84,50 @@ Enterprise 보안 팀은 보안 팀을 사용하여 Microsoft 365 Defender 지�
 
 아이콘|설명
 :---|:---
-![ATP 로고 아이콘](images/atp-logo-icon.png)|끝점용 Microsoft Defender 로고
-![경고 아이콘](images/alert-icon.png)|경고: 고급 공격과 상호 관련이 있는 활동 표시입니다.
-![검색 아이콘](images/detection-icon.png)|검색: 맬웨어 위협 감지 표시
-![활성 위협 아이콘](images/active-threat-icon.png)|활성 위협: 감지 시 적극적으로 실행되는 위협.
-![수정된 아이콘1](images/remediated-icon.png)|수정됨: 장치에서 위협이 제거되었습니다.
-![수정되지 않은 아이콘](images/not-remediated-icon.png)|수정되지 않습니다. 장치에서 위협이 제거되지 않습니다.
-![Thunderbolt 아이콘](images/atp-thunderbolt-icon.png)|경고 프로세스 트리에서 경고를 트리거한 **이벤트를 나타냅니다.**
-![장치 아이콘](images/atp-machine-icon.png)|장치 아이콘
-![Microsoft Defender AV 이벤트 아이콘](images/atp-windows-defender-av-events-icon.png)|Microsoft Defender 바이러스 백신 이벤트
-![Application Guard 이벤트 아이콘](images/atp-Application-Guard-events-icon.png)|Windows Defender Application Guard 이벤트
-![Device Guard 이벤트 아이콘](images/atp-Device-Guard-events-icon.png)|Windows Defender Device Guard 이벤트
-![Exploit Guard 이벤트 아이콘](images/atp-Exploit-Guard-events-icon.png)|Windows Defender Exploit Guard 이벤트
+![ATP 로고 아이콘입니다.](images/atp-logo-icon.png)|끝점용 Microsoft Defender 로고
+![경고 아이콘.](images/alert-icon.png)|경고: 고급 공격과 상호 관련이 있는 활동 표시입니다.
+![검색 아이콘.](images/detection-icon.png)|검색: 맬웨어 위협 감지 표시
+![활성 위협 아이콘.](images/active-threat-icon.png)|활성 위협: 감지 시 적극적으로 실행되는 위협.
+![수정된 아이콘1.](images/remediated-icon.png)|수정됨: 장치에서 위협이 제거되었습니다.
+![수정되지 않은 아이콘입니다.](images/not-remediated-icon.png)|수정되지 않습니다. 장치에서 위협이 제거되지 않습니다.
+![Thunderbolt 아이콘.](images/atp-thunderbolt-icon.png)|경고 프로세스 트리에서 경고를 트리거한 **이벤트를 나타냅니다.**
+![장치 아이콘.](images/atp-machine-icon.png)|장치 아이콘
+![Microsoft Defender AV 이벤트 아이콘입니다.](images/atp-windows-defender-av-events-icon.png)|Microsoft Defender 바이러스 백신 이벤트
+![Application Guard 이벤트 아이콘입니다.](images/atp-Application-Guard-events-icon.png)|Windows Defender Application Guard 이벤트
+![Device Guard 이벤트 아이콘입니다.](images/atp-Device-Guard-events-icon.png)|Windows Defender Device Guard 이벤트
+![Exploit Guard 이벤트 아이콘입니다.](images/atp-Exploit-Guard-events-icon.png)|Windows Defender Exploit Guard 이벤트
 ![SmartScreen 이벤트 아이콘](images/atp-Smart-Screen-events-icon.png)|Windows Defender SmartScreen 이벤트
-![방화벽 이벤트 아이콘](images/atp-Firewall-events-icon.png)|Windows 방화벽 이벤트
-![응답 작업 아이콘](images/atp-respond-action-icon.png)|응답 작업
-![프로세스 이벤트 아이콘](images/atp-process-event-icon.png)|이벤트 처리
-![네트워크 통신 이벤트 아이콘](images/atp-network-communications-icon.png)|네트워크 이벤트
-![파일 관찰 이벤트 아이콘](images/atp-file-observed-icon.png)|파일 이벤트
-![레지스트리 이벤트 아이콘](images/atp-registry-event-icon.png)|레지스트리 이벤트
-![모듈 로드 DLL 이벤트 아이콘](images/atp-module-load-icon.png)|DLL 이벤트 로드
+![방화벽 이벤트 아이콘.](images/atp-Firewall-events-icon.png)|Windows 방화벽 이벤트
+![응답 작업 아이콘입니다.](images/atp-respond-action-icon.png)|응답 작업
+![이벤트 처리 아이콘입니다.](images/atp-process-event-icon.png)|이벤트 처리
+![네트워크 통신 이벤트 아이콘입니다.](images/atp-network-communications-icon.png)|네트워크 이벤트
+![파일 관찰 이벤트 아이콘입니다.](images/atp-file-observed-icon.png)|파일 이벤트
+![레지스트리 이벤트 아이콘입니다.](images/atp-registry-event-icon.png)|레지스트리 이벤트
+![모듈에서 DLL 이벤트 아이콘을 로드합니다.](images/atp-module-load-icon.png)|DLL 이벤트 로드
 ![기타 이벤트 아이콘](images/atp-Other-events-icon.png)|기타 이벤트
-![액세스 토큰 수정 아이콘](images/atp-access-token-modification-icon.png)|액세스 토큰 수정
-![파일 만들기 아이콘](images/atp-file-creation-icon.png)|파일 만들기
-![서명자 아이콘](images/atp-signer-icon.png)|서명자
-![파일 경로 아이콘](images/atp-File-path-icon.png)|파일 경로
+![액세스 토큰 수정 아이콘입니다.](images/atp-access-token-modification-icon.png)|액세스 토큰 수정
+![파일 만들기 아이콘입니다.](images/atp-file-creation-icon.png)|파일 만들기
+![서명자 아이콘.](images/atp-signer-icon.png)|서명자
+![파일 경로 아이콘입니다.](images/atp-File-path-icon.png)|파일 경로
 ![명령줄 아이콘](images/atp-command-line-icon.png)|명령줄
-![부호 없는 파일 아이콘](images/atp-unsigned-file-icon.png)|부호 없는 파일
-![프로세스 트리 아이콘](images/atp-process-tree.png)|프로세스 트리
-![메모리 할당 아이콘](images/atp-memory-allocation-icon.png)|메모리 할당
-![프로세스 삽입 아이콘](images/atp-process-injection.png)|프로세스 삽입
-![Powershell 명령 실행 아이콘](images/atp-powershell-command-run-icon.png)|Powershell 명령 실행
-![Community 가운데 아이콘](images/atp-community-center.png)|Community 센터
-![알림 아이콘](images/atp-notifications.png)|알림
-![위협을 찾을 수 없음](images/no-threats-found.png)|자동화된 조사 - 위협이 발견 없음
-![실패한 아이콘](images/failed.png)|자동화된 조사 - 실패
-![부분적으로 수정된 아이콘](images/partially-investigated.png)|자동화된 조사 - 부분적으로 조사
+![부호 없는 파일 아이콘입니다.](images/atp-unsigned-file-icon.png)|부호 없는 파일
+![프로세스 트리 아이콘입니다.](images/atp-process-tree.png)|프로세스 트리
+![메모리 할당 아이콘입니다.](images/atp-memory-allocation-icon.png)|메모리 할당
+![프로세스 삽입 아이콘입니다.](images/atp-process-injection.png)|프로세스 삽입
+![Powershell 명령 실행 아이콘.](images/atp-powershell-command-run-icon.png)|Powershell 명령 실행
+![Community 아이콘입니다.](images/atp-community-center.png)|Community 센터
+![알림 아이콘.](images/atp-notifications.png)|알림
+![위협을 찾을 수 없습니다.](images/no-threats-found.png)|자동화된 조사 - 위협이 발견 없음
+![실패한 아이콘.](images/failed.png)|자동화된 조사 - 실패
+![부분적으로 수정된 아이콘입니다.](images/partially-investigated.png)|자동화된 조사 - 부분적으로 조사
 ![시스템에 의해 종료됩니다.](images/terminated-by-system.png)|자동화된 조사 - 시스템에서 종료
-![보류 중인 아이콘](images/pending.png)|자동화된 조사 - 보류 중
-![실행 중인 아이콘](images/running.png)|자동화된 조사 - 실행
-![수정된 아이콘2](images/remediated.png)|자동화된 조사 - 수정
-![부분적으로 조사된 아이콘](images/partially_remediated.png)|자동화된 조사 - 부분적으로 수정
-![위협 정보 아이콘](images/tvm_bug_icon.png)|위협 & 취약성 관리 - 위협 정보
-![가능한 활성 경고 아이콘](images/tvm_alert_icon.png)|위협 & 취약성 관리 - 가능한 활성 경고
-![추천 인사이트 아이콘](images/tvm_insight_icon.png)|위협 & 취약성 관리 - 권장 정보
+![보류 중인 아이콘입니다.](images/pending.png)|자동화된 조사 - 보류 중
+![실행 중인 아이콘입니다.](images/running.png)|자동화된 조사 - 실행
+![수정된 아이콘2.](images/remediated.png)|자동화된 조사 - 수정
+![부분적으로 조사된 아이콘입니다.](images/partially_remediated.png)|자동화된 조사 - 부분적으로 수정
+![위협 정보 아이콘.](images/tvm_bug_icon.png)|위협 & 취약성 관리 - 위협 정보
+![가능한 활성 경고 아이콘입니다.](images/tvm_alert_icon.png)|위협 & 취약성 관리 - 가능한 활성 경고
+![추천 인사이트 아이콘.](images/tvm_insight_icon.png)|위협 & 취약성 관리 - 권장 정보
 
 ## <a name="related-topics"></a>관련 항목
 

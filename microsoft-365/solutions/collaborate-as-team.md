@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: Teams에서 게스트와 작업, 대화 및 문서 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보세요.
-ms.openlocfilehash: 7e0d914f4a0541a8b43959447d6fafdcaf8d3210
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: e43a43c6b409379f9ca18c46f91e078ced46b7ef
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572830"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -43,7 +43,7 @@ Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 �
 
 게스트와의 공유가 차단되지 않도록 B2B 외부 공동 작업 설정을 확인합니다.
 
-![Azure Active Directory 조직 관계 설정 페이지 스크린샷](../media/azure-ad-organizational-relationships-settings.png)
+![Azure Active Directory 조직 관계 설정 페이지 스크린샷.](../media/azure-ad-organizational-relationships-settings.png)
 
 외부 공동 작업 설정을 지정하려면
 
@@ -64,7 +64,7 @@ Teams에는 게스트 액세스에 대한 마스터 켜기/끄기 스위치와 �
 
 Teams에서 게스트 액세스가 활성화되어 있는지 확인하고 비즈니스 요구 사항에 따라 게스트 설정을 조정하세요. 이러한 설정은 모든 팀에 영향을 미칩니다.
 
-![Teams의 게스트 액세스 토글의 스크린샷](../media/teams-guest-access-toggle-on.png)
+![Teams 게스트 액세스 토글 스크린샷.](../media/teams-guest-access-toggle-on.png)
 
 Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 
@@ -84,7 +84,7 @@ Teams 게스트 액세스가 설정되어 있는 경우, 민감도 레이블을 
 
 Teams는 팀 멤버십에 Microsoft 365 그룹을 사용합니다. Teams에서 게스트 액세스가 작동하려면 Microsoft 365 그룹 게스트 설정이 켜져 있어야 합니다.
 
-![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
+![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷.](../media/office-365-groups-guest-settings.png)
 
 Microsoft 365 Groups 게스트 설정을 설정하려면
 
@@ -103,7 +103,7 @@ Microsoft 365 Groups 게스트 설정을 설정하려면
 
 사용자와 파일 및 폴더 공유를 허용하려는 경우,**모든 사용자** 를 선택합니다. 모든 게스트가 인증해야 하는지 확인하려는 경우 **새 게스트 및 기존 게스트** 를 선택합니다. 조직의 모든 사이트에서 필요한 가장 적합한 설정을 선택하세요.
 
-![SharePoint 조직 수준 공유 설정의 스크린샷](../media/sharepoint-organization-external-sharing-controls.png)
+![SharePoint 조직 수준 공유 설정 스크린샷.](../media/sharepoint-organization-external-sharing-controls.png)
 
 
 SharePoint 조직 수준 공유 설정을 설정하려면
@@ -126,7 +126,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 - **조직 내 사용자만** - 대부분의 파일 및 폴더 공유가 조직 내부 사용자와 공유될 것으로 예상되는 경우 이 옵션을 선택합니다.
 - **특정 사용자** - 게스트와 많은 파일 및 폴더 공유를 할 것으로 예상되는 경우 이 옵션을 고려하세요. 이러한 유형의 링크는 게스트와 함께 작동하며 인증을 요구합니다.
  
-![SharePoint 조직 수준 파일 및 폴더 공유 설정 스크린샷](../media/sharepoint-organization-files-folders-sharing-settings.png)
+![SharePoint 조직 수준 파일 및 폴더 공유 설정 스크린샷.](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
 
 SharePoint 조직 수준 기본 링크 설정을 설정하려면
@@ -153,7 +153,7 @@ SharePoint 조직 수준 기본 링크 설정을 설정하려면
 
 사이트 수준 공유 설정을 확인하여 이 팀에 대해 원하는 액세스 유형을 허용하는지 확인합니다. 예를 들어. 조직 수준 설정을 **모든 사용자** 로 설정했지만 모든 게스트가 이 팀에 대해 인증하도록 하려면 사이트 수준 공유 설정이 **새 게스트 및 기존 게스트** 로 설정되어 있는지 확인합니다.
 
-![SharePoint 사이트 외부 공유 설정 스크린샷](../media/sharepoint-site-external-sharing-settings.png)
+![SharePoint 사이트 외부 공유 설정 스크린샷.](../media/sharepoint-site-external-sharing-settings.png)
 
 사이트 수준 공유 설정을 설정하려면
 1. SharePoint 관리 센터의 왼쪽 탐색 창에서 **사이트** 를 확장하고 **활성 사이트** 를 클릭합니다.

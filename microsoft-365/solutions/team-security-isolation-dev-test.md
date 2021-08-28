@@ -16,18 +16,18 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: 직원이 언제 어디서나 원격으로 작업할 수 있는 보안 및 인프라를 구성하세요.
-ms.openlocfilehash: 5b2c47dff19b07a5ca2a207785891ebfb6777459ea9c5254680079f4458e8f84
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 38dc7110c44b3b9acf20283a4156b3eccc0f2165
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53804654"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572782"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>개발/테스트 환경에서 보안 격리를 사용하여 팀 구성
 
 이 문서에서는 개발/테스트 환경에서 [보안 격리](secure-teams-security-isolation.md)를 사용하여 팀을 만들기 위한 단계별 지침을 제공합니다.
 
-![회사 전략 격리 팀 구성](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
+![회사 전략 격리 팀 구성.](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
 
 이 개발/테스트 환경을 사용하여 생산에 이러한 유형의 팀을 배포하기 전에 특정 요구 사항에 맞게 설정을 시험해 보고 세부 조정하도록 합니다.
 
@@ -202,7 +202,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 다음은 회사 전략 팀에 대한 구성의 결과입니다.
 
-![회사 전략 격리 팀 구성](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
+![회사 전략 격리 팀 구성.](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
 
 ## <a name="next-step"></a>다음 단계
 

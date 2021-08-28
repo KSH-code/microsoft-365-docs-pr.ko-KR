@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 정책을 만듭니다.
-ms.openlocfilehash: 22836d5eff088d8bf76a418f6713a9ae84d0cb5e85d2065fcd64faec62131c26
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3b5f4bda7855f79e8a0e731cd6c26793ac9c6927
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842709"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572266"
 ---
 # <a name="create-app-policies"></a>앱 정책 만들기
 
@@ -169,7 +169,7 @@ Publish metadata-based policies
 
 이제 앱 정책이 만들어졌으므로 **정책** 페이지에서 모니터링하여 테스트 중에 예상되는 활성 경고 수 및 총 경고를 등록하고 있는지 확인해야 합니다.
 
-![강조 표시된 정책이 있는 Microsoft 365 준수 센터의 MAPG 정책 요약 페이지](..\media\manage-app-protection-governance\mapg-cc-policies-policy.png)
+![강조 표시된 정책이 있는 Microsoft 365 준수 센터의 MAPG 정책 요약 페이지.](..\media\manage-app-protection-governance\mapg-cc-policies-policy.png)
 
 경고 수가 예기치 않게 낮은 값인 경우 앱 정책의 설정을 편집하여 상태를 설정하기 전에 올바르게 구성했는지 확인합니다.
 
@@ -180,7 +180,7 @@ Publish metadata-based policies
 3. 동작이 필요하지 않은 경우 필요에 따라 정책 앱, 조건 및 작업 설정을 편집하고 2단계로 돌아갑니다.
 4. 동작이 필요한 경우 정책을 편집하고 상태를 **활성** 으로 변경합니다.
 
-![앱 정책 만들기 워크플로](../media/manage-app-protection-governance/mapg-create-new-policy-process.png)
+![앱 정책 만들기 워크플로.](../media/manage-app-protection-governance/mapg-create-new-policy-process.png)
 
 ## <a name="next-step"></a>다음 단계
 

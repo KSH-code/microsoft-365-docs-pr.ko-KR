@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: ID에 대한 로드맵을 Microsoft 365.
-ms.openlocfilehash: 520f80152bccfd9a01b812f08e7c75f6770a9bc4
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 27abe04da2fed0eaae09fa0ed42a83286fe74f5d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573118"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Microsoft 365의 ID 로드맵
 
@@ -35,7 +35,7 @@ ms.locfileid: "58356711"
 
 엔터프라이즈 계획에 대한 각 Microsoft 365 기능, Azure Active Directory 및 클라우드 기반 구성 요소 및 가장 일반적인 인증 구성에 대한 자세한 내용은 ID 인프라 [포스터](../downloads/m365e-identity-infra.pdf)를 참조하세요.
 
-[![ID 인프라 포스터](../downloads/m365e-identity-infra.png)](../downloads/m365e-identity-infra.pdf)
+[![ID 인프라 포스터입니다.](../downloads/m365e-identity-infra.png)](../downloads/m365e-identity-infra.pdf)
 
 이 두 페이지 포스터를 검토하여 엔터프라이즈용 id 개념 및 구성을 빠르게 Microsoft 365 있습니다.
 

@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 98fc1006-9399-4ff0-a216-c7c05820d822
 description: SharePoint 가상 SharePoint 호스트할 수 있는 Microsoft Azure 솔루션 유형과 호스트할 Azure를 설정하는 방법을 설명합니다.
-ms.openlocfilehash: d7405909e25078086147e2bab7504375b6527ff07c14a1750c9b5971592a4858
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 937072dfec55618a4bfb8f9405bd525023ca3d44
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53858831"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571341"
 ---
 # <a name="microsoft-azure-architectures-for-sharepoint-2013"></a>SharePoint 2013용 Microsoft Azure 아키텍처
 
@@ -113,7 +113,7 @@ Azure의 재해 복구를 위해 Windows Server AD 및 DNS를 배포하는 하�
   
 **그림 3: 하이브리드 Active Directory 도메인 구성**
 
-![Azure Virtual Network에 배포된 STwo 가상 컴퓨터 및 SharePoint 팜 서브넷은 복제본 도메인 컨트롤러 및 DNS 서버입니다.](../media/AZarch-HyADdomainConfig.png)
+![Azure Virtual Network에 배포된 STwo 가상 컴퓨터와 SharePoint 팜 서브넷은 복제본 도메인 컨트롤러 및 DNS 서버입니다.](../media/AZarch-HyADdomainConfig.png)
   
 이 다이어그램은 가상 컴퓨터와 DNS 서브넷에 두 개의 가상 컴퓨터를 Windows Server AD 다이어그램을 토대합니다. 이러한 가상 컴퓨터는 복제본 도메인 컨트롤러 및 DNS 서버입니다. 이러한 확장은 프레미스 환경의 Windows Server AD 확장입니다. 
   
@@ -137,7 +137,7 @@ Azure의 재해 복구를 위해 Windows Server AD 및 DNS를 배포하는 하�
   
 **그림 4: 가상 SharePoint 배치**
 
-![데이터베이스 서버 및 SharePoint 팜 서브넷 내의 Azure Virtual Network에 추가된 SharePoint 서버 역할](../media/AZarch-SPVMsinCloudSer.png)
+![데이터베이스 서버 및 SharePoint 팜 서브넷 내의 Azure Virtual Network에 추가된 SharePoint 서버 역할입니다.](../media/AZarch-SPVMsinCloudSer.png)
   
 이 다이어그램은 각 계층에 SharePoint 팜 서버 역할을 추가하여 이전 다이어그램을 작성합니다.
   
@@ -153,7 +153,7 @@ SharePoint 팜에 대해 Azure 아키텍처를 디자인할 때 가용성 집합
   
 **그림 5: Azure 가용성 집합을 사용하여 SharePoint 팜 계층에 대한 고가용성 제공**
 
-![SharePoint 2013 솔루션에 대한 Azure 인프라의 가용성 집합 구성](../media/AZenv-WinAzureAvailSetsHA.png)
+![2013 솔루션에 대한 Azure 인프라의 가용성 SharePoint 구성합니다.](../media/AZenv-WinAzureAvailSetsHA.png)
   
 이 다이어그램에서는 Azure 인프라 내에서 가용성 집합의 구성을 호출합니다. 다음 각 역할은 별도의 가용성 집합을 공유합니다.
   
@@ -173,7 +173,7 @@ Azure SharePoint 팜을 세부적으로 조정해야 할 수 있습니다. 모�
   
 **그림 6: 3계층 팜의 용량 및 성능 목표 계획 예제**
 
-![특정 용량 SharePoint 성능 목표를 충족하는 구성 요소 할당이 있는 Standard SharePoint 2013 인터넷 사이트 아키텍처](../media/AZarch-CapPerfexmpArch.png)
+![표준 SharePoint 및 성능 목표를 충족하는 구성 요소 할당이 있는 2013 인터넷 사이트 아키텍처](../media/AZarch-CapPerfexmpArch.png)
   
 다음은 이 다이어그램에 대한 설명입니다.
   
@@ -189,7 +189,7 @@ Azure SharePoint 팜을 세부적으로 조정해야 할 수 있습니다. 모�
   
 **그림 7: 미세 조정 전 응용 프로그램 서버 계층**
 
-![가용성 SharePoint 조정하기 전에 Server 2013 응용 프로그램 Microsoft Azure 예제](../media/AZarch-AppServtierBefore.png)
+![예를 SharePoint 가용성 집합에 대해 조정하기 전에 Server 2013 응용 프로그램 Microsoft Azure 예제입니다.](../media/AZarch-AppServtierBefore.png)
   
 다음은 이 다이어그램에 대한 설명입니다.
   
@@ -205,7 +205,7 @@ Azure SharePoint 팜을 세부적으로 조정해야 할 수 있습니다. 모�
   
 **그림 8: 미세 조정 후 응용 프로그램 서버 계층**
 
-![SharePoint 가용성 집합에 대한 조정 후 서버 2013 응용 Microsoft Azure 예제](../media/AZarch-AppServtierAfter.png)
+![예제 SharePoint 가용성 집합에 대해 조정한 후 Server 2013 응용 프로그램 Microsoft Azure 예제입니다.](../media/AZarch-AppServtierAfter.png)
   
 이 다이어그램은 동일한 4개의 구성 요소로 동일하게 구성된 3개의 응용 프로그램 서버를 모두 보여줍니다.
   
@@ -213,7 +213,7 @@ Azure SharePoint 팜을 세부적으로 조정해야 할 수 있습니다. 모�
   
 **그림 9: Azure 인프라 SharePoint 완료된 팜**
 
-![예제 SharePoint, 크로스-프레미스 연결, 서브넷, VM 및 가용성 집합이 있는 Azure 인프라 서비스의 2013 팜 예제](../media/7256292f-bf11-485b-8917-41ba206153ee.png)
+![예제 SharePoint, 크로스-프레미스 연결, 서브넷, VM 및 가용성 집합이 있는 Azure 인프라 서비스의 2013 팜을 예로 들 수 있습니다.](../media/7256292f-bf11-485b-8917-41ba206153ee.png)
   
 이 다이어그램은 Azure 인프라 서비스에서 SharePoint 팜을 보여 주며, 가용성 집합을 통해 각 계층의 서버에 장애 도메인을 제공합니다.
   

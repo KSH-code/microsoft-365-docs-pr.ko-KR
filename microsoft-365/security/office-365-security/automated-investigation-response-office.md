@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 40301b0fd16b7d0b29b6a89ec009fc07c85b33ba587833866dd2e2b49741f85d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e91f0947f9622c81fb9340c09ea52c85ea567af6
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56816531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572458"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 자동화된 조사 및 대응이 작동하는 Office 365
 
@@ -81,11 +81,11 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 예를 들어 탐색기에서 맬웨어 **보기를 사용하고 있는** 경우를 가정해 보겠습니다. 차트 아래의 탭을 사용하여 전자 메일 **탭을** 선택합니다. 목록에서 항목을 하나 이상 선택하면 **+ 작업** 단추가 활성화됩니다.
 
-![선택한 메시지가 있는 탐색기](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
+![선택한 메시지가 있는 탐색기입니다.](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 작업 **메뉴를** 사용하여 조사 **트리거를 선택할 수 있습니다.**
 
-![선택한 메시지에 대한 작업 메뉴](../../media/explorer-malwareview-selectedemails-actions.jpg)
+![선택한 메시지에 대한 작업 메뉴입니다.](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
 경고에 의해 트리거되는 플레이북과 마찬가지로 탐색기에서 보기에서 트리거되는 자동 조사에는 루트 조사, 위협을 식별 및 상관 관계화하는 단계, 이러한 위협을 완화하기 위한 권장 조치가 포함됩니다.
 

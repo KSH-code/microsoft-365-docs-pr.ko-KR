@@ -17,12 +17,12 @@ ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.date: 07/27/2021
-ms.openlocfilehash: 5b8abf4f07c1e0a136c456cf5b83adf64e974d7c67ae512c0edb991935afb423
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e8388721d11d25d17bc8b8bbbe505e968d243c9f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873923"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575795"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -32,7 +32,7 @@ ms.locfileid: "53873923"
 
 변조 보호는 다음 버전 중 하나를 실행하는 장치에서 사용할 수 Windows.
 
-- Windows 10
+- Windows 10
 - Windows Server 2019
 - Windows 서버, 버전 1803 이상
 - Windows Server 2016
@@ -100,7 +100,7 @@ ms.locfileid: "53873923"
 
 - 사용자 Windows 다음 버전 중 하나를 실행해야 Windows.
 
-   - Windows 10
+   - Windows 10
    - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
    - Windows 서버, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
    - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
@@ -115,7 +115,7 @@ ms.locfileid: "53873923"
 
 ### <a name="turn-tamper-protection-on-or-off-in-the-microsoft-365-defender-portal"></a>웹 사이트 포털에서 변조 보호 Microsoft 365 Defender 켜기
 
-:::image type="content" source="../../media/mde-turn-tamperprotectionon.png" alt-text="사이트 포털에서 변조 Microsoft 365 Defender 켜기":::
+:::image type="content" source="../../media/mde-turn-tamperprotectionon.png" alt-text="웹 사이트 포털에서 변조 Microsoft 365 Defender 끄기":::
 
 1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "53873923"
 
 ### <a name="turn-tamper-protection-on-or-off-in-intune"></a>Intune에서 변조 보호 켜기(또는 끄기)
 
-![Intune을 통해 변조 보호 켜기](images/turnontamperprotect-MEM.png)
+![Intune을 통해 변조 보호를 켜야 합니다.](images/turnontamperprotect-MEM.png)
 
 1. Microsoft Endpoint Manager [관리 센터로 이동하여](https://endpoint.microsoft.com) 로그인합니다.
 
@@ -206,7 +206,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 앱 앱에 다음과 같은 Windows 보안 있습니다.
 
-![팜에서 변조 보호가 Windows 10 Home](images/tamperprotectionturnedon.png)
+![팜에서 변조 보호가 Windows 10 Home.](images/tamperprotectionturnedon.png)
 
 1. 시작 **을** 선택하고 보안 입력을 *시작합니다.* 검색 결과에서 를 **Windows 보안.**
 
@@ -220,7 +220,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 변조 시도가 감지되면 Microsoft 365 Defender [포털()에서 경고가 Microsoft 365 Defender](/microsoft-365/security/defender-endpoint/portal-overview) [https://security.microsoft.com](https://security.microsoft.com) 합니다.
 
-![Microsoft 365 Defender](images/tamperattemptalert.png)
+![Microsoft 365 Defender.](images/tamperattemptalert.png)
 
 [끝점용](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) Microsoft Defender의 엔드포인트 감지 및 응답 및 고급 헌팅 기능을 사용하여 보안 운영 팀은 이러한 시도를 조사하고 해결할 수 있습니다. [](/microsoft-365/security/defender-endpoint/advanced-hunting-overview)
 
@@ -228,11 +228,11 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 변조 방지는 위협 및 [& 관리 기능과 통합됩니다.](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) [보안 권장 사항에는](/microsoft-365/security/defender-endpoint/tvm-security-recommendation) 변조 방지가 설정되어 있는지 확인이 포함됩니다. 예를 들어 변조에서 *검색할 수 있습니다.* 결과에서 변조 보호  켜기 를 선택하여 자세한 내용을 알아보고 켜면 됩니다.
 
-![변조 방지 켜기](images/tamperprotectsecurityrecos.png)
+![변조 방지를 켜야 합니다.](images/tamperprotectsecurityrecos.png)
 
 위협 및 취약성 관리에 & 자세한 내용은 & 위협 및 취약성 [관리를 Microsoft 365 Defender.](/microsoft-365/security/defender-endpoint/tvm-dashboard-insights#threat--vulnerability-management-in-microsoft-defender-security-center)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="on-which-versions-of-windows-can-i-configure-tamper-protection"></a>어떤 버전의 변조 Windows 구성할 수 있나요?
 

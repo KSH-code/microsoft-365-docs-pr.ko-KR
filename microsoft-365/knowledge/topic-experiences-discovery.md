@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: 각 항목에서 항목 검색을 Microsoft Viva 방법을 배워야 합니다.
-ms.openlocfilehash: 39ecd7ab79267d560b614e981f1ef7ad14fd807db94c64a9483b1603d0e2733a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2316df8df7a1d8fb2b8e0951e12810398bcb2e40
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53870096"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575567"
 ---
 # <a name="manage-topic-discovery-in-microsoft-viva-topics"></a>항목에서 항목 Microsoft Viva 관리
 
@@ -30,7 +30,7 @@ ms.locfileid: "53870096"
 
 3. 항목 검색 **탭을** 선택합니다. 각 설정에 대한 자세한 내용은 다음 섹션을 참조하세요.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-discovery.png) 
+    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-discovery.png) 
 
 ## <a name="select-sharepoint-topic-sources"></a>항목 SharePoint 선택
 
@@ -53,7 +53,7 @@ Site name,URL
     - **선택한 사이트만:** 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 이후에 생성된 사이트는 토픽 검색의 원본으로 포함되지 않습니다.
     - **사이트 없음:** 항목은 콘텐츠가 자동으로 생성되거나 업데이트되지 SharePoint 않습니다. 기존 항목은 항목 센터에 남아 있습니다.
 
-    ![항목의 SharePoint 인터페이스 스크린샷](../media/k-manage-select-topic-source.png)
+    ![소스 SharePoint 인터페이스의 스크린샷입니다.](../media/k-manage-select-topic-source.png)
    
 3. **저장** 을 클릭합니다.
 
@@ -66,7 +66,7 @@ Site name,URL
 3. 목록을 만들어야 하는 경우 .csv 템플릿을 다운로드하고 제외할 항목을 *추가합니다(아래* .csv 서식 파일 작업 참조). 파일이 준비되면 찾아보기를 **클릭하고** 파일을 업로드합니다. 기존 목록이 있는 경우 목록이 포함된 .csv 수 있습니다.
 4. **저장** 을 클릭합니다.
 
-    ![제외 항목 사용자 인터페이스 스크린샷](../media/km-manage-exclude-topics.png)
+    ![제외 항목 사용자 인터페이스 스크린샷.](../media/km-manage-exclude-topics.png)
 
 ### <a name="working-with-the-csv-template"></a>.csv 작업
 
@@ -84,7 +84,7 @@ CSV 템플릿에서 제외할 토픽에 대한 다음 정보를 입력합니다.
 - **Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.
 - **MatchType-Exact/Partial**: 입력한 이름이 정확히  일치 유형인지 또는 부분 일치 *유형인지 여부를* 입력합니다.
 
-    ![CSV 템플릿에서 항목 제외](../media/exclude-topics-csv.png) 
+    ![CSV 서식 파일에서 항목을 제외합니다.](../media/exclude-topics-csv.png) 
 
 ## <a name="see-also"></a>참고 항목
 

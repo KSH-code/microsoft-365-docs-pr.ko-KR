@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Azure ExpressRoute와 함께 Azure ExpressRoute를 Office 365 배포하는 경우 네트워크 구현 프로젝트를 계획합니다.
-ms.openlocfilehash: 742beb28db325b61c837d205b9463be3fcc551087628d39e3c1ce3839a1fd3d5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 599b1b6a40e8b74f7ca4e3ad90723f201b74592d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830404"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573166"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Office 365용 Azure Express 경로
 
@@ -49,7 +49,7 @@ Azure ExpressRoute를 사용자와 함께 사용하는 Office 365 Azure ExpressR
 
 Office 365, Windows Update 및 TechNet과 같은 모든 Microsoft 응용 프로그램에 액세스하기 위해 인터넷을 통해 Microsoft의 데이터 센터에 연결하는 일반적인 Office 365 높은 수준의 네트워크 다이어그램을 고려합니다. 고객은 사내 네트워크에서 연결하는지 독립적인 인터넷 연결에 관계없이 유사한 네트워크 경로를 사용하게 됩니다.
 
-![Office 365 연결](../media/9d8bc622-4a38-4a3b-a0f3-68657712d460.png)
+![Office 365 연결합니다.](../media/9d8bc622-4a38-4a3b-a0f3-68657712d460.png)
 
 이제 인터넷 및 ExpressRoute를 사용하여 인터넷에 연결하는 Office 365 고객을 설명하는 업데이트된 다이어그램을 Office 365. 공용 DNS 및 Content Delivery Network 노드와 같은 일부 연결에는 여전히 공용 인터넷 연결이 필요합니다. 또한 ExpressRoute 연결된 건물에 없는 고객의 사용자가 인터넷을 통해 연결하고 있는지 확인합니다.
 
@@ -103,7 +103,7 @@ For expressRoute for Office 365, you'll need to work with one or more [approved 
 
 [ExpressRoute에](https://aka.ms/ert)등록할 준비가 Office 365?
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
 

@@ -20,12 +20,12 @@ ms.collection:
 description: 관리자는 보안 설정을 높이고 조직에서 우선 순위 계정에 대한 보고서, 경고 및 조사를 사용하는 방법을 Microsoft 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1cf813706a5fc0180ed36943c6bc7ae54e35ae346aba3d2b0251489e05cc715b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e2fc9c95389bd72ebea11dcfe808101a6ca5ab40
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53844107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576047"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>2016년 8월의 우선 순위 계정에 대한 보안 Microsoft 365
 
@@ -35,19 +35,19 @@ ms.locfileid: "53844107"
 
 Microsoft 365 및 Microsoft Defender for Office 365 계정에 추가 보안 계층을 제공하는 몇 가지 주요 기능이 포함되어 있습니다. 이 문서에서는 이러한 기능과 이러한 기능을 사용하는 방법에 대해 설명합니다.
 
-![아이콘 양식의 보안 권장 사항 요약](../../media/security-recommendations-for-priority-users.png)
+![아이콘 양식의 보안 권장 사항 요약입니다.](../../media/security-recommendations-for-priority-users.png)
 
 <br>
 
 ****
 
-|작업 |모든 Office 365 Enterprise 계획|Microsoft 365 E3|Microsoft 365 E5|
+|작업|모든 Office 365 Enterprise 계획|Microsoft 365 E3|Microsoft 365 E5|
 |---|:---:|:---:|:---:|
-|[우선 순위 계정에 대한 로그인 보안 강화](#increase-sign-in-security-for-priority-accounts)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|[우선 순위 계정에 대해 엄격한 미리 설정 보안 정책 사용](#use-strict-preset-security-policies-for-priority-accounts)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[우선 순위 계정에 대한 로그인 보안 강화](#increase-sign-in-security-for-priority-accounts)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[우선 순위 계정에 대해 엄격한 미리 설정 보안 정책 사용](#use-strict-preset-security-policies-for-priority-accounts)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[우선 순위 계정에 사용자 태그 적용](#apply-user-tags-to-priority-accounts)|||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[경고, 보고서 및 검색에서 우선 순위 계정 모니터링](#monitor-priority-accounts-in-alerts-reports-and-detections)|||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|[사용자 교육](#train-users)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[사용자 교육](#train-users)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
 
 > [!NOTE]

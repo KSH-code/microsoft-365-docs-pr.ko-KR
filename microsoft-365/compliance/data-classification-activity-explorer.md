@@ -18,18 +18,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: 5570cecdf3b7e6b6959bb20ca2c2fcdd0ad2e6ebd6b579f7caf7a018049beaeb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8aff58bfd37fbf4e8573546f84f7670424e6b4d8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886419"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571402"
 ---
 # <a name="get-started-with-activity-explorer"></a>활동 탐색기 시작하기
 
 데이터 [분류 개요 및](data-classification-overview.md) 콘텐츠 [탐색기](data-classification-content-explorer.md) 탭을 사용하면 검색되고 레이블이 지정되는 콘텐츠와 해당 콘텐츠의 위치를 확인할 수 있습니다. 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠로 수행한 작업을 모니터링할 수 있도록 하여 이 기능 제품군을 자세히 설명합니다. 활동 탐색기는 레이블이 지정한 콘텐츠에 대한 활동의 기록 보기를 제공합니다. 활동 정보는 통합 감사 Microsoft 365 수집되어 활동 탐색기 UI에서 사용할 수 있도록 변환됩니다. 
 
-![자리 표시자 스크린샷 개요 활동 탐색기](../media/data-classification-activity-explorer-1.png)
+![자리 holder 스크린샷 개요 활동 탐색기입니다.](../media/data-classification-activity-explorer-1.png)
 
 사용할 수 있는 30개가 넘는 여러 가지 필터가 있습니다. 예를 들면:
 

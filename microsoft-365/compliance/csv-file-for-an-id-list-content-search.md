@@ -18,12 +18,12 @@ ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 ms.custom:
 - seo-marvel-apr2020
 description: 기존 콘텐츠 검색의 CSV 파일을 사용하여 특정 전자 메일 항목을 반환하는 ID 목록 검색을 만들 수 있습니다.
-ms.openlocfilehash: db22ac702e71004d73728350acf4242c9a5ac25d59749584dc8a7948ff2d1065
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3fc43f410d6361ac655f7f839b6b4f8752483ef9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871953"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571076"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>ID 목록 콘텐츠 검색을 위한 CSV 파일 준비
 
@@ -35,7 +35,7 @@ ID 목록 검색을 만드는 프로세스를 간략하게 간략하게 소개�
 
 1. 검색에서 새 검색을 만들고 Microsoft 365 규정 준수 센터.
 
-2. 콘텐츠 검색 결과 또는 콘텐츠 검색 보고서를 내보낼 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.
+2. 콘텐츠 검색 결과 또는 콘텐츠 검색 보고서를 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
     - [콘텐츠 검색 결과 내보내기](export-search-results.md)
 
@@ -69,7 +69,7 @@ ID 목록 검색을 만드는 프로세스를 간략하게 간략하게 소개�
 
     다음은 ID 목록 콘텐츠 검색을 위해 제출할 준비가 된 CSV 파일의 예입니다.
 
-    ![대상 콘텐츠 검색을 위한 CSV 파일의 예](../media/SearchIDListCSVFile.png)
+    ![대상 콘텐츠 검색을 위한 CSV 파일의 예입니다.](../media/SearchIDListCSVFile.png)
 
 6. CSV 파일을 저장하거나  다른 이름으로 저장을 사용하여 다른 파일 이름으로 파일을 저장합니다. 두 경우 모두 CSV 형식으로 파일을 저장해야 합니다.
 
@@ -94,7 +94,7 @@ ID 목록 검색을 만드는 프로세스를 간략하게 간략하게 소개�
 
     다음은 생성된 쿼리와 예상 검색 결과 수를 표시하는 ID 목록 검색의 플라이아웃 페이지의 예입니다.
 
-    ![ID 목록 검색에 대한 검색 쿼리](../media/SearchIDListFlyout.png)
+    ![ID 목록 검색을 위한 검색 쿼리입니다.](../media/SearchIDListFlyout.png)
 
     ID 검색 통계에 표시되는 예상 항목 수는 CSV 파일에서 선택한 항목 수와 일치해야 합니다.
 

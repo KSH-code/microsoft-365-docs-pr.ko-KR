@@ -23,12 +23,12 @@ ms.custom:
 description: Office 365 Online, Office 365 및 SharePoint 파일용 Microsoft Defender에 대해 비즈니스용 OneDrive Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d7a3333e228ffdb5b3bf38ed2b4ab119a1e973e9dd71c8db94e26f27d9cb44d2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f9ab3c10292aed5f6f39a8534680cb8e9c5d3551
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56885477"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572434"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams를 위한 안전한 첨부 파일
 
@@ -46,17 +46,17 @@ ms.locfileid: "56885477"
 
 금고, SharePoint, OneDrive 및 Microsoft Teams 첨부 파일을 사용하도록 설정하고 파일을 악성으로 식별하면 파일이 파일 저장소와 직접 통합되어 잠겨 있습니다. 다음 그림은 라이브러리에서 검색되는 악성 파일의 예입니다.
 
-![악성 파일로 탐지된 한 개의 파일을 포함한 비즈니스용 OneDrive에 있는 파일](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
+![악성으로 비즈니스용 OneDrive 파일이 있는 파일.](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
 
 차단된 파일은 문서 라이브러리 및 웹, 모바일 또는 데스크톱 응용 프로그램에 계속 나열되어도 파일을 열거나 복사하거나 이동하거나 공유할 수 없습니다. 그러나 차단된 파일을 삭제할 수 있습니다.
 
 다음은 차단된 파일이 모바일 장치에서 어떻게 보이는지의 예입니다.
 
-![OneDrive 모바일 앱의 비즈니스용 OneDrive에서 차단된 파일 삭제](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
+![모바일 앱에서 차단된 비즈니스용 OneDrive 삭제 OneDrive 삭제합니다.](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
 기본적으로 사용자들은 차단된 파일을 다운로드할 수 있습니다. 다음은 차단된 파일을 다운로드할 때의 모양입니다.
 
-![비즈니스용 OneDrive에서 차단된 파일 다운로드](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
+![차단된 파일을 비즈니스용 OneDrive.](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
 SharePoint 온라인 관리자는 사용자가 악성 파일을 다운로드하지 못하게 할 수 있습니다. 자세한 내용은 [SharePoint Online PowerShell을](turn-on-mdo-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)사용하여 사용자가 악성 파일을 다운로드하지 못하게 방지를 참조하세요.
 

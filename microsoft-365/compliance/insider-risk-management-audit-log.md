@@ -12,18 +12,18 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: fad8d20e0c3e6e1d3e8a9587a211fb109d869d1ab849c8e6948b9f476e543820
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6fa7ab5b30a4cfad8ec4305c0ddf8fcda1c6f284
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53880179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571353"
 ---
 # <a name="insider-risk-management-audit-log"></a>내부자 위험 관리 감사 로그
 
 내부자 위험 관리 감사 로그를 사용하면 내부자 위험 관리 기능에 대해 수행된 작업에 대한 정보를 계속 알 수 있습니다. 이 로그를 사용하면 하나 이상의 내부자 위험 관리 역할 그룹에 할당된 사용자가 수행한 작업을 독립적으로 검토할 수 있습니다. 내부자 위험 관리 감사 로그는 조직에서 자동으로 사용하도록 설정되며 사용하지 않도록 설정할 수 없습니다.
 
-![내부자 위험 관리 감사 로그](../media/insider-risk-audit-log.png)
+![내부자 위험 관리 감사 로그입니다.](../media/insider-risk-audit-log.png)
 
 감사 로그는 모니터링된 활동이 발생할 때마다 자동으로 즉시 업데이트되며 로그는 180일(약 6개월) 동안 활동에 대한 정보를 보존합니다. 180일이 지난 후 활동의 데이터는 로그에서 영구적으로 삭제됩니다.
 

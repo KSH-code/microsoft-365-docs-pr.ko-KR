@@ -19,12 +19,12 @@ description: 관리자는 보안 및 준수 센터의 보안 및 준수 센터�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 41eb92fd5e36d4067f959cae564f3e2bf86f2c62
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 4f0c42972d3f7beb6fcfc20aa2e520ce46606a67
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585587"
+ms.locfileid: "58571244"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>보안 및 규정 준수 센터의 사용 권한
 
@@ -74,7 +74,7 @@ ms.locfileid: "58585587"
 |**통신 준수 조사자**|정책 일치를 조사하고 메시지 콘텐츠를 보고 수정 조치를 취할 수 있는 커뮤니케이션 규정 준수 분석가|사례 관리 <p> 커뮤니케이션 규정 준수 분석 <p> 커뮤니케이션 규정 준수 케이스 관리 <p> 커뮤니케이션 규정 준수 조사 <p> 데이터 분류 피드백 공급자 <p> View-Only 사례|
 |**통신 준수 뷰어**|사용 가능한 보고서 및 위젯에 액세스할 수 있는 커뮤니케이션 규정 준수의 뷰어입니다.|커뮤니케이션 규정 준수 케이스 관리 <p> 커뮤니케이션 규정 준수 뷰어|
 |**준수 관리자**<sup>1</sup>|구성원은 장치 관리, 데이터 손실 방지, 보고서 및 보존에 대한 설정을 관리할 수 있습니다.|사례 관리 <p> 규정 준수 관리자 <p> 준수 검색 <p> 데이터 분류 피드백 공급자 <p> 데이터 분류 피드백 검토자 <p> 디바이스 관리 <p> Disposition Management <p> DLP 규정 준수 관리 <p> Hold <p> IB 규정 준수 관리 <p> 알림 관리 <p> 조직 구성 <p> RecordManagement <p> 보존 관리 <p> 보기 전용 감사 로그 <p> View-Only 사례 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리 <p> 보기 전용 받는 사람 <p> View-Only 레코드 관리 <p> View-Only 보존 관리|
-|**규정 준수 데이터 관리자**|구성원은 장치 관리, 데이터 보호, 데이터 손실 방지, 보고서 및 보존에 대한 설정을 관리할 수 있습니다.|규정 준수 관리자 <p> 준수 검색 <p> 디바이스 관리 <p> DLP 규정 준수 관리 <p> Disposition Management <p> IB 규정 준수 관리 <p> 알림 관리 <p> 조직 구성 <p> RecordManagement <p> 보존 관리 <p> 민감도 레이블 관리자 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리 <p> 보기 전용 받는 사람 <p> View-Only 레코드 관리 <p> View-Only 보존 관리|
+|**준수 데이터 관리자**|구성원은 장치 관리, 데이터 보호, 데이터 손실 방지, 보고서 및 보존에 대한 설정을 관리할 수 있습니다.|규정 준수 관리자 <p> 준수 검색 <p> 디바이스 관리 <p> DLP 규정 준수 관리 <p> Disposition Management <p> IB 규정 준수 관리 <p> 알림 관리 <p> 조직 구성 <p> RecordManagement <p> 보존 관리 <p> 민감도 레이블 관리자 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리 <p> 보기 전용 받는 사람 <p> View-Only 레코드 관리 <p> View-Only 보존 관리|
 |**준수 관리자의 관리자**|서식 파일 만들기 및 수정을 관리합니다.|준수 관리자 관리 <p> 준수 관리자 평가 <p> 준수 관리자 기여 <p> 준수 관리자의 독자|
 |**준수 관리자의 평가자**|평가를 만들고, 개선 작업을 구현하고, 개선 작업에 대한 테스트 상태를 업데이트합니다.|준수 관리자 평가 <p> 준수 관리자 기여 <p> 준수 관리자의 독자|
 |**준수 관리자의 참가자**|평가를 만들고 개선 작업을 구현하기 위한 작업을 수행합니다.|준수 관리자 기여 <p> 준수 관리자의 독자|
@@ -94,9 +94,9 @@ ms.locfileid: "58585587"
 |**Quarantine Administrator**|구성원은 모든 Quarantine 작업에 액세스할 수 있습니다. 자세한 내용은 EOP에서 관리자로 [quarantined messages and files를 참조하세요.](manage-quarantined-messages-and-files.md)|격리|
 |**레코드 관리**|구성원은 보존 레이블 및 삭제 검토를 포함하여 레코드 관리의 모든 측면을 구성할 수 있습니다.|Disposition Management <p> RecordManagement <p> 보존 관리|
 |**Reviewer**|구성원은 각 사례의 검토 [집합에 Advanced eDiscovery](../../compliance/overview-ediscovery-20.md) 있습니다. 이 역할 그룹의 구성원은 구성원으로 있는 **eDiscovery** > 고급 페이지에서 사례 목록을 Microsoft 365 규정 준수 센터 수 있습니다. 사용자가 사례에 액세스한 Advanced eDiscovery 사례 데이터에 액세스하는 검토 집합을 선택할 수 있습니다.  이 역할은 사용자가 사례와 연결된 컬렉션 검색 결과를 미리 보거나 다른 검색 또는 사례 관리 작업을 수행할 수 없습니다. 이 역할 그룹의 구성원은 검토 집합의 데이터에만 액세스할 수 있습니다.|검토|
-|**보안 관리자**|구성원은 ID 보호 센터, Privileged Identity Management, Microsoft 365 서비스 상태 모니터링 및 보안 및 준수 센터의 다양한 & 액세스할 수 있습니다. <p> 기본적으로 이 역할 그룹은 구성원이 없는 것으로 나타나지 않을 수 있습니다. 그러나 이 역할 그룹에는 Azure Active Directory 관리자 역할이 할당됩니다. 따라서 이 역할 그룹은 보안 관리자 역할의 기능과 구성원 자격을 Azure Active Directory. <p> 중앙에서 사용 권한을 관리하려면 관리 센터에서 그룹 구성원을 Azure Active Directory 제거합니다. 자세한 내용은 Azure AD 기본 [제공 역할을 참조하세요.](/azure/active-directory/roles/permissions-reference) Security & Compliance Center(구성원 또는 역할)에서 이 역할 그룹을 편집하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용될 뿐 다른 서비스에는 적용되지 않습니다. <p> 이 역할 그룹에는 보안 읽기 권한자 역할의 모든 읽기 전용 권한과 동일한 서비스에 대한 다양한 추가 관리 권한이 포함됩니다. Azure Information Protection, IDENTITY Protection Center, Privileged Identity Management, Microsoft 365 Service Health 및 Security & Compliance Center.|감사 로그 <p> 디바이스 관리 <p> DLP 규정 준수 관리 <p> IB 규정 준수 관리 <p> 알림 관리 <p> 격리 <p> 보안 관리자 <p> 민감도 레이블 관리자 <p> 태그 참가자 <p> 태그 관리자 <p> 태그 읽기 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
+|**보안 관리자**|구성원은 ID 보호 센터, Privileged Identity Management, Microsoft 365 서비스 상태 모니터링 및 보안 및 준수 센터의 다양한 & 액세스할 수 있습니다. <p> 기본적으로 이 역할 그룹은 구성원이 없는 것으로 나타나지 않을 수 있습니다. 그러나 이 역할 그룹에는 Azure Active Directory 관리자 역할이 할당됩니다. 따라서 이 역할 그룹은 보안 관리자 역할의 기능과 구성원 자격을 Azure Active Directory. <p> 중앙에서 사용 권한을 관리하려면 관리 센터에서 그룹 구성원을 Azure Active Directory 제거합니다. 자세한 내용은 에서 관리자 역할 [권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Security & Compliance Center(구성원 또는 역할)에서 이 역할 그룹을 편집하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용될 뿐 다른 서비스에는 적용되지 않습니다. <p> 이 역할 그룹에는 보안 읽기 권한자 역할의 모든 읽기 전용 권한과 동일한 서비스에 대한 다양한 추가 관리 권한이 포함됩니다. Azure Information Protection, IDENTITY Protection Center, Privileged Identity Management, Microsoft 365 Service Health 및 Security & Compliance Center.|감사 로그 <p> 디바이스 관리 <p> DLP 규정 준수 관리 <p> IB 규정 준수 관리 <p> 알림 관리 <p> 격리 <p> 보안 관리자 <p> 민감도 레이블 관리자 <p> 태그 참가자 <p> 태그 관리자 <p> 태그 읽기 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
 |**보안 운영자**|구성원은 보안 알림을 관리하고 보안 기능의 보고서 및 설정을 볼 수 있습니다.|준수 검색 <p> 알림 관리 <p> 보안 읽기 권한자 <p> 태그 참가자 <p> 태그 읽기 <p> 보기 전용 감사 로그 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
-|**보안 읽기 권한자**|구성원은 ID 보호 센터, Privileged Identity Management, Microsoft 365 서비스 상태 모니터링 및 보안 및 준수 센터의 다양한 보안 & 읽기 전용으로 액세스할 수 있습니다. <p> 기본적으로 이 역할 그룹은 구성원이 없는 것으로 나타나지 않을 수 있습니다. 그러나 이 역할 그룹에 Azure Active Directory 보안 읽기 사용자 역할이 할당됩니다. 따라서 이 역할 그룹은 보안 독자 역할의 기능과 구성원 자격을 Azure Active Directory. <p> 중앙에서 사용 권한을 관리하려면 관리 센터에서 그룹 구성원을 Azure Active Directory 제거합니다. 자세한 내용은 Azure AD 기본 [제공 역할을 참조하세요.](/azure/active-directory/roles/permissions-reference) Security & Compliance Center(구성원 또는 역할)에서 이 역할 그룹을 편집하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용될 뿐 다른 서비스에는 적용되지 않습니다.|보안 읽기 권한자 <p> 민감도 레이블 판독기 <p> 태그 읽기 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
+|**보안 읽기**|구성원은 ID 보호 센터, Privileged Identity Management, Microsoft 365 서비스 상태 모니터링 및 보안 및 준수 센터의 다양한 보안 & 읽기 전용으로 액세스할 수 있습니다. <p> 기본적으로 이 역할 그룹은 구성원이 없는 것으로 나타나지 않을 수 있습니다. 그러나 이 역할 그룹에 Azure Active Directory 보안 읽기 사용자 역할이 할당됩니다. 따라서 이 역할 그룹은 보안 독자 역할의 기능과 구성원 자격을 Azure Active Directory. <p> 중앙에서 사용 권한을 관리하려면 관리 센터에서 그룹 구성원을 Azure Active Directory 제거합니다. 자세한 내용은 에서 관리자 역할 [권한을 Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Security & Compliance Center(구성원 또는 역할)에서 이 역할 그룹을 편집하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용될 뿐 다른 서비스에는 적용되지 않습니다.|보안 읽기 권한자 <p> 민감도 레이블 판독기 <p> 태그 읽기 <p> View-Only 관리 <p> View-Only DLP 준수 관리 <p> View-Only IB 준수 관리 <p> View-Only 관리|
 |**서비스 보증 사용자**|구성원은 보안 및 준수 센터의 서비스 보증 섹션에 & 있습니다. 서비스 보증은 Microsoft에 저장된 고객 데이터에 대한 Microsoft의 보안 사례를 설명하는 보고서 및 문서를 Microsoft 365. 또한 독립적인 타사 감사 보고서도 Microsoft 365. 자세한 내용은 Security & Compliance Center의 서비스 [보증을 참조하세요.](../../compliance/service-assurance.md)|서비스 보증 보기|
 |**관리 검토**|구성원은 조직에서 검토되어야 하는 통신을 정의하는 정책을 만들고 관리할 수 있습니다. 자세한 내용은 [조직에 대한 통신 준수 정책 구성을 참조하세요.](../../compliance/communication-compliance-configure.md)|관리 검토 관리자|
 |
@@ -190,7 +190,7 @@ ms.locfileid: "58585587"
 |**역할 관리**|역할 그룹 구성원을 관리하고 사용자 지정 역할 그룹을 만들거나 삭제합니다.|조직 관리|
 |**검색 및 제거**|사용자가 콘텐츠 검색 조건과 일치하는 데이터를 대량으로 제거할 수 있도록 합니다.|조직 관리|
 |**보안 관리자**|보안 기능에 대한 구성 및 보고서를 보고 편집합니다.|조직 관리 <p> 보안 관리자|
-|**보안 읽기 권한자**|보안 기능에 대한 구성 및 보고서를 볼 수 있습니다.|전역 읽기 권한자 <p> 조직 관리 <p> 보안 운영자 <p> 보안 읽기 권한자|
+|**보안 읽기**|보안 기능에 대한 구성 및 보고서를 볼 수 있습니다.|전역 읽기 권한자 <p> 조직 관리 <p> 보안 운영자 <p> 보안 읽기 권한자|
 |**민감도 레이블 관리자**|민감도 레이블을 보고, 만들고, 수정하고, 제거합니다.|규정 준수 데이터 관리자 <p> 조직 관리 <p> 보안 관리자|
 |**민감도 레이블 판독기**|민감도 레이블의 구성 및 사용 현황을 시청합니다.|전역 읽기 권한자 <p> 조직 관리 <p> 보안 읽기 권한자|
 |**서비스 보증 보기**|Service Assurance 섹션에서 사용 가능한 문서를 다운로드합니다. 콘텐츠에는 규정 준수 및 보안 위험을 관리하는 데 Microsoft 365 감사, 규정 준수 설명서 및 신뢰 관련 지침이 포함되어 있습니다.|전역 읽기 권한자 <p> 조직 관리 <p> 서비스 보증 사용자|

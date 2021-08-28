@@ -17,12 +17,12 @@ ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
 description: 사례 파일의 결정 탭에서 Advanced eDiscovery 파일 검토 집합의 올바른 크기를 결정하는 데 도움이 되는 데이터를 제공하는 방법을 확인합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b1bab0cc7460e9260dd8f7bc6b5adb90d5a06a9b0e7832b28f7d3a2cb4e35f85
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: deb47c0c795a828804722085f8cfa3b002580307
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571365"
 ---
 # <a name="decisions-based-on-relevance-results-in-advanced-ediscovery"></a>Advanced eDiscovery
   
@@ -30,7 +30,7 @@ ms.locfileid: "53842347"
   
 ## <a name="using-the-decide-tab"></a>결정 탭 사용
 
-![관련성을 결정](../media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
+![Relevance Decide.](../media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
   
 이 탭에는 다음과 같은 구성 요소가 포함됩니다.
   

@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: 엔터프라이즈 테스트 환경에 대한 사용자 Microsoft 365 그룹 기반 라이선싱 및 동적 그룹 구성원을 구성합니다.
-ms.openlocfilehash: f7c871c7005163aa81e911b15f8a3c91e8ea9c43
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 7d754b937296fbd852904022c45492b6890f2f04
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356591"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572686"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 사용자 Microsoft 365 라이선스 및 그룹 구성원 자동화
 
@@ -33,7 +33,7 @@ ms.locfileid: "58356591"
 - [1단계: 엔터프라이즈 테스트 Microsoft 365 사용자 환경 구축](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
 - [2단계: 동적 그룹 구성원 자격 및 자동 라이선싱 구성 및 테스트](#phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing)
 
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)

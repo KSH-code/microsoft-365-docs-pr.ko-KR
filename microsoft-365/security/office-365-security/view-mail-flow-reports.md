@@ -19,12 +19,12 @@ description: 관리자는 보안 및 준수 센터의 보고서 대시보드에�
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 087b9fea8b22a9d1f99f2bc3a74217a0b21aa264d7e26764e6abfe71f5d84075
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5c1993668b94ca8c71ccbf13e5fe59059c610cca
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56816056"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572410"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 및 준수 센터의 보고서 대시보드에서 & 흐름 보고서 보기
 
@@ -42,7 +42,7 @@ ms.locfileid: "56816056"
 
 필요한 권한이 [](#what-permissions-are-needed-to-view-these-reports)있는 경우 보고서 대시보드로 & 보안 및 준수 [센터에서](https://protection.office.com) 이러한 보고서를 볼 **수** \> **있습니다.** 보고서 대시보드로 직접 이동하기 위해 를 를 <https://protection.office.com/insightdashboard> 습니다.
 
-![보안 및 준수 센터의 & 보고서](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![보안 및 준수 센터의 & 보고합니다.](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
 ## <a name="connector-report"></a>커넥터 보고서
 
@@ -65,7 +65,7 @@ ms.locfileid: "56816056"
 
   차트에서 데이터를 격리하려면 컨트롤에  대한 데이터 표시를 사용하여 이러한 옵션 중 하나 또는 모든 메일 **흐름을 선택합니다.**
 
-  ![커넥터 보고서에서 메일 흐름으로 데이터 보기](../../media/connector-report-view-data-by-mail-flow.png)
+  ![커넥터 보고서에서 메일 흐름을 통해 데이터를 볼 수 있습니다.](../../media/connector-report-view-data-by-mail-flow.png)
 
 - **다음을 통해 데이터 보기: TLS** 사용: 이 차트는 메일 흐름에 대한 TLS(전송 계층 보안) 버전 사용량의 백분율을 보여 줍니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "56816056"
   - **커넥터가 없는 인터넷으로**
   - 구성한 특정 커넥터입니다.
 
-  ![커넥터 보고서에서 TLS 사용 현황으로 데이터 보기](../../media/connector-report-view-data-by-tls-usage.png)
+  ![커넥터 보고서에서 TLS 사용 현황을 통해 데이터를 볼 수 있습니다.](../../media/connector-report-view-data-by-tls-usage.png)
 
 보고서 보기에서 **필터를** 클릭하면 시작 날짜 및  종료 날짜로 날짜 범위를 **지정할 수 있습니다.**
 
@@ -104,7 +104,7 @@ Exchange **전송** 규칙 보고서는 메일 흐름 규칙(전송 규칙)이 �
 
 보고서를 표시하려면 보안 및 준수 [&](https://protection.office.com)를  열고 보고서 대시보드로 이동하여 전송 \>  **Exchange 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=ETRRuleReport> 습니다.
 
-![Exchange 대시보드의 전송 규칙 위젯](../../media/transport-rule-report-widget.png)
+![Exchange 대시보드에서 전송 규칙 위젯을 선택합니다.](../../media/transport-rule-report-widget.png)
 
 ### <a name="report-view-for-the-exchange-transport-rule-report"></a>전송 규칙 보고서의 Exchange 보기
 
@@ -132,7 +132,7 @@ Exchange **전송** 규칙 보고서는 메일 흐름 규칙(전송 규칙)이 �
 - 방향 값
 - 심각도 값
 
-![전송 규칙 보고서의 Exchange 보기](../../media/transport-rule-report-report-view.png)
+![전송 규칙 보고서의 Exchange 보기입니다.](../../media/transport-rule-report-report-view.png)
 
 ### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>전송 규칙 보고서의 세부 Exchange 테이블 보기
 
@@ -173,7 +173,7 @@ Exchange **전송** 규칙 보고서는 메일 흐름 규칙(전송 규칙)이 �
 
 보고서를 표시하려면 보안 및 준수 & 를 열고 [보고서 대시보드로](https://protection.office.com)이동한 다음 보고서  \>  **전달을 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=MailFlowForwarding> 습니다.
 
-![보고서 대시보드의 보고서 위젯 전달](../../media/forwarding-report-widget.png)
+![보고서 대시보드에서 보고서 위젯 전달](../../media/forwarding-report-widget.png)
 
 ### <a name="report-view-for-the-forwarding-report"></a>전달 보고서에 대한 보고서 보기
 
@@ -184,18 +184,18 @@ Exchange **전송** 규칙 보고서는 메일 흐름 규칙(전송 규칙)이 �
   - **전송 규칙:** 메일 흐름 [규칙으로도 알려져 있습니다.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
   - **사서함 규칙:** 받은 편지함 [규칙으로도 알려져 있습니다.](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59)
 
-  ![전달 보고서의 전달 메서드 보기](../../media/forwarding-report-forwarding-methods.png)
+  ![전달 보고서의 전달 메서드 보기입니다.](../../media/forwarding-report-forwarding-methods.png)
 
 - **데이터 표시:** 도메인 전달: 이 보기에는 전달 대상인 받는 사람 도메인이 표시됩니다.
 
-  ![전달 보고서의 도메인 전달 보기](../../media/forwarding-report-forwarding-domains.png)
+  ![전달 보고서의 도메인 전달 보기입니다.](../../media/forwarding-report-forwarding-domains.png)
 
 - **다음에 대한 데이터 표시: 전달자:** 다음 전달자 표시
 
   - **전송 규칙**
   - 전달 받은 편지함 규칙이 포함된 사서함입니다.
 
-  ![전달 보고서의 전달자 보기](../../media/forwarding-report-forwarders.png)
+  ![전달 보고서의 전달자 보기입니다.](../../media/forwarding-report-forwarders.png)
 
 보고서 보기에서 **필터를** 클릭하면 시작 날짜 및  종료 날짜로 날짜 범위를 **지정할 수 있습니다.**
 
@@ -220,7 +220,7 @@ Exchange **전송** 규칙 보고서는 메일 흐름 규칙(전송 규칙)이 �
 메일 **흐름 상태 보고서는** [](#sent-and-received-email-report)전송 및 수신 전자 메일 보고서와 유사하며, 에지에서 허용되거나 차단되는 전자 메일에 대한 추가 정보가 있습니다. 이 보고서는 에지 보호 정보를 포함하는 유일한 보고서로, EOP(에지 보호)의 평가를 위해 서비스에 허용되기 전에 차단되는 전자 메일의 Exchange Online Protection 표시됩니다. 받는 사람 5명에게 메시지가 전송된 경우 하나의 메시지가 아니라 5개의 다른 메시지로 계산됩니다.
 보고서를 확인하려면 보안 및 준수 & 를 열고 보고서 [대시보드로](https://protection.office.com)이동하여 메일 흐름 상태  \>  **보고서를 선택합니다.** 메일 흐름 상태 보고서로 직접 **이동하기 위해 를** 열고 을 을 를 열 수 <https://protection.office.com/mailflowStatusReport> 있습니다.
 
-![보고서 대시보드의 메일 흐름 상태 보고서 위젯](../../media/mail-flow-status-report-widget.png)
+![보고서 대시보드의 메일 흐름 상황 보고서 위젯](../../media/mail-flow-status-report-widget.png)
 
 ### <a name="type-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 형식 보기
 
@@ -269,7 +269,7 @@ Exchange **전송** 규칙 보고서는 메일 흐름 규칙(전송 규칙)이 �
 
 내보낼 각 .csv 행은 150,000개로 제한됩니다. 해당 일의 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
-![메일 흐름 상태 보고서에 보기 입력](../../media/mail-flow-status-report-type-view.png)
+![메일 흐름 상태 보고서에 보기를 입력합니다.](../../media/mail-flow-status-report-type-view.png)
 
 ### <a name="direction-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 방향 보기
 
@@ -289,7 +289,7 @@ Exchange **전송** 규칙 보고서는 메일 흐름 규칙(전송 규칙)이 �
 
 내보낼 각 .csv 행은 150,000개로 제한됩니다. 해당 일의 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
-![메일 흐름 상태 보고서의 방향 보기](../../media/mail-flow-status-report-direction-view.png)
+![메일 흐름 상태 보고서의 방향 보기입니다.](../../media/mail-flow-status-report-direction-view.png)
 
 ### <a name="funnel-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 유입경로 보기
 
@@ -359,7 +359,7 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 
 내보낼 각 .csv 행은 150,000개로 제한됩니다. 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
- ![메일 흐름 상태 보고서의 유입경로 보기](../../media/mail-flow-status-report-funnel-view.png)
+ ![메일 흐름 상태 보고서의 유입경로 보기입니다.](../../media/mail-flow-status-report-funnel-view.png)
 
 ### <a name="tech-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 기술 보기
 
@@ -420,7 +420,7 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 
 내보낼 각 .csv 행은 150,000개로 제한됩니다. 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
- ![메일 흐름 상태 보고서의 기술 보기](../../media/mail-flow-status-report-Tech-view.png)
+ ![메일 흐름 상태 보고서의 기술 보기입니다.](../../media/mail-flow-status-report-Tech-view.png)
 
 ## <a name="sent-and-received-email-report"></a>보낸 전자 메일 보고서 및 받은 전자 메일 보고서
 
@@ -432,7 +432,7 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 
 보고서를 확인하려면 보안 및 준수 & 를 열고 [보고서 대시보드로](https://protection.office.com)이동하여 보내고 받은 전자  \>  **메일을 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=SentAndReceivedMailATP> 습니다.
 
-![보고서 대시보드에서 보내고 받은 전자 메일 위젯](../../media/sent-and-received-email-report-widget.png)
+![보고서 대시보드에서 보내고 받은 전자 메일 위젯입니다.](../../media/sent-and-received-email-report-widget.png)
 
 ### <a name="report-view-for-the-sent-and-received-email-report"></a>보내고 받은 전자 메일 보고서에 대한 보고서 보기
 
@@ -449,11 +449,11 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 
   차트에서 하루(데이터 데이터 포인트)를 마우스로 마우스로 대면 해당 일자에 대한 세부 정보를 볼 수 있습니다.
 
-  ![보내고 받은 전자 메일 보고서에 보기 입력](../../media/sent-and-received-email-report-type-view.png)
+  ![보내고 받은 전자 메일 보고서에 보기를 입력합니다.](../../media/sent-and-received-email-report-type-view.png)
 
 - **분석 결과: 방향:** 차트에 **총,** 인바운드 **및** 아웃바운드 **데이터가** 표시됩니다. 차트에서 하루(데이터 데이터 포인트)를 마우스로 마우스로 대면 해당 일자에 대한 세부 정보를 볼 수 있습니다.
 
-  ![보내고 받은 전자 메일 보고서의 방향 보기](../../media/sent-and-received-email-report-direction-view.png)
+  ![보내고 받은 전자 메일 보고서의 방향 보기입니다.](../../media/sent-and-received-email-report-direction-view.png)
 
 - **드릴다운** \> **맬웨어(맬웨어 방지)**: 이 선택을 통해 맬웨어 검색 [보고서로 진행됩니다.](view-email-security-reports.md#malware-detections-report)
 
@@ -508,7 +508,7 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 
 보고서 보기에서 **필터를** 클릭하면 시작 날짜 및  종료 날짜로 날짜 범위를 **지정할 수 있습니다.**
 
-![상위 보낸 사람 및 받는 사람 보고서의 보고서 보기에 있는 파이 차트](../../media/top-senders-and-recipients-report-view.png)
+![상위 보낸 사람 및 받는 사람 보고서의 보고서 보기에 있는 파이 차트입니다.](../../media/top-senders-and-recipients-report-view.png)
 
 ### <a name="details-table-view-for-the-top-senders-and-recipient-report"></a>상위 보낸 사람 및 받는 사람 보고서에 대한 세부 정보 테이블 보기
 
@@ -549,7 +549,7 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기 권한자**
+- **보안 읽기**
 - **전역 읽기 권한자**
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.

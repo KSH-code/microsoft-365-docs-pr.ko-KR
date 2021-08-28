@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: af66b41af4d4d427988bf46d266329777d3a908c
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: fb8e77a11b3844d78c99b56863bdb9ea424c48f9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572974"
 ---
 # <a name="enable-microsoft-defender-for-endpoint-evaluation-environment"></a>끝점 평가 환경에 Microsoft Defender 사용
 
@@ -39,7 +39,7 @@ ms.locfileid: "58394699"
 
 다음 단계를 사용하여 끝점용 Microsoft Defender에 대한 평가를 사용하도록 설정할 수 있습니다.
 
-![Microsoft Defender 평가 환경에서 끝점에 대해 Microsoft Defender를 사용하도록 설정하는 단계](../../media/defender/m365-defender-endpoint-eval-enable-steps.png)
+![Microsoft Defender 평가 환경에서 끝점에 대해 Microsoft Defender를 사용하도록 설정하는 단계입니다.](../../media/defender/m365-defender-endpoint-eval-enable-steps.png)
 
 - [1단계. 라이선스 상태 확인](#step-1-check-license-state)
 - [2단계. 끝점 온보드](#step-2-onboard-endpoints-using-any-of-the-supported-management-tools)
@@ -52,13 +52,13 @@ ms.locfileid: "58394699"
 
 1. 라이선스를 확인하기 위해 Microsoft Azure **포털로** 이동하여 Microsoft Azure 포털 라이선스 섹션으로 [이동합니다.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products)
 
-   ![Azure 라이선스 페이지의 이미지](../../media/defender/atp-licensing-azure-portal.png)
+   ![Azure 라이선스 페이지의 이미지입니다.](../../media/defender/atp-licensing-azure-portal.png)
 
 1. 또는 관리 센터에서 청구 **구독으로**  >  **이동합니다.**
 
     화면에 프로비전된 모든 라이선스 및 해당 현재 상태가 **표시됩니다.**
 
-    ![청구 라이선스 이미지](../../media/defender/atp-billing-subscriptions.png)
+    ![청구 라이선스의 이미지입니다.](../../media/defender/atp-billing-subscriptions.png)
 
 ## <a name="step-2-onboard-endpoints-using-any-of-the-supported-management-tools"></a>2단계. 지원되는 관리 도구를 사용하여 끝점 온보드
 

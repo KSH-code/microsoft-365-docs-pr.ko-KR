@@ -22,12 +22,12 @@ search.appverid:
 - MED150
 ms.assetid: 263faf8d-aa21-428b-aed3-2021837a4b65
 description: 이 문서에서는 기존 디렉터리 서비스 및 Microsoft 365 환경과 통합하는 방법을 알아보십시오.
-ms.openlocfilehash: 0f9f6d053affeae56fd9d26b93680e1f2d6eb139
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 87b456a0b44e4b38df6cec8e72713c6573917805
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58353723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575591"
 ---
 # <a name="microsoft-365-integration-with-on-premises-environments"></a>Microsoft 365 환경과의 통합
 
@@ -54,7 +54,7 @@ Microsoft 365 환경과 통합하기 전에 네트워크 계획 및 성능 조�
 
 AD DS에 기존 사용자 계정이 있는 경우 이러한 모든 계정을 Microsoft 365 환경 간의 차이점이나 오류가 발생할 위험이 있습니다. 디렉터리 동기화를 사용하면 해당 계정을 사내 환경과 온라인 환경 간에 미러링할 수 있습니다. 디렉터리 동기화를 사용하면 사용자가 각 환경에 대한 새 정보를 기억할 필요가 없습니다. 계정을 두 번 만들거나 업데이트할 필요가 없습니다. 디렉터리 동기화를 [위해](prepare-for-directory-synchronization.md) 사내 디렉터리를 준비해야 합니다.
   
-![디렉터리 동기화를 사용하여온-프레미스 및 온라인 사용자 계정 정보를 동기화된 유지](../media/microsoft-365-integration/directory-synchronization.png)
+![디렉터리 동기화를 사용하여 사내 및 온라인 사용자 계정 정보를 동기화된 것으로 유지할 수 있습니다.](../media/microsoft-365-integration/directory-synchronization.png)
   
 사용자가 자신의온-프레미스 자격 증명으로 Microsoft 365 로그온할 수 있도록 하려는 경우 SSO를 구성할 수도 있습니다. SSO를 Microsoft 365 인증을 위해 Microsoft 365 환경을 신뢰하도록 구성됩니다.
   

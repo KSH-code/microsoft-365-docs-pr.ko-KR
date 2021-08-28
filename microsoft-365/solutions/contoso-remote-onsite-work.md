@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso Corporation이 COVID-19에 대응하고 하이브리드 작업을 위한 소프트웨어 설치 및 업데이트 인프라를 설계한 방법을 이해합니다.
-ms.openlocfilehash: e40e655801cb8a980dcde4e9be2167b81f12f74cccd2bd43878c66a5aeac5ca5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 06ce48969d35017da47be1e75ec3c374b9afb9a1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816706"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575447"
 ---
 # <a name="contosos-covid-19-response-and-support-for-hybrid-work"></a>Contoso의 COVID-19 응답 및 하이브리드 작업 지원
 
@@ -35,7 +35,7 @@ Contoso는 이미 원격 인력의 25%를 지원하기 위해 파리 본사에 �
 
 다음은 파리 본사 및 각 위성 사무소에 VPN 장치를 설치한 결과 구성입니다. 
 
-![Contoso의 VPN 인프라](../media/contoso-remote-onsite-work/contoso-vpn-infrastructure.png)
+![Contoso의 VPN 인프라.](../media/contoso-remote-onsite-work/contoso-vpn-infrastructure.png)
 
 설치된 VPN 클라이언트가 있는 원격 작업원은 DNS를 사용하여 지역적으로 가장 가까운 사무실을 찾고 여기에 설치된 VPN 장치에 연결합니다. 분할 터널링을 Microsoft 365 최적화 끝점에 대한 트래픽은 지역적으로 가장 가까운 네트워크 Microsoft 365 전송됩니다. 다른 모든 트래픽은 VPN 연결을 통해 VPN 장치로 전송됩니다.
 
@@ -67,7 +67,7 @@ Microsoft 365, 보안 및 규정 준수 기능은 Zero Trust용으로 설계되�
 
 결과 인프라는 다음과 있습니다.
 
-![Contoso의 설치 및 업데이트 인프라](../media/contoso-remote-onsite-work/contoso-updates-infrastructure.png)
+![Contoso의 설치 및 업데이트 인프라.](../media/contoso-remote-onsite-work/contoso-updates-infrastructure.png)
 
 설치 및 업데이트 동작은 장치의 컴퓨터 계정을 다음 그룹 중 하나의 구성원으로 설정하여 결정됩니다.
 

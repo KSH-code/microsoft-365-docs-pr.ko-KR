@@ -21,12 +21,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: 페이지 진단 도구를 사용하여 온라인 최신 사이트 페이지에서 페이지 SharePoint 방법을 알아보십시오.
-ms.openlocfilehash: 95a8a978d0451c36416fbe22ae3135962d34bf22a3dae68688a9dafe59be52c0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 04c3e94abef062bbd37db268da56f21c2dd7dc65
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53848813"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573106"
 ---
 # <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 페이지부하 최적화
 
@@ -53,7 +53,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 **페이지 부하가 500KB 미만** 결과가 **주의 필요** 섹션에 표시되는 경우 클릭하여 세부 정보를 확인할 수 있습니다.
 
-![SharePoint 결과에 대한 요청](../media/modern-portal-optimization/pagediag-page-weight.png)
+![결과를 SharePoint 요청입니다.](../media/modern-portal-optimization/pagediag-page-weight.png)
 
 ## <a name="remediate-page-weight-issues"></a>페이지 부하 문제 수정
 
@@ -72,7 +72,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 성능 문제를 개선하기 위해 페이지를 수정하기 전에 분석 결과에 페이지 로드 시간을 기록해 둡니다. 수정 후에 다시 도구를 실행하여 새 결과가 기준선 표준에 포함되는지 확인하고 새 페이지 로드 시간을 확인하여 개선이 되었는지 확인합니다.
 
-![페이지 로드 시간 결과](../media/modern-portal-optimization/pagediag-page-load-time.png)
+![페이지 로드 시간 결과입니다.](../media/modern-portal-optimization/pagediag-page-load-time.png)
 
 >[!NOTE]
 >페이지 로드 시간은 네트워크 부하, 하루 중 시간 및 기타 일시적인 조건과 같은 다양한 요인에 따라 다를 수 있습니다. 결과의 평균을 내는데 도움이 되도록 수정을 하기 전과 후에 페이지 로드 시간을 몇 번 정도 테스트해야 합니다.

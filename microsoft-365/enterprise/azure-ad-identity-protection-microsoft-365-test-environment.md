@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Azure AD ID 보호를 구성하고 엔터프라이즈 테스트 환경에 Microsoft 365 현재 계정을 분석합니다.
-ms.openlocfilehash: 68b77803b4a2955efe58f742e27cb4fa6cfbb58c
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 446462215069c0bcc72e36c7c62260de0694f600
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356315"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572674"
 ---
 # <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 Azure AD ID 보호
 
@@ -33,7 +33,7 @@ Azure AD(Azure Active Directory) ID 보호를 사용하여 조직의 ID에 영�
 - [1단계: 엔터프라이즈 테스트 Microsoft 365 사용자 환경 구축](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
 - [2단계: Azure AD ID 보호 사용](#phase-2-use-azure-ad-identity-protection)
 
-![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Microsoft 클라우드용 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > 엔터프라이즈용 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈 테스트 랩 Microsoft 365 스택에 대한 자세한 [설명을 참조하세요.](../downloads/Microsoft365EnterpriseTLGStack.pdf)

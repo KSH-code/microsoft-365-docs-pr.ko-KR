@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 이러한 TLG(테스트 랩 가이드)를 사용하여 TLG에 대한 데모, 개념 증명 또는 개발/테스트 환경을 Microsoft 365.'
-ms.openlocfilehash: 7c1a1462c2bd177f30ced6b8e9ecdb17dd72adbc
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: a7dc8c4e731b03733b200b8750cc6157eb44a9c2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573154"
 ---
 # <a name="test-microsoft-365-with-test-lab-guides-tlgs"></a>테스트 Microsoft 365(테스트 랩 가이드)
 

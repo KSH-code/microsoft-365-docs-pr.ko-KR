@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 30b8b78bafab66957927c3802eb3ec739ccd91c5
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 14eeb2051cf4b071139c5849583901d3cc3186c9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257036"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572590"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -51,7 +51,7 @@ ms.locfileid: "58257036"
 - Microsoft 365 A5(M365 A5)
 - Microsoft 365 E5 Security
 - Microsoft 365 A5 보안
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
 
 > [!NOTE]
 > 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다.
@@ -66,7 +66,7 @@ ms.locfileid: "58257036"
 > [!NOTE]
 > 고객은 다음 사용자 라이선스 중 하나 이상에 대해 최소 50개 이상의 라이선스를 합한 경우 서버용 끝점용 Microsoft Defender에 대한 서버 라이선스(대상 서버당 OSE(운영 체제 환경))를 취득할 수 있습니다.
 >
-> * 끝점용 Microsoft Defender
+> * 엔드포인트용 Microsoft Defender
 > * Windows E5/A5
 > * Microsoft 365 E5/A5
 > * Microsoft 365 E5/A5 보안
@@ -166,7 +166,7 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 
    서비스가 사용하도록 설정된 경우 결과는 다음 스크린샷과 같아야 합니다.
 
-   ![diagtrack에 대한 sc 쿼리 명령의 결과](images/windefatp-sc-qc-diagtrack.png)
+   ![diagtrack에 대한 sc 쿼리 명령의 결과입니다.](images/windefatp-sc-qc-diagtrack.png)
 
 
 서비스가 에 로 설정되어 있지 않은  경우 START_TYPE 자동으로 시작 **AUTO_START.**

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: cc1c61979387806321f452dad666da60dd558a6bc9915bd7201f6d5a011cfc2d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 94191ebf12609eafb45f6f4fb19de2a6b072aa23
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53810059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575879"
 ---
 # <a name="microsoft-365-infographics-for-your-users"></a>Microsoft 365 인포그래픽 정보
 
@@ -32,7 +32,7 @@ ms.locfileid: "53810059"
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![캠페인 정보 그래픽 보호 도움말](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) <br/> [PDF로 다운로드](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  \  [앱으로 PowerPoint](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)| 조직의 정보를 안전하게 유지하기 위한 모범 사례를 공유합니다. 이 정보 그래픽은 정교한 해커를 대상으로 하여 정치적 캠페인의 직원을 지원하기 위해 만들어졌습니다. 조직에 맞게 이 PowerPoint 사용자 지정하기 위해 이 인포그래픽을 사용할 수 있습니다. 관련 문서: [사용자에 대한](../campaigns/m365-campaigns-users.md) 보안 권장 Microsoft 365 영향|
+|[![캠페인 정보 그래픽을 보호하는 데 도움이 됩니다.](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) <br/> [PDF로 다운로드](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  \  [앱으로 PowerPoint](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)| 조직의 정보를 안전하게 유지하기 위한 모범 사례를 공유합니다. 이 정보 그래픽은 정교한 해커를 대상으로 하여 정치적 캠페인의 직원을 지원하기 위해 만들어졌습니다. 조직에 맞게 이 PowerPoint 사용자 지정하기 위해 이 인포그래픽을 사용할 수 있습니다. 관련 문서: [사용자에 대한](../campaigns/m365-campaigns-users.md) 보안 권장 Microsoft 365 영향|
 
 <a name="sharefiles"></a>
 ## <a name="share-your-business-files"></a>비즈니스 파일 공유
@@ -41,7 +41,7 @@ ms.locfileid: "53810059"
   
 | 항목 | 설명 |
 |:-----|:-----|
-|[![비즈니스 파일 공유 인포그래픽용 축소판 이미지](../media/solutions-architecture-center/m365-smbscenarios-shareyourfiles-square.png)](https://go.microsoft.com/fwlink/?linkid=2079435) <br/> [PDF로 다운로드](https://go.microsoft.com/fwlink/?linkid=2079435)  \  [앱으로 PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) | 비즈니스 파일을 공유하고 공동 작업할 때 이러한 모범 사례를 사용하여 정보를 안전하게 보호할 수 있습니다. 관련 문서: [비즈니스 파일 공유 개요](../business-video/overview-file-sharing.md)|
+|[![비즈니스 파일 공유 인포그래픽에 대한 축소판 이미지입니다.](../media/solutions-architecture-center/m365-smbscenarios-shareyourfiles-square.png)](https://go.microsoft.com/fwlink/?linkid=2079435) <br/> [PDF로 다운로드](https://go.microsoft.com/fwlink/?linkid=2079435)  \  [앱으로 PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) | 비즈니스 파일을 공유하고 공동 작업할 때 이러한 모범 사례를 사용하여 정보를 안전하게 보호할 수 있습니다. 관련 문서: [비즈니스 파일 공유 개요](../business-video/overview-file-sharing.md)|
 
 <a name="onlinemeeting"></a>
 ## <a name="host-online-meetings"></a>온라인 모임 호스트
@@ -50,7 +50,7 @@ ms.locfileid: "53810059"
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![호스트 온라인 모임 인포그래픽의 축소판 이미지](../media/solutions-architecture-center/m365-smbscenarios-hostteammeetings-square.png)](https://go.microsoft.com/fwlink/?linkid=2078712) <br/> [PDF로 다운로드](https://go.microsoft.com/fwlink/?linkid=2078712)  \  [앱으로 PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) | 온라인 모임을 호스팅하거나 모임에 참가하는 방법을 빠르게 소개하는 Microsoft Teams. 관련 문서: [비즈니스를 위한 온라인 모임 호스트](../business-video/overview-online-meetings.md)|
+|[![호스트 온라인 모임 인포그래픽의 축소판 이미지입니다.](../media/solutions-architecture-center/m365-smbscenarios-hostteammeetings-square.png)](https://go.microsoft.com/fwlink/?linkid=2078712) <br/> [PDF로 다운로드](https://go.microsoft.com/fwlink/?linkid=2078712)  \  [앱으로 PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) | 온라인 모임을 호스팅하거나 모임에 참가하는 방법을 빠르게 소개하는 Microsoft Teams. 관련 문서: [비즈니스를 위한 온라인 모임 호스트](../business-video/overview-online-meetings.md)|
 
 <a name="workfromanywhere"></a>
 ## <a name="work-from-anywhere"></a>어디서나 작업
@@ -59,7 +59,7 @@ ms.locfileid: "53810059"
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![어디에서나 작업용 축소판 이미지 인포그래픽](../media/solutions-architecture-center/m365-smbscenarios-workfromanywhere-square.png)](https://go.microsoft.com/fwlink/?linkid=2079451) <br/> [PDF로 다운로드](https://go.microsoft.com/fwlink/?linkid=2079451)  \  [앱으로 PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455) | 어디에서나 작업할 수 있도록 모바일 장치를 설정하는 방법에 대한 팁을 참조하세요. 관련 문서: [어디에서나 작업](../business-video/work-from-anywhere.md)|
+|[![어디에서나 작업용 축소판 그림 인포그래픽.](../media/solutions-architecture-center/m365-smbscenarios-workfromanywhere-square.png)](https://go.microsoft.com/fwlink/?linkid=2079451) <br/> [PDF로 다운로드](https://go.microsoft.com/fwlink/?linkid=2079451)  \  [앱으로 PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455) | 어디에서나 작업할 수 있도록 모바일 장치를 설정하는 방법에 대한 팁을 참조하세요. 관련 문서: [어디에서나 작업](../business-video/work-from-anywhere.md)|
 
 <a name="surveywithforms"></a>
 ## <a name="survey-customers-with-forms"></a>Forms를 통해 고객 설문 조사
@@ -68,4 +68,4 @@ Microsoft Forms를 통해 고객(내부 또는 외부)을 설문 조사하는 �
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![양식 인포그래픽을 통해 설문 조사 고객을 위한 축소판 이미지](../media/solutions-architecture-center/m365-smbscenarios-surveywithforms-square.png)](https://go.microsoft.com/fwlink/?linkid=2079526) <br/> [PDF로 다운로드](https://go.microsoft.com/fwlink/?linkid=2079526)  \  [앱으로 PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079446) | Microsoft Forms를 사용하여 고객의 생각을 찾을 수 있습니다. 관련 문서: [Microsoft Forms를 통해 정보 수집](https://support.microsoft.com/topic/collect-information-with-microsoft-forms-a55d6e0d-04f6-45b8-b05f-b141b8ecb4d5)|
+|[![양식 인포그래픽을 통해 설문 조사 고객을 위한 축소판 이미지입니다.](../media/solutions-architecture-center/m365-smbscenarios-surveywithforms-square.png)](https://go.microsoft.com/fwlink/?linkid=2079526) <br/> [PDF로 다운로드](https://go.microsoft.com/fwlink/?linkid=2079526)  \  [앱으로 PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079446) | Microsoft Forms를 사용하여 고객의 생각을 찾을 수 있습니다. 관련 문서: [Microsoft Forms를 통해 정보 수집](https://support.microsoft.com/topic/collect-information-with-microsoft-forms-a55d6e0d-04f6-45b8-b05f-b141b8ecb4d5)|

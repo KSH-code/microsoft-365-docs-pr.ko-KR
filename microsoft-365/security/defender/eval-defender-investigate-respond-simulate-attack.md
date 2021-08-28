@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: bf80f1ff151a96ffb673140fb8ebf3d79baffc4f
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 31f9fb3b3a070c6cf95c828d452157dad5b2ba6a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247983"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576167"
 ---
 # <a name="run-an-attack-simulation-in-a-microsoft-365-defender-pilot-environment"></a>파일럿 환경에서 공격 시뮬레이션 Microsoft 365 Defender 실행
 
@@ -124,13 +124,13 @@ Office 365 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2에
 
 결과는 다음과 있습니다.
 
-![시뮬레이트된 엔터프라이즈 테스트 랩 가이드를 사용하는 Defender 평가 환경의 끝점](../../media/eval-defender-investigate-respond/eval-defender-eval-investigate-respond-endpoints-tlg.png)
+![시뮬레이트된 엔터프라이즈 테스트 랩 가이드를 사용하는 Defender 평가 환경의 끝점입니다.](../../media/eval-defender-investigate-respond/eval-defender-eval-investigate-respond-endpoints-tlg.png)
 
 고급 기술을 활용하여 감지에서 숨기는 정교한 공격을 시뮬레이트합니다. 이 공격은 도메인 컨트롤러에서 연 SMB(서버 메시지 블록) 세션을 열고 사용자의 장치의 최근 IP 주소를 검색합니다. 일반적으로 이 공격 범주에는 피해자의 장치에 삭제된 파일이 포함되지는 않습니다. 이러한 파일은 메모리에서만 발생합니다. 기존 시스템 및 관리 도구를 사용하여 "이 육지에서 라이브"를 실행하고 실행을 숨기기 위해 시스템 프로세스에 코드를 삽입합니다. 이러한 동작을 사용하면 검색을 방지하고 디바이스에서 유지될 수 있습니다.
 
 이 시뮬레이션에서는 샘플 시나리오가 PowerShell 스크립트로 시작됩니다. 실제로 사용자는 스크립트를 실행하도록 속일 수 있습니다. 또는 이전에 감염된 장치에서 다른 컴퓨터로의 원격 연결에서 스크립트가 실행될 수 있습니다. 이는 공격자가 네트워크에서 을(를) 끊어 이동하려고 시도하고 있는 것일 수 있습니다. 관리자가 스크립트를 원격으로 실행하여 다양한 관리 작업을 수행하기도 하여 이러한 스크립트를 검색하기 어려울 수 있습니다.
 
-![프로세스 주입 및 SMB 정비 공격 다이어그램을 사용하여 파일 없는 PowerShell 공격](../../media/mtp/mtpdiydiagram.png)
+![프로세스 주입 및 SMB 정비 공격 다이어그램을 사용하여 파일 없는 PowerShell 공격.](../../media/mtp/mtpdiydiagram.png)
 
 시뮬레이션하는 동안 공격은 셸코드를 무고한 프로세스에 주입합니다. 이 시나리오에서는 이 시나리오를 사용하려면 notepad.exe. 시뮬레이션을 위해 이 프로세스를 선택했지만 공격자는 추가와 같은 장기 실행 시스템 프로세스를 대상으로 할 svchost.exe. 그런 다음 셸 코드는 공격자 명령 및 제어(C2) 서버에 연결하여 진행 방법에 대한 지침을 수신합니다. 스크립트는 DC(도메인 컨트롤러)에 대해 정비 쿼리 실행을 시도합니다. 정비를 통해 공격자는 최근 사용자 로그인 정보에 대한 정보를 얻을 수 있습니다. 공격자가 이 정보를 가지면 네트워크에서 을(를) 이동하여 특정 중요한 계정으로 이동할 수 있습니다.
 
@@ -192,7 +192,7 @@ SOC 분석가의 시선으로 전환하면 이제 포털에서 공격 조사를 
 
 3. 시뮬레이트된 공격에 대한 새 인시던트가 인시던트 큐에 표시됩니다.
 
-    ![인시던트 큐의 예](../../media/mtp/fig2.png)
+    ![인시던트 큐의 예입니다.](../../media/mtp/fig2.png)
 
 #### <a name="investigate-the-attack-as-a-single-incident"></a>단일 인시던트로 공격 조사
 
@@ -223,7 +223,7 @@ Microsoft 365 Defender 서로 연관하고 서로 다른 제품의 모든 관련
 > [!NOTE]
 > 시뮬레이트된 공격 중에 생성된 몇 가지 경고만 진행합니다. 테스트 장치에서 실행되는 Windows 및 Microsoft 365 Defender 버전에 따라 약간 다른 순서로 더 많은 경고가 표시될 수 있습니다.
 
-![생성된 경고의 예](../../media/mtp/fig6.png)
+![생성된 경고의 예입니다.](../../media/mtp/fig6.png)
 
 ##### <a name="alert-suspicious-process-injection-observed-source-microsoft-defender-for-endpoint"></a>경고: 관찰된 의심스러운 프로세스 삽입(원본: 끝점용 Microsoft Defender)
 
@@ -231,7 +231,7 @@ Microsoft 365 Defender 서로 연관하고 서로 다른 제품의 모든 관련
 
 SOC 분석가가 이러한 고급 공격을 감지할 수 있도록 끝점용 Microsoft Defender의 심층 메모리 센서는 다양한 프로세스 간 코드 삽입 기술에 대한 전례 없는 가시성을 클라우드 서비스를 제공합니다. 다음 그림에서는 Endpoint용 Defender가 에 코드를 삽입하려고 시도를 감지하고 경고하는 <i>방법을notepad.exe. </i>
 
-![잠재적으로 악성 코드 삽입에 대한 경고의 예](../../media/mtp/fig7.png)
+![잠재적으로 악성 코드 삽입에 대한 경고의 예입니다.](../../media/mtp/fig7.png)
 
 ##### <a name="alert-unexpected-behavior-observed-by-a-process-run-with-no-command-line-arguments-source-microsoft-defender-for-endpoint"></a>경고: 명령줄 인수가 없는 프로세스가 실행되는 예기치 않은 동작(원본: 끝점용 Microsoft Defender)
 
@@ -248,11 +248,11 @@ SOC 분석가가 이러한 고급 공격을 감지할 수 있도록 끝점용 Mi
 
 IP 주소 세부 정보 페이지를 확인하려면 경고 프로세스 트리에서 IP 주소를 선택합니다.
 
-![명령줄 인수가 없는 프로세스가 실행된 경우의 예기치 않은 동작에 대한 경고 예제](../../media/mtp/fig8.png)
+![명령줄 인수가 없는 프로세스가 실행된 경우 예기치 않은 동작에 대한 경고 예제입니다.](../../media/mtp/fig8.png)
 
 다음 그림에는 선택한 IP 주소 세부 정보 페이지(경고 프로세스 트리에서 IP 주소 클릭)가 표시됩니다.
 
-![IP 주소 세부 정보 페이지의 예](../../media/mtp/fig9.png)
+![IP 주소 세부 정보 페이지의 예입니다.](../../media/mtp/fig9.png)
 
 ##### <a name="alert-user-and-ip-address-reconnaissance-smb-source-microsoft-defender-for-identity"></a>경고: SMB(사용자 및 IP 주소 정)(원본: ID용 Microsoft Defender)
 
@@ -260,7 +260,7 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열문을 사용하면
 
 이 검색에서는 도메인 컨트롤러에 대해 SMB 세션 열호가 실행될 때 경고가 트리거됩니다.
 
-![사용자 및 IP 주소 정 분석에 대한 ID에 대한 Microsoft Defender 경고의 예](../../media/mtp/fig10.png)
+![사용자 및 IP 주소 정 분석에 대한 ID에 대한 Microsoft Defender 경고의 예입니다.](../../media/mtp/fig10.png)
 
 #### <a name="review-the-device-timeline-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 장치 타임라인 검토
 
@@ -270,13 +270,13 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열문을 사용하면
 
 시간 표시 **막대 탭을** 선택하여 디바이스 타임라인을 열고 장치에서 관찰된 모든 이벤트 및 동작을 시간 순서대로 보고 경고가 발생했습니다.
 
-![동작이 있는 디바이스 타임라인의 예](../../media/mtp/fig11.png)
+![동작이 있는 디바이스 타임라인의 예입니다.](../../media/mtp/fig11.png)
 
 좀 더 흥미로운 동작 중 일부를 확장하면 프로세스 트리와 같은 유용한 세부 정보가 있습니다.
 
 예를 들어 경고 이벤트 의심스러운 프로세스 주입이 발견될 때까지 아래로 **스크롤합니다.** 왼쪽 **창의** powershell.exe 그래프 아래에 이 동작에 대한 전체 프로세스 트리를 표시하려면 notepad.exe  프로세스 이벤트에 삽입된 옵션을 선택합니다. 필요한 경우 필터링에 검색 표시줄을 사용하세요.
 
-![선택한 PowerShell 파일 만들기 동작에 대한 프로세스 트리의 예](../../media/mtp/fig12.png)
+![선택한 PowerShell 파일 만들기 동작에 대한 프로세스 트리의 예입니다.](../../media/mtp/fig12.png)
 
 #### <a name="review-the-user-information-with-microsoft-cloud-app-security"></a>사용자 정보를 검토할 Microsoft Cloud App Security
 
@@ -284,7 +284,7 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열문을 사용하면
 
 사용자 이름을 선택하여 추가 조사를 실시할 수 있는 사용자의 프로필 페이지를 열 수 있습니다. [위험한 사용자 조사에 대해 자세히 읽어 를 읽어 읽습니다.](/cloud-app-security/tutorial-ueba#identify)
 
-![사용자 Cloud App Security 예](../../media/mtp/fig13.png)
+![사용자 Cloud App Security 예제입니다.](../../media/mtp/fig13.png)
 
 #### <a name="automated-investigation-and-remediation"></a>자동화된 조사 및 수정
 
@@ -307,7 +307,7 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열문을 사용하면
 > [!NOTE]
 > 시기에 따라 자동화된 조사가 계속 실행되고 있을 수 있습니다. 증거를 수집 및 분석하고 결과를 검토하기 전에 프로세스가 완료될 때까지 몇 분 정도 기다립니다. 조사 **세부 정보 페이지를 새로** 고쳐 최신 결과를 얻습니다.
 
-![조사 세부 정보 페이지의 예](../../media/mtp/fig15.png)
+![조사 세부 정보 페이지의 예입니다.](../../media/mtp/fig15.png)
 
 자동화된 조사 중에 끝점용 Microsoft Defender는 수정이 notepad.exe 아티팩트 중 하나로 주입된 프로세스가 확인되었습니다. Endpoint용 Defender는 자동화된 수정의 일부로 의심스러운 프로세스 삽입을 자동으로 중지합니다.
 
@@ -319,7 +319,7 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열문을 사용하면
 
 **인시던트 페이지에서** 인시던트 **관리를 선택합니다.** 상태를 **인시던트 해결로** 설정하고 분류 및 보안 테스트에서 **확인을** 위해 True **경고를** 선택합니다.
 
-![인시던트 해결을 위해 스위치를 클릭할 수 있는 열린 문제 관리 패널이 있는 인시던트 페이지의 예](../../media/mtp/fig16.png)
+![인시던트 해결을 위해 스위치를 클릭할 수 있는 열린 문제 관리 패널이 있는 인시던트 페이지의 예입니다.](../../media/mtp/fig16.png)
 
 인시던트가 해결되면 인시던트 포털 및 관련 포털에서 Microsoft 365 Defender 모든 관련 알림을 해결합니다.
 
@@ -327,7 +327,7 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열문을 사용하면
 
 ## <a name="next-step"></a>다음 단계
 
-[![인시던트 Microsoft 365 Defender 기능 시도](../../media/eval-defender-investigate-respond/eval-defender-eval-investigate-respond-step2.png)](eval-defender-investigate-respond-additional.md)
+[![인시던트 Microsoft 365 Defender 기능을 사용해 보아야 합니다.](../../media/eval-defender-investigate-respond/eval-defender-eval-investigate-respond-step2.png)](eval-defender-investigate-respond-additional.md)
 
 2단계 중 2단계: [인시던트 Microsoft 365 Defender 기능 시도](eval-defender-investigate-respond-additional.md)
 

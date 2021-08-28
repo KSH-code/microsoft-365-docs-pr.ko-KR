@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: 세 가지 보호 수준을 사용하여 보안을 강화하기 위해 Teams를 구성하는 방법에 대해 알아보고, 공동 작업을 쉽게 수행할 수 있습니다.
-ms.openlocfilehash: 06ee7cd8d82f65e0108595eaa9873b198dae90531d2a547849a85e765292cd57
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f0c7bbe1043116eb678df77ffe95bdc8654839f7
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575459"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -122,7 +122,7 @@ ms.locfileid: "53816682"
 
 민감도 레이블의 관리되지 않는 디바이스 설정은 SharePoint 액세스에만 영향을 줍니다. SharePoint를 넘어 관리되지 않는 장치에 대한 제어를 확장하려면 대신 [조직의 모든 앱 및 서비스에 대한 Azure Active Directory 조건부 액세스 정책을 만들 수](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) 있습니다. 이 정책을 [Microsoft 365 서비스](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365)에 맞게 구성하려면 **클라우드 앱 또는 작업** 아래에서 **Office 365** 클라우드 앱을 선택하세요.
 
-![Azure Active Directory 조건부 액세스 정책의 Office 365 클라우드 앱 스크린샷](/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
+![Microsoft Azure Active Directory 조건부 액세스 정책의 Office 365 클라우드 앱 스크린샷](/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
 
 모든 Microsoft 365 서비스에 영향을 주는 정책을 사용하면 보안이 강화되고 사용자 환경이 향상될 수 있습니다. 예를 들어 SharePoint에서만 관리되지 않는 장치에 대한 액세스를 차단하면 사용자가 관리되지 않는 장치가 있는 팀의 채팅에 액세스할 수 있지만 **파일** 탭에 액세스하려고 하면 액세스 권한이 손실됩니다. Office 365 클라우드 앱을 사용하면 [서비스 종속성](/azure/active-directory/conditional-access/service-dependencies)에 대한 문제를 방지할 수 있습니다.
 

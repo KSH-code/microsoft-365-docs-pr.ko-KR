@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 4b2775bfe94eb53851e108ed7b7d436f233beea267b3485385801534748ef16c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a372ae3b15b35c03449973fba2b1181a8ed68ac2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53844063"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575579"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>여러 사용자에 대해 위협 방지 Microsoft 365
 
@@ -33,12 +33,12 @@ ms.locfileid: "53844063"
 
 Microsoft는 모든 SaaS 응용 프로그램, 특히 모든 SaaS 응용 프로그램에 대한 액세스를 보호하기 위한 특정 조건부 액세스 및 관련 정책 집합을 테스트하고 Microsoft 365. 정책은 기준, 중요 및 높은 규제 보호에 권장됩니다. 먼저 기준 보호에 대한 정책을 구현합니다.
 
-[ ![ ID 및 장치 액세스 구성에](../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)대한 일반적인 정책 이 이미지의 더 
- [큰 버전을 참조하세요.](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
+[ ![ ID 및 장치 액세스를 구성하기 위한 일반적인 정책입니다.](../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png) 
+ [이 이미지의 더 큰 버전 참조](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
 
 ### <a name="to-implement-baseline-protection-for-microsoft-365"></a>데이터 보호에 대한 기준 보호를 Microsoft 365
 
-![기준 보호 배포 프로세스](../media/deploy-threat-protection/deploy-threat-protection-identity-access-steps.png) 
+![기준 보호를 배포하는 프로세스입니다.](../media/deploy-threat-protection/deploy-threat-protection-identity-access-steps.png) 
 
 1. Azure AD ID 보호를 포함하여 [선행 구성](../security/office-365-security/identity-access-prerequisites.md)
 2. [기준 보호를 위한](../security/office-365-security/identity-access-policies.md) 공통 ID 및 장치 액세스 정책을 구성합니다.
@@ -62,7 +62,7 @@ Microsoft Defender for Identity를 사용하면 하이브리드 환경에서 고
 
 ### <a name="to-set-up-microsoft-defender-for-identity"></a>ID에 대해 Microsoft Defender를 설정
 
-![ID용 Microsoft Defender 배포 프로세스](../media/deploy-threat-protection/deploy-azure-atp-steps.png) 
+![ID용 Microsoft Defender를 배포하는 프로세스입니다.](../media/deploy-threat-protection/deploy-azure-atp-steps.png) 
 
 1. 기본 환경을 보호하기 [위해 ID에 대한 Microsoft Defender를](/azure-advanced-threat-protection/install-atp-step1) 설정하세요.
 2. 모든 도메인 컨트롤러 [및](/azure-advanced-threat-protection/atp-sensor-monitoring) 포리스트를 [보호합니다.](/azure-advanced-threat-protection/atp-multi-forest)
@@ -82,7 +82,7 @@ Microsoft 365 Defender 경고, 인시던트, 자동화된 조사 및 대응, 고
 
 ### <a name="to-set-up-microsoft-365-defender"></a>다음을 설정 Microsoft 365 Defender
 
-![배포 프로세스 Microsoft 365 Defender](../media/deploy-threat-protection/deploy-mtp-steps.png) 
+![배포 프로세스 Microsoft 365 Defender.](../media/deploy-threat-protection/deploy-mtp-steps.png) 
 
 1. [선행 준비를 검토합니다.](../security/defender/prerequisites.md)
 2. [를 Microsoft 365 Defender.](../security/defender/m365d-enable.md)
@@ -110,7 +110,7 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 ### <a name="to-set-up-microsoft-defender-for-office-365"></a>사용자에 대해 Microsoft Defender를 Office 365
 
-![Microsoft Defender for Office 365](../media/deploy-threat-protection/deploy-office365-atp-steps.png) 
+![Microsoft Defender for Office 365.](../media/deploy-threat-protection/deploy-office365-atp-steps.png) 
 
 1. [정책 에 대한 Microsoft Defender를 Office 365 구성합니다.](../security/office-365-security/protect-against-threats.md)
 2. [Microsoft Defender를 보고 보고서에 Office 365.](../security/office-365-security/view-reports-for-mdo.md)
@@ -127,7 +127,7 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 ### <a name="set-up-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 설정
 
-![끝점용 Microsoft Defender 배포 프로세스](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
+![끝점용 Microsoft Defender를 배포하는 프로세스입니다.](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
 
 1. [끝점용 Microsoft Defender에 대한 환경을 준비합니다.](../security/defender-endpoint/deployment-phases.md)
 2. [끝점용 Microsoft Defender를 배포합니다.](../security/defender-endpoint/production-deployment.md)
@@ -145,7 +145,7 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 ### <a name="set-up-microsoft-cloud-app-security"></a>설정 Microsoft Cloud App Security
 
-![배포 프로세스 Microsoft Cloud App Security](../media/deploy-threat-protection/deploy-mcas-steps.png) 
+![배포 프로세스 Microsoft Cloud App Security.](../media/deploy-threat-protection/deploy-mcas-steps.png) 
 
 1. [포털 및 기타 기본 요구 사항을 설치합니다.](/cloud-app-security/general-setup)
 2. [클라우드 검색을 설정하고](/cloud-app-security/set-up-cloud-discovery) [앱을 연결합니다.](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
@@ -161,7 +161,7 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 위협 방지 서비스 및 기능을 설정하고 배포한 후 다음 단계는 위협 감지를 모니터링하고 적절한 조치를 취하는 것입니다. 가장 좋은 시작 지점은 Microsoft 365 보안 센터( )입니다. 여기서 Microsoft ID, 데이터, 장치, 앱 및 인프라에서 보안을 모니터링하고 관리할 [https://security.microsoft.com](https://security.microsoft.com) 수 있습니다.
 
-![Microsoft 365 보안 센터](../media/solutions-architecture-center/m365-security-center.png)
+![Microsoft 365 보안 센터.](../media/solutions-architecture-center/m365-security-center.png)
 
 보안 Microsoft 365 보안 센터는 보안 관리자 및 보안 운영 팀을 위한 것입니다. 보안 Microsoft 365 센터에서 다음을 할 수 있습니다.
 

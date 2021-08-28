@@ -18,12 +18,12 @@ localization_priority: Normal
 f1.keywords: NOCSH
 recommendations: false
 description: 게스트와 공동 작업하기 위해 Microsoft 365 사이트 설정에 필요한 SharePoint 구성 단계에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 054de924b2cf5041694ca12dcf2fb4137242d16fb53060421aedb51aed9668a9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5cb1b34832c8a7b4c5152efd5ab151218de1cd36
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53810169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572806"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>게스트와 현장에서 공동 작업하기
 
@@ -43,7 +43,7 @@ Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 �
 
 B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단되지 않는지 확인합니다.
 
-![Screenshot of Azure Active Directory External collaboration 설정 page](../media/azure-ad-organizational-relationships-settings.png)
+![Screenshot of Azure Active Directory External collaboration 설정 page.](../media/azure-ad-organizational-relationships-settings.png)
 
 외부 공동 작업 설정을 지정하려면
 
@@ -62,7 +62,7 @@ B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단
 
 최신 SharePoint 사이트는 Microsoft 365 그룹을 사용하여 사이트 액세스를 제어합니다. Microsoft 365 사이트의 게스트 액세스가 작동하려면 SharePoint 그룹 게스트 설정을 설정해야 합니다.
 
-![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
+![Screenshot of Microsoft 365 Groups guest settings in Microsoft 365 관리 센터.](../media/office-365-groups-guest-settings.png)
 
 Microsoft 365 Groups 게스트 설정을 설정하려면
 
@@ -80,7 +80,7 @@ Microsoft 365 Groups 게스트 설정을 설정하려면
 
 허용되지 않은 파일 및 폴더 공유를 허용하려는 경우 모든 사람을 **선택하십시오.** 조직 외부의 모든 사용자가 인증을 하도록 하려는 경우 신규 및 기존 게스트 **를 선택 합니다.** 조직의 모든 사이트에서 필요한 가장 적합한 설정을 선택하세요.
 
-![SharePoint 조직 수준 공유 설정의 스크린샷](../media/sharepoint-organization-external-sharing-controls.png)
+![조직 수준 SharePoint 설정의 스크린샷.](../media/sharepoint-organization-external-sharing-controls.png)
 
 
 SharePoint 조직 수준 공유 설정을 설정하려면
@@ -113,7 +113,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 
 민감도 레이블을 사용하여 사이트의 외부 공유 [설정을 SharePoint 있습니다.](../compliance/sensitivity-labels-teams-groups-sites.md)
 
-![SharePoint 사이트 외부 공유 설정 스크린샷](../media/sharepoint-site-external-sharing-settings.png)
+![사이트 SharePoint 공유 설정의 스크린샷.](../media/sharepoint-site-external-sharing-settings.png)
 
 사이트 수준 공유 설정을 설정하려면
 1. SharePoint 관리 센터의 왼쪽 탐색 창에서 **사이트** 를 확장시키고 **Active 사이트** 를 클릭합니다.

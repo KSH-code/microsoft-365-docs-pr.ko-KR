@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 보안 Microsoft 365 규정 준수 기능을 배포하고 개인 정보를 보호합니다.
-ms.openlocfilehash: 3cb4cefb0e7d93964eb10e97e44db9acee9331a795a5fd48defdceb843be1b60
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 084faec3b9c2d7bc9c7da17ee69f7821dd79a754
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857080"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575891"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 보호 규정을 준수하는 정보 보호
 
@@ -35,7 +35,7 @@ ms.locfileid: "53857080"
 - OME(Office 메시지 암호화)
 - Teams 및 사이트 액세스 제어
 
-![데이터 개인 정보 보호 규정에 따라 개인 정보를 보호하기 위한 주요 서비스](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
+![데이터 개인 정보 보호 규정에 따라 개인 정보를 보호하기 위한 주요 서비스입니다.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
 > [!NOTE]
 > 이 솔루션은 데이터 개인 정보 규정을 준수하는 정보를 보호하기 위한 보안 및 규정 준수 기능에 대해 설명합니다. 보안 기능의 전체 목록은 Microsoft 365 [설명서를 Microsoft 365 참조하세요.](../security/index.yml) Microsoft 365 규정 준수 기능의 전체 목록은 Microsoft 365 [참조하세요.](../compliance/index.yml)
@@ -89,7 +89,7 @@ Microsoft [정보 보호 솔루션에는](../compliance/information-protection.m
 Microsoft Information Protection 프레임워크의 민감도 레이블을 사용하면 사용자의 생산성과 공동 작업 능력에 영향을 주지 않으면서 조직의 데이터를 분류하고 보호할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-labels.png)
+> ![2016의 민감도 Microsoft 365.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-labels.png)
 
 ### <a name="prerequisites-for-sensitivity-labels"></a>민감도 레이블의 선행 구성
 
@@ -160,7 +160,7 @@ Microsoft Information Protection 프레임워크의 민감도 레이블을 사�
 
 앱에서 민감도 레이블을 게시하면 Microsoft 365 규정 준수 센터 만들거나 편집할 [](../compliance/sensitivity-labels-office-apps.md) 때 콘텐츠를 분류하고 보호할 수 있도록 Office 앱에 표시됩니다.
 
-![민감도 레이블 배포 흐름의 Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-label-flow.png)
+![민감도 레이블 배포 흐름의 Microsoft 365.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-label-flow.png)
 
 데이터 개인 정보 보호를 위해 중요한 개인 정보를 포함하는 전자 메일 또는 콘텐츠에 암호화 및 기타 규칙을 사용하여 민감도 레이블을 수동으로 적용합니다.
 
@@ -215,12 +215,12 @@ Microsoft 365 규정 준수 센터 DLP 정책을 사용하면 Exchange Online, S
 또한 로컬로 설치된 버전의 Excel, PowerPoint 및 Word에서 중요한 항목을 모니터링하고 보호할 수 있습니다. 여기에는 중요한 항목을 식별하고 DLP 정책을 적용하는 기능을 포함할 수 있습니다. DLP는 사용자가 이러한 앱의 콘텐츠를 공유할 Office 제공합니다.
 
 > [!div class="mx-imgBorder"]
-> ![DLP에 지원되는 워크로드](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-supported-workloads.png)
+> ![DLP에 대해 지원되는 워크로드입니다.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-supported-workloads.png)
 
 이 그림에서는 개인 데이터를 보호하는 DLP의 예를 보여줍니다.
 
 > [!div class="mx-imgBorder"]
-> ![DLP를 사용하여 개인 데이터를 보호하는 예](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-example-use.png)
+> ![DLP를 사용하여 개인 데이터를 보호하는 예입니다.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-example-use.png)
 
 DLP는 상태 레코드가 포함된 문서 또는 전자 메일을 식별한 다음 해당 문서에 대한 액세스를 자동으로 차단하거나 전자 메일이 전송되지 못하게 차단하는 데 사용됩니다. 그런 다음 DLP는 정책 팁을 통해 받는 사람에게 알리고 최종 사용자 및 관리자에게 알림을 보냅니다.
 
@@ -254,11 +254,11 @@ DLP 정책 계획:
 DLP 정책은 Microsoft 준수 관리 센터에서 구성하고 보호 수준, 정책이 찾는 중요한 정보 유형 및 대상 작업을 지정합니다. 기본 구성 요소는 보호 및 데이터 유형을 식별하는 것으로 구성됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![2016년 8월의 DLP 정책 Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-config.png)
+> ![DLP 정책 구성의 Microsoft 365.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-config.png)
 
 다음은 GDPR의 인식을 위한 DLP 정책의 예입니다.
 
-![GDPR 인식을 위한 DLP 정책 예](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-example-policy.png)
+![GDPR에 대한 인식을 위한 DLP 정책 예제.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-example-policy.png)
 
 DLP [정책을 만들고](../compliance/create-test-tune-dlp-policy.md) 적용하는 데 대한 자세한 내용은 이 문서를 참조하세요.
 
@@ -266,7 +266,7 @@ DLP [정책을 만들고](../compliance/create-test-tune-dlp-policy.md) 적용�
 
 다음 표에는 DLP를 사용하여 보호를 강화하는 세 가지 구성이 나열되어 있습니다.
 
-![DLP를 사용하여 데이터 개인 정보 보호 수준](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-protection-levels.png)
+![DLP를 사용하여 데이터 개인 정보 보호의 보호 수준.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-protection-levels.png)
 
 첫 번째 구성인 인식을 시작점 및 최소 수준의 보호로 사용하여 데이터 개인 정보 보호 규정에 대한 규정 준수 요구 사항을 해결할 수 있습니다.
 
@@ -287,7 +287,7 @@ DLP [정책을 만들고](../compliance/create-test-tune-dlp-policy.md) 적용�
 이러한 요소가 결정되면 중요한 정보 유형, 민감도 레이블 분류 및 DLP 정책을 함께 사용할 수 있습니다. 이 그림은 예를 보여줍니다.
 
 > [!div class="mx-imgBorder"]
-> ![DLP로 작업하는 민감도 레이블의 예](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
+> ![DLP로 작업하는 민감도 레이블의 예입니다.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
 [이 이미지의 더 큰 버전 참조](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 

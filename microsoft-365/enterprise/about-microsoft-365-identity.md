@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
 description: 클라우드 전용 또는 하이브리드 ID 모델을 사용하여 Microsoft 365 Azure AD 사용자 ID 서비스를 관리하는 방법을 설명합니다.
-ms.openlocfilehash: 65cfd736ca12c91094d841277c00c42a916c6cda
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 0e83d94c6c82df3f47989433cf20ebf402b265df
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354155"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572710"
 ---
 # <a name="microsoft-365-identity-models-and-azure-active-directory"></a>Microsoft 365 모델 및 Azure Active Directory
 
@@ -64,7 +64,7 @@ Microsoft 365 구독에 Azure Active Directory 클라우드 기반 사용자 ID 
 
 다음은 클라우드 전용 ID의 기본 구성 요소입니다.
 
-![클라우드 전용 ID의 기본 구성 요소](../media/about-microsoft-365-identity/cloud-only-identity.png)
+![클라우드 전용 ID의 기본 구성 요소입니다.](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
 사내 및 원격(온라인) 사용자는 모두 Azure AD 사용자 계정 및 암호를 사용하여 클라우드 Microsoft 365 액세스합니다. Azure AD는 저장된 사용자 계정과 암호를 기준으로 사용자 자격 증명을 인증합니다.
 
@@ -81,7 +81,7 @@ Azure AD 커넥트 계정 동기화를 제공합니다. 이 서버는 사내 서
 
 다음은 하이브리드 ID의 구성 요소입니다.
 
-![하이브리드 ID의 구성 요소](../media/about-microsoft-365-identity/hybrid-identity.png)
+![하이브리드 ID의 구성 요소입니다.](../media/about-microsoft-365-identity/hybrid-identity.png)
 
 Azure AD 테넌트에는 AD DS 계정의 복사본이 있습니다. 이 구성에서는 클라우드 서비스에 액세스하는 Microsoft 365 및 원격 사용자가 모두 Azure AD에 대해 인증합니다.
 

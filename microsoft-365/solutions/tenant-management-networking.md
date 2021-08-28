@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 테넌트에 대한 네트워크 Microsoft 365 최적화합니다.
-ms.openlocfilehash: 6741c47fac4cadab8a6c5df7febc07250219072a4429abe15bf6ba97e41cbeeb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4bf988aca4145d52d8e5e1bb68c6e8cf134be534
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53804543"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575867"
 ---
 # <a name="step-2-optimal-networking-for-your-microsoft-365-for-enterprise-tenants"></a>2단계. 엔터프라이즈 테넌트에 Microsoft 365 최적의 네트워킹
 
@@ -43,7 +43,7 @@ Microsoft 365 엔터프라이즈용 앱에는 Teams 및 Exchange Online, Microso
 
 다음은 기존 엔터프라이즈 네트워크의 예입니다.
 
-![인터넷에 대한 중앙 액세스가 있는 기존 엔터프라이즈 네트워크](../media/tenant-management-overview/tenant-management-networking-traditional.png)
+![인터넷에 대한 중앙 액세스 권한이 있는 기존 엔터프라이즈 네트워크입니다.](../media/tenant-management-overview/tenant-management-networking-traditional.png)
 
 이 그림에서 지점은 WAN(Wide Area Network) 장치 및 WAN 백본을 통해 중앙 사무실에 연결합니다. 인터넷 액세스는 중앙 사무실의 네트워크 에지 및 ISP(인터넷 서비스 공급자)의 보안 또는 프록시 장치를 통해 액세스합니다. 인터넷에서 Microsoft 전역 네트워크에는 전 세계 지역에 일련의 정문이 있습니다. 조직은 또한 트래픽에 대한 추가 패킷 처리 및 보안을 위해 중간 위치를 사용할 수 있습니다. 조직의 Microsoft 365 테넌트는 Microsoft 전역 네트워크 내에 있습니다.
 
@@ -62,7 +62,7 @@ Microsoft 365 엔터프라이즈용 앱에는 Teams 및 Exchange Online, Microso
 
 이러한 원칙을 구현하면 엔터프라이즈 네트워크에 최적화된 엔터프라이즈 네트워크가 Microsoft 365.
 
-![엔터프라이즈 네트워크에 최적화된 Microsoft 365](../media/tenant-management-overview/tenant-management-networking-optimized.png)
+![사용자에 최적화된 엔터프라이즈 Microsoft 365.](../media/tenant-management-overview/tenant-management-networking-optimized.png)
 
 이 그림에서 지사는 신뢰할 수 있는 Microsoft 365 트래픽을 지역적으로 가장 가까운 프런트 도어로 보내는 소프트웨어 정의 WAN 장치(SDWAN) 장치를 통해 자체 인터넷에 연결합니다. 중앙 사무실에서 신뢰할 수 있는 Microsoft 365 트래픽이 보안 또는 프록시 장치를 우회하고 중간 장치는 더 이상 사용되지 않습니다.
 
@@ -78,7 +78,7 @@ Microsoft 365 엔터프라이즈용 앱에는 Teams 및 Exchange Online, Microso
 
 원격 작업자가 기존 VPN 클라이언트를 사용하 여 조직 네트워크에 대한 원격 액세스 권한을 얻는 경우, VPN 클라이언트에 분할 터널링 지원이 되는지 확인합니다. 분할 터널링을 사용하지 않는 경우에는 모든 원격 작업 트래픽이 조직의 에지 장치로 전송되어 처리된 후 인터넷으로 전송되지 않고 VPN 연결을 통해 전송됩니다. 예를 들면 다음과 같습니다.
 
-![터널링이 없는 VPN 클라이언트의 네트워크 트래픽](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-before-tunneling.png)
+![터널링이 없는 VPN 클라이언트의 네트워크 트래픽입니다.](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-before-tunneling.png)
 
 이 그림에서 Microsoft 365 트래픽은 VPN 클라이언트의 물리적 위치에서 멀리 떨어져 있는 Microsoft 전역 네트워크 정문으로 전달될 수 있는 조직을 통한 간접 경로를 취해야 합니다. 이 간접 경로는 네트워크 트래픽에 대기 시간을 더하여 전반적인 성능을 저하시킵니다. 
 
@@ -88,7 +88,7 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 다음은 클라우드 앱에 대한 대부분의 트래픽이 VPN 연결을 우회하는 분할 터널링에 Microsoft 365 흐름입니다.
 
-![터널링이 있는 VPN 클라이언트에서의 네트워크 트래픽](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
+![터널링이 있는 VPN 클라이언트의 네트워크 트래픽입니다.](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
 이 그림에서 VPN 클라이언트는 인터넷을 통해 직접 Microsoft 365 Microsoft 전역 네트워크로 가장 가까운 정문으로 중요한 클라우드 서비스 트래픽을 보내고 수신합니다.
 
@@ -125,7 +125,7 @@ Office 365 CDN은 여러 위치, 즉 _출발지_ 에 정적 자산을 호스트�
 
 배포 및 구성하면 Office 365 CDN 원본에서 자산을 업로드하고 인터넷을 통해 사용자에게 빠르게 액세스할 수 있습니다.
 
-![Office 365 CDN 배포된 사용자 수](../media/O365-CDN/o365-cdn-flow-transparent.svg "Office 365 CDN 배포된 사용자 수")
+![Office 365 CDN 배포할 수 있습니다.](../media/O365-CDN/o365-cdn-flow-transparent.svg "Office 365 CDN 배포된 사용자 수")
 
 자세한 내용은 [Use the Office 365 CDN with SharePoint Online을 참조하십시오.](../enterprise/use-microsoft-365-cdn-with-spo.md)
 
@@ -177,6 +177,6 @@ PowerShell, Python 또는 기타 언어를 사용하여 시간이 지날 때 끝
 
 ## <a name="next-step"></a>다음 단계
 
-[![3단계. ID 동기화 및 보안 로그인 적용](../media/tenant-management-overview/tenant-management-step-grid-identity.png)](tenant-management-identity.md)
+[![3단계. ID를 동기화하고 보안 로그인을 적용합니다.](../media/tenant-management-overview/tenant-management-step-grid-identity.png)](tenant-management-identity.md)
 
 ID를 [계속](tenant-management-identity.md) 유지하여 사내 계정 및 그룹을 동기화하고 보안 사용자 로그인을 적용합니다.

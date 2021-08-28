@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 사용자 테넌트에 대한 장치 및 앱 관리에 Microsoft 365 배포합니다.
-ms.openlocfilehash: eb15f5805308c6f575beb9eebd8f7825ebdd13173037870a3770fd306bb090bb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1d96042f2733a69919fd0dbaa9f30be6835d6469
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53804616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571196"
 ---
 # <a name="step-5-device-and-app-management-for-your-microsoft-365-for-enterprise-tenants"></a>5단계. 엔터프라이즈 테넌트에 대한 Microsoft 365 및 앱 관리
 
@@ -70,7 +70,7 @@ Microsoft 365 테넌트에 대한 장치 및 앱 관리의 경우 사용자, 장
 
 다음은 새 요소가 강조 표시된 Intune 장치 및 앱 관리가 있는 테넌트의 예입니다.
 
-![Intune 장치 및 앱 관리가 있는 테넌트의 예](../media/tenant-management-overview/tenant-management-tenant-build-step5.png)
+![Intune 장치 및 앱 관리가 있는 테넌트의 예입니다.](../media/tenant-management-overview/tenant-management-tenant-build-step5.png)
 
 이 그림에서 테넌트에는 다음이 있습니다.
 

@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 255aa361badf79e3ea4e4b0fe208ea22bb7a26db
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: d0d452c0e9a5dbc3a9060c42921f180da7c42b90
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58249369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575927"
 ---
 # <a name="pilot-microsoft-cloud-app-security-with-microsoft-365-defender"></a>파일럿 Microsoft Cloud App Security 파일럿 Microsoft 365 Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "58249369"
 다음 단계에 따라 파일럿을 설정하고 구성하여 파일럿을 Microsoft Cloud App Security.
 
 
-![파일럿 Microsoft Cloud App Security](../../media/defender/m365-defender-mcas-pilot-steps.png)
+![파일럿을 수행하기 위한 Microsoft Cloud App Security.](../../media/defender/m365-defender-mcas-pilot-steps.png)
 
 - 1단계. [파일럿 그룹 만들기 - 특정 사용자 그룹으로 파일럿 배포 범위 지정](#step-1-create-the-pilot-group--scope-your-pilot-deployment-to-certain-user-groups)
 - [2단계. 보호 구성 - 조건부 액세스 앱 제어](#step-2-configure-protection--conditional-access-app-control)

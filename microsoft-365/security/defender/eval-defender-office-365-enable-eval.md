@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: how-to
 ms.technology: m365d
-ms.openlocfilehash: a64f217b88c41ca256d1ee343629741fd2ad880b
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: f00daf82a2b6090f6934aba12eb9227efdfa1422
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533150"
+ms.locfileid: "58576155"
 ---
 # <a name="enable-the-evaluation-environment"></a>평가 환경 사용
 
@@ -37,7 +37,7 @@ ms.locfileid: "58533150"
 
 다음 단계에 따라 Microsoft Defender for Office 365.
 
-![Microsoft Defender 평가 환경에서 Microsoft Defender를 Office 365 설정하는 단계](../../media/defender/m365-defender-office-eval-enable-steps.png)
+![Microsoft Defender 평가 환경에서 Microsoft Defender를 Office 365 설정하는 단계입니다.](../../media/defender/m365-defender-office-eval-enable-steps.png)
 
 - [1단계: 평가판 라이선스 활성화](#step-1-activate-trial-licenses)
 - [2단계: 공용 MX 레코드 감사 및 확인](#step-2-audit-and-verify-the-public-mx-record)

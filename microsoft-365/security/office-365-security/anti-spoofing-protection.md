@@ -22,12 +22,12 @@ localization_priority: Priority
 description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공격을 완화하는 데 도움이 되며 EOP(Exchange Online Protection)에서 사용할 수 있는 스푸핑 방지 기능에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 61735abbce8445d4c3293085c320c9d253c745dcef66ace90fbfb8ba73ebe89b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1d9980240f0c45eb708a668dfea028ce5259fcab
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56886207"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576107"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 
@@ -48,7 +48,7 @@ EOP에서 다음 스푸핑 방지 기술을 사용할 수 있습니다.
 
   EOP는 표준 전자 메일 인증 방법과 보낸 사람 신뢰도 기술을 조합하여 인증하지 못하는 메시지를 분석 및 차단합니다.
 
-  ![EOP 스푸핑 방지 검사](../../media/eop-anti-spoofing-protection.png)
+  ![EOP 스푸핑 방지 검사.](../../media/eop-anti-spoofing-protection.png)
 
 - **스푸핑 인텔리전스 인사이트**: 지난 7일 동안 내부 및 외부 도메인의 보낸 사람으로부터 스푸핑된 메시지를 검토하고 해당 보낸 사람을 허용하거나 차단합니다. 자세한 내용은 [EOP의 스푸핑 인텔리전스 인사이트](learn-about-spoof-intelligence.md)를 참조하세요.
 
@@ -75,13 +75,13 @@ EOP에서 다음 스푸핑 방지 기술을 사용할 수 있습니다.
 
   다음 메시지는 스푸핑된 발신자 msoutlook94@service.outlook.com을 사용하는 피싱의 예입니다.
 
-  ![ervice.outlook.com으로 위장한 피싱 메일](../../media/1a441f21-8ef7-41c7-90c0-847272dc5350.jpg)
+  ![ervice.outlook.com으로 위장한 피싱 메일.](../../media/1a441f21-8ef7-41c7-90c0-847272dc5350.jpg)
 
   이 메일은 service.outlook.com에서 발송되지 않았지만 공격자는 발송된 것처럼 보이도록 **보낸 사람** 머리글 필드를 도용했습니다. 즉 받는 사람이 **암호 변경** 링크를 클릭하고 자격 증명을 넘기도록 속이려고 한 것입니다.
 
   다음 메일은 도용 당한 전자 메일 도메인 contoso.com을 사용한 BEC의 한 예입니다.
 
-  ![피싱 메일 - 비즈니스 전자 메일 손상](../../media/da15adaa-708b-4e73-8165-482fc9182090.jpg)
+  ![피싱 메시지 - 비즈니스 전자 메일 손상.](../../media/da15adaa-708b-4e73-8165-482fc9182090.jpg)
 
   메일이 적법한 것처럼 보이지만 발신자 스푸핑에 해당합니다.
 
@@ -89,7 +89,7 @@ EOP에서 다음 스푸핑 방지 기술을 사용할 수 있습니다.
 
   다음 메일은은 Microsoft Security 계정에서 발송된 실제 암호 재설정 메일의 예입니다.
 
-  ![Microsoft의 합법적인 암호 재설정](../../media/58a3154f-e83d-4f86-bcfe-ae9e8c87bd37.jpg)
+  ![Microsoft의 합법적인 암호 재설정.](../../media/58a3154f-e83d-4f86-bcfe-ae9e8c87bd37.jpg)
 
   이 메시지는 실제 Microsoft에서 전송했지만 사용자의 의심을 받기 쉽습니다. 실제 암호 재설정 메일과 가짜 메일 간의 차이점을 구별하기 어렵기 때문에 사용자는 이러한 메일을 무시하거나, 스팸으로 신고하거나, 아니면 피싱 메일로 Microsoft에 잘못 보고할 수 있습니다.
 

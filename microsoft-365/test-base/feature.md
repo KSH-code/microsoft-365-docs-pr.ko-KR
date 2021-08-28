@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: 91fcbdfeeec0a4127f0e1642049fd421a30df00ed4bd757a89d582015d477fc6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a0a60a061959a5aff038c3e74da7e1775f66e237
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888332"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576035"
 ---
 # <a name="windows-feature-update-validation"></a>Windows 기능 업데이트 유효성 검사
 
@@ -37,7 +37,7 @@ M365용 테스트 베이스에서 시작하려면 셀프 서비스 온보더링 
 
 1. OS **업데이트 유형으로** 기능 업데이트를 선택합니다.
 
-![기능 업데이트 유효성 검사 OS 유형](Media/Feature-update-validation-01.png)
+![기능 업데이트 유효성 검사 OS 유형입니다.](Media/Feature-update-validation-01.png)
 
 2. 응용 Windows 유효성을 검사할 내부자 채널을 선택하십시오.  
 
@@ -45,11 +45,11 @@ M365용 테스트 베이스에서 시작하려면 셀프 서비스 온보더링 
 
 3. 테스트의 기준으로 Windows 10 또는 Windows 11의 출시를 선택하고 패키지를 성공적으로 온보드하는 데 필요한 다른 세부 정보를 제공합니다.
 
-![릴리스된 버전의 Windows 10 및 11에서 Windows 업데이트 유효성 검사](Media/Feature-update-validation-03.png)
+![릴리스된 버전의 Windows 10 및 Windows 유효성 검사](Media/Feature-update-validation-03.png)
 
 4. 미리 릴리스된 응용 프로그램 기능 업데이트에 대한 응용 프로그램 유효성 검사 Windows 10 확인을 위해 를 ```Feature Updates Test Results``` 방문하세요.
 
-![기능 업데이트 유효성 검사를 통해 결과를 빠르게 검토할 수 있습니다.](Media/Feature-update-validation-04.png)
+![기능 업데이트 유효성 검사를 사용하면 결과를 빠르게 검토할 수 있습니다.](Media/Feature-update-validation-04.png)
 
 
 ## <a name="next-steps"></a>다음 단계

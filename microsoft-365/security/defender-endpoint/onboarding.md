@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7863cc2f6ee11f5736fca8077d766a9c1b5ba39819623a3a91bb853bfe09257d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 173135d9cc1ecf45ad5c0485b2bab4bb39b88a5e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863610"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575999"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>엔드포인트용 Microsoft Defender 서비스에 온보딩
 
@@ -39,7 +39,7 @@ ms.locfileid: "53863610"
 
 끝점용 Defender 배포는 3단계 프로세스입니다.
 
-|[![배포 단계 - 준비](images/phase-diagrams/prepare.png)](prepare-deployment.md) <br> [1 단계: 준비](prepare-deployment.md)|[![배포 단계 - 설정](images/phase-diagrams/setup.png)](production-deployment.md) <br> [2 단계: 설정](production-deployment.md)|![배포 단계 - 온보드](images/phase-diagrams/onboard.png) <br> 3 단계: 온보딩|
+|[![배포 단계 - 준비.](images/phase-diagrams/prepare.png)](prepare-deployment.md) <br> [1 단계: 준비](prepare-deployment.md)|[![배포 단계 - 설정](images/phase-diagrams/setup.png)](production-deployment.md) <br> [2 단계: 설정](production-deployment.md)|![배포 단계 - 온보드](images/phase-diagrams/onboard.png) <br> 3 단계: 온보딩|
 |---|---|---|
 |||*여기 있습니다!*|
 

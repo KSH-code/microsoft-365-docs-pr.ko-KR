@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 38e62021346f3802070f40176955d02656bf563e0fc4318c3df96bad1cad610f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8395a9c5dd2389fe25761dcbe76a13051baaa1b4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828911"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573022"
 ---
 # <a name="report-and-troubleshoot-microsoft-defender-for-atp-asr-rules"></a>ATP ASR 규칙에 대한 Microsoft Defender 보고 및 문제 해결
 
@@ -37,7 +37,7 @@ Microsoft 365 보안 센터는 Microsoft ID, 데이터, 장치, 앱 및 인프�
 Microsoft 365 센터에서 현재 ASR 규칙 구성 및 자산의 이벤트를 전체적으로 살펴 볼 수 있습니다. 이러한 보고서를 채우기 위해 디바이스를 끝점용 Microsoft Defender 서비스에 온보딩해야 합니다.
 다음은 Microsoft 365 보안 센터의 스크린샷입니다(보고서  장치 공격 표면 \>  \> **감소).** 장치 수준에서 공격 **표면** 감소 규칙 창에서 **구성을** 선택합니다. 다음 화면이 표시되어 특정 장치를 선택하고 개별 ASR 규칙 구성을 확인할 수 있습니다.
 
-:::image type="content" source="images/asrrulesnew.png" lightbox="images/asrrulesnew.png" alt-text="ASR 규칙 화면":::
+:::image type="content" source="images/asrrulesnew.png" lightbox="images/asrrulesnew.png" alt-text="ASR 규칙 화면.":::
 
 ## <a name="microsoft-defender-for-endpoint---advanced-hunting"></a>끝점용 Microsoft Defender - 고급 헌팅
 
@@ -49,7 +49,7 @@ Microsoft 365 센터에서 현재 ASR 규칙 구성 및 자산의 이벤트를 �
 
 ASR 규칙 이벤트는 디바이스의 고급 헌팅 섹션에 있는 DeviceEvents 테이블에서 Microsoft 365 Defender. 예를 들어 아래 쿼리와 같은 간단한 쿼리는 지난 30일 동안 ASR 규칙이 있는 모든 이벤트를 데이터 원본으로 보고하고 ActionType 수로 요약하여 요약할 수 있습니다. 이 경우 ASR 규칙의 실제 코드 이름입니다.
 
-:::image type="content" source="images/adv-hunt-querynew.png" alt-text="고급 헌팅 쿼리":::
+:::image type="content" source="images/adv-hunt-querynew.png" alt-text="고급 헌팅 쿼리.":::
 
 :::image type="content" source="images/adv-hunt-sc-2new.png" lightbox="images/adv-hunt-sc-2new.png" alt-text="고급 헌팅 화면":::
 
@@ -61,7 +61,7 @@ ASR 규칙 이벤트는 디바이스의 고급 헌팅 섹션에 있는 DeviceEve
 
 아래 그림은 주어진 끝점에서 이러한 이벤트의 시간 표시 막대 보기의 스크린샷입니다.  이 보기에서 오른쪽 창의 이벤트 그룹을 기준으로 이벤트 목록을 필터링할 수 있습니다. 경고를 보고 기록 타임라인을 스크롤하는 동안 Flagged 및 Verbose 이벤트를 활성화 또는 비활성화할 수도 있습니다.
 
-:::image type="content" source="images/mic-sec-def-timelinenew.png" lightbox="images/mic-sec-def-timelinenew.png" alt-text="Microsoft 365 Defender 시간 표시 막대":::
+:::image type="content" source="images/mic-sec-def-timelinenew.png" lightbox="images/mic-sec-def-timelinenew.png" alt-text="Microsoft 365 Defender 시간 표시 막대를 클릭합니다.":::
 
 ## <a name="how-to-troubleshoot-asr-rules"></a>ASR 규칙을 해결하는 방법
 
@@ -81,7 +81,7 @@ ASR 규칙이 이미 활성화되어 있는지 확인하는 가장 쉬운 방법
 
 ASR 규칙에 대한 위의 정보를 확장하기 위해 및/또는 에 대한 AttackSurfaceReductionRules_Ids **사용할** **AttackSurfaceReductionRules_Actions.**
 
-예:
+예제:
 
 ```powershell
 Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Ids
@@ -97,7 +97,7 @@ Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Id
 Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Actions
 ```
 
-:::image type="content" source="images/getmpref-example2new.png" alt-text="get mppreference example2":::
+:::image type="content" source="images/getmpref-example2new.png" alt-text="mppreference 예제2를 얻습니다.":::
 
 ### <a name="querying-blocking-and-auditing-events"></a>쿼리 차단 및 감사 이벤트
 
@@ -105,7 +105,7 @@ ASR 규칙 이벤트는 로그 내에서 볼 Windows Defender 있습니다.
 
 액세스하려면 이벤트 뷰어를 Windows 열고 응용 프로그램 및 서비스 로그 Microsoft Windows Windows Defender  >    >    >    >  **를 탐색합니다.**
 
-:::image type="content" source="images/eventviewerscrnew.png" lightbox="images/eventviewerscrnew.png" alt-text="이벤트 뷰어 스크러":::
+:::image type="content" source="images/eventviewerscrnew.png" lightbox="images/eventviewerscrnew.png" alt-text="이벤트 뷰어 스크러.":::
 
 ## <a name="microsoft-defender-malware-protection-logs"></a>Microsoft Defender 맬웨어 보호 로그
 
@@ -115,7 +115,7 @@ ASR 규칙 이벤트는 로그 내에서 볼 Windows Defender 있습니다.
 
 지원 정보를 생성하기 위해 *-getfilesMpCmdRun.exe 입력합니다.* 잠시 후 여러 로그가 보관함(MpSupportFiles.cab)에 패키지되어 *C:\ProgramData\Microsoft\Windows Defender\Support 에서* 사용할 수 있습니다.
 
-:::image type="content" source="images/malware-prot-logsnew.png" alt-text="맬웨어 보호 로그":::
+:::image type="content" source="images/malware-prot-logsnew.png" alt-text="맬웨어 보호 로그.":::
 
 해당 보관 파일을 추출하면 문제 해결을 위해 여러 파일을 사용할 수 있습니다.
 

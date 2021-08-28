@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 3cf1130e13b90c60334b8af76f31d232a084f37a
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: de8d0a0bc1609a3dfac9d177a51ef3903b477de4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256866"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572950"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -40,11 +40,11 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 
 * 조직 보안 태세의 현 상태를 보고합니다.
 * 검색 가능성과 표시 여부, 안내, 컨트롤을 제공함으로써 보안 태세를 개선합니다.  
-* 벤치마크와 비교 및 KPI(핵심 성과 지표)를 수립합니다.
+* 벤치마크와 비교 및 KPI(핵심성과지표) 수립.
 
 조직은 메트릭 및 추세의 강력한 시각화, 다른 Microsoft 제품과의 통합, 유사한 조직과의 점수 비교 등의 강력한 시각화에 액세스할 수 있습니다. 또한 타사 솔루션에서 권장 작업을 해결한 경우 점수가 반영될 수 있습니다.
 
-![보안 점수 홈페이지](../../media/secure-score/secure-score-home-page.png)
+![보안 점수 홈페이지입니다.](../../media/secure-score/secure-score-home-page.png)
 
 ## <a name="how-it-works"></a>작동 방법
 
@@ -79,7 +79,7 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 
 - Microsoft 365(Exchange Online)
 - Azure Active Directory
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
 - ID용 Microsoft Defender
 - 클라우드 앱 보안
 - Microsoft Teams

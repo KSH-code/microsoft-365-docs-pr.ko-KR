@@ -17,12 +17,12 @@ ms.custom: ''
 description: 관리자는 EOP(Exchange Online Protection)의 고급 배달 정책을 사용하여 지원되는 특정 시나리오(타사 피싱 시뮬레이션 및 SecOps(보안 작업) 사서함으로 배달된 메시지)에서 필터링하지 말아야 하는 메시지를 식별하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 14e952aacf20350fb264fecd72f626b0f3a30729
-ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
+ms.openlocfilehash: 028735c7d340d63d2f952eabf683e512d261a913
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483358"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576083"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>사용자에 대한 타사 피싱 시뮬레이션 및 필터되지 않은 메시지의 SecOps 사서함 배달 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "58483358"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예제:
+기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예시:
 
 - **타사 피싱 시뮬레이션:** 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
 - **SecOps(보안 작업)** 사서함: 보안 팀에서 필터되지 않은 메시지를 수집 및 분석하는 데 사용하는 전용 사서함(좋음과 불량 모두)입니다.
@@ -78,7 +78,7 @@ ms.locfileid: "58483358"
 1. Microsoft 365 Defender 포털의 규칙 섹션에서 **전자** 메일 & 공동 작업 정책 & 규칙 위협 정책 고급 \>  \>  \>  **배달로** 이동하세요.
 
 2. 고급 배달 **페이지에서** **SecOps** 사서함 탭이 선택되어 있는지 확인한 후 다음 단계 중 하나를 수행합니다.
-   - 편집 ![ 아이콘 편집 ](../../media/m365-cc-sc-edit-icon.png) **을 클릭합니다.**
+   - 편집 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-edit-icon.png) **편집.**
    - 구성된 피싱 시뮬레이션이 없는 경우 추가 를 **클릭합니다.**
 
 3. **SecOps** 사서함 편집 플라이아웃이 열리면 다음 단계 중 하나를 수행하여 SecOps 사서함으로 지정하려는 기존 Exchange Online 사서함을 입력합니다.
@@ -87,18 +87,18 @@ ms.locfileid: "58483358"
 
      필요한 만큼 이 단계를 반복합니다. 메일 그룹은 허용되지 않습니다.
 
-     기존 값을 제거하려면 제거를 클릭합니다. ![아이콘 제거](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+     기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
 4. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
-구성한 SecOps 사서함 항목이 **SecOps** 사서함 탭에 표시됩니다. 변경하려면 탭에서 ![ 편집 아이콘 ](../../media/m365-cc-sc-edit-icon.png) **편집을** 클릭합니다.
+구성한 SecOps 사서함 항목이 **SecOps** 사서함 탭에 표시됩니다. 변경하려면 편집 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-edit-icon.png) **탭에서** 편집합니다.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>고급 Microsoft 365 Defender 포털을 사용하여 고급 배달 정책에서 타사 피싱 시뮬레이션 구성
 
 1. Microsoft 365 Defender 포털의 규칙 섹션에서 **전자** 메일 & 공동 작업 정책 & 규칙 위협 정책 고급 \>  \>  \>  **배달로** 이동하세요.
 
 2. 고급 배달 **페이지에서** 피싱  시뮬레이션 탭을 선택하고 다음 단계 중 하나를 수행합니다.
-   - 편집 ![ 아이콘 편집 ](../../media/m365-cc-sc-edit-icon.png) **을 클릭합니다.**
+   - 편집 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-edit-icon.png) **편집.**
    - 구성된 피싱 시뮬레이션이 없는 경우 추가 를 **클릭합니다.**
 
 3. 열 **수 있는** 타사 피싱 시뮬레이션 플라이아웃 편집 플라이아웃에서 다음 설정을 구성합니다.
@@ -114,7 +114,7 @@ ms.locfileid: "58483358"
      - CIDR IP: 예: 192.168.0.1/25.
    - 허용할 시뮬레이션 **URL:** 이 설정을 확장하고 선택적으로 상자를 클릭하고 값을 입력한 다음 상자 아래에 표시되는 값을 선택하거나 입력하여 차단 또는 검색되지 않는 피싱 시뮬레이션 캠페인의 일부인 특정 URL을 입력합니다. 항목을 10개까지 추가할 수 있습니다. URL 구문 형식은 [테넌트 허용/차단 목록에 대한 URL 구문을 참조하세요.](tenant-allow-block-list.md#url-syntax-for-the-tenant-allowblock-list)
 
-   기존 값을 제거하려면 제거를 클릭합니다. ![아이콘 제거](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+   기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
    > [!NOTE]
    > 고급 배달에서 타사  피싱 시뮬레이션을 구성하려면 하나 이상의 보내는 도메인과 하나 이상의 보내는 **IP를** 지정해야 합니다. 선택적으로 시뮬레이션 메시지에 있는 **URL이** 차단되지 않도록 시뮬레이션 URL을 포함할 수 있습니다. 각 필드에 대해 최대 10개 항목을 지정할 수 있습니다. 하나 이상의 보내는 도메인과  하나의 보내는 **IP에** 일치해야 하지만 값 간의 연결은 유지되지 않습니다.
@@ -123,7 +123,7 @@ ms.locfileid: "58483358"
    - **처음:** **추가를** 클릭한 다음 **닫기 를 클릭합니다.**
    - **기존 편집:** **저장을 클릭한** 다음 닫기 **를 클릭합니다.**
 
-구성한 타사 피싱 시뮬레이션 항목이 피싱 시뮬레이션 **탭에** 표시됩니다. 변경하려면 탭에서 ![ 편집 아이콘 ](../../media/m365-cc-sc-edit-icon.png) **편집을** 클릭합니다.
+구성한 타사 피싱 시뮬레이션 항목이 피싱 시뮬레이션 **탭에** 표시됩니다. 변경하려면 편집 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-edit-icon.png) **탭에서** 편집합니다.
 
 ## <a name="additional-scenarios-that-require-filtering-bypass"></a>필터링 우회가 필요한 추가 시나리오
 

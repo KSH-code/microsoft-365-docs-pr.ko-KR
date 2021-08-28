@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: b14501463233ef98d49023c4afde85b02714857b05efc73a6eafcff867387e23
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 24d6873df2432adf5e56b62f01e784f65df4e980
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839272"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576191"
 ---
 # <a name="troubleshoot-subscription-and-portal-access-issues"></a>구독 및 포털 액세스 문제 해결
 
@@ -49,7 +49,7 @@ ms.locfileid: "53839272"
 
 두 경우 모두 일반 Microsoft [Defender for Endpoint 지원](https://support.microsoft.com/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16055&ccsid=636419533611396913) 또는 볼륨 라이선스 지원 에서 Microsoft 지원에 [문의해야 합니다.](https://www.microsoft.com/licensing/servicecenter/Help/Contact.aspx)
 
-![구독을 찾을 수 없는 이미지](images/atp-no-subscriptions-found.png)
+![구독을 찾을 수 없는 이미지입니다.](images/atp-no-subscriptions-found.png)
 
 ## <a name="your-subscription-has-expired"></a>구독이 만료되었습니다.
 
@@ -60,19 +60,19 @@ ms.locfileid: "53839272"
 > [!NOTE]
 > 보안상의 이유로, 오프보드 장치에 사용된 패키지는 다운로드한 날짜 30일 후에 만료됩니다. 장치에 전송된 만료된 오프보더 패키지는 거부됩니다. 오프보더 패키지를 다운로드할 때 패키지 만료 날짜에 대한 알림을 하게 되고 패키지 이름에도 포함됩니다.
 
-![구독이 만료된 이미지](images/atp-subscription-expired.png)
+![구독이 만료된 이미지입니다.](images/atp-subscription-expired.png)
 
 ## <a name="you-are-not-authorized-to-access-the-portal"></a>포털에 액세스할 수 있는 권한이 없습니다.
 
 포털에 액세스할 수 있는 권한이 없는 경우 끝점용 Microsoft Defender는 보안 모니터링, 인시던트 조사 및 대응 제품으로, 이에 따라 액세스가 제한되고 사용자가 제어합니다.
 자세한 내용은 포털에 [**대한 사용자 액세스 할당을 참조하세요.**](/windows/threat-protection/windows-defender-atp/assign-portal-access-windows-defender-advanced-threat-protection)
 
-![포털 액세스 권한이 부여되지 않은 이미지](images/atp-not-authorized-to-access-portal.png)
+![포털에 액세스할 수 있는 권한이 없는 이미지입니다.](images/atp-not-authorized-to-access-portal.png)
 
 ## <a name="data-currently-isnt-available-on-some-sections-of-the-portal"></a>현재 포털의 일부 섹션에서 데이터를 사용할 수 없습니다.
 포털 대시보드 및 기타 섹션에 "현재 데이터를 사용할 수 없습니다."라는 오류 메시지가 표시되는 경우:
 
-![현재 사용할 수 없는 데이터 이미지](images/atp-data-not-available.png)
+![현재 데이터 이미지를 사용할 수 없습니다.](images/atp-data-not-available.png)
 
 그 아래에 있는 모든 하위omain을 허용해야 `security.windows.com` 합니다. 예를 들면 `*.security.windows.com`와 같습니다.
 

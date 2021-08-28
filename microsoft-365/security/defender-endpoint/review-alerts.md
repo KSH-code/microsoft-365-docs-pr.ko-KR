@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 5/1/2020
 ms.technology: mde
-ms.openlocfilehash: e379e50eb0b7762f42a7ae945a31ec8b82bd83a625fd171f007d541802fc12b1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 01b9fb5a3483d287f4d43db0a95af6add284b023
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833654"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571280"
 ---
 # <a name="review-alerts-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 경고 검토
 
@@ -53,11 +53,11 @@ Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관�
 
 - 금지: 의심스러운 작업을 피했습니다. 예를 들어 파일이 디스크에 기록되지 않은 경우나 실행되지 않았습니다.
 
-  ![위협을 표시하는 경고 페이지가 차단된 경우](images/detstat-prevented.png)
+  ![위협을 표시하는 경고 페이지가 차단됩니다.](images/detstat-prevented.png)
 
 - 차단: 의심스러운 동작이 실행된 다음 차단됩니다. 예를 들어 프로세스가 실행된 후 의심스러운 동작이 나타냈기 때문에 프로세스가 종료되었습니다.
 
-  ![위협이 차단된 경고 페이지](images/detstat-blocked.png)
+  ![위협을 표시하는 경고 페이지가 차단됩니다.](images/detstat-blocked.png)
 
 - 검색된: 공격이 감지되고 활성 상태일 수 있습니다.
 
@@ -65,7 +65,7 @@ Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관�
 
 그런 다음 경고의  세부 정보 창에서 자동화된 조사 세부 정보를 검토하여 이미 수행된 작업을 보고 권장 작업에 대한 경고 설명을 읽을 수 있습니다.
 
-![경고 설명 및 자동 조사 섹션이 강조 표시된 세부 정보 창의 스니킷](images/alert-air-and-alert-description.png)
+![경고 설명 및 자동 조사 섹션이 강조 표시된 세부 정보 창의 부분입니다.](images/alert-air-and-alert-description.png)
 
 경고가 열리면 세부 정보 창에서 사용할 수 있는 기타 정보로는 MITRE 기술, 원본 및 추가 상황 세부 정보가 포함됩니다.
 
@@ -75,11 +75,11 @@ Microsoft Defender for Endpoint의 경고 페이지는 선택한 경고와 관�
 
 - **디바이스의** 경우 세부 정보 창에 도메인, 운영 체제 및 IP와 같은 장치 자체에 대한 정보가 표시됩니다. 활성 경고 및 해당 장치에서 로그온한 사용자도 사용할 수 있습니다. 장치를 차단하거나, 앱 실행을 제한하거나, 바이러스 백신 검색을 실행하여 즉각적인 조치를 취할 수 있습니다. 또는 조사 패키지를 수집하거나 자동화된 조사를 시작하거나 장치 페이지로 이동하여 디바이스의 시점에서 조사할 수 있습니다.
 
-   ![디바이스를 선택할 때 세부 정보 창의 스니킷](images/device-page-details.png)
+   ![디바이스를 선택할 때 세부 정보 창의 스니킷입니다.](images/device-page-details.png)
 
 - **사용자의** 경우 세부 정보 창에는 사용자의 SAM 이름 및 SID와 같은 자세한 사용자 정보와 이 사용자가 수행한 로그온 유형 및 이와 관련된 모든 알림 및 인시던트가 표시됩니다. 사용자 페이지 *열기 를* 선택하여 해당 사용자의 시점에서 조사를 계속할 수 있습니다.
 
-   ![사용자가 선택된 경우 세부 정보 창의 스니킷](images/user-page-details.png)
+   ![사용자가 선택될 때 세부 정보 창의 스니킷입니다.](images/user-page-details.png)
 
 ## <a name="related-topics"></a>관련 항목
 

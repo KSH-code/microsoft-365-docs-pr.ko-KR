@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 사이트 이동을 예약하고 사용자에게 기대치를 전달하는 OneDrive 지역 위치로 이동하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 1e571993a4d83d3e9a61f783fee9b1df5f9de4bb3d9184a9565c280677faf21c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 50c23555a91aecfbbaf6aa30bae2c3a741a18c45
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575663"
 ---
 # <a name="move-a-onedrive-site-to-a-different-geo-location"></a>OneDrive 사이트를 다른 지리적 위치로 이동 
 
@@ -64,7 +64,7 @@ OneDrive 사이트 이동을 사전에 예약할 수 있습니다(이 문서의 
 
 `Connect-SPOSservice -url https://contosoenergyeur-admin.sharepoint.com`
 
-![connect-sposervice cmdlet이 표시된 PowerShell 창의 스크린샷](../media/move-onedrive-between-geo-locations-image1.png)
+![connect-sposervice cmdlet을 보여 주며 PowerShell 창의 스크린샷.](../media/move-onedrive-between-geo-locations-image1.png)
 
 ## <a name="validating-the-environment"></a>환경 유효성 검사
 
@@ -98,7 +98,7 @@ OneDrive를 이동할 준비가 되었으면 Success, 법적 보존 상태이거
 
 `Start-SPOUserAndContentMove -UserPrincipalName matt@contosoenergy.onmicrosoft.com -DestinationDataLocation AUS`
 
-![Start-SPOUserAndContentMove cmdlet을 보여주는 PowerShell 창 스크린샷](../media/move-onedrive-between-geo-locations-image2.png)
+![Cmdlet을 보여 Start-SPOUserAndContentMove PowerShell 창의 스크린샷.](../media/move-onedrive-between-geo-locations-image2.png)
 
 지리적 이동을 나중을 수행하기 위해 예약하려면 다음 매개 변수 중 하나를 사용합니다.
 

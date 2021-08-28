@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: d9c244b048685824abfece8302c2528fa51a5802
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: c9a9cfa6e790cd179c0f9a13ce4fd312c0819411
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349995"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575535"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>인시던트 Microsoft 365 Defender
 
@@ -46,7 +46,7 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 개별 경고를 함께 하여 공격에 대한 통찰력을 확보하는 것은 까다롭고 시간이 많이 소요될 수 Microsoft 365 Defender 경고 및 관련 정보를 인시던트에 자동으로 집계합니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents.png" alt-text="Microsoft 365 Defender 이벤트와 인시던트의 상관 관계 지정 방법":::
+:::image type="content" source="../../media/incidents-overview/incidents.png" alt-text="엔터티 Microsoft 365 Defender 이벤트와 인시던트의 상관 관계가 지정되는 방법":::
 
 4분 동안의 인시던트에 대한 Microsoft 365 Defender 간략한 개요를 시청하세요.
 
@@ -68,7 +68,7 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 인시던트  및 인시던트 & 포털(>)의 빠른 실행에서 인시던트 Microsoft 365 Defender 관리합니다 security.microsoft.com.[](https://security.microsoft.com) 다음은 예입니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="사이트 포털의 인시던트 Microsoft 365 Defender 페이지":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="사이트 포털의 인시던트 Microsoft 365 Defender.":::
 
 인시던트 이름을 선택하면 인시던트 요약이 표시될 수 있으며 추가 정보가 있는 탭에 액세스할 수 있습니다.
 
@@ -102,13 +102,13 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 다음은 인시던트와 인시던트 데이터 및 인시던트 포털에서 인시던트의 탭 Microsoft 365 Defender 관계입니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="인시던트 및 데이터와 인시던트 포털의 인시던트 탭 간의 Microsoft 365 Defender 관계":::
+:::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="인시던트 및 데이터와 인시던트 포털의 인시던트 탭 간의 Microsoft 365 Defender.":::
 
 ## <a name="example-incident-response-workflow-for-microsoft-365-defender"></a>예제 인시던트 대응 워크플로를 Microsoft 365 Defender
 
 다음은 Microsoft 365 포털을 사용하여 인시던트에 응답하기 위한 Microsoft 365 Defender 예제입니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="인시던트 대응 워크플로의 Microsoft 365":::
+:::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="관리에 대한 인시던트 대응 워크플로의 Microsoft 365.":::
 
 지속적인 기준에 따라 인시던트 큐에서 분석 및 해결을 위해 우선 순위가 가장 높은 인시던트를 식별하고 대응을 준비합니다. 이 조합은
 
@@ -146,7 +146,7 @@ Microsoft 제품 전반의 인시던트 대응에 대한 자세한 내용은 이
 
 다음은 보안 작업(SecOps)의 예입니다Microsoft 365 Defender.
 
-:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="보안 작업의 예로는 Microsoft 365 Defender":::
+:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="보안 작업의 예로는 Microsoft 365 Defender.":::
 
 일별 작업에는 다음이 포함됩니다.
 

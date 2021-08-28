@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 682b7729bbfe49a0889065b9cabcae980e031881
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: a8efc37b3ae5177540242bca5fdbeab5f4e613ba
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576179"
 ---
 # <a name="pilot-microsoft-defender-for-endpoint"></a>Endpoint용 파일럿 Microsoft Defender
 
@@ -34,7 +34,7 @@ ms.locfileid: "58247378"
 
 다음 단계에 따라 끝점용 Microsoft Defender의 파일럿을 설정하고 구성합니다. 
 
-![Defender 평가 환경에 Id용 Microsoft Defender를 추가하는 단계](../../media/defender/m365-defender-endpoint-pilot-steps.png)
+![Defender 평가 환경에 Id용 Microsoft Defender를 추가하는 단계입니다.](../../media/defender/m365-defender-endpoint-pilot-steps.png)
 
 - 1단계. 파일럿 그룹 확인
 - 2단계. 기능 사용

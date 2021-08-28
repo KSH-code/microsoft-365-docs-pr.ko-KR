@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 비보조 데이터 원본을 Advanced eDiscovery 데이터 원본을 보류할 수 있습니다. 비관리 데이터 원본은 다시 인덱싱되어 부분적으로 인덱싱된 것으로 표시된 모든 콘텐츠는 완전히 빠르고 검색할 수 있도록 다시 처리됩니다.
-ms.openlocfilehash: bb43c7fe6a57a45e8eea9ff87601c13e018bff5707e474206e97fe05c6c3a6e7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: afa28ce8be5f7a051c84111c65d6b993b97b6c04
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53855934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571028"
 ---
 # <a name="add-non-custodial-data-sources-to-an-advanced-ediscovery-case"></a>비보조 데이터 원본을 사례에 Advanced eDiscovery 추가
 
@@ -36,7 +36,7 @@ Advanced eDiscovery 경우 데이터 원본을 보호자와 Microsoft 365 요구
 
 3. 새 **비보조** 데이터 위치 플라이아웃 페이지에서 사례에 추가할 데이터 원본을 선택합니다. 사서함 또는 SharePoint 섹션을 확장한  Exchange 편집을 클릭하여 여러 사서함 및 사이트를 **추가할** 수 **있습니다.**
 
-   ![사이트 SharePoint 사이트 및 Exchange 비보조 데이터 원본으로 추가](../media/NonCustodialDataSources1.png)
+   ![사이트 SharePoint 사이트 및 Exchange 비보관 데이터 원본으로 추가합니다.](../media/NonCustodialDataSources1.png)
 
    - **SharePoint** - **편집을 클릭하여** 사이트를 추가합니다. 목록에서 사이트를 선택하거나 검색 표시줄에 사이트의 URL을 입력하여 사이트를 검색할 수 있습니다. 비구성 데이터 원본으로 추가할 사이트를 선택하고 추가를 **클릭합니다.**
 
@@ -51,7 +51,7 @@ Advanced eDiscovery 경우 데이터 원본을 보호자와 Microsoft 365 요구
 
    추가한 각 비보조 데이터 원본이 데이터 원본 페이지에 **나열됩니다.** 비보조 데이터 원본은 원본 유형 열의 **데이터** 위치 **값으로 식별됩니다.**
 
-   ![데이터 원본 탭의 비보조 데이터 원본](../media/NonCustodialDataSources2.png)
+   ![데이터 원본 탭의 비보조 데이터 원본입니다.](../media/NonCustodialDataSources2.png)
 
 비보조 데이터 원본을 사례에 추가하고 나면 비보안 데이터 *다시* 인덱서라는 작업이 만들어지며 사례의  작업 탭에 표시됩니다. 작업을 만든 후 고급 인덱싱 프로세스가 시작된 후 데이터 원본을 다시 인덱싱합니다.
 
@@ -65,7 +65,7 @@ Advanced eDiscovery 경우 데이터 원본을 보호자와 Microsoft 365 요구
 
    플라이아웃 페이지에는 보류 중이 아닌 데이터 원본에 대한 정보 및 통계가 표시됩니다.
 
-   ![비보조 데이터 원본 보류에 대한 플라이아웃 페이지에 통계가 표시됩니다.](../media/NonCustodialDataSourcesHoldFlyout.png)
+   ![보유하지 않은 데이터 원본에 대한 플라이아웃 페이지에 통계가 표시됩니다.](../media/NonCustodialDataSourcesHoldFlyout.png)
 
 3. 보류 **편집을** 클릭하여 보류된 비관리 데이터 원본을 보고 다음 관리 작업을 수행합니다.
 

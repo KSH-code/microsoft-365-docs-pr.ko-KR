@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft가 아닌 클라우드 앱에 대해 dlp 정책을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 10e5f8e78b57932c18acfe18631ae8b08d543dd5
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 5817bad8e02e0aeee6aab88ca1a4cabe45822b51
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502822"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571377"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps"></a>Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용
 
@@ -75,17 +75,17 @@ DLP 정책의 위치를 선택하면 해당 위치를 **Microsoft Cloud App Secu
 - 특정 앱 또는 인스턴스를 선택하려면 인스턴스 **선택 을 선택합니다.**
 - 인스턴스를 선택하지 않은 경우 정책은 테넌트의 모든 연결된 앱을 Microsoft Cloud App Security.
 
-   ![정책을 적용할 위치](../media/1-dlp-non-microsoft-cloud-app-choose-instance.png)
+   ![정책을 적용할 위치입니다.](../media/1-dlp-non-microsoft-cloud-app-choose-instance.png)
 
-   ![Box-US 및 Box-General](../media/2-dlp-non-microsoft-cloud-app-box.png)
+   ![Box-US 및 Box-General.](../media/2-dlp-non-microsoft-cloud-app-box.png)
 
 지원되는 모든 비 Microsoft 클라우드 앱에 대해 다양한 작업을 선택할 수 있습니다. 모든 앱에 대해 가능한 작업이 다릅니다(클라우드 앱 API에 따라 다름).
 
-![규칙 만들기](../media/3-dlp-non-microsoft-cloud-app-create-rule.png)
+![규칙을 만들 수 있습니다.](../media/3-dlp-non-microsoft-cloud-app-create-rule.png)
 
 DLP 정책에서 규칙을 만들 때 Microsoft가 아닌 클라우드 앱에 대한 작업을 선택할 수 있습니다. 타사 앱을 제한하려면 타사 앱 **제한을 선택합니다.**
 
-![타사 앱 제한](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
+![타사 앱을 제한합니다.](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
 
 > [!NOTE]
 > Microsoft 앱이 아닌 앱에 적용되는 DLP 정책은 Microsoft Cloud App Security. Microsoft가 아닌 앱에 대한 DLP 정책을 만들면 해당 앱에서 동일한 정책이 Microsoft Cloud App Security.

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 40d1bdb31d0364ab83cd8cfd76fa5b9d12395237830273d880bf786026323057
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9047c6e5b91ebd2d7e0a4e953ca907b31cb476f8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833753"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573058"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 제외 구성 및 유효성 검사
 
@@ -79,7 +79,7 @@ JAMF, Intune 또는 다른 관리 콘솔에서 제외를 구성하는 방법에 
 
 Endpoint용 Defender 응용 프로그램을 열고 다음 스크린샷과 같이 설정 추가 또는 제거... 관리로  >  이동합니다.
 
-![제외 관리 스크린샷](images/mdatp-37-exclusions.png)
+![제외 스크린샷 관리](images/mdatp-37-exclusions.png)
 
 추가하고 프롬프트를 따르는 제외 유형을 선택합니다.
 

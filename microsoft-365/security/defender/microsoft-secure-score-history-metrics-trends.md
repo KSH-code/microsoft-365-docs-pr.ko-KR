@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: b5fbfae845c320e0d38293cff0d859165217a385
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 0bb4b57e3f212820852f23af2665f11f99e5be95
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255163"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575915"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Microsoft 보안 점수 기록 추적 및 목표 충족
 
@@ -40,13 +40,13 @@ ms.locfileid: "58255163"
 
 그래프 아래에는 선택한 시간 범위에서 수행된 모든 작업 및 해당 특성(예: 결과 점 및 범주)의 목록이 표시됩니다. 날짜 범위를 사용자 지정하고 범주별로 필터링할 수 있습니다.
 
-![활동 기록](../../media/secure-score/secure-score-history-activity.png)
+![활동 기록.](../../media/secure-score/secure-score-history-activity.png)
 
 활동과 관련된 개선 작업을 선택하면 전체 개선 작업 플라이아웃이 나타납니다.
 
 특정 개선 작업의 모든 기록을 확인하려면 플라이아웃에서 사용 기록 링크를 선택합니다.
 
-![개선 작업 기록](../../media/secure-score/secure-score-history-flyout.png)
+![개선 작업 기록.](../../media/secure-score/secure-score-history-flyout.png)
 
 ## <a name="discover-trends-and-set-goals"></a>추세 검색 및 목표 설정
 
@@ -66,7 +66,7 @@ ms.locfileid: "58255163"
 
 비교 막대 차트는 개요 **탭입니다.** 차트 위에 마우스를 놓고 점수와 점수를 볼 수 있습니다. 비교 데이터는 대문자이기 때문에 다른 테넌트가 혼합된 것으로 정확히 알 수 없습니다.
 
-![비슷한 조직의 점수의 막대 그래프](../../media/secure-score/secure-score-comparison-bar.png)
+![비슷한 조직의 점수의 막대 그래프입니다.](../../media/secure-score/secure-score-comparison-bar.png)
 
 - **사용자와 같은** 조직 : 다음 기준을 충족하는 다른 테넌트의 평균 점수(비교할 테넌트가 5개 이상 있는 경우)입니다.
     1. 동일한 산업
@@ -89,7 +89,7 @@ ms.locfileid: "58255163"
 
 메트릭 & **추세** 탭에서 조직의 보안 점수가 시간 경과에 따라 다른 사용자와 어떻게 비교되는지 볼 수 있습니다.
 
-![시간의에 따라 비슷한 조직의 점수에 대한 선 그래프](../../media/secure-score/secure-score-comparison-trend.png)
+![시간이 지난 비슷한 조직의 점수에 대한 선 그래프입니다.](../../media/secure-score/secure-score-comparison-trend.png)
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 

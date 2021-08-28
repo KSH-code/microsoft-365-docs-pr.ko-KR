@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 데이터 개인 정보 보호 규정, 관련 시나리오, 준비 및 사용자 환경의 중요한 정보 유형을 Microsoft 365 결정하십시오.
-ms.openlocfilehash: 04dc67ee6316f4549e7d215f997cdc171b0038024f3740d544d6acb214f9be1e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: eefa80d85a9b03317b2021c73152e2e63f772cea
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883445"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571220"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>데이터 개인 정보 보호 위험을 평가하고 데이터를 사용하여 중요한 Microsoft 365
 
@@ -61,7 +61,7 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
 |규정|문서/구역|발췌|적용 가능한 기술 제어 범주|
 |---|---|---|---|
 |GDPR|제5조(1)(f)|개인 데이터는 적절한 기술 또는 조직적 조치('무결성 및 기밀성')를 사용하여 무단 또는 불법적인 처리 및 우발적인 손실, 파괴 또는 손상으로부터 보호를 포함하여 개인 데이터의 적절한 보안을 보장하는 방식으로 처리되어야 합니다.|(모두) <br> ID <br> 디바이스 <br> 위협 방지 <br> 정보 보호 <br> 정보 관리 <br> 검색 및 대응|
-||제32조(1)(a)|기술의 상태, 구현 비용, 처리의 성격, 범위, 컨텍스트 및 목적과 자연인의 권리와 자유에 대한 다양한 가능성과 심각도의 위험을 고려하여, 컨트롤러와 처리자는 위험에 적절한 보안 수준을 보장하기 위해 적절한 기술 및 조직적 조치를 구현해야 합니다. 에 적절한 별칭 포함: (a) 개인 데이터의 가명 처리 및 암호화.|정보 보호|
+||제32조(1)(a)|기술의 상태, 구현 비용, 처리의 성격, 범위, 컨텍스트 및 목적과 자연인의 권리와 자유에 대한 다양한 가능성과 심각도의 위험을 고려하여, 컨트롤러와 처리자는 위험에 적절한 보안 수준을 보장하기 위해 적절한 기술 및 조직적 조치를 구현해야 합니다.  적절한 별칭 포함: (a) 개인 데이터의 가명 처리 및 암호화.|정보 보호|
 ||제13조(2)(a)|"... 컨트롤러는 개인 데이터를 획득할 때 개인정보주체에게 공정하고 투명한 처리를 보장하는 데 필요한 다음의 추가 정보를 제공해야 합니다. (a) 개인 데이터가 저장되는 기간 또는 가능하지 않을 경우 해당 기간을 결정하는 데 사용되는 기준을 제공해야 합니다.|정보 관리|
 ||제15조(1)(e)|개인정보주체는 개인정보와 관련한 개인정보가 처리되고 있는지 여부 및 해당되는 경우, 개인정보 및 다음의 정보에 대한 액세스 권한을 컨트롤러로부터 얻을 수 있는 권리가 있습니다: (e) 개인정보의 시정 또는 삭제 또는 개인정보의 처리 제한 또는 개인정보 처리 제한의 존재 또는 이에 반대하는 권리 processing|검색 및 대응|
 |LGPD|제46조|처리 에이전트는 무단 액세스, 파기, 손실, 변경, 통신 또는 부적절하거나 불법적인 처리의 우발적 또는 불법적인 상황에서 개인 데이터를 보호할 수 있는 보안, 기술 및 관리 조치를 채택해야 합니다.|정보 보호 <br> 정보 관리 <br> 검색 및 대응|
@@ -85,13 +85,13 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
 
 적용 대상 규정에 관계없이 조직 내부 및 외부의 다양한 사용자 데이터 형식이 시스템과 상호 작용하는 모든 중요한 요인은 조직에 적용되는 산업 및 정부 규정에 따라 전반적인 개인 데이터 보호 전략에 영향을 줄 수 있는 중요한 요소입니다. 여기에는 개인 데이터가 저장되는 위치, 데이터 형식 및 데이터의 양, 수집된 상황이 포함됩니다.
 
-![데이터 아는 경우: 데이터 유형 및 데이터의 수, 수집된 상황](../media/information-protection-deploy-assess/information-protection-deploy-assess-knowing-data.png)
+![데이터 아는 경우: 데이터 유형 및 데이터의 수, 수집된 상황 등](../media/information-protection-deploy-assess/information-protection-deploy-assess-knowing-data.png)
 
 ### <a name="data-portability"></a>데이터 이식성
 
 또한 데이터는 처리, 구체화 및 기타 버전에서 파생될 때 시간이 지날 때 이동됩니다. 초기 스냅숏만으로는 충분하지 않습니다. 데이터를 알기 위한 지속적인 프로세스가 필요합니다. 이는 대량의 개인 데이터를 처리하는 대규모 조직에서 가장 큰 문제 중 하나를 나타내고 있습니다. "데이터 알기" 문제를 해결하지 않는 조직은 잠재적으로 규제 기관의 매우 높은 위험과 가능한 벌금으로 끝날 수 있습니다.
 
-![데이터 수명 주기](../media/information-protection-deploy-assess/information-protection-deploy-assess-data-lifecycle.png)
+![데이터 수명 주기입니다.](../media/information-protection-deploy-assess/information-protection-deploy-assess-data-lifecycle.png)
 
 ### <a name="where-the-personal-data-is"></a>개인 데이터가 있는 위치
 
@@ -99,7 +99,7 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
 
 데이터 개인 정보 규정과 관련된 전반적인 준비 및 위험을 아직 평가하지 않은 경우 다음 3단계 프레임워크를 사용하여 시작하십시오.
 
-![데이터 개인 정보 규정과 관련된 전반적인 준비 및 위험을 평가하는 단계](../media/information-protection-deploy-assess/information-protection-deploy-assess-grid.png)
+![데이터 개인 정보 규정과 관련된 전반적인 준비 및 위험을 평가하는 단계입니다.](../media/information-protection-deploy-assess/information-protection-deploy-assess-grid.png)
 
 > [!NOTE]
 > 이 문서와 해당 콘텐츠는 법률 자문 서비스를 위해 제공되지 않습니다. 평가의 초기 단계에서 도움이 될 수 있는 도구에 대한 몇 가지 기본 지침과 링크만 제공합니다.
@@ -116,7 +116,7 @@ ISO 27001과 같은 다른 표준을 준수하는 것이 여러 유럽 감독 �
 
 다음은 조직의 일반적인 부서에 대한 다양한 유형의 데이터 예입니다.
 
-![개인 데이터 유형](../media/information-protection-deploy-assess/information-protection-deploy-assess-data-types.png)
+![개인 데이터의 유형입니다.](../media/information-protection-deploy-assess/information-protection-deploy-assess-data-types.png)
 
 데이터 개인 정보 보호 규정이 적용된 개인 데이터의 상당수는 일반적으로 외부에서 수집되고 Microsoft 365. 소비자 연결 웹 또는 모바일 응용 프로그램의 모든 개인 데이터는 이러한 응용 프로그램에서 Microsoft 365 데이터 개인 정보 보호를 준수하기 위해 내보내야 Microsoft 365.
 

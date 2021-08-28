@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 정책에 대해 알아보겠습니다.
-ms.openlocfilehash: fae9afa65c4bef1d7288493e92c8b78c6fb9d08fa4426c1087622856b4cec921
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2f22e56195b94f07a6b8499bd69c60d65f37cce8
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572242"
 ---
 # <a name="get-started-with-app-policies"></a>앱 정책 시작
 
@@ -29,7 +29,7 @@ Microsoft 앱 거버넌스의 앱 정책은 조직에서 앱 규정 준수 관�
 
 현재 앱 정책 목록을 보려면 **Microsoft 365 규정 준수 센터 > 앱 거버넌스 > 정책** 으로 이동합니다.
 
-![Microsoft 365 규정 준수 센터의 MAPG 정책 요약 페이지](..\media\manage-app-protection-governance\mapg-cc-policies.png)
+![Microsoft 365 규정 준수 센터의 MAPG 정책 요약 페이지.](..\media\manage-app-protection-governance\mapg-cc-policies.png)
 
 ## <a name="whats-available-on-the-app-policies-dashboard"></a>앱 정책 대시보드에서 사용할 수 있는 기능
 

@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7a7b1522046926fb0ec3998564f83fdb3d28cb74
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 25c83dedaa9f1606744e54459a0ebfb5627be752
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258433"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575483"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -75,7 +75,7 @@ DKIM을 사용하면 보내는 전자 메일 메시지의 머리글에 디지털
 
 SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 메시지 머리글 내에서 서명을 *암호화* 합니다. 메시지를 전달할 때 메시지의 봉투 일부가 전달 서버에서 제거될 수 있습니다. 디지털 서명은 전자 메일 머리글의 일부이기 때문에 전자 메일 메시지와 함께 유지되므로 DKIM은 다음 예제와 같이 메시지가 전달된 경우에도 작동합니다.
 
-![SPF 확인이 실패하는 경우 DKIM 인증을 제공하는 전달된 메시지를 보여주는 다이어그램](../../media/28f93b4c-97e7-4309-acc4-fd0d2e0e3377.jpg)
+![SPF 확인이 실패하는 경우 DKIM 인증을 제공하는 전달된 메시지를 보여주는 다이어그램.](../../media/28f93b4c-97e7-4309-acc4-fd0d2e0e3377.jpg)
 
 이 예제에서 도메인에 대한 SPF TXT 레코드만 게시한 경우 받는 사람의 메일 서버에서 전자 메일을 스팸으로 표시하고 가양성 결과를 생성할 수 있습니다. **이 시나리오에 DKIM을 추가하면 *가양성* 스팸 보고를 줄일 수가 있습니다.** DKIM은 IP 주소뿐만 아니라 인증을 위해 공개 키 암호화를 사용하기 때문에 DKIM은 SPF보다 훨씬 강력한 인증 형식으로 간주됩니다. 배포시 SPF 및 DKIM과 DMARC를 모두 사용하는 것이 좋습니다.
 
@@ -87,17 +87,17 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 메시지 머리글
 테넌트에서 허용된 모든 도메인은 DKIM 페이지의 Microsoft 365 Defender 포털에 표시됩니다. 표시되지 않으면 [도메인 페이지](/microsoft-365/admin/setup/add-domain#add-a-domain)에서 허용된 도메인을 추가합니다.
 도메인이 추가되면 아래와 같은 단계에 따라 DKIM을 구성합니다.
 
-1단계: DKIM 페이지에서 DKIM을 구성하려는 도메인을 클릭합니다.
+1단계: DKIM 페이지에서 DKIM을 구성하려는 도메인을 클릭합니다(https://security.microsoft.com/dkimv2 또는 https://protection.office.com/dkimv2).
 
-![도메인이 선택된 Microsoft 365 Defender 포털의 DKIM 페이지](../../media/126996261-2d331ec1-fc83-4a9d-a014-bd7e1854eb07.png)
+![도메인이 선택된 Microsoft 365 Defender 포털의 DKIM 페이지.](../../media/126996261-2d331ec1-fc83-4a9d-a014-bd7e1854eb07.png)
 
 2단계: DKIM 키 만들기를 클릭합니다.
 
-![DKIM 키 만들기 버튼이 있는 도메인 세부 정보 플라이아웃](../../media/127001645-4ccf89e6-6310-4a91-85d6-aaedbfd501d3.png)
+![DKIM 키 만들기 버튼이 있는 도메인 세부 정보 플라이아웃.](../../media/127001645-4ccf89e6-6310-4a91-85d6-aaedbfd501d3.png)
 
 3단계: 팝업 창에 표시된 CNAMES를 복사합니다.
 
-![복사할 두 개의 CNAME 레코드가 포함된 CNAME 팝업 게시 창](../../media/127001787-3cce2c29-e0e4-4712-af53-c51dcba33c46.png)
+![복사할 두 개의 CNAME 레코드가 포함된 CNAME 팝업 게시 창.](../../media/127001787-3cce2c29-e0e4-4712-af53-c51dcba33c46.png)
 
 4단계: 복사한 CNAME 레코드를 DNS 서비스 공급자에 게시합니다.
 
@@ -112,7 +112,7 @@ TTL: 3600 (or your provider default)
 
 5단계: DKIM을 사용하도록 설정하려면 DKIM 페이지로 돌아갑니다.
 
-![토글을 사용으로 밀어 DKIM을 사용하도록 설정](../../media/126995186-9b3fdefa-a3a9-4f5a-9304-1099a2ce7cef.png)
+![토글을 사용으로 밀어 DKIM을 사용하도록 설정.](../../media/126995186-9b3fdefa-a3a9-4f5a-9304-1099a2ce7cef.png)
 
 CNAME 레코드가 존재하지 않는 경우 다음 때문일 수 있습니다.
 
@@ -241,7 +241,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 3. **DKIM** 페이지에서 이름을 클릭하여 도메인을 선택합니다.
 
-4. 표시되는 세부 정보 플라이아웃에서 **DKIM 서명으로 이 도메인에 대해 메시지 서명** 설정을 **사용**(![토글 켜기](../../media/scc-toggle-on.png))으로 변경합니다.
+4. 표시되는 세부 정보 플라이아웃에서 **DKIM 서명으로 이 도메인의 메시지 서명** 설정을 **사용**(![켜기](../../media/scc-toggle-on.png))으로 변경합니다.
 
    완료되면 **DKIM 키 순환** 을 클릭합니다.
 

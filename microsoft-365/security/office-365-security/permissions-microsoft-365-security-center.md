@@ -19,12 +19,12 @@ description: 관리자는 Microsoft 365 Defender 포털에서 보안과 관련�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9f417bbb784a328970c32602d52a76f5c855016f325b316af53ed0a4ff137db1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e3eb4f424ba8b9fd73f5cad62c2a136da8fd8249
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56815235"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576071"
 ---
 # <a name="permissions-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털 사용 권한
 
@@ -54,7 +54,7 @@ Microsoft 365 Defender 포털의 사용 권한은 RBAC(역할 기반 액세스 �
 
 Microsoft 365 Defender 포털에는 사용자가 할당해야 할 가장 일반적인 작업과 기능에 대한 기본 역할 그룹이 포함되어 있습니다. 일반적으로 개별 사용자를 기본 역할 그룹에 **구성원** 으로 추가하는 것이 좋습니다.
 
-![역할 그룹에 역할 및 멤버의 관계를 보여 주는 다이어그램](../../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
+![역할 및 구성원과 역할 그룹 간의 관계를 나타내는 다이어그램](../../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
 
 ## <a name="roles-and-role-groups-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 역할 및 역할 그룹
 
@@ -103,7 +103,7 @@ Microsoft 365 Defender 포털의 **권한 및 역할** 에서는 다음과 같�
 
 1. Microsoft 365 Defender 포털에서 **이메일 및 공동 작업 역할** \> **사용 권한 및 역할** \> **이메일 및 공동 작업 역할** \> **역할** 로 이동합니다.
 
-2. 열리는 **권한** 페이지의 목록에서 수정할 역할 그룹을 선택합니다. **이름** 열 헤더를 클릭하여 이름별로 목록을 정렬하거나 **검색** ![검색 아이콘](../../media/m365-cc-sc-search-icon.png)을 클릭하여 역할 그룹을 찾을 수 있습니다.
+2. 열리는 **권한** 페이지의 목록에서 수정할 역할 그룹을 선택합니다. **이름** 열 머리글을 클릭하여 이름별로 목록을 정렬하거나 **검색** ![검색 아이콘](../../media/m365-cc-sc-search-icon.png)을 클릭해도 됩니다. 역할 그룹을 찾는 방법
 
 3. 표시되는 역할 그룹 세부 정보 플라이아웃의 **구성원** 섹션에서 **수정** 을 클릭합니다.
 
@@ -113,11 +113,11 @@ Microsoft 365 Defender 포털의 **권한 및 역할** 에서는 다음과 같�
 
 5. 표시되는 **구성원 선택** 플라이아웃에서 다음 단계 중 하나를 수행합니다.
 
-   - **추가** 를 클릭합니다. 표시되는 사용자 목록에서 한 명 이상의 사용자를 선택합니다. 또는 **검색** ![검색 아이콘](../../media/m365-cc-sc-search-icon.png)을 클릭하여 사용자를 찾고 선택할 수 있습니다.
+   - **추가** 를 클릭합니다. 표시되는 사용자 목록에서 한 명 이상의 사용자를 선택합니다. 또는 **검색** ![검색 아이콘](../../media/m365-cc-sc-search-icon.png)을 클릭해도 됩니다. 사용자를 찾아서 선택하는 방법
 
      추가 할 사용자를 선택한 후 **추가** 를 클릭합니다.
 
-   - **제거** 를 클릭합니다. 기존 구성원 중 하나 이상을 선택합니다. 또는 **검색** ![검색 아이콘](../../media/m365-cc-sc-search-icon.png)을 클릭하여 구성원을 찾고 선택할 수 있습니다.
+   - **제거** 를 클릭합니다. 기존 구성원 중 하나 이상을 선택합니다. 또는 **검색** ![검색 아이콘](../../media/m365-cc-sc-search-icon.png)을 클릭해도 됩니다. 구성원을 찾아서 선택하는 방법
 
      제거할 사용자를 선택했으면 **제거** 를 클릭합니다.
 

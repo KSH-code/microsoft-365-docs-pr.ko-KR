@@ -13,12 +13,12 @@ ms.collection:
 description: 보고된 메시지를 검토하고 사용자에게 피드백을 주는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a8f278d94235f4fc36e2c05c1cfe8724843f9ff3
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: fb023d68e81c5592078bdd89e4826537790e7d53
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258567"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572470"
 ---
 # <a name="admin-review-for-reported-messages"></a>보고된 메시지에 대한 관리자 검토
 
@@ -72,10 +72,10 @@ Microsoft 365 사서함이 Exchange Online 및 Microsoft Defender for Office 365
 
     - 피싱
     - 정크
-    - 위협을 찾을 수 없음
+    - 위협이 발견되지 않음
     - 바닥글
 
     > [!div class="mx-imgBorder"]
-    > ![사용자에게 보내는 메시지 사용자 지정](../../media/admin-review-customize-message.png)
+    > ![사용자에게 보내는 메시지를 사용자 지정합니다.](../../media/admin-review-customize-message.png)
 
 4. 작업을 마쳤으면 **저장** 을 클릭합니다. 이러한 값을 지우려면 사용자 **제출** 페이지에서 삭제를 클릭합니다.

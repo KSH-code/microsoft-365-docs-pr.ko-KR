@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: 특정 항목에서 항목을 검색하는 Microsoft Viva 방법을 참조하세요.
-ms.openlocfilehash: c73cfba29aaa95463e75e46b81bcfc464ae9a64782d5fb7a7fc76dd6c9144393
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 525ec03621d28c26ecdc717648b3e9d6dcf51024
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573082"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>다음 Microsoft Search 사용하여 Microsoft Viva 항목 찾기
 
@@ -33,7 +33,7 @@ SharePoint 시작 페이지, Office.com 또는 조직으로 범위가 지정되�
 - 추천된 사람 또는 고정된 사람: AI에서 제안하거나 사람이 항목에 고정한 사람
 - 추천 리소스 또는 고정 리소스: AI에서 제안하거나 사람이 항목에 고정한 파일, 페이지 또는 사이트입니다. 
 
-   ![검색의 항목](../media/knowledge-management/search-topic-answer.png) 
+   ![검색의 항목입니다.](../media/knowledge-management/search-topic-answer.png) 
 
 항목 응답 카드가 나타나지 않는 경우에도 항목 페이지를 검색 결과에 표시할 수 있습니다.
 

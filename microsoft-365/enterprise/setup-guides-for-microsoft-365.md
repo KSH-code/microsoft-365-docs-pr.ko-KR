@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: 테넌트 라이선스의 기능을 계획, 마이그레이션 및 구현하기 위한 단계별 도구를 얻습니다. 실행해야 하는 서비스 또는 앱을 설정하는 가이드를 찾아보세요.
-ms.openlocfilehash: 819a53d10f3793ec337828747ec7cf3bbae3aaea
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 47377a8b8e6733442dc08980c876f36a795fbfdf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575627"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 
@@ -216,11 +216,11 @@ Configuration Manager를 사용하는 조직의 경우 [Configuration Manager](h
 
 2. 교육 & **가이드 카드를** 찾아보세요.
 
-   ![교육 & Microsoft 365 관리 센터 가이드 카드](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
+   ![교육 & 지침 카드는 Microsoft 365 관리 센터.](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
 
 3. 단계별 **가이드 를 선택합니다.**
 
-   ![설치 지침 페이지의 스크린 Microsoft 365 관리 센터샷](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
+   ![Screenshot of the Setup guidance page in the Microsoft 365 관리 센터.](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
 
 > [!NOTE]
 > 테넌트 관리자 권한은 테넌트 액세스에 Microsoft 365 관리 센터.

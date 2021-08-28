@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: 이 문서에서는 위성 위치를 추가하고 Microsoft 365 Multi-Geo용 테넌트를 구성하는 방법을 알아봅니다.
-ms.openlocfilehash: 76b6b16a0673495abfe5ce920c7f916d37a43f619eacd1c4a2765989e639295b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c60e590f7eddc7f9e03c4754867600a39879cc49
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794987"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576023"
 ---
 # <a name="microsoft-365-multi-geo-tenant-configuration"></a>Microsoft 365 Multi-Geo 테넌트 구성
 
@@ -40,7 +40,7 @@ _Microsoft 365의 Multi-Geo 기능_ 요금제는 사용자 수준 서비스 요�
 
 [!INCLUDE [Microsoft 365 Multi-Geo locations](../includes/microsoft-365-multi-geo-locations.md)]
 
-![SharePoint 관리 센터의 지리적 위치 페이지 스크린샷](../media/sharepoint-multi-geo-admin-center.png)
+![SharePoint 관리 센터의 지리적 위치 SharePoint 스크린샷.](../media/sharepoint-multi-geo-admin-center.png)
 
 위성 위치를 추가하려면
 
@@ -101,7 +101,7 @@ Azure Active Directory(Azure AD)에는 두 가지 유형의 사용자 개체(클
 
     `(Get-MsolUser -userprincipalName Robyn.Buckley@Contoso.com).PreferredDatalocation`
 
-![set-msoluser를 보여주는 PowerShell 창의 스크린 샷](../media/multi-geo-tenant-configuration-image3.png)
+![set-msoluser를 보여 주며 PowerShell 창의 스크린샷.](../media/multi-geo-tenant-configuration-image3.png)
 
 사용자의 기본 데이터 위치를 표준 사용자 생성 작업 과정의 일부로 포함하는 것이 좋습니다.
 

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 원격 네트워크의 Verizon 네트워크에서 SMS 및 MMS 데이터를 가져오고 보관할 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: a484d8919c549bedf43bdf3895da5d0a7795f041f6514ac2720681894bfeabc4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d95b78267dc74fb78eb9db6fcf3df25c4a4ac59a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820657"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571100"
 ---
 # <a name="set-up-a-connector-to-archive-verizon-network-data"></a>Verizon 네트워크 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ Verizon 네트워크 커넥터 데이터가 사용자 사서함에 저장되고 
 
 다음 개요에서는 커넥터를 사용하여 Verizon 네트워크 데이터를 서버의 Verizon 네트워크 데이터를 보관하는 Microsoft 365.
 
-![Verizon 네트워크 보관 워크플로](../media/VerizonNetworkConnectorWorkflow.png)
+![Verizon 네트워크 보관 워크플로.](../media/VerizonNetworkConnectorWorkflow.png)
 
 1. 조직은 TeleMessage 및 Verizon과 함께 Verizon 네트워크 커넥터를 설치합니다. 자세한 내용은 [Verizon Network Archiver를 참조하세요.](https://www.telemessage.com/office365-activation-for-verizon-network-archiver/)
 

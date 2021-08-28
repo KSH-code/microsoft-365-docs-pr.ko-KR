@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 85fe3921aab67e9edb1c79c3c1e89caf945e3279d73e1287f7b7b7733ba40ace
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 028c099dc046d6402d187e5bde0a1536e44657a4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862573"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572986"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
 
@@ -37,7 +37,7 @@ ms.locfileid: "53862573"
 
 이 Microsoft 365 Defender 자동화된 조사가 실행되는 경우 자동화된 조사 프로세스 중 및 이후에 조사에 대한 세부 정보를 사용할 수 있습니다. [](m365d-autoir.md) [필수 권한이](m365d-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  이 보기는 최신 상태 및 보류 중인 작업을 승인하는 기능을 제공합니다. 
 
-:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="조사 세부정보":::
+:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="조사 세부 정보.":::
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) 통합 조사 페이지
 
@@ -89,13 +89,13 @@ ms.locfileid: "53862573"
 
 다음은 예입니다.
 
-:::image type="content" source="../../media/mtp-incidentdetails-tabs.png" alt-text="사건 세부 정보":::
+:::image type="content" source="../../media/mtp-incidentdetails-tabs.png" alt-text="인시던트 세부 정보.":::
 
 ## <a name="investigation-details"></a>조사 세부정보
 
 조사 세부정보 보기를 사용 하여 과거, 현재 및 보류 중인 활동을 확인하고 조사합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="조사 세부정보":::
+:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="조사 세부 정보.":::
 
 조사 세부정보 보기에서 아래 테이블에 설명되어 있는 것 처럼 **조사 그래프**, **알람**, **장치**, **항목**, **주요 발견 사항**, **대상**, **로그** 및 **보류 활동** 을 확인할 수 있습니다. 
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 49d5dcf70a2bf9f94233ad7274faab5f697e790276d4347933ab51174e707c8c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9deece85ec5a310cea652af1dd1da39cea386848
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571304"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>끝점 인시던트에 대한 Microsoft Defender 관리
 
@@ -42,7 +42,7 @@ ms.locfileid: "53806343"
 인시던트 큐에서 인시던트를 선택하면 인시던트 관리 창이 표시되어 자세한 내용을 볼 수 있습니다.  
 
 
-![인시던트 관리 창의 이미지](images/atp-incidents-mgt-pane-updated.png)
+![인시던트 관리 창의 이미지입니다.](images/atp-incidents-mgt-pane-updated.png)
 
 인시던트는 사용자에게 할당하거나, 상태 및 분류를 변경하거나, 이름을 바꾸거나, 설명을 추가하여 진행 상황을 추적할 수 있습니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "53806343"
 >
 
 
-![인시던트 세부 정보 페이지의 이미지](images/atp-incident-details-updated.png)
+![인시던트 세부 정보 페이지의 이미지입니다.](images/atp-incident-details-updated.png)
 
 ## <a name="assign-incidents"></a>인시던트 할당
 인시던트가 아직 할당되지 않은  경우 할당을 선택하여 인시던트가 사용자에게 할당될 수 있습니다. 이렇게 하면 인시던트뿐만 아니라, 관련된 모든 알림의 소유권을 가정합니다.
@@ -80,7 +80,7 @@ ms.locfileid: "53806343"
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [인시던트 큐](/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [인시던트 큐 보기 및 구성](view-incidents-queue.md)
 - [인시던트 조사](investigate-incidents.md)

@@ -15,12 +15,12 @@ ms.custom:
 description: 관리자는 보안 & 및 준수 센터의 느린 메일 흐름 규칙 수정 인사이트를 사용하여 조직에서 비효율적이거나 손상된 메일 흐름 규칙(전송 규칙)을 식별하고 수정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 68eec6c7aa060806f1f4133b399b1ead901f6b0d3e73d87cc9b677309fb28130
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 76fdfd7595fc3a7c760eadd51498883d8d7a63fe
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56885467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572422"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 느린 메일 흐름 규칙 & 수정
 
@@ -43,7 +43,7 @@ The **Fix slow mail flow rules insight** in the Recommended **area** of the Mail
 
 이 알림을 사용하여 메일 흐름 규칙을 식별하고 세부 조정하여 메일 흐름 지연을 줄일 수 있습니다.
 
-![메일 흐름 대시보드의 권장 영역의 느린 메일 흐름 규칙 인사이트 수정](../../media/mfi-fix-slow-mail-flow-rules.png)
+![메일 흐름 대시보드의 권장 영역의 느린 메일 흐름 규칙 정보를 수정합니다.](../../media/mfi-fix-slow-mail-flow-rules.png)
 
 위젯에서 세부 **정보** 보기를 클릭하면 추가 정보가 있는 플라이아웃이 나타납니다.
 
@@ -52,7 +52,7 @@ The **Fix slow mail flow rules insight** in the Recommended **area** of the Mail
 - **각 메시지에 소요된 평균 시간**
 - **메시지에 소요된** 중간 시간: 시간 데이터의 하한값과 상한값을 구분하는 중간 값입니다.
 
-![느린 메일 흐름 규칙 수정 정보에서 세부 정보 보기를 클릭한 후 나타나는 세부 정보 플라이아웃](../../media/mfi-fix-slow-mail-flow-rules-details.png)
+![느린 메일 흐름 규칙 수정 정보에서 세부 정보 보기를 클릭한 후 나타나는 플라이아웃에 대한 세부 정보입니다.](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
 메일 흐름 규칙의 조건 및 예외에 대한 자세한 내용은 에서 메일 흐름 규칙 조건 및 [예외(조건자)를 Exchange Online.](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 

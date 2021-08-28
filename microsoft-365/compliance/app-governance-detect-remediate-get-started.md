@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 위협 탐지 및 수정을 시작합니다.
-ms.openlocfilehash: 085c6f7404555494a18645ab9680f44a6ba93557aff1d1fcd953cfec3256a2b1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a57d888d2494fdcdc52e69b3738edba198b6363f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571124"
 ---
 # <a name="get-started-with-app-threat-detection-and-remediation"></a>앱 위협 탐지 및 수정 시작
 
@@ -29,7 +29,7 @@ Microsoft 앱 거버넌스는 사용자가 만든 활성 앱 정책이 생성하
 
 가장 먼저 앱 경고가 표시되는 곳은 [https://aka.ms/appgovernance](https://aka.ms/appgovernance)의 앱 거버넌스 대시보드입니다.
 
-![탐지 및 정책 경고 섹션이 강조 표시된 Microsoft 365 준수 센터의 앱 거버넌스 개요 페이지](..\media\manage-app-protection-governance\mapg-cc-overview-alerts.png)
+![탐지 및 정책 경고 섹션이 강조 표시된 Microsoft 365 준수 센터의 앱 거버넌스 개요 페이지.](..\media\manage-app-protection-governance\mapg-cc-overview-alerts.png)
 
 이 개요 페이지의 **탐색 및 정책 경고** 섹션에는 최신 경고가 나열됩니다. 이를 사용하여 사용자는 테넌트의 최신 앱 경고 활동을 빠르게 확인할 수 있습니다.
 
@@ -39,7 +39,7 @@ Microsoft 앱 거버넌스는 사용자가 만든 활성 앱 정책이 생성하
 
 **경고** 페이지에는 테넌트의 모든 앱 거버넌스 기반 경고가 나열됩니다.
 
-![Microsoft 365 준수 센터의 앱 거버넌스 경고 요약 페이지](..\media\manage-app-protection-governance\mapg-cc-alerts.png)
+![Microsoft 365 준수 센터의 앱 거버넌스 경고 요약 페이지.](..\media\manage-app-protection-governance\mapg-cc-alerts.png)
 
 나열된 각 경고는 다음 정보를 포함합니다.
 

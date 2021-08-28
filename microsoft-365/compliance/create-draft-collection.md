@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 초안 컬렉션은 컬렉션의 검색 쿼리와 일치하는 검색 예상 결과를 반환하는 Advanced eDiscovery 사례에서 양도 및 비보조 데이터 원본의 eDiscovery 검색입니다. 검색 통계를 검토하고, 항목 샘플링을 미리 보고, 결과를 검토 집합에 커밋하기 전에 컬렉션을 변경하고 다시할 수 있습니다.
-ms.openlocfilehash: 42497a8f5f8d5d8e5ecf58ff8f486bffa578e6f0ca9375ab1924d2f2100b5729
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0354f2a04dfff82f995fe74663633f42ed01e677
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820439"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572722"
 ---
 # <a name="create-a-draft-collection-in-advanced-ediscovery"></a>컬렉션에서 초안 컬렉션 Advanced eDiscovery
 
@@ -29,7 +29,7 @@ ms.locfileid: "53820439"
 
 ## <a name="before-you-create-a-draft-collection"></a>초안 컬렉션을 만들기 전에
 
-- 초안 컬렉션을 만들기 전에 사례에 보호자 및 비보조 데이터 원본을 추가합니다. 초안 컬렉션을 만들 때 데이터 원본을 선택할 수 있도록 이 옵션을 선택해야 합니다. 자세한 내용은 다음 항목을 참조하세요.
+- 초안 컬렉션을 만들기 전에 사례에 보호자 및 비보조 데이터 원본을 추가합니다. 초안 컬렉션을 만들 때 데이터 원본을 선택할 수 있도록 이 옵션을 선택해야 합니다. 자세한 내용은 다음을 참조하세요.
 
   - [보유자를 사례에 추가](add-custodians-to-case.md)
 
@@ -84,7 +84,7 @@ ms.locfileid: "53820439"
 
 초안 수집 프로세스 중에 Advanced eDiscovery 지정한 검색 조건 및 데이터 원본을 사용하여 검색 예상을 수행할 수 있습니다. Advanced eDiscovery 미리 볼 수 있는 항목의 샘플링도 준비합니다. 컬렉션이 완료되면 컬렉션 페이지의 다음 열과 해당  값이 업데이트됩니다.
 
-![초안 컬렉션의 상태](../media/DraftCollectionStatus.png)
+![초안 컬렉션의 상태입니다.](../media/DraftCollectionStatus.png)
 
 - **Status:** 컬렉션의 상태와 유형을 나타냅니다. Estimated **값은** 초안 컬렉션이 완료된 것입니다. 또한 이 값은 컬렉션이 초안 컬렉션이고 검토 집합에 추가되지 않은 경우를 나타냅니다. 상태 **열의 커밋** **값은** 컬렉션이 검토 집합에 추가된 것입니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "53820439"
 
 초안 컬렉션이 성공적으로 완료되면 다양한 작업을 수행할 수 있습니다. 이러한 대부분의 작업을 수행하려면 컬렉션  탭으로 이동한 후 초안 컬렉션의 이름을 클릭하여 플라이아웃 페이지를 표시합니다.
 
-![초안 컬렉션에 대한 플라이아웃 페이지](../media/DraftCollectionFlyoutPage.png)
+![초안 컬렉션에 대한 플라이아웃 페이지입니다.](../media/DraftCollectionFlyoutPage.png)
 
 다음은 컬렉션 플라이아웃 페이지에서 할 수 있는 사항 목록입니다.
 
@@ -114,7 +114,7 @@ ms.locfileid: "53820439"
 
 초안 컬렉션의 플라이아웃 페이지에 있는 작업 메뉴의 옵션을 사용하여 다양한 관리 작업을 수행할 수 있습니다. 
 
-![초안 컬렉션에 대한 동작 메뉴의 옵션](../media/DraftCollectionActionsMenu.png)
+![임시 컬렉션에 대한 동작 메뉴의 옵션입니다.](../media/DraftCollectionActionsMenu.png)
 
 다음은 관리 옵션에 대한 설명입니다.
 

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 격리 및 액세스 제어가 작동하여 여러 테넌트의 데이터를 서로 격리된 데이터로 유지하는 방법을 Azure Active Directory.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e48ffaee5927010aa9e2cea2d231a194a33008d1d0c0ca7ed260fe6adc3c834b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d9305bd6c58abd7d3fa5d9b7c6761b64eab279f9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864565"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571016"
 ---
 # <a name="microsoft-365-isolation-and-access-control-in-azure-active-directory"></a>Microsoft 365 Azure Active Directory
 
@@ -35,13 +35,13 @@ Azure Active Directory(Azure AD)는 논리 데이터와의 보안을 유지하�
 
 효과적으로 Azure AD는 단독으로 테넌트가 소유하고 관리하는 컨테이너에 대한 정책 및 사용 권한을 사용하여 자체 보호된 컨테이너에서 각 테넌트를 호스트합니다.
  
-![Azure 컨테이너](../media/office-365-isolation-azure-container.png)
+![Azure 컨테이너.](../media/office-365-isolation-azure-container.png)
 
 테넌트 컨테이너 개념은 포털에서 영구적 저장소까지 모든 계층의 디렉터리 서비스에 깊이 있습니다. 여러 Azure AD 테넌트 메타데이터가 동일한 실제 디스크에 저장되어 있는 경우에도 디렉터리 서비스에서 정의하는 것 외의 컨테이너 간에 관계가 없습니다. 이는 테넌트 관리자가 받아들입니다. 먼저 권한 부여 계층을 거치지 않고는 요청하는 응용 프로그램 또는 서비스에서 Azure AD 저장소에 직접 연결될 수 없습니다.
 
 아래 예제에서 Contoso와 Fabrikam은 둘 다 별도의 전용 컨테이너를 가지며, 이러한 컨테이너가 서버 및 저장소와 같은 동일한 기반 인프라 중 일부를 공유할 수 있는 경우에도 서로 분리된 상태로 유지되고 격리된 상태로 유지되고 권한 부여 및 액세스 제어 계층에 의해 제어됩니다.
  
-![Azure 전용 컨테이너](../media/office-365-isolation-azure-dedicated-containers.png)
+![Azure 전용 컨테이너.](../media/office-365-isolation-azure-dedicated-containers.png)
 
 또한 Azure AD 내에서 실행할 수 있는 응용 프로그램 구성 요소는 없습니다. 또한 한 테넌트가 다른 테넌트의 무결성을 강요하거나, 다른 테넌트의 암호화 키에 액세스하거나, 서버에서 원시 데이터를 읽을 수 없습니다.
 

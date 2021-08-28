@@ -18,18 +18,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: 5cebf4f53a331712df6a480a6d813da7232b5858
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: e1cae053c7b13ceec9c7f3274122cf004c7277e5
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571389"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 
 데이터 분류 콘텐츠 탐색기를 사용하여 개요 페이지에 요약된 항목을 원래 상태로 볼 수 있습니다.
 
-![콘텐츠 탐색기 축소 스크린샷](../media/data-classification-content-explorer-1.png)
+![콘텐츠 탐색기 축소 스크린샷.](../media/data-classification-content-explorer-1.png)
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -111,14 +111,14 @@ ms.locfileid: "58502918"
 ### <a name="export"></a>내보내기
 **내보내기** 컨트롤은 **모든 위치** 창에 표시되는 모든 항목의 목록을 포함하는 .csv 파일을 만듭니다.
 
-![데이터 분류 내보내기 관리](../media/data_classification_export_control.png)
+![데이터 분류 내보내기 관리.](../media/data_classification_export_control.png)
 
 
 ### <a name="search"></a>검색
 
 Exchange 폴더나 SharePoint 또는 OneDrive 사이트와 같은 위치로 드릴다운하면 **검색** 도구가 나타납니다.
 
-![콘텐츠 탐색기 검색 도구](../media/data_classification_search_tool.png)
+![콘텐츠 탐색기 검색 도구.](../media/data_classification_search_tool.png)
 
 
 검색 도구의 범위는 **모든 위치** 창에 표시되는 내용이며 검색 가능한 항목은 선택한 위치에 따라 다릅니다. 

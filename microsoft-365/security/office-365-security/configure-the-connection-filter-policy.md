@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 전자 메일 서버에서 전자 메일을 허용하거나 차단하도록 EOP(Exchange Online Protection)에서 연결 필터링을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8aa760990eff4bff8e8c4dd26efa74042f4a9208
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 6edcbbe885f8271b073afdff248106ce0d209960
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258497"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572446"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -91,9 +91,9 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
        - IP 범위: 예: 192.168.0.1-192.168.0.254.
        - CIDR IP: 예: 192.168.0.1/25. 유효한 서브넷 마스크 값은 /24에서 /32까지입니다. /1 ~ /23에 대한 스팸 필터링을 건너뛰기 위해 이 문서 의 부분에 있는 사용 가능한 범위 밖에 있는 [CIDR IP에](#skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range) 대한 스팸 필터링 건너뛰기 섹션을 참조하세요.
 
-       필요한 만큼 이 단계를 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![아이콘 제거](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+       필요한 만큼 이 단계를 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
-     IP 주소 또는 주소 범위를 추가하려면 상자를 클릭하고  추가 아이콘 추가 를 ![ ](../../media/ITPro-EAC-AddIcon.png) 입력합니다. 항목을 제거하려면 **허용된 IP** 주소의 항목을 선택한 다음 제거 **를** ![ ](../../media/scc-remove-icon.png) 클릭합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
+     IP 주소 또는 주소 범위를 추가하려면 상자를 클릭하고  추가 아이콘 ![ 추가를 입력합니다. ](../../media/ITPro-EAC-AddIcon.png) 항목을 제거하려면 **허용된 IP** 주소의 항목을 선택한 다음 제거 **를** ![ ](../../media/scc-remove-icon.png) 클릭합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
    - **항상 다음 IP 주소** 또는 주소 범위의 메시지를 차단합니다. IP 차단 목록입니다. 다음 IP 주소 또는 주소 범위의 메시지 항상 허용 설정에 설명된 바와 같이 상자에 단일 IP, IP 범위 또는 CIDR **IP를 입력합니다.**
 
@@ -124,7 +124,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**참고:**
+**참고**:
 
 - 유효한 IP 주소 또는 주소 범위 값은 같습니다.
   - 단일 IP: 예: 192.168.1.1.
@@ -207,4 +207,4 @@ IP 허용 목록의 전자 메일 서버에서 보낸 메시지는 다음과 같
 
 ****
 
-![LinkedIn 개체의 Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **아이콘을 Microsoft 365?** LinkedIn 관리자가 제공한 Microsoft 365 **및 IT** 프로를 위한 무료 비디오 과정을 Learning.
+![LinkedIn Learning용 짧은 아이콘.](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **새 Microsoft 365?** LinkedIn 관리자가 제공한 Microsoft 365 **및 IT** 프로를 위한 무료 비디오 과정을 Learning.

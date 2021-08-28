@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: d3577c90-dda5-45ca-afb0-370d2889b10f
 description: Active Directory 도메인 서비스 정리 및 Microsoft 365 도구와의 디렉터리 동기화에 Azure Active Directory 커넥트 설명
-ms.openlocfilehash: 62c8246e6a825ff57583dbbccb1028cd9035f72e
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 5ad437e4f8abcf2a6d59d17ce41a2b1adeac0649
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575639"
 ---
 # <a name="hybrid-identity-and-directory-synchronization-for-microsoft-365"></a>하이브리드 ID 및 디렉터리 동기화를 Microsoft 365
 
@@ -75,7 +75,7 @@ PHS를 사용하여 AD DS 사용자 계정을 Microsoft 365 사용자와 동기�
 
 PTA는 하나 이상의 사내 서버에서 실행되는 소프트웨어 에이전트를 사용하여 AD DS를 통해 직접 사용자의 유효성을 검사하는 Azure AD 인증 서비스에 대한 간단한 암호 유효성 검사를 제공합니다. PTA를 사용하면 AD DS 사용자 계정을 Microsoft 365 사용자와 동기화하고 Microsoft 365 사용자를 관리할 수 있습니다. 
 
-![통과 인증(PTA)](../media/plan-for-directory-synchronization/pta-authentication.png)
+![PTA(통과 인증)](../media/plan-for-directory-synchronization/pta-authentication.png)
 
 PTA를 사용하면 사용자가 자신의 프레미스 계정과 암호를 사용하여 Microsoft 365 및 응용 프로그램 모두에 로그인할 수 있습니다. 이 구성은 Azure AD에 암호 해시를 저장하지 않고 사용자 암호의 유효성을 검사합니다. 
 

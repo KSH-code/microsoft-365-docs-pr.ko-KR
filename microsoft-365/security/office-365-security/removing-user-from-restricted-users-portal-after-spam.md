@@ -20,12 +20,12 @@ description: 관리자는 Microsoft 365 Defender 포털의 제한된 사용자 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b06cf477ab8d713e0684c0d62567199c6c57cb32
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 774f47c65f98a2e93ee6e50406afe897a315de12
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258482"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572398"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-microsoft-365"></a>Microsoft 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -100,7 +100,7 @@ ms.locfileid: "58258482"
    - **상태**: 경고가 ![토글 켬](../../media/scc-toggle-on.png)으로 설정되어 있는지 확인합니다.
    - **전자 메일 받는 사람**: **편집** 을 클릭하고 **받는 사람 편집** 플라이아웃이 나타나면 다음 설정을 확인하거나 구성합니다.
      - **전자 메일 알림 보내기**: 이 항목이 선택되었는지 확인합니다(**설정**).
-     - **전자 메일 받는 사람**: 기본값은 **TenantAdmins**(즉, **전역 관리자** 구성원)입니다. 받는 사람을 더 추가하려면 상자의 빈 영역을 클릭합니다. 받는 사람 목록이 표시되면 이름을 입력하여 필터링하고 받는 사람을 선택할 수 있습니다. 해당 이름 옆의 ![제거 아이콘](../../media/m365-cc-sc-remove-selection-icon.png)을 클릭하여 상자에서 기존의 받는 사람을 제거할 수 있습니다.
+     - **전자 메일 받는 사람**: 기본값은 **TenantAdmins**(즉, **전역 관리자** 구성원)입니다. 받는 사람을 더 추가하려면 상자의 빈 영역을 클릭합니다. 받는 사람 목록이 표시되면 이름을 입력하여 필터링하고 받는 사람을 선택할 수 있습니다. ![제거 아이콘](../../media/m365-cc-sc-remove-selection-icon.png)을 클릭하여 상자에서 기존 받는 사람을 제거할 수 있습니다. 이름 옆에 있습니다.
      - **일별 알림 제한**: 기본값은 **제한 없음** 이지만 일별 최대 알림 수에 대한 한도를 선택할 수 있습니다.
 
      작업을 마쳤으면 **저장** 을 클릭합니다.

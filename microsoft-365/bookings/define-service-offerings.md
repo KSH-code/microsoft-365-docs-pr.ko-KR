@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 4a1c391e-524f-48e0-bef8-185df3a9634b
 description: 서비스 이름, 설명, 위치, 기간 및 가격을 비롯한 서비스 제품 정보를 입력하기 위한 지침입니다. 서비스를 제공할 자격이 있는 직원에 태그를 지정할 수도 있습니다.
-ms.openlocfilehash: 8a287e08a64fd2f7ca94e83f7b99c277f9e0124673697b202eda9ad86b0ff9e4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: acf7f7be1a5c5d70215406ec0a3f375eb0dfa89d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53804029"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572362"
 ---
 # <a name="define-your-service-offerings-in-bookings"></a>Bookings에서 서비스 제품 정의
 
@@ -39,7 +39,7 @@ Microsoft Bookings에서 서비스 서비스를 정의할 때 서비스 이름, 
         - 예약에 고유한 Teams 또는 Skype 모임에 대한 링크가 전화 접속 정보와 함께 직원과 고객 일정의 일정 이벤트에 추가됩니다.
         - 다음 예와 같이 모임 참가 링크가 모든 확인 및 미리 알림 전자 메일에 추가됩니다.
 
-        :::image type="content" source="media/bookings-teams-meeting-link.jpg" alt-text="Bookings에서 Teams 모임에 참가하기 위한 링크의 예":::
+        :::image type="content" source="media/bookings-teams-meeting-link.jpg" alt-text="Bookings에서 모임에 참가하는 Teams 예입니다.":::
 
         > [!NOTE]
         > Teams 모임은 Teams 모바일 앱, Teams 데스크톱 앱, 웹 브라우저 또는 전화 접속을 통해 참가할 수 있습니다. 가상 약속을 Teams 최상의 환경을 위해 테넌트의 기본 온라인 모임 서비스로 사용하도록 설정하는 것이 좋습니다.
@@ -62,7 +62,7 @@ Microsoft Bookings에서 서비스 서비스를 정의할 때 서비스 이름, 
         - **예약 취소** 그러면 예약이 취소되고 직원의 일정에서 예약이 제거됩니다.
         - **새 예약** 이 옵션을 사용하면 새 예약을 예약할 Self-Service 모든 서비스 및 직원이 나열된 Self-Service 페이지로 이동됩니다.
 
-        :::image type="content" source="media/bookings-manage-booking-button.jpg" alt-text="Bookings의 예약 관리 단추":::
+        :::image type="content" source="media/bookings-manage-booking-button.jpg" alt-text="Bookings의 예약 관리 단추입니다.":::
 
         고객이 앱 페이지에 액세스하는 데 편한 경우 이 설정을 사용하도록 설정한 Self-Service 좋습니다.
 
@@ -74,7 +74,7 @@ Microsoft Bookings에서 서비스 서비스를 정의할 때 서비스 이름, 
 
 9. **이벤트당 최대 참석자 수** 이 설정을 사용하면 여러 사용자가 동일한 약속 시간 및 동일한 직원(예: 피트니스 강의)을 예약할 수 있는 기능을 필요로 하는 서비스를 만들 수 있습니다. 선택한 서비스, 직원 및 시간의 약속 시간 슬롯은 지정된 최대 참석자 수에 도달할 때까지 예약할 수 있습니다. 현재 약속 용량 및 참석자도 Bookings 웹앱의 일정 탭에서 볼 수 있습니다.
 
-    :::image type="content" source="media/bookings-maximum-attendees.jpg" alt-text="Bookings에서 최대 참석자 수를 설정하는 예제":::
+    :::image type="content" source="media/bookings-maximum-attendees.jpg" alt-text="Bookings에서 최대 참석자 수를 설정하는 예제입니다.":::
 
 10. **기본 가격**  이 가격은 Self-Service 표시됩니다. 가격을 **설정하지 않은** 경우 가격이나 가격에 대한 참조가 나타나지 않습니다.
 
@@ -92,21 +92,21 @@ Microsoft Bookings에서 서비스 서비스를 정의할 때 서비스 이름, 
 
     - 기본 확인 및 미리 알림 전자 메일에는 고객/클라이언트 이름, 직원 구성원 이름, 예약된 서비스 또는 약속 시간, 약속 시간 등 약속에 대한 기본 정보가 포함됩니다. 온라인 모임의 경우 참가 링크도 포함됩니다. 이 설정을 사용하도록 설정한 경우(8단계에서 설명한 대로) 예약 관리 기능을 포함될 수도 있습니다.
 
-        :::image type="content" source="media/bookings-remind-confirm.jpg" alt-text="Bookings의 확인 전자 메일":::
+        :::image type="content" source="media/bookings-remind-confirm.jpg" alt-text="Bookings의 확인 전자 메일입니다.":::
 
     - 원하는 추가 텍스트(예: 예약에 대한 정보 또는 고객이 약속을 위해 가져와야 하는 텍스트)를 포함할 수도 있습니다. 다음은 전자 메일 확인에 대한 추가 정보 필드에 있는 원래 확인 전자 메일에 추가된 사용자 지정 **텍스트의 예입니다.**
 
-        :::image type="content" source="media/bookings-additional-info.jpg" alt-text="Bookings 전자 메일의 추가 정보":::
+        :::image type="content" source="media/bookings-additional-info.jpg" alt-text="Bookings 전자 메일의 추가 정보입니다.":::
 
 14. **고객에 대해 문자 메시지 알림 사용** 이 옵션을 선택하면 SMS 메시지가 고객에게 전송되지만 옵트인(opt in)하는 경우만 고객에게 전송됩니다.
 
     - 수동 예약 및 예약 페이지의 옵트인 Self-Service:
 
-        :::image type="content" source="media/bookings-opt-In-boc.jpg" alt-text="Bookings의 옵트인 상자":::
+        :::image type="content" source="media/bookings-opt-In-boc.jpg" alt-text="Bookings의 옵트인 상자입니다.":::
 
     - 문자 메시지 알림은 다음과 같습니다(SMS 알림은 현재 북미에서만 사용할 수 있습니다).
 
-        :::image type="content" source="media/bookings-text-notifications.jpg" alt-text="Bookings의 텍스트 알림":::
+        :::image type="content" source="media/bookings-text-notifications.jpg" alt-text="Bookings의 텍스트 알림입니다.":::
 
 15. **게시 옵션** 이 서비스를 예약 가능으로 Self-Service 또는 Bookings 웹앱의 일정 탭에서만 서비스를 예약할 수 있도록 할지 선택합니다.
 

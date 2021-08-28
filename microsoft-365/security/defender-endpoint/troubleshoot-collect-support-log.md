@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 518194e3cbf185da415104991e1d7186f5912953
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 83f6853217112741168876d92b9440869e29a5c1
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58250577"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575507"
 ---
 # <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a>라이브 응답을 사용하여 끝점용 Microsoft Defender에서 지원 로그 수집
 
@@ -47,15 +47,15 @@ ms.locfileid: "58250577"
 
 3. 라이브러리에 **업로드 파일을 선택합니다.**
 
-    ![업로드 파일의 이미지](images/upload-file.png)
+    ![업로드 파일의 이미지입니다.](images/upload-file.png)
 
 4. 파일 **선택 을 선택합니다.**
 
-    ![파일 선택 단추의 이미지1](images/choose-file.png)
+    ![파일 선택 단추1의 이미지입니다.](images/choose-file.png)
 
 5. 이름이 MDELiveAnalyzer.ps1 파일을 선택한 다음 확인을 **클릭합니다.**
 
-   ![파일 선택 단추 2의 이미지](images/analyzer-file.png)
+   ![파일 단추 2 선택 이미지입니다.](images/analyzer-file.png)
 
 6. LiveResponse 세션에서 여전히 아래 명령을 사용하여 분석기를 실행하고 결과 파일을 수집합니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "58250577"
     GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip"
     ```
 
-    [![명령 이미지](images/analyzer-commands.png)](images/analyzer-commands.png#lightbox)
+    [![명령의 이미지입니다.](images/analyzer-commands.png)](images/analyzer-commands.png#lightbox)
 
 > [!NOTE]
 >
@@ -86,8 +86,8 @@ ms.locfileid: "58250577"
 ## <a name="see-also"></a>참고 항목
 - [클라이언트 분석기 개요](overview-client-analyzer.md)
 - [클라이언트 분석기 다운로드 및 실행](download-client-analyzer.md)
-- [클라이언트 분석기를 클라이언트 Windows](run-analyzer-windows.md)
+- [Windows에서 클라이언트 분석기 실행](run-analyzer-windows.md)
 - [macOS 또는 Linux에서 클라이언트 분석기 실행](run-analyzer-macos-linux.md)
-- [고급 문제 해결을 위한 데이터 Windows](data-collection-analyzer.md)
+- [Windows에서 고급 문제 해결을 위한 데이터 수집](data-collection-analyzer.md)
 - [분석기 HTML 보고서 이해](analyzer-report.md)
 

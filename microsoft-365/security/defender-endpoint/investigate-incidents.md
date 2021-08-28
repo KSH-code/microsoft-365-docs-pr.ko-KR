@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 064d157fb59e8f8dba3e268b4658f8f6b8fa674925bf6287bdf10eea39a441bd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6453ce0607ed7dee66622b64705d88e91cd67bf4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575819"
 ---
 # <a name="investigate-incidents-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 인시던트 조사
 
@@ -48,7 +48,7 @@ ms.locfileid: "53839738"
 
 인시던트 를 클릭하여 인시던트 **창을 봐야 합니다.** **인시던트 페이지** 열기 를 선택하여 인시던트 세부 정보 및 관련 정보(경고, 장치, 조사, 증거, 그래프)를 볼 수 있습니다.
 
-![인시던트 세부 정보의 이미지1](images/atp-incident-details.png)
+![인시던트 세부 정보의 이미지1.](images/atp-incident-details.png)
 
 ### <a name="alerts"></a>경고
 
@@ -61,21 +61,21 @@ ms.locfileid: "53839738"
 - 동일한 파일 - 경고와 연결된 파일이 정확히 동일합니다.
 - 동일한 URL - 경고를 트리거한 URL은 정확히 동일합니다.
 
-![인시던트에서 경고가 함께 연결된 이유를 보여주는 인시던트 세부 정보 페이지가 있는 경고 탭의 이미지](images/atp-incidents-alerts-reason.png)
+![인시던트에서 경고가 함께 연결된 이유를 보여주는 인시던트 세부 정보 페이지가 있는 경고 탭의 이미지입니다.](images/atp-incidents-alerts-reason.png)
 
 경고를 관리하고 다른 정보와 함께 경고 메타데이터를 볼 수도 있습니다. 자세한 내용은 [경고 조사를 참조하세요.](investigate-alerts.md)
 
-### <a name="devices"></a>장치
+### <a name="devices"></a>디바이스
 
 또한 특정 인시던트의 일부 또는 관련 장치를 조사할 수 있습니다. 자세한 내용은 [장치 조사를 참조하세요.](investigate-machines.md)
 
-![인시던트 세부 정보 페이지의 장치 탭 이미지](images/atp-incident-device-tab.png)
+![인시던트 세부 정보 페이지의 장치 탭 이미지입니다.](images/atp-incident-device-tab.png)
 
 ### <a name="investigations"></a>조사
 
 조사를 **선택하여** 인시던트 경고에 대한 응답으로 시스템에서 시작된 모든 자동 조사를 볼 수 있습니다.
 
-![인시던트 세부 정보 페이지의 조사 탭 이미지](images/atp-incident-investigations-tab.png)
+![인시던트 세부 정보 페이지의 조사 탭 이미지입니다.](images/atp-incident-investigations-tab.png)
 
 ## <a name="going-through-the-evidence"></a>증거 진행
 
@@ -83,7 +83,7 @@ Microsoft Defender for Endpoint는 경고에서 지원되는 모든 인시던트
 
 분석된 각 엔터티는 감염, 수정 또는 의심스러운 것으로 표시됩니다.
 
-![인시던트 세부 정보 페이지의 증거 탭 이미지](images/atp-incident-evidence-tab.png)
+![인시던트 세부 정보 페이지의 증거 탭 이미지입니다.](images/atp-incident-evidence-tab.png)
 
 ## <a name="visualizing-associated-cybersecurity-threats"></a>관련 사이버 보안 위협 시각화
 
@@ -93,11 +93,11 @@ Microsoft Defender for Endpoint는 경고에서 지원되는 모든 인시던트
 
 이 **Graph** 사이버 보안 공격의 스토리를 알 수 있습니다. 예를 들어 어떤 장치가 손상되거나 활동이 관찰된 진입점인 것을 보여 주었습니다. 등.
 
-![인시던트 그래프의 이미지](images/atp-incident-graph-tab.png)
+![인시던트 그래프의 이미지입니다.](images/atp-incident-graph-tab.png)
 
 인시던트 그래프에서 원을 클릭하여 악성 파일, 관련 파일 검색, 전 세계 인스턴스 수, 조직에서 해당 인스턴스가 관찰된 경우 인스턴스 수를 볼 수 있습니다.
 
-![인시던트 세부 정보 이미지](images/atp-incident-graph-details.png)
+![인시던트 세부 정보의 이미지입니다.](images/atp-incident-graph-details.png)
 
 ## <a name="related-topics"></a>관련 항목
 

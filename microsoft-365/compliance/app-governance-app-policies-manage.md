@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 거버넌스 정책을 관리합니다.
-ms.openlocfilehash: 7da710675ab76a9bdbbf81b0186e4364ce77b84b4c6d2d6ae910ba33ea26a8a5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 270315e15a79b97b55aa729d4b7e9b39930ee82c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820729"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571148"
 ---
 # <a name="manage-app-policies"></a>앱 정책 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "53820729"
 1. 동작이 예상되지 않는 경우 1단계로 돌아갑니다.
 1. 동작이 필요한 경우 정책을 편집하고 상태를 활성으로 변경합니다(필요한 경우).
 
-![앱 정책 관리 워크플로](../media/manage-app-protection-governance/mapg-manage-policy-process.png)
+![앱 정책 관리 워크플로.](../media/manage-app-protection-governance/mapg-manage-policy-process.png)
 
 ## <a name="editing-an-app-policy-configuration"></a>앱 정책 구성 편집
 

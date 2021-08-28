@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: cddf687c4d269772b264711b7359bc338958164c
-ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
+ms.openlocfilehash: 125e622b39b6ec868cb6dffaf30eb8d64a346759
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58392106"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571438"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>커뮤니케이션 규정 준수 알림 검사 및 수정
 
@@ -61,7 +61,7 @@ ms.locfileid: "58392106"
 
 8. 선택한 필터를 필터 쿼리로 저장하려면 필터 값을  하나 이상 구성한 후 쿼리 컨트롤 저장을 선택합니다. 필터 쿼리의 이름을 입력하고 저장을 **선택합니다.** 이 필터는 해당 정책에만 사용할 수 있으며 필터 세부 정보 페이지의 **저장된** 필터 쿼리 **섹션에** 나열됩니다.
 
-    ![통신 준수 필터 세부 정보 컨트롤](../media/communication-compliance-filter-detail-controls.png)
+    ![통신 준수 필터 세부 정보 컨트롤.](../media/communication-compliance-filter-detail-controls.png)
 
 ### <a name="using-near-and-exact-duplicate-analysis"></a>중복에 가까운 항목 및 정확히 중복된 항목 분석 사용
 
@@ -85,7 +85,7 @@ ms.locfileid: "58392106"
 
 8. 메시지에 **대한** 수정 작업을 완료한 후 닫기 를 선택합니다.
 
-    ![통신 규정 준수 정확한 중복 컨트롤](../media/communication-compliance-duplicates-controls.png)
+    ![통신 규정 준수는 중복 컨트롤을 정확히 복제합니다.](../media/communication-compliance-duplicates-controls.png)
 
 ## <a name="remediate-alerts"></a>경고 수정
 
@@ -95,7 +95,7 @@ ms.locfileid: "58392106"
 
  원본이나 제목에서 메시지를 즉시 수정할 수 있는 것이 분명한 경우도 있습니다. 메시지가 정책에 의심스러우거나 잘못 일치할 수 있으며 잘못된 것으로 해결해야 할 수 있습니다. 잘못분류된 콘텐츠를 Microsoft와 공유하려면 Report **as misclassified** control(잘못 배포된 컨트롤로 보고)을 선택하고 경고를 즉시 해결한 다음 보류 중인 경고 큐에서 제거합니다. 이러한 상황에서는 원본 또는 보낸 사람 정보를 토대로 해당 메시지를 어떻게 라우팅할지 또는 처리할지 판단이 가능할 수 있습니다. **태그 지정** 또는 **에스컬레이션** 제어를 사용하여, 해당 메시지에 태그를 할당하거나 지정된 검토자에게 메시지를 보내는 방안을 고려할 수도 있습니다.
 
-![통신 준수 수정 제어](../media/communication-compliance-remediation-controls.png)
+![통신 준수 수정 제어.](../media/communication-compliance-remediation-controls.png)
 
 ### <a name="step-2-examine-the-message-details"></a>2단계: 메시지 세부 정보 검사
 
@@ -123,7 +123,7 @@ ms.locfileid: "58392106"
 - **조사 에스컬레이터:** 조사 제어를 위해 **에스컬레이터를** 사용하여 단일 또는 [여러](overview-ediscovery-20.md) 메시지에 Advanced eDiscovery 사례를 새로 만들 수 있습니다. 새 사례에 대한 이름과 메모를 제공하고 정책과 일치하는 메시지를 보낸 사용자는 사례 보호자로 자동으로 할당됩니다. 사례를 관리하는 데 추가 권한이 필요하지 않습니다. 사례를 만들면 메시지에 대한 새 태그가 확인되거나 생성되지 않습니다. 재구성 프로세스 중에 사례를 만들 때 총 100개 Advanced eDiscovery 수 있습니다. 통신 규정 준수에 의해 모니터링되는 모든 통신 채널의 메시지가 지원됩니다. 예를 들어 사용자에 대해 새 Microsoft Teams 사례를 열 때 50개 Microsoft Teams, Exchange Online 전자 메일 메시지 25개, Yammer 메시지 25개Advanced eDiscovery 메시지를 선택할 수 있습니다.
 - **Teams** 메시지 제거: Teams 컨트롤에서 메시지 제거를 사용하면 Microsoft Teams 채널 및 1:1 및 그룹 채팅에서 경고에 식별된 부적절한 메시지와 콘텐츠를 차단할 수 있습니다.  제거된 메시지와 콘텐츠는 차단됨을 설명하는 정책 팁과 보기에서 제거에 적용되는 정책으로 대체되었습니다. 받는 사람에게 해당 정책 및 검토 프로세스에 대해 자세히 알아보는 링크가 정책 팁에 제공됩니다. 보낸 사람이 차단된 메시지 및 콘텐츠에 대한 정책 팁을 수신하지만 차단된 메시지의 세부 정보 및 제거와 관련하여 컨텍스트를 검토할 수 있습니다.
 
-    ![메시지 목록에서 Microsoft Teams](../media/communication-compliance-remove-teams-message.png)
+    ![메시지 목록에서 메시지를 Microsoft Teams.](../media/communication-compliance-remove-teams-message.png)
 
 ### <a name="step-4-determine-if-message-details-should-be-archived-outside-of-communication-compliance"></a>4단계: 통신 준수 외부에서 메시지 세부 정보를 보관해야 하는지 확인
 

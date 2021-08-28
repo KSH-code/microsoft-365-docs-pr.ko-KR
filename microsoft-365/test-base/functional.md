@@ -14,12 +14,12 @@ ms.collection: TestBase-M365
 ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
-ms.openlocfilehash: 989ec90af003d3b0a488e4ab32afa70e5640dd93cbfab4195d6b048105b80e80
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cfa07a795e99144e168b06b99e9f1feacd7fa9be
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888149"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572770"
 ---
 # <a name="functional-testing"></a>기능 테스트
 
@@ -47,7 +47,7 @@ ms.locfileid: "53888149"
 *OOB(Out-of-Box) 옵션은 기본적으로 필요합니다.*
 
 
-![기능 테스트 탭 선택](Media/functional_testing_tab1.png)
+![기능 테스트 탭을 선택합니다.](Media/functional_testing_tab1.png)
 
 탭 2 - 업로드 전체 테스트(이진, 종속성, 스크립트 등)를 업로드하여 패키지의 구성 요소를 업로드합니다. 
 
@@ -57,7 +57,7 @@ ms.locfileid: "53888149"
 
 현재 기능 테스트를 위해 1~8개 스크립트를 업로드할 수 있습니다. (더 많은 스크립트가 필요한 경우 이 게시물에 대해 설명하세요!)
 
-![업로드 테스트가 있는 스크립트 최대 8개](Media/functional_testing_tab3.png)
+![업로드 테스트가 있는 스크립트를 최대 8개까지 사용할 수 있습니다.](Media/functional_testing_tab3.png)
 
 (선택 사항) 설치 후 다시 시작을 구성합니다. 일부 응용 프로그램은 설치 후 다시 시작해야 합니다. 
 

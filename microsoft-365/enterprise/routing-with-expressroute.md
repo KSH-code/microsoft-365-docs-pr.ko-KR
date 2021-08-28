@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: 이 문서에서는 Azure ExpressRoute 라우팅 요구 사항, 회로 및 라우팅 도메인에 대해 Office 365.
-ms.openlocfilehash: e36730f457f17ca6e789bd0ba06998824a6c590a45c53f9050f497c762f5985b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d157515f60a68a46b033571a0fd39e6a5711b884
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904498"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575831"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Office 365용 ExpressRoute를 사용한 라우팅
 
@@ -146,7 +146,7 @@ Trey Research는 Azure ExpressRoute를 Office 365 계획하고 콘텐츠 배달 
   
 Exchange Online, SharePoint Online 및 비즈니스용 Skype Online에 대한 가장 높은 볼륨 FQDNS는 다음과 같습니다.
   
-![ExpressRoute 고객 에지 네트워크](../media/dab8cc42-b1d6-46d6-b2f6-d70f9e16d5ea.png)
+![ExpressRoute 고객 에지 네트워크.](../media/dab8cc42-b1d6-46d6-b2f6-d70f9e16d5ea.png)
   
 - outlook.office365.com outlook.office.com
 
@@ -199,7 +199,7 @@ Humongous Insurance의 상황에서는 ExpressRoute를 통해 사용하려는 �
   
 Humongous Insurance에서 비즈니스용 Skype Online을 사용하지 않는 경우 Office 365 예정된 네트워크 트래픽을 ExpressRoute 연결을 통해 다시 대륙으로 라우팅하는 것이 타당할 수 있습니다. 그러나 불필요하게 대기 시간이 발생하거나 TCP 정체가 발생할 수 있습니다. 두 경우 Office 365 모두 인터넷으로 전송되는 트래픽을 로컬 사이트에서 라우팅하는 것이 좋습니다.
   
-![ExpressRoute 다중 지리](../media/98fdd883-2c5a-4df7-844b-bd28cd0b9f50.png)
+![ExpressRoute 다중 지리입니다.](../media/98fdd883-2c5a-4df7-844b-bd28cd0b9f50.png)
   
 Humongous Insurance에서 다중 지리 전략을 계획할 때 회로 크기, 회로 수, 장애 조치(failover) 등 여러 가지를 고려해야 합니다.
   
@@ -225,7 +225,7 @@ ExpressRoute를 통해 선택적 라우팅은 테스트, 일부 사용자에게 
 
 다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/erorouting]()
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
   

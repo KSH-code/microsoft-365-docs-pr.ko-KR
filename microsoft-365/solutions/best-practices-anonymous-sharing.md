@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: 이 문서에서는 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: 6aba41705f519e973447653b2a4c9b32b97e43bc44864374b142955c45c17d11
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 19791a532b6ea9a7167ac85dfe1eb1b58b9f8f1b
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857188"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575675"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 
@@ -45,7 +45,7 @@ ms.locfileid: "53857188"
 1. [SharePoint 관리 센터](https://admin.microsoft.com/sharepoint)를 엽니다.
 2. 왼쪽 탐색에서 **정책** 을 확장한 후 **공유** 를 클릭합니다.
 3. **"모든 사용자" 링크 만료 및 사용 권한 옵션 선택** 에서 **이러한 링크는 다음 기간 내에 만료되어야 합니다** 확인란을 선택합니다.</br>
-   ![SharePoint 조직 수준 모든 사용자 링크 만료 설정 스크린샷](../media/sharepoint-organization-anyone-link-expiration.png)
+   ![SharePoint 조직 수준 모든 사용자 링크 만료 설정 스크린샷.](../media/sharepoint-organization-anyone-link-expiration.png)
 4. 상자에 일 수를 입력한 다음 **저장** 을 클릭합니다.
 
 특정 사이트에서 모든 사용자 링크의 만료 날짜를 설정하려면 다음 작업을 수행합니다.
@@ -54,7 +54,7 @@ ms.locfileid: "53857188"
 2. 왼쪽 탐색에서 **사이트** 를 확장한 후 **활성 사이트** 를 클릭합니다.
 3. 변경할 사이트를 선택한 다음 **공유** 를 클릭합니다.
 4. **모든 사용자 링크에 대한 고급 설정** 에서 **모든 사용자 링크 만료** 에서 **조직 수준 설정과 동일** 확인란의 선택을 취소합니다.</br>
-   ![SharePoint 사이트 수준 모든 사용자 링크 만료 설정 스크린샷](../media/sharepoint-organization-anyone-link-expiration-site.png)
+   ![SharePoint 사이트 수준 모든 사용자 링크 만료 설정 스크린샷.](../media/sharepoint-organization-anyone-link-expiration-site.png)
 5. **이러한 링크는 이 기간 내에 만료되어야 함** 옵션을 선택하고 상자에 일 수를 입력합니다.
 6. **저장** 을 클릭합니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "53857188"
 1. [SharePoint 관리 센터](https://admin.microsoft.com/sharepoint)를 엽니다.
 2. 왼쪽 탐색 창에서 **공유** 를 클릭합니다.
 3. **"모든 사용자" 링크의 고급 설정** 에서 사용할 파일 및 폴더 사용 권한을 선택합니다.</br>
-   ![SharePoint 조직 수준 모든 사용자 링크 사용 권한 설정 스크린샷](../media/sharepoint-organization-anyone-link-permissions.png)
+   ![SharePoint 조직 수준 모든 사용자 링크 사용 권한 설정 스크린샷.](../media/sharepoint-organization-anyone-link-permissions.png)
 
 *모든 사용자* 링크가 **보기** 로 설정된 경우, 게스트와 파일 및 폴더를 계속 공유하고 *특정 사용자* 링크를 사용하여 편집 권한을 부여할 수 있습니다. 이러한 링크를 사용하려면 조직 외부의 사용자가 게스트로 인증해야 하며, 이 링크와 공유되는 파일 및 폴더에서 게스트 활동을 추적하고 감사할 수 있습니다.
 
@@ -98,7 +98,7 @@ ms.locfileid: "53857188"
 3. 변경할 사이트를 선택한 다음 **공유** 를 클릭합니다.
 4. **기본 공유** 링크 유형에서 **조직 수준 설정과 동일** 확인란을 선택 취소합니다.
 
-   ![SharePoint 사이트 수준의 기본 링크 유형 설정 스크린샷](../media/sharepoint-organization-anyone-link-permissions-site.png)
+   ![SharePoint 사이트 수준의 기본 링크 유형 설정 스크린샷.](../media/sharepoint-organization-anyone-link-permissions-site.png)
 
 5. **조직의 사용자만** 옵션을 선택하고 **저장** 을 클릭합니다.
 
@@ -122,7 +122,7 @@ DLP 규칙을 만들려면 다음을 수행합니다.
 10. **작업** 에서 **작업 추가** 를 클릭하고 **액세스를 제한하거나 Microsoft 365 위치에서 콘텐츠를 암호화** 를 선택합니다.
 11. **Microsoft 365 위치의 콘텐츠에 대한 액세스 제한 또는 암호화** 확인란을 선택한 다음 **“링크에 대한 모든 사용자" 옵션을 통해 콘텐츠에 대한 액세스 권한을 부여받은 유일한 사용자** 를 선택합니다.
 
-      ![DLP 규칙 작업 옵션의 스크린샷](../media/limit-accidental-exposure-dlp-anyone-links.png)
+      ![DLP 규칙 작업 옵션의 스크린샷.](../media/limit-accidental-exposure-dlp-anyone-links.png)
 
 12. **저장** 을 클릭한 다음 **다음** 을 클릭합니다.
 13. 테스트 옵션을 선택하고 **다음** 을 클릭합니다.
@@ -155,7 +155,7 @@ Microsoft 365 규정 준수 관리 센터에서 민감도 레이블을 사용하
 4. **다음** 을 클릭하여 **콘텐츠 표시** 탭으로 이동한 다음, 콘텐츠 표시를 **설정** 합니다. 
 5. 추가하려는 텍스트 유형의 확인란을 선택한 다음, **텍스트 사용자 지정** 을 클릭합니다.
 6. 문서에 추가하려는 텍스트를 입력하고 원하는 텍스트 옵션을 선택한 다음, **저장** 을 클릭합니다.</br>
-   ![민감도 레이블의 콘텐츠 표시 설정 스크린샷](../media/content-marking-for-anonymous-sharing.png)
+   ![민감도 레이블의 콘텐츠 표시 설정 스크린샷](../media/content-marking-for-anonymous-sharing.png).
 7. **다음** 을 클릭하여 마법사의 끝에 도달하고 **레이블 저장** 을 클릭합니다.
 
 레이블에 콘텐츠 표시를 사용하는 경우, 사용자가 해당 레이블을 적용하면 사용자가 지정한 텍스트가 Office 문서에 추가됩니다.

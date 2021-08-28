@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f45de173b8f316c93d8a65f1c20dbd523038c8855c2c0524770eed3334edee2d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 345088af66e08cb693d2b0a8a1e9bfbc51400aab
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571268"
 ---
 # <a name="web-protection"></a>웹 보호
 
@@ -40,7 +40,7 @@ ms.locfileid: "53884436"
 
 끝점용 Microsoft Defender의 웹 보호는 웹 위협 [방지,](web-threat-protection.md)웹 콘텐츠 필터링 및 사용자 지정 표시기 로 [끝나는 기능입니다.](manage-indicators.md) [](web-content-filtering.md) 웹 보호를 사용하면 웹 위협으로부터 장치를 보호하고 원치 않는 콘텐츠를 규제하는 데 도움이 됩니다. 보고서 및 웹 보호로 이동하여 Microsoft 365 Defender 포털에서 웹 보호 **보고서를 > 있습니다.**
 
-:::image type="content" alt-text="모든 웹 보호 카드의 이미지" source="images/web-protection.png" lightbox="images/web-protection.png":::
+:::image type="content" alt-text="모든 웹 보호 카드의 이미지입니다." source="images/web-protection.png" lightbox="images/web-protection.png":::
 
 ### <a name="web-threat-protection"></a>웹 위협 방지
 
@@ -177,17 +177,17 @@ DeviceEvents 
 사용자가 맬웨어, 피싱 또는 기타 웹 위협의 위험이 있는 웹 페이지를 방문하면 Microsoft Edge 관련 정보와 함께 '이 사이트가 안전하지 않은 것으로 보고되었습니다.'를 읽는 차단 페이지가 트리거됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![페이지가 차단한 Microsoft Edge](../../media/web-protection-malicious-block.png)
+> ![페이지가 차단된 Microsoft Edge.](../../media/web-protection-malicious-block.png)
 
 WCF 또는 사용자 지정 표시기에서 차단된 경우 조직에서 이 Microsoft Edge 차단할 수 있는 차단 페이지가 사용자에게 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![조직에서 차단한 페이지](../../media/web-protection-indicator-blockpage.png)
+> ![조직에서 차단한 페이지입니다.](../../media/web-protection-indicator-blockpage.png)
 
 어떤 경우든 차단 페이지가 타사 브라우저에 표시되지 않습니다. 사용자에게 알림 메시지와 함께 '보안 연결 실패' 페이지가 표시됩니다. 차단을 담당하는 정책에 따라 알림 메시지에 다른 메시지가 표시됩니다. 예를 들어 웹 콘텐츠 필터링에는 '이 콘텐츠가 차단됩니다'는 메시지가 표시됩니다. 
 
 > [!div class="mx-imgBorder"]
-> ![WCF에서 차단된 페이지](../../media/web-protection-np-block.png)
+> ![WCF에서 차단된 페이지입니다.](../../media/web-protection-np-block.png)
 
 ## <a name="report-false-positives"></a>가긍성 보고
 

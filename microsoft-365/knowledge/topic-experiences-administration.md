@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 센터의 이름을 변경하는 방법에 대해 자세히 알아보고
-ms.openlocfilehash: ba172df38a42ac00267496e2126c9d01058bb45bc925bfa8f75b3e3e98111247
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 262ae46fadf8fc390a4ccf591aa97175ff63a68f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53794682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573070"
 ---
 # <a name="change-the-name-of-the-topic-center-in-microsoft-viva-topics"></a>다음 항목에서 항목 센터의 Microsoft Viva 변경
 
@@ -30,7 +30,7 @@ ms.locfileid: "53794682"
 
 3. 항목 **센터 탭을** 선택합니다. 각 설정에 대한 자세한 내용은 다음 섹션을 참조하세요.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png) 
+    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-center.png) 
 
 ##  <a name="update-your-topic-center-name"></a>주제 센터 이름 업데이트
 
@@ -40,7 +40,7 @@ ms.locfileid: "53794682"
 2. 항목 **센터 이름 편집** 페이지의 항목 **센터** 이름 상자에 항목 센터의 새 이름을 입력합니다.
 3. **저장** 을 선택합니다.
 
-    ![항목 센터 이름 편집](../media/manage-topic-center-name.png)  
+    ![항목 센터 이름을 편집합니다.](../media/manage-topic-center-name.png)  
 
 ## <a name="see-also"></a>참고 항목
 

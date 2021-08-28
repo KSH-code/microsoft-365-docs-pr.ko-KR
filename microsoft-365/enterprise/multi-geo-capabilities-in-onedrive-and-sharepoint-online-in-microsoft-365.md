@@ -18,12 +18,12 @@ ms.collection:
 localization_priority: Normal
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: OneDrive Online의 Multi-Geo 기능으로 여러 지리적 지역으로 Microsoft 365 범위를 확장합니다.
-ms.openlocfilehash: 3a47fb6e36806b7bdbde1a1ba2b92186c6e193a003c3e7dcdcdce6a8de6fd733
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 544ca44308b8a51bae19df6b54a522469ae0de3c
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904926"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572650"
 ---
 # <a name="multi-geo-capabilities-in-onedrive-and-sharepoint-online"></a>OneDrive 및 SharePoint Online의 Multi-Geo 기능
 
@@ -49,7 +49,7 @@ Microsoft 365, Exchange, OneDrive, SharePoint 및 Teams 서비스는 Multi-Geo�
 
 다중 지역 환경 설정 및 관리는 SharePoint 관리 센터를 통해 이루어집니다. 
 
-![SharePoint 관리 센터의 지리적 위치 페이지 스크린샷](../media/sharepoint-multi-geo-admin-center.png)
+![SharePoint 관리 센터의 지리적 위치 SharePoint 스크린샷.](../media/sharepoint-multi-geo-admin-center.png)
 
 (SharePoint 사이트 또는 OneDrive 사이트 이동과 같은 일부 작업은 Microsoft PowerShell을 필요로 합니다.)
 

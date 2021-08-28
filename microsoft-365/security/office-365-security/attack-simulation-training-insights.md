@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 Microsoft 365 Defender 포털의 공격 시뮬레이션 교육이 직원에게 미치는 영향을 알아보고 시뮬레이션 및 교육 결과를 통해 정보를 얻을 수 있습니다.
 ms.technology: mdo
-ms.openlocfilehash: 7df504bb5f94a5c14792e278c03776ff45df7e8cdf788720c717e83b28baeb96
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 725b5c0310d4412f0901526a8111c686f69898a2
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862539"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576095"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 
@@ -39,7 +39,7 @@ ms.locfileid: "53862539"
 또한 공격으로 손상된 실제 직원 수와 예측된 손상율의 `<number> less susceptible to phishing` 차이를 반영합니다. 이러한 직원 수는 향후 유사한 공격으로 손상될 가능성이 낮아지지만 예측된 손상률과는 달리 직원의 전반적인적인 영향을 `<percent%> better than predicted rate` 나타냅니다.
 
 > [!div class="mx-imgBorder"]
-> ![공격 시뮬레이션 교육 개요에 대한 동작 영향 카드](../../media/attack-sim-preview-behavior-impact-card.png)
+> ![공격 시뮬레이션 교육 개요에 대한 동작 영향 카드입니다.](../../media/attack-sim-preview-behavior-impact-card.png)
 
 더 자세한 보고서를 보려면 시뮬레이션 및 교육 관련 보고서 **보기를 클릭합니다.** 이 보고서는 시뮬레이션 자체의 추가 컨텍스트와 동일한 정보를 제공합니다(예: 시뮬레이션 기술 및 대상이 지정된 총 사용자).
 

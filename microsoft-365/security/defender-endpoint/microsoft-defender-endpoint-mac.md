@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b7f884fa55d0f3514aae36761642e2589d1ea51e
-ms.sourcegitcommit: fce9a89b8280f41779835b18dceb59fa17384acf
+ms.openlocfilehash: baff7ea6f32233cc05291dd3de124e964751192e
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58666769"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571292"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -87,7 +87,7 @@ macOS의 가장 최근 주요 릴리스 3개가 지원됩니다.
 
 MacOS의 베타 버전은 지원되지 않습니다.
 
-M1 칩 기반 프로세서가 있는 macOS 장치에 대한 지원은 현재 미리 보기로 제공됩니다.
+M1 프로세서가 있는 macOS 장치는 지원되지 않습니다.
 
 서비스를 사용하도록 설정한 후 네트워크 또는 방화벽에서 해당 서비스 및 끝점 간의 아웃바운드 연결을 허용하도록 구성해야 할 수 있습니다.
 

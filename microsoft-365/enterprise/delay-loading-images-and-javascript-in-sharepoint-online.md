@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 74d327e5-755f-4135-b9a5-7b79578c1bf9
 description: JavaScript를 사용하여 이미지 및 필수가 아닌 JavaScript의 로드를 SharePoint 온라인 페이지의 로드 시간을 줄이는 방법을 배워야 합니다.
-ms.openlocfilehash: 0b0129f691018caf414ebd249e905a97d5560145dc648a073d8000402d11217d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7be256db8bce115b130322d1dd34131d845ef165
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573142"
 ---
 # <a name="delay-loading-images-and-javascript-in-sharepoint-online"></a>SharePoint Online에서 이미지 및 JavaScript 로드 지연
 
@@ -36,7 +36,7 @@ ms.locfileid: "53813297"
   
 ## <a name="improve-page-load-times-by-delaying-image-loading-in-sharepoint-online-pages-by-using-javascript"></a>JavaScript를 사용하여 온라인 SharePoint 이미지 로드를 지연하여 페이지 로드 시간 개선
 
-JavaScript를 사용하여 웹 브라우저에서 이미지를 미리 페치하지 못하게 할 수 있습니다. 그러면 전체 문서 렌더링 속도가 향상됩니다. 이렇게하려면 태그에서 src 특성 값을 제거하고 데이터 특성의 파일 \<img\> 경로(예: data-src)로 바니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+JavaScript를 사용하여 웹 브라우저에서 이미지를 미리 페치하지 못하게 할 수 있습니다. 그러면 전체 문서 렌더링 속도가 향상됩니다. 이렇게하려면 태그에서 src 특성 값을 제거하고 데이터 특성의 파일 \<img\> 경로(예: data-src)로 바니다. 예시:
   
 ```html
 <img src="" data-src="/sites/NavigationBySearch/_catalogs/masterpage/media/microsoft-white-8.jpg" />
@@ -109,11 +109,11 @@ $('#s4-workspace').on("scroll", function () {
   
 이 작업을 위해서는 마스터 페이지에서 jQuery도 참조해야 합니다. 다음 예제에서는 초기 페이지 로드에서 로드된 이미지가 하나뿐이지만 페이지에 이미지가 여러 개 더 있는 경우를 볼 수 있습니다.
   
-![페이지에 로드된 하나의 이미지를 보여 주는 스크린샷](../media/3d177ddb-67e5-43a7-b327-c9f9566ca937.png)
+![페이지에 로드된 하나의 이미지를 보여 주는 스크린샷.](../media/3d177ddb-67e5-43a7-b327-c9f9566ca937.png)
   
 다음 스크린샷은 보기로 스크롤한 후 다운로드되는 나머지 이미지를 보여줍니다.
   
-![페이지에 로드된 여러 페이지를 보여 주는 스크린샷](../media/95eb2b14-f6a1-4eac-a5cb-96097e49514c.png)
+![페이지에 로드된 여러 이미지를 보여 주는 스크린샷.](../media/95eb2b14-f6a1-4eac-a5cb-96097e49514c.png)
   
 JavaScript를 사용하여 이미지 로드를 지연하는 것이 성능을 높이는 효과적인 기술일 수 있습니다. 그러나 공개 웹 사이트에 이 기술을 적용하면 검색 엔진이 정기적으로 구성한 이미지를 크롤링하는 방법과 동일한 방식으로 이미지를 크롤링할 수 없습니다. 이 경우 페이지가 로드될 때까지 이미지 자체의 메타데이터가 실제로 없는 것이기 때문에 검색 엔진의 순위에 영향을 줄 수 있습니다. 검색 엔진 크롤러는 HTML만 읽기만 하므로 페이지에 이미지가 콘텐츠로 표시되지 않습니다. 이미지는 검색 결과에서 페이지의 순위를 정하는 데 사용되는 요소 중 하나입니다. 이를 해결하는 한 가지 방법은 이미지에 소개 텍스트를 사용하는 것입니다.
   

@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: '
-ms.openlocfilehash: b7207a175a900b45e081e40e438495c0b0ed6874
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 003a643bd861d3937d9e0c62f487d36e950f14c9
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356171"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575651"
 ---
 # <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 새 독일 데이터 센터 Office 365 서비스로의 새 마이그레이션에 옵트인(opt in)하는 방법
 
@@ -41,15 +41,15 @@ Microsoft 클라우드 독일(도이치클란드 Microsoft 클라우드)에 프�
 
 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 Office 365 서비스로 마이그레이션하려면 옵트인(Opt-in)을 **클릭합니다.**
  
-![옵트인 소개](../media/ms-cloud-germany-migration-opt-in/tenant-migration.png)
+![옵트인 소개.](../media/ms-cloud-germany-migration-opt-in/tenant-migration.png)
 
 확인을 수락하기 위해 화면 오른쪽에 새 섹션이 나타납니다. 예를 **선택하고** 저장을 **클릭합니다.**
  
-![옵트인 수락](../media/ms-cloud-germany-migration-opt-in/tenant-migration-new-regions.png)
+![옵트인(opt-in)](../media/ms-cloud-germany-migration-opt-in/tenant-migration-new-regions.png)
 
 테넌트 대신 옵트인(opt in)한 경우 모든 관리자는 옵트인 날짜를 포함하여 독일 **Microsoft 클라우드(도이치란드 Microsoft** 클라우드)에서 Office 365 서비스로 마이그레이션 섹션에서 확인을 볼 수 있습니다. 관리자는 또한 관리자의 메시지 센터에서 확인을 Microsoft 365 관리 센터. 
  
-![옵트인 확인](../media/ms-cloud-germany-migration-opt-in/tenant-migration2.png)
+![옵트인 확인.](../media/ms-cloud-germany-migration-opt-in/tenant-migration2.png)
 
 ## <a name="what-happens-after-opting-in-for-migration"></a>마이그레이션을 옵트인(opt in)한 후 어떻게 하나요?
 

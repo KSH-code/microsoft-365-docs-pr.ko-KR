@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: 자세한 내용은 Microsoft Viva 참조하세요.
-ms.openlocfilehash: 5373fbf35bd068228aed653535288ada4eb532c52122f01b12a317d3a98713a1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5456ef27b23ff36cd1919274424c179f8ec3d683
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53840206"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572638"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>항목 센터 개요 Microsoft Viva 항목
 
@@ -40,7 +40,7 @@ Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 SharePoi
 
 3. 항목 **센터 탭을** 선택합니다. 사이트 **주소 아래에는** 항목 센터에 대한 링크가 있습니다.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png)
+    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-center.png)
 
 ## <a name="home-page"></a>홈페이지
 
@@ -54,7 +54,7 @@ Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 SharePoi
 
 - 제안된 연결 - 이러한 항목에 나열된 아래에 나열된 **항목을 볼 수 있습니다. 올바른 시작이 했나요?** 다음은 AI를 통해 항목에 대한 연결을 제안한 항목입니다. 예를 들어 관련 파일이나 사이트의 작성자일 수 있습니다. 항목에 대한 관련 사람으로 나열되어야 하는지 확인이 요청됩니다.
 
-   ![제안된 연결](../media/knowledge-management/my-topics.png)
+   ![제안된 연결.](../media/knowledge-management/my-topics.png)
 
 - 확정된 연결 - 항목 페이지에 고정되거나 항목에 대한 제안된 연결을 확인한 항목입니다. 제안된 연결을 확인하면 항목은 제안된 섹션에서 확인된 섹션으로 이동됩니다.
 
@@ -86,4 +86,4 @@ Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 SharePoi
 
 ## <a name="see-also"></a>참고 항목
 
-[항목 센터에서 항목 관리](manage-topics.md)
+[주제 센터에서 주제 관리](manage-topics.md)

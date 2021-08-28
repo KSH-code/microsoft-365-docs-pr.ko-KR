@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 49a9d668182a065f3b0a5168f14ed9c7472e00ac37615518c31a252d22191861
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 29a9e73ec4204b8083b22f427cf0271955f0ba2d
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902798"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576203"
 ---
 # <a name="overview-of-management-and-apis"></a>관리 및 API 개요
 
@@ -55,7 +55,7 @@ Endpoint용 Defender는 고객이 플랫폼을 쉽게 채택할 수 있도록 �
 
 Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 통해 워크플로를 자동화하고 끝점용 Defender 기능을 기반으로 혁신할 수 있습니다.
 
-![끝점용 Microsoft Defender의 사용 가능한 API 및 통합 이미지](images/mdatp-apis.png)
+![끝점용 Microsoft Defender의 사용 가능한 API 및 통합 이미지.](images/mdatp-apis.png)
 
 끝점용 Defender API는 다음 세 가지로 그룹화할 수 있습니다.
 

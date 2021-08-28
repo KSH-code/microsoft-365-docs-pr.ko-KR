@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 한 Microsoft 365 분류자 는 다양한 유형의 콘텐츠를 볼 수 있는 샘플을 제공하여 인식하는 데 사용할 수 있는 도구입니다. 이 문서에서는 사용자 지정 분류기를 만들고 교육하는 방법과 정확도를 높이기 위해 분류기를 다시 학습하는 방법을 보여집니다.
-ms.openlocfilehash: 25052b461aee3a9ba823c203ebb2f8bddebd3196312e9697574fcd2efba2af50
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f8401193274f90ae90d773c6bb9a2a5a6a995169
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53872191"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571112"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>학습 가능한 분류자 시작
 
@@ -46,7 +46,7 @@ ms.locfileid: "53872191"
 
 분류자 는 Microsoft 365 E5 또는 E5 준수 기능입니다. 이러한 구독을 사용하려면 이러한 구독 중 하나만 있어야 합니다.
 
-### <a name="permissions"></a>사용 권한
+### <a name="permissions"></a>권한
 
 UI에서 분류자에 액세스하는 경우: 
 
@@ -70,7 +70,7 @@ UI에서 분류자에 액세스하는 경우:
 
 이 타임라인은 학습 가능한 분류자 샘플 배포를 반영합니다.
 
-![trainable-classifier-timeline](../media/trainable-classifier-deployment-timeline_border.png)
+![trainable-classifier-timeline.](../media/trainable-classifier-deployment-timeline_border.png)
 
 > [!TIP]
 > 학습 가능한 분류자에 대해 옵트인(opt in)이 처음 필요합니다. 조직 콘텐츠에 대한 Microsoft 365 평가를 완료하는 데 12일이 걸립니다. 전역 관리자에게 문의하여 옵트인 프로세스를 시작하십시오.
@@ -125,7 +125,7 @@ UI에서 분류자에 액세스하는 경우:
 10. 이제 분류자 를 선택하여 세부 정보 페이지를 볼 수 있습니다.
 
     > [!div class="mx-imgBorder"]
-    > ![교육 가능한 분류자 테스트 준비](../media/classifier-trainable-ready-to-test-detail.png)
+    > ![교육 가능한 분류자 테스트를 준비합니다.](../media/classifier-trainable-ready-to-test-detail.png)
 
 11. 최상의 결과를 얻으 위해 테스트 콘텐츠 항목을 200개 이상(최대 10,000개) 수집합니다. 이러한 항목은 강한 양성, 강력한 부정 및 특성상 약간 명확하지 않다는 항목이 혼합된 것이 틀려야 합니다. 지원되는 파일 형식에 대한 자세한 내용은 SharePoint [Server의](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 기본 크롤링 파일 이름 확장명 및 구문 분석된 파일 형식을 참조합니다.
 
@@ -153,12 +153,12 @@ UI에서 분류자에 액세스하는 경우:
 18. Microsoft 365 30개 항목을 한에 제시합니다. 검토하고 상자에서 또는 `We predict this item is "Relevant". Do you agree?` 를 `Yes` `No` `Not sure, skip to next item` 선택합니다. 모델 정확도는 30개 항목마다 자동으로 업데이트됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![검토 항목 상자](../media/classifier-trainable-review-detail.png)
+    > ![검토 항목 상자입니다.](../media/classifier-trainable-review-detail.png)
 
 19. 200개 이상의 항목을 검토합니다.  정확도 점수가 안정화되면  게시 옵션을 사용할 수 있으며 분류자 상태가 으로 `Ready to use` 표시됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![정확도 점수 및 게시 준비 완료](../media/classifier-trainable-review-ready-to-publish.png)
+    > ![정확도 점수 및 게시 준비가 완료되었습니다.](../media/classifier-trainable-review-ready-to-publish.png)
 
 20. 분류자 게시
 

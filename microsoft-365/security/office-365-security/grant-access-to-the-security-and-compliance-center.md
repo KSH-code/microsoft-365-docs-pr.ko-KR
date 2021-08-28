@@ -20,12 +20,12 @@ description: 보안 또는 규정 준수 기능을 관리하려면 Microsoft 365
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 93588d7a467c1a3274a803edfc15a4eb51327cdaa320c644d5214defa79798c8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2123cad54bcb1a608447d53a08e61211052e3cca
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56884577"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572866"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 규정 준수 센터에 대한 액세스 권한 부여
 
@@ -40,7 +40,7 @@ ms.locfileid: "56884577"
 
 보안 및 준수 센터에서 사용자에게 부여할 수 있는 다양한 사용 권한에 대한 자세한 내용은 & 규정 준수 센터의 사용 권한을 [& 참조하십시오.](permissions-in-the-security-and-compliance-center.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이 문서의 단계를 완료하려면 Security & Compliance Center에서 전역 관리자 또는 OrganizationManagement 역할 그룹의 구성원일 수 있습니다.
 
@@ -54,9 +54,9 @@ ms.locfileid: "56884577"
 
 1. 에서 보안 & 준수 센터를 <https://protection.office.com> 열고 사용 **권한으로 이동 합니다.** 사용 권한 탭으로 직접 **이동하려면** 을 을 를 니다. <https://protection.office.com/permissions>
 
-2. 역할 그룹 목록에서 역할 그룹을 선택한 다음 편집 편집 아이콘 **을** ![ ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) 클릭합니다.
+2. 역할 그룹 목록에서 역할 그룹을 선택한 다음  편집 편집 ![ 아이콘을 ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) 클릭합니다.
 
-3. 역할 그룹의 속성 페이지에서 구성원 **아래의** 아이콘 추가를 클릭하고 추가할 사용자 이름을  ![ ](../../media/ITPro-EAC-AddIcon.gif) 선택합니다.
+3. 역할 그룹의 속성 페이지에서 구성원 **아래의** 아이콘 **추가를** ![ 클릭합니다.](../../media/ITPro-EAC-AddIcon.gif) 를 선택하고 추가할 사용자의 이름을 선택합니다.
 
 4. 역할 그룹에 추가할 모든 사용자를 선택한 경우 **추가를 \>** 클릭한 다음 확인 을 **클릭합니다.**
 
@@ -64,7 +64,7 @@ ms.locfileid: "56884577"
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>보안 & 준수 센터 PowerShell을 사용하여 다른 사용자에게 보안 및 준수 센터에 & 권한을 부여합니다.
 
-1. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)합니다.
+1. [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)
 
 2. 다음 구문을 사용합니다.
 

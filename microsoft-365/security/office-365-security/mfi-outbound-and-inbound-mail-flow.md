@@ -13,12 +13,12 @@ ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 아웃바운드 및 인바운드 메일 흐름 & 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0fd625d4b8ff70d6fba6af17f8f42a78257f97ff4bb64393c4c32a4d1fc1ee7c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6fe4f7bded7a3d1fcca26d537de24513f27bc0ec
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56883126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571256"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 아웃바운드 및 & 흐름 정보
 
@@ -33,7 +33,7 @@ Security  & Compliance [Center의](https://protection.office.com) 메일 [](mail
 
 위젯에는 조직과 메시지를 배달할 때 연결에 사용되는 TLS 암호화가 표시됩니다. 다른 전자 메일 서비스와 설정한 연결은 양측에서 TLS를 제공하는 경우 TLS로 암호화됩니다. 위젯은 메일 흐름의 마지막 주에 대한 스냅숏을 제공합니다.
 
-![보안 및 준수 센터의 메일 흐름 대시보드에 있는 아웃바운드 & 및 인바운드 메일 흐름 위젯](../../media/mfi-outbound-and-inbound-mail-flow-report-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에 있는 아웃바운드 및 & 위젯](../../media/mfi-outbound-and-inbound-mail-flow-report-widget.png)
 
 위젯의 정보는 위젯의 커넥터 및 TLS 메시지 보호와 Microsoft 365. 자세한 내용은 다음 항목을 참조하세요.
 
@@ -45,7 +45,7 @@ Security  & Compliance [Center의](https://protection.office.com) 메일 [](mail
 
 위젯에서  세부 정보 보기를 클릭하면 **TLS(전송** 중 메시지 보호) 플라이아웃에 조직에서 들어오고 나가는 메시지에 대한 TLS 보호가 표시됩니다.
 
-![아웃바운드 및 인바운드 전자 메일 위젯에서 세부 정보 보기를 클릭한 후 나타나는 전송 중(TLS로 보호된 메시지) 플라이아웃](../../media/mfi-outbound-and-inbound-mail-flow-report-details.png)
+![아웃바운드 및 인바운드 전자 메일 위젯에서 세부 정보 보기를 클릭한 후 나타나는 TLS(전송 중) 플라이아웃으로 보호된 메시지입니다.](../../media/mfi-outbound-and-inbound-mail-flow-report-details.png)
 
 현재 TLS 1.2는 TLS 1.2에서 제공하는 가장 안전한 버전의 TLS로, Microsoft 365. 준수 감사에 사용되는 TLS 암호화를 알아야 하는 경우가 종종 있습니다. 대부분의 원본 및 대상 전자 메일 서버와 직접적인 관계가 없는 것일 수 있으므로(소유하지도 아니고 Microsoft도 해당 서버와는 관계가 없습니다). 따라서 이러한 서버에서 사용되는 TLS 암호화를 개선할 수 있는 옵션이 많지 않습니다.
 

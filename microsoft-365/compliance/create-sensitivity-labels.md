@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 데이터를 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 4b37aeecabdeaef3afebb7144330a5c9df811729
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 2851fd356efe4405d4355547f364f4a147cb26d0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571426"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -54,14 +54,14 @@ ms.locfileid: "58508121"
 
     예를 들어, Microsoft 365 규정 준수 센터에서 다음을 수행합니다.
 
-    ![민감도 레이블 만들기](../media/create-sensitivity-label-full.png)
+    ![민감도 레이블 만들기.](../media/create-sensitivity-label-full.png)
 
     > [!NOTE]
     > 기본적으로 테넌트에는 레이블이 없으며 레이블을 만들어야 합니다. 예제 그림에 나와 있는 레이블에 [Azure Information Protection에서 마이그레이션된](/azure/information-protection/configure-policy-migrate-labels) 기본 레이블이 표시됩니다.
 
 3. **이 레이블에 대한 범위 정의** 페이지에서 선택한 옵션은 구성할 수 있는 설정에 대한 레이블 범위와 게시될 때 표시되는 위치를 결정합니다.
 
-    ![민감도 레이블 범위](../media/sensitivity-labels-scopes.png)
+    ![민감도 레이블 범위.](../media/sensitivity-labels-scopes.png)
 
     - **파일 및 전자 메일** 이 선택된 경우, 이 마법사에서 Office Word 및 Outlook과 같은 민감도 레이블을 지원하는 앱에 적용되는 설정을 구성할 수 있습니다. 이 옵션이 선택되지 않은 경우, 마법사는 해당 설정의 첫 번째 페이지를 표시하지만 사용자는 설정을 구성할 수 없으며 레이블은 이들 앱에서 사용자들이 선택하도록 제공되지 않습니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "58508121"
 
 기존 레이블을 편집하려면 해당 레이블을 선택하고 **레이블 편집** 단추를 선택합니다.
 
-![레이블 단추를 편집하여 민감도 레이블 편집](../media/edit-sensitivity-label-full.png)
+![레이블 단추를 편집하여 민감도 레이블 편집.](../media/edit-sensitivity-label-full.png)
 
 이 단추를 선택하면 4단계에서 모든 레이블 설정을 변경할 수 있는 **민감도 레이블 편집** 마법사가 시작됩니다.
 
@@ -147,7 +147,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
     예를 들어, Microsoft 365 규정 준수 센터에서 다음을 수행합니다.
 
-    ![레이블 게시](../media/publish-sensitivity-labels-full.png)
+    ![레이블 게시.](../media/publish-sensitivity-labels-full.png)
 
     > [!NOTE]
     > 기본적으로 테넌트에는 레이블 정책이 없으며 레이블 정책을 만들어야 합니다. 
@@ -175,7 +175,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 기존 레이블 정책을 편집하려면 해당 정책을 선택하고 **정책 편집** 단추를 선택합니다. 
 
-![민감도 레이블 편집하기](../media/edit-sensitivity-label-policy-full.png)
+![민감도 레이블 편집.](../media/edit-sensitivity-label-policy-full.png)
 
 이 단추를 선택하면 포함할 레이블과 레이블 설정을 편집할 수 있는 **정책 만들기** 마법사가 시작됩니다. 마법사를 완료하면 변경 내용이 선택된 사용자 및 서비스로 자동 복제됩니다.
 

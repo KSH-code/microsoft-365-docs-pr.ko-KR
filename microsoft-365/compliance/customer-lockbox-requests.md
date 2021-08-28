@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 있는 경우 Microsoft 기술 지원 엔지니어가 데이터에 액세스할 수 있는 방법을 제어할 수 있는 고객 Lockbox 요청에 대해 자세히 알아보습니다.
-ms.openlocfilehash: fa1a53e2f18f186a31673fa240e1d7bd9b71b5f8
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: cb22e34e6bc1d6bb65aceabc874395be83b28724
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58350055"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58571414"
 ---
 # <a name="customer-lockbox-in-office-365"></a>고객 Lockbox의 Office 365
 
@@ -80,7 +80,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켜면 됩니다. 
 
 3. 보안 **& 개인** 정보 보호 고객 Lockbox 편집 을 선택한 다음 토글을 켜기 또는 끄기로 이동하여 기능을  >    >  켜거나 끄습니다.  
 
-    ![Require approval for Customer Lockbox](../media/CustomerLockbox4.png)
+    ![Customer Lockbox에 대한 승인이 필요합니다.](../media/CustomerLockbox4.png)
 
 ## <a name="approve-or-deny-a-customer-lockbox-request"></a>고객 Lockbox 요청 승인 또는 거부
 
@@ -92,15 +92,15 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켜면 됩니다. 
 
     고객 Lockbox 요청 목록이 표시됩니다.
 
-    ![고객 Lockbox 요청 목록](../media/CustomerLockbox6.png)
+    ![고객 Lockbox 요청 목록입니다.](../media/CustomerLockbox6.png)
 
 3. 고객 Lockbox 요청을 선택한 다음 승인 **또는** **거부를 선택합니다.**
 
-    ![고객 Lockbox 요청 승인](../media/CustomerLockbox7.png)
+    ![고객 Lockbox 요청을 승인합니다.](../media/CustomerLockbox7.png)
 
     고객 Lockbox 요청 승인에 대한 확인 메시지가 표시됩니다.
 
-    ![고객 Lockbox 요청 거부](../media/CustomerLockbox8.png)
+    ![고객 Lockbox 요청을 거부합니다.](../media/CustomerLockbox8.png)
 
 > [!NOTE]
 > Set-AccessToCustomerDataRequest cmdlet을 사용하여 Microsoft 지원 엔지니어의 사용자 데이터에 대한 액세스를 제어하는 Microsoft 365 고객 lockbox를 승인, 거부 또는 취소합니다. 자세한 내용은 [Set-AccessToCustomerDataRequest를 참조하세요.](/powershell/module/exchange/set-accesstocustomerdatarequest)
@@ -121,7 +121,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켜면 됩니다. 
 
     감사 **로그 검색 페이지가** 표시됩니다.
 
-    ![감사 로그 검색 페이지](../media/auditlogsearch1.png)
+    ![감사 로그 검색 페이지.](../media/auditlogsearch1.png)
   
 4. 다음과 같은 검색 조건을 구성합니다. 
 
@@ -161,7 +161,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켜면 됩니다. 
 
 다음 스크린샷은 승인된 Customer Lockbox 요청에 해당하는 감사 로그 레코드의 예를 보여줍니다. Customer Lockbox 요청이 거부된 경우 **ApprovalDecision** 매개 변수의 값은 **Deny가 됩니다.**
 
-![승인된 고객 Lockbox 요청에 대한 감사 레코드](../media/CustomerLockbox9.png)
+![승인된 고객 Lockbox 요청에 대한 감사 레코드입니다.](../media/CustomerLockbox9.png)
 
 > [!TIP]
 > 감사 레코드에 자세한 정보를 표시하려면 추가 정보를 **클릭합니다.**
@@ -178,7 +178,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켜면 됩니다. 
 | 활동   | Microsoft 엔지니어가 수행한 활동의 이름입니다.|
 | 항목       | \<empty\>                                             |
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 #### <a name="which-microsoft-365-services-does-customer-lockbox-apply-to"></a>고객 Microsoft 365 적용되는 서비스
 

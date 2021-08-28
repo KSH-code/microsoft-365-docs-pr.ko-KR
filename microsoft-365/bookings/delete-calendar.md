@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: 예약 Microsoft 365 관리 센터 Windows PowerShell 일정을 삭제합니다.
-ms.openlocfilehash: 5dd04033cc5a7485d606503f5cd2c72c5fabbe83d10102e118b0ef1451ec136e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fc5975e25fa3b1f2d2aab991cc7aac8038181f3f
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53882733"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572758"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Bookings에서 예약 일정 삭제
 
@@ -38,11 +38,11 @@ ms.locfileid: "53882733"
 
 1. 관리 센터에서 **사용자** 를 선택합니다.
 
-   ![사용자 UI의 Microsoft 365 관리 센터](../media/bookings-admin-center-users.png)
+   ![사용자 UI의 Microsoft 365 관리 센터.](../media/bookings-admin-center-users.png)
 
 1. **활성 사용자** 페이지에서 삭제할 사용자의 이름을 선택한 다음 **사용자 삭제** 를 선택합니다.
 
-   ![사용자 UI 삭제의 Microsoft 365 관리 센터](../media/bookings-delete-user.png)
+   ![사용자 UI 삭제의 Microsoft 365 관리 센터.](../media/bookings-delete-user.png)
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>PowerShell을 사용하여 예약 Exchange Online 삭제
 

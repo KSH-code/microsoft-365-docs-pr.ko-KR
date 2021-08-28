@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 - BCS160
 description: '스프레드시트 또는 다른 CSV Microsoft 365 목록에서 비즈니스용 앱에 여러 사용자를 추가하는 방법을 학습합니다. YouTube에서 계정에 계정을 추가하는 방법을 설명하는 비디오를 Microsoft 365. 이 프로세스가 끝나면 계정이 있는 각 사용자에게 사서함이 Microsoft 365 있습니다. '
-ms.openlocfilehash: bb0ed6212cde61693024bcd2fdca9f1d6c3f42dbb063f67324be3d87219f46cf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5df43af8d01dce11c063b3d29fb2323b997580bf
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572698"
 ---
 # <a name="add-several-users-at-the-same-time-to-microsoft-365---admin-help"></a>여러 사용자를 동시에 추가하여 Microsoft 365 - 관리자 도움말
 
@@ -91,11 +91,11 @@ CSV 파일은 쉼표로 구분된 값을 사용한 파일입니다. 모든 텍�
   
 파일을 새 이름으로 저장하고 CSV 형식을 지정합니다.
   
-![Excel CSV 형식으로 파일을 저장하는 방법 이미지](../media/35a86ebe-63ab-4b4d-9a92-e177de33ebae.png)
+![파일을 CSV 형식으로 저장하는 Excel 이미지입니다.](../media/35a86ebe-63ab-4b4d-9a92-e177de33ebae.png)
   
 파일을 저장할 때 파일을 CSV 형식으로 저장하면 통합 문서의 일부 기능이 손실된다는 메시지가 표시될 수 있지만 괜찮습니다. **예** 를 클릭하여 계속합니다.
   
-![Excel에서 파일을 정말로 CSV 형식으로 저장할지 묻는 메시지 그림](../media/51032a81-690c-45ef-bfc5-09ea7f790e98.png)
+![파일을 CSV 형식으로 저장할지 묻는 Excel 메시지가 표시될 수 있습니다.](../media/51032a81-690c-45ef-bfc5-09ea7f790e98.png)
   
 ### <a name="tips-for-formatting-your-spreadsheet"></a>스프레드시트 서식 지정 팁
 

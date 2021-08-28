@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e6caa9fb493c84331ea164b8a3f0f0ec2122fd5fb86e113253cd243644bbced8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 24bdb7a5d5f4c124365a6b5b7cdc67d53adf8278
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58575699"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -46,7 +46,7 @@ ms.locfileid: "53862387"
 
 각 계층에서 조직 외부의 사용자와 공유할 수 있는 옵션이 있습니다. 중요하고 매우 중요한 계층의 경우 중요도 종류 레이블을 사용하여 팀 수준에서 게스트 공유를 해제할 수 있습니다. 그러나 팀에서 게스트 공유를 사용하려면 조직 수준의 게스트 공유 설정을 사용해야 합니다.
 
-![Teams의 게스트 액세스 토글의 스크린샷](../media/teams-guest-access-toggle-on.png)
+![Teams 게스트 액세스 토글 스크린샷.](../media/teams-guest-access-toggle-on.png)
 
 Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 

@@ -14,12 +14,12 @@ localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.openlocfilehash: db98e147ef4453f62d4d17431286aaa99959712d
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.openlocfilehash: 1137ef50c5e3fb72b6bc0532b021de05c7eff1ce
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58357522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576131"
 ---
 # <a name="configure-and-manage-microsoft-threat-experts-capabilities-through-microsoft-365-defender"></a>다음을 통해 Microsoft 위협 전문가 기능을 구성하고 Microsoft 365 Defender
 
@@ -49,15 +49,15 @@ ms.locfileid: "58357522"
 
 2. **적용** 을 선택합니다.
 
-    ![Microsoft 위협 전문가 이미지](../../media/mte/mte-collaboratewithmte.png)
+    ![설정의 Microsoft 위협 전문가 이미지입니다.](../../media/mte/mte-collaboratewithmte.png)
 
 3. Microsoft에서 응용 프로그램에 대해 연락할 수 있도록 이름과 전자 메일 주소를 입력합니다.
 
-    ![응용 Microsoft 위협 전문가 이미지](../../media/mte/mte-apply.png)
+    ![응용 프로그램의 Microsoft 위협 전문가 이미지입니다.](../../media/mte/mte-apply.png)
 
 4. 개인 정보 [취급 방침 을 읽은](https://privacy.microsoft.com/en-us/privacystatement)다음 완료되면 제출을 선택합니다.  응용 프로그램이 승인되면 환영 전자 메일을 받게 됩니다.
 
-    ![응용 Microsoft 위협 전문가 확인 이미지](../../media/mte/mte-applicationconfirmation.png)
+    ![응용 Microsoft 위협 전문가 확인 이미지입니다.](../../media/mte/mte-applicationconfirmation.png)
 
 5. 환영 전자 메일을 받은 후 자동으로 대상 공격 알림을 받기 시작하게 됩니다.
 
@@ -102,13 +102,13 @@ ms.locfileid: "58357522"
 
 2. 위쪽 메뉴에서 **?를 선택합니다. 위협 전문가에게 문의합니다.**
 
-    ![메뉴의 Microsoft 위협 전문가 전문가 이미지](../../media/mte/incidents-action-mte-highlighted.png)
+    ![메뉴의 Microsoft 위협 전문가 전문가를 위한 이미지입니다.](../../media/mte/incidents-action-mte-highlighted.png)
 
     플라이아웃 화면이 열립니다.
 
     헤더는 평가판 구독을 사용 중이거나 전체 평가판 - Microsoft 위협 전문가 - 전문가가 구독하는지 나타냅니다.
 
-    ![전문가 Microsoft 위협 전문가 평가판 구독 화면의 이미지](../../media/mte/mte-trial.png)
+    ![Microsoft 위협 전문가 전문가 평가판 구독 화면의 이미지입니다.](../../media/mte/mte-trial.png)
 
     조사 **항목** 필드에는 요청에 대한 관련 페이지에 대한 링크가 이미 채워진 것입니다.
 

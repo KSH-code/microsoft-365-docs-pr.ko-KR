@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: 8c701dc0fb038e573b39067dd40f75e9394b4083
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 6d4c63bbf13ec4149a9250b3b4240926ece0d2c4
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533006"
+ms.locfileid: "58571329"
 ---
 # <a name="onboard-the-windows-10-devices-using-configuration-manager"></a>Configuration Manager를 Windows 10 장치 온보드
 
@@ -59,7 +59,8 @@ ms.locfileid: "58533006"
 
 ### <a name="onboard-devices-using-system-center-configuration-manager"></a>장치를 사용하여 온보드 System Center Configuration Manager
 
-[![다양한 배포 경로를 보여 주며 PDF 이미지](images/onboard-config-mgr.png)](images/onboard-config-mgr.png#lightbox)
+
+[![다양한 배포 경로를 보여 주며 PDF의 이미지입니다.](images/onboard-config-mgr.png)](images/onboard-config-mgr.png#lightbox)
 
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) Microsoft Defender for Endpoint 배포에서 다양한 경로를 확인할 수 있습니다.
 
@@ -209,7 +210,7 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 
     배포에 실패한 **경우(오류,** 요구 사항이 충족되지 않은 장치 **또는** 실패 상태인 **장치)** 장치 문제를 해결해야 할 수 있습니다. 자세한 내용은 Endpoint 온보딩 문제에 [대한 Microsoft Defender 문제 해결을 참조하세요.](troubleshoot-onboarding.md)
 
-    ![오류 없는 성공적인 배포를 보여주는 Configuration Manager](images/sccm-deployment.png)
+    ![오류 없는 성공적인 배포를 보여 주는 Configuration Manager입니다.](images/sccm-deployment.png)
 
 ### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-for-endpoint-service"></a>장치가 끝점용 Microsoft Defender 서비스를 준수하는지 확인
 

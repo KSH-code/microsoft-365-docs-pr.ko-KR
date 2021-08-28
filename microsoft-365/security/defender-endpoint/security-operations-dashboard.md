@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1a011d3cf8879b9f4b82d055693edfea98dbeb83a829c153b20e579b015fc80e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2612fc618c8bd3dd8362d86413bad386856a3063
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53897946"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572554"
 ---
 # <a name="microsoft-defender-security-center-security-operations-dashboard"></a>Microsoft Defender 보안 센터 보안 작업 대시보드
 
@@ -47,7 +47,7 @@ ms.locfileid: "53897946"
 - 위험에 노출된 사용자
 - 의심스러운 활동
 
-![보안 작업 대시보드의 이미지](images/atp-sec-ops-dashboard.png)
+![보안 작업 대시보드의 이미지입니다.](images/atp-sec-ops-dashboard.png)
 
 경고 및 장치를 탐색하고 조사하여 의심스러운 활동이 네트워크에서 발생된 경우 해당 컨텍스트를 이해하는 데 도움이 될 수 있도록 신속하게 확인할 수 있습니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "53897946"
 
 타일에서 네트워크에서 지난 30일 동안의 전체 활성 경고 수를 볼 수 있습니다. 경고는 신규 및 진행 **중으로** **그룹화됩니다.**
 
-![지난 30일 동안의 경고 목록을 보려면 각 조각 또는 심각도 클릭](images/active-alerts-tile.png)
+![지난 30일 동안의 경고 목록을 보려면 각 조각 또는 심각도 를 클릭합니다.](images/active-alerts-tile.png)
 
 각 그룹은 해당 경고 심각도 수준으로 더 하위 분류됩니다. 각 경고 링 내부의 경고 수를 클릭하여 해당 범주 큐의 정렬된 보기(신규 또는 진행 **중)를 확인합니다.**
 
@@ -71,7 +71,7 @@ ms.locfileid: "53897946"
 
 이 타일은 활성 경고가 가장 많은 장치 목록을 보여줍니다. 각 디바이스에 대한 총 경고 수는 장치 이름 옆에 있는 원으로 표시되고 타일의 맨 끝에 심각도 수준별로 추가 분류됩니다(각 심각도 표시줄 위에 마우스를 다가 레이블을 확인합니다).
 
-![위험에 노출된 장치 타일은 경고 수가 가장 많은 장치 목록과 경고 심각도 분석이 표시됩니다.](images/devices-at-risk-tile.png)
+![위험에 노출된 장치 타일은 알림 수가 가장 많은 장치 목록과 경고 심각도 분석이 표시됩니다.](images/devices-at-risk-tile.png)
 
 디바이스의 이름을 클릭하여 해당 장치에 대한 세부 정보를 확인합니다. 자세한 내용은 Microsoft Defender for Endpoint Devices 목록에서 장치 [조사를 참조하세요.](investigate-machines.md)
 
@@ -81,7 +81,7 @@ ms.locfileid: "53897946"
 
 센서 **문제가 있는 장치** 타일은 끝점용 Microsoft Defender 서비스에 센서 데이터를 제공하는 개별 장치의 능력에 대한 정보를 제공합니다. 주의가 필요한 장치 수를 보고하고 문제가 있는 장치를 식별하는 데 도움이 됩니다.
 
-![센서 문제가 있는 디바이스 타일](images/atp-tile-sensor-health.png)
+![센서 문제 타일이 있는 디바이스.](images/atp-tile-sensor-health.png)
 
 서비스에 올바르게 보고하지 않는 장치 수에 대한 정보를 제공하는 두 가지 상태 표시기가 있습니다.
 
@@ -94,7 +94,7 @@ ms.locfileid: "53897946"
 
 서비스 **상태 타일은** 서비스가 활성화되어 있는지 또는 문제가 있는지 알려합니다.
 
-![서비스 상태 타일은 서비스의 전체 지표를 보여 주며,](images/status-tile.png)
+![서비스 상태 타일은 서비스의 전체적인 지표를 보여 주며,](images/status-tile.png)
 
 서비스 상태의 자세한 내용은 Endpoint 서비스 상태 [확인을 참조하세요.](service-status.md)
 
@@ -102,19 +102,19 @@ ms.locfileid: "53897946"
 
 일별 장치 **보고 타일은** 지난 30일 동안 매일 보고되는 장치 수를 나타내는 막대 그래프를 보여줍니다. 그래프의 개별 막대 위에 마우스를 대면 매일 보고하는 장치의 정확한 수를 볼 수 있습니다.
 
-![보고 타일을 보고하는 일별 장치의 이미지](images/atp-daily-devices-reporting.png)
+![보고 타일을 보고하는 일일 장치의 이미지입니다.](images/atp-daily-devices-reporting.png)
 
 ## <a name="active-automated-investigations"></a>활성 자동화 조사
 
 활성 자동화 조사 타일에서 네트워크에서 지난 30일 동안의 전체 자동화된 조사 수를 볼 **수** 있습니다. 조사는 보류 중인 **작업,** 장치 대기 및 실행 중으로 **그룹화됩니다.** 
 
-![활성 자동화된 조사의 미지원](images/atp-active-investigations-tile.png)
+![활성 자동화된 조사가 진행 중입니다.](images/atp-active-investigations-tile.png)
 
 ## <a name="automated-investigations-statistics"></a>자동화된 조사 통계
 
 이 타일은 지난 7일 동안의 자동화된 조사와 관련된 통계를 보여줍니다. 완료된 조사 수, 성공적으로 재구성된 조사 수, 조사가 시작되는 데 걸리는 평균 대기 시간, 경고를 수정하는 데 걸리는 평균 시간, 조사된 경고 수 및 일반적인 수동 조사에서 저장된 자동화 시간 수가 표시됩니다. 
 
-![자동화된 조사 통계 이미지](images/atp-automated-investigations-statistics.png)
+![자동화된 조사 통계의 이미지입니다.](images/atp-automated-investigations-statistics.png)
 
 자동화된 **조사,** 재구성된 조사 및 조사된 알림을 클릭하여 해당  범주별로 필터링된 조사 페이지로 이동할 수 있습니다.   이를 통해 컨텍스트에서 자세한 조사 분석 내용을 볼 수 있습니다.
 
@@ -122,7 +122,7 @@ ms.locfileid: "53897946"
 
 타일은 가장 활발한 경고가 있는 사용자 계정 목록과 높음, 보통 또는 낮은 경고에 표시될 수 있는 경고 수를 보여줍니다. 
 
-![위험에 노출된 사용자 계정 타일은 경고 수가 가장 많은 사용자 계정 목록을 표시하고 경고 심각도 분석](images/atp-users-at-risk.png)
+![위험 타일의 사용자 계정은 경고가 가장 많은 사용자 계정 목록과 경고 심각도 분석이 표시됩니다.](images/atp-users-at-risk.png)
 
 사용자 계정을 클릭하여 사용자 계정에 대한 세부 정보를 볼 수 있습니다. 자세한 내용은 사용자 계정 [조사를 참조하세요.](investigate-user.md)
 

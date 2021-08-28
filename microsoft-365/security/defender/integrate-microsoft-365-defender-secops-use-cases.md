@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 0f2d0888c9dbe7550f4967f85691d4e56e4320c2d0220812fc095aa2c1cd96dc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 710e2adef0d04d9a7c45506f8b1bd4ec00d1d044
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862773"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58576143"
 ---
 # <a name="step-5-develop-and-test-use-cases"></a>5단계. 사용 사례 개발 및 테스트
 
@@ -56,7 +56,7 @@ SOC는 SOC 감독 팀에서 규제하는 사용 사례를 개발하기 위한 �
 
 런북 및 플레이북 만들기 프로세스를 용이하게 만들 수 있도록 사용 사례 결정 트리를 만드십시오. 이 그림은 예를 보여줍니다.
 
-:::image type="content" source="../../media/integrate-microsoft-365-defender-secops/use-case-decision-process.png" alt-text="사용 사례 결정 프로세스":::
+:::image type="content" source="../../media/integrate-microsoft-365-defender-secops/use-case-decision-process.png" alt-text="사용 사례 결정 프로세스.":::
 
 높은 수준의 사용 사례 표준을 정의하고 승인한 후 다음 단계는 실제 사용 사례를 만들고 테스트하는 것입니다. 다음 섹션에서는 피싱 방지 및 위협 및 취약점 검사 시나리오를 예로 사용 합니다.
 
@@ -64,7 +64,7 @@ SOC는 SOC 감독 팀에서 규제하는 사용 사례를 개발하기 위한 �
 
 사용 사례를 만드는 첫 번째 단계는 스토리보드를 사용하여 워크플로를 개요화하는 것입니다. 다음은 위협 인텔리전스 팀에 대한 새로운 피싱 악용 알림을 위한 고급 스토리 보드의 예입니다.
  
-:::image type="content" source="../../media/integrate-microsoft-365-defender-secops/example-use-case-workflow-storyboard-phishing.png" alt-text="피싱 방지 캠페인의 사용 사례 워크플로 예":::
+:::image type="content" source="../../media/integrate-microsoft-365-defender-secops/example-use-case-workflow-storyboard-phishing.png" alt-text="피싱 방지 캠페인에 대한 사용 사례 워크플로의 예":::
 
 ### <a name="invoke-the-use-case-workflow-for-example-1"></a>예제 1과 같은 사용 사례 워크플로 호출
 
@@ -78,13 +78,13 @@ SOC는 SOC 감독 팀에서 규제하는 사용 사례를 개발하기 위한 �
 
 다음은 자산의 모든 자산에 대한 고급 스토리보드의 위협 및 취약성 관리 예제입니다.
  
-:::image type="content" source="../../media/integrate-microsoft-365-defender-secops/example-use-case-workflow-storyboard-tvm.png" alt-text="예제 사례 워크플로를 위협 및 취약성 관리":::
+:::image type="content" source="../../media/integrate-microsoft-365-defender-secops/example-use-case-workflow-storyboard-tvm.png" alt-text="예제 사용 사례 워크플로를 위협 및 취약성 관리.":::
 
 ### <a name="invoke-the-use-case-workflow-for-example-2"></a>예제 2와 같은 사용 사례 워크플로 호출
 
 다음은 위협 및 취약점 검사에 대한 예제 프로세스입니다.
  
-:::image type="content" source="../../media/integrate-microsoft-365-defender-secops/example-detailed-use-case-workflow-tvm.png" alt-text="자세한 사용 사례 워크플로의 예는 위협 및 취약성 관리":::
+:::image type="content" source="../../media/integrate-microsoft-365-defender-secops/example-detailed-use-case-workflow-tvm.png" alt-text="자세한 사용 사례 워크플로의 예는 위협 및 취약성 관리.":::
  
 ### <a name="analyze-the-use-case-output-and-lessons-learned"></a>사용 사례 출력 및 학습된 교훈 분석
 

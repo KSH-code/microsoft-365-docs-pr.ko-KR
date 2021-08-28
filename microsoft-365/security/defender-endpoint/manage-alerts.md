@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 17e75cd8e12cf83a3581118dbe453314e659760b10c5960f6529d40c38deb303
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b91773a5cfa411c762aba939ba53d8f35be16f7a
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902822"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573046"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-alerts"></a>끝점 경고에 대한 Microsoft Defender 관리
 
@@ -40,7 +40,7 @@ Endpoint용 Defender는 경고를 통해 가능한 악성 이벤트, 특성 및 
 
 이러한 위치 중 하나에서 경고를 선택하면 경고 관리 **창이 표시됩니다.**
 
-![경고 관리 창 및 경고 큐의 이미지](images/atp-alerts-selected.png)
+![경고 관리 창 및 경고 큐의 이미지입니다.](images/atp-alerts-selected.png)
 
 ## <a name="link-to-another-incident"></a>다른 인시던트에 연결
 경고에서 새 인시던트 또는 기존 인시던트에 대한 링크를 만들 수 있습니다. 

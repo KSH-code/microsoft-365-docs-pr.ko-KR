@@ -1,5 +1,5 @@
 ---
-title: Defender에서 고급 헌팅 쿼리 결과에 Microsoft 365 수행
+title: 고급 헌팅 쿼리 결과에 대한 작업을 Microsoft 365 Defender
 description: 고급 헌팅 쿼리 결과에서 위협 및 영향을 받는 자산을 빠르게 해결
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 작업 수행
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 15eebbba102640a92f9c7712194aaef685a96cfb
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: b708fa898d1f84efdb5e885b786619e481099ac0
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952611"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58572998"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>고급 헌팅 쿼리 결과에 대한 작업 수행
 
@@ -43,7 +43,7 @@ ms.locfileid: "51952611"
 - 디바이스에서 다양한 작업 수행
 - 파일 Quarantine files
 
-## <a name="required-permissions"></a>필수 권한
+## <a name="required-permissions"></a>필요한 사용 권한
 고급 헌팅을 통해 조치를 취하려면 장치에서 수정 작업을 제출할 수 있는 권한이 있는 끝점용 Microsoft [Defender의 역할이 필요합니다.](/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) 조치를 취할 수 없는 경우 전역 관리자에게 문의하여 다음 권한을 부여합니다.
 
 *위협 및 > 조치 취약성 관리 - 수정 처리*
@@ -75,13 +75,13 @@ ms.locfileid: "51952611"
 ## <a name="take-action"></a>작업 수행
 설명된 작업을 수행하려면 쿼리 결과에서 하나 이상의 레코드를 선택한 다음 작업 **실행을 선택합니다.** 마법사가 기본 작업을 선택한 다음 제출하는 프로세스를 안내합니다.
 
-![레코드를 검사하기 위한 패널이 있는 선택한 레코드의 이미지](../../media/mtp-ah/ah-take-actions.png)
+![레코드를 검사하기 위한 패널이 있는 선택한 레코드의 이미지입니다.](../../media/mtp-ah/ah-take-actions.png)
 
 ## <a name="review-actions-taken"></a>수행한 작업 검토
 각 작업은 각각 동작 센터 [](m365d-action-center.md) 기록( 또는 )의 security.microsoft.com/action-center/history  >   기록됩니다.[](https://security.microsoft.com/action-center/history) 작업 센터로 이동하여 각 작업의 상태를 검사합니다.
  
 >[!NOTE]
->이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Defender를 Microsoft 365 더](m365d-enable.md) 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 마이그레이션의 단계에 따라 [Endpoint용 Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 워크플로를 Microsoft 365 Defender로 이동할 수 있습니다.
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [더 많은 Microsoft 365 Defender](m365d-enable.md) 사용하여 위협을 헌팅할 수 있습니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 Defender [Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 쿼리 마이그레이션의 단계를 수행하여 고급 헌팅 워크플로를 끝점으로 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

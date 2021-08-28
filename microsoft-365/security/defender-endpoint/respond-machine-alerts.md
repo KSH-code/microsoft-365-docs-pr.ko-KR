@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: cf685c61df92a2a5599e2ba8deb407edb5b6a5f1
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: f27049b518f13d0ddfd204b2aed16b60f07b8090
+ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255087"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58573034"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -46,7 +46,7 @@ ms.locfileid: "58255087"
 - 위협 전문가에게 문의
 - 작업 센터
 
-[![응답 작업의 이미지](images/response-actions.png)](images/response-actions.png#lightbox)
+[![응답 작업의 이미지입니다.](images/response-actions.png)](images/response-actions.png#lightbox)
 
  다음 보기에서 장치 페이지를 찾을 수 있습니다.
 
@@ -99,11 +99,11 @@ ms.locfileid: "58255087"
 
 1. 디바이스 **페이지의 응답** 작업 섹션에서 동작 센터를 선택합니다.
 
-    ![센터 단추의 이미지](images/action-center-package-collection.png)
+    ![센터 단추의 이미지입니다.](images/action-center-package-collection.png)
 
 2. Action Center 플라이아웃에서 zip 파일을 **다운로드할** 수 있는 패키지 컬렉션 패키지를 선택합니다.
 
-    ![다운로드 패키지 단추의 이미지](images/collect-package.png)
+    ![다운로드 패키지 단추의 이미지입니다.](images/collect-package.png)
 
 패키지에는 다음 폴더가 포함되어 있습니다.
 
@@ -140,7 +140,7 @@ ms.locfileid: "58255087"
 
 바이러스 백신 검사 실행을 선택한 경우 실행할 검사 유형(빠른 또는 전체)을 선택하고 스캔을 확인하기 전에 설명을 추가합니다.
 
-![빠른 검사 또는 전체 스캔을 선택하고 설명을 추가하는 알림 이미지](images/run-antivirus.png)
+![빠른 검사 또는 전체 스캔을 선택하고 설명을 추가하는 알림 이미지입니다.](images/run-antivirus.png)
 
 작업 센터는 검사 정보를 표시하고 장치 타임라인에는 디바이스에 검사 작업이 제출된 경우를 반영하는 새 이벤트가 포함됩니다. Microsoft Defender AV 경고는 검사 중에 발견된 모든 검색을 반영합니다.
 
@@ -168,13 +168,13 @@ ms.locfileid: "58255087"
 
 디바이스 페이지에서  앱 실행 제한을 선택한 후 설명을 입력하고 확인 을 **선택합니다.** 작업 센터에 검사 정보가 표시될 것입니다. 장치 타임라인에는 새 이벤트가 포함됩니다.
 
-![앱 제한 알림 이미지](images/restrict-app-execution.png)
+![앱 제한 알림의 이미지입니다.](images/restrict-app-execution.png)
 
 ### <a name="notification-on-device-user"></a>장치 사용자에 대한 알림
 
 앱이 제한되면 사용자에게 앱이 실행되지 못하도록 제한되고 있는 것을 알리기 위해 다음 알림이 표시됩니다.
 
-![앱 제한 이미지](images/atp-app-restriction.png)
+![앱 제한 이미지.](images/atp-app-restriction.png)
 
 ## <a name="isolate-devices-from-the-network"></a>네트워크에서 장치 격리
 
@@ -195,7 +195,7 @@ ms.locfileid: "58255087"
 
 장치 페이지에서 **장치** 격리를 선택한 후 설명을 입력하고 확인 을 **선택합니다.** 작업 센터에 검사 정보가 표시될 것입니다. 장치 타임라인에는 새 이벤트가 포함됩니다.
 
-![장치 격리 이미지](images/isolate-device.png)
+![장치 격리 이미지.](images/isolate-device.png)
 
 > [!NOTE]
 > 디바이스가 네트워크에서 격리된 경우에도 끝점용 Defender 서비스에 계속 연결됩니다. Outlook 및 비즈니스용 Skype 통신을 사용하도록 선택한 경우 장치가 격리된 동안 사용자에게 통신할 수 있습니다.
@@ -204,7 +204,7 @@ ms.locfileid: "58255087"
 
 장치가 격리 중이면 디바이스가 네트워크에서 격리되고 있는 것을 사용자에게 알리기 위해 다음 알림이 표시됩니다.
 
-![네트워크 연결 없음 이미지](images/atp-notification-isolate.png)
+![네트워크 연결이 없는 이미지입니다.](images/atp-notification-isolate.png)
 
 ## <a name="consult-a-threat-expert"></a>위협 전문가에게 문의
 
@@ -223,7 +223,7 @@ ms.locfileid: "58255087"
 
 제출 날짜/시간, 제출 사용자 및 작업이 성공 또는 실패한 경우와 같은 기타 모든 관련 세부 정보도 표시됩니다.
 
-![정보가 있는 센터 이미지](images/action-center-details.png)
+![정보가 있는 센터의 이미지입니다.](images/action-center-details.png)
 
 ## <a name="related-topic"></a>관련 항목
 
