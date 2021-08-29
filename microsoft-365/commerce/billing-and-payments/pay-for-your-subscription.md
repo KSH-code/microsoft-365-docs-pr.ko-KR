@@ -152,7 +152,7 @@ ms.locfileid: "53802925"
 > - [가이아나](../pay/guyana.md)
 > - [아이티](../pay/haiti.md)
 > - [온두라스](../pay/honduras.md)
-> - [홍콩](../pay/hong-kong.md)
+> - [홍콩 특별행정구](../pay/hong-kong.md)
 > - [헝가리](../pay/hungary.md)
 > - [아이슬란드](../pay/iceland.md)
 > - [인도](../pay/india.md)

@@ -97,7 +97,7 @@
 > - [아이티](../support/haiti.md)
 > - [허드 맥도널드 제도](../support/heard-island-and-mcdonald-islands.md)
 > - [온두라스](../support/honduras.md)
-> - [홍콩 특별자치구](../support/hong-kong-sar.md)
+> - [홍콩 특별행정구](../support/hong-kong-sar.md)
 > - [헝가리](../support/hungary.md)
 > - [아이슬란드](../support/iceland.md)
 > - [인도](../support/india.md)
