@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 83f6853217112741168876d92b9440869e29a5c1
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 347b999dd289f00e2493f2cf5d8c003e0dc24f1a
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575507"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823941"
 ---
 # <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a>라이브 응답을 사용하여 끝점용 Microsoft Defender에서 지원 로그 수집
 
@@ -81,6 +81,11 @@ ms.locfileid: "58575507"
 >   ```
 >
 > - 컴퓨터의 끝점 클라우드 서비스용 Microsoft Defender와 통신하지 않는 경우 또는 끝점용 Microsoft Defender 포털에 예상대로 나타나지 않는 경우 컴퓨터의 데이터를 로컬로 수집하는 데 대한 자세한 내용은 끝점 서비스 [URL에 대한 Microsoft Defender에](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)대한 클라이언트 연결 확인을 참조하세요.
+> 
+> - 라이브 응답 [](live-response-command-examples.md)명령 예제에 설명된 바와 같이 명령 끝에 '&' 기호를 사용하여 로그를 백그라운드 작업으로 수집할 수 있습니다.
+>   ```console
+>   Run MDELiveAnalyzer.ps1&
+>   ```
 
 
 ## <a name="see-also"></a>참고 항목

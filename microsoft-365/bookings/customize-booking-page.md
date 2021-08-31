@@ -9,26 +9,26 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 116d7a84-a7a0-4911-a1e9-debb2cca7c43
 description: Microsoft Bookings 앱에서 예약 페이지의 색 테마를 변경합니다.
-ms.openlocfilehash: d1cd08d33d90424fa091f6dcce3a9878bb662dfe
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 5faf769eeee8a34989e1fc3f1d5859c9770f85a3
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570356"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58822739"
 ---
 # <a name="customize-and-publish-your-booking-page"></a>예약 페이지 사용자 정의 및 게시
 
-예약 페이지에서는 외부 고객 연결 예약 페이지의 모양을 설정할 수 있습니다. 예약 페이지를 사용자 지정하고 게시하면 고객은 이 페이지를 사용하여 약속을 예약합니다.
+예약 페이지에서는 외부 연결 예약 페이지의 모양을 설정할 수 있습니다. 예약 페이지를 사용자 지정하고 게시하고 나면 사람들이 이 페이지를 사용하여 약속을 예약합니다.
 
-예약 페이지를 사용자 지정하기 위해 [Office.com에](https://office.com)로그인한 다음 **Bookings Booking** \> **페이지로 이동합니다.** 다음 옵션을 사용하여 예약 페이지를 사용자 지정할 수 있습니다. 예약 페이지를 설정한 후 고객이 약속을 예약할 수 있도록 게시할 수 있습니다.
+예약 페이지를 사용자 지정하기 위해 [Office.com에](https://office.com)로그인한 다음 **Bookings Booking** \> **페이지로 이동합니다.** 다음 옵션을 사용하여 예약 페이지를 사용자 지정할 수 있습니다. 예약 페이지를 설정한 후 다른 사용자가 약속을 예약할 수 있도록 게시할 수 있습니다.
 
 1. 다음 Microsoft 365 시작 프로그램을 선택한 다음 **Bookings 를 선택합니다.**
 
-2. 탐색 창에서 예약 **페이지를 선택합니다.**
+2. 탐색 창에서 예약 **설정**  ->  **선택합니다.**
 
 아래 섹션에서는 예약 페이지를 설정하는 방법과 페이지를 게시하는 방법에 대한 정보를 제공합니다.
 
-- **예약 페이지 상태** 서비스를 예약할 수 있도록 일정을 라이브로 게시합니다. 전자 메일 및 Twitter를 통해 일정에 대한 링크를 공유하고  Facebook 페이지에 지금 책 단추를 추가할 수 있습니다. 이 링크는 조직의 웹 사이트에도 포함될 수 있습니다.
+- **예약 페이지 구성** 서비스를 예약할 수 있도록 일정을 라이브로 게시합니다. 전자 메일 및 Twitter를 통해 일정에 대한 링크를 공유하고  Facebook 페이지에 지금 책 단추를 추가할 수 있습니다. 이 링크는 조직의 웹 사이트에도 포함될 수 있습니다.
 
     내부 예약 페이지는 다음과 같습니다.
 

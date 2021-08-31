@@ -16,12 +16,12 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 5ca8aecbc83513949a72be356c57651c46ba1a6087cca8ea6201c9a6dcc86587
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bdc3ddea542a888dbcd7fcf095835f327fb19e0a
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806296"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823928"
 ---
 # <a name="manage-the-schedule-for-when-protection-updates-should-be-downloaded-and-applied"></a>보호 업데이트를 다운로드하여 적용해야 하는 경우에 대한 예약 관리
 
@@ -44,7 +44,7 @@ Microsoft Defender 바이러스 백신 업데이트를 찾아 다운로드해야
 
 ## <a name="use-configuration-manager-to-schedule-protection-updates"></a>Configuration Manager를 사용하여 보호 업데이트 예약
 
-1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
+1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를  클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)  \>  \> 
 
 2. 보안 **인텔리전스 업데이트 섹션으로** 이동하세요.
 
@@ -67,7 +67,7 @@ Microsoft Defender 바이러스 백신 업데이트를 찾아 다운로드해야
 
 3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-4. 서명 **인텔리전스 Windows 구성 Microsoft Defender 바이러스 백신** 구성 요소를  >    >  **확장하고** 다음 설정을 구성합니다.
+4. 서명 **인텔리전스 Windows 구성 Microsoft Defender 바이러스 백신** 구성 요소를 \>  \> **확장하고** 다음 설정을 구성합니다.
 
     1. 보안 인텔리전스 업데이트를 확인할 날짜 지정 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.**  업데이트를 확인할 주 중일을 입력합니다. **확인** 을 클릭합니다.
     2. 보안 인텔리전스 업데이트를 확인할 간격 지정 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.**  업데이트 사이의 시간을 입력합니다. **확인** 을 클릭합니다.

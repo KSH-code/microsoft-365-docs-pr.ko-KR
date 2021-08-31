@@ -11,14 +11,14 @@ metadata:
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
-  ms.date: 02/5/2021
+  ms.date: 08/30/2021
   localization_priority: Priority
-  ms.openlocfilehash: 6d90b99e804749ff99ef4d7ea3a31b790c1ccf1c9740b991153327323ec7ef51
-  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+  ms.openlocfilehash: 2edb618e32b18d42db7c2ef233bac9ded7723fd4
+  ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "53889642"
+  ms.lasthandoff: 08/31/2021
+  ms.locfileid: "58822919"
 landingContent:
 - title: 엔드포인트용 Microsoft Defender
   linkLists:
@@ -26,10 +26,16 @@ landingContent:
     links:
     - text: 엔드포인트용 Microsoft Defender란 무엇인가요?
       url: microsoft-defender-endpoint.md
+    - text: Endpoint 요금제 1에 대한 Defender란?
+      url: defender-endpoint-plan-1.md
+    - text: 끝점 계획 1에 대한 Defender와 계획 2 비교
+      url: defender-endpoint-plan-1-2.md
   - linkListType: whats-new
     links:
     - text: 엔드포인트용 Microsoft Defender의 새로운 기능
       url: whats-new-in-microsoft-defender-atp.md
+    - text: 끝점 계획 1에 대한 Microsoft Defender 발표(미리 보기)
+      url: defender-endpoint-plan-1.md
   - linkListType: video
     links:
     - text: 개요 비디오
@@ -48,6 +54,8 @@ landingContent:
       url: deployment-phases.md
     - text: 온보딩 지원 장치
       url: onboard-configure.md
+    - text: 끝점 계획 1에 대한 Defender 설정 및 구성
+      url: mde-p1-setup-configuration.md
   - linkListType: how-to-guide
     links:
     - text: 마이그레이션 가이드
@@ -101,4 +109,4 @@ landingContent:
     - text: 공격 표면 감소
       url: overview-attack-surface-reduction.md
     - text: 차세대 보호
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10
+      url: next-generation-protection.md

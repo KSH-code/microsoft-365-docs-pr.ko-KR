@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0e5e177bebfed1fe5c181e14267e418a1aeb726e4627afc9b2ab32bb1f8264b9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c89b5b676e25b23e0e5fdfb925f6894647cb41e5
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806763"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823868"
 ---
 # <a name="manage-automation-file-uploads"></a>자동화 파일 업로드 관리
 
@@ -35,19 +35,19 @@ ms.locfileid: "53806763"
 
 자동화된 조사에서 추가 검사를 위해 특정 파일 및 전자 메일 첨부 파일을 클라우드에 자동으로 업로드할 수 있도록 콘텐츠 분석 기능을 사용하도록 설정하세요.
 
-파일 확장명 이름과 전자 메일 첨부 파일 확장명을 지정하여 파일 및 전자 메일 첨부 파일을 식별합니다. 
+파일 확장명 이름과 전자 메일 첨부 파일 확장명을 지정하여 파일 및 전자 메일 첨부 파일을 식별합니다.
 
-예를 들어 *exe* 및 *bat을* 파일 또는 첨부 파일 확장명 이름으로 추가하는 경우 자동화된 조사 중에 추가 검사를 위해 해당 확장명을 가지는 모든 파일 또는 첨부 파일이 자동으로 클라우드로 전송됩니다. 
+예를 들어 *exe* 및 *bat을* 파일 또는 첨부 파일 확장명 이름으로 추가하는 경우 자동화된 조사 중에 추가 검사를 위해 해당 확장명을 가지는 모든 파일 또는 첨부 파일이 자동으로 클라우드로 전송됩니다.
 
 ## <a name="add-file-extension-names-and-attachment-extension-names"></a>파일 확장명 이름과 첨부 파일 확장명을 추가합니다.
 
-1. 탐색 창에서 **끝점 규칙 설정**  >    >    >  **업로드를 선택합니다.**
+1. 탐색 창에서 **끝점 규칙 설정** \>  \>  \> **업로드를 선택합니다.**
 
 2. 설정 및 해제 간에 콘텐츠 분석 **설정을** **전환합니다.**
 
 3. 다음 내선 이름과 별도의 내선 이름을 각자 콤보로 구성합니다.
    - **파일 확장명** - 추가 검사를 위해 전자 메일 첨부 파일이 제출되는 것을 제외한 의심스러운 파일
-  
 
 ## <a name="related-topics"></a>관련 항목
+
 - [자동화 폴더 제외 관리](manage-automation-folder-exclusions.md)

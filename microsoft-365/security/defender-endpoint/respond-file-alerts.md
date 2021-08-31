@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b8eab3ee1244a56c41ad2eea806c8933e9224e47
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: f582ff83a790d56b936c93f3e40aac76c7e5df1b
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58559085"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823711"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -57,9 +57,9 @@ ms.locfileid: "58559085"
 
 |사용 권한|PE 파일|PE가 아닌 파일|
 |:---------------------|:------:|:----------:|
-|데이터 보기|X|X 키|
-|경고 조사|&#x2611;|X 키|
-|실시간 응답 기본|X|X 키|
+|데이터 보기|X|X|
+|경고 조사|&#x2611;|X|
+|실시간 응답 기본|X|X|
 |실시간 응답 고급|&#x2611;|&#x2611;|
 |
 
@@ -329,3 +329,4 @@ ms.locfileid: "58559085"
 
 - [장치에 대해 대응 조치 실행](respond-machine-alerts.md)
 - [파일 조사](investigate-files.md)
+- [끝점 계획 1용 Microsoft Defender의 수동 응답 작업(미리 보기)](defender-endpoint-plan-1.md#manual-response-actions)

@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: Bookings 활동의 4개월 보기를 보는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 8fc8a41a982135550ae711e435905c9bd39460994b1f6757b633aea49a7a48a0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ceb318f0577d6bf1f4f46f809ecabe0d1bc5d804
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838214"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823856"
 ---
 # <a name="reporting-info-for-bookings"></a>Bookings에 대한 보고 정보
 
@@ -24,17 +24,17 @@ ms.locfileid: "53838214"
 
 ## <a name="see-four-months-of-booking-activity"></a>4개월 동안의 예약 활동 보기
 
-1. Bookings 일정 대시보드에서 더 많은 데이터 내보내기 **를 TSV로 선택합니다.**
+1. 다음 Microsoft 365 앱 시작 프로그램을 선택한 다음 **Bookings 를 선택합니다.**
 
-:::image type="content" source="../media/bookings-activities.png" alt-text="스크린샷: Bookings 활동 4개월":::
+1. Bookings 홈 페이지에서 내보내기 를 **선택합니다.**
+
+1. 최근 데이터 **내보내기 페이지에서** 날짜 범위를 선택하고 내보내기 **를 선택합니다.**
 
 1. 파일을 새 이름으로 저장하고 .xls 또는 xlsx 형식을 지정합니다.
 
 1. 파일을 열어 Bookings 일정의 4개월 보기를 봐야 합니다.
 
 1. 보고서 날짜를 선택하고 내보내기 **를 선택합니다.**
-
-:::image type="content" source="../media/bookings-reporting-dates.png" alt-text="Screenshot: Pick a time range and export data to TSV file.":::
 
 1. 다운로드한 보고서에는 기존 필드와 새 필드 집합이 포함되어 있습니다.
 

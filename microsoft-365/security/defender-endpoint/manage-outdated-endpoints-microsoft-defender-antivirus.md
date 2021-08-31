@@ -16,12 +16,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 0f5f9e440690ad9fa04b4ceb762d564a895a7792be90a7ecbe4b0517d26a6a94
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9ee1417d071700b1cece8da6d3d1815e1ff8ff9d
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806319"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823808"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-scans-for-endpoints-that-are-out-of-date"></a>Microsoft Defender 바이러스 백신 업데이트 및 만료된 엔드포인트에 대한 검사 관리
 
@@ -44,7 +44,7 @@ Microsoft Defender 바이러스 백신 끝점에서 업데이트를 피할 수 �
 
 ### <a name="use-configuration-manager-to-configure-catch-up-protection-updates"></a>Configuration Manager를 사용하여 추가 보호 업데이트 구성
 
-1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
+1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를  클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)  \>  \> 
 
 2. 보안 **인텔리전스 업데이트 섹션으로 이동하여** 다음 설정을 구성합니다.
 
@@ -172,7 +172,7 @@ DisableCatchupQuickScan
 
 ### <a name="use-configuration-manager-to-configure-catch-up-scans"></a>Configuration Manager를 사용하여 추가 검사 구성
 
-1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
+1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를  클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)  \>  \> 
 
 2. 예약된 검사 **섹션으로 이동하고** 클라이언트 컴퓨터가 오프라인 상태인 경우 선택한 검사 유형을 강제로 **검사...를** **예로 합니다.**
 

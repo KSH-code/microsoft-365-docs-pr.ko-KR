@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a247aac370ba65e4ede48b0232ded1d93f6e8b99
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: d8bc077e12d52a5194b6e698a989704bdc273c52
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568891"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823771"
 ---
 # <a name="microsoft-defender-antivirus-in-the-windows-security-app"></a>Microsoft Defender 바이러스 백신 앱의 Windows 보안
 
@@ -50,7 +50,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 1. 작업 표시줄에서 방패 아이콘을 클릭하거나 **Defender의** 시작 메뉴를 검색하여 Windows 보안 앱을 열 수 있습니다.
 
 2. 바이러스 & **보호** 타일(또는 왼쪽 메뉴 표시줄의 방패 아이콘)을 선택합니다.
-   
+
 다음 섹션에서는 Microsoft Defender 바이러스 백신 앱에서 제공하는 위협 방지를 검토하거나 상호 작용할 때 가장 일반적인 몇 가지 작업을 Windows 보안 설명합니다.
 
 > [!NOTE]
@@ -72,7 +72,7 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 
 2. 바이러스 & **보호** 타일(또는 왼쪽 메뉴 표시줄의 방패 아이콘)을 선택합니다.
 
-3. 바이러스 **보호 & 업데이트를 선택합니다.** 현재 설치된 버전이 다운로드된 경우에 대한 몇 가지 정보와 함께 표시됩니다. 현재 버전을 수동으로 다운로드할 수 있는 최신 버전을 확인하거나 해당 버전에 대한 변경 로그를 검토할 수 있습니다. 보안 [인텔리전스 업데이트 및 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지 업데이트를 참조하세요.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
+3. 바이러스 **보호 & 업데이트를 선택합니다.** 현재 설치된 버전이 다운로드된 경우에 대한 몇 가지 정보와 함께 표시됩니다. 현재 버전을 수동으로 다운로드할 수 있는 최신 버전을 확인하거나 해당 버전에 대한 변경 로그를 검토할 수 있습니다. 보안 [인텔리전스 업데이트 및 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지 업데이트를 참조하세요.](https://www.microsoft.com/wdsi/defenderupdates)
 
 4. 업데이트 **확인을 선택하여** 새 보호 업데이트를 다운로드합니다(있는 경우).
 
@@ -98,21 +98,26 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 
 3. 설정 **관리에서** 바이러스 및 **위협 방지 & 를 선택합니다.**
 
-4. 제외 **설정에서** 제외 추가 **또는 제거를 선택합니다.** 
+4. 제외 **설정에서** 제외 추가 **또는 제거를 선택합니다.**
 
-5. 더하기 아이콘( )을 선택하여 유형을 선택하고 각 제외에 대한 옵션을 **+** 설정할 수 있습니다. 
+5. 더하기 아이콘( )을 선택하여 유형을 선택하고 각 제외에 대한 옵션을 **+** 설정할 수 있습니다.
 
 다음 표에서는 제외 유형과 발생하는 결과를 요약하여 제공합니다.
 
-|제외 유형  |정의한 사용자  |발생 작업  |
-|---------|---------|---------|
-|**파일** |위치 <br/>예: `c:\sample\sample.test` |특정 파일은 특정 파일에서 건너 Microsoft Defender 바이러스 백신. |
-|**폴더**    |위치 <br/>예: `c:\test\sample`       |지정한 폴더의 모든 항목은 폴더에서 건너 Microsoft Defender 바이러스 백신.         |
-|**파일 형식**   |파일 확장명 <br/>예: `.test` |디바이스의 아무 곳에서나 확장명을 사용하여 모든 파일을 `.test` Microsoft Defender 바이러스 백신.         |
-|**프로세스**     |실행 파일 경로 <br>예: `c:\test\process.exe`         |특정 프로세스 및 해당 프로세스에서 연 모든 파일은 특정 프로세스에서 Microsoft Defender 바이러스 백신.         |
+<br>
+
+****
+|제외 유형|정의한 사용자|발생 작업|
+|---|---|---|
+|**파일**|위치 <br/>예: `c:\sample\sample.test`|특정 파일은 특정 파일에서 건너 Microsoft Defender 바이러스 백신.|
+|**폴더**|위치 <br/>예: `c:\test\sample`|지정한 폴더의 모든 항목은 폴더에서 건너 Microsoft Defender 바이러스 백신.|
+|**파일 형식**|파일 확장명 <br/>예: `.test`|디바이스의 아무 곳에서나 확장명을 사용하여 모든 파일을 `.test` Microsoft Defender 바이러스 백신.|
+|**프로세스**|실행 파일 경로 <br>예: `c:\test\process.exe`|특정 프로세스 및 해당 프로세스에서 연 모든 파일은 특정 프로세스에서 Microsoft Defender 바이러스 백신.|
+|
 
 자세한 내용은 다음 리소스를 참조하세요.
-- [파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사](./configure-extension-file-exclusions-microsoft-defender-antivirus.md) 
+
+- [파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사](./configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [프로세스에서 연 파일에 대한 제외 구성](./configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 
 ## <a name="review-threat-detection-history-in-the-windows-defender-security-center-app"></a>보안 센터 앱의 Windows Defender 검색 기록 검토
@@ -136,4 +141,5 @@ Windows 보안 앱은 Windows 10 버전 1703 이상의 클라이언트 인터페
 5. 랜섬웨어 복구 옵션을 설정하려면  **랜섬웨어** 데이터 복구에서 설정을 선택하고 랜섬웨어 공격으로부터 쉽게 복구할 수 있도록 OneDrive 계정을 연결하거나 설정하기 위한 지침을 따릅니다.
 
 ## <a name="see-also"></a>참고 항목
+
 - [Windows Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

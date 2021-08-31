@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 359b08510b888772b3ef9face320ab526724544a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 538f01d1b91ebe5b980fed63f0d7c13e9b9f5a8f
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568315"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823892"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>엔드포인트용 Microsoft Defender(미국 정부 고객용)
 
@@ -184,10 +184,10 @@ Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드에서 [Azure I
 
 |기능 이름|GCC|GCC 높음|DoD|
 |---|:---:|:---:|:---:|
-|네트워크 검색|![아니요](images/svg/check-no.svg) 배포 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
+|네트워크 검색|![예](images/svg/check-yes.svg)|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
 |웹 컨텐츠 필터링|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
 |통합: Azure Sentinel|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg) 경고 <p> ![예](images/svg/check-yes.svg) 인시던트 & 데이터: 비공개 미리 보기|![예](images/svg/check-yes.svg) 경고 <p> ![예](images/svg/check-yes.svg) 인시던트 & 데이터: 비공개 미리 보기|
-|통합: Microsoft Cloud App Security|![예](images/svg/check-yes.svg)|![아니요](images/svg/check-no.svg) 배포 중|![아니요](images/svg/check-no.svg) 배포 중|
+|통합: Microsoft Cloud App Security|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|
 |통합: Id용 Microsoft Defender|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|
 |통합: Microsoft Endpoint DLP|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![아니요](images/svg/check-no.svg) 배포 중|
 |통합: Microsoft Power Automate & Azure Logic Apps|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg) Azure Logic Apps <p> ![아니요](images/svg/check-no.svg) Power Automate: 개발 중|

@@ -9,16 +9,16 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 0968717e-b61f-4b06-987c-6c1464541782
 description: Microsoft Bookings에서 직원의 근무 시간 및 가용성을 설정할 수 있습니다.
-ms.openlocfilehash: 9fffee6addd5f2d816fc7639661f2e03f53a96de
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 854110217f31b69d54783484aa1800332763af3e
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575039"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823651"
 ---
 # <a name="employee-working-hours-in-microsoft-bookings"></a>Microsoft Bookings의 직원 작업 시간
 
-직원 작업 시간을 설정하면 고객이 예약을 시도할 때 가용성이 정확하게 표시됩니다. 기본적으로 각 직원의 작업 시간은 Microsoft Bookings 앱에서 설정한 업무 시간과 일치합니다. 비즈니스 정보 입력의 "업무 시간 설정" [섹션을 참조하세요.](enter-business-information.md#set-your-business-hours)
+직원 작업 시간을 설정하면 고객이 예약을 시도할 때 가용성이 정확하게 표시됩니다. 기본적으로 각 직원의 작업 시간은 Microsoft Bookings 앱에서 설정한 업무 시간과 일치합니다. 비즈니스 정보 입력의 "업무 시간 설정" [섹션을 참조하세요.](enter-business-information.md)
 
 직원 **페이지에서** 회사 및 직원의 요구에 맞게 직원 작업 시간을 사용자 지정할 수 있습니다.
 

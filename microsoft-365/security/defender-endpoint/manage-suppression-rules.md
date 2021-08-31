@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 938c8b8764961930e80de562bdf9fc82f622da5d5b5793ca35c9e5a40a37ea09
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ac8b6255b46c20582d43680b3287f324f4f63c42
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806310"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823977"
 ---
 # <a name="manage-suppression-rules"></a>제거 규칙 관리
 
@@ -40,7 +40,7 @@ ms.locfileid: "53806310"
 모든 제거 규칙의 목록을 보고 한 장소에서 관리할 수 있습니다. 경고 제거 규칙을 설정하거나 해제할 수도 있습니다.
 
 
-1. 탐색 창에서 **끝점 규칙 설정**  >    >    >  **제거를 선택합니다.** 조직의 사용자가 만든 제거 규칙 목록이 표시됩니다.
+1. 탐색 창에서 **끝점 규칙 설정** \>  \>  \> **제거를 선택합니다.** 조직의 사용자가 만든 제거 규칙 목록이 표시됩니다.
 
 2. 규칙 이름 옆의 확인란을 클릭하여 규칙을 선택합니다.
 
@@ -49,10 +49,10 @@ ms.locfileid: "53806310"
 
 ## <a name="view-details-of-a-suppression-rule"></a>제거 규칙의 세부 정보 보기
 
-1. 탐색 창에서 **끝점 규칙 설정**  >    >    >  **제거를 선택합니다.** 조직의 사용자가 만든 제거 규칙 목록이 표시됩니다.
+1. 탐색 창에서 **끝점 규칙 설정** \>  \>  \> **제거를 선택합니다.** 조직의 사용자가 만든 제거 규칙 목록이 표시됩니다.
 
 2. 규칙 이름을 클릭합니다. 규칙의 세부 정보가 표시됩니다. 상태, 범위, 작업, 일치하는 경고 수, 생성한 경고 수, 규칙을 만든 날짜 등의 규칙 세부 정보가 표시됩니다. 관련 경고 및 규칙 조건을 볼 수도 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [경고 관리](manage-alerts.md)

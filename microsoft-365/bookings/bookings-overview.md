@@ -9,18 +9,21 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 47403d64-a067-4754-9ae9-00157244c27d
 description: 웹 기반 예약 일정을 포함하며 직원의 일정을 최적화하고 Outlook 예약할 수 있는 유연성을 고객에게 제공하도록 하는 Microsoft Bookings 앱의 개요입니다.
-ms.openlocfilehash: 339c8c2457b340dd863b5c9f8e0382b84ef43c08
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: c1bc36ea7724cdb29394b60fafa0178a08aab117
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256130"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823735"
 ---
 # <a name="microsoft-bookings"></a>Microsoft Bookings
 
-Microsoft Bookings는 약속을 예약하고 관리하기 위한 장단을 제공합니다. 예약에는 웹 기반 예약 일정이 포함되어 Outlook 일정을 최적화하고 고객에게 가장 적합한 시간을 예약할 수 있는 유연성을 제공합니다. 자동화된 알림 전자 메일은 no-shows를 줄이고 고객 만족도를 향상하며 조직은 반복적인 계획 작업을 줄여 시간을 절약합니다. 기본 제공되는 유연성과 사용자 지정 기능을 통해 Bookings는 조직의 여러 부분의 상황과 요구에 맞게 디자인할 수 있습니다. Bookings 일정은 Exchange Online.
+Microsoft Bookings는 약속을 예약하고 관리하기 위한 장단을 제공합니다. 예약에는 웹 기반 예약 일정이 포함되어 Outlook 일정을 최적화하고 고객에게 가장 적합한 시간을 예약할 수 있는 유연성을 제공합니다. 전자 메일 및 SMS 텍스트 알림은 no-shows를 줄이고 고객 만족도를 향상합니다. 조직에서는 반복적인 관리 작업을 줄여 시간을 절약할 수 있습니다. 기본 제공되는 유연성과 사용자 지정 기능을 통해 Bookings는 조직의 여러 부분의 상황과 요구에 맞게 디자인할 수 있습니다.
 
-Bookings는 사용자 및 모임을 통해 조직의 모임을 가상으로 만들어 온라인 모임을 Microsoft Teams [비즈니스용 Skype.](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b) 온라인 모임으로 예약된 각 약속은 참석자들이 웹 브라우저, 전화 접속 또는 Skype 또는 Teams 앱을 통해 참가할 수 있도록 참석에게 전송되는 고유한 모임 링크를 만듭니다. Bookings는 Bookings 일정을 만들고Teams 직원을 할당하고 새 약속을 예약하고 기존 약속을 예약할 수 있도록 예약을 종료하지 않고도 기존 약속을 관리할 수 있는 Teams.
+> [!NOTE]
+> Bookings 일정은 Exchange Online.
+
+Bookings를 사용하여 사용자 및 모임을 통해 온라인 모임을 통해 조직의 모임을 Microsoft Teams [비즈니스용 Skype.](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b) 온라인 모임으로 예약된 각 약속은 참석자들이 웹 브라우저, 전화 접속 또는 Skype 또는 Teams 앱을 통해 참가할 수 있도록 참석에게 전송되는 고유한 모임 링크를 만듭니다. Bookings는 Bookings 일정을 만들고Teams 직원을 할당하고 새 약속을 예약하고 기존 약속을 예약할 수 있도록 예약을 종료하지 않고도 기존 약속을 관리할 수 있는 Teams.
 
 Bookings에는 세 가지 주요 구성요소가 있습니다.
 
@@ -35,14 +38,8 @@ Bookings에는 세 가지 주요 구성요소가 있습니다.
 Microsoft Bookings는 다음 구독에서 사용할 수 있습니다.
 
 - Office 365: A3, A5, E3, E5, F1, F3
-- Microsoft 365: A3, A5, E3, E5, F1, F3, Business Premium
+- Microsoft 365: A3, A5, E3, E5, F1, F3, Business Standard, Business Premium
 
 ## <a name="get-started-using-bookings"></a>Bookings 사용 시작
-
-시작할 준비가 되셨나요?
-
-이 비디오를 시청하거나 아래 단계에 따라 Bookings를 설정하세요.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE26B1q]
 
 시작은 [Microsoft Bookings에 대한 액세스 권한을 참조합니다.](get-access.md) Bookings를 켜거나 끄기 위해 조직에 대해 [Bookings 켜기 또는 끄기 를 참조합니다.](turn-bookings-on-or-off.md)

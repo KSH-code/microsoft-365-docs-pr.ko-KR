@@ -15,12 +15,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 412b42fd7ac67326552f23c4d6cc0909daa60aa6
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 91b482aa189ff7e9d4ff69183718abf354d19d0f
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565847"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823832"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리
 
@@ -73,6 +73,10 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
 
 각 원본에는 다음 표에 설명된 바와 같이 네트워크 구성 방식과 업데이트를 게시하는 정도에 따라 달라지는 일반적인 시나리오가 있습니다.
 
+<br>
+
+****
+
 |위치|샘플 시나리오|
 |---|---|
 |Windows 서버 업데이트 서비스|서버 업데이트 Windows 사용하여 네트워크의 업데이트를 관리하고 있습니다.|
@@ -80,6 +84,7 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
 |파일 공유|인터넷에 연결되지 않은 장치(예: VM)가 있습니다. 인터넷에 연결된 VM 호스트를 사용하여 VM이 업데이트를 받을 수 있는 네트워크 공유에 대한 업데이트를 다운로드할 수 있습니다. [VDI(가상](deployment-vdi-microsoft-defender-antivirus.md) 데스크톱 인프라) 환경에서 파일 공유를 사용하는 방법에 대한 자세한 내용은 VDI 배포 가이드를 참조하세요.|
 |Microsoft Endpoint Manager|를 사용하여 Microsoft Endpoint Manager 끝점을 업데이트합니다.|
 |맬웨어 및 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지(이전의 MMPC)에 대한 보안 인텔리전스 업데이트|[SHA-2를 지원하기 위해](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)장치가 업데이트되어 있는지 확인 Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트는 Windows 업데이트를 통해 전달됩니다. 2019년 10월 21일 월요일부터 보안 인텔리전스 업데이트는 SHA-2만 서명됩니다. <br/>최근 감염으로 인하여 최신 보호 업데이트를 다운로드하거나 VDI 배포에 대한 강력한 기본 이미지를 [프로비전하는 데 도움이 됩니다.](deployment-vdi-microsoft-defender-antivirus.md) 이 옵션은 일반적으로 기본 원본이 아닌 최종 대체 원본으로만 사용해야 합니다. 지정된 일 수 동안 Windows 서버 업데이트 서비스 또는 Microsoft 업데이트에서 업데이트를 다운로드할 수 없는 경우만 [사용됩니다.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
+|
 
 그룹 정책, 업데이트 원본, PowerShell cmdlet 및 WMI에서 업데이트 Microsoft Endpoint Configuration Manager 순서를 관리할 수 있습니다.
 
@@ -96,7 +101,7 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
 
 3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-4. 트리를 확장하여 서명 **Windows 구성 Windows Defender** 구성 요소를  >    >  **확장하고** 다음 설정을 구성합니다.
+4. 트리를 확장하여 서명 **Windows 구성 Windows Defender** 구성 요소를 \>  \> **확장하고** 다음 설정을 구성합니다.
 
    1. 보안 인텔리전스 업데이트 다운로드를 위한 원본 순서 정의 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 
 
@@ -108,7 +113,7 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
 
    4. 보안 인텔리전스 업데이트 다운로드를 위한 파일 **공유** 정의 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.**
 
-   5. 파일 공유 원본을 지정합니다. 원본이 여러 개 있는 경우 각 원본을 사용할 순서대로 단일 파이프로 구분하여 입력합니다. 경로를 [나타 내는](/openspecs/windows_protocols/ms-dtyp/62e862f4-2a51-452e-8eeb-dc4ff5ee33cc) 데 표준 UNC 주석을 사용 합니다( 예: `\\host-name1\share-name\object-name|\\host-name2\share-name\object-name` ).  경로를 입력하지 않는 경우 VM에서 업데이트를 다운로드할 때 이 원본을 건너뜁니다.
+   5. 파일 공유 원본을 지정합니다. 원본이 여러 개 있는 경우 각 원본을 사용할 순서대로 단일 파이프로 구분하여 입력합니다. 경로를 [나타 내는](/openspecs/windows_protocols/ms-dtyp/62e862f4-2a51-452e-8eeb-dc4ff5ee33cc) 데 표준 UNC 주석을 사용 합니다( 예: `\\host-name1\share-name\object-name|\\host-name2\share-name\object-name` ). 경로를 입력하지 않는 경우 VM에서 업데이트를 다운로드할 때 이 원본을 건너뜁니다.
 
    6. **확인** 을 클릭합니다. 이렇게 하면 원본이 원본 순서 **정의...** 그룹 정책 설정에서 참조될 때 파일 공유의 순서가 설정됩니다.
 

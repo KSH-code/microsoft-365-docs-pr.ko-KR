@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: baff7ea6f32233cc05291dd3de124e964751192e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: ad24bc74eeaee8dd67009db6cfeb25e602c0c269
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571292"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823675"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -48,7 +48,7 @@ ms.locfileid: "58571292"
 [Mac의 끝점용 Microsoft Defender의 새로운](mac-whatsnew.md)
 
 > [!TIP]
-> 공유하고자 하는 피드백이 있는 경우 장치의 Mac에서 끝점용 Microsoft Defender를 열고 피드백 보내기 도움말로 를 확인하여  >  **제출합니다.**
+> 공유하고자 하는 피드백이 있는 경우 장치의 Mac에서 끝점용 Microsoft Defender를 열고 피드백  보내기 도움말로 를 확인하여 \> **제출합니다.**
 
 미리 보기 기능(예: Mac 장치에 대한 끝점 감지 및 응답)을 비롯한 최신 기능을 얻기 위해 끝점용 Microsoft Defender를 실행하는 macOS 장치를 "Insider" 장치로 구성합니다.
 
@@ -87,7 +87,7 @@ macOS의 가장 최근 주요 릴리스 3개가 지원됩니다.
 
 MacOS의 베타 버전은 지원되지 않습니다.
 
-M1 프로세서가 있는 macOS 장치는 지원되지 않습니다.
+M1 칩 기반 프로세서가 있는 macOS 장치에 대한 지원은 현재 미리 보기로 제공됩니다.
 
 서비스를 사용하도록 설정한 후 네트워크 또는 방화벽에서 해당 서비스 및 끝점 간의 아웃바운드 연결을 허용하도록 구성해야 할 수 있습니다.
 

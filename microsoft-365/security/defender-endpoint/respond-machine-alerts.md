@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f27049b518f13d0ddfd204b2aed16b60f07b8090
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: bd3f9fa5c6595a9a73111bb86699271cd5b930aa
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573034"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823687"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -225,7 +225,8 @@ ms.locfileid: "58573034"
 
 ![정보가 있는 센터의 이미지입니다.](images/action-center-details.png)
 
-## <a name="related-topic"></a>관련 항목
+## <a name="see-also"></a>참고 항목
 
 - [파일에 대해 대응 조치 실행](respond-file-alerts.md)
+- [끝점 계획 1용 Microsoft Defender의 수동 응답 작업(미리 보기)](defender-endpoint-plan-1.md#manual-response-actions)
 - [부정확성 보고](/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)

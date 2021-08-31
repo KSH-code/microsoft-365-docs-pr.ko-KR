@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6f38c052c6c1755c0717d8b64987dd69b1a5826d
-ms.sourcegitcommit: f2381c3bb3351235aaca977c57a46c654b9b0657
+ms.openlocfilehash: 03855c101c3d89f809e6d1410fddb006650595f5
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58387143"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823904"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -34,7 +34,7 @@ ms.locfileid: "58387143"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
-다음 기능은 Microsoft Defender for Endpoint의 최신 릴리스에서 일반적으로 사용할 수 있으며 Windows 10 및 Windows 서버의 보안 기능입니다.
+다음 기능은 Microsoft Defender for Endpoint의 최신 릴리스에서 일반적으로 사용할 수 있으며 Windows 10 및 Windows Server에 제공됩니다.
 
 미리 보기 기능에 대한 자세한 내용은 미리 보기 [기능을 참조하세요.](preview.md)
 
@@ -45,6 +45,12 @@ ms.locfileid: "58387143"
 > ```https
 > https://docs.microsoft.com/api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
+
+## <a name="august-2021"></a>2021년 8월
+
+- [끝점 계획 1용 Microsoft Defender(미리 보기)](defender-endpoint-plan-1.md) <br/>Defender for Endpoint Plan 1(미리 보기)은 차세대 보호, 공격 표면 감소, 중앙 집중식 관리 및 보고, API를 포함하는 끝점 보호 솔루션입니다. Defender for Endpoint Plan 1(미리 보기)은 엔드포인트 보호 기능을 사용해 보고, Microsoft 365 E3 아직 추가하지 않은 고객을 위한 새로운 Microsoft 365 E5. 
+
+   자세한 내용은 끝점 계획 [1용 Microsoft Defender(미리 보기)를 참조합니다.](defender-endpoint-plan-1.md) [끝점용 기존 Defender](microsoft-defender-endpoint.md) 기능을 끝점 계획 2용 Defender라고 합니다. 
 
 ## <a name="june-2021"></a>2021년 6월
 
@@ -97,7 +103,7 @@ ms.locfileid: "58387143"
 
 - [Microsoft Defender for Endpoint(Linux용)](microsoft-defender-endpoint-linux.md) <br> 이제 끝점용 Microsoft Defender에서 Linux에 대한 지원을 추가합니다. Linux에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
 
-- [평가 랩의 공격 시뮬레이터](evaluation-lab.md#threat-simulator-scenarios) <br> 끝점용 Microsoft Defender는 다양한 위협 시뮬레이션 플랫폼과 파트너가 되어 포털 내에서 바로 플랫폼의 기능을 테스트할 수 있는 편리한 액세스 권한을 제공합니다.
+- [평가 랩의 공격 시뮬레이터](evaluation-lab.md#threat-simulator-scenarios) <br> 끝점용 Microsoft Defender는 다양한 위협 시뮬레이션 플랫폼과 파트너가 되어 포털 내에서 플랫폼의 기능을 테스트할 수 있는 편리한 액세스 권한을 제공합니다.
 
 ## <a name="april-2020"></a>2020년 4월
 
@@ -107,7 +113,7 @@ ms.locfileid: "58387143"
 
 - [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md) <BR> MacOS의 끝점용 Microsoft Defender는 Mac 장치에 차세대 보호 기능을 제공합니다. 이제 통합된 끝점 보안 플랫폼의 핵심 구성 요소를 끝점 감지 및 응답을 포함하여 Mac 장치에서 사용할 [수 있습니다.](microsoft-defender-endpoint-mac.md)
 
-- [위협 & 관리 응용 프로그램 및 응용 프로그램 버전 종료 정보](tvm-security-recommendation.md) <BR>수명이 종료된 응용 프로그램 및 응용 프로그램 버전은 더 이상 지원되지 않는다는 것을 인식하고 제거 또는 바꾸기 작업을 취할 수 있도록 태그가 지정되거나 레이블이 지정됩니다. 이렇게 하면 패치가 없는 응용 프로그램으로 인한 다양한 취약점 노출과 관련된 위험을 완화하는 데 도움이 됩니다.
+- [위협 & 관리 응용 프로그램 및 응용 프로그램 버전 종료 정보](tvm-security-recommendation.md) <BR>수명 종료에 도달한 응용 프로그램 및 응용 프로그램 버전은 더 이상 지원되지 않는다는 것을 알 수 있도록 태그가 지정되거나 레이블이 지정됩니다. 그런 다음 이러한 응용 프로그램을 제거하거나 바꾸기 위한 조치를 취할 수 있습니다. 이렇게 하면 패치가 없는 응용 프로그램으로 인한 다양한 취약점 노출과 관련된 위험을 완화하는 데 도움이 됩니다.
 
 - [위협 & 관리 고급 헌팅 스마](advanced-hunting-schema-reference.md) <BR>고급 헌팅 & 위협 요소 관리 테이블을 사용하여 소프트웨어 인벤토리, 취약성 지식베이스, 보안 구성 평가 및 보안 구성 지식베이스에 대해 쿼리합니다.
 
@@ -123,11 +129,11 @@ ms.locfileid: "58387143"
 
 - [연결된 Azure AD 응용 프로그램](connected-applications.md)<br> 연결된 응용 프로그램 페이지에서는 조직의 끝점용 Microsoft Defender에 연결된 Azure AD 응용 프로그램에 대한 정보를 제공합니다.
 
-- [API 탐색기](api-explorer.md)<br> API 탐색기를 사용하면 API 쿼리를 쉽게 생성 및 수행하고, 사용 가능한 모든 끝점용 Microsoft Defender API 끝점에 대한 요청을 테스트 및 전송할 수 있습니다.
+- [API 탐색기](api-explorer.md)<br> API 탐색기를 사용하면 사용 가능한 모든 끝점용 Microsoft Defender API 끝점에 대한 API 쿼리를 쉽게 생성하고, 테스트하고, 요청을 보낼 수 있습니다.
 
 ## <a name="september-2019"></a>2019년 9월
 
-- [Intune을 사용한 변조 보호 설정](prevent-changes-to-security-settings-with-tamper-protection.md) <br/> 이제 Intune(장치 관리 포털)에서 조직에 대해 변조 보호를 켜거나 Microsoft 365 수 있습니다.
+- [Intune을 사용한 변조 보호 설정](prevent-changes-to-security-settings-with-tamper-protection.md) <br/> 이제 Intune(장치 관리 포털)에서 조직에 대한 변조 보호를 켜거나 Microsoft 365 수 있습니다.
 
 - [라이브 응답](live-response.md) <BR> 원격 셸 연결을 사용하여 장치에 즉시 액세스합니다. 심층 조사 작업을 수행하고 즉각적인 대응 조치를 취하여 식별된 위협을 실시간으로 포함시킵니다.
 
@@ -145,7 +151,7 @@ ms.locfileid: "58387143"
 
 - [위협 방지 보고서](threat-protection-reports.md)<BR>위협 방지 보고서는 조직에서 생성된 경고에 대한 높은 수준의 정보를 제공합니다.
 
-- [Microsoft 위협 전문가](microsoft-threat-experts.md)<BR> Microsoft 위협 전문가 MICROSOFT Defender for Endpoint의 새로운 관리되는 위협 헌팅 서비스로, SOC(보안 운영 센터)가 위협을 빠르고 정확하게 식별하고 대응할 수 있도록 사전 헌팅, 우선 순위 지정 및 추가 컨텍스트 및 인사이트를 제공합니다. Microsoft 고객이 보안 운영 기능을 강화하는 데 활용할 수 있는 전문 지식과 광학 계층을 추가로 Microsoft 365.
+- [Microsoft 위협 전문가](microsoft-threat-experts.md)<BR> Microsoft 위협 전문가 MICROSOFT Defender for Endpoint의 새로운 관리되는 위협 헌팅 서비스로, SOC(보안 운영 센터)에서 위협을 신속하고 정확하게 식별하고 대응할 수 있도록 사전 헌팅, 우선 순위 지정 및 더 많은 컨텍스트 및 인사이트를 제공합니다. Microsoft 고객이 보안 운영 기능을 강화하는 데 활용할 수 있는 또 다른 전문 지식과 광학 계층을 Microsoft 365.
 
 - [지표](ti-indicator.md) <BR> 이제 표시기용 API를 일반적으로 사용할 수 있습니다.
 

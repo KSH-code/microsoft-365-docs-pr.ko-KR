@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 14eeb2051cf4b071139c5849583901d3cc3186c9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 2a0dfd562416ba4501104f9c015bb60d75140d28
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572590"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823989"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -34,10 +34,10 @@ ms.locfileid: "58572590"
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-minreqs-abovefoldlink)
 
-
 장치에 서비스를 온보드하기 위한 몇 가지 최소 요구 사항이 있습니다. 서비스에 장치를 온보드하기 위한 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 자세히 알아보습니다.
 
 > [!TIP]
+> - 이 문서에서는 끝점 계획 2용 Microsoft Defender의 최소 요구 사항에 대해 설명합니다. Endpoint 요금제 1용 Defender(미리 보기)에 대한 정보를 찾고 있는 경우 [Endpoint 요금제 1(미리 보기)에](mde-p1-setup-configuration.md#review-the-requirements)대한 요구 사항을 참조하세요.
 > - Endpoint용 Defender: [Endpoint용 Defender Tech](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced)Community.
 > - Endpoint용 Defender는 최근 MITRE 평가에서 업계를 선도하는 광학 및 감지 기능을 보여 주었다. 읽기: [MITRE ATT&CK 기반 평가의 인사이트](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
 

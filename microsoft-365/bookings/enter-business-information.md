@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 828a17db-956a-401e-bb62-d153b6dffd53
 description: 다음 지침에 따라 Microsoft Bookings의 회사 이름, 주소, 전화 번호, 웹 사이트 URL, 로고 및 업무 시간을 포함하여 Microsoft 내 정보를 만들 수 있습니다.
-ms.openlocfilehash: fdf96347a080d24cfb06353c96622484ed54c683
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 0c0b33f38cd92b9d99114d2b896c0e86eb92f2ee
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571570"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823559"
 ---
 # <a name="enter-your-business-information"></a>비즈니스 정보 입력
 
@@ -31,29 +31,29 @@ Microsoft Bookings에서 웹 앱 내의 비즈니스 정보 페이지에는 일�
 
 1. 다음 Microsoft 365 앱 시작 프로그램을 선택한 다음 **Bookings 를 선택합니다.**
 
-1. 탐색 창에서 비즈니스 **정보를 선택합니다.**
+1. 탐색 창에서 비즈니스 **설정**  ->  **선택합니다.**
 
-1. Bookings 일정에 사용할 관련 이름, 주소 및 전화 번호를 입력합니다.
+1. 기본 **세부 정보 섹션에서** Bookings 일정에 사용할 업무 이름, 주소 및 전화 번호를 입력합니다.
 
-1. 에 **고객 응답 보내기** 에 예약 확인 및 미리 알림에 대한 전자 메일 응답을 전달해야 하는 기본 전자 메일 주소를 입력합니다.
+:::image type="content" source="../media/bookings-business-basic-details.png" alt-text="Screenshot: Page to enter your basic business information":::
 
-1. 웹 **사이트 URL 필드에** 비즈니스 홈 페이지의 URL을 입력합니다.
+에 **고객 응답 보내기** 에 예약 확인 및 미리 알림에 대한 전자 메일 응답을 전달해야 하는 기본 전자 메일 주소를 입력합니다.
 
-1. 개인 정보 **취급 방침 및** **조건을 &** URL을 입력합니다.
+웹 **사이트 URL 필드에** 비즈니스 홈 페이지의 URL을 입력합니다.
 
-1. **저장** 을 선택합니다.
+개인 정보 **취급 방침 및** **조건을 &** URL을 입력합니다.
 
-## <a name="set-your-business-hours"></a>업무 시간 설정
+1. 비즈니스 로고 **섹션에서** Bookings 앱에 비즈니스 로고를 아직 업로드하지 않은 경우 비즈니스 로고를 추가합니다.
+
+1. 업무 **시간 설정 섹션에서** 업무 시간을 작업 시간으로 설정합니다. 다음은 모든 예약이 제한되는 시간입니다. 서비스 및 직원 페이지의 각 직원 구성원에 대해 약속을 예약할 수  있는 경우의 추가 시간 제한을 설정할 **수** 있습니다.
+
+비즈니스 정보 페이지의 업무 시간에서 드롭다운을 사용하여 각 일의 시작 및 종료 시간을 선택합니다. 시작 및 종료 시간 선택을 **+** 클릭하여 추가합니다.
 
 기본적으로 Bookings 앱의 업무 시간은 새 시간으로 설정됩니다. 월요일부터 금요일까지 오후 5시까지 시간은 15분 증분으로 제공됩니다. Bookings 앱은 12시간제 시계를 사용 합니다.
 
-업무 **시간을 작업** 시간으로 설정 다음은 모든 예약이 제한되는 시간입니다. 서비스 및 직원 페이지의 각 직원 구성원에 대해 약속을 예약할 수 있는 경우의 추가 시간 제한을 설정할 수 있습니다.
+1. **저장** 을 선택합니다.
 
-1. 비즈니스 정보 페이지의 업무 시간에서 드롭다운을 사용하여 각 일의 시작 및 종료 시간을 선택합니다.
-
-1. 시작 및 종료 시간 선택을 **+** 클릭하여 추가합니다.
-
-## <a name="how-to-set-hours-for-a-split-shift"></a>분할 교대 근무 시간을 설정하는 방법
+### <a name="how-to-set-hours-for-a-split-shift"></a>분할 교대 근무 시간을 설정하는 방법
 
 직원 모임을 진행하거나 인벤토리를 업데이트하거나 다른 업무 리듬 정보를 관리하기 위해 매일 또는 주 중 일부를 차단해야 할 수 있습니다. Bookings 앱을 사용하면 지정된 시간 슬롯으로 고객 약속을 제한할 수 있습니다.
 

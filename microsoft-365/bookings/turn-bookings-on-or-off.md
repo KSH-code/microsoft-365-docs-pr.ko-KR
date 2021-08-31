@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 5382dc07-aaa5-45c9-8767-502333b214ce
 description: Microsoft Bookings에서 Microsoft Bookings에 액세스하는 방법을 Microsoft 365.
-ms.openlocfilehash: bcd7581a456ec570bacae64ca5bd1b96c23eddf95b0aa110530f156d3db6e9a4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cc0352166bf7cd20cfa10542d57da9fbd5b160f7
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861894"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823820"
 ---
 # <a name="turn-microsoft-bookings-on-or-off"></a>Microsoft Bookings 설정 또는 해제
 
@@ -60,13 +60,9 @@ PowerShell cmdlet [Set-OrganizationConfig를](/powershell/module/exchange/set-or
 
 이 설정을 사용하도록 설정하면 예약 일정에서 직원으로 추가된 직원은 받은 전자 메일 알림에서 승인/거부 링크를 찾을 수 있습니다.
 
-이 기능은 전 세계 고객에게 점진적으로 Microsoft 365 합니다. If you don't see this option in the Microsoft 365 관리 센터, check back soon.
-
 ## <a name="block-social-sharing-options"></a>공유 공유 옵션 차단
 
 관리자는 소셜 네트워크에서 예약 페이지가 공유되는 방법을 제어할 수 있습니다. 이 설정은 예약 Microsoft 365 관리 센터 **설정** \> **설정** \> **있습니다.**
-
-이 기능은 전 세계 고객에게 점진적으로 Microsoft 365 합니다. If you don't see this option in the Microsoft 365 관리 센터, check back soon.
 
 ## <a name="allow-only-selected-users-to-create-bookings-calendars"></a>선택한 사용자만 Bookings 일정을 만들 수 있도록 허용
 
