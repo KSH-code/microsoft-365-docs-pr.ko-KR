@@ -16,18 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에서 조직의 개인 데이터를 처리하는 정책을 만들고 관리하는 방법을 Microsoft 365 경고에 응답하고 문제를 해결합니다.
-ms.openlocfilehash: 548e8b6960b2cd27ba786aa6bd184f771a5fcb75
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 49f772119cfc25284fecd66b2f3a79e063f11c09
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256438"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747200"
 ---
 # <a name="create-and-manage-policies-in-privacy-management-preview"></a>개인 정보 관리에서 정책 만들기 및 관리(미리 보기)
-
-이 문서에서는 개인 데이터 처리를 위한 정책을 빌드  및 사용자 지정하고, 정책 일치에 대한 알림을 표시하고, 문제를 수정하는 방법을 **배워야 합니다.** 
-
-## <a name="purpose-of-policies"></a>정책의 목적
 
 정책을 사용하면 회사의 Microsoft 365 데이터에서 찾을 개인 정보 보호 위험 유형을 정의하고 일치가 발견되는 시나리오에 대한 기본 결과를 설정할 수 있습니다. 조직은 결과 알림에서 작업하여 개인 정보 관리 솔루션 내에서 일치하는 데이터를 검토하고 문제를 해결합니다.
 

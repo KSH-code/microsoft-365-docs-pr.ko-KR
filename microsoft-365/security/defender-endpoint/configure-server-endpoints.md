@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6c3adb8b07de50ca655c27a2d70f7868efd32332
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: ee6241e6db062730446505e2bcbc377b15ffee9c
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561041"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745760"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -55,7 +55,7 @@ Windows 보안 서버의 기본 Windows 다운로드하고 사용하는 방법�
 제공된 옵션 중 원하는 옵션을 사용하여 온보더링 단계를 완료한 후 클라이언트를 구성하고 System Center Endpoint Protection [합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
-> Windows(옵션 1) 또는 Microsoft Endpoint Manager(옵션 3)를 통해 Windows Microsoft Monitoring Agent 서버를 온보딩하려면 노드당 Defender가 필요합니다. 또는 Azure 보안 센터를 통해 Windows 서버를 온보딩하려면 노드당 Azure Defender for Servers 라이선스가 필요합니다(옵션 2). [Azure Defender에서](/azure/security-center/security-center-services)사용할 수 있는 지원되는 기능을 참조하세요.
+> Windows(옵션 1) 또는 Microsoft Endpoint Manager(옵션 3)를 통해 Windows Microsoft Monitoring Agent 서버를 온보딩하려면 노드당 Defender가 필요합니다. 또는 Azure 보안 센터(옵션 2)를 통해 Windows 서버를 등록하려면 노드당 Azure Defender for Servers 라이선스가 필요합니다. 자세한 내용은 [Azure Defender에서 사용할 수 있는 지원되는 기능을 참조하세요.](/azure/security-center/security-center-services) 사용자 라이선스와 달리 이러한 라이선스는 사용자 또는 개체에 할당되지 않습니다. 규정 준수를 위해 테넌트에 의해야 합니다.
 
 ### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>옵션 1: MMA(Microsoft Monitoring Agent 설치 및 구성하여 온보더링)
 

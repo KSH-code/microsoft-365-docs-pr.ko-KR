@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: de6925bcfc70285516bf12c07540b9c74caec9ea8210850cc1a3cc44f6a1ed92
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7d09ce01bc8d9409d4537df8eaabb50915538aa6
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853874"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747402"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 리소스
 
@@ -91,37 +91,37 @@ macOS에서 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가
 
 ### <a name="from-the-command-line"></a>명령줄에서
 
-- ```sudo '/Library/Application Support/Microsoft/Defender/uninstall/uninstall'```
+- `sudo '/Library/Application Support/Microsoft/Defender/uninstall/uninstall'`
 
 ## <a name="configuring-from-the-command-line"></a>명령줄에서 구성
 
 명령줄에서 제품 설정 제어 및 명령 시 검사 트리거와 같은 중요한 작업을 수행할 수 있습니다.
 
-|Group        |시나리오                                   |명령                                                                           |
-|-------------|-------------------------------------------|----------------------------------------------------------------------------------|
-|구성|실시간 보호 켜기/끄기           |`mdatp config real-time-protection --value [enabled/disabled]`                    |
-|구성|클라우드 보호 켜기/끄기               |`mdatp config cloud --value [enabled/disabled]`                                   |
-|구성|제품 진단 켜기/끄기            |`mdatp config cloud-diagnostic --value [enabled/disabled]`                        |
-|구성|자동 샘플 제출 켜기/끄기    |`mdatp config cloud-automatic-sample-submission --value [enabled/disabled]`       |
-|구성|허용 목록에 위협 이름 추가      |`mdatp threat allowed add --name [threat-name]`                                   |
-|구성|허용된 목록에서 위협 이름 제거 |`mdatp threat allowed remove --name [threat-name]`                                |
-|구성|허용된 모든 위협 이름 나열              |`mdatp threat allowed list`                                                       |
-|구성|PUA 보호 켜기                     |`mdatp threat policy set --type potentially_unwanted_application -- action block` |
-|구성|PUA 보호 끄기                    |`mdatp threat policy set --type potentially_unwanted_application -- action off`   |
-|구성|PUA 보호에 대한 감사 모드 켜기      |`mdatp threat policy set --type potentially_unwanted_application -- action audit` |
-|구성|PassiveMode 켜기/끄기                    |`mdatp config passive-mode --value enabled [enabled/disabled]`                    |
-|진단  |로그 수준 변경                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
-|진단  |진단 로그 생성                   |`mdatp diagnostic create --path [directory]`                                      |
-|상태       |제품의 상태 확인                 |`mdatp health`                                                                    |
-|상태       |spefic 제품 특성 확인       |`mdatp health --field [attribute: healthy/licensed/engine_version...]`            |
-|보호   |경로 검사                                |`mdatp scan custom --path [path] [--ignore-exclusions]`                           |
-|보호   |빠른 검사 실행                            |`mdatp scan quick`                                                                |
-|보호   |전체 검사 실행                             |`mdatp scan full`                                                                 |
-|보호   |지속적인 주문형 검사 취소           |`mdatp scan cancel`                                                               |
-|보호   |보안 인텔리전스 업데이트 요청     |`mdatp definitions update`                                                        |
-|EDR          |디바이스에 그룹 태그를 추가합니다. EDR 태그는 장치 그룹을 관리하는 데 사용됩니다. 자세한 내용은 /microsoft-365/security/defender-endpoint/machine-groups을 방문하세요. |`mdatp edr tag set --name GROUP --value [name]` |
-|EDR          |장치에서 그룹 태그 제거               |`mdatp edr tag remove --tag-name [name]`                                          |
-|EDR          |그룹 ID 추가                               |`mdatp edr group-ids --group-id [group]`                                          |
+|그룹|시나리오|명령|
+|---|---|---|
+|구성|실시간 보호 켜기/끄기|`mdatp config real-time-protection --value [enabled/disabled]`|
+|구성|클라우드 보호 켜기/끄기|`mdatp config cloud --value [enabled/disabled]`|
+|구성|제품 진단 켜기/끄기|`mdatp config cloud-diagnostic --value [enabled/disabled]`|
+|구성|자동 샘플 제출 켜기/끄기|`mdatp config cloud-automatic-sample-submission --value [enabled/disabled]`|
+|구성|허용 목록에 위협 이름 추가|`mdatp threat allowed add --name [threat-name]`|
+|구성|허용된 목록에서 위협 이름 제거|`mdatp threat allowed remove --name [threat-name]`|
+|구성|허용된 모든 위협 이름 나열|`mdatp threat allowed list`|
+|구성|PUA 보호 켜기|`mdatp threat policy set --type potentially_unwanted_application -- action block`|
+|구성|PUA 보호 끄기|`mdatp threat policy set --type potentially_unwanted_application -- action off`|
+|구성|PUA 보호에 대한 감사 모드 켜기|`mdatp threat policy set --type potentially_unwanted_application -- action audit`|
+|구성|PassiveMode 켜기/끄기|`mdatp config passive-mode --value enabled [enabled/disabled]`|
+|진단|로그 수준 변경|`mdatp log level set --level [error/warning/info/verbose]`|
+|진단|진단 로그 생성|`mdatp diagnostic create --path [directory]`|
+|상태|제품의 상태 확인|`mdatp health`|
+|상태|spefic 제품 특성 확인|`mdatp health --field [attribute: healthy/licensed/engine_version...]`|
+|보호|경로 검사|`mdatp scan custom --path [path] [--ignore-exclusions]`|
+|보호|빠른 검사 실행|`mdatp scan quick`|
+|보호|전체 검사 실행|`mdatp scan full`|
+|보호|지속적인 주문형 검사 취소|`mdatp scan cancel`|
+|보호|보안 인텔리전스 업데이트 요청|`mdatp definitions update`|
+|EDR|디바이스에 그룹 태그를 추가합니다. EDR 태그는 장치 그룹을 관리하는 데 사용됩니다. 자세한 내용은 /microsoft-365/security/defender-endpoint/machine-groups을 방문하세요.|`mdatp edr tag set --name GROUP --value [name]`|
+|EDR|장치에서 그룹 태그 제거|`mdatp edr tag remove --tag-name [name]`|
+|EDR|그룹 ID 추가|`mdatp edr group-ids --group-id [group]`|
 
 ### <a name="how-to-enable-autocompletion"></a>자동 작성을 사용하도록 설정하는 방법
 
@@ -149,8 +149,7 @@ zsh에서 자동completion을 사용하도록 설정하려면
 
    ```zsh
    sudo mkdir -p /usr/local/share/zsh/site-functions
-   ```
-   ```zsh
+
    sudo ln -svf "/Applications/Microsoft Defender ATP.app/Contents/Resources/Tools/mdatp_completion.zsh" /usr/local/share/zsh/site-functions/_mdatp
    ```
 

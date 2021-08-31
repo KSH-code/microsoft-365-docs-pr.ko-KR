@@ -19,13 +19,13 @@ ms.custom:
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: Microsoft에서 인식하는 타사 파트너를 통해 Microsoft 365 구독에 라이선스를 추가하는 방법을 알아 하세요.
-ms.date: 04/07/2021
-ms.openlocfilehash: 88118f77d4ffa024b4553cf4dec384a287341dfd785ed543fb5d37dd193235fe
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.date: 08/27/2021
+ms.openlocfilehash: 5877ffbc1d0403d362666c4b6c34cdfee8aa5ee2
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53831426"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745784"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>볼륨 라이선스 서비스 센터를 통해 구매한 구독에 라이선스 추가
 

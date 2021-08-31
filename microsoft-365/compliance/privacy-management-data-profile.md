@@ -16,18 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 개인 정보 관리의 개요 및 데이터 프로필과 조직의 조직 환경의 개인 데이터에 대한 정보를 얻는 Microsoft 365 알아보세요.
-ms.openlocfilehash: 1be4d65d117d3fa8b05bb9db88745147aea6b5293c3c1f96d57eb5b7ba04c0d1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4007fa1c55857211c3cf188a089f8e6d246153ae
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865206"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58744956"
 ---
 # <a name="find-and-visualize-personal-data-in-privacy-management-preview"></a>개인 정보 관리에서 개인 데이터 찾기 및 시각화(미리 보기)
-
-이 문서에서는 개요 및 데이터  프로필  페이지의 기능과 이러한 페이지가 데이터에 대한 정보를 제공하는 방법에 대해 알아보세요.
-
-## <a name="purpose-of-the-overview-and-data-profile"></a>개요 및 데이터 프로필의 목적
 
 Microsoft 365 개인 정보 관리는 사용자 환경에서 개인 데이터를 찾고 시각화하는 기능을 제공합니다. 이 솔루션은 Exchange, SharePoint, OneDrive 및 Teams에서 개인 데이터 자산의 검색을 자동화하고 데이터에 대한 주요 정보를 제공하는 대시보드를 제공합니다. 개인 정보 관리자는 이러한 인사이트에 따라 개인 정보 보호에 대한 조직의 접근 방식을 강화하고 위험을 줄일 수 있습니다.
 

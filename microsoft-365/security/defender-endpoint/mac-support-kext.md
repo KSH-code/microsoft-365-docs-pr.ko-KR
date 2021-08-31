@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2f730f590b9ba604596dc9230fc22c451e99630e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 9ca412a54fb94fd9835b30d6b9b6092dc4e79015
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565211"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58744980"
 ---
 # <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender에서 커널 확장 문제 해결
 
@@ -69,7 +69,7 @@ real_time_protection_available              : true
 
 ## <a name="manual-deployment"></a>수동 배포
 
-제품이 설치된 후 30분 미만이 경과한 경우 시스템 기본 설정 보안 & 개인 정보로 이동합니다. 여기서  >  개발자 "Microsoft Corporation"의 시스템 소프트웨어를 허용해야 합니다. 
+제품이 설치된 후 30분 미만이 경과한  경우 시스템 기본 설정 보안 & 개인 정보로 이동합니다. 여기서 \> 개발자 "Microsoft Corporation"의 시스템 소프트웨어를 허용해야 합니다. 
 
 이 프롬프트가 표시되지 않는 경우 30분 이상이 지났지만 커널 확장이 장치에서 실행이 승인되지 않은 것입니다.
 
@@ -82,14 +82,14 @@ real_time_protection_available              : true
     ```bash
     sudo kextutil /Library/Extensions/wdavkext.kext
     ```
-    
+
     ```Output
     Kext rejected due to system policy: <OSKext 0x7fc34d528390 [0x7fffa74aa8e0]> { URL = "file:///Library/StagedExtensions/Library/Extensions/wdavkext.kext/", ID = "com.microsoft.wdavkext" }
     Kext rejected due to system policy: <OSKext 0x7fc34d528390 [0x7fffa74aa8e0]> { URL = "file:///Library/StagedExtensions/Library/Extensions/wdavkext.kext/", ID = "com.microsoft.wdavkext" }
     Diagnostics for /Library/Extensions/wdavkext.kext:
     ```
 
-2. 메뉴에서 **시스템** 기본 설정  >  **& 개인 정보** 보호를 여세요. (열면 먼저 닫습니다.)
+2. 메뉴에서 **시스템** 기본 설정 \> **& 개인 정보** 보호를 여세요. (열면 먼저 닫습니다.)
 
 3. **개발자** "Microsoft Corporation"의 시스템 소프트웨어 허용
 

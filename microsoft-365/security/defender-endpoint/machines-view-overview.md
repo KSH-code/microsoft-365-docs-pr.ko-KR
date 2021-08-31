@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 993516c20629ddf4466325c547cd9208440dc41d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: b449dbf22511e3a53a852c7a6f235a70fb401ce6
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573922"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745016"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>끝점 장치용 Microsoft Defender 목록 보기 및 구성
 
@@ -34,7 +34,7 @@ ms.locfileid: "58573922"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-machinesview-abovefoldlink)
 
-장치 **목록에는** 경고가 생성된 네트워크의 장치 목록이 표시됩니다. 기본적으로 큐에는 지난 30일 동안의 장치가 표시됩니다.  
+장치 **목록에는** 경고가 생성된 네트워크의 장치 목록이 표시됩니다. 기본적으로 큐에는 지난 30일 동안의 장치가 표시됩니다.
 
 도메인, 위험 수준, OS 플랫폼 등의 정보와 가장 위험한 장치를 쉽게 식별할 수 있는 기타 세부 정보를 한눈에 볼 수 있습니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "58573922"
 
 온보더링 프로세스 중에  장치 목록은 센서 데이터 보고를 시작하면 디바이스로 점진적으로 채워지고 있습니다. 이 보기를 사용하여 온보드 엔드포인트가 온라인 상태로 전환될 때 추적하거나, 전체 끝점 목록을 오프라인 분석을 위한 CSV 파일로 다운로드합니다.
 
->[!NOTE]
+> [!NOTE]
 > 장치 목록을 내보낼 경우 조직의 모든 장치가 포함되어 있습니다. 조직의 규모에 따라 다운로드하는 데 많은 시간이 걸릴 수 있습니다. 목록을 CSV 형식으로 내보내면 데이터가 필터되지 않은 방식으로 표시됩니다. CSV 파일에는 보기 자체에 적용된 필터링에 관계없이 조직의 모든 장치가 포함됩니다.
 
 ![장치 목록이 있는 장치 목록의 이미지입니다.](images/device-inventory.png)

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 464ed75474256e62ccb75756b3949441aae24d04483ccc4ca653db1439d0015b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4ab36313b25ab61ece35041f7cc6de1064465ecb
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793313"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747610"
 ---
 # <a name="submit-or-update-indicator-api"></a>제출 또는 업데이트 표시기 API
 
@@ -49,7 +49,7 @@ IP에 대한 CIDR은 지원되지 않습니다.
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 2. 테넌트당 활성 표시기는 15,000개로 제한됩니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
@@ -79,15 +79,15 @@ Content-Type|문자열|application/json. **필수입니다**.
 매개 변수|유형|설명
 :---|:---|:---
 indicatorValue|String|Indicator [엔터티의 ID입니다.](ti-indicator.md) **필수**
-indicatorType|Enum|표시기 유형입니다. 가능한 값은 "FileSha1", "FileSha256", "IpAddress", "DomainName" 및 "Url"입니다. **필수**
-조치|Enum|표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Alert", "AlertAndBlock" 및 "Allowed"입니다. **필수**
-application|String|표시기와 연결된 응용 프로그램입니다. **선택**
-제목|String|표시기 경고 제목입니다. **필수**
-설명|String|표시기 설명입니다. **필수**
+indicatorType|Enum|표시기 유형입니다. 가능한 값은 "FileSha1", "FileMd5", "CertificateThumbprint", "FileSha256", "IpAddress", "DomainName" 및 "Url"입니다. **필수**
+조치|Enum|표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Alert", "Warn", "Block", "Audit, "BlockAndRemediate", "AlertAndBlock" 및 "Allowed"입니다. **필수**
+application|String|표시기와 연결된 응용 프로그램입니다. 이 필드는 새 표시기에서만 작동합니다. 기존 표시기에서 값을 업데이트하지 않습니다. **선택**
+제목|문자열|표시기 경고 제목입니다. **필수**
+설명|문자열|표시기 설명입니다. **필수**
 expirationTime|DateTimeOffset|표시기 만료 시간입니다. **선택**
 심각도|Enum|표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다. **선택**
-recommendedActions|String|TI 표시기 경고 권장 작업. **선택**
-rbacGroupNames|String|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택**
+recommendedActions|문자열|TI 표시기 경고 권장 작업. **선택**
+rbacGroupNames|문자열|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택**
 
 ## <a name="response"></a>응답
 

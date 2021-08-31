@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 246ba885795c4317d4cab0dca82e2cc84456366a44cfe567859919d15c3d9cce
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 935826d3a89abeef20e1ebb17f964137fdbfccaf
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857450"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745820"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -51,6 +51,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
     ```bash
     mdatp config real-time-protection --value disabled
     ```
+
     ```Output
     Configuration property updated
     ```
@@ -65,6 +66,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
     > 이 기능은 버전 100.90.70 이상에서 사용할 수 있습니다.
 
     이 기능은 및 채널에서 기본적으로 `Dogfood` `InsiderFast` 사용하도록 설정됩니다. 다른 업데이트 채널을 사용하는 경우 명령줄에서 이 기능을 사용하도록 설정하면 됩니다.
+
     ```bash
     mdatp config real-time-protection-statistics --value enabled
     ```
@@ -80,6 +82,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
     ```bash
     mdatp config real-time-protection --value enabled
     ```
+
     ```Output
     Configuration property updated
     ```
@@ -100,6 +103,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
     ```bash
     wget -c https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/diagnostic/high_cpu_parser.py
     ```
+
     이 명령의 출력은 다음과 유사해야 합니다.
 
     ```Output
@@ -142,12 +146,13 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
 
     Linux에서 끝점용 Defender의 성능을 개선하기 위해 행 아래에 있는 가장 높은 숫자의 끝점을 찾고 해당 끝점에 대한 제외를 `Total files scanned` 추가합니다. 자세한 내용은 [Linux에서 끝점용 Defender에](linux-exclusions.md)대한 제외 구성 및 유효성 검사를 참조하세요.
 
-    >[!NOTE]
+    > [!NOTE]
     > 응용 프로그램은 통계를 메모리에 저장하고 시작된 후 실시간 보호를 사용하도록 설정한 이후에만 파일 활동을 추적합니다. 실시간 보호가 해제된 이전 또는 기간 동안 시작된 프로세스는 계산되지 않습니다. 또한 검사가 트리거된 이벤트만 계산됩니다.
 
 5. 성능 문제에 기여하는 프로세스 또는 디스크 위치에 대한 제외를 사용하여 Linux의 끝점에 대한 Microsoft Defender를 구성하고 실시간 보호를 다시 활성화합니다.
 
     자세한 내용은 [Linux의 엔드포인트용 Microsoft Defender에 대한 제외 구성 및 유효성 검사](linux-exclusions.md)를 참조하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
+
 - [에이전트 상태 문제 조사](health-status.md)

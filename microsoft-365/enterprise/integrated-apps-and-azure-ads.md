@@ -18,25 +18,25 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: cb2250e3-451e-416f-bf4e-363549652c2a
-description: 전역 관리자 수준에서 앱 권한 부여를 허용하는 Office 365 통합 앱을 등록하고 관리하는 방법을 설명합니다.
-ms.openlocfilehash: f604260646aa4e6793540003346c9e83d7a6b269
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+description: '**Azure AD에서** 통합 앱을 등록하고 Office 365 관리하여 Azure AD DC 관리자 또는 전역 관리자 수준에서 앱 권한 부여를 허용하는 **방법을** 설명합니다.'
+ms.openlocfilehash: ccf1e16e7e0307499e515eb3691c865d49801412
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354227"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747314"
 ---
 # <a name="integrated-apps-and-azure-ad-for-microsoft-365-administrators"></a>관리자를 위한 통합 Microsoft 365 Azure AD
 
 앱에 대한 사용자 동의를 관리하는 것 이상으로 통합 [앱을 관리할 수 있습니다.](../admin/misc/user-consent.md) REST API가 Microsoft 365 사용자는 메일, 일정, 연락처, 사용자, 그룹, 파일 및 폴더와 같은 Microsoft 365 데이터에 대한 액세스 권한을 앱에 부여할 수 있습니다. 기본적으로 사용자는 각 앱에 대한 사용 권한을 개별적으로 부여해야 합니다. 
 
-그러나 전역 관리자 수준에서 앱을 한 번 승인하고 앱 시작 관리자를 통해 전체 조직에 앱을 롤아웃하려는 경우 이 확장이 잘 진행되지 않습니다. 이렇게하려면 Azure AD(Azure AD)에서 앱을 Azure Active Directory 합니다. Azure AD에서 앱을 등록하기 전에 몇 가지 단계를 수행하고 조직에서 앱을 관리하는 데 도움이 될 수 있는 몇 가지 백그라운드 Microsoft 365 있습니다.
+그러나 **Azure AD DC** 관리자 또는 전역 관리자 수준에서 앱을 한 번  승인하고 앱 시작 관리자를 통해 전체 조직에 앱을 롤아웃하려는 경우 이 확장이 잘되지 않습니다. 이렇게하려면 Azure AD(Azure AD)에서 앱을 Azure Active Directory 합니다. Azure AD에서 앱을 등록하기 전에 몇 가지 단계를 수행하고 조직에서 앱을 관리하는 데 도움이 될 수 있는 몇 가지 백그라운드 Microsoft 365 있습니다.
   
 ## <a name="azure-ad-resources-for-microsoft-365-admins"></a>관리자를 위한 Azure AD Microsoft 365 리소스
 
 Azure AD에서 앱 앱을 관리하기 전에 Microsoft 365 작업을 수행해야 합니다.
   
-|전제 조건|설명|
+|필수 구성 요소|설명|
 |:-----|:-----|
 |[무료 Azure AD 구독 사용](../compliance/use-your-free-azure-ad-subscription-in-office-365.md) <br/> |모든 유료 구독은 Microsoft 365 Azure AD에 대한 무료 구독과 함께 제공됩니다. Azure AD를 사용하여 앱을 관리하고 사용자 및 그룹 계정을 만들고 관리할 수 있습니다. Azure AD를 사용하려면 에서 Azure Portal로 이동하여 사용자 계정으로 [https://portal.azure.com](https://portal.azure.com) Microsoft 365 로그인합니다.  <br/> |
 |[앱에 대한 사용자 동의 관리](../admin/misc/user-consent.md) <br/> |타사 앱이 사용자 액세스 및 Azure AD에서 앱을 등록할 Microsoft 365 수 있도록 앱에 대한 사용자 동의를 관리해야 합니다. 예를 들어 사용자가 타사 앱을 사용하는 경우 해당 앱은 사용자의 일정에 액세스하고 OneDrive 폴더에 있는 파일을 편집하는 권한을 요청할 수 있습니다.  <br/> |

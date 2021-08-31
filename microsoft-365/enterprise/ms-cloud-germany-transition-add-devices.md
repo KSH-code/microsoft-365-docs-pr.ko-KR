@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스에 대한 추가 장치 정보입니다.'
-ms.openlocfilehash: 79234b1398e26af5a2848002ea606d97137e3053
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: b38c279bbbb763c8f0859d6d45cd838c8652ec5e
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573094"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745700"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 장치 정보
 
@@ -35,7 +35,7 @@ Azure Windows 10 디바이스가 연결된 경우 Azure AD에서 연결을 끊�
 [![Azure AD 장치 Re-Join Flow. ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 
-사용자가 Windows 10 디바이스의 관리자인 경우 사용자는 Azure AD에서 디바이스 등록을 등록을 해지하고 3단계로 다시 가입할 수 있습니다.
+사용자가 Windows 10 디바이스의 관리자인 경우 사용자는 Azure AD에서 디바이스 등록을 등록을 해지하고 3단계로 다시 등록할 수 있습니다.
 
 ### <a name="step-1-determine-if-the-device-is-azure-id-joined"></a>1단계: 디바이스가 Azure ID에 가입된지 확인
 
@@ -61,13 +61,15 @@ Azure Windows 10 디바이스가 연결된 경우 Azure AD에서 연결을 끊�
 6. 장치를 다시 시작합니다.
 7. 직장 계정의 전자 메일 주소와 암호로 로그인합니다.
 
-사용자가 디바이스 관리자가 아닌 경우 Azure AD 전역 관리자는 이 구성 경로에 따라 디바이스에서 로컬 관리자 계정을 만들고 디바이스에 연결을 언니어할 수 있습니다.
+사용자가 디바이스 관리자가 아닌 경우 Azure **AD DC** **관리자,** 클라우드 응용  프로그램 관리자 또는 전역 관리자는 이 구성 경로에 따라 디바이스에서 로컬 관리자 계정을 만들고 디바이스에 연결을 해지할 수 있습니다.
 
 *설정 > 계정 > Microsoft > 없는 사용자 > > 자격 증명을 사용할 수 없음*
 
-다시 가입하기 위해 이 단계에서 조직의 모든 작업 계정의 자격 증명을 사용할 수 있습니다.
+자세한 내용은 [관리자 역할 정보](/microsoft-365/admin/add-users/about-admin-roles?)를 참조하세요.
 
-디바이스에 가입하는 데 사용되는 작업 계정이 자동으로 디바이스 관리자로 승격됩니다.
+다시 연결하기 위해 이 단계에서 조직의 모든 작업 계정의 자격 증명을 사용할 수 있습니다.
+
+디바이스에 가입하는 데 사용되는 작업 계정이 장치의 관리자로 자동 승격됩니다.
 조직의 다른 모든 작업 계정은 장치에 로그인할 수 있지만 관리자 권한이 없습니다.
 
 ## <a name="azure-ad-registered-workplace-joined-windows-10-devices"></a>Azure AD 등록(회사 가입) Windows 10 장치
@@ -107,7 +109,7 @@ Android의 경우 사용자는 장치를 등록을 하지 않은 후 다시 등�
 
 - 사용자가 회사 포털 탭으로 **이동하여** 디바이스를 제거할 수 있습니다. 그런 다음 디바이스를 사용하여 장치를 다시 회사 포털.
 
-- 또한 사용자는 계정 설정 페이지에서 계정을 제거한 다음 직장 계정을 다시 추가하여 등록을 다시 등록 및 다시 등록할 수 있습니다.
+- 또한 사용자는 계정 설정 페이지에서 계정을 제거한 다음 직장 계정을 읽어 등록을 다시 등록 및 다시 등록할 수 있습니다.
 
 앱 앱을 사용하여 Android에서 디바이스 등록을 등록을 Microsoft Authenticator:
 
@@ -153,7 +155,7 @@ iOS 장치에서는 캐시된 계정을 장치에서 수동으로 제거하고, 
 
 사용자는 앱, 앱 Outlook, Teams 및 OneDrive 앱으로 이동하고 해당 앱에서 계정을 제거할 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **조직이 영향을 받는지 어떻게 알 수 있나요?**
 
@@ -167,7 +169,7 @@ iOS 장치에서는 캐시된 계정을 장치에서 수동으로 제거하고, 
 
 장치가 공용 클라우드에 등록되어 있는지 확인하려면 Azure AD 포털에서 장치 목록을 내보내고 앱 스프레드시트로 Excel 합니다. 그런 다음 조직에서 마이그레이션 프로세스의 9단계를 통과한 날짜 이후에 _registeredTime_ 열을 사용하여 등록된 장치를 [필터링합니다.](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization)
 
-**아직 Dns 기반 DNS를 사용하여 Microsoft용 DNS 레코드 만들기에 Windows [DNS 이름을 추가해야 하나요?](/microsoft-365/admin/dns/create-dns-records-using-windows-based-dns?view=o365-worldwide#add-two-cname-records-for-mobile-device-management-mdm-for-microsoft)**
+**아직 Dns 기반 DNS를 사용하여 Microsoft용 DNS 레코드 만들기에 Windows [DNS 이름을 추가해야 하나요?](/microsoft-365/admin/dns/create-dns-records-using-windows-based-dns?#add-two-cname-records-for-mobile-device-management-mdm-for-microsoft)**
 
 이 DNS 항목은 더 이상 장치를 다시 등록할 필요가 없습니다. 
 

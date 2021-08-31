@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: SharePoint Server 2010에서 업그레이드할 정보 SharePoint 리소스를 찾아야 합니다. 두 가지 모두 지원은 2021년 4월 13일까지입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c57aa4d15ba6fbb95a59f28039db41303a536fd
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: da824abb7575a509cb988c474e667d0475e821c1
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575243"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745748"
 ---
 # <a name="upgrading-from-sharepoint-2010"></a>SharePoint 2010에서 업그레이드
 
@@ -112,7 +112,7 @@ SharePoint Server 2013 또는 SharePoint Server 2016으로 업그레이드하고
 |SharePoint 온라인 이점|SharePoint 온라인 단점|
 |---|---|
 |Microsoft는 SPO 하드웨어 및 모든 하드웨어 관리 기능을 제공합니다.|사용 가능한 기능은 서버 SharePoint SPO 간에 다를 수 있습니다.|
-|구독의 전역 관리자로서 SPO 사이트에 관리자를 할당할 수 있습니다.|SharePoint Server의 팜 관리자가 사용할 수 있는 일부 작업은 SharePoint 관리자 역할에 존재하지 Microsoft 365. 그러나 SharePoint, 사이트 모음 관리 및 사이트 소유권은 사용자에 로컬로 설정됩니다.|
+|구독의 Sharepoint 관리자 또는 전역 관리자로서 SPO 사이트에 관리자를 할당할 수 있습니다.|SharePoint Server의 팜 관리자가 사용할 수 있는 일부 작업은 SharePoint 관리자 역할에 존재하지 Microsoft 365. 그러나 SharePoint, 사이트 모음 관리 및 사이트 소유권은 사용자에 로컬로 설정됩니다.|
 |Microsoft는 SQL Online이 실행되는 SQL 하드웨어 및 소프트웨어에 패치, 수정 SharePoint 적용합니다.|서비스에서 현재 파일 시스템에 액세스할 수 없는 경우 사용자 지정이 제한됩니다.|
 |Microsoft는 서비스 수준 [계약을 게시하고](/office365/servicedescriptions/office-365-platform-service-description/service-level-agreement) 서비스 수준 인시던트 해결을 위해 신속하게 움직입니다.|백업 및 복원 및 기타 복구 옵션은 온라인에서 서비스에서 SharePoint 있습니다. 사용되지 않는 경우 백업을 덮어 쓰게 됩니다.|
 |보안 테스트 및 서버 성능 조정은 Microsoft에서 서비스에서 지속적으로 수행됩니다.|사용자 인터페이스 및 기타 SharePoint 기능에 대한 변경 내용은 서비스에 의해 설치되어 설정 또는 해제해야 할 수 있습니다.|

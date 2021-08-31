@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 32da15254d011e67959c7ebeff42ab7024eb0895
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 6cf8777a5dd3614cb5649eb4c95f6d69d14540fd
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571834"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747056"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 수동 배포
 
@@ -112,7 +112,7 @@ ms.locfileid: "58571834"
 
     ![시스템 확장 보안 기본 설정2.](images/big-sur-install-4.png)
 
-7. 시스템 **기본 설정** 보안 & 개인 정보 보호 탭으로  >   이동합니다. Microsoft Defender ATP 및 **Microsoft Defender ATP**  끝점 보안 확장에 모든 디스크 액세스 권한을 **부여합니다.** 
+7. 시스템 **기본 설정** 보안 & 개인 정보 보호 탭으로 \>  이동합니다. Microsoft Defender ATP 및 **Microsoft Defender ATP**  끝점 보안 확장에 모든 디스크 액세스 권한을 **부여합니다.** 
 
     ![전체 디스크 액세스.](images/big-sur-install-5.png)
 
@@ -148,7 +148,7 @@ ms.locfileid: "58571834"
 > [!CAUTION]
 > macOS 10.15(카탈로니아)에는 새로운 보안 및 개인 정보 보호 향상 기능이 포함되어 있습니다. 이 버전부터 응용 프로그램은 기본적으로 명시적 동의 없이 디스크의 특정 위치(예: 문서, 다운로드, 데스크톱 등)에 액세스할 수 없습니다. 이 동의가 없는 경우 끝점용 Microsoft Defender는 장치를 완전히 보호할 수 없습니다.
 
-1. 동의를 부여하기 위해 시스템 **기본** 설정 보안 & 개인 정보  >  **보호** 전체 디스크  >    >  **액세스 를 를 열 수 있습니다.** 대화 상자 아래쪽에서 잠금 아이콘을 클릭하여 변경합니다. 끝점용 Microsoft Defender를 선택합니다.
+1. 동의를 부여하기 위해 시스템 **기본** 설정 보안 & 개인 정보 \> **보호** 전체 디스크 \>  \> **액세스 를 를 열 수 있습니다.** 대화 상자 아래쪽에서 잠금 아이콘을 클릭하여 변경합니다. 끝점용 Microsoft Defender를 선택합니다.
 
 2. AV 검색 테스트를 실행하여 장치가 제대로 온보드되었는지 확인하고 서비스에 보고합니다. 새로 온보드된 디바이스에서 다음 단계를 수행합니다.
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 애플리케이션 거버넌스 기능을 구현하여 애플리케이션을 관리합니다.
-ms.openlocfilehash: a105ba8d1e0a0127cccb772ad60bb7bd0c6c8b4c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: f89214a71bc82ac7271ba3fd010258e63d39ef8a
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567559"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58744992"
 ---
 # <a name="app-governance-add-on-to-microsoft-cloud-app-security-in-preview"></a>Microsoft Cloud App Security에 대한 애플리케이션 거버넌스 추가 항목(미리 보기)
 
@@ -79,29 +79,13 @@ The scale of ongoing cybersecurity incidents affecting large enterprises and sma
 
 ![애플리케이션 거버넌스를 Azure AD 및 Microsoft Cloud App Security와 통합합니다.](..\media\manage-app-protection-governance\mapg-integration.png)
 
-또한 애플리케이션 거버넌스는 Microsoft Cloud App Security 및 Microsoft 365 Defender에 알림을 보내고, 애플리케이션 거버넌스는 Microsoft Cloud App Security로부터 알림을 수신하여 애플리케이션 기반 보안 문제를 보다 상세하게 분석할 수 있도록 지원합니다.
+앱 거버넌스는 Microsoft Cloud App Security 및 Microsoft 365 Defender에 경고를 보내고 Microsoft Cloud App Security 경고를 수신하여 앱 기반 보안 인시던트를 보다 자세히 분석할 수 있도록 합니다.
+- 앱 거버넌스 경고는 감지 원본 필드가 "MAPG"로 설정된 경고로 Microsoft 365 Defender 경고 목록에 표시됩니다.
+- 앱 거버넌스 경고는 MCAS 경고 목록에 정책 필드가 다음 중 하나로 설정된 경고로 표시됩니다.
+  - Microsoft 365 OAuth 앱 거버넌스
+  - Microsoft 365 OAuth 피싱 감지
+  - Microsoft 365 OAuth 앱 평판
+- MCAS 경고는 앱 거버넌스 경고 목록에 소스가 MCAS로 설정된 경고로 표시됩니다.
 
-<!--
-Integration of alerts with MCAS and M365 Defender
-Azure AD IP detections in progress to surface in M365 Defender
-
-## Integration with Azure AD
-
-**Feedback from Anand:** We should add some details on how MAPG works with M365 Defender (previously MTP). Also, we should highlight the integration with MCAS and AAD.
-
-Key cross-reference resources:
-
-- [What is application management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management)
-- [Common application management scenarios for Azure Active Directory (especially scenarios 3-4)](https://docs.microsoft.com/cloud-app-security/monitor-alerts)
-- [Azure Active Directory Identity Governance documentation](https://docs.microsoft.com/azure/active-directory/governance/)
-- [Managing access to apps using Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-access-management)
-
-## Integration with Microsoft Cloud App Security
-
-Key cross-reference resources:
-
-- [Cloud App Security anomaly detection alerts investigation guide](https://docs.microsoft.com/cloud-app-security/investigate-anomaly-alerts#unusual-addition-of-credentials-to-an-oauth-app)
-- [Monitor alerts raised in Cloud App Security](https://docs.microsoft.com/cloud-app-security/monitor-alerts)
-- [Control which third-party cloud OAuth apps get permissions](https://docs.microsoft.com/cloud-app-security/manage-app-permissions)
-
--->
+> [!NOTE]
+> 경고 상태는 현재 앱 거버넌스와 Microsoft Cloud App Security 간에 동기화되고 있지 않습니다.

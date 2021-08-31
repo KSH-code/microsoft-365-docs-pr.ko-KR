@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 02368ff4c8f122b3bca2deac22b3fa994e6bf82d38fce4e44ff40ba12c882730
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e23980133d2fb0c69ca79f6dfdde7656e1961097
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53874014"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745640"
 ---
 # <a name="create-and-manage-device-tags"></a>장치 태그 만들기 및 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "53874014"
 - 레지스트리 키 값 설정
 
 > [!NOTE]
-> 디바이스에 태그를 추가하는 시간과 장치 목록 및 디바이스 페이지의 가용성 사이에 몇 가지 대기 시간이 있을 수 있습니다.  
+> 디바이스에 태그를 추가하는 시간과 장치 목록 및 디바이스 페이지의 가용성 사이에 몇 가지 대기 시간이 있을 수 있습니다.
 
 API를 사용하여 디바이스 태그를 추가하려면 [디바이스 태그 API 추가 또는 제거](add-or-remove-machine-tags.md)를 참조하세요.
 
@@ -66,8 +66,9 @@ API를 사용하여 디바이스 태그를 추가하려면 [디바이스 태그 
 
 태그는 장치 보기에 추가된 후 장치 목록 보기에도 **반영됩니다.** 그런 다음 태그 **필터를** 사용하여 관련 장치 목록을 볼 수 있습니다.
 
->[!NOTE]
-> 괄호가 포함된 태그 이름에는 필터링이 작동하지 않을 수 있습니다.<br>
+> [!NOTE]
+> 괄호가 포함된 태그 이름에는 필터링이 작동하지 않을 수 있습니다.
+>
 > 새 태그를 만들면 기존 태그 목록이 표시됩니다. 이 목록에는 포털을 통해 만들어진 태그만 표시됩니다. 클라이언트 장치에서 만든 기존 태그는 표시되지 않습니다.
 
 이 보기에서 태그를 삭제할 수도 있습니다.
@@ -76,17 +77,18 @@ API를 사용하여 디바이스 태그를 추가하려면 [디바이스 태그 
 
 ## <a name="add-device-tags-by-setting-a-registry-key-value"></a>레지스트리 키 값을 설정하여 장치 태그 추가
 
->[!NOTE]
+> [!NOTE]
 > 다음 장치에서만 적용할 수 있습니다.
->- Windows 10 버전 1709 이상
->- Windows 서버, 버전 1803 이상
->- Windows Server 2016
->- Windows Server 2012 R2
->- Windows Server 2008 R2 SP1
->- Windows 8.1
->- Windows 7 SP1
+>
+> - Windows 10 버전 1709 이상
+> - Windows 서버, 버전 1803 이상
+> - Windows Server 2016
+> - Windows Server 2012 R2
+> - Windows Server 2008 R2 SP1
+> - Windows 8.1
+> - Windows 7 SP1
 
-> [!NOTE] 
+> [!NOTE]
 > 태그에서 설정할 수 있는 최대 문자 수는 200개입니다.
 
 태그가 비슷한 디바이스는 특정 장치 목록에 상황에 맞는 작업을 적용해야 하는 경우 편리한 장치입니다.
@@ -97,7 +99,7 @@ API를 사용하여 디바이스 태그를 추가하려면 [디바이스 태그 
 - 레지스트리 키 값(REG_SZ): `Group`
 - 레지스트리 키 데이터: `Name of the tag you want to set`
 
->[!NOTE]
->장치 태그는 하루 한 번 생성되는 장치 정보 보고서의 일부입니다. 또는 새 장치 정보 보고서를 전송하는 끝점을 다시 시작해야 할 수도 있습니다.
-> 
+> [!NOTE]
+> 장치 태그는 하루 한 번 생성되는 장치 정보 보고서의 일부입니다. 또는 새 장치 정보 보고서를 전송하는 끝점을 다시 시작해야 할 수도 있습니다.
+>
 > 위의 레지스트리 키를 사용하여 추가된 태그를 제거해야 하는 경우 'Group' 키를 제거하는 대신 레지스트리 키 데이터의 내용을 지워야 합니다.

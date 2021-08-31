@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 0f1dbf52-5bff-44cc-a264-1b48641af98f
 description: '요약: 2016년 커넥트 대한 고가용성 페더전 인증에 대해 Azure AD Microsoft 365 구성하는 Microsoft Azure.'
-ms.openlocfilehash: 8d8636c10947562037093991fa3a3cee5a867af3
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: c179f45e061c1ff004f1c70e83ba0888c066f733
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561413"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745808"
 ---
 # <a name="high-availability-federated-authentication-phase-5-configure-federated-authentication-for-microsoft-365"></a>고가용성 페더러타 인증 5단계: 페더러에 대한 페더 Microsoft 365
 
@@ -85,7 +85,7 @@ Azure AD 커넥트 도구는 다음 단계를 사용하여 AD FS 서버, 웹 응
     
 7. **사용자 로그인** 페이지에서 **AD FS로 페더레이션** 을 클릭하고 **다음** 을 클릭합니다.
     
-8. Azure **AD 커넥트** 페이지에서 Microsoft 365 전역 관리자 계정의 이름과 암호를 입력하고 다음 을 **클릭합니다.**
+8. Azure **AD 커넥트** 페이지의 **Azure AD DC** 관리자 또는 Microsoft 365 전역 관리자  계정의 이름과 암호를 입력하고 다음 을 **클릭합니다.**
     
 9. 디렉터리  커넥트 페이지에서 포리스트에서 AD DS(Active Directory 도메인 서비스) 포리스트가 선택되어 있는지 **확인한** 다음 도메인 관리자 계정의 이름과 암호를 입력하고 디렉터리 추가를 클릭한 후 다음 을 **클릭합니다.**
     

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ec7b4a5a5edc542e305e876141e501e3c0e4b2bc35d096a48b4b6d36fe3e804d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ab92335e2f5befcead81765954477c6e70dac492
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817822"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747622"
 ---
 # <a name="live-response-command-examples"></a>실시간 대응 명령 예제
 
@@ -105,7 +105,7 @@ getfile c:\Users\user\Desktop\work.txt
 getfile c:\Users\user\Desktop\work.txt -auto
 ```
 
->[!NOTE]
+> [!NOTE]
 >
 > 다음 파일 형식은 **Live** Response 내에서 이 명령을 사용하여 다운로드할 수 없습니다.
 >
@@ -211,7 +211,7 @@ run script.ps1
 run get-process-by-name.ps1 -parameters "-processName Registry"
 ```
 
->[!NOTE]
+> [!NOTE]
 >
 > '**run**' 또는 '**getfile**'과 같은 장기 실행 명령의 경우 명령 끝에 ' 기호를 사용하여 백그라운드에서 해당 작업을 수행할 **&** 수 있습니다.
 > 이렇게 하면 **'fg'** 기본 명령을 사용하여 컴퓨터 조사를 계속하고 백그라운드 명령으로 [돌아갈 수 있습니다.](live-response.md#basic-commands)

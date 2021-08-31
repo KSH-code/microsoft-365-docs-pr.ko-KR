@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에 대한 개인 정보 관리를 설정하고, 역할 및 사용 권한을 설정하고, 중요한 설정을 구성하는 방법을 배워야 합니다.
-ms.openlocfilehash: 8f45e779cc6ce8deaf20a5f49b597f4ad6139a08
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 229d4bec78424858cd7034c8953313f8593e90e3
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507701"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745968"
 ---
 # <a name="get-started-with-privacy-management-preview"></a>개인 정보 관리 시작(미리 보기)
 
-이 문서에서는 조직의 개인  정보 관리에 대한 액세스 권한을  설정하는 방법, 데이터 평가를 시작하는 방법 및 중요한 설정을 처리하는 방법을 **배워야 합니다.**
+개인 정보 관리는 현재 공개 미리 보기에서 사용할 수 있습니다. 조직에 대한 액세스를 설정하고 데이터 평가를 시작하는 방법을 배워야 합니다.
 
 ## <a name="who-can-access-privacy-management"></a>Who 개인 정보 관리에 액세스할 수 있습니다.
 

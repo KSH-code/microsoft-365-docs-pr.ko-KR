@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ec48f75765dfafac81fa82f578b956180378fab1aa380c4f9750ec997105e2d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8596cf95c7aa4479d1900ba99c98bc10025ee738
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53811191"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747666"
 ---
 # <a name="resources"></a>리소스
 
@@ -104,44 +104,49 @@ Linux에서 끝점용 Defender를 제거하는 방법에는 여러 가지가 있
 
 다음 표에는 가장 일반적인 몇 가지 시나리오에 대한 명령이 나열됩니다. 터미널에서 `mdatp help` 실행하여 지원되는 명령의 전체 목록을 볼 수 있습니다.
 
-|Group                 |시나리오                                                |명령                                                                |
-|----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
-|구성         |실시간 보호 켜기/끄기                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
-|구성         |동작 모니터링 켜기/끄기                         |`mdatp config behavior-monitoring --value [enabled\|disabled]`
-|구성         |클라우드 보호 켜기/끄기                            |`mdatp config cloud --value [enabled\|disabled]`                       |
-|구성         |제품 진단 켜기/끄기                         |`mdatp config cloud-diagnostic --value [enabled\|disabled]`            |
-|구성         |자동 샘플 제출 켜기/끄기                 |`mdatp config cloud-automatic-sample-submission [enabled\|disabled]`   |
-|구성         |AV 수동 모드 켜기/끄기                             |`mdatp config passive-mode --value [enabled\|disabled]`                |
-|구성         |파일 확장명에 대한 바이러스 백신 제외 추가/제거  |`mdatp exclusion extension [add\|remove] --name [extension]`           |
-|구성         |파일에 대한 바이러스 백신 제외 추가/제거            |`mdatp exclusion file [add\|remove] --path [path-to-file]`             |
-|구성         |디렉터리에 대한 바이러스 백신 제외 추가/제거       |`mdatp exclusion folder [add\|remove] --path [path-to-directory]`      |
-|구성         |프로세스에 대한 바이러스 백신 제외 추가/제거         |`mdatp exclusion process [add\|remove] --path [path-to-process]`<br/>`mdatp exclusion process [add\|remove] --name [process-name]` |
-|구성         |모든 바이러스 백신 제외 목록                           |`mdatp exclusion list`                                                 |
-|구성         |허용 목록에 위협 이름 추가                   |`mdatp threat allowed add --name [threat-name]`                        |
-|구성         |허용된 목록에서 위협 이름 제거              |`mdatp threat allowed remove --name [threat-name]`                     |
-|구성         |허용된 모든 위협 이름 나열                           |`mdatp threat allowed list`                                            |
-|구성         |PUA 보호 켜기                                  |`mdatp threat policy set --type potentially_unwanted_application --action block` |
-|구성         |PUA 보호 끄기                                 |`mdatp threat policy set --type potentially_unwanted_application --action off` |
-|구성         |PUA 보호에 대한 감사 모드 켜기                   |`mdatp threat policy set --type potentially_unwanted_application --action audit` |
-|진단           |로그 수준 변경                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
-|진단           |진단 로그 생성                                |`mdatp diagnostic create --path [directory]`                           |
-|상태                |제품의 상태 확인                              |`mdatp health`                                                         |
-|보호            |경로 검사                                             |`mdatp scan custom --path [path] [--ignore-exclusions]`                |
-|보호            |빠른 검사 실행                                         |`mdatp scan quick`                                                     |
-|보호            |전체 검사 실행                                          |`mdatp scan full`                                                      |
-|보호            |지속적인 주문형 검사 취소                        |`mdatp scan cancel`                                                    |
-|보호            |보안 인텔리전스 업데이트 요청                  |`mdatp definitions update`                                             |
-|보호 기록    |전체 보호 기록 인쇄                       |`mdatp threat list`                                                    |
-|보호 기록    |위협 세부 정보 확인                                      |`mdatp threat get --id [threat-id]`                                    |
-|Quarantine management |모든 고지된 파일 나열                              |`mdatp threat quarantine list`                                         |
-|Quarantine management |Quarantine에서 모든 파일 제거                    |`mdatp threat quarantine remove-all`                                   |
-|Quarantine management |위협으로 감지된 파일 추가       |`mdatp threat quarantine add --id [threat-id]`                         |
-|Quarantine management |위협으로 감지된 파일 제거  |`mdatp threat quarantine remove --id [threat-id]`                      |
-|Quarantine management |Quarantine에서 파일 복원                      |`mdatp threat quarantine restore --id [threat-id]`                     |
-|끝점 검색 및 응답 |초기 미리 보기 설정(사용되지 않은)                    |`mdatp edr early-preview [enable|disable]`                             |
-|끝점 검색 및 응답 |group-id 설정                                  |`mdatp edr group-ids --group-id [group-id]`                            |
-|끝점 검색 및 응답 |태그 설정/제거(지원되는 `GROUP` 태그만)        |`mdatp edr tag set --name GROUP --value [tag]`                         |
-|끝점 검색 및 응답 |목록 제외(루트)                        |`mdatp edr exclusion list [processes|paths|extensions|all]`            |
+<br>
+
+****
+
+|그룹|시나리오|명령|
+|---|---|---|
+|구성|실시간 보호 켜기/끄기|`mdatp config real-time-protection --value [enabled\|disabled]`|
+|구성|동작 모니터링 켜기/끄기|`mdatp config behavior-monitoring --value [enabled\|disabled]`
+|구성|클라우드 보호 켜기/끄기|`mdatp config cloud --value [enabled\|disabled]`|
+|구성|제품 진단 켜기/끄기|`mdatp config cloud-diagnostic --value [enabled\|disabled]`|
+|구성|자동 샘플 제출 켜기/끄기|`mdatp config cloud-automatic-sample-submission [enabled\|disabled]`|
+|구성|AV 수동 모드 켜기/끄기|`mdatp config passive-mode --value [enabled\|disabled]`|
+|구성|파일 확장명에 대한 바이러스 백신 제외 추가/제거|`mdatp exclusion extension [add\|remove] --name [extension]`|
+|구성|파일에 대한 바이러스 백신 제외 추가/제거|`mdatp exclusion file [add\|remove] --path [path-to-file]`|
+|구성|디렉터리에 대한 바이러스 백신 제외 추가/제거|`mdatp exclusion folder [add\|remove] --path [path-to-directory]`|
+|구성|프로세스에 대한 바이러스 백신 제외 추가/제거|`mdatp exclusion process [add\|remove] --path [path-to-process]` <p> `mdatp exclusion process [add\|remove] --name [process-name]`|
+|구성|모든 바이러스 백신 제외 목록|`mdatp exclusion list`|
+|구성|허용 목록에 위협 이름 추가|`mdatp threat allowed add --name [threat-name]`|
+|구성|허용된 목록에서 위협 이름 제거|`mdatp threat allowed remove --name [threat-name]`|
+|구성|허용된 모든 위협 이름 나열|`mdatp threat allowed list`|
+|구성|PUA 보호 켜기|`mdatp threat policy set --type potentially_unwanted_application --action block`|
+|구성|PUA 보호 끄기|`mdatp threat policy set --type potentially_unwanted_application --action off`|
+|구성|PUA 보호에 대한 감사 모드 켜기|`mdatp threat policy set --type potentially_unwanted_application --action audit`|
+|진단|로그 수준 변경|`mdatp log level set --level verbose [error|warning|info|verbose]`|
+|진단|진단 로그 생성|`mdatp diagnostic create --path [directory]`|
+|상태|제품의 상태 확인|`mdatp health`|
+|보호|경로 검사|`mdatp scan custom --path [path] [--ignore-exclusions]`|
+|보호|빠른 검사 실행|`mdatp scan quick`|
+|보호|전체 검사 실행|`mdatp scan full`|
+|보호|지속적인 주문형 검사 취소|`mdatp scan cancel`|
+|보호|보안 인텔리전스 업데이트 요청|`mdatp definitions update`|
+|보호 기록|전체 보호 기록 인쇄|`mdatp threat list`|
+|보호 기록|위협 세부 정보 확인|`mdatp threat get --id [threat-id]`|
+|Quarantine management|모든 고지된 파일 나열|`mdatp threat quarantine list`|
+|Quarantine management|Quarantine에서 모든 파일 제거|`mdatp threat quarantine remove-all`|
+|Quarantine management|위협으로 감지된 파일 추가|`mdatp threat quarantine add --id [threat-id]`|
+|Quarantine management|위협으로 감지된 파일 제거|`mdatp threat quarantine remove --id [threat-id]`|
+|Quarantine management|Quarantine에서 파일 복원|`mdatp threat quarantine restore --id [threat-id]`|
+|끝점 검색 및 응답|초기 미리 보기 설정(사용되지 않은)|`mdatp edr early-preview [enable|disable]`|
+|끝점 검색 및 응답|group-id 설정|`mdatp edr group-ids --group-id [group-id]`|
+|끝점 검색 및 응답|태그 설정/제거(지원되는 `GROUP` 태그만)|`mdatp edr tag set --name GROUP --value [tag]`|
+|끝점 검색 및 응답|목록 제외(루트)|`mdatp edr exclusion list [processes|paths|extensions|all]`|
+|
 
 ## <a name="microsoft-defender-for-endpoint-portal-information"></a>끝점 포털 정보용 Microsoft Defender
 

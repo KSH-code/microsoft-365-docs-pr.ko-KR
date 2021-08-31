@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 05a2c4e29b56d973f0a0a924390fa5b4209f346a6cdf390fa480e88764860f2f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8787a6bd5818eda5f5302fe149fd7b56db296abd
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793373"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745856"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender 설치 문제 해결
 
@@ -41,7 +41,7 @@ ms.locfileid: "53793373"
 설치 시 오류가 발생하거나 패키지 관리자가 의미 있는 오류 메시지를 표시하지 않을 수 있습니다. 설치가 성공적이지 확인하려면 다음을 사용하여 설치 로그를 구하고 검사합니다.
 
 ```bash
- sudo journalctl --no-pager | grep 'microsoft-mdatp' > installation.log
+ sudo journalctl --no-pager|grep 'microsoft-mdatp' > installation.log
 ```
 
 ```bash
@@ -60,13 +60,18 @@ ms.locfileid: "53793373"
 
 설치하는 패키지는 호스트 배포 및 버전과 일치합니다.
 
-| package                       | distribution                             |
-|-------------------------------|------------------------------------------|
-| mdatp-rhel8. Linux.x86_64.rpm  | Oracle, RHEL 및 CentOS 8.x              |
-| mdatp-sles12. Linux.x86_64.rpm | SuSE Linux Enterprise Server 12.x        |
-| mdatp-sles15. Linux.x86_64.rpm | SuSE Linux Enterprise Server 15.x        |
-| mdatp. Linux.x86_64.rpm        | Oracle, RHEL 및 CentOS 7.x              |
-| mdatp. Linux.x86_64.deb        | 데비안 및 Ubuntu 16.04, 18.04 및 20.04 |
+<br>
+
+****
+
+|package|distribution|
+|---|---|
+|mdatp-rhel8. Linux.x86_64.rpm|Oracle, RHEL 및 CentOS 8.x|
+|mdatp-sles12. Linux.x86_64.rpm|SuSE Linux Enterprise Server 12.x|
+|mdatp-sles15. Linux.x86_64.rpm|SuSE Linux Enterprise Server 15.x|
+|mdatp. Linux.x86_64.rpm|Oracle, RHEL 및 CentOS 7.x|
+|mdatp. Linux.x86_64.deb|데비안 및 Ubuntu 16.04, 18.04 및 20.04|
+|
 
 수동 [배포의 경우](linux-install-manually.md)올바른 배포판과 버전이 선택되어 있는지 확인합니다.
 

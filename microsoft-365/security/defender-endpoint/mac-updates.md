@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dd299db1f8894851cb6d26d82756014b942c8240
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: ae8909f2533394e347a1885f2fb1354f6ce4cfae
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573530"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747326"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -73,8 +73,12 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 > - `Preview` 이름이 `External` 지정(Insider Slow)
 > - `Current` 명명 `Production`
 
->[!TIP]
->새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈의 일부 장치를 또는 로 구성하는 것이 `Beta` `Preview` 좋습니다.
+> [!TIP]
+> 새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈의 일부 장치를 또는 로 구성하는 것이 `Beta` `Preview` 좋습니다.
+
+<br>
+
+****
 
 |섹션|값|
 |---|---|
@@ -84,8 +88,8 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 |**사용 가능한 값:**|Beta <p> Preview <p> Current|
 |||
 
->[!WARNING]
->이 설정은 Microsoft 자동 업데이트를 통해 업데이트되는 모든 응용 프로그램의 채널을 변경합니다. macOS의 끝점용 Microsoft Defender에 대한 채널만 변경하기 위해 원하는 채널로 바꿔서 다음 명령을 `[channel-name]` 실행합니다.
+> [!WARNING]
+> 이 설정은 Microsoft 자동 업데이트를 통해 업데이트되는 모든 응용 프로그램의 채널을 변경합니다. macOS의 끝점용 Microsoft Defender에 대한 채널만 변경하기 위해 원하는 채널로 바꿔서 다음 명령을 `[channel-name]` 실행합니다.
 >
 > ```bash
 > defaults write com.microsoft.autoupdate2 Applications -dict-add "/Applications/Microsoft Defender ATP.app" " { 'Application ID' = 'WDAV00' ; 'App Domain' = 'com.microsoft.wdav' ; LCID = 1033 ; ChannelName = '[channel-name]' ; }"
@@ -95,6 +99,10 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 
 MAU가 업데이트를 검색하는 자주 변경합니다.
 
+<br>
+
+****
+
 |섹션|값|
 |---|---|
 |**도메인**|`com.microsoft.autoupdate2`|
@@ -102,10 +110,15 @@ MAU가 업데이트를 검색하는 자주 변경합니다.
 |**Data type**|정수|
 |**기본값**.|720(분)|
 |**설명**|이 값은 분으로 설정됩니다.|
+|||
 
 ### <a name="change-how-mau-interacts-with-updates"></a>MAU가 업데이트와 상호 작용하는 방식 변경
 
 MAU에서 업데이트를 검색하는 방법을 변경합니다.
+
+<br>
+
+****
 
 |섹션|값|
 |---|---|
@@ -114,10 +127,15 @@ MAU에서 업데이트를 검색하는 방법을 변경합니다.
 |**Data type**|String|
 |**사용 가능한 값:**|수동 <p> AutomaticCheck <p> AutomaticDownload|
 |**설명**|AutomaticDownload는 다운로드를 수행하고 가능한 경우 자동으로 설치합니다.|
+|||
 
 ### <a name="change-whether-the-check-for-updates-button-is-enabled"></a>"업데이트 확인" 단추를 사용할 수 있는지 여부 변경
 
 로컬 사용자가 Microsoft 자동 업데이트 사용자 인터페이스에서 "업데이트 확인" 옵션을 클릭할 수 있는지 여부를 변경합니다.
+
+<br>
+
+****
 
 |섹션|값|
 |---|---|
@@ -125,10 +143,15 @@ MAU에서 업데이트를 검색하는 방법을 변경합니다.
 |**키**|EnableCheckForUpdatesButton|
 |**Data type**|부울|
 |**사용 가능한 값:**|True(기본값) <p> 거짓|
+|||
 
 ### <a name="disable-insider-checkbox"></a>내부자 사용 안함 확인란
 
 true로 설정하여 "Office 프로그램 참여..."로 설정 사용자에게 확인란을 사용할 수 없음/회색으로 나타났습니다.
+
+<br>
+
+****
 
 |섹션|값|
 |---|---|
@@ -136,10 +159,15 @@ true로 설정하여 "Office 프로그램 참여..."로 설정 사용자에게 �
 |**키**|DisableInsiderCheckbox|
 |**Data type**|부울|
 |**사용 가능한 값:**|False(기본값) <p> True|
+|||
 
 ### <a name="limit-the-telemetry-that-is-sent-from-mau"></a>MAU에서 전송된 원격 분석 제한
 
 false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 현황 및 환경 세부 정보를 보내지 않습니다.
+
+<br>
+
+****
 
 |섹션|값|
 |---|---|
@@ -147,6 +175,7 @@ false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 
 |**키**|SendAllTelemetryEnabled|
 |**Data type**|부울|
 |**사용 가능한 값:**|True(기본값) <p> 거짓|
+|||
 
 ## <a name="example-configuration-profile"></a>구성 프로필 예제
 

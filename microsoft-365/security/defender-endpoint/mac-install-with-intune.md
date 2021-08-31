@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 35ecf8639255d21266df4403b4d4b824a5982f97
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: ca654a4fd06e43645f2e38fcf23e4e6de9b483de
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570524"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745796"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -49,23 +49,27 @@ ms.locfileid: "58570524"
 
 다음 표에는 Intune을 통해 Mac에서 끝점용 Microsoft Defender를 배포하고 관리하는 데 필요한 단계가 요약됩니다. 자세한 단계는 아래에서 사용할 수 있습니다.
 
-| 단계 | 예제 파일 이름 | BundleIdentifier |
-|-|-|-|
-| [온보더링 패키지 다운로드](#download-the-onboarding-package) | WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml | com.microsoft.wdav.atp |
-| [끝점에 대한 Microsoft Defender에 대한 시스템 확장 승인](#approve-system-extensions) | MDATP_SysExt.xml | 해당 없음 |
-| [끝점용 Microsoft Defender에 대한 커널 확장 승인](#download-the-onboarding-package) | MDATP_KExt.xml | 해당 없음 |
-| [끝점용 Microsoft Defender에 대한 전체 디스크 액세스 권한 부여](#full-disk-access) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
-| [네트워크 확장 정책](#network-filter) | MDATP_NetExt.xml | 해당 없음 |
-| [MAU(Microsoft 자동 업데이트) 구성](mac-updates.md#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
-| [끝점 구성 설정용 Microsoft Defender](mac-preferences.md#intune-profile-1)<br/><br/> **참고:** macOS용 타사 AV를 실행하고자 하는 경우 로 `passiveMode` `true` 설정됩니다. | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
-| [끝점 및 MS 자동 업데이트(MAU) 알림에 대해 Microsoft Defender 구성](mac-updates.md) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 또는 com.microsoft.wdav.tray |
+<br>
 
+****
+
+|단계|예제 파일 이름|BundleIdentifier|
+|---|---|---|
+|[온보더링 패키지 다운로드](#download-the-onboarding-package)|WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml|com.microsoft.wdav.atp|
+|[끝점에 대한 Microsoft Defender에 대한 시스템 확장 승인](#approve-system-extensions)|MDATP_SysExt.xml|해당 없음|
+|[끝점용 Microsoft Defender에 대한 커널 확장 승인](#download-the-onboarding-package)|MDATP_KExt.xml|해당 없음|
+|[끝점용 Microsoft Defender에 대한 전체 디스크 액세스 권한 부여](#full-disk-access)|MDATP_tcc_Catalina_or_newer.xml|com.microsoft.wdav.tcc|
+|[네트워크 확장 정책](#network-filter)|MDATP_NetExt.xml|해당 없음|
+|[MAU(Microsoft 자동 업데이트) 구성](mac-updates.md#intune)|MDATP_Microsoft_AutoUpdate.xml|com.microsoft.autoupdate2|
+|[끝점 구성 설정용 Microsoft Defender](mac-preferences.md#intune-full-profile) <p> **참고:** macOS용 타사 AV를 실행하고자 하는 경우 로 `passiveMode` `true` 설정됩니다.|MDATP_WDAV_and_exclusion_settings_Preferences.xml|com.microsoft.wdav|
+|[끝점 및 MS 자동 업데이트(MAU) 알림에 대해 Microsoft Defender 구성](mac-updates.md)|MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig|com.microsoft.autoupdate2 또는 com.microsoft.wdav.tray|
+|
 
 ## <a name="download-the-onboarding-package"></a>온보더링 패키지 다운로드
 
 다음 포털에서 온보 Microsoft 365 Defender 다운로드합니다.
 
-1. Microsoft 365 Defender 포털에서 **끝점 설정** 관리 온보더링으로  >    >    >  **이동하세요.**
+1. Microsoft 365 Defender 포털에서 **끝점 설정** 관리 온보더링으로 \>  \>  \> **이동하세요.**
 
 2. 운영 체제를 **macOS로** 설정하고 배포 방법을 모바일 장치 관리 **/Microsoft Intune.**
 
@@ -78,6 +82,7 @@ ms.locfileid: "58570524"
     ```bash
     unzip WindowsDefenderATPOnboardingPackage.zip
     ```
+
     ```Output
     Archive:  WindowsDefenderATPOnboardingPackage.zip
     warning:  WindowsDefenderATPOnboardingPackage.zip appears to use backslashes as path separators
@@ -89,7 +94,7 @@ ms.locfileid: "58570524"
 ## <a name="create-system-configuration-profiles"></a>시스템 구성 프로필 만들기
 
 다음 단계는 끝점용 Microsoft Defender에 필요한 시스템 구성 프로필을 만드는 것입니다.
-Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/)장치 구성   >  **프로필 을 열 수 있습니다.**
+Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/)장치 구성  \> **프로필 을 열 수 있습니다.**
 
 ### <a name="onboarding-blob"></a>온보더링 Blob
 
@@ -119,7 +124,7 @@ Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/
     > ![사용자 지정 구성 프로필 - 할당.](images/mdatp-6-systemconfigurationprofiles-2.png)
 
 1. 검토 및 **만들기.**
-1. 장치 **구성** 프로필을  >  **열면** 생성된 프로필을 볼 수 있습니다.
+1. 장치 **구성** 프로필을 \> **열면** 생성된 프로필을 볼 수 있습니다.
 
     > [!div class="mx-imgBorder"]
     > ![사용자 지정 구성 프로필 - 완료.](images/mdatp-6-systemconfigurationprofiles-3.png)
@@ -133,10 +138,10 @@ Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/
 1. 기본 **탭에서** 이 새 프로필에 이름을 지정합니다.
 1. 구성 **설정 탭에서** 시스템 확장을 **확장하고** 허용되는 시스템 확장 섹션에 다음 **항목을 추가합니다.**
 
-    번들 식별자         | 팀 식별자
-    --------------------------|----------------
-    com.microsoft.wdav.epsext | UBF8T346G9
-    com.microsoft.wdav.netext | UBF8T346G9
+    |번들 식별자|팀 식별자|
+    |---|---|
+    |com.microsoft.wdav.epsext|UBF8T346G9|
+    |com.microsoft.wdav.netext|UBF8T346G9|
 
     > [!div class="mx-imgBorder"]
     > ![시스템 확장 설정.](images/mac-system-extension-intune2.png)
@@ -192,7 +197,7 @@ GitHub 리포지토리에서 [notif.mobileconfig를 다운로드합니다.](http
 
 ### <a name="view-status"></a>상태 보기
 
-Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니터링에 나열된 내용을 볼  >  **수 있습니다.**
+Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태  모니터링에 나열된 내용을 볼 \> **수 있습니다.**
 
 > [!div class="mx-imgBorder"]
 > ![모니터의 장치 상태 보기입니다.](images/mdatp-7-devicestatusblade.png)
@@ -223,7 +228,7 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
     > ![Intune 할당 정보 스크린샷.](images/mdatp-11-assignments.png)
 
 1. 검토 및 **만들기.**
-1. 플랫폼   >    >  **macOS에서** 앱을 방문하여 모든 응용 프로그램 목록에서 볼 수 있습니다.
+1. 플랫폼  \>  \> **macOS에서** 앱을 방문하여 모든 응용 프로그램 목록에서 볼 수 있습니다.
 
     > [!div class="mx-imgBorder"]
     > ![응용 프로그램 목록.](images/mdatp-12-applications.png)
@@ -250,14 +255,14 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
 
    이제 더 많은 장치를 등록할 수 있습니다. 시스템 구성 및 응용 프로그램 패키지 프로비전을 완료한 후 나중에 등록할 수도 있습니다.
 
-3. Intune에서 장치 모든  >  **장치 관리를** 열 수  >  **있습니다.** 여기에 나열된 장치 중 디바이스를 볼 수 있습니다.
+3. Intune에서 장치  모든 \> **장치 관리를** 열 수 \> **있습니다.** 여기에 나열된 장치 중 디바이스를 볼 수 있습니다.
 
    > [!div class="mx-imgBorder"]
    > ![장치 스크린샷 추가](images/mdatp-5-alldevices.png)
 
 ## <a name="verify-client-device-state"></a>클라이언트 장치 상태 확인
 
-1. 구성 프로필을 장치에 배포한 후 Mac 장치에서 **시스템** 기본 설정  >   프로필을 여는 방법을 확인합니다.
+1. 구성 프로필을 장치에 배포한 후 Mac 장치에서 **시스템** 기본 설정 \>  프로필을 여는 방법을 확인합니다.
 
     > [!div class="mx-imgBorder"]
     > ![시스템 기본 설정 스크린샷.](images/mdatp-13-systempreferences.png)

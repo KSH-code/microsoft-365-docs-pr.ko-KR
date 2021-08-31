@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 사내 IT 인프라의 기본 구조와 엔터프라이즈용 클라우드를 통해 회사의 비즈니스 요구를 Microsoft 365 이해합니다.
-ms.openlocfilehash: 36fec158926bfa4530c0dfa6a862e877204be0cd
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: aa0779cfadb12aa0213a74f2e348951be4eca4f5
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569504"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745980"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT 인프라 및 비즈니스 요구
 
@@ -122,7 +122,7 @@ Contoso IT 부서는 배포 전에 비즈니스 요구 사항을 Microsoft 365 E
 |  | 원격 및 모바일 작업자의 생산성 향상 | Microsoft 365 워크로드 및 클라우드 기반 데이터 |
 |  | 창의성 및 혁신 증대 | Windows Ink, Cortana at Work, PowerPoint |
 | 보안 |  |  |
-|  | ID 및 액세스 관리 | Azure AD MFA(Multi-Factor Authentication) 및 Azure PIM(Azure AD 2013)Privileged Identity Management 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
+|  | ID 및 액세스 관리 | Azure AD MFA(Multi-Factor Authentication) 및 Azure PIM(Azure AD 2013)Privileged Identity Management 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> 보안 읽기 권한자 <BR> Windows Hello <BR> Windows Credential Guard |
 |  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Office 365용 Defender <BR> Office 365용 Microsoft Defender <BR> Microsoft 365 조사 및 대응 <BR> |
 |  | 정보 보호 | Azure Information Protection <BR> DLP(데이터 손실 방지) <BR> WIP(Windows Information Protection) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | 보안 관리 | Azure Defender  <BR> Windows Defender 보안 센터 |
@@ -140,7 +140,7 @@ Contoso IT 부서는 배포 전에 비즈니스 요구 사항을 Microsoft 365 E
 
 Contoso [Corporation의](contoso-networking.md) 사내 네트워크와 클라우드 기반 리소스에 대한 액세스 및 대기 시간에 최적화된 Microsoft 365 대해 자세히 알아보습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 

@@ -16,16 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 개인 정보 관리를 위한 전역 설정 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b656070c5470ae651bb3b361cfc8481dd9b09212
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 071006c354d975cbed06834d60c2d647bbc5df60
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255073"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747068"
 ---
 # <a name="manage-privacy-management-settings-preview"></a>개인 정보 관리 설정 관리(미리 보기)
-
-이 문서에서 개인 정보 **관리에 대한 설정** 옵션에 대해 자세히 알아보습니다.
 
 개인 정보 관리에 대한 전역 설정 옵션은 기본 페이지의 오른쪽 위 모서리에 있는 기어 아이콘에서 찾을 수 있습니다. 이러한 옵션을 사용하면 높은 수준의 기본 설정을 설정하고 주요 속성을 사용자 지정할 수 있습니다. 이 페이지에서는 기본 범주에 대한 설정 제공합니다.
 

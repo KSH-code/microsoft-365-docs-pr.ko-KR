@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: 이 문서에서는 PowerShell을 사용하여 사용자 계정에 관리자 역할을 Microsoft 365 방법을 알아보습니다.
-ms.openlocfilehash: dbb8586a381d66bea3a6b07ab5521da309c8681f
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 4174877bed9accacc3a61de576fa6e54060678bf
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589315"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745724"
 ---
 # <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 통해 사용자 Microsoft 365 관리자 역할 할당
 
@@ -41,8 +41,10 @@ PowerShell을 사용하여 사용자 계정에 역할을 쉽게 할당할 수 Mi
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-먼저 전역 관리자 계정을 사용하여 Microsoft 365 [테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
-  
+먼저 Azure **AD DC 관리자,** 클라우드 응용  프로그램 관리자 또는 전역 관리자 계정을 사용하여  [테넌트에 Microsoft 365 합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+ 
+자세한 내용은 [관리자 역할 정보](/microsoft-365/admin/add-users/about-admin-roles?)를 참조하세요.
+
 그런 다음 역할에 추가할 사용자 계정의 로그인 이름(예: fredsm \@ contoso.com)을 식별합니다. 이를 UPN(사용자 계정 이름)이라고도 합니다.
 
 그런 다음 역할의 이름을 확인 합니다. [Azure AD 기본 제공 역할을 참조하세요.](/azure/active-directory/roles/permissions-reference)
@@ -236,7 +238,7 @@ $roleChanges=Import-Csv $fileName | ForEach { Add-MsolRoleMember -RoleMemberEmai
 
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 - [PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
 - [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)

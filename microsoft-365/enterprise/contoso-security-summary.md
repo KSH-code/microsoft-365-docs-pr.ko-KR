@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 보안 기능을 Microsoft 365 방법
-ms.openlocfilehash: b88e1dfafe6669782096e851eef1935079aa4676
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 581314b34ab8f60533f1e2de99d4d1097086d1a0
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356411"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745676"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Contoso Microsoft 365 보안에 대한 정보 요약
 
@@ -58,7 +58,7 @@ Contoso는 다음 단계를 수행하여 엔터프라이즈용 보안 배포를 
 
   일상적인 사용자 계정에 전역 관리자 역할을 할당하는 대신, Contoso는 강력한 암호를 사용하여 3개의 전용 전역 관리자 계정을 만들었다. 계정은 Azure AD PIM(Multi-Factor Authentication) 및 Azure Active Directory(Azure AD) Privileged Identity Management 보호됩니다. *PIM은 Microsoft 365 E5에서만 사용할 수 있습니다.*
 
-  전역 관리자 계정으로 로그인하는 작업은 특정 관리 작업에만 수행됩니다. 암호는 지정된 직원에게만 알려지며 Azure AD PIM에서 구성된 기간 내에만 사용할 수 있습니다.
+  **Azure AD DC** 관리자 또는 전역 관리자 계정으로 로그인하는 작업은 특정 관리 작업에만 수행됩니다.  암호는 지정된 직원에게만 알려지며 Azure AD PIM에서 구성된 기간 내에만 사용할 수 있습니다.
 
   Contoso 보안 관리자는 IT 직원의 직무 기능에 적합한 계정에 더 적은 관리자 역할을 할당했습니다.
 
@@ -68,7 +68,7 @@ Contoso는 다음 단계를 수행하여 엔터프라이즈용 보안 배포를 
 
   MFA는 로그인 프로세스에 추가 보호 계층을 추가합니다. 암호를 올바르게 입력한 후 사용자가 스마트폰에서 전화 통화, 문자 메시지 또는 앱 알림을 확인해야 합니다. MFA를 사용하는 경우 계정 암호가 손상된 경우에도 Azure AD 사용자 계정이 무단 로그인으로부터 보호됩니다.
 
-   - Contoso는 Microsoft 365 계정의 손상으로부터 보호하기 위해 모든 전역 관리자 계정에 MFA를 요구합니다.
+   - 구독이 손상되지 Microsoft 365 보호하기 위해 Contoso는 모든 **Azure AD DC** 관리자 또는 전역 관리자 계정에서 MFA를 **요구합니다.**
    - Contoso는 공격자가 조직에서 신뢰할 수 있는 사용자의 자격 증명을 손상하고 악의적인 전자 메일을 보내는 피싱 공격으로부터 보호하기 위해 관리자 및 임원을 비롯한 모든 사용자 계정에서 MFA를 사용하도록 설정했습니다.
 
 - 조건부 액세스 정책을 사용한 보다 안전한 장치 및 응용 프로그램 액세스

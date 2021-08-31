@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6f24a610e82388cead88b68e33b76c6404d68ec9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 612c9a717ae10c97c91a183418e36fa87e2f7ba8
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570032"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747522"
 ---
 # <a name="device-control-for-macos"></a>macOS용 장치 제어
 
@@ -39,7 +39,8 @@ ms.locfileid: "58570032"
 
 macOS용 장치 제어에는 다음과 같은 전제가 있습니다.
 
->[!div class="checklist"]
+> [!div class="checklist"]
+>
 > - 끝점 권리에 대한 Microsoft Defender 권리(평가판일 수 있습니다)
 > - 최소 OS 버전: macOS 11 이상
 > - 최소 제품 버전: 101.34.20
@@ -52,12 +53,17 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 구성 프로필 내에서 장치 제어 정책은 다음 섹션에 정의되어 있습니다.
 
+<br>
+
+****
+
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | deviceControl |
-| **Data type** | 사전(중첩된 기본 설정) |
-| **Comments** | 사전 콘텐츠에 대한 설명은 다음 섹션을 참조하세요. |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|deviceControl|
+|**Data type**|사전(중첩된 기본 설정)|
+|**Comments**|사전 콘텐츠에 대한 설명은 다음 섹션을 참조하세요.|
+|
 
 장치 제어 정책을 사용하여 다음을 할 수 있습니다.
 
@@ -72,38 +78,48 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 최종 사용자가 이 알림을 클릭하면 웹 페이지가 기본 브라우저에서 열립니다. 최종 사용자가 알림을 클릭할 때 열 수 있는 URL을 구성할 수 있습니다.
 
+<br>
+
+****
+
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | navigationTarget |
-| **Data type** | String |
-| **Comments** | 정의되지 않은 경우 제품이 수행한 작업을 설명하는 일반 페이지를 표시하는 기본 URL을 사용합니다. |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|navigationTarget|
+|**Data type**|String|
+|**Comments**|정의되지 않은 경우 제품이 수행한 작업을 설명하는 일반 페이지를 표시하는 기본 URL을 사용합니다.|
+|
 
 ### <a name="allow-or-block-removable-devices"></a>이동식 장치 허용 또는 차단
 
-장치 제어 정책의 이동식 미디어 섹션은 이동식 미디어에 대한 액세스를 제한하는 데 사용됩니다. 
+장치 제어 정책의 이동식 미디어 섹션은 이동식 미디어에 대한 액세스를 제한하는 데 사용됩니다.
 
 > [!NOTE]
 > 이동식 미디어 유형은 현재 지원됩니다. USB 저장 장치 정책에 포함될 수 있습니다.
 
+<br>
+
+****
+
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | removableMediaPolicy |
-| **Data type** | 사전(중첩된 기본 설정) |
-| **Comments** | 사전 콘텐츠에 대한 설명은 다음 섹션을 참조하세요. |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|removableMediaPolicy|
+|**Data type**|사전(중첩된 기본 설정)|
+|**Comments**|사전 콘텐츠에 대한 설명은 다음 섹션을 참조하세요.|
+|
 
 정책의 이 섹션은 계층적이기 때문에 유연성을 최대화하고 광범위한 사용 사례를 다루고 있습니다. 최상위 수준에는 공급업체 ID로 식별되는 공급업체가 있습니다. 각 공급업체에 대해 제품 ID로 식별되는 제품이 있습니다. 마지막으로 각 제품에 대해 특정 장치를 나타는 일련 번호가 있습니다.
 
-```
-|-- policy top level 
-    |-- vendor 1 
-        |-- product 1 
-            |-- serial number 1 
+```text
+|-- policy top level
+    |-- vendor 1
+        |-- product 1
+            |-- serial number 1
             ...
-            |-- serial number N 
+            |-- serial number N
         ...
-        |-- product N 
+        |-- product N
     ...
     |-- vendor N
 ```
@@ -117,17 +133,22 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 이동식 미디어 섹션에는 적용 수준을 설정하는 옵션이 있습니다. 이 옵션은 다음 값 중 하나를 사용할 수 있습니다.
 
 - `audit` - 이 적용 수준에서 장치에 대한 액세스가 제한되면 사용자에게 알림이 표시되지만 디바이스를 계속 사용할 수 있습니다. 이 적용 수준은 정책의 효과를 평가하는 데 유용할 수 있습니다.
-- `block` - 이 적용 수준에서는 사용자가 장치에서 수행할 수 있는 작업이 정책에 정의된 작업으로 제한됩니다. 또한 사용자에게 알림이 표시됩니다. 
+- `block` - 이 적용 수준에서는 사용자가 장치에서 수행할 수 있는 작업이 정책에 정의된 작업으로 제한됩니다. 또한 사용자에게 알림이 표시됩니다.
 
-> [!NOTE] 
-> 기본적으로 적용 수준은 로 `audit` 설정됩니다. 
+> [!NOTE]
+> 기본적으로 적용 수준은 로 `audit` 설정됩니다.
+
+<br>
+
+****
 
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | enforcementLevel |
-| **Data type** | String |
-| **사용 가능한 값:** | 감사(기본값) <br/> block |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|enforcementLevel|
+|**Data type**|String|
+|**사용 가능한 값:**|감사(기본값) <p> block|
+|
 
 #### <a name="default-permission-level"></a>기본 권한 수준
 
@@ -137,141 +158,175 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 - `none` - 장치에서 작업을 수행할 수 없음
 - 다음 값의 조합입니다.
-    - `read` - 장치에서 읽기 작업이 허용됩니다.
-    - `write` - 장치에서 쓰기 작업이 허용됩니다.
-    - `execute` - 장치에서 실행 작업이 허용됩니다.
+  - `read` - 장치에서 읽기 작업이 허용됩니다.
+  - `write` - 장치에서 쓰기 작업이 허용됩니다.
+  - `execute` - 장치에서 실행 작업이 허용됩니다.
 
 > [!NOTE]
 > 사용 권한 수준에 있는 경우 다른 사용 `none` 권한( `read` , 또는 `write` `execute` )은 무시됩니다.
-
-> [!NOTE]
+>
 > 이 `execute` 사용 권한은 Mach-O 이진의 실행만 참조합니다. 스크립트 또는 다른 유형의 페이로드 실행은 포함하지 않습니다.
 
+<br>
+
+****
+
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | 사용 권한 |
-| **Data type** | 문자열 배열 |
-| **사용 가능한 값:** | 없음 <br/> 읽기 <br/> write <br/> execute |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|사용 권한|
+|**Data type**|문자열 배열|
+|**사용 가능한 값:**|없음 <p> 읽기 <p> write <p> execute|
+|
 
 #### <a name="restrict-removable-media-by-vendor-product-and-serial-number"></a>공급업체, 제품 및 일련 번호에 따라 이동식 미디어 제한
 
 이동식 [장치](#allow-or-block-removable-devices)허용 또는 차단에 설명된 바와 같이 USB 장치와 같은 이동식 미디어는 공급업체 ID, 제품 ID 및 일련 번호로 식별할 수 있습니다.
 
-이동식 미디어 정책의 최상위 수준에서 원하는 경우 공급업체 수준에서 보다 세부적인 제한을 정의할 수 있습니다. 
+이동식 미디어 정책의 최상위 수준에서 원하는 경우 공급업체 수준에서 보다 세부적인 제한을 정의할 수 있습니다.
 
 사전에는 하나 이상의 항목이 포함되고 각 항목이 공급업체 `vendors` ID로 식별됩니다.
 
+<br>
+
+****
+
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | 공급업체 |
-| **Data type** | 사전(중첩된 기본 설정) |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|공급업체|
+|**Data type**|사전(중첩된 기본 설정)|
+|
 
 각 공급업체에 대해 해당 공급업체의 장치에 대해 원하는 사용 권한 수준을 지정할 수 있습니다.
 
-|섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | 사용 권한 |
-| **Data type** | 문자열 배열 |
-| **사용 가능한 값:** | 기본 권한 [수준과 동일](#default-permission-level) |
+<br>
 
-또한 필요한 경우 해당 공급업체에 속하는 제품 집합을 보다 세부적인 사용 권한이 정의되어 있는 제품 집합을 지정할 수 있습니다. 사전에는 하나 이상의 항목이 포함되고 각 항목이 제품 `products` ID로 식별됩니다. 
+****
 
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | products |
-| **Data type** | 사전(중첩된 기본 설정) |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|사용 권한|
+|**Data type**|문자열 배열|
+|**사용 가능한 값:**|기본 권한 [수준과 동일](#default-permission-level)|
+|
+
+또한 필요한 경우 해당 공급업체에 속하는 제품 집합을 보다 세부적인 사용 권한이 정의되어 있는 제품 집합을 지정할 수 있습니다. 사전에는 하나 이상의 항목이 포함되고 각 항목이 제품 `products` ID로 식별됩니다.
+
+<br>
+
+****
+
+|섹션|값|
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|products|
+|**Data type**|사전(중첩된 기본 설정)|
+|
 
 각 제품에 대해 해당 제품에 대해 원하는 사용 권한 수준을 지정할 수 있습니다.
 
+<br>
+
+****
+
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | 사용 권한 |
-| **Data type** | 문자열 배열 |
-| **사용 가능한 값:** | 기본 권한 [수준과 동일](#default-permission-level) |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|사용 권한|
+|**Data type**|문자열 배열|
+|**사용 가능한 값:**|기본 권한 [수준과 동일](#default-permission-level)|
+|
 
 또한 보다 세부적인 사용 권한이 정의되는 선택적 일련 번호 집합을 지정할 수 있습니다.
 
 사전에는 하나 이상의 항목이 포함되고 각 항목이 일련 번호로 `serialNumbers` 식별됩니다.
 
+<br>
+
+****
+
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | serialNumbers |
-| **Data type** | 사전(중첩된 기본 설정) |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|serialNumbers|
+|**Data type**|사전(중첩된 기본 설정)|
+|
 
 각 일련 번호에 대해 원하는 사용 권한 수준을 지정할 수 있습니다.
 
+<br>
+
+****
+
 |섹션|값|
-|:---|:---|
-| **도메인** | `com.microsoft.wdav` |
-| **키** | 사용 권한 |
-| **Data type** | 문자열 배열 |
-| **사용 가능한 값:** | 기본 권한 [수준과 동일](#default-permission-level) |
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|사용 권한|
+|**Data type**|문자열 배열|
+|**사용 가능한 값:**|기본 권한 [수준과 동일](#default-permission-level)|
+|
 
 #### <a name="example-device-control-policy"></a>장치 제어 정책 예
 
 다음 예제에서는 위의 모든 개념을 장치 제어 정책에 결합할 수 있는 방법을 보여줍니다. 다음 예제에서는 이동식 미디어 정책의 계층적 특성을 유의합니다.
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
-<plist version="1.0"> 
-<dict> 
-    <key>deviceControl</key> 
-    <dict> 
-        <key>navigationTarget</key> 
-        <string>[custom URL for notifications]</string> 
-        <key>removableMediaPolicy</key> 
-        <dict> 
-            <key>enforcementLevel</key> 
-            <string>[enforcement level]</string> <!-- audit / block --> 
-            <key>permission</key> 
-            <array> 
-                <string>[permission]</string> <!-- none / read / write / execute --> 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>deviceControl</key>
+    <dict>
+        <key>navigationTarget</key>
+        <string>[custom URL for notifications]</string>
+        <key>removableMediaPolicy</key>
+        <dict>
+            <key>enforcementLevel</key>
+            <string>[enforcement level]</string> <!-- audit / block -->
+            <key>permission</key>
+            <array>
+                <string>[permission]</string> <!-- none / read / write / execute -->
                 <!-- other permissions -->
-            </array> 
-            <key>vendors</key> 
-            <dict> 
-                <key>[vendor id]</key> 
+            </array>
+            <key>vendors</key>
+            <dict>
+                <key>[vendor id]</key>
                 <dict>
-                    <key>permission</key> 
-                    <array> 
-                        <string>[permission]</string> <!-- none / read / write / execute --> 
+                    <key>permission</key>
+                    <array>
+                        <string>[permission]</string> <!-- none / read / write / execute -->
                         <!-- other permissions -->
-                    </array> 
-                    <key>products</key> 
-                    <dict> 
-                        <key>[product id]</key> 
-                        <dict> 
-                            <key>permission</key> 
-                            <array> 
-                                <string>[permission]</string> <!-- none / read / write / execute --> 
+                    </array>
+                    <key>products</key>
+                    <dict>
+                        <key>[product id]</key>
+                        <dict>
+                            <key>permission</key>
+                            <array>
+                                <string>[permission]</string> <!-- none / read / write / execute -->
                                 <!-- other permissions -->
-                            </array> 
-                            <key>serialNumbers</key> 
-                            <dict> 
-                                <key>[serial-number]</key> 
-                                <array> 
-                                    <string>[permission]</string> <!-- none / read / write / execute --> 
+                            </array>
+                            <key>serialNumbers</key>
+                            <dict>
+                                <key>[serial-number]</key>
+                                <array>
+                                    <string>[permission]</string> <!-- none / read / write / execute -->
                                     <!-- other permissions -->
-                                </array> 
-                                <!-- other serial numbers --> 
-                            </dict> 
-                        </dict> 
-                        <!-- other products --> 
-                    </dict> 
-                </dict> 
-                <!-- other vendors --> 
-            </dict> 
-        </dict> 
-    </dict> 
-</dict> 
-</plist> 
+                                </array>
+                                <!-- other serial numbers -->
+                            </dict>
+                        </dict>
+                        <!-- other products -->
+                    </dict>
+                </dict>
+                <!-- other vendors -->
+            </dict>
+        </dict>
+    </dict>
+</dict>
+</plist>
 ```
 
 다음 문서에는 장치 제어 정책의 더 많은 예제가 포함되어 있습니다.
@@ -307,8 +362,8 @@ USB 장치의 공급업체 ID, 제품 ID 및 일련 번호를 찾으시다:
 
 끝점 고급 헌팅을 위한 Microsoft Defender의 USB 장치에서 시작된 탑재, 언모트 및 볼륨 변경 이벤트를 볼 수 있습니다. 이러한 이벤트는 의심스러운 사용 활동을 식별하거나 내부 조사를 수행하는 데 도움이 될 수 있습니다.
 
-```
-DeviceEvents 
+```bash
+DeviceEvents
     | where ActionType == "UsbDriveMounted" or ActionType == "UsbDriveUnmounted" or ActionType == "UsbDriveDriveLetterChanged"
     | where DeviceId == "<device ID>"
 ```

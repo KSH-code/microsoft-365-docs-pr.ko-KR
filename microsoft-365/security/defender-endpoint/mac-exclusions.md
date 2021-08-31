@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9047c6e5b91ebd2d7e0a4e953ca907b31cb476f8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 96f7693e83bf4c3f4a1f14f39d99de55f7ef1979
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573058"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745028"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 제외 구성 및 유효성 검사
 
@@ -52,7 +52,7 @@ Mac 검사의 끝점용 Defender에서 특정 파일, 폴더, 프로세스 및 �
 
 다음 표에는 Mac의 끝점용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
-제외|정의|예제
+제외|정의|예
 ---|---|---
 파일 확장명|컴퓨터의 아무 곳이나 확장명을 통해 모든 파일|`.test`
 파일|전체 경로로 식별된 특정 파일|`/var/log/test.log` <p> `/var/log/*.log` <p> `/var/log/install.?.log`
@@ -66,8 +66,8 @@ Mac 검사의 끝점용 Defender에서 특정 파일, 폴더, 프로세스 및 �
 \*|none을 포함한 모든 문자와 일치합니다(경로 내에서 이 와일드카드를 사용하는 경우 폴더 하나만 대체).|`/var/*/*.log`|`/var/log/system.log`|`/var/log/nested/system.log`
 ?|단일 문자와 일치|`file?.log`|`file1.log` <p> `file2.log`|`file123.log`
 
->[!NOTE]
->제품은 제외를 평가할 때 firmlinks 문제를 해결하려고 합니다. 제외에 와일드카드가 포함되거나 대상 파일(볼륨)이 없는 경우 Firmlink 확인이 `Data` 작동하지 않습니다.
+> [!NOTE]
+> 제품은 제외를 평가할 때 firmlinks 문제를 해결하려고 합니다. 제외에 와일드카드가 포함되거나 대상 파일(볼륨)이 없는 경우 Firmlink 확인이 `Data` 작동하지 않습니다.
 
 ## <a name="how-to-configure-the-list-of-exclusions"></a>제외 목록을 구성하는 방법
 
@@ -77,7 +77,7 @@ JAMF, Intune 또는 다른 관리 콘솔에서 제외를 구성하는 방법에 
 
 ### <a name="from-the-user-interface"></a>사용자 인터페이스에서
 
-Endpoint용 Defender 응용 프로그램을 열고 다음 스크린샷과 같이 설정 추가 또는 제거... 관리로  >  이동합니다.
+Endpoint용 Defender 응용 프로그램을  열고 다음 스크린샷과 같이 설정 추가 또는 제거... 관리로 \> 이동합니다.
 
 ![제외 스크린샷 관리](images/mdatp-37-exclusions.png)
 

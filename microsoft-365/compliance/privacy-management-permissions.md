@@ -16,16 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 개인 정보 관리 권한을 설정하고 사용자를 역할 그룹에 할당하는 방법을 배워야 합니다.
-ms.openlocfilehash: ebdd5610253ecb5bd490eb9b8bb8beb45f8b6458
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 6caf786a99e08c2f5c6abfd4c2dbabc438151d06
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507713"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747012"
 ---
 # <a name="set-user-permissions-and-assign-roles-in-privacy-management-preview"></a>개인 정보 관리에서 사용자 권한 설정 및 역할 할당(미리 보기)
-
-이 문서에서는 사용 권한을  설정하고 사용자를 역할 그룹 및 **역할에 할당하는** **방법을 배워야 합니다.**
 
 조직의 구성원에게 개인 정보 관리를 사용할 수 있는 권한을 부여하려면 조직의 해당 역할 그룹에 Microsoft 365 규정 준수 센터. 개인 정보 관리와 관련한 역할은 개인 정보 보호 정책에 Azure Active Directory.
 

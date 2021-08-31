@@ -37,12 +37,12 @@ search.appverid:
 - OSU160
 ms.assetid: ba124775-d5c0-4d68-b88d-8458ad4c3717
 description: SharePoint Server 2007에 대한 지원은 2017년 10월에 종료됩니다. 이 문서에서는 업그레이드, 마이그레이션 및 지원 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: de7469e40ac377cd49384c5d67cf9ac26273f4ace74ab165c6aa38835afa8444
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b653bcec6992834bba9f469753d8a3d13277b239
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885078"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747000"
 ---
 # <a name="sharepoint-server-2007-end-of-support-roadmap"></a>SharePoint Server 2007 지원 종료 로드맵
 
@@ -119,11 +119,11 @@ SharePoint 서버를 자체 서버에 사내에 설치할 수 있습니다. 또�
 |**온라인 pro**|**Online con**|
 |:-----|:-----|
 |Microsoft는 SPO 하드웨어 및 모든 하드웨어 관리 기능을 제공합니다.  <br/> |사용 가능한 기능은 서버 SharePoint SPO 간에 다를 수 있습니다.  <br/> |
-|구독의 전역 관리자로서 SPO 사이트에 관리자를 할당할 수 있습니다.  <br/> |SharePoint Server의 팜 관리자가 사용할 수 있는 일부 작업이 존재하지 않을 수도 SharePoint 관리자 역할에 포함되어 있지 않을 수도 Microsoft 365.  <br/> |
+|구독의 Sharepoint 관리자 또는 전역 관리자로서 SPO 사이트에 관리자를 할당할 수 있습니다.  <br/> |SharePoint Server의 팜 관리자가 사용할 수 있는 일부 작업이 존재하지 않을 수도 SharePoint 관리자 역할에 포함되어 있지 않을 수도 Microsoft 365.  <br/> |
 |Microsoft는 기본 하드웨어 및 소프트웨어에 패치, 수정 및 업데이트를 적용합니다. <br/> |서비스에서 현재 파일 시스템에 액세스할 수 없는 경우 사용자 지정이 제한됩니다.  <br/> |
 |Microsoft는 서비스 수준 [계약을 게시하고](/office365/servicedescriptions/office-365-platform-service-description/service-level-agreement) 서비스 수준 인시던트 해결을 위해 신속하게 움직입니다. <br/> |백업 및 복원 및 기타 복구 옵션은 온라인에서 서비스에서 SharePoint 있습니다. 사용되지 않는 경우 백업을 덮어 쓰게 됩니다. <br/> |
 |보안 테스트 및 서버 성능 조정은 Microsoft의 서비스에서 지속적인 기준에 따라 수행됩니다. <br/> |사용자 인터페이스 및 기타 SharePoint 기능에 대한 변경 내용은 서비스에 의해 설치되어 설정 또는 해제해야 할 수 있습니다. <br/> |
-|Microsoft 365 Microsoft 규정 준수 제품인 다양한 산업 [표준을 충족합니다.](/compliance/regulatory/offering-home)  <br/> |[마이그레이션에 대한 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 지원은 제한됩니다.  <br/> 업그레이드의 상당수는 수동 또는 SharePoint Online 및 OneDrive 콘텐츠 로드맵에 설명된 SPO 마이그레이션 API를 통해 [수행됩니다.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)  <br/> |
+|Microsoft 365 Microsoft 규정 준수 제품인 다양한 산업 [표준을 충족합니다.](/compliance/regulatory/offering-home)  <br/> |[FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 지원이 제한됩니다.  <br/> 업그레이드의 상당수는 수동 또는 SharePoint Online 및 OneDrive 콘텐츠 로드맵에 설명된 SPO 마이그레이션 API를 통해 [수행됩니다.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)  <br/> |
 |Microsoft 지원 엔지니어 및 데이터 센터 직원은 구독에 대한 무제한 관리자 액세스 권한이 없습니다. <br/> |최신 버전의 하드웨어를 지원하기 위해 하드웨어를 업그레이드해야 하는 경우 또는 업그레이드를 위해 SharePoint 팜이 필요한 경우 추가 비용이 있을 수 있습니다.  <br/> |
 |파트너는 데이터를 온라인으로 마이그레이션하는 일회성 작업을 지원할 SharePoint 있습니다.  <br/> ||
 |온라인 제품은 자동으로 업데이트됩니다. 기능이 더 이상 사용 불가능할 수 있습니다. <br/> ||
@@ -192,7 +192,7 @@ SharePoint 2007에서 SharePoint Server 2016으로 이동하려면 상당한 시
   
 | 옵션 | 설명 |
 |:-----|:-----|
-[Microsoft 규정 준수 제품](/compliance/regulatory/offering-home)  <br/> |[마이그레이션에 대한 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 지원은 제한됩니다.  <br/> 업그레이드의 상당수는 수동 또는 SharePoint Online 및 OneDrive 콘텐츠 로드맵에 설명된 SPO 마이그레이션 API를 통해 [수행됩니다.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)  <br/> |
+[Microsoft 규정 준수 제품](/compliance/regulatory/offering-home)  <br/> |[FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 지원이 제한됩니다.  <br/> 업그레이드의 상당수는 수동 또는 SharePoint Online 및 OneDrive 콘텐츠 로드맵에 설명된 SPO 마이그레이션 API를 통해 [수행됩니다.](/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)  <br/> |
 |Microsoft 지원 엔지니어 및 데이터 센터 직원은 구독에 대한 무제한 관리자 액세스 권한이 없습니다.<br/> |최신 버전의 하드웨어 인프라를 지원하기 위해 하드웨어 인프라를 업그레이드해야 하는 경우 또는 업그레이드를 위해 SharePoint 팜이 필요한 경우 추가 비용이 있을 수 있습니다.  <br/> |
 |파트너는 데이터를 온라인으로 마이그레이션하는 일회성 작업을 지원할 SharePoint 있습니다.  <br/> ||
 |온라인 제품은 서비스 전체에서 자동으로 업데이트됩니다. 기능이 더 이상 사용 불가능할 수 있습니다.<br/> ||

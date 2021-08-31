@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 98cd67154d1fb4ac7d0be741e1adee4fe71ab1ff
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: cecc6cd9be841043c2f3cc55977c56f14386cd2d
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589711"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745772"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 
@@ -213,7 +213,7 @@ Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러
     - tags
     - hideStatusMenuIcon
 
-     자세한 내용은 [Jamf 구성 프로필의 속성 목록을 참조하세요.](mac-preferences.md#property-list-for-jamf-configuration-profile)
+     자세한 내용은 [JAMF 전체 구성 프로필에 대한 속성 목록을 참조하세요.](mac-preferences.md#property-list-for-jamf-full-configuration-profile)
 
      ```XML
      <?xml version="1.0" encoding="UTF-8"?>

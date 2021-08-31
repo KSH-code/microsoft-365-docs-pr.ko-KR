@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: edc1caef21714d76cf06dd065b4963bdc4a7ea7b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 207c1334f91ecd22385ce281b3f10763afe57810
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573550"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747378"
 ---
-# <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>MacOS 장치에서 Endpoint용 Microsoft Defender를 Jamf 2013에 Pro 
+# <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>MacOS 장치에서 Endpoint용 Microsoft Defender를 Jamf 2013에 Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -46,7 +46,6 @@ JamF에 등록하는 방법에는 여러 가지가 있습니다.
 - [방법 2: 사전 등록](#enrollment-method-2-prestage-enrollments)
 
 전체 목록은 컴퓨터 등록 [정보를 참조하세요.](https://docs.jamf.com/9.9/casper-suite/administrator-guide/About_Computer_Enrollment.html)
-
 
 ## <a name="enrollment-method-1-enrollment-invitations"></a>등록 방법 1: 등록 초대
 
@@ -92,7 +91,7 @@ JamF에 등록하는 방법에는 여러 가지가 있습니다.
 
     ![Jamf Pro 등록의 이미지1.](images/jamfpro-ca-certificate.png)
 
-2. CA 인증서가 설치되면 브라우저 창으로 돌아가 **계속을** 선택하고 MDM 프로필을 설치합니다. 
+2. CA 인증서가 설치되면 브라우저 창으로 돌아가 **계속을** 선택하고 MDM 프로필을 설치합니다.
 
     ![Jamf Pro 등록 이미지2.](images/jamfpro-install-mdm-profile.png)
 
@@ -100,7 +99,7 @@ JamF에 등록하는 방법에는 여러 가지가 있습니다.
 
     ![Jamf Pro 등록 이미지3.](images/jamfpro-download.png)
 
-4. **계속을** 선택하여 MDM 프로필 설치를 진행합니다. 
+4. **계속을** 선택하여 MDM 프로필 설치를 진행합니다.
 
     ![Jamf Pro 등록4의 이미지입니다.](images/jamfpro-install-mdm.png)
 
@@ -108,6 +107,6 @@ JamF에 등록하는 방법에는 여러 가지가 있습니다.
 
     ![Jamf Pro 등록5의 이미지입니다.](images/jamfpro-mdm-unverified.png)
 
-6. **계속을** 선택하여 구성을 완료합니다. 
+6. **계속을** 선택하여 구성을 완료합니다.
 
     ![Jamf Pro 등록6의 이미지입니다.](images/jamfpro-mdm-profile.png)

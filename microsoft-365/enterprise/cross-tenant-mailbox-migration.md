@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 6b2ef03984e6ed7c9b93476869e998bb06b78a30
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: cff003b3a6eb8a996b12c4be8b6a48b256ba80d8
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566835"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747510"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -47,7 +47,7 @@ ms.locfileid: "58566835"
 
 테넌트 간 사서함 이동 기능을 사용하려면 [Azure Key Vault가](/azure/key-vault/basic-concepts) 테넌트 쌍별 Azure 응용 프로그램을 설정하여 한 테넌트에서 다른 테넌트로의 사서함 마이그레이션을 인증하고 권한을 부여하는 데 사용되는 인증서/비밀을 안전하게 저장하고 액세스하고 테넌트 간에 인증서/비밀을 공유하기 위한 요구 사항을 제거해야 합니다.
 
-시작하기 전에 Azure Key Vault, 사서함 응용 프로그램 이동, EXO 마이그레이션 끝점 및 EXO 조직 관계를 구성하기 위해 배포 스크립트를 실행하기 위해 필요한 사용 권한이 있는지 확인해야 합니다. 일반적으로 전역 관리자에게는 모든 구성 단계를 수행할 수 있는 권한이 있습니다.
+시작하기 전에 Azure Key Vault, 사서함 응용 프로그램 이동, EXO 마이그레이션 끝점 및 EXO 조직 관계를 구성하기 위해 배포 스크립트를 실행하기 위해 필요한 사용 권한이 있는지 확인해야 합니다. 일반적으로 **Azure AD DC 관리자** 또는 **전역**  관리자에게는 모든 구성 단계를 수행할 수 있는 권한이 있습니다.
 
 또한 설치를 실행하기 전에 원본 테넌트의 메일 사용이 가능한 보안 그룹이 필요합니다. 이러한 그룹은 원본(또는 리소스라고도 하는) 테넌트에서 대상 테넌트로 이동할 수 있는 사서함 목록의 범위를 지정하는 데 사용됩니다. 이렇게 하면 원본 테넌트 관리자가 이동해야 하는 특정 사서함 집합을 제한하거나 범위를 지정하여 의도하지 않은 사용자가 마이그레이션되지 않도록 할 수 있습니다. 중첩된 그룹은 지원되지 않습니다.
 
@@ -146,7 +146,7 @@ ms.locfileid: "58566835"
 
 7. URL이 원격 PowerShell 세션에 표시됩니다. 테넌트 동의에 대해 제공된 링크를 복사하여 웹 브라우저에 붙여넣습니다.
 
-8. 전역 관리자 자격 증명으로 로그인합니다. 다음 화면이 표시된 경우 수락을 **선택합니다.**
+8. Azure AD **DC** 관리자 또는 전역 관리자 자격 **증명으로 로그인합니다.** 다음 화면이 표시된 경우 수락을 **선택합니다.**
 
     :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="사용 권한 수락 대화 상자":::
 
@@ -180,7 +180,7 @@ ms.locfileid: "58566835"
 
 4. 원본 테넌트 SetupCrossTenantRelationshipForResourceTenant.ps1 대한 GitHub 스크립트를 다운로드합니다. [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) .
 
-5. 관리자 권한으로 원본 테넌트에 대한 원격 PowerShell 연결을 Exchange. 전역 관리자 권한은 원본 테넌트 구성에 필요하지 않습니다. Azure 응용 프로그램 만들기 프로세스 때문에 대상 테넌트만 구성할 수 있습니다.
+5. 관리자 권한으로 원본 테넌트에 대한 원격 PowerShell 연결을 Exchange. **Azure AD DC**  관리자 또는 전역 관리자 권한은 원본 테넌트 구성에 필요하지 않습니다. Azure 응용 프로그램 만들기 프로세스 때문에 대상 테넌트만 구성할 수 있습니다.
 
 6. 디렉터리를 스크립트 위치로 변경하거나 스크립트가 현재 원격 PowerShell 세션의 위치에 저장되어 있는지 확인합니다.
 
@@ -432,7 +432,7 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 
 사서함이 원본에서 대상으로 이동한 후 원본 및 대상 모두에 대한 새 targetAddress로 업데이트되는 On-premises 메일 사용자를 확인해야 합니다. 예제에서 이동에 사용되는 targetDeliveryDomain은 에 **contoso.onmicrosoft.com.** 이 targetAddress로 메일 사용자를 업데이트합니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **이동 후 원본에서 원격Mailboxes를 업데이트해야 하나요?**
 

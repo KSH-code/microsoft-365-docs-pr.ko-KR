@@ -15,19 +15,15 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 개인 정보 관리의 주체 권한 요청 솔루션은 개인 데이터를 찾고 콘텐츠를 검토하고 보고서를 만드는 데 도움이 됩니다.
-ms.openlocfilehash: d8f8a636d5322666b3a60ce7310c8cd66ac89538
-ms.sourcegitcommit: 43897ead6db2d3977f6ceb8abeedb8aaff9c020a
+description: Microsoft 개인 정보 보호 관리의 주체 권한 요청 영역을 사용하면 개인 데이터를 찾고 콘텐츠를 검토하고 보고서를 만드는 데 공동 작업을 할 수 있습니다.
+ms.openlocfilehash: 28059996d4969b23f856df3bb05584b4055ba3d2
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380239"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745736"
 ---
 # <a name="manage-subject-rights-requests-in-privacy-management-preview"></a>개인 정보 관리에서 주체 권한 요청 관리(미리 보기)
-
-이 문서에서는 주체 권한 요청 솔루션을 사용하여  환경에서 개인 데이터를 **찾고,** 검토를 위해 공동 작업을 수행하고, 보고서를 **만들고,** 주요 작업을 자동화하는 **방법을** 설명합니다.
-
-## <a name="purpose-of-subject-rights-requests"></a>주체 권한 요청의 목적
 
 개인 정보 보호 관리는 조직 내에서 개인 데이터를 관리하기를 원하는 사용자로부터의 요청을 처리하는 데 도움이 되는 강력한 주체 권한 요청 기능을 제공합니다. 이러한 요청을 DSRs(데이터 주체 요청), DSARS(데이터 주체 액세스 요청) 또는 소비자 권한 요청이라고도 합니다. 개인 정보 보호 관리를 통해 주체 권한 요청을 이행하는 담당자는 데이터 주체가 쉽게 식별될 수 있도록 지원하여 Exchange, SharePoint, OneDrive 및 데이터에서 조직의 데이터 사이에서 개인 정보를 Teams.
 

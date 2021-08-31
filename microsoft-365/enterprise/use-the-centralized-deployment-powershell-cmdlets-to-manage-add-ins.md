@@ -20,12 +20,12 @@ ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
 description: 중앙 집중식 배포 PowerShell cmdlet을 사용하여 조직에 대한 Office 추가 기능을 배포하고 Microsoft 365 있습니다.
-ms.openlocfilehash: 8f84c3222fa8a9eefcdda90fa6daf1c453dd73236fd6be61d2c57b63c7feceea
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 37a60ffe7d17f09ecbdb70c80c880b2c7bd51645
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830158"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745844"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>중앙 집중식 배포 PowerShell cmdlet을 사용하여 추가 기능 관리
 
@@ -49,7 +49,7 @@ ms.locfileid: "53830158"
   Connect-OrganizationAddInService
   ```
 
-3. 자격 **증명 입력 페이지에서** 전역 Microsoft 365 자격 증명을 입력합니다. 또는 cmdlet에 자격 증명을 직접 입력할 수 있습니다. 
+3. 자격 **증명 입력 페이지에서** 사용자 Microsoft 365 또는 전역 관리자 자격 **증명을 입력합니다.** 또는 cmdlet에 자격 증명을 직접 입력할 수 있습니다. 
     
     회사 관리자 자격 증명을 PSCredential 개체로 지정하는 다음 cmdlet을 실행합니다.
     

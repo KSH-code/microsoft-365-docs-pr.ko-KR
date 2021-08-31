@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0fb08635f50eedbf5fd96b8abc64ef9dfae60cbf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 71fd1428df73686f59199c70d988599f511faaf3
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569696"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747446"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 
@@ -142,15 +142,19 @@ ms.locfileid: "58569696"
 
 기본 라이브 응답 명령을 실행할 수 있는 권한이 부여된  사용자 역할에 대해 다음 명령을 사용할 수 있습니다. 역할 할당에 대한 자세한 내용은 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
 
+<br>
+
+****
+
 |명령|설명|
-|---|---|---|
+|---|---|
 |`cd`|현재 디렉터리를 변경합니다.|
 |`cls`|콘솔 화면을 지우습니다.|
 |`connect`|디바이스에 대한 라이브 응답 세션을 초기화합니다.|
 |`connections`|모든 활성 연결을 보여 주며,|
 |`dir`|디렉터리의 파일 및 하위 디렉터리 목록을 보여줍니다.|
 |`drivers`|장치에 설치된 모든 드라이버를 보여줍니다.|
-|`fg <command ID>`|지정한 작업을 포그라운드의 포그라운드에 두어 현재 작업으로 지정합니다. <br> 참고: fg는 PID가 아니라 작업에서 사용할 수 있는 "명령 ID"를 취합니다.|
+|`fg <command ID>`|지정한 작업을 포그라운드의 포그라운드에 두어 현재 작업으로 지정합니다. <p> **참고**: fg는 PID가 아니라 작업에서 사용할 수 있는 "명령 ID"를 취합니다.|
 |`fileinfo`|파일에 대한 정보를 얻습니다.|
 |`findfile`|디바이스에서 지정한 이름으로 파일을 찾습니다.|
 |`getfile <file_path>`|파일을 다운로드합니다.|
@@ -162,10 +166,15 @@ ms.locfileid: "58569696"
 |`scheduledtasks`|디바이스의 모든 예약된 작업을 보여줍니다.|
 |`services`|디바이스의 모든 서비스를 보여줍니다.|
 |`trace`|터미널의 로깅 모드를 디버그로 설정|
+|
 
 ### <a name="advanced-commands"></a>고급 명령
 
 고급 라이브 응답 명령을 실행할 수 있는 권한이 부여된 사용자 역할에 대해 다음 **명령을** 사용할 수 있습니다. 역할 할당에 대한 자세한 내용은 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
+
+<br>
+
+****
 
 |명령|설명|
 |---|---|
@@ -173,8 +182,9 @@ ms.locfileid: "58569696"
 |`run`|장치의 라이브러리에서 PowerShell 스크립트를 실행합니다.|
 |`library`|라이브 응답 라이브러리에 업로드된 파일을 나열합니다.|
 |`putfile`|라이브러리에서 장치로 파일을 넣습니다. 파일은 작업 폴더에 저장되고 장치가 기본적으로 다시 시작될 때 삭제됩니다.|
-|`remediate`|장치에서 엔터티를 수정합니다. 수정 작업은 엔터티 유형에 따라 달라집니다.<br>- 파일: 삭제<br>- 프로세스: 이미지 파일 중지, 삭제<br>- 서비스: 이미지 파일 중지, 삭제<br>- 레지스트리 항목: delete<br>- 예약된 작업: remove<br>- 시작 폴더 항목: 파일 삭제 <br> 참고: 이 명령에는 선행 명령이 있습니다. 명령을 함께 사용하여 자동으로 선행 명령을 실행할 `-auto` `remediate` 수 있습니다.
+|`remediate`|장치에서 엔터티를 수정합니다. 수정 작업은 엔터티 유형에 따라 달라집니다. <ul><li>파일: 삭제</li><li>프로세스: 이미지 파일 중지, 삭제</li><li>서비스: 이미지 파일 중지, 삭제</li><li>레지스트리 항목: delete</li><li>예약된 작업: remove</li><li>시작 폴더 항목: 파일 삭제</li></ul> <p> **참고:** 이 명령에는 선행 명령이 있습니다. 명령을 함께 사용하여 자동으로 선행 명령을 실행할 `-auto` `remediate` 수 있습니다.
 |`undo`|수정된 엔터티를 복원합니다.|
+|
 
 ## <a name="use-live-response-commands"></a>라이브 응답 명령 사용
 
@@ -203,10 +213,15 @@ ms.locfileid: "58569696"
 
 다음은 몇 가지 예입니다.
 
+<br>
+
+****
+
 |명령|속성 기능|
 |---|---|
 |`getfile "C:\windows\some_file.exe" &`|백그라운드에서 이름이some_file.exe *다운로드를* 시작합니다.|
 |`fg 1234`|명령 ID가 *1234인* 다운로드를 포그라운드로 반환합니다.|
+|
 
 ### <a name="put-a-file-in-the-library"></a>라이브러리에 파일 저장
 

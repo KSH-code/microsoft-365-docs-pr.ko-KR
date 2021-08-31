@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 테넌트 Microsoft 365 조직 전체에서 공동 작업의 작동 방식에 대해 알아보고, 여러 조직이 안전하게 공동 작업할 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c2060ec93fdf80d4afc3f0aa8f693de6bb275454
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 05a1756d4707ba51d1175f0f5f5701f89fd7f5a4
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356639"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747044"
 ---
 # <a name="microsoft-365-inter-tenant-collaboration"></a>Microsoft 365 테넌트 간 공동 작업
 
@@ -58,7 +58,7 @@ Microsoft 365 테넌트 간 공동 작업 옵션에는 파일 및 대화에 대�
 
 | 공유 목표 | 관리 작업 | 방법 정보 |
 |:-----|:-----|:-----|
-|Azure AD B2B 공동 작업 - 조직 디렉터리의 그룹에 외부 사용자를 추가하여 콘텐츠 공유 | 한 Microsoft 365 테넌트의 전역 관리자는 다른 Microsoft 365 테넌트의 사용자를 초대하고, 해당 외부 사용자를 그룹에 추가하고, 그룹에 대한 SharePoint 사이트 및 라이브러리와 같은 콘텐츠에 대한 액세스 권한을 부여할 수 있습니다. |  <ul><li> [Azure AD B2B 공동 작업 미리 보기란?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) </li><li> [Azure AD B2B: 새로운 업데이트로 비즈니스 간 콜라브를 쉽게 만들 수 있습니다.](https://blogs.technet.microsoft.com/enterprisemobility/2017/02/01/azure-ad-b2b-new-updates-make-cross-business-collab-easy/) </li><li> [외부 공유 및 Azure Active Directory B2B 공동 작업](/azure/active-directory/active-directory-b2b-o365-external-user) </li><li> [Azure Active Directory B2B 공동 작업 API 및 사용자 지정](/azure/active-directory/active-directory-b2b-api) </li><li> [Azure AD 및 ID 쇼: Azure AD B2B 공동 작업(비즈니스-비즈니스)](https://channel9.msdn.com/Series/Azure-AD-Identity/AzureADB2B) </li></ul> |
+|Azure AD B2B 공동 작업 - 조직 디렉터리의 그룹에 외부 사용자를 추가하여 콘텐츠 공유 | 한 Microsoft 365 테넌트의 Azure **AD DC** 관리자,  보안 관리자, 사용자 관리자, 클라우드 응용 프로그램 관리자 또는 전역 관리자는 다른 Microsoft 365 테넌트의 사용자를 초대하여 디렉터리에 참가하고, 해당 외부 사용자를 그룹에 추가하고, 그룹의 SharePoint 사이트 및 라이브러리와 같은 콘텐츠에 대한 액세스 권한을 부여할 수 있습니다.   |  <ul><li> [Azure AD B2B 공동 작업 미리 보기란?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) </li><li> [Azure AD B2B: 새로운 업데이트로 비즈니스 간 콜라브를 쉽게 만들 수 있습니다.](https://blogs.technet.microsoft.com/enterprisemobility/2017/02/01/azure-ad-b2b-new-updates-make-cross-business-collab-easy/) </li><li> [외부 공유 및 Azure Active Directory B2B 공동 작업](/azure/active-directory/active-directory-b2b-o365-external-user) </li><li> [Azure Active Directory B2B 공동 작업 API 및 사용자 지정](/azure/active-directory/active-directory-b2b-api) </li><li> [Azure AD 및 ID 쇼: Azure AD B2B 공동 작업(비즈니스-비즈니스)](https://channel9.msdn.com/Series/Azure-AD-Identity/AzureADB2B) </li></ul> |
 
 ## <a name="microsoft-365-collaboration-options"></a>Microsoft 365 옵션
 
@@ -76,7 +76,7 @@ Microsoft 365 테넌트 간 공동 작업 옵션에는 파일 및 대화에 대�
 
 |공유 목표|관리 작업|방법 정보|
 |:-----|:-----|:-----|
-|조직 외부의 Teams 사용자와 공동 작업 | 테넌트에 대한 Microsoft 365 전역 관리자는 테넌트에서 외부 공동 작업을 사용하도록 Teams. 이제 전역 관리자와 팀 소유자가 전자 메일 주소가 있는 모든 사람을 초대하여 공동 작업을 할 수 Teams.  <br/> 관리자는 이미 테넌트에 있는 게스트를 관리하고 편집할 수도 있습니다. |  <ul><li> [게스트 액세스 권한을 부여합니다.](/microsoftteams/teams-dependencies) </li><li> [2016에서 게스트 액세스 설정 또는 Teams](/microsoftteams/set-up-guests) </li><li> [PowerShell을 사용하여 게스트 액세스 제어](/microsoftteams/guest-access-powershell) </li><li> [게스트 액세스 검사 목록](/microsoftteams/guest-access-checklist) </li><li> [게스트 사용자 보기](/microsoftteams/view-guests) </li><li> [게스트 사용자 정보 편집](/microsoftteams/edit-guests-information) </li></ul> |
+|조직 외부의 Teams 사용자와 공동 작업 | **테넌트의**  사용자 관리자 또는 테넌트 Microsoft 365 전역 관리자는 해당 사용자에서 외부 공동 작업을 사용하도록 Teams. 이제 전역 관리자와 팀 소유자가 전자 메일 주소가 있는 모든 사람을 초대하여 공동 작업을 할 수 Teams.  <br/> 관리자는 이미 테넌트에 있는 게스트를 관리하고 편집할 수도 있습니다. |  <ul><li> [게스트 액세스 권한을 부여합니다.](/microsoftteams/teams-dependencies) </li><li> [2016에서 게스트 액세스 설정 또는 Teams](/microsoftteams/set-up-guests) </li><li> [PowerShell을 사용하여 게스트 액세스 제어](/microsoftteams/guest-access-powershell) </li><li> [게스트 액세스 검사 목록](/microsoftteams/guest-access-checklist) </li><li> [게스트 사용자 보기](/microsoftteams/view-guests) </li><li> [게스트 사용자 정보 편집](/microsoftteams/edit-guests-information) </li></ul> |
 |팀 소유자는 게스트가 팀 내에서 공동 작업하는 방법을 초대하고 관리할 수 있습니다.  |팀 소유자는 게스트가 팀 내에서 할 수 있는 작업을 추가로 제어할 수 있습니다. |  <ul><li> [게스트 추가](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [팀에 게스트 추가](/microsoftteams/add-guests) </li><li> [2016에서 게스트 액세스 Teams](/microsoftteams/manage-guests) </li><li> [팀 또는 채널에 있는 사람 보기](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
 |다른 테넌트의 게스트는 다른 테넌트의 콘텐츠를 보고 Teams 공동 작업할 수 있습니다. | 없음 | [게스트 액세스 환경](/microsoftteams/guest-experience)|
 

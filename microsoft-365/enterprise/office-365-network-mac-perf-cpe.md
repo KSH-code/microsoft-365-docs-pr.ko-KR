@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 라우팅 정보
-ms.openlocfilehash: ea5bdf38cc9fd56a08ddc20a83c4557e5bda0cd2
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: bccac9dae56bb4a44df7a96144eb84ae7c19a84b
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58253842"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58745004"
 ---
 # <a name="microsoft-365-informed-network-routing-preview"></a>Microsoft 365 네트워크 라우팅(미리 보기)
 
@@ -65,7 +65,7 @@ Microsoft는 다양한 파트너와 협력하여 정보를 Microsoft 365 네트�
 
 정보를 제공된 네트워크 라우팅을 사용하려면 여러 단계가 필요하고, 그 중 일부는 SD-WAN 솔루션의 구성 인터페이스 내에서 수행해야 합니다. SD-WAN 솔루션 공급업체의 구성을 진행하기 전에 SD-WAN 솔루션 내에서 정보 제공된 네트워크 라우팅을 사용하도록 설정하는 프로세스를 시작하는 방법에 대한 지침을 Microsoft 365 관리 센터.
 
-정보 네트워크 라우팅을 사용하도록 설정할 준비가 Microsoft 365 관리 센터 전역 관리자 권한이 필요한지 확인합니다.
+정보 네트워크 라우팅을 사용하도록 설정할 준비가 Microsoft 365 관리 센터 필요한 사용자 관리자 또는 전역 관리자 **권한이** 있는지 확인합니다.
 
 >[!IMPORTANT]
 >선택한 SD-WAN 솔루션에서 정보 제공된 네트워크 라우팅 데이터 공유 채널에 액세스하는 데 필요한 테넌트 수준 응용 프로그램 사용 권한을 제공하려면 전역 관리자로서 다음 단계를 수행해야 합니다.
@@ -95,7 +95,7 @@ Microsoft와 선택한 SD-WAN 솔루션 간의 데이터 공유와 관련된 제
 
 ### <a name="step-4-grant-permissions-to-the-sd-wan-solution"></a>4단계: SD-WAN 솔루션에 대한 사용 권한 부여
 
-이 단계에서는 Azure AD(Azure AD)에 대한 권한 부여 Azure Active Directory 시작됩니다. 선택한 SD-WAN 솔루션이 테넌트와 연결된 정보 네트워크 라우팅 데이터 저장소 및 서비스 상태 정보에 액세스할 수 있도록 허용하는 테넌트 수준 권한을 부여하도록 요청됩니다. 이 작업을 수행하려면 전역 관리자 역할 권한이 필요합니다.
+이 단계에서는 Azure AD(Azure AD)에 대한 권한 부여 Azure Active Directory 시작됩니다. 선택한 SD-WAN 솔루션이 테넌트와 연결된 정보 네트워크 라우팅 데이터 저장소 및 서비스 상태 정보에 액세스할 수 있도록 허용하는 테넌트 수준 권한을 부여하도록 요청됩니다. 이 작업을 수행하려면 **Azure AD DC 관리자** 또는 전역 관리자 **역할** 권한이 필요합니다.
 
 이 응용 프로그램에 대한 사용 권한 **부여 링크를 선택하고** Azure AD 요청을 따르하세요.
 
@@ -138,7 +138,7 @@ Office Microsoft의 지속적인 네트워크 원격 분석 컬렉션의 일부�
 
 3. 이 사무실 위치 섹션의 Egress IP 주소 범위에서 이 사무실 위치에 대한 인터넷 연결을 제공하는 모든 네트워크 **회로를 추가합니다.** 각 회로가 네트워크 트래픽을 나타내는 고유한 공용 IP 주소 서브넷과 연결되어야 합니다.
 
-4. **저장** 을 선택하여 변경 내용을 저장합니다.
+4. 변경 내용을 저장하려면 **저장** 을 선택합니다.
 
 ## <a name="disabling-informed-network-routing"></a>정보 네트워크 라우팅을 사용 안 하게 설정
 
