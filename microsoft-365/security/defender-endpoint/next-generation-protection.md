@@ -15,12 +15,12 @@ ms.reviewer: mkaminska
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 5fdb1d7498fb35ac38638a75bd3656fae8206ea0
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: 9382df161e1601547addcd68fb33570854c10a82
+ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53323269"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58823591"
 ---
 # <a name="next-generation-protection-overview"></a>차세대 보호 개요
 
@@ -29,6 +29,9 @@ ms.locfileid: "53323269"
 - [동작 기반, 휴리스틱 및 실시간 바이러스 백신 보호](configure-protection-features-microsoft-defender-antivirus.md)는 파일 및 프로세스 동작 모니터링 및 기타 휴리스틱(*실시간 보호* 라고도 함)을 사용한 상시 검색을 포함합니다. 또한 안전하지 않다고 생각되지만 악성 프로그램으로 탐지되지 않을 수 있는 앱 탐지 및 차단도 포함됩니다.
 - 새로운 위협과 새로운 위협에 대한 거의 즉각적인 탐지 및 차단을 포함하는 [클라우드 제공 보호](cloud-protection-microsoft-defender-antivirus.md)입니다.
 - [전용 보호 및 제품 업데이트](manage-updates-baselines-microsoft-defender-antivirus.md)는 Microsoft Defender 바이러스 백신을 최신 상태로 유지하는 것과 관련된 업데이트를 포함합니다.
+
+> [!TIP]
+> 차세대 보호는 엔드포인트용 Microsoft Defender 플랜 1(미리 보기) 및 플랜 2에 모두 포함되어 있습니다. [엔드포인트용 Defender 플랜 1(미리 보기) 및 플랜 2](defender-endpoint-plan-1-2.md)에 대한 자세한 정보
 
 ## <a name="try-a-demo"></a>데모를 사용해 보세요!
 

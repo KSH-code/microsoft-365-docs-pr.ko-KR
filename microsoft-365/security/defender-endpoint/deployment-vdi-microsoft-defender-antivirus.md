@@ -11,16 +11,16 @@ ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 06/11/2021
+ms.date: 08/31/2021
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: cbf1cae088af2606e8fea1e40e0cfe34c7a74832
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: a4d96832ecdddf4cd1567b5c8f646d2df6ac7921
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533522"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58832029"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드
 
@@ -30,7 +30,7 @@ ms.locfileid: "58533522"
 
 표준 사내 또는 하드웨어 구성 외에도 RDS(원격 데스크톱) Microsoft Defender 바이러스 백신 VDI(가상 데스크톱 인프라) 환경에서도 사용할 수 있습니다.
 
-Windows [및](/azure/virtual-desktop) VDI 지원에 대한 자세한 내용은 Microsoft 원격 데스크톱 가상 데스크톱 설명서를 참조하세요.
+Microsoft 원격 데스크톱 VDI 지원에 대한 자세한 내용은 [Azure](/azure/virtual-desktop) Virtual Desktop 설명서를 참조하세요.
 
 Azure 기반 가상 컴퓨터의 경우 [Azure Defender에서 Endpoint Protection 설치를 참조하세요.](/azure/security-center/security-center-install-endpoint-protection)
 

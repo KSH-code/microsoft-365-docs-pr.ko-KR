@@ -20,16 +20,14 @@ ms.collection:
 ms.topic: article
 ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: e1916b2b6701c3d291a439e0fa284858fdccf900
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.openlocfilehash: 2d474f4cc2c990ac8ebf3a964bbb532752741160
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/31/2021
-ms.locfileid: "58822764"
+ms.locfileid: "58831864"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-configuration-manager"></a>Configuration Manager를 사용하여 끝점용 Microsoft Defender 관리
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -45,9 +43,7 @@ ms.locfileid: "58822764"
 
 ## <a name="configure-microsoft-defender-for-endpoint-with-configuration-manager"></a>Configuration Manager를 통해 끝점용 Microsoft Defender 구성
 
-<br>
-
-****
+<br/><br/>
 
 |작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|

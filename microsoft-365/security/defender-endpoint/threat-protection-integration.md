@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6b2441ef097cd2d219038364777b527a5c288c071ae67c79370a5b0f2df2379f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 016ee07b9f57117b313b65ea89773fb84a08e99d
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53817258"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58831900"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>끝점용 Microsoft Defender 및 기타 Microsoft 솔루션
 
@@ -51,7 +51,7 @@ Endpoint DLP 기능이 끝점 디바이스에 저장된 중요한 데이터에 �
 끝점용 Microsoft Defender의 동적 장치 위험 점수는 조건부 액세스 평가에 통합되어 보안 장치만 리소스에 액세스할 수 있도록 합니다. 
 
 ### <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
-Microsoft Cloud App Security 끝점용 Microsoft Defender 끝점 신호를 활용하여 모든 끝점 모니터링 장치용 Microsoft Defender에서 지원되지 않는 클라우드 서비스(섀도 IT)를 사용하는 등 클라우드 응용 프로그램 사용을 직접 볼 수 있도록 합니다.
+Microsoft Cloud App Security Microsoft Defender for Endpoint 신호를 활용하여 엔드포인트 모니터링 장치에 대해 모든 Microsoft Defender에서 지원되지 않는 클라우드 서비스(섀도 IT)를 사용하는 등 클라우드 응용 프로그램 사용을 직접 볼 수 있도록 합니다.
 
 ### <a name="microsoft-defender-for-identity"></a>ID용 Microsoft Defender
 의심스러운 활동은 사용자 컨텍스트에서 실행되는 프로세스입니다. 끝점용 Microsoft Defender와 ID용 Microsoft Defender의 통합은 활동 및 ID 간에 사이버 보안 조사를 유연하게 진행할 수 있도록 합니다.
@@ -62,7 +62,7 @@ Microsoft Cloud App Security 끝점용 Microsoft Defender 끝점 신호를 활�
 >[!NOTE]
 > 데이터 Office 365 지난 30일 이내에 이벤트에 대해 표시됩니다. 경고의 경우 첫 번째 Office 365 데이터를 위한 Defender가 표시됩니다. 그런 다음에는 Defender에서 더 이상 데이터를 사용할 수 Office 365.
 
-### <a name="skype-for-business"></a>비즈니스용 Skype
+### <a name="skype-for-business"></a>Skype for Business
 비즈니스용 Skype 통합을 통해 분석가가 포털에서 간단한 단추를 통해 잠재적으로 손상된 사용자 또는 장치 소유자와 통신할 수 있습니다.
 
 ## <a name="microsoft-365-defender"></a>Microsoft 365 Defender

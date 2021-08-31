@@ -14,12 +14,13 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 3138d1c0a4b4d2b5726b87e6e86897091d237854
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.date: 08/27/2021
+ms.openlocfilehash: 822241ed8010338b21f61ef39e3df1d310ced2ce
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568643"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58832017"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -56,13 +57,12 @@ ms.locfileid: "58568643"
 
 ****
 
-|제외|예제|제외 목록|
+|제외|예|제외 목록|
 |---|---|---|
 |특정 확장명을 사용 하는 모든 파일|지정된 확장명을 사용 하는 모든 파일, 컴퓨터의 아무 곳이나. <p> 유효한 구문: `.test` 및 `test`|확장 제외|
 |특정 폴더 아래에 있는 모든 파일|폴더 아래에 있는 `c:\test\sample` 모든 파일|파일 및 폴더 제외|
 |특정 폴더의 특정 파일|파일만 `c:\sample\sample.test`|파일 및 폴더 제외|
 |특정 프로세스|실행 파일 `c:\test\process.exe`|파일 및 폴더 제외|
-|
 
 ## <a name="characteristics-of-exclusion-lists"></a>제외 목록의 특성
 
@@ -140,26 +140,20 @@ cmdlet의 형식은 다음과 같습니다.
 
 <br>
 
-****
-
 |구성 작업|PowerShell cmdlet|
 |:---|:---|
 |목록 만들기 또는 덮어 덮어 사용|`Set-MpPreference`|
 |목록에 추가|`Add-MpPreference`|
 |목록에서 항목 제거|`Remove-MpPreference`|
-|
 
 다음 표에는 PowerShell cmdlet 부분에서 사용할 수 있는 `<exclusion list>` 값이 나열됩니다.
 
 <br>
 
-****
-
 |제외 유형|PowerShell 매개 변수|
 |---|---|
 |파일 확장명을 지정한 모든 파일|`-ExclusionExtension`|
 |폴더의 모든 파일(하위 폴더의 파일 포함) 또는 특정 파일|`-ExclusionPath`|
-|
 
 > [!IMPORTANT]
 > 또는 를 사용하여 목록을 만든 경우 cmdlet을 다시 사용하여 기존 목록을 덮어 `Set-MpPreference` `Add-MpPreference` `Set-MpPreference` 덮어 니다.
@@ -205,19 +199,17 @@ ExclusionPath
 > - 환경 변수 사용은 컴퓨터 변수 및 NT AUTHORITY\SYSTEM 계정으로 실행되는 프로세스에 적용할 수 있는 변수로 제한됩니다.
 > - 드라이브 문자 대신 와일드카드를 사용할 수 없습니다.
 > - 폴더 제외의 추가 표시는 단일 `*` 폴더를 위한 것입니다. 여러 인스턴스를 사용하여 지정되지 않은 이름을 사용하여 여러 개의 중첩된 폴더를 `\*\` 나타냅니다.
-
+> - 현재는 Microsoft Endpoint Configuration Manager 와일드카드 문자(예: 또는 )를 지원하지 `*` `?` 않습니다.
+    
 다음 표에서는 와일드카드를 사용하는 방법을 설명하고 몇 가지 예를 제공합니다.
 
 <br>
 
-****
-
-|와일드카드|예제|
+|와일드카드|예|
 |---|---|
 |`*` (asterisk) <p> 파일 **이름** 및 파일 확장명 포함에서, 추가 기능은 모든 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서는** 단일 폴더를 대체하는 추가 표시가 됩니다. 여러 개의 폴더 슬래시를 사용하여 여러 개의 `*` `\` 중첩된 폴더를 나타냅니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.|`C:\MyData\*.txt` 포함 `C:\MyData\notes.txt` <p> `C:\somepath\*\Data` 파일 및 해당 하위폴더와 해당 하위폴더를 `C:\somepath\Archives\Data` `C:\somepath\Authorized\Data` 포함합니다. <p> `C:\Serv\*\*\Backup` 파일 및 해당 하위폴더와 해당 `C:\Serv\Primary\Denied\Backup` `C:\Serv\Secondary\Allowed\Backup` 하위폴더를 포함합니다.|
 |`?` (물음표)  <p> 파일 **이름** 및 파일 확장명 포함에서 물음표는 단일 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서** 물음표는 폴더 이름의 단일 문자를 대체합니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.|`C:\MyData\my?.zip` 포함 `C:\MyData\my1.zip` <p> `C:\somepath\?\Data` 모든 파일 포함 및 해당 `C:\somepath\P\Data` 하위폴더  <p> `C:\somepath\test0?\Data` 은 모든 파일과 해당 `C:\somepath\test01\Data` 하위폴더를 포함합니다.|
 |환경 변수 <p> 제외를 평가할 때 정의된 변수가 경로로 채워지는 경우|`%ALLUSERSPROFILE%\CustomLogFiles` 다음을 포함합니다. `C:\ProgramData\CustomLogFiles\Folder1\file1.txt`|
-|
 
 > [!IMPORTANT]
 > 파일 제외 인수와 폴더 제외 인수를 함께 사용하면 규칙은 일치하는 폴더의 파일 인수 일치에서 중지하고 하위 폴더에서 파일 일치를 검색하지 않습니다.
@@ -233,9 +225,7 @@ ExclusionPath
 다음 표에서는 시스템 계정 환경 변수를 나열하고 설명합니다.
 
 <br>
-
-****
-
+    
 |이 시스템 환경 변수...|리디렉션|
 |---|---|
 |`%APPDATA%`|`C:\Users\UserName.DomainName\AppData\Roaming`|
@@ -298,7 +288,6 @@ ExclusionPath
 |`%USERPROFILE%\AppData\Local`|`C:\Windows\System32\config\systemprofile\AppData\Local`|
 |`%USERPROFILE%\AppData\LocalLow`|`C:\Windows\System32\config\systemprofile\AppData\LocalLow`|
 |`%USERPROFILE%\AppData\Roaming`|`C:\Windows\System32\config\systemprofile\AppData\Roaming`|
-|
 
 ## <a name="review-the-list-of-exclusions"></a>제외 목록 검토
 

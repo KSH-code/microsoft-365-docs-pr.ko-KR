@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 Microsoft 365 추가, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 그룹 관리 방법을 학습합니다.
-ms.openlocfilehash: 12c1b74986429be8c2681725286a3e07b7ae1d86
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 7155bbbd6ff127525522b0a7ddf866b9d690db5a
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58393415"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58831840"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 그룹 Microsoft 365 관리 센터
 
@@ -86,7 +86,7 @@ ms.locfileid: "58393415"
 경우에 따라 30일의 소프트 삭제 기간이 만료될 때까지 기다리지 않고 그룹을 영구적으로 제거해야 할 수 있습니다. 이렇게 하려면 PowerShell을 시작하고 이 명령을 실행하여 그룹의 개체 ID를 가져옵니다.
  
  ```powershell
-`Get-AzureADMSDeletedGroup`
+Get-AzureADMSDeletedGroup
 ```
 
 영구적으로 삭제할 그룹의 개체 ID를 메모해 두면 됩니다.
@@ -97,7 +97,7 @@ ms.locfileid: "58393415"
 그룹을 제거하려면 PowerShell에서 이 명령을 실행합니다.
 
 ```powershell
-`Remove-AzureADMSDeletedDirectoryObject -Id <objectId>`
+Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 ```
 
 그룹이 제거되었는지 확인하려면  *Get-AzureADMSDeletedGroup*  cmdlet을 다시 실행하여 그룹이 소프트 삭제된 그룹 목록에 더 이상 나타나지 않는지 확인합니다. 일부 경우 그룹 및 모든 해당 데이터가 영구적으로 삭제되는 데 24시간이 걸릴 수도 있습니다. 

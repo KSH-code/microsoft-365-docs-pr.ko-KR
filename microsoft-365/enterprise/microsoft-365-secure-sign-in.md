@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: 사용자가 MFA(다단계 인증) 및 기타 기능을 사용하여 안전하게 로그인하도록 합니다.
-ms.openlocfilehash: f2ee7d21c5dee96e2cbd6beccdd816da26b6ea46
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: d00ca7a39b05e5364a49a6300ef9ee24c3dd0bd1
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570992"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58744944"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Microsoft 365 테넌트에 사용자 로그인 보안 기능
 
@@ -79,7 +79,7 @@ Microsoft 365 플랜에 따라 관리자나 사용자가 MFA를 사용하도록 
 
 조건부 액세스 정책은 로그인이 평가되고 액세스 권한이 부여되는 조건을 지정하는 규칙 집합입니다. 예를 들어 다음과 같은 조건부 액세스 정책을 만들 수 있습니다.
 
-- 사용자 계정 이름이 Exchange, 사용자, 암호, 보안, SharePoint 또는 전역 관리자 역할이 할당된 사용자의 그룹의 구성원인 경우, 액세스를 허용하기 전에 MFA를 요구합니다.
+- 사용자 계정 이름이 Exchange, 사용자, 암호, 보안, SharePoint **Exchange 관리자**, **SharePoint 관리자** 또는 **전역 관리자** 역할이 할당된 사용자 그룹의 구성원인 경우, 액세스를 허용하기 전에 MFA가 필요합니다.
 
 이 정책을 사용하면 이들 관리자 역할이 할당되거나 할당이 해제될 때 MFA에 대한 개별 사용자 계정을 구성하는 대신 그룹 멤버 자격을 기반으로 MFA를 요구할 수 있습니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: aeafcec8c3ee3e557ac8ac429530a35cd8f7561e
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.openlocfilehash: 9194196ab34e5e95b986ecbaba9be855969dec20
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683579"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58831936"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -276,7 +276,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 
     ```Output
     deb [arch=arm64,armhf,amd64] https://packages.microsoft.com/config/ubuntu/18.04/prod insiders-fast main
-    deb [arch=amd64] https://packages.microsoft.com/cofig/ubuntu/18.04/prod bionic main
+    deb [arch=amd64] https://packages.microsoft.com/config/ubuntu/18.04/prod bionic main
     ```
 
     ```bash
@@ -446,6 +446,6 @@ Options:
 
 클라이언트 [장치에서](linux-resources.md#uninstall) Linux에서 Endpoint용 Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [에이전트 상태 문제 조사](health-status.md)

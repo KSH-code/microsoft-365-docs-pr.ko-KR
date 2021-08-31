@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이상 탐지 경고를 조사합니다.
-ms.openlocfilehash: aa0c7a285baf9fcc3505b9675d57dc37e300862570facdac7c9eb2fd9af61e5c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 57e32f0fc2d50e5e1f1d4d9fb9e6b1520f0f99e6
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843074"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747390"
 ---
 # <a name="investigate-anomaly-detection-alerts"></a>이상 탐지 경고 조사
 
@@ -145,7 +145,7 @@ ms.locfileid: "53843074"
 
 이 섹션에서는 악의적인 행위자가 조직에서 기반을 유지하려고 할 수 있음을 나타내는 경고에 대해 설명합니다.
 
-### <a name="app-with-suspicious-oauth-scope-creates-inbox-rule"></a>의심스러운 OAuth 범위가 있는 앱이 받은 편지함 규칙을 만듦  
+### <a name="app-with-suspicious-oauth-scope-made-graph-calls-to-read-email-and-created-inbox-rule"></a>의심스러운 OAuth 범위를 가진 앱이 전자 메일을 읽기 위해 그래프를 호출하고 받은 편지함 규칙을 생성함  
 
 **심각도**: 보통
 
@@ -270,3 +270,28 @@ ms.locfileid: "53843074"
 1. 앱에서 승인한 범위를 검토합니다.
 1. 앱에서 만든 받은 편지함 규칙 작업을 검토합니다.
 1. 앱에서 수행한 전자 메일 검색 활동을 검토합니다.
+
+### <a name="appmade-onedrive--sharepoint-search-activities-and-created-inbox-rule"></a>앱에서 OneDrive/SharePoint 검색 활동을 만들고 받은 편지함 규칙을 생성함  
+
+**심각도**: 보통
+
+**MITRE ID:** T1137, T1213
+
+이 감지 기능은 앱이 높은 권한 범위에 동의하고, 의심스러운 메일에 대해 받은 편지함 규칙을 만들며, Graph API를 통해 비정상적인 SharePoint 또는 OneDrive 검색 활동을 수행했음을 식별합니다. 이는 Graph API를 통해 조직의 SharePoint 또는 OneDrive에서 특정 데이터를 검색 및 수집하려는 공격자와 같은 조직의 침해 시도를 나타낼 수 있습니다.  
+
+**TP일까요, FP일까요?**
+
+- **TP**: 권한 범위가 높은 OAuth 앱이 Graph API를 통해 수행한 SharePoint 또는 OneDrive 검색 및 수집에서 특정 데이터를 확인할 수 있는 경우 및 알 수 없는 출처에서 앱이 제공되는 경우입니다.  
+
+  **권장 작업**: 앱을 사용하지 않도록 설정하여 제거하고, 암호를 다시 설정하고, 받은 편지함 규칙을 제거합니다.  
+
+- **FP**: 앱이 OAuth 앱을 통해 SharePoint 또는 OneDrive 검색 및 수집에서 특정 데이터를 수행하고, 적합한 이유로 새 전자 메일 또는 개인 외부 전자 메일 계정에 대한 받은 편지함 규칙을 생성했음을 확인할 수 있는 경우입니다.  
+
+  **권장 작업**: 경고를 해제합니다.  
+
+**위반 범위 이해하기**
+
+1. 앱에서 수행한 모든 활동을 검토합니다.  
+1. 앱에서 승인한 범위를 검토합니다.  
+1. 앱에서 만든 받은 편지함 규칙 작업을 검토합니다.  
+1. 앱에서 수행한 모든 SharePoint 또는 OneDrive 검색 활동을 검토합니다.

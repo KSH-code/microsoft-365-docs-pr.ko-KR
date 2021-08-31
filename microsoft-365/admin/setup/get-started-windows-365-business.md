@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: f806991bfd00cbaf9b96b7750d0358409785b206
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 4c53aba7ae2d4bd47b5df2f32c50dcf6bb448201
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569240"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58831888"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
@@ -87,7 +87,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 사용자에게 비즈니스 Windows 따라 서로 다른 365 Business 라이선스 유형을 사용자에게 할당할 수 있습니다. 사용자에게 적합한 라이선스 유형에 대한 지침은 Windows [365 Business](windows-365-business-sizing.md) 크기 조정 옵션을 참조하세요.
 
 > [!IMPORTANT]
-> 테넌트에 Windows 365 라이선스가 처음 할당되면 Windows **365 BPRT** 영구 사용자라는 시스템 계정이 Azure Active Directory. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 지원 중앙을 통해 티켓을 제출합니다.
+> 테넌트에 Windows 365 라이선스가 처음 할당되면 Windows **365 BPRT** 영구 사용자라는 시스템 계정이 Azure Active Directory. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정이 삭제되면 설치가 실패할 수 있습니다. 이 시스템 계정은 원활한 설정 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 테넌트에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 사용자를 삭제하는 경우 다음 [문제 해결 단계를 따릅니다.](/microsoft-365/admin/setup/troubleshoot-windows-365-business?#step-2-verify-that-the-windows-365-bprt-permanent-user-system-account-is-active)
 
 ## <a name="get-your-users-started-with-cloud-pc"></a>클라우드 PC 시작
 
@@ -164,7 +164,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 
 ## <a name="management-through-intune"></a>Intune을 통한 관리
 
-Windows 365 Business는 프로비저닝 프로세스의 일부로 클라우드 PC를 [Intune에](/mem/intune/fundamentals/what-is-intune) 등록하지 않습니다. 조직 및 사용자에게 라이선스가 제대로 부여된 경우 클라우드 PC를 Intune에 등록하는 동일한 절차에 따라 [Intune에](/mem/intune/user-help/enroll-windows-10-device)Windows 10 수 있습니다.
+조직 및 사용자에게 라이선스가 제대로 부여된 경우 클라우드 PC를 Intune에 등록하는 동일한 절차에 따라 [Intune에](/mem/intune/user-help/enroll-windows-10-device)Windows 10 수 있습니다.
 
 ## <a name="sending-outbound-email-messages-using-port-25-is-not-supported"></a>포트 25를 사용하여 아웃바운드 전자 메일 메시지 전송은 지원되지 않습니다.
 

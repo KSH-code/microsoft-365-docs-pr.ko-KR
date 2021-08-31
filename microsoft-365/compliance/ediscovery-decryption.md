@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: eDiscovery Microsoft 365 전자 메일 메시지에 첨부되고 SharePoint 온라인 및 전자 메일 메시지에 저장된 암호화된 문서를 처리하는 비즈니스용 OneDrive.
-ms.openlocfilehash: 7d0f4acd34fc67738258e0f0df23535e759bd8dd
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 7cdd06dd19299fb9e1127f55bc9bc845bb7c14e6
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503050"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58831912"
 ---
 # <a name="decryption-in-microsoft-365-ediscovery-tools"></a>eDiscovery Microsoft 365 암호 해독
 
@@ -46,7 +46,7 @@ Microsoft eDiscovery 도구는 Microsoft 암호화 기술로 암호화된 항목
 
 |eDiscovery 작업  |콘텐츠 검색  |핵심 eDiscovery  |Advanced eDiscovery  |
 |:---------|:---------|:---------|:---------|
-|전자 메일 및 사이트<sup>1에서</sup> 암호화된 파일의 콘텐츠 검색     |예      |예      |예      |
+|사이트에서 암호화된 파일의 콘텐츠 검색 및 전자 메일 첨부<sup>파일 1</sup>     |아니요      |아니요      |예      |
 |전자 메일에 첨부된 암호화된 파일 미리 보기     |예      |예     |예       |
 |암호화된 문서를 미리 SharePoint OneDrive|아니요      |아니요    |예       |
 |검토 집합에서 암호화된 파일 검토    |해당 없음      |해당 없음        | 예        |
@@ -55,9 +55,9 @@ Microsoft eDiscovery 도구는 Microsoft 암호화 기술로 암호화된 항목
 |||||
 
 > [!NOTE]
-> <sup>1</sup> 로컬 컴퓨터에 있으며 SharePoint 또는 OneDrive 사이트에 저장되지 않은 암호화된 파일은 eDiscovery에 대해 인덱싱되지 않습니다. 즉, 암호화된 로컬 파일이 전자 메일 메시지에 첨부된 경우 파일에 검색 쿼리와 일치하는 키워드가 포함되어 있는 경우에도 키워드 검색 쿼리에서 해당 파일이 반환되지 않습니다. 그러나 보낸 날짜, 보낸 사람, 받는 사람 또는 제목과 같은 전자 메일 속성이 검색 쿼리와 일치하는 경우 eDiscovery 검색에서 로컬 암호화된 파일이 있는 전자 메일 메시지를 반환할 수 있습니다.
+> <sup>1</sup> 로컬 컴퓨터에 있는 암호화된 파일 및 전자 메일 메시지에 복사된 클라우드 첨부 파일은 eDiscovery를 위해 암호 해독 및 인덱싱되지 않습니다. 이러한 시나리오에 대한 자세한 내용은 이 문서의 [](#decryption-limitations-with-email-attachments) 전자 메일 첨부 파일을 사용하여 암호 해독 제한 섹션을 참조하세요.
 
-### <a name="decryption-limitations-with-sensitivity-labels"></a>민감도 레이블을 사용하여 암호 해독 제한
+## <a name="decryption-limitations-with-sensitivity-labels-in-sharepoint-and-onedrive"></a>SharePoint 레이블을 사용하여 암호 해독 OneDrive
 
 eDiscovery는 암호화를 적용한 민감도 레이블이 다음 SharePoint OneDrive 구성될 때 암호화된 파일을 지원하지 않습니다.
 
@@ -68,6 +68,18 @@ eDiscovery는 암호화를 적용한 민감도 레이블이 다음 SharePoint On
 이러한 설정에 대한 자세한 내용은 민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한의 "암호화 설정 구성" [섹션을 참조하세요.](encryption-sensitivity-labels.md#configure-encryption-settings)
 
 이전 설정으로 암호화된 문서는 eDiscovery 검색에서 반환할 수 있습니다. 제목, 만든 이 또는 수정한 날짜와 같은 문서 속성이 검색 조건과 일치하는 경우 이러한 일이 발생하게 될 수 있습니다. 이러한 문서가 검색 결과에 포함될 수 있는 경우 미리 보거나 검토할 수 없습니다. 이러한 문서는 해당 문서가 암호화된 상태로 유지될 때도 암호화된 상태로 Advanced eDiscovery.
+
+## <a name="decryption-limitations-with-email-attachments"></a>전자 메일 첨부 파일에 대한 암호 해독 제한
+
+다음 시나리오에서는 전자 메일 메시지에 첨부된 파일의 암호 해독에 대한 제한 사항을 설명합니다. 이러한 시나리오 설명에는 이러한 제한을 완화하는 해결 해결 작업도 포함되어 있습니다.
+
+- 로컬 컴퓨터에 있는 파일(SharePoint 사이트 또는 OneDrive 계정에 저장되지 않은)이 전자 메일 메시지에 첨부되어 있으며 암호화를 적용하는 민감도 레이블이 전자 메일 메시지에 적용된 경우 eDiscovery에서 첨부된 파일의 암호를 해독할 수 없습니다. 즉, 받는 사람의 사서함에 대한 키워드 검색 쿼리를 실행하면 암호화된 첨부 파일이 키워드 검색 쿼리에서 반환되지 않습니다.
+
+  이 제한 사항의 해결 해결은 보낸 사람 사서함에서 동일한 첨부 파일을 검색하는 것입니다. 이는 민감도 레이블에 의해 적용된 암호화가 전자 메일 메시지를 전송하는 동안 적용하기 때문에입니다. 즉, 전자 메일 메시지를 보낼 때 첨부 파일이 암호화됩니다. 그 결과 받는 사람의 사서함에 있는 동일한 파일이 암호화되어 있는 경우에도 보낸 사람의 사서함에 첨부된 파일의 인스턴스가 암호화되지 않습니다.
+
+- 마찬가지로 전자 메일 메시지에 복사된 클라우드 첨부 파일(SharePoint 사이트 또는 OneDrive 계정에 저장된 파일)은 eDiscovery에서 암호 해독할 수 Outlook 없습니다.  이는 전자 메일 메시지를 보낼 때 민감도 레이블에 의해 적용된 암호화가 적용될 때도 있기 때문에입니다. 보낸 사람 사서함에서 클라우드 첨부 파일 복사본의 암호화되지 않은 인스턴스를 검색하는 작업도 이 제한 사항의 해결 해결 작업입니다.
+
+이러한 두 시나리오에서 보낸 날짜, 보낸 사람, 받는 사람 또는 제목과 같은 전자 메일 속성이 검색 쿼리와 일치하는 경우 eDiscovery 검색에서 암호화된 첨부 파일이 있는 전자 메일 메시지를 반환할 수 있습니다.
 
 ## <a name="requirements-for-decryption-in-ediscovery"></a>eDiscovery의 암호 해독 요구 사항
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: dlp 정책 조건 및 예외에 대한 자세한 정보
-ms.openlocfilehash: b1ada8362b149e737784f3cc2948100bbcb217274e000736ecf4cc4752c59e93
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 385c59a41535fbc3fdec0fc551a50b6915736f4f
+ms.sourcegitcommit: dda742d2b044fa56f4edef57d74d18f52fafc149
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53851134"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58829283"
 ---
 # <a name="dlp-policy-conditions-exceptions-and-actions"></a>DLP 정책 조건, 예외 및 작업
 
@@ -42,7 +42,7 @@ DLP 정책의 조건 및 예외는 정책이 적용되는 중요한 항목을 �
 - [보낸 사람](#senders)
 - [받는 사람](#recipients)
 - [메시지 제목 또는 본문](#message-subject-or-body)
-- [첨부](#attachments)
+- [첨부 파일](#attachments)
 - [메시지 헤더](#message-headers)
 - [메시지 속성](#message-properties)
 
@@ -55,6 +55,7 @@ DLP 정책의 조건 및 예외는 정책이 적용되는 중요한 항목을 �
 |DLP의 조건 또는 예외|PowerShell에서 조건/예외 Microsoft 365 매개 변수|속성 형식|설명|
 |---|---|---|---|
 |보낸 사람은|조건: *From* <br/> exception: *ExceptIfFrom*|Addresses|조직에서 지정된 사서함, 메일 사용자, 메일 연락처 또는 Microsoft 365 보낸 메시지입니다.|
+|보낸 사람이 다음의 구성원임 |_FromMemberOf_ <br/> _ExceptIfFromMemberOf_|Addresses|지정한 메일 그룹, 메일 사용이 가능한 보안 그룹 또는 그룹 구성원이 보낸 Microsoft 365.|
 |보낸 사람 IP 주소는|조건: *SenderIPRanges*<br/> 예외: *ExceptIfSenderIPRanges*|IPAddressRanges|보낸 사람 IP 주소가 지정된 IP 주소와 일치하거나 지정된 IP 주소 범위 내에 있는 메시지입니다.|
 |보낸 사람 주소에 단어 포함|조건: *FromAddressContainsWords* <br/> 예외: *ExceptIfFromAddressContainsWords*|단어|보낸 사람 전자 메일 주소에 지정된 단어가 포함된 메시지입니다.|
 |보낸 사람 주소가 패턴과 일치|조건: *FromAddressMatchesPatterns* <br/> 예외: *ExceptFromAddressMatchesPatterns*|패턴|보낸 사람 전자 메일 주소에 지정된 정규식과 일치하는 텍스트 패턴이 포함된 메시지입니다.|
@@ -64,7 +65,7 @@ DLP 정책의 조건 및 예외는 정책이 적용되는 중요한 항목을 �
 |보낸 사람의 지정된 속성이 다음 텍스트 패턴과 일치|조건: *SenderADAttributeMatchesPatterns* <br/> 예외: *ExceptIfSenderADAttributeMatchesPatterns*|첫 번째 속성: `ADAttribute` <p> 두 번째 속성: `Patterns`|보낸 사람에 대해 지정된 Active Directory 특성에 지정된 정규식과 일치하는 텍스트 패턴이 포함된 메시지입니다.|
 |
 
-### <a name="recipients"></a>수신자
+### <a name="recipients"></a>받는 사람
 
 <br>
 
@@ -77,6 +78,8 @@ DLP 정책의 조건 및 예외는 정책이 적용되는 중요한 항목을 �
 |받는 사람 주소에 단어가 포함되어 있음|조건: *AnyOfRecipientAddressContainsWords* <br/> 예외: *ExceptIfAnyOfRecipientAddressContainsWords*|단어|받는 사람의 전자 메일 주소에 지정된 단어가 포함된 메시지입니다. <br/>**참고**: 이 조건은 받는 사람 프록시 주소로 보낸 메시지는 고려하지 않습니다. 받는 사람의 기본 전자 메일 주소로 보낸 메시지만 일치시킵니다.|
 |받는 사람 주소가 패턴과 일치|조건: *AnyOfRecipientAddressMatchesPatterns* <br/> 예외: *ExceptIfAnyOfRecipientAddressMatchesPatterns*|패턴|받는 사람의 전자 메일 주소에 지정된 정규식과 일치하는 텍스트 패턴이 포함된 메시지입니다. <br/> **참고**: 이 조건은 받는 사람 프록시 주소로 보낸 메시지는 고려하지 않습니다. 받는 사람의 기본 전자 메일 주소로 보낸 메시지만 일치시킵니다.|
 |구성원에게 전송|조건: *SentToMemberOf* <br/> 예외: *ExceptIfSentToMemberOf*|Addresses|지정된 메일 그룹, 메일 사용이 가능한 보안 그룹 또는 그룹 구성원인 받는 사람이 Microsoft 365 메시지입니다. 그룹은 메시지의 **To,** **Cc** 또는 **Bcc** 필드에 있을 수 있습니다.|
+|받는 사람의 지정된 속성에 다음 단어 포함 |_RecipientADAttributeContainsWords_ <br/> _ExceptIfRecipientADAttributeContainsWords_|첫 번째 속성: `ADAttribute` <p> 두 번째 속성: `Words`|받는 사람의 지정된 Active Directory 특성에 지정된 단어가 포함된 메시지입니다. <p> **Country** 특성에는 두 글자로 된 국가 코드 값(예: 독일의 경우 DE)이 필요합니다.|
+|받는 사람의 지정된 속성이 다음 텍스트 패턴과 일치 |_RecipientADAttributeMatchesPatterns_ <br/> _ExceptIfRecipientADAttributeMatchesPatterns_|첫 번째 속성: `ADAttribute` <p> 두 번째 속성: `Patterns`|받는 사람의 지정된 Active Directory 특성에 지정된 정규식과 일치하는 텍스트 패턴이 포함된 메시지입니다.|
 |
 
 ### <a name="message-subject-or-body"></a>메시지 제목 또는 본문
@@ -94,7 +97,7 @@ DLP 정책의 조건 및 예외는 정책이 적용되는 중요한 항목을 �
 |제목 또는 본문에 단어 포함|조건: *SubjectOrBodyContainsWords* <br/> 예외: *ExceptIfSubjectOrBodyContainsWords*|단어|제목 필드 또는 메시지 본문에 지정된 단어가 있는 메시지|
 |
 
-### <a name="attachments"></a>첨부
+### <a name="attachments"></a>첨부 파일
 
 <br>
 

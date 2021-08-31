@@ -2,14 +2,21 @@
 
 ## [개요]()
 ### [엔드포인트용 Microsoft Defender란 무엇인가요?](microsoft-defender-endpoint.md)
+### [엔드포인트용 Defender 플랜 1과 플랜 2 비교](defender-endpoint-plan-1-2.md)
 ### [최소 요구 사항](minimum-requirements.md)
 ### [엔드포인트용 Microsoft Defender의 새로운 기능](whats-new-in-microsoft-defender-atp.md)
 ### [미리 보기 기능](preview.md)
 ### [데이터 저장 및 개인 정보](data-storage-privacy.md)
 ### [Microsoft Defender 보안 센터 개요](use.md)
 ### [포털 개요](portal-overview.md)
+### [엔드포인드용 Defender 플랜 1(미리 보기)]()
+#### [개요](defender-endpoint-plan-1.md)
+#### [설정 및 구성](mde-p1-setup-configuration.md)
+#### [시작](mde-plan1-getting-started.md)
+#### [유지 관리 및 운영](mde-p1-maintenance-operations.md)
 ### [엔드포인트용 Microsoft Defender(미국 정부 고객용)](gov.md)
 ### [Microsoft Defender for Endpoint(Windows가 아닌 플랫폼)](non-windows.md)
+
 
 ## [기능 평가](evaluation-lab.md)
 
@@ -27,18 +34,15 @@
 #### [온보딩 지원 장치](onboard-configure.md)
 
 ## [마이그레이션 가이드](migration-guides.md)
-### [타사 엔드포인트 보호에서 끝점용 Defender로 전환]()
-#### [마이그레이션 개요](switch-to-microsoft-defender-migration.md)
+### [타사 엔드포인트 보호에서 끝점용 Defender로 전환](switch-to-microsoft-defender-migration.md)
 #### [1 단계: 준비](switch-to-microsoft-defender-prepare.md)
 #### [2 단계: 설정](switch-to-microsoft-defender-setup.md)
 #### [3 단계: 온보딩](switch-to-microsoft-defender-onboard.md)
-### [마이그레이션 후 엔드포인트용 Defender 관리]()
-#### [엔드포인트용 Defender 관리 개요](manage-atp-post-migration.md)
-#### [Intune(권장)](manage-atp-post-migration-intune.md)
-#### [Configuration Manager](manage-atp-post-migration-configuration-manager.md)
-#### [그룹 정책 개체](manage-atp-post-migration-group-policy-objects.md)
-#### [PowerShell, WMI 및 MPCmdRun.exe](manage-atp-post-migration-other-tools.md)
-
+### [마이그레이션 후 엔드포인트용 Defender 관리](manage-atp-post-migration.md)
+#### [Intune 사용(권장)](manage-atp-post-migration-intune.md)
+#### [Configuration Manager 사용](manage-atp-post-migration-configuration-manager.md)
+#### [그룹 정책 사용](manage-atp-post-migration-group-policy-objects.md)
+#### [PowerShell, WMI 또는 MPCmdRun.exe 사용](manage-atp-post-migration-other-tools.md)
 
 ## [장치 구성 및 온보드]()
 ### [Windows 및 Windows Server의 엔드포인트용 Microsoft Defender]()

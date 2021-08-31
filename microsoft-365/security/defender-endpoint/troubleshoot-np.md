@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 981e7962db35429e5f7bf02ee4a6f57fd19655d4
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: d10399c3064697ab383133cd17cc14dc7dd43cc4
+ms.sourcegitcommit: dda742d2b044fa56f4edef57d74d18f52fafc149
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509896"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58829271"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
@@ -83,9 +83,13 @@ ms.locfileid: "58509896"
 
 끝점에 대한 [Microsoft Defender의 가짓 긍정/부정 주소를 참조하세요.](defender-endpoint-false-positives-negatives.md)
 
-## <a name="exclude-website-from-network-protection-scope"></a>네트워크 보호 범위에서 웹 사이트 제외
+## <a name="add-exclusions"></a>제외 추가
+현재 제외 옵션은 다음과 같습니다.
 
-차단되는 웹 사이트(가음성)를 허용하기 위해 신뢰할 수 있는 사이트 목록에 해당 URL을 [추가합니다.](https://blogs.msdn.microsoft.com/asiatech/2014/08/19/how-to-add-web-sites-to-trusted-sites-via-gpo-from-dc-installed-ie10-or-higher-ie-version/) 이 목록의 웹 리소스는 네트워크 보호 검사를 무시합니다.
+1.  사용자 지정 허용 표시기 설정
+2.  IP 제외 사용: `Add-MpPreference -Exclusion IpAddress 192.168.1.1`
+3.  전체 프로세스를 제외합니다. 자세한 내용은 제외 [Microsoft Defender 바이러스 백신 참조하세요.](configure-exclusions-microsoft-defender-antivirus.md) 
+
 
 ## <a name="collect-diagnostic-data-for-file-submissions"></a>파일 전송에 대한 진단 데이터 수집
 

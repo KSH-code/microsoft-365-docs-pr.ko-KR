@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Microsoft의 클라우드 제품에서 조직, 구독, 라이선스, 사용자 계정 및 테넌트의 관계를 이해합니다.
-ms.openlocfilehash: a7120404eafd51714ac19805c088921ad6625ae2
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 64ca4d69d0792dbe3751bffff95841409767aa4f
+ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354239"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58747414"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Microsoft 클라우드 제품용 구독, 라이선스, 계정 및 테넌트
 
@@ -140,7 +140,7 @@ Azure AD 테넌트는 계정 및 그룹에 포함된 Azure AD의 특정 인스�
    
 관리 센터를 사용하면 Microsoft SaaS 기반 서비스를 위해 조직에 구독을 쉽게 추가할 수 있습니다.
   
-1. 글로벌 관리자 계정을 사용하여 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인합니다.
+1. Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 **사용자 관리자** 또는 **전역 관리자** 계정으로 로그인합니다.
     
 2. **관리 센터** 홈페이지의 왼쪽 탐색 창에서 **청구** 를 클릭하고 **서비스 구매** 를 클릭합니다.
     
@@ -150,7 +150,7 @@ Azure AD 테넌트는 계정 및 그룹에 포함된 Azure AD의 특정 인스�
   
 Microsoft 365 구독과 동일한 조직 및 Azure 테넌트를 갖는 Azure 구독을 추가하려면
   
-1. Microsoft 365 전역 관리자 계정을 사용하여 Azure Portal 포털([https://portal.azure.com](https://portal.azure.com))에 로그인합니다.
+1. Azure Portal([https://portal.azure.com](https://portal.azure.com))에 Microsoft 365 **Azure AD DC 관리자** 또는 **전역 관리자** 계정으로 로그인합니다.
     
 2. 왼쪽 탐색 모음에서 **구독** 을 클릭하고 **추가** 를 클릭합니다.
     
