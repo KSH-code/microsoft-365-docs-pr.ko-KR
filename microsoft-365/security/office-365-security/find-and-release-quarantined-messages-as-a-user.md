@@ -20,12 +20,12 @@ ms.custom:
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d8aab84cd406366182650e6fbf6c39aee9810ce3
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 04a3831ec923ec24846eb6d0e76273d1010862c6
+ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548705"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58831948"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
@@ -46,9 +46,9 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 |격리 이유:|보기|릴리스|삭제|
 |---|:---:|:---:|:---:|
-|대량|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|스팸|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-|피싱(높은 신뢰도 피싱은 해당 안 됨)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
+|대량|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|스팸|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|피싱(높은 신뢰도 피싱은 해당 안 됨)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
 |
 
 Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)(관리자가 설정한 경우)에서 격리된 메시지를 보고 관리합니다.
