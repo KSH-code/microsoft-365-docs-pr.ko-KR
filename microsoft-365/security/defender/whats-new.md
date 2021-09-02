@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ca008206e30b6e7d13638379322238d3bb7b79d6
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: bc00b3849e0fb6ce3749ff0e6280108c0cc41bd6
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256659"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863860"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -41,6 +41,10 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="august-2021"></a>2021년 8월
 - (미리 보기) 고급 헌팅에서 사용할 Office 365 Microsoft Defender for Office 365 데이터
 <br>전자 메일 테이블의 새 열을 통해 고급 헌팅을 사용하여 보다 철저한 조사를 위해 전자 메일 기반 위협에 대한 더 많은 정보를 얻을 수 있습니다. 이제 `AuthenticationDetails` [EmailEvents](./advanced-hunting-emailevents-table.md), `FileSize` [EmailAttachmentInfo](./advanced-hunting-emailattachmentinfo-table.md)및 `ThreatTypes` `DetectionMethods` [EmailPostDeliveryEvents](./advanced-hunting-emailpostdeliveryevents-table.md) 테이블에 열을 포함할 수 있습니다. 
+
+- (미리 보기) 인시던트 그래프
+
+  인시던트의 요약 **탭에** 있는 새로운 Graph 탭에는 공격의 전체 범위, 공격이 시간의에 따라 네트워크를 통해 확산되는 방법, 공격이 시작된 위치 및 공격자가 얼마나 이동한 거리가 표시됩니다. 
 
 ## <a name="july-2021"></a>2021년 7월
 - [Professional 서비스 카탈로그](https://sip.security.microsoft.com/interoperability/professional_services)<br>지원되는 파트너 연결을 사용하여 플랫폼의 검색, 조사 및 위협 인텔리전스 기능을 향상합니다.

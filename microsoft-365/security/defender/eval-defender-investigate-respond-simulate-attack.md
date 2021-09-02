@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 31f9fb3b3a070c6cf95c828d452157dad5b2ba6a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 1fae1d1a800c6005f690ac3b4ac5a32cff38d549
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576167"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864053"
 ---
 # <a name="run-an-attack-simulation-in-a-microsoft-365-defender-pilot-environment"></a>파일럿 환경에서 공격 시뮬레이션 Microsoft 365 Defender 실행
 
@@ -115,7 +115,7 @@ Office 365 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2에
 
    - 1903 Windows 10 이상 버전을 실행합니다.
    - AD DS 도메인 컨트롤러 도메인에 가입됩니다.
-   - 사용 [Windows Defender 바이러스 백신](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) 있습니다. 사용자 설정에 문제가 Windows Defender 바이러스 백신 문제 해결 항목을 [참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)
+   - 사용 [Windows Defender 바이러스 백신](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) 있습니다. 사용자 설정에 문제가 Windows Defender 바이러스 백신 문제 해결 항목을 [참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
    - [끝점용 Microsoft Defender에 온보딩됩니다.](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 
 테넌트 및 장치 그룹을 사용하는 경우 테스트 장치에 대한 전용 장치 그룹을 만들고 최상위 수준으로 푸시합니다.

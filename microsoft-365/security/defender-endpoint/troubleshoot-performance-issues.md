@@ -1,7 +1,7 @@
 ---
 title: 성능 문제 해결
 description: 끝점용 Microsoft Defender의 실시간 보호 서비스와 관련된 높은 CPU 사용량 문제를 해결합니다.
-keywords: 문제 해결, 성능, 높은 CPU 사용률, 높은 CPU 사용, 오류, 수정, 업데이트 준수, oms, 모니터, 보고서, Microsoft Defender AV
+keywords: 문제 해결, 성능, 높은 CPU 사용률, 높은 CPU 사용, 오류, 수정, 업데이트 준수, oms, 모니터, 보고서, Microsoft Defender 바이러스 백신
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 29b174af6755718ef8c2fd446cf84aeb0f390310
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 6fa4ff040bb6c863fab88e25728c69bcf920a07b
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568591"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863644"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>실시간 보호와 관련된 성능 문제 해결
 

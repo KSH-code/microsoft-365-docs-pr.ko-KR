@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender AV 이벤트 ID 및 오류 코드
+title: Microsoft Defender 바이러스 백신 이벤트 코드 및 오류 코드
 description: 이벤트 MICROSOFT DEFENDER 바이러스 백신 오류의 원인 및 해결 방법 찾아 보기
 keywords: 이벤트, 오류 코드, siem, 로깅, 문제 해결, wef, Windows 이벤트 전달
 search.product: eADQiWindows 10XVcnh
@@ -15,12 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 2c6532ca3d610d2cc0650ee8fee986b296cd54af90d62fdb71926938302635b1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 15180a2be197b39da78bf004b761db753cd02c94
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867851"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862824"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결
 

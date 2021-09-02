@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f582ff83a790d56b936c93f3e40aac76c7e5df1b
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.openlocfilehash: f1ea6f3b2dd9447ff9901518a80aafa4dec56a5e
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823711"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863848"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -45,7 +45,7 @@ ms.locfileid: "58823711"
 - 표시기 추가
 - 파일 다운로드
 - 위협 전문가에게 문의
-- 작업 센터
+- 알림 센터 
 
 또한 심층 분석을 위해 파일을 제출하여 안전한 클라우드 샌드박스에서 파일을 실행할 수 있습니다. 분석이 완료되면 파일의 동작에 대한 정보를 제공하는 자세한 보고서가 표시됩니다. 심층 분석을 위해 파일을 제출하고 심층 분석 탭을 선택하여 지난 보고서를 읽을 **수** 있습니다. 파일 정보 카드 아래에 있습니다.
 
@@ -164,7 +164,7 @@ ms.locfileid: "58823711"
 
 #### <a name="backing-up-quarantined-files"></a>고지된 파일 백업
 
-샘플 제출 구성에 따라 사용자에게 검사된 파일을 백업하기 전에 명시적 동의를 제공하라는 메시지가 표시될 [수 있습니다.](enable-cloud-protection-microsoft-defender-antivirus.md#use-group-policy-to-turn-on-cloud-delivered-protection)
+샘플 제출 구성에 따라 사용자에게 검사된 파일을 백업하기 전에 명시적 동의를 제공하라는 메시지가 표시될 [수 있습니다.](enable-cloud-protection-microsoft-defender-antivirus.md#use-group-policy-to-turn-on-cloud-protection)
 
 샘플 제출이 꺼져 있는 경우 이 기능이 작동하지 않습니다. 자동 샘플 제출이 사용자의 사용 권한을 요청하도록 설정되어 있는 경우 사용자가 보내기에 동의한 샘플만 수집됩니다.
 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender AV에 대한 보고 도구 문제 해결
-description: 업데이트 준수에서 Microsoft Defender AV 보호 상태 보고를 시도할 때 일반적인 문제 식별 및 해결
-keywords: 문제 해결, 오류, 수정, 업데이트 준수, oms, 모니터링, 보고서, Microsoft Defender AV
+title: 데이터 관리에 대한 보고 도구 Microsoft Defender 바이러스 백신
+description: 업데이트 준수에서 보안 보호 Microsoft Defender 바이러스 백신 보고할 때 일반적인 문제 식별 및 해결
+keywords: 문제 해결, 오류, 수정, 업데이트 준수, oms, 모니터링, 보고, Microsoft Defender 바이러스 백신
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: c1620de251a0cd16ab61e0ecb41abb1b481535161d5db5b9d791501229e6fc13
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: afc383c158da353da35def39d5b21e2857b9e2ac
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53889366"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863968"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-reporting-in-update-compliance"></a>업데이트 규정 준수에서 Microsoft Defender 바이러스 백신 보고 문제 해결
 
@@ -60,9 +60,9 @@ Windows [분석](/windows/deployment/update/update-compliance-using#wdav-assessm
 장치가 업데이트 준수에 제대로 표시하려면 업데이트 준수 서비스 및 업데이트 준수 서비스에 대한 특정 선행 Microsoft Defender 바이러스 백신.
 
 >[!div class="checklist"]
->- 끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다. 다른 바이러스 백신 앱을 사용하는 [경우 Microsoft Defender AV가](microsoft-defender-antivirus-compatibility.md) 자체적으로 비활성화되어 끝점이 업데이트 준수에 보고되지 않습니다.
+>- 끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다. [다른 바이러스 백신 앱을](microsoft-defender-antivirus-compatibility.md) 사용하는 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정하고 끝점이 업데이트 준수에 보고되지 않습니다.
 > - [클라우드 제공 보호가 사용하도록 설정됩니다.](enable-cloud-protection-microsoft-defender-antivirus.md)
-> - 끝점에서 [Microsoft Defender AV 클라우드에 연결할 수 있습니다.](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud)
+> - 끝점에서 [클라우드에 Microsoft Defender 바이러스 백신 수 있습니다.](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud)
 > - 끝점이 1607 Windows 10 실행 중인 경우 Windows 10 진단 데이터를 고급 [수준으로 설정해야 합니다.](/windows/configuration/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 > - 모든 요구 사항이 충족된 후 3일이 지났습니다.
 

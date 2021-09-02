@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 125e622b39b6ec868cb6dffaf30eb8d64a346759
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 568441bb2f9172bb382629dc5e5ad4704cc1b2f6
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571438"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863437"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>커뮤니케이션 규정 준수 알림 검사 및 수정
 
@@ -40,6 +40,8 @@ ms.locfileid: "58571438"
 ### <a name="using-filters"></a>필터 사용
 
 다음 단계는 경고를 더 쉽게 조사할 수 있도록 메시지를 정렬하는 것입니다. 정책 **세부 정보 페이지에서** 통신 준수는 여러 메시지 필드에 대한 다단계 필터링을 지원하여 정책 일치가 있는 메시지를 빠르게 조사하고 검토할 수 있도록 합니다. 구성된 각 정책에 대해 보류 중인 항목 및 해결된 항목을 검색할 수 있도록 필터링이 제공됩니다. 정책에 대한 필터 쿼리를 구성하거나 각 특정 정책에서 사용하도록 사용자 지정 및 기본 필터 쿼리를 구성하고 저장할 수 있습니다. 필터에 대한 필드를 구성하면, 특정 필터 값에 대해 구성할 수 있는 필터 필드가 경고 메시지 큐의 상단에 표시됩니다.
+
+날짜 필터의 경우 이벤트의 날짜와 시간은 UTC(협정 세계시)로 표시됩니다. 보기에 대한 메시지를 필터링할 때 요청하는 사용자의 로컬 날짜/시간에서 사용자의 로컬 날짜/시간을 UTC로 변환한 결과에 따라 결과가 결정됩니다. 예를 들면 다음과 같습니다. 미국 PDT(태평양 일광 절약 시간)의 사용자가 2021년 8월 30일에서 2021년 8월 31일까지 보고서를 00:00시에 필터하는 경우 보고서에는 2021년 8월 30일 07:00 UTC에서 8/31/2021 07:00 UTC까지의 메시지가 포함됩니다. 00:00으로 필터링할 때 동일한 사용자가 EDT(동부 일광 절약 시간)에 있는 경우 보고서에는 2021년 8월 30일 04:00 UTC에서 2021/8/31 04:00 UTC까지의 메시지가 포함됩니다.
 
 필터 및 필드 세부 정보의 전체 목록은 기능 참조 [문서의 필터를](communication-compliance-feature-reference.md#filters) 참조하세요.
 

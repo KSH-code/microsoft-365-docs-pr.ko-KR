@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 2ae3c72387b2617bc8fe88349272d27675af16a5
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.openlocfilehash: 77cbd23197b60c3a74c97cf2030f41c943741a1c
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349215"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863656"
 ---
 # <a name="run-antivirus-scan-api"></a>바이러스 백신 검사 실행 API
 
@@ -48,9 +48,9 @@ ms.locfileid: "58349215"
 > [!IMPORTANT]
 >
 > - 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
-> - A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
+> - A Microsoft Defender 바이러스 백신 (Microsoft Defender AV) 검사는 활성 바이러스 백신 솔루션인지 여부에 Microsoft Defender 바이러스 백신 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender 바이러스 백신 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 

@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
-description: 그룹 구성원 Microsoft 365 추가, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 그룹 관리 방법을 학습합니다.
-ms.openlocfilehash: 7155bbbd6ff127525522b0a7ddf866b9d690db5a
-ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
+description: 그룹 구성원 Microsoft 365, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 그룹 관리 방법을 학습합니다.
+ms.openlocfilehash: c7f38a6a0b2eb3f6c0466858b60ac0beb2143bc0
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58831840"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862728"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 그룹 Microsoft 365 관리 센터
 
@@ -106,7 +106,7 @@ Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 
 [Microsoft 365 그룹 만들기](create-groups.md)
 
-[Microsoft 365 그룹에서 게스트 액세스 관리](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[그룹에 대한 게스트 Microsoft 365 관리](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [그룹을 만들 때 사용할 도메인 Microsoft 365 선택](../../solutions/choose-domain-to-create-groups.md)
 

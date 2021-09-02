@@ -9,20 +9,20 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: denisebmsft
-ms.author: deniseb
+author: jweston-1
+ms.author: v-jweston
 ms.date: 03/27/2019
 ms.reviewer: ''
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: f3eb7e0a52187c94f3f6ed1dadada2ff59b794849d58a7c8743bddeaf1e42eda
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0833a616f1b6052519e92a5e46c8f36f01c80818
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873814"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863473"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 문제 해결
 
@@ -58,7 +58,7 @@ ms.locfileid: "53873814"
 
 - 끝점은 Windows 10 Enterprise 버전 1709(Fall Creators Update라고도 알려지기)를 실행하고 있습니다.
 
-- 끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다. [다른 바이러스 백신 앱을 사용하는 경우 Microsoft Defender AV가](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)자체적으로 비활성화됩니다.
+- 끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다. [다른 바이러스 백신 앱을 사용하는 경우 자체적으로 Microsoft Defender 바이러스 백신 수 없습니다.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 - [실시간 보호가](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) 사용됩니다.
 

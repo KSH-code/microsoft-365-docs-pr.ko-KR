@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 서비스 암호화가 고객 키와 함께 작동하는 방식에 대해 Microsoft 365.
-ms.openlocfilehash: 4798c3fb2193fbd3c513a16246e288fb8e9177c4
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 7f765d8a9c59ad8bdc5e7d2edba7f18af426cc76
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568411"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863932"
 ---
 # <a name="service-encryption-with-customer-key"></a>고객 키를 사용한 서비스 암호화
 
@@ -75,7 +75,7 @@ DEP(데이터 암호화 정책)는 암호화 계층 구조를 정의합니다. �
 
 - 사서함이 Microsoft 관리 키를 사용하여 이미 암호화된 경우 서비스에서는 사용자 또는 시스템 작업이 사서함 데이터에 액세스하는 한 새 사서함 DEP를 사용하여 사서함을 다시 그렸다.
 
-- 기본 암호화를 사용하여 사서함을 아직 암호화하지 않은 경우 서비스에서 이동을 위해 사서함을 표시합니다. 이동이 완료되면 암호화가 진행됩니다. 사서함 이동은 모든 사서함에 대해 설정된 우선 순위에 따라 Microsoft 365. 자세한 내용은 Move [requests in the Microsoft 365 참조하세요.](/exchange/mailbox-migration/office-365-migration-best-practices#move-requests-in-the-office-365-service) 사서함이 지정된 시간 내에 암호화되지 않은 경우 Microsoft에 문의하십시오.
+- 기본 암호화를 사용하여 사서함을 아직 암호화하지 않은 경우 서비스에서 이동을 위해 사서함을 표시합니다. 이동이 완료되면 암호화가 진행됩니다. 사서함 이동은 모든 사서함에 대해 설정된 우선 순위에 따라 Microsoft 365. 자세한 내용은 Move [requests in the Microsoft 365 참조하세요.](/exchange/mailbox-migration/office-365-migration-best-practices#move-requests-in-the-microsoft-365-or-office-365-service) 사서함이 지정된 시간 내에 암호화되지 않은 경우 Microsoft에 문의하십시오.
 
 나중에 에 대한 고객 키 관리에 설명된 바와 같이 DEP를 새로 고치거나 사서함에 다른 DEP를 [할당할 Office 365.](customer-key-manage.md) 각 사서함에는 DEP를 할당할 적절한 라이선스가 있어야 합니다. 라이선스에 대한 자세한 내용은 고객 키를 [설정하기 전에를 참조하세요.](customer-key-set-up.md#before-you-set-up-customer-key)
 

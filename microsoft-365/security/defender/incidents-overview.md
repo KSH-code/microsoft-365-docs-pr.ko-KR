@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c9a9cfa6e790cd179c0f9a13ce4fd312c0819411
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: f6a874f263290913a5a7b1d25a16eb1c75938eb3
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575535"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864005"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>인시던트 Microsoft 365 Defender
 
@@ -100,6 +100,10 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
   인시던트의 경고에서 지원되는 모든 이벤트 및 의심스러운 엔터티
 
+- Graph(미리 보기)
+
+  공격의 일부인 여러 의심스러운 엔터티를 사용자, 장치 및 사서함과 같은 관련 자산과 연결하는 공격의 시각적 표현입니다.
+
 다음은 인시던트와 인시던트 데이터 및 인시던트 포털에서 인시던트의 탭 Microsoft 365 Defender 관계입니다.
 
 :::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="인시던트 및 데이터와 인시던트 포털의 인시던트 탭 간의 Microsoft 365 Defender.":::
@@ -117,15 +121,15 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 1. 각 인시던트에 대해 [공격을 시작하고 조사 및 분석을 경고합니다.](investigate-incidents.md)
  
-   1. 인시던트의 요약을 보고 인시던트의 범위 및 심각도와 영향을  받는 엔터티(요약 탭)를 이해합니다.
+   1. 인시던트의 요약을 확인하여 인시던트의 범위 및 심각도와  요약 및  보기(미리 보기) 탭으로 영향을 받는 엔터티를 Graph 파악합니다.
 
-   1. 경고의 출처, 범위 및 심각도(경고 탭)를  이해하기 위해 경고 분석을 시작하십시오.
+   1. 경고 탭을 사용하여 경고의 출처, 범위 및 심각도에 대해 이해하기 위해 경고 분석을 **시작하십시오.**
 
-   1. 필요한 경우 영향을 받는 장치, 사용자 및 사서함(장치, 사용자 및 사서함 탭)에 대한 **정보를** 수집합니다. 
+   1. 필요한 경우 장치, 사용자 및 사서함 탭을 사용하여 영향을 받는 장치, 사용자 및 사서함에 대한 **정보를** 수집합니다.
 
-   1. 일부 Microsoft 365 Defender 자동으로 해결한 방법(조사 탭)을 **참조합니다.** [](m365d-autoir.md)
+   1. 조사 탭에서 Microsoft 365 Defender [](m365d-autoir.md) 경고를 자동으로 해결한 방법을 **참조합니다.**
    
-   1. 필요한 경우 인시던트에 대한 데이터 집합의 정보를 사용하여 자세한 정보(증거 및 응답 **탭)를 사용합니다.**
+   1. 필요한 경우 증거 및 응답 탭에서 자세한 정보를 위해 인시던트에 대한 데이터 **집합의 정보를** 사용합니다.
 
 2. 분석 후 또는 분석 중에 포함을 수행하여 보안 위협의 공격 및 제거에 대한 추가 영향을 줄입니다.
 

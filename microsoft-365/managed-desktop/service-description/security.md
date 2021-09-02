@@ -8,12 +8,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4b0399adae82123bf4e0d6ca5aa462d1b48ac80e9143b6744e936a6b94554c68
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9f2e3b9d623f5f2b019296dc08c34c32ace2e9d6
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854414"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863776"
 ---
 # <a name="security-technologies-in-microsoft-managed-desktop"></a>보안 기술의 Microsoft Managed Desktop
 
@@ -37,7 +37,7 @@ Microsoft Managed Desktop 관리되는 장치를 모두 보호하고 다음 서�
 
 서비스 | 설명
 --- | ---
-바이러스 검사 | Microsoft Defender AV 설치 및 구성<br>Microsoft Defender AV 정의가 최신입니다.
+바이러스 검사 | Microsoft Defender 바이러스 백신 설치 및 구성<br>Microsoft Defender 바이러스 백신 정의를 최신으로 유지
 전체 볼륨 암호화 | Windows BitLocker는 장치용 Microsoft Managed Desktop 솔루션입니다.<br><br>조직이 서비스에 온보드되고 나면 장치가 절전 모드에 있을 때 또는 꺼질 때 로컬 데이터에 대한 무단 액세스를 방지하기 위해 기본 제공 TPM(트러스트 플랫폼 모듈)이 있는 Windows BitLocker를 사용하여 장치가 암호화됩니다.
 모니터링 | 끝점용 Microsoft Defender는 모든 디바이스에서 보안 위협을 모니터링하는 Microsoft Managed Desktop 사용됩니다. Endpoint용 Defender를 사용하면 엔터프라이즈 고객이 회사 네트워크에서 고급 위협을 감지, 조사 및 대응할 수 있습니다. 자세한 내용은 [끝점용 Microsoft Defender를 참조하세요.](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
 운영 체제 업데이트 | Microsoft Managed Desktop 장치를 항상 최신 보안 업데이트로 보호합니다.

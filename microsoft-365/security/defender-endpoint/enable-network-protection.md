@@ -14,12 +14,12 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 15cd59e2d0291a713de142f303bb9934ec1c06d8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: e0056f4f1517962bab3dbee4f993ce28c58dfcf9
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58550217"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863980"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
@@ -40,13 +40,13 @@ ms.locfileid: "58550217"
 
 레지스트리 편집기를 사용하여 로컬 장치에서 네트워크 보호가 활성화되어 있는지 확인합니다.
 
-1. 작업 **표시줄에서 시작** 단추를 선택하고 **regedit를** 입력하여 레지스트리 편집기 열기
+1. 작업 **표시줄에서 시작** 단추를 선택하고 **regedit를** 입력하여 레지스트리 편집기를 여십시오.
 
-2. 사이드 **HKEY_LOCAL_MACHINE** 선택
+2. 왼쪽 **HKEY_LOCAL_MACHINE** 메뉴에서 선택을 선택합니다.
 
-3. 중첩된 메뉴를 탐색하여 Exploit Guard 네트워크 보호를 Windows Defender  >    >    >  **Windows Defender**  >  **소프트웨어**  >  **정책으로 이동합니다.**
+3. 중첩된 메뉴를 탐색하여  Exploit Guard 네트워크 보호를 Windows Defender \>  \>  \> **Windows Defender** \> **소프트웨어** \> **정책으로 이동합니다.**
 
-4. **EnableNetworkProtection을** 선택하여 장치의 현재 네트워크 보호 상태를 확인합니다.
+4. **EnableNetworkProtection을** 선택하여 디바이스에서 네트워크 보호의 현재 상태를 확인합니다.
 
    - 0 또는 **끄기**
    - 1 또는 
@@ -65,7 +65,7 @@ ms.locfileid: "58550217"
 
 ### <a name="powershell"></a>PowerShell
 
-1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 **단추로** 클릭하고 Windows PowerShell 관리자 권한으로 **실행을 선택합니다.**
+1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
 2. 다음 cmdlet을 입력합니다.
 
     ```PowerShell
@@ -86,11 +86,19 @@ ms.locfileid: "58550217"
 
 ### <a name="microsoft-endpoint-manager-formerly-intune"></a>Microsoft Endpoint Manager(이전의 Intune)
 
-1. Microsoft Endpoint Manager 센터에 로그인합니다.https://endpoint.microsoft.com)
+1. Microsoft Endpoint Manager 센터( 에 https://endpoint.microsoft.com) 로그인합니다.
 
-2. 끝점 보호 구성 프로필 [만들기 또는 편집](/mem/intune/protect/endpoint-protection-configure)
+2. 장치 **구성**  >  **프로필 프로필**  >  **만들기로 이동하세요.**
 
-3. 프로필 **흐름의** 구성 설정 아래에서 Microsoft Defender Exploit Guard 네트워크 필터링 네트워크 보호 사용 또는  >    >    >   **감사만 사용으로 이동하세요.**
+3. 프로필 **만들기 플라이아웃에서** 템플릿 목록에서 **끝점** 보호를 선택한 다음 만들기를 **선택합니다.**
+
+4. **끝점 보호**  >  **기본으로 이동하여** 프로필 이름을 입력한 후 다음 을 **선택합니다.**
+
+5. 구성 **설정 섹션에서** 네트워크 필터링 **네트워크 Microsoft Defender Exploit Guard** 사용 또는 감사로  >    >    >   **이동합니다.** **다음** 을 선택합니다.
+
+6. 조직에서 **요구하는** 적절한 범위 태그, **할당** 및 적용성 규칙을 선택합니다.  관리자는 더 많은 요구 사항을 설정할 수 있습니다.
+
+7. 모든 정보를 검토한 다음 만들기를 **선택합니다.**
 
 ### <a name="group-policy"></a>그룹 정책
 
@@ -104,14 +112,14 @@ ms.locfileid: "58550217"
 
 2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. Exploit Guard **네트워크 보호를 Windows 구성** Microsoft Defender 바이러스 백신  >    >  **Windows Defender**  >  **확장합니다.**
+3. Exploit Guard **네트워크 보호를 Windows 구성** Microsoft Defender 바이러스 백신 \>  \> **Windows Defender** \> **확장합니다.**
 
    > [!NOTE]
    > 이전 버전의 Windows 그룹 정책 경로는 "Windows Defender 바이러스 백신"가 아니라 "Microsoft Defender 바이러스 백신"라고 말할 수 있습니다.
 
 4. 사용자 및  앱이 위험한 웹 사이트에 액세스하지 못하게 방지 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 옵션 섹션에서 다음 옵션 중 하나를 지정해야 합니다.
     - **차단** - 사용자가 악성 IP 주소 및 도메인에 액세스할 수 없습니다.
-    - **사용 안 하게(기본값)** - 네트워크 보호 기능이 작동하지 않습니다. 사용자가 악의적인 도메인에 액세스하지 못하게 차단되지 않습니다.
+    - **사용 안 하게(기본값)** - 네트워크 보호 기능이 작동하지 않습니다. 사용자가 악의적인 도메인에 액세스하는 것을 차단하지 않습니다.
     - **감사 모드** - 사용자가 악성 IP 주소 또는 도메인을 방문하면 이벤트가 Windows 기록됩니다. 그러나 사용자가 주소를 방문하지 못하도록 차단되지는 않습니다.
 
 > [!IMPORTANT]

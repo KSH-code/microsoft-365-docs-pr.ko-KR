@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 문서의 검토 집합에 있는 문서에 대한 메타데이터 필드를 Advanced eDiscovery Microsoft 365.
-ms.openlocfilehash: 4e5a4e60a5788c93f9ba0407616c4417c47ed46bfe20880d067ffa04a5a42dd1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ed7652ecf720e32a7ddfaffbd0ff2db29b582b69
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842318"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863920"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Advanced eDiscovery의 문서 메타데이터 필드
 
@@ -52,13 +52,13 @@ ms.locfileid: "53842318"
 |규정 준수 레이블|ComplianceLabels|Compliance_labels|[콘텐츠에](retention.md) 적용된 보존 레이블은 Office 365.|
 |복합 경로|CompoundPath|Compound_path|항목의 원본을 설명하는 사람이 읽을 수 있는 경로입니다.|
 |콘텐츠*|콘텐츠||항목의 추출된 텍스트입니다.|
-|Conversation Body|Conversation Body||항목의 대화 본문입니다.|
+|Conversation Body|ConversationBody||항목의 대화 본문입니다.|
 |대화 ID|ConversationId|Conversation_ID|메시지의 대화 ID입니다. Teams 1:1 및 그룹 채팅의 경우 같은 대화 내의 모든 대화 파일과 해당 가족 항목은 동일한 대화 ID를 공유합니다. 자세한 내용은 Advanced eDiscovery [의 콘텐츠에 대한 워크플로 Microsoft Teams.](teams-workflow-in-advanced-ediscovery.md)|
 |대화 인덱스||Conversation_index|메시지의 대화 인덱스입니다.|
 |대화 이름||ConversationName|2016의 채널 Teams. 이름 형식은 채널 유형에 따라 다릅니다. <br>Teams 채팅 및 비공개 채널 채팅:\<Name of team, name of channel\> <br>Teams 1:1 및 그룹 채팅: 모든 채팅 참가자의 표시 이름 및 전자 메일 주소<br>Yammer 커뮤니티: Community 이름 + 게시물의 처음 120자<br>Yammer 개인: 보낸 사람 이름 및 전자 메일 주소 + 메시지의 처음 120자 문자|
 |대화 Pdf 시간|ConversationPdfTime||PDF 버전의 대화가 만들어진 날짜입니다.|
 |대화 재배포 굽기 시간|ConversationRedactionBurnTime||채팅을 위해 대화의 PDF 버전을 만든 날짜입니다.|
-|대화 항목|대화 항목||항목의 대화 항목입니다.|
+|대화 항목|ConversationTopic||항목의 대화 항목입니다.|
 |대화 유형|ConversationType|ConversationType|채팅 대화의 유형입니다. 값은 다음과 같습니다. <br> Teams 1:1 및 그룹 채팅 및 모든 Yammer 대화: **그룹**<br>Teams 채널 및 비공개 채널: **채널**|
 |편집된 메시지 포함|ContainsEditedMessage|ContainsEditedMessage|편집된 Teams 대화 내용에 편집된 메시지가 포함되어 있는지 나타냅니다.
 |||Converted_file_path|변환된 내보내기 파일의 경로입니다. 내부 Microsoft의 경우 전용입니다.|
@@ -100,7 +100,7 @@ ms.locfileid: "53842318"
 |만들어진 파일 시스템 날짜||File_system_date_created|파일 시스템에서 만든 날짜입니다(비영구 데이터에만 Office 365 적용).|
 |파일 시스템 날짜 수정||File_system_date_modified|파일 시스템에서 수정된 날짜입니다(비영구 데이터에만 Office 365 적용).|
 |파일 형식|FileType||파일 확장명에 따라 항목의 파일 형식입니다.|
-|그룹 ID|그룹 ID|Group_ID|전자 메일 및 문서의 모든 항목을 그룹화합니다. 전자 메일의 경우 메시지와 모든 첨부 파일 및 추출된 항목이 포함됩니다. 문서의 경우 여기에는 문서와 포함된 항목이 포함됩니다.|
+|그룹 ID|GroupId|Group_ID|전자 메일 및 문서의 모든 항목을 그룹화합니다. 전자 메일의 경우 메시지와 모든 첨부 파일 및 추출된 항목이 포함됩니다. 문서의 경우 여기에는 문서와 포함된 항목이 포함됩니다.|
 |첨부 파일 포함|EmailHasAttachment|Email_has_attachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다.|
 |변호사가 있습니다.|HasAttorney||**True이면** 적어도 한 명 이상의 참가자가 변호사 목록에 있습니다. 그렇지 않으면 값이 **False입니다.**|
 |HasText*||Has_text|항목에 텍스트가 있는지 여부를 나타냅니다. 가능한 값은 **True** 및 **False입니다.**|
@@ -151,7 +151,7 @@ ms.locfileid: "53842318"
 |수신됨|수신됨|Email_date_received|전자 메일을 UTC로 받은 날짜 및 시간입니다.|
 |받는 사람 수||Recipient_count|메시지의 받는 사람 수입니다.|
 |받는 사람 도메인|RecipientDomains|Email_recipient_domains|메시지 받는 사람의 모든 도메인 목록입니다.|
-|수신자|수신자|Email_recipients|메시지의 모든 받는 사람(받는 사람,Cc, Bcc)의 목록입니다.|
+|받는 사람|받는 사람|Email_recipients|메시지의 모든 받는 사람(받는 사람,Cc, Bcc)의 목록입니다.|
 |||Redacted_file_path|내보내기에서 변경된 대체 파일의 경로입니다.|
 |||Redacted_text_path|내보내기에서 편집된 텍스트 파일 대체 경로입니다. 내부 Microsoft의 경우 전용입니다.|
 |타당성 태그 사례 문제 1||Relevance_tag_case_issue_1|Relevance tag Case issue 1 from Relevance.|

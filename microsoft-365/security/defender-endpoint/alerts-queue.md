@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 03/27/2020
 ms.technology: mde
-ms.openlocfilehash: 42d8662ade476e23e3a7e8d8af31bf782f6ccf6b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: bf92c1764ed2b81b1f4409efc2e7bc7fae94185d
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573994"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863839"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-alerts-queue"></a>엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성
 
@@ -59,7 +59,7 @@ ms.locfileid: "58573994"
 경고 심각도|설명
 ---|---
 높음 <br> (빨강)|일반적으로 APT(고급 영구 위협)와 관련된 경고입니다. 이러한 경고는 장치에 노출될 수 있는 손상의 심각도로 인한 높은 위험을 나타냅니다. 몇 가지 예로는 자격 증명 도난 도구 활동, 그룹과 연결되지 않은 랜섬웨어 활동, 보안 센서 변조 또는 악의적인 공격을 나타내는 모든 악의적인 활동이 있습니다.
-보통 <br> (주황색)|APT(Advanced Persistent Threat)의 일부일 수 있는 끝점 감지 및 위반 후 동작에 대한 대응 경고입니다. 여기에는 공격 단계의 일반적인 관찰된 동작, 변이적 레지스트리 변경, 의심스러운 파일 실행이 포함됩니다. 일부는 내부 보안 테스트의 일부일 수 있습니다. 또한 고급 공격의 일부일 수 있는 조사가 필요합니다.
+Medium <br> (주황색)|APT(Advanced Persistent Threat)의 일부일 수 있는 끝점 감지 및 위반 후 동작에 대한 대응 경고입니다. 여기에는 공격 단계의 일반적인 관찰된 동작, 변이적 레지스트리 변경, 의심스러운 파일 실행이 포함됩니다. 일부는 내부 보안 테스트의 일부일 수 있습니다. 또한 고급 공격의 일부일 수 있는 조사가 필요합니다.
 낮음 <br> (노란색)|보행 맬웨어와 관련된 위협에 대한 경고입니다. 예를 들어 해킹 도구, 맬웨어가 아닌 해킹 도구(예: 탐색 명령 실행, 로그 지우기 등)는 조직을 대상으로 하는 고급 위협을 나타내지 않습니다. 조직의 사용자가 격리된 보안 도구 테스트에서 제공될 수도 있습니다.
 정보 <br> (회색)|네트워크에 해로운 것으로 간주되지는 않지만 잠재적인 보안 문제에 대한 조직의 보안 인식을 강화할 수 있는 경고입니다.
 
@@ -67,13 +67,13 @@ ms.locfileid: "58573994"
 
 Microsoft Defender 바이러스 백신 (Microsoft Defender AV) 및 Endpoint 경고 심각도에 대한 Defender는 서로 다른 범위를 나타내기 때문에 다릅니다.
 
-Microsoft Defender AV 위협 심각도는 감지된 위협(맬웨어)의 절대 심각도를 나타내며 감염된 경우 개별 장치에 대한 잠재적인 위험을 기반으로 할당됩니다.
+Microsoft Defender 바이러스 백신 위협 심각도는 감지된 위협(맬웨어)의 절대 심각도를 나타내며 감염된 경우 개별 장치에 대한 잠재적인 위험에 따라 할당됩니다.
 
 끝점 경고 심각도에 대한 Defender는 감지된 동작의 심각도, 장치에 대한 실제 위험은 나타내지만 더 중요한 것은 조직에 대한 잠재적 위험을 나타내는 것입니다.
 
 예를 들면 다음과 같습니다.
 
-- Microsoft Defender AV에서 감지된 위협을 완전히 방지하고 장치를 감염하지 않은 위협에 대한 끝점용 Defender 경고의 심각도는 실제 손상이 아니기 때문에 "정보"로 분류됩니다.
+- 완전히 방지되고 장치를 감염시킬 수 없는 Microsoft Defender 바이러스 백신 감지된 위협에 대한 끝점용 Defender 경고의 심각도는 실제 손상이 아니기 때문에 "정보"로 분류됩니다.
 - 실행 중 상업용 맬웨어에 대한 경고가 감지되지만 Microsoft Defender AV에서 차단 및 수정한 경고는 개별 장치에 일부 손상을 입히지만 조직에 위협을 일으킬 수 있기 때문에 "낮음"으로 분류됩니다.
 - 실행 중 감지된 맬웨어에 대한 경고로, 개별 장치뿐만 아니라 조직에 위협이 될 수 있습니다. 이는 결국 차단된 경우와 관계없이 "중간" 또는 "높음"으로 순위가 올 수 있습니다.
 - 차단되거나 수정되지 않은 의심스러운 동작 경고는 동일한 조직 위협 고려 사항을 따라 "낮음", "보통" 또는 "높음"으로 순위가 설정됩니다.
@@ -101,7 +101,7 @@ MITRE ATT 및 CK 매트릭스에서 [](https://attack.mitre.org/tactics/enterpri
 |권한 에스컬레이터|PrivilegeEscalation|권한이 부여된 프로세스 또는 계정의 컨텍스트에서 실행하여 코드에 대한 더 높은 권한 수준을 얻습니다.|
 |랜섬웨어|랜섬웨어|파일을 암호화하고 액세스를 복원하기 위해 지급을 부수는 맬웨어입니다.|
 |의심스러운 활동|SuspiciousActivity|맬웨어 활동 또는 공격의 일부일 수 있는 이상적 활동입니다.|
-|원치 않는 소프트웨어|UnwantedSoftware|생산성 및 사용자 환경에 영향을 미치는 낮은 평판 앱 및 앱 잠재적으로 원치 않는 응용 프로그램(PUAS)으로 검색되었습니다.|
+|사용자 동의 없이 설치된 소프트웨어|UnwantedSoftware|생산성 및 사용자 환경에 영향을 미치는 낮은 평판 앱 및 앱 잠재적으로 원치 않는 응용 프로그램(PUAS)으로 검색되었습니다.|
 
 ### <a name="status"></a>상태
 

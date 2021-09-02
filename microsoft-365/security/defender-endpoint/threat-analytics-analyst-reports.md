@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3de298100e5a66e53bd34e110c35749e15e58044
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 75913a539db89bb5377386effb97c8e2a6b3beab
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568603"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863485"
 ---
 # <a name="the-analyst-report-in-threat-analytics"></a>위협 분석의 분석가 보고서
 
@@ -75,7 +75,7 @@ _위협 분석 보고서의 분석가 보고서 섹션_
 
 ## <a name="understand-how-each-threat-can-be-detected"></a>각 위협을 검색할 수 있는 방법 이해
 
-또한 분석가 보고서는 Endpoint 바이러스 백신 및  끝점 감지 및 응답(응용 프로그램) 기능에 대한 Microsoft Defender의 EDR 제공합니다.
+또한 분석 보고서는 Microsoft Defender 바이러스 백신 및 끝점  감지 및 응답(EDR) 기능의 검색을 제공합니다.
 
 ### <a name="antivirus-detections"></a>바이러스 백신 검색
 

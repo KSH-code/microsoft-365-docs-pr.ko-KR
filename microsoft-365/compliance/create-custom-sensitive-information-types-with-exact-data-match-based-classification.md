@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c785941529823048b55ab3590c91f365ea17a1ba
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 55ea055c1e69b3f7cecd334758d5343fadc408ee
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570140"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862800"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -73,7 +73,7 @@ EDM 기반 분류가 이 구독에 포함되어 있습니다
 
 |포털|전세계/GCC|GCC-High|DOD|
 |---|---|---|---|
-|Office SCC|protection.office.com|scc.office365.us|scc.protection.apps.mil|
+|Office SCC|compliance.microsoft.com|scc.office365.us|scc.protection.apps.mil|
 |Microsoft 365 보안 센터|security.microsoft.com|security.microsoft.us|security.apps.mil|
 |Microsoft 365 규정 준수 센터|compliance.microsoft.com|compliance.microsoft.us|compliance.apps.mil|
 
@@ -628,6 +628,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 - SharePoint용 DLP(파일)
 - Microsoft Cloud App Security DLP 정책
 - 서버 쪽 자동 레이블 지정 정책 - 상업용 클라우드 고객 및 정부 클라우드 고객이 사용할 수 있습니다.
+<!-- - Client side auto-labeling policies - available for government cloud customers -->  
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>EDM으로 DLP 정책 만들기
 

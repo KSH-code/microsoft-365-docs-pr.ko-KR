@@ -1,6 +1,6 @@
 ---
-title: 2016년 8월에 클라우드 제공 보호 Microsoft Defender 바이러스 백신
-description: 클라우드 제공 보호 기능을 켜고 빠르고 고급 보호 기능을 활용합니다.
+title: 클라우드에서 클라우드 보호 Microsoft Defender 바이러스 백신
+description: 빠르고 고급 보호 기능을 활용하기 위해 클라우드 보호를 켜야 합니다.
 keywords: Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, 클라우드, 한시적 차단
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -10,48 +10,43 @@ localization_priority: normal
 ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
-ms.date: 06/17/2021
-ms.reviewer: ''
+ms.date: 08/31/2021
+ms.reviewer: mkaminska
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: c7a7b3a09a8e8c7cc1a20beab8e2a895702eea27
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 82b773488fffb5b37390cc72043c1b011c5c6685
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595341"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863944"
 ---
-# <a name="turn-on-cloud-delivered-protection"></a>클라우드 제공 보호 켜기
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+# <a name="turn-on-cloud-protection-in-microsoft-defender-antivirus"></a>클라우드에서 클라우드 보호 Microsoft Defender 바이러스 백신
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
+- Windows Defender 바이러스 백신
 
-> [!NOTE]
-> Microsoft Defender 바이러스 백신 클라우드 서비스는 네트워크 및 끝점에 업데이트된 보호를 제공하는 메커니즘입니다. 클라우드 서비스라고 하지만 단순히 클라우드에 저장된 파일을 보호하는 것은 아니며, 대신 분산 리소스 및 기계 학습을 사용하여 기존 보안 인텔리전스 업데이트보다 훨씬 빠른 속도로 끝점에 보호 기능을 제공합니다.
+[Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md) 클라우드 보호는 정확하고 실시간, 지능적인 보호를 제공합니다. 클라우드 보호는 기본적으로 사용하도록 설정되어 있습니다. 그러나 조직의 요구에 맞게 클라우드 보호를 구성할 수 있습니다.
 
-Microsoft Defender 바이러스 백신 및 방지 기술을 사용하여 정확하고 실시간 및 지능적인 보호를 제공합니다. 엔드포인트 차세대 보호를 위한 Microsoft Defender의 핵심에 있는 고급 [기술에 대해 알아가세요.](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)
+## <a name="methods-to-configure-cloud-protection"></a>클라우드 보호를 구성하는 방법
 
-클라우드 제공 Microsoft Defender 바이러스 백신 여러 가지 방법으로 설정하거나 해제할 수 있습니다.
+다음 방법 Microsoft Defender 바이러스 백신 사용하여 클라우드 보호를 설정하거나 해제할 수 있습니다.
 
-- Microsoft Intune
-- Microsoft Endpoint Manager
+- Microsoft Endpoint Manager 및 Configuration Manager를 Microsoft Intune 포함
 - 그룹 정책
-- PowerShell cmdlet.
+- PowerShell cmdlet
 
- 또한 앱과 함께 개별 클라이언트에서 Windows 보안 수 있습니다.
+또한 앱 앱을 사용하여 개별 끝점에서 클라우드 보호를 켜거나 Windows 보안 있습니다. 
 
-클라우드 [제공 보호에 대한](cloud-protection-microsoft-defender-antivirus.md) 개요는 Microsoft 클라우드 제공 보호 Microsoft Defender 바이러스 백신 사용을 참조하세요.
-
-끝점이 클라우드 제공 보호 서비스에 연결할 수 있도록 하는 특정 네트워크 연결 요구 사항에 대한 자세한 내용은 네트워크 연결 구성 및 유효성 [검사를 참조하세요.](configure-network-connections-microsoft-defender-antivirus.md)
+끝점이 클라우드 보호 서비스에 연결할 수 있도록 하는 특정 네트워크 연결 요구 사항에 대한 자세한 내용은 네트워크 연결 구성 및 유효성 [검사를 참조하세요.](configure-network-connections-microsoft-defender-antivirus.md)
 
 > [!NOTE]
-> 이 Windows 10 이 항목에 설명된 기본  및  고급 보고 옵션 간에는 차이가 없습니다. 이는 레거시 구분으로, 두 설정을 선택하면 동일한 수준의 클라우드 제공 보호가 됩니다. 공유되는 정보의 유형이나 양에는 차이가 없습니다. 수집하는 정보에 대한 자세한 내용은 Microsoft 개인 정보 취급 [방침을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=521839)
+> 이 Windows 10 이 항목에 설명된 기본  및  고급 보고 옵션 간에는 차이가 없습니다. 이는 레거시 구분으로, 두 설정을 선택하면 동일한 수준의 클라우드 보호가 됩니다. 공유되는 정보의 유형이나 양에는 차이가 없습니다. 수집하는 정보에 대한 자세한 내용은 Microsoft 개인 정보 취급 [방침을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=521839)
 
-## <a name="use-intune-to-turn-on-cloud-delivered-protection"></a>Intune을 사용하여 클라우드 제공 보호 켜기
+## <a name="use-intune-to-turn-on-cloud-protection"></a>Intune을 사용하여 클라우드 보호 켜기
 
 1. Microsoft Endpoint Manager 관리 센터()로 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 이동하여 로그인합니다.
 
@@ -67,7 +62,7 @@ Microsoft Defender 바이러스 백신 및 방지 기술을 사용하여 정확�
 
 설정을 만들고 구성하는 방법을 포함하여 Intune 장치 프로필에 대한 자세한 내용은 [What are Microsoft Intune device profiles?](/intune/device-profiles)
 
-## <a name="use-microsoft-endpoint-manager-to-turn-on-cloud-delivered-protection"></a>클라우드 Microsoft Endpoint Manager 보호 켜기
+## <a name="use-microsoft-endpoint-manager-to-turn-on-cloud-protection"></a>클라우드 Microsoft Endpoint Manager 사용하여 클라우드 보호 켜기
 
 1. Microsoft Endpoint Manager 관리 센터()로 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 이동하여 로그인합니다.
 
@@ -86,7 +81,7 @@ Microsoft Defender 바이러스 백신 및 방지 기술을 사용하여 정확�
 
 맬웨어 방지 정책을 구성하는 방법에 Microsoft Endpoint Configuration Manager 맬웨어 방지 정책을 만들고 배포하는 [방법: 클라우드 보호 서비스를 참조하세요.](/configmgr/protect/deploy-use/endpoint-antimalware-policies#cloud-protection-service)
 
-## <a name="use-group-policy-to-turn-on-cloud-delivered-protection"></a>그룹 정책을 사용하여 클라우드 제공 보호 켜기
+## <a name="use-group-policy-to-turn-on-cloud-protection"></a>그룹 정책을 사용하여 클라우드 보호 켜기
 
 1. 그룹 정책 관리 장치에서 그룹 정책 관리 콘솔을 [열고](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **선택합니다.**
 
@@ -94,24 +89,24 @@ Microsoft Defender 바이러스 백신 및 방지 기술을 사용하여 정확�
 
 3. 관리 **템플릿 을 선택합니다.**
 
-4. MAPS에서 구성 **Windows 트리를 > Microsoft Defender 바이러스 백신 > 확장합니다.**
+4. MAPS에서 구성 **Windows**  >  **트리를 Microsoft Defender 바이러스 백신 > 확장합니다.**
 
 5. **Microsoft MAPS에 가입을 두 번 클릭합니다.** 옵션이 켜져 있으며 기본 **MAPS** 또는 고급 **지도로 설정되어 있는지 확인** **확인** 을 선택합니다.
 
 6. 추가 분석이 필요한 경우 파일 샘플 **보내기 를 두 번 클릭합니다.** 첫 번째 옵션이 **사용으로** 설정되어 있으며 다른 옵션이 다음 중 하나로 설정되어 있는지 확인합니다.
-    1. **안전한 샘플 보내기(1)**
-    2. **모든 샘플 보내기(3)**
 
-        > [!NOTE]
-        > 안전한 **샘플 보내기(1)** 옵션은 대부분의 샘플이 자동으로 전송됩니다. 개인 정보를 포함할 수 있는 파일은 계속 묻는 메시지를 표시하며 추가 확인이 요구됩니다.
-        >
-        > 옵션을 항상  프롬프트(0)로 설정하면 장치의 보호 상태가 낮아지게 됩니다. 보내지 **않습니다(2)로** 설정하면 [](configure-block-at-first-sight-microsoft-defender-antivirus.md) 끝점용 Microsoft Defender의 즉시 차단 기능이 작동하지 않습니다.
+   - **안전한 샘플 보내기(1)**
+   - **모든 샘플 보내기(3)**
+
+   >[!NOTE]
+   > 안전한 **샘플 보내기(1)** 옵션은 대부분의 샘플이 자동으로 전송됩니다. 개인 정보를 포함할 수 있는 파일은 계속 묻는 메시지를 표시하며 추가 확인이 요구됩니다.
+   > 옵션을 항상  프롬프트(0)로 설정하면 장치의 보호 상태가 낮아지게 됩니다. 보내지 **않습니다(2)로** 설정하면 [](configure-block-at-first-sight-microsoft-defender-antivirus.md) 끝점용 Microsoft Defender의 즉시 차단 기능이 작동하지 않습니다.
 
 7. **확인** 을 선택합니다.
 
-## <a name="use-powershell-cmdlets-to-turn-on-cloud-delivered-protection"></a>PowerShell cmdlet을 사용하여 클라우드 제공 보호 켜기
+## <a name="use-powershell-cmdlets-to-turn-on-cloud-protection"></a>PowerShell cmdlet을 사용하여 클라우드 보호 켜기
 
-다음 cmdlet은 클라우드 제공 보호를 켜는 기능을 사용할 수 있습니다.
+다음 cmdlet은 클라우드 보호를 켜면 됩니다.
 
 ```PowerShell
 Set-MpPreference -MAPSReporting Advanced
@@ -126,7 +121,7 @@ PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 Micro
 > [!WARNING]
 > **-SubmitSamplesConsent를** 설정하거나 장치의 보호 수준을 `NeverSend` `AlwaysPrompt` 낮출 수 있습니다. 또한 이를 로 설정하면 `NeverSend` 끝점용 Microsoft [](configure-block-at-first-sight-microsoft-defender-antivirus.md) Defender의 즉시 차단 기능이 작동하지 않습니다.
 
-## <a name="use-windows-management-instruction-wmi-to-turn-on-cloud-delivered-protection"></a>WMI(Windows 관리 지침)를 사용하여 클라우드 제공 보호 켜기
+## <a name="use-windows-management-instruction-wmi-to-turn-on-cloud-protection"></a>WMI(Windows 관리 지침)를 사용하여 클라우드 보호 켜기
 
 다음 [  속성에 MSFT_MpPreference  ](/previous-versions/windows/desktop/defender/set-msft-mppreference) 클래스의 Set 메서드를 사용합니다.
 
@@ -137,7 +132,7 @@ SubmitSamplesConsent
 
 허용되는 매개 변수에 대한 자세한 내용은 [WMIv2 api Windows Defender 참조하세요.](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 
-## <a name="turn-on-cloud-delivered-protection-on-individual-clients-with-the-windows-security-app"></a>앱과 함께 개별 클라이언트에서 클라우드 제공 보호 Windows 보안 켜기
+## <a name="turn-on-cloud-protection-on-individual-clients-with-the-windows-security-app"></a>앱 앱으로 개별 클라이언트에 Windows 보안 켜기
 
 > [!NOTE]
 > Microsoft **MAPS** 보고를 위한 로컬 설정 다시 설정 구성 그룹 정책 설정을  사용 안 하도록 설정한 경우 Windows 설정 클라우드 기반 보호 설정은 회색으로 표시되어 사용할 수 없습니다. 설정이 Windows 설정에서 업데이트되기 전에 먼저 그룹 정책 개체를 통해 수행한 변경을 개별 엔드포인트에 배포해야 합니다.
@@ -153,13 +148,10 @@ SubmitSamplesConsent
 > [!NOTE]
 > 그룹 정책을 사용하여 자동 샘플 제출을 구성한 경우 설정은 회색으로 회색으로 설정되고 사용할 수 없습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="see-also"></a>참고 항목
 
-- [클라우드 차단 제한 시간 구성](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
-- [최초 차단 구성](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-- [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 관리](use-powershell-cmdlets-microsoft-defender-antivirus.md)
-- [pc에서 Windows 보안](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)Endpoint Protection Microsoft Intune]
-- [Defender cmdlet](/powershell/module/defender/)
-- [Microsoft 클라우드 제공 보호 기능을 Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md)
+- [Microsoft 클라우드 보호를 사용하여 Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md)
+
 - [맬웨어 방지 정책을 만들고 배포하는 방법: 클라우드 보호 서비스](/configmgr/protect/deploy-use/endpoint-antimalware-policies#cloud-protection-service)
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
+
+- [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 관리](use-powershell-cmdlets-microsoft-defender-antivirus.md)

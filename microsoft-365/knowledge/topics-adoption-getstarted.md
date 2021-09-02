@@ -11,12 +11,12 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 2c1c8f46c3d569b6b43a87a6481d93b76729e48d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: a8e95586dc5e3d2da2cbd6ace9369e4b2d17afed
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570944"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863389"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-viva-topics"></a>Microsoft Viva 도입 시작
 
@@ -87,7 +87,7 @@ Viva 항목을 성공적으로 사용할 수 있도록 조직에서 Viva 항목�
 
 HR 관리자는 신입 사원이 회사 및 팀에 신속하게 온보드할 수 있도록 정보를 제공해야 합니다. 또한 신속하고 효율적으로 온보드해야 하는 올바른 리소스, 문서 및 팀 구성원을 보게 하려는 경우 새 직원이 여러 리포지토리에서 검색하거나 이미 사용하고 있는 응용 프로그램을 나가지 않고도 필요한 정보를 빠르게 찾을 수 있는 솔루션을 찾고 있습니다.
 
-예시:
+예를 들면 다음과 같습니다.
 
 - 직원(Jordan)이 새 역할을 맡고 있으며 새로 고용된 후 역할을 시작하고 있습니다. 요르단은 최대한 빨리 참여하고 생산성을 향상하기를 원합니다. 하지만 요르단은 시작 장소를 찾는 데도 도움이 필요합니다.
 - Jordan이 신입 사원과 해당 정보를 찾는 데 도움이 되는 항목 페이지를 만들기 전에 역할에 있는 동료(Kim)입니다.
@@ -139,7 +139,7 @@ Viva 항목을 사용하여 이 시나리오를 자동화할 때 다음을 보�
 | 주제 전문가 및 주제 참가자 | 주제 및 설명 생성 또는 검토 | 모든 부서 |
 | 챔피언 | 이의 처리 독려 및 관리 | 모든 부서(직원) |
 | 테넌트 관리자 | 테넌트 수준 설정 구성 | IT 부서 |
-| 파워 플랫폼 관리자| 일반 데이터 서비스 환경 구성 | IT 부서 |
+| 파워 플랫폼 관리자| Dataverse 환경 구성 | IT 부서 |
 | 검색 관리자 또는 관리자 | 검색 설정 구성 | IT 부서 |
 
 대규모 조직에서는 이러한 역할에 여러 사람이 있을 수도 있으며 이러한 사용자들 사이에서 조정을 진행해야 합니다. 소규모 회사에서는 한 사람이 여러 역할을 수행할 수도 있습니다. 프로젝트의 단계에 따라 역할이 다를 수 있습니다. 예를 들어 테넌트 관리자는 기능을 설정하는 데 더 많은 관여를 하지만 주제 전문가와 챔피언은 주제 정의를 시작할 때까지 참여하지 않습니다.

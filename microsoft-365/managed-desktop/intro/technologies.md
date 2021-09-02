@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 89a495d5832d1a16e062c7df8e31ea3a3333bf00
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: dd8293f05a5b88bbd17a3b6760c9a535737fd439
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399710"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863884"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
@@ -64,7 +64,7 @@ Microsoft Defender 변조 보호 | Windows 변조 보호는 바이러스 백신 
 Microsoft Defender 바이러스 백신 동작 기반,추론적 및 실시간 바이러스 백신 보호 | 맬웨어로 검색되지 않을 수 있는 파일 및 프로세스 위협을 항상 검사합니다. 자세한 내용은 동작 기반, Microsoft Defender 바이러스 백신 및 실시간 바이러스 백신 보호를 [참조하세요.](../../security/defender-endpoint/microsoft-defender-antivirus-in-windows-10.md)
 Microsoft Defender 바이러스 백신 클라우드 제공 보호 | 새로운 위협과 새로운 위협에 대해 거의 즉각적이고 자동화된 동적 보호 기능을 제공합니다. 자세한 내용은 클라우드 [제공 Microsoft Defender 바이러스 백신 보호를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
 Microsoft Defender "한시적 차단" | 사용자가 의심스러우거나 알 수 없는 파일을 Windows 새 맬웨어를 검색하고 차단합니다. 자세한 내용은 [Microsoft Defender 차단을 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
-Microsoft Defender AV 잠재적으로 원치 않는 응용 프로그램 | 잠재적으로 원치 않는 응용 프로그램은 컴퓨터의 실행 속도가 느려지거나, 예기치 않은 광고를 표시하거나, 최악의 경우 예기치 않게 또는 원치 않는 다른 소프트웨어를 설치할 수 있는 앱을 차단하는 데 사용됩니다. 자세한 내용은 [Microsoft Defender AV 잠재적으로 원치 않는 응용 프로그램을 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+Microsoft Defender 바이러스 백신 잠재적으로 원치 않는 응용 프로그램 | 잠재적으로 원치 않는 응용 프로그램은 컴퓨터의 실행 속도가 느려지거나, 예기치 않은 광고를 표시하거나, 최악의 경우 예기치 않게 또는 원치 않는 다른 소프트웨어를 설치할 수 있는 앱을 차단하는 데 사용됩니다. 자세한 내용은 [잠재적으로 Microsoft Defender 바이러스 백신 응용 프로그램을 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
 Windows Defender 고급 보안이 있는 방화벽 | 장치에 대한 호스트 기반의 양측 네트워크 트래픽 필터링은 Windows Defender 들어오거나 로컬 장치로 유입되는 권한이 없는 네트워크 트래픽을 차단합니다. 자세한 내용은 고급 [보안이 Windows Defender 방화벽을 참조하세요.](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)
 사용자 계정 컨트롤 | 작업 또는 작업에 관리자 계정 유형 액세스 권한이 필요한 경우 사용자 계정 컨트롤이 보안 데스크톱으로 전환됩니다. Microsoft Managed Desktop 사용자에게 등록 시 표준 사용자 액세스 권한이 할당됩니다. 자세한 내용은 사용자 계정 [컨트롤 을 참조하세요.](/windows/security/identity-protection/user-account-control/how-user-account-control-works)
 

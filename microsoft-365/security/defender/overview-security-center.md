@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 7f4df3c6903194b00a4469f52fb0e15e2f8748ad
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 7f129f3ba1650403b23aa7e849a7b74f8220871f
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573874"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863788"
 ---
 # <a name="microsoft-365-defender-overview"></a>Microsoft 365 Defender 개요
 
@@ -60,9 +60,9 @@ Office 365 보안 및 준수 센터(protection.office.com) 및 Microsoft Defende
 
 Microsoft 365 Defender 보안 팀이 다음에 대한 통합 환경 집합으로 여러 워크로드의 신호를 가져와 공격을 조사하고 대응하는 데 도움을 줄 수 있습니다.
 
-- 인시던트 & 경고
+- 인시던트 및 경고
 - 헌팅
-- 작업 센터
+- 알림 센터 
 - 위협 분석
 
 Microsoft 365 Defender Microsoft Defender  for Office 365 끝점용 Microsoft Defender를 병합할 때 단합, 명확성 및 공통 목표를 강조합니다. 병합은 아래에 나열된 우선 순위를 기반으로 하여 각 보안 제품군이 다음과 같은 조합으로 가져온 기능을 만족하지 않고도 이행됩니다.
@@ -157,7 +157,7 @@ Microsoft 365 Defender 포털에는 Microsoft 보안 블로그, YouTube의 Micro
 > 제품 필터, 현재 항목, 리소스 유형(비디오에서 웨비나까지), 보안 영역, 보안 역할 및 제품 기능에 대한 익숙하거나 경험 수준이 나열됩니다.
 
 > [!TIP]
-> Microsoft Learn 에는 다른 많은 학습 [기회가 있습니다.](/e/learn/) [Ms-500T02-A:](/learn/certifications/courses/ms-500t02)보안 위협 방지 구현과 같은 인증 Microsoft 365 있습니다.
+> Microsoft Learn 에는 다른 많은 학습 [기회가 있습니다.](/learn/) [Ms-500T02-A:](/learn/certifications/courses/ms-500t02)보안 위협 방지 구현과 같은 인증 Microsoft 365 있습니다.
 
 ## <a name="send-us-your-feedback"></a>피드백 보내기
 

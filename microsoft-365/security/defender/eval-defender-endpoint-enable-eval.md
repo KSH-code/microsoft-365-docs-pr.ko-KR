@@ -1,6 +1,6 @@
 ---
 title: 끝점 평가를 위해 Microsoft Defender 사용
-description: 라이선스 Microsoft 365 Defender 및 온보딩 엔드포인트를 포함하여 테스트 테스트 또는 파일럿 환경을 사용하도록 설정
+description: 라이선스 Microsoft 365 Defender 끝점 확인을 포함하여 평가판 또는 파일럿 환경 사용
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: fb8e77a11b3844d78c99b56863bdb9ea424c48f9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 09785d48d2ad5efb2d33559d0580c5a0ff63c768
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572974"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864029"
 ---
 # <a name="enable-microsoft-defender-for-endpoint-evaluation-environment"></a>끝점 평가 환경에 Microsoft Defender 사용
 
@@ -34,8 +34,8 @@ ms.locfileid: "58572974"
 이 문서에서는 프로덕션 장치를 사용하여 끝점용 Microsoft Defender의 평가 환경을 설정하는 단계를 안내합니다. 
 
 
->[!TIP]
->끝점용 Microsoft Defender에는 미리 구성된 장치를 추가하고 시뮬레이션을 실행하여 플랫폼의 기능을 평가할 수 있는 제품 내 평가 랩도 함께 제공합니다. 이 랩에는 고급 헌팅 및 위협 분석과 같은 많은 기능에 대한 지침을 포함하여 Enpdoint용 Microsoft Defender의 가치를 빠르게 보여 줄 수 있는 간소화된 설정 환경이 제공됩니다. 자세한 내용은 [기능 평가를 참조하세요.](/defender-endpoint/evaluation-lab.md) <br> 이 문서에서 제공하는 지침과 평가 랩의 주요 차이점은 평가 환경은 프로덕션 장치를 사용하는 반면, 평가 랩은 프로덕션이 아닌 장치를 사용하다는 것입니다. 
+> [!TIP]
+> 끝점용 Microsoft Defender에는 미리 구성된 장치를 추가하고 시뮬레이션을 실행하여 플랫폼의 기능을 평가할 수 있는 제품 내 평가 랩도 함께 제공합니다. 이 랩에는 고급 헌팅 및 위협 분석과 같은 많은 기능에 대한 지침을 포함하여 끝점용 Microsoft Defender의 가치를 빠르게 보여 줄 수 있는 간소화된 설정 환경이 제공됩니다. 자세한 내용은 [기능 평가를 참조하세요.](../defender-endpoint/evaluation-lab.md) <br> 이 문서에서 제공하는 지침과 평가 랩의 주요 차이점은 평가 환경은 프로덕션 장치를 사용하는 반면, 평가 랩은 프로덕션이 아닌 장치를 사용하다는 것입니다. 
 
 다음 단계를 사용하여 끝점용 Microsoft Defender에 대한 평가를 사용하도록 설정할 수 있습니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "58572974"
 
 끝점용 Microsoft Defender를 평가하기 위해 평가를 수행하기 위해 몇 Windows 10 장치를 선택하는 것이 좋습니다.
 
-지원되는 관리 도구를 사용할 수 있지만 Intune은 최적의 통합을 제공합니다. 자세한 내용은 [Configure Microsoft Defender for Endpoint in Microsoft Intune](/mem/intune/protect/advanced-threat-protection-configure.md#enable-microsoft-defender-for-endpoint-in-intune)
+지원되는 관리 도구를 사용할 수 있지만 Intune은 최적의 통합을 제공합니다. 자세한 내용은 [Configure Microsoft Defender for Endpoint in Microsoft Intune.](/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
 
 배포 [계획 항목에서는](../defender-endpoint/deployment-strategy.md) 끝점용 Defender를 배포하는 데 필요한 일반적인 단계를 간략하게 설명합니다.  
 

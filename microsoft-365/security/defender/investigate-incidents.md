@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 262c68e517bb088af7ca3fa814a788c9303adf22
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 8f98a9b942f65a1c60708c4d4bfa756ab7d8fc2a
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548693"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863747"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>2013에서 인시던트 Microsoft 365 Defender
 
@@ -176,6 +176,26 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 Microsoft 365 Defender 모든 인시던트 지원 이벤트 및 의심스러운 엔터티를 경고에서 자동으로 조사하여 중요한 전자 메일, 파일, 프로세스, 서비스, IP 주소에 대한 정보를 제공합니다. 이렇게 하면 인시던트의 잠재적인 위협을 빠르게 감지하고 차단할 수 있습니다.
 
 분석된 각 엔터티는 판정(악성, 의심스러운, 정리)과 수정 상태로 표시됩니다. 이렇게 하면 전체 인시던트의 수정 상태와 다음 단계를 이해하는 데 도움이 됩니다.
+
+## <a name="graph-preview"></a>Graph(미리 보기)
+
+Graph  탭에는 공격의 전체 범위, 공격이 시간의에 따라 네트워크를 통해 확산되는 방식, 공격이 시작된 위치 및 공격자가 얼마나 갔는가가 표시됩니다. 공격의 일부인 여러 의심스러운 엔터티를 사용자, 장치 및 사서함과 같은 관련 자산과 연결합니다. 
+
+Graph **탭에서** 다음을 할 수 있습니다.
+
+1. 경고 및 노드가 시간이 지날 때 발생한 경고 및 노드를 재생하여 공격의 연대론을 이해합니다.
+
+<!--
+   :::image type="content" source="../../media/investigate-incidents/incident-graph-play.png" alt-text="Example of playing the alerts and nodes on the Graph page":::
+--> 
+
+2. 엔터티 창을 열고 엔터티 세부 정보를 검토하고 파일 삭제 또는 장치 독립과 같은 수정 작업을 수행할 수 있습니다.
+ 
+   :::image type="content" source="../../media/investigate-incidents/incident-graph-entity-pane.png" alt-text="웹 페이지의 엔터티 창 Graph 예":::
+
+3. 관련된 엔터티에 따라 경고를 강조합니다.
+ 
+   :::image type="content" source="../../media/investigate-incidents/incident-graph-alert.png" alt-text="알림 페이지의 경고 강조 Graph 예":::
 
 ## <a name="next-steps"></a>다음 단계
 

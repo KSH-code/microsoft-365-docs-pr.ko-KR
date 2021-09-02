@@ -16,12 +16,12 @@ ms.collection:
 description: 금고 문서 또는 Microsoft 365 E5 문서에 대해 Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b1009e3c8e75497b32222b61b95810d7a50b33d2
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 0ccedf53b9978329935ceb28bb0ba0695f3da67c
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563333"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863824"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -30,11 +30,23 @@ ms.locfileid: "58563333"
 **적용 대상**
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-금고 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 Security [Microsoft Defender for Endpoint를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 [Application Guard에서](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)열 수 있는 문서 및 파일을 검사하는 Office. [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
+금고 문서는 [끝점용 Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 Application [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) Guard에서 열 수 있는 문서 및 파일을 검사하는 고급 [Office.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 금고 문서는 라이선스가 없는  사용자만 사용할 *Microsoft 365 E5* Microsoft 365 E5 Security 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 포함되어 있지 않습니다.
+- 금고 **SafeDocs(또는** **SAFEDOCS** 또는 Office 365 **bf6f5520-59e3-4f82-974b-7dbbc4fd27c7)** 서비스(서비스 계획)에서 제어하는 금고 문서의 가용성 이 서비스 계획은 다음 라이선싱 계획(라이선스 계획, Microsoft 365 또는 제품)에서 사용할 수 있습니다.
+  - Microsoft 365 A5 교직원용 교육
+  - Microsoft 365 A5 학생용 지원
+  - Microsoft 365 E5
+  - Microsoft 365 E5 Security
+
+  금고 Microsoft Defender for Office 365 문서가 포함되어 있지 않습니다.
+
+  자세한 내용은 아래 항목을 참조하세요.
+
+  - [PowerShell을 Microsoft 365 라이선스 및 서비스 보기](/microsoft-365/enterprise/view-licenses-and-services-with-microsoft-365-powershell)
+  - [PowerShell을 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기](/microsoft-365/enterprise/view-account-license-and-service-details-with-microsoft-365-powershell)
+  - [라이선스에 대한 제품 이름 및 서비스 계획 식별자](/azure/active-directory/enterprise-users/licensing-service-plan-reference)
 
 - 금고 문서는 엔터프라이즈용 Microsoft 365 앱(Office 365 ProPlus) 버전 2004 이상에서 지원됩니다.
 
@@ -60,7 +72,7 @@ ms.locfileid: "58563333"
 
 금고 전송된 파일은 분석에 필요한 시간(일반적으로 24시간 미만)이 지난 시간 동안 Defender에 보존되지 않습니다.
 
-## <a name="use-the-microsoft-365-defender-to-configure-safe-documents"></a>다음 Microsoft 365 Defender 사용하여 문서 금고 구성
+## <a name="use-the-microsoft-365-defender-portal-to-configure-safe-documents"></a>Microsoft 365 Defender 포털을 사용하여 금고 구성
 
 1. Microsoft 365 Defender 포털을 열고 정책 섹션의 **전자** 메일 & 공동 작업 정책& 규칙 위협 금고 정책으로 \>  \>  \>  이동하십시오. 
 
@@ -70,7 +82,7 @@ ms.locfileid: "58563333"
    - **금고 클라이언트에** 대한 Office 설정 : 토글을 오른쪽으로 이동하여 기능을 ![ 켜기: 토글합니다. ](../../media/scc-toggle-on.png) .
    - **사용자가 파일을** 악성으로 식별한 경우에도 금고 보기를 클릭할 수 있도록 허용 : 이 옵션을 해제한 후(토글을 왼쪽으로 그대로 두기: ![ 토글 해제). ](../../media/scc-toggle-off.png)
 
-   작업을 마쳤으면 **저장** 을 클릭합니다.
+   작업을 마친 후 **저장** 을 클릭합니다.
 
    ![금고 첨부 파일 페이지에서 전역 설정을 선택한 금고 문서화합니다.](../../media/safe-docs-global-settings.png)
 
@@ -92,6 +104,21 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-AtpPolicyForO365를 참조하십시오.](/powershell/module/exchange/set-atppolicyforo365)
+
+### <a name="configure-individual-access-to-safe-documents"></a>문서에 대한 금고 구성
+
+금고 기능에 대한 액세스를 선택적으로 허용하거나 차단하려면 다음 단계를 수행합니다.
+
+1. 이 문서의 금고 설명한 Microsoft 365 Defender PowerShell에서 Exchange Online PowerShell에서 문서 편집을 하게 합니다.
+2. Azure AD PowerShell을 사용하여 Disable specific Microsoft 365 services for specific users [for a specific licensing plan에](/microsoft-365/enterprise/disable-access-to-services-with-microsoft-365-powershell#disable-specific-microsoft-365-services-for-specific-users-for-a-specific-licensing-plan)설명된 바와 같이 특정 사용자에 대해 금고 문서를 사용하지 않도록 설정합니다.
+
+  PowerShell에서 사용하지 않도록 설정할 서비스 계획의 이름은 **SAFEDOCS입니다.**
+
+자세한 내용은 아래 항목을 참조하세요.
+
+- [PowerShell을 Microsoft 365 라이선스 및 서비스 보기](/microsoft-365/enterprise/view-licenses-and-services-with-microsoft-365-powershell)
+- [PowerShell을 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기](/microsoft-365/enterprise/view-account-license-and-service-details-with-microsoft-365-powershell)
+- [라이선스에 대한 제품 이름 및 서비스 계획 식별자](/azure/active-directory/enterprise-users/licensing-service-plan-reference)
 
 ### <a name="onboard-to-the-microsoft-defender-for-endpoint-service-to-enable-auditing-capabilities"></a>감사 기능을 사용하도록 설정하기 위해 끝점 서비스용 Microsoft Defender에 온보딩
 

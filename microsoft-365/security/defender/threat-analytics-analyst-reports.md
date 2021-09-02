@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5e8f6d2c79a0eeac6db20ff5791a25264d1b6767
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 03973595f68c56ac57f22d8d68c9f37f04fb6bb8
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573454"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862836"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics-in-microsoft-365-defender"></a>위협 분석의 분석가 보고서를 Microsoft 365 Defender
 
@@ -73,7 +73,7 @@ _위협 분석 보고서의 분석가 보고서 섹션_
 완화 탭을  사용하여 위협에 대한 보안 상태를 평가할 수 있는 반면, 이러한 권장 사항을 통해 보안 상태를 개선하기 위한 추가 단계를 취할 수 있습니다. 분석가 보고서의 모든 완화 지침을 신중하게 읽고 가능한 경우 적용합니다.
 
 ## <a name="understand-how-each-threat-can-be-detected"></a>각 위협을 검색할 수 있는 방법 이해
-또한 분석가 보고서는 Endpoint 바이러스 백신 및  끝점 감지 및 응답(응용 프로그램) 기능에 대한 Microsoft Defender의 EDR 제공합니다.
+또한 분석 보고서는 Microsoft Defender 바이러스 백신 및 끝점  감지 및 응답(EDR) 기능의 검색을 제공합니다.
 
 ### <a name="antivirus-detections"></a>바이러스 백신 검색
 이러한 검색은 장치가 켜져 있는 [장치에서 Microsoft Defender 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 있습니다. 끝점용 Microsoft Defender에 온보딩된 장치에서 이러한 검색이 발생하면 보고서의 차트를 밝게 하는 경고도 트리거합니다.

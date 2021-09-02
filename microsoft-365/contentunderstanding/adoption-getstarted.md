@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: edebf145a754d58e4650492eefa6d67276127afb
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 91743eb7184e340deac15c10412833f2d8060866
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574751"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863632"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex 도입: 시작
 
@@ -73,7 +73,7 @@ ms.locfileid: "58574751"
 | SharePoint/지식 관리자 | 파워 플랫폼 관리자 | 지식 관리자 | 모델 소유자 |
 |:-------|:-------|:-------|:-------|
 | AAD 역할| AAD 역할 | AAD 역할 | 챔피언 |
-| 양식 처리 구성 | 양식 처리를 위한 일반 데이터 서비스 환경 구성 | 사용 사례 수집 | 비즈니스 사용 사례 수집 |
+| 양식 처리 구성 | 양식 처리를 위한 Dataverse 환경 구성 | 사용 사례 수집 | 비즈니스 사용 사례 수집 |
 | 콘텐츠 센터 및 사용 권한 관리| AIB 크레딧 구매 및 할당 | 모범 사례 설정 및 모델 분석 검토 | 모델 만들기 및 적용 |
 
 기술 관리자, 비즈니스 프로세스 소유자 및 콘텐츠 모델 소유자는 조직에서 샘플 모델과 챔피언 채택을 생성합니다.
@@ -109,9 +109,9 @@ ms.locfileid: "58574751"
 | 콘텐츠 관리자 및 모델 소유자| 사용 사례 수집 및 모델 만들기 및 적용 | 모든 부서|
 | 챔피언 | 이의 처리 독려 및 관리 | 모든 부서(직원) |
 | 테넌트 관리자 | 테넌트 수준 설정 구성 | IT 부서|
-| 파워 플랫폼 관리자| 일반 데이터 서비스 환경 구성 | IT 부서|
+| 파워 플랫폼 관리자| Dataverse 환경 구성 | IT 부서|
 
-> [!Note]
+> [!NOTE]
 > 이러한 각 역할을 롤아웃 전체에서 이행하는 것이 까다로우면 식별된 솔루션을 시작하는 데 이러한 역할이 모두 필요하지 않을 수도 있습니다.
 
 ## <a name="readiness-checklist"></a>준비 검사 목록

@@ -22,12 +22,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 7338292b784cdad17548efc3dd148f3ea6a72b28
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 57106e33f244ad1e549fcfd7f361c82863f9e3a9
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568267"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864041"
 ---
 # <a name="try-microsoft-365-defender-incident-response-capabilities-in-a-pilot-environment"></a>파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 
@@ -81,7 +81,7 @@ ms.locfileid: "58568267"
 
 - 인시던트 이름 편집
 
-  보안 팀 모범 사례에 따라 utomatically 할당된 이름을 변경합니다.
+  보안 팀 모범 사례에 따라 자동으로 할당된 이름을 변경합니다.
   
 - 인시던트 태그 추가
 
@@ -153,7 +153,7 @@ ms.locfileid: "58568267"
 
     b. 테스트 장치를 테스트 도메인에 가입합니다.
 
-    c. [를 Windows Defender 바이러스 백신.](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) 사용자 설정에 문제가 Windows Defender 바이러스 백신 문제 해결 항목을 [참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)
+    c. [를 Windows Defender 바이러스 백신.](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) 사용자 설정에 문제가 Windows Defender 바이러스 백신 문제 해결 항목을 [참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
     d. [끝점용 Microsoft Defender에 온보딩합니다.](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 

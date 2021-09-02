@@ -1,5 +1,5 @@
 ---
-title: PowerShell cmdlet을 사용하여 Microsoft Defender AV 구성 및 실행
+title: PowerShell cmdlet을 사용하여 구성 및 실행 Microsoft Defender 바이러스 백신
 description: 이 Windows 10 PowerShell cmdlet을 사용하여 검색을 실행하고 보안 인텔리전스를 업데이트하고 설정을 변경할 수 Microsoft Defender 바이러스 백신.
 keywords: 검사, 명령줄, mpcmdrun, defender
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 820300be1a8c68dab4b000b61023819ce1b75cf800e7cc16915f2aa7a696dfd2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 41d36f93ad371842d4ffe81e02cb46adb9e12288
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884478"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863956"
 ---
 # <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>PowerShell cmdlet을 사용하여 구성 및 관리 Microsoft Defender 바이러스 백신
 

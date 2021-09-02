@@ -13,14 +13,17 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 과제를 만들고 등급을 지정하고, 과정 콘텐츠를 작성 및 구성하고, 새로운 Microsoft OneDrive Learning 도구 상호 관리 앱을 사용하여 실시간으로 파일을 공동 작업합니다.
-ms.openlocfilehash: a1a07173b756d8eb86158bb669113d7e9f7202bf1b666ebc2a086f1aed732d2e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e67e772ce8ef460075729b34bc7da86d486c51e9
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53830086"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863413"
 ---
 # <a name="integrate-microsoft-onedrive-lti-with-canvas"></a>Canvas Microsoft OneDrive LTI 통합
+
+> [!IMPORTANT]
+> 일부 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 사전 출시 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
 LTI를 Microsoft OneDrive 통합하는 과정은 두 단계로 진행됩니다. 첫 번째 단계에서는 Canvas에서 Microsoft OneDrive 사용할 수 있으며, 두 번째 단계에서는 Canvas Microsoft OneDrive LTI를 사용할 수 있도록 합니다.
 

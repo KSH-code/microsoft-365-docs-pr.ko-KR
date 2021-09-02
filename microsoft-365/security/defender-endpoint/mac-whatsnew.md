@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
-ms.topic: conceptual
+ms.topic: reference
 ms.technology: mde
-ms.openlocfilehash: f2b4c7fc980c0a5ad12e9a8570942c3c81044672
-ms.sourcegitcommit: 5566455f1872dba23cc571281609258740842e8e
+ms.openlocfilehash: 0bfbd44e0e097148800501c5bed3b1b3db2dbbc9
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58385922"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863728"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
@@ -37,6 +37,11 @@ ms.locfileid: "58385922"
 
 > [!IMPORTANT]
 > macOS 11(Big Sur)에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 이 페이지에 나열된 추가 구성 프로필을 [배포해야 합니다.](mac-sysext-policies.md)
+
+## <a name="1014084-20121071140840"></a>101.40.84 (20.121071.14084.0)
+
+- M1 칩 네이티브 지원
+- 버그 수정을 & 성능 개선
 
 ## <a name="1013797-20121062137970"></a>101.37.97 (20.121062.13797.0)
 
@@ -180,7 +185,7 @@ ms.locfileid: "58385922"
 ## <a name="1010154"></a>101.01.54
 
 - 시간 컴퓨터와의 호환성 개선
-- 향상된 접근성
+- 접근성 개선
 - 버그 수정을 & 성능 개선
 
 ## <a name="1010031"></a>101.00.31
