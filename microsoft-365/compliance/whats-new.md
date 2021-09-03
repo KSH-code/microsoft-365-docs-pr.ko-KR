@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b610c2bb3c3b30900a5316083864d1fc67b85442
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.openlocfilehash: edcfbb7cbce64cc964d5c32d64c4a176424a0d49
+ms.sourcegitcommit: bdf506c47bfed0f7e639301a7edd94c4eb150150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866754"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58869182"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -60,16 +60,11 @@ ms.locfileid: "58866754"
 - [보존 원칙에](retention-flowchart.md) 대한 개념과 예제를 보완하기 위해 항목을 보존하거나 영구적으로 삭제하는 경우를 결정하는 흐름도입니다.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
-- [지원되는](apply-sensitivity-label-automatically.md#recent-enhancements-for-auto-labeling-policies) 수치가 높은 사이트 및 정책, 모든 OneDrive 및 SharePoint 사이트에 대한 지원, URL로 각 사이트를 입력하지 않고도 사용 가능한 SharePoint 사이트를 선택하는 기능, 시뮬레이션 개선 사항 등 자동 레이블 지정 정책이 개선되었습니다.
+- [사이트](apply-sensitivity-label-automatically.md#recent-enhancements-for-auto-labeling-policies) 및 정책에 대해 지원되는 수치가 높고, 모든 OneDrive 및 SharePoint 사이트에 대한 지원, URL로 각 사이트를 입력하지 않고도 사용 가능한 SharePoint 사이트를 선택하는 기능, 시뮬레이션 개선 사항 등 자동 레이블 지정 정책이 개선되었습니다.
 - 이제 앱의 자동 레이블 Office 민감도 레이블 설정은 [EDM(정확한 데이터 일치)을 지원합니다.](apply-sensitivity-label-automatically.md#custom-sensitive-information-types-with-exact-data-match)
 - 이제 기본 레이블이 [Power BI(미리 보기)로 확장됩니다.](/power-bi/admin/service-security-sensitivity-label-default-label-policy)
 - 활동 탐색기에서 표시하는 [](data-classification-activity-explorer-available-events.md) 웹용 Outlook 감사 이벤트가 완전히 롤아웃됩니다. 즉, 이제 모든 플랫폼의 모든 Office 앱에서 기본 제공 레이블에 대한 사용자 활동을 사용할 수 있습니다.
 - [지원되는](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) 기능 표에는 최소 Windows 현재 채널에 대한 각주와 선행 0을 생략하는 이전 버전을 최신 버전과 보다 쉽게 비교할 수 있는 팁이 제공됩니다.
-
-### <a name="retention-and-records-management"></a>보존 및 레코드 관리
-
-- 항목을 보존하거나 영구적으로 삭제할 때를 결정하는 [흐름도입니다.](retention-flowchart.md) 보존 원칙에 대한 단계별 시각적 표현을 제공합니다.
-- [보존 레이블을 자동으로 적용하여 콘텐츠 보존 또는 삭제](apply-retention-labels-automatically.md) 사용 가능한 각 Exchange SharePoint 레이블을 자동으로 적용할 수 있는 경우를 명확히 설명하기 위해 추가된 새 테이블입니다.
 
 ## <a name="july-2021"></a>2021년 7월
 
