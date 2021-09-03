@@ -8,6 +8,26 @@
           href: admin-overview/sign-up-for-office-365.md
         - name: Microsoft 365 체험 또는 구매
           href: ../commerce/try-or-buy-microsoft-365.md
+        - name: Microsoft 365 Business Premium에 가입
+          items:
+            - name: 등록
+              href: ../business/sign-up.md
+            - name: 설정 마법사를 사용하여 Microsoft 365 Business Premium 설정
+              href: ../business/set-up.md
+        - name: Microsoft 365 Business Standard에 등록
+          items:
+            - name: Microsoft 365 Business Standard에 등록
+              href: ../admin/simplified-signup/signup-business-standard.md
+            - name: Microsoft 365 비즈니스 표준 설정
+              href: ../admin/simplified-signup/signup-business-standard.md
+            - name: Microsoft 365 Business Standard에 사용자 초대
+              href: ../admin/simplified-signup/admin-invite-business-standard.md
+            - name: Microsoft 365 Business Standard에 대한 전자 메일 초대 수락
+              href: ../admin/simplified-signup/user-invite-business-standard.md
+            - name: 'Outlook, Yahoo, Gmail 또는 기타 계정을 사용하여 Microsoft 365 Business Standard 구독 조직에 대한 이메일 초대 수락'
+              href: ../admin/simplified-signup/user-invite-msa-nodomain-join.md
+            - name: 내 Microsoft 365 Business Standard 구독으로 데이터 마이그레이션
+              href: ../admin/simplified-signup/migrate-data-business-standard.md
         - name: 설정 계획
           href: setup/plan-your-setup.md
         - name: Windows 365 Business 플랜
@@ -25,7 +45,7 @@
             - name: Microsoft 365 Business Standard
               href: setup/setup-business-standard.md
             - name: Microsoft 365 Business Premium
-              href: setup/setup.md
+              href: setup/business-set-up.md
             - name: 비즈니스용 Microsoft 365 앱
               href: setup/setup-apps-for-business.md
         - name: 설정 페이지 및 마법사 살펴보기

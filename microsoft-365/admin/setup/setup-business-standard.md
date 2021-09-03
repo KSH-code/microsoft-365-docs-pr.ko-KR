@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365 Business Standard 설정
+title: 새 도메인 또는 기존 도메인으로 Microsoft 365 Business Standard 설정
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,37 +25,43 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: Microsoft 365 Business Standard를 구입하면 본인 소유 도메인을 사용하거나 가입 중 도메인을 구매할 수 있습니다.
-ms.openlocfilehash: e23d33bde473cd92ccf585db05593240cc48cea5
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+description: Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는 도메인을 사용하거나 등록할 때 도메인을 구입하는 옵션이 제공됩니다.
+ms.openlocfilehash: abb818b17ea5259b6e7015f73afb386e4515ac2f
+ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394759"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866766"
 ---
-# <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard 설정
+# <a name="set-up-microsoft-365-business-standard-with-a-new-or-existing-domain"></a>새 도메인 또는 기존 도메인으로 Microsoft 365 Business Standard 설정
 
+Microsoft 365 Business Standard를 구매하면 소유한 도메인을 추가하거나 구매할 수 있습니다. [Microsoft 365 Business Standard 구독 신청](../simplified-signup/signup-business-standard.md)을 확인하세요.
 
+이 문서에서는 이미 소유한 기존 도메인을 추가하거나 새 도메인을 구입하는 단계를 안내합니다. 등록할 때 새 도메인을 구입하면 도메인이 모두 설정되어 [사용자 추가 및 라이선스를 할당](#add-users-and-assign-licenses)으로 이동할 수 있습니다.
 
-## <a name="add-your-domain-to-personalize-sign-in"></a>로그인 개인 설정을 위한 도메인 추가
+## <a name="before-you-begin"></a>시작하기 전에
 
-Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는 도메인을 사용하거나 등록할 때 도메인을 구입하는 옵션이 제공됩니다.
+도메인을 추가, 수정 또는 제거하려면 전역 관리자여야 합니다. 자세한 내용은 [관리자 역할 정보](../add-users/about-admin-roles.md)를 참조하세요.
 
-- 등록할 때 새 도메인을 구입하면 도메인이 모두 설정되어 [사용자 추가 및 라이선스를 할당](#add-users-and-assign-licenses)으로 이동할 수 있습니다.
+> [!IMPORTANT]
+> 비즈니스용 Microsoft 365에 등록하는 사용자(일반적으로 비즈니스 소유자)은 자동으로 조직의 기술 관리자가 됩니다. Microsoft 365 서비스 관리에 도움이 필요한 경우 다른 사용자를 관리자로 추가할 수 있습니다. 자세한 내용은 [관리자 추가](../../business-video/add-admin.md)를 확인하세요.
 
-1. 전역 관리자 자격 증명을 사용하여 [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다. 
+## <a name="watch-add-an-existing-domain-to-your-microsoft-365-business-standard-subscription"></a>보기: Microsoft 365 Business Standard 구독에 기존 도메인 추가
 
-2. **설정으로 이동** 을 선택해 마법사를 시작합니다.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxApu]
 
-3. **Office 앱 설치** 페이지에서 컴퓨터에 선택적으로 앱을 설치할 수 있습니다.
-    
-4. **도메인 추가** 단계에서 사용할 도메인 이름(예: contoso.com)을 입력합니다.
+## <a name="steps-add-an-existing-domain-to-your-microsoft-365-business-standard-subscription"></a>단계: Microsoft 365 Business Standard 구독에 기존 도메인 추가
+
+1. Microsoft 365 Business Standard 가입의 **로그인 방법** 페이지에서 **새 비즈니스 이메일 계정 만들기(고급)** 를 선택합니다.
+
+2. **Office 앱 설치** 페이지에서 컴퓨터에 선택적으로 앱을 설치할 수 있습니다.
+
+3. **도메인 추가** 단계에서 사용할 도메인 이름(예: contoso.com)을 입력합니다.
 
     > [!IMPORTANT]
     > 등록할 때 도메인을 구입한 경우에는 **도메인 추가** 단계가 표시되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses)로 이동하세요.
 
-    
-4. 마법사의 단계에 따라 도메인을 소유하고 있는지 확인하는 [DNS 호스팅 공급자에 상관없이 Office 365용 DNS 레코드 만들기](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 완료합니다. 도메인 호스트를 알고 있는 경우 [Microsoft 365에 도메인 추가](/microsoft-365/admin/setup/add-domain)도 참조하세요.
+4. 단계에 따라 도메인을 소유하고 있는지 확인하는 [DNS 호스팅 공급자에 상관없이 Office 365용 DNS 레코드 만들기](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 완료합니다. 도메인 호스트를 알고 있는 경우 [Microsoft 365에 도메인 추가](/microsoft-365/admin/setup/add-domain)도 참조하세요.
 
     호스팅 공급자가 GoDaddy이거나 [도메인 연결](/office365/admin/get-help-with-domains/domain-connect)을 사용하는 다른 호스트를 사용하는 경우에는 프로세스가 간단하며, 자동으로 로그인하라는 메시지가 표시되고 Microsoft가 사용자를 대신하여 인증하도록 합니다.
 
@@ -63,24 +69,19 @@ Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는
 
 ## <a name="add-users-and-assign-licenses"></a>사용자 추가 및 라이선스 할당
 
-마법사에서 사용자를 추가하거나 관리 센터에서 [나중에 사용자를 추가](../add-users/add-users.md)할 수도 있습니다. 또한 로컬 도메인 컨트롤러를 사용하는 경우 [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-install-express)를 사용하여 사용자를 추가할 수 있습니다.
+지금 사용자를 추가할 수 있지만 관리 센터에서 [나중에 사용자를 추가](../add-users/add-users.md)할 수도 있습니다.
 
-## <a name="add-users-in-the-wizard"></a>마법사에서 사용자 추가
+추가한 모든 사용자에게는 Microsoft 365 Business Standard 라이선스가 자동으로 할당됩니다.
 
-마법사에서 추가한 모든 사용자에게 자동으로 Microsoft 365 Business Standard 라이선스가 할당됩니다.
-
-1. Microsoft 365 Business Standard 구독에 기존 사용자가 있는 경우(예를 들어 Azure AD Connect를 사용한 경우) 해당 사용자에게 라이선스를 할당하는 옵션이 여기에 표시됩니다. 해당 사용자에게도 라이선스를 추가합니다.
+1. Microsoft 365 Business Standard 구독에 기존 사용자가 있는 경우, 해당 사용자에게 라이선스를 할당하는 옵션이 여기에 표시됩니다. 해당 사용자에게도 라이선스를 추가합니다.
 
 2. 사용자를 추가한 후에는 새로 추가한 사용자와 자격 증명을 공유하는 옵션도 여기에 표시됩니다. 자격 증명을 인쇄, 전자 메일로 전송 또는 다운로드할 수 있습니다.
 
 ## <a name="connect-your-domain"></a>도메인 연결
-
-> [!NOTE]
-> .onmicrosoft 도메인을 사용하거나 Azure AD Connect를 사용하여 사용자를 설정하는 경우에는 이 단계가 표시되지 않습니다.
   
 서비스를 설정하려면 DNS 호스트 또는 도메인 등록 기관에서 레코드를 업데이트해야 합니다.
   
-1. 설정 마법사는 일반적으로 사용자의 등록 기관을 감지하여 등록 기관 웹 사이트에서 NS 레코드를 업데이트하기 위한 단계별 지침의 링크를 제공합니다. 링크를 제공받지 못한 경우에는 [도메인 등록 기관에서 이름 서버를 변경하여 Office 365 설정](../get-help-with-domains/change-nameservers-at-any-domain-registrar.md)을 합니다. 
+1. 설정 마법사는 일반적으로 사용자의 등록 기관을 감지하여 등록 기관 웹 사이트에서 NS 레코드를 업데이트하기 위한 단계별 지침의 링크를 제공합니다. 링크를 제공받지 못한 경우에는 [도메인 등록 기관에서 이름 서버를 변경하여 Office 365 설정](../get-help-with-domains/change-nameservers-at-any-domain-registrar.md)을 합니다.
 
     - 기존 웹 사이트와 같은 기존 DNS 레코드를 사용하지만 DNS 호스트를 [도메인 연결](/office365/admin/get-help-with-domains/domain-connect)에서 사용할 수 있는 경우 **레코드 추가** 를 선택 합니다. **온라인 서비스 선택** 페이지에서 모든 기본값을 적용하고 **다음** 을 선택한 후 DNS 호스트의 페이지에서 **승인** 을 선택합니다.
     - 도메인 연결 사용이 설정되지 않은 다른 DNS 호스트에서 기존 DNS 레코드를 사용하는 경우 기존 서비스를 계속 연결할 수 있도록 DNS 레코드를 관리하는 것이 좋습니다. 자세한 내용은 [도메인 기본 사항](/office365/admin/get-help-with-domains/dns-basics)을 참조하세요.
@@ -91,9 +92,21 @@ Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는
 
     설정 마법사와 관리 센터 **설정** 페이지에 대한 자세한 내용은 [설정 마법사와 설정 페이지의 차이점](o365-setup-wizard-and-setup-page.md)을 참조하세요.
 
+## <a name="watch-set-up-business-email-with-a-new-domain"></a>보기: 새 도메인으로 비즈니스 이메일 설정
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyVVA]
+
+## <a name="steps-set-up-business-email-with-a-new-domain"></a>단계: 새 도메인으로 비즈니스 이메일 설정
+
+1. Microsoft 365 Business Standard 가입의 **로그인 방법** 페이지에서 **새 비즈니스 이메일 계정 만들기(고급)** 를 선택합니다.
+
+2. 단계에 따라 새 도메인을 구입하고 사용하려는 도메인 이름(예: contoso.com)을 입력합니다. 도메인 구매를 완료한 후 [사용자 및 라이선스를 추가](../add-users/add-users.md)하고 관리 센터에서 Office 앱을 설치할 수 있습니다.
+
 ## <a name="finish-setting-up"></a>설정 완료
 
-### <a name="set-up-outlook-for-email"></a>Outlook을 전자 메일로 설정
+Outlook, Teams, OneDrive 및 웹 사이트를 설정하려면 아래 단계를 따르세요.
+
+### <a name="step-set-up-outlook-for-email"></a>단계: 전자 메일용 Outlook 설정
 
 1. Windows 시작 메뉴에서 Outlook을 검색하고 선택합니다.
 
@@ -134,8 +147,14 @@ Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는
 [Outlook으로 전자 메일을 가져오기](https://support.microsoft.com/office/6a3771d4-4c1d-4a25-92a6-0b8e476335de)에서 자세히 알아보세요.
 
 Exchange 관리 센터를 사용하여 모든 사용자의 전자 메일을 가져올 수도 있습니다. 자세한 내용은 [여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
-  
-### <a name="use-a-public-website"></a>공용 웹 사이트 사용
+
+## <a name="set-up-microsoft-teams-and-onedrive-for-business"></a>비즈니스용 Microsoft Teams 및 OneDrive 설정
+
+작업 표시줄에서 OneDrive 클라우드 아이콘을 선택하고 단계에 따라 파일을 새 비즈니스용 OneDrive 폴더로 이동합니다. **다음** 을 선택하여 Microsoft Teams를 설정합니다.
+
+1. Microsoft Teams를 열고 프로필 아이콘을 선택한 다음 **회사 또는 학교 계정 추가** 를 선택합니다. 새 계정을 Teams에 추가하는 단계를 따르세요.
+
+## <a name="use-a-public-website"></a>공용 웹 사이트 사용
 
 Microsoft 365에는 비즈니스용 공용 웹 사이트가 포함되지 않습니다. 공용 웹 사이트를 설정하려면 GoDaddy 또는 WIX와 같은 Microsoft 파트너를 사용해 보세요.
   
@@ -149,5 +168,8 @@ Microsoft 365에는 비즈니스용 공용 웹 사이트가 포함되지 않습�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[웹 사이트 만들기](../../business-video/create-web-site.md)(비디오)\
-[비즈니스용 Microsoft 365](../../business-video/index.yml)(링크 페이지)
+[Microsoft 365 Business Standard 구독으로 데이터 마이그레이션](../simplified-signup/migrate-data-business-standard.md)
+
+[Microsoft 365 Business Standard 구독 신청](../simplified-signup/signup-business-standard.md)
+
+[Microsoft 365 Business Standard 구독 초대 수락(사용자)](../simplified-signup/user-invite-business-standard.md)
