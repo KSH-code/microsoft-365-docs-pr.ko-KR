@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 5ada5a4e4c7bd65ef0be6f273548bebba6e342ea
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 34f4bb10ba79e6521d785df157368cdaae89118a
+ms.sourcegitcommit: bdf506c47bfed0f7e639301a7edd94c4eb150150
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574330"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58869194"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -69,7 +69,7 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존** 을 선택합니다.
 
-2. **새 보존 정책** 을 선택하여 보존 정책 만들기 마법사를 시작하고 새 보존 정책의 이름을 지정합니다.
+2. **새 보존 정책** 을 선택하여 보존 정책 만들기 구성을 시작하고 새 보존 정책의 이름을 지정합니다.
 
 3. **정책을 적용할 위치 선택** 페이지의 경우 Teams의 위치 중 일부 또는 전부를 선택합니다.
     - **Teams 채널 메시지**: 표준 채널 채팅 및 표준 채널 모임의 메시지이지만 자체 정책 위치가 있는 [비공개 채널](/microsoftteams/private-channels)에서 보낸 메시지는 아닙니다.
@@ -81,11 +81,11 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
     - 그룹 채팅 메시지 및 비공개 채널 메시지의 경우 메시지 복사본이 채팅에 포함된 각 사용자의 사서함에 저장되므로 정책이 할당되지 않은 사용자의 eDiscovery 결과에 메시지 복사본이 계속 반환됩니다.
     - 정책을 할당하지 않은 사용자의 경우 삭제된 메시지가 Teams 검색 결과에 반환되지만 사용자에게 할당된 정책에서 영구적으로 삭제한 결과 메시지 내용은 표시되지 않습니다.
 
-4. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요.
+4. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요.
 
    삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하기 위한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
 
-5. 마법사를 완료하여 설정을 저장합니다.
+5. 구성을 완료하여 설정을 저장합니다.
 
 Teams에 대한 보존 정책을 사용하고 최종 사용자 환경을 이해해야할 시기에 대한 지침은 Teams 설명서에서 [Microsoft Teams에 대한 보존 정책 관리](/microsoftteams/retention-policies)를 참조하세요.
 
@@ -139,11 +139,11 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
     - 기본값 **모두** 를 그대로 두면 Azure B2B 게스트 사용자가 포함되지 않습니다. 
     - **포함된** 열에 대해 **편집** 을 선택하는 경우 해당 계정을 알고 있는 경우 외부 사용자에게 보존 정책을 적용할 수 있습니다.
 
-4. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요. 
+4. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요. 
     
     삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하기 위한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
 
-5. 마법사를 완료하여 설정을 저장합니다.
+5. 구성을 완료하여 설정을 저장합니다.
 
 Yammer용 보존 정책이 작동하는 방식에 대한 자세한 내용은 [Yammer용 보존 정보](retention-policies-yammer.md)를 참조하세요.
 
@@ -171,7 +171,7 @@ SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당
 
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존** 을 선택합니다.
 
-2. **새 보존 정책** 을 선택하여 보존 정책 만들기 마법사를 시작하고 새 보존 정책의 이름을 지정합니다.
+2. **새 보존 정책** 을 선택하여 보존 정책 만들기 구성을 시작하고 새 보존 정책의 이름을 지정합니다.
 
 3. **정책을 적용할 위치 선택** 페이지의 경우 Teams의 위치를 제외한 모든 위치를 켜거나 끕니다. 각 위치에 대해 설정을 기본값으로 유지하여 [전체 위치에 정책을 적용](#a-policy-that-applies-to-entire-locations)하거나 [포함 및 제외를 지정](#a-policy-with-specific-inclusions-or-exclusions)할 수 있습니다.
 
@@ -181,11 +181,11 @@ SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당
     - [Microsoft 365 그룹](#configuration-information-for-microsoft-365-groups)
     - [비즈니스용 Skype](#configuration-information-for-skype-for-business)
 
-4. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요.
+4. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요.
 
     삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하기 위한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
 
-5. 마법사를 완료하여 설정을 저장합니다.
+5. 구성을 완료하여 설정을 저장합니다.
 
 #### <a name="configuration-information-for-exchange-email-and-exchange-public-folders"></a>Exchange 전자 메일 및 Exchange 공용 폴더에 대한 구성 정보
 
@@ -205,15 +205,15 @@ Exchange에 대한 보존 설정을 구성할 때 포함 및 제외되는 사서
 
 **SharePoint 사이트** 위치를 선택할 때 보존 정책을 사용하여 SharePoint 커뮤니케이션 사이트, Microsoft 365 그룹으로 연결되지 않는 팀 사이트 및 클래식 사이트에서 문서를 보존하고 삭제할 수 있습니다. Microsoft 365 그룹에서 연결된 팀 사이트는 이 옵션으로 지원되지 않으며 대신 해당 그룹의 사서함, 사이트 및 파일에 있는 콘텐츠에 적용되는 **Microsoft 365 그룹** 위치를 사용합니다.
 
-보존 정책이 사이트 수준에서 적용되더라도 보존 설정은 문서에만 적용됩니다. SharePoint 및 OneDrive에 대한 보존 설정을 구성할 때 포함되고 제외되는 항목에 대한 자세한 내용은 [보존 및 삭제에 포함되는 항목](retention-policies-sharepoint.md#whats-included-for-retention-and-deletion)을 참조하세요. 
+보존 정책이 사이트 수준에서 적용되더라도 보존 설정은 문서에만 적용됩니다. SharePoint 및 OneDrive에 대한 보존 설정을 구성할 때 포함되고 제외되는 항목에 대한 자세한 내용은 [보존 및 삭제에 포함되는 항목](retention-policies-sharepoint.md#whats-included-for-retention-and-deletion)을 참조하세요.
 
-SharePoint 사이트 또는 OneDrive 계정의 위치를 지정하는 경우, 사이트에 액세스할 수 있는 권한이 필요하지 않으며 **위치 편집** 페이지에서 URL을 지정하는 시점에 유효성 검사가 수행되지 않습니다. 그러나 지정하는 SharePoint 사이트는 마법사 종료 시 존재하는지 확인됩니다. 이 검사에 실패하는 경우, 입력한 URL에 대한 유효성 검사에 실패했다는 메시지가 표시되고 유효성 검사가 통과한 후에 마법사에서 보존 정책이 만들어집니다. 이 메시지가 표시되는 경우, 마법사에서 돌아가서 URL을 변경하거나 보존 정책에서 사이트를 제거합니다.
+SharePoint 사이트 또는 OneDrive 계정의 위치를 지정하는 경우, 사이트에 액세스할 수 있는 권한이 필요하지 않으며 **위치 편집** 페이지에서 URL을 지정하는 시점에 유효성 검사가 수행되지 않습니다. 그러나 지정하는 SharePoint 사이트는 구성 종료 시 존재하는지 확인됩니다. 이 검사에 실패하는 경우, 입력한 URL에 대한 유효성 검사에 실패했다는 메시지가 표시되고 유효성 검사가 통과한 후에 구성 프로세스에서 보존 정책이 만들어집니다. 이 메시지가 표시되는 경우, 구성에서 돌아가서 URL을 변경하거나 보존 정책에서 사이트를 제거합니다.
 
-포함하거나 제외할 개별 OneDrive 계정을 지정하려면 URL은 `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com` 형식이어야 합니다.
+포함하거나 제외할 개별 OneDrive 계정을 지정하기 위해 사용자의 OneDrive에 대한 URL은 일반적으로 다음과 같은 형식입니다. UPN(사용자 계정 이름)의 경우 마침표, 쉼표, 공백 및 at 기호("@")와 같은 특수 문자는 밑줄("_")로 변환됩니다. `https://<tenant name>-my.sharepoint.com/personal/<user principal name>`
 
-예를 들어, "rsimone"라는 사용자 이름을 보유한 Contoso 테넌트에 있는 사용자의 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
+예를 들어 "rsimone@contoso.onmicrosoft.com"의 UPN이 있는 Contoso 테넌트 사용자의 경우 `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`. 그러나 충돌이 감지되면 숫자 또는 GUID를 추가할 수 있습니다.
 
-테넌트의 구문을 확인하고 사용자 URL을 확인하려면, [조직에 있는 모든 사용자 OneDrive URL 목록 가져오기](/onedrive/list-onedrive-urls)를 참조하세요.
+Microsoft 365 관리 센터 또는 PowerShell로 수행할 수 있는 OneDrive 계정의 사용자 URL을 확인하는 것이 항상 가장 좋습니다. 자세한 내용은 [조직의 모든 사용자 OneDrive URL 목록 가져오기](/onedrive/list-onedrive-urls)를 참조하세요.
 
 ### <a name="configuration-information-for-microsoft-365-groups"></a>Microsoft 365 그룹에 대한 구성 정보
 
