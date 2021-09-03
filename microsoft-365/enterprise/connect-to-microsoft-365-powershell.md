@@ -16,12 +16,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
-ms.openlocfilehash: f42112761fe7899742487a79a41973a8c6cb2ab6
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 743f4a7b412f14bc942548c688fc3060fdebf53e
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355007"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58863449"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 
@@ -134,7 +134,7 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
 
 이러한 단계는 컴퓨터에서 한 번만 필요합니다. 그러나 소프트웨어를 정기적으로 업데이트해야 할 수 있습니다.
   
-1.  Windows 10을 사용하는 것이 아니라면 64비트 버전의 Microsoft Online Services 로그인 도우미를 설치합니다.[IT 전문가용 Microsoft Online Services 로그인 도우미 RTW](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_32bit.msi)를 설치합니다.
+1.  Windows 10을 사용하는 것이 아니라면 32비트 버전의 Microsoft Online Services 로그인 도우미를 설치합니다. [IT 전문가용 Microsoft Online Services 로그인 도우미 RTW](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_32bit.msi)를 설치합니다.
     
 2. 다음 단계에 따라 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 설치합니다.
     

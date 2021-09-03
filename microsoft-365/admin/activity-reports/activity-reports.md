@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: 2c3323466d79137251be1f8d9ee764b42b643bb1
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 32a423073ec00a9e13e0e3669a9fbd1412b01a50
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565199"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862788"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -59,7 +59,9 @@ ms.locfileid: "58565199"
 
 ::: moniker-end
 
-2. 서비스(예: 전자 메일 또는 OneDrive)에 대한 간략한 활동 카드에서 **자세히 보기** 단추를 클릭하면 보고서 세부 정보 페이지가 표시됩니다. 서비스에 대한 다양한 보고서가 탭에서 제공됩니다. <br/>![사용 현황 대시보드.](../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png) 
+2. 서비스(예: 전자 메일 또는 OneDrive)에 대한 간략한 활동 카드에서 **자세히 보기** 단추를 클릭하면 보고서 세부 정보 페이지가 표시됩니다. 서비스에 대한 다양한 보고서가 탭에서 제공됩니다.
+
+   :::image type="content" alt-text="사용 현황 대시보드." source="../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png" lightbox="../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png":::
 
 ## <a name="who-can-see-reports"></a>보고서를 볼 수 있는 사용자
 
@@ -73,8 +75,10 @@ ms.locfileid: "58565199"
     
 - 비즈니스용 Skype 관리자
 
-- 전역 읽기 권한자
-    
+- 전체 읽기 권한자(사용자 세부 정보 없음)
+
+- 사용 요약 보고서 읽기 권한자(사용자 세부 정보 없음)
+
 - 보고서 읽기 권한자
 
 - Teams 서비스 관리자
@@ -147,21 +151,23 @@ ms.locfileid: "58565199"
 
 새 사용자가 **알 수 없음** 으로 표시되는 상황이 있습니다. 이는 일반적으로 사용자 프로핑 생성이 지연되는 경우가 있어 발생합니다.  
   
-## <a name="hide-user-details-in-the-reports"></a>보고서에서 사용자 세부 정보 숨기기
+## <a name="show-user-details-in-the-reports"></a>보고서에서 사용자 세부 정보 표시
 
-보고서를 생성할 때 사용자 수준 정보를 숨기고 싶다면 관리 센터에서 이 변경 작업을 신속하게 수행할 수 있습니다.
-  
-1. 관리 센터 미리 보기에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">서비스 &amp; 추가 기능</a> 페이지로 이동합니다.
-
-2. **보고서** 를 선택합니다. 
-  
-3. **보고서** 창에서 원하는 옵션을 선택한 다음 변경 내용을 저장합니다.
+보고서는 조직의 사용량 데이터에 대한 정보를 제공합니다. 기본적으로 보고서에는 사용자, 그룹 및 사이트의 식별 가능한 이름이 포함된 정보가 표시됩니다. Microsoft는 2021년 9월 1일부터 회사가 현지 개인 정보 보호법을 지원할 수 있도록 돕는 지속적인 노력의 일환으로 기본적으로 모든 보고서에 대해 사용자 정보를 숨기고 있습니다.
   
 사용자 목록은 다음과 같습니다.
   
 ![보고서 - 익명 사용자 목록.](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
-보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 보고서 API에도 적용됩니다.
+전역 관리자는 해당 테넌트에 대해 이 변경 내용을 되돌리고 조직의 개인정보처리방침에서 허용하는 경우 식별 가능한 사용자 정보를 표시할 수 있습니다. 이러한 결과는 Microsoft 365 관리 센터에서 다음 단계를 수행하여 달성할 수 있습니다.
+  
+1. 관리 센터에서 **설정** \> **조직 설정**\>**서비스** 로 이동합니다.
+
+2. **보고서** 를 선택합니다. 
+  
+3. **사용자 정보를 표시하는 방법 선택** 에서 원하는 옵션을 선택한 다음 변경 내용을 저장합니다.  
+  
+보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 보고서 API에도 적용됩니다. 식별 가능한 사용자 정보를 표시하는 것은 Microsoft 365 규정 준수 센터 감사 로그에 기록된 이벤트입니다.   
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>사용자 계정을 닫으면 사용 현황 데이터는 어떻게 되나요?
 

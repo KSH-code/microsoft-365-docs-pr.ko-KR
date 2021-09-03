@@ -19,18 +19,18 @@ ms.collection:
 recommendations: false
 description: DLP 정책 구성 요소 및 구성 참조
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: daae280fa4c08a47f74cec6a71ec11ac9739ebd6
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.openlocfilehash: 51eac7b05edeccece3cf45a8396493d84dc3e11f
+ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684115"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866670"
 ---
 # <a name="data-loss-prevention-policy-reference"></a>데이터 손실 방지 정책 참조
 
 DLP(데이터 손실 방지) 정책에는 구성할 수 있는 많은 구성 요소가 있습니다. 효과적인 정책을 만들 수 있도록 각 구성 요소의 용도와 구성으로 정책의 동작을 변경하는 방법을 이해해야 합니다. 이 문서에서는 DLP 정책에 대한 자세한 설명을 제공 합니다.
 
-### <a name="policy-templates"></a>정책 템플릿 
+## <a name="policy-templates"></a>정책 템플릿 
 
 DLP 정책 템플릿은 다음 네 가지 범주로 미리 정렬됩니다.
 
@@ -99,7 +99,7 @@ DLP 정책 템플릿은 다음 네 가지 범주로 미리 정렬됩니다.
 
 
 
-### <a name="locations"></a>위치
+## <a name="locations"></a>위치
 
 <!--This section covers a mapping of data-at-rest, data-in-use, and data-in-motion to the locations/workloads. It introduces the idea that the options that are selected here have a direct impact on the UI that they will encounter further along in the policy creation/edit flow. It will also cover the dependencies between locations (eg. Teams chat and channel requires SharePoint and ODB). It will also include the impact of the different scope settings. eg. If you want the policy to be applied to DEF, but not HIJ, you should configure your include/exclude scopes like this......--> 
 
@@ -123,7 +123,7 @@ Exchange에서 특정 메일 그룹을 포함하도록 선택하는 경우 DLP �
 
 특정 OneDrive 계정 또는 그룹을 포함하거나 제외하도록 선택하는 경우 DLP 정책에는 100개 이상의 사용자 계정 또는 50개 그룹을 포함하거나 제외로 포함할 수 있습니다.
 
-#### <a name="location-support-for-how-content-can-be-defined"></a>콘텐츠를 정의하는 방법에 대한 위치 지원
+### <a name="location-support-for-how-content-can-be-defined"></a>콘텐츠를 정의하는 방법에 대한 위치 지원
 
 DLP 정책은 중요한 항목을 SIT(중요한 정보 유형), 민감도 레이블 또는 보존 레이블에 일치하여 검색합니다. 각 위치는 중요한 콘텐츠를 정의하는 다양한 방법을 지원합니다. 또한 정책에서 위치를 결합할 때 콘텐츠를 정의할 수 있는 방식은 단일 위치에서 콘텐츠를 정의하는 방법과 다를 수 있습니다. 
 
@@ -145,7 +145,7 @@ DLP 정책은 중요한 항목을 SIT(중요한 정보 유형), 민감도 레이
 
 
 
-### <a name="rules"></a>규칙
+## <a name="rules"></a>규칙
 
 <!--This section introduces the classifications of content that, when detected, can be protected. Link out to [Learn about sensitive information types]() and [Sensitive information type entity definitions](sensitive-information-type-entity-definitions.md#sensitive-information-type-entity-definitions) as well as labels (cross referenced by supporting workload). It will touch on the purpose of multiple conditions, confidence levels (link out to [more on confidence levels](sensitive-information-type-learn-about.md#more-on-confidence-levels)) and confidence levels video. How to use the confidence level to change the behavior of a policy in conjunction with the instance count.  eg. if you want your policy to trigger when it encounters situation DEF, set your conditions like HIJ.-->
 <!--
@@ -167,7 +167,7 @@ DLP 정책은 중요한 항목을 SIT(중요한 정보 유형), 민감도 레이
 
  정책에 하나 이상의 규칙이 포함되어 있습니다. 규칙은 각 정책에서 가장 우선순위가 높은 규칙부터 순차적으로 실행됩니다.
 
-#### <a name="the-priority-by-which-rules-are-processed"></a>규칙이 처리되는 우선 순위
+### <a name="the-priority-by-which-rules-are-processed"></a>규칙이 처리되는 우선 순위
 
 각 규칙에는 규칙이 만들어진 순서대로 우선 순위가 할당됩니다. 즉, 처음 만든 규칙에 첫 번째 우선 순위가 지정됩니다. 두 번째로 만든 규칙의 우선 순위는 두 번째입니다. 
   
@@ -188,14 +188,14 @@ DLP 정책은 중요한 항목을 SIT(중요한 정보 유형), 민감도 레이
   
 ![위치 및 규칙을 포함한 DLP 정책을 보여주는 다이어그램](../media/c006860c-2d00-42cb-aaa4-5b5638d139f7.png)
 
-#### <a name="conditions"></a>조건
+### <a name="conditions"></a>조건
 
 조건은 포괄적이며 규칙에서 찾아야 할 항목 및 해당 항목이 사용되는 컨텍스트를 정의합니다. 이러한 규칙은 &#8212; 항목이 검색될 때 규칙에  알 수 있으며, &#8212; 일치 항목으로 사용 중이면 정책의 나머지 작업을 해당 항목에 대해 수행해야 합니다.  조건을 사용하여 위험 수준마다 다른 작업을 할당할 수 있습니다. 예를 들어 내부적으로 공유하는 중요한 콘텐츠는 조직 외부의 사용자와 공유되는 중요한 콘텐츠 보다 위험성이 더 낮고 더 적은 작업이 필요할 수 있습니다.
 
 > [!NOTE]
 > 호스트 조직의 Active Directory 또는 Azure Active Directory 테넌트에 게스트가 아닌 계정을 보유하고 있는 사용자는 조직 내부의 사용자로 간주됩니다. 
 
-##### <a name="content-contains"></a>콘텐츠 포함
+#### <a name="content-contains"></a>콘텐츠 포함
 
  모든 위치는 콘텐츠 포함 **조건이 지원됩니다.** 각 콘텐츠 형식의 여러 인스턴스를 선택하고 다음 중 **하나(논리** OR) 또는  이러한 모든(논리 AND) 연산자를 사용하여 조건을 세분화할 수 있습니다.
 
@@ -209,11 +209,11 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 
 이 규칙은 선택된 민감도  레이블 및 보존 레이블의 **존재만** 봐야 합니다. 
 
-##### <a name="condition-context"></a>조건 컨텍스트
+#### <a name="condition-context"></a>조건 컨텍스트
 
 사용 가능한 컨텍스트 옵션은 선택한 위치에 따라 변경됩니다. 여러 위치를 선택하는 경우 위치에 공통된 조건만 사용할 수 있습니다.
 
-###### <a name="conditions-exchange-supports"></a>다음 Exchange 지원되는 조건:
+##### <a name="conditions-exchange-supports"></a>다음 Exchange 지원되는 조건:
 
 - 콘텐츠 포함
 - 콘텐츠가 공유되는 Microsoft 365
@@ -255,42 +255,42 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 - 메시지 유형은
 - 메시지 중요도
 
-###### <a name="conditions-sharepoint-supports"></a>지원 SharePoint 조건
+##### <a name="conditions-sharepoint-supports"></a>지원 SharePoint 조건
  
 - 콘텐츠 포함
 - 콘텐츠가 공유되는 Microsoft 365
 - 파일 확장명은
 - 문서 속성은
 
-###### <a name="conditions-onedrive-accounts-supports"></a>계정 OneDrive 지원 조건
+##### <a name="conditions-onedrive-accounts-supports"></a>계정 OneDrive 지원 조건
 
 - 콘텐츠 포함
 - 콘텐츠가 공유되는 Microsoft 365
 - 파일 확장명은
 - 문서 속성은
 
-###### <a name="conditions-teams-chat-and-channel-messages-support"></a>채팅 Teams 채널 메시지 지원에 대한 조건
+##### <a name="conditions-teams-chat-and-channel-messages-support"></a>채팅 Teams 채널 메시지 지원에 대한 조건
 
 - 콘텐츠 포함
 - 콘텐츠가 공유되는 Microsoft 365
 
-###### <a name="conditions-devices-supports"></a>장치가 지원하는 조건
+##### <a name="conditions-devices-supports"></a>장치가 지원하는 조건
 
 - 콘텐츠에 포함된 내용
 - 모니터링하고 조치를 취할 수 있는 [끝점 활동을 참조](endpoint-dlp-learn-about.md#endpoint-activities-you-can-monitor-and-take-action-on)
 
-###### <a name="conditions-microsoft-cloud-app-security-support"></a>지원 Microsoft Cloud App Security 조건
+##### <a name="conditions-microsoft-cloud-app-security-support"></a>지원 Microsoft Cloud App Security 조건
 
 - 콘텐츠 포함
 - 콘텐츠가 공유되는 Microsoft 365
 
-###### <a name="on-premises-repositories"></a>사내 리포지토리
+##### <a name="on-premises-repositories"></a>사내 리포지토리
 
 - 콘텐츠 포함
 - 파일 확장명은
 - 문서 속성은
 
-##### <a name="condition-groups"></a>조건 그룹
+#### <a name="condition-groups"></a>조건 그룹
 
 단일 SIT로 정의된 미국 사회 보장 번호가 포함된 모든 콘텐츠와 같이 한 가지만 식별하는 규칙이 필요한 경우도 있습니다. 그러나 식별하려는 항목 유형이 더 복잡하여 정의하기 어렵게 하는 대부분의 시나리오에서는 조건을 정의하는 데 더 많은 유연성이 필요합니다.
 
@@ -310,7 +310,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 
 첫 번째 그룹에는 식별 및 개인을 식별하는 SITS가 포함되어 있으며 두 번째 그룹에는 의료 진단을 식별하는 SITS가 포함되어 있습니다.
 
-#### <a name="exceptions"></a>예외
+### <a name="exceptions"></a>예외
 
 규칙에서 예외는 정책에서 항목을 제외하는 데 사용되는 조건을 정의합니다. 포괄 조건 및 컨텍스트 이후에 평가되는 논리적 배타적 조건입니다. 이러한 규칙은 &#8212; 항목이 일치하는 항목과 같은  것으로 사용 중이면 규칙에 알려 주며, 정책의 나머지 작업은 ...가 일치하는 경우를 제외하고 해당 항목에 대해 &#8212;  
 
@@ -328,7 +328,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 
 - **콘텐츠에 포함된** 경우 제외 
 
-#### <a name="actions"></a>작업 
+### <a name="actions"></a>작업 
 
 포함 ***** 조건 _ 및 배타적 예외 _**_ 필터를 통해 항목을 _**_ 만드는 항목에는 규칙에 정의된 작업이 모두 적용됩니다. 작업을 지원하도록 필요한 옵션을 구성해야 합니다. 예를 들어 _ Exchange 사용하여 액세스 제한을 선택하거나 Microsoft 365 위치 *** 작업에서 콘텐츠를 암호화하는 경우 다음 옵션에서 선택해야 합니다.
 
@@ -342,7 +342,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 > [!IMPORTANT]
 > SharePoint Online 및 비즈니스용 OneDrive 위치의 경우 문서가 공유 여부에 관계 없는 모든 외부 사용자에 대해 문서가 검색된 직후에 내부 사용자가 문서에 계속 액세스할 수 있도록 차단됩니다.
 
-##### <a name="exchange-location-actions"></a>Exchange 위치 작업:
+#### <a name="exchange-location-actions"></a>Exchange 위치 작업:
 
 - 액세스 제한 또는 콘텐츠 암호화 위치의 Microsoft 365 암호화
 - 헤더 설정
@@ -358,19 +358,19 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 - 전자 메일 제목 추가
 - HTML 고지 조항 추가
 
-##### <a name="sharepoint-sites-location-actions"></a>SharePoint 사이트 위치 작업:
+#### <a name="sharepoint-sites-location-actions"></a>SharePoint 사이트 위치 작업:
 
 - 액세스 제한 또는 콘텐츠 암호화 위치의 Microsoft 365 암호화
 
-##### <a name="onedrive-account-locations"></a>OneDrive 계정 위치:
+#### <a name="onedrive-account-locations"></a>OneDrive 계정 위치:
 
 - 액세스 제한 또는 콘텐츠 암호화 위치의 Microsoft 365 암호화
 
-##### <a name="teams-chat-and-channel-messages"></a>Teams 채팅 및 채널 메시지
+#### <a name="teams-chat-and-channel-messages"></a>Teams 채팅 및 채널 메시지
 
 - 액세스 제한 또는 콘텐츠 암호화 위치의 Microsoft 365 암호화
 
-##### <a name="devices"></a>장치:
+#### <a name="devices"></a>장치:
 
 - 디바이스에서 활동 Windows 감사 또는 제한
 
@@ -379,16 +379,16 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 
 장치 위치는 다양한 하위 활동(조건) 및 작업을 제공합니다. 자세한 내용은 모니터링하고 작업을 수행 할 수 있는 [끝점 활동을 참조합니다.](endpoint-dlp-learn-about.md#endpoint-activities-you-can-monitor-and-take-action-on) 
 
-##### <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security:
+#### <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security:
 
 - 액세스 제한 또는 콘텐츠 암호화 위치의 Microsoft 365 암호화
 - 타사 앱 제한
 
-##### <a name="on-premises-repositories"></a>On-premises repositories:
+#### <a name="on-premises-repositories"></a>On-premises repositories:
 
 - 액세스 제한 또는 사내 파일 제거
 
-##### <a name="actions-available-when-you-combine-locations"></a>위치를 결합할 때 사용할 수 있는 작업
+#### <a name="actions-available-when-you-combine-locations"></a>위치를 결합할 때 사용할 수 있는 작업
 
 정책을 적용할 Exchange 위치 및 다른 단일 위치를 선택하는 경우
 
@@ -427,7 +427,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 <!-- This section needs to explain that the actions available depend on the locations selected AND that the observed behavior of a policy is produced through an interaction of the configured actions AND the configured status (off, test, apply) of a policy. It will detail the purpose of each of the available actions and the location/desired outcome interaction and provide examples eg. how to use the Restrict Third Party apps in the context of a policy that is applied to endpoints so that users can't use a upload content to a third party site or the interaction of on-premises scanner with restrict access or remove on-premises files.  Also what happens when I select multiple locations? provide abundant examples for most common scenarios-->
 
 
-#### <a name="user-notifications-and-policy-tips"></a>사용자 알림 및 정책 팁
+### <a name="user-notifications-and-policy-tips"></a>사용자 알림 및 정책 팁
 
 <!--This section introduces the business need for user notifications, what they are, their benefit, how to use them, how to customize them, and links out to 
 
@@ -505,7 +505,7 @@ Here's what a policy tip looks like in a OneDrive for Business account.
 > The default behavior of a DLP policy, when there is no alert configured, is not to alert or trigger. This applies only to default information types. For custom information types, the system will alert even if there is no action defined in the policy.
 -->
 
-#### <a name="user-overrides"></a>사용자 오버라이드
+### <a name="user-overrides"></a>사용자 오버라이드
 
 사용자 무시의 의도는 사용자가 작업을 계속할 수 있도록 Exchange, SharePoint, OneDrive 또는 Teams 중요한 항목에 대한 작업을 차단하는 사명을 사용하여 DLP 정책을 무시할 수 있는 방법을 사용자에게 제공하기 위한 것입니다.  사용자 다시 설정은 정책  팁을 사용하여 Office 365 서비스 사용자에게 알림이 설정된 경우만 사용하도록 설정되어 있으므로 사용자 다시 설정은 알림 및 정책 팁과 함께 사용할 수 있습니다. 
 
@@ -526,7 +526,7 @@ Here's what a policy tip looks like in a OneDrive for Business account.
 
 - [사용자가 제출한 정당성에 대한 검토](view-the-dlp-reports.md#view-the-justification-submitted-by-a-user-for-an-override)
 
-#### <a name="incident-reports"></a>사고 보고서
+### <a name="incident-reports"></a>사고 보고서
 
 <!--DLP interacts with other M365 information protection services, like IR. Link this to a process outline for triaging/managing/resolving DLP incidents
 
@@ -546,11 +546,11 @@ DLP는 내부자 위험 관리와 같은 Microsoft 365 정보 보호 서비스�
 
 DLP는 SharePoint Online 또는 비즈니스용 OneDrive의 항목과는 다른 방식으로 전자 메일을 검사합니다. SharePoint Online 및 비즈니스용 OneDrive에서 DLP는 기존 항목을 비롯하여 새 항목을 검사하고 일치하는 항목이 발견될 때마다 인시던트 보고서를 생성합니다. Exchange Online에서 DLP는 새 전자 메일 메시지만 검사하고 정책 일치 항목이 있는 경우에 보고서를 생성합니다. DLP는 사서함이나 보관함에 저장된 기존 전자 메일 항목을 검색하거나 일치시키지 ***않습니다.***
 
-#### <a name="additional-options"></a>추가 옵션
+### <a name="additional-options"></a>추가 옵션
 
 정책에 여러 규칙이 있는 경우 추가  옵션을 사용하여 편집할 규칙과 일치하는 경우 추가 규칙 처리를 제어하고 규칙 평가 우선 순위를 설정할 수 있습니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md#learn-about-data-loss-prevention)
 - [DLP(데이터 손실 방지) 계획](dlp-overview-plan-for-dlp.md#plan-for-data-loss-prevention-dlp)

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 애플리케이션 거버넌스 기능을 구현하여 애플리케이션을 관리합니다.
-ms.openlocfilehash: f89214a71bc82ac7271ba3fd010258e63d39ef8a
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.openlocfilehash: 379da2e2ff894b2f6355c14db93b339518dfca02
+ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58744992"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862776"
 ---
 # <a name="app-governance-add-on-to-microsoft-cloud-app-security-in-preview"></a>Microsoft Cloud App Security에 대한 애플리케이션 거버넌스 추가 항목(미리 보기)
 
@@ -80,7 +80,7 @@ The scale of ongoing cybersecurity incidents affecting large enterprises and sma
 ![애플리케이션 거버넌스를 Azure AD 및 Microsoft Cloud App Security와 통합합니다.](..\media\manage-app-protection-governance\mapg-integration.png)
 
 앱 거버넌스는 Microsoft Cloud App Security 및 Microsoft 365 Defender에 경고를 보내고 Microsoft Cloud App Security 경고를 수신하여 앱 기반 보안 인시던트를 보다 자세히 분석할 수 있도록 합니다.
-- 앱 거버넌스 경고는 감지 원본 필드가 "MAPG"로 설정된 경고로 Microsoft 365 Defender 경고 목록에 표시됩니다.
+- 앱 거버넌스 경고는 감지 원본 필드가 "앱 거버넌스"로 설정된 경고로 Microsoft 365 Defender 경고 목록에 표시됩니다.
 - 앱 거버넌스 경고는 MCAS 경고 목록에 정책 필드가 다음 중 하나로 설정된 경고로 표시됩니다.
   - Microsoft 365 OAuth 앱 거버넌스
   - Microsoft 365 OAuth 피싱 감지

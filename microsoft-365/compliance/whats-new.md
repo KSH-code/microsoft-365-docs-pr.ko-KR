@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ebb491ccd84e328ea3d4d1151a2c141ca3a69168
-ms.sourcegitcommit: d792743bc21eec87693ebca51d7307a506d0bc43
+ms.openlocfilehash: b610c2bb3c3b30900a5316083864d1fc67b85442
+ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58450071"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866754"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -40,6 +40,36 @@ ms.locfileid: "58450071"
 > - [Microsoft 365 Defender의 새로운 기능](../security/defender/whats-new.md)
 >
 > 또한 Microsoft 365 [](https://www.microsoft.com/microsoft-365/roadmap) 로드맵을 방문하여 Microsoft 365, 개발 중, 취소 또는 이전에 릴리스된 Microsoft 365 기능에 대해 자세히 알아보습니다.
+
+## <a name="august-2021"></a>2021년 8월
+
+### <a name="app-governance"></a>앱 거버넌스
+- [경고 인사이트에 대한 확장된 항목입니다.](app-governance-anomaly-detection-alerts.md#collection-alerts) 이제 앱 거버넌스에서 사용할 수 있는 추가 경고 정보를 설명하기 위해 새로운 항목이 추가되었습니다.
+
+### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
+- [커뮤니케이션 준수 기능 참조는](communication-compliance-feature-reference.md) 개인 채팅 및 채널에서 최신 첨부 파일 검색을 Teams 새로운 미리 보기 기능 지원을 추가했습니다.
+
+### <a name="data-loss-prevention"></a>데이터 손실 방지
+
+- [데이터 손실 방지 정책 참조.](dlp-policy-reference.md) 정책을 만드는 데 도움이 될 수 있는 새 정책 참조 페이지가 추가되었습니다.
+
+### <a name="insider-risk-management"></a>내부자 위험 관리
+- 내부자 위험 관리 브라우저 신호 [검색에 대해 알아보고 구성합니다.](insider-risk-management-browser-support.md) Edge 및 Chrome 브라우저에 대한 브라우저 신호 검색을 구성하기 위한 미리 보기 기능입니다.
+
+### <a name="retention-and-records-management"></a>보존 및 레코드 관리
+- [보존 원칙에](retention-flowchart.md) 대한 개념과 예제를 보완하기 위해 항목을 보존하거나 영구적으로 삭제하는 경우를 결정하는 흐름도입니다.
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+- [지원되는](apply-sensitivity-label-automatically.md#recent-enhancements-for-auto-labeling-policies) 수치가 높은 사이트 및 정책, 모든 OneDrive 및 SharePoint 사이트에 대한 지원, URL로 각 사이트를 입력하지 않고도 사용 가능한 SharePoint 사이트를 선택하는 기능, 시뮬레이션 개선 사항 등 자동 레이블 지정 정책이 개선되었습니다.
+- 이제 앱의 자동 레이블 Office 민감도 레이블 설정은 [EDM(정확한 데이터 일치)을 지원합니다.](apply-sensitivity-label-automatically.md#custom-sensitive-information-types-with-exact-data-match)
+- 이제 기본 레이블이 [Power BI(미리 보기)로 확장됩니다.](/power-bi/admin/service-security-sensitivity-label-default-label-policy)
+- 활동 탐색기에서 표시하는 [](data-classification-activity-explorer-available-events.md) 웹용 Outlook 감사 이벤트가 완전히 롤아웃됩니다. 즉, 이제 모든 플랫폼의 모든 Office 앱에서 기본 제공 레이블에 대한 사용자 활동을 사용할 수 있습니다.
+- [지원되는](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) 기능 표에는 최소 Windows 현재 채널에 대한 각주와 선행 0을 생략하는 이전 버전을 최신 버전과 보다 쉽게 비교할 수 있는 팁이 제공됩니다.
+
+### <a name="retention-and-records-management"></a>보존 및 레코드 관리
+
+- 항목을 보존하거나 영구적으로 삭제할 때를 결정하는 [흐름도입니다.](retention-flowchart.md) 보존 원칙에 대한 단계별 시각적 표현을 제공합니다.
+- [보존 레이블을 자동으로 적용하여 콘텐츠 보존 또는 삭제](apply-retention-labels-automatically.md) 사용 가능한 각 Exchange SharePoint 레이블을 자동으로 적용할 수 있는 경우를 명확히 설명하기 위해 추가된 새 테이블입니다.
 
 ## <a name="july-2021"></a>2021년 7월
 
@@ -271,77 +301,3 @@ Outlook 릴리스 및 업데이트:
 - **DoD 지원**. DoD 환경을 지원하는 미국 정부 테넌트 지원.
 - **에 대한 암호화만 Outlook.** 사용자에 대한 Outlook 이제 사용자가 Encrypt-Only 할당할 수 있도록 허용을 선택하면 암호화 [옵션이 포함됩니다.](encryption-sensitivity-labels.md#let-users-assign-permissions)
 - 앱에 기본 제공 **레이블을 Office.** Azure [](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client) Information Protection 통합 레이블 지정 클라이언트가 설치되어 있는 경우 Office 앱에서 기본 제공 레이블을 적용하는 방법에 대한 지침이 업데이트되었습니다.
-
-## <a name="february-2021"></a>2021년 2월
-
-다음은 2월 한 달 동안 Microsoft 365 규정 준수 솔루션 및 콘텐츠에 대한 몇 가지 변경 내용입니다.
-
-### <a name="auditing"></a>감사
-
-- **감사 로그 보존 정책 관리.** 새 감사 보존 정책 [대시보드에 대해 자세히 알아보습니다.](/microsoft-365/compliance/audit-log-retention-policies#manage-audit-log-retention-policies-1)
-- **감사 로그를 검색합니다.** [PowerShell 스크립트를 사용하여 감사 로그를 검색합니다.](/microsoft-365/compliance/audit-log-search-script)
-
-### <a name="data-classification-content-explorer"></a>데이터 분류 콘텐츠 탐색기
-
-다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
-
-- [콘텐츠 탐색기로 시작](/microsoft-365/compliance/data-classification-content-explorer)
-
-### <a name="data-loss-prevention"></a>데이터 손실 방지
-
-다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
-
-- [끝점 DLP에 대해 자세히](/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](/microsoft-365/compliance/use-notifications-and-policy-tips)
-- [Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
-- [데이터 손실 방지 온-프레미스 스캐너로 시작하기](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
-- [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
-- [엔드포인트 데이터 손실 방지 사용](/microsoft-365/compliance/endpoint-dlp-using)
-- [끝점 데이터 손실 방지 시작](/microsoft-365/compliance/endpoint-dlp-getting-started)
-
-### <a name="ediscovery"></a>eDiscovery
-
-다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
-
-- [eDiscovery Microsoft 365 암호 해독](/microsoft-365/compliance/ediscovery-decryption)
-- [키워드 쿼리 및 검색 조건](/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
-- [2016년 12월에 대한 Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
-- [스크립트를 사용하여 Core eDiscovery 사례에서 보류에 사용자 추가](/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
-
-### <a name="encryption"></a>암호화
-
-다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
-
-#### <a name="azure-rights-management-service-rms"></a>Azure RMS(권한 관리 서비스)
-
-- [고객 관리 암호화 기능](/microsoft-365/compliance/office-365-customer-managed-encryption-features)
-- [Exchange Online 를 사용하여 메일 암호화를 사용합니다.](/microsoft-365/compliance/information-rights-management-in-exchange-online) 이 서비스에 대한 지원은 사용되지 않습니다. 하이브리드 환경에서는 더 이상 AD RMS를 사용할 Exchange 없습니다. 대신 Azure RMS로 마이그레이션합니다.
-
-#### <a name="customer-key"></a>고객 키
-
-- [테넌트 Microsoft 365 대한 고객 키](/microsoft-365/compliance/customer-key-tenant-level)
-- [보안 및 규정 준수 개요](/microsoftteams/security-compliance-overview)
-
-#### <a name="information-rights-management-irm"></a>IRM(정보 권한 관리)
-
-- [목록 또는 라이브러리에 IRM(정보 권한 관리)을 적용합니다.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) 이러한 국가 클라우드는 이 설정을 지원하지 않습니다.
-  - Microsoft Cloud for US Government
-  - Microsoft 클라우드 독일
-  - Azure 및 Microsoft 365 중국의 21Vianet에서 운영)
-- [프레미스 AD RMS 서버를 사용하도록 IRM을 구성합니다.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) 하이브리드 환경에서 이 서비스에 Exchange 더는 사용되지 않습니다.
-
-### <a name="sensitive-information-types"></a>중요한 정보 유형
-
-다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
-
-- [중요한 정보 유형에 대해 알아보기](/microsoft-365/compliance/sensitive-information-type-learn-about)
-- [PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
-- [정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형 만들기](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [중요한 정보 유형 엔터티 정의](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
-
-### <a name="sensitivity-labels"></a>민감도 레이블
-
-다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
-
-- **SharePoint 공유를 구성합니다.** 컨테이너 [레이블의 경우](sensitivity-labels-teams-groups-sites.md) 현재 사이트로부터의 외부 공유에 SharePoint 사용할 수 있는 옵션이 출시되었습니다. 또한 이제 Microsoft 365 관리 센터 및 Planner는 이러한 민감도 레이블 적용을 지원하고 있습니다. 
-- **공동 작성 및 자동 작성**. 암호화된 [파일에 대한](sensitivity-labels-coauthoring.md) 공동 작성 및 자동 저장 지원은 프로덕션이 아닌 테넌트에서 테스트를 위해 미리 보기로 릴리스됩니다.
