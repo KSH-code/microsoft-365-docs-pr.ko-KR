@@ -17,12 +17,12 @@ ms.custom: ''
 description: 관리자는 EOP(Exchange Online Protection)의 고급 배달 정책을 사용하여 지원되는 특정 시나리오(타사 피싱 시뮬레이션 및 SecOps(보안 작업) 사서함으로 배달된 메시지)에서 필터링하지 말아야 하는 메시지를 식별하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 028735c7d340d63d2f952eabf683e512d261a913
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 8d10c4df273cfcff39bf93fa6532b57c4f8ef640
+ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576083"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58884675"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>사용자에 대한 타사 피싱 시뮬레이션 및 필터되지 않은 메시지의 SecOps 사서함 배달 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "58576083"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예시:
+기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들면 다음과 같습니다.
 
 - **타사 피싱 시뮬레이션:** 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
 - **SecOps(보안 작업)** 사서함: 보안 팀에서 필터되지 않은 메시지를 수집 및 분석하는 데 사용하는 전용 사서함(좋음과 불량 모두)입니다.
@@ -87,9 +87,9 @@ ms.locfileid: "58576083"
 
      필요한 만큼 이 단계를 반복합니다. 메일 그룹은 허용되지 않습니다.
 
-     기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+     기존 값을 제거하려면 제거를 클릭합니다. ![제거 아이콘.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
-4. 작업을 마쳤으면 **저장** 을 클릭합니다.
+4. 작업을 마친 후 **저장** 을 클릭합니다.
 
 구성한 SecOps 사서함 항목이 **SecOps** 사서함 탭에 표시됩니다. 변경하려면 편집 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-edit-icon.png) **탭에서** 편집합니다.
 
@@ -114,7 +114,7 @@ ms.locfileid: "58576083"
      - CIDR IP: 예: 192.168.0.1/25.
    - 허용할 시뮬레이션 **URL:** 이 설정을 확장하고 선택적으로 상자를 클릭하고 값을 입력한 다음 상자 아래에 표시되는 값을 선택하거나 입력하여 차단 또는 검색되지 않는 피싱 시뮬레이션 캠페인의 일부인 특정 URL을 입력합니다. 항목을 10개까지 추가할 수 있습니다. URL 구문 형식은 [테넌트 허용/차단 목록에 대한 URL 구문을 참조하세요.](tenant-allow-block-list.md#url-syntax-for-the-tenant-allowblock-list)
 
-   기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+   기존 값을 제거하려면 제거를 클릭합니다. ![제거 아이콘.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
    > [!NOTE]
    > 고급 배달에서 타사  피싱 시뮬레이션을 구성하려면 하나 이상의 보내는 도메인과 하나 이상의 보내는 **IP를** 지정해야 합니다. 선택적으로 시뮬레이션 메시지에 있는 **URL이** 차단되지 않도록 시뮬레이션 URL을 포함할 수 있습니다. 각 필드에 대해 최대 10개 항목을 지정할 수 있습니다. 하나 이상의 보내는 도메인과  하나의 보내는 **IP에** 일치해야 하지만 값 간의 연결은 유지되지 않습니다.
@@ -161,7 +161,8 @@ SecOps 재지정 정책을 만들 수 있는 구문은 다음과 같습니다.
 New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SentTo <EmailAddress1>,<EmailAddress2>,...<EmailAddressN>
 ```
 
-**참고:** 지정한 Name 값에 관계없이 정책 이름은 SecOpsOverridePolicy가 수록될 수 있으므로 해당 값을 사용할 수도 있습니다.
+> [!NOTE]
+> 지정한 Name 값에 관계없이 정책 이름은 _SecOpsOverridePolicy가_.
 
 이 예에서는 SecOps 사서함 정책을 만듭니다.
 
@@ -179,7 +180,8 @@ New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SentTo secops@contoso.com
 New-SecOpsOverrideRule -Name SecOpsOverrideRule -Policy SecOpsOverridePolicy
 ```
 
-**참고:** 지정한 이름 값에 관계없이 규칙 이름은 SecOpsOverrideRule이 됩니다. 여기서 은 고유한 GUID 값입니다(예: \<GUID\> \<GUID\> 6fed4b63-3563-495d-a481-b24a311f8329).
+> [!NOTE]
+> 지정한 이름 값에 관계없이 규칙 이름은 _SecOpsOverrideRule이_ 됩니다. 여기서 은 고유한 GUID 값입니다(예: \<GUID\> \<GUID\> 6fed4b63-3563-495d-a481-b24a311f8329).
 
 구문과 매개 변수에 대한 자세한 내용은 [New-SecOpsOverrideRule을 참조하십시오.](/powershell/module/exchange/new-secopsoverriderule)
 
@@ -211,7 +213,7 @@ Get-SecOpsOverrideRule | Format-Table Name,Mode
 
 잘못된 규칙을 식별한 후 이 문서 의 의 2부에서 설명하는 **Remove-SecOpsOverrideRule** cmdlet을 사용하여 제거할 [수 있습니다.](#use-powershell-to-remove-secops-override-rules)
 
-구문과 매개 변수에 대한 자세한 내용은 [Get-SecOpsOverrideRule을 참조하십시오.](/powershell/module/exchange/get-secopsoverriderule)
+구문과 매개 변수에 대한 자세한 내용은 [Get-SecOpsOverrideRule 을 참조하십시오.](/powershell/module/exchange/get-secopsoverriderule)
 
 ### <a name="use-powershell-to-modify-the-secops-override-policy"></a>PowerShell을 사용하여 SecOps 다시 설정 정책 수정
 
@@ -221,13 +223,14 @@ SecOps 다시 설정 정책을 수정하려면 다음 구문을 사용 합니다
 Set-SecOpsOverridePolicy -Identity SecOpsOverridePolicy [-AddSentTo <EmailAddress1>,<EmailAddress2>,...<EmailAddressN>] [-RemoveSentTo <EmailAddress1>,<EmailAddress2>,...<EmailAddressN>]
 ```
 
-이 예에서는 SecOps secops2@contoso.com 정책에 추가합니다.
+이 예에서는 `secops2@contoso.com` SecOps 재지정 정책에 추가합니다.
 
 ```powershell
 Set-SecOpsOverridePolicy -Identity SecOpsOverridePolicy -AddSentTo secops2@contoso.com
 ```
 
-**참고:** 연결된 유효한 SecOps 재지정 규칙이 있는 경우 규칙의 전자 메일 주소도 업데이트됩니다.
+> [!NOTE]
+> 연결된 유효한 SecOps 재지정 규칙이 있는 경우 규칙의 전자 메일 주소도 업데이트됩니다.
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-SecOpsOverridePolicy를 참조하십시오.](/powershell/module/exchange/set-secopsoverridepolicy)
 
@@ -296,7 +299,7 @@ PowerShell에서 타사 피싱 시뮬레이션을 구성하는 과정은 여러 
 New-PhishSimOverridePolicy -Name PhishSimOverridePolicy
 ```
 
-**참고:** 지정한 이름 값에 관계없이 정책 이름은 PhishSimOverridePolicy가 있으므로 해당 값을 사용할 수도 있습니다.
+**참고:** 지정한 이름 값에 관계없이 정책 이름은 _PhishSimOverridePolicy가_.
 
 구문과 매개 변수에 대한 자세한 내용은 [New-PhishSimOverridePolicy 를 참조하십시오.](/powershell/module/exchange/new-phishsimoverridepolicy)
 
@@ -308,7 +311,7 @@ New-PhishSimOverridePolicy -Name PhishSimOverridePolicy
 New-PhishSimOverrideRule -Name PhishSimOverrideRule -Policy PhishSimOverridePolicy -SenderDomainIs <Domain1>,<Domain2>,...<DomainN> -SenderIpRanges <IPAddressEntry1>,<IPAddressEntry2>,...<IPAddressEntryN>
 ```
 
-지정한 이름 값에 관계없이 규칙 이름은 PhishSimOverrideRule이 됩니다. 여기서 은 고유한 GUID 값입니다(예: \<GUID\> \<GUID\> a0eae53e-d755-4a42-9320-b9c6b55c5011).
+지정한 이름 값에 관계없이 규칙 이름은 _PhishSimOverrideRule이_ 됩니다. 여기서 은 고유한 GUID 값입니다(예: \<GUID\> \<GUID\> a0eae53e-d755-4a42-9320-b9c6b55c5011).
 
 유효한 IP 주소 항목은 다음 값 중 하나입니다.
 

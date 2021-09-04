@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 테넌트에 대한 데이터 수집을 시작하는 방법을 Power BI.
-ms.openlocfilehash: 6c2dfef0d925df92316d407e5a425a7ddfa03952
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: a05ea19915af96720c3aeaf4a4d01fbe879fbc27
+ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569684"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58884663"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -92,13 +92,17 @@ Microsoft 365 US 정부 커뮤니티 클라우드(GCC) 테넌트에서 Microsoft
 
 ## <a name="make-the-collected-data-anonymous"></a>수집된 데이터를 익명으로 설정
 
-모든 보고서에 대해 수집되는 데이터를 익명으로 만들려면 글로벌 관리자여야 합니다. 이렇게 하면 보고서 및 템플릿 앱에서 사용자, 그룹 및 사이트 이름과 같은 식별 가능한 정보가 숨겨지게 됩니다.
+보고서는 조직의 사용량 데이터에 대한 정보를 제공합니다. 기본적으로 보고서에는 사용자, 그룹 및 사이트의 식별 가능한 이름이 포함된 정보가 표시됩니다. Microsoft는 2021년 9월 1일부터 회사가 현지 개인 정보 보호법을 지원할 수 있도록 돕는 지속적인 노력의 일환으로 기본적으로 모든 보고서에 대해 사용자 정보를 숨기고 있습니다.
+  
+전역 관리자는 해당 테넌트에 대해 이 변경 내용을 되돌리고 조직의 개인정보처리방침에서 허용하는 경우 식별 가능한 사용자 정보를 표시할 수 있습니다. 이러한 결과는 Microsoft 365 관리 센터에서 다음 단계를 수행하여 달성할 수 있습니다.
+  
+1. 관리 센터에서 **설정** \> **조직 설정**\>**서비스** 로 이동합니다.
 
-1. In the admin center, go to the **설정** \> **Org 설정**, and under **Services** tab, choose **Reports**.
-
-2. 보고서를 **선택한** 다음 익명 식별자 **표시를 선택합니다.** 이 설정은 템플릿 앱뿐만 아니라 사용 현황 보고서에도 모두 적용됩니다.
-
-3. **변경 사항 저장** 을 선택합니다.
+2. **보고서** 를 선택합니다. 
+  
+3. 모든 보고서에서 **사용자,** 그룹 및 사이트에 대해 식별되지 않은 이름을 표시하고 변경 내용을 저장합니다.  
+  
+이러한 변경 내용을 적용하는 데 몇 분 정도 걸립니다. 식별 가능한 사용자 정보를 표시하는 것은 Microsoft 365 규정 준수 센터 감사 로그에 기록된 이벤트입니다.   
 
 ## <a name="related-content"></a>관련 콘텐츠
 

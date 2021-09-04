@@ -19,12 +19,12 @@ hideEdit: true
 feedback_system: None
 recommendations: false
 description: DLP 정책에 사용할 수 있는 200가지 중요한 정보 유형이 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
-ms.openlocfilehash: 1a883c1ac31e61ef5aa24fbeca65f27f87fa3467
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 98e80f011329b80105de86816761baba7f8188a9
+ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532886"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58884687"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -437,7 +437,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -912,7 +912,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -1310,7 +1310,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -1420,7 +1420,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -1476,7 +1476,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -1530,7 +1530,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -1628,7 +1628,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -1713,7 +1713,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -2337,7 +2337,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -2682,7 +2682,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -2759,7 +2759,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -2977,7 +2977,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -3386,7 +3386,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="pattern"></a>패턴
 
-Visa, MasterCard, Discover Card, JCB, American Express, 기프트 카드 및 다이너 카드를 비롯한 전 세계 모든 주요 브랜드의 카드를 검색합니다.
+Visa, MasterCard, Discover Card, JCB, American Express, 기프트 카드, 다이너 카드, Rupay 및 China UnionPay를 비롯한 전 세계 모든 주요 브랜드의 카드를 검색합니다.
 
 ### <a name="checksum"></a>체크섬
 
@@ -3649,6 +3649,11 @@ cód. segurança
 - 아니요. do cartão
 - no. do cartao
 
+- rupay
+- union pay
+- unionpay
+- diner's
+- diners
 - クレジットカード番号
 - クレジットカードナンバー
 - クレジットカード＃
@@ -3678,6 +3683,9 @@ cód. segurança
 - カードの名義
 - デビット カード
 - デビットカード
+- 中国银联
+- 银联
+
 
 
 ## <a name="croatia-drivers-license-number"></a>크로아티아 운전 면허 번호
@@ -3857,7 +3865,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -4440,7 +4448,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -4604,7 +4612,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -4782,7 +4790,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -4944,7 +4952,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -5199,7 +5207,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -5450,7 +5458,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -6046,7 +6054,7 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -6371,7 +6379,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -6451,7 +6459,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -6662,7 +6670,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -7219,7 +7227,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -7487,7 +7495,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -7845,7 +7853,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -7995,7 +8003,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -8495,6 +8503,230 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - áfa szám
 
 
+## <a name="india-drivers-license-number"></a>인도 운전 면허 번호
+
+### <a name="format"></a>형식
+
+영문자 15자 패턴
+
+### <a name="pattern"></a>패턴
+
+15자리 문자 또는 숫자:
+- 상태 코드를 나타내는 두 글자
+- 선택적 공백 또는 대시
+- 도시 코드를 나타내는 2자리 숫자
+- 선택적 공백 또는 대시
+- 문제 연도 표시 4자리
+- 선택적 공백 또는 대시
+- 7자리 숫자
+
+### <a name="checksum"></a>체크섬
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- `Regex_india_driving_license`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 시작 `Keywords_eu_driver's_license_number_common` 키워드가 발견됩니다.
+
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- `Regex_india_driving_license`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+
+
+```xml
+      <!-- India Driver's License Number -->
+        <Entity id="680788a3-53b6-455a-b891-c38cd76dc917" patternsProximity="300" recommendedConfidence="85" relaxProximity="true">
+          <Pattern confidenceLevel="85">
+            <IdMatch idRef="Regex_india_driving_license" />
+            <Match idRef="Keywords_eu_driver's_license_number_common" />
+          </Pattern>
+          <Pattern confidenceLevel="75">
+            <IdMatch idRef="Regex_india_driving_license" />
+            </Pattern>
+        </Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keywords_eu_drivers_license_number_common"></a>Keywords_eu_driver s_license_number_common
+
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
+- driver license
+- driver licenses
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
+- drivers license
+- drivers licenses
+- drivers licence
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- driver's lic
+- driver's lics
+- driver's license
+- driver's licenses
+- driver's licence
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
+- driving licence 
+- driving license
+- dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
+- driving licence
+- driving licences
+- driving permit
+- dl no
+- dlno
+- dl 번호
+
+
+
+## <a name="india-gst-number"></a>인도 GST 번호
+
+### <a name="format"></a>형식
+
+영문자 15자 패턴
+
+### <a name="pattern"></a>패턴
+
+15자리 문자 또는 숫자:
+- 유효한 상태 코드를 나타내는 두 자리 숫자
+- 선택적 공백 또는 대시
+- PAN(영구 계정 번호)을 나타내는 10자 
+- 한 문자 또는 숫자
+- 선택적 공백 또는 대시
+- 한 문자 'z' 또는 'Z'
+- 선택적 공백 또는 대시
+- 검사 숫자 1개
+
+### <a name="checksum"></a>체크섬
+
+예
+
+### <a name="definition"></a>정의
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- 이 `Func_india_gst_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 시작 `Keyword_india_gst_number` 키워드가 발견됩니다.
+
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- 이 `Func_india_gst_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+
+
+```xml
+    <!-- India GST number  -->
+      <Entity id="9f5a721c-2fd2-446a-a27e-0c02fbe4630c" patternsProximity="300" recommendedConfidence="85" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_india_gst_number" />
+          <Match idRef="Keyword_india_gst_number" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_india_gst_number" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keyword_india_gst_number"></a>Keyword_india_gst_number
+
+- gst
+- gstin
+- 상품 및 서비스 세금
+- 상품 및 서비스 세금
+
+
 ## <a name="india-permanent-account-number-pan"></a>인도 PAN(영구 계정 번호)
 
 ### <a name="format"></a>형식
@@ -8572,7 +8804,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 이 Func_india_aadhaar 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_india_aadhar 발견됩니다.
 - 체크섬이 통과됩니다.
--
+
 DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
 
 - 이 Func_india_aadhaar 일치하는 콘텐츠를 검색합니다.
@@ -8600,6 +8832,60 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - आधार
 - uidai
 
+
+## <a name="india-voter-id-card"></a>인도 투표자 ID 카드
+
+### <a name="format"></a>형식
+
+영문자 10자 패턴
+
+### <a name="pattern"></a>패턴
+
+10자리 문자 또는 숫자:
+- 3개의 문자
+- 7자리 숫자
+
+### <a name="checksum"></a>체크섬
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- `Regex_india_voter_id_card`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 시작 `Keyword_india_voter_id_card` 키워드가 발견됩니다.
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있다는 신뢰도는 낮습니다.
+- `Regex_india_voter_id_card`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+
+
+```xml
+      <!-- India Voter Id Card  -->
+        <Entity id="646d643f-5228-4408-acc8-f2e81a6df897" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+           <Pattern confidenceLevel="75">
+             <IdMatch idRef="Regex_india_voter_id_card" />
+             <Match idRef="Keyword_india_voter_id_card" />
+            </Pattern>
+           <Pattern confidenceLevel="65">
+              <IdMatch idRef="Regex_india_voter_id_card" />
+            </Pattern>
+        </Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keyword_india_voter_id_card"></a>Keyword_india_voter_id_card
+
+- voter
+- voterid
+- votercard
+- voteridcard
+- 선택적 사진 ID 카드
+- 도구
+- ECI
+- 은(는)
+
+
 ## <a name="indonesia-identity-card-ktp-number"></a>인도네시아 ID 카드(KTP) 번호
 
 ### <a name="format"></a>형식
@@ -8620,7 +8906,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -8760,7 +9046,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -8893,7 +9179,102 @@ IPv6의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형�
 - ip address
 - ip addresses
 - internet protocol
-- IP-כתובת ה -->
+- IP-כתובת ה
+
+
+## <a name="ip-address-v4"></a>IP 주소 v4
+
+### <a name="format"></a>형식
+
+IPv4 주소의 서식 있는(기간) 및 서식 없는 버전(기간 없음)을 계정으로 표시하는 복잡한 패턴
+
+### <a name="pattern"></a>패턴
+
+
+### <a name="checksum"></a>체크섬
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- `Regex_ipv4_address`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 시작 `Keyword_ipaddress` 키워드가 발견됩니다.
+
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- `Regex_ipv4_address`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+
+
+```xml
+      <!-- IP Address v4--> 
+      <Entity id="a7dd5e5f-e7f9-4626-a2c6-86a8cb6830d2" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_ipv4_address" />
+          <Match idRef="Keyword_ipaddress" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_ipv4_address" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keyword_ipaddress"></a>Keyword_ipaddress
+
+- IP(대소문자 구분)
+- ip address
+- ip addresses
+- internet protocol
+- IP-כתובת ה
+
+
+## <a name="ip-address-v6"></a>IP 주소 v6
+
+### <a name="format"></a>형식
+
+서식이 있는 IPv6 번호(콜론 포함)를 계정을 표시하는 복잡한 패턴
+
+### <a name="pattern"></a>패턴
+
+
+### <a name="checksum"></a>체크섬
+
+아니오
+
+### <a name="definition"></a>정의
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- `Regex_ipv6_address`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 시작 `Keyword_ipaddress` 키워드가 발견됩니다.
+
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- `Regex_ipv6_address`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+
+
+```xml
+      <!-- IP Address v6-->
+      <Entity id="3f691089-7413-4926-ab3b-3c5ea8a1c17e" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_ipv6_address" />
+          <Match idRef="Keyword_ipaddress" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_ipv6_address" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keyword_ipaddress"></a>Keyword_ipaddress
+
+- IP(대소문자 구분)
+- ip address
+- ip addresses
+- internet protocol
+- IP-כתובת ה
+
 
 ## <a name="ireland-drivers-license-number"></a>아일랜드 운전 면허 번호
 
@@ -8910,7 +9291,7 @@ IPv6의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형�
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -9363,7 +9744,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -10055,7 +10436,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -10108,7 +10489,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -10149,7 +10530,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -10199,7 +10580,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -10264,7 +10645,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -10967,7 +11348,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -11204,7 +11585,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -11455,7 +11836,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -11627,7 +12008,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -11683,7 +12064,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -11767,7 +12148,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -11856,7 +12237,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -11911,7 +12292,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -12825,7 +13206,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -12870,7 +13251,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -13356,7 +13737,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -13595,7 +13976,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -14158,7 +14539,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -14307,7 +14688,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -14644,7 +15025,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -14890,7 +15271,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -15413,7 +15794,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 사항 없음
+해당 없음
 
 ### <a name="definition"></a>정의
 
@@ -15978,7 +16359,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -16158,7 +16539,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -16410,7 +16791,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -16717,7 +17098,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -16911,7 +17292,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -17027,7 +17408,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -17262,7 +17643,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 
 ### <a name="definition"></a>정의
@@ -17335,7 +17716,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -17408,7 +17789,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 
@@ -17458,7 +17839,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+아니오
 
 ### <a name="definition"></a>정의
 

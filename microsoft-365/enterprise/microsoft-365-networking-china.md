@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 전역 테넌트의 중국 사용자를 위한 네트워크 성능을 최적화하기 위한 Microsoft 365 제공합니다.
-ms.openlocfilehash: 06be7db700114db6111ff7f3c4a8d70e0c3f2243
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 9660270dbe73e9cbdff0b1e3796224b36319956b
+ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570200"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58884723"
 ---
 # <a name="microsoft-365-global-tenant-performance-optimization-for-china-users"></a>Microsoft 365 사용자를 위한 전역 테넌트 성능 최적화
 
@@ -47,7 +47,7 @@ ms.locfileid: "58570200"
 
 첫 번째 단계에서는 네트워크 계획 및 성능 조정에서 벤치마크 네트워크 지침을 따라야 [Microsoft 365.](./network-planning-and-performance.md) 주요 목표는 가능한 경우 중국에서 인터넷에서 Microsoft 365 전역 서비스에 액세스하지 않도록 하는 것입니다.
 
-- 기존 사설망을 활용하여 중국의 Microsoft 365 네트워크와 중국 외부의 공용 인터넷으로 나가는 해상 위치 간의 네트워크 트래픽을 전달합니다. 중국 외부의 거의 모든 위치는 명확한 이점을 제공합니다. 네트워크 관리자는 대기 시간이 짧은 Microsoft 전역 네트워크와의 상호 연결 시간이 짧은 영역을 전송하여 최적화를 추가로 [최적화할 수 있습니다.](/azure/networking/microsoft-global-network) 홍콩, 일본 및 대한민국은 예시입니다.
+- 기존 사설망을 활용하여 중국의 Microsoft 365 네트워크와 중국 외부의 공용 인터넷으로 나가는 해상 위치 간의 네트워크 트래픽을 전달합니다. 중국 외부의 거의 모든 위치는 명확한 이점을 제공합니다. 네트워크 관리자는 대기 시간이 짧은 Microsoft 전역 네트워크와의 상호 연결 시간이 짧은 영역을 전송하여 최적화를 추가로 [최적화할 수 있습니다.](/azure/networking/microsoft-global-network) 홍콩, 싱가포르, 일본 및 대한민국이 예시입니다.
 - VPN 연결을 통해 회사 네트워크에 액세스하도록 사용자 Microsoft 365 네트워크의 개인 오프사이트 링크를 전송할 수 있도록 사용자 장치를 구성합니다. VPN 클라이언트가 분할 터널링을 사용하도록 구성되지 않은지 또는 사용자 장치가 사용자 트래픽에 대한 분할 터널링을 Microsoft 365 합니다. 미디어 트래픽 및 실시간 미디어 Teams VPN 연결을 최적화하는 데 대한 자세한 내용은 이 섹션을 [참조하세요.](#optimizing-microsoft-teams-meetings-network-performance-for-users-in-china)
 - 개인 오프사이트 링크를 Microsoft 365 모든 트래픽을 라우팅하도록 네트워크를 구성합니다. 개인 링크에서 트래픽 양을 최소화해야 하는 경우 최적화 범주의 끝점만 라우팅하고 허용 및  기본  끝점에 대한 요청이 인터넷을 전송하도록 허용하도록 선택할 수 있습니다.  이렇게 하면 높은 대기 시간 및 패킷 손실에 가장 민감한 중요한 서비스로 최적화된 트래픽을 제한하여 성능을 개선하고 대역폭 소비를 최소화할 수 있습니다.
 - 가능한 경우 TCP 대신 UDP를 사용하여 라이브 미디어 스트리밍 트래픽(예: 미디어 스트리밍 트래픽)을 Teams. UDP는 TCP보다 더 나은 라이브 미디어 스트리밍 성능을 제공합니다.
