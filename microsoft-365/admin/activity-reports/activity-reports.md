@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: 32a423073ec00a9e13e0e3669a9fbd1412b01a50
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.openlocfilehash: 1001081d14440f1e02800f64b891c6a988f1f10a
+ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862788"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58884221"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -165,9 +165,9 @@ ms.locfileid: "58862788"
 
 2. **보고서** 를 선택합니다. 
   
-3. **사용자 정보를 표시하는 방법 선택** 에서 원하는 옵션을 선택한 다음 변경 내용을 저장합니다.  
+3. **모든 보고서에서 사용자, 그룹 및 사이트의 비식별화된 이름 표시** 를 선택 취소한 다음 변경 내용을 저장합니다.  
   
-보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 보고서 API에도 적용됩니다. 식별 가능한 사용자 정보를 표시하는 것은 Microsoft 365 규정 준수 센터 감사 로그에 기록된 이벤트입니다.   
+보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 [Microsoft Graph](/graph/api/resources/report?view=graph-rest-1.0) 및 [Power BI](/microsoft-365/admin/usage-analytics/usage-analytics?view=o365-worldwide)의 Microsoft 365 사용 보고서와 [Microsoft Teams 관리 센터](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)의 사용 보고서에도 적용됩니다. 식별 가능한 사용자 정보를 표시하는 것은 Microsoft 365 규정 준수 센터 감사 로그에 기록된 이벤트입니다.   
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>사용자 계정을 닫으면 사용 현황 데이터는 어떻게 되나요?
 
