@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 115d8bf2d87067e49d9b00d6c568bea1d865e882
-ms.sourcegitcommit: 99f7bd19e9c6997f0dbff7f59cb29a9768044b54
+ms.openlocfilehash: adecf37f61d5f33023b3f768ad2a3686bc314710
+ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "58896504"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58918342"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -36,7 +36,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 |권한|사용 권한|
 |---|---|
-|액세스|읽기, 쓰기, 실행|
+|Access|읽기, 쓰기, 실행|
 |작업 모드|감사, 허용, 방지|
 |CSP 지원|예|
 |GPO 지원|예|
@@ -238,7 +238,7 @@ DeviceEvents
 
 예를 들어 XML 파일의 "&" 문자에 올바른 표시다운 서식을 사용하지 않는 등 XML 파일의 형식이 올바르게 지정되지 않은 경우 또는 텍스트 편집기에서 파일 시작에 BOM(0xEF 0xBB 0xBF 순서 표시)을 추가하여 XML 구문 분석이 작동하지 않을 수 있습니다. 한 가지 간단한 해결 [](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) 방법은 샘플 파일을 다운로드한 **다음(원시를** 선택한 **다음** 다른 로 저장)을 다운로드한 다음 업데이트하는 것입니다.
 
-그룹 정책을 통해 정책을 배포하고 관리하는 경우 PolicyRules라는 파서 노드 내에서 모든 PolicyRule을 하나의 XML 파일로 결합하고 모든 Group을 그룹이라는 패런트 노드 내의 하나의 XML 파일로 결합해야 합니다. Intune을 통해 관리하는 경우 하나의 PolicyRule을 하나의 XML 파일, 동일한 점, 하나의 그룹 하나의 XML 파일을 유지하십시오.
+그룹 정책을 통해 정책을 배포하고 관리하는 경우 PolicyRules라는 부모 노드 내의 하나의 XML 파일로 모든 PolicyRule을 결합하고 모든 Group을 그룹이라는 부모 노드 내의 하나의 XML 파일로 결합해야 합니다. Intune을 통해 관리하는 경우 하나의 PolicyRule을 하나의 XML 파일, 동일한 점, 하나의 그룹 하나의 XML 파일을 유지하십시오.
 
 ### <a name="there-is-no-configuration-ux-for-define-device-control-policy-groups-and-define-device-control-policy-rules-on-my-group-policy"></a>그룹 정책에 '장치 제어 정책 그룹 정의' 및 '장치 제어 정책 규칙 정의'에 대한 구성 UX가 없습니다.
 

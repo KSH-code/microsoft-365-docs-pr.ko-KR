@@ -19,12 +19,12 @@ ms.custom:
 description: 새 보안 대시보드를 사용하여 위협 방지 Office 365 검토하고 보안 경고를 보고 이에 대한 행동을 할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3f945a75f8b15b55c999da95410a6078a48c540e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 18cde7063e8a25426b56ee184b71408016a6116d
+ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563733"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58918354"
 ---
 # <a name="security-dashboard-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 대시보드
 
@@ -102,7 +102,7 @@ Global Weekly Threat Detections 위젯은 지난 7일 동안 전자 메일 메�
 |검사한 메시지|검사한 전자 메일 메시지 수에 받는 사람 수를 곱한 수|
 |위협 중지됨|맬웨어가 포함된 것으로 확인된 전자 메일 메시지 수에 받는 사람 수를 곱합니다.|
 |2016에 [대해 Defender가 Office 365](defender-for-office-365.md)|Defender에서 차단한 전자 메일 메시지 Office 365 수에 받는 사람 수를 곱합니다.|
-|배달 후 제거됨|제로 아워 [](zero-hour-auto-purge.md) 자동 제거로 제거된 메시지 수에 받는 사람 수를 곱한 수입니다.|
+|배달 후 제거됨|[ZAP(제로](zero-hour-auto-purge.md) 아워 자동 제거)에 받는 사람 수를 곱하여 제거된 메시지 수|
 |
 
 ## <a name="malware"></a>맬웨어

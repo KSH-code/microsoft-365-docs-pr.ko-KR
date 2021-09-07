@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8f8bdfed9075f2ebc8d189874c6854c4d4a0e50a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 9cc1ddac10ddea4ea50ab1fc339db77a3240552b
+ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568255"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58918306"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 자동화된 조사 및 대응(AIR)Office 365
 
@@ -97,8 +97,8 @@ Microsoft 365 관리자 권한 남용, 맬웨어 활동Exchange 잠재적인 외
 |---|---|---|
 |악의적인 URL 클릭이 감지되었습니다.|**High**|이 경고는 다음과 같은 경우 생성됩니다. <ul><li>조직에서 링크로 [금고](safe-links.md) 악의적인 링크를 클릭하는 사용자</li><li>URL에 대한 판정 변경 내용은 Microsoft Defender에서 Office 365</li><li>사용자는 조직의 금고 링크 정책에 따라 링크 경고 금고 [무시합니다.](set-up-safe-links-policies.md)</li></ul> <p> 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 [Set up 금고 Links policies을 참조하십시오.](set-up-safe-links-policies.md)|
 |사용자가 전자 메일 메시지를 맬웨어 또는 피싱으로 보고|**정보**|이 경고는 조직의 사용자가 보고서 메시지 추가 기능 또는 [](enable-the-report-message-add-in.md) 피싱 보고 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고할 [때 생성됩니다.](enable-the-report-phish-add-in.md)|
-|배달 후 맬웨어가 포함된 전자 메일 메시지 제거|**정보**|이 경고는 맬웨어가 포함된 전자 메일 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
-|배달 후 피싱 URL이 포함된 전자 메일 메시지 제거|**정보**|이 경고는 피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
+|배달 후 맬웨어가 포함된 전자 메일 메시지 제거|**정보**|이 경고는 맬웨어가 포함된 전자 메일 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 ZAP(제로 아워 Exchange Online 제거)를 사용하여 감염된 메시지를 사서함에서 [제거합니다.](zero-hour-auto-purge.md)|
+|배달 후 피싱 URL이 포함된 전자 메일 메시지 제거|**정보**|이 경고는 피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 ZAP를 사용하여 감염된 Exchange Online [제거합니다.](zero-hour-auto-purge.md)|
 |의심스러운 전자 메일 전송 패턴이 감지됩니다.|**Medium**|이 경고는 조직의 누군가가 의심스러운 전자 메일을 보낸 경우 생성되고 전자 메일을 보내지 못하도록 제한될 위험이 있습니다. 경고는 계정이 손상된 것일 수 있지만 사용자를 제한할 만큼 심각하지는 않은 동작에 대한 초기 경고입니다. <p> 드물지만 이 정책에 의해 생성된 경고는 이상일 수 있습니다. 그러나 사용자 계정이 손상 된지 여부를 확인 하는 [것이 좋습니다.](responding-to-a-compromised-email-account.md)|
 |사용자가 전자 메일을 보낼 수 없습니다.|**High**|이 경고는 조직의 사용자가 아웃바운드 메일을 보낼 수 없습니다. 이 경고는 일반적으로 전자 메일 계정이 [손상될 때 생성됩니다.](responding-to-a-compromised-email-account.md) <p> 제한된 사용자에 대한 자세한 내용은 에서 제한된 사용자 포털에서 차단된 [사용자 제거를 Microsoft 365.](removing-user-from-restricted-users-portal-after-spam.md)|
 |
@@ -116,8 +116,8 @@ Microsoft 365 관리자 권한 남용, 맬웨어 활동Exchange 잠재적인 외
 
 |작업|역할 필요|
 |---|---|
-|AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 Azure Active Directory [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 포털에서 할당할 [Microsoft 365 Defender 있습니다.](permissions-microsoft-365-security-center.md)|
-|자동 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|다음 역할 중 하나는 Azure Active Directory [또는](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Microsoft 365 Defender [포털에서 할당됩니다.](permissions-microsoft-365-security-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 Microsoft 365 Defender [포털에서만 할당됩니다.](permissions-microsoft-365-security-center.md) 새 전자 메일 그룹 공동 작업 & 그룹을 만들고 해당 새 역할 **그룹에** 검색 및 제거 역할을 추가해야 할 수 있습니다.</li></ul>|
+|AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 Azure Active Directory [](/azure/active-directory/roles/permissions-reference) 포털에서 할당할 [Microsoft 365 Defender 있습니다.](permissions-microsoft-365-security-center.md)|
+|자동 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|다음 역할 중 하나는 Azure Active Directory [또는](/azure/active-directory/roles/permissions-reference) Microsoft 365 Defender [포털에서 할당됩니다.](permissions-microsoft-365-security-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 Microsoft 365 Defender [포털에서만 할당됩니다.](permissions-microsoft-365-security-center.md) 새 전자 메일 그룹 공동 작업 & 그룹을 만들고 해당 새 역할 **그룹에** 검색 및 제거 역할을 추가해야 할 수 있습니다.</li></ul>|
 
 ## <a name="required-licenses"></a>필수 라이선스
 
@@ -159,7 +159,7 @@ Microsoft Defender for Office 365 이미 AIR 기능을 사용 중이면 개선�
 |**엔터티 탭**|엔터티 **탭에는** 전체 요약 보기와 엔터티 유형별로 필터링하는 기능을 포함하는 탭 탭 스타일이 있습니다. 이제 **엔터티 탭에**  탐색기에서 열기 옵션 외에 이동 헌팅 **옵션이 포함되어** 있습니다. 이제 탐색기 또는 [](threat-explorer.md) 고급 [](../defender-endpoint/advanced-hunting-overview.md) 헌팅을 사용하여 엔터티와 위협을 찾고 결과를 필터링할 수 있습니다.|
 |**작업** 탭|업데이트된 **작업** 탭에는  보류 중인 작업 탭과 작업 기록 **탭이 포함됩니다.** 보류 중인 작업을 선택할 때 열 수 있는 쪽 창에서 작업을 승인(또는 거부)할 수 있습니다.|
 |**증거 탭**|새 증거 **탭에는** 작업과 관련된 주요 엔터티 찾은 것이 표시됩니다. 보류 중인 작업을 선택할 때 여는 쪽 창에서 각 증거 조각과 관련된 작업을 승인(또는 거부)할 수 있습니다.|
-|**Action Center**|업데이트된 **알림 센터(** )는 전자 메일, 장치 및 ID에서 보류 중인 작업과 완료된 작업을 <https://security.microsoft.com/action-center> 함께 제공합니다. 자세한 내용은 작업 센터를 참조합니다. (자세한 내용은 동작 [센터를 참조합니다.)](../defender/m365d-action-center.md)|
+|**알림 센터**|업데이트된 **알림 센터(** )는 전자 메일, 장치 및 ID에서 보류 중인 작업과 완료된 작업을 <https://security.microsoft.com/action-center> 함께 제공합니다. 자세한 내용은 작업 센터를 참조합니다. (자세한 내용은 동작 [센터를 참조합니다.)](../defender/m365d-action-center.md)|
 |**인시던트** 페이지|**인시던트** 페이지는 이제 여러 조사를 함께 연결하여 조사에 대한 더 나은 통합된 보기를 제공합니다. [(인시던트에 대한 자세한 내용은 을(를)](../defender/incidents-overview.md)|
 |
 
