@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 772c032bd44ab8f26e3a6fb6d5e9cd0092bd5826
-ms.sourcegitcommit: af575ade7b187af70f94db904b03f0471f56452a
+ms.openlocfilehash: 9d976ee46cc6feb7897e67294077b8a1fbaa0f12
+ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53591154"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53567851"
 ---
 # <a name="onboarding-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
 
@@ -89,13 +89,13 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 4. 구현할 메서드에 따라 적절한 단계를 수행합니다.
 
-    - 각 디바이스에 대한 단일 항목:
+   - 각 디바이스에 대한 단일 항목:
    
-         **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
+     **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
    
-    - 각 장치에 대한 여러 항목의 경우:
+   - 각 장치에 대한 여러 항목의 경우:
    
-         스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
+     스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
 
 5. 솔루션을 테스트합니다.
 
@@ -109,14 +109,13 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
       
    1. 구현할 메서드에 따라 적절한 단계를 수행합니다.
 
-   - 각 디바이스에 대한 단일 항목: 
+        - 각 디바이스에 대한 단일 항목: 
 
-     포털에서 하나의 항목만 Microsoft 365 Defender 검사합니다.
+            포털에서 하나의 항목만 Microsoft 365 Defender 검사합니다.
 
-   - 각 장치에 대한 여러 항목의 경우: 
+        - 각 장치에 대한 여러 항목의 경우: 
 
-     포털에서 여러 Microsoft 365 Defender 검사합니다.
-
+            포털에서 여러 Microsoft 365 Defender 검사합니다.
 
 6. 탐색 **창에서** 장치 목록을 클릭합니다.
 
