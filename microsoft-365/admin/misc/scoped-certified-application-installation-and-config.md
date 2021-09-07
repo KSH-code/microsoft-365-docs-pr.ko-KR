@@ -16,12 +16,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - MET150
 description: ServiceNow에 대한 범위가 지정한 인증된 응용 프로그램 설치 및 구성 가이드입니다.
-ms.openlocfilehash: f21353aa54cfee3b85a6e9d846aa4fce37cc13f5
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.openlocfilehash: a86525d9da1f36316ed0accacb2fde676831cc95
+ms.sourcegitcommit: 99f7bd19e9c6997f0dbff7f59cb29a9768044b54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866724"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "58896516"
 ---
 # <a name="microsoft-365-support-integration-with-servicenow-configuration-guide"></a>Microsoft 365 구성 가이드와의 통합 지원
 
@@ -210,39 +210,39 @@ Microsoft 365 통합을 위한 구성을 설정하기 전에 다음 질문에 �
 
 5. \[ServiceNow 관리자인 사용자가 \] 인바운드 OAuth 공급자를 설정합니다.
 
-- 현재 단계 **건너뛰기(Skip current step)를 Uncheck(현재 단계 건너뛰기)**
+    - 현재 단계 **건너뛰기(Skip current step)를 Uncheck(현재 단계 건너뛰기)**
 
-- 외부 **OIDC Auth 토큰 을(를)스킹하지 않습니다.**
+    - 외부 **OIDC Auth 토큰 을(를)스킹하지 않습니다.**
 
-- [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 3단계에서 만든 OAuth 클라이언트를 선택하고 \# 다음 을 **선택합니다.**
+    - [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 3단계에서 만든 OAuth 클라이언트를 선택하고 \# 다음 을 **선택합니다.**
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image13.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image13.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 6. \[ServiceNow 관리자인 사용자 \] 인바운드 통화 통합 사용자를 설정합니다.
 
-- 현재 단계 **건너뛰기(Skip current step)를 Uncheck(현재 단계 건너뛰기)**
+    - 현재 단계 **건너뛰기(Skip current step)를 Uncheck(현재 단계 건너뛰기)**
 
-- [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 4단계에서 만든 통합 사용자를 선택하고 \# 다음 을 **선택합니다.**
+    - [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 4단계에서 만든 통합 사용자를 선택하고 \# 다음 을 **선택합니다.**
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image14.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image14.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 7. \[ServiceNow 관리자인 사용자가 \] 리포지토리 ID를 설정합니다.
 
-리포지토리 ID를 지정하고 다음 을 **선택합니다.**
+    리포지토리 ID를 지정하고 다음 을 **선택합니다.**
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image15.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image15.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 8. \[ServiceNow 관리자인 사용자 응용 프로그램 \] 설정
 
-다음 설정을 선택하고 다음 을 **선택합니다.**
+    다음 설정을 선택하고 다음 을 **선택합니다.**
 
-- SSO Microsoft 365: ServiceNow 인스턴스가 테넌트와 함께 SSO로 설정되어 있는지 Microsoft 365 확인하거나 선택을 선택하지 않습니다.
+    - SSO Microsoft 365: ServiceNow 인스턴스가 테넌트와 함께 SSO로 설정되어 있는지 Microsoft 365 확인하거나 선택을 선택하지 않습니다.
 
-- Microsoft 365 전자 메일: Microsoft 365 지원 사례가 만들어지면 연락을 받던 Microsoft 365 관리자 사용자의 전자 메일입니다.
+    - Microsoft 365 전자 메일: Microsoft 365 지원 사례가 만들어지면 연락을 받던 Microsoft 365 관리자 사용자의 전자 메일입니다.
 
-- 테스트 환경: Microsoft 지원 에이전트가 문제를 해결하기 위해 연락하지 않도록 테스트 단계를 나타내기 위해 확인란을 선택합니다. 지원 통합을 통해 공식적으로 Microsoft 365 상자의 확인란을 선택합니다.
+    - 테스트 환경: Microsoft 지원 에이전트가 문제를 해결하기 위해 연락하지 않도록 테스트 단계를 나타내기 위해 확인란을 선택합니다. 지원 통합을 통해 공식적으로 Microsoft 365 상자의 확인란을 선택합니다.
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image16.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image16.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 9. \[테넌트의 기술 지원 Microsoft 365 서비스 요청 \] 관리자입니다.
 
@@ -260,21 +260,21 @@ Microsoft 365 통합을 위한 구성을 설정하기 전에 다음 질문에 �
 
         1. **리포지토리** 탭에서 **리포지토리** 추가를 선택하여 다음 설정을 사용하여 새 리포지토리를 만들 수 있습니다.
 
-        - 리포지토리: Step - 6 Complete the integration(통합 완료) 페이지의 리포지토리 **ID** 값입니다.
+            - 리포지토리: Step - 6 Complete the integration(통합 완료) 페이지의 리포지토리 **ID** 값입니다.
 
-        - 끝점: **Step** - 6 Complete the integration(6단계 통합 완료) 페이지의 끝점 값입니다.
+            - 끝점: **Step** - 6 Complete the integration(6단계 통합 완료) 페이지의 끝점 값입니다.
 
-        - 인증 유형: **기본 인증을 선택합니다.**
+            - 인증 유형: **기본 인증을 선택합니다.**
 
-        - 클라이언트 ID: Step - 6 Complete the integration(6단계 통합 완료) 페이지의 클라이언트 **ID** 값입니다.
+            - 클라이언트 ID: Step - 6 Complete the integration(6단계 통합 완료) 페이지의 클라이언트 **ID** 값입니다.
 
-        - 클라이언트 암호: [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 3단계에서 만든 인바운드 OAuth 공급자의 \# 비밀입니다.
+            - 클라이언트 암호: [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 3단계에서 만든 인바운드 OAuth 공급자의 \# 비밀입니다.
 
-        - 새로 고침 토큰 만료: 864000
+            - 새로 고침 토큰 만료: 864000
 
-        - Rest username: The **User Name** value from page Step - 6 Complete the integration.
+            - Rest username: The **User Name** value from page Step - 6 Complete the integration.
 
-        - Rest user password: [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 4단계에서 만든 통합 사용자의 \# 암호입니다.
+            - Rest user password: [Prerequisites(기본 인증)](#prerequisites-basic-authentication) 4단계에서 만든 통합 사용자의 \# 암호입니다.
 
             :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image19.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성":::
 
@@ -282,24 +282,24 @@ Microsoft 365 통합을 위한 구성을 설정하기 전에 다음 질문에 �
 
     1. **다음을** 선택하여 통합을 완료합니다.
 
-    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image20.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램, 웹 사이트 설명이 자동으로 생성됩니다.":::
+        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image20.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램, 웹 사이트 설명이 자동으로 생성됩니다.":::
 
 10. \[ServiceNow 관리자인 사용자는 기존 \] Microsoft 365 통합을 지원할 수 있습니다.
 
-Microsoft 365 지원 통합은 다음 역할 중 하나를 사용하는 사용자에 한해 사용하도록 설정됩니다.
+    Microsoft 365 지원 통합은 다음 역할 중 하나를 사용하는 사용자에 한해 사용하도록 설정됩니다.
 
-- x \_ mioms \_ m365 \_ assis.insights \_ 사용자
+    - x \_ mioms \_ m365 \_ assis.insights \_ 사용자
 
-- x \_ mioms \_ m365 \_ assis.administrator
+    - x \_ mioms \_ m365 \_ assis.administrator
 
-> [!NOTE]
-> 역할이 x \_ mioms \_ m365 \_ assis.insights 사용자 역할인 사용자는 서비스 상태 인시던트, 권장 솔루션을 볼 \_ 수 있습니다. 역할이 x \_ mioms \_ m365 assis.administrator인 사용자는 지원되는 사례를 Microsoft 365 \_ 있습니다.
+    > [!NOTE]
+    > 역할이 x \_ mioms \_ m365 \_ assis.insights 사용자 역할인 사용자는 서비스 상태 인시던트, 권장 솔루션을 볼 \_ 수 있습니다. 역할이 x \_ mioms \_ m365 assis.administrator인 사용자는 지원되는 사례를 Microsoft 365 \_ 있습니다.
 
 11. \[선택적 \] \[ 역할이 있는 x_mioms_m365_assis.administrator \] Link Microsoft 365 관리 계정입니다.
 
-x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 계정을 사용하여 Microsoft 365 지원 사례를 관리하는 사용자는 Microsoft 365 지원 > 링크 계정으로 이동하여 Microsoft 365 관리자 전자 메일을 \_ 설정해야 합니다.
+    x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 계정을 사용하여 Microsoft 365 지원 사례를 관리하는 사용자는 Microsoft 365 지원 > 링크 계정으로 이동하여 Microsoft 365 관리자 전자 메일을 \_ 설정해야 합니다.
 
- :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image21.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image21.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 ## <a name="set-up-microsoft-365-support-integration-with-aad-oauth-token"></a>AAD Microsoft 365 통합 지원 설정
 
@@ -381,30 +381,30 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
     1. **OAuth OIDC 공급자** 구성에서 검색을 선택하고 다음 값을 사용하여 "oidc provider  \_ configuration.list"에서 새 OIDC 공급자 \_ 구성을 생성합니다.
 
-    - OIDC 공급자: Contoso Azure
+        - OIDC 공급자: Contoso Azure
 
-    - OIDC 메타데이터 URL: `https://login.microsoftonline.com/{microsoft-365-tenant-name}/.well-known/openid-configuration`
+        - OIDC 메타데이터 URL: `https://login.microsoftonline.com/{microsoft-365-tenant-name}/.well-known/openid-configuration`
 
-    - UserClaim: **appId**
+        - UserClaim: **appId**
 
-    - 사용자 필드: **사용자 ID**
+        - 사용자 필드: **사용자 ID**
 
-    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image24.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image24.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
     1. OIDC 공급자 구성을 선택하여 다음 값을 사용하여 **ID 토큰을** 확인하여 새 응용 프로그램을 만들 수 있습니다.
 
-    - 이름: contoso \_ 응용 프로그램 \_ 인바운드 \_ api
+        - 이름: contoso \_ 응용 프로그램 \_ 인바운드 \_ api
 
-    - 클라이언트 ID: [AAD OAuth 토큰(Prerequisites)](#prerequisites-aad-oauth-token) 2단계에서 만든 응용 프로그램의 클라이언트 \# ID입니다.
+        - 클라이언트 ID: [AAD OAuth 토큰(Prerequisites)](#prerequisites-aad-oauth-token) 2단계에서 만든 응용 프로그램의 클라이언트 \# ID입니다.
 
-    - 클라이언트 비밀: [AAD OAuth 토큰(Prerequisites)](#prerequisites-aad-oauth-token) 2단계에서 만든 응용 프로그램의 앱 \# 비밀입니다.
+        - 클라이언트 비밀: [AAD OAuth 토큰(Prerequisites)](#prerequisites-aad-oauth-token) 2단계에서 만든 응용 프로그램의 앱 \# 비밀입니다.
 
-    - OAuth OIDC 공급자 구성: 마지막 단계에서 만든 OIDC 공급자입니다.
+        - OAuth OIDC 공급자 구성: 마지막 단계에서 만든 OIDC 공급자입니다.
 
-    - 리디렉션 URL:  
-        `https://{service-now-instance-name}.service-now.com/oauth_redirect.do`
+        - 리디렉션 URL:  
+            `https://{service-now-instance-name}.service-now.com/oauth_redirect.do`
 
-    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image25.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image25.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 6. \[ServiceNow 관리자인 사용자 \] 통합 사용자 만들기
 
@@ -439,24 +439,24 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
 1. \[ServiceNow 관리자인 사용자는 통합을 지원하기 위해 \] Microsoft 365 전환합니다.
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image9.png" alt-text="그래픽 사용자 인터페이스, 표 자동으로 생성되는 설명":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image9.png" alt-text="그래픽 사용자 인터페이스, 표 자동으로 생성되는 설명":::
 
 2. \[ServiceNow 관리자인 사용자는 통합 흐름을 \] Microsoft 365 > **지원으로** 이동하세요.
 
-> [!NOTE]
-> 표의 범위 간 액세스 정책으로 인해 \_ 'x \_ mioms \_ m365 assis'에서 'oauth 엔터티'에 대한 읽기 작업이 거부된 경우"라는 오류가 표시될 경우 테이블 액세스 정책에서 \_ 발생했습니다. 테이블 oauth **엔터티에** 대해 모든 응용 프로그램 범위 읽기가 확인되어야  >   \_ 합니다.
+    > [!NOTE]
+    > 표의 범위 간 액세스 정책으로 인해 \_ 'x \_ mioms \_ m365 assis'에서 'oauth 엔터티'에 대한 읽기 작업이 거부된 경우"라는 오류가 표시될 경우 테이블 액세스 정책에서 \_ 발생했습니다. 테이블 oauth **엔터티에** 대해 모든 응용 프로그램 범위 읽기가 확인되어야  >   \_ 합니다.
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image27.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image27.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 3. \[ServiceNow 관리자인 사용자는 동의를 선택하여 \] 동의합니다. 
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image11.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image11.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 4. \[ServiceNow 관리자인 사용자가 \] 아웃바운드 OAuth 공급자를 설정합니다.
 
-[Prerequisites (AAD OAuth Token)](#prerequisites-aad-oauth-token) 4단계에서 만든 아웃바운드 OAuth 공급자에 대한 OAuth 프로필을 선택하고 \# 다음 을 **선택합니다.**
+    [Prerequisites (AAD OAuth Token)](#prerequisites-aad-oauth-token) 4단계에서 만든 아웃바운드 OAuth 공급자에 대한 OAuth 프로필을 선택하고 \# 다음 을 **선택합니다.**
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image12.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image12.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 5. \[ServiceNow 관리자인 사용자가 \] 인바운드 OAuth 공급자를 설정합니다.
 
@@ -466,7 +466,7 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
     1. [Prerequisites (AAD OAuth Token)](#prerequisites-aad-oauth-token) 5단계에서 만든 OAuth 클라이언트를 선택하고 다음 을 **선택합니다.**
 
-    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image28.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image28.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 6. \[ServiceNow 관리자인 사용자가 \] 인바운드 통화 통합 사용자 설정
 
@@ -474,7 +474,7 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
     1. [Prerequisites(AAD OAuth Token)](#prerequisites-aad-oauth-token) 3단계에서 만든 응용 프로그램의 클라이언트 ID를 입력하고 다음 \# 을 **선택합니다.**
 
-    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image39.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image39.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 7. \[ServiceNow 관리자인 사용자가 \] 리포지토리 ID를 설정합니다.
 
@@ -510,23 +510,23 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
         :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image18.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
-    1. **리포지토리 탭에서** **리포지토리** 추가를 선택하여 다음 정보를 사용하여 새 리포지토리를 만들 수 있습니다.
+        1. **리포지토리 탭에서** **리포지토리** 추가를 선택하여 다음 정보를 사용하여 새 리포지토리를 만들 수 있습니다.
 
-    - 리포지토리: 단계 - 6 통합 완료 페이지의 리포지토리 **ID** 값을 사용하세요.
+            - 리포지토리: 단계 - 6 통합 완료 페이지의 리포지토리 **ID** 값을 사용하세요.
 
-    - 끝점:  Step - 6 Complete the integration page의 끝점 값입니다.
+            - 끝점:  Step - 6 Complete the integration page의 끝점 값입니다.
 
-    - 인증 유형: **AAD 인증을 선택합니다.**
+            - 인증 유형: **AAD 인증을 선택합니다.**
 
-    - 클라이언트 ID: Step - 6 Complete the integration(통합 완료) 페이지의 클라이언트 **ID** 값으로, [Prerequisites(AAD OAuth Token)](#prerequisites-aad-oauth-token) 2단계에서 만든 응용 프로그램의 클라이언트 \# ID입니다.
+            - 클라이언트 ID: Step - 6 Complete the integration(통합 완료) 페이지의 클라이언트 **ID** 값으로, [Prerequisites(AAD OAuth Token)](#prerequisites-aad-oauth-token) 2단계에서 만든 응용 프로그램의 클라이언트 \# ID입니다.
 
-    - Rest username: The **User Name value** on the Step - 6 Complete the integration page, which is the Client **ID** of the application created in [Prerequisites (AAD OAuth Token) step](#prerequisites-aad-oauth-token) \# 3.
+            - Rest username: The **User Name value** on the Step - 6 Complete the integration page, which is the Client **ID** of the application created in [Prerequisites (AAD OAuth Token) step](#prerequisites-aad-oauth-token) \# 3.
 
-    - Rest user password: The App Secret of the application created in [Prerequisites (AAD OAuth Token)](#prerequisites-aad-oauth-token) step \# 3.
+            - Rest user password: The App Secret of the application created in [Prerequisites (AAD OAuth Token)](#prerequisites-aad-oauth-token) step \# 3.
 
-        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image31.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+                :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image31.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
-    1. 돌아가서 단추를 선택하여 통합을 저장합니다.
+        1. 돌아가서 단추를 선택하여 통합을 저장합니다.
 
     1. **다음을** 선택하여 통합을 완료합니다.
 
@@ -534,20 +534,20 @@ x \_ mioms \_ m365 assis.administrator 역할이 있으며 다른 Microsoft 365 
 
 10. \[ServiceNow 관리자인 사용자는 기존 \] Microsoft 365 통합을 지원할 수 있습니다.
 
-Microsoft 365 지원 통합은 다음 역할이 있는 사용자에 한해 사용하도록 설정됩니다.
+    Microsoft 365 지원 통합은 다음 역할이 있는 사용자에 한해 사용하도록 설정됩니다.
 
-- x \_ mioms \_ m365 \_ assis.insights \_ 사용자
+    - x \_ mioms \_ m365 \_ assis.insights \_ 사용자
 
-- x \_ mioms \_ m365 \_ assis.administrator
+    - x \_ mioms \_ m365 \_ assis.administrator
 
-> [!NOTE]
-> 역할이 x \_ mioms \_ m365 assis.insights 사용자가 서비스 상태 인시던트, 권장 솔루션을 볼 \_ \_ 수 있습니다. 역할이 x \_ mioms \_ m365 assis.administrator인 사용자는 지원되는 사례를 Microsoft 365 \_ 있습니다.
+    > [!NOTE]
+    > 역할이 x \_ mioms \_ m365 assis.insights 사용자가 서비스 상태 인시던트, 권장 솔루션을 볼 \_ \_ 수 있습니다. 역할이 x \_ mioms \_ m365 assis.administrator인 사용자는 지원되는 사례를 Microsoft 365 \_ 있습니다.
 
 11. **\[선택 \] \[ 사항 역할이 있는 x_mioms_m365_assis.administrator \] Link Microsoft 365 관리 계정**
 
-"x \_ mioms \_ m365 assis.administrator" 역할이 있는 사용자가 다른 Microsoft 365 계정을 사용하여 Microsoft 지원 사례를 관리하는 경우 Microsoft 365 지원 > 링크 계정으로 이동하여 Microsoft 365 관리자 전자 메일을 설정해야 \_ 합니다.
+    "x \_ mioms \_ m365 assis.administrator" 역할이 있는 사용자가 다른 Microsoft 365 계정을 사용하여 Microsoft 지원 사례를 관리하는 경우 Microsoft 365 지원 > 링크 계정으로 이동하여 Microsoft 365 관리자 전자 메일을 설정해야 \_ 합니다.
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image21.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image21.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 ## <a name="set-up-microsoft-365-support-integration-for-insights-only"></a>전용에 Microsoft 365 지원 통합 Insights 설정
 
@@ -581,17 +581,17 @@ Microsoft 365 지원 통합은 다음 역할이 있는 사용자에 한해 사�
 
     1. 타사 OAuth 공급자에 대한 커넥트 값을 사용하여 새 응용 프로그램을 **만드세요.**
 
-    - 클라이언트 ID:  [Prerequisites (Insights ONLY)](#prerequisites-insights-only) 1단계에서 만든 응용 프로그램의 클라이언트 \# ID입니다.
+        - 클라이언트 ID:  [Prerequisites (Insights ONLY)](#prerequisites-insights-only) 1단계에서 만든 응용 프로그램의 클라이언트 \# ID입니다.
 
-    - 클라이언트 비밀: [Prerequisites (Insights ONLY)](#prerequisites-insights-only) 1단계에서 만든 응용 프로그램의 앱 \# 비밀
+        - 클라이언트 비밀: [Prerequisites (Insights ONLY)](#prerequisites-insights-only) 1단계에서 만든 응용 프로그램의 앱 \# 비밀
 
-    - 기본 부여 유형: 클라이언트 자격 증명
+        - 기본 부여 유형: 클라이언트 자격 증명
 
-    - 토큰 URL: `https://login.microsoftonline.com/{microsoft-365-tenant-name}/oauth2/token`
+        - 토큰 URL: `https://login.microsoftonline.com/{microsoft-365-tenant-name}/oauth2/token`
 
-    - 리디렉션 URL: `https://{servicenow-instance-name}.service-now.com/oauth_redirect.do`
+        - 리디렉션 URL: `https://{servicenow-instance-name}.service-now.com/oauth_redirect.do`
 
-    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image6.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+        :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image6.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 ### <a name="set-up-microsoft-365-support-integration"></a>지원 Microsoft 365 설정
 
@@ -601,24 +601,24 @@ ServiceNow 인스턴스와 Microsoft 지원 간의 통합을 설정하려면 다
 
 1. \[ServiceNow 관리자인 사용자는 통합을 지원하기 위해 \] Microsoft 365 전환합니다.
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image9.png" alt-text="그래픽 사용자 인터페이스, 표 자동으로 생성되는 설명":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image9.png" alt-text="그래픽 사용자 인터페이스, 표 자동으로 생성되는 설명":::
 
 2. \[ServiceNow 관리자인 사용자는 통합 흐름을 \] Microsoft 365 > **지원으로** 이동하세요.
 
-> [!NOTE]
-> 표의 범위 간 액세스 정책으로 인해 \_ 'x \_ mioms \_ m365 assis'에서 'oauth 엔터티'에 대한 읽기 작업이 거부된 경우"라는 오류가 표시될 경우 테이블 액세스 정책에서 \_ 발생했습니다. 테이블 oauth **엔터티에** 대해 모든 응용 프로그램 범위 읽기가 확인되어야  >   \_ 합니다.
+    > [!NOTE]
+    > 표의 범위 간 액세스 정책으로 인해 \_ 'x \_ mioms \_ m365 assis'에서 'oauth 엔터티'에 대한 읽기 작업이 거부된 경우"라는 오류가 표시될 경우 테이블 액세스 정책에서 \_ 발생했습니다. 테이블 oauth **엔터티에** 대해 모든 응용 프로그램 범위 읽기가 확인되어야  >   \_ 합니다.
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image27.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image27.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 3. \[ServiceNow 관리자인 사용자는 동의를 선택하여 \] 동의합니다. 
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image11.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image11.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 4. \[ServiceNow 관리자인 사용자가 \] 아웃바운드 OAuth 공급자를 설정합니다.
 
-아웃바운드 OAuth 공급자에 대한 OAuth 프로필을 선택하고 다음 을 **선택합니다.**
+    아웃바운드 OAuth 공급자에 대한 OAuth 프로필을 선택하고 다음 을 **선택합니다.**
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image12.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image12.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램, 전자 메일 설명이 자동으로 생성됩니다.":::
 
 5. \[ServiceNow 관리자인 \] 사용자인 경우 인바운드 OAuth 공급자 건너뛰기.
 
@@ -634,9 +634,9 @@ ServiceNow 인스턴스와 Microsoft 지원 간의 통합을 설정하려면 다
 
 7. \[ServiceNow 관리자인 사용자가 \] 리포지토리 ID를 설정합니다.
 
-리포지토리 ID를 지정하고 다음 을 **선택합니다.**
+    리포지토리 ID를 지정하고 다음 을 **선택합니다.**
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image15.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image15.png" alt-text="그래픽 사용자 인터페이스, 텍스트, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
 8. \[ServiceNow 관리자인 사용자 응용 프로그램 설정 \] 설정.
 
@@ -666,19 +666,19 @@ ServiceNow 인스턴스와 Microsoft 지원 간의 통합을 설정하려면 다
 
         1. **리포지토리 탭에서** **리포지토리** 추가를 선택하여 다음 정보를 사용하여 새 리포지토리를 만들 수 있습니다.
 
-        - 리포지토리: Step - 6 Complete the integration(통합 완료) 페이지의 리포지토리 **ID** 값입니다.
+            - 리포지토리: Step - 6 Complete the integration(통합 완료) 페이지의 리포지토리 **ID** 값입니다.
 
-        - 끝점:  Step - 6 Complete the integration page의 끝점 값입니다.
+            - 끝점:  Step - 6 Complete the integration page의 끝점 값입니다.
 
-        - 인증 유형: **AAD 인증을 선택합니다.**
+            - 인증 유형: **AAD 인증을 선택합니다.**
 
-        - 클라이언트 ID: 무시와 같은 임의 **값입니다.**
+            - 클라이언트 ID: 무시와 같은 임의 **값입니다.**
 
-        - Rest 사용자 이름: 무시와 같은 임의의 **값입니다.**
+            - Rest 사용자 이름: 무시와 같은 임의의 **값입니다.**
 
-        - Rest user password: a random value, such as **ignored**.
+            - Rest user password: a random value, such as **ignored**.
 
-            :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image36.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
+                :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image36.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램 설명이 자동으로 생성됩니다.":::
 
         1. 돌아가서 단추를 선택하여 통합을 저장합니다.
 
@@ -688,14 +688,14 @@ ServiceNow 인스턴스와 Microsoft 지원 간의 통합을 설정하려면 다
 
 10. \[ServiceNow 관리자인 사용자는 기존 \] Microsoft 365 통합을 지원할 수 있습니다.
 
-Microsoft 365 지원 통합은 다음 사용자 역할에만 사용하도록 설정됩니다.
+    Microsoft 365 지원 통합은 다음 사용자 역할에만 사용하도록 설정됩니다.
 
-- x \_ mioms \_ m365 \_ assis.insights \_ 사용자
+    - x \_ mioms \_ m365 \_ assis.insights \_ 사용자
 
-- x \_ mioms \_ m365 \_ assis.administrator
+    - x \_ mioms \_ m365 \_ assis.administrator
 
-> [!NOTE] 
-> 역할이 x_mioms_m365_assis.insights_user는 서비스 상태 인시던트, 권장 솔루션을 볼 수 있습니다. 또한 x_mioms_m365_assis.administrator 역할이 있는 사용자는 지원이 없는 사례를 Microsoft 365 있습니다. 이 Insights.administrator 역할은 누구도 할당되지 x_mioms_m365_assis.
+    > [!NOTE] 
+    > 역할이 x_mioms_m365_assis.insights_user는 서비스 상태 인시던트, 권장 솔루션을 볼 수 있습니다. 또한 x_mioms_m365_assis.administrator 역할이 있는 사용자는 지원이 없는 사례를 Microsoft 365 있습니다. 이 Insights.administrator 역할은 누구도 할당되지 x_mioms_m365_assis.
 
 ## <a name="testing-the-configuration"></a>구성 테스트
 
@@ -709,7 +709,7 @@ Microsoft 365 지원 통합은 다음 사용자 역할에만 사용하도록 설
 
 3. 지원 **Microsoft 365 탭에** 중점을 두고  Microsoft 365 Insights 해결 방법을 성공적으로 검색하는지 여부를 선택합니다.
 
-:::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image38.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램, 웹 사이트 설명이 자동으로 생성됩니다.":::
+    :::image type="content" source="../../media/ServiceNow-guide/ServiceNow-guide-image38.png" alt-text="그래픽 사용자 인터페이스, 응용 프로그램, 웹 사이트 설명이 자동으로 생성됩니다.":::
 
 ##  <a name="troubleshooting"></a>문제 해결
 

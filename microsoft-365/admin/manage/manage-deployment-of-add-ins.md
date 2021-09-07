@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 설명합니다.
-ms.openlocfilehash: 8de912ce6762037d905847dcabdcc20778d347e3
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 522a1884752e0ada6b43ba68a853cb117c8dfd75
+ms.sourcegitcommit: 99f7bd19e9c6997f0dbff7f59cb29a9768044b54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394243"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "58896480"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 배포
 
@@ -135,5 +135,6 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 [Office 
 
 [관리 센터에서](manage-addins-in-the-admin-center.md) 추가 기능 관리(문서)\
 [첫 번째 Word 작업 창](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator) 추가 기능 빌드(문서\
-[스토어에서](minors-and-acquiring-addins-from-the-store.md) 미성년자 및 추가 기능 다운로드(문서)\ 중앙 집중식 배포 [PowerShell cmdlet을](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) 사용하여 추가 기능 관리(문서)\  
+[스토어에서](minors-and-acquiring-addins-from-the-store.md) 미성년자 및 추가 기능 다운로드(문서)\
+[중앙 집중식 배포 PowerShell cmdlet을](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) 사용하여 추가 기능 관리(문서)\
 [문제 해결: 추가](/office365/troubleshoot/access-management/user-not-seeing-add-ins) 기능을 볼 수 없는 사용자(문서)

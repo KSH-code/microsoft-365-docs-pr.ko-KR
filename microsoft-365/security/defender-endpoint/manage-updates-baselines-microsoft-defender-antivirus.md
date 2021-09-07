@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 08/27/2021
-ms.openlocfilehash: 2ae397e8c1da002c97392a7e96e5b1a89791e90b
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.date: 09/03/2021
+ms.openlocfilehash: 8b5cf1f9e48e6022d2269911606ad69b953d8ec2
+ms.sourcegitcommit: 99f7bd19e9c6997f0dbff7f59cb29a9768044b54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823916"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "58896468"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -409,6 +409,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 
 
 ## <a name="microsoft-defender-antivirus-platform-support"></a>Microsoft Defender 바이러스 백신 플랫폼 지원
+
 플랫폼 및 엔진 업데이트는 월별 케이던스에 제공됩니다. 완전히 지원받기 위해 최신 플랫폼 업데이트를 최신으로 유지하세요. 지원 구조는 동적이며, 최신 플랫폼 버전의 가용성에 따라 다음 두 단계로 진화합니다.
 
 - **보안 및** 중요 업데이트 서비스 단계 - 최신 플랫폼 버전을 실행하는 경우 맬웨어 방지 플랫폼에 대한 보안 및 중요 업데이트를 받을 수 있습니다.
@@ -420,6 +421,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 기술 지원(전용) 단계 중에는 상업적으로 합리적인 지원 인시던트가 Microsoft 고객 서비스 & 지원 및 Microsoft의 관리 지원 서비스(예: 프리미어 지원)를 통해 제공됩니다. 지원 인시던트가 추가 지침을 위해 개발로 에스컬레이터해야 하는 경우, 비보안 업데이트가 필요하거나, 보안 업데이트가 필요한 경우 고객에게 최신 플랫폼 버전 또는 중간 업데이트(*)로 업그레이드할지 묻는 요청이 표시됩니다.
 
 ### <a name="platform-version-included-with-windows-10-releases"></a>릴리스에 포함된 플랫폼 Windows 10 버전
+
 아래 표에는 최신 Microsoft Defender 바이러스 백신 함께 제공된 플랫폼 및 엔진 버전이 Windows 10 있습니다.
 
 |Windows 10 릴리스  |플랫폼 버전  |엔진 버전 |지원 단계 |
@@ -442,6 +444,17 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 자세한 내용은 운영 체제 설치 Windows Microsoft [Defender 업데이트를 참조하세요.](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)
 
 <details>
+<summary>1.1.2109.01</summary>
+
+&ensp;패키지 버전: **1.1.2109.01** &ensp; 플랫폼 버전: **4.18.2107.4** &ensp; 엔진 버전: **1.1.18400.5** 서명 &ensp; 버전: **1.347.891.0**
+
+### <a name="fixes"></a>수정
+- 없음
+
+### <a name="additional-information"></a>추가 정보
+- 없음
+<br/>
+</details><details>
 <summary>1.1.2108.01</summary>
 
 &ensp;패키지 버전: **1.1.2108.01** &ensp; 플랫폼 버전: **4.18.2107.4** &ensp; 엔진 버전: **1.1.18300.4** 서명 &ensp; 버전: **1.343.2244.0**

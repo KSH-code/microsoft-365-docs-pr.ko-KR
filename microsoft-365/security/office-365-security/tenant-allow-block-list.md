@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 관리하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4ff987128047522a5f8cb20a76c81bd950c1b7cf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: aca302aedfaa97b9e2661716d7bc7a6e846fa6fb
+ms.sourcegitcommit: 99f7bd19e9c6997f0dbff7f59cb29a9768044b54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568735"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "58896492"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -66,7 +66,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 - 사용 가능한 URL 값은 이 문서 부분의 [테넌트 허용/차단](#url-syntax-for-the-tenant-allowblock-list) 목록 섹션에 대한 URL 구문에 설명되어 있습니다.
 
-- 테넌트 허용/차단 목록을 사용하면 보낸 사람에 대해 최대 500개 항목, URL 항목 500개, 파일 해시 항목 500개가 허용됩니다.
+- 테넌트 허용/차단 목록을 사용하면 보낸 사람에 대해 최대 500개 항목, URL 항목 500개, 파일 해시 항목 500개, 스푸핑(스푸핑된 보낸 사람)에 대한 항목 1024개가 허용됩니다.
 
 - 각 항목의 최대 문자 수는 다음입니다.
   - 파일 해시 = 64

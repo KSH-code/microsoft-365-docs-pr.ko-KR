@@ -15,17 +15,16 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 91b482aa189ff7e9d4ff69183718abf354d19d0f
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.openlocfilehash: 04683635399c2cd1efbf6cceca95fa0cfe1b2775
+ms.sourcegitcommit: 99f7bd19e9c6997f0dbff7f59cb29a9768044b54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823832"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "58896444"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -45,6 +44,7 @@ ms.locfileid: "58823832"
 > Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트는 Windows 업데이트 및 2019년 10월 21일 월요일부터 전달됩니다. 모든 보안 인텔리전스 업데이트는 SHA-2 전용으로 서명됩니다. 보안 인텔리전스를 업데이트하려면 SHA-2를 지원하기 위해 장치를 업데이트해야 합니다. 자세한 내용은 Windows [및 WSUS에 대한 2019 SHA-2 코드 서명 지원 요구 사항을 참조합니다.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)
 
 <a id="fallback-order"></a>
+
 ## <a name="fallback-order"></a>Fallback order
 
 일반적으로 네트워크 구성에 따라 기본 원본에서 업데이트를 개별적으로 다운로드하고 그 다음에 다른 원본을 우선 순위대로 다운로드하도록 끝점을 구성합니다. 업데이트는 사용자가 지정한 순서대로 원본에서 얻습니다. 원본을 사용할 수 없는 경우 목록의 다음 원본이 즉시 사용됩니다.
@@ -59,7 +59,7 @@ ms.locfileid: "58823832"
 끝점에서 업데이트를 받을 위치를 지정할 수 있는 위치는 5개입니다.
 
 - [Microsoft 업데이트](https://support.microsoft.com/help/12373/windows-update-faq)
-- [Windows 서버 업데이트 서비스](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+- [Windows Server Update](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) Service(Intune 내부 정의 업데이트 서버) - SCCM/SUP를 사용하여 Microsoft Defender 바이러스 백신에 대한 정의 업데이트를 다운로드하고 클라이언트 장치에서 차단된 Windows 업데이트에 액세스해야 하는 경우 공동 관리로 전환하고 끝점 보호 작업을 Intune으로 오프로드할 수 있습니다. Intune에 구성된 맬웨어 방지 정책에는 '내부 정의 업데이트 서버'에 대한 옵션이 있습니다. 이 옵션은 업데이트 원본으로 사내 WSUS를 사용하도록 구성할 수 있습니다.
 - [Microsoft Endpoint Configuration Manager](/configmgr/core/servers/manage/updates)
 - [네트워크 파일 공유](#unc-share)
 - [Microsoft Defender 바이러스 백신 및](https://www.microsoft.com/wdsi/defenderupdates) 기타 Microsoft 맬웨어 방지에 대한 보안 인텔리전스 업데이트(정책 및 레지스트리에 MMPC(Microsoft 맬웨어 보호 센터) 보안 인텔리전스, 이전 이름으로 나열될 수 있습니다.
@@ -167,20 +167,21 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
 > Microsoft는 타사 솔루션을 관리하기 위한 타사 솔루션을 테스트하지 Microsoft Defender 바이러스 백신.
 
 <a id="unc-share"></a>
+
 ## <a name="create-a-unc-share-for-security-intelligence-updates"></a>보안 인텔리전스 업데이트용 UNC 공유 만들기
 
 네트워크 파일 공유(UNC/매핑된 드라이브)를 설정하여 예약된 작업을 사용하여 MMPC 사이트에서 보안 인텔리전스 업데이트를 다운로드합니다.
 
 1. 공유를 프로비전하고 업데이트를 다운로드할 시스템에서 스크립트를 저장할 폴더를 생성합니다.
 
-    ```DOS
+    ```console
     Start, CMD (Run as admin)
     MD C:\Tool\PS-Scripts\
     ```
 
 2. 서명 업데이트를 저장할 폴더를 생성합니다.
 
-    ```DOS
+    ```console
     MD C:\Temp\TempSigs\x64
     MD C:\Temp\TempSigs\x86
     ```
@@ -197,12 +198,12 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
 
 8. 명령줄을 사용하여 예약된 작업을 설정할 수 있습니다.
 
-    > [!NOTE]
-    > 업데이트 유형에는 전체 업데이트와 델타의 두 가지 유형이 있습니다.
+   > [!NOTE]
+   > 업데이트 유형에는 전체 업데이트와 델타의 두 가지 유형이 있습니다.
 
    - x64 델타의 경우:
 
-       ```DOS
+       ```powershell
        Powershell (Run as admin)
 
        C:\Tool\PS-Scripts\
@@ -212,7 +213,7 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
 
    - x64 전체:
 
-       ```DOS
+       ```powershell
        Powershell (Run as admin)
 
        C:\Tool\PS-Scripts\
@@ -222,7 +223,7 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
 
    - x86 델타의 경우:
 
-       ```DOS
+       ```powershell
        Powershell (Run as admin)
 
        C:\Tool\PS-Scripts\
@@ -232,7 +233,7 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
 
    - x86 전체:
 
-       ```DOS
+       ```powershell
        Powershell (Run as admin)
 
        C:\Tool\PS-Scripts\
@@ -240,8 +241,9 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
        ".\SignatureDownloadCustomTask.ps1 -action create -arch x86 -isDelta $false -destDir C:\Temp\TempSigs\x86 -scriptPath C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1 -daysInterval 1"
        ```
 
-    > [!NOTE]
-    > 예약된 작업이 만들어지면 작업 스케줄러의 Microsoft\Windows\Windows Defender
+   > [!NOTE]
+   > 예약된 작업이 만들어지면 작업 스케줄러의 Microsoft\Windows\Windows Defender
+
 9. 각 작업을 수동으로 실행하고 다음 폴더에 데이터(mpam-d.exe, mpam-fe.exe 및 nis_full.exe)가 있는지 확인합니다(다른 위치를 선택했습니다).
 
    - C:\Temp\TempSigs\x86
@@ -249,7 +251,7 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
 
    예약된 작업이 실패하면 다음 명령을 실행합니다.
 
-    ```DOS
+    ```console
     C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command "&\"C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\" -action run -arch x64 -isDelta $False -destDir C:\Temp\TempSigs\x64"
 
     C:\windows\system32\windowspowershell\v1.0\powershell.exe -NoProfile -executionpolicy allsigned -command "&\"C:\Tool\PS-Scripts\SignatureDownloadCustomTask.ps1\" -action run -arch x64 -isDelta $True -destDir C:\Temp\TempSigs\x64"
@@ -262,7 +264,7 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
     > [!NOTE]
     > 실행 정책으로 인해 문제가 될 수도 있습니다.
 
-10. C:\Temp\TempSigs(예: server\updates)를 지점으로 하는 \\ 공유를 만드시다.
+10. C:\Temp\TempSigs(예: 서버\업데이트)를 포인터로 설정하는 \\ 공유를 생성합니다.
 
     > [!NOTE]
     > 인증된 사용자는 최소한 "읽기" 액세스 권한이 있어야 합니다.
