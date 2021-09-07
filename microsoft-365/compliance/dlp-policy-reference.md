@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP 정책 구성 요소 및 구성 참조
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 51eac7b05edeccece3cf45a8396493d84dc3e11f
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.openlocfilehash: 1227d95469d57921af9f0b97e7adc2a6a49e5573
+ms.sourcegitcommit: 2048c9399a654175438d47e0c3aa2574b949bdc0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866670"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58923945"
 ---
 # <a name="data-loss-prevention-policy-reference"></a>데이터 손실 방지 정책 참조
 
@@ -459,8 +459,9 @@ for where they are used/expected behavior-->
 
 
 다양한 Microsoft 앱에 대한 사용자 알림을 사용 또는 사용하지 않도록 설정할 수 있습니다. 데이터 손실 방지 정책 팁 [참조를 참조하세요.](dlp-policy-tips-reference.md#data-loss-prevention-policy-tips-reference)
-- 정책 팁을 사용하여 Office 365 알림을 사용/사용하지 않도록 설정할 수 있습니다.
-    - 콘텐츠를 감지, 공유 또는 마지막으로 수정한 사용자에게 전자 메일 알림
+
+- 정책 팁을 사용하여 Office 365 **알림 기능을** 사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다.
+    - 콘텐츠를 전송, 공유 또는 마지막으로 수정한 사용자에게 전자 메일 알림
     - 특정 사용자에게 알림
 
 뿐만 아니라 전자 메일 텍스트, 제목 및 정책 팁 텍스트를 사용자 지정할 수 있습니다.
@@ -471,6 +472,41 @@ for where they are used/expected behavior-->
 
 ![장치에 사용할 수 있는 사용자 알림 및 정책 팁 구성 옵션](../media/dlp-user-notification-devices.png)  
 
+이러한 매개 변수를 사용하여 텍스트의 제목과 본문을 사용자 지정할 수 있습니다. 본문은 다음을 지원합니다.
+
+|일반 이름  |매개 변수  |예
+|---------|---------|---------|
+|파일 이름     |%%FileName%% | Contoso doc 1 |
+|프로세스 이름     |%%ProcessName%% | Word |
+|정책 이름     |%%PolicyName%%| Contoso 높은 기밀 |
+|조치 | %%AppliedActions%% | 클립보드에서 다른 앱으로 문서 콘텐츠 붙여넣기 |
+
+**%%AppliedActions%%는** 다음 값을 메시지 본문으로 대체합니다.
+
+
+|작업 일반 이름 |%%AppliedActions%% 매개 변수로 대체된 값 |
+|---------|---------|
+|제거할 수 있는 저장소에 복사    |*이동식 저장소에 쓰기*         |
+|네트워크 공유에 복사     |*네트워크 공유에 쓰기*         |
+|print     |*인쇄*         |
+|클립보드에서 붙여넣기  |*클립보드에서 붙여넣기*         |
+|bluetooth를 통해 복사   |*전송을 통해 Bluetooth*         |
+|사용할 수 없는 앱으로 열기     |*이 앱으로 열기*         |
+|RDP(원격 데스크톱)에 복사     |*원격 데스크톱으로 전송*         |
+|웹 사이트에 업로드     |*이 사이트에 업로드*         |
+|허용되지 않은 브라우저를 통해 항목에 액세스     |*이 브라우저를 사용하여 열기*         |
+
+이 사용자 지정 텍스트 사용
+
+*%%AppliedActions%% File name %%FileName%% via %%ProcessName%% is not allowed by your organization. %%PolicyName%의 정책을 무시하려면 '허용'을 클릭합니다.* 
+
+사용자 지정 알림에서 다음 텍스트를 생성합니다.
+
+*클립보드 파일 이름에서 붙여넣기: 조직에서 WINWORD.EXE Contoso doc 1을 붙여넣을 수 없습니다. Contoso의 높은 기밀 정책을 무시하려면 '허용' 단추를 클릭합니다.*
+ 
+
+
+
 > [!NOTE]
 > 사용자 알림 및 정책 팁은 On-premises location에서 사용할 수 없습니다.
 
@@ -479,9 +515,6 @@ for where they are used/expected behavior-->
 
 알림 및 팁 텍스트를 사용자 지정하는 방법을 포함하여 사용자 알림 및 정책 팁 구성 및 사용에 대한 자세한 내용은 다음을 참조합니다. 
 - [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](use-notifications-and-policy-tips.md#send-email-notifications-and-show-policy-tips-for-dlp-policies)
-- [데이터 손실 방지 정책 참조](dlp-policy-reference.md#data-loss-prevention-policy-reference)
-
-
   
 <!--The email can notify the person who sent, shared, or last modified the content and, for site content, the primary site collection administrator and document owner. In addition, you can add or remove whomever you choose from the email notification.
   

@@ -16,18 +16,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: 비즈니스 지원 프로그램에 대해 알아보고 비즈니스용 비즈니스용 앱에 대한 향상된 도움말 및 사용법을 통해 조직에 도움이 되는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 806f73af526b23e32740e0a1c1a8fe9d3854acd1724a030b31985faa040f2735
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fefefe5dc587674609201be13f19cd6223b80c49
+ms.sourcegitcommit: 2048c9399a654175438d47e0c3aa2574b949bdc0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824221"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58923921"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Microsoft 365용 비즈니스 도우미
 
 중소기업 전문가의 전문가의 조언을 통해 구독을 가장 잘 이용하세요.
 
- 비즈니스 Microsoft 365 비즈니스 지원은 사용자가 5명 미만인 기업을 위해 고안되어 온보드에서 일상적으로 사용할 수 있는 비즈니스 성장에 따라 사용자와 직원에게 비즈니스 성장에 대한 일상적인 액세스를 제공합니다.
+비즈니스 Microsoft 365 비즈니스 지원은 **온보드에서** 일상적으로 사용할 수 있는 비즈니스 성장에 따라 중소기업 전문가와 직원에게 일상적인 액세스를 제공합니다.
 
 ### <a name="watch-business-assist-for-microsoft-365"></a>Watch: Business Assist for Microsoft 365
 
