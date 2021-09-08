@@ -19,12 +19,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e9096af6a99fb04a9f25e9d28f31f8eb522ecf4c
-ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
+ms.openlocfilehash: 8651adb37640d68d0eace7aa23a134ba3b892bbd
+ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58392181"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58918258"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -48,6 +48,7 @@ Office 365용 Microsoft Defender는 전자 메일 메시지, 링크(URL) 및 공
 - **[자동화된 조사 및 응답 기능](office-365-air.md)**: 위협에 대한 조사 및 위협을 낮추기 위한 시간과 노력을 줄입니다.
 
 ## <a name="interactive-guide-to-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에 대한 대화형 가이드
+
 이 대화형 가이드에서는 Office 365용 Microsoft Defender를 사용하여 조직을 보호하는 방법에 대해 알아봅니다. Office 365용 Defender를 통해 보호 정책을 정의하고, 조직에 대한 위협을 분석하고, 공격에 대응하는 방법을 알아봅니다.
 
 [대화형 가이드 확인](https://aka.ms/MSDO-IG)
@@ -64,7 +65,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
   - 안전한 링크
   - 안전한 첨부 파일
 - 작업을 방어할 때 (예: SharePoint Online, OneDrive 및 Teams)
-- ZAP로 보호
+- ZAP(제로 아워 자동 제거)로 보호합니다.
 
 이 작업을 수행하여 자세한 내용을 보려면 [링크를 클릭](protect-against-threats.md).
 
