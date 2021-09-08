@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 문서 이해 모델과 양식 처리 모델의 주요 차이에 대해 알아봅니다.
-ms.openlocfilehash: 4927f29eecc2ee0dfa0e2207531d8f5f5616a68e
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: e9f9c417d8603be0d933607ccf527c6d821bcc72
+ms.sourcegitcommit: 7883556c05ceef228dc329f715e8a6213b40d921
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400298"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58931257"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>문서 이해와 양식 처리 모델의 차이 
 
@@ -87,9 +87,8 @@ Microsoft SharePoint Syntex의 콘텐츠 이해를 통해 SharePoint 문서 라�
 | 지원되는 언어| 영어 <br>2021년 후반에 출시 예정: 라틴 문자 알파벳 언어 | 모델은 모든 라틴어 알파벳 언어를 기반으로 작동합니다. 영어 외 언어: 독일어, 스웨덴어, 프랑스어, 스페인어, 이탈리아어 및 포르투갈어.|
 
 ## <a name="see-also"></a>참고 항목
+
 [교육: AI 작성기를 사용하여 비즈니스 성과 개선](/learn/paths/improve-business-performance-ai-builder/?source=learn)
-
-
 
 [문서 이해 개요](document-understanding-overview.md)
 

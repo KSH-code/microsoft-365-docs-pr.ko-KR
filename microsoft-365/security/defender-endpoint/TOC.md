@@ -277,6 +277,7 @@
 ##### [PowerShell을 사용하여 검사 예약](schedule-antivirus-scans-powershell.md)
 ##### [WMI를 사용하여 검사 예약](schedule-antivirus-scans-wmi.md)
 #### [Microsoft Defender 바이러스 백신에서 제한된 주기적 검사 사용](limited-periodic-scanning-microsoft-defender-antivirus.md)
+#### [Microsoft Defender 바이러스 백신 성능 조정](tune-performance-defender-antivirus.md)
 #### [다른 보안 제품과의 호환성](microsoft-defender-antivirus-compatibility.md)
 
 #### [바이러스 백신 및 맬웨어 방지 업데이트 다운로드](manage-updates-baselines-microsoft-defender-antivirus.md)
