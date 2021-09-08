@@ -19,12 +19,12 @@ ms.assetid: ''
 description: eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 Office 365 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b562e3d22557133630fa8c7c7d343432736b9f4f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: d71091b4c3545880b103b8d4a4111b3c63d35506
+ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569612"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58928755"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
@@ -95,9 +95,9 @@ SharePoint Online 및 비즈니스용 OneDrive 포함된 eDiscovery 검색을 �
 온라인 및 검색 위치가 포함된 eDiscovery 검색을 실행하면 SharePoint 수 비즈니스용 OneDrive 있습니다. eDiscovery는 SPO 인덱스를 사용하여 파일 위치를 식별합니다. 파일을 삭제했지만 SPO 인덱스가 아직 업데이트되지 않은 경우 이 오류가 발생할 수 있습니다.
 
 ### <a name="resolution"></a>해결 방법 
+
 SPO 위치를 열고 이 파일이 실제로 해당 위치에 없는지 확인해야 합니다.
 권장되는 해결 방법은 사이트를 수동으로 다시 인덱스하거나 사이트가 자동 백그라운드 프로세스에 의해 다시 인덱스될 때까지 기다리는 것입니다.
-
 
 ## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artifact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>오류/문제: 폴더 또는 자체적으로 다운로드할 수 없는 다른 아티팩트이기 때문에 이 검색 결과가 다운로드되지 않은 경우 폴더 또는 라이브러리의 항목이 다운로드됩니다.
 
@@ -118,6 +118,16 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 이
    ```
 
 3. 사용자 질문에 대한 메일 사용자 개체가 있습니다. 반환되는 개체가 없는 경우 사용자 개체를 조사합니다. 개체를 동기화할 수 없는 경우 Microsoft 지원에 문의합니다.
+
+## <a name="issueerror-search-fails-with-error-cs007"></a>문제/오류: 오류 CS007로 검색 실패
+
+콘텐츠 검색 또는 Core eDiscovery 사례와 연결된 검색을 수행할 때 일시적인 오류가 발생하고 CS007 오류로 검색이 실패합니다.
+
+### <a name="resolution"></a>해결 방법
+
+1. 검색을 업데이트하고 검색 쿼리의 복잡성을 줄입니다.  예를 들어 와일드카드 검색에서는 시스템이 너무 많은 결과를 반환하여 CS007 오류가 발생할 수 있습니다.
+
+2. 업데이트된 검색을 다시런합니다.
 
 ## <a name="errorissue-exporting-search-results-is-slow"></a>오류/문제: 검색 결과 내보내기 속도가 느립니다.
 

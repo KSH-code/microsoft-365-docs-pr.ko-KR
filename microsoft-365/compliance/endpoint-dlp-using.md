@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 26f5723d604cb9f57000f13eb799cd0afba593e7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: eabd58f43e1275b3ae7ae3b8563e97299fef1233
+ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58556303"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58928767"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -85,9 +85,13 @@ ms.locfileid: "58556303"
 
 특정 Bluetooth 앱을 통해 정책에 의해 보호되는 파일을 전송하지 못하게 합니다.
 
-### <a name="browser-and-domain-restrictions"></a>브라우저 및 도메인 제한:
+### <a name="browser-and-domain-restrictions-to-sensitive-data"></a>중요한 데이터에 대한 브라우저 및 도메인 제한
 
 정책과 일치하는 중요한 파일을 무제한 클라우드 서비스 도메인에 공유하지 못하도록 제한합니다.
+
+#### <a name="unallowed-browsers"></a>허용되지 않는 브라우저
+
+클라우드 서비스 제한에 업로드가 차단 또는 재설정을 차단하는 것으로 설정되어 있는 적용된 DLP 정책의 조건과 일치하는 파일에 액세스하지 못하도록 차단된 실행 파일 이름으로 식별되는 브라우저를 추가합니다. 이 브라우저가 파일에 액세스하지 못하도록 차단되면 최종 사용자에게 Edge Chromium를 통해 파일을 열도록 요청하는 알림 메시지가 표시됩니다.
 
 #### <a name="service-domains"></a>서비스 도메인
 
@@ -100,17 +104,30 @@ ms.locfileid: "58556303"
 > [!IMPORTANT]
 > 서비스 제한 모드를 "허용"으로 설정한 경우 제한이 적용되기 전에 하나 이상의 서비스 도메인을 구성해야 합니다.
 
-#### <a name="unallowed-browsers"></a>허용되지 않는 브라우저
+### <a name="additional-settings-for-endpoint-dlp"></a>끝점 DLP에 대한 추가 설정
 
-클라우드 서비스 제한에 업로드가 차단 또는 재설정을 차단하는 것으로 설정되어 있는 적용된 DLP 정책의 조건과 일치하는 파일에 액세스하지 못하도록 차단된 실행 파일 이름으로 식별되는 브라우저를 추가합니다. 이 브라우저가 파일에 액세스하지 못하도록 차단되면 최종 사용자에게 Edge Chromium를 통해 파일을 열도록 요청하는 알림 메시지가 표시됩니다.
+#### <a name="business-justification-in-policy-tips"></a>정책 팁의 비즈니스 타당성
 
-### <a name="business-justification-in-policy-tips"></a>정책 팁의 비즈니스 타당성
+DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호 작용하는 방법을 제어할 수 있습니다. 이 옵션은 사용자가 DLP 정책에서 **재정의로 차단** 설정으로 보호되는 활동을 수행하는 경우 나타납니다. 전역 설정입니다. 다음 옵션 중 하나를 선택할 수 있습니다.
 
-DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호 작용하는 방법을 제어할 수 있습니다. 이 옵션은 사용자가 DLP 정책에서 **재정의로 차단** 설정으로 보호되는 활동을 수행하는 경우 나타납니다. 다음 옵션 중 하나를 선택할 수 있습니다.
+- **기준 옵션 및 사용자 지정 텍스트 상자 표시**: 기본적으로 사용자는 기본 제공 근거를 선택하거나 자신의 텍스트를 입력할 수 있습니다.
+- **기본 옵션 표시**: 사용자는 기본 제공 근거만 선택할 수 있습니다.
+- **사용자 지정 텍스트 상자 표시**: 사용자는 자신의 근거만 입력할 수 있습니다. 텍스트 상자만 최종 사용자 정책 팁 알림에 표시됩니다. 
 
-- 기본적으로 사용자는 기본 제공 사유를 선택하거나 텍스트를 직접 입력할 수 있습니다.
-- 사용자는 기본 제공 사유만 선택할 수 있습니다.
-- 사용자는 고유의 사유만 입력할 수 있습니다.
+##### <a name="customizing-the-options-in-the-drop-down-menu"></a>드롭다운 메뉴에서 옵션 사용자 지정 중
+
+**옵션 드롭다운 메뉴 사용자 지정** 을 선택하여 사용자가 정책 알림 팁과 상호 작용할 때 표시되는 최대 5개의 사용자 지정된 옵션을 만들 수 있습니다. 
+
+
+|옵션 |기본 텍스트  |
+|---------|---------|
+|옵션 1    | **이 작업은 설정된 비즈니스 워크플로의 일부입니다**. 또는 사용자 지정된 텍스트를 입력할 수 있습니다.        |
+|옵션 2  |**관리자가 이 작업을 승인했거나** 사용자 지정된 텍스트를 입력할 수 있습니다.         |
+|옵션 3   |**긴급 액세스가 필요합니다. 관리자에게 따로 알려드리거나** 사용자 지정된 텍스트를 입력할 수 있습니다.          |
+|가양성 옵션 표시     |**이 파일의 정보는 중요하지 않습니다** 또는 사용자 지정된 텍스트를 입력할 수 있습니다.          |
+|옵션 5    |**기타** 또는 사용자 지정된 텍스트를 입력할 수 있습니다.         |
+
+<!--See, [Scenario 5: Configure a policy to use the customized business justification](#scenario-5-configure-a-policy-to-use-the-customized-business-justification)-->
 
 ### <a name="always-audit-file-activity-for-devices"></a>장치에 대한 파일 활동 항상 감사
 
@@ -341,6 +358,10 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 8. 모니터링되는 끝점에서 데이터에 대한 활동 탐색기를 확인합니다. 장치에 대한 위치 필터를 설정하고 정책을 추가한 다음 정책 이름을 기준으로 필터링하여 정책의 영향을 확인합니다. 필요한 경우 [활동 탐색기로 시작](data-classification-activity-explorer.md)을 참조하세요.
 
 9. 이벤트에 대한 활동 탐색기를 확인합니다.
+
+### <a name="scenario-5-configure-a-policy-to-use-the-customized-business-justification"></a>시나리오 5: 사용자 지정된 비즈니스 근거를 사용하도록 정책 구성
+
+
 
 ## <a name="see-also"></a>참고 항목
 

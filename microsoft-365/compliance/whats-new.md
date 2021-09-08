@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: edcfbb7cbce64cc964d5c32d64c4a176424a0d49
-ms.sourcegitcommit: bdf506c47bfed0f7e639301a7edd94c4eb150150
+ms.openlocfilehash: f05350819c040f2b230bc9be9f963b9bcf057452
+ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58869182"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58928695"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -48,6 +48,23 @@ ms.locfileid: "58869182"
 
 ### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
 - [커뮤니케이션 준수 기능 참조는](communication-compliance-feature-reference.md) 개인 채팅 및 채널에서 최신 첨부 파일 검색을 Teams 새로운 미리 보기 기능 지원을 추가했습니다.
+
+### <a name="compliance--service-assurance"></a>규정 & 서비스 보증
+
+- [서비스 보증이](https://docs.microsoft.com/en-us/compliance/) 인증 및 적용성 설명에 대한 콘텐츠 업데이트의 분기별 검토로 업데이트되었습니다.
+  - 아키텍처
+  - 감사 로깅
+  - 암호화 및 키 관리
+  - ID 및 액세스 관리
+  - Microsoft 365 관리
+  - 네트워크 보안
+  - 개인 정보
+  - 복원력 및 연속성
+  - 리스크 관리
+  - 보안 개발 및 운영
+  - 보안 모니터링
+  - 공급자 관리
+  - 취약성 관리
 
 ### <a name="data-loss-prevention"></a>데이터 손실 방지
 

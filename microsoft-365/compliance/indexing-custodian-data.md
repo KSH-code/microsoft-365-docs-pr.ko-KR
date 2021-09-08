@@ -16,22 +16,22 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery 경우, 부분적으로 인덱싱된 것으로 확인된 모든 콘텐츠는 완전히 검색할 수 있도록 다시 처리됩니다.
-ms.openlocfilehash: a43ccc09fb3c0821ff04d5ec47bf9bfbb1782c1061e51b6b541abc3792e82738
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8a43b0cd9b7fcac1745b917dc5a1c198fa2a1e61
+ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905550"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58928707"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>보유자 데이터의 고급 인덱싱
 
-Advanced eDiscovery 사례에 추가된 경우 부분적으로 인덱싱되거나 인덱싱 오류가 있는 모든 콘텐츠가 완전히 검색할 수 있도록 다시 인덱싱됩니다.  이 다시 인덱싱 프로세스를 *고급 인덱싱이라고 합니다.* 콘텐츠가 부분적으로 인덱싱되거나 인덱싱 오류가 발생하는 이유는 여러 가지가 있습니다. 여기에는 이미지 파일 또는 파일의 이미지 존재, 지원되지 않는 파일 형식 또는 파일 크기 인덱싱 제한이 포함됩니다. 파일 SharePoint 고급 인덱싱은 부분적으로 인덱싱된 것으로 표시되거나 인덱싱 오류가 있는 항목에서만 실행됩니다. Exchange 첨부 파일이 있는 전자 메일 메시지는 부분적으로 인덱싱되거나 인덱싱 오류가 있는 것으로 표시되지 않습니다. 즉, 이러한 파일은 고급 인덱싱 프로세스에서 다시 인덱싱되지 않습니다.
+Advanced eDiscovery 사례에 추가된 경우 부분적으로 인덱싱되거나 인덱싱 오류가 있는 모든 콘텐츠는 완전히 검색할 수 있도록 다시 인덱싱됩니다.  이 다시 인덱싱 프로세스를 *고급 인덱싱이라고 합니다.* 콘텐츠가 부분적으로 인덱싱되거나 인덱싱 오류가 발생하는 이유는 여러 가지가 있습니다. 여기에는 이미지 파일 또는 파일의 이미지 존재, 지원되지 않는 파일 형식 또는 파일 크기 인덱싱 제한이 포함됩니다. 파일 SharePoint 고급 인덱싱은 부분적으로 인덱싱된 것으로 표시되거나 인덱싱 오류가 있는 항목에서만 실행됩니다. Exchange 첨부 파일이 있는 전자 메일 메시지는 부분적으로 인덱싱되거나 인덱싱 오류가 있는 것으로 표시되지 않습니다. 즉, 이러한 파일은 고급 인덱싱 프로세스에서 다시 인덱싱되지 않습니다.
 
 지원 및 부분적으로 인덱싱된 항목 처리에 대한 자세한 내용은 다음을 참조합니다.
 
 - [지원되는 Advanced eDiscovery](supported-filetypes-ediscovery20.md)
 
-- [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)
+- [eDiscovery에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)
 
 - [Exchange 검색에서 인덱싱하는 파일 형식](/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
 
@@ -41,7 +41,7 @@ Advanced eDiscovery 사례에 추가된 경우 부분적으로 인덱싱되거�
 
 고급 인덱싱 프로세스가 완료되면 다시 처리의 효율성을 이해할 수 있습니다.  사례에 대한 처리 탭의  고급 인덱싱 결과 보기에서 하이브리드 인덱스에 추가된 항목 수를 *그래프에 나열합니다.*  하이브리드 인덱스는 Advanced eDiscovery에서 다시 처리된 콘텐츠를 저장합니다.
 
-이 보기에는 수정이 필요한 항목 수와 파일 형식별로 다른 오류 그래프도 포함됩니다. 자세한 내용은 다음 항목을 참조하세요.
+이 보기에는 수정이 필요한 항목 수와 파일 형식별로 다른 오류 그래프도 포함됩니다. 자세한 내용은 다음을 참조하세요.
 
 - [데이터를 처리할 때 오류 수정](error-remediation-when-processing-data-in-advanced-ediscovery.md)
 

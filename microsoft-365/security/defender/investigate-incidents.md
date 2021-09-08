@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8f98a9b942f65a1c60708c4d4bfa756ab7d8fc2a
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.openlocfilehash: dd0b33ca6c2045a0f709e94e4c59f89b99b58bc7
+ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863747"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58928785"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>2013에서 인시던트 Microsoft 365 Defender
 
@@ -185,9 +185,9 @@ Graph **탭에서** 다음을 할 수 있습니다.
 
 1. 경고 및 노드가 시간이 지날 때 발생한 경고 및 노드를 재생하여 공격의 연대론을 이해합니다.
 
-<!--
-   :::image type="content" source="../../media/investigate-incidents/incident-graph-play.png" alt-text="Example of playing the alerts and nodes on the Graph page":::
---> 
+
+   :::image type="content" source="../../media/investigate-incidents/incident-graph-play.gif" alt-text="Graph 페이지의 경고 및 노드 재생 예":::
+ 
 
 2. 엔터티 창을 열고 엔터티 세부 정보를 검토하고 파일 삭제 또는 장치 독립과 같은 수정 작업을 수행할 수 있습니다.
  

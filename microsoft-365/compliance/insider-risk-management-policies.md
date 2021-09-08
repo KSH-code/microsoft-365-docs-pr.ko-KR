@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 37918c9078231b80f1b41ddf063df92f5cd2aace
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: f10099fcfe2c8b4701ed5aa0981a3bb84bf5c7c3
+ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569060"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58928743"
 ---
 # <a name="insider-risk-management-policies"></a>내부 위험 관리 정책
 
@@ -189,7 +189,7 @@ ms.locfileid: "58569060"
 
 사용자 활동 관리에 대한 자세한 내용은 [내부 위험 관리 사례: 사용자 활동](insider-risk-management-cases.md#user-activity)을 참조하세요.
 
-## <a name="policy-health-preview"></a>정책 상태(미리 보기)
+## <a name="policy-health"></a>정책 상태
 
 정책 상태는 내부 위험 관리 정책의 잠재적인 문제에 대한 인사이트를 제공합니다. 정책 탭의 상태 열은 사용자 활동이 보고되지 않게 할 수 있는 정책 문제 또는 활동 경고 수가 비정상적인 이유에 대해 경고할 수 있습니다. 정책 상태는 정책이 정상 상태이며 주의 또는 구성 변경이 필요하지 않음을 확인할 수도 있습니다.
 
