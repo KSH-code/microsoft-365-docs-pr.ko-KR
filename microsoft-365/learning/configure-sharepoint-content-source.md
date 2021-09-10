@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: 사용자용 학습 콘텐츠 SharePoint(미리 보기)로 구성하는 Microsoft Viva Learning 알아보겠습니다.
-ms.openlocfilehash: a7f4b41bb515fbd8c1ffde98f29da1ff13cc30df5eb36f07ae4ab35c0eb4f229
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 96dc12f8c69281f420b339198222f9f918ebc5b4
+ms.sourcegitcommit: 73a17ecbc06cd3e5452814637ab0484ddcdea17a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834674"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58942611"
 ---
 # <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>SharePoint 학습 콘텐츠 원본으로 구성(Microsoft Viva Learning)
 

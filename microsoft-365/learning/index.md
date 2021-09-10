@@ -15,11 +15,11 @@ ms.collection:
 localization_priority: None
 description: 미리 보기(미리 보기)에 대한 리소스를 Microsoft Viva Learning 방법을 배워야 합니다.
 ms.openlocfilehash: f868c90e0dcb280bf3bd7ca592a950d9735143de
-ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
+ms.sourcegitcommit: 73a17ecbc06cd3e5452814637ab0484ddcdea17a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483346"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58942593"
 ---
 # <a name="introduction-to-microsoft-viva-learning-preview"></a>Microsoft Viva Learning 소개(미리 보기)
 
@@ -30,7 +30,7 @@ Microsoft Viva Learning(미리 보기)를 통해 조직의 팀과 개인이 하�
 
 이 페이지의 리소스는 조직에서 Viva Learning(미리 보기)에 대해 알아보고 사용을 시작할 수 있도록 디자인되어 있습니다.
 
-## <a name="get-started"></a>시작하기
+## <a name="get-started"></a>시작
 
 이 섹션의 리소스를 통해 Viva Learning(미리 보기)에 대해 자세히 알아보고 조직에 도움이 되는 방법을 설명합니다.
 

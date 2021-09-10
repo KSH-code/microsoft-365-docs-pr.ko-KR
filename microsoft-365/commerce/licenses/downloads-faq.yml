@@ -13,11 +13,11 @@ metadata:
   localization_priority: Normal
   description: 다운로드에 대한 Microsoft 365 관리 센터 질문과 대답입니다.
   ms.openlocfilehash: c9ac712e84fd60e96ba3fa8749cacda76aa0c354
-  ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
+  ms.sourcegitcommit: 73a17ecbc06cd3e5452814637ab0484ddcdea17a
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/03/2021
-  ms.locfileid: "58884651"
+  ms.lasthandoff: 09/09/2021
+  ms.locfileid: "58942460"
 title: 자주 묻는 질문 다운로드
 summary: ''
 sections:

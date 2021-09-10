@@ -13,11 +13,11 @@ metadata:
   localization_priority: Normal
   description: 제품 키 질문과 대답
   ms.openlocfilehash: 9da77700bb949fb72467516f3f195d87152d91ea
-  ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
+  ms.sourcegitcommit: 095e23ba4181c86a301a25d8c898d25d1befec97
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/03/2021
-  ms.locfileid: "58884639"
+  ms.lasthandoff: 09/09/2021
+  ms.locfileid: "58951161"
 title: 제품 키 질문과 대답
 summary: ''
 sections:

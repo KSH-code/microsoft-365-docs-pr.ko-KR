@@ -22,11 +22,11 @@ search.appverid:
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백을 관리합니다.
 ms.openlocfilehash: 7d6d607182a546e869a9f92e84adfa31f7e02a26
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: 7883556c05ceef228dc329f715e8a6213b40d921
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394483"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58957161"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백 관리
 
@@ -80,8 +80,8 @@ Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용
 
 |**정책 이름**|**기본 상태**|**컨트롤 요약**|
 |:-----|:-----|:-----|
-|사용자가 Microsoft에 피드백을 제출할 수 있도록 허용|켜짐|응용 프로그램 전반에 걸쳐 피드백 진입점을 제어합니다.|
-|사용자가 Microsoft에서 제품 내 설문 조사를 받고 응답할 수 있도록 허용|켜짐|제품 내에서 설문 조사 프롬프트 제어|
+|사용자가 Microsoft에 피드백을 제출할 수 있도록 허용|설정|응용 프로그램 전반에 걸쳐 피드백 진입점을 제어합니다.|
+|사용자가 Microsoft에서 제품 내 설문 조사를 받고 응답할 수 있도록 허용|설정|제품 내에서 설문 조사 프롬프트 제어|
 |사용자가 Microsoft에 피드백을 제출할 때 스크린샷 및 첨부 파일을 포함하도록 허용|해제|사용자가 피드백/설문 조사를 통해 제출하도록 결정할 수 있는 메타데이터 결정|
 |사용자가 제출한 피드백에 대해 Microsoft에서 후속 업데이트 허용|해제|사용자가 피드백/설문 조사와 연락처 정보를 공유할 수 있는지 여부를 결정|
 |Microsoft에 피드백을 제출할 때 사용자가 로그 파일 및 콘텐츠 샘플을 포함하도록 허용|해제|사용자가 피드백/설문 조사를 통해 제출하도록 결정할 수 있는 메타데이터 결정|

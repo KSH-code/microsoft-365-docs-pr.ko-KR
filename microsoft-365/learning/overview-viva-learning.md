@@ -16,11 +16,11 @@ ms.collection:
 localization_priority: None
 description: 사용자 환경의 Microsoft Viva Learning(미리 보기)에 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: e08be19d9277a31401b62be71f1e180859ba29bb
-ms.sourcegitcommit: b05b107774e8bca36c9ee19fdc4719d17e302f11
+ms.sourcegitcommit: 73a17ecbc06cd3e5452814637ab0484ddcdea17a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483442"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58942597"
 ---
 # <a name="overview-of-microsoft-viva-learning-preview"></a>개요 Microsoft Viva Learning(미리 보기) 
 
