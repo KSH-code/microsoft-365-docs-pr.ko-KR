@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: 하나 이상의 라이브러리에서 적용된 문서 이해 모델을 제거합니다.
-ms.openlocfilehash: 3865b0720364f9bf8c0fa2bdb6f2f95dee04915daaf4e153e411e6d4ad40bb1c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bbd3e496b50d3fddb31342fbc07d30984544e744
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53865050"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165890"
 ---
 # <a name="batchdelete"></a>BatchDelete
 

@@ -19,11 +19,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 계정에 대한 일반적인 Microsoft 365 문제를 해결하는 데 도움이 되는 감사 로그 검색 도구를 사용하는 방법을 배워야 합니다.
 ms.openlocfilehash: 4f90d618fd72c41a3c1d3d6ff1600f3d6d10bbfc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564209"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166135"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색하여 일반적인 지원 문제 조사
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55ea055c1e69b3f7cecd334758d5343fadc408ee
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.openlocfilehash: 70ff6fd0fbfade147f23d69a0ea9684ef9b63ba7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862800"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165946"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -443,12 +443,13 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 5. 중요한 데이터를 해시하고 업로드하려면 명령 프롬프트 창에서 다음 명령을 실행하세요.
 
    ```dos
-   EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"]
+   EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"] /AllowedBadLinesPercentage [value]
    ```
 
-   예: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
+   예: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml /AllowedBadLinesPercentage 5**
 
    중요한 데이터 파일의 기본 형식은 콤보로 구분된 값입니다. /ColumnSeparator 매개 변수를 사용하여 "{Tab}" 옵션을 지정하여 탭으로 구분된 파일을 지정하거나 "|" 옵션을 지정하여 파이프로 구분된 파일을 지정할 수 있습니다.
+   중요한 정보 테이블에 형식이 잘못 지정되어 있지만 잘못된 행을 아우르는 동안 나머지 데이터를 가져오고자 하는 경우 명령에서 /AllowedBadLinesPercentage 매개 변수를 사용할 수 있습니다. 위의 예제에서는 5% 임계값을 지정합니다. 즉, 행의 최대 5%가 유효하지 않은 경우에도 도구가 중요한 정보 테이블을 해시하고 업로드합니다. 이 설정의 기본값은 1%입니다. 
    이 명령은 보안을 강화하기 위해 임의로 생성된 솔트 값을 해시에 자동으로 추가합니다. 선택에 따라, 고유한 솔트 값을 사용하려면 **/Salt <saltvalue>** 를 명령에 추가하세요. 이 값은 길이가 64자여야 하며 a-z 문자와 0-9만 포함할 수 있습니다.
 
 6. 다음 명령을 실행하여 업로드 상태를 확인하세요.
@@ -474,13 +475,13 @@ EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to 
 1. 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
    ```dos
-   EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]
+   EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /AllowedBadLinesPercentage [value]
    ```
 
    예를 들면 :
 
    ```dos
-   EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml
+   EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml /AllowedBadLinesPercentage 5
    ```
 
    **/Salt <saltvalue>** 옵션을 지정하지 않은 경우 해시 파일과 이러한 확장자를 가진 솔트 파일이 출력됩니다.

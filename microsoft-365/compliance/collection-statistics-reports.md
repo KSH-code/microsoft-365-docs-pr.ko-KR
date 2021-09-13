@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: 보고서의 검토 집합에 커밋된 초안 컬렉션 및 컬렉션에 대해 통계 및 보고서에 액세스하고 사용하는 Advanced eDiscovery.
 ms.openlocfilehash: d5c1fa3ccb8d9657570b7d0bf3640ac1834248d9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569108"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166015"
 ---
 # <a name="collection-statistics-and-reports-in-advanced-ediscovery"></a>컬렉션 통계 및 보고서의 Advanced eDiscovery
 

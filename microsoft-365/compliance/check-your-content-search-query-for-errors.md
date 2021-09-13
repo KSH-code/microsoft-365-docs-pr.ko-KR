@@ -17,11 +17,11 @@ ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 ms.custom: seo-marvel-apr2020
 description: 검색을 실행하기 전에 eDiscovery 검색에 대한 키워드 쿼리에서 오류 및 오타를 검색하는 방법을 학습합니다.
 ms.openlocfilehash: b99f7c3df052cf41543ab57c92eb6326c6d814d8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564185"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166079"
 ---
 # <a name="check-your-search-query-for-errors"></a>검색 쿼리에서 오류 확인
   

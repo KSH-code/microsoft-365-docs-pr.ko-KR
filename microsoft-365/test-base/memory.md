@@ -15,11 +15,11 @@ ms.custom: ''
 ms.reviewer: mapatel
 f1.keywords: NOCSH
 ms.openlocfilehash: 714cea98e5dd876a5a9e2568a6c8488f595f2f39
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568711"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166551"
 ---
 # <a name="memory-regression-analysis"></a>메모리 회귀 분석
 

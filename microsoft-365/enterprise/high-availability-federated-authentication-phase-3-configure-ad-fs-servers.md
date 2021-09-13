@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
 description: 2016년 6월 1일부로 전송되는 2013의 고가용성 페더전 인증을 위한 AD FS 서버를 만들고 Microsoft 365 Microsoft Azure.
 ms.openlocfilehash: 7f6e7801c8185cebc66e653a39930ee9af120946
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569432"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167338"
 ---
 # <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a>고가용성 페더레이션 인증 3단계: AD FS 서버 구성
 

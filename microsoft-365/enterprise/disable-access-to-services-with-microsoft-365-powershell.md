@@ -21,11 +21,11 @@ ms.custom:
 ms.assetid: 264f4f0d-e2cd-44da-a9d9-23bef250a720
 description: 이 문서에서는 PowerShell을 사용하여 사용자에 대한 Microsoft 365 액세스를 사용하지 않도록 설정하는 방법을 학습합니다.
 ms.openlocfilehash: 7caab5fc6bc4522f210d788d0293c4594997f13d
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354299"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167354"
 ---
 # <a name="disable-access-to-microsoft-365-services-with-powershell"></a>PowerShell을 Microsoft 365 서비스에 액세스하지 않도록 설정
 

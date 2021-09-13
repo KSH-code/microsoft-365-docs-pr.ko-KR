@@ -23,11 +23,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 정보의 보관 기간을 제어하고 정보를 사용하는 사용자 추적을 위해 정보 관리 정책을 설정하는 방법을 학습합니다.
 ms.openlocfilehash: eb5d493cfc8f442c5210b99ec394ebf72f30086e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574355"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165919"
 ---
 # <a name="create-and-apply-information-management-policies"></a>정보 관리 정책 만들기 및 적용
 

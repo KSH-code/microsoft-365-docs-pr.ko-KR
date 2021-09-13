@@ -15,11 +15,11 @@ ms.custom: Ent_Solutions
 ms.assetid: 0f1dbf52-5bff-44cc-a264-1b48641af98f
 description: '요약: 2016년 커넥트 대한 고가용성 페더전 인증에 대해 Azure AD Microsoft 365 구성하는 Microsoft Azure.'
 ms.openlocfilehash: c179f45e061c1ff004f1c70e83ba0888c066f733
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745808"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167314"
 ---
 # <a name="high-availability-federated-authentication-phase-5-configure-federated-authentication-for-microsoft-365"></a>고가용성 페더러타 인증 5단계: 페더러에 대한 페더 Microsoft 365
 

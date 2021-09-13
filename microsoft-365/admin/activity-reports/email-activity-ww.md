@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 보고서 대시보드를 사용하여 전자 메일 활동 보고서를 Microsoft 365 관리 센터.
 ms.openlocfilehash: 7189fb560b47c37e48485fdc15be4cd15d80819f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565175"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166498"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>Microsoft 365 관리 센터의 보고서 - 전자 메일 활동
 

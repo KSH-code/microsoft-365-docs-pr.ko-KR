@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 하이브리드 최신 인증 및 하이브리드 서버 및 하이브리드 서버와 함께 사용하기 위한 비즈니스용 Skype Exchange 있습니다.
-ms.openlocfilehash: 8804fdb10846a9bed665fe1c3db354cc13814efa35c4003faf8b6eb9003689e3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 33bcf9bde2cda0388160337d3ffe6b81ab94eb12
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885402"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167306"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>하이브리드 최신 인증 개요 및 온-프레미스 비즈니스용 Skype 및 Exchange 서버에서 사용하기 위한 필수 구성 요소
 

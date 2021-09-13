@@ -20,11 +20,11 @@ description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 84d96eb53094fe99cc6942db1d4dc61f1c884ec3
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566539"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166655"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 

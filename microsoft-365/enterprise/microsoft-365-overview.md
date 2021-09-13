@@ -14,11 +14,11 @@ ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
 ms.openlocfilehash: 404670e42f46b249b748d0a54f882c631c6f91ee
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570080"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167242"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 

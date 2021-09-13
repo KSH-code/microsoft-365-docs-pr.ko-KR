@@ -18,11 +18,11 @@ ms.custom:
 f1.keywords: NOCSH
 description: 조직에 적합한 음성 솔루션을 선택하고 Teams 방법을 알아보십시오.
 ms.openlocfilehash: 359242ea66fc1be9af18ff10cb7e33fe26ddd83e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575375"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163442"
 ---
 # <a name="plan-and-deploy-a-teams-voice-solution"></a>Teams 음성 솔루션 계획 및 배포
 

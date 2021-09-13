@@ -15,12 +15,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 PowerShell 및 CSV Exchange Online 사용하여 외부 연락처를 전체 주소 목록으로 대량으로 가져올 수 있는 방법을 알아보습니다.
-ms.openlocfilehash: 8f4b9dc36a591081bd19fb2661cf95ef6ea6d91c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 0cb085be1c9ddf9fc3db47f3cd92ec7acf040251
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565431"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59161373"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>외부 연락처를 대량으로 Exchange Online
 
@@ -121,7 +121,7 @@ ms.locfileid: "58565431"
     
 4. 속성이 연락처에 추가 는 확인: 
     
-1. EAC에서 **받는 사람** \> **연락처** 로 이동합니다.
+1. Exchange <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">관리 센터에서</a>받는 사람 **연락처로** \> **이동하세요.**
     
 2. 연락처를 클릭한 다음 편집 **편집 아이콘을** ![ 클릭합니다.](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 를 사용하여 연락처의 속성을 표시합니다. 
     

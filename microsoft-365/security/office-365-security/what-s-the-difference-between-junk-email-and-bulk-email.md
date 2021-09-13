@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(전자 메일)에서 정크 메일(스팸)과 대량 전자 메일(회색 메일) 간의 차이점에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1ddcf3af9071d6f0f0d62ce778830dd1e2902b0ab1485ca07dda5b2500525b3c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fc9c94946c3da2f9a14f45070a86c557a5c7dc85
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56884566"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163450"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email-in-eop"></a>EOP에서 정크 메일과 대량 전자 메일의 차이점은 무엇입니까?
 

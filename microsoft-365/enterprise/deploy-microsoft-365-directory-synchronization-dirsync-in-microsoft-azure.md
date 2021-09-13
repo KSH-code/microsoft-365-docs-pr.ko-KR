@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: b8464818-4325-4a56-b022-5af1dad2aa8b
 description: Azure의 가상 머신에 Azure AD 커넥트 배포하여 계정과 Azure AD 테넌트 간에 계정을 동기화하는 방법을 설명합니다.
-ms.openlocfilehash: df41c88330eb71c67505d8a75e8268ae2acb9b01
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: f3e296c7401cfc20a2f7165888825adf58528c68
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575291"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167399"
 ---
 # <a name="deploy-microsoft-365-directory-synchronization-in-microsoft-azure"></a>Microsoft 365 디렉터리 동기화 배포 Microsoft Azure
 
@@ -177,8 +177,7 @@ Azure AD 커넥트 계정은 Microsoft 365 AD DS에서 Microsoft 365 구독에 �
   
 1. 에 로그인하여 [Microsoft 365 관리 센터](https://admin.microsoft.com)를 클릭한 다음 관리자 를 **클릭합니다.**
     
-2. 왼쪽 탐색에서 **사용자 > 활성화된 사용자** 를 클릭합니다.
-    
+2. 왼쪽 탐색에서 사용자 활성  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**사용자를 클릭합니다.**</a>
 3. 사용자 계정 목록에서 정품 인증하려는 사용자 옆에 있는 확인란을 선택합니다.
     
 4. 사용자 페이지에서 **제품 라이선스** 에 대해 **편집** 을 클릭합니다.

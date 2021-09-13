@@ -13,16 +13,17 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 - SPO_Content
+ms.custom: admindeeplinkMAC
 search.appverid:
 - MOE150
 - MET150
 description: 조사 또는 법률 사례와 관련된 콘텐츠를 보존하기 위해 핵심 eDiscovery 사례와 Microsoft 365 보류를 만들 수 있습니다.
-ms.openlocfilehash: 69689bc2f23b2be16ded9a6546c66a7d9ee18caf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 57e825822ac622d224a402d677d4951ad9fa444a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574379"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165930"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -40,9 +41,9 @@ eDiscovery 보류를 만든 후 보류를 적용하는 데 최대 24시간이 �
 
 Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있는 경우:
   
-1. 으로 이동한 후 적절한 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 [https://compliance.microsoft.com](https://compliance.microsoft.com) 사용하여 로그인합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">eDiscovery Microsoft 365 규정 준수 센터</a> 권한이 할당된 사용자 계정의 자격 증명을 사용하여 로그인합니다.
 
-2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 클릭한 다음 **eDiscovery**> 클릭합니다. 
+2. 왼쪽 탐색 창에서 모두 표시를 클릭한 다음 핵심 에서 **eDiscovery > 클릭합니다.**
 
 3. Core **eDiscovery** 페이지에서 보류를 만들 사례의 이름을 클릭합니다.
 
@@ -54,7 +55,7 @@ Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있는 경�
 
 7. 위치 **선택 마법사** 페이지에서 보류할 콘텐츠 위치를 선택합니다. 사서함, 사이트, 공용 폴더를 보류 상태로 지정할 수 있습니다.
 
-    ![보류할 콘텐츠 위치를 선택하세요.](../media/eDiscoveryHoldLocations.png)
+    ![보류 시킬 콘텐츠 위치 선택.](../media/eDiscoveryHoldLocations.png)
   
    1. **Exchange 사서함**: 토글을 **켜기** 로 설정한 다음 **사용자, 그룹 또는 팀 선택** 을 클릭하여 보류할 사서함을 지정합니다. 검색 상자를 사용하여 보류 상태로 지정할 사용자 사서함 및 메일 그룹(그룹 구성원의 사서함을 보류)을 찾습니다. Microsoft 팀, 그룹 및 그룹 그룹에 대한 연결된 Office 365 보류할 Yammer 있습니다. 사서함을 보류할 때 보존되는 응용 프로그램 데이터에 대한 자세한 내용은 [eDiscovery의](what-is-stored-in-exo-mailbox.md)사서함에 저장된 콘텐츠를 참조하세요.
 
@@ -177,7 +178,7 @@ eDiscovery 보류에 Teams Office 365 다음에 유의해야 합니다.
   
 - 사용자의 사서함을 검색하면 사용자가 구성원인 Office 365 그룹 또는 그룹이 검색되지 않습니다. 마찬가지로 팀 또는 Office 365 그룹이 eDiscovery 보류로 설정되어 있는 경우 그룹 사서함 및 그룹 사이트만 보류됩니다. eDiscovery 비즈니스용 OneDrive 추가하지 않는 한 그룹 구성원의 사서함 및 사이트는 보류되지 않습니다. 따라서 법적 이유로 팀 또는 Office 365 그룹을 보류해야 하는 경우 팀 또는 그룹 구성원의 사서함과 OneDrive 계정을 동일한 보류에 추가하는 것이 고려됩니다.
 
-- 팀 또는 그룹 구성원 목록을 Office 365 그룹의 그룹 페이지에서 속성을 볼 수  Microsoft 365 관리 센터. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
+- 팀 또는 그룹 구성원 목록을 Office 365 그룹의 그룹 페이지에서 속성을 볼 수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> Microsoft 365 관리 센터. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
 
     ```powershell
     Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress

@@ -21,11 +21,11 @@ ms.collection:
 ms.topic: article
 ms.technology: m365d
 ms.openlocfilehash: b708fa898d1f84efdb5e885b786619e481099ac0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572998"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163621"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>고급 헌팅 쿼리 결과에 대한 작업 수행
 

@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 325401cfd25f4f4a63d23f9f42df07d01f813b8aa091bbfe0962ffdf1357a30e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3077ee6e346c3162a333572a2f40278ce964890c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53866790"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166210"
 ---
 # <a name="payment-information-for-saint-kitts-and-nevis"></a>세인트키츠 네비스 지급 정보
 

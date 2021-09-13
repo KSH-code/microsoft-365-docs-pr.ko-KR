@@ -19,12 +19,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: PowerShell을 사용하여 Microsoft 365 준수 센터와 별개로 명령줄에서 보존 레이블을 만들고 게시하는 방법을 알아봅니다.
-ms.openlocfilehash: d18305dc6ca114b41f9b8d3a2932ff6580e4fc3e738834e30505465dd1a4f7c1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6dc008784d46567bfa76b5bbcf9b3fa6ee8155a1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886914"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166098"
 ---
 # <a name="create-and-publish-retention-labels-by-using-powershell"></a>PowerShell을 사용하여 보존 레이블 만들기 및 게시
 

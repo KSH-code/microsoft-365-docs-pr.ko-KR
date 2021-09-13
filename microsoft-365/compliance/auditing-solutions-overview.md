@@ -20,11 +20,11 @@ search.appverid:
 description: Microsoft 365 조직의 사용자와 관리자의 활동을 감사하는 방법에 대해 알아 보세요.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: f89303e22432f2e3297bec01912710daf21d7379
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570596"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166146"
 ---
 # <a name="auditing-solutions-in-microsoft-365"></a>Microsoft 365의 감사 솔루션
 

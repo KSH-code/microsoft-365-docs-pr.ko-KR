@@ -19,11 +19,11 @@ search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
 description: 엔터프라이즈 조직 네트워크 Office 365 작동할 수 있도록 끝점을 관리하는 방법을 배워야 합니다.
 ms.openlocfilehash: 6a8460dbc9dbbc8b7b7a5a8e720b8c55c0ed918c
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532658"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165823"
 ---
 # <a name="managing-office-365-endpoints"></a>Office 365 끝점 관리
 

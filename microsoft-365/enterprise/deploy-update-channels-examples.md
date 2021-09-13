@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: 예시 조직이 채널을 사용하여를 배포하고 업데이트하는 방법입니다.
 ms.openlocfilehash: 76c627e3a3278897c9075adf8af8a721c1021a99
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356387"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167383"
 ---
 # <a name="deployment-and-update-channel-example-configurations"></a>배포 및 업데이트 채널 예제 구성
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: c71a3e5169334adc5d6d6f2b901d82678e5aa27bee47bd20faf06e569a14b63c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 06fdea1c4d84ca4cd23aeb7e715c0087f65275b1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857306"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166946"
 ---
 # <a name="threat-and-vulnerability-management"></a>위협 및 취약성 관리
 
@@ -85,7 +85,7 @@ ms.locfileid: "53857306"
 
 영역 | 설명
 :---|:---
-**Dashboard**   | 조직 노출 점수, 장치에 대한 Microsoft 보안 점수, 장치 노출 분포, 최상위 보안 권장 사항, 주요 취약한 소프트웨어, 최상위 수정 활동 및 노출된 상위 장치 데이터에 대한 높은 수준의 보기를 얻습니다.
+**대시보드**   | 조직 노출 점수, 장치에 대한 Microsoft 보안 점수, 장치 노출 분포, 최상위 보안 권장 사항, 주요 취약한 소프트웨어, 최상위 수정 활동 및 노출된 상위 장치 데이터에 대한 높은 수준의 보기를 얻습니다.
 [**보안 권장 사항**](tvm-security-recommendation.md) | 보안 권장 사항 및 관련 위협 정보 목록을 참조하세요. 목록에서 항목을 선택하면 취약성 세부 정보, 소프트웨어 페이지를 여는 링크, 수정 및 예외 옵션이 있는 플라이아웃 패널이 열립니다. 디바이스가 디바이스를 통해 가입되어 있는 경우 끝점용 Defender에서 Intune 연결을 Azure Active Directory Intune에서 티켓을 열 수도 있습니다.
 [**수정**](tvm-remediation.md) | 만든 재구성 활동 및 권장 예외를 참조합니다.
 [**소프트웨어 인벤토리**](tvm-software-inventory.md) | 약점 및 위협 정보와 함께 조직의 취약한 소프트웨어 목록을 참조하세요.

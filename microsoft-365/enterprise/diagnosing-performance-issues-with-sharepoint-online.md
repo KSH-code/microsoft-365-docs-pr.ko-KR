@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: 3c364f9e-b9f6-4da4-a792-c8e8c8cd2e86
 description: 이 문서에서는 개발자 도구를 사용하여 SharePoint 일반적인 문제를 진단하는 Internet Explorer 방법을 보여줍니다.
 ms.openlocfilehash: 44e60a2144b1a9a8ecc9ef5572e5cfd988c4b8af
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561101"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167375"
 ---
 # <a name="diagnosing-performance-issues-with-sharepoint-online"></a>SharePoint Online의 성능 문제 진단
 

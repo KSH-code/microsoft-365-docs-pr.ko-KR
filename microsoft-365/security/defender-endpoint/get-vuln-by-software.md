@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 98852db88f2b586d8e69a529a838e785dc22654c
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683995"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167106"
 ---
 # <a name="list-vulnerabilities-by-software"></a>소프트웨어별 취약성 목록
 
@@ -60,7 +60,7 @@ GET /api/Software/{Id}/vulnerabilities
 
 |이름|유형|설명
 |---|---|---|
-|권한 부여|String|Bearer {token}. **필수 .**
+|권한 부여|문자열|Bearer {token}. **필수 .**
 
 ## <a name="request-body"></a>요청 본문
 

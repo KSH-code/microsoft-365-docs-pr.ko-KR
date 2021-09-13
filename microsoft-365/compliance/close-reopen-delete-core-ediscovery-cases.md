@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: 이 문서에서는 핵심 eDiscovery 사례를 관리하는 방법을 설명합니다. 여기에는 사례 닫기, 닫힌 사례 다시 열기 및 사례 삭제가 포함됩니다.
 ms.openlocfilehash: 67961d2404f54ca3fbb33dabc71508ba65bfa205
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573298"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166023"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Core eDiscovery 사례 닫기, 다시 열기 및 삭제
 

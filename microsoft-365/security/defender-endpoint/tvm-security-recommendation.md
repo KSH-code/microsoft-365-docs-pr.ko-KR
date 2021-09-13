@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: de94125566985447b10997cd354c7c9aed01630d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569948"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166762"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항 - 위협 및 취약성 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "58569948"
 > [!TIP]
 > 새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
 
-## <a name="how-it-works"></a>작동 방법
+## <a name="how-it-works"></a>작업 방법
 
 조직의 각 장치는 고객이 올바른 점에 집중할 수 있도록 세 가지 중요한 요인에 따라 점수를 매기게 됩니다.
 
@@ -161,7 +161,7 @@ ms.locfileid: "58569948"
 ## <a name="related-articles"></a>관련 문서
 
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
-- [Dashboard](tvm-dashboard-insights.md)
+- [대시보드](tvm-dashboard-insights.md)
 - [노출 점수](tvm-exposure-score.md)
 - [장치용 Microsoft Secure Score](tvm-microsoft-secure-score-devices.md)
 - [취약성 수정](tvm-remediation.md)

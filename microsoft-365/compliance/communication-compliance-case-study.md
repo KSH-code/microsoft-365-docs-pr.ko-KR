@@ -8,6 +8,7 @@ author: robmazz
 manager: laurawi
 audience: Admin
 ms.topic: article
+ms.custom: admindeeplinkMAC
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
 ms.service: O365-seccomp
@@ -19,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b384d83c219c342b8ca729aef7b90d66cd07b4f3
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: f674e21ecc83a24f641ae7e21361245cb18cdd4c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569816"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166002"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구 - Contoso는 통신에 대한 공격적인 언어 Microsoft Teams, Exchange Yammer 구성합니다.
 
@@ -71,7 +72,7 @@ Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 규정 준수 
 
 Contoso IT 관리자는 다음 단계를 수행하여 Contoso에 대한 라이선스 지원을 확인할 수 있습니다.
 
-1. IT 관리자는 앱에 **로그인하고** Microsoft 365 관리 센터 청구 <https://admin.microsoft.com> **Microsoft 365 관리 센터**  >    >  **로 이동합니다.**
+1. IT 관리자는 에 로그인하여 Microsoft 365 관리 센터 청구 <https://admin.microsoft.com> Microsoft 365 관리 센터 >   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**로 이동 합니다.**</a>
 
 2. 여기서 통신 규정 준수에 [](communication-compliance-configure.md#subscriptions-and-licensing) 대한 지원을 포함하는 라이선스 옵션 중 하나를 사용할 수 있습니다.
 
@@ -116,7 +117,7 @@ Contoso는 통신 준수  역할 그룹을 사용하여 모든 통신 준수 관
 
 ### <a name="starting-from-the-microsoft-365-compliance-center"></a>시작점에서 Microsoft 365 규정 준수 센터
 
-Contoso IT 관리자 및 규정 준수 전문가가 통신 규정 준수 솔루션에 액세스하는 또 다른 쉬운 방법은 에 직접 로그인하는 **Microsoft 365 규정 준수 센터.** [ https://compliance.microsoft.com)](https://compliance.microsoft.com) 로그인 후 사용자는 **모두 표시** 컨트롤을 선택하여 모든 규정 준수 솔루션을 표시한 다음 **커뮤니케이션 규정 준수** 솔루션을 선택하여 시작하기만 하면 됩니다.
+Contoso IT 관리자 및 규정 준수 전문가가 통신 규정 준수 솔루션에 액세스하는 또 다른 쉬운 방법은 에 직접 로그인하는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a> 로그인 후 사용자는 **모두 표시** 컨트롤을 선택하여 모든 규정 준수 솔루션을 표시한 다음 **커뮤니케이션 규정 준수** 솔루션을 선택하여 시작하기만 하면 됩니다.
 
 ![규정 준수 센터.](../media/communication-compliance-case-center.png)
 
@@ -128,7 +129,7 @@ Contoso IT 관리자 및 규정 준수 전문가는 또한 솔루션 카탈로�
 
 ### <a name="starting-from-the-microsoft-365-admin-center"></a>시작점에서 Microsoft 365 관리 센터
 
-Contoso IT [ https://admin.microsoft.com)](https://admin.microsoft.com) 관리자 및 규정 준수 전문가는 Microsoft 365 관리 센터 시작할 때 통신 규정 준수에 액세스하기 위해 Microsoft 365 관리 센터 (에 로그인하고 Microsoft 365 관리 센터  >  **로 이동합니다.**
+Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 관리 센터 시작할 때 통신 규정 준수에 액세스하기 위해 Microsoft 365 관리 센터 [ https://admin.microsoft.com) (에](https://admin.microsoft.com) 로그인하고 으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a>
 
 ![커뮤니케이션 규정 준수 링크.](../media/communication-compliance-case-compliance-link.png)
 
@@ -166,7 +167,7 @@ Contoso 규정 준수 전문가는 비방 언어를 모니터링하는 통신 �
 
 모든 Contoso 사용자를 포함하려면 새 그룹을 만들어야 하여 다음 단계를 수행합니다.
 
-1. Contoso IT 관리자 IT 관리자는  Microsoft 365 관리 센터 [로그인하고 https://admin.microsoft.com)](https://admin.microsoft.com) Microsoft 365 관리 센터   >    >  **그룹으로 이동합니다.**
+1. Contoso IT 관리자 IT 관리자는 Microsoft 365 관리 센터 [로그인하고 https://admin.microsoft.com)](https://admin.microsoft.com) Microsoft 365 관리 센터 >   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**그룹으로 이동 합니다.**</a>
 2. 그룹 **추가를 선택하고** 마법사를 완료하여 새 Microsoft 365 *그룹* 또는 메일 그룹을 만들 *수 있습니다.*
 
     ![그룹.](../media/communication-compliance-case-all-employees.png)

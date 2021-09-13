@@ -21,11 +21,11 @@ description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하�
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 25c83dedaa9f1606744e54459a0ebfb5627be752
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575483"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166575"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 

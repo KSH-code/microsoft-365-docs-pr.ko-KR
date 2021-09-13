@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API를 사용하여 학습된 문서 이해 모델을 사용하여 하나 이상의 파일을 분류하는 요청을 만듭니다.
-ms.openlocfilehash: 99b4893ace64f802baf8642bf08f916c183e6a3844894561a9e756521599087c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b1022787d6e11ebe36c88ecd29936a777289dd74
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891310"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165879"
 ---
 # <a name="create-classification-request"></a>분류 요청 만들기
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 457df54dd2e73e7c580059cb698a2345dca92a607e730b9d98b5f27bb4e02134
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: de458eed2b52b6043a4f5aaa5f8593b6136f9d37
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853669"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166802"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항에 대한 예외 만들기 및 보기 - 위협 및 취약성 관리
 
@@ -42,7 +42,7 @@ ms.locfileid: "53853669"
 
 권장에 대한 예외가 만들어질 경우 예외 기간이 끝날 때까지 권장되지 않습니다. 권장 상태는 전체  예외 또는 부분 **예외(장치** 그룹)로 변경됩니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 "예외 처리" 권한이 있는 사용자만 예외(만들기 또는 취소 포함)를 관리할 수 있습니다. [RBAC 역할에 대해 자세히 알아보시다.](user-roles.md)
 

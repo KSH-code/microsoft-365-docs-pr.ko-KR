@@ -19,11 +19,11 @@ ms.custom:
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
 description: Office Server 작업을 배포하는 데 유용한 정보로 연결되는 Microsoft Azure.
 ms.openlocfilehash: c7b3997464a6834da0471f3b879da4daafe3908d
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354455"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167298"
 ---
 # <a name="hybrid-solutions"></a>하이브리드 솔루션
 

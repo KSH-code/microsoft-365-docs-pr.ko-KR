@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 32afec539e63c9ce411bb49c52a2facc7f99e9eae84bff3e0bf65f670f1b4dd0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 17f424d368c0df2f07cda41917f005e4163e5750
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857246"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165671"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 

@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
 ms.openlocfilehash: 581fdb8433ff7b7e1eb53737c3c6a9bf8e58d14b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575387"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163435"
 ---
 # <a name="microsoft-365-enterprise-architecture-design-principles"></a>Microsoft 365 Enterprise 아키텍처 디자인 원칙
 

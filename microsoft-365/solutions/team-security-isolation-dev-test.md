@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 description: 직원이 언제 어디서나 원격으로 작업할 수 있는 보안 및 인프라를 구성하세요.
 ms.openlocfilehash: 38dc7110c44b3b9acf20283a4156b3eccc0f2165
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572782"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163426"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>개발/테스트 환경에서 보안 격리를 사용하여 팀 구성
 

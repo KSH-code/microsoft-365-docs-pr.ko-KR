@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 9da8f0c15fdffbecb701955be10289ff19f28d1f
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255234"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167087"
 ---
 # <a name="start-investigation-api"></a>조사 시작 API
 
@@ -83,7 +83,7 @@ POST https://api.security.microsoft.com/api/machines/{id}/startInvestigation
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 Content-Type|문자열|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문

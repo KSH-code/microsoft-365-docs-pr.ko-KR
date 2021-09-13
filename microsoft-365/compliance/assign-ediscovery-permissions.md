@@ -17,13 +17,15 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: eDiscovery 관련 작업을 수행하는 데 필요한 사용 권한을 Microsoft 365 규정 준수 센터.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 87fe1f6a6f02e00e6c4884ac8ddb439939ed8c74
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.custom:
+- seo-marvel-apr2020
+- admindeeplinkMAC
+ms.openlocfilehash: 8fda81c4318525744eaa51c8904a465e87159675
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569120"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166183"
 ---
 # <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>전자 메일 그룹에 eDiscovery 권한 Microsoft 365 규정 준수 센터
 
@@ -54,9 +56,9 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
   
 ## <a name="assign-ediscovery-permissions"></a>eDiscovery 사용 권한 할당
 
-1. 으로 이동하여 권한을 할당할 수 있는 <https://compliance.microsoft.com> 계정을 사용하여 로그인합니다.
+1. 사용 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 할당할 수 있는 계정을 사용하여 로그인합니다.
   
-2. 창의 왼쪽 창에서 Microsoft 365 규정 준수 센터 **를 선택합니다.**
+2. 왼쪽 창에서 사용 권한을 **선택합니다.**
 
 3. 사용 권한 & **역할** 페이지의 준수 센터에서 역할을 **클릭합니다.** 
 
@@ -79,14 +81,14 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
   
 | 역할 | 규정 준수 관리자 | eDiscovery 관리자 & 관리자 | 조직 관리 | Reviewer |
 |:-----|:-----:|:-----:|:-----:|:-----:|
-|사례 관리 <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> |
-|통신 <br/> | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> | <br/> |
-|준수 검색 <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> |
-|Custodian <br/> | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> | <br/> |
-|내보내기 <br/> | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> | <br/> |
-|Hold <br/>  |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> |
-|Preview <br/>  | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> | <br/> |
-|검토 <br/>  | <br/> |![확인 표시.](../media/checkmark.png) <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> |
+|사례 관리 <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> |
+|커뮤니케이션 <br/> | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|준수 검색 <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> |
+|Custodian <br/> | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|내보내기 <br/> | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|Hold <br/>  |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> |
+|Preview <br/>  | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|검토 <br/>  | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> |
 |RMS 암호 해독 <br/>  ||![확인 표시](../media/checkmark.png) <br/> |||
 |검색 및 제거 <br/> | <br/> | <br/> |![확인 표시](../media/checkmark.png)           <br/> | <br/> |
 ||||
@@ -103,7 +105,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 - [고급 eDiscovery 시작](get-started-with-advanced-ediscovery.md)
 
-### <a name="communication"></a>통신
+### <a name="communication"></a>커뮤니케이션
 
 이 역할을 사용하면 사용자가 사례에서 식별된 관리인과의 모든 통신을 Advanced eDiscovery 있습니다. 여기에는 보류 알림 만들기, 보류 미리 알림 및 관리로의 에스컬레이터가 포함됩니다. 또한 사용자는 보유자 확인을 추적하고 각 보유자에서 보유자 포털에 대한 액세스를 관리하여 보유자로 식별된 사례에 대한 통신을 추적할 수 있습니다.
 
@@ -171,7 +173,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Exchange 그룹 및 Microsoft 365 그룹은 지원되지 않습니다. 를 실행하여 PowerShell에서 만들 수 있는 메일 사용이 가능한 Exchange Online 그룹을 사용해야 `New-DistributionGroup -Type Security` 합니다. 또한 메일 사용이 가능한 보안 그룹을 만들고 Exchange 관리 센터에서 구성원을 추가할 수도 Microsoft 365 관리 센터. 새 메일 사용이 가능한 보안이 eDiscovery Managers 역할 그룹에 추가될 수 있도록 만든 후 최대 60분이 걸릴 수 있습니다. 
+    Exchange 그룹 및 Microsoft 365 그룹은 지원되지 않습니다. 를 실행하여 PowerShell에서 만들 수 있는 메일 사용이 가능한 Exchange Online 그룹을 사용해야 `New-DistributionGroup -Type Security` 합니다. 메일 사용이 가능한 보안 그룹을 만들고 구성원을 추가할 수도 Exchange 관리 센터 또는 [Microsoft 365 관리 센터.](https://go.microsoft.com/fwlink/p/?linkid=2024339) 새 메일 사용이 가능한 보안이 eDiscovery Managers 역할 그룹에 추가될 수 있도록 만든 후 최대 60분이 걸릴 수 있습니다. 
 
     또한 앞서 설명한 것 처럼 보안 및 준수 센터 PowerShell에서 **Add-eDiscoveryCaseAdmin** cmdlet을 사용하여 메일 사용이 가능한 보안 그룹을 eDiscovery 관리자로 & 수 없습니다. 개별 사용자만 eDiscovery 관리자로 추가할 수 있습니다.
 

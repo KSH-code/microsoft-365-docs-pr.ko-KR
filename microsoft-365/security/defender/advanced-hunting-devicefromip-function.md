@@ -1,5 +1,5 @@
 ---
-title: Defender용 고급 헌팅의 DeviceFromIP() Microsoft 365 기능
+title: 디바이스에 대한 고급 헌팅의 DeviceFromIP() Microsoft 365 Defender
 description: DeviceFromIP() 함수를 사용하여 특정 IP 주소가 할당된 디바이스를 사용하는 방법을 학습
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 장치, devicefromIP, 기능, 향상
 search.product: eADQiWindows 10XVcnh
@@ -21,11 +21,11 @@ ms.collection:
 ms.topic: article
 ms.technology: m365d
 ms.openlocfilehash: 3ea951e35555721a989001b2a5235df5b89a8a55
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933184"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166738"
 ---
 # <a name="devicefromip"></a>DeviceFromIP()
 
@@ -62,7 +62,7 @@ invoke DeviceFromIP()
 - **x**-첫 번째 매개 변수는 일반적으로 이미 쿼리의 열입니다. 이 경우 이 열은 이라는 열로, 할당된 장치 목록을 보게 할 `IP` IP 주소입니다. 로컬 IP 주소입니다. 외부 IP 주소는 지원되지 않습니다.
 - **y**-두 번째 선택적 매개 변수는 이며, 이 매개 변수는 특정 시간에서 가장 최근에 할당된 장치를 구하도록 `Timestamp` 함수에 지시합니다. 이 함수를 지정하지 않으면 사용 가능한 최신 레코드가 반환됩니다.
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
 
 ### <a name="get-the-latest-devices-that-have-been-assigned-specific-ip-addresses"></a>특정 IP 주소가 할당된 최신 장치 다운로드

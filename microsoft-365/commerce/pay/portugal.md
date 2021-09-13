@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: be9129913d936233308d2518d24a29dc64a9ccff01512414d2881b3bcccd05f2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b6c8ef3f67bd7cb2fe996262f5e4395e036650fc
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53831106"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166250"
 ---
 # <a name="payment-information-for-portugal"></a>포르투갈의 결제 정보
 

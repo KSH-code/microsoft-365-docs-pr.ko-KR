@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: bec319f840728599f01680c32561bf3998d59381
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58253371"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166783"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>노출된 장치 헌트 - 위협 및 취약성 관리
 
@@ -32,14 +32,14 @@ ms.locfileid: "58253371"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 ## <a name="use-advanced-hunting-to-find-devices-with-vulnerabilities"></a>고급 헌팅을 사용하여 취약성 있는 장치 찾기
 
-고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다. 네트워크에서 이벤트를 사전 검사하여 위협 표시기 및 엔터티를 찾을 수 있습니다. 데이터에 대한 유연한 액세스를 통해 알려진 위협과 잠재적 위협 모두에 대한 제약이 없는 헌팅을 할 수 있습니다. [고급 헌팅에 대해 자세히 알아보시다](advanced-hunting-overview.md)
+고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다. 네트워크의 이벤트를 사전에 검사하여 위협 지표와 엔터티를 찾을 수 있습니다. 데이터에 대한 유연한 액세스를 통해 알려진 위협과 잠재적 위협 모두에 대한 제약이 없는 헌팅을 할 수 있습니다. [고급 헌팅에 대해 자세히 알아보시다](advanced-hunting-overview.md)
 
 ### <a name="schema-tables"></a>스키마 표
 

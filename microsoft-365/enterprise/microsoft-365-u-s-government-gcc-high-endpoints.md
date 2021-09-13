@@ -21,11 +21,11 @@ ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
 description: 이 문서에서는 미국 정부 및 고가 요금제로 Office 365 끝점에 GCC 있습니다.
 hideEdit: true
 ms.openlocfilehash: c29ea7c69528b734f3083138501224e071848c1d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567403"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167210"
 ---
 # <a name="office-365-us-government-gcc-high-endpoints"></a>Office 365 미국 정부 GCC High 엔드포인트
 

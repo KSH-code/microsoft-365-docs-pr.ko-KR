@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 5108e1b50b7544fcb11cef8bf573fd42cbfad2411f83e8628fecd59a895c1c55
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d7563a8299bbe7d543b065bb25eeb3bc90a854b9
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833234"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163622"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>고급 헌팅 할당량 및 사용 매개 변수
 
@@ -44,7 +44,7 @@ ms.locfileid: "53833234"
 | 데이터 범위 | 30일 | 모든 쿼리 | 각 쿼리는 최대 30일 동안의 데이터를 조회할 수 있습니다. |
 | 결과 집합 | 행 10,000개 | 모든 쿼리 | 각 쿼리는 최대 10,000개 레코드를 반환할 수 있습니다. |
 | 시간 제한 | 10분 | 모든 쿼리 | 각 쿼리는 최대 10분 동안 실행할 수 있습니다. 10분 내에 완료되지 않은 경우 서비스에 오류가 표시됩니다.
-| CPU 리소스 | 테넌트 크기 기반 | 15분마다 | [쿼리가](advanced-hunting-errors.md) 실행될 때마다 테넌트가 할당된 리소스의 10% 이상을 소비할 때마다 포털에 오류가 표시됩니다. 다음 15분 주기 후에 테넌트가 100%에 도달하면 쿼리가 차단됩니다. |
+| CPU 리소스 | 테넌트 크기 기준 | 15분마다 | [쿼리가](advanced-hunting-errors.md) 실행될 때마다 테넌트가 할당된 리소스의 10% 이상을 소비할 때마다 포털에 오류가 표시됩니다. 다음 15분 주기가 지날 때까지 테넌트가 100%에 도달하면 쿼리가 차단됩니다. |
 
 >[!NOTE] 
 >별도의 할당량 및 매개 변수 집합은 API를 통해 수행되는 고급 헌팅 쿼리에 적용됩니다. [고급 헌팅 API에 대한 읽기](./api-advanced-hunting.md)

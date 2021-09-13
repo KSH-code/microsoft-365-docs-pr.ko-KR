@@ -19,11 +19,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 이 문서의 PowerShell 스크립트를 사용하여 규정 준수 센터의 기존 콘텐츠 검색을 Office 365 Microsoft 365.
 ms.openlocfilehash: 80dd6911f387a7912d92bfbcfac3c94e6ee804eb
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503206"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166042"
 ---
 # <a name="clone-a-content-search"></a>콘텐츠 검색 복제
 

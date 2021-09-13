@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: dfc770e22f0fb4fc6dbb7e7d24bc1a8690d44032
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569960"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166818"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>대시보드 정보 - 위협 및 취약성 관리
 

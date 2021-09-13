@@ -23,11 +23,11 @@ description: '요약: 증가된 위협 프로필을 가진 빠르게 변화하�
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 8053714fe705735cff43b2aa85a726e8511f57b6
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575687"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166623"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침
 

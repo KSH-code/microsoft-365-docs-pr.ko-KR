@@ -19,12 +19,12 @@ description: 관리자는 피싱 방지를 위해 EOP(Exchange Online Protection
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0451f89501a9247b80d5696a085728a5edc66af882a57788063e702733c9cd97
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5a02313bf8c36fe0be91340e421c69a8dc5c0842
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56815252"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166639"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>EOP에서 피싱을 방지하기 위해 시작 주소의 유효성을 검사하는 방법
 
@@ -37,7 +37,7 @@ ms.locfileid: "56815252"
 
 피싱 공격은 모든 전자 메일 조직에 대한 지속적인 위협입니다. [스푸핑된(위조된)](anti-spoofing-protection.md)보낸 사람 전자 메일 주소를 사용하는 것 외에도 공격자는 보낸 사람 주소에서 인터넷 표준을 위반하는 값을 자주 사용합니다. 이러한 유형의 피싱을 방지하려면 이제 EOP(Exchange Online Protection) 및 Outlook.com에 이 문서에 설명된 RFC 규격 보낸사용자 주소를 포함해야 합니다. 이 적용은 2017년 11월에 사용하도록 설정되어 있습니다.
 
-**참고:**
+**참고**:
 
 - 이 문서에 설명된 바와 같이 주소가 올드 메일이 올 수 없는 조직으로부터 전자 메일을 정기적으로 받는 경우 이러한 조직은 최신 보안 표준을 준수하도록 전자 메일 서버를 업데이트하도록 권장합니다.
 
@@ -118,7 +118,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 - 이 도메인에 대한 null MX 레코드는 단일 기간으로 구성됩니다.
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예를 들면 다음과 같습니다.
 
 ```text
 noreply.contoso.com IN MX .

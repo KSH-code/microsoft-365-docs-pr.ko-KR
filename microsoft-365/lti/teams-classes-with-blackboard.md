@@ -14,11 +14,11 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Blackboard Microsoft Teams 클래스 사용
 ms.openlocfilehash: 30ab28c4a9c2431a63db976df13748de6b843fdc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575087"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167199"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard-learn-ultra"></a>Blackboard Microsoft Teams 클래스 사용
 

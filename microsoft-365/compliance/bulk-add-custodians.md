@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: 가져오기 도구 d를 사용하여 여러 보호자 및 관련 데이터 원본을 데이터 원본의 사례에 빠르게 Advanced eDiscovery.
 ms.openlocfilehash: ccb180766df47de39e3deb61faab60396c74bb9e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570308"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166114"
 ---
 # <a name="import-custodians-to-an-advanced-ediscovery-case"></a>보시다시안을 사례로 Advanced eDiscovery 가져오기
 

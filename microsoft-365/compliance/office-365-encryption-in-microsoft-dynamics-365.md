@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: Strat_O365_Enterprise
 description: Microsoft에서 암호화 기술을 사용하여 Microsoft 데이터베이스에 저장되어 있는 동안 및 전송 중일 때 Microsoft Dynamics 365의 고객 데이터를 보호하는 방법을 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22ac316240b0bf299351c48eef876d456662b23e4a856905ebdd92829c41a182
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0e2691a2f02ecee5b346fcda3335ca7e5d4becc2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885546"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165911"
 ---
 # <a name="encryption-in-microsoft-dynamics-365"></a>Microsoft Dynamics 365에서 암호화
 

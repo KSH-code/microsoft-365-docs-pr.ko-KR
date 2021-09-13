@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: eDiscovery 검색 결과를 내보낼 때 컴퓨터에 다운로드되는 PST 파일의 기본 크기를 변경할 수 있습니다.
 ms.openlocfilehash: 7c77edc4e565a76be41b274aac597c56780395d4
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58501970"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166082"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>eDiscovery 검색 결과를 내보낼 때 PST 파일의 크기 변경
 

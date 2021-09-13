@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: 콘텐츠 탐색기에서 학습 가능한 분류자에 피드백을 제공하는 방법을 학습합니다.
 ms.openlocfilehash: 7c021a1fb7a79e335f53fd99b162c9062c4f43a0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571088"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166063"
 ---
 # <a name="how-to-retrain-a-classifier-in-content-explorer"></a>콘텐츠 탐색기에서 분류자를 재학습하는 방법
 

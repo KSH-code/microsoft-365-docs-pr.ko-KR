@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: c7edb02a-fdab-4f91-9a20-cba01dad28ef
 description: 버전 및 스프라이트를 사용하여 온라인 클래식 게시 사이트에서 이미지 성능을 SharePoint 방법을 학습합니다.
 ms.openlocfilehash: 1400b3f3bd78f6c3fda4b587b6974e3aaef18199
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568375"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167282"
 ---
 # <a name="image-optimization-for-sharepoint-online-classic-publishing-sites"></a>온라인 클래식 게시 SharePoint 이미지 최적화
 

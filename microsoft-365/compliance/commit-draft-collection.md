@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: 초안 컬렉션을 만들고 이 컬렉션을 다시 작성한 후 검토 집합으로 커밋할 수 있습니다. 초안 컬렉션을 커밋하면 수집된 항목이 사례의 검토 집합에 추가됩니다. 수집된 항목이 검토 집합에 들어오면 분석, 검토 및 내보낼 수 있습니다.
 ms.openlocfilehash: 9b63117a90f6373e485f74e2edccfa0992ca2ded
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567511"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165999"
 ---
 # <a name="commit-a-draft-collection-to-a-review-set-in-advanced-ediscovery"></a>초안 컬렉션을 임시 검토 집합에 Advanced eDiscovery
 

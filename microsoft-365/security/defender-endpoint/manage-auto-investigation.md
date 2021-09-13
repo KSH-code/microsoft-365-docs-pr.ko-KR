@@ -20,11 +20,11 @@ ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
 ms.openlocfilehash: 2abe290fc5956b5f8df1931b2142a35df8b53817
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58822799"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166975"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>자동화된 조사 후 수정 작업 검토
 
@@ -89,7 +89,7 @@ ms.locfileid: "58822799"
 
 |작업 원본|지원되는 작업|
 |---|---|
-|<ul><li>자동화된 조사</li><li>Windows Defender 바이러스 백신</li><li>수동 응답 작업</li></ul>|<ul><li>장치 격리</li><li>코드 실행 제한</li><li>파일 Quarantine a file</li><li>레지스트리 키 제거</li><li>서비스 중지</li><li>드라이버를 사용하지 않도록 설정</li><li>예약된 작업 제거</li></ul>|
+|<ul><li>자동화된 조사</li><li>Windows Defender 바이러스 백신</li><li>수동 응답 작업</li></ul>|<ul><li>디바이스 격리</li><li>코드 실행 제한</li><li>파일 Quarantine a file</li><li>레지스트리 키 제거</li><li>서비스 중지</li><li>드라이버를 사용하지 않도록 설정</li><li>예약된 작업 제거</li></ul>|
 |
 
 ### <a name="to-undo-multiple-actions-at-one-time"></a>한 번씩 여러 작업을 취소하는 경우

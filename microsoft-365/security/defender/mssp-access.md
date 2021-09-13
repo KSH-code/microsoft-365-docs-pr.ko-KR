@@ -19,11 +19,11 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.openlocfilehash: f5ef47fd03614c34e9cb459442e8c1f2a144f4b8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573886"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163552"
 ---
 # <a name="provide-managed-security-service-provider-mssp-access"></a>MSSP(관리되는 보안 서비스 공급자) 액세스 제공 
 

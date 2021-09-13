@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 103565ad88b136cf47daeb89e0a4c218f2633a5ed0d584960b8bc7e809069f7b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bc87301a1012f74f34d2854ce3d35496a20dd639
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862218"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166450"
 ---
 # <a name="contact-support-for-fiji"></a>피지 지원에 문의
 

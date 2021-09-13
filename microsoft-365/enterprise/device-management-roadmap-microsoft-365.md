@@ -16,11 +16,11 @@ audience: ITPro
 ms.custom: microsoft-intune
 description: 사용자에 대한 장치 관리를 설정하기 위한 Microsoft 365.
 ms.openlocfilehash: 2155d33aa57da5bb80dbc83623ac87a94a300f28
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356771"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167378"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Microsoft 365의 장치 관리 로드맵
 

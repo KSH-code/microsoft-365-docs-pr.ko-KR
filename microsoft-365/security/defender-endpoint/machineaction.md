@@ -16,11 +16,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: c5ac9de03cec817f469fe096689e4badf615bb4c
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503266"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166991"
 ---
 # <a name="machineaction-resource-type"></a>MachineAction 리소스 유형
 
@@ -40,7 +40,7 @@ ms.locfileid: "58503266"
 
 - 자세한 내용은 응답 [작업을 참조하세요.](respond-machine-alerts.md)
 
-|메서드|반환 형식|설명|
+|방법|반환 형식|설명|
 |---|---|---|
 |[MachineActions 목록](get-machineactions-collection.md)|[컴퓨터 작업](machineaction.md)|컴퓨터 [작업 엔터티를](machineaction.md) 나열합니다.|
 |[MachineAction 사용](get-machineaction-object.md)|[컴퓨터 작업](machineaction.md)|단일 컴퓨터 작업 [엔터티를](machineaction.md) 얻습니다.|
@@ -66,15 +66,15 @@ ms.locfileid: "58503266"
 |ID|Guid|[Machine Action 엔터티의 ID입니다.](machineaction.md)|
 |type|Enum|작업의 유형입니다. 가능한 값은 "RunAntiVirusScan", "Offboard", "Live Response", "CollectInvestigationPackage", "Isolate", "Unisolate", "StopAndQuarantineFile", "RestrictCodeExecution" 및 "UnrestrictCodeExecution"입니다.|
 |scope|문자열|작업의 범위입니다. 바이러스 백신 검사의 경우 "전체" 또는 "선택적" 및 "빠른" 또는 "전체"입니다.|
-|requestor|String|작업을 실행한 사람의 ID입니다.|
+|requestor|문자열|작업을 실행한 사람의 ID입니다.|
 |externalID|String|고객이 사용자 지정 상관 관계 요청에 제출할 수 있는 ID입니다.|
 |requestSource|문자열|작업을 제출한 사용자/응용 프로그램의 이름입니다.|
 | 명령|array|실행할 명령입니다. 허용되는 값은 PutFile, RunScript, GetFile입니다.|
 |cancellationRequestor|String|작업을 취소한 사람의 ID입니다.|
 |requestorComment|String|작업을 실행할 때 작성된 설명입니다.|
-|cancellationComment|String|작업을 취소할 때 작성된 설명입니다.|
+|cancellationComment|문자열|작업을 취소할 때 작성된 설명입니다.|
 |status|Enum|명령의 현재 상태입니다. 가능한 값은 "Pending", "InProgress", "Succeeded", "Failed", "TimeOut" 및 "Cancelled"입니다.|
-|machineId|String|작업이 실행된 컴퓨터의 ID입니다. [](machine.md)|
+|machineId|문자열|작업이 실행된 컴퓨터의 ID입니다. [](machine.md)|
 |machineId|String|작업이 [실행된](machine.md) 컴퓨터의 이름입니다.|
 |creationDateTimeUtc|DateTimeOffset|작업을 만든 날짜 및 시간입니다.|
 |cancellationDateTimeUtc|DateTimeOffset|작업이 취소된 날짜 및 시간입니다.|

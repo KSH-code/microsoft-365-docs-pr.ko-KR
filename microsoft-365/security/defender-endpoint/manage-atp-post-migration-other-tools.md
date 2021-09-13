@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 4907e2076f3ecac8fcb45c6202877ae609f5ddc7bf93109ccae5322bde40ae9d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b20107b33a0bff72375885b11f205fa915a3b718
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806835"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166978"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-powershell-wmi-and-mpcmdrunexe"></a>PowerShell, WMI 및 PowerShell을 사용하여 끝점에 대한 Microsoft Defender를 MPCmdRun.exe
 
@@ -53,7 +53,7 @@ ms.locfileid: "53806835"
 
 PowerShell을 사용하여 공격 Microsoft Defender 바이러스 백신 보호 및 공격 표면 감소 규칙을 관리할 수 있습니다.
 
-|작업 |자세한 정보를 알아볼 수 있는 리소스|
+|작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
 |**관리 Microsoft Defender 바이러스 백신** <p> 맬웨어 방지 보호 상태를 보고, 바이러스 & 검사에 대한 기본 설정을 구성하고, 바이러스 백신 보호를 다른 변경합니다.*|[PowerShell cmdlet을 사용하여 구성 및 관리 Microsoft Defender 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/use-powershell-cmdlets-microsoft-defender-antivirus) <p> [PowerShell cmdlet을 사용하여 클라우드 제공 보호 사용](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-powershell-cmdlets-to-enable-cloud-delivered-protection)|
 |**조직의 장치에** 대한 위협을 완화하도록 exploit Protection 구성 <p> *처음에는 감사 모드에서 Exploit Protection을 [사용하는](/microsoft-365/security/defender-endpoint/evaluate-exploit-protection#powershell) 것이 좋습니다. 이렇게 하면 악용 방지가 조직에서 사용하는 앱에 어떤 영향을 주는지 알 수 있습니다.*|[악용 방지 사용자 지정](/microsoft-365/security/defender-endpoint/customize-exploit-protection) <p> [악용 방지를 위한 PowerShell cmdlet](/microsoft-365/security/defender-endpoint/customize-exploit-protection#powershell-reference)|
@@ -67,7 +67,7 @@ PowerShell을 사용하여 공격 Microsoft Defender 바이러스 백신 보호 
 
 WMI는 설정을 검색, 수정 및 업데이트할 수 있는 스크립팅 인터페이스입니다. 자세한 내용은 [WMI 사용을 참조합니다.](/windows/win32/wmisdk/using-wmi)
 
-|작업 |자세한 정보를 알아볼 수 있는 리소스|
+|작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
 |**장치에서 클라우드 제공** 보호 사용|[WMI(Windows 관리 지침)를 사용하여 클라우드 제공 보호를 사용하도록 설정](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-windows-management-instruction-wmi-to-enable-cloud-delivered-protection)|
 |**사용자 지정에 대한** 설정 검색, 수정 및 Microsoft Defender 바이러스 백신|[WMI를 사용하여 서버 구성 및 Microsoft Defender 바이러스 백신] (/windows/security/threat-protection/microsoft-defender-antivirus/use-wmi-microsoft-defender-antivirus <p> [사용 가능한 WMI 클래스 및 예제 스크립트 목록 검토](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal) <p> 또한 보관된 [WMIv2 Windows Defender 참조 정보도 참조하세요.](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal?redirectedfrom=MSDN)|
@@ -76,7 +76,7 @@ WMI는 설정을 검색, 수정 및 업데이트할 수 있는 스크립팅 인�
 
 개별 장치에서 검색을 실행하고, 진단 추적을 시작하고, 보안 인텔리전스 업데이트를 확인하고, 명령줄 도구를 사용하여 mpcmdrun.exe 있습니다. 유틸리티는 에서 찾을 수 `%ProgramFiles%\Windows Defender\MpCmdRun.exe` 있습니다. 명령 프롬프트에서 실행합니다.
 
-|작업 |자세한 정보를 알아볼 수 있는 리소스|
+|작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
 |**관리 Microsoft Defender 바이러스 백신**|[다음을 사용하여 Microsoft Defender 바이러스 백신 구성하고 mpcmdrun.exe](/windows/security/threat-protection/microsoft-defender-antivirus/command-line-arguments-microsoft-defender-antivirus)|
 

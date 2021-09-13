@@ -16,20 +16,21 @@ ms.custom:
 - O365ITProTrain
 - Ent_Office_Other
 - PowerShell
+- admindeeplinkMAC
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
 description: PowerShell을 사용하여 Microsoft 365 테넌트에서 개별 또는 여러 사용자 계정의 속성을 Microsoft 365 있습니다.
-ms.openlocfilehash: 23d89448eb9f34d67ada8711b8ca6463a0f6acd7
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: b638a3afafd3c1701cf11f5868d0413d3995eadd
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356627"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165831"
 ---
 # <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 속성 구성
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-이 속성을 사용하여 Microsoft 365 관리 센터 테넌트의 사용자 계정에 대한 속성을 Microsoft 365 있습니다. PowerShell에서 이 작업을 할 수도 있습니다. 또한 관리 센터에서 할 수 없는 다른 작업을 할 수 있습니다.
+이 속성을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">사용하여</a> Microsoft 365 관리 센터 테넌트의 사용자 계정에 대한 속성을 Microsoft 365 있습니다. PowerShell에서 이 작업을 할 수도 있습니다. 또한 관리 센터에서 할 수 없는 다른 작업을 할 수 있습니다.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 

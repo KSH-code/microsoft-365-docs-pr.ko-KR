@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d38fe9f7c3bb19c946f97d00720cd8bf60c18f4c
-ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
+ms.openlocfilehash: 964447ee755d5587d03c6c3ee6cb56131013d34d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58918378"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166850"
 ---
 # <a name="performance-analyzer-for-microsoft-defender-antivirus"></a>사용자에 대한 성능 Microsoft Defender 바이러스 백신
 
@@ -42,26 +42,31 @@ ms.locfileid: "58918378"
 
 1. 성능 분석기를 실행하여 끝점에서 Microsoft Defender 바이러스 백신 성능 기록을 수집합니다.
 
-> [!NOTE]
-> Microsoft Microsoft Defender 바이러스 백신 **맬웨어** 방지 엔진 유형의 성능은 성능 분석기를 통해 기록됩니다.
+   > [!NOTE]
+   > Microsoft Microsoft Defender 바이러스 백신 **맬웨어** 방지 엔진 유형의 성능은 성능 분석기를 통해 기록됩니다.
 
 2. 다른 녹음/녹화 보고서를 사용하여 검색 결과를 분석합니다.
 
 ## <a name="using-performance-analyzer"></a>성능 분석기 사용
 
-시스템 이벤트 기록을 시작하고 관리 모드에서 Powershell을 열고 다음 단계를 수행합니다.
+시스템 이벤트 기록을 시작하고 관리 모드에서 PowerShell을 열고 다음 단계를 수행합니다.
 
 1. 다음 명령을 실행하여 기록을 시작하십시오.
 
-`New-MpPerformanceRecording -RecordTo <recording.etl>`
+   `New-MpPerformanceRecording -RecordTo <recording.etl>`
  
- where 매개 변수는 추적 파일이 저장되는 전체 경로 `-RecordTo` 위치를 지정합니다. cmdlet에 대한 자세한 내용은 [Defender 를 참조하세요.](/powershell/module/defender)
+    where 매개 변수는 추적 파일이 저장되는 전체 경로 `-RecordTo` 위치를 지정합니다. cmdlet에 대한 자세한 내용은 [Defender 를 참조하세요.](/powershell/module/defender)
 
 2. 성능에 영향을 주는 것으로 생각되는 프로세스나 서비스가 있는 경우 관련 작업을 수행하여 상황을 재현합니다.
+
 3. Enter를 **눌러** 녹음/녹화를 중지하고 저장하거나 **Ctrl+C를** 눌러 녹음/녹화를 취소합니다.
+
 4. 성능 분석기 매개 변수를 사용하여 결과를 `Get-MpPerformanceReport` 분석합니다. 예를 들어 명령을 실행할 때 사용자에게 성능에 영향을 주는 상위 3개 파일에 대한 상위 `Get-MpPerformanceReport -Path <recording.etl> -TopFiles 3 -TopScansPerFile 10` 10개 검사 목록이 제공됩니다. 
 
 명령줄 매개 변수 및 옵션에 대한 자세한 내용은 [New-MpPerformanceRecording](#new-mpperformancerecording) 및 [Get-MpPerformanceReport를 참조하십시오.](#get-mpperformancereport)
+
+> [!NOTE]
+> 기록을 실행할 때 "Windows Performance Recorder가 이미 기록 중이기 때문에 성능 기록을 시작할 수 없습니다."라는 오류가 표시되면 다음 명령을 실행하여 새 명령을 사용하여 기존 추적을 **중지합니다. wpr -cancel -instancename MSFT_MpPerformanceRecording**
 
 ### <a name="performance-tuning-data-and-information"></a>성능 조정 데이터 및 정보
 
@@ -71,7 +76,7 @@ ms.locfileid: "58918378"
 
 ### <a name="additional-functionality-exporting-and-converting-to-csv-and-json"></a>추가 기능: CSV 및 JSON 내보내기 및 변환
 
-또한 특징 분석기 결과를 내보낼 수 있으며 CSV 또는 JSON 파일로 변환할 수도 있습니다.
+성능 분석기 결과를 CSV 또는 JSON 파일로 내보내고 변환할 수도 있습니다.
 예제 코드를 통해 "내보내기" 및 "변환" 프로세스를 설명하는 예제는 아래를 참조하세요.
 
 #### <a name="for-csv"></a>CSV의 경우

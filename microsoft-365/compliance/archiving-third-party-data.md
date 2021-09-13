@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 70e01994c69d838693eaf453005a829d99f2cc4e
-ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
+ms.openlocfilehash: c2d8d3c048654c6c665cba34254a5362cd3b88c1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58928731"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166186"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>타사 데이터를 데이터 저장소에 Microsoft 365
 
@@ -86,10 +86,10 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 |[Reuters Dealing](archive-reutersdealing-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Reuters Eikon](archive-reuterseikon-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Reuters FX](archive-reutersfx-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
-|[RingCentral](archive-ringcentral-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[RingCentral](archive-ringcentral-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Salesforce Chatter](archive-salesforcechatter-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[ServiceNow](archive-servicenow-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[비즈니스용 Skype](archive-skypeforbusiness-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
+|[비즈니스용 Skype](archive-skypeforbusiness-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Slack eDiscovery](archive-slack-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Symphony](archive-symphony-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[텍스트 구분](archive-text-delimited-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
@@ -99,6 +99,7 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 |[XIP](archive-xip-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[XSLT/XML](archive-xslt-xml-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[Yieldbroker](archive-yieldbroker-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[YouTube](archive-youtube-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Zoom 모임](archive-zoommeetings-data.md)     |![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 ||||||||
 
@@ -266,6 +267,7 @@ eDiscovery 검색 쿼리를 만드는 데 대한 자세한 내용은 [eDiscovery
 |Bell SMS/MMS 네트워크 보관 장치 | 예 | 아니요 | 아니요 |
 |엔터프라이즈 번호 보관 장치 | 예 | 아니요 | 아니요 |
 |O2 SMS 및 음성 네트워크 보관 | 예         | 아니요 | 아니요 |
+|Rogers Network Archiver | 예         | 아니요 | 아니요 |
 |신호 보관기 | 예 | 아니요 | 아니요 |
 |텔레그램 보관기 | 예 | 아니요 | 아니요 |
 |TELUS SMS 네트워크 보관함 | 예 | 아니요 | 아니요 |

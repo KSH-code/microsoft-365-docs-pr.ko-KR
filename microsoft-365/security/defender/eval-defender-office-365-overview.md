@@ -21,11 +21,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: aff42882b6727537cea194d16b9132e10461aedf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576119"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163611"
 ---
 # <a name="enable-and-pilot-microsoft-defender-for-office-365"></a>Microsoft Defender를 사용하도록 설정하고 파일럿 Office 365
 

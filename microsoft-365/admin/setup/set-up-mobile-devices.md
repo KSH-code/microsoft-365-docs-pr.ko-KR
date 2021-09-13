@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Office 또는 Android iPhone 설치하면 Office 앱의 작업 파일이 비즈니스용 Microsoft 365 보호됩니다.
 ms.openlocfilehash: 86bc749c30d5e3dfd731193d5ef1b56f1e33e443
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567631"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166490"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>비즈니스 사용자를 위한 Microsoft 365 장치 설정
 

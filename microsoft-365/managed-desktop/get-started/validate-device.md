@@ -12,11 +12,11 @@ manager: laurawi
 ms.topic: article
 audience: Admin
 ms.openlocfilehash: 1654998a69b364ebf399c2aabac185bc98fb9388
-ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372835"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167151"
 ---
 # <a name="validate-new-devices"></a>새 장치 유효성 검사
 
@@ -29,7 +29,7 @@ ms.locfileid: "58372835"
     - [사용자 환경 현지화](localization.md)
     - [Autopilot 및 등록 상태 페이지의 첫 실행 환경](esp-first-run.md)
     - [Windows 10 위치 서비스](device-location.md)
-    - [앱 제어 시작하기](get-started-app-control.md)
+    - [앱 컨트롤 시작](get-started-app-control.md)
     - [장치에 앱 배포](deploy-apps.md)
 2. 오류, 오류 또는 프롬프트 없이 다음 환경이 작동 하는지 확인 합니다.
     - 네트워크에 가입하고 사용자가 로그인한 후 Autopilot 환경

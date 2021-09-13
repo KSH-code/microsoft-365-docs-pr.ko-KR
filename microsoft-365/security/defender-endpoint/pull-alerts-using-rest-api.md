@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 2bf5d76b0f5f9638105870a872fdc4efa38157b6df4a694b1610ff3e21964257
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4a72c7d363ab57c8c108279c71a3e1424e88a577
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53845030"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166919"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>SIEM REST API를 사용하여 끝점 검색을 위한 Microsoft Defender 끌어오기
 
@@ -107,12 +107,12 @@ resource=https%3A%2F%2Fgraph.windows.net&client_id=35e0f735-5fe4-4693-9e68-3de80
 액세스 토큰을 사용하여 앱은 끝점 API용 Microsoft Defender에 인증된 요청을 만들 수 있습니다. 앱은 각 요청의 Authorization 헤더에 액세스 토큰을 추가해야 합니다.
 
 ### <a name="request-syntax"></a>요청 구문
-메서드 | 요청 URI
+방법 | 요청 URI
 :---|:---|
 GET| 해당 지역에 적용할 수 있는 URI를 사용 합니다. <br><br> **EU의 경우**: `https://wdatp-alertexporter-eu.windows.com/api/alerts` </br> **미국의 경우**: `https://wdatp-alertexporter-us.windows.com/api/alerts` <br> **영국의** 경우 : `https://wdatp-alertexporter-uk.windows.com/api/alerts` 
 
 ### <a name="request-header"></a>요청 헤더
-머리글 | 유형 | 설명|
+헤더 | 유형 | 설명|
 :--|:--|:--
 권한 부여 | 문자열 | 필수 특성입니다. **Bearer** 토큰 형식의 Azure AD 액세스 &lt; *토큰입니다.* &gt; |
 
@@ -122,11 +122,11 @@ GET| 해당 지역에 적용할 수 있는 URI를 사용 합니다. <br><br> **E
 
 이름 | 값| 설명
 :---|:---|:---
-sinceTimeUtc | DateTime | 필드에 따라 바운드 경고가 검색된 하위 시간을 정의합니다. <br> `LastProcessedTimeUtc` <br> 시간 범위는 sinceTimeUtc 시간에서 현재 시간까지입니다. <br><br> **참고:** 지정하지 않으면 지난 2시간 동안 생성된 모든 경고가 검색됩니다.
-untilTimeUtc | DateTime | 바운드 경고가 검색된 상위 시간을 정의합니다. <br> 시간 범위는 `sinceTimeUtc` 다음을 수시로 `untilTimeUtc` 합니다. <br><br> **참고:** 지정하지 않으면 기본값은 현재 시간입니다.
+sinceTimeUtc | 날짜/시간 | 필드에 따라 바운드 경고가 검색된 하위 시간을 정의합니다. <br> `LastProcessedTimeUtc` <br> 시간 범위는 sinceTimeUtc 시간에서 현재 시간까지입니다. <br><br> **참고:** 지정하지 않으면 지난 2시간 동안 생성된 모든 경고가 검색됩니다.
+untilTimeUtc | 날짜/시간 | 바운드 경고가 검색된 상위 시간을 정의합니다. <br> 시간 범위는 `sinceTimeUtc` 다음을 수시로 `untilTimeUtc` 합니다. <br><br> **참고:** 지정하지 않으면 기본값은 현재 시간입니다.
 ago | 문자열 | 경고를 끌어오는 시간 범위는 다음과 `(current_time - ago)` `current_time` 같습니다. <br><br> 값은 **ISO 8601** 기간 형식에 따라 설정해야 합니다. <br> 예: 지난 10분 동안 수신된 경고를 `ago=PT10M` 끌어오는 예제입니다.
 limit | int | 검색할 알림 수를 정의합니다. 가장 최근 알림은 정의된 수에 따라 검색됩니다.<br><br> **참고:** 지정하지 않으면 시간 범위에서 사용할 수 있는 모든 경고가 검색됩니다.
-machinegroups | 문자열 | 경고를 끌어오기 위해 장치 그룹을 지정합니다. <br><br> **참고:** 지정하지 않으면 모든 장치 그룹의 경고가 검색됩니다. <br><br> 예: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
+machinegroups | 문자열 | 경고를 끌어오기 위해 장치 그룹을 지정합니다. <br><br> **참고:** 지정하지 않으면 모든 장치 그룹의 경고가 검색됩니다. <br><br> 예제: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
 DeviceCreatedMachineTags | 문자열 | 레지스트리의 단일 장치 태그입니다.
 CloudCreatedMachineTags | 문자열 | 디바이스에서 만든 장치 태그 Microsoft Defender 보안 센터.
 

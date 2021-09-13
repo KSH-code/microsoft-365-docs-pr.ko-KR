@@ -21,12 +21,12 @@ search.appverid: MET150
 description: 무료에서 비즈니스용 Microsoft Teams 새 구독으로 업그레이드하는 Microsoft 365 방법을 알아보하세요.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 07/08/2020
-ms.openlocfilehash: 326c76c2939e6312eb6ef9865e1197b16e6d0c702af1594517913bc3ba7d52f2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ea80492344f76ead19aa5db1e504c2c52a9746c1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53892258"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167554"
 ---
 # <a name="upgrade-from-microsoft-teams-free-to-microsoft-365-for-business"></a>비즈니스용 Microsoft Teams 무료 업그레이드로 Microsoft 365 업그레이드
 
@@ -68,7 +68,7 @@ ms.locfileid: "53892258"
 
 이제 비즈니스용 Microsoft 365 라이선스가 새로 추가되어 무료 조직의 기존 사용자에게 라이선스를 Microsoft Teams 있습니다.
 
-1. 관리 센터에서 사용자 활성  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">사용자로 이동하세요.</a>
+1. 관리 센터에서 사용자 활성  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**사용자로 이동하세요.**</a>
 2. 비즈니스용 라이선스를 할당할 사용자를 Microsoft 365 제품 라이선스 **관리를 선택합니다.**
 3. 제품 **라이선스 관리 창에서** 기존 라이선스 할당 **바꾸기 를 선택합니다.**
 4. 기존 **제품** 바꾸기 창에서 구입한 Microsoft 365 비즈니스용 제품 정보를 찾은 다음 토글을 켜기 으로 **전환합니다.**

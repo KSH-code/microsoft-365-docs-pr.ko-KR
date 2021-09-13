@@ -19,11 +19,11 @@ ms.custom:
 ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
 description: PowerShell을 사용하여 사용자 계정에 라이선스를 할당하고 특정 서비스 계획을 동시에 사용하지 않도록 설정하는 방법을 Microsoft 365.
 ms.openlocfilehash: cf3ae327000f2f0bdb93dfdad8429c741a52c30f
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356543"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167362"
 ---
 # <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>사용자 라이선스를 할당하는 동안 Microsoft 365 서비스에 대한 액세스 사용 안 하도록 설정
 
@@ -111,7 +111,7 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 | `RMS_S_ENTERPRISE` <br/> |RMS(Azure 권한 관리)  <br/> |
 | `OFFICESUBSCRIPTION` <br/> |*엔터프라이즈용 Microsoft 365 앱(이전에는 Office 365 ProPlus)*  <br/> |
 | `MCOSTANDARD` <br/> |비즈니스용 Skype Online  <br/> |
-| `SHAREPOINTWAC` <br/> |Office   <br/> |
+| `SHAREPOINTWAC` <br/> |사무실   <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
 | `EXCHANGE_S_ENTERPRISE` <br/> |Exchange Online 계획 2  <br/> |
 

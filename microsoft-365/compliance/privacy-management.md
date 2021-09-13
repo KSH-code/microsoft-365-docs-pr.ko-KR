@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: Microsoft 개인 정보 관리는 조직에서 저장하는 개인 데이터를 평가하기 위한 솔루션을 Microsoft 365 개인 정보 위험을 식별하고 수정하는 데 도움이 됩니다.
 ms.openlocfilehash: 1243e786dcfa936802b0e82eb217ec6fc4f45bbf
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394723"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165903"
 ---
 # <a name="microsoft-privacy-management-preview"></a>Microsoft 개인 정보 관리(미리 보기)
 

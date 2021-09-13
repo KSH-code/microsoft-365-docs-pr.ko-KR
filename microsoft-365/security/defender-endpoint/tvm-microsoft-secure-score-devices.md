@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8d086c2aa86b144a08337182b4631e0bab46c66f5a892e76588d9950ba918d33
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cc25da8c4cffa5c67747ea02a0f431c0c2c7a436
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53799650"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166775"
 ---
 # <a name="microsoft-secure-score-for-devices"></a>장치용 Microsoft Secure Score
 
@@ -64,7 +64,7 @@ ms.locfileid: "53799650"
 
 3. 기본 **설정 저장을 선택합니다.**
 
-## <a name="how-it-works"></a>작동 방법
+## <a name="how-it-works"></a>작업 방법
 
 >[!NOTE]
 > Microsoft Secure Score for Devices는 현재 그룹 정책을 통해 설정된 구성을 지원합니다. 현재 부분 Intune 지원으로 인해 Intune을 통해 설정될 수 있는 구성이 잘못 구성된 것으로 표시될 수 있습니다. 조직에서 보안 구성 관리를 위해 Intune을 사용하는 경우 IT 관리자에게 문의하여 실제 구성 상태를 확인할 수 있습니다.
@@ -114,6 +114,6 @@ Microsoft Secure Score for Devices 카드의 데이터는 세세하고 지속적
 ## <a name="related-topics"></a>관련 항목
 
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
-- [Dashboard](tvm-dashboard-insights.md)
+- [대시보드](tvm-dashboard-insights.md)
 - [노출 점수](tvm-exposure-score.md)
 - [보안 권장 사항](tvm-security-recommendation.md)

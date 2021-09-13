@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 description: ID에 대한 로드맵을 Microsoft 365.
 ms.openlocfilehash: 27abe04da2fed0eaae09fa0ed42a83286fe74f5d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573118"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167290"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Microsoft 365의 ID 로드맵
 

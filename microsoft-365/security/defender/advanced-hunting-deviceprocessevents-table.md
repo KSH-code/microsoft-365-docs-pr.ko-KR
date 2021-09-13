@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e7ca7d70d867b623692d2eb0d87b178e528acf285fb32cf274c68837408c8f24
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b5e57fec83217c8df00d333bb4c71f375cac23bb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863454"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166687"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 

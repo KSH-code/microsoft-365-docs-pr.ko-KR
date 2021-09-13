@@ -24,11 +24,11 @@ ms.custom: migrationguides
 ms.date: 08/16/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.openlocfilehash: b46cc436c9ff616f5562787327df8ec9031e0ead
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574607"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166906"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>끝점용 Microsoft Defender로 전환 - 1단계: 준비
 

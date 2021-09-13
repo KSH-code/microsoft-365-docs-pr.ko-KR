@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fc41da53623d4819249d343ea2687c9af78ef1f12c98f7661f1b860c9dafbeeb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d9ecbf1cfcca1da61339dfabc18fe186bac50147
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821178"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166386"
 ---
 # <a name="contact-support-for-libya"></a>리비아 지원에 문의
 

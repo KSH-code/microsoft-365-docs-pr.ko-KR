@@ -16,11 +16,11 @@ manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.openlocfilehash: 4fcab8abd4f1a5a45ff2700b01abc7fe67b8563f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565675"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166663"
 ---
 # <a name="microsoft-threat-experts-in-microsoft-365-overview"></a>Microsoft 위협 전문가 Microsoft 365 개요
 

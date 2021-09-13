@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: ab92335e2f5befcead81765954477c6e70dac492
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747622"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167058"
 ---
 # <a name="live-response-command-examples"></a>실시간 대응 명령 예제
 

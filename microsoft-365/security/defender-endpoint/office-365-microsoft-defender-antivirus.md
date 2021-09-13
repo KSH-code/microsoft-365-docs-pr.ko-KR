@@ -16,12 +16,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 558e73d00218e7e9f63ed346ff35e1b996adafab8fd5c7739fca8e9cd38a86ca
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c0c3e87644b7666c006f2eaf0632827173f5362f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833534"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166943"
 ---
 # <a name="better-together-microsoft-defender-antivirus-and-office-365"></a>함께 활용: Microsoft Defender 바이러스 백신 및 Office 365
 

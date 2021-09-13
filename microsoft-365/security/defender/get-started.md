@@ -20,11 +20,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 3b111fe66e35bcd87898eefa2d336b8031651098
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568807"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163592"
 ---
 # <a name="get-started-with-microsoft-365-for-defender"></a>Defender용 Microsoft 365 시작
 
@@ -58,7 +58,7 @@ Microsoft 보안 제품 제품군을 잘 알고 있는 사용자나 개별 워�
 | ------ | ------ |
 | 엔드포인트용 Microsoft Defender | 강력한 동작 센서, 클라우드 분석 및 위협 인텔리전스를 중심으로 구축된 엔드포인트 보호 제품군 |
 |Office 365용 Microsoft Defender | 전자 메일 및 기타 공동 작업 도구를 포함하여 Office 365 및 데이터에 대한 고급 보호 |
-| ID용 Microsoft Defender | 상관된 Active Directory 신호를 사용하여 고급 위협, ID 손상 및 악의적인 내부자 보호 |
+| Microsoft Defender for Identity | 상관된 Active Directory 신호를 사용하여 고급 위협, ID 손상 및 악의적인 내부자 보호 |
 | Microsoft Cloud App Security | Microsoft 및 타사 클라우드 서비스 전반에서 사이버 위협 식별 및 퇴치 |
 
 

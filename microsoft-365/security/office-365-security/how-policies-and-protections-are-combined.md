@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection 보호)의 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법을 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 522af9171b9188bd817708ce7de5eb90cd0df7c8412c60ab5d79a128b75d6ff4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9dea01324e37a56fbff049e4e46cd5882f1fabad
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56816087"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166634"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
@@ -45,10 +45,10 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
   ****
 
-  |우선 순위|전자 메일 보호|Category|관리할 위치|
+  |우선 순위|전자 메일 보호|범주|관리할 위치|
   |---|---|---|---|
-  |1 |맬웨어|CAT:MALW|[EOP에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
-  |2 |피싱|CAT:PHSH|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |1|맬웨어|CAT:MALW|[EOP에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
+  |2|피싱|CAT:PHSH|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |3 |높은 정확도 스팸|CAT:HSPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |4 |스푸핑|CAT:SPOOF|[EOP의 스푸핑 인텔리전스 정보](learn-about-spoof-intelligence.md)|
   |5<sup>\*</sup>|사용자 가장(보호된 사용자)|UIMP|[Microsoft Defender에서 피싱 방지 정책 Office 365](configure-mdo-anti-phishing-policies.md)|
@@ -72,8 +72,8 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 |정책 이름|우선 순위|사용자 가장|스푸핑 방지|
 |---|---|---|---|
-|정책 A|1 |켜짐|해제|
-|정책 B|2 |해제|켜짐|
+|정책 A|1|켜짐|해제|
+|정책 B|2|해제|켜짐|
 |
 
 1. 스푸핑의 우선 순위가 사용자 가장(5)보다 높기 때문에 메시지가 스푸핑으로 표시되어 처리됩니다.

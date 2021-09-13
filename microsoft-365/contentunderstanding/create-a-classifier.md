@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 분류자를 만드는 방법을 알아봅니다.
 ms.openlocfilehash: e9c8a08fe3583f4692edcc4649854a26950eb717
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565269"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167415"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 분류자 만들기
 

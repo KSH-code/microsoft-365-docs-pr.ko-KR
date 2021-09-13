@@ -15,11 +15,11 @@ ms.collection:
 ms.custom: ''
 description: ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
 ms.openlocfilehash: 53c9db06b27f0e697eb57525b563f11b819a6812
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356519"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167295"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 ID 및 장치 액세스
 

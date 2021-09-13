@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 980cac2d3997e062758a5d8f95f86ff5fa65a8988e94b2485136ed5eca49a7d1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1b716a37aa39dffc8dc541335f42265ae47fe989
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53806163"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166743"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -102,7 +102,7 @@ ms.locfileid: "53806163"
 >[!NOTE]
 > 파일 해시 정보는 사용 가능한 경우 항상 표시됩니다. 그러나 SHA1, SHA256 또는 MD5를 계산할 수 없는 몇 가지 이유가 있습니다. 예를 들어 파일이 원격 저장소에 위치하거나 다른 프로세스에 의해 잠기거나 압축되거나 가상으로 표시될 수 있습니다. 이러한 시나리오에서는 파일 해시 정보가 비어 있는 것으로 표시됩니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

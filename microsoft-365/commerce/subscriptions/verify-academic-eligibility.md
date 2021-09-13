@@ -17,15 +17,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
+- admindeeplinkMAC
 search.appverid: MET150
 description: 교육용 가격 책정에 대한 학교의 자격을 Microsoft 365 Education 방법을 참조합니다.
 ms.date: 07/21/2020
-ms.openlocfilehash: b861092b0168fa83a8bac423caa3e29621837bc1f08d5af95502cde94c97ff4a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 86bdb4338c316edf5b8bdb83a61a5a0fd2f411ee
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53808851"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167542"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>교육용 구독에 대한 Microsoft 365 Education 자격 확인
 
@@ -59,7 +60,7 @@ ms.locfileid: "53808851"
 
 시험을 Microsoft 365 Education 학교의 교육 자격 상태를 확인할 수 있습니다.
 
-1. 으로 [이동하여 Microsoft 365 관리 센터.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
+1. 으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">이동하여 Microsoft 365 관리 센터.</a>
 2. 홈 페이지에서 청구 카드를  찾으십시오.\
     청구 **카드는** 확인 프로세스의 상태를 나타냅니다. 이 카드에는 승인됨, 보류 중, 거부 또는 도메인 추가 중 하나의 상태가 표시됩니다.
 

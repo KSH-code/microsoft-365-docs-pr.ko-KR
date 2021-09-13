@@ -17,11 +17,11 @@ ms.custom:
 - Ent_Solutions
 description: 테넌트의 계획, 배포 및 진행 Microsoft 365 개요입니다.
 ms.openlocfilehash: 5d98f715b9233a29c8710966099667075eae0020
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573382"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163427"
 ---
 # <a name="tenant-management-for-microsoft-365-for-enterprise"></a>엔터프라이즈용 테넌트 Microsoft 365 테넌트 관리
 

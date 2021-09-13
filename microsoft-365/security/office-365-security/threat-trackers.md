@@ -19,11 +19,11 @@ description: 조직이 보안 문제의 맨 위에 오게 도와주는 새로운
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 6ab8cf03b7ceb1ec01e6b30d3b0c11bbb7223b6f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566527"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163443"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기 - 신규 및 주목할 만한 요소
 

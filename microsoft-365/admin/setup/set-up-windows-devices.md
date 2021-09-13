@@ -29,11 +29,11 @@ search.appverid:
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 중앙 집중식 Windows 제어를 Windows 10 Pro Microsoft 365 Business Premium 실행되는 디바이스를 설정하십시오.
 ms.openlocfilehash: 4b390b1217cd3af7b5f2cc49dc2fb3507a7fe04c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570176"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166474"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>사용자용 Windows 장치 Microsoft 365 Business Premium 설정
 

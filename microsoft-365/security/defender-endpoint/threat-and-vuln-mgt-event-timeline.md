@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: a9397eeaf9edd58903a50cf3f9194b995c56d216
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614887"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166903"
 ---
 # <a name="event-timeline---threat-and-vulnerability-management"></a>이벤트 타임라인 - 위협 및 취약성 관리
 
@@ -133,7 +133,7 @@ ms.locfileid: "58614887"
 ## <a name="related-topics"></a>관련 항목
 
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
-- [Dashboard](tvm-dashboard-insights.md)
+- [대시보드](tvm-dashboard-insights.md)
 - [노출 점수](tvm-exposure-score.md)
 - [보안 권장 사항](tvm-security-recommendation.md)
 - [취약성 수정](tvm-remediation.md)

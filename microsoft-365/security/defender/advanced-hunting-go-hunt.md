@@ -21,11 +21,11 @@ ms.collection:
 ms.topic: article
 ms.technology: m365d
 ms.openlocfilehash: dba2bacc170163f37e8bf7e8dbb2c4b9b6474d93
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572530"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165650"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>이동 헌트로 엔터티 또는 이벤트 정보를 빠르게 헌팅
 

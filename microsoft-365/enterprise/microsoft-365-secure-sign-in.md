@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 description: 사용자가 MFA(다단계 인증) 및 기타 기능을 사용하여 안전하게 로그인하도록 합니다.
 ms.openlocfilehash: d00ca7a39b05e5364a49a6300ef9ee24c3dd0bd1
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58744944"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167226"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Microsoft 365 테넌트에 사용자 로그인 보안 기능
 

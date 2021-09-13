@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: be60d8f4c8adae02a1a5e388a5b75e717dd5eb51
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565825"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59166791"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>노출 점수 - 위협 및 취약성 관리
 
@@ -47,7 +47,7 @@ ms.locfileid: "58565825"
 
 ![노출 점수 카드.](images/tvm_exp_score.png)
 
-## <a name="how-it-works"></a>작동 방법
+## <a name="how-it-works"></a>작업 방법
 
 노출 점수는 다음 수준으로 세분화됩니다.
 
