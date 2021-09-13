@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 722c4a28ab477b34fc3e52cb3eb3efddf319d0d8
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58246233"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221404"
 ---
 # <a name="get-file-related-machines-api"></a>파일 관련 컴퓨터 다운로드 API
 
@@ -73,7 +73,7 @@ GET /api/files/{id}/machines
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

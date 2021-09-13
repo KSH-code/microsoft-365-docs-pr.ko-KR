@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 0b21a95930138972ac3f7fe3c1474b0434a68e4c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 6a4d548edb660838be9ea3d1a69749f23d3ac6c8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567847"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221908"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
@@ -57,7 +57,7 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 
 2. 이벤트 **뷰어를** 시작 메뉴 이벤트 **뷰어를 열 수 있습니다.**
 
-3. 작업 **사용자 지정** 보기  >  **가져오기...를 선택합니다.**
+3. 작업 **사용자 지정** 보기 \> **가져오기...를 선택합니다.**
 
    > [!div class="mx-imgBorder"]
    > ![Even 뷰어 창의 왼쪽에 있는 사용자 지정 보기 가져오기 강조 표시 애니메이션](images/events-import.gif)
@@ -166,7 +166,7 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|10 |Win32k 시스템 호출 블록 사용 안 함|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|11 |코드 무결성 가드 감사|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|12 |코드 무결성 가드 블록|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|13 |EAF 감사|
+|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|13|EAF 감사|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|14 |EAF 적용|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|15 |EAF+ 감사|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|16 |EAF+ 적용|

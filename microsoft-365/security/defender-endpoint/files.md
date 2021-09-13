@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 373b28502fd16d8b98b5c48e0329a702c1d5dae20c0c3f95b61d56d545150e91
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9dffc5d2b7badba0a2f0e0b986973841ad488683
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793862"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220552"
 ---
 # <a name="file-resource-type"></a>파일 리소스 유형
 
@@ -40,7 +40,7 @@ Defender for Endpoint의 파일 엔터티를 나타냅니다.
 
 ## <a name="methods"></a>메서드
 
-메서드|반환 형식 |설명
+방법|반환 형식 |설명
 :---|:---|:---
 [파일 다운로드](get-file-information.md) | [file](files.md) | 단일 파일 다운로드 
 [파일 관련 경고 목록](get-file-related-alerts.md) | [경고](alerts.md) 컬렉션 | 파일과 [](alerts.md) 연결된 경고 엔터티를 얻습니다.
@@ -48,7 +48,7 @@ Defender for Endpoint의 파일 엔터티를 나타냅니다.
 [파일 통계](get-file-statistics.md) | 통계 요약 | 지정한 파일의 보전을 검색합니다.
 
 
-## <a name="properties"></a>특성
+## <a name="properties"></a>속성
 
 |속성 | 유형 | 설명 |
 |:---|:---|:---|
@@ -60,13 +60,13 @@ Defender for Endpoint의 파일 엔터티를 나타냅니다.
 |size | Nullable long | 파일 크기 |
 |fileType | String | 파일 형식 |
 |isPeFile | 부울 | true이면 파일이 이식 가능한 실행 파일(예: "DLL", "EXE" 등)입니다. |
-|filePublisher | String | 파일 게시자 |
+|filePublisher | 문자열 | 파일 게시자 |
 |fileProductName | String | 제품 이름 |
 |signer | String | 파일 서명자 |
 |발급자 | String | 파일 발급자 |
-|signerHash | String | 서명 인증서의 해시 |
+|signerHash | 문자열 | 서명 인증서의 해시 |
 |isValidCertificate | 부울 | Microsoft Defender for Endpoint 에이전트에서 인증서 서명이 성공적으로 확인된 경우 |
-|determinationType | String | 파일의 결정 유형 |
+|determinationType | 문자열 | 파일의 결정 유형 |
 |determinationValue | String | 결정 값 |
 
 ## <a name="json-representation"></a>Json 표현

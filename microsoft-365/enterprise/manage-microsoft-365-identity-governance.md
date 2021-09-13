@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: ID 거버넌스 기능을 사용하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: 9b353a83b79c2b66ca224914a7d33a4854919d4e
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356675"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221020"
 ---
 # <a name="manage-microsoft-365-identity-governance"></a>ID Microsoft 365 관리
 

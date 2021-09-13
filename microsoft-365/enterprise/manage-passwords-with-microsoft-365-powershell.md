@@ -18,11 +18,11 @@ ms.custom:
 - O365ITProTrain
 description: PowerShell을 사용하여 암호를 관리하는 방법을 배워야 합니다.
 ms.openlocfilehash: 40091d7add7f7adf9c560a90c00ad22e6c333c60
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356651"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220939"
 ---
 # <a name="manage-passwords-with-powershell"></a>PowerShell을 사용하여 암호 관리
 

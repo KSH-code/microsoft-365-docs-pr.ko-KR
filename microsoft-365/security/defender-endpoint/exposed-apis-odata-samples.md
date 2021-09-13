@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: e88371ed141b54d873193df075313d2aed9786385ac4fbc07d5fe579d7bff59f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 31fe51aac9262e5d3bcfa9d6a9c757ddeb30f42a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793997"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220576"
 ---
 # <a name="odata-queries-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 OData 쿼리
 
@@ -44,7 +44,7 @@ OData 쿼리에 익숙하지 않은 경우 [OData V4 쿼리를 참조합니다.]
 ## <a name="properties-that-support-filter"></a>속성을 지원하는 $filter
 
 - [경고:](alerts.md) `alertCreationTime` , , , , , 및 `lastUpdateTime` `incidentId` `InvestigationId` `status` `severity` `category` .
-- [컴퓨터](machine.md): `ComputerDnsName` , , , 및 `LastSeen` `HealthStatus` `OsPlatform` `RiskScore` `RbacGroupId` .
+- [컴퓨터](machine.md): `ComputerDnsName` , , , , , 및 `LastSeen` `HealthStatus` `OsPlatform` `onboardingStatus` `RiskScore` `RbacGroupId` .
 - [MachineAction](machineaction.md): `Status` , , , 및 `MachineId` `Type` `Requestor` `CreationDateTimeUtc` .
 - [표시기:](ti-indicator.md) `indicatorValue` , , , 및 `indicatorType` `creationTimeDateTimeUtc` `createdBy` `severity` `action` .
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 추가 기능을 구입하는 Microsoft 365 Business Voice 대해 자세히 알아보습니다.
-ms.openlocfilehash: e04d88bdabc1f7e9bf6e26fb3b7d5171cd6f893321b3cacafdcb41c16ddb3ec9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 90d0aae474fa3bd95ffeb1d0ec104268af5edc27
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821106"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221251"
 ---
 # <a name="buy-business-voice"></a>Business Voice 구입
 

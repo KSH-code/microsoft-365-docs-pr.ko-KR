@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9ecbb39e7dbdc3702c38cf76f2e53b66ec99b67648071931f978c212047a0c7c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b54159cfd7e7a8f6d970db1bc7fcb64539061dbd
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53818782"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221347"
 ---
 # <a name="get-investigation-api"></a>조사 API를 얻습니다.
 
@@ -47,7 +47,7 @@ ID로 [특정 조사를](investigation.md) 검색합니다.
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -73,7 +73,7 @@ GET https://api.securitycenter.microsoft.com/api/investigations/{id}
 
 이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

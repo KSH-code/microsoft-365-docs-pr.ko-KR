@@ -1,5 +1,5 @@
 ---
-title: 사서함 사용률 서비스 알림
+title: 사서함 사용률 서비스 경고
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,21 +13,22 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+ms.custom: admindeeplinkMAC
 f1.keywords:
 - NOCSH
 description: 사서함 사용률 서비스 알림을 사용하여 사서함 할당량에 도달하는 보류된 사서함을 모니터링합니다.
-ms.openlocfilehash: f6ce0ad5d7f4affd5d0f4a108be0f0fbebe54766
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 417e0106505dcc31af6e9a279fd79655df712dd2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508805"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220864"
 ---
 # <a name="service-alerts-for-mailbox-utilization-in-exchange-online-monitoring"></a>서버 모니터링의 사서함 사용률에 대한 Exchange Online 알림
 
 할당량에 도달하거나 초과할 위험이 있는 Exchange Online 사서함을 알리는 새로운 Exchange Online 서비스 알림을 릴리스했습니다. 이러한 서비스 경고는 관리자 개입이 필요할 수 있는 조직의 사서함 수에 대한 가시성을 제공합니다.
 
-이러한 서비스 알림은 알림 Microsoft 365 관리 센터. 이러한 서비스 알림을 보려면 상태 서비스 상태 Exchange Online 활성 문제  >    >   **탭을** 클릭합니다. 사서함 사용률 서비스 경고의 예는 다음과 같습니다.
+이러한 서비스 알림은 알림 Microsoft 365 관리 센터. 이러한 서비스 알림을 보려면 상태 서비스 상태 Exchange Online 활성 문제  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank"></a>  >   **탭을** 클릭합니다. 사서함 사용률 서비스 경고의 예는 다음과 같습니다.
 
 ![사서함 사용률 서비스 경고](../media/MailboxUtilizationServiceAlert.png)
 

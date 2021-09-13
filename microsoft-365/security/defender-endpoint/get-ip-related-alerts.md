@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 2421a73e24e8d6ba42cb18e2d221ad09ec997d14
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585523"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221887"
 ---
 # <a name="get-ip-related-alerts-api"></a>IP 관련 알림 API를 얻습니다.
 
@@ -72,7 +72,7 @@ GET /api/ips/{ip}/alerts
 
 이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

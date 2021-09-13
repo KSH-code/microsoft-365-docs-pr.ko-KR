@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 권한 부여를 Exchange Server HMA(하이브리드 최신 인증)를 사용하도록 하이브리드 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28dd2443ccf55075a1c451b15c19d3fd6804bc82588e4c21dd52e63250f71b08
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a7a24e2c9d1e3d2fd2d1d83d9743b6f4e19e9701
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53850150"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221071"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 Exchange Server 온-프레미스를 구성하는 방법
 

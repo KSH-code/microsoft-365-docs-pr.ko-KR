@@ -12,6 +12,7 @@ f1.keywords:
 ms.custom:
 - Adm_O365
 - seo-marvel-apr2020
+- admindeeplinkMAC
 search.appverid:
 - MET150
 - MOE150
@@ -21,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
 description: 이 문서에서는 PowerShell에서 Microsoft 365 관리 작업을 수행하는 방법을 설명합니다.
-ms.openlocfilehash: 023b0a4264af5989e93c70f959584bcef9a89075
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 82617a33695135a8ad2fa6cce65c60d435d7d180
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571954"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221044"
 ---
 # <a name="manage-microsoft-365-groups-with-powershell"></a>PowerShell을 Microsoft 365 그룹 관리
 
@@ -150,7 +151,7 @@ Set-UnifiedGroup -Identity "MailaTip Group" -MailTip "This group has a MailTip" 
 
 ## <a name="change-the-display-name-of-the-microsoft-365-group"></a>그룹의 표시 이름 Microsoft 365 변경
 
-표시 이름은 그룹의 이름을 Microsoft 365 지정합니다. 이 이름은 Exchange 관리 센터 또는 exchange 관리 센터에서 볼 수 Microsoft 365 관리 센터. 다음 명령을 실행하여 그룹의 표시 이름을 편집하거나 기존 Microsoft 365 그룹에 표시 이름을 할당할 Set-UnifiedGroup 있습니다.
+표시 이름은 그룹의 이름을 Microsoft 365 지정합니다. Exchange 관리 센터 또는 에서 이 이름을 볼 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a> 다음 명령을 실행하여 그룹의 표시 이름을 편집하거나 기존 Microsoft 365 그룹에 표시 이름을 할당할 Set-UnifiedGroup 있습니다.
 
 ```powershell
 Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"

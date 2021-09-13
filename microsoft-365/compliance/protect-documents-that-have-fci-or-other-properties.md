@@ -18,13 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkMAC
 description: DLP(데이터 손실 방지) 정책을 사용하여 타사 시스템의 속성이 있는 문서를 보호하는 방법을 학습합니다.
-ms.openlocfilehash: be0ca4901b8f32aca4c50daa45c059388561832f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 60440162834bbef34c6e3adc2a60053cd9015e9d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567667"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221104"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -63,7 +64,7 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 
 ### <a name="step-2-create-a-managed-property"></a>2단계: 관리 속성 만들기
 
-1. Microsoft 365 관리 센터에 로그인합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에 로그인합니다.
 
 2. 왼쪽 탐색 창에서 관리 센터 **를** \> **SharePoint.** 이제 사용자는 SharePoint 관리 센터에 있습니다.
 

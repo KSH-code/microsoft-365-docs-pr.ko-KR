@@ -8,12 +8,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 1ecea4104787132de5c67ab578ebbe2d82b8e1762301785c9328bbcee761144f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f51c99ed39e9f647f3e069c22eb3e37441f57be5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898698"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220696"
 ---
 # <a name="microsoft-managed-desktop-and-itil"></a>Microsoft Managed Desktop 및 ITIL
 

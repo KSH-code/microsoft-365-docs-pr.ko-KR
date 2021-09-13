@@ -17,6 +17,7 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 - commerce_purchase
+- admindeeplinkMAC
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
@@ -24,12 +25,12 @@ search.appverid:
 - MOE150
 description: 비즈니스용 라이선스에 대한 새 Microsoft 365 구입하는 방법을 배워야 합니다.
 ms.date: 05/11/2021
-ms.openlocfilehash: c9734f4e3c2584241aadf1d7ed9558beebae1a8c18a6eac7173ac7915f56cec1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f209b5142a2cda863645c4d78c4b515e552befb9
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53803765"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221248"
 ---
 # <a name="buy-microsoft-365-licenses"></a>라이선스 Microsoft 365 구입
 
@@ -39,7 +40,7 @@ ms.locfileid: "53803765"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. In the Microsoft 365 관리 센터, choose **Billing**, **Your Products**, then select your subscription.
+1. In the Microsoft 365 관리 센터, choose **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">**Your Products**</a>, and then select your subscription.
 1. 라이선스 **구입 을 선택 합니다.**
 1. 구입하려는 라이선스 수를 입력합니다.
 1. **저장** 을 선택합니다.

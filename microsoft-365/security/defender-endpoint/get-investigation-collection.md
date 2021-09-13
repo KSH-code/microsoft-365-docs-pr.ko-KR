@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 73dd701eff97d7afb3fee7f4480a16296fa3d983
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347123"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221368"
 ---
 # <a name="list-investigations-api"></a>목록 조사 API
 
@@ -54,7 +54,7 @@ OData의 쿼리는 `$filter` `startTime` , , `id` 및 `state` `machineId` 속성
 1. 최대 페이지 크기는 10,000개입니다.
 2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -80,7 +80,7 @@ GET https://api.securitycenter.microsoft.com/api/investigations
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

@@ -24,11 +24,11 @@ search.appverid:
 - BCS160
 description: Office 365 IP 주소 및 URL 웹 서비스를 사용하여 Office 365 네트워크 트래픽을 손쉽게 식별하고 구분하는 방법을 알아봅니다.
 ms.openlocfilehash: 62e9b638b0f767aef3b7f52bb3d129310d2bcbd5
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533450"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220900"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4bacfe5cb45145ecfcde9a78f111ebdeaca9be9616e8ff2034957f1e0fa51c71
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: da9286d548cbe1f2566bfdac1397178d40ae9dc8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884826"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221548"
 ---
 # <a name="list-all-recommendations"></a>모든 권장 사항 목록
 
@@ -42,7 +42,7 @@ ms.locfileid: "53884826"
 
 조직에 영향을 주는 모든 보안 권장 사항 목록을 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 

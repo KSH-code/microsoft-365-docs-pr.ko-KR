@@ -14,11 +14,11 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365 Multi-Geo를 사용하여 Microsoft 365 범위를 여러 지리적 지역으로 확장하는 방법을 알아봅니다.
 ms.openlocfilehash: 0b421be44711172729e228083b6682ac387473e6
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575111"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220840"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 

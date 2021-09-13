@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: ba2c6e913b8768e0b905631a248435638db98939
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58364508"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221440"
 ---
 # <a name="get-domain-statistics-api"></a>도메인 통계 얻기 API
 
@@ -46,7 +46,7 @@ ms.locfileid: "58364508"
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 2. 최대값은 `lookbackhours` 720시간(30일)입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -76,7 +76,7 @@ GET /api/domains/{domain}/stats
 
 이름|유형|설명
 :---|:---|:---
-lookBackHours|Int32|통계를 얻기 위해 다시 검색하는 시간을 정의합니다. 기본값은 30일입니다. 선택 사항입니다.
+lookBackHours|Int32|통계를 얻기 위해 다시 검색하는 시간을 정의합니다. 기본값은 30일입니다. **선택 사항입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

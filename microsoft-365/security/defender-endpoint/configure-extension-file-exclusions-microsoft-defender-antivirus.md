@@ -16,11 +16,11 @@ ms.reviewer: ''
 manager: dansimp
 ms.date: 08/27/2021
 ms.openlocfilehash: 76508ef21b60d4376512f08a07925eca109f68e2
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866658"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221695"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -57,7 +57,7 @@ ms.locfileid: "58866658"
 
 ****
 
-|제외|예|제외 목록|
+|제외|예제|제외 목록|
 |---|---|---|
 |특정 확장명을 사용 하는 모든 파일|지정된 확장명을 사용 하는 모든 파일, 컴퓨터의 아무 곳이나. <p> 유효한 구문: `.test` 및 `test`|확장 제외|
 |특정 폴더 아래에 있는 모든 파일|폴더 아래에 있는 `c:\test\sample` 모든 파일|파일 및 폴더 제외|
@@ -205,7 +205,7 @@ ExclusionPath
 
 <br>
 
-|와일드카드|예|
+|와일드카드|예제|
 |---|---|
 |`*` (asterisk) <p> 파일 **이름** 및 파일 확장명 포함에서, 추가 기능은 모든 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서는** 단일 폴더를 대체하는 추가 표시가 됩니다. 여러 개의 폴더 슬래시를 사용하여 여러 개의 `*` `\` 중첩된 폴더를 나타냅니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.|`C:\MyData\*.txt` 포함 `C:\MyData\notes.txt` <p> `C:\somepath\*\Data` 파일 및 해당 하위폴더와 해당 하위폴더를 `C:\somepath\Archives\Data` `C:\somepath\Authorized\Data` 포함합니다. <p> `C:\Serv\*\*\Backup` 파일 및 해당 하위폴더와 해당 `C:\Serv\Primary\Denied\Backup` `C:\Serv\Secondary\Allowed\Backup` 하위폴더를 포함합니다.|
 |`?` (물음표)  <p> 파일 **이름** 및 파일 확장명 포함에서 물음표는 단일 문자를 대체하며 인수에 정의된 마지막 폴더의 파일에만 적용됩니다. <p> 폴더 **제외에서** 물음표는 폴더 이름의 단일 문자를 대체합니다. 와일드 카드 및 명명된 폴더 수와 일치하면 모든 하위 폴더도 포함됩니다.|`C:\MyData\my?.zip` 포함 `C:\MyData\my1.zip` <p> `C:\somepath\?\Data` 모든 파일 포함 및 해당 `C:\somepath\P\Data` 하위폴더  <p> `C:\somepath\test0?\Data` 은 모든 파일과 해당 `C:\somepath\test01\Data` 하위폴더를 포함합니다.|

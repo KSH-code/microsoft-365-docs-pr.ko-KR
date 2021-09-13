@@ -21,11 +21,11 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.technology: mde
 ms.openlocfilehash: 4d97fcc9f41f87404c620ab946dff0dd27c806f2
-ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58831876"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221596"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 EDR(엔드포인트 감지 및 대응)
 
@@ -133,7 +133,7 @@ Windows 10, Windows Server, 버전 1803 이상 또는 Windows Server 2019를 실
 
 ****
 
-|메서드|절차|
+|방법|절차|
 |---|---|
 |PowerShell|<ol><li>선택 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 .</li><li>`Get-MpComputerStatus`를 입력합니다.</li><li>결과 목록의 **AMRunningMode** 행에서 다음 값 중 하나를 검색합니다.<ul><li>`Normal`</li><li>`Passive Mode`</li></ul></li></ol> <p> 자세한 내용은 [Get-MpComputerStatus 를 참조합니다.](/powershell/module/defender/get-mpcomputerstatus)|
 |명령 프롬프트|<ol><li>명령 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 명령 `Command Prompt` Windows 열 수 있습니다.</li><li>`sc query windefend`를 입력합니다.</li><li>결과 목록의 **STATE** 행에서 서비스가 실행 중인지 선택합니다.</li></ol>|

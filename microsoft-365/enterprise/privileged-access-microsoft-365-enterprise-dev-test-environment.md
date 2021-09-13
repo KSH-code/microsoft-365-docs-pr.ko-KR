@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Ent_TLGs
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경에 Microsoft 365 액세스 관리를 사용하도록 설정할 수 있습니다.
 ms.openlocfilehash: d4d3658ad8c7533e2540dde6c390b4f2b4691cb8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569408"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220744"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 Microsoft 365 권한 있는 액세스 관리
 

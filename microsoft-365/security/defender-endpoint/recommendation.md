@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: d3c29e5112a2cf68452bcb830681dac853eb8e1b
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507689"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220327"
 ---
 # <a name="recommendation-resource-type"></a>권장 리소스 유형
 
@@ -44,7 +44,7 @@ ms.locfileid: "58507689"
 
 ****
 
-|메서드|반환 형식|설명|
+|방법|반환 형식|설명|
 |---|---|---|
 |[모든 권장 사항 목록](get-all-recommendations.md)|추천 컬렉션|조직에 영향을 주는 모든 보안 권장 사항 목록을 검색합니다.|
 |[ID별 권장 사항 가져오기](get-recommendation-by-id.md)|권장 사항|ID로 보안 권장을 검색합니다.|
@@ -61,16 +61,16 @@ ms.locfileid: "58507689"
 
 |속성|유형|설명|
 |---|---|---|
-|id|String|권장 ID|
-|productName|String|관련 소프트웨어 이름|
-|recommendationName|String|권장 이름|
+|id|문자열|권장 ID|
+|productName|문자열|관련 소프트웨어 이름|
+|recommendationName|문자열|권장 이름|
 |약점|Long|검색된 취약성 수|
 |공급업체|String|관련 공급업체 이름|
 |recommendedVersion|String|권장 버전|
-|recommendedProgram|String|권장 프로그램|
+|recommendedProgram|문자열|권장 프로그램|
 |recommendedVendor|String|권장 공급업체|
-|recommendationCategory|String|권장 범주. 가능한 값은 "계정", "응용 프로그램", "네트워크", "OS", "SecurityControls"입니다.|
-|subCategory|String|권장 하위 범주|
+|recommendationCategory|문자열|권장 범주. 가능한 값은 "계정", "응용 프로그램", "네트워크", "OS", "SecurityControls"입니다.|
+|subCategory|문자열|권장 하위 범주|
 |severityScore|실수|구성이 조직의 장치에 대한 Microsoft 보안 점수에 미치는 잠재적인 영향(1-10)|
 |publicExploit|부울|공용 악용 사용 가능|
 |activeAlert|부울|활성 경고가 이 권장과 연결됩니다.|

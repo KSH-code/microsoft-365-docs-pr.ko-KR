@@ -21,11 +21,11 @@ ms.custom:
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: PowerShell을 사용하여 사용자, Microsoft 365 그룹 및 사이트 그룹을 관리하는 방법을 학습합니다.
 ms.openlocfilehash: 6bf6fe8a47f8a5fb8309c24836da614e95dd5bf2
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356255"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220927"
 ---
 # <a name="manage-sharepoint-with-powershell"></a>PowerShell을 SharePoint 관리
 

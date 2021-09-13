@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3a67c1434d5f36c7deff7dae4b42f7f17037878cc511cc9784bdffcf33d939b8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 719f570e6f4b3cdb0afed6caa65a08bfb43cc3db
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800357"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221371"
 ---
 # <a name="get-installed-software"></a>설치된 소프트웨어 가져오기
 
@@ -41,7 +41,7 @@ ms.locfileid: "53800357"
 
 특정 장치 ID와 관련된 설치된 소프트웨어 컬렉션을 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 

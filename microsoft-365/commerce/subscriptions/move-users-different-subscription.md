@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: 구독 간에 사용자를 이동하는 방법을 학습합니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 014112043582c19d6b8461c8205e03516e68e814bbc2fd62e72aa32772573c01
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 96ae6a589469004f2479edb2a4f8ed384b25f841
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53852082"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221179"
 ---
 # <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 

@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: Priority
 description: 문서 이해 모델에 대한 사용 현황 분석을 찾고 사용하는 방법을 알아봅니다.
 ms.openlocfilehash: d39b2417a90716200d33831bfef7e9cb2ff1d523
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574042"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221791"
 ---
 # <a name="document-understanding-model-usage-analytics-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 문서 이해 모델 사용 현황 분석
 

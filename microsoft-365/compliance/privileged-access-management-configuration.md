@@ -19,18 +19,19 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
+- admindeeplinkMAC
 ms.assetid: ''
 description: 이 문서를 사용하여 해당 문서에서 권한이 부여된 액세스 관리를 사용하도록 설정하고 구성하는 방법을 Office 365.
-ms.openlocfilehash: 70af2d3582bd2a8166645ab7507369d48e5c17f0b43dae8543dac9e427bf2285
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e66a7e66c3505145b1fa4eb3e16db9ec63c3c1e4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53905478"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221164"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한이 부여된 액세스 관리 시작
 
-이 항목에서는 조직에서 권한이 부여된 액세스 관리를 사용하도록 설정하고 구성하는 방법을 안내합니다. 관리 PowerShell 또는 Microsoft 365 관리 센터 PowerShell을 Exchange 권한 있는 액세스를 관리하고 사용할 수 있습니다.
+이 항목에서는 조직에서 권한이 부여된 액세스 관리를 사용하도록 설정하고 구성하는 방법을 안내합니다. 관리 PowerShell <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> 또는 Microsoft 365 관리 센터 PowerShell을 사용하여 Exchange 액세스 권한을 관리하고 사용할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -83,7 +84,7 @@ ms.locfileid: "53905478"
 
 1. 조직의 관리자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 자격 증명을 사용하여 로그인합니다.
 
-2. 관리 센터에서 그룹 그룹  >  **추가로 이동하세요.**
+2. 관리 센터에서 그룹 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a>그룹  >  **추가로 이동하세요.**
 
 3. 메일 **사용이 가능한 보안 그룹을 선택한** 다음 새 그룹의 이름, 그룹 전자 메일 주소 및 **설명** 필드를 입력합니다.  
 
@@ -101,7 +102,7 @@ ms.locfileid: "53905478"
 
 1. 조직의 관리자 [Microsoft 365 관리](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >    >  **로 이동하세요.**
+2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**&**</a>  >  **로 이동하세요.**
 
 3. 권한이 **부여된 작업에 대한 승인** 필요 제어를 사용하도록 설정하십시오.
 
@@ -117,7 +118,7 @@ ms.locfileid: "53905478"
 Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccounts @('<systemAccountUPN1>','<systemAccountUPN2>')
 ```
 
-예:
+예제:
 
 ```PowerShell
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', 'sys2@fabrikamorg.onmicrosoft.com')
@@ -136,7 +137,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 1. 조직의 관리자 [Microsoft 365 관리](https://admin.microsoft.com) 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >    >  **로 이동하세요.**
+2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank"></a>  >  **로 이동하세요.**
 
 3. 액세스 **정책 및 요청 관리를 선택합니다.**
 
@@ -164,7 +165,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\<exchange management cmdlet name>' -ApprovalType <Manual, Auto> -ApproverGroup '<default/custom approver group>'
 ```
 
-예:
+예제:
 
 ```PowerShell
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType Manual -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
@@ -182,7 +183,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 1. 자격 증명을 [Microsoft 365 관리 센터에](https://admin.microsoft.com) 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >    >  **로 이동하세요.**
+2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank"></a>  >  **로 이동하세요.**
 
 3. 액세스 **정책 및 요청 관리를 선택합니다.**
 
@@ -208,7 +209,7 @@ PowerShell에서 Exchange Online 명령을 실행하여 승인자 그룹에 승�
 New-ElevatedAccessRequest -Task 'Exchange\<exchange management cmdlet name>' -Reason '<appropriate reason>' -DurationHours <duration in hours>
 ```
 
-예:
+예제:
 
 ```PowerShell
 New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting to fix the user mailbox error' -DurationHours 4
@@ -222,7 +223,7 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 
 1. 자격 증명으로 [Microsoft 365 관리 센터](https://admin.microsoft.com) 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  **&**  >  **로 이동하세요.**
+2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**&**</a>  >  **로 이동하세요.**
 
 3. 액세스 **정책 및 요청 관리를 선택합니다.**
 
@@ -236,7 +237,7 @@ PowerShell에서 Exchange Online 명령을 실행하여 특정 요청 ID에 대�
 Get-ElevatedAccessRequest -Identity <request ID> | select RequestStatus
 ```
 
-예:
+예제:
 
 ```PowerShell
 Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | select RequestStatus
@@ -250,7 +251,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 
 1. 자격 증명으로 [Microsoft 365 관리 센터](https://admin.microsoft.com) 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  **&**  >  **로 이동하세요.**
+2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**&**</a>  >  **로 이동하세요.**
 
 3. 액세스 **정책 및 요청 관리를 선택합니다.**
 
@@ -266,7 +267,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 Approve-ElevatedAccessRequest -RequestId <request id> -Comment '<approval comment>'
 ```
 
-예:
+예제:
 
 ```PowerShell
 Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<approval comment>'
@@ -278,7 +279,7 @@ Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -C
 Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 ```
 
-예:
+예제:
 
 ```PowerShell
 Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'
@@ -292,7 +293,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 1. 조직의 관리자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 자격 증명을 사용하여 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  **&**  >  **로 이동하세요.**
+2. 관리 센터에서 개인 **정보** 보호 권한 설정 보안 설정  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**&**</a>  >  **로 이동하세요.**
 
 3. 액세스 **정책 및 요청 관리를 선택합니다.**
 
@@ -318,7 +319,7 @@ Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you w
 
 1. 조직의 관리자 [Microsoft 365 관리 센터](https://admin.microsoft.com) 자격 증명을 사용하여 조직에 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >    >  **로 이동하세요.**
+2. 관리 센터에서 개인 **정보** 보호 권한 설정 설정 보안 &  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank"></a>  >  **로 이동하세요.**
 
 3. 권한이 **부여된 액세스 제어에 대한 승인 필요를 사용하도록** 설정
 

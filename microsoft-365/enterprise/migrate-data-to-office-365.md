@@ -18,11 +18,11 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 조직 데이터를 조직 데이터 원본으로 마이그레이션하는 데 도움이 되는 Microsoft 365.
 ms.openlocfilehash: 80efbafe17d0a35da323c6f6274e18af270c4985
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355955"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220807"
 ---
 # <a name="migrate-your-organization-data-to-microsoft-365-enterprise"></a>조직 데이터를 조직으로 Microsoft 365 Enterprise
 

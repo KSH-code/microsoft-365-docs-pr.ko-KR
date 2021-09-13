@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: 사용자 계정 암호를 관리하는 Microsoft 365 대해 자세히 알아보아야 합니다.
 ms.openlocfilehash: 85d3c42a7aca977472e44fce63af3968fc8e9705
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356663"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221011"
 ---
 # <a name="manage-microsoft-365-user-account-passwords"></a>사용자 Microsoft 365 암호 관리
 

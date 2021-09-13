@@ -20,11 +20,11 @@ ms.custom:
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
 description: PowerShell을 사용하여 Microsoft 365, 라이선스 및 365 앱을 관리하는 방법을 학습합니다.
 ms.openlocfilehash: bbbbec88f8dcb4b31102bab4be4549c94874aff8
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58357080"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220984"
 ---
 # <a name="manage-microsoft-365-with-powershell"></a>PowerShell로 Microsoft 365 관리
 
@@ -62,6 +62,6 @@ ms.locfileid: "58357080"
 
     Syndication 및 CSP(클라우드 솔루션 공급자) 파트너를 사용하여 고객 테넌트의 Microsoft 365 시작하세요.
 
-- [**비즈니스용 Skype 온라인**](manage-skype-for-business-online-with-microsoft-365-powershell.md)
+- [**비즈니스용 Skype Online**](manage-skype-for-business-online-with-microsoft-365-powershell.md)
 
     여기에서 시작하여 온라인 비즈니스용 Skype 관리합니다.

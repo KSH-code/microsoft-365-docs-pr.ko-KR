@@ -17,11 +17,11 @@ f1.keywords:
 - NOCSH
 description: PerformancePoint Server 2007, ProClarity 및 SharePoint Server 2007의 지원이 종료됩니다. BI 솔루션 업그레이드를 계획하는 데 도움이 되는 이 문서를 읽어 보십시오.
 ms.openlocfilehash: 88818fe4ecc0a2be7a63abe615bd4206c50ead3b
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356483"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220780"
 ---
 # <a name="performancepoint-server-2007-end-of-support-roadmap"></a>PerformancePoint Server 2007 지원 종료 로드맵
 

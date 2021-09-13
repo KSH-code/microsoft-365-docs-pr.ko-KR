@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.openlocfilehash: 21f9de0c92145f7029b7529a242fe58c344768a0
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823476"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220651"
 ---
 # <a name="overview-of-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 개요(미리 보기)
 
@@ -37,7 +37,7 @@ ms.locfileid: "58823476"
 이 가이드를 사용하여 다음을 할 수 있습니다.
 
 - [끝점 계획 1용 Defender에 포함된 사항의 개요 보기(미리 보기)](#defender-for-endpoint-plan-1-capabilities)
-- [끝점 계획 1에 대한 Defender와 계획 2 비교](defender-endpoint-plan-1-2.md)
+- [엔드포인트용 Defender 플랜 1과 플랜 2 비교](defender-endpoint-plan-1-2.md)
 - [끝점 계획 1에 대한 Defender를 설정 및 구성하는 방법에 대해 자세히 알아보기](mde-p1-setup-configuration.md)
 - [인시던트 및 Microsoft 365 Defender 보고, 장치를 관리하고, 감지된 위협에 대한 보고서를 사용할 수 있는 Microsoft 365 Defender 포털을 사용하여 시작](mde-plan1-getting-started.md)
 - [유지 관리 및 운영 개요 보기](mde-p1-maintenance-operations.md)
@@ -77,7 +77,7 @@ Endpoint 요금제 1(미리 보기)에 대한 Defender에는 다음 기능이 �
 | 파일/장치 | 작업 | 설명 |
 |:---|:---|:---|
 | 디바이스 | 바이러스 백신 검사 실행 | 바이러스 백신 검색을 시작합니다. 장치에서 위협이 감지되면 바이러스 백신 검사 중에 이러한 위협이 해결되는 경우가 종종 있습니다. |
-| 디바이스 | 장치 격리 | 끝점용 Defender에 대한 연결을 유지하면서 조직의 네트워크에서 장치를 분리합니다. 이 작업을 통해 디바이스를 모니터링하고 필요한 경우 추가 조치를 취할 수 있습니다. |
+| 디바이스 | 디바이스 격리 | 끝점용 Defender에 대한 연결을 유지하면서 조직의 네트워크에서 장치를 분리합니다. 이 작업을 통해 디바이스를 모니터링하고 필요한 경우 추가 조치를 취할 수 있습니다. |
 | 파일 | 중지 및 격리 |프로세스 실행을 중지하고 관련 파일을 검사합니다. |
 | 파일 | 파일을 차단하거나 허용하는 표시기 추가 | 차단 표시기는 이식 가능한 실행 파일이 장치에서 읽거나 쓰거나 실행되지 못하게 합니다. <p>표시기를 허용하면 파일이 차단되거나 수정되지 않습니다. |
 

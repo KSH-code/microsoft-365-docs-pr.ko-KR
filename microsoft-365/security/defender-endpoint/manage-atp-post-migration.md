@@ -21,11 +21,11 @@ ms.topic: conceptual
 ms.date: 01/26/2021
 ms.reviewer: chventou
 ms.openlocfilehash: 2d34ec5ac2fe7578e610353a21f9230c699c6a3c
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823965"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220447"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-post-migration"></a>끝점용 Microsoft Defender 관리, 마이그레이션 후
 

@@ -12,6 +12,7 @@ f1.keywords:
 ms.custom:
 - Adm_O365
 - seo-marvel-mar2020
+- admindeeplinkMAC
 ms.collection:
 - Ent_O365
 - M365-subscription-management
@@ -22,18 +23,18 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: 사용자 계정을 관리하는 Microsoft 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 2fb2fe71c73f99979b35e7ca9998302f387b9035
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 7a21ed12101f3aaa8323c62d2c15ae30860cd041
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356027"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221035"
 ---
 # <a name="manage-microsoft-365-user-accounts"></a>사용자 Microsoft 365 관리
 
 구성에 Microsoft 365 여러 가지 방법으로 사용자 계정을 관리할 수 있습니다. AD [DS(Active](../admin/add-users/index.yml)Directory 도메인 서비스) 또는 Azure AD(Active Directory 도메인 서비스) Microsoft 365 관리 센터 또는 Azure AD(Active Directory 도메인 서비스) Azure Active Directory 사용자 계정을 관리할 수 있습니다. [](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md) 
 
-구입하는 즉시 Microsoft 365 관리하기 위해 Microsoft 365 관리 센터 PowerShell을 사용할 수 있습니다. 클라우드 ID를 관리할 때 조직의 모든 사용자에게 별도의 사용자 계정 이름과 암호가 있습니다. 사내 인프라와 통합하고 사용자 계정이 Microsoft 365 동기화하려는 경우 Azure AD 커넥트 사용하여 SSO(Single Sign-On) 기능에 대한 ID 및 암호 동기화를 제공할 수 있습니다.
+사용자 계정을 구입하는 Microsoft 365 즉시 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> Microsoft 365 관리 센터 및 PowerShell을 사용하여 계정을 관리할 수 있습니다. 클라우드 ID를 관리할 때 조직의 모든 사용자에게 별도의 사용자 계정 이름과 암호가 있습니다. 사내 인프라와 통합하고 사용자 계정이 Microsoft 365 동기화하려는 경우 Azure AD 커넥트 사용하여 SSO(Single Sign-On) 기능에 대한 ID 및 암호 동기화를 제공할 수 있습니다.
   
 ## <a name="plan-for-where-and-how-you-will-manage-your-user-accounts"></a>사용자 계정을 관리하는 위치 및 방법 계획
 
@@ -41,7 +42,7 @@ ms.locfileid: "58356027"
   
 ### <a name="cloud-only"></a>클라우드 전용
 
-사용자 계정에서 사용자를 만들고 Microsoft 365 관리 센터. PowerShell 또는 Azure AD 관리 센터를 사용할 수도 있습니다. 
+에서 사용자를 만들고 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a> PowerShell 또는 Azure AD 관리 센터를 사용할 수도 있습니다. 
     
 ### <a name="hybrid"></a>하이브리드
 
@@ -59,7 +60,7 @@ ms.locfileid: "58356027"
     
 다음 표에는 다양한 계정 관리 도구가 나열됩니다.
     
-|도구|참고 사항|
+|도구|참고|
 |:-----|:-----|
 |Microsoft 365 관리 센터  <br/> |[개별적으로 또는 대량으로 사용자 추가](../admin/add-users/add-users.md) <br/>  사용자 계정을 추가하고 변경할 수 있는 간단한 웹 인터페이스를 제공합니다.  <br/>  디렉터리 동기화를 사용하도록 설정한 경우(위치 및 라이선스 할당을 설정할 수 있는 경우) 사용자를 변경하는 데 사용할 수 없습니다.  <br/>  SSO 옵션과 함께 사용할 수 없습니다.  <br/> |
 |Windows PowerShell  <br/> |[사용자 Microsoft 365 관리 Windows PowerShell](./manage-microsoft-365-with-microsoft-365-powershell.md) <br/>  사용자 일괄 스크립트를 사용하여 대량 사용자를 추가할 Windows PowerShell 있습니다.  <br/>  계정 생성 방법에 관계없이 계정에 위치 및 라이선스를 할당하는 데 사용할 수 있습니다.  <br/> |
@@ -68,7 +69,7 @@ ms.locfileid: "58356027"
 |디렉터리 동기화  <br/> |[Azure AD와 사내 ID 통합](/azure/active-directory/hybrid/whatis-hybrid-identity) <br/>  암호 동기화를 사용할지 또는 사용하지 않고 디렉터리 동기화를 위해 Azure AD 커넥트 [설정과 함께 사용합니다.](/azure/active-directory/hybrid/how-to-connect-install-express)  <br/>  여러 포리스트 및 SSO 옵션의 경우 Azure AD 2013의 사용자 지정 [설치를 커넥트.](/azure/active-directory/hybrid/how-to-connect-install-custom)  <br/>  SSO를 사용하도록 설정하는 데 필요한 인프라를 제공합니다.  <br/>  단계적 마이그레이션 및 하이브리드 시나리오와 같은 많은 하이브리드 시나리오에 Exchange  <br/>  AD DS에서 보안 및 메일 사용 가능 그룹을 동기화합니다.  <br/> |
 |||
    
-- 사용자 계정을 추가하려는 방법에 관계없이 Microsoft 365 할당, 위치 지정 등의 여러 계정 기능을 관리해야 합니다. 이러한 기능은 셸에서 장기적으로 관리하거나 Microsoft 365 관리 센터 [PowerShell을](./create-user-accounts-with-microsoft-365-powershell.md)사용하여 사용자 계정을 만들 수도 있습니다.
+- 사용자 계정을 추가하려는 방법에 관계없이 Microsoft 365 할당, 위치 지정 등의 여러 계정 기능을 관리해야 합니다. 이러한 기능은 셸에서 장기적으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> 관리하거나 Microsoft 365 관리 센터 [PowerShell을](./create-user-accounts-with-microsoft-365-powershell.md)사용하여 사용자 계정을 만들 수도 있습니다.
     
     관리 센터를 통해 모든 사용자를 추가 및 관리하기로 선택한 경우 위치를 지정하고 라이선스를 할당하는 동시에 새 계정을 만드는 Microsoft 365 합니다. 따라서 계획이 많이 필요하지 않습니다.
     

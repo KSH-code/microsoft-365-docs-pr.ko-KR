@@ -19,11 +19,11 @@ mms.collection:
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: 935826d3a89abeef20e1ebb17f964137fdbfccaf
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745820"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220531"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -153,6 +153,6 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
 
     자세한 내용은 [Linux의 엔드포인트용 Microsoft Defender에 대한 제외 구성 및 유효성 검사](linux-exclusions.md)를 참조하세요.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [에이전트 상태 문제 조사](health-status.md)

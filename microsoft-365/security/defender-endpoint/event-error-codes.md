@@ -18,11 +18,11 @@ ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
 ms.openlocfilehash: 6f652987caf977e520dc0681b54c605f7a03b3e5
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607322"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221920"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>이벤트 뷰어를 사용하여 이벤트 및 오류 검토
 

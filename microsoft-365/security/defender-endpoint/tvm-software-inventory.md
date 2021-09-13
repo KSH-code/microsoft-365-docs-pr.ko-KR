@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2d4817849d3008c231015b805b13b0a1abdb4af
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: 333cacf1bce50463fdfbac4023ae724a7564809c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567659"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220205"
 ---
 # <a name="software-inventory---threat-and-vulnerability-management"></a>소프트웨어 인벤토리 - 위협 및 취약성 관리
 
@@ -34,11 +34,11 @@ ms.locfileid: "53567659"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-위협 및 취약성 관리 소프트웨어 인벤토리는 공식 [CPE(Common Platform Enumerations)가](https://nvd.nist.gov/products/cpe)있는 조직의 알려진 소프트웨어 목록입니다. 공식 CPE가 없는 소프트웨어 제품에는 취약성이 게시되지 않았습니다. 또한 공급업체 이름, 약점 수, 위협, 노출된 장치 수 등의 세부 정보도 포함됩니다.
+위협 및 취약성 관리 소프트웨어 인벤토리는 공식 [CPE(Common Platform Enumerations)가](https://nvd.nist.gov/products/cpe)있는 조직의 알려진 소프트웨어 목록입니다. 공식 CPE가 없는 소프트웨어 제품에는 취약점이 게시되지 않습니다. 또한 공급업체 이름, 약점 수, 위협, 노출된 장치 수 등의 세부 정보도 포함됩니다.
 
-## <a name="how-it-works"></a>작동 방법
+## <a name="how-it-works"></a>작업 방법
 
 검색 필드에서는 끝점 감지 및 응답 기능에 대한 Microsoft Defender의 감지 및 취약점 평가를 담당하는 동일한 신호 집합을 [활용하고 있습니다.](overview-endpoint-detection-response.md)
 
@@ -107,12 +107,11 @@ CPE가 없는 소프트웨어는 이 장치별 소프트웨어 인벤토리 아�
 - 공급업체 정보가 있는 사이드 패널, 조직의 소프트웨어 보전(설치된 장치 수, 패치되지 않은 노출된 장치 포함), 사용 가능 여부 및 악용 여부, 노출 점수에 미치는 영향
 - 취약성 및 잘못 구성의 수 및 심각도에 대한 데이터 시각화 또한 노출된 장치 수가 있는 그래프입니다.
 - 정보를 표시하는 탭:
-    - 식별된 취약점에 대한 해당 보안 권장 사항
-    - 검색된 취약성의 명명된 CV
-    - 소프트웨어가 설치된 장치(장치 이름, 도메인, OS 등)입니다.
-    - 소프트웨어 버전 목록(버전이 설치된 장치 수, 검색된 취약성 수 및 설치된 장치의 이름 포함)
+  - 식별된 취약점에 대한 해당 보안 권장 사항
+  - 검색된 취약성의 명명된 CV
+  - 소프트웨어가 설치된 장치(장치 이름, 도메인, OS 등)입니다.
+  - 소프트웨어 버전 목록(버전이 설치된 장치 수, 검색된 취약성 수 및 설치된 장치의 이름 포함)
 
-    ![소프트웨어 세부 Visual Studio, 약점, 노출된 장치 등 2017용 소프트웨어 예제 페이지](images/tvm-software-page-example.png)
     :::image type="content" alt-text="소프트웨어 세부 Visual Studio, 약점, 노출된 장치 등 2017용 소프트웨어 예제 페이지" source="images/tvm-software-page-example.png" lightbox="images/tvm-software-page-example.png":::
 
 ## <a name="report-inaccuracy"></a>부정확성 보고

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 가시성 및 인사이트를 시작합니다.
-ms.openlocfilehash: 0a986bec512c665372ef2e98155533a49500c5d8
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: ac99e9112dc7e0278243121a8530326c88f333dc
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589403"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190012"
 ---
 # <a name="get-started-with-visibility-and-insights"></a>가시성 및 인사이트 시작
 
@@ -49,6 +49,27 @@ ms.locfileid: "58589403"
   - **확인되지 않음**: [게시자 인증](/azure/active-directory/develop/publisher-verification-overview)을 받지 못한 응용 프로그램은 확인되지 않은 것으로 간주됩니다.
   - **앱만 해당**: [애플리케이션 사용 권한](/azure/active-directory/develop/v2-permissions-and-consent#permission-types)은 로그인한 사용자 없이 실행할 수 있는 앱에서 사용됩니다. 테넌트 전체에서 데이터에 액세스할 수 있는 권한이 있는 앱은 잠재적으로 더 높은 위험 요소입니다.
   - **새 앱**: 지난 7일 동안 등록된 새 Microsoft 365 앱입니다.  
+
+## <a name="view-app-insights"></a>앱 인사이트 보기
+
+앱 거버넌스의 주요 가치 포인트 중 하나는 앱 경고 및 인사이트를 빠르게 볼 수 있는 기능입니다. 앱에 대한 인사이트를 보려면 다음을 수행합니다.
+
+1. 앱 거버넌스 포털 페이지에서 **앱** 을 선택합니다.
+1. **범주** 드롭다운 목록을 사용하여 다음 옵션 중에서 선택합니다.
+    - 모든 앱
+    - 높은 권한
+    - 과도한 권한 보유
+    - 확인되지 않은 게시자
+    - 앱만
+    - 새 앱
+1. 세부 정보를 보려는 앱의 이름을 선택합니다. 앱 이름 왼쪽에 확인 표시를 배치하여 여러 앱을 선택하고 저장된 쿼리로 저장할 수 있습니다. 앱 이름을 선택하면 다음 그래픽과 같이 오른쪽에 세부 정보 창이 열립니다.
+
+:::image type="content" source="../media/manage-app-protection-governance/app-governance-app-insight.png" alt-text="선택한 앱에 대한 세부 정보 창을 보여 주는 이미지입니다.":::
+
+> [!NOTE]
+> 표시되는 앱은 테넌트에서 제공하는 앱에 따라 달라집니다.
+
+세부 정보 창에서는 지난 30일 동안의 앱 사용량, 앱에 동의한 사용자 및 앱에 할당된 사용 권한을 볼 수 있습니다. 관리자는 경고를 생성하는 앱의 활동 및 사용 권한을 검토하고 세부 정보 창의 **앱 비활성화** 단추를 사용하여 앱을 사용하지 않도록 결정할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

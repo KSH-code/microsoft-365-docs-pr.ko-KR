@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: 조직이 현재 해당 Microsoft 365 가장 일반적인 위협 및 공격 시나리오와 이러한 위험을 완화하기 위한 권장 조치를 제공합니다.
 ms.openlocfilehash: 8f5c6e75097814841f8478cd8240c80b4eebc51a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568183"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220684"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 BDM(비즈니스 의사 결정자)에 대한 보안
 

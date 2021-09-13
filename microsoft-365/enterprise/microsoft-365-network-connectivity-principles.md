@@ -18,11 +18,11 @@ f1.keywords:
 description: 이 문서는 Microsoft 365 네트워크 연결을 안전하게 최적화하기 위한 최신 가이드를 재공합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 7aebf4e210c3e4feb94ec3c6deb6523e5742152c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568363"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220819"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Microsoft 365 네트워크 연결 원칙
 

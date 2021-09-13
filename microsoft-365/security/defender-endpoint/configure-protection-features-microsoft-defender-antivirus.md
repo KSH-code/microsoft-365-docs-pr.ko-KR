@@ -16,11 +16,11 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.openlocfilehash: 2db625e98bd685c0dffb7820847c483b54f600fb
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533594"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221635"
 ---
 # <a name="configure-behavioral-heuristic-and-real-time-protection"></a>동작, 추론 및 실시간 보호 구성
 

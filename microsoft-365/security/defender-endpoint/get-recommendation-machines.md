@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: cbaa328f7bf0f72fd05f76c9cd4b06e2cf19ef558b0f37dd538ae2889e0ede56
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4cd11665983127a920c162cb6e945b0e45d2d077
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53847250"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221287"
 ---
 # <a name="list-devices-by-recommendation"></a>권장으로 장치 나열
 
@@ -39,7 +39,7 @@ ms.locfileid: "53847250"
 
 보안 권장과 관련된 장치 목록을 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 

@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: 데이터 및 서비스에 대한 사용자 및 장치 Microsoft 365 보호하고 데이터 손실을 방지하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0feef7c88df39ac48deb192ddda372604f667cc5b7652b53ffcd50dce78f15ce
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bd8bbb62bc87ff59594e2fb2a3e21311c2452d9f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871588"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221107"
 ---
 # <a name="protect-user-and-device-access"></a>사용자 및 장치 액세스 보호
 
@@ -40,7 +40,7 @@ Azure AD 애플리케이션 프록시를 사용하여 게시한 온-프레미스
 
 다단계 인증 및 조건부 액세스를 통해 관리자 계정을 보호합니다. 자세한 내용은 관리자 계정 [보호를 참조하세요.](../security/office-365-security/identity-access-prerequisites.md#protecting-administrator-accounts) 
 
-다음으로, 2016에서 권한 있는 액세스 관리를 Office 365. Privileged access management를 사용하면 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어를 제공합니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용할 수 있는 침해로부터 조직을 보호하는 데 도움이 될 수 있습니다.
+다음으로, 2016에서 권한 있는 액세스 관리를 Office 365. 권한 있는 액세스 관리를 사용하면 Office 365에서 권한 있는 관리자가 실행할 수 있는 작업에 대해 세부적인 액세스 제어를 할 수 있습니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용할 수 있는 침해로부터 조직을 보호하는 데 도움이 될 수 있습니다.
 
 - [권한 있는 액세스 관리 개요](privileged-access-management-overview.md)
 - [권한이 부여된 액세스 관리 구성](privileged-access-management-configuration.md)

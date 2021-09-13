@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 151e8ca97b5751a7aa83488150b5d950e512c8bdbf9a524da6ecf7a1605e0675
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6118b461d615002423712dc931962c8ab21778c2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53889128"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220202"
 ---
 # <a name="vulnerable-devices-report---threat-and-vulnerability-management"></a>취약한 장치 보고서 - 위협 및 취약성 관리
 

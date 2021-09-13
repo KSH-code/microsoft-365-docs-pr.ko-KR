@@ -17,11 +17,11 @@ ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
 ms.openlocfilehash: e7631647d97abc7f67129c9d40887996cfc7eb0b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572158"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221656"
 ---
 # <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사
 

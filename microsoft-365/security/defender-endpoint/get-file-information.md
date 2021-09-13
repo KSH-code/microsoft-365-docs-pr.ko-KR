@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 11dba8441867bce2a72330d660ad869057fc73aec38e28d26849058567f0385a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 74a063c1ea3337f7f56340ee3f39d0df49a6b7ea
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53874066"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221419"
 ---
 # <a name="get-file-information-api"></a>파일 정보 다운로드 API
 
@@ -45,7 +45,7 @@ ms.locfileid: "53874066"
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Use [Microsoft Defender for Endpoint API을 참조합니다.](apis-intro.md)
 

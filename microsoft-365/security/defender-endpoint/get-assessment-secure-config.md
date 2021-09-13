@@ -17,11 +17,11 @@ ms.topic: article
 ms.technology: mde
 ms.custom: api
 ms.openlocfilehash: 4d8010cafa9ea0195e4c77298bea2098eab5c594
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607344"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221524"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>장치당 보안 구성 평가 내보내기
 

@@ -25,11 +25,11 @@ ms.date: 08/16/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
 ms.openlocfilehash: 6fa205147dc3fa042d9bdb3a1d03c67f2b2efecb
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568879"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220242"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 
@@ -63,7 +63,7 @@ Endpoint용 Defender로 전환할 때 활성 모드에서 Microsoft가 아닌 �
 | [엔드포인트 검색 및 대응](overview-endpoint-detection-response.md) | 끝점 감지 및 응답 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응합니다.  |
 | [지능형 헌팅](advanced-hunting-overview.md) | 고급 헌팅 기능을 통해 보안 운영 팀은 알려진 위협 또는 잠재적인 위협의 지표와 엔터티를 찾을 수 있습니다. |
 | [동작 차단 및 제약](behavioral-blocking-containment.md) | 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리를 기반으로 위협을 식별하고 중지하는 데 도움이 됩니다. |
-| [자동화된 조사 및 수정](automated-investigations.md) | 자동화된 조사 및 대응 기능은 경고를 검사하고 위반을 해결하기 위해 즉시 수정 조치를 취합니다. |
+| [자동 조사 및 수정](automated-investigations.md) | 자동화된 조사 및 대응 기능은 경고를 검사하고 위반을 해결하기 위해 즉시 수정 조치를 취합니다. |
 | [위협 헌팅](microsoft-threat-experts.md) 서비스(Microsoft 위협 전문가) | 위협 헌팅 서비스는 보안 운영 팀에 전문가 수준의 모니터링 및 분석을 제공하고 중요한 위협이 누락되지 않도록 합니다. |
 
 **자세한 내용을 원하세요? [끝점에 대한 Defender를 참조합니다.](microsoft-defender-endpoint.md)**

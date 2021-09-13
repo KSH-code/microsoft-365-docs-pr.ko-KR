@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f0172b6346fd066cee273c16c1650a24f900077054e3848ceea970791d85b8fc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 31ff698a6094e72cea32b7db19db8edf947a1326
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833978"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221575"
 ---
 # <a name="find-devices-by-internal-ip-api"></a>내부 IP API로 장치 찾기
 
@@ -45,7 +45,7 @@ ms.locfileid: "53833978"
 1. 주어진 타임스탬프는 지난 30일 동안의 기간이 되어야 합니다.
 2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -73,7 +73,7 @@ GET /api/machines/findbyip(ip='{IP}',timestamp={TimeStamp})
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

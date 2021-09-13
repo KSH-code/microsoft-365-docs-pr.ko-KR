@@ -16,15 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
+- AdminTemplateSet
 search.appverid: MET150
 description: 사용자 라이선스가 25개 미만인 경우 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다.
 ms.date: 04/08/2021
-ms.openlocfilehash: e0b23d785a86102891f24cb16419794773d64356
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: 900fd5f544a405b5f337623ba35a353cefaf9bab
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300043"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221224"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -49,14 +50,6 @@ ms.locfileid: "53300043"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
-2. 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
-3. **구독 취소** 창에서 취소 이유를 선택합니다. 또는 피드백을 입력합니다.
-4. **저장** 을 선택합니다.
-
-이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독을 취소할 경우 나타나는 결과에 대한 자세한 내용은 [내 Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.
-
-> [!NOTE]
-> 구독을 명시적으로 삭제할 경우 만료와 사용 안 함 단계를 건너 뛰고 OneDrive를 포함한 SharePoint 온라인 데이터와 콘텐츠가 즉시 삭제됩니다.
 
 ::: moniker-end
 
@@ -69,14 +62,17 @@ ms.locfileid: "53300043"
 ::: moniker range="o365-21vianet"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
+
 ::: moniker-end
 
-2. **상품** 탭을 선택합니다.
-3. 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
-4. **구독 취소** 창에서 취소 이유를 선택합니다. 또는 피드백을 입력합니다.
-5. **저장** 을 선택합니다.
+2. 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
+3. **구독 취소** 창에서 취소 이유를 선택합니다. 또는 피드백을 입력합니다.
+4. **저장** 을 선택합니다.
 
-이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독 취소 결과에 대한 자세한 내용은 [비즈니스용 Microsoft 365 구독이 종료되면 내 데이터와 액세스 권한은 어떻게 되나요?](what-if-my-subscription-expires.md)를 참조하세요.
+이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독을 취소할 경우 나타나는 결과에 대한 자세한 내용은 [내 Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.
+
+> [!NOTE]
+> 구독을 명시적으로 삭제할 경우 만료와 사용 안 함 단계를 건너 뛰고 OneDrive를 포함한 SharePoint 온라인 데이터와 콘텐츠가 즉시 삭제됩니다.
 
 ## <a name="what-happens-when-you-cancel-a-subscription"></a>구독을 취소하면 어떻게 되나요?
 

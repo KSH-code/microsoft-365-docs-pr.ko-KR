@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: cb4de76bacc794805a79597c9088491f057e3ce0
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349263"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221731"
 ---
 # <a name="collect-investigation-package-api"></a>조사 패키지 수집 API
 
@@ -50,7 +50,7 @@ ms.locfileid: "58349263"
 >
 > - 이러한 응답 작업은 버전 1703 이상의 Windows 10 장치에만 사용할 수 있습니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 끝점 API에 [Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -75,7 +75,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/collectInvestiga
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 Content-Type|문자열|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문

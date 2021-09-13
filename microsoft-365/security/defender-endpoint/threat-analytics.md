@@ -20,11 +20,11 @@ ms.collection:
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: a69a90db168bd58266c65c8573a233e1932e025c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568903"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220222"
 ---
 # <a name="track-and-respond-to-emerging-threats-through-threat-analytics"></a>위협 분석을 통해 새로운 위협 추적 및 대응
 

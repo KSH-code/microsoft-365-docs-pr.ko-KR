@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: b5d7f7384d60a5353ce4c0363e07d3451e146598
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563561"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220600"
 ---
 # <a name="deployment-phases"></a>배포 단계
 

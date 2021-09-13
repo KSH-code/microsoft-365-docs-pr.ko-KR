@@ -21,11 +21,11 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.openlocfilehash: e66f9133959ce7f09915361e7583ae809e33647e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567679"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221155"
 ---
 # <a name="learn-about-privileged-access-management"></a>권한이 부여된 액세스 관리에 대한 자세한 정보
 
@@ -73,7 +73,7 @@ Microsoft 365 관리 센터 또는 Exchange 관리 PowerShell을 사용하여 �
 
 ![4단계: 액세스 처리.](../media/pam-step4-access-processing.jpg)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="what-skus-can-use-privileged-access-in-office-365"></a>어떤 SKUS에서 권한 있는 액세스를 사용할 수 Office 365?
 
