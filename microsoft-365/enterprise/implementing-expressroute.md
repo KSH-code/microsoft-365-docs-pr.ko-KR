@@ -21,11 +21,11 @@ search.appverid:
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: 여러 인터넷 연결 서비스로의 대체 라우팅 경로를 제공하는 Office 365 ExpressRoute를 구현하는 Office 365 알아보습니다.
 ms.openlocfilehash: 66ff6157c8f2fb28b1a57af42295a6ba0ed93dad
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575339"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215995"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>Office 365용 ExpressRoute 구현
 

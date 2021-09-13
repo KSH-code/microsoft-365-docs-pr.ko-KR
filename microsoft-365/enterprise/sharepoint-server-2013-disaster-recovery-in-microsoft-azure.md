@@ -19,11 +19,11 @@ ms.custom:
 ms.assetid: e9d14cb2-ff28-4a18-a444-cebf891880ea
 description: 이 문서에서는 Azure를 사용하여 팜에 대한 재해 복구 환경을 만드는 SharePoint 설명합니다.
 ms.openlocfilehash: 87bbbf143fe831537ddbc08e6d43b4013fe1e379
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567643"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215675"
 ---
 # <a name="sharepoint-server-2013-disaster-recovery-in-microsoft-azure"></a>Microsoft Azure에서 SharePoint Server 2013 재해 복구
 

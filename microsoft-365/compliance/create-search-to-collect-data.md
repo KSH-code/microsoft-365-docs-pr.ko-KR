@@ -18,11 +18,11 @@ ms.assetid: ''
 description: 특정 사례에서 검색을 위해 Advanced eDiscovery, 정의 및 선택하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 3050e176f495bd2fc23ac6237f1dac28b04088ec
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574306"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213925"
 ---
 # <a name="create-a-search"></a>검색 만들기
 

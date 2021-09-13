@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender for Office 365 대한 위협 조사 및 대응 기능에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a3af6aec423fd77dc04954974be05d3e299279e2
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 2e6a237295a979797cd8884d07d1afe8e284cace
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572854"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214325"
 ---
 # <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
@@ -78,7 +78,7 @@ Microsoft [Defender](defender-for-office-365.md) for Office 365 위협 조사 �
 
 Microsoft 365 Defender 포털에서 이 기능을 보고 사용하세요. 전자 메일 & **공격**  >  **시뮬레이션 교육으로 이동하세요.**
 
-### <a name="automated-investigation-and-response"></a>자동 조사 및 응답
+### <a name="automated-investigation-and-response"></a>자동화된 조사 및 응답
 
 자동화된 조사 및 대응(AIR) 기능을 사용하여 조직의 위협으로부터 콘텐츠, 장치 및 사용자와 관련한 시간과 노력을 절약할 수 있습니다. AIR 프로세스는 특정 경고가 트리거될 때마다 또는 보안 운영 팀에서 시작할 때 시작할 수 있습니다. 자세한 내용은 에서 자동화된 조사 [및 대응을 Office 365.](automated-investigation-response-office.md)
 
@@ -100,7 +100,7 @@ Microsoft Defender for Office 365 역할 기반 액세스 제어를 사용 합�
 > 보안 관리자와 같은 일부 역할은 Microsoft 365 Defender 포털에서 할당할 수 Microsoft 365 관리 센터 Azure Active Directory. 역할, 역할 그룹 및 사용 권한에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 >
 > - [Microsoft 365 Defender 포털 사용 권한](permissions-microsoft-365-security-center.md)
-> - [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+> - [Azure AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference)
 
 <br>
 
@@ -108,9 +108,9 @@ Microsoft Defender for Office 365 역할 기반 액세스 제어를 사용 합�
 
 |활동|역할 및 사용 권한|
 |---|---|
-|위협 및 & 관리 대시보드(또는 새 보안 대시보드) [사용](security-dashboard.md) <p> 최근 또는 현재 위협에 대한 정보 보기|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
-|[탐색기(및 실시간 검색)를](threat-explorer.md) 사용하여 위협 분석|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
-|인시던트 보기(조사라고도 지칭) <p> 인시던트에 전자 메일 메시지 추가|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
+|위협 및 & 관리 대시보드(또는 새 보안 대시보드) [사용](security-dashboard.md) <p> 최근 또는 현재 위협에 대한 정보 보기|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기 권한자**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
+|[탐색기(및 실시간 검색)를](threat-explorer.md) 사용하여 위협 분석|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기 권한자**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
+|인시던트 보기(조사라고도 지칭) <p> 인시던트에 전자 메일 메시지 추가|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기 권한자**</li></ul> <p> 이러한 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( )에서 할당할 수 <https://admin.microsoft.com> 있습니다.|
 |인시던트에서 전자 메일 작업 트리거 <p> 의심스러운 전자 메일 메시지 찾기 및 삭제|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자** 및 **검색 및** 제거 역할</li></ul> <p> **전역 관리자**  및 보안 관리자 역할은 Azure Active Directory ( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터()로 할당할 수 <https://admin.microsoft.com> 있습니다. <p> 검색 **및** 제거 역할은 Microsoft 36 Defender 포털의 전자 메일 & 공동 작업 **역할()에** 할당해야 <https://security.microsoft.com> 합니다.|
 |Microsoft Defender for Office 365 Microsoft Defender for Endpoint와 통합 <p> MICROSOFT Defender for Office 365 Plan 2와 SIEM 서버 통합|전역 관리자 **또는** 보안  관리자 역할() 또는 Azure Active Directory( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터( <https://admin.microsoft.com> ). <p> --- **plus** --- <p> 추가 응용 프로그램(예: Microsoft Defender 보안 센터 또는 SIEM [서버)에](/windows/security/threat-protection/microsoft-defender-atp/user-roles) 할당된 적절한 역할입니다.|
 |

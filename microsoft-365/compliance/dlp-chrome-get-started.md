@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: ad3fa4ae5cef1e5d4a49cbe10c36fce89252127b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 830f068869353949927055b8859ba87c12647bcb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564037"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193099"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장 시작하기
 
@@ -130,7 +130,7 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
 4. 메시지가 표시되면 만든 스크립트의 위치로 이동합니다.
 
 5. 다음 설정을 선택합니다.
-    1. 로그인된 자격 증명을 사용하여 이 스크립트를 실행: 예
+    1. 로그인된 자격 증명을 사용하여 이 스크립트를 실행: 아니요
     1. 스크립트 서명 검사 강제: 아니요
     1. 64비트 PowerShell 호스트에서 스크립트 실행: 예
 

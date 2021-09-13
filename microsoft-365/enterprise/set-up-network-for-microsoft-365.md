@@ -21,11 +21,11 @@ ms.custom:
 ms.assetid: ''
 description: 네트워크 연결 개요 및 끝점 목록을 포함하여 Microsoft 365 대한 네트워크를 설정하는 데 도움이 되는 정보가 있는 문서의 링크를 찾아야 합니다.
 ms.openlocfilehash: 52de26081b4e61346ab584e1600893349b47fd17
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355883"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215672"
 ---
 # <a name="set-up-your-network-for-microsoft-365"></a>사용자에 대한 네트워크 Microsoft 365
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 02038b627acdd084eda34f13d7bbb5cf0658fb95
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 6d0599d11dd5892b032bda1285b92fbc8a09354b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572374"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214172"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -133,7 +133,7 @@ Azure AD의 정책 엔진은 조건부 액세스 정책을 [사용하여 구현�
 이 확장된 권한 부여 정의에 동의하는 경우 추가 솔루션을 구현해야 합니다. 구현하는 솔루션은 정책의 동적인 방식과 우선 순위를 지정하려는 위협에 따라 결정됩니다. 이러한 시스템의 몇 가지 예는 다음과 같습니다.
 
 - [Azure AD ID 보호](/azure/active-directory/identity-protection/)
-- [ID용 Microsoft Defender](/azure-advanced-threat-protection/)
+- [Microsoft Defender for Identity](/azure-advanced-threat-protection/)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - [Office 365용 Microsoft Defender](../security/office-365-security/defender-for-office-365.md)
 - [](/cloud-app-security/) Microsoft Cloud App Security(MCAS)
@@ -203,7 +203,7 @@ Outlook 클라이언트를 보고, 이 환경의 일부로 "연결"하는 많은
 
 ### <a name="azure-ad-and-microsoft-365-admin-centers"></a>Azure AD 및 Microsoft 365 센터
 
-길고 성장하는 기본 제공 역할 [목록이 있습니다.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 각 역할은 특정 작업이 수행될 수 있도록 그룹화되는 역할 권한 목록으로 구성됩니다. 이러한 사용 권한은 각 역할 내 "설명" 탭에서 볼 수 있습니다. 또는 사용자 센터에서 좀 더 사람이 읽을 수 있는 버전을 Microsoft 365 관리 있습니다. 기본 제공 역할에 대한 정의는 수정할 수 없습니다. 일반적으로 다음 세 가지 범주로 그룹화합니다.
+길고 성장하는 기본 제공 역할 [목록이 있습니다.](/azure/active-directory/roles/permissions-reference) 각 역할은 특정 작업이 수행될 수 있도록 그룹화되는 역할 권한 목록으로 구성됩니다. 이러한 사용 권한은 각 역할 내 "설명" 탭에서 볼 수 있습니다. 또는 사용자 센터에서 좀 더 사람이 읽을 수 있는 버전을 Microsoft 365 관리 있습니다. 기본 제공 역할에 대한 정의는 수정할 수 없습니다. 일반적으로 다음 세 가지 범주로 그룹화합니다.
 
 - **전역 관리자:** 이 "모든 강력한" 역할은 다른 시스템에서와 마찬가지로 매우 보호해야 합니다. [](../enterprise/protect-your-global-administrator-accounts.md) 일반적인 권장 사항은 다음과 같습니다. 영구 할당 없음 및 Azure AD PIM(Privileged Identity Management); 강력한 인증 등. 흥미롭게도 이 역할은 기본적으로 모든 데이터에 대한 액세스 권한을 부여하지 않습니다. 일반적으로 나중에 설명하는 규정 준수 액세스 및 Azure 액세스에 대해 혼동을 하게 됩니다. 그러나 이 역할은 항상 테넌트의 다른 서비스에 대한 액세스를 할당할 수 있습니다.
 - **특정 서비스 관리자:** 일부 서비스(Exchange, SharePoint, Power BI 등)는 Azure AD의 높은 수준의 관리 역할을 사용 합니다. 이는 모든 서비스에서 일관되지는 못하며 나중에 더 많은 서비스별 역할에 대해 논의합니다.

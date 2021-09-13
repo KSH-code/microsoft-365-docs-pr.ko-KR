@@ -1,5 +1,5 @@
 ---
-title: 2013에서 자동화된 조사 및 대응 Microsoft 365 Defender
+title: Microsoft 365 Defender의 자동 조사 및 응답 기능 구성
 description: 자가 복구를 통해 자동화된 조사 및 대응 Microsoft 365 Defender
 search.appverid: MET150
 ms.author: josephd
@@ -17,13 +17,13 @@ ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
 ms.openlocfilehash: 84107a54c47c3bfe68cd7740e1e06ff40b11957a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563929"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214522"
 ---
-# <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>2013에서 자동화된 조사 및 대응 Microsoft 365 Defender
+# <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동 조사 및 응답 기능 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

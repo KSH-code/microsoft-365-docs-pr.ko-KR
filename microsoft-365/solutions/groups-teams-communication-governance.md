@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 통신 거버넌스 공동 작업 시나리오에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: a85a88c79d9a08750c6ca2e9c16028c6a0407aeec68c8eb205f7f8132735d807
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6b49f0725cb300316580e972626a96b7057b5ccb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893522"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214182"
 ---
 # <a name="communications-governance-for-collaboration-scenarios"></a>공동 작업 시나리오를 위한 통신 거버넌스
 
@@ -31,16 +31,16 @@ Microsoft 365 메시징 및 모임 설정을 포함하여 조직의 통신을 �
 
 |범주|설명|참조|
 |:-------|:----------|:--------|
-|메시지|||
+|메시징|||
 ||메시지에 있는 동안 사용자가 할 수 있는 작업을 Teams.|[Teams에서 메시징 정책 관리](/microsoftteams/messaging-policies-in-teams)|
 ||채널의 게시물을 시작하고 게시물에 회신할 수 있는 사용자 제어|[채널 중재를 설정하고 Microsoft Teams](/microsoftteams/manage-channel-moderation-in-teams)|
-|모임|||
+|Meetings|||
 ||모임 참가자가 할 수 있는 작업을 관리합니다.|[Teams에서의 모임 정책 관리](/microsoftteams/meeting-policies-in-teams)|
 ||익명 사용자가 모임에 참가하도록 허용하거나 금지합니다.|[익명 사용자가 모임에 참가하도록 허용](/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)|
 |커뮤니케이션 규정 준수|||
 ||부수적이 고의적 통신에 대해 표면화 및 응답|[Microsoft 365의 커뮤니케이션 규정 준수](../compliance/communication-compliance.md)|
 
-## <a name="messaging"></a>메시지
+## <a name="messaging"></a>메시징
 
 메시징 정책을 사용하여 메시지 편집 또는 삭제와 같은 채팅 및 채널 메시징 기능을 Microsoft Teams 수 있습니다. 사용자 및 그룹에 대해 서로 다른 정책을 만들 수 있습니다.
 
@@ -50,7 +50,7 @@ Microsoft 365 메시징 및 모임 설정을 포함하여 조직의 통신을 �
 
 [채널 중재를 설정하고 Microsoft Teams](/microsoftteams/manage-channel-moderation-in-teams)
 
-## <a name="meetings"></a>모임
+## <a name="meetings"></a>Meetings
 
 모임 참가자가 사용할 수 있는 기능을 제어할 수 Teams, 콘텐츠 공유, 참가자 및 오디오/비디오 정책을 비롯한 다양한 기능을 사용할 수 있습니다.
 

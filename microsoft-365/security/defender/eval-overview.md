@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: bb0633145ab1a1ac97e77b7b319e8defeb06e309
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570440"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214542"
 ---
 # <a name="evaluate-and-pilot-microsoft-365-defender"></a>평가 및 파일럿 Microsoft 365 Defender
 
@@ -63,7 +63,7 @@ Microsoft 365 Defender 보안 기술로 나란하게 작동됩니다. XDR 및 XD
 
 |구성 요소  |설명  |참조 자료  |
 |---------|---------|---------|
-|ID용 Microsoft Defender     |      Microsoft Defender for Identity는 Active Directory 신호를 사용하여 조직에 대한 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사합니다.     |     [Microsoft Defender for Identity란?](/defender-for-identity/what-is)   |
+|Microsoft Defender for Identity     |      Microsoft Defender for Identity는 Active Directory 신호를 사용하여 조직에 대한 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사합니다.     |     [Microsoft Defender for Identity란?](/defender-for-identity/what-is)   |
 |Exchange Online Protection     |      Exchange Online Protection 스팸 및 맬웨어로부터 조직을 보호하는 데 도움이 되는 기본 클라우드 기반 SMTP 릴레이 및 필터링 서비스입니다.      |   [Exchange Online Protection(EOP) 개요 - Office 365](../office-365-security/overview.md)     |
 |Office 365용 Microsoft Defender     |     Microsoft Defender for Office 365 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다.      |    [Microsoft Defender for Office 365 - Office 365](../office-365-security/overview.md)    |
 |엔드포인트용 Microsoft Defender     |     끝점용 Microsoft Defender는 장치 보호, 위반 후 감지, 자동화된 조사 및 권장 응답을 위한 통합 플랫폼입니다.      |   [끝점용 Microsoft Defender - Windows 보안](../defender-endpoint/microsoft-defender-endpoint.md)    |

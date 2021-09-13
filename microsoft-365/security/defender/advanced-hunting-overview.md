@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 564afed2c10d232076bf6875e035bcf03ea7712ada2b430729f4a936a675b8bb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b59ff2a32ef5a067576c43b9b0a394590e30b666
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833198"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214695"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>고급 헌팅을 통해 위협을 사전 예방적으로 Microsoft 365 Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "53833198"
 > Microsoft 365 Defender를 경험해 보고 싶으신가요? [랩 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
 >
 
-고급 헌팅은 최대 30일의 원시 데이터를 탐색할 수 있는 쿼리 기반 위협 헌팅 도구입니다. 네트워크에서 이벤트를 사전 검사하여 위협 표시기 및 엔터티를 찾을 수 있습니다. 데이터에 대한 유연한 액세스를 통해 알려진 위협과 잠재적 위협 모두에 대한 제약이 없는 헌팅을 할 수 있습니다.
+고급 헌팅은 최대 30일의 원시 데이터를 탐색할 수 있는 쿼리 기반 위협 헌팅 도구입니다. 네트워크의 이벤트를 사전에 검사하여 위협 지표와 엔터티를 찾을 수 있습니다. 데이터에 대한 유연한 액세스를 통해 알려진 위협과 잠재적 위협 모두에 대한 제약이 없는 헌팅을 할 수 있습니다.
 <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
@@ -68,7 +68,7 @@ ms.locfileid: "53833198"
 | **스키마의 이해** | 스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 쿼리를 구성할 때 데이터를 검색할 위치를 학습합니다. | - [Schema reference](advanced-hunting-schema-tables.md) <br />- [끝점용 Microsoft Defender에서 전환](advanced-hunting-migrate-from-mde.md) |
 | **전문가 팁 및 예제 보기** | Microsoft 전문가의 가이드를 통해 무료로 교육합니다. 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | - [전문가 교육을 받을 수 있습니다.](advanced-hunting-expert-training.md) <br />- [공유 쿼리 사용](advanced-hunting-shared-queries.md) <br />- [이동 헌트](advanced-hunting-go-hunt.md) <br />- [장치, 전자 메일, 앱 및 ID에서 위협을 찾기](advanced-hunting-query-emails-devices.md) |
 | **쿼리 최적화 및 오류 처리** | 효율적이고 오류가 없는 쿼리를 만드는 방법을 이해합니다. | - [쿼리 모범 사례](advanced-hunting-best-practices.md)<br />- [오류 처리](advanced-hunting-errors.md) |
-| **사용자 지정 검색 규칙 만들기** | 고급 헌팅 쿼리를 사용하여 경고를 트리거하고 응답 작업을 자동으로 수행할 수 있는 방법을 이해합니다. | - [사용자 지정 검색 개요](custom-detections-overview.md) <br />- [사용자 지정 검색 규칙](custom-detection-rules.md) |
+| **사용자 지정 탐지 규칙 만들기** | 고급 헌팅 쿼리를 사용하여 경고를 트리거하고 응답 작업을 자동으로 수행할 수 있는 방법을 이해합니다. | - [사용자 지정 검색 개요](custom-detections-overview.md) <br />- [사용자 지정 검색 규칙](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>액세스 액세스
 고급 헌팅 또는 [](microsoft-365-defender.md) 기타 Microsoft 365 Defender 사용하려면 고급 헌팅에 적절한 역할이 Azure Active Directory. 고급 헌팅에 필요한 역할 및 사용 [권한에 대해 읽어 읽습니다.](custom-roles.md)
@@ -77,10 +77,10 @@ ms.locfileid: "53833198"
 
 
 ## <a name="data-freshness-and-update-frequency"></a>데이터 최신성 및 업데이트 빈도
-고급 헌팅 데이터는 서로 다른 두 가지 유형으로 분류할 수 있습니다.
+고급 헌팅 데이터는 각각 다르게 통합된 두 가지 유형으로 분류할 수 있습니다.
 
-- **이벤트 또는 활동 데이터**- 경고, 보안 이벤트, 시스템 이벤트 및 일상적인 평가에 대한 테이블을 채우습니다. 고급 헌팅은 해당 데이터를 수집하는 센서가 해당 클라우드 서비스로 성공적으로 전송된 직후에 이 데이터를 수신합니다. 예를 들어 끝점용 Microsoft Defender 및 ID용 Microsoft Defender에서 사용할 수 있는 직후에, 또는 도메인 컨트롤러 또는 작업장에서 정상 센서의 이벤트 데이터를 쿼리할 수 있습니다.
-- **엔터티 데이터**- 사용자 및 장치에 대한 정보로 테이블을 채우는 경우 이 데이터는 Active Directory 항목 및 이벤트 로그와 같은 비교적 정적 데이터 원본과 동적 원본 모두에서 온 것입니다. 새 데이터를 제공하기 위해 표는 15분마다 모든 새 정보로 업데이트되어 완전히 채워지지 않을 수 있는 행을 추가합니다. 24시간마다 데이터가 통합되어 각 엔터티에 대한 가장 포괄적인 최신 데이터 집합이 포함된 레코드를 삽입합니다.
+- **이벤트 또는 활동 데이터**- 경고, 보안 이벤트, 시스템 이벤트 및 일상적인 평가에 대한 테이블을 채우습니다. 고급 헌팅은 이 데이터를 수집한 센서가 해당 클라우드 서비스로 데이터를 성공적으로 전송한 직후에 이 데이터를 수신합니다. 예를 들어 끝점용 Microsoft Defender 및 ID용 Microsoft Defender에서 사용할 수 있는 직후에, 또는 도메인 컨트롤러 또는 작업장에서 정상 센서의 이벤트 데이터를 쿼리할 수 있습니다.
+- **엔터티 데이터**- 사용자 및 장치에 대한 정보로 테이블을 채우는 경우 이 데이터는 Active Directory 항목 및 이벤트 로그와 같은 비교적 정적 데이터 원본과 동적 원본에서 모두 제공됩니다. 새 데이터를 제공하기 위해 표는 15분마다 모든 새 정보로 업데이트되어 완전히 채워지지 않을 수 있는 행을 추가합니다. 24시간마다 데이터가 통합되어 각 엔터티에 대한 가장 포괄적인 최신 데이터 집합이 포함된 레코드를 삽입합니다.
 
 ## <a name="time-zone"></a>표준 시간대
 고급 헌팅의 시간 정보는 UTC 표준 시간대에 있습니다.

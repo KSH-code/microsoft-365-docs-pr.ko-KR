@@ -9,12 +9,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: af5380d81254ea4934fcdb0910c633adb704b3ffbdbd10dad9457ad29610d66a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7a99ca8d5f56fd5614dc27e3a28efe905ba30e46
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819034"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215402"
 ---
 # <a name="microsoft-managed-desktop-and-windows-11"></a>Microsoft Managed Desktop 및 Windows 11
 
@@ -57,5 +57,5 @@ Microsoft Managed Desktop 관리되지 않는 장치의 경우 Windows 프로그
 업무용 **앱:** [](https://www.microsoft.com/en-us/testbase) 테스트 기준은 앱 게시자 및 IT 관리자가 보안 Azure 환경에서 Windows 11 빌드를 실행하는 가상 머신에서 Microsoft가 실행되는 앱 및 테스트 사례를 제출하는 데 사용할 수 있는 리소스입니다. 개인 Azure Portal에서 각 테스트 실행에 대한 결과, 테스트 인사이트 및 회귀 분석을 사용할 수 있습니다. Microsoft Managed Desktop 앱 사용 및 안정성 데이터를 기반으로 유효성 검사를 위해 업무용 앱의 우선 순위를 지정하는 데 도움이 됩니다. 테스트 기준에 대한 자세한 내용은 Test [Base for Microsoft 365.](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/test-base-for-microsoft-365-microsoft-ignite-2021-updates/ba-p/2185566)
 
 ### <a name="reactive-measures"></a>사후 조치
-테스트 또는 프로덕션 환경에서 앱 호환성 문제가 발생하는 경우 [App Assure](/fasttrack/products-and-capabilities#app-assure) 또는 FastTrack을 사용하여 적절한 비용 지원을 받을 수 있습니다. Windows 11의 경우 여기에는 최신 운영 체제 빌드에서 실행되는 Office, Microsoft Edge, Teams 및 업무(LINE-OF-BUSINESS) 응용 프로그램의 모든 기능이 포함됩니다. App Assure는 앱 게시자를 직접 참여하여 앱 호환성 문제의 우선 순위를 지정하고 해결합니다.
+테스트 또는 프로덕션 환경에서 앱 호환성 문제가 발생하는 경우 App [Assure](/fasttrack/products-and-capabilities#app-assure) 또는 앱 설치를 적절하게 FastTrack 지원을 받을 수 있습니다. Windows 11의 경우 여기에는 최신 운영 체제 빌드에서 실행되는 Office, Microsoft Edge, Teams 및 업무(LINE-OF-BUSINESS) 응용 프로그램의 모든 기능이 포함됩니다. App Assure는 앱 게시자를 직접 참여하여 앱 호환성 문제의 우선 순위를 지정하고 해결합니다.
 

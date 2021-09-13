@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender에서 Office 365
+title: Office 365용 Microsoft Defender 평가
 description: 평가 모드에서 Office 365 Defender는 맬웨어와 같은 Office 365 기록하지만 메시지에 대해 행동하지 않는 전자 메일 정책에 대한 Defender를 만듭니다.
 keywords: 평가 Office 365 Microsoft Defender for Office 365, office 365 평가, office 365, Microsoft Defender, 끝점용 Microsoft Defender 평가
 f1.keywords:
@@ -20,13 +20,13 @@ ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 908165ac4e86fe96d101644f70d0bf31047d5e5f
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258490"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214332"
 ---
-# <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender에서 Office 365
+# <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -69,7 +69,7 @@ Microsoft Defender for Office 365 지원하는 라이선스가 없는 경우 [�
 
 - Office 365용 Microsoft Defender 플랜 1
 - Office 365용 Microsoft Defender 플랜 2
-- Microsoft 365 E5, Microsoft 365 E5 Security
+- Microsoft 365 E5, Microsoft 365 E5 보안
 - Office 365 E5
 
 이러한 라이선스 중 하나만 있는 경우 평가판 라이선스를 얻어야 합니다.

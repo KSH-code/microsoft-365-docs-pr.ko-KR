@@ -15,11 +15,11 @@ ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: '요약: PowerShell을 사용하여 Microsoft 365 Online 정책을 사용하여 사용자 비즈니스용 Skype 할당합니다.'
 ms.openlocfilehash: 6f262730c74de4442341454b2f85a181f673398b
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502678"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213882"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>PowerShell을 비즈니스용 Skype 온라인 정책을 사용자 Microsoft 365
 

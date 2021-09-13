@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 Microsoft 365 Defender 포털의 메시지 추적 링크를 사용하여 메시지에 대해 어떻게 Microsoft 365 Defender 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 406e091793d12ee40729ba792d7ac82790463f506a82ffb1612c64563b179969
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f7b6f7b12086e46c6ad93b60e8c510ea533815a1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56885496"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214355"
 ---
 # <a name="message-trace-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 메시지 추적
 
@@ -37,7 +37,7 @@ Microsoft 365 Defender 포털의 메시지 추적은 조직을 통과하는 전�
 > [!NOTE]
 > Microsoft 365 Defender 포털의 메시지 추적은 Exchange 관리 센터의 메시지 추적을 통과하는 Exchange 있습니다. 자세한 내용은 최신 관리 센터의 메시지 [Exchange 참조하세요.](/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 메시지 추적을 사용하려면 조직 **관리,** 준수  관리 또는 지원 센터 역할  **Exchange Online** 구성원이 되어야 합니다. 자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 

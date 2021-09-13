@@ -21,11 +21,11 @@ ms.collection:
 ms.topic: article
 ms.technology: m365d
 ms.openlocfilehash: a253d1224f1c7a0e0be0b5478efcc78204cb4a27
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565751"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214662"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -65,7 +65,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 **[고급 헌팅에서 이 쿼리 실행](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI2TW0sCURSF93PQfxh8Moisp956yYIgQtLoMaYczJpbzkkTpN_et_dcdPQkcpjbmrXXWftyetKTQG5lKqmMpeB9IJksJJKZDOWdZ8wKeP5wvcm3OLgZbMXmXCmIxjnYIfcAVgYvRi8w3TnfsXEDGAG47pCCZXyP5ViO4KeNbt-Up-hEuJmB6lvButnY8XSL-cDl0M2I-GwxVX8Fe2H5zMzHiKjEVB0eEsnBrszfBIWuXOLrxCJ7VqEBfM3DWUYTkNKrv1p5y3X0jwetemzOQ_NSVuuXZ1c6aNTKRaN8VvWhY9n7OS-o6J5r7mYeQypdEKc1m1qfiqpjCSuspsDntt2J61bEvTlXls5AgQfFl5bHM_gr_BhO2RF1rztoBv2tWahrso_TtzkL93KGMGZVr2pe7eWR-xeZl91f_113UOsx3nDR4Y9j5R6kaCq8ajr_YWfFeedsd27L7it-Z6dAZyxsJq1d9-2ZOSzK3y2NVd8-zUPjtZaJnYsIH4Md7AmdeAcd2Cl1XoURc5PzXlfU8U9P54WcswL6t_TW9Q__qX-xygQAAA&runQuery=true&timeRangeId=week)**
 
 ### <a name="describe-the-query-and-specify-the-tables-to-search"></a>쿼리를 설명하고 검색할 테이블 지정
-쿼리의 시작부에 해당 설명을 설명하는 짧은 설명이 추가되었습니다. 이 설명은 나중에 쿼리를 저장하고 조직의 다른 사용자와 공유하기로 결정한 경우 도움이 됩니다. 
+쿼리의 시작부에 해당 설명을 설명하는 짧은 설명이 추가되었습니다. 이 설명은 나중에 쿼리를 저장하고 조직의 다른 사람들과 공유하기로 결정할 때 도움이 됩니다. 
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
@@ -77,7 +77,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 union DeviceProcessEvents, DeviceNetworkEvents
 ```
 ### <a name="set-the-time-range"></a>시간 범위 설정
-첫 번째 파이프된 요소는 이전 7일로 범위가 지정되는 시간 필터입니다. 시간 범위를 제한하면 쿼리가 잘 수행되도록 하고 관리 가능한 결과를 반환하며 시간이 초과되지 않도록 할 수 있습니다.
+첫 번째 파이프된 요소는 이전 7일로 범위가 지정되는 시간 필터입니다. 시간 범위를 제한하면 쿼리가 잘 수행되고 관리 가능한 결과를 반환하며 시간 초과를 방지하는 데 도움이 됩니다.
 
 ```kusto
 | where Timestamp > ago(7d)
@@ -107,7 +107,7 @@ union DeviceProcessEvents, DeviceNetworkEvents
 ```
 
 ### <a name="customize-result-columns-and-length"></a>결과 열 및 길이 사용자 지정 
-이제 쿼리에서 찾을 데이터를 명확하게 식별하기 위해 결과의 모양을 정의할 수 있습니다. `project` 특정 열을 반환하고 결과 `top` 수를 제한합니다. 이러한 연산자는 결과가 잘 형식화되어 있으며 상당히 크고 처리하기 쉬운지 보장하는 데 도움이 됩니다.
+이제 쿼리가 찾고자 하는 데이터를 명확하게 식별하므로 결과 모양을 정의할 수 있습니다. `project` 특정 열을 반환하고 결과 `top` 수를 제한합니다. 이러한 연산자는 결과가 잘 형식화되어 있으며 상당히 크고 처리하기 쉬운지 보장하는 데 도움이 됩니다.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -141,15 +141,15 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 이러한 연산자의 실제 예제를 보려면 고급 헌팅의 **시작** 섹션에서 해당 연산자를 실행합니다.
 
-## <a name="understand-data-types"></a>데이터 형식 이해
+## <a name="understand-data-types"></a>데이터 유형 이해
 
 고급 헌팅은 다음과 같은 일반적인 형식을 포함하여 Kusto 데이터 형식을 지원합니다.
 
 | 데이터 형식 | 설명 및 쿼리 의미 |
 |--|--|
 | `datetime` | 일반적으로 이벤트 타임스탬프를 나타내는 데이터 및 시간 정보입니다. [지원되는 datetime 형식 참조](/azure/data-explorer/kusto/query/scalar-data-types/datetime) |
-| `string` | UTF-8의 문자열은 단일 따옴표( ) 또는 `'` 따옴표()로 `"` 묶입니다. [문자열에 대한 자세한 내용은](/azure/data-explorer/kusto/query/scalar-data-types/string) |
-| `bool` | 이 데이터 형식은 지원 `true` 또는 `false` 상태입니다. [지원되는 리터럴 및 연산자 참조](/azure/data-explorer/kusto/query/scalar-data-types/bool) |
+| `string` | 작은 따옴표(`'`) 또는 큰 따옴표(`"`)로 묶인 UTF-8의 문자열입니다. [문자열에 대한 자세한 내용은](/azure/data-explorer/kusto/query/scalar-data-types/string) |
+| `bool` | 이 데이터 유형은 `true` 또는 `false` 상태를 지원합니다. [지원되는 리터럴 및 연산자 참조](/azure/data-explorer/kusto/query/scalar-data-types/bool) |
 | `int` | 32비트 정수  |
 | `long` | 64비트 정수 |
 

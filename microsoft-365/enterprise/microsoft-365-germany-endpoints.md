@@ -21,11 +21,11 @@ ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: 이 문서에서는 독일에서 서비스를 사용하는 고객이 Office 365 있습니다.
 hideEdit: true
 ms.openlocfilehash: f022c82c41aaeeed73af13572234e7826d878158
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575603"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215875"
 ---
 # <a name="office-365-germany-endpoints"></a>Office 365 Germany 끝점
 

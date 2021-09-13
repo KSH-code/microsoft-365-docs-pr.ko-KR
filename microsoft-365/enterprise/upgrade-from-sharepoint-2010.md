@@ -21,11 +21,11 @@ f1.keywords:
 description: SharePoint Server 2010에서 업그레이드할 정보 SharePoint 리소스를 찾아야 합니다. 두 가지 모두 지원은 2021년 4월 13일까지입니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: da824abb7575a509cb988c474e667d0475e821c1
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745748"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215642"
 ---
 # <a name="upgrading-from-sharepoint-2010"></a>SharePoint 2010에서 업그레이드
 

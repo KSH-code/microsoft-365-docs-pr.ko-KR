@@ -20,11 +20,11 @@ ms.custom:
 recommendations: false
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 24bdb7a5d5f4c124365a6b5b7cdc67d53adf8278
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575699"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214232"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 

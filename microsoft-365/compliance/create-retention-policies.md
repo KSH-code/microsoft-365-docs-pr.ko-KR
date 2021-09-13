@@ -16,13 +16,14 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
+ms.custom: admindeeplinkMAC
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 34f4bb10ba79e6521d785df157368cdaae89118a
-ms.sourcegitcommit: bdf506c47bfed0f7e639301a7edd94c4eb150150
+ms.openlocfilehash: 6a58092bb81f45f40f2b0bcdd76312fc1d420e4d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58869194"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213952"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -67,7 +68,7 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 
 ### <a name="retention-policy-for-teams-locations"></a>Teams 위치 보존 정책
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존** 을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **정책** > **보존** 을 선택합니다.
 
 2. **새 보존 정책** 을 선택하여 보존 정책 만들기 구성을 시작하고 새 보존 정책의 이름을 지정합니다.
 
@@ -122,7 +123,7 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
 >
 > 이 기능을 사용하려면 Yammer 네트워크가 하이브리드 모드가 아니라 [기본 모드](/yammer/configure-your-yammer-network/overview-native-mode)여야 합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존** 을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **정책** > **보존** 을 선택합니다.
 
 2. **새 보존 정책** 을 선택하여 새 보존 정책을 만듭니다.
 
@@ -169,7 +170,7 @@ SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당
 - Microsoft 365 그룹
 - 비즈니스용 Skype
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존** 을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **정책** > **보존** 을 선택합니다.
 
 2. **새 보존 정책** 을 선택하여 보존 정책 만들기 구성을 시작하고 새 보존 정책의 이름을 지정합니다.
 
@@ -211,9 +212,16 @@ SharePoint 사이트 또는 OneDrive 계정의 위치를 지정하는 경우, �
 
 포함하거나 제외할 개별 OneDrive 계정을 지정하기 위해 사용자의 OneDrive에 대한 URL은 일반적으로 다음과 같은 형식입니다. UPN(사용자 계정 이름)의 경우 마침표, 쉼표, 공백 및 at 기호("@")와 같은 특수 문자는 밑줄("_")로 변환됩니다. `https://<tenant name>-my.sharepoint.com/personal/<user principal name>`
 
-예를 들어 "rsimone@contoso.onmicrosoft.com"의 UPN이 있는 Contoso 테넌트 사용자의 경우 `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`. 그러나 충돌이 감지되면 숫자 또는 GUID를 추가할 수 있습니다.
+예를 들어 UPN이 “rsimone@contoso.onmicrosoft.com”인 Contoso 테넌트 사용자의 경우, `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`(으)로 변환됩니다
 
-Microsoft 365 관리 센터 또는 PowerShell로 수행할 수 있는 OneDrive 계정의 사용자 URL을 확인하는 것이 항상 가장 좋습니다. 자세한 내용은 [조직의 모든 사용자 OneDrive URL 목록 가져오기](/onedrive/list-onedrive-urls)를 참조하세요.
+또는 UPN이 "rsimone@contoso.com"이 되도록 사용자 지정 도메인 이름을 사용하는 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_com`
+
+그러나 충돌이 감지되면 URL에 숫자 또는 GUID를 추가할 수 있으므로 항상 OneDrive 계정에 대한 사용자의 URL을 확인하는 것이 가장 좋습니다. URL을 확인하려면 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다. 자세한 내용은 [조직의 모든 사용자 OneDrive URL 목록 확인](/onedrive/list-onedrive-urls)을 참조하세요.
+
+> [!NOTE]
+> 포함하거나 제외할 개별 OneDrive 계정을 지정할 때 OneDrive 계정이 [사전 프로비전](/onedrive/pre-provision-accounts)되어 있지 않으면 사용자가 OneDrive에 처음 액세스할 때까지 URL이 생성되지 않는다는 점에 유의하세요.
+> 
+> 또한 사용자의 UPN이 변경되면 OneDrive URL이 [자동적으로 변경](/onedrive/upn-changes)됩니다. 예를 들어, 이름 변경 이벤트(예: 결혼)입니다. 또는 조직의 이름 바꾸기 또는 비즈니스 재구성을 지원하기 위해 도메인 이름을 변경합니다. UPN이 변경되면 여기에서 지정한 OneDrive URL을 업데이트해야 합니다.
 
 ### <a name="configuration-information-for-microsoft-365-groups"></a>Microsoft 365 그룹에 대한 구성 정보
 

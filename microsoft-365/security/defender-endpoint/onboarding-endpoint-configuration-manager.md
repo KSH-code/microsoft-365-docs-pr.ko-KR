@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1fa254f9c7c63d3cd4e5a7a9ccbb2723e01c9966
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: a73dc197a1643a2d1b4de079562579530c081e23
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568615"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214832"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
@@ -35,46 +35,43 @@ ms.locfileid: "58568615"
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
+이 문서는 배포 가이드의 일부로, 온보더링 방법의 예로 사용할 수 있습니다.
 
-이 문서는 배포 가이드의 일부로, 온보더링 방법의 예로 사용할 수 있습니다. 
-
-계획 [항목에서는](deployment-strategy.md) 디바이스를 서비스에 온보드하는 여러 가지 방법이 제공되었습니다. 이 항목에서는 공동 관리 아키텍처에 대해 다산합니다. 
+계획 [항목에서는](deployment-strategy.md) 디바이스를 서비스에 온보드하는 여러 가지 방법이 제공되었습니다. 이 항목에서는 공동 관리 아키텍처에 대해 다산합니다.
 
 ![클라우드 기본 아키텍처의 이미지입니다. ](images/co-management-architecture.png)
  *환경 아키텍처 다이어그램*
 
-
 Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기는 하지만 이 문서에서는 이를 다루지 않습니다. 지원되는 다른 배포 도구 및 방법을 사용하는 일반적인 온보드에 대한 자세한 내용은 [Onboarding overview 를 참조하세요.](onboarding.md)
 
-
-
 이 항목에서는 사용자에게 다음을 안내합니다.
-- 1단계: Windows 장치 온보드 
+
+- 1단계: Windows 장치 온보드
 - 2단계: 끝점 기능에 대한 Defender 구성
 
 이 온보더링 지침은 다음 기본 단계를 안내합니다. 이 가이드를 사용할 때 Microsoft Endpoint Configuration Manager.
+
 - **컬렉션에서 컬렉션 Microsoft Endpoint Configuration Manager**
 - **Microsoft Defender를 사용하여 끝점 기능을 Microsoft Endpoint Configuration Manager**
 
->[!NOTE]
->이 Windows 배포에서는 모든 디바이스에 대해 설명합니다. 
-
-
+> [!NOTE]
+> 이 Windows 배포에서는 모든 디바이스에 대해 설명합니다.
 
 ## <a name="step-1-onboard-windows-devices-using-microsoft-endpoint-configuration-manager"></a>1단계: Windows 사용하여 Microsoft Endpoint Configuration Manager
 
 ### <a name="collection-creation"></a>컬렉션 만들기
-장치를 Windows 10 온보 Microsoft Endpoint Configuration Manager 배포는 기존 컬렉션을 대상으로 지정하거나 테스트하기 위해 새 컬렉션을 만들 수 있습니다. 
 
-그룹 정책 또는 수동 방법과 같은 도구를 사용하여 온보더링하면 시스템에 에이전트가 설치되지 않습니다. 
+장치를 Windows 10 온보 Microsoft Endpoint Configuration Manager 배포는 기존 컬렉션을 대상으로 지정하거나 테스트하기 위해 새 컬렉션을 만들 수 있습니다.
+
+그룹 정책 또는 수동 방법과 같은 도구를 사용하여 온보더링하면 시스템에 에이전트가 설치되지 않습니다.
 
 Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세스는 콘솔 내의 규정 준수 설정의 일부로 구성됩니다.
 
-이 필수 구성을 받는 모든 시스템은 Configuration Manager 클라이언트가 관리 지점에서 이 정책을 계속 받는 한 해당 구성을 유지 관리합니다. 
+이 필수 구성을 받는 모든 시스템은 Configuration Manager 클라이언트가 관리 지점에서 이 정책을 계속 받는 한 해당 구성을 유지 관리합니다.
 
 다음 단계에 따라 온보더를 사용하여 끝점을 Microsoft Endpoint Configuration Manager.
 
-1. Microsoft Endpoint Configuration Manager 콘솔에서 자산 및 준수 **\> 개요 장치 \> 컬렉션으로 이동합니다.**            
+1. Microsoft Endpoint Configuration Manager 콘솔에서 자산 및 준수 **\> 개요 장치 \> 컬렉션으로 이동합니다.**
 
     ![Microsoft Endpoint Configuration Manager 마법사 1의 이미지입니다.](images/configmgr-device-collections.png)
 
@@ -90,7 +87,7 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 
     ![Microsoft Endpoint Configuration Manager 마법사4의 이미지입니다.](images/configmgr-query-rule.png)
 
-5.  직접 **구성원 마법사에서** **다음을 클릭하고** 쿼리 문 **편집 을 클릭합니다.**
+5. 직접 **구성원 마법사에서** **다음을 클릭하고** 쿼리 문 **편집 을 클릭합니다.**
 
      ![Microsoft Endpoint Configuration Manager 마법사5의 이미지입니다.](images/configmgr-direct-membership.png)
 
@@ -110,25 +107,24 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 
     ![Microsoft Endpoint Configuration Manager 마법사9의 이미지입니다.](images/configmgr-confirm.png)
 
+이 작업을 완료한 후 이제 환경의 모든 Windows 10 장치 컬렉션이 있습니다.
 
-이 작업을 완료한 후 이제 환경의 모든 Windows 10 장치 컬렉션이 있습니다. 
 
+## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>2단계: 끝점용 Microsoft Defender 기능 구성
 
-## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>2단계: 끝점용 Microsoft Defender 기능 구성 
 이 섹션에서는 Microsoft Endpoint Configuration Manager 디바이스에서 다음 기능을 Windows 안내합니다.
 
 - [**엔드포인트 감지 및 대응**](#endpoint-detection-and-response)
 - [**차세대 보호**](#next-generation-protection)
 - [**공격 표면 감소**](#attack-surface-reduction)
 
-
 ### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
+
 #### <a name="windows-10"></a>Windows 10
+
 Microsoft 365 Defender 포털 내에서 정책을 만들고 이 정책을 System Center Configuration Manager 장치에 배포하는 데 사용할 수 있는 '.onboarding' 정책을 다운로드할 Windows 10 있습니다.
 
 1. Microsoft 365 Defender 포털에서 설정 [를 선택한 다음 온보더링을 선택합니다.](https://security.microsoft.com/preferences2/onboarding)
-
-
 
 2. 배포 방법에서 지원되는 버전의 **Microsoft Endpoint Configuration Manager.**
 
@@ -149,7 +145,6 @@ Microsoft 365 Defender 포털 내에서 정책을 만들고 이 정책을 System
 
     ![Microsoft Endpoint Configuration Manager 마법사 13의 이미지입니다.](images/configmgr-policy-name.png)
 
-
 8. **찾아보기** 를 클릭합니다.
 
 9. 위의 4단계에서 다운로드한 파일의 위치로 이동합니다.
@@ -163,25 +158,25 @@ Microsoft 365 Defender 포털 내에서 정책을 만들고 이 정책을 System
 
     ![구성 설정의 이미지2.](images/configmgr-telemetry.png)
 
-14. 구성을 확인한 후 다음 을 **클릭합니다.**
+13. 구성을 확인한 후 다음 을 **클릭합니다.**
 
      ![구성 설정의 이미지3.](images/configmgr-verify-configuration.png)
 
-15. **마법사가** 완료되면 닫기 를 클릭합니다.
+14. **마법사가** 완료되면 닫기 를 클릭합니다.
 
-16.  Microsoft Endpoint Configuration Manager 콘솔에서 방금 만든 끝점용 Defender 정책을 마우스 오른쪽 단추로 클릭하고 배포를 **선택합니다.**
+15. Microsoft Endpoint Configuration Manager 콘솔에서 방금 만든 끝점용 Defender 정책을 마우스 오른쪽 단추로 클릭하고 배포를 **선택합니다.**
 
      ![구성 설정의 이미지4.](images/configmgr-deploy.png)
 
-17. 오른쪽 패널에서 이전에 만든 컬렉션을 선택하고 확인 을 **클릭합니다.**
+16. 오른쪽 패널에서 이전에 만든 컬렉션을 선택하고 확인 을 **클릭합니다.**
 
     ![구성 설정의 이미지5.](images/configmgr-select-collection.png)
 
-
 #### <a name="previous-versions-of-windows-client-windows-7-and-windows-81"></a>이전 버전의 Windows 클라이언트(Windows 7 및 Windows 8.1)
+
 이전 버전의 작업 영역의 온보딩에 필요한 끝점 작업 영역 ID 및 작업 영역 키에 대한 Defender를 식별하려면 Windows.
 
-1. Microsoft 365 Defender 포털에서 **끝점** 설정(장치 관리 아래)를  >    >   **선택합니다.**
+1. Microsoft 365 Defender 포털에서 **끝점** 설정(장치 관리 아래)를 \>  \>  **선택합니다.**
 
 2. 운영 체제에서 Windows **7 SP1 및 8.1 을 선택하십시오.**
 
@@ -189,38 +184,32 @@ Microsoft 365 Defender 포털 내에서 정책을 만들고 이 정책을 System
 
     ![온보더링 이미지입니다.](images/91b738e4b97c4272fd6d438d8c2d5269.png)
 
-4. MMA(Microsoft Monitoring Agent 설치합니다. <br>
-    MMA는 현재(2019년 1월 현재) 다음 운영 체제에서 Windows 지원됩니다.
+4. MMA(Microsoft Monitoring Agent 설치합니다.
 
-    -   서버 SKUS: Windows Server 2008 SP1 이상
+   MMA는 현재(2019년 1월 현재) 다음 운영 체제에서 Windows 지원됩니다.
 
-    -   클라이언트 SKUS: Windows 7 SP1 이상
+   - 서버 SKUS: Windows Server 2008 SP1 이상
+   - 클라이언트 SKUS: Windows 7 SP1 이상
 
-    MMA 에이전트는 디바이스에 Windows 합니다. 에이전트를 설치하려면 일부 시스템에서 MMA를 사용하여 데이터를 수집하기 위해 고객 환경 및 진단 원격 분석용 업데이트를 다운로드해야 합니다. [](https://support.microsoft.com/help/3080149/update-for-customer-experience-and-diagnostic-telemetry) 이러한 시스템 버전은 다음과 같습니다.
+   MMA 에이전트는 디바이스에 Windows 합니다. 에이전트를 설치하려면 일부 시스템에서 MMA를 사용하여 데이터를 수집하기 위해 고객 환경 및 진단 원격 분석용 업데이트를 다운로드해야 합니다. [](https://support.microsoft.com/help/3080149/update-for-customer-experience-and-diagnostic-telemetry) 이러한 시스템 버전은 다음과 같습니다.
 
-    -   Windows 8.1
+   - Windows 8.1
+   - Windows 7
+   - Windows Server 2016
+   - Windows Server 2012 R2
+   - Windows Server 2008 R2
 
-    -   Windows 7
+   특히, Windows SP1의 경우 다음 패치를 설치해야 합니다.
 
-    -   Windows Server 2016
-
-    -   Windows Server 2012 R2
-
-    -   Windows Server 2008 R2
-
-    특히, Windows SP1의 경우 다음 패치를 설치해야 합니다.
-
-    -   [KB4074598 설치](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
-
-    -   4..NET Framework 이상 또는 KB3154518 중 하나를 [](https://www.microsoft.com/download/details.aspx?id=30653) 
-         [설치합니다.](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework)
-        동일한 시스템에 두 가지를 모두 설치하지 않습니다.
+   - [KB4074598 설치](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
+   - [4..NET Framework 이상](https://www.microsoft.com/download/details.aspx?id=30653) 또는  [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework)중 하나를 설치합니다. 동일한 시스템에 두 가지를 모두 설치하지 않습니다.
 
 5. 프록시를 사용하여 인터넷에 연결하는 경우 프록시 설정 구성 섹션을 참조하세요.
 
 완료되면 1시간 이내에 포털에 온보드 엔드포인트가 표시될 것입니다.
 
-### <a name="next-generation-protection"></a>차세대 보호 
+### <a name="next-generation-protection"></a>차세대 보호
+
 Microsoft Defender 바이러스 백신은 데스크톱, 휴대용 컴퓨터 및 서버에 대한 차세대 보호를 제공하는 기본 제공 맬웨어 방지 솔루션입니다.
 
 1. Microsoft Endpoint Configuration Manager 콘솔에서 자산 및 준수 개요 Endpoint Protection 맬웨어 방지 정책 만들기 **를 선택 합니다.** **\> \> \>**
@@ -233,10 +222,9 @@ Microsoft Defender 바이러스 백신은 데스크톱, 휴대용 컴퓨터 및 
 
     특정 산업이나 일부 엔터프라이즈 고객은 바이러스 백신 구성 방법에 대한 특정 요구가 있을 수 있습니다.
 
-  
     [빠른 검사와 전체 검사 및 사용자 지정 검사](/windows/security/threat-protection/microsoft-defender-antivirus/scheduled-catch-up-scans-microsoft-defender-antivirus#quick-scan-versus-full-scan-and-custom-scan)
 
-    자세한 내용은 구성 프레임워크 Windows 보안 [참조](/windows/security/threat-protection/windows-security-configuration-framework/windows-security-configuration-framework)
+    자세한 내용은 구성 프레임워크 [Windows 보안 참조합니다.](/windows/security/threat-protection/windows-security-configuration-framework/windows-security-configuration-framework)
   
     ![차세대 보호 창의 이미지 2.](images/cd7daeb392ad5a36f2d3a15d650f1e96.png)
 
@@ -265,7 +253,8 @@ Microsoft Defender 바이러스 백신은 데스크톱, 휴대용 컴퓨터 및 
 이 작업을 완료한 후 이제 작업을 성공적으로 구성했습니다Windows Defender 바이러스 백신.
 
 ### <a name="attack-surface-reduction"></a>공격 표면 감소
-Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 사용할 수 있는 기능 집합이 포함되어 있습니다. ASR(공격 표면 축소) 규칙, 제어된 폴더 액세스, 네트워크 보호 및 Exploit Protection 
+
+Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 사용할 수 있는 기능 집합이 포함되어 있습니다. ASR(공격 표면 축소) 규칙, 제어된 폴더 액세스, 네트워크 보호 및 Exploit Protection
 
 이러한 모든 기능은 감사 모드와 차단 모드를 제공합니다. 감사 모드에서는 최종 사용자에게 영향을 미치지 않습니다. 추가 원격 분석만 수집하고 검색 포털에서 사용할 Microsoft 365 Defender 있습니다. 배포의 목표는 단계별 보안 컨트롤을 차단 모드로 이동하는 것입니다.
 
@@ -275,11 +264,9 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
    ![console0 Microsoft Endpoint Configuration Manager 이미지입니다.](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
-2.  공격 **표면 감소를 선택합니다.**
-   
+2. 공격 **표면 감소를 선택합니다.**
 
 3. 규칙을 **감사로 설정하고** 다음 을 **클릭합니다.**
-
 
     ![console1 Microsoft Endpoint Configuration Manager 이미지입니다.](images/d18e40c9e60aecf1f9a93065cb7567bd.png)
 
@@ -287,33 +274,28 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![콘솔 Microsoft Endpoint Configuration Manager 이미지입니다.](images/0a6536f2c4024c08709cac8fcf800060.png)
 
-    
 5. 정책을 만든 후 닫기 **를 클릭합니다.**
 
     ![콘솔 Microsoft Endpoint Configuration Manager 이미지입니다.](images/95d23a07c2c8bc79176788f28cef7557.png)
 
-    ![console1의 Microsoft Endpoint Manager 이미지입니다.](images/95d23a07c2c8bc79176788f28cef7557.png)
-   
+6. 새로 만든 정책을 마우스 오른쪽 단추로 클릭하고 배포 를 **클릭합니다.**
 
-6.  새로 만든 정책을 마우스 오른쪽 단추로 클릭하고 배포 를 **클릭합니다.**
-    
     ![console4 Microsoft Endpoint Configuration Manager 이미지입니다.](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
 7. 새로 만든 Windows 10 정책을 대상으로 지정하고 확인을 **클릭합니다.**
 
     ![콘솔 Microsoft Endpoint Configuration Manager 이미지입니다.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
-이 작업을 완료한 후 감사 모드에서 ASR 규칙을 성공적으로 구성했습니다.  
-  
-다음은 ASR 규칙이 끝점에 올바르게 적용되는지 확인하기 위한 추가 단계입니다. (이 경우 몇 분 정도 걸릴 수 있습니다.)
+이 작업을 완료한 후 감사 모드에서 ASR 규칙을 성공적으로 구성했습니다.
 
+다음은 ASR 규칙이 끝점에 올바르게 적용되는지 확인하기 위한 추가 단계입니다. (이 경우 몇 분 정도 걸릴 수 있습니다.)
 
 1. 웹 브라우저에서 로 <https://security.microsoft.com> 이동합니다.
 
-2.  왼쪽 **메뉴에서** 구성 관리를 선택합니다.
+2. 왼쪽 **메뉴에서** 구성 관리를 선택합니다.
 
-3. 공격 **표면 관리 패널에서** 공격 표면 관리로 이동을 클릭합니다. 
-    
+3. 공격 **표면 관리 패널에서** 공격 표면 관리로 이동을 클릭합니다.
+
     ![공격 표면 관리의 이미지입니다.](images/security-center-attack-surface-mgnt-tile.png)
 
 4. 공격 **표면** 감소 규칙 보고서에서 구성 탭을 클릭합니다. 각 디바이스에서 ASR 규칙 구성 개요 및 ASR 규칙 상태를 보여줍니다.
@@ -324,27 +306,27 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![공격 표면 감소 규칙 보고서 2의 스크린샷.](images/24bfb16ed561cbb468bd8ce51130ca9d.png)
 
-자세한 [내용은 ASR 규칙 배포 및](/microsoft-365/security/defender-endpoint/configure-machines-asr)   검색 최적화를 참조합니다.  
+자세한 [내용은 ASR 규칙 배포 및](/microsoft-365/security/defender-endpoint/configure-machines-asr) 검색 최적화를 참조합니다.
 
+#### <a name="set-network-protection-rules-in-audit-mode"></a>감사 모드에서 네트워크 보호 규칙 설정
 
-#### <a name="set-network-protection-rules-in-audit-mode"></a>감사 모드에서 네트워크 보호 규칙을 설정:
 1. Microsoft Endpoint Configuration Manager 콘솔에서 Exploit Guard를 사용하여 자산 및 준수 Endpoint Protection **\> Windows Defender \> \> 탐색하고** Exploit Guard 정책 **만들기 를 선택하세요.**
 
     ![Configuration Manager1의 System Center 스크린샷.](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
 2. 네트워크 **보호 를 선택합니다.**
 
-3. 설정을 감사로 **설정하고** 다음을 **클릭합니다.** 
+3. 설정을 감사로 **설정하고** 다음을 **클릭합니다.**
 
-    ![Confirugatiom Manager2의 System Center 스크린샷입니다.](images/c039b2e05dba1ade6fb4512456380c9f.png)
+    ![Configuration Manager2의 System Center 스크린샷.](images/c039b2e05dba1ade6fb4512456380c9f.png)
 
 4. 다음 을 클릭하여 새 Exploit Guard 정책을 **확인 합니다.**
-    
-    ![스크린샷 Exploit GUard 정책1.](images/0a6536f2c4024c08709cac8fcf800060.png)
+
+    ![스크린샷 Exploit Guard 정책1.](images/0a6536f2c4024c08709cac8fcf800060.png)
 
 5. 정책이 만들어지면 닫기 를 **클릭합니다.**
 
-    ![스크린샷 Exploit GUard 정책2.](images/95d23a07c2c8bc79176788f28cef7557.png)
+    ![스크린샷 Exploit Guard 정책2.](images/95d23a07c2c8bc79176788f28cef7557.png)
 
 6. 새로 만든 정책을 마우스 오른쪽 단추로 클릭하고 배포 를 **클릭합니다.**
 
@@ -354,22 +336,20 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![스크린샷 Microsoft Endpoint Configuration Manager2.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
-
-
 이 작업을 완료한 후 감사 모드에서 네트워크 보호를 성공적으로 구성했습니다.
 
-#### <a name="to-set-controlled-folder-access-rules-in-audit-mode"></a>감사 모드에서 제어된 폴더 액세스 규칙을 설정하는 경우:
+#### <a name="to-set-controlled-folder-access-rules-in-audit-mode"></a>감사 모드에서 제어된 폴더 액세스 규칙을 설정
 
 1. Microsoft Endpoint Configuration Manager 콘솔에서 Exploit Guard를 사용하여 자산 및 준수 Endpoint Protection **\> Windows Defender \> \> 탐색하고** Exploit Guard 정책 **만들기 를 선택하세요.**
 
     ![Microsoft Endpoint Configuration Manager3의 스크린샷.](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
 2. 제어된 **폴더 액세스 를 선택합니다.**
-    
+
 3. 구성을 **감사로 설정하고** 다음 을 **클릭합니다.**
 
-    ![Microsoft Endpoint Configuration Manager4의 스크린샷](images/a8b934dab2dbba289cf64fe30e0e8aa4.png)    
-    
+    ![Microsoft Endpoint Configuration Manager4의 스크린샷](images/a8b934dab2dbba289cf64fe30e0e8aa4.png)
+
 4. 다음 을 클릭하여 새 Exploit Guard 정책을 **확인 합니다.**
 
     ![Microsoft Endpoint Configuration Manager5의 스크린샷.](images/0a6536f2c4024c08709cac8fcf800060.png)
@@ -382,11 +362,12 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![Microsoft Endpoint Configuration Manager7의 스크린샷.](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7.  새로 만든 Windows 10 정책을 대상으로 지정하고 확인을 **클릭합니다.**
+7. 새로 만든 Windows 10 정책을 대상으로 지정하고 확인을 **클릭합니다.**
 
     ![Microsoft Endpoint Configuration Manager8의 스크린샷입니다.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
 이제 감사 모드에서 제어된 폴더 액세스를 구성했습니다.
 
 ## <a name="related-topic"></a>관련 항목
+
 - [Microsoft Endpoint Manager를 사용하여 온보딩](onboarding-endpoint-manager.md)

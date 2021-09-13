@@ -25,11 +25,11 @@ f1.keywords:
 description: 이 문서에서는 Office 2007 서버 및 클라이언트에서 업그레이드하는 데 도움이 되는 리소스를 제공합니다. Office 2007에 대한 지원이 종료되었습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: c3f90bed99816378d4e44bb714b4c6104a9302b7
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354191"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215665"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2007-servers-and-clients"></a>2007 서버 및 클라이언트에서 업그레이드하는 Office 리소스
 

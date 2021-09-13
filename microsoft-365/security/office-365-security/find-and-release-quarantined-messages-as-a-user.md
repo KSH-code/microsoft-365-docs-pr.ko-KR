@@ -21,11 +21,11 @@ description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Prote
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 04a3831ec923ec24846eb6d0e76273d1010862c6
-ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58831948"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214432"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 

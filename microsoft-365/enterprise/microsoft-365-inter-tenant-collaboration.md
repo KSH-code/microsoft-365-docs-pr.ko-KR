@@ -20,11 +20,11 @@ f1.keywords:
 description: 테넌트 Microsoft 365 조직 전체에서 공동 작업의 작동 방식에 대해 알아보고, 여러 조직이 안전하게 공동 작업할 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 05a1756d4707ba51d1175f0f5f5701f89fd7f5a4
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747044"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215872"
 ---
 # <a name="microsoft-365-inter-tenant-collaboration"></a>Microsoft 365 테넌트 간 공동 작업
 

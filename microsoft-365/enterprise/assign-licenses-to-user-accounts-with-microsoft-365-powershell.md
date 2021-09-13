@@ -22,11 +22,11 @@ search.appverid:
 - MET150
 description: 이 문서에서는 PowerShell을 사용하여 라이선스가 없는 사용자에게 Microsoft 365 라이선스를 할당하는 방법을 학습합니다.
 ms.openlocfilehash: 2af81099b2771c69b642308fb50500b358d64780
-ms.sourcegitcommit: fac7b4b0095254c87b2a341fa2d53a42193f8957
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58417966"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213885"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 계정에 라이선스 할당
 
@@ -117,7 +117,7 @@ Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
 ```
 
-예를 들어:
+예를 들어,
 
 ```powershell
 Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US

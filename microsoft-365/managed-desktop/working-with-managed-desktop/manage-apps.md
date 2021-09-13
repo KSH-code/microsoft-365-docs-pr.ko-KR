@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: normal
 ms.date: 01/18/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ffa1d96e1a700049fcfad47f9be15376fa3bd8ee566be08707a2b559e66b8c9d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b016d8458b4b4cc9f6b684d3b8a3c0a1e1322fef
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904266"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215172"
 ---
 # <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 업무용 앱 관리
 

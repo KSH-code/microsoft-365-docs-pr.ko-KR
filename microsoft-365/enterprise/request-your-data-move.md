@@ -16,11 +16,11 @@ f1.keywords:
 description: 기존 Office 365 고객은 해당 국가가 새 지역으로 Microsoft 365 요청을 제출해야 합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: fa3464a33143f442a38adb8693bb77b9d174114d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574679"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215705"
 ---
 # <a name="how-to-request-your-data-move"></a>데이터 이동을 요청하는 방법
 

@@ -21,11 +21,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 699d8c1d8ea7ac6928c96b6c98226ab82e0725fb
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58254988"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214612"
 ---
 # <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>역할 기반 액세스 제어에서 사용자 지정 역할 Microsoft 365 Defender
 
@@ -68,7 +68,7 @@ AAD(Microsoft 365 Defender 전역 역할을 사용하여 사용자 액세스 권
 사이트 포털에서 사용 권한 및 역할을 관리할 Microsoft 365 Defender 있습니다.
 
 1. Microsoft 365 Defender 포털에 로그인합니다 security.microsoft.com.
-2. 탐색 창에서 사용 권한 및 **& 선택합니다.**
+2. 탐색 창에서 **사용 권한 및 역할** 을 선택합니다.
 3. 사용 **권한 헤더에서** 역할을 **선택합니다.**
 
 > [!NOTE]
@@ -83,7 +83,7 @@ AAD(Microsoft 365 Defender 전역 역할을 사용하여 사용자 액세스 권
  
 | **다음 역할 중 하나는 Microsoft 365 Defender**  | **Endpoint용 Defender에는 다음 역할 중 하나가 필요합니다.**  | **Defender에서 다음 역할 중 하나를 Office 365** | **다음 역할 중 하나는 다음 Cloud App Security** | 
 |---------|---------|---------|---------|
-| 조사 데이터 보기: <ul><li>경고 페이지</li> <li>경고 큐</li> <li>인시던트</li>  <li>인시던트 큐</li> <li>작업 센터</li></ul>| 데이터 보기 - 보안 작업 | <ul><li>보기 전용 경고 관리 </li> <li>조직 구성</li><li>감사 로그</li> <li>보기 전용 감사 로그</li> <li>보안 읽기 권한자</li> <li>보안 관리자</li><li>보기 전용 받는 사람</li></ul>  | <ul><li>전역 관리자</li> <li>보안 관리자</li> <li>준수 관리자</li> <li>보안 운영자</li> <li>보안 읽기 권한자</li> <li>전역 읽기 권한자</li></ul> |
+| 조사 데이터 보기: <ul><li>경고 페이지</li> <li>경고 큐</li> <li>인시던트</li>  <li>인시던트 큐</li> <li>알림 센터 </li></ul>| 데이터 보기 - 보안 작업 | <ul><li>보기 전용 경고 관리 </li> <li>조직 구성</li><li>감사 로그</li> <li>보기 전용 감사 로그</li> <li>보안 읽기 권한자</li> <li>보안 관리자</li><li>보기 전용 받는 사람</li></ul>  | <ul><li>전역 관리자</li> <li>보안 관리자</li> <li>준수 관리자</li> <li>보안 운영자</li> <li>보안 읽기 권한자</li> <li>전역 읽기 권한자</li></ul> |
 | 헌팅 데이터 보기 | 데이터 보기 - 보안 작업 | <ul><li>보안 읽기 권한자</li> <li>보안 관리자</li> <li>보기 전용 받는 사람</li> | <ul><li>전역 관리자</li> <li>보안 관리자</li> <li>준수 관리자</li> <li>보안 운영자</li> <li>보안 읽기 권한자</li> <li>전역 읽기 권한자</li></ul> |
 | 경고 및 인시던트 관리 | 경고 조사 | <ul><li>경고 관리</li> <li>보안 관리자</li> | <ul><li>전역 관리자</li> <li>보안 관리자</li> <li>준수 관리자</li> <li>보안 운영자</li> <li>보안 읽기 권한자</li></ul> |
 | 관리 센터 수정 | 활성 수정 작업 - 보안 작업 | 검색 및 제거 | |
@@ -100,5 +100,5 @@ AAD(Microsoft 365 Defender 전역 역할을 사용하여 사용자 액세스 권
 - 보기 전용 받는 사람
 
 ## <a name="related-topics"></a>관련 항목
-- [사용자에 대한 액세스 Microsoft 365 Defender](m365d-permissions.md)
+- [Microsoft 365 Defender에 대한 액세스 관리](m365d-permissions.md)
 - [MCAS에 대한 관리자 액세스 관리](/cloud-app-security/manage-admins)

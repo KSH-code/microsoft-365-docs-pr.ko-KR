@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 711f4bf3289283147fd96d9cb360ff50edaa58764682ec10fde2f0ee3c15303d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 44c816dd867d7be828db6f09ce0675a17c70b3b8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873322"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214065"
 ---
 # <a name="contact-support-for-benin"></a>Benin 지원에 문의
 

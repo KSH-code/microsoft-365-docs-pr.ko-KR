@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 64b420ef-0218-48f6-8a34-74bb27633b10
 description: Microsoft 365 인터넷 연결을 사용하여 전 세계 고객이 서비스에 연결할 수 있도록 합니다. 서비스가 발전함에 따라 Microsoft 365 인터넷을 사용하여 서비스에 대한 연결을 설정하는 고객을 기반으로 보안, 성능 및 안정성이 향상됩니다.
-ms.openlocfilehash: ae3b06a607d3e45f5f1067616ba46c4226dde55766e02bd9f75b70313095474e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4d80bdf5642b2456ac8293291c720429f7f18fb1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885414"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213895"
 ---
 # <a name="assessing-microsoft-365-network-connectivity"></a>Microsoft 365 네트워크 연결 평가
 
@@ -45,7 +45,7 @@ Microsoft 365 인터넷 연결을 사용하여 전 세계 고객이 서비스에
 
 - 네트워크 [Microsoft 365 대한](microsoft-365-networking-overview.md) 개념 정보는 Microsoft 365 네트워크 연결 개요를 참조하세요.
 - 네트워크 [Microsoft 365](./microsoft-365-network-connectivity-principles.md) 원칙을 참조하여 트래픽을 안전하게 관리하고 Microsoft 365 성능을 확보하기 위한 연결 원칙을 이해하세요.
-- 계획, 디자인 및 배포에 대한 Microsoft 365 Microsoft [FastTrack에](https://www.microsoft.com/fasttrack) 등록하세요. 
+- Microsoft [FastTrack](https://www.microsoft.com/fasttrack) 계획, 디자인 및 배포에 대한 Microsoft 365 지원을 요청하세요. 
 - 아래 [Microsoft 365](assessing-network-connectivity.md#the-microsoft-365-connectivity-test) 연결 테스트 섹션을 참조하여 특정 사용자 위치와 사용자 위치 간에 수행될 수 있는 네트워킹 연결 개선에 대한 특정 지침을 제공하는 기본 연결 테스트를 Microsoft 365.
 
 > [!NOTE]
@@ -57,7 +57,7 @@ Microsoft 365 인터넷 연결을 사용하여 전 세계 고객이 서비스에
 
 - 당사는 가용성, 전역 도달 Microsoft 365 인터넷 기반 연결의 성능과 같은 핵심적인 측면을 지속적으로 최적화하고 있습니다. 예를 들어 많은 Microsoft 365 인터넷 연결 에지 노드 집합을 활용합니다. 이 에지 네트워크는 인터넷을 통해 연결에 가장 근접하고 성능을 제공합니다.
 
-- Microsoft 365 온라인 음성 Teams비즈니스용 Skype 비디오 또는 모임 기능과 같은 포함된 서비스에 대해 Microsoft 365 사용을 고려할 때 고객은 종단 간 네트워크 평가를 완료하고 [Microsoft FastTrack을](https://www.microsoft.com/fasttrack)사용하여 연결 요구 사항을 충족해야 합니다.
+- Microsoft 365 온라인 음성, 비디오 또는 모임 기능과 같은 Teams 또는 비즈니스용 Skype Online 음성, 비디오 또는 모임 기능에 대해 서비스를 사용할 때 고객은 종단 간 네트워크 평가를 완료하고 [Microsoft](https://www.microsoft.com/fasttrack)FastTrack.
 
 네트워크 평가를 Microsoft 365 어디서 시작해야 할지 잘 모를 경우 또는 해결해야 할 지원이 필요한 네트워크 디자인 문제를 발견한 경우 Microsoft 계정 팀과 함께 작업하세요.
 

@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 8f43b68552a62761e3b9530edc39c886e14ac4f5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: fca661342bfa6ba16da12aeb34b0c3ae804fc860
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576011"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214982"
 ---
 # <a name="new-configuration-profiles-for-macos-catalina-and-newer-versions-of-macos"></a>macOS 카탈로니아 및 최신 버전의 macOS용 새 구성 프로필
 
@@ -60,7 +60,7 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 
 다음 JAMF 페이로드를 추가하여 끝점 끝점용 Microsoft Defender 보안 확장에 대한 전체 디스크 액세스 권한을 부여합니다. 이 정책은 디바이스에서 확장을 실행하기 위한 선행 필요합니다.
 
-1. 옵션 **개인**  >  **정보 기본 설정 정책 제어 를 선택합니다.**
+1. 옵션 **개인** \> **정보 기본 설정 정책 제어 를 선택합니다.**
 2. `com.microsoft.wdav.epsext`식별자 **및** `Bundle ID` 번들 **유형으로 사용**
 3. 코드 요구 사항을 다음으로 설정 `identifier "com.microsoft.wdav.epsext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`
 4. 앱 **또는 서비스를** **SystemPolicyAllFiles로 설정하고** 허용에 **액세스합니다.**
@@ -71,9 +71,9 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 
 끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft 365 Defender 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
->[!NOTE]
->JAMF에는 콘텐츠 필터링 정책에 대한 기본 제공 지원이 없습니다. 이는 macOS의 끝점용 Microsoft Defender가 장치에 설치하는 네트워크 확장을 사용하도록 설정하기 위한 전제입니다. 또한 JAMF는 배포되는 정책의 콘텐츠를 변경하는 경우도 있습니다.
->따라서 다음 단계에서는 구성 프로필에 서명하는 작업을 수행합니다.
+> [!NOTE]
+> JAMF에는 콘텐츠 필터링 정책에 대한 기본 제공 지원이 없습니다. 이는 macOS의 끝점용 Microsoft Defender가 장치에 설치하는 네트워크 확장을 사용하도록 설정하기 위한 전제입니다. 또한 JAMF는 배포되는 정책의 콘텐츠를 변경하는 경우도 있습니다.
+> 따라서 다음 단계에서는 구성 프로필에 서명하는 작업을 수행합니다.
 
 1. 텍스트 편집기를 사용하여 장치에 다음 `com.microsoft.network-extension.mobileconfig` 콘텐츠를 저장합니다.
 
@@ -178,17 +178,22 @@ macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 
 시스템 확장을 승인합니다.
 
-1. Intune에서 장치 구성  >  **관리를 열고** 프로필 **만들기**  >  **를**  >  **선택합니다.**
+1. Intune에서 장치  구성 \> **관리를 열고** 프로필 **만들기** \> **를** \> **선택합니다.**
 2. 프로필 이름을 선택하세요. **Platform=macOS를** **프로필 유형=확장으로 변경합니다.** **만들기** 를 선택합니다.
 3. 탭에서 `Basics` 이 새 프로필에 이름을 지정합니다.
 4. 탭에서 `Configuration settings` 섹션에 다음 항목을 `Allowed system extensions` 추가합니다.
 
-    번들 식별자         | 팀 식별자
-    --------------------------|----------------
-    com.microsoft.wdav.epsext | UBF8T346G9
-    com.microsoft.wdav.netext | UBF8T346G9
+   <br>
 
-    ![시스템 구성 프로필 스크린샷.](images/mac-system-extension-intune2.png)
+   ****
+
+   |번들 식별자|팀 식별자|
+   |---|---|
+   |com.microsoft.wdav.epsext|UBF8T346G9|
+   |com.microsoft.wdav.netext|UBF8T346G9|
+   |||
+
+   ![시스템 구성 프로필 스크린샷.](images/mac-system-extension-intune2.png)
 
 5. 탭에서 이 프로필을 모든 사용자 및 모든 & `Assignments` **할당합니다.**
 6. 이 구성 프로필을 검토하고 만들 수 있습니다.
@@ -305,7 +310,7 @@ sysext.xml: OK
 
 이 사용자 지정 구성 프로필을 배포하려면
 
-1. Intune에서 장치 구성  >  **관리를 열고** 프로필 **관리**  >  **프로필**  >  **만들기 를 선택합니다.**
+1. Intune에서 장치  구성 \> **관리를 열고** 프로필 **관리** \> **프로필** \> **만들기 를 선택합니다.**
 2. 프로필 이름을 선택하세요. **Platform=macOS** 및 **Profile type=Custom을 변경합니다.** 구성을 **선택합니다.**
 3. 구성 프로필을 열고 **sysext.xml.** 이 파일은 이전 단계에서 만들어졌습니다.
 4. **확인** 을 선택합니다.

@@ -15,12 +15,12 @@ ms.custom:
 description: EOP(Exchange Online Protection)가 독립 실행형 및 하이브리드 환경에서 어떻게 프레미스 전자 메일 조직을 보호할 수 있도록 하는지 알아보십시오.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8214e4b64dbd1c89f9b393e9e88cd57e6b72dde73740874b46e4118b9916411a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a925b251ff79aec5acaa0b2c1da2aee3f5a6d70d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56813831"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214442"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -80,7 +80,7 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 
 모든 EOP 구독 계획의 요구 사항, 중요한 제한 및 기능 가용성에 대한 자세한 내용은 Exchange Online Protection [서비스 설명을 참조하세요.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
 
-**참고:**
+**참고**:
 
 - EOP에서는 메시지 내에서 알려진 악성 링크를 검색하는 데 도움이 되는 여러 URL 차단 목록을 사용합니다.
 - EOP는 스팸을 보내는 것으로 알려진 방대한 도메인 목록을 사용 합니다.
@@ -102,7 +102,7 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 |피싱 방지|[2016년 8월의 피싱 Microsoft 365](set-up-anti-phishing-policies.md) <p> [EOP에서 스팸 방지 정책 구성](configure-anti-phishing-policies-eop.md)|
 |스푸핑 방지 보호 기능|[EOP의 스푸핑 인텔리전스 정보](learn-about-spoof-intelligence.md) <p> [테넌트 허용/차단 목록 관리](tenant-allow-block-list.md)|
 |배달된 맬웨어, 스팸 및 피싱 메시지에 대한 ZAP(제로 아워 자동 제거)|[Exchange Online](zero-hour-auto-purge.md)|
-|보안 정책 미리조정|[EOP 및 Microsoft Defender for Office 365](preset-security-policies.md) <p> [EOP 및 Microsoft Defender for Office 365](configuration-analyzer-for-security-policies.md)|
+|미리 설정된 보안 정책|[EOP 및 Microsoft Defender for Office 365](preset-security-policies.md) <p> [EOP 및 Microsoft Defender for Office 365](configuration-analyzer-for-security-policies.md)|
 |테넌트 허용/차단 목록|[테넌트 허용/차단 목록 관리](tenant-allow-block-list.md)|
 |메시지 보낸 사람에 대한 차단 목록|[EOP에서 차단된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)|
 |메시지 보낸 사람에 대한 목록 허용|[EOP에서 수신 가능한 보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)|
@@ -118,7 +118,7 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 |커넥터|[2013에서 커넥터를 사용하여 메일 흐름 Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)|
 |커넥터에 대한 향상된 필터링|[서버의 커넥터에 대한 Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)|
 |**모니터링**||
-|Message trace|[메시지 추적](message-trace-scc.md) <p> [Exchange 센터의 메시지 추적](/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)|
+|메시지 추적|[메시지 추적](message-trace-scc.md) <p> [Exchange 센터의 메시지 추적](/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)|
 |전자 메일 & 공동 작업 보고서|[전자 메일 보안 보고서 보기](view-email-security-reports.md)|
 |메일 흐름 보고서|[메일 흐름 보고서 보기](view-mail-flow-reports.md) <p> [Exchange 관리 센터의 메일 흐름 보고서](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
 |메일 흐름 인사이트|[메일 흐름 인사이트](mail-flow-insights-v2.md) <p> [Exchange 관리 센터의 메일 흐름 정보](/exchange/monitoring/mail-flow-insights/mail-flow-insights)|

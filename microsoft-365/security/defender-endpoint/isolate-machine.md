@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 8066fe3cbb0a8c6662048e5f349f834428f419e9
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257721"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215082"
 ---
 # <a name="isolate-machine-api"></a>컴퓨터 격리 API
 

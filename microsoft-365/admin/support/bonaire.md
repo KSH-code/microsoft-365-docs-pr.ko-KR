@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e03c1c7a07cf754c29aec37ce13dd6b74b77860b481f2e241e8d830c515ddc59
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 602812fb866e5d4940b2ccedfb90c46ddd9893a6
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862290"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214015"
 ---
 # <a name="contact-support-for-bonaire"></a>보나르에 대한 고객 지원에 문의
 

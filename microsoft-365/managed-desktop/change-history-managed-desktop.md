@@ -14,11 +14,11 @@ ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
 ms.openlocfilehash: 6b12451a3c64384d46ad53af14ff17761d515251
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58257683"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215575"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
@@ -185,7 +185,7 @@ ms.locfileid: "58257683"
 --- | ---
 [Microsoft Managed Desktop 앱 요구 사항](service-description/mmd-app-requirements.md) | 업데이트된 문서
 [규정 준수](intro/compliance.md) | 업데이트된 문서
-[앱 제어 시작하기](get-started/get-started-app-control.md) | 업데이트된 문서
+[앱 컨트롤 시작](get-started/get-started-app-control.md) | 업데이트된 문서
 [앱 제어 작업](working-with-managed-desktop/work-with-app-control.md) | 업데이트된 문서
 [Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트된 문서
 [앱 제어](service-description/app-control.md) | 업데이트된 문서

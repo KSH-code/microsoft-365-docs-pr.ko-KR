@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: Microsoft 365, 그룹 및 Teams 액세스 제어에 대해 SharePoint.
-ms.openlocfilehash: 37ea23956e4d4953da631eeb47bc227ad1059a335e68752c5c5b9ab82cef6deb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3e0485813a264fe9042e0de9596ba07e50ef72a3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853010"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214205"
 ---
 # <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Microsoft 365, Teams 및 SharePoint
 

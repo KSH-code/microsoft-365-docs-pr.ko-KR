@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 83c5ce953b298c61502f2bc10a5d01191bfb98d1d39690a9472509058d8f37db
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 59a2b8227eb7e410ecf8506ce288978213537edc
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857894"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215382"
 ---
 # <a name="exceptions-to-the-service-plan"></a>서비스 계획에 대한 예외
 
@@ -31,7 +31,7 @@ Microsoft Managed Desktop 장치 [목록,](device-policies.md)표준 장치 설�
 |디지털 환경 모니터링     |  IT에 보고하기 위해 사용자의 장치에서 데이터를 추적하는 데 사용되는 소프트웨어       |
 |하드웨어 또는 소프트웨어 드라이버     |   응용 프로그램 요구 사항에 따라 제한되는 [장치 드라이버](mmd-app-requirements.md)      |
 |정책     | Windows 10 엔터프라이즈용 Microsoft 365 앱 설정 또는 설정 관리        |
-|장치     | 디바이스 목록에 없는 Microsoft Managed Desktop [장치](device-list.md)        |
+|디바이스     | 디바이스 목록에 없는 Microsoft Managed Desktop [장치](device-list.md)        |
 |기타     |  다른 영역에서 다루지 않는 모든 것       |
  
 ## <a name="request-an-exception"></a>예외 요청

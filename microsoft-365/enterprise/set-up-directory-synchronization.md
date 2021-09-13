@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 1b3b5318-6977-42ed-b5c7-96fa74b08846
 description: Microsoft 365 Active Directory 간에 디렉터리 동기화를 설정하는 방법을 알아보십시오.
 ms.openlocfilehash: f6537e1c813e564b728891ffb13f644c3850a07e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574018"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215682"
 ---
 # <a name="set-up-directory-synchronization-for-microsoft-365"></a>사용자에 대한 디렉터리 동기화 Microsoft 365
 
@@ -85,7 +85,7 @@ Azure AD Azure Active Directory 커넥트 하드웨어, [소프트웨어,](/azur
 - 어떤 인증 방법(PHS, PTA, 페더래드)
 - [Azure AD Seamless SSO(Single Sign-On)를](/azure/active-directory/hybrid/how-to-connect-sso) 사용할지 여부
 
-다음 단계를 따르세요.
+다음 단계를 따릅니다:
 
 1. Microsoft 365 관리 센터 [로그인하고](https://admin.microsoft.com) 왼쪽 탐색 창에서 https://admin.microsoft.com) **사용자** \> **활성** 사용자를 선택 합니다.
 2. 활성 **사용자 페이지에서** 더 **(세** 점) 디렉터리 동기화 \> **를 선택합니다.**

@@ -23,11 +23,11 @@ ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: 이 문서에서는 사용자 구독에 대한 전역 관리자 액세스를 보호하는 Microsoft 365 제공합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 3a43c8b6ac5389be99581302c249e431853ba99b
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355919"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215782"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>전역 Microsoft 365 계정 보호
 

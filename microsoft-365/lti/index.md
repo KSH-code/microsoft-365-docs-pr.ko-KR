@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: None
 description: M365의 Learning LTI(Learning Tools Interoperability) Office 및 Office 앱을 LMS(Learning Management System)에 통합할 때 교육자들에게 도움이 되는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 7aa85369151dcb1ce1628dbd8a969ac31e7caada
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533510"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215605"
 ---
 # <a name="integrating-microsoft-products-with-your-learning-management-system-lms"></a>LMS(Learning 관리 시스템)와 Microsoft 제품 통합
 

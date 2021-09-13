@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: 60a0d59bd199e46e52623e36fa962465b313c9bd
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256341"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214742"
 ---
 # <a name="create-and-manage-roles-for-role-based-access-control"></a>역할 기반 액세스 제어에 대한 역할 만들기 및 관리
 

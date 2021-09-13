@@ -20,11 +20,11 @@ description: 관리자는 EOP(전자 메일 그룹)의 모든 사용자에 대�
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 921d3e897dea70180a1338ea27e4ef1bc29db41e
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747302"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214352"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 

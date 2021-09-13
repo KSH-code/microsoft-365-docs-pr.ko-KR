@@ -19,11 +19,11 @@ search.appverid:
 ms.assetid: c08786fb-298e-437c-8222-dab7625fc815
 description: '요약: 정부 서비스 및 Microsoft 365 구성 요소의 IPv6 지원에 Microsoft 365 설명'
 ms.openlocfilehash: be9ce7cc2eaaec74889e9d88ddfa9b781c6d308e
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863401"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215965"
 ---
 # <a name="ipv6-support-in-microsoft-365-services"></a>Microsoft 365 서비스의 IPv6 지원
 

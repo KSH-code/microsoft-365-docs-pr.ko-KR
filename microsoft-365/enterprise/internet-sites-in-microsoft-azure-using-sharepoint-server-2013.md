@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: 0d93ff4a-8fbd-42b8-9227-d817dba0046d
 description: 이 문서에서는 Azure 인프라 서비스에서 호스팅되는 SharePoint Server 2013 인터넷 사이트를 디자인하고 구현하기 위한 리소스를 제공합니다.
 ms.openlocfilehash: d51a2833c5e14ad966272574c643a3a1e6b05aed
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567895"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215975"
 ---
 # <a name="internet-sites-in-microsoft-azure-using-sharepoint-server-2013"></a>SharePoint Server 2013을 사용하는 Microsoft Azure의 인터넷 사이트
 

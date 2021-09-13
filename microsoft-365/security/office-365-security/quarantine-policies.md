@@ -17,12 +17,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 사용자가 자신의 검사된 메시지에 대해 할 수 있는 작업을 제어하기 위해 검지 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b35a53973c64447fe01b3657969cc7289165538d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 6594c7014f2cb9d0ea52efdbb3e7b7781d261a70
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561221"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214255"
 ---
 # <a name="quarantine-policies"></a>Quarantine policies
 
@@ -49,10 +49,10 @@ EOP(Exchange Online Protection(Exchange Online Protection) 및 Microsoft Defende
 
 |사용 권한|액세스 권한 없음|제한된 액세스|모든 액세스|
 |---|:---:|:---:|:---:|
-|**보낸 사람 차단(** _PermissionToBlockSender_)||![확인 표시.](../../media/checkmark.png)|![확인 표시.](../../media/checkmark.png)|
-|**Delete(** _PermissionToDelete_)||![확인 표시.](../../media/checkmark.png)|![확인 표시.](../../media/checkmark.png)|
-|**미리 보기(** _PermissionToPreview_)||![확인 표시.](../../media/checkmark.png)|![확인 표시.](../../media/checkmark.png)|
-|받는 사람이 메시지를 **검지에서** 해제할 수 있도록 허용(_PermissionToRelease_)|||![확인 표시.](../../media/checkmark.png)|
+|**보낸 사람 차단(** _PermissionToBlockSender_)||![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|**Delete(** _PermissionToDelete_)||![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|**미리 보기(** _PermissionToPreview_)||![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|받는 사람이 메시지를 **검지에서** 해제할 수 있도록 허용(_PermissionToRelease_)|||![확인 표시입니다.](../../media/checkmark.png)|
 |받는 사람이 메시지를 검지에서 릴리스하도록 **요청하도록 허용(** _PermissionToRequestRelease_)||![확인 표시](../../media/checkmark.png)||
 |
 
@@ -216,7 +216,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 ## <a name="step-2-assign-a-quarantine-policy-to-supported-features"></a>2단계: 지원되는 기능에 검지 정책 할당
 
-메시지 _또는_ 파일을 자동으로 또는 구성 가능한 작업으로 검역하는 지원되는 보호 기능에서 사용 가능한 검역 작업에 검역 정책을 할당할 수 있습니다. 다음 표에는 메시지를 검사하는 기능과 검지 정책의 가용성이 설명되어 있습니다.
+전자 _메일 메시지를_ 검역하는 지원되는 보호 기능에서 사용 가능한 검역 작업에 검역 정책을 할당할 수 있습니다. 다음 표에는 메시지를 검사하는 기능과 검지 정책의 가용성이 설명되어 있습니다.
 
 <br>
 
@@ -227,7 +227,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 |[스팸 방지 정책](configure-your-spam-filter-policies.md): <ul><li>**Spam(** _SpamAction_)</li><li>**높은 지수 스팸(** _HighConfidenceSpamAction_)</li><li>**피싱(** _PhishSpamAction_)</li><li>**높은 신뢰도 피싱(** _HighConfidencePhishAction_)</li><li>**Bulk(** _BulkSpamAction_)</li></ul>|예|<ul><li>DefaultFullAccessPolicy(모든 액세스)</li><li>DefaultFullAccessPolicy(모든 액세스)</li><li>DefaultFullAccessPolicy(모든 액세스)</li><li>AdminOnlyAccessPolicy(액세스 없음)</li><li>DefaultFullAccessPolicy(모든 액세스)</li></ul>|
 |피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호(](set-up-anti-phishing-policies.md#spoof-settings) _AuthenticationFailAction_)</li><li>[에 대한 Defender의](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)가장 Office 365:<ul><li>**가장된** 사용자로 메시지가 검색된 경우(_TargetedUserProtectionAction_)</li><li>**가장된** 도메인으로 메시지가 검색된 경우(_TargetedDomainProtectionAction_)</li><li>**사서함 인텔리전스가** 사용자를 검색하고 가장하는 경우(_MailboxIntelligenceProtectionAction_)</li></ul></li></ul>|예|<ul><li>DefaultFullAccessPolicy(모든 액세스)</li><li>가장 보호:<ul><li>DefaultFullAccessPolicy(모든 액세스)</li><li>DefaultFullAccessPolicy(모든 액세스)</li><li>DefaultFullAccessPolicy(모든 액세스)</li></ul></li></ul>|
 |[맬웨어 방지 정책:](configure-anti-malware-policies.md)검색된 모든 메시지는 항상 차단됩니다.|예|AdminOnlyAccessPolicy(액세스 없음)|
-|[금고, SharePoint,](mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 첨부 파일(Office 365)|예|AdminOnlyAccessPolicy(액세스 없음)|
+|[금고 대한 Defender의](safe-attachments.md) 첨부 파일 정책 Office 365(사용 및 _작업)_|예|AdminOnlyAccessPolicy(액세스 없음)|
 |[메일 흐름 규칙(전송](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 규칙)에 다음  작업을 수행하여 메시지를 호스팅된 검사(_Quarantine)로 배달합니다._|아니요|해당 없음|
 |
 
@@ -277,9 +277,9 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
   Standard 및 Strict의 기본 작업 값 및 권장 작업 값에 대한 자세한 내용은 EOP 스팸 방지 정책 [설정 을 참조하세요.](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)
 
-- 해당하는 스팸 필터링 정책 매개 변수가 없는 스팸 [](#step-2-assign-a-quarantine-policy-to-supported-features) 필터링 판정은 해당 판정에 대한 기본 검지 정책이 사용되는 경우를 의미합니다.
+- 새 스팸 방지 정책을 만들 때 해당하는 스팸 필터링 정책 매개 변수가 없는 [](#step-2-assign-a-quarantine-policy-to-supported-features) 스팸 필터링 판정은 해당 판정에 대한 기본 검지 정책을 사용함을 의미합니다.
 
-  해당 특정 판결에 대해 고지된 메시지에 대한 기본 최종 사용자 기능을 변경하려는 경우만 기본 검지 정책을 사용자 지정 검지 정책으로 바꿔야 합니다.
+  특정 스팸 필터링 판정에 대해 검지된 메시지에 대한 기본 최종 사용자 기능을 변경하려는 경우만 기본 검지 정책을 사용자 지정 검지 정책으로 바꿔야 합니다.
 
 - PowerShell의 새 스팸 방지 정책에는 **New-HostedContentFilterPolicy** cmdlet을 사용하는 스팸 필터 정책(설정)과 **New-HostedContentFilterRule** cmdlet을 사용하는 단독 스팸 필터 규칙(받는 사람 필터)이 필요합니다. 자세한 내용은 [PowerShell을 사용하여 스팸 방지 정책 만들기를 참조하세요.](configure-your-spam-filter-policies.md#use-powershell-to-create-anti-spam-policies)
 
@@ -360,7 +360,7 @@ PowerShell을 사용하여 피싱 방지 정책에서 검지 정책을 할당할
 
   Standard 및 Strict의 기본 작업 값 및 권장 작업 [](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings) 값에 대한 자세한 내용은 [Microsoft Defender for Office 365.](recommended-settings-for-eop-and-office365.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
-- 해당하는 검지 정책 매개 변수가 없는 피싱 방지 [](#step-2-assign-a-quarantine-policy-to-supported-features) 작업은 해당 판정에 대한 기본 검지 정책이 사용됩니다.
+- 피싱 방지 정책을 만들 때 해당하는 검지 정책 매개 변수를 지정하지 않은 [](#step-2-assign-a-quarantine-policy-to-supported-features) 피싱 방지 작업은 해당 판정에 대한 기본 검지 정책이 사용됩니다.
 
   해당 특정 판결에 대해 고지된 메시지에 대한 기본 최종 사용자 기능을 변경하려는 경우만 기본 검지 정책을 사용자 지정 검지 정책으로 바꿔야 합니다.
 
@@ -415,7 +415,9 @@ PowerShell을 사용하여 맬웨어 방지 정책에서 검지 정책을 할당
 
 **참고**:
 
-- 맬웨어에 대해 차단된 메시지에 대한 기본 최종 사용자 기능을 변경하려는 경우만 기본 검지 정책을 사용자 지정 검지 정책으로 바꿔야 합니다.
+- 새 맬웨어 방지 정책을 만들 때 QuarantineTag 매개 변수를 사용하지 않고 새 맬웨어 방지 정책을 만들면 맬웨어 검색에 대한 기본 검지 정책(AdminOnlyAccessPolicy)이 사용됩니다.
+
+  맬웨어로 차단된 메시지에 대한 기본 최종 사용자 기능을 변경하려는 경우만 기본 검지 정책을 사용자 지정 검지 정책으로 바꿔야 합니다.
 
   기존 피싱 방지 정책에서 중요한 매개 변수 값을 표시하기 위해 다음 명령을 실행합니다.
 
@@ -425,7 +427,7 @@ PowerShell을 사용하여 맬웨어 방지 정책에서 검지 정책을 할당
 
 - PowerShell의 새로운 맬웨어 방지 정책에는 **New-MalwareFilterPolicy** cmdlet을 사용하는 맬웨어 필터 정책(설정)과 **New-MalwareFilterRule** cmdlet을 사용하는 단독 맬웨어 필터 규칙(받는 사람 필터)이 필요합니다. 자세한 내용은 [PowerShell 또는 Exchange Online EOP PowerShell을](configure-anti-malware-policies.md#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-malware-policies)사용하여 맬웨어 방지 정책 구성을 참조하세요.
 
-이 예에서는 액세스 권한 없음을 할당하는 NoAccess라는 사용자 지정 검열  정책을 사용하는 Research Department라는 맬웨어 필터 정책을 만듭니다.
+이 예에서는 NoAccess라는 사용자 지정 검열 정책을 사용하는 Research Department라는  맬웨어 필터 정책을 만듭니다. 이 정책은 확인된 메시지에 액세스 권한 없음을 할당합니다.
 
 ```powershell
 New-MalwareFilterPolicy -Name "Research Department" -QuarantineTag NoAccess
@@ -433,7 +435,7 @@ New-MalwareFilterPolicy -Name "Research Department" -QuarantineTag NoAccess
 
 구문과 매개 변수에 대한 자세한 내용은 [New-MalwareFilterPolicy를 참조하십시오.](/powershell/module/exchange/new-malwarefilterpolicy)
 
-이 예에서는 액세스 권한 없음을 할당하는 NoAccess라는 사용자 지정 검열 정책을  할당하여 인사부라는 기존 맬웨어 필터 정책을 수정합니다.
+이 예에서는 NoAccess라는 사용자 지정 맬웨어 필터 정책을 할당하여 휴먼이라는  기존 맬웨어 필터 정책을 수정합니다.
 
 ```powershell
 New-MalwareFilterPolicy -Identity "Human Resources" -QuarantineTag NoAccess
@@ -441,11 +443,9 @@ New-MalwareFilterPolicy -Identity "Human Resources" -QuarantineTag NoAccess
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-MalwareFilterPolicy를 참조하십시오.](/powershell/module/exchange/set-malwarefilterpolicy)
 
-### <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams를 위한 안전한 첨부 파일
+### <a name="safe-attachments-policies-in-defender-for-office-365"></a>금고 Defender for Office 365
 
-일반적으로 SharePoint, OneDrive 및 Microsoft Teams에 대한 금고 첨부 파일로 보호하는 경우 금고 첨부 파일 정책의 전역 설정에서 보호를 설정하거나 해제할  필요가 없습니다 금고. 그러나 SharePoint, OneDrive 및 Microsoft Teams에 대해 금고 Attachments를 통해 확인된 메시지에 대해 Microsoft Teams 정책을 할당하려면 영향을 받는 사용자를 검지 정책에 할당해야 합니다.
-
-1. Microsoft 365 Defender 포털에서 전자 메일 & **공동** 작업 정책 & 규칙 섹션의 금고 정책으로 \>  \>  \>  이동하세요. 
+1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
 
    또는 첨부 파일 페이지로 직접 금고 **를** <https://security.microsoft.com/safeattachmentv2> 사용하세요.
 
@@ -457,40 +457,42 @@ New-MalwareFilterPolicy -Identity "Human Resources" -QuarantineTag NoAccess
    - **기존 편집:** 정책 이름을 클릭하여 정책을 선택합니다. 정책 세부 정보 플라이아웃에서 설정 섹션으로 이동한 다음 설정 **편집을** **클릭합니다.**
    - **새 만들기:** 새 정책 마법사에서 새 정책 설정 **이동합니다.**
 
-4. 다음 **설정** 정책 상자에서 정책을 **선택합니다.**
+4. 설정 **페이지에서** 다음 단계를 수행합니다.
+   1. 금고 알 수 없는 **맬웨어 응답**: **차단,** 바꾸기 **또는** 동적 **배달을 선택합니다.**
+   2. Quarantine policy(Quarantine policy) 상자에서 **Quarantine policy(정책)** 상자를 선택합니다.
 
    **참고:** 새 정책을 만들 때 빈 **Quarantine 정책 값은 기본 Quarantine** 정책이 사용 중임이 나타냅니다. 나중에 정책을 편집하면 빈 값이 이전 표에 설명된 실제 기본 검지 정책 이름으로 대체됩니다.
 
 첨부 파일 정책을 만들고 수정하기 위한 금고 자세한 내용은 [Set up 금고 Attachments policies in Microsoft Defender for Office 365.](set-up-safe-attachments-policies.md)
 
-#### <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-in-powershell"></a>금고 PowerShell에서 SharePoint, OneDrive 및 Microsoft Teams 첨부 파일
+#### <a name="safe-attachments-policies-in-powershell"></a>금고 PowerShell의 첨부 파일 정책
 
-PowerShell을 사용하여 금고, OneDrive 및 Microsoft Teams SharePoint에 대한 금고 첨부 파일에 대해 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에 연결하고 다음 구문을 사용하십시오.
+PowerShell을 사용하여 금고 첨부 파일 정책에서 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에 연결하고 다음 구문을 사용하십시오.
 
 ```powershell
-Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
-<New-SafeAttachmentPolicy -Name "<Unique name>" | Set-SafeAttachmentPolicy -Identity "<Policy name>"> [-QuarantineTag <QuarantineTagName>]
+<New-SafeAttachmentPolicy -Name "<Unique name>" | Set-SafeAttachmentPolicy -Identity "<Policy name>"> -Enable $true -Action <Block | Replace | DynamicDelivery> [-QuarantineTag <QuarantineTagName>]
 ```
 
 **참고**:
 
-- SharePoint, OneDrive 및 2013에 대해 첨부 파일로 금고 최종 사용자 기능을 변경하려는 경우 기본 검지 정책을 사용자 지정 OneDrive 정책으로 Microsoft Teams.
+- _Action 매개_ 변수 값 Block, Replace 또는 DynamicDelivery는 메시지를 검역할 수 있습니다(Allow not quarantine messages). _Action_ 매개 변수의 값은 Enable 매개 변수의 값이 인 경우만 _의미가_ `$true` 있습니다.
+
+- QuarantineTag 매개 변수를 사용하지 않고 금고 첨부 파일 정책을 새로 만들면 전자 메일에서 금고 첨부 파일 검색에 대한 기본 검지 정책이 사용됩니다(AdminOnlyAccessPolicy).
+
+  첨부 파일 정책에 의해 확인된 전자 메일 메시지에 대한 기본 최종 사용자 기능을 변경하려는 경우만 기본 금고 정책을 사용자 지정 금고 합니다.
 
   중요한 매개 변수 값을 표시하기 위해 다음 명령을 실행합니다.
 
   ```powershell
-  Get-AtpPolicyForO365 | Format-Table EnableATPForSPOTeamsODB; Get-SafeAttachmentPolicy | Format-Table Name,QuarantineTag
+  Get-SafeAttachmentPolicy | Format-List Name,Enable,Action,QuarantineTag
   ```
-
-- 금고, OneDrive 및 Microsoft Teams 대한 금고 SharePoint 첨부 파일을 켜면 금고 SharePoint, OneDrive 및 에 대한 금고 첨부 파일 [켜기 를 Microsoft Teams.](turn-on-mdo-for-spo-odb-and-teams.md)
 
 - PowerShell의 새 금고 첨부 파일 정책을 사용하려면 **New-SafeAttachmentPolicy** cmdlet을 사용하는 안전한 첨부 파일 정책(설정)과 **New-SafeAttachmentRule** cmdlet을 사용하는 단독 안전한 첨부 파일 규칙(받는 사람 필터)이 필요합니다. 자세한 내용은 [Use Exchange Online PowerShell or standalone EOP PowerShell to configure 금고 Attachments policies을 참조하십시오.](set-up-safe-attachments-policies.md#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies)
 
-이 예에서는 금고, OneDrive 및 Microsoft Teams 및 금고 SharePoint 첨부 파일을 설정한 다음 액세스 권한 없음을 할당하는 NoAccess라는 사용자 지정 검지 정책을 사용하는 Research Department라는 안전한 첨부 파일 정책을 **만듭니다.**
+이 예에서는 검색된 메시지를 차단하고 NoAccess라는 사용자 지정 검지 정책을 사용하여 검색된  메시지에 액세스 권한 없음을 할당하는 Research Department라는 안전한 첨부 파일 정책을 만듭니다.
 
 ```powershell
-Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
-New-SafeAttachmentPolicy -Name "Research Department" -QuarantineTag NoAccess
+New-SafeAttachmentPolicy -Name "Research Department" -Enable $true -Action Block -QuarantineTag NoAccess
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [New-MalwareFilterPolicy를 참조하십시오.](/powershell/module/exchange/new-malwarefilterpolicy)
@@ -498,14 +500,14 @@ New-SafeAttachmentPolicy -Name "Research Department" -QuarantineTag NoAccess
 이 예에서는 액세스 권한 없음을 할당하는 NoAccess라는 사용자 지정 검열 정책을  할당하여 Human Resources라는 기존 안전 첨부 파일 정책을 수정합니다.
 
 ```powershell
-New-SafeAttachmentPolicy -Identity "Human Resources" -QuarantineTag NoAccess
+Set-SafeAttachmentPolicy -Identity "Human Resources" -QuarantineTag NoAccess
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-MalwareFilterPolicy를 참조하십시오.](/powershell/module/exchange/set-malwarefilterpolicy)
 
 ## <a name="configure-global-quarantine-notification-settings-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 전역 Microsoft 365 Defender 설정 구성
 
-차단 정책에 대한 전역 설정을 사용하면 메시지를 받는 사람에게 전송되는 최종 사용자 스팸 알림을 사용자 지정할 수 있습니다. 이러한 알림에 대한 자세한 내용은 최종 사용자 스팸 알림 [을 참조하세요.](use-spam-notifications-to-release-and-report-quarantined-messages.md)
+차단 정책에 대한 전역 설정을 사용하면 최종 사용자 스팸 알림을 사용자 지정할 수 있습니다. 이러한 알림에 대한 자세한 내용은 최종 사용자 스팸 알림 [을 참조하세요.](use-spam-notifications-to-release-and-report-quarantined-messages.md)
 
 1. Microsoft 365 Defender 포털에서 전자 메일 &  위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
 
@@ -611,7 +613,7 @@ Set-QuarantineTag -Identity "<QuarantinePolicyName>" [Settings]
 - 사용자 지정 분리 정책을 제거하기 전에 정책이 사용되지 않는지 확인해야 합니다. 예를 들어 PowerShell에서 다음 명령을 실행합니다.
 
   ```powershell
-  Get-HostedContentFilterPolicy | Format-List Name,*QuarantineTag
+  Get-HostedContentFilterPolicy | Format-List Name,*QuarantineTag; Get-AntiPhishPolicy | Format-List Name,*QuarantineTag; Get-MalwareFilterPolicy | Format-List Name,QuarantineTag; Get-SafeAttachmentPolicy | Format-List Name,QuarantineTag
   ```
 
   정책을 사용 중이면 할당된 [](#step-2-assign-a-quarantine-policy-to-supported-features) 분리 정책을 제거하기 전에 바꾸어야 합니다.

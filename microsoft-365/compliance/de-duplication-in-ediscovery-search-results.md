@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 메시지의 복사본을 하나만 내보낼 수 있도록 중복 eDiscovery 검색 결과를 제거하는 방법을 배워야 합니다.
 ms.openlocfilehash: 67c856d9f245e3856ba1bd4f3ac1942391dab8fa
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570260"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213905"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>EDiscovery 검색 결과에서 중복 제거
 

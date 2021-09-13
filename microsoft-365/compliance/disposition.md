@@ -12,16 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+ms.custom: admindeeplinkMAC
 search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하거나 사용자가 구성한 설정에 따라 레코드로 표시된 항목이 자동으로 삭제되는 경우에 대한 콘텐츠 폐기 작업을 모니터링하고 관리합니다.
-ms.openlocfilehash: b949b712721acc7921d3c6ac25a07c14338d7609
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: a905847da3a6c28d8d24d13adb193423b57d83d1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567943"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193149"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -57,7 +58,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 
 - 미리 보기: 기본적으로 **처리** 페이지에 액세스하는 각 사용자는 검토하도록 할당된 항목만 봅니다. 레코드 관리 관리자가 모든 사용자에게 할당된 모든 항목과 처리 검토를 위해 구성된 모든 보존 레이블을 보려면: **레코드 관리 설정** > **일반** > **레코드 관리자용 보안 그룹** 으로 이동하여 관리자 계정이 포함된 메일 사용 가능 보안 그룹을 선택한 다음 활성화합니다.
     
-    메일을 사용할 수 없는 Microsoft 365 그룹 및 보안 그룹은 이 기능을 지원하지 않으므로 선택할 목록에 표시되지 않습니다. 새 메일 사용 보안 그룹을 만들어야 하는 경우 Microsoft 365 관리 센터에 대한 링크를 사용하여 새 그룹을 만듭니다. 
+    메일을 사용할 수 없는 Microsoft 365 그룹 및 보안 그룹은 이 기능을 지원하지 않으므로 선택할 목록에 표시되지 않습니다. 새 메일 사용 보안 그룹을 만들어야 하는 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에 대한 링크를 사용하여 새 그룹을 만듭니다. 
     
     > [!IMPORTANT]
     > 그룹을 활성화한 후에는 규정 준수 센터에서 변경할 수 없습니다. PowerShell을 사용하여 다른 그룹을 활성화하는 방법은 다음 섹션을 참조하세요.

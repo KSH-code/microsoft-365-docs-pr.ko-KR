@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 아웃바운드 스팸 컨트롤과 대량 메일을 보내야 하는 경우 어떻게 해야 하는지 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2207283857cd15bf2e8fcadf223532ecd810da4a1f0908cc4d391b7aee89263b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0fb6bfe5d83c551c0a93cc7b453b27a2d7b476bc
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "57036675"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214312"
 ---
 # <a name="outbound-spam-protection-in-eop"></a>EOP의 아웃바운드 스팸 보호
 

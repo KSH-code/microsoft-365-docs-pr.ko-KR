@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ms.custom: Ent_TLGs
+ms.custom:
+- Ent_TLGs
+- admindeeplinkMAC
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경에 Microsoft 365 추가 보안 Microsoft 365 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 08b1db95a35debfa465d57d30ab0a8a2bd9f9732
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 7598ade331ae340ede52f4c47375aebba792eb84
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567907"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216002"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 Microsoft 365 환경의 Microsoft 365 보안 강화
 
@@ -49,7 +51,7 @@ ms.locfileid: "58567907"
 
 최신 인증을 지원하지 않는 [](../security/office-365-security/microsoft-365-policies-configurations.md) 앱에는 ID 및 장치 액세스 구성을 적용할 수 없습니다. 이는 Microsoft 365 디지털 자산을 보호하는 데 중요한 요소입니다. 
 
-1. Microsoft 365 관리 센터 ()로 이동하고 전역 관리자 계정으로 Microsoft 365 테스트 랩 구독에 [https://portal.microsoft.com](https://portal.microsoft.com) 로그인합니다.
+1. 사용자 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">계정으로 Microsoft 365 관리 센터</a> 전역 관리자 계정으로 Microsoft 365 테스트 랩 구독에 로그인합니다.
     
   - 간단한 테스트 환경을 사용하는 Microsoft 365 로컬 컴퓨터에서 로그인합니다.
     
@@ -107,7 +109,7 @@ Microsoft 365 맬웨어 및 스팸 필터링 기능이 내장되어 있으며 �
 
 Microsoft 보안 점수는 구독에서 사용할 수 있는 기능을 상대로 현재 수준을 나타내는 숫자로 보안 상태 표시 또한 점수를 개선하기 위해 수행할 수 있는 개선 작업 목록도 있습니다.
 
-1. 브라우저에서 새 탭을 만들고 Microsoft 365 센터로 이동한 다음 보안 점수 [를](https://security.microsoft.com/) **클릭합니다.**
+1. 브라우저에서 새 탭을 만들고 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">센터로</a>이동한 다음 보안 점수 **를 클릭합니다.**
 2. 개요 **탭에서**  현재 보안 점수와 전역 평균 및 라이선스 수가 비슷한 구독과 비교하는 방법을 기록해 넣습니다.
 3. 개선 **작업 탭에서** 점수를 높이기 위해 수행할 수 있는 작업 목록을 읽어 읽습니다.
 

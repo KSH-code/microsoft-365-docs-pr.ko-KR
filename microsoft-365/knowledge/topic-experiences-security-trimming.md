@@ -13,11 +13,11 @@ ms.collection: enabler-strategic
 localization_priority: None
 description: 보안이 Viva 항목의 항목을 보는 데 사용되는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 25acd5ea96cb07a5974e10ec9763d1f20351d021
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563977"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215602"
 ---
 # <a name="security-trimming-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 보안 트리밍
 

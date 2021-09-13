@@ -22,11 +22,11 @@ ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
 ms.openlocfilehash: 3bf6d527092a4dc5ed340a2d9548fea41d875d31
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561257"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214705"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션
 
@@ -55,11 +55,11 @@ ms.locfileid: "58561257"
 | [AlertEvidence](advanced-hunting-alertevidence-table.md) | 경고와 연결된 파일, IP 주소, URL, 사용자 또는 장치 |
 | [AlertInfo](advanced-hunting-alertinfo-table.md) | 심각도 정보 및 위협 범주를 포함하여 Microsoft Defender for endpoint, Office 365, Microsoft Cloud App Security 및 ID에 대한 Microsoft Defender의 경고  |
 | [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) | 전자 메일에 첨부된 파일에 대한 정보 |
-| [EmailEvents](advanced-hunting-emailevents-table.md) | Microsoft 365 및 차단 이벤트를 비롯한 전자 메일 이벤트 확인 |
-| [EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) | 배달 후 발생하는 보안 Microsoft 365 받는 사람 사서함에 전자 메일을 배달한 후 |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | 전자 메일 배달과 차단 이벤트를 포함한 Microsoft 365 전자 메일 이벤트 |
+| [EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) | Microsoft 365가 받는 사람 사서함에 전자 메일을 배달하고 나서 배달 후 발생하는 보안 이벤트 |
 | [EmailUrlInfo](advanced-hunting-emailurlinfo-table.md) | 전자 메일의 URL에 대한 정보 |
-| [IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) | AD(Active Directory)를 실행하는 사내 도메인 컨트롤러와 관련된 이벤트입니다. 이 표에는 도메인 컨트롤러의 ID 관련 이벤트 및 시스템 이벤트 범위가 포함됩니다. |
-| [IdentityInfo](advanced-hunting-identityinfo-table.md) | 계정 정보를 비롯한 다양한 원본의 Azure Active Directory |
+| [IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) | Active Directory(AD)를 실행하는 온-프레미스 도메인 컨트롤러와 관련된 이벤트. 이 표에서는 도메인 컨트롤러의 다양한 ID 관련 이벤트 및 시스템 이벤트를 다룹니다. |
+| [IdentityInfo](advanced-hunting-identityinfo-table.md) | Azure Active Directory를 비롯한 다양한 원본의 계정 정보 |
 | [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md) | Active Directory 및 Microsoft 온라인 서비스의 인증 이벤트 |
 | [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md) | 사용자, 그룹, 장치 및 도메인과 같은 Active Directory 개체에 대한 쿼리 |
 

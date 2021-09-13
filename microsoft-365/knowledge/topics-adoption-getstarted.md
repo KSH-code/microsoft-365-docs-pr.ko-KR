@@ -12,11 +12,11 @@ ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
 ms.openlocfilehash: a8e95586dc5e3d2da2cbd6ace9369e4b2d17afed
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863389"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215585"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-viva-topics"></a>Microsoft Viva 도입 시작
 
@@ -87,7 +87,7 @@ Viva 항목을 성공적으로 사용할 수 있도록 조직에서 Viva 항목�
 
 HR 관리자는 신입 사원이 회사 및 팀에 신속하게 온보드할 수 있도록 정보를 제공해야 합니다. 또한 신속하고 효율적으로 온보드해야 하는 올바른 리소스, 문서 및 팀 구성원을 보게 하려는 경우 새 직원이 여러 리포지토리에서 검색하거나 이미 사용하고 있는 응용 프로그램을 나가지 않고도 필요한 정보를 빠르게 찾을 수 있는 솔루션을 찾고 있습니다.
 
-예를 들면 다음과 같습니다.
+예시:
 
 - 직원(Jordan)이 새 역할을 맡고 있으며 새로 고용된 후 역할을 시작하고 있습니다. 요르단은 최대한 빨리 참여하고 생산성을 향상하기를 원합니다. 하지만 요르단은 시작 장소를 찾는 데도 도움이 필요합니다.
 - Jordan이 신입 사원과 해당 정보를 찾는 데 도움이 되는 항목 페이지를 만들기 전에 역할에 있는 동료(Kim)입니다.

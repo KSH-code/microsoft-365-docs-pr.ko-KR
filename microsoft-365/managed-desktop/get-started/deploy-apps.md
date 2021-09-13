@@ -10,11 +10,11 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 ms.openlocfilehash: bcb1c85e533ae691c34d41bd6694e58c49617738
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365180"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215482"
 ---
 # <a name="deploy-apps-to-devices"></a>장치에 앱 배포
 온보드를 Microsoft Managed Desktop 장치에 앱을 추가하고 배포하는 것이 포함됩니다. 앱 포털을 Microsoft Managed Desktop 앱을 추가하고 배포할 수 있습니다. 
@@ -100,17 +100,17 @@ LOB(LOB) 앱을 포털에 추가할 Microsoft Managed Desktop 있습니다. Micr
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
-1. 관리 [포털에 액세스합니다.](access-admin-portal.md)
-1. [관리 포털에서 관리자 연락처를 추가하고 확인](add-admin-contacts.md)
-1. [등록 후 설정을 조정합니다.](conditional-access.md)
-1. 를 배포하고 [Intune 회사 포털.](company-portal.md)
-1. [라이선스를 할당합니다.](assign-licenses.md)
+1. [관리 포털](access-admin-portal.md)에 액세스합니다.
+1. [관리 포털의 관리자 연락처를 추가하고 확인합니다](add-admin-contacts.md).
+1. [등록 후 설정을 조정합니다](conditional-access.md).
+1. [Intune 회사 포털](company-portal.md)을 배포하고 할당합니다.
+1. [라이선스를 할당합니다](assign-licenses.md).
 1. 앱 배포(이 문서).
-1. [장치 를 설치합니다.](set-up-devices.md)
-1. Autopilot 및 등록 상태 페이지로 첫 실행 [환경을 설정합니다.](esp-first-run.md)
-1. [사용자 지원 기능을 사용하도록 설정](enable-support.md).
-1. [사용자가 디바이스를 사용할 준비를 합니다.](get-started-devices.md)
-1. [앱 컨트롤 시작 .](get-started-app-control.md)
+1. [디바이스를 설정합니다](set-up-devices.md).
+1. [Autopilot 및 등록 상태 페이지의 첫 실행 환경](esp-first-run.md)을 설정합니다.
+1. [사용자 지원 기능을 사용하도록 설정합니다](enable-support.md).
+1. [사용자가 디바이스를 사용할 수 있도록 준비합니다](get-started-devices.md).
+1. [앱 컨트롤을 시작합니다](get-started-app-control.md).
 
 
 <!--# Preparing apps for Microsoft Managed Desktop

@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 3b3ac3be5ac9d0944303d4e43bbb7b352d7e03497b6807752ee19b9c32f881ff
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dab1d8befaa0d32118f3fea350037ed8b91aadf3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834614"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215292"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Microsoft Managed Desktop 작업 및 모니터링
 
@@ -71,7 +71,7 @@ Microsoft Managed Desktop 서비스는 Microsoft에서 다른 관리 활동을 �
 
 사내 제품의 경우 조직은 설치 관리와 구성 및 운영 활동을 관리하는 모든 책임을 집니다.
 
-분류 | Microsoft는 | 고객은
+Categories | Microsoft는 | 고객은
 --- | --- | ---
 네트워크(프록시, 패킷 검사, VPN)  | 비즈니스 사용자에 대한 위험을 최소화하도록 고객과의 조언 및 계획 | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경을 적용합니다.
 서비스 계정 |- 자격 증명을 구현, 안전하게 저장 및 관리합니다.<br> - 이러한 자격 증명의 무단 액세스 또는 사용을 보안 운영 팀에 전달합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 요청 정보를 요청하는 지원 요청 정보를 만들 수 있습니다.<br>- Operations가 평가 및 Microsoft Managed Desktop 한 번만 변경을 적용합니다.<br>- 서비스 계정에 정책, 다단계 인증, 조건부 액세스 또는 응용 프로그램 배포를 Microsoft Managed Desktop 않습니다.<br>- 암호를 다시 설정하거나 자격 증명을 사용하지 않습니다.<br>- Intune 또는 Azure 감사 로그에서 의심스러운 활동이 관찰된 경우 이러한 서비스 계정과 관련된 Microsoft Managed Desktop Operations에 대한 Sev C 지원 요청을 하세요.

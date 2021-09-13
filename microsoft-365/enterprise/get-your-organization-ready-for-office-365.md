@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 712fced7-f9d0-4fde-8b79-286262a5d0bc
 description: 이 문서에서는 사용자 배포를 계획하기 위한 검사 목록 및 기타 Microsoft 365 Enterprise 제공합니다.
 ms.openlocfilehash: e914d5ea5f145197e348fd88fe7cf2b287a883f8
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356735"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216065"
 ---
 # <a name="plan-for-microsoft-365-enterprise"></a>계획 Microsoft 365 Enterprise
 

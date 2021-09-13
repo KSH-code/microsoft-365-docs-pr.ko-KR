@@ -18,11 +18,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: 7463ea7cd8a6d458e467ab213560be7d0f16a394
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684235"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215102"
 ---
 # <a name="manage-indicators"></a>지표 관리
 
@@ -63,20 +63,20 @@ ms.locfileid: "58684235"
 매개 변수|유형|설명
 :---|:---|:---
 indicatorType|Enum|표시기 유형입니다. 가능한 값은 "FileSha1", "FileSha256", "IpAddress", "DomainName" 및 "Url"입니다. **필수**
-indicatorValue|String|Indicator [엔터티의 ID입니다.](ti-indicator.md) **필수**
+indicatorValue|문자열|Indicator [엔터티의 ID입니다.](ti-indicator.md) **필수**
 조치|Enum|표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Alert", "AlertAndBlock" 및 "Allowed"입니다. **필수**
 제목|String|표시기 경고 제목입니다. **필수**
-설명|String| 표시기 설명입니다. **필수**
-expirationTime|DateTimeOffset|YYYY-MM-DDTHH:MM:SS.0Z 형식의 표시기 만료 시간입니다. **선택**
-심각도|Enum|표시기 심각도입니다. 가능한 값은 "정보", "낮음", "중간" 및 "높음"입니다. **선택**
-recommendedActions|문자열|TI 표시기 경고 권장 작업. **선택**
-rbacGroupNames|String|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택**
-category|String|경고 범주입니다. 예로는 실행 및 자격 증명 액세스가 있습니다. **선택**
-mitretechniques|문자열|MITRE 기술 코드/id(콤보로 구분) 자세한 내용은 전략 [Enterprise 참조하세요.](https://attack.mitre.org/tactics/enterprise/) **선택 사항** MITRE 기술을 사용할 때 범주에 값을 추가하는 것이 좋습니다.
+설명|문자열| 표시기 설명입니다. **필수**
+expirationTime|DateTimeOffset|YYYY-MM-DDTHH:MM:SS.0Z 형식의 표시기 만료 시간입니다. **선택 사항**
+심각도|Enum|표시기 심각도입니다. 가능한 값은 "정보", "낮음", "중간" 및 "높음"입니다. **선택 사항**
+recommendedActions|String|TI 표시기 경고 권장 작업. **선택 사항**
+rbacGroupNames|String|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택 사항**
+category|문자열|경고 범주입니다. 예로는 실행 및 자격 증명 액세스가 있습니다. **선택 사항**
+mitretechniques|String|MITRE 기술 코드/id(콤보로 구분) 자세한 내용은 전략 [Enterprise 참조하세요.](https://attack.mitre.org/tactics/enterprise/) **선택 사항** MITRE 기술을 사용할 때 범주에 값을 추가하는 것이 좋습니다.
 
 자세한 내용은 끝점용 Microsoft Defender 경고 범주가 [이제 MITRE ATT 및 CK에&참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-atp-alert-categories-are-now-aligned-with/ba-p/732748)
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [지표 만들기](manage-indicators.md)
 - [파일에 대한 지표 만들기](indicator-file.md)

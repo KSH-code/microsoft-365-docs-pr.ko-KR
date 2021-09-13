@@ -19,12 +19,12 @@ ms.custom:
 description: 대상 Microsoft 365 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 DNS에서 SPF(Sender Policy Framework) TXT 레코드를 사용하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 14bab350b17046303c35b15a32e6be090307d104dc15ff3764ff05aa71eea053
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 972f283f6138bafcebd877a19f0bfc429e0eed03
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56815259"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214382"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 방지하는 방법
 
@@ -150,7 +150,7 @@ v=spf1 include:spf.protection.outlook.com -all
 v=spf1 [<ip4>|<ip6>:<IP address>] [include:<domain name>] <enforcement rule>
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예:
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
@@ -201,7 +201,7 @@ v=spf1 ip4:192.168.0.1 include:spf.protection.outlook.com -all
 ### <a name="example-spf-txt-record-for-multiple-outbound-on-premises-mail-servers-and-microsoft-365"></a>예: 여러 아웃바운드-프레미스 메일 서버 및 서버의 SPF TXT Microsoft 365
 <a name="ExampleSPFMultipleMailServerO365"> </a>
 
-여러 아웃바운드 메일 서버가 있는 경우 SPF TXT 레코드에 각 메일 서버의 IP 주소를 포함하고 각 IP 주소를 공백과 "ip4:" 문으로 구분합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+여러 아웃바운드 메일 서버가 있는 경우 SPF TXT 레코드에 각 메일 서버의 IP 주소를 포함하고 각 IP 주소를 공백과 "ip4:" 문으로 구분합니다. 예를 들어,
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.outlook.com -all

@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: ac8b6255b46c20582d43680b3287f324f4f63c42
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823977"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214902"
 ---
 # <a name="manage-suppression-rules"></a>제거 규칙 관리
 

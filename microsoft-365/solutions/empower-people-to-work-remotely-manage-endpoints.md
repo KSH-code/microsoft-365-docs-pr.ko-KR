@@ -18,11 +18,11 @@ ms.collection:
 ms.custom: ''
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
 ms.openlocfilehash: a5326743bc1673facff864a562ebb0accb8d483c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575363"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214225"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>4단계: 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 

@@ -21,11 +21,11 @@ ms.collection:
 ms.topic: article
 ms.technology: m365d
 ms.openlocfilehash: 9406653a2d16c83f974e2a0ce7597b5c4f833252
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289502"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214645"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -62,15 +62,15 @@ ms.locfileid: "53289502"
 | `DetectionSource` | CustomerTI | 사용자 지정 TI | Rebranding |
 | `DetectionSource` | OfficeATP | Office 365용 Microsoft Defender | Rebranding |
 | `DetectionSource` | MTP | Microsoft 365 Defender | Rebranding |
-| `DetectionSource` | AzureATP | ID용 Microsoft Defender | Rebranding |
+| `DetectionSource` | AzureATP | Microsoft Defender for Identity | Rebranding |
 | `DetectionSource` | CustomDetection | 사용자 지정 검색 | Rebranding |
 | `DetectionSource` | AutomatedInvestigation |자동화된 조사 | Rebranding |
 | `DetectionSource` | ThreatExperts | Microsoft 위협 전문가 | Rebranding |
 | `DetectionSource` | 제3자 TI | 제3자 센서 | Rebranding |
 | `ServiceSource` | Microsoft Defender ATP| 엔드포인트용 Microsoft Defender | Rebranding |
-|`ServiceSource` |Microsoft Threat Protection | Microsoft 365 Defender | Rebranding |
+|`ServiceSource` |Microsoft 위협 방지 | Microsoft 365 Defender | Rebranding |
 | `ServiceSource` | Office 365 ATP |Office 365용 Microsoft Defender | Rebranding |
-| `ServiceSource` |Azure ATP |ID용 Microsoft Defender | Rebranding |
+| `ServiceSource` |Azure ATP |Microsoft Defender for Identity | Rebranding |
 
 `DetectionSource` 은 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. `ServiceSource` 은 [AlertEvidence](advanced-hunting-alertevidence-table.md) 및 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. 
 

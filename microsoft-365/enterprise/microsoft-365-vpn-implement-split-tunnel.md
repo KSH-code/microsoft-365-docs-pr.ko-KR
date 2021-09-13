@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365 VPN 분할 터널링 구현 방법
-ms.openlocfilehash: 9d706de846b6206a6be8a1524da1222b1c49147b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 36c3cfbd74dabb0cfaf305cb52fb7f69e1e1e49f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571978"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215865"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Office 365 VPN 분할 터널링 구현
 
@@ -259,7 +259,7 @@ Teams 미디어에 대한 필수 최적화 IP 서브넷이 경로 테이블에 �
 
 ### <a name="additional-support-logs"></a>추가 지원 로그
 
-문제를 해결하기 위해 더 많은 데이터가 필요하거나 Microsoft 지원 서비스에 도움을 요청하는 경우 다음 정보를 확인하여 신속하게 해결 방법을 찾을 수 있습니다. Microsoft 지원의 TSS Windows CMD 기반 유니버설 **TroubleShooting Script 도구et을** 사용하면 간단한 방법으로 관련 로그를 수집할 수 있습니다. 도구 및 사용 지침은 <https://aka.ms/TssTools.>에서 찾을 확인할 수 있습니다.
+문제를 해결하기 위해 더 많은 데이터가 필요하거나 Microsoft 지원 서비스에 도움을 요청하는 경우 다음 정보를 확인하여 신속하게 해결 방법을 찾을 수 있습니다. Microsoft 지원의 TSS Windows CMD 기반 유니버설 **TroubleShooting Script 도구et을** 사용하면 간단한 방법으로 관련 로그를 수집할 수 있습니다. 도구 및 사용 지침은 에서 찾을 수 <https://aka.ms/TssTools> 있습니다.
 
 ## <a name="howto-guides-for-common-vpn-platforms"></a>공통 VPN 플랫폼 사용 방법 가이드
 

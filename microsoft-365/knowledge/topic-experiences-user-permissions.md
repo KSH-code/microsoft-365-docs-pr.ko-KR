@@ -11,11 +11,11 @@ search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목에 대한 사용 권한을 관리하는 방법을 배워야 합니다.
 ms.openlocfilehash: 9a391d3a51d5ed7a8b4e17f4f310600284c87f54
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570740"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215595"
 ---
 # <a name="manage-topic-permissions-in-microsoft-viva-topics"></a>다음 항목에서 항목 사용 Microsoft Viva 관리
 

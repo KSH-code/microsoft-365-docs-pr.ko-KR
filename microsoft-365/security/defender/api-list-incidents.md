@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: fbc7e7147868649982defec9593b8852737a6ca7642faec4f125eca471c4e89d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0497ac31c11d04d812e9d8aca81304369ef459fb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53853358"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214622"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>인시던트 목록 API를 Microsoft 365 Defender
 
@@ -54,7 +54,7 @@ API는 다음 **OData 연산자를** 지원합니다.
 1. 최대 페이지 크기는 **인시던트 100개입니다.**
 2. 최대 요청 속도는 **분당 50통,** **시간당 1500통입니다.**
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Access Microsoft 365 Defender [참조](api-access.md)
 
@@ -185,7 +185,7 @@ securityGroupId|entityType이 *SecurityGroup인 경우 사용할 수 있습니�
 securityGroupName|entityType이 *SecurityGroup인 경우 사용할 수 있습니다.*|네트워크 구성 연산자
 registryHive|entityType이 레지스트리인 *경우 사용할 수 있습니다.*|HKEY \_ 로컬 \_ 컴퓨터|
 registryKey|entityType이 레지스트리인 *경우 사용할 수 있습니다.*|SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-registryValueType|entityType이 레지스트리인 *경우 사용할 수 있습니다.*|String
+registryValueType|entityType이 레지스트리인 *경우 사용할 수 있습니다.*|문자열
 registryValue|entityType이 레지스트리인 *경우 사용할 수 있습니다.*|31-00-00-00
 deviceId|엔터티와 관련된 장치의 ID(있는 경우)입니다.|986e5df8b73dacd43c8917d17e523e76b13c75cd
 

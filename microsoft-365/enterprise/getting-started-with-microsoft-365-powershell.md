@@ -18,11 +18,11 @@ ms.custom:
 ms.assetid: 4712d6fd-d9c7-4ec2-88c1-3ad9201cbb7f
 description: '요약: Microsoft 365, Microsoft 365 테넌트에 연결되는 방법 및 도움말을 얻을 수 있는 위치를 이해합니다.'
 ms.openlocfilehash: 3f9bb352a198ba5491063ee4475611a49d21c31b
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356723"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216062"
 ---
 # <a name="get-started-with-powershell-for-microsoft-365"></a>Microsoft 365용 PowerShell 시작
 

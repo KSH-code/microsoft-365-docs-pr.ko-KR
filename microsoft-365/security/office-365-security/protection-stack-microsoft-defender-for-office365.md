@@ -14,11 +14,11 @@ description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: e5385817610100a7e29baca9b6dd98b89493de35
-ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58918270"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214275"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 단계별 위협 방지
 

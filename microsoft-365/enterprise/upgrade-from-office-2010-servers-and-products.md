@@ -24,11 +24,11 @@ f1.keywords:
 description: 지원이 곧 종료되어 사용자 지정 지원 계약을 사용할 수 없는 Office 2010 서버 및 클라이언트 응용 프로그램에서 업그레이드 계획을 세우기 시작하십시오.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: f4f90a34bd4f6c4585cc8900b11808a11f4a2947
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571918"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215645"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2010-servers-and-clients"></a>Office 2010 서버 및 클라이언트 업그레이드에 도움이 되는 리소스
 

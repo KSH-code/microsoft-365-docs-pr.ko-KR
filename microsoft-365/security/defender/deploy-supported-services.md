@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 4a3aac06f19c7ed86af67f3b72bac8bf367628a8
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58258465"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214565"
 ---
 # <a name="deploy-supported-services"></a>지원 서비스 배포
 
@@ -48,7 +48,7 @@ Microsoft 365 E5, E5 보안, A5 또는 A5 보안 라이선스 또는 유효한 �
 | ------ | ------ |
 | 엔드포인트용 Microsoft Defender | 강력한 동작 센서, 클라우드 분석 및 위협 인텔리전스를 중심으로 구축된 엔드포인트 보호 제품군 |
 |Office 365용 Microsoft Defender | 전자 메일 및 기타 공동 작업 도구를 포함하여 Office 365 및 데이터에 대한 고급 보호 |
-| ID용 Microsoft Defender | 상관된 Active Directory 신호를 사용하여 고급 위협, ID 손상 및 악의적인 내부자 보호 |
+| Microsoft Defender for Identity | 상관된 Active Directory 신호를 사용하여 고급 위협, ID 손상 및 악의적인 내부자 보호 |
 | Microsoft Cloud App Security | Microsoft 및 타사 클라우드 서비스 전반에서 사이버 위협 식별 및 퇴치 |
 
 ## <a name="deployed-services-and-functionality"></a>배포된 서비스 및 기능
@@ -69,18 +69,18 @@ Microsoft 365 Defender 더 많은 지원 서비스를 배포할 때 가시성, �
 | ------ | ------ | ------ |
 | 엔드포인트용 Microsoft Defender | - 끝점 상태 및 원시 이벤트<br />- 바이러스 백신, EDR, 공격 표면 감소를 비롯한 끝점 감지 및 경고<br />- 끝점에서 관찰된 파일 및 기타 엔터티에 대한 정보 | 끝점 |
 |Office 365용 Microsoft Defender | - 메일 및 사서함 상태 및 원시 이벤트<br />- 전자 메일, 첨부 파일 및 링크 검색 | - 사서함<br />- Microsoft 365 계정 |
-| ID용 Microsoft Defender | - 인증 이벤트를 포함한 Active Directory 신호<br />- ID 관련 동작 감지 | ID |
+| Microsoft Defender for Identity | - 인증 이벤트를 포함한 Active Directory 신호<br />- ID 관련 동작 감지 | ID |
 | Microsoft Cloud App Security | - 사용되지 않는 클라우드 앱 및 서비스 검색(섀도 IT)<br />- 클라우드 앱에 데이터 노출<br />- 클라우드 앱과 관련된 위협 활동 | 클라우드 앱 |
 
 ## <a name="deploy-the-services"></a>서비스 배포
-일반적으로 각 서비스를 배포하려면 테넌트와 일부 초기 구성을 프로비전해야 합니다. 이러한 각 서비스가 배포되는 방법을 이해하기 위해 다음 표를 참조합니다.
+일반적으로 각 서비스를 배포하려면 테넌트와 일부 초기 구성에 프로비전해야 합니다. 이러한 각 서비스가 배포되는 방법을 이해하기 위해 다음 표를 참조합니다.
 
-| 서비스 | 프로비저닝 지침 | 초기 구성 |
+| 서비스 | 프로비전 지침 | 초기 구성 |
 | ------ | ------ | ------ |
-| 엔드포인트용 Microsoft Defender | [끝점용 Microsoft Defender 배포 가이드](../defender-endpoint/deployment-phases.md) | *프로비저닝 지침 참조* |
-|Office 365용 Microsoft Defender | *없음, 프로비전된 Office 365* | [Office 365용 Microsoft Defender 정책 구성](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) |
-| ID용 Microsoft Defender | [빠른 시작: ID용 Microsoft Defender 인스턴스 만들기](/azure-advanced-threat-protection/install-atp-step1) | *프로비저닝 지침 참조* |
-| Microsoft Cloud App Security | *없음* | [빠른 시작: 시작 Microsoft Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security) |
+| 엔드포인트용 Microsoft Defender | [엔드포인트용 Microsoft Defender 배포 가이드](../defender-endpoint/deployment-phases.md) | *프로비전 지침 참조* |
+|Office 365용 Microsoft Defender | *없음, Office 365로 프로비전됨* | [Office 365용 Microsoft Defender 정책 구성](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) |
+| Microsoft Defender for Identity | [빠른 시작: Microsoft Defender for Identity 인스턴스 만들기](/azure-advanced-threat-protection/install-atp-step1) | *프로비전 지침 참조* |
+| Microsoft Cloud App Security | *없음* | [빠른 시작: Microsoft Cloud App Security 시작](/cloud-app-security/getting-started-with-cloud-app-security) |
 
 지원되는 서비스를 배포한 후 를 [Microsoft 365 Defender.](m365d-enable.md)
 

@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 9a8b87a7cee3bb03a0946773012ed6f18bbd75b9
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58350007"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214795"
 ---
 # <a name="score-resource-type"></a>점수 리소스 유형
 
@@ -42,7 +42,7 @@ ms.locfileid: "58350007"
 
 ## <a name="methods"></a>메서드
 
-메서드|반환 형식|설명
+방법|반환 형식|설명
 :---|:---|:---
 [노출 점수 가져오기](get-exposure-score.md)|[점수](score.md)|조직 노출 점수를 얻습니다.
 [장치 보안 점수 가져오기](get-device-secure-score.md)|[점수](score.md)|조직 장치 보안 점수를 얻습니다.
@@ -53,6 +53,6 @@ ms.locfileid: "58350007"
 속성|유형|설명
 :---|:---|:---
 점수|실수|현재 점수입니다.
-시간|DateTime|이 API를 호출한 날짜 및 시간입니다.
+시간|날짜/시간|이 API를 호출한 날짜 및 시간입니다.
 RbacGroupName|String|장치 그룹 이름입니다.
-RbacGroupId|String|장치 그룹 ID입니다.
+RbacGroupId|문자열|장치 그룹 ID입니다.

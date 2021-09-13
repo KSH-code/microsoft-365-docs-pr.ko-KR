@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39043cfa5b127ece6c6a855c4b3d7d9d5d9e03f30e0518f1f45abc54f76739b3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a0965d6aa73aa9749e129e929922e549744e080f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843830"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214075"
 ---
 # <a name="contact-support-for-anguilla"></a>Anguilla 지원에 문의
 

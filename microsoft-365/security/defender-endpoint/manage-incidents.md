@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: 9deece85ec5a310cea652af1dd1da39cea386848
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571304"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214955"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>끝점 인시던트에 대한 Microsoft Defender 관리
 

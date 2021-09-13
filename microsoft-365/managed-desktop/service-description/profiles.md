@@ -13,11 +13,11 @@ manager: laurawi
 ms.topic: article
 audience: Admin
 ms.openlocfilehash: e1806a0a21dc5f3fc300442f31da5016ffcf99e7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567379"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215272"
 ---
 # <a name="device-profiles"></a>장치 프로필
 
@@ -51,7 +51,7 @@ ms.locfileid: "58567379"
 |기능|중요한 데이터|Power User|Standard|
 |---|:---:|:---:|:---:|
 |**외부 웹 Storage**|예|예|아니요|
-|**[클라우드 차단 수준](/graph/api/resources/intune-deviceconfig-defendercloudblockleveltype)**|높음|높음|높음|
+|**[클라우드 차단 수준](/graph/api/resources/intune-deviceconfig-defendercloudblockleveltype)**|High|High|High|
 |**Microsoft 계정을 사용하지 않도록 설정**|예|예|아니요|
 |**개인 정보 보호 OneDrive**|예|예|아니요|
 |**권한 상승을 위해 보안 데스크톱으로 전환**|아니요|예|아니요|

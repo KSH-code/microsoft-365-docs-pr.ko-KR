@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: cb2250e3-451e-416f-bf4e-363549652c2a
 description: '**Azure AD에서** 통합 앱을 등록하고 Office 365 관리하여 Azure AD DC 관리자 또는 전역 관리자 수준에서 앱 권한 부여를 허용하는 **방법을** 설명합니다.'
 ms.openlocfilehash: ccf1e16e7e0307499e515eb3691c865d49801412
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747314"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59215982"
 ---
 # <a name="integrated-apps-and-azure-ad-for-microsoft-365-administrators"></a>관리자를 위한 통합 Microsoft 365 Azure AD
 
