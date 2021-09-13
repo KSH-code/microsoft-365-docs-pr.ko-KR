@@ -18,11 +18,11 @@ f1.keywords: NOCSH
 recommendations: false
 description: 민감도에 따라 데이터를 보호하기 위해 Teams 콘텐츠 공동 작업을 설정하는 방법을 알아보겠습니다.
 ms.openlocfilehash: 07f8f1193043b31c53346221791529b5b6162c30
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572794"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192162"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>보안 및 보안 Microsoft 365 설정 Microsoft Teams
 

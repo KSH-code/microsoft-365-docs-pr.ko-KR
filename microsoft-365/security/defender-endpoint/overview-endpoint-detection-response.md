@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c36707aa98d0c7ff1a5cd7284ad149007c4d969ce1bfdf0aeb31cb68a4b4b549
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 23f093ba5f93bd8763ae27526dbeb77a16f3c5cd
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898050"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192652"
 ---
 # <a name="overview-of-endpoint-detection-and-response"></a>엔드포인트 검색 및 대응 개요
 

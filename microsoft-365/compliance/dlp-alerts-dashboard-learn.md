@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 경고 및 경고 대시보드에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0474c5609fcd979fa8db7e47857c099cbed7be365bb55ee80e507ad3375da660
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b6fd698e535e006149f6ce3a2a5bc57d0c92c7e2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895662"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193112"
 ---
 # <a name="learn-about-the-data-loss-prevention-alerts-dashboard"></a>데이터 손실 방지 알림 대시보드에 대한 자세한 정보
 

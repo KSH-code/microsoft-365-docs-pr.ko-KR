@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: d309f8851720578dfdd321efff862f15afd9bca8
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58250547"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192602"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>웹 위협으로부터 조직 보호
 

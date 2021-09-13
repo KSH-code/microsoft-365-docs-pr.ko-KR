@@ -22,11 +22,11 @@ ms.custom:
 - seo-marvel-jun2020
 ms.technology: m365d
 ms.openlocfilehash: de8d0a0bc1609a3dfac9d177a51ef3903b477de4
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572950"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192409"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -46,7 +46,7 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 
 ![보안 점수 홈페이지입니다.](../../media/secure-score/secure-score-home-page.png)
 
-## <a name="how-it-works"></a>작동 방법
+## <a name="how-it-works"></a>작업 방법
 
 다음 작업에 대한 포인트가 부여됩니다.
 

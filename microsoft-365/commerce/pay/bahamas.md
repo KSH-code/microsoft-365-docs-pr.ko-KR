@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9b39a81a74c21f9a68ee8bfe166ec58dcdeda0ffcdd430bc313f84f468441616
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5923d572f73b188d8ef2b706db7f61afe9421061
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53831226"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193372"
 ---
 # <a name="payment-information-for-bahamas"></a>바하마의 결제 정보
 

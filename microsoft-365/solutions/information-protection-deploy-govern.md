@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 사용자 Microsoft 365 레이블 및 정책을 사용하여 사용자 환경의 개인 Microsoft 365 관리합니다.
-ms.openlocfilehash: 06d3c19918d7e2963bffbb0f663971bbbbb209891f62ee9c83ebcc59b74e16d1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 62c2386ac8f9c5b31650df8be2c2a411d8b75959
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843878"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192199"
 ---
 # <a name="govern-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 보호 규정이 적용된 정보 관리
 

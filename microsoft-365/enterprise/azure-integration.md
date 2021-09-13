@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: a5efce5d-9c9c-4190-b61b-fd273c1d425f
 description: 암호 Microsoft 365 Single Sign-On을 원하는 경우 Azure AD와 통합합니다.
 ms.openlocfilehash: de971ee857e955fc4ddb8a059da23974965e81e3
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747598"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192869"
 ---
 # <a name="azure-integration-with-microsoft-365"></a>Azure와 통합된 Microsoft 365
 
@@ -62,6 +62,6 @@ Azure AD 및 Microsoft 365 대한 자세한 내용은 id [Microsoft 365 참조�
 |통합 앱  <br/> |메일, 일정, 연락처, 사용자, 그룹, 파일 및 폴더와 같은 Microsoft 365 데이터에 대한 액세스 권한을 개별 앱에 부여할 수 있습니다. Azure AD DC 관리자 또는 전역 관리자  수준에서 이러한 앱을 승인하고 **Azure AD에** 앱을 등록하여 전체 회사에서 사용할 수 있도록 할 수도 있습니다. 자세한 내용은 관리자용 통합 앱 [및 Azure AD를 Microsoft 365 참조하세요.](integrated-apps-and-azure-ads.md)<br/> 자세한 내용은 [관리자 역할 정보](/microsoft-365/admin/add-users/about-admin-roles?)를 참조하세요. <br/> Single [Sign-On도 참조합니다.](/azure/active-directory/manage-apps/what-is-single-sign-on)  <br/> |
 |Power Apps  <br/> | Power Apps 및 기타 데이터 앱과 같은 기존 데이터 원본에 연결할 수 있는 모바일 SharePoint 앱입니다. 자세한 [내용은 SharePoint Online](https://support.office.com/article/9338b2d2-67ac-4b81-8e67-97da27e5e9ab) 및 Power Apps 페이지에 대한 Power App 만들기를 참조하세요. [](https://powerapps.microsoft.com/)  <br/> |
    
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [Microsoft 365 Enterprise 개요](microsoft-365-overview.md)

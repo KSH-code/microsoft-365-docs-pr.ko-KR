@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 예상 검색 결과 및 실제 검색 결과가 각기 다른 이유에 대해 이해합니다. 검색에서 eDiscovery 도구를 사용하여 Office 365.
 ms.openlocfilehash: ae6e8d21ceb448f2402b14a02d5e08a3bf331548
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570584"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193169"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>예상 및 실제 eDiscovery 검색 결과 차이
 

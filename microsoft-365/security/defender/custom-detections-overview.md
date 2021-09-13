@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0cbc377a43d37031de024cba6000ab76f59dcfc3283391c1ae356da88d143de9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 748b3534ef1f6ca5736667fc3910bb9fa96d23ff
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867646"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192562"
 ---
 # <a name="custom-detections-overview"></a>사용자 지정 검색 개요
 
@@ -36,7 +36,7 @@ ms.locfileid: "53867646"
 
 사용자 지정 검색을 사용하면 위반 활동 및 잘못 구성된 끝점을 포함하여 다양한 이벤트 및 시스템 상태의 사전 대응을 모니터링하고 대응할 수 있습니다. 이 작업은 경고 및 응답 작업을 자동으로 트리거하는 사용자 지정 가능한 검색 규칙에 의해 가능합니다.
 
-사용자 지정 검색은 고급 헌팅과 함께 작동하며, 네트워크의 광범위한 이벤트 및 시스템 정보 집합을 다루는 강력하고 유연한 쿼리 언어를 제공합니다. [](advanced-hunting-overview.md) 이러한 경고를 정기적으로 실행하여 일치하는 경우 경고를 생성하고 응답 작업을 수행할 수 있습니다.
+사용자 지정 검색은 고급 헌팅과 함께 작동하며, 네트워크의 광범위한 이벤트 및 시스템 정보 집합을 다루는 강력하고 유연한 쿼리 언어를 제공합니다. [](advanced-hunting-overview.md) 정기적으로 실행되도록 설정하여 일치하는 항목이 있을 때마다 경고를 생성하고 대응 조치를 취할 수 있습니다.
 
 사용자 지정 검색을 통해:
 - 고급 헌팅 쿼리로 구축된 규칙 기반 검색에 대한 알림

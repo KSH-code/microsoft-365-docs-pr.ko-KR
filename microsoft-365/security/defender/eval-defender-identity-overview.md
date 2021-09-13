@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: a87b890191861677db604050814dd89fb39a93fc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568843"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192509"
 ---
 # <a name="evaluate-microsoft-defender-for-identity-overview"></a>Id에 대한 Microsoft Defender 평가 개요
 

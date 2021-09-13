@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Azure ExpressRoute와 함께 Azure ExpressRoute를 Office 365 배포하는 경우 네트워크 구현 프로젝트를 계획합니다.
 ms.openlocfilehash: 599b1b6a40e8b74f7ca4e3ad90723f201b74592d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573166"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192872"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Office 365용 Azure Express 경로
 

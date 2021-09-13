@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 f1.keywords: NOCSH
 ms.openlocfilehash: 6ab911fa9ad4e39a59b7acc58cae7686dd330ed4
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574475"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192192"
 ---
 # <a name="networking-up-to-the-cloudone-architects-viewpoint"></a>클라우드에 대한 네트워킹 - 설계자 한 1명의 관점에서 볼 수 있습니다.
 

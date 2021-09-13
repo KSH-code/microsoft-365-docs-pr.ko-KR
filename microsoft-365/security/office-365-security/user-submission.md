@@ -18,11 +18,11 @@ description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 1dc5a22fe23a64669c7ab89ecd2141aff1659166
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574499"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192262"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -142,7 +142,7 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 - 2| 또는 정크 아님
 - 3| 또는 피싱
 
-예시:
+예제:
 
 `3|This part is ignored by the system` <br>
 `Not Junk:This part of the subject is ignored as well`

@@ -19,11 +19,11 @@ ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 recommendations: false
 description: 사용자 그룹에 대한 이름 정책을 만드는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: 8c13e946644d25fc76745dc2c9f286bf204f6ba1
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568231"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192249"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 그룹 이름 정책
 

@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Configuration Manager를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
 ms.openlocfilehash: 309f6b7ee396baba0fcec0061d48f062510d7350
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569804"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193062"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>구성 관리자를 사용하여 Windows 10 장치 온보딩
 

@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 그룹, 팀 및 팀에 대한 수명 주기 종료 옵션 Yammer.
-ms.openlocfilehash: 9532fb7f7c57cf883a0c4d989c5372239eab1c9666890dabfa598cacdbb652cf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fccdf838b7ebec6a1ab1fae2f709824bfbd3b6d1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833018"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192252"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>그룹, 팀 및 팀에 대한 수명 주기 종료 옵션 Yammer
 

@@ -17,11 +17,11 @@ description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: d2d5ce65836accd94dec497e5be0087a94742ca0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573814"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192299"
 ---
 # <a name="modify-and-remove-entries-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에서 항목 수정 및 제거
 
@@ -58,7 +58,7 @@ ms.locfileid: "58573814"
      - **선택 사항 참고 사항**
    - **스푸핑**
      - **작업:** 값을 허용 또는 **차단으로** 변경할 **수 있습니다.**
-4. 작업을 마쳤으면 **저장** 을 클릭합니다.
+4. 작업을 마친 후 **저장** 을 클릭합니다.
 
 > [!NOTE]
 > 생성 날짜 이후 최대 30일 동안만 확장할 수 있습니다. 블록은 최대 90일까지 확장할 수 있지만 허용하는 경우와 달리 만료되지 않는 것으로 설정할 수도 있습니다.

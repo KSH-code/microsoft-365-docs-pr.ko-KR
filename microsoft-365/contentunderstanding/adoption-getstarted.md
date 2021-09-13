@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 0390163d1128bcb83fad0ad91c94c1a02d738a4e
-ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
+ms.openlocfilehash: f8d3e4bc1b410ddcf0472f408864de1f34dad722
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58928719"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192889"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex 도입: 시작
 
@@ -68,7 +68,7 @@ ms.locfileid: "58928719"
 
 ## <a name="identify-roles--responsibilities"></a>역할 및 & 식별
 
-조직에서 모델을 빌드하고 관리할 사용자 결정 다음과 같은 역할이 관련될 수 있습니다.
+조직에서 모델을 빌드하고 관리할 사용자 결정 다음 역할이 관련될 수 있습니다.
 
 | SharePoint/지식 관리자 | 파워 플랫폼 관리자 | 지식 관리자 | 모델 소유자 |
 |:-------|:-------|:-------|:-------|
@@ -146,5 +146,6 @@ ms.locfileid: "58928719"
 
 ## <a name="see-also"></a>참고 항목
 
-[사용자에 대한 시나리오 및 SharePoint Syntex](adoption-scenarios.md) 
- [관리 솔루션을 사용하여 Microsoft 365 관리](solution-manage-contracts-in-microsoft-365.md)
+[SharePoint Syntex에 대한 시나리오 및 사용 사례](adoption-scenarios.md)
+
+[Microsoft 365 솔루션을 사용하여 계약 관리](solution-manage-contracts-in-microsoft-365.md)

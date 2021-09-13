@@ -18,11 +18,11 @@ description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 �
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: f12a416a95f55a73bd0bbd80bfb1a4fe5121aeec
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575903"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192362"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 

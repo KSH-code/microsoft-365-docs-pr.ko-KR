@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: 056152e44dbe2fc11265e64c548b1056fd72e517
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: db7622da1094dd1abf69752c6a0c41c374e80e9f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573826"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163434"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -61,7 +61,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 ### <a name="sharing"></a>공유
 
-**탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > 설정 > 조직 설정 > 보안 및 개인 정보 보호 탭 > 공유
+**탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > **설정** > **조직 설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**보안 및 개인 정보 보호** 탭</a> > **공유**.
 
 ![Microsoft 365 관리 센터의 보안 및 개인 정보 게스트 공유 설정 스크린샷.](../media/sharepoint-security-privacy-sharing-setting.png)
 
@@ -71,7 +71,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 ### <a name="microsoft-365-groups"></a>Microsoft 365 그룹
 
-**탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > 설정 > 설정 > Microsoft 365 그룹
+**탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > **설정** > **조직 설정** > Microsoft 365 그룹
 
 ![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷.](../media/office-365-groups-guest-settings.png)
 

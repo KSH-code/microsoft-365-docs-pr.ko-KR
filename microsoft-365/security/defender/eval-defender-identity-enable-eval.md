@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 6a89c0e9d9b8b66048ddd50ab967520987a152a9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572518"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192539"
 ---
 # <a name="enable-the-evaluation-environment-for-microsoft-defender-for-identity"></a>Id에 대한 Microsoft Defender의 평가 환경 사용
 
@@ -50,7 +50,7 @@ ID용 Defender 포털에 로그인하여 인스턴스를 만든 다음 이 인�
 
 |  |단계     |추가 정보  |
 |---------|---------|---------|
-|1     | ID용 Defender 인스턴스 만들기        | [빠른 시작: ID용 Microsoft Defender 인스턴스 만들기](/defender-for-identity/install-step1)        |
+|1     | ID용 Defender 인스턴스 만들기        | [빠른 시작: Microsoft Defender for Identity 인스턴스 만들기](/defender-for-identity/install-step1)        |
 |2     | 커넥트 대한 Defender 인스턴스를 Active Directory 포리스트에 추가   | [빠른 시작: 커넥트 포리스트로 설정](/defender-for-identity/install-step2)  |
 | | |
 
@@ -60,7 +60,7 @@ ID용 Defender 포털에 로그인하여 인스턴스를 만든 다음 이 인�
 
 |  |단계     |추가 정보  |
 |---------|---------|---------|
-|1     | 필요한 ID 센서에 대한 Microsoft Defender 수를 결정 합니다.        | [Id에 대한 Microsoft Defender 용량 계획](/defender-for-identity/capacity-planning)   |
+|1     | 필요한 ID 센서에 대한 Microsoft Defender 수를 결정 합니다.        | [Microsoft Defender for Identity 용량 계획](/defender-for-identity/capacity-planning)   |
 |2     | 센서 설치 패키지 다운로드  |  [빠른 시작: Id용 Microsoft Defender 센서 설정 패키지 다운로드](/defender-for-identity/install-step3)   |
 |3      | Id용 Defender 센서 설치    |  [빠른 시작: Id용 Microsoft Defender 센서 설치](/defender-for-identity/install-step4)       |
 |4      | 센서 구성       |  [Id에 대한 Microsoft Defender 센서 설정 구성 ](/defender-for-identity/install-step5)   |

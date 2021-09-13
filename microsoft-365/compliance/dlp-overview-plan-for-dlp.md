@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: 데이터 손실 방지 계획 프로세스 개요
 ms.openlocfilehash: 130675ad15a872ed14041289fb24aeec471014ff
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573262"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192959"
 ---
 # <a name="plan-for-data-loss-prevention-dlp"></a>DLP(데이터 손실 방지) 계획
 

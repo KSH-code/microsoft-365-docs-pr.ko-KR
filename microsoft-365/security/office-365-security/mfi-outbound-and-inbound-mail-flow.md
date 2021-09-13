@@ -14,11 +14,11 @@ description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 6fe4f7bded7a3d1fcca26d537de24513f27bc0ec
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571256"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192309"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 아웃바운드 및 & 흐름 정보
 

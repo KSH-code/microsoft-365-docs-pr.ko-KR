@@ -19,11 +19,11 @@ ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 관리자가 해당 사서함이 법적 보유 상태인 경우에도 Exchange Online 사서함에 대한 사용자의 복구 가능한 항목 폴더에 있는 항목을 삭제하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 01242e2c5f00cd1e5aef0ac0f6f7f6e1d47a56ce
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502666"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193189"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 

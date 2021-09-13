@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: Microsoft가 아닌 클라우드 앱에 대해 dlp 정책을 사용하는 방법을 배워야 합니다.
 ms.openlocfilehash: 5817bad8e02e0aeee6aab88ca1a4cabe45822b51
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571377"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192939"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps"></a>Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용
 

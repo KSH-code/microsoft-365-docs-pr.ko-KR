@@ -24,11 +24,11 @@ search.appverid:
 description: 365 Business 클라우드 PC의 설치 문제를 Windows 방법을 학습합니다.
 ms.date: 08/13/2021
 ms.openlocfilehash: 701d1ce3ae97836d6687050e16a176aad85e2995
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598933"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192102"
 ---
 # <a name="troubleshoot-windows-365-business-cloud-pc-setup-issues"></a>365 Windows 클라우드 PC 설정 문제 해결
 

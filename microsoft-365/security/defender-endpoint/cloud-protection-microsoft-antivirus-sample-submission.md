@@ -16,11 +16,11 @@ ms.technology: mde
 ms.topic: article
 ms.date: 08/31/2021
 ms.openlocfilehash: 5d9f6ace79d05eff795041732e045abf18d5f792
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864017"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192782"
 ---
 # <a name="cloud-protection-and-sample-submission-in-microsoft-defender-antivirus"></a>클라우드 보호 및 샘플 제출(Microsoft Defender 바이러스 백신
 

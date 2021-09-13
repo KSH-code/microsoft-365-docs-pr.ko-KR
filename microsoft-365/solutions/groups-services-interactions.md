@@ -17,11 +17,11 @@ f1.keywords: NOCSH
 recommendations: false
 description: 그룹 서비스 상호 작용
 ms.openlocfilehash: 54d8cd0ff31bad9af4269b3a4d8af23ccb618e16
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563709"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192239"
 ---
 # <a name="groups-services-interactions"></a>그룹 서비스 상호 작용
 
@@ -181,7 +181,7 @@ Teams Microsoft 및 타사 서비스와 상호 작용할 수 있는 단수 인�
 
 - Conversations
 - 채널 & 탭
-- 모임
+- Meetings
 
 **그룹을 Teams 수 있나요?**
 

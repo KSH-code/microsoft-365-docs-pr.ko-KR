@@ -20,11 +20,11 @@ ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: 이 문서에서는 감사 로그 레코드에 대한 결과를 내보낼 때 포함된 추가 Office 365 제공합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 20965367cda41ad50070d42b306564f6a8d9bb8b
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503062"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193172"
 ---
 # <a name="detailed-properties-in-the-audit-log"></a>감사 로그의 자세한 속성
 

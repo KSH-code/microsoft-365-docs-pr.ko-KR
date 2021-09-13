@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: 보존 레이블을 사용하여 레코드 선언
 ms.openlocfilehash: 53db42de769600de3a6190ee4b7f0de2d9e5505e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574246"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193219"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>보존 레이블을 사용하여 레코드 선언
 

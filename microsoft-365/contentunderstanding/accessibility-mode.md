@@ -10,11 +10,11 @@ search.appverid: ''
 localization_priority: Normal
 description: 2013에서 모델을 교육할 때 접근성 모드를 사용하는 방법을 SharePoint Syntex.
 ms.openlocfilehash: 73a867c3157d3debc584995708a337c36b6b0028
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573754"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192892"
 ---
 # <a name="sharepoint-syntex-accessibility-mode"></a>SharePoint Syntex 접근성 모드
 

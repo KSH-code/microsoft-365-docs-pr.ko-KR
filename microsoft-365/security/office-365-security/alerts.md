@@ -21,12 +21,12 @@ description: 고급 경고 관리를 포함하여 Microsoft 365 Defender 포털�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 41f17ccb3cf6c79771df0d8db8390d013e18262f1d0b3fece7c52edf5a280cef
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 44009ac90dddf9a8f901fdcc5d46496e4bc78338
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56877516"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192392"
 ---
 # <a name="alerts-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 알림
 

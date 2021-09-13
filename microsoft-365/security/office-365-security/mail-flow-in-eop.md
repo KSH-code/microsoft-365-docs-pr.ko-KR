@@ -15,12 +15,12 @@ ms.custom:
 description: 관리자는 EOP(전자 메일 흐름)에서 메일 흐름 및 라우팅을 구성하는 옵션에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 21702d1b7c57e1d102503cc806fa5699627eedabbb0945e34be91c2c2eb1fedf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9636025796aee1ba2027edff38a16f131974134f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56884576"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192349"
 ---
 # <a name="mail-flow-in-eop"></a>EOP의 메일 흐름
 

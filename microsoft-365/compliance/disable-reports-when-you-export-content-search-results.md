@@ -18,11 +18,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 로컬 Windows 콘텐츠 검색의 결과를 내보낼 때 보고서를 사용하지 않도록 설정하려면 로컬 컴퓨터의 Microsoft 365 규정 준수 센터.
 ms.openlocfilehash: efe9ea768b68524dbfda003796a10d60453862bc
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503158"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193159"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 

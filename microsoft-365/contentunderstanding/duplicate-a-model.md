@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 모델을 복제하는 방법과 이유에 대해 자세히 알 수 있습니다.
-ms.openlocfilehash: 8dae41e1b1dd8df15714dbd2fece9d56e576847d2bea62f19a8febca54057074
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 882340198ec17402caa30d9e1e34b4e37b0096a4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53855405"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192879"
 ---
 # <a name="duplicate-a-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 모델 복제
 

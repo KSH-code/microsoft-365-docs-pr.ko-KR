@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 description: DataParser 커넥터를 사용하여 17a-4 SQL 설정하고 사용하여 SQL 데이터를 가져오고 보관하는 Microsoft 365.
 ms.openlocfilehash: 21a4c8a8a7d0c1a7e8dbf8cef7f1731e56d456ce
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563172"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193249"
 ---
 # <a name="set-up-a-connector-to-archive-sql-data"></a>데이터 보관을 위한 SQL 설정
 

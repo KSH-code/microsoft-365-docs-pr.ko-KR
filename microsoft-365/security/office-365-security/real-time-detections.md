@@ -16,12 +16,12 @@ description: 탐색기 또는 실시간 검색을 사용하여 위협을 효율�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a89ed9eed07be2d66336dcab799e45d155151fce252f163c1d0eb27f43a4ac46
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4d0a9ba7ee40c8ad97df745a20d6b5b3314bb3d8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867478"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192289"
 ---
 # <a name="explorer-and-real-time-detections-basics"></a>탐색기 및 실시간 검색 기본
 
