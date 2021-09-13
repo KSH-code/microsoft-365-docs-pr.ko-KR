@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: 55b1e33483b4ba9d3480b1e1c1c8dc2f37557039
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571858"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222856"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>링에서 끝점용 Microsoft Defender 배포
 
@@ -62,7 +62,7 @@ ms.locfileid: "58571858"
 |---|---|
 |평가|링 1: 파일럿 테스트용 시스템 50개 식별|
 |파일럿|링 2: 프로덕션 환경에서 다음 50-100개 끝점 식별|
-|배포 후|링 3: 더 큰 증분으로 나머지 환경에 서비스 롤아웃|
+|전체 배포|링 3: 더 큰 증분으로 나머지 환경에 서비스 롤아웃|
 |
 
 ### <a name="exit-criteria"></a>종료 조건
@@ -97,7 +97,7 @@ ms.locfileid: "58571858"
 |**Android**|[Microsoft Endpoint Manager ](android-intune.md)|
 |
 
-### <a name="full-deployment"></a>배포 후
+### <a name="full-deployment"></a>전체 배포
 
 이 단계에서 배포 계획 자료를 [사용하여](deployment-strategy.md) 배포를 계획할 수 있습니다.
 

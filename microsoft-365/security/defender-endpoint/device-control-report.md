@@ -14,11 +14,11 @@ manager: dansimp
 audience: ITPro
 ms.technology: mde
 ms.openlocfilehash: fb61525456c01f402bebc2eb0b9934d8f8880fee
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58748199"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222826"
 ---
 # <a name="protect-your-organizations-data-with-device-control"></a>장치 제어를 사용하여 조직의 데이터 보호
 

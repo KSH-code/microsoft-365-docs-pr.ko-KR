@@ -16,11 +16,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: 465aba55225aed74c838cb8ce09acf6d8b284491
-ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58408061"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222977"
 ---
 # <a name="batch-update-alerts"></a>일괄 업데이트 경고
 
@@ -49,7 +49,7 @@ ms.locfileid: "58408061"
 1. API에서 사용할 수 있는 경고를 업데이트할 수 있습니다. 자세한 [내용은 목록 경고를](get-alerts.md) 참조하세요.
 2. 이 API에 대한 속도 제한은 분당 10개 호출과 시간당 500개 호출입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -74,7 +74,7 @@ POST /api/alerts/batchUpdate
 
 이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
 Content-Type | String | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
@@ -89,10 +89,10 @@ Content-Type | String | application/json. **필수입니다**.
 :---|:---|:---
 alertIds | 목록 &lt; 문자열&gt;| 업데이트할 경고의 IDS 목록입니다. **필수**
 status | String | 지정한 경고의 업데이트된 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
-assignedTo | String | 지정된 경고의 소유자
-classification | String | 지정한 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
-determination | String | 지정한 경고의 결정에 대해 지정합니다. 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-comment | String | 지정한 경고에 추가할 설명입니다.
+assignedTo | 문자열 | 지정된 경고의 소유자
+classification | 문자열 | 지정한 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
+determination | 문자열 | 지정한 경고의 결정에 대해 지정합니다. 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
+comment | 문자열 | 지정한 경고에 추가할 설명입니다.
 
 ## <a name="response"></a>응답
 

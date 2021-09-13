@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 113e3aa630f47d5b2c928fa1a51f3397cb5697774d391312413fa8309ead8b4c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5df7e5262e20b5a7df2d4edfe3eea9bb927f317d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53804255"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59209942"
 ---
 # <a name="contact-support-for-samoa"></a>사모아 지원에 문의
 

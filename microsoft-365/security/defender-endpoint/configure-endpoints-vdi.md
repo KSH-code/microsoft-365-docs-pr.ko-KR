@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 9d976ee46cc6feb7897e67294077b8a1fbaa0f12
-ms.sourcegitcommit: 346c1332e1e9eebb5c90d6b8553dd70fcabf530a
+ms.openlocfilehash: c2d33c40cba675f36f9be3a181db655e8087a811
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53567851"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222965"
 ---
 # <a name="onboarding-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
 
@@ -35,11 +35,11 @@ ms.locfileid: "53567851"
 - VDI(가상 데스크톱 인프라) 장치
 - Windows 10 Windows Server 2019, Windows Server 2008R2/2012R2/2016
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configvdi-abovefoldlink)
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-configvdi-abovefoldlink)
 
 ## <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
 
-Endpoint용 Defender는 비영구 VDI 세션 온보딩을 지원합니다. 
+Endpoint용 Defender는 비영구 VDI 세션 온보딩을 지원합니다.
 
 VIS를 온보드할 때 관련 문제가 있을 수 있습니다. 이 시나리오의 일반적인 문제는 다음과 같습니다.
 
@@ -57,72 +57,52 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 다음 단계에서는 VDI 장치를 등록하는 단계를 안내하고 단일 항목과 여러 항목에 대한 단계를 강조합니다.
 
->[!WARNING]
-> 리소스 구성이 낮은 환경에서는 VDI 부팅 절차로 끝점 센서의 Defender 온보딩 속도가 느려질 수 있습니다. 
-
+> [!WARNING]
+> 리소스 구성이 낮은 환경에서는 VDI 부팅 절차로 끝점 센서의 Defender 온보딩 속도가 느려질 수 있습니다.
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Windows 10 또는 Windows Server 2019의 경우
 
-1.  서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 다음 포털에서 패키지를 [Microsoft 365 Defender 있습니다.](https://security.microsoft.com/)
+1. 서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 다음 포털에서 패키지를 [Microsoft 365 Defender 있습니다.](https://security.microsoft.com/)
+   1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.
+   2. 운영 Windows 10 로 실행을 선택합니다.
+   3. 배포 **방법 필드에서** 비영구 끝점에 **대한 VDI 온보딩 스크립트를 선택합니다.**
+   4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
-    1. 탐색 창에서 **끝점 설정**  >  **관리**  >    >  **온보더링** 을 선택합니다.
+2. .zip 파일에서 추출한 WindowsDefenderATPOnboardingPackage 폴더의 파일을 경로 아래에 있는 골든/마스터 이미지로 `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 복사합니다.
+    1. 각 디바이스에 대해 여러 항목을 구현하는 경우 각 세션에 대해 하나씩 WindowsDefenderATPOnboardingScript.cmd를 복사합니다.
+    2. 각 장치에 대해 단일 항목을 구현하는 경우 Onboard-NonPersistentMachine.ps1 및 WindowsDefenderATPOnboardingScript.cmd를 모두 복사합니다.
 
-    1. 운영 Windows 10 로 실행을 선택합니다.
-
-    1.  배포 **방법 필드에서** 비영구 끝점에 **대한 VDI 온보딩 스크립트를 선택합니다.**
-
-    1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
-
-2. .zip 파일에서 추출한 WindowsDefenderATPOnboardingPackage 폴더의 파일을 경로의 이미지로 `golden/master` `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 복사합니다. 
-
-    1. 각 장치에 대해 단일 항목을 구현하지 않는 경우 WindowsDefenderATPOnboardingScript.cmd를 복사합니다.
-
-    1. 각 장치에 대해 단일 항목을 구현하는 경우 Onboard-NonPersistentMachine.ps1 및 WindowsDefenderATPOnboardingScript.cmd를 모두 복사합니다.
-    
     > [!NOTE]
     > 폴더가 없는 경우 `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 숨겨져 있을 수 있습니다. 파일 탐색기에서 숨겨진 파일 및 **폴더 표시** 옵션을 선택해야 합니다.
 
-3. 로컬 그룹 정책 편집기 창을 열고 컴퓨터 **구성** Windows 설정  >    >    >  **시작으로 이동합니다.**
+3. 로컬 그룹 정책 편집기 창을 열고 컴퓨터 **구성** Windows 설정 \>  \>  \> **시작으로 이동합니다.**
 
    > [!NOTE]
    > 도메인 그룹 정책은 비영구적 VDI 장치를 온보드하는 데도 사용할 수 있습니다.
 
 4. 구현할 메서드에 따라 적절한 단계를 수행합니다.
+    - 각 디바이스에 대한 단일 항목:
 
-   - 각 디바이스에 대한 단일 항목:
-   
-     **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
-   
-   - 각 장치에 대한 여러 항목의 경우:
-   
-     스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
+         **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
+
+    - 각 장치에 대한 여러 항목의 경우:
+
+         스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기가 앞에서 온보딩 스크립트를 복사한 경로에서 직접 열립니다). 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
 
 5. 솔루션을 테스트합니다.
-
    1. 하나의 장치로 풀을 만들 수 있습니다.
-      
-   1. 장치에 로그온합니다.
-      
-   1. 장치에서 로그오프합니다.
-
-   1. 다른 사용자와 함께 장치에 로그온합니다.
-      
-   1. 구현할 메서드에 따라 적절한 단계를 수행합니다.
-
-        - 각 디바이스에 대한 단일 항목: 
-
-            포털에서 하나의 항목만 Microsoft 365 Defender 검사합니다.
-
-        - 각 장치에 대한 여러 항목의 경우: 
-
-            포털에서 여러 Microsoft 365 Defender 검사합니다.
+   2. 장치에 로그온합니다.
+   3. 장치에서 로그오프합니다.
+   4. 다른 사용자와 함께 장치에 로그온합니다.
+   5. 구현할 메서드에 따라 적절한 단계를 수행합니다.
+      - 각 디바이스에 대한 단일 항목: 포털에서 하나의 Microsoft 365 Defender 확인합니다.
+      - 각 디바이스에 대한 여러 항목에 대해: 포털에서 여러 Microsoft 365 Defender 확인합니다.
 
 6. 탐색 **창에서** 장치 목록을 클릭합니다.
 
 7. 장치 이름을 입력하고 검색 유형으로 **장치를** 선택하여 검색 기능을 사용합니다.
 
-
-## <a name="for-downlevel-skus"></a>다운클레드 SUS의 경우
+## <a name="for-downlevel-skus-windows-server-2008-r22012-r22016"></a>다운클래블 SKUS(Windows Server 2008 R2/2012 R2/2016)의 경우
 
 > [!NOTE]
 > 다음 레지스트리는 '각 장치에 대한 단일 항목'을 달성하는 것이 목표인 경우만 관련이 있습니다.
@@ -140,21 +120,22 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
     reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging" /v VDI /t REG_SZ /d "NonPersistent" /f
     ```
 
-2. 서버 [온보더링 프로세스를 따르는 경우.](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016) 
-
-
+2. 서버 [온보더링 프로세스를 따르는 경우.](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016)
 
 ## <a name="updating-non-persistent-virtual-desktop-infrastructure-vdi-images"></a>비영구적 VDI(가상 데스크톱 인프라) 이미지 업데이트
-최상의 방법은 오프라인 서비스 도구를 사용하여 골든/마스터 이미지를 패치하는 것이 좋습니다.<br>
+
+최상의 방법은 오프라인 서비스 도구를 사용하여 골든/마스터 이미지를 패치하는 것이 좋습니다.
+
 예를 들어 아래 명령을 사용하여 이미지가 오프라인 상태로 유지되는 동안 업데이트를 설치할 수 있습니다.
 
 ```console
-DISM /Mount-image /ImageFile:"D:\Win10-1909.vhdx" /index:1 /MountDir:"C:\Temp\OfflineServicing" 
+DISM /Mount-image /ImageFile:"D:\Win10-1909.vhdx" /index:1 /MountDir:"C:\Temp\OfflineServicing"
 DISM /Image:"C:\Temp\OfflineServicing" /Add-Package /Packagepath:"C:\temp\patch\windows10.0-kb4541338-x64.msu"
 DISM /Unmount-Image /MountDir:"C:\Temp\OfflineServicing" /commit
 ```
 
 DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문서를 참조하세요.
+
 - [DISM을 Windows 이미지 수정](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
 - [DISM 이미지 관리 Command-Line 옵션](/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
 - [오프라인 저장소 이미지에서 구성 요소 저장소 Windows 줄이기](/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
@@ -177,13 +158,14 @@ DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문�
     PsExec.exe -s cmd.exe
     cd "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Cyber"
     del *.* /f /s /q
-    REG DELETE “HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection" /v senseGuid /f
+    REG DELETE "HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection" /v senseGuid /f
     exit
     ```
 
 5. 평소와 처럼 골든/마스터 이미지를 다시 비우는 것이 가장 까다로워질 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
+
 - [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)
 - [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)

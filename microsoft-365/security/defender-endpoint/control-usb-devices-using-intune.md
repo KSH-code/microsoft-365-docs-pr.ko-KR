@@ -15,11 +15,11 @@ ms.topic: conceptual
 ms.technology: mde
 ROBOTS: NOINDEX
 ms.openlocfilehash: 6ad51065ca4e919fe51cc4a2d5f4b0d53bc474b1
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566713"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222908"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법
 

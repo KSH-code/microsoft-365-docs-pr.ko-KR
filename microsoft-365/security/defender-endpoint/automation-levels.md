@@ -22,11 +22,11 @@ ms.topic: conceptual
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
 ms.openlocfilehash: 901f1bb39be58eacccbd024aa109e04c98ae5193
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509560"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59223004"
 ---
 # <a name="automation-levels-in-automated-investigation-and-remediation-capabilities"></a>자동 조사 및 수정 기능의 자동화 수준
 
@@ -57,7 +57,7 @@ ms.locfileid: "58509560"
 |**Semi - 모든 수정에 대한 승인 필요** <br> *(반자동화라고도 합니다.)*|이 수준의 반자동화에서는 수정 작업을 *수행하려면* 승인이 필요합니다. 이러한 보류 중인 작업은 보류 중인 [](auto-investigation-action-center.md)탭의 작업 센터 에서 보고 승인할 **수** 있습니다. <p> *이 반자 자동화 수준은 장치 그룹이 정의되지 않은 Microsoft Defender for Endpoint를 사용하여 2020년 8월 16일 전에 만들어진 테넌트에 대해 기본적으로 선택됩니다.*|
 |**Semi - 핵심 폴더 수정에 대한 승인 필요** <br> *(반자동화의 일종)*|이 수준의 반자동화에서는 핵심 폴더에 있는 파일 또는 실행 파일에 필요한 수정 작업에 대해 승인이 필요합니다. 핵심 폴더에는 Windows( ) 등의 운영 체제 **Windows** `\windows\*` 있습니다. <p> 핵심 폴더가 아닌 다른 폴더에 있는 파일 또는 실행 파일에 대해 수정 작업을 자동으로 수행할 수 있습니다. <p> 핵심 폴더의 파일 또는 실행 파일에 대한 보류 중인 작업은 [](auto-investigation-action-center.md)보류 중인 탭의 작업 센터에서 보고 승인할 **수** 있습니다. <p> 다른 폴더의 파일 또는 실행 파일에 대해 수행된 작업은 [](auto-investigation-action-center.md)사용 기록 탭의 작업 센터 에서 볼 **수** 있습니다.|
 |**Semi - 비 임시 폴더 수정에 대한 승인 필요** <br> *(반자동화의 일종)*|이 수준의 반자동화에서는 임시 폴더가 아닌 파일 또는 실행 파일에 필요한  수정 작업에 대해 승인이 필요합니다. <p> 임시 폴더에는 다음 예가 포함됩니다. <ul><li>`\users\*\appdata\local\temp\*`</li><li>`\documents and settings\*\local settings\temp\*`</li><li>`\documents and settings\*\local settings\temporary\*`</li><li>`\windows\temp\*`</li><li>`\users\*\downloads\*`</li><li>`\program files\`</li><li>`\program files (x86)\*`</li><li>`\documents and settings\*\users\*`</li></ul> <p> 임시 폴더에 있는 파일 또는 실행 파일에 대해 수정 작업을 자동으로 수행할 수 있습니다. <p> 임시 폴더에 없는 파일 또는 실행 파일에 대한 보류 중인 작업은 보류 중인 탭의 작업 센터에서 보고 승인할 **수** 있습니다. [](auto-investigation-action-center.md) <p> 임시 폴더의 파일 또는 실행 파일에 대해 수행된 작업은 사용 기록 [](auto-investigation-action-center.md)탭의 작업 센터 에서 보고 승인할 **수** 있습니다.|
-|**자동화된 응답 없음** <br> (자동화 *없음)라고도 합니다.*|자동화가 없는 경우 조직의 장치에서 자동화된 조사가 실행되지 않습니다. 따라서 자동화된 조사의 결과로 수정 작업이 수행되거나 보류되지 않습니다. 그러나 바이러스 백신 및 차세대 [](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)보호 기능이 구성된 방식에 따라 잠재적으로 원치 않는 응용 프로그램의 보호와 같은 다른 위협 방지 기능이 적용될 수 있습니다. <p> ***자동화 *없음 옵션을*** 사용하면 조직의 디바이스의 보안 설정이 줄어들기 때문에 사용하지 않는 것이 좋습니다. [자동화 수준을 전체 자동화(또는](/microsoft-365/security/defender-endpoint/machine-groups)적어도 반 자동화)로 설정할 수 있습니다.|
+|**자동 응답 없음** <br> (자동화 *없음)라고도 합니다.*|자동화가 없는 경우 조직의 장치에서 자동화된 조사가 실행되지 않습니다. 따라서 자동화된 조사의 결과로 수정 작업이 수행되거나 보류되지 않습니다. 그러나 바이러스 백신 및 차세대 [](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)보호 기능이 구성된 방식에 따라 잠재적으로 원치 않는 응용 프로그램의 보호와 같은 다른 위협 방지 기능이 적용될 수 있습니다. <p> ***자동화 *없음 옵션을*** 사용하면 조직의 디바이스의 보안 설정이 줄어들기 때문에 사용하지 않는 것이 좋습니다. [자동화 수준을 전체 자동화(또는](/microsoft-365/security/defender-endpoint/machine-groups)적어도 반 자동화)로 설정할 수 있습니다.|
 |
 
 ## <a name="important-points-about-automation-levels"></a>자동화 수준에 대한 중요 지점

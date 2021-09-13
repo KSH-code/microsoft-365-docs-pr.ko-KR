@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8411f5241a8a800e10e6eb9593e71016b3623bb4b9b5dc17964c53b2db05a930
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9c094ca0970d7bd8cce077c8c89b04f0ab2aa8a1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832070"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210055"
 ---
 # <a name="contact-support-for-nauru"></a>나우루 지원에 문의
 

@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 68583eeb7daaf755f3e095ef80e0a221f54f0766
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589371"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210262"
 ---
 # <a name="list-machineactions-api"></a>MachineActions API 나열
 
@@ -81,7 +81,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|문자열|Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

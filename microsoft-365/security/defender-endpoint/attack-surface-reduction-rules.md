@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 1e11cdd9300b58d7cc410c43d1bd09ed095c29e7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 6dcfd27cb609231c7caa4a486044d91140b0c4b1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570692"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222079"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -113,6 +113,8 @@ Intune 이름: `Block abuse of exploited vulnerable signed drivers`
 
 GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
 
+AH 작업 유형:
+
 ### <a name="block-adobe-reader-from-creating-child-processes"></a>Adobe Reader에서 하위 프로세스를 만들지 차단
 
 이 규칙은 Adobe Reader가 프로세스를 만들지 못하게 차단하여 공격을 방지합니다.
@@ -125,6 +127,11 @@ Configuration Manager 이름: 아직 사용할 수 없습니다.
 
 GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`
 
+AH 작업 유형:
+
+- AsrAdobeReaderChildProcessAudited
+- AsrAdobeReaderChildProcessBlocked
+
 ### <a name="block-all-office-applications-from-creating-child-processes"></a>모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단
 
 이 규칙은 Office 프로세스 만들기를 차단합니다. Office 앱에는 Word, Excel, PowerPoint, OneNote 및 Access가 포함됩니다.
@@ -136,6 +143,11 @@ Intune 이름: `Office apps launching child processes`
 Configuration Manager 이름: `Block Office application from creating child processes`
 
 GUID: `d4f940ab-401b-4efc-aadc-ad5f3c50688a`
+
+AH 작업 유형:
+
+- AsrOfficeChildProcessAudited
+- AsrOfficeChildProcessBlocked
 
 ### <a name="block-credential-stealing-from-the-windows-local-security-authority-subsystem"></a>로컬 보안 기관 하위 Windows 자격 증명 도용 차단
 
@@ -152,6 +164,11 @@ Configuration Manager 이름: `Block credential stealing from the Windows local 
 
 GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`
 
+AH 작업 유형:
+
+- AsrLsassCredentialTheftAudited
+- AsrLsassCredentialTheftBlocked
+
 ### <a name="block-executable-content-from-email-client-and-webmail"></a>전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단
 
 이 규칙은 Microsoft Outlook 응용 프로그램 또는 Outlook.com 및 기타 인기 있는 웹 메일 공급자에서 연 전자 메일에서 다음 파일 형식이 시작되지 Outlook 차단합니다.
@@ -164,6 +181,11 @@ Intune 이름: `Execution of executable content (exe, dll, ps, js, vbs, etc.) dr
 Microsoft Endpoint Manager 이름:`Block executable content from email client and webmail`
 
 GUID: `be9ba2d9-53ea-4cdc-84e5-9b1eeee46550`
+
+AH 작업 유형:
+
+- AsrExecutableEmailContentAudited
+- AsrExecutableEmailContentBlocked
 
 > [!NOTE]
 > 전자 **메일 클라이언트 및 웹** 메일에서 실행 가능한 콘텐츠 차단 규칙에는 사용하는 응용 프로그램에 따라 다음과 같은 대체 설명이 있습니다.
@@ -195,6 +217,11 @@ Configuration Manager 이름: `Block executable files from running unless they m
 
 GUID: `01443614-cd74-433a-b99e-2ecdc07bfc25`
 
+AH 작업 유형:
+
+- AsrUntrustedExecutableAudited
+- AsrUntrustedExecutableBlocked
+
 ### <a name="block-execution-of-potentially-obfuscated-scripts"></a>잠재적으로 난치될 수 있는 스크립트의 실행 차단
 
 이 규칙은 난처한 스크립트 내에서 의심스러운 속성을 검색합니다.
@@ -206,6 +233,11 @@ Intune 이름: `Obfuscated js/vbs/ps/macro code`
 Configuration Manager 이름: `Block execution of potentially obfuscated scripts`
 
 GUID: `5beb7efe-fd9a-4556-801d-275e5ffc04cc`
+
+AH 작업 유형:
+
+- AsrObfuscatedScriptAudited
+- AsrObfuscatedScriptBlocked
 
 ### <a name="block-javascript-or-vbscript-from-launching-downloaded-executable-content"></a>JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단
 
@@ -219,6 +251,11 @@ Configuration Manager 이름: `Block JavaScript or VBScript from launching downl
 
 GUID: `d3e037e1-3eb8-44c8-a917-57927947596d`
 
+AH 작업 유형:
+
+- AsrScriptExecutableDownloadAudited
+- AsrScriptExecutableDownloadBlocked
+
 ### <a name="block-office-applications-from-creating-executable-content"></a>응용 Office 콘텐츠 만들기 차단
 
 이 규칙은 word, Excel 및 PowerPoint 등의 Office 앱이 악성 코드가 디스크에 기록되지 않도록 차단하여 잠재적으로 악의적인 실행 콘텐츠를 만들지 못하게 합니다.
@@ -230,6 +267,11 @@ Intune 이름: `Office apps/macros creating executable content`
 SCCM 이름: `Block Office applications from creating executable content`
 
 GUID: `3b576869-a4ec-4529-8536-b80a7769e899`
+
+AH 작업 유형:
+
+- AsrExecutableOfficeContentAudited
+- AsrExecutableOfficeContentBlocked
 
 ### <a name="block-office-applications-from-injecting-code-into-other-processes"></a>응용 Office 코드 삽입 차단
 
@@ -247,6 +289,11 @@ Configuration Manager 이름: `Block Office applications from injecting code int
 
 GUID: `75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84`
 
+AH 작업 유형:
+
+- AsrOfficeProcessInjectionAudited
+- AsrOfficeProcessInjectionBlocked
+
 ### <a name="block-office-communication-application-from-creating-child-processes"></a>통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단
 
 이 규칙은 Outlook 자식 프로세스를 만들지 못하게 하지만 합법적인 Outlook 합니다.
@@ -261,6 +308,11 @@ Intune 이름: `Process creation from Office communication products (beta)`
 Configuration Manager 이름: 사용할 수 없습니다.
 
 GUID: `26190899-1602-49e8-8b27-eb1d0a1ce869`
+
+AH 작업 유형:
+
+- AsrOfficeCommAppChildProcessAudited
+- AsrOfficeCommAppChildProcessBlocked
 
 ### <a name="block-persistence-through-wmi-event-subscription"></a>WMI 이벤트 구독을 통한 지속성 차단
 
@@ -277,6 +329,11 @@ Configuration Manager 이름: 사용할 수 없습니다.
 
 GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 
+AH 작업 유형:
+
+- AsrPersistenceThroughWmiAudited
+- AsrPersistenceThroughWmiBlocked
+
 ### <a name="block-process-creations-originating-from-psexec-and-wmi-commands"></a>PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단
 
 이 규칙은 [PsExec](/sysinternals/downloads/psexec) 및 [WMI를](/windows/win32/wmisdk/about-wmi) 통해 만든 프로세스의 실행을 차단합니다. PsExec과 WMI 모두 코드를 원격으로 실행할 수 있으므로 맬웨어가 명령 및 제어 목적으로 이 기능을 남용하거나 조직의 네트워크 전체에 감염을 전파할 위험이 있습니다.
@@ -290,6 +347,11 @@ Configuration Manager 이름: 해당되지 않습니다.
 
 GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`
 
+AH 작업 유형:
+
+- AsrPsexecWmiChildProcessAudited
+- AsrPsexecWmiChildProcessBlocked
+
 ### <a name="block-untrusted-and-unsigned-processes-that-run-from-usb"></a>USB에서 실행된 무단 및 사인되지 않은 프로세스 차단
 
 이 규칙을 사용하여 관리자는 SD 카드를 포함하여 USB 이동식 드라이브에서 사인되지 않은 실행 파일 또는 트러블된 실행 파일을 실행하지 못하게 할 수 있습니다. 차단된 파일 형식에는 실행 파일(예: .exe, .dll 또는 .scr)이 포함됩니다.
@@ -299,6 +361,11 @@ Intune 이름: `Untrusted and unsigned processes that run from USB`
 Configuration Manager 이름: `Block untrusted and unsigned processes that run from USB`
 
 GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`
+
+AH 작업 유형:
+
+- AsrUntrustedUsbProcessAudited
+- AsrUntrustedUsbProcessBlocked
 
 ### <a name="block-win32-api-calls-from-office-macros"></a>매크로에서 Win32 API Office 차단
 
@@ -319,6 +386,11 @@ Configuration Manager 이름: `Block Win32 API calls from Office macros`
 
 GUID: `92e97fa1-2edf-4476-bdd6-9dd0b4dddc7b`
 
+AH 작업 유형:
+
+- AsrOfficeMacroWin32ApiCallsAudited
+- AsrOfficeMacroWin32ApiCallsBlocked
+
 ### <a name="use-advanced-protection-against-ransomware"></a>랜섬웨어에 대한 고급 보호 사용
 
 이 규칙은 랜섬웨어에 대한 추가 보호 계층을 제공합니다. 클라이언트와 클라우드추론을 모두 사용하여 파일이 랜섬웨어와 같은지 여부를 판단합니다. 이 규칙은 다음 특성 중 하나 이상이 있는 파일을 차단하지 않습니다.
@@ -337,3 +409,8 @@ Intune 이름: `Advanced ransomware protection`
 Configuration Manager 이름: `Use advanced protection against ransomware`
 
 GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
+
+AH 작업 유형:
+
+- AsrRansomwareAudited
+- AsrRansomwareBlocked

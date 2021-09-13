@@ -18,35 +18,64 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9aff58f4175cd7615ad2de2a9659bec71f3f1cb8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.custom:
+- seo-marvel-apr2020
+- admindeeplinkMAC
+ms.openlocfilehash: a77af4e72c5eaa5d66f120f05e91913c292051ab
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574114"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59183963"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
-사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Microsoft 365에서 다음과 같은 유형의 [사용자 및 관리자 활동](#audited-activities)을 검색할 수 있기 때문입니다.
+사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 Microsoft 365 규정 준수 센터의 감사 로그 검색 도구를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 수십 개의 Microsoft 365 서비스 및 솔루션에서 수행되는 수천 개의 사용자 및 관리 작업이 조직의 통합 감사 로그에 캡처, 기록 및 보존됩니다. 조직의 사용자는 감사 로그 검색 도구를 사용하여 이러한 작업에 대한 감사 레코드를 검색하고 보고 (CSV 파일로) 내보낼 수 있습니다.
 
-- SharePoint Online 및 비즈니스용 OneDrive의 사용자 활동
-- Exchange Online(Exchange 사서함 감사 로깅)의 사용자 활동
-- SharePoint Online의 관리 활동
-- Azure Active Directory(Microsoft 365용 디렉터리 서비스)의 관리자 활동
-- Exchange Online(Exchange 관리자 감사 로깅)의 관리자 활동
-- 보안 및 준수 센터에서 eDiscovery 활동
-- Power BI의 사용자 및 관리자 활동
-- Microsoft Teams의 사용자 및 관리자 활동
-- Dynamics 365의 사용자 및 관리자 활동
-- Yammer의 사용자 및 관리자 활동
-- Microsoft Power Automate의 사용자 및 관리자 활동
-- Microsoft Stream의 사용자 및 관리자 활동
-- Microsoft Workplace Analytics의 분석가 및 관리자 활동
-- Microsoft Power Apps의 사용자 및 관리자 활동
-- Microsoft Forms의 사용자 및 관리자 활동
-- SharePoint Online 또는 Microsoft Teams를 사용하는 사이트의 민감도 레이블에 대한 사용자 및 관리자 활동
-- 브리핑 전자 메일 및 MyAnalytics의 관리자 활동
+## <a name="microsoft-365-services-that-support-auditing"></a>감사를 지원하는 Microsoft 365 서비스
+
+통합된 감사 로그를 사용하는 이유는 무엇일까요? 감사 로그에서 다른 Microsoft 365 서비스에서 수행된 활동을 검색할 수 있기 때문입니다. 다음 표에서는 통합 감사 로그에서 지원하는 Microsoft 365 서비스 및 기능(사전순)을 나열합니다.
+
+| Microsoft 365 서비스 또는 기능 | 레코드 유형|
+|:---------|:---------|
+| Azure Active Directory|AzureActiveDirectory, AzureActiveDirectoryAccountLogon, AzureActiveDirectoryStsLogon |
+| Azure Information Protection|AipDiscover, AipSensitivityLabelAction, AipProtectionAction, AipFileDeleted, AipHeartBeat |
+| 콘텐츠 탐색기|LabelContentExplorer|
+| DLP(데이터 손실 방지)|ComplianceDLPSharePoint, ComplianceDLPExchange|
+| 엔드포인트용 Defender|DLPEndpoint|
+| Dynamics 365|CRM|
+| eDiscovery|검색, AeD|
+| 정확한 데이터 일치|MipExactDataMatch|
+| Exchange Online|ExchangeAdmin, ExchangeItem, ExchangeItemAggregated |
+| Forms|MicrosoftForms|
+| 정보 장벽|InformationBarrierPolicyApplication|
+| Microsoft 365 Defender|MDATPAudit, AirInvestigation, AirManualInvestigation, AirAdminActionInvestigation|
+| Microsoft Teams|MicrosoftTeams|
+| MyAnalytics|MyAnalyticsSettings|
+| 비즈니스용 OneDrive|OneDrive|
+| Power Apps|PowerAppsApp, PowerAppsPlan|
+| Power Automate|MicrosoftFlow|
+| Power BI|PowerBIAudit|
+| 격리|격리|
+| 보존 정책 및 보존 레이블|MIPLabel, MipAutoLabelExchangeItem, MipAutoLabelSharePointItem, MipAutoLabelSharePointPolicyLocation|
+| 중요한 정보 유형|DlpSensitiveInformationType|
+| 민감도 레이블|MIPLabel, SensitivityLabelAction, SensitivityLabeledFileAction, SensitivityLabelPolicyMatch|
+| SharePoint Online|SharePoint, SharePointFileOperation,SharePointSharing작업, SharePointListOperation, SharePointCommentOperation |
+| 스트림|MicrosoftStream|
+| 위협 인텔리전스|ThreatIntelligence, ThreatIntelligenceUrl, ThreatFinder, ThreatIntelligenceAtpContent|
+| Workplace Analytics|WorkplaceAnalytics|
+|Yammer|Yammer|
+|||
+
+이전 표에 나열된 각 서비스에서 감사되는 작업에 대한 자세한 내용은 이 문서의 [감사 활동](#audited-activities) 섹션을 참조하세요.
+
+또한 이전 표에서는 Exchange Online PowerShell에서 **Search-UnifiedAuditLog** cmdlet을 사용하거나 PowerShell 스크립트를 사용하여 해당 서비스의 활동에 대한 감사 로그를 검색하는 데 사용할 레코드 유형 값을 식별합니다. 일부 서비스에는 동일한 서비스 내의 다양한 활동 유형에 대해 복수의 레코드 형식이 있습니다. 감사 레코드 유형의 전체 목록은 [Office 365 관리 작업 API 스키마](/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype)를 참조하세요.
+
+ PowerShell을 사용하여 감사 로그를 검색하는 방법에 대한 자세한 내용은 다음을 참조하세요.
+
+- [검색 통합감사 로그](/powershell/module/exchange/search-unifiedauditlog)
+
+- [PowerShell 스크립트를 사용하여 감사 로그 검색](audit-log-search-script.md)
 
 ## <a name="before-you-search-the-audit-log"></a>감사 로그를 검색하기 전에
 
@@ -91,7 +120,7 @@ ms.locfileid: "58574114"
 
   자세한 내용은 [감사 로그 검색 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-- 이전에 설명한 것처럼, 감사 로그를 검색하는 데 사용되는 기본 cmdlet은 **Search-UnifiedAuditLog** 인 Exchange Online cmdlet입니다. 즉 Microsoft 365 규정 준수 센터의 **감사 로그 검색** 페이지를 사용하는 대신 이 cmdlet을 사용하여 감사 로그를 검색할 수 있습니다. Exchange Online 조직에 연결된 원격 PowerShell에서 이 cmdlet을 실행해야 합니다. 자세한 내용은 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)를 참조하세요.
+- 이전에 설명한 것처럼, 감사 로그를 검색하는 데 사용되는 기본 cmdlet은 **Search-UnifiedAuditLog** 인 Exchange Online cmdlet입니다. 즉 Microsoft 365 규정 준수 센터의 **감사** 페이지의 검색 도구를 사용하는 대신 이 cmdlet을 사용하여 감사 로그를 검색할 수 있습니다. Exchange Online PowerShell에서 이 cmdlet을 실행해야 합니다. 자세한 내용은 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)를 참조하세요.
 
   **Search-UnifiedAuditLog** cmdlet에서 반환되는 검색 결과를 CSV 파일로 내보내는 방법에 대한 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log)의 "감사 로그 내보내기 및 보기 팁" 섹션을 참조하세요.
 
@@ -99,9 +128,6 @@ ms.locfileid: "58574114"
 
 - 감사 로그 검색 결과에 해당 감사 로그 레코드가 반환되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. 다음 표에는 Office 365의 여러 서비스가 표시되는 데 걸리는 시간이 나와 있습니다.
 
-  <br>
-
-  ****
 
   |Microsoft 365 서비스 또는 기능|30분|24시간|
   |---|:---:|:---:|
@@ -113,7 +139,6 @@ ms.locfileid: "58574114"
   |eDiscovery|![확인 표시입니다.](../media/checkmark.png)||
   |Exchange Online|![확인 표시입니다.](../media/checkmark.png)||
   |Microsoft Power Automate||![확인 표시입니다.](../media/checkmark.png)|
-  |Microsoft Project|![확인 표시입니다.](../media/checkmark.png)||
   |Microsoft Stream|![확인 표시입니다.](../media/checkmark.png)||
   |Microsoft Teams|![확인 표시입니다.](../media/checkmark.png)||
   |Power Apps||![확인 표시입니다.](../media/checkmark.png)|
@@ -124,9 +149,9 @@ ms.locfileid: "58574114"
   |Workplace Analytics|![확인 표시입니다.](../media/checkmark.png)||
   |Yammer||![확인 표시입니다.](../media/checkmark.png)|
   |Microsoft Forms|![확인 표시입니다.](../media/checkmark.png)||
-  |
+  ||||
 
-- Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](/azure/active-directory/reports-monitoring/concept-audit-logs)를 참조하세요.
+- Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](/azure/active-directory/reports-monitoring/concept-audit-logs)를 참조하세요.
 
 - Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
 
@@ -655,7 +680,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 ### <a name="user-administration-activities"></a>사용자 관리 활동
 
-다음 표에서는 365 관리 센터 또는 Azure 관리 포털을 사용하여 관리자가 사용자 계정을 추가하거나 변경할 때 기록되는 사용자 관리 활동을 보여 줍니다.
+다음 표에서는 [365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339) 또는 Azure 관리 포털을 사용하여 관리자가 사용자 계정을 추가하거나 변경할 때 기록되는 사용자 관리 활동을 보여 줍니다.
 
 > [!NOTE]
 > 다음 표의 **작업** 열에 나열된 작업 이름에는 마침표(`.`)가 포함되어 있습니다. 감사 로그를 검색하거나, 감사 보존 정책을 만들거나, 경고 정책을 만들거나, 활동 알림을 만들 때 PowerShell 명령에서 작업을 지정하는 경우 작업 이름에 기간을 포함해야 합니다. 작업 이름을 포함하기 위해 반드시 두 개의 물음표(`" "`)를 사용해야 합니다.
@@ -674,7 +699,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 ### <a name="azure-ad-group-administration-activities"></a>Azure AD 그룹 관리 활동
 
-다음 표에서는 관리자 또는 사용자가 Microsoft 365 그룹을 만들거나 변경할 때 또는 관리자가 Microsoft 365 관리 센터 또는 Azure 관리 포털을 사용하여 보안 그룹을 만들 때 기록되는 그룹 관리 활동을 보여 줍니다. Office 365의 그룹에 대한 자세한 내용은 [Microsoft 365 관리 센터에서 그룹 보기, 만들기, 삭제](../admin/create-groups/create-groups.md)를 참조하세요.
+다음 표에서는 관리자 또는 사용자가 Microsoft 365 그룹을 만들거나 변경할 때 또는 관리자가 [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339) 또는 Azure 관리 포털을 사용하여 보안 그룹을 만들 때 기록되는 그룹 관리 활동을 보여 줍니다. Office 365의 그룹에 대한 자세한 내용은 [Microsoft 365 관리 센터에서 그룹 보기, 만들기, 삭제](../admin/create-groups/create-groups.md)를 참조하세요.
 
 > [!NOTE]
 > 다음 표의 **작업** 열에 나열된 작업 이름에는 마침표(`.`)가 포함되어 있습니다. 감사 로그를 검색하거나, 감사 보존 정책을 만들거나, 경고 정책을 만들거나, 활동 알림을 만들 때 PowerShell 명령에서 작업을 지정하는 경우 작업 이름에 기간을 포함해야 합니다. 작업 이름을 포함하기 위해 반드시 두 개의 물음표(`" "`)를 사용해야 합니다.
@@ -708,7 +733,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 ### <a name="role-administration-activities"></a>역할 관리 활동
 
-다음 표에서는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 관리자가 관리자 역할을 관리할 때 기록되는 Azure AD 관리 활동을 보여줍니다.
+다음 표에서는 [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339) 또는 Azure 관리 포털에서 관리자가 관리자 역할을 관리할 때 기록되는 Azure AD 관리 활동을 보여줍니다.
 
 > [!NOTE]
 > 다음 표의 **작업** 열에 나열된 작업 이름에는 마침표(`.`)가 포함되어 있습니다. 감사 로그를 검색하거나, 감사 보존 정책을 만들거나, 경고 정책을 만들거나, 활동 알림을 만들 때 PowerShell 명령에서 작업을 지정하는 경우 작업 이름에 기간을 포함해야 합니다. 작업 이름을 포함하기 위해 반드시 두 개의 물음표(`" "`)를 사용해야 합니다.
@@ -722,7 +747,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 ### <a name="directory-administration-activities"></a>디렉터리 관리 활동
 
-다음 표에서는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 관리자가 해당 조직을 관리할 때 기록되는 Azure AD 디렉터리 및 도메인 관련 활동을 보여 줍니다.
+다음 표에서는 [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339) 또는 Azure 관리 포털에서 관리자가 해당 조직을 관리할 때 기록되는 Azure AD 디렉터리 및 도메인 관련 활동을 보여 줍니다.
 
 > [!NOTE]
 > 다음 표의 **작업** 열에 나열된 작업 이름에는 마침표(`.`)가 포함되어 있습니다. 감사 로그를 검색하거나, 감사 보존 정책을 만들거나, 경고 정책을 만들거나, 활동 알림을 만들 때 PowerShell 명령에서 작업을 지정하는 경우 작업 이름에 기간을 포함해야 합니다. 작업 이름을 포함하기 위해 반드시 두 개의 물음표(`" "`)를 사용해야 합니다.

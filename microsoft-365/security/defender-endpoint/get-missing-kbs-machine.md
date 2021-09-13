@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 0b2305472f19ac0424861a30034c2fdd45bd753c
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399734"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222139"
 ---
 # <a name="get-missing-kbs-by-device-id"></a>장치 ID로 누락된 KB 사용
 
@@ -42,7 +42,7 @@ ms.locfileid: "58399734"
 ```http
 GET /api/machines/{machineId}/getmissingkbs
 ```
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한이 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Use [Microsoft Defender for Endpoint API을 참조합니다.](apis-intro.md)
 

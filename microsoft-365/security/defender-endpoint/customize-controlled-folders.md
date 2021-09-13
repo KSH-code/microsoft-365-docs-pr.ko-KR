@@ -16,11 +16,11 @@ ms.date: 05/10/2021
 ms.technology: mde
 ms.topic: how-to
 ms.openlocfilehash: e104a8180ad9099e795a014060921387de642668
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58560909"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222863"
 ---
 # <a name="customize-controlled-folder-access"></a>제어된 폴더 액세스 사용자 지정
 

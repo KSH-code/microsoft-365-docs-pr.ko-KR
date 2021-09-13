@@ -19,20 +19,21 @@ search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkMAC
 description: Microsoft 365 규정 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: d885fbcf6f4b94ec7b1716c53f6d1fa541994434
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: efb51aebcca5d724b8a1f8ecaabb6eeb5f31e8dd
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574186"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184067"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
 > [!NOTE]
 > 이 문서는 관리자를 위해 작성되었습니다. PST 파일을 사서함으로 가져오려고 하나요? [Outlook .pst 파일에서 전자 메일, 연락처 및 일정 가져오기](https://go.microsoft.com/fwlink/p/?LinkID=785075)를 참조하세요.
 
-Microsoft 365 규정 준수 센터에서 가져오기 서비스를 사용하면 PST 파일을 조직의 Exchange Online 사서함으로 신속하게 대량으로 가져올 수 있습니다. Office 365로 PST 파일을 가져올 수 있는 두 가지 방법이 있습니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 가져오기 서비스를 사용하면 PST 파일을 조직의 Exchange Online 사서함으로 신속하게 대량으로 가져올 수 있습니다. Office 365로 PST 파일을 가져올 수 있는 두 가지 방법이 있습니다.
 
 - **네트워크 업로드**![클라우드 업로드](../media/54ab16ee-3822-4551-abef-3d926f4e1c01.png). 네트워크를 통해 PST 파일을 Microsoft 클라우드의 임시 Azure Storage 위치에 업로드합니다. 그런 다음 가져오기 서비스를 사용하여 PST 데이터를 Office 365 조직의 사서함으로 가져옵니다.
 
@@ -152,7 +153,7 @@ PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에�
 
 Using network upload to import PST files is free.
 
-또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 Microsoft 365 관리 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 **Office 365로 데이터 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때에는 PST 파일의 목록이 비어 있을 수 있습니다.
+또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339)의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 **Office 365로 데이터 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때에는 PST 파일의 목록이 비어 있을 수 있습니다.
 
 #### <a name="what-version-of-the-pst-file-format-is-supported-for-importing-to-office-365"></a>What version of the PST file format is supported for importing to Office 365?
 

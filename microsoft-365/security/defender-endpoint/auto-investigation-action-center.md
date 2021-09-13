@@ -20,11 +20,11 @@ ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
 ms.openlocfilehash: 37a0ff60f9f12bd2738d6d587d5cad5e6d55af55
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568159"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222028"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>관리 센터를 방문하여 수정 작업 보기
 

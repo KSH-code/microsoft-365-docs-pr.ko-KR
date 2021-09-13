@@ -19,13 +19,14 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkMAC
 description: 이 게시물은 Microsoft 365 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구에 대한 참조 정보를 포함하며, 콘텐츠 검색 세부 정보를 제공하여 사용자의 이해를 돕습니다.
-ms.openlocfilehash: f6c720973f91ae9a202b232d821c33c7f487b76a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: ba990ab0478e1dc525101de2d583b800e14f4342
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574451"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184227"
 ---
 # <a name="feature-reference-for-content-search"></a>콘텐츠 검색에 대한 기능 참조
 
@@ -96,7 +97,7 @@ Microsoft Teams 및 Microsoft 365 그룹에서 콘텐츠를 검색할 때 다음
 
 - 사용자의 사서함이 검색될 때 사용자가 구성원인 팀이나 Microsoft 365 그룹은 검색되지 않습니다. 마찬가지로 팀 또는 Microsoft 365 그룹을 검색하면 지정한 그룹 사서함 및 그룹 사이트만 검색됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 계정은 검색에 명시적으로 추가하지 않는 한 검색되지 않습니다.
 
-- Teams 또는 Microsoft 365 그룹의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
+- Teams 또는 Microsoft 365 그룹의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**그룹**</a> 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
 
   ```powershell
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress

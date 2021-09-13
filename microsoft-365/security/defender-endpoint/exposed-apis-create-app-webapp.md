@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8d68a7fc815227f267f79245c7861da8f8afde4d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: f9c61d870f15536ceadd000da5d9123e0dd918e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569516"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59222693"
 ---
 # <a name="create-an-app-to-access-microsoft-defender-for-endpoint-without-a-user"></a>사용자 없이 끝점용 Microsoft Defender에 액세스하는 앱 만들기
 
@@ -52,20 +52,20 @@ ms.locfileid: "58569516"
 
 1. 전역 관리자 역할이 있는 사용자로 [Azure에](https://portal.azure.com) **로그온합니다.**
 
-2. 앱 등록 **Azure Active Directory**  >  **새**  >  **등록으로 이동합니다.** 
+2. 앱 등록 **Azure Active Directory** \> **새** \> **등록으로 이동합니다.** 
 
    ![응용 프로그램 Microsoft Azure 탐색하는 이미지입니다.](images/atp-azure-new-app2.png)
 
 3. 등록 양식에서 응용 프로그램의 이름을 선택한 다음 등록을 **선택합니다.**
 
-4. 앱이 끝점용 Defender에 액세스하여 '모든 경고 **읽기'** 권한을 할당할 수 있도록 설정하려면 응용 프로그램 페이지에서 **API** 사용 권한 추가 권한 API를 선택하고 >  >    >   **WindowsDefenderATP를 입력한 다음 WindowsDefenderATP를** 선택합니다. 
+4. 앱이 끝점용 Defender에 액세스하여 '모든 경고 **읽기'** 권한을 할당할 수 있도록 설정하려면 응용 프로그램 페이지에서 **API** 사용 권한 추가 권한 API를 선택하고 > \>  \>  **WindowsDefenderATP를 입력한 다음 WindowsDefenderATP를** 선택합니다. 
 
    > [!NOTE]
    > *WindowsDefenderATP는* 원래 목록에 나타나지 않습니다. 텍스트 상자에 이름을 입력하여 표시를 시작하십시오.
 
    ![사용 권한을 추가합니다.](images/add-permission.png)
 
-   - 응용 **프로그램 권한**  >  **Alert.Read.All** 을 선택한 다음 사용 권한 **추가를 선택합니다.**
+   - 응용 **프로그램 권한** \> **Alert.Read.All** 을 선택한 다음 사용 권한 **추가를 선택합니다.**
 
    ![앱 사용 권한.](images/application-permissions.png)
 
