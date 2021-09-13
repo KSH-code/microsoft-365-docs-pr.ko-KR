@@ -9,7 +9,9 @@ ms.service: o365-administration
 localization_priority: Priority
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom:
+- Adm_O365
+- admindeeplinkMAC
 ms.collection:
 - Ent_O365
 - M365-identity-device-management
@@ -19,12 +21,12 @@ search.appverid:
 - MBS150
 ms.assetid: 79c43023-5a47-45ae-8068-d8a26eee6bc2
 description: Office 365의 디렉터리 동기화 문제의 일반적인 원인을 설명하고 문제를 해결할 수 있는 몇 가지 방법을 제공합니다.
-ms.openlocfilehash: d122fae0da8cf48336cfebf178781d84e349bd16
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 27bbe07be43c7b04b7e74f1cc600df6c1409e372
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354491"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216072"
 ---
 # <a name="fixing-problems-with-directory-synchronization-for-microsoft-365"></a>Microsoft 365의 디렉터리 동기화 문제 해결
 
@@ -38,7 +40,7 @@ ms.locfileid: "58354491"
   
 ## <a name="how-do-i-get-azure-active-directory-connect-tool"></a>Azure Active Directory Connect 도구는 어떻게 사용하나요?
 
-[Microsoft 365 관리 센터](https://admin.microsoft.com)에서 **사용자** \> **활성 사용자** 로 이동합니다. **더보기(세점)** 메뉴를 클릭하고 **디렉터리 동기화** 를 선택합니다. 
+[Microsoft 365 관리 센터](https://admin.microsoft.com)에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**활성 사용자**</a>로 이동합니다. **더보기(세점)** 메뉴를 클릭하고 **디렉터리 동기화** 를 선택합니다. 
   
 [마법사의 안내](set-up-directory-synchronization.md)에 따라 Azure AD 연결을 다운로드합니다. 
   

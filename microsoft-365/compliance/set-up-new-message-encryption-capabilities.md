@@ -17,13 +17,15 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있게 하는 새 Office 365 메시지 암호화 기능에 대해 알아봅니다.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d33caff1499bf0792148039cb90d1aa6187247a90f53b7ea22828385d3d4fa3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.custom:
+- seo-marvel-apr2020
+- admindeeplinkMAC
+ms.openlocfilehash: 93fbd85ed75684d55ed45aec6821d86ed5e9c3f7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819778"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216372"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>새 메시지 암호화 기능 설정하기
 
@@ -123,7 +125,7 @@ OME에 대한 메일 흐름 규칙을 만드는 단계에 대한 내용은 [Offi
 
 기존 규칙을 업데이트하여 새 OME 기능을 사용하려면 다음을 실행합니다.
 
-1. Microsoft 365 관리 센터에서 **관리 센터 > Exchange** 로 이동합니다.
+1. [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339)에서 **관리 센터 > Exchange** 로 이동합니다.
 2. Exchange 관리 센터에서 **메일 흐름 > 규칙** 으로 이동합니다.
 3. 각 규칙에 대해 **다음** 을 실행합니다.
     - **메시지 보안 수정** 을 선택합니다.

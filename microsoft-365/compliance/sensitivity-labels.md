@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ff26c2f6f219db066b4be00e6d97e8d4e4e4babc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 3366f90273536a1fc1fede52159b8c1199ad9324
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568988"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216475"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -180,12 +180,15 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 - **레이블이 표시되는 사용자 및 그룹을 선택합니다.** Azure AD에서 레이블은 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 메일 그룹 또는 Microsoft 365 그룹([동적 구성원](/azure/active-directory/users-groups-roles/groups-create-rule)이 될 수 있음)에 게시할 수 있습니다.
 
-- 새 문서, 레이블이 지정되지 않은 이메일, 새 컨테이너에 대한 **기본 레이블을 지정**([Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에 대해 민감도 레이블을 활성화](sensitivity-labels-teams-groups-sites.md)한 경우)하고, 이제 [Power BI 콘텐츠](/power-bi/admin/service-security-sensitivity-label-default-label-policy)에 대한 기본 레이블을 지정합니다. 네 가지 유형의 항목 모두 또는 다른 레이블에 대해 동일한 레이블을 지정할 수 있습니다. 문서에 대한 기본 레이블을 지정하면 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 기존 문서에도 이 레이블을 적용합니다. 사용자가 올바른 레이블이 아닌 경우 적용된 기본 민감도 레이블을 변경할 수 있습니다.
+- 레이블이 지정되지 않은 문서 및 이메일, 새 컨테이너에 대한 **기본 레이블을 지정**([Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에 대해 민감도 레이블을 활성화](sensitivity-labels-teams-groups-sites.md)한 경우)하고, 이제 [Power BI 콘텐츠](/power-bi/admin/service-security-sensitivity-label-default-label-policy)에 대한 기본 레이블을 지정합니다. 네 가지 유형의 항목 모두 또는 다른 레이블에 대해 동일한 레이블을 지정할 수 있습니다. 사용자는 콘텐츠 또는 컨테이너의 민감도와 더 잘 일치하도록 적용된 기본 민감도 레이블을 변경할 수 있습니다.
+    
+    > [!NOTE]
+    > 기본 제공 레이블을 사용하는 Office 앱을 위한 롤아웃: 이제 이 설정은 사용자가 열 때 기존 문서와 새 문서를 지원합니다. 이러한 동작 변경은 패리티에 Azure Information Protection 통합 레이블 지정 클라이언트를 제공합니다. 앱별 롤아웃 및 최소 버전에 대한 자세한 내용은 Word, Excel 및 PowerPoint에 대한 [기능 표](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint)를 참조하세요.
+    
+    모든 콘텐츠에 적용할 기본 수준의 보호 설정을 설정하려면 기본 레이블 사용을 고려하십시오. 그러나 사용자 교육 및 기타 컨트롤이 없는 경우 이 설정으로 인해 레이블이 정확하지 않을 수 있습니다. 일반적으로 문서에 대한 기본 레이블로 암호화를 적용하는 레이블을 선택하지 않는 것이 좋습니다. 예를 들어, 많은 조직에서 암호화를 지원하는 앱이 없는 외부 사용자와 문서를 보내고 공유해야 하거나, 권한을 부여할 수 있는 계정을 사용하지 않을 수 있습니다. 이 시나리오에 대한 자세한 내용은 [암호화된 문서를 외부 사용자와 공유하기](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users)를 참조하세요.
     
     > [!IMPORTANT]
     > [하위 레이블](#sublabels-grouping-labels)이 있는 경우 부모 레이블을 기본 레이블로 구성하지 않도록 주의해야 합니다.
-    
-    모든 콘텐츠에 적용할 기본 수준의 보호 설정을 설정하려면 기본 레이블 사용을 고려하십시오. 그러나 사용자 교육 및 기타 컨트롤이 없는 경우 이 설정으로 인해 레이블이 정확하지 않을 수 있습니다. 일반적으로 문서에 대한 기본 레이블로 암호화를 적용하는 레이블을 선택하지 않는 것이 좋습니다. 예를 들어, 많은 조직에서 암호화를 지원하는 앱이 없는 외부 사용자와 문서를 보내고 공유해야 하거나, 권한을 부여할 수 있는 계정을 사용하지 않을 수 있습니다. 이 시나리오에 대한 자세한 내용은 [암호화된 문서를 외부 사용자와 공유하기](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users)를 참조하세요.
 
 - **레이블을 변경하는 데 사유 요구.** 사용자가 레이블을 제거하거나 번호 순서가 낮은 레이블로 바꾸려고 하면 이 작업을 수행할 사유를 제공하도록 요구할 수 있습니다. 예를 들어, 사용자는 Confidential(주문 번호 3)이라는 문서를 열고 해당 레이블을 Public (주문 번호 1)이라는 이름으로 대체합니다. Office 앱의 경우 기본 제공 레이블 지정을 사용할 때 앱 세션당 한 번씩, 그리고 Azure Information Protection 통합 레이블 지정을 사용할 때 파일당 한 번씩 사유 메시지 표시가 트리거됩니다. 관리자는 [활동 탐색기](data-classification-activity-explorer.md)에서 레이블 변경 사항과 함께 근거 사유를 함께 확인할 수 있습니다.
 

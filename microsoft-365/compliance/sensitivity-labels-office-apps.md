@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29e247987a26f7be3af099f36920ec580963c6a6
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 099bf74f1a3b85dd315c3581695ba30133f710ca
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256002"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216495"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -62,11 +62,12 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |기능                                                                                                        |Windows<sup>\*</sup> |Mac |iOS    |Android      |웹                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
 |[수동으로 레이블 적용, 변경 또는 제거](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md)                                                        |
+|새 문서에 [기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md)                                                        |
+|기존 문서에 [기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do) | 미리 보기: [베타 채널](https://office.com/insider)에 배포 중           | 미리 보기: [베타 채널](https://office.com/insider)에 배포 중 | 검토 중 | 검토 중 | 배포 중: [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[레이블을 변경하기 위한 사유 요구](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자 지정 도움말 페이지에 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[콘텐츠 표시](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[변수가 있는 동적 표시](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | 배포 중 |
+|[변수가 있는 동적 표시](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | 배포 중: [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자가 권한을 할당하도록 허용: <br /> - 사용자에게 프롬프트](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | 검토 중   | 검토 중         | 검토 중                                                        |
 |[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | 16.0.13628+ | 예<sup>\*\*</sup>                                                        |
@@ -396,7 +397,9 @@ ${If.App.<application type>}<your visual markings text> ${If.End}
 > [!NOTE]
 > 필수 레이블 지정 외에도 문서 및 전자 메일에 기본 레이블 정책 설정을 사용하는 경우: 
 >
-> 기본 레이블은 항상 필수 레이블 지정보다 우선 순위로 지정됩니다. 그러나 문서의 경우 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 모든 문서에 기본 레이블을 적용하는 반면, 기본 레이블 지정은 레이블이 지정되지 않은 기존 문서가 아닌 새 문서에 기본 레이블을 적용합니다. 이러한 동작의 차이는 기본 레이블 설정과 함께 필수 레이블을 사용할 경우 사용자에게 Azure Information Protection 통합 레이블 클라이언트를 사용할 때보다 기본 제공 레이블을 사용할 때 민감도 레이블을 더 자주 적용하라는 메시지가 표시된다는 것을 의미합니다.
+> 기본 레이블은 항상 필수 레이블 지정보다 우선 순위로 지정됩니다. 그러나 문서의 경우 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 모든 문서에 기본 레이블을 적용하는 반면, 기본 레이블 지정은 레이블이 지정되지 않은 기존 문서가 아닌 새 문서에 기본 레이블을 적용합니다. 이러한 동작의 차이는 기본 레이블 설정과 함께 필수 레이블을 사용할 경우 사용자에게 Azure Information Protection 통합 레이블 클라이언트를 사용할 때보다 기본 제공 레이블을 사용할 때 아마도 민감도 레이블을 더 자주 적용하라는 메시지가 표시될 것을 의미합니다.
+> 
+> 이제 배포: 기본 제공 레이블 지정을 사용하고 기존 문서에 대한 기본 레이블을 지원하는 Office 앱입니다. 자세한 내용은 Word, Excel 및 PowerPoint의 [기능 표](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint)를 참조하세요.
 
 ## <a name="outlook-specific-options-for-default-label-and-mandatory-labeling"></a>기본 레이블 및 필수 레이블에 대한 Outlook 관련 옵션
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: edd6aea4aade2378a195aa471ba0aa329afb7582
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 5480a5b8336c03323c26785e884da811a5d00d97
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569036"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216472"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -315,9 +315,11 @@ SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 �
 
 2. **정책** 탭을 선택한 다음 **민감도** 설정에 대한 **편집** 을 선택합니다.
 
-3. **민감도 설정 편집** 창에서 사이트에 적용할 민감도 레이블을 선택한 다음 **저장** 을 선택합니다.
+3. **민감도 설정 편집** 창에서 사이트에 적용할 민감도 레이블을 선택합니다. 특정 사용자에게 민감도 레이블을 할당할 수 있는 사용자 앱과 달리 관리 센터는 테넌트에 대한 모든 민감도 레이블을 표시합니다. 레이블을 선택한 후 **저장** 을 선택합니다.
 
 ## <a name="support-for-sensitivity-labels"></a>민감도 레이블 지원
+
+민감도 레이블을 지원하는 관리 센터를 사용하는 경우 테넌트에 대한 모든 민감도 레이블이 표시됩니다. 반면 게시 정책에 따라 민감도 레이블을 필터링하는 사용자 앱 및 서비스는 해당 레이블의 하위 집합을 볼 수 있습니다.
 
 다음 앱 및 서비스에서는 사이트 및 그룹 설정에 대해 구성된 민감도 레이블을 지원합니다.
 
@@ -326,7 +328,7 @@ SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 �
   - SharePoint 관리 센터
   - Azure Active Directory 포털
   - Microsoft 365 관리 센터
-  - Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터, 보안 및 규정 준수 센터
+  - Microsoft 365 규정 준수 센터
 
 - 사용자 앱 및 서비스:
 
@@ -450,6 +452,6 @@ Set-SPOTenant -BlockSendLabelMismatchEmail $True
 
 [Microsoft Teams, O365 그룹, SharePoint Online 사이트에서 민감도 레이블 사용에](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/using-sensitivity-labels-with-microsoft-teams-o365-groups-and/ba-p/1221885#M1380) 대한 웨비나 기록 및 질응답을 참조하세요.
 
-Teams 연결된 사이트 및 채널 사이트 관리에 대한 자세한 내용은 [Teams 연결된 사이트 및 채널 사이트 관리](/SharePoint/teams-connected-sites)를 참조하세요.
-
 이 웨비나는 기능이 미리 보기에 있을 때 녹화되었기 때문에 UI에 약간의 차이가 있을 수 있습니다. 그러나 이 기능에 대한 정보는 이 페이지에 설명된 새 기능과 함께 여전히 정확합니다.
+
+Teams 연결된 사이트 및 채널 사이트 관리에 대한 자세한 내용은 [Teams 연결된 사이트 및 채널 사이트 관리](/SharePoint/teams-connected-sites)를 참조하세요.
