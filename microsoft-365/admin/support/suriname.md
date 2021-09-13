@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0beb7148e3797f969de5ab27db8adee21f9455c4e81da859e35924ba92812a10
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 949cd97a06d936021678380ccf5ec6fc4da08d50
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867310"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211292"
 ---
 # <a name="contact-support-for-suriname"></a>수리나메 지원에 문의
 

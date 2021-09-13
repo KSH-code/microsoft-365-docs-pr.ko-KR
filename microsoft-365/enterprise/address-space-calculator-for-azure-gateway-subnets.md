@@ -17,11 +17,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: '요약: C3, Python 또는 PowerShell을 사용하여 Azure 게이트웨이 서브넷의 주소 공간을 계산합니다.'
 ms.openlocfilehash: bd6caaec5e3873403b3b3ed5a1b6cf16a730d688
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58353747"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210792"
 ---
 # <a name="address-space-calculator-for-azure-gateway-subnets"></a>Azure 게이트웨이 서브넷용 주소 공간 계산기
 

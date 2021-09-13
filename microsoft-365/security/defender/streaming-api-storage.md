@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: 2a336a571c33820d289eed9d4d6cd20e56cdfa20
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563805"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211795"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 Microsoft 365 Defender 헌팅 이벤트를 사용자 계정으로 Storage 구성
 

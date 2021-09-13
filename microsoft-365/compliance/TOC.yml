@@ -455,6 +455,8 @@
               href: archive-xslt-xml-data.md
             - name: Yieldbroker
               href: archive-yieldbroker-data.md
+            - name: YouTube(미리 보기)
+              href: archive-youtube-data.md
             - name: Zoom 모임
               href: archive-zoommeetings-data.md
         - name: TeleMessage 데이터 커넥터
@@ -618,6 +620,8 @@
               href: content-search-reference.md
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
+            - name: 콘텐츠 검색 권한 필터링
+              href: permissions-filtering-for-content-search.md
             - name: eDiscovery 검색 결과 미리 보기
               href: preview-ediscovery-search-results.md
             - name: 검색 결과에 대한 통계 보기
@@ -632,8 +636,6 @@
               href: search-cloud-based-mailboxes-for-on-premises-users.md
             - name: ID 목록 검색에 대한 CSV 파일 준비
               href: csv-file-for-an-id-list-content-search.md
-            - name: 콘텐츠 검색에 대한 권한 필터링 구성
-              href: permissions-filtering-for-content-search.md
             - name: 일반적인 eDiscovery 문제 해결
               href: ediscovery-troubleshooting-common-issues.md
             - name: 실패한 검색 다시 시도
@@ -698,16 +700,16 @@
               href: assign-ediscovery-permissions.md
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
-            - name: eDiscovery용 사서함에 저장된 콘텐츠
-              href: what-is-stored-in-exo-mailbox.md
-            - name: eDiscovery 검색 결과 미리 보기
-              href: preview-ediscovery-search-results.md
             - name: 준수 경계 설정
               href: set-up-compliance-boundaries.md
             - name: 콘텐츠 검색 권한 필터링
               href: permissions-filtering-for-content-search.md
+            - name: eDiscovery용 사서함에 저장된 콘텐츠
+              href: what-is-stored-in-exo-mailbox.md
             - name: 예상 및 실제 검색 결과 차이
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
+            - name: eDiscovery 검색 결과 미리 보기
+              href: preview-ediscovery-search-results.md
             - name: 검색 보고서 내보내기
               href: export-a-content-search-report.md
             - name: 스크립트를 사용하여 eDiscovery 보류에 사용자 추가
@@ -866,24 +868,24 @@
               href: document-metadata-fields-in-advanced-ediscovery.md
             - name: 비공개 유지 권한 검색 설정
               href: attorney-privilege-detection.md
-            - name: 대화 검토 집합
-              href: conversation-review-sets.md
-            - name: CJK 언어 지원
-              href: ediscovery-cjk-support.md
             - name: eDiscovery 사용 권한 할당
               href: assign-ediscovery-permissions.md
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
-            - name: 콘텐츠 검색 권한 필터링
-              href: permissions-filtering-for-content-search.md
             - name: 준수 경계 설정
               href: set-up-compliance-boundaries.md
+            - name: 콘텐츠 검색 권한 필터링
+              href: permissions-filtering-for-content-search.md
             - name: eDiscovery용 사서함에 저장된 콘텐츠
               href: what-is-stored-in-exo-mailbox.md
             - name: eDiscovery 도구의 암호 해독
               href: ediscovery-decryption.md
             - name: eDiscovery 보류 오류 문제 해결
               href: hold-distribution-errors.md
+            - name: 대화 검토 집합
+              href: conversation-review-sets.md
+            - name: CJK 언어 지원
+              href: ediscovery-cjk-support.md
             - name: eDiscovery 진단 정보 수집
               href: ediscovery-diagnostic-info.md
             - name: 감사 로그에서 eDiscovery 활동 검색

@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 테넌트 목록을 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 테넌트 목록에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: af76322553296d1d22bb003ddf943ae168656734
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 13481ecbaaf20c5886837e03f4a606531548145e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507881"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211732"
 ---
 # <a name="microsoft-365-lighthouse-tenant-list-overview"></a>Microsoft 365 Lighthouse 목록 개요
 
@@ -45,6 +45,7 @@ Lighthouse의 테넌트 목록에 액세스하려면 왼쪽 탐색 창에서 테
 | 부적임, DAP | DAP(위임된 관리자 권한) 설정이 필요합니다. |
 | 부적정, 사용자 수 | 테넌트에 허용되는 것보다 많은 사용자가 있습니다. |
 | 부적임, 라이선스 | 테넌트에는 필수 라이선스가 없습니다. |
+| 부적임, 계약 유형 | CSP(클라우드 솔루션 공급자) 계약이 필요합니다. |
 | 비활성 | 테넌트가 더 이상 활성 상태입니다. |
 
 테넌트의 비활성화가 완료되면 Lighthouse가 비활성화 프로세스를 완료하는 동안 테넌트에 대한 작업을 취할 수 없습니다. 비활성화가 완료될 때 최대 48시간이 걸릴 수 있습니다.

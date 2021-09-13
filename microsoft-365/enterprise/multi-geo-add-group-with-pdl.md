@@ -14,11 +14,11 @@ localization_priority: Normal
 description: Multi-geo 환경에서 Microsoft 365 기본 설정 데이터 위치를 사용하여 그룹 그룹을 만드는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 0a035856344cf49e3a7221a00b98c175b95f9a72
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575843"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210712"
 ---
 # <a name="create-a-microsoft-365-group-with-a-specific-preferred-data-location"></a>특정 기본 Microsoft 365 위치로 Microsoft 365 그룹 만들기
 

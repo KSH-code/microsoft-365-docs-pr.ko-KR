@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- admindeeplinkMAC
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 비즈니스용 전자 메일, 연락처 및 일정을 Google Workspace에서 비즈니스용 메일로 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 26ed00be3241f07d564fd7823c44610cf34d6ffd96cc4becb36d907439f23629
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cde27ce3ab94b003d9950f1b4bc2af270dea906e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896562"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211265"
 ---
 # <a name="migrate-business-email-and-calendar-from-google-workspace"></a>Google Workspace에서 비즈니스 전자 메일 및 일정 마이그레이션
 
@@ -87,7 +88,7 @@ ms.locfileid: "53896562"
     도메인 확인은 일반적으로 몇 분 정도 걸리지만 최대 48시간이 걸릴 수 있습니다.
 
 1. 으로 [이동하여 Microsoft 365 관리 센터.](https://admin.microsoft.com)
-1. in the **Microsoft 365 관리 센터** in the left nav, select **Show all**, **설정**, **Domains**, and then **Add domain**. 
+1. 이 Microsoft 365 관리 센터 왼쪽 nav에서 모든 설정 도메인 표시를 선택한 다음 도메인 추가를  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"></a> **선택합니다.** 
 1. 이전에 만든 하위 도메인을 입력한 다음 이 도메인 **사용을 선택합니다.** 
 1. 도메인을 연결하려면 계속을 **선택합니다.** 
 1. 아래로 스크롤하여 MX 레코드, CNAME 레코드 및 TXT 레코드를 기록합니다. 
@@ -99,7 +100,7 @@ ms.locfileid: "53896562"
 
     이러한 변경 내용을 적용하는 데 다소 시간이 걸릴 수 있습니다.  
 
-1. 에서 **을(를) 벗어났다가 Microsoft 365 관리 센터** **계속을 선택합니다.** 
+1. 에서 벗어났다가 Microsoft 365 관리 센터 계속을 **선택합니다.** 
 
 이제 도메인이 설정됩니다.  
 
@@ -118,7 +119,7 @@ ms.locfileid: "53896562"
 
 완료되면 마이그레이션할 준비가 된 것입니다. 
 
-1. In the left nav of the **Microsoft 365 관리 센터**, scroll down to **Admin centers**, and **select Exchange.** 
+1. In the left nav of the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>, scroll down to **Admin centers**, and **select Exchange.** 
 1. 받는 **사람 에서** 마이그레이션 **을 선택하고** 새로 추가, 마이그레이션으로 Exchange Online 를 선택하고 G Suite  **마이그레이션을** 선택한 후 다음 을 **선택합니다.**  
 1. 마이그레이션할 사서함 목록이 있는 CSV 파일을 만들 수 있습니다. 파일이 다음 형식을 따르는지 확인 
 

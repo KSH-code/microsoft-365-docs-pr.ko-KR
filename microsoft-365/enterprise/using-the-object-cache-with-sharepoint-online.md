@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: 38bc9c14-3826-449c-beb6-b1003bcbeaaf
 description: 이 문서에서는 SharePoint Server 2013의 개체 캐시 사용과 SharePoint Online의 차이점에 대해 설명하고 있습니다.
 ms.openlocfilehash: 40863ccf375620cf4b38d231fa0a86336c4826cc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566725"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210422"
 ---
 # <a name="using-the-object-cache-with-sharepoint-online"></a>SharePoint online에서 개체 캐시 사용
 

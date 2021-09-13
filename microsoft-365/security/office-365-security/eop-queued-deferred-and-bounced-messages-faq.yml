@@ -16,12 +16,12 @@ metadata:
   description: EOP(전자 메일) 필터링 프로세스 중에 대기, 지연 또는 반송된 메시지에 대한 가장 일반적인 Exchange Online Protection 답변을 찾아야 합니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: b27586e6557ecab50b97f5b483de492fbc5da796c53899006cbbb429f25d836d
-  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+  ms.openlocfilehash: c9c3343de6e61d660cf07e920661af8d996c3039
+  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "56813758"
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59211695"
 title: EOP 대기, 지연 및 반송 메시지 FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]

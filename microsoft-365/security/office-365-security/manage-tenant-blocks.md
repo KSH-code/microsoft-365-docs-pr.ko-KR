@@ -17,11 +17,11 @@ description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 2dc45779f7e5656e2edfcb1ea89ef19f95cc3d2e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561245"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211635"
 ---
 # <a name="add-blocks-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 블록 추가
 

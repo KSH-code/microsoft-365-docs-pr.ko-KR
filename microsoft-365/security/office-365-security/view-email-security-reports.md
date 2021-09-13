@@ -19,12 +19,12 @@ description: 관리자는 전자 메일 포털에서 사용할 수 있는 전자
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 06817f5ce73800e3688820534404cb2893307dc2
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: d85918b35f4c05a83b779a7f3893d0c5942c4894
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568723"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211525"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기
 
@@ -601,10 +601,10 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **파일 신뢰도**
 - **맬웨어 방지 엔진:** <sup>\*</sup> 맬웨어 방지 엔진에서 검색됩니다.
 - **맬웨어** 방지 정책 파일 형식 블록: 메시지에 식별된 악성 파일의 유형으로 인해 필터링된 전자 메일 메시지입니다.
-- **URL 악의적인 신뢰도**
-- **URL 확인**
-- **URL 확인 신뢰도**
-- **캠페인**
+- **URL 악의적인 신뢰도**<sup>\*</sup>
+- **URL 확인**<sup>\*</sup>
+- **URL 확인 신뢰도**<sup>\*</sup>
+- **캠페인**<sup>\*</sup>
 
 차트 아래의 세부 정보 표에서 다음 정보를 사용할 수 있습니다.
 
@@ -914,7 +914,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기**
+- **보안 읽기 권한자**
 - **전역 읽기 권한자**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.

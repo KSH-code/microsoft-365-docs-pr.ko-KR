@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b3209b1a-40c7-4ede-8e78-8a88bb2adc8a
 description: '요약: PowerShell을 사용하여 PowerShell을 관리해야 하는 이유를 Microsoft 365 경우에 따라 더 효율적으로 관리해야 하는 경우도 있습니다.'
 ms.openlocfilehash: 361900d66c1cb8f41a27f661241a63d7d806e99b
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356867"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210362"
 ---
 # <a name="why-you-need-to-use-powershell-for-microsoft-365"></a>Microsoft 365 용 PowerShell을 사용해야 하는 이유
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f50546079f0495c2bf9614b7df581ab284821fcc527ae2cb4b04bacfe3bcca1b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 49102198dc1d904d50c4b2a507c5b1042fa56696
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896970"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211462"
 ---
 # <a name="contact-support-for-brunei"></a>브루나이 지원에 문의
 

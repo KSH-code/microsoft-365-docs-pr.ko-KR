@@ -19,12 +19,12 @@ description: Microsoft Defender for Office 365 계획의 자동화된 조사 및
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 06/10/2021
-ms.openlocfilehash: 91b1af53f69cc464726bb6040f6d9af2bb11566804898db85dedc658704e8a4f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 987771616acfd2f2faf425e525505b320155388e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53828346"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211782"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>관리 센터에서 재구성 작업을 검토하고 Office 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "53828346"
 자동 조사 작업을 찾아서 수행할 수 있는 네 가지 방법이 있습니다.
 
 - [인시던트 큐](https://security.microsoft.com/incidents)
-- [Action Center](https://security.microsoft.com/action-center/pending)
+- [알림 센터 ](https://security.microsoft.com/action-center/pending)
 - 조사 자체(인시던트 또는 경고를 통해 액세스)
 - [조사 및 재구성 조사 큐](https://security.microsoft.com/airinvestigation)
 
@@ -63,7 +63,7 @@ ms.locfileid: "53828346"
 4. 목록에서 항목을 선택합니다. 왼쪽 창이 열립니다.
 5. 왼쪽 창에서 작업을 승인하거나 거부합니다.
 
-## <a name="action-center"></a>작업 센터
+## <a name="action-center"></a>알림 센터 
 
 1. Microsoft 365 Defender 포털( <https://security.microsoft.com> )을 열고 로그인합니다.
 2. 탐색 창에서 작업 센터 **를 선택합니다.**

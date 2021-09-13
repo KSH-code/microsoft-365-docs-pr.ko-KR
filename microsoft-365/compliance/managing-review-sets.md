@@ -18,11 +18,11 @@ ms.assetid: ''
 description: 사례에서 데이터를 분석, 쿼리, 보기, 태그 및 내보낼 수 있도록 검토 집합을 관리하는 Advanced eDiscovery 방법을 알아보습니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 51362fa23af1c0a8b232fe5fc026ac1a87803c3a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573622"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210972"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>2013에서 검토 집합 Advanced eDiscovery
 

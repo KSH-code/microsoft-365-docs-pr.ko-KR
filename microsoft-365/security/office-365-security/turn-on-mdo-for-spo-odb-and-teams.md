@@ -20,12 +20,12 @@ description: 관리자는 검색된 파일에 대한 알림을 설정하는 금�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f149aef4da4d85d8495f536ff95499cc143d2c71
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 8a1020193a49dd7b4871b9b9fec53d21073b03e6
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573406"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211555"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일 설정
 
@@ -45,7 +45,7 @@ Microsoft Defender for Office 365 for SharePoint, OneDrive 및 Microsoft Teams �
 
 - 금고, SharePoint, OneDrive 및 Microsoft Teams에 대한 첨부 파일을 설정하려면 Microsoft 365 Defender 포털에서 **조직** 관리 또는 보안 관리자  역할 그룹의 구성원 Microsoft 365 Defender. 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 
-- SharePoint Online PowerShell을 사용하여 사용자가 악성 파일을 다운로드하지 못하게 방지하려면 [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) Azure AD에서 전역 관리자 또는 SharePoint 관리자 역할의 구성원이 되어야 합니다. [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator)
+- SharePoint Online PowerShell을 사용하여 사용자가 악성 파일을 다운로드하지 못하게 방지하려면 [](/azure/active-directory/roles/permissions-reference#global-administrator) Azure AD에서 전역 관리자 또는 SharePoint 관리자 역할의 구성원이 되어야 합니다. [](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
 
 - 조직에 대해 감사 로깅이 사용하도록 설정되어 있는지 확인합니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](../../compliance/turn-audit-log-search-on-or-off.md)를 참조하세요.
 
@@ -61,7 +61,7 @@ Microsoft Defender for Office 365 for SharePoint, OneDrive 및 Microsoft Teams �
 
    설정, Office 365, SharePoint, OneDrive 및 Microsoft Teams 토글에 대한 **Defender** 켜기 토글을 ![ 전환합니다.](../../media/scc-toggle-on.png) 를 설정하여 금고, SharePoint, OneDrive 및 Microsoft Teams.
 
-   작업을 마쳤으면 **저장** 을 클릭합니다.
+   작업을 마친 후 **저장** 을 클릭합니다.
 
 ### <a name="use-exchange-online-powershell-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>PowerShell Exchange Online 사용하여 금고 OneDrive, SharePoint 및 SharePoint 첨부 파일을 Microsoft Teams
 

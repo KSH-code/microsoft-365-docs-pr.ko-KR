@@ -16,11 +16,11 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Microsoft 365용 Multi-Geo 환경의 SharePoint, OneDrive 및 Exchange 사용자 작업 환경에 대해 알아봅니다.
 ms.openlocfilehash: 5ecdfd41c496149e04bfb9586f76807db7957d0d
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502906"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210652"
 ---
 # <a name="user-experience-in-a-multi-geo-environment"></a>다중 위치 환경의 사용자 작업 환경
 

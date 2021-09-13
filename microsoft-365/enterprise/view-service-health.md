@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: 지원에 전화하기 전에 Microsoft 365 서비스의 상태를 확인하여 활성 서비스 중단이 있는지 확인하세요.
 ms.openlocfilehash: 64a0d4816ce9afdd8ee4bf1c2a4522ef9fc56afc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570488"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210462"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Microsoft 365 서비스 상태를 확인하는 방법
 

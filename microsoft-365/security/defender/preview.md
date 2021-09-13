@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ba3e607b54294a8aa61fd0a6c9c0d13e07f873035b0b98d336328b4c1e858bcf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 439884f33bee94ddddf8ddf183b4d02bfcedb09a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53799265"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211822"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Microsoft 365 Defender 미리 보기 기능
 
@@ -53,7 +53,7 @@ Microsoft 365 Defender 릴리스의 새로운 기능에 대해 알아보고 미�
 
 
 
-## <a name="required-permissions"></a>필수 권한
+## <a name="required-permissions"></a>필요한 사용 권한
 
 Azure AD(Azure Active Directory) 역할이 할당된 계정은 미리 보기 Microsoft 365 Defender 수 있습니다.
 
@@ -74,13 +74,7 @@ Azure AD(Azure Active Directory) 역할이 할당된 계정은 미리 보기 Mic
 
 **미리 보기 기능 설정** 확인란이 선택되어 있는 경우, 미리 보기 기능을 설정했음을 알 수 있습니다. 
 
-## <a name="preview-features"></a>미리 보기 기능
 
-다음 기능과 향상 기능은 현재 미리 보기에서 사용할 수 있습니다.
 
-- **[위협 태그별](threat-analytics.md#view-reports-per-threat-tags)** 보고서 보기 - 위협 태그를 사용하면 특정 위협 범주에 집중하고 가장 관련성이 높은 보고서를 검토할 수 있습니다.
-- **[스트리밍 API](../defender-endpoint/raw-data-export.md)** - Microsoft 365 Defender 헌팅을 통해 사용할 수 있는 모든 이벤트를 이벤트 허브 및/또는 Azure 저장소 계정으로 스트리밍할 수 있습니다.
-- **[Microsoft 365 Defender API](api-overview.md)** - 최상위 Microsoft 365 Defender API를 사용하면 공유 인시던트 및 고급 헌팅 테이블을 기반으로 워크플로를 자동화할 수 있습니다. 
-- **[고급 헌팅](advanced-hunting-take-action.md)** 작업 수행 - 고급 헌팅에서 발견된 위협을 빠르게 포함하거나 손상된 자산을 [해결합니다.](advanced-hunting-overview.md)
-- **[포털 내 스마마 참조](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** - 보안 센터에서 직접 고급 헌팅 스마 테이블에 대한 정보를 얻습니다. 테이블 및 열 설명 외에도 이 참조에는 지원되는 이벤트 유형(값) 및 `ActionType` 예제 쿼리가 포함됩니다.
-- **[DeviceFromIP() 기능](advanced-hunting-devicefromip-function.md)** - 지정된 시간 범위에서 특정 IP 주소 또는 주소가 할당된 장치에 대한 정보를 얻습니다.
+
+

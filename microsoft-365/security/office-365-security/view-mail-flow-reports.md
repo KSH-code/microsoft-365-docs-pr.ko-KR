@@ -20,11 +20,11 @@ ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 5c1993668b94ca8c71ccbf13e5fe59059c610cca
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572410"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211522"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 및 준수 센터의 보고서 대시보드에서 & 흐름 보고서 보기
 
@@ -549,7 +549,7 @@ EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 3
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기**
+- **보안 읽기 권한자**
 - **전역 읽기 권한자**
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.

@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 103208f1-e788-4601-aa45-504f896511cd
 description: 이 문서에서는 Azure ExpressRoute for Office 365 네트워크 계획에 활용하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 33e8a078a8bfd2dec5fc643a73e1d17201c3d7f51f9b491f7e53d25389104d39
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 440d4fafadd7e9b504dc4ffdac1123a2956ed798
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53835046"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210602"
 ---
 # <a name="network-planning-with-expressroute-for-office-365"></a>Office 365용 ExpressRoute를 통한 네트워크 계획
 

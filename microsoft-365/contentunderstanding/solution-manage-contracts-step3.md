@@ -13,11 +13,11 @@ localization_priority: None
 ROBOTS: ''
 description: 사용자 계정을 사용하여 Power Automate 솔루션을 사용하여 계약을 처리하기 위한 흐름을 만드는 Microsoft 365 알아보십시오.
 ms.openlocfilehash: 1de8c0c5ed25ee9934077d015f4e66c43e07c7c8
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533246"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210815"
 ---
 # <a name="step-3-use-power-automate-to-create-the-flow-to-process-your-contracts"></a>3단계. 이 Power Automate 사용하여 계약을 처리하기 위한 흐름 만들기
 

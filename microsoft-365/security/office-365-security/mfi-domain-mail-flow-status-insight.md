@@ -15,11 +15,11 @@ description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 9c0c0eed3cffaadd76f18b9b446ac14873712f6f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574559"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211625"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 메일 흐름 상태 정보
 

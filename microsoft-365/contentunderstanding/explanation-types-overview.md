@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: Priority
 description: Microsoft SharePoint Syntex의 구문 목록, 정규식 및 근접 설명 유형에 대해 자세히 알아보세요.
 ms.openlocfilehash: 405080575f48f439e7d978a8fc7ca00ecf956be0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568399"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210875"
 ---
 # <a name="explanation-types-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 설명 유형
 

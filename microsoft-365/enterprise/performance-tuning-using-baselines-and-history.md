@@ -23,12 +23,12 @@ ms.collection:
 - Ent_O365
 - SPO_Content
 description: 초기에 새로운 문제를 감지하는 데 도움이 될 수 있도록 클라이언트 컴퓨터 연결의 기록을 검사하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: 8ce4e98a78d3353aa964533b0dfbe269584b637cd829d011ef827d070d7bf95b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 460bde30a0b292569b045c339066df2860c50989
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53800898"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210592"
 ---
 # <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>초기 계획 및 성능 기록을 사용하여 Office 365 성능 조정
 

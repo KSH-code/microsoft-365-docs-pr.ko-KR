@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 데이터 및 사용자를 Google Workspace에서 비즈니스용 앱으로 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: 8a27b83831a10abf7c80bf35f694e50533203d0407fa589c6f08e3f2c9280b30
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9d5ec1ce6b9b13026f615c4135546505130fe7b3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873138"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211245"
 ---
 # <a name="switch-from-google-workspace---overview"></a>Google Workspace에서 전환 - 개요
 

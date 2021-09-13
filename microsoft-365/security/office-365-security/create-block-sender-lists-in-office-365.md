@@ -14,12 +14,12 @@ search.appverid:
 description: 관리자는 EOP(인바운드 메시지)에서 인바운드 메시지를 차단하는 사용 가능한 옵션과 기본 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 31d311fb09f1a53298e3838ba3c3eccee1ee93e4c24ba3980b0d474642ddfe4f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c844378a19ba7995cbd616f615e8a84994f9bf26
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56878237"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211775"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>EOP에서 차단된 보낸 사람 목록 만들기
 

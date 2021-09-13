@@ -20,11 +20,11 @@ ms.custom:
 ms.assetid: ace07d8a-15ca-4b89-87f0-abbce809b519
 description: PowerShell을 사용하여 사용자에게 할당된 Microsoft 365 서비스를 확인하는 방법에 대해 설명
 ms.openlocfilehash: 2c450c0697dced43f974087f6c0453e4b761914b
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356063"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210415"
 ---
 # <a name="view-microsoft-365-account-license-and-service-details-with-powershell"></a>PowerShell을 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기
 

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 관리자 및 메시지 보낸 사람은 관리자 권한으로 암호화된 특정 전자 메일을 해지할 Office 365 고급 메시지 암호화.
-ms.openlocfilehash: 58a029dbbc2fef644e533ccb072bb8e0e8bb0e67e70584d1e93d956db4c9c2c4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b49915b6ef72d366a4b2718319150d2d5b640b9f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795571"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210872"
 ---
 # <a name="revoke-email-encrypted-by-advanced-message-encryption"></a>고급 메시지 암호화로 암호화된 전자 메일 해지
 

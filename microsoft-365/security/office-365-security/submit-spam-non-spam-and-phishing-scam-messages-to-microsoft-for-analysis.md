@@ -1,5 +1,5 @@
 ---
-title: 분석을 위해 Microsoft에 수동으로 메시지 전송
+title: 수동으로 Microsoft에 분석용 메시지 제출
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -19,13 +19,13 @@ ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 91ec2807db4a4c384dabcf20634162b3a838274e
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400358"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211562"
 ---
-# <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
+# <a name="manually-submit-messages-to-microsoft-for-analysis"></a>수동으로 Microsoft에 분석용 메시지 제출
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -93,7 +93,7 @@ ms.locfileid: "58400358"
 
 ## <a name="where-is-the-data-from-submissions-to-microsoft-stored"></a>Microsoft에 전송되는 데이터는 어디에 저장되어 있나요?
 
-데이터는 북미 데이터 센터의 Office 365 규정 준수 경계에 있습니다. 이 데이터는 엔지니어링 팀의 분석가가 필터의 효율성을 개선하는 데 도움을 주며 검토합니다.
+데이터는 북미 데이터 센터의 Office 365 규정 준수 경계에 있습니다. 이 데이터는 필터링 효과를 개선하는 데 도움을 주기 위해 엔지니어링 팀의 분석가가 검토합니다.
 
 ## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Microsoft에 보고된 메시지의 복사본을 받는 메일 흐름 규칙 만들기
 

@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 중앙 집중식 배포 PowerShell cmdlet을 사용하여 조직에 대한 Office 추가 기능을 배포하고 Microsoft 365 있습니다.
 ms.openlocfilehash: 37a60ffe7d17f09ecbdb70c80c880b2c7bd51645
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745844"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210455"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>중앙 집중식 배포 PowerShell cmdlet을 사용하여 추가 기능 관리
 

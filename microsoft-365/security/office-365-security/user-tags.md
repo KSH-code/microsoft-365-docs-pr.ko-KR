@@ -17,11 +17,11 @@ description: 관리자는 Plan 2용 Microsoft Defender에서 사용자 태그를
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: d224718502725e760c6a844f3bfd289bf3dd179c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568051"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211535"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 

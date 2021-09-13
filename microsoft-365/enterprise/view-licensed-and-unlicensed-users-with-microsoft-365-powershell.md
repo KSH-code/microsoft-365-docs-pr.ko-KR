@@ -21,11 +21,11 @@ ms.custom:
 ms.assetid: e4ee53ed-ed36-4993-89f4-5bec11031435
 description: 이 문서에서는 PowerShell을 사용하여 사용자 계정의 라이선스 및 허가되지 않은 Microsoft 365 방법을 설명합니다.
 ms.openlocfilehash: 0f1b590dade1d07499ac6c9b5f8888d7cab7ecd6
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354395"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210395"
 ---
 # <a name="view-licensed-and-unlicensed-microsoft-365-users-with-powershell"></a>PowerShell을 사용 하 Microsoft 365 및 허가되지 않은 사용자 보기
 

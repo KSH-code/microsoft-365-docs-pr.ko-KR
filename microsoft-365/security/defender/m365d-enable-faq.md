@@ -21,11 +21,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: e630b2cdb7164157e2dd42e8f1ee8d09676dfbfb
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58252083"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211882"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>이 기능을 켜면 자주 묻는 Microsoft 365 Defender
 
@@ -80,7 +80,7 @@ Microsoft 365 Defender 에서 사용할 수 <https://security.microsoft.com> 있
 - 보안 읽기 권한자
 
 > [!NOTE]
-> 끝점용 Microsoft Defender의 역할 기반 액세스 제어 설정은 데이터에 대한 액세스에 영향을 미치게 됩니다. 자세한 내용은 에 대한 액세스 관리에 대해 [Microsoft 365 Defender.](m365d-permissions.md)
+> 엔드포인트용 Microsoft Defender의 역할 기반 액세스 제어 설정은 데이터에 대한 액세스에 영향을 미칩니다. 자세한 내용은 [Microsoft 365 Defender에 대한 액세스 관리](m365d-permissions.md)를 참조하세요.
 
 ## <a name="what-time-zone-does-microsoft-365-defender-default-to"></a>기본 표준 시간대는 Microsoft 365 Defender 표준 시간대는 무엇입니까?
 

@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 03973595f68c56ac57f22d8d68c9f37f04fb6bb8
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862836"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211792"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics-in-microsoft-365-defender"></a>위협 분석의 분석가 보고서를 Microsoft 365 Defender
 

@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9bdb7e2b9894a67722e3ece8d759f8a4cd5f7a5f8e1a6fa8d2a2b987c97f7774
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 60f0965bce53e462ede98622323a88bfbeb1b490
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843254"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211135"
 ---
 # <a name="payment-information-for-switzerland"></a>스위스 결제 정보
 

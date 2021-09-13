@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Microsoft 365 Multi-Geo, Multi-Geo 작동 방식 및 데이터 저장소에 사용할 수 있는 지리적 위치에 대해 알아봅니다.
-ms.openlocfilehash: 2f651754e4ebf3e9f088e4acc7bd9bb8f007c64ee0add5def79312ca21012db6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 52c4bc8a23bdf89afb1a3f3eae3fe6348fed8009
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53848378"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210565"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>Microsoft 365 Business를 위한 계획
 

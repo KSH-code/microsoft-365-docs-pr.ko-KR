@@ -20,12 +20,12 @@ description: 관리자는 검색 포털에서 사용할 수 있는 Office 365 De
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 29374b0f4248b520d1b00a597e3c693cdf9f18ef
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 5cc6c39c9d18e1fcc206f1d8cb81451201541e61
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574511"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211505"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>검색 포털에서 Office 365 대한 Microsoft 365 Defender 보기
 
@@ -217,7 +217,7 @@ PowerShell 보고 cmdlet:
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기**
+- **보안 읽기 권한자**
 - **전역 읽기 권한자**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
@@ -232,4 +232,4 @@ PowerShell 보고 cmdlet:
 
 [검색 포털의 스마트 보고서 및 Microsoft 365 Defender 정보](reports-and-insights-in-security-and-compliance.md)
 
-[역할 권한(Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)
+[Azure AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference)

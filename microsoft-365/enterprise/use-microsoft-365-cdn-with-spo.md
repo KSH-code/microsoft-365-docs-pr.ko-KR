@@ -22,11 +22,11 @@ search.appverid:
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Office 365 Content Delivery Network(CDN)를 사용하여 온라인 자산의 배달 속도를 SharePoint 방법을 알아보습니다.
 ms.openlocfilehash: 494f0574707693f7d36fa2e1c61ee942e4c088a6
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574270"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210512"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>sharepoint Online을 활용해 Office 365 콘텐츠 배달 네트워크(CDN) 사용하기
 

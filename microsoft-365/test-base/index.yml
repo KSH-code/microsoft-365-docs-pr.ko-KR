@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: 테스트 기반 문서 Microsoft 365
-summary: '테스트 기반 Microsoft 365 응용 프로그램의 데이터 기반 테스트를 용이하게 하는 Azure 서비스입니다. 데이터 및 클라우드의 기능을 통해 IT 전문가는 전 세계 어디서나 지능형 테스트를 활용할 수 있습니다. 복잡한 테스트 환경을 설정 및 유지 관리하는 데 들이는 복잡하지 않은 작업, 시간 약정 및 지출 없이 응용 프로그램을 테스트하는 데 도움이 됩니다. 가장 중요한 점은 응용 프로그램의 보안 가상 컴퓨터(Windows) 및 세계적 수준의 인텔리전스에 대한 사전 릴리스 업데이트에 액세스할 수 있도록 합니다.'
+summary: 테스트 기반 Microsoft 365 응용 프로그램의 데이터 기반 테스트를 용이하게 하는 Azure 서비스입니다. 데이터 및 클라우드의 기능을 통해 IT 전문가는 전 세계 어디서나 지능형 테스트를 활용할 수 있습니다. 복잡한 테스트 환경을 설정 및 유지 관리하는 데 들이는 복잡하지 않은 작업, 시간 약정 및 지출 없이 응용 프로그램을 테스트하는 데 도움이 됩니다. 가장 중요한 점은 응용 프로그램의 보안 가상 컴퓨터(Windows) 및 세계적 수준의 인텔리전스에 대한 사전 릴리스 업데이트에 액세스할 수 있도록 합니다.
 metadata:
   title: M365용 테스트 기준 설명서
   description: 테스트 기반 Microsoft 365 응용 프로그램의 데이터 기반 테스트를 용이하게 하는 Azure 서비스입니다. 데이터 및 클라우드의 기능을 통해 IT 전문가는 전 세계 어디서나 지능형 테스트를 활용할 수 있습니다.
@@ -11,46 +11,52 @@ metadata:
   author: v-zhifufeng
   ms.author: v-zhifufeng
   ms.date: 03/29/2021
+  ms.openlocfilehash: 3833e05eea8f8598d228e261734fedb1b0cf2647
+  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59211725"
 landingContent:
-  - title: 테스트 기준
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: 테스트 기준이란?
-            url: overview.md
-      - linkListType: get-started
-        links:
-          - text: 테스트 기본 계정 만들기
-            url: createAccount.md
-      - linkListType: tutorial
-        links:
-          - text: additional-resources
-            url: faq.md
-  - title: 시작
-    linkLists:
-      - linkListType: quickstart
-        links:
-          - text: 테스트 기본 계정 만들기
-            url: createAccount.md
-          - text: 업로드 응용 프로그램 확인
-            url: uploadApplication.md
-          - text: 업로드 이진
-            url: binaries.md
-          - text: 테스트 작업 설정
-            url: testtask.md
-          - text: 테스트 옵션 선택
-            url: testoptions.md
-          - text: 선택 검토
-            url: review.md
-          - text: 테스트 패키지 지침
-            url: contentguideline.md
-          - text: 메모리 회귀 분석
-            url: memory.md
-          - text: CPU 회귀 분석
-            url: cpu.md
-  - title: 참조를 얻습니다.
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: 질문과 대답
-            url: faq.md
+- title: 테스트 기준
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 테스트 기준이란?
+      url: overview.md
+  - linkListType: get-started
+    links:
+    - text: 테스트 기본 계정 만들기
+      url: createAccount.md
+  - linkListType: tutorial
+    links:
+    - text: additional-resources
+      url: faq.md
+- title: 시작하기
+  linkLists:
+  - linkListType: quickstart
+    links:
+    - text: 테스트 기본 계정 만들기
+      url: createAccount.md
+    - text: 업로드 응용 프로그램 확인
+      url: uploadApplication.md
+    - text: 업로드 이진
+      url: binaries.md
+    - text: 테스트 작업 설정
+      url: testtask.md
+    - text: 테스트 옵션 선택
+      url: testoptions.md
+    - text: 선택 검토
+      url: review.md
+    - text: 테스트 패키지 지침
+      url: contentguideline.md
+    - text: 메모리 회귀 분석
+      url: memory.md
+    - text: CPU 회귀 분석
+      url: cpu.md
+- title: 참조를 얻습니다.
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: 질문과 대답
+      url: faq.md

@@ -14,11 +14,11 @@ localization_priority: None
 ROBOTS: ''
 description: Microsoft 365, 목록, SharePoint 및 SharePoint Syntex 솔루션으로 계약을 Microsoft Teams 방법을 Power Automate.
 ms.openlocfilehash: d890305912c8b86065a89dac1b7da8f797604405
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533378"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210835"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Microsoft 365 솔루션을 사용하여 계약 관리
 

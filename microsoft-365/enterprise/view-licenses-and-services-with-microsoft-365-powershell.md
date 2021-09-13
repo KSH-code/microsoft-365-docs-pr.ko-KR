@@ -21,11 +21,11 @@ ms.custom:
 ms.assetid: bb5260a9-a6a3-4f34-b19a-06c6699f6723
 description: PowerShell을 사용하여 조직에서 사용할 수 있는 라이선스 계획, 서비스 및 라이선스에 대한 Microsoft 365 설명
 ms.openlocfilehash: 920bc00dcfa774f7cf157be4a543bf30e18f406e
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356051"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210385"
 ---
 # <a name="view-microsoft-365-licenses-and-services-with-powershell"></a>PowerShell을 Microsoft 365 라이선스 및 서비스 보기
 
@@ -145,7 +145,7 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 | `RMS_S_ENTERPRISE` <br/> |RMS(Azure 권한 관리)  <br/> |
 | `OFFICESUBSCRIPTION` <br/> |*엔터프라이즈용 Microsoft 365 앱(이전에는 Office 365 ProPlus)*  <br/> |
 | `MCOSTANDARD` <br/> |비즈니스용 Skype Online  <br/> |
-| `SHAREPOINTWAC` <br/> |Office  <br/> |
+| `SHAREPOINTWAC` <br/> |사무실  <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
 | `EXCHANGE_S_ENTERPRISE` <br/> |Exchange Online 계획 2  <br/> |
    

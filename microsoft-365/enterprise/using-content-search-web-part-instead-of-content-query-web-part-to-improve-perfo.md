@@ -22,11 +22,11 @@ search.appverid:
 ms.assetid: e8ce6b72-745b-464a-85c7-cbf6eb53391b
 description: SharePoint Server 2013 및 SharePoint Online에서 콘텐츠 쿼리 웹 파트를 콘텐츠 검색 웹 파트로 바꾸어 성능을 SharePoint 방법을 알아보겠습니다.
 ms.openlocfilehash: 270019b59666c3f52d67648a88c453278149fccd
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566747"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210432"
 ---
 # <a name="using-content-search-web-part-instead-of-content-query-web-part-to-improve-performance-in-sharepoint-online"></a>콘텐츠 쿼리 웹 파트 대신 콘텐츠 검색 웹 파트를 사용하여 온라인에서 SharePoint 향상
 

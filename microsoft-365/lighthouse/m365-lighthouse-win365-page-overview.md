@@ -17,11 +17,11 @@ ms.custom:
 search.appverid: MET150
 description: MICROSOFT 365 LIGHTHOUSE MSP(관리 서비스 공급자)의 경우 Windows 365(클라우드 PC) 페이지에 대해 자세히 알아보십시오.
 ms.openlocfilehash: b71beb0315c15929b20e1afd32a96bfd811a9ea9
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507797"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211722"
 ---
 # <a name="windows-365-cloud-pcs-page-overview"></a>Windows 365(클라우드 PC) 페이지 개요  
 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: 기능 제한 사항 및 사서함 Exchange Online 같은 다중 위치 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 1a6d5ff5dfe6072266a707e7263ae673d6605eb4f7e531bb8a62ebd60606bb27
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c7c7699906b92e09f88f59bb9d34d1c3b2c36135
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864198"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210702"
 ---
 # <a name="multi-geo-capabilities-in-exchange-online"></a>Exchange Online의 다중 위치 기능
 

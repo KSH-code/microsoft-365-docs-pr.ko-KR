@@ -16,14 +16,15 @@ ms.collection:
 ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
+- admindeeplinkMAC
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 테스트를 위한 간단한 테스트 Microsoft 365 만들 수 있습니다.
-ms.openlocfilehash: 818b013d8d18a7686e88e99eff2f0be2fb12b8d9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 0b8e0a71c8708d2faec0e263c220e3f3d91931f3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566793"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210735"
 ---
 # <a name="the-lightweight-base-configuration"></a>간단한 기본 구성
 
@@ -157,7 +158,7 @@ for($i=2;$i -le 4; $i++) {
   
 1. 인터넷 브라우저 개인 창에서 전역 관리자 계정 자격 증명을 사용하여 의 에 Microsoft 365 관리 센터 [https://admin.microsoft.com](https://admin.microsoft.com) 로그인합니다.
     
-2. On the **Microsoft 365 관리 센터** page, in the left navigation, select **Billing > Purchase services**.
+2. On the **Microsoft 365 관리 센터** page, in the left navigation, select **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**Purchase services**</a>.
     
 3. 서비스 **구매 페이지에서** Microsoft 365 E5 **선택한** 다음 무료 평가판 **을 선택합니다.**
 
@@ -167,7 +168,7 @@ for($i=2;$i -le 4; $i++) {
 
 6. 주문 **확인 페이지에서** 계속을 **선택합니다.**
 
-7. 사용자 Microsoft 365 관리 센터 활성 사용자 **> 선택합니다.**
+7. 사용자 Microsoft 365 관리 센터 사용자 활성   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**사용자를 선택합니다.**</a>
 
 8. 활성 **사용자에서** 관리자 계정을 선택합니다.
 

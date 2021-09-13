@@ -15,11 +15,11 @@ ms.collection:
 ms.custom: ''
 description: 암호 해시 동기화를 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
 ms.openlocfilehash: ab43fc4a41a5faba703cb20fd707fcd18909f42a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576227"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210582"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 암호 해시 동기화를 위한 ID 및 장치 액세스 필수 구성 요소
 
@@ -85,7 +85,7 @@ ms.locfileid: "58576227"
 - 사용자 4
 - 사용자 5
 
-사용자 2 계정에 대해서만 다단계 인증을 테스트합니다.
+사용자 2 계정에 대해서만 다중 요소 인증을 테스트하십시오.
 
 ## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>7단계: 도메인에 가입된 컴퓨터의 자동 장치 Windows 사용 
 
@@ -97,7 +97,7 @@ ms.locfileid: "58576227"
 
 ## <a name="phase-9-enable-azure-ad-identity-protection"></a>9단계: Azure AD ID 보호 사용
 
-[Azure AD ID 보호 테스트 랩 가이드의 2 단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection) 지침을 따릅니다. 
+[Azure Active Directory Identity Protection 테스트 랩 가이드의 2단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection)에 있는 지침을 따릅니다. 
 
 ## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>10단계: 온라인 및 Exchange Online 비즈니스용 Skype 사용하도록 설정
 

@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: ''
 description: Windows 365 Business 사용자를 위한 권장 클라우드 PC 크기 조정 옵션에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 82fe7093d27fe3d1302e43da415df9ddce2a6064
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58350067"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211475"
 ---
 # <a name="windows-365-business-sizing-options"></a>Windows 365 Business 크기 조정 옵션
 

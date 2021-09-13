@@ -18,12 +18,12 @@ ms.custom:
 description: 보안 클라우드 서비스 및 응용 프로그램과 SIEM(보안 정보 및 이벤트 관리) 서버 Microsoft 365 개요를 참조하세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3b4f0275ed9f63aaf3e5717a3511caa28055f0bf0e469c1c17a46e17e4a25a56
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ea4d844595aaab8d8148666430187edef463b92e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "57036890"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211565"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>보안 정보 및 이벤트 관리(SIEM) 서버와 Microsoft 365 통합
 
@@ -59,7 +59,7 @@ SIEM 서버는 다양한 서비스 및 응용 프로그램에서 데이터를 Mi
 |Microsoft 365 서비스 또는 응용 프로그램|SIEM 서버 입력/메서드|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|---|
 |[Office 365용 Microsoft Defender](defender-for-office-365.md)|감사 로그|[Microsoft Defender와 SIEM Office 365](siem-integration-with-office-365-ti.md)|
-|[엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)|Azure에서 호스트된 HTTPS 끝점 <p> REST API|[SIEM 도구로 경고 끌어오기](../defender-endpoint/configure-siem.md)|
+|[엔드포인트용 Microsoft Defender](/windows/security/threat-protection/) |Azure에서 호스트된 HTTPS 끝점 <p> REST API|[SIEM 도구로 경고 끌어오기](../defender-endpoint/configure-siem.md)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|로그 통합|[SIEM과 Microsoft Cloud App Security](/cloud-app-security/siem)|
 |
 

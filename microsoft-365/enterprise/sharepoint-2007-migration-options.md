@@ -27,12 +27,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 SharePoint Server 2007을 사용하여 업그레이드를 계획하는 데 도움이 되는 정보를 제공합니다.
-ms.openlocfilehash: 5f3df4a66eb789cd6aa88f1f3a0f170c1c49b834a7b87bad242abb1fab15b4df
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 38c4713b7dfb705c99d970c5f68a37b031c951a5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894830"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210542"
 ---
 # <a name="sharepoint-2007-migration-options-to-consider"></a>SharePoint 2007 마이그레이션 옵션
 
@@ -56,7 +56,7 @@ Microsoft SharePoint 2007 및 SharePoint Server 2007의 지원이 종료됩니�
     
 - 사이트 모음 또는 라이브러리 간에 데이터를 수동으로 이동
     
-- FastTrack 마법사를 Microsoft 365 업그레이드(SharePoint[Online 배포 어드바이저](https://aka.ms/spoguidance))
+- FastTrack Microsoft 365[업그레이드(SharePoint Online 배포 고문](https://aka.ms/spoguidance))
     
 - SPO(SharePoint Online)로의 마이그레이션 API Microsoft 365
     
@@ -148,7 +148,7 @@ SharePoint 소프트웨어에 기본 제공된 기능을 사용하지 않고도 
 |데이터베이스 연결로 데이터베이스 업그레이드  <br/> |전체 업그레이드  <br/> |
 |팜을 나란히 업그레이드  <br/> |하이브리드 업그레이드  <br/> |
 |마이그레이션 API를 SPO로 Microsoft 365(개인 사이트 데이터용)  <br/> |SharePoint 하이브리드(아직 필요하지 않습니다)  <br/> |
-|중요한 데이터를 위해 SharePoint 일부 수동 데이터 마이그레이션  <br/> |FastTrack 마법사를 업그레이드하여 Microsoft 365  <br/> |
+|중요한 데이터를 위해 SharePoint 일부 수동 데이터 마이그레이션  <br/> |FastTrack 마법사로 업그레이드할 Microsoft 365  <br/> |
    
  **제안된 계획:**
   
@@ -156,7 +156,7 @@ SharePoint 소프트웨어에 기본 제공된 기능을 사용하지 않고도 
   
 - SPO가 있는 Search Federated Hybrid가 요구 사항을 충족하는지 고려합니다.
     
-- 여기에서 SharePoint Online으로 업그레이드하려면 [FastTrack](https://fasttrack.microsoft.com) 지원을 고려하세요. 
+- 여기에서 [FastTrack Online으로](https://fasttrack.microsoft.com) 업그레이드하려면 SharePoint 지원을 고려하세요. 
     
 - 사이트 모음을 특정 구독으로 오프로드할 수 있는지 Microsoft 365. (Microsoft 365 준수 [표준을 충족합니다.](/compliance/regulatory/offering-home) Microsoft 365 [eDiscovery가](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da) 있으며 준수 센터를 [통해](https://support.office.com/article/A18F8975-AA7F-43B4-A7D6-001D14744D8E) 보류를 할 수 있습니다.) 
     

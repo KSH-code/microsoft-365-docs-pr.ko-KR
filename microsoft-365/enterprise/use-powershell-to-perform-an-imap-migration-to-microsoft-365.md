@@ -17,11 +17,11 @@ ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
 description: PowerShell을 사용하여 IMAP(Internet Mail Access Protocol) 마이그레이션을 수행하는 방법을 Microsoft 365.
 ms.openlocfilehash: 3447aa5be5ba76c5f8c85849ce8c5ea0e05a5ad4
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356891"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210472"
 ---
 # <a name="use-powershell-to-perform-an-imap-migration-to-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365로 IMAP 마이그레이션 수행
 

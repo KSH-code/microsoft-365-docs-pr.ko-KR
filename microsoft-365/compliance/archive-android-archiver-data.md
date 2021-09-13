@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Android 휴대폰에서 SMS, MMS 및 음성 통화를 가져오고 보관할 TeleMessage 커넥터를 설정할 수 있습니다. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
 ms.openlocfilehash: dce5599e4402e60c163e1ed770b091df012a616a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569156"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211035"
 ---
 # <a name="set-up-a-connector-to-archive-android-mobile-data"></a>Android 모바일 데이터를 보관할 커넥터 설정
 

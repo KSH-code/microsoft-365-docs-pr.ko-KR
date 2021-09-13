@@ -20,11 +20,11 @@ description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 8651adb37640d68d0eace7aa23a134ba3b892bbd
-ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58918258"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211735"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 

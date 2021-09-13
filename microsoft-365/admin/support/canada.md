@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8c2029be06be016d34fc7f00f5b1ec4ffb474f472bb96179f46ed55280706a40
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ad044d7cb0ad2ed15d738e99deb14a9a04218479
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896946"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211402"
 ---
 # <a name="contact-support-for-canada"></a>캐나다 지원에 문의
 

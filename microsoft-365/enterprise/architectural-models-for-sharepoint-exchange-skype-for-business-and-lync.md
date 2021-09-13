@@ -21,11 +21,11 @@ search.appverid:
 - MET150
 description: SharePoint, Exchange, 비즈니스용 Skype 및 Lync에 대한 아키텍처 모델, 배포 및 플랫폼 옵션을 설명하는 IT 포스터를 얻습니다.
 ms.openlocfilehash: 98558c20c66a808e93cd866b2f676b5f78fde3c1
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356447"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210762"
 ---
 # <a name="architectural-models-for-sharepoint-exchange-skype-for-business-and-lync"></a>SharePoint, Exchange, 비즈니스용 Skype 및 Lync에 대한 아키텍처 모델
 

@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 795158e1-7dfc-4d9e-b805-373dd576c4e7
 description: PowerShell을 사용하여 기존 시스템에서 전자 메일을 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 6feb2ef9b1e1b1a3a2a1e58053a55b4dd636bf98549cd57d7c7c86bc52cb78d6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0ba090db6c5e7fd617f3b50b21dfd08605f84594
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53807399"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210502"
 ---
 # <a name="how-to-use-powershell-to-migrate-email-to-microsoft-365"></a>PowerShell을 사용하여 전자 메일을 전자 메일로 마이그레이션하는 Microsoft 365
 

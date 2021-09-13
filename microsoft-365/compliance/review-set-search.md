@@ -18,11 +18,11 @@ ms.assetid: ''
 description: 검토 집합에서 쿼리를 만들고 실행하여 검토 사례에서 보다 효율적인 검토를 위해 콘텐츠를 구성하는 Advanced eDiscovery 합니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 4e4d2603cc9f26925b65ebeb654ad366d245e8e8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570788"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210902"
 ---
 # <a name="query-and-filter-content-in-a-review-set"></a>검토 집합의 콘텐츠 쿼리 및 필터링
 

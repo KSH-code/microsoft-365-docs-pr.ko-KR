@@ -16,11 +16,11 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: 이 문서에서는 위성 위치를 추가하고 Microsoft 365 Multi-Geo용 테넌트를 구성하는 방법을 알아봅니다.
 ms.openlocfilehash: c60e590f7eddc7f9e03c4754867600a39879cc49
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576023"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210662"
 ---
 # <a name="microsoft-365-multi-geo-tenant-configuration"></a>Microsoft 365 Multi-Geo 테넌트 구성
 

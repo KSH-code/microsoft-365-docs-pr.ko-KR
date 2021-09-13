@@ -20,11 +20,11 @@ ms.collection:
 - m365solution-scenario
 ms.technology: mdo
 ms.openlocfilehash: d4f44b1e77771860ba36a77f257b34bf0cd10e2a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571786"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211685"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>ID 및 장치 액세스 정책 구현을 위한 선행 작업
 
@@ -99,11 +99,11 @@ BYOD Windows 장치의 경우 사용자는 직장 또는 학교 계정 추가 **
 
 |플랫폼|Word/Excel/PowerPoint|OneNote|OneDrive 앱|SharePoint 앱|[OneDrive 동기화 클라이언트](/onedrive/enable-conditional-access)|
 |---|---|---|---|---|---|
-|Windows 8.1|지원|지원|해당 없음|해당 없음|지원|
-|Windows 10|지원|지원|해당 없음|해당 없음|지원|
-|Android|지원|지원|지원|지원|해당 없음|
-|iOS|지원|지원|지원|지원|해당 없음|
-|macOS|지원|지원|해당 없음|해당 없음|지원되지 않음|
+|Windows 8.1|않음|않음|해당 없음|해당 없음|않음|
+|Windows 10|않음|않음|해당 없음|해당 없음|않음|
+|Android|않음|않음|않음|않음|해당 없음|
+|iOS|않음|않음|않음|않음|해당 없음|
+|macOS|않음|않음|해당 없음|해당 없음|지원되지 않음|
 |Linux|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|
 |
 

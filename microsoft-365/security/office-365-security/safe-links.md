@@ -1,5 +1,5 @@
 ---
-title: 안전한 링크
+title: Microsoft Defender for 금고 링크 개요 Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: overview
 f1_keywords:
 - "197503"
+ms.date: 09/08/2021
 localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
@@ -24,15 +25,15 @@ search.appverid:
 - ZPP160
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
-description: 이 문서에서 관리자는 피싱 및 악의적인 URL을 사용하는 Office 365 공격으로부터 조직을 보호하기 위해 Defender의 금고 링크 보호에 대해 학습할 수 있습니다.
+description: 피싱 금고 URL을 사용하는 기타 공격으로부터 조직을 보호하기 위해 Office 365 Defender의 링크 보호 기능을 참조하세요. 링크 Teams 금고 검색하고 링크 메시지의 금고 참조하세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3a4382ad06d25bd1880fa7b8603fc315ae61f61f
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.openlocfilehash: 41520f2b731e5d76526393dafda6ce9be0fb290f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533102"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211595"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>금고 Microsoft Defender for Office 365
 
@@ -45,24 +46,24 @@ ms.locfileid: "58533102"
 > [!IMPORTANT]
 > 이 문서는 [Office 365용 Microsoft Defender](defender-for-office-365.md)가 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal 사용 중일 때 Outlook Safelinks에 대한 자세한 내용은 [Advanced Outlook.com security을 참조하세요.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
 
-금고 링크는 메일 흐름에서 인바운드 전자 메일 메시지의 URL 검색 및 Office 365 및 클릭 시간 확인 및 전자 메일 메시지 및 기타 위치의 링크 확인을 제공하는 서버용 [Defender의](defender-for-office-365.md) 기능입니다. 금고 EOP(인바운드 전자 [](anti-spam-and-anti-malware-protection.md) 메일 메시지)의 일반 스팸 방지 및 맬웨어 방지 보호 기능 외에 링크 Exchange Online Protection 발생합니다. 금고 링크 검색은 피싱 및 기타 공격에 사용되는 악의적인 링크로부터 조직을 보호하는 데 도움이 될 수 있습니다.
+금고 링크는 메일 흐름에서 인바운드 전자 메일 메시지의 URL 검색 및 Office 365 및 클릭 시간 확인 및 전자 메일 메시지 및 기타 위치의 링크 확인을 제공하는 서버용 [Defender의](defender-for-office-365.md) 기능입니다. 금고 EOP(인바운드 전자 [](anti-spam-and-anti-malware-protection.md) 메일 메시지)의 일반 스팸 방지 및 맬웨어 방지 보호 기능 외에 링크 Exchange Online Protection 발생합니다. 안전한 링크 검사는 피싱 및 기타 공격에 사용되는 악의적인 링크로부터 조직을 보호하는 데 도움이 될 수 있습니다.
 
-금고 링크 보호는 다음 위치에서 사용할 수 있습니다.
+안전한 링크 보호는 다음 위치에서 사용할 수 있습니다.
 
-- **전자 메일 메시지:** 금고 메시지의 링크에 대한 링크 보호는 링크 정책에 금고 제어합니다. 기본 금고 링크 정책이 없습니다. 따라서 전자 메일 메시지의 금고 링크를 보호하려면 하나 이상의 금고 링크 정책을 **만들어야 합니다.** 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
+- **이메일 메시지**: 전자 메일 메시지의 링크에 대한 안전한 링크 보호는 안전한 링크 정책에 의해 제어됩니다. 기본 금고 링크 정책이 없습니다. 따라서 전자 메일 메시지의 금고 링크를 보호하려면 하나 이상의 금고 링크 정책을 **만들어야 합니다.** 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
   전자 메일 메시지의 금고 보호에 대한 자세한 내용은 이 문서 의 금고 전자 [메일](#safe-links-settings-for-email-messages) 메시지에 대한 링크 설정 섹션을 참조하세요.
   
   > [!NOTE]
   > 금고 메일 사용이 가능한 공용 폴더에서는 링크가 작동하지 않습니다.
 
-- **Microsoft Teams**: 금고 대화, 그룹 채팅 또는 Teams 링크에 대한 링크 보호는 링크 정책에 의해 금고 제어됩니다. 기본 금고 링크 정책이 없습니다. 따라서 금고 링크 보호를 Teams 하나 이상의 금고 링크 정책을 **만들어야 합니다.**
+- **Microsoft Teams**: Teams 대화, 그룹 채팅 또는 채널의 링크에 대한 안전한 링크 보호 기능도 안전한 링크 정책에 의해 제어됩니다. 기본 금고 링크 정책이 없습니다. 따라서 금고 링크 보호를 Teams 하나 이상의 금고 링크 정책을 **만들어야 합니다.**
 
   금고 링크 보호의 Teams 대한 자세한 내용은 이 금고 [](#safe-links-settings-for-microsoft-teams) 의 Microsoft Teams 링크 설정 섹션을 참조하십시오.
 
-- **Office 365 앱:** 금고 앱에 대한 Office 365 링크 보호는 지원되는 데스크톱, 모바일 및 웹 앱에서 사용할 수 있습니다. 링크 **금고** 외부에 있는 전역 설정에서 Office 365 앱에  대한 금고 보호를 구성합니다. 자세한 내용은 [Configure global settings for 금고 Links settings in Microsoft Defender for Office 365.](configure-global-settings-for-safe-links.md)
+- **Office 365 앱**: Office 365 앱에 대한 Safe Links 보호는 지원되는 데스크톱, 모바일 및 웹 앱에서 사용할 수 있습니다. 링크 **금고** 외부에 있는 전역 설정에서 Office 365 앱에  대한 금고 보호를 구성합니다. 자세한 내용은 [Configure global settings for 금고 Links settings in Microsoft Defender for Office 365.](configure-global-settings-for-safe-links.md)
 
-  금고 Office 365 앱에 대한 링크 보호는 사용자가 활성 금고 링크 정책에 포함되어 있는지 여부에 관계없이 Office 365 대한 Defender 라이선스가 있는 조직의 모든 사용자에게 적용됩니다.
+  Office 365 앱에 대한 안전한 링크 보호는 사용자가 활성 안전한 링크 정책에 포함되어 있는지 여부에 관계없이 Office 365용 Defender 라이선스가 있는 조직의 모든 사용자에게 적용됩니다.
 
   금고 앱의 금고 Office 365 링크 보호에 대한 자세한 [](#safe-links-settings-for-office-365-apps) 내용은 금고 앱에 대한 Office 365 링크 설정 섹션을 참조하세요.
 
@@ -96,7 +97,7 @@ ms.locfileid: "58533102"
 
 ## <a name="safe-links-settings-for-email-messages"></a>금고 전자 메일 메시지에 대한 링크 설정
 
-금고 링크는 들어오는 전자 메일에서 알려진 악성 하이퍼링크를 검색합니다. 검색된 URL은 Microsoft 표준 URL prefix ()를 사용하여 다시 덮어 `https://nam01.safelinks.protection.outlook.com` 습니다. 링크를 다시 덮은 후 잠재적으로 악의적인 콘텐츠가 있는 것으로 분석됩니다.
+안전한 링크는 수신 전자 메일에서 알려진 악성 하이퍼링크를 검사합니다. 검색된 URL은 Microsoft 표준 URL prefix ()를 사용하여 다시 덮어 `https://nam01.safelinks.protection.outlook.com` 습니다. 링크는 다시 작성된 후, 잠재적으로 악의적인 콘텐츠에 대해 분석됩니다.
 
 링크가 금고 URL을 다시 덮은 후 내부 및 외부 받는 사람에게  메시지를 수동으로 전달하거나 답장한 경우에도 URL이 다시 덮어지지 않습니다. 전달되거나 메시지에 다시 연결되는 추가 링크는 다시 덮어지지 않습니다. 그러나 받은 편지함  규칙 또는 SMTP 전달에 의해 자동 전달되는 경우 해당 받는 사람이 금고 Links로 보호되거나  이전 통신에서 이미 URL을 다시 써 있지 않은 경우 최종 받는 사람을 위한 메시지에 URL이 다시 써지지 않습니다. URL을 다시 덮어도 HTML 전자 메일에만 적용됩니다. URL을 다시 입력하면 리치 및 일반 텍스트 URL을 읽을 수 없지만 이러한 URL은 배달 전에 계속 검색됩니다. 데스크톱 버전 16.0.12513 이상을 클릭할 때 금고 Outlook 링크에 대한 클라이언트 쪽 API 호출을 통해 URL이 포함된 텍스트 및 일반 텍스트 전자 메일도 계속 확인됩니다.
 
@@ -128,6 +129,8 @@ ms.locfileid: "58533102"
 
   금고 링크 정책의 표준 및 엄격한 정책 설정에 권장되는 값에 대한 자세한 내용은 금고 링크 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
+ - URL을 다시 덮어치지 **말고 SafeLinks API만** 통해 확인: 이 설정을 사용하도록 설정하면 URL 래핑이 진행되지 않습니다. 금고 링크를 지원하는 클라이언트에서 URL을 클릭할 때 API를 통해 Outlook 호출됩니다. 권장 값은 사용하지 않도록 설정됩니다.
+  
 - **받는 사람 필터:** 정책을 적용하는 사람을 결정하는 받는 사람 조건 및 예외를 지정해야 합니다. 조건 및 예외에 대해 다음 속성을 사용할 수 있습니다.
   - **받는 사람이 다음과 같음**
   - **받는 사람 도메인**

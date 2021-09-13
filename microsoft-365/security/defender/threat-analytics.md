@@ -1,5 +1,5 @@
 ---
-title: 위협 분석을 사용하여 새로운 위협 추적 및 대응
+title: 보안 위협 분석 Microsoft 365 Defender
 ms.reviewer: ''
 description: 새로운 위협 및 공격 기술과 이를 중지하는 방법에 대해 자세히 알아보십시오. 조직에 미치는 영향을 평가하고 조직 탄력성 평가
 keywords: 위협 분석, 위험 평가, Microsoft 365 Defender, M365D, 완화 상태, 보안 구성, Office 365용 Microsoft Defender, Office 365 위협 분석용 Microsoft Defender, MDO 위협 분석, MDE 및 MDO 위협 분석 통합, 위협 분석 데이터 통합, 통합된 Microsoft 365 Defender 위협 분석
@@ -21,14 +21,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43b15b8fb43a06fa56e18c735868058fcfd6d24f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: e25c6bfb3efabfd53d1babc10c20a46e1f6c0f78
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568555"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211785"
 ---
-# <a name="track-and-respond-to-emerging-threats-with-threat-analytics-in-microsoft-365-defender"></a>위협 분석을 사용하여 새로운 위협을 추적하고 Microsoft 365 Defender 
+# <a name="threat-analytics-in-microsoft-365-defender"></a>보안 위협 분석 Microsoft 365 Defender 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

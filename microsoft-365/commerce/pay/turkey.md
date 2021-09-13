@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da6836b7eba0a9ffe901eed0cb301d823e831feae9440c9895781e5ea6402dd1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d30a9ecfa01b25d8bde159903fdcb843f5ebb8d2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843219"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211062"
 ---
 # <a name="payment-information-for-turkey"></a>터키의 결제 정보
 

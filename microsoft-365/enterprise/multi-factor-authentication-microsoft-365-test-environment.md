@@ -15,13 +15,14 @@ ms.custom:
 - TLG
 - Ent_TLGs
 - seo-marvel-apr2020
+- admindeeplinkMAC
 description: 엔터프라이즈 테스트 환경의 휴대폰에서 스마트폰으로 전송된 문자 메시지를 사용하여 Microsoft 365 다단계 인증을 구성합니다.
-ms.openlocfilehash: 92c60819c2e32661b4af9cfba76553c59b784519
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 1c04729c65df455a05e37fe8d0ec6477ba251627
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570728"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210725"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 Microsoft 365 다단계 인증
 
@@ -58,7 +59,7 @@ ms.locfileid: "58570728"
   
 1. 별도의 개인 브라우저 인스턴스를 열고 Microsoft 365 관리 센터( ) 로 이동한 다음 전역 관리자 계정으로 [https://portal.microsoft.com](https://portal.microsoft.com) 로그인합니다.
     
-2. 왼쪽 탐색에서 사용자 활성  >  **사용자를 선택합니다.**
+2. 왼쪽 탐색에서 사용자 활성  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**사용자를 선택합니다.**</a>
     
 3. 활성 사용자 창에서 다단계 인증 **을 선택합니다.**
     
@@ -108,7 +109,7 @@ ms.locfileid: "58570728"
 
 그런 다음 MFAUsers라는 새 그룹을 만들고 사용자 3 계정을 추가합니다.
 
-1. Microsoft 365 관리 센터 **탭의** 왼쪽 탐색  창에서 그룹을 선택한 다음 그룹을 **선택합니다.**
+1. Microsoft 365 관리 센터 **탭의** 왼쪽 탐색  창에서 그룹을 선택한 다음 그룹을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**선택합니다.**</a>
 2. 그룹 **추가를 선택합니다.**
 3. 그룹 **유형 선택 창에서** 보안 을 선택하고 다음 을 **선택합니다.**
 4. 기본 **설정** 창에서 그룹 만들기를 선택한 다음 닫기 **를 선택합니다.**

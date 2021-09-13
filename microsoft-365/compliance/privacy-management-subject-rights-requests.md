@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: Microsoft 개인 정보 보호 관리의 주체 권한 요청 영역을 사용하면 개인 데이터를 찾고 콘텐츠를 검토하고 보고서를 만드는 데 공동 작업을 할 수 있습니다.
 ms.openlocfilehash: 28059996d4969b23f856df3bb05584b4055ba3d2
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745736"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210925"
 ---
 # <a name="manage-subject-rights-requests-in-privacy-management-preview"></a>개인 정보 관리에서 주체 권한 요청 관리(미리 보기)
 

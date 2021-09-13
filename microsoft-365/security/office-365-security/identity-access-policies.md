@@ -21,11 +21,11 @@ ms.collection:
 - m365solution-scenario
 ms.technology: mdo
 ms.openlocfilehash: 7b3e5e5f404d2758597b81a11d204baa629bff31
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568759"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211692"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -377,17 +377,17 @@ Android Enterprise 프로필 장치의 경우:
 |암호|모바일 장치의 잠금을 해제하려면 암호 필요|Require|선택|
 ||간단한 암호|차단|선택|
 ||암호 유형|장치 기본값|선택|
-||최소 암호 길이|6 |유형|
-||암호가 필요하기 전 최대 비활성 시간(분)|15 |유형 <p> 이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에서 지원됩니다. iOS 장치의 경우 iOS 8.0 이상에서 지원됩니다.|
-||암호 만료(일)|41|유형|
-||재사용을 방지할 이전 암호 수|5 |유형|
+||최소 암호 길이|6 |형식|
+||암호가 필요하기 전 최대 비활성 시간(분)|15 |형식 <p> 이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에서 지원됩니다. iOS 장치의 경우 iOS 8.0 이상에서 지원됩니다.|
+||암호 만료(일)|41|형식|
+||재사용을 방지할 이전 암호 수|5 |형식|
 ||장치가 유휴 상태(모바일 및 홀로그램)에서 반환되는 경우 암호 필요|Require|추가 Windows 10 사용할 수 있습니다.|
 |암호화|디바이스의 데이터 저장소 암호화|Require|선택|
 |장치 보안|방화벽|Require|선택|
 ||바이러스 검사|Require|선택|
 ||스파이웨어 방지|Require|선택 <p> 이 설정을 사용하려면 Windows 보안 등록된 스파이웨어 방지 솔루션이 필요합니다.|
 |Defender|Microsoft Defender 맬웨어 방지|Require|선택|
-||Microsoft Defender 맬웨어 방지 최소 버전||유형 <p> 데스크톱에서만 Windows 10 지원됩니다. 최신 버전에서는 버전이 5를 넘지 않습니다.|
+||Microsoft Defender 맬웨어 방지 최소 버전||형식 <p> 데스크톱에서만 Windows 10 지원됩니다. 최신 버전에서는 버전이 5를 넘지 않습니다.|
 ||Microsoft Defender 맬웨어 방지 서명 최신|Require|선택|
 ||실시간 보호|Require|선택 <p> 데스크톱에서만 Windows 10 지원|
 |

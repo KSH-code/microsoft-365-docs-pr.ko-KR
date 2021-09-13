@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 5f61b092ab8c8ce23694f566b7b11f4bca80b79e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573482"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211892"
 ---
 # <a name="example-of-a-phishing-email-attack"></a>피싱 전자 메일 공격의 예
 

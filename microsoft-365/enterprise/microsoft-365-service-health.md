@@ -13,15 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+ms.custom: admindeeplinkMAC
 f1.keywords:
 - NOCSH
 description: Microsoft 365 서비스 상태
-ms.openlocfilehash: a8e91f3f7a5c5454413a57e8e57749ccb918d9af630b1065522fee677c4c867c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 82b5a666d4cc707981ea6da72a53bbd8d67c505d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813141"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59167223"
 ---
 # <a name="microsoft-365-network-health-status"></a>Microsoft 365 네트워크 상태
 
@@ -31,7 +32,7 @@ COVID-19 위기 동안 Microsoft 클라우드 서비스에 대한 수요가 증�
 
 _이 페이지의 업데이트가 지연될 수 있습니다. 보다 자동화된 솔루션을 구축하는 동안 수동으로 업데이트하고 있습니다._
 
-Microsoft 글로벌 네트워크 내에서 또는 고객과 Microsoft 네트워크 간 인터넷 연결에 중대한 문제가 감지되면 여기에 해당 정보를 게시합니다. 고객은 Microsoft 365 관리 센터 서비스 상태 대시보드를 사용하여 테넌트에 대한 중대한 네트워크 문제의 영향을 이해하는 것이 좋습니다. 자세한 정보와 대상 정보가 제공되기 때문입니다.
+Microsoft 글로벌 네트워크 내에서 또는 고객과 Microsoft 네트워크 간 인터넷 연결에 중대한 문제가 감지되면 여기에 해당 정보를 게시합니다. 고객은 Microsoft 365 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">서비스 상태 대시보드</a>를 사용하여 테넌트에 대한 중대한 네트워크 문제의 영향을 이해하는 것이 좋습니다. 자세한 정보와 대상 정보가 제공되기 때문입니다.
 
 ## <a name="current-network-issues"></a>현재 네트워크 문제
 

@@ -18,11 +18,11 @@ ms.topic: article
 search.appverid: met150
 ms.technology: m365d
 ms.openlocfilehash: 81fe9d058a1144c67a1d95d02a3e8b47e3c2104b
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255440"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211835"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 
@@ -44,7 +44,7 @@ Microsoft 365 Defender 포털은 [ID,](overview-security-center.md) 데이터, �
 | Microsoft Defender 보안 센터 | [끝점용 Microsoft Defender에서](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 제공하는 기능을 사용하여 끝점에서 위협 활동 모니터링 및 대응 | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
 | 보안 및 준수 센터 | 전자 [Exchange Online Protection](../office-365-security/exchange-online-protection-overview.md) 및 공동 작업 서비스를 보호하고 다양한 데이터 처리 규정을 준수하기 위해 Office 365 및 [Microsoft Defender를](/microsoft-365/security/office-365-security/defender-for-office-365) 관리합니다. | [protection.office.com](https://protection.office.com) |
 | Azure Defender 포털 | [Azure Defender를](/azure/security-center/security-center-intro) 사용하여 클라우드에서 데이터 센터 및 하이브리드 워크로드의 보안 환경 강화 | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
-| Id용 Microsoft Defender 포털 | Id에 대한 [Microsoft Defender와](/azure-advanced-threat-protection/what-is-atp) 함께 Active Directory 신호를 사용하여 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사합니다. | [portal.atp.azure.com](https://portal.atp.azure.com/) |
+| Microsoft Defender for Identity 포털 | Id에 대한 [Microsoft Defender와](/azure-advanced-threat-protection/what-is-atp) 함께 Active Directory 신호를 사용하여 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사합니다. | [portal.atp.azure.com](https://portal.atp.azure.com/) |
 | Cloud App Security 포털 | 클라우드 [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) 정보를 활용하여 풍부한 가시성, 데이터 이동 제어 및 정교한 분석을 활용하여 클라우드 서비스의 사이버 위협을 식별하고 퇴치 | [portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/) |
 | Microsoft Defender 보안 인텔리전스 포털 | 끝점용 Microsoft Defender에 대한 보안 인텔리전스 업데이트 다운로드, 샘플 제출 및 위협 백과사전 탐색 | [microsoft.com/wdsi](https://microsoft.com/wdsi) |
 
