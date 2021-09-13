@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 recommendations: false
 description: 그룹을 만들 수 있는 사용자를 제어하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 374e5b1f7b89e9c2c0727035baeb692a5f869fe1e117ec6fb691e34caf65ab18
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 19a106d255708f4b1df8f798219ea7ea778bbef3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53777697"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213175"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
@@ -98,7 +98,7 @@ ms.locfileid: "53777697"
 
 아래 스크립트를 텍스트 편집기(예: 메모장 또는 ISE Windows PowerShell [복사합니다.](/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
-을 만든 그룹의 *\<GroupName\>* 이름으로 바 대체합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+을 만든 그룹의 *\<GroupName\>* 이름으로 바 대체합니다. 예를 들어,
 
 `$GroupName = "Group Creators"`
 
@@ -167,7 +167,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > 그룹의 구성원이 그룹을 만들 수 없는 경우 해당 OWA 사서함 정책을 통해 차단되지 [않는지 검사합니다.](/powershell/module/exchange/set-owamailboxpolicy)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 834e64b2bcae6d409f62cfb8da56118e2a0357562e63a5856f7a5e6355388385
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bc8040c27b7dcfa89299926d9ab52187579daf37
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896706"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193449"
 ---
 # <a name="contact-support-for-serbia"></a>세르비아 지원에 문의
 

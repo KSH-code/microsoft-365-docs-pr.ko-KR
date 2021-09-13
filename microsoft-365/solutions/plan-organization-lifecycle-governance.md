@@ -17,11 +17,11 @@ f1.keywords: NOCSH
 recommendations: false
 description: 공동 작업 도구에 대한 수명 주기 거버넌스 옵션에 대해 Microsoft 365
 ms.openlocfilehash: 5421f12109fb40e4e5cc6f68568a3b5f1873c7ce
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574463"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213165"
 ---
 # <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 및 사용자에 대한 조직 및 수명 주기 거버넌스 Microsoft Teams
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: defb922c8ed15a11aa5bd7b25a252b81f2b383ddf245966e30077e146cc696e8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bdbf542b3f98aae77e5654dadd0f445382a460ce
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862230"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192052"
 ---
 # <a name="contact-support-for-faroe-islands"></a>페로 제도 지원에 문의
 

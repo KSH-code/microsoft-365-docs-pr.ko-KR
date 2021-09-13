@@ -17,11 +17,11 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.openlocfilehash: 44c3b0a208c8c870343fc551728f105d4f380de4
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823844"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192739"
 ---
 # <a name="manage-event-based-forced-updates"></a>이벤트 기반 강제 업데이트 관리
 

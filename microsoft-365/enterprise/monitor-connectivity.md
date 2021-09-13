@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
 description: 이 문서에서는 연결 연결을 모니터링하고 유지 관리하는 데 사용할 수 있는 도구와 기술을 Microsoft 365 있습니다.
-ms.openlocfilehash: 5013ef1129e230ea9a3cd31e5a75dbf367c4e5c01c63b37768e7f73098bcfacc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d6e93f4669bb14736d78a30ece095623edb67136
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53899202"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212565"
 ---
 # <a name="monitor-microsoft-365-connectivity"></a>Microsoft 365 연결 모니터링
 
@@ -36,7 +36,7 @@ ms.locfileid: "53899202"
 |모니터링 유형 |설명 |
 |:-----|:-----|
 |**새 끝점에 대한 Microsoft 365** <br/> |If you're [Managing Microsoft 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a), you'll want to receive notifications when we publish new endpoints, you can subscribe to our RSS feed using your favorite RSS reader. 다음은 를 통해 [구독하는 Outlook](https://go.microsoft.com/fwlink/p/?LinkId=532416) RSS 피드 업데이트를 전자 메일로 [보낼 수 있는 방법입니다.](https://go.microsoft.com/fwlink/p/?LinkId=532417)  <br/> |
-|**이 System Center 사용하여 모니터링 Microsoft 365** <br/> |Microsoft System Center 사용하는 경우 지금 System Center 관리 팩을 다운로드하여 Office 365 수 Microsoft 365 있습니다. [](https://www.microsoft.com/download/details.aspx?id=43708) 자세한 지침은 관리 팩 작업 가이드를 참조하세요. <br/> |
+|**이 System Center 사용하여 모니터링 Microsoft 365** <br/> |Microsoft System Center 사용하는 경우 Microsoft System Center [Operations Manager](https://www.microsoft.com/download/details.aspx?id=103379) 관리 팩을 다운로드하여 현재 Microsoft 365 모니터링을 시작할 Microsoft 365 있습니다. 자세한 지침은 관리 팩 작업 가이드를 참조하세요. <br/> |
 |**Azure ExpressRoute** 의 상태 모니터링 <br/> |Microsoft 365 Azure ExpressRoute를 사용하여 Microsoft 365 연결하는 경우 azure 리소스 상태의 문제 해결 시간 단축뿐만 아니라 Microsoft 365 서비스 상태 대시보드를 모두 [](https://azure.microsoft.com/blog/reduce-troubleshooting-time-with-azure-resource-health/) 사용하고 있는 것이 좋습니다. <br/> |
 |**AD FS와 Azure Active Directory Connect Health 사용** <br/> |단일 응용 Sign-On AD FS를 사용하는 Microsoft 365 Azure AD 커넥트 Health를 사용하여 AD FS 인프라를 [모니터링할 수 있습니다.](/azure/active-directory/hybrid/how-to-connect-health-adfs)  <br/> |
 |**프로그래밍식 모니터링 Microsoft 365** <br/> |Microsoft 365 [관리 API에 대한 지침을 참조하세요.](/office/office-365-management-api/office-365-management-apis-overview)  <br/> |

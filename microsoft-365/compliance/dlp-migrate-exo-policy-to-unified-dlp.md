@@ -1,5 +1,5 @@
 ---
-title: 규정 준수 Exchange Online 데이터 손실 방지 정책 마이그레이션(미리 보기)
+title: Exchange Online 데이터 손실 방지 정책을 규정 준수 센터로 마이그레이션(미리 보기)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 description: 온라인 데이터 손실 방지 정책을 계획하고 Exchange DLP로 마이그레이션하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: 1bc3281e66d4a1ae08fc20630e8b6d86fcbb77e1
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58865089"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192982"
 ---
-# <a name="migrate-exchange-online-data-loss-prevention-policies-to-compliance-center-preview"></a>규정 준수 Exchange Online 데이터 손실 방지 정책 마이그레이션(미리 보기)
+# <a name="migrate-exchange-online-data-loss-prevention-policies-to-compliance-center-preview"></a>Exchange Online 데이터 손실 방지 정책을 규정 준수 센터로 마이그레이션(미리 보기)
 
 [Exchange Online DLP(데이터 손실 방지)](/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) 정책이 더는 사용되지 않습니다. [DLP를](dlp-learn-about-dlp.md)비롯한 훨씬 더 풍부한 DLP Exchange Online DLP는 Microsoft 365 규정 준수 [센터에서 제공됩니다.](https://compliance.microsoft.com/datalossprevention?viewid=policies) DLP 정책 마이그레이션 마법사를 사용하여 DLP 정책을 관리할 Exchange Online DLP 정책을 안내할 수 있습니다.
 
@@ -155,5 +155,5 @@ Get-DlpDetailReport -StartDate <dd/mm/yyyy> -EndDate <dd/mm/yyyy> -PageSize 5000
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md#learn-about-data-loss-prevention)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
-- [서식 파일에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
+- [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
 - [Exchange Online DLP(데이터 손실 방지) 정책](/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)

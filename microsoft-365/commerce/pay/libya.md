@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2f671a15581f8d5e85a3fbd5dbe4cbab27bd0ad2bf001568157f560870c1182d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2a15a77319f6e70d8f9c058bfb1c7031652f6050
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796757"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212672"
 ---
 # <a name="payment-information-for-libya"></a>리비아의 결제 정보
 

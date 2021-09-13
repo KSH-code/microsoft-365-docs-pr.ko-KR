@@ -1,5 +1,5 @@
 ---
-title: Outlook을 전자 메일로 설정
+title: 전자 메일용 Outlook 설정
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 전자 메일에 대한 Outlook 설정하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: ce6ec27043f363f0a4aecd0981e78f7b474e97776d766ecda8ac34a808c44b90
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9dc0ed41df4aaadee060e0c7606600ba5512df09
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809567"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212772"
 ---
 # <a name="set-up-outlook-for-microsoft-365-for-business-email"></a>비즈니스용 Microsoft 365용 Outlook 설정 
 

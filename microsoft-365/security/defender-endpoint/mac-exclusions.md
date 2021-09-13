@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: 96f7693e83bf4c3f4a1f14f39d99de55f7ef1979
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745028"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212182"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 제외 구성 및 유효성 검사
 
@@ -52,7 +52,7 @@ Mac 검사의 끝점용 Defender에서 특정 파일, 폴더, 프로세스 및 �
 
 다음 표에는 Mac의 끝점용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
-제외|정의|예
+제외|정의|예제
 ---|---|---
 파일 확장명|컴퓨터의 아무 곳이나 확장명을 통해 모든 파일|`.test`
 파일|전체 경로로 식별된 특정 파일|`/var/log/test.log` <p> `/var/log/*.log` <p> `/var/log/install.?.log`

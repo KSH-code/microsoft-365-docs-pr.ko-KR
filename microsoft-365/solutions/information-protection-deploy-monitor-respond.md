@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 감사 및 경고 정책 및 데이터 주체 요청을 사용하여 개인 데이터 인시던트 모니터링 및 대응
-ms.openlocfilehash: 225c0969f932490012a6cd54cb920cc59322ea9a8cea11c214a866ad58cecfca
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4070cd772d243bcfba33bfb164fd05e1f0911b3b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53804735"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213185"
 ---
 # <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>조직의 데이터 개인 정보 보호 인시던트 모니터링 및 대응
 

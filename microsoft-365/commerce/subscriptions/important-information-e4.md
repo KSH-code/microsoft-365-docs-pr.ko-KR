@@ -16,20 +16,21 @@ ms.collection:
 ms.custom:
 - customer-email
 - commerce_subscriptions
+- admindeeplinkMAC
 search.appverid: MET150
 description: E4 구독이 있는 고객의 요금제 업그레이드 또는 변경에 대한 Office 365 정보입니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 08/14/2020
-ms.openlocfilehash: 7f0230272005519528952c88bb8a5426688c386677013aa58a7e46ad3a25ca2f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b740c186c2f4b53043ecc8aa1fd5024d646069d0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53856070"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193538"
 ---
 # <a name="important-information-for-office-365-e4-customers"></a>E4 고객을 위한 Office 365 정보
 
-E4 Office 365 2015년에 사용 중지된 계획입니다. 전역 Microsoft 365 관리자인 경우 전자 메일 업데이트를 받고 메시지 센터(Microsoft 365 관리 센터의 일부)에서 조치를 취해야 하는 경우에 대한 정보가 있는 게시물을 볼 수 있습니다. [](https://go.microsoft.com/fwlink/p/?linkid=2024339)
+E4 Office 365 2015년에 사용 중지된 계획입니다. 전역 Microsoft 365 관리자인 경우 전자 메일 업데이트를 받고 작업 수행 <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank"></a> 시에 대한 정보가 있는 메시지 센터(Microsoft 365 관리 센터)에서 게시물을 볼 수 있습니다.
 
 ## <a name="compare-your-options-for-upgrading-or-changing-plans"></a>계획 업그레이드 또는 변경 옵션 비교
 

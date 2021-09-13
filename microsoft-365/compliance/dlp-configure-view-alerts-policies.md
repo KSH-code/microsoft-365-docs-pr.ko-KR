@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 정책에 대한 경고를 정의하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 75483989e18ab519aae7d8f5a0cd257b31c6aad33981b1d0ab6b7acda4293585
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ee04f6080edcde86dc39c7f4aa43130223fee8bf
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796134"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193012"
 ---
 # <a name="configure-and-view-alerts-for-data-loss-prevention-polices"></a>데이터 손실 방지에 대한 경고 구성 및 보기
 
@@ -43,7 +43,7 @@ DLP(데이터 손실 방지) 경찰은 중요한 항목의 의도치 않은 공�
     -   SharePoint
     -   OneDrive
     -   Teams
-    -   장치
+    -   디바이스
 -   **고급 경고 구성 옵션:** 이러한 옵션은 DLP 정책 제작 흐름의 일부입니다. 다양한 경고 구성을 만드는 데 사용할 수 있습니다. 이벤트 수 또는 유출된 데이터의 크기에 따라 단일 이벤트 경고 또는 집계된 경고를 만들 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에

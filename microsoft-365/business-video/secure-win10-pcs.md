@@ -15,17 +15,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 보안 정책을 통해 Windows 10 정책을 설정하는 방법을 Microsoft 365 Business Premium.
-ms.openlocfilehash: fe75bda2559c6c41b69f85864f7d945e3b9deaf672a91d82eab01ce55b0e9f92
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 23cef2de8a3c5b270ec40fcf67915545b5bdf52d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906878"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212812"
 ---
 # <a name="secure-windows-10-pcs"></a>Windows 10 PC 보안
 
@@ -35,7 +36,7 @@ ms.locfileid: "53906878"
 
 Microsoft 365 Business에서 장치 보호를 설정한 후 다음 단계에 따라 Windows 10 컴퓨터를 보호합니다.
 
-1. In the Microsoft 365 관리 센터, choose **Setup**.
+1. In the Microsoft 365 관리 센터, choose <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>.
 2. 컴퓨터 **Windows 보안에서** 보기를 **선택합니다.**
 3. 정책 및 정책이 사용자에게 **어떤 영향을 주는지** 이해하기 위해 Windows 10 컴퓨터 보안 페이지의 정보를 검토합니다.
 4. 시작 **을 선택합니다.**

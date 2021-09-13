@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b939463f072e976ee75eac98f4630b5e29c56c1d599ad03aeee8789a7368859c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 97b9d95638c205dd47453bf6ad09c0d0487f0f8e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894009"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212022"
 ---
 # <a name="better-together-microsoft-defender-antivirus-and-microsoft-defender-for-endpoint"></a>함께 활용: Microsoft Defender 바이러스 백신 및 Microsoft Defender for Endpoint
 
@@ -49,7 +49,7 @@ Microsoft Defender for Endpoint에서 Microsoft가 아닌 바이러스 백신 �
 |8 |감사 이벤트 |감사 이벤트 신호는 끝점 검색 및 응답 [기능에서 사용할 수 있습니다.](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) Microsoft가 아닌 바이러스 백신 솔루션에서는 이러한 신호를 사용할 수 없습니다. |
 |9 |지리적 데이터 |ISO 270001 및 데이터 보존을 준수하는 지리적 데이터는 조직에서 선택한 지리적 주권에 따라 제공됩니다. 규정 [준수 제품: ISO/IEC 27001:2013 정보 보안 관리 표준을 참조하세요.](/microsoft-365/compliance/offering-iso-27001) |
 |10 |파일을 통한 파일 OneDrive |를 Microsoft Defender 바이러스 백신 및 Office 365 랜섬웨어에 의해 공격을 하는 경우 파일이 보호되어 복구할 수 있습니다. [](/Office365/Enterprise) [OneDrive 파일 복원 및 Windows Defender 랜섬웨어](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/OneDrive-Files-Restore-and-Windows-Defender-takes-ransomware/ba-p/188001)보호를 한 단계 더 진행합니다.|
-|11|기술 지원 |Microsoft Defender for Endpoint를 Microsoft Defender 바이러스 백신 기술 지원을 문의할 한 회사가 있습니다. [에서 서비스 문제를](/microsoft-365/security/defender-endpoint/troubleshoot-mde) 해결하고 이벤트 로그 및 오류 코드를 [Microsoft Defender 바이러스 백신.](troubleshoot-microsoft-defender-antivirus.md) |
+|11 |기술 지원 |Microsoft Defender for Endpoint를 Microsoft Defender 바이러스 백신 기술 지원을 문의할 한 회사가 있습니다. [에서 서비스 문제를](/microsoft-365/security/defender-endpoint/troubleshoot-mde) 해결하고 이벤트 로그 및 오류 코드를 [Microsoft Defender 바이러스 백신.](troubleshoot-microsoft-defender-antivirus.md) |
 
 
 ## <a name="learn-more"></a>자세한 정보

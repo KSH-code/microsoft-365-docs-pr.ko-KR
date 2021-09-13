@@ -15,11 +15,11 @@ ms.custom:
 - AdminSurgePortfolio
 description: 조직에 참가할 Microsoft 365 Business Standard 초대
 ms.openlocfilehash: 8b344ee324063dd2694c04e25a4e8549b987ba2a
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866977"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213105"
 ---
 # <a name="invite-users-to-microsoft-365-business-standard-admin"></a>사용자 초대를 Microsoft 365 Business Standard(관리자)
 
@@ -32,7 +32,7 @@ Microsoft 365 Business Standard 구독의 관리자는 동료 및 동료를 초�
 - Microsoft에서 언제든지 전화 및 웹 지원을 받을 수 있습니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Microsoft 365 등록하는 사용자(일반적으로 비즈니스 소유자)는 자동으로 조직의 기술 관리자가 됩니다. 사용자 서비스 관리에 도움이 필요한 경우 관리자로 다른 Microsoft 365 있습니다. 자세한 내용은 [관리자 추가를](../../business-video/add-admin.md) 참조하세요.
+> 비즈니스용 Microsoft 365에 등록하는 사용자(일반적으로 비즈니스 소유자)은 자동으로 조직의 기술 관리자가 됩니다. Microsoft 365 서비스 관리에 도움이 필요한 경우 다른 사용자를 관리자로 추가할 수 있습니다. 자세한 내용은 [관리자 추가](../../business-video/add-admin.md)를 확인하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -86,6 +86,6 @@ Microsoft 365 Business 구독의 일부로 Microsoft 클라우드에 저장된 �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 Business Standard 설정](../setup/setup-business-standard.md)
+[Microsoft 365 비즈니스 표준 설정](../setup/setup-business-standard.md)
 
 [초대 수락(Microsoft 365 Business Standard)](user-invite-business-standard.md)

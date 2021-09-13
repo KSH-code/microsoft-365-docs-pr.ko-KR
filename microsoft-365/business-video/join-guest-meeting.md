@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 게스트와 모임에 참가하는 Teams 방법을 배워야 할 수 있습니다.
-ms.openlocfilehash: 6ebbd88e47423e12f5a1e118e274c1a8d24db9e30ab9c69ad4b23ee435bf547b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 781e1aa242270588ba50a025ca0dd71c06354ad0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843542"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191849"
 ---
 # <a name="join-a-teams-meeting-with-guests"></a>게스트와 Teams 모임 참가
 

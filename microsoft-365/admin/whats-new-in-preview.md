@@ -22,12 +22,12 @@ ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대해 자세히 알아보는 방법을 제공합니다.
-ms.openlocfilehash: aa94686b728eabd6da3577f0f44856039ab8288c
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.openlocfilehash: dbc907ac66bcc1741ceb92602b7b3062de043f6b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866682"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212912"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>새로운 Microsoft 365 관리 센터
 
@@ -55,7 +55,7 @@ We're continuously adding new features to [the](../business-video/admin-center-o
 
 ### <a name="microsoft-365-admin-center-search"></a>Microsoft 365 관리 센터 검색
 
-이제 에서 인시던트 ID를 검색할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank">수 Microsoft 365 관리 센터.</a> 소셜 미디어, 산업 발행물 또는 다른 관리자의 현재 인시던트에 대해 학습할 수 있습니다. 이제 관리 센터로 이동하여 인시던트에 대한 자세한 정보를 보고 조직에 미치는 영향을 이해할 수 있습니다. 관리 센터에서 문제 ID를 검색하기만 합니다.
+이제 에서 인시던트 ID를 검색할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2091030" target="_blank">수 Microsoft 365 관리 센터.</a> 소셜 미디어, 산업 발행물 또는 다른 관리자의 현재 인시던트에 대해 학습할 수 있습니다. 이제 관리 센터로 이동하여 인시던트에 대한 자세한 정보를 보고 조직에 미치는 영향을 이해할 수 있습니다. 관리 센터에서 문제 ID를 검색하기만 합니다.
 
 :::image type="content" source="../media/incident-id.png" alt-text="Screenshot: Searching for incident ID in the admin center":::
 

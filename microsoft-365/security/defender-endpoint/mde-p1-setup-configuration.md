@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.openlocfilehash: e5f62a59b66db83b5c9d191d2f7496b280abbc18
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58824100"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213672"
 ---
 # <a name="set-up-and-configure-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1에 대한 Microsoft Defender 설정 및 구성(미리 보기)
 
@@ -53,7 +53,7 @@ Endpoint Plan 1(미리 보기)에 대한 일반적인 설치 및 구성 프로�
 
 | 요구 사항 | 설명 |
 |:---|:---|
-| 라이선스 요구사항 | Endpoint 요금제 1용 Defender(미리 보기) <br/><br/>*미리 보기 Microsoft 365 E3 미리 보기 프로그램에 참가할 수 있습니다.* |
+| 라이선스 요구사항 | 엔드포인드용 Defender 플랜 1(미리 보기) <br/><br/>*미리 보기 Microsoft 365 E3 미리 보기 프로그램에 참가할 수 있습니다.* |
 | 브라우저 요구 사항 | Microsoft Edge <br/> Internet Explorer 버전 11 <br/> Google Chrome |
 | 운영 체제 | Windows 10 버전 1709 이상 <br/>macOS: 11.5(큰 수르), 10.15.7(카탈로니아) 또는 10.14.6(모자베) <br/>iOS <br/>Android OS  |
 | Datacenter | 다음 데이터 센터 위치 중 하나: <br/>- 유럽 연합 <br/>- 영국 <br/>- 미국 |
@@ -63,7 +63,7 @@ Endpoint Plan 1(미리 보기)에 대한 일반적인 설치 및 구성 프로�
 
 배포를 계획할 때 여러 가지 아키텍처 및 배포 방법 중 선택할 수 있습니다. 조직마다 고유하기 때문에 다음 표에 나와 있는 몇 가지 옵션을 고려해야 합니다. <br/><br/>
 
-| 메서드 | 설명 |
+| 방법 | 설명 |
 |:---|:---|
 | [Microsoft Intune(Microsoft Endpoint Manager)](/mem/intune/fundamentals/what-is-intune) | Intune을 사용하여 클라우드 기본 환경에서 끝점 관리 |
 | [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) [및 Configuration Manager(Microsoft Endpoint Manager)](/mem/configmgr/core/understand/introduction) | Intune 및 Configuration Manager를 사용하여 사내 및 클라우드 환경에 걸쳐 있는 끝점 및 워크로드 관리 |
@@ -119,7 +119,7 @@ Microsoft 365 Defender 포털에 액세스하거나 끝점에 대한 Defender �
 
 |끝점 운영 체제 | 온보더링 방법|
 |---|---|
-| Windows 10 | [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)  |
+| Windows 10 | [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)  |
 | macOS | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
 | iOS |[앱 기반](ios-install.md) |
 | Android | [Microsoft Endpoint Manager ](android-intune.md) |
@@ -227,7 +227,7 @@ Microsoft 365 Defender 포털에 액세스하거나 끝점에 대한 Defender �
 
 9. 검토 **+ 만들기 탭에서** 정책의 설정을 검토한 다음 만들기 를 **선택합니다.** 정책은 곧 끝점용 Defender에 온보딩된 모든 끝점에 적용됩니다.
 
-### <a name="device-control"></a>디바이스 컨트롤
+### <a name="device-control"></a>장치 제어
 
 이동식 장치에서 이동식 장치 및 파일을 차단하거나 허용하도록 끝점에 대한 Defender를 구성할 수 있습니다. 디바이스 제어 Microsoft Endpoint Manager 구성하는 것이 좋습니다.
 

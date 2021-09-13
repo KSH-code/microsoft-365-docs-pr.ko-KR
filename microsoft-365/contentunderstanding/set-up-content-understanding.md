@@ -10,26 +10,27 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
+ms.custom: admindeeplinkMAC
 search.appverid: MET150
 localization_priority: Priority
 description: SharePoint Syntex 설정
-ms.openlocfilehash: 3b03b36e58b9f5cbb97a967be941fc43285892fd
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 2f77176e2bfd90b4f912379b3b2dcf15b62c7cf4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58552891"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187988"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
-관리자는 Microsoft 365 관리 센터를 사용하여 [Microsoft SharePoint Syntex](index.md)를 설정할 수 있습니다. 
+관리자는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>를 사용하여 [Microsoft SharePoint Syntex](index.md)를 설정할 수 있습니다. 
 
 시작하기 전에 다음을 고려해야 합니다.
 
 - 양식 처리를 사용하도록 설정할 SharePoint 사이트는 무엇인가요? 전부요, 일부인가요, 아니면 특정 사이트인가요?
 - 기본 콘텐츠 센터의 이름을 무엇으로 지정하시겠어요?
 
-Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있습니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 초기 설정 후 설정을 변경할 수 있습니다.
 
 설정하기 전에 사용자 환경에서 컨텐츠 이해도를 설정하고 구성하는 최선의 방법을 계획해야 합니다. 예를 들어 다음과 같은 결정을 내려야 합니다.
 
@@ -41,7 +42,7 @@ Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있�
 > [!NOTE]
 > Microsoft 365 관리 센터에 액세스하고 SharePoint Syntex를 설정하려면 글로벌 관리자 또는 SharePoint 관리자 권한이 있어야 합니다.
 
-관리자는 Microsoft 365 관리 센터의 콘텐츠 이해 관리 설정 전반에 걸쳐 설정 후 언제든지 선택한 설정을 변경할 수도 있습니다.
+관리자는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>의 콘텐츠 이해 관리 설정 전반에 걸쳐 설정 후 언제든지 선택한 설정을 변경할 수도 있습니다.
 
 사용자 지정 Power Platform 환경을 사용하고자 계획한다면 이 환경에서 *Project Cortex용 AI Builder* 앱을 [설치하고](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view) [AI Builder 크레딧](/power-platform/admin/capacity-add-on)을 할당해야 양식 처리 모델을 만들 수 있습니다.
 
@@ -55,9 +56,11 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
 
 양식 처리를 사용하려면 AI Builder 크레딧도 필요합니다. 라이선스 사용자가 300명 이상인 경우 매월 AI Builder 크레딧이 할당됩니다.
 
+SharePoint Syntex 라이선스에 대한 자세한 내용은 [SharePoint Syntex 라이선싱](syntex-licensing.md)을 참조하세요.
+
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex를 설정하려면 다음을 수행합니다.
 
-1. Microsoft365 관리 센터에서 **설정** 을 선택하고 **파일 및 콘텐츠** 섹션을 선택합니다.
+1. Microsoft365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**설정**</a>을 선택하고 **파일 및 콘텐츠** 섹션을 선택합니다.
 
 2. **파일 및 콘텐츠** 섹션에서 **콘텐츠 이해 자동화** 를 선택합니다. 현재 AI Builder 크레딧의 상태는 **한눈에 보기** 섹션에 표시됩니다.<br/>
 
@@ -112,7 +115,7 @@ SharePoint Syntex를 구성한 후에는 SharePoint Syntex 기능을 사용할 �
 
 라이선스를 할당하려면 다음을 수행합니다.
 
-1. Microsoft 365 관리 센터의 **사용자** 아래에서 **활성 사용자** 를 클릭합니다.
+1. Microsoft 365 관리 센터의 **사용자** 아래에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**활성 사용자**</a>를 선택합니다.
 
 2. 라이선스를 부여할 사용자를 선택하고 **제품 라이선스 관리** 를 선택합니다.
 

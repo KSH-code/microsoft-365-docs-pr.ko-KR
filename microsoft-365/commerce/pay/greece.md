@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0625db97a30b3232e6bf0df556c42b4229477443ef6d46de4b12161e52450963
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c873131098320253dbf3558c6213168cfca3b6e9
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53852394"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191772"
 ---
 # <a name="payment-information-for-greece"></a>그리스의 결제 정보
 

@@ -12,12 +12,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키에 대한 고객 키를 설정하는 Microsoft 365.
-ms.openlocfilehash: 2db1aff638818fea18a55e331093fcd26ca30071995447ca817234f450798047
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e187c01a355cc9b926e892cb3326b5a527c714a4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796289"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212675"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -42,7 +42,7 @@ Office 365 E5, Microsoft 365 E5, Microsoft 365 E5 Compliance 및 Microsoft 365 E
 
 고객 키를 설정하기 위해 나열된 순서대로 이러한 작업을 완료합니다. 이 문서의 나머지에서는 각 작업에 대한 자세한 지침을 제공하거나 프로세스의 각 단계에 대한 추가 정보로 연결됩니다.
   
-**Azure 및 Microsoft FastTrack에서:**
+**Azure 및 Microsoft FastTrack:**
   
 원격으로 연결하여 이러한 작업의 대부분을 완료할 Azure PowerShell. 최상의 결과를 얻기 위해 버전 4.4.0 이상을 Azure PowerShell.
   
@@ -70,7 +70,7 @@ Office 365 E5, Microsoft 365 E5, Microsoft 365 E5 Compliance 및 Microsoft 365 E
 
 - [각 Azure Key Vault 키에 대한 URI 얻기](#obtain-the-uri-for-each-azure-key-vault-key)
   
-## <a name="complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key"></a>Azure Key Vault 및 고객용 Microsoft FastTrack에서 작업 완료
+## <a name="complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key"></a>Azure Key Vault 및 Microsoft FastTrack 고객 키에 대한 작업 완료
 
 Azure Key Vault에서 이러한 작업을 완료합니다. 고객 키와 함께 사용하는 모든 DEP에 대해 이러한 단계를 완료해야 합니다.
   
@@ -87,11 +87,11 @@ Azure Key Vault에서 이러한 작업을 완료합니다. 고객 키와 함께 
 
 두 개의 새 Azure 구독을 만든 후 Microsoft FastTrack 포털에서 적절한 고객 키 제품 요청을 [제출해야 합니다.](https://fasttrack.microsoft.com/) 조직 내에서 승인된 지정에 대한 제안 양식에서 선택한 것은 고객 키 등록을 완료하는 데 중요하고 필요합니다. 조직 내에서 선택한 역할의 담당자는 고객 키 데이터 암호화 정책에 사용되는 모든 키를 해지하고 삭제하기 위한 모든 요청의 인증을 보장합니다. 조직에 사용하려는 각 고객 키 DEP 유형에 대해 이 단계를 한 번씩 해야 합니다.
 
-**FastTrack 팀은 고객 키에 대한 지원을 제공하지 않습니다. Office 365 FastTrack 포털을 사용하여 양식을 제출하고 고객 키에 대한 관련 제안을 추적하는 데 도움이 됩니다. FastTrack 요청을 제출한 후 해당 고객 키 온보드 팀에 문의하여 온보더링 프로세스를 시작하십시오.**
+**FastTrack 팀에서는 고객 키에 대한 지원을 제공하지 않습니다. Office 365 양식을 제출하고 고객 키에 대한 관련 제품 추적을 지원하기 위해 FastTrack 포털을 사용하면 됩니다. 요청이 제출된 FastTrack 해당 고객 키 온보드 팀에 문의하여 온보더링 프로세스를 시작하십시오.**
   
 고객 키를 활성화하기 위한 제안을 제출하려면 다음 단계를 완료합니다.
   
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 [Microsoft FastTrack](https://fasttrack.microsoft.com/)포털에 로그인합니다.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Microsoft FastTrack [포털에 로그인합니다.](https://fasttrack.microsoft.com/)
 
 2. 로그인한 후 적절한 도메인을 선택합니다.
 
@@ -195,7 +195,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예를 들어 다음과 같은 가치를 제공해야 합니다.
+   예시:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -320,7 +320,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름과 키 이름을 조합하여 선택하십시오. 이렇게 하면 파일 이름이 자체 설명으로 지정됩니다. 또한 백업 파일 이름이 충돌하지 않도록 합니다.
   
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-CK-EX-NA-VaultA1 -Name Contoso-CK-EX-NA-VaultA1-Key001 -OutputFile Contoso-CK-EX-NA-VaultA1-Key001-Backup-20170802.backup

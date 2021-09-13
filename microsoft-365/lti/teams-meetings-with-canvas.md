@@ -14,11 +14,11 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 캔버스 Microsoft Teams 통합
 ms.openlocfilehash: dfa9bf10400900f879c806d6ea44bdb9b4b67a9c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574655"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212465"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Canvas에서 Microsoft Teams 모임 사용
 

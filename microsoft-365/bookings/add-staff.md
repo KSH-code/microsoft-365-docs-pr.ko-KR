@@ -9,11 +9,11 @@ ms.service: bookings
 localization_priority: Normal
 description: 이 페이지를 사용하여 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리할 수 있습니다.
 ms.openlocfilehash: 3b61c2f3e5597208ace2a87a7d203e8d724e4f5f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573346"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212915"
 ---
 # <a name="add-staff-to-bookings"></a>Bookings에 직원 추가
 

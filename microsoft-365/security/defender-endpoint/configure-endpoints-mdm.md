@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: 145a22d0fdc37072f6f3047d3694e770bf9fb01a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568339"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212312"
 ---
 # <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>모바일 Windows 10 관리 도구를 사용하여 디바이스 온보드
 

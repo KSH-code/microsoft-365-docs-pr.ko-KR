@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f28dfdfe006961fc96d59c76ed9723c7e599d003
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 3916217467892a46fd8a2534a7852b928d2b5215
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575807"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212225"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
@@ -73,11 +73,11 @@ iOS/iPadOS의 APP(App Protection Policies, MAM)에서 사용할 위협 신호를
 
 끝점용 Microsoft Defender를 통해 앱 보호 정책을 설정하는 단계는 아래와 같습니다.
 
-1. 테넌트에서 끝점용 Microsoft Defender로의 Microsoft Endpoint Manager 연결을 설정합니다. [Microsoft 끝점](https://go.microsoft.com/fwlink/?linkid=2109431)관리자 관리 센터에서 테넌트 관리 커넥터 및 끝점용 Microsoft Defender(플랫폼 간) 또는 끝점용 Microsoft Defender 보안   >    >  Microsoft **Defender(설치** 아래)로 이동한 다음  >   **iOS용** 앱 보호 정책 설정 에서 토글을 켜야 합니다.
+1. 테넌트에서 끝점용 Microsoft Defender로의 Microsoft Endpoint Manager 연결을 설정합니다. [Microsoft 끝점](https://go.microsoft.com/fwlink/?linkid=2109431)관리자 관리 센터에서 테넌트 관리 커넥터 및 끝점용 Microsoft Defender(플랫폼 간) 또는 끝점용 Microsoft Defender 보안  \>  \>  Microsoft **Defender(설치** 아래)로 이동한 다음 \>  **iOS용** 앱 보호 정책 설정 에서 토글을 켜야 합니다.
 1. 저장을 선택합니다. 이제 **연결** 상태가 사용으로 설정되어 **있습니다.**
-1. 앱 보호 정책 만들기: 끝점 커넥터에 대한 Microsoft Defender 설정이 완료되면 앱 앱 보호 정책(정책 아래)으로 이동하여 새 정책을 만들거나 기존 정책을   >   업데이트합니다.
+1. 앱 보호 정책 만들기: 끝점 커넥터에 대한 Microsoft Defender 설정이 완료되면 앱 앱 보호 정책(정책 아래)으로 이동하여 새 정책을 만들거나 기존 정책을  \>  업데이트합니다.
 1. 조직에서 정책에 필요한 플랫폼, **앱, 데이터** 보호, 액세스 요구 사항 설정을 선택합니다.
-1. 조건부 **시작**  >  **장치 조건에서** 허용되는 장치 위협 수준 **최대 설정을 찾을 수 있습니다.** 낮음, 중간, 높음 또는 보안으로 구성해야 합니다. 사용할 수 있는 작업은  액세스 차단 또는 데이터 **지우기 입니다.** 이 설정이 적용하기 전에 커넥터를 설정해야 하는 정보 대화 상자가 표시될 수 있습니다. 커넥터가 이미 설정되어 있는 경우 이 대화 상자를 무시할 수 있습니다.
+1. 조건부 **시작** \> **장치 조건에서** 허용되는 장치 위협 수준 **최대 설정을 찾을 수 있습니다.** 낮음, 중간, 높음 또는 보안으로 구성해야 합니다. 사용할 수 있는 작업은  액세스 차단 또는 데이터 **지우기 입니다.** 이 설정이 적용하기 전에 커넥터를 설정해야 하는 정보 대화 상자가 표시될 수 있습니다. 커넥터가 이미 설정되어 있는 경우 이 대화 상자를 무시할 수 있습니다.
 1. 할당을 완료하고 정책을 저장합니다.
 
 MAM 또는 앱 보호 정책에 대한 자세한 내용은 iOS 앱 보호 정책 설정을 [참조하세요.](/mem/intune/apps/app-protection-policy-settings-ios)

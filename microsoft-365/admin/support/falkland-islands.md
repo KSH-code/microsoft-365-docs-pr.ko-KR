@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 666c849253b23eaa0ad76b469887b4fc16bd842ab0ec7d1a9b62b5c840859da5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6733a4592d170be58dcbe4218d0cfb2b1ece2b38
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53883136"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192062"
 ---
 # <a name="contact-support-for-falkland-islands"></a>포클랜드 제도 지원에 문의
 

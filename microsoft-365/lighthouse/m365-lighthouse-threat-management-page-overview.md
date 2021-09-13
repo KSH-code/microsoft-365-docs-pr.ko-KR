@@ -17,11 +17,11 @@ ms.custom:
 search.appverid: MET150
 description: 서비스를 사용하는 MSP(관리 서비스 공급자)Microsoft 365 Lighthouse 위협 관리 페이지에 대해 자세히 알아보십시오.
 ms.openlocfilehash: f9ed274b295b40f9784a193a02dad925462a6e9e
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365012"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212482"
 ---
 # <a name="microsoft-365-lighthouse-threat-management-page-overview"></a>Microsoft 365 Lighthouse 위협 관리 페이지 개요 
 
@@ -30,7 +30,7 @@ ms.locfileid: "58365012"
 
 **적용 대상:**
 
-- Windows 10
+- Windows 10
 
 Microsoft Defender 바이러스 백신 바이러스, 맬웨어 및 스파이웨어를 비롯한 소프트웨어 위협으로부터 테넌트, 사용자 및 장치를 보호합니다. 이 구성은 기본 제공되고 Windows 10 포함된 강력하고 지속적인 Microsoft 365 Business Premium.  
   

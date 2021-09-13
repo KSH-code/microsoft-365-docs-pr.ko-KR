@@ -19,11 +19,11 @@ ms.custom:
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: PowerShell을 사용하여 그룹에서 구성원을 유지 관리하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: 0a66db0748c50d296ff9d26969ae8b3caa7f310f
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356699"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212572"
 ---
 # <a name="maintain-security-group-membership-with-powershell"></a>PowerShell을 통해 보안 그룹 구성원 유지 관리
 

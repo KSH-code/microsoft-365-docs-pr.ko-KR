@@ -18,11 +18,11 @@ ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
 ms.openlocfilehash: 4bd6726550e444ffc31e241b8fb5c52c9967a267
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570668"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212315"
 ---
 # <a name="onboard-the-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드
 
@@ -148,7 +148,7 @@ Microsoft MAPS에 가입|사용, 고급 지도
 
 정책|설정
 ---|---
-실시간 보호 끄기|사용 안 함
+실시간 보호 끄기|Disabled
 동작 모니터링 켜기|사용
 다운로드한 모든 파일 및 첨부 파일 검색|사용
 컴퓨터에서 파일 및 프로그램 활동 모니터링|사용

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2c54234b2eb655cc9f0c032b7085ac387d0dc2a85e141ea1bd53a49b8419ed4e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4180b57ac053fffe3ea1b7ac584799c65c94ea95
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53889202"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213375"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>제로 데이 취약성 완화 - 위협 및 취약성 관리
 
@@ -111,7 +111,7 @@ ms.locfileid: "53889202"
 ## <a name="related-articles"></a>관련 문서
 
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
-- [Dashboard](tvm-dashboard-insights.md)
+- [대시보드](tvm-dashboard-insights.md)
 - [보안 권장 사항](tvm-security-recommendation.md)
 - [소프트웨어 인벤토리](tvm-software-inventory.md)
 - [내 조직의 취약성](tvm-weaknesses.md)

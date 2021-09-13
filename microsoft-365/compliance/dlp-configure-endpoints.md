@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 센서 데이터를 Windows 10 준수 솔루션으로 보낼 수 있도록 장치 온보드 Microsoft 365 있습니다.
-ms.openlocfilehash: ac2cbf41d77960338885a98ffddc707618988848c6be8cc7ef4cb911da50a40d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 676fb3a7ffcae8d108fd9b7fabe61bb78b7e1744
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895310"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193039"
 ---
 # <a name="onboarding-tools-and-methods-for-windows-10-devices"></a>Windows 10 장치용 온보딩 도구 및 방법
 

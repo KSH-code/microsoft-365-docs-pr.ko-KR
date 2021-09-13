@@ -20,11 +20,11 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.technology: mde
 ms.openlocfilehash: 7d9dad6b2f2f1b37525faf0a4a90d143650c49d1
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570368"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212372"
 ---
 # <a name="behavioral-blocking-and-containment"></a>동작 차단 및 제약
 

@@ -18,11 +18,11 @@ ms.custom: nextgen
 ms.technology: mde
 ms.date: 07/27/2021
 ms.openlocfilehash: e8388721d11d25d17bc8b8bbbe505e968d243c9f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575795"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213482"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -50,7 +50,7 @@ ms.locfileid: "58575795"
 - 클라우드 제공 보호를 사용 안 하게
 - 보안 인텔리전스 업데이트 제거
 
-### <a name="how-it-works"></a>작동 방법
+### <a name="how-it-works"></a>작업 방법
 
 변조 방지는 기본적으로 Microsoft Defender 바이러스 백신 기본값으로 잠그고, 다음과 같은 앱과 방법을 통해 보안 설정이 변경되지 않도록 합니다.
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4bf668379edccff3e85fdeece6cfdcf7482ac8a5a9910cc5a8cf8629463db26c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 00c02bad3f95d2bd8def69d5dd6ad8e1c2e857df
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53884538"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213365"
 ---
 # <a name="update-alert"></a>업데이트 경고
 
@@ -49,7 +49,7 @@ ms.locfileid: "53884538"
 1. API에서 사용할 수 있는 경고를 업데이트할 수 있습니다. 자세한 [내용은 목록 경고를](get-alerts.md) 참조하세요.
 2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -91,7 +91,7 @@ status|String|경고의 현재 상태를 지정합니다. 속성 값은 'New', '
 assignedTo|String|경고의 소유자
 classification|String|경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다.
 determination|String|경고 결정 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-comment|String|경고에 추가할 설명입니다.
+comment|문자열|경고에 추가할 설명입니다.
 
 ## <a name="response"></a>응답
 

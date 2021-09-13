@@ -17,11 +17,11 @@ manager: dansimp
 ms.technology: mde
 ms.date: 08/11/2021
 ms.openlocfilehash: be816488ebe930da2f757ed192a12d81c0a222ef
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823759"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213605"
 ---
 # <a name="microsoft-defender-antivirus-compatibility-with-other-security-products"></a>Microsoft Defender 바이러스 백신 제품과의 호환성
 
@@ -52,8 +52,8 @@ Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션이 사
 
 |Windows 버전|기본 바이러스 백신/맬웨어 방지 솔루션|Microsoft Defender 바이러스 백신 상태|
 |---|---|---|---|
-|Windows 10|Windows Defender 바이러스 백신|활성 모드|
-|Windows 10|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|비활성화 모드(자동으로 발생)|
+|Windows 10|Windows Defender 바이러스 백신|활성 모드|
+|Windows 10|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|비활성화 모드(자동으로 발생)|
 |Windows Server 2016 <p> Windows 서버, 버전 1803 이상 <p> Windows Server 2019|Windows Defender 바이러스 백신|활성 모드|
 |Windows Server 2016 <p> Windows 서버, 버전 1803 이상 <p> Windows Server 2019|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|사용 안 하게(수동으로 설정) <sup> [[1](#fn1)]<sup></sup>|
 
@@ -143,7 +143,7 @@ Endpoint용 Defender는 수동 Microsoft Defender 바이러스 백신 수 있는
 
 ****
 
-|메서드|절차|
+|방법|절차|
 |---|---|
 |Windows 보안 앱|<ol><li>Windows 디바이스에서 Windows 보안 를 니다.</li><li>**바이러스 및 위협 방지** 를 선택합니다.</li><li>Under **Who's protecting me?** select **Manage providers**.</li><li>보안 공급자 **페이지의** 바이러스 백신 **아래에서** 을(를) Microsoft Defender 바이러스 백신 **표시됩니다.**</li></ol>|
 |작업 관리자|<ol><li>사용자 Windows 작업 관리자 앱을 여는 경우</li><li>세부 **정보 탭을** 선택합니다.</li><li>목록에서 **MsMpEng.exe** 찾아야 합니다.</li></ol>|
@@ -164,7 +164,7 @@ Endpoint용 Defender는 수동 Microsoft Defender 바이러스 백신 수 있는
 |---|---|
 |활성 모드|활성 모드에서는 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용됩니다. 설정, 그룹 정책, Microsoft Intune 또는 기타 관리 제품을 사용하여 구성한 정책이 적용됩니다. 파일을 검색하고 위협을 해결하며 구성 도구(예: 구성 관리자 또는 끝점 자체의 Microsoft Defender 바이러스 백신 앱)에 검색 정보가 보고됩니다.|
 |수동 모드|수동 모드에서는 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용되지 않을  뿐만 아니라 위협이 제거되지 Microsoft Defender 바이러스 백신. 그러나 차단 모드에서 끝점 감지 및 [대응(EDR)을](edr-in-block-mode.md)통해 위협을 해결할 수 있습니다. <p> 파일을 검사하고 끝점용 Defender 서비스와 공유되는 위협 감지에 대한 보고서가 제공됩니다. 보안 센터에서 수동 [](microsoft-defender-security-center.md) 모드에 있는 경우에도 Microsoft Defender 바이러스 백신 경고가 표시될 Microsoft Defender 바이러스 백신 있습니다. <p> 수동 Microsoft Defender 바이러스 백신 경우 에 대한 업데이트를 관리할 [Microsoft Defender 바이러스 백신.](manage-updates-baselines-microsoft-defender-antivirus.md) 그러나 장치에 맬웨어로부터 실시간 보호를 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 제품이 있는 경우 활성 모드로 전환할 수 없습니다. <p> 보안 계층 방어 및 검색 기능을 최적화하기 위해 수동 모드에서 실행 중인 경우에도 바이러스 백신 및 Microsoft Defender 바이러스 백신 업데이트를 다운로드해야 합니다. 자세한 [내용은 Microsoft Defender 바이러스 백신 관리 및 기준 적용을 참조하세요.](manage-updates-baselines-microsoft-defender-antivirus.md) <p> **참고:** 수동 모드는 수동 모드에서 지원되지 Windows Server 2016.|
-|사용 안 함 <p> 또는 <p> 제거|사용하지 않도록 설정하거나 제거하면 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용되지 않습니다. 파일을 검사하지 않은 경우 위협이 해결되지 않습니다. <p> 일반적으로 Microsoft Defender 바이러스 백신 사용 안 하게 또는 Microsoft Defender 바이러스 백신 권장되지 않습니다. 가능하면 microsoft가 아닌 Microsoft Defender 바이러스 백신/바이러스 백신 솔루션을 사용하는 경우 수동 모드로 유지하세요. <p> 자동 Microsoft Defender 바이러스 백신 사용하지 않도록 설정된 경우 Microsoft가 아닌 바이러스 백신/맬웨어 방지 제품이 만료되거나 바이러스, 맬웨어 또는 기타 위협으로부터 실시간 보호를 제공하는 것을 중지하는 경우 자동으로 다시 활성화할 수 있습니다. 자동 다시 사용하도록 설정하면 Microsoft Defender 바이러스 백신 끝점에서 바이러스 백신 보호가 유지 관리됩니다. <p> 또한 Microsoft가 [](limited-periodic-scanning-microsoft-defender-antivirus.md)아닌 바이러스 백신 앱을 사용하는 경우 Microsoft Defender 바이러스 백신 엔진에서 작동하는 제한된 주기적 검사 를 사용하여 위협을 주기적으로 확인할 수 있습니다.|
+|Disabled <p> 또는 <p> 제거|사용하지 않도록 설정하거나 제거하면 Microsoft Defender 바이러스 백신 바이러스 백신 앱으로 사용되지 않습니다. 파일을 검사하지 않은 경우 위협이 해결되지 않습니다. <p> 일반적으로 Microsoft Defender 바이러스 백신 사용 안 하게 또는 Microsoft Defender 바이러스 백신 권장되지 않습니다. 가능하면 microsoft가 아닌 Microsoft Defender 바이러스 백신/바이러스 백신 솔루션을 사용하는 경우 수동 모드로 유지하세요. <p> 자동 Microsoft Defender 바이러스 백신 사용하지 않도록 설정된 경우 Microsoft가 아닌 바이러스 백신/맬웨어 방지 제품이 만료되거나 바이러스, 맬웨어 또는 기타 위협으로부터 실시간 보호를 제공하는 것을 중지하는 경우 자동으로 다시 활성화할 수 있습니다. 자동 다시 사용하도록 설정하면 Microsoft Defender 바이러스 백신 끝점에서 바이러스 백신 보호가 유지 관리됩니다. <p> 또한 Microsoft가 [](limited-periodic-scanning-microsoft-defender-antivirus.md)아닌 바이러스 백신 앱을 사용하는 경우 Microsoft Defender 바이러스 백신 엔진에서 작동하는 제한된 주기적 검사 를 사용하여 위협을 주기적으로 확인할 수 있습니다.|
 |||
 
 ## <a name="see-also"></a>참고 항목

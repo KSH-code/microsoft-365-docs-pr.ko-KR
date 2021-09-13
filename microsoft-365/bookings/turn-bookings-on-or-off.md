@@ -6,15 +6,16 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
+ms.custom: admindeeplinkMAC
 localization_priority: Normal
 ms.assetid: 5382dc07-aaa5-45c9-8767-502333b214ce
 description: Microsoft Bookings에서 Microsoft Bookings에 액세스하는 방법을 Microsoft 365.
-ms.openlocfilehash: cc0352166bf7cd20cfa10542d57da9fbd5b160f7
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.openlocfilehash: a5c5e0bbac10352d3e526bbde88db66e6a253e28
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823820"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212875"
 ---
 # <a name="turn-microsoft-bookings-on-or-off"></a>Microsoft Bookings 설정 또는 해제
 
@@ -27,7 +28,7 @@ ms.locfileid: "58823820"
 
 1. 전역 관리자로 Microsoft 365 관리 센터 로그인합니다.
 
-2. 관리 센터에서 설정  ****   \> **또는 설정** **예약을 선택합니다.**
+2. 관리 센터에서 설정  ****   \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**설정으로 이동합니다.**</a>
 
 3. 조직에서 **Bookings를 사용하여 조직에 Bookings를** 사용하도록 설정하거나 사용하지 않도록 설정하려면 확인란을 선택합니다.
 
@@ -48,7 +49,7 @@ PowerShell cmdlet [Set-OrganizationConfig를](/powershell/module/exchange/set-or
 
 개별 사용자에 대해 Bookings를 사용하지 않도록 설정할 수 있습니다.
 
-1. 이동하여 Microsoft 365 관리 센터 활성 사용자를  \> **선택합니다.**
+1. 이동하여 Microsoft 365 관리 센터 활성 사용자를  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**선택합니다.**</a>
 
 1. 원하는 사용자를 선택한 다음 라이선스 및 **앱을 선택합니다.**
 
@@ -56,13 +57,13 @@ PowerShell cmdlet [Set-OrganizationConfig를](/powershell/module/exchange/set-or
 
 ## <a name="require-staff-approvals-before-sharing-freebusy-information"></a>사용 중/바우트 정보를 공유하기 전에 직원 승인 필요
 
-관리자는 Bookings를 통해 가용성 정보를 공유하기 전에 또는 예약 페이지를 통해 예약할 수 있도록 조직의 직원이 옵트인(opt in)을 요구할 수 있습니다. 이 설정은 예약 Microsoft 365 관리 센터 **설정** \> **설정** \> **있습니다.**
+관리자는 Bookings를 통해 가용성 정보를 공유하기 전에 또는 예약 페이지를 통해 예약할 수 있도록 조직의 직원이 옵트인(opt in)을 요구할 수 있습니다. 이 설정은 Microsoft 365 관리 센터 예약의 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**사용할**</a> \> **수 있습니다.**
 
 이 설정을 사용하도록 설정하면 예약 일정에서 직원으로 추가된 직원은 받은 전자 메일 알림에서 승인/거부 링크를 찾을 수 있습니다.
 
 ## <a name="block-social-sharing-options"></a>공유 공유 옵션 차단
 
-관리자는 소셜 네트워크에서 예약 페이지가 공유되는 방법을 제어할 수 있습니다. 이 설정은 예약 Microsoft 365 관리 센터 **설정** \> **설정** \> **있습니다.**
+관리자는 소셜 네트워크에서 예약 페이지가 공유되는 방법을 제어할 수 있습니다. 이 설정은 Microsoft 365 관리 센터 예약의 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**사용할**</a> \> **수 있습니다.**
 
 ## <a name="allow-only-selected-users-to-create-bookings-calendars"></a>선택한 사용자만 Bookings 일정을 만들 수 있도록 허용
 

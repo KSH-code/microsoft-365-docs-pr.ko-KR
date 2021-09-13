@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ff8534d0b668b6a18b219297131dbd90c366cc35
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.openlocfilehash: ae0d38eec976abb88638eea3c3d2166c7203647e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823783"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213565"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
@@ -152,3 +152,16 @@ ms.locfileid: "58823783"
 **[Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)**
 
 Microsoft 365 Defender를 통해 엔드포인트용 Microsoft Defender 및 다양한 Microsoft 보안 솔루션은 엔드포인트, ID, 이메일 및 애플리케이션 전반에 기본적으로 통합되어 정교한 공격을 탐지, 방지, 조사하고 자동으로 대응하는 통합된 침해 전후 엔터프라이즈 방어 제품군을 형성합니다.
+
+
+## <a name="training-for-security-analysts"></a>보안 분석가를 위한 교육
+
+Microsoft Learn의 이 학습 경로를 통해 엔드포인트용 Defender와 조직의 엔드포인트(장치 및 시스템) 전반에서 위협을 예방, 감지, 조사 및 대응하는 데 Defender가 어떻게 도움이 되는지 이해할 수 있습니다.
+
+|교육:|Microsoft 365 Defender를 통한 사이버 공격 감지 및 대응|
+|---|---|
+|![Microsoft 365 Defender 교육 아이콘입니다.](../../media/microsoft-365-defender/m365-defender-secure-organization.svg)|엔드포인트용 Defender는 단일 통합 플랫폼에서 취약성 관리, 엔드포인트 보호, 엔드포인트 검색 및 대응, 모바일 위협 방어 및 관리형 서비스를 제공하는 엔드포인트 보안 솔루션입니다.<p> 2시간 25분 - 학습 경로 - 9개 모듈|
+
+> [!div class="nextstepaction"]
+> [시작 >](/learn/paths/defender-endpoint-fundamentals/)
+

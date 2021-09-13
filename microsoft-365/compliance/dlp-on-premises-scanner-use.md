@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용 방법을 배워서 미사용 데이터를 스캔하고 온-프레미스 파일 공유와 온-프레미스 SharePoint 폴더와 문서 라이브러리에 대한 보호 조치를 시행하세요.
-ms.openlocfilehash: 60befcd3ba35fe900c9fd90f84b484f9c49c280a53f7e6f31cd5ab17e729c34b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3d7c2e30092eee022fc0ed2a7ef6a8be7b82e3f1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53850978"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192962"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용하기
 

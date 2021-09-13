@@ -18,11 +18,11 @@ ms.assetid: ''
 description: 프레젠테이션 또는 외부 검토를 위해 Advanced eDiscovery 리뷰 집합에서 콘텐츠를 선택하고 다운로드하는 방법을 학습합니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 1ec4c82acdc7958cb17def5660f51109f1ff32e0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572182"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212602"
 ---
 # <a name="download-selected-documents-from-a-review-set"></a>검토 집합에서 선택한 문서 다운로드
 

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너는 파일 활동과 해당 파일에 대한 보호 작업 모니터링을 온-프레미스 파일 공유와 SharePoint 폴더 및 문서 라이브러리로 확대시킵니다. 파일은 AIP(정보 보호) 스캐너로 스캔되어 보호됩니다.
-ms.openlocfilehash: 6f86d77ea9b6249225f3b0ee2cdd1f91c230ce1de4b2e62cabda7719de27bfa9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c59c6b90f6c219528cbff8a4aadc6472a48ecd23
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53851086"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192972"
 ---
 # <a name="learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기
 

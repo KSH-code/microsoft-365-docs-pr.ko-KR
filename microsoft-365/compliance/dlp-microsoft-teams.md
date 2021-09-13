@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams 채널은 DLP(데이터 손실 방지) 정책을 지원합니다.
-ms.openlocfilehash: 8dbc7ce992840101c464f64bd981c65e7703f8bd
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 789571a4123473d3c1708ec4ac16dd7656514d92
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567763"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192999"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -55,7 +55,7 @@ Office 365 Microsoft 365 E3 온라인, OneDrive 및 SharePoint DLP 보호가 Exc
 
 DLP 보호는 엔터티에 Teams 다르게 적용됩니다.
 
-|사용자 계정/그룹/목록  |Teams 엔터티 |DLP 보호 사용 가능|
+|정책의 범위가 |이러한 Teams 엔터티 |DLP 보호를 사용할 수 있습니다.|
 |---------|---------|---------|
 |개별 사용자 계정     |1:1/n 채팅         |예         |
 |     |일반 채팅         |아니요         |

@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 ms.openlocfilehash: 1489671754f26d37abbc9bfbc84f59be26099c9b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570896"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212612"
 ---
 # <a name="double-key-encryption-for-microsoft-365"></a>이중 키 암호화 Microsoft 365
 
@@ -503,7 +503,7 @@ DKE 서비스를 등록하는 경우:
 
 9. **암시적 부여에서** **ID 토큰** 확인란을 선택합니다.
 
-10. **저장** 을 선택하여 변경 내용을 저장합니다.
+10. 변경 내용을 저장하려면 **저장** 을 선택합니다.
 
 11. 왼쪽 창에서 **API** 노출을 선택한 다음 응용 프로그램 ID URI 옆에 있는 설정 을 **선택합니다.**
 

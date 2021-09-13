@@ -17,11 +17,11 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.openlocfilehash: bdc3ddea542a888dbcd7fcf095835f327fb19e0a
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823928"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212092"
 ---
 # <a name="manage-the-schedule-for-when-protection-updates-should-be-downloaded-and-applied"></a>보호 업데이트를 다운로드하여 적용해야 하는 경우에 대한 예약 관리
 

@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: 4bdc9a1d60423a7541c2f5c26cc544df59a271e5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 459d2a4ddaaa2f6a7d1c8095ee93baab4e8248ce
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565257"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59193514"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -133,19 +133,19 @@ ms.locfileid: "58565257"
 > - [포털 상태 지침이](https://aka.ms/portalhealth) 따랐습니다.
 > - 시작 날짜는 14일 이내입니다.
 
-**다음 단계를 따르세요.**
+**다음 단계를 따릅니다:**
 
-1. <https://admin.microsoft.com>로 이동합니다.
-2. 새 관리 센터 미리 보기를 사용하고 있는지 확인
-3. 왼쪽 탐색 창에서 지원을 선택한 다음 새 서비스 **요청을 선택합니다.**
+1. 관리자는 관리 센터에서 도움말 쿼리를 채우는 다음 링크를 클릭합니다. 
 
-   그러면 화면 오른쪽에 **도움이 필요하세요?** 창이 활성화됩니다.
+[100k SharePoint 포털 시작](https://admin.microsoft.com/AdminPortal/?searchSolutions=Launch%20SharePoint%20Portal%20with%20100k%20users)
 
-4. 문제를 **간단히 설명하기** 위해 "100k SharePoint 포털 시작"을 입력합니다.</br>
-5. 그런 다음 고객 **지원에 문의를 선택합니다.**
-6. **설명에서**"100k SharePoint 포털 시작"을 입력합니다.
-7. 나머지 정보를 입력하고 **연락을 선택합니다.**
-8. 티켓이 생성되면 다음과 같은 정보를 고객 지원팀으로 보내주세요.
+2. 창 맨 아래에서 **지원 문의** 를 선택한 다음 **새 서비스 요청** 을 선택합니다. 
+
+3. 설명 **아래에서**"100k SharePoint 포털 시작"을 입력합니다. 
+
+4. 나머지 정보를 입력하고 **연락 받기** 를 선택합니다.
+
+5. 티켓이 생성되면 다음과 같은 정보를 고객 지원팀으로 보내주세요.
    - 포털 URL
    - 필요한 사용자 수
    - 예상 시작 일정

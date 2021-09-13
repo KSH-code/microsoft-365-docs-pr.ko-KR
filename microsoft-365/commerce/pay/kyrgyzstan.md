@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e4888bfd83f70170bfd360275777845c1049ac96c4bd93b7a52d251f326fdd95
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 62664e77cfb8a2f6b4bf4411f010745796a3371a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796877"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212692"
 ---
 # <a name="payment-information-for-kyrgyzstan"></a>키르기스스탄 결제 정보
 

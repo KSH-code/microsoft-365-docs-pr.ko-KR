@@ -16,11 +16,11 @@ ms.technology: mde
 ms.topic: article
 ms.date: 08/31/2021
 ms.openlocfilehash: 94e97c9d289ccf39d66618025822e0259b836219
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58865067"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212025"
 ---
 # <a name="why-cloud-protection-should-be-enabled-for-microsoft-defender-antivirus"></a>클라우드 보호를 사용하도록 설정해야 하는 Microsoft Defender 바이러스 백신
 

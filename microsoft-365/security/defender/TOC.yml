@@ -130,19 +130,19 @@
               href: ../defender-identity/notifications.md
     - name: 위협 조사 및 대응
       items:
-        - name: 인시던트
+        - name: 인시던트에 대응
           items:
             - name: 개요
               href: incidents-overview.md
-            - name: 우선순위 지정
+            - name: 인시던트 우선 순위 지정
               href: incident-queue.md
-            - name: 관리
+            - name: 인시던트 관리
               href: manage-incidents.md
-            - name: 조사
+            - name: 인시던트 조사
               href: investigate-incidents.md
-            - name: 인시던트 경고
+            - name: 경고 조사
               href: investigate-alerts.md
-            - name: 인시던트 사용자
+            - name: 사용자 조사
               href: investigate-users.md
             - name: 첫 번째 인시던트에 대응
               items:
@@ -164,15 +164,9 @@
                       href: first-incident-path-identity.md
             - name: 인시던트 대응 플레이북
               href: /security/compass/incident-response-playbooks
-            - name: 전자 메일 알림
+            - name: 인시던트 전자 메일 알림 받기
               href: get-incident-notifications.md
-        - name: 위협 분석
-          items:
-            - name: 새로운 위협 추적 및 대응
-              href: threat-analytics.md
-            - name: 분석가 보고서 이해
-              href: threat-analytics-analyst-reports.md
-        - name: 자동 조사 및 응답
+        - name: 자동화된 조사 및 응답 관리
           items:
             - name: 개요
               href: m365d-autoir.md
@@ -188,9 +182,9 @@
               href: m365d-autoir-results.md
             - name: 가양성 및 가음성 문제 해결
               href: m365d-autoir-report-false-positives-negatives.md
-        - name: 고급 헌팅
+        - name: 고급 헌팅을 사용하여 위협 검색
           items:
-            - name: 고급 헌팅 개요
+            - name: 개요
               href: advanced-hunting-overview.md
             - name: '배우기, 교육 및 예제 보기'
               items:
@@ -212,7 +206,7 @@
               href: advanced-hunting-query-results.md
             - name: 쿼리 결과에 대한 작업 수행
               href: advanced-hunting-take-action.md
-            - name: 탐색
+            - name: Go Hunt를 사용하여 빠르게 조사
               href: advanced-hunting-go-hunt.md
             - name: 최적화 및 처리 오류
               items:
@@ -300,15 +294,21 @@
                   href: custom-detections-overview.md
                 - name: 검색 규칙 만들기 및 관리
                   href: custom-detection-rules.md
-        - name: Microsoft 위협 전문가
+        - name: 새로운 위협 추적 및 대응
           items:
-            - name: Microsoft 위협 전문가 개요
+            - name: 위협 분석 개요
+              href: threat-analytics.md
+            - name: 분석가 보고서 이해
+              href: threat-analytics-analyst-reports.md
+        - name: Microsoft 위협 전문가와 공동 작업
+          items:
+            - name: 개요
               href: ../mtp/microsoft-threat-experts.md
             - name: Microsoft 위협 전문가 기능 구성 및 관리
               href: ../mtp/configure-microsoft-threat-experts.md
-        - name: Microsoft 365 Defender를 보안 작업에 통합
+        - name: Microsoft 365 Defender에 대한 SecOps 통합
           items:
-            - name: 소개
+            - name: 개요
               href: integrate-microsoft-365-defender-secops.md
             - name: 1단계. 운영 준비
               href: integrate-microsoft-365-defender-secops-plan.md
@@ -322,7 +322,7 @@
               href: integrate-microsoft-365-defender-secops-use-cases.md
             - name: 6단계. SOC 유지 관리 작업
               href: integrate-microsoft-365-defender-secops-tasks.md
-        - name: Power Automate 사용
+        - name: Power Automate를 사용하여 위협 분류
           href: use-power-automate.md
     - name: 사용 방법 가이드
       items:

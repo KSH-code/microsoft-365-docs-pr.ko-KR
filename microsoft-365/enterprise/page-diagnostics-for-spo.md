@@ -20,11 +20,11 @@ f1.keywords:
 - NOCSH
 description: SharePoint 페이지 진단 도구를 사용하여 SharePoint 온라인 최신 포털 및 클래식 게시 페이지를 미리 정의된 성능 기준 집합과 분석합니다.
 ms.openlocfilehash: e741e8e2da62d2361578e31edcb6dbbafafbb7dc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574715"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213812"
 ---
 # <a name="use-the-page-diagnostics-for-sharepoint-tool"></a>사용자용 페이지 진단 SharePoint 사용
 

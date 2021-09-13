@@ -21,11 +21,11 @@ ms.technology: mdo
 ms.prod: m365-security
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: d23e6ab170b200626b422163daaafdbdd11e5fca
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568039"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213202"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>EOP에서 스푸핑 인텔리전스 정책 및 스푸핑 인텔리전스 인사이트를 사용하여 스푸핑된 보낸 사람 관리
 
@@ -130,7 +130,7 @@ Microsoft 365 Defender 포털 또는 Exchange Online 사서함이 있는 Microso
 
      - **일부 사용자(** **도메인** 탭에만 해당): 보내는 인프라가 여러 사용자를 스푸핑하고, 일부 스푸핑된 사용자가 허용되는 경우 및 다른 사용자는 스푸핑되지 않습니다. 자세한 **탭을 사용하여** 특정 주소를 볼 수 있습니다.
 
-6. 작업을 마쳤으면 **저장** 을 클릭합니다.
+6. 작업을 마친 후 **저장** 을 클릭합니다.
 
 #### <a name="use-powershell-to-manage-spoofed-senders"></a>PowerShell을 사용하여 스푸핑된 보낸 사람 관리
 

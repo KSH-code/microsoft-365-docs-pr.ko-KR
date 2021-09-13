@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 954fa4d9879e9654847f50ad15f8ff3c3a88caf4
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573866"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213292"
 ---
 # <a name="step-2-remediate-your-first-incident"></a>2단계. 첫 번째 인시던트 수정
 
@@ -40,7 +40,7 @@ Microsoft 365 Defender 검색 및 분석 기능을 제공하는 것은 물론 �
 
 Microsoft 365 Defender 분석가가 수동으로 시작할 수 있는 여러 가지 수정 작업을 제공합니다. 작업은 디바이스의 작업과 파일에 대한 작업의 두 범주로 구분됩니다. 일부 작업을 사용하여 위협을 즉시 중지하고 다른 작업은 추가 포렌식 분석을 지원할 수 있습니다.
 
-## <a name="actions-on-devices"></a>디바이스에 대한 작업
+## <a name="actions-on-devices"></a>장치에 대한 작업
 
 - **장치 격리** - 이 활동은 모든 네트워크 트래픽(인터넷 및 내부)을 즉시 차단하여 맬웨어 확산을 최소화하고 악의적인 행위자가 공격을 계속할 수 없는 한 분석가가 분석을 계속할 수 있도록 합니다. 허용되는 유일한 연결은 Id용 Microsoft Defender 서비스 클라우드에 대한 것입니다. 따라서 Id에 대한 Microsoft Defender가 디바이스를 계속 모니터링할 수 있습니다. 
 - **앱 실행** 제한 - 응용 프로그램의 실행을 제한하기 위해 Microsoft에서 발급한 인증서로 서명된 파일만 실행할 수 있는 코드 무결성 정책이 적용됩니다. 이 제한 방법은 공격자가 손상된 장치를 제어하고 추가 악의적인 활동을 수행하지 못하게 방지하는 데 도움이 될 수 있습니다.

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f7a8ab4e29ec2aa37ee022da18b9504d8806efa62ec2b8c28834e10d35c25dcf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d8ab3b32fe52850898f91797ff737763c8f10f84
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809865"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213072"
 ---
 # <a name="contact-support-for-sint-maarten"></a>Sint Maarten 지원에 문의
 

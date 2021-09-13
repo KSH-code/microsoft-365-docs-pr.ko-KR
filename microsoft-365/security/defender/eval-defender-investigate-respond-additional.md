@@ -23,11 +23,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 57106e33f244ad1e549fcfd7f361c82863f9e3a9
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864041"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59211912"
 ---
 # <a name="try-microsoft-365-defender-incident-response-capabilities-in-a-pilot-environment"></a>파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 
@@ -68,7 +68,7 @@ ms.locfileid: "58864041"
 
 ## <a name="manage-incidents"></a>인시던트 관리
 
-인시던트에 대한  인시던트 관리 창에서 인시던트 관리를 할 수 있습니다. 다음은 예입니다.
+인시던트에 대한 **인시던트 관리** 창에서 인시던트를 관리할 수 있습니다. 다음은 예입니다.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-manage.png" alt-text="인시던트의 인시던트 관리 창 예":::
 

@@ -16,11 +16,11 @@ f1.keywords:
 description: 다중 위치 SharePoint 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법에 대해 알아보고
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 9c7ad267dcb32e055038e5186595db5776999263
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571942"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212505"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>SharePoint 사이트를 다른 지리적 위치로 이동
 

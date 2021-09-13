@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 47403d64-a067-4754-9ae9-00157244c27d
 description: 웹 기반 예약 일정을 포함하며 직원의 일정을 최적화하고 Outlook 예약할 수 있는 유연성을 고객에게 제공하도록 하는 Microsoft Bookings 앱의 개요입니다.
 ms.openlocfilehash: c1bc36ea7724cdb29394b60fafa0178a08aab117
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823735"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212895"
 ---
 # <a name="microsoft-bookings"></a>Microsoft Bookings
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 전자 메일을 비즈니스용 전자 메일로 가져오는 Microsoft 365 방법을 알아보습니다.
-ms.openlocfilehash: a40a51773dc62d11272eb02102c421aecf70f2b5a6c02a2867c94b47177668e6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7049642d071ff6b16a489a89c9355b35667a1e58
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843530"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191882"
 ---
 # <a name="import-email-to-microsoft-365-for-business"></a>비즈니스용 전자 Microsoft 365 전자 메일 가져오기 
 

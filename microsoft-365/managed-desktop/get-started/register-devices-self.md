@@ -12,11 +12,11 @@ manager: laurawi
 ms.topic: article
 audience: Admin
 ms.openlocfilehash: 9be51ab9204ac8a950bf316f716b70b824980ba8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572626"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213795"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -87,7 +87,7 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-다음 단계를 따르세요.
+다음 단계를 따릅니다:
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
 2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.

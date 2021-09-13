@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 087636fe340939321459be3b2085a363d2629c4f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: c4d3d1d913dd08a48fb70419133c0c484b3248f8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575543"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213575"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
@@ -51,8 +51,8 @@ ms.locfileid: "58575543"
 - 디바이스의 관리 권한(수동 배포의 경우)
 
 > [!NOTE]
->  Linux 에이전트의 끝점용 Microsoft Defender는 [OMS 에이전트와 독립적입니다.](/azure/azure-monitor/agents/agents-overview#log-analytics-agent) 끝점용 Microsoft Defender는 자체의 독립적인 원격 분석 파이프라인을 사용 합니다.
-> 
+> Linux 에이전트의 끝점용 Microsoft Defender는 [OMS 에이전트와 독립적입니다.](/azure/azure-monitor/agents/agents-overview#log-analytics-agent) 끝점용 Microsoft Defender는 자체의 독립적인 원격 분석 파이프라인을 사용 합니다.
+>
 > Linux의 끝점용 Microsoft Defender는 아직 Azure 보안 센터에 통합되지 않았습니다.
 
 ### <a name="installation-instructions"></a>설치 지침
@@ -69,10 +69,8 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
     - [Puppet 구성 관리 도구를 사용하여 배포](linux-install-with-puppet.md)
     - [Ansible 구성 관리 도구를 사용하여 배포](linux-install-with-ansible.md)
     - [구성 관리 도구를 사용하여 배포](linux-deploy-defender-for-endpoint-with-chef.md)
-    
+
 설치 오류가 발생하면 [Linux의 끝점용 Microsoft Defender에서](linux-support-install.md)설치 실패 문제 해결을 참조하세요.
-
-
 
 ### <a name="system-requirements"></a>시스템 요구 사항
 
@@ -87,7 +85,6 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 
     > [!NOTE]
     > 명시적으로 나열되지 않은 배포 및 버전은 지원되지 않습니다(공식적으로 지원되는 배포에서 파생된 경우에도).
-
 
 - 최소 커널 버전 3.10.0-327
 
@@ -129,6 +126,7 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 서비스를 사용하도록 설정한 후 네트워크 또는 방화벽에서 해당 서비스 및 끝점 간의 아웃바운드 연결을 허용하도록 구성해야 할 수 있습니다.
 
 - 감사 프레임워크( `auditd` )를 사용하도록 설정해야 합니다.
+
   > [!NOTE]
   > 추가된 규칙에 의해 캡처된 시스템 이벤트는 (s)에 추가될 것이고 호스트 감사 및 업스트림 컬렉션에 영향을 `/etc/audit/rules.d/` `audit.log` 줄 수 있습니다. Linux의 끝점용 Microsoft Defender에서 추가한 이벤트는 키로 태그가 `mdatp` 지정됩니다.
 
@@ -136,14 +134,20 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 
 다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인해야 합니다. 있는 경우 해당 규칙에 대해  특별히 허용 규칙을 만들어야 할 수 있습니다.
 
-| 도메인 목록의 스프레드시트 | 설명 |
-|:-----|:-----|
-|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지입니다.](images/mdatp-urls.png)<br/>  | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br><br>[여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
+<br>
+
+****
+
+|도메인 목록의 스프레드시트|설명|
+|---|---|
+|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지입니다.](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> 여기에서 스프레드시트를 [다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)|
+|||
 
 > [!NOTE]
 > 보다 구체적인 URL 목록은 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)
 
 Endpoint용 Defender는 다음 검색 방법을 사용하여 프록시 서버를 검색할 수 있습니다.
+
 - 투명한 프록시
 - 수동 정적 프록시 구성
 

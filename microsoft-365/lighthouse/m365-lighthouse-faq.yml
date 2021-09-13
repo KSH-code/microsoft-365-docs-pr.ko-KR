@@ -17,12 +17,12 @@ metadata:
   - M365-Lighthouse
   search.appverid: MET150
   description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 서비스 공급자에 대한 FAQ(질문과 대답)를 Microsoft 365 Lighthouse.
-  ms.openlocfilehash: 4a2bd965ec381352da732506131b7eb6e62a8666
-  ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+  ms.openlocfilehash: f1373ba23149583b1730499bcf9a222554ec91a0
+  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/24/2021
-  ms.locfileid: "58507821"
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59212485"
 title: Microsoft 365 Lighthouse 질문과 대답(FAQ)
 summary: >
   > [!NOTE]
@@ -39,13 +39,13 @@ sections:
   questions:
   - question: 어떤 Microsoft 365 Lighthouse?
     answer: >
-      Microsoft 365 Lighthouse SMB(관리 서비스 공급자)가 SMB(중소기업) 고객을 위해 대규모로 장치, 데이터 및 사용자를 보호하고 관리하는 데 도움이 되는 관리 포털입니다Microsoft 365 Business Premium.  Lighthouse는 SMB에 맞게 보안 구성 기준을 권장하고 모든 고객 환경에서 다중 테넌트 보기를 제공하여 테넌트 온보더링을 간소화합니다. 자세한 내용은 Overview [of Microsoft 365 Lighthouse.](m365-lighthouse-overview.md)
+      Microsoft 365 Lighthouse SMB(관리 서비스 공급자)가 SMB(관리 서비스 공급자)를 사용하여 장치, 데이터 및 사용자를 대규모로 보호하고 관리하는 데 도움이 되는 관리 포털로, Microsoft 365 Business Premium 또는 SMB를 사용하는 Microsoft 365 E3.  Lighthouse는 SMB에 맞게 보안 구성 기준을 권장하고 모든 고객 환경에서 다중 테넌트 보기를 제공하여 테넌트 온보더링을 간소화합니다. 자세한 내용은 Overview [of Microsoft 365 Lighthouse.](m365-lighthouse-overview.md)
   - question: Azure Lighthouse와 Microsoft 365 Lighthouse 차이점은 무엇입니까?
     answer: >
-      Microsoft 365 Lighthouse Azure 서비스가 Microsoft 365 서비스에 초점을 맞추고 있습니다. Azure Lighthouse는 Azure Portal에 기본 제공되어 IT 파트너가 Azure에 대한 여러 테넌트를 관리할 수 있도록 하지만Microsoft 365 Lighthouse는 MSP가 여러 고객 테넌트의 관리에 도움이 되는 독립 실행형 Microsoft 365 Business Premium 포털입니다. 자세한 내용은 Microsoft 365 Lighthouse [개요를 Microsoft 365 Lighthouse.](m365-lighthouse-overview.md) Azure Lighthouse에 대한 자세한 내용은 [Azure Lighthouse란?을 참조하세요.](/azure/lighthouse/overview)
+      Microsoft 365 Lighthouse Azure 서비스가 Microsoft 365 서비스에 초점을 맞추고 있습니다. Azure Lighthouse는 Azure Portal에 기본 제공되어 IT 파트너가 Azure에 대한 여러 테넌트를 관리할 수 있도록 하지만Microsoft 365 Lighthouse는 MSP가 여러 Microsoft 365 Business Premium 또는 Microsoft 365 E3 관리하는 데 도움이 되는 독립 실행형 포털입니다. 자세한 내용은 Microsoft 365 Lighthouse [개요를 Microsoft 365 Lighthouse.](m365-lighthouse-overview.md) Azure Lighthouse에 대한 자세한 내용은 [Azure Lighthouse란?을 참조하세요.](/azure/lighthouse/overview)
   - question: 비용은 Microsoft 365 Lighthouse?
     answer: >
-      미리 보기 버전의 Lighthouse를 사용하여 서비스 및 연결된 장치를 관리하기 위해 추가 Microsoft 365 Business Premium 관련이 없습니다. Lighthouse는 현재 미리 보기로 제공되어 있으며 중소기업을 서비스하고 고객과 CSP(클라우드 솔루션 공급자) 관계를 맺고 있는 MSP에서 사용할 수 있습니다. 간접 공급자는 현재 Lighthouse에서 지원되지 않습니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+      미리 보기 버전의 Lighthouse를 사용하여 서비스 및 연결된 Microsoft 365 Business Premium Microsoft 365 E3 추가 비용은 없습니다. Lighthouse는 현재 미리 보기로 제공되어 있으며 중소기업을 서비스하고 고객과 CSP(클라우드 솔루션 공급자) 관계를 맺고 있는 MSP에서 사용할 수 있습니다. 간접 공급자는 현재 Lighthouse에서 지원되지 않습니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
   - question: 이 기능을 사용하기 위한 요구 사항은 Microsoft 365 Lighthouse?
     answer: >
       현재 요구 사항 목록은 요구 사항을 [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
@@ -63,7 +63,7 @@ sections:
       고객 테넌트 데이터가 Lighthouse 내에서 로드되는 데 최대 48시간이 걸릴 수 있습니다. 온보더링을 완료한 지 48시간이 지난 경우 지원 팀에 도움을 문의하시기 바랍니다. 등록을 완료할 때 이를 알려주고 관련 스크린샷 및 로그를 제공해야 합니다. 자세한 내용은 에 대한 도움말 및 지원 [Microsoft 365 Lighthouse.](m365-lighthouse-get-help-and-support.md)
   - question: 일부 고객 테넌트에 대한 데이터가 표시되지만 다른 고객 테넌트에 대한 데이터는 표시하지 않는 이유는 무엇입니까?
     answer: >
-      고객 테넌트 데이터가 Lighthouse에 표시하려면 파트너는 파트너 센터를 통해 고객과 DAP(위임된 관리 권한)를 설정해야 합니다. 자세한 내용은 [Request a Reseller relationship with a customer in Partner Center을 참조하세요.](/partner-center/request-a-relationship-with-a-customer) 또한 테넌트는 테넌트에 라이선스가 있는 Microsoft 365 Business Premium 하나 이상의 라이선스가 있어야 합니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+      고객 테넌트 데이터가 Lighthouse에 표시하려면 파트너는 파트너 센터를 통해 고객과 DAP(위임된 관리 권한)를 설정해야 합니다. 자세한 내용은 [Request a Reseller relationship with a customer in Partner Center을 참조하세요.](/partner-center/request-a-relationship-with-a-customer) 또한 테넌트에는 하나 이상의 Microsoft 365 Business Premium 또는 Microsoft 365 E3 테넌트에 라이선스가 있는 사용자 수가 500명 미만입니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
   - question: 특정 테넌트가 Microsoft 365 Lighthouse?
     answer: >
       Lighthouse에서 특정 테넌트와 해당 데이터를 표시하지 않는 경우 해당 테넌트를 비활성화할 수 있습니다. 테넌트의 비활성화를 수행하기 위해 다음 단계를 수행합니다.
@@ -78,9 +78,9 @@ sections:
           > 테넌트의 비활성화가 완료되면 비활성화가 완료될 때까지 테넌트에 대한 작업을 취할 수 없습니다. 비활성화가 완료될 때 최대 48시간이 걸릴 수 있습니다.
 
       테넌트에 대한 자세한 내용은 Microsoft 365 Lighthouse [목록 개요를 참조하세요.](m365-lighthouse-tenant-list-overview.md)
-  - question: 고객 Microsoft 365 Lighthouse 다른 구독이 있는 경우 해당 구독이 Microsoft 365 Business Premium?
+  - question: 고객 Microsoft 365 Lighthouse 구독 외에 다른 구독이 있는 경우 해당 구독이 Microsoft 365 Business Premium Microsoft 365 E3?
     answer: >
-      Lighthouse는 사용자에 대한 라이선스가 Microsoft 365 Business Premium 고객 테넌트 관리에 도움이 됩니다. Business Premium 라이선스가 없는 고객 테넌트의 사용자의 경우 Lighthouse 기능이 제한됩니다. 예를 들어 사용자가 Intune을 포함하는 라이선스가 없는 경우 해당 사용자의 장치, 장치 준수 상태 및 위협 상태를 사용할 수 없습니다. Azure AD P1을 포함하는 라이선스가 없는 경우 해당 사용자의 암호 및 로그인 관리를 사용할 수 없습니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+      Lighthouse를 사용하면 사용자에게 라이선스가 Microsoft 365 Business Premium Microsoft 365 E3 테넌트가 있는 고객 테넌트를 관리할 수 있습니다. Business 또는 E3 라이선스가 없는 고객 테넌트의 Premium Lighthouse 기능이 제한됩니다. 예를 들어 사용자가 Intune을 포함하는 라이선스가 없는 경우 해당 사용자의 장치, 장치 준수 상태 및 위협 상태를 사용할 수 없습니다. Azure AD P1을 포함하는 라이선스가 없는 경우 해당 사용자의 암호 및 로그인 관리를 사용할 수 없습니다. 자세한 내용은 Requirements [for Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
   - question: 클라우드 서비스에서 고객 클라우드 PC를 관리할 자격을 Microsoft 365 Lighthouse?
     answer: >
       Lighthouse를 사용하기 위한 요구 사항을 충족하는 경우 Lighthouse에서 고객 클라우드 PC를 관리할 자격이 있습니다. 현재 요구 사항 목록은 요구 사항을 [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)

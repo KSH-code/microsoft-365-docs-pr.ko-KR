@@ -14,11 +14,11 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Canvas Microsoft Teams 클래스 통합
 ms.openlocfilehash: 44ba24e5c8bd7107f9cba199ce290c10b31e0806
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575075"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212475"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Canvas에서 Microsoft Teams 클래스 사용
 

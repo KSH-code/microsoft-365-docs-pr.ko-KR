@@ -17,11 +17,11 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 페이지를 사용하여 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 사용자 페이지에 대해 자세히 알아보십시오.
 ms.openlocfilehash: 102dcca973fed7a883dead0212a6f2965457cf9f
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365060"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212472"
 ---
 # <a name="microsoft-365-lighthouse-users-page-overview"></a>Microsoft 365 Lighthouse 사용자 페이지 개요 
 

@@ -18,11 +18,11 @@ ms.collection:
 ms.custom: ''
 description: 데이터 보호, Microsoft 365 전자 메일을 포함하여 GDPR 및 캘리포니아 소비자 개인 정보 보호법(CCPA)과 같은 데이터 개인 정보 보호 규정에 Microsoft Teams SharePoint 구성합니다.
 ms.openlocfilehash: 1cf58564938efafb0b711680cf7260222c514864
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571208"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213182"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>데이터 개인 정보 보호 규정에 대한 정보 보호를 Microsoft 365
 

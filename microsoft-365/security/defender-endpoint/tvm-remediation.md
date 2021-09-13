@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be72659ef5784cdda9f478ab876a35e0408f4a9936937197b997bb39af00e6fc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3bedc28f6af13d91c73dca7f8512379989f2d0e2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53799619"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59213385"
 ---
 # <a name="remediate-vulnerabilities-with-threat-and-vulnerability-management"></a>보안 문제를 해결하여 취약성 위협 및 취약성 관리
 
@@ -104,5 +104,5 @@ Intune에서 티켓이 어떻게 표시하는지 확인하려는 경우 [Intune�
 ## <a name="related-articles"></a>관련 문서
 
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
-- [Dashboard](tvm-dashboard-insights.md)
+- [대시보드](tvm-dashboard-insights.md)
 - [보안 권장 사항](tvm-security-recommendation.md)

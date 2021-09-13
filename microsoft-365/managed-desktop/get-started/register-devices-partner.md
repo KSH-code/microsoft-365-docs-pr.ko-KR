@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 37e6559e0fbdf6ceef853b4587fee61d622f4905f7e4be0ab524f076791e9fb5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 64686f84d8e4cc7dca40a875d8b54508ea9a1fc9
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53834626"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59212375"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>파트너가 장치를 등록하기 위한 단계
 
@@ -47,7 +47,7 @@ ms.locfileid: "53834626"
 |---------|---------|
 |민감 데이터     |**Microsoft365Managed \_ SensitiveData**    |
 |파워 사용자     | **Microsoft365Managed \_ PowerUser**          |
-|표준     | **Microsoft365Managed \_ Standard**        |
+|Standard     | **Microsoft365Managed \_ Standard**        |
 
 > [!IMPORTANT]
 > 그룹 이름은 대문자 및 특수 문자를 포함하여 표에 나열된 이름과 정확히 일치해야 합니다. 이렇게 하면 새로 등록된 디바이스를 Autopilot 프로필과 함께 Microsoft Managed Desktop 수 있습니다.
@@ -71,7 +71,7 @@ ms.locfileid: "53834626"
 |---------|---------|
 |민감 데이터     | **Microsoft365Managed \_ SensitiveData**     |
 |파워 사용자     | **Microsoft365Managed \_ PowerUser**          |
-|표준     | **Microsoft365Managed \_ Standard**      |
+|Standard     | **Microsoft365Managed \_ Standard**      |
 
 > [!IMPORTANT]
 > 그룹 태그는 대문자 및 특수 문자를 포함하여 표에 나열된 태그와 정확히 일치해야 합니다. 이렇게 하면 새로 등록된 디바이스를 Autopilot 프로필과 함께 Microsoft Managed Desktop 수 있습니다.

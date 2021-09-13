@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 57dcced3544932f457c27527d5d0223b62fd105a2e9b4a50051e3138f4fed0a4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cd28a2e55baddc81dba43be8d4facdf07c8ccda4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53802877"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191759"
 ---
 # <a name="payment-information-for-grenada"></a>그레나다의 결제 정보
 
