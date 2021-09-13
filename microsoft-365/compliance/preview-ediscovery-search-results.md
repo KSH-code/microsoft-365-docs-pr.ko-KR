@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 콘텐츠 검색 또는 Microsoft 365 규정 준수 센터의 Core eDiscovery 검색에서 반환한 결과 샘플 미리 보기.
 ms.openlocfilehash: ac9929ee8639c4d653f8e9dfe680a5df5c6c3a7d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570800"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216605"
 ---
 # <a name="preview-ediscovery-search-results"></a>eDiscovery 검색 결과 미리 보기
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: 이전 버전의 Office 365 메시지 암호화 권한 관리(Microsoft Azure 권한 관리)에 따라 Windows Azure Active Directory 있습니다.
-ms.openlocfilehash: 611e8f645b9149898e5c3cb0f10305e49deb90cd92b14aad7c946ead147e8fd9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 978a8027c79de574b80aeedabcbbd51fa6f9e2a0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871372"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216425"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-message-encryption"></a>이전 버전의 메시지 암호화에 대해 Azure 권한 관리 설정
 

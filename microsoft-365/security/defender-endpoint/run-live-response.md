@@ -22,11 +22,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: f94e4d5e51b6a846a0439e3833a01d252c51bd0a
-ms.sourcegitcommit: 008200dad00701b6d457c1af48a33448235ce1c8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58392137"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218275"
 ---
 #  <a name="run-live-response-commands-on-a-device"></a>장치에서 라이브 응답 명령 실행
 
@@ -83,7 +83,7 @@ ms.locfileid: "58392137"
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
     
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
@@ -102,7 +102,7 @@ POST https://api.securitycenter.microsoft.com/API/machines/{machine_id}/runliver
 
 |이름|유형|설명|
 |---|---|---|
-|권한 부여|String|Bearer\<token>\. 필수 특성입니다.|
+|권한 부여|문자열|Bearer\<token>\. 필수 특성입니다.|
 |Content-Type|문자열|application/json. 필수 특성입니다.|
 
 ## <a name="request-body"></a>요청 본문

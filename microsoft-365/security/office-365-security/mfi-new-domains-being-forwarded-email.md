@@ -13,11 +13,11 @@ description: '& 관리자는 보안 및 준수 센터의 메일 흐름 대시보
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 87af41d4c6fe1964510944f0ad06554056ce4f37
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570404"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217995"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전달되는 새 & 정보
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 510ef468374cae09f450751c7fb6d39439c885e260e32fa61f97f60a9c4678fd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6d7bc7485ae66ad249a81b56592358507cffb539
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873310"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217755"
 ---
 # <a name="contact-support-for-cayman-islands"></a>케이맨 제도 지원에 문의
 

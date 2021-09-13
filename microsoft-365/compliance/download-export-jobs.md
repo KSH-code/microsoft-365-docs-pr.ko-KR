@@ -17,11 +17,11 @@ search.appverid:
 ms.custom: seo-marvel-mar2020
 description: 검토 집합에서 문서를 Azure Storage 계정으로 내보은 다음 Azure Storage Explorer 사용하여 로컬 컴퓨터에 다운로드합니다.
 ms.openlocfilehash: 352bce7134f92a7f6759673f28d388aac4957d1c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570872"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218992"
 ---
 # <a name="export-documents-in-a-review-set-to-an-azure-storage-account"></a>검토 집합의 문서를 Azure Storage 계정으로 내보내기
 

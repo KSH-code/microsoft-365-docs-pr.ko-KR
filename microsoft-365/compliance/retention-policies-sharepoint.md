@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
 ms.openlocfilehash: 77d7d3eebaa4678e6d90897aab8a41554530e858
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573778"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216572"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 

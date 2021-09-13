@@ -11,11 +11,11 @@ search.appverid:
 - MET150
 description: 손실된 고객 키를 복구하는 데 사용되는 가용성 키에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 76137438231e69f5d93673322ab6825146ee6e2e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570128"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216892"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>고객 키에 대한 가용성 키 알아보기
 

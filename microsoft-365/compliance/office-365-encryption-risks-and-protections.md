@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 보호에 사용할 수 있는 암호화 Office 365 위험에 대해 학습합니다.
-ms.openlocfilehash: bb82e1379219fc1dbf14fcd27e4fed59fbcf2c7ac6dd24c418ab7c68c437deba
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6bb0e705095b4f31c730a21921985131785dc3f0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53855818"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216695"
 ---
 # <a name="encryption-risks-and-protections"></a>암호화 위험 및 보호
 

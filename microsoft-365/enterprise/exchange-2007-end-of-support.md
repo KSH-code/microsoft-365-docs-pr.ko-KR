@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 2007년 지원 종료 Exchange Server 옵션에 대해 알아보고 Microsoft 365, Office 365 또는 2016으로의 마이그레이션 계획을 Exchange 있습니다.
-ms.openlocfilehash: a6de134db567d3c932d4455409653f1bfd40b3e35960f84691cbcef247b1cfe5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d7e8f50118dab6fcb618273f5c28497c80d4a549
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53855086"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218565"
 ---
 # <a name="exchange-2007-end-of-support-roadmap"></a>Exchange 2007 지원 종료 로드맵
 
@@ -92,13 +92,13 @@ Microsoft 365 기능 및 환경을 먼저 사용할 수 있으므로 사용자�
 
 |**마이그레이션 옵션**|**조직 크기**|**기간**|
 |:-----|:-----|:-----|
-|단독 마이그레이션  <br/> |시트 수가 150명 미만  <br/> |1주 이하  <br/> |
+|단독형 마이그레이션  <br/> |시트 수가 150명 미만  <br/> |1주 이하  <br/> |
 |미리 구성된 마이그레이션  <br/> |시트 수가 150명 이상인 경우  <br/> |몇 주  <br/> |
 |전체 하이브리드 마이그레이션  <br/> |수 십만 명  <br/> |몇 개월 이상  <br/> |
    
 다음 섹션에서는 이러한 방법에 대한 개요를 제공합니다. 자세한 내용은 마이그레이션 경로 [결정 을 참조합니다.](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27) 
   
-#### <a name="cutover-migration"></a>단독 마이그레이션
+#### <a name="cutover-migration"></a>단독형 마이그레이션
 
 단일 마이그레이션에서는 모든 사서함, 메일 그룹, 연락처 등에서 미리 Microsoft 365 및 시간으로 마이그레이션합니다. 마이그레이션이 완료된 후 서버에 대한 Exchange 종료하고 단독으로 Microsoft 365 시작해야 합니다.
   
@@ -245,9 +245,9 @@ Microsoft 365 기능 및 환경을 먼저 사용할 수 있으므로 사용자�
     
 ## <a name="get-help"></a>도움말 보기
 
-사용자 계정으로 마이그레이션하는 Microsoft 365 Microsoft FastTrack 서비스를 사용할 수 있습니다. FastTrack은 가능한 한 원활하게 마이그레이션할 수 있도록 모범 Microsoft 365, 도구 및 리소스를 제공합니다. 무엇보다 지원 엔지니어는 계획 및 디자인부터 마지막 사서함 마이그레이션까지 마이그레이션을 진행하는 방법을 단계화합니다. FastTrack에 대한 자세한 내용은 [Microsoft FastTrack을 참조합니다.](https://fasttrack.microsoft.com/)
+사용자 계정으로 마이그레이션하는 Microsoft 365 Microsoft FastTrack 서비스를 사용할 수 있습니다. FastTrack 가능한 한 원활하게 마이그레이션할 수 있도록 모범 사례Microsoft 365 도구 및 리소스를 제공합니다. 무엇보다 지원 엔지니어는 계획 및 디자인부터 마지막 사서함 마이그레이션까지 마이그레이션을 진행하는 방법을 단계화합니다. 자세한 내용은 FastTrack [Microsoft](https://fasttrack.microsoft.com/)FastTrack.
   
-Microsoft 365 마이그레이션하는 동안 문제가 발생하여 FastTrack을 사용하지 않는 경우 또는 최신 버전의 Exchange Server 마이그레이션이 도움이 될 것입니다. 다음은 사용할 수 있는 몇 가지 리소스입니다.
+Microsoft 365 마이그레이션하는 동안 문제가 발생하여 FastTrack 또는 최신 버전의 Exchange Server 마이그레이션을 사용하지 않는 경우 도움이 될 것입니다. 다음은 사용할 수 있는 몇 가지 리소스입니다.
   
 - [기술 커뮤니티](https://social.technet.microsoft.com/Forums/office/home?category=exchangeserver)
     

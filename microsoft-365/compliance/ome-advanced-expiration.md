@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 사용자 Office 365 고급 메시지 암호화 템플릿을 통해 전자 메일의 만료 날짜를 설정하여 전자 메일 보안을 확장할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5cc669a0aae02da413b0e288be9203743d29c20e0fcd870cb99b67154fdf66e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f936ffa62f31e47f51fc1bcb2765195b0ea809af
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795845"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216685"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화로 암호화 된 전자 메일의 만료 날짜 설정
 

@@ -21,11 +21,11 @@ ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
 description: 스크립트를 실행하여 사이트 & 비즈니스용 OneDrive eDiscovery 사례와 연결된 새 보류에 사서함을 추가하는 Microsoft 365 규정 준수 센터.
 ms.openlocfilehash: a521e96cd81649acf032f7c6a79473a7507e3ba2
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599018"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216265"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>스크립트를 사용하여 Core eDiscovery 사례에서 보류에 사용자 추가
 

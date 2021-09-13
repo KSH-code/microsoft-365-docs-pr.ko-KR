@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 recommendations: false
 description: DLP(데이터 손실 방지) 함수가 찾아보는 내용을 살펴 봐야 합니다.
-ms.openlocfilehash: 7dad18402b25b97097eb35729d4009d9add5533f18f3aec25e63a31015e51b32
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 787abc1e7fb4c95392a76f7514ceffd3f7f4dda0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53859674"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216122"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>DLP 기능이 찾는 항목
 

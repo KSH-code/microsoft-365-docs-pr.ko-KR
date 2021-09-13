@@ -14,6 +14,7 @@ ms.custom:
 - O365P_AddUsersCSV
 - O365M_AddUsersCSV
 - O365E_AddUsersCSV
+- admindeeplinkMAC
 search.appverid:
 - MET150
 - MOP150
@@ -24,12 +25,12 @@ search.appverid:
 - GEA150
 - BCS160
 description: '스프레드시트 또는 다른 CSV Microsoft 365 목록에서 비즈니스용 앱에 여러 사용자를 추가하는 방법을 학습합니다. YouTube에서 계정에 계정을 추가하는 방법을 설명하는 비디오를 Microsoft 365. 이 프로세스가 끝나면 계정이 있는 각 사용자에게 사서함이 Microsoft 365 있습니다. '
-ms.openlocfilehash: 5df43af8d01dce11c063b3d29fb2323b997580bf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 873a9ff27f85d63596f5e69db918c0c619b73539
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572698"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218772"
 ---
 # <a name="add-several-users-at-the-same-time-to-microsoft-365---admin-help"></a>여러 사용자를 동시에 추가하여 Microsoft 365 - 관리자 도움말
 
@@ -42,7 +43,7 @@ ms.locfileid: "58572698"
 
 1. 회사 또는 학교 계정으로 Microsoft 365에 로그인합니다.
 
-2. 관리 센터에서 **사용자** \> **활성 사용자** 를 선택합니다.
+2. 관리 센터에서 사용자  활성 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**사용자를 선택 합니다.**</a>
 
 3. 여러 **사용자 추가를 선택합니다.**
 

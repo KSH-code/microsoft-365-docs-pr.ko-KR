@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 GoDaddy 웹 사이트를 만드는 방법을 확인하세요.
-ms.openlocfilehash: 6930430b5263e9e15e38f16d41830785304584df5fab1bef7421c651641f853b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8f7057fcb7ed85502ce856fb50349a91466e0d6c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900634"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219345"
 ---
 # <a name="create-a-website"></a>웹 사이트 만들기
 

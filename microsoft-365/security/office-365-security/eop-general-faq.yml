@@ -16,12 +16,12 @@ metadata:
   description: EOP(클라우드 호스팅 전자 메일 Exchange Online Protection 서비스에 대한 가장 일반적인 질문과 대답을 얻습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: c46f918b644fdfb85b9290a09a8dea03571840b69d8c9d8508d3be5c9d7d428f
-  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+  ms.openlocfilehash: e7ae5858841384c31acf9b785fc0071607ba5f1d
+  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "56814760"
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59218052"
 title: EOP 관련 일반 FAQ(질문과 대답)
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]

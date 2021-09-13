@@ -12,12 +12,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 설정한 후 AKV 키를 복원하고 사용 권한을 관리하고 데이터 암호화 정책을 만들고 할당하여 키 관리 방법을 배워야 합니다.
-ms.openlocfilehash: cbfc93413aa7abfb37c201b8446050b1242461ac
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.openlocfilehash: 7fc985aaaf0cf0222a6cd02063207b2b1709ac25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400262"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216885"
 ---
 # <a name="manage-customer-key"></a>고객 키 관리
 
@@ -224,7 +224,7 @@ IsEncrypted 속성은 사서함이 암호화된 경우 **true** 값을 반환하
 다음과 같이 cmdlet을 실행하여 Get-SPODataEncryptionPolicy 상태를 검사합니다.
 
 ```PowerShell
-   Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
+   Get-SPODataEncryptionPolicy <SPOAdminSiteUrl>
 ```
 
 이 cmdlet의 출력에는 다음이 포함됩니다.
@@ -242,6 +242,8 @@ IsEncrypted 속성은 사서함이 암호화된 경우 **true** 값을 반환하
   - **등록:** 고객 키 암호화가 적용되고 모든 사이트의 모든 파일이 암호화되었습니다.
 
   - **롤링:** 키 롤이 진행 중입니다. 지역 키가 롤링되는 경우 진행 상황을 모니터링할 수 있도록 키 롤 작업을 완료한 사이트의 비율에 대한 정보도 표시됩니다.
+
+- 또한 온보드 사이트의 백분율도 출력합니다.
 
 ## <a name="get-details-about-deps-you-use-with-multiple-workloads"></a>여러 워크로드에서 사용하는 DEP에 대한 세부 정보 확인
 
@@ -301,7 +303,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Enabled $false
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-예를 들어:
+예시:
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -319,7 +321,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-예를 들어:
+예시:
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -331,7 +333,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-예를 들어:
+예시:
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com

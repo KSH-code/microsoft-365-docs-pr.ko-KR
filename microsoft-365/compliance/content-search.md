@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용하여 다양한 Microsoft 365 서비스의 콘텐츠를 검색합니다.
 ms.openlocfilehash: beee298e18fd46adfc11925de51274a60328a3a5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567499"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219062"
 ---
 # <a name="create-a-content-search"></a>콘텐츠 검색 만들기
 

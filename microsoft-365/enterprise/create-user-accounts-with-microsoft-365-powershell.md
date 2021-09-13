@@ -20,11 +20,11 @@ ms.custom:
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: PowerShell을 사용하여 사용자 계정을 개별적으로 또는 여러 개 Microsoft 365 방법
 ms.openlocfilehash: c096b5b4966bfde9973173b9a0a0c5bf1f0d786c
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356843"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218595"
 ---
 # <a name="create-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 만들기
 
@@ -126,7 +126,7 @@ New-MsolUser -DisplayName "Caleb Sills" -FirstName Caleb -LastName Sills -UserPr
 
 3. 결과 볼 수 있는 출력 파일을 검토 합니다. 암호를 지정하지 않았기 때문에 생성된 임의 암호가 Microsoft 365 파일에 표시됩니다.
     
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   

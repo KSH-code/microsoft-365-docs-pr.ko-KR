@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 ms.custom: seo-marvel-apr2020
 description: 관리자는 PST 파일을 하드 드라이브에 복사한 다음 Microsoft로 Microsoft 365 사서함으로 PST 파일을 대량으로 가져오는 방법을 배울 수 있습니다.
-ms.openlocfilehash: d5f0fee4808d479ff4a80f4d2152b2cc8a983eb6
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 5061385007071442acb9c2e1be27501d64174ea3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575303"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216235"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>드라이브 배송을 사용하여 조직의 PST 파일 가져오기
 
@@ -124,7 +124,7 @@ For frequently asked questions about using drive shipping to import PST files to
     > [!NOTE]
     > 앞서 설명한 것 처럼 가져오기 페이지에 액세스하려면  적절한 사용 권한을 할당해야 Microsoft 365 규정 준수 센터. 
   
-3. 가져오기 **탭에서** 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업 입니다.**
+3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업** 을 클릭합니다.
     
 4. 가져오기 작업 마법사에서 PST 가져오기 작업의 이름을 입력하고 다음 을 **클릭합니다.** 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
     
@@ -167,7 +167,7 @@ For frequently asked questions about using drive shipping to import PST files to
 3. WAImportExport.exe를 사용하여 하드 드라이브에 PST 파일을 처음 복사할 때 다음 명령을 실행합니다.
 
     ```powershell
-    WAImportExport.exe PrepImport /j:<Name of journal file> /t:<Drive letter> /id:<Name of session> /srcdir:<Location of PST files> /dstdir:<PST file path> /sk:<Storage account key> /blobtype:BlockBlob /encrypt /logdir:<Log file location>
+    WAImportExport.exe PrepImport /j:<Name of journal file> /t:<Drive letter> /id:<Name of session> /srcdir:<Location of PST files> /dstdir:<PST file path> /blobtype:BlockBlob /encrypt /logdir:<Log file location>
     ```
 
     다음 표에서는 매개 변수와 해당 필수 값에 대해 설명합니다.
@@ -180,7 +180,6 @@ For frequently asked questions about using drive shipping to import PST files to
     | `/id:` <br/> |복사 세션의 이름을 지정합니다. 세션은 WAImportExport.exe 도구를 실행하여 하드 드라이브에 파일을 복사할 때마다 정의됩니다. PST 파일이 이 매개 변수로 지정된 세션 이름의 폴더에 복사됩니다.   <br/> | `/id:driveship1` <br/> |
     | `/srcdir:` <br/> |조직에서 세션 중에 복사될 PST 파일이 들어 있는 원본 디렉터리를 지정합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/srcdir:"\\FILESERVER01\PSTs"` <br/> |
     | `/dstdir:` <br/> |PSTS를 업로드할 Microsoft Azure Storage 영역의 대상 디렉터리를 지정합니다. 을(를) 사용해야  `ingestiondata/` 합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> 원하는 경우 이 매개 변수 값에 추가 파일 경로를 추가할 수도 있습니다. 예를 들어 매개 변수에 지정된 하드 드라이브(URL 형식으로 변환)에 원본 디렉터리의 파일 경로를 사용할 수  `/srcdir:` 있습니다. 예를 들어  `\\FILESERVER01\PSTs` 을 로  `FILESERVER01/PSTs` 변경합니다. 이 경우 파일 경로에  `ingestiondata` 포함해야 합니다. 따라서 이 예제에서 매개 변수의 값은  `/dstdir:`  `"ingestiondata/FILESERVER01/PSTs"` 입니다.  <br/> 다른 파일 경로를 추가하는 한 가지 이유는 파일 이름이 같은 PST 파일이 있는 경우입니다.  <br/> > [!NOTE]> 경로 이름을 포함하는 경우 PST 파일이 Azure Storage 영역에 업로드된 후의 PST 파일의 네임스페이스에는 PST 파일의 경로 이름과 이름이 포함됩니다. 예를 들면 `FILESERVER01/PSTs/annb.pst` 입니다. 경로 이름을 포함하지 않는 경우 네임스페이스는 PST 파일 이름만 됩니다. 예를 들면  `annb.pst` 입니다.           | `/dstdir:"ingestiondata/"` <br/> 또는  <br/>  `/dstdir:"ingestiondata/FILESERVER01/PSTs"` <br/> |
-    | `/sk:` <br/> |1단계에서 구한 저장소 계정 키를 지정합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `"yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ=="` <br/> |
     | `/blobtype:` <br/> |PST 파일을 가져올 Azure Storage 영역의 Blob 유형을 지정합니다. PST 파일을 가져오는 경우 **BlockBlob** 값을 사용 합니다. 이 매개 변수는 필수입니다.   <br/> | `/blobtype:BlockBlob` <br/> |
     | `/encrypt` <br/> |이 스위치는 하드 드라이브에 대해 BitLocker를 켭니다. 이 매개 변수는 WAImportExport.exe 도구를 처음 실행할 때 필요합니다.  <br/> BitLocker 암호화 키는 매개 변수를 사용하는 경우 만들어진 로그 파일 및 저널 파일에  `/logfile:` 복사됩니다. 앞서 설명한 것처럼 저널 파일은 WAImportExport.exe 도구가 있는 동일한 폴더에 저장됩니다.  <br/> | `/encrypt` <br/> |
     | `/logdir:` <br/> |이 선택적 매개 변수는 로그 파일을 저장할 폴더를 지정합니다. 지정하지 않으면 로그 파일은 로그 파일이 WAImportExport.exe 폴더에 저장됩니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/logdir:"c:\users\admin\desktop\PstImportLogs"` <br/> |
@@ -188,7 +187,7 @@ For frequently asked questions about using drive shipping to import PST files to
     다음은 각 매개 변수에 대한 실제 값을 사용하는 WAImportExport.exe 도구에 대한 구문 예입니다.
     
     ```powershell
-    WAImportExport.exe PrepImport /j:PSTHDD1.jrn /t:f /id:driveship1 /srcdir:"\\FILESERVER01\PSTs" /dstdir:"ingestiondata/" /sk:"yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ==" blobtype:BlockBlob /encrypt /logdir:"c:\users\admin\desktop\PstImportLogs"
+    WAImportExport.exe PrepImport /j:PSTHDD1.jrn /t:f /id:driveship1 /srcdir:"\\FILESERVER01\PSTs" /dstdir:"ingestiondata/" blobtype:BlockBlob /encrypt /logdir:"c:\users\admin\desktop\PstImportLogs"
     ```
 
     이 명령을 실행한 후 하드 드라이브에 대한 PST 파일 복사 진행률을 보여 주는 상태 메시지가 표시됩니다. 마지막 상태 메시지에는 성공적으로 복사된 파일의 총 수가 표시됩니다. 
@@ -245,7 +244,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
     | `ContentCodePage` <br/> |이 선택적 매개 변수는 ANSI 파일 형식으로 PST 파일을 가져오는 데 사용할 코드 페이지의 숫자 값을 지정합니다. 이 매개 변수는 중국어, 일본어 및 한국어 (CJK) 조직에서 PST 파일을 가져오는 데 사용됩니다. 이러한 언어는 일반적으로 문자 인코딩에 2 바이트 문자 세트 (DBCS)를 사용하기 때문입니다. 사서함 폴더 이름으로 DBCS를 사용하는 언어의 PST 파일을 가져오는 데 이 매개 변수를 사용하지 않으면, 가져온 후에 폴더 이름이 왜곡되는 경우가 많습니다.  <br/> 이 매개 변수를 사용하는 데 지원되는 값의 목록은 [코드 페이지 식별자](/windows/win32/intl/code-page-identifiers)를 참조하세요.  <br/> > [!NOTE]> 앞서 언급했듯이 이 매개 변수는 선택적 매개 변수이며 CSV 파일에 포함할 사항이 없습니다. 또는 포함하고 하나 이상의 행에 대해 값을 비워둘 수 있습니다.           |(공백으로 둠)  <br/> 또는  <br/>  `932` (ANSI/OEM 일본어에 대한 코드 페이지 식별자)  <br/> |
     | `SPFileContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
     | `SPManifestContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
-    | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 사항 없음  <br/> |
+    | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
 
 ## <a name="step-4-create-a-pst-import-job-in-office-365"></a>4단계: Office 365에서 PST 가져오기 작업 만들기
 
@@ -255,7 +254,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
 
 2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 **거버넌스 가져오기 를** \> **클릭합니다.**
 
-3. 가져오기 **탭에서** 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업 입니다.**
+3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업** 을 클릭합니다.
 
     > [!NOTE]
     > 앞서 설명한 것 처럼 가져오기 페이지에 액세스하려면  적절한 사용 권한을 할당해야 Microsoft 365 규정 준수 센터.
@@ -294,7 +293,7 @@ Microsoft 데이터 센터 직원이 하드 드라이브의 PST 파일을 Azure 
   
 12. CSV 파일 이름이 **매핑 파일 이름** 아래에 나타나면 **유효성 검사** 를 클릭하여 CSV 파일에 오류가 있는지 확인합니다. 
 
-    ![유효성 검사를 클릭하여 CSV 파일에서 오류를 검사합니다.](../media/4680999d-5538-4059-b878-2736a5445037.png)
+    ![유효성 검사를 클릭하여 CSV 파일에 오류가 있는지 검사합니다.](../media/4680999d-5538-4059-b878-2736a5445037.png)
   
     PST 가져오기 작업을 만들려면 CSV 파일의 유효성 검사를 성공적으로 완료해야 합니다. 파일의 유효성 검사를 성공적으로 완료하면 파일 이름이 녹색으로 변경됩니다. 유효성 검사에 실패할 경우 **로그 보기** 링크를 클릭합니다. 실패한 파일의 각 행에 대한 오류 메시지를 포함한 유효성 검사 오류 보고서가 열립니다. 
 
@@ -373,7 +372,7 @@ PST 파일이 Azure에 업로드되고 나면 상태가 **Analysis in progress�
 
 5. **데이터 필터링** 페이지가 표시됩니다. 여기에는 데이터 수명에 대한 정보를 포함하여 Office 365의 PST 파일에서 수행한 분석에서 얻은 데이터 인사이트가 포함되어 있습니다. 이 시점에서 모든 데이터를 그대로 가져 오거나 가져올 데이터를 필터링할 수 있습니다. 
 
-    ![PST 파일의 데이터를 트리밍하거나 모든 데이터를 가져올 수 있습니다.](../media/287fc030-99e9-417b-ace7-f64617ea5d4e.png)
+    ![PST 파일의 데이터를 트리밍하거나 또는 모든 파일을 가져올 수 있습니다.](../media/287fc030-99e9-417b-ace7-f64617ea5d4e.png)
   
 6. 다음 중 하나를 수행합니다.
 
@@ -387,7 +386,7 @@ PST 파일이 Azure에 업로드되고 나면 상태가 **Analysis in progress�
 
 7. 모든 데이터를 가져 오도록 선택한 경우 **데이터 가져오기** 를 클릭하여 가져오기 작업을 시작합니다. 
 
-    가져오기 작업의 상태가 PST 파일 **가져오기 페이지에** 표시됩니다. 새로 ![ 고침 아이콘을 클릭합니다.](../media/O365-MDM-Policy-RefreshIcon.gif) **상태** 열에 표시되는 상태 정보를 업데이트합니다.  가져오기 작업을 클릭하여 가져오는 각 PST 파일에 대한 상태 정보를 표시하는 상태 플라이 아웃 페이지를 표시합니다. 가져오기가 완료되고 PST 파일이 사용자 사서함으로 가져오기되면 상태는 **완료** 로 바뀝니다.
+    가져오기 작업의 상태가 PST 파일 **가져오기 페이지에** 표시됩니다. ![새로 고침 아이콘](../media/O365-MDM-Policy-RefreshIcon.gif)을 클릭합니다. **새로 고침** **상태** 열에 표시되는 상태 정보를 업데이트합니다. 가져오기 작업을 클릭하여 가져오는 각 PST 파일에 대한 상태 정보를 표시하는 상태 플라이 아웃 페이지를 표시합니다. 가져오기가 완료되고 PST 파일이 사용자 사서함으로 가져오기되면 상태는 **완료** 로 바뀝니다.
 
 ## <a name="view-a-list-of-the-pst-files-uploaded-to-microsoft-365"></a>서버에 업로드된 PST 파일 목록을 Microsoft 365
 
@@ -404,7 +403,7 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
 
 2. Microsoft 365 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스 > 가져오기** 를 클릭합니다.
 
-3. 가져오기 **탭에서** 아이콘 ![ 추가를 클릭합니다.](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업 입니다.**
+3. **가져오기** 탭에서 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업** 을 클릭합니다.
 
 4. 가져오기 작업 마법사에서 PST 가져오기 작업의 이름을 입력하고 다음 을 **클릭합니다.** 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
 
@@ -479,7 +478,7 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
 
   First time:
 
-  WAImportExport.exe PrepImport /j:<Name of journal file> /t:<Drive letter> /id:<Name of session> /srcdir:<Location of PST files> /dstdir:<PST file path> /sk:<Storage account key> /blobtype:BlockBlob /encrypt /logdir:<Log file location>
+  WAImportExport.exe PrepImport /j:<Name of journal file> /t:<Drive letter> /id:<Name of session> /srcdir:<Location of PST files> /dstdir:<PST file path> /blobtype:BlockBlob /encrypt /logdir:<Log file location>
 
   Subsequent times:
 
@@ -489,7 +488,8 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
 
   First time:
 
-  WAImportExport.exe PrepImport /j:PSTHDD1.jrn /t:f /id:driveship1 /srcdir:"\\FILESERVER1\PSTs" /dstdir:"ingestiondata/" /sk:"yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ==" /blobtype:BlockBlob /encrypt /logdir:"c:\users\admin\desktop\PstImportLogs"
+  WAImportExport.exe PrepImport /j:PSTHDD1.jrn /t:f /id:driveship1 /srcdir:"\\FILESERVER1\PSTs" /dstdir:"ingestiondata/"
+  /blobtype:BlockBlob /encrypt /logdir:"c:\users\admin\desktop\PstImportLogs"
 
   Subsequent times:
 

@@ -18,11 +18,11 @@ ms.assetid: ''
 description: Advanced eDiscovery 관리 도구를 사용하여 사례 내에서 보호자에 대한 활동에 쉽게 액세스하고 검색할 수 있습니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 4069b4ee61f15cfbe8f0f7f74cb42e9790f0106a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570776"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216172"
 ---
 # <a name="view-custodian-audit-activity"></a>보유자 감사 활동 보기
 

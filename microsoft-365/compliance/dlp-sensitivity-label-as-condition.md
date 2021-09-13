@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: DLP 정책에서 민감도 레이블을 조건으로 사용할 수 있는 서비스 및 항목 형식에 대해 배워봅니다.
 ms.openlocfilehash: aa9b936f7c40227245d0ffd9fbbc951e51c49321
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567751"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219035"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>DLP 정책에서 민감도 레이블을 조건으로 사용
 

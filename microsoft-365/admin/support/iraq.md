@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fbd562d98d953020eca9322b496378826f956f559590040c809cf3a88291128f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 05e7b3042eeb3a40b2ed733f680591f0a4d14774
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867418"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217495"
 ---
 # <a name="contact-support-for-iraq"></a>이라크 지원에 문의
 

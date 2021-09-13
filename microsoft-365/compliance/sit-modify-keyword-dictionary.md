@@ -19,11 +19,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365 준수 센터에서 키워드 사전을 수정하는 방법을 자세히 알아보습니다.
 ms.openlocfilehash: e060b09f271615f98fe43002029144b119013439
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565373"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218842"
 ---
 # <a name="modify-a-keyword-dictionary"></a>키워드 사전 수정
 

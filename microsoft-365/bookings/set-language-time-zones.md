@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 94af3e22-aca6-4e91-8b91-1cd5a02a9ea8
 description: Microsoft Bookings에서 언어 및 표준 시간대 설정을 변경합니다. 잘못된 시간으로 예약을 만든 경우 Bookings가 잘못된 표준 시간대에 대해 설정될 수 있습니다.
 ms.openlocfilehash: 2ccea0446d168476961294ba5800ad3899bd24eb
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58556447"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219452"
 ---
 # <a name="set-language-and-time-zones-in-microsoft-bookings"></a>Microsoft Bookings에서 언어 및 표준 시간대 설정
 

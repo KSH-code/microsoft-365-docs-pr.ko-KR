@@ -1,5 +1,5 @@
 ---
-title: 자동화된 조사의 세부 정보 및 결과
+title: 자동 조사의 세부 내용과 결과
 description: 2013에서 자동화된 조사의 결과와 주요 결과를 Microsoft 365 Defender
 keywords: 자동화, 조사, 결과, 분속, 세부정보, 재구성, 오토에어
 search.appverid: met150
@@ -22,13 +22,13 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.openlocfilehash: 028c099dc046d6402d187e5bde0a1536e44657a4
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572986"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218162"
 ---
-# <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
+# <a name="details-and-results-of-an-automated-investigation"></a>자동 조사의 세부 내용과 결과
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -56,7 +56,7 @@ ms.locfileid: "58572986"
 
 ### <a name="select-an-item-in-the-action-center"></a>작업 센터에서 항목 선택
 
-향상된 [알림](m365d-action-center.md) 센터( )는 장치, 전자 메일 및 공동 작업 콘텐츠 및 id에 & 조치를 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 제공합니다. [](m365d-remediation-actions.md) 나열된 작업에는 자동으로 또는 수동으로 수행된 수정 작업이 포함됩니다. 작업 센터에서 승인을 대기하는 작업과 이미 승인되거나 완료된 작업을 볼 수 있습니다. 조사 페이지와 같은 자세한 정보로 이동할 수 있습니다.
+향상된 [알림](m365d-action-center.md) 센터( )는 장치, 전자 메일 및 공동 작업 콘텐츠 및 id에 & 조치를 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 제공합니다. [](m365d-remediation-actions.md) 나열된 작업에는 자동으로 또는 수동으로 수행된 수정 작업이 포함됩니다. 알림 센터에서 승인 대기 중인 작업과 이미 승인되거나 완료된 작업을 볼 수 있습니다. 조사 페이지와 같은 자세한 정보로 이동할 수 있습니다.
 
 > [!TIP]
 > 작업을 [승인,](m365d-action-center.md#required-permissions-for-action-center-tasks) 거부 또는 취소하려면 특정 권한이 있어야 합니다.

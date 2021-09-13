@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4064a2d4469fb842a6446c1a869de44a48f2b627cdb25ae4f7999a255c3d04f2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3ff62265783be846a95964164e372100fe1ef662
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53792917"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220112"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender 고급 헌팅 API
 
@@ -47,14 +47,14 @@ ms.locfileid: "53792917"
 1. 쿼리는 지난 30일 동안의 데이터를 탐색하고 반환합니다.
 2. 결과는 최대 100,000개 행을 반환할 수 있습니다.
 3. 테넌트당 분당 최대 15통의 통화를 만들 수 있습니다.
-4. 다음 15분 주기 후에 테넌트가 100%에 도달하면 쿼리가 차단됩니다.
+4. 다음 15분 주기가 지날 때까지 테넌트가 100%에 도달하면 쿼리가 차단됩니다.
 5. 단일 요청이 10분 이상 실행되는 경우 시간이 너무 까다로우며 오류가 반환됩니다.
 6. HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문을 읽고 도달한 제한을 이해합니다. 
 
 > [!NOTE]
 > 위에 나열된 모든 할당량(예: 분당 통화 수 15개)은 테넌트 크기당입니다. 이러한 할당량은 최소값입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 고급 헌팅 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Access the Microsoft 365 Defender Protection API를 참조합니다.](api-access.md)
 

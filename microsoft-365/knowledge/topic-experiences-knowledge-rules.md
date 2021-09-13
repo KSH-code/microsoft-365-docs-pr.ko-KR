@@ -11,11 +11,11 @@ search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 표시를 관리하는 방법을 배워야 합니다.
 ms.openlocfilehash: b1ea14ccd1872825cd9ce7edb35ddc8c0a7f176e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561065"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218455"
 ---
 # <a name="manage-topic-visibility-in-microsoft-viva-topics"></a>항목의 항목 표시 Microsoft Viva 관리
 

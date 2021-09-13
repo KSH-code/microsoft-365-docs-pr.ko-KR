@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: eDiscovery Microsoft 365 전자 메일 메시지에 첨부되고 SharePoint 온라인 및 전자 메일 메시지에 저장된 암호화된 문서를 처리하는 비즈니스용 OneDrive.
-ms.openlocfilehash: 7cdd06dd19299fb9e1127f55bc9bc845bb7c14e6
-ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
+ms.openlocfilehash: 0662b6a2bbedefc2dd996491171dc1abde49bb8e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58831912"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218975"
 ---
 # <a name="decryption-in-microsoft-365-ediscovery-tools"></a>eDiscovery Microsoft 365 암호 해독
 
@@ -38,7 +38,7 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 보다 쉽게 관리할 
 Microsoft eDiscovery 도구는 Microsoft 암호화 기술로 암호화된 항목을 지원합니다. 이러한 기술은 Azure 권한 관리 및 Microsoft Information Protection(특히 민감도 레이블)입니다. Microsoft 암호화 기술에 대한 자세한 내용은 암호화를 [참조하세요.](encryption.md) 타사 암호화 기술로 암호화된 콘텐츠는 지원되지 않습니다. 예를 들어 Microsoft가 아닌 기술로 암호화된 콘텐츠를 미리 보거나 내보내는 것은 지원되지 않습니다.
 
 > [!NOTE]
-> OME(Office 365 메시지 암호화)로 암호화된 전자 메일 메시지의 암호 해독은 Microsoft eDiscovery 도구에서 지원되지 않습니다.
+> Microsoft eDiscovery 도구에서 [OME(Office 365 메시지 암호화)](add-your-organization-brand-to-encrypted-messages.md) 사용자 지정 브랜징 템플릿을 사용하여 전송된 전자 메일 메시지의 암호 해독은 지원되지 않습니다. OME 사용자 지정 브랜징 템플릿을 사용하는 경우 전자 메일 메시지가 받는 사람의 사서함 대신 OME 포털로 배달됩니다. 따라서 받는 사람의 사서함에서 해당 메시지를 받지 못하므로 eDiscovery 도구를 사용하여 OME로 암호화된 메시지를 검색할 수 없습니다.
 
 ## <a name="ediscovery-activities-that-support-encrypted-items"></a>암호화된 항목을 지원하는 eDiscovery 활동
 

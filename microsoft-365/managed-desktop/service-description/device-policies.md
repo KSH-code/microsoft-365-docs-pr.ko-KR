@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0e763e78513426e187ab4f3df87438ac750d6f4a77d8a0b5791276685c221a89
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e4f07adb051dde24d374055d206955ad61df432a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854438"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218412"
 ---
 # <a name="device-configuration"></a>장치 구성
 

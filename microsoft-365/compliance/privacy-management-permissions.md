@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: 개인 정보 관리 권한을 설정하고 사용자를 역할 그룹에 할당하는 방법을 배워야 합니다.
 ms.openlocfilehash: 6caf786a99e08c2f5c6abfd4c2dbabc438151d06
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747012"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216595"
 ---
 # <a name="set-user-permissions-and-assign-roles-in-privacy-management-preview"></a>개인 정보 관리에서 사용자 권한 설정 및 역할 할당(미리 보기)
 

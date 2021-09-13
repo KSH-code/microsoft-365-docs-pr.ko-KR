@@ -19,11 +19,11 @@ description: 관리자는 Microsoft Defender for 금고 링크에 대한 전역 
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 099ff894cc350ecedbd7743ab348aede540874ab
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575495"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219822"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크에 대한 전역 설정 Office 365
 
@@ -47,7 +47,7 @@ ms.locfileid: "58575495"
 
 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 전역 Exchange Online 링크 설정을 구성할 수 있습니다. Exchange Online 사서함이 있는 적격 Microsoft 365 조직의 경우, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell은 Office 365 추가 기능 구독용 Microsoft Defender를 사용하여 구성할 수 있습니다. 금고
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 기본 제공 또는 기본 금고 링크 정책이 있으므로 다음 URL 차단 목록이 금고 링크 정책을 하나  이상 만들어야 합니다. 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
@@ -82,7 +82,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
 
 3. "다음 URL 차단" 목록에 대한 항목 구문에 설명된 하나 이상의 항목을 [구성합니다.](safe-links.md#entry-syntax-for-the-block-the-following-urls-list)
 
-   작업을 마쳤으면 **저장** 을 클릭합니다.
+   작업을 마친 후 **저장** 을 클릭합니다.
 
 ### <a name="configure-the-block-the-following-urls-list-in-powershell"></a>PowerShell에서 "다음 URL 차단" 목록 구성
 
@@ -131,7 +131,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
 
    - 사용자가 Office 365 앱에서 원래 URL을 클릭할 수 있도록 합니다. 사용자가 지원되는 Office 365 앱에서 원래 차단된 **URL을** 클릭하지 못하게 차단하려면 토글이 오른쪽에 있는지 ![ 확인합니다. ](../../media/scc-toggle-on.png)
 
-   작업을 마쳤으면 **저장** 을 클릭합니다.
+   작업을 마친 후 **저장** 을 클릭합니다.
 
 ### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>PowerShell에서 금고 앱에 대한 Office 365 링크 보호 구성
 

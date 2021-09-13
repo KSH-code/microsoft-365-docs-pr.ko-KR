@@ -13,11 +13,11 @@ description: 관리자는 보안 및 준수 센터에서 새 사용자 전달 �
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: d517b5f9a7146d7256b89ae4e4d4d5f4aa6fc14f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568471"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217992"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전자 메일 정보를 전달하는 & 사용자
 

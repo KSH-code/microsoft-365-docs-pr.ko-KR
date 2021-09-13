@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 서비스 암호화가 고객 키와 함께 작동하는 방식에 대해 Microsoft 365.
 ms.openlocfilehash: 7f765d8a9c59ad8bdc5e7d2edba7f18af426cc76
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863932"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216882"
 ---
 # <a name="service-encryption-with-customer-key"></a>고객 키를 사용한 서비스 암호화
 

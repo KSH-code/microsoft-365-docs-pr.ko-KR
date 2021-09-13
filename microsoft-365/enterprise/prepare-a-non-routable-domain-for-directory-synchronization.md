@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
 description: 라우팅할 수 없는 도메인을 사용자 테넌트와 동기화하기 전에 라우팅할 수 없는 도메인이 있는 경우 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: dd93cfd85aa6f6f5788b6ae5562c2a2def3ffaa0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574294"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220771"
 ---
 # <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비
 

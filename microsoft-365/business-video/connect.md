@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: PC를 비즈니스용 비즈니스에 연결하는 Microsoft 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: ef504bf6a0b6e3f4c97135c073862ffcd2be953104c91fbbdf57efa77cbcb33e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7afbf3a1a515b1f023d660e72a77144b93d66a89
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53803585"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219355"
 ---
 # <a name="connect-your-pc-to-microsoft-365-business-premium"></a>커넥트 PC를 Microsoft 365 Business Premium
 

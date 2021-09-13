@@ -17,11 +17,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 더블 Advanced eDiscovery 집합을 Microsoft 365, 중국어, 일본어 및 한국어(CJK) 언어를 지원하는 방법을 배워야 합니다.
 ms.openlocfilehash: bcab34e8232a77cecf7d7331d75d140f73e4db37
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572038"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218982"
 ---
 # <a name="cjk-language-support-for-advanced-ediscovery"></a>CJK 언어 지원 Advanced eDiscovery
 
@@ -33,7 +33,7 @@ Advanced eDiscovery 검토 집합에서 다음과 같은 고급 시나리오에 
 
 - 중복에 [가까운 검색,](analyzing-data-in-review-set.md) 전자 메일 스레딩 및 테마 분석을 사용하여 검토 집합의 사례 데이터를 분석할 때
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **검색을 만들어 CJK 문자가 포함된 항목을 수집하는 방법**
 

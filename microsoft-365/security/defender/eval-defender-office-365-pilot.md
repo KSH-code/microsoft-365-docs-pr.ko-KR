@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: how-to
 ms.technology: m365d
 ms.openlocfilehash: 5e2588361cfc416b8d7aa8b51b8e12ded8a7ceca
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570464"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220005"
 ---
 # <a name="pilot-microsoft-defender-for-office-365"></a>파일럿 Microsoft Defender for Office 365
 **적용 대상:**

@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: None
 description: 자세한 내용은 Microsoft Viva 참조하세요.
 ms.openlocfilehash: 5456ef27b23ff36cd1919274424c179f8ec3d683
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572638"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218492"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>항목 센터 개요 Microsoft Viva 항목
 

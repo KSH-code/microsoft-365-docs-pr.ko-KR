@@ -15,28 +15,29 @@ ms.collection:
 - m365solution-audit
 - m365initiative-compliance
 - m365solution-scenario
+ms.custom: admindeeplinkMAC
 search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사용자 계정이 손상된 경우 포렌식 조사를 수행하거나 기타 보안 관련 인시던트에 대한 조사를 수행할 수 있도록 고급 감사를 설정하는 방법을 설명합니다.
-ms.openlocfilehash: 0df68516795c094aa33d048e77b5ca2d1b396ed7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 45eef36cd0577708869846308c88f2dd0926d43e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569756"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216455"
 ---
 # <a name="set-up-advanced-audit-in-microsoft-365"></a>2013에서 고급 감사 Microsoft 365
 
 조직에 고급 감사를 지원하는 구독 및 최종 사용자 라이선스가 있는 경우 다음 단계를 수행하여 고급 감사의 추가 기능을 설정하고 사용하세요.
 
-![고급 감사를 설정하는 워크플로입니다.](../media/AdvancedAuditWorkflow.png)
+![고급 감사 설정 워크플로.](../media/AdvancedAuditWorkflow.png)
 
 ## <a name="step-1-set-up-advanced-audit-for-users"></a>1단계: 사용자에 대한 고급 감사 설정
 
 MailItemsAccessed 및 전송과 같은 중요한 이벤트를 기록하는 기능과 같은 고급 감사 기능을 사용하려면 적절한 E5 라이선스가 사용자에게 할당되어야 합니다. 또한 이러한 사용자에 대해 고급 감사 앱/서비스 계획을 실행해야 합니다. 고급 감사 앱이 사용자에게 할당되었는지 확인하려면 각 사용자에 대해 다음 단계를 수행하세요.
 
-1. [Microsoft 365 관리 센터](https://admin.microsoft.com/Adminportal)에서 **사용자** > **활성 사용자** 로 이동하여 라이선스를 할당합니다.
+1. 이 Microsoft 365 관리 센터 사용자 활성 사용자로  >  이동하여 사용자를 선택합니다.<a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"></a>
 
 2. 사용자 속성 플라이아웃 페이지에서 **라이선스 및 앱** 을 클릭합니다.
 

@@ -22,11 +22,11 @@ description: AllowSelfServicePurchase PowerShell cmdlet을 사용하여 셀프 �
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 07/16/2021
 ms.openlocfilehash: 1de0b99954883b301110689c72e10e05c16e7576
-ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58408049"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219072"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용
 

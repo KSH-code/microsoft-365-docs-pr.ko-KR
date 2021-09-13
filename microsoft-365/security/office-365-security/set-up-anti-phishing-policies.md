@@ -18,11 +18,11 @@ description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: b0b7e93c59484bb3f7b1e34d33dd3ee7a19f7634
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574523"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217945"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -56,7 +56,7 @@ ms.locfileid: "58574523"
 |스푸핑 설정|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
 |첫 번째 보안 팁|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
 |가장 설정||![확인 표시](../../media/checkmark.png)|
-|고급 피싱 임계값||![확인 표시](../../media/checkmark.png)|
+|고급 피싱 임곗값||![확인 표시](../../media/checkmark.png)|
 |
 
 <sup>\*</sup> 기본 정책에서 정책 이름 및 설명은 읽기 전용(설명은 비어 있습니다)으로, 정책을 적용하는 사람을 지정할 수 없습니다(기본 정책은 모든 받는 사람에게 적용).
@@ -114,7 +114,7 @@ ms.locfileid: "58574523"
 - **무단 보낸** 사람 알림: 이러한 알림은 스푸핑 인텔리전스가 켜져 있는 경우만 사용할 수 있습니다. 다음 섹션의 정보를 참조하세요.
 - **작업:** 차단된 스푸핑된 보낸 사람(스푸핑 인텔리전스에 의해 자동으로 차단되거나 테넌트 허용/차단 목록에서 수동으로 차단)의 메시지에 대해 메시지에 대해 수행할 작업을 지정할 수도 있습니다.
   - **받는 사람의** 정크 메일 폴더로 메시지 이동 : 이 값은 기본값입니다. 메시지가 사서함으로 배달된 후 정크 메일 폴더로 이동됩니다. 이 Exchange Online 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우 메시지가 정크 메일 폴더로 이동됩니다(기본적으로 사용하도록 설정). 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
-  - **메시지 Quarantine the message**: Sends the message to quarantine instead of the intended recipients. 검사에 대한 자세한 내용은 다음 문서를 참조하십시오.
+  - **메시지 Quarantine the message**: Sends the message to quarantine instead of the intended recipients. 격리에 대한 자세한 내용은 다음 게시물을 참조하세요.
     - [Microsoft 365](quarantine-email-messages.md)
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
     - [2016년 8월에 사용자로 확인된 메시지 찾기 및 Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
@@ -195,7 +195,7 @@ ms.locfileid: "58574523"
   - **어떤 작업도 적용하지 않습니다.**
   - **메시지를 다른** 전자 메일 주소로 리디렉션: 지정된 받는 사람이 아닌 지정된 받는 사람에게 메시지를 보냅니다.
   - **받는 사람의** 정크 메일 폴더로 메시지 이동: 메시지가 사서함으로 배달된 후 정크 메일 폴더로 이동됩니다. 이 Exchange Online 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우 메시지가 정크 메일 폴더로 이동됩니다(기본적으로 사용하도록 설정). 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
-  - **메시지 Quarantine the message**: Sends the message to quarantine instead of the intended recipients. 검사에 대한 자세한 내용은 다음 문서를 참조하십시오.
+  - **메시지 Quarantine the message**: Sends the message to quarantine instead of the intended recipients. 격리에 대한 자세한 내용은 다음 게시물을 참조하세요.
     - [Microsoft 365](quarantine-email-messages.md)
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
     - [2016년 8월에 사용자로 확인된 메시지 찾기 및 Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)

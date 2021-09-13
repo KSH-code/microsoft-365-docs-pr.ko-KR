@@ -17,11 +17,11 @@ search.appverid:
 description: 검색 통계 기능을 사용하여 검색의 Core eDiscovery 사례와 연결된 콘텐츠 검색 및 검색에 대한 통계를 표시하는 Microsoft 365 규정 준수 센터.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 7f9948a5ae194a475f5bdcf319aa48fa32cc282f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58552915"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216175"
 ---
 # <a name="view-statistics-for-ediscovery-search-results"></a>eDiscovery 검색 결과에 대한 통계 보기
 

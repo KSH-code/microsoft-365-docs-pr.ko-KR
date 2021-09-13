@@ -1,5 +1,5 @@
 ---
-title: 클라이언트 분석기를 클라이언트 Windows
+title: Windows에서 클라이언트 분석기 실행
 description: Microsoft Defender for Endpoint Client Analyzer를 2013에서 Windows.
 keywords: 클라이언트 분석기, 센서 문제 해결, 분석기, mdeanalyzer, windows
 search.product: eADQiWindows 10XVcnh
@@ -21,13 +21,13 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 754ec7b6cdd6e6c5e3c9f5765d839bd94a1d720b
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255017"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218292"
 ---
-#  <a name="run-the-client-analyzer-on-windows"></a>클라이언트 분석기를 클라이언트 Windows
+#  <a name="run-the-client-analyzer-on-windows"></a>Windows에서 클라이언트 분석기 실행
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
@@ -110,5 +110,5 @@ HardDrivePath\MDEClientAnalyzer.cmd
 ## <a name="see-also"></a>참고 항목
 - [클라이언트 분석기 개요](overview-client-analyzer.md)
 - [클라이언트 분석기 다운로드 및 실행](download-client-analyzer.md)
-- [고급 문제 해결을 위한 데이터 Windows](data-collection-analyzer.md)
+- [Windows에서 고급 문제 해결을 위한 데이터 수집](data-collection-analyzer.md)
 - [분석기 HTML 보고서 이해](analyzer-report.md)

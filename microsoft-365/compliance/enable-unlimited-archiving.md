@@ -20,11 +20,11 @@ ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자용: 자동 확장 보관을 사용하도록 설정하여 사용자에게 사서함에 대한 무제한 저장소를 Exchange Online 방법을 배워야 합니다. 전체 조직 또는 특정 사용자에 대해 자동 확장 보관을 사용하도록 설정할 수 있습니다.'
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: b2e439d511badce9e7010b3949f299686c0487ff
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569084"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218895"
 ---
 # <a name="enable-unlimited-archiving---admin-help"></a>무제한 보관 사용 - 관리자 도움말
 

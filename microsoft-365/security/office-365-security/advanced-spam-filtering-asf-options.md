@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 방지 정책)에서 사용할 수 있는 ASF(고급 스팸 필터) 설정에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5f2646863c7b31fae6aa292cca23181996c266b158f168c471675d0f4c6bab69
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 77676277678bd6f8dcfade2b6929a9e1e113bf4b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56886216"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219912"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>EOP의 ASF(고급 스팸 필터) 설정
 
@@ -60,7 +60,7 @@ ms.locfileid: "56886216"
   - **기본 X-헤더 텍스트 추가(*AddXHeader*)**: X-헤더 값이 `X-CustomSpam: This message was filtered by the custom spam filter option` 메시지에 추가됩니다. 받은 편지함 규칙 또는 메일 흐름 규칙(전송 규칙)에서 이 값을 사용하여 메시지 배달에 영향을 줄 수 있습니다.
   - **Bcc 메시지 보내기(*BccMessage*)**: 지정된 전자 메일 주소(PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 Bcc 필드에 추가되어 추가 Bcc 받는 사람에게 메시지가 배달됩니다. Microsoft 365 Defender 포털에서 전자 메일 주소가 여러 개인 경우 각 전자 메일 주소를 세미 ;). PowerShell에서는 전자 메일 주소가 여러 개인 경우 각 주소를 각 전자 메일 주소로 구분합니다.
 
-  **참고:**
+  **참고**:
 
   - 다음 ASF 설정에는 테스트 모드를 사용할 수 없습니다.
     - **조건부 보낸 사람 ID 필터링: 하드 실패(** *MarkAsSpamFromAddressAuthFail*)

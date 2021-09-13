@@ -17,11 +17,11 @@ f1.keywords: NOCSH
 recommendations: false
 description: Microsoft 365 그룹과 그룹 간의 설정 상호 작용에 대해 SharePoint
 ms.openlocfilehash: eb2f4ff9745eb73f23c48630582aa455ee2bb561
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567979"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217872"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-and-sharepoint"></a>설정 그룹과 Microsoft 365 상호 작용 SharePoint
 

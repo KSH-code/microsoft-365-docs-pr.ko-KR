@@ -15,11 +15,11 @@ ms.collection:
 ms.custom: ''
 description: Contoso가 IDaaS(Identity as a Service)를 활용하고 직원을 위해 클라우드 기반 인증을 제공하고, 파트너 및 고객을 위해 페더레이션 인증을 제공하는 방법을 알아봅니다.
 ms.openlocfilehash: b8943f0af678ed3d86d1428fe44cd6ab67554470
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574054"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218692"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Contoso Corporation의 ID
 

@@ -17,11 +17,11 @@ ms.custom:
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 서비스 공급자에 등록하는 Microsoft 365 Lighthouse.
 ms.openlocfilehash: 80e56055a89d73f53c025de05dfc1e8dabedda78
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507893"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218495"
 ---
 # <a name="sign-up-for-microsoft-365-lighthouse"></a>등록을 Microsoft 365 Lighthouse
 

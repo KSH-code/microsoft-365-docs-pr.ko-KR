@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 0140f704-6614-49bb-aa6c-89b75dcd7f1f
 description: 이 정보를 사용하여 OFFICE 365 CDNS(콘텐츠 배달 네트워크)를 사용하여 성능을 개선하는 방법에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: a5213c1718db00cfeb49c437fc7178a527adb07f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: d50fc51307cdddb6e77a661ca5319d81ad1a0afc
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569528"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218702"
 ---
 # <a name="content-delivery-networks-cdns"></a>콘텐츠 배달 네트워크(CDN)
 
@@ -37,7 +37,7 @@ CDNS를 사용하면 최종 Office 365 빠르고 안정적으로 사용할 수 �
 
 CDN 네트워크는 고속 백본 네트워크로 연결된 데이터 센터의 프록시 및 파일 서버로 구성된 지리적으로 분산된 네트워크입니다. CDNS는 웹 사이트 또는 서비스의 지정된 파일 및 개체 집합에 대한 대기 시간 및 로드 시간을 줄이는 데 사용됩니다. 한 CDN 위치에서 들어오는 요청을 최적으로 처리하기 위해 수천 개의 끝점이 있을 수 있습니다.
 
-CDNS는 일반적으로 웹 사이트 또는 서비스에 대한 일반 콘텐츠(예: javascript 파일, 아이콘 및 이미지)를 더 빠르게 다운로드하는 데 사용하며, SharePoint Online 문서 라이브러리의 파일, 스트리밍 미디어 파일 및 사용자 지정 코드와 같은 사용자 콘텐츠에 대한 개인 액세스를 제공할 수도 있습니다.
+CDNS는 일반적으로 Javascript 파일, 아이콘 및 이미지와 같은 웹 사이트 또는 서비스에 대한 일반 콘텐츠를 더 빠르게 다운로드하는 데 사용하며, SharePoint Online 문서 라이브러리의 파일, 스트리밍 미디어 파일 및 사용자 지정 코드와 같은 사용자 콘텐츠에 대한 개인 액세스를 제공할 수도 있습니다.
 
 CDNS는 대부분의 엔터프라이즈 클라우드 서비스에서 사용됩니다. Office 365 같은 클라우드 서비스에는 전자 메일과 같은 독점 콘텐츠와 일반 콘텐츠(예: 아이콘)의 혼합을 다운로드하는 고객이 수백만 명 있습니다. 모든 사용자가 사용하는 이미지(아이콘)를 사용자 컴퓨터에 최대한 가깝게 두는 것이 더 효율적입니다. 모든 클라우드 서비스가 모든 대도시 지역이나 전 세계 모든 주요 인터넷 허브에 이러한 일반 콘텐츠를 저장하는 CDN 데이터 센터를 구축하여 이러한 CDNS 중 일부를 공유하는 것은 실용적이지 않습니다.
 
@@ -62,7 +62,7 @@ Office 365 CDN은 여러 위치, 즉 _출발지_ 에 정적 자산을 호스트�
 
 ![Office 365 CDN 다이어그램을 참조합니다.](../media/O365-CDN/o365-cdn-flow-transparent.svg "Office 365 CDN 다이어그램")
 
-Office 365 CDN 내의 **공개** 출처의 콘텐츠는 익명으로 액세스할 수 있으며 호스팅 된 자산에 대한 URL을 지닌 사람이면 누구나 액세스할 수 있습니다. 공개 출처의 콘텐츠에 대한 액세스는 익명이기 때문에 캐시 javascript 파일, 스크립트, 아이콘 및 이미지와 같은 중요하지 않은 일반 콘텐츠에만 사용할 수 있습니다. Office 365 CDN은 기본적으로 공개 출처의 Office 365 클라이언트 응용 프로그램 같은 일반 리소스를 다운로드하는 데 사용됩니다.
+Office 365 CDN 내의 **공개** 출처의 콘텐츠는 익명으로 액세스할 수 있으며 호스팅 된 자산에 대한 URL을 지닌 사람이면 누구나 액세스할 수 있습니다. 공개 출처의 콘텐츠에 대한 액세스는 익명이기 때문에 Javascript 파일, 스크립트, 아이콘 및 이미지와 같은 중요하지 않은 일반 콘텐츠를 캐시하는 데만 해당 콘텐츠를 사용해야 합니다. Office 365 CDN은 기본적으로 공개 출처의 Office 365 클라이언트 응용 프로그램 같은 일반 리소스를 다운로드하는 데 사용됩니다.
 
 **사이트** 내의 비공개 출처는 Office 365 CDN 온라인 문서 라이브러리, 사이트 및 소유 이미지와 SharePoint 콘텐츠에 대한 개인 액세스를 제공합니다. 비공개 출처의 콘텐츠에 대한 액세스는 동적으로 생성 된 토큰으로 보호되므로 원본 문서 라이브러리 또는 저장 위치에 대한 사용 권한을 가진 사용자만 액세스할 수 있습니다. Office 365 CDN의 비공개 출처는 SharePoint Online 콘텐츠에만 사용할 수 있으며 SharePoint Online 테넌트의 리디렉션을 통해 자산에만 액세스할 수 있습니다.
 
@@ -129,7 +129,7 @@ OFFICE 365 사용 중이던 CDNS는 항상 변경될 수 있으며, 대부분의
 
 |CDN  |Company  |사용 현황  |링크  |
 |---------|---------|---------|---------|
-|Office 365 CDN     |Akamai         |공개 출처의 일반 자산, SharePoint 원본의 사용자 콘텐츠         |[온라인에서 Office 365 콘텐츠 배달 SharePoint 사용](use-microsoft-365-cdn-with-spo.md)         |
+|Office 365 CDN     |Microsoft Azure         |공개 출처의 일반 자산, SharePoint 원본의 사용자 콘텐츠         |[Microsoft Azure CDN](https://azure.microsoft.com/documentation/services/cdn/)         |
 |Azure CDN     |Microsoft         |사용자 지정 코드, SharePoint 프레임워크 솔루션         |[Microsoft Azure CDN](https://azure.microsoft.com/documentation/services/cdn/)         |
 |Microsoft Ajax CDN(읽기 전용)     |Microsoft         |Ajax, jQuery, ASP.NET, 부트스트ap, Knockout.js 라이브러리         |[Microsoft Ajax CDN](/aspnet/ajax/cdn/overview)         |
 
@@ -137,15 +137,15 @@ OFFICE 365 사용 중이던 CDNS는 항상 변경될 수 있으며, 대부분의
 
 테넌트와 가장 가까운 CDN 끝점에 대한 위치, CDN 및 대역폭의 일시적인 변경 등 Office 365에서 직접 다운로드한 데이터와 특정 CDN에서 다운로드한 데이터 간의 성능 차이를 측정하는 데에는 여러 가지 요인이 있습니다. 그러나 간단한 A/B 테스트는 특정 파일의 다운로드 시간 차이를 표시하는 데 도움이 될 수 있습니다.
 
-다음 스크린샷은 의 기본 파일 위치와 [Microsoft Ajax](/aspnet/ajax/cdn/overview)Office 365 호스트되는 파일 간의 다운로드 속도 차이를 Content Delivery Network. 이러한 스크린샷은 11개 개발자 **도구의** 네트워크 Internet Explorer 있습니다. 이러한 스크린샷은 인기 라이브러리 jQuery의 대기 시간을 보여 주며, 이 화면을 표시하려면 Internet Explorer **F12를** 누르고 네트워크  탭을 선택하면 Wi-Fi 표시됩니다.
+다음 스크린샷은 의 기본 파일 위치와 [Microsoft Ajax](/aspnet/ajax/cdn/overview)Office 365 호스트되는 파일 간의 다운로드 속도 차이를 Content Delivery Network. 이러한 스크린샷은 11개 개발자 **도구의** 네트워크 Internet Explorer 있습니다. 이러한 스크린샷은 인기 라이브러리 jQuery의 대기 시간을 보여 합니다. 이 화면을 표시하려면 Internet Explorer **F12를** 누르고 네트워크  탭을 선택하면 Wi-Fi 표시됩니다.
   
 ![F12 네트워크 스크린샷.](../media/930541fd-af9b-434a-ae18-7bda867be128.png)
   
-이 스크린샷은 온라인 사이트 자체의 마스터 페이지 갤러리에 업로드된 SharePoint 보여줍니다. 라이브러리를 업로드하는 데 걸려간 시간은 1.51초입니다.
+이 스크린샷은 온라인 사이트 자체의 마스터 페이지 갤러리에 SharePoint 보여줍니다. 라이브러리를 업로드하는 데 걸려간 시간은 1.51초입니다.
   
 ![로드 시간 1.51의 스크린샷.](../media/64225c79-fa53-480f-81cd-0d351674320e.png)
   
-두 번째 스크린샷은 Microsoft 2013에서 제공한 동일한 파일을 CDN. 이 시간의 대기 시간은 약 496밀리초입니다. 이는 크게 개선된 기능으로, 개체를 다운로드하는 데 1초가 1초가 떨어졌다는 것입니다.
+두 번째 스크린샷은 Microsoft에서 제공한 동일한 파일을 CDN. 이 시간의 대기 시간은 약 496밀리초입니다. 이는 크게 개선된 기능으로, 개체를 다운로드하는 데 1초가 1초가 떨어졌다는 것입니다.
   
 ![469 ms의 로드 시간 스크린샷.](../media/6a553cc3-25a0-42c1-aae7-4aebbc2eb4c3.png)
 

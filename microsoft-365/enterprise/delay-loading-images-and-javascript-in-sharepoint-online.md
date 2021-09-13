@@ -22,11 +22,11 @@ search.appverid:
 ms.assetid: 74d327e5-755f-4135-b9a5-7b79578c1bf9
 description: JavaScript를 사용하여 이미지 및 필수가 아닌 JavaScript의 로드를 SharePoint 온라인 페이지의 로드 시간을 줄이는 방법을 배워야 합니다.
 ms.openlocfilehash: 7be256db8bce115b130322d1dd34131d845ef165
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573142"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218572"
 ---
 # <a name="delay-loading-images-and-javascript-in-sharepoint-online"></a>SharePoint Online에서 이미지 및 JavaScript 로드 지연
 

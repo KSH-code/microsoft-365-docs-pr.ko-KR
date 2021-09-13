@@ -19,11 +19,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 54e060f1cc98f62ca048ce8d561247c47f189f24
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256797"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218392"
 ---
 # <a name="investigation-resource-type"></a>조사 리소스 유형
 
@@ -45,7 +45,7 @@ ms.locfileid: "58256797"
 
 ## <a name="methods"></a>메서드
 
-메서드|반환 형식|설명
+방법|반환 형식|설명
 :---|:---|:---
 [조사 목록](get-investigation-collection.md)|조사 컬렉션|조사 컬렉션을 얻습니다.
 [단일 조사하기](get-investigation-object.md)|조사 엔터티|단일 조사 엔터티를 만듭니다.
@@ -60,7 +60,7 @@ startTime|DateTime Nullable|조사를 만든 날짜 및 시간입니다.
 endTime|DateTime Nullable|조사가 완료된 날짜 및 시간입니다.
 cancelledBy|String|해당 조사를 취소한 사용자/응용 프로그램의 ID입니다.
 state|Enum|조사의 현재 상태입니다. 가능한 값은 '알 수 없음', 'Terminated', 'SuccessfullyRemediated', 'Benign', 'Failed', 'PartiallyRemediated', 'Running', 'PendingApproval', 'PendingResource', 'PartiallyInvestigated', 'TerminatedByUser', 'TerminatedBySystem', 'Queued', 'InnerFailure', 'PreexistingAlert', 'UnsupportedOs', 'UnsupportedAlertType', 'SuppressedAlert'.
-statusDetails|String|조사 상태 관련 추가 정보입니다.
+statusDetails|문자열|조사 상태 관련 추가 정보입니다.
 machineId|String|조사가 실행되는 장치의 ID입니다.
 computerDnsName|String|조사가 실행되는 장치의 이름입니다.
 triggeringAlertId|String|조사를 트리거한 경고의 ID입니다.

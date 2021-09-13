@@ -15,11 +15,11 @@ description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 3d4c39e722ed7d9853a4fb328a8e87aac535bea9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568087"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217965"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 SMTP & 인사이트 및 보고
 

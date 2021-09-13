@@ -21,12 +21,12 @@ ms.custom:
 - commerce_billing
 - AdminTemplateSet
 ms.date: 03/17/2021
-ms.openlocfilehash: 2327e889bbe0d4101f6f92b003dbee21902e9a403ec74c2e8527227bd6074766
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2ea5db8cbd68a6c0dd600730fac408dc4bb75e2a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53797125"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219152"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -148,7 +148,7 @@ Microsoft Corporation에서 청구를 수행하고(송장 참조) 미국, Micros
 
 판매세는 단가에 대해 계산된 다음 집계됩니다.
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
 
 >*(단가 X 세율) X 수량 = 총 판매세*
 

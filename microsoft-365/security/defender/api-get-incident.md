@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1e50e997dd6a64ac20b06c4a2717f10716642607c815dc12a9732dd64a419c93
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6f1e59dd653ef0718797a4b71e67c3607b39824c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888826"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220052"
 ---
 # <a name="get-incident-information-api"></a>인시던트 정보 얻기 API
 
@@ -44,7 +44,7 @@ ID로 특정 인시던트 검색
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다.
 

@@ -15,11 +15,11 @@ ms.collection:
 ms.custom: ''
 description: Contoso Corporation의 기업 정보와 전 세계 사무소의 계층 구조를 파악합니다.
 ms.openlocfilehash: 87508d47e5124f55a0302ca305b0dbd9de07e841
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569468"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218662"
 ---
 # <a name="overview-of-contoso-corporation"></a>Contoso Corporation 개요
 

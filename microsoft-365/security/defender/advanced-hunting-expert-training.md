@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 909247e914453cebbe86115561818cde7cb7c44e3ed8a4d1a8149db301b55031
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0b816956442408c9a61f662827f1fd45d9b6511f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893990"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220135"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>고급 헌팅에 대한 전문 교육을 받을 수 있습니다.
 

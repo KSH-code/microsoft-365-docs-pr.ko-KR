@@ -16,13 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: 조직의 유료 구독에 포함되어 있는 Azure Active Directory에 액세스하는 방법을 알아봅니다.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6921e0debd1d60fa3b8dafe71a6be161507edbaa9a235d6ae41fcf1eefd1178c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.custom:
+- seo-marvel-apr2020
+- admindeeplinkMAC
+ms.openlocfilehash: b36630397e931de826a7ca95ac9d3162929be1dc
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801465"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216192"
 ---
 # <a name="use-your-free-azure-active-directory-subscription"></a>무료 Azure Active Directory 구독 사용하기
 
@@ -50,6 +52,6 @@ ms.locfileid: "53801465"
 
 - 무료 Azure Active Directory 구독에는 로그인 활동 보고서가 포함되지 않습니다. 로그인 활동(데이터 침해에 유용할 수 있음)을 기록하려면 Azure Active Directory Premium 가입이 필요합니다. 자세한 내용은 [Azure AD는 데이터를 얼마나 오래 저장하나요?](/azure/active-directory/reports-monitoring/reference-reports-data-retention#how-long-does-azure-ad-store-the-data)를 참조하세요.
 
-- Microsoft 365 관리 센터에서 **Azure Active Directory** 관리 센터에 액세스할 수도 있습니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **관리 센터** \> **Azure Active Directory** 를 클릭합니다.
+- Microsoft 365 관리 센터에서 **Azure Active Directory** 관리 센터에 액세스할 수도 있습니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **관리 센터** \> [**Azure Active Directory**](https://go.microsoft.com/fwlink/p/?linkid=2067268)를 클릭합니다.
 
 - 사용자 및 그룹 관리와 기타 디렉터리 관리 작업 수행에 대한 자세한 내용은 [Azure AD 디렉터리 관리](/azure/active-directory/active-directory-administer)를 참조하세요.

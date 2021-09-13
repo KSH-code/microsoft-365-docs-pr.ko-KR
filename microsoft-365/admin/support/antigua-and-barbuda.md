@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6540fc02d90fda1aa63710eecc1f886f14c7d37bfe70a95d5c66dcf907018292
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a49295700ca31bca2deddb5c8a940213884657ff
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843818"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217842"
 ---
 # <a name="contact-support-for-antigua-and-barbuda"></a>앤티가 바부다 지원에 문의
 

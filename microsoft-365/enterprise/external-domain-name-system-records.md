@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Office 365 배포를 계획할 때 사용할 외부 Domain Name System 레코드의 참조 목록입니다.
 ms.openlocfilehash: e54a25aef956784fd74ad65dc54357ea3db0f57c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568928"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218545"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Office 365에 대한 외부 Domain Name System 레코드
 

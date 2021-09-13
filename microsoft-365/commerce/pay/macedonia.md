@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e1b49923b6ecda7c5d5e08f7e85f9466c88ad1a66d047d7831ed87199269d606
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 84e6f58fb9506a1a8c05e759b1273fa3fa97d7ab
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900418"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217185"
 ---
 # <a name="payment-information-for-macedonia-former-yugoslav-republic-of"></a>마케도니아 공화국(구 유고슬라비아 공화국)의 결제 정보
 

@@ -1,5 +1,5 @@
 ---
-title: 자동화된 조사 및 Microsoft 365 Defender
+title: Microsoft 365 Defender의 자동 조사 및 응답
 description: 자동 조사 및 응답 기능(자동 복구라고도 하는 자동 복구)에 대한 개요를 Microsoft 365 Defender
 keywords: 자동화, 조사, 경고, 트리거, 작업, 수정, 자동 복구
 search.appverid: met150
@@ -22,13 +22,13 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
 ms.openlocfilehash: 09274557ea35c87cb4346e797d1b5e5e26e96aa3
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255182"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219945"
 ---
-# <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>자동화된 조사 및 Microsoft 365 Defender
+# <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동 조사 및 응답
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -61,17 +61,17 @@ Imagine 계층 1 또는 계층 2 보안 운영 팀에 가상 분석가가 있는
 
 자동화된 조사 및 대응 기능을 통해 보안 운영 팀은 보안 경고 및 인시던트 처리를 위한 조직의 용량을 크게 늘려 줄 수 있습니다. 자동화된 조사 및 대응을 통해 조사 및 대응 활동을 처리하고 위협 방지 제품군을 가장 많이 사용할 수 있습니다. 자동화된 조사 및 대응 기능은 보안 운영 팀에 도움이 됩니다.
 
-1. 위협에 조치가 필요한지 여부를 판단합니다.
-2. 필요한 수정 작업을 수행(또는 권장)합니다.
-3. 다른 조사를 진행할지 여부와 그 외의 조사를 진행할지 결정
-4. 다른 경고가 발생하면 필요한 프로세스를 반복
+1. 위협에 조치가 필요한지 여부를 결정합니다.
+2. 필수 수정 조치를 취합니다(또는 권장합니다).
+3. 다른 조사를 수행해야 하는지 여부와 수행해야 할 작업을 결정합니다.
+4. 다른 경고에 대해 필요에 따라 프로세스를 반복합니다.
 
 ## <a name="the-automated-investigation-process"></a>자동화된 조사 프로세스
 
 경고는 자동화된 조사를 시작할 수 있는 인시던트가 생성됩니다. 자동화된 조사는 각 증거 조각에 대한 결과를 얻습니다. 판정은 다음이 될 수 있습니다.
 - *악의적*
 - *의심스러움* 
-- *위협을 찾을 수 없음* 
+- *위협이 발견되지 않음* 
 
 악의적 또는 의심스러운 엔터티에 대한 수정 작업이 식별됩니다. 수정 작업의 예는 다음과 같습니다.
 
@@ -85,7 +85,7 @@ Imagine 계층 1 또는 계층 2 보안 운영 팀에 가상 분석가가 있는
 
 조직에 [](m365d-configure-auto-investigation-response.md) 대해 자동화된 조사 및 대응 기능이 구성되는 방식에 따라 보안 운영 팀의 승인만 수행되거나 자동으로 수정 작업이 수행됩니다. 보류 중이든 완료 여부에 따라 모든 작업이 작업 센터 에 [나열됩니다.](m365d-action-center.md)
 
-조사가 실행되는 동안 발생하는 모든 관련 경고는 완료될 때까지 조사에 추가됩니다. 영향을 받는 엔터티가 다른 곳에서 볼 수 있는 경우 자동화된 조사는 해당 엔터티를 포함하기 위해 해당 범위를 확장하고 조사 프로세스가 반복됩니다. 
+조사가 실행되는 동안 발생하는 모든 관련 경고는 완료될 때까지 조사에 추가됩니다. 영향을 받는 엔터티가 다른 곳에서 발견되면 자동화된 조사는 해당 엔터티를 포함하도록 범위를 확장하고 조사 프로세스를 반복합니다. 
 
 Microsoft 365 Defender 자동화된 각 조사는 다음 표에 요약된 ID용 Microsoft Defender, 끝점용 Microsoft Defender 및 Office 365 Microsoft Defender의 신호 상관 관계가 있습니다. 
 

@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내에서 인덱싱된 항목(인덱싱되지 않은 항목이라고도 Exchange, SharePoint 및 비즈니스용 OneDrive 관리하는 방법을 학습합니다.
-ms.openlocfilehash: f578b5ba4b89338c5d6ef861b20d42c4aebbb3b2
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 3030867b3b27b91b32ae8d3c8529ad1d95e9c5ad
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574174"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216805"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -73,7 +73,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
 
 ## <a name="working-with-partially-indexed-items"></a>부분적으로 인덱싱된 항목 작업
 
-부분적으로 항목을 검사하여 관련 정보가 없는지 검사해야 하는 경우 부분적으로 인덱싱된 항목에 대한 정보가 포함된 콘텐츠 검색 보고서를 내보낼 수 있습니다. [](export-a-content-search-report.md) 콘텐츠 검색 보고서를 내보낼 때 부분적으로 인덱싱된 항목을 포함하는 내보내기 옵션 중 하나를 선택해야 합니다.
+부분적으로 인덱싱된 항목을 검사하여 관련 정보가 없는지 검사해야 하는 [](export-a-content-search-report.md) 경우 부분적으로 인덱싱된 항목에 대한 정보가 포함된 콘텐츠 검색 보고서를 내보낼 수 있습니다. 콘텐츠 검색 보고서를 내보낼 때 부분적으로 인덱싱된 항목을 포함하는 내보내기 옵션 중 하나를 선택해야 합니다.
   
 ![부분적으로 인덱싱된 항목을 내보내는 두 번째 또는 세 번째 옵션을 선택합니다.](../media/PartiallyIndexedItemsExportOptions.png)
   
@@ -164,7 +164,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
      }
    ```
 
-2. [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/exchange-online-powershell)
+2. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/exchange-online-powershell)합니다.
 
 3. 보안 & 준수 센터 PowerShell에서 1단계에서 스크립트를 저장한 폴더로 이동한 다음 스크립트를 실행합니다. 예를 들어:
 

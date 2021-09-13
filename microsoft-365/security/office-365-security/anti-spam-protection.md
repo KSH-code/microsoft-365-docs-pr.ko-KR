@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 방지)에서 스팸을 방지하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2145637500376944f1adf038e33c41549479a5f4da89fb456b590da8a5c78bb8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9b960894b6923633489c005ee75307ec02b248f5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56885527"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218092"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 
@@ -44,7 +44,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 Microsoft의 전자 메일 보안 로드맵에는 제품 간 접근 방식이 수반됩니다. EOP 스팸 방지 및 피싱 방지 기술은 전자 메일 플랫폼 전체에 적용하여 사용자에게 네트워크 전체에서 최신 스팸 방지 및 피싱 방지 도구와 혁신 기능을 제공합니다. EOP의 목표는 정크 메일, 사기성 전자 메일 위협(피싱) 및 맬웨어로부터 사용자를 감지하고 보호하는 데 도움이 되는 포괄적이고 사용 가능한 전자 메일 서비스를 제공하는 것입니다.
 
-전자 메일 사용이 늘어나면 전자 메일 남용이 있습니다. 모호하지 않은 정크 메일은 받은 편지함 및 네트워크를 막고, 사용자 만족도에 영향을 미치며, 합법적인 전자 메일 통신의 효율성을 저해할 수 있습니다. 이러한 이유 때문에 Microsoft는 스팸 방지 기술에 계속 투자하고 있습니다. 간단히 말하면 정크 메일을 포함하고 필터링하는 것부터 시작합니다.
+전자 메일 사용이 늘어나면 전자 메일 남용이 있습니다. 모니터링되지 않는 정크 메일은 받은 편지함 및 네트워크를 차단하고, 사용자 만족도에 영향을 주고, 합법적인 전자 메일 통신의 효율성을 저하할 수 있습니다. 이러한 이유 때문에 Microsoft는 스팸 방지 기술에 계속 투자하고 있습니다. 간단히 말하면 정크 메일을 포함하고 필터링하는 것부터 시작합니다.
 
 > [!TIP]
 > 다음 스팸 방지 기술은 메시지 봉투(예: 보낸 사람 도메인 또는 메시지의 원본 IP 주소)를 기반으로 메시지를 허용하거나 차단하려는 경우 유용합니다. 페이로드(예: 메시지의 URL 또는 첨부된 파일의 URL)를 기반으로 메시지를 허용하거나 차단하려면 [테넌트 허용/차단](tenant-allow-block-list.md)목록 포털 을 사용해야 합니다.

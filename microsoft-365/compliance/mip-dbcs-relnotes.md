@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 더블 바이트 문자 집합에 대한 지원을 위한 릴리스 노트
-ms.openlocfilehash: 9f56441e6ba82b1936033c6f4a810ea2afeab72cc72b6337f992eb0bb52fd231
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cbcaec29de206344712749fee6bf9f358a04caa6
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885558"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59210955"
 ---
-# <a name="support-for-double-byte-character-set-release-notes-preview"></a>더블 바이트 문자 집합 릴리스 노트(미리보기)를 지원
+# <a name="support-for-double-byte-character-set-release-notes"></a>더블 바이트 문자 집합 릴리스 노트를 지원
 
  이제 Microsoft 365 Information Protection은 다음의 더블 바이트 문자 집합 언어를 지원합니다.
 

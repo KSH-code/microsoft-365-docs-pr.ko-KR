@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 8413b4af84a0c68137c42f2defc495478c81695335a84ad8ee57e67658423adf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f60208b06e66c1e9803e05ee1fc41376824e9b56
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53857198"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218165"
 ---
 # <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>2016년 4월 1일부로 가짓 긍정 Microsoft 365 Defender
 
@@ -48,14 +48,14 @@ ms.locfileid: "53857198"
 |누락되거나 잘못 검색된 항목 |서비스  |수행할 작업  |
 |---------|---------|---------|
 |- 전자 메일 메시지 <br/>- 전자 메일 첨부 파일 <br/>- 전자 메일 메시지의 URL<br/>- Office URL      |[Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365)        |[검색을 위해 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출](../office-365-security/admin-submission.md)         |
-|디바이스의 파일 또는 앱    |[엔드포인트용 Microsoft Defender](/windows/security/threat-protection)         |[맬웨어 분석을 위해 Microsoft에 파일 제출](https://www.microsoft.com/wdsi/filesubmission)         |
+|디바이스의 파일 또는 앱    |[엔드포인트용 Microsoft Defender](/windows/security/threat-protection)          |[맬웨어 분석을 위해 Microsoft에 파일 제출](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>가식이 재발하지 않도록 경고 조정
 
 |시나리오 |서비스 |수행할 작업 |
 |--------|--------|--------|
 |- 합법적인 사용에 의해 경고가 트리거됩니다. <br/>- 경고가 부정확합니다.    |[Microsoft Cloud App Security](/cloud-app-security)<br/> 또는 <br/>[Azure 위협 방지](/azure/security/fundamentals/threat-detection)         |[사이트 포털에서 Cloud App Security 관리](/cloud-app-security/managing-alerts)         |
-|안전한 경우에도 파일, IP 주소, URL 또는 도메인이 장치에서 맬웨어로 처리됩니다.|[엔드포인트용 Microsoft Defender](/windows/security/threat-protection) |["허용" 작업을 사용하여 사용자 지정 표시기 만들기](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
+|안전한 경우에도 파일, IP 주소, URL 또는 도메인이 장치에서 맬웨어로 처리됩니다.|[엔드포인트용 Microsoft Defender](/windows/security/threat-protection)  |["허용" 작업을 사용하여 사용자 지정 표시기 만들기](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>장치에서 수행된 수정 작업 실행 취소
 

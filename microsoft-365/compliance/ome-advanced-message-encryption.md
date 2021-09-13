@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: 고급 메시지 암호화는 관리자가 보호된 메시지로 더 많은 작업을 할 수 있도록 하여 조직이 규정 준수 의무를 충족하는 데 도움이 됩니다.
 ms.openlocfilehash: dbd19c2028a3453d43dc2ce9082955a5ec1165db
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243937"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216682"
 ---
 # <a name="advanced-message-encryption"></a>고급 메시지 암호화
 

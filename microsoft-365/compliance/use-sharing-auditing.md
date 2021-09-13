@@ -22,11 +22,11 @@ ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: 관리자는 조직 외부의 사용자와 공유되는 리소스를 식별하기 위해 Microsoft 365 감사 로그에서 공유 감사를 사용하는 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 2d6e25b4bc2be325061996cee61fd4d2c1ccb786
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561437"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216195"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>감사 로그에서 공유 감사 사용
 

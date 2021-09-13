@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP 정책 구성 요소 및 구성 참조
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 1227d95469d57921af9f0b97e7adc2a6a49e5573
-ms.sourcegitcommit: 2048c9399a654175438d47e0c3aa2574b949bdc0
+ms.openlocfilehash: 972b5a628f434bdfb989191cf5fcd8ca9bfcc2d0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58923945"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219055"
 ---
 # <a name="data-loss-prevention-policy-reference"></a>데이터 손실 방지 정책 참조
 
@@ -273,6 +273,10 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 
 - 콘텐츠 포함
 - 콘텐츠가 공유되는 Microsoft 365
+- 보낸 사람이 (미리 보기)
+- 보낸 사람 도메인이 (미리 보기)
+- 받는 사람 도메인이 (미리 보기)
+- 받는 사람이 (미리 보기)
 
 ##### <a name="conditions-devices-supports"></a>장치가 지원하는 조건
 

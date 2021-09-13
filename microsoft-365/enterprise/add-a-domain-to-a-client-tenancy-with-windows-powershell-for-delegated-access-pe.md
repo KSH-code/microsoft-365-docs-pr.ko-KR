@@ -14,15 +14,17 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - NOCSH
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- admindeeplinkMAC
 ms.assetid: f49b4d24-9aa0-48a6-95dd-6bae9cf53d2c
 description: '요약: PowerShell을 사용하여 Microsoft 365 테넌트에 대체 도메인 이름을 추가합니다.'
-ms.openlocfilehash: 90eec48de55a01dd2298bed1ff0dc068d57da3bb
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 6cb57814f2f1ce8a1cbf6a47b654f6492279faeb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356123"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218775"
 ---
 # <a name="add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-permission-dap-partners"></a>DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가
 
@@ -31,7 +33,7 @@ ms.locfileid: "58356123"
 PowerShell을 사용하여 새 도메인을 만들고 고객 테넌트와 연결하여 새 도메인을 Microsoft 365 보다 빠르게 Microsoft 365 관리 센터.
 
 DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다. 이러한 공급자는 다른 회사의 네트워크 또는 전자 통신 공급자인 경우가 많습니다. 또한 Microsoft 365 서비스에 구독을 번들로 묶습니다. Microsoft 365 구독을 판매하는 경우 고객 테넌트에 대한 AOBO(관리 대신 관리) 권한이 자동으로 부여되어 고객 테넌트에 대해 관리하고 보고할 수 있습니다.
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 이 항목의 절차를 수행하려면 [PowerShell을](connect-to-microsoft-365-powershell.md)사용하여 커넥트 Microsoft 365 연결해야 합니다.
 
@@ -52,7 +54,7 @@ DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 �
  고객이 기본\<domain>.onmicrosoft.com도메인을 회사 ID로 표시할 기본 도메인으로 원하지 않으므로 테넌트와 연결할 추가 도메인 만들기를 문의할 수 있습니다. 이 절차를 통해 고객의 테넌트와 연관된 새 도메인 만들기가 진행됩니다.
 
 > [!NOTE]
-> 이러한 작업 중 일부를 수행하려면 로그인한 파트너 관리자 계정이 조직의  관리자 계정 세부 정보에서 찾을 수 있는 지원 회사에 대한 관리 액세스 할당 설정의 전체 관리로 Microsoft 365 관리 센터.  파트너 관리자 역할 관리에 대한 자세한 내용은 파트너: 위임된 관리 [제공을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=532435)
+> 이러한 작업 중 일부를 수행하려면 로그인한 파트너 관리자 계정이 에서  관리자 계정의 세부 정보에서 찾을 수 있는 지원 회사에 대한 관리 액세스 할당 설정의 전체 관리로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a>  파트너 관리자 역할 관리에 대한 자세한 내용은 파트너: 위임된 관리 [제공을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=532435)
 
 ### <a name="create-the-domain-in-azure-active-directory"></a>Azure Active Directory에서 도메인 만들기
 

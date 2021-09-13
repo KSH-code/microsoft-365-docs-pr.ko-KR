@@ -15,17 +15,18 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium에서 관리자 도움말 또는 온라인 또는 전화 지원을 받으려면 비즈니스 구독의 관리자여야 합니다.
-ms.openlocfilehash: f38e07cb7db25cbc6d6fa3e813d8f7c5863e4055
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: d636f153e41963ada30bd10066e4211325933cbe
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570656"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217295"
 ---
 # <a name="get-support"></a>지원 받기
 
@@ -158,7 +159,7 @@ ms.locfileid: "58570656"
 
 ### <a name="open-an-online-request"></a>온라인 요청 열기
 
-온라인으로 서비스 요청을 시작하여 시간을 절약하세요. Microsoft 365 관리 센터에서 **지원** \> **새 서비스 요청** 을 선택합니다.
+온라인으로 서비스 요청을 시작하여 시간을 절약하세요. 1.에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>로 이동하여 **지원** \> **새 서비스 요청** 을 선택합니다.
 
 ### <a name="call-support"></a>지원 서비스 문의
 

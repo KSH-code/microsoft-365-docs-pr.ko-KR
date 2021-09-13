@@ -17,12 +17,12 @@ manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: f39a0c5a83d28510fbd60bfc6c66442f341cfeae734afca1f886f236be094947
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 25518383131e4f7ecb7451965ef7a42b1c6eee4b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53844886"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220155"
 ---
 # <a name="use-windows-management-instrumentation-wmi-to-configure-and-manage-microsoft-defender-antivirus"></a>WMI(Windows Management Instrumentation)를 사용하여 WMI를 구성하고 Microsoft Defender 바이러스 백신
 

@@ -8,11 +8,11 @@ ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
 ms.openlocfilehash: 98df694002d31e330fff1b5d53618044bc6c5dae
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566667"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218232"
 ---
 # <a name="defender-for-identity-security-alerts-in-microsoft-365-defender"></a>2013의 ID 보안 경고에 대한 Microsoft 365 Defender
 

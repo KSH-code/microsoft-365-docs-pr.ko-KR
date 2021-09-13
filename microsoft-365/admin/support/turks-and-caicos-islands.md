@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6ae15ba40e1eaedc5f22c3603168efcc6135da25422f155c8258581baf19851d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dbc41b13c8b4d8d05b794988159f3bbff081fa71
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893438"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219562"
 ---
 # <a name="contact-support-for-turks-and-caicos-islands"></a>터크스 케이코스 제도 지원에 문의
 

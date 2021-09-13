@@ -20,11 +20,11 @@ ms.custom:
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: '요약: PowerShell을 사용하여 온라인 SharePoint 새 사이트를 만든 다음 해당 사이트에 사용자 및 그룹을 추가합니다.'
 ms.openlocfilehash: c9a55c6373e2ecc81c59b2e1bf2d1b8850dd1c13
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356399"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218605"
 ---
 # <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>PowerShell을 SharePoint 온라인 사이트 만들기 및 사용자 추가
 

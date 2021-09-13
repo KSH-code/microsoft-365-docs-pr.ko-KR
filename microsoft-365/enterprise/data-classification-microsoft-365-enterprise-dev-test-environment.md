@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ms.custom: Ent_TLGs
+ms.custom:
+- Ent_TLGs
+- admindeeplinkMAC
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경용 웹 응용 Microsoft 365 보존 레이블을 만들고 사용할 수 있습니다.
-ms.openlocfilehash: b5cc84a4d8b73b9f7dc3f64934a18b549846ba17
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: a39661da9436473da9e89330ff15d0a43d19db51
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58552603"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218585"
 ---
 # <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 데이터 분류
 
@@ -50,7 +52,7 @@ ms.locfileid: "58552603"
 
 이 단계에서는 SharePoint Online 문서 폴더의 다양한 보존 수준에 대한 보존 레이블을 생성합니다.
 
-1. 전역 관리자 [계정으로](https://security.microsoft.com/homepage) Microsoft 365 보안 센터에 로그인합니다.
+1. 전역 관리자 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">계정으로</a> Microsoft 365 보안 센터에 로그인합니다.
 1. 브라우저의 **홈 - Microsoft 365** 보안 탭에서 분류 보존  >  **레이블 을 선택합니다.**
 1. **레이블 만들기** 를 선택합니다.
 1. 레이블 **이름 지정 창에서** 레이블 이름 **지정에** 내부 공용을 **입력하고** 다음 을 **선택합니다.**

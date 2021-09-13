@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7868b4a5506ef06d4bedfdfe235a6724cf06b8602b3d381a1c837b9ac6db4843
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9d841987299746b7c9dc7a0801a833f734316e11
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809841"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219632"
 ---
 # <a name="contact-support-for-trinidad-amp-tobago"></a>트리니다드 &amp; 토바고 지원에 문의
 

@@ -19,11 +19,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 기존 콘텐츠 검색의 CSV 파일을 사용하여 특정 전자 메일 항목을 반환하는 ID 목록 검색을 만들 수 있습니다.
 ms.openlocfilehash: 3fc43f410d6361ac655f7f839b6b4f8752483ef9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571076"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216912"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>ID 목록 콘텐츠 검색을 위한 CSV 파일 준비
 

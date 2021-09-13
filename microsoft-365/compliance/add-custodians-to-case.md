@@ -18,11 +18,11 @@ ms.assetid: ''
 description: 워크플로를 조정하고 관련 데이터 원본을 식별하기 위해 Advanced eDiscovery 기본 제공 관리 도구를 사용하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 3c5adf4b51cbb9898b0b4f7bc806c1392453c526
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564245"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217075"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>추가한 사례에 Advanced eDiscovery 추가
 

@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: 비보조 데이터 원본을 Advanced eDiscovery 데이터 원본을 보류할 수 있습니다. 비관리 데이터 원본은 다시 인덱싱되어 부분적으로 인덱싱된 것으로 표시된 모든 콘텐츠는 완전히 빠르고 검색할 수 있도록 다시 처리됩니다.
 ms.openlocfilehash: afa28ce8be5f7a051c84111c65d6b993b97b6c04
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571028"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216755"
 ---
 # <a name="add-non-custodial-data-sources-to-an-advanced-ediscovery-case"></a>비보조 데이터 원본을 사례에 Advanced eDiscovery 추가
 

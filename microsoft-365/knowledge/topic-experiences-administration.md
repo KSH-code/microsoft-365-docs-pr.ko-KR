@@ -11,11 +11,11 @@ search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 센터의 이름을 변경하는 방법에 대해 자세히 알아보고
 ms.openlocfilehash: 262ae46fadf8fc390a4ccf591aa97175ff63a68f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573070"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218482"
 ---
 # <a name="change-the-name-of-the-topic-center-in-microsoft-viva-topics"></a>다음 항목에서 항목 센터의 Microsoft Viva 변경
 

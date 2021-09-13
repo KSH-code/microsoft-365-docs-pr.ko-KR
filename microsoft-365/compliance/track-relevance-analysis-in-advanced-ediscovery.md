@@ -18,11 +18,11 @@ ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관련성 교육 상태 및 관련성 교육의 사례 문제에 대한 결과를 보고 해석하는 방법을 Advanced eDiscovery.
 ms.openlocfilehash: ac575ebf073afa8eb4ba13e63202f8b634c52f60
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573202"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216342"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery"></a>Advanced eDiscovery
   

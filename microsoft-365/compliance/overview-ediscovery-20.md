@@ -21,11 +21,11 @@ search.appverid:
 description: 자세한 내용은 Advanced eDiscovery 솔루션에 대해 Microsoft 365. 이 문서에서는 내부 및 외부 Advanced eDiscovery 관리하는 Microsoft 365 도구인 2016의 개요를 제공합니다. 또한 법적 조사를 관리하는 데 Advanced eDiscovery 비즈니스 이유에 대한 프레임을 틀 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 59052e862e84b5cf9eabdf2cdce58e8e743887ee
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569768"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216632"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>개요 Microsoft 365 Advanced eDiscovery
 

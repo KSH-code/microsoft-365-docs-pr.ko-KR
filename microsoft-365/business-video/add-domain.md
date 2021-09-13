@@ -16,18 +16,19 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 - AdminTemplateSet
+- admindeeplinkMAC
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 조직에 여러 도메인이 필요할 수 있으므로 고객이 찾을 수 있습니다. 구독에 다른 도메인을 추가하는 방법을 배워야 합니다.
-ms.openlocfilehash: c127abf899985bb23cc3a9906425d4d5408a4376fde3bc88a4c3bdda1277bace
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fb8af781f68cddd5780d27724134910a28db8bf2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53882612"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219425"
 ---
 # <a name="add-another-domain"></a>다른 도메인 추가
 
@@ -37,7 +38,7 @@ ms.locfileid: "53882612"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. In the Microsoft 365 관리 센터, choose **Setup**.
+1. In the Microsoft 365 관리 센터, choose <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>.
 1. 사용자 **지정 도메인 설정에서** 보기를 **선택합니다.**
 1. 관리 **를** 선택한 다음 도메인 **추가 를 선택 합니다.**
 1. 추가할 새 도메인 이름을 입력하고 다음 을 **선택합니다.**
@@ -49,7 +50,7 @@ ms.locfileid: "53882612"
 
 새 도메인에서 전자 메일을 받으하려면 각 사용자에 대해 새 전자 메일 별칭을 추가해야 합니다.
 
-1. **사용자,** **활성 사용자** 를 선택한 다음 새 별칭을 할당할 사용자를 선택합니다.
+1. **사용자,** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**활성 사용자**</a>를 선택한 다음 새 별칭을 할당할 사용자를 선택합니다.
 1. 전자 **메일 별칭** 관리 를 선택한 다음 **별칭 추가 를 선택하세요.**
 1. 사용자 이름을 입력한 다음 드롭다운 목록에서 새 도메인을 선택합니다.
 1. 변경 **내용 저장을** 선택한 다음 창을 닫습니다.

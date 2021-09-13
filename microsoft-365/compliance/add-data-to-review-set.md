@@ -19,11 +19,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 이러한 검색 결과의 검색 결과 또는 샘플을 사례 검토 집합에 추가하는 Advanced eDiscovery 방법을 학습합니다.
 ms.openlocfilehash: aeb7942fc12089bd458236221dd7394a8018e780
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567087"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217055"
 ---
 # <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 

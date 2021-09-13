@@ -20,11 +20,11 @@ recommendations: false
 description: DLP(데이터 손실 방지) 정책에 정책 팁을 추가하여 사용자에게 DLP 정책과 충돌하는 콘텐츠를 사용 중일 때 이를 알리는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-apr2021
 ms.openlocfilehash: 7c1e61378e4da34c964c4fcdaf87afc25e88b4d0
-ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58884711"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219045"
 ---
 # <a name="data-loss-prevention-policy-tips-reference"></a>데이터 손실 방지 정책 팁 참조
 

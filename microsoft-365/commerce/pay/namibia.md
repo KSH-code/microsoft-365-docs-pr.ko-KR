@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a9ec7124659913e067a0071ad7e183aa670b8dafadc791a7dee68f38006734ee
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 49a78fc43616ed1e179142948bc5ca6284a3b6b8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53872909"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219105"
 ---
 # <a name="payment-information-for-namibia"></a>나미비아의 결제 정보
 

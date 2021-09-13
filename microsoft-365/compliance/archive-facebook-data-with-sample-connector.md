@@ -16,11 +16,11 @@ ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 앱의 커넥터를 & 설정하여 Facebook 비즈니스 Microsoft 365 규정 준수 센터 & 데이터를 가져오는 방법을 Microsoft 365.
 ms.openlocfilehash: 766f7858c6e5117190712d3daad68b2b7b4e37c2
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502654"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216955"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Facebook 데이터를 보관할 커넥터 설정(미리 보기)
 

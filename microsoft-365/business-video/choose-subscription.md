@@ -21,11 +21,11 @@ search.appverid:
 - MOE150
 description: 조직에 Microsoft 365 적합한 구독에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 2c269ff7dc620da0c638f2c82a836ae9b0406780
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533186"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219382"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>구독 Microsoft 365 선택
 
@@ -48,7 +48,7 @@ ms.locfileid: "58533186"
 | --- | --- | --- | --- | --- |
 | **사용 가능한 라이선스** | 최대 사용자 수 | 300 | 300 | 무제한 |
 | **Office 앱** | Office 사용자당 최대 5대의 PC/Macs + 5대의 스마트폰(Word, Excel, PowerPoint, OneNote, Access)에 Office 설치 | Business | Business | ProPlus |
-| **전자 &amp; 메일 일정** | Outlook, Exchange Online | 50GB | 50GB | 100GB |
+| **전자 &amp; 메일 일정** | Outlook, Exchange Online | 50GB | 50 GB | 100GB |
 | **팀워크를 위한 허브** | 채팅 기반 작업 영역, 온라인 모임 등 Microsoft Teams | 예 | 예 | 예 |
 | **파일 저장소** | 비즈니스용 OneDrive | 사용자당 1 TB | 사용자당 1 TB | 무제한 |
 | **소셜, 비디오, 사이트** | Stream, Yammer, Planner, SharePoint Online \* , Power Apps \* , Power Automate\* | 예 | 예 | 예 |

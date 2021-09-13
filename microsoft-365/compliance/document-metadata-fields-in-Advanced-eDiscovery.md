@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 문서의 검토 집합에 있는 문서에 대한 메타데이터 필드를 Advanced eDiscovery Microsoft 365.
 ms.openlocfilehash: ed7652ecf720e32a7ddfaffbd0ff2db29b582b69
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863920"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219015"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Advanced eDiscovery의 문서 메타데이터 필드
 

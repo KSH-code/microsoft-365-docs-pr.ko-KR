@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: 관리자의 감사 로그 검색 기능을 설정하거나 해제하여 Microsoft 365 규정 준수 센터 감사 로그를 검색할 수 있는 기능을 활성화 또는 비활성화하는 방법
-ms.openlocfilehash: 793c76d45f2cd7aed43a959dfcb94edeb9869310
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 2c9331534035d0f0cf23a2dbec09f338a6f6a32b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575327"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216282"
 ---
 # <a name="turn-auditing-on-or-off"></a>감사 켜기 또는 끄기
 
@@ -110,3 +110,29 @@ Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
     - 에서 **감사** 페이지로 Microsoft 365 규정 준수 센터.
 
       조직에 대한 감사가 설정되어 있지 않은 경우 사용자 및 관리자 활동 기록을 시작하라는 배너가 표시됩니다.
+
+## <a name="audit-records-when-auditing-status-is-changed"></a>감사 상태가 변경된 경우 감사 레코드
+
+조직의 감사 상태에 대한 변경 내용은 자체적으로 감사됩니다. 즉, 감사를 설정하거나 해제하면 감사 레코드가 기록됩니다. 관리자 감사 로그에서 Exchange 감사 로그를 검색할 수 있습니다.
+
+감사를 Exchange 감사를 끄는 경우 생성되는 감사 레코드에 대한 관리자 감사 로그를 검색하려면 [PowerShell에서 Exchange Online 실행합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
+
+```powershell
+Search-AdminAuditLog -Cmdlets Set-AdminAuditLogConfig -Parameters UnifiedAuditLogIngestionEnabled
+```
+
+이러한 이벤트에 대한 감사 레코드에는 감사 상태가 변경된 경우, 감사 상태를 변경한 관리자 및 변경에 사용된 컴퓨터의 IP 주소에 대한 정보가 포함되어 있습니다. 다음 스크린샷은 조직에서 감사 상태를 변경하는 데 해당하는 감사 레코드를 보여 주며,
+
+### <a name="audit-record-for-turning-on-auditing"></a>감사 켜기 위한 감사 레코드
+
+![감사 켜기 위한 감사 레코드](../media/AuditStatusAuditingEnabled.png)
+
+`Confirm` *CmdletParameters* 속성의 값은 준수 센터에서 또는 **Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled** cmdlet을 실행하여 통합 감사 로깅이 $true 나타냅니다.
+
+### <a name="audit-record-for-turning-off-auditing"></a>감사 해제에 대한 감사 레코드
+
+![감사 해제에 대한 감사 레코드](../media/AuditStatusAuditingDisabled.png)
+
+이 값은 `Confirm` *CmdletParameters 속성에 포함되지* 않습니다. 이는 **Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled** 명령을 실행하여 통합 감사 로깅이 $false 나타냅니다.
+
+관리자 감사 로그를 검색하는 Exchange 자세한 내용은 [Search-AdminAuditLog 를 참조하세요.](/powershell/module/exchange/search-adminauditlog)

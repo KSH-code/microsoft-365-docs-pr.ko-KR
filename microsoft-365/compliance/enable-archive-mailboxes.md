@@ -21,11 +21,11 @@ ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: 준수 센터를 사용하여 조직의 메시지 보존, eDiscovery 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용하는 방법을 알아봅니다.
 ms.openlocfilehash: 28af0de029deb2dc732f4e31f7f85f80db6bf081
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574811"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218942"
 ---
 # <a name="enable-archive-mailboxes-in-the-compliance-center"></a>준수 센터에서 보관 사서함 사용
 

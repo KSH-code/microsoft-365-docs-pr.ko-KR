@@ -19,12 +19,12 @@ ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내부 및 외부의 사용자 간에 암호화된 전자 메일 메시지를 보내고 받는 방법을 학습합니다.
-ms.openlocfilehash: 779d23222dd3308ed6464f195cc63ee11da0fc35cf32986c15cc4f7008ac0a97
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 504fa9918636cd596cde0d242083ccb7b9817e69
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895286"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216645"
 ---
 # <a name="message-encryption"></a>메시지 암호화
 

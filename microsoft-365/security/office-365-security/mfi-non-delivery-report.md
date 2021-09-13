@@ -15,11 +15,11 @@ description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드�
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 6e49fa403789f7c923bfbdd86b4b1555400a8a99
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568747"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217985"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 배달 & 보고서
 

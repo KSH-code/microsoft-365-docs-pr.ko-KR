@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대한 관리자 도움말을 찾는 방법을 Microsoft 365 Business Premium.
-ms.openlocfilehash: 4d7a5c3e1bacd81d04a32e30c7d12f264cd355c81783409500e416be1345a0c7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 18a50c34f87fa47fe5777e87f8dafa62fb0ac04b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809603"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219332"
 ---
 # <a name="find-docs-and-training"></a>설명서 및 교육 찾기
 

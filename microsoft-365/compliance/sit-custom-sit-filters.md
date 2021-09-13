@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사용자 지정 중요한 정보 유형으로 인코딩할 수 있는 필터 목록을 제공합니다.
-ms.openlocfilehash: 8cf5e60aeb27ff7426837b8885597a7d03e9e868073262bed263a7f70bbb301b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6dfa562d581f14c0b1ac41c4ce803e2367a94636
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53879196"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218872"
 ---
 # <a name="custom-sensitive-information-type-filters-reference"></a>사용자 지정 중요한 정보 유형 필터 참조
 

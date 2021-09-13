@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 23e9ffea59eb874ef80345f9a75b7cb64137069b8bcbf2c54d5ddc0b76359233
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 83e43a36df3d4b4d0efdfd655e929c8aa39aeb74
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53898144"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218372"
 ---
 # <a name="offboard-machine-api"></a>컴퓨터 오프보드 API
 
@@ -53,7 +53,7 @@ Endpoint용 Defender에서 디바이스를 오프보드합니다.
 > 이 API는 Windows 10 버전 1703 이상 또는 Windows Server 2019 이상에서 지원됩니다.
 > 이 API는 MacOS 또는 Linux 장치에서 지원되지 않습니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 끝점 API에 [Defender 사용을 참조합니다.](apis-intro.md)
 

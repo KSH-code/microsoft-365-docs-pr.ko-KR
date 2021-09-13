@@ -20,11 +20,11 @@ search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
 ms.openlocfilehash: d7decb3e566f8bb0abf4a3aec12e2e3a43ae3511
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58746438"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218182"
 ---
 # <a name="investigate-users-in-microsoft-365-defender"></a>사용자 조사에서 Microsoft 365 Defender
 
@@ -101,7 +101,7 @@ Learn more about how to investigate users and potential risk [in this Cloud App 
 
 In-process 인시던트에 필요한 경우 조사를 [계속합니다.](investigate-incidents.md)
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [인시던트 개요](incidents-overview.md)
 - [인시던트 우선 순위 지정](incident-queue.md)

@@ -13,11 +13,11 @@ f1.keywords:
 - NOCSH
 description: Exchange 2010의 지원이 종료됩니다. 이 계획 로드맵을 사용하여 Exchange Online 또는 최신 버전의 Exchange Server 준비합니다.
 ms.openlocfilehash: 14875c793380c509c578d86d2d835596fa57cc73
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561077"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218555"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Exchange 2010 지원 종료 로드맵
 
@@ -94,14 +94,14 @@ Microsoft 365 기능 및 환경을 먼저 사용할 수 있으므로 조직에�
 
 |마이그레이션 옵션|조직 크기|기간|
 |---|---|---|
-|단독 마이그레이션|시트 수가 150명 미만|1주 이하|
+|단독형 마이그레이션|시트 수가 150명 미만|1주 이하|
 |최소 하이브리드 마이그레이션|시트 수가 150명 미만|몇 주 이하|
 |전체 하이브리드 마이그레이션|시트 수가 150명 이상인 경우|몇 주 이상|
 |
 
 다음 섹션에서는 이러한 메서드에 대한 개요를 제공합니다. 자세한 내용은 마이그레이션 경로 [결정 을 참조하세요.](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27)
 
-### <a name="cutover-migration"></a>단독 마이그레이션
+### <a name="cutover-migration"></a>단독형 마이그레이션
 
 단일 마이그레이션에서는 모든 사서함, 메일 그룹, 연락처 등에서 설정된 Office 365 시간으로 마이그레이션합니다. 완료되면 모든 서버의 Exchange 종료하고 단독 사용 Microsoft 365 합니다.
 

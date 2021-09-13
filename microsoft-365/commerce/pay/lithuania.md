@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 159ab57dd1a2358fc73bae289d0e8de31f8747985bcf48bff10ddaecd20daab5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a7dc187409182cfc9db58444f5e798669ea02804
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796733"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217205"
 ---
 # <a name="payment-information-for-lithuania"></a>리투아니아의 결제 정보
 

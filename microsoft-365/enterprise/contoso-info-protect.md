@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 Microsoft 365 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
 ms.openlocfilehash: c61d6ee0a3f577d27c306631ea9f57d8cb3d7c2a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58552867"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218695"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 

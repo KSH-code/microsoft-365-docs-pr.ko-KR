@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 recommendations: false
 description: 보안 및 준수 센터의 DLP(데이터 손실 방지) 정책 템플릿에 Office 365 & 대해 자세히 알아보습니다.
-ms.openlocfilehash: d12420af6ca2e5aea6d1290d0c136bdb27b892c709b6047fad9a4daffffc5f49
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: afcc641e6e868c1988f6b30a286c082e960d056c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813549"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216105"
 ---
 # <a name="what-the-dlp-policy-templates-include"></a>DLP 정책 템플릿에 포함되는 내용
 

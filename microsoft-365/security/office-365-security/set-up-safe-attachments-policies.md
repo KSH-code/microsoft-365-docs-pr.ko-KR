@@ -19,11 +19,11 @@ ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: ffe207eb1f1aab42f3a0c2639410d308fbfb64e0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568243"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217932"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 첨부 파일 정책 설정 Office 365
 
@@ -98,7 +98,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
    - **그룹**: 조직에서 지정한 메일 그룹, 메일 사용이 가능한 보안 그룹 또는 Microsoft 365 그룹입니다.
    - **도메인**: 조직에서 지정한 [허용 도메인](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)의 모든 받는 사람입니다.
 
-   적절한 상자를 클릭하고, 값 입력을 시작하고, 결과에서 원하는 값을 선택합니다. 이 프로세스를 필요한 만큼 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+   적절한 상자를 클릭하고, 값 입력을 시작하고, 결과에서 원하는 값을 선택합니다. 이 프로세스를 필요한 만큼 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![제거 아이콘.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
    사용자 또는 그룹의 경우 대부분의 식별자(이름, 표시 이름, 별칭, 전자 메일 주소, 계정 이름 등)를 사용할 수 있지만 해당 표시 이름은 결과에 표시됩니다. 사용자의 경우 별표(\*)만 입력하여 사용 가능한 모든 값을 확인합니다.
 
@@ -161,8 +161,8 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 2. 첨부 **금고** 페이지에서 이름을 클릭하여 목록에서 정책을 선택합니다.
 
 3. 표시되는 정책 세부 정보 플라이아웃 맨 위에 다음 값 중 하나가 표시됩니다.
-   - **정책 끄기:** 정책을 켜려면 아이콘 ![ 켜기 를 클릭합니다.](../../media/m365-cc-sc-turn-on-off-icon.png) **를 으로 켜야합니다.**
-   - **정책:** 정책을 끄려면 끄기 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-turn-on-off-icon.png) **를 해제합니다.**
+   - **정책 꺼짐**: 정책을 켜려면 ![켜기 아이콘.](../../media/m365-cc-sc-turn-on-off-icon.png) **켜기** 를 클릭합니다.
+   - **정책 켜짐**: 정책을 끄려면 ![끄기 아이콘](../../media/m365-cc-sc-turn-on-off-icon.png) **끄기** 를 클릭합니다.
 
 4. 표시되는 확인 대화 상자에서 **켜기** 또는 **끄기** 를 클릭합니다.
 
@@ -191,7 +191,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
    - 우선 순위 값이 가장 **낮은** 정책(예: **3)에는** 우선 순위 늘리기 옵션만 사용할 **수** 있습니다.
    - 세 개 이상의 정책이 있는 경우 우선 순위가 가장  높은 값과 가장 낮은 값 사이의 정책에는 우선 순위 늘리기 및 우선 순위 감소 옵션을 모두 사용할 **수** 있습니다.
 
-   우선 ![ 순위 늘리기 아이콘을 클릭합니다.](../../media/m365-cc-sc-increase-icon.png) **우선 순위 늘리기** 또는 ![ 우선 순위 감소 아이콘 우선 ](../../media/m365-cc-sc-decrease-icon.png) **순위를 줄이면** 우선 순위 값이 **변경됩니다.**
+   ![우선 순위 증가 아이콘](../../media/m365-cc-sc-increase-icon.png) **우선 순위 증가** 또는 ![우선 순위 감소 아이콘](../../media/m365-cc-sc-decrease-icon.png) **우선순위 감소** 를 클릭하여 **우선 순위** 값을 변경합니다.
 
 4. 작업을 마쳤으면 정책 세부 정보 플라이아웃에서 **닫기** 를 클릭합니다.
 
@@ -201,7 +201,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 2. 첨부 **금고** 페이지에서 정책 이름을 클릭하여 목록에서 사용자 지정 정책을 선택합니다.
 
-3. 정책 세부 정보 플라이아웃이 나타나면 추가 작업 아이콘을 ![ 클릭합니다.](../../media/m365-cc-sc-more-actions-icon.png) **추가 작업** \> ![정책 아이콘 ](../../media/m365-cc-sc-delete-icon.png) **삭제 정책 삭제.**
+3. 표시되는 정책 세부 정보 플라이아웃 상단에서 ![추가 작업 아이콘](../../media/m365-cc-sc-more-actions-icon.png)을 클릭합니다. **추가 작업** \> ![정책 아이콘 삭제](../../media/m365-cc-sc-delete-icon.png) **정책 삭제**.
 
 4. 확인 대화 상자가 나타나면 **예** 를 클릭합니다.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: PowerShell을 사용하여 사용자 지정 중요한 정보를 수정하는 방법을 학습합니다.
-ms.openlocfilehash: fc4d58fee2cdb70d3d4e7e2b80c42c8b6ac2ea7dba631fc1310c35a72f876cde
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9f8a9ef119e632c695113320ab86a3bdfef8a197
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53819718"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218852"
 ---
 # <a name="modify-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용하여 사용자 지정 중요한 정보 유형 수정
 

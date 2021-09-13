@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 로그인하여 Microsoft 365. 사이버 보안 위협으로부터 전자 메일, 데이터 및 통신에 대한 비즈니스, 관행 또는 캠페인을 보호합니다.
-ms.openlocfilehash: f5ef951bd8c0a6024ecbf9ae4ccb38a89bf327b157d672477dbd2de8aa33aac3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: eff81da84853130da2f2dcc0aaaf2a9834477a85
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53881700"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219252"
 ---
 # <a name="sign-in-to-microsoft-365"></a>로그인하여 Microsoft 365
 

@@ -22,11 +22,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 정보 관리 정책을 사용하여 콘텐츠가 보존되는 기간 또는 사용자가 해당 콘텐츠에 대해 수행할 수 있는 작업과 같은 작업을 제어하고 추적하는 방법을 학습합니다.
 ms.openlocfilehash: fc3bfe1c0da54ccf4cb2c59589647cb396a5081e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567427"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216812"
 ---
 # <a name="introduction-to-information-management-policies"></a>정보 관리 정책 소개
 

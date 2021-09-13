@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
 ms.openlocfilehash: 743f4a7b412f14bc942548c688fc3060fdebf53e
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863449"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218722"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 

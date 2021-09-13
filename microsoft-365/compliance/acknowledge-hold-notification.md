@@ -19,11 +19,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일을 통해 법적 보류 Advanced eDiscovery 보내고 추가하고 의무 상태를 모니터링하는 데 사용할 수 있는 방법을 배워야 합니다.
 ms.openlocfilehash: 43c2474bdc485a87c30d1fa2a31c3d008d2a383e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563287"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217082"
 ---
 # <a name="acknowledge-a-hold-notification"></a>보류 알림 승인
 

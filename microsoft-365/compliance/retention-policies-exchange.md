@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: Exchange에서 보존의 작동 방식을 알아봅니다.
 ms.openlocfilehash: d927927aea3f27ecfb99ca68b37d89820efda006
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569564"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216585"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Exchange의 보존에 대해 자세히 알아보기
 

@@ -24,11 +24,11 @@ search.appverid:
 - MOE150
 description: 캠페인 또는 비즈니스에 대한 커뮤니케이션 사이트를 만들 수 있습니다.
 ms.openlocfilehash: d40311a616e51ed665248dded45ef7d0432b6f94
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571558"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219282"
 ---
 # <a name="create-a-communications-site"></a>통신 사이트 만들기
 

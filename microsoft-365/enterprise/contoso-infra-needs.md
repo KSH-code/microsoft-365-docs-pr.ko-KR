@@ -15,11 +15,11 @@ ms.collection:
 ms.custom: ''
 description: Contoso 사내 IT 인프라의 기본 구조와 엔터프라이즈용 클라우드를 통해 회사의 비즈니스 요구를 Microsoft 365 이해합니다.
 ms.openlocfilehash: aa0779cfadb12aa0213a74f2e348951be4eca4f5
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745980"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218685"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT 인프라 및 비즈니스 요구
 
@@ -140,7 +140,7 @@ Contoso IT 부서는 배포 전에 비즈니스 요구 사항을 Microsoft 365 E
 
 Contoso [Corporation의](contoso-networking.md) 사내 네트워크와 클라우드 기반 리소스에 대한 액세스 및 대기 시간에 최적화된 Microsoft 365 대해 자세히 알아보습니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 

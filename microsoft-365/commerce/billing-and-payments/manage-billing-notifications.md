@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 청구 알림 전자 메일 및 송장 첨부 파일을 받는 사람 관리 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: fd9bae82d08170ce2aaee392df872d83bd5c5b8dbfa7aa258f448144370f0103
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a49598cd1b361a85af8455b0aff19e11fcf96526
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896290"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219205"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>청구 알림 및 송장 첨부 파일 관리
 

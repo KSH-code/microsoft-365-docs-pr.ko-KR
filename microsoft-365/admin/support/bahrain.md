@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 749af0cd3d6932f3e36fbc5303ee837189e144aaf997d88a9247fd6e197cf403
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e3604cd6d829cf0a60650cbb483d74390d2c0d2d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832622"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217805"
 ---
 # <a name="contact-support-for-bahrain-kingdom-of"></a>바레인, 영국 지원에 문의
 

@@ -11,11 +11,11 @@ search.appverid: MET150
 localization_priority: Normal
 description: 각 항목에서 항목 검색을 Microsoft Viva 방법을 배워야 합니다.
 ms.openlocfilehash: 2316df8df7a1d8fb2b8e0951e12810398bcb2e40
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575567"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218465"
 ---
 # <a name="manage-topic-discovery-in-microsoft-viva-topics"></a>항목에서 항목 Microsoft Viva 관리
 

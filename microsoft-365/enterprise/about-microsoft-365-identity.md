@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
 description: 클라우드 전용 또는 하이브리드 ID 모델을 사용하여 Microsoft 365 Azure AD 사용자 ID 서비스를 관리하는 방법을 설명합니다.
 ms.openlocfilehash: 0e83d94c6c82df3f47989433cf20ebf402b265df
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572710"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218785"
 ---
 # <a name="microsoft-365-identity-models-and-azure-active-directory"></a>Microsoft 365 모델 및 Azure Active Directory
 

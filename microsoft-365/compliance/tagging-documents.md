@@ -18,11 +18,11 @@ ms.assetid: ''
 description: 검토 집합의 문서에 태그를 지정하면 불필요한 콘텐츠를 제거하고 해당 사례에서 관련 Advanced eDiscovery 있습니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 83d8814a1cbc35e461c5bd459390a507bd675f5d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568952"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59221836"
 ---
 # <a name="tag-documents-in-a-review-set-in-advanced-ediscovery"></a>문서의 검토 집합에 문서 Advanced eDiscovery
 

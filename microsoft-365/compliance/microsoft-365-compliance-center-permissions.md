@@ -12,11 +12,11 @@ localization_priority: Normal
 description: 2013에서 사용 권한을 관리하는 방법을 Microsoft 365 규정 준수 센터.
 ms.collection: M365-security-compliance
 ms.openlocfilehash: 717b8cd312aad805107536b174b3a9cd58e72a55
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570092"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216792"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터 사용 권한
 
@@ -34,7 +34,7 @@ ms.locfileid: "58570092"
 
 역할 그룹은 사용자가 역할 그룹에서 규정 준수 솔루션 전반에 걸쳐 작업을 할 수 있도록 하는 Microsoft 365 규정 준수 센터. 예를 들어 내부자 위험  관리 역할 그룹에 사용자를 추가하면 지정된 관리자, 분석가, 조사자 및 감사자는 단일 그룹에서 필요한 내부자 위험 관리 권한에 맞게 구성됩니다. 이 Microsoft 365 규정 준수 센터 사용자 할당에 필요한 각 준수 솔루션에 대한 작업 및 기능에 대한 기본 역할 그룹이 포함되어 있습니다. 일반적으로 개별 사용자를 필요한 경우 기본 준수 역할 그룹에 구성원으로 추가하는 것이 좋습니다.
 
-![역할 그룹과 역할 및 구성원의 관계를 보여주는 다이어그램](../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
+![역할 및 구성원과 역할 그룹 간의 관계를 나타내는 다이어그램](../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
 
 ## <a name="permissions-needed-to-use-features-in-the-microsoft-365-compliance-center"></a>사용 권한의 기능을 사용하는 데 필요한 Microsoft 365 규정 준수 센터
 

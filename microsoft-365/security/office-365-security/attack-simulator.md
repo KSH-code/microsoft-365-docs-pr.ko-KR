@@ -21,11 +21,11 @@ description: 관리자는 보안 & Complance Center의 공격 시뮬레이터를
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 631c6d9ecfeb24ddfad16391990043d283b02a82
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548669"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218085"
 ---
 # <a name="attack-simulator-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 시뮬레이터
 

@@ -19,11 +19,11 @@ ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365 사서함 감사 또는 사서함 감사라고도 합니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행한 특정 작업이 사서함 감사 로그에 자동으로 기록되며, 사서함에서 수행되는 작업을 검색할 수 있습니다.
 ms.openlocfilehash: fb88c1f4ff909f4f4a5a2e8a3d089c9217753817
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571064"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218915"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -64,11 +64,11 @@ False **값은** 기본적으로 사서함 감사가 조직에 대해 사용하�
 
 ****
 
-|사서함 유형|지원|
+|사서함 유형|않음|
 |---|:---:|
-|사용자 사서함|![확인 표시.](../media/checkmark.png)|
-|공유 사서함|![확인 표시.](../media/checkmark.png)|
-|Microsoft 365 그룹 사서함|![확인 표시.](../media/checkmark.png)|
+|사용자 사서함|![확인 표시입니다.](../media/checkmark.png)|
+|공유 사서함|![확인 표시입니다.](../media/checkmark.png)|
+|Microsoft 365 그룹 사서함|![확인 표시입니다.](../media/checkmark.png)|
 |리소스 사서함||
 |공용 폴더 사서함||
 |
@@ -92,7 +92,7 @@ False **값은** 기본적으로 사서함 감사가 조직에 대해 사용하�
 
 다음 표에서는 사용자 사서함 및 공유 사서함에 대한 사서함 감사 로깅에서 사용할 수 있는 사서함 작업에 대해 설명되어 있습니다.
 
-- 확인 표시(![확인 표시.](../media/checkmark.png))는 로그온 유형에 대해 사서함 작업을 기록할 수 있습니다(모든 로그온 유형에 대해 일부 작업을 사용할 수 있는 것은 아 아함).
+- 확인 표시(![확인 표시입니다.](../media/checkmark.png))는 로그온 유형에 대해 사서함 작업을 기록할 수 있습니다(모든 로그온 유형에 대해 일부 작업을 사용할 수 있는 것은 아 아함).
 - 확인 표시 다음에 추가()는 사서함 작업이 로그온 유형에 대해 기본적으로 기록되어 있는 <sup>\*</sup> 것입니다.
 - 사서함에 대한 모든 액세스 권한이 있는 관리자는 대리인으로 간주됩니다.
 
@@ -103,29 +103,29 @@ False **값은** 기본적으로 사서함 감사가 조직에 대해 사용하�
 |사서함 작업|설명|관리자|대리인|소유자|
 |---|---|:---:|:---:|:---:|
 |**AddFolderPermissions**|이 값은 사서함 작업으로 수락되어도 **이미 UpdateFolderPermissions** 동작에 포함되어 있으며 별도로 감사되지 않습니다. 즉, 이 값을 사용하지 않습니다.||||
-|**ApplyRecord**|항목에 레코드로 레이블이 지정됩니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|
-|**복사**|메시지가 다른 폴더에 복사되었습니다.|![확인 표시.](../media/checkmark.png)|||
-|**만들기**|항목이 사서함의 일정, 연락처, 메모 또는 작업 폴더에 만들어졌습니다(예: 새 모임 요청이 만들어지기). 메시지 작성, 보내기 또는 받기는 감사되지 않습니다. 사서함 폴더 만들기도 감사되지 않습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)|
-|**FolderBind**|사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.<br/><br/> **참고:** 대리인이 수행한 폴더 바인딩 작업에 대한 감사 레코드가 통합됩니다. 24시간 내에 개별 폴더 액세스에 대해 하나의 감사 레코드가 생성됩니다.|![확인 표시.](../media/checkmark.png)|![확인 표시.](../media/checkmark.png)||
-|**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|
+|**ApplyRecord**|항목에 레코드로 레이블이 지정됩니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|
+|**복사**|메시지가 다른 폴더에 복사되었습니다.|![확인 표시입니다.](../media/checkmark.png)|||
+|**만들기**|항목이 사서함의 일정, 연락처, 메모 또는 작업 폴더에 만들어졌습니다(예: 새 모임 요청이 만들어지기). 메시지 작성, 보내기 또는 받기는 감사되지 않습니다. 사서함 폴더 만들기도 감사되지 않습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)|
+|**FolderBind**|사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.<br/><br/> **참고:** 대리인이 수행한 폴더 바인딩 작업에 대한 감사 레코드가 통합됩니다. 24시간 내에 개별 폴더 액세스에 대해 하나의 감사 레코드가 생성됩니다.|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)||
+|**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|
 |**MailboxLogin**|사용자가 사서함에 로그인한 경우|||![확인 표시](../media/checkmark.png)|
-|**MailItemsAccessed**|**참고:** 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 [Set up Advanced Audit in Microsoft 365.](set-up-advanced-audit.md) <p> 메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스합니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**MailItemsAccessed**|**참고:** 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 [Set up Advanced Audit in Microsoft 365.](set-up-advanced-audit.md) <p> 메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스합니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**MessageBind**|**참고:** 이 값은 E3 사용자(E5 또는 E5 준수 추가 기능 구독이 없는 사용자)에만 사용할 수 있습니다. <p> 미리 보기 창에서 메시지를 보거나 관리자가 연 경우|![확인 표시](../media/checkmark.png)|||
 |**ModifyFolderPermissions**|이 값은 사서함 작업으로 수락되어도 **이미 UpdateFolderPermissions** 동작에 포함되어 있으며 별도로 감사되지 않습니다. 즉, 이 값을 사용하지 않습니다.||||
-|**이동**|메시지가 다른 폴더로 이동했습니다.|![확인 표시.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
-|**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**RecordDelete**|레코드로 레이블이 지정되는 항목이 소프트 삭제되었습니다(복구 가능한 항목 폴더로 이동). 레코드로 레이블이 붙은 항목은 영구적으로 삭제할 수 없습니다(복구 가능한 항목 폴더에서 제거).|![확인 표시.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
+|**이동**|메시지가 다른 폴더로 이동했습니다.|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
+|**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**RecordDelete**|레코드로 레이블이 지정되는 항목이 소프트 삭제되었습니다(복구 가능한 항목 폴더로 이동). 레코드로 레이블이 붙은 항목은 영구적으로 삭제할 수 없습니다(복구 가능한 항목 폴더에서 제거).|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
 |**RemoveFolderPermissions**|이 값은 사서함 작업으로 수락되어도 **이미 UpdateFolderPermissions** 동작에 포함되어 있으며 별도로 감사되지 않습니다. 즉, 이 값을 사용하지 않습니다.||||
 |**SearchQueryInitiated**|**참고:** 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 [Set up Advanced Audit in Microsoft 365.](set-up-advanced-audit.md) <p> 개인은 Outlook(Windows, Mac, iOS, Android 또는 웹용 Outlook) 또는 메일 앱을 사용하여 사서함에서 Windows 10 검색할 수 있습니다.|||![확인 표시](../media/checkmark.png)|
-|**보내기**|**참고:** 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 [Set up Advanced Audit in Microsoft 365.](set-up-advanced-audit.md) <p> 사용자는 전자 메일 메시지를 보내거나 전자 메일 메시지에 답장하거나 전자 메일 메시지를 전달합니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>||![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**SendAs**|메시지가 SendAs 권한을 사용하여 전송되었습니다. 즉 사서함 소유자가 보낸 것처럼 보이도록 하여 다른 사용자가 메시지를 보냈습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
-|**SendOnBehalf**|메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
-|**SoftDelete**|메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**업데이트**|메시지 또는 해당 속성이 변경되었습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**UpdateCalendarDelegation**|일정 위임이 사서함에 할당된 경우 일정 위임 기능을 사용하여 같은 조직의 다른 사용자가 사서함 소유자의 일정을 관리할 수 있습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>||![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**UpdateComplianceTag**|다른 보존 레이블이 메일 항목에 적용됩니다(항목에 보존 레이블을 하나만 할당할 수 있습니다).|![확인 표시.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
-|**UpdateFolderPermissions**|폴더 권한이 변경되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**UpdateInboxRules**|받은 편지함 규칙이 추가, 제거 또는 변경되었습니다. 받은 편지함 규칙은 지정된 조건에 따라 사용자의 받은 편지함에서 메시지를 처리하고 규칙 조건이 충족될 때 지정된 폴더로 메시지를 이동하거나 메시지를 삭제하는 등의 작업을 수행하기 위해 사용됩니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**보내기**|**참고:** 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 [Set up Advanced Audit in Microsoft 365.](set-up-advanced-audit.md) <p> 사용자는 전자 메일 메시지를 보내거나 전자 메일 메시지에 답장하거나 전자 메일 메시지를 전달합니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>||![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**SendAs**|메시지가 SendAs 권한을 사용하여 전송되었습니다. 즉 사서함 소유자가 보낸 것처럼 보이도록 하여 다른 사용자가 메시지를 보냈습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
+|**SendOnBehalf**|메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
+|**SoftDelete**|메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**업데이트**|메시지 또는 해당 속성이 변경되었습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**UpdateCalendarDelegation**|일정 위임이 사서함에 할당된 경우 일정 위임 기능을 사용하여 같은 조직의 다른 사용자가 사서함 소유자의 일정을 관리할 수 있습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>||![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**UpdateComplianceTag**|다른 보존 레이블이 메일 항목에 적용됩니다(항목에 보존 레이블을 하나만 할당할 수 있습니다).|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
+|**UpdateFolderPermissions**|폴더 권한이 변경되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**UpdateInboxRules**|받은 편지함 규칙이 추가, 제거 또는 변경되었습니다. 받은 편지함 규칙은 지정된 조건에 따라 사용자의 받은 편지함에서 메시지를 처리하고 규칙 조건이 충족될 때 지정된 폴더로 메시지를 이동하거나 메시지를 삭제하는 등의 작업을 수행하기 위해 사용됩니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |
 
 > [!IMPORTANT]
@@ -146,12 +146,12 @@ False **값은** 기본적으로 사서함 감사가 조직에 대해 사용하�
 |사서함 작업|설명|관리자|대리인|소유자|
 |---|---|:---:|:---:|:---:|
 |**만들기**|일정 항목 만들기 메시지 작성, 보내기 또는 받기는 감사되지 않습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
-|**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**SendAs**|SendAs 권한을 사용하여 메시지가 전송되었습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
 |**SendOnBehalf**|SendOnBehalf 권한을 사용하여 메시지가 전송되었습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
-|**SoftDelete**|메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**업데이트**|메시지 또는 해당 속성이 변경된 경우|![확인 표시.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**SoftDelete**|메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**업데이트**|메시지 또는 해당 속성이 변경된 경우|![확인 표시입니다.](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |
 
 ### <a name="verify-that-default-mailbox-actions-are-being-logged-for-each-logon-type"></a>각 로그온 유형에 대해 기본 사서함 작업이 기록되고 있는지 확인

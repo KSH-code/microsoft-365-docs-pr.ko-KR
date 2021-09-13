@@ -22,11 +22,11 @@ ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 ms.custom: seo-marvel-apr2020
 description: 항목을 사용자의 보관 사서함으로 자동으로 Microsoft 365 보관 및 삭제 정책을 만드는 방법을 배워야 합니다.
 ms.openlocfilehash: d84e83174d7698c4532bc082502653f25fb2981e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574943"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216452"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 
@@ -282,7 +282,7 @@ ms.locfileid: "58574943"
 
 - 다음 표에서는 이 항목의 단계를 수행하여 만든 사용자 지정 보존 정책에 추가된 각 보존 태그에 대한 자세한 정보를 제공합니다.
 
-    | 보존 태그 | 이 태그가 하는 일 | 기본 제공 여부 또는 사용자 지정 | 유형 |
+    | 보존 태그 | 이 태그가 하는 일 | 기본 제공 여부 또는 사용자 지정 | 형식 |
     |:-----|:-----|:-----|:-----|
     |알파인 하우스 3년 후 보관함으로 이동  <br/> |1095일(3년) 된 항목을 보관 사서함으로 이동합니다.  <br/> |사용자 [지정(2단계: 보관](#step-2-create-new-retention-tags-for-the-archive-and-deletion-policies)및 삭제 정책에 대한 새 보존 태그 만들기 참조)  <br/> |기본 정책 태그(보관); 이 태그는 전체 사서함에 자동으로 적용됩니다.  <br/> |
     |알파인 하우스 7년 영구 삭제  <br/> |기본 사서함 또는 보관 사서함의 항목은 7년이 지난 항목을 영구적으로 삭제합니다.  <br/> |사용자 [지정(2단계: 보관](#step-2-create-new-retention-tags-for-the-archive-and-deletion-policies)및 삭제 정책에 대한 새 보존 태그 만들기 참조)  <br/> |기본 정책 태그(지우기); 이 태그는 전체 사서함에 자동으로 적용됩니다.  <br/> |

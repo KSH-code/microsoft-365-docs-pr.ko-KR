@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: 세 가지 보호 수준을 사용하여 보안을 강화하기 위해 Teams를 구성하는 방법에 대해 알아보고, 공동 작업을 쉽게 수행할 수 있습니다.
-ms.openlocfilehash: f0c7bbe1043116eb678df77ffe95bdc8654839f7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 5cd06f540ba96f55aa52a1cc9b5e6e7c54c7bbab
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575459"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217882"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -98,9 +98,7 @@ ms.locfileid: "58575459"
 
 조직 외부의 사용자와 공동 작업을 해야 하는 경우 최상의 공유 및 관리 환경을 위해 [Azure AD B2B와 SharePoint 및 OneDrive 통합](/sharepoint/sharepoint-azureb2b-integration-preview)을 구성하는 것이 좋습니다.
 
-팀 게스트 공유 기능은 기본적으로 해제되어 있지만 Office 365 그룹(팀 구성원이 저장된 위치)과 SharePoint는 설정되어 있습니다. 기준 계층에서 팀 공유를 사용하도록 설정하고, 필요한 경우 민감도 레이블을 사용하여 중요한 계층 및 매우 중요한 계층에서 팀 공유를 해제할 수 있습니다.
-
-민감도 레이블은 팀의 게스트 공유에만 영향을 줍니다. 연결된 SharePoint 사이트의 게스트 공유 설정은 개별적으로 제어되며 중요한 계층 및 매우 중요한 계층 모두에 대해 두 가지 설정을 조정합니다.
+Teams 게스트 공유는 기본적으로 켜져 있지만 필요한 경우 민감도 레이블을 사용하여 민감하고 매우 민감한 계층에서 끌 수 있습니다.
 
 매우 중요한 계층에서는 적용되는 파일을 암호화하도록 민감도 레이블을 구성합니다. 게스트에게 이러한 파일에 대한 액세스 권한이 필요한 경우 레이블을 만들 때 해당 게스트에게 권한을 부여해야 합니다.
 

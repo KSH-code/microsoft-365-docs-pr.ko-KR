@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 2019년 9월 14일 현재 유럽 경제 지역 31개 국가의 은행은 결제를 처리하기 전에 온라인으로 구매한 사람의 신원을 확인해야 합니다."
 keywords: 결제 서비스 지시문 2, 강력한 고객 인증, 다단계 인증
 ms.date: 11/03/2020
-ms.openlocfilehash: eda3a962b638579001482c86307d8330f30882e50893904850ba6651a2acd1f4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bbbbe9f53c11fcae9c35cda1fd4e7d4b51a9c767
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906658"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219145"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>상용 고객을 위한 결제 서비스 지침 2 및 강력한 고객 인증
 

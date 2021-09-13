@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- admindeeplinkMAC
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 다른 관리자를 추가하는 방법을 배워야 합니다.
-ms.openlocfilehash: 43c291260f02a8133503406f590ab1bd7f51d30427d1a158f55a3ef3fa46d83e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1e727f60d209f8d80edee38a21ce3992dd52d62c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900678"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219435"
 ---
 # <a name="add-an-admin"></a>관리자 추가
 
@@ -39,7 +40,7 @@ Microsoft 365 등록하면 자동으로 전역 관리자가 됩니다. 비즈니
 ### <a name="add-an-existing-employee-as-an-admin"></a>기존 직원을 관리자로 추가
 
 1. Microsoft 365 등록하면 자동으로 전역 관리자가 됩니다. 비즈니스를 관리하기 위해 다른 사용자도 관리자로 만들 수 있습니다. 
-1. 이 Microsoft 365 관리 센터 사용자 **및** 활성 사용자를 **선택합니다.**
+1. 사용자 Microsoft 365 관리 센터 사용자 활성   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**사용자를 선택합니다.**</a>
 1. 관리자로 만들 사용자를 선택한 다음 역할 **관리를 선택합니다.**
 1. 역할 **관리** 창에서 사용자의 현재 역할 확인란의 선택을 취소하고 사용자에게 할당할 새 역할을 선택합니다.
 1. 변경 **내용 저장을** 선택한 다음 관리자 역할 업데이트 확인 **창을** 닫습니다.
@@ -48,7 +49,7 @@ Microsoft 365 등록하면 자동으로 전역 관리자가 됩니다. 비즈니
 
 비즈니스를 관리하는 데 도움이 되는 외부 IT 사용자가 있는 경우 전역 관리자로 추가할 수 있습니다.
 
-1. 다음 Microsoft 365 관리 센터 **사용자,** **활성 사용자** 및 사용자 **추가를 선택합니다.**
+1. 다음 Microsoft 365 관리 센터 사용자 활성 사용자를 선택한 다음  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"></a>사용자 **추가 를 선택합니다.**
 1. 기본 **설정 페이지에서** 사용자의 이름, 표시 이름 및 사용자 이름을 입력합니다.
 1. 사용자의 **암호를** 전자 메일로 보내기 완료 시 전자 메일로 암호 보내기 확인란을 선택합니다. 전자 메일 주소를 입력합니다. 주소가 여러 개인 경우 세미코론으로 구분합니다. **다음** 을 선택합니다.
 1. 위치 **선택** 드롭다운 목록에서 사용자의 위치를 선택합니다.

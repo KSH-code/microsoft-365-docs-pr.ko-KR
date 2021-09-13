@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 description: 이 문서에서는 조직의 사용자 및 관리자가 수행한 감사 활동을 검색할 수 있도록 기본 감사를 설정하는 방법에 대해 설명합니다.
 ms.openlocfilehash: caa87a34234597e36949a1a2c47b695a02b5c2b7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568964"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216402"
 ---
 # <a name="set-up-basic-audit-in-microsoft-365"></a>2013에서 기본 감사 Microsoft 365
 

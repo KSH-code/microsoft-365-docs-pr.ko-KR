@@ -21,11 +21,11 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.openlocfilehash: 52da535c376af5775f2c75d9259529d2a011791a
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594211"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218172"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -49,7 +49,7 @@ ms.locfileid: "58594211"
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Microsoft 365 Defender.":::
 
-예를 들어 다음과 같은 가치를 제공해야 합니다. 
+예시: 
 
 - 이전에 Office 365 보안 & 준수 센터()를 사용 중이면 Microsoft 365 Defender [https://protection.office.com](https://protection.office.com) 포털()에서 통합 Microsoft 365 Defender [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.
 - Microsoft Defender 보안 센터()에서 작업 센터를 사용하는 경우 Microsoft 365 Defender [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) 포털()에서 통합 Microsoft 365 Defender [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.
@@ -91,14 +91,14 @@ ms.locfileid: "58594211"
 
 ## <a name="actions-tracked-in-the-action-center"></a>동작 센터에서 추적된 작업
 
-승인 보류 중이거나 이미 수행된 모든 작업은 작업 센터에서 추적됩니다. 사용 가능한 작업은 다음과 같습니다.
+승인 보류 중이든 이미 수행되었든 관계없이 모든 작업은 알림 센터에서 추적됩니다. 사용 가능한 작업은 다음과 같습니다.
 
 - 조사 패키지 수집 
 - 장치 격리(이 작업은 실행을 실행하지 않습니다.) 
-- 컴퓨터 오프보딩 
+- 컴퓨터 등록 취소 
 - 릴리스 코드 실행 
-- 릴리스 
-- 요청 샘플 
+- 격리에서 해제 
+- 샘플 요청 
 - 코드 실행 제한(이 작업을 실행 중지할 수 있습니다. 
 - 바이러스 백신 검사 실행 
 - 중지 및 격리 

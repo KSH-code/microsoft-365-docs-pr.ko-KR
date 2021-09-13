@@ -18,11 +18,11 @@ ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 40개 파일에 태그를 지정한 다음 40개 파일의 교육 샘플을 사용하여 작업하는 단계를 Advanced eDiscovery.
 ms.openlocfilehash: 8cb1de2b2f02ec9c2fd94e07574b638a001ec235
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573766"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216395"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery"></a>2016년 8월에 태그 지정 및 Advanced eDiscovery
   

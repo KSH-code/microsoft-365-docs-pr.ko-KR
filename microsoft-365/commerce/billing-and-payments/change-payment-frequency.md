@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: 비즈니스 구독에 대한 청구되는 기간을 변경하는 방법에 대해 자세히 알아보습니다.
 ms.date: 04/02/2021
-ms.openlocfilehash: 14eef03bd156987fe3aa485f8276b37849a58b9cc31e14505de712dbc5655349
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 52bf7f3eda473e241f5fef7c5d7c8e7417ab841e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861426"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219235"
 ---
 # <a name="change-your-billing-frequency"></a>청구 주기 변경
 

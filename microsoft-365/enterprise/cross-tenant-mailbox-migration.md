@@ -12,14 +12,15 @@ ms.date: 09/21/2020
 ms.reviewer: georgiah
 ms.custom:
 - it-pro
+- admindeeplinkMAC
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: cff003b3a6eb8a996b12c4be8b6a48b256ba80d8
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.openlocfilehash: 46e0090106ce87e130cd78c7a9f6e844bd2de187
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747510"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218592"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -53,7 +54,7 @@ ms.locfileid: "58747510"
 
 또한 해당 테넌트 ID를 얻기 위해 신뢰할 수 있는 파트너 회사(사서함을 이동하는 Microsoft 365 통신해야 합니다. 이 테넌트 ID는 조직 관계 필드에 `DomainName` 사용됩니다.
 
-구독의 테넌트 ID를 얻습니다. 구독에 로그인하여 Microsoft 365 관리 센터 로 [https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 이동하세요. 테넌트 ID 속성의 복사 아이콘을 클릭하여 클립보드에 복사합니다.
+구독의 테넌트 ID를 구하려면 구독에 로그인하고 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 로 [https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 이동하세요. 테넌트 ID 속성의 복사 아이콘을 클릭하여 클립보드에 복사합니다.
 
 다음은 프로세스의 작동 방식입니다.
 

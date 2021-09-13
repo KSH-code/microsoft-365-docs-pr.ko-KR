@@ -21,11 +21,11 @@ search.appverid:
 - MET150
 description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 및 비즈니스용 Skype 대화와 같은 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구가 있습니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
 ms.openlocfilehash: d44c0b30bc6256f98063f33d838d2cabb6ceebf1
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570572"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218962"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365
 
@@ -49,29 +49,29 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 
 |기능|콘텐츠 검색|핵심 eDiscovery|Advanced eDiscovery|
 |:------|:-------------|:-------------|:-------------|
-|콘텐츠 검색|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|
-|키워드 쿼리 및 검색 조건|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|
-|검색 통계|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|
-|검색 결과 내보내기|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|
-|역할 기반 사용 권한|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|
-|사례 관리||![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|
-|콘텐츠 위치를 법적 보유로 두기||![지원됩니다.](../media/check-mark.png)|![지원됩니다.](../media/check-mark.png)|
-|Custodian management|||![지원됩니다.](../media/check-mark.png)|
-|법적 보유 알림|||![지원됩니다.](../media/check-mark.png)|
-|고급 인덱싱|||![지원됩니다.](../media/check-mark.png)|
-|오류 수정|||![지원됩니다.](../media/check-mark.png)|
-|검토 집합|||![지원됩니다.](../media/check-mark.png)|
-|클라우드 첨부 파일 및 SharePoint 지원|||![지원됩니다.](../media/check-mark.png)|
-|광학 문자 인식|||![지원됩니다.](../media/check-mark.png)|
-|대화 스레딩|||![지원됩니다.](../media/check-mark.png)|
-|컬렉션 통계 및 보고서|||![지원됩니다.](../media/check-mark.png)|
-|집합 필터링 검토|||![지원됩니다.](../media/check-mark.png)|
-|태그 지정|||![지원됩니다.](../media/check-mark.png)|
-|분석|||![지원됩니다.](../media/check-mark.png)|
-|예측 코딩 모델|||![지원됩니다.](../media/check-mark.png)|
-|계산된 문서 메타데이터|||![지원됩니다.](../media/check-mark.png)|
-|장기 실행 작업의 투명성|||![지원됩니다.](../media/check-mark.png)|
-|고객 소유의 위치로 Azure Storage 내보낼 수 있습니다.|||![지원됩니다.](../media/check-mark.png)|
+|콘텐츠 검색|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|키워드 쿼리 및 검색 조건|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|검색 통계|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|검색 결과 내보내기|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|역할 기반 사용 권한|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|사례 관리||![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|콘텐츠 위치를 법적 보유로 두기||![지원됨.](../media/check-mark.png)|![지원됨.](../media/check-mark.png)|
+|Custodian management|||![지원됨.](../media/check-mark.png)|
+|법적 보유 알림|||![지원됨.](../media/check-mark.png)|
+|고급 인덱싱|||![지원됨.](../media/check-mark.png)|
+|오류 수정|||![지원됨.](../media/check-mark.png)|
+|검토 집합|||![지원됨.](../media/check-mark.png)|
+|클라우드 첨부 파일 및 SharePoint 지원|||![지원됨.](../media/check-mark.png)|
+|광학 문자 인식|||![지원됨.](../media/check-mark.png)|
+|대화 스레딩|||![지원됨.](../media/check-mark.png)|
+|컬렉션 통계 및 보고서|||![지원됨.](../media/check-mark.png)|
+|집합 필터링 검토|||![지원됨.](../media/check-mark.png)|
+|태그 지정|||![지원됨.](../media/check-mark.png)|
+|분석|||![지원됨.](../media/check-mark.png)|
+|예측 코딩 모델|||![지원됨.](../media/check-mark.png)|
+|계산된 문서 메타데이터|||![지원됨.](../media/check-mark.png)|
+|장기 실행 작업의 투명성|||![지원됨.](../media/check-mark.png)|
+|고객 소유의 위치로 Azure Storage 내보낼 수 있습니다.|||![지원됨.](../media/check-mark.png)|
 |||||
 
 다음은 각 eDiscovery 기능에 대한 설명입니다.

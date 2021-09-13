@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: ae54134f681568a193b7a99c166aa025d6358eec
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561233"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218195"
 ---
 # <a name="pilot-microsoft-defender-for-identity"></a>Id에 대한 Microsoft Defender 파일럿
 
@@ -63,12 +63,12 @@ Id용 Defender 자습서를 사용해 냅니다.
 - [유출 경고](/defender-for-identity/exfiltration-alerts)
 - [사용자 조사](/defender-for-identity/investigate-a-user)
 - [컴퓨터 조사](/defender-for-identity/investigate-a-computer)
-- [측면 이동 경로 조사](/defender-for-identity/investigate-lateral-movement-path)
-- [엔터티 조사](/defender-for-identity/investigate-entity)
+- [횡적 이동 경로 조사](/defender-for-identity/investigate-lateral-movement-path)
+- [장치에서 엔터티 조사](/defender-for-identity/investigate-entity)
 
 ## <a name="next-steps"></a>다음 단계
 
-[Microsoft Defender에서 Office 365](eval-defender-office-365-overview.md)
+[Office 365용 Microsoft Defender 평가](eval-defender-office-365-overview.md)
 
 Microsoft [Defender](eval-defender-office-365-overview.md) for Office 365
 

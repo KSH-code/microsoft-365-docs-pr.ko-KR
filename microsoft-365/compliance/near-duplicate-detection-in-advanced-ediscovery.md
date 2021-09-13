@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 중복에 가까운 검색을 사용하여 문서에서 사례 데이터를 분석할 때 텍스트적으로 유사한 문서를 그룹화할 Advanced eDiscovery.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 100b7cf735e9ecdfa37b146519d0a13c2ff6f1ee3d087fed6b1e98869471fc27
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 255531897a1706904005034c56cab00d0032b7f3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53885534"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216762"
 ---
 # <a name="near-duplicate-detection-in-advanced-ediscovery"></a>검색된 항목의 중복에 가까운 Advanced eDiscovery
 

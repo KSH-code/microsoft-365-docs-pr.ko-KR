@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6f09f6a4088e0f96ccaeaee4ac41c0ffd244e41eac80b5262d8a8ce7adf6319d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 66be529b6a300dfd57a59e755311e28c167beffb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53862266"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217685"
 ---
 # <a name="contact-support-for-dominican-republic"></a>도미니크 공화국 지원에 문의
 

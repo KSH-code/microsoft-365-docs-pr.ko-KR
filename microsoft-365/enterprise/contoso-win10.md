@@ -15,11 +15,11 @@ ms.collection:
 ms.custom: ''
 description: 어떻게 Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
 ms.openlocfilehash: 9315e57fb08f0adda39f1a08107d8d96e1c2bc24
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569456"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218625"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Contoso의 Windows 10 Enterprise 배포
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5fbdb1725249797ea87104cac5f25eaac9f5bff05967ee11cccb7ae14c349d55
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0c0c2e280f63076687a0854e25c47577b050a8f7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53888766"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220032"
 ---
 # <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 Defender API 및 인시던트 리소스 유형
 
@@ -46,13 +46,13 @@ ms.locfileid: "53888766"
 
 HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문에는 도달한 할당량이 다시 설정될 때까지의 시간이 포함됩니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 인시던트 API에는 각 메서드에 대해 서로 다른 종류의 사용 권한이 필요합니다. 필요한 사용 권한에 대한 자세한 내용은 해당 방법의 문서를 참조하세요.
 
 ## <a name="methods"></a>메서드
 
-메서드 | 반환 형식 | 설명
+방법 | 반환 형식 | 설명
 -|-|-
 [인시던트 열거](api-list-incidents.md) | [인시던트](api-incident.md) 목록 | 인시던트 목록을 얻습니다.
 [인시던트 업데이트](api-update-incidents.md) | [인시던트](api-incident.md) | 특정 인시던트 업데이트

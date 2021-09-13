@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: 디렉터리 동기화를 사용하여 사용자를 프로비전할 수 있도록 준비하는 Microsoft 365 이 방법을 사용하는 경우의 장기적인 이점에 대해 설명
 ms.openlocfilehash: 389f0ca682538baed21432220c16ad7cb269daa0
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356243"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59220747"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a> Microsoft 365로 디렉터리 동기화 준비
 

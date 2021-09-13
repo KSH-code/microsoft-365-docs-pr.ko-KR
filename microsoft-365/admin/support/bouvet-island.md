@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1f04e80a37ceb5a293888e7ddad6e7674ed8bc7fed0a6f701d8ef9fed47e6fc6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7b5a5d47c0ddcca8300f7e7503c01aa6b309c4dd
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821346"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217775"
 ---
 # <a name="contact-support-for-bouvet-island"></a>부베섬 지원에 문의
 

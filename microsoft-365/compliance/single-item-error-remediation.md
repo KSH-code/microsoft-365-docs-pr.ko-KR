@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: 대량 오류 수정 프로세스를 수행하지 않고도 문서의 검토 집합에서 Advanced eDiscovery 오류를 수정할 수 있습니다.
 ms.openlocfilehash: b0f710b737b8cc87c154747dd952322f3cf2ea20
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574318"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218875"
 ---
 # <a name="single-item-error-remediation-in-advanced-ediscovery"></a>단일 항목 오류 수정 Advanced eDiscovery
 

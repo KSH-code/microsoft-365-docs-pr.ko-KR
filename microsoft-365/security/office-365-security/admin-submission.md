@@ -20,11 +20,11 @@ description: 관리자는 Microsoft 365 Defender 포털에서 제출 포털을 �
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 7bd845f67c25dae154832dbe280b6d158b22db8c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573442"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219922"
 ---
 # <a name="use-the-submissions-portal-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>제출 포털을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 

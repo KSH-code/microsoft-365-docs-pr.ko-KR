@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: 사서함에 무제한 보관 저장소를 제공하는 자동 확장 보관에 Exchange Online 대해 자세히 알아보습니다.
 ms.openlocfilehash: be6fc33879a43d01dfde1312d7144994ff18fd18
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561185"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216275"
 ---
 # <a name="overview-of-unlimited-archiving"></a>무제한 보관 개요
 

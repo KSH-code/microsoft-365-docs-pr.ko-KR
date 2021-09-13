@@ -18,11 +18,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 54883ab437dcf01b042b5458bdc6312eaf24d179
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256977"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218315"
 ---
 # <a name="advanced-hunting-api"></a>고급 헌팅 API
 

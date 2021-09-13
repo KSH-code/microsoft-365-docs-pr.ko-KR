@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: DLP(데이터 손실 방지) 정책에 정책 팁을 추가하여 사용자에게 DLP 정책과 충돌하는 콘텐츠를 사용 중일 때 이를 알리는 방법을 학습합니다.
-ms.openlocfilehash: 5dba275d274ebc97ec934f6b43d8a913b80c8d84
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 50f61fb86c2458e6471c0b2002c15f4a8b1cabe0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589437"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216212"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시
 
@@ -215,7 +215,7 @@ DLP 정책은 사이트와 동기화되고 정책을 기준으로 콘텐츠가 �
 - 콘텐츠 포함
 - 콘텐츠 공유
 
-예외는 조건으로 간주되어 있으며 이러한 모든 조건은 콘텐츠와 일치하고 Outlook 보호 작업을 적용할 수 있습니다. 그러나 사용자에게 정책 팁을 표시하는 것은 아직 지원되지 않습니다.
+예외는 조건으로 간주되어 있으며 이러한 모든 조건은 콘텐츠와 일치하고 Outlook 보호 작업을 적용할 수 있습니다. 그러나 사용자에게 정책 팁을 표시하는 것은 아직 지원되지 않습니다. 또한 Outlook 메일 그룹에 적용되는 DLP 정책에 대한 정책 팁을 표시하는 것은 지원되지 않습니다.
 
 ### <a name="policy-tips-in-the-exchange-admin-center-vs-the-security-amp-compliance-center"></a>보안 및 준수 Exchange 정책 팁 &amp;
 
@@ -281,7 +281,7 @@ DLP 정책의 정책 팁이 이러한 옵션으로 구성되어 있는 경우 �
 ## <a name="more-information"></a>추가 정보
 
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
-- [서식 파일에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
+- [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
 - [DLP 정책 조건, 예외 및 작업(미리 보기)](./dlp-microsoft-teams.md)
 - [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](protect-documents-that-have-fci-or-other-properties.md)
 - [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)

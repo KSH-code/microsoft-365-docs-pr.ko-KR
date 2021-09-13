@@ -18,11 +18,11 @@ search.appverid:
 description: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: dbba5e0e63f473d12b40c902001332c1689e4d12
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572170"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218855"
 ---
 # <a name="use-the-exact-data-match-schema-and-sensitive-information-type-wizard"></a>정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사 사용
 

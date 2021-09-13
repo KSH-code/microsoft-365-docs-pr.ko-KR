@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 0e1fa33358dbaa63e99e4e0645a04766ab72477b
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243924"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219952"
 ---
 # <a name="integrating-microsoft-365-defender-into-your-security-operations"></a>보안 Microsoft 365 Defender 통합
 
@@ -48,7 +48,7 @@ ms.locfileid: "58243924"
 조직에서 기존 아키텍처의 일부 측면을 이미 Microsoft 365 Defender 이러한 문서는 기존 아키텍처와 프로세스를 개선하는 데 도움이 될 수 있습니다.
 
 >[!Note]
->Microsoft 파트너인 Protiviti에서 이 문서에 기여하고 중요한 피드백을 제공했습니다.
+>Microsoft 파트너인 Protiviti는 이 문서에 기여하고 중요한 피드백을 제공했습니다.
 >
 
 ## <a name="target-audience"></a>대상 그룹

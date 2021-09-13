@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c1f28aa46b4f20c2ba12eaf7c688089d98ff8b37c08b27e0facb92a672ff2f7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2a28e2ecc45be941dbd6e346f9918e1692357840
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56813759"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59218125"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>2016년 8월의 피싱 방지 Microsoft 365
 
@@ -37,15 +37,15 @@ ms.locfileid: "56813759"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-*피싱* 은 메시지에 포함된 중요한 정보를 훔치려고 하는 합법적인 발신자 또는 신뢰할 수 있는 발신자가 보낸 것 같은 전자 메일 공격입니다. 특정 범주의 피싱이 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+*피싱* 은 메시지에 포함된 중요한 정보를 훔치려고 하는 합법적인 발신자 또는 신뢰할 수 있는 발신자가 보낸 것 같은 전자 메일 공격입니다. 특정 범주의 피싱이 있습니다. 예시:
 
 - **스피어 피싱은** 대상 받는 사람(일반적으로 공격자가 받는 사람을 정정한 후)에 맞게 특별히 조정된 포커스가 있는 사용자 지정 콘텐츠를 사용 합니다.
 
-- **래링은** 최대 효과를 위해 조직 내의 임원 또는 기타 높은 가치의 대상을 대상으로 합니다.
+- **웨일링** 최대 효과를 위해 조직 내의 임원 또는 기타 높은 가치의 대상을 대상으로 합니다.
 
 - **BEC(비즈니스** 전자 메일 손상)는 신뢰할 수 있는 보낸 사람(재무 책임자, 고객, 신뢰할 수 있는 파트너 등)을 사용하여 받는 사람을 속여 지급을 수령하거나 자금을 이체하거나 고객 데이터를 노출하게 합니다. [이 비디오](https://www.youtube.com/watch?v=8Kn31h9HwIQ&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=2)를 시청하여 자세히 확인하세요.
 
-- **데이터를 암호화하고** 암호를 해독하기 위해 지급을 요구하는 랜섬웨어는 거의 항상 피싱 메시지에서 시작됩니다. 피싱 방지 보호는 암호화된 파일의 암호를 해독하는 데 도움이 될 수 없지만 랜섬웨어 캠페인과 연결된 초기 피싱 메시지를 검색하는 데 도움이 될 수 있습니다. 랜섬웨어 공격으로부터 복구하는 데 대한 자세한 내용은 랜섬웨어 공격에서 복구를 [Microsoft 365.](recover-from-ransomware.md)
+- **데이터를 암호화하고** 암호를 해독하기 위해 지급을 요구하는 랜섬웨어는 거의 항상 피싱 메시지에서 시작됩니다. 피싱 방지 보호는 암호화된 파일의 암호를 해독하는 데 도움이 되지 않지만 랜섬웨어 캠페인과 관련된 초기 피싱 메시지를 탐지하는 데 도움이 됩니다. 랜섬웨어 공격으로부터 복구하는 데 대한 자세한 내용은 랜섬웨어 공격에서 복구를 [Microsoft 365.](recover-from-ransomware.md)
 
 공격의 복잡성이 증가함에 따라 학습된 사용자가 정교한 피싱 메시지를 식별하기도 어렵습니다. 다행히 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365 도움이 될 수 있습니다.
 

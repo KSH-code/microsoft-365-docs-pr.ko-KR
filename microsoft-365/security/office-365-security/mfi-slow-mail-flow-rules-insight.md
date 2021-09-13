@@ -16,11 +16,11 @@ description: 관리자는 보안 & 및 준수 센터의 느린 메일 흐름 규
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 76fdfd7595fc3a7c760eadd51498883d8d7a63fe
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572422"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217972"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 느린 메일 흐름 규칙 & 수정
 

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 093a6d0d-890b-489e-9f46-b15687d3fe4f
 description: 사용 현황 분석, 활동 보고서 Microsoft 365 채택 메트릭의 활성 사용자에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 792dbace925f316f2258030de8cef6d99437e936d4e4ef9106672c4ac6d83064
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 21663722d1a3850389db2ad79321daf363d314c6
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843602"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59219465"
 ---
 # <a name="active-user-in-microsoft-365-usage-reports"></a>사용 현황 Microsoft 365 활성 사용자
 

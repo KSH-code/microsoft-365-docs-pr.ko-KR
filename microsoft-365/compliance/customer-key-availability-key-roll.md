@@ -12,12 +12,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키와 함께 사용되는 Azure Key Vault에 저장된 고객 루트 키를 롤링하는 방법을 설명합니다. 서비스에는 Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 Teams 포함됩니다.
-ms.openlocfilehash: c74465dd9ab5d05374f11169d6c60d60b85372710f44dca1d7c164f7ca339136
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 892d77959bec1fb33b0ea6bcfaa8c530dd9b8911
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871902"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216902"
 ---
 # <a name="roll-or-rotate-a-customer-key-or-an-availability-key"></a>고객 키 또는 가용성 키 롤 또는 회전
 
@@ -35,7 +35,7 @@ Microsoft는 고객에게 가용성 키에 대한 직접적인 제어를 노출�
 
 키를 롤링할 때 기존 키의 새 버전을 요청합니다. 기존 키의 새 버전을 요청하기 위해 처음에 키를 만드는 데 사용한 구문과 동일한 cmdlet인 [Add-AzKeyVaultKey를](/powershell/module/az.keyvault/add-azkeyvaultkey)사용하게 됩니다. DEP(데이터 암호화 정책)와 연결된 키의 롤링을 완료한 후 고객 키가 새 키를 사용할 수 있도록 다른 cmdlet을 실행합니다. 각 AKV(Azure Key Vault)에서 이 단계를 합니다.
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
 
 1. 구독을 사용하여 Azure 구독에 Azure PowerShell. 자세한 내용은 [으로 로그인을 Azure PowerShell.](/powershell/azure/authenticate-azureps)
 
@@ -63,7 +63,7 @@ Microsoft는 고객에게 가용성 키에 대한 직접적인 제어를 노출�
 
 여기서 *PolicyName은* 정책의 이름 또는 고유 ID입니다. 예를 들어 Contoso_Global.
 
-예:
+예제:
 
 ```powershell
 Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Refresh

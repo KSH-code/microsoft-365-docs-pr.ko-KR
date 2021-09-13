@@ -18,11 +18,11 @@ ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용하여 쿼리를 만들어 타사 Microsoft 365 원본의 사서함으로 가져온 항목을 검색할 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: afed5e519b789baffca4f16b95c842ccfe575b4f
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507641"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216262"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>콘텐츠 검색을 사용하여 사용자 지정 파트너 커넥터에서 가져온 타사 데이터 검색
 

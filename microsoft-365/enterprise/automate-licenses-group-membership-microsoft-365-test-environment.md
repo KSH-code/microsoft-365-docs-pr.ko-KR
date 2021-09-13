@@ -16,11 +16,11 @@ ms.custom:
 - Ent_TLGs
 description: 엔터프라이즈 테스트 환경에 대한 사용자 Microsoft 365 그룹 기반 라이선싱 및 동적 그룹 구성원을 구성합니다.
 ms.openlocfilehash: 7d754b937296fbd852904022c45492b6890f2f04
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572686"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59216082"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 대한 사용자 Microsoft 365 라이선스 및 그룹 구성원 자동화
 
