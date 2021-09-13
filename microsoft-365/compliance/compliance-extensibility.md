@@ -20,12 +20,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 타사 데이터 커넥터 및 Microsoft Microsoft 365 API를 사용하여 규정 준수 솔루션을 확장하는 Graph 대해 자세히 알아보십시오.
-ms.openlocfilehash: df3fcf74fb7e042bb13d482fe4433c36dc4c4896c15d094ffb5f408dd3925908
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1fed5ac72c7dbfa4b1be370ec03678e1beecdcd2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53892270"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190009"
 ---
 # <a name="microsoft-365-compliance-extensibility"></a>Microsoft 365 규정 준수 extensibility
 

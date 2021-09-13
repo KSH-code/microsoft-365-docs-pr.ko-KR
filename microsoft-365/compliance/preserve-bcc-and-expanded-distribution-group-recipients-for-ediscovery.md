@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: In-Place, 소송 보존 및 Microsoft 365 보존 정책을 사용하면 규정 준수 및 eDiscovery 요구 사항을 충족하기 위해 사서함 콘텐츠를 보존할 수 있습니다.
 ms.openlocfilehash: 4d72233a6026ac493de1cd551c0b4908d200815f
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508205"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186052"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
   
@@ -68,7 +68,7 @@ Exchange Online 및 Exchange Server 2013(누적 업데이트 7 이상 버전)에
 |잭의 사서함  <br/> |To/Cc:John(직접 또는 메일 그룹을 통해)  <br/> |예  <br/> |받는 사람/Cc 정보는 모든 받는 사람에게 배달되는 메시지에 포함됩니다.  <br/> |
 |잭의 사서함  <br/> |Bcc:Jack(직접 또는 메일 그룹을 통해)  <br/> |아니요  <br/> |Bcc 정보는 받는 사람에게 배달된 메시지에 저장되지 않습니다. 보낸 사람 사서함을 검색해야 합니다.  <br/> |
    
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
  **Q. Bcc 받는 사람 정보가 저장되는 위치는 언제 어디인가요?**
   

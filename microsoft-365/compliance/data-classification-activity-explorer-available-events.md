@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: 활동 탐색기에서 사용할 수 있는 레이블 지정 활동 목록입니다.
 ms.openlocfilehash: 163231d4d1e7c6a2d1b75c0f81a17443cfafe246
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394567"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184203"
 ---
 # <a name="labeling-activities-that-are-available-in-activity-explorer"></a>활동 탐색기에서 사용할 수 있는 레이블 지정 활동
 
