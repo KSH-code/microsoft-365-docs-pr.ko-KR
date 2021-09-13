@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
 description: 비즈니스용 Microsoft 365이 GDPR(일반 데이터 보호 규정) 프로세스에 어떻게 도움이 되는지 알아보세요.
-ms.openlocfilehash: f5070c446a98815061d9e898167a8214d5fc8bb946ba586c47a3a9b230ae4a78
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 147843fab8fcb8d2d1793a21f9bb897cb4a59672
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822838"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186852"
 ---
 # <a name="gdpr-simplified-a-guide-for-your-small-business"></a>GDPR 간소화: 소기업을 위한 가이드
 
