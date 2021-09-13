@@ -16,12 +16,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 4d7f257f5ecb1c3f24acb6d4510e9a534b6fa01f45667cb5b662ca7805b9f69e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8597cc951c5a6d9cc587eaee957beb304fb35311
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53839846"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190919"
 ---
 # <a name="become-a-microsoft-defender-for-endpoint-partner"></a>엔드포인트용 Microsoft Defender 파트너 자격
 
@@ -62,7 +62,7 @@ Microsoft Defender for Endpoint 팀이 통합을 검토하고 승인하면 Micro
 5. 다중 테넌트 Azure AD 접근 방법을 사용하는 경우 응용 프로그램의 사용을 추적하려면 Azure AD 응용 프로그램 이름이 필요합니다.
 6. Microsoft Defender에서 User-Agent API 또는 보안 API의 끝점 공용 집합에 대해 호출한 각 API에 Graph 필드를 포함합니다. 이는 통계 목적, 문제 해결 및 파트너 인식에 사용됩니다. 또한 이 단계는 MISA(Microsoft Intelligent Security Association)의 멤버 자격에 대한 요구 사항입니다.
 
-   다음 단계를 따릅니다:
+   다음 단계를 따릅니다.
 
    - 각 HTTP User-Agent 헤더의 User-Agent 필드를 아래 형식으로 설정하십시오.
 

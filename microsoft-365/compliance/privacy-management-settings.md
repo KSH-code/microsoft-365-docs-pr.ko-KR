@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: 개인 정보 관리를 위한 전역 설정 옵션에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 071006c354d975cbed06834d60c2d647bbc5df60
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747068"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186028"
 ---
 # <a name="manage-privacy-management-settings-preview"></a>개인 정보 관리 설정 관리(미리 보기)
 

@@ -25,11 +25,11 @@ search.appverid:
 - MOE150
 description: 다단계 인증을 설정합니다.
 ms.openlocfilehash: 81a6ff75cfa5ea0250962f3e21da7890ed795ccb
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347183"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188699"
 ---
 # <a name="set-up-multifactor-authentication-on-your-mobile-device"></a>모바일 장치에서 다단계 인증 설정
 

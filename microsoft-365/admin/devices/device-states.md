@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: 비즈니스용 관리자 홈의 장치 작업 목록에서 다양한 장치 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: c33c6fc06cb0707af28c43be4ea5ab427b77900b
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360616"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187188"
 ---
 # <a name="device-states"></a>장치 상태
 

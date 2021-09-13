@@ -23,11 +23,11 @@ search.appverid:
 - MOE150
 description: '조직에서 비즈니스용 OneDrive 총 파일 및 저장소 수를 확인하려면 사용 현황 보고서를 다운로드합니다. '
 ms.openlocfilehash: 1dd5e595e1e7766bb3f4a4a3e67af02605bb7768
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564819"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185411"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Microsoft 365 관리 센터의 보고서 - 비즈니스용 OneDrive 사용 현황
 

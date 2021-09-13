@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: 전역 관리자 자격 증명을 사용하여 비즈니스용 Microsoft 365 로그인하여 장치 정책 및 작업을 확인합니다.
 ms.openlocfilehash: a4494b7125576f927a0cd7f715311ae616c6497c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566385"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184812"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>정책 및 장치 보기 및 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "58566385"
 
 ## <a name="view-and-edit-device-policies"></a>장치 정책 보기 및 편집
 
-1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 2. 왼쪽 nav에서 장치 **정책을** \> **선택 합니다.**
 
     이 페이지에서 정책을 만들거나, 편집하거나, 대상 그룹을 변경하거나, 삭제할 수 있습니다.

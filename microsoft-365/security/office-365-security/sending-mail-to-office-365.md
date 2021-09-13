@@ -19,12 +19,12 @@ ms.custom:
 description: 외부 보낸 사람으로, 외부의 사용자에게 전자 메일을 배달하는 기능을 늘리는 방법을 Microsoft 365. 또한 외부 사용자로 피싱 & 정크 메일 메시지를 보고하는 방법도 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e4ca59fdcabe96bb91c4b49d4e30c6129783755a0c06c310d0d9f3948fe514c9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4869b0f02415b3802b34625789817068cbe14c57
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "57036663"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187315"
 ---
 # <a name="sending-mail-to-microsoft-365"></a>메일로 Microsoft 365
 

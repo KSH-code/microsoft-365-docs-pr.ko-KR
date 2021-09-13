@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 비즈니스 내 모든 사용자의 전자 메일 설정 구성 책임을 맡고 있다면 이 문서에서 사용자의 중요 받은 편지함 구성 방법에 대해 알아보세요.
 ms.openlocfilehash: 6bc33211af5ee0cd064b63f95e720f19cee196e5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567811"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184459"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 

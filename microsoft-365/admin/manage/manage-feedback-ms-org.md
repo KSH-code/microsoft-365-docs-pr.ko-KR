@@ -22,11 +22,11 @@ search.appverid:
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백을 관리합니다.
 ms.openlocfilehash: 7d6d607182a546e869a9f92e84adfa31f7e02a26
-ms.sourcegitcommit: 7883556c05ceef228dc329f715e8a6213b40d921
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58957161"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187212"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백 관리
 

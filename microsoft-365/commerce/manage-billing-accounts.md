@@ -17,21 +17,22 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid: MET150
 description: 청구 계정과 이러한 계정이 계정 설정, 송장, 결제 방법 및 구매를 관리하는 데 사용되는 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 0e88a1aa7a690b61744339f9b7e7dc931ed3ab85eb240868b3d66eabcf3c4b4e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 551165a9ddcde03f96b6a2d03e5b1f5cd6e93eec
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893142"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190279"
 ---
 # <a name="understand-billing-accounts"></a>청구 계정 이해
 
 Microsoft 제품을 사용해 보거나 구입하기 위해 등록하면 청구 계정이 만들어집니다. 청구 계정을 사용하여 계정 설정, 송장, 결제 방법 및 구매를 관리합니다. 여러 청구 계정에 액세스할 수 있습니다. 예를 들어 직접 Microsoft 365 등록하거나 조직의 기업계약, Microsoft 제품 & 서비스 계약 또는 Microsoft 고객 계약에 액세스할 수 있습니다. 이러한 각 시나리오에 대해 별도의 청구 계정이 있습니다.
 
-현재 Microsoft 365 관리 센터 지원되는 청구 계정 유형은 다음과 같습니다.
+현재 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 계정 유형이 지원됩니다.
 
 - Microsoft Online Services 프로그램: 이 청구 계정은 Microsoft 365 등록할 때 만들어집니다.
 - Microsoft 제품 & 서비스 계약(MPSA) 프로그램: 이 청구 계정은 조직이 소프트웨어 및 온라인 서비스를 구입하기 위해 MPSA 볼륨 라이선스 계약에 서명할 때 만들어집니다.
@@ -68,7 +69,7 @@ Microsoft 제품을 사용해 보거나 구입하기 위해 등록하면 청구 
 
 ## <a name="understand-access-to-billing-accounts"></a>청구 계정에 대한 액세스 이해
 
-역할 및 사용 권한을 통해 다른 사용자에게 계정의 청구 계정에 Microsoft 365 관리 센터 수 있습니다. 청구 계정 소유자만 청구 계정에 대한 액세스 권한을 부여할 수 있습니다. 사용자에게 다음 역할 중 하나를 할당할 수 있습니다.
+역할 및 사용 권한을 통해 다른 사용자에게 계정의 청구 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">계정에 Microsoft 365 관리 센터</a> 수 있습니다. 청구 계정 소유자만 청구 계정에 대한 액세스 권한을 부여할 수 있습니다. 사용자에게 다음 역할 중 하나를 할당할 수 있습니다.
 
 - **청구 계정 소유자** &mdash; 사용 권한을 할당하고, 계정을 편집하고, 계약에 서명하고, 계정을 볼 수 있습니다.
 - **청구 계정 참가자** &mdash; 계정을 편집하고 계약에 서명하고 계정을 볼 수 있습니다.

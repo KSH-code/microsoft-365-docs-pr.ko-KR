@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4f804db42fd48d0a60848e5947d6136c0bc3a10e1f7dacdb43bc238245b84cc7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 479f2fc7f0aecce7498d8bfd11144a2f21b54497
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838334"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190809"
 ---
 # <a name="contact-support-for-comoros"></a>Comoros 지원에 문의
 

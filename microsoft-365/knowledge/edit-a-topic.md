@@ -15,11 +15,11 @@ ms.service: ''
 localization_priority: Normal
 description: 기존 항목의 기존 항목을 편집하는 Microsoft Viva 방법을 참조하세요.
 ms.openlocfilehash: 4fb3089d0ce701477542fec7710db5de17638469
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573610"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187819"
 ---
 # <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목 편집 
 

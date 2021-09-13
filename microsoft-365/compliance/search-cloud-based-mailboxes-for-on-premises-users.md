@@ -19,11 +19,11 @@ ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Microsoft 365의 eDiscovery 도구를 사용하여 Exchange 하이브리드 배포의 온-프레미스 사용자에 대한 Teams 채팅 데이터를 검색하고 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 1dfd3ebe278f704cc878beaa1711f117d57551bc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574787"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184004"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>온-프레미스 사용자의 Teams 채팅 데이터 검색
 

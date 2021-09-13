@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
 ms.openlocfilehash: de016e9ef29265fb89799eadebe54c973dac80d0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568015"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185508"
 ---
 # <a name="microsoft-cloud-for-it-architects-illustrations"></a>IT 설계자용 Microsoft 클라우드 그림
 

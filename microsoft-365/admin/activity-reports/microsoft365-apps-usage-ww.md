@@ -19,11 +19,11 @@ search.appverid:
 - GEA150
 description: 보고서의 Microsoft 365 앱 보고서 대시보드를 사용하여 Microsoft 365 보고서를 Microsoft 365 관리 센터.
 ms.openlocfilehash: 5e604ba21e7653cbef9e4fa7eccedc24f775128b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564945"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185435"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 365 앱 사용 현황
 

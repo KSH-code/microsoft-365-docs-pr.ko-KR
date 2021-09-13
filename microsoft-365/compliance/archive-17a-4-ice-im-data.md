@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 ICE 커넥트 Chat DataParser 커넥터를 설정하고 사용하여 ICE 커넥트 데이터를 가져오고 보관하는 Microsoft 365.
 ms.openlocfilehash: cf759aaecdfcde8f951cc09271b7e32226324664
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567075"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186291"
 ---
 # <a name="set-up-a-connector-to-archive-ice-connect-chat-data"></a>ICE 채팅 데이터를 보관할 커넥터 커넥트 설정
 

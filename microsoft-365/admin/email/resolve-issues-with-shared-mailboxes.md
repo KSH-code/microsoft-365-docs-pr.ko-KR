@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함을 설정할 때 오류가 발생할 수 있습니다. 공유 사서함에 문제가 있는 경우 이러한 솔루션을 사용해 하세요.
-ms.openlocfilehash: 2ec294f4dfe1d15bc4acf2789a35285d1dca78881f30512f08d39fd0a02394e3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ae76bc1cb97c44087be57adc7791ea8814b94b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825934"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184683"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>공유 사서함의 문제 해결
 

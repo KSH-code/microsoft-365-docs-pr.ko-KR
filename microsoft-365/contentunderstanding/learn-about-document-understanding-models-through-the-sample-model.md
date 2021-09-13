@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: Priority
 description: 샘플 모델을 통해 문서 이해 모델에 대해 알아봅니다.
 ms.openlocfilehash: e89c0723b978b4d5a206119e10b5a712668b406a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573742"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187995"
 ---
 # <a name="learn-about-document-understanding-models-through-a-sample-model"></a>샘플 모델을 통해 문서 이해 모델 알아보기
 

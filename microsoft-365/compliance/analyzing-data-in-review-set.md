@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 사례를 분석할 때 문서 집합을 구성하는 데 사용할 수 있는 Advanced eDiscovery 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 332c467ed6d178d6d8252cdd337a9b23384d88790729e3923eb0cafae981cd82
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7c63e7eca2e032bfa11c4d4e6f961bb7a7700a4e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843110"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190162"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>다음의 검토 집합에서 데이터 Advanced eDiscovery
 

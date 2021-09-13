@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 21711c1e992ef5c6cee0ead839f35327f90a04fe855213913b29283637cb273c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4ff9056421d32abf83970356f9f99d9aea2adc3f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906462"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188371"
 ---
 # <a name="payment-information-for-new-zealand"></a>뉴질랜드의 결제 정보
 

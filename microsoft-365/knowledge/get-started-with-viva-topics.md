@@ -9,14 +9,14 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Microsoft Viva 항목을 통해 정보를 검색하고 탐색하는 새로운 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 07b12ab191ec3222deb3e01f4b039f7b15dc8a5bed64047d144af35a9159a611
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 65084663db1b9cdee4a179831a98c297c83d30d7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53840158"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187811"
 ---
-# <a name="get-started-with-microsoft-viva-topics"></a>Microsoft Viva 주제 시작
+# <a name="get-started-with-microsoft-viva-topics"></a>Microsoft Viva Topics 시작
 
 업무에 중요한 사람 및 자원을 어떻게 찾을 수 있나요? 중요한 파일을 다른 사용자와 공유할 때 나중에 중요한 파일이 필요할 때 다시 찾을 수 있나요? Viva Topics는 사용자 콘텐츠의 정보를 검색하고 탐색하는 새로운 방법을 Microsoft 365.  
 

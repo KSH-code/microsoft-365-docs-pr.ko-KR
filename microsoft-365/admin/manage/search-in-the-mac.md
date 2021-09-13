@@ -18,11 +18,11 @@ search.appverid:
 - MOE150
 description: 더 빠르고 나은 결과를 위해 관리 센터에서 검색 기능을 사용하는 방법을 배워야 합니다.
 ms.openlocfilehash: eca365ed7c25ac908fe5ea1679ceedb9765fb3c7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566991"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187116"
 ---
 # <a name="search-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 검색
 

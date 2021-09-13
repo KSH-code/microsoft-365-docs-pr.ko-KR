@@ -21,11 +21,11 @@ search.appverid:
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: 브라우저 및 웹 응용 프로그램을 통해 보고서를 사용자 지정하는 Power BI Desktop.
 ms.openlocfilehash: 5dcdee05fbb413c7f1925f5e81c7e6596da111e5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58556495"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190619"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>사용 현황 분석에서 Microsoft 365 사용자 지정
 

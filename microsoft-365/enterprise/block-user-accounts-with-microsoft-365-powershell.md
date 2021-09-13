@@ -20,11 +20,11 @@ ms.custom:
 ms.assetid: 04e58c2a-400b-496a-acd4-8ec5d37236dc
 description: PowerShell을 사용하여 특정 계정에 대한 액세스를 차단하고 차단을 Microsoft 365 방법
 ms.openlocfilehash: fd9eba96b09a73b2fb6e87b30096dbf8186caceb
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356435"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189699"
 ---
 # <a name="block-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 차단
 

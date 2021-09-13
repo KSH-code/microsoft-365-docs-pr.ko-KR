@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0c9943ff304b48bd05fa94161339bc745cb56150c5b49ecb9d854980f2f2e549
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4ac549ca6509d8c1a2f8f272c0f8891a82bd6d38
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53880854"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190199"
 ---
 # <a name="payment-information-for-united-kingdom"></a>영국 결제 정보
 

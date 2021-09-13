@@ -15,11 +15,11 @@ search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직 내 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 찾고 테스트하고 Microsoft 365 관리 센터.
 ms.openlocfilehash: 13276923c55632145207b61032583a26e3553e06
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566979"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187076"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>통합 앱 포털에서 Microsoft 365 앱 테스트 및 배포
 

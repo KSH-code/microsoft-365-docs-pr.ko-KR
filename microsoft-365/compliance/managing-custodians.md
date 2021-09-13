@@ -18,14 +18,14 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 법률 사례에 대한 데이터를 관리하기 위해 Advanced eDiscovery 관리 도구에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 92102a0748f37b2d6d18ab36baf6d50ef95e699e64c278bf5daf273e6c94b312
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 22297edbf73f561ad46e5fae521abeb371fdc88d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842153"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188059"
 ---
-# <a name="work-with-custodians-and-non-custodial-data-sources-in-advanced-ediscovery"></a>개인 정보 보호자 및 비보조 데이터 원본과 함께 Advanced eDiscovery
+# <a name="work-with-custodians-and-non-custodial-data-sources-in-advanced-ediscovery"></a>보유자 및 비보유 데이터 원본으로 작업
 
 조직이 법적 조사에 응답하면 잠재적으로 관련성이 있는 콘텐츠를 식별, 보존 및 수집하는 워크플로는 관련 데이터의 관리인인 조직의 사용자에 따라 진행됩니다. eDiscovery에서 이러한 개인을  데이터 관리자(또는 관리자만)라고 부르며 "문서 또는 전자 파일의 관리 제어를 갖는 사람"으로 정의됩니다. 예를 들어 전자 메일 메시지 소유자는 관련 메시지를 포함하는 사서함의 소유자일 수 있습니다.
 

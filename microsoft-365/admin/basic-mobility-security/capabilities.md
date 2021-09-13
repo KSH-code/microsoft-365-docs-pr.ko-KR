@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
 ms.openlocfilehash: bd400f81b3d125b6d6100ecf2ed06f536106d1f0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564529"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185099"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>기본 이동성 및 보안 기능
 

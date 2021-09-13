@@ -21,11 +21,11 @@ search.appverid:
 - MOE150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft Dynamics 365 고객 음성 활동 보고서를 Microsoft 365 관리 센터.
 ms.openlocfilehash: 6c66b4fcee0d2f04e3178ede8360b87ad1abe597
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565039"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185467"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365 관리 센터의 보고서 - Dynamics 365 고객 음성 활동
 

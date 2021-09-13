@@ -18,11 +18,11 @@ ms.assetid: ''
 description: 오류 수정을 사용하여 콘텐츠의 적절한 처리를 Advanced eDiscovery 데이터 문제를 수정하는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 4b249f7941d4f366a2651b570286d2974aca176a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58556183"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184123"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 

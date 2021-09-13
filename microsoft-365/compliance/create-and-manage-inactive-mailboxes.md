@@ -19,13 +19,14 @@ search.appverid:
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkMAC
 description: 사서함의 비활성 사서함 기능을 사용하여 삭제된 사서함의 콘텐츠를 Microsoft 365.
-ms.openlocfilehash: f0e95d5853580116db6f7c48396e601058e303e3
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 95548710e0a0f737deec6e5dc49ebc217c9ac50c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567775"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189802"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>비활성 사서함 만들기 및 관리
 
@@ -65,7 +66,7 @@ Microsoft 365 사서함의 내용을 보존할 수 있습니다. 이 기능을 [
   
 ### <a name="step-2-delete-the-mailbox"></a>2단계: 사서함 삭제
 
-사서함을 보류하거나 보존 정책이 사서함에 적용된 후 다음 단계는 사서함을 삭제하는 것입니다. 사서함을 삭제하는 가장 좋은 방법은 사서함의 해당 사용자 계정을 삭제하는 Microsoft 365 관리 센터. 사용자 계정을 삭제하는 데 대한 자세한 내용은 조직에서 사용자 [삭제를 참조하세요.](../admin/add-users/delete-a-user.md)
+사서함을 보류하거나 보존 정책이 사서함에 적용된 후 다음 단계는 사서함을 삭제하는 것입니다. 사서함을 삭제하는 가장 좋은 방법은 에서 해당 사용자 계정을 삭제하는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a> 사용자 계정을 삭제하는 데 대한 자세한 내용은 조직에서 사용자 [삭제를 참조하세요.](../admin/add-users/delete-a-user.md)
   
 > [!NOTE]
 > PowerShell에서 **Remove-Mailbox** cmdlet을 사용하여 사서함을 삭제할 Exchange Online 있습니다. 자세한 내용은 [Delete or restore user mailboxes in Exchange Online.](/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes) 
@@ -74,9 +75,9 @@ Microsoft 365 사서함의 내용을 보존할 수 있습니다. 이 기능을 [
 
 조직의 비활성 사서함 목록을 확인 합니다.
 
-1. 으로 이동하여 조직의 전역 관리자 또는 준수 관리자 계정의 자격 증명을 사용하여 <https://compliance.microsoft.com> 로그인합니다.
+1. 전역 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 또는 준수 관리자 계정의 자격 증명을 사용하여 로그인합니다.
 
-2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 클릭한 다음 보존 에서 정보 **거버넌스 > 클릭합니다.** 
+2. 왼쪽 탐색 창에서 모두 **표시를** 클릭한 다음 정보 거버넌스 보존 **을**  >  **클릭합니다.**
 
    ![보존 페이지에서 비활성 사서함 단추를 클릭합니다.](../media/MCCInactiveMailboxes1.png)
 

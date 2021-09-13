@@ -16,12 +16,12 @@ ms.assetid: 989ba10c-f73f-4efb-ad1b-af3322e5f376
 ms.collection:
 - M365-security-compliance
 description: Office 365 보안, 개인 정보 보호 및 규정 준수 정보를 제공하는 Microsoft 365 보안 센터 외에도 Microsoft가 데이터 센터에 저장한 비밀을 보호하는 방법을 알고 싶을 수 있습니다. DKM(분산 키 관리자)이라는 기술을 사용 합니다.
-ms.openlocfilehash: fe049f600f9ffef496febae2e1c773d562e5693c2ab66fdc37ee377cb66f01e1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2f6e51b7fe9cd75cbd265c3135050a08130f34d8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795869"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184107"
 ---
 # <a name="how-exchange-online-secures-your-email-secrets"></a>Exchange Online이 전자 메일 암호를 보호하는 방법
 

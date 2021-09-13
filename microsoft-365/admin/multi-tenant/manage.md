@@ -22,11 +22,11 @@ search.appverid:
 - MOE150
 description: 단일 위치에서 테넌트를 관리할 수 있는 기능을 제공 하는 테넌트 전환기 및 다중 테넌트 보기를 사용하는 방법을 학습합니다.
 ms.openlocfilehash: 6dbad8dbfaa84d490983cd5eccaf5ecf5d6979e5
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58393439"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186939"
 ---
 # <a name="multi-tenant-management"></a>다중 테넌트 관리
 

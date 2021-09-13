@@ -13,11 +13,11 @@ localization_priority: None
 ROBOTS: ''
 description: 서비스 응용 SharePoint Syntex 사용하여 계약 파일을 식별하고 솔루션 솔루션을 사용하여 데이터를 추출하는 Microsoft 365 방법을 알아보십시오.
 ms.openlocfilehash: f6097a7573037f8efc2467bb3a9f1037a12bf7ef
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561425"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189729"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>1단계. 사용자 SharePoint Syntex 사용하여 계약 파일을 식별하고 데이터 추출
 
@@ -141,7 +141,7 @@ ms.locfileid: "58561425"
 
 파일에 레이블을 지정하면 교육으로 이동을 알리는 알림 배너가 표시됩니다. 더 많은 문서에 레이블을 지정하거나 교육으로 진행할 수 있습니다.
 
-#### <a name="add-an-explanation"></a>설명 추가
+#### <a name="add-an-explanation"></a>설명 추가하기
 
 엔터티 형식 자체 및 예제 파일에 있을 수 있는 변형에 대한 힌트를 제공하는 설명을 만들 수 있습니다. 예를 들어 날짜 값은 다음과 같은 다양한 형식일 수 있습니다.
 

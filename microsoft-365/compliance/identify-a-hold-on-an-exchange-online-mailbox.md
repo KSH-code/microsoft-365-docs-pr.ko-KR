@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Exchange Online 사서함에 배치할 수 있는 다양한 유형의 보류를 식별하는 Microsoft 365.
-ms.openlocfilehash: 2e781fea46706415525ef9396485310ad15ffc5e600c6664817b8637c84e44b7
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1b7c8d2db782ca811e02783115b621ccba772066
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895322"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189782"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 

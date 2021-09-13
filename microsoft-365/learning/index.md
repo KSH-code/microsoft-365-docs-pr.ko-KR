@@ -15,11 +15,11 @@ ms.collection:
 localization_priority: None
 description: 미리 보기(미리 보기)에 대한 리소스를 Microsoft Viva Learning 방법을 배워야 합니다.
 ms.openlocfilehash: f868c90e0dcb280bf3bd7ca592a950d9735143de
-ms.sourcegitcommit: 73a17ecbc06cd3e5452814637ab0484ddcdea17a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58942593"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191179"
 ---
 # <a name="introduction-to-microsoft-viva-learning-preview"></a>Microsoft Viva Learning 소개(미리 보기)
 

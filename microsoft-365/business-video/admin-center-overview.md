@@ -15,31 +15,32 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- admindeeplinkMAC
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 보다 복잡한 설정 및 작업에 Microsoft 365 대시보드 보기를 관리하려면 이 보기의 간소화된 보기를 사용합니다.
-ms.openlocfilehash: 585deb5d4d1b7bf5758854ee90f31150ef1ed9e08b06c4402c90b7324965fad8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e3bee5487a0004f6741e51494c01f7e2c2355227
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873162"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188883"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 개요
 
 - [간소화된 보기의 관리 센터](#watch-the-admin-center-in-simplified-view)
 - [대시보드 보기의 관리 센터](#watch-the-admin-center-in-dashboard-view)
 
-이 Microsoft 365 관리 센터 보기는 소규모 조직이 가장 일반적인 작업을 관리하는 데 도움이 되기 때문에 두 가지 보기가 있습니다. 대시보드 보기에는 더 복잡한 설정 및 작업이 포함됩니다. 관리 센터의 맨 위에 있는 단추에서 전환할 수 있습니다.
+이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 보기는 소규모 조직이 가장 일반적인 작업을 관리하는 데 도움이 되기 때문에 두 가지 보기가 있습니다. 대시보드 보기에는 더 복잡한 설정 및 작업이 포함됩니다. 관리 센터의 맨 위에 있는 단추에서 전환할 수 있습니다.
 
 ## <a name="watch-the-admin-center-in-simplified-view"></a>감시: 간소화된 보기의 관리 센터
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWD3sq?autoplay=false]
 
-이 Microsoft 365 관리 센터 암호를 재설정하고, 송장을 보거나, 사용자를 추가 또는 제거하고, 훨씬 더 많은 것을 한 장소에서 제거할 수 있습니다.
+를 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>암호를 재설정하고, 송장을 보거나, 사용자를 추가 또는 제거하고, 훨씬 더 많은 것을 한 장소에서 제거할 수 있습니다.
 
 직장 계정으로 Office.com에 로그인하고 앱 시작 프로그램을 선택합니다.
 
@@ -61,7 +62,7 @@ Teams **탭에서** 새 팀을 만들거나 기존 팀을 관리합니다. 팀�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL?autoplay=false]
 
-이 Microsoft 365 관리 센터 클라우드에서 비즈니스를 관리하는 위치입니다. 사용자 추가 및 제거, 라이선스 변경, 암호 재설정 등의 작업을 완료할 수 있습니다.
+이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 클라우드에서 비즈니스를 관리하는 위치입니다. 사용자 추가 및 제거, 라이선스 변경, 암호 재설정 등의 작업을 완료할 수 있습니다.
 
 보안 또는 장치 관리와 같은 전문가 작업 영역은 보다 세부적인 제어를 허용합니다. 관리 센터가 함께 작동하는 방식에 대한 자세한 내용은 이 문서의 특정 유형의 IT 역할 및 기타 작업 [영역(보안,](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) 장치 관리 또는 Exchange)을 참조하세요.
 
@@ -90,7 +91,6 @@ To get to the Microsoft 365 관리 센터, go to [admin.microsoft.com,](https://
 "이 페이지에 액세스하거나 이 작업을 수행할 수 있는 권한이 없습니다."라는 메시지가 표시될 경우 **관리자가** 아닌 것입니다.
 
 ### <a name="who-has-admin-permissions-in-my-business"></a>비즈니스에서 누가 관리자 계정을 가지고 있나요?
-<a name="bkmk_admin"> </a>
 
 암호를 재설정하거나 계정을 삭제하거나 기타 작업을 수행할 관리자를 찾는 경우 문의해야 할 사람은 다음과 같습니다.
 
@@ -107,7 +107,7 @@ To get to the Microsoft 365 관리 센터, go to [admin.microsoft.com,](https://
 
 ## <a name="turn-on-targeted-release"></a>대상 지정 릴리스 켜기
 
-1. admin.microsoft.com 에서 [로그인합니다.](https://admin.microsoft.com)탐색 창으로 이동하여 조직 **설정** \> **선택합니다.**
+1. admin.microsoft.com 에서 [로그인합니다.](https://admin.microsoft.com)탐색 창으로 이동하여 조직 **설정** 탭을  >   \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">  선택합니다.</a>
 
 2. 릴리스 기본 **설정 카드로 이동한** 다음 편집 을 **선택합니다.**
 
@@ -117,7 +117,7 @@ To get to the Microsoft 365 관리 센터, go to [admin.microsoft.com,](https://
 
 관리 센터에서 모든 페이지의 맨 아래에 있는 도움이  **필요하세요?** 단추 옆에 있는 피드백 보내기 단추를 선택하여 사용자 환경과 관련한 Microsoft 피드백을 제공하면 됩니다. 원하는 것을 말하고 더 나은 작업을 알려 주시고. 또한 전체 노출 또는 새로 릴리스된 특정 경험에 대해 묻는 팝업 설문 조사를 수시로 받을 수 있습니다. 이 문서의 끝부분에서 이 정보가 도움이 었습니까?를 선택하여 **피드백을 줄 수 있습니다.**
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 여기에 답변된 질문이 없는가요? 이 페이지 **아래쪽의** 피드백 섹션으로 이동하여 질문을 합니다.
 
@@ -139,7 +139,7 @@ UserVoice 포럼의 관리 센터 외부에서 피드백을 줄 수도 있습니
 
 ### <a name="what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange"></a>보안, 장치 관리 또는 보안과 같은 특정 유형의 IT 역할 및 기타 작업 Exchange?
 
-이 Microsoft 365 관리 센터 관리 팀 및 역할의 공통 진입점은 Microsoft 365. 환경, 정보 및 컨트롤은 각 관리자 및 역할에 맞게 조정 및 사용자 지정이 가능합니다. 또한 전문가 작업 영역은 세분화된 세부적인 제어를 허용합니다. 이러한 전문가 작업 영역은 SharePoint, Teams Skype, Exchange, 보안, 규정 준수, 장치 관리 및 &amp; Azure Active Directory. 의 탐색 창에서 전문가 작업 Microsoft 365 관리 센터 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) 있습니다.
+이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 관리 팀 및 역할의 공통 진입점은 Microsoft 365. 환경, 정보 및 컨트롤은 각 관리자 및 역할에 맞게 조정 및 사용자 지정이 가능합니다. 또한 전문가 작업 영역은 세분화된 세부적인 제어를 허용합니다. 이러한 전문가 작업 영역은 SharePoint, Teams Skype, Exchange, 보안, 규정 준수, 장치 관리 및 &amp; Azure Active Directory. 의 탐색 창에서 전문가 작업 Microsoft 365 관리 센터 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) 있습니다.
 
 ### <a name="what-language-options-are-available-the-admin-center"></a>관리 센터에서 사용할 수 있는 언어 옵션은 무엇입니까?
 
@@ -166,8 +166,8 @@ UserVoice 포럼의 관리 센터 외부에서 피드백을 줄 수도 있습니
 |Hungarian | hu |
 |Indonesian  | id |
 |Italian | it |
-|일본어 | ja |
-|한국어 | ko |
+|Japanese | ja |
+|Korean | ko |
 |Lithuanian | lt |
 |Latvian | lv |
 |Dutch | nl |

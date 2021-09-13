@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: e85a3728213af4fdb47dbfb47e40af8894a0effc
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747534"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187452"
 ---
 # <a name="examples-of-device-control-policies-for-jamf"></a>JAMF에 대한 장치 제어 정책의 예
 

@@ -14,11 +14,11 @@ description: 보고된 메시지를 검토하고 사용자에게 피드백을 �
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: fb023d68e81c5592078bdd89e4826537790e7d53
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572470"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185595"
 ---
 # <a name="admin-review-for-reported-messages"></a>보고된 메시지에 대한 관리자 검토
 
@@ -78,4 +78,4 @@ Microsoft 365 사서함이 Exchange Online 및 Microsoft Defender for Office 365
     > [!div class="mx-imgBorder"]
     > ![사용자에게 보내는 메시지를 사용자 지정합니다.](../../media/admin-review-customize-message.png)
 
-4. 작업을 마쳤으면 **저장** 을 클릭합니다. 이러한 값을 지우려면 사용자 **제출** 페이지에서 삭제를 클릭합니다.
+4. 작업을 마친 후 **저장** 을 클릭합니다. 이러한 값을 지우려면 사용자 **제출** 페이지에서 삭제를 클릭합니다.

@@ -17,11 +17,11 @@ ms.custom:
 search.appverid: MET150
 description: 서비스를 사용하는 MSP(관리 서비스 공급자)의 Microsoft 365 Lighthouse 기준을 배포하는 Microsoft 365 Lighthouse 대해 자세히 알아보아야 합니다.
 ms.openlocfilehash: 62fc9afcbf10a0cd77c2fe2d2f7140b5197dd42a
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507905"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191132"
 ---
 # <a name="deploy-microsoft-365-lighthouse-baselines"></a>기본 Microsoft 365 Lighthouse 배포 
 

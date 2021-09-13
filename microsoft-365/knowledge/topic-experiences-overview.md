@@ -15,11 +15,11 @@ ms.collection:
 localization_priority: None
 description: 조직에서 Viva 항목을 사용하는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 902628d53f651073b1d08ce3f1915808da22b03f
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684136"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189542"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva 주제 개요 
 
@@ -160,6 +160,6 @@ Microsoft에  피드백 보내기 페이지에서 원하는 것을 원하지 않
 
 여러분의 생각을 공유해 주셔서 감사합니다. 사용자 관점은 기존 기능을 개선하고 새로운 기능을 개발하는 데 도움이 됩니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [Viva Microsoft Search 항목을 찾아보는 데 사용할 수 있습니다.](./search.md)

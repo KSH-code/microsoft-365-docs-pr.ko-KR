@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 통신 - 사용자 환경 생산성 점수에 대한 세부 정보입니다.
-ms.openlocfilehash: 354f5db7eede84d448489cf7c269d1aa1ed6500c7806c66029cc38daad83b5d5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3ea17bb859fc02343a97033fa65e830f305b69cf
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823510"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186916"
 ---
 # <a name="communication--people-experiences"></a>커뮤니케이션 - 사람 환경
 

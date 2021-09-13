@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 중요한 데이터를 얼마나 많이 찾고 분류했는지 시각적으로 파악할 수 있습니다.
 ms.openlocfilehash: 41dda8573b66fa217fb92b0ee179de2cad9bc861
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567475"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184195"
 ---
 # <a name="learn-about-data-classification"></a>데이터 분류에 대한 자세한 정보
 

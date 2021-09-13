@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: 조직에 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리합니다.
 ms.openlocfilehash: 47087f2d09428214237dba226e680aa3c332625d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567171"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184452"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 전체의 서명 및 고지 조항 만들기
 
@@ -50,7 +50,7 @@ ms.locfileid: "58567171"
     
 ::: moniker range="o365-worldwide"
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
 ::: moniker-end
 

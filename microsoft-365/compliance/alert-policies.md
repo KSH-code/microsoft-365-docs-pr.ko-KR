@@ -19,11 +19,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 보안 센터 또는 Microsoft 365 규정 준수 센터 Microsoft 365 Defender 보안 포털에서 경고 정책을 만들어 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링합니다.
 ms.openlocfilehash: c6e233ec90c9143b07d32e71933c4c81b94f252b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572350"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190172"
 ---
 # <a name="alert-policies-in-microsoft-365"></a>Microsoft 365의 알림 정책
 
@@ -123,21 +123,21 @@ Microsoft는 관리자 권한 남용, Exchange, 잠재적인 외부 및 내부 �
 
 다음 표에는 사용 가능한 기본 경고 정책과 각 정책이 할당된 범주가 나열되어 있습니다. 범주는 사용자가 경고 페이지에서 볼 수 있는 알림을 결정하는 데 사용됩니다. 자세한 내용은 경고를 보는 데 필요한 [RBAC 권한을 참조하세요.](#rbac-permissions-required-to-view-alerts)
 
-또한 이 표에는 각 요금제에 필요한 Office 365 Enterprise 및 Office 365 Government 요금제가 표시됩니다. 조직에 E1/F1/G1 또는 E3/F3/G3 구독 외에 적절한 추가 기능 구독이 있는 경우 일부 기본 경고 정책을 사용할 수 있습니다.
+또한 이 표에는 각 요금제에 Office 365 Enterprise Office 365 미국 정부 계획의 기본 계획 및 기본 계획이 표시됩니다. 조직에 E1/F1/G1 또는 E3/F3/G3 구독 외에 적절한 추가 기능 구독이 있는 경우 일부 기본 경고 정책을 사용할 수 있습니다.
 
-| 기본 경고 정책 | 설명 | 범주 | 엔터프라이즈 구독 |
+| 기본 경고 정책 | 설명 | 범주 | Enterprise 구독 |
 |:-----|:-----|:-----|:-----|
-|**악의적인 URL 클릭이 감지되었습니다.**|조직의 안전한 링크로 보호된 [](../security/office-365-security/safe-links.md) 사용자가 악의적인 링크를 클릭할 때 경고를 생성합니다. 이 이벤트는 OFFICE 365용 Microsoft Defender에서 URL 판정 변경 내용이 식별되거나 사용자가 조직의 비즈니스용 Microsoft 365 안전한 링크 정책에 따라 안전한 링크 페이지를 에워딩할 때 트리거됩니다. 이 경고 정책에는 **심각도 높은** 설정이 있습니다. Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 [Office 365에서](../security/office-365-security/office-365-air.md)자동으로 자동화된 조사 및 응답을 트리거합니다. 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정 을 참조하세요.](../security/office-365-security/set-up-safe-links-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
+|**악의적인 URL 클릭이 감지되었습니다.**|조직의 링크로 보호된 사용자가 [](../security/office-365-security/safe-links.md) 금고 링크를 클릭할 때 경고를 생성합니다. 이 이벤트는 MICROSOFT Defender에서 URL Office 365 변경 내용이 식별되거나 사용자가 금고 링크 페이지를 Microsoft 365 비즈니스용 금고 정책에 따라 트리거됩니다. 이 경고 정책에는 **심각도 높은** 설정이 있습니다. Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 [Set up 금고 Links policies을 참조하십시오.](../security/office-365-security/set-up-safe-links-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
 |**관리자 전송 결과 완료**|관리 제출이 제출된 엔터티의 다시 검색을 완료하면 경고를 생성합니다. [](../security/office-365-security/admin-submission.md) 관리자 제출에서 다시 검색 결과가 렌더링될 때마다 경고가 트리거됩니다. 이러한 알림은 이전 제출의 [](https://compliance.microsoft.com/reportsubmission)결과를 검토하고, 사용자가 보고한 메시지를 제출하여 최신 정책 확인을 받아 결과를 다시 검사하고, 조직의 필터링 정책이 의도한 영향을 미치는지 확인하는 데 도움이 하도록 알리기 위한 것입니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리|E1/F1, E3/F3 또는 E5|
-|**관리자가 전자 메일에 대한 수동 조사를 트리거했습니다.**|관리자가 위협 탐색기에서 전자 메일에 대한 수동 조사를 트리거하면 경고를 생성합니다. 자세한 내용은 예제: 보안 [관리자가 위협 탐색기에서 조사를 트리거합니다.를 참조하세요.](../security/office-365-security/automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) 이 경고는 조직에 조사가 시작된 것을 알리는 경고입니다. 경고는 경고를 트리거한 사람에 대한 정보를 제공하며 조사에 대한 링크를 포함합니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리| E5/G5 또는 Office 365 P2 추가 기능 구독용 Microsoft Defender| 
-|**전달/리디렉션 규칙 만들기**|조직의 누군가가 메시지를 다른 전자 메일 계정으로 전달하거나 리디렉션하는 사서함에 대한 받은 편지함 규칙을 만들 때 경고를 생성합니다. 이 정책은 웹용 Outlook(이전의 Outlook Web App) 또는 Exchange Online PowerShell을 사용하여 만든 받은 편지함 규칙만 추적합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 받은 편지함 규칙을 사용하여 웹용 Outlook에서 전자 메일을 전달하고 리디렉션하는 데 대한 자세한 내용은 [웹용 Outlook에서](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)규칙을 사용하여 메시지를 다른 계정으로 자동으로 전달을 참조하세요.|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
+|**관리자가 전자 메일에 대한 수동 조사를 트리거했습니다.**|관리자가 위협 탐색기에서 전자 메일에 대한 수동 조사를 트리거하면 경고를 생성합니다. 자세한 내용은 예제: 보안 [관리자가 위협 탐색기에서 조사를 트리거합니다.를 참조하세요.](../security/office-365-security/automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) 이 경고는 조직에 조사가 시작된 것을 알리는 경고입니다. 경고는 경고를 트리거한 사람에 대한 정보를 제공하며 조사에 대한 링크를 포함합니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리| E5/G5 또는 Microsoft Defender for Office 365 P2 추가 기능 구독| 
+|**전달/리디렉션 규칙 만들기**|조직의 누군가가 메시지를 다른 전자 메일 계정으로 전달하거나 리디렉션하는 사서함에 대한 받은 편지함 규칙을 만들 때 경고를 생성합니다. 이 정책은 PowerShell에서 웹용 Outlook(이전의 Outlook Web App) 또는 Exchange Online 규칙만 추적합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 받은 편지함 규칙을 사용하여 전자 메일을 전달하고 리디렉션하는 웹용 Outlook 다른 계정으로 메시지를 웹용 Outlook 규칙 사용을 [참조하세요.](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |e **eDiscovery 시작 또는 내보내기**|보안 및 준수 센터에서 콘텐츠 검색 도구를 사용하는 경우 경고를 생성합니다. 다음과 같은 콘텐츠 검색 활동이 수행되면 경고가 트리거됩니다. <br/><br/>* 콘텐츠 검색이 시작된 경우<br/>* 콘텐츠 검색 결과를 내보낼 수 있습니다.<br/>* 콘텐츠 검색 보고서 내보내기<br/><br/>eDiscovery 사례와 함께 이전 콘텐츠 검색 활동을 수행할 때도 경고가 트리거됩니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 콘텐츠 검색 활동에 대한 자세한 내용은 감사 로그에서 [eDiscovery 활동 검색을 참조하세요.](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
-|**Exchange 관리자 권한 상승**|Exchange Online 조직에 관리 권한이 할당된 경우 경고를 생성합니다. 예를 들어 사용자가 Exchange Online의 조직 관리 역할 그룹에 추가될 때입니다. 이 정책의 **심각도는** 낮음 설정입니다.|권한|E1/F1/G1, E3/F3/G3 또는 E5/G5|
-|**악성 파일이 포함된 전자 메일 메시지가 전달 후 제거됨**|악성 파일이 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 [Office 365에서](../security/office-365-security/office-365-air.md)자동화된 조사 및 응답을 자동으로 트리거합니다. 이 새 정책에 대한 자세한 내용은 [Office 365용 Microsoft Defender의 새 경고 정책을 참조하세요.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Microsoft Defender|
-|**악성 URL이 포함된 전자 메일 메시지가 전달 후 제거됨**|악의적인 URL이 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 [Office 365에서](../security/office-365-security/office-365-air.md)자동화된 조사 및 응답을 자동으로 트리거합니다. 이 새 정책에 대한 자세한 내용은 [Office 365용 Microsoft Defender의 새 경고 정책을 참조하세요.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
-|**캠페인의 전자 메일 메시지가 전달되었다가 나중에 제거됨**|캠페인과 연결된 메시지가 조직의 사서함으로 [](../security/office-365-security/campaigns.md) 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 [Office 365에서](../security/office-365-security/office-365-air.md)자동화된 조사 및 응답을 자동으로 트리거합니다. 이 새 정책에 대한 자세한 내용은 [Office 365용 Microsoft Defender의 새 경고 정책을 참조하세요.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
-|**배달 후 제거된 전자 메일 메시지**|악의적인 엔터티(URL 또는 파일)를 포함하지 않는 악의적인 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 [Office 365에서](../security/office-365-security/office-365-air.md)자동화된 조사 및 응답을 자동으로 트리거합니다. 이 새 정책에 대한 자세한 내용은 [Office 365용 Microsoft Defender의 새 경고 정책을 참조하세요.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
-|**사용자가 맬웨어 또는 피싱 메일로 보고한 전자 메일**|조직의 사용자가 보고서 메시지 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고하면 경고를 생성합니다. 이 정책의 **심각도는** 낮음 설정입니다. 이 추가 기능의 자세한 내용은 보고서 메시지 추가 기능 [사용을 참조하세요.](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 [Office 365에서](../security/office-365-security/office-365-air.md)자동으로 자동화된 조사 및 응답을 트리거합니다.|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
+|**관리자 권한 Exchange 권한 상승**|조직에서 다른 사용자에게 관리 권한이 할당된 경우 Exchange Online 생성합니다. 예를 들어 사용자가 조직의 조직 관리 역할 그룹에 Exchange Online. 이 정책의 **심각도는** 낮음 설정입니다.|권한|E1/F1/G1, E3/F3/G3 또는 E5/G5|
+|**악성 파일이 포함된 전자 메일 메시지가 전달 후 제거됨**|악성 파일이 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 새 정책에 대한 자세한 내용은 Microsoft Defender for [Office 365.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Microsoft Defender for Office 365 P2 추가 기능 구독|
+|**악성 URL이 포함된 전자 메일 메시지가 전달 후 제거됨**|악의적인 URL이 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 새 정책에 대한 자세한 내용은 Microsoft Defender for [Office 365.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
+|**캠페인의 전자 메일 메시지가 전달되었다가 나중에 제거됨**|캠페인과 연결된 메시지가 조직의 사서함으로 [](../security/office-365-security/campaigns.md) 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 새 정책에 대한 자세한 내용은 Microsoft Defender for [Office 365.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
+|**배달 후 제거된 전자 메일 메시지**|악의적인 엔터티(URL 또는 파일)를 포함하지 않는 악의적인 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 새 정책에 대한 자세한 내용은 Microsoft Defender for [Office 365.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
+|**사용자가 맬웨어 또는 피싱 메일로 보고한 전자 메일**|조직의 사용자가 보고서 메시지 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고하면 경고를 생성합니다. 이 정책의 **심각도는** 낮음 설정입니다. 이 추가 기능의 자세한 내용은 보고서 메시지 추가 기능 [사용을 참조하세요.](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**전자 메일 보내기 제한 초과**|조직의 누군가가 아웃바운드 스팸 정책에서 허용하는 것보다 많은 메일을 보낸 경우 경고를 생성합니다. 이는 일반적으로 사용자가 너무 많은 전자 메일을 보내거나 계정이 손상될 수 있는 표시입니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 이 경고 정책에 의해 경고가 생성되는 경우 사용자 계정이 손상되어 있는지 [여부를 검사하는 것이 좋습니다.](../security/office-365-security/responding-to-a-compromised-email-account.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**잠재적인 피싱 시도로 인해 양식이 차단됩니다.**|조직의 누군가가 반복되는 피싱 시도 동작으로 인해 Microsoft Forms를 사용하여 양식을 공유하고 응답을 수집할 수 제한되면 경고를 생성합니다. 이 정책에는 **심각도 높은 설정이** 있습니다.|위협 관리|E1, E3/F3 또는 E5|
 |**피싱으로 플래그가 지정 및 확인된 양식**|조직 내에서 Microsoft Forms에서 만든 양식이 보고서 남용을 통해 잠재적인 피싱으로 식별되고 Microsoft에서 피싱으로 확인되면 경고를 생성합니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|위협 관리|E1, E3/F3 또는 E5|
@@ -252,29 +252,29 @@ RBAC 사용 권한에 따라 이 디자인을 사용하면 조직의 특정 작�
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |감사 로그|||||||
 |사례 관리|||||||
-|규정 준수 관리자|![확인 표시.](../media/checkmark.png)|![확인 표시.](../media/checkmark.png)||![확인 표시.](../media/checkmark.png)||![확인 표시.](../media/checkmark.png)|
+|규정 준수 관리자|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)||![확인 표시입니다.](../media/checkmark.png)||![확인 표시입니다.](../media/checkmark.png)|
 |준수 검색|||||||
 |디바이스 관리|||||||
 |Disposition Management|||||||
-|DLP 규정 준수 관리||![확인 표시.](../media/checkmark.png)|||||
+|DLP 규정 준수 관리||![확인 표시입니다.](../media/checkmark.png)|||||
 |내보내기|||||||
 |Hold|||||||
-|알림 관리||||||![확인 표시.](../media/checkmark.png)|
-|조직 구성||||||![확인 표시.](../media/checkmark.png)|
+|알림 관리||||||![확인 표시입니다.](../media/checkmark.png)|
+|조직 구성||||||![확인 표시입니다.](../media/checkmark.png)|
 |Preview|||||||
-|레코드 관리|![확인 표시.](../media/checkmark.png)||||||
-|보존 관리|![확인 표시.](../media/checkmark.png)||||||
+|레코드 관리|![확인 표시입니다.](../media/checkmark.png)||||||
+|보존 관리|![확인 표시입니다.](../media/checkmark.png)||||||
 |검토|||||||
 |RMS 암호 해독|||||||
-|역할 관리||||![확인 표시.](../media/checkmark.png)|||
+|역할 관리||||![확인 표시입니다.](../media/checkmark.png)|||
 |검색 및 제거|||||||
-|보안 관리자||![확인 표시.](../media/checkmark.png)||![확인 표시.](../media/checkmark.png)|![확인 표시.](../media/checkmark.png)|![확인 표시.](../media/checkmark.png)|
-|보안 읽기 권한자||![확인 표시.](../media/checkmark.png)||![확인 표시.](../media/checkmark.png)|![확인 표시.](../media/checkmark.png)|![확인 표시.](../media/checkmark.png)
+|보안 관리자||![확인 표시입니다.](../media/checkmark.png)||![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|
+|보안 읽기 권한자||![확인 표시입니다.](../media/checkmark.png)||![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)
 |서비스 보증 보기|||||||
 |관리 검토 관리자|||||||
 |보기 전용 감사 로그|||||||
 |View-Only 관리|||||||
-|View-Only DLP 준수 관리||![확인 표시.](../media/checkmark.png)|||||
+|View-Only DLP 준수 관리||![확인 표시입니다.](../media/checkmark.png)|||||
 |View-Only 관리||||||![확인 표시](../media/checkmark.png)|
 |보기 전용 받는 사람|||![확인 표시](../media/checkmark.png)||||
 |View-Only 레코드 관리|![확인 표시](../media/checkmark.png)||||||

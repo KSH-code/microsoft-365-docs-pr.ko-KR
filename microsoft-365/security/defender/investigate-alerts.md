@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 92c74ae2f7e7236138f28cf30b3e835eb10b636d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572506"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189239"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>2013에서 경고 Microsoft 365 Defender
 
@@ -89,7 +89,7 @@ Microsoft 365 Defender 경고는 Microsoft Defender for Endpoint, Microsoft Defe
 :---|:---
 Office 365용 Microsoft Defender | `fa{GUID}` <br> 예: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
 엔드포인트용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
-ID용 Microsoft Defender | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Defender for Identity | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 ### <a name="analyze-affected-assets"></a>영향을 받는 자산 분석

@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 Zoom DataParser 커넥터를 설정하고 사용하여 확대/축소 데이터를 가져오고 보관하는 Microsoft 365.
 ms.openlocfilehash: 2412969e2cbe5e6f601b9cf789585d931a4e7a3a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569168"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186227"
 ---
 # <a name="set-up-a-connector-to-archive-zoom-data"></a>확대/축소 데이터를 보관할 커넥터 설정
 

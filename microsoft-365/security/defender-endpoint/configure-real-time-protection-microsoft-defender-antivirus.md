@@ -16,11 +16,11 @@ ms.date: 07/29/2021
 manager: dansimp
 ms.custom: nextgen
 ms.openlocfilehash: 93a22ef86be7067c8bda955fdfd085f7ef6cbd64
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568327"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185876"
 ---
 # <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성
 

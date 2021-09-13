@@ -26,11 +26,11 @@ search.appverid:
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 암호화된 전자 메일을 사용하여 암호화된 전자 메일을 보내는 Outlook.
 ms.openlocfilehash: 789477557801f2c8b89fa2bb281d0b0f2faf993a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567111"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186444"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>중요한 전자 메일을 암호화하거나 레이블을 지정합니다.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4a083f4d891ef51b3156c2ad407a55de597cd6a754fa77d9d96fe5d6e3cffe4d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c30d9918e4e61973dc03e6a2e621ffda5e7e01e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53863238"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185691"
 ---
 # <a name="update-incidents-api"></a>인시던트 업데이트 API
 
@@ -49,7 +49,7 @@ ms.locfileid: "53863238"
 
 요청이 스로틀된 경우 응답 `429` 코드가 반환됩니다. 응답 본문은 새 통화를 시작할 수 있는 시간을 나타냅니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 Access the Microsoft 365 Defender [참조합니다.](api-access.md)
 
@@ -71,7 +71,7 @@ PATCH /api/incidents/{id}
 
 이름|유형|설명
 ---|---|---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 Content-Type|String|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문

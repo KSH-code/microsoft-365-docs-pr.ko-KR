@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
 ms.openlocfilehash: b6aaf63f61919c520c77a09bf3607174757d4c2b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566319"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184724"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 

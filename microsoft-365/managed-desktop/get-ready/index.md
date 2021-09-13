@@ -10,11 +10,11 @@ manager: laurawi
 ms.topic: article
 audience: Admin
 ms.openlocfilehash: 4af99d0fa87d8d11d3dfcc21d37e332e890c8f7f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
-ms.translationtype: HT
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575051"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191089"
 ---
 # <a name="get-ready-for-enrollment-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 등록 준비
 

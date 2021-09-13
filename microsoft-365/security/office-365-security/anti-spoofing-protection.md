@@ -23,11 +23,11 @@ description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 1d9980240f0c45eb708a668dfea028ce5259fcab
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576107"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189142"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 

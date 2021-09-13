@@ -19,12 +19,12 @@ ms.collection:
 - SPO_Content
 description: 비즈니스용 OneDrive 및 SharePoint Online에서 데이터 보안을 위한 암호화의 기본 요소를 이해합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7dfbe142e065ef1afcf21c7652b08a0f1277e855b6b3b40af6b6e70a3745e65
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ca93d04fa21487ad054cd9cb924dff1fc15abfbd
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53860814"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184180"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>비즈니스용 OneDrive 및 SharePoint Online에서의 데이터 암호화
 

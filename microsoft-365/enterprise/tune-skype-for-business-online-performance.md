@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: beec23c2-c5d6-4e84-a8af-e82aefca7802
 description: 이 문서에서는 네트워크 대역폭 요구 사항을 계획하거나 Online의 성능 향상을 계획하는 시스템 관리자를 위한 비즈니스용 Skype 제공합니다.
-ms.openlocfilehash: 18bb48e746b60708b67d8372f25c538f41fb1dc229e31ec8f259f156c1105154
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6c210dc184f9164318215d37713a9136b556cc0b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53878122"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187828"
 ---
 # <a name="tune-skype-for-business-online-performance"></a>비즈니스용 Skype Online 성능 조정
 

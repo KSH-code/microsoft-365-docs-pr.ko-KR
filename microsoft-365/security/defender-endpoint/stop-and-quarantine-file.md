@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: d4ed33a26bcc7583146d810db7625ed3164d7544
-ms.sourcegitcommit: a839a63c2516678139796e31762916e0162b4181
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58408081"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187388"
 ---
 # <a name="stop-and-quarantine-file-api"></a>파일 API 중지 및 검사
 
@@ -53,7 +53,7 @@ ms.locfileid: "58408081"
 > - Microsoft Defender 바이러스 백신 수동 모드에서 실행해야 합니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -80,7 +80,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/StopAndQuarantin
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 Content-Type|문자열|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
@@ -89,7 +89,7 @@ Content-Type|문자열|application/json. **필수입니다**.
 매개 변수|유형|설명
 :---|:---|:---
 Comment|String|작업과 연결되는 설명입니다. **필수입니다**.
-Sha1|String|디바이스에서 중지하고 검지할 파일의 Sha1입니다. **필수입니다**.
+Sha1|문자열|디바이스에서 중지하고 검지할 파일의 Sha1입니다. **필수입니다**.
 
 ## <a name="response"></a>응답
 

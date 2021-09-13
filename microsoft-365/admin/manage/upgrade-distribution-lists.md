@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: 하나 또는 여러 개의 메일 그룹을 Microsoft 365 그룹으로 업그레이드하는 방법과 powerShell을 사용하여 여러 메일 Outlook 동시에 업그레이드하는 방법을 배워야 합니다.
 ms.openlocfilehash: 298d349fcf0874dd4c2dbd85ff19101e40988aba
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566967"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187060"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Outlook에서 배포 목록을 Microsoft 365 그룹으로 업그레이드
 

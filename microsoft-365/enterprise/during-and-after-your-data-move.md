@@ -17,11 +17,11 @@ f1.keywords:
 description: 데이터 이동은 Microsoft가 테넌트의 서비스 및 관련 데이터를 새 데이터 센터 지역으로 이동할 때 발생하는 백 엔드 작업입니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: d2c78ace4fb25d060ecaeab96903ba577a1d7316
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394399"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189639"
 ---
 # <a name="during-and-after-your-data-move"></a>데이터 이동 도중 및 이후
 
@@ -117,7 +117,7 @@ Teams 파일은 SharePoint 온라인에 저장되고 Teams 파일은 온라인 �
 
 ## <a name="skype-for-business"></a>비즈니스용 Skype
 
-비즈니스용 Skype 이동을 더 이상 사용할 수 없습니다.  [비즈니스용 Skype 온라인은](/lifecycle/announcements/skype-for-business-online-retirement) 2021년 7월 31일에 사용 중지됩니다. 그 이후에는 서비스에 더 이상 액세스할 수 없습니다. 
+비즈니스용 Skype 이동을 더 이상 사용할 수 없습니다.  [비즈니스용 Skype 온라인은](/lifecycle/announcements/skype-for-business-online-retirement) 2021년 7월 31일에 사용 중지됩니다. 그 이후로는 이 서비스에 더 이상 액세스할 수 없게 됩니다. 
   
 ## <a name="related-topics"></a>관련 항목 
  

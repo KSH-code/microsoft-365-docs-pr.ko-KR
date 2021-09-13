@@ -20,11 +20,11 @@ ms.custom:
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 이 문서에서는 조직의 요구에 따라 DLP 정책을 만들고 테스트하고 조정하는 방법을 배우게 됩니다.
 ms.openlocfilehash: 14ee1dbaac2b250e55957023580735676e2ab724
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571136"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184220"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -38,7 +38,7 @@ DLP는 전자 메일 메시지와 파일에 신용 카드 번호와 같은 중�
 
 ## <a name="permissions"></a>권한
 
-DLP 정책을 만드는 규정 준수 팀 구성원에게는 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 규정 준수 관리자 및 기타 사용자 액세스 권한을 부여할 수 있습니다. 다음 단계를 따르세요.
+DLP 정책을 만드는 규정 준수 팀 구성원에게는 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 규정 준수 관리자 및 기타 사용자 액세스 권한을 부여할 수 있습니다. 다음 단계를 따릅니다.
   
 1. Microsoft 365에서 그룹을 생성하고 규정 준수 책임자를 추가하십시오.
     

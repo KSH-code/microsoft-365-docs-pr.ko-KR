@@ -16,16 +16,17 @@ ms.collection:
 ms.custom:
 - customer-email
 - commerce_subscriptions
+- admindeeplinkMAC
 search.appverid: MET150
 description: E4 구독에서 업그레이드하는 Office 365 대해 자세히 알아보습니다.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3131f163bcf846c623213a3e2d7c88e6d21cd1479f64185d2b70be81de102c23
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5741588fddcddbfca47b39cada2fed7dca56afd8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53892630"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188331"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>E4 구독에서 Office 365 업그레이드
 
@@ -36,7 +37,7 @@ ms.locfileid: "53892630"
 
 ## <a name="what-are-my-options-for-how-to-upgrade"></a>업그레이드하는 방법에 대한 내 옵션은 무엇입니까?
 
-계획을 업그레이드하는 가장 쉬운 방법은  업그레이드 탭에서 업그레이드 탭을 사용하는 Microsoft 365 관리 센터. 그러나 업그레이드 **탭을** 사용하는 것은 모든 상황에서 지원되지 않습니다. 시나리오가 지원되지 않는 경우 계획을 수동으로 업그레이드할 수 있습니다.
+계획을 업그레이드하는 가장 쉬운 방법은  의 업그레이드 탭을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a> 그러나 업그레이드 **탭을** 사용하는 것은 모든 상황에서 지원되지 않습니다. 시나리오가 지원되지 않는 경우 계획을 수동으로 업그레이드할 수 있습니다.
 
 ## <a name="what-is-the-upgrade-tab"></a>업그레이드 탭이란?
 
@@ -127,7 +128,7 @@ ms.locfileid: "53892630"
 
 ### <a name="step-3-reassign-licenses-to-users"></a>3단계: 사용자에게 라이선스 다시 배포
 
-라이선스를 사용하여 Microsoft 365 관리 센터 최대 20명에 대한 라이선스를 다시 배정할 수 있습니다. 자세한 내용은 [Move users to a different subscription을 참조하세요.](move-users-different-subscription.md)
+라이선스를 [사용하여](https://go.microsoft.com/fwlink/p/?linkid=2024339) Microsoft 365 관리 센터 최대 20명에 대한 라이선스를 다시 배정할 수 있습니다. 자세한 내용은 [Move users to a different subscription을 참조하세요.](move-users-different-subscription.md)
 
 > [!TIP]
 > 사용자가 많은 경우 [PowerShell을](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)사용하여 Office 365 라이선스를 대량으로 할당할 수 있습니다.

@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: 많은 경우 Advanced eDiscovery 항목을 추가하여 검토 집합을 더 추가하고 다른 증가된 제한을 활용할 수 있습니다.
 ms.openlocfilehash: 43211dbeed7621de64d696e21fa647d5023350bb
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565487"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191589"
 ---
 # <a name="use-large-cases-in-advanced-ediscovery-preview"></a>대규모 사례를 Advanced eDiscovery(미리 보기)
 

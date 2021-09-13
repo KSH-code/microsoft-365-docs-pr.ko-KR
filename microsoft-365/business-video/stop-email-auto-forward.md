@@ -16,18 +16,19 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 - AdminTemplateSet
+- admindeeplinkMAC
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 소유 정보 도용을 방지하기 위한 메일 흐름 규칙을 만들어 자동 전달 전자 메일을 중지하는 방법을 학습합니다.
-ms.openlocfilehash: b3118fed41408ef83ba007ff9530b49b6072f8c51e9ca6cc07fc3526309decb5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 5c13e43f29b6d49b13daf4eb0aa6e3d6fd8275ae
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893318"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188787"
 ---
 # <a name="stop-email-auto-forward"></a>전자 메일 자동 전달 중지
 
@@ -39,7 +40,7 @@ ms.locfileid: "53893318"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. 다음 Microsoft 365 관리 센터 , **메일** Exchange 를 선택하고 규칙 탭에서  더하기 기호를 선택하고 새 규칙 만들기 **를 선택합니다.**
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>, **메일** Exchange 를 선택하고 규칙 탭에서 더하기 기호를 선택하고 새 규칙 만들기 **를 선택합니다.**  
 1. 추가 **옵션 을 선택합니다.** 새 규칙의 이름을 지정합니다.
 1. 그런 다음 이 규칙을 적용하기 위한 드롭다운을 **열고** 보낸 사람 **을** 선택한 다음 외부 내부 **입니다.**
 1. 조직 **내부 를 선택한** 다음 확인 **을 선택합니다.**

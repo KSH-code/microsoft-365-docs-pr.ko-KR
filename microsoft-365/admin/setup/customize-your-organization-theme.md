@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 회사 로고 또는 색에 맞게 Microsoft 365 모음 위쪽의 기본 테마를 변경하는 방법을 알아보고 사용자 지정합니다.
-ms.openlocfilehash: 6a9317e1ca61711020dfa8d1521c1082b2a7682f8e12a2976dc20f5af374dd4c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 62a658929faaf130e85df5a2eb9637bf6a6c8a0a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822145"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186715"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -60,7 +60,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 1. 이전에 조직에 대한 테마를 사용자  지정한 경우 기본 테마를 선택하고 저장된 사용자 지정 중 하나를 사용하거나 테마 추가 **를 선택합니다.**
 2. 일반 **페이지에서** 사용자가 테마를 다시 지정하지 못하도록 방지하고 사용자의 표시 이름을 표시할 수 있습니다.
-3. **저장** 을 선택하여 변경 내용을 저장합니다.  
+3. 변경 내용을 저장하려면 **저장** 을 선택합니다.  
 
 > [!IMPORTANT]
 > 기본 테마는 고유하며 이름을 변경할 수 없습니다. 조직 내의 모든 사용자에 적용됩니다. 기본 테마를 삭제하려면 먼저 다른 모든 테마를 삭제해야 합니다.
@@ -87,7 +87,7 @@ You can add or update a default theme that applies to everyone within your org. 
 - **대체 로고:** 로고를 지정하는 URL 위치를 추가합니다. 대체 로고는 어두운 테마에서 Office 최적화해야 합니다. 기본 로고와 동일한 요구 사항
 - **On-click link:** Add a URL location that points to your logo. 로고를 회사 웹 사이트와 같은 회사 리소스에 대한 링크로 사용할 수 있습니다. 로고에 대한 URL 위치를 선택하지 않는 경우 기본 위치는 Office 페이지입니다.
 
-**저장** 을 선택하여 변경 내용을 저장합니다.
+변경 내용을 저장하려면 **저장** 을 선택합니다.
 
 :::image type="content" source="../../media/Logos_Tab.png" alt-text="Screenshot: Logos tab showing the logo options":::
 
@@ -104,7 +104,7 @@ You can add or update a default theme that applies to everyone within your org. 
 
 :::image type="content" source="../../media/default-theme-colors1.png" alt-text="Screenshot: Colors tab showing default theme colors for your organization":::
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="my-organization-already-has-a-theme-for-all-employees-how-will-this-change"></a>조직에 이미 모든 직원에 대한 테마가 있습니다. 이 변경은 어떻게 될까요?
 

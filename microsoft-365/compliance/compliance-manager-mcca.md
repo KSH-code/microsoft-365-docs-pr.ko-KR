@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
 ms.openlocfilehash: 9bf88a79de07accbf8487f09f642324efcbaf086
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572074"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189959"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -48,7 +48,7 @@ MCCA를 설치하려면 관리자 모드에서 PowerShell을 사용하여 시작
 
 1. 시작 Windows **선택합니다.**
 2. **PowerShell을 입력하고** 마우스 오른쪽 단추로 Windows PowerShell **를** 클릭한 다음 관리자 권한으로 **실행을 선택합니다.**
-1. 명령 프롬프트에 다음을 입력합니다.
+1. 명령 프롬프트에서 다음을 입력합니다.
 
     ```powershell
     Install-Module -Name MCCAPreview
@@ -113,7 +113,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
   | 10  | 남미 |
   | 11  | 남아프리카 공화국 |
   | 12  | 스위스 |
-  | 13  | 아랍에미리트 |
+  | 13 | 아랍에미리트 |
   | 14  | 영국 |
 
 

@@ -17,11 +17,11 @@ ms.topic: article
 ms.technology: mde
 ms.custom: api
 ms.openlocfilehash: d98b231d4d2c0b415a3c76aa18d23402f19e8b06
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603168"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191002"
 ---
 # <a name="export-assessment-methods-and-properties-per-device"></a>장치당 평가 방법 및 속성 내보내기
 
@@ -65,7 +65,7 @@ _JSON_ 응답 또는 파일을 통해 수집되는 데이터는 현재 상태의
 
 ### <a name="11-methods"></a>1.1 메서드
 
-메서드|데이터 형식|설명
+방법|데이터 형식|설명
 :---|:---|:---
 보안 구성 평가 **내보내기(JSON 응답)**|장치 컬렉션에 따라 보안 구성. 참조: [1.2 속성(JSON 응답)](#12-properties-json-response)|DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
 파일로 보안 **구성 평가 내보내기**|장치 컬렉션에 따라 보안 구성. 참조: [1.3 속성(파일을 통해)](#13-properties-via-files)|DeviceId, ConfigurationId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다. <ol><li>API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.</li><li>다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.</li></ol>
@@ -104,7 +104,7 @@ GeneratedTime|문자열|내보내기 생성 시간입니다.
 
 ### <a name="21-methods"></a>2.1 메서드
 
-메서드|데이터 형식|설명
+방법|데이터 형식|설명
 :---|:---|:---
 소프트웨어 인벤토리 평가 **내보내기(JSON 응답)**|장치 모음의 소프트웨어 인벤토리입니다. 참조: [2.2 속성(JSON 응답)](#22-properties-json-response)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
 파일로 소프트웨어 인벤토리 **평가 내보내기**|장치 파일로 소프트웨어 인벤토리. 참조: [2.3 속성(파일을 통해)](#23-properties-via-files)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다. <ol><li>API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 다운로드합니다.</li><li>다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.</li></ol>
@@ -141,7 +141,7 @@ GeneratedTime|문자열|내보내기 생성 시간입니다.
 
 ### <a name="31-methods"></a>3.1 메서드
 
-메서드|데이터 형식|설명
+방법|데이터 형식|설명
 :---|:---|:---
 소프트웨어 취약점 평가 **내보내기(JSON 응답)**|조사 컬렉션 참조: [3.2 속성(JSON 응답)](#32-properties-json-response)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. API는 조직의 모든 데이터를 JSON 응답으로 끌어들입니다. 이 방법은 100 K 장치 미만의 소규모 조직에 가장 적합한 방법입니다. 응답이 단계적으로 진행되어 응답의 @odata.nextLink 필드를 사용하여 다음 결과를 내보일 수 있습니다.
 파일로 소프트웨어 취약점 평가 **내보내기**|조사 엔터티 참조: [3.3 속성(파일을 통해)](#33-properties-via-files)|DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId의 모든 고유 조합에 대한 항목이 있는 테이블을 반환합니다. 이 API 솔루션을 사용하면 더 많은 양의 데이터를 더 빠르고 안정적으로 끌어 올 수 있습니다. 따라서 100 K 장치가 넘는 대규모 조직에 권장됩니다. 이 API는 조직의 모든 데이터를 다운로드 파일로 끌어들입니다. 응답에는 응답에서 모든 데이터를 다운로드하는 URL이 Azure Storage. 이 API를 사용하면 다음과 같이 모든 데이터를 Azure Storage 수 있습니다. <ol><li>API를 호출하여 모든 조직 데이터와 함께 다운로드 URL 목록을 얻습니다.</li><li>다운로드 URL을 사용하여 모든 파일을 다운로드하고 원하는 데이터를 처리합니다.</li></ol>

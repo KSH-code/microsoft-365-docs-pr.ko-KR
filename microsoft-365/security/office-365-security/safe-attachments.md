@@ -20,12 +20,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 첨부 파일 기능에 대해 자세히 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0158ef1e182b0c0def6a84f71608660134b5cbc68f467f8a43485447c02c7999
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 127d862d235abc4cd81f62679b97077c7a80bd70
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56815372"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187331"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>금고 Microsoft Defender for Office 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "56815372"
 
 금고 [Microsoft Defender for Office 365](defender-for-office-365.md) EOP(맬웨어 방지 보호)에서 이미 검사된 전자 메일 첨부 파일에 대한 추가 보호 [계층을 Exchange Online Protection 있습니다.](anti-malware-protection.md) 특히, 금고 첨부 파일이 받는 사람에게 배달되기 전에 가상 환경을 사용하여 전자 메일 메시지의 첨부 파일을 검사합니다(데스토니아라고도 하는 _프로세스)._
 
-금고 전자 메일 메시지에 대한 첨부 파일 보호는 첨부 금고 제어합니다. 첨부 파일 금고 기본 정책이 없습니다. 따라서 첨부 금고 보호하려면 하나 이상의 첨부 파일 정책을 금고 **합니다.** 자세한 내용은 [Set up 금고 Attachments policies in Defender for Office 365.](set-up-safe-attachments-policies.md)
+전자 메일 메시지에 대한 안전한 첨부 파일 보호는 안전한 첨부 파일 정책에 의해 제어됩니다. 첨부 파일 금고 기본 정책이 없습니다. 따라서 첨부 금고 보호하려면 하나 이상의 첨부 파일 정책을 금고 **합니다.** 자세한 내용은 [Set up 금고 Attachments policies in Defender for Office 365.](set-up-safe-attachments-policies.md)
 
 다음 표에서는 금고 Microsoft Defender for Microsoft 365 및 Office 365 조직에서 microsoft Defender를 Office 365(즉, 예제에서는 라이선스 부족이 문제가 아닙니다)에 대한 시나리오에 대해 설명합니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "56815372"
 |Chris의 조직은 조직의 모든 사용자에 대해 금고 첨부 파일 정책을 오랫동안 제공합니다. Chris는 첨부 파일이 있는 전자 메일을 받은 다음 외부 받는 사람에게 메시지를 전달합니다.|Chis는 첨부 파일로 금고 보호됩니다. <p> 외부 받는 사람이 조직에 첨부 금고 정책이 있는 경우 전달된 메시지에는 해당 정책이 적용됩니다.|
 |
 
-금고 첨부 파일 검색은 첨부 파일 데이터가 Microsoft 365 지역에서 진행됩니다. 데이터 센터 지리에 대한 자세한 내용은 데이터가 어디에 [있나요?를 참조하세요.](https://products.office.com/where-is-your-data-located?geo=All)
+안전한 첨부 파일 검사는 Microsoft 365 데이터가 있는 동일한 지역에서 수행됩니다. 데이터 센터 지리에 대한 자세한 내용은 데이터가 어디에 [있나요?를 참조하세요.](https://products.office.com/where-is-your-data-located?geo=All)
 
 > [!NOTE]
 > 다음 기능은 금고 포털에서 첨부 파일 정책의 전역 Microsoft 365 Defender 있습니다. 그러나 이러한 설정은 전역적으로 사용 또는 사용하지 않도록 설정되어 있으며 첨부 파일 정책에 금고 필요하지 않습니다.

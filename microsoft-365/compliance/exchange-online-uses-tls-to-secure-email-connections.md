@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: 전자 메일 Exchange Online 보안 Microsoft 365 TLS(전송 계층 보안) 및 FS(Forward Secrecy)를 사용하여 전자 메일 통신을 보호하는 방법을 알아보십시오. 또한 Microsoft에서 발급한 인증서에 대한 정보도 Exchange Online.
-ms.openlocfilehash: ff2b7bf948e9ceead83b3d871073eb9be9c52d6a3898437212f717ff5cd4493e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cc7ca631f9322fdc8a85cfaba197e63d06d08aee
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895274"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184099"
 ---
 # <a name="how-exchange-online-uses-tls-to-secure-email-connections"></a>Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
 

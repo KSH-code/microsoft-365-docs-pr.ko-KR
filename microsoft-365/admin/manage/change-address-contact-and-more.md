@@ -22,11 +22,11 @@ search.appverid: MET150
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경합니다.
 ms.date: 03/30/2021
 ms.openlocfilehash: a7a2b8ee10c37b315e14504eae67672c34f79f08
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394495"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184539"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
   

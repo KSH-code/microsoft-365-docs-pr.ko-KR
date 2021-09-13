@@ -21,11 +21,11 @@ search.appverid:
 - BEA160
 description: 설정 마법사와 설치 페이지 간의 차이점에 대해 자세히 알아보십시오.
 ms.openlocfilehash: a4936dded4e13b6cf748a1b4d33513480bf382a9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565593"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184396"
 ---
 # <a name="difference-between-the-setup-wizard-and-the-setup-page"></a>설치 마법사와 설치 페이지 차이점
 

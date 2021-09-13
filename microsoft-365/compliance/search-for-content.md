@@ -12,11 +12,11 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Microsoft 365 규정 준수 센터 콘텐츠 검색 eDiscovery 도구를 사용하여 Exchange 사서함, SharePoint 사이트의 문서 및 OneDrive 위치 및 인스턴트 메시징 대화에서 전자 메일을 빠르게 비즈니스용 Skype.
 ms.openlocfilehash: 577b3af2bbeb1856f55de31123b71f2597c6604a
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508301"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59183980"
 ---
 # <a name="search-for-content-using-the-content-search-tool"></a>콘텐츠 검색 도구를 사용하여 콘텐츠 검색
 

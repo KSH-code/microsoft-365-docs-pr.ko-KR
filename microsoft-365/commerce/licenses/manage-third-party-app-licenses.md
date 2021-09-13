@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 2013에서 ISV(Independent Software Vendor) 앱의 라이선스를 관리하는 방법을 Microsoft 365 관리 센터.
 ms.date: 06/15/2021
-ms.openlocfilehash: 360b1a954d8b34fbc91b086fdab532685438b7874f998ef4ddb8b7b07732d15a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e19277a34c896d918d545cca27b1c435ca221e6f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887530"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190302"
 ---
 # <a name="manage-isv-app-licenses-in-the-microsoft-365-admin-center"></a>2013에서 ISV 앱 라이선스 Microsoft 365 관리 센터
 

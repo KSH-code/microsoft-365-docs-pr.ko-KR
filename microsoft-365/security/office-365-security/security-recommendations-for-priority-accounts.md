@@ -21,11 +21,11 @@ description: 관리자는 보안 설정을 높이고 조직에서 우선 순위 
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: e2fc9c95389bd72ebea11dcfe808101a6ca5ab40
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576047"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189059"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>2016년 8월의 우선 순위 계정에 대한 보안 Microsoft 365
 

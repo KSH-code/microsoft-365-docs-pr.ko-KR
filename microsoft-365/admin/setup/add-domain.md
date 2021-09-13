@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: 설치 마법사를 사용하여 DNS 호스트에 DNS 레코드를 Microsoft 365 Microsoft 365 관리 센터 도메인을 추가합니다.
-ms.openlocfilehash: 73da36729b88c5cb6394983b7577fb793205c6e144c44daea3346c12721e1df6
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: caec9951fa80d19467623922dffa8551d0b4ad0d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822238"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184460"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
@@ -46,7 +46,7 @@ ms.locfileid: "53822238"
 
 ::: moniker range="o365-worldwide"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
 ::: moniker-end
 ::: moniker range="o365-germany"

@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: 비즈니스 지원 프로그램에 대해 알아보고 비즈니스용 비즈니스용 앱에 대한 향상된 도움말 및 사용법을 통해 조직에 도움이 되는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: fefefe5dc587674609201be13f19cd6223b80c49
-ms.sourcegitcommit: 2048c9399a654175438d47e0c3aa2574b949bdc0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58923921"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187035"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Microsoft 365용 비즈니스 도우미
 

@@ -20,11 +20,11 @@ description: 관리자는 전자 메일 서버에서 전자 메일을 허용하�
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 6edcbbe885f8271b073afdff248106ce0d209960
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572446"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189132"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -82,7 +82,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
    - **설명** 섹션: 이름 **및 설명 편집을 클릭합니다.** 나타나는 **이름 및** 설명 편집 플라이아웃에서 설명 상자에 선택적 설명 텍스트를 **입력합니다.**
 
-     작업을 마쳤으면 **저장** 을 클릭합니다.
+     작업을 마친 후 **저장** 을 클릭합니다.
 
    - **연결 필터링 섹션:** 연결 **필터 정책 편집을 클릭합니다.** 플라이아웃이 나타나면 다음 설정을 구성합니다.
 
@@ -91,9 +91,9 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
        - IP 범위: 예: 192.168.0.1-192.168.0.254.
        - CIDR IP: 예: 192.168.0.1/25. 유효한 서브넷 마스크 값은 /24에서 /32까지입니다. /1 ~ /23에 대한 스팸 필터링을 건너뛰기 위해 이 문서 의 부분에 있는 사용 가능한 범위 밖에 있는 [CIDR IP에](#skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range) 대한 스팸 필터링 건너뛰기 섹션을 참조하세요.
 
-       필요한 만큼 이 단계를 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+       필요한 만큼 이 단계를 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![제거 아이콘.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
-     IP 주소 또는 주소 범위를 추가하려면 상자를 클릭하고  추가 아이콘 ![ 추가를 입력합니다. ](../../media/ITPro-EAC-AddIcon.png) 항목을 제거하려면 **허용된 IP** 주소의 항목을 선택한 다음 제거 **를** ![ ](../../media/scc-remove-icon.png) 클릭합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
+     IP 주소 또는 주소 범위를 추가하려면 상자를 클릭하고  추가 아이콘 ![ 추가를 입력합니다. ](../../media/ITPro-EAC-AddIcon.png) 항목을 제거하려면 **허용된 IP** 주소의 항목을 선택한 다음 제거 **를** ![ ](../../media/scc-remove-icon.png) 클릭합니다. 작업을 마친 후 **저장** 을 클릭합니다.
 
    - **항상 다음 IP 주소** 또는 주소 범위의 메시지를 차단합니다. IP 차단 목록입니다. 다음 IP 주소 또는 주소 범위의 메시지 항상 허용 설정에 설명된 바와 같이 상자에 단일 IP, IP 범위 또는 CIDR **IP를 입력합니다.**
 

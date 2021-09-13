@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 2013에서 전체 팀을 만드는 방법을 Microsoft Teams.
-ms.openlocfilehash: 9621a737572eb28f942efc30c3da00bd9faa82c02e7f290d2bc4a9de8f4c1ee4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fa24457bbe34136c793fd0e7a5856ba57e345ca1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53882436"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188852"
 ---
 # <a name="create-an-org-wide-team"></a>조직 전체 팀 만들기
 

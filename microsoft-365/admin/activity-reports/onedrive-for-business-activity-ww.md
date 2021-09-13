@@ -21,11 +21,11 @@ search.appverid:
 - MOE150
 description: 조직의 OneDrive 사용 현황 보고서를 보고 모든 OneDrive 사용자, 공유되는 파일 수 및 저장소 사용률을 알 수 있습니다.
 ms.openlocfilehash: 145bf6cc4f079e4916730b949ed0c4a798242860
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564831"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185420"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>Microsoft 365 관리 센터의 보고서 - 비즈니스용 OneDrive 활동
 

@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: ''
 description: '요약: DoD용 DNS Office 365'
 hideEdit: true
-ms.openlocfilehash: 23d342719e8b488fccab925a6db9574ca3f06fa8115b8b29920c038570cdfa2b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 656fb5aff3365dfb5f975f7d3ad1c222b36e1e56
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53801077"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189669"
 ---
 # <a name="dns-records-for-office-365-dod"></a>Office 365 DoD용 DNS 레코드
 
@@ -57,14 +57,14 @@ DoD를 등록하는 Office 365 온라인 서비스 테넌트에 SMTP 및 SIP 도
 
 ### <a name="cname-records"></a>CNAME 레코드
 
-| 유형 | 호스트 이름 | 주소 또는 값을 가리킴 | TTL |
+| 형식 | 호스트 이름 | 주소 또는 값을 가리킴 | TTL |
 | --- | --- | --- | --- |
 | CNAME | sip | sipdir.online.dod.skypeforbusiness.us | 1시간 |
 | CNAME | lyncdiscover | webdir.online.dod.skypeforbusiness.us | 1 Hour | 
 
 ### <a name="srv-records"></a>SRV 레코드
 
-| 유형 | 서비스 | Protocol(프로토콜) | 포트 | 가중치 | 우선 순위 | 이름 | 대상 | TTL |
+| 형식 | 서비스 | Protocol(프로토콜) | 포트 | 가중치 | 우선 순위 | 이름 | 대상 | TTL |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SRV | \_sip | \_tls | 443 | 1 | 100 | @ | sipdir.online.dod.skypeforbusiness.us | 1시간 |
 | SRV | \_sipfederationtls | \_tcp | 5061 | 1 | 100 | @ | sipfed.online.dod.skypeforbusiness.us | 1 Hour |

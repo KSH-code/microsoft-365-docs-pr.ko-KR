@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b6c09574e96b574e2b872bcdd78609df176ec5323f9909f72db78bb9b091f97b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e2f74fa9e28003c64f55870e8389cef6a2751625
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838346"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190799"
 ---
 # <a name="contact-support-for-congo"></a>Congo 지원에 문의
 

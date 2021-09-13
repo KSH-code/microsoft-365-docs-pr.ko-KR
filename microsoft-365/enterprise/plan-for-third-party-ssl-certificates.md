@@ -21,11 +21,11 @@ search.appverid:
 ms.assetid: b48cdf63-07e0-4cda-8c12-4871590f59ce
 description: '요약: AD FS를 사용하는 Exchange 하이브리드, AD FS를 사용하는 SSO, Exchange Online 서비스 및 Exchange SSL 인증서에 대해 설명합니다.'
 ms.openlocfilehash: f2ad14bd35d68067cdc462706bed763e894455f8
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355931"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187907"
 ---
 # <a name="plan-for-third-party-ssl-certificates-for-microsoft-365"></a>Microsoft 365용 타사 SSL 인증서 계획
 

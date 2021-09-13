@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- admindeeplinkMAC
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: iOS에서 Office 앱을 보호하는 방법을 Microsoft 365 Business Premium.
-ms.openlocfilehash: bdab7e1ddbd55e64c1c568cc65ff3f700223d9dfd4c93213f51e8c0909fbc6c3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 748a24aeeb7859726f37491511c4e120207ef59e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53852770"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190452"
 ---
 # <a name="secure-office-apps-on-ios"></a>iOS에서 Office 앱 보안
 
@@ -36,7 +37,7 @@ ms.locfileid: "53852770"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터에 로그인합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에 로그인합니다.
 1. 정책에서 정책 **추가 를 선택 합니다.** 
 1. 정책 **추가 창의** 정책 이름 에 이름을 입력하고 정책 유형 에서 원하는 정책 유형을 **선택 합니다.**
 1. 사용자가 모바일 **장치에서 Office** 액세스하는 방법 관리를 켜고 다음 세 가지 설정이 켜져 있는지 확인합니다.

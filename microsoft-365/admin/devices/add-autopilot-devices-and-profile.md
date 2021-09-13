@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: AutoPilot을 사용하여 Windows 사용할 수 있도록 비즈니스용 Windows 10 디바이스를 설정하는 방법을 배워야 합니다.
 ms.openlocfilehash: 1a2350e836a84870a9eb304196d6c72831f52d60
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360643"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184915"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -49,7 +49,7 @@ AutoPilot을 Windows 사용하여 비즈니스용  새 Windows 10 디바이스�
 
 장치 그룹 또는 프로필을 아직 만들지 않은 경우 시작하는 가장 좋은 방법은 단계별 가이드를 사용하는 것입니다. 가이드를 [사용하지](create-and-edit-autopilot-devices.md) 않고 [](create-and-edit-autopilot-profiles.md) 디바이스를 추가하고 프로필을 할당할 수도 있습니다. 
   
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
 2. 왼쪽 탐색 창에서 **장치** \> **AutoPilot 을 선택 합니다.**
 

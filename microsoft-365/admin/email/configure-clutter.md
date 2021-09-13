@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'PowerShell을 사용하여 조직의 전체 또는 특정 사용자에 대해 클러터 기능을 사용하도록 설정하거나 사용하지 않도록 Exchange 방법을 학습합니다. '
-ms.openlocfilehash: 1bca3c8353d756ff5b7a9cb20f083313a3ee13117c784049a5277e677110058b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 91098047bdf2ab8190283990bdc6b0292e3e57ba
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826186"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184756"
 ---
 # <a name="configure-clutter-for-your-organization"></a>조직에 대한 클러터 구성
 

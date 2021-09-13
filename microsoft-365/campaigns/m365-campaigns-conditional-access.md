@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 보안 기본값이 미리 구성한 보안 설정을 제공하여 ID 관련 공격으로부터 조직을 보호하는 데 어떻게 도움이 될 수 있는지 확인합니다.
-ms.openlocfilehash: 88fac794b59785a37121800c95a99e2b6be3b35deb2830c927600442f3bdb42f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ea36ba45af26a767b08ee1e75931dca54dacea64
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809119"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188700"
 ---
 # <a name="turn-on-security-defaults"></a>보안 기본값 켜기
 

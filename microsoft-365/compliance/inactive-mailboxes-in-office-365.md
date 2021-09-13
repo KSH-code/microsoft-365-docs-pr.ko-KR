@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 사서함을 비활성 사서함으로 전환하여 이전 직원의 사서함 콘텐츠를 보존하는 방법을 배워야 합니다.
 ms.openlocfilehash: 7c2e4ce0bb60d29652d66a778c16579646392d21
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507259"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184060"
 ---
 # <a name="overview-of-inactive-mailboxes"></a>비활성 사서함 개요
 

@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva 항목을 사용하여 조직의 여러 항목을 관리하는 모범 사례에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 92a8dd3e53a14bc0bbf5e2d5570930e3bdc860b5d2cee1ea7bd576c4e1cd871a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 96580df486195af991e446ae6f1bbb4b08013947
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53891392"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187755"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>항목의 규모에 따라 Microsoft Viva 관리
 
@@ -172,6 +172,6 @@ AI에서 항목을 검색하면 항목 관리 페이지와 사용자에게 제�
 
 ## <a name="see-also"></a>참고 항목
 
-[항목 센터에서 항목 관리](manage-topics.md)
+[주제 센터에서 주제 관리](manage-topics.md)
 
 [주제 센터 개요](topic-center-overview.md)

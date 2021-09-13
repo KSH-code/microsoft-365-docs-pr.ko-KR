@@ -16,11 +16,11 @@ search.appverid:
 description: Microsoft 준수 관리자가 위험을 해결하고 규정 준수 환경을 개선하기 위해 취한 조치를 기반으로 개인 설정된 점수를 계산하는 방법을 이해합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 26ef0f73a8da9403c2d1fd8248f828d6faf7f6e3
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569096"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184276"
 ---
 # <a name="compliance-score-calculation"></a>준수 점수 계산
 

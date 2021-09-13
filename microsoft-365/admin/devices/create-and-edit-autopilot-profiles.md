@@ -28,11 +28,11 @@ search.appverid:
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: AutoPilot 프로필을 만들어 장치에 적용하는 방법을 알아보고, 프로필을 편집 또는 삭제하거나 장치에서 프로필을 제거하는 방법을 알아보세요.
 ms.openlocfilehash: 4f54b4baac1cd9364d852116115f07fae021b823
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360623"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184876"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot 프로필 만들기 및 편집
 

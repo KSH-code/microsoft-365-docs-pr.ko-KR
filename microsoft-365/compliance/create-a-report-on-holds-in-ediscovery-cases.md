@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: eDiscovery 사례와 연결된 모든 보류에 대한 정보가 포함된 보고서를 생성하는 방법을 학습합니다.
 ms.openlocfilehash: 5ccb74960a7b0d051b0c7754710f35e81b3edae0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572050"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189829"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>EDiscovery 사례의 보존 보고서 만들기
 

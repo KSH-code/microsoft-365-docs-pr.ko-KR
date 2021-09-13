@@ -27,11 +27,11 @@ search.appverid:
 - BEA160
 description: Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는 도메인을 사용하거나 등록할 때 도메인을 구입하는 옵션이 제공됩니다.
 ms.openlocfilehash: abb818b17ea5259b6e7015f73afb386e4515ac2f
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866766"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184372"
 ---
 # <a name="set-up-microsoft-365-business-standard-with-a-new-or-existing-domain"></a>새 도메인 또는 기존 도메인으로 Microsoft 365 Business Standard 설정
 

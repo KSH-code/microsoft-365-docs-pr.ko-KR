@@ -11,11 +11,11 @@ ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: 83681c2258a140c4e7bc4757e0d4f9f63c9991db
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58364592"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187699"
 ---
 # <a name="get-started-with-app-control"></a>앱 제어 시작하기
 
@@ -59,15 +59,15 @@ Microsoft Managed Desktop 기본 정책을 확보하는 데 까다로워진 측�
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
-1. 관리 [포털에 액세스합니다.](access-admin-portal.md)
-1. [관리 포털에서 관리자 연락처를 추가하고 확인](add-admin-contacts.md)
-1. [등록 후 설정을 조정합니다.](conditional-access.md)
-1. 를 배포하고 [Intune 회사 포털.](company-portal.md)
-1. [라이선스를 할당합니다.](assign-licenses.md)
-1. [앱 배포.](deploy-apps.md)
-1. [장치 를 설치합니다.](set-up-devices.md)
-1. Autopilot 및 등록 상태 페이지로 첫 실행 [환경을 설정합니다.](esp-first-run.md)
-1. [사용자 지원 기능을 사용하도록 설정](enable-support.md).
-1. [사용자가 디바이스를 사용할 준비를 합니다.](get-started-devices.md)
+1. [관리 포털](access-admin-portal.md)에 액세스합니다.
+1. [관리 포털의 관리자 연락처를 추가하고 확인합니다](add-admin-contacts.md).
+1. [등록 후 설정을 조정합니다](conditional-access.md).
+1. [Intune 회사 포털](company-portal.md)을 배포하고 할당합니다.
+1. [라이선스를 할당합니다](assign-licenses.md).
+1. [앱을 배포합니다](deploy-apps.md).
+1. [디바이스를 설정합니다](set-up-devices.md).
+1. [Autopilot 및 등록 상태 페이지의 첫 실행 환경](esp-first-run.md)을 설정합니다.
+1. [사용자 지원 기능을 사용하도록 설정합니다](enable-support.md).
+1. [사용자가 디바이스를 사용할 수 있도록 준비합니다](get-started-devices.md).
 1. 앱 제어(이 문서)를 시작하세요.
 

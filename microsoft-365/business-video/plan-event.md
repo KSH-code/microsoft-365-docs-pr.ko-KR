@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 플래너를 통해 이벤트를 계획하는 방법을 학습합니다.
-ms.openlocfilehash: 22a0970e586e3240da20e8fa21ce20bbc15b69c6bfe3a0378c6ba6d636c33658
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a1fe282b7edc9d52db643b47a5dc15a214588e10
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53856586"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190522"
 ---
 # <a name="use-microsoft-planner-to-plan-an-event"></a>Microsoft Planner를 사용하여 이벤트 계획
 

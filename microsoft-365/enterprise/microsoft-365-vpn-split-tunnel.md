@@ -19,11 +19,11 @@ f1.keywords:
 - NOCSH
 description: Office 365에서 VPN 분할 터널링을 사용하여 원격 사용자를 위해 Office 365 연결을 최적화하는 지침입니다.
 ms.openlocfilehash: bfb774f6404f8eec1c517b2e2e4e434694f9673f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575855"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185971"
 ---
 # <a name="optimize-office-365-connectivity-for-remote-users-using-vpn-split-tunneling"></a>VPN 분할 터널링을 사용하여 원격 사용자에게 맞도록 Office 365 연결 최적화
 <!---

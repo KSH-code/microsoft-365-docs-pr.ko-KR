@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: 앱 위협 감지 및 수정에 대해 알아봅니다.
 ms.openlocfilehash: 0812615a8a0ed78f0649a59a0f884f1c37a9e368
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571546"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190062"
 ---
 # <a name="learn-about-app-threat-detection-and-remediation"></a>앱 위협 감지 및 수정에 대해 알아보기
 

@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 35d17af65ddadcdee885ae0026802703577985465eac8b46b817e84858543598
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2fc4f93a998c4d113b8e4ebf1cfe5fce89fff949
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900270"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190209"
 ---
 # <a name="payment-information-for-ukraine"></a>우크라이나의 결제 정보
 

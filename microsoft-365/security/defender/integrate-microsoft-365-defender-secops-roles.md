@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: d9e733bb16b843df24fa4fee6b2eecaa889a61041f9a05fe8970124729d8dc41
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a780c30b2919aac1f5a50c475c79df87d5b1f1f3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873454"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192449"
 ---
 # <a name="step-4-define-microsoft-365-defender-roles-responsibilities-and-oversight"></a>4단계. Microsoft 365 Defender 역할, 책임 및 감독 정의
 
@@ -38,7 +38,7 @@ ms.locfileid: "53873454"
 
 조직은 운영 역할을 정의하기 전에 Microsoft 365 Defender, 구성 및 관리에 대한 소유권과 책임이 초기 작업으로 설정되어야 합니다. 일반적으로 라이선스, 구독 비용 및 Microsoft 365 및 Enterprise EMS(Security + Mobility) 서비스(Microsoft 365 Defender 포함)의 소유권은 SOC(보안 운영 센터) 팀 외부에 있습니다. SOC 팀은 해당 개인과 함께 작업하여 해당 개인의 적절한 감독을 Microsoft 365 Defender. 
 
-대부분의 최신 SOC는 팀 구성원이 자신의 기술et 및 기능에 따라 범주에 할당합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+대부분의 최신 SOC는 팀 구성원이 자신의 기술et 및 기능에 따라 범주에 할당합니다. 예:
 
 - 위협 및 분석 기능의 수명 주기 관리와 관련된 작업에 할당된 위협 인텔리전스 팀.
 - 로그, 경고, 이벤트 및 모니터링 기능을 유지 관리하는 SOC 분석가로 구성된 모니터링 팀입니다.

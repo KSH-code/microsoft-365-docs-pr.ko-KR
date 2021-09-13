@@ -18,11 +18,11 @@ ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: eDiscovery 권한이 할당된 사용자가 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery 수행할 때 로깅되는 이벤트를 Microsoft 365 규정 준수 센터.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 637785a86e7fa28c0c058e9f729fcf2c1604a6f3
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256419"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59183971"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 

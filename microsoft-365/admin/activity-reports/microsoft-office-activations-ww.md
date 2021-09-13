@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Office 활성화 보고서를 통해 Office 구독을 정품 인증한 사용자를 파악하고 추가 도움말이 필요할 수 있는 사용자를 식별하는 방법을 알아보세요.
 ms.openlocfilehash: de5ca46cd8ecabb88e250c5fb754b9943a01d4e5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565015"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185444"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Microsoft 365 관리 센터의 보고서 - Microsoft Office 활성화
 

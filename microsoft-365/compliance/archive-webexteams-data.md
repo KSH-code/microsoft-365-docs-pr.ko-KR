@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Veritas의 Webex Teams 커넥터에서 데이터를 가져오고 보관할 커넥터를 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
 ms.openlocfilehash: 499bf32093d4451d9e9aea45f9b36c1beb591733
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570920"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188164"
 ---
 # <a name="set-up-a-connector-to-archive-webex-teams-data"></a>Webex 데이터 보관 커넥터 Teams 설정
 

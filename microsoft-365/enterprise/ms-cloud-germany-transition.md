@@ -16,14 +16,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
+- admindeeplinkMAC
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: 32e1098736a1284a37fc3f1af478debbad34c00f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 9f7800a1cbf75e2b68d43fc20b1e79505eb51a81
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573718"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185955"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드에서 새 독일 Office 365 서비스로 마이그레이션
 
@@ -65,7 +66,7 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 :::image type="content" alt-text="새 독일 데이터 센터로의 10단계 마이그레이션 단계" source="../media/ms-cloud-germany-migration-opt-in/migration-organization.png" lightbox="../media/ms-cloud-germany-migration-opt-in/migration-organization.png":::
 
-마이그레이션에 옵트인(opt [in)할 때 이러한 단계가 시작됩니다.](./ms-cloud-germany-migration-opt-in.md) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 후에 실행됩니다. 추가 고객 주도 작업의 시작 및 전체 마이그레이션 상태는 마이그레이션 프로세스 중에 Microsoft 365 관리 센터 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, 하이브리드 고객을 위한 하이브리드 설정 Exchange 또는 Azure 마이그레이션이 있습니다.
+마이그레이션에 옵트인(opt [in)할 때 이러한 단계가 시작됩니다.](./ms-cloud-germany-migration-opt-in.md) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 후에 실행됩니다. 추가 고객 주도 작업의 시작 및 전체 마이그레이션 상태는 마이그레이션 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank"></a> 프로세스 중에 Microsoft 365 관리 센터 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, 하이브리드 고객을 위한 하이브리드 설정 Exchange 또는 Azure 마이그레이션이 있습니다.
 
 옵트인(opt in)이 발생하면 마이그레이션이 즉시 시작되지는 않습니다. 조직이 이후 마이그레이션을 위해 예약된 테넌트 목록에 추가됩니다. 완료 시 성공적인 마이그레이션 및 사용을 보장하기 위해 이러한 단계가 중요하기 때문에 작업 전 단계를 시작할 수 있습니다.
 
@@ -96,7 +97,7 @@ Azure AD를 전 세계 서비스로 최종 전환한 후 모든 클라이언트�
 
 ## <a name="moving-to-the-new-german-datacenter-regions"></a>새 독일 데이터 센터 지역으로 이동
 
-이제 도이치클라드 기존 Microsoft 클라우드 고객은 이제 사용자 Office 365, Dynamics 365 고객 참여 및 Power Platform 서비스 마이그레이션을 시작할 수 있습니다. 첫 번째 단계는 Microsoft 주도 신규 독일 데이터 센터 지역으로의 [마이그레이션에 동의](./ms-cloud-germany-migration-opt-in.md)하는 것입니다.  구독을 갱신하면 Microsoft 지원 마이그레이션에 자동으로 옵트인(opt in)합니다. 이 경우 Microsoft는 고객 테넌트 관리자에게 전자 메일과 메시지 센터에 Microsoft 365 관리 센터 알릴 것입니다. 그러나 지금 프로세스를 시작하고자 하는 경우 지금 바로 옵트인(opt [in)할](./ms-cloud-germany-migration-opt-in.md) Microsoft 365 관리 센터 있습니다. 마이그레이션은 2021년 초에 시작될 예정이고 2021년 10월 29일까지 완료됩니다. 
+이제 도이치클라드 기존 Microsoft 클라우드 고객은 이제 사용자 Office 365, Dynamics 365 고객 참여 및 Power Platform 서비스 마이그레이션을 시작할 수 있습니다. 첫 번째 단계는 Microsoft 주도 신규 독일 데이터 센터 지역으로의 [마이그레이션에 동의](./ms-cloud-germany-migration-opt-in.md)하는 것입니다.  구독을 갱신하면 Microsoft 지원 마이그레이션에 자동으로 옵트인(opt in)합니다. Microsoft는 이러한 경우 고객 테넌트 관리자에게 전자 메일과 메시지 센터에 Microsoft 365 관리 센터 알릴 것입니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank"></a> 그러나 지금 프로세스를 시작하고자 하는 경우 지금 바로 옵트인(opt <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">in)할 Microsoft 365 관리 센터</a> 있습니다. [](./ms-cloud-germany-migration-opt-in.md) 마이그레이션은 2021년 초에 시작될 예정이고 2021년 10월 29일까지 완료됩니다. 
 
 마이그레이션의 결과로 핵심 고객 데이터 및 구독이 새로운 독일 데이터 센터 지역으로 이동됩니다.
 

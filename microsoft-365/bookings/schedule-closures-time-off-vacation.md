@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e3c0a4ee-e3d8-4fbe-bd8f-16d1c712d1f4
 description: 직원이 지정된 시간 동안 예약할 수 없음으로 표시될 수 있도록 Bookings 일정에서 사무실 폐쇄 및 직원의 시간을 예약합니다.
 ms.openlocfilehash: bdd00d2bc97de1e981b2de7f5f21325de6967aa7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567595"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190572"
 ---
 # <a name="schedule-business-closures-time-off-and-vacation-time"></a>업무 폐쇄, 휴가 및 휴가 예약
 

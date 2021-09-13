@@ -15,11 +15,11 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: ''
 ms.openlocfilehash: 94351858da196edfd719d7b07ab6f125abf9d658
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570236"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186068"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>예측 코딩 모델 교육(미리 보기)
 

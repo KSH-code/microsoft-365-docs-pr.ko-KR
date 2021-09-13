@@ -21,11 +21,11 @@ ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 0a67d9291e7cb33e6385c916f90da5dfae54e352
-ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58918325"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189119"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-microsoft-365"></a>전자 메일에서 배달된 악성 전자 메일 Microsoft 365
 
@@ -63,8 +63,8 @@ ms.locfileid: "58918325"
 
 |활동|역할 그룹|미리 보기 역할이 필요하세요?|
 |---|---|---|
-|위협 탐색기(및 실시간 검색)를 사용하여 위협 분석 |전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니오|
-|위협 탐색기(및 실시간 검색)를 사용하여 전자 메일 메시지에 대한 헤더를 보고, 분리된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니오|
+|위협 탐색기(및 실시간 검색)를 사용하여 위협 분석 |전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요|
+|위협 탐색기(및 실시간 검색)를 사용하여 전자 메일 메시지에 대한 헤더를 보고, 분리된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요|
 |위협 탐색기를 사용하여 헤더 보기, 전자 메일 미리 보기(전자 메일 엔터티 페이지만) 및 사서함에 배달된 전자 메일 메시지 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자 <p> Preview|예|
 |
 

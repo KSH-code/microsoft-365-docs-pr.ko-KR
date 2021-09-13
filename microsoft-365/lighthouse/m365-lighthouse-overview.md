@@ -16,25 +16,25 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 Microsoft 365 Lighthouse 테넌트의 보안을 유지 및 관리하는 데 도움이 되는 방법을 배워야 합니다.
-ms.openlocfilehash: bde1aeddefd9ab29a77e324a050fc54c276c66b3
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: ef3eff784d661492cafba1c1c030602b45dd5aef
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507605"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187732"
 ---
 # <a name="overview-of-microsoft-365-lighthouse"></a>개요 Microsoft 365 Lighthouse
 
 > [!NOTE]
 > 이 문서에 설명된 기능은 미리 보기에 있으며, 변경될 수 있으며, 요구 사항을 충족하는 파트너만 사용할 수 [있습니다.](m365-lighthouse-requirements.md) 조직에 등록이 Microsoft 365 Lighthouse 에 [등록을 Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md)
 
-Microsoft 365 Lighthouse SMB(관리 서비스 공급자)가 SMB(중소기업) 고객을 위해 대규모로 장치, 데이터 및 사용자를 보호하고 관리하는 데 도움이 되는 관리 포털입니다Microsoft 365 Business Premium. 
+Microsoft 365 Lighthouse SMB(관리 서비스 공급자)가 SMB(관리 서비스 공급자)를 사용하여 장치, 데이터 및 사용자를 대규모로 보호하고 관리하는 데 도움이 되는 관리 포털로, Microsoft 365 Business Premium 또는 SMB를 사용하는 Microsoft 365 E3. 
 
-Lighthouse는 SMB 고객에게 조정된 보안 구성 기준을 권장하고 모든 고객 환경에서 다중 테넌트 보기를 제공하여 Microsoft 365 Business Premium 테넌트 온보더링을 간소화합니다. Lighthouse를 사용하여 MSP는 고객의 관리를 확장하고, 가장 중요한 요소에 집중하고, 위험을 빠르게 찾아 조사하고, 고객을 건강하고 안전한 상태로 유지하도록 조치를 취할 수 있습니다.
+Lighthouse는 SMB 고객에 맞게 보안 구성 기준을 권장하고 모든 고객 환경에서 다중 테넌트 보기를 제공하여 Microsoft 365 Business Premium Microsoft 365 E3 테넌트의 온보드를 간소화합니다. Lighthouse를 사용하여 MSP는 고객의 관리를 확장하고, 가장 중요한 요소에 집중하고, 위험을 빠르게 찾아 조사하고, 고객을 건강하고 안전한 상태로 유지하도록 조치를 취할 수 있습니다.
 
-Lighthouse를 사용하여 서비스 및 연결된 장치를 관리하는 데 추가 Microsoft 365 관련이 없습니다. Lighthouse는 현재 미리 보기로 제공되어 있으며 CSP(클라우드 솔루션 공급자) 프로그램에 등록된 MSP가 SMB 고객에게 Microsoft 365 Business Premium 사용할 수 있습니다.
+Lighthouse를 사용하여 서비스 및 연결된 장치를 관리하는 데 추가 Microsoft 365 관련이 없습니다. Lighthouse는 현재 미리 보기로 제공되어 있으며 CSP(클라우드 솔루션 공급자( 클라우드 솔루션 공급자) 프로그램에 등록된 MSP가 SMB 고객에게 Microsoft 365 Business Premium 또는 Microsoft 365 E3 사용할 수 있습니다.
 
-Lighthouse를 사용하는 고객이 있는 Microsoft CSP 채널 파트너의 Lighthouse Microsoft 365 Business Premium 지원됩니다. 여기에는 Microsoft와 직접 거래하는 CSP 파트너와 간접 공급자(배포자)를 통해 거래하는 CSP 파트너가 포함됩니다. 
+고객이 비즈니스 또는 구독을 사용하는 Microsoft CSP 채널 파트너가 Lighthouse를 Microsoft 365 Business Premium Microsoft 365 E3 지원됩니다. 여기에는 Microsoft와 직접 거래하는 CSP 파트너와 간접 공급자(배포자)를 통해 거래하는 CSP 파트너가 포함됩니다. 
 
 > [!IMPORTANT] 
 > Lighthouse를 사용하려면 MSP 및 해당 고객 테넌트가 에 나열된 요구 사항을 Microsoft 365 Lighthouse [합니다.](m365-lighthouse-requirements.md)     

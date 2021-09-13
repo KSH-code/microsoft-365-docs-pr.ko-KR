@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 도이치란드 Microsoft 클라우드에서 마이그레이션하기 위한 eDiscovery 마이그레이션 단계입니다.'
-ms.openlocfilehash: d73a0bccf870999e63f9d05eaff796e7066a90240c45c7b93208fd715a0d2baa
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0128c8563b2043e4ec41d2c5ab1b208bd3977511
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795077"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191232"
 ---
 # <a name="information-about-the-ediscovery-experience-during-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하는 동안의 eDiscovery 경험에 대한 정보
 다음 섹션에서는 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 eDiscovery 경험에 대한 추가 정보를 제공합니다.

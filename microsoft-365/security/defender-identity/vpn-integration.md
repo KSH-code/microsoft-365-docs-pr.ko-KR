@@ -8,11 +8,11 @@ ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
 ms.openlocfilehash: e6b8015cc8b6ac073c689bde3b15a411c859cada
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58561281"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185700"
 ---
 # <a name="defender-for-identity-vpn-integration-in-microsoft-365-defender"></a>ID VPN 통합을 위한 Defender Microsoft 365 Defender
 

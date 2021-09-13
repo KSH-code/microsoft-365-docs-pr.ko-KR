@@ -18,11 +18,11 @@ f1.keywords: NOCSH
 recommendations: false
 description: 사용자 그룹, Microsoft 365, Teams, SharePoint 및 관리 Yammer 대해 Yammer.
 ms.openlocfilehash: fefda518d9864984d7fb8ee6f82e57ad14ff7b6e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563321"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187275"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란 무엇인가요?
 
@@ -224,7 +224,7 @@ Microsoft 365 광범위한 정보 보호 및 규정 준수 기능이 포함되�
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365 및 규정 준수 기능을 제공합니다.](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 일본어: [PDF로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> 2020년 11월에 업데이트됨|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
+|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 일본어: [PDF로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> 2020년 11월에 업데이트됨|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
 
 ## <a name="conference-sessions"></a>회의 세션
 

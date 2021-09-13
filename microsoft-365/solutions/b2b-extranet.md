@@ -18,11 +18,11 @@ f1.keywords: NOCSH
 recommendations: false
 description: 파트너 조직의 관리되는 게스트를 사용하여 B2B 엑스트라넷 사이트 또는 팀을 만드는 방법을 학습합니다.
 ms.openlocfilehash: 7e3ddf12473095b0a7ac91ded01256e77c299ddf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572386"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185515"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>관리 대상 게스트와 B2B 엑스트라넷 작성
 

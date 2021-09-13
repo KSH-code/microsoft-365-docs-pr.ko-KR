@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: Bookings 활동의 4개월 보기를 보는 방법에 대해 자세히 알아보십시오.
 ms.openlocfilehash: ceb318f0577d6bf1f4f46f809ecabe0d1bc5d804
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823856"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188915"
 ---
 # <a name="reporting-info-for-bookings"></a>Bookings에 대한 보고 정보
 

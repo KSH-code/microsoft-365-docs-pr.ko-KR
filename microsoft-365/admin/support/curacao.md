@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 17b0bdacfe745788fc4da24d1622142b2e4bb91519947a859dee43b0677ec5c3
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1b799e976e5c2b5a7d500fdf69d996671c29ea38
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821274"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190729"
 ---
 # <a name="contact-support-for-curacao"></a>Curacao 지원에 문의
 

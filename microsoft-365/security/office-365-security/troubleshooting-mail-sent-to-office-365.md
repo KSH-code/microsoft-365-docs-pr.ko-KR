@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 Microsoft 365 고객에게 대량 메일을 보내기 위한 모범 & Microsoft 365의 받은 편지함으로 전자 메일을 보내는 데 문제가 있는 경우의 문제 해결 정보를 제공합니다.
+description: 이 문서에서는 전자 메일을 받은 편지함으로 보내는 문제에 대한 문제 해결 Microsoft 365 & 모범 사례를 Microsoft 365 제공합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 751202d21e55f6a3e3f4ea2116e4a24f1ed10a044311573f3c1f0123e3e8cb00
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c3017b0e7d0c583c9038f695f9f47010ff92c18a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56880556"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185531"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Microsoft 365로 전송한 문제 해결 메일
 
@@ -34,11 +34,11 @@ ms.locfileid: "56880556"
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 
-이 문서에서는 Microsoft 365의 받은 편지함으로 전자 메일을 보내려고 할 때 문제가 발생하는 보낸 사람에 대한 문제 해결 정보와 고객에게 대량 메일링을 위한 모범 사례를 제공합니다.
+이 문서에서는 전자 메일을 받은 편지함으로 보내려고 할 때 문제가 있는 보낸 사람에 대한 문제 해결 정보를 Microsoft 365 모범 사례를 제공합니다.
 
 ## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>IP 및 도메인의 전송 신뢰도 관리 중입니까?
 
-EOP 필터링 기술은 Microsoft 365뿐만 아니라 Microsoft 365 및 기타 Microsoft 제품에 대한 스팸 방지 보호 기능을 제공하도록 Exchange Server. 또한 SPF, DKIM 및 DMARC를 활용합니다. 전자 메일을 보내는 도메인이 스푸핑 및 피싱 문제를 해결할 수 있도록 하는 전자 메일 인증 기술입니다. EOP 필터링은 보내는 IP, 도메인, 인증, 목록 정확도, 불만 비율, 콘텐츠 등 다양한 요소의 영향을 미치게 됩니다. 이 중 보낸 사람 신뢰도와 전자 메일을 배달할 수 있는 능력의 주된 요인 중 하나는 정크 메일 불만 비율입니다.
+EOP 필터링 기술은 다른 Microsoft 제품(예: Microsoft 365 및 기타 Microsoft 제품)에 대해 스팸 방지 보호 기능을 Exchange Server. 또한 SPF, DKIM 및 DMARC를 활용합니다. 전자 메일을 보내는 도메인이 스푸핑 및 피싱 문제를 해결할 수 있도록 하는 전자 메일 인증 기술입니다. EOP 필터링은 보내는 IP, 도메인, 인증, 목록 정확도, 불만 비율, 콘텐츠 등 다양한 요소의 영향을 미치게 됩니다. 이 중 보낸 사람 신뢰도와 전자 메일을 배달할 수 있는 능력의 주된 요인 중 하나는 정크 메일 불만 비율입니다.
 
 ## <a name="are-you-sending-email-from-new-ip-addresses"></a>새 IP 주소에서 전자 메일을 보내나요?
 
@@ -58,11 +58,11 @@ EOP 필터링 기술은 Microsoft 365뿐만 아니라 Microsoft 365 및 기타 M
 - 10.0.0.0/8(또는 10.0.0.0 - 10.255.255.255)
 - 172.16.0.0/11(또는 172.16.0.0 - 172.31.255.255)
 
-## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Office 365에서 사용자에게 전자 메일을 보낼 때 NDR(배달되지 않은 보고서)을 수신했습니다.
+## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>사용자의 사용자에게 전자 메일을 보낼 때 NDR(배달되지 않은 보고서)을 Office 365
 
 일부 배달 문제는 Microsoft에서 보낸 사람 IP 주소가 차단되거나 사용자 계정이 이전 스팸 활동으로 인해 금지된 보낸 사람으로 식별된 결과입니다. NDR을 오류로 수신했다고 생각되면 먼저 NDR 메시지의 지침을 따라 문제를 해결합니다.
 
-받은 오류에 대한 자세한 내용은 Exchange Online의 전자 메일 배달되지 않은 보고서의 오류 코드 [목록을 참조하세요.](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
+받은 오류에 대한 자세한 내용은 전자 메일 배달되지 않은 보고서의 오류 코드 목록을 [Exchange Online.](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
 
  예를 들어 다음 NDR을 받으면 보내는 IP 주소가 Microsoft에 의해 차단된 것입니다.
 
@@ -82,17 +82,17 @@ EOP에서 IP 주소가 EOP에 의해 스로틀되고 있는 것을 나타내는 
 
 IP 주소에서 의심스러운 활동이 검색되어 추가 평가가 진행되는 동안 일시적으로 제한되어 NDR을 수신했습니다. 평가를 통해 의혹이 제거될 경우 이 제한이 곧 해제됩니다.
 
-## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Microsoft 365에서 보낸 사람으로부터 전자 메일을 받을 수 없습니다.
+## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>I can't receive email from senders in Microsoft 365
 
- 사용자로부터 메시지를 받으기 위해 네트워크에서 EOP가 데이터 센터에서 사용하는 IP 주소로부터의 연결을 허용하는지 확인합니다. 자세한 내용은 [Exchange Online Protection IP 주소 를 참조하세요.](../../enterprise/urls-and-ip-address-ranges.md)
+ 사용자로부터 메시지를 받으기 위해 네트워크에서 EOP가 데이터 센터에서 사용하는 IP 주소로부터의 연결을 허용하는지 확인합니다. 자세한 내용은 IP [주소 Exchange Online Protection 참조하세요.](../../enterprise/urls-and-ip-address-ranges.md)
 
-## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Microsoft 365 사용자에게 대량 전자 메일 보내기 모범 사례
+## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>사용자에 대한 대량 전자 메일 Microsoft 365 모범 사례
 
-Microsoft 365 사용자에게 대량 전자 메일 캠페인을 자주 수행하고 전자 메일이 안전하고 시기 적절한 방식으로 도착하도록 하려는 경우 이 섹션의 팁을 따르세요.
+전자 메일이 안전하고 Microsoft 365 방식으로 도착하는지 확인하려는 경우 이 섹션의 팁을 따르세요.
 
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>보낸 사람 이름에 메시지를 보내는 사람이 반영되도록 합니다.
 
-제목은 메시지의 내용을 간략하게 요약한 것이고 메시지 본문은 제품, 서비스 또는 제품의 대상을 명확하고 간결하게 나타내야 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+제목은 메시지의 내용을 간략하게 요약한 것이고 메시지 본문은 제품, 서비스 또는 제품의 대상을 명확하고 간결하게 나타내야 합니다. 예시:
 
 정확함:
 
@@ -106,7 +106,7 @@ Microsoft 365 사용자에게 대량 전자 메일 캠페인을 자주 수행하
 
 ### <a name="always-include-an-unsubscribe-option-in-campaign-emails"></a>캠페인 전자 메일에 구독 취소 옵션 항상 포함
 
-마케팅 전자 메일( 특히 뉴스레터)에는 항상 향후 전자 메일의 구독을 해지하는 방법이 포함되어야 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+마케팅 전자 메일( 특히 뉴스레터)에는 항상 향후 전자 메일의 구독을 해지하는 방법이 포함되어야 합니다. 예시:
 
  `This email was sent to example@contoso.com by sender@fabrikam.com.`
 
@@ -130,7 +130,7 @@ Microsoft 365 사용자에게 대량 전자 메일 캠페인을 자주 수행하
 
 - 전자 메일 메시지에서 받는 사람이 주소장에 보낸 사람을 추가하게 요청하는 경우 이러한 작업은 배달 보장이 아 없다고 명확하게 설명해야 합니다.
 
-- 메시지 본문에 포함된 리디렉션은 유사하고 일관적일 수 있으며 여러 개가 아니며 다양해야 합니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지에서 멀어진 모든 것입니다. 광고 또는 구독 취소 링크가 많거나 프로필 링크 업데이트가 있는 경우 모두 동일한 도메인을 지정해야 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+- 메시지 본문에 포함된 리디렉션은 유사하고 일관적일 수 있으며 여러 개가 아니며 다양해야 합니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지에서 멀어진 모든 것입니다. 광고 또는 구독 취소 링크가 많거나 프로필 링크 업데이트가 있는 경우 모두 동일한 도메인을 지정해야 합니다. 예:
 
   맞습니다(모든 도메인이 동일).
 

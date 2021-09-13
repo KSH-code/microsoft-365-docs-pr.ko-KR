@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: 네트워크 구성을 구현하기 위한 Microsoft 365 로드맵입니다.
 ms.openlocfilehash: 3fb9c99bd0381730a41bd65012efe5488b85509d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570056"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185939"
 ---
 # <a name="networking-roadmap-for-microsoft-365"></a>네트워크용 네트워킹 로드맵 Microsoft 365
 

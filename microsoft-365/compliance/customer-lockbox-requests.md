@@ -16,13 +16,14 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
+ms.custom: admindeeplinkMAC
 description: 문제가 있는 경우 Microsoft 기술 지원 엔지니어가 데이터에 액세스할 수 있는 방법을 제어할 수 있는 고객 Lockbox 요청에 대해 자세히 알아보습니다.
-ms.openlocfilehash: cb22e34e6bc1d6bb65aceabc874395be83b28724
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 8fae8b83230fb50e956900b8fed737fbb0a6b230
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571414"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184219"
 ---
 # <a name="customer-lockbox-in-office-365"></a>고객 Lockbox의 Office 365
 
@@ -76,9 +77,9 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켜면 됩니다. 
 
 1. 전역 관리자 또는 **Customer Lockbox** 액세스 승인자 역할이 할당된 직장 또는 학교 계정을 사용하여 이동하여 [https://admin.microsoft.com](https://admin.microsoft.com) 로그인합니다.
 
-2. 에서 **설정 > 를 설정.**
+2. 보안 **설정** 보안 설정 개인 &  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**를 선택 합니다.**</a>
 
-3. 보안 **& 개인** 정보 보호 고객 Lockbox 편집 을 선택한 다음 토글을 켜기 또는 끄기로 이동하여 기능을  >    >  켜거나 끄습니다.  
+3. 고객 **Lockbox** 편집 을 선택한 다음 토글을 켜기 또는 끄기로 이동하여 기능을  >  켜거나  끄습니다. 
 
     ![Customer Lockbox에 대한 승인이 필요합니다.](../media/CustomerLockbox4.png)
 
@@ -113,7 +114,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켜면 됩니다. 
 
 감사 로그를 사용하여 고객 Lockbox에 대한 요청을 추적하려면 먼저 감사 로깅을 설정하기 위해 몇 가지 단계를 따라야 합니다. 자세한 내용은 보안 및 준수 [센터에서 감사 & 검색을 참조하세요.](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin) 설치를 완료한 후 다음 단계를 사용하여 고객 Lockbox와 관련된 감사 레코드를 반환하는 감사 로그 검색 쿼리를 만들 수 있습니다.
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. 보안 및 [준수로 &.](https://protection.office.com)
   
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
@@ -220,7 +221,7 @@ Office 365 고객 콘텐츠에 대한 자세한 내용은 Office 365 [를 참조
 
 #### <a name="how-do-i-opt-in-to-customer-lockbox"></a>고객 Lockbox에 옵트인(opt in)하는 방법
 
-전역 관리자는 사용자 계정 또는 서비스에서 고객 Lockbox를 Microsoft 365 구성할 Microsoft 365 관리 센터.
+전역 관리자는 에서 고객 Lockbox를 사용하도록 설정하고 구성할 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a>
 
 #### <a name="if-i-approve-a-customer-lockbox-request-what-can-the-engineer-do-and-how-will-i-know-what-the-microsoft-engineer-did"></a>고객 Lockbox 요청을 승인하는 경우 엔지니어가 할 수 있는 일과 Microsoft 엔지니어가 어떤 작업을 했는가?
 
@@ -228,7 +229,7 @@ Office 365 고객 콘텐츠에 대한 자세한 내용은 Office 365 [를 참조
 
 #### <a name="how-do-i-know-that-microsoft-follows-the-approval-process"></a>Microsoft가 승인 프로세스를 따르는지 어떻게 알 수 있나요?
 
-조직의 관리자 및 승인자에 전송된 전자 메일 승인 알림을 조직 내 고객 Lockbox 요청 기록과 상호 Microsoft 365 관리 센터.
+조직의 관리자 및 승인자에 전송된 전자 메일 승인 알림을 조직 내 고객 Lockbox 요청 기록과 상호 참조할 [Microsoft 365 관리 센터.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
 
 Customer Lockbox는 최신 [SOC 1 SSAE 16 감사 보고서에 포함되어 있습니다.](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=91592749-e86a-43ac-801e-121382614681&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC%20%2F%20SSAE%2016%20Reports) 자세한 내용은 Microsoft Service Trust Portal 에서 최신 [보고서를 찾을 수 있습니다.](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=91592749-e86a-43ac-801e-121382614681&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC%20%2F%20SSAE%2016%20Reports)
 
@@ -246,7 +247,7 @@ Customer Lockbox는 최신 [SOC 1 SSAE 16 감사 보고서에 포함되어 있�
 
 #### <a name="how-can-i-get-a-history-of-all-customer-lockbox-requests"></a>모든 고객 Lockbox 요청에 대한 기록을 얻은 방법
 
-모든 고객 Lockbox 요청은 서비스 Microsoft 365 관리 센터.
+모든 고객 Lockbox 요청은 에서 [Microsoft 365 관리 센터.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
 
 #### <a name="how-do-i-correlate-the-content-access-requests-with-the-related-audit-logs"></a>콘텐츠 액세스 요청과 관련 감사 로그의 상관 관계는 어떻게 하나요?
 

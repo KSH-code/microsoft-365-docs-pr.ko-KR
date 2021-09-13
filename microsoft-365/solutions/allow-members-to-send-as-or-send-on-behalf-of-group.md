@@ -19,11 +19,11 @@ ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 recommendations: false
 description: 그룹 구성원이 전자 메일을 그룹으로 보내거나 Microsoft 365 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용하는 Microsoft 365 있습니다.
 ms.openlocfilehash: f2147e49c66e4ad8b4504c00cbd7902dd482cdfc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568027"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187284"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹으로 보내거나 그룹을 대신하여 보내기 허용
 

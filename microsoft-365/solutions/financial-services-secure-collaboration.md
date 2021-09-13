@@ -13,11 +13,11 @@ localization_priority: Priority
 description: 재무 서비스 기관에서 Microsoft 365와 Teams를 사용하여 재무 보안 규정 준수를 유지하고 효과적으로 공동 작업하는 방법을 알아봅니다.
 f1.keywords: NOCSH
 ms.openlocfilehash: 0e3fada6a74776e4edf2c8c41ef9026ce17871ad
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568003"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189029"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 

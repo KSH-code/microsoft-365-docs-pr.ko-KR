@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함은 여러 사용자가 동일한 사서함에 액세스해야 하는 경우 사용됩니다. 공유 사서함을 만들기 전에 알아야 할 내용을 알아보세요.
-ms.openlocfilehash: cdbe76fa5a0daee9d469e76ebc695d61dd52584186e0c56c6ee285d427fcbe3e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: dcc5b70d28fb91b2526aeea6638d495ed8bdf8e6
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832886"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184787"
 ---
 # <a name="about-shared-mailboxes"></a>공유 사서함 정보
 
@@ -64,7 +64,7 @@ ms.locfileid: "53832886"
 
 
 > [!NOTE]
-> 공유 사서함에 액세스하려면 사용자에게 Exchange Online 라이선스가 있어야 하지만 공유 사서함에는 별도의 라이선스가 필요하지 않습니다. 모든 공유 사서함에는 해당하는 사용자 계정이 있습니다. 공유 사서함을 만들 때 암호를 입력하라는 메시지가 표시되지 않으면 어떻게 하나요? 계정에 암호가 있지만 시스템이 생성(알 수 없음)한 것입니다. 계정을 사용하여 공유 사서함에 로그인하면 안 됩니다. 라이선스가 없는 공유 사서함은 50GB로 제한됩니다. 크기 제한을 100GB로 늘리려면 공유 사서함을 Exchange Online Archiving 추가 기능 라이선스를 포함하는 Exchange Online 계획 2 라이선스 또는 Exchange Online 계획 1 라이선스에 할당해야 합니다. 이렇게 하면 보관 저장소 용량을 무제한으로 자동 확장할 수 있습니다. 마찬가지로, 공유 사서함을 소송 보존에 추가하려면 공유 사서함에 Exchange Online 플랜 2 라이선스 또는 Exchange Online Archiving 추가 기능 라이선스가 있는 Exchange Online 플랜 1 라이선스가 있어야 합니다. Microsoft Defender for Office 365, Advanced eDiscovery 또는 자동 보존 정책과 같은 고급 기능을 적용하려면 해당 기능에 대해 공유 사서함의 사용이 허가되어야 합니다.
+> 공유 사서함에 액세스하려면 사용자에게 Exchange Online 라이선스가 있어야 하지만 공유 사서함에는 별도의 라이선스가 필요하지 않습니다. 모든 공유 사서함에는 해당하는 사용자 계정이 있습니다. 공유 사서함을 만들 때 암호를 입력하라는 메시지가 표시되지 않으면 어떻게 하나요? 계정에 암호가 있지만 시스템이 생성(알 수 없음)한 것입니다. 계정을 사용하여 공유 사서함에 로그인하면 안 됩니다. 라이선스가 없는 공유 사서함은 50GB로 제한됩니다. 크기 제한을 100GB로 늘리려면 공유 사서함에 Exchange Online 계획 2 라이선스가 할당되어야 합니다. 추가 Exchange Online 라이선스가 있는 Exchange Online Archiving 계획 1 라이선스는 보관 사서함의 크기만 증가합니다. 이렇게 하면 보관 저장소 용량을 무제한으로 자동 확장할 수 있습니다. 마찬가지로, 공유 사서함을 소송 보존에 추가하려면 공유 사서함에 Exchange Online 플랜 2 라이선스 또는 Exchange Online Archiving 추가 기능 라이선스가 있는 Exchange Online 플랜 1 라이선스가 있어야 합니다. Microsoft Defender for Office 365, Advanced eDiscovery 또는 자동 보존 정책과 같은 고급 기능을 적용하려면 해당 기능에 대해 공유 사서함의 사용이 허가되어야 합니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

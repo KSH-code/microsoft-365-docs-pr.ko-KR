@@ -26,11 +26,11 @@ search.appverid:
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: 앱 관리 정책을 생성, 편집 또는 삭제하고 Android 또는 iOS 디바이스에서 작업 파일을 보호하는 방법을 학습합니다.
 ms.openlocfilehash: 1ab7c57e1a9da1a68c07535c2550f0762f7c8141
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564408"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184916"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 설정하기
 
@@ -38,7 +38,7 @@ ms.locfileid: "58564408"
 
 ## <a name="create-an-app-management-policy"></a>앱 관리 정책 만들기
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 
     
 2. 왼쪽 nav에서 장치  정책 \> **추가 를** \> **선택 합니다.**
   

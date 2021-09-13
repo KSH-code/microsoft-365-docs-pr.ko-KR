@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 description: DataParser 커넥터에서 17a-4 FX 커넥트 설정하고 사용하여 FX 데이터 가져오기 및 보관을 커넥트 방법을 Microsoft 365.
 ms.openlocfilehash: 91975cb8d0d3dc8d0b1a0baf5a6851f1b2bcea4b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574883"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186299"
 ---
 # <a name="set-up-a-connector-to-archive-data-from-fx-connect"></a>FX 서버의 데이터를 보관할 커넥터 커넥트
 

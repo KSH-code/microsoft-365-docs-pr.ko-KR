@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 법적 보유 알림의 Advanced eDiscovery 추적하고 필요한 경우 업데이트하고 다시 전송할 수 있습니다.
-ms.openlocfilehash: 88dd3ef8e74dd67b196f574b1cfe8ba5c33a1a63afeac8701f19e36476e56767
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8852bfd1651e1855d276b60ba6fac35c378d4631
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842137"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186155"
 ---
 # <a name="manage-hold-notifications"></a>보류 알림 관리
 

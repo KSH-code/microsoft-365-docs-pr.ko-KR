@@ -17,13 +17,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkMAC
 description: 레거시 파일을 조직의 OME(Office 365 메시지 암호화)로 전환하는 방법을 이해합니다.
-ms.openlocfilehash: 324447fe09280cef52c607613f5db8fb61b4a0b2
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: a8f165aa9fde70cfc448e999dbc7abc8818e8cd5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569792"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188100"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Office 365 메시지 암호화 레거시 정보
 
@@ -69,7 +70,7 @@ Office 365 메시지 암호화 Azure RMS(권한 관리)를 Microsoft Azure 온�
 
 2. 관리 **타일을** 선택하세요.
 
-3. In the Microsoft 365 관리 센터, choose **Admin centers** \> **Exchange.**
+3. In the [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339), choose **Admin centers** \> **Exchange.**
 
 4. EAC에서 메일 흐름 **규칙으로** \> **이동하고** 새 새 **아이콘을** ![ 선택합니다.](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \>**새 규칙을 만드시다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 
@@ -125,7 +126,7 @@ Office 365 메시지 암호화 Azure RMS(권한 관리)를 Microsoft Azure 온�
 
 2. 관리 **타일을** 선택하세요.
 
-3. In the Microsoft 365 관리 센터, choose **Admin centers** \> **Exchange.**
+3. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>, choose **Admin centers** \> **Exchange.**
 
 4. EAC에서 메일 흐름 **규칙으로** \> **이동하고** 새 새 **아이콘을** ![ 선택합니다.](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \>**새 규칙을 만드시다.** EAC 사용에 대한 자세한 내용은 에서 Exchange [관리 센터를 Exchange Online.](/exchange/exchange-admin-center)
 

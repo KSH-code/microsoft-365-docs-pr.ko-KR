@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 description: 이 문서에서는 사례를 만들고 관리하는 방법을 Advanced eDiscovery 있습니다. 첫 번째 단계에서는 사례를 만들고 Advanced eDiscovery 기능을 사용하게 합니다.
 ms.openlocfilehash: 69d2f22a3792f2217ea8ef58ae9771dd4a10f32d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573250"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189812"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>사례 만들기 및 Advanced eDiscovery 관리
 

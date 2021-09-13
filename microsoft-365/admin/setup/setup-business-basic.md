@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 Business Basic 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 07e2aae24b74f12925d94eb1bd2104654cd89fb00e418a943da990c15c6b0445
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f7569645753f292760f32ba932aac7b83c602b72
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821522"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184380"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Microsoft 365 Business Basic 설정
 

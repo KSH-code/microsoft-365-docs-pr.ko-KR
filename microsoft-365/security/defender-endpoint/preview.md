@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ed7926c0fbb9e0eb10f7826e66ca5b96691e8e318e17f2b5d53a0cae8ba6d4a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3049d77ef7f934a254da54a63560e33fe2603e3b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867898"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187428"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>끝점 미리 보기 기능용 Microsoft Defender
 
@@ -64,18 +64,6 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 1. 탐색 창에서 **끝점 설정** 기능 미리 보기  >    >  **기능을**  >  **선택합니다.**
 
 2. 설정 및 해제  간에 설정을 **전환하고** 기본 설정 **저장을 선택합니다.**
-
-## <a name="preview-features"></a>미리 보기 기능
-
-미리 보기 릴리스에는 다음과 같은 기능이 포함되어 있습니다.
-
-- [웹 콘텐츠 필터링](web-content-filtering.md)
-
-  웹 콘텐츠 필터링은 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
-
-- [디바이스 상태 및 규정 준수 보고서](machine-reports.md)
-
-  장치 상태 및 준수 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다.
 
 > [!TIP]
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-preview-belowfoldlink)  

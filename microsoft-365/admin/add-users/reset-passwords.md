@@ -28,12 +28,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 비즈니스용 Microsoft 365 사용자에 대한 암호를 다시 설정하려면 Microsoft 365 계정으로 로그인합니다.
-ms.openlocfilehash: e01e4582398fa2226aed3288dc45c0c37b0ff72f18dd289c1008b91af0bfcd8a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 64382d94ae92373d8d814eae0e9f6aa7c6e0043b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827398"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185172"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -51,7 +51,7 @@ ms.locfileid: "53827398"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>단계: 사용자의 비즈니스 암호 다시 설정
 

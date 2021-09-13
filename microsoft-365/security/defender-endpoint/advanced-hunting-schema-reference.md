@@ -18,11 +18,11 @@ ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
 ms.openlocfilehash: 7795f4d7f02a9b60e0bbd58fb97608733385dc9c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563585"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187644"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 고급 헌팅 스마 이해
 
@@ -74,9 +74,9 @@ ms.locfileid: "58563585"
 |**[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)**|로그인 및 기타 인증 이벤트|
 |**[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)**|DLL 로딩 이벤트|
 |**[DeviceEvents](advanced-hunting-deviceevents-table.md)**|보안 제어에 의해 트리거되는 이벤트(예: Microsoft Defender 바이러스 백신 및 악용 방지 포함)|
-|**[DeviceFileCertificateInfo](advanced-hunting-devicefilecertificateinfo-table.md)**|끝점의 인증서 확인 이벤트에서 얻은 서명된 파일의 인증서 정보|
+|**[DeviceFileCertificateInfo](advanced-hunting-devicefilecertificateinfo-table.md)**|엔드포인트의 인증서 확인 이벤트에서 얻은 서명된 파일의 인증서 정보|
 |**[DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md)**|버전 정보 및 지원 종료 상태를 포함하여 장치에 설치된 소프트웨어 인벤토리|
-|**[DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md)**|장치에서 발견되는 소프트웨어 취약성 및 각 취약점을 해결하기 위한 사용 가능한 보안 업데이트 목록|
+|**[DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md)**|장치에서 발견되는 소프트웨어 취약점 및 각 취약점을 해결하기 위한 사용 가능한 보안 업데이트 목록|
 |**[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md)**|익스플로잇 코드를 공개적으로 사용할 수 있는지를 포함하여 공개적으로 보고된 취약성에 대한 기술 자료|
 |**[DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md)**|장치에서 다양한 보안 구성의 상태를 나타내는 위협 및 취약성 관리 평가 이벤트|
 |**[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)**|위협 및 취약성 관리에서 장치를 평가하기 위해 사용하는 다양한 보안 구성에 대한 기술 자료. 다양한 표준과 벤치 마크에 대한 매핑 포함|

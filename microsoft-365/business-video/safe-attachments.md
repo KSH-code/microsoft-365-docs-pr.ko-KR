@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 안전한 첨부 파일을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 6bcb0bf316da4496dda3baca94cea4249b73dd6c0b5745490fbe26f632e98271
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9afbdef2c7b400cf0bee5ae1e1ac3a9de6588cb8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887734"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190469"
 ---
 # <a name="manage-safe-attachments"></a>안전한 첨부 파일 관리
 

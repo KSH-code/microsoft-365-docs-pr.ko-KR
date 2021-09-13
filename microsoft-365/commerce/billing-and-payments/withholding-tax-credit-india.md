@@ -22,11 +22,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 monikerRange: o365-worldwide
 ms.date: 05/03/2021
 ms.openlocfilehash: 1856f9b7d56f39dbc4326c9175c2e70fc8c7c0c7
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58823699"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190399"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-india-customers"></a>계정의 원주세에 대한 크레딧 요청(인도 고객)
 

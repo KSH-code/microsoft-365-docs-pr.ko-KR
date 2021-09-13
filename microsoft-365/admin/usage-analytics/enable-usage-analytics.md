@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 테넌트에 대한 데이터 수집을 시작하는 방법을 Power BI.
 ms.openlocfilehash: a05ea19915af96720c3aeaf4a4d01fbe879fbc27
-ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58884663"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188931"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -100,7 +100,7 @@ Microsoft 365 US 정부 커뮤니티 클라우드(GCC) 테넌트에서 Microsoft
 
 2. **보고서** 를 선택합니다. 
   
-3. 모든 보고서에서 **사용자,** 그룹 및 사이트에 대해 식별되지 않은 이름을 표시하고 변경 내용을 저장합니다.  
+3. **모든 보고서에서 사용자, 그룹 및 사이트의 비식별화된 이름 표시** 를 선택 취소한 다음 변경 내용을 저장합니다.  
   
 이러한 변경 내용을 적용하는 데 몇 분 정도 걸립니다. 식별 가능한 사용자 정보를 표시하는 것은 Microsoft 365 규정 준수 센터 감사 로그에 기록된 이벤트입니다.   
 

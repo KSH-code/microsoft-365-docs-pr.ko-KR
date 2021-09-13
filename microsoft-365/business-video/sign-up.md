@@ -15,17 +15,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium 등록하는 방법을 Microsoft 365.
-ms.openlocfilehash: c0ff8a92e240c7b00b505fcd6acacff9c802c81ab7a3ee1be9ed62b9bd2e4a12
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 339c0571d1deec988ad706db3aadcd1ca7cc679a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53803533"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188812"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium-subscription"></a>Microsoft 365 Business Premium 등록
 
@@ -47,4 +48,4 @@ ms.locfileid: "53803533"
 8. 사용자 수를 입력하고 청구 요금제, 다음을 **선택합니다.**
 9.  회사 주소와&#39;다음 을 **입력합니다.**
 10. 신용 카드 정보를 입력한 다음 **주문을 입력합니다.** 잠시 후 계정이 만들어집니다.
-11. 이 시점에서 계정  설정 계속을 선택하거나 계정 설정에 로그인하여 나중에 Microsoft 365 관리 센터 수 있습니다.
+11. 이 시점에서 계정  설정 계속을 선택하거나 계정 설정에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">로그인하여</a> 나중에 Microsoft 365 관리 센터 수 있습니다.

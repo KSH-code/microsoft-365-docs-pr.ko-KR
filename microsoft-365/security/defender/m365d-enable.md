@@ -21,11 +21,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 9585547ea926dbee09aacada05f24e9217c07923
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58563817"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189219"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender 켜기
 
@@ -43,7 +43,7 @@ Microsoft 365 Defender 권한이 있는 적격 고객이 포털을 방문하면 
 
 일반적으로 보안 Microsoft 365 라이선스를 사용하면 추가 라이선스 비용 없이 Microsoft 365 Defender 사용할 수 있습니다. 지원되는 모든 서비스에 대한 액세스를 Microsoft 365 E5, E5 보안, A5 또는 A5 보안 라이선스 또는 유효한 라이선스 조합을 구입하는 것이 좋습니다.
 
-라이선스에 대한 자세한 내용은 라이선스 [요구 사항을 참조하세요.](prerequisites.md#licensing-requirements)
+자세한 라이선스 정보는 [라이선스 요구 사항을 읽으세요](prerequisites.md#licensing-requirements).
 
 ### <a name="check-your-role"></a>역할 확인
 
@@ -51,7 +51,7 @@ Microsoft 365 Defender 권한이 있는 적격 고객이 포털을 방문하면 
 
 ## <a name="supported-services"></a>지원되는 서비스
 
-Microsoft 365 Defender 이미 배포한 다양한 지원 서비스의 데이터를 집계합니다. 새 인사이트를 식별하고 중앙 집중식 응답 워크플로를 사용할 수 있도록 데이터를 중앙에서 처리 및 저장합니다. 이 작업에서는 통합 서비스와 연결된 기존 배포, 설정 또는 데이터에 영향을 주지 않습니다.
+Microsoft 365 Defender는 이미 배포한 지원되는 다양한 서비스의 데이터를 집계합니다. 데이터를 중앙에서 처리하고 저장하여 새 인사이트를 식별하고 중앙 집중식 응답 워크플로를 가능하게 만듭니다. 통합 서비스와 연결된 기존 배포, 설정 또는 데이터에 영향을 주지 않고 이 작업을 수행합니다.
 
 최상의 보호를 적용하고 최적화하기 Microsoft 365 Defender 지원되는 모든 서비스를 네트워크에 배포하는 것이 좋습니다. 자세한 내용은 [지원되는 서비스 배포를 참조하십시오.](deploy-supported-services.md)
 

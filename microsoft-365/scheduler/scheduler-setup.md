@@ -9,11 +9,11 @@ ms.service: scheduler
 localization_priority: Normal
 description: 사용자에 대한 스케줄러 Microsoft 365.
 ms.openlocfilehash: 08083937255d9af3499016a32959e2690a222919
-ms.sourcegitcommit: 59bda7cfd92ef1b0e97858da51a776ec668bcfe0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58884699"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187691"
 ---
 # <a name="setting-up-scheduler-for-microsoft-365"></a>Microsoft 365용 스케줄러 설정
 

@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 커넥터를 설정하여 Veritas에서 Jive 데이터를 가져오고 보관할 수 Microsoft 365. 이 커넥터를 사용하면 법적 보존Microsoft 365 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있도록 타사 데이터를 보관할 수 있습니다.
 ms.openlocfilehash: b2842d3d9dff71292b5ff47e62b1915850106e42
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571510"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188299"
 ---
 # <a name="set-up-a-connector-to-archive-jive-data"></a>Jive 데이터를 보관할 커넥터 설정
 

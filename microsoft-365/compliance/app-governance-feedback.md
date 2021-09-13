@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 거버넌스에 대한 피드백을 보내는 방법입니다.
-ms.openlocfilehash: 8ea251f8101d0b4f5f05ca7c9e7279f73cc318ff57dfe69e24f1b55ccb692a78
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7009628d132df02f7f4e34bf3f097fe4ef700a07
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53842618"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190052"
 ---
 # <a name="how-to-submit-feedback-on-app-governance"></a>앱 거버넌스에 대한 피드백을 제출하는 방법 
 

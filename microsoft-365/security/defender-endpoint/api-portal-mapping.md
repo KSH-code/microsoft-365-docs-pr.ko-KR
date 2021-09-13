@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.openlocfilehash: 3f3eef756d37bf1552120a05e351c844b37b863b
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58506541"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185932"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>끝점 검색 API 필드에 대한 Microsoft Defender
 
@@ -65,7 +65,7 @@ ArcSight 필드 열에는 끝점용 Defender 필드와 ArcSight의 기본 제공
 > |10 |Sha1|fileHash|3da065e07b990034e9db7842167f70b63aa5329|파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.|
 > |11 |Sha256|deviceCustomString6|ebf54f745dc81e1958f75e4ca91dd0ab989fc9787bb6b0bf993e2f5|Microsoft Defender AV 감지에 사용할 수 있습니다.|
 > |12 |Md5|deviceCustomString5|db979c04a99b96d370988325bb5a8b21|Microsoft Defender AV 감지에 사용할 수 있습니다.|
-> |13 |ThreatName|deviceCustomString1|HackTool:Win32/Mikatz!dha|Microsoft Defender AV 감지에 사용할 수 있습니다.|
+> |13|ThreatName|deviceCustomString1|HackTool:Win32/Mikatz!dha|Microsoft Defender AV 감지에 사용할 수 있습니다.|
 > |14 |IpAddress|sourceAddress|218.90.204.141|네트워크 이벤트와 관련된 검색에 사용할 수 있습니다. 예를 들어 '악성 네트워크 대상에 대한 통신'을 들 수 있습니다.|
 > |15 |Url|requestUrl|down.esales360.cn|네트워크 이벤트와 관련된 검색에 사용할 수 있습니다. 예를 들어 '악성 네트워크 대상에 대한 통신'을 들 수 있습니다.|
 > |16 |RemediationIsSuccess|deviceCustomNumber2|TRUE|Microsoft Defender AV 감지에 사용할 수 있습니다. ArcSight 값은 TRUE이면 1, FALSE이면 0입니다.|

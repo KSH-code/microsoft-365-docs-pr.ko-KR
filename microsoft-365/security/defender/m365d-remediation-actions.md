@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 7f34f40d5d0078c1dc0b49e2f73b5c692c6a4b315058f5d8f7c097dce6b237cb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c8d3838194c25ba49b2611dc355b21e228291b01
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53902190"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189209"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>2016년 8월 Microsoft 365 Defender
 
@@ -63,7 +63,7 @@ ms.locfileid: "53902190"
 | 악성    | 장치 (끝점)    | 재구성 작업이 자동으로 수행됩니다(조직의 장치 그룹이 전체 - 자동으로 위협 수정으로 설정되어 있는 **경우)** [](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups)|
 | 악성    | 전자 메일 콘텐츠 (Url 또는 첨부 파일) | 승인 보류 중인 재구성 활동 |
 | 피싱    | 장치 또는 전자 메일 콘텐츠 | 승인 보류 중인 재구성 활동 |
-| 위협을 찾을 수 없음    | 장치 또는 전자 메일 콘텐츠    | 재구성 작업이 필요 하지 않습니다.|
+| 위협이 발견되지 않음    | 장치 또는 전자 메일 콘텐츠    | 재구성 작업이 필요 하지 않습니다.|
 
 
 ## <a name="remediation-actions-that-are-taken-manually"></a>수동으로 수행한 수정 작업

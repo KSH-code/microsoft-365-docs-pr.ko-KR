@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: a9dc5b908534cf791d8538069a8d8db9f10e0e48
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684247"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185780"
 ---
 # <a name="get-user-related-alerts-api"></a>사용자 관련 알림 API를 얻습니다.
 

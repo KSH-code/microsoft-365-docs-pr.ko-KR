@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 82c2c30ffd09d04aae6dbba66b0efa6bcde9cbf353da632b74843ac45c74af1c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3e8bf320bd25dacb3312605d5bc6428ad15210fb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838898"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192462"
 ---
 # <a name="step-1-plan-for-microsoft-365-defender-operations-readiness"></a>1단계. Microsoft 365 Defender 작업 준비 계획
 

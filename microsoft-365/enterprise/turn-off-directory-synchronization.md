@@ -22,11 +22,11 @@ search.appverid:
 ms.assetid: ee5f861e-bd48-4267-83d1-a4ead4b4a00d
 description: 이 문서에서는 PowerShell을 사용하여 사용자에 대한 디렉터리 동기화를 해제하는 Microsoft 365.
 ms.openlocfilehash: 28e0a83bba1a63a7cd1d2f449b9bf3ba34e4862a
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354203"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187827"
 ---
 # <a name="turn-off-directory-synchronization-for-microsoft-365"></a>사용자에 대한 디렉터리 동기화를 Microsoft 365
 PowerShell을 사용하여 디렉터리 동기화를 해제하고 동기화된 사용자를 클라우드 전용으로 변환할 수 있습니다. 그러나 디렉터리 동기화를 문제 해결 단계로 해제하지 않는 것이 좋습니다. 디렉터리 동기화 문제 해결에 대한 도움이 필요한 경우 디렉터리 동기화 문제 해결 문서를 [Microsoft 365](fix-problems-with-directory-synchronization.md) 참조하세요. 

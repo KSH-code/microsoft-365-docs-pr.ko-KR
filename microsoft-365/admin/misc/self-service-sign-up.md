@@ -21,11 +21,11 @@ search.appverid: MET150
 description: Power Apps Microsoft Microsoft 365, Microsoft Power Automate 및 Dynamics 365 for Finance와 같은 셀프 서비스 등록 및 사용 가능한 셀프 서비스 프로그램에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
 ms.openlocfilehash: 7c4986beb1c920865cee28f2729859e426944f3f
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532790"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186955"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 

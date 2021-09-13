@@ -30,11 +30,11 @@ search.appverid:
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: Gmail 또는 다른 전자 메일 공급자에서 연락처, 일정 및 전자 메일을 가져와서 전자 메일로 마이그레이션하는 Microsoft 365.
 ms.openlocfilehash: adf36aea78019a98f8b5b49e316eeb64b3f05cbc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58556471"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186684"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 

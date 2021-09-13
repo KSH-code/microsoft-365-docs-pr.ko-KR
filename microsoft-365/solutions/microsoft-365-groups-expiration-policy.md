@@ -18,11 +18,11 @@ search.appverid:
 recommendations: false
 description: 그룹 Microsoft 365 정책에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 4617124801ed0400481bd81a453c6520a0c8d73a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574487"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59214112"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 만료 정책
 

@@ -22,11 +22,11 @@ search.appverid:
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직에서 통신 및 공동 작업을 위해 Microsoft 365 채택하는 방법에 대한 개요를 얻습니다.
 ms.openlocfilehash: c2c81f1be38e0fe203b270eb132bff52be4482a7
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58256265"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186515"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 

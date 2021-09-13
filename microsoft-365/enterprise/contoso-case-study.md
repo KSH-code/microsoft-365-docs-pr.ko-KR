@@ -15,11 +15,11 @@ ms.collection:
 ms.custom: ''
 description: 대표적인 대표적 글로벌 조직이 기업을 위해 Microsoft 365 방법
 ms.openlocfilehash: 90d8e0c9d0cd81d415fc8ca9751b0cecd4331623
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354335"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189679"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 Contoso Corporation의 엔터프라이즈용 사이트
 

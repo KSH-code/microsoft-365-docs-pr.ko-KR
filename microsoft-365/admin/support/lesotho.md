@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da5a98342fedf780f4897d0eb1b731c41faf87e9b820b5ced0347e3ab0757b43
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3749b51a25570045fe381db6d9136fa0e8d1b2fa
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838166"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190622"
 ---
 # <a name="contact-support-for-lesotho"></a>Lesotho 지원에 문의
 

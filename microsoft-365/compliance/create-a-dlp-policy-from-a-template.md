@@ -20,11 +20,11 @@ ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 이 문서에 포함된 템플릿 중 하나를 사용하여 DLP 정책을 만드는 방법을 Office 365.
 ms.openlocfilehash: 1fe14035f23443a8f8f35b5c9ac9edf69bf60ffd
-ms.sourcegitcommit: 2048c9399a654175438d47e0c3aa2574b949bdc0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58923933"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189869"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 

@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 970c3d35c89c4ba3debf6451641eb2b6edcef596570e97931ff005a0d6dbc9ab
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: df2db6704d1cbeebc5d4a90b2e4df318a9c04e53
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906498"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188467"
 ---
 # <a name="payment-information-for-ecuador"></a>에쿠아도르의 결제 정보
 

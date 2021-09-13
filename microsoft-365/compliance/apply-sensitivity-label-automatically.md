@@ -12,16 +12,17 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 ms.topic: article
+ms.custom: admindeeplinkMAC
 search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: ceea450ca55e46a5a106a5d9fd3ce9420b674d36
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.openlocfilehash: f3556096b77e775e783cd8d949e1ed5dc2c25024
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863908"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186339"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -123,7 +124,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트는 기본 �
 
 ![파일 및 전자 메일의 민감도 레이블 범위 옵션](../media/filesandemails-scope-options-sensitivity-label.png)
 
-마법사를 거쳐 이동하면서 중요한 정보 유형 또는 교육 가능한 분류자 목록에서 사용자가 선택할 수 있는 **파일 및 전자 메일의 자동 레이블 지정** 페이지를 볼 수 있습니다.
+구성을 거쳐 이동하면서 중요한 정보 유형 또는 교육 가능한 분류자 목록에서 사용자가 선택할 수 있는 **파일 및 전자 메일의 자동 레이블 지정** 페이지를 볼 수 있습니다.
 
 ![Office 앱의 자동 레이블 지정에 대한 레이블 조건](../media/sensitivity-labels-conditions.png)
 
@@ -247,7 +248,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 ### <a name="creating-an-auto-labeling-policy"></a>자동 레이블 지정 정책 만들기
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 민감도 레이블로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 민감도 레이블로 이동합니다.
 
     - **솔루션** > **정보 보호**
 
@@ -260,9 +261,9 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     > [!NOTE]
     > **자동 레이블** 탭이 보이지 않으면 현재 해당 지역에서 이 기능을 사용할 수 없습니다.
 
-3. **+ 자동 레이블 지정 정책 만들기** 를 선택합니다. 이를 통해 새 정책 마법사가 시작됩니다.
+3. **+ 자동 레이블 지정 정책 만들기** 를 선택합니다. 그러면 새 정책 구성이 시작됩니다.
 
-    ![자동 레이블 지정에 대한 새 정책 마법사](../media/auto-labeling-wizard.png)
+    ![자동 레이블 지정에 대한 새 정책 구성입니다.](../media/auto-labeling-wizard.png)
 
 4. **이 레이블을 적용할 정보 선택** 페이지에서 **재무** 또는 **개인 정보 보호** 와 같은 템플릿 중 하나를 선택합니다. **표시 옵션** 드롭 다운을 사용하여 검색을 구체화할 수 있습니다. 또는 템플릿이 요구 사항을 충족하지 않으면 **사용자 지정 정책** 을 선택합니다. **다음** 을 선택합니다.
 
@@ -270,13 +271,20 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 6. **레이블을 적용할 위치 선택** 페이지에서 Exchange, SharePoint 사이트 및 OneDrive의 위치를 선택하고 지정합니다. 선택한 위치에 대한 기본값 **모두** 를 유지하지 않으려면 링크를 선택하여 특정 인스턴스를 선택합니다. 그런 후 **다음** 을 선택합니다.
 
-    ![위치 선택 페이지 자동 레이블 지정 마법사](../media/locations-auto-labeling-wizard.png)
+    ![자동 레이블 지정 구성을 위한 위치 페이지를 선택합니다.](../media/locations-auto-labeling-wizard.png)
     
     개별 OneDrive 계정을 지정하려는 경우 사용자 OneDrive의 URL은 보통 다음 형식을 따릅니다. UPN(사용자 계정 이름)의 경우 마침표, 쉼표, 공간, 골뱅이(“@”) 등 특수 문자는 밑줄(“_”)로 변환됩니다. `https://<tenant name>-my.sharepoint.com/personal/<user principal name>`
     
-    예를 들어 UPN이 “rsimone@contoso.onmicrosoft.com”인 Contoso 테넌트 사용자의 경우, `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`(으)로 변환됩니다. 그러나 충돌이 감지되면 숫자 또는 GUID를 추가할 수 있습니다.
+    예를 들어 UPN이 “rsimone@contoso.onmicrosoft.com”인 Contoso 테넌트 사용자의 경우, `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`(으)로 변환됩니다.
     
-    항상 사용자의 OneDrive 계정 URL을 확인하는 것이 좋습니다. 이 작업은 Microsoft 365 관리 센터 또는 PowerShell에서 가능합니다. 자세한 내용은 [조직의 모든 사용자 OneDrive URL 목록 확인](/onedrive/list-onedrive-urls)을 참조하세요.
+    또는 UPN이 "rsimone@contoso.com"이 되도록 사용자 지정 도메인 이름을 사용하는 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_com`
+    
+    그러나 충돌이 감지되면 URL에 숫자 또는 GUID를 추가할 수 있으므로 항상 OneDrive 계정에 대한 사용자의 URL을 확인하는 것이 가장 좋습니다. URL을 확인하려면 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다. 자세한 내용은 [조직의 모든 사용자 OneDrive URL 목록 확인](/onedrive/list-onedrive-urls)을 참조하세요.
+    
+    > [!NOTE]
+    > 개별 OneDrive 계정을 지정할 때 OneDrive 계정이 [사전 프로비전](/onedrive/pre-provision-accounts)되어 있지 않으면 사용자가 OneDrive에 처음 액세스할 때까지 URL이 생성되지 않는다는 점에 유의하세요.
+    > 
+    > 또한 사용자의 UPN이 변경되면 OneDrive URL이 [자동적으로 변경](/onedrive/upn-changes)됩니다. 예를 들어, 이름 변경 이벤트(예: 결혼)입니다. 또는 조직의 이름 바꾸기 또는 비즈니스 재구성을 지원하기 위해 도메인 이름을 변경합니다. UPN이 변경되면 여기에서 지정한 OneDrive URL을 업데이트해야 합니다.
 
 7. **일반 또는 고급 규칙 설정** 페이지의 경우: 선택한 모든 위치에서 레이블을 지정할 콘텐츠를 식별하는 규칙을 정의하기 위해 **일반 규칙** 의 기본값을 유지합니다. 위치마다 다른 규칙이 필요한 경우 **고급 규칙** 을 선택합니다. 그런 후 **다음** 을 선택합니다.
 
@@ -313,9 +321,9 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 10. **정책을 지금 또는 나중에 테스트할지 결정** 페이지의 경우: 지금 자동 레이블 지정 정책을 실행할 준비가 되었으면 **시뮬레이션 모드에서 정책 실행** 을 선택합니다. 그렇지 않으면 **정책을 해제로 두기** 를 선택합니다. **다음** 을 선택합니다.
 
-    ![정책 자동 레이블 지정 마법사 테스트](../media/simulation-mode-auto-labeling-wizard.png)
+    ![구성된 자동 레이블 지정 정책을 테스트합니다.](../media/simulation-mode-auto-labeling-wizard.png)
 
-11. **요약** 페이지에서 자동 레이블 지정 정책의 구성을 검토하고 필요한 사항을 변경한 후 마법사를 완료합니다.
+11. **요약** 페이지에서 자동 레이블 지정 정책의 구성을 검토하고 필요한 사항을 변경한 후 구성을 완료합니다.
 
 이제 **정보 보호** > **자동 레이블 지정** 페이지에서 **시뮬레이션** 혹은 **끄기** 구역에 시뮬레이션 모드에서 실행할지의 선택 여부에 따라 자동 레이블 지정 정책이 표시됩니다. 구성 및 상태에 대한 세부 사항을 보려면 정책을 선택합니다(예: **정책 시뮬레이션을 아직 실행 중**). 시뮬레이션 모드에서의 정책의 경우 **일치 항목** 탭을 선택하여 지정한 규칙과 일치하는 전자 메일 또는 문서를 확인합니다.
 

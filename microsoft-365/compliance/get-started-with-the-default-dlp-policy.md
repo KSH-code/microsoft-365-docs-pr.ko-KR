@@ -20,11 +20,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 보고서를 사용하여 조직의 기본 DLP(데이터 손실 방지) 정책을 구체화하는 방법을 학습합니다.
 ms.openlocfilehash: 95c4ebae431bea1db033826459ca1595614ab5cb
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569576"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191432"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>기본 DLP 정책을 사용하여 시작
 

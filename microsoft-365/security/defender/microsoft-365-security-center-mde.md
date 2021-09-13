@@ -20,11 +20,11 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.openlocfilehash: 8c808bd8c742666c407a59cc6a3bc654d96257b3
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569912"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185652"
 ---
 # <a name="microsoft-defender-for-endpoint-in-microsoft-365-defender"></a>Microsoft Defender for Endpoint in <DICT__Microsoft⚐365⚐Defender>Microsoft 365 Defender</DICT__Microsoft⚐365⚐Defender>
 
@@ -45,10 +45,10 @@ ms.locfileid: "58569912"
 | Microsoft Defender 보안 센터 | Microsoft 365 Defender |
 |---------|---------|
 | 대시보드 <ul><li>보안 운영</li><li>위협 분석</li></ul>  |홈 <ul><li>위협 분석</li></ul>   |
-| 인시던트 | 인시던트 & 경고 |
+| 인시던트 | 인시던트 및 경고 |
 | 장치 인벤토리 | 장치 인벤토리 |
-| 경고 큐 | 인시던트 & 경고 |
-| 자동화된 조사 | 작업 센터 |
+| 경고 큐 | 인시던트 및 경고 |
+| 자동화된 조사 | 알림 센터  |
 | 고급 헌팅 | 헌팅 |
 | 보고서 | 보고서 |
 | 파트너 & API | 파트너 & API |
@@ -89,7 +89,7 @@ Microsoft Defender for Endpoint Microsoft 365 Defender Microsoft Defender 보안
 |---------|---------|
 | [인시던트 & 경고](incidents-overview.md)  | 이 Microsoft 365 Defender 모든 끝점, 전자 메일 및 ID에서 인시던트 및 알림을 관리할 수 있습니다. 관련 이벤트를 보다 쉽게 찾을 수 있도록 환경을 수렴했습니다. 자세한 내용은 인시던트 [개요를 참조하세요.](incidents-overview.md)   |
 | [헌팅](advanced-hunting-overview.md)  |  ID 및 전자 메일 테이블을 포함하도록 끝점용 Microsoft Defender에서 만든 사용자 지정 검색 규칙을 수정하면 자동으로 검색 규칙이 Microsoft 365 Defender. 해당 경고는 해당 경고에도 Microsoft 365 Defender. 이러한 변경 내용에 대한 자세한 내용은 사용자 지정 검색 규칙 [마이그레이션을 참조합니다.](advanced-hunting-migrate-from-mde.md#migrate-custom-detection-rules) <br><br>고급 헌팅 테이블은 헌팅 테이블에서 사용할 `DeviceAlertEvents` 수 Microsoft 365 Defender. 데이터 원본에서 장치별 경고 정보를 Microsoft 365 Defender 및 테이블을 사용하여 다양한 원본 집합의 더 많은 정보를 `AlertInfo` `AlertEvidence` 수용할 수 있습니다. [DeviceAlertEvents](advanced-hunting-migrate-from-mde.md#write-queries-without-devicealertevents)없이 쓰기 쿼리를 수행하여 다음 장치 관련 쿼리를 작성합니다.|
-|[Action Center](m365d-action-center.md)    | 자동화된 조사 및 수정 조치에 따라 수행된 보류 중인 작업 및 완료된 작업을 나열합니다. 이전의 알림 센터에는 Microsoft Defender 보안 센터 조치에 대한 보류 중 및 완료된 조치가 나열되어 있으며 자동화된 조사에는 경고 및 상태가 나열되어 있습니다. 향상된 Microsoft 365 Defender 관리 센터는 전자 메일, 장치 및 사용자 전체에서 재구성 작업 및 조사를 한 위치에 모습니다.  |
+|[알림 센터 ](m365d-action-center.md)    | 자동화된 조사 및 수정 조치에 따라 수행된 보류 중인 작업 및 완료된 작업을 나열합니다. 이전의 알림 센터에는 Microsoft Defender 보안 센터 조치에 대한 보류 중 및 완료된 조치가 나열되어 있으며 자동화된 조사에는 경고 및 상태가 나열되어 있습니다. 향상된 Microsoft 365 Defender 관리 센터는 전자 메일, 장치 및 사용자 전체에서 재구성 작업 및 조사를 한 위치에 모습니다.  |
 | [위협 분석](threat-analytics.md) |  탐색 모음의 위쪽으로 이동하여 보다 쉽게 검색하고 사용할 수 있습니다. 이제 끝점과 전자 메일 및 공동 작업 둘 다에 대한 위협 정보를 포함합니다.    |
 
 ### <a name="endpoints"></a>끝점
@@ -97,7 +97,7 @@ Microsoft Defender for Endpoint Microsoft 365 Defender Microsoft Defender 보안
 | 영역 | 변경 설명 |
 |---------|---------|
 |검색   |  제목 대신 끝점용 Microsoft Defender 검색 표시줄이 끝점 섹션에서 이동됩니다. 장치, 파일, 사용자, URL, IP, 취약성, 소프트웨어 및 권장 사항을 계속 검색할 수 있습니다.  |
-|[Dashboard](/windows/security/threat-protection/microsoft-defender-atp/security-operations-dashboard)   |  보안 작업 대시보드입니다. 트리거된 활성 경고 수, 위험에 노출된 장치, 위험 상태의 사용자 및 경고, 장치 및 사용자에 대한 심각도 수준에 대한 개요를 참조하세요. 또한 센서 문제가 있는 장치, 전반적인 서비스 상태 및 해결되지 않은 경고가 감지된 방법을 볼 수도 있습니다. |
+|[대시보드](/windows/security/threat-protection/microsoft-defender-atp/security-operations-dashboard)   |  보안 작업 대시보드입니다. 트리거된 활성 경고 수, 위험에 노출된 장치, 위험 상태의 사용자 및 경고, 장치 및 사용자에 대한 심각도 수준에 대한 개요를 참조하세요. 또한 센서 문제가 있는 장치, 전반적인 서비스 상태 및 해결되지 않은 경고가 감지된 방법을 볼 수도 있습니다. |
 |장치 인벤토리 | 변경 내용이 없습니다. |
 |[취약성 관리](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)    |    이름이 탐색 창에 맞게 단축됩니다. 이 섹션은 모든 페이지가 위협 및 취약성 관리 섹션과 동일합니다.     |
 | 파트너 및 API | 변경 내용이 없습니다. |

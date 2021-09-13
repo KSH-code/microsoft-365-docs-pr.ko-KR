@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다단계 인증(2단계 인증)을 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 7c53417cc4ba8591a5b928c25ee4f0152b4b4fd946657b368ce7aa2a4618824e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ec9edd8664f35d3731f1f3c90ff2c60e8b2d2e3d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809482"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188764"
 ---
 # <a name="turn-on-multifactor-authentication"></a>다단계 인증 켜기
 
@@ -38,7 +38,7 @@ ms.locfileid: "53809482"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. [https://admin.microsoft.com](https://admin.microsoft.com)의 관리 센터로 이동합니다.
+1. [https://admin.microsoft.com](https://admin.microsoft.com) 의 관리 센터로 이동합니다.
 1. 모두 **표시를 선택한** 다음 관리 Azure Active Directory **선택합니다.**
 1. 를 **Azure Active Directory** **속성**, 보안 기본값 **관리를 선택합니다.**
 1. 보안 **기본값 사용에서** **예를 선택한** 다음 **저장을 선택합니다.**

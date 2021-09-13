@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: 사용자 계정을 삭제한 후 30일 이내에 계정 및 모든 데이터를 복원할 수 있으며 사용자는 동일한 계정으로 로그인할 수 있습니다.
-ms.openlocfilehash: 7b030d3e6792b168977b63f1ca686e8870ea103dd86eec3312f4c0760154ecab
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e37f913bcc6a54bdcc1e0f52168fe1aab0c8afdd
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832934"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185171"
 ---
 # <a name="restore-a-user"></a>사용자 복원
    

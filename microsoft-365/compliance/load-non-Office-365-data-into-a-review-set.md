@@ -17,11 +17,11 @@ search.appverid:
 description: 비영리 Microsoft 365 분석용 검토 집합으로 가져오는 방법을 Advanced eDiscovery 방법을 참조합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 65244b74cd868c4ec308327d15a070e67b9ac551
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569048"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188075"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>Microsoft가 아닌 365 데이터를 검토 집합에 로드
 

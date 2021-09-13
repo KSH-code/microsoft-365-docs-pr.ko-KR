@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용하여 사용자가 암호를 직접 재설정할 수 있도록 하는 정책을 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 9743c45d43510eb1db9e4d27d2b7bcf65d1bdb100b53ccefb56c25a9082153f4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 284a81e46ff22bf0a2ae514db81432b64e342a7f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53815650"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185252"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -53,7 +53,7 @@ ms.locfileid: "53815650"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>단계: 사용자가 암호를 직접 재설정할 수 있도록 합니다.
 

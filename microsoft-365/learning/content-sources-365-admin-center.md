@@ -16,11 +16,11 @@ ms.collection:
 localization_priority: None
 description: 앱의 미리 보기(미리 보기)에 Microsoft Viva Learning 학습 콘텐츠 원본을 구성하는 Microsoft 365 관리 센터.
 ms.openlocfilehash: 977589a9b9500f062edbd962ada895436c9b2c96
-ms.sourcegitcommit: 73a17ecbc06cd3e5452814637ab0484ddcdea17a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58942606"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191202"
 ---
 # <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>웹 에지에서 Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 Microsoft 365 관리 센터
 

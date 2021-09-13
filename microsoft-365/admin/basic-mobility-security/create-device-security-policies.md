@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용하여 조직 정보를 보호하는 장치 정책을 만들 수 있습니다.
 ms.openlocfilehash: 9792a936f2f209eabb4da9ce725e611ef3766526
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564517"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185083"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 보안 정책 만들기
 

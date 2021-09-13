@@ -19,12 +19,12 @@ ms.custom:
 description: 특정 앱에 대한 라이선스를 사용자에게 자동으로 할당하는 자동 클레임 정책을 만들고 관리하는 방법을 학습합니다.
 search.appverid: MET150
 ms.date: 04/06/2021
-ms.openlocfilehash: da5488b1cd463f173fda44dacd33a7198330f747495d10d5d696bee2195330ae
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b104700905b3753466036411368951f12a7012d8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887506"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190309"
 ---
 # <a name="manage-auto-claim-policies"></a>자동 클레임 정책 관리
 

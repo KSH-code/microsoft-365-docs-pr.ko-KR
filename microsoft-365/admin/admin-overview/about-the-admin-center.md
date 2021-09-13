@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Microsoft 365 관리 센터에 관리자 권한으로 로그인하여 클라우드에서 조직을 설정하고 사용자 및 구독을 관리합니다.
 ms.openlocfilehash: 2e7495b4c5fc039720d3e58cacebf1e86dcaaff2
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58393403"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185140"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 

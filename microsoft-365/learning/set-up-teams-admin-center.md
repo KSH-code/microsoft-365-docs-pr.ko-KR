@@ -16,11 +16,11 @@ ms.collection:
 localization_priority: None
 description: Microsoft Viva Learning 관리 센터에서 Microsoft Viva Learning(미리 보기)를 구성하는 Teams 대해 자세히 알아보도록 합니다.
 ms.openlocfilehash: f8e5ac5695fd5d68da22883974ccafc8c6bf0f85
-ms.sourcegitcommit: 73a17ecbc06cd3e5452814637ab0484ddcdea17a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58942620"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191152"
 ---
 # <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Microsoft Viva Learning 관리 센터에서 Teams(미리 보기) 설정
 

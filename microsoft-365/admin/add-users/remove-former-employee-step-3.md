@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 전자 메일을 다른 직원에게 전달하거나 공유 사서함으로 변환합니다.
-ms.openlocfilehash: 07973e47dd7f79ad4adc9121c9a2f6d368bb699e22d6d2cbacb91d3b8fce4fbf
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f9d5cefd761d95a3df03864aa14de1bcfb608d04
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827362"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185227"
 ---
 # <a name="step-3---forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>3단계 - 이전 직원의 전자 메일을 다른 직원에게 전달하거나 공유 사서함으로 변환
 

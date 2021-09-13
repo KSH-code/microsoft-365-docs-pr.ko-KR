@@ -18,11 +18,11 @@ ms.custom:
 - Ent_Architecture
 description: 테스트 랩 가이드를 사용하여 개발/테스트 Microsoft 365 및 시나리오를 구축할 수 있습니다.
 ms.openlocfilehash: d380c77d9a94b5c08fe97b9874d15e0272711653
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573358"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192119"
 ---
 # <a name="test-lab-guides-for-solutions-and-scenarios"></a>솔루션 및 시나리오에 대한 테스트 랩 가이드
 

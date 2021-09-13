@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호하는 방법
 ms.openlocfilehash: 301aa152d462dc7fc712d4b6aa56f4a521463690
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566919"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186812"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 요금제의 보안 Microsoft 365 10가지 방법
 

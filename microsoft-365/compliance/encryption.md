@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: 이 Office 365 사용할 수 있는 가장 강력한 암호화, 프로토콜 및 기술을 사용하여 미사용 및 전송 중 콘텐츠가 암호화됩니다. 암호화에 대한 개요를 Office 365.
-ms.openlocfilehash: 1dcfb16c08eae1cddde10f250093df9ffc43cbc11944745c96e38e3ff0279670
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c54508434c5ae5126a79eba1cb6dab3851d8f746
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900066"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184148"
 ---
 # <a name="encryption"></a>암호화
 

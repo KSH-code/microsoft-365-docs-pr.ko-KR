@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: 'Microsoft에서 다른 등록 기관으로 도메인을 전송하는 단계는 여기에서 찾아야 합니다. '
-ms.openlocfilehash: dfe774644295083c606ad52371ca0e8701fa773f5ff737f40fbcdf16e98077ea
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f34e9733ab53c8bdc6f4432c96e6232ecc26ee06
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825682"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184588"
 ---
 # <a name="transfer-a-domain-from-microsoft-to-another-host"></a>Microsoft에서 다른 호스트로 도메인 전송
 

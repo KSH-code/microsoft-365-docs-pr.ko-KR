@@ -17,11 +17,11 @@ ms.custom:
 search.appverid: MET150
 description: 포털을 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 포털 보안을 구성하는 방법을 알아보고,
 ms.openlocfilehash: 9701ecc002144f791be6caad1e93230be5a83bf0
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508085"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191149"
 ---
 # <a name="configure-microsoft-365-lighthouse-portal-security"></a>포털 Microsoft 365 Lighthouse 구성
 
@@ -51,7 +51,7 @@ Lighthouse의 고객 테넌트 데이터 및 설정에 대한 액세스는 CSP(�
 | 홈 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 테넌트 | <ul><li> 모두 보기</li><li>고객 연락처 및 웹 사이트 업데이트</li><li>배포 계획 보기 및 적용</li></ul> | <ul><li> 모두 보기</li><li>고객 연락처 및 웹 사이트 업데이트</li><li>배포 계획 보기</li></ul> |
 | 사용자 | <ul><li> 모두 보기</li><li>암호 다시 설정</li><li>로그인 차단</li><li>MFA 설정</li></ul> | <ul><li> 모두 보기</li><li>암호 다시 설정</li><li>로그인 차단</li></ul> |
-| 장치 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
+| 디바이스 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 위협 | <ul><li> 모두 보기</li><li>빠른 검사 실행</li><li>전체 검사 실행</li><li>장치 다시부팅</li><li>바이러스 백신 업데이트</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 기준 | <ul><li> 모두 보기</li></ul> | <ul><li> 모두 보기</li></ul> |
 | 서비스 상태 | <ul><li>모두 보기*</li></ul> | <ul><li>모두 보기*</li></ul> |

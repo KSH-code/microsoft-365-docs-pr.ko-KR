@@ -26,11 +26,11 @@ search.appverid:
 - MOE150
 description: 캠페인 내에서 파일 및 비디오를 공유하고 Microsoft Teams SharePoint.
 ms.openlocfilehash: 20e232f1ca8a8392efa236d21b26259f47382148
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567583"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186428"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 

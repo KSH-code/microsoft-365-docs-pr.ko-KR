@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: 앱 거버넌스를 사용할 수 있는 국가 목록입니다.
 ms.openlocfilehash: 926c2069a0fb53cb6211c6c686e2afc5b8bdc10b
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255388"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190102"
 ---
 # <a name="app-governance-supported-countries"></a>앱 거버넌스 지원 국가
 

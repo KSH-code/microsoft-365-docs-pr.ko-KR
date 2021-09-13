@@ -13,12 +13,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79247ad0018f8bfb08e58254870fd510ca6fb0ad291a72b2bee4d16b9113ac4a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ee410bf455e770087da7999ad2019c17419a8e00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53795857"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184035"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 속성
 
@@ -83,7 +83,7 @@ ms.locfileid: "53795857"
 | MSExchExtensionCustomAttribute4 | ExtensionCustomAttribute4 |
 | MSExchExtensionCustomAttribute5 | ExtensionCustomAttribute5 |
 | MailNickname | 별칭 |
-| PhysicalDeliveryOfficeName | Office |
+| PhysicalDeliveryOfficeName | 사무실 |
 | PostalCode | PostalCode |
 | ProxyAddresses | EmailAddresses |
 | StreetAddress | StreetAddress |

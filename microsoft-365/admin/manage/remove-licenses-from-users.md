@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: 제품 라이선스를 지정하지 않는 데 사용하는 방법은 특정 사용자로부터 라이선스를 지정하지 않는지 또는 특정 제품의 라이선스를 지정하지 않는지 여부에 따라 결정됩니다.
 ms.date: 06/07/2021
-ms.openlocfilehash: 1b471cef43064bf6da792cbb887735c38f35c056036936247958af8797edec2f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8a67d7e690ff07631f696a97d6ed59925bc871df
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824962"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187139"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스를 위한 온라인 모임을 호스팅하는 방법을 알아보하세요.
-ms.openlocfilehash: 7b744410f8553a6da384142d6edc9a2377a8d8d74539dcb62d8011fdc045e988
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9874e22724dd04255fb6109b5fb268ac2dcd3f95
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843511"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190539"
 ---
 # <a name="host-online-meetings-for-your-business"></a>비즈니스를 위한 온라인 모임 호스트
 

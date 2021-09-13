@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: 앱 거버넌스 정책을 관리합니다.
 ms.openlocfilehash: 270315e15a79b97b55aa729d4b7e9b39930ee82c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571148"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190112"
 ---
 # <a name="manage-app-policies"></a>앱 정책 관리
 

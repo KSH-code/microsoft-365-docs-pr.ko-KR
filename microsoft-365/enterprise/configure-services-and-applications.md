@@ -20,11 +20,11 @@ f1.keywords:
 description: 'Microsoft 365 Enterprise 서비스 및 응용 프로그램(예: SharePoint, Exchange 및 응용 프로그램을 비즈니스용 Skype.'
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: f1253f5d36621c252a0fd37b35a73cdf6269ebd5
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356555"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187923"
 ---
 # <a name="configure-microsoft-365-enterprise-services-and-applications"></a>서비스 Microsoft 365 Enterprise 응용 프로그램 구성
 

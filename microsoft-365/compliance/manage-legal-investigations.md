@@ -18,11 +18,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 조직의 eDiscovery 사례를 Microsoft 365 규정 준수 센터 조직의 법적 조사를 관리합니다.
 ms.openlocfilehash: 9eb41a67ae4ddfd39e1d40219861e0bd279fc7b8
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507677"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186148"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Microsoft 365에서 법적 조사 관리
 

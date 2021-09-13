@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대한 Microsoft 365 단계별 등록 전자 메일, 데이터 및 통신에 대한 사이버 보안 위협으로부터 캠페인을 보호합니다.
-ms.openlocfilehash: eaba43a9163b4ee1db5b653b04c0eedea7716297e510edd4eb5926b41a554bda
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: deaf91850ae5dbd3ed2a4637e0eb157d29215992
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53881725"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186468"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인 등록 Microsoft 365 등록 
 

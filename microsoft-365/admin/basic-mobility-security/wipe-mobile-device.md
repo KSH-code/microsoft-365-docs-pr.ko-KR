@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 description: 기본 제공 기본 이동성 및 보안을 사용하여 등록된 장치에서 정보를 제거합니다.
 ms.openlocfilehash: b687b3d13f95cb05d9261064d385d35ef6d7f7bf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564420"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184988"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 모바일 장치 지우기
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e29456631dc8401d1d805d0fae46c32a6c2575225d2b5d0d102553d68a2e4b08
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e3481b8adab6e5c777f6ba3eb4ad46a92a838a2d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832694"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189011"
 ---
 # <a name="contact-support-for-aland-islands"></a>올란드 제도 지원에 문의
 

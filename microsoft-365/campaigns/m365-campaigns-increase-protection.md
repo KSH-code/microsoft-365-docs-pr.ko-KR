@@ -18,17 +18,18 @@ ms.custom:
 - Adm_O365
 - MiniMaven
 - MSB365
+- admindeeplinkMAC
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 보안 수준 증가에 대한 도움말을 Microsoft 365
-ms.openlocfilehash: 96aee5716374fda43c0258c55ab22d425001b8b5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 7890d25b337bd143d8a5c79f0a2994a81fca8caf
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573370"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188708"
 ---
 # <a name="increase-threat-protection-for-microsoft-365-subscription"></a>구독에 대한 위협 Microsoft 365 증가
 
@@ -42,9 +43,9 @@ ms.locfileid: "58573370"
 
 사용자 Office 365 Microsoft 365 환경에는 맬웨어에 대한 보호가 포함되어 있지만 맬웨어에 일반적으로 사용되는 파일 형식의 첨부 파일을 차단하여 이 보호를 강화할 수 있습니다. 전자 메일에서 맬웨어 보호를 범프합니다.
 
-1. 으로 <https://protection.office.com> 이동하여 관리자 계정 자격 증명으로 로그인합니다.
+1. Office 365 보안 & <a href="https://go.microsoft.com/fwlink/p/?linkid=2077143" target="_blank">센터로</a> 이동하고 관리자 계정 자격 증명으로 로그인합니다.
 
-2. 보안 및 & 센터의 왼쪽 탐색 창에 있는 **위협** 관리에서  정책 맬웨어 방지 \> **를 선택 합니다.**
+2. 왼쪽 탐색 창의 **위협** 관리에서 정책 **맬웨어** 방지 \> **를 선택 합니다.**
 
 3. 기본 정책을 두 번 클릭하여 이 회사 전체 정책을 편집합니다.
 
@@ -102,7 +103,7 @@ ms.locfileid: "58573370"
 
 메일 전송 규칙을 만들 수 [](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) 있는 경우 이 짧은 비디오를 시청하거나 다음 단계를 따르세요.
 
-1. 이 Microsoft 365 관리 센터 **에서** 관리 센터 를 \> **Exchange.**
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> **에서** 관리 센터 를 \> **Exchange.**
 
 2. 메일 **흐름 범주에서** 규칙을 **클릭합니다.**
 
@@ -130,9 +131,9 @@ Office 365 또는 Microsoft 365 사용자 지정 도메인을 하나 이상 구�
 
 사용자용 Defender에서 피싱 방지 정책을 Office 365 이 짧은 [](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)교육 비디오를 시청하거나 다음 단계를 완료합니다.
 
-1. <https://protection.office.com>로 이동합니다.
+1. 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077143" target="_blank">Office 365 준수 & 로 이동</a>
 
-2. 보안 및 & 센터의 왼쪽 탐색 창에 있는 **위협** 관리에서 정책을 **선택 합니다.**
+2. 왼쪽 탐색 창의 **위협 관리에서** 정책을 **선택 합니다.**
 
 3. 정책 **페이지에서** 피싱 **방지 를 선택합니다.**
 
@@ -185,9 +186,9 @@ Office 365 또는 Microsoft 365 사용자 지정 도메인을 하나 이상 구�
 
 첨부 파일 금고 만들거나 이 짧은 [](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)비디오를 시청하거나 다음 단계를 완료합니다.
 
-1. 으로 <https://protection.office.com> 이동하여 관리자 계정으로 로그인합니다.
+1. 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077143" target="_blank">Office 365 준수 & 관리</a> 계정으로 로그인합니다.
 
-2. 보안 및 & 센터의 왼쪽 탐색 창에 있는 **위협** 관리에서 정책을 **선택 합니다.**
+2. 왼쪽 탐색 창의 **위협 관리에서** 정책을 **선택 합니다.**
 
 3. 정책 페이지에서 첨부 **금고 선택합니다.**
 
@@ -221,9 +222,9 @@ Office 365 또는 Microsoft 365 사용자 지정 도메인을 하나 이상 구�
 
 링크 금고 설정하기 위해 이 [짧은](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)교육 비디오를 시청하거나 다음 단계를 완료합니다.
 
-1. 으로 <https://protection.office.com> 이동하여 관리자 계정으로 로그인합니다.
+1. 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077143" target="_blank">Office 365 준수 & 관리</a> 계정으로 로그인합니다.
 
-2. 보안 및 & 센터의 왼쪽 탐색 창에 있는 **위협** 관리에서 정책을 **선택 합니다.**
+2. 왼쪽 탐색 창의 **위협 관리에서** 정책을 **선택 합니다.**
 
 3. 정책 페이지에서 링크 **금고 선택합니다.**
 
@@ -289,8 +290,9 @@ Office 365 또는 Microsoft 365 사용자 지정 도메인을 하나 이상 구�
 
 조직의 사용자가 일정을 공유하지 못하게 할 수도 있습니다. 또는 공유할 수 있는 것을 관리할 수도 있습니다. 예를 들어 공유를 사용/사용 중 시간으로만 제한할 수 있습니다.
 
-1. 의 관리 센터로 이동하여 설정 <https://admin.microsoft.com>  \> **또는 설정.**
-2. 서비스 **페이지에서** 일정 을 선택하고 조직의 사용자들이 다른 사용자나 다른 사용자와 일정을 공유할 수 Office 365 Exchange 수 있습니다.
+1. 의 관리 센터로 이동하여 설정 <https://admin.microsoft.com>  \> **또는 설정**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**을 선택하세요.**</a>
+
+1. 일정 **을** 선택하고 조직의 사용자들이 일정을 다른 사용자나 다른 사용자와 공유할 수 Office 365 Exchange 선택할 수 있습니다.
 
    모든 사용자와 공유 옵션을 선택하는 경우 사용 중 정보만 공유하기로 결정할 수 있습니다.
 

@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 5436494d8d94097e15f67e3b568727fe510113ef
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565717"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192482"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>인시던트 우선 순위를 Microsoft 365 Defender
 

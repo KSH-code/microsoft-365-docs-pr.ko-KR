@@ -17,11 +17,11 @@ description: 금고 문서 또는 Microsoft 365 E5 문서에 대해 Microsoft 36
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 0ccedf53b9978329935ceb28bb0ba0695f3da67c
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863824"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187323"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -32,7 +32,7 @@ ms.locfileid: "58863824"
 
 금고 문서는 [끝점용 Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 Application [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) Guard에서 열 수 있는 문서 및 파일을 검사하는 고급 [Office.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 금고 **SafeDocs(또는** **SAFEDOCS** 또는 Office 365 **bf6f5520-59e3-4f82-974b-7dbbc4fd27c7)** 서비스(서비스 계획)에서 제어하는 금고 문서의 가용성 이 서비스 계획은 다음 라이선싱 계획(라이선스 계획, Microsoft 365 또는 제품)에서 사용할 수 있습니다.
   - Microsoft 365 A5 교직원용 교육

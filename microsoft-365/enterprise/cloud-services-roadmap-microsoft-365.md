@@ -14,11 +14,11 @@ ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 클라우드 서비스를 설정하기 위한 로드맵은 Microsoft 365.
 ms.openlocfilehash: 050dc8e622bbfe9f1a065a74f4dffcdd3647074a
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58353771"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187972"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>클라우드 서비스 로드맵을 Microsoft 365
 

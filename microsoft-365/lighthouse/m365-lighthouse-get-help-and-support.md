@@ -17,11 +17,11 @@ ms.custom:
 search.appverid: MET150
 description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 도움말 및 지원을 받을 수 있는 방법을 알아보고자 합니다.
 ms.openlocfilehash: 392eed01b5519c512c89460776ec9f4391b7bda2
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58506433"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187740"
 ---
 # <a name="get-help-and-support-for-microsoft-365-lighthouse"></a>지원에 대한 도움말 및 Microsoft 365 Lighthouse 
 

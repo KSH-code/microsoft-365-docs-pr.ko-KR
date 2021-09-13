@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: d04590eee8f771fe8001f44dfae490645e270e64
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58349611"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190909"
 ---
 # <a name="list-indicators-api"></a>목록 표시기 API
 
@@ -51,7 +51,7 @@ OData의 쿼리는 `$filter` , , , , , , , , `application` , `createdByDisplayNa
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다. 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 

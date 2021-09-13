@@ -22,18 +22,18 @@ ms.custom:
 search.appverid: MET150
 description: 제품 페이지로 이동하여 조직에 있는 구독을 확인하는 방법을 알아보십시오.
 ms.date: 01/21/2021
-ms.openlocfilehash: 4db973a3817638e3c41f5e73989052e26f66c0af08eceeada74cc47728d5094c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bb11ab4fc8933e2e199998992f0c12ea8de0d23a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827098"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185108"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 
 관리자인 경우 관리 센터로 가서 조직에 있는 구독을 확인할 수 있습니다.
   
-**관리자가 아니세요?** 비즈니스용 Microsoft 365 제품 또는 [라이선스가 있나요?를 참조하세요.](https://support.microsoft.com/office/f8ab5e25-bf3f-4a47-b264-174b1ee925fd)
+**관리자가 아니세요?** 비즈니스 Microsoft 365 라이선스에 대한 자세한 [내용은 What Microsoft 365 do I have?](https://support.microsoft.com/office/f8ab5e25-bf3f-4a47-b264-174b1ee925fd)
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 2. 제품 **탭에** 모든 구독이 표시됩니다. 각 구독 줄에는 라이선스, 구독 상태 및 청구에 대한 정보가 포함되어 있습니다.

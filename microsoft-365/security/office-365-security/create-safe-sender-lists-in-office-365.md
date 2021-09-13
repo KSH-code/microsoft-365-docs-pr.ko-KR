@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(인바운드 메시지)에서 인바운드 메시지를 허용하는 사용 가능한 옵션과 기본 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81ab9b0aabc9b9699e0cee27b0046748a2a585df511f271316e01200ce552221
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f76b34a439d2eaf2c8315d174483b0b30d3b3b0b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56814779"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185572"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 가능한 보낸 사람 목록 만들기
 
@@ -113,7 +113,7 @@ EOP 및 Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙은 메�
 
 앞서 설명한 메일 흐름 규칙을 사용할 수 없는 경우 다음으로는 연결 필터 정책의 IP 허용 목록에 원본 전자 메일 서버 또는 서버를 추가하는 것이 가장 좋습니다. 자세한 내용은 EOP에서 연결 필터링 [구성을 참조합니다.](configure-the-connection-filter-policy.md)
 
-**참고:**
+**참고**:
 
 - 허용된 IP 주소 수를 최소로 유지하는 것이 중요하기 때문에 가능하면 전체 IP 주소 범위를 사용하지 않도록 합니다.
 

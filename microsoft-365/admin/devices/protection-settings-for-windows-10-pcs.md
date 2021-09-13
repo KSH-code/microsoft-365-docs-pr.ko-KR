@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: 비즈니스용 장치에서 사용할 수 있는 설정에 대해 Microsoft 365 장치를 보호하는 Windows 10 대해 자세히 알아보아야 합니다.
 ms.openlocfilehash: 29fb5c18f016bd2832c25ff66db258671b95bd6f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566397"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184843"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>PC에 대한 장치 보호 Windows 10 편집하거나 만들기
 
@@ -42,7 +42,7 @@ ms.locfileid: "58566397"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 
 2. 왼쪽 nav에서 장치 정책 **추가** \> **를** \> **선택 합니다.**
 3. **정책 추가** 창에서 이 정책의 고유 이름을 입력합니다. 
 4. **정책 유형** 에서 **Windows 10 장치 구성** 을 선택합니다.
@@ -57,7 +57,7 @@ ms.locfileid: "58566397"
 
 ## <a name="edit-windows-10-protection-settings"></a>보호 Windows 10 편집
  
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.     
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.     
 2. 왼쪽 nav에서 장치 **정책을** \> **선택 합니다.**
 1. 기존 Windows 장치 정책을 선택한 다음 편집 **을 선택하십시오.**
 1. 변경하려는 설정 옆에 있는 편집을 선택한 다음 저장 을 **선택 합니다.** 

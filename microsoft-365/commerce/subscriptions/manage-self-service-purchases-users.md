@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: 사용자는 셀프 서비스 구매를 관리하는 방법을 배울 수 있습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 581a142eb18e64bfec237e6108564d68d715e21ca20b74e39337afbb7ac86491
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fb8431bce82893d8ca2903caf96968dd3b0ef359
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53852202"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191639"
 ---
 # <a name="manage-self-service-purchases-users"></a>셀프 서비스 구매(사용자) 관리
 

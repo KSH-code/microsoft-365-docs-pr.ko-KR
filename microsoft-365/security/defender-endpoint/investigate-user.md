@@ -20,11 +20,11 @@ ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
 ms.openlocfilehash: 73c16691dc56ad478912b85cb1b712bc7b1b44a8
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684187"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189502"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 사용자 계정 조사
 

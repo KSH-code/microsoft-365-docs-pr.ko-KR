@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- admindeeplinkMAC
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 비즈니스용 앱에 사용자를 추가하는 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: 097bc190fbee5c7fd000849458654afe00129a2217853be243c9b179d795ea00
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 84edaeff1980955d1dfc00267ac1a0d63f48e9f1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821094"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188892"
 ---
 # <a name="add-a-new-user"></a>새 사용자 추가
 
@@ -38,7 +39,7 @@ ms.locfileid: "53821094"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. 다음 Microsoft 365 관리 센터 사용자 **관리로 이동하여** 사용자 추가를 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> **관리로 이동하고** 사용자 추가를 선택합니다.
 1. 새 사용자의 **이름과** 성 **을 입력합니다.** 표시 **이름은** 자동으로 채워지지만 변경할 수 있습니다.
 1. 사용자 이름을 **입력합니다.** 이 주소는 새 사용자의 전자 메일 주소입니다. 도메인이 여러 개 있는 경우 드롭다운 목록에서 올바른 도메인을 선택합니다.
 1. 암호를 자동으로 만들 수 있는 경우 암호 자동 **생성 을 선택합니다.**
@@ -48,4 +49,4 @@ ms.locfileid: "53821094"
 1. 사용자를 관리자로 설정하려면 **역할** s를 확장하고 사용자(관리자 액세스 권한 **없음)** 확인란의 선택을 취소한 다음 목록에서 관리자 역할을 선택합니다. 관리자 역할 및 관리자를 설정하는 방법에 대한 자세한 내용은 [관리자란?을 참조하세요.](what-is-admin.md)
 1. 프로필 **정보에서** 사용자의 작업, 부서, 사무실에 대한 세부 정보를 입력합니다. (사용자 또는 새 사용자는 언제든지 이 정보를 나중에 추가할 수 있습니다.) 다음 **을 선택합니다.**
 1. 사용자 세부 정보를 검토합니다. 이 사용자에 대한 추가 라이선스를 구입해야 하는 경우 검토 페이지에 알림이 표시됩니다. 추가 **완료를** 선택한 다음 **닫기 를 선택합니다.**
-1. 사용자가 성공적으로 만들어졌습니다. Microsoft 365 관리 센터 탐색 창에서 사용자, 활성 사용자를 **선택합니다.** 새 사용자는 할당된 라이선스와 함께 나열됩니다.
+1. 사용자가 성공적으로 만들어졌습니다. Microsoft 365 관리 센터 탐색 창에서 사용자 활성 사용자를  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">선택합니다.</a> 새 사용자는 할당된 라이선스와 함께 나열됩니다.

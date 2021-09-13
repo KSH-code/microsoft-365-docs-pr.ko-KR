@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 비즈니스용 Microsoft 365 사용하여 사용자가 장치 또는 PC에 있는 회사 데이터를 Windows 방법을 찾아보아야 합니다.
 ms.openlocfilehash: f249af524dcdc00601357428425c57da3b3f738c
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360545"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184836"
 ---
 # <a name="remove-company-data-from-devices"></a>장치에서 회사 데이터 제거
 
@@ -39,7 +39,7 @@ ms.locfileid: "58360545"
 
 비즈니스용 Microsoft 365 사용하여 사용자가 자신의 장치 또는 Windows 보호되는 [](app-protection-settings-for-android-and-ios.md) PC에 있는 회사 데이터를 제거할 Microsoft 365. [](protection-settings-for-windows-10-devices.md) **장치에서 회사 데이터를 제거하면 나중에 복원할 수 없습니다**. 
   
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
     
 2. 왼쪽 nav에서 장치 **관리를** \> **선택 합니다.**  
   

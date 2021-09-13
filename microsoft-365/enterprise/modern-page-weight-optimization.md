@@ -22,11 +22,11 @@ search.appverid:
 - MET150
 description: 페이지 진단 도구를 사용하여 온라인 최신 사이트 페이지에서 페이지 SharePoint 방법을 알아보십시오.
 ms.openlocfilehash: 04c3e94abef062bbd37db268da56f21c2dd7dc65
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573106"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189589"
 ---
 # <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 페이지부하 최적화
 

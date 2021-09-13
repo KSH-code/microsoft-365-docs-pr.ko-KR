@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 사용자 계정을 삭제합니다.
-ms.openlocfilehash: be7f46ebae50c078ab90b4eb00fd658e3dbe0c008bd1862fa88162b76c5e07cb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 6f1f307a7029bcf1cbf71a2ce85908b9ccb28ba5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827350"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185196"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>7단계 - 이전 직원의 사용자 계정 삭제
 
@@ -49,7 +49,7 @@ ms.locfileid: "53827350"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="does-your-organization-use-active-directory"></a>조직에서 Active Directory를 사용하나요?
 

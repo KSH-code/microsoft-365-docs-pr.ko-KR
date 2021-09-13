@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
 ms.openlocfilehash: e1cae053c7b13ceec9c7f3274122cf004c7277e5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571389"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184196"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 

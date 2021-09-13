@@ -17,12 +17,12 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: 조직의 연락처 정보를 업데이트하고 수신할 Microsoft 365 제품 관련 통신을 선택하세요.
-ms.openlocfilehash: 5d8bcfefe85f125d6efb05bf8ac9e5259f17d76883d484c2ba2e7735d845367a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: afb69c52ba89c2a9e6ff7af014a74b0abfda4e5e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825466"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184532"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Microsoft의 통신에 대한 연락처 기본 설정 변경
 

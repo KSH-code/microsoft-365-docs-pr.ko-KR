@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5cf987c71ff3da40149dd18ba2578ffc11bd01774b83ae24ee9a3b3fba7e7b23
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f8c6c289cca61e5a0891af04ef97831a27b341f3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53833966"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185852"
 ---
 # <a name="find-devices-by-tag-api"></a>태그 API로 장치 찾기
 
@@ -46,7 +46,7 @@ ms.locfileid: "53833966"
 
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -74,13 +74,13 @@ GET /api/machines/findbytag?tag={tag}&useStartsWithFilter={true/false}
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 
 ## <a name="request-uri-parameters"></a>요청 URI 매개 변수
 
 이름|유형|설명
 :---|:---|:---
-tag|String|태그 이름입니다. **필수입니다**.
+tag|문자열|태그 이름입니다. **필수입니다**.
 useStartsWithFilter|부울|true로 설정하면 쿼리에서 태그 이름이 지정한 태그로 시작하는 모든 장치가 검색됩니다. 기본값은 false입니다. 선택 사항입니다.
 
 ## <a name="request-body"></a>요청 본문

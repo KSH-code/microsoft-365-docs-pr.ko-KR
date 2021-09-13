@@ -22,11 +22,11 @@ search.appverid:
 - MOE150
 description: 직원이 앱과 함께 다운로드하는 Office 방법을 배울 수 있도록 Microsoft 365 Business Premium.
 ms.openlocfilehash: 7c7f28a13438d2cd5974d212d56c6885d8d4850c
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58377766"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190552"
 ---
 # <a name="employee-quick-setup"></a>직원 빠른 설정
 

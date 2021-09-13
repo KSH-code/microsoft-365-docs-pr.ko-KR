@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2d10b64e357b1cabb0d0d999c14f38ede6d6e99b5740849475055e8d66435554
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: bf8672ee6c3332ea6f8522f5086d72e58d1b9048
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53904278"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191029"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정-Microsoft 관리형 데스크톱
 
@@ -43,7 +43,7 @@ Microsoft Managed Desktop 관리되는 모든 장치에 적용되는 설정 및 
 
 각 설정 범주를 사용자 지정하고 자체적으로 배포할 수 있습니다. 여러 설정 범주에 변경 내용을 동시에 배포할 수 있습니다. 그러나 한 번의 변경 내용만 설정 범주에 배포할 수 있습니다.
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
 - 데스크톱 배경 그림 및 신뢰할 수 있는 사이트에 변경 내용을 각각 자체 배포로 동시에 배포할 수 있습니다. 
 - 두 개의 배포를 브라우저 시작 페이지에 동시에 배포할 수 없습니다. 가장 최근 배포는 아직 진행 중인 이전 배포를 중지합니다.
 

@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: fbf9561e214be2180d57b3b4dcd2369061d7a7d6
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58532850"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191009"
 ---
 # <a name="verify-data-storage-location-and-update-data-retention-settings-for-microsoft-defender-for-endpoint"></a>데이터 저장소 위치 확인 및 끝점용 Microsoft Defender에 대한 데이터 보존 설정 업데이트
 

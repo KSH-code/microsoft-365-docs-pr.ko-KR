@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이동성에 대한 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: d3ea6e4803a1aa5d12084d626b60c058dd578832d8707e8269419683a0ed223d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7789980a721e5ebaad3d3673fd0e7c640b6f737d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823054"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186892"
 ---
 # <a name="mobility--people-experiences"></a>모바일 - 사람 환경
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Google Workspace에서 마이그레이션할 Microsoft 365 설정하는 방법을 알아보고
-ms.openlocfilehash: 231847c9d3a0b34e4422a8e2f8fb93bc59e0c39f3e01be42b0c0c71ea8963a2a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ec8813f62febbd1c4ee2afa6877e4be505a75a81
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53831626"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188859"
 ---
 # <a name="set-up-microsoft-365-for-google-workspace-migration"></a>Google Workspace Microsoft 365 대한 사용자 설정
 

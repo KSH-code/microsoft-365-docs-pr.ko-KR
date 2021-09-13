@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 도메인 이름을 구입하고 도메인에 tom@fourthcoffee.com 전자 메일 주소와 같은 친숙한 전자 메일 주소로 Microsoft 365.
-ms.openlocfilehash: a24a6b2f488f98d5a372be23ab3397d2854c56cb1b6ac75d9b229baf2365bc72
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 599ca47a9df2dc7b022ff614e3f78b23defdd96e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53832760"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184764"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>사용자 지정 도메인을 사용하도록 전자 메일 주소 변경
 
@@ -63,7 +63,7 @@ Microsoft 365 전자 메일 주소에는 .onmicrosoft.com 포함됩니다(tom@fo
 
 ::: moniker range="o365-worldwide"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
 ::: moniker-end
 

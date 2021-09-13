@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f22eec1dc33ed6711009aec635600de8f5c44a7bc3dac5b4d76e6f84fcdc5949
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3b9e7c8eefe303ef350f5db6b3023b6eec904d97
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53852514"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188532"
 ---
 # <a name="payment-information-for-croatia"></a>크로아티아 결제 정보
 

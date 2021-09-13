@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: Normal
 description: 게시된 모델을 문서 라이브러리에 적용하는 SharePoint 방법을 학습합니다.
 ms.openlocfilehash: d277b959fc05318380363e1eaba14343c84af126
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575147"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59183947"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 

@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: 조직의 Windows PowerShell 모바일 및 보안 장치에 대한 세부 정보를 얻습니다.
 ms.openlocfilehash: 231eeb87d3f72ca4107c0ee6bef5bd60c713bb3f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564468"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185059"
 ---
 # <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>기본 모바일 및 보안 관리 장치에 대한 세부 정보 확인
 

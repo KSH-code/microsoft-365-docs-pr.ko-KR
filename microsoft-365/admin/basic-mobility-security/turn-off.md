@@ -14,12 +14,12 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 description: 그룹 또는 정책을 제거하여 기본 이동성 및 보안을 해제합니다.
-ms.openlocfilehash: 06d53af28239721f08804949a53cd6b2251f89f44dc8709ea384e29872bf1c37
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7ec4ec0d47668c21824d8e01e3845d637b9b0922
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826702"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184996"
 ---
 # <a name="turn-off-basic-mobility-and-security"></a>기본 이동성 및 보안 해제
 

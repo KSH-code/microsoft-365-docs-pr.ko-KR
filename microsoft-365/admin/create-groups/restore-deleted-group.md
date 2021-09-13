@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제된 그룹은 30일 동안 보존되고 그룹을 복원할 수 있습니다. 30일이 지난 후 그룹 및 해당 콘텐츠는 영구적으로 삭제됩니다.
-ms.openlocfilehash: 555da859e88ea06e498b4197d6ffde7ec9885548ba51118bdf8b41f618deb163
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ddc3da57c05b7c5f54c10a0cc429c9a3f24b859c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826438"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184923"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>삭제된 그룹 Microsoft 365 복원
 

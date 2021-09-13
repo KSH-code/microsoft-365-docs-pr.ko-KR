@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Microsoft 365 전역 관리자가 이름이 변경될 때 사용자의 전자 메일 주소와 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 0f9d2e5cf817e5d3f5535122f0a7475d78e6d0a90edf8309acfeb15515d9756f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 29e2e57327550de13359106e7ba820204598f691
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53815854"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185300"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 

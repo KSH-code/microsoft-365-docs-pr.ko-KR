@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용하여 장치 보안 정책 및 액세스 규칙을 설정할 수 있습니다.
 ms.openlocfilehash: a5fe6c4d6350871a2c7013d1de3df8b2911ceca1
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565627"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185028"
 ---
 # <a name="overview-of-basic-mobility-and-security-for-microsoft-365"></a>모바일 기능의 기본 이동성 및 보안 Microsoft 365
 

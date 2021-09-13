@@ -21,12 +21,12 @@ search.appverid: MET150
 description: 제품 키를 통해 라이선스를 추가하거나 구독을 확장하는 방법을 자세히 알아보습니다.
 ROBOTS: NOINDEX
 ms.date: 04/07/2021
-ms.openlocfilehash: 3070aa6e757ec103f95f543d6922c9d61d9251f2f07f9156dd13124a99497f21
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7f1a1977eb5e20d09a22ef616937abdc483c431e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861414"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190359"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>제품 키를 사용하여 유료 구독에 라이선스 추가 또는 연장
 

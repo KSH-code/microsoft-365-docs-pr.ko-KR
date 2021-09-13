@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: Exchange 관리자가 조직의 전자 메일 및 사서함을 관리합니다. 예를 들어 사용자의 사서함에서 삭제된 항목을 복구합니다.
-ms.openlocfilehash: e4c5e437ae72e3d3baac4140200670684af73cf1080c7b80edca044389465684
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 58f0da87c0db57a3df62834a4375d561e20a98f8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53816022"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185355"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>관리자 Exchange Online 정보를
 

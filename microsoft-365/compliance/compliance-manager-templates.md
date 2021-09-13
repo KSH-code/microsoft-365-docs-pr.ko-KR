@@ -7,6 +7,7 @@ author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
+ms.custom: admindeeplinkMAC
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -14,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: 9031d94bfe3c9fba0ba53e23c229a6b207d0e4b2
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 2118f527cafe97153b9a8185da6d12d8f6f3d9da
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567063"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189912"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>준수 관리자에서 평가 템플릿 작업
 
@@ -86,7 +87,7 @@ GCC 높음 및 DOD 계정은 볼륨 라이선스를 통해 템플릿 [라이선�
 
 평가를 구매한 프리미엄 템플릿에 연결하는 경우 해당 템플릿은 1년 동안 활성화됩니다. 취소하지 않으면 구매가 자동으로 갱신됩니다.
 
-평가판을 기반으로 프리미엄 템플릿을 사용해도 됩니다. 평가판 라이선스는 30일 동안 최대 25개 템플릿에 좋습니다. 평가판이 시작되면 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다. 평가판을 통해 평가판을 활성화할 Microsoft 365 관리 센터.
+평가판을 기반으로 프리미엄 템플릿을 사용해도 됩니다. 평가판 라이선스는 30일 동안 최대 25개 템플릿에 좋습니다. 평가판이 시작되면 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다. 평가판은 를 통해 활성화할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">수 Microsoft 365 관리 센터.</a>
 
 #### <a name="activated-templates-counter"></a>활성화된 템플릿 카운터
 
@@ -279,7 +280,7 @@ Microsoft 365 및 유니버설 버전의 템플릿에는 공동 라이선스가 
 
 #### <a name="change-an-improvement-actions-name"></a>개선 작업의 이름 변경
 
-개선 작업의 이름을 변경하려는 경우 기존 이름을 새 이름으로 바꾸는 스프레드시트에서 명시적으로 지정해야 합니다. 다음 단계를 따르세요.
+개선 작업의 이름을 변경하려는 경우 기존 이름을 새 이름으로 바꾸는 스프레드시트에서 명시적으로 지정해야 합니다. 다음 단계를 따릅니다.
 
 1. 스프레드시트의 **작업** 탭에서 A 열 다음에 스프레드시트에 새 열을 추가합니다.
 2. 이제 B 열이 된 이 새 열에서 1 행의 **oldActionTitle에** 해당 헤더로 넣습니다.

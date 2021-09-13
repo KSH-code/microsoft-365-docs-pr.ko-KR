@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: 비즈니스 청구서 또는 송장에 대한 Microsoft 365 청구서 및 결제 정보와 구매 주문 번호를 변경하는 방법을 해석합니다.
 ms.date: 05/04/2021
-ms.openlocfilehash: 996c1856eebb378531670bbb8f28f64bcdb409bddce2a089aa70e008a12f81bc
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8881129b6d7013c731dbcb24ebd5f8e21e410b93
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53856367"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190439"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 청구서 또는 송장 이해
 

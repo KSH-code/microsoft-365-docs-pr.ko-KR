@@ -22,11 +22,11 @@ ms.collection:
 description: IRM(정보 권한 관리)을 사용하여 목록 또는 라이브러리에서 다운로드한 파일을 제어하고 보호할 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 84f0443cd31f26549dc1f5dc06be6e7bf52b05dc
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573670"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186356"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>목록 또는 라이브러리에 IRM(정보 권한 관리) 적용
 

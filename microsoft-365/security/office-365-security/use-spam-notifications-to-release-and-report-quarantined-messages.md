@@ -22,11 +22,11 @@ description: 관리자는 EOP(2016년 8월 2일)의 최종 사용자 스팸 알�
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: a07a4196b9ad936c6dc83d8eb300332ad9aaac47
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568459"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185523"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>사용자 스팸 알림을 사용하여 메시지 릴리스 및 보고
 

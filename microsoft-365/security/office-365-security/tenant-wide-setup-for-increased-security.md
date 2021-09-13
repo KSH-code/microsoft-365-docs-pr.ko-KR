@@ -21,11 +21,11 @@ description: 이 항목에서는 사용자 환경의 보안에 영향을 주는 
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 838b9b01790b85c3903206285356cc6c22507821
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548645"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187308"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테넌트 구성
 

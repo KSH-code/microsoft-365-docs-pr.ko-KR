@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 41a0c893e193c8690c0c50e5b12ecc8630b9a899
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570416"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185692"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>2016에서 인시던트 Microsoft 365 Defender
 
@@ -50,9 +50,9 @@ ms.locfileid: "58570416"
 - [인시던트 할당](#assign-incidents)
 - [해결](#resolve-an-incident)
 - [분류 및 결정 설정](#set-the-classification-and-determination)
-- [메모 추가](#add-comments)
+- [설명 추가](#add-comments)
 
-인시던트에 대한  인시던트 관리 창에서 인시던트 관리를 할 수 있습니다. 다음은 예입니다.
+인시던트에 대한 **인시던트 관리** 창에서 인시던트를 관리할 수 있습니다. 다음은 예입니다.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-manage.png" alt-text="인시던트의 인시던트 관리 창 예":::
 
@@ -74,7 +74,7 @@ Microsoft 365 Defender 영향을 받는 끝점 수, 영향을 받는 사용자, 
 
 ## <a name="add-incident-tags"></a>인시던트 태그 추가
 
-인시던트에 사용자 지정 태그를 추가할 수 있습니다. 예를 들어 인시던트 그룹에 공통적인 특성이 있는 플래그를 지정합니다. 나중에 특정 태그가 포함된 모든 인시던트에 대한 인시던트 큐를 필터링할 수 있습니다.
+예를 들어 인시던트 그룹에 공통 특성을 플래그 지정하기 위해, 사용자 지정 태그를 인시던트에 추가할 수 있습니다. 나중에 특정 태그가 포함된 모든 인시던트의 인시던트 큐를 필터링할 수 있습니다.
 
 입력을 시작할 때 선택한 태그 목록에서 선택할 수 있는 옵션이 있습니다.
 

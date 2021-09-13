@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 독일 신규 데이터 센터 Office 365 서비스로 전환할 때 사전 작업입니다.'
-ms.openlocfilehash: 8d2f33f7bd574610980e64c4da769f3418042bc302c1a5d33d081ceeeebfd4a9
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 77e3dbd3f819aea15632a0ba069249a44a8663fb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53899010"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191239"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -224,7 +224,7 @@ Office 365 통합된 타사 서비스 또는 LOB(LOB) 앱을 사용하는 경우
 
 |Step(s)|설명|영향|
 |---|---|---|
-|Dynamics 365 샌드박스 구독의 경우 Dynamics SQL 인스턴스의 프로덕션 환경을 Microsoft 클라우드 도이클랜드의 Dynamics 365 구독에서 다운로드해야 합니다. 샌드박스 마이그레이션 전에 최신 프로덕션 백업을 샌드박스로 복원해야 합니다.|Dynamics 365를 마이그레이션하려면 고객이 샌드박스 환경을 최신 프로덕션 데이터베이스로 새로 고쳐야 합니다.|FastTrack 팀은 고객이 건조 실행을 수행하여 8.x에서 9.1.x로 버전 업그레이드의 유효성을 검사하는 데 도움을 주게 됩니다.|
+|Dynamics 365 샌드박스 구독의 경우 Dynamics SQL 인스턴스의 프로덕션 환경을 Microsoft 클라우드 도이클랜드의 Dynamics 365 구독에서 다운로드해야 합니다. 샌드박스 마이그레이션 전에 최신 프로덕션 백업을 샌드박스로 복원해야 합니다.|Dynamics 365를 마이그레이션하려면 고객이 샌드박스 환경을 최신 프로덕션 데이터베이스로 새로 고쳐야 합니다.|FastTrack 팀은 고객이 건조 실행을 수행하여 8.x에서 9.1.x로 버전 업그레이드의 유효성을 검사하는 데 도움을 줄 것입니다.|
 
 
 ## <a name="power-bi"></a>Power BI

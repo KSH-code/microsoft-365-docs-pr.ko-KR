@@ -17,11 +17,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: Advanced eDiscovery 솔루션에 적용된 사례 제한, 인덱싱 제한 및 검색 제한에 대해 Microsoft 365.
 ms.openlocfilehash: 7771f653550c050250126b7ff93b83ee2e175937
-ms.sourcegitcommit: fce9a89b8280f41779835b18dceb59fa17384acf
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58666757"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188083"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 

@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: 핵심 eDiscovery 사례에서 콘텐츠를 내보내고 다운로드하는 방법을 Microsoft 365.
 ms.openlocfilehash: 68535f8623b26aa4f2b30dc88362f4550c256162
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567027"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184075"
 ---
 # <a name="export-content-from-a-core-ediscovery-case"></a>Core eDiscovery 케이스에서 콘텐츠 내보내기
 

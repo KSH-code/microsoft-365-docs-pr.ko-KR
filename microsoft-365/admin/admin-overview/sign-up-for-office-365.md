@@ -26,12 +26,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: 사용자 등록 프로세스를 진행하기 전에 알아야 할 Office 365.
 ms.date: 03/17/2021
-ms.openlocfilehash: 00745f4d936c0ee7f0a16270720fc87cb5dab2b179de4ce48b7628764152ab6a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8c9598215b5f5da7b4a62ca89bbc0fa5a94fe12d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827110"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185116"
 ---
 # <a name="how-to-sign-up---admin-help"></a>등록 방법 - 관리자 도움말
 
@@ -59,7 +59,7 @@ ms.locfileid: "53827110"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 요금제 선택에 도움이 필요하세요? 영업 컨설턴트가 질문에 답변해 드립니다. 모든 제품 [비교로 이동하여](https://products.office.com/compare-all-microsoft-office-products?tab=2) 페이지 왼쪽에 나열된 연락처 지원 옵션 중 하나를 선택합니다.
   

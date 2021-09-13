@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 프레젠테이션 또는 외부 리뷰에 대한 리뷰 집합에서 콘텐츠를 내보내거나 다운로드하는 방법을 Advanced eDiscovery 참조하세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8710f505d06e21d52a2445cd82780e8f0dff9b075623447a53be067bb9fe8d9d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 25c64cad6877a05dba9df418955a6a79a539993a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886002"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191532"
 ---
 # <a name="export-case-data-in-advanced-ediscovery"></a>사례 데이터를 내보낼 Advanced eDiscovery
 

@@ -19,11 +19,11 @@ metadata:
   ms.custom: seo-marvel-apr2020
   description: 이 문서에는 PST 파일을 가져오는 관리자를 위한 몇 가지 질문과 대답이 포함되어 있습니다. Microsoft 365 가져오기 서비스를 사용하여 PST 파일을 Office 365 있습니다.
   ms.openlocfilehash: d9f556deccae22a5d98411d0db292c4b8fc5f93b
-  ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/24/2021
-  ms.locfileid: "58507319"
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59191512"
 title: PST 파일 가져오기에 대한 FAQ
 summary: >
   **이 문서는 관리자를 위한 것입니다. PST 파일을 자신의 사서함으로 가져오시겠습니까? [.pst 파일에서](https://go.microsoft.com/fwlink/p/?LinkID=785075) 전자 메일, 연락처 및 일정 Outlook 참조**
@@ -45,7 +45,7 @@ sections:
       PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
 
 
-      또한 가져오기 작업에서 가져오기 작업을 Microsoft 365 규정 준수 센터 다음 중 하나에 해당해야 합니다.
+      또한 Microsoft 365 규정 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나를 충족해야 합니다.
 
 
       - Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.
@@ -79,10 +79,10 @@ sections:
   - question: >
       Azure Storage 영역으로 내 PST 파일을 업로드한 후 삭제되기까지 Azure에서 얼마나 보관되나요?
     answer: >
-      네트워크 업로드 방법을 사용하여 PST 파일을 가져오는 경우 Azure BLOB 컨테이너로 해당 파일을 업로드하는 것입니다.`ingestiondata` Microsoft 365 규정 준수 센터 **PST** 파일 가져오기 페이지에서 가져오기 작업이 진행 중이지 않는 경우 Azure의 컨테이너에서 가장 최근 가져오기 작업이 만들어진 후 30일 후에 Azure의 모든 PST `ingestiondata` 파일이 Microsoft 365 규정 준수 센터. 즉, PST 파일을 Azure에 업로드한 Microsoft 365 규정 준수 센터(네트워크 업로드 지침의 5단계에 설명)에서 새 가져오기 작업을 만들어야 합니다.
+      네트워크 업로드 방법을 사용하여 PST 파일을 가져오는 경우 Azure BLOB 컨테이너로 해당 파일을 업로드하는 것입니다.`ingestiondata` Microsoft 365 규정 준수 센터에서 **PST 파일 가져오기** 페이지의 가져오기 작업이 진행 중이 아니라면 Azure의 `ingestiondata` 컨테이너에 포함된 모든 PST 파일이 Microsoft 365 규정 준수 센터에서 가장 최근에 가져오기 작업이 생성된 날짜로부터 30일 후에 삭제됩니다. 즉, PST 파일을 Azure로 업로드한 후 30일 이내에 Microsoft 365 규정 준수 센터(네트워크 업로드 지침의 5단계에 설명됨)에 새 가져오기 작업을 만들어야 합니다.
 
 
-      즉, PST 파일이 Azure Storage 영역의 완료된 가져오기 작업 목록에 더 이상 표시되지 Microsoft 365 규정 준수 센터. 가져오기 작업의 **PST** 파일 가져오기 페이지에 여전히 Microsoft 365 규정 준수 센터 이전 가져오기 작업의 세부 정보를 볼 때 PST 파일 목록이 비어 있을 수 있습니다.
+      또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 Microsoft 365 규정 준수 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 Microsoft 365 규정 준수 센터에서 **PST 파일 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때는 PST 파일의 목록이 비어 있을 수 있습니다.
   - question: >
       How long does it take to import a PST file to a mailbox?
     answer: >
@@ -137,7 +137,7 @@ sections:
       PST 파일을 Microsoft 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
 
 
-      또한 가져오기 작업에서 가져오기 작업을 Microsoft 365 규정 준수 센터 다음 중 하나에 해당해야 합니다.
+      또한 Microsoft 365 규정 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나를 충족해야 합니다.
 
 
       - Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.
@@ -197,7 +197,11 @@ sections:
       다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 여러 PST 파일을 동일한 사서함으로 가져오는 경우 동시에 가져오지 않고 순차적으로(한 번에 하나씩) 가져옵니다.
   - question: >
       Microsoft에서 Azure에 내 PST 파일을 업로드한 후 삭제되기까지 Azure에서 얼마나 보관되나요?
-    answer: "조직의 Azure Storage 위치(라는 blob 컨테이너)의 모든 PST 파일은 조직의 PST 파일 가져오기 페이지에서 가장 최근 가져오기 작업을 만든 후 `ingestiondata` 30일 후에 Microsoft 365 규정 준수 센터. \n\n즉, PST 파일이 Azure Storage 영역의 완료된 가져오기 작업 목록에 더 이상 표시되지 Microsoft 365 규정 준수 센터. 가져오기 작업의 **PST** 파일 가져오기 페이지에 여전히 Microsoft 365 규정 준수 센터 이전 가져오기 작업의 세부 정보를 볼 때 PST 파일 목록이 비어 있을 수 있습니다.\n"
+    answer: >
+      조직의 Azure Storage 위치(`ingestiondata`라고 하는 Blob 컨테이너)에 있는 모든 PST 파일은 Microsoft 365 규정 준수 센터에서 **PST 파일 가져오기** 페이지의 가장 최근 가져오기 작업이 만들어지고 30일 후에 삭제됩니다.
+
+
+      또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 Microsoft 365 규정 준수 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 Microsoft 365 규정 준수 센터에서 **PST 파일 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때는 PST 파일의 목록이 비어 있을 수 있습니다.
   - question: >
       Microsoft 365로 가져올 수 있는 PST 파일 형식의 버전은 어떻게 되나요?
     answer: >

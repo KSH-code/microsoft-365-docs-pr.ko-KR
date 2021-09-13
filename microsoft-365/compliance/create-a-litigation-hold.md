@@ -16,12 +16,12 @@ description: 조사 중에 모든 사서함 콘텐츠를 보존하여 사서함�
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 58de1f44c6c58125b37c8cf0800d48dc0ae86f2a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 4a3271952a1f517f97e6b0a13044d2fac102e8ec
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566883"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189849"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보류 만들기
 
@@ -50,7 +50,7 @@ ms.locfileid: "58566883"
 
 1. <https://admin.microsoft.com>으로 이동하여 로그인합니다.
 
-2. 관리 센터의 탐색 창에서 사용자 및 활성 **> 클릭합니다.**
+2. 관리 센터의 탐색 창에서 사용자 활성 **사용자를**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**클릭합니다.**</a>
 
 3. 소송을 보류할 사용자를 선택합니다.
 

@@ -13,11 +13,11 @@ manager: laurawi
 ms.topic: article
 audience: Admin
 ms.openlocfilehash: e09bcee08051663191a12c4e2916d7d6512eb514
-ms.sourcegitcommit: 6c342a956b2dbc32be33bac1a23a5038490f1b40
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58533234"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191109"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비  
  
@@ -46,7 +46,7 @@ Wi-Fi 구성을 Microsoft Managed Desktop 배포하기 전에 각 Wi-Fi 네트�
  
 802.1x 인증을 사용하여 장치에서 LAN(Local Area Network)으로의 액세스를 보호하는 경우 필요한 구성 세부 정보를 Microsoft Managed Desktop 합니다. Microsoft Managed Desktop 이상을 실행하는 Windows 10, 버전 1809 WiredNetwork CSP(구성 서비스 공급자)를 통해 802.1x 구성 배포를 지원합니다. 자세한 내용은 [WiredNetwork CSP 설명서를 참조하십시오.](/windows/client-management/mdm/wirednetwork-csp) 
  
-유선 네트워크 구성 프로필을 Microsoft Managed Desktop 유선 회사 네트워크에 대한 조직의 요구 사항을 수집합니다. 이렇게 하려면 다음 단계를 따릅니다. 
+유선 네트워크 구성 프로필을 Microsoft Managed Desktop 유선 회사 네트워크에 대한 조직의 요구 사항을 수집합니다. 제거하려면 다음 단계를 수행합니다. 
  
  
 1. 기존 802.1x 프로필이 구성되어 있으며 LAN 네트워크에 연결된 장치에 로그인합니다.  

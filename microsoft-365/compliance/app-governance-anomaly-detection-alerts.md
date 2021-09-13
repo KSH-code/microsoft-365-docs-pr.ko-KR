@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: 이상 탐지 경고를 조사합니다.
 ms.openlocfilehash: 57e32f0fc2d50e5e1f1d4d9fb9e6b1520f0f99e6
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58747390"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190132"
 ---
 # <a name="investigate-anomaly-detection-alerts"></a>이상 탐지 경고 조사
 

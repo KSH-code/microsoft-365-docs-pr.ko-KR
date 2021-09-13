@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 국가, 지역 및 산업 규정, 표준 및 법률에 부합하는 평가를 구축하기 위한 템플릿을 제공합니다.
-ms.openlocfilehash: 7b81959f6db033468f5312f53744bceabb9e28768ec5213c11a22c000e2677ff
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 88d68e270990229164c442939cf93c6fa2d6781f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53820414"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189919"
 ---
 # <a name="compliance-manager-templates-list"></a>준수 관리자 서식 파일 목록
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 앱에 대한 결제 방법을 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: f931d627cf62ae70fe288d5f3840d66a0346bf37e3e10c568446084379e33921
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b0ed8541068fe02e0bd1f005a5a9c7ee8f50ae1b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906714"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188763"
 ---
 # <a name="update-the-payment-method-for-your-subscription"></a>구독의 결제 방법 업데이트
 

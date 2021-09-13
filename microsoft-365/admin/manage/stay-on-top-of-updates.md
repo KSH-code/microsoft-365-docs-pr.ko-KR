@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 719f4904-cbdd-4889-a0cf-fbd7837dfecd
 description: 메시지 센터, 대상 지정 릴리스Microsoft 365 로드맵 및 블로그 및 블로그를 사용하여 최신 Community.
-ms.openlocfilehash: 0740d94d930f291416599d7ccba4a36605108e53eb5996877c67ae145d6052ba
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d37680c4c0036f6e27619a09954d0776ca071e9e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53824518"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187083"
 ---
 # <a name="stay-on-top-of-changes"></a>변경 내용에 관한 최신 정보 확인
 

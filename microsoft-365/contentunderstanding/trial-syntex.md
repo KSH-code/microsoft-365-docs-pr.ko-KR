@@ -11,16 +11,18 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- admindeeplinkMAC
 search.appverid: ''
 localization_priority: Normal
 description: 조직에서 사용할 수 있는 파일럿 프로그램을 계획하고 SharePoint Syntex 방법을 학습합니다.
-ms.openlocfilehash: 336a4c164f15035168d8842b05cdd4b5c566a97a
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.openlocfilehash: 51854dafb7ae9c1de350f5f9f29eedc191b8c2aa
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863680"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189709"
 ---
 # <a name="run-a-trial-of-microsoft-sharepoint-syntex"></a>Microsoft 365 평가판 SharePoint Syntex
 
@@ -39,7 +41,7 @@ ms.locfileid: "58863680"
 
 - Microsoft 365 관리 센터 [](https://admin.microsoft.com)
     1. [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다.
-    2. 청구 **구매**  >  **서비스로 이동**
+    2. 청구 **구매**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**서비스로 이동**</a>
     3. 아래로 스크롤하여 **추가 기능** 섹션으로 이동합니다.
     4. 타일 SharePoint Syntex 세부 **정보를 선택합니다.**
     5. **사용 가능한 평가판** 을 선택하세요.

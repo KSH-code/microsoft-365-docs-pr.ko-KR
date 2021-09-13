@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 description: 관리자 계정을 설정하고 보호하는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 44b5f9bb07736e06f7e427e521b5c85364091020
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564257"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188684"
 ---
 # <a name="protect-your-administrator-accounts"></a>관리자 계정 보호
 

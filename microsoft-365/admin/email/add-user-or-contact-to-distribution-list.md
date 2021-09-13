@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: 직원, Microsoft 365 또는 공급업체와 같은 사용자 또는 연락처를 전자 메일 그룹에 추가하는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: af7581a7541835185a7cc8df12dcc58b779243ca
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566331"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184772"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>메일 그룹에 사용자 또는 연락처 추가
 

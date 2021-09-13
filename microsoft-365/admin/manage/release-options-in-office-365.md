@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: 새 제품 및 기능 업데이트에 대한 릴리스 옵션을 설정하는 방법을 Microsoft 365 관리 센터.
 ms.openlocfilehash: df64bbac95f9d902ed83080e639544feb384fd72
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566249"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187164"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 릴리스 옵션 설정
 

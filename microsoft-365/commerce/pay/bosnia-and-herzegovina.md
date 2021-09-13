@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c3ef97f98eb4ab0aea7964391bb84b2451315b6002fd979d7ac8caeb7d2c9d2e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 63c12d4174e0ed3ad031735fd73e17f4625c5671
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53796949"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188619"
 ---
 # <a name="payment-information-for-bosnia-and-herzegovina"></a>보스니아 헤르체고비나의 결제 정보
 

@@ -18,11 +18,11 @@ ms.collection:
 description: AD RMS(Active Directory Rights Management Service) 서버를 사용하도록 Exchange Online IRM(정보 권한 관리)을 구성하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 64d89d52b4e835c81ed1e2c8bbd54eaaae6f1823
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572062"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184260"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
 

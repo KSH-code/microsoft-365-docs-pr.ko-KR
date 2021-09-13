@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 랜섬웨어를 방지하기 위한 전자 메일 규칙을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 3dacaf51319f9a4b037d2e05c99ab9fa0e2e7e76807854c71997930e31193681
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 96822916753f2f70d481c213e7e31046f7081446
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53896550"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190509"
 ---
 # <a name="create-email-rules-to-prevent-ransomware"></a>랜섬웨어를 방지하기 위한 전자 메일 규칙 만들기
 

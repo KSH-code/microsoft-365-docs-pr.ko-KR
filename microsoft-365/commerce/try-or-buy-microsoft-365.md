@@ -17,15 +17,16 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
 - AdminTemplateSet
+- admindeeplinkMAC
 search.appverid: GEA150
 description: 30일 무료 평가판에 등록하여 Microsoft 365 Business Standard, Microsoft 365 Business Premium 또는 비즈니스용 Microsoft 365 앱.
 ms.date: 08/07/2020
-ms.openlocfilehash: 794b278be829a30bbea4833253ef45d75f1f1048add2ce493b2b65c1093b5de4
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3fc29097268ad4213f7a46d0a58d9eb24073924d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861330"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188307"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 사용해 보거나 구입
 
@@ -90,7 +91,7 @@ When you're ready to buy, see [Buy your trial version](#buy-a-subscription-from-
 
 비즈니스용 Microsoft 365 이미 있는 경우 해당 구독을 사용하여 Microsoft 365 관리 센터 구독을 시도할 수 있습니다.
 
-구독을 통해 구독을 Microsoft 365 관리 센터 새 구독은 기존 구독과 동일한 조직(도메인 네임스페이스)에 연결됩니다. 이 연결은 조직의 사용자를 구독 간에 이동하거나 필요한 추가 제품에 대한 라이선스를 할당하기 쉽게 합니다.
+Microsoft 365 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">]를</a>통해 구독을 추가하면 새 구독이 기존 구독과 동일한 조직(도메인 네임스페이스)과 연결됩니다. 이 연결은 조직의 사용자를 구독 간에 이동하거나 필요한 추가 제품에 대한 라이선스를 할당하기 쉽게 합니다.
 
 1. 관리 센터에서 청구 구매  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
 2. 서비스 **구매 페이지에** 조직에서 사용할 수 있는 계획이 표시됩니다. 시도할 Microsoft 365 계획을 선택해야 합니다.
@@ -104,7 +105,7 @@ When you're ready to buy, see [Buy your trial version](#buy-a-subscription-from-
 
 비즈니스용 Microsoft 365 이미 있는 경우 조직에 대한 다른 구독을 Microsoft 365 관리 센터 구독을 구입할 수 있습니다.
 
-관리 센터를 통해 다른 구독을 구입하면 새 구독이 기존 구독과 동일한 조직(도메인 이름 공간)과 연결됩니다. 이렇게 하면 조직의 사용자를 구독 간에 이동하거나 필요한 추가 구독에 대한 라이선스를 할당할 수 있습니다.
+Microsoft 365 관리 센터 통해 다른 구독을 구입하면 새 구독이 기존 구독과 동일한 조직(도메인 이름 공간)과 연결됩니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> 이렇게 하면 조직의 사용자를 구독 간에 이동하거나 필요한 추가 구독에 대한 라이선스를 할당할 수 있습니다.
 
 1. 관리 센터에서 청구 구매  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
 2. 서비스 **구매 페이지에서** 구입하려는 계획을 선택하고 세부 정보를 선택한 **다음** 구입을 **선택합니다.**
@@ -136,7 +137,7 @@ When you're ready to buy, see [Buy your trial version](#buy-a-subscription-from-
 새 계정이 있는 경우 첫 번째 구독을 설정하는 경우 안내 설치 문서를 사용하여 시작하는 데 도움이 될 수 있습니다.
 
 - [Microsoft 365 Business Basic 설정](../admin/setup/setup-business-basic.md)
-- [Microsoft 365 Business Standard 설정](../admin/setup/setup-business-standard.md)
+- [Microsoft 365 비즈니스 표준 설정](../admin/setup/setup-business-standard.md)
 - [Microsoft 365 Business Premium 설정](../business/set-up.md)
 - [비즈니스용 Microsoft 365 앱 설정](../admin/setup/setup-apps-for-business.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 내 구독으로 Microsoft 365 Business Standard 마이그레이션
+title: 내 Microsoft 365 Business Standard 구독으로 데이터 마이그레이션
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -15,13 +15,13 @@ ms.custom:
 - AdminSurgePortfolio
 description: 데이터를 Outlook, OneDrive Teams 마이그레이션할 Microsoft 365 Business Standard
 ms.openlocfilehash: 0a690c5092d3f288544edc5077605a6728bffc80
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866934"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186636"
 ---
-# <a name="migrate-data-to-my-microsoft-365-business-standard-subscription"></a>내 구독으로 Microsoft 365 Business Standard 마이그레이션
+# <a name="migrate-data-to-my-microsoft-365-business-standard-subscription"></a>내 Microsoft 365 Business Standard 구독으로 데이터 마이그레이션
 
 이 문서의 단계에 따라 OneDrive, Outlook Teams 데이터를 Microsoft 365 Business Standard 합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "58866934"
 
 - 이전 OneDrive 파일을 공유한 경우 파일을 이동한 후 새 OneDrive 파일을 다시 공유해야 합니다. 또한 이러한 파일을 공유하고 나면 원본 파일을 해당 파일에서 삭제하는 OneDrive. 이렇게 하면 이전과 공유한 파일의 이전 복사본을 참조할 수 없습니다.
 
-## <a name="step-set-up-outlook-for-email"></a>단계: 전자 메일에 Outlook 설정
+## <a name="step-set-up-outlook-for-email"></a>단계: 전자 메일용 Outlook 설정
 
 1. Windows 시작 메뉴에서 Outlook을 검색하고 선택합니다.
 
@@ -114,7 +114,7 @@ Exchange 관리 센터를 사용하여 모든 사용자의 전자 메일을 가�
 
 ## <a name="move-data-from-your-personal-microsoft-teams-account-to-new-teams-for-work-account"></a>개인 계정에서 Microsoft Teams 계정의 새 Teams 계정으로 이동
 
-1. 사용자 Microsoft Teams 열고 프로필 아이콘을 선택한 다음 직장 또는 학교 계정 **추가 를 선택합니다.**
+1. Microsoft Teams를 열고 프로필 아이콘을 선택한 다음 **회사 또는 학교 계정 추가** 를 선택합니다.
 
 2. 다음 단계에 따라 작업을 위해 새 계정을 Teams 추가합니다. 자세한 내용은 [로그인 및](https://support.microsoft.com/office/sign-in-and-get-started-with-teams-6723dc43-dbc0-46e6-af49-8a2d1c5cb937) 시작을 Teams 참조하세요.
 

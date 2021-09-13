@@ -19,12 +19,12 @@ metadata:
   search.appverid:
   - MET150
   description: 기본 모바일 및 보안에 대한 질문과 대답
-  ms.openlocfilehash: f899aecd313ffd4fbc1d94d44f2a1b9c41780984a9c8eb8383a51da661d80be8
-  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+  ms.openlocfilehash: 4d57b1fce05329b294aade2806400e343f7f6ad7
+  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "53826762"
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59185067"
 title: 기본 이동성 및 보안 FAQ(질문과 대답)
 summary: 이 문서에는 모바일 장치에서 모바일 장치를 관리하고 보호하는 데 도움이 되는 기능인 기본 이동성 및 보안에 대한 질문과 Microsoft 365. 질문에 대한 답변을 찾을 수 없는 경우 이 문서에 질문을 추가할 수 있도록 페이지에 설명을 남기면 알려주세요.
 sections:

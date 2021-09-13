@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 외부에서 모든 사용자 링크를 사용하여 비즈니스 Microsoft 365 쉽게 공유하는 방법을 배워야 합니다.
-ms.openlocfilehash: 61b61c5d2bbf303e500f57662d63388a5ff703b9b252566ba1281cb2b17306bd
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cbe6a12fd8d0c2b2ec16db32178f9c2559a08c22
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809543"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188836"
 ---
 # <a name="easily-share-files-externally"></a>외부에서 손쉽게 파일 공유
 

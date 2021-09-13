@@ -26,11 +26,11 @@ search.appverid:
 - MET150
 description: 몇 단계만 Microsoft 365 Active-Directory에 가입된 Windows 10 보호할 수 있도록 설정하는 방법을 알아보십시오.
 ms.openlocfilehash: 2a60437bafc7aae1928d73342555c030a71689cd
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595507"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184419"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>도메인에 가입된 Windows 10 장치를 관리하도록 Microsoft 365 Business Premium
 

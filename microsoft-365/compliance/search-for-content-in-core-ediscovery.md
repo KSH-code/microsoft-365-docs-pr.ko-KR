@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: Core eDiscovery 사례와 관련이 있을 수 있는 콘텐츠를 검색합니다.
 ms.openlocfilehash: 1637d5dafcf088dd2b069cda5e951aef3a2fcd1e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569024"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59183988"
 ---
 # <a name="search-for-content-in-a-core-ediscovery-case"></a>Core eDiscovery 사례에서 콘텐츠 검색
 
@@ -47,7 +47,7 @@ Core eDiscovery 검색을 만들 수 있는 경우:
 
 6. **위치** 페이지에서 검색할 콘텐츠 위치를 선택합니다. 사서함, 사이트 및 공용 폴더를 검색할 수 있습니다.
 
-    ![보류할 콘텐츠 위치를 선택하세요.](../media/ContentSearchLocations.png)
+    ![보류 시킬 콘텐츠 위치 선택.](../media/ContentSearchLocations.png)
   
    1. **Exchange 사서함**: 토글을 **켜기** 로 설정한 다음 **사용자, 그룹 또는 팀 선택** 을 클릭하여 보류할 사서함을 지정합니다. 검색 상자를 사용하여 보류 상태로 지정할 사용자 사서함 및 메일 그룹(그룹 구성원의 사서함을 보류)을 찾습니다. Microsoft Teams(채널 메시지), Office 365 그룹 및 Yammer 그룹과 연결된 사서함을 검색할 수도 있습니다. 사서함에 저장된 애플리케이션 데이터에 대한 자세한 내용은 [eDiscovery용 사서함에 저장된 콘텐츠](what-is-stored-in-exo-mailbox.md)를 참조하세요.
 
@@ -59,7 +59,7 @@ Core eDiscovery 검색을 만들 수 있는 경우:
 
 7. **검색 조건 정의** 페이지에서 키워드 쿼리를 입력하고, 필요한 경우 검색 쿼리에 조건을 추가합니다.
 
-   ![검색 쿼리를 구성합니다.](../media/ContentSearchQuery.png)
+   ![검색 쿼리 구성.](../media/ContentSearchQuery.png)
 
    1. 키워드, 메시지 속성(보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. **AND**, **OR**, **NOT**, **NEAR** 와 같은 부울 연산자를 사용하는 좀 더 복잡한 쿼리를 사용할 수 있습니다. 키워드 상자를 비워 두면 지정된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함됩니다. 자세한 내용은 [eDiscovery에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
 

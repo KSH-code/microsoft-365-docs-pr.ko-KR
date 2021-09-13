@@ -16,11 +16,11 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 43190dabe55ab3600a05aa8e6094c6ad7393a04d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567451"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191399"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -260,7 +260,7 @@ PowerShell을 사용하면 다음 표에 나와 있는 사용자 계정, 세그�
 | 세그먼트 | **Get-OrganizationSegment** cmdlet을 사용 합니다.<p> 구문: `Get-OrganizationSegment` <p> 이 cmdlet은 조직에 대해 정의된 모든 세그먼트의 목록을 표시합니다. |
 | 정보 장벽 정책 | **Get-InformationBarrierPolicy** cmdlet을 사용하세요. <p> 구문: `Get-InformationBarrierPolicy` <p> 이 cmdlet은 정의된 정보 장벽 정책 목록과 해당 상태를 표시합니다. |
 | 최신 정보 장벽 정책 응용 프로그램 | **Get-InformationBarrierPoliciesApplicationStatus** cmdlet을 사용하세요. <p> 구문: `Get-InformationBarrierPoliciesApplicationStatus`<p> 이 cmdlet은 정책 응용 프로그램이 완료, 실패 또는 진행 중인지 여부에 대한 정보를 표시합니다. |
-| 모든 정보 장벽 정책 응용 프로그램|`Get-InformationBarrierPoliciesApplicationStatus -All` 사용<p> 이 cmdlet은 정책 응용 프로그램이 완료, 실패 또는 진행 중인지 여부에 대한 정보를 표시합니다.|
+| 모든 정보 장벽 정책 응용 프로그램|`Get-InformationBarrierPoliciesApplicationStatus -All`을(를) 사용하세요.<p> 이 cmdlet은 정책 응용 프로그램이 완료, 실패 또는 진행 중인지 여부에 대한 정보를 표시합니다.|
 
 <!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 

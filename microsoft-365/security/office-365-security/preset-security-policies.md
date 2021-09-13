@@ -1,5 +1,5 @@
 ---
-title: 보안 정책 미리조정
+title: 미리 설정된 보안 정책
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,11 +16,11 @@ description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 50558ef4ff9c4f05f0e7833ef8a1697330c35362
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572842"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185555"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -49,7 +49,7 @@ ms.locfileid: "58572842"
 
 프로필에 따라 보호 수준이 결정됩니다. 다음 프로필을 사용할 수 있습니다.
 
-- **표준 보호:** 대부분의 사용자에게 적합한 기준 보호 프로필입니다.
+- **표준 보호**: 대부분의 사용자에게 적합한 기준 보호 프로필입니다.
 - **엄격한 보호:** 선택한 사용자(높은 가치의 대상 또는 우선 순위 사용자)에 대한 보다 적극적인 보호 프로필입니다.
 
 조건 및 예외와 함께 프로필이 누구인지 또는 적용되지 않는지 결정하는 규칙을 사용할 수 있습니다.
@@ -78,7 +78,7 @@ ms.locfileid: "58572842"
 
     - EOP [](set-up-anti-phishing-policies.md#spoof-settings) 피싱 방지 정책에서 사용할 수 있는 동일한 스푸핑 설정입니다.
     - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
-    - [고급 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+    - [고급 피싱 임곗값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
   - [금고 표준 미리](set-up-safe-links-policies.md)  설정 보안 정책 및 엄격한 미리 설정 보안 정책 이라는 링크 **정책입니다.**
 
@@ -130,7 +130,7 @@ Microsoft Defender와는 다른 사용자에게 EOP 보호를 적용할 수 Offi
    - **그룹**
    - **도메인**
 
-   적절한 상자를 클릭하고, 값 입력을 시작하고, 결과에서 원하는 값을 선택합니다. 이 프로세스를 필요한 만큼 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![아이콘을 제거합니다.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
+   적절한 상자를 클릭하고, 값 입력을 시작하고, 결과에서 원하는 값을 선택합니다. 이 프로세스를 필요한 만큼 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![제거 아이콘.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
    사용자 또는 그룹의 경우 대부분의 식별자(이름, 표시 이름, 별칭, 전자 메일 주소, 계정 이름 등)를 사용할 수 있지만 해당 표시 이름은 결과에 표시됩니다. 사용자의 경우 별표(\*)만 입력하여 사용 가능한 모든 값을 확인합니다.
 

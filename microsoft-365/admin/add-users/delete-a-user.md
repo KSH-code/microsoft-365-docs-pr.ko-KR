@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제하는 방법과 사용자의 전자 메일 및 전자 메일로 할 OneDrive 콘텐츠 및 제품 라이선스를 유지할지 여부에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: 8fe01b286f59ea43f1e810f4e70422aeda140db803c76f8b7dafe04fa06953b1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 81dc71c6734340146e1dd13bcd59696eed5be202
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53815746"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185276"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   

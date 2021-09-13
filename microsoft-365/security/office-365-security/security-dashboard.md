@@ -20,11 +20,11 @@ description: 새 보안 대시보드를 사용하여 위협 방지 Office 365 �
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 18cde7063e8a25426b56ee184b71408016a6116d
-ms.sourcegitcommit: a4e6a5a92ea527461a7835ddc83e2b01986e566b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58918354"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189089"
 ---
 # <a name="security-dashboard-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 대시보드
 

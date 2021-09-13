@@ -16,19 +16,20 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
+- admindeeplinkMAC
 search.appverid: MET150
 description: 앱에서 타사 앱을 활성화하고 관리하는 방법을 Microsoft 365 관리 센터.
 ms.date: 04/15/2021
-ms.openlocfilehash: d7de6613ae77d70631b926ac1c2e72fab8b1837bacaf6f6f0e5a4735ef5dd06b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: df3c5372396394f1b2c80bb07aca0a79d8883bf4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53831438"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190262"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직의 타사 앱 구독 관리
 
-새 앱 관리에서 타사 앱에 대한 라이선스 및 청구를 관리할 수 Microsoft 365 관리 센터. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
+새 앱의 에서 타사 앱에 대한 라이선스 및 청구를 관리할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">수 Microsoft 365 관리 센터.</a> 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>서비스로 소프트웨어 앱을 다운로드하는 방법
 

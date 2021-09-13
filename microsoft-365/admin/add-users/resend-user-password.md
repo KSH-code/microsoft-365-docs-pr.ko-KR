@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
 description: 암호를 다시 설정하고 새 사용자로 전자 메일을 보내는 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: edf6adb8c0485e094d13c2ec0cde3b9ae1f537fb91f0b86cd5d8b213ecb6bd62
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 916ac2f92f8cd6a7236525c733d4b5061368b0ef
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827374"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185179"
 ---
 # <a name="resend-a-users-password---admin-help"></a>사용자 암호 다시 보내기 - 관리자 도움말
 

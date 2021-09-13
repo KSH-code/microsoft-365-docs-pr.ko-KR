@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: 조직에 대한 개인 정보 관리를 설정하고, 역할 및 사용 권한을 설정하고, 중요한 설정을 구성하는 방법을 배워야 합니다.
 ms.openlocfilehash: 229d4bec78424858cd7034c8953313f8593e90e3
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745968"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186027"
 ---
 # <a name="get-started-with-privacy-management-preview"></a>개인 정보 관리 시작(미리 보기)
 

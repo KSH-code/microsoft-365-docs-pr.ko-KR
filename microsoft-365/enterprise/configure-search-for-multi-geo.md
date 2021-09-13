@@ -14,11 +14,11 @@ f1.keywords:
 - NOCSH
 description: Multi-Geo 환경에서 검색을 구성하는 방법을 학습합니다. 다중 위치 환경의 OneDrive 클라이언트만 결과를 반환할 수 있습니다.
 ms.openlocfilehash: a991638e5f0b1270950b50823def61eb4d60669b
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566847"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187940"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo 검색 구성
 
@@ -66,7 +66,7 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 <thead>
 <tr class="header">
 <th align="left">기능</th>
-<th align="left">작동 방법</th>
+<th align="left">작업 방법</th>
 <th align="left">해결 방법</th>
 </tr>
 </thead>

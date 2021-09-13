@@ -22,12 +22,12 @@ ms.custom:
 description: ZAP(제로 아워 자동 제거)는 Exchange Online 사서함에 있는 배달된 메시지를 정크 메일 폴더 또는 배달 후 스팸 또는 피싱으로 확인된 검역소로 이동합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 50dddd695181cb3069d517cdc6bea4d5a0ef80580f0703907c821082069b7152
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: fdfc39b8bd18d33f95b85028e3661008a17a1209
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56884526"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187299"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>ZAP(제로 아워 자동 Exchange Online
 

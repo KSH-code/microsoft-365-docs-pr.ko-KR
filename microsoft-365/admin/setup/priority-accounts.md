@@ -15,12 +15,12 @@ ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 description: 비즈니스에 큰 영향을 미치는 계정으로 보내거나 보낸 전자 메일로 전송된 실패 및 지연된 전자 메일 메시지를 모니터링합니다.
-ms.openlocfilehash: 4ade66d811fd63cbf7bb28d254f21ee454741f13
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: 5d1122502c2ba7eff653874f5affba7774e9feb5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394603"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186667"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>우선 순위 계정 관리 및 모니터링
 
@@ -48,7 +48,7 @@ ms.locfileid: "58394603"
 이 **Premium 메일** Flow 모니터링 기능은 다음 요구 사항을 충족하는 조직에서만 사용할 수 있습니다.
 
 - 조직에서는 라이선스 수가 5,000개 이상(예: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. 예를 들어 조직에서는 적격 제품 총 5,500개의 라이센스에 대해 3,000개의 Office 365 E3 라이선스 및 2,500개의 Microsoft 365 E5 라이선스를 보유할 수 있습니다.
-- 조직에는 매월 최소 50명의 활성 Exchange Online 사용자가 있어야 합니다.
+- 조직은 하나 이상의 핵심 워크로드(Teams, 비즈니스용 One Drive, SharePoint Online, Exchange Online 및 Office 앱에 대해 월별 활성 사용자가 50명 이상 Office 합니다.
 
 > [!NOTE]
 > 최대 250개 우선 순위 계정을 모니터링할 수 있습니다.
@@ -75,7 +75,7 @@ ms.locfileid: "58394603"
 
 활성 사용자 페이지에서 우선 순위 계정을 추가합니다.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
 2. 사용자 활성 **사용자로** 이동하여 페이지 맨 위에 있는 세 개의 점(추가 작업)을  >   선택합니다. 우선 **순위 계정 관리를 선택합니다.**
 

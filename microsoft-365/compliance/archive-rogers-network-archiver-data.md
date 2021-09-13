@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 Rogers 네트워크 데이터를 원격 저장소에 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 19f92d5d8d241818588ef32ad7560b8e9a7e9239
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 52e200274ec74fc74e554d277bf8bd5323445015
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570644"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184340"
 ---
 # <a name="set-up-a-connector-to-archive-rogers-network-data"></a>Rogers 네트워크 데이터를 보관할 커넥터 설정
 
@@ -52,6 +52,8 @@ Rogers 모바일 네트워크의 데이터가 사용자 사서함에 저장되�
 - 조직의 Rogers 계정 및 대금 청구 연락처 세부 정보를 확인하여 온보더링 양식을 완료하고 Rogers에서 메시지 보관 서비스를 주문할 수 있습니다.
 
 - 3단계에서 Rogers 네트워크 보관 커넥터를 만드는 사용자에게는 3단계에서 사서함 가져오기 내보내기 역할이 할당되어야 Exchange Online. 이 연결은 서버의 데이터  커넥터 페이지에서 커넥터를 추가하는 Microsoft 365 규정 준수 센터. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 사서함 가져오기 내보내기 역할을 조직의 조직 관리 역할 그룹에 추가할 수 Exchange Online. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "역할 [](/Exchange/permissions-exo/role-groups#create-role-groups) 그룹에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 Exchange Online.
+
+- 이 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 사용할 수 있습니다. 타사 응용 프로그램 및 서비스는 Microsoft 365 인프라 외부에 있는 타사 시스템에서 조직의 고객 데이터를 저장, 전송 및 처리해야 할 수 있으므로 Microsoft 365 및 데이터 보호 약정의 적용을 Microsoft 365 수 있습니다. Microsoft는 타사 응용 프로그램에 연결하는 데 이 제품을 사용하는 것은 해당 타사 응용 프로그램이 FEDRAMP 규격임을 암시하는 표현을 사용하지 않습니다.
 
 ## <a name="create-a-rogers-network-archiver-connector"></a>Rogers 네트워크 보관 커넥터 만들기
 

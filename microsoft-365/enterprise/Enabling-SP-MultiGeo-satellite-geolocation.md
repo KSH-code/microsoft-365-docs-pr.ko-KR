@@ -16,11 +16,11 @@ ms.collection:
 localization_priority: Normal
 description: 이 문서에서는 위성 지리적 위치에서 전역 또는 SharePoint 관리자를 위한 SharePoint Multi-Geo 정보를 제공합니다.
 ms.openlocfilehash: 731c8b0125a9f53264d18de55a76f8123021e436
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570224"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187980"
 ---
 # <a name="enabling-sharepoint-multi-geo-in-your-satellite-geo-location"></a>위성 지리적 위치에서 SharePoint Multi-Geo 사용
 

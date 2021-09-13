@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무를 위해 고부가가치 콘텐츠를 관리하는 Microsoft 365용 레코드 관리 솔루션이 필요하지만, 어디서부터 시작해야 할지 잘 모르겠나요? 시작하려면 몇 가지 실무 지침을 읽어보세요.
-ms.openlocfilehash: 8837b764b3e84f16ed1d79d2e0aaf0d677c40fcce2105a34c837ae4bd638342a
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8e6f32a7f1bc68449f1b43531725f07999043b82
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53886014"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191459"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 

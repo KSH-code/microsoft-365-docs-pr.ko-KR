@@ -20,11 +20,11 @@ ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: 조직의 Power BI 이 비즈니스 분석 서비스를 사용하는 방법에 대해 자세히 알아보십시오.
 ms.openlocfilehash: 5301d3cd6b10101543741637014455aa2b2a207a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566955"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186987"
 ---
 # <a name="power-bi-in-your-organization"></a>조직의 Power BI
 

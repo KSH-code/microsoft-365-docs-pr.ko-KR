@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 게스트와 함께 팀을 만드는 방법을 Microsoft Teams.
-ms.openlocfilehash: 4a4736c993c54064d1711f2a350ee0cdef5b835b639d65e0e529f4784d547ee1
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a6d30684bed3a750a11e311f4e47d88940adbd0f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893302"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188779"
 ---
 # <a name="create-a-team-with-guests"></a>게스트와 함께 팀 만들기
 

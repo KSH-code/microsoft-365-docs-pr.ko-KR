@@ -20,11 +20,11 @@ search.appverid:
 - MOE150
 description: 콘텐츠 공동 작업의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
 ms.openlocfilehash: fa4e84f0cf454e28cd773292f2a4065cb1252acf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566931"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186907"
 ---
 # <a name="content-collaboration--people-experiences"></a>콘텐츠 공동 작업 - 사람 환경
 

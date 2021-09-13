@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Core eDiscovery에서 보유자 및 비관리 데이터 원본에 적용된 법적 보유와 관련된 오류를 해결합니다.
-ms.openlocfilehash: a1e53397b4a0b18aa5c110a0499e239b51e24bd587fa8b04351d930d684c7e8d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3e5cc6351d5026feda560bee646a1e6a03475ee2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53813934"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191412"
 ---
 # <a name="troubleshoot-ediscovery-hold-errors"></a>eDiscovery 보류 오류 문제 해결
 

@@ -25,11 +25,11 @@ ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국에서 Office 365, 안정성 및 확장 가능한 클라우드 서비스에 대한 요구 사항을 충족하도록 설계된 21Vianet에서 운영하는 21Vianet에 의해 운영되는 비즈니스에 대해 자세히 알아보아야 합니다.
 monikerRange: o365-21vianet
 ms.openlocfilehash: 6313212d39b81e9954681848e5ac6747ff6ee3ea
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567835"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186756"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -154,9 +154,9 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
 |**On-Premises Exchange Version**|**MRM(분할 보관)**|**OWA 액세스(분할 보관)**|**원본 위치 eDiscovery**|**사서함 감사**|**In-Place Hold/Archiving**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| 모든 2013 CU5  <br/> | 지원됨 <br/>  | 지원되지 않음 <br/>  | 지원 <br/>  | 지원  <br/> | 지원 <br/> |
-| 모든 2010 SP3 <br/>  | 지원되지 않음 <br/>  | 지원되지 않음 <br/>  | 지원되는<sup>1</sup> <br/> | 지원  <br/> | 지원 <br/>  |
-| 2013 CU5 사전 서버 하나 이상  <br/> | 지원되는<sup>2</sup> <br/> | 지원되지 않음  <br/> | 지원되지 않음 <br/> | 지원  <br/> | 지원 <br/> |
+| 모든 2013 CU5  <br/> | 지원됨 <br/>  | 지원되지 않음 <br/>  | 않음 <br/>  | 않음  <br/> | 않음 <br/> |
+| 모든 2010 SP3 <br/>  | 지원되지 않음 <br/>  | 지원되지 않음 <br/>  | 지원되는<sup>1</sup> <br/> | 않음  <br/> | 않음 <br/>  |
+| 2013 CU5 사전 서버 하나 이상  <br/> | 지원되는<sup>2</sup> <br/> | 지원되지 않음  <br/> | 지원되지 않음 <br/> | 않음  <br/> | 않음 <br/> |
 |||
 
 <sup>1</sup> 모든 사서함에 대해 별도의 검색이 Exchange Online 합니다.  <br/> <sup>2</sup> MRM 보관 사서함 이동 정책은 Exchange 2013 CU5 이상 서버에 있는 사서함에 사용할 수 있습니다. 

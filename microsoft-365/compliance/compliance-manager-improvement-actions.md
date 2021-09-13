@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 컨트롤에 대한 구현 및 테스트를 수행하는 방법을 설명합니다. 작업 할당, 저장소 설명서 및 보고서 내보내기
-ms.openlocfilehash: 55bcdb6082d643dee15be8c2e7539e7d897bac66c1c716e7982a9f6203a32044
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f2674e24ed38362c5c7563a574e0dba9c81f2584
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53802481"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189969"
 ---
 # <a name="assign-and-complete-improvement-actions-in-compliance-manager"></a>준수 관리자에서 개선 작업 할당 및 완료
 

@@ -18,11 +18,11 @@ description: 관리자는 분석을 위해 Microsoft에 좋은 메시지와 잘�
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 898fd42e687ec9d5776c1791ed353937921af4ff
-ms.sourcegitcommit: 9469d16c6bbd29442a6787beaf7d84fb7699c5e2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58400286"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187355"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Microsoft에 메시지와 파일 보고
 
@@ -39,17 +39,17 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 ****
 
-|메서드|설명|
+|방법|설명|
 |---|---|
 |[제출 포털을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출](admin-submission.md)|사서함이 있는 조직의 관리자에게 권장되는 보고 Exchange Online(독립 실행형 EOP에서는 사용할 수 없습니다).|
-|[보고서 메시지 또는 피싱 보고 추가 기능 사용](enable-the-report-message-add-in.md)|Outlook 및 웹용 Outlook(이전의 Outlook Web App). <p> 구독에 따라 사용자가 추가 기능으로 보고한 메시지는 [관리](admin-submission.md)제출 포털, 자동화된 조사 및 [응답(AIR)](air-view-investigation-results.md)결과, [사용자가](view-email-security-reports.md#user-reported-messages-report)보고한 메시지 보고서 및 탐색기 에서 사용할 수 [있습니다.](threat-explorer-views.md#email--submissions) <p> 보고된 메시지를 지정한 사서함으로 복사하거나 리디렉션하도록 구성할 수 있습니다. 자세한 내용은 사용자 제출 [정책 을 참조하세요.](user-submission.md)
-|[Outlook에서 가양성 및 가음성 보고](report-false-positives-and-false-negatives.md)|보고서 메시지 기능을 사용하여 가음성(차단되거나 정크 폴더로 전송된 양호한 전자 메일) 및 거짓 부정(받은 편지함으로 배달된 원치 않는 전자 메일 또는 피싱)을 Exchange Online Protection(EOP)에 제출합니다.|
-|[분석을 위해 Microsoft에 수동으로 메시지 전송](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|스팸 및 피싱이 아닌 스팸에 대해 특정 Microsoft 전자 메일 주소로 첨부된 메시지를 수동으로 전송합니다.|
+|[보고서 메시지 또는 보고서 피싱 추가 기능 사용](enable-the-report-message-add-in.md)|Outlook 및 웹용 Outlook(이전의 Outlook Web App). <p> 구독에 따라 사용자가 추가 기능으로 보고한 메시지는 [관리](admin-submission.md)제출 포털, 자동화된 조사 및 [응답(AIR)](air-view-investigation-results.md)결과, [사용자가](view-email-security-reports.md#user-reported-messages-report)보고한 메시지 보고서 및 탐색기 에서 사용할 수 [있습니다.](threat-explorer-views.md#email--submissions) <p> 보고된 메시지를 지정한 사서함으로 복사하거나 리디렉션하도록 구성할 수 있습니다. 자세한 내용은 사용자 제출 [정책 을 참조하세요.](user-submission.md)
+|[Outlook에서 가양성 및 가음성 보고](report-false-positives-and-false-negatives.md)|보고서 메시지 기능을 사용하여 가양성(차단되거나 정크 폴더로 전송된 양호한 전자 메일) 및 가음성(받은 편지함으로 배달된 원치 않는 전자 메일 또는 피싱)을 EOP(Exchange Online Protection)에 제출합니다.|
+|[분석을 위해 수동으로 Microsoft에 메시지 제출](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|특정 Microsoft 전자 메일 주소에 수동으로 스팸과 스팸이 아닌 메일, 피싱에 관한 첨부 메시지를 보냅니다.|
 |[메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft)|사용자가 분석을 위해 Microsoft에 메시지를 보고할 때 이를 알 수 있는 메일 흐름 규칙(전송 규칙)을 만드는 방법을 학습합니다.|
-|[분석을 위해 Microsoft에 맬웨어 및 맬웨어가 아닌 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|사이트 Microsoft 보안 인텔리전스 사용하여 첨부 파일 및 기타 파일을 제출합니다.|
+|[분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Microsoft 보안 인텔리전스 사이트를 사용해 첨부 파일 및 기타 파일을 제출합니다.|
 |
 
 스팸 또는 피싱 메시지가 배달되지 않고 검리된 경우 사용자는 검색 포털의 Quarantine에서 Microsoft에 메시지를 Microsoft 365 Defender 있습니다. 자세한 내용은 [Find and release quarantined messages as a user in Microsoft 365.](find-and-release-quarantined-messages-as-a-user.md)
 
 > [!NOTE]
-> Microsoft로 전송되는 데이터는 북미 데이터 센터의 Office 365 규정 준수 경계에 있습니다. 이 데이터는 엔지니어링 팀의 분석가가 필터의 효율성을 개선하는 데 도움을 주며 검토합니다.
+> Microsoft에 제출하는 데이터는 북미 데이터 센터의 Office 365 규정 준수 경계 안에서 보관됩니다. 이 데이터는 필터링 효과를 개선하는 데 도움을 주기 위해 엔지니어링 팀의 분석가가 검토합니다.

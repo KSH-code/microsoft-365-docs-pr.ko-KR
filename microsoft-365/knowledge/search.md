@@ -11,11 +11,11 @@ search.appverid: ''
 localization_priority: None
 description: 특정 항목에서 항목을 검색하는 Microsoft Viva 방법을 참조하세요.
 ms.openlocfilehash: 525ec03621d28c26ecdc717648b3e9d6dcf51024
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573082"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187748"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>다음 Microsoft Search 사용하여 Microsoft Viva 항목 찾기
 

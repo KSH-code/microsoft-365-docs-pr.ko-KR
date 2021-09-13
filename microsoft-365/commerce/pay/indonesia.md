@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce9687f75f7c3d599bf7d6189bbe355bd65850d056897b6fa1add789bd52d8ab
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: ec5fdc978b8303d832509ce253f110a15b1e7caf
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843290"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188379"
 ---
 # <a name="payment-information-for-indonesia"></a>인도네시아의 결제 정보
 

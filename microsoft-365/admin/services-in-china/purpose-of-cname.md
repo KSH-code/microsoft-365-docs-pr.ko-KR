@@ -20,12 +20,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: 인증 프로세스에 가장 적합한 서버로 연결되는 Office 365 'MSOID' CNAME 레코드에 대해 자세히 알아보면 응답 속도가 빨라집니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 9e9ee6c2121d1422e0982b0959d5933ad394a8ed3576783b06078b782b183865
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: a1d587abc9db03c9a1f7c5f66711fde3648a0e96
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822370"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184467"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>MSOID용 Office 365 CNAME 레코드의 용도
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7f077c956f8fca45e2ec677f8464da97f9d6366070655d4072b475aae5bc6e9e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2fbfe46a3f0f99adca974765e370f2bbd766b882
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53852782"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186572"
 ---
 # <a name="contact-support-for-vatican-city"></a>바티틱시 지원에 문의
 

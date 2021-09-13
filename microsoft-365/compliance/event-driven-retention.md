@@ -21,11 +21,11 @@ ms.custom:
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
 ms.openlocfilehash: e5be01ed75468d97c0cadf229512bce2f90efea5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567051"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184116"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>이벤트가 발생할 때 보존 시작
 

@@ -24,11 +24,11 @@ ROBOTS: NO INDEX, NO FOLLOW
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Windows 10 컴퓨터에 32비트 Office 앱을 자동으로 설치하고 업데이트된 Windows 10 방법을 배워야 합니다.
 ms.openlocfilehash: ea131e37fa7f82a0ab03aa52b71569e3c96a2c7f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566111"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186979"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>비즈니스용 Office 클라이언트 배포를 Microsoft 365 준비
 

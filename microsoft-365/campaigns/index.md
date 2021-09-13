@@ -26,11 +26,11 @@ search.appverid:
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 소규모 기업, 일정 및 정치 캠페인을 포함한 소규모 기업을 위한 Microsoft 365 Business Premium 보안 및 공동 작업 권장 사항입니다.
 ms.openlocfilehash: 8e1da206a23a58d568d6e0e4a9efe04cef510a85
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
-ms.translationtype: HT
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573790"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188723"
 ---
 # <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>소규모 기업 및 캠페인을 위한 Microsoft 365
 

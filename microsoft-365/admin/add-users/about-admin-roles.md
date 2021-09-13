@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 서비스 관리자와 같은 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
 ms.openlocfilehash: 42c28d230cef36f7f6e0421cc46f64a53222eca8
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585611"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185363"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 

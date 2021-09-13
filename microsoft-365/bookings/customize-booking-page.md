@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 116d7a84-a7a0-4911-a1e9-debb2cca7c43
 description: Microsoft Bookings 앱에서 예약 페이지의 색 테마를 변경합니다.
 ms.openlocfilehash: 5faf769eeee8a34989e1fc3f1d5859c9770f85a3
-ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58822739"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190602"
 ---
 # <a name="customize-and-publish-your-booking-page"></a>예약 페이지 사용자 정의 및 게시
 

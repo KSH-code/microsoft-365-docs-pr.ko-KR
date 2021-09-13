@@ -23,11 +23,11 @@ ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 콘텐츠 검색의 검색 결과를 로컬 Microsoft 365 규정 준수 센터 내보낼 수 있습니다. 전자 메일 결과는 PST 파일로 내보낼 수 있습니다. 사이트 SharePoint 비즈니스용 OneDrive 콘텐츠는 기본 Office 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 8ce3317dbd9b1d21ab1e703fce1b168885b81aa2
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567039"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191559"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 

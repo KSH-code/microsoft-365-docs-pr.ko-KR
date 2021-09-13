@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 모임 세부 정보 - 사람들이 생산성 점수를 경험합니다.
-ms.openlocfilehash: e9de4ab128628b4308b1796ac0c83637283bba7f505e348206c36179a8c19e73
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 47a29ee208f9c6957a3fcf7d1a4b0c71518c680b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823145"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186899"
 ---
 # <a name="meetings--people-experiences"></a>모임 - 사람 환경
 

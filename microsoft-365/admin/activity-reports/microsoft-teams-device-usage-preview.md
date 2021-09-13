@@ -22,11 +22,11 @@ search.appverid:
 - MOE150
 description: Microsoft Teams 보고서에서 Microsoft Teams 앱 사용 현황 보고서를 확인하여 조직에서 사용되는 Microsoft 365 정보를 얻습니다.
 ms.openlocfilehash: a64664c6d9e78499501d16f56b41aa9be6058eaa
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565003"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185459"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft Teams 사용 현황
 

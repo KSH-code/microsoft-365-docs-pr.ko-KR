@@ -20,11 +20,11 @@ description: 보안 기능을 구현하여 보안 환경을 보호하기 위한 
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: dc401f20a7f7425e619fc057dbe481341db993ff
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58503230"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187324"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위
 
@@ -61,7 +61,7 @@ ms.locfileid: "58503230"
 
 ****
 
-|영역|작업|
+|영역|Tasks|
 |---|---|
 |보안 관리|<ul><li>보안 점수를 확인하고 현재 점수()를 기록해 <https://security.microsoft.com/securescore> 넣습니다.</li><li>사용자에 대한 감사 로깅을 Office 365. 감사 [로그 검색을 참조합니다.](../../compliance/search-the-audit-log-in-security-and-compliance.md)</li><li>[보안 Microsoft 365 구성합니다.](tenant-wide-setup-for-increased-security.md)</li><li>Microsoft 365 Defender 포털에서 대시보드 및 보고서를 Cloud App Security.</li></ul>|
 |위협 방지|[커넥트 Microsoft 365 Microsoft Cloud App Security](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) 기본 위협 감지 정책을 사용하여 모니터링을 시작할 수 있습니다. 이상 검색을 위한 기준을 작성하는 데 7일이 소요됩니다. <p>  관리자 계정에 대한 보호를 구현합니다.<ul><li>관리자 활동에 전용 관리자 계정을 사용하세요.</li><li>관리자 계정에 대해 MFA(다단계 인증)를 적용합니다.</li><li>관리자 [활동에는 Windows 10 보안이](/windows-hardware/design/device-experiences/oem-highly-secure) 유지되는 디바이스를 사용합니다.</li></ul>|

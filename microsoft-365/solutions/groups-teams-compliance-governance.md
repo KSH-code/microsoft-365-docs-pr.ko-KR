@@ -17,11 +17,11 @@ f1.keywords: NOCSH
 recommendations: false
 description: 사용자 그룹, Microsoft 365 및 Teams 준수 옵션에 대해 SharePoint 대해 자세히 알아보습니다.
 ms.openlocfilehash: 93bf2830d29f21f2239a17b9c2e381c46e85eea1
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394615"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187228"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365, Teams 및 SharePoint 준수 옵션
 

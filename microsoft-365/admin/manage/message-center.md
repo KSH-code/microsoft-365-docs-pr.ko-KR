@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 새로운 기능 및 Microsoft 365 및 기타 중요한 공지 사항을 추적하는 데 대한 메시지 센터의 역할에 대한 개요를 얻습니다.
 ms.openlocfilehash: fec3b0e88f7f399fcde821d1cdc55baa99c477e9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567003"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187163"
 ---
 # <a name="message-center"></a>메시지 센터
 

@@ -30,11 +30,11 @@ search.appverid:
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: 앱 관리 정책을 만들거나 편집하고 사용자의 개인 앱 디바이스에서 작업 파일을 보호하는 Windows 10 대해 자세히 알아보습니다.
 ms.openlocfilehash: 66ddde8321742d7bcaf6294e905fdd9601482c0a
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360606"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184844"
 ---
 # <a name="set-or-edit-application-protection-settings-for-windows-10-devices"></a>디바이스의 응용 프로그램 보호 Windows 10 설정 또는 편집
 
@@ -42,7 +42,7 @@ ms.locfileid: "58360606"
 
 ## <a name="edit-an-app-management-policy-for-windows-10"></a>사용자에 대한 앱 관리 정책 Windows 10
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.     
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.     
 2. 왼쪽 nav에서 장치 **정책을** \> **선택 합니다.**
 1. 기존 앱 Windows 정책을 선택한 다음 편집 **을 선택하세요.**
 1. 변경하려는 설정 옆에 있는 편집을 선택한 다음 저장 을 **선택 합니다.** 
@@ -51,7 +51,7 @@ ms.locfileid: "58360606"
 
 사용자들이 업무를 수행할 수 있는 개인 Windows 10 장치를 갖고 있는 경우, 해당 장치에서도 데이터를 보호할 수 있습니다.
   
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 
 2. 왼쪽 nav에서 장치 정책 **추가** \> **를** \> **선택 합니다.**
 3. **정책 추가** 창에서 이 정책의 고유 이름을 입력합니다. 
 4. **정책 유형** 에서 **Windows 10용 응용 프로그램 관리** 를 선택합니다.

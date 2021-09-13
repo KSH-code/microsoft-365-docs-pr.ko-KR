@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: eabd58f43e1275b3ae7ae3b8563e97299fef1233
-ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
+ms.openlocfilehash: b8acad4520fc588517083574d41465e277b9c96a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58928767"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184124"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -358,10 +358,6 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 8. 모니터링되는 끝점에서 데이터에 대한 활동 탐색기를 확인합니다. 장치에 대한 위치 필터를 설정하고 정책을 추가한 다음 정책 이름을 기준으로 필터링하여 정책의 영향을 확인합니다. 필요한 경우 [활동 탐색기로 시작](data-classification-activity-explorer.md)을 참조하세요.
 
 9. 이벤트에 대한 활동 탐색기를 확인합니다.
-
-### <a name="scenario-5-configure-a-policy-to-use-the-customized-business-justification"></a>시나리오 5: 사용자 지정된 비즈니스 근거를 사용하도록 정책 구성
-
-
 
 ## <a name="see-also"></a>참고 항목
 

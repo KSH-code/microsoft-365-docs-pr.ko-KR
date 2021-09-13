@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 17a-4 Bloomberg DataParser 커넥터를 설정하고 사용하여 Bloomberg 데이터를 Microsoft 365.
 ms.openlocfilehash: 93cc1fa23bd5cee77d12db7f2a6867ed030764b4
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569204"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186316"
 ---
 # <a name="set-up-a-connector-to-archive-bloomberg-data"></a>Bloomberg 데이터를 보관할 커넥터 설정
 

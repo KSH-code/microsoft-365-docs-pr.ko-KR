@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7e3077980755f81a3ca86569b53051a2851191de
-ms.sourcegitcommit: b3c4816b55657b87ed4a5f6a4abe3d505392218e
+ms.openlocfilehash: 7665fbd52e45636988b375e4b811e3f93d8f3981
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53726335"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185891"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -75,13 +75,13 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 �
 
   사용으로 **설정하고** 인증된 프록시 사용 안 **을 선택합니다.**
 
-  ![그룹 정책 설정의 이미지1](images/atp-gpo-proxy1.png)
+  ![그룹 정책 설정의 이미지1.](images/atp-gpo-proxy1.png)
 
 - **관리 템플릿 > Windows** 구성 요소 > 데이터 수집 및 Preview 빌드> 연결된 사용자 환경 및 원격 분석 구성:
 
   프록시 구성
 
-  ![그룹 정책 설정의 이미지2](images/atp-gpo-proxy2.png)
+  ![그룹 정책 설정의 이미지 2.](images/atp-gpo-proxy2.png)
 
   이 정책은 레지스트리 키 아래에 REG_SZ REG_DWORD 두 레지스트리 값을 REG_DWORD `TelemetryProxyServer` `DisableEnterpriseAuthProxy` 값으로 `HKLM\Software\Policies\Microsoft\Windows\DataCollection` 설정합니다.
 
@@ -135,7 +135,7 @@ netsh winhttp reset proxy
 **** 
 |도메인 목록의 스프레드시트|설명|
 |---|---|
-|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> [여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)|
+|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지입니다.](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> [여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)|
 |
 
 프록시 또는 방화벽에 HTTPS 검색(SSL 검사)이 활성화된 경우 위의 표에 나열된 도메인을 HTTPS 검색에서 제외합니다.
@@ -180,7 +180,7 @@ netsh winhttp reset proxy
 
 4. Microsoft Defender for Endpoint URL 목록을 확인하여 해당 지역의 전체 요구 사항 목록을 확인합니다(서비스 URL 스프레드시트를 [참조하세요).](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 
-    ![조직의 관리자 Windows PowerShell](images/admin-powershell.png)
+    ![조직의 관리자 Windows PowerShell.](images/admin-powershell.png)
 
 .ods.opinsights.azure.com, .oms.opinsights.azure.com 및 .agentsvc.azure-automation.net URL 끝점에 사용되는 와일드카드( )를 특정 작업 영역 ID로 바꿀 \* \* 수 \* \* 있습니다. 작업 영역 ID는 환경 및 작업 영역과 관련이 있으며, 작업 영역 포털 내의 테넌트 온보더링 섹션에서 Microsoft 365 Defender 있습니다.
 
@@ -237,7 +237,7 @@ netsh winhttp reset proxy
 >
 > TelemetryProxyServer가 설정되어 있는 경우 레지스트리 또는 그룹 정책을 통해 끝점에 대한 Defender가 정의된 프록시에 액세스할 수 없는 경우 직접로 변경됩니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

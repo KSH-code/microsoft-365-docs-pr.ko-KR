@@ -31,11 +31,11 @@ search.appverid:
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 도메인 및 사용자 추가, Microsoft 365 Business Premium 정책 설정 등을 포함하여 사용자 지정에 대한 설정 단계를 검색합니다.
 ms.openlocfilehash: 7e01a27361ba681a6475c5e0165d8efbb16371a8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568195"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186740"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 Microsoft 365 Business Premium 설정
 

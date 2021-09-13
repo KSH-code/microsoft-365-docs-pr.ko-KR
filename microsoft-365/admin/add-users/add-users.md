@@ -21,11 +21,11 @@ search.appverid:
 description: 각 팀 구성원에게는 비즈니스용 Microsoft 365에 로그인하고 액세스할 수 있는 사용자 계정이 필요합니다. 사용자를 추가하고 라이선스를 할당하는 방법을 알아보세요.
 ms.date: 07/01/2020
 ms.openlocfilehash: b7fa0842812a83e510d7e200ebef3db4507d4b9d
-ms.sourcegitcommit: 38a07b23d41763275628ab89e2e4e58ae2926997
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58347015"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185331"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 

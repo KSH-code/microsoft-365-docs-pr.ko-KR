@@ -26,11 +26,11 @@ search.appverid:
 - MOE150
 description: 다음 단계에 따라 이전 직원의 모바일 장치 액세스를 차단합니다.
 ms.openlocfilehash: 8c5b279bc85d6c99fd8722d1f9fd4d4b3757e793
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564713"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185212"
 ---
 # <a name="step-5---wipe-and-block-a-former-employees-mobile-device"></a>5단계 - 이전 직원의 모바일 장치 지우기 및 차단
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c92788d13292501076e98e3cafeb2d145835de4d5ddde6b7822e79bc58680a7b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c678cb8d9eece9ff3a900a7d2b0c6bf95ad8eda9
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53838730"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185635"
 ---
 # <a name="redirecting-accounts-from-microsoft-defender-for-endpoint-to-microsoft-365-defender"></a>끝점용 Microsoft Defender에서 계정으로 Microsoft 365 Defender
 

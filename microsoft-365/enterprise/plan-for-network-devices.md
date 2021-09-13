@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 ms.assetid: 073433ca-3511-4db9-b173-7a2edca57691
 description: '요약: 네트워크에 연결하는 데 사용되는 네트워크 용량, WAN 가속기 및 부하 분산 장치에 대한 고려 사항을 Office 365.'
-ms.openlocfilehash: bda9fc9e9005530e97bc0033fc13813fceeb77d84e39f44726d259fd8847e8e8
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e1209c13eb24d11a2cc9692957bc4ee5f6310f41
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894902"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187908"
 ---
 # <a name="plan-for-network-devices-that-connect-to-office-365-services"></a>Office 365 서비스에 연결되는 네트워크 장치 계획
 

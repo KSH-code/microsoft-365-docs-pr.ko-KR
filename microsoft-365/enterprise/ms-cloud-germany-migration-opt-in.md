@@ -16,14 +16,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
+- admindeeplinkMAC
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: '
-ms.openlocfilehash: 003a643bd861d3937d9e0c62f487d36e950f14c9
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 4dcd608fcd999c8d07fdedb569279980a943caa0
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575651"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191289"
 ---
 # <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 새 독일 데이터 센터 Office 365 서비스로의 새 마이그레이션에 옵트인(opt in)하는 방법
 
@@ -33,7 +34,7 @@ ms.locfileid: "58575651"
 
 ## <a name="how-to-request-migration"></a>마이그레이션을 요청하는 방법
 
-Microsoft 클라우드 독일(도이치클란드 Microsoft 클라우드)에 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 마이그레이션을 위해 옵트인(opt in)할 수 있는 Microsoft 365 관리 센터 페이지가 표시됩니다. Opt-In 페이지의 Microsoft 365 관리 센터 등록을 더 이상 허용하지 않습니다. 그러나 프로세스는 참조를 위해 아래에 간략하게 설명되어 있습니다.  
+독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 마이그레이션을 위해 옵트인(opt <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">in)할</a> 수 있는 Microsoft 365 관리 센터 있는 것입니다. Opt-In 페이지의 Microsoft 365 관리 센터 등록을 더 이상 허용하지 않습니다. 그러나 프로세스는 참조를 위해 아래에 간략하게 설명되어 있습니다.  
 
 페이지에 액세스하려면 왼쪽 **설정** 창에서 페이지를 확장한 다음 조직 프로필 **을 클릭합니다.**
 
@@ -61,7 +62,7 @@ Microsoft 주도 접근 방식에 옵트인(opt in)한 조직에 대한 마이�
 
 고객 테넌트 관리자는 전자 메일로 알림을 받게 되며, Microsoft 지원 마이그레이션에 대해 마이그레이션에 옵트인(opt in)이 자동으로 수행된다고 알림이 메시지 센터에 표시됩니다. 이 알림은 자동 옵트인(opt in) 30일 전에 전송됩니다. 마이그레이션 옵트인 후 모든 통신 및 상태 업데이트가 메시지 센터의 고객 테넌트 관리자에게 전송됩니다.
 
-고객 및 파트너 테넌트 관리자는 마이그레이션 프로세스를 가능한 한 Microsoft 365 관리 센터 수 있도록 마이그레이션에 옵트인(opt in)하는 것이 좋습니다.
+고객 및 파트너 테넌트 관리자는 마이그레이션 프로세스를 가능한 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">한 Microsoft 365 관리 센터</a> 수 있도록 마이그레이션에 옵트인(opt in)하는 것이 좋습니다.
 
 ## <a name="next-step"></a>다음 단계
 

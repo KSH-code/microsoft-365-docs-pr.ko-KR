@@ -26,11 +26,11 @@ search.appverid:
 - MOE150
 description: 이전 직원 사서함의 콘텐츠를 저장하는 방법에 대해 자세히 알아보겠습니다.
 ms.openlocfilehash: 24a1fbff978bdc266e778b7fca84c882f9677cfe
-ms.sourcegitcommit: fd348579346522ead16a6bd8ce200a0b8ae8f7d4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58831852"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185236"
 ---
 # <a name="step-2---save-the-contents-of-a-former-employees-mailbox"></a>2단계 - 이전 직원 사서함의 내용 저장
 

@@ -18,11 +18,11 @@ ms.assetid: ''
 description: 사례에서 세부 정보를 보고, 편집하고, 대량으로 편집하는 방법을 Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: e542a76e55e0ed9d75a1756026ff9a4f8c1d59ac
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567715"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188068"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>관리 사례에서 Advanced eDiscovery 관리
 

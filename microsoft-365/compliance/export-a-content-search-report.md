@@ -23,11 +23,11 @@ ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: 검색 결과에서 콘텐츠 검색의 실제 결과를 내보내는 Microsoft 365 규정 준수 센터 검색 결과 보고서를 내보낼 수 있습니다. 보고서에는 내보낼 각 항목에 대한 자세한 정보가 포함된 검색 결과 및 문서가 요약되어 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 56a61bb1cd0fa9952f85d75ae50f42754c583ce7
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570248"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184084"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 

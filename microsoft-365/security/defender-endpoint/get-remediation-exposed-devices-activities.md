@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 1ee64608e9ce6ce24dc40f1729303ef99b162cab
-ms.sourcegitcommit: d016e3bd30c0dd73c4cd3d804c0b6941b5eb3e87
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683531"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190992"
 ---
 # <a name="list-exposed-devices-of-one-remediation-activity"></a>한 번의 수정 작업이 있는 노출된 장치 목록
 
@@ -63,10 +63,10 @@ ms.locfileid: "58683531"
 
 속성(id)|데이터 형식|설명|예제
 :---|:---|:---|:---
-id|String|장치 ID|w2957837fwda8w9ae7f023dba081059dw8d94503
-computerDnsName|String|장치 이름|PC-SRV2012R2Foo.UserNameVldNet.local
+id|문자열|장치 ID|w2957837fwda8w9ae7f023dba081059dw8d94503
+computerDnsName|문자열|장치 이름|PC-SRV2012R2Foo.UserNameVldNet.local
 osPlatform|String|장치 운영 체제|WindowsServer2012R2
-rbacGroupName|String|이 장치가 연결된 장치 그룹의 이름입니다.|서버
+rbacGroupName|문자열|이 장치가 연결된 장치 그룹의 이름입니다.|서버
 
 ## <a name="example"></a>예제
 
@@ -114,7 +114,7 @@ GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-ae
 }
 ```
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 - [수정 방법 및 속성](get-remediation-methods-properties.md)
 - [ID로 수정 작업 1개 가져오기](get-remediation-one-activity.md)

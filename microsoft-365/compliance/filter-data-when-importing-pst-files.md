@@ -20,11 +20,11 @@ ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 ms.custom: seo-marvel-apr2020
 description: PST 파일을 가져올 때 Microsoft 365 가져오기 서비스의 지능형 가져오기 기능을 사용하여 데이터를 필터링하는 방법을 Microsoft 365.
 ms.openlocfilehash: b893c0678d2821855bfc09ee703e3aa4cb8119cb
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569072"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191492"
 ---
 # <a name="filter-data-when-importing-pst-files"></a>PST 파일을 가져올 때 데이터 필터링
 

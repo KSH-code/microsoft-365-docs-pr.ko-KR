@@ -14,11 +14,11 @@ metadata:
   ms.date: 08/30/2021
   localization_priority: Priority
   ms.openlocfilehash: 2edb618e32b18d42db7c2ef233bac9ded7723fd4
-  ms.sourcegitcommit: c41e3f48451e2d7b45901faee21b1e1d19a16688
+  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/31/2021
-  ms.locfileid: "58822919"
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59187516"
 landingContent:
 - title: 엔드포인트용 Microsoft Defender
   linkLists:
@@ -28,7 +28,7 @@ landingContent:
       url: microsoft-defender-endpoint.md
     - text: Endpoint 요금제 1에 대한 Defender란?
       url: defender-endpoint-plan-1.md
-    - text: 끝점 계획 1에 대한 Defender와 계획 2 비교
+    - text: 엔드포인트용 Defender 플랜 1과 플랜 2 비교
       url: defender-endpoint-plan-1-2.md
   - linkListType: whats-new
     links:

@@ -17,11 +17,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에는 Office 2007 또는 Office 2010을 사용하여 업그레이드를 계획하는 데 도움이 되는 리소스가 포함되어 있습니다.
 ms.openlocfilehash: 1e4379510ba6c4cf36200a6f49f56aa11a151140
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58378038"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187900"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>Office 2007 또는 Office 2010 서버 및 클라이언트에서 업그레이드 계획
 

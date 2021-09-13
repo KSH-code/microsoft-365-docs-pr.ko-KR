@@ -21,11 +21,11 @@ search.appverid:
 - MOE150
 description: 조직에서 Yammer 그룹 활동 보고서를 통해 조직에서 만들어 Yammer 그룹 수와 해당 활동을 알 수 있습니다.
 ms.openlocfilehash: 18ed4519a0f7859d8084f2144a58f4a726db530a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564749"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185371"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 활동 보고서
 
@@ -54,7 +54,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 |그룹 이름  <br/> |그룹의 이름입니다. <br/> |
 |그룹 관리자  <br/> |그룹 관리자 또는 소유자의 이름입니다.  <br/> |
 |삭제됨  <br/> |삭제된 그룹 Yammer 수입니다. 그룹이 삭제되었지만 보고 기간 중 활동이 있는 경우 이 플래그가 true로 설정되어 표에 표시됩니다.  <br/> |
-|유형  <br/> |그룹 유형(공개 또는 비공개)입니다. <br/> |
+|형식  <br/> |그룹 유형(공개 또는 비공개)입니다. <br/> |
 |연결 Office 365  <br/> |그룹이 Yammer 그룹인지 여부를 Microsoft 365 나타냅니다. <br/> |
 |마지막 활동 날짜(UTC)  <br/> | 그룹에서 메시지를 읽거나 게시하거나 좋아하는 최근 날짜입니다.  <br/> |
 |구성원  <br/> | 그룹의 구성원 수입니다.  <br/> |

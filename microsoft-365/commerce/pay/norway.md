@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 606ab13fd8457bf6bb61bef2f3ce512c9db0cff999f23be18bc625c982366d75
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 06d850153cf07202111571342068854ebd867ada
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53906426"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186403"
 ---
 # <a name="payment-information-for-norway"></a>노르웨이의 결제 정보
 

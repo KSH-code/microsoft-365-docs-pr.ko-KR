@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 9f7c2ff2-af65-4557-8840-0b84ce96d9bc
 description: 메시지 센터 게시물은 영어로만 표시되지만 메시지 센터에 대해 지정한 언어로 자동으로 Microsoft 365.
 ms.openlocfilehash: 84d88c507b16e81fd63f28261cc27be4883584c3
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394255"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184508"
 ---
 # <a name="language-translation-for-message-center-posts"></a>메시지 센터 게시물에 대한 언어 번역
 

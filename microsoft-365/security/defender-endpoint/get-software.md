@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 110b86974badde65450f4264daf9373f46f8993d
-ms.sourcegitcommit: 99817013bcb26b7ed051e011c8addb716cc91d8f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58350031"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190922"
 ---
 # <a name="list-software-inventory-api"></a>소프트웨어 인벤토리 목록 API
 
@@ -45,7 +45,7 @@ ms.locfileid: "58350031"
 <br>```$skip```.
 <br>[끝점용 Microsoft Defender를 사용하여 OData 쿼리의 예를 참조합니다.](exposed-apis-odata-samples.md)
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 

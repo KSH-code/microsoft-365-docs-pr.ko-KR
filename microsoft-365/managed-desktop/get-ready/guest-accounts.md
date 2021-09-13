@@ -11,11 +11,11 @@ manager: laurawi
 ms.topic: article
 audience: Admin
 ms.openlocfilehash: bb181ab213cc02e5289681b8c3965a96bd8b8dcb
-ms.sourcegitcommit: 00a8a3376ea02770143af9a80cbe17a2b62636e3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365000"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191102"
 ---
 # <a name="prerequisites-for-guest-accounts"></a>게스트 계정에 대한 필수 구성 요소
 
@@ -49,13 +49,13 @@ Microsoft Managed Desktop 액세스하려면 Azure AD 조직에서 다음 설정
 ## <a name="steps-to-get-ready-for-microsoft-managed-desktop"></a>준비 단계 Microsoft Managed Desktop
 
 1. [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)를 감토하세요.
-2. 준비 [평가 도구를 실행합니다.](readiness-assessment-tool.md)
-1. 에서 [회사 포털](../get-started/company-portal.md)구입합니다.
+2. [준비 상태 평가 도구](readiness-assessment-tool.md)를 실행하세요.
+1. [회사 포털](../get-started/company-portal.md)을 구입하세요.
 1. 게스트 계정의 선행 준비를 검토합니다(이 문서).
-1. 네트워크 [구성을 확인합니다.](network.md)
-1. [인증서 및 네트워크 프로필을 준비합니다.](certs-wifi-lan.md)
-1. [데이터에 대한 사용자 액세스를 준비합니다.](authentication.md)
-1. [앱 준비](apps.md).
-1. [매핑된 드라이브를 준비합니다.](mapped-drives.md)
-1. [인쇄 리소스 준비.](printing.md)
-1. 주소 [장치 이름 입니다.](address-device-names.md)
+1. [네트워크 구성](network.md)을 확인합니다.
+1. [인증서 및 네트워크 프로필을 준비](certs-wifi-lan.md)합니다.
+1. [데이터에 대한 사용자 액세스를 준비](authentication.md)합니다.
+1. [앱을 준비](apps.md)합니다.
+1. [매핑된 드라이브를 준비](mapped-drives.md)합니다.
+1. [인쇄 리소스를 준비](printing.md)합니다.
+1. [장치 이름](address-device-names.md)을 기입합니다.

@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 중앙 집중식 추가 기능을 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 학습합니다.
 ms.openlocfilehash: 4dd2cbc842d10770b544df014685173a8888df67
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566273"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184499"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 

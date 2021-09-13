@@ -18,11 +18,11 @@ ms.topic: article
 ms.date: 03/27/2020
 ms.technology: mde
 ms.openlocfilehash: bf92c1764ed2b81b1f4409efc2e7bc7fae94185d
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863839"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187596"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-alerts-queue"></a>엔드포인트용 Microsoft Defender 경고 큐 보기 및 구성
 
@@ -59,7 +59,7 @@ ms.locfileid: "58863839"
 경고 심각도|설명
 ---|---
 높음 <br> (빨강)|일반적으로 APT(고급 영구 위협)와 관련된 경고입니다. 이러한 경고는 장치에 노출될 수 있는 손상의 심각도로 인한 높은 위험을 나타냅니다. 몇 가지 예로는 자격 증명 도난 도구 활동, 그룹과 연결되지 않은 랜섬웨어 활동, 보안 센서 변조 또는 악의적인 공격을 나타내는 모든 악의적인 활동이 있습니다.
-Medium <br> (주황색)|APT(Advanced Persistent Threat)의 일부일 수 있는 끝점 감지 및 위반 후 동작에 대한 대응 경고입니다. 여기에는 공격 단계의 일반적인 관찰된 동작, 변이적 레지스트리 변경, 의심스러운 파일 실행이 포함됩니다. 일부는 내부 보안 테스트의 일부일 수 있습니다. 또한 고급 공격의 일부일 수 있는 조사가 필요합니다.
+보통 <br> (주황색)|APT(Advanced Persistent Threat)의 일부일 수 있는 끝점 감지 및 위반 후 동작에 대한 대응 경고입니다. 여기에는 공격 단계의 일반적인 관찰된 동작, 변이적 레지스트리 변경, 의심스러운 파일 실행이 포함됩니다. 일부는 내부 보안 테스트의 일부일 수 있습니다. 또한 고급 공격의 일부일 수 있는 조사가 필요합니다.
 낮음 <br> (노란색)|보행 맬웨어와 관련된 위협에 대한 경고입니다. 예를 들어 해킹 도구, 맬웨어가 아닌 해킹 도구(예: 탐색 명령 실행, 로그 지우기 등)는 조직을 대상으로 하는 고급 위협을 나타내지 않습니다. 조직의 사용자가 격리된 보안 도구 테스트에서 제공될 수도 있습니다.
 정보 <br> (회색)|네트워크에 해로운 것으로 간주되지는 않지만 잠재적인 보안 문제에 대한 조직의 보안 인식을 강화할 수 있는 경고입니다.
 

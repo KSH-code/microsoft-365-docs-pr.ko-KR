@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: scheduler
 localization_priority: Normal
 description: 예약자에 스케줄러 Microsoft 365.
-ms.openlocfilehash: 0fbb6fbccc9e3d9cdd7b274eba707af4b0ede2438091db5520b8a52050048320
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 2987861856611ae4698f49dc8123a5cf733074ef
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53818914"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187676"
 ---
 # <a name="how-to-use-scheduler-for-microsoft-365"></a>Microsoft 365용 스케줄러 사용 방법
 

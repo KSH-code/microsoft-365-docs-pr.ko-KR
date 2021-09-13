@@ -31,11 +31,11 @@ search.appverid:
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
 description: AutoPilot 프로필을 사용하면 사용자 장치에 Windows 방법을 제어할 수 있습니다. 프로필에는 설치 건너뛰기 같은 기본 및 선택적 Cortana 포함되어 있습니다.
 ms.openlocfilehash: 9d425e73a5cedf51ce8267afa9505cbde8b97038
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360633"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184908"
 ---
 # <a name="about-autopilot-profile-settings"></a>AutoPilot 프로필 설정 정보
 

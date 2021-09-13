@@ -24,11 +24,11 @@ search.appverid:
 - MOE150
 description: 그룹 Microsoft 365 사용하면 사용자 그룹에 공유 리소스 모음에 대한 액세스 권한을 Microsoft 365 팀워크를 주도할 수 있습니다.
 ms.openlocfilehash: 08e90d5197e59f6c1cf6dc89343b263194925bf4
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394411"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184932"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -83,7 +83,7 @@ Microsoft 365 그룹의 수명 주기를 보다 자동화된 방식으로 관리
 |구성원 수|1,000개가 넘는 경우 1,000개만 그룹 대화에 동시 액세스할 수 있습니다. <br>사용자는 일정에 액세스할 때 지연을 알 수 있으며 대규모 그룹의 대화에 액세스할 때 Outlook.|
 |사용자가 구성원이 될 수 있는 그룹 수|7,000|
 |파일 저장소|구독한 사용자당 1 테라바이트 + 10GB + 구입한 다른 저장소 무제한의 추가 저장소를 구입할 수 있습니다.|
-|그룹 사서함 크기|50GB|
+|그룹 사서함 크기|50 GB|
 
 조직에서 사용할 수 있는 Microsoft 365 그룹의 기본 최대 수는 500,000개입니다. 기본 제한을 초과하려면 Microsoft 지원에 문의해야 합니다. 그룹 제한에 Microsoft 365 대한 자세한 내용은 Microsoft 365 [그룹 - 관리자 도움말을 참조하세요.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 

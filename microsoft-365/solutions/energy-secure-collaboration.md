@@ -14,11 +14,11 @@ localization_priority: Priority
 description: Microsoft 365에서는 에너지 회사가 데이터와 시스템을 계속 안전하게 유지하고 규정을 준수하는 한편, 최신 공동 작업 플랫폼으로 전환하도록 도와줍니다.
 ms.custom: seo-marvel-jun2020
 ms.openlocfilehash: a9e104516b203d81ef69058b2d31d4b4c97df39e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58570380"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189039"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>에너지 산업에 대한 주요 규정 준수 및 보안 고려 사항
 ![클라우드를 사용하는 다양한 업계 전체 보기를 위한 실제 사례 비유.](../media/solution-arch-center/MSC17_global_016.png)

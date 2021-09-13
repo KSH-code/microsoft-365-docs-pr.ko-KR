@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 description: 피싱, Office 365 및 기타 위협으로부터 중요한 데이터를 보호하고 보호할 수 있는 Microsoft Defender를 설정하십시오.
 ms.openlocfilehash: f7e82497baff1f14d1a1ff2cfc1d0e05c38700be
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360522"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186851"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 

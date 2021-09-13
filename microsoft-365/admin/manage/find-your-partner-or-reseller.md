@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
 description: '새 Microsoft 365 파트너를 찾거나 과거에 함께 일한 파트너에 대한 연락처 정보를 얻는 방법을 알아보는 방법을 배워야 합니다. '
 ms.openlocfilehash: ac557a04039c9cf618f2ed1fd0e8c0d967e76386
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394267"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184523"
 ---
 # <a name="find-your-partner-or-reseller"></a>파트너 또는 대리점 찾기
 

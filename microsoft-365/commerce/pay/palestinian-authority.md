@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e2d2ac369c1fe333898cebf73b7e5eb01faebefb98b192d2a5359533e6b45f5e
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: e2245c4d0d247a2f425e28227f655383684dab90
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900330"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186387"
 ---
 # <a name="payment-information-for-palestinian-authority"></a>팔레스타인 기관의 결제 정보
 

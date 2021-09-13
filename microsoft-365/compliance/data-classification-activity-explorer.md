@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
 ms.openlocfilehash: 8aff58bfd37fbf4e8573546f84f7670424e6b4d8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571402"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184204"
 ---
 # <a name="get-started-with-activity-explorer"></a>활동 탐색기 시작하기
 

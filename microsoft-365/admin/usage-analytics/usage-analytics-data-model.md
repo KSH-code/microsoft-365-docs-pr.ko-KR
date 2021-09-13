@@ -22,11 +22,11 @@ search.appverid:
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: '사용 현황 분석이 API에 연결되는 방법을 알아보고 다양한 Microsoft 365 서비스의 월별 사용 추세를 제공합니다.  '
 ms.openlocfilehash: 2f271414f515d2c3a86c6e59d64dc62f44f8ef01
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603306"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186532"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 

@@ -23,11 +23,11 @@ search.appverid:
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: 비즈니스용 앱으로 조직을 설정하고 사용자의 Microsoft 365 데이터를 보호하기 위한 요구 사항에 대해 자세히 알아보습니다.
 ms.openlocfilehash: f92cd8d49ba645788549e5490102d76feff51dd3
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58377747"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186820"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>비즈니스용 디바이스에서 데이터를 보호하기 위한 Microsoft 365 선행
 

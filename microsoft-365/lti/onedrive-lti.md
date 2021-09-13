@@ -14,11 +14,11 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: 과제를 만들고 등급을 지정하고, 과정 콘텐츠를 작성 및 구성하고, 새로운 Microsoft OneDrive Learning 도구 상호 관리 앱을 사용하여 실시간으로 파일을 공동 작업합니다.
 ms.openlocfilehash: e67e772ce8ef460075729b34bc7da86d486c51e9
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863413"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189559"
 ---
 # <a name="integrate-microsoft-onedrive-lti-with-canvas"></a>Canvas Microsoft OneDrive LTI 통합
 

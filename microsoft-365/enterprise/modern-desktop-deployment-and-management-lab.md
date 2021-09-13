@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
 ms.openlocfilehash: 8831293d1b17649ae387aab9ab99063ba31bef15
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58255976"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189612"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 배포 랩 키트
 

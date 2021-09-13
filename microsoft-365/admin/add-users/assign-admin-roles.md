@@ -29,11 +29,11 @@ search.appverid:
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 사용자가 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에게 관리자 역할을 할당하는 방법을 설명합니다.
 ms.openlocfilehash: 0eeafd8c91a9430db09713902fb55d9491dcac8d
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585669"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185307"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 

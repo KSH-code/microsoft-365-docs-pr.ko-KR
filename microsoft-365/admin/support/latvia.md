@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 66b915924bbb582db6cb2ac886a3956b6a186cfdd4dbac9a008232182f9a6080
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7b52cdc7eee24989febd6d69dc0e4603a20bfa4c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53821214"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190642"
 ---
 # <a name="contact-support-for-latvia"></a>라트비아 지원에 문의
 

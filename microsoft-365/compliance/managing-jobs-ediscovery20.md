@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Advanced eDiscovery 작업을 사용하면 다양한 작업 수행과 관련된 장기 실행 프로세스의 상태를 추적할 Advanced eDiscovery 있습니다.
-ms.openlocfilehash: 09b114ad39f2bbc7868a5ea6bf2871e0f3cba4a386d359316518bbf1bbe886a0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 27ac98d1f98e85800c8ca3dfc91cc5e0803ae2e8
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53871796"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188052"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>작업 관리 Advanced eDiscovery
 
@@ -31,7 +31,7 @@ ms.locfileid: "53871796"
 |검토 집합에 데이터 추가 | 사용자가 검토 집합에 컬렉션을 추가합니다. 이 작업은 다음 두 개의 하위 작업으로 구성됩니다. </br>• **Export** - 컬렉션의 항목 목록이 생성됩니다. </br>•  수집 & 인덱싱 - 검색 쿼리와 일치하는 컬렉션의 항목이 Azure Storage 위치(수집이라는 프로세스)에 복사된 다음 Azure Storage 위치의 항목이 다시 인덱싱됩니다. 이 새 인덱스는 데이터 집합의 항목을 쿼리하고 분석할 때 사용됩니다. </br></br>자세한 내용은 [리뷰 집합에 검색 결과 추가를 참조하세요.](add-data-to-review-set.md) |
 |다른 검토 집합에 데이터 추가 | 사용자는 동일한 경우 한 검토 집합의 문서를 다른 검토 집합에 추가합니다. 자세한 내용은 다른 검토 집합의 검토 집합에 [데이터 추가를 참조하세요.](add-data-to-review-set-from-another-review-set.md)|
 |검토 집합에 Microsoft 365 비영구 데이터 추가 | 사용자가 검토 집합에 Microsoft 365 데이터를 업로드합니다. 이 프로세스 중에도 데이터가 인덱싱됩니다. 예를 들어, 사내 파일 서버 또는 클라이언트 컴퓨터의 파일이 검토 집합에 업로드됩니다. 자세한 내용은 검토 집합에 비영구 Microsoft 365 [로드를 참조하세요.](load-non-office-365-data-into-a-review-set.md)| 
-|검토 집합에 수정된 데이터 추가 | 처리 오류가 있는 데이터는 수정되어 검토 집합으로 다시 로드됩니다. 자세한 내용은 다음 항목을 참조하세요.</br>• [데이터를 처리하는 경우 오류 수정](error-remediation-when-processing-data-in-advanced-ediscovery.md)</br>• [단일 항목 오류 수정](single-item-error-remediation.md)| 
+|검토 집합에 수정된 데이터 추가 | 처리 오류가 있는 데이터는 수정되어 검토 집합으로 다시 로드됩니다. 자세한 내용은 다음을 참조하세요.</br>• [데이터를 처리하는 경우 오류 수정](error-remediation-when-processing-data-in-advanced-ediscovery.md)</br>• [단일 항목 오류 수정](single-item-error-remediation.md)| 
 |부하 집합 비교 | 사용자는 검토 집합에서 서로 다른 부하 집합 간의 차이를 검토합니다. 로드 집합은 검토 집합에 데이터를 추가하는 인스턴스입니다. 예를 들어 동일한 검토 집합에 서로 다른 두 검색의 결과를 추가하는 경우 각 검색은 부하 집합을 나타내게 됩니다. |
 |대화 재구성|사용자가 검색 결과를 대화 검토 집합에 추가하면 사용자와 같은 서비스에서 인스턴트 메시지 대화(스레드 Microsoft Teams)가 PDF 파일로 재구성됩니다. 사용자가 검토 집합에서 대화 >  만들기 작업을 클릭하면 이 작업이 트리거됩니다. 자세한 내용은 에서 [대화 검토를 Advanced eDiscovery.](conversation-review-sets.md)
 |편집된 문서를 PDF로 변환|사용자가 검토 집합의 문서에 주석을 추가하고 문서의 일부를 편집한 후 편집된 문서를 PDF 파일로 변환하도록 선택할 수 있습니다. 이렇게 하면 프레젠테이션을 위해 문서를 내보낼 때 변경된 부분이 표시되지 않습니다. 자세한 내용은 검토 집합에서 [문서 보기를 참조하세요.](annotating-and-redacting-documents.md) |

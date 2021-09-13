@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c0337c83419e2584c779abdd1bc88b75e6c1a63a5c7cc38fe1a719a6d6908029
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: d87efcd940fd9e19c9f28250f85e0f7915febc05
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53894386"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185779"
 ---
 # <a name="get-user-related-machines-api"></a>사용자 관련 컴퓨터 사용 API
 
@@ -45,7 +45,7 @@ ms.locfileid: "53894386"
 
 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -82,7 +82,7 @@ GET /api/users/{id}/machines
 
 ## <a name="response"></a>응답
 
-성공 및 사용자가 있는 경우 - 본문에 [](machine.md) 컴퓨터 엔터티 목록이 있는 200 OK. 사용자가 존재하지 않는 경우 - 404 찾을 수 없습니다.
+성공 및 사용자가 있는 경우 - 본문에 [](machine.md) 컴퓨터 엔터티 목록이 있는 200 OK. 사용자가 존재하지 않는 경우 - 200 OK(빈 집합)입니다.
 
 ## <a name="example"></a>예제
 

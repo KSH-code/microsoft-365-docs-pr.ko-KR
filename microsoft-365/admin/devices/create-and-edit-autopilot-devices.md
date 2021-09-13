@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: 장치에서 AutoPilot을 사용하여 디바이스를 업로드하는 방법을 Microsoft 365 Business Premium. 장치 또는 장치 그룹에 프로필을 할당할 수 있습니다.
 ms.openlocfilehash: 37617a37f7ea07c46aca19bc75046ebccb0bb4a9
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360626"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184891"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot 장치 만들기 및 편집
 

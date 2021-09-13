@@ -18,11 +18,11 @@ search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b
 description: 이 문서에서는 응용 프로그램이 도달하려고 시도하는 끝점 Mac용 Office URL 및 제공된 서비스에 대해 설명합니다.
 ms.openlocfilehash: abb744d4ee75b06e66ac6a9aa43c7fd18d8a452f
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58356087"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185940"
 ---
 # <a name="network-requests-in-office-for-mac"></a>Mac용 Office의 네트워크 요청
 
@@ -80,8 +80,8 @@ URL 형식은 다음과 같이 정의됩니다.
 |```https://officecdn.microsoft.com/```  <br/> |WXPON  <br/> |ST  <br/> |Microsoft 자동 업데이트 매니페스트 - 사용 가능한 업데이트가 있는지 확인  <br/> |
 |```https://ajax.aspnetcdn.com/```  <br/> |WXPO  <br/> |SS  <br/> |Microsoft Ajax JavaScript 라이브러리  <br/> |
 |```https://wikipedia.firstpartyapps.oaspapps.com/```  <br/> |W  <br/> |SS  <br/> |구성 및 리소스에 대한 Office 앱입니다.  <br/> |
-|```https://excelbingmap.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |SS  <br/> |Bing 구성 및 리소스에 Office 앱을 매핑합니다.  <br/> |
-|```https://peoplegraph.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |SS  <br/> |구성 Graph 리소스에 Office 앱을 사용할 수 있습니다.  <br/> |
+|```https://excelbingmap.firstpartyapps.oaspapps.com/```  <br/> |X 키  <br/> |SS  <br/> |Bing 구성 및 리소스에 Office 앱을 매핑합니다.  <br/> |
+|```https://peoplegraph.firstpartyapps.oaspapps.com/```  <br/> |X 키  <br/> |SS  <br/> |구성 Graph 리소스에 Office 앱을 사용할 수 있습니다.  <br/> |
 |```https://www.onenote.com/```  <br/> |N  <br/> |ST  <br/> |새로운 콘텐츠 OneNote.  <br/> |
 |```https://site-cdn.onenote.net/```  <br/> |N  <br/> |ST  <br/> |새 콘텐츠 OneNote.  <br/> |
 |```https://site-cdn.onenote.net/```  <br/> |N  <br/> |SS  <br/> |새로운 새로운 OneNote.  <br/> |
@@ -96,7 +96,7 @@ URL 형식은 다음과 같이 정의됩니다.
   
  **로그인**
   
-클라우드 기반 저장소에 로그인할 때 다음 네트워크 끝점에 연결됩니다. 계정 유형에 따라 다른 서비스에 문의할 수 있습니다. 예시:
+클라우드 기반 저장소에 로그인할 때 다음 네트워크 끝점에 연결됩니다. 계정 유형에 따라 다른 서비스에 문의할 수 있습니다. 예:
   
 - **MSA: Microsoft 계정** - 일반적으로 소비자 및 소매 시나리오에 사용됩니다. 
     
@@ -203,7 +203,7 @@ URL 형식은 다음과 같이 정의됩니다.
 |```https://store.office.com/```  <br/> |WXPO  <br/> |CS  <br/> |Office 앱 저장소 구성  <br/> |
 |```https://wikipedia.firstpartyapps.oaspapps.com/```  <br/> |W  <br/> |SS  <br/> |Wikipedia 앱 리소스  <br/> |
 |```https://excelbingmap.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |SS  <br/> |Bing 앱 리소스 매핑  <br/> |
-|```https://peoplegraph.firstpartyapps.oaspapps.com```  <br/> |X  <br/> |SS  <br/> |앱 Graph 사람  <br/> |
+|```https://peoplegraph.firstpartyapps.oaspapps.com```  <br/> |X 키  <br/> |SS  <br/> |앱 Graph 사람  <br/> |
 |```https://o15.officeredir.microsoft.com/```  <br/> |WPX  <br/> |SS  <br/> |Office 리디렉션 서비스  <br/> |
 |```https://appsforoffice.microsoft.com/```  <br/> |WXP  <br/> |SS  <br/> |Office JavaScript 라이브러리  <br/> |
 |```https://telemetry.firstpartyapps.oaspapps.com/```  <br/> |WX  <br/> |SS  <br/> |앱용 원격 분석 Office 서비스  <br/> |
@@ -222,7 +222,7 @@ URL 형식은 다음과 같이 정의됩니다.
 |```https://*.wikipedia.org/```  <br/> |W  <br/> |SS  <br/> |Wikipedia 페이지 리소스  <br/> |
 |```https://upload.wikimedia.org/```  <br/> |W  <br/> |SS  <br/> |Wikipedia 미디어 리소스  <br/> |
 |```https://wikipedia.firstpartyappssandbox.oappseperate.com/```  <br/> |W  <br/> |SS  <br/> |Wikipedia 샌드박스 프레임  <br/> |
-|```https://*.virtualearth.net/```  <br/> |X  <br/> |SS  <br/> |지도 서식 파일  <br/> |
+|```https://*.virtualearth.net/```  <br/> |X 키  <br/> |SS  <br/> |지도 서식 파일  <br/> |
    
  **안전한 링크**
   

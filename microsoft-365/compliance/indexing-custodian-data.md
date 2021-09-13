@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 경우, 부분적으로 인덱싱된 것으로 확인된 모든 콘텐츠는 완전히 검색할 수 있도록 다시 처리됩니다.
 ms.openlocfilehash: 8a43b0cd9b7fcac1745b917dc5a1c198fa2a1e61
-ms.sourcegitcommit: 8db88004f4c015138b20c55095ada2c0c79e5910
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58928707"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184043"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>보유자 데이터의 고급 인덱싱
 

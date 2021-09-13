@@ -21,11 +21,11 @@ search.appverid:
 - MOE150
 description: 비즈니스 파일을 공유하는 방법에 대한 개요입니다.
 ms.openlocfilehash: d762620cf07cd9f1201bf173e6e6aa0c16e050eb
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569672"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188843"
 ---
 # <a name="overview-of-sharing-business-files"></a>비즈니스 파일 공유 개요
 

@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Intune 설정에 Microsoft 365 Business Premium 보호 기능이 어떻게 매핑되는지 확인합니다. 구독은 Intune 설정을 수정할 수 있는 라이선스를 제공합니다.
 ms.openlocfilehash: 9a6dcf014e009389e49860fa96486c264c22f501
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360613"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184859"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Intune 설정에 매핑되는 Microsoft 365 Business Premium 기능
 

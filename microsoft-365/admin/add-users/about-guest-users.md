@@ -23,11 +23,11 @@ search.appverid:
 - MOE150
 description: 게스트 사용자 목록이 사용자 목록에 채워지는 방법을 Microsoft 365 관리 센터.
 ms.openlocfilehash: e5911e6d8a8baa723d70904abfc1af49e43d5507
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58393379"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185339"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>2016의 게스트 Microsoft 365 관리 센터
 

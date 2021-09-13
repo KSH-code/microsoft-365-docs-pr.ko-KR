@@ -21,11 +21,11 @@ search.appverid:
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 Microsoft 365, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 그룹 관리 방법을 학습합니다.
 ms.openlocfilehash: c7f38a6a0b2eb3f6c0466858b60ac0beb2143bc0
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862728"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184956"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 그룹 Microsoft 365 관리 센터
 

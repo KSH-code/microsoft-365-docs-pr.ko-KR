@@ -21,11 +21,11 @@ search.appverid:
 - MOE150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft Forms 활동 보고서를 다운로드하는 Microsoft 365 관리 센터.
 ms.openlocfilehash: 59c7233a1622d0bf3ceaebd9adafb5c243d7008d
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565051"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185468"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365 관리 센터의 보고서 - 양식 활동
 

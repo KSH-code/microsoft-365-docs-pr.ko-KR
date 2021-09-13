@@ -21,11 +21,11 @@ ms.custom:
 ms.assetid: 81190961-5454-4a5c-8b0e-6ae75b9fb035
 description: '요약: 사이트 간 VPN 연결을 사용하여 Office Server 작업용 프레미스 간 Azure Virtual Network를 구성하는 방법을 알아봅니다.'
 ms.openlocfilehash: de8488df370b4ede9fef5ad6698d37bca6c99ac8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568940"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189682"
 ---
 # <a name="connect-an-on-premises-network-to-a-microsoft-azure-virtual-network"></a>온-프레미스 네트워크를 Microsoft Azure Virtual Network에 연결
 

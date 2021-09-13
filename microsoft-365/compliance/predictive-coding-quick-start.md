@@ -15,11 +15,11 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: 이 모듈에서 예측 코딩 모듈을 사용하는 방법을 Advanced eDiscovery. 이 문서에서는 예측 코딩을 사용하여 조사와 가장 관련이 있는 검토 집합의 콘텐츠를 식별하는 종단-종단 프로세스에 대해 설명합니다.
 ms.openlocfilehash: 0ca9e4ff8b42ced962b68fff9073e892d8ea5d4e
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574835"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186075"
 ---
 # <a name="quick-start-predictive-coding-in-advanced-ediscovery-preview"></a>빠른 시작: Advanced eDiscovery 예측 코딩(미리 보기)
 

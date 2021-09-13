@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대해 강력한 암호 요구 사항을 설정하는 방법을 Windows PowerShell.
-ms.openlocfilehash: 665bd671e3e7be5c65f67f45bc4d78e3e2466e5ead61811f9925b6dd6af3ed3b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f1384704435307c8ba872a5d59dc8841bb761444
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53827278"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185147"
 ---
 # <a name="turn-off-strong-password-requirements-for-users"></a>사용자에 대한 강력한 암호 요구 사항 끄기
 

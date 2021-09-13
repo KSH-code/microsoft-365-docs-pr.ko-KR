@@ -16,11 +16,11 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: 바이러스Microsoft Defender 바이러스 백신 맬웨어 및 스파이웨어와 같은 소프트웨어 위협으로부터 Windows 장치를 보호하는 방법을 알아보십시오.
 ms.openlocfilehash: 4343726b1a0856616eaa8291adc24633aaad5eb0
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58377908"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186787"
 ---
 # <a name="threats-detected-by-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에서 탐지된 위협
 

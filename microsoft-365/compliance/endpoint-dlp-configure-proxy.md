@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 description: Endpoint DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: e0de08bd27f2222589343fe66715198645fbeb29
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567463"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184147"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
 

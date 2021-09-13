@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하여 조직에 중요한 규정 및 인증의 요구 사항을 충족할 수 있도록 합니다.
-ms.openlocfilehash: 296c29c61ca411a37f13118e956db7d050d54762940bf81bfbde26fc043b3d23
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7014e294454095456acdac8e2c60895c400ced3f
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53814606"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189999"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>준수 관리자에서 평가 빌드 및 관리
 

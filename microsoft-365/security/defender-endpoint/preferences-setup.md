@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 333e69c910e5800332261f9a7a2e23983f2615d7bac13f2139604747874b40b2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c032c54f8b80114e00fcff432a0da37a9d836f35
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53867946"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189402"
 ---
 # <a name="configure-microsoft-defender-security-center-settings"></a>구성 Microsoft Defender 보안 센터 구성
 
@@ -40,7 +40,7 @@ ms.locfileid: "53867946"
 항목 | 설명
 :---|:---
 일반 설정 | 이전에 온보더링 프로세스의 일부로 정의된 일반 설정을 수정합니다.
-사용 권한 | RBAC 및 장치 그룹을 사용하여 포털 액세스를 관리합니다.
+권한 | RBAC 및 장치 그룹을 사용하여 포털 액세스를 관리합니다.
 API | 위협 인텔리전스 및 SIEM 통합을 사용하도록 설정
 규칙 | 제거 규칙 및 자동화 설정을 구성합니다.
 디바이스 관리 | 장치를 온보드 및 오프보드합니다.

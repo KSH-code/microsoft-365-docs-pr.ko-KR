@@ -20,11 +20,11 @@ ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: 이 문서의 콘텐츠 검색 및 스크립트를 사용하여 사용자 그룹의 사서함 및 비즈니스용 OneDrive 사이트를 검색합니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: c6dea7423eefbbbba6efdf3b9fe2bbd320cb4d7d
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58508181"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59183955"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색
 

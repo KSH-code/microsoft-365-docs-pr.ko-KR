@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: 전자 메일 앱 사용 현황 보고서를 통해 사용자가 사용 Exchange Online 전자 메일 앱에 Outlook 방법을 배워야 합니다.
 ms.openlocfilehash: d11d06b442bbf5008f66af3aa7eeded512c1e8b3
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58565153"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185491"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>Microsoft 365 관리 센터의 보고서 - 전자 메일 앱 사용 현황
 

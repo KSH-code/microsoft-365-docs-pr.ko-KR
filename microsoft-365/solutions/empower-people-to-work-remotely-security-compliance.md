@@ -18,11 +18,11 @@ ms.collection:
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 하이브리드 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
 ms.openlocfilehash: aa43b2b30395def36d1c1210ef07edd379996b15
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575315"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187252"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-hybrid-workers"></a>3단계: 하이브리드 작업자를 위한 보안 및 규정 준수 구현
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: 다음 지침에 따라 약속을 만들고 Microsoft Bookings 앱을 통해 직원을 할당합니다.
 ms.openlocfilehash: 9af9b28eb1f00bfc41dbdff2d7df4111cb8bdd13
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58574439"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190609"
 ---
 # <a name="create-a-manual-booking"></a>수동 예약 만들기
 

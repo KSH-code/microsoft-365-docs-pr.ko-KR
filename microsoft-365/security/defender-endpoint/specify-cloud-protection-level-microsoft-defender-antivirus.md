@@ -17,11 +17,11 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.openlocfilehash: a7b8214165e80347d6200c755db477b81e430630
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58863704"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187403"
 ---
 # <a name="specify-the-cloud-protection-level"></a>클라우드 보호 수준 지정
 

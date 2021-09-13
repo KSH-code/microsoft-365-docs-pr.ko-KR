@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: 그룹에 구성원을 추가하고 그룹에서 구성원을 제거하고 그룹 소유자 상태를 관리하는 방법을 Microsoft 365 관리 센터.
-ms.openlocfilehash: ee93f4c22d64e20ec586dd315aa970b610ff7e450e1a2bd79700b3f91ed84c23
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 7eaa74a53ac5f27d801d1cf16c9af035c63c68b1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826546"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184995"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>관리 센터를 사용하여 Microsoft 365 그룹에서 구성원 추가 또는 제거
 

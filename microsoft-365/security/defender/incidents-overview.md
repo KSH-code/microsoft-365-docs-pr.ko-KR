@@ -1,5 +1,5 @@
 ---
-title: 인시던트 Microsoft 365 Defender
+title: 인시던트에 대한 Microsoft 365 Defender
 description: 사이트 포털에서 장치, 사용자 및 사서함에 걸쳐 볼 수 있는 인시던트 Microsoft 365 Defender 조사합니다.
 keywords: 인시던트, 경고, 조사, 분석, 대응, 상관 관계, 공격, 컴퓨터, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, Microsoft, m365, 인시던트 대응, 사이버 공격
 search.product: eADQiWindows 10XVcnh
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f6a874f263290913a5a7b1d25a16eb1c75938eb3
-ms.sourcegitcommit: ef9cd046c47b340686a4f7bb123ea3b0a269769a
+ms.openlocfilehash: 6f55e1a30f61b8ed41ec2575b26a9346ba45cafd
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864005"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59192479"
 ---
-# <a name="incidents-in-microsoft-365-defender"></a>인시던트 Microsoft 365 Defender
+# <a name="incident-response-with-microsoft-365-defender"></a>인시던트에 대한 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -114,7 +114,7 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 :::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="관리에 대한 인시던트 대응 워크플로의 Microsoft 365.":::
 
-지속적인 기준에 따라 인시던트 큐에서 분석 및 해결을 위해 우선 순위가 가장 높은 인시던트를 식별하고 대응을 준비합니다. 이 조합은
+지속적인 기준에 따라 인시던트 큐에서 분석 및 해결을 위해 우선순위가 가장 높은 인시던트를 식별하고 대응을 준비합니다. 이러한 조치는 다음으로 구성됩니다.
 
 - [인시던트](incident-queue.md) 큐 필터링 및 정렬을 통해 우선 순위가 가장 높은 인시던트 결정
 - [직위를](manage-incidents.md) 수정하고, 분석가에게 할당하고, 태그와 설명을 추가하여 인시던트 관리
@@ -131,9 +131,9 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
    
    1. 필요한 경우 증거 및 응답 탭에서 자세한 정보를 위해 인시던트에 대한 데이터 **집합의 정보를** 사용합니다.
 
-2. 분석 후 또는 분석 중에 포함을 수행하여 보안 위협의 공격 및 제거에 대한 추가 영향을 줄입니다.
+2. 분석 후 또는 분석 중에 억제를 수행하여 보안 위협의 공격 및 제거에 대한 추가 영향을 줄입니다.
 
-3. 테넌트 리소스를 인시던트 이전 상태로 복원하여 공격으로부터 복구합니다.
+3. 가능하면 테넌트 리소스를 인시던트 이전 상태로 복원하여 공격으로부터 복구합니다.
 
 4. [인시던트](manage-incidents.md#resolve-an-incident) 문제를 해결하고 인시던트 사후 학습을 통해 다음을 할 수 있습니다.
 

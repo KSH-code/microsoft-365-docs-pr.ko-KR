@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 팀워크의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: db948c7a510c1bfe959b9f8aa07544f0ed9faf03909da9ec182ec18abdea5e82
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0924114a73a9bcf55a74744ee371de8c2d326d1c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822970"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186867"
 ---
 # <a name="teamwork--people-experiences"></a>팀워크 - 사람 환경
 

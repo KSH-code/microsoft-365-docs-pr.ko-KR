@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: 예약 Microsoft 365 관리 센터 Windows PowerShell 일정을 삭제합니다.
 ms.openlocfilehash: fc5975e25fa3b1f2d2aab991cc7aac8038181f3f
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572758"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186499"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Bookings에서 예약 일정 삭제
 

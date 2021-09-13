@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 휴대폰에 Microsoft 365 관리 앱을 설치하는 방법을 배워야 합니다.
-ms.openlocfilehash: 591a5440d3257afad9728b75013737daebad73694322774db19e8eacb0700abb
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 0367123e9bd74ab79c17b38eb49cc31fc6fba8e4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53861870"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188868"
 ---
 # <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>휴대폰에 Microsoft 365 관리 앱 설치
 

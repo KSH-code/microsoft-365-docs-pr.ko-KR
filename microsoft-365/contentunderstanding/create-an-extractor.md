@@ -14,11 +14,11 @@ ms.collection:
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 추출기를 만드는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 645ecafc1ebad3031dc7ca3b70f5ceb95e72af39
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569744"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189759"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기 만들기
 

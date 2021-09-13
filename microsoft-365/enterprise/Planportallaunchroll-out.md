@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: 이 문서에서는 SharePoint Online에서 포털 시작을 계획하는 방법과 성공적인 실행을 위해 취할 단계에 대해 설명합니다.
 ms.openlocfilehash: 82c4db0ccf544c66746c2a8b01e9b932a7f64564
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58552879"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187979"
 ---
 # <a name="planning-your-portal-launch-roll-out-plan-in-sharepoint-online"></a>SharePoint Online에서 포털 시작 롤아웃 계획
 

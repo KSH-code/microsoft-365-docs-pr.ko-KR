@@ -29,11 +29,11 @@ ROBOTS: NO INDEX, NO FOLLOW
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 자신의 직장 또는 학교 계정에 로그인할 때 모든 Windows 10 기본 장치 정책의 설정을 구성하는 방법을 학습합니다.
 ms.openlocfilehash: b4460f8f5e40ee6f0e121b128f17e27db7aa4979
-ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58378205"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186956"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10 장치 보안
 

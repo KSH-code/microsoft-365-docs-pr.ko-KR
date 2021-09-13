@@ -16,15 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
+- admindeeplinkMAC
 search.appverid: MET150
 description: Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 학교용 제품 및 서비스를 구매하고 관리하는 방법을 알아보십시오.
 ms.date: 04/13/2021
-ms.openlocfilehash: 024f8c4154c4e646a5a72fbc0d1b0f980b8b5c8eb854e723d84dc0f5f464911c
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: f7fd5cda68ce5312f284e7f86e1cfbd3716cc8d4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809103"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190272"
 ---
 # <a name="manage-partner-relationships"></a>파트너 관계 관리
 
@@ -65,7 +66,7 @@ Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 �
 
 파트너를 찾은 후 파트너와 함께 작업하기로 결정하면 전자 메일 초대가 전송됩니다.
 
-1. 전자 메일에서 링크를 선택하여 메일로 Microsoft 365 관리 센터.
+1. In the email, select the link to go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터.</a>
 2. 수락 **계약 &** 파트너 승인 페이지에서 Microsoft **고객** 계약 링크를 선택하고 문서를 읽습니다.
 3. 확인란을 확인하여 계약 내용을 읽었다는 확인란을 선택합니다.
 4. 승인을 **& 승인을 선택합니다.**

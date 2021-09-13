@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 정책을 사용하여 Windows 10 Pro 장치 정책을 관리하는 Microsoft 365 Business Premium.
-ms.openlocfilehash: fa639da2b12f97e833d892d2b83939d42481c766f8c57c6f52adf7eb5fae0011
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 38ed4cac88d500cec6ad4c4fe96a4fb701f1ad5b
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53873114"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190449"
 ---
 # <a name="manage-windows-10-pro-device-policies"></a>장치 Windows 10 Pro 관리
 
@@ -36,7 +36,7 @@ Microsoft 365 Business를 사용하여 Windows Defender 바이러스 백신 장�
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터에 로그인합니다.
+1. 1에 로그인합니다. 으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">이동하여 Microsoft 365 관리 센터.</a>
 1. **정책에서** 정책 추가를 선택 합니다.
 1. 정책 **추가 창의** 정책 이름  **에** 이름을 입력한 다음 정책 유형 Windows 10 장치 구성을 **선택합니다.**
 1. 디바이스에서 **Windows 10 설정을** 선택합니다.

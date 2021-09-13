@@ -21,11 +21,11 @@ search.appverid:
 - MOE150
 description: SharePoint 활동 사용 현황 보고서를 통해 모든 SharePoint 사용자의 활동, 공유되는 파일 수 및 저장소 사용률을 알 수 있습니다.
 ms.openlocfilehash: 5b4fb458c96202993a30a64800aac3c443983d04
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564807"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185388"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>Microsoft 365 관리 센터의 보고서 - SharePoint 활동
 

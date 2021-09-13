@@ -15,11 +15,11 @@ ms.custom: admindeeplinkMAC
 localization_priority: Normal
 description: 전역 관리자는 사용자의 앱 시작 관리자에 최대 3개의 앱을 고정할 수 있습니다.
 ms.openlocfilehash: bbb41dfcb72849287bb9ce87ab2c9d250b1b4d99
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589231"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187148"
 ---
 # <a name="pin-apps-to-your-users-app-launcher"></a>사용자의 앱 시작커에 앱 고정
 

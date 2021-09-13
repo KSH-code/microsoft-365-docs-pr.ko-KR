@@ -13,11 +13,11 @@ localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 2555070438ead608b470f3291bd74dea0b657543
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572122"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59190842"
 ---
 # <a name="contact-support-for-china-prc"></a>중국 지원에 문의(PRC)
 

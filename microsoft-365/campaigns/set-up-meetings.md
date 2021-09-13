@@ -26,11 +26,11 @@ search.appverid:
 - MOE150
 description: 온라인 모임을 설정하고 Microsoft Teams.
 ms.openlocfilehash: 40858f43794736a6b2a9696b84409ca376ed8706
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567099"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186443"
 ---
 # <a name="set-up-meetings"></a>모임 설정
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 템플릿을 만들고 사용하여 여러 사용자를 추가할 때 시간을 절약하고 설정을 표준화할 수 있습니다.
-ms.openlocfilehash: ff111850cf0dabda464653bc7503622d92e8468a430eb27a3dd2843f6ec5ade5
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3ce70f6d37036a2f71bdc2d41bfb5677a54b8db9
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53815842"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185291"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>서식 파일을 만들고 사용하여 사용자 추가
 

@@ -15,13 +15,13 @@ ms.custom:
 - AdminSurgePortfolio
 description: 구매 Microsoft 365 Business Standard 조직을 설정하는 방법을 제공합니다.
 ms.openlocfilehash: 7c5489a674145052eb40c533595a245a1d785247
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866924"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186628"
 ---
-# <a name="sign-up-for-a-microsoft-365-business-standard-subscription"></a>구독에 Microsoft 365 Business Standard 등록
+# <a name="sign-up-for-a-microsoft-365-business-standard-subscription"></a>Microsoft 365 Business Standard 구독 신청
 
 다음 두 가지 방법을 통해 Microsoft 365 Business Standard.
 - **[Buy](https://go.microsoft.com/fwlink/?linkid=2109397) Microsoft 365 Business Standard and complete your own setup**: To purchase Microsoft 365 Business Standard, follow the steps [below.](#sign-up-steps)
@@ -36,7 +36,7 @@ ms.locfileid: "58866924"
 비즈니스에 대한 Microsoft 365 Business Standard(또는 Microsoft 365 앱)를 등록하고 구매하기 위해 다음 단계를 완료합니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Microsoft 365 등록하는 사용자(일반적으로 비즈니스 소유자)는 자동으로 조직의 기술 관리자가 됩니다. 사용자 서비스 관리에 도움이 필요한 경우 관리자로 다른 Microsoft 365 있습니다. 자세한 내용은 [관리자 추가를](../../business-video/add-admin.md) 참조하세요.
+> 비즈니스용 Microsoft 365에 등록하는 사용자(일반적으로 비즈니스 소유자)은 자동으로 조직의 기술 관리자가 됩니다. Microsoft 365 서비스 관리에 도움이 필요한 경우 다른 사용자를 관리자로 추가할 수 있습니다. 자세한 내용은 [관리자 추가](../../business-video/add-admin.md)를 확인하세요.
 
 1. 비즈니스용 [Microsoft 365 페이지에서 요금제](https://go.microsoft.com/fwlink/?linkid=2109654)& **참조를 선택합니다.**
 2. 다음 페이지에서 월별 비용을 찾은 다음 페이지를 아래로 스크롤하여 앱에 포함된 콘텐츠에 대한 자세한 Microsoft 365. 다음 Microsoft 365 Business Standard 지금 **구입을 선택합니다.**
@@ -132,4 +132,4 @@ ms.locfileid: "58866924"
 
 [설치 Microsoft 365 Business Premium 설정](../../business/set-up.md)
 
-[사용자를 초대하여 Microsoft 365 Business Standard](user-invite-business-standard.md)
+[Microsoft 365 Business Standard에 사용자 초대](user-invite-business-standard.md)

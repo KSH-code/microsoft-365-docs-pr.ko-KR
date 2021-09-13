@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 59b963055819ee7d84a793fbedb8e87226528e35
-ms.sourcegitcommit: 7883556c05ceef228dc329f715e8a6213b40d921
+ms.openlocfilehash: 577fc2cd228da6e09de01cf98e3e5deb9af7b730
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58931239"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185668"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -110,7 +110,7 @@ Microsoft Learn의 이 학습 경로를 통해 보안 위협을 식별, Microsof
 
 |교육:|Microsoft 365 Defender를 통한 사이버 공격 감지 및 대응|
 |---|---|
-|![Microsoft 365 Defender 아이콘입니다.](../../media/microsoft-365-defender/m365-defender-training.png)|Microsoft 365 Defender는 엔드포인트, ID, 전자 메일, 애플리케이션 전체의 위협 신호를 통합하여 정교한 사이버 공격에 대한 통합된 보호를 제공합니다. Microsoft 365 Defender는 인시던트를 조사하고 이에 대응하고, 적극적으로 현재 진행 중인 악성 사이버 보안 활동을 조사하기 위한 중앙 집중식 환경입니다.<p> 1 hr 38분 - Learning 경로 - 5개 모듈|
+|![Microsoft 365 Defender 아이콘입니다.](../../media/microsoft-365-defender/m365-defender-secure-organization.svg)|Microsoft 365 Defender는 엔드포인트, ID, 전자 메일, 애플리케이션 전체의 위협 신호를 통합하여 정교한 사이버 공격에 대한 통합된 보호를 제공합니다. Microsoft 365 Defender는 인시던트를 조사하고 이에 대응하고, 적극적으로 현재 진행 중인 악성 사이버 보안 활동을 조사하기 위한 중앙 집중식 환경입니다.<p> 1 hr 38분 - Learning 경로 - 5개 모듈|
 
 > [!div class="nextstepaction"]
 > [시작 >](/learn/paths/defender-detect-respond/)

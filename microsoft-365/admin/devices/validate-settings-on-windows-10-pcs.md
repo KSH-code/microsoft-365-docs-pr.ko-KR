@@ -27,11 +27,11 @@ search.appverid:
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: 비즈니스용 앱 보호 Microsoft 365 설정이 사용자의 디바이스에 영향을 Windows 10 방법을 확인합니다.
 ms.openlocfilehash: 67608c2c4b8396bced350685f439cb15f6378e6a
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360546"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184828"
 ---
 # <a name="validate-device-protection-settings-for-windows-10-pcs"></a>PC에 대한 장치 보호 Windows 10 유효성 검사
 

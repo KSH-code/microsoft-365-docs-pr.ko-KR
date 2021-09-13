@@ -18,11 +18,11 @@ ms.collection:
 ms.custom: ''
 description: 하이브리드 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
 ms.openlocfilehash: d59f990cd7acf576247d75e6544ad045179e3c81
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575351"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189049"
 ---
 # <a name="step-1-increase-sign-in-security-for-hybrid-workers-with-mfa"></a>1단계.MFA를 사용하여 하이브리드 작업자에 대 한 로그인 보안 강화
 

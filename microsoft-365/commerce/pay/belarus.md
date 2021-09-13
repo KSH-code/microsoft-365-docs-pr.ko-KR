@@ -12,12 +12,12 @@ ms.service: o365-administration
 ms.custom: commerce_billing_payinfo
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8cbd20db39cf3c78c7cf54eaa4a0cc717123de99559037a737f0718cacbdb9da
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 29b714fb5c3df920409bd667ca1408814799a780
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53852538"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188675"
 ---
 # <a name="payment-information-for-belarus"></a>Belarus의 결제 정보
 

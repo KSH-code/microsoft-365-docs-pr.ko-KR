@@ -25,11 +25,11 @@ search.appverid:
 - MOE150
 description: 앱 Microsoft 365 관리 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배울 수 있습니다.
 ms.openlocfilehash: 7e503b70f6263e0bf5e949c7ca18ccfe0eb31ffb
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394363"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185132"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>관리자 Microsoft 365 앱
 

@@ -20,11 +20,11 @@ search.appverid:
 - MOE150
 description: 조직에서 사용자 Microsoft Teams 보고서를 얻고 조직에서 Teams 활동을 파악하는 방법을 학습합니다.
 ms.openlocfilehash: 6f75b3547af25f06858eb72ab1956e787f6e6bc5
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564979"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185436"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>관리 센터의 Microsoft 365 보고서 - Microsoft Teams 사용자 활동
 

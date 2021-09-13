@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 비즈니스용 Skype HMA(하이브리드 최신 인증)를 사용하도록 사내에서 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74046b89ba5ded65c9a645ca43e94b195ddf74896b0fd8832653ac8d96606b5f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 9695815d0a085931b10f7f64b9fca2e997af9077
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53864913"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187916"
 ---
 # <a name="how-to-configure-skype-for-business-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 비즈니스용 Skype 온-프레미스를 구성하는 방법
 

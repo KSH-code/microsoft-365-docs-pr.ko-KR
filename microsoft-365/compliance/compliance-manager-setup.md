@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
 ms.openlocfilehash: e6d6c1bb9555f0cc0c80b4a4727a761bd2e99999
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603200"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189929"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 

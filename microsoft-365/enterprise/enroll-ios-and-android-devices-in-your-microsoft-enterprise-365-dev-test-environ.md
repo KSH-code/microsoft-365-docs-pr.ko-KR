@@ -15,11 +15,11 @@ ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: 이 테스트 랩 가이드를 사용하여 테스트 환경에 장치를 등록하고 Microsoft 365 원격으로 관리합니다.
 ms.openlocfilehash: 5e27f2eecc9edda0a0fe7225d4ed47c7431eee77
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58568387"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189629"
 ---
 # <a name="enroll-ios-and-android-devices-in-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 iOS 및 Android 장치 등록
 

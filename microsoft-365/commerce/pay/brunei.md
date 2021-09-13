@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 876954234e3b78b76780861f925ae120d5df5b63dc85ea4f0278f614f979a72d
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8ecd425076507cb00d763d9e57f9fef1e6779035
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53887346"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188603"
 ---
 # <a name="payment-information-for-brunei"></a>브루나이의 결제 정보
 

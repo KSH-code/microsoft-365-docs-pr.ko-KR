@@ -19,11 +19,11 @@ ms.custom:
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 테스트를 위한 시뮬레이트된 Microsoft 365 환경을 만들 수 있습니다.
 ms.openlocfilehash: e3576c5d7e1a00069dd5dd46d1b1e6063da217bf
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575255"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187899"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 

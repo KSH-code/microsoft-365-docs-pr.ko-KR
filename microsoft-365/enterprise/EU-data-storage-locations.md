@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 유럽 연합 내에서 Microsoft 365 고객 데이터가 저장되는 위치 확인
 ms.openlocfilehash: 2099f6b81fa7ecfff4c641d0e18bed3c9b0f4d7c
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355043"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187987"
 ---
 # <a name="data-locations-for-the-european-union"></a>유럽 연합의 데이터 위치
 

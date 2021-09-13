@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영하는 Office 365 AIP(Azure Information Protection)와 중국에서 고객을 위해 AIP를 구성하는 방법에 대해 자세히 설명합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 4ccd3a6e86a39931cd30335825adcc0fefe660cc54e0334a62d95ac58b9d4e3f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8b85ae43df31bb1947b841d616cc83c3a0b614e4
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53822382"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186764"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>21Vianet에서 Office 365 Azure Information Protection 지원
 
@@ -137,7 +137,7 @@ DNS 공급자에 로그인하고 도메인의 DNS 설정으로 이동한 다음 
 
 Microsoft 다운로드 센터에서 AIP 통합 레이블 클라이언트를 다운로드하여 [설치합니다.](https://www.microsoft.com/download/details.aspx?id=53018)
 
-자세한 내용은 다음 항목을 참조하세요.
+자세한 내용은 다음을 참조하세요.
 
 - [AIP 설명서](/azure/information-protection/)
 - [AIP 버전 기록 및 지원 정책](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
@@ -207,7 +207,7 @@ AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에�
       Set-AIPAuthentication -AppId <ID of the registered app> -AppSecret <client secret sting> -TenantId <your tenant ID> -DelegatedUser <Azure AD account>
       ```
 
-      예를 들어 다음과 같은 가치를 제공해야 합니다.
+      예시:
 
       ```PowerShell
       $pscreds = Get-Credential CONTOSO\scanner
@@ -225,7 +225,7 @@ AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에�
 
 1. [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) cmdlet을 실행하여 기본 콘텐츠 검사 작업을 만들 수 있습니다.
 
-    **Set-AIPScannerContentScanJob** cmdlet의 유일한 필수 매개 변수는 **Enforce입니다.** 그러나 현재 콘텐츠 검색 작업의 다른 설정을 정의할 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+    **Set-AIPScannerContentScanJob** cmdlet의 유일한 필수 매개 변수는 **Enforce입니다.** 그러나 현재 콘텐츠 검색 작업의 다른 설정을 정의할 수 있습니다. 예시:
 
     ```powershell
     Set-AIPScannerContentScanJob -Schedule Manual -DiscoverInformationTypes PolicyOnly -Enforce Off -DefaultLabelType PolicyDefault -RelabelFiles Off -PreserveFileDetails On -IncludeFileTypes '' -ExcludeFileTypes '.msg,.tmp' -DefaultOwner <account running the scanner>
@@ -281,7 +281,7 @@ AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에�
 | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | 콘텐츠 검색 작업의 기존 리포지토리에 대한 설정을 정의합니다. |
 | | |
 
-자세한 내용은 다음 항목을 참조하세요.
+자세한 내용은 다음을 참조하세요.
 
 - [Azure Information Protection 통합 레이블 지정 스캐너란?](/azure/information-protection/deploy-aip-scanner)
 - [AIP(Azure Information Protection) 통합 레이블 지정 스캐너 구성 및 설치](/azure/information-protection/deploy-aip-scanner-configure-install?tabs=powershell-only)

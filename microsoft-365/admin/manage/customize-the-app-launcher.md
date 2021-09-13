@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 앱 시작커에 사용자 지정 타일을 추가하여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대한 빠른 링크를 만들 수 있습니다.
 ms.openlocfilehash: d13be7d4bb89a8d1cebd2d59026f58bdc62c4a15
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58566285"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59184531"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
@@ -37,7 +37,7 @@ ms.locfileid: "58566285"
   
 SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 시작 관리자에 사용자 지정 타일을 추가할 수 있습니다. 사용자 지정 타일은 앱 시작 사용자의 **모든** 앱 아래에 나타나지만  홈 앱에 고정하고 사용자에게 동일한 작업을 하게 지시할 수 있습니다. 이렇게 하면 작업을 할 관련 사이트, 앱 및 리소스를 쉽게 찾을 수 있습니다. 아래 예제에서는 "Contoso Portal"이라는 사용자 지정 타일을 사용하여 조직의 SharePoint 사이트에 액세스합니다. 
   
-![앱 시작 프로그램.](../../media/7acc06cc-ac7a-4c6e-8ea7-81570a5bdbab.png)
+![앱 시작 관리자.](../../media/7acc06cc-ac7a-4c6e-8ea7-81570a5bdbab.png)
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>앱 시작러에 사용자 지정 타일 추가
 

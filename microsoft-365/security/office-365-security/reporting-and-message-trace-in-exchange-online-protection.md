@@ -15,12 +15,12 @@ ms.custom:
 description: 이 문서에서는 EOP(Microsoft Exchange Online 보호) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 자세히 알아보게 됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8131fcd655d423438f80d3f2b4b5cbaf9acc32be056ef2b7a62e6647dd67ee70
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: cc49a92d5fb1fb0368b14eef7524638542f38deb
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "56886177"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187348"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>EOP의 보고 및 메시지 추적
 
@@ -51,7 +51,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 Microsoft 365를 사용하여 관리 센터에서 사용할 수 있는 보고서를 프로그래밍 Graph. 자세한 내용은 [Overview of Microsoft Graph](/graph/overview) and Working with Office 365 usage reports in Microsoft [Graph.](/graph/api/resources/report)
 
-## <a name="message-trace"></a>Message trace
+## <a name="message-trace"></a>메시지 추적
 
 EOP를 통과하는 전자 메일 메시지를 추적합니다. 이를 통해 서비스에서 전자 메일 메시지를 수신, 거부, 지연 또는 배달했는지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달하기 전에 메시지에 대해 수행된 작업도 보여 주며,
 

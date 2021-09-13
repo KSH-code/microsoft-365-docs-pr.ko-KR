@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: Microsoft 준수 관리자는 조직에서 위험 평가를 간소화하고 자동화하는 데 도움을 주며 위험을 해결하기 위한 권장 조치를 제안합니다.
 ms.openlocfilehash: e0e8d4595f883f33dc7714cd41c8cb49002321a1
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58556399"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189909"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft 준수 관리자
 

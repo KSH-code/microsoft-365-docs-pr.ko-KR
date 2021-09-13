@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 8ffeca3d13b42e39f539e96d563aceabd464aeaf
-ms.sourcegitcommit: be83f1222c30ffa8202c19a2797cc755fc3b72af
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372451"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59189522"
 ---
 # <a name="list-machines-api"></a>목록 컴퓨터 API
 
@@ -51,7 +51,7 @@ OData의 쿼리는 `$filter` , , , , , , , , `computerDnsName` , , , `id` , 및 
 2. 최대 페이지 크기는 10,000개입니다.
 3. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다. 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 사용 권한 유형|사용 권한|사용 권한 표시 이름
 :---|:---|:---
@@ -76,7 +76,7 @@ GET https://api.securitycenter.microsoft.com/api/machines
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

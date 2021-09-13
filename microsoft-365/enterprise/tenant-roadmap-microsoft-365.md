@@ -15,11 +15,11 @@ ms.collection:
 ms.custom: it-pro
 description: 테넌트에 대한 테넌트 설정 로드맵을 Microsoft 365.
 ms.openlocfilehash: d041c87e12bfb3025592cb14cda5413c805dc880
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58354215"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187852"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>테넌트에 대한 Microsoft 365
 

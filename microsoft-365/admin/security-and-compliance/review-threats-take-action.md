@@ -16,11 +16,11 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Microsoft Defender 바이러스 백신 장치에서 감지된 위협을 검토하고 Windows 10 방법을 알아보십시오.
 ms.openlocfilehash: d1a611143af1f438989a549133c6f7c1e7502357
-ms.sourcegitcommit: 251551539b1532fdac7b7e3dd2733a75c62e8a54
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58360521"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186819"
 ---
 # <a name="review-detected-threats-and-take-action"></a>탐지된 위협 검토 및 조치 수행
 

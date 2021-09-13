@@ -17,11 +17,11 @@ ms.custom:
 - Ent_Solutions
 description: 테넌트에 대한 네트워크 Microsoft 365 최적화합니다.
 ms.openlocfilehash: 4bf988aca4145d52d8e5e1bb68c6e8cf134be534
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58575867"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187220"
 ---
 # <a name="step-2-optimal-networking-for-your-microsoft-365-for-enterprise-tenants"></a>2단계. 엔터프라이즈 테넌트에 Microsoft 365 최적의 네트워킹
 
@@ -78,7 +78,7 @@ Microsoft 365 엔터프라이즈용 앱에는 Teams 및 Exchange Online, Microso
 
 원격 작업자가 기존 VPN 클라이언트를 사용하 여 조직 네트워크에 대한 원격 액세스 권한을 얻는 경우, VPN 클라이언트에 분할 터널링 지원이 되는지 확인합니다. 분할 터널링을 사용하지 않는 경우에는 모든 원격 작업 트래픽이 조직의 에지 장치로 전송되어 처리된 후 인터넷으로 전송되지 않고 VPN 연결을 통해 전송됩니다. 예를 들면 다음과 같습니다.
 
-![터널링이 없는 VPN 클라이언트의 네트워크 트래픽입니다.](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-before-tunneling.png)
+![터널링이 없는 VPN 클라이언트의 네트워크 트래픽](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-before-tunneling.png)
 
 이 그림에서 Microsoft 365 트래픽은 VPN 클라이언트의 물리적 위치에서 멀리 떨어져 있는 Microsoft 전역 네트워크 정문으로 전달될 수 있는 조직을 통한 간접 경로를 취해야 합니다. 이 간접 경로는 네트워크 트래픽에 대기 시간을 더하여 전반적인 성능을 저하시킵니다. 
 
@@ -88,7 +88,7 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 다음은 클라우드 앱에 대한 대부분의 트래픽이 VPN 연결을 우회하는 분할 터널링에 Microsoft 365 흐름입니다.
 
-![터널링이 있는 VPN 클라이언트의 네트워크 트래픽입니다.](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
+![터널링이 있는 VPN 클라이언트의 네트워크 트래픽](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
 이 그림에서 VPN 클라이언트는 인터넷을 통해 직접 Microsoft 365 Microsoft 전역 네트워크로 가장 가까운 정문으로 중요한 클라우드 서비스 트래픽을 보내고 수신합니다.
 

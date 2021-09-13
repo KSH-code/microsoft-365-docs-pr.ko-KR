@@ -22,11 +22,11 @@ search.appverid:
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: 그룹 및 Microsoft 365 정보를 얻을 수 있는 그룹 보고서를 얻습니다.
 ms.openlocfilehash: 8c96d0bdbc42e4cebec47bde532afd6288d29613
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58564933"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185427"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 365 그룹
 
@@ -59,7 +59,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 |삭제됨 |삭제된 그룹 수입니다. 그룹이 삭제되었지만 보고 기간 중 활동이 있는 경우 이 플래그가 true로 설정되어 표에 표시됩니다. |
 |그룹 소유자 |그룹 소유자의 이름입니다. |
 |마지막 활동 날짜(UTC) |그룹에서 메시지를 받은 최근 날짜입니다. 전자 메일 대화, Yammer 또는 사이트에서 활동이 발생한 최근 날짜입니다. |
-|유형 |그룹 유형입니다. 비공개 또는 공개 그룹일 수 있습니다. |
+|형식 |그룹 유형입니다. 비공개 또는 공개 그룹일 수 있습니다. |
 |전자 메일로 Exchange |그룹에서 받은 메시지 수입니다.|
 |전자 메일(Exchange 전체) |그룹 사서함의 총 항목 수입니다. |
 |MB(Exchange 사서함 저장소) |그룹의 사서함에서 사용하는 저장소입니다. |

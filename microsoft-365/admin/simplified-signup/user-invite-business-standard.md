@@ -15,11 +15,11 @@ ms.custom:
 - AdminSurgePortfolio
 description: 초대 수락하여 조직에 Microsoft 365 Business Standard 수락
 ms.openlocfilehash: cdb77b7f0263aaeabad972dc5a005e42ce0d6deb
-ms.sourcegitcommit: 8ef23d275d7209a705295e2b117d4382b20ad4f7
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866947"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59186627"
 ---
 # <a name="accept-an-email-invitation-to-a-microsoft-365-business-standard-subscription-user"></a>Microsoft 365 Business Standard 전자 메일 초대 수락(사용자)
 

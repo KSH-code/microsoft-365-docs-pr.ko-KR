@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 앱의 사용자를 삭제하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2f0d470bc7855a5f3a57dd431fe11aac1525475710721585771f1959853ba50f
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 8b2f0db242197aecb04df2261caac3688ad4f1b2
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53900602"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59188860"
 ---
 # <a name="delete-a-user"></a>사용자 삭제
 

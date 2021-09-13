@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MSP(관리 서비스 공급자)의 경우 서비스 공급자를 사용하기 위한 요구 사항 목록을 Microsoft 365 Lighthouse.
-ms.openlocfilehash: 2247afb35e3b0e4757d7a6786b3a6a9027491e06
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 610b8cee89576b1112e9b5e3e49d59fa4becd3a3
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507809"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59187731"
 ---
 # <a name="requirements-for-microsoft-365-lighthouse"></a>요구 사항 Microsoft 365 Lighthouse
 
@@ -35,7 +35,7 @@ MSP는 Lighthouse를 사용하려면 클라우드 솔루션 공급자(CSP) 프�
 또한 각 MSP 고객 테넌트는 다음 요구 사항을 충족하여 Lighthouse 자격을 충족해야 합니다. 
  
 - MSP에 대한 DAP(위임된 관리자 권한) 
-- 하나 이상의 Microsoft 365 Business Premium 라이선스 
+- 하나 이상의 Microsoft 365 Business Premium 또는 Microsoft 365 E3 라이선스 
 - 라이선스가 있는 사용자 500명 미만  
 
 ## <a name="requirements-for-enablingdevice-management"></a>장치 관리를 사용하도록 설정하기 위한 요구 사항   
@@ -47,7 +47,7 @@ MSP는 Lighthouse를 사용하려면 클라우드 솔루션 공급자(CSP) 프�
 
 ## <a name="requirements-for-enabling-usermanagement"></a>사용자 관리를 사용하도록 설정하기 위한 요구 사항 
 
-위험한 사용자, 다단계 인증 및 암호 재설정을 비롯한 사용자 관리 페이지에 대한 보고서에 고객 데이터를 표시하려면 고객 테넌트에 Azure Active Directory Premium P1 이상에 대한 라이선스가 있어야 합니다. Azure AD Premium P1 포함된 Microsoft 365 Business Premium.   
+위험한 사용자, 다단계 인증 및 암호 재설정을 비롯한 사용자 관리 페이지에 대한 보고서에 고객 데이터를 표시하려면 고객 테넌트에 Azure Active Directory Premium P1 이상에 대한 라이선스가 있어야 합니다. Azure AD Premium P1 포함된 Microsoft 365 Business Premium Microsoft 365 E3.   
 
 ## <a name="requirements-for-enablingthreat-management"></a>위협 관리를 사용하도록 설정하기 위한 요구 사항 
 

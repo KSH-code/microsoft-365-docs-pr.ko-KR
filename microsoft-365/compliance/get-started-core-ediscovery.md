@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: 2016에서 Core eDiscovery를 사용하는 방법을 Microsoft 365. eDiscovery 권한을 할당하고 사례를 만든 후 구성원을 추가하고 eDiscovery 보류를 만든 다음 조사와 관련된 콘텐츠를 검색하고 내보낼 수 있습니다.
 ms.openlocfilehash: d1a9e68bedc77f3b74b13f438e73dcbcb83b4c8c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569588"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59191482"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>2013에서 Core eDiscovery 시작 Microsoft 365
 

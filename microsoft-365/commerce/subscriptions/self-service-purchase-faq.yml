@@ -20,12 +20,12 @@ metadata:
   - MET150
   description: 셀프 서비스 구매에 대한 자주 묻는 질문에 대한 답변을 찾아보는 것이 가장 흔합니다.
   ms.date: 09/15/2020
-  ms.openlocfilehash: 9cca88d8eb2d943d8d8d5377f4223e5a69251d6aa9048d8e0ab721373605cd4d
-  ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+  ms.openlocfilehash: 7dcf16ff51854b595f61c2797a62632a3003b7c9
+  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "53892642"
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59188332"
 title: 셀프 서비스 구매 FAQ
 summary: >
   셀프 서비스 구매는 사용자에게 새로운 기술을 사용해 보거나 궁극적으로 대규모 조직에 혜택을 주는 솔루션을 개발할 수 있는 기회를 제공합니다. 중앙 조달 및 IT 팀은 에서 셀프 서비스 구매 솔루션을 구입하고 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">배포하는</a>모든 사용자를 Microsoft 365 관리 센터. 관리자는 PowerShell을 통해 제품 기준으로 셀프 서비스 구매를 해제할 수 있습니다. 자세한 내용은 [MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용을 참조합니다.](allowselfservicepurchase-powershell.md)

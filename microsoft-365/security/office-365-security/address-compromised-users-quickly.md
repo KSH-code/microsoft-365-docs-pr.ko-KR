@@ -16,11 +16,11 @@ description: Microsoft Defender for Office 365 계획에서 자동화된 조사 
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 4a90768038bde3126dd4ac3e5016f4d04aded9af
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572482"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59185604"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동화된 조사 및 응답을 통해 손상된 사용자 계정 해결
 
