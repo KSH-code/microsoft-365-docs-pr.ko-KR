@@ -17,11 +17,11 @@ ms.custom:
 - Ent_Solutions
 description: Windows 테넌트의 Windows, Office 클라이언트 앱 및 Office 서버를 Microsoft 365 마이그레이션합니다.
 ms.openlocfilehash: 9570a34c1c1884452ee9090ca0b7d280411e0016
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58571582"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163451"
 ---
 # <a name="step-4-migration-for-your-microsoft-365-for-enterprise-tenants"></a>4단계. 엔터프라이즈 테넌트에 Microsoft 365 마이그레이션
 

@@ -17,11 +17,11 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.openlocfilehash: f28c209ce179cc019a8b0edbdc698f9f9eb7daf6
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509908"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165703"
 ---
 # <a name="manage-microsoft-defender-antivirus-in-your-business"></a>비즈니스 Microsoft Defender 바이러스 백신 관리
 
@@ -39,7 +39,7 @@ ms.locfileid: "58509908"
 - [Microsoft Endpoint Configuration Manager(현재](/mem/configmgr/protect/deploy-use/endpoint-protection-configure) Microsoft Endpoint Manager)
 - [그룹 정책](./use-group-policy-microsoft-defender-antivirus.md)
 - [PowerShell cmdlet](./use-powershell-cmdlets-microsoft-defender-antivirus.md)
-- [WMI(Windows Management Instrumentation)](./use-wmi-microsoft-defender-antivirus.md)
+- [Windows WMI(Management Instrumentation)](./use-wmi-microsoft-defender-antivirus.md)
 - [Microsoft 맬웨어 보호 명령줄 유틸리티(mpcmdrun.exe](./command-line-arguments-microsoft-defender-antivirus.md) 유틸리티라고도 합니다. 
 
 다음 문서에서는 이러한 도구를 사용하여 이러한 도구를 관리하고 구성하기 위한 추가 정보, 링크 및 리소스를 Microsoft Defender 바이러스 백신.

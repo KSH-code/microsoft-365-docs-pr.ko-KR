@@ -13,11 +13,11 @@ ms.collection:
 description: 관리자는 Microsoft 365 Defender 포털의 공격 시뮬레이션 교육이 직원에게 미치는 영향을 알아보고 시뮬레이션 및 교육 결과를 통해 정보를 얻을 수 있습니다.
 ms.technology: mdo
 ms.openlocfilehash: 725b5c0310d4412f0901526a8111c686f69898a2
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58576095"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163541"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 

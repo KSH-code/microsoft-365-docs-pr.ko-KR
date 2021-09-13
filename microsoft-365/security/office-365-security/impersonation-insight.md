@@ -20,11 +20,11 @@ ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: b01da861b3d85bee1f89a92da0d973679fca3c0c
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548729"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59163515"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Defender for Office 365
 
@@ -55,7 +55,7 @@ Microsoft 365 Defender 포털에서 가장 정보를 사용하여 가장 보호�
 - 이 문서의 절차를 수행하려면 Microsoft 365 Defender 포털에서 사용 권한을 할당해야 합니다.
   - **조직 관리**
   - **보안 관리자**
-  - **보안 읽기**
+  - **보안 읽기 권한자**
   - **전역 읽기 권한자**
 
   자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.

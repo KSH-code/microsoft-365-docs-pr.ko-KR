@@ -15,13 +15,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 06/15/2021
-ms.openlocfilehash: 5fc496fd0d40d5dd172fb45e8ce6b8d23ebab6da
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.date: 08/31/2021
+ms.openlocfilehash: 96589d4ed30dc635588cbc66a656d53836324d2e
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509992"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165735"
 ---
 # <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>제외 정의 시 피해야 하는 일반적인 실수
 
@@ -96,6 +96,17 @@ ms.locfileid: "58509992"
 `C:\Windows\Temp\`
 
 `C:\Windows\Temp\*`
+
+#### <a name="linux-and-macos-platforms"></a>Linux 및 macOS 플랫폼
+
+`/`
+
+`/bin`
+
+`/sbin`
+
+`/usr/lib`
+
 
 ### <a name="file-extensions"></a>파일 확장명
 
@@ -252,6 +263,18 @@ ms.locfileid: "58509992"
 `system.management.automation.dll`
 
 `windbg.exe`
+
+#### <a name="linux-and-macos-platforms"></a>Linux 및 macOS 플랫폼
+
+`bash`
+
+`sh`
+
+`python` 및 `python3`
+
+`java`
+
+`zsh`
 
 > [!NOTE]
 > , , 등의 파일 형식을 제외하거나, 환경에 취약성을 처리하기 위한 엄격한 업데이트 정책이 있는 최신 소프트웨어가 있는 `.gif` `.jpg` 경우 `.jpeg` `.png` 제외할 수 있습니다.

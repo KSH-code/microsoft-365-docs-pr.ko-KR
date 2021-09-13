@@ -25,7 +25,7 @@ highlightedContent:
 additionalContent:
   sections:
     - items:
-        - title: Microsoft Viva 주제
+        - title: Microsoft Viva Topics
           links:
             - text: 시작
               url: /microsoft-365/knowledge/
@@ -39,14 +39,16 @@ additionalContent:
               url: 'https://support.microsoft.com/en-us/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332'
         - title: Microsoft Viva Insights
           links:
-            - text: 시작하기
+            - text: 시작
               url: /insights/viva-teams-app
             - text: Learning 경로 - 검색 Microsoft Viva Insights
               url: /learn/modules/workplace-analytics-discover/
         - title: Microsoft Viva Connections
           links:
-            - text: 시작하기
-              url: /sharepoint/viva-connections
+            - text: 시작
+              url: /sharepoint/viva-connections-overview
+            - text: 확장성
+              url: /sharepoint/dev/spfx/viva/overview-viva-connections
             - text: 최종 사용자 도움말 & 교육
               url: 'https://support.microsoft.com/en-us/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b'
         - title: Microsoft Viva Learning

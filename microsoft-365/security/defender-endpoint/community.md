@@ -18,11 +18,11 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
 ms.openlocfilehash: 116a97946dc4f45be3030954d3d2fb217ac50b9c
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509980"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59165727"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>엔드포인트용 Microsoft Defender 커뮤니티에 액세스
 
@@ -38,7 +38,7 @@ Endpoint용 Defender Community 센터는 커뮤니티 구성원이 제품에 대
 
 특정 정보에 대해 알아보기 위해 탐색할 수 있는 몇 가지 공간이 있습니다.
 
-- 공지
+- Announcements
 - 새로운 기능
 - 위협 인텔리전스
 
