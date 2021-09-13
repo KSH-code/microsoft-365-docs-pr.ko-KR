@@ -14,16 +14,17 @@ ms.collection:
 - m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkMAC
 localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: Teams에서 게스트와 작업, 대화 및 문서 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보세요.
-ms.openlocfilehash: e43a43c6b409379f9ca18c46f91e078ced46b7ef
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 142f8d9adf9423d1c9a2d8e59405fd4f39dfb751
+ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572830"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59217892"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -108,7 +109,7 @@ Microsoft 365 Groups 게스트 설정을 설정하려면
 
 SharePoint 조직 수준 공유 설정을 설정하려면
 
-1. Microsoft 365 관리 센터의 왼쪽 탐색 창에 있는 **관리 센터** 에서 **SharePoint** 를 클릭합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>의 왼쪽 탐색 창에 있는 **관리 센터** 에서 **SharePoint** 를 클릭합니다.
 2. SharePoint 관리 센터의 왼쪽 탐색 창에서 **정책** 을 확장한 다음, **공유** 를 클릭합니다.
 3. SharePoint에 대한 외부 공유가 **모든 사용자** 또는 **새 게스트 및 기존 게스트** 로 설정되어 있는지 확인합니다.
 4. 변경한 내용이 있으면 **저장** 을 클릭합니다.
