@@ -7,18 +7,18 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.date: 08/30/2021
+ms.date: 09/13/2021
 ms.prod: m365-security
-ms.technology: mde
+ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
-ms.openlocfilehash: e5f62a59b66db83b5c9d191d2f7496b280abbc18
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1870c442676db58d8e0a48cea66bf50ed7dd051f
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213672"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356497"
 ---
 # <a name="set-up-and-configure-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1에 대한 Microsoft Defender 설정 및 구성(미리 보기)
 

@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: b4c499392bf9c48d704b1a0a960d9d92d097bd05
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dfb3c5e1edbbf77a95a1e1d5888b070a12bfd7a7
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218202"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353625"
 ---
 # <a name="defender-for-identity-notifications-in-microsoft-365-defender"></a>2013의 ID 알림에 대한 defender Microsoft 365 Defender
 
@@ -82,7 +82,7 @@ ID에 대한 Defender는 지명된 센서를 통해 Syslog 서버에 보안 및 
 1. 다음 세부 정보를 입력합니다.
 
     - **센서** - 드롭다운 목록에서 경고를 보낼 센서를 선택합니다.
-    - **서비스 끝점** 및 **포트** - syslog 서버의 IP 주소 또는 FQDN(정식 도메인 이름)을 입력하고 포트 번호를 지정합니다.
+    - **서비스 끝점** 및 **포트** - syslog 서버의 IP 주소 또는 FQDN(정식 도메인 이름)을 입력하고 포트 번호를 지정합니다. Syslog 끝점은 하나만 구성할 수 있습니다.
     - **Transport** -  전송 프로토콜(TCP 또는 UDP)을 선택합니다.
     - **Format** - 형식(RFC 3164 또는 RFC 5424)을 선택합니다.
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8a7e1b9641a1c4688da86bb072ab8c33f23be11d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 91ee0c6ec2e4c11b714dee586613b16fd22df278
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166994"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357672"
 ---
 # <a name="machine-resource-type"></a>컴퓨터 리소스 유형
 
@@ -75,10 +75,11 @@ ms.locfileid: "59166994"
 |firstSeen|DateTimeOffset|Microsoft Defender for [](machine.md) Endpoint에서 컴퓨터가 관찰된 첫 번째 날짜 및 시간입니다.|
 |lastSeen|DateTimeOffset|마지막으로 수신한 전체 장치 보고서의 시간 및 날짜입니다. 일반적으로 장치는 24시간마다 전체 보고서를 전송합니다.|
 |osPlatform|문자열|운영 체제 플랫폼.|
+|onboardingstatus|String|컴퓨터 온보드 상태입니다. 가능한 값은 "온보드" 및 "오프보더"입니다.|
 |osProcessor|String|운영 체제 프로세서. 대신 osArchitecture 속성을 사용합니다.|
 |버전|String|운영 체제 버전입니다.|
 |osBuild|Nullable long|운영 체제 빌드 번호입니다.|
-|lastIpAddress|String|컴퓨터의 로컬 NIC에 대한 마지막 [IP입니다.](machine.md)|
+|lastIpAddress|문자열|컴퓨터의 로컬 NIC에 대한 마지막 [IP입니다.](machine.md)|
 |lastExternalIpAddress|String|컴퓨터로 인터넷에 [](machine.md) 액세스한 마지막 IP입니다.|
 |healthStatus|Enum|[컴퓨터](machine.md) 상태. 가능한 값은 "Active", "Inactive", "ImpairedCommunication", "NoSensorData", "NoSensorDataImpairedCommunication" 및 "Unknown"입니다.|
 |rbacGroupName|문자열|컴퓨터 그룹 이름입니다.|

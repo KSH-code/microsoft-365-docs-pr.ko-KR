@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 대한 Windows 365 Business를 구입하는 방법을 알아보고 사용자가 클라우드 PC 사용을 시작하는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: 4c53aba7ae2d4bd47b5df2f32c50dcf6bb448201
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 39d43d81d292c343591e5f5e1192d8de198a7b7c
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184436"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59355663"
 ---
 # <a name="get-started-with-windows-365-business-and-cloud-pcs"></a>Windows 365 Business 및 Cloud PC 시작
 
@@ -39,7 +39,7 @@ ms.locfileid: "59184436"
 > 시작하기 전에 사용자의 Azure AD 장치 설정이 **Azure** [AD에](/azure/active-directory/devices/device-management-azure-portal#configure-device-settings) 장치를 가입할 수 있는지 확인합니다. 
 
    ![사용자는 장치를 Azure AD 설정에 가입할 수 있습니다.](../../media/deschutes/azure-device-settings.png)
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 365 Business를 설정하기 위한 라이선스 Windows 없습니다.
 
 최상의 온보드 환경을 제공하려면 설치 [](troubleshoot-windows-365-business.md) 문제 해결 가이드를 참조하여 환경 기본 설정이 Windows 365 Business에 최적화되어 있는지 확인하세요. 
@@ -107,7 +107,7 @@ Windows 365 제품 사이트를 통해 구독을 구매한 경우 또는 Microso
 사용자는 브라우저에서 **열기 를 선택하여** 클라우드 PC를 열 수 있습니다.
 
 > [!NOTE]  
-> 모바일 장치는 현재 지원되지 않습니다.
+> 모바일 장치는 현재 브라우저를 사용하여 클라우드 PC를 여는 데 지원되지 않습니다. 원격 데스크톱 앱이 지원됩니다.
 
 #### <a name="user-actions"></a>사용자 작업
 

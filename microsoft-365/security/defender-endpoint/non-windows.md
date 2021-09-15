@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a975daa6b73f39722b077cda307aa5ea806b1e1b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fd4e983f344d4f6193d43ca3103bd2af3548fb75
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189439"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356792"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>엔드포인트용 Microsoft Defender(Windows가 아닌 플랫폼)
 
@@ -32,7 +32,6 @@ ms.locfileid: "59189439"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Microsoft는 macOS, Linux, Android 및 iOS로 Windows Windows 업계를 선도하는 엔드포인트 보안 기능을 확장하기 위한 여정을 해오고 있습니다.
@@ -41,17 +40,17 @@ Microsoft는 macOS, Linux, Android 및 iOS로 Windows Windows 업계를 선도�
 
 끝점용 Microsoft Defender를 통해 고객은 Microsoft Defender 보안 센터 및 비 Windows Windows 플랫폼에서 Microsoft Defender 보안 센터 및 비영리 플랫폼의 모든 위협 및 경고에 대한 통합된 보기를 통해 해당 환경에서 일어나는 일에 대한 전체적인 그림을 얻을 수 있으므로 위협을 보다 신속하게 평가하고 대응할 수 있습니다.
 
-## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender for Endpoint(macOS용) 
+## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender for Endpoint(macOS용)
 
 MacOS의 끝점용 Microsoft Defender는 세 가지 최신 릴리스 버전의 macOS에 대한 바이러스 백신EDR 엔드포인트 감지 및 응답(취약성 관리) 기능을 제공합니다. 고객은 파트너 및 Jamf를 통해 솔루션을 Microsoft Endpoint Manager 수 있습니다. macOS의 Microsoft Office 응용 프로그램과 마찬가지로 Microsoft 자동 업데이트는 Mac 업데이트에서 끝점용 Microsoft Defender를 관리하는 데 사용됩니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
 
 시작하는 방법에 대한 자세한 내용은 macOS 설명서의 Endpoint용 Defender를 [참조하세요.](microsoft-defender-endpoint-mac.md)
 
->[!NOTE]
->다음 기능은 현재 macOS 끝점에서 지원되지 않습니다.
->- 데이터 손실 방지
->- 라이브 응답
-
+> [!NOTE]
+> 다음 기능은 현재 macOS 끝점에서 지원되지 않습니다.
+>
+> - 데이터 손실 방지
+> - 라이브 응답
 
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
@@ -59,13 +58,18 @@ Linux의 끝점용 Microsoft Defender는 Linux 서버에 대한 예방용(AV), �
 
 시작하는 방법에 대한 자세한 내용은 Linux 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](microsoft-defender-endpoint-linux.md)
 
->[!NOTE]
->다음 기능은 현재 Linux 끝점에서 지원되지 않습니다.
->- 데이터 손실 방지
->- 라이브 응답
->- SIEM
+> [!NOTE]
+> 다음 기능은 현재 Linux 끝점에서 지원되지 않습니다.
+>
+> - 데이터 손실 방지
+> - 라이브 응답
 
-
+> [!NOTE]
+> 다음 기능은 현재 Linux 끝점에서 지원되지 않습니다.
+>
+> - 데이터 손실 방지
+> - 라이브 응답
+> - SIEM
 
 ## <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
@@ -75,11 +79,11 @@ Android의 끝점용 Microsoft Defender는 Android 6.0 이상을 실행하는 �
 
 ## <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
-iOS의 끝점용 Microsoft Defender는 iOS 11.0 이상을 실행하는 장치에 대한 모바일 위협 방어 솔루션입니다. 고객의 테넌트 내에 등록된 장치(등록 또는 등록되지 않은 장치)가 지원됩니다. 감독되는 등록 장치와 관리되지 않는 등록 장치가 모두 지원됩니다. iOS에서는 피싱 방지, 안전하지 않은 연결 차단, 사용자 지정 표시기 설정, 탈옥 감지를 포함하는 웹 보호 기능을 제공합니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/iOS) 
+iOS의 끝점용 Microsoft Defender는 iOS 11.0 이상을 실행하는 장치에 대한 모바일 위협 방어 솔루션입니다. 고객의 테넌트 내에 등록된 장치(등록 또는 등록되지 않은 장치)가 지원됩니다. 감독되는 등록 장치와 관리되지 않는 등록 장치가 모두 지원됩니다. iOS에서는 피싱 방지, 안전하지 않은 연결 차단, 사용자 지정 표시기 설정, 탈옥 감지를 포함하는 웹 보호 기능을 제공합니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
 
 시작 방법에 대한 자세한 내용은 iOS 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](microsoft-defender-endpoint-ios.md)
 
-## <a name="licensing-requirements"></a>라이선스 요구사항 
+## <a name="licensing-requirements"></a>라이선스 요구사항
 
 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다. Microsoft Defender for Endpoint는 CSP(Microsoft Defender for Endpoint)에서 클라우드 솔루션 공급자 사용할 수 있습니다.
 

@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 2d474f4cc2c990ac8ebf3a964bbb532752741160
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 11855b9ebd6a2dd4641087e2e0a711860acb76d5
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189482"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59355847"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-configuration-manager"></a>Configuration Manager를 사용하여 끝점용 Microsoft Defender 관리
 
@@ -53,7 +53,6 @@ ms.locfileid: "59189482"
 |**조직의 장치에서 맬웨어** 방지 업데이트를 업데이트하는 방법 선택 <p> *Configuration Manager에서 Endpoint Protection 사용하여 조직의 장치에서 맬웨어 방지 정의를 최신으로 유지하는 여러 방법 중 선택할 수 있습니다.*|[사용자 정의 업데이트 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-definition-updates) <p> [Configuration Manager를 사용하여 정의 업데이트 전달](/mem/configmgr/protect/deploy-use/endpoint-definitions-configmgr)|
 |**직원이 인터넷에서** 악성 콘텐츠를 사용하는 앱을 사용하지 못하도록 네트워크 보호를 사용하도록 설정 <p> *테스트 환경에서 [네트워크](/microsoft-365/security/defender-endpoint/evaluate-network-protection) 보호를 위해 먼저 감사 모드를 사용하여 롤아웃하기 전에 차단되는 앱을 보는 것이 좋습니다.*|[Configuration Manager를 통해 네트워크 보호 켜기](/microsoft-365/security/defender-endpoint/enable-network-protection#microsoft-endpoint-configuration-manager)|
 |**랜섬웨어로부터 보호하도록** 제어된 폴더 액세스 구성 <p> *제어된 폴더 액세스를 랜섬웨어 방지 보호라고도 합니다.*|[끝점 보호: 제어된 폴더 액세스](/mem/intune/protect/endpoint-protection-windows-10#controlled-folder-access) <p> [Microsoft Endpoint Configuration Manage에서 제어된 폴더 액세스 사용](/microsoft-365/security/defender-endpoint/enable-controlled-folders#microsoft-endpoint-configuration-manager)|
-|||
 
 ## <a name="configure-your-microsoft-365-defender-portal"></a>사용자 Microsoft 365 Defender 구성
 

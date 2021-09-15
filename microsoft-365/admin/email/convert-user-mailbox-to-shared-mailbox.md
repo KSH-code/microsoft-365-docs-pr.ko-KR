@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: '개인 사서함을 한 사람이 아닌 여러 사람이 액세스할 수 있는 공유 사서함으로 변환하는 방법을 학습합니다. '
-ms.openlocfilehash: caf3935b1ffb36989b2884c6811111531a061098
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f6f4d84b96b0c5a04cb9e8d01ece48cadd45f0d7
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184732"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356318"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>사용자 사서함을 공유 사서함으로 변환
 
@@ -45,13 +45,31 @@ ms.locfileid: "59184732"
 
 - 이 규칙은 사서함이 공유 사서함으로 변환된 후 그대로 유지됩니다.
 
-## <a name="use-the-exchange-admin-center-to-convert-a-mailbox"></a>Exchange 관리 센터를 사용하여 사서함 변환
+## <a name="use-the-classic-exchange-admin-center-to-convert-a-mailbox"></a>클래식 Exchange 관리 센터를 사용하여 사서함 변환
  
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
+1. 클래식 Exchange <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">관리 센터로 이동하세요.</a>
 
 2. 받는 **사람 사서함** \> **을 선택합니다.**
 
 3. 사용자 사서함을 선택합니다. 공유 **사서함으로 변환에서** 변환을 **선택합니다.**
+
+4. 사서함이 50GB보다 작은 경우 사용자 에서 [](../manage/remove-licenses-from-users.md)라이선스를 제거하고 비용 지불을 중지할 수 있습니다. 사용자 계정을 삭제하지 않습니다. 공유 사서함은 앵커로 필요합니다. 조직을 떠나는 직원의 사서함을 변환하는 경우 추가 단계를 수행하여 더 이상 로그인할 수 없는지 해야 합니다. 자세한 내용은 에서 이전 직원 [제거를 Microsoft 365.](../add-users/remove-former-employee.md)
+    
+> [!NOTE]
+> 사서함 변환 중에 사용자 암호를 다시 설정할 필요는 없습니다. 그러나 암호를 다시 설정하지  않은 경우 사서함 변환이 완료된 후에도 원래 사용자 이름과 암호가 계속 작동됩니다.
+
+공유 사서함에 대해 알아야 할 다른 모든 내용은 [공유](about-shared-mailboxes.md) 사서함 및 공유 사서함 만들기를 [참조합니다.](create-a-shared-mailbox.md)
+
+> [!NOTE]
+> 공유 사서함에는 별도의 라이선스가 필요하지 않습니다. 그러나 원본 위치 보관을 사용하도록 설정하거나 공유 사서함에 원본 위치 유지 또는 소송 보존을 적용하려는 경우 Exchange Online Archiving이 있는 Exchange Online 계획 1 또는 Exchange Online 계획 2 라이선스를 사서함에 할당해야 입니다.
+
+## <a name="use-the-new-exchange-admin-center-to-convert-a-mailbox"></a>새 Exchange 관리 센터를 사용하여 사서함 변환
+
+1. Exchange <a href="https://admin.exchange.microsoft.com/#/homepage" target="_blank">관리 센터로 이동하세요.</a>
+
+2. 받는 **사람 사서함** \> **을 선택합니다.**
+
+3. 사용자 사서함을 선택합니다. 사서함 **탭의** **추가 작업 아래에서** 공유 **사서함으로 변환을 선택합니다.**
 
 4. 사서함이 50GB보다 작은 경우 사용자 에서 [](../manage/remove-licenses-from-users.md)라이선스를 제거하고 비용 지불을 중지할 수 있습니다. 사용자 계정을 삭제하지 않습니다. 공유 사서함은 앵커로 필요합니다. 조직을 떠나는 직원의 사서함을 변환하는 경우 추가 단계를 수행하여 더 이상 로그인할 수 없는지 해야 합니다. 에서 [이전 직원 제거를 Microsoft 365.](../add-users/remove-former-employee.md)
     
@@ -65,7 +83,7 @@ ms.locfileid: "59184732"
 
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>삭제된 사용자의 사서함 변환
 
-사용자 계정을 삭제하고 이제 이전 사서함을 공유 사서함으로 변환하려는 경우를 고려합니다. 다음 작업을 해야 합니다.
+사용자 계정을 삭제한 후 다음 단계에 따라 이전 사서함을 공유 사서함으로 변환합니다.
 
 1. [사용자 계정을 복원합니다.](../add-users/restore-user.md)
 
@@ -73,11 +91,9 @@ ms.locfileid: "59184732"
 
 3. 사용자의 암호를 다시 설정하십시오.
     
-4. 사서함을 다시 만들 때까지 20-30분 정도 기다립니다.
-    
-5. 이제 이 페이지의 지침에 따라 사서함을 공유 사서함으로 변환합니다.
-    
-6. 그런 다음 사용자 사서함에서 라이선스를 제거할 수 있습니다. 사용자의 이전 사서함을 삭제하지 않습니다. 공유 사서함은 앵커로 필요합니다.
+4. 사서함이 다시 만들어지기까지 20~30분 정도 기다립니다.
+      
+6. 사서함을 다시 만든 후 사용자 사서함에서 라이선스를 제거합니다. 사용자의 이전 사서함을 삭제하지 않습니다. 공유 사서함은 앵커로 필요합니다.
     
 7. 공유 사서함에 구성원을 추가합니다.
 
@@ -89,7 +105,7 @@ ms.locfileid: "59184732"
 
 3. 공유 사서함을 선택합니다. 일반 **사서함으로 변환에서** 변환을 **선택합니다.**
 
-4. 관리 센터로 돌아갈 수 있습니다. 사용자 **아래에서** 이전 공유 사서함과 연결된 사용자 계정을 선택하십시오. 계정에 라이선스를 할당하고 암호를 다시 설정하십시오.
+4. 관리 센터로 돌아갈 수 있습니다. 사용자 **아래에서** 이전 공유 사서함과 연결된 사용자 계정을 선택하십시오. 계정에 라이선스를 할당한 다음 암호를 다시 설정하십시오.
 
    사서함을 설정하는 데 몇 분 정도 걸릴 수 있지만 그 후에 해당 계정을 사용하게 될 사람이 준비됩니다. 로그인하면 공유 사서함에 있는 데 사용된 전자 메일 및 일정 항목이 표시됩니다.
 

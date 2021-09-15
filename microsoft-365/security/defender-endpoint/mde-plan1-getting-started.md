@@ -7,18 +7,18 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.date: 08/30/2021
+ms.date: 09/13/2021
 ms.prod: m365-security
-ms.technology: mde
+ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
-ms.openlocfilehash: 3af483db6b2cc9801a56d96147a0a4aed90e33ce
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f02873148fbd6415c987aad8e5161cff34c2004b
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213665"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59355828"
 ---
 # <a name="get-started-with-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 시작(미리 보기)
 
@@ -55,7 +55,7 @@ Microsoft 365 Defender 포털()에서는 알림을 보고, 장치를 관리하�
 
 ### <a name="navigation-bar-makes-it-easy-to-find-alerts-the-action-center-and-more"></a>탐색 모음을 사용하면 경고, 알림 센터 등 쉽게 찾을 수 있습니다.
 
-화면 왼쪽의 탐색 모음을 사용하면 인시던트, 경고, 알림 센터, 보고서 및 설정 간에 쉽게 이동할 수 있습니다. 다음 표에서는 탐색 모음에 대해 설명하고 있습니다.
+화면 왼쪽의 탐색 모음을 사용하면 인시던트, 경고, 알림 센터, 보고서 및 설정 간에 쉽게 이동할 수 있습니다. 다음 표에서는 탐색 모음에 대해 설명하고 있습니다.<br/><br/>
 
 | 탐색 모음 항목 | 설명 |
 |:---|:---|

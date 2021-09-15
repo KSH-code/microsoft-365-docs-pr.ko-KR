@@ -16,12 +16,12 @@ ms.reviewer: pauhijbr, ksarens
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 6f6018ec8b514234ab4f98e3d5416b472ff88739
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6ca4616cd1c2818e0a1eb0b5c286142e9f65f32b
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218265"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353589"
 ---
 # <a name="schedule-antivirus-scans-using-group-policy"></a>그룹 정책을 사용하여 바이러스 백신 검사 예약
 
@@ -33,7 +33,7 @@ ms.locfileid: "59218265"
 
 ## <a name="configure-antivirus-scans-using-group-policy"></a>그룹 정책을 사용하여 바이러스 백신 검사 구성
 
-1. 그룹 정책 관리 컴퓨터의 그룹 정책 편집기에서 컴퓨터 구성 관리 템플릿 및 구성 요소 Windows   >    >    >  **검사로**  >  **Microsoft Defender 바이러스 백신 합니다.**
+1. 그룹 정책 관리 컴퓨터의 그룹 정책 편집기에서 컴퓨터 구성 관리 템플릿 및 구성 요소 Windows  \>  \>  \> **검사로** \> **Microsoft Defender 바이러스 백신 합니다.**
 
 2. 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 **을 선택합니다.**
 

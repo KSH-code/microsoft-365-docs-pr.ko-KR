@@ -17,12 +17,12 @@ ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.date: 07/27/2021
-ms.openlocfilehash: e8388721d11d25d17bc8b8bbbe505e968d243c9f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c85e2d8ed1a81cde397fd7be651fbefda5db0053
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213482"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356744"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -62,49 +62,58 @@ ms.locfileid: "59213482"
 
 ### <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
 
-| 이 작업을 수행하기 위해... | 이 섹션을 참조하세요. |
-|:---|:---|
-| 테넌트 전체에서 변조 보호 관리 <p>Microsoft 365 Defender 포털을 사용하여 변조 방지 설정 또는 해제 | [조직에 대한 변조 방지를 Microsoft 365 Defender](#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal) |
-| 조직의 변조 방지 설정 미세 조정 <p>Intune(Microsoft Endpoint Manager)을 사용하여 변조 방지를 설정하거나 해제합니다. 이 방법을 사용하여 일부 또는 모든 사용자에 대해 변조 방지를 구성할 수 있습니다. | [Intune을 사용하여 조직의 변조 방지 관리](#manage-tamper-protection-for-your-organization-using-intune) |
-| Configuration Manager를 통해 조직에 대한 변조 보호 설정(또는 해제)을 끄기 | [Configuration Manager 버전 2006에서 테넌트 첨부를 사용하여 조직의 변조 방지 관리](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006) |
-| 개별 장치에 대한 변조 보호 켜기(또는 끄기) | [개별 장치에서 변조 보호 관리](#manage-tamper-protection-on-an-individual-device) |
-| 장치에서의 변조 시도에 대한 세부 정보 보기 | [변조 시도에 대한 정보 보기](#view-information-about-tampering-attempts) |
-| 보안 권장 사항 검토 | [보안 권장 사항 검토](#review-your-security-recommendations) |
-| FAQ(질문과 대답) 목록 검토 | [FAQ 찾아보기](#view-information-about-tampering-attempts) |
+<br>
 
-변조 방지를 사용하도록 설정하는 데 사용하는 방법 또는 관리 도구에 따라 클라우드 제공 보호에 종속될 수 있습니다. 
+****
+
+|이 작업을 수행하기 위해...|이 섹션을 참조하세요.|
+|---|---|
+|테넌트 전체에서 변조 보호 관리 <p> Microsoft 365 Defender 포털을 사용하여 변조 방지 설정 또는 해제|[조직에 대한 변조 방지를 Microsoft 365 Defender](#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal)|
+|조직의 변조 방지 설정 미세 조정 <p> Intune(Microsoft Endpoint Manager)을 사용하여 변조 방지를 설정하거나 해제합니다. 이 방법을 사용하여 일부 또는 모든 사용자에 대해 변조 방지를 구성할 수 있습니다.|[Intune을 사용하여 조직의 변조 방지 관리](#manage-tamper-protection-for-your-organization-using-intune)|
+|Configuration Manager를 통해 조직에 대한 변조 보호 설정(또는 해제)을 끄기|[Configuration Manager 버전 2006에서 테넌트 첨부를 사용하여 조직의 변조 방지 관리](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)|
+|개별 장치에 대한 변조 보호 켜기(또는 끄기)|[개별 장치에서 변조 보호 관리](#manage-tamper-protection-on-an-individual-device)|
+|장치에서의 변조 시도에 대한 세부 정보 보기|[변조 시도에 대한 정보 보기](#view-information-about-tampering-attempts)|
+|보안 권장 사항 검토|[보안 권장 사항 검토](#review-your-security-recommendations)|
+|FAQ(질문과 대답) 목록 검토|[FAQ 찾아보기](#view-information-about-tampering-attempts)|
+|
+
+변조 방지를 사용하도록 설정하는 데 사용하는 방법 또는 관리 도구에 따라 클라우드 제공 보호에 종속될 수 있습니다.
 
 다음 표에서는 메서드, 도구 및 종속성에 대해 자세히 제공합니다.
 
-| 변조 방지를 사용하는 방법  | MAPS(클라우드 제공 보호)에 대한 종속성    |
-|:----|:----|
-| Microsoft Intune  | 아니요 |
-| Microsoft Endpoint Configuration Manager + 테넌트 첨부  |     아니요  |
-| Microsoft 365 Defender 포털( [https://security.microsoft.com](https://security.microsoft.com) )  |     예  |
+<br>
+
+****
+
+|변조 방지를 사용하는 방법|MAPS(클라우드 제공 보호)에 대한 종속성|
+|---|---|
+|Microsoft Intune|아니요|
+|Microsoft Endpoint Configuration Manager + 테넌트 첨부|아니요|
+|Microsoft 365 Defender 포털( [https://security.microsoft.com](https://security.microsoft.com) )|예|
+|
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal"></a>사이트 포털을 사용하여 조직의 변조 Microsoft 365 Defender 관리
 
 테넌트 포털()을 사용하여 테넌트에 대해 변조 보호를 켜거나 Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 다음은 유의해야 할 몇 가지 사항입니다.
 
-- 현재 새 배포의 경우 Microsoft 365 Defender 포털에서 변조 방지를 관리하는 옵션이 기본적으로 설정되어 있습니다. 기존 배포의 경우 옵트인(opt in)으로 변조 보호를 사용할 수 있습니다. 옵트인(opt in)을 Microsoft 365 Defender 끝점 고급 설정 변조  >    >    >  **보호를 선택 합니다.**
+- 현재 새 배포의 경우 Microsoft 365 Defender 포털에서 변조 방지를 관리하는 옵션이 기본적으로 설정되어 있습니다. 기존 배포의 경우 옵트인(opt in)으로 변조 보호를 사용할 수 있습니다. 옵트인(opt in)을  Microsoft 365 Defender 끝점 고급 설정 변조 \>  \>  \> **보호를 선택 합니다.**
 
 - Microsoft 365 Defender 포털을 사용하여 변조 방지를 관리할 때 Intune 또는 테넌트 연결 방법을 사용할 필요가 없습니다.
 
 - Microsoft 365 Defender 포털에서 변조 방지를 관리하는 경우 설정이 테넌트 전체에 적용되어 Windows 10, Windows Server 2016 또는 Windows Server 2019를 실행하는 모든 장치에 영향을 미치게 됩니다. 변조 방지를 미세 조정하려면(예: 일부 장치에 대해 변조 보호를 설정하고 다른 장치에는 사용하지 않는 경우) 테넌트 연결과 함께 [Intune](#manage-tamper-protection-for-your-organization-using-intune) 또는 [Configuration Manager를 사용 합니다.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
-- 하이브리드 환경이 있는 경우 Intune에서 구성된 변조 보호 설정이 Microsoft 365 Defender 구성한 설정보다 우선합니다. 
+- 하이브리드 환경이 있는 경우 Intune에서 구성된 변조 보호 설정이 Microsoft 365 Defender 구성한 설정보다 우선합니다.
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털에서 변조 방지를 관리하기 위한 요구 사항
 
 - 전역 관리자, [](/microsoft-365/security/defender-endpoint/assign-portal-access) 보안 관리자 또는 보안 작업과 같은 적절한 권한이 할당되어 있어야 합니다.
 
 - 사용자 Windows 다음 버전 중 하나를 실행해야 Windows.
+  - Windows 10
+  - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+  - Windows 서버, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
+  - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
 
-   - Windows 10
-   - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
-   - Windows 서버, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
-   - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
-   
   릴리스에 대한 자세한 내용은 릴리스 [Windows 10 참조하세요.](/windows/release-health/release-information)
 
 - 디바이스를 [끝점용 Microsoft Defender에 온보딩해야 합니다.](/microsoft-365/security/defender-endpoint/onboarding)
@@ -119,9 +128,9 @@ ms.locfileid: "59213482"
 
 1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
 
-2. 끝점 **설정**  >  **를 선택 합니다.**
+2. 끝점 **설정** \> **를 선택 합니다.**
 
-3. 일반 **고급**  >  **기능으로 이동한** 다음 변조 방지를 켜야 합니다.
+3. 일반 **고급** \> **기능으로 이동한** 다음 변조 방지를 켜야 합니다.
 
 ## <a name="manage-tamper-protection-for-your-organization-using-intune"></a>Intune을 사용하여 조직의 변조 방지 관리
 
@@ -145,7 +154,7 @@ ms.locfileid: "59213482"
 
 1. Microsoft Endpoint Manager [관리 센터로 이동하여](https://endpoint.microsoft.com) 로그인합니다.
 
-2. 장치 **구성**  >  **프로필을 선택합니다.**
+2. 장치 **구성** \> **프로필을 선택합니다.**
 
 3. 다음 설정을 포함하는 프로필을 만들 수 있습니다.
 
@@ -158,10 +167,10 @@ ms.locfileid: "59213482"
 
 ### <a name="are-you-using-windows-server-2016-or-windows-version-1709-1803-or-1809"></a>1709, Windows Server 2016, Windows 또는 1809 버전을 사용하나요?
 
-Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/release-health/status-windows-10-1809-and-windows-server-2019)사용하는 경우 앱 앱에  변조 보호가 Windows 보안 않습니다. 대신 PowerShell을 사용하여 변조 방지를 사용할지 여부를 결정할 수 있습니다. 
-   
+Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/release-health/status-windows-10-1809-and-windows-server-2019)사용하는 경우 앱 앱에  변조 보호가 Windows 보안 않습니다. 대신 PowerShell을 사용하여 변조 방지를 사용할지 여부를 결정할 수 있습니다.
+
 이 Windows Server 2016 경우 설정 변조 방지를 사용하는 경우 앱 앱이 실시간 보호 상태를 정확하게 반영하지 않습니다.
-   
+
 #### <a name="use-powershell-to-determine-whether-tamper-protection-and-real-time-protection-are-turned-on"></a>PowerShell을 사용하여 변조 방지 및 실시간 보호가 켜져 있는지 확인
 
 1. 앱 Windows PowerShell 열기
@@ -179,14 +188,14 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 1. 테넌트 연결 설정 자세한 내용은 테넌트 연결 Microsoft Endpoint Manager 장치 동기화 및 장치 작업을 [참조하세요.](/mem/configmgr/tenant-attach/device-sync-actions)
 
-2. In the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), go to **Endpoint security**  >  **Antivirus**, and then choose + **Create Policy**. 
+2. In the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), go to **Endpoint security** \> **Antivirus**, and then choose + **Create Policy**.
 
-   - 플랫폼 **목록에서** Windows 10 및 Windows **서버(ConfigMgr)를 선택합니다.**  
-   - 프로필 **목록에서** 환경 **Windows 보안(미리 보기)를 선택합니다.** <br/>
+   - 플랫폼 **목록에서** Windows 10 및 Windows **서버(ConfigMgr)를 선택합니다.**
+   - 프로필 **목록에서** 환경 **Windows 보안(미리 보기)를 선택합니다.**
 
 3. 디바이스 컬렉션에 정책을 배포합니다.
 
-### <a name="need-help-with-this-method"></a>이 메서드에 대한 도움이 필요하세요? 
+### <a name="need-help-with-this-method"></a>이 메서드에 대한 도움이 필요하세요?
 
 다음 리소스를 참조하십시오.
 
@@ -210,7 +219,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 1. 시작 **을** 선택하고 보안 입력을 *시작합니다.* 검색 결과에서 를 **Windows 보안.**
 
-2. 바이러스 **& 위협 방지 바이러스**& 설정을  >  **선택합니다.**
+2. 바이러스 **& 위협 방지 바이러스** & 설정을 \> **선택합니다.**
 
 3. 변조 **보호를 설정** 또는 **해제로** **설정**
 
@@ -246,21 +255,21 @@ Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/wi
 
 ### <a name="what-happens-if-microsoft-defender-antivirus-is-not-active-on-a-device"></a>장치에서 Microsoft Defender 바이러스 백신 활성화되지 않은 경우 어떻게 하나요?
 
-끝점용 Microsoft Defender에 온보딩된 디바이스는 수동 Microsoft Defender 바이러스 백신 실행됩니다. 이러한 경우 변조 보호는 서비스 및 해당 기능을 계속 보호합니다. 
+끝점용 Microsoft Defender에 온보딩된 디바이스는 수동 Microsoft Defender 바이러스 백신 실행됩니다. 이러한 경우 변조 보호는 서비스 및 해당 기능을 계속 보호합니다.
 
 ### <a name="how-do-i-turn-tamper-protection-on-or-off"></a>변조 보호를 켜거나 끄는 방법
 
 가정용 사용자인 경우 개별 장치에서 변조 보호 [관리를 참조하세요.](#manage-tamper-protection-on-an-individual-device)
 
-끝점용 Microsoft [Defender를](/microsoft-365/security/defender-endpoint)사용하는 조직인 경우 다른 끝점 보호 기능을 관리하는 방법과 유사한 Intune에서 변조 보호를 관리할 수 있습니다. 이 문서의 다음 섹션을 참조하세요. 
+끝점용 Microsoft [Defender를](/microsoft-365/security/defender-endpoint)사용하는 조직인 경우 다른 끝점 보호 기능을 관리하는 방법과 유사한 Intune에서 변조 보호를 관리할 수 있습니다. 이 문서의 다음 섹션을 참조하세요.
 
 - [Intune을 사용하여 변조 방지 관리](#manage-tamper-protection-for-your-organization-using-intune)
 - [Configuration Manager, 버전 2006을 사용하여 변조 보호 관리](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
-- [사이트 포털을 사용하여 변조 Microsoft 365 Defender 관리](#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal) 
+- [사이트 포털을 사용하여 변조 Microsoft 365 Defender 관리](#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal)
 
 ### <a name="how-does-configuring-tamper-protection-in-intune-affect-how-i-manage-microsoft-defender-antivirus-with-group-policy"></a>Intune에서 변조 보호를 구성하는 것은 그룹 정책을 사용하여 Microsoft Defender 바이러스 백신 어떻게 영향을 미치나요?
 
-변조 방지에는 그룹 정책이 적용되지 않습니다. 변조 방지가 Microsoft Defender 바이러스 백신 설정에 대한 변경 내용은 무시됩니다. 
+변조 방지에는 그룹 정책이 적용되지 않습니다. 변조 방지가 Microsoft Defender 바이러스 백신 설정에 대한 변경 내용은 무시됩니다.
 
 ### <a name="if-we-use-microsoft-intune-to-configure-tamper-protection-does-it-apply-only-to-the-entire-organization"></a>변조 Microsoft Intune 구성하는 경우 전체 조직에만 적용합니까?
 
@@ -269,6 +278,7 @@ Intune을 통해 변조 보호를 유연하게 구성할 수 있습니다. 전�
 ### <a name="can-i-configure-tamper-protection-with-microsoft-endpoint-configuration-manager"></a>변조 방지를 구성할 수 Microsoft Endpoint Configuration Manager?
 
 테넌트 첨부를 사용하는 경우 테넌트 첨부 파일을 Microsoft Endpoint Configuration Manager. 다음 리소스를 참조하십시오.
+
 - [Configuration Manager 버전 2006을 사용하여 조직의 변조 보호 관리](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 - [Tech Community 블로그: Configuration Manager 테넌트 연결 클라이언트에 대한 변조 방지 발표](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/announcing-tamper-protection-for-configuration-manager-tenant/ba-p/1700246#.X3QLR5Ziqq8.linkedin)
 
@@ -286,7 +296,7 @@ Intune을 통해 변조 보호를 유연하게 구성할 수 있습니다. 전�
 
 ### <a name="what-happens-if-my-device-is-onboarded-with-microsoft-defender-for-endpoint-and-then-goes-into-an-off-boarded-state"></a>장치가 끝점용 Microsoft Defender를 사용하여 온보딩된 후 오프보드 상태로 넘어가면 어떻게 하나요?
 
-장치가 끝점용 Microsoft Defender에서 오프보딩된 경우 변조 방지가 켜져 있습니다. 이는 관리되지 않는 장치의 기본 상태입니다. 
+장치가 끝점용 Microsoft Defender에서 오프보딩된 경우 변조 방지가 켜져 있습니다. 이는 관리되지 않는 장치의 기본 상태입니다.
 
 ### <a name="if-the-status-of-tamper-protection-changes-are-alerts-shown-in-the-microsoft-365-defender-portal"></a>변조 방지 상태가 변경되는 경우 알림이 Microsoft 365 Defender 표시합니까?
 
@@ -294,7 +304,7 @@ Intune을 통해 변조 보호를 유연하게 구성할 수 있습니다. 전�
 
 보안 운영 팀은 다음 예와 같은 헌팅 쿼리를 사용할 수도 있습니다.
 
-`DeviceAlertEvents | where Title == "Tamper Protection bypass"`
+`DeviceAlertEvents|where Title == "Tamper Protection bypass"`
 
 [변조 시도에 대한 정보를 을 를 으로 본다.](#view-information-about-tampering-attempts)
 

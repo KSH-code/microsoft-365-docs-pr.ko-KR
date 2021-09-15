@@ -23,12 +23,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 08/16/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: b46cc436c9ff616f5562787327df8ec9031e0ead
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0b927f9bfb1ad9949adc8789b4dfd90b4e56c60b
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166906"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357055"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>끝점용 Microsoft Defender로 전환 - 1단계: 준비
 
@@ -40,7 +40,7 @@ ms.locfileid: "59166906"
 |--|--|--|
 |*여기 있습니다!*| | |
 
-**[Endpoint용 Defender로 전환하는 준비 단계에 오신 것을 환영합니다.](switch-to-microsoft-defender-migration.md#the-migration-process)** 
+**[Endpoint용 Defender로 전환하는 준비 단계에 오신 것을 환영합니다.](switch-to-microsoft-defender-migration.md#the-migration-process)**
 
 이 마이그레이션 단계에는 다음 단계가 포함됩니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "59166906"
 
 ### <a name="make-sure-your-existing-solution-is-up-to-date"></a>기존 솔루션을 최신으로 유지해야 합니다.
 
-기존 끝점 보호 솔루션을 최신으로 유지하고 조직의 장치에 최신 보안 업데이트가 있는지 확인합니다. 
+기존 끝점 보호 솔루션을 최신으로 유지하고 조직의 장치에 최신 보안 업데이트가 있는지 확인합니다.
 
 도움이 필요하신가요? 솔루션 공급자 설명서를 참조하세요.
 
@@ -63,27 +63,29 @@ ms.locfileid: "59166906"
 
 조직의 장치를 업데이트하는 데 도움이 필요하세요? 다음 리소스를 참조하십시오.
 
-|OS | 리소스 |
-|:--|:--|
-|Windows |[Microsoft 업데이트](https://www.update.microsoft.com) |
-|macOS | [Mac에서 소프트웨어를 업데이트하는 방법](https://support.apple.com/HT201541)|
-|iOS |[iPhone, iPad 또는 iPod 터치 업데이트](https://support.apple.com/HT204204)|
-|Android |[Android & 업데이트 확인](https://support.google.com/android/answer/7680439) |
-|Linux | [Linux 101: 시스템 업데이트](https://www.linux.com/training-tutorials/linux-101-updating-your-system) |
+<br/><br/>
+
+|OS|리소스|
+|---|---|
+|Windows|[Microsoft 업데이트](https://www.update.microsoft.com)|
+|macOS|[Mac에서 소프트웨어를 업데이트하는 방법](https://support.apple.com/HT201541)|
+|iOS|[iPhone, iPad 또는 iPod 터치 업데이트](https://support.apple.com/HT204204)|
+|Android|[Android & 업데이트 확인](https://support.google.com/android/answer/7680439)|
+|Linux|[Linux 101: 시스템 업데이트](https://www.linux.com/training-tutorials/linux-101-updating-your-system)|
 
 ## <a name="get-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender 다운로드
 
 조직의 장치를 업데이트한 후 다음 단계는 Endpoint용 Defender를 다운로드하고 라이선스를 할당한 다음 서비스가 프로비전되어 있는지를 확인 하는 것입니다.
 
-1. 지금 끝점용 Defender를 구입하거나 사용해 보아야 합니다. [무료 평가판을 시작하거나 견적을 요청합니다.](https://aka.ms/mdatp) 
+1. 지금 끝점용 Defender를 구입하거나 사용해 보아야 합니다. [무료 평가판을 시작하거나 견적을 요청합니다.](https://aka.ms/mdatp)
 
 2. 라이선스가 올바르게 프로비전되었는지 확인합니다. [라이선스 상태를 확인 합니다.](production-deployment.md#check-license-state)
 
 3. 끝점용 Defender의 전용 클라우드 인스턴스를 설정합니다. [Endpoint 설치: 테넌트 구성에 대한 Defender를 참조합니다.](production-deployment.md#tenant-configuration)
 
 4. 조직의 끝점(예: 장치)이 프록시를 사용하여 인터넷에 액세스하는 경우 Endpoint 설치용 [Defender: 네트워크 구성을 참조합니다.](production-deployment.md#network-configuration)
- 
-이제 Microsoft 365 Defender 포털()을 사용할 보안 관리자 및 보안 운영자에 대한 액세스 권한을 부여할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 
+
+이제 Microsoft 365 Defender 포털()을 사용할 보안 관리자 및 보안 운영자에 대한 액세스 권한을 부여할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
 
 > [!NOTE]
 > Microsoft 365 Defender 포털을 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 이전 Microsoft Defender 보안 센터(는 곧 Microsoft 365 Defender https://securitycenter.windows.com) 포털로 리디렉션됩니다. 자세한 내용은 Microsoft 365 Defender [개요를 참조하세요.](portal-overview.md)
@@ -110,14 +112,16 @@ Microsoft 365 Defender 포털()에서는 끝점용 Defender의 기능에 액세�
 
 장치와 끝점용 Defender 간의 통신을 사용하도록 설정하려면 프록시 및 인터넷 설정을 구성합니다. 다음 표에는 다양한 운영 체제 및 기능에 대한 프록시 및 인터넷 설정을 구성하는 데 사용할 수 있는 리소스에 대한 링크가 포함되어 있습니다.
 
-| 기능  | 운영 체제 | 리소스 |
-|:--|:--|:--|
-| [끝점 검색 및](overview-endpoint-detection-response.md) 응답(EDR) | [Windows 10](/windows/release-health/release-information) <br/>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>[Windows Server 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803)  | [컴퓨터 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md) |
-| EDR | [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <br/>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>[Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[프록시 및 인터넷 연결 설정 구성](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings) |
-| EDR  | macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)   | [MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)  |
-| [Windows Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md) | [Windows 10](/windows/release-health/release-information) <br/>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>[Windows Server 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803) <br/>[Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) | [Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md) |
-| 바이러스 검사 | macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡) | [MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections) |
-| 바이러스 검사 | Linux: RHEL 7.2+; CentOS Linux 7.2+; Ubuntu 16 LTS 이상; SLES 12+; 데비안 9+; Oracle Linux 7.2 | [Linux의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-linux.md#network-connections) |
+<br/><br/>
+
+|기능|운영 체제|리소스|
+|---|---|---|
+|[끝점 검색 및](overview-endpoint-detection-response.md) 응답(EDR)|[Windows 10](/windows/release-health/release-information) <p> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019) <p> [Windows Server 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803)|[컴퓨터 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)|
+|EDR|[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p> [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) <p> [Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)|[프록시 및 인터넷 연결 설정 구성](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings)|
+|EDR|macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)|[MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)|
+|[Windows Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)|[Windows 10](/windows/release-health/release-information) <p> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019) <p> [Windows Server 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803) <p> [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)|[Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)|
+|바이러스 검사|macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)|[MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)|
+|바이러스 검사|Linux: RHEL 7.2+; CentOS Linux 7.2+; Ubuntu 16 LTS 이상; SLES 12+; 데비안 9+; Oracle Linux 7.2|[Linux의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-linux.md#network-connections)|
 
 ## <a name="next-step"></a>다음 단계
 

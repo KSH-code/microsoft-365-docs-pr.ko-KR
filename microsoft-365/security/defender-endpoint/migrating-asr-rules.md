@@ -15,12 +15,12 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: b1aae75f411af4f9d745c67831222c5ceee6bb0d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0c2ffdde4ff259f2a2ef098a6d715cbcd785dfe4
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189472"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357634"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>타사 HIPS에서 ASR 규칙으로 마이그레이션
 
@@ -28,7 +28,7 @@ ms.locfileid: "59189472"
 
 ## <a name="scenarios-when-migrating-from-a-third-party-hips-product-to-asr-rules"></a>타사 HIPS 제품에서 ASR 규칙으로 마이그레이션할 때의 시나리오
 
-### <a name="block-creation-of-specific-files-and-registry-keys"></a>특정 파일 및 레지스트리 키 만들기 차단
+### <a name="block-creation-of-specific-files"></a>특정 파일 만들기 차단
 
 - **적용대상**- 모든 프로세스
 - **작업**- 파일 만들기
@@ -36,7 +36,7 @@ ms.locfileid: "59189472"
 - **공격 표면 감소 규칙**- ASR 규칙은 IOC(손상 표시기)가 아닌 공격 기술을 차단합니다. 특정 파일 확장명을 차단하는 것은 장치가 손상되는 것을 방지하지 않는 것이기 때문에 항상 유용하지는 않습니다. 공격자가 페이로드에 대한 새 유형의 확장을 만들 때까지 공격을 부분적으로만 저지합니다.
 - **기타 권장 기능**- 클라우드 보호 및 동작 분석과 함께 Microsoft Defender AV를 사용하도록 설정하는 것이 좋습니다. "랜섬웨어에 대한 고급 보호 사용" ASR 규칙과 같은 다른 방지를 사용하는 것이 좋습니다. 이를 통해 랜섬웨어 공격으로부터 더 높은 수준의 보호를 제공합니다. 또한 이러한 레지스트리 키 중 상당수는 특정 경고를 트리거하는 ASEP 기술과 같은 끝점용 Microsoft Defender에서 모니터링합니다. 사용되는 레지스트리 키에는 최소한 로컬 관리자 또는 신뢰할 수 있는 설치 관리자 권한이 필요합니다. 최소한의 관리 계정이나 권한으로 잠긴 환경을 사용하는 것이 좋습니다. 더 광범위한 보안 권장 사항의 일부인 "필수가 아닌 역할에 대해 SeDebug 사용 안 하게"를 비롯한 기타 시스템 구성을 사용하도록 설정할 수 있습니다.
 
-### <a name="block-creation-of-specific-files-and-registry-keys"></a>특정 파일 및 레지스트리 키 만들기 차단
+### <a name="block-creation-of-specific-registry-keys"></a>특정 레지스트리 키 만들기 차단
 
 - **적용대상**- 모든 프로세스
 - **프로세스**- N/A
@@ -72,17 +72,16 @@ ms.locfileid: "59189472"
 - **공격** 표면 감소 규칙 - ASR 규칙에는 Office 통신 앱(Outlook, Skype 및 Teams)이 하위 프로세스를 시작하지 못하게 하는 기본 제공 규칙이 있습니다. "Office 통신 응용 프로그램이 자식 프로세스를 만들지 못하게 차단", GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
 - **기타 권장 기능**- PowerShell의 공격 표면을 최소화하기 위해 PowerShell 제한 언어 모드를 사용하도록 설정하는 것이 좋습니다.
 
+### <a name="block-office-apps-from-launching-child-processes"></a>앱의 Office 프로세스 시작 차단
 
-### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>앱의 Office 프로세스 시작 및 실행 가능 콘텐츠 만들기 차단
-
-- **적용일**- Office  
+- **적용일**- Office
 - **프로세스**- winword.exe, powerpnt.exe, excel.exe
 - **작업**- 프로세스 실행
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
 - **공격** 표면 감소 규칙 - ASR 규칙에는 Office 앱이 하위 프로세스를 시작하지 못하게 하는 기본 제공 규칙이 있습니다. "모든 Office 응용 프로그램이 하위 프로세스를 만들지 못하게 차단", GUID "d4f940ab-401b-4efc-aadc-ad5f3c50688a".
 - **기타 권장 기능**- N/A
-    
-### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>앱의 Office 프로세스 시작 및 실행 가능 콘텐츠 만들기 차단
+
+### <a name="block-office-apps-from-creating-executable-content"></a>앱에서 Office 콘텐츠를 만들지 차단
 
 - **적용일**- Office
 - **프로세스**- winword.exe, powerpnt.exe, excel.exe
@@ -108,16 +107,14 @@ ms.locfileid: "59189472"
 - **공격 표면 감소 규칙**- ASR 규칙은 Adobe Reader가 하위 프로세스를 시작하지 못하도록 차단하도록 허용합니다. 규칙 이름은 "Adobe Reader에서 하위 프로세스를 만들 수 없습니다.", GUID "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c"입니다.
 - **기타 권장 기능**- N/A
 
-
 ### <a name="block-download-or-creation-of-executable-content"></a>실행 가능한 콘텐츠 다운로드 또는 만들기 차단
 
-- **적용 사항**- CertUtil: 실행 파일을 다운로드 또는 만들기 차단 
+- **적용 사항**- CertUtil: 실행 파일을 다운로드 또는 만들기 차단
 - **프로세스**- certutil.exe
 - **작업**- 파일 만들기
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- *.exe
 - **공격 표면 감소 규칙**- ASR 규칙은 보안 보호의 일부이기 때문에 이러한 시나리오를 Microsoft Defender 바이러스 백신 않습니다.
 - **기타 권장 기능**- Microsoft Defender AV는 CertUtil이 실행 파일을 만들거나 다운로드하지 못하게 합니다.
-
 
 ### <a name="block-processes-from-stopping-critical-system-components"></a>프로세스에서 중요한 시스템 구성 요소를 중지하지 못하게 차단
 
@@ -136,7 +133,7 @@ ms.locfileid: "59189472"
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- tor.exe, bittorrent.exe, cmd.exe, powershell.exe 등
 - **공격 표면 감소 규칙**- 전체적으로 ASR 규칙은 응용 프로그램 관리자로 작동하도록 설계되지 않습니다.
 - **기타 권장 기능**- 사용자가 특정 프로세스 또는 프로그램을 시작하지 못하도록 방지하기 위해 응용 프로그램 제어를 Windows Defender 좋습니다. Microsoft Defender for Endpoint File and Cert indicators는 인시던트 대응 시나리오에서 사용할 수 있습니다(응용 프로그램 제어 메커니즘으로 표시하지 말아야 합니다).
-    
+
 ### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>구성에 대한 무단 Microsoft Defender 바이러스 백신 차단
 
 - **적용대상**- 모든 프로세스

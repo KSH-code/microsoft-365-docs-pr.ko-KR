@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: 전자 메일 전달을 사용하면 조직 내부 또는 외부의 다른 사서함으로 Microsoft 365 전자 메일 메시지를 전달할 수 있습니다.
-ms.openlocfilehash: 77f374623244708c0b2bf1ecdae1af0cbebc9812
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c2715f42a32eb4a4a3743016d54b7ad42c424835
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184755"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356330"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>전자 메일 전달 구성 Microsoft 365
 
@@ -117,5 +117,7 @@ ms.locfileid: "59184755"
 
 [공유 사서함](../email/create-a-shared-mailbox.md) 만들기(문서)\
 [다른 주소에서 전자 메일](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) 보내기(문서)\
-[자동 외부 전자](/security/office-365-security/external-email-forwarding?view=o365-worldwide) 메일 전달 제어 Microsoft 365(문서)\
-[사용자 이름 및 전자 메일 주소](../add-users/change-a-user-name-and-email-address.md) 변경(문서)
+[사용자 이름 및 전자 메일 주소](../add-users/change-a-user-name-and-email-address.md) 변경(문서)\
+자동 외부 전자 메일 전달 [제어(Microsoft 365)](/microsoft-365/security/office-365-security/external-email-forwarding)
+
+

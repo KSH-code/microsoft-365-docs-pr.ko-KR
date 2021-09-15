@@ -21,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 비즈니스용 전자 메일, 연락처 및 일정을 Google Workspace에서 비즈니스용 메일로 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: cde27ce3ab94b003d9950f1b4bc2af270dea906e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+description: Google Workspace에서 비즈니스용 전자 메일, 연락처 및 일정을 비즈니스용 Microsoft 365 방법을 학습합니다.
+ms.openlocfilehash: 58037d033c35bad97d5b18dc408e5450340d0c25
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211265"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357197"
 ---
 # <a name="migrate-business-email-and-calendar-from-google-workspace"></a>Google Workspace에서 비즈니스 전자 메일 및 일정 마이그레이션
 
@@ -43,14 +43,14 @@ ms.locfileid: "59211265"
 
 1. Chrome 브라우저를 사용하여 에서 Google Workspace 관리 콘솔에 [admin.google.com.](https://admin.google.com) 
 1. 새 탭 또는 창에서 서비스 계정 [페이지로](https://console.developers.google.com/iam-admin/serviceaccounts) 이동합니다. 
-1. 프로젝트 **만들기를 선택하고** 프로젝트 이름을 지정하고 만들기 **를 선택합니다.** 
+1. 프로젝트 **만들기를 선택하고** 프로젝트 이름을 지정한 다음 만들기 를 **선택합니다.** 
 1. 서비스 **계정 만들기를 선택하고** 이름을 입력하고 **만들기,** 완료를 **선택합니다.** 
 1. 작업 **메뉴를** 열고 편집 **을** 선택한 다음 고유 ID를 메모합니다. 프로세스 후반부에 이 ID가 필요합니다. 
 1. 도메인 전체 **위임 표시 섹션을 여십시오.** 
 1. G Suite 도메인 전체 위임 사용 **을** 선택하고 동의 화면의 제품 이름을 입력하고 저장 을 **선택합니다.** 
 
     > [!NOTE]
-> 제품 이름은 마이그레이션 프로세스에서 사용되지 않지만 대화 상자에 저장하는 데 필요합니다.     
+    > 제품 이름은 마이그레이션 프로세스에서 사용되지 않지만 대화 상자에 저장하는 데 필요합니다.     
 
 1. 작업 **메뉴를** 다시 열고 **키 만들기 를 선택합니다.** 
 1. **JSON을 선택한** 다음 를 **생성합니다.** 
@@ -64,12 +64,12 @@ ms.locfileid: "59211265"
 1. API [페이지로 이동합니다.](https://console.developers.google.com/apis/library) 
 1. 검색 표시줄에 **Gmail API 를 입력합니다.**
 1. 를 선택한 다음 사용 을 **선택합니다.**
-1. Google 캘린더 API 및 연락처 API에 대해 이 프로세스를 반복합니다. 
+1. Google 캘린더 API, 사용자 API 및 연락처 API에 대해 이 프로세스를 반복합니다. 
 
 ### <a name="grant-access-to-the-service-account"></a>서비스 계정에 대한 액세스 권한 부여
 
 1. Google Workspace 관리 콘솔로 돌아오기. 
-1. 보안, 아래로 스크롤하여 **API 컨트롤을 열기 를 선택합니다.**  
+1. **보안,** 아래로 스크롤 및 API 컨트롤 **열기 를 선택합니다.** 
 1. 아래로 스크롤하여 도메인 전체 위임 **관리를 선택합니다.**
 1. 새 **추가를** 선택하고 앞에서 메모한 클라이언트 ID를 입력합니다.
 1. 그런 다음 Google API에 대한 OAuth 범위를 입력합니다. 이러한 단계는 5단계에서 [aka.ms/GoogleWorkspaceMigration](/exchange/mailbox-migration/perform-g-suite-migration#grant-access-to-the-service-account-for-your-google-tenant) 사용할 수 있으며 다음을 제공합니다.

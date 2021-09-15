@@ -21,13 +21,13 @@ search.appverid:
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
-description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 사서함으로 가져오는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: c2d8d3c048654c6c665cba34254a5362cd3b88c1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 가져오고 사서함에 보관하는 Microsoft 365 대해 자세히 알아보습니다.
+ms.openlocfilehash: 0dd06e4b51e81020d03f113abfca9ba69f30ec16
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166186"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59355932"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>타사 데이터를 데이터 저장소에 Microsoft 365
 
@@ -132,6 +132,8 @@ TeleMessage 데이터 커넥터는 미국 GCC 클라우드의 Microsoft 365 있�
 이 섹션의 표에는 17a-4 LLC와 함께 사용할 수 있는 타사 데이터 커넥터가 나열됩니다. 또한 이 표에는 타사 데이터를 가져와 보관한 후 타사 데이터에 적용할 수 있는 규정 준수 솔루션이 요약되어 Microsoft 365. 각 준수 [솔루션에](#overview-of-compliance-solutions-that-support-third-party-data) 대한 자세한 설명과 타사 데이터를 지원하는 방법에 대한 자세한 내용은 타사 데이터를 지원하는 규정 준수 솔루션 개요 섹션을 참조하세요.
 
 타사 데이터를 조직에 Microsoft 365 보관 *서비스(DataParser)를* 설정하기 위해 17a-4 LLC와 함께 작업해야 합니다. 자세한 내용은 타사 데이터 열의 링크를 클릭하여 해당 데이터 형식에 대한 커넥터를 만들기 위한 단계별 지침으로 이동하십시오. 
+
+17a-4 데이터 커넥터는 GCC 미국 정부 클라우드의 Microsoft 365 사용할 수 있습니다. 자세한 내용은 이 문서의 [미국 정부](#data-connectors-in-the-us-government-cloud) 클라우드의 데이터 커넥터 섹션을 참조하세요.
 
 |타사 데이터  |소송 보류|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
@@ -281,6 +283,30 @@ eDiscovery 검색 쿼리를 만드는 데 대한 자세한 내용은 [eDiscovery
 |데이터 커넥터  |GCC  |GCC 높음  |DoD  |
 |:---------|:---------|:---------|:---------|
 |CellTrust SL2 | 예 | 아니요 | 아니요 |
+|||||
+
+### <a name="17a-4-data-connectors"></a>17a-4 데이터 커넥터
+
+|데이터 커넥터  |GCC  |GCC 높음  |DoD  |
+|:---------|:---------|:---------|:---------|
+|BlackBerry DataParser | 예 | 아니요 | 아니요 |
+|Bloomberg DataParser  | 예 | 아니요 | 아니요 |
+|Cisco Jabber DataParser  | 예 | 아니요 | 아니요 |
+|Cisco Webex DataParser  | 예 | 아니요 | 아니요 |
+|FactSet DataParser  | 예 | 아니요 | 아니요 |
+|Fuze DataParser  | 예 | 아니요 | 아니요 |
+|FX Connect DataParser  | 예 | 아니요 | 아니요 |
+|ICE DataParser  | 예 | 아니요 | 아니요 |
+|InvestEdge DataParser  | 예 | 아니요 | 아니요 |
+|LivePerson Conversational Cloud DataParser  | 예 | 아니요 | 아니요 |
+|Quip DataParser  | 예 | 아니요 | 아니요 |
+|Refinitiv Eikon Messenger DataParser  | 예 | 아니요 | 아니요 |
+|ServiceNow DataParser  | 예 | 아니요 | 아니요 |
+|비즈니스용 Skype 서버 DataParser | 예 | 아니요 | 아니요 |
+|Slack DataParser | 예 | 아니요 | 아니요 |
+|SQL DataParser  | 예 | 아니요 | 아니요 |
+|Symphony DataParser | 예 | 아니요 | 아니요 |
+|Zoom DataParser | 예 | 아니요 | 아니요 |
 |||||
 
 ## <a name="working-with-a-microsoft-partner-to-archive-third-party-data"></a>Microsoft 파트너와 협력하여 타사 데이터 보관

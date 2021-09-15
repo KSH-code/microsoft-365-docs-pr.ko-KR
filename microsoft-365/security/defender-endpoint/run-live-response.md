@@ -21,14 +21,14 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f94e4d5e51b6a846a0439e3833a01d252c51bd0a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ae3b0e3ad09487d9b48ddab10a43eb36e5abed35
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218275"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353668"
 ---
-#  <a name="run-live-response-commands-on-a-device"></a>장치에서 라이브 응답 명령 실행
+# <a name="run-live-response-commands-on-a-device"></a>장치에서 라이브 응답 명령 실행
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,19 +50,19 @@ ms.locfileid: "59218275"
 
 ## <a name="limitations"></a>제한 사항
 
-1.  이 API에 대한 속도 제한은 분당 10통입니다(추가 요청은 HTTP 429로 응답).
+1. 이 API에 대한 속도 제한은 분당 10통입니다(추가 요청은 HTTP 429로 응답).
 
-2.  25개 세션을 동시 실행합니다(제한 제한을 초과하는 요청은 "429 - 요청 수가 너무 많음" 응답이 수신됩니다).
+2. 25개 세션을 동시 실행합니다(제한 제한을 초과하는 요청은 "429 - 요청 수가 너무 많음" 응답이 수신됩니다).
 
-3.  머신을 사용할 수 없는 경우 세션은 최대 3일 동안 대기됩니다.
+3. 머신을 사용할 수 없는 경우 세션은 최대 3일 동안 대기됩니다.
 
-4.  RunScript 명령 시간 제한은 10분 후입니다.
+4. RunScript 명령 시간 제한은 10분 후입니다.
 
-5.  라이브 응답 명령은 대기할 수 없습니다. 한 번만 실행할 수 있습니다. 
+5. 라이브 응답 명령은 대기할 수 없습니다. 한 번만 실행할 수 있습니다.
 
-6.  이 API 호출을 실행하려는 컴퓨터는 자동화된 수정 수준이 할당되지 않은 RBAC 장치 그룹에 있는 경우 지정된 장치 그룹에 대해 최소 수정 수준을 사용하도록 설정해야 합니다.
+6. 이 API 호출을 실행하려는 컴퓨터는 자동화된 수정 수준이 할당되지 않은 RBAC 장치 그룹에 있는 경우 지정된 장치 그룹에 대해 최소 수정 수준을 사용하도록 설정해야 합니다.
 
-7.  단일 API 호출 시 여러 라이브 응답 명령을 실행할 수 있습니다. 그러나 라이브 응답 명령이 실패하면 이후의 모든 작업이 실행되지 않습니다.
+7. 단일 API 호출 시 여러 라이브 응답 명령을 실행할 수 있습니다. 그러나 라이브 응답 명령이 실패하면 이후의 모든 작업이 실행되지 않습니다.
 
 ## <a name="minimum-requirements"></a>최소 요구 사항
 
@@ -82,8 +82,8 @@ ms.locfileid: "59218275"
   - **Windows Server 2019 - 공개 미리 보기에만 해당**
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
-    
-## <a name="permissions"></a>권한
+
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
@@ -112,7 +112,7 @@ POST https://api.securitycenter.microsoft.com/API/machines/{machine_id}/runliver
 |Comment|String|작업과 연결되는 설명입니다.|
 |명령|배열|실행할 명령입니다. 허용되는 값은 PutFile, RunScript, GetFile입니다.|
 
-**명령**:
+## <a name="commands"></a>명령
 
 |명령 유형|매개 변수|설명|
 |---|---|---|

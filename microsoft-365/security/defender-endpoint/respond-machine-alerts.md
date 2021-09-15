@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9d0286ec03c6cde7aa8129d030b65271e9c78677
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ab1cb1563f3ccc0f7bfda9b1f8875c76446153e3
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189409"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357316"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -112,7 +112,7 @@ ms.locfileid: "59189409"
 ****
 
 |폴더|설명|
-|:---|:---------|
+|---|---|
 |자동 런|각각 디바이스에서 공격자 지속성을 식별하는 데 도움이 되는 알려진 ASEP(자동 시작 진입점)의 레지스트리 콘텐츠를 나타내는 파일 집합이 포함되어 있습니다. <p> <div class="alert"><b>참고:</b> 레지스트리 키를 찾을 수 없는 경우 파일에 "오류: 시스템에서 지정된 레지스트리 키 또는 값을 찾을 수 없습니다."라는 메시지가 표시됩니다.<div>|
 |설치된 프로그램|이 .CSV 파일에는 장치에 현재 설치된 프로그램을 식별하는 데 도움이 되는 설치된 프로그램 목록이 포함되어 있습니다. 자세한 내용은 클래스 [Win32_Product 참조하세요.](https://go.microsoft.com/fwlink/?linkid=841509)|
 |네트워크 연결|이 폴더에는 의심스러운 URL, 공격자 명령 및 제어(C&C) 인프라, 측면 이동 또는 원격 연결에 대한 연결을 식별하는 데 도움이 될 수 있는 연결 정보와 관련된 데이터 포인트 집합이 포함되어 있습니다. <ul><li>ActiveNetConnections.txt: 프로토콜 통계 및 현재 TCP/IP 네트워크 연결을 표시됩니다. 프로세스에서 만들어지는 의심스러운 연결을 찾아 볼 수 있는 기능을 제공합니다.</li><li>Arp.txt: 모든 인터페이스에 대한 현재 ARP(주소 확인 프로토콜) 캐시 테이블을 표시됩니다. ARP 캐시는 네트워크에서 내부 공격을 실행하기 위해 사용될 수 있는 손상되거나 의심스러운 네트워크의 추가 호스트를 노출할 수 있습니다.</il><li>DnsCache.txt: 로컬 Hosts 파일에서 미리 로드된 항목과 컴퓨터에서 확인된 이름 쿼리에 대해 최근에 획득한 리소스 레코드를 모두 포함하는 DNS 클라이언트 확인자 캐시의 내용을 표시됩니다. 이는 의심스러운 연결을 식별하는 데 도움이 될 수 있습니다.</li><li>IpConfig.txt: 모든 어댑터에 대한 전체 TCP/IP 구성을 표시됩니다. 어댑터는 설치된 네트워크 어댑터와 같은 물리적 인터페이스나 전화 접속 연결과 같은 논리적 인터페이스를 표현할 수 있습니다.</li><li>FirewallExecutionLog.txt 및 pfirewall.log</li></ul>|

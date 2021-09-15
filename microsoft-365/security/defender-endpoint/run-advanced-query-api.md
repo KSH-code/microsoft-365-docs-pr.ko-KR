@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 54883ab437dcf01b042b5458bdc6312eaf24d179
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f85c4cd8cf5d657e4043aae80da8b3dae989a29d
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218315"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356625"
 ---
 # <a name="advanced-hunting-api"></a>고급 헌팅 API
 
@@ -49,11 +49,11 @@ ms.locfileid: "59218315"
 
 4. 단일 요청의 최대 실행 시간은 10분입니다.
 
-5. 429 응답은 요청 수 또는 CPU에 의해 할당량 제한에 도달하는 경우를 나타내게 됩니다. 응답 본문을 읽고 도달한 제한을 이해합니다. 
+5. 429 응답은 요청 수 또는 CPU에 의해 할당량 제한에 도달하는 경우를 나타내게 됩니다. 응답 본문을 읽고 도달한 제한을 이해합니다.
 
 6. 단일 요청의 최대 쿼리 결과 크기는 124MB를 초과할 수 없습니다. 초과하면 HTTP 400 잘못된 요청에 "쿼리 실행이 허용된 결과 크기를 초과했습니다. 결과 양을 제한하여 쿼리를 최적화하고 다시 시도하십시오."가 나타납니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -105,7 +105,7 @@ POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 
 ```json
 {
-    "Query":"DeviceProcessEvents  
+    "Query":"DeviceProcessEvents
 |where InitiatingProcessFileName =~ 'powershell.exe'
 |where ProcessCommandLine contains 'appdata'
 |project Timestamp, FileName, InitiatingProcessFileName, DeviceId

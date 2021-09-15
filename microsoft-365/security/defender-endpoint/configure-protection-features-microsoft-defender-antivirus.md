@@ -15,12 +15,12 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 2db625e98bd685c0dffb7820847c483b54f600fb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 776a3ba076abdb5727a878fd37dabf96407ce1ae
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221635"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357441"
 ---
 # <a name="configure-behavioral-heuristic-and-real-time-protection"></a>동작, 추론 및 실시간 보호 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "59221635"
 
 Microsoft Defender 바이러스 백신 여러 가지 방법을 사용하여 위협 방지를 제공합니다.
 
-- 새로운 위협의 거의 즉각적인 탐지 및 차단을 위한 클라우드 제공 보호
+- 새로운 위협의 거의 즉각적인 탐지 및 차단을 위한 클라우드 보호
 - 파일 및 프로세스 동작 모니터링 및 기타추론("실시간 보호"라고도 알려지기)을 사용하는 항상 검사
 - 기계 학습, 인간 및 자동화된 대규모 데이터 분석 그리고 심층 위협 저항 연구를 기반으로 하는 전용 보호 업데이트
 
@@ -39,11 +39,11 @@ Microsoft Defender 바이러스 백신 여러 가지 방법을 사용하여 위�
 
 이 섹션에서는 안전하지 않은 것으로 보이지만 맬웨어로 검색되지 않을 수 있는 앱을 검색하고 차단하는 방법을 포함하여 항상 실행되는 검사에 대한 구성에 대해 설명합니다.
 
-클라우드 [제공 보호를 사용하도록 Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md) 클라우드 제공 보호를 사용하도록 설정하고 구성하는 방법에 대한 자세한 내용은 클라우드 제공 보호를 통해 차세대 Microsoft Defender 바이러스 백신 기술을 참조합니다.
+클라우드 [보호를 사용하도록 설정하고 구성하는 Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md) 클라우드 보호를 통해 차세대 Microsoft Defender 바이러스 백신 사용을 참조합니다.
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
- 항목|설명
----|---
-[잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)|애드웨어, 브라우저 수정자 및 도구 모음, 악성 또는 가짜 바이러스 백신 앱 등 네트워크에서 원치 않는 앱을 검색하고 차단합니다.
-[보안 보호 기능 Microsoft Defender 바이러스 백신 사용 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)|실시간 보호,추론 및 기타 상시 모니터링 기능 사용 Microsoft Defender 바이러스 백신 구성
+| 항목|설명 |
+|---|---|
+| [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)| 애드웨어, 브라우저 수정자 및 도구 모음, 악성 또는 가짜 바이러스 백신 앱 등 네트워크에서 원치 않는 앱을 검색하고 차단합니다. |
+| [보안 보호 기능 Microsoft Defender 바이러스 백신 사용 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)|실시간 보호,추론 및 기타 상시 모니터링 기능 사용 Microsoft Defender 바이러스 백신 구성 |

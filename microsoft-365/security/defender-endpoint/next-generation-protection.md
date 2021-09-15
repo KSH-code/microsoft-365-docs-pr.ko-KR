@@ -15,12 +15,12 @@ ms.reviewer: mkaminska
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 9382df161e1601547addcd68fb33570854c10a82
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4e443c2f964361be2e61e3bc2d3685f4172315df
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189442"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357093"
 ---
 # <a name="next-generation-protection-overview"></a>차세대 보호 개요
 
@@ -45,5 +45,5 @@ ms.locfileid: "59189442"
 
 차세대 보호 서비스를 구성하는 방법에 대한 자세한 내용은 [Microsoft Defender 바이러스 백신 기능 구성](configure-microsoft-defender-antivirus-features.md)을 참조하세요.
 
-> [!Note]  
+> [!NOTE]
 > 구성 및 관리는 Windows 클라이언트와 Windows Server에서 대체로 동일합니다. 그러나 여기에는 몇 가지 차이점이 있습니다. 자세한 내용은 [Windows Server의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md)을 참조하세요.

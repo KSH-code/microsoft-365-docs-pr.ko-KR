@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 관리하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: aca302aedfaa97b9e2661716d7bc7a6e846fa6fb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 511dde8921f9406f753c857e2d813ccd80976c40
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214242"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353637"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -241,7 +241,7 @@ Get-TenantAllowBlockListSpoofItems -Action Block -SpoofType External
 
   예를 들어 `t.co` 허용되거나 `.com` `contoso.` 허용되지 않습니다.
 
-- 하위 경로는 암시적이지 않습니다.
+- 허용에 대해 하위 경로가 암시적으로 사용되지는 않습니다.
 
   예를 들어 `contoso.com` 를 포함하지 `contoso.com/a` 않습니다.
 

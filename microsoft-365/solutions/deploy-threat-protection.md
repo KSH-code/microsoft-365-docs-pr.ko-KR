@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: fb78ee4b6cc8c79b2e8ef3aeda55fcbd66499d4d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1aed90c47ca72cb514d8d3df1fa22e5dff4feb44
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59163459"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357292"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>여러 보안 기능으로 위협 방지 Microsoft 365 E5
 
@@ -60,7 +60,7 @@ Microsoft 365 Defender 통합 보안 센터 에 [신호와 데이터를 Microsof
 <br><br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vsI7]
 
-다음 표에서는 구성할 수 있는 다양한 솔루션/기능과 이러한 솔루션의 기능에 대해 설명하고 있습니다.
+다음 표에서는 구성할 수 있는 다양한 솔루션/기능과 이러한 솔루션의 기능에 대해 설명하고 있습니다.<br/><br/>
 
 |단계 |솔루션/기능  |설명  |
 |--|---------|---------|
@@ -68,7 +68,7 @@ Microsoft 365 Defender 통합 보안 센터 에 [신호와 데이터를 Microsof
 | 2 |[Microsoft Defender for Identity](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)     |  AD DS(Active Directory 도메인 서비스) 신호를 사용하여 조직에 대한 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사하는 클라우드 기반 보안 솔루션입니다. 다음으로 Microsoft Defender for Identity에 중점을 두는 이유는, 이 인프라가 사용자의 사내 및 클라우드 인프라를 보호하고, 종속성이나 선행 요구가 없는 것이고, 즉각적인 보안 이점을 제공할 수 있기 때문에 그 다음에 집중합니다. 자세한 내용은 ID [보호란?을 참조하세요.](/azure/active-directory/identity-protection/overview-identity-protection) | 
 | 3  |[Microsoft 365 Defender](deploy-threat-protection-configure.md#step-3-turn-on-microsoft-365-defender) |신호를 결합하고 기능을 단일 솔루션으로 오케스트레이션합니다. 보안 전문가가 위협 신호를 함께 스티치하고 위협의 전체 범위와 영향을 확인할 수 있습니다. Microsoft 365 Defender 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 고치기 위한 자동 조치를 취합니다. 자세한 내용은 를 [Microsoft 365 Defender.](/microsoft-365/security/defender/microsoft-365-defender) |
 | 4  |[Office 365용 Microsoft Defender](deploy-threat-protection-configure.md#step-4-configure-microsoft-defender-for-office-365)     | 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. 맬웨어, 피싱, 스푸핑 및 기타 공격 유형으로부터 보호합니다. 변경 제어, 현재 시스템에서 설정을 마이그레이션하는 등 다른 고려 사항을 배포하는 데 시간이 더 오래 걸릴 수 있기 때문에 Office 365 Microsoft Defender를 구성하는 것이 좋습니다. 자세한 내용은 Microsoft [Defender for Office 365.](/microsoft-365/security/office-365-security/defender-for-office-365)       |
-| 5  |[엔드포인트용 Microsoft Defender](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint)     | 장치 전체에서 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 됩니다(끝점이라고도 참조). Endpoint용 Defender는 강력한 위협 방지 제품입니다. 자세한 내용은 [끝점용 Microsoft Defender를 참조하세요.](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)  |
+| 5  |[엔드포인트용 Microsoft Defender](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint)    | 장치 전체에서 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 됩니다(끝점이라고도 참조). Endpoint용 Defender는 강력한 위협 방지 제품입니다. 자세한 내용은 [끝점용 Microsoft Defender를 참조하세요.](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)  |
 | 6  |[Microsoft Cloud App Security](deploy-threat-protection-configure.md#step-6-configure-microsoft-cloud-app-security)     | 검색, 조사 및 거버넌스를 위한 클라우드 액세스 보안 브로커입니다. 데이터 및 Microsoft Cloud App Security 수집을 초기에 사용하도록 설정할 수 있습니다. SaaS 앱에 정보 및 기타 대상이 지정된 보호를 구현하는 데는 계획이 수반될 수 있으며 시간이 더 걸릴 수 있습니다. 자세한 내용은 What [is Cloud App Security?](/cloud-app-security/what-is-cloud-app-security)      | 
 
 > [!TIP]

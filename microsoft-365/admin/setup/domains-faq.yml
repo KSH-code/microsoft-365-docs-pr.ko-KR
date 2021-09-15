@@ -25,13 +25,13 @@ metadata:
   - BEA160
   - GEA150
   ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
-  description: FAQ에서 질문에 대한 답변을 찾아 도메인(onmicrosoft domain and tranfer domain)에 대해 자세히 알아보하세요.
-  ms.openlocfilehash: 44558ac6bf40491c0a5fa187ab366b1b3590ae07
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  description: FAQ에서 질문에 대한 답변을 찾아 도메인(onmicrosoft domain and transfer domain)에 대해 자세히 알아보하세요.
+  ms.openlocfilehash: 3daa6948e6a54e205f1f75ab3ceac001c0e84d31
+  ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59184443"
+  ms.lasthandoff: 09/15/2021
+  ms.locfileid: "59357012"
 title: 도메인 FAQ
 summary: "\n\n이 문서에는 도메인에 대한 질문과 대답이 포함되어 Microsoft 365.\n\n질문에 대한 대답을 찾을 수 없는 경우 저희에게 메모를 남겨 알려주시면 목록에 추가해 드리겠습니다.\n"
 sections:
@@ -46,7 +46,7 @@ sections:
   - question: DNS 공급자가 특정 레코드 유형을 지원하지 않으면 어떻게 하나요?
     answer: "자체 DNS 레코드를 관리하고 DNS 호스트가 필요한 모든 DNS 레코드를 Microsoft 365 경우 일부 Microsoft 365 기능이 작동하지 않습니다. 필요한 모든 DNS 레코드를 지원하는 등록 기관으로 도메인을 전송하는 것이 좋습니다.\n  \n모든 필수 DNS 레코드를 지원하는 공급자:\n  \n- 다이너ot\n    \n- eNomCentral\n    \n- Europe Registry\n    \n- GoDaddy\n    \n- 호버\n    \n- MyHosting.com\n    \n- Name.com\n    \n- 거의 무료 음성\n    \n- 네티카\n    \n- NIC(Network Information Center)\n    \n- Network Solutions\n    \n- Register.com\n  \n"
   - question: 기본 도메인을 설정하거나 변경하려면 Microsoft 365?
-    answer: "기본 도메인을 선택하려면 도메인에 추가한 사용자 지정 Microsoft 365 하나 이상 있어야 합니다.\n\n::: moniker range=\"o365-worldwide\"\n\n1. I관리 센터에서 **설정** \\> <a href=\"https://go.microsoft.com/fwlink/p/?linkid=834818\" target=\"_blank\"> 도메인</a> 페이지로 이동하십시오.\n\n::: moniker-end\n\n::: moniker range=\"o365-germany\"\n\n1. I관리 센터에서 **설정** > <a href=\"https://go.microsoft.com/fwlink/p/?linkid=854615\" target=\"_blank\"> 도메인</a> 페이지로 이동하십시오.\n\n::: moniker-end\n\n::: moniker range=\"o365-21vianet\"\n\n1. I관리 센터에서 **설정** > <a href=\"https://go.microsoft.com/fwlink/p/?linkid=2007048\" target=\"_blank\"> 도메인</a> 페이지로 이동하십시오.\n\n::: moniker-end\n    \n2. 도메인 **페이지에서** 새 전자 메일 주소의 기본값으로 설정할 도메인을 선택합니다. \n    \n3. **기본값으로 설정** 을 선택합니다.\n    \n::: moniker range=\"o365-worldwide\"\n\n초기  *.onmicrosoft.com*  이름을 변경할 수 없습니다. \n\n::: moniker-end\n\n::: moniker range=\"o365-germany\"\n\n초기  *.onmicrosoft.de*  변경할 수 없습니다. \n\n::: moniker-end\n\n::: moniker range=\"o365-21vianet\"\n\n초기 .partner.onmschina.cn 변경할  *수*  없습니다. \n\n::: moniker-end\n"
+    answer: "기본 도메인을 선택하려면 도메인에 추가한 사용자 지정 Microsoft 365 하나 이상 있어야 합니다.\n\n::: moniker range=\"o365-worldwide\"\n\n1. I관리 센터에서 **설정** \\> <a href=\"https://go.microsoft.com/fwlink/p/?linkid=834818\" target=\"_blank\"> 도메인</a> 페이지로 이동하십시오.\n\n::: moniker-end\n\n::: moniker range=\"o365-germany\"\n\n1. I관리 센터에서 **설정** > <a href=\"https://go.microsoft.com/fwlink/p/?linkid=854615\" target=\"_blank\"> 도메인</a> 페이지로 이동하십시오.\n\n::: moniker-end\n\n::: moniker range=\"o365-21vianet\"\n\n1. I관리 센터에서 **설정** > <a href=\"https://go.microsoft.com/fwlink/p/?linkid=2007048\" target=\"_blank\"> 도메인</a> 페이지로 이동하십시오.\n\n::: moniker-end\n    \n2. 도메인 **페이지에서** 새 전자 메일 주소의 기본값으로 설정할 도메인을 선택합니다. \n    \n3. **기본값으로 설정** 을 선택합니다.\n    \n::: moniker range=\"o365-worldwide\"\n\n초기  *.onmicrosoft.com*  이름을 변경할 수 없습니다. \n\n::: moniker-end\n\n::: moniker range=\"o365-germany\"\n\n초기  *.onmicrosoft.de*  변경할 수 없습니다. \n\n::: moniker-end\n\n::: moniker range=\"o365-21vianet\"\n\n초기 .partner.onmschina.cn 변경할  *수*  없습니다. \n\n::: moniker-end\n\n> [!NOTE]\n> 기본 도메인을 변경하면 사용자 자격 증명이나 응용 프로그램 또는 서비스에 대한 액세스에는 영향을 줄 수 없습니다. 사용자가 연결된 도메인을 변경하면 메일, 온라인 저장소 및 로그인 자격 증명에 영향을 미치게 됩니다.\n"
   - question: 사용자 지정 하위 도메인 또는 여러 도메인을 사용자 지정 도메인에 추가할 수 Microsoft 365?
     answer: "::: moniker range=\"o365-worldwide\"\n\n예. 하위 도메인을 추가하려면 등록 기관의 웹 사이트에서 자체 DNS 설정을 관리해야 합니다. Microsoft에서 NS 레코드를 사용하여 DNS 설정을 관리하게 하거나 Microsoft에서 도메인을 구입한 경우 하위 도메인을 추가할 수 없습니다.\n\n::: moniker-end\n\n::: moniker range=\"o365-germany\"\n\n예! 하위 도메인을 추가하려면 등록 기관의 웹 사이트에서 자체 DNS 설정을 관리해야 합니다. Microsoft에서 NS 레코드를 사용하여 DNS 설정을 관리하게 하거나 Microsoft에서 도메인을 구입한 경우 하위 도메인을 추가할 수 없습니다.\n\n::: moniker-end\n\n::: moniker range=\"o365-21vianet\"\n\n예! 하위 도메인을 추가하려면 등록 기관의 웹 사이트에서 자체 DNS 설정을 관리해야 합니다. 21Vianet에서 NS 레코드를 사용하여 DNS 설정을 관리하게 하는 경우 하위 도메인을 추가할 수 없습니다.\n\n::: moniker-end\n\n일반적으로 구독에 최대 900개 도메인을 추가할 Microsoft 365 있습니다.\n  \n예를 들어 도메인을 추가하고 contoso.com contosomarketing.com, , 등 하위 도메인을 추가할 `www.contoso.com` 수 `www.partners.contoso.com` `www.marketing.partners.contoso.com` 있습니다.\n  \n하위 도메인을 추가하면 확인되는 상위 도메인에 따라 하위 도메인이 자동으로 확인됩니다.\n  \n도메인에 여러 도메인을 Microsoft 365 추가한 도메인에서 모든 서비스(예: 전자 메일)를 호스팅할 수 있습니다.  *전자 메일을 Microsoft 365 도메인의 MX 레코드를 업데이트하여 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365.* \n \n::: moniker range=\"o365-worldwide\"\n\n> [!NOTE]\n> contoso.com 구독에 Microsoft 365 도메인을 추가한 경우 다른 xyz.contoso.com 조직에 하위 도메인을 추가할 Microsoft 365 있습니다. 하위 도메인을 추가할 때 DNS 호스팅 공급자에 TXT 레코드를 추가하라는 메시지가 표시될 수 있습니다.\n::: moniker-end\n"
   - question: 도메인에서 다른 호스트로 도메인을 Microsoft 365 방법

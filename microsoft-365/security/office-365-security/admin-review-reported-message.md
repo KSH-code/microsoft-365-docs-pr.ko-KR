@@ -13,12 +13,12 @@ ms.collection:
 description: 보고된 메시지를 검토하고 사용자에게 피드백을 주는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fb023d68e81c5592078bdd89e4826537790e7d53
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ef08b07226d8ce038547b972163d87a557099478
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185595"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357565"
 ---
 # <a name="admin-review-for-reported-messages"></a>보고된 메시지에 대한 관리자 검토
 

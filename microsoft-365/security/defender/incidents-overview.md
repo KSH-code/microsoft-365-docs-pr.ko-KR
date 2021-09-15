@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6f55e1a30f61b8ed41ec2575b26a9346ba45cafd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 824d32b07acbba0d19a5f2afdafffcbba53baeeb
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192479"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357584"
 ---
 # <a name="incident-response-with-microsoft-365-defender"></a>인시던트에 대한 Microsoft 365 Defender
 
@@ -183,21 +183,26 @@ Microsoft 제품 전반의 SecOps에 대한 자세한 내용은 다음 리소스
 
 ## <a name="next-steps"></a>다음 단계
 
-**보안 분석 및 인시던트** 대응이 새로운 경우:
+보안 팀의 경험 수준 또는 역할에 따라 나열된 단계를 사용하세요.
 
-- 예제 [](first-incident-overview.md) 공격을 통해 Microsoft 365 Defender 포털에서 일반적인 분석, 수정 및 사후 인시던트 검토 프로세스를 안내하는 안내를 받을 수 있는 첫 번째 인시던트에 응답 안내를 참조하세요.
+### <a name="experience-level"></a>환경 수준
 
-**보안 분석 및 인시던트** 대응 경험이 있는 경우:
+보안 분석 및 인시던트 대응에 대한 환경 수준은 다음 표를 따르하세요.
 
-- 사이트 포털의 인시던트  페이지에서 인시던트 큐를 Microsoft 365 Defender. 여기에서 다음 작업을 실행할 수 있습니다.
+| 수준 | 단계 |
+|:-------|:-----|
+| **새로운** | <ol><li> 예제 [](first-incident-overview.md) 공격을 통해 Microsoft 365 Defender 포털에서 일반적인 분석, 수정 및 사후 인시던트 검토 프로세스를 안내하는 안내를 받을 수 있는 첫 번째 인시던트에 응답 안내를 참조하세요. </li><li> 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. </li><li> [인시던트](manage-incidents.md)관리 워크플로에 따라 태그 및 설명을 변경, 할당, 분류 및 추가하는 인시던트 관리 를 관리합니다.</li></ol> |
+| **경험** | <ol><li> 사이트 포털의 인시던트  페이지에서 인시던트 큐를 Microsoft 365 Defender. 여기에서 다음을 수행할 수 있습니다. </li> <ul><li> 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. </li><li> [인시던트](manage-incidents.md)관리 워크플로에 따라 태그 및 설명을 변경, 할당, 분류 및 추가하는 인시던트 관리 를 관리합니다. </li><li> [인시던트 조사를](investigate-incidents.md) 수행합니다. </li></ul> </li><li> 위협 분석을 사용하여 새로운 위협을 [추적하고 대응합니다.](threat-analytics.md) </li><li>  고급 위협 헌팅으로 위협을 사전 [예방적으로 헌팅합니다.](advanced-hunting-overview.md) </li><li> [피싱,](/security/compass/incident-response-playbooks) 암호 분사 및 앱 동의 부여 공격에 대한 자세한 지침은 다음 인시던트 대응 플레이북을 참조하세요. </li></ol> |
 
-  - 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. 
 
-  - [인시던트](manage-incidents.md)관리 워크플로에 따라 태그 및 설명을 변경, 할당, 분류 및 추가하는 인시던트 관리 를 관리합니다.
+### <a name="security-team-role"></a>보안 팀 역할
 
-  - [인시던트 조사를](investigate-incidents.md) 수행합니다.
+보안 팀 역할에 따라 이 표를 따르기
 
-- SOC(보안 Microsoft 365 Defender 센터)에 통합하는 방법을 [참조합니다.](integrate-microsoft-365-defender-secops.md)
-
-- [피싱,](/security/compass/incident-response-playbooks) 암호 분사 및 앱 동의 부여 공격에 대한 자세한 지침은 다음 인시던트 대응 플레이북을 참조하세요.
+| 역할 | 단계 |
+|:-------|:-----|
+| 인시던트 응답자(계층 1) | 사이트 포털의 인시던트  페이지에서 인시던트 큐를 Microsoft 365 Defender. 여기에서 다음을 수행할 수 있습니다. <ul><li> 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. </li><li> [인시던트](manage-incidents.md)관리 워크플로에 따라 태그 및 설명을 변경, 할당, 분류 및 추가하는 인시던트 관리 를 관리합니다. </li></ul> |
+| 보안 조사자 또는 분석가(계층 2) | <ol><li> 사이트 [포털의](investigate-incidents.md) 인시던트 페이지에서 인시던트 Microsoft 365 Defender 수행하십시오.  </li><li> [피싱,](/security/compass/incident-response-playbooks) 암호 분사 및 앱 동의 부여 공격에 대한 자세한 지침은 다음 인시던트 대응 플레이북을 참조하세요. </li></ol> |
+| 고급 보안 분석가 또는 위협 헌터(계층 3) | <ol><li>사이트 [포털의](investigate-incidents.md) 인시던트 페이지에서 인시던트 Microsoft 365 Defender 수행하십시오.  </li><li> 위협 분석을 사용하여 새로운 위협을 [추적하고 대응합니다.](threat-analytics.md) </li><li> 고급 위협 헌팅으로 위협을 사전 [예방적으로 헌팅합니다.](advanced-hunting-overview.md) </li><li> [피싱,](/security/compass/incident-response-playbooks) 암호 분사 및 앱 동의 부여 공격에 대한 자세한 지침은 다음 인시던트 대응 플레이북을 참조하세요. |
+| SOC 관리자 | SOC(보안 Microsoft 365 Defender 센터)에 통합하는 방법을 [참조합니다.](integrate-microsoft-365-defender-secops.md) |
 

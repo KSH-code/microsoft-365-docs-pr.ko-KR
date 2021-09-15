@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: cc642d06d6f2cb253140e902114f4c2840a58036
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 813dff46f3ba26c32f3b704645a9ca35ca740001
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218295"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353601"
 ---
 # <a name="run-the-client-analyzer-on-macos-and-linux"></a>macOS 및 Linux에서 클라이언트 분석기 실행
 
@@ -37,7 +37,7 @@ ms.locfileid: "59218295"
 1. [XMDE 클라이언트 분석기](https://aka.ms/XMDEClientAnalyzer) 도구를 조사해야 하는 macOS 또는 Linux 컴퓨터로 다운로드합니다.
 
    > [!NOTE]
-   > 위의 링크에서 다운로드한 'XMDEClientAnalyzer.zip'의 현재 SHA256 해시는 '029296D437BA97B5563D0C75DD874F8F51C563B2B5AC16745619F4DB2E064C85'입니다.
+   > 위 링크에서 다운로드한 'XMDEClientAnalyzer.zip'의 현재 SHA256 해시는 '973725417D136B7B17AF4B301F1E99BA21D7F4A7DF88036DC5A731A4B768A8B2'입니다.
 
 2. 컴퓨터의 콘텐츠 XMDEClientAnalyzer.zip 추출합니다.
 
@@ -72,9 +72,8 @@ ms.locfileid: "59218295"
 **-h** \# 도움말<br>
 \# 도움말 메시지 표시
 
-**-p** \# 성능<br>
-\# 아직 구현되지 않은 계획된 매개 변수입니다.<br>
-\# 요구 시 재현할 수 있는 성능 문제를 분석하기 위한 광범위한 추적을 수집합니다.
+**성능** \# 성능<br>
+\# 요구 시 재현할 수 있는 성능 문제를 분석하기 위한 광범위한 추적을 수집합니다. 를 `--length=<seconds>` 사용하여 벤치마크 기간을 지정합니다.
 
 **-o** \# 출력<br>
 \# 결과 파일의 대상 경로 지정
@@ -122,3 +121,7 @@ ms.locfileid: "59218295"
 - Auditd_info.txt
 
   설명: Linux OS에 대한 감사된 서비스 및 관련 구성 [요소에](/windows/security/threat-protection/microsoft-defender-atp/linux-support-events) 대한 세부 정보
+
+- perf_benchmark.tar.gz
+
+  설명: 성능 테스트 보고서입니다. 성능 매개 변수를 사용하는 경우 이 매개 변수만 볼 수 있습니다.

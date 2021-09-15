@@ -19,12 +19,12 @@ description: 조직의 SIEM 서버를 Office 365 관리 API의 microsoft Defende
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0cf5206b1b821f876aa810ba2bf280ba2f426544
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3eb38325c9695ae0ed5cfb9389e8972ee599739f
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211572"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356006"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Microsoft Defender와 SIEM Office 365
 
@@ -55,7 +55,7 @@ SIEM 서버 또는 기타 유사한 시스템은 **audit.general** 작업을 폴
 
 ### <a name="auditlogrecordtype"></a>AuditLogRecordType
 
-다음 표에는 이벤트에 대한 Microsoft Defender와 관련된 **AuditLogRecordType의** Office 365 요약되어 있습니다.
+다음 표에는 이벤트에 대한 Microsoft Defender와 관련된 **AuditLogRecordType의** Office 365 요약되어 있습니다.<br/><br/>
 
 | 값 | 멤버 이름 | 설명 |
 |---|---|---|
@@ -63,7 +63,6 @@ SIEM 서버 또는 기타 유사한 시스템은 **audit.general** 작업을 폴
 | 41| ThreatIntelligenceUrl | 금고 Microsoft Defender에서 차단 시간 및 차단 이벤트를 Office 365. |
 | 47| ThreatIntelligenceAtpContent | microsoft Defender for SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams 파일에 대한 피싱 및 맬웨어 Office 365. |
 | 64| AirInvestigation | Microsoft Defender for Office 365 계획 2의 조사 세부 정보 및 관련 아티팩트와 같은 자동화된 조사 Office 365 이벤트입니다. |
-|
 
 > [!IMPORTANT]
 > microsoft Defender와 MICROSOFT Defender의 SIEM 통합을 설정하려면 Microsoft 365 Defender 포털에 전역 관리자 또는 보안 관리자 역할이 할당되어 있어야 Office 365. 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.

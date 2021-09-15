@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb3cfba661025787c9cbbbcc97dc524c7a62d355
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b4d8643a1c7e39df1d2f2250e7a61caa0535cbae
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218365"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353745"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 파트너 응용 프로그램
 
@@ -31,7 +31,6 @@ ms.locfileid: "59218365"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
@@ -117,7 +116,7 @@ Defender for Endpoint는 플랫폼의 감지, 조사 및 위협 인텔리전스 
 
 ## <a name="siem-integration"></a>SIEM 통합
 
-Endpoint용 Defender는 다양한 방법을 통해 SIEM 통합을 지원합니다. 여기에는 바로 연결선을 사용하는 특수 SIEM 시스템 인터페이스, 사용자 지정 구현을 사용하도록 설정하는 일반 경고 API, 경고 상태 관리를 사용하도록 설정하는 작업 API가 포함됩니다.  자세한 내용은 SIEM 통합 [사용 을 참조하세요.](enable-siem-integration.md)
+Endpoint용 Defender는 다양한 방법을 통해 SIEM 통합을 지원합니다. 여기에는 바로 연결선을 사용하는 특수 SIEM 시스템 인터페이스, 사용자 지정 구현을 사용하도록 설정하는 일반 경고 API, 경고 상태 관리를 사용하도록 설정하는 작업 API가 포함됩니다. 자세한 내용은 SIEM 통합 [사용 을 참조하세요.](enable-siem-integration.md)
 
 ## <a name="ticketing-and-it-service-management"></a>티켓 및 IT 서비스 관리
 
@@ -139,7 +138,7 @@ Endpoint용 Defender는 인시던트 대응을 대규모로 구동하는 고유�
 
 공급자 및 집계의 위협 인텔리전스를 사용하여 IOC(손상 표시기)를 유지 관리하고 사용할 수 있습니다.
 
-Endpoint용 Defender를 사용하면 이러한 솔루션과 통합하고 다양한 원격 분석과 상호 관련하여 알림을 생성하여 IoC에 대해 작업할 수 있습니다.  또한 예방 및 자동화된 응답 기능을 사용하여 실행을 차단하고 일치하는 경우 수정 작업을 수행할 수 있습니다.
+Endpoint용 Defender를 사용하면 이러한 솔루션과 통합하고 다양한 원격 분석과 상호 관련하여 알림을 생성하여 IoC에 대해 작업할 수 있습니다. 또한 예방 및 자동화된 응답 기능을 사용하여 실행을 차단하고 일치하는 경우 수정 작업을 수행할 수 있습니다.
 
 Endpoint용 Defender는 현재 파일 및 네트워크 표시기에서 IOC 일치 및 수정을 지원하고 있습니다. 파일 표시기에서 차단이 지원됩니다.
 

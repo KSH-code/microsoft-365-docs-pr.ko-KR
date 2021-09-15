@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 01/26/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 2d34ec5ac2fe7578e610353a21f9230c699c6a3c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 77777de720d369c09f62d4a7e17e8b4cf5a3519b
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220447"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356828"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-post-migration"></a>끝점용 Microsoft Defender 관리, 마이그레이션 후
 
@@ -41,9 +41,7 @@ ms.locfileid: "59220447"
 
 다음 표에는 사용할 수 있는 다양한 도구/방법과 자세한 내용을 볼 수 있는 링크가 나열됩니다.
 
-<br>
-
-****
+<br/><br/>
 
 |도구/메서드|설명|
 |---|---|
@@ -52,7 +50,6 @@ ms.locfileid: "59220447"
 |**[Microsoft Endpoint Configuration Manager](/mem/configmgr/core/understand/introduction)**|Microsoft Endpoint Manager(Configuration Manager)는 System Center Configuration Manager 의 구성 [Microsoft Endpoint Manager.](/mem/endpoint-manager-overview) Configuration Manager는 사용자, 장치 및 소프트웨어를 관리하는 강력한 도구입니다. <p> Configuration Manager를 사용하여 [끝점용 Microsoft Defender 관리를 참조합니다.](manage-atp-post-migration-configuration-manager.md)|
 |**[Azure Active Directory 도메인 서비스의 그룹 정책 개체](/azure/active-directory-domain-services/manage-group-policy)**|[Azure Active Directory 도메인 서비스에는](/azure/active-directory-domain-services/overview) 사용자 및 장치에 대한 기본 제공 그룹 정책 개체가 포함되어 있습니다. 환경에 필요한 경우 기본 제공 그룹 정책 개체를 사용자 지정할 수 있으며 사용자 지정 그룹 정책 개체 및 US(조직 구성 단위)를 만들 수 있습니다. <p> 그룹 정책 개체를 사용하여 [끝점용 Microsoft Defender 관리를 참조합니다.](manage-atp-post-migration-group-policy-objects.md)|
 |**[PowerShell, WMI 및 MPCmdRun.exe](manage-atp-post-migration-other-tools.md)**|*조직의 Microsoft Endpoint Manager 위협 방지 기능을 관리하기 위해 Intune 및 Configuration Manager를 포함하는 보안 설정을 사용하는 것이 좋습니다. 그러나 PowerShell, WMI 또는 MPCmdRun.exe 사용하여 개별 디바이스(끝점)의 Microsoft Defender 바이러스 백신 설정과 같은 일부 설정을 구성할 MPCmdRun.exe 있습니다.* <p> PowerShell을 사용하여 공격 Microsoft Defender 바이러스 백신 보호 및 공격 표면 감소 규칙을 관리할 수 있습니다. [PowerShell을 통해 끝점에 대한 Microsoft Defender 구성을 참조합니다.](manage-atp-post-migration-other-tools.md#configure-microsoft-defender-for-endpoint-with-powershell) <p> WMI(Windows Management Instrumentation)를 사용하여 제외를 Microsoft Defender 바이러스 백신 수 있습니다. [WMI를 통해 끝점에 대한 Microsoft Defender 구성을 참조합니다.](manage-atp-post-migration-other-tools.md#configure-microsoft-defender-for-endpoint-with-windows-management-instrumentation-wmi) <p> Microsoft 맬웨어 보호 Command-Line 유틸리티(MPCmdRun.exe)를 사용하여 Microsoft Defender 바이러스 백신 및 제외를 관리하고 네트워크와 클라우드 간의 연결 유효성을 검사할 수 있습니다. 자세한 [내용은 Configure Microsoft Defender for Endpoint with MPCmdRun.exe. ](manage-atp-post-migration-other-tools.md#configure-microsoft-defender-for-endpoint-with-microsoft-malware-protection-command-line-utility-mpcmdrunexe)|
-|
 
 ## <a name="see-also"></a>참고 항목
 

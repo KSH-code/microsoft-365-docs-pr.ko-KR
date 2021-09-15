@@ -15,12 +15,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: d95d9e0add79d83edbee351c734ab6636902cd29
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c303251ff8a6e37ac351e57dc18a1ca3dcee8751
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214905"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356816"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리
 
@@ -77,9 +77,7 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
 
 각 원본에는 다음 표에 설명된 바와 같이 네트워크 구성 방식과 업데이트를 게시하는 정도에 따라 달라지는 일반적인 시나리오가 있습니다.
 
-<br>
-
-****
+<br/><br/>
 
 |위치|샘플 시나리오|
 |---|---|
@@ -88,7 +86,6 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
 |파일 공유|인터넷에 연결되지 않은 장치(예: VM)가 있습니다. 인터넷에 연결된 VM 호스트를 사용하여 VM이 업데이트를 받을 수 있는 네트워크 공유에 대한 업데이트를 다운로드할 수 있습니다. [VDI(가상](deployment-vdi-microsoft-defender-antivirus.md) 데스크톱 인프라) 환경에서 파일 공유를 사용하는 방법에 대한 자세한 내용은 VDI 배포 가이드를 참조하세요.|
 |Microsoft Endpoint Manager|를 사용하여 Microsoft Endpoint Manager 끝점을 업데이트합니다.|
 |맬웨어 및 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지(이전의 MMPC)에 대한 보안 인텔리전스 업데이트|[SHA-2를 지원하기 위해](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)장치가 업데이트되어 있는지 확인 Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트는 Windows 업데이트를 통해 전달됩니다. 2019년 10월 21일 월요일부터 보안 인텔리전스 업데이트는 SHA-2만 서명됩니다. <br/>최근 감염으로 인하여 최신 보호 업데이트를 다운로드하거나 VDI 배포에 대한 강력한 기본 이미지를 [프로비전하는 데 도움이 됩니다.](deployment-vdi-microsoft-defender-antivirus.md) 이 옵션은 일반적으로 기본 원본이 아닌 최종 대체 원본으로만 사용해야 합니다. 지정된 일 수 동안 Windows 서버 업데이트 서비스 또는 Microsoft 업데이트에서 업데이트를 다운로드할 수 없는 경우만 [사용됩니다.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
-|
 
 그룹 정책, 업데이트 원본, PowerShell cmdlet 및 WMI에서 업데이트 Microsoft Endpoint Configuration Manager 순서를 관리할 수 있습니다.
 

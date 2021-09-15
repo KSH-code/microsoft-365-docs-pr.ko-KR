@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 0833a616f1b6052519e92a5e46c8f36f01c80818
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1e4e32864c2541cfc0cf14602ec954d5e643f309
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213472"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357596"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 문제 해결
 
@@ -35,21 +35,16 @@ ms.locfileid: "59213472"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
-
 공격 표면 [감소 규칙을](attack-surface-reduction.md) 사용하는 경우 다음과 같은 문제가 있을 수 있습니다.
 
 - 규칙은 파일, 처리 또는 수행하지 말아야 할 다른 작업(가음성)을 차단합니다.
-
 - 규칙이 설명된 바와 같이 작동하지 않습니다. 또는 규칙이 처리해야 하는 파일 또는 프로세스를 차단하지 않습니다(거짓 부정).
 
 이러한 문제를 해결하는 네 가지 단계가 있습니다.
 
 1. [선행 준비 확인](#confirm-prerequisites)
-
 2. [감사 모드를 사용하여 규칙 테스트](#use-audit-mode-to-test-the-rule)
-
 3. [지정된 규칙에](#add-exclusions-for-a-false-positive) 대한 제외 추가(가음성의 경우)
-
 4. [지원 로그 제출](#collect-diagnostic-data-for-file-submissions)
 
 ## <a name="confirm-prerequisites"></a>선행 준비 확인
@@ -94,9 +89,9 @@ Windows Defender 테스트 demo.wd.microsoft.com 웹 사이트를 방문하여 [
 
 제외를 추가하는 방법에 대한 자세한 내용은 공격 표면 [축소 사용자 지정을 참조합니다.](customize-attack-surface-reduction.md)
 
->[!IMPORTANT]
->제외할 개별 파일 및 폴더를 지정할 수는 있지만 개별 규칙을 지정할 수는 없습니다.
->즉, 제외된 파일 또는 폴더는 모든 ASR 규칙에서 제외됩니다.
+> [!IMPORTANT]
+> 제외할 개별 파일 및 폴더를 지정할 수는 있지만 개별 규칙을 지정할 수는 없습니다.
+> 즉, 제외된 파일 또는 폴더는 모든 ASR 규칙에서 제외됩니다.
 
 ## <a name="report-a-false-positive-or-false-negative"></a>가짓 긍정 또는 거짓 부정 보고
 
@@ -123,7 +118,5 @@ Windows Defender 테스트 demo.wd.microsoft.com 웹 사이트를 방문하여 [
 ## <a name="related-articles"></a>관련 문서
 
 - [공격 표면 감소 규칙](attack-surface-reduction.md)
-
 - [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
-
 - [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)

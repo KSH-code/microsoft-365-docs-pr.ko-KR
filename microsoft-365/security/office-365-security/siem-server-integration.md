@@ -18,12 +18,12 @@ ms.custom:
 description: 보안 클라우드 서비스 및 응용 프로그램과 SIEM(보안 정보 및 이벤트 관리) 서버 Microsoft 365 개요를 참조하세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ea4d844595aaab8d8148666430187edef463b92e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 542c6a75282d32aa3b67d61f7236e82210174531
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211565"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353613"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>보안 정보 및 이벤트 관리(SIEM) 서버와 Microsoft 365 통합
 
@@ -52,16 +52,13 @@ SIEM 서버가 필요한지 여부는 조직의 보안 요구 사항 및 데이�
 
 SIEM 서버는 다양한 서비스 및 응용 프로그램에서 데이터를 Microsoft 365 수 있습니다. 다음 표에는 자세한 내용을 Microsoft 365 SIEM 서버 입력 및 리소스와 함께 여러 서비스 및 응용 프로그램이 나열되어 있습니다.
 
-<br>
-
-****
+<br/><br/>
 
 |Microsoft 365 서비스 또는 응용 프로그램|SIEM 서버 입력/메서드|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|---|
 |[Office 365용 Microsoft Defender](defender-for-office-365.md)|감사 로그|[Microsoft Defender와 SIEM Office 365](siem-integration-with-office-365-ti.md)|
-|[엔드포인트용 Microsoft Defender](/windows/security/threat-protection/) |Azure에서 호스트된 HTTPS 끝점 <p> REST API|[SIEM 도구로 경고 끌어오기](../defender-endpoint/configure-siem.md)|
+|[엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)|Azure에서 호스트된 HTTPS 끝점 <p> REST API|[SIEM 도구로 경고 끌어오기](../defender-endpoint/configure-siem.md)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|로그 통합|[SIEM과 Microsoft Cloud App Security](/cloud-app-security/siem)|
-|
 
 > [!TIP]
 > [Azure Sentinel을 살펴보아야 합니다.](/azure/sentinel/overview) Azure Sentinel은 Microsoft 솔루션용 커넥터와 함께 제공합니다. 이러한 커넥터는 "첫 실행 중"으로 사용할 수 있으며 실시간 통합을 위해 제공됩니다. Azure Sentinel을 Microsoft 365 Defender 솔루션 및 Microsoft 365 서비스(Office 365 Azure AD, ID용 Microsoft Defender, Microsoft Cloud App Security 등)를 사용할 수 있습니다.

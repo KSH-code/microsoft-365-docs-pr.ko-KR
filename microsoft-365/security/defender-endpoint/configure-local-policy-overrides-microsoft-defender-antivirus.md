@@ -13,15 +13,15 @@ author: denisebmsft
 ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
-ms.date: 02/13/2020
+ms.date: 09/14/2021
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: d70d35bc1e2baa795e024da79ea613087bf511d4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 18260bd67d99aa372de7a14dab7decd3983d1beb
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187563"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59355887"
 ---
 # <a name="prevent-or-allow-users-to-locally-modify-microsoft-defender-antivirus-policy-settings"></a>사용자가 로컬에서 정책 설정을 수정하지 Microsoft Defender 바이러스 백신 허용
 
@@ -48,27 +48,31 @@ ms.locfileid: "59187563"
 
 2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 템플릿 **을 클릭합니다.**
 
-3. 트리를 확장하여 Windows **구성 > Microsoft Defender 바이러스 백신** 다음 아래  표에 지정된 위치를 지정합니다.
+3. 트리를 확장하여 구성 **Windows 구성** Microsoft Defender 바이러스 백신 다음 설정 표에 지정된 위치(이  >   문서에 설명)를 확장합니다. 
 
 4. 아래 표에 지정된 정책 **설정을** 두 번 클릭하고 옵션을 원하는 구성으로 설정하십시오. 확인 **을** 클릭하고 다른 설정에 대해 반복합니다.
 
 5. 그룹 정책 개체를 평소와 같이 배포합니다.
 
-위치|설정|문서
----|---|---|---
-MAPS|Microsoft MAPS에 보고하기 위한 로컬 설정 오버라이드 구성|[클라우드 제공 보호 사용](enable-cloud-protection-microsoft-defender-antivirus.md)
-격리|Quarantine 폴더에서 항목 제거를 위한 로컬 설정 오버라이드 구성|[검사에 대한 수정 구성](configure-remediation-microsoft-defender-antivirus.md)
-실시간 보호|컴퓨터의 파일 및 프로그램 활동 모니터링에 대한 로컬 설정 다시 설정 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)
-실시간 보호|들어오는 파일 및 나올 파일 활동에 대한 모니터링을 위한 로컬 설정 오버라이드 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)
-실시간 보호|다운로드한 모든 파일 및 첨부 파일을 검사하기 위한 로컬 설정 다시 설정 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)
-실시간 보호|동작 모니터링 켜기에 대한 로컬 설정 다시 설정 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)
-실시간 보호|실시간 보호를 켜도록 로컬 설정 다시 설정 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)
-수정|재구성 완료를 위해 예약된 전체 검색을 실행하도록 하루 중 시간의 로컬 설정 재지정 구성|[검사에 대한 수정 구성](configure-remediation-microsoft-defender-antivirus.md)
-검사|최대 CPU 사용률에 대한 로컬 설정 오버라이드 구성|[검사 구성 및 실행](run-scan-microsoft-defender-antivirus.md)
-검사|일정 검사 일에 대한 로컬 설정 오버라이드 구성|[예약된 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-검사|예약된 빠른 검사 시간을 위한 로컬 설정 재지정 구성|[예약된 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-검사|예약된 검사 시간의 로컬 설정 오버라이드 구성|[예약된 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-검사|예약된 검사에 사용할 검사 유형에 대한 로컬 설정 오버라이드 구성|[예약된 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+## <a name="table-of-settings"></a>설정 표
+
+<br/><br/>
+
+| 위치 | 설정 | 문서 |
+|---|---|---|---|
+| MAPS |Microsoft MAPS에 보고하기 위한 로컬 설정 오버라이드 구성|[클라우드 제공 보호 사용](enable-cloud-protection-microsoft-defender-antivirus.md) |
+| 격리|Quarantine 폴더에서 항목 제거를 위한 로컬 설정 오버라이드 구성|[검사에 대한 수정 구성](configure-remediation-microsoft-defender-antivirus.md) |
+| 실시간 보호|컴퓨터의 파일 및 프로그램 활동 모니터링에 대한 로컬 설정 다시 설정 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md) |
+| 실시간 보호|들어오는 파일 및 나올 파일 활동에 대한 모니터링을 위한 로컬 설정 오버라이드 구성 | [항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md) |
+| 실시간 보호|다운로드한 모든 파일 및 첨부 파일을 검사하기 위한 로컬 설정 다시 설정 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md) |
+| 실시간 보호|동작 모니터링 켜기에 대한 로컬 설정 다시 설정 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md) |
+| 실시간 보호|실시간 보호를 켜도록 로컬 설정 다시 설정 구성|[항상 보호 Microsoft Defender 바이러스 백신 모니터링을 사용하도록 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md) |
+| 수정|재구성 완료를 위해 예약된 전체 검색을 실행하도록 하루 중 시간의 로컬 설정 재지정 구성|[검사에 대한 수정 구성](configure-remediation-microsoft-defender-antivirus.md) |
+| 검사|최대 CPU 사용률에 대한 로컬 설정 오버라이드 구성|[검사 구성 및 실행](run-scan-microsoft-defender-antivirus.md) |
+| 검사|일정 검사 일에 대한 로컬 설정 오버라이드 구성|[예약된 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
+| 검사|예약된 빠른 검사 시간을 위한 로컬 설정 재지정 구성|[예약된 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
+| 검사|예약된 검사 시간의 로컬 설정 오버라이드 구성|[예약된 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
+| 검사|예약된 검사에 사용할 검사 유형에 대한 로컬 설정 오버라이드 구성|[예약된 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 
 <a id="merge-lists"></a>
 

@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 708ae221a020b8d6410b35a1db538d5ad50aba48
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 68a14ab44011506d89e219f1350dbc86939a6432
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213712"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356380"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -35,7 +35,7 @@ ms.locfileid: "59213712"
 
 **적용 대상**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806)
 
 끝점 보호 솔루션에서 가짓 긍정은 엔터티가 실제로 위협이 아닌 경우에도 악성으로 검색되고 식별된 파일 또는 프로세스와 같은 엔터티입니다. 거짓 부정은 실제로 악의적이어도 위협으로 검색되지 않은 엔터티입니다. 끝점용 Microsoft Defender를 포함하여 모든 위협 방지 솔루션에서 [가긍성/부정이](microsoft-defender-endpoint.md)발생할 수 있습니다.
 
@@ -74,16 +74,13 @@ ms.locfileid: "59213712"
 
 4. 경고 상태에 따라 다음 표에 설명된 단계를 수행합니다.
 
-<br>
-
-****
+<br/>
 
 |경고 상태|수행할 작업|
 |---|---|
 |경고가 정확합니다.|경고를 할당한 다음 추가로 [조사합니다.](investigate-alerts.md)|
 |경고가 가긍성입니다.|<ol><li>[경고를 가의](#classify-an-alert) 긍정으로 분류합니다.</li><li>[경고를 표시하지 않습니다.](#suppress-an-alert)</li><li>[끝점용](#indicators-for-microsoft-defender-for-endpoint) Microsoft Defender에 대한 표시기를 생성합니다.</li><li>[분석을 위해 Microsoft에 파일을 제출합니다.](#part-4-submit-a-file-for-analysis)</li></ol>|
 |경고는 정확하지만 양성(미미한)|[경고를](#classify-an-alert) 실제 양의 경고로 분류한 다음 [경고를 표시하지 않습니다.](#suppress-an-alert)|
-|||
 
 ### <a name="classify-an-alert"></a>경고 분류
 

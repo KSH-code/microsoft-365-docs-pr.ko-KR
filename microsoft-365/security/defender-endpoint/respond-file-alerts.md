@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f1ea6f3b2dd9447ff9901518a80aafa4dec56a5e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b9f7cda368f9770a645fa588597196eccf038b4f
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166914"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356651"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -56,7 +56,7 @@ ms.locfileid: "59166914"
 ****
 
 |사용 권한|PE 파일|PE가 아닌 파일|
-|:---------------------|:------:|:----------:|
+|---|:---:|:---:|
 |데이터 보기|X|X|
 |경고 조사|&#x2611;|X|
 |실시간 응답 기본|X|X|
@@ -160,7 +160,7 @@ ms.locfileid: "59166914"
 
 위치는 조직의 지리적 설정(EU, 영국 또는 미국)에 따라 다를 수 있습니다. 분리된 파일은 조직당 한 번만 수집됩니다. Service Trust Portal에서 Microsoft의 데이터 보호에 대한 자세한 내용은 을(를) 통해 자세히 알아보아야 https://aka.ms/STP 합니다.
 
-이 설정을 설정하면 보안 팀이 잠재적으로 잘못된 파일을 검사하고 인시던트의 위험을 덜 위험하게 빠르게 조사하는 데 도움이 될 수 있습니다. 그러나 이 설정을 해제해야 하는 경우 끝점 고급 기능 설정 파일 다운로드로 이동하여 설정을  >    >    >   조정합니다. [고급 기능에 대해 자세히 알아보시다](advanced-features.md)
+이 설정을 설정하면 보안 팀이 잠재적으로 잘못된 파일을 검사하고 인시던트의 위험을 덜 위험하게 빠르게 조사하는 데 도움이 될 수 있습니다. 그러나 이 설정을 해제해야 하는 경우  끝점 고급 기능 설정 파일 다운로드로 이동하여 설정을 \>  \>  \>  조정합니다. [고급 기능에 대해 자세히 알아보시다](advanced-features.md)
 
 #### <a name="backing-up-quarantined-files"></a>고지된 파일 백업
 
@@ -168,13 +168,14 @@ ms.locfileid: "59166914"
 
 샘플 제출이 꺼져 있는 경우 이 기능이 작동하지 않습니다. 자동 샘플 제출이 사용자의 사용 권한을 요청하도록 설정되어 있는 경우 사용자가 보내기에 동의한 샘플만 수집됩니다.
 
->[!IMPORTANT]
->다음을 통해 quarantined file requirements을 다운로드합니다.
->- 조직에서 활성 Microsoft Defender 바이러스 백신 사용 
->- 바이러스 백신 엔진 버전은 1.1.17300.4 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
->- 클라우드 기반 보호를 사용할 수 있습니다. 클라우드 [제공 보호 켜기 참조](enable-cloud-protection-microsoft-defender-antivirus.md)
->- 샘플 제출이 켜져 있습니다.
->- 장치에 Windows 10 버전 1703 이상 또는 Windows 서버 2016 또는 2019가 있습니다.
+> [!IMPORTANT]
+> 다음을 통해 quarantined file requirements을 다운로드합니다.
+>
+> - 조직에서 활성 Microsoft Defender 바이러스 백신 사용
+> - 바이러스 백신 엔진 버전은 1.1.17300.4 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
+> - 클라우드 기반 보호를 사용할 수 있습니다. 클라우드 [제공 보호 켜기 참조](enable-cloud-protection-microsoft-defender-antivirus.md)
+> - 샘플 제출이 켜져 있습니다.
+> - 장치에 Windows 10 버전 1703 이상 또는 Windows 서버 2016 또는 2019가 있습니다.
 
 ### <a name="collect-files"></a>파일 수집
 
@@ -214,7 +215,7 @@ ms.locfileid: "59166914"
 
 파일 차단을 중지하려면 표시기를 제거합니다. 파일의 프로필 페이지에서  표시기 편집 작업을 통해 이 작업을 할 수 있습니다. 이 작업은 표시기를 추가하기 전에  지표 추가 작업과 동일한 위치에 표시됩니다.
 
-규칙 표시기 **의** 설정 **표시기를**  >  **편집할 수도 있습니다.** 표시기는 파일의 해시에 의해 이 영역에 나열됩니다.
+규칙 표시기 **의** 설정 **표시기를** \> **편집할 수도 있습니다.** 표시기는 파일의 해시에 의해 이 영역에 나열됩니다.
 
 ## <a name="consult-a-threat-expert"></a>위협 전문가에게 문의
 
@@ -249,8 +250,6 @@ ms.locfileid: "59166914"
 심층 분석 결과는 위협 인텔리전스와 일치하며 일치하면 적절한 경고가 생성됩니다.
 
 심층 분석 기능을 사용하여 일반적으로 경고 조사 중에 또는 악의적인 동작이 의심되는 다른 이유로 파일의 세부 정보를 조사합니다. 이 기능은 파일의  프로필 페이지에서 심층 분석 탭에서 사용할 수 있습니다.
-
-<br/><br/>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4aAYy?rel=0]
 

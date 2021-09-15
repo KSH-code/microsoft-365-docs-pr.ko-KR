@@ -6,7 +6,8 @@ author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
+ms.prod: m365-security
+ms.technology: mdo
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,19 +19,19 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: a11528df6960293ba4b5a3f6e4d287989049556a
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 21cff6ecd695ef95173149eed211b40989fa47ce
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58572494"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357498"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
 
 Microsoft Defender for Office 365 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. Office 365용 Defender는 다음 사항을 포함합니다.
 
 - **위협 방지 정책**: 위협 방지 정책을 정의하여 조직에 적합한 수준의 보호를 설정합니다.
-- **보고서:** 실시간 보고서를 보고 Defender에서 조직의 Office 365 성능을 모니터링합니다.
+- **보고서**: 조직의 Office 365용 Defender 성능을 모니터링하는 실시간 보고서를 볼 수 있습니다.
 - **위협 조사 및 응답 기능**: 최첨단 도구를 사용하여 위협을 조사, 이해, 시뮬레이션 및 예방할 수 있습니다.
 - **자동화된 조사 및 응답 기능**: 위협을 조사하고 완화하는 시간과 노력을 줄여줍니다.
 
@@ -73,7 +74,7 @@ Defender for Office 365 평가판은 90일 동안 사용할 수 있으며 모든
 
 평가판 설정의 일부로, Office 365 대한 Defender 라이선스가 조직에 자동으로 적용됩니다. 라이선스는 처음 90일 동안 무료로 제공됩니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 평가판을 시작하거나 종료하려면 평가판에서 전역  관리자  또는 보안 관리자 역할의 구성원 Azure Active Directory. 자세한 내용은 관리자 역할 [정보를 참조하세요.](../../admin/add-users/about-admin-roles.md)
 

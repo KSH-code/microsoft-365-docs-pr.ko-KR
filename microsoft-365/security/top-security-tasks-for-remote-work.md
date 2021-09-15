@@ -7,7 +7,8 @@ author: brendacarter
 manager: johmar
 audience: Admin
 ms.topic: tutorial
-ms.service: O365-seccomp
+ms.prod: m365-security
+ms.technology: m365d
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다.
-ms.openlocfilehash: f0918f9cd6d23e5ebafb0a7aaf8208e1a06bfee5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8eccf38756a8f9d3686c8d1f3c05ac6065a54aca
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59163458"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59355994"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>보안 팀이 집에서 작업할 수 있는 상위 12개 작업
 

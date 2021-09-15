@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 83e43a36df3d4b4d0efdfd655e929c8aa39aeb74
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b62dbc0881ffe1b7129c053d13ee509796aef5b9
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218372"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357397"
 ---
 # <a name="offboard-machine-api"></a>컴퓨터 오프보드 API
 
@@ -32,8 +32,6 @@ ms.locfileid: "59218372"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
-
-
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -47,18 +45,19 @@ Endpoint용 Defender에서 디바이스를 오프보드합니다.
 
 - 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-[!include[Machine actions note](../../includes/machineactionsnote.md)]
+  [!include[Machine actions note](../../includes/machineactionsnote.md)]
 
->[!Note]
+> [!NOTE]
 > 이 API는 Windows 10 버전 1703 이상 또는 Windows Server 2019 이상에서 지원됩니다.
+>
 > 이 API는 MacOS 또는 Linux 장치에서 지원되지 않습니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 끝점 API에 [Defender 사용을 참조합니다.](apis-intro.md)
 
 사용 권한 유형|사용 권한|사용 권한 표시 이름
-:---|:---|:---
+---|---|---
 응용 프로그램|Machine.Offboard|'컴퓨터 오프보드'
 위임(직장 또는 학교 계정)|Machine.Offboard|'컴퓨터 오프보드'
 
@@ -77,7 +76,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/offboard
 ## <a name="request-headers"></a>요청 헤더
 
 이름|유형|설명
-:---|:---|:---
+---|---|---
 권한 부여|String|Bearer {token}. **필수입니다**.
 Content-Type|문자열|application/json. **필수입니다**.
 
@@ -86,7 +85,7 @@ Content-Type|문자열|application/json. **필수입니다**.
 요청 본문에 다음 매개 변수를 사용하여 JSON 개체를 제공합니다.
 
 매개 변수|유형|설명
-:---|:---|:---
+---|---|---
 Comment|String|작업과 연결되는 설명입니다. **필수입니다**.
 
 ## <a name="response"></a>응답

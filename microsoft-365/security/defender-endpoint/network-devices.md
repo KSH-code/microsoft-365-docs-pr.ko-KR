@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b365be018fafb487fb689acb09749804f849ce3b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b67a2551e592e2fd1186985590759d44bdcc177b
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220399"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356804"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>네트워크 장치 검색 및 취약성 관리
 
@@ -37,12 +37,12 @@ ms.locfileid: "59220399"
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-> [!NOTE]  
+> [!NOTE]
 > 네트워크 [장치](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/network-device-discovery-and-vulnerability-assessments/ba-p/2267548) 검색 및 취약점 평가 블로그 \( 04-13-2021에 게시된 블로그는 \) 끝점용 Defender의  새로운 네트워크 장치 검색 기능에 대한 정보를 제공합니다. 이 문서에서는 네트워크 장치  검색이 해결하도록 디자인된 과제에 대해 간략하게 설명하고 이러한 새로운 기능을 사용하여 시작하는 방법에 대한 자세한 정보를 제공합니다.
 
-네트워크 검색 기능은 보안  센터 및 Microsoft 365 콘솔의 장치 인벤토리 섹션에서 Microsoft 365 Defender 있습니다.  
+네트워크 검색 기능은 보안  센터 및 Microsoft 365 콘솔의 장치 인벤토리 섹션에서 Microsoft 365 Defender 있습니다.
 
-지정된 끝점 디바이스용 Microsoft Defender가 각 네트워크 세그먼트에서 미리 구성한 네트워크 장치에 대해 정기적으로 인증된 스캔을 수행하는 데 사용됩니다. 검색된 끝점용 Defender의 위협 및 취약성 관리 기능은 검색된 스위치, 라우터, WLAN 컨트롤러, 방화벽 및 VPN 게이트웨이를 보호하는 통합 워크플로를 제공합니다.  
+지정된 끝점 디바이스용 Microsoft Defender가 각 네트워크 세그먼트에서 미리 구성한 네트워크 장치에 대해 정기적으로 인증된 스캔을 수행하는 데 사용됩니다. 검색된 끝점용 Defender의 위협 및 취약성 관리 기능은 검색된 스위치, 라우터, WLAN 컨트롤러, 방화벽 및 VPN 게이트웨이를 보호하는 통합 워크플로를 제공합니다.
 
 네트워크 장치가 검색 및 분류되면 보안 관리자는 최신 보안 권장 사항을 받고 조직 전체에 배포된 네트워크 장치에서 최근에 발견된 취약점을 검토할 수 있습니다.
 
@@ -55,9 +55,9 @@ ms.locfileid: "59220399"
 - **평가 장치:** 네트워크 장치를 검색하는 데 사용할 이미 온보드된 장치입니다.
 - **네트워크 장치:** 스캔하고 온보드할 네트워크 장치입니다.
 
-### <a name="vulnerability-management-for-network-devices"></a>네트워크 장치에 대한 취약성 관리 
+### <a name="vulnerability-management-for-network-devices"></a>네트워크 장치에 대한 취약성 관리
 
-네트워크 장치가 검색 및 분류되면 보안 관리자는 최신 보안 권장 사항을 받고 조직 전체에 배포된 네트워크 장치에서 최근에 발견된 취약점을 검토할 수 있습니다.  
+네트워크 장치가 검색 및 분류되면 보안 관리자는 최신 보안 권장 사항을 받고 조직 전체에 배포된 네트워크 장치에서 최근에 발견된 취약점을 검토할 수 있습니다.
 
 ## <a name="operating-systems-that-are-supported"></a>지원되는 운영 체제
 
@@ -74,37 +74,37 @@ ms.locfileid: "59220399"
 
 첫 번째 단계는 인증된 네트워크 검색을 수행할 장치를 선택하는 것입니다.
 
-1. 검사할 네트워크 장치의 관리 포트에 대한 네트워크 연결이 있는 끝점 온보딩 장치(클라이언트 또는 서버)에 대한 Defender를 결정하십시오. 
+1. 검사할 네트워크 장치의 관리 포트에 대한 네트워크 연결이 있는 끝점 온보딩 장치(클라이언트 또는 서버)에 대한 Defender를 결정하십시오.
 
 2. Endpoint용 Defender 평가 장치와 대상 네트워크 장치 간의 SNMP 트래픽(예: 방화벽)을 허용해야 합니다.
 
-3. 취약점에 대해 평가할 네트워크 장치(예: Cisco 스위치 또는 Palo Alto Networks 방화벽)를 확인합니다.  
+3. 취약점에 대해 평가할 네트워크 장치(예: Cisco 스위치 또는 Palo Alto Networks 방화벽)를 확인합니다.
 
 4. 끝점 평가 장치가 구성된 네트워크 장치를 쿼리할 수 있도록 구성된 모든 네트워크 장치에서 SNMP 읽기 전용이 사용하도록 설정되어 있는지 확인합니다. 'SNMP 쓰기'는 이 기능의 적절한 기능에 필요하지 않습니다.
 
 5. 검색할 네트워크 장치의 IP 주소(또는 이러한 장치가 배포된 서브넷)를 얻습니다.
 
-6. 네트워크 장치의 SNMP 자격 증명(예: Community String, noAuthNoPriv, authNoPriv, authPriv)을 얻습니다. 새 평가 작업을 구성할 때 자격 증명을 제공해야 합니다.  
+6. 네트워크 장치의 SNMP 자격 증명(예: Community String, noAuthNoPriv, authNoPriv, authPriv)을 얻습니다. 새 평가 작업을 구성할 때 자격 증명을 제공해야 합니다.
 
 7. 프록시 클라이언트 구성: Endpoint 장치 프록시 요구 사항에 대한 Defender 외의 추가 구성은 필요하지 않습니다.
 
 8. 네트워크 스캐너를 인증하고 제대로 작동하도록 허용하려면 다음 도메인/URL을 추가해야 합니다.
 
-    - login.windows.net  
-    - *.security.microsoft.com
+    - login.windows.net
+    - \*.security.microsoft.com
     - login.microsoftonline.com
-    - *.blob.core.windows.net/networkscannerstable/ *
+    - \*.blob.core.windows.net/networkscannerstable/\*
 
     > [!NOTE]
     > 모든 URL이 허용된 데이터 수집의 끝점용 Defender 문서화 목록에 지정되지는 않습니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
-평가 작업을 구성하려면 보안 센터에서 보안 설정 관리와 같은 사용자 **권한 옵션이 필요합니다.** 역할 에서 **역할로** 설정  >  **있습니다.** 자세한 내용은 역할 기반 액세스 제어에 대한 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
+평가 작업을 구성하려면 보안 센터에서 보안 설정 관리와 같은 사용자 **권한 옵션이 필요합니다.** 역할 에서 **역할로** 설정 \> **있습니다.** 자세한 내용은 역할 기반 액세스 제어에 대한 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
 
 ## <a name="install-the-network-scanner"></a>네트워크 스캐너 설치
 
-1. 끝점 **Microsoft 365 보안** 설정(네트워크 평가 아래)로  >    >    >   **이동하십시오.**
+1. 끝점 **Microsoft 365 보안** 설정(네트워크 평가 아래)로 \>  \>  \>  **이동하십시오.**
     1. Microsoft 365 Defender 포털에서 평가 설정 > 페이지로 이동합니다.
 
 2. 네트워크 스캐너를 다운로드하여 지정된 Endpoint 평가 장치에 설치합니다.
@@ -127,7 +127,7 @@ ms.locfileid: "59220399"
 
 3. 완료되면 로그인을 확인한 메시지가 표시됩니다.
 
-## <a name="configure-a-new-assessment-job"></a>새 평가 작업 구성  
+## <a name="configure-a-new-assessment-job"></a>새 평가 작업 구성
 
 의 평가 작업 **페이지에서 설정** 작업 **추가를 선택합니다.** 설정 프로세스에 따라 정기적으로 검사하고 장치 인벤토리에 추가할 네트워크 장치를 선택하세요.
 
@@ -140,11 +140,11 @@ ms.locfileid: "59220399"
 
 1. 네트워크 스캐너가 설치된 '평가 작업' 이름 및 '평가 장치'를 선택하십시오. 이 장치는 주기적인 인증된 스캔을 수행하게 됩니다.
 
-2. 검사할 대상 네트워크 장치의 IP 주소(또는 이러한 장치가 배포된 서브넷)를 추가합니다. 
+2. 검사할 대상 네트워크 장치의 IP 주소(또는 이러한 장치가 배포된 서브넷)를 추가합니다.
 
-3. 대상 네트워크 장치의 필수 SNMP 자격 증명을 추가합니다. 
+3. 대상 네트워크 장치의 필수 SNMP 자격 증명을 추가합니다.
 
-4. 새로 구성된 네트워크 평가 작업을 저장하여 주기적인 네트워크 검색을 시작할 수 있습니다. 
+4. 새로 구성된 네트워크 평가 작업을 저장하여 주기적인 네트워크 검색을 시작할 수 있습니다.
 
 ### <a name="scan-and-add-network-devices"></a>네트워크 장치 검색 및 추가
 
@@ -153,7 +153,7 @@ ms.locfileid: "59220399"
 - Endpoint용 Defender 평가 장치와 구성된 대상 네트워크 장치 간에 연결이 있습니다.
 - 구성된 SNMP 자격 증명이 올바른지 확인합니다.
 
-각 평가 장치는 최대 1,500회의 성공적인 IP 주소 검색을 지원할 수 있습니다. 예를 들어 IP 주소가 100개만 성공한 결과를 반환하는 10개 다른 서브넷을 검색하는 경우 동일한 평가 장치에 있는 다른 서브넷에서 1,400개 IP 추가 주소를 검색할 수 있습니다.  
+각 평가 장치는 최대 1,500회의 성공적인 IP 주소 검색을 지원할 수 있습니다. 예를 들어 IP 주소가 100개만 성공한 결과를 반환하는 10개 다른 서브넷을 검색하는 경우 동일한 평가 장치에 있는 다른 서브넷에서 1,400개 IP 추가 주소를 검색할 수 있습니다.
 
 검색할 IP 주소 범위/서브넷이 여러 개 있는 경우 테스트 검사 결과를 표시하는 데 몇 분 정도 걸립니다. 테스트 검사는 최대 1,024개 주소에 사용할 수 있습니다.
 
@@ -180,9 +180,9 @@ ms.locfileid: "59220399"
 
 검사 결과는 평가 작업 구성을 완료한 후 수행된 초기 검사 후 몇 시간 후에 업데이트해야 합니다.
 
-장치가 아직 표시되어 있지 않은 경우 네트워크 스캐너를 설치한 평가 장치에서 'MdatpNetworkScanService' 서비스가 실행되고 있는지 확인하고 관련 평가 작업 구성에서 "검사 실행"을 수행하십시오.  
+장치가 아직 표시되어 있지 않은 경우 네트워크 스캐너를 설치한 평가 장치에서 'MdatpNetworkScanService' 서비스가 실행되고 있는지 확인하고 관련 평가 작업 구성에서 "검사 실행"을 수행하십시오.
 
-5분 후에도 여전히 결과를 얻지 못하면 서비스를 다시 시작합니다.  
+5분 후에도 여전히 결과를 얻지 못하면 서비스를 다시 시작합니다.
 
 ### <a name="devices-last-seen-time-is-longer-than-24-hours"></a>마지막으로 본 디바이스가 24시간보다 길습니다.
 

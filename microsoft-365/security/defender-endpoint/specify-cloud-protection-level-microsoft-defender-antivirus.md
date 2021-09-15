@@ -16,12 +16,12 @@ ms.reviewer: mkaminska
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: a7b8214165e80347d6200c755db477b81e430630
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8adb0be672c20b8e51c4178df63d7b25332455ce
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187403"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356471"
 ---
 # <a name="specify-the-cloud-protection-level"></a>클라우드 보호 수준 지정
 
@@ -39,7 +39,7 @@ ms.locfileid: "59187403"
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
 
-2. 끝점 **보안 바이러스 백신**  >  **을 선택 합니다.**
+2. 끝점 **보안 바이러스 백신** \> **을 선택 합니다.**
 
 3. 바이러스 백신 프로필을 선택합니다. (아직 프로필이 없는 경우 또는 새 프로필을 만들하려는 경우 에서 장치 제한 설정 [구성을 Microsoft Intune.](/intune/device-restrictions-configure)
 
@@ -51,26 +51,25 @@ ms.locfileid: "59187403"
     - **High plus:** **높음** 수준을 사용하며 추가 보호 조치를 적용합니다(클라이언트 성능에 영향을 줄 수 있습니다).
     - **허용 오차** 없음: 알 수 없는 모든 실행을 차단합니다.
 
-6. 검토 **+ 저장 을** 선택한 다음 저장 을 **선택 합니다.** 
+6. 검토 **+ 저장 을** 선택한 다음 저장 을 **선택 합니다.**
 
 > [!TIP]
 > 도움이 필요하세요? 다음 리소스를 참조하십시오.
+>
 > - [구성 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
 > - [Intune에서 끝점 보호 설정 추가](/mem/intune/protect/endpoint-protection-configure)
-  
 
 ## <a name="use-group-policy-to-specify-the-level-of-cloud-protection"></a>그룹 정책을 사용하여 클라우드 보호 수준 지정
 
-1.  그룹 정책 관리 컴퓨터의 그룹 정책 관리 [콘솔 을 열 수 있습니다.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))
+1. 그룹 정책 관리 컴퓨터의 그룹 정책 관리 [콘솔 을 열 수 있습니다.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))
 
 2. 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 **을 선택합니다.**
 
-3.  그룹 정책 **관리 편집기에서** 컴퓨터 구성 **관리**  >  **템플릿으로 이동하십시오.**
+3. 그룹 정책 **관리 편집기에서** 컴퓨터 구성 **관리** \> **템플릿으로 이동하십시오.**
 
-4.  트리를   >    >  **MpEngine** Windows 구성 Microsoft Defender 바이러스 백신 확장합니다.
+4. 트리를  \>  \> **MpEngine** Windows 구성 Microsoft Defender 바이러스 백신 확장합니다.
 
-5.  클라우드 보호 수준 **선택 설정을 두 번 클릭하고** 사용으로 **설정합니다.** 보호 수준을 선택합니다.
-
+5. 클라우드 보호 수준 **선택 설정을 두 번 클릭하고** 사용으로 **설정합니다.** 보호 수준을 선택합니다.
     - **기본 차단 수준은** 합법적인 파일을 검색할 위험을 늘리지 않고 강력한 검색을 제공합니다.
     - **보통 차단 수준은** 높은 신뢰도 검색을 위한 보통만 제공합니다.
     - **높은 차단 수준은** 클라이언트 성능을 최적화하는 동안 강력한 수준의 검색을 적용하지만 가음성의 가능성이 더 커질 수도 있습니다.

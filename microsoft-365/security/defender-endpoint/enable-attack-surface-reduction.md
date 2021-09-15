@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 08/17/2021
-ms.openlocfilehash: 4f1ec369913054e8fe119cebf3d647b42c133d34
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8d88a3f84819e22d4e8c5e5d0b01e1169a5fb3df
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185867"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356354"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
@@ -140,7 +140,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
    - **이름에** 규칙의 이름을 입력합니다.
    - **설명에** 간단한 설명을 입력합니다.
-   - **OMA-URI에서** 추가하는 규칙에 대한 특정 OMA-URI 링크를 입력하거나 붙여넣습니다.
+  - **OMA-URI에서** 추가하는 규칙에 대한 특정 OMA-URI 링크를 입력하거나 붙여넣습니다. 이 예제 규칙에 사용할 OMA-URI에 대해 이 항목의 앞부분에 있는 MEM 섹션을 참조하세요. ASR 규칙 GUIDS에 대한 자세한 내용은 [공격](attack-surface-reduction-rules.md#per-rule-descriptions) 표면 감소 규칙 항목의 규칙 설명을 참조하세요.
    - 데이터 **형식에서** 문자열 을 **선택합니다.**
    - **값에서** GUID 값, 부호 및 상태 값을 공백이 없는 상태로 입력하거나 \= 붙여넣습니다(_GUID=StateValue)._ Where: {0 : Disable (Disable the ASR rule)}, {1 : Block (Enable the ASR rule)}, {2 : Audit (Evaluate how the ASR rule would impact your organization if enabled)}, {6 : Warn (Enable the ASR rule but allow the end-user to bypass the block)}
 

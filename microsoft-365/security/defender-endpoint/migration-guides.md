@@ -17,12 +17,12 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: be05b4e477e00f1cdeafcd9b2b8d20452ac0c6c2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0aace52d05103afa490ec98b50ee9b6539e6b794
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213515"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357615"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender로 전환
 
@@ -36,13 +36,17 @@ ms.locfileid: "59213515"
 
 끝점용 Defender로 이동을 고려하고 있는 경우 도움이 되는 지침이 있습니다. 다음 표에서 시나리오를 검토합니다. 상황에 가장 적합한 시나리오를 선택하고 권장 지침을 참조하세요.
 
-| 시나리오 | 지침 |
-|:----|:----|
-| 아직 끝점 보호 솔루션이 준비되지 않았고 Endpoint용 Defender에 대해 더 알고 싶을 것입니다. 환경에서 롤아웃하기 전에 Endpoint용 Defender의 작동 방법을 확인하려는 경우  | [끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)   |
-| 끝점에 대한 Defender가 이미 있으며 모든 것을 설정하고 구성하는 데 도움이 될 것입니다.  | [엔드포인트용 Microsoft Defender 배포 가이드](deployment-phases.md)  |
-| Microsoft가 아닌 엔드포인트 보호 솔루션에서 Endpoint용 Defender로 전환하고 Microsoft Defender 바이러스 백신. 마이그레이션 프로세스와 전환 방법을 간략하게 살펴 보아야 합니다. |[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)   |
-| 끝점용 Defender로 이미 마이그레이션하거나 온보딩한 경우 보안 설정 관리, 추가 기능 구성 또는 보안 정책 미세 조정과 같은 다음 단계에 대한 몇 가지 도움말을 원합니다. | [끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md) |
+<br>
 
+****
+
+|시나리오|지침|
+|---|---|
+|아직 끝점 보호 솔루션이 준비되지 않았고 Endpoint용 Defender에 대해 더 알고 싶을 것입니다. 환경에서 롤아웃하기 전에 Endpoint용 Defender의 작동 방법을 확인하려는 경우|[끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)|
+|끝점에 대한 Defender가 이미 있으며 모든 것을 설정하고 구성하는 데 도움이 될 것입니다.|[엔드포인트용 Microsoft Defender 배포 가이드](deployment-phases.md)|
+|Microsoft가 아닌 엔드포인트 보호 솔루션에서 Endpoint용 Defender로 전환하고 Microsoft Defender 바이러스 백신. 마이그레이션 프로세스와 전환 방법을 간략하게 살펴 보아야 합니다.|[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)|
+|끝점용 Defender로 이미 마이그레이션하거나 온보딩한 경우 보안 설정 관리, 추가 기능 구성 또는 보안 정책 미세 조정과 같은 다음 단계에 대한 몇 가지 도움말을 원합니다.|[끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md)|
+|
 
 ## <a name="do-you-have-feedback-for-us"></a>피드백이 있나요?
 

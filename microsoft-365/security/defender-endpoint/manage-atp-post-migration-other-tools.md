@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: b20107b33a0bff72375885b11f205fa915a3b718
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0b920cdd703a3c2893da3a4df3cc5b62513970c9
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166978"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357660"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-powershell-wmi-and-mpcmdrunexe"></a>PowerShell, WMI 및 PowerShell을 사용하여 끝점에 대한 Microsoft Defender를 MPCmdRun.exe
 
@@ -51,7 +51,7 @@ ms.locfileid: "59166978"
 
 ## <a name="configure-microsoft-defender-for-endpoint-with-powershell"></a>PowerShell을 통해 끝점에 대한 Microsoft Defender 구성
 
-PowerShell을 사용하여 공격 Microsoft Defender 바이러스 백신 보호 및 공격 표면 감소 규칙을 관리할 수 있습니다.
+PowerShell을 사용하여 공격 Microsoft Defender 바이러스 백신 보호 및 공격 표면 감소 규칙을 관리할 수 있습니다.<br/><br/>
 
 |작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
@@ -74,7 +74,7 @@ WMI는 설정을 검색, 수정 및 업데이트할 수 있는 스크립팅 인�
 
 ## <a name="configure-microsoft-defender-for-endpoint-with-microsoft-malware-protection-command-line-utility-mpcmdrunexe"></a>Microsoft 맬웨어 보호 유틸리티(Command-Line 유틸리티)를 사용하여 끝점에 대한 Microsoft Defender MPCmdRun.exe)
 
-개별 장치에서 검색을 실행하고, 진단 추적을 시작하고, 보안 인텔리전스 업데이트를 확인하고, 명령줄 도구를 사용하여 mpcmdrun.exe 있습니다. 유틸리티는 에서 찾을 수 `%ProgramFiles%\Windows Defender\MpCmdRun.exe` 있습니다. 명령 프롬프트에서 실행합니다.
+개별 장치에서 검색을 실행하고, 진단 추적을 시작하고, 보안 인텔리전스 업데이트를 확인하고, 명령줄 도구를 사용하여 mpcmdrun.exe 있습니다. 유틸리티는 에서 찾을 수 `%ProgramFiles%\Windows Defender\MpCmdRun.exe` 있습니다. 명령 프롬프트에서 실행합니다.<br/><br/>
 
 |작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|

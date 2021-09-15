@@ -15,12 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 15180a2be197b39da78bf004b761db753cd02c94
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2dda17d55dbe5e86b6d76e3a766a020c6e0bc3aa
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213405"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356528"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -41,7 +41,7 @@ ms.locfileid: "59213405"
 
 > [!TIP]
 > Microsoft Defender for Endpoint 데모 웹 [사이트를](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 방문하여 demo.wd.microsoft.com 작동을 확인할 수 있습니다.
-> 
+>
 > - 클라우드 제공 보호
 > - 빠른 학습(신속한 차단 포함)
 > - 잠재적으로 원치 않는 응용 프로그램 차단
@@ -53,17 +53,17 @@ Microsoft Defender 바이러스 백신 로그에 이벤트 WINDOWS 기록합니�
 
 이벤트 로그를 직접 보거나 타사 SIEM(보안 정보 및 이벤트 관리) 도구가 있는 [](troubleshoot-microsoft-defender-antivirus.md#windows-defender-av-ids) 경우 Microsoft Defender 바이러스 백신 클라이언트 이벤트 MICROSOFT DEFENDER 바이러스 백신 끝점에서 특정 이벤트 및 오류를 검토할 수도 있습니다.
 
-이 섹션의 표에는 기본 Microsoft Defender 바이러스 백신 이벤트 MICROSOFT DEFENDER 바이러스 백신 나열되어 있으며 가능한 경우 오류를 수정하거나 해결하기 위한 권장 해결 방법을 제공합니다. 
+이 섹션의 표에는 기본 Microsoft Defender 바이러스 백신 이벤트 MICROSOFT DEFENDER 바이러스 백신 나열되어 있으며 가능한 경우 오류를 수정하거나 해결하기 위한 권장 해결 방법을 제공합니다.
 
 ## <a name="to-view-a-microsoft-defender-antivirus-event"></a>이벤트 Microsoft Defender 바이러스 백신 보기
 
-1.  이벤트 **뷰어 를 열 수 있습니다.**
-2.  콘솔 트리에서 **응용** 프로그램 및 서비스 **로그,** **Microsoft** 를 확장한 다음 를 Windows **를** Windows Defender.
-3.  작동 을 두 **번 클릭합니다.**
-4.  세부 정보 창에서 개별 이벤트 목록을 보고 이벤트를 찾을 수 있습니다.
-5.  이벤트를 클릭하여 아래쪽 창의 일반 및 세부 정보 탭에서  이벤트에 대한 특정 세부 **정보를** 볼 수 있습니다.
+1. 이벤트 **뷰어 를 열 수 있습니다.**
+2. 콘솔 트리에서 **응용** 프로그램 및 서비스 **로그,** **Microsoft** 를 확장한 다음 를 Windows **를** Windows Defender.
+3. 작동 을 두 **번 클릭합니다.**
+4. 세부 정보 창에서 개별 이벤트 목록을 보고 이벤트를 찾을 수 있습니다.
+5. 이벤트를 클릭하여 아래쪽 창의 일반 및 세부 정보 탭에서  이벤트에 대한 특정 세부 **정보를** 볼 수 있습니다.
 
-<table> 
+<table>
 <tr>
 <th colspan="2" >이벤트 ID: 1000</th>
 </tr>
@@ -361,7 +361,7 @@ Microsoft Defender 바이러스 백신 로그에 이벤트 WINDOWS 기록합니�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -433,7 +433,7 @@ Microsoft Defender 바이러스 백신 맬웨어 또는 사용자 원치 않는 
 <dt> 심각도: &lt; 심각도, &gt; 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -485,7 +485,7 @@ Microsoft Defender 바이러스 백신 또는 사용자 원치 않는 기타 소
 <dt> 심각도: &lt; 심각도, &gt; 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -539,7 +539,7 @@ Microsoft Defender 바이러스 백신 항목을 복원했습니다. 자세한 �
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -581,7 +581,7 @@ Microsoft Defender 바이러스 백신 항목을 복구하는 중 오류가 발�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -625,7 +625,7 @@ Microsoft Defender 바이러스 백신 항목을 삭제했습니다.<br/>자세�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -668,7 +668,7 @@ Microsoft Defender 바이러스 백신 항목을 삭제하는 중 오류가 발�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -774,7 +774,7 @@ Microsoft Defender 바이러스 백신 의심스러운 동작을 감지했습니
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -849,7 +849,7 @@ Microsoft Defender 바이러스 백신 맬웨어 또는 사용자 원치 않는 
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -928,7 +928,7 @@ Microsoft Defender 바이러스 백신 맬웨어 또는 사용자 원치 않는 
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -1017,7 +1017,7 @@ Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 및 Windows Ser
 사용자 작업:
 </td>
 <td >
-필요한 작업은 없습니다. Microsoft Defender 바이러스 백신 제거하거나 위협을 무단으로 제거했습니다. 
+필요한 작업은 없습니다. Microsoft Defender 바이러스 백신 제거하거나 위협을 무단으로 제거했습니다.
 </td>
 </tr>
 <tr>
@@ -1050,7 +1050,7 @@ Microsoft Defender 바이러스 백신 또는 사용자 원치 않는 기타 소
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -1142,7 +1142,7 @@ Microsoft Defender 바이러스 백신 또는 사용자 원치 않는 기타 소
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -1369,10 +1369,10 @@ Microsoft Defender 바이러스 백신 클라이언트가 정상 상태로 실�
 <dt>Antivirus signature creation time: ? &lt; 바이러스 백신 &gt; 서명 생성 시간</dt>스파이웨어 방지 서명
 <dt>생성 시간: ? &lt; 스파이웨어 방지 서명 생성 &gt; 시간</dt>
 <dt>마지막 빠른 검사 시작 시간: ? &lt; 마지막 빠른 검사 &gt; 시작 시간</dt>
-<dt>마지막 빠른 검사 종료 시간: ? &lt; 마지막 빠른 검사 &gt; </dt>종료 시간 마지막 빠른 검사 원본: 마지막 빠른 검사 원본(0 =&#39;
-<dt> &lt; &gt; 실행하지 않았음, 1 = 사용자가 시작한, 2 =</dt>시스템 시작) 마지막 전체 검사 시작
+<dt>마지막 빠른 검사 종료 시간: ? &lt; 마지막 빠른 검사 &gt; </dt>종료 시간 마지막 빠른 검사 원본: 마지막 빠른 검사
+<dt> &lt; &gt; 원본(0 = 검사가 실행되지 않았음, 1 = 사용자가 시작한, 2 =</dt>시스템 시작) 마지막 전체 검사 시작
 <dt>시간: ? &lt; 마지막 전체 검사 &gt; 시작 시간</dt>
-<dt>마지막 전체 검사 종료 시간: ? &lt; 마지막 전체 검사 &gt; </dt>종료 시간 마지막 전체 검사 원본: 마지막 전체 검사 원본(0 =&#39;
+<dt>마지막 전체 검사 종료 시간: ? &lt; 마지막 전체 검사 &gt; </dt>종료 시간 마지막 전체 검사 원본: 마지막 전체 검사 원본(0 = 검사가
 <dt> &lt; &gt; 실행되지 않았음, 1 = 사용자가 시작한, 2 =</dt>시스템 시작) 제품 상태: 내부 문제 
 <dt> 해결
 </dl>
@@ -2016,7 +2016,7 @@ Microsoft Defender 바이러스 백신 파일을 다운로드하는 동안 오�
 </td>
 <td >
 인터넷 연결 설정을 확인합니다.
-이 Microsoft Defender 바이러스 백신 동적 서명 서비스를 사용하여 특정 위협에 최신 정의를 다운로드할 때 오류가 발생했습니다. 이 오류는 네트워크 연결 문제로 인해 발생할 수 있습니다. 
+이 Microsoft Defender 바이러스 백신 동적 서명 서비스를 사용하여 특정 위협에 최신 정의를 다운로드할 때 오류가 발생했습니다. 이 오류는 네트워크 연결 문제로 인해 발생할 수 있습니다.
 </td>
 </tr>
 <tr>
@@ -2197,8 +2197,9 @@ Microsoft Defender 바이러스 백신 Real-Time 보호 기능에 오류가 발�
 사용자 작업:
 </td>
 <td >
-시스템을 다시 시작한 다음 전체&#39;보호되지 않을 수 있기 때문에 전체 검색을 실행해야 합니다.
-이 Microsoft Defender 바이러스 백신 서비스&#39;시작하지 못했기 때문에 실시간 보호 기능을 사용할 때 오류가 발생했습니다. 그 다음에 3007 이벤트 ID가 발생하면 오류가 일시적으로 발생하고 맬웨어 방지 클라이언트가 오류에서 복구됩니다. 
+시스템이 한 동안 보호되지 않을 수 있기 때문에 시스템을 다시 시작한 다음 전체 검색을 실행해야 합니다.
+Microsoft Defender 바이러스 백신 서비스 중 하나를 시작하지 못했기 때문에 클라이언트의 실시간 보호 기능에 오류가 발생했습니다.
+그 다음에 3007 이벤트 ID가 발생하면 오류가 일시적으로 발생하고 맬웨어 방지 클라이언트가 오류에서 복구됩니다.
 </td>
 </tr>
 <tr>
@@ -2243,7 +2244,7 @@ Microsoft Defender 바이러스 백신 실시간 보호가 기능을 다시 시�
 사용자 작업:
 </td>
 <td >
-실시간 보호 기능이 다시 시작됩니다. 이 이벤트가 다시 발생하면 <a href="https://go.microsoft.com/fwlink/?LinkId=215491">Microsoft 기술 지원에 문의하세요.</a> 
+실시간 보호 기능이 다시 시작됩니다. 이 이벤트가 다시 발생하면 <a href="https://go.microsoft.com/fwlink/?LinkId=215491">Microsoft 기술 지원에 문의하세요.</a>
 </td>
 </tr>
 <tr>
@@ -2295,7 +2296,7 @@ Microsoft Defender 바이러스 백신 사용자 없이 설치될 수 있는 기
 설명:
 </td>
 <td >
-Microsoft Defender 바이러스 백신 사용자 없이 설치될 수 있는 기타 소프트웨어에 대한 실시간 보호 검사가 사용되지 않도록 설정되었습니다. 
+Microsoft Defender 바이러스 백신 사용자 없이 설치될 수 있는 기타 소프트웨어에 대한 실시간 보호 검사가 사용되지 않도록 설정되었습니다.
 </td>
 </tr>
 <tr>
@@ -2502,7 +2503,7 @@ Microsoft Defender 바이러스 백신 소프트웨어 및 사용자 원치 않�
 설명:
 </td>
 <td >
-Microsoft Defender 바이러스 백신 검사가 사용하도록 설정되어 있습니다. 
+Microsoft Defender 바이러스 백신 검사가 사용하도록 설정되어 있습니다.
 </td>
 </tr>
 <tr>
@@ -2528,7 +2529,7 @@ Microsoft Defender 바이러스 백신 검사가 사용하도록 설정되어 �
 설명:
 </td>
 <td >
-Microsoft Defender 바이러스 백신 검사가 사용되지 않습니다. 
+Microsoft Defender 바이러스 백신 검사가 사용되지 않습니다.
 </td>
 </tr>
 <tr>
@@ -2598,12 +2599,12 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 <a id="error-codes"></a>
 ##Microsoft Defender 바이러스 백신 클라이언트 오류 코드 Microsoft Defender 바이러스 백신 문제가 발생하는 경우 일반적으로 문제를 해결하는 데 도움이 되는 오류 코드를 제공합니다. 대부분의 오류는 업데이트를 설치하는 데 문제가 발생했다는 의미입니다.
 이 섹션에서는 클라이언트 오류와 관련한 Microsoft Defender 바이러스 백신 제공합니다.
--   오류 코드 오류에 대한 가능한 -   이유 -   지금 할 일에 대한 조언
+- 오류 코드 오류에 대한 가능한 - 이유 - 지금 할 일에 대한 조언
 
 다음 표의 정보를 사용하여 오류 코드 문제를 Microsoft Defender 바이러스 백신 수 있습니다.
 
 
-<table> 
+<table>
 <tr>
 <th colspan="2">오류 코드: 0x80508007</th>
 </tr>
@@ -2618,7 +2619,7 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 가능한 이유
 </td>
 <td>
-이 오류는 메모리가 부족할 수 있습니다. 
+이 오류는 메모리가 부족할 수 있습니다.
 </td>
 </tr>
 <tr>
@@ -2627,7 +2628,7 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 <ol>
 <li>장치에서 사용 가능한 메모리를 확인합니다.</li>
 <li>장치에서 메모리를 비우기 위해 실행 중인 사용되지 않는 응용 프로그램을 닫습니다.</li>
-<li>장치를 다시 시작하고 스캔을 다시 실행합니다. 
+<li>장치를 다시 시작하고 스캔을 다시 실행합니다.
 </li>
 </ol>
 </td>
@@ -2662,7 +2663,7 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 <td><b>ERR_MP_BAD_CONFIGURATION </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 엔진 구성 오류가 있을 수 있습니다. 일반적으로 이는 엔진이 제대로 작동할 수 없는 입력 데이터와 관련이 있습니다. 
+이 오류는 엔진 구성 오류가 있을 수 있습니다. 일반적으로 이는 엔진이 제대로 작동할 수 없는 입력 데이터와 관련이 있습니다.
 </td>
 </tr>
 <tr>
@@ -2672,7 +2673,7 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 <td><b>ERR_MP_QUARANTINE_FAILED </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 Microsoft Defender 바이러스 백신 수 없습니다. 
+이 오류는 Microsoft Defender 바이러스 백신 수 없습니다.
 </td>
 </tr>
 <tr>
@@ -2682,7 +2683,7 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 <td><b>ERR_MP_REBOOT_REQUIRED </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 위협 제거를 완료하기 위해 재부팅이 필요하다는 메시지를 나타냅니다. 
+이 오류는 위협 제거를 완료하기 위해 재부팅이 필요하다는 메시지를 나타냅니다.
 </td>
 </tr>
 <tr>
@@ -2693,11 +2694,11 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 <td><b>ERR_MP_THREAT_NOT_FOUND </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 위협이 미디어에 더 이상 존재하지 않을 수도, 맬웨어가 장치 검색을 중지하고 있을 수 있다는 것을 나타냅니다. 
+이 오류는 위협이 미디어에 더 이상 존재하지 않을 수도, 맬웨어가 장치 검색을 중지하고 있을 수 있다는 것을 나타냅니다.
 </tr><tr><td>해결 방법
 </td>
 <td>
-보안 <a href="https://www.microsoft.com/security/scanner/default.aspx">Microsoft 보안 검사</a> 실행한 다음 보안 소프트웨어를 업데이트하고 다시 시도하세요. 
+보안 <a href="https://www.microsoft.com/security/scanner/default.aspx">Microsoft 보안 검사</a> 실행한 다음 보안 소프트웨어를 업데이트하고 다시 시도하세요.
 </td>
 </tr>
 <tr>
@@ -2707,11 +2708,11 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 <td><b>ERR_MP_FULL_SCAN_REQUIRED </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 전체 시스템 검사가 필요한 것일 수 있습니다. 
+이 오류는 전체 시스템 검사가 필요한 것일 수 있습니다.
 </td></tr>
 <tr>
 <td>해결 방법</td><td>
-전체 시스템 검색을 실행합니다. 
+전체 시스템 검색을 실행합니다.
 </td>
 </tr>
 <tr>
@@ -2721,7 +2722,7 @@ Microsoft Defender 바이러스 백신 유예 기간이 만료되었습니다. �
 <td><b>ERR_MP_MANUAL_STEPS_REQUIRED </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 위협 제거를 완료하는 데 수동 단계가 필요하다는 메시지를 나타냅니다. 
+이 오류는 위협 제거를 완료하는 데 수동 단계가 필요하다는 메시지를 나타냅니다.
 </td></tr><tr><td>해결 방법</td><td>
 Microsoft 맬웨어 보호 백과사전 에 설명된 수동 <a href="https://www.microsoft.com/security/portal/threat/Threats.aspx">수정 단계를 따릅니다.</a> 이벤트 기록에서 위협 관련 링크를 찾을 수 있습니다.<br/></td>
 </tr>
@@ -2732,9 +2733,9 @@ Microsoft 맬웨어 보호 백과사전 에 설명된 수동 <a href="https://ww
 <td><b>ERR_MP_REMOVE_NOT_SUPPORTED </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 컨테이너 유형 내에서 제거가 지원되지 않을 수 있습니다. 
+이 오류는 컨테이너 유형 내에서 제거가 지원되지 않을 수 있습니다.
 </td></tr><tr><td>해결 방법</td><td>
-Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정하지 못합니다. 검색된 리소스를 수동으로 제거하는 것입니다. 
+Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정하지 못합니다. 검색된 리소스를 수동으로 제거하는 것입니다.
 </td>
 </tr>
 <tr>
@@ -2744,9 +2745,9 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 <td><b>ERR_MP_REMOVE_LOW_MEDIUM_DISABLED </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 낮음 및 중간 위협 제거가 사용하지 않도록 설정되어 있을 수 있습니다. 
+이 오류는 낮음 및 중간 위협 제거가 사용하지 않도록 설정되어 있을 수 있습니다.
 </td></tr><tr><td>해결 방법</td><td>
-감지된 위협을 확인하고 필요한 경우 해결합니다. 
+감지된 위협을 확인하고 필요한 경우 해결합니다.
 </td>
 </tr>
 <tr>
@@ -2756,9 +2757,9 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 <td><b>ERROR_MP_RESCAN_REQUIRED </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 위협을 다시 검색해야 하다는 메시지를 나타냅니다. 
+이 오류는 위협을 다시 검색해야 하다는 메시지를 나타냅니다.
 </td></tr><tr><td>해결 방법</td><td>
-전체 시스템 검색을 실행합니다. 
+전체 시스템 검색을 실행합니다.
 </td>
 </tr>
 <tr>
@@ -2768,7 +2769,7 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 <td><b>ERROR_MP_CALLISTO_REQUIRED </b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 오프라인 검사가 필요를 나타냅니다. 
+이 오류는 오프라인 검사가 필요를 나타냅니다.
 </td></tr><tr><td>해결 방법</td><td>
 오프라인으로 Microsoft Defender 바이러스 백신. 오프라인 문서 에서 이 작업을 하는 <a href="https://windows.microsoft.com/windows/what-is-windows-defender-offline">방법에 대해 Microsoft Defender 바이러스 백신 있습니다.</a>
 </td>
@@ -2780,7 +2781,7 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 <td><b>ERROR_MP_PLATFORM_OUTDATED<br/></b>
 </td></tr><tr><td>가능한 이유</td>
 <td>
-이 오류는 Microsoft Defender 바이러스 백신 플랫폼의 현재 버전을 지원하지 않는 새 버전의 플랫폼이 필요하다는 의미입니다. 
+이 오류는 Microsoft Defender 바이러스 백신 플랫폼의 현재 버전을 지원하지 않는 새 버전의 플랫폼이 필요하다는 의미입니다.
 </td></tr><tr><td>해결 방법</td><td>
 이 경우 해당 Microsoft Defender 바이러스 백신 사용할 수 Windows 10. Windows 8 7과 Windows Vista의 Windows 를 사용할 <a href="https://www.microsoft.com/server-cloud/system-center/endpoint-protection-2012.aspx">System Center Endpoint Protection.</a><br/></td>
 </tr>
@@ -2791,7 +2792,7 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 이러한 오류가 표시될 경우 정의를 [](manage-updates-baselines-microsoft-defender-antivirus.md) 업데이트하고 끝점에서 직접 다시 검사할 수 있습니다.
 
 
-<table> 
+<table>
 <tr>
 <th colspan="3">내부 오류 코드</th>
 </tr>
@@ -3097,7 +3098,7 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 <b>ERR_MP_REMOVE_FAILED</b>
 </td>
 <td>
-내부 오류입니다. 맬웨어 제거가 성공하지 못하면 트리거될 수 있습니다. 
+내부 오류입니다. 맬웨어 제거가 성공하지 못하면 트리거될 수 있습니다.
 </td>
 </tr>
 <tr>
@@ -3108,7 +3109,7 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 <b>ERR_MP_SCAN_ABORTED </b>
 </td>
 <td>
-내부 오류입니다. 검사가 완료되지 않을 때 트리거될 수 있습니다. 
+내부 오류입니다. 검사가 완료되지 않을 때 트리거될 수 있습니다.
 </td>
 </tr>
 </table>

@@ -5,20 +5,20 @@ metadata:
   title: 엔드포인트용 Microsoft Defender 설명서
   description: 엔드포인트용 Microsoft Defender에 대해 알아보고 기본 제공 보안 기능을 최대화하여 장치를 보호하고, 악의적인 활동을 감지하고, 위협을 해결합니다# 필수; 검색 결과에 표시되는 문서 설명입니다. < 160자
   services: office-365-security-compliance
-  ms.service: O365-seccomp
-  ms.subservice: subservice
+  ms.prod: m365-security
+  ms.technology: mde
   ms.topic: landing-page
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
   ms.date: 08/30/2021
   localization_priority: Priority
-  ms.openlocfilehash: 2edb618e32b18d42db7c2ef233bac9ded7723fd4
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.openlocfilehash: e5f759f923e5099058730311ccbbaa5ce32dfe2d
+  ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59187516"
+  ms.lasthandoff: 09/15/2021
+  ms.locfileid: "59357230"
 landingContent:
 - title: 엔드포인트용 Microsoft Defender
   linkLists:

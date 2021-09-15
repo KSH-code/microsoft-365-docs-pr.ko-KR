@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
-ms.openlocfilehash: 6f652987caf977e520dc0681b54c605f7a03b3e5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d5fa34de0394c1455fccb70a875fe12cddee3ed8
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221920"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357429"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>이벤트 뷰어를 사용하여 이벤트 및 오류 검토
 
@@ -81,7 +81,7 @@ ms.locfileid: "59221920"
    |26|Microsoft Defender for Endpoint Service가 레지스트리에서 등록 상태를 설정하지 못했습니다. 오류 코드: `variable` .|장치가 올바르게 온보드되지 않았습니다. <p> 포털에 보고됩니다. 그러나 서비스가 SCCM 또는 레지스트리에 등록된 것으로 나타나지 않을 수 있습니다.|온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|
    |27|Microsoft Defender for Endpoint Service에서 센스 인식 모드를 사용하도록 설정하지 Microsoft Defender 바이러스 백신. 온보더링 프로세스가 실패했습니다. 오류 코드: `variable` .|일반적으로 Microsoft Defender 바이러스 백신 다른 실시간 맬웨어 방지 제품이 장치에서 제대로 실행되고 장치가 Endpoint용 Defender에 보고하는 경우 특별한 수동 상태가 됩니다.|온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md) <p> 실시간 맬웨어 방지 보호가 제대로 실행되고 있는지 확인합니다.|
    |28|Endpoint용 Microsoft Defender 연결된 사용자 환경 및 원격 분석 서비스 등록에 실패했습니다. 오류 코드: `variable` .|원격 분석 서비스에 Windows 오류가 발생했습니다.|[진단 데이터 서비스가 사용하도록 설정되어 있는지 확인합니다.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy) <p> 온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|
-   |29|오프보더 매개 변수를 읽지 못했습니다. 오류 유형: %1, 오류 코드: %2, 설명: %3|이 이벤트는 시스템에서 오프보더 매개 변수를&#39;수 있는 경우 발생합니다.|장치에 인터넷 액세스 권한이 있는지 확인한 다음 전체 오프보더 프로세스를 다시 실행합니다. 오프보더 패키지가 만료되지 않은지 확인|
+   |29|오프보더 매개 변수를 읽지 못했습니다. 오류 유형: %1, 오류 코드: %2, 설명: %3|이 이벤트는 시스템에서 오프보더 매개 변수를 읽을 수 없는 경우 발생합니다.|장치에 인터넷 액세스 권한이 있는지 확인한 다음 전체 오프보더 프로세스를 다시 실행합니다. 오프보더 패키지가 만료되지 않은지 확인|
    |30|Microsoft Defender for Endpoint Service에서 센스 인식 모드를 사용하지 않도록 설정하지 Microsoft Defender 바이러스 백신. 오류 코드: `variable` .|일반적으로 Microsoft Defender 바이러스 백신 다른 실시간 맬웨어 방지 제품이 장치에서 제대로 실행되고 장치가 Endpoint용 Defender에 보고하는 경우 특별한 수동 상태가 됩니다.|온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md) <p> 실시간 맬웨어 방지 보호가 제대로 실행되고 있는지 확인합니다.|
    |31|Endpoint용 Microsoft Defender 연결된 사용자 환경 및 원격 분석 서비스 등록이 실패했습니다. 오류 코드: `variable` .|온보더링하는 동안 원격 분석 Windows 오류가 발생했습니다. 오프보더 프로세스가 계속됩니다.|[원격 분석 서비스 에서 Windows 검사합니다.](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)|
    |32|Microsoft Defender for Endpoint Service가 오프보딩 프로세스 후 자체 중지를 요청하지 못했습니다. 오류 코드: %1|오프보더하는 동안 오류가 발생했습니다.|장치를 다시부팅합니다.|

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3049d77ef7f934a254da54a63560e33fe2603e3b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 18f2aa79632378e477ae79f6f621fbea72350bca
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187428"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356677"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>끝점 미리 보기 기능용 Microsoft Defender
 
@@ -53,7 +53,7 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 - Microsoft에서 완전히 지원됩니다.
 - 선택한 지리적 지역 또는 클라우드 환경에서만 사용할 수 있습니다. 예를 들어 이 기능은 정부 클라우드에 존재하지 않을 수 있습니다.
 - 미리 보기의 개별 기능에는 더 많은 사용 및 지원 제한이 있을 수 있습니다. 이 경우 이 정보는 일반적으로 기능 설명서에 기록됩니다.
-- 미리 보기 버전은 표준 지원 수준으로 제공될 수 있으며 프로덕션 환경에 사용할 수 있습니다. 
+- 미리 보기 버전은 표준 지원 수준으로 제공될 수 있으며 프로덕션 환경에 사용할 수 있습니다.
 
 ## <a name="turn-on-preview-features"></a>미리 보기 기능 설정
 
@@ -61,9 +61,9 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 
 미리 보기 환경을 설정하여 최초로 예정된 기능을 사용해보세요.
 
-1. 탐색 창에서 **끝점 설정** 기능 미리 보기  >    >  **기능을**  >  **선택합니다.**
+1. 탐색 창에서 **끝점 설정** 기능 미리 보기 \>  \> **기능을** \> **선택합니다.**
 
 2. 설정 및 해제  간에 설정을 **전환하고** 기본 설정 **저장을 선택합니다.**
 
 > [!TIP]
-> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-preview-belowfoldlink)  
+> 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-preview-belowfoldlink)

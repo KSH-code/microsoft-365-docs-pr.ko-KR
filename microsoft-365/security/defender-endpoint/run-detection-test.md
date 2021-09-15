@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d3430dc7765dfb7d84110a3a0cbae9f53e89b379
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2c1772cc67c145b59870735910e09ae05e52b899
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218282"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59357304"
 ---
-# <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행 
+# <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -41,11 +41,12 @@ ms.locfileid: "59218282"
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-온보딩 디바이스는 끝점용 Microsoft Defender 서비스에 장치를 추가하는 방법입니다. 디바이스에서 서비스에 신호를 보고할 수 있습니다.  
+온보딩 디바이스는 끝점용 Microsoft Defender 서비스에 장치를 추가하는 방법입니다. 디바이스에서 서비스에 신호를 보고할 수 있습니다.
 
-장치가 서비스에 성공적으로 추가된 것이 전체 배포 프로세스에서 중요한 단계입니다. 
+장치가 서비스에 성공적으로 추가된 것이 전체 배포 프로세스에서 중요한 단계입니다.
 
 ## <a name="verify-onboarding-using-a-detection-test"></a>검색 테스트를 사용하여 온보더링 확인
+
 새로 온보딩된 장치에서 다음 PowerShell 스크립트를 실행하여 끝점용 Defender 서비스에 올바르게 보고하고 있는지 확인합니다.
 
 1. 폴더 만들기: 'C:\test-MDATP-test'.
@@ -66,6 +67,7 @@ ms.locfileid: "59218282"
 명령 프롬프트 창이 자동으로 닫히게 됩니다. 성공하면 검색 테스트가 완료된 것으로 표시하고 약 10분 후 온보드 장치에 대한 새 경고가 포털에 표시됩니다.
 
 ## <a name="related-topics"></a>관련 항목
+
 - [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
 - [서버 온보드](configure-server-endpoints.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)

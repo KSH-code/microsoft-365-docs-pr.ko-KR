@@ -15,12 +15,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.date: 08/05/2021
-ms.openlocfilehash: 937ca4baefe4456edb97bac7f5cfc56d346c08bb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2406dc875fce48e3af21258b5152fef6603cd923
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213602"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59355423"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Windows Server의 Microsoft Defender 바이러스 백신
 
@@ -128,16 +128,13 @@ sc query Windefend
 
 기본적으로 Windows Server 2019 또는 Windows 업데이트는 자동으로 다운로드하여 설치하지 Windows Server 2016. 다음 방법 중 하나를 사용하여 이 구성을 변경할 수 있습니다.
 
-<br>
-
-****
+<br/><br/>
 
 |방법|설명|
 |---|---|
 |**Windows 업데이트**|**업데이트를 자동으로 설치하면** 보안 인텔리전스 업데이트를 포함하여 모든 Windows Defender 설치됩니다. <p> **업데이트를 다운로드하지만** 설치할지 여부를 선택할 수 Windows Defender 보안 인텔리전스 업데이트를 자동으로 다운로드하고 설치할 수 있지만 다른 업데이트는 자동으로 설치되지 않습니다.|
 |**그룹 정책**|관리 **템플릿\Windows 구성 요소\Windows** 업데이트\자동 업데이트 구성 경로의 그룹 정책에서 사용할 수 있는 설정을 사용하여 Windows 업데이트를 설정하고 관리할 수 있습니다.|
 |**AUOptions** 레지스트리 키|다음 두 값을 사용하면 Windows 업데이트에서 보안 인텔리전스 업데이트를 자동으로 다운로드하여 설치할 수 있습니다. <p> **4**  -  **자동으로 업데이트를 설치합니다.** 이 값을 설정하면 보안 인텔리전스 업데이트를 포함하여 모든 Windows Defender 자동으로 설치됩니다. <p> **3**  -  **업데이트를 다운로드하지만 설치할지 여부를 선택할 수 있습니다.** 이 값을 Windows Defender 보안 인텔리전스 업데이트를 자동으로 다운로드하여 설치할 수 있지만 다른 업데이트는 자동으로 설치되지 않습니다.|
-|
 
 맬웨어로부터 보호를 유지하려면 다음 서비스를 사용하도록 설정하는 것이 좋습니다.
 
