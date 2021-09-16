@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2a0dfd562416ba4501104f9c015bb60d75140d28
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a5fb39cd97aee44edfd774c2c79080f3adaf9da2
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213495"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400369"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -37,6 +37,7 @@ ms.locfileid: "59213495"
 장치에 서비스를 온보드하기 위한 몇 가지 최소 요구 사항이 있습니다. 서비스에 장치를 온보드하기 위한 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 자세히 알아보습니다.
 
 > [!TIP]
+>
 > - 이 문서에서는 끝점 계획 2용 Microsoft Defender의 최소 요구 사항에 대해 설명합니다. Endpoint 요금제 1용 Defender(미리 보기)에 대한 정보를 찾고 있는 경우 [Endpoint 요금제 1(미리 보기)에](mde-p1-setup-configuration.md#review-the-requirements)대한 요구 사항을 참조하세요.
 > - Endpoint용 Defender: [Endpoint용 Defender Tech](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced)Community.
 > - Endpoint용 Defender는 최근 MITRE 평가에서 업계를 선도하는 광학 및 감지 기능을 보여 주었다. 읽기: [MITRE ATT&CK 기반 평가의 인사이트](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
@@ -66,16 +67,14 @@ ms.locfileid: "59213495"
 > [!NOTE]
 > 고객은 다음 사용자 라이선스 중 하나 이상에 대해 최소 50개 이상의 라이선스를 합한 경우 서버용 끝점용 Microsoft Defender에 대한 서버 라이선스(대상 서버당 OSE(운영 체제 환경))를 취득할 수 있습니다.
 >
-> * 엔드포인트용 Microsoft Defender
-> * Windows E5/A5
-> * Microsoft 365 E5/A5
-> * Microsoft 365 E5/A5 보안
+> - 엔드포인트용 Microsoft Defender
+> - Windows E5/A5
+> - Microsoft 365 E5/A5
+> - Microsoft 365 E5/A5 보안
 
 자세한 라이선스 정보는 제품 사용권 사이트를 참조하고 계정 팀과 함께 사용 약관에 대해 자세히 알아보는 방법을 참조하세요. [](https://www.microsoft.com/licensing/terms/)
 
 Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교를 [Windows 10 참조하세요.](https://www.microsoft.com/windowsforbusiness/compare)
-
-
 
 ## <a name="browser-requirements"></a>브라우저 요구 사항
 
@@ -86,7 +85,6 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 
 > [!NOTE]
 > 다른 브라우저가 작동할 수 있는 반면 언급된 브라우저는 지원되는 브라우저입니다.
-
 
 ## <a name="hardware-and-software-requirements"></a>하드웨어 및 소프트웨어 요구 사항
 
@@ -120,7 +118,6 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 >
 > 가상 환경의 경우 LTSC 2019 Windows 10 Enterprise 사용하는 것이 좋습니다.
 
-
 ### <a name="other-supported-operating-systems"></a>기타 지원되는 운영 체제
 
 - [Android](microsoft-defender-endpoint-android.md)
@@ -131,16 +128,14 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 > [!NOTE]
 > 통합을 위해 Android, iOS 및 macOS의 Linux 배포 및 버전이 Endpoint용 Defender와 호환되는지 확인해야 합니다.
 
-
-
 ### <a name="network-and-data-storage-and-configuration-requirements"></a>네트워크 및 데이터 저장소 및 구성 요구 사항
 
 온보딩 마법사를 처음 실행할 때 끝점 관련 정보에 대한 Microsoft Defender가 저장되는 위치(유럽 연합, 영국 또는 미국 데이터 센터)를 선택해야 합니다.
 
 > [!NOTE]
+>
 > - 처음 설치한 후 데이터 저장소 위치를 변경할 수 없습니다.
 > - Microsoft에서 데이터를 저장하는 위치 및 방법에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 보호를 위한 [Microsoft Defender를](data-storage-privacy.md) 검토하세요.
-
 
 ### <a name="diagnostic-data-settings"></a>진단 데이터 설정
 
@@ -150,13 +145,11 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 조직의 모든 장치에서 진단 데이터 서비스가 사용하도록 설정되어 있는지 확인합니다.
 기본적으로 이 서비스는 사용하도록 설정되어 있습니다. 센서 데이터를 얻을 수 있도록 하는 것이 좋습니다.
 
-**명령줄을 사용하여 진단** 데이터 Windows 10 시작 유형을 확인할 수 있습니다.
+#### <a name="use-the-command-line-to-check-the-windows-10-diagnostic-data-service-startup-type"></a>명령줄을 사용하여 진단 데이터 Windows 10 시작 유형 확인
 
 1. 디바이스에서 상승된 명령줄 프롬프트를 니다.
-
-   1.  **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
-
-   1.  **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
+   1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
+   2. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
 2. 다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
 
@@ -168,30 +161,25 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 
    ![diagtrack에 대한 sc 쿼리 명령의 결과입니다.](images/windefatp-sc-qc-diagtrack.png)
 
-
 서비스가 에 로 설정되어 있지 않은  경우 START_TYPE 자동으로 시작 **AUTO_START.**
 
+#### <a name="use-the-command-line-to-set-the-windows-10-diagnostic-data-service-to-automatically-start"></a>명령줄을 사용하여 Windows 10 진단 데이터 서비스가 자동으로 시작될 수 있도록 설정
 
-**명령줄을 사용하여 Windows 10 진단 데이터 서비스가 자동으로 시작될 수 있도록 합니다.**
-
-1.  끝점에서 상승된 명령줄 프롬프트를 여는 경우:
-
+1. 끝점에서 상승된 명령줄 프롬프트를 여는 경우:
     1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
+    2. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
-    1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
-
-2.  다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
+2. 다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
 
     ```console
     sc config diagtrack start=auto
     ```
 
-3.  성공 메시지가 표시됩니다. 다음 명령을 입력하여 변경을 확인하고 **Enter를 누르고 :**
+3. 성공 메시지가 표시됩니다. 다음 명령을 입력하여 변경을 확인하고 **Enter를 누르고 :**
 
     ```console
     sc qc diagtrack
     ```
-
 
 #### <a name="internet-connectivity"></a>인터넷 연결
 
@@ -202,7 +190,6 @@ Endpoint용 Defender 센서는 일별 평균 대역폭 5MB를 사용하여 Endpo
 추가 프록시 구성 설정에 대한 자세한 내용은 장치 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](configure-proxy-internet.md)
 
 장치를 온보드하기 전에 진단 데이터 서비스를 사용하도록 설정해야 합니다. 이 서비스는 기본적으로 Windows 10.
-
 
 ## <a name="microsoft-defender-antivirus-configuration-requirement"></a>Microsoft Defender 바이러스 백신 구성 요구 사항
 
@@ -219,13 +206,11 @@ Endpoint용 Defender 센서는 일별 평균 대역폭 5MB를 사용하여 Endpo
 > [!NOTE]
 > 일반 그룹 정책은 변조 방지에 적용되지 않습니다. 변조 방지가 Microsoft Defender 바이러스 백신 설정에 대한 변경 내용은 무시됩니다.
 
-
 ## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>Microsoft Defender 바이러스 백신 ELAM(맬웨어 방지 조기 실행) 드라이버를 사용하도록 설정
 
 장치에서 기본 Microsoft Defender 바이러스 백신 맬웨어 방지 제품으로 실행 중인 경우 Endpoint용 Defender 에이전트가 성공적으로 온보딩됩니다.
 
 타사 맬웨어 방지 클라이언트를 실행하고 모바일 장치 관리 솔루션 또는 Microsoft Endpoint Manager(현재 분기)를 사용하는 경우 ELAM Microsoft Defender 바이러스 백신 사용하도록 설정해야 합니다. 자세한 내용은 [정책에 Microsoft Defender 바이러스 백신 사용하지 않도록 설정되어 있지 않은지 확인을 참조하세요.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
-
 
 ## <a name="related-topics"></a>관련 항목
 

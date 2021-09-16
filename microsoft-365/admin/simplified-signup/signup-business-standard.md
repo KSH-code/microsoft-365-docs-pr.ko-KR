@@ -14,12 +14,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: 구매 Microsoft 365 Business Standard 조직을 설정하는 방법을 제공합니다.
-ms.openlocfilehash: 7c5489a674145052eb40c533595a245a1d785247
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 498906bf227aa4cfd6a964212bb9553932d32602
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186628"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401845"
 ---
 # <a name="sign-up-for-a-microsoft-365-business-standard-subscription"></a>Microsoft 365 Business Standard 구독 신청
 
@@ -94,7 +94,7 @@ ms.locfileid: "59186628"
 > [!IMPORTANT]
 > 다음 단계에 따라 구매할 Microsoft 365 앱 있습니다. 자세한 내용은 Set [up 비즈니스용 Microsoft 365 앱](../setup/setup-apps-for-business.md) after you purchase 비즈니스용 Microsoft 365 앱.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="what-is-a-business-email-and-what-are-the-advantages-to-setting-one-up"></a>비즈니스 전자 메일이란 무엇일까요? 설정 시의 이점은 무엇입니까?
 
@@ -124,7 +124,7 @@ ms.locfileid: "59186628"
 
 되풀이 청구가 켜져 있으면 구독은 구독한 날에 매년 계속해서 청구됩니다. 되풀이 청구가 활성 상태인 경우 관리 센터에서 끄거나 다시 켤 수 있습니다. 자세한 내용은 [Turn recurring billing off or on 을(를) 자세히 알아보고,](../../commerce/subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on)
 
-### <a name="what-if-i-want-to-change-my-business-name-in-future-how-do-i-do-that"></a>향후에 내 비즈니스 이름을 변경하려는 경우 어떻게 하나요? 어떻게 해야 합니까?
+### <a name="what-do-i-do-if-i-want-to-change-my-business-name"></a>내 비즈니스 이름을 변경하려는 경우 어떻게 해야 하나요?
 
 비즈니스 이름을 변경할 수 있는 중소기업 지원 전문가에게 문의합니다. 자세한 내용은 [지원 을(를) 통해 자세히 알아보아야 합니다.](../../business-video/get-help-support.md)
 

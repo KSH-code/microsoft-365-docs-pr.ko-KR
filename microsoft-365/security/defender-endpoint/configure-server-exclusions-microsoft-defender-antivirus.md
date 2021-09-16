@@ -16,12 +16,12 @@ ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
 ms.date: 08/17/2021
-ms.openlocfilehash: d50146c3689f7b19fc6b546478bc0b01ada1fc30
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 31a5eb4e322a4ed897f0bcc59b6dffe1f53da43d
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213782"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401965"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성
 
@@ -39,16 +39,13 @@ ms.locfileid: "59213782"
 
 이 문서에는 다음과 같은 섹션이 포함되어 있습니다.
 
-<br>
-
-****
+<br/><br/>
 
 |섹션|설명|
 |---|---|
 |[Windows Server 2016 이상에서 자동 제외](#automatic-exclusions-on-windows-server-2016-or-later)|자동 제외의 두 가지 주요 유형에 대해 설명하고 자동 제외에 대한 자세한 목록을 포함합니다.|
 |[자동 제외 옵트아웃](#opting-out-of-automatic-exclusions)|자동 제외를 옵트아웃하는 방법을 설명하는 중요한 고려 사항 및 절차가 포함되어 있습니다.|
 |[사용자 지정 제외 정의](#defining-custom-exclusions)|사용자 지정 제외를 정의하는 방법 정보에 대한 링크를 제공합니다.|
-|
 
 > [!IMPORTANT]
 > 다음 점에 유의하십시오.
@@ -167,16 +164,13 @@ Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습�
 
 다음 표에는 Hyper-V 설치할 때 자동으로 배달되는 파일 형식 제외, 폴더 제외 및 프로세스 제외가 나열되어 있습니다.
 
-<br>
-
-****
+<br><br/>
 
 |제외 유형|구체적|
 |---|---|
 |파일 형식|`*.vhd` <br/> `*.vhdx` <br/> `*.avhd` <br/> `*.avhdx` <br/> `*.vsv` <br/> `*.iso` <br/> `*.rct` <br/> `*.vmcx` <br/> `*.vmrs`|
 |폴더|`%ProgramData%\Microsoft\Windows\Hyper-V` <br/> `%ProgramFiles%\Hyper-V` <br/> `%SystemDrive%\ProgramData\Microsoft\Windows\Hyper-V\Snapshots` <br/> `%Public%\Documents\Hyper-V\Virtual Hard Disks`|
 |프로세스|`%systemroot%\System32\Vmms.exe` <br/> `%systemroot%\System32\Vmwp.exe`|
-|
 
 ##### <a name="sysvol-files"></a>SYSVOL 파일
 

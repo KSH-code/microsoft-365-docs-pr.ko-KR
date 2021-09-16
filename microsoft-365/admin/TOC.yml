@@ -8,6 +8,8 @@
           href: admin-overview/sign-up-for-office-365.md
         - name: Microsoft 365 체험 또는 구매
           href: ../commerce/try-or-buy-microsoft-365.md
+        - name: 비즈니스용 Microsoft 365 설정 계획
+          href: setup/plan-your-setup.md
         - name: Microsoft 365 Business Premium에 가입
           items:
             - name: 등록
@@ -19,7 +21,7 @@
             - name: Microsoft 365 Business Standard에 등록
               href: ../admin/simplified-signup/signup-business-standard.md
             - name: Microsoft 365 비즈니스 표준 설정
-              href: ../admin/simplified-signup/signup-business-standard.md
+              href: ../admin/setup/setup-business-standard.md
             - name: Microsoft 365 Business Standard에 사용자 초대
               href: ../admin/simplified-signup/admin-invite-business-standard.md
             - name: Microsoft 365 Business Standard에 대한 전자 메일 초대 수락
@@ -28,8 +30,6 @@
               href: ../admin/simplified-signup/user-invite-msa-nodomain-join.md
             - name: 내 Microsoft 365 Business Standard 구독으로 데이터 마이그레이션
               href: ../admin/simplified-signup/migrate-data-business-standard.md
-        - name: 설정 계획
-          href: setup/plan-your-setup.md
         - name: Windows 365 Business 플랜
           items:
             - name: Windows 365 Business 및 Cloud PC 시작
@@ -38,7 +38,7 @@
               href: setup/windows-365-business-sizing.md
             - name: Windows 365 클라우드 PC 설치 문제 해결
               href: setup/troubleshoot-windows-365-business.md
-        - name: 둘러보기 설정을 사용하여 조직 설정
+        - name: 비즈니스 조직을 위한 Microsoft 365 설정
           items:
             - name: Microsoft 365 Business Basic
               href: setup/setup-business-basic.md

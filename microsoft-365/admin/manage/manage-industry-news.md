@@ -17,14 +17,17 @@ ms.custom:
 search.appverid:
 - MET150
 description: 사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하고, 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 47c6f16efedbc3c5629bfe81e85cc6df66f51de2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e3c2e0526074571ffbe976c98fe57069adcdb9ab
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187179"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400585"
 ---
 # <a name="manage-industry-news"></a>산업 뉴스 관리
+
+> [!NOTE] 
+> Bing 뉴스 & 산업 업데이트는 현재 영어 전용 시장에서 사용할 수 있습니다.
 
 사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하려면 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정하세요. 또한 일별 산업 업데이트 전자 메일을 사용하도록 설정하고 새 탭 페이지에서 Bing 설정을 관리할 Microsoft Edge 있습니다.
 

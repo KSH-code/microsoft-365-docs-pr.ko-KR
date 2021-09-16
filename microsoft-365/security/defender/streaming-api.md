@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 431fd1271bf826ded53f88818741c5bbaa61e9b5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0b8912ee40c090522a0b6228643f37b161dbde14
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189189"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401233"
 ---
 # <a name="streaming-api"></a>스트리밍 API
 
@@ -44,6 +44,7 @@ Microsoft 365 Defender 고급 헌팅을 [](../defender/advanced-hunting-overview
 :---|:---
 [Azure 이벤트 허브로 이벤트 스트림](streaming-api-event-hub.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 고급 헌팅을 이벤트 Microsoft 365 Defender 스트리밍하도록 구성합니다. [](../defender/advanced-hunting-overview.md)
 [Azure 저장소 계정으로 이벤트 스트림](streaming-api-storage.md)| 테넌트에서 스트리밍 API를 사용하도록 설정하는 방법을 알아보고 Azure Microsoft 365 Defender 고급 [헌팅을](advanced-hunting-overview.md) 스트리밍하도록 구성합니다.
+[지원되는 이벤트 유형](supported-event-types.md) | 스트리밍 API에서 지원하는 고급 헌팅 이벤트 유형에 대해 자세히 알아보습니다.
 
 
 ## <a name="related-topics"></a>관련 항목

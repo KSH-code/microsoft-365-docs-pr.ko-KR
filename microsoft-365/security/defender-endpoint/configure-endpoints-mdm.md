@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 145a22d0fdc37072f6f3047d3694e770bf9fb01a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 192c3231a44f2f1c4358a930fed8884bb00da093
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212312"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59402037"
 ---
 # <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>모바일 Windows 10 관리 도구를 사용하여 디바이스 온보드
 
@@ -45,9 +45,7 @@ MDM과 함께 MDM을 사용하도록 설정하는 Microsoft Intune 장치 [등�
 
 ## <a name="onboard-devices-using-microsoft-intune"></a>디바이스를 사용하여 장치 온보 Microsoft Intune
 
-[![온보딩 장치를 사용하여 끝점용 Defender에 대한 온보딩 장치를 표시하는 PDF Microsoft Intune.](images/onboard-intune.png)](images/onboard-intune-big.png#lightbox)
-
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
+[PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
 [Intune의](/intune/advanced-threat-protection)지침을 따릅니다.
 
@@ -59,7 +57,7 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
 > - 진단 데이터 보고 빈도 구성은 버전 1703의 Windows 10 사용할 수 있습니다.
 
 
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) Microsoft Defender for Endpoint 배포에서 다양한 경로를 확인할 수 있습니다.
+[PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) Microsoft Defender for Endpoint 배포에서 다양한 경로를 확인할 수 있습니다.
 
 ## <a name="run-a-detection-test-to-verify-onboarding"></a>검색 테스트를 실행하여 온보더링 확인
 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)

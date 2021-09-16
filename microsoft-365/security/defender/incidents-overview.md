@@ -23,11 +23,11 @@ search.appverid:
 - MET150
 ms.technology: m365d
 ms.openlocfilehash: 824d32b07acbba0d19a5f2afdafffcbba53baeeb
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59357584"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401041"
 ---
 # <a name="incident-response-with-microsoft-365-defender"></a>인시던트에 대한 Microsoft 365 Defender
 

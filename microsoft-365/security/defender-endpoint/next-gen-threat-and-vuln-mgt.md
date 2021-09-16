@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: 06fdea1c4d84ca4cd23aeb7e715c0087f65275b1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f909d39fee3eb55caaa47ef6a636d33ff4c7f025
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166946"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400177"
 ---
 # <a name="threat-and-vulnerability-management"></a>위협 및 취약성 관리
 
@@ -31,7 +31,6 @@ ms.locfileid: "59166946"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 끝점 약점을 효과적으로 식별, 평가 및 수정하는 것은 건전한 보안 프로그램을 실행하고 조직의 위험을 줄이는 데 중요합니다. 위협과 취약점 관리는 조직 노출을 줄이고, 엔드포인트 노출 영역을 강화하며, 조직 복원력을 높이는 인프라 역할을 합니다.
@@ -40,7 +39,7 @@ ms.locfileid: "59166946"
 
 이 비디오를 시청하여 자세한 위협 및 취약성 관리.
 
->[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mLsn]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mLsn]
 
 ## <a name="bridging-the-workflow-gaps"></a>워크플로 간격 브리그링
 
@@ -79,18 +78,23 @@ ms.locfileid: "59166946"
 
 이 비디오를 시청하여 포괄적 워크스루를 위협 및 취약성 관리.
 
->[!VIDEO https://aka.ms/MDATP-TVM-Interactive-Guide]
+> [!VIDEO https://aka.ms/MDATP-TVM-Interactive-Guide]
 
 ## <a name="navigation-pane"></a>탐색 창 
 
-영역 | 설명
-:---|:---
-**대시보드**   | 조직 노출 점수, 장치에 대한 Microsoft 보안 점수, 장치 노출 분포, 최상위 보안 권장 사항, 주요 취약한 소프트웨어, 최상위 수정 활동 및 노출된 상위 장치 데이터에 대한 높은 수준의 보기를 얻습니다.
-[**보안 권장 사항**](tvm-security-recommendation.md) | 보안 권장 사항 및 관련 위협 정보 목록을 참조하세요. 목록에서 항목을 선택하면 취약성 세부 정보, 소프트웨어 페이지를 여는 링크, 수정 및 예외 옵션이 있는 플라이아웃 패널이 열립니다. 디바이스가 디바이스를 통해 가입되어 있는 경우 끝점용 Defender에서 Intune 연결을 Azure Active Directory Intune에서 티켓을 열 수도 있습니다.
-[**수정**](tvm-remediation.md) | 만든 재구성 활동 및 권장 예외를 참조합니다.
-[**소프트웨어 인벤토리**](tvm-software-inventory.md) | 약점 및 위협 정보와 함께 조직의 취약한 소프트웨어 목록을 참조하세요.
-[**약점**](tvm-weaknesses.md) | 조직의 일반적인 취약성 및 노출(CV) 목록을 참조하세요.
-[**이벤트 타임라인**](threat-and-vuln-mgt-event-timeline.md) | 조직의 위험에 영향을 줄 수 있는 이벤트를 하세요.
+<br>
+
+****
+
+|영역|설명|
+|---|---|
+|**대시보드**|조직 노출 점수, 장치에 대한 Microsoft 보안 점수, 장치 노출 분포, 최상위 보안 권장 사항, 주요 취약한 소프트웨어, 최상위 수정 활동 및 노출된 상위 장치 데이터에 대한 높은 수준의 보기를 얻습니다.|
+|[**보안 권장 사항**](tvm-security-recommendation.md)|보안 권장 사항 및 관련 위협 정보 목록을 참조하세요. 목록에서 항목을 선택하면 취약성 세부 정보, 소프트웨어 페이지를 여는 링크, 수정 및 예외 옵션이 있는 플라이아웃 패널이 열립니다. 디바이스가 디바이스를 통해 가입되어 있는 경우 끝점용 Defender에서 Intune 연결을 Azure Active Directory Intune에서 티켓을 열 수도 있습니다.|
+|[**수정**](tvm-remediation.md)|만든 재구성 활동 및 권장 예외를 참조합니다.|
+|[**소프트웨어 인벤토리**](tvm-software-inventory.md)|약점 및 위협 정보와 함께 조직의 취약한 소프트웨어 목록을 참조하세요.|
+|[**약점**](tvm-weaknesses.md)|조직의 일반적인 취약성 및 노출(CV) 목록을 참조하세요.|
+|[**이벤트 타임라인**](threat-and-vuln-mgt-event-timeline.md)|조직의 위험에 영향을 줄 수 있는 이벤트를 하세요.|
+|||
 
 ## <a name="apis"></a>API
 

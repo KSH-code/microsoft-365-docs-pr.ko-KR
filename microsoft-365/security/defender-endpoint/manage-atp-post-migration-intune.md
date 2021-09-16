@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 07/29/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 4891505408a3f831e6ecc0c2cecb0c67fa52e49f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 90cc05e801198ad2df8516fb2d9aa1f425f943c9
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220459"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59402193"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Intune을 사용하여 끝점용 Microsoft Defender 관리
 
@@ -61,9 +61,7 @@ ms.locfileid: "59220459"
 
 다음 표에는 Intune을 사용하여 끝점용 Microsoft Defender를 구성하기 위해 수행할 수 있는 다양한 작업이 나열됩니다. 모든 것을 한 번만 구성할 수 있습니다. 작업을 선택하고 해당 리소스를 읽은 다음 계속 진행합니다.
 
-<br>
-
-****
+<br/><br/>
 
 |작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
@@ -82,7 +80,6 @@ ms.locfileid: "59220459"
 |자격 증명 도난 공격으로부터 보호하도록 **Microsoft Defender Credential Guard** 구성|Windows 10, Windows Server 2016 및 Windows Server 2019에 대한 자세한 내용은 [Endpoint protection: Microsoft Defender Credential Guard를 참조합니다.](/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-credential-guard) <p> Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8.1 및 Windows Server 2012 R2의 경우 [PtH(Pass-the-Hash)](https://www.microsoft.com/download/details.aspx?id=36036) 공격 및 기타 자격 증명 도난 완화, 버전 1 및 2를 참조합니다.|
 |조직의 장치에서 앱을 감사할지 또는 신뢰할지 여부를 선택하도록 **Microsoft Defender** 응용 프로그램 제어 구성 <p> *Microsoft Defender 응용 프로그램 제어를 [AppLocker라고도 합니다.](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)*|[Microsoft Defender 응용 프로그램 제어 정책을 사용하여 Microsoft Intune](/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune) <p> [끝점 보호: Microsoft Defender 응용 프로그램 제어](/mem/intune/protect/endpoint-protection-windows-10#microsoft-defender-application-control) <p> [AppLocker CSP](/windows/client-management/mdm/applocker-csp)|
 |**허가되지 않은** 주변 장치의 위협이 장치를 해치지 않도록 장치 제어 및 USB 주변 장치 액세스를 구성합니다.|[Endpoint 및 Intune용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어 제어](/windows/security/threat-protection/device-control/control-usb-devices-using-intune)|
-|||
 
 ## <a name="configure-your-microsoft-365-defender-portal"></a>사용자 Microsoft 365 Defender 구성
 

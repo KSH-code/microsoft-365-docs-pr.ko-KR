@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: 6d4c63bbf13ec4149a9250b3b4240926ece0d2c4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e61e525f23cf1e763c64fae1828e7d505d51a5cb
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221716"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59402001"
 ---
 # <a name="onboard-the-windows-10-devices-using-configuration-manager"></a>Configuration Manager를 Windows 10 장치 온보드
 
@@ -59,10 +59,7 @@ ms.locfileid: "59221716"
 
 ### <a name="onboard-devices-using-system-center-configuration-manager"></a>장치를 사용하여 온보드 System Center Configuration Manager
 
-
-[![다양한 배포 경로를 보여 주며 PDF의 이미지입니다.](images/onboard-config-mgr.png)](images/onboard-config-mgr.png#lightbox)
-
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) Microsoft Defender for Endpoint 배포에서 다양한 경로를 확인할 수 있습니다.
+[PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) Microsoft Defender for Endpoint 배포에서 다양한 경로를 확인할 수 있습니다.
 
 1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(WindowsDefenderATPOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
     1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.

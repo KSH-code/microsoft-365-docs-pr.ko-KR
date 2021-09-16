@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 80a3d5bee2f26e708969832c67982f679b95c0b4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b092db48a27407bd5e3ef3fdfd6c6eda02ef0c34
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222836"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401941"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 보호
 
@@ -98,9 +98,7 @@ Microsoft Defender for Endpoint의 장치 제어 이동식 저장소 보호는 �
 
 Microsoft Defender for Endpoint Device Control 이동식 Storage 보호를 사용하면 아래 표에 설명된 속성에 따라 이동식 저장소 액세스를 제한할 수 있습니다.
 
-<br>
-
-****
+<br/><br/>
 
 |속성 이름|적용 가능한 정책|운영 체제에 적용|설명|
 |---|---|---|---|
@@ -112,4 +110,3 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호를 사�
 |이름|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows|장치에 연결된 문자열(예: 일반 플래시 디스크 USB 장치)|
 |공급업체 ID/제품 ID|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows <p> macOS|공급업체 ID는 USB 위원회가 공급업체에 할당하는 4자리 공급업체 코드입니다. 제품 ID는 공급업체가 장치에 할당하는 4자리 제품 코드입니다. 와일드카드를 지원합니다.|
 |Serial NumberId|[이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)|Windows <p> macOS |예: <SerialNumberId>002324B534BCB431B000058A</SerialNumberId>|
-|

@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: 온라인 데이터 손실 방지 정책을 계획하고 Exchange DLP로 마이그레이션하는 Microsoft 365 대해 자세히 알아보습니다.
 ms.openlocfilehash: 2cf06b7aee9adb63ff85259427bcac818807cc7c
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59357472"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400525"
 ---
 # <a name="migrate-exchange-online-data-loss-prevention-policies-to-compliance-center"></a>데이터 Exchange Online 방지 정책을 준수 센터로 마이그레이션
 

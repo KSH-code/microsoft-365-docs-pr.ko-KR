@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7665fbd52e45636988b375e4b811e3f93d8f3981
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8cf8b1e049a96e7a03fb4df0199294afe193a660
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185891"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59399844"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -39,12 +39,14 @@ Endpoint용 Defender 센서를 사용하려면 Microsoft WinHTTP(Windows HTTP)�
 포함된 Endpoint용 Defender 센서는 LocalSystem 계정을 사용하여 시스템 컨텍스트에서 실행됩니다. 센서는 Microsoft Windows HTTP 서비스(WinHTTP)를 사용하여 Endpoint 클라우드 서비스용 Defender와 통신할 수 있도록 합니다.
 
 > [!TIP]
-> 전달 프록시를 인터넷 게이트웨이로 사용하는 조직의 경우 네트워크 보호를 사용하여 프록시 뒤에서 조사할 수 있습니다. 자세한 내용은 [전달 프록시 뒤에서 발생하는 연결 이벤트 조사](investigate-behind-proxy.md)를 참조하십시오.
+> 인터넷에 대한 게이트웨이로 전방 Proxies를 사용하는 조직의 경우 네트워크 보호를 사용하여 전방 proxies 뒤에 발생하는 연결 이벤트를 [조사할 수 있습니다.](investigate-behind-proxy.md)
 
-WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 설정과는 독립적이며 다음 검색 방법을 사용하여 프록시 서버를 검색할 수만 있습니다.
+WinHTTP 구성 설정은 WinINet(Windows Internet) 검색 프록시 설정과는 독립적이며 다음 검색 방법을 사용하여 프록시 서버를 검색할 수만 있습니다.
 
 - 자동 검색 방법:
+
   - 투명한 프록시
+  
   - WPAD(웹 프록시 자동 검색) 프로토콜
 
     > [!NOTE]
@@ -53,11 +55,12 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 �
 - 수동 정적 프록시 구성:
 
   - 레지스트리 기반 구성
+  
   - netsh 명령을 사용하여 구성된 WinHTTP: 안정적인 토폴로지의 데스크톱에만 적합합니다(예: 같은 프록시 뒤에 있는 회사 네트워크의 데스크톱).
 
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>레지스트리 기반 정적 프록시를 사용하여 프록시 서버를 수동으로 구성합니다.
 
-컴퓨터가 인터넷에 연결할 수 없는 경우 Endpoint 센서용 Defender만 진단 데이터를 보고하고 Endpoint 서비스용 Defender와 통신할 수 있도록 레지스트리 기반 정적 프록시를 구성합니다.
+컴퓨터가 인터넷에 연결할 수 없는 경우 진단 데이터를 보고하고 끝점 서비스용 Defender와 통신하도록 끝점 검색 및 응답(EDR) 센서에 대한 Defender에 대한 레지스트리 기반 정적 프록시를 구성합니다.
 
 > [!NOTE]
 > Windows 10 또는 Windows Server 2019에서 이 옵션을 사용하는 경우 다음(이상) 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.
@@ -71,7 +74,7 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 �
 
 정적 프록시는 GP(그룹 정책)를 통해 구성할 수 있습니다. 그룹 정책은 다음에서 확인할 수 있습니다.
 
-- **관리 템플릿 > Windows 구성 요소 > 데이터 수집 및 미리 보기 빌드> 연결된 사용자 환경 및 원격 분석 서비스에 대한 인증된 프록시 사용 구성**
+- **관리 템플릿 > Windows** 구성 요소 > 데이터 수집 및 미리 보기 빌드 > 사용자 환경 및 원격 분석 서비스에 대해 인증된 프록시 사용 구성.
 
   사용으로 **설정하고** 인증된 프록시 사용 안 **을 선택합니다.**
 
@@ -83,17 +86,47 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 �
 
   ![그룹 정책 설정의 이미지 2.](images/atp-gpo-proxy2.png)
 
-  이 정책은 레지스트리 키 아래에 REG_SZ REG_DWORD 두 레지스트리 값을 REG_DWORD `TelemetryProxyServer` `DisableEnterpriseAuthProxy` 값으로 `HKLM\Software\Policies\Microsoft\Windows\DataCollection` 설정합니다.
 
-  레지스트리 값은 `TelemetryProxyServer` 다음 문자열 형식을 가합니다.
+| 그룹 정책 | 레지스트리 키 | 레지스트리 항목 | 값 |
+|:---|:---|:---|:---|
+| 연결된 사용자 환경 및 원격 분석 서비스에 대해 인증된 프록시 사용 구성 | `HKLM\Software\Policies\Microsoft\Windows\DataCollection` | `DisableEnterpriseAuthProxy` | 1(REG_DWORD) |
+| 연결된 사용자 환경 및 원격 분석 구성 | `HKLM\Software\Policies\Microsoft\Windows\DataCollection` | `TelemetryProxyServer` | ```http://servername or ip:port``` <br> <br> 예: ```http://10.0.0.6:8080``` (REG_SZ) |
 
-  ```text
-  <server name or ip>:<port>
-  ```
+## <a name="configure-a-static-proxy-for-microsoft-defender-antivirus"></a>사용자에 대한 정적 프록시 Microsoft Defender 바이러스 백신
 
-  예: 10.0.0.6:8080
+Microsoft Defender 바이러스 백신 클라우드 [제공](cloud-protection-microsoft-defender-antivirus.md) 보호는 새로운 위협과 새로운 위협으로부터 거의 즉각적으로 자동화된 보호 기능을 제공합니다. Defender 바이러스 백신이 [](manage-indicators.md) 활성 맬웨어 방지 솔루션인 경우 사용자 지정 표시기에는 연결이 필요합니다. 또한 [EDR](edr-in-block-mode.md) Microsoft가 아닌 솔루션을 기본 맬웨어 방지 솔루션으로 사용하는 경우에도 차단 모드로 전환할 수 있습니다.
 
-  레지스트리 값 `DisableEnterpriseAuthProxy`을(를) 1로 설정해야 합니다.
+여기에서 찾은 그룹 정책을 사용하여 정적 프록시를 구성합니다.
+
+1. 관리 템플릿 > Windows 구성 요소 > Microsoft Defender 바이러스 백신 > 네트워크에 연결할 프록시 서버 정의 **를 정의합니다.** 
+
+2. 이 옵션을 **사용으로 설정하고** 프록시 서버를 정의합니다. URL에 1000만 http:// 있어야 https://. 지원되는 버전의 https:// 업데이트 관리를 [Microsoft Defender 바이러스 백신 참조하세요.](manage-updates-baselines-microsoft-defender-antivirus.md)
+
+   :::image type="content" source="images/proxy-server-mdav.png" alt-text="Microsoft Defender 바이러스 백신용 프록시 서버.":::
+
+3. 레지스트리 키 아래에서 정책은 레지스트리 값을 레지스트리 값으로  `HKLM\Software\Policies\Microsoft\Windows Defender`  `ProxyServer`   REG_SZ. 
+
+   레지스트리 값은  `ProxyServer`   다음 문자열 형식을 가합니다.
+
+    ```text
+    <server name or ip>:<port>
+
+    For example: http://10.0.0.6:8080
+    ```
+
+> [!NOTE]
+>
+> 탄력성 목적 및 클라우드 제공 보호의 실시간 특성을 위해 Microsoft Defender 바이러스 백신 마지막으로 알려진 작업 프록시를 캐시합니다. 보안 클라우드 연결이 끊어지기 때문에 프록시 솔루션에서 SSL 검사를 수행하지 않는지 확인합니다. 
+>
+> Microsoft Defender 바이러스 백신 업데이트 다운로드를 위해 Windows 또는 Microsoft 업데이트에 연결하는 데 정적 프록시를 사용하지 않습니다. 대신 업데이트 업데이트 또는 구성된 Windows 순서에 따라 구성된 내부 업데이트 원본을 사용하도록 구성된 경우 시스템 전체 [프록시를 사용합니다.](manage-protection-updates-microsoft-defender-antivirus.md) 
+>
+> 필요한 경우 관리 템플릿 > Windows 구성 요소> Microsoft Defender 바이러스 백신 > 여러 프록시가 있는 고급 구성을 설정해야 하는 경우 네트워크에 연결하기 위해 프록시 자동 구성 **정의(.pac)를** 사용할 수 **있습니다.** 관리 템플릿 > Windows 구성 요소 > Microsoft Defender 바이러스 백신 > 프록시 서버를 무시할 주소 정의를 사용하여 Microsoft Defender 바이러스 백신 해당 대상에 프록시 서버를 사용하지 못하게 할 수 있습니다. 
+>
+> Cmdlet과 함께 PowerShell을 사용하여 `Set-MpPreference` 다음 옵션을 구성할 수 있습니다. 
+>
+> - ProxyBypass 
+> - ProxyPacUrl 
+> - ProxyServer 
 
 ## <a name="configure-the-proxy-server-manually-using-netsh-command"></a>netsh 명령을 사용하여 수동으로 프록시 서버 구성
 
@@ -104,7 +137,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 > - 이는 Windows 서비스를 포함하여 기본 프록시로 WinHTTP를 사용하는 모든 응용 프로그램에 영향을 미칩니다.</br>
 > - 토폴로지(예: 사무실에서 집으로)를 변경하는 랩톱이 netsh로 오작동합니다. 레지스트리 기반 정적 프록시 구성을 사용합니다.
 
-1. 승격된 명령줄을 엽니다.
+1. 승격된 명령줄을 열기:
    1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
    1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
@@ -128,7 +161,7 @@ netsh winhttp reset proxy
 
 프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 통과하도록 허용하는 경우 다운로드 가능한 시트에 나열된 도메인을 허용된 도메인 목록에 추가합니다.
 
-다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 또는 해당 URL에 대한 허용 규칙을 만들어야 할 수도 있습니다. 
+다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인하거나  해당 URL에 대한 허용 규칙을 만들어야 할 수 있습니다.
 
 <br>
 
@@ -170,7 +203,7 @@ netsh winhttp reset proxy
 
 ## <a name="confirm-microsoft-monitoring-agent-mma-service-url-requirements"></a>MMA(Microsoft Monitoring Agent) 서비스 URL 요구 사항 확인 
 
-이전 버전의 MMA(Microsoft Monitoring Agent)를 사용할 때 특정 환경에 대한 와일드카드(*) 요구 사항을 제거하기 위해 다음 지침을 Windows.
+ 이전 버전의 MMA(Microsoft Monitoring Agent)를 사용할 때 특정 환경에 대한 와일드카드(*) 요구 사항을 Windows.
 
 1. MMA(Microsoft Monitoring Agent)를 통해 이전 운영 체제를 끝점용 Defender에 온보딩합니다(자세한 내용은 [Endpoint용 Defender](https://go.microsoft.com/fwlink/p/?linkid=2010326) 및 Windows 서버에 이전 버전의 Windows [온보딩을 참조하세요.](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016)
 
@@ -178,7 +211,7 @@ netsh winhttp reset proxy
 
 3. "C:\Program Files\Microsoft Monitoring Agent\Agent"에서 TestCloudConnection.exe 도구를 실행하여 연결의 유효성을 검사하고 특정 작업 영역의 필수 URL을 확인할 수 있습니다.
 
-4. Microsoft Defender for Endpoint URL 목록을 확인하여 해당 지역의 전체 요구 사항 목록을 확인합니다(서비스 URL 스프레드시트를 [참조하세요).](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
+4. Microsoft Defender for Endpoint URL 목록을 확인하여 해당 지역의 전체 요구 사항 목록을 확인합니다(서비스 URL 스프레드시트 [참조).](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 
     ![조직의 관리자 Windows PowerShell.](images/admin-powershell.png)
 
@@ -239,5 +272,7 @@ netsh winhttp reset proxy
 
 ## <a name="related-topics"></a>관련 항목
 
+- [Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)
+- [그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신](use-group-policy-microsoft-defender-antivirus.md)
 - [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

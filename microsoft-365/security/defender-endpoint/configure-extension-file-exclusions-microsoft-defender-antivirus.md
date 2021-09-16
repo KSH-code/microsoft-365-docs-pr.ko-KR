@@ -14,13 +14,13 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.date: 08/27/2021
-ms.openlocfilehash: 76508ef21b60d4376512f08a07925eca109f68e2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.date: 09/14/2021
+ms.openlocfilehash: 5dfa84335e9f31e531759b209ac3c2491c657fe0
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221695"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59399805"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -51,11 +51,8 @@ ms.locfileid: "59221695"
 >
 > 자동 제외는 Windows Server 2016 이상에만 적용됩니다. 이러한 제외는 Windows 보안 PowerShell에서 표시되지 않습니다.
 
-다음 표에는 파일 확장명 및 폴더 위치에 따라 제외의 몇 가지 예가 나열됩니다.
-
-<br>
-
-****
+다음 표에는 파일 확장명 및 폴더 위치에 따라 제외의 몇 가지 예가 나열됩니다. 
+<br/><br/>
 
 |제외|예제|제외 목록|
 |---|---|---|
@@ -203,7 +200,7 @@ ExclusionPath
     
 다음 표에서는 와일드카드를 사용하는 방법을 설명하고 몇 가지 예를 제공합니다.
 
-<br>
+<br/><br/>
 
 |와일드카드|예제|
 |---|---|
@@ -222,8 +219,7 @@ ExclusionPath
 
 ### <a name="system-environment-variables"></a>시스템 환경 변수
 
-다음 표에서는 시스템 계정 환경 변수를 나열하고 설명합니다.
-
+다음 표에서는 시스템 계정 환경 변수를 나열하고 설명합니다.<br/><br/>
     
 |이 시스템 환경 변수...|리디렉션|
 |---|---|

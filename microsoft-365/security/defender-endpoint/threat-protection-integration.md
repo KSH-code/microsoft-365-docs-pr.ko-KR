@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: 8f842c46f87e51d026f1e1793e3cc73d25b0739c
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59357043"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400645"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>끝점용 Microsoft Defender 및 기타 Microsoft 솔루션
 
@@ -69,7 +69,7 @@ Microsoft Cloud App Security Microsoft Defender for Endpoint 신호를 활용하
 > [!NOTE]
 > 데이터 Office 365 지난 30일 이내에 이벤트에 대해 표시됩니다. 경고의 경우 첫 번째 Office 365 데이터를 위한 Defender가 표시됩니다. 그런 다음에는 Defender에서 더 이상 데이터를 사용할 수 Office 365.
 
-### <a name="skype-for-business"></a>Skype for Business
+### <a name="skype-for-business"></a>비즈니스용 Skype
 
 비즈니스용 Skype 통합을 통해 분석가가 포털에서 간단한 단추를 통해 잠재적으로 손상된 사용자 또는 장치 소유자와 통신할 수 있습니다.
 

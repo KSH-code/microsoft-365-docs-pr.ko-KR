@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5a38f1347c959cd52e0ae393fa60b4e9c371eb2a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2631d68077a51df1ae3e2e7c6f4abd3a246c5d8c
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220351"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401617"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 헌팅 이벤트를 사용자 계정으로 스트리밍하도록 끝점에 대한 Microsoft Defender Storage 구성
 
@@ -52,7 +52,7 @@ ms.locfileid: "59220351"
 
 5. 에 **전달 이벤트를 Azure Storage.**
 
-6. 계정 Storage **ID를 입력합니다.** 계정 리소스 ID를 [Storage하려면 Azure](https://ms.portal.azure.com/) > Portal Storage 속성 탭의 Storage 계정 페이지로 이동하고 > 계정 리소스 **ID의** Storage **복사합니다.**
+6. 계정 Storage **ID를 입력합니다.** 계정 리소스 **ID를 Storage** Azure [Portal](https://ms.portal.azure.com/) 속성 탭의 Storage 계정 페이지로 이동하여 계정 리소스 ID의 Storage \> \> **복사합니다.**
 
    ![이벤트 허브 리소스 ID1의 이미지입니다.](images/storage-account-resource-id.png)
 
@@ -60,19 +60,19 @@ ms.locfileid: "59220351"
 
 ## <a name="the-schema-of-the-events-in-the-storage-account"></a>이벤트 계정의 이벤트 Storage
 
-- 각 이벤트 유형에 대해 Blob 컨테이너가 만들어집니다. 
+- 각 이벤트 유형에 대해 Blob 컨테이너가 만들어집니다.
 
   ![이벤트 허브 리소스 ID2의 이미지입니다.](images/storage-account-event-schema.png)
 
-- Blob에 있는 각 행의 Schema는 다음과 같은 JSON입니다. 
+- Blob에 있는 각 행의 Schema는 다음과 같은 JSON입니다.
 
-  ```
+  ```json
   {
           "time": "<The time WDATP received the event>"
           "tenantId": "<Your tenant ID>"
           "category": "<The Advanced Hunting table name with 'AdvancedHunting-' prefix>"
           "properties": { <WDATP Advanced Hunting event as Json> }
-  }               
+  }
   ```
 
 - 각 Blob에는 여러 행이 포함되어 있습니다.
@@ -89,19 +89,20 @@ ms.locfileid: "59220351"
 
 1. 로그인하여 [](https://securitycenter.windows.com) Microsoft Defender 보안 센터 [헌팅 페이지로 이동합니다.](https://securitycenter.windows.com/hunting-package)
 
-2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다. 
+2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
 
    ```
    {EventType}
    | getschema
-   | project ColumnName, ColumnType 
+   | project ColumnName, ColumnType
    ```
 
-- 장치 정보 이벤트의 예는 다음과 같습니다. 
+- 장치 정보 이벤트의 예는 다음과 같습니다.
 
   ![이벤트 허브 리소스 ID3의 이미지입니다.](images/machine-info-datatype-example.png)
 
 ## <a name="related-topics"></a>관련 항목
+
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [끝점 스트리밍 API용 Microsoft Defender](raw-data-export.md)
 - [Azure 저장소 계정으로 Endpoint용 Microsoft Defender 이벤트 스트림](raw-data-export-storage.md)

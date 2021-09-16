@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8395a9c5dd2389fe25761dcbe76a13051baaa1b4
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 6e918c85e50f0e6f675cc623cf7765de6518ab1d
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58573022"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401293"
 ---
 # <a name="report-and-troubleshoot-microsoft-defender-for-atp-asr-rules"></a>ATP ASR 규칙에 대한 Microsoft Defender 보고 및 문제 해결
 
@@ -59,7 +59,7 @@ ASR 규칙 이벤트는 디바이스의 고급 헌팅 섹션에 있는 DeviceEve
 
 고급 헌팅 대신 더 좁은 범위의 끝점 컴퓨터 타임라인에 대한 Microsoft Defender가 있습니다. 디바이스의 수집된 모든 이벤트를 볼 수 있습니다. 지난 6개월 동안의 Microsoft 365 Defender 컴퓨터 목록으로 이동하여 특정 컴퓨터를 선택한 다음 시간 표시 막대 탭을 클릭합니다.
 
-아래 그림은 주어진 끝점에서 이러한 이벤트의 시간 표시 막대 보기의 스크린샷입니다.  이 보기에서 오른쪽 창의 이벤트 그룹을 기준으로 이벤트 목록을 필터링할 수 있습니다. 경고를 보고 기록 타임라인을 스크롤하는 동안 Flagged 및 Verbose 이벤트를 활성화 또는 비활성화할 수도 있습니다.
+아래 그림은 주어진 끝점에서 이러한 이벤트의 시간 표시 막대 보기의 스크린샷입니다. 이 보기에서 오른쪽 창의 이벤트 그룹을 기준으로 이벤트 목록을 필터링할 수 있습니다. 경고를 보고 기록 타임라인을 스크롤하는 동안 Flagged 및 Verbose 이벤트를 활성화 또는 비활성화할 수도 있습니다.
 
 :::image type="content" source="images/mic-sec-def-timelinenew.png" lightbox="images/mic-sec-def-timelinenew.png" alt-text="Microsoft 365 Defender 시간 표시 막대를 클릭합니다.":::
 
@@ -103,7 +103,7 @@ Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Ac
 
 ASR 규칙 이벤트는 로그 내에서 볼 Windows Defender 있습니다.
 
-액세스하려면 이벤트 뷰어를 Windows 열고 응용 프로그램 및 서비스 로그 Microsoft Windows Windows Defender  >    >    >    >  **를 탐색합니다.**
+액세스하려면 이벤트 뷰어를 Windows 열고 응용  프로그램 및 서비스 로그 Microsoft Windows Windows Defender \>  \>  \>  \> **를 탐색합니다.**
 
 :::image type="content" source="images/eventviewerscrnew.png" lightbox="images/eventviewerscrnew.png" alt-text="이벤트 뷰어 스크러.":::
 

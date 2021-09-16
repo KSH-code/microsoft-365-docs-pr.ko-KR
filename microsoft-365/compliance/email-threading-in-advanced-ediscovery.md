@@ -17,11 +17,11 @@ search.appverid:
 description: 전자 메일 Advanced eDiscovery 수행하면 전자 메일 스레딩이 전자 메일 대화를 구문 분석하고 각 메시지를 서로 다른 범주로 구분합니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: feb0294b47e01eae6849835e92e390a912558c71
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59357453"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59399877"
 ---
 # <a name="email-threading-in-advanced-ediscovery"></a>전자 메일 스레딩 Advanced eDiscovery
 

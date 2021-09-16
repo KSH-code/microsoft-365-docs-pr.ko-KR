@@ -16,12 +16,12 @@ ms.collection:
 description: 금고 문서 또는 Microsoft 365 E5 문서에 대해 Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0ccedf53b9978329935ceb28bb0ba0695f3da67c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 74b01872a1b5aee75730f203fec9b2b0ebf77fdc
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187323"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400909"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -30,11 +30,12 @@ ms.locfileid: "59187323"
 **적용 대상**
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-금고 문서는 [끝점용 Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기 또는 Application [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) Guard에서 열 수 있는 문서 및 파일을 검사하는 고급 [Office.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
+금고 문서는 [끝점용 Microsoft Defender의](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 클라우드 백 엔드를 사용하여 에 대해 보호된 보기 또는 Application Guard에서 연 Office 문서를 스캔하는 고급 [Office.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46) [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+사용자는 문서 보호를 위해 로컬 장치에 Endpoint용 Defender가 금고 없습니다. 사용자는 금고 요구 사항이 모두 충족되는 경우 문서 보호를 사용할 수 있습니다.
 
-- 금고 **SafeDocs(또는** **SAFEDOCS** 또는 Office 365 **bf6f5520-59e3-4f82-974b-7dbbc4fd27c7)** 서비스(서비스 계획)에서 제어하는 금고 문서의 가용성 이 서비스 계획은 다음 라이선싱 계획(라이선스 계획, Microsoft 365 또는 제품)에서 사용할 수 있습니다.
+- 금고 문서는 이 문서에 설명된 바와 같이 조직에서 사용하도록 설정됩니다.
+- 필수 라이선스 계획의 라이선스가 사용자에게 할당됩니다. 금고 문서는 Office 365 **SafeDocs(또는** **SAFEDOCS** 또는 **bf6f5520-59e3-4f82-974b-7dbbc4fd27c7)** 서비스 계획(서비스라고도 알려)에 의해 제어됩니다. 이 서비스 계획은 다음 라이선싱 계획(라이선스 계획, Microsoft 365 또는 제품)에서 사용할 수 있습니다.
   - Microsoft 365 A5 교직원용 교육
   - Microsoft 365 A5 학생용 지원
   - Microsoft 365 E5
@@ -42,13 +43,11 @@ ms.locfileid: "59187323"
 
   금고 Microsoft Defender for Office 365 문서가 포함되어 있지 않습니다.
 
-  자세한 내용은 아래 항목을 참조하세요.
+  자세한 내용은 라이선스에 대한 제품 이름 및 [서비스 계획 식별자를 참조하세요.](/azure/active-directory/enterprise-users/licensing-service-plan-reference)
 
-  - [PowerShell을 Microsoft 365 라이선스 및 서비스 보기](/microsoft-365/enterprise/view-licenses-and-services-with-microsoft-365-powershell)
-  - [PowerShell을 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기](/microsoft-365/enterprise/view-account-license-and-service-details-with-microsoft-365-powershell)
-  - [라이선스에 대한 제품 이름 및 서비스 계획 식별자](/azure/active-directory/enterprise-users/licensing-service-plan-reference)
+- 이러한 버전은 엔터프라이즈용 Microsoft 365 앱(Office 365 ProPlus) 버전 2004 이상을 사용하고 있습니다.
 
-- 금고 문서는 엔터프라이즈용 Microsoft 365 앱(Office 365 ProPlus) 버전 2004 이상에서 지원됩니다.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. 첨부 파일 **페이지로** 직접 금고 를 <https://security.microsoft.com/safeattachmentv2> 사용하세요.
 
@@ -88,7 +87,7 @@ ms.locfileid: "59187323"
 
 ### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>PowerShell Exchange Online 사용하여 문서 금고 구성
 
-다음 구문을 사용합니다.
+PowerShell을 사용하여 문서를 구성하는 금고 PowerShell에서 다음 구문을 Exchange Online 합니다.
 
 ```powershell
 Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true | $false>
@@ -120,9 +119,9 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 - [PowerShell을 Microsoft 365 계정 라이선스 및 서비스 세부 정보 보기](/microsoft-365/enterprise/view-account-license-and-service-details-with-microsoft-365-powershell)
 - [라이선스에 대한 제품 이름 및 서비스 계획 식별자](/azure/active-directory/enterprise-users/licensing-service-plan-reference)
 
-### <a name="onboard-to-the-microsoft-defender-for-endpoint-service-to-enable-auditing-capabilities"></a>감사 기능을 사용하도록 설정하기 위해 끝점 서비스용 Microsoft Defender에 온보딩
+### <a name="onboard-to-the-microsoft-defender-for-endpoint-service-to-enable-auditing-capabilities"></a>감사 기능을 사용하도록 설정하기 위해 끝점용 Microsoft Defender 서비스에 온보딩
 
-끝점용 Microsoft Defender를 배포하려면 다양한 배포 단계를 거치야 합니다. 온보드 후 사이트 포털에서 감사 기능을 구성할 Microsoft 365 Defender 있습니다.
+감사 기능을 사용하려면 로컬 장치에 끝점용 Microsoft Defender가 설치되어야 합니다. 끝점용 Microsoft Defender를 배포하려면 다양한 배포 단계를 거치야 합니다. 온보드 후 사이트 포털에서 감사 기능을 구성할 Microsoft 365 Defender 있습니다.
 
 자세한 내용은 [끝점 서비스용 Microsoft Defender에 온보딩을 참조합니다.](/microsoft-365/security/defender-endpoint/onboarding) 추가 도움이 필요한 경우 Endpoint 온보딩 문제에 [대한 Microsoft Defender 문제 해결을 참조합니다.](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
 
@@ -138,7 +137,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
   Get-AtpPolicyForO365 | Format-List *SafeDocs*
   ```
 
-- 다음 파일은 문서 보호를 테스트하는 금고 있습니다. 이러한 문서는 맬웨어 방지 EICAR.TXT 바이러스 백신 솔루션을 테스트하기 위한 파일과 유사합니다. 파일은 해로운 파일은 아니며 문서 보호를 금고 트리거합니다.
+- 다음 파일은 문서 보호를 테스트하는 금고 있습니다. 이러한 파일은 맬웨어 방지 EICAR.TXT 바이러스 백신 솔루션을 테스트하기 위한 파일과 유사합니다. 파일은 해로운 파일은 아니며 문서 보호를 금고 트리거합니다.
 
   - [SafeDocsDemo.docx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.docx)
   - [SafeDocsDemo.pptx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.pptx)

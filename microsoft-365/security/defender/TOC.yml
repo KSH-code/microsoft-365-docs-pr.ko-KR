@@ -386,6 +386,8 @@
                       href: streaming-api-event-hub.md
                     - name: 사용자 저장소 계정에 고급 헌팅 이벤트 스트림
                       href: streaming-api-storage.md
+                    - name: 지원되는 이벤트 유형
+                      href: supported-event-types.md
                     - name: 이벤트 허브 구성
                       href: configure-event-hub.md
                 - name: 고급 헌팅 API

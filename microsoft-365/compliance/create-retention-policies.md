@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.custom: admindeeplinkMAC
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 6a58092bb81f45f40f2b0bcdd76312fc1d420e4d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a6d78ea9b96bb4967ef41471cd039a4c245b4aa1
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213952"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400153"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -210,13 +210,7 @@ Exchange에 대한 보존 설정을 구성할 때 포함 및 제외되는 사서
 
 SharePoint 사이트 또는 OneDrive 계정의 위치를 지정하는 경우, 사이트에 액세스할 수 있는 권한이 필요하지 않으며 **위치 편집** 페이지에서 URL을 지정하는 시점에 유효성 검사가 수행되지 않습니다. 그러나 지정하는 SharePoint 사이트는 구성 종료 시 존재하는지 확인됩니다. 이 검사에 실패하는 경우, 입력한 URL에 대한 유효성 검사에 실패했다는 메시지가 표시되고 유효성 검사가 통과한 후에 구성 프로세스에서 보존 정책이 만들어집니다. 이 메시지가 표시되는 경우, 구성에서 돌아가서 URL을 변경하거나 보존 정책에서 사이트를 제거합니다.
 
-포함하거나 제외할 개별 OneDrive 계정을 지정하기 위해 사용자의 OneDrive에 대한 URL은 일반적으로 다음과 같은 형식입니다. UPN(사용자 계정 이름)의 경우 마침표, 쉼표, 공백 및 at 기호("@")와 같은 특수 문자는 밑줄("_")로 변환됩니다. `https://<tenant name>-my.sharepoint.com/personal/<user principal name>`
-
-예를 들어 UPN이 “rsimone@contoso.onmicrosoft.com”인 Contoso 테넌트 사용자의 경우, `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`(으)로 변환됩니다
-
-또는 UPN이 "rsimone@contoso.com"이 되도록 사용자 지정 도메인 이름을 사용하는 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_com`
-
-그러나 충돌이 감지되면 URL에 숫자 또는 GUID를 추가할 수 있으므로 항상 OneDrive 계정에 대한 사용자의 URL을 확인하는 것이 가장 좋습니다. URL을 확인하려면 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다. 자세한 내용은 [조직의 모든 사용자 OneDrive URL 목록 확인](/onedrive/list-onedrive-urls)을 참조하세요.
+포함하거나 제외할 개별 OneDrive 계정을 지정하려면 [조직의 모든 사용자 OneDrive URL 목록 가져오기](/onedrive/list-onedrive-urls)를 참조하세요.
 
 > [!NOTE]
 > 포함하거나 제외할 개별 OneDrive 계정을 지정할 때 OneDrive 계정이 [사전 프로비전](/onedrive/pre-provision-accounts)되어 있지 않으면 사용자가 OneDrive에 처음 액세스할 때까지 URL이 생성되지 않는다는 점에 유의하세요.

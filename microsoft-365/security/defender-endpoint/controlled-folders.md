@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 19737781f2c22a356da2c237e2f059a362140956
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f2d9c6895abe4654270a9ae3818e2853fc00dd85
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222886"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400357"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스를 사용하여 중요한 폴더 보호
 
@@ -115,16 +115,13 @@ DeviceEvents
 
 다음 표에는 제어된 폴더 액세스와 관련된 이벤트가 표시됩니다.
 
-<br>
-
-****
+<br/><br/>
 
 |이벤트 ID|설명|
 |---|---|
 |5007|설정이 변경될 때의 이벤트|
 |1124|감사된 제어된 폴더 액세스 이벤트|
 |1123|차단된 제어된 폴더 액세스 이벤트|
-|
 
 ## <a name="view-or-change-the-list-of-protected-folders"></a>보호된 폴더 목록 보기 또는 변경
 

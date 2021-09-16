@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1ab7e1f31fff1e4b553d5d301eb7fbe4749de19e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 41d07ae2c6acc4bdbe828bc98d8bdfecdbf45f2e
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185915"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401725"
 ---
 # <a name="configure-micro-focus-arcsight-to-pull-defender-for-endpoint-detections"></a>엔드포인트 감지를 위해 Defender를 끌어오도록 마이크로 포커스 ArcSight 구성
 
@@ -104,7 +104,7 @@ Micro Focus ArcSight 커넥터 도구를 구성하려면 AAD(Micro Focus ArcSigh
    |필드|값|
    |---|---|
    |구성 파일|클라이언트 속성 파일의 이름을 입력합니다. 이름은 다운로드한 파일에서 제공한 .zip 일치해야 합니다. <p> 예를 들어 "flexagent" 디렉터리의 구성 파일의 이름이 "WDATP-Connector.jsonparser.properties"인 경우 클라이언트 속성 파일의 이름으로 "WDATP-Connector"를 입력해야 합니다.|
-   |이벤트 URL|데이터 센터의 위치에 따라 EU 또는 미국 URL을 선택합니다. <ul><li>**EU의 경우**:  `https://<i></i>wdatp-alertexporter-eu.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li><li>**미국의 경우**: `https://<i></i>wdatp-alertexporter-us.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li><li>**영국의** 경우 : `https://<i></i>wdatp-alertexporter-uk.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li></ul>|
+   |이벤트 URL|데이터 센터의 위치에 따라 EU, 미국 또는 영국 URL을 선택합니다. <ul><li>**EU의 경우**:  `https://wdatp-alertexporter-eu.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li><li>**미국의 경우**: `https://wdatp-alertexporter-us.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li><li>**영국의** 경우 : `https://wdatp-alertexporter-uk.windows.com/api/alerts/?sinceTimeUtc=$START_AT_TIME`</li></ul>|
    |인증 유형|OAuth 2|
    |OAuth 2 클라이언트 속성 파일|*wdatp-connector.properties* 파일의 위치로 이동하십시오. 이름은 다운로드한 파일에서 제공한 .zip 일치해야 합니다.|
    |새로 고침 토큰|**SIEM** 설정 페이지에서 새로 고침 토큰을 생성하거나 restutil 도구를 사용하여 두 가지 방법으로 새로 고침 토큰을 얻을 수 있습니다. <p> 기본 설정에서 새로 고침 토큰을 생성하는 데 대한 자세한 내용은 [Enable SIEM integration in Defender for Endpoint을 참조하세요.](enable-siem-integration.md)  <p> **restutil 도구를 사용하여 새로 고침 토큰을 얻다.** <ol><li>명령 프롬프트를 엽니다. C: \\ *폴더 \_ 위치*\current\bin으로 이동합니다. 여기서 폴더 위치는 도구를 설치한 위치를 나타내는 위치입니다. *\_*</li><li>Bin `arcsight restutil token -config` 디렉터리에서 입력합니다. 예: **arcsight restutil boxtoken -proxy proxy.location.hp.com:8080.** 웹 브라우저 창이 열립니다.</li><li>자격 증명을 입력한 다음 암호 필드를 클릭하여 페이지가 리디렉션될 수 있도록 합니다. 로그인 프롬프트에 자격 증명을 입력합니다.</li><li>새로 고침 토큰이 명령 프롬프트에 표시됩니다.</li><li>복사하여 새로 고침 토큰 **필드에 붙여 넣습니다.**|

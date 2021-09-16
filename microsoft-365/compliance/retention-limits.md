@@ -18,18 +18,22 @@ search.appverid:
 - MET150
 hideEdit: true
 description: 보존 정책 및 보존 레이블 정책에 대한 정책당 최대 정책 및 항목 수 이해
-ms.openlocfilehash: 92647911cfc3435c2d88ce5caa0624a34467a60f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 322a0c711ed1838dfd5349d43b1c3bcbf656618e
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188012"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59399865"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 제한 사항
 
 >*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 [보존 정책 및 보존 레이블 정책](retention.md#retention-policies-and-retention-labels)을 사용하여 조직의 데이터를 자동으로 보존하거나 삭제하는 경우 알아야 할 최대 수가 있습니다.
+
+## <a name="maximum-number-of-retention-labels-per-tenant"></a>테넌트당 최대 보존 레이블 수
+
+테넌트당 최대 1,000개의 보존 레이블이 지원됩니다.
 
 ## <a name="maximum-number-of-policies-per-tenant"></a>테넌트당 최대 정책 수
 

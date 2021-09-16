@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 07/29/2021
 manager: dansimp
 ms.custom: nextgen
-ms.openlocfilehash: 93a22ef86be7067c8bda955fdfd085f7ef6cbd64
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4110d79caf2ddc4f5f9bb8af717334b874a248e9
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185876"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400837"
 ---
 # <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성
 
@@ -53,15 +53,12 @@ ms.locfileid: "59185876"
 
    1. 오른쪽의  Microsoft Defender 바이러스 백신 세부 정보 창에서 다음 표에 지정된 정책 설정을 두 번 클릭합니다.
 
-      <br>
-
-      ****
+      <br/><br/>
 
       |설정|기본 설정|
       |---|---|
       |맬웨어 방지 서비스가 정상 우선 순위로 시작하도록 허용 <p> 검색 엔진의 우선 순위를 Microsoft Defender 바이러스 백신 있습니다. 우선 순위를 낮추면 시작 프로세스를 가능한 한 줄이 원하는 경우에 유용할 수 있습니다. 그러나 이 작업을 수행하면 끝점 보호에 영향을 줄 수 있습니다. 계속 주의하세요.|사용
       |맬웨어 방지 서비스가 항상 실행되는 상태로 유지하도록 허용 <p> 보호 업데이트를 사용하지 않도록 설정한 경우 계속 Microsoft Defender 바이러스 백신 수 있습니다. 보호 업데이트를 사용 안 하게 하면 끝점 보호가 줄어듭됩니다.|사용 안 함|
-      |
 
    2. 설정을 적절하게 구성하고 확인 을 **선택합니다.**
 
@@ -86,26 +83,18 @@ ms.locfileid: "59185876"
       ![Microsoft Defender 바이러스 백신 검사 옵션](images/gpedit-windows-defender-antivirus-scan.png)
 
    2. 오른쪽의 **스캔** 세부 정보 창에서 다음 표에 지정된 정책 설정을 두 번 클릭합니다.
-
-
-      <br>
-
-      ****
+      <br/><br/>
 
       |설정|기본 설정|
       |---|---|
       |추론 켜기 <p> 추론 보호는 활동 감지를 요청하기 직전에 의심스러운 활동을 Microsoft Defender 바이러스 백신 차단합니다.|사용|
-      |
+
 
    3. 설정을 적절하게 구성하고 확인 을 **선택합니다.**
 
 6. 로컬 **그룹 정책 편집기를 닫습니다.**
 
 ### <a name="real-time-protection-policy-settings"></a>실시간 보호 정책 설정
-
-<br>
-
-****
 
 |설정|기본 설정|
 |---|---|
@@ -121,7 +110,6 @@ ms.locfileid: "59185876"
 |실시간 보호를 켜도록 로컬 설정 다시 설정 구성 <p> 실시간 보호를 켜도록 구성에 대한 로컬 다시 설정을 구성합니다. 이 설정은 그룹 정책에서만 설정할 수 있습니다. 이 설정을 사용하면 로컬 기본 설정이 그룹 정책보다 우선합니다. 이 설정을 사용하지 않도록 설정하거나 구성하지 않는 경우 그룹 정책이 로컬 기본 설정보다 우선합니다.|사용|
 |들어오는 파일 및 나올 파일 활동에 대한 모니터링을 위한 로컬 설정 오버라이드 구성 <p> 수신 및 전송 파일 활동에 대한 모니터링 구성에 대한 로컬 오버라이드를 구성합니다. 이 설정은 그룹 정책에서만 설정할 수 있습니다. 이 설정을 사용하면 로컬 기본 설정이 그룹 정책보다 우선합니다. 이 설정을 사용하지 않도록 설정하거나 구성하지 않는 경우 그룹 정책이 로컬 기본 설정보다 우선합니다.|사용|
 |수신 및 전송 파일 및 프로그램 활동에 대한 모니터링 구성 <p> 들어오는 방향, 나갈 방향, 둘 다 또는 둘 다에 대해 모니터링이 진행될지 여부를 지정합니다. 이 작업은 특정 Windows 서버 또는 많은 양의 파일 변경 내용이 한 방향으로만 표시되고 네트워크 성능을 향상하려는 서버 역할을 정의한 Windows Server 설치와 관련이 있습니다. 네트워크에서 완전히 업데이트된 끝점 및 서버는 파일 변경의 수나 방향에 따라 성능에 거의 영향을 줄 수 없습니다.|사용(양방향)|
-|
 
 ## <a name="disable-real-time-protection-in-group-policy"></a>그룹 정책에서 실시간 보호를 사용하지 않도록 설정
 

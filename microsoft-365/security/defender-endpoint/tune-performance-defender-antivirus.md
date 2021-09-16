@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 964447ee755d5587d03c6c3ee6cb56131013d34d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0ceb715549c208ccc7f961c115083c50e56dd526
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166850"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400549"
 ---
 # <a name="performance-analyzer-for-microsoft-defender-antivirus"></a>사용자에 대한 성능 Microsoft Defender 바이러스 백신
 
@@ -93,7 +93,7 @@ ms.locfileid: "59166850"
 Microsoft Defender 바이러스 백신 성능 분석기에는 다음과 같은 전제가 있습니다.
 
 - 지원되는 Windows 버전: Windows 10, Windows 11, Windows Server 2016 이상
-- 플랫폼 버전: 4.18.2108.X+
+- 플랫폼 버전: 4.18.2108.7+
 - PowerShell 버전: PowerShell 버전 5.1
 
 ## <a name="powershell-reference"></a>PowerShell 참조

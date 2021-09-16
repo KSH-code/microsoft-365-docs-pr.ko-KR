@@ -12,12 +12,12 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: f8c27f5776c41376abd6f9c0e412480e02bab217
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 99dd3a0782f44f0db1066ab33d3fe6ddd9a5def6
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215282"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59402229"
 ---
 # <a name="overview"></a>개요
 
@@ -40,7 +40,7 @@ Microsoft Managed Desktop 엔터프라이즈 고객에게 서비스를 제공하
 
 ## <a name="microsoft-managed-desktop-data-process-and-storage"></a>Microsoft Managed Desktop 프로세스 및 저장소
 
-Microsoft Managed Desktop Microsoft 제품 및 서비스의 데이터를 사용하여 엔터프라이즈 고객에게 서비스를 제공합니다. 등록된 장치를 보호하고 유지 관리하기 위한 목표를 달성하기 위해 이러한 서비스의 데이터를 처리 및 복사하여 Microsoft Managed Desktop. 데이터를 처리하면 온라인 서비스 약관 및 Microsoft 개인 정보 취급 방침에 참조되는 문서화된 지침을 따르게 됩니다. 데이터를 처리하면 온라인 서비스 약관 및 Microsoft 개인 정보 취급 [](https://www.microsoft.com/licensing/product-licensing/products) 방침에서 참조되는 문서화된 지침을 [따르게 됩니다.](https://privacy.microsoft.com/privacystatement) Microsoft Managed Desktop 프로세서 의무에는 적절한 기밀성, 보안 및 탄력성을 보장하는 것이 포함됩니다. Microsoft Managed Desktop 개인 식별 가능 데이터의 적절한 처리를 보장하기 위해 추가 개인 정보 보호 및 보안 조치를 취합니다. 
+Microsoft Managed Desktop Microsoft 제품 및 서비스의 데이터를 사용하여 엔터프라이즈 고객에게 서비스를 제공합니다. 등록된 장치를 보호하고 유지 관리하기 위한 목표를 달성하기 위해 이러한 서비스의 데이터를 처리 및 복사하여 Microsoft Managed Desktop.  데이터를 처리하면 온라인 서비스 약관 및 Microsoft 개인 정보 취급 [](https://www.microsoft.com/licensing/product-licensing/products) 방침에서 참조되는 문서화된 지침을 [따르게 됩니다.](https://privacy.microsoft.com/privacystatement) Microsoft Managed Desktop 프로세서 의무에는 적절한 기밀성, 보안 및 탄력성을 보장하는 것이 포함됩니다. Microsoft Managed Desktop 개인 식별 가능 데이터의 적절한 처리를 보장하기 위해 추가 개인 정보 보호 및 보안 조치를 취합니다. 
 
 
 ## <a name="microsoft-managed-desktop-data-storage-and-staff-location"></a>Microsoft Managed Desktop 저장소 및 직원 위치

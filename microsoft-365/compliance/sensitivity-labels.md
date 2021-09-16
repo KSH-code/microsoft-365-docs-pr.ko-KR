@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3366f90273536a1fc1fede52159b8c1199ad9324
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fa496e976f0d023960b6d2e633347931b7456ac3
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216475"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401125"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -271,7 +271,3 @@ Azure Information Protection을 처음 접하거나 레이블을 최근에 마�
 라이선싱 정보, 사용 권한, 배포 전략, 지원되는 시나리오 목록 및 최종 사용자 문서를 포함한 배포 계획 및 지침에 대한 내용은 [민감도 레이블로 시작하기](get-started-with-sensitivity-labels.md)를 참조하세요.
 
 민감도 레이블을 사용하여 데이터 개인 정보 보호 규정을 준수하는 방법을 알아보려면 [Microsoft 365(aka.ms/m365dataprivacy)를 사용하여 데이터 개인 정보 보호 규정에 대한 정보 보호 배포](../solutions/information-protection-deploy.md)를 참조하세요.
-
-## <a name="see-also"></a>참고 항목
-
-[Teams 연결된 사이트 및 채널 사이트 관리](/SharePoint/teams-connected-sites)

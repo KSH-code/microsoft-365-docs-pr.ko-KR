@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 4bd6726550e444ffc31e241b8fb5c52c9967a267
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b4e6becbdb0e26317bcc29e5bb70e24486d43414
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212315"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400453"
 ---
 # <a name="onboard-the-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드
 
@@ -43,9 +43,7 @@ ms.locfileid: "59212315"
 
 ## <a name="onboard-devices-using-group-policy"></a>그룹 정책을 사용하여 장치 온보딩
 
-[![다양한 배포 경로를 보여 주며 PDF의 이미지입니다.](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
-
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
+[PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
 1. 서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
     1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.  
@@ -148,7 +146,7 @@ Microsoft MAPS에 가입|사용, 고급 지도
 
 정책|설정
 ---|---
-실시간 보호 끄기|Disabled
+실시간 보호 끄기|사용 안 함
 동작 모니터링 켜기|사용
 다운로드한 모든 파일 및 첨부 파일 검색|사용
 컴퓨터에서 파일 및 프로그램 활동 모니터링|사용

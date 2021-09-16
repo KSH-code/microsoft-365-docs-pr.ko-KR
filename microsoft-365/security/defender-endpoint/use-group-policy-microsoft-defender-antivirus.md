@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 74f58959c22313806ebc95aef14e8ccb2d75326b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 881db58dc6658c7ed73201e48e7e2079dbf6aa97
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220182"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401017"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신
 
@@ -55,7 +55,7 @@ ms.locfileid: "59220182"
 이 항목의 다음 표에서는 Windows 10 버전 1703에서 사용할 수 있는 그룹 정책 설정을 나열하고 이 설명서 라이브러리(해당하는 경우)의 해당 항목에 대한 링크를 제공합니다. 
 
 > [!TIP]
-> [2020년 5월 업데이트(2004년 설정](https://www.microsoft.com/download/101451)대한 그룹 정책 Windows 10 참조 스프레드시트를 다운로드합니다. 이 스프레드시트에는 Windows 10 2020년 5월 업데이트(2004년)에 대해 제공된 관리 템플릿 파일에 포함된 컴퓨터 및 사용자 구성에 대한 정책 설정이 나열되어 있습니다. 그룹 정책 개체를 편집할 때 스프레드시트를 참조하도록 구성할 수 있습니다.
+> [2020년 5월 업데이트(2004년 설정](https://www.microsoft.com/download/101451)대한 그룹 정책 Windows 10 참조 스프레드시트를 다운로드합니다. 이 스프레드시트에는 Windows 10 2020년 5월 업데이트(2004년)에 대해 제공된 관리 템플릿 파일에 포함된 컴퓨터 및 사용자 구성에 대한 정책 설정이 나열되어 있습니다. 그룹 정책 개체를 편집할 때 스프레드시트를 참조하도록 구성할 수 있습니다.<br/><br/>
 
 | 위치 | 설정 | 문서 |
 |:---|:---|:---|
@@ -96,9 +96,9 @@ ms.locfileid: "59220182"
 | 수정 | 재구성 완료를 위해 예약된 전체 검사 실행 시간을 지정합니다. | [예약된 Microsoft Defender 바이러스 백신 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | 보고 | 향상된 알림 끄기 | [엔드포인트에 표시되는 알림 구성](configure-notifications-microsoft-defender-antivirus.md)
 | 루트 | 끄기 Microsoft Defender 바이러스 백신 | 사용되지 않습니다(설치된 타사  바이러스 백신 앱이 올바르게 작동하도록 이 설정을 구성되지 않도록 설정해야 합니다.
-| 루트 | 프록시 서버를 무시할 주소 정의 | 사용되지 않음 |
-| 루트 | 네트워크에 연결하기 위한 프록시 자동 구성(.pac) 정의 | 사용되지 않음 |
-| 루트 | 네트워크에 연결하기 위한 프록시 서버 정의 | 사용되지 않음 |
+| 루트 | 프록시 서버를 무시할 주소 정의 | [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md#configure-a-static-proxy-for-microsoft-defender-antivirus) |
+| 루트 | 네트워크에 연결하기 위한 프록시 자동 구성(.pac) 정의 | [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md#configure-a-static-proxy-for-microsoft-defender-antivirus) |
+| 루트 | 네트워크에 연결하기 위한 프록시 서버 정의 | [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md#configure-a-static-proxy-for-microsoft-defender-antivirus) |
 | 루트 | 목록에 대한 로컬 관리자 병합 동작 구성 | [사용자가 정책 설정을 로컬로 수정하지 못하도록 차단 또는 허용](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | 루트 | 맬웨어 방지 서비스가 정상 우선 순위로 시작하도록 허용 | [검사에 대한 Microsoft Defender 바이러스 백신 구성](configure-remediation-microsoft-defender-antivirus.md) |
 | 루트 | 맬웨어 방지 서비스가 항상 실행되는 상태로 유지하도록 허용 | [검사에 대한 Microsoft Defender 바이러스 백신 구성](configure-remediation-microsoft-defender-antivirus.md) |

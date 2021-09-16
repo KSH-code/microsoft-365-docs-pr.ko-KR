@@ -16,12 +16,12 @@ ms.custom: nextgen
 ms.date: 03/16/2021
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: bd6353a2afc1382737fb95ec07faba1807b7cfd1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d0cda809878f06063663b18f03f052286070b08d
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185860"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401713"
 ---
 # <a name="configure-remediation-for-microsoft-defender-antivirus-detections"></a>Microsoft Defender 바이러스 백신 검색에 대한 수정 구성
 
@@ -48,9 +48,7 @@ ms.locfileid: "59185860"
 
 5. **확인** 을 선택합니다.
 
-<br>
-
-****
+<br/><br/>
 
 |위치|설정|설명|기본 설정(구성되지 않은 경우)|
 |---|---|---|---|
@@ -60,7 +58,6 @@ ms.locfileid: "59185860"
 |격리|Quarantine 폴더에서 항목 제거 구성|항목을 제거하기 전에 보관할 날짜 수 지정|90일|
 |위협|감지 시 기본 작업을 수행하지 않을 위협 경고 수준 지정|검색된 모든 위협에는 Microsoft Defender 바이러스 백신 수준(낮음, 중간, 높음 또는 심각)이 할당됩니다. 이 설정을 사용하여 각 위협 수준에 대한 모든 위협을 수정하는 방법(분리, 제거 또는 무시)을 정의할 수 있습니다.|해당 없음|
 |위협|검색 시 기본 작업을 수행하지 않을 위협 지정|특정 위협(위협 ID 사용)을 수정하는 방법을 지정합니다. 특정 위협을 분리, 제거 또는 무시할지 여부를 지정할 수 있습니다.|해당 없음|
-|
 
 > [!IMPORTANT]
 > Microsoft Defender 바이러스 백신 요소를 기반으로 파일을 검색하고 수정합니다. 경우에 따라 수정을 완료하려면 재부팅이 필요합니다. 검색이 나중에 가음성으로 확인된 경우에도 모든 추가 수정 단계가 완료되도록 재부팅을 완료해야 합니다.

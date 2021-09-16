@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 ms.custom: seo-marvel-apr2020
 description: 관리자는 PST 파일을 하드 드라이브에 복사한 다음 Microsoft로 Microsoft 365 사서함으로 PST 파일을 대량으로 가져오는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 5061385007071442acb9c2e1be27501d64174ea3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 30b345a887f0b2288394fc07b3b5b290b58c9fed
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216235"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401809"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>드라이브 배송을 사용하여 조직의 PST 파일 가져오기
 
@@ -34,7 +34,7 @@ ms.locfileid: "59216235"
   
 다음은 드라이브 배송을 사용하여 PST 파일을 사서함으로 가져오는 Microsoft 365 단계입니다.
   
-[1단계: 보안 저장소 키 및 PST 가져오기 도구 다운로드](#step-1-download-the-secure-storage-key-and-pst-import-tool)
+[1단계: PST 가져오기 도구 다운로드](#step-1-download-the-pst-import-tool)
 
 [2단계: PST 파일을 하드 드라이브에 복사](#step-2-copy-the-pst-files-to-the-hard-drive)
 
@@ -47,7 +47,7 @@ ms.locfileid: "59216235"
 [6단계: 데이터 필터링 및 PST 가져오기 작업 시작](#step-6-filter-data-and-start-the-pst-import-job)
   
 > [!IMPORTANT]
-> 보안 저장소 키 및 가져오기 도구를 로드하려면 1단계를 한 번 수행해야 합니다. 이러한 단계를 수행한 후 Microsoft에 하드 드라이브를 배송할 때마다 2~6단계를 수행합니다. 
+> 가져오기 도구를 다운로드하려면 1단계를 한 번 수행해야 합니다. 이러한 단계를 수행한 후 Microsoft에 하드 드라이브를 배송할 때마다 2~6단계를 수행합니다. 
   
 For frequently asked questions about using drive shipping to import PST files to Office 365, see [FAQs for using drive shipping to import PST files](./faqimporting-pst-files-to-office-365.yml#using-drive-shipping-to-import-pst-files). 
   
@@ -91,7 +91,7 @@ For frequently asked questions about using drive shipping to import PST files to
     
 - The hard drive that you ship to Microsoft may cross international borders. 이 경우 귀하는 해당 법률에 따라 하드 드라이브 및 해당 드라이브에 포함된 데이터를 가져오고/또는 내보낼 책임이 있습니다. 하드 드라이브를 발송하기 전에 드라이브 및 데이터가 확인된 Microsoft 데이터 센터에 합법적으로 발송될 수 있는지를 관리자에게 문의하세요. 이렇게 하면 시기 적절한 방식으로 Microsoft에 도달하는 데 도움이 됩니다.
     
-- 이 절차 중에 보안 저장소 키와 BitLocker 암호화 키가 복사되고 저장됩니다. 암호나 기타 보안 관련 정보를 보호하는 것처럼 특히 주의해서 이러한 키를 보호해야 합니다. 예를 들어 암호로 보호된 Microsoft Word 문서에 저장하거나 암호화된 USB 드라이브에 저장할 수 있습니다. 이러한 [키의 예는 추가](#more-information) 정보 섹션을 참조하세요. 
+- 이 절차에서는 BitLocker 암호화 키를 복사하고 저장합니다. 암호나 기타 보안 관련 정보를 보호하는 것처럼 특히 주의해서 이러한 키를 보호해야 합니다. 예를 들어 암호로 보호된 Microsoft Word 문서에 저장하거나 암호화된 USB 드라이브에 저장할 수 있습니다. 이러한 [키의 예는 추가](#more-information) 정보 섹션을 참조하세요. 
     
 - PST 파일을 Microsoft 365 사서함으로 가져오면 사서함에 대한 보존 설정이 무기한으로 설정됩니다. 즉, 보존 유지를 끄거나 날짜를 설정하여 보존을 해제할 때까지 사서함에 할당된 보존 정책은 처리되지 않습니다. 이렇게 하는 이유가 무엇인가요? 사서함으로 가져온 메시지가 오래된 경우 사서함에 대해 구성된 보존 설정에 따라 보존 기간이 만료되어 영구적으로 삭제(제거) 될 수 있습니다. 사서함을 보존 보류 상태로 두면 사서함 소유자에게 새로 가져온 메시지를 관리 할 수 있는 시간을 제공하거나 사서함의 보존 설정을 변경할 시간을 제공합니다. 보존 보존 [관리에](#more-information) 대한 제안 사항은 추가 정보 섹션을 참조하세요. 
     
@@ -110,9 +110,9 @@ For frequently asked questions about using drive shipping to import PST files to
     
     자세한 [내용은 3단계: PST 가져오기](#step-3-create-the-pst-import-mapping-file) 매핑 파일 만들기를 참조하세요. 
 
-## <a name="step-1-download-the-secure-storage-key-and-pst-import-tool"></a>1단계: 보안 저장소 키 및 PST 가져오기 도구 다운로드
+## <a name="step-1-download-the-pst-import-tool"></a>1단계: PST 가져오기 도구 다운로드
 
-첫 번째 단계는 보안 저장소 키와 도구를 다운로드하고 2단계에서 PST 파일을 하드 드라이브에 복사하는 것입니다.
+첫 번째 단계는 도구를 다운로드하고 2단계에서 사용하여 PST 파일을 하드 드라이브에 복사하는 것입니다.
   
 > [!IMPORTANT]
 > WAimportExportV1(Azure Import/Export 도구 버전 1)을 사용하여 드라이브 배송 방법을 사용하여 PST 파일을 가져와야 합니다. Azure Import/Export 버전 2는 지원되지 않습니다. 이 도구를 사용하면 가져오기 작업을 위해 하드 드라이브를 잘못 준비하게 됩니다. 이 단계의 절차를 Import/Export Azure Microsoft 365 규정 준수 센터 도구를 다운로드해야 합니다. 
@@ -132,13 +132,9 @@ For frequently asked questions about using drive shipping to import PST files to
     
     ![하드 드라이브를 실제 위치 중 하나에 배송을 클릭하여 드라이브 배송 가져오기 작업을 만들 수 있습니다.](../media/1584fdc5-cd4c-4e47-932e-db6c8e07f5f8.png)
   
-6. **데이터 가져오기** 페이지에서 다음 두 가지를 수행합니다. 
+6. 데이터 **가져오기 페이지에서** 다음을 클릭합니다.     
     
-    ![보안 저장소 키를 복사하고 데이터 가져오기 페이지에서 Azure 가져오기 내보내기 도구를 다운로드합니다.](../media/e22e0b48-e5ce-48e0-95bc-0490a2b3b983.png)
-  
-    a. 2단계에서 보안 저장소 **키 표시를 클릭합니다.** 저장소 키가 표시되면  클립보드에 복사를 클릭한 다음 붙여넣고 나중에 액세스할 수 있도록 파일에 저장합니다.
-    
-    b. 3단계에서 **Azure** Import/Export 도구를 다운로드하여 Azure Import/Export(버전 1) 도구를 다운로드하고 설치합니다.
+    **Azure Import/Export 도구를** 다운로드하여 Azure Import/Export(버전 1) 도구를 다운로드하고 설치합니다.
     
     - 팝업 창에서 다른 저장을 클릭하여 로컬 컴퓨터의 폴더에 WaImportExportV1.zip 파일을  \>  저장합니다. 
     

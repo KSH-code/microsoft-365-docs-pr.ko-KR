@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 개인 정보 관리를 위한 전역 설정 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 071006c354d975cbed06834d60c2d647bbc5df60
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bd67dc80ab7dec2132bfffe190f64692f69076ed
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186028"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401053"
 ---
 # <a name="manage-privacy-management-settings-preview"></a>개인 정보 관리 설정 관리(미리 보기)
 
@@ -39,17 +39,9 @@ ms.locfileid: "59186028"
 
 개인 Microsoft Teams 기능을 통합하여 이해 관계자와의 공동 작업을 향상합니다. 주체 권한 요청을 만들 때마다 연결된 팀이 만들어집니다. 사용자는 요청의 공동 작업자 탭에서 팀에 추가할 수 있습니다. 주체 권한 요청에 대한 자세한 내용은 주체 권한 요청 [관리를 참조합니다.](privacy-management-subject-rights-requests.md)
 
-## <a name="power-automate-flows"></a>Power Automate 흐름  
-
-이 Power Automate 흐름을 사용하여 개인 정보 관련 프로세스 및 작업을 자동으로 관리합니다. 기본 제공 개인 정보 관리 템플릿을 사용하여 설정 섹션에서 흐름을 만들거나 Power Automate 콘솔을 사용하여 사용자 지정 흐름을 만들 수 있습니다. 자세한 내용은 Power Automate [설명서를 Power Automate](/power-automate/) 참조하세요.
-
 ## <a name="data-matching"></a>데이터 일치  
 
 이 섹션에서는 데이터 주체의 특성을 설명하는 데이터 스마마를 업로드할 수 있습니다. 이렇게 하면 데이터 주체 환경 내에서 개인 데이터를 검색할 때 올바른 데이터 주체가 식별될 Microsoft 365 있습니다. Schemas 및 규칙 패키지는 XML 형식으로 만들어 업로드됩니다. 개인 데이터 업로드에서 제공된 SCHEMA와 일치하는 개인 데이터를 제출할 수도 있습니다. 직접 파일을 만들고 업로드하거나 Azure에서 개인 데이터를 업로드할 수 있습니다. 주체 권한 요청에 대한 자세한 내용은 주체 권한 요청 [관리를 참조합니다.](privacy-management-subject-rights-requests.md)
-
-## <a name="data-retention-periods"></a>데이터 보존 기간  
-
-주체 권한 요청의 경우 수집된 데이터 및 생성한 보고서를 보존할 기간을 선택하십시오. 요청이 닫힌 후 30일에서 90일 사이를 선택할 수 있습니다. 주체 권한 요청에 대한 자세한 내용은 주체 권한 요청 [관리를 참조합니다.](privacy-management-subject-rights-requests.md)
 
 ## <a name="data-review-tags"></a>데이터 검토 태그  
 

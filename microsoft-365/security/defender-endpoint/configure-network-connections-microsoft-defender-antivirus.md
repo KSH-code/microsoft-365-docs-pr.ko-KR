@@ -16,12 +16,12 @@ ms.custom: nextgen
 ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: e7631647d97abc7f67129c9d40887996cfc7eb0b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9f60b310d435693972a6573d7c9dccd920866bbe
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221656"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400333"
 ---
 # <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사
 
@@ -55,9 +55,7 @@ ms.locfileid: "59221656"
 
 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인합니다. 그렇지 않으면 URL을 제외한 해당 규칙에 대해 특별히 허용 규칙을 만들어야 할 수 `*.blob.core.windows.net` 있습니다. 다음 표의 URL은 통신에 포트 443을 사용 합니다.
 
-<br>
-
-****
+<br/><br/>
 
 |서비스 및 설명|URL|
 |---|---|
@@ -117,3 +115,8 @@ Microsoft Defender 바이러스 백신 명령줄 유틸리티( )와 함께 다�
    > 1703 Windows 10 이전 버전의 사용자 인터페이스가 다릅니다. Microsoft Defender 바이러스 백신 [앱의 Windows 보안 참조하세요.](microsoft-defender-security-center-antivirus.md)
 
    또한 Windows 로그에는 클라이언트 [Windows Defender ID 1116도 표시됩니다.](troubleshoot-microsoft-defender-antivirus.md)
+
+## <a name="see-also"></a>참고 항목
+
+- [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
+- [그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신](use-group-policy-microsoft-defender-antivirus.md)

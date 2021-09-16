@@ -7,19 +7,20 @@ author: brendacarter
 manager: johmar
 audience: Admin
 ms.topic: tutorial
-ms.service: O365-seccomp
+ms.prod: m365-security
+ms.technology: m365d
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
 description: 조직이 현재 해당 Microsoft 365 가장 일반적인 위협 및 공격 시나리오와 이러한 위험을 완화하기 위한 권장 조치를 제공합니다.
-ms.openlocfilehash: 8f5c6e75097814841f8478cd8240c80b4eebc51a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 24f570b85a871538f4aeca98795ddb3a27d99e55
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220684"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400429"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 BDM(비즈니스 의사 결정자)에 대한 보안
 
@@ -97,7 +98,7 @@ Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적�
 추가 권장 사항:
 - TLS를 사용하는 전자 메일과 같은 파트너 채널 통신을 보호합니다.
 - 통신하는 Teams 페더ation을 열기만 합니다.
-- 스팸 및 맬웨어 검사를 무시할 수 있도록 허용 목록에 보낸 사람 도메인, 개별 보낸 사람 또는 원본 IPS를 추가하지 않습니다. 일반적인 방법은 허용 목록에 전자 메일 흐름 문제가 보고될 수 있는 자체 허용 도메인 또는 기타 여러 도메인을 추가하는 것입니다. 스팸 및 연결 필터링 목록에서 도메인을 추가하면 모든 스팸 검사가 무시될 수 있습니다. 
+- 스팸 및 맬웨어 검사를 무시할 수 있도록 허용 목록에 보낸 사람 도메인, 개별 보낸 사람 또는 원본 IPS를 추가하지 않습니다. 고객의 일반적인 관행은 전자 메일 흐름 문제가 허용 목록에 보고될 수 있는 자체 허용 도메인 또는 기타 여러 도메인을 추가하는 것입니다. 스팸 및 연결 필터링 목록에서 도메인을 추가하면 모든 스팸 검사가 무시될 수 있습니다. 
 - 아웃바운드 스팸 알림 사용 - 지원팀 또는 IT 관리자 팀에 내부적으로 메일 그룹으로의 아웃바운드 스팸 알림을 사용하도록 설정하여 내부 사용자가 외부에서 스팸 전자 메일을 보내는 경우 보고합니다. 이는 계정이 손상된 표시기일 수 있습니다.
 - 모든 사용자에 대해 원격 PowerShell을 사용하지 않도록 설정 - 원격 PowerShell은 관리자가 관리 목적으로 또는 프로그래밍 API 액세스를 위해 서비스에 액세스하는 데 주로 사용됩니다. 관리자가 아닌 사용자가 정경에 액세스해야 하는 업무상 요구 사항이 있는 경우를 위해 이 옵션을 사용 하지 않도록 설정하는 것이 좋습니다. 
 - 관리자가 아닌 모든 Microsoft Azure 관리 포털에 대한 액세스를 차단합니다. 관리자를 제외한 모든 사용자를 차단하는 조건부 액세스 규칙을 만들어 이 작업을 수행할 수 있습니다. 
@@ -105,7 +106,7 @@ Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적�
 
 ## <a name="assume-breach"></a>위반 가정
 
-Microsoft는 위협과 공격을 방지하기 위해 가능한 모든 조치에 나서지만 항상 "위반 가정" 생각 아래 작업하는 것이 좋습니다. 공격자가 환경으로 침입하는 경우에도 해당 환경에서 데이터 또는 ID 정보를 유출할 수 없는지 확인해야 합니다. 이러한 이유로 사회 보장 번호, 신용 카드 번호, 추가 개인 정보 및 기타 조직 수준의 기밀 정보와 같은 중요한 데이터 누출에 대한 보호를 설정하는 것이 좋습니다. 
+Microsoft는 위협과 공격을 방지하기 위해 가능한 모든 조치에 나서지만 항상 "위반 가정" 생각 아래 작업하는 것이 좋습니다. 공격자가 환경으로 침입하는 경우에도 해당 환경에서 데이터 또는 ID 정보를 유출할 수 없는지 확인해야 합니다. 이러한 이유로 사회 보장 번호, 신용 카드 번호, 기타 개인 정보 및 기타 조직 수준의 기밀 정보와 같은 중요한 데이터 누출에 대한 보호를 설정하는 것이 좋습니다. 
 
 "위반 가정" 생각에는 사용자가 네트워크 내부에 있기 때문에 완전히 신뢰할 수 없는 제로 트러스트 네트워크 전략을 구현해야 합니다. 대신 사용자가 할 수 있는 권한 부여의 일부로 조건 집합이 지정됩니다. 이러한 조건이 충족되는 경우 특정 컨트롤이 적용됩니다. 조건에는 장치 상태, 액세스되는 응용 프로그램, 수행되는 작업 및 사용자 위험이 포함됩니다. 예를 들어 장치 등록 작업은 항상 MFA 인증을 트리거하여 라우팅 장치가 환경에 추가되지 않도록 해야 합니다. 
 
@@ -121,7 +122,7 @@ Microsoft 365 보호 기능을 사용하면 저장되는 정보, 추가 보호�
 |**익명 외부 일정 공유를 사용하지 않도록 설정** 기본적으로 외부 익명 일정 공유는 허용됩니다. [일정 공유를 사용하지](/exchange/sharing/sharing-policies/modify-a-sharing-policy) 않도록 설정하여 중요한 정보의 잠재적 누출을 줄입니다.|![녹색 확인 표시](../media/green-check-mark.png) |![녹색 확인 표시](../media/green-check-mark.png)|
 |**중요한 데이터에 대한 데이터 손실 방지 정책을 구성합니다.** 보안 및 준수 센터에서 데이터 손실 방지 정책을 만들어 신용 카드 번호, 주민등증 번호 및 은행 계좌 번호와 같은 중요한 데이터를 검색하고 &amp; 보호합니다. Microsoft 365 데이터 손실 방지 정책에 사용할 수 있는 많은 미리 정의한 중요한 정보 유형이 포함되어 있습니다. 사용자 환경에 사용자 지정되는 중요한 데이터에 대한 중요한 정보 유형을 직접 만들 수도 있습니다. |![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|
 |**데이터 분류 및 정보 보호 정책을 구현합니다.** 민감도 레이블을 구현하고 이러한 레이블을 사용하여 중요한 데이터를 분류하고 보호를 적용합니다. 데이터 손실 방지 정책에서 이러한 레이블을 사용할 수 있습니다. Azure Information Protection 레이블을 사용하는 경우 다른 관리 센터에서 새 레이블을 만들지 않는 것이 좋습니다.|         |![녹색 확인 표시](../media/green-check-mark.png)|
-|**를 사용하여** 타사 앱 및 서비스의 데이터를 Cloud App Security. Salesforce Cloud App Security Box 또는 앱과 같은 타사 클라우드 앱의 중요한 정보를 보호하기 위한 정책 Dropbox. 정책에서 만든 중요한 정보 유형 및 민감도 레이블을 Cloud App Security SaaS 앱에 적용할 수 있습니다. <br><br>Microsoft Cloud App Security 자동화된 프로세스를 적용할 수 있습니다. 지속적인 준수 검사, 법적 eDiscovery 작업, 공개적으로 공유되는 중요한 콘텐츠에 대한 DLP를 제공하기 위해 정책을 설정할 수 있습니다. Cloud App Security 20개 이상의 메타데이터 필터(예: 액세스 수준, 파일 형식)를 기반으로 모든 파일 형식을 모니터링할 수 있습니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
+|**를 사용하여** 타사 앱 및 서비스의 데이터를 Cloud App Security. Salesforce Cloud App Security Box 또는 앱과 같은 타사 클라우드 앱의 중요한 정보를 보호하기 위한 정책 Dropbox. 정책에서 만든 중요한 정보 유형 및 민감도 레이블을 Cloud App Security SaaS 앱에 적용할 수 있습니다. <br><br>Microsoft Cloud App Security 통해 광범위한 자동화 프로세스를 적용할 수 있습니다. 지속적인 준수 검사, 법적 eDiscovery 작업, 공개적으로 공유되는 중요한 콘텐츠에 대한 DLP를 제공하기 위해 정책을 설정할 수 있습니다. Cloud App Security 20개 이상의 메타데이터 필터(예: 액세스 수준, 파일 형식)를 기반으로 모든 파일 형식을 모니터링할 수 있습니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
 |**[끝점용 Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/information-protection-in-windows-overview)** 사용하여 사용자가 해당 장치에서 중요한 정보를 Windows 식별합니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
 |**[AIP 스캐너를](/azure/information-protection/deploy-aip-scanner) 사용하여 서버** 및 파일 공유에서 정보를 식별하고 분류합니다. AIP 보고 도구를 사용하여 결과를 보고 적절한 작업을 수행할 수 있습니다.|         |![녹색 확인 표시](../media/green-check-mark.png)|
 

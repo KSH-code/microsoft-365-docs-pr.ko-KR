@@ -8,18 +8,18 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.date: 08/30/2021
+ms.date: 09/13/2021
 ms.prod: m365-security
-ms.technology: mde
+ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
-ms.openlocfilehash: ab2e2e2d1ab0b2ac35a6fd99efe9ef68ea477b44
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 55fb264981dcad52856fe9115345891c2b3387b4
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212275"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400297"
 ---
 # <a name="microsoft-defender-for-endpoint-plan-1-preview-and-plan-2"></a>끝점 계획 1(미리 보기) 및 계획 2용 Microsoft Defender
 
@@ -30,7 +30,7 @@ ms.locfileid: "59212275"
 
 ## <a name="compare-defender-for-endpoint-plans"></a>끝점 계획에 대한 Defender 비교
 
-다음 표에서는 각 계획에 포함된 항목(고급 수준)에 대해 설명합니다.
+다음 표에서는 각 계획에 포함된 항목(고급 수준)에 대해 설명합니다. <br/><br/>
 
 | [Endpoint 요금제 1용 Defender](defender-endpoint-plan-1.md) <br/>(미리 보기) | [Endpoint Plan 2용 Defender](microsoft-defender-endpoint.md) <br/>(지금 사용 가능) |
 |:---|:---|

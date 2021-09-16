@@ -19,12 +19,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 이 문서에 포함된 템플릿 중 하나를 사용하여 DLP 정책을 만드는 방법을 Office 365.
-ms.openlocfilehash: 1fe14035f23443a8f8f35b5c9ac9edf69bf60ffd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 29f8821316fcd4caf87ca0b7f77fb6a9c4f8c85e
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189869"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400897"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 
@@ -85,12 +85,8 @@ Microsoft 365 다양한 일반 규정 및 비즈니스 정책 요구를 충족�
 
 10. **다음** 을 선택합니다.
 
-11. 원하는 **경우 보호** 작업 페이지에서 정책 팁 알림 및 알림 전자 메일을 사용자 지정할 수 있습니다. 콘텐츠가 정책 **조건과** 일치하는 경우 사용자에게 정책 팁을 표시하고 전자 메일 알림을 감지한 다음 팁 및 전자 메일 사용자 **지정을 선택하세요.**
-1. c
-1. 
-1. 
-1. 
-1. hoose **Next**.
+11. 원하는 **경우 보호** 작업 페이지에서 정책 팁 알림 및 알림 전자 메일을 사용자 지정할 수 있습니다. 콘텐츠가 정책 **조건과** 일치하는 경우 사용자에게 정책 팁을 표시하고 전자 메일 알림을 보낸 다음 팁 및 전자 메일 사용자 지정 **을 선택하세요.**
+12. **다음** 을 선택합니다.
 
 
 <!--    In this example, the U.S. PII Data template includes two predefined rules:

@@ -14,11 +14,11 @@ description: 보고된 메시지를 검토하고 사용자에게 피드백을 �
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: ef08b07226d8ce038547b972163d87a557099478
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59357565"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401029"
 ---
 # <a name="admin-review-for-reported-messages"></a>보고된 메시지에 대한 관리자 검토
 

@@ -17,12 +17,12 @@ ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
 ms.date: 09/08/2021
-ms.openlocfilehash: e136556bc2749261230e0267355ed68ef811e0a8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c29579ff183b74ce74d6f3f1a725a028da5874d5
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212082"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401905"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -518,7 +518,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 
 ### <a name="platform-version-included-with-windows-10-releases"></a>릴리스에 포함된 플랫폼 Windows 10 버전
 
-아래 표에는 최신 Microsoft Defender 바이러스 백신 함께 제공된 플랫폼 및 엔진 버전이 Windows 10 있습니다.
+아래 표에는 최신 Microsoft Defender 바이러스 백신 함께 제공된 플랫폼 및 엔진 버전이 Windows 10 있습니다.<br/><br/>
 
 |Windows 10 릴리스  |플랫폼 버전  |엔진 버전 |지원 단계 |
 |:---|:---|:---|:---|

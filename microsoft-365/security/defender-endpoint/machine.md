@@ -17,11 +17,11 @@ ms.topic: article
 MS.technology: mde
 ms.custom: api
 ms.openlocfilehash: 91ee0c6ec2e4c11b714dee586613b16fd22df278
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59357672"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401929"
 ---
 # <a name="machine-resource-type"></a>컴퓨터 리소스 유형
 

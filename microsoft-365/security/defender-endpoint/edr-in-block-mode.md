@@ -21,11 +21,11 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.technology: mde
 ms.openlocfilehash: c590812ccc975206c6c278794f943f7e16c8bdd1
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59357684"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400825"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 EDR(엔드포인트 감지 및 대응)
 
@@ -90,7 +90,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 > [!IMPORTANT]
 > 최상의 보호 값을 얻기 위해 정기적인 업데이트 및 필수 기능을 받도록 바이러스 백신 솔루션이 구성되어 있는지, 그리고 제외가 구성되어 [있는지 확인합니다.](configure-exclusions-microsoft-defender-antivirus.md) EDR 모드는 끝점용 Microsoft Defender에 대해 정의된 Microsoft Defender 바이러스 백신 제외를 존중합니다. [](manage-indicators.md)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="do-i-need-to-turn-edr-in-block-mode-on-if-i-have-microsoft-defender-antivirus-running-on-devices"></a>장치에서 실행 중인 EDR 차단 모드에서 Microsoft Defender 바이러스 백신 설정해야 하나요?
 

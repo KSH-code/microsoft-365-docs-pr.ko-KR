@@ -7,18 +7,18 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.date: 08/30/2021
+ms.date: 09/13/2021
 ms.prod: m365-security
-ms.technology: mde
+ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
-ms.openlocfilehash: c74549579efc9ddf94aa89cfe2007620ddd2d826
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b462fd6c02e455b7bd5ed41c71462628a0d0071b
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214875"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59399409"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1에 대한 Microsoft Defender 관리(미리 보기)
 

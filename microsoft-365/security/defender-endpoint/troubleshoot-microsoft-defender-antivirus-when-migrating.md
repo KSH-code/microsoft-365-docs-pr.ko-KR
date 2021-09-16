@@ -15,12 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 80d8ec3a48ea8388d6c1807f2eccb9df334394de
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 337f034dced0cad5d483b55fa279a7b220fb8e72
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213415"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401581"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>타사 솔루션에서 마이그레이션하는 동안 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -37,7 +37,7 @@ ms.locfileid: "59213415"
 
 작업 표시줄에서 검색 아이콘을  선택하고 이벤트 뷰어를 검색하여 이벤트 뷰어 *앱을 열 수 있습니다.*
 
-응용 프로그램에 Microsoft Defender 바이러스 백신 응용 프로그램 및 서비스 로그 Microsoft Windows  >    >  **Windows Defender.**  >  
+응용 프로그램에 Microsoft Defender 바이러스 백신 응용 프로그램  및 서비스 로그 Microsoft Windows \>  \> **Windows Defender.** \> 
 
 이 위치에서 작동 **아래의 열기** 를 **선택합니다.**
 
@@ -52,7 +52,7 @@ ms.locfileid: "59213415"
 이벤트 ID|로그 이름|설명|원본
 ---|---|---|---
 15 |응용 프로그램|업데이트된 Windows Defender 상태가 SECURITY_PRODUCT_STATE_OFF.|보안 센터
-5007|Microsoft-Windows-Windows Defender/Operational|Windows Defender 바이러스 백신 구성이 변경되었습니다.  이 이벤트가 예기치 않은 이벤트인 경우 맬웨어의 결과일 수 있는 설정을 검토해야 합니다. <p> **이전 값:** Default\IsServiceRunning = 0x0 p> **새 값:** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1|Windows Defender
+5007|Microsoft-Windows-Windows Defender/Operational|Windows Defender 바이러스 백신 구성이 변경되었습니다. 이 이벤트가 예기치 않은 이벤트인 경우 맬웨어의 결과일 수 있는 설정을 검토해야 합니다. <p> **이전 값:** Default\IsServiceRunning = 0x0 <p> **새 값:** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1|Windows Defender
 5010|Microsoft-Windows-Windows Defender/Operational|Windows Defender 바이러스 백신 소프트웨어 및 사용자 원치 않는 기타 소프트웨어에 대한 검사가 사용되지 않도록 설정됩니다.|Windows Defender
 
 ### <a name="how-to-tell-if-microsoft-defender-antivirus-wont-start-because-a-third-party-antivirus-is-installed"></a>타사 바이러스 백신이 Microsoft Defender 바이러스 백신 프로그램 업데이트가 시작되지 않는지 어떻게 알 수 있습니다.
@@ -66,7 +66,7 @@ Windows 10 장치에서 끝점용 Microsoft Defender를 사용하지 않는 경�
 
 서비스 앱을 열하려면 작업  표시줄에서 검색 아이콘을 선택하고 서비스를 *검색합니다.* services.msc 를 입력하여 명령줄에서 앱을 열 *수도 있습니다.*
 
-서비스 Microsoft Defender 바이러스 백신 대한 정보는 운영 에서 서비스 앱 **Windows Defender**  >  **나열됩니다.** 바이러스 백신 서비스 이름은 Windows Defender 바이러스 백신 *입니다.*
+서비스 Microsoft Defender 바이러스 백신 대한 정보는 운영 에서 서비스 앱 **Windows Defender** \> **나열됩니다.** 바이러스 백신 서비스 이름은 Windows Defender 바이러스 백신 *입니다.*
 
 앱을 검사하는 동안 Windows Defender 바이러스 백신 *서비스가* 수동으로 설정되어 있는 것을 볼 수 있지만 이 서비스를 수동으로 시작하려고 시도하면 로컬 컴퓨터의 Windows Defender 바이러스 백신 서비스 서비스가 시작된 다음 중지됨을 표시하는 *경고가 표시됩니다. 일부 서비스는 다른* 서비스 또는 프로그램에서 사용하지 않는 경우 자동으로 중지됩니다.
 
@@ -80,7 +80,7 @@ Windows 10 장치에서 끝점용 Microsoft Defender를 사용하지 않는 경�
 GPresult.exe /h gpresult.html
 ```
 
-그러면 *./gpresult.html에 있는 gpresult.htm생성됩니다.* 이 파일을 열면 끄는 방법에 따라 다음과 같은 Microsoft Defender 바이러스 백신 수 있습니다.
+그러면 *./gpresult.html.* 이 파일을 열면 끄는 방법에 따라 다음과 같은 Microsoft Defender 바이러스 백신 수 있습니다.
 
 ##### <a name="group-policy-results"></a>그룹 정책 결과
 

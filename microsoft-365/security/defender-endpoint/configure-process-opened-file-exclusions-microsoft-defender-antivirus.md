@@ -15,12 +15,12 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: ea06094121f9c6a654234da1cb6d7757db5c78dd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e78706f1c95dd507ae41a6bf89403c45dc689b73
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212292"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400285"
 ---
 # <a name="configure-exclusions-for-files-opened-by-processes"></a>프로세스에서 연 파일에 대한 제외 구성
 
@@ -35,16 +35,13 @@ ms.locfileid: "59212292"
 
 ## <a name="examples-of-exclusions"></a>제외의 예
 
-<br>
-
-****
+<br/><br/>
 
 |제외|예제|
 |---|---|
 |특정 파일 이름을 사용 하 고 모든 프로세스에서 열 수 있는 컴퓨터의 모든 파일|다음을 `test.exe` 통해 연 파일은 제외됩니다. <p>`c:\sample\test.exe` <p> `d:\internal\files\test.exe`|
 |특정 폴더의 모든 프로세스에서 연 컴퓨터의 모든 파일|다음을 `c:\test\sample\*` 통해 연 파일은 제외됩니다. <p> `c:\test\sample\test.exe` <p> `c:\test\sample\test2.exe` <p> `c:\test\sample\utility.exe`|
 |특정 폴더의 특정 프로세스에서 연 컴퓨터의 모든 파일|지정하면 `c:\test\process.exe` 열 때만 열 수 있는 파일 제외 `c:\test\process.exe`|
-|
 
 프로세스 제외 목록에 프로세스를 추가하면 Microsoft Defender 바이러스 백신 위치와 상관없이 해당 프로세스에서 연 파일을 검색하지 않습니다. 그러나 프로세스 자체는 파일 제외 목록에도 추가되지 않은 경우 [검사됩니다.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 
@@ -97,16 +94,13 @@ cmdlet의 형식은 다음입니다.
 
 다음을 다음으로 \<cmdlet\> 허용합니다.
 
-<br>
-
-****
+<br/><br/>
 
 |구성 작업|PowerShell cmdlet|
 |---|---|
 |목록 만들기 또는 덮어 덮어 사용|`Set-MpPreference`|
 |목록에 추가|`Add-MpPreference`|
 |목록에서 항목 제거|`Remove-MpPreference`|
-|
 
 > [!IMPORTANT]
 > 또는 를 사용하여 목록을 만든 경우 cmdlet을 다시 사용하여 기존 목록을 덮어 `Set-MpPreference` `Add-MpPreference` `Set-MpPreference` 덮어 니다.
@@ -143,15 +137,12 @@ ExclusionProcess
 
 다음 표에서는 프로세스 제외 목록에서 와일드카드를 사용하는 방법에 대해 설명하고 있습니다.
 
-<br>
-
-****
+<br/><br/>
 
 |와일드카드|예제 사용|일치 예제|
 |---|---|---|
 |`*` (asterisk) <p> 문자 수에 따라 바꾸기|`C:\MyData\*`|모든 파일에서 연 파일 `C:\MyData\file.exe`|
 |환경 변수 <p> 제외를 평가할 때 정의된 변수가 경로로 채워지기|`%ALLUSERSPROFILE%\CustomLogFiles\file.exe`|모든 파일에서 연 파일 `C:\ProgramData\CustomLogFiles\file.exe`|
-|
 
 ## <a name="review-the-list-of-exclusions"></a>제외 목록 검토
 

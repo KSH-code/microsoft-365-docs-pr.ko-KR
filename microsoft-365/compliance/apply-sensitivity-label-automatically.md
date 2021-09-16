@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: f3556096b77e775e783cd8d949e1ed5dc2c25024
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f8691f8e8357f7f810468007f9802c19e70dac49
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186339"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401473"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -273,18 +273,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
     ![자동 레이블 지정 구성을 위한 위치 페이지를 선택합니다.](../media/locations-auto-labeling-wizard.png)
     
-    개별 OneDrive 계정을 지정하려는 경우 사용자 OneDrive의 URL은 보통 다음 형식을 따릅니다. UPN(사용자 계정 이름)의 경우 마침표, 쉼표, 공간, 골뱅이(“@”) 등 특수 문자는 밑줄(“_”)로 변환됩니다. `https://<tenant name>-my.sharepoint.com/personal/<user principal name>`
-    
-    예를 들어 UPN이 “rsimone@contoso.onmicrosoft.com”인 Contoso 테넌트 사용자의 경우, `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`(으)로 변환됩니다.
-    
-    또는 UPN이 "rsimone@contoso.com"이 되도록 사용자 지정 도메인 이름을 사용하는 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_com`
-    
-    그러나 충돌이 감지되면 URL에 숫자 또는 GUID를 추가할 수 있으므로 항상 OneDrive 계정에 대한 사용자의 URL을 확인하는 것이 가장 좋습니다. URL을 확인하려면 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다. 자세한 내용은 [조직의 모든 사용자 OneDrive URL 목록 확인](/onedrive/list-onedrive-urls)을 참조하세요.
-    
-    > [!NOTE]
-    > 개별 OneDrive 계정을 지정할 때 OneDrive 계정이 [사전 프로비전](/onedrive/pre-provision-accounts)되어 있지 않으면 사용자가 OneDrive에 처음 액세스할 때까지 URL이 생성되지 않는다는 점에 유의하세요.
-    > 
-    > 또한 사용자의 UPN이 변경되면 OneDrive URL이 [자동적으로 변경](/onedrive/upn-changes)됩니다. 예를 들어, 이름 변경 이벤트(예: 결혼)입니다. 또는 조직의 이름 바꾸기 또는 비즈니스 재구성을 지원하기 위해 도메인 이름을 변경합니다. UPN이 변경되면 여기에서 지정한 OneDrive URL을 업데이트해야 합니다.
+    개별 OneDrive 계정을 지정하려면 [조직의 모든 사용자 OneDrive URL 목록 가져오기](/onedrive/list-onedrive-urls)를 참조하세요.
 
 7. **일반 또는 고급 규칙 설정** 페이지의 경우: 선택한 모든 위치에서 레이블을 지정할 콘텐츠를 식별하는 규칙을 정의하기 위해 **일반 규칙** 의 기본값을 유지합니다. 위치마다 다른 규칙이 필요한 경우 **고급 규칙** 을 선택합니다. 그런 후 **다음** 을 선택합니다.
 

@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a372ae3b15b35c03449973fba2b1181a8ed68ac2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 32ee06e77b9c3f32e4bb9b07458925a254756d2d
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185507"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401893"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>여러 사용자에 대해 위협 방지 Microsoft 365
 
@@ -97,14 +97,11 @@ Microsoft 365 Defender 경고, 인시던트, 자동화된 조사 및 대응, 고
 
 [Microsoft Defender for Office 365](../security/office-365-security/defender-for-office-365.md) 전자 메일 메시지(첨부 파일 및 URL), 문서 및 공동 작업 도구에서 악의적인 위협을 Office 보호합니다. 다음 표에는 Microsoft Defender for Office 365 포함된 Microsoft 365 E5.
 
-<br>
-
-****
+<br/><br/>
 
 |구성, 보호 및 검색 기능|자동화, 조사, 수정 및 교육 기능|
 |---|---|
 |[안전한 첨부 파일](../security/office-365-security/safe-attachments.md) <p> [안전한 링크](../security/office-365-security/safe-links.md) <p> [안전한 문서](../security/office-365-security/safe-docs.md) <p> [SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](../security/office-365-security/mdo-for-spo-odb-and-teams.md) <p> [2016년 8월의 피싱 방지 Microsoft 365](../security/office-365-security/anti-phishing-protection.md)|[위협 트래커](../security/office-365-security/threat-trackers.md) <p> [위협 탐색기](../security/office-365-security/threat-explorer.md) <p> [자동화된 조사 및 응답](../security/office-365-security/office-365-air.md) <p> [공격 시뮬레이션 교육](../security/office-365-security/attack-simulation-training.md)|
-|
 
 Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일 콘텐츠 및 문서의 위협 방지를 통해 보다 안전하게 통신하고 Office 수 있습니다.
 
@@ -187,16 +184,13 @@ Microsoft Defender for Office 365 통해 조직의 사용자들이 전자 메일
 
 Microsoft 365 조직의 사용자에게 알리는 데 도움이 되는 다음 리소스를 제공합니다.
 
-<br>
-
-****
+<br/><br/>
 
 |개념|리소스|
 |---|---|
 |Microsoft 365|[사용자 지정 가능한 학습 경로](/office365/customlearning/) <p> 이러한 리소스는 조직의 최종 사용자를 위한 교육을 구성하는 데 도움이 될 수 있습니다.|
 |Microsoft 365 보안|[Learning 모듈: 기본 제공 지능형 보안 기능으로 조직을 Microsoft 365](/learn/modules/security-with-microsoft-365) <p> 이 모듈에서는 보안 기능이 함께 Microsoft 365 방법을 설명하고 이러한 보안 기능의 이점을 설명할 수 있습니다.|
 |다단계 인증|[2단계 인증: 추가 확인 페이지란?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p> 이 문서는 최종 사용자가 다단계 인증이 무엇일지와 조직에서 사용되는 이유를 이해하는 데 도움이 됩니다.|
-|
 
 이 지침 외에도 사용자는 이 문서에 설명된 작업을 수행하여 해커와 맬웨어로부터 계정 및 장치를 [보호하는 것이 좋습니다.](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx) 이러한 작업은 다음과 같습니다.
 

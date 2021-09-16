@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43190dabe55ab3600a05aa8e6094c6ad7393a04d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ae7d6d448c753737a96db4f74ffd6532ed7e6e66
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191399"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59399601"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -70,21 +70,21 @@ ms.locfileid: "59191399"
 
 - 주소장 정책 없음 - 정보 장벽 정책을 정의하고 적용하기 전에 주소 Exchange 정책이 적용되어 있는지 확인하지 않습니다. 정보 장벽은 주소록 정책을 기반으로 하지만 두 종류의 정책은 호환되지 않습니다. 이러한 정책이 있는 경우 먼저 주소부 정책을 [제거해야](/exchange/address-books/address-book-policies/remove-an-address-book-policy) 합니다. 정보 장벽 정책을 사용하도록 설정하고 계층적 주소 예약을 사용하도록  설정하면 정보 장벽 세그먼트에 포함되지 [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 않은 모든 사용자에게는 온라인 Exchange 표시됩니다.
 
-- PowerShell - 현재 정보 장벽 정책은 PowerShell cmdlet을 사용하여 Office 365 보안 & 규정 준수 센터에서 정의되고 관리됩니다. 이 문서에서는 몇 가지 예제를 제공하겠지만 PowerShell cmdlet 및 매개 변수에 익숙해야 합니다. 또한 이 모듈은 Azure PowerShell 필요합니다.
+- PowerShell - 현재 정보 장벽 정책은 보안 및 준수 센터 PowerShell에서 정의되고 & 관리됩니다. 이 문서에서는 몇 가지 예제를 제공하겠지만 PowerShell cmdlet 및 매개 변수에 익숙해야 합니다. PowerShell 모듈에 Azure Active Directory 필요합니다.
   - [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)
-  - [Azure PowerShell 모듈 설치](/powershell/azure/install-az-ps)
+  - [설치 Azure Active Directory PowerShell을 Graph](/powershell/azure/active-directory/install-adv2)
 
 - Microsoft Teams 정보 장벽에 대한 관리자 동의 - IB 정책이 설정되어 있는 경우 그룹(즉, 그룹을 기반으로 하는 Teams 채널)에서 IB가 아닌 사용자를 제거할 수 있습니다. 이 구성은 조직이 정책 및 규정을 준수하는지 보장하는 데 도움이 됩니다. 다음 절차에 따라 정보 장벽 정책이 해당 정책에서 예상대로 작동하도록 Microsoft Teams.
 
-   1. Pre-requisite: Install Azure PowerShell [에서](/powershell/azure/install-az-ps)설치 Azure PowerShell.
+   1. Pre-requisite: [Azure Active Directory PowerShell for Graph.](/powershell/azure/active-directory/install-adv2)
 
    1. 다음 PowerShell cmdlet을 실행합니다.
 
       ```powershell
-      Connect-AzAccount -Tenant "<yourtenantdomain.com>"  //for example: Connect-AzAccount -Tenant "Contoso.onmicrosoft.com"
+      Connect-AzureAD -Tenant "<yourtenantdomain.com>"  //for example: Connect-AzureAD -Tenant "Contoso.onmicrosoft.com"
       $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
       $sp=Get-AzureADServicePrincipal -Filter "appid eq '$($appid)'"
-      if ($sp -eq $null) { New-AzureADServicePrincipal -ApplicationId $appId }
+      if ($sp -eq $null) { New-AzureADServicePrincipal -AppId $appId }
       Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
       ```
 

@@ -5,7 +5,6 @@ f1.keywords:
 ms.author: siosulli
 author: siosulli
 manager: dansimp
-ms.date: ''
 audience: ITPro
 ms.topic: how-to
 localization_priority: Normal
@@ -19,12 +18,12 @@ ms.custom:
 description: 관리자는 Microsoft 365 Defender 포털에서 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 전자 메일 첨부 파일을 다시 검색하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7bd845f67c25dae154832dbe280b6d158b22db8c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b36497ad6abe0325ea5d8830c4e1995370161c87
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219922"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400921"
 ---
 # <a name="use-the-submissions-portal-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>제출 포털을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -124,6 +123,9 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 > [!div class="mx-imgBorder"]
 > ![새 첨부 파일 제출 예제입니다.](../../media/submission-file-flyout.png)
+
+> [!NOTE]
+> 맬웨어 필터링이 메시지 첨부 파일을 맬웨어 경고 파일로 Text.txt 경우 원본 첨부 파일이 포함된 원본 메시지를 검지에서 제출해야 합니다. 맬웨어 가극적 맬웨어가 있는 메시지를 릴리스하는 방법에 대한 자세한 내용은 관리자로 검사된 메시지 및 파일 관리를 [참조하세요.](manage-quarantined-messages-and-files.md)
 
 ## <a name="view-admin-submissions-to-microsoft"></a>Microsoft에 대한 관리자 제출 보기
 

@@ -19,11 +19,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: mde
 ms.openlocfilehash: 577c87aff1a5e5c95760ea169859da592d05727c
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59357105"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400346"
 ---
 # <a name="microsoft-defender-security-center"></a>Microsoft Defender 보안 센터
 
@@ -45,7 +45,7 @@ Microsoft Defender 보안 센터 Microsoft Defender for Endpoint 기능에 액�
 
 |항목|설명|
 |---|---|
-|시작|최소 요구 사항에 대해 알아보고, 라이선스의 유효성을 검사하고, 설치를 완료하고, 미리 보기 기능에 대해 알아보고, 데이터 저장소 및 개인 정보 보호를 이해하고, 포털에 사용자 액세스를 할당하는 방법을 파악합니다.|
+|시작하기|최소 요구 사항에 대해 알아보고, 라이선스의 유효성을 검사하고, 설치를 완료하고, 미리 보기 기능에 대해 알아보고, 데이터 저장소 및 개인 정보 보호를 이해하고, 포털에 사용자 액세스를 할당하는 방법을 파악합니다.|
 |[온보딩 장치](onboard-configure.md)|클라이언트, 서버 및 비보안 장치 온보 Windows 대해 자세히 알아보습니다. 검색 테스트를 실행하고, 프록시 및 인터넷 연결 설정을 구성하고, 잠재적인 온보더링 문제를 해결하는 방법을 배워야 합니다.|
 |[포털 이해](use.md)|보안 작업, 보안 점수 및 위협 분석 대시보드와 포털 탐색 방법을 이해합니다.|
 |위협 조사 및 수정|경고, 장치를 조사하고 대응 조치를 취하여 위협을 해결합니다.|

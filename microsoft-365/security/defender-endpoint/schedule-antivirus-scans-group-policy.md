@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 06/09/2021
+ms.date: 09/13/2021
 ms.reviewer: pauhijbr, ksarens
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 6ca4616cd1c2818e0a1eb0b5c286142e9f65f32b
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 8f1025ac7392e146be3486655513ce39086d3337
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353589"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59400789"
 ---
 # <a name="schedule-antivirus-scans-using-group-policy"></a>그룹 정책을 사용하여 바이러스 백신 검사 예약
 
@@ -43,8 +43,12 @@ ms.locfileid: "59353589"
 
 5. 일반적으로와 같은 그룹 정책 개체를 배포합니다. 그룹 정책 개체에 대한 도움이 필요한 경우 그룹 정책 개체 [만들기를 참조합니다.](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
 
-> [!TIP]
-> 보호 업데이트를 다운로드 [및](manage-protection-update-schedule-microsoft-defender-antivirus.md) 적용해야 하는 경우 관리 및 사용자가 정책 설정을 로컬로 수정할 수 있도록 허용 안 하도록 허용 항목을 [참조하세요.](configure-local-policy-overrides-microsoft-defender-antivirus.md)
+> [!NOTE]
+> 예약된 검색을 구성할 때, 컴퓨터가 사용 중이지만 사용 중이 아닌 경우 예약된 검사 시작 설정은 컴퓨터를 먼저 유휴하도록 요구하여 예상되는 예약된 시간 에 영향을 줄 수 있습니다. 
+>
+> 주간 검사의 경우 Windows 서버의 기본 동작은 컴퓨터 유휴 시 자동 유지 관리 외부에서 검색하는 것입니다. 기본 Windows 10 이상은 컴퓨터 유휴 시 자동 유지 관리 중에 검색하는 것입니다. 이 동작을 변경하려면 **ScanOnlyIfIdle을** 사용 안 하도록 설정하고 일정을 정의합니다.
+
+자세한 내용은 Manage [when protection updates should be downloaded and applied 및](manage-protection-update-schedule-microsoft-defender-antivirus.md) Prevent or allow users to modify policy [settings](configure-local-policy-overrides-microsoft-defender-antivirus.md) topics을 참조하세요.
 
 ## <a name="group-policy-settings-for-scheduling-scans"></a>검사의 그룹 정책 설정
 

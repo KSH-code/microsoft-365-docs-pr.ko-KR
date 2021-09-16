@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a1a000ec60d84e5abc4ec23591b917eb3072582e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 44a613f1f6a35f22f207b85180296c34ebf1cf11
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214872"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401269"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>이전 버전의 Windows 온보딩
 
@@ -38,7 +38,6 @@ ms.locfileid: "59214872"
 - Windows 8.1 Pro
 - Windows 8.1 Enterprise
 
-
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-downlevel-abovefoldlink)
 
 Endpoint용 Defender는 지원되는 운영 체제 버전에 고급 공격 감지 및 조사 기능을 제공함으로써 지원되는 운영 체제를 포함하기 Windows 확장합니다.
@@ -52,6 +51,7 @@ Endpoint용 Defender는 지원되는 운영 체제 버전에 고급 공격 감�
 > 장치를 온보드한 후 검색 테스트를 실행하여 서비스에 올바르게 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 Endpoint 끝점에 대한 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
 ## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>클라이언트 구성 및 System Center Endpoint Protection 업데이트
+
 > [!IMPORTANT]
 > 이 단계는 조직에서 SCEP(ScEP)를 사용하는 System Center Endpoint Protection 필요합니다.
 
@@ -59,7 +59,7 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 
 이 통합을 사용하려면 다음 단계가 필요합니다.
 
-- 클라이언트용 맬웨어 방지 플랫폼 [2017년 1월 Endpoint Protection 업데이트 설치](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie) 
+- 클라이언트용 맬웨어 방지 플랫폼 [2017년 1월 Endpoint Protection 업데이트 설치](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie)
 - 고급 설정으로 SCEP 클라이언트 클라우드 보호 서비스 멤버 자격 **구성**
 - 클라우드에 대한 연결을 허용하도록 Microsoft Defender 바이러스 백신 구성합니다. 자세한 내용은 클라우드에 대한 연결 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud)
 
@@ -70,7 +70,7 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 다음 세부 정보를 검토하여 최소 시스템 요구 사항을 확인합니다.
 
 - [2018년 2월 월별 업데이트 롤업 설치](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
-  
+
   > [!NOTE]
   > Windows 7 SP1 Enterprise 및 Windows 7 SP1 Pro.
 
@@ -112,6 +112,7 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 - 프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 허용하거나 SSL 검사(SSL 검사)를 통해 허용하는 경우 끝점 서비스 URL용 [Defender에](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)대한 액세스를 사용하도록 설정해야 합니다.
 
 ## <a name="run-a-detection-test-to-verify-onboarding"></a>검색 테스트를 실행하여 온보더링 확인
+
 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
 ## <a name="offboard-client-endpoints"></a>오프보드 클라이언트 끝점
