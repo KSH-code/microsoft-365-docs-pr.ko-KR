@@ -323,6 +323,8 @@
               href: usage-analytics/usage-analytics-data-model.md
             - name: 사용 현황 분석 오류 문제 해결
               href: usage-analytics/usage-analytics-errors.md
+        - name: ServiceNow 구성 가이드와 Microsoft 365 지원 통합
+          href: manage/microsoft-365-servicenow-support-integration.md
     - name: 구독 및 청구 관리
       href: ../commerce/index.yml
     - name: 조직 보호

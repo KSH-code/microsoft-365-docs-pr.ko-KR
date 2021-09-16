@@ -13,19 +13,16 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: f4399635be64343b4858dbf0b507284afc1f6573
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3a538f866be9d43088ab22923b41c6b070855ea3
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216502"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356128"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
 >*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
-
-> [!NOTE]
-> 미리 보기에 이 기능이 있으며, 변경될 수 있습니다.
 
 Office 데스크톱 앱에 [공동 작성](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4)을 지원하도록 설정을 하면, 문서가 [민감도 레이블](sensitivity-labels.md)로 분류되어 암호화될 때 여러 사용자가 동시에 이러한 문서를 편집할 수 있습니다.
 
@@ -33,7 +30,7 @@ Office 데스크톱 앱에 [공동 작성](https://support.office.com/article/ee
 
 또한 이 기능을 사용하도록 설정하면, 레이블이 지정되고 암호화된 파일에 [자동 저장](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) 기능이 지원됩니다.
 
-첫 릴리스 공지 사항을 읽으려면 [Microsoft Information Protection으로 암호화된 문서 및 레이블 지정 업데이트에 관한 공동 작성 발표](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-co-authoring-on-microsoft-information-protection/ba-p/2164162) 블로그 게시물을 참조하세요.
+릴리스 발표를 읽으려면 블로그 게시물[Microsoft Information Protection 암호화 문서에 대한 공동 작성을 이제 일반적으로 사용할 수 있습니다](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/co-authoring-on-microsoft-information-protection-encrypted/ba-p/2693718)를 참조하세요.
 
 ## <a name="metadata-changes-for-sensitivity-labels"></a>민감도 레이블의 메타데이터 변경 내용
 
@@ -77,15 +74,15 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 - [SharePoint의 Office 파일 및 테넌트의 OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)에 민감도 레이블을 사용해야 합니다. 아직 이 기능을 활성화하지 않은 경우, 민감도 레이블이 있는 파일에 공동 작성 설정을 선택하면 이 기능이 자동으로 활성화됩니다.
 
 - 엔터프라이즈용 Microsoft 365 앱
-    - **Windows**: 최소 버전 2106
-    - **macOS**: 최소 버전 16.50
+    - **Windows**: 최소 버전 2107
+    - **macOS**: 최소 버전 16.51
     - **iOS**: 아직 지원되지 않음
     - **Android**: 아직 지원되지 않음
 
 - 테넌트의 모든 앱, 서비스 및 운영 도구는 새 [레이블 지정 메타데이터](#metadata-changes-for-sensitivity-labels)를 지원해야 합니다. 다음을 사용하고 있는 경우 필수 최소 버전을 확인하세요.
     
     - **Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너:**
-        - [Microsoft 다운로드 센터](https://www.microsoft.com/en-us/download/details.aspx?id=53018)에서 설치할 수 있는 공개 미리 보기 버전(AzInfoProtection_2.10.46_CoAuthoring_PublicPreview.exe의 설치 이름)
+        - [Microsoft 다운로드 센터](https://www.microsoft.com/en-us/download/details.aspx?id=53018)에서 설치할 수 있는 최소 버전 [2.12.62.0](/information-protection/rms-client/unifiedlabelingclient-version-release-history#version-212620)
     
     - **Windows 또는 MacOS용 OneDrive 동기화 앱:**
         - 19.002.0121.0008 최소 버전
@@ -112,6 +109,8 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
     
     Excel에만 해당: 다른 사용자가 민감도 레이블의 메타데이터 변경 내용을 지원하지 않는 Excel 버전을 사용하여 해당 파일을 편집하고 저장한 경우, 암호화를 적용하지 않는 민감도 레이블의 메타데이터를 파일에서 삭제할 수 있습니다.
 
+- iOS 및 Android용 Office 앱은 현재 지원되지 않습니다.
+
 - 공동 작성 및 자동 저장을 지원하지 않으며, 다음 [구성을 암호화](encryption-sensitivity-labels.md#configure-encryption-settings)하는 데 사용하는 레이블 지정 및 암호화된 Office 문서에서는 작동하지 않습니다.
     - **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 허용하고** **Word, PowerPoint및 Excel에서는 사용자에게 권한을 지정하라는 메시지** 가 선택됩니다. 때로는 이 구성을 ‘사용자 정의 권한’이라고도 합니다.
     - **콘텐츠에 대한 사용자 액세스 만료** 가 **만료 안 함** 이외의 값으로 설정됩니다.
@@ -119,30 +118,20 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
     
     이러한 암호화 구성이 있는 레이블이면, 레이블은 Office 앱에 표시됩니다. 하지만 사용자가 이러한 레이블을 선택해도 문서를 편집하는 다른 사용자가 없으면, 공동 작성 및 자동 저장을 사용할 수 없다는 경고가 표시됩니다. 다른 사용자가 문서를 편집한다면, 레이블을 적용할 수 없다는 메시지가 나타납니다.
 
-- Azure Information Protection 통합 레이블 지정 클라이언트를 사용하는 경우: 이 레이블 지정 클라이언트에 대한 설명서 [추가 요구 사항 또는 제한](/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview)에서 참조하세요.
-
-## <a name="known-issues-for-this-preview"></a>이 미리 보기의 알려진 문제
-
-민감도 레이블로 암호화된 파일을 위한 공동 작성의 이 미리보기 버전에는 다음과 같이 알려진 문제가 있습니다.
-
-- 사용자는 300MB보다 큰 Word, Excel 및 PowerPoint 파일에 대해 웹용 Office에서 레이블을 적용할 수 없습니다. 이러한 파일에는 Office 데스크톱 앱을 사용하여 레이블을 적용할 수 있지만, 해당 파일이 열려 있는 유일한 사용자여야만 가능합니다.
-
-- 현재 롤아웃 중: [민감도 레이블을 조건으로 하는 DLP 정책](dlp-sensitivity-label-as-condition.md) 및 암호화되지 않은 전자 메일 첨부 파일 지원입니다.
-
-- 일부 문서는 [암호 보호](https://support.microsoft.com/office/require-a-password-to-open-or-modify-a-workbook-10579f0e-b2d9-4c05-b9f8-4109a6bce643), [공유 통합 문서](https://support.microsoft.com/office/about-the-shared-workbook-feature-49b833c0-873b-48d8-8bf2-c1c59a628534) 또는 ActiveX 컨트롤이 포함된 콘텐츠와 같은 기능으로 인해 민감도 레이블과 호환되지 않습니다. 그 밖의 다른 이유는 [Office의 공동 작성 문제 해결](https://support.microsoft.com/office/troubleshoot-co-authoring-in-office-bd481512-3f3a-4b6d-b7eb-ebf9d3626ae7)에서 확인할 수 있습니다. 이러한 문서의 경우 **UPLOAD FAILED 메시지** 가 표시되고 **변경 내용 취소** 옵션을 선택해야 합니다. 이 문제가 해결될 때까지 이 실패 메시지로 식별되는 문서에 레이블을 지정하지 마세요.
-
-- iOS 및 Android용 오피스 앱은 지원하지 않습니다.
+- Azure Information Protection 통합 레이블 지정 클라이언트를 사용하는 경우: 이 레이블 지정 클라이언트에 대한 설명서 [추가 요구 사항 또는 제한](/azure/information-protection/known-issues#known-issues-for-co-authoring)에서 참조하세요.
 
 ## <a name="how-to-enable-co-authoring-for-files-with-sensitivity-labels"></a>민감도 레이블이 있는 파일에 공동 작성을 사용하는 방법
 
 > [!CAUTION]
-> 이 설정은 한 번 켜고 나면 다시 끌 수 없습니다. 기능이 미리 보기에 있는 동안에는 이 페이지에서 설명하는 메타데이터 변경 내용, 필수 구성 요소, 제한 사항 및 알려진 문제를 읽고 이해한 후에만 설정을 변경해 주세요.
+> 이 설정은 한 번 켜고 나면 다시 끌 수 없습니다. 이 페이지에서 설명하는 메타데이터 변경 내용, 필수 구성 요소, 제한 사항 및 알려진 문제를 읽고 이해한 후에만 사용해 주세요.
+
+미리 보기 기간 동안 이 설정을 이미 켠 경우 추가 작업이 필요하지 않으며 이 절차를 건너뛸 수 있습니다.
 
 1. 테넌트의 전역 관리자로서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에 로그인합니다.
 
 2. 탐색 창에서 **설정** > **민감도 레이블이 있는 파일 공동 작성** 을 선택합니다.
 
-2. **민감도 레이블이 있는 파일 공동 작성(미리 보기)** 페이지에서 요약 설명과 필수 구성 요소, 예상 내용, 이 설정을 켠 후에는 해제할 수 없다는 경고를 읽습니다.
+2. **민감도 레이블이 있는 파일 공동 작성** 페이지에서 요약 설명과 필수 구성 요소, 예상 내용, 이 설정을 켠 후에는 해제할 수 없다는 경고를 읽습니다.
     
     그런 다음 **민감도 레이블이 있는 파일에 공동 작성을 사용** 하도록 설정을 선택하여 **적용** 합니다.
     
