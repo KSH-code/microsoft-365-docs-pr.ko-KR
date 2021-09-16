@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이상 탐지 경고를 조사합니다.
-ms.openlocfilehash: 57e32f0fc2d50e5e1f1d4d9fb9e6b1520f0f99e6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 69f0f3cee8c818ac071204baa10cb2be8aae6336
+ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190132"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "59401785"
 ---
 # <a name="investigate-anomaly-detection-alerts"></a>이상 탐지 경고 조사
 
@@ -295,3 +295,28 @@ ms.locfileid: "59190132"
 1. 앱에서 승인한 범위를 검토합니다.  
 1. 앱에서 만든 받은 편지함 규칙 작업을 검토합니다.  
 1. 앱에서 수행한 모든 SharePoint 또는 OneDrive 검색 활동을 검토합니다.
+
+### <a name="app-made-high-volume-of-importance-mail-read-and-created-inbox-rule"></a>앱에서 많은 양의 중요도 메일을 읽고 받은 편지함 규칙을 만들었습니다.
+
+**심각도**: 보통  
+
+**MITRE ID**: T1137, T1114
+
+이 탐지는 앱이 높은 권한 범위에 동의하고 의심스러운 받은 편지함 규칙을 만들고 Graph API를 통해 중요한 메일 읽기 작업을 대량으로 수행했음을 나타냅니다. 이는 공격자가 Graph API를 통해 조직의 중요도가 높은 전자 메일을 읽으려고 시도하는 것과 같은 조직 침해 시도가 있었음을 나타낼 수 있습니다.  
+
+**TP일까요, FP일까요?**
+
+- **TP**: 권한 범위가 높은 OAuth 앱에서 Graph API를 통해 읽은 중요한 전자 메일을 확인할 수 있고 해당 앱은 알 수 없는 소스로부터 배달됩니다.  
+
+  **권장 작업**: 앱을 사용하지 않도록 설정하여 제거하고, 암호를 다시 설정하고, 받은 편지함 규칙을 제거합니다.  
+
+- **FP**: 앱이 Graph API를 통해 중요한 전자 메일을 대량으로 읽고 합법적인 이유로 새 외부 전자 메일 계정 또는 개인 외부 전자 메일 계정에 대한 받은 편지함 규칙을 만든 것을 확인할 수 있는 경우입니다.  
+
+  **권장 작업**: 경고를 해제합니다.  
+
+**위반 범위 이해하기**
+
+1. 앱에서 수행한 모든 활동을 검토합니다.  
+1. 앱에서 승인한 범위를 검토합니다.  
+1. 앱에서 만든 받은 편지함 규칙 작업을 검토합니다.  
+1. 앱에서 수행하는 중요도가 높은 전자 메일 읽기 활동을 검토합니다.  

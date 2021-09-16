@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 881db58dc6658c7ed73201e48e7e2079dbf6aa97
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 3e3014feb80383c370aa49f387966c574df587f9
+ms.sourcegitcommit: bf801ff8b45a68edb587f1661d06acd4121ecb49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401017"
+ms.locfileid: "59407684"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신
 
@@ -96,9 +96,9 @@ ms.locfileid: "59401017"
 | 수정 | 재구성 완료를 위해 예약된 전체 검사 실행 시간을 지정합니다. | [예약된 Microsoft Defender 바이러스 백신 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | 보고 | 향상된 알림 끄기 | [엔드포인트에 표시되는 알림 구성](configure-notifications-microsoft-defender-antivirus.md)
 | 루트 | 끄기 Microsoft Defender 바이러스 백신 | 사용되지 않습니다(설치된 타사  바이러스 백신 앱이 올바르게 작동하도록 이 설정을 구성되지 않도록 설정해야 합니다.
-| 루트 | 프록시 서버를 무시할 주소 정의 | [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md#configure-a-static-proxy-for-microsoft-defender-antivirus) |
-| 루트 | 네트워크에 연결하기 위한 프록시 자동 구성(.pac) 정의 | [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md#configure-a-static-proxy-for-microsoft-defender-antivirus) |
-| 루트 | 네트워크에 연결하기 위한 프록시 서버 정의 | [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md#configure-a-static-proxy-for-microsoft-defender-antivirus) |
+| 루트 | 프록시 서버를 무시할 주소 정의 | 사용되지 않음 |
+| 루트 | 네트워크에 연결하기 위한 프록시 자동 구성(.pac) 정의 | 사용되지 않음 |
+| 루트 | 네트워크에 연결하기 위한 프록시 서버 정의 | 사용되지 않음 |
 | 루트 | 목록에 대한 로컬 관리자 병합 동작 구성 | [사용자가 정책 설정을 로컬로 수정하지 못하도록 차단 또는 허용](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | 루트 | 맬웨어 방지 서비스가 정상 우선 순위로 시작하도록 허용 | [검사에 대한 Microsoft Defender 바이러스 백신 구성](configure-remediation-microsoft-defender-antivirus.md) |
 | 루트 | 맬웨어 방지 서비스가 항상 실행되는 상태로 유지하도록 허용 | [검사에 대한 Microsoft Defender 바이러스 백신 구성](configure-remediation-microsoft-defender-antivirus.md) |
