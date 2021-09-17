@@ -22,12 +22,12 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - admindeeplinkMAC
-ms.openlocfilehash: 1947e8e91beb23f328e59ffe30fac0f596165121
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bced40831a9d73e0c72c6ebb232839409c8a64ea
+ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184659"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59356299"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS 레코드를 추가하여 도메인 연결하기
 
@@ -74,7 +74,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 필드가 다음 값으로 설정되어 있는지 확인합니다.
 
 - 레코드 종류: `MX`
-- 우선순위: 사용 가능한 가장 높은 값(일반적으로 `0`)으로 설정됩니다.
+- 우선 순위: 아직 사용되지 않는 큰 값으로 설정합니다.
 - 호스트 이름: `@`
 - 대상 주소: 관리 센터에서 값을 복사하여 여기에 붙여넣습니다.
 - TTL: `3600`(또는 공급자 기본값)
