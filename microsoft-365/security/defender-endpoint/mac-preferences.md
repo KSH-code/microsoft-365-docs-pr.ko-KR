@@ -1,6 +1,6 @@
 ---
 title: Mac의 끝점에 대한 Microsoft Defender 기본 설정 설정
-description: 엔터프라이즈 조직에서 Mac의 끝점에 대해 MMicrosoft Defender를 구성합니다.
+description: 엔터프라이즈 조직에서 Mac의 끝점에 대한 Microsoft Defender를 구성합니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 관리, 기본 설정, 엔터프라이즈, intune, jamf, macos, 카탈로나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b5db9e2b75e7dcb7cb08ea29f696531935b2f486
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a396f704405b062954b5d51fff4e69e85807e621
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165695"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59444190"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점에 대한 Microsoft Defender 기본 설정 설정
 
@@ -83,6 +83,22 @@ ms.locfileid: "59165695"
 |**사용 가능한 값:**|true(기본값) <p> false|
 |||
 
+#### <a name="run-a-scan-after-definitions-are-updated"></a>정의가 업데이트된 후 검사 실행
+디바이스에서 새 보안 인텔리전스 업데이트를 다운로드한 후 프로세스 검색을 시작할지 여부를 지정합니다. 이 설정을 사용하도록 설정하면 장치의 실행 중인 프로세스에서 바이러스 백신 검사가 트리거됩니다.
+
+<br>
+
+****
+
+|섹션|값|
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|scanAfterDefinitionUpdate|
+|**Data type**|부울|
+|**사용 가능한 값:**|false(기본값) <p> true|
+|**Comments**|Microsoft Defender for Endpoint 버전 101.41.10 이상에서 사용할 수 있습니다.|
+|||
+
 #### <a name="enable--disable-passive-mode"></a>수동 모드 사용/사용 안 하도록 설정
 
 바이러스 백신 엔진이 수동 모드에서 실행되는지 여부를 지정합니다. 수동 모드에는 다음과 같은 의미가 있습니다.
@@ -105,7 +121,7 @@ ms.locfileid: "59165695"
 |**사용 가능한 값:**|false(기본값) <p> true|
 |**Comments**|Microsoft Defender for Endpoint 버전 100.67.60 이상에서 사용할 수 있습니다.|
 |||
-
+  
 #### <a name="exclusion-merge-policy"></a>제외 병합 정책
 
 제외에 대한 병합 정책을 지정합니다. 이는 관리자 정의 및 사용자 정의 제외( ) 또는 관리자 정의 제외()의 조합일 `merge` 수 `admin_only` 있습니다. 이 설정을 사용하여 로컬 사용자가 자신의 제외를 정의하지 못하도록 제한할 수 있습니다.
@@ -693,6 +709,10 @@ macOS에서 끝점용 Microsoft Defender의 끝점 EDR(검색 및 응답) 구성
                 <dict>
                     <key>enableRealTimeProtection</key>
                     <true/>
+                    <key>passiveMode</key>
+                    <false/>
+                    <key>ScanAfterDefinitionUpdate</key>
+                    <false/>
                     <key>threatTypeSettings</key>
                     <array>
                         <dict>
@@ -740,6 +760,8 @@ macOS에서 끝점용 Microsoft Defender의 끝점 EDR(검색 및 응답) 구성
         <key>enableRealTimeProtection</key>
         <true/>
         <key>passiveMode</key>
+        <false/>
+        <key>ScanAfterDefinitionUpdate</key>
         <false/>
         <key>maximumOnDemandScanThreads</key>
         <integer>1</integer>

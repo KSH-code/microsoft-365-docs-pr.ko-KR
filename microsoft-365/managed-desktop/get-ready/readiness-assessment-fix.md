@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: f3ccb47c2facffed0a259b4807f8155b4c87cb70
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9332483dffa9fc67bf319cc57aef89d25c866843
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215542"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59443998"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -38,7 +38,7 @@ Intune 설정은 Microsoft Endpoint Manager [있습니다.](https://endpoint.mic
 
 ### <a name="autopilot-deployment-profile"></a>Autopilot 배포 프로필
 
-장치와 함께 할당되거나 동적 그룹을 대상으로 하는 기존 Autopilot 프로필이 Microsoft Managed Desktop 없습니다. Microsoft Managed Desktop Autopilot을 사용하여 새 장치를 프로비전합니다.
+장치와 함께 할당되거나 동적 그룹을 대상으로 하는 기존 Autopilot 프로필이 Microsoft Managed Desktop 없습니다. Microsoft Managed Desktop Autopilot을 사용하여 새 장치를 프로비전합니다. 기존 Autopilot 배포 프로필이 있는 경우 Autopilot의 관리되는 데스크톱 준비 테스트가 성공하려면 "모든 대상 장치를 Autopilot로 변환" 설정을 "아니요"로 설정해야 합니다.
 
 **준비되지 않음**
 

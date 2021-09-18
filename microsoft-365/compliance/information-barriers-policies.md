@@ -1,6 +1,6 @@
 ---
-title: 정보 장벽 정책 정의
-description: 정보 장벽에 대한 정책을 정의하는 방법을 Microsoft Teams.
+title: 정보 장벽 시작
+description: 정보 장벽을 시작하는 방법을 배워야 합니다.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,14 +15,14 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae7d6d448c753737a96db4f74ffd6532ed7e6e66
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: c2c8721cbabd6267bb7c67efc56953bb22186a0b
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399601"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59443962"
 ---
-# <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
+# <a name="get-started-with-information-barriers"></a>정보 장벽 시작
 
 정보 장벽을 사용하여 특정 사용자 세그먼트가 서로 통신하지 못하도록 설계된 정책을 정의하거나 특정 세그먼트가 특정 다른 세그먼트와만 통신하도록 허용할 수 있습니다. 정보 장벽 정책은 조직이 관련 산업 표준 및 규정을 준수하고 잠재적인 이해 관계 충돌을 방지하는 데 도움이 될 수 있습니다. 자세한 내용은 정보 [장벽을 참조하세요.](information-barriers.md)
 
@@ -51,7 +51,7 @@ ms.locfileid: "59399601"
 | [2부: 정보 장벽 정책 정의](#part-2-define-information-barrier-policies) | - 정책 정의(아직 적용되지 않습니다)<br/>- 두 가지 종류(차단 또는 허용) 중 선택 |
 | [3부: 정보 장벽 정책 적용](#part-3-apply-information-barrier-policies) | - 정책을 활성 상태로 설정<br/>- 정책 응용 프로그램 실행<br/>- 정책 상태 보기 |
 | (필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md) | - 세그먼트 편집<br/>- 정책 편집 또는 제거<br/>- 정책 응용 프로그램 다시 실행<br/>- 정책 상태 보기 |
-| (필요한 경우) [문제 해결](information-barriers-troubleshooting.md)| - 작업이 예상대로 작동하지 않는 경우 작업 수행|
+| (필요한 경우) [문제 해결](/office365/troubleshoot/information-barriers/information-barriers-troubleshooting)| - 작업이 예상대로 작동하지 않는 경우 작업 수행|
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -268,7 +268,7 @@ PowerShell을 사용하면 다음 표에 나와 있는 사용자 계정, 세그�
 
 리소스는 정보 장벽 정책을 관리하는 데 도움이 됩니다.
 
-- 정보 장벽에 문제가 있는 경우 정보 장벽 [문제 해결을 참조하세요.](information-barriers-troubleshooting.md)
+- 정보 장벽에 문제가 있는 경우 정보 장벽 [문제 해결을 참조하세요.](/office365/troubleshoot/information-barriers/information-barriers-troubleshooting)
 - 정책이 적용되지 못하게 중지하는 경우 정책 응용 프로그램 [중지를 참조합니다.](information-barriers-edit-segments-policies.md#stop-a-policy-application)
 - 정보 장벽 정책을 제거하려면 [정책 제거를 참조하세요.](information-barriers-edit-segments-policies.md#remove-a-policy)
 - 세그먼트 또는 정책을 변경하려면 정보 장벽 정책 [편집(또는 제거)을 참조하세요.](information-barriers-edit-segments-policies.md)

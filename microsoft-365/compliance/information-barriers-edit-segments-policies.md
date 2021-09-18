@@ -12,16 +12,16 @@ ms.collection:
 localization_priority: None
 f1.keywords:
 - NOCSH
-ms.openlocfilehash: 668ca8e26371d80f068c2723357ce3ee407db03a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dff13dd6c4011ec73a1976bce0af69b607e391b0
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210995"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59444058"
 ---
 # <a name="manage-information-barrier-policies"></a>정보 장벽 정책 관리
 
-정보 장벽 정책을 [정의한](information-barriers-policies.md)후 문제 해결의 일부로 또는 정기적인 유지 관리로 해당 정책이나 사용자 세그먼트를 변경해야 할 수 있습니다. [](information-barriers-troubleshooting.md) 이 문서를 가이드로 사용하세요.
+정보 장벽 정책을 [정의한](information-barriers-policies.md)후 문제 해결의 일부로 또는 정기적인 유지 관리로 해당 정책이나 사용자 세그먼트를 변경해야 할 수 있습니다. [](/office365/troubleshoot/information-barriers/information-barriers-troubleshooting)
 
 ## <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
 
@@ -34,7 +34,7 @@ ms.locfileid: "59210995"
 | [정책 제거](#remove-a-policy) | 더 이상 특정 정책을 적용하지 필요가 없는 경우 정보 장벽 정책을 제거합니다. |
 | [정책 응용 프로그램 중지](#stop-a-policy-application) | 정보 장벽 정책을 적용하는 프로세스를 중지하려는 경우 이 작업을 수행하세요.<br/> 정책 응용 프로그램을 중지하는 것은 즉각적인 것이 아니며 사용자에게 이미 적용된 정책을 실행 취소하지 않습니다. |
 | [정보 장벽을 위한 정책 정의](information-barriers-policies.md) | 이러한 정책이 아직 설정되지 않은 경우 정보 장벽 정책을 정의하고 특정 사용자 그룹 간의 통신을 제한하거나 제한해야 합니다. |
-| [정보 장벽 문제 해결](information-barriers-troubleshooting.md) | 정보 장벽으로 예기치 않은 문제가 발생할 경우 이 문서를 참조하세요. |
+| [정보 장벽 문제 해결](/office365/troubleshoot/information-barriers/information-barriers-troubleshooting) | 정보 장벽으로 예기치 않은 문제가 발생할 경우 이 문서를 참조하세요. |
 
 > [!IMPORTANT]
 > 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise 전역 관리자<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 준수 관리(새로운 역할입니다!)<br><br>정보 장벽의 선행 준비에 대한 자세한 내용은 [Prerequisites (for information barrier policies)을 참조하십시오.](information-barriers-policies.md#prerequisites)<br><br> 보안 및 준수 센터 [PowerShell에 & 합니다.](/powershell/exchange/connect-to-scc-powershell)
@@ -170,4 +170,4 @@ ms.locfileid: "59210995"
 - [온라인에서 정보 장벽에 대해 SharePoint 정보](/sharepoint/information-barriers)
 - [정보 장벽에 대해 자세히 OneDrive](/onedrive/information-barriers)
 - [정보 장벽 정책의 속성](information-barriers-attributes.md)
-- [정보 장벽 문제 해결](information-barriers-troubleshooting.md)
+- [정보 장벽 문제 해결](/office365/troubleshoot/information-barriers/information-barriers-troubleshooting)

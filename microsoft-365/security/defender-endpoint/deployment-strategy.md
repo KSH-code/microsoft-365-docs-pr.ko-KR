@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 99f4bf80dcfc7a621d3249eae20b41100b1e5ab8
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: c1aa44e26a127bff90a8d0cf591d0418c50687d2
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399268"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59444178"
 ---
 # <a name="plan-your-microsoft-defender-for-endpoint-deployment"></a>엔드포인트용 Microsoft Defender 배포 계획
 
@@ -48,7 +48,7 @@ ms.locfileid: "59399268"
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![Endpoint 배포 전략용 Defender의 축소판 이미지입니다.](images/mde-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf)  \| [Visio](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) | 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
+|[![Endpoint 배포 전략용 Defender의 축소판 이미지입니다.](images/mde-deployment-strategy.png)](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf)<br/> [PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf)  \| [Visio](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) | 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
 
 ## <a name="step-2-select-deployment-method"></a>2단계: 배포 방법 선택
 

@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스를 사용하는 MSP(관리 서비스 공급자)Microsoft 365 Lighthouse 위협 관리 페이지에 대해 자세히 알아보십시오.
-ms.openlocfilehash: f9ed274b295b40f9784a193a02dad925462a6e9e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7f8a5ef0ebea7204b0463b921946362acfed17d9
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212482"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59443974"
 ---
 # <a name="microsoft-365-lighthouse-threat-management-page-overview"></a>Microsoft 365 Lighthouse 위협 관리 페이지 개요 
 
@@ -32,7 +32,7 @@ ms.locfileid: "59212482"
 
 - Windows 10
 
-Microsoft Defender 바이러스 백신 바이러스, 맬웨어 및 스파이웨어를 비롯한 소프트웨어 위협으로부터 테넌트, 사용자 및 장치를 보호합니다. 이 구성은 기본 제공되고 Windows 10 포함된 강력하고 지속적인 Microsoft 365 Business Premium.  
+Microsoft Defender 바이러스 백신 바이러스, 맬웨어 및 스파이웨어를 비롯한 소프트웨어 위협으로부터 테넌트, 사용자 및 장치를 보호합니다. Windows 10 및 Microsoft &nbsp; 365 E3에 Microsoft 365 Business Premium 강력하고 지속적인 &nbsp; 보호 기능입니다.  
   
 위협 관리 페이지의 Microsoft 365 Lighthouse 왼쪽 탐색 창에서 위협 관리를 선택하여 위협에 대한 고객 테넌트의 보안태세를 볼 수 있습니다.  위험을 줄이는 데 도움이 되는 주의가 필요한 테넌트, 사용자 및 장치를 볼 수 있습니다.  
   

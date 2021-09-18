@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 08f264a5f1c651bc336326c35332e8a8a568a4bb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 42c8a34082b2607f7803a44d444d2b4e5d0772b6
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192189"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59444242"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -73,7 +73,7 @@ Microsoft 365 광범위한 정보 보호 및 규정 준수 기능이 포함되�
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![Endpoint 배포 전략용 Microsoft Defender의 축소판 이미지입니다.](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) <br>2020년 2월에 업데이트됨| 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
+|[![Endpoint 배포 전략용 Microsoft Defender의 축소판 이미지입니다.](../media/solutions-architecture-center/mde-deployment-strategy.png)](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf)<br/> [PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf)  \| [Visio](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) <br>2021년 9월에 업데이트되었습니다.| 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
 
 
 <a name="BKMK_O365IDP"></a>

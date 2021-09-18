@@ -13,12 +13,12 @@ ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
-ms.openlocfilehash: 1870c442676db58d8e0a48cea66bf50ed7dd051f
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 7927ba193d6b488911d3d658ac48f4980d90969c
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356497"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59444106"
 ---
 # <a name="set-up-and-configure-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1에 대한 Microsoft Defender 설정 및 구성(미리 보기)
 
@@ -72,9 +72,9 @@ Endpoint Plan 1(미리 보기)에 대한 일반적인 설치 및 구성 프로�
 
 배포 옵션에 대한 자세한 내용은 [Plan your Defender for Endpoint deployment을 참조하세요.](deployment-strategy.md) 그리고 다음 포스터를 다운로드합니다. 
 
-[:::image type="content" source="../../media/defender-endpoint/mde-deployment-strategy.png" alt-text="배포 전략 포스터 축소판 그림":::](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)
+[:::image type="content" source="../../media/defender-endpoint/mde-deployment-strategy.png" alt-text="배포 전략 포스터 축소판 그림":::](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf)
 
-**[배포 포스터를 받을 수 있습니다.](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)**
+**[배포 포스터를 받을 수 있습니다.](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf)**
 
 > [!TIP]
 > 배포 계획에 대한 자세한 내용은 [Plan your Microsoft Defender for Endpoint deployment을 참조하세요.](deployment-strategy.md)

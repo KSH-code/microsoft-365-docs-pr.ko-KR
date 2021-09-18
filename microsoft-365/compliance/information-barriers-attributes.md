@@ -1,5 +1,5 @@
 ---
-title: 정보 장벽 정책의 속성
+title: 정보 장벽 특성
 description: 이 문서는 정보 장벽 세그먼트를 정의하는 Azure Active Directory 사용자 계정 특성에 대한 참조입니다.
 ms.author: robmazz
 author: robmazz
@@ -13,14 +13,14 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee410bf455e770087da7999ad2019c17419a8e00
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e4309b7973b3f74ba43d178b6761449c91856d06
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184035"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59443950"
 ---
-# <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 속성
+# <a name="information-barriers-attributes"></a>정보 장벽 특성
 
 사용자 세그먼트화에 Azure Active Directory 특성을 사용할 수 있습니다. 세그먼트가 정의되고 나면 이러한 세그먼트를 정보 장벽 정책에 대한 필터로 사용할 수 있습니다. 예를 들어 **Department를** 사용하여 조직 내의 부서별로 사용자 세그먼트를 정의할 수 있습니다(한 번의 직원이 두 부서에 동시에 작업하지 않을 경우).
 
@@ -97,5 +97,5 @@ ms.locfileid: "59184035"
 ## <a name="resources"></a>리소스
 
 - [정보 장벽에 대한 정책을 Microsoft Teams](information-barriers-policies.md)
-- [정보 장벽 문제 해결](information-barriers-troubleshooting.md)
+- [정보 장벽 문제 해결](/office365/troubleshoot/information-barriers/information-barriers-troubleshooting)
 - [정보 장벽](information-barriers.md)

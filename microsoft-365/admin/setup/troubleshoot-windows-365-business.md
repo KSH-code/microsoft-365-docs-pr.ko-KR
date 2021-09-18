@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 description: 365 Business 클라우드 PC의 설치 문제를 Windows 방법을 학습합니다.
 ms.date: 08/13/2021
-ms.openlocfilehash: 701d1ce3ae97836d6687050e16a176aad85e2995
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: cae971187e188e6213242481b9cfaeb7dc21c7f2
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192102"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59444130"
 ---
 # <a name="troubleshoot-windows-365-business-cloud-pc-setup-issues"></a>365 Windows 클라우드 PC 설정 문제 해결
 
@@ -47,6 +47,14 @@ ms.locfileid: "59192102"
 4. 사용자가 **장치를 Azure AD에** 가입할 수 있는 경우 모두로 설정되지 **않은** 경우 모두 를 선택한 다음 저장을 **선택합니다.**
 5. [2단계로 이동. 365 Windows](#step-2-verify-that-the-windows-365-bprt-permanent-user-system-account-is-active)영구 사용자 시스템 계정이 활성 상태인지 확인
 
+설치하려는  클라우드 PC를 지정된 사용자에게 할당할 수 있도록 사용자당 최대 장치 수가 충분히 높은지 확인
+
+1. 에서 Microsoft Azure 포털에 https://portal.azure.com/ 로그인합니다.
+2. 관리 **Azure Active Directory** **보기를 선택합니다.**
+3. 왼쪽 nav의 관리 에서 장치 **를** 선택한 다음 장치 설정을 **선택합니다.**
+4. 사용자당 **최대 장치 수에 대해** 값을 입력합니다.
+5. 변경한 경우 저장 을 **선택합니다.**
+
 ## <a name="step-2-verify-that-the-windows-365-bprt-permanent-user-system-account-is-active"></a>2단계. Windows 365 BPRT 영구 사용자 시스템 계정이 활성 상태인지 확인
 
 조직에서 Windows 365 라이선스를 처음 할당하면 Azure AD에서 Windows **BPRT** 영구 사용자라는 시스템 계정이 자동으로 만들어집니다. 이 계정을 삭제하거나 변경하지 않습니다(예: 이름 또는 UPN 변경). 시스템 계정을 수정하거나 삭제하면 설치가 실패합니다. 이 시스템 계정은 원활한 설치 프로세스를 보장하며, Windows 365 Business의 범위가 지정되는 서비스 기능 이외에는 조직에 대한 쓰기 기능이나 액세스 권한이 없습니다. 이 시스템 계정을 삭제하거나 수정하는 경우 windows365.microsoft.com 365 Business 라이선스가 Windows 계정으로 로그인하고 토큰이 새로 고쳐지기까지 12시간을 기다려야 합니다.
@@ -57,7 +65,7 @@ Azure AD에서 Windows 365 BPRT 영구 사용자 시스템 계정이 활성화�
 2. 왼쪽 nav의 **관리에서** 사용자를 **선택합니다.**
 3. 검색 상자에 Windows **365 BPRT 영구** 사용자 를 입력한 다음 Enter 를 **입력합니다.**
 4. 365 Windows 영구 사용자 시스템 계정이 있는 경우 [3단계로 이동하세요. 장치 기반 MFA가 꺼져 있는지 확인합니다.](#step-3-verify-that-device-based-mfa-is-turned-off)
-5. Windows 365 BPRT 영구 사용자 시스템 계정이 누락되거나 변경된 경우 windows365.microsoft.com 365 Business 라이선스가 할당된 계정으로 Windows 로그인합니다. 365 BPRT 영구 Windows 새 계정이 12시간 후 생성됩니다. 토큰이 다시 생성된 후 [6단계로 직접 이동 합니다. 클라우드 PC를 초기화합니다.](#step-6-reset-your-cloud-pcs)
+5. Windows 365 BPRT 영구 사용자 시스템 계정이 누락되거나 변경된 경우(예: 암호 재설정, 속성 변경, 라이선스 할당 또는 할당 제거 등) 12시간 후에 Windows 365 Business 라이선스가 할당된 계정으로 windows365.microsoft.com 로그인하세요. 새 Windows 365 BPRT 영구 사용자가 생성됩니다. 토큰이 다시 생성된 후 [6단계로 직접 이동 합니다. 클라우드 PC를 초기화합니다.](#step-6-reset-your-cloud-pcs)
 
 ## <a name="step-3-verify-that-device-based-mfa-is-turned-off"></a>3단계. 장치 기반 MFA가 꺼져 있는지 확인
 
