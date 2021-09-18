@@ -1,11 +1,11 @@
 ---
-title: Office 365용 Defender에서 PIM(Privileged Identity Management)을 사용합니다.
+title: Office 365용 Microsoft Defender에서 PIM(Privileged Identity Management)을 사용합니다.
 f1.keywords:
 - NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 08/09/2021
+ms.date: 09/03/2021
 audience: ITPro
 ms.topic: article
 localization_priority: Priority
@@ -20,13 +20,14 @@ ms.custom:
 description: 사용자가 Office 365용 Microsoft Defender에서 상승된 권한 작업을 수행하여 데이터에 대한 위험을 낮출 수 있도록 시간이 제한된 Just-In-Time 액세스 권한을 부여하기 위해 PIM을 통합하는 방법을 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d1333963f841a9d9263f44263ad43d20ec75057
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 22fbb2dd57c8bd3d6ac9b25b219895bc480c266c
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615043"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59444265"
 ---
+<!--A-->
 # <a name="privileged-identity-management-pim-and-why-to-use-it-with-microsoft-defender-for-office-365"></a>PIM(Privileged Identity Management) 및 Office 365용 Microsoft Defender와 함께 사용해야 하는 이유
 
 PIM(Privileged Identity Management)은 일단 설정되면 특정 작업을 수행할 수 있도록 제한된 기간(시간 제한 기간이라고도 함) 동안 사용자에게 데이터에 대한 액세스 권한을 부여하는 Azure 기능입니다. 이 액세스 권한은 필요한 작업을 수행하기 위해 'Just-In-Time로 부여된 다음 취소됩니다. PIM은 사용자가 중요한 데이터에 액세스해야 하는 시간과 시간을 제한하여 데이터 및 기타 설정에 장기간 액세스할 수 있는 권한 있는 관리 계정과 비교할 때 노출 위험을 줄입니다. 그렇다면 이 기능(PIM)을 Office 365용 Microsoft Defender와 함께 어떻게 사용할 수 있을까요?
@@ -38,11 +39,10 @@ PIM(Privileged Identity Management)은 일단 설정되면 특정 작업을 수�
 
 관리자는 Office 365용 Microsoft Defender와 함께 작동하도록 PIM을 설정하여 사용자가 필요한 작업을 수행하기 위해 액세스를 요청하는 프로세스를 만듭니다. 사용자는 권한 상승의 필요성에 대해 *사유를 제시* 해야 합니다.
 
-이 예에서는 Office 365 내에서 상시 액세스 권한은 없지만 일상적인 작업에 필요한 역할로 승격할 수 있는 보안 팀의 구성원인 "Alex"를 구성할 예정이며, 이메일 삭제와 같이 빈도가 낮지만 중요한 작업이 필요한 경우 권한 수준을 높일 수 있습니다.
+이 예에서는 Office 365 내에서 상시 액세스 권한은 없지만 [위협 헌팅](threat-hunting-in-threat-explorer.md)처럼 일상적인 작업에 필요한 역할로 승격할 수 있는 보안 팀의 구성원인 "Alex"를 구성할 예정이며, [악의적인 전달된 이메일 교정](remediate-malicious-email-delivered-office-365.md)과 같이 빈도가 낮지만 중요한 작업이 필요한 경우 권한 수준을 높일 수 있습니다.
 
 > [!NOTE]
 > 이 예제는 Office 365용 Microsoft Defender에서 위협 탐색기를 사용하여 전자 메일을 제거하는 기능이 필요한 보안 분석가를 위해 PIM을 설정하는 데 필요한 단계를 안내하지만 보안 및 규정 준수 포털 내의 다른 RBAC 역할에 동일한 단계를 사용할 수 있습니다. 예를 들어 이 프로세스는 검색 및 케이스 작업을 수행하기 위해 매일 eDiscovery에 액세스해야 하지만 테넌트에서 데이터를 내보낼 수 있는 승격된 권한이 필요한 정보 작업자에게 사용할 수 있습니다.
-
 
 ***1단계***. 구독에 대한 Azure PIM 콘솔에서 사용자(Alex)를 Azure 보안 리더 역할에 추가하고 활성화와 관련된 보안 설정을 구성합니다.
 
@@ -58,7 +58,7 @@ PIM(Privileged Identity Management)은 일단 설정되면 특정 작업을 수�
 > [!NOTE]
 > Privileged Identity Management에 대한 간략한 검토는 [이 동영상](https://www.youtube.com/watch?v=VQMAg0sa_lE)을 참조하세요.
 
-:::image type="content" source="../../media/pim-mdo-role-setting-details-for-security-reader-show-8-hour-max-activation.PNG" alt-text="Privileged Access Management에서 보안 리더 역할에 대한 설정을 검색해야 합니다. 여기에서는 PIM 활성화의 최대 기간이 8시간임을 알 수 있습니다.":::
+:::image type="content" source="../../media/pim-mdo-role-setting-details-for-security-reader-show-8-hr-duration.png" alt-text="Privileged Access Management에서 보안 리더 역할에 대한 설정을 검색해야 합니다. 여기에서는 PIM 활성화의 최대 기간이 8시간임을 알 수 있습니다.":::
 
 ***2단계***. 추가 작업에 필요한 두 번째(승격된) 권한 그룹을 만들고 자격을 할당합니다.
 
@@ -66,7 +66,7 @@ PIM(Privileged Identity Management)은 일단 설정되면 특정 작업을 수�
 
 ### <a name="create-a-role-group-requiring-the-permissions-we-need"></a>필요한 권한을 요구하는 역할 그룹을 만듭니다.
 
-보안 포털에서 원하는 권한이 포함된 사용자 지정 역할 그룹을 만듭니다. 
+보안 포털에서 원하는 권한이 포함된 사용자 지정 역할 그룹을 만듭니다.
 
 1. Microsoft 365 Defender 포털(https://security.microsoft.com)로 이동하여  > **권한 및 역할** > 이메일 및 공동 작업 **역할** > **만들기** 를 선택합니다.
 2. 'PIM 검색 및 제거'와 같은 목적을 반영하도록 그룹 이름을 지정합니다.
@@ -89,16 +89,17 @@ PIM(Privileged Identity Management)은 일단 설정되면 특정 작업을 수�
 
     `Add-RoleGroupMember "<<Role Group Name>>" -Member "<<Azure Security Group>>"`
 
+## <a name="test-your-configuration-of-pim-with-defender-for-office-365"></a>Office 365용 Defender로 PIM 구성 테스트
 
-## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
-
-1. 관리 액세스 권한이 없는 테스트 사용자로 로그인합니다.
+1. 이 시점에서 [Microsoft 365 Defender 포털](/microsoft-365/security/defender/overview-security-center) 내에서 관리 액세스 권한이 없어야 하는 테스트 사용자(Alex)로 로그인합니다.
 2. 사용자가 일상적인 보안 리더 역할을 활성화할 수 있는 PIM으로 이동합니다.
 3. 위협 탐색기를 사용하여 이메일을 제거하려고 하면 추가 권한이 필요하다는 오류가 표시됩니다.
 4. PIM을 두 번째로 더 높은 역할로 변경하면 잠시 후 이제 문제 없이 이메일을 삭제할 수 있습니다.
 
-검색 및 제거 역할의 영구 할당은 제로 트러스트 보안 이니셔티브와 함께 유지되지 않지만 PIM을 사용하여 필요한 도구 집합에 대한 Just-In-Time 액세스 권한을 부여할 수 있습니다.
+   :::image type="content" source="../../media/pim-mdo-add-the-search-and-purge-role-assignment-to-this-pim-role.PNG" alt-text="보안 리더 PIM 역할을 통해 추가한 사용자(Alex)가 의심스러운 이메일을 삭제하려고 하면 '이 이메일에 조치를 취하려면 검색 및 제거 역할이 필요합니다. 역할 할당을 받거나 인시던트에 이메일을 추가하려면 관리자에게 문의하세요'라는 메시지를 받게 됩니다.":::
 
-:::image type="content" source="../../media/pim-mdo-add-the-search-and-purge-role-assignment-to-this-pim-role.PNG" alt-text="보안 리더 PIM 역할을 통해 추가한 사용자(Alex)가 의심스러운 이메일을 삭제하려고 하면 '이 이메일에 조치를 취하려면 검색 및 제거 역할이 필요합니다. 역할 할당을 받거나 인시던트에 이메일을 추가하려면 관리자에게 문의하세요'라는 메시지를 받게 됩니다.":::
+검색 및 제거 역할과 같은 관리 역할 및 권한의 영구 할당은 제로 트러스트 보안 이니셔티브와 관련이 없지만, 보이는 것처럼 을 사용하여 필요한 도구 세트에 대한 Just-In-Time 액세스 권한을 부여할 수 있습니다.
 
-검색 및 제거 역할의 영구 할당은 제로 트러스트 보안 이니셔티브와 함께 유지되지 않지만 PIM을 사용하여 여기에서도 Just-In-Time 액세스 권한을 부여할 수 있습니다.
+*블로그 게시물과 이 콘텐츠에 사용된 리소스에 액세스할 수 있게 해 준 고객 엔지니어 Ben Harris에게 감사드립니다.*
+
+<!--A-->
