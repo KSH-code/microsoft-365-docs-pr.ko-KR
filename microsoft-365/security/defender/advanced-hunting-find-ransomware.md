@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cf5f0a63645fccb9f3895796c8ec514efe091a94
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: ee5a65bab280b6a6024d2a0d6deca1e17962794f
+ms.sourcegitcommit: db571169242063f104450fec4c4b19aeec688b15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401569"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447375"
 ---
 # <a name="hunt-for-ransomware"></a>랜섬웨어 찾기
 
@@ -265,6 +265,7 @@ Microsoft의 주요 정보:
 
 Microsoft 365:
 
+- [테넌트에 대한 랜섬웨어 Microsoft 365 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)
 - [랜섬웨어 공격으로부터 복구](/microsoft-365/security/office-365-security/recover-from-ransomware)
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어로부터 Windows 10 PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)

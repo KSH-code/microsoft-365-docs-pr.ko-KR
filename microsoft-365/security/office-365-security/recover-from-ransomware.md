@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d1a45d0397cb34ade8dd6fcb2a79404516817f2b
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: ee90b01580115bff7050b0f101e8c9e049841bbb
+ms.sourcegitcommit: db571169242063f104450fec4c4b19aeec688b15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400537"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447357"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -153,6 +153,7 @@ Microsoft의 주요 정보:
 
 Microsoft 365:
 
+- [테넌트에 대한 랜섬웨어 Microsoft 365 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어로부터 Windows 10 PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
