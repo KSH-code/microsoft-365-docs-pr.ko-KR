@@ -71,12 +71,20 @@
                   href: create-secure-guest-sharing-environment.md
             - name: 외부 공유 참조
               href: microsoft-365-guest-settings.md
-    - name: Microsoft 365 전체에 위협 보호 기능 배포
+    - name: Microsoft 365 테넌트용 랜섬웨어 보호 배포
       items:
         - name: 개요
-          href: deploy-threat-protection.md
-        - name: 위협 방지 배포 단계
-          href: deploy-threat-protection-configure.md
+          href: ransomware-protection-microsoft-365.md
+        - name: 1단계. 보안 기준 구성
+          href: ransomware-protection-microsoft-365-security-baselines.md
+        - name: 2단계. 공격 탐지 및 대응 배포
+          href: ransomware-protection-microsoft-365-attack-detection-response.md
+        - name: 3단계. ID 보호
+          href: ransomware-protection-microsoft-365-identities.md
+        - name: 4단계. 장치 보호
+          href: ransomware-protection-microsoft-365-devices.md
+        - name: 5단계. 정보 보호
+          href: ransomware-protection-microsoft-365-information.md
     - name: 데이터 개인 정보 규정을 위한 정보 보호 배포
       items:
         - name: 개요

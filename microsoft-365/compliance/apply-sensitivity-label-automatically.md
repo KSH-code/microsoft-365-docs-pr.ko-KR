@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: f8691f8e8357f7f810468007f9802c19e70dac49
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 0f4d702581192ab35d3d515fa668043e9a1c1399
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401473"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59444022"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -52,34 +52,34 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
     구성 방법에 대한 자세한 내용은 이 페이지에서 [Office 앱에 대한 자동 레이블 지정 구성 방법](#how-to-configure-auto-labeling-for-office-apps)을 참조하세요.
 
 - **콘텐츠가 이미 저장되었거나(SharePoint 또는 OneDrive) 전자 메일로 전송(Exchange Online에서 처리됨)된 경우 서비스쪽 레이블 지정**: 자동 레이블 지정 정책을 사용합니다.
+    
+    이 메서드는 미사용 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 불리기도 합니다. Exchange의 경우에는 미사용 전자 메일(사서함)을 포함하지 않습니다.
+    
+    이 레이블 지정은 응용 프로그램이 아닌 서비스에서 적용되므로 사용자에게 어떤 버전의 앱이 있는지 걱정할 필요가 없습니다. 따라서 이 기능은 조직 전체에서 즉시 사용할 수 있으며 대규모로 레이블을 지정하는 데 적합합니다. 자동 레이블 지정 정책은 사용자가 레이블 지정 프로세스와 상호 작용하지 않기 때문에 권장되는 레이블 지정을 지원하지 않습니다. 대신 관리자가 시뮬레이션 모드에서 정책을 실행하여 실제로 레이블을 적용하기 전에 콘텐츠의 올바른 레이블을 확인합니다.
 
-  이 메서드는 미사용 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 불리기도 합니다. Exchange의 경우에는 미사용 전자 메일(사서함)을 포함하지 않습니다.
+    구성 지침은 이 페이지에서 [SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)을 참조하세요.
+    
+    SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
+    
+    - Word (.docx), PowerPoint (.pptx) 및 Excel용 Office 파일(.xlsx)이 지원됩니다.
+        - 이러한 파일은 자동 레이블 지정 정책이 작성되기 전이나 만들어진 후에 유휴 상태로 자동 레이블링될 수 있습니다. 파일이 열려 있는 세션(파일이 열려 있는 경우)의 일부인 경우 자동 레이블을 지정할 수 없습니다.
+        - 현재 목록 항목에 대한 첨부 파일은 지원되지 않으며 레이블이 자동 지정되지 않습니다.
+    - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
+    - 개별적으로 지정된 경우 최대 100개의 사이트(SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 100개의 자동 레이블 정책. 또한 모든 사이트를 지정할 수 있으며 이 구성은 최대 100개 사이트에서 제외됩니다.
+    - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
+    - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 파일을 마지막으로 수정한 계정입니다.
 
-  이 레이블 지정은 응용 프로그램이 아닌 서비스에서 적용되므로 사용자에게 어떤 버전의 앱이 있는지 걱정할 필요가 없습니다. 따라서 이 기능은 조직 전체에서 즉시 사용할 수 있으며 대규모로 레이블을 지정하는 데 적합합니다. 자동 레이블 지정 정책은 사용자가 레이블 지정 프로세스와 상호 작용하지 않기 때문에 권장되는 레이블 지정을 지원하지 않습니다. 대신 관리자가 시뮬레이션 모드에서 정책을 실행하여 실제로 레이블을 적용하기 전에 콘텐츠의 올바른 레이블을 확인합니다.
-
-  구성 지침은 이 페이지에서 [SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)을 참조하세요.
-
-  SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
-
-  - Word, PowerPoint, Excel Office 파일은 지원됩니다. Open XML 형식(예: .docx, .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc, .xls)은 지원되지 않습니다.
-    - 이러한 파일은 자동 레이블 지정 정책이 작성되기 전이나 만들어진 후에 유휴 상태로 자동 레이블링될 수 있습니다. 파일이 열려 있는 세션(파일이 열려 있는 경우)의 일부인 경우 자동 레이블을 지정할 수 없습니다.
-    - 현재 목록 항목에 대한 첨부 파일은 지원되지 않으며 레이블이 자동 지정되지 않습니다.
-  - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
-  - 개별적으로 지정된 경우 최대 100개의 사이트(SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 100개의 자동 레이블 정책. 또한 모든 사이트를 지정할 수 있으며 이 구성은 최대 100개 사이트에서 제외됩니다.
-  - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
-  - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 파일을 마지막으로 수정한 계정입니다.
-
-  Exchange 자동 레이블 지정에만 해당:
-
-  - Office 앱을 사용하는 수동 레이블 지정 또는 자동 레이블 기능과는 달리, PDF 첨부 파일과 Office 첨부 파일(Word, Excel, PowerPoint 파일)에도 자동 레이블 지정 정책에서 지정한 조건에 대한 검사가 실시됩니다. 일치하는 경우 전자 메일에는 레이블이 지정되지만 첨부 파일에는 지정되지 않습니다.
-    - PDF 파일의 경우, 레이블이 암호화를 적용한다면 테넌트가 [PDF 첨부 파일을 사용](ome-faq.yml#are-pdf-file-attachments-supported-)할 때 해당 파일이 암호화됩니다.
-    - Office 파일의 경우, Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc 및 .xls)은 지원되지 않습니다. 레이블이 암호화를 적용할 경우 해당 파일은 암호화됩니다.
-  - IRM 암호화를 적용하는 Exchange 메일 흐름 규칙 또는 DLP(데이터 손실 방지) 정책이 있는 경우: 이러한 규칙 또는 정책과 자동 레이블 지정 정책으로 콘텐츠를 식별하면 레이블이 적용됩니다. 해당 레이블이 암호화를 적용하면 Exchange 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 무시됩니다. 그러나 해당 레이블에 암호화가 적용되지 않으면 레이블과 더불어 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 적용됩니다.
-  - 레이블이 없는 IRM 암호화를 포함하는 전자 메일은 자동 레이블 지정을 사용하여 일치하는 항목이 있는 경우 모든 암호화 설정이 있는 레이블로 대체됩니다.
-  - 자동 레이블 지정 조건과 일치하는 경우 수신 전자 메일에 레이블이 지정됩니다.
+    Exchange 자동 레이블 지정에만 해당:
+    
+    - Office 앱을 사용하는 수동 레이블 지정 또는 자동 레이블 기능과는 달리, PDF 첨부 파일과 Office 첨부 파일에도 자동 레이블 지정 정책에서 지정한 조건에 대한 검사가 실시됩니다. 일치하는 경우 전자 메일에는 레이블이 지정되지만 첨부 파일에는 지정되지 않습니다.
+        - PDF 파일의 경우 레이블이 암호화를 적용하면 테넌트가 [PDF 첨부 파일에 대해 활성화](ome-faq.yml#are-pdf-file-attachments-supported-)된 경우 [OME(Office 365 메시지 암호화)](ome.md)를 사용하여 이러한 파일이 암호화됩니다.
+        - 해당 Office 파일의 경우, Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다. 레이블이 암호화를 적용하는 경우 [OME(Office 365 메시지 암호화)](ome.md)를 사용하여 암호화됩니다.
+    - IRM 암호화를 적용하는 Exchange 메일 흐름 규칙 또는 DLP(데이터 손실 방지) 정책이 있는 경우: 이러한 규칙 또는 정책과 자동 레이블 지정 정책으로 콘텐츠를 식별하면 레이블이 적용됩니다. 해당 레이블이 암호화를 적용하면 Exchange 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 무시됩니다. 그러나 해당 레이블에 암호화가 적용되지 않으면 레이블과 더불어 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 적용됩니다.
+    - 레이블이 없는 IRM 암호화를 포함하는 전자 메일은 자동 레이블 지정을 사용하여 일치하는 항목이 있는 경우 모든 암호화 설정이 있는 레이블로 대체됩니다.
+    - 자동 레이블 지정 조건과 일치하는 경우 수신 전자 메일에 레이블이 지정됩니다.
     - [암호화](encryption-sensitivity-labels.md)를 위해 레이블을 구성하는 경우 해당 암호화는 적용되지 않습니다.
     - [동적 표시](sensitivity-labels-office-apps.md#dynamic-markings-with-variables)를 적용하기 위해 레이블을 구성하는 경우, 결과에 조직 외부 사용자의 이름이 표시될 수 있다는 사실을 명심하세요.
-  - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 전자 메일을 보낸 사람입니다. 현재는 들어오는 모든 전자 메일 메시지에 대해 자동으로 암호화되는 권한 관리자 소유자를 설정할 수 있는 방법이 없습니다.
+    - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 전자 메일을 보낸 사람입니다. 현재는 들어오는 모든 전자 메일 메시지에 대해 자동으로 암호화되는 권한 관리자 소유자를 설정할 수 있는 방법이 없습니다.
 
 ## <a name="compare-auto-labeling-for-office-apps-with-auto-labeling-policies"></a>자동 레이블 지정 정책과 Office 앱에 대한 자동 레이블 지정 비교
 
@@ -94,7 +94,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 |조건: 전자 메일 공유 옵션 및 추가 옵션|아니요 |예 |
 |조건: 예외|아니요 |예(전자 메일만 해당) |
 |권장 사항, 정책 도구 설명 및 사용자 재정의|예 |아니요 |
-|시뮬레이션 모드|아니요 |예 |
+|시뮬레이션 모드|아니오 |예 |
 |조건이 확인된 Exchange 첨부 파일|아니요 | 예|
 |시각적 표시 적용 |예 |예(전자 메일만 해당) |
 |레이블 없이 적용된 IRM 암호화 재정의|예(사용자에게 내보내기의 최소 사용 권한이 있는 경우) |예(전자 메일만 해당) |

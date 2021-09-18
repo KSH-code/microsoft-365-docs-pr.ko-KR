@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: c340e8b1bb8e126445b802e6b03c91d595e32a43
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 863ef1c40781e2bff3e9b2de6217e1dad114f46a
+ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59355963"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59443792"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -178,7 +178,7 @@ ms.locfileid: "59355963"
 
 2. **보고서** 를 선택합니다. 
   
-3. **모든 보고서에서 사용자, 그룹 및 사이트의 비식별화된 이름 표시** 를 선택 취소한 다음 변경 내용을 저장합니다.  
+3. **모든 보고서의 숨겨진 사용자 그룹, 사이트 이름** 문을 선택 취소하고 변경 내용을 저장합니다.  
   
 보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 [Microsoft Graph](/graph/api/resources/report?view=graph-rest-1.0) 및 [Power BI](/microsoft-365/admin/usage-analytics/usage-analytics?view=o365-worldwide)의 Microsoft 365 사용 보고서와 [Microsoft Teams 관리 센터](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)의 사용 보고서에도 적용됩니다. 식별 가능한 사용자 정보를 표시하는 것은 Microsoft 365 규정 준수 센터 감사 로그에 기록된 이벤트입니다.   
 
