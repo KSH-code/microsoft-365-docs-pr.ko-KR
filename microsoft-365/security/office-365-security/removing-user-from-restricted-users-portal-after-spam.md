@@ -20,12 +20,12 @@ description: 관리자는 Microsoft 365 Defender 포털의 제한된 사용자 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 774f47c65f98a2e93ee6e50406afe897a315de12
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f9c54f5ac443192f094f1c1edb14273c9f226f9f
+ms.sourcegitcommit: db571169242063f104450fec4c4b19aeec688b15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187379"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447363"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-microsoft-365"></a>Microsoft 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -46,7 +46,7 @@ ms.locfileid: "59187379"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. **제한된 사용자** 페이지로 직접 이동하려면 <https://security.microsoft.com/restrictedusers>를 사용합니다.
+- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. **제한된 사용자** 페이지로 직접 이동하려면 <https://security.microsoft.com/restrictedusers>을(를) 사용합니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -66,7 +66,7 @@ ms.locfileid: "59187379"
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-a-user-from-the-restricted-users-list"></a>Microsoft 365 Defender 포털을 사용하여 제한된 사용자 목록에서 사용자 제거
 
-1. Microsoft 365 Defender 포털에서 **Email & collaboration**(전자 메일 및 공동 작업) > **검토** > **제한된 사용자** 로 이동합니다.
+1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업**\>**검토** \> **제한된 사용자** 로 이동합니다.
 
 2. **제한된 사용자** 페이지에서 사용자를 클릭하여 차단을 해제할 사용자를 찾아 선택합니다.
 

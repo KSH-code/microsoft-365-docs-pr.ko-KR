@@ -76,14 +76,12 @@
           href: information-barriers-solution-overview.md
         - name: 정보 장벽에 대해 알아보기
           href: information-barriers.md
-        - name: 정보 장벽 정책 정의
+        - name: 정보 장벽 시작
           href: information-barriers-policies.md
-        - name: 정보 장벽 정책의 속성
-          href: information-barriers-attributes.md
-        - name: 정보 장벽 문제 해결
-          href: information-barriers-troubleshooting.md
-        - name: 정보 장벽 정책 편집
+        - name: 정보 장벽 관리
           href: information-barriers-edit-segments-policies.md
+        - name: 정보 장벽 특성
+          href: information-barriers-attributes.md
     - name: 권한이 부여된 액세스 관리
       items:
         - name: 개요
