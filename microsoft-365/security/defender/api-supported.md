@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: acd8ec28fb1d78e3724cb0ca0ebee48133e7310f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 77c20811e6aeba266908b4d83c4f81da8b5716d4
+ms.sourcegitcommit: 7be84e7940c63b4c958b9da875d323bead9aae95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189329"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59453583"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>지원되는 Microsoft 365 Defender API 
 
@@ -43,7 +43,7 @@ ms.locfileid: "59189329"
 -|-
 [고급 헌팅 API](api-advanced-hunting.md) | 고급 헌팅 쿼리를 실행합니다.
 [인시던트 API](api-incident.md) | 다른 실용적인 작업과 함께 인시던트 나열 및 업데이트
-[스트리밍 API(미리](streaming-api.md) 보기) | 단일 데이터 스트림에서 발생하는 실시간 이벤트 및 경고를 제공합니다.
+[스트리밍 API](streaming-api.md) | 단일 데이터 스트림에서 발생하는 실시간 이벤트 및 경고를 제공합니다.
 
 ### <a name="endpoint-uris"></a>끝점 URIS
 

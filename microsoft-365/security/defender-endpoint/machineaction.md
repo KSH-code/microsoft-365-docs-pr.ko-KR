@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c5ac9de03cec817f469fe096689e4badf615bb4c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 33df420b8b480b6957e2ec71b3bb5494f61fce63
+ms.sourcegitcommit: 7be84e7940c63b4c958b9da875d323bead9aae95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166991"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59453619"
 ---
 # <a name="machineaction-resource-type"></a>MachineAction 리소스 유형
 
@@ -66,20 +66,20 @@ ms.locfileid: "59166991"
 |ID|Guid|[Machine Action 엔터티의 ID입니다.](machineaction.md)|
 |type|Enum|작업의 유형입니다. 가능한 값은 "RunAntiVirusScan", "Offboard", "Live Response", "CollectInvestigationPackage", "Isolate", "Unisolate", "StopAndQuarantineFile", "RestrictCodeExecution" 및 "UnrestrictCodeExecution"입니다.|
 |scope|문자열|작업의 범위입니다. 바이러스 백신 검사의 경우 "전체" 또는 "선택적" 및 "빠른" 또는 "전체"입니다.|
-|requestor|문자열|작업을 실행한 사람의 ID입니다.|
+|requestor|String|작업을 실행한 사람의 ID입니다.|
 |externalID|String|고객이 사용자 지정 상관 관계 요청에 제출할 수 있는 ID입니다.|
 |requestSource|문자열|작업을 제출한 사용자/응용 프로그램의 이름입니다.|
 | 명령|array|실행할 명령입니다. 허용되는 값은 PutFile, RunScript, GetFile입니다.|
 |cancellationRequestor|String|작업을 취소한 사람의 ID입니다.|
 |requestorComment|String|작업을 실행할 때 작성된 설명입니다.|
-|cancellationComment|문자열|작업을 취소할 때 작성된 설명입니다.|
+|cancellationComment|String|작업을 취소할 때 작성된 설명입니다.|
 |status|Enum|명령의 현재 상태입니다. 가능한 값은 "Pending", "InProgress", "Succeeded", "Failed", "TimeOut" 및 "Cancelled"입니다.|
-|machineId|문자열|작업이 실행된 컴퓨터의 ID입니다. [](machine.md)|
-|machineId|String|작업이 [실행된](machine.md) 컴퓨터의 이름입니다.|
+|machineId|String|작업이 실행된 컴퓨터의 ID입니다. [](machine.md)|
+|computerDnsName|String|작업이 [실행된](machine.md) 컴퓨터의 이름입니다.|
 |creationDateTimeUtc|DateTimeOffset|작업을 만든 날짜 및 시간입니다.|
 |cancellationDateTimeUtc|DateTimeOffset|작업이 취소된 날짜 및 시간입니다.|
 |lastUpdateDateTimeUtc|DateTimeOffset|작업 상태가 업데이트된 마지막 날짜 및 시간입니다.|
-|제목|String|컴퓨터 작업 제목입니다.|
+|title|String|컴퓨터 작업 제목입니다.|
 |relatedFileInfo|클래스|두 속성이 들어 있습니다. string , Enum 값으로 `fileIdentifier` `fileIdentifierType` "Sha1", "Sha256" 및 "Md5"를 지정합니다.|
 
 ## <a name="json-representation"></a>Json 표현

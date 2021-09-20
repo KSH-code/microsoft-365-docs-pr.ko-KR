@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 링크 정책 및 전역 금고 링크 설정을 보고, 만들고, 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c1abe4f436f92cf64a94774df70a893a3dd2b9df
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5ab6620348d35d6ec5100c7e98c9043d68173377
+ms.sourcegitcommit: 7be84e7940c63b4c958b9da875d323bead9aae95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185539"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59453607"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크 정책 Office 365
 
@@ -46,7 +46,7 @@ ms.locfileid: "59185539"
 >
 > 관리자는 링크에 대한 다양한 구성 금고 고려해야 합니다. 사용 가능한 옵션 중 하나는 링크에 사용자 식별 정보를 금고 것입니다. 이 기능을 사용하면 *보안 Ops* 팀에서 잠재적인 사용자 손상을 조사하고, 수정 조치를 취하고, 비용이 많이 드는 위반을 제한할 수 있습니다.
 
-금고 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 Exchange Online 사서함이 있는 적격 Microsoft 365 조직, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell( Exchange Online 추가 기능 구독의 경우 Microsoft Defender)에서 Office 365 링크 정책을 구성할 수 있습니다.
+Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 Exchange Online 사서함이 있는 적합한 Microsoft 365 조직에 대해 Exchange Online 링크 정책을 구성할 수 있습니다. 금고 Exchange Online 추가 기능 구독용 Microsoft Defender를 Office 365)
 
 링크 정책의 금고 요소는 다음입니다.
 
@@ -119,7 +119,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 링크 정책을 만
      - **파일을 지정하는** 의심스러운 링크 및 링크에 대한 실시간 URL 검색 적용: 전자 메일 메시지의 링크를 실시간으로 검색할 수 있도록 설정하려면 이 옵션을 선택합니다. 이 설정을 켜면 다음 설정을 사용할 수 있습니다.
        - **메시지를 배달하기** 전에 URL 검색이 완료될 때까지 기다렸다가 : 메시지를 배달하기 전에 실시간 URL 검색이 완료될 때까지 기다리는 경우 이 옵션을 선택합니다.
      - **조직 금고** 보내는 전자 메일 메시지에 대한 링크 적용: 내부 보낸 사람과 내부 받는 사람 간의 메시지에 금고 링크 정책을 적용하려면 이 옵션을 선택합니다.
-   - **내 알 수 없는 URL** 또는 잠재적으로 악의적인  URL에 대한 작업을 Microsoft Teams: 을 선택하여 금고 링크 보호를 사용하도록 Teams.
+   - **내 알 수 없는 URL** 또는 잠재적으로 악의적인  URL에 대한 작업을 Microsoft Teams: 을 선택하여 금고 링크 보호를 사용하도록 Teams. 이 설정을 적용하는 데 최대 24시간이 걸릴 수 있습니다.
    - **사용자 클릭 추적 안** 하세요. 추적 사용자가 전자 메일 메시지의 URL을 클릭할 수 있도록 설정하려면 이 설정을 선택하지 않은 그대로 하세요.
    - **사용자가 원래 URL을 클릭할** 수 있도록 허용 안 하도록 허용: 사용자가 경고 페이지에서 원래 URL을 클릭하지 못하도록 차단하려면 이 [옵션을 선택합니다.](safe-links.md#warning-pages-from-safe-links)
    - **다음 URL을** 다시 덮어치지 않습니다. 링크에서 차단할 지정된 URL에 액세스할 금고 있습니다.

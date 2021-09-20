@@ -28,12 +28,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 피싱 금고 URL을 사용하는 기타 공격으로부터 조직을 보호하기 위해 Office 365 Defender의 링크 보호 기능을 참조하세요. 링크 Teams 금고 검색하고 링크 메시지의 금고 참조하세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 41520f2b731e5d76526393dafda6ce9be0fb290f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0b1faafe3b15ba0bb846fc10a87312c3174efac6
+ms.sourcegitcommit: 7be84e7940c63b4c958b9da875d323bead9aae95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211595"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59453601"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>금고 Microsoft Defender for Office 365
 
@@ -129,7 +129,7 @@ ms.locfileid: "59211595"
 
   금고 링크 정책의 표준 및 엄격한 정책 설정에 권장되는 값에 대한 자세한 내용은 금고 링크 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
- - URL을 다시 덮어치지 **말고 SafeLinks API만** 통해 확인: 이 설정을 사용하도록 설정하면 URL 래핑이 진행되지 않습니다. 금고 링크를 지원하는 클라이언트에서 URL을 클릭할 때 API를 통해 Outlook 호출됩니다. 권장 값은 사용하지 않도록 설정됩니다.
+- URL을 다시 덮어치지 **말고 SafeLinks API만** 통해 확인: 이 설정을 사용하도록 설정하면 URL 래핑이 진행되지 않습니다. 금고 링크를 지원하는 클라이언트에서 URL을 클릭할 때 API를 통해 Outlook 호출됩니다. 권장 값은 사용하지 않도록 설정됩니다.
   
 - **받는 사람 필터:** 정책을 적용하는 사람을 결정하는 받는 사람 조건 및 예외를 지정해야 합니다. 조건 및 예외에 대해 다음 속성을 사용할 수 있습니다.
   - **받는 사람이 다음과 같음**
@@ -164,13 +164,16 @@ ms.locfileid: "59211595"
 
 링크 정책에서 금고 대한 링크 Microsoft Teams 금고 사용하지 않도록 설정할 수 있습니다. 특히 알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업 선택 설정을 **Microsoft Teams.** 권장되는 값은 **입니다.**
 
+> [!NOTE]
+> 사용자에 대해 금고 링크 보호를 켜거나 Teams 변경이 적용되는 데 최대 24시간이 걸릴 수 있습니다.
+
 전자 메일 메시지의 링크에 적용되는 금고 링크 정책의 다음 설정은 전자 메일 메시지의 링크에도 Teams.
 
 - **파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용**
 - **사용자 클릭 추적 안 하도록 설정**
 - **사용자가 원래 URL을 클릭할 수 있도록 허용 안 하세요.**
 
-이러한 설정은 전자 메일 메시지의 금고 [링크 설정에 설명되어 있습니다.](#safe-links-settings-for-email-messages)
+이러한 설정은 전자 메일 메시지의 금고 [링크 설정에서 설명했습니다.](#safe-links-settings-for-email-messages)
 
 금고 링크 Microsoft Teams 설정하면 보호된 사용자가 링크를 클릭할 때 Teams 링크의 URL이 알려진 악성 링크 목록에 대해 확인됩니다(클릭 시간 보호). URL은 다시 덮어지지 않습니다. 링크가 악성으로 확인된 경우 사용자는 다음과 같은 경험을 하게 됩니다.
 
