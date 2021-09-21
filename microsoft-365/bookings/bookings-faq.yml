@@ -9,12 +9,12 @@ metadata:
   ms.service: bookings
   localization_priority: Normal
   description: Microsoft Bookings에 대한 질문과 대답
-  ms.openlocfilehash: ae2f6afcd350edba17d73801aec838f3980c46b4
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.openlocfilehash: 31ec8f86a73eb61eb6fc1adcd3ad765a8d79d38c
+  ms.sourcegitcommit: 5eecb0ccc70bf75779411d80147ed5588132b103
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59212872"
+  ms.lasthandoff: 09/21/2021
+  ms.locfileid: "59461599"
 title: Microsoft Bookings 질문과 대답
 summary: ''
 sections:
@@ -31,7 +31,7 @@ sections:
   - question: >
       Who Microsoft Bookings에 액세스할 수 있나요?
     answer: >
-      예약은 전 세계 Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 및 E5 고객에 대해 기본적으로 사용 가능하고 활성 상태입니다. 21Vianet에서 운영하는 Office 365 예약도 사용할 수 있습니다.
+      예약은 전 세계 Microsoft 365 Business Premium, Microsoft 365 Business Standard, F1, F3, A3, A5, E3 및 E5 고객에 대해 기본적으로 사용 가능하고 활성 상태입니다. 21Vianet에서 운영하는 Office 365 예약도 사용할 수 있습니다.
   - question: >
       고객에게 개인 일정이나 업무 일정이 표시하나요?
     answer: >
@@ -43,7 +43,7 @@ sections:
   - question: >
       최종 사용자가 Bookings 앱에 액세스하는 방법
     answer: >
-      Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3, E5의 라이선스가 부여되거나 관리자 또는 뷰어 역할의 직원 구성원으로 추가된 모든 사람은 Microsoft 365 웹 환경 내의 앱 선택기에서 Bookings에 액세스할 수 있습니다. iOS 및 Android에 사용할 수 있는 도우미 앱도 있습니다.
+      Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3, E5, F1, F3에 대한 라이선스가 부여되거나 관리자 또는 뷰어 역할의 직원 구성원으로 추가된 모든 사람은 Microsoft 365 웹 환경 내의 앱 선택기에서 Bookings에 액세스할 수 있습니다. iOS 및 Android에 사용할 수 있는 도우미 앱도 있습니다.
   - question: >
       내 웹 사이트에서 Bookings를 사용할 수 있나요?
     answer: >

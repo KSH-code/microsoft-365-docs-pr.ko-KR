@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 0f4d702581192ab35d3d515fa668043e9a1c1399
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 43a2b3b3e211215e8180308360a546a8454d5bc2
+ms.sourcegitcommit: 5eecb0ccc70bf75779411d80147ed5588132b103
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444022"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59461611"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -94,13 +94,13 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 |조건: 전자 메일 공유 옵션 및 추가 옵션|아니요 |예 |
 |조건: 예외|아니요 |예(전자 메일만 해당) |
 |권장 사항, 정책 도구 설명 및 사용자 재정의|예 |아니요 |
-|시뮬레이션 모드|아니오 |예 |
+|시뮬레이션 모드|아니요 |예 |
 |조건이 확인된 Exchange 첨부 파일|아니요 | 예|
 |시각적 표시 적용 |예 |예(전자 메일만 해당) |
 |레이블 없이 적용된 IRM 암호화 재정의|예(사용자에게 내보내기의 최소 사용 권한이 있는 경우) |예(전자 메일만 해당) |
 |받는 전자 메일에 레이블 지정|아니요 |예|
 
-\* 현재 모든 지역에서 자동 레이블을 사용할 수 있는 것은 아닙니다. 테넌트에서 이 기능을 지원할 수 없는 경우 **자동 레이블 지정** 탭이 준수 센터에 표시되지 않습니다.
+\* 자동 레이블 지정은 현재 백 엔드 Azure 종속성으로 인해 일부 지역에서 사용할 수 없습니다. 테넌트에서 이 기능을 지원할 수 없는 경우 **자동 레이블 지정** 탭이 준수 센터에 표시되지 않습니다. 자세한 내용은 [국가별 Azure 종속 가용성](/troubleshoot/azure/general/dependency-availability-by-country)을 참조하세요.
 
 ## <a name="how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label"></a>여러 조건에 두 개 이상의 레이블을 적용했을 때 평가 방식
 
@@ -259,7 +259,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     ![자동 레이블 지정 탭](../media/auto-labeling-tab.png)
 
     > [!NOTE]
-    > **자동 레이블** 탭이 보이지 않으면 현재 해당 지역에서 이 기능을 사용할 수 없습니다.
+    > **자동 레이블 지정 탭** 이 보이지 않을 경우, 백 엔드 Azure 종속으로 인해 현재 해당 지역에서 이 기능을 사용할 수 없습니다. 자세한 내용은 [국가별 Azure 종속 가용성](/troubleshoot/azure/general/dependency-availability-by-country)을 참조하세요.
 
 3. **+ 자동 레이블 지정 정책 만들기** 를 선택합니다. 그러면 새 정책 구성이 시작됩니다.
 
