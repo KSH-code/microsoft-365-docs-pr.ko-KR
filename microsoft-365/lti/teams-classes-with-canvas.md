@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Canvas Microsoft Teams 클래스 통합
-ms.openlocfilehash: 44ba24e5c8bd7107f9cba199ce290c10b31e0806
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8c19807034d5d063f71378dd450cfda419cd1491
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212475"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460307"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Canvas에서 Microsoft Teams 클래스 사용
 
@@ -32,9 +32,19 @@ Microsoft Teams 클래스는 교사와 학생이 LMS(Learning Management System)
 > - Canvas와 Microsoft 간에 사용자를 매핑하는 데는 단일 Microsoft 테넌트만 사용할 수 있습니다.
 > - 그룹이 중복되는 것을 방지하기 위해 학교 데이터 동기화 LTI 클래스를 Teams(SDS)를 해제해야 합니다.
 
-## <a name="microsoft-office-365-admin"></a>Microsoft Office 365 관리자
+## <a name="grant-admin-consent"></a>관리자 동의 부여
 
-Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canvas 관리자 설정을 완료하기 전에 캔버스의 **Microsoft-Teams-Sync-for-Canvas** Azure 앱을 Microsoft Azure 테넌트의 기관의 Microsoft Office 365 관리자가 승인해야 합니다.
+Instructure Canvas 내에서 Microsoft Teams 통합을 관리하기 전에 Canvas 관리자 설정을 완료하기 전에 캔버스의 **Microsoft-Teams-Sync-for-Canvas** Azure 앱을 Microsoft Azure 테넌트의 기관의 Microsoft Office 365 관리자가 승인해야 합니다. 이러한 단계를 수행하려면 전역 관리자로 설정해야 합니다.
+
+1. 사이트로 Azure Active Directory.
+
+2. 응용 Enterprise 열고 **Microsoft-Teams-Sync-for-Canvas 응용 프로그램을** 선택합니다.
+
+3. 사용 **권한을 선택하고** 관리자 동의 부여 **를 선택합니다.**
+
+4. 응용 프로그램에 필요한 사용 권한에 동의한 다음 동의를 부여합니다.
+
+## <a name="microsoft-office-365-admin"></a>Microsoft Office 365 관리자
 
 1. Canvas에 로그인합니다.
 

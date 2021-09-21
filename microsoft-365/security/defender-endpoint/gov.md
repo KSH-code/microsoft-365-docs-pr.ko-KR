@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e0605e6be5bc3bc5e12c2a50e00f07ab68c19d8d
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: e018bcdfe164d51bd3e57648a9b9bb201f661372
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444034"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460449"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>엔드포인트용 Microsoft Defender(미국 정부 고객용)
 
@@ -95,8 +95,8 @@ Windows 10 버전 [1909(KB4586819](https://support.microsoft.com/help/4586819)�
 Windows 10 버전 [1903(KB4586819](https://support.microsoft.com/help/4586819)사용)|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 [Windows 10, 버전 1809(KB4586839](https://support.microsoft.com/help/4586839)사용)|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 Windows 10 버전 [1803(KB4598245](https://support.microsoft.com/help/4598245)사용)|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
-Windows 10 버전 1709|![아니요.](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.|![](images/svg/check-yes.svg) [예(KB4499147)](https://support.microsoft.com/help/4499147) <p> 참고: [사용되지 않습니다.](/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오.|![아니오](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.
-Windows 10 버전 1703 이전 버전|![아니요.](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.|![아니오](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.|![아니요](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.
+Windows 10 버전 1709|![아니요.](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.|![](images/svg/check-yes.svg) [예(KB4499147)](https://support.microsoft.com/help/4499147) <p> 참고: [사용되지 않습니다.](/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오.|![아니요](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.
+Windows 10 버전 1703 이전 버전|![아니요.](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.|![아니요](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.|![아니요](images/svg/check-no.svg) <p> 참고: 지원되지 않습니다.
 Windows Server [2019(KB4586839](https://support.microsoft.com/help/4586839)사용)|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 Windows Server 2016|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 Windows Server 2012 R2|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
@@ -107,8 +107,8 @@ Windows 7 SP1 Enterprise|![예.](images/svg/check-yes.svg)|![예](images/svg/che
 Windows 7 SP1 Pro|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 Linux|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 macOS|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
-Android|![아니요.](images/svg/check-no.svg) 개발 중|![아니오](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중
-iOS|![아니요.](images/svg/check-no.svg) 개발 중|![아니오](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중
+Android|![아니요.](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중
+iOS|![아니요.](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중
 
 > [!NOTE]
 > 패치가 지정된 경우 올바른 환경으로 끝점에 대한 Defender를 구성하려면 장치 온보딩 전에 패치를 배포해야 합니다.
@@ -143,20 +143,6 @@ Windows Server 2008 R2 SP1|![예.](images/svg/check-yes.svg)|![예](images/svg/c
 >
 > 필터링할 때 "US Gov"로 레이블이 붙은 레코드와 해당 지리 열에서 특정 클라우드를 찾아야 합니다.
 
-### <a name="service-backend-ip-ranges"></a>서비스 백end IP 범위
-
-네트워크 장치가 DNS 기반 규칙을 지원하지 않는 경우 대신 IP 범위를 사용합니다.
-
-미국 정부 고객을 위한 끝점용 Defender는 Azure US Government 환경에서 구축되어 다음 지역에 배포됩니다.
-
-- AzureCloud.usgovtexas
-- AzureCloud.usgovvirginia
-
-Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드에서 [Azure IP 범위를 찾을 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=57063)
-
-> [!NOTE]
-> 클라우드 기반 솔루션으로 IP 주소 범위는 변경될 수 있습니다. DNS 기반 규칙으로 이동하는 것이 좋습니다.
-
 ## <a name="api"></a>API
 
 [API](apis-intro.md)설명서에 나열된 공용 URIS 대신 다음 URIS를 사용해야 합니다.
@@ -185,11 +171,11 @@ Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드에서 [Azure I
 |기능 이름|GCC|GCC 높음|DoD|
 |---|:---:|:---:|:---:|
 |네트워크 검색|![예](images/svg/check-yes.svg)|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
-|웹 컨텐츠 필터링|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니오](images/svg/check-no.svg) 개발 중|
+|웹 컨텐츠 필터링|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
 |통합: Azure Sentinel|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg) 경고 <p> ![예](images/svg/check-yes.svg) 인시던트 & 데이터: 비공개 미리 보기|![예](images/svg/check-yes.svg) 경고 <p> ![예](images/svg/check-yes.svg) 인시던트 & 데이터: 비공개 미리 보기|
 |통합: Microsoft Cloud App Security|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|
 |통합: Id용 Microsoft Defender|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|
 |통합: Microsoft Endpoint DLP|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|
-|통합: Microsoft Power Automate & Azure Logic Apps|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg) Azure Logic Apps <p> ![아니오](images/svg/check-no.svg) Power Automate: 개발 중|
+|통합: Microsoft Power Automate & Azure Logic Apps|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg) Azure Logic Apps <p> ![아니요](images/svg/check-no.svg) Power Automate: 개발 중|
 |Microsoft 위협 전문가|![아니요](images/svg/check-no.svg) 백로그 엔지니어링|![아니요](images/svg/check-no.svg) 백로그 엔지니어링|![아니요](images/svg/check-no.svg) 백로그 엔지니어링|
 |

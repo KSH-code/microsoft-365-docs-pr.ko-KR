@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: f10099fcfe2c8b4701ed5aa0981a3bb84bf5c7c3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 88582efe5e285df2b5439c6d01b63ed4c5ef7855
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188140"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460127"
 ---
 # <a name="insider-risk-management-policies"></a>내부 위험 관리 정책
 
@@ -183,7 +183,7 @@ ms.locfileid: "59188140"
 - 불만을 품은 사용자의 데이터 유출
 
 > [!NOTE]
-> 누적 반출 탐지는 내부 위험 관리에 대한 전역 설정에서 사용하도록 설정된 반출 지표와 정책에서 선택한 반출 지표를 사용합니다. 따라서 누적 반출 탐지는 선택한 필요한 반출 지표에 대해서만 평가됩니다.
+> 누적 반출 탐지는 내부 위험 관리에 대한 전역 설정에서 사용하도록 설정된 반출 지표와 정책에서 선택한 반출 지표를 사용합니다. 따라서 누적 반출 탐지는 선택한 필요한 반출 지표에 대해서만 평가됩니다. 우선 순위 콘텐츠에 구성된 [](sensitivity-labels.md) 민감도 레이블에 대한 누적 유출 활동은 더 높은 위험 점수를 생성합니다.
 
 데이터 도난 또는 데이터 유출 정책에 대해 누적 반출 탐지를 사용하도록 설정하면 내부 위험 관리 사례 내의 **사용자 활동** 탭에 누적 반출 활동의 인사이트가 표시됩니다.
 

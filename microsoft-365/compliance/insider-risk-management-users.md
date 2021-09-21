@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e50e9b0dfa9119cd3c3f6fe8b45158ca9f8c5cc3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b9f2933f6e259a8e39069a0bb90eafc6c1c9a30e
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210982"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460055"
 ---
 # <a name="insider-risk-management-users-dashboard"></a>내부자 위험 관리 사용자 대시보드
 
@@ -68,6 +68,8 @@ ms.locfileid: "59210982"
 - **활성 경고:** 모든 정책에 대한 활성 경고 수입니다.
 - **확인된 위반:** 사용자에 대한 확인된 정책 *위반으로* 확인된 사례 수입니다.
 - **사례:** 사용자의 현재 활성 사례입니다.
+
+특정 사용자를 빠르게 찾으면  사용자 대시보드 오른쪽 위에 있는 검색을 사용하세요. 사용자를 검색할 때 UPN(사용자 계정 이름)을 사용해야 합니다. 예를 들어 조직에서 UPN이 'thidayah'인 'Tiara Hidayah'라는 사용자를 검색할 때 검색에 'thidayah'나 UPN의 일부를 입력합니다.
 
 ![내부자 위험 관리 사용자 대시보드.](../media/insider-risk-users-dashboard.png)
 

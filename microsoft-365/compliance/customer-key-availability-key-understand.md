@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 손실된 고객 키를 복구하는 데 사용되는 가용성 키에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 76137438231e69f5d93673322ab6825146ee6e2e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9fb4602f61146a28e8e35fb6715da3ebb2aa7d5f
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216892"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460331"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>고객 키에 대한 가용성 키 알아보기
 
@@ -29,7 +29,7 @@ Storage 키의 관리 및 제어는 세 가지 이유로 인해 Azure Key Vault 
 - 논리적 컨트롤과 보안 저장소 위치를 분리하면 심층 방어가 제공되어 단일 공격 또는 오류 지점으로부터 모든 키와 데이터가 손실되지 않습니다.
 - 가용성 키는 일시적인 오류로 인해 Microsoft 365 서비스에서 Azure Key Vault에 호스트된 키에 도달할 수 없는 경우 고가용성 기능을 제공합니다. 이 규칙은 서비스 Exchange Online 비즈니스용 Skype 적용됩니다. SharePoint 온라인, 비즈니스용 OneDrive 및 Teams Microsoft에 복구 프로세스를 시작해야 하는 경우를 위해 가용성 키를 사용하지 않습니다.
 
-키 관리를 위한 다양한 보호 및 프로세스를 사용하여 데이터를 보호해야 하는 책임을 공유하면 궁극적으로 모든 키(및 데이터)가 영구적으로 손실되거나 소멸되는 위험을 줄일 수 있습니다. Microsoft는 사용자가 서비스를 떠날 때 가용성 키의 비활성화 또는 폐기에 대한 단독 권한을 사용자에게 제공합니다. 기본적으로 Microsoft의 어느 누구도 가용성 키에 액세스할 수 없습니다. Microsoft 365 서비스 코드로만 액세스할 수 있습니다.
+데이터를 보호할 책임을 공유하고 키 관리를 위한 다양한 보호 및 프로세스를 사용하여 궁극적으로 모든 키(따라서 데이터)가 영구적으로 손실되거나 폐기되는 위험을 줄일 수 있습니다. Microsoft는 사용자가 서비스를 떠날 때 가용성 키의 비활성화 또는 폐기에 대한 단독 권한을 사용자에게 제공합니다. 기본적으로 Microsoft의 어느 누구도 가용성 키에 액세스할 수 없습니다. Microsoft 365 서비스 코드로만 액세스할 수 있습니다.
 
 키 보안 방법에 대한 자세한 내용은 [Microsoft](https://www.microsoft.com/trustcenter/Privacy/govt-requests-for-data) 보안 센터를 참조하세요.
   
@@ -172,11 +172,11 @@ SharePoint Online, 비즈니스용 OneDrive 및 Teams 파일의 경우 가용성
 
 로그 레코드에는 날짜, 시간, 활동, 조직 ID 및 데이터 암호화 정책 ID와 같은 특성이 포함됩니다. 레코드는 통합 감사 로그의 일부로 사용할 수 있으며 보안 및 준수 센터 감사 로그 & 탭에서 액세스할 수 있습니다.
 
-![가용성 키 이벤트에 대한 감사 로그 검색](../media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
+![가용성 주요 이벤트에 대한 감사 로그 검색](../media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
 
 Exchange Online 및 비즈니스용 Skype 키 레코드는 추가된 사용자 지정 [](/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) 매개 변수와 함께 Office 365 관리 활동 일반적인 정책 ID, 범위 키 버전 ID 및 요청 ID를 사용합니다.
 
-![가용성 키 사용자 지정 매개 변수입니다.](../media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
+![가용성 키 사용자 지정 매개 변수](../media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
 
 ### <a name="sharepoint-online-onedrive-for-business-and-teams-files-availability-key-logging"></a>SharePoint 온라인, 비즈니스용 OneDrive 및 Teams 파일 가용성 키 로깅
 
@@ -192,11 +192,11 @@ Microsoft 365 키를 사용하여 고객 키 서비스 암호화에 대해 설�
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Exchange Online 암호화하는 데 사용되는 암호화 비즈니스용 Skype
 
-![고객 키에 대한 Exchange Online 암호화입니다.](../media/customerkeyencryptionhierarchiesexchangeskype.png)
+![고객 키에 대한 Exchange Online 암호화](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive
 
-![온라인 고객 SharePoint 암호화.](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![온라인 고객 SharePoint 암호화](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>관련 문서
 

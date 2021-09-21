@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9a77662d1473a56031a30e44a1d39df8e3964541
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6d2e0fc1ffeccfd189b95fbd5908a959e4a823a8
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218385"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460171"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
@@ -46,7 +46,7 @@ ms.locfileid: "59218385"
 
 기본적으로 iOS의 Endpoint용 Defender에는 웹 보호 기능이 포함 및 사용됩니다. [웹 보호는](web-protection-overview.md) 웹 위협으로부터 장치를 보호하고 피싱 공격으로부터 사용자를 보호하는 데 도움이 됩니다. iOS의 끝점용 Defender는 VPN을 사용하여 이 보호를 제공합니다. 이는 로컬 VPN으로, 기존 VPN과 달리 네트워크 트래픽은 장치 외부로 전송되지 않습니다.
 
-기본적으로 사용하도록 설정되어 있는 동안 VPN을 사용하지 않도록 설정해야 하는 경우도 있습니다. 예를 들어 VPN을 구성할 때 작동하지 않는 일부 앱을 실행하려는 경우를 예로 들 수 있습니다. 이러한 경우 아래 단계에 따라 디바이스의 앱에서 VPN을 사용하지 않도록 선택할 수 있습니다.
+기본적으로 사용하도록 설정되어 있는 동안 VPN을 사용하지 않도록 설정해야 하는 경우도 있습니다. 예를 들어 VPN을 구성할 때 작동하지 않는 일부 앱을 실행하려는 경우를 예로 들 수 있습니다. 이러한 경우 끝점용 Defender 앱에서 직접 VPN을 사용하지 않도록 설정하거나 다음 단계를 사용할 수 있습니다.
 
 1. iOS 장치에서 설정 열고 **일반을 클릭하거나** **탭한** 다음 **VPN 을 클릭합니다.**
 1. 끝점용 Microsoft Defender의 "i" 단추를 클릭하거나 탭합니다.
@@ -56,7 +56,7 @@ ms.locfileid: "59218385"
     > ![VPN 구성은 필요 시 연결합니다.](images/ios-vpn-config.png)
 
 > [!NOTE]
-> VPN을 사용하지 않도록 설정하면 웹 보호를 사용할 수 없습니다. 웹 보호를 다시 사용하도록 설정하려면 장치에서 끝점용 Microsoft Defender 앱을 열고 VPN 시작 을 클릭하거나 **탭합니다.**
+> VPN을 사용하지 않도록 설정하면 웹 보호를 사용할 수 없습니다. 웹 보호를 다시 사용하도록 설정하려면 장치에서 끝점용 Microsoft Defender 앱을 열고 웹 보호를 사용하도록 설정하세요.
 
 ## <a name="co-existence-with-multiple-vpn-profiles"></a>여러 VPN 프로필과 함께 사용
 
@@ -82,7 +82,7 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 
 ## <a name="report-unsafe-site"></a>안전하지 않은 사이트 보고
 
-피싱 웹 사이트는 개인 또는 재무 정보를 얻기 위해 신뢰할 수 있는 웹 사이트를 가장합니다. 네트워크 [보호에](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) 대한 피드백 제공 페이지를 방문하여 피싱 사이트일 수 있는 웹 사이트를 보고합니다.
+피싱 웹 사이트는 개인 또는 재무 정보를 얻기 위해 신뢰할 수 있는 웹 사이트를 가장합니다. 네트워크 [보호에](https://www.microsoft.com/wdsi/support/report-unsafe-site) 대한 피드백 제공 페이지를 방문하여 피싱 사이트일 수 있는 웹 사이트를 보고합니다.
 
 ## <a name="malicious-site-detected"></a>악성 사이트가 검색되었습니다.
 
@@ -103,4 +103,8 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 ## <a name="data-and-privacy"></a>데이터 및 개인 정보
 
 수집된 데이터 및 개인 정보 보호에 대한 자세한 내용은 개인 정보 보호 [정보 - iOS의 끝점용 Microsoft Defender를 참조하세요.](ios-privacy.md)
+
+## <a name="issues-during-app-updates-from-the-app-store"></a>앱 스토어에서 앱을 업데이트하는 동안의 문제
+
+앱 스토어를 통해 앱이 업데이트될 때 문제가 관찰되는 경우(자동 업데이트 또는 수동 업데이트) 장치를 다시 시작해야 할 수 있습니다. 그래도 문제가 해결되지 않으면 Defender VPN을 사용하지 않도록 설정하고 앱 업데이트를 수행할 수 있습니다. 이 문제를 보고하기 위해 앱에서 바로 피드백을 제공할 수 있습니다.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 663180b87a9886681a1643279e49641c3fbfed3c
-ms.sourcegitcommit: db571169242063f104450fec4c4b19aeec688b15
+ms.openlocfilehash: 4a8ebc2aedc624028cf0b5144d434185c20243b9
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447387"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460467"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -108,9 +108,6 @@ EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>중요한 정보 데이터베이스의 스키마 정의
 
 비즈니스 또는 기술상의 이유로 PowerShell 또는 명령줄을 사용하여 스키마 및 EDM에 중요한 정보 유형 패턴(규칙 패키지)을 생성하지 않는 것을 선호하는 경우 [정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사](sit-edm-wizard.md)를 사용하여 스키마를 생성할 수 있습니다. 스키마 및 EDM 중요한 정보 유형 패턴을 생성했으면 EDM 기반 중요한 정보 유형을 사용할 수 있도록 하는 데 필요한 모든 단계를 완료하세요.
-
-> [!NOTE]
-> 정확한 데이터 일치 스키마 및 중요 정보 유형 마법사는 월드 와이드 및 GCC 클라우드에서만 사용할 수 있습니다.
 
 1. 중요한 정보 데이터의 스키마를 XML 형식으로 정의합니다(아래 예제와 비슷). 이 스키마 파일의 이름을 **edm.xml** 로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다.
 

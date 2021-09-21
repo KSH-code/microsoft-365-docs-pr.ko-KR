@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 33d32918316b997b2cc97d63dac8c8deff135528
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 51a94e2fd87bc5356de80e26fb70297e1dd3b710
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216842"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460107"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
 
@@ -64,6 +64,10 @@ ms.locfileid: "59216842"
 내부 위험 분석을 사용하면 내부 위험 정책을 구성하지 않고도 조직에서 잠재적인 내부 위험 평가를 수행할 수 있습니다. 이 평가는 조직에서 사용자 위험이 큰 잠재적 영역을 식별하고 구성을 고려할 수 있는 내부 위험 관리 정책의 유형과 범위를 결정하는 데 도움이 될 수 있습니다. 이 평가는 기존 내부자 위험 정책의 추가 라이선싱 또는 향후 최적화에 대한 요구 사항을 결정하는 데도 도움이 될 수 있습니다.
 
 내부자 위험 분석에 대한 자세한 내용은 내부자 위험 관리 [설정: 분석을 참조하세요.](insider-risk-management-settings.md#analytics-preview)
+
+## <a name="get-started-with-recommended-actions-preview"></a>권장 작업 시작(미리 보기)
+
+내부자 위험 관리를 처음 설정하거나 새 정책을 만들든, 새로운 권장 작업 [](insider-risk-management-configure.md#recommended-actions-preview) 환경을 통해 내부자 위험 관리 기능을 최대화할 수 있습니다. 권장 작업에는 사용 권한 설정, 정책 표시기 선택, 정책 만들기 등이 포함됩니다.
 
 ## <a name="workflow"></a>워크플로
 

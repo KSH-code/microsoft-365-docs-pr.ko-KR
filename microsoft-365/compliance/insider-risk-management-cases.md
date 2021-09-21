@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 0a1b91c888e1ee91d03d5a2d315e4d4fc38b2d10
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 86344a570c04ed67c8811d91ca92a59dcec6102d
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184020"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460347"
 ---
 # <a name="insider-risk-management-cases"></a>내부자 위험 관리 사례
 
@@ -84,14 +84,14 @@ ms.locfileid: "59184020"
 - **관리자 이름:** 사용자의 관리자 이름입니다.
 - **관리자 전자 메일:** 사용자 관리자의 전자 메일 별칭입니다.
 
+![내부자 위험 관리 사례 세부 정보.](../media/insider-risk-case-details.png)
+
 사례 **개요 탭에는**  사례와 연결된 정책 일치 경고에 대한 다음 정보가 포함된 경고 섹션도 포함되어 있습니다.
 
 - **정책 일치:** 사용자 활동에 대한 일치 경고와 연결된 내부자 위험 관리 정책의 이름입니다.
 - **Status:** 경고의 상태입니다.
 - **심각도:** 경고의 심각도입니다.
 - **검색된 시간:** 경고가 생성된 후 지났던 시간입니다.
-
-![내부자 위험 관리 사례 세부 정보.](../media/insider-risk-case-details.png)
 
 ### <a name="alerts"></a>경고
 
@@ -147,7 +147,7 @@ ms.locfileid: "59184020"
 
 활동 **탐색기** 탭을 사용하면 위험 분석가와 조사자는 위험 경고와 관련된 활동 세부 정보를 검토할 수 있습니다. 예를 들어 사례 관리 작업의 일부로 조사자 및 분석가가 사례와 관련된 모든 위험 활동을 검토하여 자세한 내용을 검토해야 할 수 있습니다. 활동 **탐색기를** 사용하여 검토자는 감지된 위험한 활동의 타임라인을 신속하게 검토하고 경고와 관련된 모든 위험 활동을 식별하고 필터링할 수 있습니다.
 
-활동 탐색기에 대한 자세한 내용은 [Insider risk management alerts 문서를 참조하세요.](insider-risk-management-activities.md#activity-explorer-preview)
+활동 탐색기에 대한 자세한 내용은 [Insider risk management alerts 문서를 참조하세요.](insider-risk-management-activities.md#activity-explorer)
 
 ### <a name="content-explorer"></a>콘텐츠 탐색기
 

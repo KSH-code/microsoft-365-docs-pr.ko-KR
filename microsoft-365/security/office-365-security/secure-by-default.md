@@ -17,12 +17,12 @@ ms.collection:
 description: EOP(보안 기본 설정)에 대해 Exchange Online Protection 자세히 알아보시다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c737647202e82af0fc217c0eadb3e2573d13a9b1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 14ab9ee240c1219982663c1f3557c1cf5f244144
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219795"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460031"
 ---
 # <a name="secure-by-default-in-office-365"></a>기본적으로 보안은 Office 365
 
@@ -54,6 +54,7 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 - 허용된 보낸 사람 목록 또는 허용된 도메인 목록(스팸 방지 정책)
 - Outlook 금고 보낸 사람
 - IP 허용 목록(연결 필터링)
+- Exchange 흐름 규칙(전송 규칙)
 
 이러한 오버라이드에 대한 자세한 내용은 안전한 보낸 사람 목록 만들기 [에서 찾을 수 있습니다.](create-safe-sender-lists-in-office-365.md)
 
@@ -73,11 +74,6 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 또 다른 방법으로 말해서, 보안 서비스로, 사용자가 손상되지 않도록 사용자를 대신하여 행동하고 있습니다.
 
 ## <a name="exceptions"></a>예외
-
-> [!NOTE]
-> 2021년 8월에는 기본적으로 보안이 메일 흐름 규칙(전송 Exchange)으로 확장됩니다. 메일 흐름 규칙을 사용하여 타사 피싱 시뮬레이션 또는 필터되지 않은 배달을 보안 작업 사서함으로 허용하는 경우 결국 이러한 [](configure-advanced-delivery.md) 규칙을 제거하고 기능을 사용할 수 있는 경우 고급 배달 정책을 사용하여 _전환해야 합니다._
-
-높은 신뢰도의 피싱 메시지가 필터링을 무시할 수 있는 유일한 무시는 메일 흐름 규칙입니다. 메일 흐름 규칙을 사용하여 필터링을 무시하는 경우 메일 흐름 규칙을 사용하여 [메시지에서 SCL 설정을 참조합니다.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)
 
 다음과 같은 시나리오에서만 오버라이드를 사용하는 것이 좋습니다.
 

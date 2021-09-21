@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 7/2/2018
+ms.date: 9/20/2021
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -19,12 +19,12 @@ ms.collection:
 - SPO_Content
 description: 비즈니스용 OneDrive 및 SharePoint Online에서 데이터 보안을 위한 암호화의 기본 요소를 이해합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca93d04fa21487ad054cd9cb924dff1fc15abfbd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 91bb261c25a1c4bf993deb0d12d1d1b8e9f5f874
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184180"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460483"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>비즈니스용 OneDrive 및 SharePoint Online에서의 데이터 암호화
 
@@ -52,7 +52,7 @@ Microsoft 365 보안은 물리적 데이터 센터 보안, 네트워크 보안, 
   
 BitLocker는 서비스 전반에서 비즈니스용 OneDrive 및 SharePoint Online에 배포되고 있습니다. 파일당 암호화는 다중 테넌트 기술을 비즈니스용 OneDrive SharePoint 새로운 전용 Microsoft 365 환경의 비즈니스용 OneDrive Online에도 있습니다.
   
-BitLocker는 디스크에서 모든 데이터를 암호화하는 동안 각 파일에 대해 고유한 암호화 키를 포함하여 파일 단위 암호화를 추가로 수행합니다. 또한 모든 파일에 대한 모든 업데이트는 자체 암호화 키를 사용하여 암호화됩니다. 저장되기 전에 암호화된 콘텐츠에 대한 키는 콘텐츠에서 물리적으로 분리된 위치에 저장됩니다. 이 암호화의 모든 단계는 AES(Advanced Encryption Standard) 256비트 키를 사용하며 FIPS(Federal Information Processing Standard) 140-2 규정을 준수합니다. 암호화된 콘텐츠는 데이터 센터 전반에 걸쳐 여러 컨테이너에 분산되며 각 컨테이너에는 고유한 자격 증명이 있습니다. 이러한 자격 증명은 콘텐츠 또는 콘텐츠 키에서 물리적으로 분리된 위치에 저장됩니다.
+BitLocker는 디스크에서 모든 데이터를 암호화하는 동안 각 파일에 대해 고유한 암호화 키를 포함하여 파일 단위 암호화를 추가로 수행합니다. 또한 모든 파일에 대한 모든 업데이트는 자체 암호화 키를 사용하여 암호화됩니다. 암호화된 콘텐츠에 대한 키는 콘텐츠와 물리적으로 분리된 위치에 저장됩니다. 이 암호화의 모든 단계는 AES(Advanced Encryption Standard) 256비트 키를 사용하며 FIPS(Federal Information Processing Standard) 140-2 규정을 준수합니다. 암호화된 콘텐츠는 데이터 센터 전반에 걸쳐 여러 컨테이너에 분산되며 각 컨테이너에는 고유한 자격 증명이 있습니다. 이러한 자격 증명은 콘텐츠 또는 콘텐츠 키에서 물리적으로 분리된 위치에 저장됩니다.
   
 FIPS 140-2 규정 준수에 대한 자세한 내용은 [FIPS 140-2 준수를 참조하세요.](/previous-versions/sql/sql-server-2008-r2/bb326611(v=sql.105))
   

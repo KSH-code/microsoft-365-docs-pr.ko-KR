@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a5080526fe224d6a8e0a524a1973c6c47dc419bc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8ea5e2c5efef1becf69f0d5f7e46b57aa89ef94a
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212205"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460283"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-unenrolled-ios-devices"></a>미인인 iOS 장치에 끝점용 Microsoft Defender 배포
 
@@ -41,7 +41,12 @@ ms.locfileid: "59212205"
 
 iOS/iPadOS에서 MAM(앱 보호 정책)에 사용할 위협 신호를 보내도록 끝점용 Microsoft Defender를 구성할 수 있습니다. 이 기능을 사용하면 끝점용 Microsoft Defender를 사용하여 수집되지 않은 장치에서 회사 데이터에 대한 액세스를 보호할 수 있습니다.
 
-끝점용 Microsoft Defender를 통해 앱 보호 정책을 설정하는 단계는 다음과 같습니다.
+### <a name="pre-requisites"></a>필수 구성 요소
+
+1. **커넥터가 활성화되어 있는지 확인합니다.** <br> 통합 보안 [콘솔에서](https://security.microsoft.com)설정 끝점 고급 기능으로 이동하여 Microsoft Intune  >    >   **사용하도록** 설정되어 있습니다.
+2. **Intune 포털에서** 커넥터가 사용하도록 설정되어 있는지 확인합니다. <br> [Microsoft 끝점 관리자 관리 센터에서](https://go.microsoft.com/fwlink/?linkid=2109431) **끝점** 보안  >  **끝점용 Microsoft Defender로** 이동하여 연결 상태가 사용하도록 설정되어 있는지 확인합니다.
+
+다음 단계에 따라 끝점용 Microsoft Defender를 사용하여 앱 보호 정책을 설치합니다.
 
 1. 테넌트에서 끝점용 Microsoft Defender로의 Microsoft Endpoint Manager 연결을 설정합니다. [Microsoft 끝점](https://go.microsoft.com/fwlink/?linkid=2109431)관리자 관리 센터에서 테넌트 관리 커넥터 및 끝점용 Microsoft Defender(플랫폼 간) 또는 끝점용 Microsoft Defender 보안  \>  \>  Microsoft **Defender(설치** 아래)로 이동한 다음 \>  **iOS용** 앱 보호 정책 설정 에서 토글을 켜야 합니다.
 1. **저장** 을 선택합니다. 이제 **연결** 상태가 사용으로 설정되어 **있습니다.**

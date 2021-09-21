@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d7bb79ca6e04d283ee9ec9d7e01113364ebd6588
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: ab7007143fd472757f8f6489cb14babc8cda1129
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400609"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460199"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 설정
 
@@ -177,27 +177,6 @@ v20이 포함된 URL은 버전 1803 이상을 Windows 10 있는 경우 필요합
 |---|---|
 |![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지입니다.](images/mdatp-urls.png)|서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <p> [여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)|
 |
-
-### <a name="microsoft-defender-for-endpoint-service-backend-ip-ranges"></a>Microsoft Defender for Endpoint Service 백 엔드 IP 범위
-
-네트워크 장치가 DNS 기반 규칙을 지원하지 않는 경우 대신 IP 범위를 사용합니다.
-
-Endpoint용 Defender는 Azure 클라우드에서 구축되어 다음 지역에 배포됩니다.
-
-- AzureCloud.eastus
-- AzureCloud.eastus2
-- AzureCloud.westcentralus
-- AzureCloud.northeurope
-- AzureCloud.westeurope
-- AzureCloud.uksouth
-- AzureCloud.ukwest
-
-Azure IP 범위 및 서비스 태그 - 공용 클라우드에서 [Azure IP 범위를 찾을 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=56519)
-
-> [!NOTE]
-> 클라우드 기반 솔루션으로 IP 주소 범위는 변경될 수 있습니다. DNS 기반 규칙으로 이동하는 것이 좋습니다.
->
-> 미국 정부 고객인 경우 미국 정부용 끝점용 Defender 페이지에서 해당 [섹션을 참조하세요.](gov.md#service-backend-ip-ranges)
 
 ## <a name="next-step"></a>다음 단계
 

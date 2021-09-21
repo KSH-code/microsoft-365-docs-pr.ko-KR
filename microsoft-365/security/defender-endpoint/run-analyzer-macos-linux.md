@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 813dff46f3ba26c32f3b704645a9ca35ca740001
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 258adabaa29420ca0b713e290926048a2ed1752d
+ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353601"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460019"
 ---
 # <a name="run-the-client-analyzer-on-macos-and-linux"></a>macOS 및 Linux에서 클라이언트 분석기 실행
 
@@ -52,16 +52,26 @@ ms.locfileid: "59353601"
 
 ## <a name="running-the-analyzer-using-a-terminal-or-ssh-scenario"></a>터미널 또는 SSH 시나리오를 사용하여 분석기 실행
 
-1. 관련 컴퓨터로 터미널 또는 SSH를 넣습니다.
+관련 컴퓨터로 터미널 또는 SSH를 열고 다음 명령을 실행합니다.
 
-2. 실행 `wget --quiet -O XMDEClientAnalyzer.zip* <https://aka.ms/XMDEClientAnalyzer> *&& unzip -q XMDEClientAnalyzer.zip && cd XMDEClientAnalyzer && chmod +x mde_support_tool.sh"`
+1. `wget --quiet -O XMDEClientAnalyzer.zip https://aka.ms/XMDEClientAnalyzer *`
 
-3. 를 `./mde_support_tool.sh -d` 실행하여 결과 보관 파일을 생성합니다.
+2. `unzip -q XMDEClientAnalyzer.zip`
+
+3. `cd XMDEClientAnalyzer`
+
+4. `chmod +x mde_support_tool.sh"`
+
+3. 루트가 아닌 사용으로 실행하여 필요한 pip 및 lxml 구성 요소를 설치합니다. `./mde_support_tool.sh`
+
+4. 실제 진단 패키지를 수집하고 결과 보관 파일을 생성하기 위해 루트로 다시 실행합니다. `./mde_support_tool.sh -d`
 
 > [!NOTE]
-> Linux의 경우 분석기에서 결과 출력을 생성하려면 'lxml'이 필요합니다. 설치되지 않은 경우 분석기는 아래 python 패키지에 대한 공식 리포지토리에서 이를 페치하려고 시도합니다. <https://files.pythonhosted.org/packages/\*/lxml\*.whl>
->
-> 또한 이 도구는 현재 Python 버전 3 이상을 설치해야 합니다.
+> - Linux의 경우 분석기에서 결과 출력을 생성하려면 'lxml'이 필요합니다. 설치되지 않은 경우 분석기는 아래 python 패키지에 대한 공식 리포지토리에서 이를 페치하려고 시도합니다. <https://files.pythonhosted.org/packages/\*/lxml\*.whl>
+> 
+> - 또한 이 도구는 현재 Python 버전 3 이상을 설치해야 합니다.
+> 
+> - 장치가 프록시 뒤에 있는 경우 프록시 서버를 환경 변수로 mde_support_tool.sh 스크립트에 전달할 수 있습니다. 예: `https_proxy=https://myproxy.contoso.com:8080 ./mde_support_tool.sh"`
 
 예제:
 
