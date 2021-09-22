@@ -21,20 +21,23 @@ ms.custom:
 - AdminTemplateSet
 search.appverid: MET150
 description: 제품 라이선스를 지정하지 않는 데 사용하는 방법은 특정 사용자로부터 라이선스를 지정하지 않는지 또는 특정 제품의 라이선스를 지정하지 않는지 여부에 따라 결정됩니다.
-ms.date: 06/07/2021
-ms.openlocfilehash: 8a67d7e690ff07631f696a97d6ed59925bc871df
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.date: 09/16/2021
+ms.openlocfilehash: c657f4ef00b797a5f66ce6ecd28ca95cf9a5d9b6
+ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187139"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59477566"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
 활성 사용자 페이지 또는 라이선스 페이지에서 사용자로부터  라이선스를 **배포할 수** 있습니다. 사용하는 방법은 특정 사용자의 제품 라이선스를 지정을 해지할지 아니면 특정 제품의 사용자 라이선스를 지정을 해지할지 여부에 따라 결정됩니다.
 
 > [!NOTE]
-> 관리자는 조직의 사용자가 구입한 셀프 서비스 구매 구독의 라이선스를 할당하거나 할당 취소할 수 없습니다. [셀프 서비스 구매 구독을 이어 받은 다음](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription)할당 또는 할당 취소할 수 있습니다.
+> 
+> - 관리자는 조직의 사용자가 구입한 셀프 서비스 구매 구독의 라이선스를 할당하거나 할당 취소할 수 없습니다. [셀프 서비스 구매 구독을 이어 받은 다음](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription)할당 또는 할당 취소할 수 있습니다.
+> 
+> - 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지나면 기간이 끝날 때 구독을 취소하기 위해 재발급 청구를 해제합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -54,19 +57,22 @@ ms.locfileid: "59187139"
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지로 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지로 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 2. 라이선스를 해지할 제품을 선택합니다.
+
 3. 라이선스를 배포할 사용자를 선택합니다.
+
 4. 라이선스 **배포를 선택합니다.**
+
 5. 라이선스의 **Unassign(라이선스)** 상자에서 **Unassign (1)을 선택합니다.**
 
 ## <a name="use-the-active-users-page-to-unassign-licenses"></a>활성 사용자 페이지를 사용하여 라이선스의 배포를 허가합니다.
@@ -83,18 +89,20 @@ ms.locfileid: "59187139"
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 2. 라이선스를 배포할 사용자의 행을 선택합니다.
+
 3. 오른쪽 창에서 **라이선스 및 앱** 을 선택합니다.
+
 4. 라이선스 **섹션을 확장하고,** 라이선스를 취소할 라이선스의 확인란을 선택 취소한 다음 변경 **내용 저장을 선택합니다.**
 
 ### <a name="unassign-licenses-from-multiple-users"></a>여러 사용자의 라이선스를 배정하지 않습니다.
@@ -107,19 +115,22 @@ ms.locfileid: "59187139"
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 2. 라이선스를 배포할 사용자의 이름 옆에 있는 원을 선택합니다.
+
 3. 맨 위에 있는 **제품 라이선스 관리** 를 선택합니다.
+
 4. 제품 **라이선스 관리 창에서** 모든 저장 변경 **내용에** 대한 사용 안  >  **을 선택합니다.**
+
 5. 창 아래쪽에서 완료 를 **선택합니다.**  
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>라이선스를 제거하면 사용자의 데이터가 어떻게 하나요?
@@ -139,4 +150,4 @@ ms.locfileid: "59187139"
 
 [구독에서 라이선스 제거(문서)\](../../commerce/licenses/buy-licenses.md)
 [사용자에게 라이선스 할당](assign-licenses-to-users.md)(문서)\
-[비즈니스용 Microsoft 365 구독 및 라이선스](../../commerce/licenses/subscriptions-and-licenses.md) 이해(문서)
+[비즈니스에 대한 Microsoft 365 구독 및 라이선스 이해](../../commerce/licenses/subscriptions-and-licenses.md) (문서)

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jmueller
+ms.reviewer: micurn, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,12 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 description: 새 기능이 필요한 경우 사용자를 다른 구독으로 이동하는 방법을 배워야 합니다.
-ms.openlocfilehash: 95d3a4d8e32fb7e0e56e7318f507a911adbc59d9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.date: 09/16/2021
+ms.openlocfilehash: 436df4d563dea3717e463dab71c3a8b7e465dd70
+ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219412"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59477554"
 ---
 # <a name="move-users-to-different-subscriptions"></a>다른 구독으로 사용자 이동
 
@@ -38,6 +39,9 @@ ms.locfileid: "59219412"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SBE2?autoplay=false]
 
 사용자가 역할을 변경하면 현재 구독에서 사용할 수 없는 기능이 필요할 Microsoft 365 Business Premium 있습니다. 이 경우 이러한 기능이 포함된 새 구독을 추가하고 필요한 사용자에게 라이선스를 할당할 수 있습니다.
+
+> [!NOTE]
+> 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지나면 기간이 끝날 때 구독을 취소하기 위해 재발급 청구를 해제합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 

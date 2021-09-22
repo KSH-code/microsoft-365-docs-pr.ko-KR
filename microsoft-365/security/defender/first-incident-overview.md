@@ -1,7 +1,7 @@
 ---
-title: 첫 번째 인시던트에 대한 응답 소개
+title: 첫 번째 인시던트에 응답
 description: 기본 설정에서 첫 번째 인시던트에 응답하는 기본 Microsoft 365 Defender.
-keywords: 인시던트, 경고, 조사, 상관 관계, 공격, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, microsoft, m365, 인시던트 대응, 사이버 공격
+keywords: 인시던트, 경고, 조사, 상관 관계, 공격, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, microsoft, m365, 인시던트 대응, 사이버 공격, 자체 연구, 램프 업, 램프 업, 등록, 인시던트 대응자
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4176b718105643b59f23024c1a70cd8fe220eea9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f13569c8995433e0d629a3ce060d6c855f78700a
+ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211895"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59477602"
 ---
-# <a name="introduction-to-responding-to-your-first-incident"></a>첫 번째 인시던트에 대한 응답 소개
+# <a name="responding-to-your-first-incident"></a>첫 번째 인시던트에 응답
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
