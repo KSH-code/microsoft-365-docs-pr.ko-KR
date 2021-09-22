@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2ff6348a0496878ee6a7b422d441b8c96d553395
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4f473963bca6a3ad3e3ece57ecc30118e4ec6f62
+ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214235"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59479564"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -43,8 +43,6 @@ ms.locfileid: "59214235"
 > [!TIP]
 > 아직 Microsoft Defender for Office 365 없는가요? [영업 담당자에게 평가판을 시작해 을(를) 시작해 을(를) 평가](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
-
-
 다른 Microsoft Defender 보안 제품과 함께 새로운 제품에 대한 자세한 내용은 다음을 참조하세요.
 
 - [Microsoft 365 Defender의 새로운 기능](../defender/whats-new.md)
@@ -52,9 +50,9 @@ ms.locfileid: "59214235"
 - [ID용 Microsoft Defender의 새로운](/defender-for-identity/whats-new)
 - [새로운 Microsoft Cloud App Security](/cloud-app-security/release-notes)
 
-
 ## <a name="september-2021"></a>2021년 9월
 
+- [Defender for Office 365](https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/improving-the-reporting-experience-in-microsoft-defender-for/ba-p/2760898)
 - [Quarantine policies:](quarantine-policies.md)Admins can configure granular control for recipient access to quarantined messages and customize end-user spam notifications.
   - [관리자 환경 비디오](https://youtu.be/vnar4HowfpY)
   - [최종 사용자 환경 비디오](https://youtu.be/s-vozLO43rI)

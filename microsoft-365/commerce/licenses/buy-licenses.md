@@ -23,11 +23,11 @@ search.appverid: MET150
 description: 다음 단계에 따라 비즈니스용 구독에 대한 라이선스를 더 구입하거나 라이선스 수를 Microsoft 365 수 있습니다.
 ms.date: 09/16/2021
 ms.openlocfilehash: 77c1547b279cc5367ef23106e15dc2eee0c5a471
-ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/22/2021
-ms.locfileid: "59477711"
+ms.locfileid: "59480751"
 ---
 # <a name="buy-or-remove-licenses"></a>라이선스 구입 또는 제거
 

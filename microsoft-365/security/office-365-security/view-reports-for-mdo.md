@@ -20,12 +20,12 @@ description: 관리자는 검색 포털에서 사용할 수 있는 Office 365 De
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5cc6c39c9d18e1fcc206f1d8cb81451201541e61
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fc614d873a07a40c1ef65fde3681ce89edaae6d8
+ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211505"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59479576"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>검색 포털에서 Office 365 대한 Microsoft 365 Defender 보기
 
@@ -35,9 +35,23 @@ ms.locfileid: "59211505"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Office 365 Plan 1용 Microsoft Defender 또는 Office 365 Plan 2 추가 기능용 Microsoft Defender)에는 다양한 보안 관련 보고서가 포함되어 있습니다. 필요한 권한이 [](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)있는 경우 보고서 전자 메일 Microsoft 365 Defender 공동 작업 전자  메일 & 공동 작업 보고서로 이동하여 & \>  \> **수 있습니다.** 전자 메일 및 공동 작업 **& 페이지로** 직접 이동하기 위해 를 를 를 열 수 <https://security.microsoft.com/emailandcollabreport> 있습니다.
+Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Office 365 Plan 1용 Microsoft Defender 또는 Office 365 Plan 2 추가 기능용 Microsoft Defender)에는 다양한 보안 관련 보고서가 포함되어 있습니다. 필요한 권한이 [있는](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)경우 사이트 포털에서 이러한 보고서를 보고 Microsoft 365 Defender 있습니다.
 
-![전자 & 포털의 공동 작업 보고서 Microsoft 365 Defender 전자 메일로 보내기](../../media/email-collaboration-reports.png)
+## <a name="view-and-download-reports"></a>보고서 보기 및 다운로드
+
+### <a name="view-reports"></a>보고서 보기
+
+1. 보고서 전자 **메일 &** 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 및 공동 작업 **& 페이지로** 직접 이동하기 위해 를 를 를 열 수 <https://security.microsoft.com/emailandcollabreport> 있습니다.
+
+1. 보하려는 보고서를 선택한 다음 세부 정보 보기 **를 선택합니다.**  
+
+### <a name="download-reports"></a>보고서 다운로드
+
+1. Microsoft 365 Defender 포털에서 **보고서** 전자 메일 서비스 공동 &  >  **로 이동하세요.**
+
+2. 다운로드할 **보고서를 선택합니다.**
+
+![전자 & 포털의 공동 작업 보고서 Microsoft 365 Defender 전자 메일로 보내기](/microsoft-365/media/email-collaboration-reports.png)
 
 > [!NOTE]
 >
@@ -217,8 +231,8 @@ PowerShell 보고 cmdlet:
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기 권한자**
-- **전역 읽기 권한자**
+- **보안 읽기**
+- **전역 읽기**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 

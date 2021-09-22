@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 053ee63d80f37753b3737d834c9e79e4001f8a79
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b09ffa936ef7395bd16df37378db2d7de4a253f8
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186060"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59480739"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 
@@ -37,6 +37,9 @@ TLS 1.2로 업그레이드한 후 사용 하는 암호 제품군이 Azure Front 
 2020년 1월부터 이미 TLS 1.0과 1.1의 사용 중단이 시작되었습니다. DoD 또는 GCC High 인스턴스에서 TLS 1.0 또는 1.1을 통해 Office 365에 연결되는 모든 클라이언트, 디바이스 또는 서비스는 지원되지 않습니다. Office 365 고객의 경우 TLS 1.0 및 1.1 사용이 2020년 10월 15일부터 시작되고 출시는 다음 주와 몇 개월에 진행됩니다.
 
 모든 클라이언트-서버 및 브라우저-서버 조합에서는 Office 365 서비스 연결을 유지하기 위해 TLS 1.2(이상의 버전)를 사용하는 것이 좋습니다. 특정 클라이언트-서버 및 브라우저-서버 조합을 업데이트해야 할 수 있습니다.
+
+  > [!NOTE]
+  > SMTP 인바운드 메일 흐름의 경우 TLS 1.0 및 1.1이 더 이상 사용되지 않는 경우 TLS 1.2 연결만 수락합니다. 그러나 TLS 없이 암호화되지 않은 SMTP 연결을 계속 수락합니다. 암호화 없이는 전자 메일 전송을 권장하지 않습니다. 
 
 TLS 1.2를 사용하려면 TLS Microsoft 365 또는 TLS 1.1을 통해 Microsoft 365 응용 프로그램을 업데이트해야 합니다. .NET 4.5는 기본적으로 TLS 1.1로 설정됩니다. .NET 구성을 업데이트하려면 [클라이언트에서 TLS(전송 계층 보안) 1.2를](/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)사용하도록 설정하는 방법을 참조합니다.
 

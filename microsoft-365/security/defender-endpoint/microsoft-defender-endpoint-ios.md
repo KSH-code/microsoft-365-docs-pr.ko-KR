@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 63e1f78ff3431db03ab2f7b414eca13cdca21f41
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: 89cc1078506a0d2766bdfeb8138223603e414e79
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460179"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59480931"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
@@ -70,7 +70,7 @@ ms.locfileid: "59460179"
 
 **시스템 요구 사항**
 
-- iOS 11.0 이상을 실행하는 iOS 장치입니다. iPad도 지원됩니다.
+- iOS 11.0 이상을 실행하는 iOS 장치입니다. iPad도 지원됩니다. *iOS 11.0에 대한 지원은 더 이상 사용되지 않습니다. 지원되는 최소 버전은 2021년 10월 25일부터 iOS 12.0입니다.*
 
 - 디바이스가 Intune 회사 포털 앱에 [](https://apps.apple.com/us/app/intune-company-portal/id719171358) 등록되거나 Azure Active Directory [등록되어 Microsoft Authenticator.](https://apps.apple.com/app/microsoft-authenticator/id983156458)
 

@@ -1,8 +1,8 @@
 ---
 title: 사서함 사용률 서비스 경고
-ms.author: markjjo
-author: markjjo
-manager: laurawi
+ms.author: kvice
+author: kelleyvice-msft
+manager: scotv
 ms.date: ''
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ ms.custom: admindeeplinkMAC
 f1.keywords:
 - NOCSH
 description: 사서함 사용률 서비스 알림을 사용하여 사서함 할당량에 도달하는 보류된 사서함을 모니터링합니다.
-ms.openlocfilehash: 417e0106505dcc31af6e9a279fd79655df712dd2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: afae43f0c589d6c025fb0e1d20a7c5cf81eacbe2
+ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220864"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59479888"
 ---
 # <a name="service-alerts-for-mailbox-utilization-in-exchange-online-monitoring"></a>서버 모니터링의 사서함 사용률에 대한 Exchange Online 알림
 
@@ -82,11 +82,11 @@ ms.locfileid: "59220864"
 
 | RetentionPolicyGuid | MailboxType | HasMoveDumpsterToArchiveTag | HasMovePrimaryToArchiveTag | HasPersonalArchiveTag |  사서함 |
 |:--------------|:--------------|:---------------|:---------------|:---------------|:--------------- |
-| 6c041498-1611-5011-a058-1156ce60890c | PrimaryWithArchive | True | 거짓 | True | 398 |
-| 6c041498-1611-5011-a058-1156ce60890c | Primary | True | 거짓 | True | 10  |
-| 749ceecc-d49d-4000-a9d5-594dbaea1e56 | PrimaryWithArchive | 거짓 | True | 거짓 | 7  |
+| 6c041498-1611-5011-a058-1156ce60890c | PrimaryWithArchive | True | False | True | 398 |
+| 6c041498-1611-5011-a058-1156ce60890c | Primary | True | False | True | 10  |
+| 749ceecc-d49d-4000-a9d5-594dbaea1e56 | PrimaryWithArchive | False | True | False | 7  |
 | 269f6a85-1234-4648-8cde-59bbc7bc67d0 | PrimaryWithArchive | True | True | True | 1 |
-| 13fb778d-e1cb-4c44-5768-ad4282906c1f | PrimaryWithArchive | True | True  | 거짓 | 1 |
+| 13fb778d-e1cb-4c44-5768-ad4282906c1f | PrimaryWithArchive | True | True  | False | 1 |
 |||||||
 
 다음 목록에서는 이전 표의 각 열에 대해 설명합니다.

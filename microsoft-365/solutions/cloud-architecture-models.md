@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: de016e9ef29265fb89799eadebe54c973dac80d0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8b47aded4cb85d08cb2671771c138cb74f3abd35
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185508"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59481083"
 ---
 # <a name="microsoft-cloud-for-it-architects-illustrations"></a>IT 설계자용 Microsoft 클라우드 그림
 
@@ -26,6 +26,13 @@ ms.locfileid: "59185508"
 
 IT 의사 결정권자 및 설계자는 이러한 리소스를 사용하여 워크로드에 이상적인 솔루션을 결정하고 네트워킹, ID 및 보안과 같은 핵심 인프라 구성 요소에 대한 의사 결정을 내릴 수 있습니다.
 
+<a name="attacks"></a>
+### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>일반적인 공격 및 조직을 보호하는 Microsoft 기능
+가장 일반적인 사이버 공격과 Microsoft가 모든 공격 단계에서 조직을 지원하는 방식을 자세히 알아봅니다. 
+
+| 항목 | 설명 |
+|:-----|:-----|
+|[![일반적인 공격 포스터 그림. ](../media/solutions-architecture-center/common-attacks-model-thumb.png) ](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> 2021년 9월에 업데이트되었습니다. | 이 포스터에서는 일반적인 공격의 경로를 보여 주고, 각 공격 단계에서 공격자를 중지하는 데 도움이 되는 기능에 대해 설명합니다. <br/><br/>**관련 솔루션 가이드** <br/> <ul><li>[평가 및 파일럿 Microsoft 365 Defender](../security/defender/eval-overview.md)</li><li>[권장 ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)</li><li>[데이터 개인 정보 보호 규정에 대한 정보 보호를 Microsoft 365](information-protection-deploy.md)</li><li>[Microsoft 365 테넌트용 랜섬웨어 보호 배포](ransomware-protection-microsoft-365.md)</li><li>[Microsoft 365의 참가자 위험 솔루션](../compliance/insider-risk-solution-overview.md)</li></ul>
 
 <a name="identity"></a>
 ### <a name="microsoft-cloud-identity-for-it-architects"></a>IT 설계자용 Microsoft 클라우드 ID
@@ -70,11 +77,5 @@ Microsoft 서비스 및 플랫폼용 하이브리드 클라우드와 관련하�
 |:-----|:-----|
 |[![Microsoft 클라우드 테넌트-테넌트 마이그레이션을 위한 축소판 이미지입니다.](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| 2021년 2월에 업데이트되었습니다.    |이 모델에는 다음이 포함됩니다. <ul><li>아키텍처 접근 방식에 대한 비즈니스 시나리오 매핑</li><li>디자인 고려 사항</li><li>단일 이벤트 마이그레이션 흐름 예</li><li>단계적 마이그레이션 흐름 예</li><li>테넌트 이동 또는 분할 흐름 예제</li></ul>|
 
-<a name="attacks"></a>
-### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>일반적인 공격 및 조직을 보호하는 Microsoft 기능
-가장 일반적인 사이버 공격과 Microsoft가 모든 공격 단계에서 조직을 지원하는 방식을 자세히 알아봅니다. 
 
-| 항목 | 설명 |
-|:-----|:-----|
-|[![일반적인 공격 포스터 그림. ](../media/solutions-architecture-center/common-attacks-model-thumb.png)](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> 2017년 8월에 업데이트되었습니다. | 이 포스터에서는 일반적인 공격의 경로를 보여 주고, 각 공격 단계에서 공격자를 중지하는 데 도움이 되는 기능에 대해 설명합니다. <br/>|
 

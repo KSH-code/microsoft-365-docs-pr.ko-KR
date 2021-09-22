@@ -15,19 +15,19 @@ ms.reviewer: mkaminska
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 82b773488fffb5b37390cc72043c1b011c5c6685
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4018adc6fcf19e072f8c82292d488a6bbfa344d4
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222763"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59480799"
 ---
 # <a name="turn-on-cloud-protection-in-microsoft-defender-antivirus"></a>클라우드에서 클라우드 보호 Microsoft Defender 바이러스 백신
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
-- Windows Defender 바이러스 백신
+- Microsoft Defender 바이러스 백신
 
 [Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md) 클라우드 보호는 정확하고 실시간, 지능적인 보호를 제공합니다. 클라우드 보호는 기본적으로 사용하도록 설정되어 있습니다. 그러나 조직의 요구에 맞게 클라우드 보호를 구성할 수 있습니다.
 
@@ -115,11 +115,9 @@ Set-MpPreference -SubmitSamplesConsent SendAllSamples
 
 PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 Microsoft Defender 바이러스 백신 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet](/powershell/module/defender/)구성 및 실행을 참조하세요. [정책 CSP - Defender에는](/windows/client-management/mdm/policy-csp-defender) [-SubmitSamplesConsent에](/windows/client-management/mdm/policy-csp-defender#defender-submitsamplesconsent)대한 자세한 정보도 있습니다.
 
-> [!NOTE]
-> **-SubmitSamplesConsent를** (기본 설정) 또는 로 설정할 `SendSafeSamples` `NeverSend` 수도 `AlwaysPrompt` 있습니다. 이 `SendSafeSamples` 설정은 대부분의 샘플이 자동으로 전송됩니다. 개인 정보를 포함할 수 있는 파일은 계속 묻는 메시지를 표시하며 추가 확인이 요구됩니다.
-
-> [!WARNING]
-> **-SubmitSamplesConsent를** 설정하거나 장치의 보호 수준을 `NeverSend` `AlwaysPrompt` 낮출 수 있습니다. 또한 이를 로 설정하면 `NeverSend` 끝점용 Microsoft [](configure-block-at-first-sight-microsoft-defender-antivirus.md) Defender의 즉시 차단 기능이 작동하지 않습니다.
+> [!IMPORTANT]
+> **-SubmitSamplesConsent를** (기본값, 권장 설정) 또는 로 설정할 `SendSafeSamples` `NeverSend` 수 `AlwaysPrompt` 있습니다. 이 `SendSafeSamples` 설정은 대부분의 샘플이 자동으로 전송됩니다. 개인 정보가 포함될 가능성이 높은 파일은 계속하라는 메시지가 표시되고 확인이 요구됩니다.
+> 및 `NeverSend` `AlwaysPrompt` 설정은 장치의 보호 수준을 낮출 수 있습니다. 또한 이 `NeverSend` 설정은 [](configure-block-at-first-sight-microsoft-defender-antivirus.md) 끝점용 Microsoft Defender의 즉시 차단 기능이 작동하지 않습니다.
 
 ## <a name="use-windows-management-instruction-wmi-to-turn-on-cloud-protection"></a>WMI(Windows 관리 지침)를 사용하여 클라우드 보호 켜기
 
@@ -145,8 +143,8 @@ SubmitSamplesConsent
 
 3. 클라우드 **기반** 보호 및  자동 샘플 제출이 켜기 로 전환된지 **확인**
 
-> [!NOTE]
-> 그룹 정책을 사용하여 자동 샘플 제출을 구성한 경우 설정은 회색으로 회색으로 설정되고 사용할 수 없습니다.
+   > [!NOTE]
+   > 그룹 정책을 사용하여 자동 샘플 제출을 구성한 경우 설정은 회색으로 회색으로 설정되고 사용할 수 없습니다.
 
 ## <a name="see-also"></a>참고 항목
 
