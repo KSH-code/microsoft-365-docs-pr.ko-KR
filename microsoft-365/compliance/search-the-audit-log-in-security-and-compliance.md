@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: a77af4e72c5eaa5d66f120f05e91913c292051ab
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: abfd937b98ff863876060fcf6bbbe38c6b64f23f
+ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59183963"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59477699"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -409,9 +409,22 @@ Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니�
         [정보 장벽 활동](#information-barriers-activities)
     :::column-end:::
     :::column:::
-        [Exchange 관리자 활동](#exchange-admin-audit-log)
+        [처리 검토 활동](#disposition-review-activities)
     :::column-end:::
 :::row-end:::
+
+:::row:::
+    :::column:::
+        [Exchange 관리자 활동](#exchange-admin-audit-log)
+    :::column-end:::
+    :::column:::
+        
+    :::column-end:::
+    :::column:::
+        
+    :::column-end:::
+:::row-end:::
+
 
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
 
@@ -984,6 +997,8 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="retention-policy-and-retention-label-activities"></a>유지 정책 및 보존 레이블 활동
 
+다음 표에서는 생성, 다시 구성 또는 삭제된 [보존 정책 및 보존 레이블](retention.md)에 대한 구성 작업에 대해 설명합니다.
+
 |이름|작업|설명|
 |:-----|:-----|:-----|
 | 보존 정책에 대해 구성된 설정 |NewRetentionComplianceRule |관리자가 새 보존 정책에 대한 보존 설정을 구성했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](/powershell/module/exchange/new-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다.|
@@ -1031,6 +1046,18 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 | 사이트에 세그먼트 추가됨 | SegmentsAdded | SharePoint, 전역 관리자 또는 사이트 소유자가 하나 이상의 정보 장벽 세그먼트를 사이트에 추가했습니다. |
 | 사이트의 세그먼트가 변경됨 | SegmentsChanged | SharePoint 또는 전역 관리자가 사이트에 대한 하나 이상의 정보 장벽 세그먼트를 변경했습니다. |
 | 사이트에서 세그먼트 제거됨 | SegmentsRemoved | SharePoint 또는 전역 관리자가 사이트에서 하나 이상의 정보 장벽 세그먼트를 제거했습니다. |
+||||
+
+### <a name="disposition-review-activities"></a>처리 검토 활동
+
+다음 표에는 항목이 구성된 보존 기간이 끝날 때 처리 검토자가 수행한 활동이 나열되어 있습니다. 자세한 내용은 [콘텐츠 보기 및 처리](disposition.md#viewing-and-disposing-of-content)를 참조하세요.
+
+|**친숙한 이름**|**작업**|**설명**|
+|:-----|:-----|:-----|
+|승인된 폐기|ApproveDisposal|처리 검토자가 다음 처리 단계로 이동하기 위해 항목의 처리를 승인했습니다. 항목이 처리 검토의 유일한 또는 최종 단계에 있는 경우 처분 승인은 항목을 영구 삭제 대상으로 표시했습니다.|
+|연장된 보존 기간|ExtendRetentiond|처리 검토자가 항목의 보존 기간을 연장했습니다.|
+|레이블이 변경된 항목|RelabelItem|처리 검토자가 보존 레이블의 레이블을 다시 지정했습니다.|
+|추가된 검토자|AddReviewer|처리 검토자가 현재 처리 검토 단계에 하나 이상의 다른 사용자를 추가했습니다.|
 ||||
 
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 이 문서에서는 서로 다른 버전의 두 버전 간의 차이점을 Office 365 메시지 암호화.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 92beb3625c0b115fe77f1667a448bf0bf9589040
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 161415dfafc28bbb82043b0ecefea4dcb15d144b
+ms.sourcegitcommit: 0166442bb1f9922f627bc34e97bd74c609aa9507
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216655"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482152"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 
@@ -36,7 +36,7 @@ ms.locfileid: "59216655"
 
 Exchange Online 전자 메일 메시지 및 첨부 파일에 대한 온라인 및 오프라인 보호를 제공하는 IRM(정보 권한 관리) 기능이 포함되어 있습니다. 기본적으로 Azure Exchange Online 보호를 사용할 수 있습니다. 그러나 조직에서 IRM이 EXCHANGE ONLINE AD RMS(Active Directory Rights Management Service)를 사용하도록 구성한 것일 수 있습니다. AD RMS는 Exchange Online 지원이 중지됩니다. 대신 Azure Information Protection은 AD RMS를 완전히 대체합니다.
 
-이 사용되지 않도록 조직에 영향을 미치는지 평가하려면 에서 [AD RMS를 Azure RMS로](https://support.microsoft.com/help/5001237)마이그레이션하는 Exchange Online. 이 문서에서는 마이그레이션 옵션에 대한 권장 사항을 제공합니다.
+이 사용되지 않도록 조직에 영향을 미치는지 평가하려면 에서 [AD RMS를 Azure RMS로](/exchange/troubleshoot/administration/migrate-ad-rms-to-azure)마이그레이션하는 Exchange Online. 이 문서에서는 마이그레이션 옵션에 대한 권장 사항을 제공합니다.
 
 ## <a name="side-by-side-comparison-of-ome-features-and-capabilities"></a>OME 기능의 나란히 비교
 

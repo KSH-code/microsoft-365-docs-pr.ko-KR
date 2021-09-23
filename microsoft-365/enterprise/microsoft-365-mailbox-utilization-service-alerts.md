@@ -18,11 +18,11 @@ f1.keywords:
 - NOCSH
 description: 사서함 사용률 서비스 알림을 사용하여 사서함 할당량에 도달하는 보류된 사서함을 모니터링합니다.
 ms.openlocfilehash: afae43f0c589d6c025fb0e1d20a7c5cf81eacbe2
-ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/22/2021
-ms.locfileid: "59479888"
+ms.locfileid: "59480775"
 ---
 # <a name="service-alerts-for-mailbox-utilization-in-exchange-online-monitoring"></a>서버 모니터링의 사서함 사용률에 대한 Exchange Online 알림
 
