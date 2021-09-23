@@ -288,6 +288,8 @@
           href: mfi-slow-mail-flow-rules-insight.md
         - name: 관리자로 격리된 메시지 및 파일 관리
           href: manage-quarantined-messages-and-files.md
+        - name: 격리 정책
+          href: quarantine-policies.md
         - name: 제한된 사용자 포털에서 차단된 사용자 제거
           href: removing-user-from-restricted-users-portal-after-spam.md
         - name: 목록 해제 포털을 사용하여 수신 거부 목록에서 본인 제거
@@ -330,7 +332,7 @@
           href: backscatter-messages-and-eop.md
         - name: 대량 불만 수준(BCL)
           href: bulk-complaint-level-values.md
-        - name: 최종 사용자 스팸 알림
+        - name: 격리 알림
           href: use-spam-notifications-to-release-and-report-quarantined-messages.md
         - name: 아웃바운드 배달 풀
           href: high-risk-delivery-pool-for-outbound-messages.md

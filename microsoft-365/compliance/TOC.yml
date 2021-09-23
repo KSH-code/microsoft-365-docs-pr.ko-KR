@@ -40,6 +40,8 @@
           href: communication-compliance-investigate-remediate.md
         - name: 커뮤니케이션 규정 준수에 대한 기능 참조
           href: communication-compliance-feature-reference.md
+        - name: SIEM 솔루션과의 통신 규정 준수
+          href: communication-compliance-siem.md
         - name: 사례 연구 - Contoso에서 빠르게 무례한 언어 정책을 구성합니다
           href: communication-compliance-case-study.md
     - name: 내부자 위험 관리
