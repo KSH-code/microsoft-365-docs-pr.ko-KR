@@ -17,19 +17,20 @@ ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
 ms.date: 09/08/2021
-ms.openlocfilehash: c29579ff183b74ce74d6f3f1a725a028da5874d5
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 5745e5ee7604636b3ae3595ba907e055b86cc012
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401905"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491340"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
-- Windows Defender 바이러스 백신
+- Microsoft Defender 바이러스 백신
 
 최신 Microsoft Defender 바이러스 백신 유지하는 것은 장치에 새로운 맬웨어 및 공격 기술로부터 보호하는 데 필요한 최신 기술 및 기능을 유지하는 데 중요합니다. 수동 모드에서 실행 중인 경우에도 바이러스 Microsoft Defender 바이러스 백신 [업데이트해야 합니다.](microsoft-defender-antivirus-compatibility.md) 최신 업데이트와 관련된 두 가지 유형의 업데이트가 Microsoft Defender 바이러스 백신 있습니다.
 

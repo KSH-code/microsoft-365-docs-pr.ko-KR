@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: '요약: 새로운 엔드포인트 웹 서비스에는 특정 시나리오에 맞는 적은 수의 엔드포인트가 포함되어 있지 않습니다.'
 hideEdit: true
-ms.openlocfilehash: 76bfc947460d4c513207c3a53b2f4536282c65e1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e01bf3522d148e71fd4968029e1bbc9204ef9a6a
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210802"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491244"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 추가 엔드포인트
 
@@ -53,7 +53,7 @@ DNS 외에도 설명된 특정 시나리오가 필요하지 않는 경우 대부
 |2|[Office 365용 Microsoft 고객 지원 및 복구 도우미](https://diagnostics.office.com/#/)|<https://autodiscover.outlook.com> <br> <https://officecdn.microsoft.com> <br> <https://api.diagnostics.office.com> <br> <https://apibasic.diagnostics.office.com> <br> <https://autodiscover-s.outlook.com> <br> <https://cloudcheckenabler.azurewebsites.net> <br> <https://login.live.com> <br> <https://login.microsoftonline.com> <br> <https://login.windows.net> <br> <https://o365diagtelemetry.trafficmanager.net> <br> <https://odc.officeapps.live.com> <br> <https://offcatedge.azureedge.net> <br> <https://officeapps.live.com> <br> <https://outlook.office365.com> <br> <https://outlookdiagnostics.azureedge.net>|아웃바운드 서버 트래픽|
 |3 |Azure AD Connect(w/SSO 옵션)-WinRM 및 원격 PowerShell|고객 STS 환경(AD FS 서버 및 AD FS 프록시) \| TCP 포트 80 및 443|인바운드 서버 트래픽|
 |4 |AD FS 프록시 서버와 같은 STS(페더레이션 고객만 해당)|고객 STS(예: AD FS 프록시) \| 포트 TCP 443 또는 TCP 49443 w/ClientTLS|인바운드 서버 트래픽|
-|5 |[Exchange Online의 통합 메시징/SBC 통합](/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers)|-프레미스 세션 경계 컨트롤러와 \* .um.outlook.com|아웃바운드 서버 전용 트래픽|
+|5|[Exchange Online의 통합 메시징/SBC 통합](/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers)|-프레미스 세션 경계 컨트롤러와 \* .um.outlook.com|아웃바운드 서버 전용 트래픽|
 |6 |사서함 마이그레이션. 사서함 마이그레이션이 Exchange 하이브리드에서 하이브리드로 Office 365 Office 365 EWS(Exchange 웹 서비스)/MRS(사서함 복제 서비스) 서버에 연결됩니다. [](/exchange/exchange-deployment-assistant) 특정 원본 IP 범위의 인바운드 연결을 제한하기 위해 Exchange Online 서버에서 사용하는 NAT IP 주소가 필요한 경우 "Exchange Online" 서비스 영역의 Office 365 [URL & IP](urls-and-ip-address-ranges.md) 범위에 나열됩니다. <p> 특정 원본 IP 범위에서 TCP 443 연결을 제한하기 전에 MRS 프록시가 별도의 FQDN 및 공용 IP 주소로 확인되도록 하여 OWA와 같은 게시된 EWS 끝점에 대한 액세스가 영향을 갖지 않도록 해야 합니다.|고객 온-프레미스 EWS/MRS 프록시 <br> TCP 포트 443|인바운드 서버 트래픽|
 |7 |약속 있음/없음 공유와 같은 [Exchange 하이브리드](/exchange/exchange-deployment-assistant) 공존 기능|고객 온-프레미스 Exchange 서버|인바운드 서버 트래픽|
 |8 |[Exchange 하이브리드](/exchange/exchange-deployment-assistant) 프록시 인증|고객 온-프레미스 STS|인바운드 서버 트래픽|
@@ -71,7 +71,7 @@ DNS 외에도 설명된 특정 시나리오가 필요하지 않는 경우 대부
 |20|온-프레미스 사용자 계정을 Azure AD에 동기화하기 위한 중국의 21 ViaNet과 [Azure AD Connect](/azure/active-directory/hybrid/)|\*.digicert.com:80 <BR> \*.entrust.net:80 <BR> \*.chinacloudapi.cn:443 <br> secure.aadcdn.partner.microsoftonline-p.cn:443 <br> \*.partner.microsoftonline.cn:443 <p> [Azure AD 연결 수신 문제 해결](https://docs.azure.cn/zh-cn/active-directory/hybrid/tshoot-connect-connectivity)을 참조하세요.|아웃바운드 서버 전용 트래픽|
 | 21|Microsoft Stream(Azure AD 사용자 토큰 필요) <br> Office 365 월드와이드(GCC 포함)|\*.cloudapp.net <br> \*.api.microsoftstream.com <br> \*.notification.api.microsoftstream.com <br> amp.azure.net <br> api.microsoftstream.com <br> az416426.vo.msecnd.net <br> s0.assets-yammer.com <br> vortex.data.microsoft.com <br> web.microsoftstream.com <br> TCP 포트 443|인바운드 서버 트래픽|
 |22|다중 요소 인증 요청(서버 새로 설치 및 AD DS(Active Directory Domain Services)로 설정)에 MFA 서버를 사용하세요.|Azure AD 다단계 인증 서버 [시작을 참조하세요.](/azure/active-directory/authentication/howto-mfaserver-deploy#plan-your-deployment)|아웃바운드 서버 전용 트래픽|
-|23|Microsoft Graph 변경 알림 <p> 개발자는[변경 알림](/graph/webhooks?context=graph%2fapi%2f1.0&view=graph-rest-1.0)을 활용하여 Microsoft Graph의 이벤트를 구독할 수 있습니다.|\*.cloudapp.net <br> 104.43.130.21, 137.116.169.230, 13.79.38.63, 104.214.39.228 <p> Public Cloud: 168.63.250.205, 52.161.9.202, 40.68.103.62, 13.89.60.223, 23.100.95.104, 40.113.95.219, 104.214.32.10, 168.63.237.145, 52.161.110.176, 52.174.177.183, 13.85.192.59, 13.85.192.123, 13.86.37.15, 13.89.108.233, 13.89.104.147, 20.44.210.83, 20.44.210.146, 40.76.162.99, 40.76.162.42, 40.74.203.28, 40.74.203.27, 51.104.159.213, 51.104.159.181, 51.124.75.43, 51.124.73.177, 51.138.90.7, 51.138.90.52, 52.139.153.222, 52.139.170.157, 52.139.170.47, 52.142.114.29, 52.142.115.31, 52.147.213.251, 52.147.213.181, 52.148.24.136, 52.148.27.39, 52.148.115.48, 52.148.114.238, 52.154.246.238, 52.159.23.209, 52.159.17.84, 52.184.94.140 <p> Microsoft Cloud for US Government: 52.244.231.173, 52.238.76.151, 52.244.250.211, 52.238.78.108, 52.243.147.249, 52.243.148.19, 52.243.157.104, 52.243.157.105, 52.244.33.45, 52.244.35.174, 52.244.111.156, 52.244.111.170 <p> Microsoft 클라우드 독일: 51.4.231.136, 51.5.243.223, 51.4.226.154, 51.5.244.215, 51.4.150.206, 51.4.150.235, 51.5.147.130, 51.5.148.103 <p> 21Vianet에서 운영하는 Microsoft 클라우드 중국: 139.219.15.33, 42.159.154.223, 42.159.88.79, 42.159.155.77, 40.72.155.199, 40.72.155.216, 40.125.138.23, 40.125.136.69, 42.159.72.35, 42.159.72.47, 42.159.180.55, 42.159.180.56 <br> TCP 포트 443 <p> 참고: 개발자는 구독을 만들 때 여러 포트를 지정할 수 있습니다.|인바운드 서버 트래픽|
+|23|Microsoft Graph 변경 알림 <p> 개발자는[변경 알림](/graph/webhooks?context=graph%2fapi%2f1.0&view=graph-rest-1.0)을 활용하여 Microsoft Graph의 이벤트를 구독할 수 있습니다.|Public Cloud: 52.159.23.209, 52.159.17.84, 52.147.213.251, 52.147.213.181, 13.85.192.59, 13.85.192.123, 13.89.108.233, 13.89.104.147, 20.96.21.67, 20.69.245.215, 137.135.11.161, 137.135.11.116, 52.162.219.103, 52.162.218.180, 52.229.38.131, 52.183.67.212, 52.142.114.29, 52.142.115.31, 51.124.75.43, 51.124.73.177, 20.44.210.83, 20.44.210.146, 40.80.232.177, 40.80.232.118, 20.48.12.75, 20.48.11.201, 104.215.13.23, 104.215.6.169, 52.148.24.136, 52.148.27.39, 40.76.162.99, 40.76.162.42, 40.74.203.28, 40.74.203.27, 13.86.37.15, 52.154.246.238, 20.96.21.98, 20.96.21.115, 137.135.11.222, 137.135.11.250, 52.162.219.149, 52.162.219.167, 52.151.30.78, 52.191.173.85, 51.104.159.213, 51.104.159.181, 51.138.90.7, 51.138.90.52, 52.148.115.48, 52.148.114.238, 40.80.233.14, 40.80.239.196, 20.48.14.35, 20.48.15.147, 104.215.18.55, 104.215.12.254 <p> Microsoft Cloud for US Government: 52.244.33.45, 52.244.35.174, 52.243.157.104, 52.243.157.105, 52.182.25.254, 52.182.25.110, 52.181.25.67, 52.181.25.66, 52.244.111.156, 52.244.111.170, 52.243.147.249, 52.243.148.1 9, 52.182.32.51, 52.182.32.143, 52.181.24.199, 52.181.24.220 <p> 21Vianet에서 운영하는 Microsoft 클라우드 중국: 42.159.72.35, 42.159.72.47, 42.159.180.55, 42.159.180.56, 40.125.138.23, 40.125.136.69, 40.72.155.199, 40.72.155.216 <br> TCP 포트 443 <p> 참고: 개발자는 구독을 만들 때 여러 포트를 지정할 수 있습니다.|인바운드 서버 트래픽|
 |
 
 ## <a name="related-topics"></a>관련 주제

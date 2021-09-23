@@ -15,12 +15,13 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 09/21/2021
-ms.openlocfilehash: 0f0937ef59b74ea30f673aa1d05c4b75e3e5bbcc
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.collection: m365-security-compliance
+ms.openlocfilehash: 11b45edc944cb60c476a79dc921bd211e04514ef
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59480787"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491448"
 ---
 # <a name="why-cloud-protection-should-be-enabled-for-microsoft-defender-antivirus"></a>클라우드 보호를 사용하도록 설정해야 하는 Microsoft Defender 바이러스 백신
 
@@ -31,7 +32,7 @@ ms.locfileid: "59480787"
 
 Microsoft Defender 바이러스 백신 클라우드 보호는 끝점 및 네트워크 전체에서 맬웨어를 방지하는 데 도움이 됩니다. 끝점용 Microsoft Defender의 특정 보안 기능은 클라우드 보호가 활성화되어 있는 경우만 작동하기 때문에 클라우드 보호를 설정하는 것이 좋습니다. 
 
-[:::image type="content" source="mde-cloud-protection.png" alt-text="클라우드 보호가 클라우드 보호와 함께 작동하는 방법을 보여 Microsoft Defender 바이러스 백신":::](enable-cloud-protection-microsoft-defender-antivirus.md)
+[:::image type="content" source="images/mde-cloud-protection.png" alt-text="클라우드 보호에 종속된 기능을 보여주는 다이어그램":::](enable-cloud-protection-microsoft-defender-antivirus.md)
 
 다음 표에는 클라우드 보호에 종속된 기능이 요약되어 있습니다. <br/><br/>
 

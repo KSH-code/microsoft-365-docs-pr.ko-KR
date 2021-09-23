@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: reference
 ms.technology: mde
-ms.openlocfilehash: 81d9194d9e0c6677f01f34b8052efa0333270c04
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5616a2b4aecede00ca11a56d37bc7d074d260627
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215095"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491172"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender의 새로운
 
@@ -34,6 +34,11 @@ ms.locfileid: "59215095"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
+
+## <a name="1120240103"></a>1.1.20240103
+- 장치 상태 카드 - 장치 상태 카드는 최종 사용자에게 보류 중인 소프트웨어 업데이트에 대해 고지합니다.
+- 사용성 향상 - 이제 최종 사용자는 MSDefender 앱 자체에서 끝점 VPN에 대한 Defender를 사용하지 않도록 설정할 수 있습니다. 이 업데이트 이전에는 최종 사용자가 앱의 앱에서만 VPN을 사용하지 설정했습니다.
+- 버그 수정
 
 ## <a name="1120020101"></a>1.1.20020101
 - UX 향상 - 끝점용 Microsoft Defender의 모양이 새로운 모양입니다.

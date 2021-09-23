@@ -15,12 +15,13 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 97b9d95638c205dd47453bf6ad09c0d0487f0f8e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: m365-security-compliance
+ms.openlocfilehash: cf0f093652776ae1b53bd1ef50b90c60606a0952
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212022"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491256"
 ---
 # <a name="better-together-microsoft-defender-antivirus-and-microsoft-defender-for-endpoint"></a>함께 활용: Microsoft Defender 바이러스 백신 및 Microsoft Defender for Endpoint
 
@@ -43,7 +44,7 @@ Microsoft Defender for Endpoint에서 Microsoft가 아닌 바이러스 백신 �
 |2|위협 분석 및 장치 점수 |Microsoft Defender 바이러스 백신 위협 분석 및 장치용 Microsoft [](/microsoft-365/security/defender-endpoint/threat-analytics) 보안 점수에서 사용되는 원본 시스템 데이터를 [수집합니다.](/microsoft-365/security/defender-endpoint/tvm-microsoft-secure-score-devices) 이렇게 하면 조직의 보안 팀에 조직의 보안 자세를 개선할 수 있는 권장 사항 및 기회와 같은 보다 의미 있는 정보가 제공될 수 있습니다. |
 |3 |성능 |끝점용 Microsoft Defender는 사용자와 함께 Microsoft Defender 바이러스 백신 수 있도록 설계되어 있으므로 이러한 제품을 함께 사용할 때 더 나은 성능을 얻을 수 있습니다. [끝점에 Microsoft Defender 바이러스 백신](evaluate-microsoft-defender-antivirus.md) [및 Microsoft Defender를 평가합니다.](/microsoft-365/security/defender-endpoint/evaluate-mde)|
 |4 |차단된 맬웨어에 대한 세부 정보 |차단된 맬웨어에 대한 자세한 내용 및 작업은 Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint에서 사용할 수 있습니다. [다른 위협에 & 맬웨어를 이해합니다.](/windows/security/threat-protection/intelligence/understanding-malware)|
-|5 |네트워크 보호 |조직의 보안 팀은 특정 URL 및 IP 주소를 차단하여 네트워크를 보호할 수 있습니다. [네트워크 보호](/microsoft-365/security/defender-endpoint/network-protection).|
+|5|네트워크 보호 |조직의 보안 팀은 특정 URL 및 IP 주소를 차단하여 네트워크를 보호할 수 있습니다. [네트워크 보호](/microsoft-365/security/defender-endpoint/network-protection).|
 |6 |파일 차단 |조직의 보안 팀에서 특정 파일을 차단할 수 있습니다. 네트워크에서 파일을 중지하고 [검지합니다.](/microsoft-365/security/defender-endpoint/respond-file-alerts#stop-and-quarantine-files-in-your-network)|
 |7 |공격 표면 감소 |조직의 보안 팀은 취약성(공격 표면)을 줄여 공격자가 공격을 수행할 수 있는 방법을 더 적게 줄입니다. 공격 표면 감소는 다양한 규칙에 대해 클라우드 보호를 사용 합니다. [공격 표면 감소에 대한 개요를 얻습니다.](/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction)|
 |8 |감사 이벤트 |감사 이벤트 신호는 끝점 검색 및 응답 [기능에서 사용할 수 있습니다.](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) Microsoft가 아닌 바이러스 백신 솔루션에서는 이러한 신호를 사용할 수 없습니다. |
@@ -56,4 +57,4 @@ Microsoft Defender for Endpoint에서 Microsoft가 아닌 바이러스 백신 �
 
 [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
 
-[위협 & 취약성 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+[위협 및 취약성 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)

@@ -16,12 +16,13 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 6fa4ff040bb6c863fab88e25728c69bcf920a07b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: m365-security-compliance
+ms.openlocfilehash: 4418b91bb72549db5bb11b9a36a1d3d5c55cb741
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185716"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490802"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>실시간 보호와 관련된 성능 문제 해결
 

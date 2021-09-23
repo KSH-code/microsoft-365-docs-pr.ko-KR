@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 78ad8b65a7ad727417dd6152fcb34c6df34080c9
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: 2e7ec8ca3b9f428708c21c5a75bbfd4174373d62
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59480859"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491328"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -38,30 +38,31 @@ ms.locfileid: "59480859"
 > [!TIP]
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-웹 콘텐츠 필터링은 [](web-protection-overview.md) 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
+웹 콘텐츠 필터링은 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. [](web-protection-overview.md) 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
 
 특정 범주를 차단하도록 장치 그룹 전체에서 정책을 구성합니다. 범주를 차단하면 지정된 장치 그룹 내의 사용자가 해당 범주와 연결된 URL에 액세스할 수 없습니다. 차단되지 않은 범주에 대해 URL이 자동으로 감사됩니다. 사용자는 중단 없이 URL에 액세스할 수 있으며 액세스 통계를 수집하여 보다 사용자 지정 정책 결정을 만드는 데 도움이 됩니다. 사용자가 보고 있는 페이지의 요소가 차단된 리소스를 호출하는 경우 차단 알림이 표시됩니다.
 
 웹 콘텐츠 필터링은 주요 웹 브라우저에서 사용할 수 있으며, Windows Defender SmartScreen(Microsoft Edge) 및 네트워크 보호(Chrome, Firefox, Brave 및 Opera)에서 수행되는 블록이 있습니다. 브라우저 지원에 대한 자세한 내용은 prerequisites 섹션을 참조하세요.
 
-이점 요약:
+## <a name="benefits-of-web-content-filtering"></a>웹 콘텐츠 필터링의 이점
 
-- 사용자가 차단된 범주의 웹 사이트에 액세스하지 못하도록 차단됩니다.
-- 보안 팀에서 끝점 역할 기반 액세스 제어 설정에 대해 Microsoft Defender에 정의된 장치 그룹을 사용하여 사용자 그룹에 정책을 편리하게 [배포할 수 있습니다.](/microsoft-365/security/defender-endpoint/rbac)
-- 보안 팀이 실제 블록 및 웹 사용 현황을 볼 수 있는 동일한 중앙 위치에서 웹 보고서에 액세스할 수 있습니다.
+- 사용자는 사용자가 차단된 범주의 웹 사이트에 액세스할 수 없습니다. 즉, 사용자가 온라인에서 검색하는지 아니면 멀어지든 액세스가 차단됩니다.
+
+- 보안 팀은 끝점 역할 기반 액세스 제어 설정에 대해 Microsoft Defender에 정의된 장치 그룹을 사용하여 사용자 그룹에 정책을 편리하게 [배포할 수 있습니다.](/microsoft-365/security/defender-endpoint/rbac)
+
+- 보안 팀은 실제 블록 및 웹 사용 현황을 볼 수 있는 동일한 중앙 위치에 있는 웹 보고서에 액세스할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
 이 기능을 시도하기 전에 다음 요구 사항을 충족하는지 확인합니다.
 
-- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점 독립 실행형 라이선스용 Microsoft Defender 
-- Microsoft 365 Defender 포털()에 [https://security.microsoft.com](https://security.microsoft.com) 액세스합니다.
-- 최신 바이러스 Windows 10/맬웨어 방지 업데이트가 있는 1주년 업데이트(버전 1607) 이상을 실행하는 [장치.](manage-updates-baselines-microsoft-defender-antivirus.md)
-- Windows Defender SmartScreen 및 네트워크 보호를 사용할 수 있습니다.
+- 구독에는 Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 Microsoft Defender for Endpoint 독립 실행형 라이선스. 
 
-## <a name="user-experience"></a>사용자 환경
+- 포털()에 Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
 
-지원되는 타사 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 메시지를 제공하는 네트워크 보호에서 제공합니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
+- 조직의 장치에서 최신 바이러스 백신/맬웨어 방지 Windows 10 1주년 업데이트(버전 1607) 이상이 [실행되고 있습니다.](manage-updates-baselines-microsoft-defender-antivirus.md)
+
+- Windows Defender SmartScreen 및 네트워크 보호는 조직의 장치에서 사용하도록 설정됩니다.
 
 ## <a name="data-handling"></a>데이터 처리
 
@@ -179,6 +180,10 @@ ms.locfileid: "59480859"
 > - 정책을 제거하거나 장치 그룹을 동시에 변경하는 경우 정책 배포가 지연될 수 있습니다.
 > - "분류되지 않은" 범주를 차단하면 예기치 않게 원치 않는 결과가 발생할 수 있습니다.  
 
+## <a name="end-user-experience"></a>최종 사용자 환경
+
+지원되는 타사 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 메시지를 제공하는 네트워크 보호에서 제공합니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
+
 ### <a name="allow-specific-websites"></a>특정 웹 사이트 허용
 
 웹 콘텐츠 필터링에서 차단된 범주를 정의하여 사용자 지정 표시기 정책을 만들어 단일 사이트를 허용할 수 있습니다. 사용자 지정 표시기 정책은 해당 디바이스 그룹에 적용될 때 웹 콘텐츠 필터링 정책을 대신합니다.
@@ -243,9 +248,7 @@ ms.locfileid: "59480859"
 
 페이지 왼쪽 위에 있는 시간 범위 필터를 사용하여 기간을 선택합니다. 정보를 필터링하거나 열을 사용자 지정할 수도 있습니다. 선택한 항목에 대한 추가 정보가 있는 플라이아웃 창을 열기 위해 행을 선택합니다.
 
-## <a name="errors-and-issues"></a>오류 및 문제
-
-### <a name="limitations-and-known-issues-in-this-preview"></a>이 미리 보기의 제한 사항 및 알려진 문제
+### <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
 - 장치의 Microsoft Edge 구성이 **Server(cmd**  >  **Systeminfo** OS 구성)인 경우  >  **지원됩니다.** 네트워크 보호는 지원되는 타사 브라우저에서 트래픽을 보호하는 서버 장치의 검사 모드에서만 지원됩니다.
 

@@ -16,12 +16,13 @@ ms.custom: nextgen
 ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 5b1562a92302e404d10e5f309a702c09491aab80
-ms.sourcegitcommit: bf801ff8b45a68edb587f1661d06acd4121ecb49
+ms.collection: M365-security-compliance
+ms.openlocfilehash: a725d1e239fb6b8d853c3f7f33814c62a77f6e8d
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59407660"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490814"
 ---
 # <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사
 
@@ -115,3 +116,8 @@ Microsoft Defender 바이러스 백신 명령줄 유틸리티( )와 함께 다�
    > 1703 Windows 10 이전 버전의 사용자 인터페이스가 다릅니다. Microsoft Defender 바이러스 백신 [앱의 Windows 보안 참조하세요.](microsoft-defender-security-center-antivirus.md)
 
    또한 Windows 로그에는 클라이언트 [Windows Defender ID 1116도 표시됩니다.](troubleshoot-microsoft-defender-antivirus.md)
+
+## <a name="see-also"></a>참고 항목
+
+- [디바이스 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
+- [그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신](use-group-policy-microsoft-defender-antivirus.md)

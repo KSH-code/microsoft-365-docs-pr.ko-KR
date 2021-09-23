@@ -15,13 +15,14 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.date: 09/14/2021
+ms.collection: M365-security-compliance
 ms.topic: how-to
-ms.openlocfilehash: 87200c519aa27a2f8472a025f90a283978fd21a0
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 7434a37985a9e47cc16795c6aa24d6a7d48f66a7
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399817"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490874"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Microsoft Defender 바이러스 백신 검사 옵션 구성
 
@@ -56,16 +57,16 @@ ms.locfileid: "59399817"
 |정책 항목 및 위치|기본 설정(구성되지 않은 경우)|클래스의 PowerShell `Set-MpPreference` 매개 변수 또는 WMI `MSFT_MpPreference` 속성|
 |---|---|---|
 |전자 메일 검사 <p> **스캔** \> **전자 메일 검사 켜기**<p>전자 [메일 검색 제한(이](#email-scanning-limitations) 문서의)을 참조하세요.|사용 안 함|`-DisableEmailScanning`|
-|[재분석 지점 검사](/windows/win32/fileio/reparse-points) <p> **스캔** \> **재분석 지점 검사 켜기**|사용 안 함|사용할 수 없음 <p>[재분석 지점 참조](/windows/win32/fileio/reparse-points)|
+|[재분석 지점 검사](/windows/win32/fileio/reparse-points) <p> **스캔** \> **재분석 지점 검사 켜기**|사용 안 함|사용 불가 <p>[재분석 지점 참조](/windows/win32/fileio/reparse-points)|
 |매핑된 네트워크 드라이브 검사 <p> **스캔** \> **매핑된 네트워크 드라이브에서** 전체 검사 실행|사용 안 함|`-DisableScanningMappedNetworkDrivesForFullScan`|
 |보관 파일(예: 파일 .zip 또는 .rar 검사). <p> **스캔** \> **보관 파일 검사**|사용|`-DisableArchiveScanning` <p>확장 [제외](configure-extension-file-exclusions-microsoft-defender-antivirus.md) 목록이 이 설정보다 우선합니다.|
 |네트워크의 파일 검색 <p> **스캔** \> **네트워크 파일 검사**|사용 안 함|`-DisableScanningNetworkFiles`|
-|압축된 실행 실행기 검사 <p> **스캔** \> **압축된 실행 실행기 검사**|사용|사용할 수 없음|
+|압축된 실행 실행기 검사 <p> **스캔** \> **압축된 실행 실행기 검사**|사용|사용 불가|
 |전체 검사 중에 이동식 드라이브 검색만 <p> **스캔** \> **이동식 드라이브 검사**|사용 안 함|`-DisableRemovableDriveScanning`|
 |검사할 보관 폴더 내의 하위 폴더 수준 지정 <p>**스캔** \> **보관 파일을 검색할 최대 깊이 지정**|0|사용할 수 없음|
 |검사하는 동안 최대 CPU 부하를 백분율로 지정합니다. <p> **스캔** \> **검사 중 CPU 사용률의 최대 백분율 지정**|50|`-ScanAvgCPULoadFactor` <p>**참고:** 최대 CPU 부하는 하드 한도가 아니며 검색 엔진이 평균 최대값을 초과하지 않는 지침입니다. 수동 실행 검사는 이 설정을 무시하고 CPU 제한 없이 실행됩니다.|
-|검사해야 하는 보관 파일의 최대 크기(킬로바이트)를 지정합니다. <p> **스캔** \> **검사할 보관 파일의** 최대 크기 지정|제한 없음|사용할 수 없음 <p>기본값인 0은 제한 없음을 적용합니다.|
-|예약된 검사에 대해 낮은 CPU 우선 순위 구성 <p> **스캔** \> **예약된 검사에 대해 낮은 CPU 우선 순위 구성**|사용 안 함|사용할 수 없음|
+|검사해야 하는 보관 파일의 최대 크기(킬로바이트)를 지정합니다. <p> **스캔** \> **검사할 보관 파일의** 최대 크기 지정|제한 없음|사용 불가 <p>기본값인 0은 제한 없음을 적용합니다.|
+|예약된 검사에 대해 낮은 CPU 우선 순위 구성 <p> **스캔** \> **예약된 검사에 대해 낮은 CPU 우선 순위 구성**|사용 안 함|사용 불가|
 
 > [!NOTE]
 > 실시간 보호가 켜져 있는 경우 파일에 액세스하고 실행하기 전에 파일을 검사합니다. 검사 범위에는 USB 드라이브와 같은 탑재된 이동식 미디어의 파일을 비롯한 모든 파일이 포함됩니다. 검색을 수행하는 장치에 실시간 보호 또는 액세스 보호가 켜져 있는 경우 검색에는 네트워크 공유도 포함됩니다.

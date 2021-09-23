@@ -13,12 +13,13 @@ ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
-ms.openlocfilehash: 7927ba193d6b488911d3d658ac48f4980d90969c
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 53d8742b411c500705434fcef181793df591eb19
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444106"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490970"
 ---
 # <a name="set-up-and-configure-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1에 대한 Microsoft Defender 설정 및 구성(미리 보기)
 
@@ -40,7 +41,7 @@ Endpoint Plan 1(미리 보기)에 대한 일반적인 설치 및 구성 프로�
 | 2 | [배포 계획](#plan-your-deployment) | 고려할 여러 배포 방법을 나열하고 사용할 방법을 결정하는 데 도움이 되는 추가 리소스에 대한 링크를 포함합니다.  |
 | 3  | [테넌트 환경 설정](#set-up-your-tenant-environment) | 테넌트 환경 설정에 대한 작업 나열 |
 | 4  | [역할 및 사용 권한 할당](#assign-roles-and-permissions) | 보안 팀에 대해 고려할 역할 및 사용 권한 나열 <br/><br/>**팁:** 역할 및 사용 권한이 할당되는 즉시 보안 팀이 보안 포털을 사용하여 시작할 Microsoft 365 Defender 있습니다. 자세한 내용은 [시작을 참조합니다.](mde-plan1-getting-started.md) |
-| 5  | [끝점용 Defender에 온보딩](#onboard-to-defender-for-endpoint) | Endpoint Plan 1용 Defender에 온보딩할 운영 체제의 여러 방법을 나열하고 각 방법에 대한 자세한 정보에 대한 링크를 포함합니다.  |
+| 5 | [끝점용 Defender에 온보딩](#onboard-to-defender-for-endpoint) | Endpoint Plan 1용 Defender에 온보딩할 운영 체제의 여러 방법을 나열하고 각 방법에 대한 자세한 정보에 대한 링크를 포함합니다.  |
 | 6  | [차세대 보호 구성](#configure-next-generation-protection) | 2013에서 차세대 보호 설정을 구성하는 Microsoft Endpoint Manager  |
 | 7  | [공격 표면 감소 기능 구성](#configure-your-attack-surface-reduction-capabilities)        | 구성할 수 있는 공격 표면 감소 기능 유형을 나열하고 추가 리소스에 대한 링크가 포함된 절차를 포함합니다.  |
 
@@ -227,7 +228,7 @@ Microsoft 365 Defender 포털에 액세스하거나 끝점에 대한 Defender �
 
 9. 검토 **+ 만들기 탭에서** 정책의 설정을 검토한 다음 만들기 를 **선택합니다.** 정책은 곧 끝점용 Defender에 온보딩된 모든 끝점에 적용됩니다.
 
-### <a name="device-control"></a>장치 제어
+### <a name="device-control"></a>디바이스 컨트롤
 
 이동식 장치에서 이동식 장치 및 파일을 차단하거나 허용하도록 끝점에 대한 Defender를 구성할 수 있습니다. 디바이스 제어 Microsoft Endpoint Manager 구성하는 것이 좋습니다.
 

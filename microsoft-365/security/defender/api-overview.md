@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 2ca601c3c68df9f9f1cc4fb90bcfbe907850ce91
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ef8a5e1b833bc1184132469f8c3b358e907974e4
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214615"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491268"
 ---
 # <a name="overview-of-microsoft-365-defender-apis"></a>API Microsoft 365 Defender 개요
 
@@ -46,14 +46,14 @@ Microsoft 365 Defender 준비된 플랫폼을 토대하여 구축됩니다.
 
 - **[제품](api-advanced-hunting.md)** 간 위협 헌팅 - 여러 보호 제품에서 수집된 원시 데이터를 분산하기 위해 사용자 지정 쿼리를 만들어 보안 팀의 조직 지식을 활용하여 손상 징후를 찾습니다.
 
-Streaming [API를](../defender-endpoint/raw-data-export.md) 사용하여 단일 데이터 스트림 내에서 발생하는 실시간 이벤트 및 인스턴스의 경고를 제공합니다.
+- **[이벤트 스트리밍 API](streaming-api.md)** - 이벤트가 발생할 때 단일 데이터 스트림에 실시간 이벤트 및 경고를 제공합니다.
 
 이러한 Microsoft 365 Defender 특정 API와 함께 다른 각 보안 제품은 고유한 [](api-articles.md) 기능을 활용하는 데 도움이 되는 추가 API를 노출합니다.
 
 > [!NOTE]
 > 통합 포털로 전환하면 끝점 API용 Microsoft Defender를 기반으로 하는 PowerBi 대시보드에 영향을 주지 않습니다. 대화형 포털 전환에 관계없이 기존 API를 계속 사용할 수 있습니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 | **API 액세스 방법 이해** |
 |-|

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스 Windows Defender 관리
+title: 비즈니스 Microsoft Defender 바이러스 백신 관리
 description: 그룹 정책, Configuration Manager, PowerShell, WMI, Intune 및 명령줄을 사용하여 Microsoft Defender AV를 관리하는 방법을 학습합니다.
 keywords: 그룹 정책, gpo, 구성 관리자, sccm, scep, powershell, wmi, intune, defender, 바이러스 백신, 맬웨어 방지, 보안, 보호
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: f28c209ce179cc019a8b0edbdc698f9f9eb7daf6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: M365-security-compliance
+ms.openlocfilehash: dc5cd2b57ce3c282c69b5a1cfac77baf27717416
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165703"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490898"
 ---
 # <a name="manage-microsoft-defender-antivirus-in-your-business"></a>비즈니스 Microsoft Defender 바이러스 백신 관리
 
@@ -31,7 +32,7 @@ ms.locfileid: "59165703"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
-- [Windows Defender 바이러스 백신](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
+- [Microsoft Defender 바이러스 백신](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 
 다음 도구를 사용하여 Microsoft Defender 바이러스 백신 구성할 수 있습니다.
 

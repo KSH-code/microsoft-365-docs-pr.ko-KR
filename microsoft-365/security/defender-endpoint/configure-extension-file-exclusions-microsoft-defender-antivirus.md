@@ -15,19 +15,20 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.date: 09/14/2021
-ms.openlocfilehash: 5dfa84335e9f31e531759b209ac3c2491c657fe0
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.collection: M365-security-compliance
+ms.openlocfilehash: e629cfa55467bc7f5f0a021e52cc8ade5118c8c4
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399805"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491592"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
-- Windows Defender 바이러스 백신
+- Microsoft Defender 바이러스 백신
 
 예약된 검사, Microsoft Defender 바이러스 백신 검사 및 무중단 [](schedule-antivirus-scans.md)실시간 보호 및 [](run-scan-microsoft-defender-antivirus.md)모니터링에 적용되는 제외를 정의할 [수 있습니다.](configure-real-time-protection-microsoft-defender-antivirus.md) **일반적으로 제외를** 적용할 필요가 없습니다. 제외를 적용해야 하는 경우 여러 가지 종류에서 선택할 수 있습니다.
 

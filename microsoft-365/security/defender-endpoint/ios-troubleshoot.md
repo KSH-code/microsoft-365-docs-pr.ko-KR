@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6d2e0fc1ffeccfd189b95fbd5908a959e4a823a8
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: c7ee6f1debaf697c49e292068ba88c436714addf
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460171"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491126"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
@@ -103,6 +103,10 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 ## <a name="data-and-privacy"></a>데이터 및 개인 정보
 
 수집된 데이터 및 개인 정보 보호에 대한 자세한 내용은 개인 정보 보호 [정보 - iOS의 끝점용 Microsoft Defender를 참조하세요.](ios-privacy.md)
+
+## <a name="issues-on-supervised-devices-with-content-filter-profile-installed"></a>콘텐츠 필터 프로필이 설치된 감독되는 디바이스의 문제
+
+Endpoint용 Defender 콘텐츠 필터가 설치된 감독되는 장치에 문제가 있습니다. 이러한 장치에서 중간 연결 속도가 느려지거나 대기 시간이 관찰되면 장치에서 콘텐츠 필터 프로필을 제거하거나 삭제합니다. We are working to resolve this issue and will update this place once we have a resolution. 
 
 ## <a name="issues-during-app-updates-from-the-app-store"></a>앱 스토어에서 앱을 업데이트하는 동안의 문제
 

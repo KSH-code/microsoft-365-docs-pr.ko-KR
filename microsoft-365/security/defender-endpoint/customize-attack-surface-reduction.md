@@ -14,12 +14,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: bfdfd2badce75294376d6406ba3d3078f26a9857
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 92cb643d0e133f0b850e16e076a88901b595e426
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222866"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490958"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용자 지정
 

@@ -15,12 +15,13 @@ manager: dansimp
 ms.date: 05/24/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: f940d71b46f3010cded48cfe4c3b9873ea518a0b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 4fcfee2aff1c5e339339b2cd022df53a1cbcfc3e
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165751"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490922"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>명령줄 Microsoft Defender 바이러스 백신 사용하여 mpcmdrun.exe 구성 및 관리
 
@@ -51,7 +52,7 @@ MpCmdRun.exe -Scan -ScanType 2
 
 |명령|설명|
 |---|---|
-|`-?`**또는**`-h`|MpCmdRun 도구에 대해 사용 가능한 모든 옵션을 표시|
+|`-?` **또는** `-h`|MpCmdRun 도구에 대해 사용 가능한 모든 옵션을 표시|
 |`-Scan [-ScanType [<value>]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]`|악성 소프트웨어를 검사합니다. **ScanType의 값은:**<p>**0** 구성에 따라 기본값<p>**1** 빠른 검사<p>**2** 전체 검사<p>**3** 파일 및 디렉터리 사용자 지정 검사.<p>CpuThrottling은 정책 구성에 따라 실행됩니다.|
 |`-Trace [-Grouping #] [-Level #]`|진단 추적 시작|
 |`-GetFiles [-SupportLogLocation <path>]`|지원 정보를 수집합니다. '진단[데이터 수집'](collect-diagnostic-data.md)참조|

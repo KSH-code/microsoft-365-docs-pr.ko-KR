@@ -15,12 +15,13 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 37a95fedede173578f23b48286e846f95a495479
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: m365-security-compliance
+ms.openlocfilehash: 6cc38a571fb987273c382596b60cc613bafc9a1b
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222756"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491436"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 

@@ -14,12 +14,13 @@ author: dansimp
 ms.author: dansimp
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 0ca21e782b6d6bcceb7a3cf2444e2d6663ae32d0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: m365-security-compliance
+ms.openlocfilehash: 1095d29ba5ad24da7b4b3da8f17ae0dc7f0e6afa
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167095"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491568"
 ---
 # <a name="host-firewall-reporting-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 호스트 방화벽 보고
 
@@ -31,7 +32,7 @@ ms.locfileid: "59167095"
 
 관리자인 경우 이제 보안 센터 에 방화벽 [보고를 Microsoft 365 있습니다.](https://security.microsoft.com) 이 기능을 사용하면 중앙 위치에서 Windows 10 및 Windows Server 2019 방화벽 보고를 볼 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - Server 2019 또는 Windows 10 Windows 실행 중이야 합니다.
 - 디바이스를 Microsoft Defender for Endpoint 서비스에 온보딩하는 경우 여기를 [참조하세요.](onboard-configure.md)

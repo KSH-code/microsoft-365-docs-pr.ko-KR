@@ -15,12 +15,13 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: d00c4a541951ee1c241a52a19b8ec27301b793a1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 212a746e217e071c4770e4830bd101f18bb27f3e
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212075"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491184"
 ---
 # <a name="manage-updates-for-mobile-devices-and-virtual-machines-vms"></a>모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리
 

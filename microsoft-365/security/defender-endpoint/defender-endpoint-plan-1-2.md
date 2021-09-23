@@ -14,12 +14,13 @@ ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
-ms.openlocfilehash: 55fb264981dcad52856fe9115345891c2b3387b4
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 8c0e8a07ae0d2a37b2eb5a1829c5ed5ec5904c30
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400297"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491208"
 ---
 # <a name="microsoft-defender-for-endpoint-plan-1-preview-and-plan-2"></a>끝점 계획 1(미리 보기) 및 계획 2용 Microsoft Defender
 

@@ -3,7 +3,7 @@ title: 데이터 이동 도중 및 이후
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/10/2019
+ms.date: 09/22/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 데이터 이동은 Microsoft가 테넌트의 서비스 및 관련 데이터를 새 데이터 센터 지역으로 이동할 때 발생하는 백 엔드 작업입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d2c78ace4fb25d060ecaeab96903ba577a1d7316
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f90957447e9d301594f50e67ff51ae495464b63e
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189639"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491090"
 ---
 # <a name="during-and-after-your-data-move"></a>데이터 이동 도중 및 이후
 
@@ -108,12 +108,13 @@ ms.locfileid: "59189639"
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 
-Microsoft는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 외에도 Teams 채팅 서비스 데이터를 로컬 데이터 센터로 마이그레이션합니다.
+### <a name="files-tab"></a>파일 탭
 
-- Teams 및 채널 메시지를 비롯한 채팅 메시지를 제공합니다.
-- Teams 사용되는 이미지입니다.
+마이그레이션이 완료된 후 사용자가 파일 탭을 처음 사용하려고 할 때 파일 탭을 완전히 로드하는 데 추가 시간(최대 7초)이 걸릴 수 있습니다. 
 
-Teams 파일은 SharePoint 온라인에 저장되고 Teams 파일은 온라인 비즈니스용 OneDrive. 음성 메일, 일정, 채팅 기록 및 연락처는 Exchange Online. 대부분의 경우 Exchange Online SharePoint Online 및 비즈니스용 OneDrive 로컬 데이터 센터 지역의 고객이 이미 사용 중이며 적합한 고객 국가에 대한 Microsoft 365 마이그레이션 프로그램의 일부로도 사용됩니다.
+### <a name="read-only-period"></a>읽기 전용 기간
+
+Teams 서비스는 각 스레드를 개별적으로 이동합니다.  스레드는 이동하는 동안 읽기 전용 상태로 잠겨 스레드당 몇 초 동안 지속됩니다.  마이그레이션 중에 스레드에 계속 액세스할 수 있습니다.
 
 ## <a name="skype-for-business"></a>비즈니스용 Skype
 

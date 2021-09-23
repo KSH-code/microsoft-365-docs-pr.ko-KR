@@ -15,12 +15,13 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: 0c2ffdde4ff259f2a2ef098a6d715cbcd785dfe4
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 9a0885f40fdec9520683ff8083f2ca778213e3e3
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401689"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490168"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>타사 HIPS에서 ASR 규칙으로 마이그레이션
 

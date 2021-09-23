@@ -15,12 +15,13 @@ manager: dansimp
 ms.technology: mde
 ms.audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: a6df318ccf484d750ae8010f34b5c545b115cde0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 035b94722417d8abfc00f6155842f1cf001e93e6
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222944"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491066"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>검사에 대한 제외 Microsoft Defender 바이러스 백신 유효성 검사
 

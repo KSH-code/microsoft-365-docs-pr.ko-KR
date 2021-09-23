@@ -13,12 +13,13 @@ ms.topic: article
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: fb61525456c01f402bebc2eb0b9934d8f8880fee
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: m365-security-compliance
+ms.openlocfilehash: 8d9a853309c03b635896dc124c86787ae07ddafe
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222826"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490180"
 ---
 # <a name="protect-your-organizations-data-with-device-control"></a>장치 제어를 사용하여 조직의 데이터 보호
 

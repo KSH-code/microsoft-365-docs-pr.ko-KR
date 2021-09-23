@@ -19,13 +19,13 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
 description: Microsoft 제품 또는 서비스를 구입할 때의 등록 번호 및 검토 중 알림에 대해 자세히 알아보아야 합니다.
-ms.date: 03/17/2021
-ms.openlocfilehash: ca0ddb0111b4a95a46bc64bdd63c99f756699de9
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.date: 09/21/2021
+ms.openlocfilehash: bc40d4253e0d56c06e0bc7c4be1d1fae9729ead4
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59481015"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491054"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>등록 번호 및 검토 알림
 

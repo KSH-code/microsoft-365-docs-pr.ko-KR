@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf043741e2d066c8eaa7c4919b194a6ffd6d857d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5dde826fcf5ecfd5e1c18c9efefd6c456ba6ecab
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220564"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491496"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
@@ -37,7 +37,7 @@ ms.locfileid: "59220564"
 
 이 항목에서는 등록된 디바이스에서 iOS에 Endpoint용 Defender를 Intune 회사 포털 대해 설명합니다. Intune 장치 등록에 대한 자세한 내용은 [Intune에서 iOS/iPadOS 장치 등록을 참조하세요.](/mem/intune/enrollment/ios-enroll)
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 - Microsoft Endpoint Manager 관리 센터에 액세스할 [수 있도록 합니다.](https://go.microsoft.com/fwlink/?linkid=2109431)
 
@@ -152,17 +152,6 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
    **다음** 을 클릭합니다.
 
 1. 검토 **+ 만들기 페이지에서** 완료되면 만들기 를 **선택합니다.** 새 프로필이 구성 프로필 목록에 표시됩니다.
-
-1. 다음으로 향상된 피싱 방지 기능을 위해 감독되는 iOS 장치에 사용자 지정 프로필을 배포할 수 있습니다. 아래 단계를 따릅니다.
-    - 에서 구성 프로필 다운로드 [https://aka.ms/mdatpiossupervisedprofile](https://aka.ms/mdatpiossupervisedprofile)
-    - 장치   ->  **iOS/iPadOS**  ->  **구성 프로필 프로필**  ->  **만들기로 이동합니다.**
-
-    > [!div class="mx-imgBorder"]
-    > ![관리 Microsoft Endpoint Manager 이미지입니다.](images/ios-deploy-7.png)
-
-    - 프로필 이름을 입력합니다. 구성 프로필 파일을 가져올지 묻는 메시지가 표시될 때 위에 다운로드한 프로필 파일을 선택합니다.
-    - 할당 **섹션에서** 이 프로필을 적용할 장치 그룹을 선택합니다. 이 방법은 모든 관리되는 iOS 장치에 적용하는 것이 가장 좋은 모범 사례입니다. **다음** 을 클릭합니다.
-    - 검토 **+ 만들기 페이지에서** 완료되면 만들기 를 **선택합니다.** 새 프로필이 구성 프로필 목록에 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

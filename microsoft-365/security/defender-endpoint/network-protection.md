@@ -16,12 +16,13 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: overview
-ms.openlocfilehash: 44f75b2912a8e54df6584a8f97d0f6e76cac6b15
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: M365-security-compliance
+ms.openlocfilehash: ab658009d5459093477dede8fdab5e8da4186eb6
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192709"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491160"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
@@ -50,7 +51,7 @@ ms.locfileid: "59192709"
 
 ****
 
-|Windows 버전|Windows Defender 바이러스 백신|
+|Windows 버전|Microsoft Defender 바이러스 백신|
 |---|---|
 |Windows 10 버전 1709 이상 <p> Windows 서버 1803 이상|[Microsoft Defender 바이러스 백신 보호](configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다.|
 |

@@ -14,12 +14,13 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: be5cbc03fa75d65d2c3fabbbf42594098d0d9d69
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: m365-security-compliance
+ms.openlocfilehash: e671a870805e324cfbf149876c4fca74231a9840
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221584"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491604"
 ---
 # <a name="evaluate-network-protection"></a>네트워크 보호 평가
 
@@ -51,7 +52,7 @@ ms.locfileid: "59221584"
 
 1. 선택한 Internet Explorer, Google Chrome 또는 기타 브라우저를 열 수 있습니다.
 
-2. [https://smartscreentestratings2.net](https://smartscreentestratings2.net)으로 이동합니다.
+2. [https://smartscreentestratings2.net](https://smartscreentestratings2.net)(으)로 이동합니다.
 
 네트워크 연결이 허용되고 테스트 메시지가 표시됩니다.
 

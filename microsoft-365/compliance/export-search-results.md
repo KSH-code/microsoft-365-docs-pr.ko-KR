@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 콘텐츠 검색의 검색 결과를 로컬 Microsoft 365 규정 준수 센터 내보낼 수 있습니다. 전자 메일 결과는 PST 파일로 내보낼 수 있습니다. 사이트 SharePoint 비즈니스용 OneDrive 콘텐츠는 기본 Office 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ce3317dbd9b1d21ab1e703fce1b168885b81aa2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 15f1af054cb8ec09795ba84412efd2b63e3ad48a
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191559"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59489556"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -43,20 +43,15 @@ ms.locfileid: "59191559"
   
   - 최신 버전의 Windows(32비트 또는 64비트)
   
-  - Microsoft .NET Framework 4.7
+  - Microsoft .NET Framework 4.7 이상
   
-- eDiscovery 내보내기 도구 1을 실행하려면 다음 지원되는 브라우저 중<sup>하나를 사용해야 합니다.</sup>
-
-  - Microsoft Edge <sup>2</sup>
-  
-    또는
-
-  - Microsoft Internet Explorer 10 이상 버전
+- eDiscovery 내보내기 Microsoft Edge 실행하려면 <sup>1을</sup> 사용해야 합니다. 검색 Internet Explorer 11을 사용하여 검색 결과를 내보내는 것은 더 이상<sup>지원되지 않습니다 2.</sup> 
   
   > [!NOTE]
-  > <sup>1</sup> Microsoft는 타사 응용 프로그램용 타사 확장 또는 추가 ClickOnce 않습니다. 타사 확장 또는 추가 기능이 있는 지원되지 않는 브라우저를 사용하여 검색 결과를 내보낼 수 없습니다.<br/>
-  > <sup>2</sup> 최신 변경으로 인해 Microsoft Edge ClickOnce 기본적으로 지원이 설정되지 않습니다. Edge에서 ClickOnce 지원을 사용하도록 설정하는 방법에 대한 지침은 에서 [eDiscovery 내보내기 도구 Microsoft Edge.](configure-edge-to-export-search-results.md)
-  
+  > <sup>1</sup> 최신 변경으로 인해 Microsoft Edge ClickOnce 기본적으로 지원이 설정되지 않습니다. Edge에서 ClickOnce 지원을 사용하도록 설정하는 방법에 대한 지침은 에서 [eDiscovery 내보내기 도구 Microsoft Edge.](configure-edge-to-export-search-results.md) 또한 Microsoft는 타사 응용 프로그램용 타사 확장 또는 추가 ClickOnce 않습니다. 타사 확장 또는 추가 기능이 있는 지원되지 않는 브라우저를 사용하여 검색 결과를 내보낼 수 없습니다.
+  > 
+  > <sup>2021년</sup> 8월부터 Microsoft 365 앱 및 서비스에서 IE11(Internet Explorer 11)을 더 이상 지원하지 않고 사용자가 성능이 저하되거나 해당 앱 및 서비스에 연결할 수 없습니다. 이러한 앱 및 서비스는 원활한 지원이 보장될 수 있도록 몇 주 및 몇 개월에 대해 단계적 종료됩니다. 각 앱과 서비스는 독립적인 일정에 따라 단계적으로 운영됩니다. 자세한 내용은 이 블로그 [게시물을 참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666)
+
 - 2단계에서 검색 결과를 다운로드하는 데 사용하는 eDiscovery 내보내기 도구는 스크립트를 사용하거나 cmdlet을 실행하여 자동화를 지원하지 않습니다. 1단계의 준비 프로세스나 2단계의 다운로드 프로세스를 자동화하지 않는 것이 좋습니다. 이러한 프로세스 중 하나를 자동화하는 경우 문제가 있는 경우 Microsoft 지원에서 지원을 제공하지 않습니다.
 
 - 검색 결과를 로컬 컴퓨터에 다운로드하는 것이 좋습니다. 검색 결과를 다운로드할 때 회사의 방화벽 또는 프록시 인프라에서 문제를 일으키는 문제를 없애기 위해 네트워크 외부의 가상 데스크톱에 검색 결과를 다운로드하는 것이 좋습니다. 이렇게하면 많은 수의 파일을 내보낼 때 Azure 데이터 연결에서 발생하는 시간 제한이 줄어들 수 있습니다. 가상 데스크톱에 대한 자세한 내용은 가상 [데스크톱 Windows 참조하세요.](https://azure.microsoft.com/services/virtual-desktop)
@@ -67,9 +62,9 @@ ms.locfileid: "59191559"
   
 - 조직에서 프록시 서버를 사용하여 인터넷과 통신하는 경우 검색 결과를 내보내는 데 사용하는 컴퓨터에서 프록시 서버 설정을 정의해야 합니다(내보내기 도구를 프록시 서버에서 인증할 수 있도록). 이렇게 하여machine.config 버전과 일치하는 위치에서 Windows. 
   
-  - **32비트:**`%windir%\Microsoft.NET\Framework\[version]\Config\machine.config`
+  - **32비트:** `%windir%\Microsoft.NET\Framework\[version]\Config\machine.config`
   
-  - **64비트:**`%windir%\Microsoft.NET\Framework64\[version]\Config\machine.config`
+  - **64비트:** `%windir%\Microsoft.NET\Framework64\[version]\Config\machine.config`
   
     및 태그 사이의machine.config *파일에*  다음  `<configuration>`  `</configuration>` 줄을 추가합니다. 조직에 대한 올바른 값(예: )으로  `ProxyServer`  `Port` 바꾸어야 `proxy01.contoso.com:80` 합니다. 
   

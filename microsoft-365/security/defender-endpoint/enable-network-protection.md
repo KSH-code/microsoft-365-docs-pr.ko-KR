@@ -14,12 +14,13 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e0056f4f1517962bab3dbee4f993ce28c58dfcf9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: m365-security-compliance
+ms.openlocfilehash: dc10c8ee9147cbee0a2946eaf28d91f80743f4f5
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222753"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59489640"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 

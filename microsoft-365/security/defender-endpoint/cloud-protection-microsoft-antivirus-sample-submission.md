@@ -15,19 +15,20 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 08/31/2021
-ms.openlocfilehash: 5d9f6ace79d05eff795041732e045abf18d5f792
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 946027419feca235442476db41533fb29adc6007
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192782"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490754"
 ---
 # <a name="cloud-protection-and-sample-submission-in-microsoft-defender-antivirus"></a>클라우드 보호 및 샘플 제출(Microsoft Defender 바이러스 백신
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
-- Windows Defender 바이러스 백신
+- Microsoft Defender 바이러스 백신
 
 Microsoft Defender 바이러스 백신 맬웨어를 검색하는 데는 여러 가지 지능형 메커니즘이 사용되었습니다. 가장 강력한 기능 중 하나는 클라우드의 기능을 적용하여 맬웨어를 감지하고 신속한 분석을 수행하는 기능입니다. 클라우드 보호 및 자동 샘플 제출은 새로운 위협으로부터 Microsoft Defender 바이러스 백신 보호하는 데 도움이 됩니다. 
 

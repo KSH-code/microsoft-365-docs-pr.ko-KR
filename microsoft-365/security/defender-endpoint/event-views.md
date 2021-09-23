@@ -14,12 +14,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 6a4d548edb660838be9ea3d1a69749f23d3ac6c8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.collection: m365-security-compliance
+ms.openlocfilehash: 8bfccfba0dbe3d00829c6e668830551c66d3f893
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221908"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491376"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
@@ -158,7 +159,7 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|2|ACG 적용|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|3 |자식 프로세스 감사 허용 안 함|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|4 |자식 프로세스 블록 허용 안 함|
-|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|5 |낮은 무결성 이미지 감사 차단|
+|악용 방지|Security-Mitigations(커널 모드/사용자 모드)|5|낮은 무결성 이미지 감사 차단|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|6 |낮은 무결성 이미지 블록 차단|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|7 |원격 이미지 감사 차단|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|8 |원격 이미지 블록 차단|
@@ -178,7 +179,7 @@ E5 구독이 있는 경우 이벤트, 차단 및 경고에 대한 자세한 보�
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|22|ROP CallerCheck 적용|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|23|ROP SimExec 감사|
 |악용 방지|Security-Mitigations(커널 모드/사용자 모드)|24|ROP SimExec 적용|
-|악용 방지|WER-진단|5 |CFG 블록|
+|악용 방지|WER-진단|5|CFG 블록|
 |악용 방지|Win32K(작동)|260|신뢰할 수 없는 글꼴|
 |네트워크 보호|Windows Defender(작동)|5007|설정이 변경될 때의 이벤트|
 |네트워크 보호|Windows Defender(작동)|1125|감사 모드에서 네트워크 보호가 발생하면 이벤트|

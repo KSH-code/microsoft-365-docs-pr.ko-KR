@@ -14,13 +14,14 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.date: 09/21/2021
-ms.openlocfilehash: 4be3905615327ff2d6025cceb971947161cbe80e
-ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
+ms.date: 09/22/2021
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 0cb371b8eabb74f1702bb52269e4aa9d02270dc0
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59479507"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490231"
 ---
 # <a name="cloud-protection-and-microsoft-defender-antivirus"></a>클라우드 보호 및 Microsoft Defender 바이러스 백신
 
@@ -31,7 +32,7 @@ ms.locfileid: "59479507"
 
 새로운 기술의 차세대 Microsoft Defender 바이러스 백신 새로운 위협에 대해 거의 즉각적으로 자동화된 보호 기능을 제공합니다. 새로운 위협을 동적으로 식별하기 위해 차세대 기술은 Microsoft Intelligent Security Graph 고급 기계 학습 모델을 통해 구동되는 강력한 인공 지능(AI) 시스템에서 상호 연결된 대규모 데이터 집합을 사용하여 작업합니다. 클라우드 보호는 사용자와 함께 Microsoft Defender 바이러스 백신, 실시간 및 지능형 보호를 제공합니다. 
 
-[:::image type="content" source="mde-cloud-protection.png" alt-text="클라우드 보호가 클라우드 보호와 함께 작동하는 방법을 보여 Microsoft Defender 바이러스 백신":::](enable-cloud-protection-microsoft-defender-antivirus.md)
+[:::image type="content" source="images/mde-cloud-protection.png" alt-text="클라우드 보호가 클라우드 보호와 함께 작동하는 방법을 보여 Microsoft Defender 바이러스 백신":::](enable-cloud-protection-microsoft-defender-antivirus.md)
 
 > [!TIP]
 > 클라우드 보호를 켜져 있는 것이 좋습니다. 자세한 내용은 클라우드 보호를 사용하도록 설정해야 하는 이유를 [Microsoft Defender 바이러스 백신.](why-cloud-protection-should-be-on-mdav.md) 

@@ -15,12 +15,13 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: c303251ff8a6e37ac351e57dc18a1ca3dcee8751
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.collection: m365-security-compliance
+ms.openlocfilehash: f5518992b0524ac1a07564316877d06c4541f011
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356816"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491460"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리
 

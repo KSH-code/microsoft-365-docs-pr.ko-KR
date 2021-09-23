@@ -15,12 +15,13 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6574b19427814b53e131f72f708e534f3b29554d
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.collection: m365-security-compliance
+ms.openlocfilehash: 93a930e0ac7acf422a314625187c13796ca2a94c
+ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399373"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59490994"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-reporting-in-update-compliance"></a>업데이트 규정 준수에서 Microsoft Defender 바이러스 백신 보고 문제 해결
 
