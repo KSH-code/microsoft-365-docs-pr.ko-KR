@@ -31,8 +31,10 @@
           href: set-language-time-zones.md
     - name: 예약 앱 가져오기
       href: get-bookings-app.md
-    - name: Microsoft Teams에서의 예약 앱 및 가상 방문
+    - name: Microsoft Teams에서 Bookings 앱 관리
       href: /microsoftteams/bookings-app-admin?bc=%2fmicrosoft-365%2fbookings%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fbookings%2ftoc.json
+    - name: Microsoft Teams 및 Bookings 앱을 가상으로 방문
+      href: /microsoftteams/expand-teams-across-your-org/bookings-virtual-visits
     - name: 비교 차트 - 웹 앱 대 Teams 앱
       href: comparison-chart.md
     - name: 예약 일정 삭제

@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f12a416a95f55a73bd0bbd80bfb1a4fe5121aeec
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2510ca3289cf6b6f7ed774b1d87aa2692e8b3f5d
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192362"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59484062"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -154,7 +154,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
      |**텍스트를 제목 줄 앞에 추가**: 메시지의 제목 줄 앞에 텍스트를 추가합니다. 메시지가 사서함으로 배달되고, 정크 메일 폴더로 이동됩니다.<sup>1,2</sup> <p> **이 텍스트를 제목 줄 앞에 추가** 상자에 텍스트를 입력합니다.|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
      |**전자 메일 주소로 메시지 리디렉션**: 메시지를 의도된 받는 사람 대신 다른 받는 사람에게 보냅니다. <p> 나중에 **이 전자 메일 주소로 메시지 리디렉션** 상자에 받는 사람을 지정합니다.|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
      |**메시지 삭제**: 모든 첨부 파일을 포함하여 전체 메시지를 자동으로 삭제합니다.|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
-     |**메시지 격리**: 메시지를 의도된 받는 사람에게 보내는 대신 격리로 보냅니다. <p> 나중에 **격리** 상자에 메시지가 격리되는 기간을 지정합니다.|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)|
+     |**메시지 격리**: 메시지를 의도된 받는 사람에게 보내는 대신 격리로 보냅니다. <p> 나중에 **격리** 상자에 메시지가 격리되는 기간을 지정합니다. <p> 표시되는 **정책 선택** 상자에서 스팸 필터 평가 결과에 대해 격리된 메시지에 적용할 [격리 정책](quarantine-policies.md)을 지정합니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.<sup>3</sup>|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)|
      |**작업 없음**|||||![확인 표시](../../media/checkmark.png)|
      |
 
@@ -163,9 +163,10 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
      > EOP로 온-프레미스 Exchange 사서함을 보호하는 하이브리드 환경에서는 EOP 스팸 필터링 평가 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
      >
      > <sup>2</sup> 메일 흐름 규칙에서 해당 값을 조건으로 사용하여 메시지를 필터링하거나 경로 지정할 수 있습니다.
+     >
+     > <sup>3</sup> 빈 **정책 선택** 값이란 특정 평가 결과에 대한 기본 격리 정책이 사용됨을 의미합니다. 나중에 스팸 방지 정책을 편집하거나 설정을 보면 기본 격리 정책 이름이 표시됩니다. 스팸 필터 평가 결과에 사용되는 기본 격리 정책에 대한 자세한 내용은 [이 표](quarantine-policies.md#step-2-assign-a-quarantine-policy-to-supported-features)를 참조하세요.
 
    - **이 많은 일수 동안 스팸을 격리 상태로 유지**: 스팸 필터링 결과에 대한 작업으로 **메시지 격리** 를 선택한 경우, 메시지를 격리할 기간을 지정합니다. 격리 기간이 만료되면 메시지가 삭제됩니다. 기본값은 30일입니다. 유효한 값은 1~30일입니다. 격리에 대한 자세한 내용은 다음 게시물을 참조하세요.
-
      - [EOP에서 격리된 메시지](quarantine-email-messages.md)
      - [EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기](manage-quarantined-messages-and-files.md)
      - [EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md)
@@ -191,7 +192,8 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
      - **피싱 메시지에 대한 ZAP 사용**: 기본적으로 ZAP는 피싱 검색에 대해 사용하도록 설정되지만 확인란의 선택을 취소하여 사용하지 않도록 설정할 수 있습니다.
      - **스팸 메시지에 대한 ZAP 사용**: 기본적으로 ZAP는 스팸 검색에 대해 사용하도록 설정되지만 확인란의 선택을 취소하여 사용하지 않도록 설정할 수 있습니다.
 
-   - **최종 사용자 스팸 알림 사용**: 자세한 내용은 이 게시물의 뒷부분에 있는 [최종 사용자 스팸 알림 구성](#configure-end-user-spam-notifications) 섹션을 참조하세요.
+   > [!NOTE]
+   > 최종 사용자 스팸 알림은 스팸 방지 정책 평가 결과뿐만 아니라 지원되는 모든 보호 기능에 대한 격리 메시지에 대한 정보가 포함된 격리 정책의 _격리 알림_ 으로 대체되었습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
@@ -313,36 +315,6 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
 
 4. 작업을 마쳤으면 정책 세부 정보 플라이아웃에서 **닫기** 를 클릭합니다.
 
-### <a name="configure-end-user-spam-notifications"></a>최종 사용자 스팸 알림 구성하기
-
-> [!NOTE]
-> 최종 사용자 스팸 알림은 그룹에 대해 지원되지 않습니다.
-
-스팸 필터링 결과에서 메시지를 격리하는 경우, 받는 사람에게 전송된 메시지에 일어난 자세한 내용을 알릴 수 있도록 최종 사용자 스팸 알림을 구성할 수 있습니다. 이 알림에 대한 자세한 내용은 [EOP에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
-
-1. Microsoft 365 Defender 포털의 **정책** 섹션에서 **전자 메일 및 공동 작업**\>**정책 및 규칙**\>**위협 정책**\>**스팸 방지** 로 이동합니다.
-
-2. **스팸 방지 정책** 페이지에서 이름을 클릭하여 목록에서 스팸 방지 정책을 선택합니다.
-   - **유형** 열의 값이 **사용자 지정 스팸 방지 정책** 인 사용자가 만든 사용자 지정 정책.
-   - **스팸 방지 인바운드 정책(기본값)이라는 기본 정책** 입니다.
-
-3. 표시되는 정책 세부 정보 플라이아웃에서 **작업** 섹션에서 **편집** 을 클릭합니다. 표시되는 **작업** 플라이아웃에서 다음 설정을 구성합니다.
-
-   - **최종 사용자 스팸 알림 사용**: 이 확인란을 선택하여 알림을 사용하도록 설정하거나 확인란의 선택을 취소하여 알림을 사용하지 않도록 설정합니다. 확인란을 선택하면 다음과 같은 추가 설정이 나타납니다.
-
-     - **최종 사용자 스팸 알림 보내기 간격(일)**: 알림을 보내는 빈도를 선택합니다. 기본값은 3일입니다. 1~15일을 입력할 수 있습니다.
-
-       24시간 내에 다음 시간에 시작하는 최종 사용자 스팸 알림의 3가지 주기가 있습니다(01:00 UTC, 08:00 UTC 및 16:00 UTC).
-
-       > [!NOTE]
-       > 이전 주기 중에 알림이 누락되면 다음 주기가 알림을 푸시합니다. 이로 인해 당일에 여러 알림이 표시될 수 있습니다.
-
-     - **언어**: 드롭다운을 클릭하고. 목록에서 사용 가능한 언어를 선택합니다. 기본적인 값은 **기본값** 이고 이는 영어를 의미합니다.
-
-   작업을 마쳤으면 **저장** 을 클릭합니다.
-
-4. 정책 세부 정보 플라이아웃으로 돌아와 **닫기** 를 클릭합니다.
-
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-custom-anti-spam-policies"></a>Microsoft 365 Defender 포털을 사용해 사용자 지정 스팸 방지 정책 제거
 
 Microsoft 365 Defender 포털을 사용하여 사용자 지정 스팸 방지 정책을 제거하면 스팸 필터 규칙과 해당 스팸 필터 정책이 모두 삭제됩니다. 기본 스팸 방지 정책은 제거할 수 없습니다.
@@ -366,7 +338,6 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 스�
 다음 스팸 방지 정책 설정은 PowerShell에서만 사용할 수 있습니다.
 
 - 기본적으로 `On` 상태인 _MarkAsSpamBulkMail_ 매개 변수. 이 설정의 효과는 이 문서 앞부분의 [Microsoft 365 Defender 포털을 사용해 스팸 방지 정책 만들기](#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) 섹션에 설명되어 있습니다.
-
 - 최종 사용자 스팸 격리 알림을 위한 다음 설정:
   - _DownloadLink_ 매개 변수는 Outlook용 정크 메일 보고 도구에 대한 링크를 표시하거나 숨깁니다.
   - _EndUserSpamNotificationCustomSubject_ 매개 변수는 알림의 제목 줄을 사용자 지정하는 데 사용할 수 있습니다.
@@ -397,7 +368,7 @@ New-HostedContentFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments
 
 다음은 다음과 같은 설정을 사용하여 Contoso Executives라는 스팸 필터 정책을 만드는 예제입니다.
 
-- 스팸 필터링 결과가 스팸이거나 높은 정확도의 스팸인 경우 메시지를 격리합니다.
+- 스팸 필터링 평가 결과가 스팸 또는 신뢰도가 높은 스팸인 경우 메시지를 격리하고, 격리된 메시지에 대해 기본 [격리 정책](quarantine-policies.md)을 사용합니다(_SpamQuarantineTag_ 또는 _HighConfidenceSpamQuarantineTag_ 매개 변수를 사용하지 않음).
 - BCL 7, 8 또는 9는 대량 전자 메일 스팸 필터링 결과 작업을 트리거합니다.
 
 ```PowerShell
@@ -405,6 +376,9 @@ New-HostedContentFilterPolicy -Name "Contoso Executives" -HighConfidenceSpamActi
 ```
 
 자세한 구문 및 매개 변수 정보는 [New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy)를 참조하세요.
+
+> [!NOTE]
+> 스팸 필터 정책에 사용할 [격리 정책](quarantine-policies.md)을 지정하는 자세한 지침은 [PowerShell을 사용하여 스팸 방지 정책에서 격리 정책 지정](quarantine-policies.md#anti-spam-policies-in-powershell)을 참조하세요.
 
 #### <a name="step-2-use-powershell-to-create-a-spam-filter-rule"></a>2단계: PowerShell을 사용하여 스팸 필터 규칙 만들기
 
@@ -499,6 +473,9 @@ Set-HostedContentFilterPolicy -Identity "<PolicyName>" <Settings>
 ```
 
 자세한 구문 및 매개 변수 정보는 [Set-HostedContentFilterPolicy](/powershell/module/exchange/set-hostedcontentfilterpolicy)를 참조하세요.
+
+> [!NOTE]
+> 스팸 필터 정책에 사용할 [격리 정책](quarantine-policies.md)을 지정하는 자세한 지침은 [PowerShell을 사용하여 스팸 방지 정책에서 격리 정책 지정](quarantine-policies.md#anti-spam-policies-in-powershell)을 참조하세요.
 
 ### <a name="use-powershell-to-modify-spam-filter-rules"></a>PowerShell을 사용하여 스팸 필터 규칙 수정하기
 

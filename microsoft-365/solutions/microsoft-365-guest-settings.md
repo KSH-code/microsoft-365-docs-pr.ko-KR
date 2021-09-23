@@ -15,15 +15,16 @@ ms.collection:
 f1.keywords: NOCSH
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkTEAMS
 localization_priority: Priority
 recommendations: false
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: db7622da1094dd1abf69752c6a0c41c374e80e9f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d3db87c0c01a9bddead9b7367b6ac64a7633e107
+ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59163434"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59477626"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -90,7 +91,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 ### <a name="guest-access"></a>게스트 액세스
 
-**탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > 조직 전체 설정 > 게스트 액세스
+**탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > **조직 전체 설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2173122" target="_blank">**게스트 액세스**</a>
 
 ![Teams 게스트 액세스 토글 스크린샷.](../media/teams-guest-access-toggle.png)
 
@@ -100,7 +101,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 ### <a name="guest-calling"></a>게스트 통화
 
-**탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > 조직 전체 설정 > 게스트 액세스
+**탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > **조직 전체 설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2173122" target="_blank">**게스트 액세스**</a>
 
 ![Teams 게스트 통화 옵션 스크린샷.](../media/teams-guest-calling-setting.png)
 
@@ -110,7 +111,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 ### <a name="guest-meeting"></a>게스트 모임
 
-**탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > 조직 전체 설정 > 게스트 액세스
+**탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > **조직 전체 설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2173122" target="_blank">**게스트 액세스**</a>
 
 ![Teams 게스트 모임 설정 스크린샷.](../media/teams-guest-meeting-settings.png)
 
@@ -122,7 +123,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 ### <a name="guest-messaging"></a>게스트 메시징
 
-**탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > 조직 전체 설정 > 게스트 액세스
+**탐색:** [Teams 관리 센터](https://admin.teams.microsoft.com) > **조직 전체 설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2173122" target="_blank">**게스트 액세스**</a>
 
 ![Teams 게스트 메시징 설정 스크린샷.](../media/teams-guest-messaging-settings.png)
 
