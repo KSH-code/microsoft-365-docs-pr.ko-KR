@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 577fc2cd228da6e09de01cf98e3e5deb9af7b730
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b2b5ef1857c246629c5d5fb9da067ccaa6a5339e
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185668"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482826"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -97,24 +97,24 @@ Microsoft 365 Defender 제품 간 기능에는 다음이 포함됩니다.
 - **손상된 장치,** 사용자 ID 및 사서함에 대한 자체 복구 - Microsoft 365 Defender AI 기반 자동 작업 및 플레이북을 사용하여 영향을 받는 자산을 안전한 상태로 다시 수정합니다. Microsoft 365 Defender 제품군 제품의 자동 수정 기능을 활용하여 인시던트와 관련된 모든 영향을 미치는 자산이 가능한 경우 자동으로 수정되도록 합니다.
 - **제품** 간 위협 헌팅 - 보안 팀은 다양한 보호 제품에서 수집한 원시 데이터에 대해 자체 사용자 지정 쿼리를 만들어 고유한 조직 지식을 활용하여 손상 징후를 찾을 수 있습니다. Microsoft 365 Defender 30일 동안의 기록된 원시 신호에 대한 쿼리 기반 액세스 권한을 제공하며, 끝점에서 경고 데이터를 보내고 Office 365 데이터를 제공합니다. 
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 
 Microsoft 365 Defender 라이선스 요구 사항을 충족해야 Microsoft 365 Defender 포털에서 서비스를 사용하도록 설정할 [수 security.microsoft.com.](https://security.microsoft.com) 자세한 내용은 다음을 참조하세요.
 
 - [라이선스 요구사항](prerequisites.md#licensing-requirements)
 - [Microsoft 365 Defender 켜기](m365d-enable.md)
 
-## <a name="training-for-security-analysts"></a>보안 분석가 교육
+## <a name="training-for-security-analysts"></a>보안 분석가를 위한 교육
 
 Microsoft Learn의 이 학습 경로를 통해 보안 위협을 식별, Microsoft 365 Defender 및 수정하는 방법에 대해 이해할 수 있습니다.
 
 |교육:|Microsoft 365 Defender를 통한 사이버 공격 감지 및 대응|
 |---|---|
-|![Microsoft 365 Defender 아이콘입니다.](../../media/microsoft-365-defender/m365-defender-secure-organization.svg)|Microsoft 365 Defender는 엔드포인트, ID, 전자 메일, 애플리케이션 전체의 위협 신호를 통합하여 정교한 사이버 공격에 대한 통합된 보호를 제공합니다. Microsoft 365 Defender는 인시던트를 조사하고 이에 대응하고, 적극적으로 현재 진행 중인 악성 사이버 보안 활동을 조사하기 위한 중앙 집중식 환경입니다.<p> 1 hr 38분 - Learning 경로 - 5개 모듈|
+|![Microsoft 365 Defender 교육 아이콘입니다.](../../media/microsoft-365-defender/m365-defender-secure-organization.svg)|Microsoft 365 Defender는 엔드포인트, ID, 전자 메일, 애플리케이션 전체의 위협 신호를 통합하여 정교한 사이버 공격에 대한 통합된 보호를 제공합니다. Microsoft 365 Defender는 인시던트를 조사하고 이에 대응하고, 적극적으로 현재 진행 중인 악성 사이버 보안 활동을 조사하기 위한 중앙 집중식 환경입니다.<p> 1 hr 38분 - Learning 경로 - 5개 모듈|
 
 > [!div class="nextstepaction"]
 > [시작 >](/learn/paths/defender-detect-respond/)
 
 
 ## <a name="see-also"></a>참고 항목
-- [여러 보안 기능으로 위협 방지 Microsoft 365 E5](/microsoft-365/solutions/deploy-threat-protection)
+- [Microsoft 365 테넌트용 랜섬웨어 보호 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)

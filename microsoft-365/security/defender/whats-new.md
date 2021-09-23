@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 5c63da586affc23bea26e416479fa2e3e7a26d73
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3c35f8315423bd7245546835e5963c7968eb4c12
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185612"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483990"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -48,7 +48,9 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 
 
 
-
+## <a name="september-2021"></a>2021년 9월
+- (GA) Microsoft Defender for Office 365 이벤트 데이터는 Microsoft 365 Defender 스트리밍 API에서 사용할 수 있습니다. 스트리밍 API의 Supported Microsoft 365 Defender 이벤트 유형에서 이벤트 [유형의 가용성과 상태를](supported-event-types.md)확인할 수 있습니다.
+- (GA) Microsoft Defender for Office 365 고급 헌팅에서 사용할 수 있는 데이터를 이제 일반적으로 사용할 수 있습니다.
 
 ## <a name="august-2021"></a>2021년 8월
 - (미리 보기) 고급 헌팅에서 사용할 Office 365 Microsoft Defender for Office 365 데이터

@@ -19,12 +19,12 @@ description: 관리자는 Microsoft 365 Defender 포털에서 보안과 관련�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e3eb4f424ba8b9fd73f5cad62c2a136da8fd8249
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6e5980249d3df0dc94a83b8250f3be55298de5bd
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211622"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482862"
 ---
 # <a name="permissions-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털 사용 권한
 
@@ -50,7 +50,7 @@ Microsoft 365 Defender 포털의 사용 권한은 RBAC(역할 기반 액세스 �
 
 **역할** 은 일련의 작업을 수행할 수 있는 권한을 부여합니다.
 
-**역할 그룹** 은 사람들이 Microsoft 365 Defender 포털에서 작업을 수행할 수 있도록 하는 역할 집합입니다. 예를 들어, 공격 시뮬레이터 관리자 역할 그룹에는 공격 시뮬레이션 교육의 모든 측면을 만들고 관리하는 공격 시뮬레이터 관리자 역할이 포함됩니다.
+**역할 그룹** 은 사람들이 Microsoft 365 Defender 포털에서 작업을 수행할 수 있도록 하는 역할 집합입니다.
 
 Microsoft 365 Defender 포털에는 사용자가 할당해야 할 가장 일반적인 작업과 기능에 대한 기본 역할 그룹이 포함되어 있습니다. 일반적으로 개별 사용자를 기본 역할 그룹에 **구성원** 으로 추가하는 것이 좋습니다.
 

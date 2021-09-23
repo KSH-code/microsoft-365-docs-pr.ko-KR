@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(전자 메일 그룹)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 Exchange Online Protection 있습니다. Microsoft Defender for Office 365 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 비즈니스용 OneDrive 관리할 Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 921d3e897dea70180a1338ea27e4ef1bc29db41e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 428767ea3d50108075a6a5e7e74d5786405e5090
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214352"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483534"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -37,7 +37,9 @@ ms.locfileid: "59214352"
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP에서 Quarantined email messages를 참조하세요.](quarantine-email-messages.md)
 
-관리자는 모든 사용자에 대해 모든 유형의 메시지를 보고, 해제하고, 삭제할 수 있습니다. 관리자만 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지를 관리할 수 있습니다. 관리자는 Microsoft에 가의성도 보고할 수 있습니다.
+관리자는 모든 사용자에 대해 모든 유형의 메시지를 보고, 해제하고, 삭제할 수 있습니다. 관리자는 Microsoft에 가의성도 보고할 수 있습니다.
+
+기본적으로 관리자만 맬웨어, 높은 신뢰도 피싱으로 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지를 관리할 수 있습니다. 그러나 관리자는 메시지의 검지 이유(지원되는 기능의 경우)에 따라 사용자가 분리된 메시지에 대해 허용되는 작업을 정의할 수 있습니다.  자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
 
 Microsoft Defender for Office 365 조직의 관리자는 SharePoint, OneDrive 및 에 대해 금고 첨부 파일로 금고 의해 OneDrive 파일을 관리할 [수도 Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
 
@@ -112,7 +114,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
      - **전송 규칙**(메일 흐름 규칙)
      - **대량 전자 메일**
      - **스팸**
-     - **맬웨어**
+     - **맬웨어**: EOP의 맬웨어 방지 정책 또는 금고 Defender의 첨부 파일 정책 Office 365. 정책 **유형 값은** 사용된 기능을 나타냅니다.
      - **피싱**: 스팸 필터 판정이 피싱 또는 피싱 방지 보호 메시지(스푸핑 설정 또는 [가장 보호](설정-up-phishing-policies)를 통해 확인되었습니다.  [](set-up-anti-phishing-policies.md#spoof-settings)
      - **높은 정확도 피싱**
    - **받는** 사람 : **모든 사용자** 또는 **나만 .** 최종 사용자는 해당 사용자에게 전송된 분리된 메시지만 관리할 수 있습니다.
@@ -278,7 +280,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 > [!NOTE]
 > 이 섹션의 quarantined files for this section are available only to Microsoft Defender for Office 365 plan 1 or Plan 2 subscribers.
 
-Defender for Office 365 조직에서 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 금고 첨부 파일로 비즈니스용 OneDrive 파일을 관리할 Microsoft Teams. 이러한 파일에 대한 보호를 사용하도록 설정하려면 에 대한 금고 첨부 파일 [켜기, SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
+Defender for Office 365 조직에서 관리자는 금고, OneDrive 및 에 대한 첨부 파일로 SharePoint OneDrive 파일을 관리할 Microsoft Teams. 이러한 파일에 대한 보호를 사용하도록 설정하려면 에 대한 금고 첨부 파일 [켜기, SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
 
 ### <a name="view-quarantined-files"></a>quarantined files(Quarantined Files 보기)
 

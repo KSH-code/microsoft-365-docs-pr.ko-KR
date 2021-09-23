@@ -19,12 +19,12 @@ ms.collection:
 description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca5049b234972ef55b951c0886a9d4074613c860
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5bc2bb1adc39aae70f8ace89bf0efaaf5a7a5c5a
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219885"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482850"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "59219885"
 
 캠페인은 하나 이상의 조직에 대해 조율된 전자 메일 공격입니다. 자격 증명 및 회사 데이터를 도용하는 전자 메일 공격은 대규모의 기업입니다. 기술이 공격을 중지하기 위한 노력이 증가하면 공격자는 계속 성공하기 위해 방법을 수정합니다.
 
-Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별합니다. 여러 요인에 따라 공격 정보를 분석하고 분류합니다. 예시:
+Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별합니다. 여러 요인에 따라 공격 정보를 분석하고 분류합니다. 예제:
 
 - **공격 원본**: 원본 IP 주소 및 보낸 사람 전자 메일 도메인입니다.
 - **메시지 속성:** 메시지의 콘텐츠, 스타일 및 톤입니다.
@@ -88,7 +88,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
 - **유형:** 이 값은 **피싱 또는** 맬웨어입니다. 
 
-- **하위 스타일:** 이 값에는 캠페인에 대한 자세한 정보가 포함되어 있습니다. 예시:
+- **하위 스타일:** 이 값에는 캠페인에 대한 자세한 정보가 포함되어 있습니다. 예제:
   - **피싱:** 사용 가능한 경우 이 캠페인에 의해 피싱되는 브랜드입니다. 예를 들면 `Microsoft` , , , 또는 `365` `Unknown` `Outlook` `DocuSign` 입니다.
   - **맬웨어**: 예: `HTML/PHISH` `HTML/<MalwareFamilyName>` 또는 .
 
@@ -225,7 +225,7 @@ Endpoint용 Microsoft Defender 구독이 있는 경우 **MDE** 구독을 설정 
   |**테넌트 차단**<sup>\*\*</sup>|`SFV:SKA`|스팸 방지 정책의 설정 때문에 메시지가 스팸 필터링에 의해 차단되었습니다. 예를 들어 보낸 사람이 허용된 보낸 사람 목록 또는 허용된 도메인 목록에 있습니다.|
   |**사용자 허용**<sup>\*</sup>|`SFV:SFE`|보낸 사람이 사용자의 보낸 사람 목록에 있기 때문에 메시지가 스팸 필터링을 금고 건너뜁니다.|
   |**사용자 차단**<sup>\*\*</sup>|`SFV:BLK`|보낸 사람이 사용자의 수신 차단된 보낸 사람 목록에 있기 때문에 메시지가 스팸 필터링에 의해 차단되었습니다.|
-  |**ZAP**|해당 없음|[ZAP(제로](zero-hour-auto-purge.md) 아워 자동 제거)는 배달된 메시지를 정크 메일 폴더 또는 검역소로 이동했습니다. 스팸 방지 정책에서 작업을 구성합니다.|
+  |**ZAP**|해당 없음|[ZAP(제로](zero-hour-auto-purge.md) 아워 자동 제거)는 배달된 메시지를 정크 메일 폴더 또는 검역소로 이동했습니다. 스팸 방지 정책 [에서 작업을 구성합니다.](configure-your-spam-filter-policies.md)|
   |
 
   <sup>\*</sup> 허용된 메시지가 서비스에 의해 차단될 가능성이 높기 때문에 스팸 방지 정책을 검토합니다.

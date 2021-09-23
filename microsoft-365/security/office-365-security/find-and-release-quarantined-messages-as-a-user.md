@@ -20,12 +20,12 @@ ms.custom:
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04a3831ec923ec24846eb6d0e76273d1010862c6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3fcd6cb3eb6aee387fd1e4943c837f855abc5f34
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214432"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483666"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
@@ -38,7 +38,7 @@ ms.locfileid: "59214432"
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP 격리](quarantine-email-messages.md)를 참조하세요.
 
-격리된 메시지 받는 사람이 일반 사용자로서(관리자 아님) 메시지에 할 수 있는 작업이 다음 표에 설명되어 있습니다.
+다음 표에는 일반 사용자(관리자가 아님)가 스팸으로 분류된 메일의 수신자로서 사용할 수 있는 **기본** 기능이 설명되어 있습니다.
 
 <br>
 
@@ -46,12 +46,29 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 |격리 이유:|보기|릴리스|삭제|
 |---|:---:|:---:|:---:|
+|**스팸 방지 정책.**||||
 |대량|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
 |스팸|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
-|피싱(높은 신뢰도 피싱은 해당 안 됨)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|높은 정확도 스팸|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|피싱|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|높은 정확도 피싱||||
+|**피싱 방지 정책**||||
+|EOP의 스푸핑 인텔리전스 보호|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|Defender for Office 365의 가장된 사용자 보호|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|Office 365용 Defender의 가장된 도메인 보호|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|Defender for Office 365의 사서함 인텔리전스 보호|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|![확인 표시입니다.](../../media/checkmark.png)|
+|**맬웨어 방지 정책**||||
+|맬웨어로 격리된 첨부 파일이 있는 이메일 메시지입니다.||||
+|**Defender for Office 365의 안전한 첨부 파일**||||
+|악성 첨부 파일이 있는 전자 메일 메시지를 맬웨어로 격리하는 안전한 첨부 파일 정책입니다.||||
+|악성 파일을 맬웨어로 격리하는 SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일입니다.||||
+|**메일 흐름 규칙(전송 규칙)**||||
+|전자 메일 메시지를 격리하는 메일 흐름 규칙입니다.||||
 |
 
-Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)(관리자가 설정한 경우)에서 격리된 메시지를 보고 관리합니다.
+_격리 정책_ 은 [지원되는 기능](quarantine-policies.md#step-2-assign-a-quarantine-policy-to-supported-features)에서 메일이 스팸으로 분류된 이유에 따라 사용자가 스팸으로 분류된 메일에 대해 수행할 수 있는 작업을 정의합니다. 기본 격리 정책은 이전 표에 설명된 대로 기록 기능을 적용합니다. 관리자는 지원되는 기능에서 사용자에 대해 덜 제한적이거나 더 제한적인 기능을 정의하는 사용자 지정 격리 정책을 만들고 적용할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
+
+Microsoft 365 Defender 포털 또는 (관리자가 설정한 경우) 격리 정책의 격리 알림에서 격리된 메시지를 보고 관리합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
@@ -59,13 +76,12 @@ Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-n
 
 - 관리자는 스팸 방지 정책에서 메시지를 영구적으로 삭제하기 전에 얼마 동안 메시지를 격리 상태로 유지할지 구성할 수 있습니다. 격리에서 만료되는 메시지는 복구할 수 없습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-- 관리자는 스팸 방지 정책에서 [최종 사용자 스팸 알림을 사용하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)할 수도 있습니다. 원본 메시지 받는 사람은 격리된 스팸 메시지를 *해제* 할 수 있지만 이 알림에서 격리된 피싱 메시지를 직접 해제할 수 없습니다. 원본 메시지 받는 사람은 이러한 알림에서 직접 *리뷰* 된 피싱 메시지(고신뢰 피싱 메시지가 아님)를 검토할 수 있습니다. 자세한 내용은 [EOP의 최종 사용자 스팸 통지](use-spam-notifications-to-release-and-report-quarantined-messages.md)를 참조합니다.
-
-- 높은 신뢰도 피싱, 악성 프로그램 또는 메일 흐름 규칙(트랜스포트 규칙이라고도 함)으로 검역된 메시지는 관리자만 사용할 수 있으며 사용자에게 표시되지 않습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
-
-- 메시지를 해제하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다.
+- 기본적으로 신뢰도 높은 피싱, 맬웨어 또는 메일 흐름 규칙에 따라 격리된 메시지는 관리자만 사용할 수 있으며 사용자에게는 표시되지 않습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 
 ## <a name="view-your-quarantined-messages"></a>격리된 메시지 보기
+
+> [!NOTE]
+> 격리된 메시지를 볼 수 있는 기능은 격리된 메시지 유형([격리 이유에 대한 기본 격리 정책](quarantine-policies.md#step-2-assign-a-quarantine-policy-to-supported-features)일 수 있음)에 적용되는 [격리 정책](quarantine-policies.md)에 의해 제어됩니다.
 
 1. Microsoft 365 Defender 포털에서 **전자 메일 및 공동 작업** \> **검토** \> **격리** 로 이동합니다.
 2. **격리** 페이지에서 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 사용자 지정** 을 클릭하여 표시되는 열을 변경합니다. 기본값은 별표(<sup>\*</sup>)로 표시됩니다.
@@ -138,7 +154,7 @@ Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-n
 - **보낸 사람 주소**
 - **수신됨**: 메시지를 수신한 날짜/시간입니다.
 - **제목**
-- **격리 이유**: 메시지가 **스팸**, **대량 메일** 또는 **피싱** 으로 구분되었는지를 표시합니다.
+- **격리 이유**:
 - **정책 유형**: 정책 유형입니다. 예를 들어 **스팸 방지 정책**.
 - **받는 사람 수**
 - **받는 사람**: 메시지에 받는 사람이 여러 명 있는 경우 **미리 보기 메시지** 또는 **메시지 헤더 보기** 를 클릭하여 전체 받는 사람의 목록을 확인해야 합니다.
@@ -152,6 +168,9 @@ Microsoft 365 Defender 포털 또는 [최종 사용자 스팸 알림](use-spam-n
 > ![격리된 메시지의 세부 정보 플라이아웃에 있는 위쪽 및 아래쪽 화살표.](../../media/quarantine-message-details-flyout-up-down-arrows.png)
 
 ### <a name="take-action-on-quarantined-email"></a>격리된 전자 메일에 대한 작업 수행하기
+
+> [!NOTE]
+> 격리된 메시지에 대한 조치를 취할 수 있는 기능은 격리된 메시지 유형([격리 이유에 대한 기본 격리 정책](quarantine-policies.md#step-2-assign-a-quarantine-policy-to-supported-features)일 수 있음)에 적용되는 [격리 정책](quarantine-policies.md)에 의해 제어됩니다. 이 섹션에서는 사용 가능한 모든 작업에 대해 설명합니다.
 
 목록에서 격리된 메시지를 선택하면 세부 정보 플라이아웃에서 다음 작업을 수행할 수 있습니다.
 

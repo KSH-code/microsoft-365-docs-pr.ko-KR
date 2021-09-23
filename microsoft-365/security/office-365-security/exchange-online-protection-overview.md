@@ -15,12 +15,12 @@ ms.custom:
 description: EOP(Exchange Online Protection)가 독립 실행형 및 하이브리드 환경에서 어떻게 프레미스 전자 메일 조직을 보호할 수 있도록 하는지 알아보십시오.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a925b251ff79aec5acaa0b2c1da2aee3f5a6d70d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 006be2cf23735f6ec44c749de869e87d55be2123
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214442"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483102"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -48,13 +48,13 @@ EOP가 받는 전자 메일을 처리하는 방법을 확인하면 EOP의 작동
 
 1. 들어오는 메시지가 EOP에 들어오면 처음에는 연결 필터링을 통과하여 보낸 사람 신뢰도를 확인합니다. 대부분의 스팸은 이 시점에서 중지된 후 EOP에서 거부됩니다. 자세한 내용은 [연결 필터링 구성](configure-the-connection-filter-policy.md)을 참조하십시오.
 
-2. 그런 다음 메시지에서 맬웨어를 검사합니다. 메시지 또는 첨부 파일에서 맬웨어가 발견된 경우 메시지는 관리자만 검사 저장소로 라우팅됩니다. 맬웨어 보호에 대한 자세한 내용은 [EOP의 맬웨어 방지 보호를 참조합니다.](anti-malware-protection.md)
+2. 그런 다음 메시지에서 맬웨어를 검사합니다. 메시지 또는 첨부 파일에서 맬웨어가 발견된 경우 해당 메시지는 검사로 배달됩니다. 기본적으로 관리자만 맬웨어로 차단된 메시지를 보고 상호 작용할 수 있습니다. 그러나 관리자는 정책을 만들고 [](quarantine-policies.md) 사용하여 사용자가 검사된 메시지에 대해 할 수 있는 작업을 지정할 수 있습니다. 맬웨어 보호에 대한 자세한 내용은 [EOP의 맬웨어 방지 보호를 참조합니다.](anti-malware-protection.md)
 
 3. 메시지는 정책 필터링을 통해 계속됩니다. 여기서 메시지는 앞서 만든 모든 메일 흐름 규칙(전송 규칙)에 대해 평가됩니다. 예를 들어 규칙은 특정 보낸 사람으로부터 메시지가 도착할 때 관리자에게 알림을 보낼 수 있습니다.
 
    서비스 라이선스가 있는 Exchange Enterprise 조직의 경우 EOP의 [DLP(데이터](/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) 손실 방지) 검사도 이 시점에 발생됩니다.
 
-4. 이 메시지는 유해한 메시지가 스팸, 높은 지수의 스팸, 피싱, 높은 신뢰도 피싱 또는 대량(스팸 방지 정책) 또는 스푸핑(피싱 방지 정책의 스푸핑 설정)으로 식별되는 콘텐츠 필터링(스팸 방지 및 스푸핑 방지)을 통과합니다. 필터링 판정(검소, 정크 메일 폴더로 이동 등)에 따라 메시지에 대해 수행하도록 작업을 구성할 수 있습니다. 자세한 내용은 [스팸](configure-your-spam-filter-policies.md) 방지 정책 구성 및 EOP에서 피싱 방지 정책 [구성을 참조하세요.](configure-anti-phishing-policies-eop.md)
+4. 이 메시지는 유해한 메시지가 스팸, 높은 지수의 스팸, 피싱, 높은 신뢰도 피싱 또는 대량(스팸 방지 정책) 또는 스푸핑(피싱 방지 정책의 스푸핑 설정)으로 식별되는 콘텐츠 필터링(스팸 방지 및 스푸핑 방지)을 통과합니다. 필터링 판정(예: 정크 메일 폴더로 이동 등)과 사용자가 검사 정책을 사용하여 분리된 메시지에 대해 할 수 있는 작업을 기반으로 메시지에 대해 수행하도록 작업을 구성할 수 [있습니다.](quarantine-policies.md) 자세한 내용은 [스팸](configure-your-spam-filter-policies.md) 방지 정책 구성 및 EOP에서 피싱 방지 정책 [구성을 참조하세요.](configure-anti-phishing-policies-eop.md)
 
 이러한 모든 보호 계층을 성공적으로 전달하는 메시지는 받는 사람에게 배달됩니다.
 
@@ -111,7 +111,7 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 |관리자 제출|[관리자 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출](admin-submission.md)|
 |사용자 제출(사용자 지정 사서함)|[사용자 제출 정책](user-submission.md)|
 |Quarantine - admins|[EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기](manage-quarantined-messages-and-files.md) <p> [Quarantined messages FAQ](quarantine-faq.yml) <p> [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md) <p> [Microsoft 365의 스팸 방지 메시지 헤더](anti-spam-message-headers.md) <p> 의 메시지 헤더 분석기를 사용하여 분리된 메시지의 메시지 [헤더를 분석할 수 있습니다.](https://mha.azurewebsites.net/)|
-|Quarantine - 최종 사용자|[EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md) <p> [사용자 스팸 알림을 사용하여 메시지 릴리스 및 보고](use-spam-notifications-to-release-and-report-quarantined-messages.md)|
+|Quarantine - 최종 사용자|[EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md) <p> [검란 알림을 사용하여 검란된 메시지 릴리스 및 보고](use-spam-notifications-to-release-and-report-quarantined-messages.md) <p> [Quarantine policies](quarantine-policies.md)|
 |**메일 흐름**||
 |메일 흐름 규칙|[메일 흐름 규칙(전송 규칙) Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) <p> [Exchange Online의 메일 흐름 규칙 조건 및 예외(조건자)](/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions) <p> [Exchange Online의 메일 흐름 규칙 작업](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions) <p> [Exchange Online에서 메일 흐름 규칙 관리](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) <p> [흐름 규칙 절차 Exchange Online 메일](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-procedures)|
 |허용 도메인|[Exchange Online에서 허용 도메인 관리](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)|

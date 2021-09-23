@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 분석을 위해 Microsoft에 좋은 메시지와 잘못된 메시지와 파일을 보고하는 다양한 방법에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 898fd42e687ec9d5776c1791ed353937921af4ff
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c78b606ed63e18d23bb1d1a6ebf72ae2617e9386
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187355"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483390"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Microsoft에 메시지와 파일 보고
 
@@ -48,8 +48,6 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 |[메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft)|사용자가 분석을 위해 Microsoft에 메시지를 보고할 때 이를 알 수 있는 메일 흐름 규칙(전송 규칙)을 만드는 방법을 학습합니다.|
 |[분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Microsoft 보안 인텔리전스 사이트를 사용해 첨부 파일 및 기타 파일을 제출합니다.|
 |
-
-스팸 또는 피싱 메시지가 배달되지 않고 검리된 경우 사용자는 검색 포털의 Quarantine에서 Microsoft에 메시지를 Microsoft 365 Defender 있습니다. 자세한 내용은 [Find and release quarantined messages as a user in Microsoft 365.](find-and-release-quarantined-messages-as-a-user.md)
 
 > [!NOTE]
 > Microsoft에 제출하는 데이터는 북미 데이터 센터의 Office 365 규정 준수 경계 안에서 보관됩니다. 이 데이터는 필터링 효과를 개선하는 데 도움을 주기 위해 엔지니어링 팀의 분석가가 검토합니다.

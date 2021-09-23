@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
 description: 제어된 폴더 액세스, MIP, DLP 및 Microsoft Cloud App Security를 사용하여 Microsoft 365 중요 데이터를 보호할 수 있습니다.
-ms.openlocfilehash: 2221b269d5b3b775f870d7c7f8b47ea89912f388
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 9548b394f5fa2cad6ec1e55e9386905b85f0335b
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444710"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483054"
 ---
 # <a name="step-5-protect-information"></a>5단계. 정보 보호
 
-랜섬웨어 공격자는 파일, 데이터베이스 및 기타 유형의 서버에 있는 온-프레미스 데이터도 조사하므로 데이터를 보호하는 가장 좋은 방법 중 하나는 데이터를 Microsoft 365 테넌트로 마이그레이션하는 것입니다. 일단 설치되면 [버전 관리, 휴지통 및 자료 보존 라이브러리](ransomware-protection-microsoft-365.md#ransomware-mitigation-and-recovery-capabilities-provided-with-microsoft-365)와 같은 기본 제공 완화 및 복구 기능으로 보호할 수 있습니다.
+랜섬웨어 공격자는 파일, 데이터베이스 및 기타 유형의 서버에 있는 온-프레미스 데이터도 조사하므로 데이터를 보호하는 가장 좋은 방법 중 하나는 데이터를 Microsoft 365 테넌트로 마이그레이션하는 것입니다. 그런 다음 [버전 관리, 휴지통, 파일 복원](ransomware-protection-microsoft-365.md#ransomware-mitigation-and-recovery-capabilities-provided-with-microsoft-365)과 같은 기본 제공 완화 및 복구 기능으로 보호할 수 있습니다.
 
 Microsoft 365 테넌트에서 중요한 정보를 추가로 보호하려면 다음을 수행합니다.
 
@@ -69,7 +69,7 @@ Microsoft 365 테넌트 내에서 엄격한 권한을 사용하는 것은 위치
 이러한 일반적인 공격자 동작에 따라 공격자에게 다음과 같은 두 가지 난이도가 있습니다.
 
 - **낮음:** 공격자는 테넌트 전체의 광범위한 액세스 권한으로 인해 권한이 낮은 계정을 사용하고 사용자의 중요한 정보를 검색할 수 있습니다.
-- **높음:** 엄격한 권한 때문에 공격자는 낮은 권한 계정을 사용할 수 없고 사용자의 중요한 정보를 검색할 수 없습니다. 중요한 정보가 있는 위치에 액세스할 수 있는 계정의 자격 증명을 결정한 다음 손상시켜 권한을 높여야 하지만 제한된 작업 집합만 수행할 수 있습니다.
+- **높음:** 공격자는 낮은 권한의 계정을 사용할 수 없으며 엄격한 권한으로 인해 귀하의 중요한 정보를 발견할 수 없습니다. 그들은 중요한 정보가 있는 위치에 액세스할 수 있는 계정의 자격 증명을 확인하고 손상시켜 권한을 에스컬레이션해야 하지만 제한된 작업 집합만 수행할 수 있습니다.
 
 중요한 정보의 경우 난이도를 최대한 높여야 합니다.
 

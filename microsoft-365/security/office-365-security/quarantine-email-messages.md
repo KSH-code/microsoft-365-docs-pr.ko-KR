@@ -22,12 +22,12 @@ ms.custom:
 description: 관리자는 잠재적으로 위험하거나 원치 않는 메시지를 보유하는 EOP(Exchange Online Protection)에서 검사에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c68351b690ecab2f60990695dc0e550b5ff0aff7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: cf9de0ba85c0e1612d29f7842da4bc74af14bf00
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166615"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483564"
 ---
 # <a name="quarantined-email-messages-in-eop"></a>EOP에서 Quarantined email messages
 
@@ -46,9 +46,11 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 사용자와 관리자는 모두 다음을 통해 분리된 메시지로 작업할 수 있습니다.
 
-- 관리자는 모든 사용자에 대해 모든 유형의 분리된 메시지로 작업할 수 있습니다. 관리자만 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지에 대해 작업할 수 있습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
+- _Quarantine policies_ define what users are allowed to do or not do to quarantined messages based on why the message was quarantined why the message was quarantined (for supported features). 기본 검역 정책은 아래 설명된 기록 기능을 적용합니다. 관리자는 사용자에 대해 덜 제한적이거나 더 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 적용할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
 
-- 사용자는 받는 사람이고 메시지가 스팸, 대량 전자 메일 또는 피싱(2020년 4월 현재) 피싱으로 스팸으로 차단된 분리된 메시지로 작업할 수 있습니다. 자세한 내용은 EOP에서 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
+- 관리자는 모든 사용자에 대해 모든 유형의 분리된 메시지로 작업할 수 있습니다. 기본적으로 관리자만 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙의 결과로(전송 규칙) 메시지로 작업할 수 있습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
+
+- 기본적으로 사용자는 받는 사람이고 메시지가 스팸, 대량 전자 메일 또는 피싱(높은 신뢰도의 피싱이 아닌 피싱)으로 차단된 메시지로 작업할 수 있습니다. 자세한 내용은 EOP에서 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
 
   사용자가 자체적으로 분리된 피싱 메시지를 관리하지 못하도록 관리자는 스팸 방지 정책에서  피싱 전자 메일 필터링 판정에 대해 다른 작업을 구성할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 

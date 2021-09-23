@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 09274557ea35c87cb4346e797d1b5e5e26e96aa3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ceaba46bbff3f63af8b7571660919d6c10959907
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219945"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59484017"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동 조사 및 응답
 
@@ -102,6 +102,16 @@ Microsoft 365 Defender 자동화된 각 조사는 다음 표에 요약된 ID용 
 
 조사를 보기 위해 인시던트 **페이지로** 이동합니다. 인시던트 를 선택한 다음 조사 **탭을** 선택합니다. 자세한 내용은 [자동화된 조사의 세부](m365d-autoir-results.md)정보 및 결과를 참조합니다.
 
+## <a name="training-for-security-analysts"></a>보안 분석가를 위한 교육
+
+Microsoft의 이 학습 모듈을 사용하여 사고 조사 및 대응에 Microsoft 365 Defender 자동 자동 복구를 사용하는 방법을 이해합니다.
+
+|교육:|Microsoft 365 Defender와 자동 self-healing|
+|---|---|
+|![교육 아이콘을 통해 자동 Microsoft 365 Defender 자동화합니다.](../../media/m365d-autoir/m365-defender-auto-self-healing.svg)| Microsoft 365 Defender AI를 사용하여 인시던트에 대한 수정을 자동화하여 보안 운영 팀이 위협을 보다 효율적이고 효과적으로 해결하도록 도와줍니다. <p> 11분 - 5단위 |
+
+> [!div class="nextstepaction"]
+> [시작 >](/learn/modules/defender-self-healing/)
 
 ## <a name="next-steps"></a>다음 단계
 

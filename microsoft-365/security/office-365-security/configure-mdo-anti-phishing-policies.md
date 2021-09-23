@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 35f8ae19b0741153d6cad695059bd91aa6199aea
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c9446104a003dfe6374e86b4525dde6a2609b9ea
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219825"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483270"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 피싱 방지 정책 Office 365
 
@@ -204,7 +204,10 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 Quarantine the message**
+       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by user impersonation protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+
+         빈 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for user imperation detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
+  
        - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
        - **배달되기 전에 메시지 삭제**
 
@@ -212,7 +215,10 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 Quarantine the message**
+       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by domain impersonation protection.
+
+         빈 **Apply quarantine policy value** means the default quarantine policy is used (DefaultFullAccessPolicy for domain impersonation detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
+
        - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
        - **배달되기 전에 메시지 삭제**
 
@@ -220,13 +226,18 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 Quarantine the message**
+       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+
+         비어 있는 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for mailbox intelligence detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
+
        - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
        - **배달되기 전에 메시지 삭제**
 
      - **메시지가 스푸핑으로** 검색된 경우 : 이 설정은 이전 페이지에서 스푸핑 **인텔리전스** 사용 을 선택한 경우만 사용할 수 있습니다. 드롭다운 목록에서 차단된 스푸핑된 보낸 사람이 보낸 메시지에 대해 다음 작업 중 하나를 선택합니다.
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 Quarantine the message**
+       - **메시지 검역:** 이 작업을 선택하면 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택하는 검역 정책 적용 상자가 나타납니다.  Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+
+         빈 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for spoof intelligence detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
 
    - **안전 팁 & 표시기:** 다음 설정을 구성합니다.
      - **첫 번째 연락처 보안 팁** 표시 : 자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
@@ -235,9 +246,6 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
      - **사용자 가장 비정상 문자** 표시 보안 팁 이 설정은 사용자가 이전  페이지에서 보호할  수 있도록 설정 또는 도메인을 보호할 수 있도록 설정을 선택한 경우만 사용할 수 있습니다.
      - **스푸핑에** 대해 확인되지 않은 보낸 사람에 대한 표시(?) : 이 설정은 이전 페이지에서 스푸핑 **인텔리전스** 사용 을 선택한 경우만 사용할 수 있습니다. 메시지가 SPF 또는 DKIM 검사를 통과하지 못하고 메시지가 DMARC 또는 복합 인증을 통과하지  Outlook 메시지의 보낸 사람 상자에 보낸 사람 사진에 물음표를 [추가합니다.](email-validation-and-authentication.md#composite-authentication)
      - **"via" 태그** 표시 : 이 설정은 이전 페이지에서 스푸핑 **인텔리전스** 사용 을 선택한 경우만 사용할 수 있습니다. DKIM 서명의 도메인 또는 MAIL FROM 주소의 도메인과 다른 경우 보낸 chris@contoso.com (fabrikam.com 통해) 태그를 보낸사용자 주소에 **추가합니다.** 기본값은 설정(선택)입니다. 끄기 위해 확인란의 선택을 취소합니다.
-
-       > [!NOTE]
-       > **"via"** 태그 표시 설정이 없는 경우 물음표와 via 태그는 모두 조직에서 스푸핑에 대한 확인되지 않은 보낸 사람에 대한 표시(?)에 의해 제어됩니다.  
 
      설정을 켜기 위해 확인란을 선택합니다. 끄기 위해 확인란의 선택을 취소합니다.
 
@@ -365,17 +373,22 @@ New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Addit
 
 - 정책이 사용하도록 설정됩니다(Enabled 매개  변수를 사용하지 않습니다. 기본값은 `$true` 입니다).
 - 설명은 리서치 부서 정책입니다.
+- 스푸핑 검색에 대한 기본 작업을 Quarantine으로 변경하고, _SpoofQuarantineTag_ 매개 변수를 사용하지 않습니다. [](quarantine-policies.md)
 - 모든 허용 도메인에 대해 조직 도메인 보호를 설정하고 대상 도메인에 대한 fabrikam.com.
+- 도메인 가장 검색에 대한 작업으로 Quarantine을 지정하고, 검역된 메시지에 대해 기본 검역 정책을 사용합니다(TargetedDomainQuarantineTag 매개 변수를 사용하지 않습니다). [](quarantine-policies.md) 
 - 가장으로부터 보호할 사용자로 Mai Fujito(mfujito@fabrikam.com)를 지정합니다.
-- 사서함 인텔리전스를 사용 합니다.
-- 사서함 인텔리전스 보호를 사용하며, 검역 작업을 지정합니다.
-- 안전 팁을 사용하세요.
+- 사용자 가장 검색에 대한 작업으로 Quarantine을 지정하고, 검역된 메시지에 대해 기본 검역 정책을 사용합니다(TargetedUserQuarantineTag 매개 변수를 사용하지 않습니다). [](quarantine-policies.md) 
+- 사서함 인텔리전스(EnableMailboxIntelligence)를 사용하면 사서함 인텔리전스 보호에서 메시지에 대한 작업을 수행하도록 허용합니다(EnableMailboxIntelligenceProtection [](quarantine-policies.md) ), 검색된 메시지에 대한 작업으로 Quarantine을 지정하고, _사서함IntelligenceQuarantineTag_ 매개 변수를 사용하지 않습니다.
+- 모든 안전 팁을 사용하세요.
 
 ```powershell
-New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
+New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -AuthenticationFailAction Quarantine -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [New-AntiPhishPolicy 를 참조하십시오.](/powershell/module/exchange/New-AntiPhishPolicy)
+
+> [!NOTE]
+> 피싱 방지 정책에 [](quarantine-policies.md) 사용할 검지 정책을 지정하는 자세한 지침은 [PowerShell을](quarantine-policies.md#anti-phishing-policies)사용하여 피싱 방지 정책에서 검지 정책 지정을 참조하세요.
 
 #### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a>2단계: PowerShell을 사용하여 피싱 방지 규칙 만들기
 
@@ -466,6 +479,9 @@ Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-AntiPhishPolicy를 참조하십시오.](/powershell/module/exchange/Set-AntiPhishPolicy)
+
+> [!NOTE]
+> 피싱 방지 정책에 [](quarantine-policies.md) 사용할 검지 정책을 지정하는 자세한 지침은 [PowerShell을](quarantine-policies.md#anti-phishing-policies)사용하여 피싱 방지 정책에서 검지 정책 지정을 참조하세요.
 
 ### <a name="use-powershell-to-modify-anti-phish-rules"></a>PowerShell을 사용하여 피싱 방지 규칙 수정
 

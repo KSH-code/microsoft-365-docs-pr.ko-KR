@@ -16,12 +16,12 @@ ms.collection:
 description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 현재 보유 중인 항목이 무엇이고 이러한 항목을 어떻게 보호할 수 있는지 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b9db76654e19309816b29e5cfe607c064b8d364
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: cb20146625b0e6d42394e82c6cdd70595f18ba13
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192292"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483246"
 ---
 # <a name="microsoft-defender-for-office-365-security-overview"></a>Microsoft Defender for Office 365 보안 개요
 
@@ -85,7 +85,7 @@ Office 365용 Defender 플랜을 추가하는 것이 완벽한 EOP 위협 관리
 
 |방지/감지|조사|응답|
 |---|---|---|
-|기술에 포함되는 사항은 다음과 같습니다.<ul><li>스팸</li><li>phish</li><li>맬웨어</li><li>대량 메일</li><li>스푸핑 인텔리전스</li><li>가장 검색</li><li>관리자 격리</li><li>가양성 및 가음성의 관리자 및 사용자 전송</li><li>URL 및 파일에 대한 허용/차단</li><li>보고서</li></u1>|<li>감사 로그 검색</li><li>메시지 추적</li>|<li>ZAP(제로 아워 자동 제거)</li><li>허용 및 차단 목록 수정 및 테스트</li>|
+|기술에 포함되는 사항은 다음과 같습니다.<ul><li>스팸</li><li>phish</li><li>맬웨어</li><li>대량 메일</li><li>스푸핑 인텔리전스</li><li>가장 검색</li><li>관리자 격리</li><li>가양성 및 가음성의 관리자 및 사용자 전송</li><li>URL 및 파일에 대한 허용/차단</li><li>보고서</li></ul>|<li>감사 로그 검색</li><li>메시지 추적</li>|<li>ZAP(제로 아워 자동 제거)</li><li>허용 및 차단 목록 수정 및 테스트</li>|
 |
 
 EOP에 대해 자세히 알아보려면 **[이 도움말로 이동](exchange-online-protection-overview.md)** 하세요.
@@ -97,7 +97,7 @@ EOP에 대해 자세히 알아보려면 **[이 도움말로 이동](exchange-onl
 
 |방지/감지|조사|응답|
 |---|---|---|
-|기술에는 EOP에 포함된 모든 사항과 다음 항목이 포함됩니다.<u1><li>안전한 첨부 파일</li><li>안전한 링크<li>워크로드에 대한 Office 365용 Microsoft Defender 보호 기능(예: SharePoint Online, Teams, 비즈니스용 OneDrive)</li><li>전자 메일, Office 클라이언트 및 Teams의 클릭 시간 보호</li><li>Office 365용 Defender의 피싱 방지</li><li>사용자 및 도메인 가장 보호</li><li>알림 및 알림에 대한 SIEM 통합 API</li>|<li>검색을 위한 SIEM 통합 API</li><li>**실시간 검색 도구**</li><li>URL 추적</li>|<li>같음</li></u1>
+|기술에는 EOP에 포함된 모든 사항과 다음 항목이 포함됩니다.<ul><li>안전한 첨부 파일</li><li>안전한 링크<li>워크로드에 대한 Office 365용 Microsoft Defender 보호 기능(예: SharePoint Online, Teams, 비즈니스용 OneDrive)</li><li>전자 메일, Office 클라이언트 및 Teams의 클릭 시간 보호</li><li>Office 365용 Defender의 피싱 방지</li><li>사용자 및 도메인 가장 보호</li><li>알림 및 알림에 대한 SIEM 통합 API</li>|<li>검색을 위한 SIEM 통합 API</li><li>**실시간 검색 도구**</li><li>URL 추적</li>|<li>같음</li></ul>
 
 따라서 Office 365용 Microsoft Defender P1는 집의 **방지** _측면을 확장하고_ 또 다른 형식의 _감지_**를 추가합니다.
 
@@ -108,7 +108,7 @@ Office 365용 Microsoft Defender P1은 조사를 위해 **실시간 감지** 기
 
 |방지/감지|조사|응답|
 |---|---|---|
-|기술에는 EOP의 모든 기능과 Office 365용 Microsoft Defender P1 및 다음 항목이 포함됩니다. <u1><li>같음</li>|<li>**위협 탐색기**</li><li>위협 추적기</li><li>캠페인 보기</li>|<li>자동 조사 및 대응(AIR)</li><li>위협 탐색기의 AIR</li><li>손상된 사용자를 위한 AIR</li><li>자동화된 조사를 위한 SIEM 통합 API</li>
+|기술에는 EOP의 모든 기능과 Office 365용 Microsoft Defender P1 및 다음 항목이 포함됩니다. <ul><li>같음</li>|<li>**위협 탐색기**</li><li>위협 추적기</li><li>캠페인 보기</li>|<li>자동 조사 및 대응(AIR)</li><li>위협 탐색기의 AIR</li><li>손상된 사용자를 위한 AIR</li><li>자동화된 조사를 위한 SIEM 통합 API</li>
 
 따라서 Office 365용 Microsoft Defender P2는 ***조사 및 대응*** 측면을 확장하고 새로운 검색 능력을 추가합니다. 자동화
 

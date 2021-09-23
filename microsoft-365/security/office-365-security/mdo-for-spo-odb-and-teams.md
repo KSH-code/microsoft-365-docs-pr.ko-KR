@@ -23,12 +23,12 @@ ms.custom:
 description: Office 365 Online, Office 365 및 SharePoint 파일용 Microsoft Defender에 대해 비즈니스용 OneDrive Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f9ab3c10292aed5f6f39a8534680cb8e9c5d3551
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fe601cdb6ea130e904f8b7526dc265cd19e2ab77
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189092"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483846"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams를 위한 안전한 첨부 파일
 
@@ -66,7 +66,7 @@ SharePoint 온라인 관리자는 사용자가 악성 파일을 다운로드하�
 
 금고, OneDrive 및 SharePoint 및 Microsoft Teams에 대한 첨부 파일로 악성으로 식별된 파일은 Office 365 및 탐색기(및 실시간 [검색)에 대한 Microsoft Defender에](view-reports-for-mdo.md) 대한 보고서에 [나타납니다.](threat-explorer.md)
 
-2018년 5월을 현재, SharePoint, OneDrive 및 금고 첨부 파일에서 악성으로 식별된 파일은 Microsoft Teams 파일에서도 사용할 수 있습니다. 자세한 내용은 [Manage quarantined files in Defender for Office 365.](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)
+금고, SharePoint, OneDrive 및 Microsoft Teams 파일에서 파일을 악성으로 식별한 경우 해당 파일은 관리자만이 Microsoft Teams 사용할 수 있습니다. 자세한 내용은 [Manage quarantined files in Defender for Office 365.](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)
 
 ## <a name="keep-these-points-in-mind"></a>다음의 사항을 염두에 둡니다.
 
@@ -74,4 +74,4 @@ SharePoint 온라인 관리자는 사용자가 악성 파일을 다운로드하�
 
 - 최신 환경을 SharePoint 사이트가 구성되어 [있는지 확인](/sharepoint/guide-to-sharepoint-modern-experience) Office 365 보호를 위한 Defender는 최신 환경 또는 클래식 보기가 사용되는지 여부에 따라 적용됩니다. 그러나 파일이 차단된 시각적 표시기는 최신 환경에서만 사용할 수 있습니다.
 
-- 금고 SharePoint, OneDrive 및 Microsoft Teams 첨부 파일은 EOP(Exchange Online Protection)의 스팸 방지 및 맬웨어 방지 보호를 포함하는 조직의 전반적인 위협 방지 전략과 microsoft Defender for 금고 Links 및 금고 Attachments for Office 365. 자세한 내용은 [에서 위협으로부터 보호를 Office 365.](protect-against-threats.md)
+- 금고 SharePoint, OneDrive 및 Microsoft Teams 첨부 파일은 EOP(Exchange Online Protection)의 스팸 방지 및 맬웨어 방지 보호뿐만 아니라 금고 링크 및 맬웨어 방지를 포함하는 조직의 전반적인 위협 방지 전략에 금고 Microsoft Defender for Office 365. 자세한 내용은 [에서 위협으로부터 보호를 Office 365.](protect-against-threats.md)

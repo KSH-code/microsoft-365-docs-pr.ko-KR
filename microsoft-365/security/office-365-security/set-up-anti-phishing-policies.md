@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b0b7e93c59484bb3f7b1e34d33dd3ee7a19f7634
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 291856addf7ce2702a1cd5f26c9cf3d2e833bbc2
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217945"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483414"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -119,6 +119,8 @@ ms.locfileid: "59217945"
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
     - [2016년 8월에 사용자로 확인된 메시지 찾기 및 Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
+    메시지의 **검역을** 선택하는 경우 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택할 수도 있습니다. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+
 ### <a name="unauthenticated-sender"></a>비인식 보낸 사람
 
 이 확인되지 않은 보낸 사람 알림은 이전 [](#spoof-settings) 섹션에 설명된 바와 같이 EOP의 피싱 방지 정책 및 Office 365 정책에서 사용할 수 있는 스푸핑 설정의 일부입니다. 다음 설정은 스푸핑 인텔리전스가 켜져 있는 경우만 사용할 수 있습니다.
@@ -199,6 +201,9 @@ ms.locfileid: "59217945"
     - [Microsoft 365](quarantine-email-messages.md)
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
     - [2016년 8월에 사용자로 확인된 메시지 찾기 및 Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
+
+    메시지 **검역을** 선택하는 경우 사용자 가장 또는 도메인 가장 보호에 의해 검역된 메시지에 적용되는 검역 정책을 선택할 수도 있습니다. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+
   - **메시지를 배달하고 Bcc** 줄에 다른 주소를 추가합니다. 메시지를 의도된 받는 사람에게 배달하고 지정된 받는 사람에게 자동으로 배달합니다.
   - **배달되기** 전에 메시지 삭제: 모든 첨부 파일을 포함하여 전체 메시지를 자동으로 삭제합니다.
 
@@ -217,7 +222,7 @@ ms.locfileid: "59217945"
   - **아무 작업도 적용하지** 않습니다. 이 값은 사서함 인텔리전스를 켜고 인텔리전스 가장 보호 사용은 해제하는 경우와 결과가 **같습니다.** 
   - **메시지를 다른 전자 메일 주소로 리디렉션**
   - **받는 사람의 정크 메일 폴더로 메시지 이동**
-  - **메시지 Quarantine the message**
+  - **메시지 Quarantine the message:** If you select this action, you can also select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
   - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
   - **배달되기 전에 메시지 삭제**
 

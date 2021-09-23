@@ -20,12 +20,12 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: c8f821381d8e51b843f3a213d8daec5ef6ffaf5f
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.openlocfilehash: 640a019c86e5313b81003136b2d9842d8784e29a
+  ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59211615"
+  ms.lasthandoff: 09/23/2021
+  ms.locfileid: "59483570"
 title: Quarantined messages FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -56,11 +56,14 @@ sections:
   - question: >
       맬웨어로 검색된 메시지를 관리하는 방법
     answer: >
-      관리자만 맬웨어에 대해 고지된 메시지를 관리할 수 있습니다. 자세한 내용은 [관리자로 고지된](manage-quarantined-messages-and-files.md)메시지 및 파일 관리를 참조하세요.
+      기본적으로 관리자만 맬웨어에 대해 차단된 메시지를 관리할 수 있습니다. 자세한 내용은 [관리자로 고지된](manage-quarantined-messages-and-files.md)메시지 및 파일 관리를 참조하세요.
+
+
+      그러나 관리자는 사용자에 대해  더 많은 기능을 정의하는 맬웨어 방지 정책에 대해 정책을 만들고 적용할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
   - question: >
       스팸을 차단하는 방법
     answer: >
-      기본적으로 스팸 필터링을 통해 스팸 또는 대량 전자 메일로 분류된 메시지는 사용자의 사서함으로 배달되어 정크 메일 폴더로 이동됩니다. 그러나 스팸 방지 정책을 만들고 구성하여 스팸 또는 대량 전자 메일 메시지를 대신 차단할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+      기본적으로 스팸 필터링을 통해 스팸 또는 대량 전자 메일로 분류된 메시지는 사용자의 사서함으로 배달되어 정크 메일 폴더로 이동됩니다. 그러나 스팸 방지 정책을 구성하여 스팸 또는 대량 전자 메일 메시지를 대신 차단할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
   - question: >
       사용자에게 검지 액세스 권한을 부여하는 방법
     answer: >
@@ -68,7 +71,33 @@ sections:
   - question: >
       최종 사용자가 검지에서 액세스할 수 있는 메시지는 무엇입니까?
     answer: >
-      사용자는 스팸, 대량 전자 메일 및 받는 사람인 피싱 메시지(2020년 4월 현재)에 액세스할 수 있습니다. 메일 흐름 규칙(전송 규칙)에서 호스트된 검지 작업으로 메시지를 배달하여 최종 사용자는  분리된 맬웨어, 높은 신뢰도 피싱 또는 메시지에 액세스할 수 없습니다. 고지된 메시지에 액세스하는 사용자에 대한 자세한 내용은 [Find and release quarantined messages as a user을 참조하십시오.](find-and-release-quarantined-messages-as-a-user.md)
+      Quarantine policies define whether users can access quarantined messages based on why the message quarantined (for [supported features).](quarantine-policies.md#step-2-assign-a-quarantine-policy-to-supported-features) 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+
+
+      기본적으로 사용자는 받는 사람인 다음 유형의 quarantined 메시지에 액세스할 수 있습니다.
+
+
+      - **스팸 방지 정책:** 스팸, 대량 전자 메일 및 피싱 메시지(높은 신뢰도의 피싱 메시지 아연)
+
+      - 피싱 방지 정책 **:** 스푸핑된 보낸 사람, 사용자 가장 보호(Office 365용 Defender), 도메인 가장 보호(Office 365용 Defender) 및 사서함 인텔리전스 보호(Office 365.
+
+
+      자세한 내용은 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
+
+
+      기본적으로 최종 사용자는 받는 사람인 다음과 같은 유형의 메일에 액세스할 수 없습니다.
+
+
+      - **스팸 방지 정책:** 높은 신뢰도의 피싱.
+
+      - **맬웨어 방지 정책**
+
+      - 금고 첨부 파일(Office 365용 **Defender)**: 금고 첨부 파일 정책의 전자 메일 메시지와 금고 첨부 파일에서 보낸 SharePoint, OneDrive 및 Microsoft Teams.
+
+      - **메일 흐름 규칙(전송 규칙)**: 메일 흐름 규칙에서  호스트된 검지 작업으로 메시지를 배달하여 검지된 메시지입니다.
+
+
+      자세한 내용은 [관리자로 고지된](manage-quarantined-messages-and-files.md)메시지 및 파일 관리를 참조하세요.
   - question: >
       메시지가 얼마나 오래 검사에 보관 하나요?
     answer: >

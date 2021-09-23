@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(2013)에서 아웃바운드 스팸 정책을 보고, 만들고, 수정하고, 삭제하는 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 28463c30b4c256c813e5f949db43eceb060fa02a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ec82ce1f1049039fc6f4317662e5de016ba381d7
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219815"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483822"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃바운드 스팸 필터링 구성
 
@@ -43,7 +43,7 @@ EOP는 스팸에 대한 조직의 전반적인 방어의 일부로 아웃바운�
 
 관리자는 기본 아웃바운드 스팸 정책을 보고, 편집하고, 구성할 수 있지만 삭제할 수 없습니다. 세분성을 강화하기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용되는 사용자 지정 아웃바운드 스팸 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
-Microsoft 365 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직의 경우 Exchange Online, 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell Exchange Online PowerShell)에서 아웃바운드 스팸 정책을 구성할 수 있습니다.
+Microsoft 365 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 Microsoft 365 사서함이 있는 Exchange Online 독립 실행형 EOP PowerShell에서 아웃바운드 스팸 정책을 구성할 수 있습니다. 조직에 Exchange Online 없는 조직)
 
 EOP에서 아웃바운드 스팸 정책의 기본 요소는 다음입니다.
 
@@ -204,7 +204,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 아웃바운드 스팸 정�
 
    기본 아웃바운드 스팸  정책의 경우 적용된 섹션을 사용할 수 없습니다(정책은 모든 사람에 적용), 정책의 이름을 바출 수 없습니다.
 
-정책을 사용하거나 사용하지 않도록 설정하거나, 정책 우선순위 순서를 설정하거나, 최종 사용자 격리 알림을 구성하려면, 다음 섹션을 참조하세요.
+정책을 사용하도록 설정하거나 사용하지 않도록 설정하거나, 정책 우선 순위 순서를 설정하거나, 최종 사용자 알림을 구성하려면 다음 섹션을 참조하세요.
 
 ### <a name="enable-or-disable-custom-outbound-spam-policies"></a>사용자 지정 아웃바운드 스팸 정책 사용 또는 사용 안 하도록 설정
 

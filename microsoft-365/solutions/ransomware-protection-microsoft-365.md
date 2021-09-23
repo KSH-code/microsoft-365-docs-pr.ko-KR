@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 랜섬웨어, 인간이 운영하는 랜섬웨어, 인간 운영 랜섬웨어, HumOR, 공격, 랜섬웨어 공격, 암호화, 암호화
 description: 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호하는 단계를 안내합니다.
-ms.openlocfilehash: e7adafd8c60e55c7bb1acc60afcd4ca5cadedb85
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 0e5238c4e675dbbec796a19ecbb2c8354f259c42
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444663"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483618"
 ---
 # <a name="deploy-ransomware-protection-for-your-microsoft-365-tenant"></a>Microsoft 365 테넌트용 랜섬웨어 보호 배포
 
@@ -82,7 +82,7 @@ SharePoint 및 비즈니스용 OneDrive 파일은 다음으로 보호됩니다.
 
    관리자와 최종 사용자가 지난 30일 동안 특정 시점부터 파일을 복원할 수 있도록 하는 SharePoint 및 OneDrive용 완전한 셀프 서비스 복구 솔루션입니다.
 
-   보안 및 IT 기술 지원팀 직원의 부담을 최소화하기 위해 [SharePoint 및 OneDrive에 대한 보존](/microsoft-365/compliance/retention-policies-sharepoint)에 대해 사용자를 교육합니다.
+   보안 및 IT 기술 지원팀 직원의 부담을 최소화하기 위해 [파일 복원](https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/announcing-new-onedrive-for-business-feature-files-restore/ba-p/147436)에 대해 사용자를 교육합니다.
 
 
 Microsoft는 OneDrive 및 SharePoint 파일의 경우 대량 공격에 의해 공격을당하는 경우 최대 14일 동안 이전 시점으로 롤백할 수 있습니다.

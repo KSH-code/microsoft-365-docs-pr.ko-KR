@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 9be51ab9204ac8a950bf316f716b70b824980ba8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ad85439d817013fa394fcb80bd5d47dbf391601f
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213795"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59484122"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -114,7 +114,7 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 | 하드웨어 해시가 유효하지 않습니다. | 이 장치에 대해 제공한 하드웨어 해시의 형식이 올바로 설정되지 않았습니다. 하드웨어 해시를 다시 확인한 다음 다시 제출합니다. |
 | 디바이스가 이미 등록되어 있습니다. | 이 장치는 조직에 이미 등록되어 있습니다. 추가 작업이 필요하지 않습니다. |
 | 다른 조직에서 클레임한 장치 | 이 디바이스는 다른 조직에서 이미 클레임했습니다. 장치 공급업체에 문의하십시오. |
-| 예기치 않은 오류 | 요청을 자동으로 처리하지 못했습니다. 고객 지원에 문의하여 요청 ID를 제공합니다. <requestId> |
+| 예기치 않은 오류 | 요청을 자동으로 처리하지 못했습니다. 고객 지원에 문의하여 요청 ID를 제공합니다. \<requestId\> |
 
 ### <a name="check-the-image"></a>이미지 확인
 
@@ -124,7 +124,7 @@ In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devic
 
 ### <a name="autopilot-group-tag"></a>Autopilot 그룹 태그
 
-관리 포털을 사용하여 장치를 등록하면 Autopilot **그룹** 태그에 Microsoft365Managed_Autopilot 할당됩니다.
+관리 포털을 사용하여 장치를 등록하는 경우 파트너 센터를 사용하여 장치 등록에 나열된 장치 프로필과 연결된 Autopilot 그룹 태그를 [자동으로 할당합니다.](register-devices-partner.md#register-devices-by-using-partner-center)
 서비스는 모든 Microsoft Managed Desktop 장치를 매일 모니터링하고 아직 없는 장치에 그룹 태그를 할당합니다.
 
 ### <a name="deliver-the-device"></a>디바이스 전달

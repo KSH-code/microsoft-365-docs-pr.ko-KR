@@ -20,12 +20,12 @@ description: 관리자는 검색 포털에서 사용할 수 있는 Office 365 De
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fc614d873a07a40c1ef65fde3681ce89edaae6d8
-ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
+ms.openlocfilehash: 80ba6c1f7c04a48b5472a12db75d602bd503465e
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59479576"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483309"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>검색 포털에서 Office 365 대한 Microsoft 365 Defender 보기
 
@@ -51,7 +51,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 2. 다운로드할 **보고서를 선택합니다.**
 
-![전자 & 포털의 공동 작업 보고서 Microsoft 365 Defender 전자 메일로 보내기](/microsoft-365/media/email-collaboration-reports.png)
+![전자 & 포털의 공동 작업 보고서 Microsoft 365 Defender 전자 메일로 보내기](../../media/email-collaboration-download-reports.png)
 
 > [!NOTE]
 >

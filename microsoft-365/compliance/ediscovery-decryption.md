@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: eDiscovery Microsoft 365 전자 메일 메시지에 첨부되고 SharePoint 온라인 및 전자 메일 메시지에 저장된 암호화된 문서를 처리하는 비즈니스용 OneDrive.
-ms.openlocfilehash: 0662b6a2bbedefc2dd996491171dc1abde49bb8e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b816990e0524222938233089e6f920b753406544
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218975"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483066"
 ---
 # <a name="decryption-in-microsoft-365-ediscovery-tools"></a>eDiscovery Microsoft 365 암호 해독
 
@@ -86,3 +86,15 @@ eDiscovery는 암호화를 적용한 민감도 레이블이 다음 SharePoint On
 Microsoft 암호화 기술로 암호화된 파일을 미리 보고 검토하고 내보내기 위해 RMS 암호 해독 역할을 할당해야 합니다. 또한 암호화된 파일을 검토하고 쿼리하기 위해 이 역할을 할당해야 합니다. 이 역할은 해당 역할의 검토 집합에 추가된 암호화된 파일을 Advanced eDiscovery.
 
 이 역할은 이 역할의 사용 권한 페이지에서 eDiscovery 관리자 역할 그룹에 기본적으로 Microsoft 365 규정 준수 센터.  RMS 암호 해독 역할에 대한 자세한 내용은 [eDiscovery](assign-ediscovery-permissions.md#rms-decrypt)사용 권한 할당을 참조하세요.
+
+### <a name="decrypting-rms-protected-email-messages-and-encrypted-file-attachments-using-content-search-or-core-ediscovery"></a>콘텐츠 검색 또는 Core eDiscovery를 사용하여 RMS로 보호된 전자 메일 메시지 및 암호화된 파일 첨부 파일의 암호 해독
+
+콘텐츠 검색 결과에 포함된 권한으로 보호된(RMS로 보호된) 전자 메일 메시지는 내보낼 때 암호가 해독됩니다. 또한 [Microsoft](encryption.md) 암호화 기술로 암호화되고 검색 결과에 포함된 전자 메일 메시지에 첨부된 파일은 내보낼 때 암호가 해독됩니다. 이 암호 해독 기능은 기본적으로 eDiscovery 관리자 역할 그룹의 구성원에 대해 사용하도록 설정됩니다. 이는 기본적으로 RMS 암호 해독 관리 역할이 이 역할 그룹에 할당되어 있기 때문에입니다. 암호화된 전자 메일 메시지 및 첨부 파일을 내보낼 때 다음에 유의하세요.
+  
+- 앞서 설명한 것 처럼 RMS로 보호된 메시지를 내보낼 때 암호를 해독하기 위해 검색 결과를 개별 메시지로 내보내야 합니다. 검색 결과를 PST 파일로 내보낼 경우 RMS로 보호된 메시지는 암호화된 상태로 유지됩니다.
+
+- 암호 해독된 메시지는 **ResultsLog** 보고서에서 식별됩니다. 이 보고서에는 **Decode Status라는** 열이 포함되어 **있으며, 디코드** 값은 암호 해독된 메시지를 식별합니다.
+
+- 검색 결과를 내보낼 때 첨부 파일의 암호를 해독하는 것 외에도 검색 결과를 미리 볼 때 암호 해독된 파일을 미리 볼 수도 있습니다. 권한으로 보호된 전자 메일 메시지는 내보낼 때만 볼 수 있습니다.
+
+- RMS로 보호되는 메시지 및 암호화된 첨부 파일의 암호를 해독하지 못하도록 해야 하는 경우 기본 제공 eDiscovery 관리자 역할 그룹을 복사하여 사용자 지정 역할 그룹을 만든 다음 사용자 지정 역할 그룹에서 RMS 암호 해독 관리 역할을 제거해야 합니다. 그런 다음 메시지의 암호를 해독하지 않는 사람을 사용자 지정 역할 그룹의 구성원으로 추가합니다.

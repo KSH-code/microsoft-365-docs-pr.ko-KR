@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 사서함을 사용하거나 사서함이 없는 EOP(Exchange Online Protection 조직)에서 사용할 수 있는 피싱 방지 정책을 만들고 수정하고 삭제하는 Exchange Online 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e8e6ccbc75e7c9081a3d6f4753bd7c9415cdb296
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 93bd272009845d7b9afdd873bbdd2cd4219c82e1
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218075"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59484074"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성
 
@@ -29,7 +29,7 @@ ms.locfileid: "59218075"
 **적용 대상**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 
-Microsoft 365 사서함이 없는 Exchange Online 또는 Exchange Online Exchange Online Protection(독립 실행형 EOP) 조직에 사서함이 있는 조직에는 기본적으로 사용하도록 설정된 제한된 수의 스푸핑 방지 기능이 포함된 기본 피싱 방지 정책이 있습니다. 자세한 내용은 [피싱 방지 정책의 스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)을 참조하세요.
+Microsoft 365 사서함이 없는 Exchange Online 또는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 조직에 Exchange Online 사서함이 있는 조직에는 사용할 수 있는 제한된 수의 스푸핑 방지 기능을 포함하는 기본 피싱 방지 정책이 있습니다. 기본값입니다. 자세한 내용은 [피싱 방지 정책의 스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)을 참조하세요.
 
 관리자는 기본 피싱 방지 정책을 보고 편집하고 구성할 수 있지만 삭제할 수 없습니다. 세분성을 강화하기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용되는 사용자 지정 피싱 방지 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
@@ -124,7 +124,9 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
 6. 표시되는 **작업** 페이지에서 다음 설정을 구성합니다.
    - **메시지가 스푸핑으로** 검색된 경우 : 이 설정은 이전 페이지에서 스푸핑 **인텔리전스** 사용 을 선택한 경우만 사용할 수 있습니다. 드롭다운 목록에서 차단된 스푸핑된 보낸 사람이 보낸 메시지에 대해 다음 작업 중 하나를 선택합니다.
      - **받는 사람의 정크 메일 폴더로 메시지 이동**
-     - **메시지 Quarantine the message**
+     - **메시지 검역:** 이 작업을 선택하면 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택하는 검역 정책 적용 상자가 나타납니다.  Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+
+       빈 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for spoof intelligence detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다. 지원되는 보호 필터링 판정에 사용되는 기본 검역 정책에 대한 자세한 내용은 다음 [표를 참조하세요.](quarantine-policies.md#step-2-assign-a-quarantine-policy-to-supported-features)
 
    - **안전 팁 & 표시기**:
      - **첫 번째 연락처 보안 팁** 표시 : 자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
@@ -258,19 +260,22 @@ PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계�
 피싱 방지 정책을 만들 경우 다음 구문을 사용 합니다.
 
 ```PowerShell
-New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-EnableSpoofIntelligence <$true | $false>] [-AuthenticationFailAction <MoveToJmf | Quarantine>] [-EnableUnauthenticatedSender <$true | $false>] [-EnableViaTag <$true | $false>]
+New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-EnableSpoofIntelligence <$true | $false>] [-AuthenticationFailAction <MoveToJmf | Quarantine>] [-EnableUnauthenticatedSender <$true | $false>] [-EnableViaTag <$true | $false>] [-SpoofQuarantineTag <QuarantineTagName>]
 ```
 
 이 예에서는 다음 설정을 사용하여 Research Quarantine이라는 피싱 방지 정책을 만듭니다.
 
 - 설명은 리서치 부서 정책입니다.
-- 스푸핑에 대한 기본 작업을 Quarantine으로 변경합니다.
+- 스푸핑 검색에 대한 기본 작업을 Quarantine으로 변경하고, _SpoofQuarantineTag_ 매개 변수를 사용하지 않습니다. [](quarantine-policies.md)
 
 ```powershell
 New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -AuthenticationFailAction Quarantine
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [New-AntiPhishPolicy 를 참조하십시오.](/powershell/module/exchange/New-AntiPhishPolicy)
+
+> [!NOTE]
+> 피싱 방지 정책에 [](quarantine-policies.md) 사용할 검지 정책을 지정하는 자세한 지침은 [PowerShell을](quarantine-policies.md#anti-phishing-policies)사용하여 피싱 방지 정책에서 검지 정책 지정을 참조하세요.
 
 #### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a>2단계: PowerShell을 사용하여 피싱 방지 규칙 만들기
 
@@ -360,6 +365,9 @@ Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-AntiPhishPolicy를 참조하십시오.](/powershell/module/exchange/Set-AntiPhishPolicy)
+
+> [!NOTE]
+> 피싱 방지 정책에 [](quarantine-policies.md) 사용할 검지 정책을 지정하는 자세한 지침은 [PowerShell을](quarantine-policies.md#anti-phishing-policies)사용하여 피싱 방지 정책에 검지 정책 지정을 참조하세요.
 
 ### <a name="use-powershell-to-modify-anti-phish-rules"></a>PowerShell을 사용하여 피싱 방지 규칙 수정
 

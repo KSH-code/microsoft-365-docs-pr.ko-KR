@@ -19,12 +19,12 @@ description: 관리자는 전자 메일 포털에서 사용할 수 있는 전자
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d85918b35f4c05a83b779a7f3893d0c5942c4894
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b635c865901c01b32549fe51a71c795c47d6993c
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211525"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483210"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기
 
@@ -35,9 +35,7 @@ ms.locfileid: "59211525"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-의 Microsoft 365 Defender 포털에서 다양한 보고서를 사용하여 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 Microsoft 365 보호하는 방법을 볼 <https://security.microsoft.com> 수 있습니다. 필요한 권한이 [](#what-permissions-are-needed-to-view-these-reports)있는 경우 보고서 전자 메일 Microsoft 365 Defender 공동 작업 전자  메일 & 공동 작업 보고서로 이동하여 & \>  \> **수 있습니다.** 전자 메일 및 공동 작업 **& 페이지로** 직접 이동하기 위해 를 를 를 열 수 <https://security.microsoft.com/emailandcollabreport> 있습니다.
-
-![전자 & 포털의 공동 작업 보고서 Microsoft 365 Defender 전자 메일로 보내기](../../media/email-collaboration-reports.png)
+의 Microsoft 365 Defender 포털에서 다양한 보고서를 사용하여 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 Microsoft 365 보호하는 방법을 볼 <https://security.microsoft.com> 수 있습니다. 필요한 권한이 [있는](#what-permissions-are-needed-to-view-these-reports)경우 사이트 포털에서 이러한 보고서를 보고 Microsoft 365 Defender 있습니다. 자세한 내용은 [View Defender for Office 365 참조하세요.](view-reports-for-mdo.md#view-and-download-reports)
 
 > [!NOTE]
 >
@@ -914,8 +912,8 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기 권한자**
-- **전역 읽기 권한자**
+- **보안 읽기**
+- **전역 읽기**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 

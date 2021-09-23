@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 92c74ae2f7e7236138f28cf30b3e835eb10b636d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f9999fdea57465120040cb04a497f1510bcb988b
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189239"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483510"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>2013에서 경고 Microsoft 365 Defender
 
@@ -42,7 +42,7 @@ ms.locfileid: "59189239"
 
 경고 **큐에는** 현재 경고 집합이 표시됩니다. 인시던트 및 경고  & > 포털(Microsoft 365 Defender)을 빠르게 실행하면 경고[큐로 security.microsoft.com.](https://security.microsoft.com)
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-queue.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-queue.png" alt-text="경고 큐의 예입니다.":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-queue.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-queue.png" alt-text="보안 포털의 경고 큐 Microsoft 365 Defender 있습니다.":::
 
 Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 같은 다양한 Microsoft Microsoft 365 Defender 여기에 표시됩니다.
 
@@ -50,7 +50,7 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 
 
 기본 경고 큐에서 필터를  선택하여 경고의  하위 집합을 지정할 수 있는 필터 창을 볼 수 있습니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-filter.png" alt-text="경고 큐에 대한 필터 창의 예입니다.":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-filter.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-filter.png" alt-text="사이트 포털의 경고 큐에 대한 필터 Microsoft 365 Defender 예입니다.":::
 
 다음 조건에 따라 경고를 필터링할 수 있습니다.
 
@@ -66,7 +66,7 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 
 
 기본 경고 페이지를 표시하려면 경고의 이름을 선택합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="사이트 포털에서 경고의 세부 정보 Microsoft 365 Defender 예":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="알림 포털에서 경고의 세부 정보 Microsoft 365 Defender 예입니다.":::
 
 알림 관리 창에서 기본 경고 페이지 열기 **작업을 선택할 수도** 있습니다. 
 
@@ -89,7 +89,7 @@ Microsoft 365 Defender 경고는 Microsoft Defender for Endpoint, Microsoft Defe
 :---|:---
 Office 365용 Microsoft Defender | `fa{GUID}` <br> 예: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
 엔드포인트용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
-Microsoft Defender for Identity | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+ID용 Microsoft Defender | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 ### <a name="analyze-affected-assets"></a>영향을 받는 자산 분석
@@ -115,7 +115,7 @@ Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33
 
 경고를 관리하려면 해당 행의 경고 큐에서 경고를 선택하여 경고 관리 **창을** 봐야 합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-manage.png" alt-text="경고에 대한 요약 창의 예입니다.":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-manage.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-manage.png" alt-text="사이트 포털의 경고에 대한 요약 Microsoft 365 Defender 예입니다.":::
 
 경고 **관리 창에서** 다음을 지정할 수 있습니다.
 

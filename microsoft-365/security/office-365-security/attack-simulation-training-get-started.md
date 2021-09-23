@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 계획 2 조직용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1fa10d0d29b76d1631dd349d255b6c386557b5b8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ece26ef2d41637d35afa8d719b6b785b733ca9f1
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214485"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59484158"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
 
@@ -44,9 +44,13 @@ ms.locfileid: "59214485"
 
 - 여러 Microsoft 365 구독의 공격 시뮬레이션 교육 가용성에 대한 자세한 내용은 Microsoft [Defender for Office 365 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
-- 이 문서의 절차를 수행하려면 Microsoft 365 Defender 포털 또는 Azure Active Directory 사용 권한을 할당해야 합니다. 특히 조직 관리, 보안 관리자 또는 다음 역할 중 하나에 해당해야 합니다.
-  - **공격 시뮬레이터 관리자:** 공격 시뮬레이션 캠페인의 모든 측면을 만들고 관리합니다.
-  - **공격 시뮬레이터 페이로드 작성자:** 관리자가 나중에 시작할 수 있는 공격 페이로드를 생성합니다.
+- 이 문서의 절차를 **수행하려면** Azure Active Directory 사용 권한을 할당해야 합니다. 특히, 다음 역할 중 하나의 구성원이 해야 합니다.
+  - **조직 관리**
+  - **보안 관리자**
+  - **공격 시뮬레이션 관리자:** 공격 시뮬레이션 캠페인의 모든 측면을 만들고 <sup>\*</sup> 관리합니다.
+  - **공격 페이로드 작성자:** 관리자가 나중에 시작할 수 있는 공격 <sup>\*</sup> 페이로드를 생성합니다.
+
+  <sup>\*</sup>Microsoft 365 Defender 포털에서 이 역할에 사용자를 추가하는 것은 현재 지원되지 않습니다.
 
   자세한 내용은 Microsoft 365 Defender [포털의](permissions-microsoft-365-security-center.md) 사용 권한 또는 관리자 역할 [정보를 참조하세요.](../../admin/add-users/about-admin-roles.md)
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b8fff1c53575b7de7d3c627c5bc79d00f97d6e39
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 36d4c90eb02bc9fb147ed0a28481444508be068e
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187491"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483522"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 기본 설정 설정
 
@@ -102,6 +102,23 @@ ms.locfileid: "59187491"
 |**사용 가능한 값:**|false(기본값) <p> true|
 |**Comments**|Endpoint 버전 100.67.60 이상용 Defender에서 사용할 수 있습니다.|
 |
+  
+#### <a name="run-a-scan-after-definitions-are-updated"></a>정의가 업데이트된 후 검사 실행
+
+디바이스에서 새 보안 인텔리전스 업데이트를 다운로드한 후 프로세스 검색을 시작할지 여부를 지정합니다. 이 설정을 사용하도록 설정하면 장치의 실행 중인 프로세스에서 바이러스 백신 검사가 트리거됩니다.
+
+<br>
+
+****
+
+|설명|값|
+|---|---|
+|**키**|scanAfterDefinitionUpdate|
+|**Data type**|부울|
+|**사용 가능한 값:**|false(기본값) <p> true|
+|**Comments**|Endpoint 버전 101.41.51 이상용 Defender에서 사용할 수 있습니다.|
+|
+  
 
 #### <a name="exclusion-merge-policy"></a>제외 병합 정책
 
@@ -472,6 +489,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
       "enableRealTimeProtection":true,
       "maximumOnDemandScanThreads":1,
       "passiveMode":false,
+      "scanAfterDefinitionUpdate":false,
       "exclusionsMergePolicy":"merge",
       "exclusions":[
          {
@@ -537,9 +555,9 @@ python -m json.tool mdatp_managed.json
 
 JSON이 잘 구성되면 위의 명령은 터미널에 다시 출력하고 의 종료 코드를 `0` 반환합니다. 그렇지 않으면 문제를 설명하는 오류가 표시되고 명령은 의 종료 코드를 `1` 반환합니다.
 
-## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>파일의 mdatp_managed.js올바르게 작동하고 있는지 확인
+## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>mdatp_managed.json 파일이 예상대로 작동하고 있는지 확인
 
-/etc/opt/microsoft/mdatp/managed/mdatp_managed.js제대로 작동하고 있는지 확인하려면 다음 설정 옆에 "[관리]"가 표시됩니다.
+/etc/opt/microsoft/mdatp/managed/mdatp_managed.json이 제대로 작동하고 있는지 확인하려면 다음 설정 옆에 "[관리]"가 표시됩니다.
 
 - cloud_enabled
 - cloud_automatic_sample_submission_consent
@@ -548,8 +566,8 @@ JSON이 잘 구성되면 위의 명령은 터미널에 다시 출력하고 의 �
 - automatic_definition_update_enabled
 
 > [!NOTE]
-> 이 mdatp_managed.js적용하려면 wdavdaemon을 다시 시작할 필요는 없습니다.
+> mdatp_managed.json을 적용하려면 wdavdaemon을 다시 시작할 필요는 없습니다.
 
 ## <a name="configuration-profile-deployment"></a>구성 프로필 배포
 
-엔터프라이즈의 구성 프로필을 작성한 후 엔터프라이즈에서 사용하는 관리 도구를 통해 배포할 수 있습니다. Linux의 끝점용 Defender는 */etc/opt/microsoft/mdatp/managed/mdatp_managed.js* 관리되는 구성을 읽습니다.
+엔터프라이즈의 구성 프로필을 작성한 후 엔터프라이즈에서 사용하는 관리 도구를 통해 배포할 수 있습니다. Linux의 끝점용 Defender는 */etc/opt/microsoft/mdatp/managed/mdatp_managed.json* 파일에서 관리되는 구성을 읽습니다.

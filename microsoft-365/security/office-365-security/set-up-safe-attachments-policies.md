@@ -18,12 +18,12 @@ description: 전자 메일의 악성 금고 보호하기 위해 첨부 파일 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ffe207eb1f1aab42f3a0c2639410d308fbfb64e0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8fcfb578f69062d39caa44886b63a84e926f9635
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217932"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483366"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 첨부 파일 정책 설정 Office 365
 
@@ -40,7 +40,7 @@ ms.locfileid: "59217932"
 
 첨부 파일 정책에 대한 기본 금고 없습니다. 전자 메일 금고 첨부 파일 검색을 시작하려면 이 문서에 설명된 금고 첨부 파일 정책을 하나 이상 만들어야 합니다.
 
-Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 Exchange Online 사서함이 있는 적합한 Microsoft 365 조직, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell( Office 365 추가 기능 구독용 Defender)에서 Office 365 첨부 파일 정책을 구성할 수 있습니다. 금고
+Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 Microsoft 365 사서함이 있는 Microsoft 365 조직에 대해 Exchange Online 첨부 파일 정책을 구성할 수 있습니다. 없는 조직의 경우 독립 실행형 EOP PowerShell을 사용할 수 있습니다. 금고 Exchange Online 추가 기능 구독용 Defender를 Office 365)
 
 첨부 파일 정책의 금고 요소는 다음입니다.
 
@@ -118,6 +118,10 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
      - **동적 배달(미리 보기 기능)**
 
      이러한 값은 첨부 파일 [정책 금고 설명되어 있습니다.](safe-attachments.md#safe-attachments-policy-settings)
+
+   - **Quarantine policy**: 금고 Attachments(차단, 바꾸기 또는 동적 배달)에 의해 검역되는 메시지에 적용되는 금고 **정책을 선택합니다.** Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+
+     값을 비워 두면 기본 검지 정책이 사용됩니다(첨부 파일에서 전자 메일 검색을 위한 AdminOnlyAccessPolicy를 금고). 나중에 첨부 파일 금고 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
 
    - **검색된** 첨부 파일이 있는 메시지 리디렉션: 리디렉션 사용 을 선택하면 지정된 전자 메일 주소 상자에 **차단,** 모니터링 또는 대체된 첨부 파일이 포함된 전자 메일 주소를 지정하여 분석 및 조사를 위해 맬웨어 첨부 파일이 포함된 메시지를 보낼 수 있습니다. 
 
@@ -237,12 +241,13 @@ PowerShell에서 금고 첨부 파일 정책을 만드는 과정은 다음 두 �
 안전한 첨부 파일 정책을 만들 수 있도록 다음 구문을 사용 합니다.
 
 ```PowerShell
-New-SafeAttachmentPolicy -Name "<PolicyName>" -Enable $true [-AdminDisplayName "<Comments>"] [-Action <Allow | Block | Replace | DynamicDelivery>] [-Redirect <$true | $false>] [-RedirectAddress <SMTPEmailAddress>] [-ActionOnError <$true | $false>]
+New-SafeAttachmentPolicy -Name "<PolicyName>" -Enable $true [-AdminDisplayName "<Comments>"] [-Action <Allow | Block | Replace | DynamicDelivery>] [-Redirect <$true | $false>] [-RedirectAddress <SMTPEmailAddress>] [-ActionOnError <$true | $false>] [-QuarantineTag <QuarantinePolicyName>]
 ```
 
 이 예에서는 다음 값을 가지는 Contoso All이라는 안전한 첨부 파일 정책을 만듭니다.
 
 - 문서 검색을 금고 맬웨어가 포함된 것으로 확인된 메시지를 차단합니다(Action  매개 변수를 사용하지 않습니다. 기본값은 `Block` 입니다).
+- _QuarantineTag_ 매개 변수를 사용하지 않는 것이기 때문에 기본 검지 정책(AdminOnlyAccessPolicy)이 사용됩니다. [](quarantine-policies.md)
 - 리디렉션이 사용하도록 설정되어 있으며 맬웨어가 포함된 것으로 확인된 메시지는 분석 및 조사를 위해 sec-ops@contoso.com 전송됩니다.
 - 금고 첨부 파일 검색을 사용할 수 없는 경우 메시지를 배달하지 _않습니다(ActionOnError_ 매개 변수를 사용하지 않습니다. 기본값은 `$true` 입니다).
 
@@ -251,6 +256,9 @@ New-SafeAttachmentPolicy -Name "Contoso All" -Enable $true -Redirect $true -Redi
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [New-SafeAttachmentPolicy를 참조하십시오.](/powershell/module/exchange/new-safeattachmentpolicy)
+
+> [!NOTE]
+> 안전한 첨부 파일 정책에 사용할 검지 정책을 지정하는 자세한 지침은 PowerShell을 사용하여 첨부 파일 정책에서 금고 [지정을 참조하세요.](quarantine-policies.md#safe-attachments-policies-in-powershell) [](quarantine-policies.md)
 
 #### <a name="step-2-use-powershell-to-create-a-safe-attachment-rule"></a>2단계: PowerShell을 사용하여 안전한 첨부 파일 규칙 만들기
 
@@ -340,6 +348,9 @@ Set-SafeAttachmentPolicy -Identity "<PolicyName>" <Settings>
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-SafeAttachmentPolicy를 참조하십시오.](/powershell/module/exchange/set-safeattachmentpolicy)
+
+> [!NOTE]
+> 안전한 첨부 파일 정책에 사용할 검지 정책을 지정하는 자세한 지침은 PowerShell을 사용하여 첨부 파일 정책에서 금고 [지정을 참조하세요.](quarantine-policies.md#safe-attachments-policies-in-powershell) [](quarantine-policies.md)
 
 ### <a name="use-powershell-to-modify-safe-attachment-rules"></a>PowerShell을 사용하여 안전한 첨부 파일 규칙 수정
 

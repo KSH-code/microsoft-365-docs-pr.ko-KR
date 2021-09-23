@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 824d32b07acbba0d19a5f2afdafffcbba53baeeb
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 0f0bffad66588c758d4ea8c59af365362504d7f4
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401041"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483333"
 ---
 # <a name="incident-response-with-microsoft-365-defender"></a>인시던트에 대한 Microsoft 365 Defender
 
@@ -180,6 +180,17 @@ Microsoft 제품 전반의 SecOps에 대한 자세한 내용은 다음 리소스
 - [기능](/security/compass/security-operations-capabilities)
 - [모범 사례](/security/compass/security-operations)
 - [비디오 및 슬라이드](/security/compass/security-operations-videos-and-decks)
+
+## <a name="training-for-security-analysts"></a>보안 분석가를 위한 교육
+
+Microsoft Learn의 이 학습 모듈을 사용하여 인시던트 및 경고를 관리하는 Microsoft 365 Defender 방법을 이해합니다.
+
+|교육:|Microsoft 365 Defender로 하는 인시던트 조사|
+|---|---|
+|![교육 아이콘을 Microsoft 365 Defender 조사합니다.](../../media/incidents-overview/m365-defender-address-security-investigation.svg)| Microsoft 365 Defender 서비스의 위협 데이터를 통합하고 AI를 사용하여 인시던트 및 경고에 결합합니다. 인시던트와 후속 조치와 해결을 위한 관리 사이의 시간을 최소화하는 방법을 배워보세요. <p> 27분 - 6단위 |
+
+> [!div class="nextstepaction"]
+> [시작 >](/learn/modules/defender-investigate-incidents/)
 
 ## <a name="next-steps"></a>다음 단계
 

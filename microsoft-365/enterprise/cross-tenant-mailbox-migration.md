@@ -15,12 +15,12 @@ ms.custom:
 - admindeeplinkMAC
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 46e0090106ce87e130cd78c7a9f6e844bd2de187
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f4bf0a03db22df2c0e054bea86a8b65c5d77f28b
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218592"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482810"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -92,33 +92,43 @@ ms.locfileid: "59218592"
 
 #### <a name="step-by-step-instructions-for-the-target-tenant-admin"></a>대상 테넌트 관리자에 대한 단계별 지침
 
-1. SetupCrossTenantRelationshipForTargetTenant.ps1 리포지토리에서 대상 테넌트 설정에 대한 GitHub [스크립트를 다운로드합니다.](https://github.com/microsoft/cross-tenant/releases/tag/Preview)
+1. SetupCrossTenantRelationshipForTargetTenant.ps1 리포지토리에서 대상 테넌트 설정에 대한 GitHub [스크립트를 다운로드합니다.](https://aka.ms/LatestRelease) 
 2. 스크립트를 실행할 컴퓨터에 SetupCrossTenantRelationshipForTargetTenant.ps1(스크립트)를 저장합니다.
 3. 대상 테넌트에 대한 원격 PowerShell 연결을 Exchange Online. Azure Key Vault 저장소 및 인증서, 사서함 응용 프로그램 이동, EXO 마이그레이션 끝점 및 EXO 조직 관계를 구성하기 위해 배포 스크립트를 실행하기 위해 필요한 사용 권한이 있는지도 확인하십시오.
 4. 파일 폴더 디렉터리를 스크립트 위치로 변경하거나 스크립트가 현재 원격 PowerShell 세션의 위치에 저장되어 있는지 확인합니다.
 5. 다음 매개 변수와 값으로 스크립트를 실행합니다.
 
-   |매개 변수|값|필수 또는 선택 사항
-   |---|---|---|
-   |-TargetTenantDomain|대상 테넌트 도메인(예: fabrikam \. onmicrosoft.com.|필수|
-   |-ResourceTenantDomain|원본 테넌트 도메인(예: contoso \. onmicrosoft.com.|필수|
-   |-ResourceTenantAdminEmail|원본 테넌트 관리자의 전자 메일 주소입니다. 대상 관리자가 보낸 사서함 마이그레이션 응용 프로그램 사용에 동의하는 원본 테넌트 관리자입니다. 이 관리자는 응용 프로그램에 대한 전자 메일 초대를 받게 됩니다.|필수|
-   |-ResourceTenantId|원본 테넌트 조직 ID(GUID)입니다.|필수|
-   |-SubscriptionId|리소스를 만드는 데 사용할 Azure 구독입니다.|필수|
-   |-ResourceGroup|키 자격 증명 모음을 포함하거나 포함할 Azure 리소스 그룹 이름입니다.|필수|
-   |-KeyVaultName|사서함 마이그레이션 응용 프로그램 인증서/비밀을 저장할 Azure Key Vault 인스턴스입니다.|필수|
-   |-CertificateName|키 자격 증명 모음에서 인증서를 생성하거나 검색할 때의 인증서 이름입니다.|필수|
-   |-CertificateSubject|Azure Key Vault 인증서 주체 이름(예: CN=contoso_fabrikam.|필수|
-   |-AzureResourceLocation|Azure 리소스 그룹 및 키 자격 증명 모음의 위치입니다.|필수|
-   |-ExistingApplicationId|이미 만들어진 경우 사용할 메일 마이그레이션 응용 프로그램입니다.|선택|
-   |-AzureAppPermissions|사서함 마이그레이션 응용 프로그램에 필요한 사용 권한(예: Exchange 또는 MSGraph(사서함 이동을 위한 Exchange, MSGraph를 사용하여 리소스 테넌트에 동의 링크 초대를 보내기 위한 경우)|필수|
-   |-UseAppAndCertGeneratedForSendingInvitation|원본 테넌트 관리자에게 동의 링크 초대를 보내는 데 사용할 마이그레이션을 위해 만든 응용 프로그램을 사용하는 매개 변수입니다. 이 메시지가 없는 경우 대상 관리자의 자격 증명을 사용하여 Azure 초대 관리자에 연결하고 초대를 대상 관리자로 보낼지 묻는 메시지가 표시됩니다.|선택|
-   |-KeyVaultAuditStorageAccountName|Key Vault의 감사 로그가 저장될 저장소 계정입니다.|선택|
-   |-KeyVaultAuditStorageResourceGroup|키 자격 증명 모음 감사 로그를 저장하기 위한 저장소 계정이 포함된 리소스 그룹입니다.|선택|
-   ||||
+    | 매개 변수                                   | 값                                                                                                                                                                                                                                                                               | 필수 또는 선택 사항 |
+    | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+    | -TargetTenantDomain                         | 대상 테넌트 도메인(예: fabrikam \. onmicrosoft.com.                                                                                                                                                                                                                            | 필수             |
+    | -ResourceTenantDomain                       | 원본 테넌트 도메인(예: contoso \. onmicrosoft.com.                                                                                                                                                                                                                             | 필수             |
+    | -ResourceTenantAdminEmail                   | 원본 테넌트 관리자의 전자 메일 주소입니다. 대상 관리자가 보낸 사서함 마이그레이션 응용 프로그램 사용에 동의하는 원본 테넌트 관리자입니다. 이 관리자는 응용 프로그램에 대한 전자 메일 초대를 받게 됩니다.                                    | 필수             |
+    | -ResourceTenantId                           | 원본 테넌트의 테넌트 ID입니다. 예를 들어 contoso 테넌트의 Azure AD 테넌트 [ID는](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant) onmicrosoft.com \. 있습니다.                                                                 | 필수             |
+    | -SubscriptionId                             | 리소스를 만드는 데 사용할 Azure 구독입니다.                                                                                                                                                                                                                               | 필수             |
+    | -ResourceGroup                              | 키 자격 증명 모음을 포함하거나 포함할 Azure 리소스 그룹 이름입니다.                                                                                                                                                                                                              | 필수             |
+    | -KeyVaultName                               | 사서함 마이그레이션 응용 프로그램 인증서/비밀을 저장할 Azure Key Vault 인스턴스입니다.                                                                                                                                                                                     | 필수             |
+    | -CertificateName                            | Key Vault에서 인증서를 생성하거나 검색할 때의 인증서 이름입니다.                                                                                                                                                                                                         | 필수             |
+    | -CertificateSubject                         | Azure Key Vault 인증서 주체 이름(예: CN=contoso_fabrikam.                                                                                                                                                                                                              | 필수             |
+    | -AzureResourceLocation                      | Azure 리소스 그룹 및 Key Vault의 위치(표시 이름)입니다. 실행하여 `Get-AzResourceProvider -ProviderNamespace Microsoft.KeyVault | Select-Object -ExpandProperty Locations -Unique` 사용 가능한 이름을 볼 수 있습니다.                                                     | 필수             |
+    | -ExistingApplicationId                      | 이미 만들어진 경우 사용할 메일 마이그레이션 응용 프로그램입니다.                                                                                                                                                                                                                       | 선택             |
+    | -AzureAppPermissions                        | 사서함 마이그레이션 응용 프로그램에 필요한 사용 권한(예: Exchange 또는 MSGraph(사서함 이동을 위한 Exchange, MSGraph를 사용하여 리소스 테넌트에 동의 링크 초대를 보내기 위한 경우)                                                    | 필수             |
+    | -UseAppAndCertGeneratedForSendingInvitation | 원본 테넌트 관리자에게 동의 링크 초대를 보내는 데 사용할 마이그레이션을 위해 만든 응용 프로그램을 사용하는 매개 변수입니다. 이 메시지가 없는 경우 대상 관리자의 자격 증명을 사용하여 Azure 초대 관리자에 연결하고 초대를 대상 관리자로 보낼지 묻는 메시지가 표시됩니다. | 선택             |
+    | -KeyVaultAuditStorageAccountName            | Key Vault의 감사 로그가 저장될 저장소 계정입니다.                                                                                                                                                                                                                   | 선택             |
+    | -KeyVaultAuditStorageResourceGroup          | 키 자격 증명 모음 감사 로그를 저장하기 위한 저장소 계정이 포함된 리소스 그룹입니다.                                                                                                                                                                                              | 선택             |
+    | -KeyVaultAuditStorageAccountLocation        | `Required if using a KeyVaultAuditStorage Parameter`계정의 위치를 Storage 지정합니다.                                                                                                                                                                                 | 선택             |
+    | -KeyVaultAuditStorageAccountSKU             | `Required if using a KeyVaultAuditStorage Parameter`계정의 SKU 이름을 Storage.                                                                                                                                                                                 | 선택             |
+    |                                             | Standard_LRS. 로컬 중복 저장소.                                                                                                                                                                                                                                            |                      |
+    |                                             | Standard_ZRS. 영역 중복 저장소.                                                                                                                                                                                                                                               |                      |
+    |                                             | Standard_GRS. 지리적 중복 저장소.                                                                                                                                                                                                                                                |                      |
+    |                                             | Standard_RAGRS. 액세스 지역 중복 저장소를 읽습니다.                                                                                                                                                                                                                                  |                      |
+    |                                             | Premium_LRS. Premium 중복된 저장소를 만들 수 있습니다.                                                                                                                                                                                                                                     |                      |
+    |                                             | Premium_ZRS. Premium 중복 저장소를 제공합니다.                                                                                                                                                                                                                                        |                      |
+    |                                             | Standard_GZRS - 지역 중복 영역 중복 저장소.                                                                                                                                                                                                                               |                      |
+    |                                             | Standard_RAGZRS - 액세스 지리적 중복 영역 중복 저장소를 읽습니다.                                                                                                                                                                                                                 |                      |
+    |                                             |                                                                                                                                                                                                                                                                                     |                      |
 
-    > [!NOTE]
-    > 스크립트를 실행하기 전에 Azure AD PowerShell 모듈을 설치해야 합니다. 설치 단계는 [여기를](/powershell/azure/install-az-ps) 참조하세요.
+    >[!Note]
+    > 스크립트를 실행하기 전에 Azure AD PowerShell 모듈을 설치해야 합니다. 설치 단계는 ![ 여기를 ](/powershell/azure/install-az-ps?view=azps-5.1.0) 참조하세요.
 
 6. 이 스크립트는 일시 중지된 후 이 프로세스 중에 만들어진 Exchange 사서함 마이그레이션 응용 프로그램에 동의하거나 동의할 것을 요청합니다. 예를 들면 다음과 같습니다.
 
@@ -187,14 +197,14 @@ ms.locfileid: "59218592"
 
 7. 다음 필수 매개 변수와 값을 사용하여 스크립트를 실행합니다.
 
-   |매개 변수|값|
-   |---|---|
-   |-SourceMailboxMovePublishedScopes|마이그레이션 범위에 있는 ID/사서함에 대해 원본 테넌트에서 만든 메일 사용이 가능한 보안 그룹입니다.|
-   |-ResourceTenantDomain|원본 테넌트 도메인 이름(예: contoso \. onmicrosoft.com.|
-   |-ApplicationId|마이그레이션에 사용되는 응용 프로그램의 Azure 응용 프로그램 ID(GUID)입니다. Azure Portal(Azure AD, Enterprise 응용 프로그램, 앱 이름, 응용 프로그램 ID)을 통해 제공되거나 초대 전자 메일에 포함된 응용 프로그램 ID입니다.|
-   |-TargetTenantDomain|대상 테넌트 도메인 이름(예: fabrikam \. onmicrosoft.com.|
-   |-TargetTenantId|대상 테넌트의 테넌트 ID입니다. 예를 들어 contoso 테넌트의 Azure AD 테넌트 ID는 onmicrosoft.com \. 있습니다.|
-   |||
+    | 매개 변수                         | 값                                                                                                                                                                                                                 |
+    | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | -SourceMailboxMovePublishedScopes | 마이그레이션 범위에 있는 ID/사서함에 대해 원본 테넌트에서 만든 메일 사용이 가능한 보안 그룹입니다.                                                                                                    |
+    | -ResourceTenantDomain             | 원본 테넌트 도메인 이름(예: contoso \. onmicrosoft.com.                                                                                                                                                          |
+    | -ApplicationId                    | 마이그레이션에 사용되는 응용 프로그램의 Azure 응용 프로그램 ID(GUID)입니다. Azure Portal(Azure AD, Enterprise 응용 프로그램, 앱 이름, 응용 프로그램 ID)을 통해 제공되거나 초대 전자 메일에 포함된 응용 프로그램 ID입니다. |
+    | -TargetTenantDomain               | 대상 테넌트 도메인 이름(예: fabrikam \. onmicrosoft.com.                                                                                                                                                         |
+    | -TargetTenantId                   | 대상 테넌트의 테넌트 ID입니다. 예를 들어 fabrikam 테넌트의 Azure AD 테넌트 [ID는](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant) onmicrosoft.com \. 있습니다.  |
+    |                                   |                                                                                                                                                                                                                       |
 
     예를 들면 다음과 같습니다.
 
@@ -312,39 +322,39 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
       - 원본 사서함의 레거시 smtp 프록시 주소를 대상 MailUser에 추가할 수 없습니다. 예를 들어 테넌트 개체의 MEU에 contoso.com 유지 fabrikam.onmicrosoft.com 없습니다. 도메인은 하나의 Azure AD 또는 Exchange Online 연결됩니다.
 
      대상  MailUser 개체의 예:
-
-     |특성|값|
-     |---|---|
-     |별칭|라라N|
-     |RecipientType|MailUser|
-     |RecipientTypeDetails|MailUser|
-     |UserPrincipalName|LaraN@northwintraders.onmicrosoft.com|
-     |PrimarySmtpAddress|Lara.Newton@northwind.com|
-     |ExternalEmailAddress|SMTP:LaraN@contoso.onmicrosoft.com|
-     |ExchangeGuid|1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8|
-     |LegacyExchangeDN|/o=First Organization/ou=Exchange 관리 그룹|
-     ||(FYDIBOHF23SPDLT)/cn=Recipients/cn=74e5385fce4b46d19006876949855035Lara|
-     |EmailAddresses|x500:/o=first Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c8190|
-     ||7273f1f9-Lara|
-     ||smtp:LaraN@northwindtraders.onmicrosoft.com|
-     ||SMTP:Lara.Newton@northwind.com|
-     |||
+ 
+     | 특성            | 값                                                                                                                   |
+     | -------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+     | 별칭                | 라라N                                                                                                                   |
+     | RecipientType        | MailUser                                                                                                                |
+     | RecipientTypeDetails | MailUser                                                                                                                |
+     | UserPrincipalName    | LaraN@northwintraders.onmicrosoft.com                                                                                   |
+     | PrimarySmtpAddress   | Lara.Newton@northwind.com                                                                                               |
+     | ExternalEmailAddress | SMTP:LaraN@contoso.onmicrosoft.com                                                                                      |
+     | ExchangeGuid         | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                    |
+     | LegacyExchangeDN     | /o=First Organization/ou=Exchange 관리 그룹                                                                  |
+     |                      | (FYDIBOHF23SPDLT)/cn=Recipients/cn=74e5385fce4b46d19006876949855035Lara                                                 |
+     | EmailAddresses       | x500:/o=first Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c8190 |
+     |                      | 7273f1f9-Lara                                                                                                           |
+     |                      | smtp:LaraN@northwindtraders.onmicrosoft.com                                                                             |
+     |                      | SMTP:Lara.Newton@northwind.com                                                                                          |
+     |                      |                                                                                                                         |
 
      원본 **사서함 개체의** 예:
 
-     |특성|값|
-     |---|---|
-     |별칭|라라N|
-     |RecipientType|UserMailbox|
-     |RecipientTypeDetails|UserMailbox|
-     |UserPrincipalName|LaraN@contoso.onmicrosoft.com|
-     |PrimarySmtpAddress|Lara.Newton@contoso.com|
-     |ExchangeGuid|1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8|
-     |LegacyExchangeDN|/o=First Organization/ou=Exchange 관리 그룹|
-     ||(FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9Lara|
-     |EmailAddresses|smtp:LaraN@contoso.onmicrosoft.com
-     ||SMTP:Lara.Newton@contoso.com|
-     |||
+     | 특성            | 값                                                                   |
+     | -------------------- | ----------------------------------------------------------------------- |
+     | 별칭                | 라라N                                                                   |
+     | RecipientType        | UserMailbox                                                             |
+     | RecipientTypeDetails | UserMailbox                                                             |
+     | UserPrincipalName    | LaraN@contoso.onmicrosoft.com                                           |
+     | PrimarySmtpAddress   | Lara.Newton@contoso.com                                                 |
+     | ExchangeGuid         | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                    |
+     | LegacyExchangeDN     | /o=First Organization/ou=Exchange 관리 그룹                  |
+     |                      | (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9Lara |
+     | EmailAddresses       | smtp:LaraN@contoso.onmicrosoft.com                                      |
+     |                      | SMTP:Lara.Newton@contoso.com                                            |
+     |                      |                                                                         |
 
    - 추가 특성은 하이브리드 쓰기 Exchange 이미 포함되어 있을 수 있습니다. 그렇지 않은 경우 포함해야 합니다.
    - msExchBlockedSendersHash – 클라이언트에서 온라인에서 안전한 수신 및 차단된 보낸 사람 데이터를 다시 프레미스 Active Directory에 기록합니다.
@@ -427,11 +437,19 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 > [!NOTE]
 > CSV 파일의 전자 메일 주소는 원본 테넌트가 아니라 대상 테넌트에 지정된 주소입니다.
 
+:::image type="content" source="../media/tenant-to-tenant-mailbox-move/csv-sample.png" alt-text="CSV 샘플":::
+
 테넌트 간 옵션을 선택할 때 마이그레이션 일괄 처리 Exchange 관리 센터에서 마이그레이션 일괄 처리 전송도 지원됩니다.
 
 #### <a name="update-on-premises-mailusers"></a>On-premises MailUsers 업데이트
 
 사서함이 원본에서 대상으로 이동한 후 원본 및 대상 모두에 대한 새 targetAddress로 업데이트되는 On-premises 메일 사용자를 확인해야 합니다. 예제에서 이동에 사용되는 targetDeliveryDomain은 에 **contoso.onmicrosoft.com.** 이 targetAddress로 메일 사용자를 업데이트합니다.
+
+### <a name="test-mailbox"></a>사서함 테스트
+
+`Test-MigrationServerAvailability -Endpoint <EndPoint> -TestMailbox <SMTP ADDRESS>`
+
+TestMailbox 매개 변수는 대상 서버에서 사서함을 지정합니다. 이 cmdlet은 대상 서버에 있는 관리자 계정의 자격 증명을 사용하여 이 사서함에 액세스합니다. 기본 SMTP 주소를 -TestMailbox 매개 변수 값으로 사용합니다.  
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 
@@ -696,41 +714,38 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
     ------------------        -------------------------               --------------------
     proxytest@fabrikam.com    e2513482-1d5b-4066-936a-cbc7f8f6f817    SMTP:proxytest@fabrikam.com
     ```
+    
+   - msExchRemoteRecipientType이 8(DeprovisionMailbox)로 설정되어 있는 경우 대상 테넌트로 마이그레이션된 사내 메일 사용자에 대해 Azure의 프록시 스크러빙 논리는 비공식 도메인을 제거하고 primarySMTP를 소유 도메인으로 다시 설정합니다. 프록시 스크럽 논리는 더 이상 적용되지 않습니다. <br/><br>다음은 서비스 계획이 포함된 가능한 서비스 계획의 전체 Exchange Online.
 
-    - msExchRemoteRecipientType이 8(DeprovisionMailbox)로 설정되어 있는 경우 대상 테넌트로 마이그레이션된 사내 메일 사용자에 대해 Azure의 프록시 스크러빙 논리는 비공식 도메인을 제거하고 primarySMTP를 소유 도메인으로 다시 설정합니다. 프록시 스크럽 논리는 더 이상 적용되지 않습니다.
-
-      다음은 서비스 계획이 포함된 가능한 서비스 계획의 전체 Exchange Online.
-
-      |이름|
-      |---|
-      |Advanced eDiscovery Storage(500GB)|
-      |고객 Lockbox|
-      |데이터 손실 방지|
-      |Exchange Enterprise CAL Services(EOP, DLP)|
-      |Exchange Essentials|
-      |Exchange Foundation|
-      |Exchange Online(P1)|
-      |Exchange Online(계획 1)|
-      |Exchange Online(계획 2)|
-      |Exchange Online용 Exchange Online Archiving|
-      |Exchange Server용 Exchange Online Archiving|
-      |Exchange Online 비활성 사용자 추가 기능|
-      |Exchange Online Kiosk|
-      |Exchange Online Multi-Geo|
-      |Exchange Online 요금제 1|
-      |Exchange Online POP|
-      |Exchange Online Protection|
-      |정보 장벽|
-      |Office 365 보호 - Premium|
-      |Office 365 보호 - 표준|
-      |Insights By MyAnalytics|
-      |Microsoft 365 고급 감사|
-      |Microsoft Bookings|
-      |Microsoft 비즈니스 센터|
-      |Microsoft MyAnalytics(전체)|
-      |Office 365 고급 eDiscovery|
-      |Microsoft Defender for Office 365(계획 1)|
-      |Microsoft Defender for Office 365(계획 2)|
-      |Office 365 권한 있는 액세스 관리|
-      |Premium 암호화의 Office 365|
-      ||
+   | 이름                                             |
+   | ------------------------------------------------ |
+   | Advanced eDiscovery Storage(500GB)              |
+   | 고객 Lockbox                                 |
+   | 데이터 손실 방지                             |
+   | Exchange Enterprise CAL Services(EOP, DLP)      |
+   | Exchange Essentials                              |
+   | Exchange Foundation                              |
+   | Exchange Online(P1)                             |
+   | Exchange Online(계획 1)                         |
+   | Exchange Online(계획 2)                         |
+   | Exchange Online용 Exchange Online Archiving    |
+   | Exchange Server용 Exchange Online Archiving    |
+   | Exchange Online 비활성 사용자 추가 기능             |
+   | Exchange Online Kiosk                            |
+   | Exchange Online Multi-Geo                        |
+   | Exchange Online 요금제 1                           |
+   | Exchange Online POP                              |
+   | Exchange Online Protection                       |
+   | 정보 장벽                             |
+   | Office 365 보호 - Premium  |
+   | Office 365 보호 - 표준 |
+   | Insights By MyAnalytics                          |
+   | Microsoft 365 고급 감사                  |
+   | Microsoft Bookings                               |
+   | Microsoft 비즈니스 센터                        |
+   | Microsoft MyAnalytics(전체)                     |
+   | Office 365 고급 eDiscovery                   |
+   | Microsoft Defender for Office 365(계획 1)       |
+   | Microsoft Defender for Office 365(계획 2)       |
+   | Office 365 권한 있는 액세스 관리          |
+   | Premium 암호화의 Office 365                 |

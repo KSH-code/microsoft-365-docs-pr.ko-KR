@@ -13,16 +13,19 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: SharePoint Syntex 라이선싱에 대해 알아보기
-ms.openlocfilehash: 1ab7ab290ca00ba6b47510dfc43f18412b528b0c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3c44545136a7ca67a63315a8378389212a160373
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210812"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59484050"
 ---
 # <a name="licensing-for-sharepoint-syntex"></a>SharePoint Syntex에 대한 라이선싱
 
 SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있어야 하고 각 Syntex 사용자에게 라이선스가 있어야 합니다. 나중에 SharePoint Syntex 구독을 취소하거나 평가판이 만료되면 사용자는 더 이상 문서 이해 또는 양식 처리 모델을 생성, 게시 또는 실행할 수 없습니다. 또한 용어 저장소 보고서, SKOS 분류/분류법 가져오기 및 콘텐츠 유형 푸시는 더 이상 사용할 수 없습니다. 모델, 콘텐츠 또는 메타데이터는 삭제되지 않으며 사이트 권한은 변경되지 않습니다.
+ 
+> [!NOTE] 
+> SharePoint Syntex는 추가 라이선스이며 사용자에게 Microsoft 365 라이선스도 필요합니다.
  
 ## <a name="tasks-requiring-a-license"></a>라이선스가 필요한 작업
  
@@ -33,7 +36,7 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
 - 문서 이해 또는 양식 처리 모델이 적용된 라이브러리에 콘텐츠 업로드
 - 주문형 문서 이해 모델 실행
 - 문서 이해 또는 양식 처리 모델을 사용하여 파일에서 추출한 메타데이터를 봅니다. (사용자는 파일이 이동되는 위치에 관계없이 처리된 파일과 연결된 메타데이터에 액세스하고 사용할 수 있는 라이선스가 있어야 합니다)
-- 프리미엄 분류 서비스를 사용합니다. (프리미엄 분류 서비스는 SKOS 기반 용어 집합 가져오기로 구성되며, 엔터프라이즈 콘텐츠 형식을 허브 관련 사이트 및 용어 저장소 보고서에 푸시합니다)
+- 프리미엄 분류 서비스를 사용하세요(프리미엄 분류 서비스는 SKOS 기반 용어 집합 가져오기, 엔터프라이즈 콘텐츠 유형을 허브 관련 사이트로 푸시, 용어 저장소 보고서로 구성됩니다).
 
 라이선스가 없는 사용자는 콘텐츠 센터에 대한 액세스 권한을 부여받을 수 있으며 그곳에서 문서 이해 모델을 만들 수 있지만 문서 라이브러리에 적용할 수는 없습니다.
  

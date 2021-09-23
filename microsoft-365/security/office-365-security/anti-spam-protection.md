@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 방지)에서 스팸을 방지하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9b960894b6923633489c005ee75307ec02b248f5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dcc96cf6ad7b7c6b43f4bc232cf0be67b72c1615
+ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218092"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59483786"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 
@@ -57,7 +57,7 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 - **연결** 필터링: IP 허용 목록, IP 차단 목록 및 수신 허용 목록을 통해 인바운드  전자 메일 연결 초기에 양호하고 잘못된 전자 메일 원본 서버(Microsoft에서 유지 관리하는 신뢰할 수 있는 보낸 사람 목록)를 식별합니다. 연결 필터 정책에서 이러한 설정을 구성합니다. 자세한 내용은 [Configure connection filtering 을(를) 통해 자세히 알아보도록 합니다.](configure-the-connection-filter-policy.md)
 
-- **스팸 필터링(콘텐츠 필터링)**: EOP는 스팸 필터링 판정 **스팸,** **높은** 지수 **스팸,**  대량 전자 **메일,** 피싱 전자 메일 및 높은 지수 피싱 전자 메일을 사용하여 메시지를 분류합니다. 이러한 판정에 따라 수행할 작업을 구성할 수 있으며 배달되지 않고 검사된 메시지에 대한 최종 사용자 알림 옵션을 구성할 수 있습니다. 자세한 내용은 [Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
+- **스팸 필터링(콘텐츠 필터링)**: EOP는 스팸 필터링 판정 **스팸,** **높은** 지수 **스팸,**  대량 전자 **메일,** 피싱 전자 메일 및 높은 지수 피싱 전자 메일을 사용하여 메시지를 분류합니다. 이러한 판정에 따라 수행할 작업을 구성하고, 배달되지 않고 검사된 메시지에 대한 최종 사용자 알림 옵션을 구성할 수 있으며, 사용자가 검사 정책을 사용하여 메시지에 대해 수행할 수 있는 작업을 구성할 수 [있습니다.](quarantine-policies.md) 자세한 내용은 [Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
 
   > [!NOTE]
   > 기본적으로 스팸 필터링은 스팸으로 표시된 메시지를 받는 사람의 정크 메일 폴더로 보내도록 구성됩니다. 그러나 EOP가 Exchange 사서함을 보호하는 하이브리드 환경에서는 메시지에 추가된 EOP 스팸 헤더를 인식하도록 Exchange 조직에서 두 개의 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
@@ -68,11 +68,11 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 ## <a name="manage-errors-in-spam-filtering"></a>스팸 필터링에서 오류 관리
 
-좋은 메시지를 스팸(가음성)으로 식별하거나 스팸을 받은 편지함으로 배달할 수 있습니다. 다음 섹션의 제안을 사용하여 발생된 문제를 찾고 향후 이러한 문제를 방지할 수 있습니다.
+좋은 메시지를 스팸(가음성)으로 식별하거나, 스팸을 받은 편지함(거짓 부정)으로 배달할 수 있습니다. 다음 섹션의 제안을 사용하여 발생된 문제를 찾고 향후 이러한 문제를 방지할 수 있습니다.
 
 두 시나리오에 적용되는 몇 가지 모범 사례는 다음과 같습니다.
 
-- 항상 잘못 된 메시지를 Microsoft에 제출합니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
+- 항상 Microsoft에 잘못 배포된 메시지를 보고합니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 - **스팸 방지** 메시지 헤더 검사: 이러한 값은 메시지가 스팸으로 표시된 이유 또는 스팸 필터링을 건너뛴 이유를 알 수 있습니다. 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요.
 
