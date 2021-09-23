@@ -19,13 +19,13 @@ ms.custom:
 - AdminTemplateSet
 search.appverid: MET150
 description: 사용자 라이선스가 25개 미만인 경우 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다.
-ms.date: 04/08/2021
-ms.openlocfilehash: 900fd5f544a405b5f337623ba35a353cefaf9bab
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.date: 09/16/2021
+ms.openlocfilehash: 932cac44b9bf1b8632116d544cf4b33c0cb19a27
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221224"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59481039"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -37,7 +37,9 @@ ms.locfileid: "59221224"
 *환불:* 일할 계산된 크레딧은 다음 청구 주기 안에 반환됩니다.
 
 > [!NOTE]
-> Microsoft 365 Business Premium과 같은 동일한 제품에 대한 구독이 여러 개 있는 경우 구독 중 하나를 취소해도 다른 구독 내에서 구입한 라이선스 또는 서비스에 영향을 미치지 않습니다.
+> 
+> - Microsoft 365 Business Premium과 같은 동일한 제품에 대한 구독이 여러 개 있는 경우 구독 중 하나를 취소해도 다른 구독 내에서 구입한 라이선스 또는 서비스에 영향을 미치지 않습니다.
+> - 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지난 경우 되풀이 청구를 해제하여 기간이 끝날 때 구독을 취소하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -66,7 +68,9 @@ ms.locfileid: "59221224"
 ::: moniker-end
 
 2. 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
+
 3. **구독 취소** 창에서 취소 이유를 선택합니다. 또는 피드백을 입력합니다.
+
 4. **저장** 을 선택합니다.
 
 이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독을 취소할 경우 나타나는 결과에 대한 자세한 내용은 [내 Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.

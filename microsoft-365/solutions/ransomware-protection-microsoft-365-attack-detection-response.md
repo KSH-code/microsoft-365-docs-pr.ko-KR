@@ -17,16 +17,18 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
 description: Microsoft 365 Defender 및 해당 보안 신호 원본을 사용하여 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호합니다.
-ms.openlocfilehash: 7380e546733a299e7cf888946d502c43074822f5
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 09b2e7930d6fbe0295dcf8343a559a19b680f547
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444668"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59481099"
 ---
 # <a name="step-2-deploy-attack-detection-and-response"></a>2단계. 공격 탐지 및 대응 배포
 
-랜섬웨어 공격 탐지 및 대응을 위해 이러한 도구를 사용하도록 허용, 구성 및 사용합니다.
+Microsoft 365 테넌트에서 랜섬웨어 공격 탐지 및 대응을 위해 강력하게 권장되는 첫 번째 단계로 Microsoft 365 Defender의 기능과 기능을 평가할 수 있는 [평가판 환경을 설정](/microsoft-365/security/defender/eval-overview)합니다.
+
+자세한 내용은 이러한 리소스를 참조하세요.
 
 | 기능 | 설명 | 시작 위치 | 검색 및 응답에 사용하는 방법 |
 |:-------|:-----|:-------|:-------|
@@ -76,8 +78,6 @@ ms.locfileid: "59444668"
 - Microsoft Cloud App Security
 
 Microsoft 365 Defender는 보안 분석가가 랜섬웨어 공격 단계를 보다 신속하게 탐지, 조사 및 해결할 수 있도록 위협 신호를 경고 및 연결된 경고로 결합합니다.
-
-[평가판 환경을 설정](/microsoft-365/security/defender/eval-overview)하여 Microsoft 365 Defender의 기능과 기능을 평가할 수 있습니다.
 
 ## <a name="resulting-configuration"></a>결과 구성
 

@@ -19,19 +19,22 @@ ms.custom:
 - AdminTemplateSet
 search.appverid: MET150
 description: Microsoft 365 비즈니스 에디션 구독이 만료되거나, 비활성화되거나, 사용자가 취소하는 경우 사용자의 데이터가 어떻게 처리되는지 알아봅니다.
-ms.date: 04/08/2021
-ms.openlocfilehash: 55a34352da6deef2fd48542dd06859e0024e6966
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.date: 09/16/2021
+ms.openlocfilehash: 089caf11d590d38cc729466f53f91c1123f8b596
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188315"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59481003"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?
 
 구독이 만료되거나 취소하기로 결정하여 구독이 종료되는 경우, Microsoft 365 서비스, 응용 프로그램 및 고객 데이터에 대한 액세스는 구독이 완전히 해제되거나 *삭제* 되기 전에 여러 상태를 거치게 됩니다. 이 진행 상황을 알고 있는 경우, 너무 늦기 전에 구독을 활성 상태로 되돌리거나 Microsoft 365를 종료하는 경우 최종적으로 삭제되기 전에 데이터를 백업할 수 있습니다.
 
 [Microsoft 365 지원팀](../../business-video/get-help-support.md)에 문의하기 전에 이 중요한 정보를 읽어보세요.
+
+> [!NOTE]
+> 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지난 경우 되풀이 청구를 해제하여 기간이 끝날 때 구독을 취소하세요.
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>구독이 만료되면 데이터는 어떻게 되나요?
 
