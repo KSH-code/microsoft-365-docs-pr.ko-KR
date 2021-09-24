@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 7f53adddf19b3b09794c65d5157aeb1f8338008e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0a3d4e1446b984bd0f7f9fad997e1ecc3882ac12
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191439"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59498055"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -52,7 +52,7 @@ ms.locfileid: "59191439"
 
 다양한 구독 지원 민감도 레이블과 사용자에 대한 라이선스 요구 사항은 사용하는 기능에 따라 다릅니다.
 
-사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 민감도 레이블에 대한 자세한 내용은 [정보 보호](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
+사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 민감도 레이블은 [정보 보호](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션 및 기능 수준 라이선스 요구 사항에 대한 관련 PDF 다운로드를 참조하세요.
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>민감도 레이블을 만들고 관리하는 데 필요한 사용 권한
 

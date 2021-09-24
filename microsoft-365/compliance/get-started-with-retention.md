@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 위한 몇 가지 실용적인 지침을 읽어보세요.
-ms.openlocfilehash: a58b50aeea2cfd223e54d1dd4d2c4aa91026afe8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fdcae8f3879beea5ba7b80f34378b2a3b1452fcb
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191452"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59497623"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -48,7 +48,7 @@ ms.locfileid: "59191452"
 
 다양한 구독이 보존 정책 및 보존 레이블을 지원하며 사용자에 대한 라이선스 요구 사항은 사용하는 기능에 따라 다릅니다.
 
-사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 보존에 대한 자세한 내용은 기능 수준 라이선스 요구 사항에 대한 [정보 거버넌스](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
+사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 보존에 대한 자세한 내용은 기능 수준 라이선스 요구 사항에 대한 [정보 거버넌스](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) 섹션 및 관련 PDF 다운로드를 참조하세요.
 
 ## <a name="permissions-required-to-create-and-manage-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한
 

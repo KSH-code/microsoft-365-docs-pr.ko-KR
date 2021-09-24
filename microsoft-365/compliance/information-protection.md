@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: MIP(Microsoft Information Protection)를 구현하여 중요한 정보를 어디에서나 보호할 수 있습니다.
-ms.openlocfilehash: 8b576ca7f6fd3914d160592c0d1e34d20c3bdcc1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0f137eff192f958595f9017f6b83f351c13de427
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191359"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59497803"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 Microsoft Information Protection
 
@@ -83,4 +83,4 @@ MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 
 
 ## <a name="licensing-requirements"></a>라이선스 요구사항
 
-MIP에 대한 라이선스 요구 사항은 이 페이지에 나열된 각 기능에 대한 라이선스 요구 사항을 설정하는 것이 아니라 사용하는 시나리오 및 기능에 따라 다릅니다. MIP에 대한 라이선스 요구 사항 및 옵션을 이해하려면 Microsoft 365 라이선싱 설명서에서 [정보 보호](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션을 참조하고 관련 PDF 또는 Excel을 다운로드하세요.
+MIP에 대한 라이선스 요구 사항은 이 페이지에 나열된 각 기능에 대한 라이선스 요구 사항을 설정하는 것이 아니라 사용하는 시나리오 및 기능에 따라 다릅니다. MIP에 대한 라이선스 요구 사항 및 옵션을 이해하려면 Microsoft 365 라이선스 문서의 [정보 보호](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션을 참조하고 기능 수준 라이선스 요구 사항에 대한 [관련 PDF 문서](https://go.microsoft.com/fwlink/?linkid=2139145)를 다운로드하세요.

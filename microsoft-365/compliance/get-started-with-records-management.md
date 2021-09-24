@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무를 위해 고부가가치 콘텐츠를 관리하는 Microsoft 365용 레코드 관리 솔루션이 필요하지만, 어디서부터 시작해야 할지 잘 모르겠나요? 시작하려면 몇 가지 실무 지침을 읽어보세요.
-ms.openlocfilehash: 8e6f32a7f1bc68449f1b43531725f07999043b82
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0af5391a7964e242067d70e559d082ede0c9fb3a
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191459"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59497775"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
@@ -45,7 +45,7 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 다양한 구독 지원 레코드 관리 및 사용자에 대한 라이선스 요구 사항은 사용하는 기능에 따라 다릅니다.
 
-사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 레코드 관리에 대한 자세한 내용은 기능 수준 라이선스 요구 사항에 대한 [레코드 관리](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
+사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 레코드 관리에 대한 자세한 내용은 기능 수준 라이선스 요구 사항에 대한 [레코드 관리](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management) 섹션 및 관련 PDF 다운로드를 참조하세요.
 
 ## <a name="permissions-required-for-records-management"></a>레코드 관리에 필요한 사용 권한
 
