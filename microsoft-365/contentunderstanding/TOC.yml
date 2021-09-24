@@ -94,5 +94,7 @@
       href: rest-api/rest-updatemodelsettings-method.md
     - name: BatchDelete
       href: rest-api/rest-batchdelete-method.md
-    - name: 분류 요청 만들기
+    - name: 파일 분류 요청 만들기
       href: rest-api/rest-createclassificationrequest.md
+    - name: 폴더 분류 요청 만들기
+      href: rest-api/rest-createfolderclassificationrequest.md

@@ -9,6 +9,8 @@
           href: enter-business-information.md
         - name: 서비스 오퍼링 정의
           href: define-service-offerings.md
+        - name: SMS 텍스트 알림 구성
+          href: bookings-sms.md
         - name: Bookings에 직원 추가
           href: add-staff.md
         - name: 업무 종료 및 휴식 시간 예약
