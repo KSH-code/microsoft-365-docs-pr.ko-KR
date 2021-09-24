@@ -15,12 +15,13 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 2f18e54fcbbcd225ce7df83005ab65c0c33b1f0f
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 8b299c2c097214bfbfeb4662bcdde070c7b8c544
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59355906"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59498355"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-azure-virtual-desktop"></a>Azure Virtual Desktop에서 Windows 10 세션 장치 온보드
 
@@ -32,7 +33,7 @@ ms.locfileid: "59355906"
 
 끝점용 Microsoft Defender는 VDI 및 Azure Virtual Desktop 세션 모두 모니터링을 지원합니다. 조직의 요구에 따라 VDI 또는 Azure Virtual Desktop 세션을 구현하여 직원이 관리되지 않는 디바이스, 원격 위치 또는 유사한 시나리오에서 회사 데이터 및 앱에 액세스하는 데 도움이 될 수 있습니다. 끝점용 Microsoft Defender를 사용하여 이러한 가상 컴퓨터를 모니터링하여 이상한 활동을 모니터링할 수 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 비영구 [VDI에](/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1)대한 고려 사항을 잘 알고 있습니다. [Azure Virtual Desktop은](/azure/virtual-desktop/overview) 비영구 옵션을 제공하지는 않는 반면, 새 호스트를 프로비전하고 컴퓨터를 다시 Windows 사용할 수 있는 골든 이미지의 사용 방법을 제공합니다. 이렇게 하면 환경의 변동성이 증가하고 끝점 포털의 Microsoft Defender 포털에서 만들어지고 유지 관리되는 항목에 영향을 주어 보안 분석가의 가시성이 감소할 수 있습니다.
 
@@ -155,7 +156,7 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 
 #### <a name="licensing-requirements"></a>라이선스 요구사항
 
-라이선스에 대한 참고 사항: Windows 10 Enterprise 세션을 사용하는 경우 요구 사항에 따라 모든 사용자를 끝점용 Microsoft Defender(사용자당), Windows Enterprise E5, Microsoft 365 보안 또는 Microsoft 365 E5 또는 Azure Defender를 통해 VM 라이선스를 부여하도록 선택할 수 있습니다.
+라이선스에 대한 참고 사항: Windows 10 Enterprise 세션을 사용하는 경우 요구 사항에 따라 모든 사용자가 끝점용 Microsoft Defender를 통해 라이선스를 부여하도록 선택할 수 있습니다(사용자당), Windows Enterprise E5, Microsoft 365 보안 또는 Microsoft 365 E5 또는 VM에 Azure Defender를 통해 라이선스가 부여됩니다.
 끝점용 Microsoft Defender의 라이선스 요구 사항은 라이선스 요구 [사항 에서 찾을 수 있습니다.](minimum-requirements.md#licensing-requirements)
 
 #### <a name="related-links"></a>관련 링크

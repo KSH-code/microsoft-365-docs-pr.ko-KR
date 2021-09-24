@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: bf167feb138be131ac565817767da2d1b1dd5be7
-  ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+  ms.openlocfilehash: e2aa6e0546af05d9265d2aece406f18bd498c997
+  ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/23/2021
-  ms.locfileid: "59491424"
+  ms.lasthandoff: 09/24/2021
+  ms.locfileid: "59497776"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -44,7 +44,7 @@ landingContent:
       url: eval-overview.md
     - text: 프로덕션에서 파일럿 프로젝트 실행
       url: eval-overview.md
-- title: 시작
+- title: 시작하기
   linkLists:
   - linkListType: get-started
     links:
@@ -68,13 +68,13 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Office 365용 Defender란 무엇인가요?
+    - text: Office 365용 Defender란?
       url: ../office-365-security/defender-for-office-365.md
-    - text: Office 365용 Defender 서비스 설명
+    - text: Office 365용 Microsoft Defender 서비스 설명
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-    - text: Microsoft 365 Defender의 Office 365용 Defender
+    - text: Microsoft Defender for Office 365 Microsoft 365 Defender
       url: microsoft-365-security-center-mdo.md
-    - text: 2016년 Office 365 Defender 리디렉션 Microsoft 365 Defender
+    - text: Microsoft Defender에서 사용자 Office 365 리디렉션 Microsoft 365 Defender
       url: microsoft-365-security-mdo-redirection.md
 - title: 엔드포인트용 Microsoft Defender
   linkLists:

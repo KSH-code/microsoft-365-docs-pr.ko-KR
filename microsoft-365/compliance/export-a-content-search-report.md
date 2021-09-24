@@ -22,16 +22,16 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: 검색 결과에서 콘텐츠 검색의 실제 결과를 내보내는 Microsoft 365 규정 준수 센터 검색 결과 보고서를 내보낼 수 있습니다. 보고서에는 내보낼 각 항목에 대한 자세한 정보가 포함된 검색 결과 및 문서가 요약되어 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56a61bb1cd0fa9952f85d75ae50f42754c583ce7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 715476f71a480555d9559165d997eb57f7c79abd
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184084"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59497815"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
-Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와 연결된 검색)에서 전체 검색 결과 집합을 내보내는 대신 실제 검색 결과를 내보낼 때 생성되는 동일한 보고서를 내보낼 수 있습니다.
+콘텐츠 검색의 전체 검색 결과 집합을 Microsoft 365 규정 준수 센터(또는 Core eDiscovery 사례와 연결된 검색에서) 실제 검색 결과를 내보낼 때 생성되는 동일한 보고서를 내보낼 수 있습니다.
   
 보고서를 내보낼 때 보고서 파일은 콘텐츠 검색과 이름이 같은 로컬 컴퓨터의 폴더로 다운로드되지만 이 폴더는 에 *_ReportsOnly.* 예를 들어 콘텐츠 검색의 이름이 *ContosoCase0815이면* 보고서가 이라는 폴더로 *ContosoCase0815_ReportsOnly.* 보고서에 포함된 문서 목록은 보고서에 포함된 항목 을 [참조하세요.](#whats-included-in-the-report)
 
@@ -41,23 +41,18 @@ Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와
 
 - 보고서를 내보낼 때 데이터는 로컬 컴퓨터로 Azure Storage Microsoft 클라우드의 임시 위치에 일시적으로 저장됩니다. 조직에서 **\* .blob.core.windows.net** Azure의 끝점에 연결할 수 있는지 확인(와일드카드는 내보내기 고유 식별자를 나타임) 검색 결과 데이터는 생성된 Azure Storage 위치에서 삭제됩니다.
 
-- 검색 결과를 PST 파일로 내보내는 데 사용하는 컴퓨터는 다음과 같은 시스템 요구 사항을 충족해야 합니다.
-
+- 검색 보고서를 내보내는 데 사용하는 컴퓨터는 다음 시스템 요구 사항을 충족해야 합니다.
+  
   - 최신 버전의 Windows(32비트 또는 64비트)
-
-  - Microsoft .NET Framework 4.7
-
-- eDiscovery 내보내기 도구 1을 실행하려면 다음 지원되는 브라우저 중<sup>하나를 사용해야 합니다.</sup>
-
-  - Microsoft Edge <sup>2</sup>
-
-    또는
-
-  - Microsoft Internet Explorer 10 이상 버전
-
+  
+  - Microsoft .NET Framework 4.7 이상
+  
+- eDiscovery 내보내기 Microsoft Edge 실행하려면<sup>1을</sup> 사용해야 합니다. 검색 Internet Explorer 11을 사용하여 검색 결과를 내보내는 것은 더 이상<sup>지원되지 않습니다 2.</sup>
+  
   > [!NOTE]
-  > <sup>1</sup> Microsoft는 타사 응용 프로그램용 타사 확장 또는 추가 ClickOnce 않습니다. 타사 확장 또는 추가 기능이 있는 지원되지 않는 브라우저를 사용하여 검색 결과를 내보낼 수 없습니다.<br/>
-  > <sup>2</sup> 최신 변경으로 인해 Microsoft Edge ClickOnce 기본적으로 지원이 설정되지 않습니다. Edge에서 ClickOnce 지원을 사용하도록 설정하는 방법에 대한 지침은 에서 [eDiscovery 내보내기 도구 Microsoft Edge.](configure-edge-to-export-search-results.md)
+  > <sup>1</sup> 최신 변경으로 인해 Microsoft Edge ClickOnce 기본적으로 지원이 설정되지 않습니다. Edge에서 ClickOnce 지원을 사용하도록 설정하는 방법에 대한 지침은 에서 [eDiscovery 내보내기 도구 Microsoft Edge.](configure-edge-to-export-search-results.md) 또한 Microsoft는 타사 응용 프로그램용 타사 확장 또는 추가 ClickOnce 않습니다. 타사 확장 또는 추가 기능이 있는 지원되지 않는 브라우저를 사용하여 검색 결과를 내보낼 수 없습니다.
+  > 
+  > <sup>2021년</sup> 8월부터 Microsoft 365 앱 및 서비스에서 IE11(Internet Explorer 11)을 더 이상 지원하지 않고 사용자가 성능이 저하되거나 해당 앱 및 서비스에 연결할 수 없습니다. 이러한 앱 및 서비스는 원활한 지원이 보장될 수 있도록 몇 주 및 몇 개월에 대해 단계적 종료됩니다. 각 앱과 서비스는 독립적인 일정에 따라 단계적으로 운영됩니다. 자세한 내용은 이 블로그 [게시물을 참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666)
 
 - 검색에서 반환된 결과의 예상 총 크기가 2 TB를 초과하면 보고서를 내보내지 못합니다. 보고서를 내보낼 수 있도록 범위 범위를 좁히고 결과의 예상 크기가 2 TB 미만이 있도록 검색을 다시 시도합니다.
 
@@ -165,6 +160,6 @@ Microsoft 365 준수 센터의 콘텐츠 검색(또는 Core eDiscovery 사례와
   > [!NOTE]
   > 결과 보고서의 행  수는 전체 검색 결과 수에서 인덱서되지 않은 항목 보고서에 나열된 총 항목 수를 운운하는 개수와 **같아야** 합니다.
   
-- **Trace.log**: 내보내기 프로세스에 대한 자세한 로깅 정보를 포함하며 내보내기 중에 문제를 쉽게 언게 할 수 있는 추적 로그입니다. 검색 보고서 내보내기와 관련된 문제와 관련된 Microsoft 지원 티켓을 여는 경우 이 추적 로그를 제공해야 할 수 있습니다.
+- **Trace.log:** 내보내기 프로세스에 대한 자세한 로깅 정보를 포함하며 내보내기 중에 문제를 쉽게 확인하려면 추적 로그를 참조하세요. 검색 보고서 내보내기와 관련된 문제와 관련된 Microsoft 지원 티켓을 여는 경우 이 추적 로그를 제공해야 할 수 있습니다.
 
 - **인덱서되지 않은 항목:** 검색 Excel 인덱서되지 않은 항목에 대한 정보가 포함된 문서입니다. 검색 결과 보고서를 생성할 때 인덱서되지 않은 항목을 포함하지 않는 경우 이 보고서는 계속 다운로드되지만 비어 있습니다.

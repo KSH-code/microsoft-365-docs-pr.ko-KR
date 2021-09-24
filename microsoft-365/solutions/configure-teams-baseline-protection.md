@@ -17,14 +17,15 @@ ms.collection:
 - m365solution-securecollab
 ms.custom:
 - Ent_Solutions
+- admindeeplinkTEAMS
 recommendations: false
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 24bdb7a5d5f4c124365a6b5b7cdc67d53adf8278
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a21aa9bf3aeb5d5f5cb2efbc90589cafe2a11be1
+ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214232"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59479744"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -53,7 +54,7 @@ Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 1. [https://admin.microsoft.com](https://admin.microsoft.com)에서 Microsoft 365 관리 센터에 로그인합니다.
 2. 왼쪽 탐색 창에서 **모두 표시** 를 클릭합니다.
 3. **관리 센터** 에서 **Teams** 를 클릭합니다.
-4. Teams 관리 센터의 왼쪽 탐색 창에서 **조직 전체 설정** 을 확장한 다음 **게스트 액세스** 를 클릭합니다.
+4. Teams 관리 센터의 왼쪽 탐색 창에서 **조직 전체 설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2173122" target="_blank">**게스트 액세스**</a>를 확장합니다.
 5. Teams의 **게스트 액세스 허용** 이 **사용** 으로 설정되어 있는지 확인합니다.
 6. 추가 게스트 설정을 원하는대로 변경 한 다음 **저장** 을 클릭하세요.
 

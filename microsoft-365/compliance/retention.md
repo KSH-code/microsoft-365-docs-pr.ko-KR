@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
 ms.openlocfilehash: 3cb6548cee9b14de661faed2d4a2aa2f45de3b83
-ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
+ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/22/2021
-ms.locfileid: "59477723"
+ms.locfileid: "59480607"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -422,8 +422,8 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
 - SharePoint, OneDrive 또는 Exchange의 레이블이 지정된 항목이 레코드 또는 규제 레코드로 표시되고 영구적으로 삭제되는 경우:
     - **파일 및 페이지 활동** 에서 **레코드로 표시된 삭제된 파일** 을 선택합니다.
 
-- 처리 검토자가 보존 기간 종료에 도달한 항목에 대해 작업을 수행하는 경우:
-    -  **처리 검토 활동** 에서 **승인된 처리**, **연장된 보존 기간**, **레이블이 지정된 항목** 또는 **추가된 검토자** 를 선택합니다.
+- 처리 검토자가 보존 기간 끝에 도달한 항목에 대해 작업을 수행하는 경우:
+    -  **처리 검토 활동** 에서 **승인된 처리**, **연장된 보존 기간**, **레이블이 다시 지정된 항목** 또는 **추가된 검토자** 를 선택합니다.
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블의 PowerShell cmdlet
 

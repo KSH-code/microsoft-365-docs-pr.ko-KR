@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 2016에서 Core eDiscovery를 사용하는 방법을 Microsoft 365. eDiscovery 권한을 할당하고 사례를 만든 후 구성원을 추가하고 eDiscovery 보류를 만든 다음 조사와 관련된 콘텐츠를 검색하고 내보낼 수 있습니다.
-ms.openlocfilehash: d1a9e68bedc77f3b74b13f438e73dcbcb83b4c8c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: aa6e1efb6ef3a773eaae697fcc60a4293967d845
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191482"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59498223"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>2013에서 Core eDiscovery 시작 Microsoft 365
 
@@ -34,9 +34,9 @@ Microsoft 365 핵심 eDiscovery는 조직이 조직에서 검색 및 내보낼 �
 
 Core eDiscovery에 대한 라이선스를 사용하려면 적절한 조직 구독 및 사용자당 라이선스가 필요합니다.
 
-- **조직 구독:** 조직에서 Core eDiscovery에 액세스하고 Microsoft 365 규정 준수 센터 및 내보내기 기능을 사용하려면 조직에 Microsoft 365 E3 또는 Office 365 E3 이상이 있어야 합니다.
+- **조직 구독:** 조직에서 Core eDiscovery에 액세스하고 Microsoft 365 규정 준수 센터 및 내보내기 기능을 사용하려면 조직에 Microsoft 365 E3 또는 Office 365 E3 이상이 있어야 합니다. Microsoft 365 프런트라인 조직에는 F5 구독이 있어야 합니다.
 
-- **사용자당 라이선스:** 사서함 및 사이트에 eDiscovery를 유지하려면 조직 구독에 따라 사용자에게 다음 라이선스 중 하나를 할당해야 합니다.
+- **사용자당 라이선스:** 사서함 및 사이트에 eDiscovery 보류를 설정하려면 조직 구독에 따라 사용자에게 다음 라이선스 중 하나를 할당해야 합니다.
 
   - A Microsoft 365 E3 또는 Office 365 E3 라이선스 이상
 
@@ -44,15 +44,19 @@ Core eDiscovery에 대한 라이선스를 사용하려면 적절한 조직 구�
 
   - Office 365 E1 계획 2 또는 Exchange Online 라이선스가 있는 Exchange Online Archiving 라이선스
 
+   또는
+
+  - Microsoft 365 프런트라인 F5 규정 준수 또는 F5 보안 & 추가 기능 라이선스  
+
   그리고
 
-  - Office 365 E1 Online 계획 2 또는 SharePoint 계획 2 추가 비즈니스용 OneDrive 라이선스가 있는 라이선스
+  - Office 365 E1 온라인 계획 2 또는 SharePoint 계획 2 추가 비즈니스용 OneDrive 라이선스가 있는 라이선스
   
   라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](../admin/manage/assign-licenses-to-users.md)
 
 라이선스에 대한 자세한 내용은
 
-- 규정 준수 라이선싱 비교에서 "& 응답 검색" [솔루션을 Microsoft 365 참조합니다.](/office365/servicedescriptions/downloads/microsoft-365-compliance-licensing-comparison.xlsx)
+- 비교 표의 "eDiscovery 및 감사" [Microsoft 365 다운로드하여 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2139145)
 
 - 보안 및 [준수 & 설명을 참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
 
@@ -132,7 +136,7 @@ eDiscovery 사용 권한에 대한 자세한 내용과 eDiscovery 관리자 역�
 
 ![핵심 eDiscovery 워크플로.](../media/CoreEdiscoveryWorkflow.png)
 
-1. **[eDiscovery 보류를 생성합니다.](create-ediscovery-holds.md)** 사례를 작성한 후 첫 번째 단계는 조사에 관심이 있는 사용자 콘텐츠 위치에 *보류(eDiscovery* 보류라고도 불리며)를 배치하는 것입니다. 콘텐츠 위치에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정, Microsoft Teams 그룹과 연결된 사서함 및 Office 365 포함됩니다. 이 단계는 선택 사항이지만 eDiscovery 보류를 만들면 조사 중에 사례와 관련이 있을 수 있는 콘텐츠가 보존됩니다. eDiscovery 보류를 만들 때 특정 콘텐츠 위치에 있는 모든 콘텐츠를 보존하거나 쿼리 기반 보류를 만들어 보류 쿼리와 일치하는 콘텐츠만 보존할 수 있습니다. 다음 단계에서 검색을 만들고 실행할 때 eDiscovery 보류를 만드는 또 다른 좋은 이유는 검색할 각 위치를 선택하는 대신 보류된 콘텐츠 위치를 빠르게 검색하기 위한 것입니다. 조사를 완료한 후 만든 보류를 해제할 수 있습니다.
+1. **[eDiscovery 보류를 생성합니다.](create-ediscovery-holds.md)** 사례를 작성한 후 첫 번째 단계는 조사에 관심이 있는 사용자 콘텐츠 위치에 *보류(eDiscovery* 보류라고도 불리며)를 배치하는 것입니다. 콘텐츠 위치에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정 및 Microsoft Teams 그룹과 연결된 Microsoft 365 있습니다. 이 단계는 선택 사항이지만 eDiscovery 보류를 만들면 조사 중에 사례와 관련이 있을 수 있는 콘텐츠가 보존됩니다. eDiscovery 보류를 만들 때 특정 콘텐츠 위치에 있는 모든 콘텐츠를 보존하거나 쿼리 기반 보류를 만들어 보류 쿼리와 일치하는 콘텐츠만 보존할 수 있습니다. 다음 단계에서 검색을 만들고 실행할 때 eDiscovery 보류를 만드는 또 다른 좋은 이유는 검색할 각 위치를 선택하는 대신 보류된 콘텐츠 위치를 빠르게 검색하기 위한 것입니다. 조사를 완료한 후 만든 보류를 해제할 수 있습니다.
 
 2. **[콘텐츠를 검색합니다.](search-for-content-in-core-ediscovery.md)** eDiscovery 보류를 만든 후 기본 제공 검색 도구를 사용하여 보류된 콘텐츠 위치를 검색합니다. 사례와 관련이 있을 수 있는 데이터의 다른 콘텐츠 위치를 검색할 수도 있습니다. 사례와 연결된 다양한 검색을 만들고 실행할 수 있습니다. 키워드, 속성 및 조건을 사용하여 [](keyword-queries-and-search-conditions.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 다음을 수행할 수도 있습니다.
 

@@ -19,13 +19,13 @@ search.appverid:
 - SPO160
 - MOE150
 - MET150
-description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 및 비즈니스용 Skype 대화와 같은 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구가 있습니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
-ms.openlocfilehash: d44c0b30bc6256f98063f33d838d2cabb6ceebf1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 등의 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구를 제공합니다. 비즈니스용 Skype 대화를 제공합니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
+ms.openlocfilehash: f1e2f7fd3403bb90edf3fe4102ed61632a641ee2
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218962"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59498031"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365
 
@@ -39,7 +39,7 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 
 - **콘텐츠 검색**. 콘텐츠 검색 도구를 사용하여 여러 데이터 Microsoft 365 검색한 다음 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다.
 
-- **Core eDiscovery**. 핵심 eDiscovery는 콘텐츠 검색의 기본 검색 및 내보내기 기능을 토대하여 eDiscovery 사례 및 해당 구성원만 액세스할 수 있는 eDiscovery 관리자를 만들 수 있도록 합니다. Core eDiscovery를 사용하면 검색 및 내보내기 기능을 사례와 연결하고 사례와 관련된 콘텐츠 위치에 eDiscovery 보류를 할 수 있습니다.
+- **Core eDiscovery**. 핵심 eDiscovery는 eDiscovery 사례를 만들고 eDiscovery 관리자를 특정 사례에 할당할 수 있도록 하여 콘텐츠 검색의 기본 검색 및 내보내기 기능을 빌드합니다. eDiscovery 관리자는 구성원인 사례에만 액세스할 수 있습니다. 또한 Core eDiscovery를 사용하면 검색 및 내보내기 기능을 사례와 연결하고 사례와 관련된 콘텐츠 위치에 eDiscovery 보류를 두어도 됩니다.
 
 - **Advanced eDiscovery**. 이 Advanced eDiscovery 도구는 Core eDiscovery의 기존 사례 관리, 보존, 검색 및 내보내기 기능을 빌드합니다. Advanced eDiscovery 조직의 내부 및 외부 조사에 응답하는 콘텐츠를 식별, 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공합니다. 이를 통해 법률 팀은 보유자 및 법적 보유 알림 워크플로를 관리하여 사례에 관련된 보유자와 통신할 수 있습니다. 이를 통해 라이브 서비스의 데이터를 검토 집합으로 수집하고 복사할 수 있습니다. 워크플로에서 가장 관련성이 높은 콘텐츠를 식별하고 집중할 수 있도록 추가 검토에서 관련이 없는 콘텐츠를 필터링, 검색 및 태그할 수 있습니다. Advanced eDiscovery 분석 및 기계 학습 기반 예측 코딩 모델을 제공하면 조사 범위가 가장 관련성이 높은 콘텐츠로 범위를 좁힐 수 있습니다.
 
@@ -104,7 +104,7 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 
 - **OCR(광학 문자 인식)**. 콘텐츠가 검토 집합에 추가되는 경우 OCR 기능은 이미지에서 텍스트를 추출하고 검토 집합에 추가된 콘텐츠와 함께 이미지 텍스트를 포함합니다. 이렇게 하면 검토 집합의 콘텐츠를 쿼리할 때 이미지 텍스트를 검색할 수 있습니다.
 
-- **대화 스레딩**. 사용자 및 Teams Yammer 대화가 검토 집합에 추가될 때 전체 대화 스레드를 수집할 수 있는 옵션이 제공됩니다. 즉, 컬렉션 조건과 일치하는 항목이 포함된 전체 채팅 대화가 검토 집합에 추가됩니다. 이렇게 하면 대화의 컨텍스트에서 채팅 항목을 검토할 수 있습니다.
+- **대화 스레딩**. 사용자 및 Teams Yammer 대화가 검토 집합에 추가되는 경우 전체 대화 스레드를 수집할 수 있습니다. 즉, 컬렉션 조건과 일치하는 항목이 포함된 전체 채팅 대화가 검토 집합에 추가됩니다. 이렇게 하면 대화의 컨텍스트에서 채팅 항목을 검토할 수 있습니다.
 
 - **컬렉션 통계 및 보고서입니다.** 초안 컬렉션을 만들거나 검토 집합에 컬렉션을 커밋한 후 검색 조건과 일치하는 항목이 가장 많은 콘텐츠 위치, 검색 쿼리에서 반환된 항목 수 등 검색된 항목에 대한 다양한 통계 집합을 볼 수 있습니다. 결과의 하위 집합을 미리 볼 수 있습니다. 또한 상위 항목에서 추출되어 검토 집합에 별도의 항목으로 추가된 자식 항목의 수가 포함됩니다.
 
@@ -130,12 +130,14 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 
 - Microsoft 365 E1 구독
 - Microsoft 365 G1 구독
+- Microsoft 365 F1 또는 F3 구독 또는 F5 보안 추가 기능
 - Office 365 Education A1 구독
 
 ### <a name="core-ediscovery"></a>핵심 eDiscovery
 
 - Microsoft 365 E3 구독
 - Microsoft 365 G3 구독
+- Microsoft 365 F5 준수 추가 기능 또는 F5 보안 & 준수 추가 기능
 - Microsoft 365 Education A3 또는 Office 365 Education A3 구독
 
 ### <a name="advanced-ediscovery"></a>Advanced eDiscovery
@@ -146,6 +148,7 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 - Microsoft 365 G5 구독
 - Microsoft 365 G5 준수 추가 기능을 통해 G5 구독
 - Microsoft 365 G5 eDiscovery 및 추가 기능 감사를 통해 G5 구독
+- Microsoft 365 F5 준수 추가 기능 또는 F5 보안 & 준수 추가 기능
 - Microsoft 365 Education A5 또는 Office 365 Education A5 구독
 
 ## <a name="get-started-with-ediscovery"></a>eDiscovery 시작

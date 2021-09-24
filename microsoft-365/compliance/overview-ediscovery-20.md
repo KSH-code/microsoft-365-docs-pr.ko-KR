@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 자세한 내용은 Advanced eDiscovery 솔루션에 대해 Microsoft 365. 이 문서에서는 내부 및 외부 Advanced eDiscovery 관리하는 Microsoft 365 도구인 2016의 개요를 제공합니다. 또한 법적 조사를 관리하는 데 Advanced eDiscovery 비즈니스 이유에 대한 프레임을 틀 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59052e862e84b5cf9eabdf2cdce58e8e743887ee
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b2806bb7c0043a9e47b07e96ab53a62725673247
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59498331"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>개요 Microsoft 365 Advanced eDiscovery
 
@@ -109,11 +109,19 @@ Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM �
 
 - **사용자당 라이선스:** Advance eDiscovery 사례에서 사용자를 관리인으로 추가하려면 조직 구독에 따라 사용자에게 다음 라이선스 중 하나를 할당해야 합니다.
 
-  - Microsoft 365: 사용자에게 Microsoft 365 E5 라이선스, E5 준수 추가 기능 라이선스 또는 E5 eDiscovery 및 감사 추가 기능 라이선스가 할당되어야 합니다. Microsoft 365 Education 사용자에게 A5 라이선스가 할당되어야 합니다.
+  - Microsoft 365: 사용자에게 다음 중 하나를 할당해야 합니다.
+  
+    - Microsoft 365 E5 라이선스, E5 준수 추가 기능 라이선스 또는 E5 eDiscovery 및 감사 추가 기능
+
+    - Microsoft 365 프런트라인 사용자에게 F5 준수 또는 F5 보안 및 준수 추가 & 할당해야 합니다.
+
+    - Microsoft 365 Education 사용자에게 A5 라이선스를 할당해야 합니다.
 
   - Office 365: 사용자에게 A5 Office 365 E5 Office 365 Education 할당되어야 합니다.
 
-   라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users)
+라이선스에 대한 자세한 내용은 비교 표의 "eDiscovery 및 감사" [Microsoft 365 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2139145)
+
+라이선스를 할당하는 방법에 대한 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 > [!NOTE]
 > 사용자는 E5 또는 A5 라이선스(또는 적절한 추가 기능 라이선스)만 등록된 사례에 Advanced eDiscovery 필요합니다. E5, A5 또는 추가 기능 라이선스가 필요하지 않은 사례를 관리하고 사례 데이터를 검토하기 위해 Advanced eDiscovery 관리자, eDiscovery 관리자, 변호사, paralegals 또는 조사자.

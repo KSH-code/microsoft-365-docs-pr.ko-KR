@@ -16,19 +16,20 @@ ms.reviewer: mkaminska
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 8adb0be672c20b8e51c4178df63d7b25332455ce
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 16d61be33af8a4d30090470e066111ba2bcde0e9
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356471"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59497995"
 ---
 # <a name="specify-the-cloud-protection-level"></a>클라우드 보호 수준 지정
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
-- Windows Defender 바이러스 백신
+- Microsoft Defender 바이러스 백신
 
 클라우드 보호는 기존 Microsoft Defender 바이러스 백신 인텔리전스 업데이트를 통해보다 훨씬 빠르게 끝점에 보호 기능을 제공할 수 있도록 합니다. 그룹 정책(권장) 또는 그룹 정책을 사용하여 클라우드 보호 Microsoft Endpoint Manager 구성할 수 있습니다.
 

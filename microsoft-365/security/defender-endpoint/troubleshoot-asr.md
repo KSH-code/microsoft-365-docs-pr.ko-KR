@@ -17,12 +17,13 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 1e4e32864c2541cfc0cf14602ec954d5e643f309
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 52223916ba94959f15fb5bf8fb351ff4fda8c62e
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59402145"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59498319"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 문제 해결
 

@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Normal
 description: Microsoft SharePoint 문서 라이브러리에 게시된 모델을 적용하는 방법을 SharePoint Syntex.
-ms.openlocfilehash: 048197b8f477b62527b2f379a5361d1765c70a3b
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 2cc4719720693f6aa386abfc191e2b26b75f813f
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59498099"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 
@@ -61,15 +61,13 @@ SharePoint 문서 라이브러리에 모델 적용하기:
 
 6. 모델 홈 페이지의 모델이  적용된 위치 섹션에 나열된 모델 사이트의 SharePoint 표시됩니다.
 
-7. 문서 라이브러리로 이동하여 모델의 문서 라이브러리 보기에 있는지 확인합니다. 문서 라이브러리 이름 옆에 있는 정보 단추를 선택하면 문서 라이브러리에 모델이 적용되었다는 메시지가 표시됩니다.
+7. 문서 라이브러리로 이동하여 모델의 문서 라이브러리 보기에 있는지 확인합니다. 문서 **보기 이해** 모델  >  **자동화를 선택합니다.**
 
-    ![정보 보기.](../media/content-understanding/info-du.png) 
+8. 모델 **검토** 및 새 모델 적용 페이지에서  적용된 탭을 선택하여 문서 라이브러리에 적용되는 모델을 봐야 합니다.
 
-    **활성 모델 보기** 선택하여 문서 라이브러리에 적용된 모델에 대한 세부 정보를 볼 수 있습니다.
+    ![선택한 적용된 탭과 적용된 모델을 보여 주는 스크린샷.](../media/content-understanding/applied-models.png) 
 
-8. **활성 모델** 창에서 문서 라이브러리에 적용된 모델을 볼 수 있습니다. 모델을 선택하여 모델에 대한 설명, 모델 게시자, 모델이 분류된 파일에 보존 레이블을 적용하는 경우와 같은 모델에 대한 자세한 정보를 확인합니다.
-
-    ![활성 모델 창](../media/content-understanding/active-models.png) 
+9. **모델에** 대한 설명, 모델을 게시한 사람, 모델이 분류하는 파일에 보존 또는 민감도 레이블을 적용하는지 등 모델에 대한 정보를 확인하려면 모델 세부 정보 보기를 선택합니다.
 
 문서 라이브러리에 모델을 적용한 후, 사이트에 문서 업로드를 시작하고 결과를 볼 수 있습니다.
 

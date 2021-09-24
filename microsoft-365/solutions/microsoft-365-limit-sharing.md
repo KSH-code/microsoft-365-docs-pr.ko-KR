@@ -16,16 +16,18 @@ search.appverid:
 - SPO160
 - MET150
 f1.keywords: NOCSH
-ms.custom: admindeeplinkMAC
+ms.custom:
+- admindeeplinkMAC
+- admindeeplinkTEAMS
 localization_priority: Priority
 recommendations: false
 description: Microsoft 365에서 공유를 제한하거나 해제할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 3a8bdc738507760fcb7eff02692859f07dc8d5c9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 500d2dd8aa1a657cd3a71cb87b30a2faf63bb4c4
+ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189019"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59479768"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Microsoft 365에서의 공유 제한
 
@@ -59,7 +61,7 @@ Microsoft 365 그룹 또는 Microsoft Teams 팀에서 공유를 제한하려는 
 Teams에서 게스트 액세스를 방지하려는 경우 Teams 관리 센터에서 게스트 공유를 해제할 수 있습니다.
 
 Teams에 대해 게스트 공유를 해제하려면
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2066851" target="_blank">Teams 관리 센터</a>에서 **조직 전체 설정** 을 확장한 다음 **게스트 액세스** 를 클릭합니다.
+1. Teams 관리 센터에서 **조직 전체 설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2173122" target="_blank">**게스트 액세스** 탭</a>을 확장합니다.
 2. **Teams에서 게스트 액세스 허용** 을 해제합니다.
 3. **저장** 을 클릭합니다.
 

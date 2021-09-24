@@ -24,17 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: b6aaf63f61919c520c77a09bf3607174757d4c2b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a9b96497ab88fb6872a54468278fffb74c8fdd7b
+ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184724"
+ms.lasthandoff: 09/22/2021
+ms.locfileid: "59477590"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
 > [!NOTE]
-> 조직에서 하이브리드 Exchange 환경을 사용하는 경우 온-프레미스 EAC(Exchange 관리 센터)를 사용하여 공유 사서함을 만들고 관리해야 합니다. [Exchange 관리 센터에서 공유 사서함을 만드는 방법](/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?preserve-view=true.&view=exchserver-2019)을 참조하세요.<br><br>
+> 조직에서 하이브리드 Exchange 환경을 사용하는 경우 온-프레미스 EAC(Exchange 관리 센터)를 사용하여 공유 사서함을 만들고 관리해야 합니다. [Exchange 관리 센터에서 공유 사서함을 만드는 방법](/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?preserve-view=true.&view=exchserver-2019)을 참조하세요.
+>
 > 공유 사서함 또는 Outlook용 Microsoft 365 그룹 중 무엇을 만들어야 하는지 확실하지 않은 경우 [Compare groups](../create-groups/compare-groups.md)(그룹 비교)에서 지침을 확인하세요. 현재 공유 사서함은 Microsoft 365 그룹으로 마이그레이션할 수 없습니다. 이것이 원하는 것이라면 [여기에서 투표](https://go.microsoft.com/fwlink/?linkid=871518)를 통해 알려주세요.
 
 사용자 그룹이 info@contoso.com과 같은 공통 전자 메일 주소에서 전자 메일을 모니터링하고 보낼 수 있도록 공유 사서함을 만들 수 있습니다. 그룹에 속한 사용자가 공유 사서함에 전송된 메시지에 회신하면 해당 전자 메일은 개별 사용자가 아닌 공유 사서함에서 발송된 것으로 나타납니다.
@@ -49,39 +50,39 @@ ms.locfileid: "59184724"
 
 ::: moniker range="o365-worldwide"
 
-2. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
+2. 관리 센터에서 그룹 공유 **Teams 및 그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-2. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=848041)에서 **그룹** \> **공유 사서함** 페이지로 이동합니다.
+2. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=848041)에서 **Teams 및 그룹** \> **공유 사서함** 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-2. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=850627)에서 **그룹** \> **공유 사서함** 페이지로 이동합니다.
+2. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=850627)에서 **Teams 및 그룹** \> **공유 사서함** 페이지로 이동합니다.
 
 ::: moniker-end
     
-3. **공유 사서함** 페이지에서 **+ 사서함 추가** 를 선택합니다. 공유 사서함의 이름을 입력합니다. 마법사에서 이름이 선택되지만, 원하는 경우 편집할 수 있습니다.
+3. **공유 사서함** 페이지에서 **+ 공유 사서함 추가** 를 선택합니다. 공유 사서함 이름을 입력합니다. 마법사에서 이름이 선택되지만, 필요한 경우 편집할 수 있습니다.
     
     ![공유 사서함 이름을 지정합니다.](../../media/e3035132-8986-4ec7-b7c0-f2752080d2c0.png)
   
-4. **추가** 를 선택합니다. 몇 분 정도 기다린 다음에 구성원을 추가할 수 있습니다.
+4. **변경 내용 저장** 을 선택합니다. 몇 분 정도 기다린 다음에 구성원을 추가할 수 있습니다.
 
 5. **다음 단계** 에서 **이 사서함에 구성원 추가** 를 선택합니다. 구성원은 이 공유 사서함으로 받는 메일과 보내는 회신을 볼 수 있습니다.
 
    ![구성원 추가를 선택합니다.](../../media/a2a72e3d-6170-40fe-a94f-0af8fbef8ab2.png)
 
-6. **+구성원 추가** 단추를 선택합니다. 이 공유 사서함을 사용할 사람 옆에 확인 표시를 하고 **저장** 을 클릭합니다.
+6. **+구성원 추가** 단추를 선택합니다. 이 공유 사서함을 사용하길 원하는 사용자 옆에 확인 표시를 하고 **저장** 을 선택합니다.
 
    ![공유 사서함에 구성원을 할당합니다.](../../media/e6c58953-f6d7-4f0b-97ba-308516bf2a94.png)
 
 7. **닫기** 를 선택합니다.
 
-공유 일정이 포함된 공유 사서함을 만들었습니다. 이제 다음 단계인 공유 사서함 계정에 대한 로그인 차단으로 넘어갑니다.
+공유 일정이 포함된 공유 사서함을 만들었습니다. 다음 단계인 [공유 사서함 계정에 대한 로그인 차단](#block-sign-in-for-the-shared-mailbox-account)으로 이동합니다.
 
 ## <a name="which-permissions-should-you-use"></a>사용해야 하는 권한
 
@@ -130,13 +131,14 @@ ms.locfileid: "59184724"
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 ::: moniker-end
 
-1. 사용자 계정 목록에서 공유 사서함의 계정을 찾습니다(예: 필터를 **라이선스가 없는 사용자** 로 변경).
+2. 사용자 계정 목록에서 공유 사서함의 계정을 찾습니다(예: 필터를 **라이선스가 없는 사용자** 로 변경).
 
-1. 사용자를 선택하여 속성 창을 연 다음 **이 사용자 차단** 아이콘 및 ![이 사용자 차단 아이콘의 스크린 샷](../../media/block-user-icon.png)을 선택합니다.
+3. 사용자를 선택하여 속성 창을 연 다음 **이 사용자 차단** 아이콘 및 ![이 사용자 차단 아이콘의 스크린 샷](../../media/block-user-icon.png)을 선택합니다.
 
-   **참고**: 계정이 이미 차단된 경우 상단에 **로그인 차단됨** 이 표시되고 아이콘은 **이 사용자 차단 해제** 로 표시됩니다.
+   > [!NOTE]
+   > 계정이 이미 차단된 경우 **로그인 차단됨** 이 맨 위에 표시되고, 아이콘이 **사용자 차단 해제** 로 표시됩니다.
 
-1. **이 사용자를 차단할까요?** 창에서 **사용자의 로그인 차단** 을 선택한 다음 **변경 사항 저장** 을 선택합니다.
+4. **이 사용자를 차단할까요?** 창에서 **사용자의 로그인 차단** 을 선택한 다음 **변경 사항 저장** 을 선택합니다.
 
 Azure AD PowerShell을 사용하여 계정에 대한 로그인을 차단하는 방법(동시에 여러 계정 포함)에 대한 자세한 내용은 [Office 365 PowerShell을 사용하여 사용자 계정 차단](../../enterprise/block-user-accounts-with-microsoft-365-powershell.md)을 참조하세요.
 

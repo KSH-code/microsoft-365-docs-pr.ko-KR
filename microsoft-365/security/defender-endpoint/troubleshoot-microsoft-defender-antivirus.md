@@ -15,12 +15,13 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 2dda17d55dbe5e86b6d76e3a766a020c6e0bc3aa
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 61766babf6da4b0e564a85bf37c9bf7222afbf34
+ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356528"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59497642"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -361,7 +362,7 @@ Microsoft Defender 바이러스 백신 로그에 이벤트 WINDOWS 기록합니�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -433,7 +434,7 @@ Microsoft Defender 바이러스 백신 맬웨어 또는 사용자 원치 않는 
 <dt> 심각도: &lt; 심각도, &gt; 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -485,7 +486,7 @@ Microsoft Defender 바이러스 백신 또는 사용자 원치 않는 기타 소
 <dt> 심각도: &lt; 심각도, &gt; 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -539,7 +540,7 @@ Microsoft Defender 바이러스 백신 항목을 복원했습니다. 자세한 �
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -581,7 +582,7 @@ Microsoft Defender 바이러스 백신 항목을 복구하는 중 오류가 발�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -625,7 +626,7 @@ Microsoft Defender 바이러스 백신 항목을 삭제했습니다.<br/>자세�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -668,7 +669,7 @@ Microsoft Defender 바이러스 백신 항목을 삭제하는 중 오류가 발�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -774,7 +775,7 @@ Microsoft Defender 바이러스 백신 의심스러운 동작을 감지했습니
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -849,7 +850,7 @@ Microsoft Defender 바이러스 백신 맬웨어 또는 사용자 원치 않는 
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -928,7 +929,7 @@ Microsoft Defender 바이러스 백신 맬웨어 또는 사용자 원치 않는 
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -1050,7 +1051,7 @@ Microsoft Defender 바이러스 백신 또는 사용자 원치 않는 기타 소
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -1142,7 +1143,7 @@ Microsoft Defender 바이러스 백신 또는 사용자 원치 않는 기타 소
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>High</li>
+<li>높음</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -1352,20 +1353,20 @@ Microsoft Defender 바이러스 백신 클라이언트가 정상 상태로 실�
 <td >
 바이러스 백신 클라이언트 상태 보고서.
 <dl>
-<dt>플랫폼 버전: &lt; 현재 플랫폼 &gt; </dt>버전 엔진
-<dt>버전: &lt; &gt; </dt>Antimalware Engine 버전 네트워크 실시간 검사 엔진
-<dt>버전: &lt; &gt; </dt>네트워크 실시간 검사 엔진 버전 바이러스 백신 서명
-<dt>버전: &lt; 바이러스 &gt; </dt>백신 서명 버전 스파이웨어 방지 서명
-<dt> &lt; &gt; 버전:</dt>스파이웨어 방지 서명 버전 네트워크 실시간 검사 서명
-<dt>버전: 네트워크 실시간 &lt; 검사 &gt; </dt>서명 버전
-<dt>RTP 상태: &lt; 실시간 보호 &gt; 상태(사용</dt>또는 사용 안 하게)
-<dt>OA 상태: &lt; On Access state &gt; (Enabled or Disabled)</dt>
+<dt>플랫폼 버전: &lt; 현재 플랫폼 &gt; </dt>버전
+<dt>엔진 &lt; &gt; 버전:</dt>Antimalware Engine 버전 네트워크 실시간 검사 엔진 버전: 네트워크
+<dt> &lt; 실시간 &gt; </dt>검사 엔진 버전 바이러스 백신 서명 버전: 바이러스 백신
+<dt> &lt; &gt; 서명</dt>버전 스파이웨어 방지 서명 버전: 스파이웨어 방지 서명
+<dt> &lt; &gt; 버전</dt>네트워크 실시간 검사 서명
+<dt>버전: &lt; 네트워크 실시간 &gt; </dt>검사 서명 버전 RTP 상태: 실시간 보호 상태(사용 또는 사용 안 하여) OA 상태: On
+<dt>Access state &lt; &gt; (Enabled or Disabled)</dt>
 <dt>IOAV state: &lt; IE Downloads and Outlook Express Attachments state &gt; (Enabled or Disabled)</dt>
-<dt>BM state: &lt; Behavior Monitoring state &gt; (Enabled or Disabled)</dt>Antivirus signature
-<dt>age: Antivirus signature age &lt; &gt; (in days) </dt> 
+<dt>BM state: &lt; Behavior Monitoring state &gt; (Enabled or Disabled)</dt>Antivirus signature age: Antivirus signature age
+<dt> &lt; &gt; </dt>
+<dt> &lt; &gt; (in days) )</dt>
 <dt>Antispyware signature age: &lt; Antispyware signature age &gt; (in days)</dt>
-<dt>Last quick scan age: Last quick scan &lt; age &gt; (in days)</dt>Last full
-<dt>scan age: Last full scan age &lt; &gt; (in days)</dt>
+<dt>Last quick scan age: Last quick scan age &lt; &gt; (in days)</dt>
+<dt>Last full scan age: Last full scan age &lt; &gt; (in days)</dt>
 <dt>Antivirus signature creation time: ? &lt; 바이러스 백신 &gt; 서명 생성 시간</dt>스파이웨어 방지 서명
 <dt>생성 시간: ? &lt; 스파이웨어 방지 서명 생성 &gt; 시간</dt>
 <dt>마지막 빠른 검사 시작 시간: ? &lt; 마지막 빠른 검사 &gt; 시작 시간</dt>
