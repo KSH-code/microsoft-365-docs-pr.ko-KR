@@ -13,18 +13,17 @@ monikerRange: o365-worldwide
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 description: 생산성 점수로 개인 정보를 보호하는 방법
-ms.openlocfilehash: 5b5997532ddcd1fdf43b4124f8e2d8183bb3d89e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d849f4cc8924aac09ca41f30682e32babfcc7f13
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186876"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776119"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>생산성 점수에 대한 개인 정보 보호 컨트롤
 

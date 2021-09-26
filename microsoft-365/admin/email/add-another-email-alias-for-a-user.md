@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -23,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: '비즈니스용 계정과 연결된 전자 메일 별칭이라는 전자 메일 주소를 두 개 이상 사용할 Microsoft 365 방법을 알아보습니다. '
-ms.openlocfilehash: ab1a7b846bb35cce4656a3a5edf941961f5398c2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 83413bcf0adffd0af09405db7e936cec523530d9
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184779"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774859"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
   

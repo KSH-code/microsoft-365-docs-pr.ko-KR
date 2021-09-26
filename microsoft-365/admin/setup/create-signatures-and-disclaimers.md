@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
@@ -26,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: 조직에 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리합니다.
-ms.openlocfilehash: 47087f2d09428214237dba226e680aa3c332625d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5dd51435a67cb26353c6794bc9fe01509ef283a1
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184452"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776467"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 전체의 서명 및 고지 조항 만들기
 

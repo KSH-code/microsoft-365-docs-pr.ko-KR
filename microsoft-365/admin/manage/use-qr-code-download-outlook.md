@@ -11,17 +11,16 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 description: QR 코드를 사용하여 Outlook 모바일을 인증하고 다운로드하는 방법을 알아보세요.
-ms.openlocfilehash: 4cd093ea8592255587cdbe8d4dbb1a5c4b1d6674
-ms.sourcegitcommit: 4582873483bd52bc790bf75b838cc505dc4bbeb4
+ms.openlocfilehash: 0b47e60f29d3730701750a1b122f782c53122603
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58502018"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775813"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>QR 코드를 사용하여 Outlook 모바일 앱에 로그인
 

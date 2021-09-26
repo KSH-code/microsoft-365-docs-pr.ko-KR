@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Microsoft 365 그룹 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
-ms.openlocfilehash: 0b622f791de7615e45e49faec47558b0e67067f2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3c805084afcf3ad8538decd0859d91a6a65cfe00
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785966"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -70,7 +70,7 @@ Microsoft 365 그룹은 다른 Microsoft 365 그룹이나 배포 또는 보안 �
 
 메일 그룹은 "A 빌딩의 사용자" 또는 "Contoso의 모든 사용자"와 같은 사용자 그룹 집합에 정보를 브로드캐스팅하는 경우에 가장 적합합니다.
 
-배포 그룹은 [Microsoft 365 groups로 업그레이드](../manage/upgrade-distribution-lists.md) 할 수 있습니다.
+배포 그룹은 [Microsoft 365 groups로 업그레이드](../manage/upgrade-distribution-lists.md)할 수 있습니다.
 
 메일 그룹은 Microsoft Teams에서 팀에 추가할 수 있습니다.
 
@@ -110,7 +110,7 @@ Microsoft 365 그룹으로 공유 사서함을 마이그레이션할 수 없습�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 그룹에 대해 자세히 알아보세요.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Microsoft 365 그룹에 대한 자세한 정보](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 [Outlook에서 배포 목록을 Microsoft 365 그룹으로 업그레이드](/microsoft-365/admin/manage/upgrade-distribution-lists)
 

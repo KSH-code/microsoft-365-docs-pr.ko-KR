@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom:
 - MSStore_Link
@@ -25,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 Microsoft 365 라이선스를 제거합니다.
-ms.openlocfilehash: 7303c881e93d3ecb0c6637936ad12d8da227392c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: cf75d12ba425701528ec4f07d6d7e6b91e4dc585
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185203"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775339"
 ---
 # <a name="step-6---remove-the-microsoft-365-license-from-a-former-employee"></a>6단계 - 이전 Microsoft 365 라이선스 제거
 

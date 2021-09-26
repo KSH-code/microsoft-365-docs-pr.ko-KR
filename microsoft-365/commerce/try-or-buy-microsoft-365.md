@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
@@ -21,12 +22,12 @@ ms.custom:
 search.appverid: GEA150
 description: 30일 무료 평가판에 등록하여 Microsoft 365 Business Standard, Microsoft 365 Business Premium 또는 비즈니스용 Microsoft 365 앱.
 ms.date: 08/07/2020
-ms.openlocfilehash: 3fc29097268ad4213f7a46d0a58d9eb24073924d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b38d5a0fb49b67315d43011107c8643432fa021b
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188307"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786026"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 사용해 보거나 구입
 
@@ -45,7 +46,7 @@ Microsoft 365 비즈니스용 서비스는 Microsoft가 IT를 대신하는 동�
 
 ::: moniker-end
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 무료 평가판에 등록하는 데 기존 Microsoft 계정이 필요하지 않습니다. 이 문서의 다른 모든 절차에 대해 조직의 전역 관리자 또는 대금 청구 관리자일 수 있습니다. 자세한 내용은 [관리자 역할 정보](../admin/add-users/about-admin-roles.md)를 참조하세요.
 
@@ -148,6 +149,6 @@ Microsoft 365 관리 센터 통해 다른 구독을 구입하면 새 구독이 �
 [Microsoft 365 교육](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 비디오(비디오)\
 [사용자를 추가하고](../admin/add-users/add-users.md) 동시에 라이선스 할당(문서)\
 [사용자에게 라이선스 할당](../admin/manage/assign-licenses-to-users.md)(문서)\
-[다른 계획으로](subscriptions/upgrade-to-different-plan.md) 업그레이드(문서)\
+[다른 계획으로 업그레이드](subscriptions/upgrade-to-different-plan.md) (문서)\
 [비즈니스용 Microsoft 365 추가 기능 구입](buy-or-edit-an-add-on.md) 또는 편집(문서)\
 [구독에 대한 저장소 공간](add-storage-space.md) 추가(문서)

@@ -17,12 +17,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 5fdabb81541de9cec5b35641d25c6c10098015ca
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 3a336e1b8c8fe9c8a15925a3c28d7861c6e4bb10
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59490144"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776551"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -109,7 +109,7 @@ ms.locfileid: "59490144"
 >
 > PowerShell을 사용하여 이 규칙을 [구성할 수 있습니다.](enable-attack-surface-reduction.md#powershell)
 >
-> 드라이버를 검사하기 위해 이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출합니다.](https://www.microsoft.com/wdsi/driversubmission)
+> 드라이버를 검사하기 위해 이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출합니다.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 Intune 이름: `Block abuse of exploited vulnerable signed drivers`
 

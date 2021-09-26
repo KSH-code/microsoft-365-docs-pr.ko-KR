@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -23,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Microsoft 365 사용하여 일부 개별 사용자 암호를 만료하지 못하도록 설정하려면 Windows PowerShell.
-ms.openlocfilehash: 29d0ebcbb3f9fb197e574731e23aaa64c2fa7894
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8574571564ddfd98e5a5cfe7c232353e0d82f85c
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775303"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>사용자 암호를 만료 기한 제한 없음으로 설정
 
@@ -75,7 +74,7 @@ AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 참조 �
      }
     ```
 
-- 이름이 l인 현재 사용자의 바탕 화면에서 Html로 PasswordNeverExpires를 사용하는 모든 사용자에  **대한ReportPasswordNeverExpires.htm**
+- 이름이 같은 현재 사용자의 바탕 화면에서 Html로 PasswordNeverExpires를 사용하는 모든 사용자에 대한  **보고서를ReportPasswordNeverExpires.html**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{

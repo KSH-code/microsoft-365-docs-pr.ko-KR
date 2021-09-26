@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom:
 - MSStore_Link
@@ -26,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
-ms.openlocfilehash: e0904c6aeca919dd3f93044ce177a34761cb141b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4a502646e41bd3f06f5f8412aac3929b8fbad210
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774210"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 

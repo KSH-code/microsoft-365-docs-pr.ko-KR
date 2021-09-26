@@ -12,19 +12,18 @@ localization_priority: Normal
 ms.collection:
 - Microsoft 365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 앱 - 기술 환경 생산성 점수에 대한 세부 정보입니다.
-ms.openlocfilehash: d8e9cb1f29c8138616c1cc2461bfa07fb9dafd9c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3f8fdb156b19bc2f94d64a0efd1ff407cf007510
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773898"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Microsoft 365 Apps 상태 - 기술 경험
 

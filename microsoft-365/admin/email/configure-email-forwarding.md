@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -24,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: 전자 메일 전달을 사용하면 조직 내부 또는 외부의 다른 사서함으로 Microsoft 365 전자 메일 메시지를 전달할 수 있습니다.
-ms.openlocfilehash: c2715f42a32eb4a4a3743016d54b7ad42c424835
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 6703e37c1f576a5f3b0671def764deafa7e2daa2
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774691"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>전자 메일 전달 구성 Microsoft 365
 
@@ -58,7 +57,7 @@ ms.locfileid: "59356330"
 
 3. 메일 **탭에서** 전자 메일 전달 **관리를 선택합니다.**
 
-4. 전자 메일 전달 페이지에서 이 사서함에 전송된 모든 전자 메일 전달을 선택하고 전달 주소를 입력하고 전달된 전자 메일의 복사본을 유지할지 여부를 선택합니다. 이 옵션이 없는 경우 사용자 계정에 라이선스가 할당되어 있는지 확인 합니다. **변경 사항 저장** 을 선택합니다.
+4. 전자 메일 전달 페이지에서 이 사서함에 전송된 모든 전자 메일 전달을 선택하고 전달 주소를 입력하고 전달된 전자 메일의 복사본을 유지할지 여부를 선택합니다. 이 옵션이 없는 경우 사용자 계정에 라이선스가 할당되어 있는지 확인 합니다. **변경 내용 저장** 을 선택합니다.
 
     여러 전자 메일 **주소로** 전달하기 위해 사용자에게 주소로 전달할 규칙을 Outlook 수 있습니다. 
     

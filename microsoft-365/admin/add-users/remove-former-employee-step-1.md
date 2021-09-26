@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom:
 - MSStore_Link
@@ -25,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이전 직원의 로그인을 차단하고 Microsoft 365 차단합니다.
-ms.openlocfilehash: da1ad9236a8380dd3ce5bdebb86675b7c6e09cbd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b33f3aa74ebdcf785b75889f5f3263e91b127cdc
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185251"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773454"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>1단계 - 이전 직원이 로그인하지 못하게 방지하고 Microsoft 365 액세스 차단
 

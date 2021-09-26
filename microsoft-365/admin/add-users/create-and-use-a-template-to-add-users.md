@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -20,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 템플릿을 만들고 사용하여 여러 사용자를 추가할 때 시간을 절약하고 설정을 표준화할 수 있습니다.
-ms.openlocfilehash: 3ce70f6d37036a2f71bdc2d41bfb5677a54b8db9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6ef35bb395417597d10b8b33c042e1baceeb40db
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185291"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773490"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>서식 파일을 만들고 사용하여 사용자 추가
 

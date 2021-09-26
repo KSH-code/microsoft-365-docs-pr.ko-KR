@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_O365_Setup
+- Adm_TOC
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
@@ -22,12 +23,12 @@ ms.custom:
 search.appverid: MET150
 description: 제품 페이지로 이동하여 조직에 있는 구독을 확인하는 방법을 알아보십시오.
 ms.date: 01/21/2021
-ms.openlocfilehash: bb11ab4fc8933e2e199998992f0c12ea8de0d23a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9c6870ae7008dee25a8dd6e5a3e2f44e534b0028
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786002"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 

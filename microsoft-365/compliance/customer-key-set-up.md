@@ -12,12 +12,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키에 대한 고객 키를 설정하는 Microsoft 365.
-ms.openlocfilehash: e187c01a355cc9b926e892cb3326b5a527c714a4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 739653151031026e788c4b39fa3b182184115175
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212675"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776635"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -52,7 +52,7 @@ Office 365 E5, Microsoft 365 E5, Microsoft 365 E5 Compliance 및 Microsoft 365 E
  
 - [필수 보존 기간을 사용하기 위해 Azure 구독 등록](#register-azure-subscriptions-to-use-a-mandatory-retention-period)
 
-  등록에는 영업일 1~5일이 걸릴 수 있습니다.
+  이 등록 프로세스는 완료하는 데 영업일 5일이 걸립니다.
 
 - [각 구독에서 프리미엄 Azure Key Vault 만들기](#create-a-premium-azure-key-vault-in-each-subscription)
 
@@ -111,7 +111,7 @@ Azure Key Vault에서 이러한 작업을 완료합니다. 고객 키와 함께 
 
 ### <a name="register-azure-subscriptions-to-use-a-mandatory-retention-period"></a>필수 보존 기간을 사용하기 위해 Azure 구독 등록
 
-루트 암호화 키의 일시적 또는 영구적 손실은 서비스 작업에 지장이나 심지어는 비극적일 수 있으며 데이터가 손실될 수 있습니다. 이러한 이유로 고객 키와 함께 사용되는 리소스에는 강력한 보호가 필요합니다. 고객 키와 함께 사용되는 모든 Azure 리소스는 기본 구성을 넘어 보호 메커니즘을 제공합니다. 필수 보존 기간 동안 Azure 구독에 태그를 지정하거나 *등록할 수 있습니다.* 필수 보존 기간은 Azure 구독의 즉시 취소할 수 없는 취소를 방지합니다. 필수 보존 기간 동안 Azure 구독을 등록하는 데 필요한 단계를 수행하려면 팀과 공동 작업을 Microsoft 365 합니다. 이 프로세스는 영업일로부터 5일까지 걸릴 수 있습니다. 이전에는 필수 보존 기간을 "취소 금지"라고도 합니다.
+루트 암호화 키의 일시적 또는 영구적 손실은 서비스 작업에 지장이나 심지어는 비극적일 수 있으며 데이터가 손실될 수 있습니다. 이러한 이유로 고객 키와 함께 사용되는 리소스에는 강력한 보호가 필요합니다. 고객 키와 함께 사용되는 모든 Azure 리소스는 기본 구성을 넘어 보호 메커니즘을 제공합니다. 필수 보존 기간 동안 Azure 구독에 태그를 지정하거나 *등록할 수 있습니다.* 필수 보존 기간은 Azure 구독의 즉시 취소할 수 없는 취소를 방지합니다. 필수 보존 기간 동안 Azure 구독을 등록하는 데 필요한 단계를 수행하려면 팀과 공동 작업을 Microsoft 365 합니다. 이 프로세스를 완료하는 데 영업일 5일이 걸립니다. 이전에는 필수 보존 기간을 "취소 금지"라고도 합니다.
   
 Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 Azure 구독에 대해 다음 단계를 수행해야 합니다. 시작하기 전에 Azure PowerShell [Az](/powershell/azure/new-azureps-module-az) 모듈이 설치되어 있지 않은지 확인합니다.
   
@@ -132,13 +132,13 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
 
    - 모든 테넌트 사용자에 대해 여러 Microsoft 365(Exchange Online Teams, MIP, MIP EDM)에서 콘텐츠를 암호화할 수 있도록 DEP를 할당하기 위한 고객 키가 에 [m365-ck@service.microsoft.com.](mailto:m365-ck@service.microsoft.com)
 
-- 전자 메일에 다음 정보를 포함합니다.
+   - 전자 메일에 다음 정보를 포함합니다.
 
-   **제목:** 고객 키 \<*Your tenant's fully qualified domain name*\>
+     **제목:** 고객 키 \<*Your tenant's fully qualified domain name*\>
 
-   **본문:** 필수 보존 기간을 완료할 구독 Get-AzProviderFeature 각 구독에 대한 결과값을 포함합니다.
+     **본문:** 필수 보존 기간을 완료할 구독 Get-AzProviderFeature 각 구독에 대한 결과값을 포함합니다.
 
-   이 프로세스 완료를 위한 SLA(서비스 수준 계약)는 Microsoft에 필수 보존 기간을 사용하기 위해 구독을 등록했다는 알림을(확인)한 후 영업일 5일입니다.
+     이 프로세스 완료를 위한 SLA(서비스 수준 계약)는 Microsoft에 필수 보존 기간을 사용하기 위해 구독을 등록했다는 알림을(확인)한 후 영업일 5일입니다.
 
 4. Microsoft로부터 등록이 완료되었습니다는 알림을 받으면 다음과 같이 Get-AzProviderFeature 등록 상태를 확인 합니다. 확인되면 Get-AzProviderFeature 명령은 Registration State 속성에 **대해 Registered** 값을 **반환합니다.** 각 구독에 대해 이 단계를 완료합니다.
 
@@ -195,7 +195,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예시:
+   예:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-CK-EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -205,7 +205,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
 
 - **고객 Microsoft 365** 사용하는 모든 키 자격 증명 모음에 대해 응용 프로그램에 대한 사용 권한을 부여하려면 wrapKey, unwrapKey 및 해당 Microsoft 365 서비스 사용자에 대한 사용 권한을 부여해야 합니다. 
 
-서비스 사용자에 Microsoft 365 권한을 부여하려면 다음 구문을 사용하여 **Set-AzKeyVaultAccessPolicy** cmdlet을 실행합니다.
+  서비스 사용자에 Microsoft 365 권한을 부여하려면 다음 구문을 사용하여 **Set-AzKeyVaultAccessPolicy** cmdlet을 실행합니다.
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName <Office 365 appID>
@@ -274,7 +274,7 @@ Add-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Destination <HSM|Sof
   
 HSM으로 키를 보호하려는 경우 **HSM을** _Destination_ 매개 변수 값으로 지정해야 합니다. 그렇지 않으면 Software 를 **지정합니다.**
 
-예를 들면 다음과 같습니다.
+예:
   
 ```powershell
 Add-AzKeyVaultKey -VaultName Contoso-CK-EX-NA-VaultA1 -Name Contoso-CK-EX-NA-VaultA1-Key001 -Destination HSM -KeyOps wrapKey,unwrapKey
@@ -320,7 +320,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름과 키 이름을 조합하여 선택하십시오. 이렇게 하면 파일 이름이 자체 설명으로 지정됩니다. 또한 백업 파일 이름이 충돌하지 않도록 합니다.
   
-예시:
+예:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-CK-EX-NA-VaultA1 -Name Contoso-CK-EX-NA-VaultA1-Key001 -OutputFile Contoso-CK-EX-NA-VaultA1-Key001-Backup-20170802.backup

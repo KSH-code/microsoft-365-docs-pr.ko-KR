@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom:
 - MSStore_Link
@@ -25,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 모바일 장치 액세스를 차단합니다.
-ms.openlocfilehash: 8c5b279bc85d6c99fd8722d1f9fd4d4b3757e793
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4ccfb4d013cb35263748ef3fcf4187c68faffb97
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185212"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774150"
 ---
 # <a name="step-5---wipe-and-block-a-former-employees-mobile-device"></a>5단계 - 이전 직원의 모바일 장치 지우기 및 차단
 

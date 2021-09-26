@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -20,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: 브라우저 및 웹 응용 프로그램을 통해 보고서를 사용자 지정하는 Power BI Desktop.
-ms.openlocfilehash: 5dcdee05fbb413c7f1925f5e81c7e6596da111e5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7fbd31af1dc59cb8161e981bb27d0bac132be755
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190619"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773934"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>사용 현황 분석에서 Microsoft 365 사용자 지정
 

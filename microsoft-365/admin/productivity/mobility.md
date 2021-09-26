@@ -12,19 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
 description: 이동성에 대한 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: 7789980a721e5ebaad3d3673fd0e7c640b6f737d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1bf45022193e8e1f5e4788312fb19705a6be7446
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186892"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776275"
 ---
 # <a name="mobility--people-experiences"></a>모바일 - 사람 환경
 
@@ -77,7 +76,7 @@ Microsoft 365 Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Microsoft Tea
 
 ### <a name="scoring-framework"></a>점수 매기기 프레임워크
 
-조직의 이동성 점수는 다른 플랫폼(데스크톱, 웹 및 모바일)에서 Microsoft 365 앱( Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer 및 Skype)를 사용하는지 조직(집계) 수준에서 측정합니다.
+조직의 이동성 점수는 다른 조직에서 Microsoft 365 앱( Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer 및 Skype)를 사용하는지 여부를 조직(집계) 수준에서 측정합니다. platforms - 데스크톱, 웹 및 모바일.
 
 점수는 개별 사용자 수준에서 제공되지 않습니다.
 

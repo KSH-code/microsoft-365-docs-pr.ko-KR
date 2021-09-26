@@ -12,7 +12,6 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
@@ -26,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Microsoft 365 관리 센터에 관리자 권한으로 로그인하여 클라우드에서 조직을 설정하고 사용자 및 구독을 관리합니다.
-ms.openlocfilehash: 2e7495b4c5fc039720d3e58cacebf1e86dcaaff2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 84e8a3f692fe4747fb213564c77713cd63181905
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773970"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 

@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom:
 - AdminSurgePortfolio
@@ -21,18 +20,18 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제하는 방법과 사용자의 전자 메일 및 전자 메일로 할 OneDrive 콘텐츠 및 제품 라이선스를 유지할지 여부에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: 0fc74780bfdf7d5d6f0f6e21598dd07e4662d8b3
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: c15bcc88290fbd54b76a11ae96e89fbacd2c3b58
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356392"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774345"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
 **직장이나 학교에서  사용하는 Microsoft 365 계정을 삭제하는 방법을 찾고 있나요? 이 단계를 수행하기 위해 직장이나 대학의 기술 지원에 문의하세요.**
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 - 전역 관리자 [](about-admin-roles.md) 또는 Microsoft 365 사용자 관리 권한이 있는 사용자만 사용자 계정을 삭제할 수 있습니다.
 - 30일 내에 계정을 [복원](restore-user.md)하지 않으면 사용자 데이터가 영구적으로 삭제됩니다.

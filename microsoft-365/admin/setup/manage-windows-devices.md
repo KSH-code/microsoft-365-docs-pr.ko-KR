@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
+- Adm_TOC
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -25,12 +26,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 몇 단계만 Microsoft 365 Active-Directory에 가입된 Windows 10 보호할 수 있도록 설정하는 방법을 알아보십시오.
-ms.openlocfilehash: 2a60437bafc7aae1928d73342555c030a71689cd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 28c9b9da1bc830c2a17e531b398a34b50949ba54
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184419"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786236"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>도메인에 가입된 Windows 10 장치를 관리하도록 Microsoft 365 Business Premium
 
@@ -43,7 +44,7 @@ ms.locfileid: "59184419"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 - 사용자를 Azure AD와 Azure AD 커넥트.
 - Azure AD 커넥트 OU(조직 구성 단위) 동기화를 완료합니다.

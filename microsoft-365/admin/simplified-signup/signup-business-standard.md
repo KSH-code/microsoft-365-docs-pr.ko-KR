@@ -9,17 +9,16 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection:
-- Adm_TOC
+ms.collection: ''
 ms.custom:
 - AdminSurgePortfolio
 description: 구매 Microsoft 365 Business Standard 조직을 설정하는 방법을 제공합니다.
-ms.openlocfilehash: 498906bf227aa4cfd6a964212bb9553932d32602
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: a809dcabe26a24231e12e4d3d14d544f83bb2c91
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401845"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775939"
 ---
 # <a name="sign-up-for-a-microsoft-365-business-standard-subscription"></a>Microsoft 365 Business Standard 구독 신청
 
@@ -94,7 +93,7 @@ ms.locfileid: "59401845"
 > [!IMPORTANT]
 > 다음 단계에 따라 구매할 Microsoft 365 앱 있습니다. 자세한 내용은 Set [up 비즈니스용 Microsoft 365 앱](../setup/setup-apps-for-business.md) after you purchase 비즈니스용 Microsoft 365 앱.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="what-is-a-business-email-and-what-are-the-advantages-to-setting-one-up"></a>비즈니스 전자 메일이란 무엇일까요? 설정 시의 이점은 무엇입니까?
 

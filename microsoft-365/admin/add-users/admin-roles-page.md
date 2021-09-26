@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -21,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리자 역할은 비즈니스 기능에 매핑되어 관리 센터에서 특정 작업을 수행할 수 있는 권한을 제공합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: f0dc528814c47bca618c7df3462bb0d7bcdb55fe
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b6e787fe4eb72ef5a6d8da78391839509a38b446
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773646"
 ---
 # <a name="get-started-with-the-roles-page"></a>역할 페이지 시작
 

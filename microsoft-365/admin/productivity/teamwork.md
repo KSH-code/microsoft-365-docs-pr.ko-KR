@@ -12,19 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
 description: 팀워크의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: 0924114a73a9bcf55a74744ee371de8c2d326d1c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a10de3daf0d485ec75948f7f23202b06bfe29793
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186867"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59772835"
 ---
 # <a name="teamwork--people-experiences"></a>팀워크 - 사람 환경
 

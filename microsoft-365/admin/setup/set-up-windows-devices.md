@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
+- Adm_TOC
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -28,16 +29,16 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 중앙 집중식 Windows 제어를 Windows 10 Pro Microsoft 365 Business Premium 실행되는 디바이스를 설정하십시오.
-ms.openlocfilehash: 4b390b1217cd3af7b5f2cc49dc2fb3507a7fe04c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8fa14a7505e197c0e60f0ccceeb74c350a8b25b8
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166474"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786278"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>사용자용 Windows 장치 Microsoft 365 Business Premium 설정
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 Windows 사용자를 위해 Windows Microsoft 365 Business Premium 장치를 설정하기 전에 모든 Windows 장치가 Windows 10 Pro 버전 1703(크리에이터스 업데이트)을 실행하고 있는지 확인하십시오. Windows 10 Pro 클라우드 서비스 및 장치 관리 기능 집합인 Windows 10 Business 배포하기 위한 선행 구성 Windows 10 Pro 관리 및 보안 제어를 Microsoft 365 Business Premium.
   

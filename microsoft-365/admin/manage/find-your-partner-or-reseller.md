@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -24,12 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
 description: '새 Microsoft 365 파트너를 찾거나 과거에 함께 일한 파트너에 대한 연락처 정보를 얻는 방법을 알아보는 방법을 배워야 합니다. '
-ms.openlocfilehash: ac557a04039c9cf618f2ed1fd0e8c0d967e76386
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 08982c36864b4d641e5c5f9d5f2ef2f857fcebed
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184523"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774391"
 ---
 # <a name="find-your-partner-or-reseller"></a>파트너 또는 대리점 찾기
 

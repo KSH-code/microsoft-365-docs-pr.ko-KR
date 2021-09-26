@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
@@ -22,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 보다 복잡한 설정 및 작업에 Microsoft 365 대시보드 보기를 관리하려면 이 보기의 간소화된 보기를 사용합니다.
-ms.openlocfilehash: e3bee5487a0004f6741e51494c01f7e2c2355227
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d1f187f7ab3f7fdad53727a3cd74e2543c3cbcef
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188883"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786374"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 개요
 
@@ -117,7 +118,7 @@ To get to the Microsoft 365 관리 센터, go to [admin.microsoft.com,](https://
 
 관리 센터에서 모든 페이지의 맨 아래에 있는 도움이  **필요하세요?** 단추 옆에 있는 피드백 보내기 단추를 선택하여 사용자 환경과 관련한 Microsoft 피드백을 제공하면 됩니다. 원하는 것을 말하고 더 나은 작업을 알려 주시고. 또한 전체 노출 또는 새로 릴리스된 특정 경험에 대해 묻는 팝업 설문 조사를 수시로 받을 수 있습니다. 이 문서의 끝부분에서 이 정보가 도움이 었습니까?를 선택하여 **피드백을 줄 수 있습니다.**
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 여기에 답변된 질문이 없는가요? 이 페이지 **아래쪽의** 피드백 섹션으로 이동하여 질문을 합니다.
 
@@ -149,42 +150,42 @@ UserVoice 포럼의 관리 센터 외부에서 피드백을 줄 수도 있습니
 |---------|---------|
 |아랍어 | ar |
 |Bulgarian | bg |
-|Catalan | ca |
-|Czech | cs |
-|Danish | da |
-|German | de |
-|Greek | el |
-|Spanish | es |
+|카탈로니아어 | ca |
+|체코어 | cs |
+|덴마크어 | da |
+|독일어 | de |
+|그리스어 | el |
+|스페인어 | es |
 |영어 | en |
 |Estonian | et |
 |Basque | eu |
 |Finnish | fi |
-|French | fr |
+|프랑스어 | fr |
 |Galician | gl |
 |Hebrew | he |
 |Croatian | hr |
-|Hungarian | hu |
-|Indonesian  | id |
-|Italian | it |
-|Japanese | ja |
-|Korean | ko |
+|헝가리어 | hu |
+|인도네시아어  | id |
+|이탈리아어 | it |
+|일본어 | ja |
+|한국어 | ko |
 |Lithuanian | lt |
 |Latvian | lv |
-|Dutch | nl |
+|네덜란드어 | nl |
 |노르웨이어 | 아니요 |
-|Polish | pl |
+|폴란드어 | pl |
 |포르투갈어(브라질) | pt |
 |포르투갈어(포르투갈) | pt-pt |
-|Romanian | ro |
-|Russian | ru |
+|루마니아어 | ro |
+|러시아어 | ru |
 |Slovak | sk |
 |Slovenian | sl |
 |세르비아어(키릴 자모)  | sr-cyrl |
 |Serbian Latin | sr |
-|Swedish | sv |
-|Thai | th |
-|Turkish | tr |
-|Ukrainian | uk |
+|스웨덴어 | sv |
+|태국어 | th |
+|터키어 | tr |
+|우크라이나어 | uk |
 |Vietnamese | vi |
 |Chinese Simplified | zh-hans |
 |Chinese Traditional | zh-hant |

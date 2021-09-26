@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex의 구문 목록, 정규식 및 근접 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: 405080575f48f439e7d978a8fc7ca00ecf956be0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 178f56ea0513d0cc8ba0c47a3c9cde3a24796899
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210875"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786398"
 ---
 # <a name="explanation-types-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 설명 유형
 
@@ -138,6 +138,9 @@ Redmond, WA 98034<br>
 근접 설명을 사용하여 전화 번호 설명이 문서에서 거리 주소 번호를 식별해내기에 근접하지 않은 설명이라는 것을 규정할 수 있습니다.
 
 ![근접 설명.](../media/content-understanding/proximity.png)
+
+> [!NOTE]
+> 현재 근접 설명 형식에는 정규식을 사용할 수 없습니다.
 
 #### <a name="what-are-tokens"></a>토큰이란?
 

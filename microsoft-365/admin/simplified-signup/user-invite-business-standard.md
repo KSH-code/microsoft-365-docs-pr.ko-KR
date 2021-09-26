@@ -9,17 +9,16 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection:
-- Adm_TOC
+ms.collection: ''
 ms.custom:
 - AdminSurgePortfolio
 description: 초대 수락하여 조직에 Microsoft 365 Business Standard 수락
-ms.openlocfilehash: cdb77b7f0263aaeabad972dc5a005e42ce0d6deb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c6d5142f966501451517e31b611fdbbe12c94bdd
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186627"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776359"
 ---
 # <a name="accept-an-email-invitation-to-a-microsoft-365-business-standard-subscription-user"></a>Microsoft 365 Business Standard 전자 메일 초대 수락(사용자)
 
@@ -60,7 +59,7 @@ Gmail에서 Microsoft 365 Business를 이미 사용하고 있는 경우 Outlook,
 
 비즈니스용 앱의 [Office 다운로드하여 사용을 시작하세요.](https://support.microsoft.com/office/install-office-apps-from-office-365-dcf2d841-dac7-455b-9a77-fc8f7ee92702)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="i-didnt-receive-an-upgrade-email"></a>업그레이드 전자 메일을 받지 못하나요?
 

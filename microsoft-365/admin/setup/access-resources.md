@@ -8,7 +8,9 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-ms.collection: M365-subscription-management
+ms.collection:
+- M365-subscription-management
+- Adm_TOC
 localization_priority: Normal
 ms.custom:
 - Core_O365Admin_Migration
@@ -22,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 연결된 Windows 10 장치의 LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: 2c0bb33fbfc99cf3683a53d8aa4c98fc70fb9253
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5895223fedfbd1791be35455a1909ddc5f697c80
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186747"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786203"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Azure AD 가입 장치에서 프레미스 리소스에 Microsoft 365 Business Premium
 

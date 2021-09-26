@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -22,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제된 그룹은 30일 동안 보존되고 그룹을 복원할 수 있습니다. 30일이 지난 후 그룹 및 해당 콘텐츠는 영구적으로 삭제됩니다.
-ms.openlocfilehash: ddc3da57c05b7c5f54c10a0cc429c9a3f24b859c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 30fa44a50ea6a65ae3cf71cb91e7d8ab0fd2e200
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773198"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>삭제된 그룹 Microsoft 365 복원
 

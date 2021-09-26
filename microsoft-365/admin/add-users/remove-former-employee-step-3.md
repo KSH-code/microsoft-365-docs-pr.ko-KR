@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom:
 - MSStore_Link
@@ -25,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 전자 메일을 다른 직원에게 전달하거나 공유 사서함으로 변환합니다.
-ms.openlocfilehash: f9d5cefd761d95a3df03864aa14de1bcfb608d04
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f0a779a4fcc27d99e99f28836418ad62d338b227
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185227"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773430"
 ---
 # <a name="step-3---forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>3단계 - 이전 직원의 전자 메일을 다른 직원에게 전달하거나 공유 사서함으로 변환
 

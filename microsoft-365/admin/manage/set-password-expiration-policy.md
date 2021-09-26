@@ -12,7 +12,6 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
@@ -25,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 관리자가 Microsoft 365 관리 센터에서 비즈니스, 학교 또는 비영리 단체에 대한 암호 만료 정책을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: dd9c8cd96813fcffd826c4a9416a0a54e8c32a50
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 48c4df727527000cf5e2676b52fd9b39e5da733d
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187100"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775855"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 

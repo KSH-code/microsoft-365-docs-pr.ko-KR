@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 08/16/2021
+ms.date: 09/23/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 26bcd994052eeb265521dc45784c05c559045600
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: de37ae2b13a100c3e60b6b0e5de1c0d8a96799ce
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776923"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Endpoint용 Microsoft Defender로 전환 - 3단계: 온보딩
 
@@ -70,10 +70,10 @@ ms.locfileid: "59401437"
 
 |운영 체제|메서드|
 |---|---|
-|Windows 10|[그룹 정책](configure-endpoints-gp.md) <p> [Configuration Manager](configure-endpoints-sccm.md) <p> [모바일 장치 관리(Intune)](configure-endpoints-mdm.md) <p> [로컬 스크립트](configure-endpoints-script.md) <p> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.|
-|Windows 8.1 Enterprise <p> Windows 8.1 Pro <p> Windows 7 SP1 Enterprise <p> Windows 7 SP1 Pro|[Microsoft Monitoring Agent](onboard-downlevel.md) <p> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)|
-|Windows Server 2019 이상 <p> Windows Server 2019 Core Edition <p> Windows 서버 버전 1803 이상|[로컬 스크립트](configure-endpoints-script.md) <p> [그룹 정책](configure-endpoints-gp.md) <p> [Configuration Manager](configure-endpoints-sccm.md) <p> [System Center Configuration Manager](configure-endpoints-sccm.md) <p> [비영구 장치에 대한 VDI 온보딩 스크립트](configure-endpoints-vdi.md) <p> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.|
-|Windows Server 2016 <p> Windows Server 2012 R2 <p> Windows Server 2008 R2 SP1|[Microsoft 365 Defender 포털](configure-server-endpoints.md) <p> [Azure Defender](/azure/security-center/security-center-wdatp)|
+|Windows 10|[그룹 정책](configure-endpoints-gp.md) <br/><br/> [Configuration Manager](configure-endpoints-sccm.md) <br/><br/> [모바일 장치 관리(Intune)](configure-endpoints-mdm.md) <br/><br/> [로컬 스크립트](configure-endpoints-script.md) <br/><br/> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.|
+|Windows 8.1 Enterprise <br/><br/> Windows 8.1 Pro <br/><br/> Windows 7 SP1 Enterprise <br/><br/> Windows 7 SP1 Pro|[Microsoft Monitoring Agent](onboard-downlevel.md) <br/><br/> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)|
+|Windows Server 2019 이상 <br/><br/> Windows Server 2019 Core Edition <br/><br/> Windows 서버 버전 1803 이상|[로컬 스크립트](configure-endpoints-script.md) <br/><br/> [그룹 정책](configure-endpoints-gp.md) <br/><br/> [Configuration Manager](configure-endpoints-sccm.md) <br/><br/> [System Center Configuration Manager](configure-endpoints-sccm.md) <br/><br/> [비영구 장치에 대한 VDI 온보딩 스크립트](configure-endpoints-vdi.md) <br/><br/> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.|
+|Windows Server 2016 <br/><br/> Windows Server 2012 R2 <br/><br/> Windows Server 2008 R2 SP1|[Microsoft 365 Defender 포털](configure-server-endpoints.md) <br/><br/> [Azure Defender](/azure/security-center/security-center-wdatp)|
 |macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)|[Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)|
 |iOS|[Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)|
 |Linux: RHEL 7.2+; CentOS Linux 7.2+; Ubuntu 16 LTS 이상; SLES 12+; 데비안 9+; Oracle Linux 7.2|[Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)|
@@ -86,9 +86,9 @@ ms.locfileid: "59401437"
 
 |운영 체제|지침|
 |---|---|
-|Windows 10 <p> Windows Server 2019 <p> Windows 서버, 버전 1803 이상 <p> Windows Server 2016 <p> Windows Server 2012 R2|검색 [테스트 실행을 참조합니다.](run-detection-test.md) <p> Endpoint용 Defender 데모 시나리오 사이트( )를 방문하여 하나 이상의 <https://demo.wd.microsoft.com> 시나리오를 시도해 봤습니다. 예를 들어 클라우드 제공 보호 **데모 시나리오를 시도해** 보겠습니다.|
-|macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)|에서 DIY 앱을 다운로드하여 <https://aka.ms/mdatpmacosdiy> 사용하세요. <p> 자세한 내용은 [macOS의 Endpoint용 Defender를 참조하세요.](microsoft-defender-endpoint-mac.md)|
-|Linux: RHEL 7.2+; CentOS Linux 7.2+; Ubuntu 16 LTS 이상; SLES 12+; 데비안 9+; Oracle Linux 7.2|<ol><li>다음 명령을 실행하고 1 : **의 결과를 찾아야** `mdatp health --field real_time_protection_enabled` 합니다.</li><li>터미널 창을 열고 다음 명령을 `curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt` 실행합니다. .</li><li>다음 명령을 실행하여 검색된 위협을 `mdatp threat list` 나열합니다. .</li></ol> <p> 자세한 내용은 [Linux의 끝점용 Defender를 참조하세요.](microsoft-defender-endpoint-linux.md)|
+|Windows 10 <br/><br/> Windows Server 2019 <br/><br/> Windows 서버, 버전 1803 이상 <br/><br/> Windows Server 2016 <br/><br/> Windows Server 2012 R2|검색 [테스트 실행을 참조합니다.](run-detection-test.md) <br/><br/> Endpoint용 Defender 데모 시나리오 사이트( )를 방문하여 하나 이상의 <https://demo.wd.microsoft.com> 시나리오를 시도해 봤습니다. 예를 들어 클라우드 제공 보호 **데모 시나리오를 시도해** 보겠습니다.|
+|macOS:<br/>- 11.3.1(Big Sur)<br/>- 10.15(카탈로나)<br/>- 10.14(Mojave)|에서 DIY 앱을 다운로드하여 <https://aka.ms/mdatpmacosdiy> 사용하세요. <br/><br/> 자세한 내용은 [macOS의 Endpoint용 Defender를 참조하세요.](microsoft-defender-endpoint-mac.md)|
+|Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS 이상<br/>- SLES 12+<br/>- 데비안 9+<br/>- Oracle Linux 7.2|1. 다음 명령을 실행하고 1 : **의 결과를 찾아야** `mdatp health --field real_time_protection_enabled` 합니다.<br/><br/>2. 터미널 창을 열고 다음 명령을 `curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt` 실행합니다. .<br/><br/>3. 다음 명령을 실행하여 감지된 위협을 `mdatp threat list` 나열합니다. . <br/><br/> 자세한 내용은 [Linux의 끝점용 Defender를 참조하세요.](microsoft-defender-endpoint-linux.md)|
 
 ## <a name="confirm-that-microsoft-defender-antivirus-is-in-passive-mode-on-your-endpoints"></a>끝점에서 Microsoft Defender 바이러스 백신 수동 모드에 있는지 확인
 
@@ -98,10 +98,10 @@ ms.locfileid: "59401437"
 
 |메서드|수행할 작업|
 |---|---|
-|명령 프롬프트|<ol><li>장치 Windows 명령 프롬프트를 니다.</li><li>`sc query windefend`를 입력한 다음 Enter를 누를 수 있습니다.</li><li>결과를 검토하여 수동 Microsoft Defender 바이러스 백신 실행 중인지 검토합니다.</li></ol>|
-|PowerShell|<ol><li>장치 Windows 관리자 권한으로 Windows PowerShell 를 니다.</li><li>다음 PowerShell cmdlet을 `Get-MpComputerStatus|select AMRunningMode` 실행합니다. .</li></ol> <p> 결과를 검토합니다. 수동 **모드가 표시됩니다.**|
-|Windows 보안 앱|<ol><li>Windows 디바이스에서 Windows 보안 를 니다.</li><li>**바이러스 및 위협 방지** 를 선택합니다.</li><li>Under **Who's protecting me?** select **Manage providers**.</li><li>보안 공급자 **페이지의** 바이러스 백신 **아래에서** 을(를) Microsoft Defender 바이러스 백신 **표시됩니다.**</li></ol>|
-|작업 관리자|<ol><li>사용자 Windows 작업 관리자 앱을 여는 경우</li><li>세부 **정보 탭을** 선택합니다.</li><li>목록에서 **MsMpEng.exe** 찾아야 합니다.</li></ol>|
+|명령 프롬프트|1. Windows 디바이스에서 명령 프롬프트를 니다.<br/><br/>2. `sc query windefend` 를 입력한 다음 Enter를 누를 수 있습니다.<br/><br/>3. 결과를 검토하여 수동 Microsoft Defender 바이러스 백신 실행 중인지 검토합니다.|
+|PowerShell|1. Windows 디바이스에서 관리자 권한으로 Windows PowerShell 를 니다.<br/><br/>2. 다음 PowerShell cmdlet을 `Get-MpComputerStatus|select AMRunningMode` 실행합니다. . <br/><br/>3. 결과를 검토합니다. 수동 **모드가 표시됩니다.**|
+|Windows 보안 앱|1. Windows 디바이스에서 Windows 보안 를 니다.<br/><br/>2. 바이러스 **백신 & 보호를 선택합니다.**<br/><br/>3. Who **보호에서** 공급자 **관리를 선택합니다.** 보안 공급자 **페이지의** 바이러스 백신 **아래에서** 을(를) Microsoft Defender 바이러스 백신 **표시됩니다.**|
+|작업 관리자|1. Windows 디바이스에서 작업 관리자 앱을 니다.<br/><br/>2. 세부 정보 **탭을** 선택합니다. 목록에서 **MsMpEng.exe** 찾아야 합니다.|
 
 > [!NOTE]
 > 일부 버전의 *Windows Defender 바이러스 백신* 대신 Microsoft Defender 바이러스 백신 *수* Windows.

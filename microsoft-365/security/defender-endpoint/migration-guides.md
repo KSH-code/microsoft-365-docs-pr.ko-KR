@@ -17,12 +17,12 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: 0aace52d05103afa490ec98b50ee9b6539e6b794
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 1fd410be19a8b5181cb2ef2b88d53e198753c7a3
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776743"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender로 전환
 
@@ -36,9 +36,7 @@ ms.locfileid: "59401665"
 
 끝점용 Defender로 이동을 고려하고 있는 경우 도움이 되는 지침이 있습니다. 다음 표에서 시나리오를 검토합니다. 상황에 가장 적합한 시나리오를 선택하고 권장 지침을 참조하세요.
 
-<br>
-
-****
+<br/><br/>
 
 |시나리오|지침|
 |---|---|

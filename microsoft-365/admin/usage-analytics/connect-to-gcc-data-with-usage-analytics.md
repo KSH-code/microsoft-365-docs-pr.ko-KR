@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -22,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 정부 커뮤니티 클라우드(GCC) 테넌트의 Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 데이터에 연결하는 방법을 Power BI.
-ms.openlocfilehash: 2a0ea6985b9f9d09498e4ad086bf89f529b24c17
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a57d536d7210e0ba927824d5403792a3e5090f98
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219462"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776707"
 ---
 # <a name="connect-to-microsoft-365-government-community-cloud-gcc-data-with-usage-analytics"></a>커넥트 사용하여 Microsoft 365 정부 커뮤니티 클라우드(GCC) 데이터 관리
 
@@ -36,7 +35,7 @@ ms.locfileid: "59219462"
 > [!NOTE]
 > 이러한 지침은 테넌트의 Microsoft 365 GCC 있습니다. 
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 처음에 사용 현황 Microsoft 365 구성: 
 

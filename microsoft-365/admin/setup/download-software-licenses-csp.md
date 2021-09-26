@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 search.appverid: MET150
 ms.custom:
 - AdminSurgePortfolio
@@ -20,18 +21,18 @@ ms.custom:
 - admindeeplinkMAC
 description: CSP(소프트웨어 라이선스) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 클라우드 솔루션 공급자 다운로드하는 방법을 배워야 합니다.
 ms.date: 01/27/2021
-ms.openlocfilehash: 5dd2e17685746859768a14d61537871a75fe6698
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ae433609e13aa96344aacd2ba1944efa54b42cf6
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186707"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786204"
 ---
 # <a name="download-perpetual-software-and-product-license-keys"></a>정품 소프트웨어 및 제품 라이선스 키 다운로드
 
 이 문서에서는 CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 소프트웨어에 대한 소프트웨어 및 제품 라이선스 키를 다운로드하는 방법에 대해 설명하고 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 이 문서의 단계를 수행하려면 전역 관리자 되어야 합니다. 자세한 내용은 [관리자 역할 정보](../add-users/about-admin-roles.md)를 참조하세요.
 

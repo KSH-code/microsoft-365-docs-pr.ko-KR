@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
@@ -22,12 +23,12 @@ ms.custom:
 search.appverid: MET150
 description: 제품 라이선스를 지정하지 않는 데 사용하는 방법은 특정 사용자로부터 라이선스를 지정하지 않는지 또는 특정 제품의 라이선스를 지정하지 않는지 여부에 따라 결정됩니다.
 ms.date: 09/16/2021
-ms.openlocfilehash: c657f4ef00b797a5f66ce6ecd28ca95cf9a5d9b6
-ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
+ms.openlocfilehash: 156c3dcc5f412407b9881f01a36c6c3c5858b167
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59477566"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785930"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
@@ -37,7 +38,7 @@ ms.locfileid: "59477566"
 > 
 > - 관리자는 조직의 사용자가 구입한 셀프 서비스 구매 구독의 라이선스를 할당하거나 할당 취소할 수 없습니다. [셀프 서비스 구매 구독을 이어 받은 다음](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription)할당 또는 할당 취소할 수 있습니다.
 > 
-> - 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지나면 기간이 끝날 때 구독을 취소하기 위해 재발급 청구를 해제합니다.
+> - 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지난 경우 되풀이 청구를 해제하여 기간이 끝날 때 구독을 취소하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -101,7 +102,7 @@ ms.locfileid: "59477566"
 
 2. 라이선스를 배포할 사용자의 행을 선택합니다.
 
-3. 오른쪽 창에서 **라이선스 및 앱** 을 선택합니다.
+3. 오른쪽 창에서 **라이선스 및 앱** 를 선택합니다.
 
 4. 라이선스 **섹션을 확장하고,** 라이선스를 취소할 라이선스의 확인란을 선택 취소한 다음 변경 **내용 저장을 선택합니다.**
 

@@ -13,7 +13,6 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365_Setup
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - TopSMBIssues
 - SaRA
@@ -27,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: 설치 마법사를 사용하여 DNS 호스트에 DNS 레코드를 Microsoft 365 Microsoft 365 관리 센터 도메인을 추가합니다.
-ms.openlocfilehash: caec9951fa80d19467623922dffa8551d0b4ad0d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b1c5bcb19d667d5e39a7c7567b9024696dc3730a
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184460"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776215"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 

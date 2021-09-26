@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: SharePoint Syntex 문서 이해 모델 REST API의 개요입니다.
-ms.openlocfilehash: e661df76828db0d05f7c3492880259117b9f8bf1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b77e882163810a389e734f63b45418a4e682dd88
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775687"
 ---
 # <a name="sharepoint-syntex-document-understanding-model-rest-api"></a>SharePoint Syntex 문서 이해 모델 REST API
 
@@ -44,7 +44,8 @@ SharePoint Online(및 SharePoint 2016 이상 온-프레미스) REST 서비스는
 - [모델 및 라이브러리 정보 가져오기](rest-getmodelandlibraryinfo.md) – 모델 및 모델이 적용된 라이브러리에 대한 정보를 가져옵니다.
 - [UpdateModelSettings](rest-updatemodelsettings-method.md) – SharePoint Syntex 문서 이해 모델에 대해 사용 가능한 모델 설정(관련 보존 레이블 및 모델 설명)을 업데이트합니다.
 - [BatchDelete](rest-batchdelete-method.md) – 하나 이상의 라이브러리에서 적용된 문서 이해 모델을 제거합니다.
-- [분류 요청 만들기](rest-createclassificationrequest.md) – 적용된 모델을 사용하여 지정된 파일 또는 파일을 분류하는 요청을 만듭니다.
+- [파일 분류 요청 만들기](rest-createclassificationrequest.md) – 적용된 모델을 사용하여 지정된 파일 또는 파일을 분류하는 요청을 만듭니다.
+- [폴더 분류 요청 생성](rest-createclassificationrequest.md) - 적용된 모델을 사용하여 전체 폴더를 분류하는 요청을 생성합니다.
 
 ## <a name="scenarios"></a>시나리오
 

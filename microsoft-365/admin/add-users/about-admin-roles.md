@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 서비스 관리자와 같은 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
-ms.openlocfilehash: 42c28d230cef36f7f6e0421cc46f64a53222eca8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f6881e4a4b15f79cb79a67cdab9abc6347eafa8c
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185363"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786182"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -83,7 +83,7 @@ Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?li
 |보고서 읽기 권한자 |   다음 작업을 수행해야 하는 사용자에게 보고서 읽기 권한자 역할을 할당합니다. <br> - Microsoft 365 관리 센터의 사용량 현황 데이터 및 활동 보고서 보기 <br> - Power BI 채택 콘텐츠 팩에 대한 액세스 권한 얻기 <br> - Azure AD의 로그인 보고서 및 활동에 대한 액세스 권한 얻기 <br> - Microsoft Graph 보고 API에서 반환된 데이터 보기|
 |서비스 지원 관리자   |   서비스 지원 관리자 역할을 관리자나 사용자에게 추가 역할로 할당하려면 일반적인 관리자 역할 외에 다음 작업을 수행해야 합니다. <br> - 서비스 요청 열기 및 관리 <br> - 메시지 센터 게시물 보기 및 공유 <br> - 서비스 상태 모니터링   |
 |SharePoint 관리자    |   Sharepoint Online 관리 센터에 액세스하고 관리해야 하는 사용자에게 SharePoint 관리자 역할을 할당합니다. <br><br>SharePoint 관리자는 다음 작업도 수행할 수 있습니다. <br> - 사이트 만들기 및 삭제 <br> - 사이트 모음 및 전역 SharePoint 설정 관리   |
-|Teams 서비스 관리자    |   Teams 관리 센터에 액세스하고 관리해야 하는 사용자에게 Teams 서비스 관리자 역할을 할당합니다. <br><br>Teams 서비스 관리자도 다음을 수행할 수 있습니다. <br> - 모임 관리 <br> - 회의 브리지 관리 <br> - 페더레이션, 팀 업그레이드 및 팀 클라이언트 설정을 포함한 모든 조직 전체 설정 관리   |
+|Teams 관리자    |   Teams 관리 센터에 액세스하고 관리해야 하는 사용자에게 Teams 관리자 역할을 할당합니다. <br><br>Teams 관리자는 다음을 수행할 수도 있습니다. <br> - 모임 관리 <br> - 회의 브리지 관리 <br> - 페더레이션, 팀 업그레이드 및 팀 클라이언트 설정을 포함한 모든 조직 전체 설정 관리   |
 |사용자 관리자     |    모든 사용자를 위해 다음 작업을 수행해야 하는 사용자에게 사용자 관리자 역할을 할당합니다. <br> - 사용자 및 그룹 추가 <br> - 라이선스 할당 <br> - 대부분의 사용자 속성 관리 <br> - 사용자 보기 만들기 및 관리 <br> - 암호 만료 정책 설정 <br> - 서비스 요청 관리 <br> - 서비스 상태 모니터링 <br><br>  사용자 관리자는 또한 관리자가 아닌 사용자와 디렉터리 읽기 권한자, 게스트 초대자, 헬프 데스크 관리자, 메시지 센터 읽기 권한자, 보고서 읽기 권한자 역할이 할당된 사용자에 대해 다음 작업을 수행할 수 있습니다.  <br> - 사용자 이름 관리<br> - 사용자 삭제 및 복원<br> - 암호 초기화 <br> - 강제로 사용자에게 로그 아웃 <br> - 업데이트(FIDO) 장치 키   |
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Microsoft 파트너를 위한 위임 된 관리

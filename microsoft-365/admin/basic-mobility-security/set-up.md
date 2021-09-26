@@ -12,19 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 설정하여 원격으로 장치 지우기 등의 작업을 수행하여 사용자의 모바일 장치를 보호하고 관리합니다.
-ms.openlocfilehash: 47f2f393c3d7147bb1444e8cad32d2d6a0d31133
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 07f8283353432b06aea67ba9cf8bbc505d6c3012
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185012"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775135"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>기본 이동성 및 보안 설정
 

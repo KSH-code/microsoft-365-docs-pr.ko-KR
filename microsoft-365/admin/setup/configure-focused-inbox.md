@@ -12,7 +12,6 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -23,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 비즈니스 내 모든 사용자의 전자 메일 설정 구성 책임을 맡고 있다면 이 문서에서 사용자의 중요 받은 편지함 구성 방법에 대해 알아보세요.
-ms.openlocfilehash: 6bc33211af5ee0cd064b63f95e720f19cee196e5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0b9a48a394f563d897217599daa2c1836e920d1e
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184459"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774403"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 

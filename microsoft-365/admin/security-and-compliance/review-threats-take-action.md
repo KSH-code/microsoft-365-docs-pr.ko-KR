@@ -11,16 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Microsoft Defender 바이러스 백신 장치에서 감지된 위협을 검토하고 Windows 10 방법을 알아보십시오.
-ms.openlocfilehash: d1a611143af1f438989a549133c6f7c1e7502357
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fe03b7a7a72b3908b19da71544853a671fc90f52
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186819"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59772785"
 ---
 # <a name="review-detected-threats-and-take-action"></a>탐지된 위협 검토 및 조치 수행
 

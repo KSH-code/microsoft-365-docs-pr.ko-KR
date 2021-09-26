@@ -10,19 +10,18 @@ ms.topic: overview
 ms.service: o365-administration
 ms.collection:
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 localization_priority: Priority
 search.appverid:
 - MET150
 ms.assetid: 03083fdf-bc52-409a-b2ac-2a5f5c308fa0
 description: 이 문서에서는 사용자를 위한 설정을 관리하는 방법에 대한 정보를 제공합니다.
-ms.openlocfilehash: db7a7f01fdd5a6bd657bb04f9aaf4491959e0558
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dc358e74df4ca3070707e2e5909cfb2adf18f3b8
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184692"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774619"
 ---
 # <a name="user-email-settings"></a>사용자 전자 메일 설정
 

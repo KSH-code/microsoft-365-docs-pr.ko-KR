@@ -12,7 +12,6 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
@@ -21,12 +20,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX
 description: 일부 도메인 등록 기관은 제한된 서비스를 제공하므로 일부 Microsoft 기능은 일부 도메인에서 작동하지 않습니다.
-ms.openlocfilehash: 3af1503b99290611d04b1012ce5087f719f01315
-ms.sourcegitcommit: a0185d6b0dd091db6e1e1bfae2f68ab0e3cf05e5
+ms.openlocfilehash: 7fe6b047773e47964b5a00728b8c1443bdeef36e
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58247322"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774595"
 ---
 # <a name="domain-registrars-with-setup-limitations"></a>설정 제한이 있는 도메인 등록 기관
 

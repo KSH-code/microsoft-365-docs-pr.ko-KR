@@ -12,6 +12,7 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365_Setup
+- Adm_TOC
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
@@ -20,12 +21,12 @@ search.appverid:
 - MET150
 description: 각 팀 구성원에게는 비즈니스용 Microsoft 365에 로그인하고 액세스할 수 있는 사용자 계정이 필요합니다. 사용자를 추가하고 라이선스를 할당하는 방법을 알아보세요.
 ms.date: 07/01/2020
-ms.openlocfilehash: b7fa0842812a83e510d7e200ebef3db4507d4b9d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a1211d73ae0af86eeb469f8777f94c466c5771d0
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185331"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786014"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 

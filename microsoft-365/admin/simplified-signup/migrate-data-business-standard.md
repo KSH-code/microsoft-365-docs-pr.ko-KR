@@ -9,17 +9,16 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection:
-- Adm_TOC
+ms.collection: ''
 ms.custom:
 - AdminSurgePortfolio
 description: 데이터를 Outlook, OneDrive Teams 마이그레이션할 Microsoft 365 Business Standard
-ms.openlocfilehash: 0a690c5092d3f288544edc5077605a6728bffc80
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2cec4a98172fe472d48c7726cb8b0c1887d88a6f
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186636"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775951"
 ---
 # <a name="migrate-data-to-my-microsoft-365-business-standard-subscription"></a>내 Microsoft 365 Business Standard 구독으로 데이터 마이그레이션
 

@@ -11,15 +11,14 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 description: 그룹 또는 정책을 제거하여 기본 이동성 및 보안을 해제합니다.
-ms.openlocfilehash: 7ec4ec0d47668c21824d8e01e3845d637b9b0922
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 730c927c01bb7103c61694749ec7d55ec381a39a
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184996"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775087"
 ---
 # <a name="turn-off-basic-mobility-and-security"></a>기본 이동성 및 보안 해제
 

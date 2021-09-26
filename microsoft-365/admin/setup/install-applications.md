@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 search.appverid:
 - MET150
 - MOE150
@@ -23,12 +22,12 @@ ms.custom:
 - okr_smb
 - AdminTemplateSet
 description: 이제 앱을 설정한 Microsoft 365 Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치하는 방법을 배워야 합니다.
-ms.openlocfilehash: dc32009bd42027890457bee97e19cdd94f49c6b7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a8d6aa4624285503340b5a22392c601c57acc439
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184435"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776023"
 ---
 # <a name="install-office-applications"></a>Office 응용 프로그램 설치
 

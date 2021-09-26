@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - TopSMBIssues
@@ -24,12 +25,12 @@ ms.custom:
 search.appverid: MET150
 description: 제품 라이선스를 특정 사용자에게 할당할지 아니면 사용자 라이선스를 특정 제품에 할당할지 여부에 따라 라이선스를 할당합니다.
 ms.date: 09/16/2021
-ms.openlocfilehash: 48763019211f1358e09f9c712f27870bd13a4435
-ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
+ms.openlocfilehash: b9fb8a670b649437a894619369731a5085c36804
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59477542"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785942"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 

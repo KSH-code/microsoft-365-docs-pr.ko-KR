@@ -12,19 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 조직 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 3cb5b34d869ae16faa89ced45d54537fbb07a5e2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 88d3dd58d61a0b3e26aaf46951f1dbcde76b7b34
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185036"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774186"
 ---
 # <a name="manage-devices-enrolled-in-mobile-device-management-in-microsoft-365"></a>모바일 장치에서 모바일 장치 관리에 등록된 Microsoft 365
 

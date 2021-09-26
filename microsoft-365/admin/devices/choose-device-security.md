@@ -12,18 +12,17 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 다른 MDM 및 MAM 방법 중 선택
-ms.openlocfilehash: 887dae650dd0635724a59ebb3c1ddf5bc0d38418
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 20ac6c2a1f2017b1cefa6e94feeda11db734afb1
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184899"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774883"
 ---
 # <a name="options-for-protecting-your-devices-and-app-data"></a>장치 및 앱 데이터 보호 옵션
 

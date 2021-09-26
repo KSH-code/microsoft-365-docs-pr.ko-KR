@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom: AdminSurgePortfolio
 search.appverid:
@@ -21,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: '사용 현황 분석이 API에 연결되는 방법을 알아보고 다양한 Microsoft 365 서비스의 월별 사용 추세를 제공합니다.  '
-ms.openlocfilehash: 2f271414f515d2c3a86c6e59d64dc62f44f8ef01
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a99ee64715d9fdfa27b0f0feb8900dd301ebdaac
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775615"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 
@@ -206,7 +205,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
    
 ### <a name="data-table---tenant-sharepoint-online-usage"></a>데이터 테이블 - 테넌트 SharePoint 온라인 사용 현황
 
-이 표는 온라인 사이트의 사용 또는 활동에 대한 월별 요약 SharePoint 구성됩니다. 팀 사이트 및 그룹 사이트에만 해당합니다. SharePoint Online 사이트의 월말 상태는 이 열에 표시됩니다. 예를 들어 사용자가 5개의 문서를 만든 후 총 저장소에 10MB를 사용한 다음 일부 파일을 삭제한 다음 파일을 더 추가하여 파일의 월말 상태는 5MB의 저장소를 사용하는 총 7개의 저장소 상태인 경우 이 표에 나타났습니다. 이 테이블은 중복된 집계 수를 방지하기 위해 숨겨져 있으며 두 개의 참조 테이블을 만드는 원본으로 사용됩니다.
+이 표는 온라인 사이트의 사용 또는 활동에 대한 월별 요약 SharePoint 구성됩니다. 팀 사이트 및 그룹 사이트에만 해당합니다. SharePoint Online 사이트의 월말 상태는 이 열에 표시됩니다. 예를 들어 사용자가 5개의 문서를 만들어 총 저장소에 10MB를 사용한 다음 일부 파일을 삭제한 다음 파일의 월말 상태가 5MB의 저장소를 사용하는 총 7개의 파일로 표시될 수 있도록 파일을 더 추가합니다.  이 표에 나타내는 값은 월말 상태입니다. 이 테이블은 중복된 집계 수를 방지하기 위해 숨겨져 있으며 두 개의 참조 테이블을 만드는 원본으로 사용됩니다.
   
 |**열 이름**|**열 설명**|
 |:-----|:-----|

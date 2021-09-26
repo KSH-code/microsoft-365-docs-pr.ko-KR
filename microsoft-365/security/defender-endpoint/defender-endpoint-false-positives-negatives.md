@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 68a14ab44011506d89e219f1350dbc86939a6432
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: c897a65296f0f5b016b2bdb22e28773a01be494a
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356380"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776995"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -74,13 +74,13 @@ ms.locfileid: "59356380"
 
 4. 경고 상태에 따라 다음 표에 설명된 단계를 수행합니다.
 
-<br/>
+<br/><br/>
 
-|경고 상태|수행할 작업|
-|---|---|
-|경고가 정확합니다.|경고를 할당한 다음 추가로 [조사합니다.](investigate-alerts.md)|
-|경고가 가긍성입니다.|<ol><li>[경고를 가의](#classify-an-alert) 긍정으로 분류합니다.</li><li>[경고를 표시하지 않습니다.](#suppress-an-alert)</li><li>[끝점용](#indicators-for-microsoft-defender-for-endpoint) Microsoft Defender에 대한 표시기를 생성합니다.</li><li>[분석을 위해 Microsoft에 파일을 제출합니다.](#part-4-submit-a-file-for-analysis)</li></ol>|
-|경고는 정확하지만 양성(미미한)|[경고를](#classify-an-alert) 실제 양의 경고로 분류한 다음 [경고를 표시하지 않습니다.](#suppress-an-alert)|
+   |경고 상태|수행할 작업|
+   |---|---|
+   |경고가 정확합니다.|경고를 할당한 다음 추가로 [조사합니다.](investigate-alerts.md)|
+   |경고가 가긍성입니다.|<ol><li>[경고를 가의](#classify-an-alert) 긍정으로 분류합니다.</li><li>[경고를 표시하지 않습니다.](#suppress-an-alert)</li><li>[끝점용](#indicators-for-microsoft-defender-for-endpoint) Microsoft Defender에 대한 표시기를 생성합니다.</li><li>[분석을 위해 Microsoft에 파일을 제출합니다.](#part-4-submit-a-file-for-analysis)</li></ol>|
+   |경고는 정확하지만 양성(미미한)|[경고를](#classify-an-alert) 실제 양의 경고로 분류한 다음 [경고를 표시하지 않습니다.](#suppress-an-alert)|
 
 ### <a name="classify-an-alert"></a>경고 분류
 
@@ -176,6 +176,7 @@ ms.locfileid: "59356380"
 조사 후에 파일이 정리된 것으로 판단되면 파일을 롤백하고 검지에서 제거할 수 있습니다. 파일이 중단된 각 디바이스에서 다음 명령을 실행합니다.
 
 1. 디바이스에서 상승된 명령줄 프롬프트를 니다.
+
    1. **시작**(으)로 이동하고 _cmd_ 를 입력하십시오.
    2. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 
@@ -377,6 +378,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 4. 기본 **탭에서** 정책의 이름과 설명을 지정합니다. 그런 후 **다음** 을 선택합니다.
 
 5. 구성 **설정 탭에서** 클라우드 **보호를** 확장하고 다음 설정을 지정합니다.
+
    - 클라우드 **제공 보호 켜기 를** **예로 설정**
    - **클라우드 제공 보호 켜기** 를 **구성되지 않음** 으로 설정합니다. (이 수준은 기본적으로 강력한 수준의 보호를 제공하면서 가음성의 확률을 줄입니다.)
 
@@ -443,7 +445,7 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 > [!IMPORTANT]
 > 자동화된 조사 및 *수정을 위해* 전체 자동화를 사용하는 것이 좋습니다. 가극적이기 때문에 이러한 기능을 해제하지 않습니다. 대신 ["허용"](#indicators-for-microsoft-defender-for-endpoint)표시기를 사용하여 예외를 정의하고 자동화된 조사 및 수정을 설정하여 적절한 조치를 자동으로 취하도록 합니다. 이 [지침에 따라](automation-levels.md#levels-of-automation) 보안 운영 팀이 처리해야 하는 경고 수를 줄일 수 있습니다.
 
-## <a name="still-need-help"></a>여전히 도움이 필요하세요?
+## <a name="still-need-help"></a>아직 해결되지 않았습니까?
 
 이 문서의 모든 단계를 수행한 후 여전히 도움이 필요한 경우 기술 지원에 문의하세요.
 

@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9966dc6120d37bd506605734845d4b3706212ada
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: cd1588221d8058963e49013df06c238b2f4a72b0
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483750"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776935"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -70,7 +70,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 |속성 이름|설명|옵션|
 |---|---|---|
 |**GroupId**|[GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier), 고유 ID는 그룹을 나타내며 정책에 사용됩니다.||
-|**DescriptorIdList**|그룹에서 다루는 데 사용할 장치 속성을 나열합니다. 각 장치 속성에 대한 자세한 내용은 [장치 속성을](device-control-removable-storage-protection.md) 참조하세요. |<ul><li>**PrimaryId**: RemovableMediaDevices, CdRomDevices, WpdDevices</li><li>**DeviceId**</li><li>**HardwareId**</li><li>**InstancePathId**: InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: `USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0` ). 끝에 있는 번호(예: &0)는 사용 가능한 슬롯을 나타내며 디바이스에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들면 `USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*`와 같습니다.</li><li>**FriendlyNameId**</li><li>**SerialNumberId**</li><li>**VID**</li><li>**PID**</li><li>**VID_PID**<ul><li>0751_55E0: 이 정확한 VID/PID 쌍과 일치</li><li>55E0: PID=55E0과 모든 미디어 일치 </li><li>0751: VID=0751과 모든 미디어 일치</li></ul></li></ul>|
+|**DescriptorIdList**|그룹에서 다루는 데 사용할 장치 속성을 나열합니다. 각 장치 속성에 대한 자세한 내용은 [장치 속성을](device-control-removable-storage-protection.md) 참조하세요. 모든 속성에는 대소문자 구분이 있습니다. |<ul><li>**PrimaryId**: RemovableMediaDevices, CdRomDevices, WpdDevices</li><li>**DeviceId**</li><li>**HardwareId**</li><li>**InstancePathId**: InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: `USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0` ). 끝에 있는 번호(예: &0)는 사용 가능한 슬롯을 나타내며 디바이스에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들면 `USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*`와 같습니다.</li><li>**FriendlyNameId**</li><li>**SerialNumberId**</li><li>**VID**</li><li>**PID**</li><li>**VID_PID**<ul><li>0751_55E0: 이 정확한 VID/PID 쌍과 일치</li><li>55E0: PID=55E0과 모든 미디어 일치 </li><li>0751: VID=0751과 모든 미디어 일치</li></ul></li></ul>|
 |**MatchType**|DescriptorIDList에 여러 장치 속성이 사용되는 경우 MatchType은 관계를 정의합니다.|**MatchAll:** DescriptorIdList의 모든 특성은 **And 관계가** 됩니다. 예를 들어 관리자가 DeviceID와 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 시스템에서 USB가 두 값을 모두 충족하는지 확인합니다. <p> **MatchAny:** DescriptorIdList의 특성은 **또는** 관계가 됩니다. 예를 들어 관리자가 DeviceID 및 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 USB에 **동일한 DeviceID** 또는 **InstanceID** 값이 있는 한 시스템에서 적용을 실행합니다. |
 
 ### <a name="access-control-policy"></a>액세스 제어 정책
@@ -234,7 +234,7 @@ DeviceEvents
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면입니다.":::
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="what-is-the-removable-storage-media-limitation-for-the-maximum-number-of-usbs"></a>최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?
 

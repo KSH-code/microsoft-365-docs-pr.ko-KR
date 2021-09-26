@@ -12,7 +12,6 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - Lean
 - MSStore_Link
@@ -23,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: '회의실 또는 장비 사서함을 만들었으면 조직의 누구나 Outlook을 사용하여 모임이나 행사용으로 예약할 수 있습니다. '
-ms.openlocfilehash: 7cee521b4046a3d5ca3acc6dabb657a56ccbc7d3
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 2255d6b509e56f5a8e573ee8e88766c4ad59ada0
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400561"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776035"
 ---
 # <a name="room-and-equipment-mailboxes"></a>회의실 및 장비 사서함
 

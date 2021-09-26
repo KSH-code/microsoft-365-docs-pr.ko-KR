@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -22,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: 직원, Microsoft 365 또는 공급업체와 같은 사용자 또는 연락처를 전자 메일 그룹에 추가하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: af7581a7541835185a7cc8df12dcc58b779243ca
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2ef6e1d389ad902a767786a480b05345f26e61f9
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774847"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>메일 그룹에 사용자 또는 연락처 추가
 

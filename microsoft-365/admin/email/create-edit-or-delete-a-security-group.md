@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -23,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집하거나 삭제하는 방법을 학습합니다.
-ms.openlocfilehash: c2056996eb3954777654c5ea829379ecf005276a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5456dbcee245647cbb12bfbcfc0c82ebcf19f037
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184708"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774655"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>보안 그룹에서 보안 그룹을 만들거나 편집하거나 Microsoft 365 관리 센터
 

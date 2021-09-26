@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -23,18 +22,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 테넌트에 대한 데이터 수집을 시작하는 방법을 Power BI.
-ms.openlocfilehash: a05ea19915af96720c3aeaf4a4d01fbe879fbc27
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 77e4a9bb7953435cd209a2e71ba2a76bc2b916d0
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188931"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776335"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
-Microsoft 365 US 정부 커뮤니티 클라우드(GCC) 테넌트에서 Microsoft 365 Microsoft 365 사용 현황 분석을 사용하도록 설정하려면 커넥트 to [Microsoft 365 정부 커뮤니티 클라우드(GCC) 데이터를 참조하세요.](connect-to-gcc-data-with-usage-analytics.md)
+Microsoft 365 US 정부 커뮤니티 클라우드(GCC) 테넌트에서 Microsoft 365 사용 현황 분석을 사용하도록 설정하려면 사용 현황 분석을 사용하여 커넥트 [to Microsoft 365 정부 커뮤니티 클라우드 (GCC) 데이터를 참조하세요. ](connect-to-gcc-data-with-usage-analytics.md).
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 사용 현황 Microsoft 365 시작하려면 먼저 Microsoft 365 관리 센터 에서 데이터를 사용할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>수 있도록 설정한 다음 Power BI.
 

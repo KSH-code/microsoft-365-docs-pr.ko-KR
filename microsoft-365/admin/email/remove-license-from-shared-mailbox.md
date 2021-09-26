@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
@@ -22,12 +23,12 @@ search.appverid:
 - MOE150
 description: '공유 사서함에서 라이선스를 제거하여 다른 사용자에게 할당하거나 라이선스 비용을 지불하지 않을 수 있도록 라이선스를 반환합니다. '
 ms.date: 05/11/2021
-ms.openlocfilehash: c100d23bad3e8992667e43d8f17d92e296ae49d5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 574650c2b483be299d316ee73687a48115485e7f
+ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184691"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59786170"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -69,7 +70,7 @@ ms.locfileid: "59184691"
 
 3. 라이선스 **및** 앱 탭 중  하나에서 라이선스를 확장하고 제거할 라이선스의 확인란을 선택하지 않습니다.
 
-4. **변경 사항 저장** 을 선택합니다.
+4. **변경 내용 저장** 을 선택합니다.
 
 5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 없는 **상태가 됩니다.**
 

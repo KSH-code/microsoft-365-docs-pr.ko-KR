@@ -12,18 +12,17 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: ede065b2ad8125b7c487ce801ffc743e817af8dc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 378ed7c8de95bce3da79e11e550994d19c590f88
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773394"
 ---
 # <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 액세스 설정 관리
 

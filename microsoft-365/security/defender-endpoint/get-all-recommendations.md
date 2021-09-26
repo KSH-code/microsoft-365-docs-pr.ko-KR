@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: da9286d548cbe1f2566bfdac1397178d40ae9dc8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a57a9be69401368a6b6b893e0850a3ba8c6aaf9a
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221548"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776983"
 ---
 # <a name="list-all-recommendations"></a>모든 권장 사항 목록
 
@@ -41,6 +41,19 @@ ms.locfileid: "59221548"
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 조직에 영향을 주는 모든 보안 권장 사항 목록을 검색합니다.
+
+
+## <a name="api-description"></a>API 설명
+
+조직에 영향을 주는 모든 보안 권장 사항에 대한 정보를 반환합니다.
+
+*URL:* GET://api/recommendations
+<br>[OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
+<br>OData 지원 연산자:
+<br>```$filter``` on:  ```id``` ```productName``` , , , , ```vendor``` , , , , , , ```recommendedVersion``` 및 ```recommendationCategory``` ```subCategory``` ```severityScore``` ```remediationType``` ```recommendedProgram``` ```recommendedVendor``` ```status``` 속성.
+<br>```$top``` 는 최대값 10,000입니다.
+<br>```$skip```.
+<br>[끝점용 Microsoft Defender를 사용하여 OData 쿼리의 예를 참조합니다.](exposed-apis-odata-samples.md)
 
 ## <a name="permissions"></a>권한
 

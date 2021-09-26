@@ -11,7 +11,6 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -24,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호하는 방법
-ms.openlocfilehash: 301aa152d462dc7fc712d4b6aa56f4a521463690
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4f983aa809cfa05439d49fef984ab0036709319c
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186812"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776263"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 요금제의 보안 Microsoft 365 10가지 방법
 
@@ -43,7 +42,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 |2|[사용자 교육](secure-your-business-data.md#train)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3 |[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[메일의 맬웨어에 대한 보호 수준 높이기](secure-your-business-data.md#malware)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|5 |[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|5|[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[전자 메일에 대한 자동 전달 중지](secure-your-business-data.md#forwarding)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[메시지 Office 사용](secure-your-business-data.md#encryption)||![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[피싱 공격으로부터 전자 메일 보호](secure-your-business-data.md#phishing)||![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|

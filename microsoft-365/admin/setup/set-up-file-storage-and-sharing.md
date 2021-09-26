@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - Adm_O365_Setup
 - SPO_Content
 ms.custom:
@@ -31,12 +30,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 공유를 위해 OneDrive 및 팀 사이트를 Microsoft 365 방법을 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 69ecb461396ef220258ce174d462ea7afda5aa8a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 334a199580b8f74c841f0f9d1d6db85db19bbb2e
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186651"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776719"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>파일 저장소 및 공유를 Microsoft 365
 

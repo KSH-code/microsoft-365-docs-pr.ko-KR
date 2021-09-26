@@ -12,19 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7b8798847559e84a6ea10079aab010a08d8eaa42
-ms.sourcegitcommit: 7883556c05ceef228dc329f715e8a6213b40d921
+ms.openlocfilehash: 7654922e2d48034801143e9219a1d1931dfe82d5
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58957158"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775831"
 ---
 # <a name="learn-about-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백에 대해 자세히 알아보시고
 

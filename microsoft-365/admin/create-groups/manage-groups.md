@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: admindeeplinkMAC
 search.appverid:
 - BCS160
@@ -20,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 Microsoft 365, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 그룹 관리 방법을 학습합니다.
-ms.openlocfilehash: c7f38a6a0b2eb3f6c0466858b60ac0beb2143bc0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8b9e3492409322b77d7a64c73bd90f09a0f4daad
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184956"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774955"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 그룹 Microsoft 365 관리 센터
 

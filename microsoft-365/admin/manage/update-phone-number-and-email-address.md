@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -23,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리자 암호를 다시 설정하려는 경우 관리 센터에서 관리자 전화 번호와 전자 메일 주소를 업데이트합니다.
-ms.openlocfilehash: cbb969b93584503db0755675e4ea585ba401e377
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e74a3494c27e4a1bce02d2a289c05fe2c87e2a41
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187068"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775819"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>관리자 전화 번호 및 전자 메일 주소 업데이트
 

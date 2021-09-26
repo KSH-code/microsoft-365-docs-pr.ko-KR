@@ -13,18 +13,17 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - SPO_Content
-- m365solution-mig
 - m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 위한 몇 가지 실용적인 지침을 읽어보세요.
-ms.openlocfilehash: fdcae8f3879beea5ba7b80f34378b2a3b1452fcb
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: f3faab08138197535f9305fddef2a9db3d0b6bb9
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/24/2021
-ms.locfileid: "59497623"
+ms.locfileid: "59772761"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 

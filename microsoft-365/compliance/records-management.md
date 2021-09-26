@@ -12,7 +12,6 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
-- m365solution-mig
 - m365initiative-compliance
 search.appverid:
 - MOE150
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 1af3ff5fac9a95afb15f680f8f46e8d0de0b4567
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 466b346501f9ee4e02a4a254ebeb2dfdf6e23eca
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186012"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775603"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 

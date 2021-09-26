@@ -12,19 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
 description: 통신 - 사용자 환경 생산성 점수에 대한 세부 정보입니다.
-ms.openlocfilehash: 3ea17bb859fc02343a97033fa65e830f305b69cf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b4cbc2fec73b22f55a75b05292d9c3a9b857554e
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186916"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776503"
 ---
 # <a name="communication--people-experiences"></a>커뮤니케이션 - 사람 환경
 

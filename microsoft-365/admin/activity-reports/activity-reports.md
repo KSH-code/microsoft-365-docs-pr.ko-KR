@@ -12,7 +12,6 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -22,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: 863ef1c40781e2bff3e9b2de6217e1dad114f46a
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: d4a0bed84e3a88b92fdb7def20fd5ea7dac03e28
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59443792"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59773694"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 

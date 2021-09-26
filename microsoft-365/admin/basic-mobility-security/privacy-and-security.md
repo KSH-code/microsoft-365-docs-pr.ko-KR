@@ -11,15 +11,14 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom: AdminSurgePortfolio
 description: 기본 모바일 및 보안을 활성화한 후 모바일 장치 관리 정책을 만들 수 있습니다.
-ms.openlocfilehash: a5e813219407b105f9196a4532914326a94f429a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ff5cc41c80ebf208a641ee0e68c9d0b9149f3f59
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185019"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775123"
 ---
 # <a name="privacy-and-security-in-basic-mobility-and-security"></a>기본 모바일 및 보안의 개인 정보 및 보안
 

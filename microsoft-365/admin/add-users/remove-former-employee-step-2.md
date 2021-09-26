@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom:
 - MSStore_Link
@@ -25,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이전 직원 사서함의 콘텐츠를 저장하는 방법에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: 24a1fbff978bdc266e778b7fca84c882f9677cfe
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 287e7cd54449a86775f556d0165a19ce7ffadac8
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185236"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775315"
 ---
 # <a name="step-2---save-the-contents-of-a-former-employees-mailbox"></a>2단계 - 이전 직원 사서함의 내용 저장
 

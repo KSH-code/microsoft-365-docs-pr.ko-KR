@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -23,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함을 설정할 때 오류가 발생할 수 있습니다. 공유 사서함에 문제가 있는 경우 이러한 솔루션을 사용해 하세요.
-ms.openlocfilehash: ae76bc1cb97c44087be57adc7791ea8814b94b40
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 27c3d23b3d5a496a6de85811c7aa23c8f199d654
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184683"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774631"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>공유 사서함의 문제 해결
 

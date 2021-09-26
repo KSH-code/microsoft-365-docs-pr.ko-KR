@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
@@ -23,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 그룹 Microsoft 365 사용하면 사용자 그룹에 공유 리소스 모음에 대한 액세스 권한을 Microsoft 365 팀워크를 주도할 수 있습니다.
-ms.openlocfilehash: 08e90d5197e59f6c1cf6dc89343b263194925bf4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 66026d3626eecdf9cc80dce0b0b25003e9847726
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774895"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -43,7 +42,7 @@ Microsoft 365 그룹은 모든 팀워크를 모든 팀워크로 구동하는 기
 - Yammer(그룹이 Yammer)
 - 팀(그룹이 팀에서 만들어진 Teams)
 - 로드맵(웹용 Project 있는 경우)
-- Stream
+- 스트림
 
 그룹 Microsoft 365 이러한 각 리소스에 대한 사용 권한을 수동으로 할당할 필요는 없습니다. 그룹에 사용자 추가는 자동으로 필요한 사용 권한을 부여합니다.
 

@@ -11,7 +11,6 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -22,18 +21,18 @@ search.appverid:
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: 전자 메일을 메일 Microsoft 365 메일 Microsoft 365 메일 목록에서 보낸 것으로 표시될 때 해당 메시지에 응답할 수 있도록 합니다.
-ms.openlocfilehash: 021f44591805385f0575d6fa2ca550289a72c82d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4f41368d5b769c783c7c05aa662199bbcafd7b1e
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59776047"
 ---
 # <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
 
 이 Microsoft 365 메일로 전자 메일을 보낼 수 있습니다. 메일 목록의 구성원인 사용자가 메일 목록에 보낸 메시지에 응답하면 전자 메일은 개별 사용자가 아닌 메일 목록에서 보낸 것으로 표시됩니다. 이 항목에서는 이 작업을 하는 방법을 보여 합니다.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 이러한 단계를 수행하기 전에 Microsoft 365 메일 목록에 추가되고 다른 사람 권한으로 보내기 권한이 부여되어 있는지 확인하십시오.
   

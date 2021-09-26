@@ -12,16 +12,15 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 search.appverid:
 - MET150
 description: 사용자에게 그룹에 대한 Microsoft 365 설명하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 828dffbed42b0b2bb2023a17f499802f7b2c2db1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 96085502c0600b5d36472fa40728cd4558cee3ed
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184947"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774967"
 ---
 # <a name="explaining-microsoft-365-groups-to-your-users"></a>사용자에게 Microsoft 365 그룹 설명
 
@@ -35,7 +34,7 @@ Microsoft 365 그룹을 사용하면 공유 사서함 및 일정, 전자 필기�
 - 조직에서 SharePoint 많이 사용하거나 SharePoint 마이그레이션하는 경우 사용자에게 공동 작업을 위한 SharePoint 사이트 만들기를 지시합니다.
 - 조직에서 배포한 Teams 사용자에게 공동 작업 공간이 필요할 때 팀을 만들 수 있도록 지시합니다.
 
-[![이미지 desc. ](../../media/03.png)](../../media/03.png#lightbox)
+[![이미지 desc. ](../../media/03.png) ](../../media/03.png#lightbox)
 
 사용자가 다른 사용자와 공동 작업할 수 있는 공간이 필요할 때 작업 방식에 가장 잘 부합하는 그룹 만들기 방법을 항상 사용할 수 있도록 교육하는 경우 리소스의 혼동과 중복을 방지할 수 있습니다. 사용자가 더 많이 경험할수록 그룹과 함께 제공된 서비스 모음이 더 잘 이해될 것이고 다른 만들기 방법을 통해 동일한 결과를 겪게 됩니다.
 

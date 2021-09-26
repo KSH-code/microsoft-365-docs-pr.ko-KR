@@ -13,7 +13,6 @@ monikerRange: o365-worldwide
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - Adm_O365_Setup
 ms.custom:
 - AdminSurgePortfolio
@@ -23,12 +22,12 @@ search.appverid:
 - MOE150
 description: 365 Business 클라우드 PC의 설치 문제를 Windows 방법을 학습합니다.
 ms.date: 08/13/2021
-ms.openlocfilehash: cae971187e188e6213242481b9cfaeb7dc21c7f2
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: b1fa084debc71209e58530a10b79ea4f0ef29003
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444130"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774138"
 ---
 # <a name="troubleshoot-windows-365-business-cloud-pc-setup-issues"></a>365 Windows 클라우드 PC 설정 문제 해결
 

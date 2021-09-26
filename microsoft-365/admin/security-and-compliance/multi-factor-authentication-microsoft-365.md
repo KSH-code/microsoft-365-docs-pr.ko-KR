@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
@@ -25,12 +24,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA(다단계 인증)는 강력한 암호와 추가 확인 방법을 모두 사용합니다.
-ms.openlocfilehash: d0f88043ecaa4d2dd990f74661e904351db97524
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 85b8234d62e41489480695b71463e2474442b834
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186836"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59775711"
 ---
 # <a name="multifactor-authentication-for-microsoft-365"></a>사용자에 대한 다단계 Microsoft 365
 

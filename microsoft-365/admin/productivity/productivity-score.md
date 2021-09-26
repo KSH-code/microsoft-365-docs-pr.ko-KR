@@ -13,7 +13,6 @@ monikerRange: o365-worldwide
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -21,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수가 사용자 및 기술 경험 측정값을 반영하는 방식을 알아보고 비슷한 크기의 조직과 비교해 보세요.
-ms.openlocfilehash: ddbc1590abc1383035db1852345310bfc8dd196d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0c0d260ebea02d57e099c84acdbc8960d58f3638
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186875"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59774174"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 

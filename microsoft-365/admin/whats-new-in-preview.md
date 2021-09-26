@@ -12,7 +12,6 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 search.appverid:
 - MET150
 - MOE150
@@ -22,12 +21,12 @@ ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대해 자세히 알아보는 방법을 제공합니다.
-ms.openlocfilehash: dbc907ac66bcc1741ceb92602b7b3062de043f6b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fa3589c27547dcf965f965031d30b09a3afc2646
+ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212912"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59772923"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>새로운 Microsoft 365 관리 센터
 
