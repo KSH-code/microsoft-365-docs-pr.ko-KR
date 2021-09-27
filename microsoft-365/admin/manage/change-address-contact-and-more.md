@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - commcerce_billing
@@ -21,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경합니다.
 ms.date: 03/30/2021
-ms.openlocfilehash: a7a2b8ee10c37b315e14504eae67672c34f79f08
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b96c1e98b8ce2e15f8674f93e7dd96a0b2256b07
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184539"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59933486"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
   

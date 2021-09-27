@@ -11,12 +11,13 @@ metadata:
   ms.date: 09/09/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 3e3186631a460a588cc2ebe2f15abf579a191ac8
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.collection: Adm_TOC
+  ms.openlocfilehash: 20905c24e4f06984ba36f28157418f0eff8e2a80
+  ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59184875"
+  ms.lasthandoff: 09/27/2021
+  ms.locfileid: "59933762"
 landingContent:
 - title: 다양한 MDM 및 MAM 메서드
   linkLists:
@@ -24,7 +25,7 @@ landingContent:
     links:
     - text: 장치 및 앱 데이터 보호 옵션 검토
       url: choose-device-security.md
-- title: 앱을 사용하여 장치 및 앱 Microsoft Intune
+- title: Microsoft Intune을 사용하여 장치 및 앱 데이터 관리
   linkLists:
   - linkListType: overview
     links:
@@ -32,13 +33,13 @@ landingContent:
       url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
-    - text: 장치용 자동 등록 Windows 10 설정
+    - text: Windows 10 장치에 대한 자동 등록 설정
       url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
     - text: Android 등록 설정
       url: /mem/intune/enrollment/android-enroll
     - text: iOS/iPadOS 등록 설정
       url: /mem/intune/enrollment/ios-enroll
-- title: 앱을 사용하여 장치 및 앱 Microsoft 365 Business Premium
+- title: Microsoft 365 Business Premium을 사용하여 장치 및 앱 데이터 관리
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -46,15 +47,15 @@ landingContent:
       url: ../../business/view-policies-and-devices.md
     - text: 장치에서 회사 데이터 제거
       url: ../../business/remove-company-data.md
-    - text: 장치를 Windows 설정으로 초기화
+    - text: Windows 장치를 공장 설정으로 초기화
       url: ../../business/reset-devices-to-factory-settings.md
-- title: 엔터프라이즈용 앱을 사용하여 장치 및 Microsoft 365 관리
+- title: 엔터프라이즈용 Microsoft 365를 사용하여 장치 및 앱 데이터 관리
   linkLists:
   - linkListType: overview
     links:
     - text: 엔터프라이즈용 Microsoft 365 개요
       url: ../../enterprise/microsoft-365-overview.md
-    - text: 엔터프라이즈용 디바이스 관리 로드 Microsoft 365 로드맵
+    - text: 엔터프라이즈용 Microsoft 365의 장치 관리 로드맵
       url: ../../enterprise/device-management-roadmap-microsoft-365.md
 - title: 기본 이동성 및 보안을 사용하여 장치 및 앱 데이터 관리
   linkLists:

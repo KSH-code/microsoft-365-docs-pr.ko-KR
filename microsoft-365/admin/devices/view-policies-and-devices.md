@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
+- Adm_TOC
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: 전역 관리자 자격 증명을 사용하여 비즈니스용 Microsoft 365 로그인하여 장치 정책 및 작업을 확인합니다.
-ms.openlocfilehash: a4494b7125576f927a0cd7f715311ae616c6497c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2245f979f67d2a2e48a60516faa9888ccb416e23
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184812"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59933246"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>정책 및 장치 보기 및 관리
 

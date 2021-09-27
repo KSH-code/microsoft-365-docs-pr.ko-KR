@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
+- Adm_TOC
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -25,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: 앱 관리 정책을 생성, 편집 또는 삭제하고 Android 또는 iOS 디바이스에서 작업 파일을 보호하는 방법을 학습합니다.
-ms.openlocfilehash: 1ab7c57e1a9da1a68c07535c2550f0762f7c8141
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f11782a4a2671f1a5e5dc467f181421817634880
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184916"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59933282"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 설정하기
 

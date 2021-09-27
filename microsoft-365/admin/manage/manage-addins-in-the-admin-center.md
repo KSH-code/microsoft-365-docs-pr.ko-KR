@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -22,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 중앙 집중식 추가 기능을 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 학습합니다.
-ms.openlocfilehash: 4dd2cbc842d10770b544df014685173a8888df67
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b091065fa1e4f171469efa57e9856a9e9549cfc0
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184499"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59933894"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 
@@ -89,7 +90,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
   
 **추가 기능 취득을 끄기 위해**
   
-1. 관리 센터 미리 보기에서 **설정** \> [서비스 &amp; 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=2053743) 페이지로 이동합니다.
+1. 관리 센터에서 **설정** \> [서비스 &amp; 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=2053743) 페이지로 이동합니다.
 
     > [!NOTE]
     > 통합 앱을 통해 관리 센터에서 추가 기능을 [배포할 수도 있습니다.](test-and-deploy-microsoft-365-apps.md) 통합 앱은 전역 관리자 및 관리자에게 Exchange 표시됩니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
@@ -105,7 +106,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
         
       - Windows
       - Mac
-      - 사무실
+      - Office
         
         
     - **AppSource** 내에서 시작하여 취득

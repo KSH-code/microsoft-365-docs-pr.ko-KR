@@ -9,17 +9,17 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: ''
+ms.collection: Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직 내 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 찾고 테스트하고 Microsoft 365 관리 센터.
-ms.openlocfilehash: 13276923c55632145207b61032583a26e3553e06
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6ab2b2a81fe54b38f6c2d6352a976b83cd2e84a9
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187076"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59934002"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>통합 앱 포털에서 Microsoft 365 앱 테스트 및 배포
 
@@ -289,7 +289,7 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office�
 - 추가 기능을 둘 이상의 추가 기능 및 웹앱에 연결하고 이러한 추가 기능 중 하나 이상이 다른 관리자(exchange/global)에 의해 배포되고 사용자 할당이 균일하지 않은 경우 사용자 할당이 이미 배포된 모든 앱에 대해 동일한 경우 추가 기능 배포만 허용합니다.  
 
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="which-administrator-role-do-i-need-to-access-integrated-apps"></a>통합 앱에 액세스하려면 어떤 관리자 역할이 필요한가요?
 

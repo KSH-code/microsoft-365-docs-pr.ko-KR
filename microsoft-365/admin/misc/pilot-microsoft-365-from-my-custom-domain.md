@@ -11,6 +11,7 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - admindeeplinkMAC
 search.appverid:
@@ -18,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 두 개의 테스트 계정만 사용하여 사용자 지정 도메인의 전자 메일 기능을 Microsoft 365 사서함으로 시험해 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6980480893e3e544a912edbe7d7da0993e781df2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 95939aa0ae967ba74861e631d6abfc6ecd50dbaf
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186980"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59934014"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>사용자 지정 도메인에서 Microsoft 365 파일럿
 

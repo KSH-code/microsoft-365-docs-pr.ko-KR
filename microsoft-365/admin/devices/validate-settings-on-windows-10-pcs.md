@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
+- Adm_TOC
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -26,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: 비즈니스용 앱 보호 Microsoft 365 설정이 사용자의 디바이스에 영향을 Windows 10 방법을 확인합니다.
-ms.openlocfilehash: 67608c2c4b8396bced350685f439cb15f6378e6a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c0d5ded2eeda022984f86c33429572fa4a8671bb
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184828"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59933378"
 ---
 # <a name="validate-device-protection-settings-for-windows-10-pcs"></a>PC에 대한 장치 보호 Windows 10 유효성 검사
 

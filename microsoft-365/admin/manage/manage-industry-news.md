@@ -11,18 +11,19 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 search.appverid:
 - MET150
 description: 사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하고, 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 0292668ad37020f9ca2049d7c011465bd7e28479
-ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
+ms.openlocfilehash: bde55ffbd9bef2f8eac7db1a4d200aeb58f32f89
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59479552"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59933510"
 ---
 # <a name="manage-industry-news"></a>산업 뉴스 관리
 

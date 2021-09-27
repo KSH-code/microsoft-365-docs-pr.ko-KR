@@ -19,12 +19,12 @@ metadata:
   search.appverid: MET150
   description: 요구에 대한 FAQ(질문과 대답)Microsoft HUP(가정 사용 프로그램).
   ms.date: 05/01/2021
-  ms.openlocfilehash: 114686efb77a88dfad8e729ae5db908f3e8bc629
-  ms.sourcegitcommit: 73a17ecbc06cd3e5452814637ab0484ddcdea17a
+  ms.openlocfilehash: 9a149ee97c76189f52345587e1eaaac27bd562b2
+  ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/09/2021
-  ms.locfileid: "58942435"
+  ms.lasthandoff: 09/27/2021
+  ms.locfileid: "59934158"
 title: Microsoft HUP(가정 사용 프로그램) 질문과 대답(FAQ)
 summary: "볼륨 라이선스 고객은 Microsoft HUP(가정 사용 프로그램) 웹 사이트에서 [HUP(비즈니스용 Microsoft Store)를 사용 합니다.](https://go.microsoft.com/fwlink/?linkid=2139192)\n\n다른 모든 고객은 다음 단계를 사용하여 HUP에 액세스합니다.\n\n- Microsoft 관리 센터에서 청구 제품 페이지로 이동하여 혜택 탭을 선택한 다음  >  [](https://go.microsoft.com/fwlink/p/?linkid=842054) **HUP 탭을** 선택합니다. \n"
 sections:
@@ -39,17 +39,7 @@ sections:
     answer: "전 세계 Microsoft 365 Family 및 개인 구독에 대한 할인은 다음을 제외하고 전 세계 적격 회사에 제공됩니다.\n\n- 마카오, 러시아 및 베네수엘라: 이 혜택은 다음 시장에서 사용할 수 없습니다.\n- 중국 및 홍콩: 이러한 시장에서는 1년 구독을 사용할 수 있습니다. 중국의 경우 중국의 Microsoft 365 [방문합니다.](https://www.microsoftstore.com.cn/home-use-program/invite) 홍콩의 경우 [할인된 가격으로 Microsoft 365 구입을 방문합니다.](https://www.microsoftestore.com.hk/partner/hup?locale=en_HK)\n- 일본: Microsoft 365 Family 사용할 수 없습니다.\n- 선택한 Surface 디바이스 및 액세서리에 대한 할인은 특정 시장의 적격 회사에 제공됩니다. \n"
   - question: >
       조직에서 HUP 할인을 받을 수 있는 자격은 어떻게 하나요?
-    answer: >
-      직원은 Microsoft HUP(가정 사용 프로그램) 할인을 활용하려면 유효한 회사 전자 메일 주소와 활성 Microsoft 계정이 필요하며 조직은 다음 기준 중 하나를 충족해야 합니다.
-
-
-      - 적격 인증 응용 프로그램에 대해 Software Assurance를 Office 고객
-
-      - Software Assurance에서 Microsoft 365/Microsoft 365 E3/E5를 다운로드한 고객
-
-      - 1개 또는 ≥ 2,000개 라이선스 또는 Microsoft 365 E3/E5를 구입한 상업 및 정부 고객
-
-      - 교육 및 비영리 고객
+    answer: "직원은 Microsoft HUP(가정 사용 프로그램) 할인을 활용하려면 유효한 회사 전자 메일 주소와 활성 Microsoft 계정이 필요하며 조직은 다음 기준 중 하나를 충족해야 합니다.\n\n- 적격 인증 응용 프로그램에 대해 Software Assurance를 Office 고객\n- Software Assurance에서 Microsoft 365/Microsoft 365 E3/E5를 다운로드한 고객\n- 1개 또는 ≥ 2,000개 라이선스 또는 Microsoft 365 E3/E5를 구입한 상업 및 정부 고객\n- 교육 및 비영리 고객\n- 적격 Power BI, Office, Surface 디바이스 & 액세서리, Windows 및 Enterprise Mobility에서 지난 12개월 동안 $250,000 USD 이상을 소비한 상업 및 정부 고객 \n"
   - question: >
       AAD(Home Use Program/ Azure Active Directory) 계정을 만들어야 하는 비즈니스용 Microsoft Store?
     answer: >

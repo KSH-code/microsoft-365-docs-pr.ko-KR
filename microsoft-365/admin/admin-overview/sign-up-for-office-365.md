@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - TRN_SMB
+- Adm_TOC
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
@@ -26,12 +27,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: 사용자 등록 프로세스를 진행하기 전에 알아야 할 Office 365.
 ms.date: 03/17/2021
-ms.openlocfilehash: 8c9598215b5f5da7b4a62ca89bbc0fa5a94fe12d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6347b4775bd018a72ac06d0eb9c9c9f7ee5d2306
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185116"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59933714"
 ---
 # <a name="how-to-sign-up---admin-help"></a>등록 방법 - 관리자 도움말
 

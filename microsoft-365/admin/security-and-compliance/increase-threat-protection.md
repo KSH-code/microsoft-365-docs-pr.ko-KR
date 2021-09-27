@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
+- Adm_TOC
 ms.custom:
 - MiniMaven
 - MSB365
@@ -22,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 피싱, Office 365 및 기타 위협으로부터 중요한 데이터를 보호하고 보호할 수 있는 Microsoft Defender를 설정하십시오.
-ms.openlocfilehash: f7e82497baff1f14d1a1ff2cfc1d0e05c38700be
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 92b4ca45e03995fb3586f1abce9301de7ec33570
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186851"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59934050"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -130,7 +131,7 @@ Office 365 또는 Microsoft 365 사용자 지정 도메인을 하나 이상 구�
 
 Microsoft Defender에서 피싱 방지 정책을 Office 365 이 짧은 교육 [](../../business-video/setup-anti-phishing.md)비디오를 시청하거나 다음 단계를 완료하세요.
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)(으)로 이동합니다.
 
 2. 보안 및 준수 센터의 왼쪽 탐색 창에 있는 위협 관리에서 &amp; 정책을 **선택 합니다.** 
 

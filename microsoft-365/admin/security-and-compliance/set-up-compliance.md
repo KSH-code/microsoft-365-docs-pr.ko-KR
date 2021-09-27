@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
+- Adm_TOC
 ms.custom:
 - MiniMaven
 - MSB365
@@ -22,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정하여 데이터 손실을 방지하고 사용자와 고객의 중요한 정보를 안전하게 보호합니다.
-ms.openlocfilehash: 5e5aff344326874cef426e7a1a40656766564e7e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a7241c4abe3236b14935e42ab518c629a2558d21
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186795"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59934182"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 

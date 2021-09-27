@@ -14,18 +14,19 @@ metadata:
   - M365-subscription-management
   - Adm_O365
   - Adm_NonTOC
+  - Adm_TOC
   ms.custom: AdminSurgePortfolio
   search.appverid:
   - BCS160
   - MET150
   - MOE150
   description: 중앙 집중식 배포에 대한 질문과 대답을 검토하여 Microsoft 365 관리 센터.
-  ms.openlocfilehash: e2b4717fb2e1d5e82d22ce5288c40187722495df
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.openlocfilehash: 1d9eb681412d3934c55eacc938a36dee276313ac
+  ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59184547"
+  ms.lasthandoff: 09/27/2021
+  ms.locfileid: "59933498"
 title: 중앙 집중식 배포 FAQ
 summary: 조직이 이 문서에 설명된 중앙 집중식 배포 사용에 대한 모든 요구 사항을 충족하는 경우 Office 365 관리자는 조직 내의 사용자 및 그룹에 Office 추가 기능(Word, Excel, PowerPoint 및 Outlook)을 배포하는 것이 좋습니다.
 sections:

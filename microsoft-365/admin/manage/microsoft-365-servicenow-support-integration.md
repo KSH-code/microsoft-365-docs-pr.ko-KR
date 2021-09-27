@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 구성 가이드와의 통합 지원
+title: ServiceNow 구성 가이드와 Microsoft 365 지원 통합
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -11,19 +11,20 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
+- Adm_TOC
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - MET150
 description: ServiceNow에 대한 범위가 지정한 인증된 응용 프로그램 설치 및 구성 가이드입니다.
-ms.openlocfilehash: 01e8e929145d8941e27aab9d02c23a422b807eb9
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: d812866ce2310b25b857b701be7d29d6d7ea5f22
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356228"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59933642"
 ---
-# <a name="microsoft-365-support-integration-with-servicenow-configuration-guide"></a>Microsoft 365 구성 가이드와의 통합 지원
+# <a name="microsoft-365-support-integration-with-servicenow-configuration-guide"></a>ServiceNow 구성 가이드와 Microsoft 365 지원 통합
 
 [개요](#overview) 
 
@@ -719,7 +720,7 @@ ServiceNow 인스턴스와 Microsoft 지원 간의 통합을 설정하려면 다
 |2|**Microsoft 권장 해결 방법을 선택하지만** "ServiceNow 관리자에게 문의하여 앱의 설정 단계를 완료해달라"는 오류가 발생합니다.|양식의 맨 위에 있는 오류 메시지와 시스템 로그 필터가 있는 x_mioms_m365_assit  >  |
 |3 |**Microsoft 권장 해결 방법을 선택하지만** "ServiceNow 관리자에게 문의하여 앱에 대한 최종 설정 단계를 완료해달라"는 오류가 발생합니다.|양식의 맨 위에 있는 오류 메시지와 시스템 로그 필터가 있는 x_mioms_m365_assit  >  |
 |4 |검색 상자에 문제를 입력하고 Microsoft 권장 해결 방법을 **선택하지만** "ServiceNow 관리자에게 문의하여 앱의 설정 단계를 완료해달라"는 오류가 발생합니다.|양식의 맨 위에 있는 오류 메시지와 시스템 로그 필터가 있는 x_mioms_m365_assit  >  |
-|5 |검색 상자에 문제를 입력하고 **Microsoft** 권장 해결 방법을 선택하지만 "ServiceNow 관리자에게 문의하여 앱에 대한 최종 설정 단계를 완료해달라"는 오류가 발생합니다.|양식의 맨 위에 있는 오류 메시지와 시스템 로그 필터가 있는 x_mioms_m365_assit  >  |
+|5|검색 상자에 문제를 입력하고 **Microsoft** 권장 해결 방법을 선택하지만 "ServiceNow 관리자에게 문의하여 앱에 대한 최종 설정 단계를 완료해달라"는 오류가 발생합니다.|양식의 맨 위에 있는 오류 메시지와 시스템 로그 필터가 있는 x_mioms_m365_assit  >  |
 |6 |Microsoft **고객 지원에 문의를** 선택하고 "ServiceNow 관리자에게 문의하여 앱의 설정 단계를 완료해달라"는 오류가 표시됩니다.|양식의 맨 위에 있는 오류 메시지와 시스템 로그 필터가 있는 x_mioms_m365_assit  >  |
 |7 |Microsoft 지원 서비스에 **문의를** 선택하고 "ServiceNow 관리자에게 문의하여 앱에 대한 최종 설정 단계를 완료해달라"는 오류가 발생합니다.|양식의 맨 위에 있는 오류 메시지와 시스템 로그 필터가 있는 x_mioms_m365_assit  >  |
 |8 |Microsoft **지원에 문의하지만** "{EmailAddress}가 유효한 관리자 계정이 Microsoft 365 않습니다. 서비스 Microsoft 365 열기 위해 관리자 권한이 필요합니다. 앱에서 관리자 계정을 연결합니다."|양식의 맨 위에 있는 오류 메시지와 시스템 로그 필터가 있는 x_mioms_m365_assit  >  |

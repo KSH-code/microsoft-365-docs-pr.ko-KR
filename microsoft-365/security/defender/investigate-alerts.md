@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f9999fdea57465120040cb04a497f1510bcb988b
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 18f7436c974ab9b976980861ae93bd4b3ea1fc2e
+ms.sourcegitcommit: e001934654119e15149ed29b3079b1019849f59c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483510"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59934692"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>2013에서 경고 Microsoft 365 Defender
 
@@ -61,6 +61,30 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 
 - 태그
 - 정책
 - 영향을 미치는 자산
+
+## <a name="required-roles-for-defender-for-office-365-alerts"></a>경고에 대한 Defender의 Office 365 역할
+
+알림에 대한 Microsoft Defender에 액세스하려면 다음 역할이 Office 365 있습니다.
+
+- Azure AZURE ACTIVE DIRECTORY(Azure AD) 전역 역할의 경우:
+
+   - 전역 관리자
+
+   - 보안 관리자
+
+   - 보안 운영자
+
+   - 전역 읽기 권한자
+
+   - 보안 읽기 권한자
+
+- Office 365 보안 & 준수 역할 그룹
+
+   - 규정 준수 관리자
+
+   - 조직 관리 
+
+- 사용자 [지정 역할](custom-roles.md)
 
 ## <a name="analyze-an-alert"></a>경고 분석
 

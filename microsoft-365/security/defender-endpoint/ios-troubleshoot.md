@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c7ee6f1debaf697c49e292068ba88c436714addf
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 840ea513980d3167d34437c048eb8d8164a2d57b
+ms.sourcegitcommit: e001934654119e15149ed29b3079b1019849f59c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491126"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59934668"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
@@ -58,7 +58,7 @@ ms.locfileid: "59491126"
 > [!NOTE]
 > VPN을 사용하지 않도록 설정하면 웹 보호를 사용할 수 없습니다. 웹 보호를 다시 사용하도록 설정하려면 장치에서 끝점용 Microsoft Defender 앱을 열고 웹 보호를 사용하도록 설정하세요.
 
-## <a name="co-existence-with-multiple-vpn-profiles"></a>여러 VPN 프로필과 함께 사용
+## <a name="coexistence-with-multiple-vpn-profiles"></a>여러 VPN 프로필과 공존
 
 Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 지원하지 않습니다. 디바이스에 여러 VPN 프로필이 존재할 수 있는 반면 한 번의 VPN만 활성화할 수 있습니다.
 
@@ -111,4 +111,17 @@ Endpoint용 Defender 콘텐츠 필터가 설치된 감독되는 장치에 문제
 ## <a name="issues-during-app-updates-from-the-app-store"></a>앱 스토어에서 앱을 업데이트하는 동안의 문제
 
 앱 스토어를 통해 앱이 업데이트될 때 문제가 관찰되는 경우(자동 업데이트 또는 수동 업데이트) 장치를 다시 시작해야 할 수 있습니다. 그래도 문제가 해결되지 않으면 Defender VPN을 사용하지 않도록 설정하고 앱 업데이트를 수행할 수 있습니다. 이 문제를 보고하기 위해 앱에서 바로 피드백을 제공할 수 있습니다.
+
+## <a name="send-in-app-feedback"></a>앱에서 내 피드백 보내기
+
+사용자가 위 섹션에서 아직 해결되지 않은 문제가 표시되거나 나열된 단계를 사용하여 해결할 수 없는 경우 사용자는 진단 데이터와 함께 앱에서 내 피드백을 제공할 수 있습니다. 그런 다음 팀에서 로그를 조사하여 올바른 솔루션을 제공합니다. 사용자는 다음 단계를 사용하여 수수료백을 보낼 수 있습니다.
+
+  - iOS/iPadOS 장치에서 MSDefender 앱을 니다.
+  - 왼쪽 위 모서리에 있는 메뉴(프로필 아이콘)를 탭합니다.
+  - 피드백 **보내기 를 탭합니다.**
+  - 제공된 옵션에서 선택합니다. 문제를 보고하려면 **를** 선택합니다.
+  - 마주하고 있는 문제의 세부 정보를 제공하고 진단 데이터 **보내기 를 선택하십시오.** 팀에서 해결 방법이나 후속 단계를 위해 연락할 수 있도록 전자 메일 주소를 포함하는 것이 좋습니다.
+  - **제출을** 탭하여 피드백을 보내주세요.
+
+
 

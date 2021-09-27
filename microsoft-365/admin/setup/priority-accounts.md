@@ -11,16 +11,17 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 description: 비즈니스에 큰 영향을 미치는 계정으로 보내거나 보낸 전자 메일로 전송된 실패 및 지연된 전자 메일 메시지를 모니터링합니다.
-ms.openlocfilehash: 5d1122502c2ba7eff653874f5affba7774e9feb5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 95d5e703570b3a399335a0c26d7e953a277ccddf
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186667"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59934206"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>우선 순위 계정 관리 및 모니터링
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: daedf3ebbf88c70cf5b3889a9d7560800ad16f5f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 81be4d293398b264dfa72bbca0eb74b0429add71
+ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59223061"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59934122"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Android의 엔드포인트용 Microsoft Defender 문제 해결
 
@@ -44,7 +44,7 @@ ms.locfileid: "59223061"
 
 **로그인 실패:** *예기치 않은 오류, 나중에 시도*
 
-![로그인 실패 오류의 이미지 예기치 않은 오류입니다.](images/f9c3bad127d636c1f150d79814f35d4c.png)
+:::image type="content" alt-text="로그인 실패 오류의 이미지 예기치 않은 오류입니다." source="images/f9c3bad127d636c1f150d79814f35d4c.png":::
 
 **메시지:**
 
@@ -62,7 +62,7 @@ Google Play 스토어에서 최신 [Microsoft Authenticator](https://play.google
 
 **로그인 실패: 라이선스가** *잘못되었습니다. 관리자에게 문의하세요.*
 
-![로그인에 실패한 이미지가 관리자에게 문의하시기 바랍니다.](images/920e433f440fa1d3d298e6a2a43d4811.png)
+:::image type="content" alt-text="로그인에 실패한 이미지가 관리자에게 문의하시기 바랍니다." source="images/920e433f440fa1d3d298e6a2a43d4811.png":::
 
 **메시지:** *라이선스가 잘못되었습니다. 관리자에게 문의하세요.*
 
@@ -140,3 +140,29 @@ OEM과 협력하여 앱 온보더링 화면에서 이 권한을 사용하도록 
    !["Microsoft Defender Endpoint"를 찾은 다음 "낙관하지 않습니다."를 선택합니다.](images/select-dont-optimise.png)
 
 Microsoft Defender 끝점 온보딩 화면으로 돌아가서 허용 을 선택하면 대시보드 화면으로 리디렉션됩니다.
+
+## <a name="send-in-app-feedback"></a>앱에서 내 피드백 보내기
+
+사용자가 위 섹션에서 아직 해결되지 않은 문제가 표시되거나 나열된 단계를 사용하여 해결할 수 없는 경우  사용자는 진단 데이터와 함께 앱에서 내 피드백을 제공할 **수 있습니다.** 그런 다음 팀에서 로그를 조사하여 올바른 솔루션을 제공할 수 있습니다. 사용자는 다음 단계에 따라 동일한 작업을 할 수 있습니다.
+
+1.  장치에서 **MDE 응용** 프로그램을 열고  왼쪽 위 모서리의 프로필 아이콘을 클릭합니다.
+
+    :::image type="content" alt-text="프로필 아이콘을 클릭합니다." source="images/select-profile-icon-1.jpg":::
+
+2.  "도움말 &"를 선택합니다.
+
+    :::image type="content" alt-text="도움말 및 피드백을 선택합니다." source="images/selecthelpandfeedback2.png":::
+
+3.  "Microsoft에 피드백 보내기"를 선택합니다.
+
+    :::image type="content" alt-text="Microsoft에 피드백 보내기 를 선택합니다." source="images/send-feedback-to-microsoft-3.jpg":::
+
+4.  제공된 옵션에서 선택합니다. 문제를 보고하려면 "문제를 보고하고 싶습니다."를 선택합니다.
+
+    :::image type="content" alt-text="문제 보고." source="images/report-issue-4.jpg":::
+
+5.  마주하고 있는 문제의 세부 정보를 제공하고 "진단 데이터 보내기"를 선택하십시오. 팀이 해결 방법이나 추가 단계를 사용하여 연락할 수 있도록 "전자 메일 주소 포함"을 검사하는 것이 좋습니다.
+
+    :::image type="content" alt-text="세부 정보를 추가하고 진단 데이터를 첨부합니다." source="images/finalsubmit5.png":::
+
+6.  "제출"을 클릭하여 의견을 보내주세요.
