@@ -20,12 +20,12 @@ description: 관리자는 검색 포털에서 사용할 수 있는 Office 365 De
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 80ba6c1f7c04a48b5472a12db75d602bd503465e
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 2613b8547d27ce39a14bccfb5e3bfe63f66de36f
+ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483309"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942092"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>검색 포털에서 Office 365 대한 Microsoft 365 Defender 보기
 
@@ -115,22 +115,22 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 **위협 방지** 상태 보고서는 EOP(Exchange Online Protection) 및 Microsoft Defender에서 검색하고 [](exchange-online-protection-overview.md) 차단하는 악성 콘텐츠 및 악의적인 전자 메일에 대한 정보를 함께 Office 365. 자세한 내용은 위협 방지 상태 [보고서를 참조하세요.](view-email-security-reports.md#threat-protection-status-report)
 
-## <a name="url-threat-protection-report"></a>URL 위협 방지 보고서
+## <a name="url-protection-report"></a>URL 보호 보고서
 
-**URL 위협 방지 보고서는** 검색된 위협에 대한 요약 및 추세 보기와 URL 클릭에 대해 링크의 [일부로 금고 제공합니다.](safe-links.md) 이 보고서에는 사용자 클릭 추적 안 하도록 옵션을 선택한 금고 링크 정책이 적용된 사용자의 클릭 데이터가 **없습니다.**
+**URL 보호 보고서는** 검색된 위협에 대한 요약 및 추세 보기와 URL 클릭 시 링크의 [일부로 금고 제공합니다.](safe-links.md) 이 보고서에는 사용자 클릭 추적 안 하도록 옵션을 선택한 금고 링크 정책이 적용된 사용자의 클릭 데이터가 **없습니다.**
 
 보고서를 보시고 Microsoft 365 Defender [포털을](https://security.microsoft.com)열고 보고서  전자 메일 & 공동 작업 전자 메일 & \>  \> **보고서로 이동하세요.** 전자 메일 & **공동 작업 보고서** 페이지에서 URL 보호 페이지를 **찾은** 다음 세부 정보 **보기를 클릭합니다.** 보고서로 직접 이동하기 위해 를 를 <https://security.microsoft.com/reports/URLProtectionActionReport> 습니다.
 
 ![전자 메일 및 공동 작업 보고서 & URL 보호 보고서 위젯입니다.](../../media/url-protection-report-widget.png)
 
-다음 섹션에서는 **URL 위협** 방지 보고서 페이지의 사용 가능한 보기에 대한 설명을 제공합니다.
+다음 섹션에서는 **URL** 보호 보고서 페이지에서 사용 가능한 보기에 대한 설명을 제공합니다.
 
 > [!NOTE]
 > 이는 데이터가 더 큰 *데이터* 집합의 추세를 나타내는 보호 추세 보고서입니다. 따라서 여기에서 차트의 데이터를 실시간으로 사용할 수 없지만 세부 정보 테이블의 데이터는 있으므로 두 데이터 간에 약간의 불일치가 표시될 수 있습니다. 차트는 4시간마다 한 번씩 새로 고쳐지며 지난 90일 동안의 데이터를 포함하게 됩니다.
 
 ### <a name="view-data-by-url-click-protection-action"></a>URL 클릭 보호 작업으로 데이터 보기
 
-![URL 위협 방지 보고서의 URL 클릭 보호 작업 보기입니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
+![URL URL 보호 보고서의 보호 작업 보기를 클릭합니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
 **URL로 데이터** 보기 보호 작업 보기에는 조직의 사용자가 클릭한 URL 클릭 수와 클릭 결과가 표시됩니다.
 
@@ -164,7 +164,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ### <a name="view-data-by-url-click-by-application"></a>응용 프로그램으로 클릭한 URL로 데이터 보기
 
-![URL 위협 방지 보고서의 응용 프로그램 보기로 URL을 클릭합니다.](../../media/url-threat-protection-report-url-click-by-application-view.png)
+![URL 보호 보고서에서 응용 프로그램 보기로 URL을 클릭합니다.](../../media/url-threat-protection-report-url-click-by-application-view.png)
 
 응용 **프로그램 보기에서 URL로 데이터** 보기를 클릭하면 링크가 지원되는 앱의 URL 클릭 금고 표시됩니다.
 

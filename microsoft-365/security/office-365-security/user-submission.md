@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1dc5a22fe23a64669c7ab89ecd2141aff1659166
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9fc149a8c76180ca2baf0bd38bef149f00611899
+ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192262"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942352"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -114,6 +114,7 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
      - **사용자 보고 환경 섹션**
        - **보고 탭** 전에:  제목  및 메시지 본문 상자에 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하여 메시지를 보고하기 전에 사용자에게 설명 텍스트를 입력합니다. %type% 변수를 사용하여 제출 유형(정크, 피싱 등이 아님)을 포함할 수 있습니다.
        - **보고 탭** 후:  제목  및 확인 메시지 상자에 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하여 메시지를 보고한 후 사용자에게 설명 텍스트를 입력합니다. %type% 변수를 사용하여 제출 유형을 포함할 수 있습니다.
+       -  **사용자가 피싱을** 보고할 때만 표시: 전자 메일이 피싱으로 보고된 경우만 메시지를 표시하려는 경우 이 옵션을 선택합니다. 그렇지 않은 경우 모든 종류의 보고서에 대해 확인된 메시지가 표시됩니다.
 
        페이지에 표시된 것 처럼 보고된 메시지를 Microsoft로 보내는 옵션을 선택하면 알림에 다음 텍스트도 추가됩니다.
 
@@ -121,6 +122,8 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 
    - **Microsoft Outlook 메시지 단추** \> **끄기** ![ 토글 해제: 보고서 메시지 추가 기능, 피싱 보고 추가 기능 또는 기본 제공 웹용 Outlook 대신 타사 보고 도구를 사용하는 경우 이 옵션을 선택하고 다음 설정을 ](../../media/scc-toggle-off.png) 구성합니다.
      - 이 **사용자 지정 사서함을 사용하여 사용자가 보고한 제출을 받습니다.를 선택합니다.** 나타나는 상자에 전자 메일을 받을 수 있는 기존 Exchange Online 사서함의 전자 메일 주소를 입력합니다.
+
+   - **Microsoft Outlook 메시지** 보고 단추: 최종 사용자가 메시지를 검지에서 보고할 수 있도록 하려는 경우 이 기능을 사용하도록 설정하세요.
 
    완료되면 확인 을 **클릭합니다.** 이러한 값을 지우려면 **복원을 클릭합니다.**
 
@@ -142,7 +145,7 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 - 2| 또는 정크 아님
 - 3| 또는 피싱
 
-예제:
+예를 들어:
 
 `3|This part is ignored by the system` <br>
 `Not Junk:This part of the subject is ignored as well`

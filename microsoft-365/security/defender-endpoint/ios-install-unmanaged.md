@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8ea5e2c5efef1becf69f0d5f7e46b57aa89ef94a
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: 7057de56de516843fa91e87a50d56e03a2d88e50
+ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460283"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941948"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-unenrolled-ios-devices"></a>미인인 iOS 장치에 끝점용 Microsoft Defender 배포
 

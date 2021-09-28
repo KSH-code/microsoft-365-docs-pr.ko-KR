@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: bb181ab213cc02e5289681b8c3965a96bd8b8dcb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 646007176a35506f0c30d6b7092d70f52f762e57
+ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191102"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941982"
 ---
 # <a name="prerequisites-for-guest-accounts"></a>게스트 계정에 대한 필수 구성 요소
 
@@ -30,6 +30,8 @@ Microsoft Managed Desktop 액세스하려면 Azure AD 조직에서 다음 설정
     -   지정된 **도메인(가장** 제한적인)에 대한 초대만 허용을 선택하는 경우  대상 도메인에 Microsoft.com 나열해야 합니다.
 
 이러한 설정과 상호 작용하는 제한을 설정하는 경우 최신 작업 공간 서비스 Azure Active Directory **제외해야 합니다.** 예를 들어 게스트 계정이 Intune 포털에 액세스하지 못하게 하는 조건부 액세스 정책이 있는 경우 이 정책에서 최신 **작업** 공간 서비스 계정 그룹을 제외합니다.
+
+자세한 내용은 B2B 외부 공동 작업 사용 및 게스트를 초대할 수 [있는 사용자 관리를 참조하세요.](/azure/active-directory/external-identities/delegate-invitations#to-configure-external-collaboration-settings)
 
 ## <a name="unlicensed-intune-admin"></a>라이선스가 없는 Intune 관리자
 

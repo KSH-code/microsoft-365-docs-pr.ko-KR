@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ee90b01580115bff7050b0f101e8c9e049841bbb
-ms.sourcegitcommit: db571169242063f104450fec4c4b19aeec688b15
+ms.openlocfilehash: 755086b039a95770ef1f615733f46c3c782214fc
+ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447357"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941942"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -31,7 +31,8 @@ ms.locfileid: "59447357"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-조직을 보호하기 위해 모든 예방 조치를 취하는 경우에도 여전히 랜섬웨어 공격의 피해가 될 [수](/windows/security/threat-protection/intelligence/ransomware-malware) 있습니다. 랜섬웨어는 대기업에 있으며 공격은 매우 정교합니다.
+조직을 보호하기 위해 모든 예방 조치를 취하는 경우에도 여전히 랜섬웨어 공격의 피해가 될 [수](/windows/security/threat-protection/intelligence/ransomware-malware) 있습니다. 랜섬웨어는 대기업이자 오늘날의 위협 환경 Microsoft 365 정교한 공격의 대상이 될 [것입니다.](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Cloudy-With-A-Chance-Of-APT-Novel-Microsoft-365-Attacks-In-The-Wild.pdf)
+
 
 이 문서의 단계는 데이터를 복구하고 내부 감염 확산을 중지할 수 있는 최상의 기회를 제공합니다. 시작하기 전에 다음 항목을 고려하세요.
 
@@ -43,9 +44,13 @@ ms.locfileid: "59447357"
 
 - 공격과 그 결과에 신속하게 대응하는 것이 중요합니다. 대기 시간이 길면 영향을 받는 데이터를 복구할 가능성이 낮아질 수 있습니다.
 
-## <a name="step-1-verify-your-backups"></a>1단계: 백업 확인
+## <a name="step-1-verify-your-third-party-backups"></a>1단계: 타사 백업 확인
 
-오프라인 백업이 있는 경우 환경에서 랜섬웨어  페이로드(맬웨어)를 제거한 후 암호화된 데이터를 복원할 수 있습니다.
+Microsoft 365 규정 준수 도구 모음은 조직의 법률 및 [](/microsoft-365/compliance/) 규정 표준을 충족하도록 디자인되어 모범 사례로, 타사 앱 및 서비스를 사용하여 Microsoft 365 콘텐츠 및 데이터를 정기적으로 백업하는 것이 좋습니다. [](https://www.microsoft.com/servicesagreement)
+
+데이터를 복원할 수 있도록 백업을 정기적으로 테스트하고 공격이 발생하면 백업을 복원할 수 있는지 검사하는 것이 중요합니다. 실제 공격의 경우 환경에서 랜섬웨어 페이로드(맬웨어)를 제거하고 사용자 환경에서 무단 액세스가  없음을 확인한 후에 이러한 복원을 완료하면 Microsoft 365 합니다. 
+
+랜섬웨어의 영향을 받지 않도록 백업을 지원하기 위해 타사 서비스는 환경에서 에어 래핑해야 합니다.
 
 백업이 없는 경우 또는 백업이 랜섬웨어의 영향을 받은 경우 이 단계를 건너뛸 수 있습니다.
 
@@ -145,31 +150,31 @@ ms.locfileid: "59447357"
 
 Microsoft의 주요 정보:
 
-- [랜섬웨어의](https://blogs.microsoft.com/on-the-issues/2021/07/20/the-growing-threat-of-ransomware/)위협이 증가하고 있습니다. Microsoft On the Issues blog post on July 20, 2021
-- [휴먼 운영 랜섬웨어](/security/compass/human-operated-ransomware)
-- [랜섬웨어 및 공격으로부터 빠르게 보호](/security/compass/protect-against-ransomware)
-- [최신 Microsoft 보안 인텔리전스](https://www.microsoft.com/securityinsights/) 보고서(22-24 페이지 참조)
-- **랜섬웨어:** Microsoft 365 Defender 포털의 위협 분석 노드에 있는  보행 및 지속적인 위협 보고서(다음 라이선스 요구 [사항 참조)](/microsoft-365/security/defender/prerequisites#licensing-requirements)
+- [랜섬웨어 위협 증가](https://blogs.microsoft.com/on-the-issues/2021/07/20/the-growing-threat-of-ransomware/), 2021년 7월 20일 Microsoft On the Issue 블로그 게시물
+- [사람이 조작하는 랜섬웨어](/security/compass/human-operated-ransomware)
+- [랜섬웨어 및 탈취로부터 신속하게 보호](/security/compass/protect-against-ransomware)
+- [최신 Microsoft 보안 인텔리전스 보고서](https://www.microsoft.com/securityinsights/)(22-24페이지 참조)
+- **랜섬웨어:** Microsoft 365 Defender 포털의 **위협 분석** 노드에 만연하고 지속적인 위협 보고서가 있습니다(이 [라이선스 요구 사항](/microsoft-365/security/defender/prerequisites#licensing-requirements) 참조).
 
 Microsoft 365:
 
-- [테넌트에 대한 랜섬웨어 Microsoft 365 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)
+- [Microsoft 365 테넌트용 랜섬웨어 보호 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
-- [랜섬웨어로부터 Windows 10 PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
+- [랜섬웨어에서 Windows 10 PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
 
 Microsoft 365 Defender:
 
-- [고급 헌팅을 통해 랜섬웨어 찾기](/microsoft-365/security/defender/advanced-hunting-find-ransomware)
+- [고급 헌팅으로 랜섬웨어 찾기](/microsoft-365/security/defender/advanced-hunting-find-ransomware)
 
 Microsoft Azure:
 
-- [랜섬웨어 공격에 대한 Azure Defenses](https://azure.microsoft.com/resources/azure-defenses-for-ransomware-attack/)
+- [랜섬웨어 공격용 Azure 방어](https://azure.microsoft.com/resources/azure-defenses-for-ransomware-attack/)
 - [랜섬웨어로부터 보호하기 위한 백업 및 복원 계획](/security/compass/backup-plan-to-protect-against-ransomware)
 - [랜섬웨어로부터](https://www.youtube.com/watch?v=VhLOr2_1MCg) 보호하는 Microsoft Azure 백업(26분 비디오)
-- [시스템 ID 손상으로부터 복구](/azure/security/fundamentals/recover-from-identity-compromise)
-- [Azure Sentinel의 고급 다단계 공격 감지](/azure/sentinel/fusion#ransomware)
-- [Azure Sentinel의 랜섬웨어에 대한 Fusion 검색](https://techcommunity.microsoft.com/t5/azure-sentinel/what-s-new-fusion-detection-for-ransomware/ba-p/2621373)
+- [시스템 ID 손상 복구](/azure/security/fundamentals/recover-from-identity-compromise)
+- [Azure Sentinel에서 고급 다단계 공격 탐지](/azure/sentinel/fusion#ransomware)
+- [Azure Sentinel의 랜섬웨어 퓨전 탐지](https://techcommunity.microsoft.com/t5/azure-sentinel/what-s-new-fusion-detection-for-ransomware/ba-p/2621373)
 
 Microsoft Cloud App Security:
 
@@ -177,14 +182,14 @@ Microsoft Cloud App Security:
 
 Microsoft 보안 팀 블로그 게시물:
 
-- [랜섬웨어를 방지 및 복구하기 위한 3단계(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/07/3-steps-to-prevent-and-recover-from-ransomware/)
-- [사이버 보안 위험을 이해하여 탄력성 확보: 4부 - 현재 위협을 완화(2021년 5월)](https://www.microsoft.com/security/blog/2021/05/26/becoming-resilient-by-understanding-cybersecurity-risks-part-4-navigating-current-threats/)
+- [랜섬웨어 방지 및 복구를 위한 3단계(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/07/3-steps-to-prevent-and-recover-from-ransomware/)
+- [사이버 보안 위험 파악을 통한 탄력성 강화: 제4부—현재 위협 탐색(2021년 5월)](https://www.microsoft.com/security/blog/2021/05/26/becoming-resilient-by-understanding-cybersecurity-risks-part-4-navigating-current-threats/)
 
-  **랜섬웨어 섹션을 참조하세요.**
+  **랜섬웨어** 섹션을 참조하세요.
 
-- [휴먼 운영 랜섬웨어 공격: 예방 가능한 재해(2020년 3월)](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
+- [인간 운영 랜섬웨어 공격: 예방 가능한 재해(2020년 3월)](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
 
   실제 공격에 대한 공격 체인 분석을 포함합니다.
 
-- [랜섬웨어 대응 - 지불할지 또는 지불하지 않을 것인가? (2019년 12월)](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
-- [Norsk 지수는 투명성을 통해 랜섬웨어 공격에 대응합니다(2019년 12월)](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+- [랜섬웨어 대응—지불 여부(2019년 12월)](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
+- [Norsk Hydro가 랜섬웨어 공격에 투명하게 대응(2019년 12월)](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)

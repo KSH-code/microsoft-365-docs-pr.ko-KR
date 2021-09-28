@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 교육 가능한 Microsoft 365 분류자란 테스트 또는 정책 응용 프로그램에 대해 다양한 유형의 콘텐츠를 인식할 수 있는 도구로, 이를 통해 볼 수 있는 양성 및 부정 샘플을 제공합니다.
-ms.openlocfilehash: ea4be5c5e429e3305373229020bfb5444912b365
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 086ca0575bc701deccbb7c49dbc7c71bdd838d5a
+ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166058"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942016"
 ---
 # <a name="learn-about-trainable-classifiers"></a>학습 가능한 분류자에 대한 자세한 정보
 
@@ -57,7 +57,7 @@ ms.locfileid: "59166058"
 민감도 레이블은 분류기를 조건으로 사용할 수 있습니다. 콘텐츠에 자동으로 민감도 [레이블 적용을 참조하세요.](apply-sensitivity-label-automatically.md)
 
 > [!IMPORTANT]
-> 분류기는 암호화되지 않은 항목과 영어로 된 항목만 작업합니다.
+> 분류기는 암호화되지 않은 항목에서만 작업합니다.
 
 ## <a name="types-of-classifiers"></a>분류자 유형
 
@@ -115,6 +115,9 @@ Microsoft 365 5개의 사전 학습된 분류자와 함께 사용할 수 있습�
 > [!IMPORTANT]
 > 공격적인 언어, 괴롭히는 언어, 희롱, 차별 및 위협 분류기는 검색 가능한 텍스트로만 작동하며 이러한 영역의 전체 또는 전체 용어 또는 언어 목록은 아니며 이에 유의하세요. 또한 언어 및 문화 표준은 지속적으로 변경되고 이러한 현실에 비관하여 Microsoft는 재량에 따라 분류자 업데이트할 수 있는 권리가 있습니다. 분류자 조직에서 이러한 영역을 검색하는 데 도움이 될 수 있는 반면 분류기는 이러한 언어의 사용을 검색하거나 해결할 수 있는 유일한 수단을 조직에 제공하기 위한 것이 아니며, Microsoft 또는 해당 자회사가 아닌 조직은 사전 학습된 분류자에 의해 식별된 콘텐츠의 모니터링, 검사, 차단, 제거 및 보존과 관련된 모든 결정(로컬 개인 정보 및 기타 관련 법률 준수 포함)에 대한 책임을 져야 합니다. Microsoft는 배포 및 사용 전에 법률 자문가와 상의하는 것이 좋습니다.
 
+사전 학습된 분류자들은 다음 언어로 콘텐츠를 검색할 수 있습니다.
+
+• 중국어(간체) • 영어 • 프랑스어 • 독일어 • 이탈리아어 • 일본어 • 포르투갈어 • 스페인어
 
 ### <a name="custom-classifiers"></a>사용자 지정 분류자
 
