@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 가시성 및 인사이트를 시작합니다.
-ms.openlocfilehash: ac99e9112dc7e0278243121a8530326c88f333dc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 82c099c2955545f6546f978ded9e2d07a74b48cf
+ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190012"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941960"
 ---
 # <a name="get-started-with-visibility-and-insights"></a>가시성 및 인사이트 시작
 
@@ -62,12 +62,14 @@ ms.locfileid: "59190012"
     - 확인되지 않은 게시자
     - 앱만
     - 새 앱
-1. 세부 정보를 보려는 앱의 이름을 선택합니다. 앱 이름 왼쪽에 확인 표시를 배치하여 여러 앱을 선택하고 저장된 쿼리로 저장할 수 있습니다. 앱 이름을 선택하면 다음 그래픽과 같이 오른쪽에 세부 정보 창이 열립니다.
+1. 세부 정보를 보려는 앱의 이름을 선택합니다. 앱 이름을 선택하면 다음 그래픽과 같이 오른쪽에 세부 정보 창이 열립니다.
 
 :::image type="content" source="../media/manage-app-protection-governance/app-governance-app-insight.png" alt-text="선택한 앱에 대한 세부 정보 창을 보여 주는 이미지입니다.":::
 
 > [!NOTE]
 > 표시되는 앱은 테넌트에서 제공하는 앱에 따라 달라집니다.
+
+쿼리를 저장하면 정의된 필터 목록을 현재 보기에 저장할 수 있습니다. 이렇게 하면 나중에 데이터의 하위 집합을 선택할 때 시간이 절약될 수 있습니다.
 
 세부 정보 창에서는 지난 30일 동안의 앱 사용량, 앱에 동의한 사용자 및 앱에 할당된 사용 권한을 볼 수 있습니다. 관리자는 경고를 생성하는 앱의 활동 및 사용 권한을 검토하고 세부 정보 창의 **앱 비활성화** 단추를 사용하여 앱을 사용하지 않도록 결정할 수 있습니다.
 

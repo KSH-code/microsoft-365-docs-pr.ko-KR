@@ -15,31 +15,34 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 관리하는 앱 거버넌스 기능을 시작하세요.
-ms.openlocfilehash: d733d62927e78b99ad5289206caf51df3459522c
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: c0e5b92f534533fb03505421b5e6a49208891443
+ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401093"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942031"
 ---
 # <a name="get-started-with-app-governance-in-preview"></a>앱 거버넌스 시작(미리 보기)
 
+[![앱 거버넌스 무료 평가판 신청](../media/manage-app-protection-governance/large-app-governance-banner.png)](https://admin.microsoft.com/Commerce/Trial.aspx?OfferId=20be85b6-b196-402c-82b4-36b4e72862dc)
+
 Microsoft Cloud App Security에 대한 앱 거버넌스 추가 기능 사용을 시작하려면 다음 세 단계를 실행해야 합니다.
 
-## <a name="step-1-meet-the-licensing-and-administrator-role-prerequisites"></a>1단계: 라이선스 및 관리자 역할 필수 구성 요소 충족
+1. [라이선스 및 관리자 필수 구성 요소 확인](#licensing-and-administrator-role-prerequisites).
+1. [앱 거버넌스 평가판 신청](#sign-up-for-free-trial-of-app-governance).
+1. [MCAS 통합 추가](#add-integration-with-mcas)
 
-1. 계정이 [적절한 수준의 라이선스](#licensing-for-app-governance)를 보유하고 있는지 확인합니다. 앱 거버넌스는 MCAS(Microsoft Cloud App Security)의 추가 기능이므로 계정은 MCAS는 독립 실행형 제품 또는 다양한 라이선스 패키지의 일부로 라이선스를 보유하고 있어야 합니다.
-1. 포털에서 앱 거버넌스 페이지에 액세스하려면 아래에 나열된 [관리자 역할](#administrator-roles) 중 하나가 있어야 합니다.
-1. 무료 평가판을 활성화하려면 조직의 청구 주소가 [북미, 유럽 또는 아프리카에서 지원되는 지역](app-governance-countries.md) 중 하나여야 합니다.
 
-## <a name="step-2-sign-up-for-free-trial-of-app-governance"></a>2단계: 앱 거버넌스 무료 평가판에 등록
+## <a name="sign-up-for-free-trial-of-app-governance"></a>앱 거버넌스 평가판에 등록
 
 기존 Microsoft 365 고객용:
 
-1. [평가판 등록 페이지](https://admin.microsoft.com/Commerce/Trial.aspx?OfferId=20be85b6-b196-402c-82b4-36b4e72862dc)로 이동합니다. 
+1. [평가판 등록 페이지](https://admin.microsoft.com/Commerce/Trial.aspx?OfferId=20be85b6-b196-402c-82b4-36b4e72862dc)로 이동합니다.
 1. 앱 거버넌스를 추가하는 단계별 실행을 완료합니다. 다음 그래픽에 표시된 바와 같이 간단하게 등록할 수 있습니다.
 
-:::image type="content" source="../media/manage-app-protection-governance/sign-up-page.png" alt-text="계정에 앱 거버넌스를 추가하는 간단한 단계별 실행":::
+<!--
+:::image type="content" source="../media/manage-app-protection-governance/sign-up-page.png" alt-text="Simple steps to add app governance to your account.":::
+-->
 
 아직 Microsoft 365 고객이 아닌 경우 무료 평가판에 등록할 수 있습니다.
 
@@ -47,7 +50,7 @@ Microsoft Cloud App Security에 대한 앱 거버넌스 추가 기능 사용을 
 1.  **비즈니스용 Microsoft 365 체험** 아래에서 **1개월 무료 체험** 을 선택합니다.
 1. 등록 단계별 실행을 완료합니다.
 
-## <a name="step-3-add-integration-with-mcas"></a>3단계: MCAS와의 통합 추가
+## <a name="add-integration-with-mcas"></a>MCAS와의 통합 추가
 
 필수 조건:
 
@@ -61,17 +64,19 @@ Cloud App Security와 앱 거버넌스 동기화를 사용하려면 다음 단�
 1. **위협 보호** 에서 **앱 거버넌스** 를 선택합니다.
 1. **앱 거버넌스 통합 사용** 을 선택한 다음 **저장** 을 선택합니다.
 
-다음으로 MCAS에서 새로 활성화된 정책을 검토합니다. 통합 기능을 사용하도록 설정하면 새 정책이 표시되는 데 몇 분 정도 걸릴 수 있습니다.
+MCAS와의 통합이 활성 상태인지 확인하려면 아래에 나열된 앱 거버넌스 정책을 찾아 MCAS에 표시합니다. 통합 기능을 사용하도록 설정하면 새 정책이 표시되는 데 몇 분 정도 걸릴 수 있습니다.
 
 - Microsoft 365 OAuth 앱 평판
 - Microsoft 365 OAuth 피싱 감지
 - Microsoft 365 OAuth 앱 거버넌스
-- MCAS 대시보드에서 앱 거버넌스 위젯 검토
-- MCAS 알림에서 새로 생성된 앱 거버넌스 알림 검토
-- 앱 거버넌스 정책 목록에서 MCAS Microsoft 365 OAuth 정책 검토
-- 앱 거버넌스 알림에서 새로 생성된 MCAS Microsoft 365 OAuth 알림 검토
 
-## <a name="licensing-for-app-governance"></a>앱 거버넌스 라이선싱
+## <a name="licensing-and-administrator-role-prerequisites"></a>라이선스 및 관리자 역할 필수 구성 요소
+
+1. 계정이 [적절한 수준의 라이선스](#licensing-for-app-governance)를 보유하고 있는지 확인합니다. 앱 거버넌스는 MCAS(Microsoft Cloud App Security)의 추가 기능이므로 계정은 MCAS는 독립 실행형 제품 또는 다양한 라이선스 패키지의 일부로 라이선스를 보유하고 있어야 합니다.
+1. 포털에서 앱 거버넌스 페이지에 액세스하려면 아래에 나열된 [관리자 역할](#administrator-roles) 중 하나가 있어야 합니다.
+1. 무료 평가판을 활성화하려면 조직의 청구 주소가 [북미, 유럽 또는 아프리카에서 지원되는 지역](app-governance-countries.md) 중 하나여야 합니다.
+
+### <a name="licensing-for-app-governance"></a>앱 거버넌스 라이선싱
 
 앱 거버넌스를 시작하기 전에 [Microsoft 365 관리 센터 구독](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/subscriptions) 및 추가 기능을 확인해야 합니다. 앱 거버넌스에 액세스하고 사용하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
 
@@ -98,7 +103,7 @@ Cloud App Security와 앱 거버넌스 동기화를 사용하려면 다음 단�
 - 학생용 Microsoft 365 A5(오디오 회의 제외)
 - 학생용 Microsoft 365 A5(오디오 회의 제외) 사용 혜택
 
-## <a name="administrator-roles"></a>관리자 역할
+### <a name="administrator-roles"></a>관리자 역할
 
 > [!NOTE]
 > 전역 관리자 역할만 앱 거버넌스 무료 평가판을 활성화할 수 있습니다.
