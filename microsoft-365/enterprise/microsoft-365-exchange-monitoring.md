@@ -16,12 +16,12 @@ ms.custom: admindeeplinkMAC
 f1.keywords:
 - NOCSH
 description: Microsoft 365의 메일 인시던트 또는 권고에 대한 자세한 내용은 Exchange Online 모니터링을 사용하세요.
-ms.openlocfilehash: 0f3b93d13d503ef09edc98f3f9c90f9a1f2a0a32
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 2c97e161c46998f9a78e14b1efc2eb0e701e5b01
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933844"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988250"
 ---
 # <a name="exchange-online-monitoring-for-microsoft-365"></a>Microsoft 365의 Exchange Online 모니터링
 
@@ -70,7 +70,6 @@ Exchange Online 모니터링은 다음 시나리오를 지원합니다.
   - IOS 및 Android의 기본 메일 클라이언트
   - IOS 및 Android의 Outlook Mobile 앱
   - Outlook Mac 클라이언트
-  - 웹용 Outlook 열기
 
    해당 클라이언트의 경우, 대시보드에서 인시던트와 권고 수와 함께, 메일을 읽는 사용자를 기반으로 지난 30분 동안의 활성 사용자 수를 볼 수 있습니다. 지난 주에 대해 동일한 간격으로 이 데이터를 비교하여 문제가 있는지 확인합니다.
 
@@ -115,9 +114,9 @@ Exchange 라이선스 시나리오는 테넌트 관리자가 해결할 수 있�
 
 - 수정됨: 우선 순위 계정에 대해 권고 또는 인시던트를 유발하는 문제가 해결되었습니다. 더 이상 문제가 없습니다. 
 
-- 활성: 권고 또는 인시던트를 일으키는 문제가 우선 순위 계정에 대해 진행 중입니다. 문제가 남아 있습니다. 
+- 활성: 권고 또는 인시던트를 일으키는 문제가 우선 순위 계정에 대해 진행 중입니다. 문제가 아직 해결되지 않았습니다. 
 
-- 지연됨: 권고 또는 인시던트를 유발한 문제가 96시간 동안 우선 순위 계정에 대해 해결되지 않아 일시 중지됩니다. 문제가 남아 있습니다. 
+- 지연됨: 권고 또는 인시던트를 유발한 문제가 96시간 동안 우선 순위 계정에 대해 해결되지 않아 일시 중지됩니다. 문제가 아직 해결되지 않았습니다. 
 
 예를 들면 다음과 같습니다.
 
