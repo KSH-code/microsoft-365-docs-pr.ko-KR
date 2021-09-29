@@ -2,8 +2,8 @@
 title: 메일 흐름 지도
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 메일 흐름 맵을 사용하여 커넥터를 사용하지 않고도 조직에서 & 흐름을 시각화하고 추적하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bdde117d8984db3a71624ab48a6ed88ba8367054
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 45182b6da5a20780673f5e84aeffaa9c3e6a6fe5
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192342"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988586"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 흐름 맵
 

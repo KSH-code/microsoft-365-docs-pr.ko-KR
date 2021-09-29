@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지를 위한 Microsoft Defender의 공격 시뮬레이션 교육을 사용하여 피싱 방지를 교육하는 방법을 Office 365.
 ms.technology: mdo
-ms.openlocfilehash: 40baa8aa3eda6f0f6045115d45e2dac1426c4455
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 304baf82d2b951ada35dc6cb97add1ac85b27236
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214455"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988718"
 ---
 # <a name="simulate-a-phishing-attack"></a>피싱 공격 시뮬레이션
 
@@ -81,7 +81,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 
   ![포털에서 공격 시뮬레이션 교육의 사용자 Microsoft 365 Defender.](../../media/attack-sim-preview-user-targeting.png)
 
-- **CSV에서 가져오기에서는** 이 시뮬레이션에 대해 미리 정의한 사용자 집합을 가져올 수 있습니다.
+- **CSV에서 가져오기에서는** 이 시뮬레이션에 대해 미리 정의한 사용자 집합을 가져올 수 있습니다. CSV 파일에는 한 줄에 전자 메일 주소가 하나씩 포함되어야 합니다.
 
 ## <a name="assigning-training"></a>교육 할당
 

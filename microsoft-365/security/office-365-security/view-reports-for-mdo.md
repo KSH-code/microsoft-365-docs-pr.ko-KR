@@ -20,12 +20,12 @@ description: 관리자는 검색 포털에서 사용할 수 있는 Office 365 De
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2613b8547d27ce39a14bccfb5e3bfe63f66de36f
-ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
+ms.openlocfilehash: da89b5421171eefe56363f38e1959cede2ef5afb
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942092"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988499"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>검색 포털에서 Office 365 대한 Microsoft 365 Defender 보기
 
@@ -62,12 +62,12 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 ## <a name="safe-attachments-file-types-report"></a>금고 첨부 파일 형식 보고서
 
 > [!NOTE]
-> 첨부 **금고 파일 형식 보고서가** 삭제됩니다. 위협 방지 상태 보고서에서 동일한 [정보를 사용할 수 있습니다.](#threat-protection-status-report)
+> 이 보고서는 사용되지 않습니다. 위협 방지 상태 보고서에서 동일한 [정보를 사용할 수 있습니다.](#threat-protection-status-report)
 
 ## <a name="safe-attachments-message-disposition-report"></a>금고 첨부 파일 메시지 처리 보고서
 
 > [!NOTE]
-> 첨부 **금고 메시지 처리 보고서는** 결국 삭제됩니다. 위협 방지 상태 보고서에서 동일한 [정보를 사용할 수 있습니다.](#threat-protection-status-report)
+> 이 보고서는 사용되지 않습니다. 위협 방지 상태 보고서에서 동일한 [정보를 사용할 수 있습니다.](#threat-protection-status-report)
 
 ## <a name="mail-latency-report"></a>메일 대기 시간 보고서
 
@@ -110,6 +110,8 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 - **백분위수:** **50**, **90** 또는 **99**
 - **메시지 수**
 - **전체 대기 시간**
+
+주 보고서 페이지에서 ![ 내보내기 아이콘을 클릭합니다.](../../media/m365-cc-sc-download-icon.png) **[내보내기](view-email-security-reports.md#export-report)** 단추를 사용할 수 있습니다.
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
@@ -162,6 +164,8 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 - **작업**
 - **앱**
 
+주 보고서 페이지에서 일정 ![ 만들기 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **[일정 만들기](view-email-security-reports.md#schedule-report)**, ![ 보고서 요청 아이콘.](../../media/m365-cc-sc-download-icon.png) **[보고서 요청](view-email-security-reports.md#request-report)** 및 ![ 내보내기 아이콘.](../../media/m365-cc-sc-download-icon.png) **[내보내기](view-email-security-reports.md#export-report)** 단추를 사용할 수 있습니다.
+
 ### <a name="view-data-by-url-click-by-application"></a>응용 프로그램으로 클릭한 URL로 데이터 보기
 
 ![URL 보호 보고서에서 응용 프로그램 보기로 URL을 클릭합니다.](../../media/url-threat-protection-report-url-click-by-application-view.png)
@@ -193,6 +197,8 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 - **URL**
 - **작업**
 - **앱**
+
+주 보고서 페이지에서 일정 ![ 만들기 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **[일정 만들기](view-email-security-reports.md#schedule-report)**, ![ 보고서 요청 아이콘.](../../media/m365-cc-sc-download-icon.png) **[보고서 요청](view-email-security-reports.md#request-report)** 및 ![ 내보내기 아이콘.](../../media/m365-cc-sc-download-icon.png) **[내보내기](view-email-security-reports.md#export-report)** 단추를 사용할 수 있습니다.
 
 ## <a name="additional-reports-to-view"></a>볼 추가 보고서
 
@@ -231,8 +237,8 @@ PowerShell 보고 cmdlet:
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기**
-- **전역 읽기**
+- **보안 읽기 권한자**
+- **전역 읽기 권한자**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 

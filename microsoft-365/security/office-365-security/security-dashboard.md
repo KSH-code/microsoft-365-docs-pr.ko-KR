@@ -2,8 +2,8 @@
 title: 보안 대시보드 개요
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 description: 새 보안 대시보드를 사용하여 위협 방지 Office 365 검토하고 보안 경고를 보고 이에 대한 행동을 할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 18cde7063e8a25426b56ee184b71408016a6116d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0d239ffa2786b23465379de99a3e1ddc6865566f
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189089"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988262"
 ---
 # <a name="security-dashboard-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 대시보드
 

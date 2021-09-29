@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2e7ec8ca3b9f428708c21c5a75bbfd4174373d62
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: bbf230d7ae21bd694fb3568b51903d6fa6581ab9
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491328"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988790"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -30,10 +30,6 @@ ms.locfileid: "59491328"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
-> [!IMPORTANT]
-> **웹 콘텐츠 필터링이 현재 공개 미리 보기에 있습니다.**<br>
-> 이 미리 보기 버전은 서비스 수준 계약 없이 제공되며 프로덕션 워크로드에는 권장되지 않습니다. 특정 기능이 지원되지 않거나 기능이 제한될 수 있습니다. 자세한 내용은 [엔드포인트용 Microsoft Defender 미리 보기 기능](preview.md)을 참조하세요.
 
 > [!TIP]
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
@@ -52,7 +48,7 @@ ms.locfileid: "59491328"
 
 - 보안 팀은 실제 블록 및 웹 사용 현황을 볼 수 있는 동일한 중앙 위치에 있는 웹 보고서에 액세스할 수 있습니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 이 기능을 시도하기 전에 다음 요구 사항을 충족하는지 확인합니다.
 

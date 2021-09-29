@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 0e0e6d2359b9dbec64263deede1776d2bd5889a8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a8b2cc5498d15fe174d58fc9b4caf2b33982f38d
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165986"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988916"
 ---
 # <a name="communication-compliance-feature-reference"></a>커뮤니케이션 규정 준수 기능 참조
 
@@ -227,7 +227,7 @@ Microsoft 365 규정 준수 센터에서 Microsoft 365 조직에 대한 커뮤�
 - 이탈리아어
 - 일본어
 - 포르투갈어
-- Spanish
+- 스페인어
 
 커뮤니케이션 규정 준수 기본 제공 교육 가능 및 전역 분류자들은 다음 유형의 언어 및 콘텐츠에 대한 용어, 이미지 및 정서에 대한 통신을 검색합니다.
 
@@ -294,13 +294,13 @@ OCR을 사용하는 정책에 대해 보류 중인 경고를 검토할 때 식�
 
 > [!IMPORTANT]
 >
-> 사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. 예를 들면 다음과 같습니다.
+> 사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. 예를 들어:
 >
 > *banker* <br>
 > *confidential* <br>
 > *내부자 거래*
 
-전자 메일 메시지와 첨부 파일에서 동일한 키워드를 [](create-test-tune-dlp-policy.md) 모두 검색하려면 메시지에서 검색할 용어에 대한 사용자 지정 키워드 사전을 사용하여 데이터 손실 방지 정책을 만들어야 합니다. [](create-a-keyword-dictionary.md) 이 정책 구성은 전자 메일 메시지 또는 전자 메일 첨부 파일에 나타나는 **정의된** 키워드를 식별합니다. 표준 조건부 정책 설정(*메시지에는* 다음 단어가 포함되어 있으며 *Attachment에는* 다음 단어 중 하나만 포함)을  사용하여 메시지의 용어를 식별하고 첨부 파일에 용어를 포함하려면 메시지와 첨부 파일에 용어를 모두 포함해야 합니다.
+전자 메일 메시지와 첨부 파일에서 동일한 키워드를 [](create-a-keyword-dictionary.md) 모두 검색하려면 메시지에서 검색할 용어에 대한 사용자 지정 키워드 사전을 만드면 됩니다. 이 정책 구성은 전자 메일 메시지 또는 전자 메일 첨부 파일에 나타나는 **정의된** 키워드를 식별합니다. 표준 조건부 정책 설정(*메시지에는* 다음 단어가 포함되어 있으며 *Attachment에는* 다음 단어 중 하나만 포함)을  사용하여 메시지의 용어를 식별하고 첨부 파일에 용어를 포함하려면 메시지와 첨부 파일에 용어를 모두 포함해야 합니다.
 
 #### <a name="enter-multiple-conditions"></a>여러 조건 입력
 

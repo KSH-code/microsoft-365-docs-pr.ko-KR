@@ -2,8 +2,8 @@
 title: 사용자가 보고한 메시지 설정
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9fc149a8c76180ca2baf0bd38bef149f00611899
-ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
+ms.openlocfilehash: 5c2bd56198ac64119ec684422a94914b178d8ecf
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942352"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59989006"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 

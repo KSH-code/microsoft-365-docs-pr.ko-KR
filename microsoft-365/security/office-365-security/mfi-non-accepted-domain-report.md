@@ -2,8 +2,8 @@
 title: 메일 흐름 대시보드의 허용되지 않은 도메인 보고서
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서를 사용하여 보낸 사람 도메인이 조직에 구성되어 있지 않은 & 조직에서 보낸 메시지를 모니터링하는 방법을 Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3b2ddbc6215ebbc3b1a2b2ccff4a5bc8ad7118c3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b9bab55ddf23f991179245837f4ecb4e7d28b8f1
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189099"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988358"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 도메인 보고서
 

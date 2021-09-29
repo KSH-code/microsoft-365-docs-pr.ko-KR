@@ -2,8 +2,8 @@
 title: 메일 흐름 대시보드의 SMTP Auth 클라이언트 인사이트 및 보고서
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 인사이트를 사용하여 보고를 통해 조직의 전자 메일 보낸 사람이 SMTP AUTH(인증된 SM & TP AUTH)를 사용하여 전자 메일 메시지를 보내는지 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3d4c39e722ed7d9853a4fb328a8e87aac535bea9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 950661664479e38b8c9094c52908ee23ba34e66c
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217965"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988766"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 SMTP & 인사이트 및 보고
 

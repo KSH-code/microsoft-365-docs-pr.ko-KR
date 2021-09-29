@@ -2,7 +2,7 @@
 title: 보고서 메시지 또는 보고서 피싱 추가 기능 사용
 f1.keywords:
 - NOCSH
-ms.author: siosulli
+ms.author: dansimp
 author: dansimp
 manager: dansimp
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 description: 개별 사용자 또는 전체 조직에 대해 보고서 메시지 또는 Outlook 및 웹용 Outlook 피싱 보고 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f7c077521700a8bd4c7d1997bb87bab0f214337d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a1481676468ac3ee505da41de91d0eba3b7e55e2
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218062"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988982"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>보고서 메시지 또는 보고서 피싱 추가 기능 사용
 
@@ -50,7 +50,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 전역 관리자 또는 Exchange Online 관리자로서 Exchange OAuth 인증을 사용하도록 구성된 경우 조직에 대해 보고서 메시지 추가 기능 및 피싱 보고 추가 기능을 사용하도록 설정할 수 있습니다. 이제 중앙 집중식 배포를 통해 두 추가 [기능을 모두 사용할 수 있습니다.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 보고서 메시지 추가 기능 및 피싱 보고 추가 기능 모두 대부분의 Microsoft 365 및 다음 제품과 함께 작동합니다.
   - 웹용 Outlook
@@ -156,7 +156,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 2. 보고서 메시지 **추가** 기능을 찾아 선택합니다.
 
-3. 보고서 **메시지 편집** 플라이아웃이 나타나면 조직에 적합한 설정을 검토하고 편집합니다. 작업을 마친 후 **저장** 을 클릭합니다.
+3. 보고서 **메시지 편집** 플라이아웃이 나타나면 조직에 적합한 설정을 검토하고 편집합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
    ![설정 메시지 추가 기능의 추가 기능입니다.](../../media/EditReportMessageAddIn.png)
 

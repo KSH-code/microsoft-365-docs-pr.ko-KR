@@ -2,8 +2,8 @@
 title: 전자 메일을 전달하는 새 사용자
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.assetid: ''
 description: 관리자는 보안 및 준수 센터에서 새 사용자 전달 전자 메일 정보를 사용하여 조직의 사용자가 메시지를 새 도메인으로 전달하는 & 조사하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d517b5f9a7146d7256b89ae4e4d4d5f4aa6fc14f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dedef9cdd407859b69a0d15571f3131138ddcccb
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217992"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988934"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전자 메일 정보를 전달하는 & 사용자
 

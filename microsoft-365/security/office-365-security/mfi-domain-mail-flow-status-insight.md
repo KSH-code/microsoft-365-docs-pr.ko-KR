@@ -2,8 +2,8 @@
 title: 메일 흐름 대시보드의 최상위 도메인 메일 흐름 상태 정보
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 최상위 도메인 메일 흐름 상태 정보를 사용하여 MX 레코드와 & 메일 흐름 문제를 해결하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9c0c0eed3cffaadd76f18b9b446ac14873712f6f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ff194aa49545f8fad407f44da38e79c413ae37bb
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211625"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988706"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 메일 흐름 상태 정보
 

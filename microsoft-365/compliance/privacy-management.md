@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 개인 정보 관리는 조직에서 저장하는 개인 데이터를 평가하기 위한 솔루션을 Microsoft 365 개인 정보 위험을 식별하고 수정하는 데 도움이 됩니다.
-ms.openlocfilehash: 1243e786dcfa936802b0e82eb217ec6fc4f45bbf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9eddf65236befb35df7927e1ff3f7e4ddf6f03e7
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165903"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988670"
 ---
 # <a name="microsoft-privacy-management-preview"></a>Microsoft 개인 정보 관리(미리 보기)
 
@@ -83,7 +83,7 @@ Microsoft 365 개인 정보 관리는 조직의 클라우드 서비스에 조직
 
 ## <a name="how-privacy-management-identifies-items-with-personal-data"></a>개인 정보 관리에서 개인 데이터가 있는 항목을 식별하는 방법
 
-개인 정보 보호 관리는 중요한 항목을 식별하고 태그를 Microsoft 365 관리의 기능을 활용합니다. 이 작업에서는 [SIT(중요한](sensitive-information-type-learn-about.md)정보 유형), 학습 [](classifier-learn-about.md)가능한 분류자 및 민감도 레이블의 자동 및 수동 적용을 [통해 수행됩니다.](sensitivity-labels.md)
+개인 정보 보호 관리는 중요한 항목을 식별하고 태그를 Microsoft 365 관리의 기능을 활용합니다. 이는 SIT(중요한 정보 [유형)](sensitive-information-type-learn-about.md) 및 민감도 레이블 적용을 [통해 수행됩니다.](sensitivity-labels.md)
 
 SIT(중요한 정보 유형)는 Microsoft 데이터 분류에서 지원하는 데이터 형식입니다. 예를 들어 이러한 데이터 형식에는 이름, 주소 또는 주민 등록 번호와 같은 개인에 대한 개인 정보가 포함됩니다.
 

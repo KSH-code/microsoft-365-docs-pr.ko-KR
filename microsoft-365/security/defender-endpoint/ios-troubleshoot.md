@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 840ea513980d3167d34437c048eb8d8164a2d57b
-ms.sourcegitcommit: e001934654119e15149ed29b3079b1019849f59c
+ms.openlocfilehash: 1a7900256207dd50f64a4bb8fe43b86bcf2b2913
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934668"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988274"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
@@ -60,7 +60,7 @@ ms.locfileid: "59934668"
 
 ## <a name="coexistence-with-multiple-vpn-profiles"></a>여러 VPN 프로필과 공존
 
-Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 지원하지 않습니다. 디바이스에 여러 VPN 프로필이 존재할 수 있는 반면 한 번의 VPN만 활성화할 수 있습니다.
+Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 지원하지 않습니다. 디바이스에 여러 VPN 프로필이 존재할 수 있는 반면 한 번의 VPN만 활성화할 수 있습니다. 장치에서 다른 VPN을 사용해야 하는 경우 다른 VPN을 사용하는 동안 끝점 VPN에 대해 Defender를 사용하지 않도록 설정할 수 있습니다.
 
 끝점용 Microsoft Defender VPN은 앱 또는 *"개인"으로* 구성된 다른 VPN과 공존할 수 있습니다. 
 

@@ -2,8 +2,8 @@
 title: 수동으로 Microsoft에 분석용 메시지 제출
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -18,12 +18,12 @@ description: 관리자와 최종 사용자는 분석을 위해 Microsoft에 전�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 91ec2807db4a4c384dabcf20634162b3a838274e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ea2aa0fd8d325113a1891d40e392ac5e3be6e35b
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211562"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988226"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>수동으로 Microsoft에 분석용 메시지 제출
 

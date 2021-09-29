@@ -2,8 +2,8 @@
 title: 느린 메일 흐름 규칙 인사이트 수정
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -15,12 +15,12 @@ ms.custom:
 description: 관리자는 보안 & 및 준수 센터의 느린 메일 흐름 규칙 수정 인사이트를 사용하여 조직에서 비효율적이거나 손상된 메일 흐름 규칙(전송 규칙)을 식별하고 수정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 76fdfd7595fc3a7c760eadd51498883d8d7a63fe
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 31c755c2d5412840def5a47f464042bce9a8202e
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217972"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988454"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 느린 메일 흐름 규칙 & 수정
 

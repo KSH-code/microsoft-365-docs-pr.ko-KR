@@ -2,8 +2,8 @@
 title: 전자 메일 인사이트가 전달되는 새 도메인
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.assetid: ''
 description: '& 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 새 도메인이 전달되는 전자 메일 정보를 사용하여 사용자가 전달되지 않은 외부 도메인으로 메시지를 전달하는 경우를 조사하는 방법을 배울 수 있습니다.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 87af41d4c6fe1964510944f0ad06554056ce4f37
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ae1d7ce0bb62082797afc0d4a2bee77fbc24c982
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217995"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988514"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전달되는 새 & 정보
 

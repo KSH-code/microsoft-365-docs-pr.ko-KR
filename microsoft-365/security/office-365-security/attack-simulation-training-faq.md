@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 시뮬레이션 및 교육과 관련하여 배포 고려 사항과 Office 365 정보를 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a47f953b0c87e3ab88df45f150bd2e6d71611664
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 239d1e4bf28a93627a80ea40375e6791e1a3a5a8
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214505"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988442"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>공격 시뮬레이션 교육 배포 고려 사항 및 FAQ
 
@@ -51,7 +51,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="phishing-simulation-and-admin-urls-blocked-by-network-proxy-solutions-and-filter-drivers"></a>네트워크 프록시 솔루션 및 필터 드라이버에 의해 차단되는 피싱 시뮬레이션 및 관리자 URL
 
-피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예를 들어,
+피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예를 들어:
 
 - 방화벽
 - WAF(웹 응용 프로그램 방화벽) 솔루션
@@ -118,7 +118,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="messages-reported-as-phishing-by-users-arent-appearing-in-simulation-reports"></a>사용자가 피싱으로 보고한 메시지가 시뮬레이션 보고서에 나타나지 않습니다.
 
-공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예를 들어,
+공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예를 들어:
 
 - 메시지의 링크를 클릭한 사용자입니다.
 - 자격 증명을 포기한 사용자입니다.
@@ -139,7 +139,7 @@ A: 대상 사용자에게 다음과 같은 몇 가지 옵션을 사용할 수 �
 
 - 모든 사용자를 포함합니다(현재 사용자가 40,000명 미만인 조직에서 사용 가능).
 - 특정 사용자를 선택 합니다.
-- CSV 파일에서 사용자를 선택합니다.
+- CSV 파일(줄당 하나의 전자 메일 주소)에서 사용자를 선택합니다.
 - Azure AD 그룹 기반 대상 지정.
 
 Azure AD 그룹에서 대상 사용자를 식별하는 캠페인을 일반적으로 더 쉽게 관리할 수 있습니다.

@@ -2,8 +2,8 @@
 title: 메일 흐름 대시보드의 배달되지 않은 보고서
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 배달되지 않는 세부 정보 보고서를 사용하여 조직의 보낸 사람으로부터 배달되지 않는 보고서(NDR 또는 반송 메시지라고도 알려)에서 가장 자주 발생하는 오류 코드를 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6e49fa403789f7c923bfbdd86b4b1555400a8a99
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 02b745943b57965941e38c4e5c5ec6ae503972ec
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217985"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988526"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 배달 & 보고서
 

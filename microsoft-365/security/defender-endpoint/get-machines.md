@@ -16,12 +16,12 @@ ms.topic: article
 ms.collection: M365-security-compliance
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8ffeca3d13b42e39f539e96d563aceabd464aeaf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2e5b4b67980c3d1450832e84ab0d2a1396c2a69d
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189522"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988387"
 ---
 # <a name="list-machines-api"></a>목록 컴퓨터 API
 
@@ -41,7 +41,7 @@ Endpoint 클라우드용 [](machine.md) Microsoft Defender와 통신한 컴퓨�
 
 [OData V4 쿼리를 지원합니다.](https://www.odata.org/documentation/)
 
-OData의 쿼리는 `$filter` , , , , , , , , `computerDnsName` , , , `id` , 및 `version` `deviceValue` `aadDeviceId` `machineTags` `lastSeen` `exposureLevel` `lastIpAddress` `healthStatus` `osPlatform` `riskScore` 에서 지원됩니다. `rbacGroupId`
+OData의 쿼리는 , , , , , , , , , , , , , 및 에서 `$filter` `computerDnsName` `id` `version` `deviceValue` `aadDeviceId` `machineTags` `lastSeen` `exposureLevel` `onboardingStatus` `lastIpAddress` `healthStatus` `osPlatform` `riskScore` `rbacGroupId` 지원됩니다.
 <br>```$stop``` 최대값 10,000
 <br>```$skip```[끝점용 Defender를 사용하여 OData 쿼리의 예 참조](exposed-apis-odata-samples.md)
 
@@ -76,7 +76,7 @@ GET https://api.securitycenter.microsoft.com/api/machines
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|문자열|Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

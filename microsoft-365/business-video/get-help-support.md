@@ -22,16 +22,17 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 Microsoft 365 구독에 대한 온라인 또는 전화 지원을 받는 방법을 알아봅니다. 이러한 지원을 받으려면 비즈니스 구독의 관리자여야 합니다.
-ms.openlocfilehash: a83085a9cc7abc66aa3505208b8480c94f7b692a
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: e224b5a6224dc182d36a99f0b7943a586c64b08a
+ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934062"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59988610"
 ---
 # <a name="get-support"></a>지원 받기
 
 ::: moniker range="o365-worldwide"
+
 ## <a name="watch-get-help-or-support"></a>시청: 도움말 또는 지원 받기
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
@@ -76,6 +77,12 @@ ms.locfileid: "59934062"
 지원 전화 번호가 위의 목록에 없으면, 아래 드롭다운 목록을 사용하여 국가 또는 지역 번호를 선택하세요.
 
 [!INCLUDE [country-region-support-dropdown-list](../admin/includes/country-region-support-dropdown-list.md)]
+
+## <a name="small-business-support-with-business-assist"></a>Business Assist를 통한 중소기업 지원
+
+중소기업 전문가의 전문가 조언을 통해 구독을 최대한 활용하세요.
+
+Microsoft 365용 Business Assist는 온보딩에서 일상적인 사용에 이르기까지 비즈니스 성장에 따라 귀하와 직원이 24시간 내내 중소기업 전문가에게 액세스할 수 있도록 중소기업을 위해 설계되었습니다. 자세한 내용은 [Business Assist](../admin/misc/business-assist.md)를 참조하세요.
 
 ::: moniker-end
 
@@ -239,7 +246,6 @@ Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터
 또한 [비즈니스용 Microsoft 365 커뮤니티 포럼을 검색](https://go.microsoft.com/fwlink/p/?LinkId=518605)하여 알려진 문제점 및 인기 주제를 찾거나 새로운 질문을 게시할 수 있습니다. 커뮤니티 포럼은 문제를 해결할 수 있는 교육을 받은 Microsoft 지원 에이전트가 모니터링합니다.
 
 ::: moniker-end
-
 
 ## <a name="related-content"></a>관련 콘텐츠
 
