@@ -84,6 +84,14 @@
           href: information-barriers-edit-segments-policies.md
         - name: 정보 장벽 특성
           href: information-barriers-attributes.md
+        - name: 정보 장벽 및 Microsoft 365 서비스
+          items:
+            - name: Microsoft Teams 및 정보 장벽
+              href: /microsoftteams/information-barriers-in-teams?toc=/microsoft-365/compliance/toc.json&bc=/microsoft-365/breadcrumb/toc.json
+            - name: OneDrive 및 정보 장벽
+              href: /onedrive/information-barriers?toc=/microsoft-365/compliance/toc.json&bc=/microsoft-365/breadcrumb/toc.json
+            - name: SharePoint 및 정보 장벽
+              href: /sharepoint/information-barriers?toc=/microsoft-365/compliance/toc.json&bc=/microsoft-365/breadcrumb/toc.json
     - name: 권한이 부여된 액세스 관리
       items:
         - name: 개요

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 Microsoft 365 적합한 구독에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2c269ff7dc620da0c638f2c82a836ae9b0406780
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4c1bd7ac67cd44baa8317295ade0e5525764b523
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219382"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011407"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>구독 Microsoft 365 선택
 
@@ -64,12 +64,12 @@ ms.locfileid: "59219382"
 | **정보 보호** | Office 365 데이터 손실 방지 | 아니요 | 예 | 예 |
  | Azure Information Protection 계획 1, BitLocker 적용 | | 아니요 | 예 | 아니요 |
 | **On-premises CAL rights** | ECAL 제품군(Exchange, SharePoint, Skype) | 아니요 | 아니요 | 예 |
-| **규정 준수** | 무제한 전자 메일 보관\*\*\* | 아니요 | 예 | 예 |
+| **규정 준수** | 추가 전자 메일 보관\*\*\* | 아니요 | 예 | 예 |
 
 \*기능이 Microsoft 365 Business Standard 계획 1이 있으며 E3에 계획 2가 Office 365 Enterprise 나타냅니다.
 
 \*\* 미국, 영국, 캐나다에서 사용할 수 있습니다.
 
-\*\*\* 자동 확장이 켜져 있는 경우 무제한 보관.
+\*\*\* 자동 확장 보관이 켜져 있는 경우 추가 보관 저장소 공간입니다.
 
 다른 Microsoft 365 Business Premium 요금제와 다른 Microsoft 365 비교해보시고, 중소기업용 Microsoft 365 라이선스를 [참조합니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb)

@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - TopSMBIssues
 - MSStore_Link
@@ -27,16 +28,19 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 비즈니스용 Microsoft 365 사용자에 대한 암호를 다시 설정하려면 Microsoft 365 계정으로 로그인합니다.
-ms.openlocfilehash: 50b964826b59287405c86a7918609535edb87b4f
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 03081e4a0465206ae66cc8201411206932d15e8c
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775327"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011212"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
-이 문서에서는 비즈니스용 구독에 대한 구독이 있는 경우 사용자 및 사용자에 대한 암호를 Microsoft 365 방법을 설명합니다.
+이 문서에서는 비즈니스용 구독이 있는 경우 자신과 사용자를 위해 암호를 Microsoft 365 방법을 설명합니다.
+
+> [!NOTE]
+> 또한 사용자가 암호를 직접 재설정할 수 있도록 셀프 서비스 암호 재설정을 설정할 수도 있습니다. 자세한 내용은 사용자가 암호를 [직접 재설정할 수 있도록 를 참조하세요.](let-users-reset-passwords.md)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -64,7 +68,7 @@ ms.locfileid: "59775327"
 
 ## <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
-셀프 서비스 암호 재설정을 설정하는 것이 좋습니다. 이 방법을 사용하면 사용자의 암호를 수동으로 재설정할 필요가 없습니다. 그 방법을 알고 싶으면 [Office 365에서 사용자가 암호를 직접 재설정할 수 있도록 허용](let-users-reset-passwords.md)을 참조하세요.
+셀프 서비스 암호 재설정을 설정하는 것이 좋습니다. 이 방법을 사용하면 사용자의 암호를 수동으로 재설정할 필요가 없습니다. 관리자의 업무를 덜 수 있습니다! 그 방법을 알고 싶으면 [Office 365에서 사용자가 암호를 직접 재설정할 수 있도록 허용](let-users-reset-passwords.md)을 참조하세요.
 
 ## <a name="reset-my-admin-password"></a>내 관리자 암호 다시 설정
 

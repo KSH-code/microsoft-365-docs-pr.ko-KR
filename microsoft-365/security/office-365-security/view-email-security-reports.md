@@ -19,12 +19,12 @@ description: 관리자는 전자 메일 포털에서 사용할 수 있는 전자
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6486059702875e4bf318d04da9be0249dc6cb7df
-ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
+ms.openlocfilehash: 9f3861cc57276cec6dcd09ba843ede35ab9dd583
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942242"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011491"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기
 
@@ -602,7 +602,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **제목**
 - **보낸 사람**
 - **받는 사람**
-- **검색 tecchnology**
+- **검색 기술**
 - **배달 상태**
 - **보낸 사람 IP**
 - **태그**
@@ -993,8 +993,8 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 
 - **조직 관리**
 - **보안 관리자**
-- **보안 읽기**
-- **전역 읽기**
+- **보안 읽기 권한자**
+- **전역 읽기 권한자**
 
 자세한 내용은 [Microsoft 365 Defender 포털 권한](permissions-microsoft-365-security-center.md)을 참조하세요.
 

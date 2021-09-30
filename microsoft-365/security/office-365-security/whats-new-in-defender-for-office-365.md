@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4f473963bca6a3ad3e3ece57ecc30118e4ec6f62
-ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
+ms.openlocfilehash: 363abb059acc656de7ebdf074729374e75f84cff
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59479564"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011455"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -57,6 +57,7 @@ ms.locfileid: "59479564"
   - [관리자 환경 비디오](https://youtu.be/vnar4HowfpY)
   - [최종 사용자 환경 비디오](https://youtu.be/s-vozLO43rI)
   - 이 블로그 게시물에는 "검지 환경 간소화"에 제공될 다른 새로운 기능이 [설명되어 있습니다.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/simplifying-the-quarantine-experience/ba-p/2676388)
+  - 기본적으로 포털 리디렉션이 시작되어 사용자를 보안 및 준수에서 & 로 <https://security.microsoft.com> Microsoft 365 Defender. 자세한 내용은 다음을 [참조합니다. Office 365 및](/microsoft-365/security/defender/microsoft-365-security-mdo-redirection) 준수 센터에서 계정 리디렉션을 Microsoft 365 Defender
 
 ## <a name="august-2021"></a>2021년 8월
 

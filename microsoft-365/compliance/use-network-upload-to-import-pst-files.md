@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Microsoft 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 625d9e37246fa6c4e24754be2e3bc830740124a2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fbe16615c4497babee9c7d1ce905b8cd4d2c23cd
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216225"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011479"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Microsoft 365로 가져오기
 
@@ -316,7 +316,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후의 다음 단�
 
   - 이는 가져온 PST 파일의 데이터에 Microsoft 365 규정 준수 기능을 적용하여 조직의 규정 준수 요구 사항을 해결하는 데 도움이 됩니다. 여기에는 다음이 포함됩니다.
 
-  - [보관 사서함](enable-archive-mailboxes.md) 및 [자동 확장 보관](enable-unlimited-archiving.md)을 사용하면 사용자에게 가져온 데이터를 저장할 수 있는 추가적인 사서함 저장 공간이 제공됩니다.
+  - [보관 사서함](enable-archive-mailboxes.md) 및 [자동 확장 보관](enable-autoexpanding-archiving.md)을 사용하면 사용자에게 가져온 데이터를 저장할 수 있는 추가적인 사서함 저장 공간이 제공됩니다.
 
   - 사서함을 [소송 보존](./create-a-litigation-hold.md)에 배치하여 가져온 데이터를 유지합니다.
 

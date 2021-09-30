@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 ms.custom: seo-marvel-apr2020
 description: 관리자는 PST 파일을 하드 드라이브에 복사한 다음 Microsoft로 Microsoft 365 사서함으로 PST 파일을 대량으로 가져오는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 30b345a887f0b2288394fc07b3b5b290b58c9fed
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: c80428d1c1fc5fdbb8a8863dc4c6fbc4438d6c26
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401809"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011419"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>드라이브 배송을 사용하여 조직의 PST 파일 가져오기
 
@@ -372,13 +372,13 @@ PST 파일이 Azure에 업로드되고 나면 상태가 **Analysis in progress�
   
 6. 다음 중 하나를 수행합니다.
 
-    a. 가져온 데이터를 트리밍하려면 **예, 가져오기 전에 필터링하고 싶습니다** 를 클릭합니다.
+   1. 가져온 데이터를 트리밍하려면 **예, 가져오기 전에 필터링하고 싶습니다** 를 클릭합니다.
 
-    PST 파일에서 데이터를 필터링한 다음 가져오기 작업을 시작하는 방법에 대한 자세한 단계별 지침은 [PST 파일을 Office 365로 가져올 때 데이터 필터링](filter-data-when-importing-pst-files.md)을 참조합니다.
+      PST 파일에서 데이터를 필터링한 다음 가져오기 작업을 시작하는 방법에 대한 자세한 단계별 지침은 [PST 파일을 Office 365로 가져올 때 데이터 필터링](filter-data-when-importing-pst-files.md)을 참조합니다.
 
-    또는
+      또는
 
-    b. PST 파일의 모든 데이터를 가져오려면 **아니오, 모든 것을 가져오겠습니다** 를 클릭하고 **다음** 을 클릭합니다.
+   1. PST 파일의 모든 데이터를 가져오려면 **아니오, 모든 것을 가져오겠습니다** 를 클릭하고 **다음** 을 클릭합니다.
 
 7. 모든 데이터를 가져 오도록 선택한 경우 **데이터 가져오기** 를 클릭하여 가져오기 작업을 시작합니다. 
 
@@ -445,7 +445,7 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
 
 - 드라이브 발송은 조직에서 사용할 수 있는 규정 준수 기능을 활용하기 위해 많은 양의 보관 Microsoft 365 데이터를 가져올 수 있는 효과적인 방법입니다. 보관 데이터를 사용자 사서함으로 가져온 후 다음을 할 수 있습니다.
 
-  - 보관 [사서함](enable-archive-mailboxes.md) 및 [](enable-unlimited-archiving.md) 자동 확장 보관을 사용하도록 설정하여 사용자에게 데이터에 대한 더 많은 사서함 저장소 공간을 제공합니다. 
+  - 보관 [사서함](enable-archive-mailboxes.md) 및 [](enable-autoexpanding-archiving.md) 자동 확장 보관을 사용하도록 설정하여 사용자에게 데이터에 대한 더 많은 사서함 저장소 공간을 제공합니다. 
 
   - 데이터를 보존하기 [](./create-a-litigation-hold.md) 위해 사서함을 소송 보존으로 설정합니다. 
 

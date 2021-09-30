@@ -17,30 +17,30 @@ ms.custom: admindeeplinkMAC
 f1.keywords:
 - NOCSH
 description: 사서함 사용률 서비스 알림을 사용하여 사서함 할당량에 도달하는 보류된 사서함을 모니터링합니다.
-ms.openlocfilehash: afae43f0c589d6c025fb0e1d20a7c5cf81eacbe2
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: 32536cf8a034867ecb82e44487f34280a9b591ac
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59480775"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011467"
 ---
-# <a name="service-alerts-for-mailbox-utilization-in-exchange-online-monitoring"></a>서버 모니터링의 사서함 사용률에 대한 Exchange Online 알림
+# <a name="service-alerts-for-mailbox-utilization-in-exchange-online-monitoring"></a>Exchange Online 모니터링의 사서함 사용률에 대한 서비스 알림
 
 할당량에 도달하거나 초과할 위험이 있는 Exchange Online 사서함을 알리는 새로운 Exchange Online 서비스 알림을 릴리스했습니다. 이러한 서비스 경고는 관리자 개입이 필요할 수 있는 조직의 사서함 수에 대한 가시성을 제공합니다.
 
 이러한 서비스 알림은 알림 Microsoft 365 관리 센터. 이러한 서비스 알림을 보려면 상태 서비스 상태 Exchange Online 활성 문제  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank"></a>  >   **탭을** 클릭합니다. 사서함 사용률 서비스 경고의 예는 다음과 같습니다.
 
-![사서함 사용률 서비스 경고](../media/MailboxUtilizationServiceAlert.png)
+:::image type="content" alt-text="사서함 사용률 서비스 경고입니다." source="../media/MailboxUtilizationServiceAlert.png" lightbox="../media/MailboxUtilizationServiceAlert.png":::
 
 저장소 할당량(사서함 사용 현황 보고서)에 가까운 사서함 목록을 표시하려면 다음 스크린샷에서 강조 표시된 링크를 클릭합니다. 이 링크는 서비스 경고에 표시됩니다.
 
-![사서함 사용 현황 보고서 링크](../media/LinkToMailboxUsageReport.png)
+:::image type="content" alt-text="사서함 사용 현황 보고서에 연결합니다." source="../media/LinkToMailboxUsageReport.png" lightbox="../media/LinkToMailboxUsageReport.png":::
 
 또는 사서함 사용 현황 보고서에 대한 직접 URL은 <https://admin.microsoft.com/Adminportal/Home?source=applauncher#/reportsUsage/MailboxUsage> 입니다.
 
 ## <a name="what-do-these-service-alerts-indicate"></a>이러한 서비스 알림이 나타내는 것은 무엇입니까?
 
-사서함 사용률에 대한 서비스 알림은 사서함 저장소 할당량에 가까운 보류된 사서함에 대해 관리자에게 알릴 수 있습니다. 사서함에 배치할 수 있는 보존 유형에는 소송 보존, eDiscovery 보류 및 Microsoft 365 보존 정책(데이터를 보존하도록 구성)이 포함됩니다. 사서함이 보류 중이면 사용자(또는 자동화된 프로세스)는 사서함에서 데이터를 영구적으로 제거할 수 없습니다. 대신 관리자는 사용자의 기본 사서함에서 보관 사서함으로 데이터를 이동하도록 Exchange Online(조직의 규정 준수 정책과 관련된 조직의 준수 정책에 따라)에서 MRM 보존 정책을 구성해야 합니다. 그렇지 않은 경우 보류의 사서함이 위험 또는 경고 상태가 [](../compliance/enable-archive-mailboxes.md) 될 경우 [](../compliance/enable-unlimited-archiving.md) 관리자는 보관 사서함을 사용하도록 설정하고 자동 확장 보관을 사용하도록 설정한 다음 사서함에 할당된 보관 정책(기본 사서함에서 보관 사서함으로 전자 메일을 이동)의 보존 기간이 충분히 짧아야 합니다. 사서함 사용률 서비스 경고로 식별되는 할당량 문제를 해결하기 위해 아무 것도 수행되지 않으면 사용자가 전자 메일 메시지 또는 모임 초대를 보내거나 받지 못하게 될 수 있습니다.
+사서함 사용률에 대한 서비스 알림은 사서함 저장소 할당량에 가까운 보류된 사서함에 대해 관리자에게 알릴 수 있습니다. 사서함에 배치할 수 있는 보존 유형에는 소송 보존, eDiscovery 보류 및 Microsoft 365 보존 정책(데이터를 보존하도록 구성)이 포함됩니다. 사서함이 보류 중이면 사용자(또는 자동화된 프로세스)는 사서함에서 데이터를 영구적으로 제거할 수 없습니다. 대신 관리자는 사용자의 기본 사서함에서 보관 사서함으로 데이터를 이동하도록 Exchange Online(조직의 규정 준수 정책과 관련된 조직의 준수 정책에 따라)에서 MRM 보존 정책을 구성해야 합니다. 그렇지 않은 경우 보류의 사서함이 위험 또는 경고 상태가 [](../compliance/enable-archive-mailboxes.md) 될 경우 [](../compliance/enable-autoexpanding-archiving.md) 관리자는 보관 사서함을 사용하도록 설정하고 자동 확장 보관을 사용하도록 설정한 다음 사서함에 할당된 보관 정책(기본 사서함에서 보관 사서함으로 전자 메일을 이동)의 보존 기간이 충분히 짧아야 합니다. 사서함 사용률 서비스 경고로 식별되는 할당량 문제를 해결하기 위해 아무 것도 수행되지 않으면 사용자가 전자 메일 메시지 또는 모임 초대를 보내거나 받지 못하게 될 수 있습니다.
 
 사서함 사용률에 대한 서비스 알림에는 할당량에 가까운 사서함 수에 대한 표가 포함되어 있습니다. 다음 섹션에서는 이러한 테이블의 정보와 이러한 사서함이 할당량 초과되지 않도록 관리자가 취할 수 있는 조치에 대해 설명합니다.
 
@@ -82,11 +82,11 @@ ms.locfileid: "59480775"
 
 | RetentionPolicyGuid | MailboxType | HasMoveDumpsterToArchiveTag | HasMovePrimaryToArchiveTag | HasPersonalArchiveTag |  사서함 |
 |:--------------|:--------------|:---------------|:---------------|:---------------|:--------------- |
-| 6c041498-1611-5011-a058-1156ce60890c | PrimaryWithArchive | True | False | True | 398 |
-| 6c041498-1611-5011-a058-1156ce60890c | Primary | True | False | True | 10  |
-| 749ceecc-d49d-4000-a9d5-594dbaea1e56 | PrimaryWithArchive | False | True | False | 7  |
+| 6c041498-1611-5011-a058-1156ce60890c | PrimaryWithArchive | True | 거짓 | True | 398 |
+| 6c041498-1611-5011-a058-1156ce60890c | Primary | True | 거짓 | True | 10  |
+| 749ceecc-d49d-4000-a9d5-594dbaea1e56 | PrimaryWithArchive | False | True | 거짓 | 7  |
 | 269f6a85-1234-4648-8cde-59bbc7bc67d0 | PrimaryWithArchive | True | True | True | 1 |
-| 13fb778d-e1cb-4c44-5768-ad4282906c1f | PrimaryWithArchive | True | True  | False | 1 |
+| 13fb778d-e1cb-4c44-5768-ad4282906c1f | PrimaryWithArchive | True | True  | 거짓 | 1 |
 |||||||
 
 다음 목록에서는 이전 표의 각 열에 대해 설명합니다.
