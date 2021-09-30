@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: fb1f0dad7aba15b33fce51b855a9b037478db627
-ms.sourcegitcommit: db571169242063f104450fec4c4b19aeec688b15
+ms.openlocfilehash: 5e8e18d85a0161542d988107c450a6abb9f7c7d4
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447339"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010332"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -35,6 +35,7 @@ ms.locfileid: "59447339"
 - SharePoint 사이트에서의 외부 공유
 - 관리되지 않는 장치에서 액세스
 - 인증 컨텍스트(미리 보기)
+- SharePoint 사이트에 대한 기본 공유 링크(PowerShell 전용 구성)
 
 > [!IMPORTANT]
 > 관리되지 않는 장치 및 인증 컨텍스트에 대한 설정은 Azure Active Directory 조건부 액세스와 함께 작동합니다. 이러한 설정에 민감도 레이블을 사용하려면 이 종속 기능을 구성해야 합니다. 추가 정보는 다음 지침에 포함되어 있습니다.
@@ -74,7 +75,7 @@ ms.locfileid: "59447339"
 
 ## <a name="how-to-configure-groups-and-site-settings"></a>그룹 및 사이트 설정을 구성하는 방법
 
-이전 섹션에서 설명한대로 컨테이너에 대해 민감도 레이블을 활성화한 후 민감도 레이블 지정 마법사에서 그룹 및 사이트에 대한 보호 설정을 구성할 수 있습니다. 컨테이너에 대해 민감도 레이블이 활성화될 때까지 설정이 마법사에 표시되지만 구성할 수는 없습니다.
+이전 섹션에서 설명한대로 컨테이너에 대해 민감도 레이블을 활성화한 후 민감도 레이블 지정 구성에서 그룹 및 사이트에 대한 보호 설정을 구성할 수 있습니다. 컨테이너에 대해 민감도 레이블이 활성화될 때까지 설정이 표시되지만 구성할 수는 없습니다.
 
 1. 일반 지침에 따라 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)하고 레이블 범위에 대한 **그룹 및 사이트** 를 반드시 선택합니다. 
     
@@ -132,7 +133,7 @@ ms.locfileid: "59447339"
 
 예를 들어 테넌트가 **제한된 웹 전용 액세스 허용** 으로 구성된 경우 전체 액세스를 허용하는 레이블 설정은 제한 수준이 더 낮기 때문에 효과가 없습니다. 이 테넌트 수준 설정의 경우 액세스를 차단하는 레이블 설정(제한 수준이 더 높음) 또는 제한된 액세스에 대한 레이블 설정(테넌트 설정과 동일)을 선택합니다.
 
-SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 때문에 민감도 레이블 마법사에서 종속성이 설정되어 있는지 확인하지 않습니다. 이러한 종속성은 레이블이 만들어지고 게시된 후와 레이블이 적용된 후에도 구성할 수 있습니다. 그러나 레이블이 이미 적용된 경우 사용자가 다음에 인증할 때까지 레이블 설정이 적용되지 않습니다.
+SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 때문에 민감도 레이블 구성에서 종속성이 설정되어 있는지 확인하지 않습니다. 이러한 종속성은 레이블이 만들어지고 게시된 후와 레이블이 적용된 후에도 구성할 수 있습니다. 그러나 레이블이 이미 적용된 경우 사용자가 다음에 인증할 때까지 레이블 설정이 적용되지 않습니다.
 
 ##### <a name="more-information-about-the-dependencies-for-the-authentication-context-option"></a>인증 컨텍스트 옵션의 종속성에 대한 추가 정보
 
@@ -172,6 +173,53 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
     
     - Power Apps 또는 Power Automate를 사용하는 워크플로
     - 타사 앱
+
+### <a name="configure-settings-for-the-default-sharing-link-for-a-site-by-using-powershell-advanced-settings"></a>PowerShell 고급 설정을 사용하여 사이트의 기본 공유 링크에 대한 설정 구성
+
+준수 센터에서 구성할 수 있는 사이트 및 그룹에 대한 레이블 설정 외에도 사이트에 대한 기본 공유 링크 유형 및 공유 링크 권한을 구성할 수도 있습니다.
+
+이러한 설정의 작동 방식에 대한 자세한 내용은 [사이트의 기본 링크 유형 변경](/sharepoint/change-default-sharing-link)을 참조하세요.
+
+공유 링크에 대한 이러한 추가 레이블 설정은 현재 PowerShell *AdvancedSettings* 매개 변수와 [보안 및 규정 준수 센터 PowerShell](/powershell/exchange/scc-powershell)의 [Set-Label](/powershell/module/exchange/set-label) 및 [New-Label](/powershell/module/exchange/new-labelpolicy) cmdlet으로만 사용할 수 있습니다.
+
+- **DefaultSharingScope**: 사용 가능한 값은 다음과 같습니다.
+    - **SpecificPeople**: 사이트의 기본 공유 링크를 '특정 사용자' 링크로 설정합니다.
+    - **Organization**: 사이트의 기본 공유 링크를 '조직' 링크 또는 회사 공유 가능 링크로 설정합니다.
+    - **Anyone**: 사이트의 기본 공유 링크를 익명 액세스 또는 모든 사용자 링크로 설정합니다.
+
+- **DefaultShareLinkPermission**: 사용 가능한 값은 다음과 같습니다.
+    - **View**: 사이트에 대한 기본 링크 권한을 '보기' 권한으로 설정합니다.
+    - **Edit**: 사이트에 대한 기본 링크 권한을 "편집" 권한으로 설정합니다.
+
+이 두 설정 및 값은 [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet의 *DefaultSharingScope* 및 *DefaultShareLinkPermission* 매개 변수와 동일합니다.
+
+민감도 레이블 GUID가 **8faca7b8-8d20-48a3-8ea2-0f96310a848e** 인 PowerShell 예:
+
+- 공유 링크 유형을 SpecificPeople로 설정하려면:
+    
+    ````powershell
+    Set-Label -Identity 8faca7b8-8d20-48a3-8ea2-0f96310a848e -AdvancedSettings @{DefaultSharingScope="SpecificPeople"}
+    ````
+
+- 공유 링크 권한을 편집으로 설정하려면:
+    
+    ````powershell
+    Set-Label -Identity 8faca7b8-8d20-48a3-8ea2-0f96310a848e -AdvancedSettings @{DefaultShareLinkPermission="Edit"}
+    ````
+
+#### <a name="powershell-tips-for-specifying-the-advanced-settings"></a>고급 설정 지정을 위한 PowerShell 팁
+
+민감도 레이블을 이름으로 지정할 수 있지만 레이블 이름 또는 표시 이름 지정에 대한 잠재적인 혼동을 피하기 위해 레이블 GUID를 사용하는 것이 좋습니다. GUID를 찾으려면:
+
+````powershell
+Get-Label | Format-Table -Property DisplayName, Name, Guid
+````
+
+민감도 레이블에서 이러한 고급 설정 중 하나를 제거하려면 동일한 AdvancedSettings 매개 변수 구문을 사용하되 null 문자열 값을 지정하세요. 예를 들면 다음과 같습니다.
+
+````powershell
+Set-Label -Identity 8faca7b8-8d20-48a3-8ea2-0f96310a848e -AdvancedSettings @{DefaultSharingScop=""}
+````
 
 ## <a name="sensitivity-label-management"></a>민감도 레이블 관리
 

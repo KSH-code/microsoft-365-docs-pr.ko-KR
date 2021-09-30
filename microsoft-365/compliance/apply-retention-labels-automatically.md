@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: cb693fb60277e5262578cc442df7e1c5ba3f3c16
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c6aede6ba25ebd7f28008e4c52450bd3e4b74c2d
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186331"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009460"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -149,8 +149,10 @@ ms.locfileid: "59186331"
 
 #### <a name="auto-apply-labels-to-content-with-specific-types-of-sensitive-information"></a>특정 유형의 중요한 정보가 있는 콘텐츠에 레이블 자동 적용
 
-> [!WARNING]
-> 선택한 중요한 정보 유형과 일치하는 항목이 있을 때 레이블이 지정되지 않은 모든 전자 메일에 항상 선택된 보존 레이블이 적용되는 알려진 제한이 있습니다. 예를 들어 특정 사용자에게 자동 적용 정책의 범위를 지정하거나 정책에 대해 Exchange가 아닌 다른 위치를 선택해도 일치하는 항목이 있는 경우 레이블이 항상 레이블이 지정되지 않은 전자 메일에 적용됩니다.
+> [!IMPORTANT]
+> 중요한 정보를 식별하여 자동 적용하는 이메일의 경우 특정 수신자를 포함하거나 제외하도록 정책 범위를 지정하는 것은 지원되지 않습니다. 이 정책 구성은 **모든 수신자** 설정만 지원합니다. 이 정책 구성과 관련하여 **모든 수신자** 는 Microsoft 365 그룹의 사서함을 포함합니다.
+> 
+> 또한 이 정책 구성과 관련하여 Microsoft 365 그룹 위치를 선택하면 **Microsoft 365 그룹** 에 연결된 SharePoint 사이트만 포함되고 Microsoft 365 그룹의 사서함은 포함되지 않습니다.
 
 중요한 정보에 대한 자동 적용 보존 레이블 정책을 만들면 DLP(데이터 손실 방지) 정책을 만들 때 같은 정책 템플릿 목록이 표시됩니다. 각 템플릿은 특정 중요한 정보 유형을 찾도록 미리 구성되어 있습니다. 다음 예에서 중요한 정보 유형은 **개인 정보** 범주 및 **미국 PII(개인 식별 정보) 데이터** 서식 파일에서 가져온 것입니다.
 
@@ -169,6 +171,8 @@ ms.locfileid: "59186331"
 중요한 정보 유형을 사용하여 보존 레이블을 자동으로 적용할 때 고려해야 할 사항은 다음과 같습니다.
 
 - 사용자 지정 중요한 정보 유형을 사용하는 경우 SharePoint 및 OneDrive의 기존 항목에 자동 레이블을 지정할 수 없습니다.
+
+- 이메일의 경우 포함하거나 제외할 특정 수신자를 선택할 수 없습니다. **모든 수신자** 설정만 지원되며 이 구성의 경우에만 Microsoft 365 그룹의 사서함이 포함됩니다. 
 
 #### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>키워드 또는 검색 가능 속성이 있는 콘텐츠에 레이블 자동 적용
 

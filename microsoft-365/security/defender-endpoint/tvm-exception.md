@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: de458eed2b52b6043a4f5aaa5f8593b6136f9d37
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: aaa1c8cf1d54fe589adfd06939fc3f4c4398b18e
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166802"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009496"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항에 대한 예외 만들기 및 보기 - 위협 및 취약성 관리
 
@@ -35,10 +35,9 @@ ms.locfileid: "59166802"
 - [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-현재 권장 사항이 관련이 없는 경우 수정 요청 대신 권장 사항에 대한 예외를 만들 수 있습니다. 조직에 장치 그룹이 있는 경우 예외의 범위를 특정 장치 그룹으로 제한할 수 있습니다. 선택한 장치 그룹 또는 과거 및 현재에 있는 모든 장치 그룹에 대해 예외를 만들 수 있습니다.  
+현재 권장 사항이 관련이 없는 경우 수정 요청 대신 권장 사항에 대한 예외를 만들 수 있습니다. 조직에 장치 그룹이 있는 경우 예외의 범위를 특정 장치 그룹으로 제한할 수 있습니다. 선택한 장치 그룹 또는 과거 및 현재에 있는 모든 장치 그룹에 대해 예외를 만들 수 있습니다.
 
 권장에 대한 예외가 만들어질 경우 예외 기간이 끝날 때까지 권장되지 않습니다. 권장 상태는 전체  예외 또는 부분 **예외(장치** 그룹)로 변경됩니다.
 
@@ -50,7 +49,7 @@ ms.locfileid: "59166802"
 
 ## <a name="create-an-exception"></a>예외 만들기
 
-예외를 만들 보안 권장을 선택한 다음 예외  옵션을 선택하고 양식을 작성합니다.  
+예외를 만들 보안 권장을 선택한 다음 예외  옵션을 선택하고 양식을 작성합니다.
 
 !["예외 옵션"에 대한 단추가 보안 권장 플라이아웃의 위치인 위치를 보여 줄 수 있습니다.](images/tvm-exception-options.png)
 
@@ -64,7 +63,7 @@ ms.locfileid: "59166802"
 
 모든 위협 및 취약성 관리 그룹에서 장치 그룹으로 필터링한 경우 필터링된 장치 그룹만 옵션으로 표시됩니다.
 
-이 단추는 모든 장치 페이지에서 장치 그룹으로 필터링하는 위협 및 취약성 관리 있습니다. 
+이 단추는 모든 장치 페이지에서 장치 그룹으로 필터링하는 위협 및 취약성 관리 있습니다.
 
 ![선택한 장치 그룹 필터 표시](images/tvm-selected-device-groups.png)
 

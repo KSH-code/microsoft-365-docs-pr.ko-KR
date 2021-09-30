@@ -18,12 +18,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.date: 09/23/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 91c66ffa315e7cb6434bb845bd575f7040026c2f
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: 2e279a5a256f1b729d5fe39d51eb82801bc34bcb
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59498259"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60008824"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -33,7 +33,7 @@ ms.locfileid: "59498259"
 
 변조 보호는 다음 버전 중 하나를 실행하는 장치에서 사용할 수 Windows.
 
-- Windows 10
+- Windows 10
 - Windows Server 2019
 - Windows 서버, 버전 1803 이상
 - Windows Server 2016
@@ -110,7 +110,7 @@ ms.locfileid: "59498259"
 - 전역 관리자, [](/microsoft-365/security/defender-endpoint/assign-portal-access) 보안 관리자 또는 보안 작업과 같은 적절한 권한이 할당되어 있어야 합니다.
 
 - 사용자 Windows 다음 버전 중 하나를 실행해야 Windows.
-  - Windows 10
+  - Windows 10
   - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
   - Windows 서버, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
   - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
@@ -242,7 +242,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 위협 및 취약성 관리에 & 자세한 내용은 & 위협 및 취약성 [관리를 Microsoft 365 Defender.](/microsoft-365/security/defender-endpoint/tvm-dashboard-insights#threat--vulnerability-management-in-microsoft-defender-security-center)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="on-which-versions-of-windows-can-i-configure-tamper-protection"></a>어떤 버전의 변조 Windows 구성할 수 있나요?
 
@@ -305,7 +305,7 @@ Intune을 통해 변조 보호를 유연하게 구성할 수 있습니다. 전�
 
 보안 운영 팀은 다음 예와 같은 헌팅 쿼리를 사용할 수도 있습니다.
 
-`DeviceAlertEvents|where Title == "Tamper Protection bypass"`
+`AlertInfo|where Title == "Tamper Protection bypass"`
 
 [변조 시도에 대한 정보를 을 를 으로 본다.](#view-information-about-tampering-attempts)
 

@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 9332483dffa9fc67bf319cc57aef89d25c866843
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 32e750dc824484624a5f0d953b75f242639c3e23
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59443998"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009508"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -208,7 +208,7 @@ Azure AD 조직이 있는 국가 중 하나 이상이 조직에서 지원되지 
 
 디바이스에서 제외한 보안 기준 정책이 Microsoft Managed Desktop 합니다. 단계에 대한 자세한 내용은 [Use security baselines to configure Windows 10 devices in Intune을 참조하세요.](/mem/intune/protect/security-baselines) 등록하는 동안 모든 디바이스에 새 보안 기준을 Microsoft Managed Desktop 있습니다. 최신 작업 공간 **장치 - 모든** Azure AD 그룹은 등록할 때 만드는 동적 그룹이기 때문에 Microsoft Managed Desktop 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다. 
 
-### <a name="unlicensed-admins"></a>라이선스가 없는 관리자
+### <a name="unlicensed-admins"></a>허가되지 않은 관리자
 
 Azure AD 조직과 상호 작용할 때 "사용 권한 부족" 오류를 방지하려면 이 설정을 사용하도록 설정해야 합니다. 
 
@@ -277,6 +277,14 @@ Enterprise 상태 로밍을 사용하도록 설정해야 합니다.
 **권고**
 
 선택한 그룹에 Enterprise 상태 로밍이 사용하도록  **설정되어 있는지** 확인합니다. 자세한 내용은 에서 Enterprise 상태 로밍 사용 [을 Azure Active Directory.](/azure/active-directory/devices/enterprise-state-roaming-enable)
+
+### <a name="guest-invitation-settings"></a>게스트 초대 설정
+
+Microsoft Managed Desktop 기본 설정은 디렉터리의 모든 사용자와 게스트가 게스트를 초대할 수 있도록 허용하기 때문에 게스트 초대 설정을 조정하는 것이 좋습니다.
+
+**권고**
+
+**구성원 권한이 있는** 게스트를 포함하여 특정 관리자 역할에 할당된 구성원 사용자 및 게스트 사용자를 초대할 수 있습니다. 단계에 대한 자세한 내용은 게스트 계정에 대한 [사전 준비를 참조하세요.](/microsoft-365/managed-desktop/get-ready/guest-accounts)
 
 ### <a name="licenses"></a>라이선스
 

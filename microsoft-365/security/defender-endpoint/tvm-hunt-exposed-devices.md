@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: bec319f840728599f01680c32561bf3998d59381
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2bf488957b35a9d0a914ff4c211a02058cde761c
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166783"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010120"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>노출된 장치 헌트 - 위협 및 취약성 관리
 
@@ -55,7 +55,7 @@ ms.locfileid: "59166783"
 
 ## <a name="check-which-devices-are-involved-in-high-severity-alerts"></a>높은 심각도 경고에 포함되는 장치 확인
 
-1. 포털의 왼쪽 탐색 창에서 헌팅  >   고급 헌팅으로 Microsoft 365 Defender 있습니다.
+1. 포털의  왼쪽 탐색 창에서 헌팅 \>  고급 헌팅으로 Microsoft 365 Defender 있습니다.
 
 2. 열 이름에 익숙해지기 위해 TVM 고급 헌팅 스마마까지 아래로 스크롤합니다.
 

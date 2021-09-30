@@ -3,7 +3,7 @@ title: 21Vianet에서 운영하는 Microsoft Office 365 URL 및 IP 주소 범위
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/29/2021
+ms.date: 09/28/2021
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -21,12 +21,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 중국의 21Vianet에서 운영하는 Office 365 URL 및 IP 주소 범위를 나열합니다.
 hideEdit: true
-ms.openlocfilehash: 726069ef6dddc7d46ab2c5c36f9b6eaf0edf702d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b8857ae82c66dbeadba8b74b360c265a0cd54085
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192799"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010272"
 ---
 # <a name="urls-and-ip-address-ranges-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Microsoft Office 365 URL 및 IP 주소 범위
 
@@ -36,7 +36,7 @@ ms.locfileid: "59192799"
   
  **Office 365 끝점:** [전 세계(GCC 포함)](urls-and-ip-address-ranges.md)  | *21vianet에서 운영하는 Microsoft Office 365* | [Microsoft Office 365 Germany](microsoft-365-germany-endpoints.md)  |  [Office 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) | [Office 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) |
   
-**Last updated:** 03/29/2021 - ![ RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)
+**Last updated:** 09/28/2021 - ![ RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 **다운로드:** 모든 필수 및 선택 대상을 [JSON 형식](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) 목록에 다운로드합니다.
 

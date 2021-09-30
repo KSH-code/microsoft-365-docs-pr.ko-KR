@@ -12,12 +12,12 @@ ms.collection:
 localization_priority: None
 f1.keywords:
 - NOCSH
-ms.openlocfilehash: dff13dd6c4011ec73a1976bce0af69b607e391b0
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 79f82ba1133af3c3cfe1d8c7b05b481528bcb003
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444058"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010108"
 ---
 # <a name="manage-information-barrier-policies"></a>정보 장벽 정책 관리
 
@@ -37,7 +37,7 @@ ms.locfileid: "59444058"
 | [정보 장벽 문제 해결](/office365/troubleshoot/information-barriers/information-barriers-troubleshooting) | 정보 장벽으로 예기치 않은 문제가 발생할 경우 이 문서를 참조하세요. |
 
 > [!IMPORTANT]
-> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise 전역 관리자<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 준수 관리(새로운 역할입니다!)<br><br>정보 장벽의 선행 준비에 대한 자세한 내용은 [Prerequisites (for information barrier policies)을 참조하십시오.](information-barriers-policies.md#prerequisites)<br><br> 보안 및 준수 센터 [PowerShell에 & 합니다.](/powershell/exchange/connect-to-scc-powershell)
+> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise 전역 관리자<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 준수 관리(새로운 역할입니다!)<br><br>정보 장벽의 선행 준비에 대한 자세한 내용은 [Prerequisites (for information barrier policies)을 참조하십시오.](information-barriers-policies.md#step-1-make-sure-prerequisites-are-met)<br><br> 보안 및 준수 센터 [PowerShell에 & 합니다.](/powershell/exchange/connect-to-scc-powershell)
 
 ## <a name="edit-user-account-attributes"></a>사용자 계정 특성 편집
 
@@ -76,7 +76,7 @@ ms.locfileid: "59444058"
     |:---------|:----------|
     | `Set-OrganizationSegment -Identity GUID -UserGroupFilter "attribute -eq 'attributevalue'"` |`Set-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd -UserGroupFilter "Department -eq 'HRDept'"` <p> 이 예제에서는 *GUID가 c96e0837-c232-4a8a-841e-ef45787d8fcd인* 세그먼트의 경우 부서 이름을 "HRDept"로 업데이트했습니다. |
 
-조직에 대한 세그먼트 편집을 마치면 정보 장벽 [](information-barriers-policies.md#part-2-define-information-barrier-policies) 정책을 정의하거나 [편집할](#edit-a-policy) 수 있습니다.
+조직에 대한 세그먼트 편집을 마치면 정보 장벽 [](information-barriers-policies.md#step-3-define-information-barrier-policies) 정책을 정의하거나 [편집할](#edit-a-policy) 수 있습니다.
 
 ## <a name="edit-a-policy"></a>정책 편집
 
@@ -94,7 +94,7 @@ ms.locfileid: "59444058"
 
     이 예제에서는 "SegmentsBlocked"를 "SegmentsAllowed"로 변경하고 *HR 세그먼트를 지정했습니다.*
 
-3. 정책 편집을 마치면 변경 내용을 적용해야 합니다. (정보 [장벽 정책 적용을](information-barriers-policies.md#part-3-apply-information-barrier-policies)참조하세요.)
+3. 정책 편집을 마치면 변경 내용을 적용해야 합니다. (정보 [장벽 정책 적용을](information-barriers-policies.md#step-4-apply-information-barrier-policies)참조하세요.)
 
 ## <a name="set-a-policy-to-inactive-status"></a>정책을 비활성 상태로 설정
 

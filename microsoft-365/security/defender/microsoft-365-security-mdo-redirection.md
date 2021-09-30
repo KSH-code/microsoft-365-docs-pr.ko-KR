@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ab8562eb1ae9a9d45baa31952b0a88ed4a1d9f36
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bed6a3bfdbad66a8eb9979aea997d33a060fd134
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185620"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010260"
 ---
 # <a name="redirecting-accounts-from-office-365-security-and-compliance-center-to-microsoft-365-defender"></a>Office 365 및 준수 센터에서 계정으로 Microsoft 365 Defender
 
@@ -45,23 +45,26 @@ ms.locfileid: "59185620"
 
 자동 리디렉션을 설정하면 사용자가 Microsoft 365 Defender 및 준수 센터에서 보안 기능을 사용할 때 Office 365 라우팅됩니다.
 
-여기에는 위협 관리 섹션 및 위협 관리 대시보드 및 보고서의 기능이 포함됩니다. 보안 및 Office 365 관련이 없는 항목은 보안 및 준수 센터의 항목으로 Microsoft 365 Defender.
+여기에는 위협 관리 섹션, 경고(경고 및 경고 정책 보기) 및 위협 관리 대시보드 및 보고서의 기능이 포함됩니다. 보안 및 Office 365 관련이 없는 항목은 보안 및 준수 센터의 항목으로 Microsoft 365 Defender.
 
 규정 준수 관련 항목은 Microsoft 365 규정 준수 센터 있으며 메일 흐름 관련 항목은 Exchange 관리 센터에서 찾을 수 있습니다.
 
-규정 준수 관련 기능 또는 둘 다를 충족하는 기능 등 다른 모든 기능은 리디렉션의 영향을 받지 않습니다. Office 365 알림은 리디렉션 없이 Microsoft 365 Defender 및 Office 365 및 준수 센터 둘 다에 표시됩니다.  
+규정 준수 관련 기능 또는 둘 다를 충족하는 기능 등 다른 모든 기능은 리디렉션의 영향을 받지 않습니다.
 
 ### <a name="set-up-portal-redirection"></a>포털 리디렉션 설정
-2016년 Microsoft 365 Defender 라우팅 계정을 security.microsoft.com.
 
-1. 전역 관리자 또는 Azure Active Directory에 보안 관리자 권한이 있는지 확인합니다.
-2. [로그인하여](https://security.microsoft.com/) Microsoft 365 Defender.
-3. 전자 **메일 설정**  >  **포털 리디렉션으로**  >  **& 이동합니다.**  
-4. 자동 리디렉션 설정을 으로 **전환합니다.**
-5. 사용 **을** 클릭하여 자동 리디렉션을 Microsoft 365 Defender.
+2021년 10월 초부터 포털 리디렉션이 자동으로 또는 기본적으로 수행됩니다. 그러나 일시적으로 사용하지 않도록 설정해야 하는 경우 해당 단계가 따릅니다.
+
+<!--To start routing accounts to Microsoft 365 Defender at security.microsoft.com:
+
+1. Make sure you’re a global administrator or have security administrator permissions in Azure Active directory.
+2. [Sign in](https://security.microsoft.com/) to Microsoft 365 Defender.
+3. Navigate to **Settings** > **Email & collaboration** > **Portal redirection**.  
+4. Toggle the Automatic redirection setting to **On**.
+5. Click **Enable** to apply automatic redirection to Microsoft 365 Defender.
 
 > [!NOTE]
-> 리디렉션을 사용하도록 설정한 후 이 설정이 적용되는 동안 활성 세션의 계정은 세션에서출되지 않습니다. 현재 세션을 종료하고 다시 로그인한 Microsoft 365 Defender 계정으로만 라우팅됩니다.
+> After redirection is enabled, accounts in active sessions while this setting is applied will not be ejected from their session and will only be routed to Microsoft 365 Defender after ending their current session and signing back in again.-->
 
 ## <a name="can-i-go-back-to-using-the-former-portal"></a>이전 포털을 사용하여 다시 돌아갈 수 있나요?
 문제가 작동하지 않는 경우 또는 사용자 검색을 통해 완료할 수 Microsoft 365 Defender 경우 포털 피드백 옵션을 사용하여 해당 정보를 듣고 싶을 것입니다. 리디렉션에 문제가 발생하면 알려주세요.

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 498d88e2a75a0485043297eebf27c3da014a63b9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1894721cb929aaf92df371668348b36bb788727b
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216095"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010236"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -174,7 +174,7 @@ ms.locfileid: "59216095"
 - 민감도 레이블 정책 마법사는 이제 기본 Outlook 필수 레이블 지정을 PowerShell 고급 설정보다 더 쉬운 구성으로 지원합니다. [](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling)
 - 이제 [](sensitivity-labels-office-apps.md#dynamic-markings-with-variables ) Word, Excel 및 변수를 통해 동적 표시에 대한 지원이 웹용 PowerPoint
 - 사용자에 대한 자동 레이블 [Exchange](apply-sensitivity-label-automatically.md) 레이블이 암호화에 대해 구성된 경우 해당 암호화가 적용되지 않습니다. 또한 Exchange 레이블 지정 정책의 경우 예외와 제목, 받는 사람 주소 또는 보낸 사람 주소가 패턴 일치와 일치하는 새 조건을 구성할 수 있습니다. 받는 사람 주소에 단어가 포함되어 있습니다. 보낸 사람 도메인은 받는 사람이 다음의 구성원입니다. 보낸 사람이 입니다.
-- 팀, 그룹 및 사이트에서 민감도 레이블을 사용하는 경우 blockSendLabelMismatchEmail 매개 변수와 함께 Set-SPOTenant 사용하여 감사 이벤트  감지된 문서 민감도 불일치가 기록될 때 자동으로 생성되는 전자 메일을 방지할 수 있습니다.  자세한 내용은 민감도 레이블 [활동 감사를 참조하세요.](sensitivity-labels-teams-groups-sites.md#auditing-sensitivity-label-activities )
+- 팀, 그룹 및 사이트에서 민감도 레이블을 사용하는 경우 blockSendLabelMismatchEmail 매개 변수와 함께 Set-SPOTenant 사용하여 감사 이벤트  감지된 문서 민감도 불일치가 기록될 때 자동으로 생성되는 전자 메일을 방지할 수 있습니다.  자세한 내용은 민감도 레이블 [활동 감사를 참조하세요.](sensitivity-labels-teams-groups-sites.md#auditing-sensitivity-label-activities)
 - 이제 [인증 컨텍스트 설정이](sensitivity-labels-teams-groups-sites.md#more-information-about-the-dependencies-for-the-authentication-context-option) 민감도 레이블에 대한 미리 보기에서 완전히 롤아웃됩니다. 또한 이 구성은 이제 이 구성에서 Microsoft Teams.
 - Microsoft Cloud App Security 등의 서비스 원칙 이름으로 레이블을 지정하고 암호화한 다음 SharePoint 및 OneDrive 에 업로드된 파일은 웹용 Office 및 Office 파일에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정한 경우 SharePoint [및](sensitivity-labels-sharepoint-onedrive-files.md)OneDrive.
 - 공동 [작성](sensitivity-labels-coauthoring.md) 및 자동 작성은 더 이상 테스트 테넌트로 제한되지 않습니다. 버전 2105: Windows 6월 18일, macOS용 버전 16.50+를 사용하는 경우 프로덕션에서 지원됩니다. 이 기능은 iOS 및 Android에서 여전히 지원되지 않고 미리 보기로 남아 있습니다.

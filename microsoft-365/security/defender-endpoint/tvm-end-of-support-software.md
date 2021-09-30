@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 988b1177932a67f10f79651cc0190fd665de4c17
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e2b6d88f7cd443c7fb093d791a7904baafeb9c1d
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166815"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010132"
 ---
 # <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>지원 종료 소프트웨어 및 소프트웨어 버전을 계획하고 위협 및 취약성 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "59166815"
 
 보안 및 IT 관리자가 함께 작업하고 최적의 결과, 규정 준수 및 건전한 네트워크 에코시스템을 위해 조직의 소프트웨어 인벤토리를 구성하는 것이 중요합니다. 지원 종료에 도달한 앱을 제거하거나 교체하고 더 이상 지원되지 않는 버전을 업데이트하는 옵션을 검사해야 합니다. 지원 날짜가 끝나기 전에  계획을 만들고 구현하는 것이 가장 좋은 것입니다.
 
->[!NOTE]
+> [!NOTE]
 > 지원 종료 기능은 현재 모든 제품에서만 Windows 있습니다.
 
 ## <a name="find-software-or-software-versions-that-are-no-longer-supported"></a>더 이상 지원되지 않는 소프트웨어 또는 소프트웨어 버전 찾기

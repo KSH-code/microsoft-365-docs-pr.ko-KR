@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 24d6873df2432adf5e56b62f01e784f65df4e980
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a80f30d132706633232713f1ba4b30fa1e64b800
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185739"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010144"
 ---
 # <a name="troubleshoot-subscription-and-portal-access-issues"></a>구독 및 포털 액세스 문제 해결
 
@@ -42,10 +42,11 @@ ms.locfileid: "59185739"
 앱에 액세스하는 Microsoft 365 Defender 구독을  찾을 수 없음 메시지가 표시되는 경우 사용자를 포털에 로그인하는 데 사용되는 Azure Active Directory(Azure AD)에 끝점용 Microsoft Defender 라이선스가 없음을 의미합니다.
 
 가능한 원인:
+
 - Windows E5 및 Office E5 라이선스는 별도의 라이선스입니다.
 - 라이선스를 구매했지만 이 Azure AD 인스턴스에 프로비전되지는 않습니다.
-    - 라이선스 프로비저닝 문제일 수 있습니다.
-    - 서비스에 대한 인증에 사용되는 라이선스와 다른 Microsoft Azure AD 라이선스를 프로비전할 수 있습니다.
+  - 라이선스 프로비저닝 문제일 수 있습니다.
+  - 서비스에 대한 인증에 사용되는 라이선스와 다른 Microsoft Azure AD 라이선스를 프로비전할 수 있습니다.
 
 두 경우 모두 일반 Microsoft [Defender for Endpoint 지원](https://support.microsoft.com/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16055&ccsid=636419533611396913) 또는 볼륨 라이선스 지원 에서 Microsoft 지원에 [문의해야 합니다.](https://www.microsoft.com/licensing/servicecenter/Help/Contact.aspx)
 
@@ -53,7 +54,7 @@ ms.locfileid: "59185739"
 
 ## <a name="your-subscription-has-expired"></a>구독이 만료되었습니다.
 
-구독에 액세스하는 동안 Microsoft 365 Defender 만료된 메시지가 표시되면 온라인 서비스 구독이 만료된 것입니다.  다른 온라인 서비스 구독과 마찬가지로 Endpoint용 Microsoft Defender 구독에는 만료 날짜가 있습니다. 
+구독에 액세스하는 동안 Microsoft 365 Defender 만료된 메시지가 표시되면 온라인 서비스 구독이 만료된 것입니다.  다른 온라인 서비스 구독과 마찬가지로 Endpoint용 Microsoft Defender 구독에는 만료 날짜가 있습니다.
 
 특정 시점에 라이선스를 갱신하거나 연장할 수 있습니다. 만료 날짜 후 포털에 액세스할  때 라이선스를 갱신하지 않을 경우 구독이 만료된 메시지에 장치 등록 취소 패키지를 다운로드하는 옵션이 표시됩니다.
 
@@ -70,27 +71,25 @@ ms.locfileid: "59185739"
 ![포털에 액세스할 수 있는 권한이 없는 이미지입니다.](images/atp-not-authorized-to-access-portal.png)
 
 ## <a name="data-currently-isnt-available-on-some-sections-of-the-portal"></a>현재 포털의 일부 섹션에서 데이터를 사용할 수 없습니다.
+
 포털 대시보드 및 기타 섹션에 "현재 데이터를 사용할 수 없습니다."라는 오류 메시지가 표시되는 경우:
 
 ![현재 데이터 이미지를 사용할 수 없습니다.](images/atp-data-not-available.png)
 
 그 아래에 있는 모든 하위omain을 허용해야 `security.windows.com` 합니다. 예를 들면 `*.security.windows.com`와 같습니다.
 
-
 ## <a name="portal-communication-issues"></a>포털 통신 문제
+
 포털 액세스, 데이터 누락 또는 포털 일부에 대한 제한된 액세스와 관련한 문제가 발생하는 경우 다음 URL이 통신에 허용되고 열려 있는지 확인해야 합니다.
 
 - `*.blob.core.windows.net`
 - `crl.microsoft.com`
 - `https://*.microsoftonline-p.com`
-- `https://*.securitycenter.windows.com` 
+- `https://*.securitycenter.windows.com`
 - `https://automatediracs-eus-prd.securitycenter.windows.com`
 - `https://login.microsoftonline.com`
 - `https://login.windows.net`
 - `https://onboardingpackagescusprd.blob.core.windows.net`
-- `https://secure.aadcdn.microsoftonline-p.com` 
-- `https://securitycenter.windows.com` 
-- `https://static2.sharepointonline.com` 
-
-
-
+- `https://secure.aadcdn.microsoftonline-p.com`
+- `https://securitycenter.windows.com`
+- `https://static2.sharepointonline.com`

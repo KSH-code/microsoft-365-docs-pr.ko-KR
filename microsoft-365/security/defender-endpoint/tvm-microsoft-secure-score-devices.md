@@ -1,5 +1,5 @@
 ---
-title: 장치용 Microsoft Secure Score
+title: 디바이스용 Microsoft Secure Score
 description: 장치에 대한 점수는 응용 프로그램, 운영 체제, 네트워크, 계정 및 보안 제어 전반에 걸쳐 디바이스의 총 보안 구성 상태를 보여줍니다.
 keywords: Microsoft Secure Score for Devices, Endpoint Microsoft Defender for Devices, Secure score, configuration score, 위협 및 취약성 관리, security controls, improvement opportunities, security configuration score over time, security posture, baseline
 search.product: eADQiWindows 10XVcnh
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cc25da8c4cffa5c67747ea02a0f431c0c2c7a436
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ffed82085b07949e13aa059667f278b8640a1955
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166775"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009436"
 ---
-# <a name="microsoft-secure-score-for-devices"></a>장치용 Microsoft Secure Score
+# <a name="microsoft-secure-score-for-devices"></a>디바이스용 Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,8 +37,7 @@ ms.locfileid: "59166775"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
-
->[!NOTE]
+> [!NOTE]
 > 구성 점수는 이제 장치용 Microsoft 위협 및 취약성 관리 점수의 일부입니다.
 
 디바이스에 대한 점수는 위협 및 취약성 관리 포털의 [Microsoft 365 Defender](tvm-dashboard-insights.md) 표시됩니다. 장치에 대한 Microsoft 보안 점수가 높을수록 끝점이 사이버 보안 위협 공격으로부터 더 탄력적입니다. 다음 범주에 걸쳐 디바이스의 전체 보안 구성 상태를 반영합니다.
@@ -57,8 +56,7 @@ ms.locfileid: "59166775"
 
 변경 내용을 대시보드에 반영하는 데 최대 몇 시간이 걸릴 수 있습니다.
 
-
-1. 탐색 창에서 끝점 **설정**  >    >  **고급** 기능으로  >  **이동** 
+1. 탐색 창에서 끝점 **설정** \>  \> **고급** 기능으로 \> **이동**
 
 2. **아래로 스크롤하여 Microsoft 보안** 점수로 이동하고 설정을 으로 **전환합니다.**
 
@@ -66,7 +64,7 @@ ms.locfileid: "59166775"
 
 ## <a name="how-it-works"></a>작업 방법
 
->[!NOTE]
+> [!NOTE]
 > Microsoft Secure Score for Devices는 현재 그룹 정책을 통해 설정된 구성을 지원합니다. 현재 부분 Intune 지원으로 인해 Intune을 통해 설정될 수 있는 구성이 잘못 구성된 것으로 표시될 수 있습니다. 조직에서 보안 구성 관리를 위해 Intune을 사용하는 경우 IT 관리자에게 문의하여 실제 구성 상태를 확인할 수 있습니다.
 
 Microsoft Secure Score for Devices 카드의 데이터는 세세하고 지속적인 취약점 검색 프로세스의 제품입니다. 다음을 지속적으로 구성 검색 평가를 통해 집계됩니다.
@@ -100,16 +98,18 @@ Microsoft Secure Score for Devices 카드의 데이터는 세세하고 지속적
 
 7. 대시보드에서 **Microsoft Secure Score for Devices(장치용 Microsoft 보안 점수)** 카드를 다시 검토합니다. 권장 보안 제어의 수가 감소합니다. 보안 **컨트롤을** 선택하여 보안 권장  사항 페이지로 돌아가면 해결한 항목이 더 이상 목록에 나열되지 않습니다. 장치에 대한 Microsoft 보안 점수가 높아야 합니다.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 >취약성 평가 감지 비율을 높이기 위해 다음과 같은 필수 보안 업데이트를 다운로드하여 네트워크에 배포합니다.
->- 19H1 고객 | [KB 4512941](https://support.microsoft.com/help/4512941/windows-10-update-kb4512941)
->- RS5 고객 | [KB 4516077](https://support.microsoft.com/help/4516077/windows-10-update-kb4516077)
->- RS4 고객 | [KB 4516045](https://support.microsoft.com/help/4516045/windows-10-update-kb4516045)
->- RS3 고객 | [KB 4516071](https://support.microsoft.com/help/4516071/windows-10-update-kb4516071)
 >
->보안 업데이트를 다운로드하려면
->1. Microsoft [업데이트 카탈로그로 이동하십시오.](https://www.catalog.update.microsoft.com/home.aspx)
->2. 다운로드해야 하는 보안 업데이트 KB 번호에 키를 입력한 다음 검색을 **클릭합니다.**  
+> - 19H1 고객 | [KB 4512941](https://support.microsoft.com/help/4512941/windows-10-update-kb4512941)
+> - RS5 고객 | [KB 4516077](https://support.microsoft.com/help/4516077/windows-10-update-kb4516077)
+> - RS4 고객 | [KB 4516045](https://support.microsoft.com/help/4516045/windows-10-update-kb4516045)
+> - RS3 고객 | [KB 4516071](https://support.microsoft.com/help/4516071/windows-10-update-kb4516071)
+>
+> 보안 업데이트를 다운로드하려면
+>
+> 1. Microsoft [업데이트 카탈로그로 이동하십시오.](https://www.catalog.update.microsoft.com/home.aspx)
+> 2. 다운로드해야 하는 보안 업데이트 KB 번호에 키를 입력한 다음 검색을 **클릭합니다.**
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 291856addf7ce2702a1cd5f26c9cf3d2e833bbc2
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: b08439f07bcf80a76e45cad02001194543491c14
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483414"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009532"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -119,7 +119,7 @@ ms.locfileid: "59483414"
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
     - [2016년 8월에 사용자로 확인된 메시지 찾기 및 Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-    메시지의 **검역을** 선택하는 경우 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택할 수도 있습니다. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+    메시지의 **검역을** 선택하는 경우 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택할 수도 있습니다. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
 ### <a name="unauthenticated-sender"></a>비인식 보낸 사람
 
@@ -152,6 +152,9 @@ ms.locfileid: "59483414"
 이 기능을 사용하면 잠재적인 가장 공격으로부터 보안을 강화할 수 있으므로 이 기능을 설정하는 것이 좋습니다.
 
 첫 번째 보안 팁 **X-MS-Exchange-EnableFirstContactSafetyTip이라는** 헤더를 **메시지에 사용(이** 기능을 계속 사용할 수 있는 경우)을 추가하는 메일 흐름 규칙(전송 규칙)을 만들 필요가 없습니다.
+
+> [!NOTE]
+> 메시지에 받는 사람이 여러 명인 경우 팁이 표시되는지 여부와 다수 모델을 기반으로 하는 사람입니다. 대부분의 받는 사람이 보낸 사람으로부터 메시지를 받지 못하거나 자주 받지 않는 경우 영향을 받는 사람에게 이 메시지를 받은 일부 **사용자...** 팁이 표시됩니다. 이 동작이 한 받는 사람의 통신 습관을 다른 받는 사람에게 노출하는 것이 우려되는 경우 첫 번째 연락처 보안 팁 대신 메일 흐름 규칙을 계속 사용하도록 설정하면 안 됩니다.
 
 ## <a name="exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -202,7 +205,7 @@ ms.locfileid: "59483414"
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
     - [2016년 8월에 사용자로 확인된 메시지 찾기 및 Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-    메시지 **검역을** 선택하는 경우 사용자 가장 또는 도메인 가장 보호에 의해 검역된 메시지에 적용되는 검역 정책을 선택할 수도 있습니다. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+    메시지 **검역을** 선택하는 경우 사용자 가장 또는 도메인 가장 보호에 의해 검역된 메시지에 적용되는 검역 정책을 선택할 수도 있습니다. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
   - **메시지를 배달하고 Bcc** 줄에 다른 주소를 추가합니다. 메시지를 의도된 받는 사람에게 배달하고 지정된 받는 사람에게 자동으로 배달합니다.
   - **배달되기** 전에 메시지 삭제: 모든 첨부 파일을 포함하여 전체 메시지를 자동으로 삭제합니다.
@@ -222,7 +225,7 @@ ms.locfileid: "59483414"
   - **아무 작업도 적용하지** 않습니다. 이 값은 사서함 인텔리전스를 켜고 인텔리전스 가장 보호 사용은 해제하는 경우와 결과가 **같습니다.** 
   - **메시지를 다른 전자 메일 주소로 리디렉션**
   - **받는 사람의 정크 메일 폴더로 메시지 이동**
-  - **메시지 Quarantine the message:** If you select this action, you can also select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+  - **메시지 Quarantine the message:** If you select this action, you can also select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
   - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
   - **배달되기 전에 메시지 삭제**
 

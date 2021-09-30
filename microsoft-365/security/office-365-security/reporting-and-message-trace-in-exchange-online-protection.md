@@ -15,12 +15,12 @@ ms.custom:
 description: 이 문서에서는 EOP(Microsoft Exchange Online 보호) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 자세히 알아보게 됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc49a92d5fb1fb0368b14eef7524638542f38deb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 619b8376c6c9d5d733799b4350c308fc4c57f62b
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187348"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010284"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>EOP의 보고 및 메시지 추적
 
@@ -46,6 +46,10 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 - **Defender for Office 365:** Microsoft Defender for 금고 링크 및 금고 첨부 파일에 대한 정보를 Office 365. 자세한 내용은 view [Defender for Office 365 portal에서 Microsoft 365 Defender 참조하세요.](view-reports-for-mdo.md)
 - **EOP:** 맬웨어 검색, 스푸핑된 메일, 스팸 검색 및 조직과의 메일 흐름에 대한 정보를 볼 수 있습니다. 자세한 내용은 Microsoft 365 Defender 포털에서 전자 [메일 보안 보고서 보기를 참조하세요.](view-email-security-reports.md)
+
+## <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
+
+자세한 내용은 보안 및 준수 센터의 메일 [흐름 & 참조하세요.](mail-flow-insights-v2.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Microsoft 365를 사용한 사용자 지정 Graph
 

@@ -18,12 +18,12 @@ ms.technology: mde
 audience: ITPro
 ms.topic: how-to
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 112d4b8336456dd3668e3b1ad6abdd04788991ff
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: b2ab5052d51e966cc34fe6f1cfa292aa38f3be5a
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59490838"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009604"
 ---
 # <a name="use-microsoft-endpoint-manager-to-configure-and-manage-microsoft-defender-antivirus"></a>이 Microsoft Endpoint Manager 사용하여 Microsoft Defender 바이러스 백신
 
@@ -34,7 +34,7 @@ ms.locfileid: "59490838"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-검색을 [사용하여](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 구성할 Microsoft Defender 바이러스 백신 있습니다. [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) 및 [Configuration Manager는](/mem/configmgr/core/understand/introduction) 이제 Endpoint Manager.  
+검색을 [사용하여](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 구성할 Microsoft Defender 바이러스 백신 있습니다. [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) 및 [Configuration Manager는](/mem/configmgr/core/understand/introduction) 이제 Endpoint Manager.
 
 ## <a name="configure-microsoft-defender-antivirus-scans-in-endpoint-manager"></a>사용자 Microsoft Defender 바이러스 백신 검사 구성 Endpoint Manager
 
@@ -44,7 +44,7 @@ ms.locfileid: "59490838"
 
 3. 관리에서 바이러스 백신 을 **선택 합니다.** 
 
-4. 사용자 Microsoft Defender 바이러스 백신 선택합니다. 
+4. 사용자 Microsoft Defender 바이러스 백신 선택합니다.
 
 5. **관리** 에서 **속성** 을 선택합니다.
 
@@ -54,10 +54,8 @@ ms.locfileid: "59490838"
 
 8. 검토 **+ 저장 선택**
 
-
 > [!TIP]
 > 도움이 필요하신가요? 에서 끝점 보안 [관리를 Microsoft Intune.](/mem/intune/protect/endpoint-security)
-
 
 ## <a name="related-articles"></a>관련 문서
 

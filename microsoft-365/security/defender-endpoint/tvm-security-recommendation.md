@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: de94125566985447b10997cd354c7c9aed01630d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: da78b5fe13c9b2b1af086a10b61b085e3d20af64
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166762"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010224"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항 - 위협 및 취약성 관리
 
@@ -109,8 +109,8 @@ ms.locfileid: "59166762"
 
 - [**예외 옵션**](tvm-exception.md) - 예외를 제출하고, 사당을 제공하고, 문제를 아직 수정하지 못하면 예외 기간을 설정할 수 있습니다.
 
->[!NOTE]
->장치에서 소프트웨어 변경을 하는 경우 일반적으로 데이터가 보안 포털에 반영되는 데 2시간이 소요됩니다. 하지만, 때때로 더 오래 걸릴 수도 있습니다. 구성 변경에는 4시간에서 24시간까지 걸릴 수 있습니다.
+> [!NOTE]
+> 장치에서 소프트웨어 변경을 하는 경우 일반적으로 데이터가 보안 포털에 반영되는 데 2시간이 소요됩니다. 하지만, 때때로 더 오래 걸릴 수도 있습니다. 구성 변경에는 4시간에서 24시간까지 걸릴 수 있습니다.
 
 ### <a name="investigate-changes-in-device-exposure-or-impact"></a>장치 노출 또는 영향의 변경 내용 조사
 
@@ -138,7 +138,7 @@ ms.locfileid: "59166762"
 
 ### <a name="how-to-create-an-exception"></a>예외를 만드는 방법
 
-예외를 만들 보안 권장을 선택한 다음 예외 옵션을 **선택합니다.**  
+예외를 만들 보안 권장을 선택한 다음 예외 옵션을 **선택합니다.**
 
 !["예외 옵션"에 대한 단추가 보안 권장 플라이아웃의 위치인 위치를 보여 줄 수 있습니다.](images/tvm-exception-options.png)
 

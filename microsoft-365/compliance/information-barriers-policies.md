@@ -15,68 +15,68 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c2c8721cbabd6267bb7c67efc56953bb22186a0b
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 2c07169254f7541b1107748e1aa5b1753df46fc6
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59443962"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010248"
 ---
 # <a name="get-started-with-information-barriers"></a>정보 장벽 시작
 
-정보 장벽을 사용하여 특정 사용자 세그먼트가 서로 통신하지 못하도록 설계된 정책을 정의하거나 특정 세그먼트가 특정 다른 세그먼트와만 통신하도록 허용할 수 있습니다. 정보 장벽 정책은 조직이 관련 산업 표준 및 규정을 준수하고 잠재적인 이해 관계 충돌을 방지하는 데 도움이 될 수 있습니다. 자세한 내용은 정보 [장벽을 참조하세요.](information-barriers.md)
+정보 장벽을 사용하여 특정 사용자 세그먼트가 서로 통신하지 못하게 하거나 특정 세그먼트가 특정 다른 세그먼트와만 통신할 수 있도록 설계된 정책을 정의할 수 있습니다. 정보 장벽 정책은 조직이 관련 산업 표준 및 규정을 준수하고 잠재적인 이해 관계 충돌을 방지하는 데 도움이 될 수 있습니다. 자세한 내용은 [정보 장벽에 대한 자세한 정보를 참조하세요.](information-barriers.md)
 
-이 문서에서는 정보 장벽 정책을 계획, 정의, 구현 및 관리하는 방법에 대해 설명하고 있습니다. 여러 단계가 관련이 있으며 작업 흐름은 여러 부분으로 나뉘어 있습니다. 정보 장벽 정책 [](#prerequisites) 정의(또는 편집)를 시작하기 전에 선행 작업 및 전체 프로세스를 읽어야 합니다.
+이 문서에서는 정보 장벽 정책을 구성하는 방법에 대해 설명하고 있습니다. 여러 단계가 관련이 있으므로 정보 장벽 정책 구성을 시작하기 전에 전체 프로세스를 검토해야 합니다.
 
 > [!TIP]
-> 이 문서에는 정보 장벽 [정책을](#example-contosos-departments-segments-and-policies) 계획하고 정의하는 데 도움이 되는 예제 시나리오가 포함되어 있습니다.
+> 이 문서에는 정보 장벽 [정책을](#example-scenario-contosos-departments-segments-and-policies) 계획하고 정의하는 데 도움이 되는 예제 시나리오가 포함되어 있습니다.
 
-## <a name="concepts-of-information-barrier-policies"></a>정보 장벽 정책의 개념
+## <a name="concepts"></a>개념
 
-정보 장벽에 대한 정책을 정의하면 사용자 계정 특성, 세그먼트, "차단" 및/또는 "허용" 정책 및 정책 응용 프로그램을 사용할 수 있습니다.
+정보 장벽에 대한 정책을 정의하면 사용자 계정 특성, 세그먼트, '차단' 및/또는 '허용' 정책 및 정책 응용 프로그램을 사용할 수 있습니다.
 
-- 사용자 계정 특성은 Azure Active Directory(또는 Exchange Online)에서 정의합니다. 이러한 특성에는 부서, 직위, 위치, 팀 이름 및 기타 직무 프로필 세부 정보가 포함됩니다. 
-- 세그먼트는 선택한 사용자 계정 특성을 & 보안 및 준수 센터에 정의된 **사용자 집합입니다.** ([지원되는 특성 목록](information-barriers-attributes.md)을 참조)
+- 사용자 계정 특성은 Azure Active Directory(또는 Exchange Online)에서 정의합니다. 이러한 특성에는 부서, 직위, 위치, 팀 이름 및 기타 직무 프로필 세부 정보가 포함됩니다.
+- 세그먼트는 선택한 사용자 계정 특성을 사용하여 Microsoft 365 규정 준수 센터 사용자 **집합입니다.** ([지원되는 특성 목록](information-barriers-attributes.md)을 참조)
 - 정보 장벽 정책은 통신 한도 또는 제한을 결정합니다. 정보 장벽 정책을 정의할 경우, 두 가지 정책 중에서 선택할 수 있습니다.
-  - "차단" 정책은 한 세그먼트가 다른 세그먼트와 통신하지 못하게 합니다.
-  - "허용" 정책을 사용하면 한 세그먼트가 다른 특정 세그먼트와만 통신할 수 있습니다.
+  - *차단* 정책은 하나의 세그먼트가 다른 세그먼트와 통신할 수 없도록 차단합니다.
+  - *허용* 정책은 하나의 세그먼트가 특정한 다른 세그먼트와만 통신하도록 허용합니다.
 - 정책 적용은 모든 정보 장벽 정책이 정의되고 조직에 적용할 준비가 된 후에 이루어집니다.
 
-## <a name="the-work-flow-at-a-glance"></a>워크플로 한 눈에 보기
+## <a name="configuration-at-a-glance"></a>구성 한눈에 보기
 
-| 단계 | 관련 항목 |
-|:--------|:------------------|
-| [선행 준비를 충족하는지 확인](#prerequisites) | - 필요한 라이선스 및 사용 [권한이 있는지 확인](information-barriers.md#required-licenses-and-permissions)<br/>- 디렉터리에 사용자 분할에 대한 데이터가 포함되어 있는지 확인<br/>- 사용자에 대해 범위가 지정 된 디렉터리 검색을 Microsoft Teams<br/>- 감사 로깅이 켜져 있는지 확인<br/>- 주소 Exchange 정책이 없는지 확인<br/>- PowerShell 사용(예제 제공)<br/>- 사용자에 대한 관리자 동의 Microsoft Teams(단계 포함) |
-| [1부: 조직에서 사용자 세그먼트화](#part-1-segment-users) | - 필요한 정책 결정<br/>- 정의할 세그먼트 목록 만들기<br/>- 사용할 특성 식별<br/>- 정책 필터 측면에서 세그먼트 정의 |
-| [2부: 정보 장벽 정책 정의](#part-2-define-information-barrier-policies) | - 정책 정의(아직 적용되지 않습니다)<br/>- 두 가지 종류(차단 또는 허용) 중 선택 |
-| [3부: 정보 장벽 정책 적용](#part-3-apply-information-barrier-policies) | - 정책을 활성 상태로 설정<br/>- 정책 응용 프로그램 실행<br/>- 정책 상태 보기 |
-| (필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md) | - 세그먼트 편집<br/>- 정책 편집 또는 제거<br/>- 정책 응용 프로그램 다시 실행<br/>- 정책 상태 보기 |
-| (필요한 경우) [문제 해결](/office365/troubleshoot/information-barriers/information-barriers-troubleshooting)| - 작업이 예상대로 작동하지 않는 경우 작업 수행|
+| **단계** | **관련 항목** |
+|:------|:----------------|
+| **1단계:** 선행 단계를 [충족하는지 확인](#step-1-make-sure-prerequisites-are-met) | - 필요한 라이선스 및 사용 [권한이 있는지 확인](information-barriers.md#required-licenses-and-permissions)<br/>- 디렉터리에 사용자 분할에 대한 데이터가 포함되어 있는지 확인<br/>- 사용자에 대해 범위가 지정 된 디렉터리 검색을 Microsoft Teams<br/>- 감사 로깅이 켜져 있는지 확인<br/>- 주소 Exchange 정책이 없는지 확인<br/>- PowerShell 사용(예제 제공)<br/>- 사용자에 대한 관리자 동의 Microsoft Teams(단계 포함) |
+| **2단계:** [조직에서 사용자 세그먼트화](#step-2-segment-users-in-your-organization) | - 필요한 정책 결정<br/>- 정의할 세그먼트 목록 만들기<br/>- 사용할 특성 식별<br/>- 정책 필터 측면에서 세그먼트 정의 |
+| **3단계:** [정보 장벽 정책 정의](#step-3-define-information-barrier-policies) | - 정책 정의(아직 적용되지 않습니다)<br/>- 두 가지 종류(차단 또는 허용) 중 선택 |
+| **4단계:** [정보 장벽 정책 적용](#step-4-apply-information-barrier-policies) | - 정책을 활성 상태로 설정<br/>- 정책 응용 프로그램 실행<br/>- 정책 상태 보기 |
+| **5단계:** 사용자 및 사용자에 대한 정보 SharePoint [OneDrive 구성(선택 사항)](#step-5-configuration-for-information-barriers-on-sharepoint-and-onedrive) | - 사용자 및 사용자에 대한 정보 장벽 SharePoint OneDrive |
+| **6단계:** [정보 장벽 모드(선택 사항)](#step-6-information-barriers-modes-preview) | - 해당하는 경우 정보 장벽 모드 업데이트 |
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="step-1-make-sure-prerequisites-are-met"></a>1단계: 선행 단계를 충족하는지 확인
 
-필요한 라이선스 [및](information-barriers.md#required-licenses-and-permissions)사용 권한 외에도 다음 요구 사항을 충족하는지 확인합니다.
+필요한 라이선스 [및](information-barriers.md#required-licenses-and-permissions)사용 권한 외에도 정보 장벽을 구성하기 전에 다음 요구 사항을 충족해야 합니다.
 
-- 디렉터리 데이터 - 조직의 구조가 디렉터리 데이터에 반영해야 합니다. 이 작업을 수행하려면 그룹 구성원 자격, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory(또는 Exchange Online) 채워야 합니다. 자세한 내용은 다음 리소스를 참조하세요.
+- **디렉터리 데이터:** 조직의 구조가 디렉터리 데이터에 반영해야 합니다. 이 작업을 수행하려면 그룹 구성원 자격, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory(또는 Exchange Online) 채워야 합니다. 자세한 내용은 다음 리소스를 참조하세요.
   - [정보 장벽 정책의 속성](information-barriers-attributes.md)
   - [사용자 프로필 정보를 사용하여 사용자 프로필 정보 추가 또는 Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
   - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)
 
-- 범위 디렉터리 검색 - 조직의 첫 번째 정보 장벽 정책을 정의하기 전에 에서 범위가 지정한 디렉터리 검색을 [사용하도록 Microsoft Teams.](/MicrosoftTeams/teams-scoped-directory-search) 정보 장벽 정책을 설정하거나 정의하기 전에 범위가 지정한 디렉터리 검색을 사용하도록 설정한 후 24시간 이상 기다릴 수 있습니다.
+- **범위 디렉터리 검색:** 조직의 첫 번째 정보 장벽 정책을 정의하기 전에 에서 범위가 지정한 디렉터리 검색을 [사용하도록 Microsoft Teams.](/MicrosoftTeams/teams-scoped-directory-search) 정보 장벽 정책을 설정하거나 정의하기 전에 범위가 지정한 디렉터리 검색을 사용하도록 설정한 후 24시간 이상 기다릴 수 있습니다.
 
-- EXO 라이선스 - IB 정책은 대상 사용자에게 EXO 라이선스가 할당된 경우만 사용할 수 있습니다.
+- **Exchange Online 라이선스:** 정보 장벽 정책은 대상 사용자에게 라이선스가 할당된 Exchange Online 적용됩니다.
 
-- 감사 로깅 - 정책 응용 프로그램의 상태를 확인하려면 감사 로깅을 설정해야 합니다. 세그먼트 또는 정책을 정의하기 전에 감사를 사용하도록 설정하는 것이 좋습니다. 자세한 내용은 감사 로그 검색 켜기 또는 [끄기 를 참조합니다.](turn-audit-log-search-on-or-off.md)
+- **감사 로깅이** 사용하도록 설정되어 있는지 확인: 정책 응용 프로그램의 상태를 확인하려면 감사 로깅을 설정해야 합니다. 감사는 기본적으로 Microsoft 365 사용하도록 설정되어 있습니다. 일부 조직에서는 특정 이유로 감사를 사용하지 않도록 설정한 경우도 있습니다. 조직에서 감사를 사용하지 않도록 설정한 경우 다른 관리자가 감사 기능을 해제한 것일 수 있습니다. 이 단계를 완료할 때 감사를 다시 설정하는 것이 좋습니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-- 주소장 정책 없음 - 정보 장벽 정책을 정의하고 적용하기 전에 주소 Exchange 정책이 적용되어 있는지 확인하지 않습니다. 정보 장벽은 주소록 정책을 기반으로 하지만 두 종류의 정책은 호환되지 않습니다. 이러한 정책이 있는 경우 먼저 주소부 정책을 [제거해야](/exchange/address-books/address-book-policies/remove-an-address-book-policy) 합니다. 정보 장벽 정책을 사용하도록 설정하고 계층적 주소 예약을 사용하도록  설정하면 정보 장벽 세그먼트에 포함되지 [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 않은 모든 사용자에게는 온라인 Exchange 표시됩니다.
+- **주소장 정책** 없음: 정보 장벽 정책을 정의하고 적용하기 전에 주소 Exchange 정책이 적용되어 있는지 확인하지 않습니다. 정보 장벽은 주소록 정책을 기반으로 하지만 두 종류의 정책은 호환되지 않습니다. 이러한 정책이 있는 경우 먼저 주소부 정책을 [제거해야](/exchange/address-books/address-book-policies/remove-an-address-book-policy) 합니다. 정보 장벽 정책을 사용하도록 설정하고 계층적 주소 예약을 사용하도록 **** 설정하면 정보 장벽 세그먼트에 포함되지 [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 않은 모든 사용자에게는 온라인 Exchange 표시됩니다.
 
-- PowerShell - 현재 정보 장벽 정책은 보안 및 준수 센터 PowerShell에서 정의되고 & 관리됩니다. 이 문서에서는 몇 가지 예제를 제공하겠지만 PowerShell cmdlet 및 매개 변수에 익숙해야 합니다. PowerShell 모듈에 Azure Active Directory 필요합니다.
+- **PowerShell을** 사용하여 관리: 현재 정보 장벽 정책은 보안 및 준수 센터 PowerShell에서 정의되고 & 관리됩니다. 이 문서에서는 몇 가지 예제를 제공하겠지만 PowerShell cmdlet 및 매개 변수에 익숙해야 합니다. PowerShell 모듈에 Azure Active Directory 필요합니다.
   - [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)
   - [설치 Azure Active Directory PowerShell을 Graph](/powershell/azure/active-directory/install-adv2)
 
-- Microsoft Teams 정보 장벽에 대한 관리자 동의 - IB 정책이 설정되어 있는 경우 그룹(즉, 그룹을 기반으로 하는 Teams 채널)에서 IB가 아닌 사용자를 제거할 수 있습니다. 이 구성은 조직이 정책 및 규정을 준수하는지 보장하는 데 도움이 됩니다. 다음 절차에 따라 정보 장벽 정책이 해당 정책에서 예상대로 작동하도록 Microsoft Teams.
+- Microsoft Teams 정보 장벽에 대한 관리자 **동의:** IB 정책이 설정되어 있는 경우 그룹(즉, 그룹을 기반으로 하는 Teams 채널)에서 IB가 아닌 사용자를 제거할 수 있습니다. 이 구성은 조직이 정책 및 규정을 준수하는지 보장하는 데 도움이 됩니다. 다음 절차에 따라 정보 장벽 정책이 해당 정책에서 예상대로 작동하도록 Microsoft Teams.
 
-   1. Pre-requisite: [Azure Active Directory PowerShell for Graph.](/powershell/azure/active-directory/install-adv2)
+   1. Prerequisite: [Azure Active Directory PowerShell for Graph.](/powershell/azure/active-directory/install-adv2)
 
    1. 다음 PowerShell cmdlet을 실행합니다.
 
@@ -95,12 +95,12 @@ ms.locfileid: "59443962"
       > [!div class="mx-imgBorder"]
       > ![이미지.](https://user-images.githubusercontent.com/8932063/107690955-b1772300-6c5f-11eb-9527-4235de860b27.png)
 
-모든 선행 구성이 충족될 경우 다음 섹션으로 진행합니다.
+모든 선행 단계를 충족하면 다음 단계로 진행합니다.
 
 > [!TIP]
-> 이 문서에는 계획을 준비하는 데 도움이 되는 예제 시나리오가 포함되어 있습니다. [Contoso의 부서, 세그먼트](#example-contosos-departments-segments-and-policies)및 정책을 참조합니다.
+> 이 문서에는 계획을 준비하는 데 도움이 되는 예제 시나리오가 포함되어 있습니다. [Contoso의 부서, 세그먼트](#example-scenario-contosos-departments-segments-and-policies)및 정책을 참조합니다.
 
-## <a name="part-1-segment-users"></a>1부: 사용자 구분
+## <a name="step-2-segment-users-in-your-organization"></a>2단계: 조직에서 사용자 구분
 
 이 단계에서는 필요한 정보 장벽 정책을 결정하고 정의할 세그먼트 목록을 만들어 세그먼트를 정의합니다.
 
@@ -142,7 +142,7 @@ ms.locfileid: "59443962"
     > [!IMPORTANT]
     > **세그먼트가 겹치지 않는지 확인** 정보 장벽의 영향을 받는 각 사용자는 하나의 세그먼트에 속해야 합니다. 사용자가 둘 이상의 세그먼트에 속하지 않습니다. (이 [문서의 예제: Contoso의 정의된](#contosos-defined-segments) 세그먼트를 참조하세요.)
 
-세그먼트를 정의한 후 정보 장벽 [정책 정의로 진행합니다.](#part-2-define-information-barrier-policies)
+세그먼트를 정의한 후 정보 장벽 [정책 정의로 진행합니다.](#step-3-define-information-barrier-policies)
 
 ### <a name="using-equals-and-not-equals-in-segment-definitions"></a>세그먼트 정의에 "같음" 및 "같지 않은" 사용
 
@@ -170,7 +170,7 @@ ms.locfileid: "59443962"
 > [!TIP]
 > 가능한 경우 "-eq" 또는 "-ne"가 포함된 세그먼트 정의를 사용합니다. 복잡한 세그먼트 정의를 정의하지 않습니다.
 
-## <a name="part-2-define-information-barrier-policies"></a>2부: 정보 장벽 정책 정의
+## <a name="step-3-define-information-barrier-policies"></a>3단계: 정보 장벽 정책 정의
 
 특정 세그먼트 간의 통신을 방지할지 또는 특정 세그먼트로 통신을 제한해야 하는지 여부를 결정해야 합니다. 조직이 법률 및 산업 요구 사항을 준수하는지 보장하기 위해 최소 수의 정책을 사용하는 것이 가장 이상적입니다.
 
@@ -205,7 +205,7 @@ ms.locfileid: "59443962"
 3. 다음 작업 중 하나를 진행합니다.
 
    - (필요한 경우) [세그먼트가 다른 세그먼트와만](#scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment) 통신할 수 있도록 하는 정책 정의 
-   - (모든 정책을 정의한 후) [정보 장벽 정책 적용](#part-3-apply-information-barrier-policies)
+   - (모든 정책을 정의한 후) [정보 장벽 정책 적용](#step-4-apply-information-barrier-policies)
 
 ### <a name="scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment"></a>시나리오 2: 세그먼트가 다른 세그먼트와만 통신하도록 허용
 
@@ -226,9 +226,9 @@ ms.locfileid: "59443962"
 2. 다음 작업 중 하나를 진행합니다.
 
    - (필요한 경우) [세그먼트 간 통신을 차단하는 정책 정의](#scenario-1-block-communications-between-segments) 
-   - (모든 정책을 정의한 후) [정보 장벽 정책 적용](#part-3-apply-information-barrier-policies)
+   - (모든 정책을 정의한 후) [정보 장벽 정책 적용](#step-4-apply-information-barrier-policies)
 
-## <a name="part-3-apply-information-barrier-policies"></a>3부: 정보 장벽 정책 적용
+## <a name="step-4-apply-information-barrier-policies"></a>4단계: 정보 장벽 정책 적용
 
 정보 장벽 정책은 활성 상태로 설정한 다음 정책을 적용하기 전까지는 적용되지 않습니다.
 
@@ -250,7 +250,7 @@ ms.locfileid: "59443962"
 
     를 실행한 후 시스템이 정책 적용을 시작할 수 있도록 `Start-InformationBarrierPoliciesApplication` 30분을 허용합니다. 시스템은 사용자에 따라 정책 사용자를 적용합니다. 시스템은 시간당 약 5,000개 사용자 계정을 처리합니다.
 
-## <a name="view-status-of-user-accounts-segments-policies-or-policy-application"></a>사용자 계정, 세그먼트, 정책 또는 정책 응용 프로그램의 상태 보기
+### <a name="view-status-of-user-accounts-segments-policies-or-policy-application"></a>사용자 계정, 세그먼트, 정책 또는 정책 응용 프로그램의 상태 보기
 
 PowerShell을 사용하면 다음 표에 나와 있는 사용자 계정, 세그먼트, 정책 및 정책 응용 프로그램의 상태를 볼 수 있습니다.
 
@@ -264,7 +264,7 @@ PowerShell을 사용하면 다음 표에 나와 있는 사용자 계정, 세그�
 
 <!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 
-## <a name="what-if-i-need-to-remove-or-change-policies"></a>정책을 제거하거나 변경해야 하는 경우 어떻게 하나요?
+### <a name="what-if-i-need-to-remove-or-change-policies"></a>정책을 제거하거나 변경해야 하는 경우 어떻게 하나요?
 
 리소스는 정보 장벽 정책을 관리하는 데 도움이 됩니다.
 
@@ -273,9 +273,37 @@ PowerShell을 사용하면 다음 표에 나와 있는 사용자 계정, 세그�
 - 정보 장벽 정책을 제거하려면 [정책 제거를 참조하세요.](information-barriers-edit-segments-policies.md#remove-a-policy)
 - 세그먼트 또는 정책을 변경하려면 정보 장벽 정책 [편집(또는 제거)을 참조하세요.](information-barriers-edit-segments-policies.md)
 
-## <a name="example-contosos-departments-segments-and-policies"></a>예: Contoso의 부서, 세그먼트 및 정책
+## <a name="step-5-configuration-for-information-barriers-on-sharepoint-and-onedrive"></a>5단계: 사용자 및 사용자에 대한 정보 장벽 SharePoint OneDrive
 
-조직에서 세그먼트 및 정책 정의에 어떻게 접근할 수 있는지 확인하기 위해 다음 예제를 고려합니다.
+사용자 및 사용자에 대한 정보 장벽을 SharePoint OneDrive 이러한 서비스에서 정보 장벽을 사용하도록 설정해야 합니다. 또한 사용자에 대한 정보 장벽을 구성하는 경우 이러한 서비스에 대한 정보 장벽을 설정해야 Microsoft Teams. Microsoft Teams 팀을 만들면 SharePoint 사이트가 자동으로 만들어지며 파일 환경을 Microsoft Teams 사이트와 연결됩니다. 이 사이트 및 파일에는 기본적으로 정보 장벽 정책이 SharePoint 않습니다.
+
+사용자 및 사용자 SharePoint OneDrive 장벽을 사용하도록 설정하려면 다음 문서와 함께 정보 장벽 사용 [문서의](/sharepoint/information-barriers) 지침 및 SharePoint 따릅니다.
+
+## <a name="step-6-information-barriers-modes-preview"></a>6단계: 정보 장벽 모드(미리 보기)
+
+모드를 사용하면 리소스의 IB 모드를 기반으로 Microsoft 365 리소스에 대한 액세스, 공유 및 구성원 자격을 강화할 수 있습니다. 모드는 Microsoft 365, Microsoft Teams, OneDrive 및 SharePoint 사이트에서 지원되며 새 IB 구성 또는 기존 IB 구성에서 자동으로 사용하도록 설정됩니다.
+
+>[!IMPORTANT]
+>2021년 10월 15일 전에 테넌트에서 정보 장벽을 사용하도록 설정한 경우 추가 단계가 필요하지 않습니다. 2021년 10월 15일 이후에 테넌트에서 정보 장벽을 온보더링하는 경우 그룹이 정보 장벽 규정 준수로 전환될 수 있도록 Microsoft Teams 연결된 모든 기존 Microsoft 365 그룹에 IB 모드를 설정해야 합니다.
+
+다음 IB 모드는 모든 리소스에서 Microsoft 365 있습니다.
+
+| **Mode** | **설명** | **예** |
+|:-----|:------------|:--------|
+| **열기** | IB 정책 또는 세그먼트가 Microsoft 365 없습니다. 모든 사람을 리소스의 구성원으로 초대할 수 있습니다. | 조직에서 소나기 이벤트를 위해 만든 팀 사이트입니다. |
+| **소유자 중재** | IB 정책은 Microsoft 365 소유자의 IB 정책에 따라 결정됩니다. 자원 소유자는 IB 정책에 따라 자원에 사용자를 초대할 수 있습니다. 이 모드는 회사에서 소유자가 중재하는 비호화 세그먼트 사용자 간 공동 작업을 허용하려는 경우 유용합니다. 자원 소유자만 IB 정책에 따라 새 구성원을 추가할 수 있습니다. | HR의 VP는 영업 및 리서치 VP와 공동 작업을 하고자 합니다. IB SharePoint 소유자 중재로 설정되어 판매  및 리서치 세그먼트 사용자를 동일한 사이트에 추가하는 새 사이트입니다. 적절한 구성원이 리소스에 추가되도록 하는 것은 소유자의 책임입니다. |
+| **암시적** | IB 정책 또는 Microsoft 365 리소스 구성원 IB 정책에서 상속됩니다. 소유자는 리소스의 기존 구성원과 호환되는 한 구성원을 추가할 수 있습니다. 이 모드는 사용자 지정에 대한 기본 IB Microsoft Teams. | 영업 부문 사용자는 조직에서 Microsoft Teams 다른 세그먼트와 공동 작업을 할 수 있는 팀을 만듭니다. |
+| **Explicit** | Microsoft 365 리소스의 IB 정책은 리소스와 연결된 세그먼트에 따라 다를 수 있습니다. 자원 소유자 또는 SharePoint 관리자가 자원의 세그먼트를 관리할 수 있습니다.  | 판매 세그먼트 구성원만 만든 사이트는 판매 세그먼트를 사이트에 연결하여 공동 작업할 수 있습니다.   |
+
+정보 장벽 모드 및 서비스 전체에서 구성하는 방법에 대한 자세한 내용은 다음 문서를 참조하세요.
+
+- [정보 장벽 모드 및 Microsoft Teams](/microsoftteams/information-barriers-in-teams)
+- [정보 장벽 모드 및 OneDrive](/onedrive/information-barriers)
+- [정보 장벽 모드 및 SharePoint](/sharepoint/information-barriers)
+
+## <a name="example-scenario-contosos-departments-segments-and-policies"></a>시나리오 예: Contoso의 부서, 세그먼트 및 정책
+
+조직에서 세그먼트 및 정책 정의에 어떻게 접근할 수 있을지 결정하기 위해 다음 예제 시나리오를 고려합니다.
 
 ### <a name="contosos-departments-and-plan"></a>Contoso 부서 및 계획
 

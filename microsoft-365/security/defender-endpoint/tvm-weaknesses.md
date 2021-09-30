@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 30e1229db1af93c74731678723b60d7d20640f9b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2d6831cfaec813f5ab2598087c2777d867a5f8a7
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213382"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009424"
 ---
 # <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>조직의 취약성 - 위협 및 취약성 관리
 
@@ -40,11 +40,11 @@ ms.locfileid: "59213382"
 
 취약점 **페이지에는** CVE(Common Vulnerabilities and Exposures) ID를 나열하여 장치가 노출하는 소프트웨어 취약점이 나열됩니다. 또한 심각도, CVSS(Common Vulnerability Scoring System) 등급, 조직의 보급, 해당 위반, 위협 정보 등도 볼 수 있습니다.
 
->[!NOTE]
->취약성에 공식 CVE-ID가 할당되지 않은 경우 취약성 이름은 에 의해 위협 및 취약성 관리.
+> [!NOTE]
+> 취약성에 공식 CVE-ID가 할당되지 않은 경우 취약성 이름은 에 의해 위협 및 취약성 관리.
 
->[!TIP]
->새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
+> [!TIP]
+> 새 취약성 이벤트에 대한 전자 메일을 얻습니다. [끝점용 Microsoft Defender에서 취약성](configure-vulnerability-email-notifications.md) 전자 메일 알림 구성을 참조하세요.
 
 ## <a name="navigate-to-the-weaknesses-page"></a>약점 페이지로 이동합니다.
 
@@ -76,13 +76,13 @@ ms.locfileid: "59213382"
 
 아이콘이 빨간색으로 표시될 때  위협 열에서 관련 위반 및 위협 정보를 볼 수 있습니다.
 
- >[!NOTE]
- > 항상 지속적인 위협과 관련된 권장 사항의 우선 순위를 지정합니다. 이러한 권장 사항은 위협 인사이트 아이콘 빨간색 버그의 ![ 간단한 그리기로 표시됩니다.](images/tvm_bug_icon.png) 및 위반 인사이트 아이콘 ![ 대상을 타격하는 화살표의 간단한 그리기입니다. ](images/tvm_alert_icon.png) .  
+ > [!NOTE]
+ > 항상 지속적인 위협과 관련된 권장 사항의 우선 순위를 지정합니다. 이러한 권장 사항은 위협 인사이트 아이콘 빨간색 버그의 ![ 간단한 그리기로 표시됩니다.](images/tvm_bug_icon.png) 및 위반 인사이트 아이콘 ![ 대상을 타격하는 화살표의 간단한 그리기입니다. ](images/tvm_alert_icon.png) .
 
 조직에 취약점이 발견된 경우 위반 정보 아이콘이 강조 표시됩니다.
 ![아이콘을 마우스로 찰 때 표시될 수 있는 위반 인사이트 텍스트의 예입니다. "가능한 활성 경고가 이 권장과 연결됩니다.](images/tvm-breach-insights.png)
 
-조직에서 발견된 취약점에 관련된 악용이 있는 경우 위협 정보 아이콘이 강조 표시됩니다. 아이콘 위에 마우스를 대면 위협이 악용 키트의 일부인지 또는 특정 고급 영구적 캠페인 또는 활동 그룹에 연결되어 있는지를 보여 주게 됩니다. 사용 가능한 경우 제로 데이 악용 뉴스, 공개 또는 관련 보안 권고가 있는 Threat Analytics 보고서에 대한 링크가 있습니다.  
+조직에서 발견된 취약점에 관련된 악용이 있는 경우 위협 정보 아이콘이 강조 표시됩니다. 아이콘 위에 마우스를 대면 위협이 악용 키트의 일부인지 또는 특정 고급 영구적 캠페인 또는 활동 그룹에 연결되어 있는지를 보여 주게 됩니다. 사용 가능한 경우 제로 데이 악용 뉴스, 공개 또는 관련 보안 권고가 있는 Threat Analytics 보고서에 대한 링크가 있습니다.
 
 ![아이콘을 마우스로 찰 때 표시될 수 있는 위협 정보 텍스트입니다. 글머리 기호와 연결된 텍스트가 여러 개 있습니다.](images/tvm-threat-insights.png)
 

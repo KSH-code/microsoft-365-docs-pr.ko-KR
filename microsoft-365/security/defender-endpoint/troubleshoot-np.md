@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 98477c3f9137c175a46f6e050041974ef6a2b8f1
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: f520d3ed090b878c2d3cd9294bc04ee8c375972e
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59497791"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60010156"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
@@ -115,19 +115,19 @@ ms.locfileid: "59497791"
 네트워크 보호가 실행되는 환경으로 인해 Microsoft는 운영 체제 프록시 설정을 볼 수 없습니다. 경우에 따라 네트워크 보호 클라이언트가 클라우드 서비스에 연결하지 못할 수 있습니다. 네트워크 보호와의 연결 문제를 해결하려면 네트워크 보호에서 프록시 구성을 인식하도록 다음 레지스트리 키 중 하나를 구성합니다.
 
 ```powershell
-reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
+Set-MpPreference -ProxyServer <proxy IP address: Port>
 ```
 
 ---OR---
 
 ```powershell
-reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
+Set-MpPreference -ProxyPacUrl <Proxy PAC url>
 ```
 
 PowerShell, 그룹 정책 또는 그룹 정책을 사용하여 Microsoft Endpoint Manager 수 있습니다. 다음은 도움이 되는 몇 가지 리소스입니다.
 
 - [레지스트리 키 작업](/powershell/scripting/samples/working-with-registry-keys)
-- [사용자 지정 클라이언트 설정 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
+- [Endpoint Protection에 대한 사용자 지정 클라이언트 설정 구성](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
 - [그룹 정책 설정을 사용하여 그룹 정책 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
 
 ## <a name="see-also"></a>참고 항목

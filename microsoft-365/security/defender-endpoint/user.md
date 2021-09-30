@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5a3ea32227f64fbf00563f2b48f99b0a21e5510e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e1dc8c9cb2ad868c0ef8a1265150abc5f2d1d8b8
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214725"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009472"
 ---
 # <a name="user-resource-type"></a>사용자 리소스 유형
 
@@ -37,8 +37,7 @@ ms.locfileid: "59214725"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
-방법|반환 형식 |설명
-:---|:---|:---
-[목록 사용자 관련 경고](get-user-related-alerts.md) | [경고](alerts.md) 컬렉션 |  사용자와 연결된 모든 경고를 [나열합니다.](user.md)
-[사용자 관련 장치 목록](get-user-related-machines.md) | [machine collection(컴퓨터](machine.md) 컬렉션) | 사용자가 로그온한 모든 장치를 [나열합니다.](user.md)
+방법|반환 형식|설명
+---|---|---
+[목록 사용자 관련 경고](get-user-related-alerts.md)|[경고](alerts.md) 컬렉션|사용자와 연결된 모든 경고를 [나열합니다.](user.md)
+[사용자 관련 장치 목록](get-user-related-machines.md)|[machine collection(컴퓨터](machine.md) 컬렉션)|사용자가 로그온한 모든 장치를 [나열합니다.](user.md)

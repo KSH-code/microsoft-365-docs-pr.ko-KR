@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d309f8851720578dfdd321efff862f15afd9bca8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 18243e1d8ad908572c0dccc4cd2a3bdfefa47d46
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192602"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009412"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>웹 위협으로부터 조직 보호
 
@@ -56,7 +56,7 @@ ms.locfileid: "59192602"
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다.
  
-2. 끝점 **보안 공격**  >  **표면 감소를 선택한** 다음 + 정책 만들기 **를 선택 합니다.**
+2. 끝점 **보안 공격** \> **표면 감소를 선택한** 다음 + 정책 만들기 **를 선택 합니다.**
 
 3. 플랫폼(예: Windows 10 **이상)을** 선택하고  웹 보호 프로필을 선택한 다음 만들기를 **선택합니다.** 
 

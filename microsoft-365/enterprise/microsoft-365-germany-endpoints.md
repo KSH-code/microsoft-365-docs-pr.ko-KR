@@ -3,7 +3,7 @@ title: Office 365 끝점
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 12/01/2020
+ms.date: 09/28/2021
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: 이 문서에서는 독일에서 서비스를 사용하는 고객이 Office 365 있습니다.
 hideEdit: true
-ms.openlocfilehash: f022c82c41aaeeed73af13572234e7826d878158
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 39ed851f6cf17a459e33bd5726371432b23ac530
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215875"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009520"
 ---
 # <a name="office-365-germany-endpoints"></a>Office 365 Germany 끝점
 
@@ -39,7 +39,7 @@ Office 365은 인터넷을 연결해야 합니다. 아래 끝점은 독일 요�
   
  **Office 365 끝점:** [전 세계(GCC 포함)](urls-and-ip-address-ranges.md)  | [21vianet에서 운영하는 Microsoft Office 365](urls-and-ip-address-ranges-21vianet.md)  | *Microsoft Office 365 Germany*  |  [Office 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) | [Office 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md)  |
   
-**Last updated:** 12/01/2020 - ![ RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/Germany?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)
+**Last updated:** 09/28/2021 - ![ RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/Germany?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 **다운로드:** 모든 필수 및 선택 대상을 [JSON 형식](https://endpoints.office.com/endpoints/Germany?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) 목록에 다운로드합니다.
 

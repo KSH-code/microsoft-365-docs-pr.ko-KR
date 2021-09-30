@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(인바운드 메시지)에서 인바운드 메시지를 허용하는 사용 가능한 옵션과 기본 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f76b34a439d2eaf2c8315d174483b0b30d3b3b0b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3fe1379db88d23a1a9b7555add1d54f6587fa573
+ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185572"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60009388"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 가능한 보낸 사람 목록 만들기
 
@@ -46,6 +46,8 @@ Microsoft 365 사서함이 있는 Microsoft 365 Exchange Online 고객 또는 Ex
 
 > [!IMPORTANT]
 >
+> - 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지는 사용하는 안전한 보낸 사람 목록 옵션에 관계없이 항상 차단됩니다.
+>
 > - 수신이 가능한  보낸 사람 목록을 사용하여 스팸 필터링에 대해 적용한 예외를 면밀하게 모니터링해야 합니다.
 >
 > - 안전한 보낸 사람 목록을 사용하여 가음성(나쁜 것으로 표시된 양호한 전자 메일)에 도움을 줄 수 있는 반면, 안전한 보낸 사람 목록을 가능한 경우 방지해야 하는 임시 솔루션으로 사용하는 것을 고려해야 합니다. 스팸 필터링의 예외로 조직이 스푸핑 및 기타 공격을 하게 될 수 있기 때문에 안전한 보낸 사람 목록을 사용하여 거짓 긍정을 관리하는 것은 권장되지 않습니다. 수신 가능한 보낸 사람 목록을 사용하여 가짓 긍정을 관리해야 하는 경우 신세를 하여 [Microsoft에](report-junk-email-messages-to-microsoft.md) 메시지 및 파일 보고 항목을 준비된 것으로 유지해야 합니다.
@@ -53,6 +55,8 @@ Microsoft 365 사서함이 있는 Microsoft 365 Exchange Online 고객 또는 Ex
 > - 도메인에서 스팸 방지 및 맬웨어 방지 검사를 우회하지는 않지만( 스푸핑 방지 보호를 우회) 전자 메일을 [](learn-about-spoof-intelligence.md) 보낼 수 있도록 허용하려면 스푸핑 인텔리전스 인사이트 및 테넌트 [허용/차단](tenant-allow-block-list.md)목록을 사용할 수 있습니다.
 >
 > - EOP 및 Outlook 다른 메시지 속성을 검사하여 메시지 보낸 사람 확인 자세한 내용은 이 [](#considerations-for-bulk-email) 문서 부분의 대량 전자 메일 고려 사항 섹션을 참조하세요.
+>
+
 
 반면에 차단된 보낸 사람 목록을 사용하여 특정 원본의 전자 메일을 차단하는 몇 가지 _옵션도 있습니다._ 자세한 내용은 [EOP에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
 
