@@ -58,8 +58,6 @@
           href: office-365-ti.md
         - name: Office 365 보안 사고 대응
           href: office365-security-incident-response-overview.md
-        - name: 보안 및 준수 센터의 메일 흐름 파악
-          href: mail-flow-insights-v2.md
         - name: '정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침'
           href: microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
     - name: 배포
@@ -170,10 +168,6 @@
               href: modify-remove-entries-tenant-allow-block.md
         - name: 메시지 추적
           href: message-trace-scc.md
-        - name: Microsoft에 메시지와 파일 보고
-          href: report-junk-email-messages-to-microsoft.md
-        - name: 보고서 메시지 및 보고서 피싱 추가 기능 사용
-          href: enable-the-report-message-add-in.md
         - name: 메일 흐름 규칙을 사용하여 실행 파일이 첨부된 메시지 차단
           href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-block-executable-attachments
         - name: 메일 흐름 규칙을 사용하여 대량 전자 메일 필터링
@@ -200,8 +194,6 @@
           href: ../../compliance/alert-policies.md
         - name: 보안 및 준수 센터의 똑똑한 보고서 및 분석
           href: reports-and-insights-in-security-and-compliance.md
-        - name: Outlook에서 가양성 및 가음성 보고
-          href: report-false-positives-and-false-negatives.md
         - name: 메일 흐름 규칙(전송 규칙)
           href: /exchange/security-and-compliance/mail-flow-rules/mail-flow-rules
         - name: 관리자 역할 그룹 보고 실행
@@ -216,48 +208,66 @@
           href: investigate-malicious-email-that-was-delivered.md
         - name: 자동화 조사 세부정보 및 결과 보기
           href: air-view-investigation-results.md
-        - name: Office 365용 Defender 보고서 보기
-          href: view-reports-for-mdo.md
-        - name: 전자 메일 보안 보고서 보기
-          href: view-email-security-reports.md
-        - name: 메일 흐름 보고서 보기
-          href: view-mail-flow-reports.md
         - name: 관리자 감사 로그 보기
           href: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
-        - name: 독립 실행형 EOP에서 보고 및 메시지 추적
-          href: reporting-and-message-trace-in-exchange-online-protection.md
-        - name: 자동 전달 메시지 인사이트
-          href: mfi-auto-forwarded-messages-report.md
         - name: 가장 인사이트
           href: impersonation-insight.md
-        - name: 메일 흐름 지도
-          href: mfi-mail-flow-map-report.md
-        - name: 수동으로 Microsoft에 메시지 제출
-          href: submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
-        - name: 전자 메일 인사이트가 전달되는 새 도메인
-          href: mfi-new-domains-being-forwarded-email.md
-        - name: 전자 메일을 전달하는 새 사용자
-          href: mfi-new-users-forwarding-email.md
-        - name: 비허용 도메인 보고서
-          href: mfi-non-accepted-domain-report.md
-        - name: 미전달 보고서
-          href: mfi-non-delivery-report.md
-        - name: 아웃바운드 및 인바운드 메일 흐름 인사이트
-          href: mfi-outbound-and-inbound-mail-flow.md
-        - name: SMTP 인증 클라이언트 인사이트 및 보고
-          href: mfi-smtp-auth-clients-report.md
         - name: 스푸핑 인텔리전스 인사이트
           href: learn-about-spoof-intelligence.md
-        - name: 맬웨어 및 비 맬웨어를 Microsoft에 제출
-          href: submitting-malware-and-non-malware-to-microsoft-for-analysis.md
-        - name: 최상위 도메인 메일 흐름 상태 정보
-          href: mfi-domain-mail-flow-status-insight.md
-        - name: 제출 관리
-          href: admin-submission.md
-        - name: 메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
-          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft
-        - name: 대기열 인사이트
-          href: mfi-queue-alerts-and-queues.md
+        - name: Office 365용 Defender 및 EOP 보고서
+          items:
+            - name: Office 365용 Defender 및 EOP 보고서
+              href: reporting-and-message-trace-in-exchange-online-protection.md
+            - name: 전자 메일 보안 보고서 보기
+              href: view-email-security-reports.md
+            - name: Office 365용 Defender 보고서 보기
+              href: view-reports-for-mdo.md
+            - name: 보안 및 준수 센터에서 메일 흐름 보고서 보기
+              href: view-mail-flow-reports.md
+        - name: 보안 및 준수 센터의 메일 흐름 파악
+          items:
+            - name: 보안 및 준수 센터의 메일 흐름 파악
+              href: mail-flow-insights-v2.md
+            - name: 자동 전달 메시지 인사이트
+              href: mfi-auto-forwarded-messages-report.md
+            - name: 발생할 수 있는 메일 루프 인사이트 수정
+              href: mfi-mail-loop-insight.md
+            - name: 느린 메일 흐름 규칙 인사이트 수정
+              href: mfi-slow-mail-flow-rules-insight.md
+            - name: 메일 흐름 지도
+              href: mfi-mail-flow-map-report.md
+            - name: 전자 메일 인사이트가 전달되는 새 도메인
+              href: mfi-new-domains-being-forwarded-email.md
+            - name: 전자 메일을 전달하는 새 사용자
+              href: mfi-new-users-forwarding-email.md
+            - name: 비허용 도메인 보고서
+              href: mfi-non-accepted-domain-report.md
+            - name: 미전달 보고서
+              href: mfi-non-delivery-report.md
+            - name: 아웃바운드 및 인바운드 메일 흐름 인사이트
+              href: mfi-outbound-and-inbound-mail-flow.md
+            - name: 대기열 인사이트
+              href: mfi-queue-alerts-and-queues.md
+            - name: SMTP 인증 클라이언트 인사이트 및 보고
+              href: mfi-smtp-auth-clients-report.md
+            - name: 최상위 도메인 메일 흐름 상태 정보
+              href: mfi-domain-mail-flow-status-insight.md
+        - name: Microsoft에 메시지와 파일 보고
+          items:
+            - name: Microsoft에 메시지와 파일 보고
+              href: report-junk-email-messages-to-microsoft.md
+            - name: 관리자 제출
+              href: admin-submission.md
+            - name: 보고서 메시지 및 보고서 피싱 추가 기능 사용
+              href: enable-the-report-message-add-in.md
+            - name: Outlook에서 가양성 및 가음성 보고
+              href: report-false-positives-and-false-negatives.md
+            - name: 수동으로 Microsoft에 메시지 제출
+              href: submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
+            - name: 메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
+              href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft
+            - name: 맬웨어 및 비 맬웨어를 Microsoft에 제출
+              href: submitting-malware-and-non-malware-to-microsoft-for-analysis.md
     - name: 응답
       items:
         - name: 손상된 사용자 계정을 신속하게 탐지 및 해결
@@ -282,10 +292,6 @@
           href: tuning-anti-phishing.md
         - name: 사용자로 격리된 메시지 찾기 및 릴리스
           href: find-and-release-quarantined-messages-as-a-user.md
-        - name: 발생할 수 있는 메일 루프 인사이트 수정
-          href: mfi-mail-loop-insight.md
-        - name: 느린 메일 흐름 규칙 인사이트 수정
-          href: mfi-slow-mail-flow-rules-insight.md
         - name: 관리자로 격리된 메시지 및 파일 관리
           href: manage-quarantined-messages-and-files.md
         - name: 격리 정책

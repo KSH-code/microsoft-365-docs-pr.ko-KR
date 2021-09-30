@@ -553,10 +553,10 @@
       items:
         - name: 보관 사서함 사용
           href: enable-archive-mailboxes.md
-        - name: 무제한 보관 개요
-          href: unlimited-archiving.md
-        - name: 무제한 보관 사용
-          href: enable-unlimited-archiving.md
+        - name: 자동 확장 보관 개요
+          href: autoexpanding-archiving.md
+        - name: 자동 확장 보관 사용
+          href: enable-autoexpanding-archiving.md
         - name: 사서함에 대한 보관 및 삭제 정책 설정
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
     - name: 비활성 사서함 관리

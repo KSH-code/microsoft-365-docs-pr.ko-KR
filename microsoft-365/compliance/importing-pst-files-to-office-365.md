@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
 description: Microsoft 365 규정 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: efb51aebcca5d724b8a1f8ecaabb6eeb5f31e8dd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: da5d795c2b2babb2f2ff89bb1cdd5531d4818b1b
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184067"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011275"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -92,7 +92,7 @@ ms.locfileid: "59184067"
 
 - Microsoft 365로 전자 메일 데이터를 가져와 다음을 통해 조직의 준수 요구 사항을 해결할 수 있습니다.
 
-  - [보관 사서함](enable-archive-mailboxes.md) 및 [무제한 보관](unlimited-archiving.md)을 사용하여 사용자에게 추가 사서함 저장 공간을 제공합니다.
+  - [보관 사서함](enable-archive-mailboxes.md) 및 [자동 확장 보관](autoexpanding-archiving.md)을 활성화하여 사용자에게 추가 사서함 저장 공간을 제공합니다.
 
   - [소송 증거 유지](./create-a-litigation-hold.md)에 사서함을 두어 내용을 보존합니다.
 

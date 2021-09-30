@@ -20,19 +20,19 @@ search.appverid:
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: 준수 센터를 사용하여 조직의 메시지 보존, eDiscovery 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 28af0de029deb2dc732f4e31f7f85f80db6bf081
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4d9e1dac62d13759b4d735a3243d4d9dd3edab57
+ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218942"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011443"
 ---
 # <a name="enable-archive-mailboxes-in-the-compliance-center"></a>준수 센터에서 보관 사서함 사용
 
 Microsoft 365(*내부 보관* 이라고도 함)의 보관은 사용자에게 추가 사서함 저장소 공간을 제공합니다. 보관 사서함을 설정하면 사용자가 웹의 Microsoft Outlook 및 Outlook(이전의 Outlook Web App)을 사용하여 보관 사서함에 메시지를 액세스하고 저장할 수 있습니다. 또한 사용자는 기본 사서함과 보관 사서함 간에 메시지를 이동하거나 복사할 수 있습니다. 또한 지운 편지함 복구 도구를 사용하여 보관 사서함의 복구 가능한 항목 폴더에서 삭제된 항목을 복구할 수 있습니다.
 
 > [!NOTE]
-> Microsoft 365의 자동 확장 보관 기능은 보관 사서함에 추가 저장소를 제공합니다. 자동 확장 보관 기능이 켜져 있고 사용자 보관 사서함의 초기 저장소 할당량에 도달하면 Microsoft 365가 자동으로 추가 저장 공간을 추가합니다. 즉, 사용자가 사서함 저장 공간을 모두 소모하지 않으므로 처음에 보관 사서함을 사용하도록 설정하고 조직의 자동 확장 보관을 설정한 후에는 아무 것도 관리할 필요가 없습니다. 자세한 내용은 [Microsoft 365 무제한 보관 개요](unlimited-archiving.md)를 참조하세요.
+> Microsoft 365의 자동 확장 보관 기능은 보관 사서함에 추가 저장소를 제공합니다. 자동 확장 보관 기능이 켜져 있고 사용자 보관 사서함의 초기 저장소 할당량에 도달하면 Microsoft 365가 자동으로 추가 저장 공간을 추가합니다. 즉, 사용자가 사서함 저장 공간을 모두 소모하지 않으므로 처음에 보관 사서함을 사용하도록 설정하고 조직의 자동 확장 보관을 설정한 후에는 아무 것도 관리할 필요가 없습니다. 자세한 내용은 [자동 확장 보관 개요](autoexpanding-archiving.md)를 참조하세요.
 
 ## <a name="get-the-necessary-permissions"></a>필요한 사용 권한 얻기
 
