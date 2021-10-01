@@ -17,12 +17,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3a336e1b8c8fe9c8a15925a3c28d7861c6e4bb10
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: b73fe25f7ff8ce6ef43c34cdfa2b8806f48f66e4
+ms.sourcegitcommit: e686e64e846c26a9f4def7c145cbb140e6427076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776551"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60069092"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -71,22 +71,22 @@ ms.locfileid: "59776551"
 
 |규칙 이름 | Intune | Microsoft Endpoint Manager |Microsoft Endpoint Configuration Manager |그룹 정책 <sup> [[1]](#fn1)<sup></sup> | PowerShell <sup> [[1](#fn1)]<sup></sup>  |
 |---|:---:|:---:|:---:|:---:|:---:|
-|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers) | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |  ![지원](images/checkmark.png) <br><br> MEM OMA-URI |   | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |  ![지원](images/checkmark.png) <br><br> |
-|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) <br><br> CB 1710 | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem) | ![지원되지 않습니다.](images/checkmark.png)  |   |  ![지원](images/checkmark.png) <br><br> CB 1802 | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail) | ![지원되지 않습니다.](images/checkmark.png) |  | ![지원](images/checkmark.png) <br><br> CB 1710 | ![지원](images/checkmark.png) | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) <br><br> CB 1802 |  ![지원되지 않습니다.](images/checkmark.png) <br><br> |  ![지원되지 않습니다.](images/checkmark.png) <br><br> |
-|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts) | ![지원되지 않습니다.](images/checkmark.png) |   |  ![지원](images/checkmark.png)  <br><br> CB 1710 | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) | ![지원되지 않습니다.](images/checkmark.png) |   |  ![지원](images/checkmark.png) <br><br> CB 1710 | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content) | ![지원되지 않습니다.](images/checkmark.png) <br><br> |  | ![지원](images/checkmark.png) <br><br> CB 1710 <br><br> | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes) | ![지원되지 않습니다.](images/checkmark.png) |  |  ![지원](images/checkmark.png) <br><br> CB 1710 | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes) | ![지원되지 않습니다.](images/checkmark.png) |  | ![지원](images/checkmark.png) <br><br>  CB 1710 | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription) |  |  |  |![지원되지 않습니다.](images/checkmark.png) <br><br>   | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands) | ![지원](images/checkmark.png) |   |   |  ![지원되지 않습니다.](images/checkmark.png) <br><br> | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) <br><br> CB 1802 <br><br> | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
-|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros) | ![지원되지 않습니다.](images/checkmark.png) |   | ![지원](images/checkmark.png) <br><br> CB 1710 <br><br> | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |  ![지원되지 않습니다.](images/checkmark.png) <br><br> |
-|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware) | ![지원되지 않습니다.](images/checkmark.png) |   |  ![지원](images/checkmark.png) <br><br>  CB 1802 | ![지원되지 않습니다.](images/checkmark.png) <br><br>  | ![지원되지 않습니다.](images/checkmark.png) <br><br>  |
+|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers) | Y  | Y MEM OMA-URI |   | Y  |  [지원](images/checkmark.png) <br><br> |
+|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes) | Y |   | Y | Y  | Y  |
+|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes) | Y |   |Y <br><br> CB 1710 | Y  | Y  |
+|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem) | Y  |   | Y <br><br>CB 1802 | Y  | Y  |
+|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail) | Y |  |Y <br><br> CB 1710 | Y | Y  |
+|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion) | Y |   | Y <br><br> CB 1802 |  Y |  Y |
+|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts) | Y |   |  Y  <br><br> CB 1710 | Y  | Y  |
+|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) | Y |   | Y <br><br> CB 1710 | Y  | Y  |
+|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content) | Y |  |Y <br><br> CB 1710 | Y  | Y  |
+|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes) | Y |  | Y <br><br> CB 1710 | Y  | Y  |
+|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes) | Y |  |Y <br><br> CB 1710 | Y  | Y  |
+|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription) |  |  |  |Y   | Y  |
+|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands) | Y |   |   |  Y | Y  |
+|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb) | Y |   |Y <br><br> CB 1802  | Y  | Y  |
+|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros) | Y |   | Y <br><br> CB 1710  | Y  |  Y |
+|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware) | Y |   | Y <br><br> CB 1802 | Y  | Y  |
 
   (<a id="fn1">1)</a>규칙의 GUID를 사용하여 규칙에 따라 공격 표면 감소 규칙을 구성할 수 있습니다.
 
@@ -119,6 +119,10 @@ GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
 Advanced hunting action type:
 -->
 
+<!-- 
+Dependencies:
+-->
+
 ### <a name="block-adobe-reader-from-creating-child-processes"></a>Adobe Reader에서 하위 프로세스를 만들지 차단
 
 이 규칙은 Adobe Reader가 프로세스를 만들지 못하게 차단하여 공격을 방지합니다.
@@ -136,6 +140,8 @@ GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`
 - AsrAdobeReaderChildProcessAudited
 - AsrAdobeReaderChildProcessBlocked
 
+종속성: MDAV
+
 ### <a name="block-all-office-applications-from-creating-child-processes"></a>모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단
 
 이 규칙은 Office 프로세스 만들기를 차단합니다. Office 앱에는 Word, Excel, PowerPoint, OneNote 및 Access가 포함됩니다.
@@ -152,6 +158,8 @@ GUID: `d4f940ab-401b-4efc-aadc-ad5f3c50688a`
 
 - AsrOfficeChildProcessAudited
 - AsrOfficeChildProcessBlocked
+
+종속성: MDAV
 
 ### <a name="block-credential-stealing-from-the-windows-local-security-authority-subsystem"></a>로컬 보안 기관 하위 Windows 자격 증명 도용 차단
 
@@ -173,6 +181,8 @@ GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`
 - AsrLsassCredentialTheftAudited
 - AsrLsassCredentialTheftBlocked
 
+종속성: MDAV
+
 ### <a name="block-executable-content-from-email-client-and-webmail"></a>전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단
 
 이 규칙은 Microsoft Outlook 응용 프로그램 또는 Outlook.com 및 기타 인기 있는 웹 메일 공급자에서 연 전자 메일에서 다음 파일 형식이 시작되지 Outlook 차단합니다.
@@ -190,6 +200,8 @@ GUID: `be9ba2d9-53ea-4cdc-84e5-9b1eeee46550`
 
 - AsrExecutableEmailContentAudited
 - AsrExecutableEmailContentBlocked
+
+종속성: MDAV
 
 > [!NOTE]
 > 전자 **메일 클라이언트 및 웹** 메일에서 실행 가능한 콘텐츠 차단 규칙에는 사용하는 응용 프로그램에 따라 다음과 같은 대체 설명이 있습니다.
@@ -226,6 +238,8 @@ GUID: `01443614-cd74-433a-b99e-2ecdc07bfc25`
 - AsrUntrustedExecutableAudited
 - AsrUntrustedExecutableBlocked
 
+종속성: MDAV, 클라우드 보호
+
 ### <a name="block-execution-of-potentially-obfuscated-scripts"></a>잠재적으로 난치될 수 있는 스크립트의 실행 차단
 
 이 규칙은 난처한 스크립트 내에서 의심스러운 속성을 검색합니다.
@@ -242,6 +256,8 @@ GUID: `5beb7efe-fd9a-4556-801d-275e5ffc04cc`
 
 - AsrObfuscatedScriptAudited
 - AsrObfuscatedScriptBlocked
+
+종속성: MDAV, AMSI
 
 ### <a name="block-javascript-or-vbscript-from-launching-downloaded-executable-content"></a>JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단
 
@@ -260,6 +276,8 @@ GUID: `d3e037e1-3eb8-44c8-a917-57927947596d`
 - AsrScriptExecutableDownloadAudited
 - AsrScriptExecutableDownloadBlocked
 
+종속성: MDAV, AMSI
+
 ### <a name="block-office-applications-from-creating-executable-content"></a>응용 Office 콘텐츠 만들기 차단
 
 이 규칙은 word, Excel 및 PowerPoint 등의 Office 앱이 악성 코드가 디스크에 기록되지 않도록 차단하여 잠재적으로 악의적인 실행 콘텐츠를 만들지 못하게 합니다.
@@ -276,6 +294,8 @@ GUID: `3b576869-a4ec-4529-8536-b80a7769e899`
 
 - AsrExecutableOfficeContentAudited
 - AsrExecutableOfficeContentBlocked
+
+종속성: MDAV, RPC
 
 ### <a name="block-office-applications-from-injecting-code-into-other-processes"></a>응용 Office 코드 삽입 차단
 
@@ -298,6 +318,8 @@ GUID: `75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84`
 - AsrOfficeProcessInjectionAudited
 - AsrOfficeProcessInjectionBlocked
 
+종속성: MDAV
+
 ### <a name="block-office-communication-application-from-creating-child-processes"></a>통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단
 
 이 규칙은 Outlook 자식 프로세스를 만들지 못하게 하지만 합법적인 Outlook 합니다.
@@ -317,6 +339,8 @@ GUID: `26190899-1602-49e8-8b27-eb1d0a1ce869`
 
 - AsrOfficeCommAppChildProcessAudited
 - AsrOfficeCommAppChildProcessBlocked
+
+종속성: MDAV
 
 ### <a name="block-persistence-through-wmi-event-subscription"></a>WMI 이벤트 구독을 통한 지속성 차단
 
@@ -338,6 +362,8 @@ GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 - AsrPersistenceThroughWmiAudited
 - AsrPersistenceThroughWmiBlocked
 
+종속성: MDAV, RPC
+
 ### <a name="block-process-creations-originating-from-psexec-and-wmi-commands"></a>PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단
 
 이 규칙은 [PsExec](/sysinternals/downloads/psexec) 및 [WMI를](/windows/win32/wmisdk/about-wmi) 통해 만든 프로세스의 실행을 차단합니다. PsExec과 WMI 모두 코드를 원격으로 실행할 수 있으므로 맬웨어가 명령 및 제어 목적으로 이 기능을 남용하거나 조직의 네트워크 전체에 감염을 전파할 위험이 있습니다.
@@ -356,6 +382,8 @@ GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`
 - AsrPsexecWmiChildProcessAudited
 - AsrPsexecWmiChildProcessBlocked
 
+종속성: MDAV
+
 ### <a name="block-untrusted-and-unsigned-processes-that-run-from-usb"></a>USB에서 실행된 무단 및 사인되지 않은 프로세스 차단
 
 이 규칙을 사용하여 관리자는 SD 카드를 포함하여 USB 이동식 드라이브에서 사인되지 않은 실행 파일 또는 트러블된 실행 파일을 실행하지 못하게 할 수 있습니다. 차단된 파일 형식에는 실행 파일(예: .exe, .dll 또는 .scr)이 포함됩니다.
@@ -370,6 +398,8 @@ GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`
 
 - AsrUntrustedUsbProcessAudited
 - AsrUntrustedUsbProcessBlocked
+
+종속성: MDAV
 
 ### <a name="block-win32-api-calls-from-office-macros"></a>매크로에서 Win32 API Office 차단
 
@@ -395,6 +425,8 @@ GUID: `92e97fa1-2edf-4476-bdd6-9dd0b4dddc7b`
 - AsrOfficeMacroWin32ApiCallsAudited
 - AsrOfficeMacroWin32ApiCallsBlocked
 
+종속성: MDAV, AMSI
+
 ### <a name="use-advanced-protection-against-ransomware"></a>랜섬웨어에 대한 고급 보호 사용
 
 이 규칙은 랜섬웨어에 대한 추가 보호 계층을 제공합니다. 클라이언트와 클라우드추론을 모두 사용하여 파일이 랜섬웨어와 같은지 여부를 판단합니다. 이 규칙은 다음 특성 중 하나 이상이 있는 파일을 차단하지 않습니다.
@@ -418,3 +450,5 @@ GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
 - AsrRansomwareAudited
 - AsrRansomwareBlocked
+
+종속성: MDAV, 클라우드 보호

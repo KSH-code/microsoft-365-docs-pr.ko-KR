@@ -14,17 +14,17 @@ localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: d589a196f261d817cff3717cab613658c1533417
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: cdfe95466eeb9151fac1047850a32f5e657f4c94
+ms.sourcegitcommit: e686e64e846c26a9f4def7c145cbb140e6427076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59489544"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60069104"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1에 대한 Microsoft Defender 관리(미리 보기)
 
 > [!TIP]
-> 아직 Microsoft 365 E3 없는 Microsoft 365 E5 미리 보기 프로그램에 [https://aka.ms/mdep1trial](https://aka.ms/mdep1trial) 등록하세요!
+> If you have Microsoft 365 E3 or A3 but not Microsoft 365 E5 or A5, visit [https://aka.ms/mdep1trial](https://aka.ms/mdep1trial) to sign up for the preview program!
 
 조직에서 끝점 계획 1(미리 보기)에 Defender를 사용할 때 보안 팀은 보안 솔루션을 유지 관리하기 위한 특정 단계를 취할 수 있습니다. 보안 팀에서 유지 관리 및 운영 계획을 수립할 때 최소한 다음 활동을 포함해야 합니다.
 

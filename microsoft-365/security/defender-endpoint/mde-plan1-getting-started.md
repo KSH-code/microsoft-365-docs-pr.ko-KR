@@ -7,24 +7,24 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.date: 09/13/2021
+ms.date: 10/01/2021
 ms.prod: m365-security
 ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 7083ebea0a43c997f9ad3942523033dc38e4c0ba
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: e9caad6640b0c70382852c548d4b78b9fa95d450
+ms.sourcegitcommit: e686e64e846c26a9f4def7c145cbb140e6427076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491364"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60069140"
 ---
 # <a name="get-started-with-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 시작(미리 보기)
 
 > [!TIP]
-> 아직 Microsoft 365 E3 없는 Microsoft 365 E5 미리 보기 프로그램에 [https://aka.ms/mdep1trial](https://aka.ms/mdep1trial) 등록하세요!
+> If you have Microsoft 365 E3 or A3 but not Microsoft 365 E5 or A5, visit [https://aka.ms/mdep1trial](https://aka.ms/mdep1trial) to sign up for the preview program!
 
 Microsoft 365 Defender 포털()을 사용하면 감지된 위협에 대한 정보를 보고, 경고 및 인시던트를 관리하고, 감지된 위협에 대해 필요한 조치를 취하고, 장치를 관리할 [https://security.microsoft.com](https://security.microsoft.com) 수 있습니다. Microsoft 365 Defender 포털에서는 Endpoint Plan 1(미리 보기)에 대해 얻게 된 위협 방지 기능과 상호 작용을 시작할 수 있습니다. 다음 섹션에서는 시작하는 방법을 설명합니다.
 

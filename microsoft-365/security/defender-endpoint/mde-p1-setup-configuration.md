@@ -7,24 +7,24 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.date: 09/13/2021
+ms.date: 10/01/2021
 ms.prod: m365-security
 ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 53d8742b411c500705434fcef181793df591eb19
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: b0b11d43b0736224a26c2863afa6de6be31e4a63
+ms.sourcegitcommit: e686e64e846c26a9f4def7c145cbb140e6427076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59490970"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60069128"
 ---
 # <a name="set-up-and-configure-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1에 대한 Microsoft Defender 설정 및 구성(미리 보기)
 
 > [!TIP]
-> 아직 Microsoft 365 E3 없는 Microsoft 365 E5 미리 보기 프로그램에 [https://aka.ms/mdep1trial](https://aka.ms/mdep1trial) 등록하세요!
+> If you have Microsoft 365 E3 or A3 but not Microsoft 365 E5 or A5, visit [https://aka.ms/mdep1trial](https://aka.ms/mdep1trial) to sign up for the preview program!
 
 이 문서에서는 끝점 계획 1(미리 보기)에 대한 Defender를 설정하고 구성하는 방법을 설명합니다. 지원이 있는 경우 또는 직접 수행하고 있는 경우 이 문서를 배포 전반에 대한 가이드로 사용할 수 있습니다.  
 
@@ -54,7 +54,7 @@ Endpoint Plan 1(미리 보기)에 대한 일반적인 설치 및 구성 프로�
 
 | 요구 사항 | 설명 |
 |:---|:---|
-| 라이선스 요구사항 | 엔드포인드용 Defender 플랜 1(미리 보기) <br/><br/>*미리 보기 Microsoft 365 E3 미리 보기 프로그램에 참가할 수 있습니다.* |
+| 라이선스 요구사항 | 엔드포인드용 Defender 플랜 1(미리 보기) <br/><br/>*If you have Microsoft 365 E3 or A3, you can join the preview program.* |
 | 브라우저 요구 사항 | Microsoft Edge <br/> Internet Explorer 버전 11 <br/> Google Chrome |
 | 운영 체제 | Windows 10 버전 1709 이상 <br/>macOS: 11.5(큰 수르), 10.15.7(카탈로니아) 또는 10.14.6(모자베) <br/>iOS <br/>Android OS  |
 | Datacenter | 다음 데이터 센터 위치 중 하나: <br/>- 유럽 연합 <br/>- 영국 <br/>- 미국 |
@@ -120,7 +120,7 @@ Microsoft 365 Defender 포털에 액세스하거나 끝점에 대한 Defender �
 
 |끝점 운영 체제 | 온보더링 방법|
 |---|---|
-| Windows 10 | [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)  |
+| Windows 10 | [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)  |
 | macOS | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
 | iOS |[앱 기반](ios-install.md) |
 | Android | [Microsoft Endpoint Manager ](android-intune.md) |

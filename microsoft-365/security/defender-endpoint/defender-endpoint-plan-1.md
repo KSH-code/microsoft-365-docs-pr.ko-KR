@@ -7,24 +7,24 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.date: 09/13/2021
+ms.date: 10/01/2021
 ms.prod: m365-security
 ms.technology: mdep1
 localization_priority: Normal
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 2ae91e32be7d010e5b8014ba2dde47f302d0c474
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 5edc3db69c8c1f0f6f0a5f79a0838d2b054c9e91
+ms.sourcegitcommit: e686e64e846c26a9f4def7c145cbb140e6427076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491388"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60069116"
 ---
 # <a name="overview-of-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 개요(미리 보기)
 
 > [!TIP]
-> 아직 Microsoft 365 E3 없는 Microsoft 365 E5 미리 보기 프로그램에 [https://aka.ms/mdep1trial](https://aka.ms/mdep1trial) 등록하세요!
+> If you have Microsoft 365 E3 or A3 but not Microsoft 365 E5 or A5, visit [https://aka.ms/mdep1trial](https://aka.ms/mdep1trial) to sign up for the preview program!
 
 끝점용 Microsoft Defender는 사용자와 같은 조직이 고급 위협을 방지, 탐지, 조사 및 대응할 수 있도록 설계된 엔터프라이즈 끝점 보안 플랫폼입니다. 이제 두 가지 계획으로 끝점용 Defender를 사용할 수 있습니다. 
 
