@@ -23,12 +23,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 09/23/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: c65860eca559b1871f4f22a14a0bf179f06f3f9b
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 18722989f99c8bb5ccb9b6dfc9762ea570033511
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776863"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042990"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -89,6 +89,7 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 > 다음 절차는 다음 버전의 런타임 버전을 실행하는 끝점 또는 장치에만 Windows.
 >
 > - Windows Server 2019
+> - Windows Server 2022
 > - Windows 서버, 버전 1803(핵심 전용 모드)
 > - Windows Server 2016 (다음 섹션, 현재 사용 [중입니까?](#are-you-using-windows-server-2016)Windows Server 2016 참조).
 
@@ -101,7 +102,7 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
    Dism /online /Enable-Feature /FeatureName:Windows-Defender-Features
    Dism /online /Enable-Feature /FeatureName:Windows-Defender
    Dism /online /Enable-Feature /FeatureName:Windows-Defender-Gui
-   # For Windows Server 2019
+   # For Windows Server 2019 and Windows Server 2022
    Dism /online /Enable-Feature /FeatureName:Windows-Defender
    ```
    그런 다음 장치를 다시 시작합니다. 
@@ -160,7 +161,7 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 > [!TIP]
 > [자세한 내용은 Microsoft Defender 바이러스 백신 을(를) 자세히 알아보아야 합니다.](microsoft-defender-antivirus-compatibility.md#more-details-about-microsoft-defender-antivirus-states)
 
-## <a name="configure-defender-for-endpoint"></a>끝점에 대한 Defender 구성
+## <a name="configure-defender-for-endpoint"></a>엔드포인트용 Defender 구성
 
 마이그레이션 프로세스의 이 단계에서는 끝점에 대한 Microsoft Defender 바이러스 백신 구성합니다. Intune을 사용하는 것이 좋습니다. 그러나 다음 표에 나열된 모든 메서드를 사용할 수 있습니다.
 
@@ -189,8 +190,9 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 
 |OS|제외|
 |---|---|
-|Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 이상(릴리스 정보 Windows 10 [참조)](/windows/release-health/release-information) <br/><br/> Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <br/><br/> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019) <br/><br/> [Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803)|`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe` <br/><br/> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe` <br/><br/> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe` <br/><br/> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`|
-|[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <br/><br/> [Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) <br/><br/> [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <br/><br/> [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <br/><br/> [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)|`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe` <br/><br/> **참고:** 호스트 임시 파일 6\45 모니터링은 번호가 매기기된 하위 폴더가 다를 수 있습니다. <br/><br/> `C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe` <br/><br/> `C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe` <br/><br/> `C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe` <br/><br/> `C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe` <br/><br/> `C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe` <br/><br/> `C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe`|
+|Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 이상(릴리스 정보 Windows 10 [참조)](/windows/release-health/release-information) <p> Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <p> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019), Windows Server 2022 <p> [Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803)|`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`|
+|[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) <p> [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p> [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)|`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe` <p> **참고:** 호스트 임시 파일 6\45 모니터링은 번호가 매기기된 하위 폴더가 다를 수 있습니다. <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe`|
+
 
 ## <a name="add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus"></a>기존 솔루션을 기존 솔루션의 제외 목록에 Microsoft Defender 바이러스 백신
 

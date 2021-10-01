@@ -17,12 +17,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 09/14/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ed1e5af0c5e49dfaedcd433c8bec9da29ec3f871
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: d77f5885f4c2e957a598c37fd75a6813f2b37dd1
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776059"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043314"
 ---
 # <a name="microsoft-defender-antivirus-compatibility-with-other-security-products"></a>Microsoft Defender 바이러스 백신 제품과의 호환성
 
@@ -38,6 +38,7 @@ Microsoft Defender 바이러스 백신 다음 버전의 응용 프로그램을 �
 - Windows Server 2016
 - Windows 서버, 버전 1803 이상
 - Windows Server 2019
+- Windows Server 2022
 
 Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션이 사용될 경우 어떻게 하나요? 다른 바이러스 백신 Microsoft Defender 바이러스 백신 함께 실행할 수 있나요? 답변은 운영 체제와 바이러스 백신 보호와 함께 [끝점용 Microsoft Defender(Endpoint용 Defender)를](microsoft-defender-endpoint.md) 사용하는지 여부와 같은 몇 가지 요인에 따라 결정됩니다.
 
@@ -51,10 +52,11 @@ Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션이 사
 
 |Windows 버전|기본 바이러스 백신/맬웨어 방지 솔루션|Microsoft Defender 바이러스 백신 상태|
 |---|---|---|---|
-|Windows 10|Microsoft Defender 바이러스 백신|활성 모드|
-|Windows 10|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|비활성화 모드(자동으로 발생)|
-|Windows Server 2016 <br/><br/> Windows 서버, 버전 1803 이상 <br/><br/> Windows Server 2019|Microsoft Defender 바이러스 백신|활성 모드|
-|Windows Server 2016 <br/><br/> Windows 서버, 버전 1803 이상 <br/><br/> Windows Server 2019|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|사용 안 하게(수동으로 설정) <sup>[[1](#fn1)]</sup>|
+|Windows 10|Microsoft Defender 바이러스 백신|활성 모드|
+|Windows 10|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|비활성화 모드(자동으로 발생)|
+|Windows Server 2016 <p> Windows 서버, 버전 1803 이상 <p> Windows Server 2019 또는 Windows Server 2022|Microsoft Defender 바이러스 백신|활성 모드|
+|Windows Server 2016 <p> Windows 서버, 버전 1803 이상 <p> Windows Server 2019 또는 Windows Server 2022|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|사용 안 하게(수동으로 설정) <sup>[[1](#fn1)]</sup>|
+
 
 (<a id="fn1">1)</a>Windows Server에서 Microsoft가 아닌 바이러스 백신 제품을 실행하는 경우 그룹 정책을 사용하여 Microsoft Defender 바이러스 백신 해제하거나 [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키를 사용하여 Microsoft Defender 바이러스 백신 사용하지 않도록 설정할 수 있습니다. 레지스트리 키를 사용 하 고 로 이동 하 고 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` 이라는 DWORD 항목을 설정하거나 만들 수 `DisableAntiSpyware` 있습니다. 해당 값을 로 설정하고(레지스트리 키의 값을 true로 설정) 기준에 대해 `1` **16진수** 를 선택합니다. 
 
@@ -71,11 +73,11 @@ Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션이 사
 |---|---|---|---|
 |Windows 10 이상|Microsoft Defender 바이러스 백신|활성 모드|
 |Windows 10 이상|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|수동 모드(자동으로 발생)|
-|Windows Server 2016 <br/><br/> Windows 서버, 버전 1803 이상 <br/><br/> Windows Server 2019|Microsoft Defender 바이러스 백신|활성 모드|
-|Windows 서버, 버전 1803 이상 <br/><br/> Windows Server 2019|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|수동 모드(수동으로 설정) <sup> [[2](#fn2)]<sup></sup>|
+|Windows Server 2016 <p> Windows 서버, 버전 1803 이상 <p> Windows Server 2019 또는 Windows Server 2022|Microsoft Defender 바이러스 백신|활성 모드|
+|Windows 서버, 버전 1803 이상 <p> Windows Server 2019 또는 Windows Server 2022|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|수동 모드(수동으로 설정) <sup> [[2](#fn2)]<sup></sup>|
 |Windows Server 2016|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|사용 안 하게(수동으로 설정) <sup>[[3](#fn3)]</sup>|
 
-(<a id="fn2">2)</a>Windows Server, 버전 1803 이상 또는 Windows Server 2019에서 Microsoft가 아닌 바이러스 백신 제품을 설치할 때 Microsoft Defender 바이러스 백신 수동 모드로 설정하세요. **ForceDefenderPassiveMode** 레지스트리 키를 사용하여 이 작업을 수행할 수 있습니다. 레지스트리 키를 사용 하 고 로 이동 하 고 `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` 이라는 DWORD 항목을 설정하거나 만들 수 `ForceDefenderPassiveMode` 있습니다. 해당 값을 로 설정하고(레지스트리 키의 값을 true로 설정) 기준에 대해 `1` **16진수** 를 선택합니다.  자세한 내용은 수동 모드 및 서버 Windows [참조하세요.](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server)
+(<a id="fn2">2)</a>Windows Server, 버전 1803 이상 또는 Windows Server 2019 또는 Windows Server 2022에서 Microsoft가 아닌 바이러스 백신 제품을 설치할 때 Microsoft Defender 바이러스 백신 수동 모드로 설정하십시오. **ForceDefenderPassiveMode** 레지스트리 키를 사용하여 이 작업을 수행할 수 있습니다. 레지스트리 키를 사용 하 고 로 이동 하 고 `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` 이라는 DWORD 항목을 설정하거나 만들 수 `ForceDefenderPassiveMode` 있습니다. 해당 값을 로 설정하고(레지스트리 키의 값을 true로 설정) 기준에 대해 `1` **16진수** 를 선택합니다.  자세한 내용은 수동 모드 및 서버 Windows [참조하세요.](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server)
 
 (<a id="fn3">3</a>) Windows Server 2016 그룹 정책을 사용하여 Microsoft Defender 바이러스 백신 해제하거나 [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키를 사용하여 Windows Defender 바이러스 백신 비활성화할 수 있습니다. 레지스트리 키를 사용 하 고 로 이동 하 고 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` 이라는 DWORD 항목을 설정하거나 만들 수 `DisableAntiSpyware` 있습니다. 해당 값을 로 설정하고(레지스트리 키의 값을 true로 설정) 기준에 대해 `1` **16진수** 를 선택합니다. 
 
@@ -92,7 +94,7 @@ Endpoint용 Defender에는 끝점에 설치된 바이러스 백신 보호를 추
 
 수동 Microsoft Defender 바이러스 백신 실행하려면 끝점이 다음 요구 사항을 충족해야 합니다.
 
-- 운영 체제: Windows 10 이상 Windows 서버, 버전 1803 이상 또는 Windows Server 2019
+- 운영 체제: Windows 10 이상 Windows 서버, 버전 1803 이상 또는 Windows Server 2019 또는 Windows Server 2022
 - Microsoft Defender 바이러스 백신 설치해야 합니다.
 - 다른 비 Microsoft 바이러스 백신/맬웨어 방지 제품을 설치하고 기본 바이러스 백신 솔루션으로 사용해야 합니다.
 - 끝점은 Endpoint용 Defender에 온보딩되어야 합니다.

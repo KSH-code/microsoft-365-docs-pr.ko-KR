@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 2d2ea7c85badc5fbd8b9ed2939cefbb42fd276e6
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: ce17ef1f76b7311dc9e0c10bcde1554954b6639d
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011311"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043026"
 ---
 # <a name="communication-compliance-feature-reference"></a>커뮤니케이션 규정 준수 기능 참조
 
@@ -387,8 +387,8 @@ OCR을 사용하는 정책에 대해 보류 중인 경고를 검토할 때 식�
 |**경고 정책 트리거**|**기본값**.|
 |:-----|:-----|
 | 집계 | 단순 집계 |
-| 임계값 | 최소: 4개 활동 <br> 최대: 2,147,483,647개 활동 |
-| 창 | 최소: 60분 <br> 최대값: 10,000분 |
+| 임계값 | 기본값: 4개 활동 <br> 최소: 3개 활동 <br> 최대: 2,147,483,647개 활동 |
+| 창 | 기본값: 60분 <br> 최소: 60분 <br> 최대값: 10,000분 |
 
 > [!NOTE]
 > 활동에 대한 경고 정책 임계값 트리거 설정은 통신 준수 정책에 대해 최소값 3 이상을 지원합니다.

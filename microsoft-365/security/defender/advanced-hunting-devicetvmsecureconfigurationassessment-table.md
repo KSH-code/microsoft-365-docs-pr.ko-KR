@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2e3e649911cb2ce63c2a49be0ebc93e35e8055d6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ae7dac229aba0d5c4cbfc32782fe1a4ad5613c8f
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165666"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043290"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -46,7 +46,7 @@ ms.locfileid: "59165666"
 |-------------|-----------|-------------|
 | `DeviceId` | 문자열 | 서비스에서 디바이스의 고유 식별자 |
 | `DeviceName` | 문자열 | 장치의 FQDN(FQDN) |
-| `OSPlatform` | 문자열 | 디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다.|
+| `OSPlatform` | 문자열 | 디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 11, Windows, Windows 10 및 Windows 7과 같은 특정 운영 체제를 나타냅니다.|
 | `Timestamp` | 날짜 시간 | 레코드 생성 날짜 및 시간 |
 | `ConfigurationId` | 문자열 | 특정 구성의 고유 식별자 |
 | `ConfigurationCategory` | 문자열 | 구성이 속해 있는 범주 또는 그룹(응용 프로그램, OS, 네트워크, 계정, 보안 제어) |

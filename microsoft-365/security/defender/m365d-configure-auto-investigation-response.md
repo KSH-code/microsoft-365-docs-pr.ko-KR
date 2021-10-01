@@ -16,12 +16,12 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
-ms.openlocfilehash: 84107a54c47c3bfe68cd7740e1e06ff40b11957a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 44396836796b848a3717943c5adc75145f5f6bed
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214522"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043170"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동 조사 및 응답 기능 구성
 
@@ -48,7 +48,7 @@ Microsoft 365 Defender 보안 운영 [](m365d-autoir.md) 팀에 많은 시간과
 |---|---|
 |구독 요구 사항|다음 구독 중 하나: <ul><li>Microsoft 365 E5</li><li>Microsoft 365 A5</li><li>Microsoft 365 E3 추가 Microsoft 365 E5 Security 있는 경우</li><li>Microsoft 365 A3 보안 추가 Microsoft 365 A5 사용</li><li>Office 365 E5 E5 및 Enterprise Mobility + Security E5를 더한 Windows 추가</li></ul> <p> 라이선스 [Microsoft 365 Defender 참조하세요.](./prerequisites.md#licensing-requirements)|
 |네트워크 요구 사항|<ul><li>[Id에 대한 Microsoft Defender 사용](/azure-advanced-threat-protection/what-is-atp)</li><li>[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) 구성</li><li>[Microsoft Defender for Identity 통합](/cloud-app-security/mdi-integration)</li></ul>|
-|Windows 컴퓨터 요구 사항|<ul><li>Windows 10 버전 1709 이상이 설치되어 있습니다(릴리스 정보 Windows 10 [참조).](/windows/release-information/)</li><li>구성된 위협 방지 서비스는 다음과 같습니다.<ul><li>[엔드포인트용 Microsoft Defender](../defender-endpoint/configure-endpoints.md) </li><li>[Windows Defender 바이러스 백신](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)</li></ul></li></ul>|
+|Windows 요구 사항|<ul><li>Windows 11</li><li>Windows 10 버전 1709 이상이 설치되어 있습니다(릴리스 정보 Windows [참조).](/windows/release-information/)</li><li>구성된 위협 방지 서비스는 다음과 같습니다.<ul><li>[엔드포인트용 Microsoft Defender](../defender-endpoint/configure-endpoints.md)</li><li>[Microsoft Defender 바이러스 백신](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)</li></ul></li></ul>|
 |전자 메일 콘텐츠 및 Office 보호|[Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) 구성|
 |권한|자동화된 조사 및 응답 기능을 구성하려면 전역 관리자 또는 보안 관리자 역할이 Azure Active Directory( ) 또는 <https://portal.azure.com> Microsoft 365 관리 센터()에 할당되어 있어야 <https://admin.microsoft.com> 합니다. <p> 보류 중인 작업의 검토, 승인 또는 거부와 같은 자동화된 조사 및 응답 기능과 함께 작업하는 데 필요한 사용 권한을 얻하려면 Action Center 작업에 필요한 사용 권한을 [참조하세요.](m365d-action-center.md#required-permissions-for-action-center-tasks)|
 |

@@ -1,6 +1,6 @@
 ---
 title: Windows Server의 Microsoft Defender 바이러스 백신
-description: Microsoft Defender 바이러스 백신 Server 2019에서 Windows Server 2016 구성하는 Windows 방법을 학습합니다.
+description: Microsoft Defender 바이러스 백신 Server 2019 및 Windows Server 2016 Server 2019 및 Windows 2022에서 Windows 구성하는 방법을 학습합니다.
 keywords: windows defender, server, scep, system center endpoint protection, server 2016, current branch, server 2012
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -16,12 +16,12 @@ ms.technology: mde
 ms.topic: article
 ms.date: 08/05/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: d7f5921e3c292d453f91ba802d036293260d478a
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: ae209a9b3442d1bb5744c7f8255ae9ddf041a321
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491018"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043194"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Windows Server의 Microsoft Defender 바이러스 백신
 
@@ -34,6 +34,7 @@ ms.locfileid: "59491018"
 Microsoft Defender 바이러스 백신 서버의 다음 버전/버전에서 사용할 Windows 있습니다.
 
 - Windows Server 2019
+- Windows Server 2022
 - Windows 서버, 버전 1803 이상
 - Windows Server 2016.
 
@@ -71,7 +72,7 @@ GUI가 서버에 설치되어 있지 않은 경우 역할 및 기능 추가  마
 
    ![사용자 설정 옵션에 대한 GUI를 보여 Windows Defender 추가합니다.](images/server-add-gui.png)
 
-   Windows Server 2019에서 역할 추가 및 **기능 마법사는 비슷합니다.**
+   Windows Server 2019 및 Windows Server 2022에서  역할 추가 및 기능 마법사도 비슷합니다.
 
 ### <a name="turn-on-the-gui-using-powershell"></a>PowerShell을 사용하여 GUI 켜기
 
@@ -127,7 +128,7 @@ sc query Windefend
 
 업데이트된 맬웨어 방지 보안 인텔리전스를 사용하려면 맬웨어 방지 Windows 실행해야 합니다. WSUS(Windows Server Update Services)와 같은 업데이트 관리 서비스를 사용하는 경우 Microsoft Defender 바이러스 백신 보안 인텔리전스에 대한 업데이트가 관리하는 컴퓨터에 대해 승인되어 있는지 확인합니다.
 
-기본적으로 Windows Server 2019 또는 Windows 업데이트는 자동으로 다운로드하여 설치하지 Windows Server 2016. 다음 방법 중 하나를 사용하여 이 구성을 변경할 수 있습니다.
+기본적으로 Windows 업데이트는 Windows Server 2019 또는 Windows Server 2022 또는 Windows Server 2016. 다음 방법 중 하나를 사용하여 이 구성을 변경할 수 있습니다.
 
 <br/><br/>
 
@@ -175,7 +176,7 @@ sc query Windefend
 
 |설정|설명|
 |---|---|
-|**0**  -  **항상 프롬프트**|Microsoft Defender 바이러스 백신 서비스에서 필요한 모든 파일의 제출을 확인하라는 메시지를 제공합니다. 이 설정은 Microsoft Defender 바이러스 백신 설정이지만 GUI가 없는 Windows Server 2016 또는 2019에 설치하는 경우 권장되지 않습니다.|
+|**0**  -  **항상 프롬프트**|Microsoft Defender 바이러스 백신 서비스에서 필요한 모든 파일의 제출을 확인하라는 메시지를 제공합니다. 이 설정은 Microsoft Defender 바이러스 백신 기본 설정이지만 Windows Server 2016 또는 2019 또는 Windows Server 2022에 GUI가 없는 설치에는 권장되지 않습니다.|
 |**1**   -  **안전한 샘플 자동 보내기**|Microsoft Defender 바이러스 백신 서비스는 "안전"으로 표시된 모든 파일을 전송하고 나머지 파일을 묻는 메시지를 제공합니다.|
 |**2**  -  **보내지 않는 경우**|Microsoft Defender 바이러스 백신 서비스는 메시지를 표시하지 않습니다. 또한 어떤 파일도 보내지 않습니다.|
 |**3**  -  **모든 샘플 자동 보내기**|Microsoft Defender 바이러스 백신 서비스는 확인 메시지를 표시하지 않고 모든 파일을 전송합니다.|
@@ -183,7 +184,7 @@ sc query Windefend
 
 ## <a name="configure-automatic-exclusions"></a>자동 제외 구성
 
-보안 및 성능을 보장하기 위해 2019 또는 2019에서 Microsoft Defender 바이러스 백신 사용할 때 설치하는 역할 및 기능에 따라 특정 제외가 Windows Server 2016 추가됩니다.
+보안 및 성능을 보장하기 위해 Microsoft Defender 바이러스 백신 또는 2019 또는 Windows Server 2016 Server 2022에서 Microsoft Defender 바이러스 백신 사용할 때 설치하는 역할 및 기능에 따라 특정 제외가 Windows 추가됩니다.
 
 Microsoft Defender 바이러스 백신 서버에서 제외 Windows [참조합니다.](configure-server-exclusions-microsoft-defender-antivirus.md)
 
@@ -191,7 +192,7 @@ Microsoft Defender 바이러스 백신 서버에서 제외 Windows [참조합니
 
 Windows Server에서 Microsoft가 아닌 바이러스 백신 제품을 기본 바이러스 백신 솔루션으로 사용하는 경우 Microsoft Defender 바이러스 백신 모드 또는 비활성화 모드로 설정해야 합니다.
 
-- Windows Server, 버전 1803 이상 또는 Windows Server 2019에서 수동 Microsoft Defender 바이러스 백신 설정할 수 있습니다. 다음 섹션을 참조하세요.
+- Windows Server, 버전 1803 이상 또는 Windows Server 2019 또는 Windows Server 2022에서 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다. 다음 섹션을 참조하세요.
   - [레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정](#set-microsoft-defender-antivirus-to-passive-mode-using-a-registry-key)
   - [역할 Microsoft Defender 바이러스 백신 제거 마법사를 사용하여 사용자 설정을 사용하지 않도록 설정](#disable-microsoft-defender-antivirus-using-the-remove-roles-and-features-wizard)
   - [PowerShell을 Microsoft Defender 바이러스 백신 사용자 인터페이스 끄기](#turn-off-the-microsoft-defender-antivirus-user-interface-using-powershell)
@@ -200,7 +201,7 @@ Windows Server에서 Microsoft가 아닌 바이러스 백신 제품을 기본 �
 
 ### <a name="set-microsoft-defender-antivirus-to-passive-mode-using-a-registry-key"></a>레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정
 
-Windows Server 버전 1803 또는 Windows Server 2019를 사용하는 경우 다음 레지스트리 키를 설정하여 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다.
+Windows Server, 버전 1803 또는 Windows Server 2019 또는 Windows Server 2022를 사용하는 경우 다음 레지스트리 키를 설정하여 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다.
 
 - 경로: `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`
 - 이름: `ForceDefenderPassiveMode`

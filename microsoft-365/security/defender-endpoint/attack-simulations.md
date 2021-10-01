@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/20/2018
 ms.technology: mde
-ms.openlocfilehash: 3ccb0bf5392bcfd8b520c1124d5daa568f1bc8be
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2d60897d00b2b0228fd1a716dd9b4b7bb12a7bb9
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222088"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60041675"
 ---
 # <a name="experience-microsoft-defender-for-endpoint-through-simulated-attacks"></a>시뮬레이트된 공격을 통해 끝점에 대한 Microsoft Defender 경험 
 
@@ -69,4 +69,4 @@ ms.locfileid: "59222088"
 ## <a name="related-topics"></a>관련 항목
 
 - [온보딩 장치](onboard-configure.md)
-- [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
+- [장치 Windows 온보드](configure-endpoints.md)

@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 591a98e07f47717f0475c88584a161c93198c084
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6b4efbcb1a137faf6311ba1247405a389fdcbe4a
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218175"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042942"
 ---
 # <a name="review-architecture-requirements-and-key-concepts-for-microsoft-cloud-app-security"></a>아키텍처 요구 사항 및 주요 개념을 Microsoft Cloud App Security
 
@@ -58,7 +58,7 @@ Microsoft Cloud App Security CASB(클라우드 액세스 보안 브로커)입니
 ![비즈니스용 Microsoft Cloud App Security - 클라우드 검색.](../../media/defender/m365-defender-mcas-architecture-b.png)
 
 이 그림에는 네트워크 트래픽을 모니터링하고 조직에서 사용중인 클라우드 앱을 검색하는 데 사용할 수 있는 두 가지 방법이 있습니다.
-- 대답. Cloud App Discovery는 기본적으로 끝점용 Microsoft Defender와 통합됩니다. Endpoint용 Defender는 IT 관리 디바이스에서 액세스하는 클라우드 앱 및 Windows 10 보고합니다. 
+- 대답. Cloud App Discovery는 기본적으로 끝점용 Microsoft Defender와 통합됩니다. Endpoint용 Defender는 IT 관리 앱 및 11개 장치에서 IT 관리 Windows 10 Windows 보고합니다. 
 - B. 네트워크에 연결된 모든 디바이스에서 적용 범위를 위해 Cloud App Security 로그 수집기 및 끝점에서 데이터를 수집하기 위한 기타 proxies에 설치됩니다. 이 데이터는 분석을 위해 Cloud App Security 전송됩니다.
 
 #### <a name="managing-cloud-apps"></a>클라우드 앱 관리
@@ -128,7 +128,7 @@ Cloud App Security 자체적으로 강력한 보호 기능을 제공합니다. �
 
 환경에서 사용되는 클라우드 앱을 검색하기 위해 다음 중 하나 또는 둘 다를 할 수 있습니다.
 
-- 끝점용 Microsoft Defender와 통합하여 클라우드 검색을 빠르게 시작하고 실행합니다. 이 네이티브 통합을 통해 네트워크의 모든 디바이스에서 클라우드 트래픽에 Windows 10 즉시 데이터를 수집할 수 있습니다.
+- 끝점용 Microsoft Defender와 통합하여 클라우드 검색을 빠르게 시작하고 실행합니다. 이 네이티브 통합을 통해 네트워크의 11 및 Windows 및 Windows 10 클라우드 트래픽에 대한 데이터 수집을 즉시 시작할 수 있습니다.
 - 네트워크에 연결된 모든 장치에서 액세스하는 모든 클라우드 앱을 검색하려면 방화벽 및 기타 Cloud App Security 로그 수집기 배포합니다. 그러면 끝점에서 데이터를 수집하여 분석하기 위해 Cloud App Security 전송합니다. Cloud App Security 기능을 위해 기본적으로 일부 타사 Proxies와 통합됩니다.
 
 이러한 옵션은 [2단계에 포함되어 있습니다. 평가 환경 사용.](eval-defender-mcas-enable-eval.md) 

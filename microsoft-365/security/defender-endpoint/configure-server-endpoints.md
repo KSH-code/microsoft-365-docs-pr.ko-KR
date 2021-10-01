@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee6241e6db062730446505e2bcbc377b15ffee9c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 49c307bc2a68ae750e7ac9c54fd52b3b2b5f45ad
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187555"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043206"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -140,9 +140,9 @@ Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을 \>  \>
 
 온보더링 단계를 완료한 후 클라이언트를 구성하고 System Center Endpoint Protection [합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
-## <a name="windows-server-sac-version-1803-windows-server-2019-and-windows-server-2019-core-edition"></a>Windows SAC(서버) 버전 1803, Windows Server 2019 및 Windows Server 2019 Core edition
+## <a name="windows-server-sac-version-1803-windows-server-2019-windows-server-2022-and-windows-server-2019-core-edition"></a>Windows SAC(Server) 버전 1803, Windows Server 2019, Windows Server 2022 및 Windows Server 2019 Core edition
 
-다음 배포 방법을 사용하여 Windows Server(Windows Server) 버전 1803, Windows Server 2019 또는 Windows Server 2019 Core Edition을 온보드할 수 있습니다.
+다음 배포 방법을 사용하여 Windows Server(Windows Server) 버전 1803 또는 Windows Server 2019 또는 Windows Server 2022 또는 Windows Server 2019 Core edition을 온보드할 수 있습니다.
 
 - [로컬 스크립트](configure-endpoints-script.md)
 - [그룹 정책](configure-endpoints-gp.md)
@@ -152,7 +152,7 @@ Microsoft 365 Defender 창에서 **끝점 설정** 관리 온보더링을 \>  \>
 
 > [!NOTE]
 >
-> - 현재 스크립트를 Windows Server 2019를 Microsoft Endpoint Manager 온보딩 패키지 Configuration Manager에서 스크립트를 배포하는 방법에 대한 자세한 내용은 Configuration Manager의 패키지 [및 프로그램을 참조하세요.](/configmgr/apps/deploy-use/packages-and-programs)
+> - Windows Server 2019 및 Windows Server 2022용 온보딩 패키지는 Microsoft Endpoint Manager 현재 스크립트를 제공합니다. Configuration Manager에서 스크립트를 배포하는 방법에 대한 자세한 내용은 Configuration Manager의 패키지 [및 프로그램을 참조하세요.](/configmgr/apps/deploy-use/packages-and-programs)
 > - 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책을 사용하는 것이 Microsoft Endpoint Configuration Manager.
 
 Windows Server에 대한 지원은 서버 활동, 커널 및 메모리 공격 감지 범위에 대한 심층적인 정보를 제공하며 대응 작업을 가능하게 합니다.
@@ -196,7 +196,7 @@ Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 서버 Windo
 - 자동 온보딩 - Azure Defender에 온보딩된 Windows Endpoint용 Defender 센서가 자동으로 사용하도록 설정됩니다. Azure Defender 온보딩에 대한 자세한 내용은 [통합된 끝점용 Microsoft Defender 라이선스 사용을 참조하세요.](/azure/security-center/security-center-wdatp)
 
     > [!NOTE]
-    > 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows [Server 2019 및 WVD(가상 데스크톱)Windows](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
+    > 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows Server 2022, Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
 
 - Windows Azure Defender가 모니터링하는 서버는 Endpoint용 Defender에서도 사용할 수 있습니다. Azure Defender는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다. 또한 Azure Defender 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
 
@@ -227,7 +227,7 @@ Endpoint용 Defender는 통합된 System Center Endpoint Protection. 통합을 �
 
 ## <a name="offboard-windows-servers"></a>서버 Windows 오프보드
 
-SAC(Windows Server), Windows Server 2019 및 Windows Server 2019 Core Edition은 클라이언트 장치에서 사용할 수 있는 동일한 방법으로 Windows 10 있습니다.
+Windows 클라이언트 장치에 사용할 수 있는 동일한 방법으로 SAC(Windows Server), Windows Server 2019, Windows Server 2022 및 Windows Server 2019 Core 에디션을 오프보드할 Windows 10 있습니다.
 
 - [그룹 정책을 사용하여 오프보더](configure-endpoints-gp.md#offboard-devices-using-group-policy)
 - [Configuration Manager를 사용하여 디바이스 오프보드](configure-endpoints-sccm.md#offboard-devices-using-configuration-manager)

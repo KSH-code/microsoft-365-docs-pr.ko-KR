@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b9f7cda368f9770a645fa588597196eccf038b4f
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 3169464afe92a8af80df1b6dedfd9f7eb806a402
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356651"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042629"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -57,9 +57,9 @@ ms.locfileid: "59356651"
 
 |사용 권한|PE 파일|PE가 아닌 파일|
 |---|:---:|:---:|
-|데이터 보기|X|X|
-|경고 조사|&#x2611;|X|
-|실시간 응답 기본|X|X|
+|데이터 보기|X|X 키|
+|경고 조사|&#x2611;|X 키|
+|실시간 응답 기본|X|X 키|
 |실시간 응답 고급|&#x2611;|&#x2611;|
 |
 
@@ -175,7 +175,7 @@ ms.locfileid: "59356651"
 > - 바이러스 백신 엔진 버전은 1.1.17300.4 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
 > - 클라우드 기반 보호를 사용할 수 있습니다. 클라우드 [제공 보호 켜기 참조](enable-cloud-protection-microsoft-defender-antivirus.md)
 > - 샘플 제출이 켜져 있습니다.
-> - 장치에 Windows 10 버전 1703 이상 또는 Windows 서버 2016 또는 2019가 있습니다.
+> - 장치에 Windows 10 버전 1703 이상 또는 Windows server 2016 또는 2019 또는 Windows Server 2022가 있습니다.
 
 ### <a name="collect-files"></a>파일 수집
 

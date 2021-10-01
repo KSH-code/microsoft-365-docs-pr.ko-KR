@@ -18,12 +18,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 34c293884a30912485e380da8b7408593435f28c
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 325859d8bbaed92baafebf81c1f38c8100dd4bbe
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59490216"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043146"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스를 사용하여 중요한 폴더 보호
 
@@ -37,7 +37,7 @@ ms.locfileid: "59490216"
 
 ## <a name="what-is-controlled-folder-access"></a>제어된 폴더 액세스란?
 
-제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 알려진 신뢰할 수 있는 앱 목록에서 앱을 확인하여 데이터를 보호합니다. Windows Server 2019 및 Windows 10 클라이언트에서 지원되는 제어된 폴더 액세스는 Windows 보안 App, Microsoft Endpoint Configuration Manager 또는 Intune(관리되는 디바이스의 경우)을 사용하여 켜져 있을 수 있습니다.
+제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 알려진 신뢰할 수 있는 앱 목록에서 앱을 확인하여 데이터를 보호합니다. Windows Server 2019, Windows Server 2022 및 Windows 10 클라이언트에서 지원되는 제어된 폴더 액세스는 Windows 보안 App, Microsoft Endpoint Configuration Manager 또는 Intune(관리되는 디바이스의 경우)을 사용하여 켜져 있을 수 있습니다.
 
 > [!NOTE]
 > 스크립팅 엔진은 신뢰할 수 없습니다. 제어된 보호된 폴더에 대한 액세스를 허용할 수 없습니다. 예를 들어 인증서 및 파일 표시기를 사용하여 허용하는 경우에도 PowerShell은 제어된 폴더 액세스에서 [신뢰되지 않습니다.](/microsoft-365/security/defender-endpoint/indicator-certificates)
@@ -69,6 +69,7 @@ Configuration Manager 또는 Intune을 사용하여 앱을 신뢰할 수 있는 
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- Windows Server 2022
 
 ## <a name="windows-system-folders-are-protected-by-default"></a>Windows 폴더는 기본적으로 보호됩니다.
 

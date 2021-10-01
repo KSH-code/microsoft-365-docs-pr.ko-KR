@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.date: 02/07/2020
+ms.date: 09/22/2021
 ms.technology: mde
-ms.openlocfilehash: e61e525f23cf1e763c64fae1828e7d505d51a5cb
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 9a5ef03cf94501d83340f159ecd1b54f26f68b0a
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59402001"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042930"
 ---
 # <a name="onboard-the-windows-10-devices-using-configuration-manager"></a>Configuration Manager를 Windows 10 장치 온보드
 
@@ -53,9 +53,10 @@ ms.locfileid: "59402001"
   - Windows Server 2016
   - Windows Server 2016 버전 1803 이상
   - Windows Server 2019
+  - Windows Server 2022
 
 > [!NOTE]
-> R2, Windows Server 2012, Windows Server 2016 및 Windows Server 2019를 온보드하는 방법에 대한 자세한 내용은 [onboard Windows servers을 참조하십시오.](configure-server-endpoints.md)
+> Windows Server 2012 R2, Windows Server 2016, Windows Server 2019 및 Windows Server 2022를 온보드하는 방법에 대한 자세한 내용은 [onboard Windows servers을](configure-server-endpoints.md)참조하십시오.
 
 ### <a name="onboard-devices-using-system-center-configuration-manager"></a>장치를 사용하여 온보드 System Center Configuration Manager
 

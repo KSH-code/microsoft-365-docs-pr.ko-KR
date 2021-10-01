@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: scheduler
 localization_priority: Normal
 description: 사용자에 대한 스케줄러 Microsoft 365.
-ms.openlocfilehash: 01e574fd2f4cd766b3347c6fa56149f6bcd600d5
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: bebb2befa6a24f8913b70aa77ca66ef7e664e9d2
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988826"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042569"
 ---
 # <a name="setting-up-scheduler-for-microsoft-365"></a>Microsoft 365용 스케줄러 설정
 
@@ -26,7 +26,7 @@ ms.locfileid: "59988826"
 > [!Note]
 > 모임 참석자에는 스케줄러 또는 예약 Microsoft 365 없습니다. <br>스케줄러 도우미 사서함에는 스케줄러 Microsoft 365 라이선스가 필요하지 않습니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 | 필수 구성 요소 | 설명 |
 |-------------------|-------------|
@@ -51,7 +51,7 @@ ms.locfileid: "59988826"
 사서함의 Cortana SMTP 주소에 있는 이름을 사용하세요. `Cortana@yourdomain.com`, , `CortanaScheduler@contoso.com` 같은 이름 또는 `Cortana.Scheduler@yourdomain.com` 권장되는 이름입니다.
 
 ```PowerShell
-$domain="yourdomain.com  "
+$domain="yourdomain.com"
 $tenantAdmin="<tenantadmin>@$domain"
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $tenantAdmin
@@ -80,7 +80,7 @@ Cortana 스케줄러 도우미 사서함에서 이 "set" 명령을 실행하면 
 스케줄러 도우미 사서함이 만들어졌다는 확인
 
 ```PowerShell
-Get-CalendarProcessing cortana$domain | fl DeleteNonCalendarItems
+Get-CalendarProcessing cortana@$domain | fl DeleteNonCalendarItems
 ```
 
 결과는 "false"입니다.
@@ -88,7 +88,7 @@ Get-CalendarProcessing cortana$domain | fl DeleteNonCalendarItems
 <br>
 
 ```PowerShell
-Get-Mailbox -Identity cortana$domain | fl *type*
+Get-Mailbox -Identity cortana@$domain | fl *type*
 ```
 
 결과는

@@ -15,14 +15,14 @@ author: denisebmsft
 ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
-ms.date: 08/17/2021
+ms.date: 09/17/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3766c78e1c2af55f9e785d73cf639d9a6b1bf2a7
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 0809de7a30a624394103b8e6c3fb594e72c7cd77
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491232"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043158"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성
 
@@ -78,7 +78,7 @@ Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습�
 
 #### <a name="default-exclusions-for-all-roles"></a>모든 역할에 대한 기본 제외
 
-이 섹션에는 Windows Server 2016 Server 2019의 모든 역할에 대한 Windows 나열되어 있습니다.
+이 섹션에는 Windows Server 2016 Server 2019 및 Windows Server 2022의 모든 역할에 대한 기본 Windows 나열되어 있습니다.
 
 > [!NOTE]
 > 기본 위치는 이 문서에 나와 있는 위치와 다를 수 있습니다.
@@ -325,13 +325,13 @@ Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습�
 Windows Server 2016 보안 인텔리전스 업데이트에서 제공된 미리 정의한 제외는 역할 또는 기능에 대한 기본 경로만 제외합니다. 사용자 지정 경로에 역할 또는 기능을 설치하거나 제외 집합을 수동으로 제어하려는 경우 보안 인텔리전스 업데이트에 제공된 자동 제외를 옵트아웃해야 합니다. 그러나 자동으로 제공되는 제외는 해당 제외가 Windows Server 2016 최적화됩니다. 제외 [권장 사항](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) 정의하기 전에 제외를 정의하는 방법을 참조하세요.
 
 > [!WARNING]
-> 자동 제외를 옵트아웃하면 성능이 밝아지거나 데이터가 손상될 수 있습니다. 자동으로 전달되는 제외는 서버 2019 및 Windows Server 2016 Windows 최적화됩니다.
+> 자동 제외를 옵트아웃하면 성능이 밝아지거나 데이터가 손상될 수 있습니다. 자동으로 전달되는 제외는 Windows Server 2016 Server 2019 및 Windows Server 2022 역할에 Windows 최적화됩니다.
 
 미리 정의한 제외는 기본 경로만 제외하기 때문에 NTDS 및 SYSVOL 폴더를 원래 경로와 다른 다른 드라이브 또는 경로로 이동하는 경우 제외를 수동으로 추가해야 합니다. 폴더 이름 또는 파일 확장명에 따라 제외 목록 [구성을 참조하세요.](configure-extension-file-exclusions-microsoft-defender-antivirus.md#configure-the-list-of-exclusions-based-on-folder-name-or-file-extension)
 
 그룹 정책, PowerShell cmdlet 및 WMI를 사용하여 자동 제외 목록을 사용하지 않도록 설정할 수 있습니다.
 
-### <a name="use-group-policy-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>그룹 정책을 사용하여 Windows Server 2016 Server 2019에서 Windows 사용하지 않도록 설정
+### <a name="use-group-policy-to-disable-the-auto-exclusions-list-on-windows-server-2016-windows-server-2019-and-windows-server-2022"></a>그룹 정책을 사용하여 Windows Server 2016, Windows Server 2019 및 Windows Server 2022에서 자동 제외 목록을 사용하지 않도록 설정
 
 1. 그룹 정책 관리 컴퓨터에서 [그룹 정책 관리 콘솔](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11))을 엽니다. 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 **을 선택합니다.**
 

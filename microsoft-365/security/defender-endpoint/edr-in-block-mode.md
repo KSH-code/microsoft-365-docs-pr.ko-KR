@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: c590812ccc975206c6c278794f943f7e16c8bdd1
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: e58d98f059dc723b06a65bfad36d6e72807e2f63
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400825"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042918"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 EDR(엔드포인트 감지 및 대응)
 
@@ -79,10 +79,10 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 
 |요구 사항|세부 정보|
 |---|---|
-|사용 권한|에 전역 관리자 또는 보안 관리자 역할이 [할당되어 있어야 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 자세한 내용은 기본 사용 [권한을 참조하세요.](basic-permissions.md)|
-|운영 체제|장치에서 다음 버전의 디바이스 중 하나를 실행해야 Windows. <ul><li>Windows 10(모든 릴리스)</li><li>Windows 서버, 버전 1803 이상</li><li>Windows Server 2019</li><li>Windows Server 2016(Microsoft Defender 바이러스 백신 모드에 있는 경우만)</li></ul>|
-|엔드포인트용 Microsoft Defender|끝점용 Defender에 장치를 온보딩해야 합니다. [끝점용 Microsoft Defender에 대한 최소 요구 사항을 참조하세요.](minimum-requirements.md)|
-|Windows Defender 바이러스 백신|장치에는 Microsoft Defender 바이러스 백신 수동 모드로 설치 및 실행되어야 합니다. [활성 Microsoft Defender 바이러스 백신 수동 모드에 있는지 확인](#how-do-i-confirm-microsoft-defender-antivirus-is-in-active-or-passive-mode)|
+|권한|에 전역 관리자 또는 보안 관리자 역할이 [할당되어 있어야 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 자세한 내용은 기본 사용 [권한을 참조하세요.](basic-permissions.md)|
+|운영 체제|장치에서 다음 버전의 디바이스 중 하나를 실행해야 Windows. <ul><li>Windows 10(모든 릴리스)</li><li>Windows 서버, 버전 1803 이상</li><li>Windows Server 2019</li><li>Windows Server 2022</li><li>Windows Server 2016(Microsoft Defender 바이러스 백신 모드에 있는 경우만)</li></ul>|
+|끝점용 Microsoft Defender|끝점용 Defender에 장치를 온보딩해야 합니다. [끝점용 Microsoft Defender에 대한 최소 요구 사항을 참조하세요.](minimum-requirements.md)|
+|Microsoft Defender 바이러스 백신|장치에는 Microsoft Defender 바이러스 백신 수동 모드로 설치 및 실행되어야 합니다. [활성 Microsoft Defender 바이러스 백신 수동 모드에 있는지 확인](#how-do-i-confirm-microsoft-defender-antivirus-is-in-active-or-passive-mode)|
 |클라우드 제공 보호|Microsoft Defender 바이러스 백신 보호를 사용하도록 구성해야 [합니다.](enable-cloud-protection-microsoft-defender-antivirus.md)|
 |Microsoft Defender 바이러스 백신 플랫폼|장치를 최신으로 유지해야 합니다. 확인을 위해 PowerShell을 사용하여 [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus) cmdlet을 관리자 권한으로 실행합니다. **AMProductVersion** 줄에 **4.18.2001.10 이상이** 표시될 것입니다. <p> 자세한 내용은 [Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)을 참조하세요.|
 |Microsoft Defender 바이러스 백신 엔진|장치를 최신으로 유지해야 합니다. 확인을 위해 PowerShell을 사용하여 [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus) cmdlet을 관리자 권한으로 실행합니다. **AMEngineVersion** 줄에 **1.1.16700.2 이상이** 표시될 것입니다. <p> 자세한 내용은 [Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)을 참조하세요.|
@@ -90,7 +90,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 > [!IMPORTANT]
 > 최상의 보호 값을 얻기 위해 정기적인 업데이트 및 필수 기능을 받도록 바이러스 백신 솔루션이 구성되어 있는지, 그리고 제외가 구성되어 [있는지 확인합니다.](configure-exclusions-microsoft-defender-antivirus.md) EDR 모드는 끝점용 Microsoft Defender에 대해 정의된 Microsoft Defender 바이러스 백신 제외를 존중합니다. [](manage-indicators.md)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="do-i-need-to-turn-edr-in-block-mode-on-if-i-have-microsoft-defender-antivirus-running-on-devices"></a>장치에서 실행 중인 EDR 차단 모드에서 Microsoft Defender 바이러스 백신 설정해야 하나요?
 
@@ -113,7 +113,7 @@ EDR 모드에서는 사용자의 장치에서 실행되는 타사 바이러스 �
 
 ### <a name="what-is-the-difference-between-active-and-passive-mode"></a>활성 모드와 수동 모드의 차이점은 무엇입니까?
 
-Windows 10, Windows Server, 버전 1803 이상 또는 Windows Server 2019를 실행하는 끝점의 경우 Microsoft Defender 바이러스 백신 모드에 있는 경우 장치의 기본 바이러스 백신으로 사용됩니다. 수동 모드에서 실행되는 경우 Microsoft Defender 바이러스 백신 바이러스 백신 제품이 아닌 것입니다. 이 경우 위협은 실시간으로 Microsoft Defender 바이러스 백신 않습니다.
+Windows 10, Windows Server, 버전 1803 이상, Windows Server 2019 또는 Windows Server 2022를 실행하는 끝점의 경우 Microsoft Defender 바이러스 백신 모드에 있는 경우 장치의 기본 바이러스 백신으로 사용됩니다. 수동 모드에서 실행되는 경우 Microsoft Defender 바이러스 백신 바이러스 백신 제품이 아닌 것입니다. 이 경우 위협은 실시간으로 Microsoft Defender 바이러스 백신 않습니다.
 
 > [!NOTE]
 > Microsoft Defender 바이러스 백신 끝점용 Microsoft Defender에 온보딩된 경우 수동 모드에서만 실행할 수 있습니다.
@@ -128,8 +128,8 @@ Windows 10, Windows Server, 버전 1803 이상 또는 Windows Server 2019를 실
 
 |방법|절차|
 |---|---|
-|PowerShell|<ol><li>선택 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 .</li><li>`Get-MpComputerStatus`를 입력합니다.</li><li>결과 목록의 **AMRunningMode** 행에서 다음 값 중 하나를 검색합니다.<ul><li>`Normal`</li><li>`Passive Mode`</li></ul></li></ol> <p> 자세한 내용은 [Get-MpComputerStatus 를 참조합니다.](/powershell/module/defender/get-mpcomputerstatus)|
-|명령 프롬프트|<ol><li>명령 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 명령 `Command Prompt` Windows 열 수 있습니다.</li><li>`sc query windefend`를 입력합니다.</li><li>결과 목록의 **STATE** 행에서 서비스가 실행 중인지 선택합니다.</li></ol>|
+|PowerShell|<ol><li>선택 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 .</li><li>`Get-MpComputerStatus`(을)를 입력합니다.</li><li>결과 목록의 **AMRunningMode** 행에서 다음 값 중 하나를 검색합니다.<ul><li>`Normal`</li><li>`Passive Mode`</li></ul></li></ol> <p> 자세한 내용은 [Get-MpComputerStatus 를 참조합니다.](/powershell/module/defender/get-mpcomputerstatus)|
+|명령 프롬프트|<ol><li>명령 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 명령 `Command Prompt` Windows 열 수 있습니다.</li><li>`sc query windefend`(을)를 입력합니다.</li><li>결과 목록의 **STATE** 행에서 서비스가 실행 중인지 선택합니다.</li></ol>|
 
 ### <a name="how-do-i-confirm-that-edr-in-block-mode-is-turned-on-with-microsoft-defender-antivirus-in-passive-mode"></a>수동 모드에서 EDR 모드로 설정되어 있는지 Microsoft Defender 바이러스 백신 확인란?
 
@@ -137,7 +137,7 @@ PowerShell을 사용하여 수동 모드에서 EDR 설정되어 있는지 확인
 
 1. 선택 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 .
 
-2. `Get-MPComputerStatus|select AMRunningMode`를 입력합니다.
+2. `Get-MPComputerStatus|select AMRunningMode`(을)를 입력합니다.
 
 3. 결과가 `EDR Block Mode` 표시되는지 확인
 
@@ -151,6 +151,7 @@ PowerShell을 사용하여 수동 모드에서 EDR 설정되어 있는지 확인
 - Windows 10(모든 릴리스)
 - Windows 서버, 버전 1803 이상
 - Windows Server 2019
+- Windows Server 2022
 
 #### <a name="what-about-windows-server-2016"></a>어떤 Windows Server 2016?
 

@@ -17,18 +17,21 @@ ms.collection:
 - m365solution-spintranet
 localization_priority: Normal
 description: Multi-Geo에서 Teams 작동하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7da2032e1106d03178eccf3bcfb4f37fc63780d7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6df7d20b8541ec6aefca1f30d7fbfe6bf7c3f6c9
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210682"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043014"
 ---
 # <a name="multi-geo-capabilities-in-microsoft-teams"></a>Microsoft Teams
 
 Teams Multi-Geo 기능을 Teams 채팅 데이터를 지정된 지리적 위치에 저장할 수 있습니다. 채팅 데이터는 비공개 메시지, 채널 메시지 및 채팅에 사용되는 이미지를 포함하여 채팅 메시지로 구성됩니다.
 
 Teams 사용자 및 그룹에 대해 PDL(기본 설정 데이터 위치)을 사용하여 데이터를 저장할 위치를 결정할 수 있습니다. PDL이 설정되지 않은 경우 또는 유효하지 않은 경우 데이터는 테넌트의 중앙 위치에 저장됩니다.
+
+> [!NOTE]
+> 2021년 7월에 출시된 Teams Multi-Geo 기능 채팅 및 채널 메시지는 다음 몇 분기 동안 올바른 지리적 위치로 자동으로 마이그레이션됩니다. 새 PDL 변경 내용은 테넌트가 초기 동기화를 완료한 후 처리하고 그 이후의 새 PDL 변경 내용은 수신된 순서대로 큐에 대기하고 처리됩니다.
 
 ## <a name="user-chat"></a>사용자 채팅
 

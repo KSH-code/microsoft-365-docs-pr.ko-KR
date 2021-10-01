@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: c897a65296f0f5b016b2bdb22e28773a01be494a
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: dcc6a0fd065ecffd302fd0b1ea9296ddaa1a5c80
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776995"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042581"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -268,7 +268,7 @@ ms.locfileid: "59776995"
 
 - Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
-- 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016; 또는 Windows Server 2019
+- 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016 또는 Windows Server 2019 또는 Windows Server 2022
 - 차단 [또는 허용 기능이 켜져 있습니다.](/microsoft-365/security/defender-endpoint/advanced-features)
 
 #### <a name="indicators-for-ip-addresses-urls-or-domains"></a>IP 주소, URL 또는 도메인에 대한 표시기
@@ -291,7 +291,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 
 - Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](deploy-manage-report-microsoft-defender-antivirus.md)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
-- 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016; 또는 Windows Server 2019
+- 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016 또는 Windows Server 2019 또는 Windows Server 2022
 - 바이러스 및 위협 방지 정의가 최신입니다.
 
 > [!TIP]

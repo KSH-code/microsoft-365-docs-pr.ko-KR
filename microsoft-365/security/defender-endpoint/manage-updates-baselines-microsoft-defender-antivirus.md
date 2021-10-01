@@ -18,12 +18,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 09/08/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 5745e5ee7604636b3ae3595ba907e055b86cc012
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 173fd730edfb2fe0ca535a45da07abfea50d5f4d
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491340"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043326"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -536,7 +536,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 
 ## <a name="updates-for-deployment-image-servicing-and-management-dism"></a>DISM(배포 이미지 서비스 및 관리)에 대한 업데이트
 
-최신 바이러스 백신 및 맬웨어 방지 업데이트로 Windows 10(Enterprise, Pro 및 Home edition), Windows Server 2019 및 Windows Server 2016 OS 설치 이미지를 업데이트하는 것이 좋습니다. OS 설치 이미지를 최신으로 유지하면 보호 격차를 방지할 수 있습니다.
+최신 바이러스 백신 및 맬웨어 방지 업데이트를 사용하여 Windows 10(Enterprise, Pro 및 Home edition), Windows Server 2019, Windows Server 2022 및 Windows Server 2016 OS 설치 이미지를 업데이트하는 것이 좋습니다. OS 설치 이미지를 최신으로 유지하면 보호 격차를 방지할 수 있습니다.
 
 자세한 내용은 운영 체제 설치 Windows Microsoft [Defender 업데이트를 참조하세요.](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)
 
@@ -728,7 +728,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 
 | 문서 | 설명  |
 |:---|:---|
-|[운영 체제 설치 Windows 대한 Microsoft Defender 업데이트](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | OS 설치 이미지(WIM 및 VHD 파일)에 대한 맬웨어 방지 업데이트 패키지를 검토합니다. Microsoft Defender 바이러스 백신(Windows 10 Enterprise, Pro 및 Home edition), Windows Server 2019 및 Windows Server 2016 설치 이미지에 대한 Windows Server 2016 다운로드합니다.  |
+|[운영 체제 설치 Windows 대한 Microsoft Defender 업데이트](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | OS 설치 이미지(WIM 및 VHD 파일)에 대한 맬웨어 방지 업데이트 패키지를 검토합니다. Microsoft Defender 바이러스 백신(Windows 10, Pro Enterprise 및 Home edition), Windows Server 2019, Windows Server 2022 및 Windows Server 2016 설치 이미지에 대한 Windows Server 2016 다운로드합니다.  |
 |[보호 업데이트를 다운로드하고 적용하는 방법 관리](manage-protection-updates-microsoft-defender-antivirus.md) | 보호 업데이트는 여러 소스를 통해 전달할 수 있습니다. |
 |[보호 업데이트를 다운로드하고 적용해야 하는 경우 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md) | 보호 업데이트를 다운로드해야 하는 경우를 예약할 수 있습니다. |
 |[최신이 지난 끝점에 대한 업데이트 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md) | 끝점에서 업데이트 또는 예약된 검사가 누락된 경우 다음에 사용자가 로그인할 때 강제로 업데이트를 실행하거나 검색할 수 있습니다. |

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a5fb39cd97aee44edfd774c2c79080f3adaf9da2
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 7cb01f6067e14d615e018b5c8648b0b6c423ddca
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400369"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042773"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -52,7 +52,7 @@ ms.locfileid: "59400369"
 - Microsoft 365 A5(M365 A5)
 - Microsoft 365 E5 Security
 - Microsoft 365 A5 보안
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
 
 > [!NOTE]
 > 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다.
@@ -67,7 +67,7 @@ ms.locfileid: "59400369"
 > [!NOTE]
 > 고객은 다음 사용자 라이선스 중 하나 이상에 대해 최소 50개 이상의 라이선스를 합한 경우 서버용 끝점용 Microsoft Defender에 대한 서버 라이선스(대상 서버당 OSE(운영 체제 환경))를 취득할 수 있습니다.
 >
-> - 엔드포인트용 Microsoft Defender
+> - 끝점용 Microsoft Defender
 > - Windows E5/A5
 > - Microsoft 365 E5/A5
 > - Microsoft 365 E5/A5 보안
@@ -105,6 +105,7 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
   - Windows Server 2016
   - Windows 서버, 버전 1803 이상
   - Windows Server 2019
+  - Windows Server 2022
 - Windows Virtual Desktop
 
 네트워크의 장치는 이러한 버전 중 하나를 실행해야 합니다.

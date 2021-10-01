@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 5f82684ebb10b72ff83a6789c010f5ec9fa099e7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7cda3028a7419a2d02fb14a693f0e790e8f9c6ef
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165663"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042833"
 ---
 # <a name="devicetvmsoftwareinventory"></a>DeviceTvmSoftwareInventory
 
@@ -51,7 +51,7 @@ ms.locfileid: "59165663"
 |-------------|-----------|-------------|
 | `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
-| `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
+| `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 11, Windows, Windows 10 및 Windows 7과 같은 특정 운영 체제를 나타냅니다. |
 | `OSVersion` | 문자열 | 컴퓨터에서 실행 중인 운영 체제 버전 |
 | `OSArchitecture` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 아키텍처 |
 | `SoftwareVendor` | 문자열 | 소프트웨어 공급업체의 이름 |

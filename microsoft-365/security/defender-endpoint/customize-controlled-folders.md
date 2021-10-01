@@ -16,12 +16,12 @@ ms.date: 05/10/2021
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: d0cefdd90eed741a5f7c251e8cc524c3f9f5166d
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 77df84645785da8944a47d0fb9501c95a5842969
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491400"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60041663"
 ---
 # <a name="customize-controlled-folder-access"></a>제어된 폴더 액세스 사용자 지정
 
@@ -32,7 +32,7 @@ ms.locfileid: "59491400"
 > [!TIP]
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows Server 2019 및 Windows 10 지원됩니다. 이 문서에서는 제어된 폴더 액세스 기능을 사용자 지정하는 방법을 설명하고 다음 섹션을 포함합니다.
+제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows Server 2019, Windows Server 2022 및 Windows 10 지원됩니다. 이 문서에서는 제어된 폴더 액세스 기능을 사용자 지정하는 방법을 설명하고 다음 섹션을 포함합니다.
 
 - [추가 폴더 보호](#protect-additional-folders)
 - [보호된 폴더에 액세스할 수 있도록 허용해야 하는 앱 추가](#allow-specific-apps-to-make-changes-to-controlled-folders)

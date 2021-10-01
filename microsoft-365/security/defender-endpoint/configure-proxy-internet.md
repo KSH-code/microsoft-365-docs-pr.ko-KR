@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8cf8b1e049a96e7a03fb4df0199294afe193a660
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 81640ff0716d6dd0803dcad5b0db1849dfbee0d5
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399844"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042665"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -63,9 +63,9 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 검색 프록시 설정과는
 컴퓨터가 인터넷에 연결할 수 없는 경우 진단 데이터를 보고하고 끝점 서비스용 Defender와 통신하도록 끝점 검색 및 응답(EDR) 센서에 대한 Defender에 대한 레지스트리 기반 정적 프록시를 구성합니다.
 
 > [!NOTE]
-> Windows 10 또는 Windows Server 2019에서 이 옵션을 사용하는 경우 다음(이상) 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.
+> Windows 10 또는 Windows Server 2019 또는 Windows Server 2022에서 이 옵션을 사용하는 경우 다음(이상) 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.
 >
-> - Windows 10, 버전 1809 Windows Server 2019 -<https://support.microsoft.com/kb/5001384>
+> - Windows 10, 버전 1809 Windows Server 2019 또는 Windows Server 2022 -<https://support.microsoft.com/kb/5001384>
 > - Windows 10 버전 1909 -<https://support.microsoft.com/kb/4601380>
 > - Windows 10 버전 2004 -<https://support.microsoft.com/kb/4601382>
 > - Windows 10 버전 20H2 -<https://support.microsoft.com/kb/4601382>

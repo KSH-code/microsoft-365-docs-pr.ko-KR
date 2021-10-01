@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9533cff93c3e7f5a1859834d93541a1f818eca21
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 708d7d271e03b127460d5b2aa2745568d920a198
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59489625"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042881"
 ---
 # <a name="evaluate-controlled-folder-access"></a>제어된 폴더 액세스 평가
 
@@ -33,7 +33,7 @@ ms.locfileid: "59489625"
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 
-[제어된 폴더 액세스는](controlled-folders.md) 의심스러운 앱 또는 악성 앱에 의해 문서 및 파일을 수정하지 못하게 보호하는 기능입니다. 제어된 폴더 액세스는 Windows Server 2019 및 Windows 10 지원됩니다.
+[제어된 폴더 액세스는](controlled-folders.md) 의심스러운 앱 또는 악성 앱에 의해 문서 및 파일을 수정하지 못하게 보호하는 기능입니다. 제어된 폴더 액세스는 Windows Server 2019, Windows Server 2022 및 Windows 10 지원됩니다.
 
 파일을 암호화하고 인질을 [](https://www.microsoft.com/wdsi/threats/ransomware) 보유하려는 랜섬웨어로부터 보호하는 데 특히 유용합니다.
 

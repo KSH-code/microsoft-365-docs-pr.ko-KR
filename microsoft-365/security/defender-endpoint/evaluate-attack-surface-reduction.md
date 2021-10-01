@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9c041e91f2581390a75cbe5151960e5be2e1be29
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 232fda3b5d9c9f14db9225ae6f7d98127a394244
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59489635"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043242"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 평가
 
@@ -41,6 +41,7 @@ ms.locfileid: "59489635"
 - Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- Windows Server 2022
 
 > [!WARNING]
 > 공격 서비스 축소 규칙을 Windows Server 2016 예기치 않은 결과가 발생하고 서버 성능에 영향을 줄 수 있습니다. 지원되지 않는 플랫폼에 공격 표면 감소 규칙을 사용하도록 설정하거나 배포하지 않는 것이 좋습니다.

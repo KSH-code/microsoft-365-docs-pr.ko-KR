@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1a51ec4d2e17275379eb40521f506e4a83d19ef
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3765bdc36dc53f10c1842754266f72434f5b2f1c
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185859"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043134"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>끝점용 Microsoft Defender 평가 랩
 
@@ -44,7 +44,7 @@ ms.locfileid: "59185859"
 
 자동화된 조사, 고급 헌팅 및 위협 분석과 같은 플랫폼의 강력한 기능에 대한 모든 권한을 가지게 되므로 Endpoint용 Defender가 제공하는 포괄적인 보호 스택을 테스트할 수 있습니다.
 
-최신 OS 버전과 올바른 보안 구성 요소를 설치하고 Office 2019 Standard를 설치하도록 미리 구성된 Windows 10 또는 Windows Server 2019 장치를 추가할 수 있습니다.
+최신 OS 버전과 올바른 보안 구성 요소를 설치하고 Office 2019 Standard를 설치하도록 미리 구성된 Windows 10 또는 Windows Server 2019 또는 Windows Server 2022 장치를 추가할 수 있습니다.
 
 위협 시뮬레이터를 설치할 수 있습니다. Endpoint용 Defender는 업계를 선도하는 위협 시뮬레이션 플랫폼과 파트너가 되어 포털을 떠나지 않고도 끝점용 Defender 기능을 테스트할 수 있습니다.
 
@@ -106,7 +106,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 ## <a name="add-devices"></a>장치 추가
 
-환경에 장치를 추가하면 끝점용 Defender가 연결 세부 정보가 있는 잘 구성된 장치를 설치합니다. Server 2019 Windows 10 또는 Windows 추가할 수 있습니다.
+환경에 장치를 추가하면 끝점용 Defender가 연결 세부 정보가 있는 잘 구성된 장치를 설치합니다. Server 2019 또는 Windows 10 Windows 또는 Server 2022 Windows 추가할 수 있습니다.
 
 장치는 최신 버전의 OS 및 Office 2019 Standard 및 Java, PysIntenals 등의 기타 앱으로 구성됩니다.
 
@@ -135,7 +135,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 1. 대시보드에서 장치 **추가 를 선택합니다.**
 
-2. 추가할 디바이스 유형을 선택하십시오. Server 2019를 추가하거나 Windows 10 Windows 수 있습니다.
+2. 추가할 디바이스 유형을 선택하십시오. Server 2019 또는 Windows 10 또는 Windows Server 2022를 Windows 수 있습니다.
 
     :::image type="content" source="../../media/add-machine-optionsnew.png" alt-text="디바이스 옵션을 사용하여 랩 설정.":::
 

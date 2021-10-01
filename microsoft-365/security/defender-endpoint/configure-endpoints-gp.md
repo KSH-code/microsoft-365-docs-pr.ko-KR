@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.date: 04/24/2018
+ms.date: 09/16/2021
 ms.technology: mde
-ms.openlocfilehash: b4e6becbdb0e26317bcc29e5bb70e24486d43414
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 0d33484a7d7369cd9b3727fbd125e208649c533d
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400453"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60041783"
 ---
 # <a name="onboard-the-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드
 
@@ -39,7 +39,7 @@ ms.locfileid: "59400453"
 > [!NOTE]
 > GP(그룹 정책) 업데이트를 사용하여 패키지를 배포하려면 Windows Server 2008 R2 이상에 있어야 합니다.
 >
-> Windows Server 2019의 경우 그룹 정책 기본 설정에서 만드는 XML 파일의 NT AUTHORITY\Well-Known-System-Account를 NT AUTHORITY\SYSTEM으로 대체해야 할 수 있습니다.
+> Windows Server 2019 및 Windows Server 2022의 경우 그룹 정책 기본 설정에서 만드는 XML 파일의 NT AUTHORITY\Well-Known-System-Account를 NT AUTHORITY\SYSTEM으로 대체해야 할 수 있습니다.
 
 ## <a name="onboard-devices-using-group-policy"></a>그룹 정책을 사용하여 장치 온보딩
 
@@ -113,7 +113,7 @@ GP(그룹 정책)를 사용하여 심층 분석 기능에 사용되는 샘플 �
 
 ### <a name="update-endpoint-protection-configuration"></a>끝점 보호 구성 업데이트
 
-온보딩 스크립트를 구성한 후 동일한 그룹 정책을 계속 편집하여 끝점 보호 구성을 추가합니다. Windows 10 또는 Server 2019를 실행하는 시스템에서 그룹 정책 편집을 수행하여 필요한 모든 사용자 Microsoft Defender 바이러스 백신 합니다. 그룹 정책 개체를 닫았다가 다시 열고 Defender ATP 구성 설정을 등록해야 할 수 있습니다.
+온보딩 스크립트를 구성한 후 동일한 그룹 정책을 계속 편집하여 끝점 보호 구성을 추가합니다. Windows 10 또는 Server 2019 또는 Windows Server 2022를 실행하는 시스템에서 그룹 정책 편집을 수행하여 필요한 모든 Microsoft Defender 바이러스 백신 합니다. 그룹 정책 개체를 닫았다가 다시 열고 Defender ATP 구성 설정을 등록해야 할 수 있습니다.
 
 모든 정책은 에 `Computer Configuration\Policies\Administrative Templates` 있습니다.
 

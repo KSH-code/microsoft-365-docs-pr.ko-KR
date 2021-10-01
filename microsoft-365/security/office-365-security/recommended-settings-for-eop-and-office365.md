@@ -19,12 +19,12 @@ ms.collection:
 description: 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 Office 365 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떻게 해야 하나요? 또한 2016년 8월에 Defender를 사용하는 경우 어떤 추가 Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c84f98bdcf27106aceb588d4ddee82d9328d80c6
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: c7ac68c1085a748b82007ff3a890e7dc42b46ce3
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483834"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043218"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정
 
@@ -61,7 +61,7 @@ ms.locfileid: "59483834"
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**스팸 속성에 & 대량 전자 메일 임계값**|||||
 |**대량 전자 메일 임계값** <p> _BulkThreshold_|7 |6 |4 |자세한 내용은 [EOP의 BCL(대량 불만 수준)을 참조합니다.](bulk-complaint-level-values.md)|
@@ -71,7 +71,7 @@ ms.locfileid: "59483834"
 |**특정 언어 포함** <p> _EnableLanguageBlockList_ <p> _LanguageBlockList_|**해제** <p> `$false` <p> Blank|**해제** <p> `$false` <p> Blank|**해제** <p> `$false` <p> Blank|이 설정에 대한 구체적인 권장은 없습니다. 비즈니스 요구에 따라 특정 언어로 메시지를 차단할 수 있습니다.|
 |**다음 국가에서** <p> _EnableRegionBlockList_ <p> _RegionBlockList_|**해제** <p> `$false` <p> Blank|**해제** <p> `$false` <p> Blank|**해제** <p> `$false` <p> Blank|이 설정에 대한 구체적인 권장은 없습니다. 비즈니스 요구에 따라 특정 국가에서 보낸 메시지를 차단할 수 있습니다.|
 |**테스트 모드(** _TestModeAction_)|**없음**|**없음**|**없음**|이 설정은 ASF의 일부입니다. 자세한 내용은 이 문서의 스팸 방지 정책의 [ASF](#asf-settings-in-anti-spam-policies) 설정을 참조하세요.|
-|**작업**||||**Quarantine message (메시지)** 를 선택하면 **Select quarantine policy 상자를** 사용할 수 있습니다. Quarantine policies define what users are allowed to do to quarantined messages. <p> 새 스팸 방지 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 해당 특정 판결에 의해 검역된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(높은 지수의 피싱에 대한 AdminOnlyAccessPolicy **;** DefaultFullAccessPolicy는 다른 모든 것을 위한 것입니다. <p> 관리자는 사용자에 대해 보다 제한적이거나 덜 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)|
+|**작업**||||**Quarantine message (메시지)** 를 선택하면 **Select quarantine policy 상자를** 사용할 수 있습니다. Quarantine policies define what users are allowed to do to quarantined messages. <p> 새 스팸 방지 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 해당 특정 판결에 의해 검역된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(높은 지수의 피싱에 대한 AdminOnlyAccessPolicy **;** DefaultFullAccessPolicy는 다른 모든 것을 위한 것입니다. <p> 관리자는 사용자에 대해 보다 제한적이거나 덜 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
 |**스팸** 검색 작업 <p> _SpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`||
 |**높은 지수 스팸** 감지 작업 <p> _HighConfidenceSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
 |**피싱 감지** 작업 <p> _PhishSpamAction_|**메시지 검량** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
@@ -128,7 +128,7 @@ ms.locfileid: "59483834"
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**외부 메시지 제한 설정** <p> _RecipientLimitExternalPerHour_|0|500|400|기본값 0은 서비스 기본값을 사용하는 것입니다.|
 |**내부 메시지 제한 설정** <p> _RecipientLimitInternalPerHour_|0|1000|800|기본값 0은 서비스 기본값을 사용하는 것입니다.|
@@ -147,12 +147,12 @@ ms.locfileid: "59483834"
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**보호 설정**|||||
 |**공통 첨부 파일 필터 사용** <p> _EnableFileFilter_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|이 설정은 첨부 파일 콘텐츠에 관계없이 파일 형식에 따라 실행 파일이 포함된 메시지를 검지합니다.|
 |**맬웨어에 대해 제로 아워 자동 제거 사용** <p> _ZapEnabled_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
-|**Quarantine policy**|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|새 맬웨어 방지 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 맬웨어로 검역된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(AdminOnlyAccessPolicy). <p> 관리자는 사용자에 대해 더 많은 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)|
+|**Quarantine policy**|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|새 맬웨어 방지 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 맬웨어로 검역된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(AdminOnlyAccessPolicy). <p> 관리자는 사용자에 대해 더 많은 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
 |**받는 사람 알림**|||||
 |**메시지가 맬웨어로 차단된 경우 받는 사람에게 알림** <p> _작업_|선택되지 않음 <p> _DeleteMessage_|선택되지 않음 <p> _DeleteMessage_|선택되지 않음 <p> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색된 경우 메시지는 검지되고 관리자만 릴리스할 수 있습니다.|
 |**보낸 사람 알림**|||||
@@ -181,12 +181,12 @@ ms.locfileid: "59483834"
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**스푸핑 인텔리전스 사용** <p> _EnableSpoofIntelligence_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**작업**|||||
-|**메시지가 스푸핑으로 검색된 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 Quarantine the message** <p> `Quarantine`|이 설정은 스푸핑 인텔리전스 인사이트에 표시된 [](learn-about-spoof-intelligence.md) 것 같이 자동으로 차단되거나 테넌트 허용/차단 목록에서 수동으로 차단된 스푸핑된 보낸 [사람에 적용됩니다.](tenant-allow-block-list.md) <p> 메시지 **Quarantine(메시지에 대해) Quarantine(메시지에** 대해) 확인란을 선택하면 스푸핑으로 확인된 메시지에 대해 사용자가 할 수 있는 작업을 정의하는 검지 정책 적용 상자를 사용할 수 있습니다.  새 피싱 방지 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 스푸핑으로 검역된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(DefaultFullAccessPolicy). <p> 관리자는 사용자에 대해 보다 제한적이거나 덜 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)|
+|**메시지가 스푸핑으로 검색된 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 Quarantine the message** <p> `Quarantine`|이 설정은 스푸핑 인텔리전스 인사이트에 표시된 [](learn-about-spoof-intelligence.md) 것 같이 자동으로 차단되거나 테넌트 허용/차단 목록에서 수동으로 차단된 스푸핑된 보낸 [사람에 적용됩니다.](tenant-allow-block-list.md) <p> 메시지 **Quarantine(메시지에 대해) Quarantine(메시지에** 대해) 확인란을 선택하면 스푸핑으로 확인된 메시지에 대해 사용자가 할 수 있는 작업을 정의하는 검지 정책 적용 상자를 사용할 수 있습니다.  새 피싱 방지 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 스푸핑으로 검역된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(DefaultFullAccessPolicy). <p> 관리자는 사용자에 대해 보다 제한적이거나 덜 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
 |**첫 번째 연락처 보안 팁** <p> _EnableFirstContactSafetyTips_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)|
 |**스푸핑을 위해 확인되지 않은 보낸 사람에 대한 표시(?)** <p> _EnableUnauthenticatedSender_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`|미확인 스푸핑된 보낸 사람에 대한 보낸 Outlook 사진에 물음표(?)를 추가합니다. 자세한 내용은 [Unauthenticated sender 을 참조하십시오.](set-up-anti-phishing-policies.md#unauthenticated-sender)|
 |**"via" 태그 표시** <p> _EnableViaTag_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`|DKIM 서명의 도메인 또는 MAIL FROM 주소의 도메인과 다른 경우 보낸 chris@contoso.com (fabrikam.com 통해) 태그를 보낸사용자 주소에 **추가합니다.** <p> 자세한 내용은 [Unauthenticated sender 을 참조하십시오.](set-up-anti-phishing-policies.md#unauthenticated-sender)|
@@ -218,7 +218,7 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**피싱 전자 메일 임계값** <p> _PhishThresholdLevel_|**1 - 표준** <p> `1`|**2 - 적극적** <p> `2`|**3 - 보다 적극적** <p> `3`||
 |
@@ -231,7 +231,7 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**사용자가 보호할** 수 있도록 설정(가장된 사용자 보호) <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|선택되지 않음 <p> `$false` <p> 없음|선택됨 <p> `$true` <p> \<list of users\>|선택됨 <p> `$true` <p> \<list of users\>|주요 역할에 사용자(메시지 보낸 사람)를 추가하는 것이 좋습니다. 내부적으로 보호된 보낸 사람이 CEO, CFO 및 기타 고위 리더일 수 있습니다. 외부적으로 보호되는 보낸 사람에는 위원회 구성원이나 해당 이사진이 포함됩니다.|
@@ -241,7 +241,7 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 |**신뢰할 수 있는 발신자 및 도메인 추가** <p> _ExcludedSenders_ <p> _ExcludedDomains_|없음|없음|없음|조직에 따라 가장 시도로 잘못 식별된 보낸 사람 또는 도메인을 추가하는 것이 좋습니다.|
 |**사서함 인텔리전스 사용** <p> _EnableMailboxIntelligence_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**가장 보호를 위한 인텔리전스 사용** <p> _EnableMailboxIntelligenceProtection_|해제 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|이 설정을 사용하면 사서함 인텔리전스에서 가장 검색에 대해 지정된 작업을 허용합니다.|
-|**작업**||||메시지에 **대한 Quarantine(메시지) 을** 선택하는 경우 Select **quarantine policy(선택)** 정책 상자를 사용할 수 있습니다. Quarantine policies define what users are allowed to do to quarantined messages. <p> 새 피싱 방지 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 해당 판정에 의해 의해 검역된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(모든 가장 검색 유형에 대한 DefaultFullAccessPolicy). <p> 관리자는 사용자에 대해 덜 제한적이거나 더 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)|
+|**작업**||||메시지에 **대한 Quarantine(메시지) 을** 선택하는 경우 Select **quarantine policy(선택)** 정책 상자를 사용할 수 있습니다. Quarantine policies define what users are allowed to do to quarantined messages. <p> 새 피싱 방지 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 해당 판정에 의해 의해 검역된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(모든 가장 검색 유형에 대한 DefaultFullAccessPolicy). <p> 관리자는 사용자에 대해 덜 제한적이거나 더 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
 |**가장된 사용자로 메시지가 검색된 경우** <p> _TargetedUserProtectionAction_|**어떤 작업도 적용하지 않습니다.** <p> `NoAction`|**메시지 Quarantine the message** <p> `Quarantine`|**메시지 Quarantine the message** <p> `Quarantine`||
 |**가장된 도메인으로 메시지가 검색된 경우** <p> _TargetedDomainProtectionAction_|**어떤 작업도 적용하지 않습니다.** <p> `NoAction`|**메시지 Quarantine the message** <p> `Quarantine`|**메시지 Quarantine the message** <p> `Quarantine`||
 |**사서함 인텔리전스에서 사용자를 검색하고 가장한 경우** <p> _MailboxIntelligenceProtectionAction_|**어떤 작업도 적용하지 않습니다.** <p> `NoAction`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 Quarantine the message** <p> `Quarantine`||
@@ -260,12 +260,12 @@ EOP의 스팸 방지 정책 설정에서 사용할 수 있는 설정과 [동일�
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**스푸핑 인텔리전스 사용** <p> _EnableSpoofIntelligence_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**작업**|||||
-|**메시지가 스푸핑으로 검색된 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 Quarantine the message** <p> `Quarantine`|이 설정은 스푸핑 인텔리전스 인사이트에 표시된 [](learn-about-spoof-intelligence.md) 것 같이 자동으로 차단되거나 테넌트 허용/차단 목록에서 수동으로 차단된 스푸핑된 보낸 [사람에 적용됩니다.](tenant-allow-block-list.md) <p> 메시지 **Quarantine(메시지에** 대해) 을 선택하면 사용자가 검지된 메시지에 대해 할 수 있는 작업을 정의하는 검지 정책 적용 상자를 선택할 수 있습니다.  새 피싱 방지 정책을 만들 때 값을 비워 두면 기본 검역 정책이 스푸핑된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(DefaultFullAccessPolicy). <p> 관리자는 이러한 메시지에 대해 허용되는 받는 사람을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)|
+|**메시지가 스푸핑으로 검색된 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 Quarantine the message** <p> `Quarantine`|이 설정은 스푸핑 인텔리전스 인사이트에 표시된 [](learn-about-spoof-intelligence.md) 것 같이 자동으로 차단되거나 테넌트 허용/차단 목록에서 수동으로 차단된 스푸핑된 보낸 [사람에 적용됩니다.](tenant-allow-block-list.md) <p> 메시지 **Quarantine(메시지에** 대해) 을 선택하면 사용자가 검지된 메시지에 대해 할 수 있는 작업을 정의하는 검지 정책 적용 상자를 선택할 수 있습니다.  새 피싱 방지 정책을 만들 때 값을 비워 두면 기본 검역 정책이 스푸핑된 메시지에 대한 기록 기능을 정의하는 데 사용됩니다(DefaultFullAccessPolicy). <p> 관리자는 이러한 메시지에 대해 허용되는 받는 사람을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
 |**첫 번째 연락처 보안 팁** <p> _EnableFirstContactSafetyTips_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|자세한 내용은 첫 번째 연락처 [보안 팁.](set-up-anti-phishing-policies.md#first-contact-safety-tip)|
 |**스푸핑을 위해 확인되지 않은 보낸 사람에 대한 표시(?)** <p> _EnableUnauthenticatedSender_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`|미확인 스푸핑된 보낸 사람에 대한 보낸 Outlook 사진에 물음표(?)를 추가합니다. 자세한 내용은 [Unauthenticated sender 을 참조하십시오.](set-up-anti-phishing-policies.md#unauthenticated-sender)|
 |**"via" 태그 표시** <p> _EnableViaTag_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`|DKIM 서명의 도메인 또는 MAIL FROM 주소의 도메인과 다른 경우 보낸 chris@contoso.com (fabrikam.com 통해) 태그를 보낸사용자 주소에 **추가합니다.** <p> 자세한 내용은 [Unauthenticated sender 을 참조하십시오.](set-up-anti-phishing-policies.md#unauthenticated-sender)|
@@ -285,7 +285,7 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기** <p> _EnableATPForSPOTeamsODB_|해제 <p> `$false`|켜짐 <p> `$true`|설정 <p> `$true`||
 |**클라이언트에 금고 문서 Office 켜기** <p> _EnableSafeDocs_|해제 <p> `$false`|켜짐 <p> `$true`|설정 <p> `$true`|이 기능은 사용자용 Defender에 포함되어 있지 않은 라이선스(예: Microsoft 365 E5 또는 Microsoft 365 E5 Security)에서만 사용할 수 있으며 의미가 Office 365 있습니다. 자세한 내용은 금고 [문서의 Microsoft 365 E5.](safe-docs.md)|
@@ -305,10 +305,10 @@ PowerShell에서는 이러한 설정에 [New-SafeAttachmentPolicy](/powershell/m
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**금고 첨부 파일 알 수 없는 맬웨어 응답** <p> _사용_ 및 _작업_|**해제** <p> `-Enable $false` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|_Enable_ 매개 변수가 $false _Action_ 매개 변수의 값은 중요하지 않습니다.|
-|**Quarantine policy** (_QuarantineTag_)|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|새 금고 첨부 파일 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 첨부 파일(AdminOnlyAccessPolicy)에서 금고 메시지에 대한 기록 기능을 정의하는 데 사용됩니다. <p> 관리자는 사용자에 대해 더 많은 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)|
+|**Quarantine policy** (_QuarantineTag_)|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|새 금고 첨부 파일 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 첨부 파일(AdminOnlyAccessPolicy)에서 금고 메시지에 대한 기록 기능을 정의하는 데 사용됩니다. <p> 관리자는 사용자에 대해 더 많은 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
 |**검색된 첨부 파일이 있는 첨부 파일 리디렉션:** **리디렉션 사용** <p> _리디렉션_ <p> _RedirectAddress_|선택되어 있지 않습니다. 전자 메일 주소가 지정되지 않았습니다. <p> `-Redirect $false` <p> _RedirectAddress가_ 비어 있습니다( `$null` )|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다.|
 |**검사가 금고 수 없는 경우 첨부 파일 검색 응답 적용(시간 제한 또는 오류)** <p> _ActionOnError_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |
@@ -327,12 +327,12 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**다음 URL 차단** <p> _ExcludedUrls_|Blank <p> `$null`|Blank <p> `$null`|Blank <p> `$null`|이 설정에 대한 구체적인 권장은 없습니다. <p> 자세한 내용은 링크에 대한 "다음 URL [차단" 금고 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
-|**앱의 금고 링크 Office 365 사용** <p> _EnableSafeLinksForO365Clients_|설정 <p> `$true`|설정 <p> `$true`|설정 <p> `$true`|지원되는 금고 데스크톱 및 모바일(iOS 및 Android) 앱에서 Office 365 링크를 사용하세요. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
+|**앱의 금고 링크 Office 365 사용** <p> _EnableSafeLinksForO365Clients_|설정 <p> `$true`|켜짐 <p> `$true`|설정 <p> `$true`|지원되는 금고 데스크톱 및 모바일(iOS 및 Android) 앱에서 Office 365 링크를 사용하세요. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
 |**사용자가 앱의 보호된 링크를 클릭하는 Office 365 추적하지 않습니다.** <p> _TrackClicks_|켜짐 <p> `$false`|해제 <p> `$true`|해제 <p> `$true`|이 설정을 _끄면(TrackClicks를_ 로 설정) 지원되는 앱의 사용자 `$true` 클릭을 Office 365 추적합니다.|
-|**사용자가 앱의 원래 URL을 클릭할 Office 365 안 하세요.** <p> _AllowClickThrough_|설정 <p> `$false`|설정 <p> `$false`|설정 <p> `$false`|이 설정을 _켜면(AllowClickThrough를_ 로 설정) 지원되는 앱의 원래 `$false` URL을 클릭할 Office 365 없습니다.|
+|**사용자가 앱의 원래 URL을 클릭할 Office 365 안 하세요.** <p> _AllowClickThrough_|켜짐 <p> `$false`|설정 <p> `$false`|설정 <p> `$false`|이 설정을 _켜면(AllowClickThrough를_ 로 설정) 지원되는 앱의 원래 `$false` URL을 클릭할 Office 365 없습니다.|
 |
 
 #### <a name="safe-links-policy-settings"></a>금고 링크 정책 설정
@@ -348,11 +348,11 @@ PowerShell에서는 이러한 설정에 [New-SafeLinksPolicy](/powershell/module
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|댓글|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**보호 설정**|||||
-|**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|**해제** <p> `$false`|**설정** <p> `$true`|**설정** <p> `$true`||
-|**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|**해제** <p> `$false`|**설정** <p> `$true`|**설정** <p> `$true`||
+|**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|**해제** <p> `$false`|**켜짐** <p> `$true`|**설정** <p> `$true`||
+|**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|**해제** <p> `$false`|**켜짐** <p> `$true`|**설정** <p> `$true`||
 |**파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용** <p> _ScanUrls_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**메시지를 배달하기 전에 URL 검색이 완료될 때까지 기다렸다가** <p> _DeliverMessageAfterScan_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**조직 금고 보낸 전자 메일 메시지에 링크 적용** <p> _EnableForInternalSenders_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
@@ -372,4 +372,4 @@ PowerShell에서는 이러한 설정에 [New-SafeLinksPolicy](/powershell/module
 
 - [EOP](/exchange/standalone-eop/set-up-your-eop-service)서비스를 설정하는  방법에 대한 자세한 내용은  다음 링크를 사용하여 에서 에 대해 [Microsoft Defender를 Office 365.](defender-for-office-365.md) ' Protect Against Threats in[Office 365'의](protect-against-threats.md)유용한 Office 365.
 
--  Windows 보안 기준은 GPO/Windows 보안 기준을 어디서 얻을 수 [있나요?](/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) 및 Intune 기반 보안을 위해 [Intune에서](/intune/protect/security-baselines) Windows 10 장치를 구성하는 보안 기준을 사용할 수 있습니다. 마지막으로 끝점용 Microsoft Defender와 Microsoft Intune 보안 기준 비교는 [Endpoint용 Microsoft Defender 및 Windows Intune](/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)보안 기준 비교에서 사용할 수 있습니다.
+-  Windows 보안 기준은 GPO/Windows 보안 기준을 어디서 얻을 수 [있나요?](/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) 및 Intune 기반 보안을 위해 [Intune에서](/intune/protect/security-baselines) Windows 장치를 구성하는 보안 기준을 사용할 수 있습니다. 마지막으로 끝점용 Microsoft Defender와 Microsoft Intune 보안 기준 비교는 [Endpoint용 Microsoft Defender 및 Windows Intune](/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)보안 기준 비교에서 사용할 수 있습니다.

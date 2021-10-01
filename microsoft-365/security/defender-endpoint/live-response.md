@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71fd1428df73686f59199c70d988599f511faaf3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5e77cecfe06606f974c4e488bcec14e12c9ce0de
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165698"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043338"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 
@@ -66,6 +66,9 @@ ms.locfileid: "59165698"
   - **Windows Server 2019 - 공개 미리 보기에만 해당**
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
+    
+  - **Windows Server 2022**
+       
 
 - **고급 설정 페이지에서 라이브 응답을 사용하도록 설정합니다.**
 

@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 755086b039a95770ef1f615733f46c3c782214fc
-ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
+ms.openlocfilehash: 94f45fd03d33fb5c1111e8a9098acc21b4830b01
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59941942"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60041711"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -84,7 +84,7 @@ Microsoft 365 규정 준수 도구 모음은 조직의 법률 및 [](/microsoft-
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>4단계: 정리된 컴퓨터 또는 장치에서 파일 복구
 
-사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하는 것을 방지) Windows 10 및 Windows 8.1 또는 System Protection의 파일 기록을 Windows 7의 파일 기록을 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
+사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하는 것을 방지) Windows 11, Windows 10, Windows 8.1 및 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
 
 **참고**:
 
@@ -160,7 +160,7 @@ Microsoft 365:
 
 - [Microsoft 365 테넌트용 랜섬웨어 보호 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
-- [랜섬웨어에서 Windows 10 PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
+- [랜섬웨어로부터 Windows PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
 
 Microsoft 365 Defender:

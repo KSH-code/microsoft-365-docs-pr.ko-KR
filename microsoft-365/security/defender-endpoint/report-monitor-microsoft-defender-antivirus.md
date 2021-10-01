@@ -17,12 +17,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 1e754f43cc1963ae7991a72a65fef2aefa833305
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: 3f4a0c8fbcfe58a252bb393fdba837e6ecad85ab
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59498067"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60041651"
 ---
 # <a name="report-on-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에 대한 보고
 
@@ -33,7 +33,7 @@ ms.locfileid: "59498067"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-Microsoft Defender 바이러스 백신 Windows 10 Server 2019 및 Windows 기본 제공 Windows Server 2016. Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint의 차세대 보호 기능입니다. 차세대 보호는 전자 메일, 앱, 클라우드 및 웹에서 바이러스, 맬웨어 및 스파이웨어와 같은 소프트웨어 위협으로부터 장치를 보호하는 데 도움이 됩니다.
+Microsoft Defender 바이러스 백신 Windows 10 Server 2019, Windows Server 2022 및 Windows Windows Server 2016. Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint의 차세대 보호 기능입니다. 차세대 보호는 전자 메일, 앱, 클라우드 및 웹에서 바이러스, 맬웨어 및 스파이웨어와 같은 소프트웨어 위협으로부터 장치를 보호하는 데 도움이 됩니다.
 
 이 Microsoft Defender 바이러스 백신 보호 상태 및 경고를 검토하기 위한 몇 가지 옵션이 있습니다. 전자 메일 알림을 Microsoft Endpoint Manager [모니터링하거나 Microsoft Defender 바이러스 백신](/configmgr/protect/deploy-use/monitor-endpoint-protection) [수 있습니다.](/configmgr/protect/deploy-use/endpoint-configure-alerts) 또는 를 사용하여 보호를 모니터링할 [Microsoft Intune.](/intune/introduction-intune)
 

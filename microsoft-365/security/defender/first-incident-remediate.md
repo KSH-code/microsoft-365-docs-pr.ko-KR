@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 954fa4d9879e9654847f50ad15f8ff3c3a88caf4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dfcb6b08286e4751d764e5eb10542a6d8baeecf4
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213292"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042821"
 ---
 # <a name="step-2-remediate-your-first-incident"></a>2단계. 첫 번째 인시던트 수정
 
@@ -52,7 +52,7 @@ Microsoft 365 Defender 분석가가 수동으로 시작할 수 있는 여러 가
 
 ## <a name="actions-on-files"></a>파일에 대한 작업
 
-- 파일 중지 및 **Quarantine** - 이 작업으로는 실행 중인 프로세스를 중지하고, 파일을 검지하고, 레지스트리 키와 같은 영구 데이터를 삭제하는 작업이 포함됩니다. 이 작업은 지난 30일 동안 Windows 10 버전 1703 이상이 있는 장치에 적용됩니다. 
+- 파일 중지 및 **Quarantine** - 이 작업으로는 실행 중인 프로세스를 중지하고, 파일을 검지하고, 레지스트리 키와 같은 영구 데이터를 삭제하는 작업이 포함됩니다. 이 작업은 지난 30일 동안 파일이 관찰된 Windows 11 또는 Windows 10 버전 1703 이상이 있는 장치에 적용됩니다. 
 - **파일을 차단하거나** 허용하는 표시기 추가 - 잠재적으로 악의적인 파일 또는 의심되는 맬웨어를 금지하여 조직에서 공격이 더 이상 전파되지 않도록 합니다. 이 작업을 수행하면 조직의 장치에서 파일을 읽거나 쓰거나 실행할 수 없습니다.
 - **파일 다운로드** 또는 수집 - 이 작업을 통해 분석가가 암호로 보호된 파일 보관 파일로 파일을 .zip 추가 분석을 위해 파일을 다운로드할 수 있습니다.
 - **심층 분석** - 이 작업은 안전하고 완벽하게 계측된 클라우드 환경에서 파일을 실행합니다. 심층 분석 결과에는 파일의 활동, 관찰된 동작 및 연결된 아티팩트(예: 삭제된 파일, 레지스트리 수정, IP 주소와의 통신)가 표시됩니다. 

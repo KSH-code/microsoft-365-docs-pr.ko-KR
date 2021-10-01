@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2d6831cfaec813f5ab2598087c2777d867a5f8a7
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: 13391bb906f2d056d4c554d52ffcf1ed8b6a6e2b
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60009424"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042749"
 ---
 # <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>조직의 취약성 - 위협 및 취약성 관리
 
@@ -141,7 +141,7 @@ CVE를 선택하면 취약성 설명, 세부 정보, 위협 정보 및 노출된
 
 소프트웨어 증거와 마찬가지로, 이제 디바이스에 적용한 검색 논리를 표시하여 취약하다는 사실도 밝혔습니다. 새 섹션을 "검색 논리"(디바이스 페이지의 검색된 모든 취약성)라고 부르며 검색 논리 및 소스를 보여 주며,
 
-관련 시나리오에서도 "OS 기능" 범주가 표시됩니다. CVE는 특정 OS 구성 요소를 사용하는 경우 취약한 OS를 실행하는 장치에만 영향을 미치게 됩니다. Server 2019의 WINDOWS DNS 구성 요소에 취약점이 있습니다. 이 새로운 기능을 사용하여 OS에서 사용하도록 설정된 DNS 기능을 사용하여 Windows Server 2019 장치에만 이 CVE를 연결합니다.
+관련 시나리오에서도 "OS 기능" 범주가 표시됩니다. CVE는 특정 OS 구성 요소를 사용하는 경우 취약한 OS를 실행하는 장치에만 영향을 미치게 됩니다. Windows Server 2019 또는 Windows Server 2022의 DNS 구성 요소에 취약점이 있습니다. 이 새로운 기능을 사용하여 OS에서 사용하도록 설정된 DNS 기능을 사용하여 Windows Server 2019 및 Windows Server 2022 장치에만 이 CVE를 연결합니다.
 
 :::image type="content" alt-text="검색 논리 장치 및 KB에서 검색된 소프트웨어를 나열하는 예제입니다." source="images/tvm-cve-detection-logic.png":::
 

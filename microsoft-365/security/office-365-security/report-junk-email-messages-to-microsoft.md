@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 분석을 위해 Microsoft에 좋은 메시지와 잘못된 메시지와 파일을 보고하는 다양한 방법에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 77b370bcd0a1ee59e80a638669598cf27ef32942
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: 6dbf5a840da4474306b6140e16bdc01d24761eed
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988922"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042809"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Microsoft에 메시지와 파일 보고
 
@@ -50,4 +50,4 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 |
 
 > [!NOTE]
-> Microsoft에 제출하는 데이터는 북미 데이터 센터의 Office 365 규정 준수 경계 안에서 보관됩니다. 이 데이터는 필터링 효과를 개선하는 데 도움을 주기 위해 엔지니어링 팀의 분석가가 검토합니다.
+> Microsoft에 제출하는 데이터는 북미 데이터 센터의 Office 365 규정 준수 경계 안에서 보관됩니다. 이 데이터는 필터링 효과를 개선하는 데 도움을 주기 위해 엔지니어링 팀의 분석가가 검토합니다. 제출은 필터를 개선하는 데 도움이 되는 피드백으로 간주하며 30일 동안 보관됩니다. 그런 다음 삭제됩니다.

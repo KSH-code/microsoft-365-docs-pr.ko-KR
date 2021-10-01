@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7fc5e0a37f57928b2ee1318d01e2a10b95a36108
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9913f431c0a20d239019d645f04328e75b548b12
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211995"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042737"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -65,7 +65,7 @@ ms.locfileid: "59211995"
 |`ResourceTenantId`|문자열|액세스한 리소스의 테넌트의 고유 식별자입니다.|
 |`DeviceName`|문자열|컴퓨터의 FQDN(정규화된 도메인 이름)|
 |`AadDeviceId`|문자열|Azure AD에서 디바이스의 고유 식별자|
-|`OSPlatform`|문자열|컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다.|
+|`OSPlatform`|문자열|컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 11, Windows, Windows 10 및 Windows 7과 같은 특정 운영 체제를 나타냅니다.|
 |`DeviceTrustType`|문자열|로그인한 장치의 트러스트 유형을 나타냅니다. 관리되는 장치 시나리오의 경우만 해당합니다. 가능한 값은 Workplace, AzureAd 및 ServerAd입니다.|
 |`IsManaged`|int|로그인을 시작한 장치가 관리되는 장치(1)인지 아니면 관리되는 장치(0)가 아닌지 나타냅니다.|
 |`IsCompliant`|int|로그인을 시작한 장치가 호환(1) 또는 비호응(0)하는지 나타냅니다.|

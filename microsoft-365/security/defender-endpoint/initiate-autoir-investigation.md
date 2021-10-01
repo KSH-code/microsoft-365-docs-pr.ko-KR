@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9da8f0c15fdffbecb701955be10289ff19f28d1f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 336fc335b5008445e19464bb09cdaa6312e6b334
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167087"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042641"
 ---
 # <a name="start-investigation-api"></a>조사 시작 API
 
@@ -54,6 +54,7 @@ ms.locfileid: "59167087"
 현재 AIR은 다음 OS 버전만 지원됩니다.
 
 - Windows Server 2019
+- Windows Server 2022
 - Windows 10 버전 1709(OS 빌드 [16299.1085(KB4493441)](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)이상
 - Windows 10 버전 1803(OS 빌드 [17134.704(KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)이상
 - Windows 10 버전 [1803](/windows/release-information/status-windows-10-1809-and-windows-server-2019) 이상
@@ -83,7 +84,7 @@ POST https://api.security.microsoft.com/api/machines/{id}/startInvestigation
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|문자열|Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 Content-Type|문자열|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문

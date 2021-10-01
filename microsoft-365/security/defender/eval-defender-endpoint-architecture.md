@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 01e7c83a797930ed0137aeb864f22485f1cc581d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 06e7c1bc2fec29ad679ea12194f83a22954a5a02
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214552"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043062"
 ---
 # <a name="review-microsoft-defender-for-endpoint-architecture-requirements-and-key-concepts"></a>끝점 아키텍처 요구 사항 및 주요 개념에 대한 Microsoft Defender 검토
 
@@ -51,8 +51,8 @@ Call-out | 설명
 1 | 디바이스는 지원되는 관리 도구 중 하나를 통해 보드됩니다. 
 2 | On-boarded devices provide and respond to Microsoft Defender for Endpoint signal data.
 3  | 관리되는 디바이스가 가입 및/또는 등록된 Azure Active Directory.
-4  | 도메인에 가입된 Windows 10 장치를 사용하여 Azure Active Directory 동기화 Azure Active Directory 커넥트.
-5  | 끝점 경고, 조사 및 응답에 대한 Microsoft Defender는 모든 Microsoft 365 Defender.
+4  | 도메인에 가입된 Windows 장치를 사용하여 Azure Active Directory 동기화 Azure Active Directory 커넥트.
+5 | 끝점 경고, 조사 및 응답에 대한 Microsoft Defender는 모든 Microsoft 365 Defender.
 
 ## <a name="understand-key-concepts"></a>주요 개념 이해
 

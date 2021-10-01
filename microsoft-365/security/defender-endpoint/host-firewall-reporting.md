@@ -15,12 +15,12 @@ ms.author: dansimp
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 1095d29ba5ad24da7b4b3da8f17ae0dc7f0e6afa
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 8400ef9e910afa6683c30221342d1c9d0ed11012
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491568"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60041635"
 ---
 # <a name="host-firewall-reporting-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 호스트 방화벽 보고
 
@@ -30,11 +30,11 @@ ms.locfileid: "59491568"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-관리자인 경우 이제 보안 센터 에 방화벽 [보고를 Microsoft 365 있습니다.](https://security.microsoft.com) 이 기능을 사용하면 중앙 위치에서 Windows 10 및 Windows Server 2019 방화벽 보고를 볼 수 있습니다.
+관리자인 경우 이제 보안 센터 에 방화벽 [보고를 Microsoft 365 있습니다.](https://security.microsoft.com) 이 기능을 사용하면 중앙 위치에서 Windows 10, Windows Server 2019 및 Windows Server 2022 방화벽 보고를 볼 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- Server 2019 또는 Windows 10 Windows 실행 중이야 합니다.
+- Server 2019 또는 Windows 10 Windows 또는 Windows 실행 중이야 합니다.
 - 디바이스를 Microsoft Defender for Endpoint 서비스에 온보딩하는 경우 여기를 [참조하세요.](onboard-configure.md)
 - 보안 Microsoft 365 센터에서 데이터 수신을 시작하려면 고급  보안이 있는 방화벽에 Windows Defender 감사 이벤트를 사용하도록 설정해야 합니다.
   - [필터링 플랫폼 패킷 삭제 감사](/windows/security/threat-protection/auditing/audit-filtering-platform-packet-drop)

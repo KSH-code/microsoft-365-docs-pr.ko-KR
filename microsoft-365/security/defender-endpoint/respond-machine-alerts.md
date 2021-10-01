@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ab1cb1563f3ccc0f7bfda9b1f8875c76446153e3
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 7626c01aeee81c50ee1bed418735c87dc61c8853
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399241"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042617"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -57,7 +57,7 @@ ms.locfileid: "59399241"
 
 > [!IMPORTANT]
 >
-> - 이러한 응답 작업은 Windows 10 버전 1703 이상 및 Server 2019의 Windows 사용할 수 있습니다.
+> - 이러한 응답 작업은 Windows 10 버전 1703 이상, Windows Server 2019 및 Windows Server 2022의 장치에만 사용할 수 있습니다.
 > - 비영리 Windows 플랫폼의 경우 응답 기능(예: 장치 고리)은 타사 기능에 따라 달라집니다.
 > - Microsoft 자사 에이전트의 경우 최소 OS 요구 사항에 대한 각 기능 아래의 "추가 정보" 링크를 참조하세요.
 
@@ -182,8 +182,8 @@ ms.locfileid: "59399241"
 
 > [!IMPORTANT]
 >
-> - 버전 1703 및 Windows 10 Server 2019의 장치에서는 Windows 있습니다.
-> - 선택적 고리 설정은 2019 버전 1709 이상 Windows 10 Server 2019의 디바이스에 Windows 있습니다.
+> - Windows 10, 버전 1703, Windows Server 2019 및 Windows 디바이스에 대해 전체 Windows 사용할 수 있습니다.
+> - 선택적 고리 설정은 Windows 10 버전 1709 이상, Windows Server 2019 및 Windows Server 2022의 장치에서 사용할 수 있습니다.
 > - 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.
 
 이 장치 분리 기능은 손상된 디바이스를 네트워크에서 분리하는 동시에 디바이스를 계속 모니터링하는 Endpoint용 Defender 서비스에 대한 연결을 유지 관리합니다.

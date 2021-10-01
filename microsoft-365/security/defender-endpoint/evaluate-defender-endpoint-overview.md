@@ -1,7 +1,7 @@
 ---
 title: 끝점 Microsoft 365 Defender 평가
 description: 테스트 Microsoft 365 Defender 또는 파일럿 환경을 설치합니다. 보안 솔루션이 조직의 장치, ID, 데이터 및 앱을 보호하도록 디자인된 방법을 테스트하고 경험합니다.
-keywords: Microsoft 365 Defender 평가, Microsoft 365 Defender 평가, Microsoft 365 Defender Microsoft 365 Defender 평가 랩, Microsoft 365 Defender 파일럿, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+keywords: Microsoft 365 Defender 평가, Microsoft 365 Defender 평가, Microsoft 365 Defender 평가Microsoft 365 Defender 평가 랩, Microsoft 365 Defender, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2c9e5d06b13cb2fa64ed9d51977ee13af19c92f8
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: b100ddc7abb64e5f73acce29edd1eecc2bd31af1
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567607"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043230"
 ---
 # <a name="evaluate-microsoft-365-defender-for-endpoint-overview"></a>끝점 Microsoft 365 Defender 평가
 
@@ -51,7 +51,7 @@ ms.locfileid: "58567607"
 
 자동화된 조사, 고급 헌팅 및 위협 분석과 같은 플랫폼의 강력한 기능에 대한 모든 권한을 가지게 되므로 Endpoint용 Defender가 제공하는 포괄적인 보호 스택을 테스트할 수 있습니다.
 
-최신 OS 버전과 올바른 보안 구성 요소를 설치하고 Office 2019 Standard를 설치하도록 미리 구성된 Windows 10 또는 Windows Server 2019 장치를 추가할 수 있습니다.
+최신 OS Windows 10 버전 Windows과 올바른 보안 구성 요소를 설치하고 Office 2019 Standard를 설치하도록 미리 구성된 Windows Server 2019 또는 Windows Server 2022 장치 또는 Office Server 2019를 추가할 수 있습니다.
 
 위협 시뮬레이터를 설치할 수 있습니다. Endpoint용 Defender는 업계를 선도하는 위협 시뮬레이션 플랫폼과 파트너가 되어 포털을 떠나지 않고도 끝점용 Defender 기능을 테스트할 수 있습니다.
 

@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: ae3b0e3ad09487d9b48ddab10a43eb36e5abed35
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 7f18d72907ec8f2775ee258906c9185672bfa9be
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353668"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60041699"
 ---
 # <a name="run-live-response-commands-on-a-device"></a>장치에서 라이브 응답 명령 실행
 
@@ -82,8 +82,10 @@ ms.locfileid: "59353668"
   - **Windows Server 2019 - 공개 미리 보기에만 해당**
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
+    
+  - **Windows Server 2022**
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
@@ -102,7 +104,7 @@ POST https://api.securitycenter.microsoft.com/API/machines/{machine_id}/runliver
 
 |이름|유형|설명|
 |---|---|---|
-|권한 부여|문자열|Bearer\<token>\. 필수 특성입니다.|
+|권한 부여|String|Bearer\<token>\. 필수 특성입니다.|
 |Content-Type|문자열|application/json. 필수 특성입니다.|
 
 ## <a name="request-body"></a>요청 본문

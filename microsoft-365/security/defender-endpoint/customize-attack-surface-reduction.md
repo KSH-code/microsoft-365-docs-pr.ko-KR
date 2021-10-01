@@ -15,12 +15,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 92cb643d0e133f0b850e16e076a88901b595e426
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 4158541714807c67ae446435b6d1234ddc5a3c7f
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59490958"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043122"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용자 지정
 
@@ -44,6 +44,7 @@ ms.locfileid: "59490958"
 - Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- Windows Server 2022
 
 그룹 정책, PowerShell 및 MDM(모바일 장치 관리) CSP(구성 서비스 공급자)를 사용하여 이러한 설정을 구성할 수 있습니다.
 

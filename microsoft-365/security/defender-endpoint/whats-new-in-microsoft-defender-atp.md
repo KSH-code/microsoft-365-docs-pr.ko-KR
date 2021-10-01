@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a2652b3a324bd13ce8e438641b54eef5aa97125e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 62f62e421c789f419eeabe174b0d05ae36e3dd4b
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212065"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042605"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -95,7 +95,7 @@ ms.locfileid: "59212065"
 
 
 ## <a name="march-2021"></a>2021년 3월
-- [다음을 사용하여 변조 방지 Microsoft Defender 보안 센터](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal) <br> 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2016 및 Windows Server 2019에서 변조 보호 설정을 *관리할 수 있습니다.*
+- [다음을 사용하여 변조 방지 Microsoft Defender 보안 센터](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-365-defender-portal) <br> 테넌트 연결이라는 방법을 사용하여 Windows 10, Windows Server 2016, Windows Server 2019 및 Windows Server 2022에서 변조 보호 설정을 관리할 *수 있습니다.*
 
 
 ## <a name="january-2021"></a>2021년 1월

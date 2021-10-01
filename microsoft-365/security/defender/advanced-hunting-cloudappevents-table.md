@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 17f424d368c0df2f07cda41917f005e4163e5750
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 59499379a91fd267a12b64edb57dfa44036cd618
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165671"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042966"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -55,7 +55,7 @@ ms.locfileid: "59165671"
 | `AccountDisplayName` | 문자열 | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 시작, 성 또는 성의 조합입니다. |
 | `IsAdminOperation` | 문자열 | 관리자가 활동을 수행한지 여부를 나타냅니다. |
 | `DeviceType` | 문자열 | "네트워크 장치", "Workstation", "Server", "모바일", "게임 콘솔" 또는 "프린터" 등의 목적 및 기능에 기반한 디바이스 유형 | 
-| `OSPlatform` | 문자열 | 디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이 열은 Windows 10 및 Windows 같은 패밀리 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
+| `OSPlatform` | 문자열 | 디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이 열은 Windows 11, Windows 10 및 Windows 7과 같은 동일한 패밀리 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
 | `IPAddress` | 문자열 | 끝점에 할당되어 관련 네트워크 통신 중에 사용되는 IP 주소 |
 | `IsAnonymousProxy` | 문자열 | IP 주소가 알려진 익명 프록시에 속하는지 여부를 나타냅니다. |
 | `CountryCode` | 문자열 | 클라이언트 IP 주소가 지리적으로 위치가 지정되는 국가를 나타내는 두 글자 코드 |

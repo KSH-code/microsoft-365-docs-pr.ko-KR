@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 264953bd84a0a167cb6283c64b9e6ecf2d28ba19
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b471bcfa1c4a42ddf5c49c2a0bc2129c99fd9297
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187508"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043350"
 ---
 # <a name="create-indicators-based-on-certificates"></a>인증서를 기반으로 표시기 만들기
 
@@ -46,7 +46,7 @@ ms.locfileid: "59187508"
 
 - 이 기능은 조직에서 클라우드 기반 보호를 Windows Defender 바이러스 백신 경우 사용할 수 있습니다. 자세한 내용은 클라우드 기반 보호 [관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
-- 서버 2016 및 Windows 10 버전 1703 이상에 있는 Windows 지원됩니다.
+- Windows 10, 버전 1703 이상, Windows 서버 2016, 2019 및 Windows Server 2022의 컴퓨터에서 지원됩니다.
 - 바이러스 및 위협 방지 정의는 최신해야 합니다.
 - 이 기능은 현재 를 입력할 수 있습니다. CER 또는 . PEM 파일 확장명입니다.
 

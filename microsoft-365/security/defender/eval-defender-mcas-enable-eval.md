@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1b5e664e6675b477ecb2507fd52588aa159bcc9b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c36e0f9841d0b1e95d17734047a1ad9f35d3739c
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189292"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042593"
 ---
 # <a name="enable-the-evaluation-environment-for-microsoft-cloud-app-security"></a>사용자에 대해 평가 환경을 Microsoft Cloud App Security
 
@@ -40,7 +40,7 @@ ms.locfileid: "59189292"
 
 환경에서 사용되는 클라우드 앱을 검색하기 위해 다음 중 하나 또는 둘 다를 할 수 있습니다.
 
-- 끝점용 Microsoft Defender와 통합하여 클라우드 검색을 빠르게 시작하고 실행합니다. 이 네이티브 통합을 통해 네트워크의 모든 디바이스에서 클라우드 트래픽에 Windows 10 즉시 데이터를 수집할 수 있습니다.
+- 끝점용 Microsoft Defender와 통합하여 클라우드 검색을 빠르게 시작하고 실행합니다. 이 네이티브 통합을 통해 네트워크의 모든 Windows 10 및 Windows 11대의 디바이스에서 클라우드 트래픽에 대한 데이터 수집을 즉시 시작할 수 있습니다.
 - 네트워크에 연결된 모든 장치에서 액세스하는 모든 클라우드 앱을 검색하려면 방화벽 및 기타 Cloud App Security 로그 수집기 배포합니다. 그러면 끝점에서 데이터를 수집하여 분석하기 위해 Cloud App Security 전송합니다. Cloud App Security 기능을 위해 기본적으로 일부 타사 Proxies와 통합됩니다.
 
 이 문서에는 두 방법 모두에 대한 지침이 포함되어 있습니다.
@@ -64,7 +64,7 @@ ms.locfileid: "59189292"
 
 ## <a name="step-2-integrate-with-microsoft-defender-for-endpoint"></a>2단계. 끝점용 Microsoft Defender와 통합
 
-Microsoft Cloud App Security Microsoft Defender for Endpoint와 기본적으로 통합됩니다. 이러한 통합은 클라우드 검색의 롤아웃을 간소화하고, 회사 네트워크를 넘어 클라우드 검색 기능을 확장하며, 장치 기반 조사를 가능하게 합니다. 이러한 통합은 IT 관리 디바이스에서 클라우드 앱 및 서비스에 액세스하는 Windows 10 있습니다. 
+Microsoft Cloud App Security Microsoft Defender for Endpoint와 기본적으로 통합됩니다. 이러한 통합은 클라우드 검색의 롤아웃을 간소화하고, 회사 네트워크를 넘어 클라우드 검색 기능을 확장하며, 장치 기반 조사를 가능하게 합니다. 이러한 통합은 IT 관리 앱 및 서비스에서 액세스하는 클라우드 앱과 서비스를 11개 Windows 10 Windows 수 있습니다. 
 
 끝점에 대해 Microsoft Defender를 이미 설정한 경우 Cloud App Security 통합을 구성하는 것이 Microsoft 365 Defender. 통합이 켜진 후 클라우드 검색 대시보드에서 Cloud App Security 포털로 돌아가서 다양한 데이터를 볼 수 있습니다.
 

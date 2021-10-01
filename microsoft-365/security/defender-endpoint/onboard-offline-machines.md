@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c271aeac44e6590a4273fa9650c101a039225003
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: eb74f3fab320364c1311efa1a629e43eb90a1aae
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353680"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042761"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 인터넷 액세스 없이 장치 온보딩
 
@@ -42,9 +42,9 @@ ms.locfileid: "59353680"
 > 아래 단계는 이전 버전의 Windows 실행 중인 디바이스에만 적용할 수 있습니다. Windows Server 2016 이하 Windows 8.1.
 
 > [!NOTE]
-> - 'TelemetryProxyServer' 레지스트리 또는 GPO를 통해 구성된 경우 연결이 끊긴 Windows 10 또는 Windows Server 2019 장치의 프록시로 OMS 게이트웨이 서버를 사용할 수 없습니다.
-> - Windows 10 또는 Windows Server 2019의 경우 - TelemetryProxyServer를 사용할 수 있는 동안 표준 프록시 장치 또는 어플라이언스를 설정해야 합니다.
-> - 또한 연결이 끊어진 Windows 10 또는 Windows Server 2019에서 내부 파일 또는 웹 서버를 통해 인증서 신뢰 목록을 오프라인으로 업데이트할 수 있어야 합니다.
+> - 'TelemetryProxyServer' 레지스트리 또는 GPO를 통해 구성된 경우 연결이 끊긴 Windows 10 또는 Windows Server 2019 또는 Windows Server 2022 장치의 프록시로 OMS 게이트웨이 서버를 사용할 수 없습니다.
+> - Windows 10 Windows Server 2019 또는 Windows Server 2022의 경우 TelemetryProxyServer를 사용할 수 있는 동안 표준 프록시 장치 또는 어플라이언스를 설정해야 합니다.
+> - 또한 연결이 끊어진 환경에서 Windows 10 또는 Windows Server 2019 또는 Windows Server 2022에서 내부 파일 또는 웹 서버를 통해 인증서 신뢰 목록을 오프라인으로 업데이트할 수 있어야 합니다.
 > - 오프라인으로 CTL을 업데이트하는 데 대한 자세한 내용은 CTL 파일을 다운로드하도록 파일 또는 웹 서버 [구성을 참조하세요.](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265983(v=ws.11)#configure-a-file-or-web-server-to-download-the-ctl-files)
 
 온보더링 방법에 대한 자세한 내용은 다음 문서를 참조하세요.

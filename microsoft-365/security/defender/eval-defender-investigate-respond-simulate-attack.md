@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1fae1d1a800c6005f690ac3b4ac5a32cff38d549
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b2bdb81ff6e6f95c30cb7661fde98b272310539d
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189309"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60043278"
 ---
 # <a name="run-an-attack-simulation-in-a-microsoft-365-defender-pilot-environment"></a>파일럿 환경에서 공격 시뮬레이션 Microsoft 365 Defender 실행
 
@@ -94,13 +94,13 @@ Office 365 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2에
 
 ## <a name="simulate-an-attack-with-an-isolated-domain-controller-and-client-device-optional"></a>격리된 도메인 컨트롤러 및 클라이언트 장치를 사용하여 공격 시뮬레이션(선택 사항)
 
-이 선택적 인시던트 대응 연습에서는 PowerShell 스크립트를 사용하여 격리된 AD DS(Active Directory 도메인 서비스) 도메인 컨트롤러 및 Windows 10 디바이스에 대한 공격을 시뮬레이션한 다음 인시던트 조사, 수정 및 해결합니다.
+이 선택적 인시던트 대응 연습에서는 PowerShell 스크립트를 사용하여 격리된 AD DS(Active Directory 도메인 서비스) 도메인 컨트롤러 및 Windows 디바이스에 대한 공격을 시뮬레이션한 다음 인시던트 조사, 수정 및 해결합니다.
 
 먼저 파일럿 환경에 끝점을 추가해야 합니다.
 
 ### <a name="add-pilot-environment-endpoints"></a>파일럿 환경 끝점 추가
 
-먼저 격리된 AD DS 도메인 컨트롤러 및 Windows 10 장치를 파일럿 환경에 추가해야 합니다.
+먼저 격리된 AD DS 도메인 컨트롤러 및 Windows 장치를 파일럿 환경에 추가해야 합니다.
 
 1. 파일럿 환경 테넌트에서 [를 사용하도록 설정되어 있는지 Microsoft 365 Defender.](m365d-enable.md#confirm-that-the-service-is-on)
 
@@ -141,7 +141,7 @@ Office 365 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2에
 
 공격 시나리오 시뮬레이션을 실행합니다.
 
-1. 파일럿 환경에 격리된 AD DS 도메인 컨트롤러와 장치 Windows 10 확인합니다.
+1. 파일럿 환경에 격리된 AD DS 도메인 컨트롤러와 장치 Windows 확인합니다.
 
 2. 테스트 사용자 계정을 사용하여 테스트 장치에 로그인합니다.
 

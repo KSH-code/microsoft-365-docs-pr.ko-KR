@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 99a07b1517058b0e5ab241aaae9c6899e2994432
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 88d91e2434871014cf286bbb27812e60036cb5cb
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166719"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042725"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -50,7 +50,7 @@ ms.locfileid: "59166719"
 | `ClientVersion` | 문자열 | 기기에서 실행되는 끝점 에이전트 또는 센서의 버전 |
 | `PublicIP` | 문자열 | 등록된 컴퓨터에 의해 끝점용 Microsoft Defender 서비스에 연결하는 데 사용되는 공용 IP 주소입니다. 컴퓨터 자체의 IP 주소, NAT 장치 또는 프록시일 수 있습니다. |
 | `OSArchitecture` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 아키텍처 |
-| `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같은 동일한 패밀리 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
+| `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 11, Windows, Windows 10 및 Windows 7과 같은 특정 운영 체제를 나타냅니다. |
 | `OSBuild` | 문자열 | 시스템에서 실행되는 운영 체제의 빌드 버전 |
 | `IsAzureADJoined` | 부울 | 컴퓨터의 가입 여부를 나타내는 부울 표시기입니다Azure Active Directory |
 | `AadObjectId` | 문자열 | Azure AD에서 디바이스의 고유 식별자 |
