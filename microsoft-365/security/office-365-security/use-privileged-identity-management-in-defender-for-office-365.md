@@ -1,5 +1,5 @@
 ---
-title: Office 365용 Microsoft Defender에서 PIM(Privileged Identity Management)을 사용합니다.
+title: Office 365용 Microsoft Defender에서 Azure PIM(Privileged Identity Management)을 사용하여 사이버 보안 도구에 대한 관리자 액세스를 제한합니다.
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,15 +17,15 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: 사용자가 Office 365용 Microsoft Defender에서 상승된 권한 작업을 수행하여 데이터에 대한 위험을 낮출 수 있도록 시간이 제한된 Just-In-Time 액세스 권한을 부여하기 위해 PIM을 통합하는 방법을 알아보세요.
+description: 사용자가 Office 365용 Microsoft Defender에서 상승된 권한 작업을 수행하여 데이터에 대한 위험을 낮출 수 있도록 시간이 제한된 Just-In-Time 액세스 권한을 부여하기 위해 Azure PIM을 통합하는 방법을 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 22fbb2dd57c8bd3d6ac9b25b219895bc480c266c
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 45fec4fef733fe302f34c470ce2a264c257b67f7
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444265"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042689"
 ---
 <!--A-->
 # <a name="privileged-identity-management-pim-and-why-to-use-it-with-microsoft-defender-for-office-365"></a>PIM(Privileged Identity Management) 및 Office 365용 Microsoft Defender와 함께 사용해야 하는 이유
@@ -37,7 +37,7 @@ PIM(Privileged Identity Management)은 일단 설정되면 특정 작업을 수�
 
 ## <a name="steps-to-use-pim-to-grant-just-in-time-access-to-defender-for-office-365-related-tasks"></a>PIM을 사용하여 Office 365용 Defender 관련 작업에 대한 Just-In-Time 액세스 권한을 부여하는 단계
 
-관리자는 Office 365용 Microsoft Defender와 함께 작동하도록 PIM을 설정하여 사용자가 필요한 작업을 수행하기 위해 액세스를 요청하는 프로세스를 만듭니다. 사용자는 권한 상승의 필요성에 대해 *사유를 제시* 해야 합니다.
+관리자는 Office 365용 Microsoft Defender와 함께 작동하도록 PIM을 설정하여 사용자가 필요한 작업을 수행하기 위해 액세스를 요청하는 프로세스를 만듭니다. 사용자는 권한 상승이 필요한 *이유를 설명* 해야 합니다.
 
 이 예에서는 Office 365 내에서 상시 액세스 권한은 없지만 [위협 헌팅](threat-hunting-in-threat-explorer.md)처럼 일상적인 작업에 필요한 역할로 승격할 수 있는 보안 팀의 구성원인 "Alex"를 구성할 예정이며, [악의적인 전달된 이메일 교정](remediate-malicious-email-delivered-office-365.md)과 같이 빈도가 낮지만 중요한 작업이 필요한 경우 권한 수준을 높일 수 있습니다.
 
