@@ -2,7 +2,7 @@
 title: 업계 테스트에서 최고 점수 기록 - Microsoft 365 Defender
 ms.reviewer: ''
 description: Microsoft 365 Defender의 최신 점수 및 분석을 확인하세요. 이 프로그램은 지속적으로 독립 테스트(AV-TEST, AV Comparatives, SE Labs, MITRE ATT&CK)에서 높은 점수를 획득하고 있습니다. 최신 점수 및 분석을 확인하세요.
-keywords: Microsoft Defender 바이러스 백신, Windows Defender 바이러스 백신, AV 리뷰, 바이러스 백신 테스트, AV 테스트, 최신 AV 점수, 탐지 점수, 보안 제품 테스트, 보안 업계 테스트, 산업 바이러스 백신 테스트, 최고의 바이러스 백신, AV 테스트, AV 비교, SE 실험실, MITER ATT & CK, 엔드포인트 보호 플랫폼, EPP, 엔드포인트 감지 및 응답, EDR, Windows 10, Microsoft Defender 바이러스 백신, WDAV, 엔드포인트용 Microsoft Defender, Microsoft 365 Defender, 보안, 맬웨어, AV, 바이러스 백신, 점수, 점수 책정, 차세대 보호, 순위, 성공
+keywords: Microsoft Defender 바이러스 백신, Windows Defender 바이러스 백신, AV 리뷰, 바이러스 백신 테스트, AV 테스트, 최신 AV 점수, 탐지 점수, 보안 제품 테스트, 보안 업계 테스트, 산업 바이러스 백신 테스트, 최고의 바이러스 백신, AV 테스트, AV 비교, SE 실험실, MITER ATT & CK, 엔드포인트 보호 플랫폼, EPP, 엔드포인트 감지 및 응답, EDR, Windows 10, Windows 11 Microsoft Defender 바이러스 백신, WDAV, 엔드포인트용 Microsoft Defender, Microsoft 365 Defender, 보안, 맬웨어, AV, 바이러스 백신, 점수, 점수 책정, 차세대 보호, 순위, 성공
 ms.prod: m365-security
 ms.mktglfcycl: secure
 ms.sitesec: library
@@ -15,25 +15,25 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 4d49772eb3932ae98840d2be94c447183e94fade
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8f51fe73d25ac0ab3568b1896a0c35efdd14a40f
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189182"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042701"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 테스트에서 최고 점수 기록
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Microsoft 365 Defender를 경험해 보고 싶으신가요? [랩 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
+> Microsoft 365 Defender를 경험하고 싶으신가요? [실험실 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
 >
 
 [Microsoft 365 Defender](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) 기술은 독립적인 테스트에서 지속적으로 높은 점수를 획득하여 엔터프라이즈 위협 보호 기능의 강점을 입증합니다. Microsoft는 이러한 테스트 점수를 투명하게 공개하는 것을 목표로 합니다. 이 페이지는 해당 결과를 요약하고 분석합니다.
 
 ## <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
-[Microsoft 365 Defender](microsoft-365-defender.md)는 위반 전후의 통합된 엔터프라이즈 방어 제품군입니다. 기본적으로 엔드포인트, ID, 전자 메일 및 응용프로그램 전반에서 탐지, 방지, 조사 및 응답을 조정하여 정교한 공격에 대한 통합 보호를 제공합니다.
+[Microsoft 365 Defender](microsoft-365-defender.md)는 기본적으로 엔드포인트, ID, 전자 메일 및 응용프로그램 전반에서 탐지, 방지, 조사 및 응답을 조정하여 정교한 공격에 대한 통합 보호를 제공하는 통합된 위반 전 및 위반 후 엔터프라이즈 보안 제품군입니다.
 
 Microsoft 365 Defender는 [엔드포인트용 Microsoft Defender](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp), [Office 365용 Microsoft Defender](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection), [Microsoft Defender for Identity](https://azure.microsoft.com/features/azure-advanced-threat-protection/), [Azure Active Directory ID 보호 ](/azure/active-directory/identity-protection/overview-identity-protection) 및 [Microsoft Cloud App Security ](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security)의 기능을 단일 솔루션에 결합합니다.
 
@@ -49,7 +49,7 @@ MITRE의 테스트 접근 방식의 핵심은 실제 공격을 모방하여 솔�
 
 [Microsoft Defender Antivirus](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)는 지속적으로 독립적인 테스트에서 높은 성능을 발휘하여 바이러스 백신 시장에서 최고의 선택안을 보여줍니다. 이러한 테스트는 바이러스 백신에 대한 결과만 제공하고 추가 보안 보호는 테스트하지 않습니다.
 
-Microsoft Defender Antivirus는 최신의 가장 정교한 위협을 해결하는 [엔드포인트용 Microsoft Defender Windows 10 보안 스택](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)의 [차세대 보호](https://www.youtube.com/watch?v=Xy3MOxkX_o4) 기능입니다. 경우에 따라 [캠페인을 시작한 후 밀리초 후에](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign) 사이버 공격이 중지되기 때문에 고객이 자신이 보호되고 있는지도 모를 수 있습니다. 그 이유는 Microsoft Defender 바이러스 백신 및 엔드포인트용 Defender의 다른 [엔드포인트 보호 플랫폼(EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) 기능이 맬웨어를 탐지하고 중단시키기 때문입니다. 이들은 [기계 학습 ](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [인공지능 ](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), 동작 분석 및 기타 고급 기술을 사용합니다.
+Microsoft Defender Antivirus는 최신의 가장 정교한 위협을 해결하는 엔드포인트용 [Microsoft Defender Windows 보안 스택](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)의 [차세대 보호 기능](https://www.youtube.com/watch?v=Xy3MOxkX_o4)입니다. 경우에 따라 [캠페인을 시작한 후 밀리초 후에](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign) 사이버 공격이 중지되기 때문에 고객이 자신이 보호되고 있는지도 모를 수 있습니다. 그 이유는 Microsoft Defender 바이러스 백신 및 엔드포인트용 Defender의 다른 [엔드포인트 보호 플랫폼(EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) 기능이 맬웨어를 탐지하고 중단시키기 때문입니다. 이들은 [기계 학습 ](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [인공지능 ](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), 동작 분석 및 기타 고급 기술을 사용합니다.
 
 ### <a name="av-test-protection-score-of-6060-in-the-latest-test"></a>AV-TEST: 최신 테스트의 보호 점수 6.0/6.0.
 

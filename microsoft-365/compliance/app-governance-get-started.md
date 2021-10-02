@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 관리하는 앱 거버넌스 기능을 시작하세요.
-ms.openlocfilehash: c0e5b92f534533fb03505421b5e6a49208891443
-ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
+ms.openlocfilehash: b57d5b36266a5facebe8136b14d01014cfe68b03
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942031"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042785"
 ---
 # <a name="get-started-with-app-governance-in-preview"></a>앱 거버넌스 시작(미리 보기)
 
@@ -72,7 +72,7 @@ MCAS와의 통합이 활성 상태인지 확인하려면 아래에 나열된 앱
 
 ## <a name="licensing-and-administrator-role-prerequisites"></a>라이선스 및 관리자 역할 필수 구성 요소
 
-1. 계정이 [적절한 수준의 라이선스](#licensing-for-app-governance)를 보유하고 있는지 확인합니다. 앱 거버넌스는 MCAS(Microsoft Cloud App Security)의 추가 기능이므로 계정은 MCAS는 독립 실행형 제품 또는 다양한 라이선스 패키지의 일부로 라이선스를 보유하고 있어야 합니다.
+1. 계정이 [적절한 수준의 라이선싱](#licensing-for-app-governance)을 보유하고 있는지 확인합니다. 앱 거버넌스는 MCAS(Microsoft Cloud App Security)의 추가 기능이므로 계정은 MCAS는 독립 실행형 제품 또는 다양한 라이선스 패키지의 일부를 통해 라이선스를 보유하고 있어야 합니다.
 1. 포털에서 앱 거버넌스 페이지에 액세스하려면 아래에 나열된 [관리자 역할](#administrator-roles) 중 하나가 있어야 합니다.
 1. 무료 평가판을 활성화하려면 조직의 청구 주소가 [북미, 유럽 또는 아프리카에서 지원되는 지역](app-governance-countries.md) 중 하나여야 합니다.
 
@@ -81,27 +81,13 @@ MCAS와의 통합이 활성 상태인지 확인하려면 아래에 나열된 앱
 앱 거버넌스를 시작하기 전에 [Microsoft 365 관리 센터 구독](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/subscriptions) 및 추가 기능을 확인해야 합니다. 앱 거버넌스에 액세스하고 사용하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
 
 - Microsoft Cloud App Security
-- Microsoft 365 E5
-- Microsoft 365 E5 Compliance
-- Microsoft 365 E5 개발자(Windows 및 오디오 회의 제외)
-- Microsoft 365 E5 Information Protection 및 거버넌스
-- Microsoft 365 E5 Security
-- Microsoft 365 E5(통화 시간 포함)
-- Microsoft 365 E5(오디오 회의 제외)
-- 교직원용 Microsoft 365 A5 규정 준수
-- 학생용 Microsoft 365 A5 규정 준수
-- 교직원용 Microsoft 365 A5
-- 학생용 Microsoft 365 A5
-- 교직원용 Microsoft 365 A5 Information Protection 및 거버넌스
-- 학생용 Microsoft 365 A5 Information Protection 및 거버넌스
-- 교직원용 Microsoft 365 A5 Security
-- 학생용 Microsoft 365 A5 Security
-- 학생용 Microsoft 365 A5 사용 혜택
-- 교직원용 Microsoft 365 A5(통화 시간 포함)
-- 학생용 Microsoft 365 A5(통화 시간 포함)
-- 교직원용 Microsoft 365 A5(오디오 회의 제외)
-- 학생용 Microsoft 365 A5(오디오 회의 제외)
-- 학생용 Microsoft 365 A5(오디오 회의 제외) 사용 혜택
+- Microsoft 365 E5/A5
+- Microsoft 365 E5/A5 규정 준수
+- Microsoft 365 E5/A5 Information Protection 및 거버넌스
+- E5/A5 보안 Microsoft 365
+- Microsoft 365 F5 규정 준수 추가 기능
+- Microsoft 365 F5 보안 + 규정 준수 추가 기능
+
 
 ### <a name="administrator-roles"></a>관리자 역할
 

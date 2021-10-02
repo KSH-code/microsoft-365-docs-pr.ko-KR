@@ -17,12 +17,12 @@ ms.technology: mde
 ms.topic: article
 ms.date: 06/02/2021
 ms.collection: m365-security-compliance
-ms.openlocfilehash: aec229a8286113b78b39f8aad330ca3545bc92a6
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 230e70000e4561c7b88bcedb7bab143b03b95b49
+ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59490850"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60042893"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications"></a>사용자 동의없이 설치된 응용 프로그램 검색 및 차단
 
@@ -42,7 +42,7 @@ PUA(사용자 동의없이 설치된 응용 프로그램)는 컴퓨터가 느리
 > [!TIP]
 > 보안 기능에서 특별히 주의를 기울이기 위해 응용 프로그램에 레이블을 지정하는 데 사용하는 기준에 대한 논의 사항과 추가 예제는 [Microsoft에서 맬웨어 및 사용자 동의없이 설치된 응용 프로그램을 식별하는 방법](/windows/security/threat-protection/intelligence/criteria)을 참조하세요.
 
-사용자 동의없이 설치된 응용 프로그램이 있으면 네트워크가 실제 맬웨어에 감염될 위험이 높아지고 맬웨어 감염을 식별하기 어렵게 되거나 감염을 없애는 데 IT 리소스가 낭비될 수 있습니다. PUA 보호는 Windows 10, Windows Server 2019 및 Windows Server 2016에서 지원됩니다. Windows 10(버전 2004 이상)에서 Microsoft Defender 바이러스 백신은 기본적으로 Enterprise(E5) 디바이스용 PUA로 간주되는 앱을 차단합니다.
+사용자 동의없이 설치된 응용 프로그램이 있으면 네트워크가 실제 맬웨어에 감염될 위험이 높아지고 맬웨어 감염을 식별하기 어렵게 되거나 감염을 없애는 데 IT 리소스가 낭비될 수 있습니다. PUA 보호 기능은 Windows 10, Windows Server 2019, Windows Server 2022 및 Windows Server 2016에서 지원됩니다. Windows 10(버전 2004 이상)에서 Microsoft Defender 바이러스 백신은 기본적으로 Enterprise(E5) 디바이스용 PUA로 간주되는 앱을 차단합니다.
 
 ## <a name="microsoft-edge"></a>Microsoft Edge
 
@@ -74,7 +74,7 @@ PUA 보호가 켜진 Chromium 기반 Edge에서 Microsoft Defender SmartScreen�
 Microsoft Defender 바이러스 백신의 PUA(사용자 동의없이 설치된 응용 프로그램) 보호 기능은 네트워크의 끝점에서 PUA를 검색하고 차단할 수 있습니다.
 
 > [!NOTE]
-> 이 기능은 Windows 10, Windows Server 2019 및 Windows Server 2016에서 지원됩니다.
+> 이 기능은 Windows 10, Windows Server 2019, Windows Server 2022 및 Windows Server 2016에서 사용할 수 있습니다.
 
 Microsoft Defender 바이러스 백신은 감지된 PUA 파일 및 이를 다운로드, 이동, 실행 또는 설치하려는 시도를 차단합니다. 그런 다음 차단된 PUA 파일은 이동하여 격리됩니다. 끝점에서 PUA 파일이 감지되면 Microsoft Defender 바이러스 백신에서는 다른 위협 감지와 같은 형식으로 사용자에게 알림을 전송합니다([알림이 사용하지 않도록 설정된 경우가 아니면](configure-notifications-microsoft-defender-antivirus.md)). 알림은 내용은 표시하기 위해 `PUA:`(으)로 시작됩니다.
 
@@ -122,7 +122,7 @@ System Center 2012 Configuration Manager의 경우 [Configuration Manager에서 
 
 7. PUA 보호를 사용하도록 설정하려면 **사용** 을 선택합니다.
 
-8. **옵션** 에서 **차단** 을 선택하여 사용자 동의없이 설치된 응용 프로그램을 차단하거나 **감사 모드** 를 선택하여 환경에서 설정이 작동하는 방식을 테스트합니다. **확인** 을 선택합니다.
+8. **옵션** 에서 **차단** 을 선택하여 잠재적으로 원치 않는 애플리케이션을 차단하거나 **감사 모드** 를 선택하여 환경에서 설정이 작동하는 방식을 테스트합니다. **확인** 을 선택합니다.
 
 9. 평소와 같이 그룹 정책 개체를 배포합니다.
 
@@ -183,7 +183,7 @@ Microsoft Defender 바이러스 백신 이벤트 보기에 대한 자세한 내�
 
 ## <a name="view-pua-events-using-advanced-hunting"></a>고급 헌팅을 사용하여 PUA 이벤트 보기
 
-[엔드포인트용 Microsoft Defender](microsoft-defender-endpoint.md)를 사용할 경우 고급 헌팅 쿼리를 사용하여 PUA 이벤트를 볼 수 있습니다. 다음은 쿼리의 예입니다.
+[Microsoft Defender for Endpoint](microsoft-defender-endpoint.md)를 사용하는 경우 고급 헌팅 쿼리를 사용하여 PUA 이벤트를 볼 수 있습니다. 다음은 쿼리의 예입니다.
 
 ```console
 DeviceEvents
