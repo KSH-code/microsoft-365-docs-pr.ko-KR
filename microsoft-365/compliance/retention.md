@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 6403cd288c005e4601c5642ab8ce37fdbe380b02
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: 4537662d9f2268602baaea5d207af854d88657b4
+ms.sourcegitcommit: e686e64e846c26a9f4def7c145cbb140e6427076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786266"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60069184"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -173,7 +173,7 @@ SharePoint의 문서에 대한 DLP(데이터 손실 방지) 정책에서 보존 
 
 #### <a name="retention-labels-and-policies-that-apply-them"></a>보존 레이블과 보존 레이블을 적용하는 정책 
 
-보존 레이블을 게시하면 관리자 및 사용자가 콘텐츠에 적용할 수 있게 해주는 **보존 레이블 정책** 에 포함됩니다. 다음의 다이어그램은 아래의 사항을 보여줍니다.
+보존 레이블을 게시하면 관리자 및 사용자가 콘텐츠에 적용할 수 있게 해주는 **보존 레이블 정책** 에 포함됩니다. 다음 다이어그램에서 보이는 것과 같습니다.
 
 1. 단일 보존 레이블이 여러 보존 레이블 정책에 포함될 수 있습니다.
 
@@ -190,11 +190,10 @@ SharePoint의 문서에 대한 DLP(데이터 손실 방지) 정책에서 보존 
 | 보존 레이블이 | 레이블 정책을 적용할 수 있는 위치 |
 |:-----|:-----|
 |관리자 및 최종 사용자에게 게시됨  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
-|중요한 정보 유형 또는 학습 가능한 분류자를 기반으로 자동 적용됨  <br/> |Exchange(모든 사서함만), SharePoint, OneDrive  <br/> |
-|쿼리에 따라 자동 적용  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
+|중요한 정보 유형 또는 학습 가능한 분류자를 기반으로 자동 적용됨  <br/> |Exchange, SharePoint, OneDrive  <br/> |
+|키워드 또는 쿼리에 따라 자동 적용  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
    
-Exchange에서 자동으로 적용되는 보존 레이블은 현재 사서함에 있는 모든 항목(미사용 데이터)이 아닌 새로 전송된 메시지(전송 중인 데이터)에만 적용됩니다. 또한, 중요한 정보 유형과 학습 가능한 분류자에 대한 자동 적용 보존 레이블은 모든 사서함에만 적용되며, 특정 사서함을 선택할 수 없습니다.
-  
+
 Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을 지원하지 않습니다. 해당 위치에서 콘텐츠를 보존하고 삭제하려면 보존 정책을 대신 사용하세요.
 
 #### <a name="only-one-retention-label-at-a-time"></a>한 번에 하나의 보존 레이블만
@@ -222,7 +221,7 @@ Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을
 
 #### <a name="monitoring-retention-labels"></a>보존 레이블 모네터링
 
-Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페이지를 선택하여 보존 레이블이 테넌트에게 어떻게 사용되고 있는지 모니터링 하고 레이블 항목의 위치를 식별합니다. 필수 구성 요소를 비롯한 더 자세한 내용은 [데이터 분류에 대한 자세한 정보](data-classification-overview.md)를 참조하세요.
+Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페이지를 선택하여 테넌트에서 보존 레이블이 사용되는 방식을 모니터링하고 레이블이 지정된 항목의 위치를 식별합니다. 중요한 전제 조건을 포함한 자세한 내용은 [데이터 분류에 대해 알아보기](data-classification-overview.md)를 참조하세요.
 
 그런 다음 [콘텐츠 탐색기](data-classification-content-explorer.md) 및 [활동 탐색기](data-classification-activity-explorer.md)를 사용하여 세부 정보로 드릴 다운할 수 있습니다.
 
@@ -233,7 +232,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
 
 사용자가 콘텐츠에 보존 레이블을 적용하거나 레이블이 자동 적용된 후에 콘텐츠 검색을 사용하여 특정 보존 레이블이 적용된 모든 콘텐츠를 찾을 수 있습니다.
 
-콘텐츠 검색을 만들 때 **보존 레이블** 조건을 선택한 다음 보존 레이블 이름을 전체 또는 일부만 입력하고 와일드 카드를 사용합니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
+콘텐츠 검색을 생성할 때 **보존 레이블** 조건을 선택한 다음 전체 보존 레이블 이름 또는 레이블 이름의 일부를 입력하고 와일드카드를 사용합니다. 자세한 내용은 콘텐츠 검색에 대한 [키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
   
 ![보존 레이블 조건.](../media/retention-label-condition.png)
 
@@ -261,7 +260,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
 
 **각주:**
 
-<sup>\*</sup> 콘텐츠를 레코드 또는 규제 레코드로 표시하지 않는 보존 레이블의 경우 감사 이벤트는 SharePoint 또는 OneDrive 항목에 적용, 변경 또는 제거된 레이블이 있는 경우로 제한됩니다. 보존 레이블에 대한 감사 세부 정보는 이 페이지의 [감사 보존 작업](#auditing-retention-actions) 섹션을 참조하세요.
+<sup>\*</sup> 콘텐츠를 레코드 또는 규정 레코드로 표시하지 않는 보존 레이블의 경우 감사 이벤트는 SharePoint 또는 OneDrive의 항목에 레이블이 적용, 변경 또는 제거된 경우로 제한됩니다. 보존 레이블에 대한 감사 세부 정보는 이 페이지의 [감사 보존 조치](#auditing-retention-actions) 섹션을 참조하십시오.
 
 ### <a name="combining-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 결합
 
@@ -311,7 +310,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
     
     전자 메일 메시지는 삭제보다 보존 작업이 우선하므로 5년 동안 보존됩니다. 보존 작업이 적용되는 동안 일시 중단된 삭제 작업으로 인해 전자 메일 메시지는 5년 후에 영구적으로 삭제됩니다.
 
-2. **가장 긴 보존 기간 우선.** 콘텐츠가 다른 기간 동안 콘텐츠를 보존하는 여러 보존 설정의 적용을 받는 경우, 항목에 대한 가장 긴 보존 기간이 끝날 때까지 콘텐츠는 보존됩니다.
+2. **가장 긴 보존 기간이 우선 적용됩니다.** 콘텐츠가 다른 기간 동안 콘텐츠를 유지하는 여러 보존 설정의 적용을 받는 경우 콘텐츠는 항목의 가장 긴 보존 기간이 끝날 때까지 유지됩니다.
     
     > [!NOTE]
     > 보존 정책 또는 레이블의 보존 기간 5년이 보존 정책 또는 레이블의 보존 기간 7년보다 우선할 수 있습니다. 5년의 기간은 파일이 마지막으로 수정된 시기에 따라 시작되도록 구성되고 7년의 기간은 파일이 만들어진 시점부터 시작하도록 구성되기 때문입니다.
@@ -340,7 +339,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
         
         이 문서를 영구적으로 삭제하는 시기는 두 보존 정책의 범위가 모두 지정되었으므로 이 수준에서 확인할 수 없습니다.
 
-4. **가장 짧은 삭제 기간이 적용됩니다.** 보존 정책에서 항목이 삭제되고 이전 수준에서 결과를 확인할 수 없는 경우에 결정하는 데 적용됩니다. 콘텐츠는 항목에 대한 가장 짧은 보존 기간이 끝날 때 영구적으로 삭제됩니다.
+4. **가장 짧은 삭제 기간이 우선 적용됩니다.** 보존 정책에서 항목이 삭제되고 이전 수준에서 결과를 확인할 수 없는 경우에 결정하는 데 적용됩니다. 콘텐츠는 항목에 대한 가장 짧은 보존 기간이 끝날 때 영구적으로 삭제됩니다.
     
     > [!NOTE]
     > 보존 기간이 7년인 보존 정책이 5년 보존 정책보다 우선할 수 있습니다. 첫 번째 정책은 파일이 만들어진 시점을 기준으로 보존 기간을 시작하도록 구성되고 두 번째 보존 정책은 파일이 마지막으로 수정된 시점부터 시작되도록 구성되기 때문입니다.
@@ -424,7 +423,7 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블의 PowerShell cmdlet
 
-보존 정책 cmdlet을 사용하려면 먼저 [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)해야 합니다. 그런 다음, 다음 cmdlet 중 하나를 사용하세요.
+보존 cmdlet을 사용하려면 먼저 [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)해야 합니다. 그런 다음 다음 cmdlet 중 하나를 사용합니다.
 
 - [Get-ComplianceTag](/powershell/module/exchange/get-compliancetag)
 

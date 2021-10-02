@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 72238bd3f9ccabc64e0846f0384397d14f752bd9
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: b30d29e9ac5d318e2bcee7226db10f7ca24882a2
+ms.sourcegitcommit: e686e64e846c26a9f4def7c145cbb140e6427076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988298"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60069162"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -67,7 +67,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
     - 개별적으로 지정된 경우 최대 100개의 사이트(SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 100개의 자동 레이블 정책. 또한 모든 사이트를 지정할 수 있으며 이 구성은 최대 100개 사이트에서 제외됩니다.
     - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
-    - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 파일을 마지막으로 수정한 계정입니다.
+    - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 파일을 마지막으로 수정한 계정입니다. 이 계정이 더 이상 Azure Active Directory에 없는 경우 이러한 값을 설정할 수 없으므로 레이블이 적용되지 않습니다.
 
     Exchange 자동 레이블 지정에만 해당:
     
@@ -134,7 +134,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트는 기본 �
 
 ### <a name="configuring-sensitive-info-types-for-a-label"></a>레이블에 대한 중요한 정보 유형 구성
 
-**중요한 정보 유형** 옵션을 선택하면 DLP(데이터 손실 방지) 정책을 만들 때 같은 중요한 정보 유형 목록이 표시됩니다. 예를 들어 신용카드 번호, 주민등록번호 또는 여권 번호와 같은 고객의 개인 정보를 포함하는 모든 콘텐츠에 자동으로 기밀 유지 레이블을 적용할 수 있습니다.
+**중요한 정보 유형** 옵션을 선택하면 DLP(데이터 손실 방지) 정책을 생성할 때와 동일한 중요한 정보 유형 목록이 표시됩니다. 예를 들어 신용 카드 번호, 주민등록번호 또는 여권 번호와 같은 고객의 개인 정보가 포함된 모든 콘텐츠에 자동으로 기밀 레이블을 적용할 수 있습니다.
 
 ![Office 앱의 자동 레이블 지정을 위한 중요한 정보 유형](../media/sensitivity-labels-sensitive-info-types.png)
 
@@ -144,7 +144,7 @@ DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 일치 정확
 
 이러한 구성 옵션에 대한 자세한 내용은 DLP 설명서 [일치하기 더욱 쉽게 혹은 어렵게 만드는 튜닝 규칙](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match)을 참조하세요.
 
-또한 DLP 정책 구성과 마찬가지로 조건이 모든 중요한 정보 유형을 탐지해야 하는지 또는 이러한 정보 유형 중 하나만 탐지해야 하는지 선택할 수 있습니다. 또한 조건을 더 유연하고 복잡하게 만들기 위해 [그룹을 추가하고 그룹 간에 논리 연산자를 사용](data-loss-prevention-policies.md)할 수 있습니다.
+또한 DLP 정책 구성과 유사하게 조건이 모든 중요한 정보 유형을 감지해야 하는지 아니면 그 중 하나만 감지해야 하는지를 선택할 수 있습니다. 조건을 더 유연하거나 복잡하게 만들기 위해 [그룹을 추가하고 그룹 간에 논리 연산자를 사용](data-loss-prevention-policies.md)할 수 있습니다.
 
 > [!NOTE]
 > 사용자 지정 중요 정보 유형에 따른 자동 레이블 지정은 기존 콘텐츠가 아닌 OneDrive 및 SharePoint에서 새로 작성되거나 수정된 콘텐츠에만 적용됩니다. 이 제한은 자동 레이블 지정 정책에도 적용됩니다.
@@ -206,8 +206,8 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 ### <a name="prerequisites-for-auto-labeling-policies"></a>자동 레이블 지정 정책에 대한 필수 구성 요소
 
 - 시뮬레이션 모드:
-  - Microsoft 365에 대한 감사가 설정되어 있어야 합니다. 감사를 설정해야 하거나 감사가 이미 설정되어 있는지 확실하지 않은 경우에는 [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)를 참조하세요.
-  - 원본 보기에서 파일 또는 전자 메일 콘텐츠를 보려면 **콘텐츠 탐색기 콘텐츠 뷰어** 역할을 보유하고 있어야 합니다. 전역 관리자에게는 기본적으로 해당 역할이 없습니다. 이 권한이 없는 경우 **일치하는 항목** 탭에서 항목을 선택할 때 미리 보기 창이 표시되지 않습니다.
+  - Microsoft 365 대한 감사를 켜야 합니다. 감사를 설정해야 하거나 감사가 이미 설정되어 있는지 확실하지 않은 경우에는 [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)를 참조하세요.
+  - 원본 보기에서 파일 또는 이메일 콘텐츠를 보려면 **Content Explorer 콘텐츠 뷰어** 역할이 있어야 합니다. 전역 관리자는 기본적으로 이 역할이 없습니다. 이 권한이 없으면 **일치하는 항목** 탭에서 항목을 선택할 때 미리 보기 창이 표시되지 않습니다.
 
 - SharePoint 및 OneDrive에서 파일에 자동 레이블을 지정하려면 다음을 수행합니다.
   - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)합니다.
@@ -217,7 +217,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
   - 사용자 정의 민감도 정보 유형은 사용자 정의 민감도 정보 유형이 작성된 후 SharePoint 또는 OneDrive에서 추가되거나 수정된 콘텐츠에만 적용됩니다.
   - 새로운 사용자 지정 민감도 정보 유형을 테스트하려면 자동 레이블 지정 정책을 만들기 전에 해당 유형을 만든 다음 테스트용 샘플 데이터가 포함된 새 문서를 만듭니다.
 
-- 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이러한 레이블의 경우:
+- 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이 레이블의 경우:
   - 소개에 설명된 대로 레이블 설정은 자동 레이블 지정 정책을 보완하기 때문에 Office 앱 레이블 설정의 자동 레이블 지정 설정이 켜져 있는지 여부는 중요하지 않습니다.
   - 자동 레이블에 사용하려는 레이블이 시각적 표시(머리글, 바닥글, 워터 마크)를 사용하도록 구성된 경우 문서에는 적용되지 않습니다.
   - 레이블이 [암호화](encryption-sensitivity-labels.md)를 적용하는 경우:
@@ -262,7 +262,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     ![자동 레이블 지정 탭](../media/auto-labeling-tab.png)
 
     > [!NOTE]
-    > **자동 레이블 지정 탭** 이 보이지 않을 경우, 백 엔드 Azure 종속으로 인해 현재 해당 지역에서 이 기능을 사용할 수 없습니다. 자세한 내용은 [국가별 Azure 종속 가용성](/troubleshoot/azure/general/dependency-availability-by-country)을 참조하세요.
+    > **자동 레이블 지정 탭** 이 보이지 않을 경우, 백 엔드 Azure 종속으로 인해 현재 해당 지역에서 이 기능을 사용할 수 없습니다. 자세한 내용은 [국가별 Azure 종속성 가용성](/troubleshoot/azure/general/dependency-availability-by-country)을 참조하세요.
 
 3. **+ 자동 레이블 지정 정책 만들기** 를 선택합니다. 그러면 새 정책 구성이 시작됩니다.
 
@@ -278,7 +278,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     
     개별 OneDrive 계정을 지정하려면 [조직의 모든 사용자 OneDrive URL 목록 가져오기](/onedrive/list-onedrive-urls)를 참조하세요.
 
-7. **일반 또는 고급 규칙 설정** 페이지의 경우: 선택한 모든 위치에서 레이블을 지정할 콘텐츠를 식별하는 규칙을 정의하기 위해 **일반 규칙** 의 기본값을 유지합니다. 위치마다 다른 규칙이 필요한 경우 **고급 규칙** 을 선택합니다. 그런 후 **다음** 을 선택합니다.
+7. **일반 또는 고급 규칙 설정** 페이지의 경우: 선택한 모든 위치에서 레이블을 지정할 콘텐츠를 식별하는 규칙을 정의하기 위해 **일반 규칙** 의 기본값을 유지합니다. 위치마다 다른 규칙이 필요한 경우 **고급 규칙** 을 선택합니다. 그런 다음 **다음** 을 선택합니다.
 
     이 규칙은 민감한 정보 유형 및 공유 옵션이 포함된 조건을 사용합니다.
     - 민감한 정보 유형의 경우 기본 제공 정보 유형과 사용자 지정 민감한 정보 유형을 모두 선택할 수 있습니다.
@@ -311,7 +311,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 9. **자동 적용할 레이블 선택** 페이지에서 **+ 레이블 선택** 을 선택하고, **민감도 레이블 선택** 창에서 레이블을 선택한 후 **다음** 을 선택합니다.
 
-10. **정책을 지금 또는 나중에 테스트할지 결정** 페이지의 경우: 지금 자동 레이블 지정 정책을 실행할 준비가 되었으면 **시뮬레이션 모드에서 정책 실행** 을 선택합니다. 그렇지 않으면 **정책을 해제로 두기** 를 선택합니다. **다음** 을 선택합니다.
+10. **정책을 지금 또는 나중에 테스트할지 결정** 페이지의 경우: 지금 자동 레이블 지정 정책을 실행할 준비가 되었으면 **시뮬레이션 모드에서 정책 실행** 을 선택합니다. 그렇지 않으면 **정책을 사용 중지된 상태로 유지** 를 선택합니다. **다음** 을 선택합니다.
 
     ![구성된 자동 레이블 지정 정책을 테스트합니다.](../media/simulation-mode-auto-labeling-wizard.png)
 
