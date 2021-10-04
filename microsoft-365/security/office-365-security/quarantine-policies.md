@@ -1,5 +1,5 @@
 ---
-title: Quarantine policies
+title: 격리 정책
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -13,21 +13,17 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 사용자가 메시지를 검사하기 위해 할 수 있는 작업을 제어하기 위해 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f91d39ee915b8769e5d1500c5cb2a4acb6110c88
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 0a6bbfee3a0f9b875ce4160b48ef70e919ee19bc
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483810"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60087968"
 ---
-# <a name="quarantine-policies"></a>Quarantine policies
-
-> [!NOTE]
-> 이 문서에서 설명하는 기능은 현재 미리 보기로 제공되어 있으며 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
+# <a name="quarantine-policies"></a>격리 정책
 
 EOP(Exchange Online Protection(Exchange Online Protection) 및 Microsoft Defender for Office 365 정책은 관리자가 메시지가 검사된 이유에 따라 사용자가 메시지를 검사할 수 있는 작업을 제어할 수 있도록 합니다.
 
@@ -240,7 +236,7 @@ New-QuarantinePolicy -Name LimitedAccess -EndUserQuarantinePermissions $LimitedA
 
 ## <a name="assign-quarantine-policies-in-supported-polices-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 지원되는 정책에 Microsoft 365 Defender 할당
 
-### <a name="anti-spam-policies"></a>스팸 방지 정책
+### <a name="anti-spam-policies"></a>스팸 방지 정책.
 
 1. Microsoft 365 Defender 포털의 규칙 섹션에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 스팸 \>  \>  \>  방지 **섹션으로** 이동하세요.
 
@@ -338,7 +334,7 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
    **참고:** 새 정책을 만들 때 비어 있는 Apply **quarantine policy value는** 해당 작업의 기본 검지 정책이 사용됩니다. 나중에 정책을 편집하면 빈 값이 이전 표에 설명된 실제 기본 검지 정책 이름으로 대체됩니다.
 
-   ![스팸 방지 정책에서 정책 선택을 차단합니다.](../../media/quarantine-tags-in-anti-phishing-policies.png)
+   ![피싱 방지 정책에서 정책 선택을 검사합니다.](../../media/quarantine-tags-in-anti-phishing-policies.png)
 
 피싱 방지 정책을 만들고 수정하기 위한 전체 지침은 다음 항목에서 사용할 수 있습니다.
 

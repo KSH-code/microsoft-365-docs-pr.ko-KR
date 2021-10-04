@@ -10,21 +10,25 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 646007176a35506f0c30d6b7092d70f52f762e57
-ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
+ms.openlocfilehash: 2c14a493cb496b369a313a3e44600af9940922da
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59941982"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60088100"
 ---
 # <a name="prerequisites-for-guest-accounts"></a>게스트 계정에 대한 필수 구성 요소
 
 ## <a name="external-collaboration-settings"></a>외부 공동 작업 설정
 
-Microsoft Managed Desktop 액세스하려면 Azure AD 조직에서 다음 설정이 필요합니다. 외부 ID/외부 공동 작업 **설정에서** Azure [Portal에서](https://portal.azure.com) 이러한 설정을 조정할 수 있습니다.
+Microsoft Managed Desktop 액세스하려면 Azure AD 조직에서 다음 구성을 권장합니다. 외부 ID/외부 공동 작업 **설정에서** Azure [Portal에서](https://portal.azure.com) 이러한 설정을 조정할 수 있습니다.
 
--   게스트 **초대 제한이** 구성원 사용자로 설정되어 있으며 특정 관리자 역할에 할당된 사용자는 구성원 권한이 있는 게스트를 비롯한 게스트 사용자를 **초대할 수 있습니다.**
--   공동 **작업 제한의 경우** 다음 옵션을 선택합니다.
+-   게스트 **사용자 액세스의 경우** 게스트 사용자로 설정하면 디렉터리 개체의 속성 및 멤버 **자격에 제한이 있습니다.**
+-   게스트 **초대 설정의 경우** 구성원 사용자로 설정하고 특정 관리자 역할에 할당된 사용자는 구성원 권한이 있는 게스트를 포함하여 게스트 사용자를 **초대할 수 있습니다.**
+
+Microsoft Managed Desktop 계정에 액세스하려면 Azure AD 조직에서 다음 구성이 필요합니다. 외부 ID/외부 공동 작업 **설정에서** Azure [Portal에서](https://portal.azure.com) 이 설정을 조정할 수 있습니다.
+
+-   **공동 작업 제한** 에서 다음 옵션을 선택합니다.
     -   초대를 모든 도메인(가장 포함)으로 보내기 허용을 선택하면 다른 구성이 필요하지 않습니다.
     -   지정된 도메인에 대한 초대 거부를 선택하는 경우 대상 도메인에 Microsoft.com 목록에 없는지 확인 합니다. 
     -   지정된 **도메인(가장** 제한적인)에 대한 초대만 허용을 선택하는 경우  대상 도메인에 Microsoft.com 나열해야 합니다.

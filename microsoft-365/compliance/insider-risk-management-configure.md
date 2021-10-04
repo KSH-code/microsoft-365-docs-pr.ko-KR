@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: a8fcd811d8211e253b069346de9c00bb738bf981
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: ed064be83a93c913b13de62dbd14936c38accd31
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460082"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60088208"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -262,6 +262,9 @@ DLP 정책은 다음 정책 템플릿을 사용할 때 필요합니다.
     - **SharePoint 사이트**: **SharePoint 사이트 추가** 를 선택하고 액세스 권한이 있고 우선순위를 지정할 SharePoint 사이트를 선택합니다. 예: *"group1@contoso.sharepoint.com/sites/group1"*.
     - **중요한 정보 유형**: **중요한 정보 유형 추가** 를 선택하고 우선순위를 지정할 민감도 유형을 선택합니다. 예: *"미국 은행 계좌 번호"* 및 *"신용 카드 번호"*.
     - **민감도 레이블**: **민감도 레이블 추가** 를 선택하고 우선순위를 지정할 레이블을 선택합니다. 예: *"기밀"* 및 *"비밀"*.
+
+    >[!NOTE]
+    >정책을 구성하고 우선 순위 공유 지점 사이트를 선택하는 사용자는 액세스 권한이 SharePoint 사이트를 선택할 수 있습니다. 현재 SharePoint 정책에서 사이트를 선택할 수 없는 경우 필요한 권한이 있는 다른 사용자가 나중에 정책의 사이트를 선택하거나 현재 사용자에게 필요한 사이트에 대한 액세스 권한을 부여해야 합니다.
 
 12. **다음** 을 선택하여 계속합니다.
 13. **지표 및 트리거링 이벤트** 페이지에서 **내부 위험 설정** > **지표** 페이지에서 사용할 수 있는 것으로 정의한 [지표](insider-risk-management-settings.md#indicators)가 표시됩니다. 마법사의 시작 부분에서 *데이터 유출* 템플릿을 선택한 경우 **DLP 정책** 드롭다운 목록에서 DLP 정책을 선택하여 정책에 대한 트리거링 지표를 사용하도록 설정하거나 기본 제공 트리거링 이벤트를 선택해야 합니다.

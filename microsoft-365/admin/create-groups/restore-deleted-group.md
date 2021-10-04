@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -21,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제된 그룹은 30일 동안 보존되고 그룹을 복원할 수 있습니다. 30일이 지난 후 그룹 및 해당 콘텐츠는 영구적으로 삭제됩니다.
-ms.openlocfilehash: 30fa44a50ea6a65ae3cf71cb91e7d8ab0fd2e200
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: fb703240ebec219c0a1d15791782ea72be88a3a4
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773198"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60087776"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>삭제된 그룹 Microsoft 365 복원
 
@@ -49,6 +50,8 @@ ms.locfileid: "59773198"
 - Teams
 
 - Yammer 및 그룹 콘텐츠(Microsoft 365 그룹이 Yammer)
+
+- Power BI 작업 [영역](/power-bi/collaborate-share/service-create-workspaces)
 
 > [!NOTE]
 > 이 문서에서는 그룹만 복원하는 Microsoft 365 설명되어 있습니다. 다른 모든 그룹은 한 번 삭제하면 복원할 수 없습니다.

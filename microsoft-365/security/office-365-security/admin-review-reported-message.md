@@ -13,19 +13,16 @@ ms.collection:
 description: 보고된 메시지를 검토하고 사용자에게 피드백을 주는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef08b07226d8ce038547b972163d87a557099478
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: de83846e596185687817af6e89957f455ce7b9a1
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401029"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60087824"
 ---
 # <a name="admin-review-for-reported-messages"></a>보고된 메시지에 대한 관리자 검토
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
-> [!NOTE]
-> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 이 문서는 평가 및 탐색 목적으로만 제공됩니다.
 
 **적용 대상**
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
@@ -78,4 +75,4 @@ Microsoft 365 사서함이 Exchange Online 및 Microsoft Defender for Office 365
     > [!div class="mx-imgBorder"]
     > ![사용자에게 보내는 메시지를 사용자 지정합니다.](../../media/admin-review-customize-message.png)
 
-4. 작업을 마친 후 **저장** 을 클릭합니다. 이러한 값을 지우려면 사용자 **제출** 페이지에서 삭제를 클릭합니다.
+4. 작업을 마쳤으면 **저장** 을 클릭합니다. 이러한 값을 지우려면 사용자 **제출** 페이지에서 삭제를 클릭합니다.

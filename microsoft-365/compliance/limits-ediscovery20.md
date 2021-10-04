@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Advanced eDiscovery 솔루션에 적용된 사례 제한, 인덱싱 제한 및 검색 제한에 대해 Microsoft 365.
-ms.openlocfilehash: 7771f653550c050250126b7ff93b83ee2e175937
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e82b7d44a5733c245b00a1890b9d07dd95c679e2
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188083"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60088232"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 
@@ -50,6 +50,7 @@ ms.locfileid: "59188083"
 
 | 제한 설명 | 제한 유형 |
 |:-----|:-----|
+|조직의 최대 케이스 보류 수입니다. 이 제한에는 Core eDiscovery 및 여러 사례의 총 보류 Advanced eDiscovery 포함됩니다. <br/> |10,000  <br/> |
 |단일 케이스 보류의 최대 사서함 수입니다. 이 제한에는 사용자 사서함의 총 합계와 Microsoft 365, Microsoft Teams 및 그룹과 연결된 Yammer 포함됩니다. <br/> |1,000  <br/> |
 |단일 케이스 보류의 최대 사이트 수입니다. 이 제한에는 비즈니스용 OneDrive, SharePoint 사이트, Microsoft 365 그룹, Microsoft Teams 및 Yammer 그룹과 연결된 사이트가 Yammer 포함됩니다.  <br/> |100  <br/> |
 

@@ -23,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: 전역 관리자 자격 증명을 사용하여 비즈니스용 Microsoft 365 로그인하여 장치 정책 및 작업을 확인합니다.
-ms.openlocfilehash: 2245f979f67d2a2e48a60516faa9888ccb416e23
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+description: 비즈니스용 디바이스에 로그인하여 장치 정책 및 Microsoft 365 확인합니다.
+ms.openlocfilehash: 62644c574ea642b63b394e1fdb3c56aae559836e
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933246"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60087788"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>정책 및 장치 보기 및 관리
 

@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: KQL 편집기를 사용하여 콘텐츠 검색, Core eDiscovery 및 콘텐츠 검색에서 eDiscovery 검색 쿼리를 구성할 Advanced eDiscovery.
-ms.openlocfilehash: 185ab0396166d54e4a1e11f03a3e3613d24fff4b
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: 571612cc2032b6241923cb6bba2a730a5d821c8a
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59989157"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60088220"
 ---
-# <a name="use-the-kql-editor-to-build-search-queries"></a>KQL 편집기를 사용하여 검색 쿼리 작성
+# <a name="use-the-kql-editor-to-build-search-queries-preview"></a>KQL 편집기를 사용하여 검색 쿼리 작성(미리 보기)
 
 Microsoft 365 eDiscovery 도구 검색의 새로운 KQL 쿼리 환경은 콘텐츠 검색, Core eDiscovery 및 콘텐츠 검색에서 검색 쿼리를 빌드할 때 피드백 및 Advanced eDiscovery. 편집기에서 쿼리를 입력하면 지원되는 검색 가능한 속성 및 조건에 대한 자동 고침을 제공하며 표준 속성 및 조건에 대해 지원되는 값 목록을 제공합니다. 예를 들어 쿼리에 전자 메일 속성을 지정하면 편집기에서 선택할 수 있는 지원되는 값 목록을 `kind` 표시합니다. 또한 KQL 편집기는 검색을 실행하기 전에 수정할 수 있는 잠재적인 쿼리 오류도 실시간으로 표시됩니다. 무엇보다도 표준 조건 작성기에서 키워드 및 조건 카드를 사용하여 쿼리를 수동으로 작성하지 않고도 복잡한 쿼리를 편집기에 직접 붙여넣을 수 있습니다.
   

@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(전자 메일 그룹)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 Exchange Online Protection 있습니다. Microsoft Defender for Office 365 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 비즈니스용 OneDrive 관리할 Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 428767ea3d50108075a6a5e7e74d5786405e5090
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 66ae5d7a5b13495aabbd071f03e87efc5b239294
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483534"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60088335"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -39,7 +39,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 관리자는 모든 사용자에 대해 모든 유형의 메시지를 보고, 해제하고, 삭제할 수 있습니다. 관리자는 Microsoft에 가의성도 보고할 수 있습니다.
 
-기본적으로 관리자만 맬웨어, 높은 신뢰도 피싱으로 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지를 관리할 수 있습니다. 그러나 관리자는 메시지의 검지 이유(지원되는 기능의 경우)에 따라 사용자가 분리된 메시지에 대해 허용되는 작업을 정의할 수 있습니다.  자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+기본적으로 관리자만 맬웨어, 높은 신뢰도 피싱으로 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지를 관리할 수 있습니다. 그러나 관리자는 메시지의 검지 이유(지원되는 기능의 경우)에 따라 사용자가 분리된 메시지에 대해 허용되는 작업을 정의할 수 있습니다.  자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
 Microsoft Defender for Office 365 조직의 관리자는 SharePoint, OneDrive 및 에 대해 금고 첨부 파일로 금고 의해 OneDrive 파일을 관리할 [수도 Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
 
@@ -60,7 +60,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
   - <sup>\*</sup>Microsoft 365 Defender 포털의 **전자 메일** & 공동 작업 역할에 있는 [](permissions-microsoft-365-security-center.md#email--collaboration-roles-in-the-microsoft-365-defender-portal) **Quarantine** **Administrator** 역할 그룹의 구성원도 Exchange Online PowerShell에서 절차를 수행하려면 Exchange Online 관리 역할 그룹의 구성원이 Exchange Online 합니다. [](/Exchange/permissions-exo/permissions-exo#role-groups)
 
 - Quarantined messages are retained for a default period of time before they're automatically deleted:
@@ -133,12 +133,9 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 
    완료되면 **적용** 을 클릭합니다. 필터를 지우려면 ![필터 지우기 아이콘](../../media/m365-cc-sc-clear-filters-icon.png)을 클릭합니다. **필터 지우기**
 
-5. **검색** 상자와 해당 값을 사용하여 특정 메시지를 찾습니다. 와일드카드는 지원되지 않습니다. 다음 값을 기준으로 검색할 수 있습니다.
-   - 메시지 ID
+5. 검색 **상자와** 해당 값을 사용하여 특정 메시지를 찾을 수 있습니다. 와일드카드는 지원되지 않습니다. 다음 값을 기준으로 검색할 수 있습니다.
    - 보낸 사람 전자 메일 주소
-   - 받는 사람 전자 메일 주소
    - 제목. 메시지의 전체 제목을 사용합니다. 검색은 대/소문자를 구분하지 않습니다.
-   - 정책 이름 메시지의 전체 정책 이름을 사용합니다. 검색은 대/소문자를 구분하지 않습니다.
 
    검색 조건을 입력한 후 Enter 키를 눌러 결과를 필터링합니다.
 
@@ -200,17 +197,19 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
   - 같은 받는 사람에게 메시지를 두 번 이상 릴리스할 수 없습니다.
   - 메시지를 받지 않은 받는 사람만 잠재적인 받는 사람 목록에 표시됩니다.
 
-- ![메시지 헤더 보기 아이콘](../../media/m365-cc-sc-eye-icon.png). **메시지 헤더 보기** 메시지 헤더 텍스트를 보려면 이 링크를 선택합니다. 다음 링크와 함께 **메시지 헤더** 플라이아웃이 나타납니다.
-- **메시지 헤더 복사**: 이 링크를 클릭하여 메시지 헤더(모든 헤더 필드)를 클립보드에 복사합니다.
-- **Microsoft 메시지 헤더 분석기**: 헤더 필드 및 값을 자세히 분석하려면 이 링크를 클릭하여 메시지 헤더 분석기로 이동합니다. **분석할 메시지 헤더를 삽입** 섹션에 메시지 헤더를 삽입합니다(Ctrl+V 또는 마우스 오른쪽 단추를 클릭하고 **붙여넣기** 선택). 그런 다음 **헤더 분석** 을 클릭합니다.
+- ![전자 메일 아이콘을 공유합니다.](../../media/m365-cc-sc-share-email-icon.png) **전자 메일** 공유: 나타나는 플라이아웃에서 하나 이상의 받는 사람을 추가하여 메시지 복사본을 수신합니다. 완료되면 공유를 **클릭합니다.**
 
 ![기타 작업 아이콘](../../media/m365-cc-sc-more-actions-icon.png) **기타 작업** 을 클릭하면 다음 작업을 수행할 수 있습니다.
 
-- ![메시지 미리 보기 아이콘](../../media/m365-cc-sc-eye-icon.png). **메시지 미리 보기**: 표시되는 플라이아웃에서 다음 탭 중 하나를 선택합니다.
+- ![메시지 헤더 보기 아이콘](../../media/m365-cc-sc-view-message-headers-icon.png). **메시지 헤더 보기** 메시지 헤더 텍스트를 보려면 이 링크를 선택합니다. 다음 링크와 함께 **메시지 헤더** 플라이아웃이 나타납니다.
+  - **메시지 헤더 복사**: 이 링크를 클릭하여 메시지 헤더(모든 헤더 필드)를 클립보드에 복사합니다.
+  - **Microsoft 메시지 헤더 분석기**: 헤더 필드 및 값을 자세히 분석하려면 이 링크를 클릭하여 메시지 헤더 분석기로 이동합니다. **분석할 메시지 헤더를 삽입** 섹션에 메시지 헤더를 삽입합니다(Ctrl+V 또는 마우스 오른쪽 단추를 클릭하고 **붙여넣기** 선택). 그런 다음 **헤더 분석** 을 클릭합니다.
+
+- ![메시지 미리 보기 아이콘](../../media/m365-cc-sc-preview-message-icon.png). **메시지 미리 보기**: 표시되는 플라이아웃에서 다음 탭 중 하나를 선택합니다.
   - **원본**: 모든 링크가 비활성화된 메시지 본문의 HTML 버전을 표시합니다.
   - **일반 텍스트**: 메시지 본문을 일반 텍스트로 표시합니다.
 
-- ![격리 아이콘에서 제거](../../media/m365-cc-sc-delete-icon.png). **격리에서 제거**: 표시되는 경고에서 **예** 를 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 즉시 삭제됩니다.
+- ![Quarantine icon에서 삭제합니다.](../../media/m365-cc-sc-delete-icon.png) **Quarantine에서** 삭제: 나타나는 경고에서 **예를** 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 즉시 삭제됩니다.
 
 - ![전자 메일 다운로드 아이콘.](../../media/m365-cc-sc-download-icon.png) **전자 메일 다운로드**: 표시되는 플라이아웃에서 **이 메시지를 다운로드할 때의 위험을 이해합니다** 를 선택한 다음 **다운로드** 를 클릭하여 메시지의 로컬 복사본을 .eml 형식으로 저장합니다.
 
@@ -245,9 +244,10 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 > |아이콘|설명|
 > |---:|---|
 > |![전자 메일 해제 아이콘.](../../media/m365-cc-sc-check-mark-icon.png)|**전자 메일 해제**|
-> |![메시지 헤더 보기 아이콘.](../../media/m365-cc-sc-eye-icon.png)|**메시지 헤더 보기**|
-> |![메시지 미리 보기 아이콘.](../../media/m365-cc-sc-eye-icon.png)|**메시지 미리 보기**|
-> |![격리 아이콘에서 제거.](../../media/m365-cc-sc-delete-icon.png)|**격리 해제**|
+> |![전자 메일 아이콘을 공유합니다.](../../media/m365-cc-sc-share-email-icon.png)|**전자 메일 공유**|
+> |![메시지 헤더 보기 아이콘.](../../media/m365-cc-sc-view-message-headers-icon.png)|**메시지 헤더 보기**|
+> |![메시지 미리 보기 아이콘.](../../media/m365-cc-sc-preview-message-icon.png)|**메시지 미리 보기**|
+> |![Quarantine icon에서 삭제합니다.](../../media/m365-cc-sc-delete-icon.png)|**Quarantine에서 삭제**|
 > |![전자 메일 아이콘을 다운로드합니다.](../../media/m365-cc-sc-download-icon.png)|**전자 메일 다운로드**|
 > |![보낸 사람 차단 아이콘.](../../media/m365-cc-sc-block-sender-icon.png)|**보낸 사람 차단**|
 > |![아이콘만 제출합니다.](../../media/m365-cc-sc-create-icon.png)|**제출만**|
@@ -271,7 +271,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
   > [!NOTE]
   > 다음 시나리오를 고려합니다. john@gmail.com 메시지를 faith@contoso.com john@subsidiary.contoso.com. Gmail은 이 메시지를 Microsoft에서 피싱으로 모두 검역으로 라우팅된 두 개의 복사본으로 쌍으로 처리합니다. 관리자는 이러한 두 메시지를 모두 릴리스하여 admin@contoso.com. 관리자 사서함에 도달하는 첫 번째 릴리스된 메시지가 배달됩니다. 두 번째 릴리스된 메시지는 중복 배달으로 식별되어 건너뜁니다. 메시지는 동일한 메시지 ID와 수신 시간이 있는 경우 중복 항목으로 식별됩니다.
 
-- ![격리에서 아이콘 제거.](../../media/m365-cc-sc-delete-icon.png) **메시지 삭제**: 표시되는 경고에서 **예** 를 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 격리에서 즉시 제거됩니다.
+- ![Quarantine icon에서 삭제합니다.](../../media/m365-cc-sc-delete-icon.png) **메시지 삭제:** 나타나는 경고에서 **예를** 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 메시지는 즉시 제거됩니다.
 - ![전자 메일 아이콘을 다운로드합니다.](../../media/m365-cc-sc-download-icon.png) **메시지 다운로드**
 - ![아이콘만 제출합니다.](../../media/m365-cc-sc-create-icon.png) **제출만**
 
@@ -344,8 +344,9 @@ Defender for Office 365 조직에서 관리자는 금고, OneDrive 및 에 대�
 ![세부 정보 플라이아웃에서 사용 가능한 작업은 분리된 파일의 플라이아웃입니다.](../../media/quarantine-file-details-flyout-actions.png)
 
 - ![파일 해제 아이콘.](../../media/m365-cc-sc-check-mark-icon.png) **릴리스 파일:** 나타나는 플라이아웃 창에서 분석을 위해 Microsoft에 보고서 파일을 설정하거나 해제한 다음 <sup>\*</sup> 릴리스를 **클릭합니다.**
+- ![파일 해제 아이콘.](../../media/m365-cc-sc-check-mark-icon.png)
 - ![파일 아이콘을 다운로드합니다.](../../media/m365-cc-sc-download-icon.png) **파일 다운로드:** 나타나는 플라이아웃에서 이 파일을 다운로드할 경우의 위험을 이해합니다.를 선택한 다음 다운로드를 클릭하여 파일의 로컬 복사본을 저장합니다. 
-- ![격리 아이콘에서 제거.](../../media/m365-cc-sc-delete-icon.png) **Quarantine에서** 제거: 나타나는 경고에서 **예를** 클릭하면 파일이 즉시 삭제됩니다.
+- ![Quarantine icon에서 삭제합니다.](../../media/m365-cc-sc-delete-icon.png) **Quarantine에서** 삭제: 나타나는 경고에서 **예를** 클릭하면 파일이 즉시 삭제됩니다.
 - ![보낸 사람 차단 아이콘](../../media/m365-cc-sc-block-sender-icon.png) **보낸 사람 차단**: **귀하** 의 사서함의 수신 거부 목록에 보낸 사람을 추가합니다. 자세한 내용은 [메일 보낸 사람 차단](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)을 참조하세요.
 
 <sup>\*</sup>이 옵션은 이미 릴리스된 파일에는 사용할  수 없습니다(릴리스된 상태 값은 **릴리스).**
@@ -359,7 +360,7 @@ Defender for Office 365 조직에서 관리자는 금고, OneDrive 및 에 대�
 ![Bulk actions drop down list for files in quarantine.](../../media/quarantine-file-bulk-actions.png)
 
 - ![파일 해제 아이콘.](../../media/m365-cc-sc-check-mark-icon.png) **릴리스 파일:** 나타나는 플라이아웃 창에서 분석을 위해 **Microsoft에 보고서** 파일을 설정하거나 해제한 다음 릴리스를 **클릭합니다.**
-- ![격리 아이콘에서 제거.](../../media/m365-cc-sc-delete-icon.png) **Quarantine에서** 제거: 나타나는 경고에서 **예를** 클릭하면 파일이 즉시 삭제됩니다.
+- ![Quarantine icon에서 삭제합니다.](../../media/m365-cc-sc-delete-icon.png) **Quarantine에서** 삭제: 나타나는 경고에서 **예를** 클릭하면 파일이 즉시 삭제됩니다.
 - ![파일 아이콘을 다운로드합니다.](../../media/m365-cc-sc-download-icon.png) **파일 다운로드:** 나타나는 플라이아웃에서 이 파일을 다운로드할 경우의 위험을 이해합니다.를 선택한 다음 다운로드를 클릭하여 파일의 로컬 복사본을 저장합니다. 
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>PowerShell Exchange Online 독립 실행형 EOP PowerShell을 사용하여 독립 실행형 메시지 및 파일 보기 및 관리

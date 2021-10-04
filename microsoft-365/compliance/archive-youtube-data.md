@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Veritas에서 다른 사용자로 YouTube 데이터를 가져오고 보관할 커넥터를 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, eDiscovery 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: fb131d27857a1e1e0fdaf01160f7a84e249227de
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 48354460a79cbb8c23086962d17482a3d3419044
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166175"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60088244"
 ---
-# <a name="set-up-a-connector-to-archive-youtube-data-preview"></a>YouTube 데이터를 보관할 커넥터 설정(미리 보기)
+# <a name="set-up-a-connector-to-archive-youtube-data"></a>YouTube 데이터를 보관할 커넥터 설정
 
 조직의 Veritas 커넥터를 사용하여 Microsoft 365 규정 준수 센터 조직의 사용자 사서함으로 데이터를 가져오고 보관할 Microsoft 365 있습니다. Veritas는 타사 데이터 원본에서 항목을 캡처하고 해당 항목을 가져오도록 구성된 커넥터를 Microsoft 365. 커넥터는 채팅, 첨부 파일, 작업, 메모 및 게시물과 같은 콘텐츠를 YouTube에서 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 전자 메일 메시지의 사용자 사서함으로 Microsoft 365.
 

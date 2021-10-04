@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 88582efe5e285df2b5439c6d01b63ed4c5ef7855
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: 2f9a299faad33dbba09d9e32f3c860f9f7bd6311
+ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460127"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "60087812"
 ---
 # <a name="insider-risk-management-policies"></a>내부 위험 관리 정책
 
@@ -144,7 +144,7 @@ ms.locfileid: "59460127"
 
 정책 마법사에서 내부 위험 관리 정책을 만들 때 다음 우선순위 중에서 선택할 수 있습니다.
 
-- **SharePoint 사이트**: 정의된 SharePoint 사이트의 모든 파일 형식과 연결된 모든 활동에는 더 높은 위험 점수가 할당됩니다. 
+- **SharePoint 사이트**: 정의된 SharePoint 사이트의 모든 파일 형식과 연결된 모든 활동에는 더 높은 위험 점수가 할당됩니다. 정책을 구성하고 우선 순위 공유 지점 사이트를 선택하는 사용자는 액세스 권한이 SharePoint 사이트를 선택할 수 있습니다. 현재 SharePoint 정책에서 사이트를 선택할 수 없는 경우 필요한 권한이 있는 다른 사용자가 나중에 정책의 사이트를 선택하거나 현재 사용자에게 필요한 사이트에 대한 액세스 권한을 부여해야 합니다.
 - **중요한 정보 유형**: [중요한 정보 유형](sensitive-information-type-entity-definitions.md)을 포함하는 콘텐츠와 관련된 모든 활동에는 더 높은 위험 점수가 할당됩니다.
 - **민감도 레이블**: 특정 [민감도 레이블](sensitivity-labels.md)이 적용된 콘텐츠와 관련된 모든 활동에는 더 높은 위험 점수가 할당됩니다.
 
@@ -285,6 +285,9 @@ ms.locfileid: "59460127"
     - **SharePoint 사이트**: **SharePoint 사이트 추가** 를 선택하고 액세스 권한이 있고 우선순위를 지정할 SharePoint 사이트를 선택합니다. 예: *"group1@contoso.sharepoint.com/sites/group1"*.
     - **중요한 정보 유형**: **중요한 정보 유형 추가** 를 선택하고 우선순위를 지정할 민감도 유형을 선택합니다. 예: *"미국 은행 계좌 번호"* 및 *"신용 카드 번호"*.
     - **민감도 레이블**: **민감도 레이블 추가** 를 선택하고 우선순위를 지정할 레이블을 선택합니다. 예: *"기밀"* 및 *"비밀"*.
+
+    >[!NOTE]
+    >정책을 구성하고 우선 순위 공유 지점 사이트를 선택하는 사용자는 액세스 권한이 SharePoint 사이트를 선택할 수 있습니다. 현재 SharePoint 정책에서 사이트를 선택할 수 없는 경우 필요한 권한이 있는 다른 사용자가 나중에 정책의 사이트를 선택하거나 현재 사용자에게 필요한 사이트에 대한 액세스 권한을 부여해야 합니다.
 
 12. **다음** 을 선택하여 계속합니다.
 13. **지표 및 트리거링 이벤트** 페이지에서 **내부 위험 설정** > **지표** 페이지에서 사용할 수 있는 것으로 정의한 [지표](insider-risk-management-settings.md#indicators)가 표시됩니다. 마법사의 시작 부분에서 *데이터 유출* 템플릿을 선택한 경우 **DLP 정책** 드롭다운 목록에서 DLP 정책을 선택하여 정책에 대한 트리거링 지표를 사용하도록 설정하거나 기본 제공 트리거링 이벤트를 선택해야 합니다.
