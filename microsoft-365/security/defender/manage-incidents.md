@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 41a0c893e193c8690c0c50e5b12ecc8630b9a899
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a3d2254915203ea112d304e9fc45a6f1c4482d9b
+ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185692"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099733"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>2016에서 인시던트 Microsoft 365 Defender
 
@@ -47,7 +47,7 @@ ms.locfileid: "59185692"
 
 - [인시던트 이름 편집](#edit-the-incident-name)
 - [인시던트 태그 추가](#add-incident-tags)
-- [인시던트 할당](#assign-incidents)
+- [사용자 계정에 인시던트 할당](#assign-an-incident)
 - [해결](#resolve-an-incident)
 - [분류 및 결정 설정](#set-the-classification-and-determination)
 - [설명 추가](#add-comments)
@@ -78,9 +78,9 @@ Microsoft 365 Defender 영향을 받는 끝점 수, 영향을 받는 사용자, 
 
 입력을 시작할 때 선택한 태그 목록에서 선택할 수 있는 옵션이 있습니다.
 
-## <a name="assign-incidents"></a>인시던트 할당
+## <a name="assign-an-incident"></a>인시던트 할당
 
-인시던트 할당하려면 나에게 **할당을 선택합니다.** 이렇게 하면 인시던트의 소유권과 인시던트와 관련된 모든 경고가 사용자 계정에 할당됩니다.
+인시던트가 아직 할당되지 않은  경우 할당 대상 상자를 선택하고 사용자 계정(미리 보기)을 지정할 수 있습니다. 인시던트 다시 할당, 계정 이름 옆의 "x"를 선택하여 현재 할당 계정을 제거한 다음 할당 **대상 상자를** 선택합니다. 인시던트 소유권을 할당할 경우 연결된 모든 경고에 동일한 소유권이 할당됩니다.
 
 인시던트 큐를 필터링하여 사용자에게 할당된 인시던트 목록을 얻을 수 있습니다. 
 

@@ -16,14 +16,14 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 09/08/2021
+ms.date: 10/04/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 173fd730edfb2fe0ca535a45da07abfea50d5f4d
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 794c735ecf84efe57b9bb4c88f20f599f25a6a8a
+ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60043326"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099636"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -516,6 +516,9 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 \*기술 지원은 Windows 10 릴리스 버전에서 최신 플랫폼 버전으로의 업그레이드를 위해 계속 [제공됩니다(Windows 10](#platform-version-included-with-windows-10-releases)릴리스에 포함된 플랫폼 버전 참조).
 
 기술 지원(전용) 단계 중에는 상업적으로 합리적인 지원 인시던트가 Microsoft 고객 서비스 & 지원 및 Microsoft의 관리 지원 서비스(예: 프리미어 지원)를 통해 제공됩니다. 지원 인시던트가 추가 지침을 위해 개발로 에스컬레이터해야 하는 경우, 비보안 업데이트가 필요하거나, 보안 업데이트가 필요한 경우 고객에게 최신 플랫폼 버전 또는 중간 업데이트(*)로 업그레이드할지 묻는 요청이 표시됩니다.
+
+> [!NOTE]
+> Microsoft Defender 바이러스 백신 플랫폼 업데이트를 수동으로 배포하거나 스크립트 또는 Microsoft가 아닌 다른 관리 제품을 사용하여 Microsoft Defender 바이러스 백신 플랫폼 업데이트를 배포하는 경우 최신 버전의 `4.18.2001.10` 플랫폼 업데이트(N-2)가 설치되기 전에 [Microsoft](https://www.catalog.update.microsoft.com/Search.aspx?q=4.18.2001.10) 업데이트 카탈로그에서 버전이 설치되어 있는지 확인합니다.
 
 ### <a name="platform-version-included-with-windows-10-releases"></a>릴리스에 포함된 플랫폼 Windows 10 버전
 

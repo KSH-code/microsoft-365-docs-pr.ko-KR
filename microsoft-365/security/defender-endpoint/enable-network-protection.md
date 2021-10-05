@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: dc10c8ee9147cbee0a2946eaf28d91f80743f4f5
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 7c27e1264de8673e1cc366df29ecd57e0cf8431a
+ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59489640"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099696"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
@@ -35,7 +35,7 @@ ms.locfileid: "59489640"
 
 [네트워크 보호는](network-protection.md) 직원이 응용 프로그램을 사용하여 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅할 수 있는 위험한 도메인에 액세스하지 못하게 하는 데 도움이 됩니다. 테스트 [환경에서 네트워크](evaluate-network-protection.md) 보호를 감사하여 사용하도록 설정하기 전에 차단되는 앱을 볼 수 있습니다.
 
-[네트워크 필터링 구성 옵션에 대해 자세히 알아보시다](/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
+[네트워크 필터링 구성 옵션에 대해 자세히 알아보면 됩니다.](/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
 
 ## <a name="check-if-network-protection-is-enabled"></a>네트워크 보호를 사용하도록 설정되어 있는지 확인
 
@@ -53,7 +53,7 @@ ms.locfileid: "59489640"
    - 1 또는 
    - 2 또는 **감사** 모드
 
-    ![네트워크 보호 레지스트리 키.](../../media/95341270-b738b280-08d3-11eb-84a0-16abb140c9fd.png)
+    :::image type="content" alt-text="네트워크 보호 레지스트리 키." source="../../media/95341270-b738b280-08d3-11eb-84a0-16abb140c9fd.png" lightbox="../../media/95341270-b738b280-08d3-11eb-84a0-16abb140c9fd.png":::
 
 ## <a name="enable-network-protection"></a>네트워크 보호 사용
 
@@ -63,10 +63,12 @@ ms.locfileid: "59489640"
 - [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
 - [Microsoft Endpoint Manager / Intune](#microsoft-endpoint-manager-formerly-intune)
 - [그룹 정책](#group-policy)
+- [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
 
 ### <a name="powershell"></a>PowerShell
 
 1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
+
 2. 다음 cmdlet을 입력합니다.
 
     ```PowerShell
@@ -123,8 +125,8 @@ ms.locfileid: "59489640"
     - **사용 안 하게(기본값)** - 네트워크 보호 기능이 작동하지 않습니다. 사용자가 악의적인 도메인에 액세스하는 것을 차단하지 않습니다.
     - **감사 모드** - 사용자가 악성 IP 주소 또는 도메인을 방문하면 이벤트가 Windows 기록됩니다. 그러나 사용자가 주소를 방문하지 못하도록 차단되지는 않습니다.
 
-> [!IMPORTANT]
-> 네트워크 보호를 완전히 사용하도록 설정하려면 그룹  정책 옵션을  사용으로 설정하고 옵션 드롭다운 메뉴에서 차단을 선택해야 합니다.
+   > [!IMPORTANT]
+   > 네트워크 보호를 완전히 사용하도록 설정하려면 그룹  정책 옵션을  사용으로 설정하고 옵션 드롭다운 메뉴에서 차단을 선택해야 합니다.
 
 레지스트리 편집기를 사용하여 로컬 컴퓨터에서 네트워크 보호가 사용하도록 설정되어 있는지 확인합니다.
 
@@ -136,6 +138,45 @@ ms.locfileid: "59489640"
    - 0=해제
    - 1=켜기
    - 2=감사
+
+### <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
+
+1. 구성 관리자 콘솔을 엽니다.
+
+2. Exploit **Guard의 자산 및** Endpoint Protection  >    >  **Windows Defender 로 이동 합니다.** 
+
+3. **리본에서 Exploit Guard 정책** 만들기를 선택하여 새 정책을 만들 수 있습니다.
+   - 기존 정책을 편집하려면 정책을 선택한 다음  리본 메뉴 또는 마우스 오른쪽 단추 클릭 메뉴에서 속성을 선택합니다. 네트워크 보호 **탭에서** 네트워크 보호 구성 **옵션을 편집합니다.**  
+
+4. 일반 **페이지에서** 새 정책의 이름을 지정하고 네트워크 보호 **옵션이 사용하도록** 설정되어 있는지 확인합니다. 
+
+5. 네트워크 **보호 페이지에서** 네트워크 보호 구성 옵션에 대해 다음 설정 **중 하나를** 선택합니다.
+   - **차단**
+   - **감사**
+   - **Disabled**
+   
+6. 나머지 단계를 완료하고 정책을 저장합니다. 
+
+7. 리본 메뉴에서 **배포를** 선택하여 컬렉션에 정책을 배포합니다.
+
+> [!IMPORTANT]
+> Configuration Manager에서 Exploit Guard 정책을 배포하면 배포를 제거하는 경우 Exploit Guard 설정이 클라이언트에서 제거되지 않습니다. `Delete not supported` 은 클라이언트의 Exploit Guard 배포를 제거하는 경우 Configuration Manager 클라이언트의 ExploitGuardHandler.log에 기록됩니다. <!--CMADO8538577-->
+> 다음 PowerShell 스크립트는 SYSTEM 컨텍스트에서 실행하여 이러한 설정을 제거할 수 있습니다.<!--CMADO9907132-->
+>
+> ```powershell
+> $defenderObject = Get-WmiObject -Namespace "root/cimv2/mdm/dmmap" -Class "MDM_Policy_Config01_Defender02" -Filter "InstanceID='Defender' and ParentID='./Vendor/MSFT/Policy/Config'"
+> $defenderObject.AttackSurfaceReductionRules = $null
+> $defenderObject.AttackSurfaceReductionOnlyExclusions = $null
+> $defenderObject.EnableControlledFolderAccess = $null
+> $defenderObject.ControlledFolderAccessAllowedApplications = $null
+> $defenderObject.ControlledFolderAccessProtectedFolders = $null
+> $defenderObject.EnableNetworkProtection = $null
+> $defenderObject.Put()
+>
+> $exploitGuardObject = Get-WmiObject -Namespace "root/cimv2/mdm/dmmap" -Class "MDM_Policy_Config01_ExploitGuard02" -Filter "InstanceID='ExploitGuard' and ParentID='./Vendor/MSFT/Policy/Config'"
+> $exploitGuardObject.ExploitProtectionSettings = $null
+> $exploitGuardObject.Put()
+>```  
 
 ## <a name="see-also"></a>참고 항목
 

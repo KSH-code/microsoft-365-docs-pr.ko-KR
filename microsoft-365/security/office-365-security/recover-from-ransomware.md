@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 94f45fd03d33fb5c1111e8a9098acc21b4830b01
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 9659a68e69f732203a20853320b2e35cd268a7c8
+ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60041711"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099756"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -33,7 +33,6 @@ ms.locfileid: "60041711"
 
 조직을 보호하기 위해 모든 예방 조치를 취하는 경우에도 여전히 랜섬웨어 공격의 피해가 될 [수](/windows/security/threat-protection/intelligence/ransomware-malware) 있습니다. 랜섬웨어는 대기업이자 오늘날의 위협 환경 Microsoft 365 정교한 공격의 대상이 될 [것입니다.](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Cloudy-With-A-Chance-Of-APT-Novel-Microsoft-365-Attacks-In-The-Wild.pdf)
 
-
 이 문서의 단계는 데이터를 복구하고 내부 감염 확산을 중지할 수 있는 최상의 기회를 제공합니다. 시작하기 전에 다음 항목을 고려하세요.
 
 - 대금을 지불하면 파일에 대한 액세스 권한이 반환된다고 보장할 수 없습니다. 실제로 대가를 지불하면 더 많은 랜섬웨어의 대상이 될 수 있습니다.
@@ -44,13 +43,9 @@ ms.locfileid: "60041711"
 
 - 공격과 그 결과에 신속하게 대응하는 것이 중요합니다. 대기 시간이 길면 영향을 받는 데이터를 복구할 가능성이 낮아질 수 있습니다.
 
-## <a name="step-1-verify-your-third-party-backups"></a>1단계: 타사 백업 확인
+## <a name="step-1-verify-your-backups"></a>1단계: 백업 확인
 
-Microsoft 365 규정 준수 도구 모음은 조직의 법률 및 [](/microsoft-365/compliance/) 규정 표준을 충족하도록 디자인되어 모범 사례로, 타사 앱 및 서비스를 사용하여 Microsoft 365 콘텐츠 및 데이터를 정기적으로 백업하는 것이 좋습니다. [](https://www.microsoft.com/servicesagreement)
-
-데이터를 복원할 수 있도록 백업을 정기적으로 테스트하고 공격이 발생하면 백업을 복원할 수 있는지 검사하는 것이 중요합니다. 실제 공격의 경우 환경에서 랜섬웨어 페이로드(맬웨어)를 제거하고 사용자 환경에서 무단 액세스가  없음을 확인한 후에 이러한 복원을 완료하면 Microsoft 365 합니다. 
-
-랜섬웨어의 영향을 받지 않도록 백업을 지원하기 위해 타사 서비스는 환경에서 에어 래핑해야 합니다.
+오프라인 백업이 있는 경우 환경에서 랜섬웨어  페이로드(맬웨어)를 제거한 후 그리고 Microsoft 365  환경에서 무단 액세스 권한이 없음을 확인한 후에 암호화된 데이터를 복원할 수 있습니다.
 
 백업이 없는 경우 또는 백업이 랜섬웨어의 영향을 받은 경우 이 단계를 건너뛸 수 있습니다.
 

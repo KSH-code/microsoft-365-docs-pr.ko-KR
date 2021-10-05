@@ -18,12 +18,12 @@ ms.collection:
 description: 사용자의 조직에서 보낸 메시지의 유효성을 검사하기 위해 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)을 구성하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a92c6ec50fb60d15e027a11163aad6b2186e5304
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 68a3f9bc2b7752ee59c040ebaca54e58008479e9
+ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217895"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099749"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC를 사용하여 전자 메일의 유효성 검사
 
@@ -150,7 +150,7 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 
 - *도메인* 은 사용자가 보호할 도메인입니다. 기본적으로 레코드는 도메인 및 모든 하위 도메인의 메일을 보호합니다. 예를 들어 \_dmarc.contoso.com을 지정하면 DMARC는 housewares.contoso.com 또는 plumbing.contoso.com과 같은 도메인 및 모든 하위 도메인에서 메일을 보호합니다.
 
-- *TTL* 은 항상 1시간에 해당합니다. TTL에 사용되는 단위 (시간 (1시간), 분 (60분) 또는 초 (3,600초))는 도메인의 등록 기관에 따라 다릅니다.
+- *TTL* 은 항상 1시간과 같아야 합니다. TTL에 사용되는 단위 (시간 (1시간), 분 (60분) 또는 초 (3,600초))는 도메인의 등록 기관에 따라 다릅니다.
 
 - *pct = 100* 은 이 규칙을 전자 메일의 100%에 사용해야 함을 나타냅니다.
 
@@ -211,7 +211,7 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 
    DMARC는 정책을 DNS에 TXT 레코드로 게시하여 구현되며 계층적입니다(예: contoso.com에 대해 게시된 정책은 하위 도메인에 대해 명시적으로 다른 정책이 정의되지 않는 한 sub.domain.contonos.com에 적용됩니다). 이 기능은 조직에서 상위 DMARC 레코드를 더 적은 수로 지정하여 더 넓은 범위를 제공할 수 있기 때문에 유용합니다. 하위 도메인이 최상위 도메인의 DMARC 레코드를 상속하지 않도록 하려면 주의해야 합니다.
 
-   또한 하위 도메인이 전자 메일을 보내지 않아야 할 때 `sp=reject` 값을 추가하여 DMARC에 와일드카드 유형 정책을 추가할 수 있습니다. 예를 들어,
+   또한 하위 도메인이 전자 메일을 보내지 않아야 할 때 `sp=reject` 값을 추가하여 DMARC에 와일드카드 유형 정책을 추가할 수 있습니다. 예를 들면 다음과 같습니다.
 
    ```text
    _dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
@@ -219,7 +219,7 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 
 ## <a name="how-microsoft-365-handles-outbound-email-that-fails-dmarc"></a>Microsoft 365가 DMARC에 실패한 아웃바운드 전자 메일을 처리하는 방법
 
-메시지가 Microsoft 365에서 아웃바운드되고 DMARC에 실패하고 정책을 p=quarantne 또는 p=reject로 설정한 경우 메시지는 [아웃바운드 메시지용 높은 위험 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)로 라우팅됩니다. 아웃바운드 전자 메일에 대한 오버라이드는 없습니다.
+메시지가 Microsoft 365에서 아웃바운드되고 DMARC에 실패하고 정책을 p=quarantne 또는 p=reject로 설정한 경우 메시지는 [아웃바운드 메시지용 높은 위험 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)로 라우팅됩니다. 아웃바운드 전자 메일에 대한 재정의는 없습니다.
 
 DMARC 거부 정책(p=reject)을 게시하면 서비스를 통해 아웃바운드 메시지를 릴레이할 때 메시지가 사용자 도메인에 대해 SPF 또는 DKIM을 통과할 수 없으므로 Microsoft 365의 다른 고객이 사용자 도메인을 스푸핑할 수 없습니다. 그러나 DMARC 거부 정책을 게시했지만 Microsoft 365를 통해 모든 전자 메일을 인증하지 않았다면 일부 전자 메일이 인바운드 전자 메일에 대한 스팸으로 표시되거나(위에 설명된 것처럼) SPF를 게시하지 않고 서비스를 통해 아웃바운드 릴레이하려고 시도하면 거부됩니다. 예를 들어, DMARC TXT 레코드를 형성할 때 사용자 도메인을 대신하여 메일을 보내는 서버 및 앱의 일부 IP 주소를 포함하지 않은 경우에 발생합니다.
 
@@ -274,6 +274,6 @@ DMARC에 대한 자세한 정보가 필요하신가요? 다음 리소스가 도�
 
 [Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 방지하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)
 
-[스푸핑을 방지할 수 있도록 Microsoft 365에서 SPF 설정하기](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+[**스푸핑을 방지할 수 있도록 Microsoft 365에서 SPF 설정하기**](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-[DKIM을 사용하여 Microsoft 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
+[**DKIM을 사용하여 Microsoft 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사**](use-dkim-to-validate-outbound-email.md)

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 62f62e421c789f419eeabe174b0d05ae36e3dd4b
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: db1050486ba5b9a4238c8759e23ea449723c74f0
+ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042605"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099824"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -59,6 +59,9 @@ ms.locfileid: "60042605"
 - [iOS의 끝점용 Defender의 새로운](ios-whatsnew.md)
 - [Linux의 끝점용 Defender의 새로운](linux-whatsnew.md)
 
+## <a name="september-2021"></a>2021년 9월
+
+- [웹 컨텐츠 필터링](web-content-filtering.md) <br/>끝점용 Microsoft Defender의 웹 보호 기능의 일부로, 웹 콘텐츠 필터링을 사용하면 조직의 보안 팀이 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 범주에는 성인용 콘텐츠, 높은 대역폭, 법적 책임, 선고 및 분류되지 않은 콘텐츠가 포함됩니다. 이러한 범주 중 하나 이상에 속하는 많은 웹 사이트는 악의적이지 않을 수 있습니다. 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 인하여 문제가 될 수 있습니다. [웹 콘텐츠 필터링에 대해 자세히 알아보겠습니다.](web-content-filtering.md)
 
 ## <a name="august-2021"></a>2021년 8월
 

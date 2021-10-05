@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 85b021d42741919a64555de3ecd748e096457939
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0a264f16c35a9fe122c2cb62a56c16334fb162d2
+ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214965"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099708"
 ---
 # <a name="manage-the-gradual-rollout-process-for-microsoft-defender-updates"></a>Microsoft Defender 업데이트에 대한 서진적 출시 프로세스 관리
 
@@ -88,6 +88,7 @@ WSUS(Windows Server Update Services) 또는 MECM(Microsoft Endpoint Configuratio
 |현재 채널(미리 보기)|서서한 **릴리스의** 이전 현재 채널 업데이트 다운로드|이 채널로 설정된 장치는 서서한 릴리스 주기 동안 가장 빠른 시기에 업데이트를 제공합니다. 프로덕션 전/유효성 검사 환경에 권장됩니다.|
 |현재 채널(단계적)|나중에 서서한 릴리스 동안 현재 채널 업데이트 다운로드|디바이스는 나중에 서서한 릴리스 주기 동안 업데이트가 제공됩니다. 디바이스 인구의 대표적인 소규모 부분에 적용하는 것이 좋습니다(~10%).|
 |현재 채널(광범위)|서서한 릴리스가 끝날 때 업데이트 다운로드|디바이스는 서서한 릴리스 주기가 완료된 후에만 업데이트를 제공합니다. 프로덕션 인구의 광범위한 디바이스 집합(~10-100%)에 적용하는 것이 좋습니다.|
+|중요: 시간 지연|Defender 업데이트 지연|장치에는 48시간이 지연된 업데이트가 제공됩니다. 제한된 업데이트만 수신하는 데이터 센터 머신에 가장 좋습니다. 중요한 환경에만 권장됩니다.|
 |기본값||해당 정책을 사용하지 않도록 설정하거나 구성하지 않는 경우 장치는 현재 채널(기본값)에 남아 있습니다. 서서히 릴리스 주기 동안 자동으로 최신 상태로 유지됩니다. 대부분의 장치에 적합합니다.|
 |
 

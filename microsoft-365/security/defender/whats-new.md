@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 3c35f8315423bd7245546835e5963c7968eb4c12
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 5ebd798baa9b9c4fb759defbf0a650d4835568b8
+ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483990"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099792"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Microsoft 365 Defender를 경험해 보고 싶으신가요? [랩 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
+> Microsoft 365 Defender를 경험하고 싶으신가요? [실험실 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
 >
 
 다음 기능은 미리 보기에 제공되거나 최신 릴리스의 GA(일반 사용 가능)에 Microsoft 365 Defender.
@@ -51,6 +51,8 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="september-2021"></a>2021년 9월
 - (GA) Microsoft Defender for Office 365 이벤트 데이터는 Microsoft 365 Defender 스트리밍 API에서 사용할 수 있습니다. 스트리밍 API의 Supported Microsoft 365 Defender 이벤트 유형에서 이벤트 [유형의 가용성과 상태를](supported-event-types.md)확인할 수 있습니다.
 - (GA) Microsoft Defender for Office 365 고급 헌팅에서 사용할 수 있는 데이터를 이제 일반적으로 사용할 수 있습니다.
+- (미리 보기) 사용자 계정에 인시던트 및 경고 할당 <br> 인시던트 및 인시던트와 관련된 모든 경고를 할당에서 사용자 계정에  할당할 수 **있습니다.**  인시던트의 인시던트 관리 창 또는 경고의 경고 관리 창에 할당할 수 있습니다.
+
 
 ## <a name="august-2021"></a>2021년 8월
 - (미리 보기) 고급 헌팅에서 사용할 Office 365 Microsoft Defender for Office 365 데이터
