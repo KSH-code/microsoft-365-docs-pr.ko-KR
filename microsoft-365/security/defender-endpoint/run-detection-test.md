@@ -1,7 +1,6 @@
 ---
 title: 디바이스에서 검색 테스트를 실행하여 끝점용 Microsoft Defender에 제대로 온보딩되었는지 확인
 description: 최근에 Endpoint용 Microsoft Defender 서비스에 온보딩된 디바이스에서 검색 테스트 스크립트를 실행하여 제대로 추가되었는지 확인합니다.
-search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -17,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 11b7339dce44d3fb55593e7b54a5d38982f957cd
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 3eb8a028372fce56cb586c51829e506db040f0ca
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60043302"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124316"
 ---
 # <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행
 
@@ -30,6 +29,7 @@ ms.locfileid: "60043302"
 
 
 **적용 대상:**
+- Windows 11
 - 지원 Windows 10 버전
 - Windows Server 2012 R2
 - Windows Server 2016
@@ -68,6 +68,6 @@ ms.locfileid: "60043302"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
+- [장치 Windows 온보드](configure-endpoints.md)
 - [서버 온보드](configure-server-endpoints.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)

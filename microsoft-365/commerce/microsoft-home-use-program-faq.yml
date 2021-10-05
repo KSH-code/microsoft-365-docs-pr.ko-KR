@@ -19,12 +19,12 @@ metadata:
   search.appverid: MET150
   description: 요구에 대한 FAQ(질문과 대답)Microsoft HUP(가정 사용 프로그램).
   ms.date: 05/01/2021
-  ms.openlocfilehash: 9a149ee97c76189f52345587e1eaaac27bd562b2
-  ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+  ms.openlocfilehash: 77505b0855ff47afa497acb16b13eb6ad17112cf
+  ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/27/2021
-  ms.locfileid: "59934158"
+  ms.lasthandoff: 10/05/2021
+  ms.locfileid: "60124256"
 title: Microsoft HUP(가정 사용 프로그램) 질문과 대답(FAQ)
 summary: "볼륨 라이선스 고객은 Microsoft HUP(가정 사용 프로그램) 웹 사이트에서 [HUP(비즈니스용 Microsoft Store)를 사용 합니다.](https://go.microsoft.com/fwlink/?linkid=2139192)\n\n다른 모든 고객은 다음 단계를 사용하여 HUP에 액세스합니다.\n\n- Microsoft 관리 센터에서 청구 제품 페이지로 이동하여 혜택 탭을 선택한 다음  >  [](https://go.microsoft.com/fwlink/p/?linkid=842054) **HUP 탭을** 선택합니다. \n"
 sections:
@@ -77,9 +77,9 @@ sections:
 
       비즈니스용 스토어 관리자 지원에 이미 액세스한 비즈니스용 Microsoft Store 혜택을 보는 데 문제가 [있는 경우를 참조하세요.](/microsoft-store/)
   - question: >
-      2019 및/또는 Visio Professional 2019를 구매하는 옵션이 Project Professional 이유는 무엇입니까?
+      Why am I not see an option to purchase Visio Professional and/or Project Professional 2021?
     answer: >
-      직원 중 한 명이 이전 프로그램을 활용하고 Visio Professional 2019 및/또는 Project Professional 2019에서 할인을 찾고 있는 경우 자격 유효성 검사 프로세스를 거치고 개인 Microsoft 계정으로 로그인한 후 다른 Office 제품으로 이동하여 이러한 제품을 구입하세요.  예상 할인이 적용되지 않은 경우 고용주 홈 사용 프로그램 관리자에게 문의하여 이러한 추가 혜택에 대해 문의합니다.
+      직원 중 한 명이 이전 프로그램을 이용하고 Visio Professional 2021 및/또는 Project Professional 2021에서 할인을 찾고 있는 경우 자격 유효성 검사 프로세스를 거치고 개인 Microsoft 계정으로  로그인한 후 다른 Office 제품으로 이동하여 이러한 제품을 구입하세요. 예상 할인이 적용되지 않은 경우 고용주 홈 사용 프로그램 관리자에게 문의하여 이러한 추가 혜택에 대해 문의합니다.
   - question: >
       직원에게 이 프로그램에 대한 질문이 있는 경우 또는 구매 및 설치에 대한 지원이 필요한 경우 어떻게 해야 합니까?
     answer: >

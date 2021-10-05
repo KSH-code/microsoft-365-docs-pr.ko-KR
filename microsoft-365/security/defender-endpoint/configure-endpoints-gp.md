@@ -1,9 +1,7 @@
 ---
-title: 그룹 Windows 10 끝점용 Microsoft Defender에 장치 온보딩
-description: 그룹 정책을 사용하여 구성 패키지가 서비스에 Windows 10 구성 패키지를 배포할 수 있습니다.
+title: 그룹 Windows 끝점용 Microsoft Defender에 장치 온보딩
+description: 그룹 정책을 사용하여 구성 패키지가 서비스에 Windows 배포할 수 있도록 구성 패키지를 배포합니다.
 keywords: 그룹 정책, 장치 관리를 사용하여 장치 구성, 끝점 장치용 Microsoft Defender 구성, 끝점 장치용 Microsoft Defender 온보딩, 그룹 정책
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,14 +15,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/16/2021
 ms.technology: mde
-ms.openlocfilehash: 0d33484a7d7369cd9b3727fbd125e208649c533d
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 7d3d408e07790ef0dc095b57dcd84b644dfe655c
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60041783"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124676"
 ---
-# <a name="onboard-the-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드
+# <a name="onboard-windows-devices-using-group-policy"></a>그룹 정책을 Windows 장치 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,7 +45,7 @@ ms.locfileid: "60041783"
 
 1. 서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
     1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.  
-    2. 운영 Windows 10 로 실행을 선택합니다.
+    2. 운영 Windows 10 Windows 또는 11을 선택합니다.
     3. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
     4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
@@ -113,7 +111,7 @@ GP(그룹 정책)를 사용하여 심층 분석 기능에 사용되는 샘플 �
 
 ### <a name="update-endpoint-protection-configuration"></a>끝점 보호 구성 업데이트
 
-온보딩 스크립트를 구성한 후 동일한 그룹 정책을 계속 편집하여 끝점 보호 구성을 추가합니다. Windows 10 또는 Server 2019 또는 Windows Server 2022를 실행하는 시스템에서 그룹 정책 편집을 수행하여 필요한 모든 Microsoft Defender 바이러스 백신 합니다. 그룹 정책 개체를 닫았다가 다시 열고 Defender ATP 구성 설정을 등록해야 할 수 있습니다.
+온보딩 스크립트를 구성한 후 동일한 그룹 정책을 계속 편집하여 끝점 보호 구성을 추가합니다. Windows 10 또는 Server 2019, Windows 11 또는 Windows Server 2022를 실행하는 시스템에서 그룹 정책 편집을 수행하여 필요한 모든 Microsoft Defender 바이러스 백신 기능을 사용할 수 있도록 합니다. 그룹 정책 개체를 닫았다가 다시 열고 Defender ATP 구성 설정을 등록해야 할 수 있습니다.
 
 모든 정책은 에 `Computer Configuration\Policies\Administrative Templates` 있습니다.
 
@@ -196,7 +194,7 @@ Microsoft MAPS에 가입|사용, 고급 지도
 
 1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
     1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**
-    2. 운영 Windows 10 로 실행을 선택합니다.
+    2. 운영 Windows 10 Windows 또는 11을 선택합니다.
     3. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
     4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
@@ -239,8 +237,11 @@ Microsoft MAPS에 가입|사용, 고급 지도
 새 그룹 정책을 만들거나 이러한 설정을 다른 정책과 함께 그룹화합니다. 이는 고객 환경 및 다양한 OU(조직 구성 단위)를 대상으로 하여 서비스를 롤아웃하는 방법에 따라 달라집니다.
 
 1. GP를 선택하거나 새 GP를 만든 후 GP를 편집합니다.
+
 2. 컴퓨터 구성 **정책** 관리 템플릿 및  >    >    >  **Windows 구성 요소 Microsoft Defender 바이러스 백신**  >    >  **검색합니다.**
-:::image type="content" source="images/realtime-protect.png" alt-text="실시간 보호.":::
+
+    :::image type="content" source="images/realtime-protect.png" alt-text="실시간 보호.":::
+
 1. Quarantine 폴더에서 항목을 Quarantine 폴더에서 제거하도록 구성합니다.
 
     :::image type="content" source="images/removal-items-quarantine1.png" alt-text="제거 항목 폴더를 분리합니다.":::
@@ -306,9 +307,9 @@ MAPS에서 **컴퓨터** 구성 정책 관리 \>  \>  \> **템플릿 Windows 구
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
-- [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)
+- [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
+- [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

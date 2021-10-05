@@ -30,14 +30,6 @@
               href: ../admin/simplified-signup/user-invite-msa-nodomain-join.md
             - name: 내 Microsoft 365 Business Standard 구독으로 데이터 마이그레이션
               href: ../admin/simplified-signup/migrate-data-business-standard.md
-        - name: Windows 365 Business 플랜
-          items:
-            - name: Windows 365 Business 및 Cloud PC 시작
-              href: setup/get-started-windows-365-business.md
-            - name: Windows 365 Business 크기 조정 옵션
-              href: setup/windows-365-business-sizing.md
-            - name: Windows 365 클라우드 PC 설치 문제 해결
-              href: setup/troubleshoot-windows-365-business.md
         - name: 비즈니스 조직을 위한 Microsoft 365 설정
           items:
             - name: Microsoft 365 Business Basic

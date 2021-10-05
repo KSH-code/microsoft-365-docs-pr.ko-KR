@@ -2,7 +2,6 @@
 title: Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 description: 다음을 사용하여 끝점용 Microsoft Defender에 온보딩하는 Microsoft Endpoint Configuration Manager
 keywords: 온보딩, 구성, 배포, 배포, 끝점 구성 관리자, Endpoint용 Microsoft Defender, 컬렉션 만들기, 끝점 감지 응답, 차세대 보호, 공격 표면 감소, Microsoft 끝점 구성 관리자
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a73dc197a1643a2d1b4de079562579530c081e23
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e26e9c367015b05e1875693a5312af786a907031
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214832"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124448"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
@@ -61,7 +60,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 
 ### <a name="collection-creation"></a>컬렉션 만들기
 
-장치를 Windows 10 온보 Microsoft Endpoint Configuration Manager 배포는 기존 컬렉션을 대상으로 지정하거나 테스트하기 위해 새 컬렉션을 만들 수 있습니다.
+디바이스를 Windows Microsoft Endpoint Configuration Manager 배포는 기존 컬렉션을 대상으로 지정하거나 테스트하기 위해 새 컬렉션을 만들 수 있습니다.
 
 그룹 정책 또는 수동 방법과 같은 도구를 사용하여 온보더링하면 시스템에 에이전트가 설치되지 않습니다.
 
@@ -107,7 +106,7 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 
     ![Microsoft Endpoint Configuration Manager 마법사9의 이미지입니다.](images/configmgr-confirm.png)
 
-이 작업을 완료한 후 이제 환경의 모든 Windows 10 장치 컬렉션이 있습니다.
+이 작업을 완료한 후 이제 환경의 모든 Windows 장치 컬렉션이 있습니다.
 
 
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>2단계: 끝점용 Microsoft Defender 기능 구성
@@ -120,9 +119,9 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 
 ### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
 
-#### <a name="windows-10"></a>Windows 10
+#### <a name="windows-10-and-windows-11"></a>Windows 10 및 Windows 11
 
-Microsoft 365 Defender 포털 내에서 정책을 만들고 이 정책을 System Center Configuration Manager 장치에 배포하는 데 사용할 수 있는 '.onboarding' 정책을 다운로드할 Windows 10 있습니다.
+Microsoft 365 Defender 포털 내에서 '.onboarding' 정책을 다운로드하여 11대의 System Center Configuration Manager 및 Windows 10 및 Windows 배포할 수 있습니다.
 
 1. Microsoft 365 Defender 포털에서 설정 [를 선택한 다음 온보더링을 선택합니다.](https://security.microsoft.com/preferences2/onboarding)
 
@@ -246,7 +245,7 @@ Microsoft Defender 바이러스 백신은 데스크톱, 휴대용 컴퓨터 및 
 
     ![차세대 보호 창 10의 이미지입니다.](images/f5508317cd8c7870627cb4726acd5f3d.png)
 
-4. 새 맬웨어 방지 정책을 Windows 10 확인을 **클릭합니다.**
+4. 새 맬웨어 방지 정책을 Windows 확인을 **클릭합니다.**
 
      ![차세대 보호 창11의 이미지입니다.](images/configmgr-select-collection.png)
 
@@ -282,7 +281,7 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![console4 Microsoft Endpoint Configuration Manager 이미지입니다.](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7. 새로 만든 Windows 10 정책을 대상으로 지정하고 확인을 **클릭합니다.**
+7. 새로 만든 Windows 정책을 대상으로 지정하고 확인을 **클릭합니다.**
 
     ![콘솔 Microsoft Endpoint Configuration Manager 이미지입니다.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
@@ -332,7 +331,7 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![스크린샷 Microsoft Endpoint Configuration Manager1.](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7. 새로 만든 Windows 10 정책을 선택하고 확인 을 **선택합니다.**
+7. 새로 만든 Windows 정책을 선택하고 확인 을 **선택합니다.**
 
     ![스크린샷 Microsoft Endpoint Configuration Manager2.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
@@ -362,7 +361,7 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![Microsoft Endpoint Configuration Manager7의 스크린샷.](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7. 새로 만든 Windows 10 정책을 대상으로 지정하고 확인을 **클릭합니다.**
+7. 새로 만든 Windows 정책을 대상으로 지정하고 확인을 **클릭합니다.**
 
     ![Microsoft Endpoint Configuration Manager8의 스크린샷입니다.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 

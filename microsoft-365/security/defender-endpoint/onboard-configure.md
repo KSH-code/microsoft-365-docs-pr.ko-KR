@@ -1,9 +1,7 @@
 ---
 title: Microsoft Defender for Endpoint 서비스에 장치 온보딩
-description: Windows 10, 서버, Windows 장치를 온보드하고 검색 테스트를 실행하는 방법을 배워야 합니다.
+description: Windows, 서버, Windows 장치를 온보드하고 검색 테스트를 실행하는 방법을 배워야 합니다.
 keywords: 온보딩, 끝점 온보딩용 Microsoft Defender, sccm, 그룹 정책, mdm, 로컬 스크립트, 검색 테스트
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4792489abf721993fe55dc642f132c51442c21a5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 49109b7671cc4ecd1891cb942dcd6b678d7b5c11
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220384"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124532"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Microsoft Defender for Endpoint 서비스에 장치 온보딩
 
@@ -63,7 +61,7 @@ ms.locfileid: "59220384"
 항목|설명
 :---|:---
 [이전 버전의 Windows 온보딩](onboard-downlevel.md)|7 Windows 및 Windows 8.1 끝점용 Defender에 온보딩합니다.
-[그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)|디바이스를 끝점용 Defender 서비스에 보고하려면 장치를 온보딩해야 합니다. 엔터프라이즈에서 장치를 구성하는 데 사용할 수 있는 도구 및 방법에 대해 자세히 알아보습니다.
+[장치 Windows 온보드](configure-endpoints.md)|디바이스를 끝점용 Defender 서비스에 보고하려면 장치를 온보딩해야 합니다. 엔터프라이즈에서 장치를 구성하는 데 사용할 수 있는 도구 및 방법에 대해 자세히 알아보습니다.
 [서버 온보드](configure-server-endpoints.md)|Windows Server 2008 R2 SP1, Windows Server 2012 R2, Windows Server 2016, Windows Server(SAC) 버전 1803 이상, Windows Server 2019 이상 및 Windows Server 2019 core edition을 Endpoint용 Defender에 온보딩합니다.
 [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)|Endpoint용 Defender는 비보안 플랫폼뿐만 아니라 Windows 중앙 집중식 보안 Windows 환경을 제공합니다. 지원되는 다양한 OS(운영 체제)에서 경고를 보고 조직의 Microsoft Defender 보안 센터 보호할 수 있습니다. 이 환경은 타사 보안 제품의 센서 데이터를 활용합니다.
 [새로 온보딩된 장치에서 검색 테스트 실행](run-detection-test.md)|새로 온보딩된 장치에서 스크립트를 실행하여 끝점용 Defender 서비스에 제대로 보고하고 있는지 확인합니다.

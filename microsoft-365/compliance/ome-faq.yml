@@ -16,12 +16,12 @@ metadata:
   ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
   description: 새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요.
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 2e59d4b4d2d077921e1c6c9496d14e59bae2317a
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.openlocfilehash: 4298ab1460088ac494fe4c6386fa793665cb7c1b
+  ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59216665"
+  ms.lasthandoff: 10/05/2021
+  ms.locfileid: "60124820"
 title: 메시지 암호화 FAQ
 summary: >
   새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요. 또한 Azure Information [Protection의](/information-protection/get-started/faqs-rms) 데이터 보호 서비스인 Azure Rights Management에 대한 질문과 대답은 Azure Information Protection의 데이터 보호에 대한 질문과 대답을 살펴보아야 합니다.
@@ -182,7 +182,7 @@ sections:
       - 모바일 장치를 사용하여 모바일 장치에서 받는 전자 메일에 첨부 파일을 열 수 Outlook 없습니다.
 
 
-      - 전자 메일 사용이 가능한 보안 그룹을 통한 할당은 지원되지 않습니다. 공유 사서함에 직접 사용자 할당을 통해 제공되는 액세스만 지원하며, 공유 사서함에 대해 automapping이 사용하도록 Exchange Online. Automapping은 기본적으로 사용자 지정에 대해 Exchange Online.
+      - 전자 메일 사용이 가능한 보안 그룹을 통한 할당은 지원되지 Outlook Azure Information Protection 통합 레이블 클라이언트는 사용자에게 모든 액세스 권한을 부여하고 자동 응용 기능을 사용하도록 설정해야 하기 때문에 지원되지 않습니다. Automapping은 기본적으로 사용자 지정에 대해 Exchange Online.
 
 
       **공유 사서함에 사용자를 할당하기 위해**

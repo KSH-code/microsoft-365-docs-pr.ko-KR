@@ -1,8 +1,7 @@
 ---
-title: 로컬 스크립트를 사용하여 Windows 10 장치 온보딩
+title: 로컬 스크립트를 Windows 장치 온보딩
 description: 로컬 스크립트를 사용하여 디바이스를 서비스에 온보딩할 수 있도록 디바이스에 구성 패키지를 배포합니다.
 keywords: 로컬 스크립트를 사용하여 장치 구성, 장치 관리, 끝점 장치용 Microsoft Defender 구성
-search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b1e6bcd4991ea94f1b46b43f446f5f40f6f2e1d4
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 1bcc9c51f37c9d76009b4c949a40b564617dd563
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399253"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124796"
 ---
-# <a name="onboard-the-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 Windows 10 장치 온보딩
+# <a name="onboard-the-windows-devices-using-a-local-script"></a>로컬 스크립트를 Windows 장치 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +35,7 @@ ms.locfileid: "59399253"
 > [!IMPORTANT]
 > 이 스크립트는 최대 10대의 장치에서 사용하기 위해 최적화되었습니다.
 >
-> 대규모로 배포하기 위해 다른 [배포 옵션을 사용하세요.](configure-endpoints.md) 예를 들어 그룹 정책을 사용하여 온보딩 스크립트를 온보딩 장치에서 사용할 수 있는 스크립트를 사용하여 프로덕션의 10개가 넘는 디바이스에 배포할 [Windows 10 있습니다.](configure-endpoints-gp.md)
+> 대규모로 배포하기 위해 다른 [배포 옵션을 사용하세요.](configure-endpoints.md) 예를 들어 그룹 정책을 사용하여 온보딩 스크립트를 온보딩 장치에서 사용할 수 있는 스크립트를 사용하여 프로덕션의 10개가 넘는 디바이스에 [배포할 Windows 있습니다.](configure-endpoints-gp.md)
 
 ## <a name="onboard-devices"></a>온보딩 장치
 
@@ -45,7 +44,7 @@ ms.locfileid: "59399253"
 
 1. 서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. Defender 포털에서 [패키지를 Microsoft 365 있습니다.](https://security.microsoft.com/)
     1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.
-    2. 운영 Windows 10 로 실행을 선택합니다.
+    2. 운영 Windows 10 Windows 또는 11을 선택합니다.
     3. 배포 **방법 필드에서** 로컬 스크립트 **를 선택합니다.**
     4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
@@ -100,7 +99,7 @@ Value: 0 or 1
 
 1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
     1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**
-    2. 운영 Windows 10 로 실행을 선택합니다.
+    2. 운영 Windows 10 Windows 또는 11을 선택합니다.
     3. 배포 **방법 필드에서** 로컬 스크립트 **를 선택합니다.**
     4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
@@ -133,9 +132,9 @@ Value: 0 or 1
 
 ## <a name="related-topics"></a>관련 항목
 
-- [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)
-- [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
+- [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
+- [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

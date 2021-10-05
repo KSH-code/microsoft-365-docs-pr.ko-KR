@@ -2,7 +2,6 @@
 title: 엔드포인트용 Microsoft Defender 서비스에 온보딩
 description: 끝점을 Microsoft Defender for Endpoint Service에 온보딩하는 방법 학습
 keywords: 끝점용 Microsoft Defender, 온보딩, 배포
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 173135d9cc1ecf45ad5c0485b2bab4bb39b88a5e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e56bb5f8647e9504c18fdc280b8e85b9764bc6c4
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192679"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124284"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>엔드포인트용 Microsoft Defender 서비스에 온보딩
 

@@ -2,8 +2,6 @@
 title: 끝점용 Microsoft Defender에 대한 최소 요구 사항
 description: 서비스에 대한 장치 온보드에 대한 라이선스 요구 사항 및 요구 사항 이해
 keywords: 최소 요구 사항, 라이선스, 비교 표
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7cb01f6067e14d615e018b5c8648b0b6c423ddca
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 4779a0c40cd8282d8e05fde84ae72827531810d9
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042773"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124269"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -46,9 +44,11 @@ ms.locfileid: "60042773"
 
 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선스 제품 중 하나가 필요합니다.
 
+- Windows 11 Enterprise E5
+- Windows 11 Education A5
 - Windows 10 Enterprise E5
 - Windows 10 Education A5
-- Microsoft 365 E5 (M365 E5)에 포함된 Windows 10 Enterprise E5
+- Microsoft 365 E5 (M365 E5)(Windows 10 Enterprise E5 또는 Windows 11 Enterprise E5 포함)
 - Microsoft 365 A5(M365 A5)
 - Microsoft 365 E5 Security
 - Microsoft 365 A5 보안
@@ -70,11 +70,11 @@ ms.locfileid: "60042773"
 > - 끝점용 Microsoft Defender
 > - Windows E5/A5
 > - Microsoft 365 E5/A5
-> - Microsoft 365 E5/A5 보안
+> - E5/A5 보안 Microsoft 365
 
 자세한 라이선스 정보는 제품 사용권 사이트를 참조하고 계정 팀과 함께 사용 약관에 대해 자세히 알아보는 방법을 참조하세요. [](https://www.microsoft.com/licensing/terms/)
 
-Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교를 [Windows 10 참조하세요.](https://www.microsoft.com/windowsforbusiness/compare)
+Windows 에디션의 기능 배열에 대한 자세한 내용은 에디션 [비교를 Windows 참조하세요.](https://www.microsoft.com/windowsforbusiness/compare)
 
 ## <a name="browser-requirements"></a>브라우저 요구 사항
 
@@ -94,6 +94,10 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 - Windows 7 SP1 Pro(지원을 위해[ESU가 필요합니다.)](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq)
 - Windows 8.1 Enterprise
 - Windows 8.1 Pro
+- Windows 11 Enterprise
+- Windows 11 Education
+- Windows 11 Pro
+- Windows 11 Pro Education
 - Windows 10 Enterprise
 - [Windows 10 Enterprise LTSC 2016 이상](/windows/whats-new/ltsc/)
 - Windows 10 Education
@@ -146,7 +150,7 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 조직의 모든 장치에서 진단 데이터 서비스가 사용하도록 설정되어 있는지 확인합니다.
 기본적으로 이 서비스는 사용하도록 설정되어 있습니다. 센서 데이터를 얻을 수 있도록 하는 것이 좋습니다.
 
-#### <a name="use-the-command-line-to-check-the-windows-10-diagnostic-data-service-startup-type"></a>명령줄을 사용하여 진단 데이터 Windows 10 시작 유형 확인
+#### <a name="use-the-command-line-to-check-the-windows-diagnostic-data-service-startup-type"></a>명령줄을 사용하여 진단 Windows 서비스 시작 유형 확인
 
 1. 디바이스에서 상승된 명령줄 프롬프트를 니다.
    1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
@@ -164,7 +168,7 @@ Windows 10 버전 기능 배열에 대한 자세한 내용은 에디션 비교�
 
 서비스가 에 로 설정되어 있지 않은  경우 START_TYPE 자동으로 시작 **AUTO_START.**
 
-#### <a name="use-the-command-line-to-set-the-windows-10-diagnostic-data-service-to-automatically-start"></a>명령줄을 사용하여 Windows 10 진단 데이터 서비스가 자동으로 시작될 수 있도록 설정
+#### <a name="use-the-command-line-to-set-the-windows-diagnostic-data-service-to-automatically-start"></a>명령줄을 사용하여 Windows 진단 데이터 서비스가 자동으로 시작될 수 있도록 설정
 
 1. 끝점에서 상승된 명령줄 프롬프트를 여는 경우:
     1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
@@ -190,7 +194,7 @@ Endpoint용 Defender 센서는 일별 평균 대역폭 5MB를 사용하여 Endpo
 
 추가 프록시 구성 설정에 대한 자세한 내용은 장치 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](configure-proxy-internet.md)
 
-장치를 온보드하기 전에 진단 데이터 서비스를 사용하도록 설정해야 합니다. 이 서비스는 기본적으로 Windows 10.
+장치를 온보드하기 전에 진단 데이터 서비스를 사용하도록 설정해야 합니다. 서비스는 기본적으로 11에서 Windows 10 Windows 사용하도록 설정되어 있습니다.
 
 ## <a name="microsoft-defender-antivirus-configuration-requirement"></a>Microsoft Defender 바이러스 백신 구성 요구 사항
 

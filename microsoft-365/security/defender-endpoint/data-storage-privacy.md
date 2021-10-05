@@ -2,8 +2,6 @@
 title: 끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 description: 끝점용 Microsoft Defender가 수집하는 개인 정보 및 데이터를 처리하는 방법에 대해 자세히 알아보습니다.
 keywords: 끝점용 Microsoft Defender, 데이터 저장소 및 개인 정보, 저장, 개인 정보, 라이선싱, 지리적 위치, 데이터 보존, 데이터
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1ad4dd1bacb301ad50b5a6aa52e6a49eacb647f1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9cbe0ca481b582a2161480d8e7aa1ecc1d4164ff
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210345"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124478"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 
@@ -36,7 +34,7 @@ ms.locfileid: "59210345"
 이 섹션에서는 끝점용 Defender의 개인 정보 및 데이터 처리와 관련하여 자주 묻는 몇 가지 질문에 대해 설명합니다.
 
 > [!NOTE]
-> 이 문서에서는 끝점용 Defender와 관련된 데이터 저장소 및 개인 정보 보호 세부 정보를 설명합니다. Endpoint용 Defender 및 Microsoft Defender 바이러스 백신 및 서비스와 관련된 Microsoft Defender 바이러스 백신 Windows 10 Microsoft 개인 정보 취급 방침을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=827576) 자세한 내용은 Windows 10 [개인 정보 FAQ도](https://go.microsoft.com/fwlink/?linkid=827577) 참조하세요.
+> 이 문서에서는 끝점용 Defender와 관련된 데이터 저장소 및 개인 정보 보호 세부 정보를 설명합니다. Endpoint용 Defender 및 Microsoft Defender 바이러스 백신 및 Windows Microsoft 개인 정보 취급 방침을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=827576) 자세한 내용은 Windows [개인 정보 FAQ도](https://go.microsoft.com/fwlink/?linkid=827577) 참조하세요.
 
 ## <a name="what-data-does-microsoft-defender-for-endpoint-collect"></a>Endpoint용 Microsoft Defender는 어떤 데이터를 수집하나요?
 

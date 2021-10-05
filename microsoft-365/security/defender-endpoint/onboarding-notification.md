@@ -2,7 +2,6 @@
 title: 온보딩 또는 오프보딩 알림 규칙 만들기
 description: 로컬 온보딩 또는 등록 해제 스크립트를 사용할 때 알림을 받을 수 있습니다.
 keywords: 등록, 등록 해제, 로컬, 스크립트, 알림, 규칙
-search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9b00d971afa714b89a473ff75cf6022f8bba9ef8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2fc605a57d1bce1b1653f5e15bf8600cd9e1d831
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192682"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124292"
 ---
 # <a name="create-a-notification-rule-when-a-local-onboarding-or-offboarding-script-is-used"></a>로컬 온보딩 또는 등록 해제 스크립트를 사용하는 경우 알림 규칙 만들기
 

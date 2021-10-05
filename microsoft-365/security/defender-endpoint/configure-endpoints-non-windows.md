@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2c3350cd45eedb590016e3456274b4e04dda1c51
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c1c8e5fa990e37f4812b8e5429fdbf2fcbfa7b71
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222968"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124736"
 ---
 # <a name="onboard-non-windows-devices"></a>Windows가 아닌 장치 온보딩
 
@@ -73,7 +73,7 @@ Endpoint용 Defender는 비영리 플랫폼 및 비영리 Windows 중앙 집중�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
+- [장치 Windows 온보드](configure-endpoints.md)
 - [서버 온보드](configure-server-endpoints.md)
 - [프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

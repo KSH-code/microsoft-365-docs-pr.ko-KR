@@ -1,9 +1,7 @@
 ---
-title: 모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩
+title: 모바일 Windows 도구를 사용하여 장치 온보드
 description: 모바일 장치 관리 도구를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
 keywords: mdm을 사용하여 장치 온보딩, 장치 관리, Endpoint 장치용 Microsoft Defender 온보딩, mdm
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,14 +14,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 192c3231a44f2f1c4358a930fed8884bb00da093
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 6cb99f300c7d87497f31729507695a9a633b345a
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59402037"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124700"
 ---
-# <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>모바일 Windows 10 관리 도구를 사용하여 디바이스 온보드
+# <a name="onboard-the-windows-devices-using-mobile-device-management-tools"></a>모바일 Windows 도구를 사용하여 디바이스 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -74,7 +72,7 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
 
    1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**
 
-   1. 운영 Windows 10 로 실행을 선택합니다.
+   1. 운영 Windows 10 Windows 또는 11을 선택합니다.
 
    1. 배포 **방법 필드에서** 모바일 장치 관리 **/를 Microsoft Intune.**
 
@@ -97,9 +95,9 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
 
 ## <a name="related-topics"></a>관련 항목
 
-- [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)
-- [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)
+- [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
+- [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

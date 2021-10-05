@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: db1050486ba5b9a4238c8759e23ea449723c74f0
-ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
+ms.openlocfilehash: 06de4468d0737fbdc8e0b847c5671256d00b5acd
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/05/2021
-ms.locfileid: "60099824"
+ms.locfileid: "60124760"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -58,6 +58,10 @@ ms.locfileid: "60099824"
 - [MacOS의 끝점용 Defender의 새로운](mac-whatsnew.md)
 - [iOS의 끝점용 Defender의 새로운](ios-whatsnew.md)
 - [Linux의 끝점용 Defender의 새로운](linux-whatsnew.md)
+
+## <a name="october-2021"></a>2021년 10월
+
+- Windows 및 지원에 대한 Microsoft Defender에 추가된 11 Microsoft 365 Defender.
 
 ## <a name="september-2021"></a>2021년 9월
 

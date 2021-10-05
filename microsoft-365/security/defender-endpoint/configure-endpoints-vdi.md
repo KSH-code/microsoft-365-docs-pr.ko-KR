@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/22/2021
 ms.technology: mde
-ms.openlocfilehash: 494cfb352d8ccbf6dd0640d559083c9e733fa9b7
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 57d029e55759a08d84efe1eb684b67caf3e8653a
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60041636"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124688"
 ---
 # <a name="onboarding-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
 
@@ -33,7 +33,7 @@ ms.locfileid: "60041636"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 - VDI(가상 데스크톱 인프라) 장치
-- Windows 10 Windows Server 2019, Windows Server 2022, Windows Server 2008R2/2012R2/2016
+- Windows 10 Windows 11, Windows Server 2019, Windows Server 2022, Windows Server 2008R2/2012R2/2016
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-configvdi-abovefoldlink)
 
@@ -60,11 +60,11 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 > [!WARNING]
 > 리소스 구성이 낮은 환경에서는 VDI 부팅 절차로 끝점 센서의 Defender 온보딩 속도가 느려질 수 있습니다.
 
-### <a name="for-windows-10-or-windows-server-2019-or-windows-server-2022"></a>Windows 10 또는 Windows Server 2019 또는 Windows Server 2022의 경우
+### <a name="for-windows-10-or-windows-11-or-windows-server-2019-or-windows-server-2022"></a>Windows 10 또는 Windows 11 또는 Windows Server 2019 또는 Windows Server 2022의 경우
 
 1. 서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 다음 포털에서 패키지를 [Microsoft 365 Defender 있습니다.](https://security.microsoft.com/)
    1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.
-   2. 운영 Windows 10 로 실행을 선택합니다.
+   2. 운영 Windows 10 Windows 또는 11을 선택합니다.
    3. 배포 **방법 필드에서** 비영구 끝점에 **대한 VDI 온보딩 스크립트를 선택합니다.**
    4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
@@ -166,8 +166,8 @@ DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)
-- [Windows 10 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
-- [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)
+- [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
+- [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
+- [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

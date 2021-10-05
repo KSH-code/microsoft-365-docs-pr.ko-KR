@@ -1,9 +1,7 @@
 ---
-title: 구성 관리자를 사용하여 Windows 10 장치 온보딩
+title: Configuration Manager를 Windows 장치 온보드
 description: Configuration Manager를 사용하여 디바이스가 서비스에 온보드될 수 있도록 디바이스에 구성 패키지를 배포합니다.
 keywords: sccm을 사용하여 장치 온보딩, 장치 관리, 끝점 장치용 Microsoft Defender 구성
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,14 +15,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/22/2021
 ms.technology: mde
-ms.openlocfilehash: 9a5ef03cf94501d83340f159ecd1b54f26f68b0a
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: ae560e7072884d19f224df1af15e90d507826812
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042930"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124712"
 ---
-# <a name="onboard-the-windows-10-devices-using-configuration-manager"></a>Configuration Manager를 Windows 10 장치 온보드
+# <a name="onboard-the-windows-devices-using-configuration-manager"></a>Configuration Manager를 Windows 장치 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -49,6 +47,7 @@ ms.locfileid: "60042930"
 
   - Windows 8.1
   - Windows 10
+  - Windows 11
   - Windows Server 2012 R2
   - Windows Server 2016
   - Windows Server 2016 버전 1803 이상
@@ -64,7 +63,7 @@ ms.locfileid: "60042930"
 
 1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(WindowsDefenderATPOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
     1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.
-    2. 운영 Windows 10 로 실행을 선택합니다.
+    2. 운영 Windows 10 Windows 또는 11을 선택합니다.
     3. 배포 **방법 필드에서** System Center Configuration Manager **2012/2012 R2/1511/1602 를 선택합니다.**
     4. 패키지 **다운로드를** 선택하고 파일 .zip 저장합니다.
 
@@ -155,8 +154,8 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 자세한 내용은 제어된 폴더 [액세스 평가를 참조하세요.](evaluate-controlled-folder-access.md)
 
 ## <a name="run-a-detection-test-to-verify-onboarding"></a>검색 테스트를 실행하여 온보더링 확인
-장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
+장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
 ## <a name="offboard-devices-using-configuration-manager"></a>Configuration Manager를 사용하여 디바이스 오프보드
 
@@ -173,7 +172,7 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 
 1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
     1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**  
-    1. 운영 Windows 10 로 실행을 선택합니다.
+    1. 운영 Windows 10 Windows 또는 11을 선택합니다.
     1. 배포 **방법 필드에서** System Center Configuration Manager **2012/2012 R2/1511/1602 를 선택합니다.**
     1. 패키지 **다운로드를** 선택하고 파일 .zip 저장합니다.
 
@@ -228,9 +227,9 @@ Value: "1"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [그룹 정책을 Windows 10 장치 온보드](configure-endpoints-gp.md)
-- [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
-- [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)
+- [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
+- [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
+- [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

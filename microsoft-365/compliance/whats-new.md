@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1894721cb929aaf92df371668348b36bb788727b
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: 7e4375c52bdf8f4a3dd8ba958b40de72351feae4
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60010236"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124244"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -40,6 +40,36 @@ ms.locfileid: "60010236"
 > - [Microsoft 365 Defender의 새로운 기능](../security/defender/whats-new.md)
 >
 > 또한 Microsoft 365 [](https://www.microsoft.com/microsoft-365/roadmap) 로드맵을 방문하여 Microsoft 365, 개발 중, 취소 또는 이전에 릴리스된 Microsoft 365 기능에 대해 자세히 알아보습니다.
+
+## <a name="september-2021"></a>2021년 9월
+
+### <a name="app-governance"></a>앱 거버넌스
+
+- [간소화된 앱 거버넌스](https://docs.microsoft.com/microsoft-365/compliance/app-governance-get-started) 시작 정보의 워크플로가 변경되어 공개 미리 보기 등록에 새 링크가 추가되었습니다.
+- [새 검색 경고 정의](https://docs.microsoft.com/microsoft-365/compliance/app-governance-anomaly-detection-alerts#app-made-high-volume-of-importance-mail-read-and-created-inbox-rule) 추가(업데이트, 컬렉션 경고에 대한 새 정의 추가)
+
+### <a name="auditing"></a>감사
+
+- [조직의 감사 상태에](turn-audit-log-search-on-or-off.md) 대한 변경 내용을 자체적으로 감사하는 방법에 대한 새 섹션에 대한 감사를 설정하거나 해제합니다. 즉, 감사를 설정하거나 해제하면 감사 레코드가 기록됩니다. 관리자 감사 Exchange 검색할 수 있습니다.
+
+### <a name="data-connectors"></a>데이터 커넥터
+
+- [이제](archiving-third-party-data.md#data-connectors-in-the-us-government-cloud) 미국 정부 클라우드의 GCC 조직에서 사용할 수 있는 CellTrust 및 17a-4 LLC의 Microsoft 365 데이터 커넥터에 타사 데이터 보관
+- [YouTube 데이터를 보관할](archive-youtube-data.md) 커넥터를 설정하면 공개 미리 보기에서 이 기능에 대한 새로운 지침이 제공됩니다.
+
+### <a name="ediscovery"></a>eDiscovery
+
+- [KQL](ediscovery-kql-editor.md) 편집기를 사용하여 콘텐츠 검색, Core eDiscovery 및 검색에서 검색 쿼리를 만드는 새로운 방법의 검색 쿼리 공개 미리 보기를 Advanced eDiscovery. KQL 편집기는 지원되는 검색 가능한 속성 및 조건에 대한 자동 고침을 제공하며 표준 속성 및 조건에 대해 지원되는 값 목록을 표시합니다. 또한 KQL 편집기는 검색 쿼리에서 발생할 수 있는 오류 수정을 위한 오류 검색 및 제안 사항도 제공합니다.
+
+### <a name="retention-and-records-management"></a>보존 및 레코드 관리
+- [이제 새로운](disposition.md) 감사 이벤트를 통해 GA(다단계 분해 검토)를 일반적으로 사용할 [수 있습니다.](search-the-audit-log-in-security-and-compliance.md#disposition-review-activities) 다단계 분해 검토를 사용하면 보존 레이블에 대한 최대 5개의 연속된 분류 검토 단계로 지정할 수 있으며, 검토자는 다른 사용자를 해당 분류 검토 단계에 추가할 수 있습니다. 또한 전자 메일 알림 및 미리 알림을 사용자 지정할 수 있습니다.
+- 개인 보존 [정책에 Teams 개인](create-retention-policies.md#retention-policy-for-teams-locations) 채널은 이제 일반적으로 사용할 수 있습니다(GA).
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+- 공동 [작성](sensitivity-labels-coauthoring.md) 및 자동 작성은 이제 Windows(현재 채널 또는 월간 Enterprise 채널의 최소 버전 2107) 및 macOS(최소 버전 16.51)에 대해 일반적으로 사용할 수 있습니다.
+- 기본 제공 레이블을 Office 앱에 대해 롤아웃: 기본 레이블 설정은 기존 문서 및 새 문서를 지원합니다. 이러한 동작 변경은 패리티에 Azure Information Protection 통합 레이블 지정 클라이언트를 제공합니다. 앱별 롤아웃 및 최소 버전에 대한 자세한 내용은 Word, Excel 및 PowerPoint에 대한 [기능 표](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint)를 참조하세요.
+- 컨테이너 레이블은 이제 PowerShell 고급 설정을 사용하여 기본 공유 링크 [설정을 지원합니다.](sensitivity-labels-teams-groups-sites.md#configure-settings-for-the-default-sharing-link-for-a-site-by-using-powershell-advanced-settings)
+- 기본 [제공](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) 레이블 지정에 대해 지원되는 최소 버전을 나열하는 기능 표에는 현재 채널, 월별 Enterprise 채널 및 기본 제공 채널에 대한 Semi-Annual Enterprise 있습니다.
 
 ## <a name="august-2021"></a>2021년 8월
 
@@ -234,82 +264,3 @@ Outlook 릴리스 및 업데이트:
 - [필수 레이블은](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) 나머지 플랫폼에 롤아웃됩니다.
 - [모든 변수가](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) 있는 동적 표시는 모든 클라이언트에서 Outlook 지원됩니다.
 
-## <a name="march-2021"></a>2021년 3월
-
-다음은 3월 한 달 동안 Microsoft 365 솔루션 및 콘텐츠에 대한 몇 가지 변경 내용입니다.
-
-### <a name="advanced-ediscovery"></a>Advanced eDiscovery
-
-- **Advanced eDiscovery 컬렉션에서** 새 컬렉션 도구 및 [워크플로를 지원하게 됩니다.](/microsoft-365/compliance/collections-overview) 다른 새 항목에는 초안 컬렉션 [만들기,](/microsoft-365/compliance/create-draft-collection)검토 [집합에](/microsoft-365/compliance/commit-draft-collection)초안 컬렉션 커밋, 컬렉션 통계 및 보고서가 [있습니다.](/microsoft-365/compliance/collection-statistics-reports)
-- **검토 집합의** 문서를 Azure Storage 계정으로 [내보낼](/microsoft-365/compliance/download-export-jobs) 수 있습니다.
-- **에 대한** 예측 코딩 Advanced eDiscovery. 먼저 사용 중지된 [Relevance](/microsoft-365/compliance/predictive-coding-overview) 모듈을 대체하는 새로운 예측 코딩 기능을 살펴 봐야 합니다.
-
-### <a name="data-classification"></a>데이터 분류
-
-- **데이터 분류 탐색기**. [데이터 분류 탐색기를](/microsoft-365/compliance/data-classification-activity-explorer) 시작하십시오.
-
-### <a name="data-connectors"></a>데이터 커넥터
-
-- **개인 키**. 개인 키에 대한 지원이 [Bloomberg 메시지](/microsoft-365/compliance/archive-bloomberg-message-data#set-up-a-connector-using-public-keys) 데이터, [ICE 채팅](/microsoft-365/compliance/archive-icechat-data#set-up-a-connector-using-public-keys) 데이터 및 [Instant Bloomberg](/microsoft-365/compliance/archive-instant-bloomberg-data#set-up-a-connector-using-public-keys) 데이터 커넥터에 추가되었습니다.
-
-### <a name="data-loss-prevention"></a>데이터 손실 방지
-
-- **Microsoft Teams 지원.** 데이터 손실 방지 지원은 [Microsoft Teams.](/microsoft-365/compliance/dlp-teams-default-policy)
-- **Microsoft 규정 준수 확장**. Microsoft 준수 [확장을 시작 합니다.](/microsoft-365/compliance/dlp-chrome-get-started)
-
-### <a name="encryption"></a>암호화
-
-- **에 대한 고객 Microsoft 365.** [테넌트](/microsoft-365/compliance/customer-key-tenant-level) 수준의 고객 Microsoft 365(공개 미리 보기)에 대한 개요입니다.
-- **이중 키 암호화**. 자세한 내용은 레이블이 [지정되어](/microsoft-365/compliance/double-key-encryption) 있는 문서 및 보호된 문서에 대한 지원을 사용하도록 설정하는 방법을 SharePoint 비즈니스용 OneDrive.
-
-### <a name="insider-risk-management"></a>내부자 위험 관리
-
-다음 내부자 위험 관리 기능 업데이트는 3월에 공개 미리 보기를 위해 릴리스되었습니다.
-
-- 내부자 위험 정책을 만들기 전에 위험을 식별하기 위한 새로운 분석 기능
-- 새로운 위험 활동 시퀀스 검색 지원 및 관리
-- 새로운 누적 유출 감지 지원
-- 새로운 앱 내 정책 상태 보고 및 권장 지원
-- 새로운 감사 로그 기능 및 보고
-- 정책 만들기 마법사의 향상된 기능
-- 콘텐츠 탐색기 업데이트
-- 새 사용자 관리 프로세스/지원(정책에서 사용자 추가/제거)
-- AAD 통합에 대한 새로운 지원(사용자 정책 지원이 떠났음)
-- 정책에서 도메인 지원 업데이트(REGEX)
-- 정책 템플릿의 향상된 기능 및 개선 사항
-
-다음 항목은 이러한 새로운 기능을 지원하기 위해 업데이트되거나 추가되었습니다.
-
-- [내부자 위험 관리에 대해 알아보기](/microsoft-365/compliance/insider-risk-management)
-- [내부자 위험 관리 계획](/microsoft-365/compliance/insider-risk-management-plan)
-- [내부자 위험 관리 설정 시작](/microsoft-365/compliance/insider-risk-management-settings)
-- [내부자 위험 관리 시작](/microsoft-365/compliance/insider-risk-management-configure)
-- [내부자 위험 정책 만들기 및 관리](/microsoft-365/compliance/insider-risk-management-policies)
-- [내부자 위험 경고 조사](/microsoft-365/compliance/insider-risk-management-alerts)
-- [내부자 위험 사례에 대한 작업 수행](/microsoft-365/compliance/insider-risk-management-cases)
-- [내부자 위험 감사 로그를 사용하여 활동 검토](/microsoft-365/compliance/insider-risk-management-audit-log)
-- [내부자 위험 콘텐츠 탐색기를 사용하여 데이터 검토](/microsoft-365/compliance/insider-risk-management-content-explorer)
-- [사용자 대시보드를 사용하여 워크플로 관리](/microsoft-365/compliance/insider-risk-management-users)
-
-### <a name="records-management"></a>레코드 관리
-
-- **파일 계획 개선.** 파일 계획에 [대한 업데이트는](file-plan-manager.md) 가져오기 이전 길이 제한을 제거하거나 개선합니다.
-- **레코드에 대한 보존 레이블을 삭제합니다.** 미리 보기 릴리스에서는 항목을 [](create-apply-retention-labels.md#deleting-retention-labels) 레코드로 표시하는 보존 레이블을 삭제할 수 있습니다.
-
-### <a name="sensitive-information-types"></a>중요한 정보 유형
-
-다음 항목에서 콘텐츠가 추가되거나 업데이트되었습니다.
-
-- [사용자 지정 중요한 정보 유형 시작](/microsoft-365/compliance/create-a-custom-sensitive-information-type)
-- [중요한 정보 유형에 대해 알아보기](/microsoft-365/compliance/sensitive-information-type-learn-about)
-- [분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [정확한 데이터 일치 활동에 대한 알림 만들기](/microsoft-365/compliance/sit-edm-notifications-activities)
-- [중요한 정보 유형 엔터티 정의](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
-- [PowerShell을 사용하여 사용자 지정 중요한 정보 유형 만들기](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
-- [키워드 사전 만들기](/microsoft-365/compliance/create-a-keyword-dictionary)
-
-### <a name="sensitivity-labels"></a>민감도 레이블
-
-- **DoD 지원**. DoD 환경을 지원하는 미국 정부 테넌트 지원.
-- **에 대한 암호화만 Outlook.** 사용자에 대한 Outlook 이제 사용자가 Encrypt-Only 할당할 수 있도록 허용을 선택하면 암호화 [옵션이 포함됩니다.](encryption-sensitivity-labels.md#let-users-assign-permissions)
-- 앱에 기본 제공 **레이블을 Office.** Azure [](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client) Information Protection 통합 레이블 지정 클라이언트가 설치되어 있는 경우 Office 앱에서 기본 제공 레이블을 적용하는 방법에 대한 지침이 업데이트되었습니다.

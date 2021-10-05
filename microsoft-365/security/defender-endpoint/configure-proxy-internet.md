@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 81640ff0716d6dd0803dcad5b0db1849dfbee0d5
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: d00bfa4b9a595725ed689c33dff096b3a96bd2d5
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042665"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124748"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -63,8 +63,9 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 검색 프록시 설정과는
 컴퓨터가 인터넷에 연결할 수 없는 경우 진단 데이터를 보고하고 끝점 서비스용 Defender와 통신하도록 끝점 검색 및 응답(EDR) 센서에 대한 Defender에 대한 레지스트리 기반 정적 프록시를 구성합니다.
 
 > [!NOTE]
-> Windows 10 또는 Windows Server 2019 또는 Windows Server 2022에서 이 옵션을 사용하는 경우 다음(이상) 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.
+> Windows 10 또는 Windows 11 또는 Windows Server 2019 또는 Windows Server 2022에서 이 옵션을 사용하는 경우 다음 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.
 >
+> - Windows 11
 > - Windows 10, 버전 1809 Windows Server 2019 또는 Windows Server 2022 -<https://support.microsoft.com/kb/5001384>
 > - Windows 10 버전 1909 -<https://support.microsoft.com/kb/4601380>
 > - Windows 10 버전 2004 -<https://support.microsoft.com/kb/4601382>
@@ -102,7 +103,7 @@ Microsoft Defender 바이러스 백신 클라우드 [제공](cloud-protection-mi
 
 2. 이 옵션을 **사용으로 설정하고** 프록시 서버를 정의합니다. URL에 1000만 http:// 있어야 https://. 지원되는 버전의 https:// 업데이트 관리를 [Microsoft Defender 바이러스 백신 참조하세요.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
-   :::image type="content" source="images/proxy-server-mdav.png" alt-text="Microsoft Defender 바이러스 백신용 프록시 서버.":::
+   :::image type="content" source="images/proxy-server-mdav.png" alt-text="서버의 프록시 Microsoft Defender 바이러스 백신.":::
 
 3. 레지스트리 키 아래에서 정책은 레지스트리 값을 레지스트리 값으로  `HKLM\Software\Policies\Microsoft\Windows Defender`  `ProxyServer`   REG_SZ. 
 
@@ -175,9 +176,9 @@ netsh winhttp reset proxy
 방화벽에서 지리 열이 WW인 모든 URL을 열 수 있습니다. 지역 열이 WW가 아닌 행의 경우 특정 데이터 위치에 대한 URL을 여는 것입니다. 데이터 위치 설정을 확인하려면 데이터 저장소 위치 확인 [및 끝점용 Microsoft Defender에 대한 데이터 보존 설정 업데이트를 참조하세요.](/microsoft-365/security/defender-endpoint/data-retention-settings)
 
 > [!NOTE]
-> settings-win.data.microsoft.com 1803 이전 버전을 실행 중인 Windows 10 디바이스가 있는 경우 이 업데이트가 필요합니다.<br>
+> settings-win.data.microsoft.com 1803 이전 버전을 실행하는 Windows 디바이스가 있는 경우만 이 기능을 사용할 수 있습니다.<br>
 >
-> v20이 포함된 URL은 버전 1803 이상을 실행하는 Windows 10 있는 경우 필요합니다. 예를 들어 버전 1803 이상을 Windows 10 US Data Storage 장치에 `us-v20.events.data.microsoft.com` 필요합니다.
+> v20이 포함된 URL은 버전 1803 이상을 실행하는 Windows 있는 경우 필요합니다. 예를 들어 버전 1803 이상을 Windows 미국 데이터 센터 지역으로 온보드된 Storage `us-v20.events.data.microsoft.com` 필요합니다.
 >
 > 환경에서 Microsoft Defender 바이러스 백신 사용하는 경우 Configure network [connections to the Microsoft Defender 바이러스 백신 cloud service을 참조합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus)
 
@@ -274,5 +275,5 @@ netsh winhttp reset proxy
 
 - [Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)
 - [그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신](use-group-policy-microsoft-defender-antivirus.md)
-- [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
+- [장치 Windows 온보드](configure-endpoints.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)
