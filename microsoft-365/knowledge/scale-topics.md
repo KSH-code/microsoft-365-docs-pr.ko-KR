@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-localization_priority: None
+localization_priority: medium
 description: Viva 항목을 사용하여 조직의 여러 항목을 관리하는 모범 사례에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 96580df486195af991e446ae6f1bbb4b08013947
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e076c8a29070fbfe0db5e21bbca842716afe69fd
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187755"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60126821"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>항목의 규모에 따라 Microsoft Viva 관리
 
@@ -90,7 +90,7 @@ AI에서 항목을 검색하면 항목 관리 페이지와 사용자에게 제�
 
 이러한 특성은 콘텐츠가 AI에 의해 추가된 경우와 AI가 이를 결정한 방법을 보여줄 수 있습니다.
 
-### <a name="communication"></a>커뮤니케이션
+### <a name="communication"></a>통신
 
 사용자에게 Viva 항목에 대한 정보를 전달할 때 AI에서 제안하는 항목과 콘텐츠와 해당 콘텐츠의 차이점을 명확히 하는 것이 중요합니다.
 

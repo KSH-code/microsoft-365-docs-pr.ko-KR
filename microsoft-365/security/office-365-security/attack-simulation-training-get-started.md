@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 계획 2 조직용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ece26ef2d41637d35afa8d719b6b785b733ca9f1
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: c994d00066d5379d1f38a5dd774045ef679993df
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59484158"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127001"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
 
@@ -56,7 +56,10 @@ ms.locfileid: "59484158"
 
 - 공격 시뮬레이션 교육을 위한 해당 PowerShell cmdlet은 없습니다.
 
-- 공격 시뮬레이션 및 교육 관련 데이터는 다른 고객 데이터와 함께 Microsoft 365 저장됩니다. 자세한 내용은 데이터 [Microsoft 365 참조하세요.](../../enterprise/o365-data-locations.md) 공격 시뮬레이션은 NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN, KOR, BRA, LAM 및 CHE 지역에서 사용할 수 있습니다.
+- 공격 시뮬레이션 및 교육 관련 데이터는 다른 고객 데이터와 함께 Microsoft 365 저장됩니다. 자세한 내용은 데이터 [Microsoft 365 참조하세요.](../../enterprise/o365-data-locations.md) 공격 시뮬레이션은 NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN, KOR, BRA, LAM, CHE, NOR, ZAF, ARE 및 DEU 지역에서 사용할 수 있습니다.
+
+  > [!NOTE]
+  > NOR, ZAF, ARE 및 DEU는 최신 추가입니다. 보고된 전자 메일 원격 분석을 제외한 모든 기능을 이러한 지역에서 사용할 수 있습니다. 이를 사용하도록 설정하기 위해 작업 중입니다. 보고된 전자 메일 원격 분석이 사용 가능해지는 즉시 고객에게 알릴 것입니다. 
 
 - 2021년 6월 15일 현재, 공격 시뮬레이션 교육은 GCC. 조직에서 정부용 G5 Office 365 GCC 또는 Microsoft Defender for Office 365(계획 2)를 사용하는 경우 Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육을 사용하여 이 문서에 설명된 바와 같이 조직에서 실제 공격 시나리오를 실행할 수 있습니다. 공격 시뮬레이션 교육은 High 또는 DoD 환경에서는 GCC 없습니다.
 

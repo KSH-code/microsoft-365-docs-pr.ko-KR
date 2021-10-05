@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a396f704405b062954b5d51fff4e69e85807e621
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 1da7c59ad7702482b1edbf52da821e474addd601
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444190"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60126869"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점에 대한 Microsoft Defender 기본 설정 설정
 
@@ -83,22 +83,6 @@ ms.locfileid: "59444190"
 |**사용 가능한 값:**|true(기본값) <p> false|
 |||
 
-#### <a name="run-a-scan-after-definitions-are-updated"></a>정의가 업데이트된 후 검사 실행
-디바이스에서 새 보안 인텔리전스 업데이트를 다운로드한 후 프로세스 검색을 시작할지 여부를 지정합니다. 이 설정을 사용하도록 설정하면 장치의 실행 중인 프로세스에서 바이러스 백신 검사가 트리거됩니다.
-
-<br>
-
-****
-
-|섹션|값|
-|---|---|
-|**도메인**|`com.microsoft.wdav`|
-|**키**|scanAfterDefinitionUpdate|
-|**Data type**|부울|
-|**사용 가능한 값:**|false(기본값) <p> true|
-|**Comments**|Microsoft Defender for Endpoint 버전 101.41.10 이상에서 사용할 수 있습니다.|
-|||
-
 #### <a name="enable--disable-passive-mode"></a>수동 모드 사용/사용 안 하도록 설정
 
 바이러스 백신 엔진이 수동 모드에서 실행되는지 여부를 지정합니다. 수동 모드에는 다음과 같은 의미가 있습니다.
@@ -121,7 +105,58 @@ ms.locfileid: "59444190"
 |**사용 가능한 값:**|false(기본값) <p> true|
 |**Comments**|Microsoft Defender for Endpoint 버전 100.67.60 이상에서 사용할 수 있습니다.|
 |||
-  
+
+#### <a name="run-a-scan-after-definitions-are-updated"></a>정의가 업데이트된 후 검사 실행
+
+디바이스에서 새 보안 인텔리전스 업데이트를 다운로드한 후 프로세스 검색을 시작할지 여부를 지정합니다. 이 설정을 사용하도록 설정하면 장치의 실행 중인 프로세스에서 바이러스 백신 검사가 트리거됩니다.
+
+<br>
+
+****
+
+|섹션|값|
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|scanAfterDefinitionUpdate|
+|**Data type**|부울|
+|**사용 가능한 값:**|true(기본값) <p> false|
+|**Comments**|Microsoft Defender for Endpoint 버전 101.41.10 이상에서 사용할 수 있습니다.|
+|||
+
+#### <a name="scan-archives-on-demand-antivirus-scans-only"></a>보관함 검사(요구 시 바이러스 백신 검사만 해당)
+
+요구 시 바이러스 백신 검사 중에 보관 파일을 검사할지 여부를 지정합니다.
+
+<br>
+
+****
+
+|섹션|값|
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|scanArchives|
+|**Data type**|부울|
+|**사용 가능한 값:**|true(기본값) <p> false|
+|**Comments**|Microsoft Defender for Endpoint 버전 101.41.10 이상에서 사용할 수 있습니다.|
+|||
+
+#### <a name="degree-of-parallelism-for-on-demand-scans"></a>요구 시 검사에 대한 병렬 처리 수준
+
+요구 시 검사에 대한 병렬 처리의 정도를 지정합니다. 이는 검색을 수행하는 데 사용되는 스레드 수에 해당하며, CPU 사용량과 필요한 검사 기간에 영향을 줍니다.
+
+<br>
+
+****
+
+|섹션|값|
+|---|---|
+|**도메인**|`com.microsoft.wdav`|
+|**키**|maximumOnDemandScanThreads|
+|**Data type**|정수|
+|**사용 가능한 값:**|2(기본값) 허용되는 값은 1에서 64 사이의 정수입니다.|
+|**Comments**|Microsoft Defender for Endpoint 버전 101.41.10 이상에서 사용할 수 있습니다.|
+|||
+
 #### <a name="exclusion-merge-policy"></a>제외 병합 정책
 
 제외에 대한 병합 정책을 지정합니다. 이는 관리자 정의 및 사용자 정의 제외( ) 또는 관리자 정의 제외()의 조합일 `merge` 수 `admin_only` 있습니다. 이 설정을 사용하여 로컬 사용자가 자신의 제외를 정의하지 못하도록 제한할 수 있습니다.
@@ -197,7 +232,7 @@ ms.locfileid: "59444190"
 
 ****
 
-|제외|정의|예제|
+|제외|정의|예|
 |---|---|---|
 |파일 확장명|디바이스의 아무 곳이나 확장명을 사용하여 모든 파일|`.test`|
 |파일|전체 경로로 식별된 특정 파일|`/var/log/test.log` <p> `/var/log/*.log` <p> `/var/log/install.?.log`|
@@ -711,8 +746,6 @@ macOS에서 끝점용 Microsoft Defender의 끝점 EDR(검색 및 응답) 구성
                     <true/>
                     <key>passiveMode</key>
                     <false/>
-                    <key>ScanAfterDefinitionUpdate</key>
-                    <false/>
                     <key>threatTypeSettings</key>
                     <array>
                         <dict>
@@ -761,8 +794,10 @@ macOS에서 끝점용 Microsoft Defender의 끝점 EDR(검색 및 응답) 구성
         <true/>
         <key>passiveMode</key>
         <false/>
-        <key>ScanAfterDefinitionUpdate</key>
-        <false/>
+        <key>scanAfterDefinitionUpdate</key>
+        <true/>
+        <key>scanArchives</key>
+        <true/>
         <key>maximumOnDemandScanThreads</key>
         <integer>1</integer>
         <key>exclusions</key>
@@ -915,6 +950,10 @@ macOS에서 끝점용 Microsoft Defender의 끝점 EDR(검색 및 응답) 구성
                     <true/>
                     <key>passiveMode</key>
                     <false/>
+                    <key>scanAfterDefinitionUpdate</key>
+                    <true/>
+                    <key>scanArchives</key>
+                    <true/>
                     <key>maximumOnDemandScanThreads</key>
                     <integer>1</integer>
                     <key>exclusions</key>

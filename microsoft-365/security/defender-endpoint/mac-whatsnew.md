@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: reference
 ms.technology: mde
-ms.openlocfilehash: 0bfbd44e0e097148800501c5bed3b1b3db2dbbc9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d5d713b142ca65500366bca43564d35edf18a450
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214975"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60126953"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
@@ -37,6 +37,15 @@ ms.locfileid: "59214975"
 
 > [!IMPORTANT]
 > macOS 11(Big Sur)에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 이 페이지에 나열된 추가 구성 프로필을 [배포해야 합니다.](mac-sysext-policies.md)
+
+## <a name="1014110-20121072141100"></a>101.41.10 (20.121072.14110.0)
+
+- 명령줄 도구에 새 스위치가 추가되었습니다.
+  - On-Demand 검사에 대한 병렬 처리 정도를 제어합니다. 를 통해 구성할 수 `mdatp config maximum-on-demand-scan-threads --value [number-between-1-and-64]` 있습니다. 기본적으로 병렬 처리 `2` 정도가 사용됩니다.
+  - 보안 인텔리전스 업데이트를 사용할지 여부를 제어합니다. 를 통해 구성할 수 `mdatp config scan-after-definition-update --value [enabled/disabled]` 있습니다. 기본적으로 이 설정은 로 `enabled` 설정됩니다.
+  - 요구 시 검사 중에 보관 파일을 검사할지 여부를 제어합니다. 를 통해 구성할 수 `mdatp config scan-archives --value [enabled/disabled]` 있습니다. 기본적으로 이 설정은 로 `enabled` 설정됩니다.
+- 이제 제품 로그 수준을 변경하려면 권한 상승 필요
+- 버그 수정을 & 성능 개선
 
 ## <a name="1014084-20121071140840"></a>101.40.84 (20.121071.14084.0)
 

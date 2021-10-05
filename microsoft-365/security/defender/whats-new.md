@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 5ebd798baa9b9c4fb759defbf0a650d4835568b8
-ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
+ms.openlocfilehash: 24e8dba9bf933286b325983a091785d6502d46df
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/05/2021
-ms.locfileid: "60099792"
+ms.locfileid: "60126809"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -84,7 +84,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
  위협 분석을 사용하면 활성 공격에 대응하고 영향을 최소화할 수 있습니다. 또한 솔루션 솔루션에 의해 차단되는 공격 시도에 대해 Microsoft 365 Defender 추가 노출 및 탄력성 증가 위험을 완화하는 예방 조치를 취할 수 있습니다. 통합 보안 환경의 일부로, 이제 Microsoft Defender for Endpoint 및 Microsoft Defender for Office 사용할 수 있습니다.
 
 ## <a name="march-2021"></a>2021년 3월
-- [CloudAppEvents 테이블](advanced-hunting-cloudappevents-table.md) <br>다양한 클라우드 앱 및 서비스에서 이벤트에 대한 정보를 Microsoft Cloud App Security. 이 표에는 이전에 에서 사용 가능한 정보도 포함되어 `AppFileEvents` 있습니다.
+- [CloudAppEvents 테이블](advanced-hunting-cloudappevents-table.md) <br>다양한 클라우드 앱 및 서비스에서 이벤트에 대한 정보를 Microsoft Cloud App Security. 이 표에는 이전에 표에 제공된 정보도 `AppFileEvents` 포함되어 있습니다.
 ## <a name="february-2021"></a>2021년 2월
 - (미리 보기) 향상된 Microsoft 365 Defender [ https://security.microsoft.com) 포털(이제](https://security.microsoft.com) 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 끝점용 Defender와 중앙에 Office 365 Defender를 제공합니다. [변경 사항에 대한 자세한 정보](./overview-security-center.md).
 - **[(미리 보기) Microsoft 365 Defender](api-overview.md)** API - 최상위 Microsoft 365 Defender API를 사용하면 공유 인시던트 및 고급 헌팅 테이블을 기반으로 워크플로를 자동화할 수 있습니다. 

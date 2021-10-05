@@ -8,14 +8,14 @@ audience: admin
 ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
-localization_priority: Normal
-description: Microsoft Viva 계획하는 방법 학습
-ms.openlocfilehash: deb4e219992400a5155b40a849a6df3a8bccbef1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+localization_priority: medium
+description: 주제에 대한 계획을 세우는 Microsoft Viva 방법을 배워야 합니다.
+ms.openlocfilehash: c237717d50dfda5b89f7b12b1222e59ed5bc16d4
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187771"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60126989"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 계획
 

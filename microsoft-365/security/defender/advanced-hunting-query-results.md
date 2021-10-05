@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 713a2c8b824b5c8fbffb1dcb35465d8f19f727d0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 98e7fd75dcbb080f12232fb01cf8d00c0e4355fa
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214642"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60126833"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>고급 헌팅 쿼리 결과 사용
 
@@ -108,7 +108,7 @@ EmailEvents
 함수와 함께 연산자를 사용하면 시간이 지날 때 특정 표시기가 `summarize` 관련된 이벤트를 확인할 수 `bin()` 있습니다. 아래 쿼리는 해당 파일과 관련된 활동의 스파이크를 표시하기 위해 30분 간격으로 파일이 관련된 이벤트를 `invoice.doc` 계산합니다.
 
 ```kusto
-AppFileEvents
+CloudAppEvents
 | union DeviceFileEvents
 | where FileName == "invoice.doc"
 | summarize FileCount = count() by bin(Timestamp, 30m)

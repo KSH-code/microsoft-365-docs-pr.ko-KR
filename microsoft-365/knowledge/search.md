@@ -8,14 +8,14 @@ audience: admin
 ms.topic: article
 ms.service: o365-administration
 search.appverid: ''
-localization_priority: None
+localization_priority: medium
 description: 특정 항목에서 항목을 검색하는 Microsoft Viva 방법을 참조하세요.
-ms.openlocfilehash: 525ec03621d28c26ecdc717648b3e9d6dcf51024
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2ccdffef034cbdc42d50d3fa29822e084c73a10d
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187748"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60126785"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>다음 Microsoft Search 사용하여 Microsoft Viva 항목 찾기
 

@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-localization_priority: None
+localization_priority: medium
 description: Microsoft Viva Topics에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: e66252f93b3c32815e3a3a13217a59bb40fa17e6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b03d2e6ed499b27f4e472565e2cb47c37ed56db2
+ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187787"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60126773"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Microsoft Viva Topics 소개
 
