@@ -2,8 +2,6 @@
 title: 엔드포인트용 Microsoft Defender
 description: 엔드포인트용 Microsoft Defender는 지능형 지속적 위협으로부터 방어하는 데 도움이 되는 엔터프라이즈 끝점 보안 플랫폼입니다.
 keywords: 엔드포인트용 Microsoft Defender 소개, 엔드포인트용 Microsoft Defender 소개, 사이버 보안, 지능형 지속적 위협, 엔터프라이즈 보안, 컴퓨터 동작 센서, 클라우드 보안, 분석, 위협 인텔리전스, 공격 표면 감소, 차세대 보호, 자동화된 조사 및 수정, Microsoft 위협 전문가, 보안 점수, 고급 헌팅, Microsoft 365 Defender, 사이버 위협 헌팅
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ae0d38eec976abb88638eea3c3d2166c7203647e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e87c13b8d5b4afe2dc14664b680900f7b30b3d02
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213565"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124556"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
@@ -32,8 +30,6 @@ ms.locfileid: "59213565"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
-
-> Windows 10 Enterprise Edition 기능에 대한 자세한 내용은 [Windows 10 Enterprise Edition](https://www.microsoft.com/WindowsForBusiness/buy)을 참조하세요.
 
 엔드포인트용 Microsoft Defender는 엔터프라이즈 네트워크가 지능형 위협을 방지, 감지, 조사 및 대응할 수 있도록 설계된 엔터프라이즈 엔드포인트 보안 플랫폼입니다.
 
@@ -80,7 +76,7 @@ ms.locfileid: "59213565"
 > [!TIP]
 >
 > - 엔드포인트용 Microsoft Defender의 최신 개선 사항: [엔드포인트용 Microsoft Defender의 새로운 기능](whats-new-in-microsoft-defender-atp.md)에 대해 알아보세요.
-> - 엔드포인트용 Microsoft Defender는 최근 MITRE 평가에서 업계 최고의 광학 및 감지 기능을 시연했습니다. 읽기: [MITRE ATT&CK 기반 평가의 인사이트](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
+> - 엔드포인트용 Microsoft Defender는 최근 MITRE 평가에서 업계 최고의 광학 및 감지 기능을 시연했습니다. [MITRE ATT&CK 기반 평가 인사이트](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)를 읽어보세요.
 
 <a name="tvm"></a>
 

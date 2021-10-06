@@ -64,6 +64,9 @@
 #### [프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
 #### [온보딩 또는 오프보딩 알림 규칙 만들기](onboarding-notification.md)
 
+#### [응용 프로그램 사용 조건](mde-terms-windows.md)
+
+
 ### [다른 운영 체제의 엔드포인트용 Microsoft Defender]()
 #### [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)
 
@@ -103,7 +106,7 @@
 
 ##### [개인 정보](mac-privacy.md)
 ##### [리소스](mac-resources.md)
-
+##### [응용 프로그램 사용 조건](mde-terms-mac.md)
 
 #### [Microsoft Defender for Endpoint(iOS용)]()
 ##### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-ios.md)
@@ -165,6 +168,9 @@
 
 ##### [문제 해결]()
 ###### [문제 해결](android-support-signin.md)
+
+##### [엔드포인트용 Microsoft Defender 응용 프로그램 사용 조건](mde-terms-mobile.md) 
+
 
 ### [온보딩 문제 해결]()
 #### [온보딩 중 문제 해결](troubleshoot-onboarding.md)

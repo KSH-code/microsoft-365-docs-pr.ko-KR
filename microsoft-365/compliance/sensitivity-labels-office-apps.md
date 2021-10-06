@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f202eae985ea1dbf0057a0c1ee5663931ea134d9
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: 22fa76c56e1cca84fc62784ac31a6acae8b65421
+ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011211"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60124304"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -59,7 +59,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 나열된 숫자는 각 기능에 필요한 최소 Office 응용 프로그램 버전입니다. 
 
 > [!NOTE]
-> Windows 및 반기 기업 채널의 경우 지원되는 최소 버전 번호가 아직 릴리스되지 않았을 수 있습니다. [자세한 정보](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions)
+> Windows 및 반기 기업 채널의 경우 지원되는 최소 버전 번호가 아직 릴리스되지 않았을 수 있습니다. [자세히 알아보기](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions)
  
 |기능 |Windows |Mac |iOS |Android |웹 |
 |-----------|-------:|----|----|--------|----|
@@ -88,7 +88,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 나열된 숫자는 각 기능에 필요한 최소 Office 응용 프로그램 버전입니다. 
 
 > [!NOTE]
-> Windows 및 반기 기업 채널의 경우 지원되는 최소 버전 번호가 아직 릴리스되지 않았을 수 있습니다. [자세한 정보](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions)
+> Windows 및 반기 기업 채널의 경우 지원되는 최소 버전 번호가 아직 릴리스되지 않았을 수 있습니다. [자세히 알아보기](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions)
 
 |기능 |Windows용 Outlook |Outlook for Mac |iOS에서의 Outlook |Android에서의 Outlook |웹용 Outlook |
 |-----------|-------------------:|----------------|---------------|-------------------|-------------------|
@@ -102,7 +102,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[사용자가 권한을 할당하도록 허용: <br /> - 전달하지 않음](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 현재 채널: 1910+ <br /><br> 월 단위 기업 채널: 1910+ <br /><br> 반기 기업 채널: 2002+ | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용: <br /> - 암호화 전용](encryption-sensitivity-labels.md#let-users-assign-permissions)  | 현재 채널: 2011+ <br /><br> 월 단위 기업 채널: 2011+ <br /><br> 반기 기업 채널: 2108+ | 16.48+ <sup>\*</sup> | 4.2112.0+  | 4.2112.0+ | 예 |
 |[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 현재 채널: 2101+ <br /><br> 월 단위 기업 채널: 2101+ <br /><br> 반기 기업 채널: 2108+ | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | 예                |
-|[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 현재 채널: 2111+ <br /><br> 월 단위 기업 채널: 2011+ <br /><br> 반기 기업 채널: 검토 중 | 16.51+ <sup>\*</sup> | 4.2126+ | 4.2126+ | 예 |
+|[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 현재 채널: 2011+ <br /><br> 월 단위 기업 채널: 2011+ <br /><br> 반기 기업 채널: 검토 중 | 16.51+ <sup>\*</sup> | 4.2126+ | 4.2126+ | 예 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md) <br /> - 중요한 정보 유형 사용                    | 현재 채널: 2009+ <br /><br> 월 단위 기업 채널: 2009+ <br /><br> 반기 기업 채널: 2102+ | 16.44+ <sup>\*</sup>                    | 검토 중           | 검토 중               | 예 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md) <br /> - 학습 가능한 분류자 사용                    | 현재 채널: 2105+ <br /><br> 월 단위 기업 채널: 2105+ <br /><br> 반기 기업 채널: 2108+ | 검토 중                    | 검토 중           | 검토 중               | 예 |
 |[기본 레이블 및 필수 레이블에 대한 다른 설정](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 현재 채널: 2105+ <br /><br> 월 단위 기업 채널: 2105+ <br /><br> 반기 기업 채널: 2108+ | 16.43+ <sup>\*</sup>                   | 4.2111+           | 4.2111+               | 예 |
@@ -150,7 +150,7 @@ Microsoft Word 2016, Excel 2016, PowerPoint 2016 및 Outlook 2016에서 Azure In
 그룹 정책 또는 [Office 클라우드 정책 서비스](/DeployOffice/overview-office-cloud-policy-service)를 사용하여 이 설정을 배포합니다.
 
 > [!NOTE]
-> 그룹 정책 설정 **Office의 민감도 기능을 사용하여 민감도 레이블을 적용하고 보기** 를 사용하고 이 설정을 **1** 로 설정하는 경우 Azure Information Protection 클라이언트가 여전히 Office 앱에 로드 될 수 있는 상황이 몇 가지 있습니다. 각 앱에 추가 기능을 로드하지 못하게 차단하여 이 문제를 방지할 수 있습니다.
+> 그룹 정책 설정 **Office의 민감도 기능을 사용하여 민감도 레이블을 적용하고 보기** 를 사용하고 이 설정을 **1** 로 설정하는 경우 Azure Information Protection 클라이언트가 여전히 Office 앱에 로드 될 수 있는 상황이 몇 가지 있습니다. 각 앱에서 추가 기능이 로드되지 못하게 하면 이 현상을 방지할 수 있습니다.
 
 또는 Word, Excel, PowerPoint 및 Outlook에서 **Microsoft Azure Information Protection** Office 추가 기능을 사용하지 않도록 설정하거나 제거할 수 있습니다. 이 방법은 단일 컴퓨터 및 임시 테스트에 적합합니다. 자세한 내용은 [Office 프로그램에서 추가 기능 보기, 관리 및 설치](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d)를 참조하세요. 
 
@@ -160,7 +160,7 @@ Azure Information Protection 클라이언트 및 Office 내장 레이블 지정 
 
 ## <a name="office-file-types-supported"></a>지원되는 Office 파일 형식
 
-Word, Excel 및 PowerPoint 파일에 대한 레이블이 내장된 Office 앱은 Open XML 형식(.docx 및 .xlx 등)을 지원하지만 Microsoft Office 97-2003 형식(.doc 및 .xls 등), Open Document Format(.odt 및 .ods 등) 또는 기타 형식을 지원하지 않습니다. 기본 제공 레이블 지정에 대해 파일 형식이 지원되지 않는 경우 Office 앱에서 **민감도** 버튼을 사용할 수 없습니다.
+Word, Excel 및 PowerPoint 파일에 대한 기본 제공 레이블 지정 기능이 있는 Office 앱은 Open XML 형식(.docx 및 .xlsx 등)을 지원하지만 Microsoft Office 97~2003 형식(.doc 및 .xls 등), Open Document Format(.odt 및 .ods 등) 또는 기타 형식은 지원하지 않습니다. 파일 형식이 기본 제공 레이블 지정에 지원되지 않을 경우 Office 앱에서 **민감도** 버튼을 사용할 수 없습니다.
 
 Azure Information Protection 통합 레이블 지정 클라이언트는 Open XML 형식과 Microsoft Office 97-2003 형식을 모두 지원합니다. 자세한 내용은 해당 클라이언트 관리 가이드의 [Azure Information Protection 통합 레이블 지정 클라이언트에서 지원되는 파일 형식](/azure/information-protection/rms-client/clientv2-admin-guide-file-types)을 참조하세요.
 
@@ -279,9 +279,9 @@ Microsoft 계정이 있는 사용자가 암호화된 문서를 열 때 동일한
 
 ### <a name="conditional-access-policies"></a>조건부 액세스 정책
 
-조직에서 [Azure Active Directory 조건부 액세스 정책 ](/azure/active-directory/conditional-access/overview)을 실행한 경우 해당 정책의 구성을 확인하세요. 정책에 **Microsoft Azure Information Protection** 이 포함되어 있고 정책이 외부 사용자로 확장되는 경우 해당 외부 사용자에게는 자신의 테넌트에 Azure AD 계정이 있더라도 테넌트에 게스트 계정이 있어야 합니다.
+조직에서 [Azure Active Directory 조건부 액세스](/azure/active-directory/conditional-access/overview)를 구현했다면 해당 정책 구성을 확인하세요. 정책에 **Microsoft Azure Information Protection** 이 포함되어 있고 정책이 외부 사용자로 확장되는 경우 해당 외부 사용자는 본인 테넌트의 Azure Active Directory 계정이 있더라도, 귀하의 테넌트 게스트 계정을 보유해야 합니다.
 
-이 게스트 계정이 없으면 암호화된 문서를 열 수 없고 오류 메시지를 볼 수 없습니다. 메시지 텍스트는 이 시나리오에서 **다른 Azure Active Directory 사용자 계정으로 다시 로그인** 하는 이 시나리오에 대한 잘못된 지침과 함께 자신의 계정을 테넌트의 외부 사용자로 추가해야 한다고 알릴 수 있습니다.
+이 게스트 계정 없이는 암호화된 문서를 열고 오류 메시지를 볼 수 없습니다. **로그아웃하고 다시 다른 Azure Active Directory 사용자 계정을 사용해 로그인** 하라는 이 시나리오에 대한 잘못된 지침과 함께 계정을 테넌트의 외부 사용자에 추가해야 한다는 메시지 텍스트가 표시될 수 있습니다.
 
 레이블로 암호화된 문서를 열어야 하는 외부 사용자에 대해 테넌트에 게스트 계정을 생성하고 구성할 수 없는 경우 조건부 액세스 정책에서 Azure Information Protection을 제거하거나 정책에서 외부 사용자를 제외해야 합니다.
 
@@ -319,7 +319,7 @@ Office 앱 외부에 민감도 레이블을 적용하는 시나리오에는 다�
 > [!IMPORTANT]
 > 현재 일부 플랫폼의 일부 앱이 머리글, 바닥글 및 워터마크에 대해 지정할 수 있는 동적 콘텐츠 표시를 지원하는 것은 아닙니다. 이 기능을 지원하지 않는 앱의 경우 변수를 해결하는 대신 레이블 구성에 지정된 원래 텍스트로 표시를 적용합니다.
 > 
-> Azure Information Protection 통합 레이블 지정 클라이언트는 동적 표시를 지원합니다. Office에 기본 제공되는 레이블을 지정하는 경우 지원되는 최소 버전은 이 페이지의 [기능](#support-for-sensitivity-label-capabilities-in-apps) 섹션의 표를 참조하세요.
+> Azure Information Protection 통합 레이블 지정 클라이언트는 동적 표시를 지원합니다. 레이블 지정 기능 내장 Office의 경우 이 페이지의 [기능](#support-for-sensitivity-label-capabilities-in-apps) 섹션에서 최소 지원 버전을 확인하세요.
 
 콘텐츠 표시에 대한 민감도 레이블을 구성할 때 머리말, 바닥글 또는 워터마크에 대해 텍스트 문자열의 다음 변수를 사용할 수 있습니다.
 
@@ -371,7 +371,7 @@ ${If.App.<application type>}<your visual markings text> ${If.End}
 
 > [!IMPORTANT]
 > 
-> [Azure Information Protection 통합 레이블 지정 클라이언트](/azure/information-protection/rms-client/install-unifiedlabelingclient-app)는 필수 레이블 지정이라고도 하는 이 구성을 지원합니다. Office 앱에 기본 제공되는 레이블을 지정하는 경우 최소 버전은 이 페이지의 [기능](#support-for-sensitivity-label-capabilities-in-apps) 섹션의 표를 참조하세요.
+> [Azure Information Protection 통합 레이블 지정 클라이언트](/azure/information-protection/rms-client/install-unifiedlabelingclient-app)는 필수 레이블 지정이라고도 알려진 이 구성을 지원합니다. 레이블 지정 기능 내장 Office 앱의 경우 이 페이지의 [기능](#support-for-sensitivity-label-capabilities-in-apps) 섹션 표에서 최소 버전을 확인하세요.
 >
 > 문서에는 필수 레이블을 사용하지만 전자 메일은 사용하지 않았다면 다음 섹션에서 Outlook 관련 옵션을 구성하는 방법을 설명하는 지침을 참조하세요.
 > 
@@ -404,7 +404,7 @@ ${If.App.<application type>}<your visual markings text> ${If.End}
 
 ## <a name="outlook-specific-options-for-default-label-and-mandatory-labeling"></a>기본 레이블 및 필수 레이블에 대한 Outlook 관련 옵션
 
-기본 레이블 지정의 경우 이 페이지의 [Outlook 에 대한 기능 테이블](#sensitivity-label-capabilities-in-outlook)과 **기본 레이블 및 필수 레이블 지정** 행의 다른 설정을 사용하여 이러한 기능을 지원하는 최소 버전의 Outlook을 식별합니다. 모든 버전의 Azure Information Protection 통합 레이블 지정 클라이언트는 이러한 Outlook 관련 옵션을 지원합니다.
+기본 레이블 지정의 경우 이 페이지의 [Outlook 기능 표](#sensitivity-label-capabilities-in-outlook)와 **기본 레이블 및 필수 레이블 지정에 대한 다양한 설정** 행을 사용해 이러한 기능을 지원하는 Outlook 최소 버전을 식별합니다. 모든 Azure Information Protection 통합 레이블 지정 클라이언트 버전은 이러한 Outlook 관련 옵션을 지원합니다.
 
 Outlook 앱이 문서의 기본 레이블 설정과 다른 기본 레이블 설정을 지원하는 경우:
 
