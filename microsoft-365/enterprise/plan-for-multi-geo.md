@@ -13,14 +13,14 @@ ms.custom: seo-marvel-apr2020
 ms.collection:
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft 365 Multi-Geo, Multi-Geo 작동 방식 및 데이터 저장소에 사용할 수 있는 지리적 위치에 대해 알아봅니다.
-ms.openlocfilehash: 52c4bc8a23bdf89afb1a3f3eae3fe6348fed8009
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5c079d5cf5f093be2c942a53468494044913fbd7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210565"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170298"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>Microsoft 365 Business를 위한 계획
 

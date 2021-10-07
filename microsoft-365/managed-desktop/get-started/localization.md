@@ -7,17 +7,17 @@ author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 354f61284bbd95c1c7ca4cd50459a1644a89d090
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4ff4d72f22faef32b1fabb52e10332af62e50bc7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212402"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170062"
 ---
 # <a name="localize-the-user-experience"></a>사용자 환경 현지화
 
@@ -77,7 +77,7 @@ ms.locfileid: "59212402"
 - 독일어
 - 그리스어
 - Hebrew
-- Hungarian
+- 헝가리어
 - 인도네시아어
 - 이탈리아어
 - 일본어
@@ -94,7 +94,7 @@ ms.locfileid: "59212402"
 - 슬로바키아어
 - 슬로베니아어
 - 스페인어(스페인, 멕시코)
-- Swedish
+- 스웨덴어
 - 태국어
 - 터키어
 - 우크라이나어

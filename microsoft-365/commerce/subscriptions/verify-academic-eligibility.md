@@ -10,7 +10,7 @@ ms.reviewer: pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 교육용 가격 책정에 대한 학교의 자격을 Microsoft 365 Education 방법을 참조합니다.
 ms.date: 07/21/2020
-ms.openlocfilehash: 86bdb4338c316edf5b8bdb83a61a5a0fd2f411ee
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8fc3be02de01e2d37159162581276e7c9d3451f1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167542"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168905"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>교육용 구독에 대한 Microsoft 365 Education 자격 확인
 

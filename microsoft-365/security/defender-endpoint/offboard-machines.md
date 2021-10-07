@@ -1,27 +1,25 @@
 ---
 title: Microsoft Defender for Endpoint Service에서 장치 오프보딩
-description: 끝점 Windows 10 Microsoft Defender의 Windows, 서버, 비영구 장치 온보딩
+description: 끝점 Windows Microsoft Defender의 Windows, 서버, Windows 장치 온보딩
 keywords: 오프보딩, 끝점 오프보딩용 Microsoft Defender, 오프보딩
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ca3e2b5ca26a2d57d27d91d84493c927d6fb2021
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 8a84885f26273a731bbda72f81c51502aa137b21
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353678"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168221"
 ---
 # <a name="offboard-devices-from-the-microsoft-defender-for-endpoint-service"></a>Microsoft Defender for Endpoint Service에서 장치 오프보딩
 
@@ -53,7 +51,7 @@ ms.locfileid: "59353678"
 >
 > 활성 장치만 표시하려면 상태, [](machines-view-overview.md#health-state)장치 [](machine-tags.md) 태그 또는 컴퓨터 그룹 을 [필터링할 수 있습니다.](machine-groups.md)
 
-## <a name="offboard-windows-10-devices"></a>장치 Windows 10 오프보드
+## <a name="offboard-windows-devices"></a>장치 Windows 오프보드
 
 - [로컬 스크립트를 사용하여 디바이스 오프보딩](configure-endpoints-script.md#offboard-devices-using-a-local-script)
 - [그룹 정책을 사용하여 디바이스 오프보드](configure-endpoints-gp.md#offboard-devices-using-group-policy)

@@ -8,10 +8,11 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -19,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: 그룹에 구성원을 추가하고 그룹에서 구성원을 제거하고 그룹 소유자 상태를 관리하는 방법을 Microsoft 365 관리 센터.
-ms.openlocfilehash: a9dfad48b3109512717f5c3e74ff9aef7d4621cd
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 610da28d6282cb45cb43e086fb3f80acaf18bb05
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775075"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165823"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>관리 센터를 사용하여 Microsoft 365 그룹에서 구성원 추가 또는 제거
 

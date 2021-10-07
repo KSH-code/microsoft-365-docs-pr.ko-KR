@@ -8,7 +8,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365solution-mip
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Office 365 암호화에 사용되는 다양한 인증서, 기술 및 TLS(전송 계층 보안) 암호화 제품군에 대해 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b2257338ab214ccdaa08f1aa8f322aad98d7c8b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2e5fb8bc724e25fb6dfd948d20fd5ea77cdbbcf4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212592"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167201"
 ---
 # <a name="technical-reference-details-about-encryption"></a>Office 365의 암호화에 대한 기술 관련 세부 정보
 

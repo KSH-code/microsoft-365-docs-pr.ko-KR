@@ -7,7 +7,7 @@ ms.date: 07/17/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ebe0f5ff-fd17-487f-bbb6-271b5ea270bb
 description: 이 문서에서는 동료에 연결하고 사용자용 PowerShell에 대한 도움말을 받을 수 있는 커뮤니티 리소스를 Microsoft 365.
-ms.openlocfilehash: 1546ac553b9ae97c8ef6ccd93d11f996f90fdaf7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 29847774f9e2f04ca056d1b28bc8a659f2214778
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167231"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170334"
 ---
 # <a name="microsoft-365-community-resources-for-powershell"></a>PowerShell 용 Microsoft 365 커뮤니티 리소스
 

@@ -9,18 +9,18 @@ metadata:
   audience: Admin
   ms.topic: article
   ms.service: O365-seccomp
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ms.collection: M365-security-compliance
   search.appverid:
   - MOE150
   - MET150
   description: 조직에서 위험 평가를 간소화하고 자동화하는 데 도움이 되는 Microsoft 준수 관리자에 대한 질문과 대답을 찾아보는 것이 도움이 됩니다.
-  ms.openlocfilehash: 7029cc031b072ddfcc5603edb812b1cd809bcd85
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.openlocfilehash: d1abfc3cb951197927b13cf1e15a3481a302cf68
+  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59189979"
+  ms.lasthandoff: 10/06/2021
+  ms.locfileid: "60167441"
 title: 준수 관리자에게 자주 묻는 질문
 summary: ''
 sections:

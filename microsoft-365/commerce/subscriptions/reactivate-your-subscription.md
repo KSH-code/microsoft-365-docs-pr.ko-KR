@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: 관리자는 구독이 만료되거나, 비활성화되거나, 취소되거나, 구독 기간 중간에 취소한 경우 구독을 다시 활성화할 수 있습니다.
 ms.date: 04/07/2021
-ms.openlocfilehash: 1637e1db74e1b22de3739282f08e70e08b842fb9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 85365d9d78bde8297ae483c645d6df0453a34e39
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213982"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167621"
 ---
 # <a name="reactivate-your-subscription"></a>구독 다시 활성화
 

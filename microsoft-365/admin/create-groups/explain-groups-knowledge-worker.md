@@ -8,19 +8,20 @@ manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 search.appverid:
 - MET150
 description: 사용자에게 그룹에 대한 Microsoft 365 설명하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 96085502c0600b5d36472fa40728cd4558cee3ed
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: b67f9b31e2128fcfb056934b79490661f37ae10c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774967"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165775"
 ---
 # <a name="explaining-microsoft-365-groups-to-your-users"></a>사용자에게 Microsoft 365 그룹 설명
 
@@ -42,4 +43,4 @@ Microsoft 365 그룹을 사용하면 공유 사서함 및 일정, 전자 필기�
 
 ## <a name="related-topics"></a>관련 항목
 
-[그룹 Microsoft 365 대해 자세히](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Microsoft 365 그룹에 대한 자세한 정보](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)

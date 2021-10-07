@@ -8,22 +8,23 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용하여 장치 보안 정책 및 액세스 규칙을 설정할 수 있습니다.
-ms.openlocfilehash: 6a7706c4c5b571c9ff41e383efe2f4de2f512257
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 4fb1b8ca467d86259f2608af5140510a2a88b23a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775147"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166003"
 ---
 # <a name="overview-of-basic-mobility-and-security-for-microsoft-365"></a>모바일 기능의 기본 이동성 및 보안 Microsoft 365
 

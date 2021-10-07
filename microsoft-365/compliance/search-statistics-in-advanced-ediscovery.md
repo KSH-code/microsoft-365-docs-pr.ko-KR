@@ -9,18 +9,18 @@ ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 검색에서 컬렉션 검색을 실행한 후 생성되는 통계를 확인하여 검색 결과의 유효성을 Advanced eDiscovery.
-ms.openlocfilehash: 5b6cfdaffc7851a00035a4edcc9d490b229c455d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ec339cd28fdd25457a668f992f20e59a4f10b289
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59183964"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167237"
 ---
 # <a name="search-statistics-in-advanced-ediscovery"></a>검색 통계를 Advanced eDiscovery
 

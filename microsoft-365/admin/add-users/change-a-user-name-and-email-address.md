@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
@@ -23,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Microsoft 365 전역 관리자가 이름이 변경될 때 사용자의 전자 메일 주소와 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: b0327dafd875fdcec787e21f5299a32e11aa2a3d
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: f3400947130d84ebe7831676ec3c1d31e9ab1bd3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773622"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60161873"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
@@ -164,7 +165,7 @@ ms.locfileid: "59773622"
 
 이 오류는 MOERA(Microsoft Online Email Routing Address) 때문에 발생합니다. MOERA는 Active Directory에서 사용자의  _userPrincipalName_ 특성에서 생성되고 초기 동기화 중에 클라우드 계정에 자동으로 할당되며 만들어진 후에는 Microsoft 365에서 수정하거나 제거할 수 없습니다. 나중에 Active Directory에서 사용자 이름을 변경할 수 있지만, MOERA는 변경되지 않고 전체 주소 목록에 새로 변경된 이름을 표시하는 데 문제가 발생할 수 있습니다.
 
-이 문제를 해결하려면 Microsoft 365 관리자 자격 증명으로 [PowerShell용 Azure Active Directory 모듈](https://go.microsoft.com/fwlink/?LinkId=823193)에 로그인합니다. 그리고 다음 구문을 사용합니다.
+이 문제를 해결하려면 Microsoft 365 관리자 자격 증명으로 [PowerShell용 Azure Active Directory 모듈](https://go.microsoft.com/fwlink/?LinkId=823193)에 로그인하고 다음 구문을 사용합니다.
 
 ```powershell
 Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.com -NewUserPrincipalName anne.jones@contoso.com

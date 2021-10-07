@@ -7,7 +7,7 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+ms.localizationpriority: medium
 ms.topic: article
 author: denisebmsft
 ms.author: deniseb
@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 16d61be33af8a4d30090470e066111ba2bcde0e9
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: 09eb5f5c183a6a89d89b173557bdc40b9204824b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59497995"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166221"
 ---
 # <a name="specify-the-cloud-protection-level"></a>클라우드 보호 수준 지정
 
@@ -57,7 +57,7 @@ ms.locfileid: "59497995"
 > [!TIP]
 > 도움이 필요하세요? 다음 리소스를 참조하십시오.
 >
-> - [구성 Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
+> - [Endpoint Protection 구성](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
 > - [Intune에서 끝점 보호 설정 추가](/mem/intune/protect/endpoint-protection-configure)
 
 ## <a name="use-group-policy-to-specify-the-level-of-cloud-protection"></a>그룹 정책을 사용하여 클라우드 보호 수준 지정

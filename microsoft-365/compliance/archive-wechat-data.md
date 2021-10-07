@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 연결기에서 커넥터를 설정하고 Microsoft 365 규정 준수 센터 WeChat 데이터를 가져오고 보관할 Microsoft 365.
-ms.openlocfilehash: 486340571c9650f9d10d367f056eeaa5a92aba55
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3744bd48ccb25a98bb61d379783afd669bf6da67
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221188"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168749"
 ---
 # <a name="set-up-a-connector-to-archive-wechat-data"></a>WeChat 데이터를 보관할 커넥터 설정
 

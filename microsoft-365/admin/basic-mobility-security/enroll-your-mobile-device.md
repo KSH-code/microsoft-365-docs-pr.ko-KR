@@ -8,22 +8,23 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 search.appverid:
 - MET150
 description: 장치와 함께 Microsoft 365 서비스를 사용하려면 먼저 기본 모바일 및 보안에서 서비스를 등록해야 Microsoft 365.
-ms.openlocfilehash: 45daf8a56c60cbbef137ce1b085172691ad36ff5
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 7573cce783be2a629adcba65562525794ad58999
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773922"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166099"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>기본 모바일 및 보안을 사용하여 모바일 장치 등록
 

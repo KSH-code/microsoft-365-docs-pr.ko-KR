@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: Normal
+ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: mkaminska
@@ -16,12 +16,12 @@ ms.technology: mde
 ms.topic: article
 ms.date: 09/22/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 0cb371b8eabb74f1702bb52269e4aa9d02270dc0
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 82f40a1110a93a44fe8b1712568d15bd849bd975
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59490231"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169866"
 ---
 # <a name="cloud-protection-and-microsoft-defender-antivirus"></a>클라우드 보호 및 Microsoft Defender 바이러스 백신
 

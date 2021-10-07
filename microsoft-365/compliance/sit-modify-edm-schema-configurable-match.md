@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 구성 가능한 일치를 사용하도록 EDM 스키마를 수정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d470b986d4a94206935efb832deec7171f8e404
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ce02113cd8e6b0d0e2b2b5b950a78e2958b95004
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218845"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167213"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
 

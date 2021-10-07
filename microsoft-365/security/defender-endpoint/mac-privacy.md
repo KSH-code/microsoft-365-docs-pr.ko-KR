@@ -2,27 +2,25 @@
 title: Mac의 끝점용 Microsoft Defender 개인 정보
 description: 개인 정보 제어, Mac의 끝점용 Microsoft Defender에서 수집된 진단 데이터에 대한 개인 정보 및 정보에 영향을 미치는 정책 설정을 구성하는 방법.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 개인 정보, 진단
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 087a5e416ce4f56f3cf4b8f96cc2e0109fe7ca49
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d9ad9b3bfe8aec36a3fdf7db456ed6383c586176
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187436"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168329"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender 개인 정보
 
@@ -248,7 +246,7 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 |sha256|지원 로그의 SHA256 식별자입니다.|
 |size|지원 로그의 크기입니다.|
 |original_path|지원 로그 경로(항상 */Library/Application Support/Microsoft/Defender/wdavdiag/* 아래)|
-|형식|지원 로그의 형식입니다.|
+|format|지원 로그의 형식입니다.|
 
 #### <a name="diagnostic-log-upload-completed-report"></a>진단 로그 업로드 완료된 보고서
 

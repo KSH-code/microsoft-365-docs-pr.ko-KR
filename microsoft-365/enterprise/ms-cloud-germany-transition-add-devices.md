@@ -7,7 +7,7 @@ ms.date: 12/01/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스에 대한 추가 장치 정보입니다.'
-ms.openlocfilehash: b38c279bbbb763c8f0859d6d45cd838c8652ec5e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 16c2e1f33e66f9b7d710a867c5c4467053e03c67
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191259"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166829"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 장치 정보
 
@@ -32,7 +32,7 @@ ms.locfileid: "59191259"
 ## <a name="azure-ad-joined-windows-10-devices"></a>Azure AD 가입 Windows 10 장치
 Azure Windows 10 디바이스가 연결된 경우 Azure AD에서 연결을 끊고 다시 연결해야 합니다.
 
-[![Azure AD 장치 Re-Join Flow. ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
+[![Azure AD 장치 Re-Join Flow. ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png) ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 
 사용자가 Windows 10 디바이스의 관리자인 경우 사용자는 Azure AD에서 디바이스 등록을 등록을 해지하고 3단계로 다시 등록할 수 있습니다.
@@ -76,7 +76,7 @@ Azure Windows 10 디바이스가 연결된 경우 Azure AD에서 연결을 끊�
 
 Azure Windows 10 등록된 경우 Azure AD에서 연결을 끊고 다시 연결해야 합니다.
 
-[![Azure AD 장치 Re-Registration Flow. ](../media/ms-cloud-germany-migration-opt-in/AAD-ReRegistration-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
+[![Azure AD 장치 Re-Registration Flow. ](../media/ms-cloud-germany-migration-opt-in/AAD-ReRegistration-flow.png) ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 ### <a name="step-1-determine-if-the-device-is-azure-id-registered"></a>1단계: 장치가 Azure ID로 등록되어 있는지 확인
 

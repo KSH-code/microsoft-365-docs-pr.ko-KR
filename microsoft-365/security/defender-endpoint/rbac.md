@@ -2,26 +2,24 @@
 title: 역할 기반 액세스 제어를 사용하여 포털에 대한 세분 Microsoft 365 Defender 부여
 description: 보안 작업 내에서 역할 및 그룹을 만들어 포털에 대한 액세스 권한을 부여합니다.
 keywords: rbac, 역할, 기반, 액세스, 제어, 그룹, 제어, 계층, aad
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e3c97151adac40e457439e07c1cb1c7dbcc84632
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a99b69994638af788d3e4ba80c695885f7c3a856
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220336"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169698"
 ---
 # <a name="manage-portal-access-using-role-based-access-control"></a>역할 기반 액세스 제어를 사용하여 포털 액세스 관리
 

@@ -10,19 +10,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 116a97946dc4f45be3030954d3d2fb217ac50b9c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6c21bab2652b4f891f3e4c95b263d608411eade4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165727"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166591"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>엔드포인트용 Microsoft Defender 커뮤니티에 액세스
 
@@ -38,7 +38,7 @@ Endpoint용 Defender Community 센터는 커뮤니티 구성원이 제품에 대
 
 특정 정보에 대해 알아보기 위해 탐색할 수 있는 몇 가지 공간이 있습니다.
 
-- Announcements
+- 공지
 - 새로운 기능
 - 위협 인텔리전스
 

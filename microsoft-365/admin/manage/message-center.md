@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 새로운 기능 및 Microsoft 365 및 기타 중요한 공지 사항을 추적하는 데 대한 메시지 센터의 역할에 대한 개요를 얻습니다.
-ms.openlocfilehash: 9eff7bb1e22107e80c1eefa9547ecb9ee6f0cb95
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: d107231aa2ac0319f3fc871a3b2398caa9db9ee4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773179"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169374"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -57,7 +57,7 @@ ms.locfileid: "59773179"
 
 메시지 센터 전자 메일의 구독을 취소하려면 이 문서의 메시지 센터 전자 메일 구독 [취소를](#unsubscribe-from-message-center-emails) 참조하세요.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 <br>
 

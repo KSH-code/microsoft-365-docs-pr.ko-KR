@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 및 준수 센터에서 키워드 사전을 만드는 기본 단계에 대해 알아봅니다.
-ms.openlocfilehash: ef54a45157ab73662ddb15ad46f12ef510ad28cd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f585009ee54c03b0417f5aa74fd0b7d2fa0d5e7e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189859"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167333"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
@@ -75,9 +75,9 @@ Remove-Item $rawFile
   
 1. **규정 준수 센터**([https://compliance.microsoft.com](https://compliance.microsoft.com))를 사용하거나 **보안 &amp;준수 센터 PowerShell** 에 연결합니다.
     
-2. **원하는 원본** 에서 키워드를 정의 하거나 로드할 수 있습니다. 마법사와 cmdlet 모두 쉼표로 구분된 키워드 목록을 사용하여 사용자 정의 키워드 사전을 만들 수 있으므로 이 단계는 키워드의 출처에 따라 약간 다릅니다. 로드되면 가져오기 전에 인코딩 및 바이트 배열로 변환됩니다.
+2. **의도한 원본의 키워드 정의 또는 로드** - 마법사와 cmdlet 모두 쉼표로 구분된 키워드 목록을 수락하여 사용자 지정 키워드 사전을 만드므로, 이 단계는 키워드를 가져오는 원본에 따라 약간 다릅니다. 로드되면 해당 항목들을 가져오기 전에 인코딩되고 바이트 배열로 변환됩니다.
     
-3. **사전을 만듭니다**. 이름과 설명을 선택하고 사전을 만듭니다.
+3. **사용자 사전 만들기**. 이름과 설명을 선택하고 사전을 만듭니다.
 
 ## <a name="create-a-keyword-dictionary-using-the-security--compliance-center"></a>보안 및 준수 센터를 사용하여 키워드 사전을 만듭니다.
 
@@ -109,7 +109,7 @@ Remove-Item $rawFile
     
 ## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a>PowerShell을 사용하여 파일에서 키워드 사전 만들기
 
-대형 사전을 작성해야 하는 경우 파일 또는 다른 원본에서 내보낸 목록의 키워드를 사용하는 경우가 많습니다. 이 경우 외부 전자 메일에서 표시하기에 부적절한 언어 목록이 포함된 키워드 사전을 만듭니다. 먼저 [보안 &amp; 준수 센터 PowerShell](/powershell/exchange/connect-to-scc-powershell)에 연결해야 합니다.
+종종 대용량 사전 만들어야 할 경우 다른 원본에서 가져온 파일이나 목록의 키워드를 사용할 수 있습니다. 이 경우 외부 전자 메일에서 걸러내야 할 부적절한 언어 목록이 포함된 키워드 사전을 만듭니다. 먼저 [보안&amp; 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)해야 합니다.
   
 1. 키워드를 텍스트 파일에 복사합니다. 이때 각 키워드를 별도 줄에 복사해야 합니다.
     
@@ -129,7 +129,7 @@ Remove-Item $rawFile
   
 ## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a>사용자 지정 중요한 정보 유형과 DLP 정책에서 키워드 사전 사용
 
-키워드 사전은 사용자 정의 중요한 정보 유형에 대한 일치 요구 사항의 일부로 사용하거나 중요한 정보 유형 자체로 사용할 수 있습니다. 둘 다 [사용자 지정 중요한 정보 유형](create-a-custom-sensitive-information-type-in-scc-powershell.md)을(를) 생성해야 합니다. 링크된 문서의 지침에 따라 중요한 정보 유형을 만듭니다. XML을 사용하게 되면 사전에 사용할 GUID 식별자가 필요합니다.
+키워드 사전은 사용자 지정 중요한 정보 유형에 대한 일치 요구 사항의 일부로 또는 중요한 정보 유형 자체로 사용할 수 있습니다. 두 경우 모두에서 사용자는 [사용자 지정 중요한 정보 유형을 만들어야](create-a-custom-sensitive-information-type-in-scc-powershell.md) 합니다. 링크 문서의 지침에 따라 중요한 정보 유형을 만듭니다. XML이 있으면 사전에 대한 GUID 식별자가 있어야 사용할 수 있습니다.
   
 ```xml
 <Entity id="9e5382d0-1b6a-42fd-820e-44e0d3b15b6e" patternsProximity="300" recommendedConfidence="75">

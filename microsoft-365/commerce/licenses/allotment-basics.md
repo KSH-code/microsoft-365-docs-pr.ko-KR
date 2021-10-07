@@ -9,7 +9,7 @@ ms.reviewer: micurn, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: None
+ms.localizationpriority: ''
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
@@ -18,12 +18,12 @@ ms.custom:
 - commerce_licensing
 description: 새로운 배정 기능에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: eacb738da3f2b2a3a76333040c945de7f26dee86862b87fcf10210b33e4ae835
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4a908441dbdaa5ecafcd140233b75adca0c22e4a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53893130"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167729"
 ---
 # <a name="allotment-basics"></a>기본
 
@@ -33,7 +33,7 @@ ms.locfileid: "53893130"
 
 또한 사용권의 관리를 위임할 수도 있습니다. 위임된 할당 소유자는 관리 센터에 액세스할 수 있지만 소유한 할당에서만 라이선스를 보고 관리할 수 있습니다. 이렇게 하면 조직 내에서 라이선스 관리를 보다 세밀하게 위임할 수 있습니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 그룹 기반 라이선싱에 대한 라이선스 [요구 사항을 충족해야 합니다.](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements)
 

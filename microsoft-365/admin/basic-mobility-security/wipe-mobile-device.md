@@ -8,28 +8,29 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 search.appverid:
 - MET150
 description: 기본 제공 기본 이동성 및 보안을 사용하여 등록된 장치에서 정보를 제거합니다.
-ms.openlocfilehash: 3c42edc8eb9da01424c293e5d33f38ffef4b34ce
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: ed658abc55d065e6d271893dc80a293e19373a34
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773382"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165883"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 모바일 장치 지우기
 
 기본 제공 Basic Mobility and Security for Microsoft 365 사용하여 조직 정보만 제거하거나 초기화하여 모바일 장치에서 모든 정보를 삭제하고 공장 설정으로 복원할 수 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 모바일 장치는 중요한 조직 정보를 저장하고 조직의 조직 리소스에 Microsoft 365 수 있습니다. 조직의 정보를 보호하기 위해 공장 초기화 또는 회사 데이터 제거를 할 수 있습니다.
 

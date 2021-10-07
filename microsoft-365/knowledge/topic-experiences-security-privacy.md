@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva 항목 보안 및 개인 정보
+title: 보안 및 개인 정보 보호 Microsoft Viva 항목
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -8,16 +8,16 @@ audience: admin
 ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
-localization_priority: Normal
-description: 보안 및 개인 정보 보호를 Microsoft Viva 방법 학습
-ms.openlocfilehash: b8c82b1914df739ea9086a4ce1585733a7b6d854
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.localizationpriority: medium
+description: Microsoft Viva 항목에서 보안 및 개인 정보 보호를 계획하는 방법을 배워야 합니다.
+ms.openlocfilehash: 4b0c94244badab9aa7e294b04b20b09149ead3b7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187747"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168437"
 ---
-# <a name="microsoft-viva-topics-security-and-privacy"></a>Microsoft Viva 항목 보안 및 개인 정보
+# <a name="security-and-privacy-in-microsoft-viva-topics"></a>보안 및 개인 정보 보호 Microsoft Viva 항목
 
 항목에서는 관리 컨트롤과 함께 Microsoft 365 기존 콘텐츠 보안 기능을 사용하여 조직의 사용자에게 표시되는 AI 생성 콘텐츠를 제어합니다. 보안 설정(Microsoft 365, 파일 및 폴더에 대한 사용 권한)과 특정 사용자가 항목에 볼 수 있는 항목을 결정하는 항목 관리 설정의 조합입니다.
 

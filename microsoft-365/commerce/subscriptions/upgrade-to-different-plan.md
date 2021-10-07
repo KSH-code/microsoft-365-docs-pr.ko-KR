@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 계획을 업그레이드하는 가장 쉬운 방법은 관리 센터의 업그레이드 탭을 사용하는 것입니다. 그러나 업그레이드 탭이 항상 지원되지는 않습니다.
 ms.date: 04/21/2021
-ms.openlocfilehash: a4db0934767beb7913939475d8615f2a0184d0a3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8d481ec0b5eb64fcc86ca331d9bde3cac746f177
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188308"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167549"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 

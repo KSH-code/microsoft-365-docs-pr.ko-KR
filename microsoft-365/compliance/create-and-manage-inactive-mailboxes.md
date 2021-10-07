@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
 description: 사서함의 비활성 사서함 기능을 사용하여 삭제된 사서함의 콘텐츠를 Microsoft 365.
-ms.openlocfilehash: 95548710e0a0f737deec6e5dc49ebc217c9ac50c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bff4f3d1b835b0d79ec38e2dcb470987a3705a1f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189802"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167345"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>비활성 사서함 만들기 및 관리
 
@@ -37,7 +37,7 @@ Microsoft 365 사서함의 내용을 보존할 수 있습니다. 이 기능을 [
   
 ## <a name="preparations-before-creating-an-inactive-mailbox"></a>비활성 사서함을 만들기 전에 준비
 
-- 사서함을 비활성화하려면 사서함에 Exchange Online 계획 2 라이선스를 할당해야 사서함을 삭제하기 전에 사서함에 소송 보존 또는 보존 정책을 적용할 수 있습니다. Exchange Online 계획 2 라이선스는 E3 Office 365 Enterprise E5 구독의 일부입니다. 사서함에 Exchange Online 계획 1 또는 Exchange Online Kiosk 라이선스(각각 Office 365 E1 및 F1 구독의 일부)가 할당된 경우 사서함을 삭제하기 전에 보류를 적용할 수 있도록 별도의 Exchange Online Archiving 라이선스를 할당해야 합니다. 자세한 내용은 [를](https://go.microsoft.com/fwlink/p/?LinkId=286153)Exchange Online Archiving.
+- 사서함을 비활성화하려면 사서함에 Exchange Online 계획 2 라이선스를 할당해야 사서함을 삭제하기 전에 사서함에 소송 보존 또는 보존 정책을 적용할 수 있습니다. Exchange Online 계획 2 라이선스는 E3 Office 365 Enterprise E5 구독의 일부입니다. 사서함에 Exchange Online 요금제 1 또는 Exchange Online Kiosk 라이선스가 할당된 경우(각각 Office 365 E1 및 F1 구독의 일부) 사서함에 보류를 적용할 수 있도록 별도의 Exchange Online Archiving 라이선스를 할당해야 합니다.  deleted. 자세한 내용은 [를](https://go.microsoft.com/fwlink/p/?LinkId=286153)Exchange Online Archiving.
 
 - 해당 사용자 계정을 삭제한 Exchange Online 사서함과 연결된 라이선스를 사용할 수 있습니다. 그런 다음 해당 라이선스를 다른 사용자에게 [할당할 수 있습니다.](../admin/manage/assign-licenses-to-users.md)
 

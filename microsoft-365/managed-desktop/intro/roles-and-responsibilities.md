@@ -4,17 +4,17 @@ description: 이 문서에서는 Microsoft에서 사용자에 대해 제공하�
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a7c322f75cc05406169fc3a1ce36f1550bbd95ce
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0d0dca1820f77aae46cb9e408ee922cf5cc3492a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165767"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169950"
 ---
 # <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Microsoft Managed Desktop 역할 및 책임
 
@@ -47,7 +47,7 @@ Microsoft Managed Desktop 서비스 지원 | Microsoft는 Microsoft Managed Desk
 ID 관리 | 사용자 계정을 만들고, 그룹에 사용자를 할당하고, 메타데이터를 최신으로 유지할 책임이 있습니다. 
 엔터프라이즈용 Microsoft 365 앱 및 관리 | Microsoft는 Office 응용 프로그램을 사용자에게 배포하고 해당 응용 프로그램을 최신으로 유지하도록 할 책임이 있습니다. <br><br> 관리 책임을 포함하여 Microsoft 365 및 정책을 관리할 Exchange Online 있습니다.<br>- 전자 메일 관리<br>- 사서함 및 규칙 구성<br>- Exchange 관리<br><br>또한 공동 작업 도구, SharePoint 서버 관리, 도메인 관리 및 보안 및 정보 정책에 대해 Microsoft 365 관리 센터. 
 사용자 지원 | 사용자 또는 지정된 지원 파트너를 통해 첫 번째 연락처부터 사용자에 대한 해결까지 모든 사용자 지원 및 기술 지원을 제공합니다. 사용자 지원을 직접 제공하거나 파트너와 협력하여 다음 영역에 대한 지원을 제공해야 합니다. <br><br>- 사이트 인프라: 모든 네트워크 및 인터넷 연결, VPN 인프라 및 클라이언트 구성, 로컬 회의실 장비, 프린터, 프록시 서버 및 구성, 방화벽<br><br>- 회사 전체의 클라우드 리소스: 전자 메일, SharePoint, 공동 작업 서비스 및 회사 전체 기술 공간과 관련된 기타 클라우드 인프라.<br><br>- 업무(LINE) 및 기타 회사별 응용 프로그램
-앱 | 역할 및 책임은 사용자가 제공하는 앱과 Microsoft Managed Desktop 앱에 대해 다소 다릅니다. <br><br>Word Excel, 엔터프라이즈용 Microsoft 365 앱, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype, Teams 및 OneNote를 구성하는 Microsoft에서 제공하는 앱의 경우 **Microsoft는** 배포, 업데이트 및 지원을 위한 전체 서비스를 제공합니다. **이러한** 앱에 대한 라이선스를 획득하고 할당하고, 보안 그룹에 사용자를 추가하고, 수명 종료를 관리하고 필요한 추가 기능을 배포해야 합니다.<br><br>제공한 앱(예: 업무용 앱)의 경우 패키지로 을 직접 패키지로 되거나  Microsoft가 아닌 다른 공급업체에 문의하는 경우 다음 작업을 담당합니다. <br><br>- 대상 사용자 그룹에 필요한 응용 프로그램 식별<br>- 앱 배포를 위한 Azure AD 그룹 만들기 및 관리<br>- 배포 표준을 충족하기 Microsoft Intune 패키징<br>- 앱 업로드를 Microsoft Intune<br>- Microsoft Managed Desktop 환경에서 앱 테스트<br>- 사용자와 앱 테스트<br>- 응용 프로그램에 사용자 관리 및 할당<br>- 응용 프로그램 업데이트를 식별하고 배포하는 Microsoft Intune<br>- 응용 프로그램이 사용 중지된 경우 응용 프로그램 제거 및 제거<br>- 라이선스 조달 및 할당<br>- LINE-OF-BUSINESS 앱에 대한 사용자 지원 제공<br>- 원격으로 앱 설정 관리<br><br>**Microsoft는** 원격 클라이언트에 Microsoft Intune 배포 도구를 제공합니다.<br><br>자세한 내용은 앱 을 [참조하세요.](../get-ready/apps.md)
+앱 | 역할 및 책임은 사용자가 제공하는 앱과 Microsoft Managed Desktop 앱에 대해 다소 다릅니다. <br><br>Microsoft에서 제공하는 앱(Word, 엔터프라이즈용 Microsoft 365 앱, Excel, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype, Teams 및 OneNote) **Microsoft는** 배포, 업데이트 및 지원을 위한 전체 서비스를 제공합니다. **이러한** 앱에 대한 라이선스를 획득하고 할당하고, 보안 그룹에 사용자를 추가하고, 수명 종료를 관리하고 필요한 추가 기능을 배포해야 합니다.<br><br>제공한 앱(예: 업무용 앱)의 경우 패키지로 을 직접 패키지로 되거나  Microsoft가 아닌 다른 공급업체에 문의하는 경우 다음 작업을 담당합니다. <br><br>- 대상 사용자 그룹에 필요한 응용 프로그램 식별<br>- 앱 배포를 위한 Azure AD 그룹 만들기 및 관리<br>- 배포 표준을 충족하기 Microsoft Intune 패키징<br>- 앱 업로드를 Microsoft Intune<br>- Microsoft Managed Desktop 환경에서 앱 테스트<br>- 사용자와 앱 테스트<br>- 응용 프로그램에 사용자 관리 및 할당<br>- 응용 프로그램 업데이트를 식별하고 배포하는 Microsoft Intune<br>- 응용 프로그램이 사용 중지된 경우 응용 프로그램 제거 및 제거<br>- 라이선스 조달 및 할당<br>- LINE-OF-BUSINESS 앱에 대한 사용자 지원 제공<br>- 원격으로 앱 설정 관리<br><br>**Microsoft는** 원격 클라이언트에 Microsoft Intune 배포 도구를 제공합니다.<br><br>자세한 내용은 앱 을 [참조하세요.](../get-ready/apps.md)
 보안 모니터링 및 대응 | Microsoft Managed Desktop 장치에 없는 장치에 대한 인시던트 조사 및 해결을 담당하고 Microsoft Managed Desktop 운영 팀이 서비스에 영향을 줄 수 있는 문제를 알릴 책임이 있습니다.
 작업 지원 | 조직의 기본 연락처 및 주제 전문가 목록을 제공해야 합니다. 사용자와 관련이 없는 운영 인시던트가 있는 경우 이러한 연락처가 Microsoft Managed Desktop. <br><br>또한 조직에 없는 장치 및 서비스에 대한 인시던트 조사 및 Microsoft Managed Desktop 및 Microsoft Managed Desktop 운영 팀에 항상 알릴 책임이 있습니다.
 VPN을 포함한 네트워크 인프라 | 인터넷 연결, 네트워크 제어, 프록시 구성 및 원격 연결 인프라를 비롯한 모든 네트워킹 관련 인프라 및 서비스의 설치, 구성 및 관리(문제 해결 및 디버깅 포함)를 담당합니다.<br><br>프록시가 구성된 경우(하드웨어 또는 소프트웨어에서) 프록시에서 허용해야 하는 URL 컬렉션이 있습니다. 여러 개의 proxies로 인한 충돌 또는 비호일성 문제를 해결할 책임이 있습니다. 구성 가능한 설정을 사용하여 조직 관련 네트워크 proxies를 추가할 수 있습니다. 자세한 내용은 구성 가능한 설정을 [참조하세요.](../working-with-managed-desktop/config-setting-ref.md#proxy)<br><br>자세한 내용은 [프록시 구성을 참조하세요.](../get-ready/network.md)

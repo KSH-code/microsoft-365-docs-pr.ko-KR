@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: maccruz
 author: schmurky
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a5cc69edfb6e1b2224b51036d879538dffde64b8
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 0fd58f038992e3728915a822500bbbe1b7db1a26
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60043182"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169626"
 ---
 # <a name="hunt-for-ransomware"></a>랜섬웨어 찾기
 
@@ -266,6 +266,7 @@ Microsoft의 주요 정보:
 Microsoft 365:
 
 - [Microsoft 365 테넌트용 랜섬웨어 보호 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)
+- [Azure 및 랜섬웨어의 탄력성을 최대화하고 Microsoft 365](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
 - [랜섬웨어 공격으로부터 복구](/microsoft-365/security/office-365-security/recover-from-ransomware)
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어로부터 Windows PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
@@ -274,6 +275,7 @@ Microsoft 365:
 Microsoft Azure:
 
 - [랜섬웨어 공격용 Azure 방어](https://azure.microsoft.com/resources/azure-defenses-for-ransomware-attack/)
+- [Azure 및 랜섬웨어의 탄력성을 최대화하고 Microsoft 365](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
 - [랜섬웨어로부터 보호하기 위한 백업 및 복원 계획](/security/compass/backup-plan-to-protect-against-ransomware)
 - [랜섬웨어로부터](https://www.youtube.com/watch?v=VhLOr2_1MCg) 보호하는 Microsoft Azure 백업(26분 비디오)
 - [시스템 ID 손상 복구](/azure/security/fundamentals/recover-from-identity-compromise)

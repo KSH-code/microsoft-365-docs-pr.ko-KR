@@ -8,7 +8,7 @@ manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.date: 11/18/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 ms.custom:
@@ -18,12 +18,12 @@ ms.custom:
 description: 보안 클라우드 서비스 및 응용 프로그램과 SIEM(보안 정보 및 이벤트 관리) 서버 Microsoft 365 개요를 참조하세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 542c6a75282d32aa3b67d61f7236e82210174531
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 71fff15b1493f6e8e15becbd87ad55947c8eddc4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353613"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169422"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>보안 정보 및 이벤트 관리(SIEM) 서버와 Microsoft 365 통합
 

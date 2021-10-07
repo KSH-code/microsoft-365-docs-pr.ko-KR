@@ -10,19 +10,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 전체 처리 품질을 테스트, 비교 및 유효성을 검사하기 위해 Advanced eDiscovery 후 테스트 탭을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 16f8004afb5a0731f684c0d35e55ebf2d06f91f0
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: 0ea34ce101f6891670a0b646380c965a4391ea32
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58569540"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167189"
 ---
 # <a name="test-relevance-analysis-in-advanced-ediscovery"></a>Advanced eDiscovery
   

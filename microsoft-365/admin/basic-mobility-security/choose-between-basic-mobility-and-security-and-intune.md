@@ -8,22 +8,23 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 기본 Microsoft 365 있습니다.
-ms.openlocfilehash: f348a81689aed43dcc8dbce15e92c0b7842aba69
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 0a461bc7462300bb2b27b5d027c2b4d4582b7d14
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775159"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166233"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>기본 이동성 및 보안 또는 Intune 중 선택
 
@@ -95,7 +96,7 @@ Intune을 사용하면 다음과 같은 작업 집합이 있습니다.
 - [손실 모드](/mem/intune/remote-actions/device-lost-mode)   (iOS만 해당) - [빠른 검사(Windows 10](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)전용)
 - [Android용 원격 제어](/mem/intune/remote-actions/teamviewer-support)
 - [원격 잠금](/mem/intune/remote-actions/device-remote-lock)
-- [장치 이름 다시 설정](/mem/intune/remote-actions/device-rename)
+- [장치 이름 바꾸기](/mem/intune/remote-actions/device-rename)
 -  [암호 다시 설정](/mem/intune/remote-actions/device-passcode-reset) [다시 시작(Windows](/mem/intune/remote-actions/device-restart)   전용)
 -  보안 Windows Defender 업데이트(Windows 전용)
 -  Windows 10 PIN 재설정(Windows만 해당)

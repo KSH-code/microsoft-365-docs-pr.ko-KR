@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e581fb38bd6fc5887b1648284a7a77f755c6b43
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6fa6527c2c33eb4bf245f6e1a54a1d6995d074b1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189879"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167405"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -198,10 +198,10 @@ Luhn 알고리즘을 전달해야 하는 정규식을 포함하는 사용자 지
 > 중국어/일본어 문자와 단일 바이트 문자가 포함된 패턴을 검색하거나 중국어/일본어 및 영어가 포함된 패턴을 검색하려면 키워드 또는 regex의 두 가지 변형을 정의합니다. 
 > - 예를 들어 "机密的document"와 같은 키워드를 검색하려면 해당 키워드의 두 변형을 사용합니다. 일본어와 영어 텍스트 사이에 공백이 있고 일본어 텍스트와 영어 텍스트 사이에 공백이 없는 다른 텍스트가 있습니다. 따라서 SIT에 추가할 키워드는 "机密的 document" 및 "机密的document"여야 합니다. 마찬가지로 "東京オリンピック2020"라는 구를 검색하려면 두 가지 변형("東京オリンピック 2020" 및 "東京オリンピック2020")을 사용해야 합니다.
 >
-> Chinese/Japanese/double byte 문자와 함께 키워드/구 목록에 중국어/일본어가 아닌 단어도 포함되어 있는 경우(예: 영어만 해당) 사전/키워드 목록을 두 개 만드는 것이 좋습니다. 중국어/일본어/더블 Byte 문자를 포함하는 키워드와 영어 전용 키워드에 대해 하나씩만 사용할 수 있습니다. 
-> - 예를 들어 "매우 기밀", "機密예: "机密的document" 구가 있는 키워드 사전/목록을 만들면 키워드 목록 두 개를 만들어야 합니다. 
+> 중국어/일본어/더블 바이트 문자와 함께 키워드/구 목록에 중국어/일본어 이외의 단어도 포함되어 있는 경우(예: 영어만 해당) 두 개의 사전/키워드 목록을 만드는 것이 좋습니다. 하나는 중국어/일본어/더블 바이트 문자가 포함된 키워드용이고 다른 하나는 영어 전용입니다. 
+> - 예를 들어 "극비", "機密性が高い" 및 "机密的문서"라는 세 개의 구가 포함된 키워드 사전/목록을 만들려는 경우, 두 개의 키워드 목록을 만들어야 합니다. 
 >     1. 극비
->     2. 機密 문서, 机密的 문서 및 机密的 문서
+>     2. 機密性が高い, 机密的문서 및 机密的 문서
 >
 > 더블 바이트 하이픈 또는 더블 바이트 마침표로 regex를 만드는 동안 regex에서 하이픈이나 마침표가 이스케이프되는 것처럼 두 문자를 모두 이스케이프해야 합니다. 다음은 참조용 샘플 regex입니다.
 >    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}

@@ -9,21 +9,22 @@ metadata:
   audience: Admin
   ms.topic: reference
   ms.service: o365-administration
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ms.collection:
   - M365-subscription-management
   - Adm_O365
+  - Adm_TOC
   ms.custom:
   - AdminSurgePortfolio
   search.appverid:
   - MET150
   description: 기본 모바일 및 보안에 대한 질문과 대답
-  ms.openlocfilehash: ad39687332a8448c405112c88d685409d07c98a8
-  ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+  ms.openlocfilehash: e08abac323b05287b1c3e942e4c640e3df9a1649
+  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/24/2021
-  ms.locfileid: "59773406"
+  ms.lasthandoff: 10/06/2021
+  ms.locfileid: "60166051"
 title: 기본 이동성 및 보안 FAQ(질문과 대답)
 summary: 이 문서에는 모바일 장치에서 모바일 장치를 관리하고 보호하는 데 도움이 되는 기능인 기본 이동성 및 보안에 대한 질문과 Microsoft 365. 질문에 대한 답변을 찾을 수 없는 경우 이 문서에 질문을 추가할 수 있도록 페이지에 설명을 남기면 알려주세요.
 sections:

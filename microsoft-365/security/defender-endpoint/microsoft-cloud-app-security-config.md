@@ -11,18 +11,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f49050ff6ac4f283e8552073922517e9d59d6849
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5ac28c083e44ef25a77d49c57ee852e6179381df
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213622"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166317"
 ---
 # <a name="configure-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>끝점 Microsoft Cloud App Security Microsoft Defender에서 업데이트 구성
 
@@ -37,7 +37,7 @@ ms.locfileid: "59213622"
 Endpoint 클라우드 앱 검색 신호에 대한 Microsoft Defender의 이점을 활용하기 위해 통합을 Microsoft Cloud App Security 하세요.
 
 > [!NOTE]
-> 이 기능은 E5 라이선스와 함께 사용할 수 [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) 실행 중인 Windows 10, 버전 1709(OS 빌드 16299.1085( [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, 버전 1803(OS 빌드 17134.704 및 [KB4493464),](https://support.microsoft.com/help/4493464)Windows 10, 버전 1809(OS 빌드 17763.379) [](https://support.microsoft.com/help/4489899)이상 Windows 10 버전.
+> 이 기능은 Windows 10 버전 1709(OS 빌드 16299.1085(KB4493441), Windows 10 버전 [](https://support.microsoft.com/help/4493441)1803(OS 빌드 17134.704 및 [KB4493464)을](https://support.microsoft.com/help/4493464)실행하는 장치에서 Enterprise Mobility + Security용 E5 라이선스와 함께 사용할 Windows 10, 버전 1809 수 있습니다( [](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) OS 빌드 [17763.379(KB4489899)](https://support.microsoft.com/help/4489899)이상 버전의 Windows 10.
 
 > [끝점용 Microsoft Defender와](/cloud-app-security/mde-integration) 엔드포인트의 Microsoft Cloud App Security 통합에 대한 자세한 내용은 Microsoft Defender for Endpoint Microsoft Cloud App Security.
 

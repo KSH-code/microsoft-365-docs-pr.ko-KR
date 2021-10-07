@@ -11,19 +11,19 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: b8acad4520fc588517083574d41465e277b9c96a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6eef2485379544233db29fe94539c5c07499f9fc
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184124"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167261"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -183,7 +183,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 7. **Windows 장치에서 활동 감사 또는 제한** 을 선택하고 작업을 **감사 전용** 으로 유지합니다. **다음** 을 선택합니다.
 
-8. 기본 설정인 **먼저 테스트하고 싶습니다** 를 적용하고 **테스트 모드에서 정책 팁 표시** 를 선택합니다. **다음** 을 선택합니다.
+8. 기본 설정인 **먼저 테스트하고 싶습니다** 값을 적용하고 **테스트 모드에서 정책 팁 표시** 를 선택합니다. **다음** 을 선택합니다.
 
 9. 설정을 검토하고 **제출** 을 선택합니다.
 
@@ -289,7 +289,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 > [!NOTE]
 > DLP 자동 격리는 허용되지 않는 각 앱의 파일에 대한 하위 폴더를 생성합니다. 따라서 허용되지 않는 앱 목록에 *메모장* 과 *OneDrive* 가 모두 있는 경우 **\OneDrive** 에 대한 하위 폴더와 **\Notepad** 에 대한 다른 하위 폴더가 생성됩니다.
 
-8. **다음 텍스트가 포함된 .txt 파일로 파일 바꾸기** 를 선택하고 자리 표시자 파일에 원하는 텍스트를 입력합니다. 예를 들어 *auto quar 1.docx* 라는 파일의 경우:
+8. **다음 텍스트가 포함된 .txt 파일로 파일 바꾸기** 를 선택하고 자리 표시자 파일에 원하는 텍스트를 입력합니다. 예를 들어 *auto quar 1.docx* 라는 파일의 경우, 다음과 같이 작업을 수행합니다.
     
 **%%FileName%%에는 조직에서 DLP(데이터 손실 방지) 정책 %%PolicyName%%으로 보호하는 중요한 정보가 포함되어 있으며 격리 폴더: %%QuarantinePath%%로 이동되었습니다.** 
 

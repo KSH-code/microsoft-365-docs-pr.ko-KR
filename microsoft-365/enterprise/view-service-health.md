@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: 지원에 전화하기 전에 Microsoft 365 서비스의 상태를 확인하여 활성 서비스 중단이 있는지 확인하세요.
-ms.openlocfilehash: 64a0d4816ce9afdd8ee4bf1c2a4522ef9fc56afc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d5af62bd31bc5fe6c3a3f04657d6cf0ea6083eaa
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210462"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166793"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Microsoft 365 서비스 상태를 확인하는 방법
 
@@ -64,7 +64,7 @@ ms.locfileid: "59210462"
 
 Microsoft 365 서비스에 문제가 있고 **서비스 상태** 페이지에 표시되지 않는 경우 **문제 신고** 를 선택하고 짧은 형식을 작성하여 알려주세요. Microsoft는 다른 조직의 관련 데이터와 보고서를 살펴보고 문제가 얼마나 널리 퍼져 있는지, 그리고 그것이 당사의 서비스에서 비롯되었는지 확인할 것입니다. 문제가 발생한 경우 해결 방법을 추적할 수 있는 **서비스 상태** 페이지에 새로운 문제 또는 권고로 추가됩니다. **보고된 문제** 페이지에는 테넌트가 이 양식에서 보고한 모든 문제와 상태가 표시됩니다.
 
-대시보드에 표시되는 서비스 보기를 맞춤설정하려면 **환경설정** > **맞춤 보기** 를 선택하고 서비스 상태 대시보드 보기에서 필터링할 서비스의 확인란을 선택 취소합니다. 모니터링하려는 각 서비스에 대해 확인란이 선택되어 있는지 확인합니다.
+대시보드에 표시되는 서비스 보기를 맞춤설정하려면 **기본 설정** > **사용자 지정 보기** 를 선택하고 서비스 상태 대시보드 보기에서 필터링할 서비스의 확인란을 선택 취소합니다. 모니터링하려는 각 서비스에 대해 확인란이 선택되어 있는지 확인합니다.
 
 테넌트에 영향을 미치는 새 인시던트 및 활성 인시던트에 대한 상태 변경에 대한 이메일 알림을 신청하려면 **기본 설정** > **이메일** 을 선택하고 **다음 위치에서 서비스 상태 알림 보내기를 클릭합니다. 이메일** 을 입력하고 다음을 지정합니다.
 

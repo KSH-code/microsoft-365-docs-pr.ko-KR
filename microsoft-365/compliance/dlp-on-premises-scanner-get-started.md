@@ -11,7 +11,7 @@ ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - m365solution-mip
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 설정
-ms.openlocfilehash: fbaf28c1a88f1654154cc53ce731d2f56bfae382
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 28453a3791677b1923a6d72dbf8d59d2620ea139
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192979"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158180"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner"></a>데이터 손실 방지 온-프레미스 스캐너로 시작하기
 
@@ -76,7 +76,7 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
     1. 또는 **Start-AIPScan** PowerShell cmdlet을 실행합니다.
 
    > [!IMPORTANT]
-   > 스캐너는 기본적으로 리포지토리의 델타 스캔을 실행하며, 파일이 변경되거나 전체 다시 스캔을 시작하지 않는 한 이전 스캔 싸이클에서 이미 스캔된 파일은 건너뜁니다. UI에서 **모든 파일 다시 스캔** 옵션을 사용하거나 **Start-AIPScan-Reset** 을 실행하여 전체 다시 스캔을 시작할 수 있습니다.
+   > 스캐너는 기본적으로 리포지토리의 델타 스캔을 실행하며, 파일이 변경되거나 전체 다시 스캔을 시작하지 않는 한 이전 스캔 싸이클에서 이미 스캔된 파일은 건너뜁니다. 전체 다시 스캔은 UI에서 **모든 파일 다시 스캔** 옵션을 사용하거나 **Start-AIPScan-Reset** 을 실행하여 시작할 수 있습니다.
 
 6.  Microsoft 365 규정 준수 센터에서 [데이터 손실 방지 페이지](https://compliance.microsoft.com/datalossprevention?viewid=policies)를 엽니다.
 

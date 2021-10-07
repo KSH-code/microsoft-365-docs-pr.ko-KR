@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -16,12 +16,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
-ms.openlocfilehash: 743f4a7b412f14bc942548c688fc3060fdebf53e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ffbf31415dbdcd3ff9b8261b7f1679989823ecd0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218722"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168641"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 
@@ -128,7 +128,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 PowerShell 버전 7 이상은 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. PowerShell 버전 7 이상의 경우 Azure Active Directory PowerShell for Graph 모듈 또는 Azure PowerShell을 사용해야 합니다.
 
-PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. Windows PowerShell에서 이러한 cmdlet을 실행합니다.
+PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. Windows PowerShell 이러한 cmdlet을 실행합니다.
     
 ### <a name="step-1-install-the-required-software"></a>1단계: 필수 소프트웨어 설치
 
@@ -165,9 +165,9 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
   
 오류 메시지가 표시되는 경우 다음 문제를 확인하세요.
   
-- **가장 흔한 문제는 암호를 잘못 입력한 경우입니다**. [2단계](#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription)를 다시 실행하고 사용자 이름과 암호를 입력할 때 신중하게 확인하세요.
+- **가장 흔한 문제는 암호를 잘못 입력한 경우입니다.** [2단계](#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription)를 다시 실행하고 입력하는 사용자 이름과 암호를 신중하게 확인합니다.
     
-- **Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하려면 컴퓨터에 Microsoft .NET Framework 3.5.* x*가 있어야 합니다**. 컴퓨터에 최신 버전(예: 4 또는 4.5.* x*)이 설치되어 있을 수 있습니다. 이전 버전의 .NET Framework와 이전 버전과의 호환성을 사용하거나 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 다음 문서를 참조하세요.
+- **Windows PowerShell용 Microsoft Azure Active Directory 모듈에는 Microsoft .NET Framework 3.5가 필요합니다.* x*는 컴퓨터**에서 사용됩니다. 컴퓨터에 최신 버전이 설치되어 있을 수 있습니다(예: 4 또는 4.5.* x*). 그러나 이전 버전의 .NET Framework와의 이전 버전과의 호환성을 사용하거나 비활성화할 수 있습니다. 자세한 내용은 다음 문서를 참조하세요.
     
   - Windows Server 2012 또는 Windows Server 2012 R2의 경우 [역할 및 기능 추가 마법사를 사용하여 .NET Framework 3.5를 사용 가능하도록 설정](/previous-versions/windows/it-pro/windows-8.1-and-8/dn482071(v=win.10))을 참조하세요.
     
@@ -176,7 +176,7 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
   - Windows 10, Windows 8.1 및 Windows 8의 경우, [Windows 10, Windows 8.1 및 Windows 8에 .NET Framework 3.5 설치](/dotnet/framework/install/dotnet-35-windows-10)를 참조하세요.
 
   
-- **Windows PowerShell용 Microsoft Azure Active Directory 모듈 버전이 오래되었을 수 있습니다.** 확인하려면 Windows PowerShell용 Microsoft Azure Active Directory 모듈 또는 Microsoft 365용 PowerShell에서 다음 명령을 실행하세요.
+- **Windows PowerShell용 Microsoft Azure Active Directory 모듈 버전이 오래되었을 수 있습니다.** 확인하려면 Microsoft 365용 PowerShell 또는 Windows PowerShell용 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.
     
   ```powershell
   (Get-Item C:\Windows\System32\WindowsPowerShell\v1.0\Modules\MSOnline\Microsoft.Online.Administration.Automation.PSModule.dll).VersionInfo.FileVersion

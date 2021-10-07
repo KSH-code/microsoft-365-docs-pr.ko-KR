@@ -7,7 +7,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-lighthouse
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 테넌트 목록을 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 테넌트 목록에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: 13481ecbaaf20c5886837e03f4a606531548145e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bff85a523d55cfeeacffc3024bb733a5c3fe2eb5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211732"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170106"
 ---
 # <a name="microsoft-365-lighthouse-tenant-list-overview"></a>Microsoft 365 Lighthouse 목록 개요
 

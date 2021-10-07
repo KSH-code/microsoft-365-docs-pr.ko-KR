@@ -7,7 +7,7 @@ ms.date: 3/1/2017
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - SPO_Content
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 87a52468-994e-43a2-b155-7229ed659291
 description: Web Essentials와 함께 축소 및 번들링 기술을 사용하여 HTTP 요청과 온라인에서 페이지를 로드하는 데 걸리는 시간을 SharePoint 방법을 알아보습니다.
-ms.openlocfilehash: 5ba1e174cbb016bdf88a1d4006a0b8aafd5ec042
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7214d396dc39147f6864144420f8fa3fd61195b0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220804"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166961"
 ---
 # <a name="minification-and-bundling-in-sharepoint-online"></a>SharePoint Online의 축소 및 묶음
 
@@ -57,7 +57,7 @@ Web Essentials는 두 가지 형태의 번들링을 제공합니다.
   
 1. 이 Visual Studio 솔루션 탐색기에서 번들에 포함할 파일을 선택합니다.
     
-2. 선택한 파일을 마우스 오른쪽 단추로 클릭한 다음 상황에 맞는 메뉴에서 **Web Essentials** \> **JavaScript 번들** 파일 만들기를 선택합니다. 예시: 
+2. 선택한 파일을 마우스 오른쪽 단추로 클릭한 다음 상황에 맞는 메뉴에서 **Web Essentials** \> **JavaScript 번들** 파일 만들기를 선택합니다. 예: 
     
     ![Web Essentials 메뉴 옵션을 보여 주는 스크린샷.](../media/41aac84c-4538-4f78-b454-46e651f868a3.png)
   
@@ -93,7 +93,7 @@ JavaScript 및 CSS 파일을 번들로 묶는 방법과 마찬가지로 많은 �
   
 1. 이 Visual Studio 솔루션 탐색기에서 번들에 포함할 파일을 선택합니다.
     
-2. 선택한 파일을 마우스 오른쪽 단추로 클릭한 다음 상황에 맞는 메뉴에서 **Web Essentials** 이미지 \> **스프라이트** 만들기를 선택합니다. 예시: 
+2. 선택한 파일을 마우스 오른쪽 단추로 클릭한 다음 상황에 맞는 메뉴에서 **Web Essentials** 이미지 \> **스프라이트** 만들기를 선택합니다. 예: 
     
     ![이미지 스프라이트를 만드는 방법을 보여주는 스크린샷.](../media/de0fe741-4ef7-4e3b-bafa-ef9f4822dac6.png)
   

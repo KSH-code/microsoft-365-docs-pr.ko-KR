@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - m365solution-mip
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: e1cae053c7b13ceec9c7f3274122cf004c7277e5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ed0eb21f5c97c4028395b6d85a01e6855a46e028
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184196"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168689"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 
@@ -71,7 +71,7 @@ ms.locfileid: "59184196"
 
 - **콘텐츠 탐색기 목록 뷰어**: 이 역할 그룹의 구성원 자격으로 목록 보기에서 각 항목과 해당 위치를 볼 수 있습니다. `data classification list viewer` 역할이 사전에 이 역할 그룹에 할당되었습니다.
 
-- **콘텐츠 탐색기 콘텐츠 뷰어**:이 역할 그룹의 멤버 자격으로 목록에 있는 각 항목의 내용을 볼 수 있습니다. `data classification content viewer` 역할이 사전에 이 역할 그룹에 할당되었습니다.
+- **콘텐츠 탐색기 콘텐츠 뷰어**: 이 역할 그룹의 멤버 자격으로 목록에 있는 각 항목의 내용을 볼 수 있습니다. `data classification content viewer` 역할이 이 역할 그룹에 미리 할당되었습니다.
 
 콘텐츠 탐색기에 액세스하는 데 사용하는 계정은 역할 그룹 중 하나 또는 둘 다에 있어야 합니다. 이러한 역할은 독립적인 역할 그룹이며 누적되지 않습니다. 예를 들어 계정에 항목 및 해당 위치만 볼 수 있는 권한을 부여 하려는 경우 콘텐츠 탐색기 목록 표시기 권한을 부여 합니다. 동일한 계정에서 목록에 있는 항목의 내용을 볼 수 있게 하려면 콘텐츠 탐색기 콘텐츠 뷰어 권한도 부여합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "59184196"
 
 ### <a name="sensitive-information-types"></a>중요한 정보 유형
 
-[DLP 정책](dlp-learn-about-dlp.md)은 **중요한 정보 유형** 으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Microsoft 365는 사용자가 사용할 수 있는 많은 지역에서 [흔한 중요한 정보 유형에 대한 정의](sensitive-information-type-entity-definitions.md)를 포함합니다. 예를 들면 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 그리고 Windows Live ID 서비스 번호 등이 있습니다.
+[DLP 정책](dlp-learn-about-dlp.md)은 **중요한 정보 유형** 으로 정의되는 중요한 정보를 보호하는 데 도움이 될 수 있습니다. Microsoft 365에는 사용할 준비가 된 다양한 지역의 [많은 일반적인 중요한 정보 유형에 대한 정의](sensitive-information-type-entity-definitions.md)가 포함되어 있습니다. 예를 들어 신용 카드 번호, 은행 계좌 번호, 주민등록번호 및 Windows Live ID 서비스 번호가 있습니다.
 
 > [!NOTE]
 > 현재 콘텐츠 탐색기에서는 Exchange Online의 중요한 정보 유형을 검사하지 않습니다.

@@ -4,17 +4,17 @@ description: 관리자가 서비스에 대한 도움말을 얻을 수 있는 방
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 3e8c7de35576324a24f51c2a59df3432acdb0daa
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7beb080045c5c1e6db0c04ae1a19134e550e2a1f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191079"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166717"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 관리자 지원
 
@@ -91,4 +91,4 @@ ms.locfileid: "59191079"
 
 - [에 대한 사용자 Microsoft Managed Desktop.](end-user-support.md)
 - [에 대한 Microsoft Managed Desktop.](../service-description/support.md)
-- 이미 Microsoft Managed Desktop 구독한 경우 온라인 리소스 페이지의 Microsoft Managed Desktop 관리 가이드에서 테넌트 관리 메뉴의 Microsoft Managed Desktop 섹션에 있는  자세한 절차, 프로세스 **흐름,**  작업 지침 및 FAQ를 [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
+- 이미 Microsoft Managed Desktop 구독한 경우 테넌트의 Microsoft Managed Desktop 섹션에 있는 온라인 리소스 페이지의 Microsoft Managed Desktop 관리 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 FAQ를 찾을 수  **있습니다.** **에서** 관리 [메뉴를 Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)

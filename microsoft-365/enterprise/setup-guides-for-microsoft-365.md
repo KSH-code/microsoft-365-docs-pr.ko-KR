@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - M365-subscription-management
@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: 테넌트 라이선스의 기능을 계획, 마이그레이션 및 구현하기 위한 단계별 도구를 얻습니다. 실행해야 하는 서비스 또는 앱을 설정하는 가이드를 찾아보세요.
-ms.openlocfilehash: 3d69484cf1899fbca8994e3abc89bd49876da5cf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b95437a3aed5409900d5006859b7099b1ff2443e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189579"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170202"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 

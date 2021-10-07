@@ -7,7 +7,7 @@ ms.date: 11/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 전역 테넌트의 중국 사용자를 위한 네트워크 성능을 최적화하기 위한 Microsoft 365 제공합니다.
-ms.openlocfilehash: 9660270dbe73e9cbdff0b1e3796224b36319956b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 65f80137786ea708e2ee0200e63600906fd18d24
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220816"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166985"
 ---
 # <a name="microsoft-365-global-tenant-performance-optimization-for-china-users"></a>Microsoft 365 사용자를 위한 전역 테넌트 성능 최적화
 

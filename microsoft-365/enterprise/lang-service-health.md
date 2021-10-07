@@ -6,7 +6,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ search.appverid:
 - BCS160
 - IWA160
 description: 서비스 상태 대시보드 게시물은 영어로만 제공되지만 서비스 상태 대시보드 게시물에 대해 지정한 언어로 자동으로 표시될 Microsoft 365.
-ms.openlocfilehash: 9f5ce6dbb918f7a3dddf43b6332d28142446f179
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f8f4877fcfb12200ea3f540fe52472d0310cd46e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210732"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168593"
 ---
 # <a name="language-translation-for-service-health-dashboard"></a>서비스 상태 대시보드용 언어 번역
 

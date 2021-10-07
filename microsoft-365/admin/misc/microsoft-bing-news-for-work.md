@@ -8,16 +8,16 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 description: 회사, 회사 또는 업계와 관련된 뉴스, 추세 및 스토리를 매일 반올려 받은 편지함으로 배달합니다.
-ms.openlocfilehash: ac88ccb709f23a95046ad5361fef60a1270a125ac4350e13cc0e192adcdf17b2
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 55e01005994099211b6aab64b837f27bc7881c81
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53823894"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167993"
 ---
 # <a name="microsoft-industry-updates"></a>Microsoft Industry Updates
 

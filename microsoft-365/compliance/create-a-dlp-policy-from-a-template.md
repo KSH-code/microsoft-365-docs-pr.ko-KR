@@ -11,7 +11,7 @@ ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.NewPolicyFromTemplate
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -19,12 +19,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 이 문서에 포함된 템플릿 중 하나를 사용하여 DLP 정책을 만드는 방법을 Office 365.
-ms.openlocfilehash: 29f8821316fcd4caf87ca0b7f77fb6a9c4f8c85e
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 4f3647d5f1d320f57243570b58d10cb1726728b6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400897"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60167381"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 

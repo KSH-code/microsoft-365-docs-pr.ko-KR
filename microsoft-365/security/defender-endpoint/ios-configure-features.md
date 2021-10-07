@@ -2,27 +2,25 @@
 title: iOS 기능에 대한 끝점용 Microsoft Defender 구성
 description: iOS 기능에 끝점용 Microsoft Defender를 배포하는 방법에 대해 설명
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, ios, 구성, 기능, ios
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3916217467892a46fd8a2534a7852b928d2b5215
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1b8817b9a8a6fed86353c77c7202b41115c640de
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212225"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168377"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 

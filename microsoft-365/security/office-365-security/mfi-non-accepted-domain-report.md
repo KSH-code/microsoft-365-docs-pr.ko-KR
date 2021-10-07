@@ -7,19 +7,19 @@ author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서를 사용하여 보낸 사람 도메인이 조직에 구성되어 있지 않은 & 조직에서 보낸 메시지를 모니터링하는 방법을 Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b9bab55ddf23f991179245837f4ecb4e7d28b8f1
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: 5b698600cb3fbc85ec86bed4da542d23fe5eb17e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988358"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169470"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 도메인 보고서
 

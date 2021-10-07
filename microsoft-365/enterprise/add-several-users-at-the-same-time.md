@@ -6,7 +6,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 - BCS160
 description: '스프레드시트 또는 다른 CSV Microsoft 365 목록에서 비즈니스용 앱에 여러 사용자를 추가하는 방법을 학습합니다. YouTube에서 계정에 계정을 추가하는 방법을 설명하는 비디오를 Microsoft 365. 이 프로세스가 끝나면 계정이 있는 각 사용자에게 사서함이 Microsoft 365 있습니다. '
-ms.openlocfilehash: 873a9ff27f85d63596f5e69db918c0c619b73539
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d9152ba8dfef21faeaba6f981c23359eb114b653
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218772"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170418"
 ---
 # <a name="add-several-users-at-the-same-time-to-microsoft-365---admin-help"></a>여러 사용자를 동시에 추가하여 Microsoft 365 - 관리자 도움말
 

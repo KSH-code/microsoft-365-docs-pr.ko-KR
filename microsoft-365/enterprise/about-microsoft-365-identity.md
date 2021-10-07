@@ -7,7 +7,7 @@ audience: Admin
 ms.date: 09/30/2020
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - M365-identity-device-management
@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
 description: 클라우드 전용 또는 하이브리드 ID 모델을 사용하여 Microsoft 365 Azure AD 사용자 ID 서비스를 관리하는 방법을 설명합니다.
-ms.openlocfilehash: 0e83d94c6c82df3f47989433cf20ebf402b265df
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 14f96e2ddb74eb1da8c6937a21e8dcaf72ae0808
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218785"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170538"
 ---
 # <a name="microsoft-365-identity-models-and-azure-active-directory"></a>Microsoft 365 모델 및 Azure Active Directory
 
@@ -69,7 +69,7 @@ Microsoft 365 구독에 Azure Active Directory 클라우드 기반 사용자 ID 
 사내 및 원격(온라인) 사용자는 모두 Azure AD 사용자 계정 및 암호를 사용하여 클라우드 Microsoft 365 액세스합니다. Azure AD는 저장된 사용자 계정과 암호를 기준으로 사용자 자격 증명을 인증합니다.
 
 ### <a name="administration"></a>관리
-사용자 계정은 Azure AD에만 저장되어 있기 때문에 클라우드 ID를 관리하기 위해 [](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)Microsoft 365 관리 센터 [Windows PowerShell.](../admin/add-users/index.yml)
+사용자 계정은 Azure AD에만 저장되어 있기 때문에 클라우드 ID를 관리하기 위해 [](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)Microsoft 365 관리 센터 [Windows PowerShell.](/admin)
 
 ## <a name="hybrid-identity"></a>하이브리드 ID
 

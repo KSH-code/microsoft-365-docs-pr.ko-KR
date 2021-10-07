@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 00c02bad3f95d2bd8def69d5dd6ad8e1c2e857df
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b04abf5b0051d4b0849d88e30c8e5e31ee174a57
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213365"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169650"
 ---
 # <a name="update-alert"></a>업데이트 경고
 
@@ -91,7 +91,7 @@ status|String|경고의 현재 상태를 지정합니다. 속성 값은 'New', '
 assignedTo|String|경고의 소유자
 classification|String|경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다.
 determination|String|경고 결정 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-comment|문자열|경고에 추가할 설명입니다.
+comment|String|경고에 추가할 설명입니다.
 
 ## <a name="response"></a>응답
 

@@ -4,17 +4,17 @@ description: 장치를 배치할 배포 그룹을 지정하는 방법
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 19465d2d2f077859490c106b9c01f08beb6e3906
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 88445e3ce29084de6141930d36bbdc7f4b2e247d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191049"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166637"
 ---
 # <a name="assign-devices-to-a-deployment-group"></a>배포 그룹에 장치 할당
 

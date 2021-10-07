@@ -9,18 +9,18 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 기본 커넥터를 설정하여 Facebook 비즈니스 페이지를 가져와서 보관할 수 Microsoft 365. 이 데이터를 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 Facebook 데이터의 거버넌스를 관리할 수 있습니다.
-ms.openlocfilehash: 9b2e7293bdd5be4eaf0b478263645663395e522d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1707236a889d03f272c5cce527245cf2a83f8949
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59193182"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170838"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook 비즈니스 페이지 데이터를 보관하는 커넥터 배포
 

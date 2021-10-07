@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
@@ -20,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백을 관리합니다.
-ms.openlocfilehash: 9f6923f4f20ec445980a40aeb2d731f8b1a2085a
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 9b63a4046c9d1ab13ae6b3f4856a521d4c7a9b70
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775783"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168149"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백 관리
 
@@ -62,7 +63,7 @@ Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용
 
 :::image type="content" source="../../media/feedback-in-product-customer-engagement.png" alt-text="Screenshot: In-product customer research question example":::
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 이러한 정책을 사용하려면 장치가 최소 빌드 번호에 있어야 합니다. 자세한 내용은 아래 표를 참조하세요.
 

@@ -7,23 +7,23 @@ author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: e09bcee08051663191a12c4e2916d7d6512eb514
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3f9e621be3ca730c947437291359f6b650e558d2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191109"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166733"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비  
  
 인증서 기반 인증은 인증서 기반 인증을 사용하는 고객에게 일반적인 Microsoft Managed Desktop. 인증서를 사용하여 Wi-Fi 또는 LAN에 액세스하거나 VPN 솔루션에 연결하거나 조직의 내부 리소스에 액세스해야 할 수 있습니다.   
  
-Microsoft Managed Desktop 장치는 Azure Active Directory(Azure AD)에 가입되고 Microsoft Intune 관리하기 때문에 Intune과 통합된 SCEP(Simple Certificate Enrollment Protocol) 또는 PKCS(공개 키 암호화 표준) 인증서 인프라를 사용하여 이러한 인증서를 배포해야 합니다.    
+Microsoft Managed Desktop 디바이스는 Azure Active Directory(Azure AD)에 가입되고 Microsoft Intune 관리하기 때문에 SCEP(Simple Certificate Enrollment Protocol) 또는 PKCS(공개 키 암호화 표준) 인증서 인프라를 사용하여 이러한 인증서를 배포해야 합니다. Intune.    
  
 ## <a name="certificate-requirements"></a>인증서 요구 사항 
  

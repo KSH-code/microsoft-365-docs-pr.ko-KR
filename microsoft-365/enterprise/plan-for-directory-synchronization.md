@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.date: 09/30/2020
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: Adm_O365
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: d3577c90-dda5-45ca-afb0-370d2889b10f
 description: Active Directory 도메인 서비스 정리 및 Microsoft 365 도구와의 디렉터리 동기화에 Azure Active Directory 커넥트 설명
-ms.openlocfilehash: 5ad437e4f8abcf2a6d59d17ce41a2b1adeac0649
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 01cf1477020b8e8ef43e36c57b0a761d1950dfaa
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210572"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170310"
 ---
 # <a name="hybrid-identity-and-directory-synchronization-for-microsoft-365"></a>하이브리드 ID 및 디렉터리 동기화를 Microsoft 365
 

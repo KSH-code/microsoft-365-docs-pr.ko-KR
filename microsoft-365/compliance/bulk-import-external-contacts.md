@@ -9,18 +9,18 @@ ms.date: 6/29/2018
 audience: End User
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 PowerShell 및 CSV Exchange Online 사용하여 외부 연락처를 전체 주소 목록으로 대량으로 가져올 수 있는 방법을 알아보습니다.
-ms.openlocfilehash: 0cb085be1c9ddf9fc3db47f3cd92ec7acf040251
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 399534a74a7245ebb71624b390343c81e692925e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59161373"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170862"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>외부 연락처를 대량으로 Exchange Online
 

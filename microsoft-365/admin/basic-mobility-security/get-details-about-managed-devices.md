@@ -8,21 +8,22 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 조직의 Windows PowerShell 모바일 및 보안 장치에 대한 세부 정보를 얻습니다.
-ms.openlocfilehash: ef9a98e4ce1df1e95716c36cf489b8e8ae500722
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 25c7f89dda32121306bfe2434620d17396f2e870
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773886"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166063"
 ---
 # <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>기본 모바일 및 보안 관리 장치에 대한 세부 정보 확인
 
@@ -40,7 +41,7 @@ ms.locfileid: "59773886"
 > [!NOTE]
 > 이 문서의 명령 및 스크립트는 또한 에서 관리하는 모든 장치에 대한 세부 [Microsoft Intune.](https://www.microsoft.com/cloud-platform/microsoft-intune)
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 이 문서에 설명된 명령 및 스크립트를 실행하려면 몇 가지를 설정해야 합니다.
 

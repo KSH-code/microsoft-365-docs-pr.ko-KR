@@ -10,19 +10,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f85c4cd8cf5d657e4043aae80da8b3dae989a29d
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 3ad015c459cdaf4214fb88cab27b9d4d61342268
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356625"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166269"
 ---
 # <a name="advanced-hunting-api"></a>고급 헌팅 API
 
@@ -53,7 +53,7 @@ ms.locfileid: "59356625"
 
 6. 단일 요청의 최대 쿼리 결과 크기는 124MB를 초과할 수 없습니다. 초과하면 HTTP 400 잘못된 요청에 "쿼리 실행이 허용된 결과 크기를 초과했습니다. 결과 양을 제한하여 쿼리를 최적화하고 다시 시도하십시오."가 나타납니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 

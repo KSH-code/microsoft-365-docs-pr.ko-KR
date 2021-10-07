@@ -8,28 +8,29 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - admindeeplinkMAC
 search.appverid: MET150
 description: 조직의 사용자에 대한 Office 스크립트 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: f76f37a8ce88b429de51271256f4c50d963f7b5c
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: f03ee34e0ff41c3eb082beca79127cd609496564
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773147"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168041"
 ---
 # <a name="manage-office-scripts-settings"></a>Office 스크립트 설정 관리
 
 [Office 스크립트를 사용하면](/office/dev/scripts) 스크립트를 기록, 편집 및 실행하여 작업을 자동화할 수 웹용 Excel. Office 스크립트는 Power Automate 사용할 수 있으며 사용자는 Excel Online(비즈니스) 커넥터를 사용하여 통합 문서에서 스크립트를 실행합니다. Microsoft 365 관리자가 관리자의 Office 스크립트 설정을 관리할 수 Microsoft 365 관리 센터.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 - 스크립트 Office 관리하려면 전역 관리자 되어야 합니다. 자세한 내용은 관리자 역할 [정보를 참조하세요.](../add-users/about-admin-roles.md)
 

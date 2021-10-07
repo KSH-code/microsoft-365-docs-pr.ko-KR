@@ -7,18 +7,19 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom: AdminSurgePortfolio
 description: 그룹 또는 정책을 제거하여 기본 이동성 및 보안을 해제합니다.
-ms.openlocfilehash: 730c927c01bb7103c61694749ec7d55ec381a39a
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: ff3fe72e1ca3a6445aa29ac18404aae139a70f8a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775087"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165859"
 ---
 # <a name="turn-off-basic-mobility-and-security"></a>기본 이동성 및 보안 해제
 

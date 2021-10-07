@@ -9,17 +9,17 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 2013에서 예측 코딩 모델을 만드는 방법을 Advanced eDiscovery. 이 단계는 검토 집합에서 관련성 및 관련이 없는 콘텐츠를 식별하는 데 Advanced eDiscovery 기계 학습 기능을 사용하는 첫 번째 단계입니다.
-ms.openlocfilehash: ed5092f2730ade5e349cec77e5c264e67d957927
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4366c5779aaca6973f5a2c0cc526086d0742d069
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186092"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170586"
 ---
 # <a name="create-a-predictive-coding-model-preview"></a>예측 코딩 모델 만들기(미리 보기)
 

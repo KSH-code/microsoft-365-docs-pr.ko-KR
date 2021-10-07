@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX
 description: 일부 도메인 등록 기관은 제한된 서비스를 제공하므로 일부 Microsoft 기능은 일부 도메인에서 작동하지 않습니다.
-ms.openlocfilehash: 7fe6b047773e47964b5a00728b8c1443bdeef36e
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 2d192f03c5a586e4355c1f9a08d312a07af3d501
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774595"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164739"
 ---
 # <a name="domain-registrars-with-setup-limitations"></a>설정 제한이 있는 도메인 등록 기관
 
@@ -126,7 +126,7 @@ Google Apps for Work 계정에 가입하는 동안 Google을 통해 도메인을
 
 1.  도메인 센터 페이지에서 **하위 도메인 관리** 를 선택합니다.
 
-1.  **하위 도메인 개요** 구역에서 방금 만든 lyncdiscover 하위 도메인을 찾은 다음 해당 도메인에 대한 패널(v) 컨트롤을 선택합니다. **하위 도메인 설정** 영역에서 **DNS 설정 편집** 을 선택합니다.
+1.  **하위 도메인 개요** 구역에서 방금 만든 lyncdiscover 하위 도메인을 찾은 다음 해당 도메인에 대한 패널(v) 컨트롤을 선택합니다. **하위 도메인 설정** 영역에서 **DNS 설정 수정** 을 선택합니다.
 
 1.  **A/AAAA 레코드(IP 주소)** 구역의 **IP 주소(A 레코드)** 영역에서 **CNAME** 을 선택합니다.
 

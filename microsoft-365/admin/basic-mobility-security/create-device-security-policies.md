@@ -8,28 +8,29 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용하여 조직 정보를 보호하는 장치 정책을 만들 수 있습니다.
-ms.openlocfilehash: 06d377e86913cbacd781241d75765e6b6cc63b8b
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: aabac06a8936728ad1b37ee69fa22cc74e1a712e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775183"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60166135"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 보안 정책 만들기
 
 기본 Mobility and Security를 사용하여 조직에 대한 조직 정보를 무단 액세스로부터 보호하는 Microsoft 365 수 있습니다. 장치의 사용자에게 해당 Microsoft 365 라이선스가 있으며 기본 모바일 및 보안에 장치를 등록한 조직의 모든 모바일 장치에 정책을 적용할 수 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 > [!IMPORTANT]
 > 모바일 장치 정책을 만들기 전에 기본 모바일 및 보안을 활성화하고 설정해야 합니다. 자세한 내용은 Overview of Basic Mobility and Security를 참조하세요.

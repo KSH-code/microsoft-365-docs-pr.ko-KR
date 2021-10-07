@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 최종 사용자의 NPS(Net Promoter Score)를 사용하여 Microsoft 제품 및 서비스에 대한 느낌을 볼 수 있습니다.
-ms.openlocfilehash: 967de32339c23cf277871102dfecc8c00a55d8e6
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: afde0abf85cca682a5cda3206fa78d24cafc8cb8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59777105"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168125"
 ---
 # <a name="microsoft-product-nps-feedback-and-insights-for-your-organization"></a>조직에 대한 Microsoft 제품 NPS 피드백 및 인사이트
 
@@ -38,7 +38,7 @@ Microsoft는 최종 사용자의 NPS 설문 조사 및 피드백을 사용하여
 - 상위 제품 및 문제에 대한 최종 사용자 의견 참조
 - 추가 조사를 위해 피드백 및 설문 조사 정보를 CSV 파일로 내보내기
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 설문 조사 보고서를 보고 [읽으기](../add-users/about-admin-roles.md) 위해 관리자인 것이 필요합니다. 조직에서 설문 조사 보고서를 보고 읽으기 위해 피드백 설문 조사를 설정해야 합니다. 자세한 내용은 [조직에 대한 Microsoft 피드백 관리를](manage-feedback-ms-org.md) 확인 합니다.
 

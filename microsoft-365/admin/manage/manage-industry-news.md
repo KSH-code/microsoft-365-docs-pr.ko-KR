@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_TOC
@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 사용자에게 업계에 대한 최신 뉴스 헤드라인과 조직의 정보를 제공하고, 뉴스 서비스를 사용하여 조직에 대해 사용자 지정된 뉴스 피드를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: bde55ffbd9bef2f8eac7db1a4d200aeb58f32f89
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: f53f9d7d52a68c29f1225dd38df90d9c4c3e72e2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933510"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168113"
 ---
 # <a name="manage-industry-news"></a>산업 뉴스 관리
 
@@ -101,7 +101,7 @@ Bing 홈페이지로 이동하는 로그인한 사용자는 조직의 개인 설
 3. 새 **탭 Office 365 콘텐츠 허용을 선택합니다.** 이 기능을 사용하도록 설정하면 사용자가 새 탭을 사용자 지정하여 권장 파일 및 최근 파일을 비롯한 Office 365 사이트 및 기타 정보와 함께 자주 SharePoint 수 있습니다.
 4. 새 탭 페이지에서 회사 정보 및 **산업 뉴스 표시를 선택합니다.** 조직 및 산업에 대한 뉴스 기사는 새 탭에서 문서를 보게 선택하는 사용자에게 표시됩니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
 - [Microsoft Search](/microsoftsearch/)
-- [데이터 및 서비스 관리](./index.yml)
+- [데이터 및 서비스 관리](/admin)

@@ -9,17 +9,17 @@ audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 ms.collection: m365-security-compliance
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MOE150
 - MET150
 description: 앱 거버넌스에 대한 피드백을 보내는 방법입니다.
-ms.openlocfilehash: 7009628d132df02f7f4e34bf3f097fe4ef700a07
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 359f3f706b4baaba0a51f176f86c0cd82420d66d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190052"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60168917"
 ---
 # <a name="how-to-submit-feedback-on-app-governance"></a>앱 거버넌스에 대한 피드백을 제출하는 방법 
 
