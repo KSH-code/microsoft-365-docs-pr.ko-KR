@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 게스트 사용자 목록이 사용자 목록에 채워지는 방법을 Microsoft 365 관리 센터.
-ms.openlocfilehash: f2a8de5b4e9c00361aa0cb2113185fa07d8885a2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0de0187211b874f62ede6cfc8b9e1008adc88220
+ms.sourcegitcommit: 81533e5d3e1aee0823539a7c9bdc20dba6541a02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60158745"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60223407"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>2016의 게스트 Microsoft 365 관리 센터
 
@@ -36,7 +36,7 @@ Microsoft Teams, SharePoint 또는 Azure Active Directory 추가하는 모든 �
 
 게스트 사용자를 Microsoft 365 관리 센터 왼쪽 <a href="https://go.microsoft.com/fwlink/p/?linkid=2074830" target="_blank"></a>네비게이트에서 사용자를 확장하고 게스트 사용자를 **선택 합니다.**
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 
 
 이 작업을 수행하려면 전역 관리자 되어야 합니다.
 

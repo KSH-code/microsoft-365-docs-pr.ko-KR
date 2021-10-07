@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하여 조직에 중요한 규정 및 인증의 요구 사항을 충족할 수 있도록 합니다.
-ms.openlocfilehash: 149d44ef8db0d21bf0cb64d1c0d09aaf5bf773d6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a425f144e2c98866d32f14d7a16829342c14ef74
+ms.sourcegitcommit: 81533e5d3e1aee0823539a7c9bdc20dba6541a02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60179262"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60223441"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>준수 관리자에서 평가 빌드 및 관리
 
@@ -161,7 +161,7 @@ Microsoft 작업 탭은 템플릿의 Microsoft 365 평가에 나타납니다. Mi
 
 ### <a name="what-causes-an-update"></a>업데이트의 원인
 
-평가 업데이트는 점수에 영향을 미치는 기본 템플릿 변경 사항이 있는 경우 발생합니다. 변경에는 규제 변경 또는 제품 변경에 따라 제어 매핑 또는 기타 지침을 조정할 수 있습니다. 평가 업데이트는 Microsoft뿐만 아니라 조직에서 시작될 수 있습니다(예: 사용자 지정 템플릿을 수정하는 경우). [](compliance-manager-templates.md#modify-a-template)
+평가 업데이트는 점수에 영향을 미치는 기본 템플릿 변경 사항이 있는 경우 발생합니다. 변경에는 규제 변경 또는 제품 변경에 따라 제어 매핑 또는 기타 지침을 조정할 수 있습니다. 평가 업데이트는 Microsoft뿐만 아니라 조직에서 시작될 수 있습니다(예: 사용자 지정 템플릿을 수정하는 경우). [](compliance-manager-templates-modify.md)
 
 Microsoft에서 확장한 준수 관리자 템플릿을 업데이트하는 경우 평가에서 해당 업데이트를 수락하면 해당 업데이트를 상속합니다. 평가는 평가를 확장할 때 평가에 적용한 추가 특성을 보존합니다.
 

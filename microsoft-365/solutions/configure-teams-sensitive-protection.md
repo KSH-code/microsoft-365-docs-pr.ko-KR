@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a3f715cb05ad1d5acf3c93c58959f12ebec46978
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: edeeb0fc0f93ae962b85e113734dea1844b11d04
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219745"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213424"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>중요한 데이터를 보호하는 팀 구성하기
 
@@ -66,7 +66,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
 2. **솔루션** 에서 **정보 보호** 를 클릭합니다.
 3. **레이블 만들기** 를 클릭합니다.
-4. 레이블에 이름을 지정합니다. **중요** 로 설정하는 것이 좋지만, 이미 사용 중인 경우에는 다른 이름을 선택할 수도 있습니다.
+4. 레이블에 이름을 지정합니다. **중요** 로 설정하는 것이 좋지만, 이미 사용 중인 경우 다른 이름을 선택할 수도 있습니다.
 5. 표시 이름과 설명을 추가하고 **다음** 을 클릭합니다.
 6. **이 레이블 페이지에 대한 범위 정의** 에서 **파일 및 전자 메일** 과 **그룹 및 사이트** 를 선택하고 **다음** 을 클릭합니다.
 7. **파일 및 전자 메일에 대한 보호 설정 선택** 페이지에서 **다음** 을 클릭합니다.

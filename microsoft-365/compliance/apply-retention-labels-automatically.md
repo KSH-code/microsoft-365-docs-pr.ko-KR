@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -17,21 +17,21 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: c6aede6ba25ebd7f28008e4c52450bd3e4b74c2d
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: eeeda9a41f35f6380d2d20adf80b00bc80ba4c4e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60009460"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198772"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> 이 시나리오는 SharePoint의 문서 세트나 라이브러리 또는 Exchange의 폴더와 같은 구성 구조에 대한 [규정 레코드](records-management.md#records) 또는 기본 레이블에 대해 지원되지 않습니다. 이러한 시나리오에는 [게시된 보존 레이블 정책](create-apply-retention-labels.md#step-2-publish-retention-labels)이 필요합니다.
+> 이 시나리오는 SharePoint의 문서 세트나 라이브러리 또는 Exchange의 폴더와 같은 구성 구조에 대한 [규정 레코드](records-management.md#records) 또는 기본 레이블을 지원하지 않습니다. 이러한 시나리오에는 [게시된 보존 레이블 정책](create-apply-retention-labels.md#step-2-publish-retention-labels)이 필요합니다.
 
-[보존 레이블](retention.md)의 가장 강력한 기능 중 하나는 지정된 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 레이블을 적용할 필요가 없습니다. Microsoft 365에서 이 작업을 수행합니다.
+[보존 레이블](retention.md)의 가장 강력한 기능 중 하나는 명시된 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 보존 레이블을 적용할 필요가 없습니다. Microsoft 365에서 이러한 작업을 자동으로 수행합니다.
   
 자동 적용 보존 레이블은 다음과 같은 이유 때문에 강력합니다.
   
@@ -44,7 +44,7 @@ ms.locfileid: "60009460"
 콘텐츠에 중요한 정보, 키워드나 검색 가능한 속성 또는 [학습 가능한 분류자](classifier-get-started-with.md) 일치 항목이 포함된 경우 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
 
 > [!TIP]
-> 검색 가능한 속성을 사용하여 [Teams 모임 녹음/녹화](#microsoft-teams-meeting-recordings)을 식별합니다.
+> 검색 가능한 속성을 사용하여 [Teams 모임 녹음/녹화](#microsoft-teams-meeting-recordings) 및 [민감도 레이블이 적용된 항목](#identify-files-and-emails-that-have-a-sensitivity-label)을 식별합니다.
 
 다음 조건에 따라 보존 레이블을 자동으로 적용하는 프로세스:
 
@@ -115,7 +115,7 @@ ms.locfileid: "60009460"
 
 기존 자동 적용 정책을 편집하려면 정책을 선택하고 선택한 보존 레이블과 모든 [적격 설정](#updating-retention-labels-and-their-policies)을 2단계에서 변경하도록 해주는 보존 정책 편집 마법사를 시작합니다.
 
-자동 적용 레이블 정책을 사용하여 콘텐츠에 레이블을 지정한 후에는 콘텐츠 또는 정책을 변경하거나 새 자동 적용 레이블 정책을 사용하여 적용된 레이블을 자동으로 제거하거나 변경할 수 없습니다. 자세한 내용은 [한 번에 하나의 보존 레이블만](retention.md#only-one-retention-label-at-a-time)를 참조하세요.
+자동 적용 레이블 정책을 사용하여 콘텐츠에 레이블을 지정한 후에는 콘텐츠 또는 정책을 변경하거나 새 자동 적용 레이블 정책을 사용하여 적용된 레이블을 자동으로 제거하거나 변경할 수 없습니다. 자세한 내용은 [한 번에 하나의 보존 레이블만](retention.md#only-one-retention-label-at-a-time)을 참조하세요.
 
 ### <a name="configuring-conditions-for-auto-apply-retention-labels"></a>보존 레이블 자동 적용에 대한 조건 구성하기
 
@@ -150,7 +150,7 @@ ms.locfileid: "60009460"
 #### <a name="auto-apply-labels-to-content-with-specific-types-of-sensitive-information"></a>특정 유형의 중요한 정보가 있는 콘텐츠에 레이블 자동 적용
 
 > [!IMPORTANT]
-> 중요한 정보를 식별하여 자동 적용하는 이메일의 경우 특정 수신자를 포함하거나 제외하도록 정책 범위를 지정하는 것은 지원되지 않습니다. 이 정책 구성은 **모든 수신자** 설정만 지원합니다. 이 정책 구성과 관련하여 **모든 수신자** 는 Microsoft 365 그룹의 사서함을 포함합니다.
+> 중요한 정보를 식별하여 자동 적용하는 전자 메일의 경우 특정 수신자를 포함하거나 제외하도록 정책 범위를 지정하는 것은 지원되지 않습니다. 이 정책 구성은 **모든 수신자** 설정만 지원합니다. 이 정책 구성과 관련하여 **모든 받는 사람** 에게는 Microsoft 365 그룹의 사서함이 포함되어 있습니다.
 > 
 > 또한 이 정책 구성과 관련하여 Microsoft 365 그룹 위치를 선택하면 **Microsoft 365 그룹** 에 연결된 SharePoint 사이트만 포함되고 Microsoft 365 그룹의 사서함은 포함되지 않습니다.
 
@@ -162,7 +162,7 @@ ms.locfileid: "60009460"
 
 정책 서식 파일을 선택한 후에는 모든 유형의 중요한 정보를 추가하거나 제거할 수 있으며, 신뢰 수준 및 인스턴스 수를 변경할 수 있습니다. 이전 예제 스크린샷에서는 다음과 같은 경우에만 보존 라벨이 자동으로 적용되도록 이러한 옵션이 변경되었습니다.
   
-- 탐지된 중요한 정보 유형은 두 개의 중요한 정보 유형에 대해 최소 **중간 신뢰도** 의 일치 정확도(또는 [신뢰 수준](sensitive-information-type-learn-about.md#more-on-confidence-levels))와 **높은 신뢰도** 를 가집니다. 많은 중요한 정보 유형은 여러 패턴으로 정의됩니다. 여기서 일치 정확도가 더 높은 패턴은 증거(예: 키워드, 날짜 또는 주소)가 더 많이 발견되어야 하지만, 일치 정확도가 더 낮은 패턴에는 증거가 덜 필요합니다. 신뢰 수준이 낮을수록 내용은 조건과 일치하지만 잘못된 긍정의 가능성이 더 높습니다.
+- 검색된 중요한 정보 유형의 일치 정확도(또는 [신뢰 수준](sensitive-information-type-learn-about.md#more-on-confidence-levels))는 중요한 정보 유형 중 2개에 대해 **중간 신뢰도** 이상이며 1개에 대해 **높은 신뢰도** 를 갖습니다. 많은 중요한 정보 유형은 여러 패턴으로 정의되는데 일치 정확도가 높은 패턴에서는 더 많은 증거(예: 키워드, 날짜 또는 주소)가 검색되어야 하는 반면 일치 정확도가 낮은 패턴은 증거가 덜 요구됩니다. 신뢰 수준이 낮을수록 콘텐츠가 조건과 일치하기가 더 쉽지만 더 많은 가양성이 발생할 수 있습니다.
 
 - 콘텐츠는 이러한 세 가지 중요한 정보 유형 중 어느 유형의 1~9개 인스턴스를 포함합니다. **시작** 값의 기본값은 **모두** 입니다.
 
@@ -198,7 +198,7 @@ KQL(키워드 쿼리 언어)에 대한 자세한 내용은 [KQL(키워드 쿼리
 
 - 접미사 와일드카드 검색(예: `*cat`) 또는 부분 문자열 와일드카드 검색(예: `*cat*`)은 지원되지 않습니다. 그러나, 접두사 와일드카드 검색(예: `cat*`)이 지원됩니다.
 
-- 부분 인덱싱된 항목은 예상된 항목에 레이블을 지정하지 않거나 NOT 연산자를 사용할 때 레이블 지정에서 제외될 것으로 예상되는 항목에 레이블을 지정하지 않는 데 책임이 있을 수 있습니다. 자세한 내용은 [콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)을 참조하세요.
+- 부분적으로 인덱싱된 항목은 예상된 항목에 레이블을 지정하지 않거나 NOT 연산자를 사용할 때 레이블 지정에서 제외될 것으로 예상되는 항목에 레이블을 지정하지 않는 데 책임이 있을 수 있습니다. 자세한 내용은 [콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)을 참조하세요.
 
 
 예제 쿼리:
@@ -258,6 +258,19 @@ ProgID:Media AND ProgID:Meeting
 
 대부분의 경우 모임 녹음/녹화는 OneDrive에 저장되지만, 채널 모임의 경우에는 SharePoint에 저장됩니다.
 
+##### <a name="identify-files-and-emails-that-have-a-sensitivity-label"></a>민감도 레이블이 있는 파일 및 전자 메일 식별
+
+특정 [민감도 레이블](sensitivity-labels.md)이 적용된 SharePoint나 OneDrive 및 Exchange 전자 메일의 파일을 식별하려면 **키워드 쿼리 편집기** 에 대해 다음을 지정합니다.
+
+```
+InformationProtectionLabelId:<GUID>
+```
+
+GUID를 찾으려면 [Get-Label](/powershell/module/exchange/get-label) cmdlet을 [보안 및 준수 센터 PowerShell](/powershell/exchange/scc-powershell)에서 사용합니다.
+
+````powershell
+Get-Label | Format-Table -Property DisplayName, Name, Guid
+````
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
 
@@ -291,9 +304,9 @@ ProgID:Media AND ProgID:Meeting
 
 2. 다음 명령을 실행합니다.
     
-    ``` PowerShell
+    ```PowerShell
     Set-RetentionCompliancePolicy -Identity <policy name> -RetryDistribution
-   ```
+    ```
 
 ## <a name="updating-retention-labels-and-their-policies"></a>보존 레이블과 해당 정책 업데이트하기
 
