@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 720707ab58ff5de8ddc64ac1df717d9812227735
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e97ed3b7b11eeded5919e963a3175782d3a7d088
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220095"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60184380"
 ---
 # <a name="create-an-app-to-access-microsoft-365-defender-apis-on-behalf-of-a-user"></a>사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기
 
@@ -75,7 +75,7 @@ Microsoft 365 Defender API 집합을 통해 많은 데이터와 작업을 노출
    ![응용 프로그램 만들기 창의 이미지입니다.](../../media/nativeapp-create2.PNG)
 
    - **응용 프로그램 유형:** 공용 클라이언트
-   - **리디렉션 URI:**https://portal.azure.com
+   - **리디렉션 URI:** https://portal.azure.com
 
 4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 api를 >  >    >   Microsoft **Threat Protection을** 입력하고 **Microsoft Threat Protection을 선택합니다.** 이제 앱에서 앱에 액세스할 Microsoft 365 Defender.
 

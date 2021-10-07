@@ -2,27 +2,25 @@
 title: Microsoft Defender for Endpoint(Android용) 기능 구성
 description: Android에서 끝점용 Microsoft Defender를 구성하는 방법을 설명
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mde, android, 구성
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: afff05ac0e18ac41b1e2ba70b59ed4dfd0c6a22a
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: 4db57a39d6270608a5107a77f41ce11fdd139c78
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460319"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60186635"
 ---
 # <a name="configure-defender-for-endpoint-on-android-features"></a>Android 기능에서 끝점에 대한 Defender 구성
 

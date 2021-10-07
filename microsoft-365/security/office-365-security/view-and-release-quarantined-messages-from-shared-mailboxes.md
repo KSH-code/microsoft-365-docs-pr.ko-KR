@@ -7,7 +7,7 @@ ms.reviewer: ''
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: ''
@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: 사용자는 사용 권한이 있는 공유 사서함으로 전송된 분리된 메시지를 보고 해당 메시지를 보는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fae8ad995f5edb4735ecd62ba04a358da2769157
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: d98e228bc966dd95210276ad3ad86543c3ac711f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59484086"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196276"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>공유 사서함에서 분리된 메시지 보기 및 릴리스
 
@@ -46,7 +46,7 @@ ms.locfileid: "59484086"
 
 ## <a name="things-to-keep-in-mind"></a>주의 사항
 
-- _Quarantine policies_ define what users are allowed to do or not do to quarantined messages based on why the message was quarantined why the message was quarantined (for supported features). 기본 검역 정책은 받는 사람이 메시지를 보고 이에 대해 행동할 수 있도록 기록 기능을 적용합니다. 관리자는 사용자에 대해 덜 제한적이거나 더 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 적용할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+- _Quarantine policies_ define what users are allowed to do or not do to quarantined messages based on why the message was quarantined why the message was quarantined (for supported features). 기본 검역 정책은 받는 사람이 메시지를 보고 이에 대해 행동할 수 있도록 기록 기능을 적용합니다. 관리자는 사용자에 대해 덜 제한적이거나 더 제한적인 기능을 정의하는 사용자 지정 검지 정책을 만들고 적용할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
 - 분리된 메시지에 대한 첫 번째 사용자가 공유 사서함을 사용하는 모든 사용자의 메시지의 결정에 따라 결정됩니다. 예를 들어 10명 사용자가 공유 사서함에 액세스하고 사용자가 메시지를 삭제하기로 결정하면 10명 모두에 대해 메시지가 삭제됩니다. 마찬가지로 사용자가 메시지를 해제하기로 결정한 경우 공유 사서함에 릴리스된 후 공유 사서함의 다른 모든 사용자가 액세스할 수 있습니다.
 

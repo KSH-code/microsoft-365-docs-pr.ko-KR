@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - OWC150
 - MET150
@@ -19,12 +19,12 @@ description: 관리자는 피싱 방지를 위해 EOP(Exchange Online Protection
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5a02313bf8c36fe0be91340e421c69a8dc5c0842
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 412b6eb7045051c21a88c8b4b2ba5e80a06832dd
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166639"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199432"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>EOP에서 피싱을 방지하기 위해 시작 주소의 유효성을 검사하는 방법
 
@@ -118,7 +118,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 - 이 도메인에 대한 null MX 레코드는 단일 기간으로 구성됩니다.
 
-예를 들면 다음과 같습니다.
+예제:
 
 ```text
 noreply.contoso.com IN MX .

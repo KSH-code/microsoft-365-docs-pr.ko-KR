@@ -2,7 +2,7 @@
 title: 2016의 내부자 위험 Microsoft 365
 description: 2013에서 내부자 위험 관리를 구성하는 Microsoft 365.
 keywords: Microsoft 365, 내부자 위험, 규정 준수
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: f7f1f1c4a6655142401f121def17999d4f07d9f9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d7717b71b010da9bbe718ab9d1fa0b3064915558
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212595"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198712"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>2016의 내부자 위험 Microsoft 365
 

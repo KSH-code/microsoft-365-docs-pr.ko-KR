@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.date: 02/07/2020
 search.appverid:
 - MET150
@@ -19,12 +19,12 @@ ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내부 및 외부의 사용자 간에 암호화된 전자 메일 메시지를 보내고 받는 방법을 학습합니다.
-ms.openlocfilehash: 504fa9918636cd596cde0d242083ccb7b9817e69
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 04c2ddd3bfb77199f924a10e29f23dc3d27cc38b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216645"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198700"
 ---
 # <a name="message-encryption"></a>메시지 암호화
 

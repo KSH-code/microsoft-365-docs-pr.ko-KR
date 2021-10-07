@@ -2,26 +2,24 @@
 title: 구성 Microsoft Defender 보안 센터 구성
 description: 설정 페이지를 사용하여 일반 설정, 사용 권한, api 및 규칙을 구성합니다.
 keywords: 설정, 일반 설정, 사용 권한, api, 규칙
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c032c54f8b80114e00fcff432a0da37a9d836f35
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: aa6c7b8b0235be3304e7f941864e4a0928eb4ab6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189402"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196840"
 ---
 # <a name="configure-microsoft-defender-security-center-settings"></a>구성 Microsoft Defender 보안 센터 구성
 
@@ -43,5 +41,5 @@ ms.locfileid: "59189402"
 권한 | RBAC 및 장치 그룹을 사용하여 포털 액세스를 관리합니다.
 API | 위협 인텔리전스 및 SIEM 통합을 사용하도록 설정
 규칙 | 제거 규칙 및 자동화 설정을 구성합니다.
-디바이스 관리 | 장치를 온보드 및 오프보드합니다.
+장치 관리 | 장치를 온보드 및 오프보드합니다.
 네트워크 평가 | 정기적으로 검사하여 장치 인벤토리에 추가할 장치를 선택하십시오.

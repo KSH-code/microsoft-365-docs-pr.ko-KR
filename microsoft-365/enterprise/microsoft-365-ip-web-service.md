@@ -7,7 +7,7 @@ ms.date: 8/6/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Office 365 IP 주소 및 URL 웹 서비스를 사용하여 Office 365 네트워크 트래픽을 손쉽게 식별하고 구분하는 방법을 알아봅니다.
-ms.openlocfilehash: 62e9b638b0f767aef3b7f52bb3d129310d2bcbd5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c9d888a175b5e070acfd3a9be7b428ee2404ec0d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220900"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197296"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스
 
@@ -195,7 +195,7 @@ Worldwide,2018063000
 - tcpPorts - 끝점 집합에 대한 TCP 포트입니다. 모든 포트 요소는 쉼표로 구분된 포트 목록 또는 대시 문자(-)로 구분된 포트 범위로 서식이 지정됩니다. 포트는 제공된 범주에 대한 해당 끝점 집합에 있는 모든 IP 주소 및 모든 URL에 적용됩니다. 비워 두면 생략됩니다.
 - udpPorts - 이 끝점 집합의 IP 주소 범위에 대한 UDP 포트입니다. 비워 두면 생략됩니다.
 - ips - 나열된 TCP 또는 UDP 포트와 연결된 이 끝점 집합과 연결된 IP 주소 범위입니다. IP 주소 범위의 JSON 배열입니다. 비워 두면 생략됩니다.
-- category - 끝점 집합에 대한 연결 범주입니다. 유효한 값은 _최적화_, _허용_ 및 _기본값_ 입니다. 특정 IP 주소 또는 URL 범주에 대한 끝점 웹 메서드 출력을 검색하는 경우에는 쿼리가 여러 범주를 반환하게 될 수 있습니다. 이 경우 우선 순위가 가장 높은 범주에 대한 권장 사항을 따릅니다. 예를 들어, 끝점 _최적화_ 와 _허용_ 둘 다에 표시되면 _최적화_ 요구 사항을 따라야 합니다. 필수 특성입니다.
+- category — 끝점 집합의 연결 범주입니다. 유효한 값은 _최적화_, _허용_ 및 _기본값_ 입니다. 특정 IP 주소 또는 URL의 범주에 대한 엔드포인트 웹 메서드 출력을 검색하는 경우 쿼리가 여러 범주를 반환할 수 있습니다. 이러한 경우 가장 높은 우선 순위 범주에 대한 권장 사항을 따르세요. 예를 들어 엔드포인트가 _최적화_ 와 _허용_ 모두에 나타나면 _최적화_ 요구 사항을 따라야 합니다. 필수 항목입니다.
 - expressRoute - 이 끝점 집합이 ExpressRoute를 통해 라우팅되는 경우 _True_ 그렇지 않으면 _False_ 입니다.
 - required - Office 365에 대한 연결이 지원되기 위해 이 끝점 집합이 필요한 경우 _True_ 입니다. 이 끝점 집합이 선택 사항이면 _False_ 입니다.
 - notes - 선택적 끝점의 경우 이 텍스트는 네트워크 계층에서 이 끝점 집합의 IP 주소나 URL에 액세스할 수 없는 경우 사용할 수 없는 Office 365 기능에 대해 설명합니다. 비워 두면 생략됩니다.
@@ -357,7 +357,7 @@ Office 365 Worldwide 인스턴스에 대한 지정된 버전 이후의 변경 �
 
 - 웹 서비스 REST API를 호출하여 현재 Office 365 Worldwide 인스턴스 끝점의 버전 번호를 확인합니다.
 - _$Env:TEMP\O365_endpoints_latestversion.txt_ 에서 현재 버전 파일을 확인합니다. 전역 변수의 **$Env:TEMP** 의 경로는 일반적으로 _C:\Users\\<username\>\AppData\Local\Temp_ 입니다.
-- 스크립트가 처음 실행된 경우, 스크립트는 현재 버전과 모든 현재 IP 주소 및 URL을 반환하고 끝점 버전을 _$Env:TEMP\O365_endpoints_latestversion.txt_ 파일에 쓰고 끝점 데이터 출력을 _$Env:TEMP\O365_endpoints_data.txt_ 파일에 기록합니다. 다음 줄을 편집하여 출력 파일의 경로 및/또는 이름을 수정할 수 있습니다.
+- 스크립트가 처음 실행된 경우, 스크립트는 현재 버전과 모든 현재 IP 주소 및 URL을 반환하고 끝점 버전을 _$Env:TEMP\O365_endpoints_latestversion.txt_ 파일에 쓰고 끝점 데이터 출력을 _$Env:TEMP\O365_endpoints_data.txt_ 파일에 기록합니다. 다음 행을 편집하여 출력 파일의 경로 및/또는 이름을 수정할 수 있습니다.
 
     ``` powershell
     $versionpath = $Env:TEMP + "\O365_endpoints_latestversion.txt"
@@ -367,7 +367,7 @@ Office 365 Worldwide 인스턴스에 대한 지정된 버전 이후의 변경 �
 - 이후에 스크립트를 실행할 때마다 최신 웹 서비스 버전이 _O365_endpoints_latestversion.txt_ 파일의 버전과 동일한 경우 스크립트는 변경하지 않고 종료됩니다.
 - 최신 웹 서비스 버전이 _O365_endpoints_latestversion.txt_ 파일의 버전보다 최신인 경우 스크립트는 **허용** 및 **최적화** 범주 끝점에 대한 끝접 및 필터를 반환하고 _O365_endpoints_latestversion.txt_ 파일에서 버전을 업데이트하고 업데이트된 데이터를 _O365_endpoints_data.txt_ 파일에 기록합니다.
 
-스크립트는 해당 스크립트가 실행되는 컴퓨터에 대해 고유한 _ClientRequestId_ 를 생성하고 여러 호출에서 이 ID를 재사용합니다. 이 ID는 _O365_endpoints_latestversion_ 파일에 저장됩니다.
+스크립트는 스크립트가 실행되는 컴퓨터에 대해 고유한 _ClientRequestId_ 를 생성하고 이 ID를 여러 호출에 재사용합니다. 이 ID는 _O365_endpoints_latestversion.txt_ 파일에 저장됩니다.
 
 ### <a name="to-run-the-powershell-script"></a>PowerShell 스크립트 실행하려면
 

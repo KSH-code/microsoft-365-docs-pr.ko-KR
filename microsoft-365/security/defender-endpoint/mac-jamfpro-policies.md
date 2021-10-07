@@ -2,15 +2,13 @@
 title: Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 description: Jamf 2013에서 macOS 정책에 대한 끝점용 Microsoft Defender를 설정하는 Pro
 keywords: 정책, microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, 카탈리나, mojave, high sierra
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cecc6cd9be841043c2f3cc55977c56f14386cd2d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0bc0b09bcb834c67cb5da13469139875037440b0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185772"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198688"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 
@@ -134,7 +132,7 @@ GUI 메서드를 사용하려면 드물게 버전이 사용될 수 있지만 아
 
 ### <a name="gui-method"></a>GUI 메서드
 
-1. Defender schema.js저장소에서 [](https://github.com/microsoft/mdatp-xplat/tree/master/macos/schema) 파일에 GitHub 다운로드하고 로컬 파일에 저장합니다.
+1. [Defender의](https://github.com/microsoft/mdatp-xplat/tree/master/macos/schema) 리포지토리에서 schema.json 파일을 GitHub 로컬 파일에 저장합니다.
 
     ```bash
     curl -o ~/Documents/schema.json https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/schema/schema.json
@@ -154,7 +152,7 @@ GUI 메서드를 사용하려면 드물게 버전이 사용될 수 있지만 아
 
     ![사용자 지정 스마마를 추가합니다.](images/4137189bc3204bb09eed3aabc41afd78.png)
 
-4. 기본 `com.microsoft.wdav` 설정 도메인으로 입력하고,  1단계에서 다운로드한 업로드 schema.js추가를 클릭합니다.  **저장** 을 클릭합니다.
+4. 기본 `com.microsoft.wdav` 설정 도메인으로 입력하고, 1단계에서 **다운로드한** schema.json 업로드 추가를 클릭합니다.  **저장** 을 클릭합니다.
 
     ![업로드.](images/a6f9f556037c42fabcfdcb1b697244cf.png)
 

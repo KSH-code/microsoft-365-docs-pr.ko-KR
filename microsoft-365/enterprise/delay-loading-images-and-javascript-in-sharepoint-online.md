@@ -7,7 +7,7 @@ ms.date: 12/3/2019
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - SPO_Content
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 74d327e5-755f-4135-b9a5-7b79578c1bf9
 description: JavaScript를 사용하여 이미지 및 필수가 아닌 JavaScript의 로드를 SharePoint 온라인 페이지의 로드 시간을 줄이는 방법을 배워야 합니다.
-ms.openlocfilehash: 7be256db8bce115b130322d1dd34131d845ef165
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6b8eb479ae33b47081e33e45338c02d46f36e055
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218572"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197428"
 ---
 # <a name="delay-loading-images-and-javascript-in-sharepoint-online"></a>SharePoint Online에서 이미지 및 JavaScript 로드 지연
 
@@ -36,7 +36,7 @@ ms.locfileid: "59218572"
   
 ## <a name="improve-page-load-times-by-delaying-image-loading-in-sharepoint-online-pages-by-using-javascript"></a>JavaScript를 사용하여 온라인 SharePoint 이미지 로드를 지연하여 페이지 로드 시간 개선
 
-JavaScript를 사용하여 웹 브라우저에서 이미지를 미리 페치하지 못하게 할 수 있습니다. 그러면 전체 문서 렌더링 속도가 향상됩니다. 이렇게하려면 태그에서 src 특성 값을 제거하고 데이터 특성의 파일 \<img\> 경로(예: data-src)로 바니다. 예시:
+JavaScript를 사용하여 웹 브라우저에서 이미지를 미리 페치하지 못하게 할 수 있습니다. 그러면 전체 문서 렌더링 속도가 향상됩니다. 이렇게하려면 태그에서 src 특성 값을 제거하고 데이터 특성의 파일 \<img\> 경로(예: data-src)로 바니다. 예제:
   
 ```html
 <img src="" data-src="/sites/NavigationBySearch/_catalogs/masterpage/media/microsoft-white-8.jpg" />

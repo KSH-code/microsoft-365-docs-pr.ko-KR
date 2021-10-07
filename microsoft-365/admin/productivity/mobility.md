@@ -8,22 +8,23 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom: AdminSurgePortfolio
 monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
 description: 이동성에 대한 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: 1bf45022193e8e1f5e4788312fb19705a6be7446
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 6eaf50b73af0d6c15e270ca00a5c89f477ed9a4f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776275"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196264"
 ---
 # <a name="mobility--people-experiences"></a>모바일 - 사람 환경
 

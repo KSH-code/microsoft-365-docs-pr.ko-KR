@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: '요약: 다양한 응용 프로그램 내에서의 고리 및 액세스 제어에 대한 Microsoft 365.'
-ms.openlocfilehash: 4fceb389f3469bbb39d35bd6e1185c0725bf23fd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ba40efbacac849e2228455697c43da45b2bcbe47
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220867"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197308"
 ---
 # <a name="isolation-and-access-control-in-microsoft-365"></a>Microsoft 365에서 격리 및 액세스 제어
 

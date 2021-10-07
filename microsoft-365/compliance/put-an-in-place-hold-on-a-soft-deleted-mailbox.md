@@ -8,18 +8,18 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 ms.custom:
 - seo-marvel-apr2020
 description: 비활성으로 만들고 콘텐츠를 In-Place 사서함에 대한 보류를 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 906ae8aded9bdf996f89c01db5ada6a36b00d77e
-ms.sourcegitcommit: f358e321f7e81eff425fe0f0db1be0f3348d2585
+ms.openlocfilehash: 7e5d1910bcf993d2672004190b34994b47a1c208
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58507545"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198640"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>사서함에 In-Place 사서함을 보류합니다Exchange Online
 

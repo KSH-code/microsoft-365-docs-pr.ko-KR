@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 자세한 내용은 Microsoft 365 Business Voice.
-ms.openlocfilehash: edffbbe615b7098377297f96a6015929d5825694
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ef3c0d08ac2a419e8d15b825272f6689f6cd3eaf
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221272"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199060"
 ---
 # <a name="overview-of-business-voice"></a>비즈니스 음성 개요
 

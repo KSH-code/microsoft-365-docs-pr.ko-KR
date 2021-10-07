@@ -10,19 +10,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: maccruz
 author: schmurky
-localization_priority: normal
+ms.localizationpriority: medium
 manager: dansimp
 ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: df841029c95c66a64c63ef1040bd033e5a74d27c
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: 6bfd4f42a6fcc43d7eec6c378cb1cdc25b186991
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60009448"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196888"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>실시간 보호와 관련된 성능 문제 해결
 

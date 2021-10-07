@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: medium
 description: SharePoint Syntex에서 양식 처리 모델을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 1acc47244bd5989e429ebd68105d353af214cb19
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
-ms.translationtype: HT
+ms.openlocfilehash: 5ac00352c64f1403f87ff1c16f3fa44e8c737896
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189769"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198592"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 양식 처리 모델을 만들기
 

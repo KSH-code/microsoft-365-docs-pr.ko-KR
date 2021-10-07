@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 028c099dc046d6402d187e5bde0a1536e44657a4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7eaf3c7f1b712bc6b3f0c1d17869ccf434a74d89
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218162"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199492"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동 조사의 세부 내용과 결과
 

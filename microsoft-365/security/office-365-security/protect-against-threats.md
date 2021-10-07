@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.date: 06/22/2021
 search.appverid:
 - MOE150
@@ -20,14 +20,14 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 11d1f90278bec224bcc9f043abf57fa5a27010e5
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: e761962f737d717bef42773169fbe9c9c180c7ef
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483126"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199444"
 ---
-# <a name="protect-against-threats"></a>위협에 대한 보호
+# <a name="protect-against-threats"></a>위협으로부터 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -97,7 +97,7 @@ ms.locfileid: "59483126"
    - **보호 설정** 섹션:
      - **공통 첨부 파일 필터 사용:** 선택(켜기)을 선택합니다. 파일 **형식 사용자 지정을 클릭하여** 파일 형식을 더 추가합니다.
      - **맬웨어에 대해 0시간 자동 제거** 사용: 이 설정이 선택되어 있는지 확인 맬웨어에 대한 ZAP에 대한 자세한 내용은 맬웨어에 대한 [ZAP(제로 아워 자동 제거)를 참조하세요.](zero-hour-auto-purge.md#zero-hour-auto-purge-zap-for-malware)
-   - **Quarantine policy:** Leave the default value AdminOnlyAccessPolicy selected. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+   - **Quarantine policy:** Leave the default value AdminOnlyAccessPolicy selected. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
    - **알림** 섹션: 알림 설정이 선택되어 있는지 확인합니다.
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
@@ -225,7 +225,7 @@ ms.locfileid: "59483126"
    - **사용자 및 도메인** 페이지: 첫 번째 정책이기 때문에 적용 범위를 [](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) 최대화하려는 경우 도메인 상자에 허용 도메인을 입력하는 **것이** 좋습니다. 그렇지 않으면 사용자  및  그룹 상자를 사용하여 보다 세부적인 제어를 할 수 있습니다. 이러한 사용자, 그룹 및 도메인 제외를 선택하고 값을 입력하여 **예외를 지정할** 수 있습니다.
    - **설정** 페이지:
      - **금고 알 수 없는 맬웨어 응답**: 차단을 **선택합니다.**
-     - **Quarantine policy**: The default value is blank, which means the AdminOnlyAccessPolicy policy is used. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+     - **Quarantine policy**: The default value is blank, which means the AdminOnlyAccessPolicy policy is used. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
      - **검색된 첨부 파일이 있는** 첨부 파일 **리디렉션:** 리디렉션 사용: 이 설정을 켜고(선택) 검색된 메시지를 받을 전자 메일 주소를 입력합니다.
      - **검색을 금고** 수 없는 경우 첨부 파일 검색 응답을 적용합니다(시간 제한 또는 오류). 이 설정이 선택되어 있는지 확인
 

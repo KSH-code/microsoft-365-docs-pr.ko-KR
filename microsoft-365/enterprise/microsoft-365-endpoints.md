@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: Microsoft 365 트래픽에 대한 대상 IP 주소 및 URL의 경우 다른 클라우드의 인터넷 끝점에 대해 이 Microsoft 365 사용합니다.
-ms.openlocfilehash: 159c8e7dea6fe241ab44b283b1193397c3ad70e3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 56e67304998a4031244fdbad63848f556fe94039
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215895"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197320"
 ---
 # <a name="microsoft-365-endpoints"></a>Microsoft 365 끝점
 

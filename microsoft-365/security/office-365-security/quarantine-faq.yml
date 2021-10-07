@@ -9,7 +9,7 @@ metadata:
   ms.date: 
   audience: ITPro
   ms.topic: troubleshooting
-  localization_priority: Normal
+  ms.localizationpriority: medium
   search.appverid:
   - MET150
   ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
@@ -20,12 +20,12 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 640a019c86e5313b81003136b2d9842d8784e29a
-  ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+  ms.openlocfilehash: 149fd46d21626dbed91bd2a94490169123fc5acb
+  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/23/2021
-  ms.locfileid: "59483570"
+  ms.lasthandoff: 10/06/2021
+  ms.locfileid: "60199408"
 title: Quarantined messages FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -59,7 +59,7 @@ sections:
       기본적으로 관리자만 맬웨어에 대해 차단된 메시지를 관리할 수 있습니다. 자세한 내용은 [관리자로 고지된](manage-quarantined-messages-and-files.md)메시지 및 파일 관리를 참조하세요.
 
 
-      그러나 관리자는 사용자에 대해  더 많은 기능을 정의하는 맬웨어 방지 정책에 대해 정책을 만들고 적용할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+      그러나 관리자는 사용자에 대해  더 많은 기능을 정의하는 맬웨어 방지 정책에 대해 정책을 만들고 적용할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
   - question: >
       스팸을 차단하는 방법
     answer: >
@@ -71,7 +71,7 @@ sections:
   - question: >
       최종 사용자가 검지에서 액세스할 수 있는 메시지는 무엇입니까?
     answer: >
-      Quarantine policies define whether users can access quarantined messages based on why the message quarantined (for [supported features).](quarantine-policies.md#step-2-assign-a-quarantine-policy-to-supported-features) 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+      Quarantine policies define whether users can access quarantined messages based on why the message quarantined (for [supported features).](quarantine-policies.md#step-2-assign-a-quarantine-policy-to-supported-features) 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
 
       기본적으로 사용자는 받는 사람인 다음 유형의 quarantined 메시지에 액세스할 수 있습니다.

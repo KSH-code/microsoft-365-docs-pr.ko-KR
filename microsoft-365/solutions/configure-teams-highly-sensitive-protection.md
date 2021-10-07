@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 매우 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3e98b1a52e698d52eba16d4296c062d7347759d0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 27d2183a3f6f5f43f4461bc83fe3b33ac9f4f56e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219752"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169362"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>매우 중요한 데이터를 보호하는 팀 구성하기
 
@@ -71,7 +71,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
 2. **솔루션** 에서 **정보 보호** 를 클릭합니다.
 3. **레이블 만들기** 를 클릭합니다.
-4. 레이블에 이름을 지정합니다. **매우 중요** 로 설정하는 것이 좋지만, 이미 사용 중인 다른 이름을 선택할 수도 있습니다.
+4. 레이블의 이름을 정합니다. **매우 중요** 로 설정하는 것이 좋지만, 이미 사용 중인 다른 이름을 선택할 수도 있습니다.
 5. 표시 이름과 설명을 추가하고 **다음** 을 클릭합니다.
 6. **이 레이블에 대한 범위 정의 페이지** 에서 **파일 및 전자 메일** 과 **그룹 및 사이트** 를 선택하고 **다음** 을 클릭합니다.
 7. **파일 및 전자 메일에 대한 보호 설정 선택** 페이지에서 **파일 및 전자 메일 암호화** 를 선택하고 **다음** 을 클릭합니다.
@@ -87,7 +87,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 17. **다음** 을 클릭합니다.
 18. **외부 공유 및 장치 액세스 설정 정의** 페이지에서 **레이블이 지정된 SharePoint 사이트에서 외부 공유를 제어** 를 선택합니다.
 19. **콘텐츠를 함께 공유할 수 있습니다** 에서 게스트 액세스를 허용하는 경우에는 **신규 및 기존의 게스트** 를 선택하고, 그렇지 않은 경우 **조직에 있는 사용자만** 을 선택합니다.
-20. **관리되지 않는 장치** 에서 **액세스 차단** 을 선택합니다. (게스트를 허용하고 관리 장치가 없는 경우 **제한된 웹 전용 액세스 허용** 을 선택할 수 있습니다.)
+20. **관리되지 않는 장치에서의 액세스** 에서 **액세스 차단** 을 선택합니다(게스트를 허용하고 관리 장치가 없는 경우 **제한된 웹 전용 액세스 허용** 을 선택할 수 있습니다).
 21. **다음** 을 클릭합니다.
 22. **Office 앱에 대한 자동 레이블 지정** 페이지에서 **다음** 을 클릭합니다.
 23. **레이블 만들기** 를 클릭한 다음 **완료** 를 클릭합니다.

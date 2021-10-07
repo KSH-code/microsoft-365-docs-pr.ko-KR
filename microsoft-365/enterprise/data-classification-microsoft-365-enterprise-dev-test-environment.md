@@ -9,19 +9,19 @@ ms.date: 12/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 ms.custom:
 - Ent_TLGs
 - admindeeplinkMAC
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경용 웹 응용 Microsoft 365 보존 레이블을 만들고 사용할 수 있습니다.
-ms.openlocfilehash: a39661da9436473da9e89330ff15d0a43d19db51
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6f6e57ec31d889fac031caf6cb6be94f483a93e9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218585"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198508"
 ---
 # <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 데이터 분류
 

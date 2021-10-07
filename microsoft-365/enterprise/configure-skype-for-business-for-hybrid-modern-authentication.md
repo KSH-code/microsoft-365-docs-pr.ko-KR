@@ -7,7 +7,7 @@ ms.date: 12/3/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: 522d5cec-4e1b-4cc3-937f-293570717bc6
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 비즈니스용 Skype HMA(하이브리드 최신 인증)를 사용하도록 사내에서 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9695815d0a085931b10f7f64b9fca2e997af9077
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 21fc7bc3d79d4714f8892fe214e338bba3bffa55
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187916"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197440"
 ---
 # <a name="how-to-configure-skype-for-business-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 비즈니스용 Skype 온-프레미스를 구성하는 방법
 

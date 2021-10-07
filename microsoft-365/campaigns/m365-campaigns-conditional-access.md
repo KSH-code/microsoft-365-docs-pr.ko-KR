@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 보안 기본값이 미리 구성한 보안 설정을 제공하여 ID 관련 공격으로부터 조직을 보호하는 데 어떻게 도움이 될 수 있는지 확인합니다.
-ms.openlocfilehash: ea36ba45af26a767b08ee1e75931dca54dacea64
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 49b20e4880774ce97d99dc95e60c0cb417b213bc
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188700"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198982"
 ---
 # <a name="turn-on-security-defaults"></a>보안 기본값 켜기
 

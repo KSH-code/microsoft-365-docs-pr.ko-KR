@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 시뮬레이션 및 교육과 관련하여 배포 고려 사항과 Office 365 정보를 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 239d1e4bf28a93627a80ea40375e6791e1a3a5a8
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: 19b8997a5f2d1f8df40c740fb996432b13a21d3b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988442"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196600"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>공격 시뮬레이션 교육 배포 고려 사항 및 FAQ
 
@@ -51,7 +51,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="phishing-simulation-and-admin-urls-blocked-by-network-proxy-solutions-and-filter-drivers"></a>네트워크 프록시 솔루션 및 필터 드라이버에 의해 차단되는 피싱 시뮬레이션 및 관리자 URL
 
-피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예를 들어:
+피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예제:
 
 - 방화벽
 - WAF(웹 응용 프로그램 방화벽) 솔루션
@@ -118,7 +118,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="messages-reported-as-phishing-by-users-arent-appearing-in-simulation-reports"></a>사용자가 피싱으로 보고한 메시지가 시뮬레이션 보고서에 나타나지 않습니다.
 
-공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예를 들어:
+공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예제:
 
 - 메시지의 링크를 클릭한 사용자입니다.
 - 자격 증명을 포기한 사용자입니다.

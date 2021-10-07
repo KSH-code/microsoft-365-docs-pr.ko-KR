@@ -6,7 +6,7 @@ manager: scotv
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.collection:
@@ -16,12 +16,12 @@ ms.custom: admindeeplinkMAC
 f1.keywords:
 - NOCSH
 description: Microsoft 365의 메일 인시던트 또는 권고에 대한 자세한 내용은 Exchange Online 모니터링을 사용하세요.
-ms.openlocfilehash: 2c97e161c46998f9a78e14b1efc2eb0e701e5b01
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: e6b6749b88644b65768a04696a6e6363661ceec8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988250"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197332"
 ---
 # <a name="exchange-online-monitoring-for-microsoft-365"></a>Microsoft 365의 Exchange Online 모니터링
 
@@ -37,7 +37,7 @@ ms.locfileid: "59988250"
 
 **조직의 문제** 는 조직 수준 모니터링 및 우선 순위 계정 모니터링을 통해 식별되고 사용됩니다.
 
-**조직의 문제** 아래에 있는 **상태** 열 값은 조직의 인프라 또는 타사 소프트웨어가 Exchange Online의 조직 사용자 및/또는 우선 순위 계정의 서비스 상태 환경에 영향을 미치는지 여부를 나타냅니다. 권고나 인시던트를 해결하려면 *사용자의* 조치가 필요합니다.
+**조직의 문제** 아래에 있는 **상태** 열 값은 조직의 인프라 또는 타사 소프트웨어가 Exchange Online의 조직 사용자 및/또는 우선 순위 계정의 서비스 상태 환경에 영향을 미치는지 여부를 나타냅니다. 권고 또는 인시던트를 해결하려면 *사용자의* 조치가 필요합니다.
 
 **Microsoft 서비스 상태** 아래의 **상태** 열 값은 서비스가 정상이거나 Microsoft가 유지 관리하는 클라우드 서비스를 기반으로 하는 권고 또는 인시던트가 있음을 나타냅니다.
 
@@ -76,7 +76,7 @@ Exchange Online 모니터링은 다음 시나리오를 지원합니다.
    >[!Note]
    > 활성 사용자 수는 단일 활동(예: 사용자가 메일을 읽는 경우)으로 측정됩니다. 지난 30분 동안의 활동만 설명합니다.
 
-- **앱 연결**: 예상 연결은 조직의 장치와 Exchange Online 간의 성공적인 가상 연결 백분율을 기반에 두며 Microsoft의 제어를 벗어난 문제를 포함할 수 있습니다. 자세한 내용은 [Microsoft 365 Connectivity Optics](microsoft-365-connectivity-optics.md)를 참조하세요.
+- **앱 연결**: 예상 연결은 조직의 기기와 Exchange Online 간의 성공적인 합성 연결 비율을 기반으로 하며 Microsoft에서 제어할 수 없는 문제를 포함할 수 있습니다. 자세한 내용은 [Microsoft 365 연결 광학 장치](microsoft-365-connectivity-optics.md)를 참조하세요.
 
 - **기본 인증 및 최신 인증**: Exchange Online 서비스에서 성공적으로 유효성이 검사된 사용자 수입니다.
 

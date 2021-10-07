@@ -8,7 +8,7 @@ manager: laurawi
 ms.date: 10/11/2018
 audience: ITPro
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - Strat_O365_IP
@@ -20,12 +20,12 @@ ms.custom:
 description: 이 항목에서는 사용자 환경의 보안에 영향을 주는 테넌트 전체 설정에 대한 권장 구성을 Microsoft 365 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 838b9b01790b85c3903206285356cc6c22507821
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b095d328a6582e93e79a2e6a76afe61ca59862cb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187308"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199348"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테넌트 구성
 
@@ -54,7 +54,7 @@ Microsoft 365 Defender 포털에는 환경을 보호하는 기능이 포함되�
 |---|---|---|
 |**피싱 방지**|예|EOP에서 피싱 방지 보호 설정 구성 및 에 설명된 기본 피싱 방지 정책을 [Office 365.](protect-against-threats.md#part-2---anti-phishing-protection-in-eop-and-defender-for-office-365) <p> 추가 정보: <ul><li>[2016년 8월의 피싱 Microsoft 365](set-up-anti-phishing-policies.md)</li><li>[Microsoft Defender for Office 365](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)</li><li> [가장 인사이트](impersonation-insight.md)</li><li>[EOP의 스푸핑 인텔리전스 정보](learn-about-spoof-intelligence.md)</li><li>[테넌트 허용/차단 목록을 관리합니다.](tenant-allow-block-list.md)</li></ul>|
 |**맬웨어 방지 엔진**|예|EOP에서 맬웨어 방지 보호 설정 구성에 설명된 기본 맬웨어 방지 정책을 [구성합니다.](protect-against-threats.md#part-1---anti-malware-protection-in-eop) <p> 추가 정보: <ul><li>[맬웨어 방지 보호 기능](anti-malware-protection.md)</li><li>[권장되는 맬웨어 방지 정책 설정](recommended-settings-for-eop-and-office365.md#eop-anti-malware-policy-settings)</li><li>[맬웨어 방지 정책 구성](configure-anti-malware-policies.md)</li></ul>|
-|**Office 365용 Defender의 안전한 첨부 파일**|아니요|금고 첨부 파일에 대한 전역 설정을 구성하고 다음에 설명된 금고 첨부 파일 정책을 만들 수 있습니다. [Configure 금고 Attachments settings in Microsoft Defender for Office 365.](protect-against-threats.md#safe-attachments-policies-in-microsoft-defender-for-office-365) <p> 추가 정보: <ul><li>[권장 금고 첨부 파일 설정](recommended-settings-for-eop-and-office365.md#safe-attachments-settings)</li><li>[금고 Microsoft Defender for Office 365](safe-attachments.md)</li><li>[안전한 첨부 파일 정책 설정](set-up-safe-attachments-policies.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)</li><li>[Microsoft 365 E5에서 안전한 문서](safe-docs.md)</li></ul>|
+|**Defender for Office 365의 안전한 첨부 파일**|아니요|금고 첨부 파일에 대한 전역 설정을 구성하고 다음에 설명된 금고 첨부 파일 정책을 만들 수 있습니다. [Configure 금고 Attachments settings in Microsoft Defender for Office 365.](protect-against-threats.md#safe-attachments-policies-in-microsoft-defender-for-office-365) <p> 추가 정보: <ul><li>[권장 금고 첨부 파일 설정](recommended-settings-for-eop-and-office365.md#safe-attachments-settings)</li><li>[금고 Microsoft Defender for Office 365](safe-attachments.md)</li><li>[안전한 첨부 파일 정책 설정](set-up-safe-attachments-policies.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](mdo-for-spo-odb-and-teams.md)</li><li>[Microsoft 365 E5에서 안전한 문서](safe-docs.md)</li></ul>|
 |**금고 Microsoft Defender for Office 365**|아니요|금고 링크에 대한 전역 설정을 구성하고 금고 링크에 대한 Microsoft [Defender의](protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)금고 링크 설정 구성에 설명된 Office 365. <p> 추가 정보: <ul><li>[권장 금고 링크 설정](recommended-settings-for-eop-and-office365.md#safe-links-settings)</li><li>[안전한 링크 정책 설정](set-up-safe-links-policies.md)</li><li>[금고 Microsoft Defender for Office 365](safe-links.md)</li><li>[Microsoft Defender에서 금고 링크에 대한 전역 설정 Office 365](configure-global-settings-for-safe-links.md)</li></ul>|
 |**스팸 방지(메일 필터링)**|예|[EOP에서](protect-against-threats.md#part-3---anti-spam-protection-in-eop) 스팸 방지 보호 설정 구성에 설명된 기본 스팸 방지 정책 구성 <p> 추가 정보: <ul><li>[권장 스팸 방지 정책 설정](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)</li><li>[EOP의 스팸 방지 보호 기능](anti-spam-protection.md)</li><li>[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)</li></ul>|
 |***전자 메일 인증***|예|전자 메일 인증에서는 DNS 레코드를 사용하여 메시지 원본 및 보낸 사람에 대한 확인 가능한 정보를 전자 메일 메시지에 추가합니다. Microsoft 365 기본 도메인(onmicrosoft.com)에 대해 전자 메일 인증을 자동으로 구성하지만 Microsoft 365 사용자 지정 도메인에 대해 전자 메일 인증을 구성할 수도 있습니다. 세 가지 인증 방법이 사용됩니다. <ul><li>보낸 사람 정책 프레임워크(또는 SPF)</li><ul><li>설치에 대한 자세한 내용은 스푸핑을 Microsoft 365 SPF 설정을 [참조합니다.](set-up-spf-in-office-365-to-help-prevent-spoofing.md)</li></ul> <li>DomainKeys 식별 메일(DKIM)</li><ul><li>DKIM을 사용하여 사용자 지정 도메인에서 보낸 [아웃바운드 전자 메일의 유효성 검사를 참조하세요.](use-dkim-to-validate-outbound-email.md)</li><li>DKIM을 구성한 후 Microsoft 365 Defender 포털에서 사용하도록 설정합니다.</li></ul><li>도메인 기반 메시지 인증, 보고 및 적합성(DMARC)</li><ul><li>DMARC 설치의 경우 DMARC를 사용하여 에서 전자 [메일의 유효성을 Microsoft 365.](use-dmarc-to-validate-email.md)</li></ul></ul>|

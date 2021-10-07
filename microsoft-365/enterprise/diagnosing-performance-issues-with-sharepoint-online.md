@@ -7,7 +7,7 @@ ms.date: 7/9/2019
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - SPO_Content
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 3c364f9e-b9f6-4da4-a792-c8e8c8cd2e86
 description: 이 문서에서는 개발자 도구를 사용하여 SharePoint 일반적인 문제를 진단하는 Internet Explorer 방법을 보여줍니다.
-ms.openlocfilehash: 44e60a2144b1a9a8ecc9ef5572e5cfd988c4b8af
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5910e1164ffdf892ffc7252e0e887a6633598c3c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167375"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198520"
 ---
 # <a name="diagnosing-performance-issues-with-sharepoint-online"></a>SharePoint Online의 성능 문제 진단
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영하는 Office 365 AIP(Azure Information Protection)와 중국에서 고객을 위해 AIP를 구성하는 방법에 대해 자세히 설명합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 8b85ae43df31bb1947b841d616cc83c3a0b614e4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3235bf77ec8cd7be96910614bdde41fb60f9f556
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186764"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199240"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>21Vianet에서 Office 365 Azure Information Protection 지원
 
@@ -207,7 +207,7 @@ AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에�
       Set-AIPAuthentication -AppId <ID of the registered app> -AppSecret <client secret sting> -TenantId <your tenant ID> -DelegatedUser <Azure AD account>
       ```
 
-      예시:
+      예제:
 
       ```PowerShell
       $pscreds = Get-Credential CONTOSO\scanner
@@ -225,7 +225,7 @@ AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에�
 
 1. [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) cmdlet을 실행하여 기본 콘텐츠 검사 작업을 만들 수 있습니다.
 
-    **Set-AIPScannerContentScanJob** cmdlet의 유일한 필수 매개 변수는 **Enforce입니다.** 그러나 현재 콘텐츠 검색 작업의 다른 설정을 정의할 수 있습니다. 예시:
+    **Set-AIPScannerContentScanJob** cmdlet의 유일한 필수 매개 변수는 **Enforce입니다.** 그러나 현재 콘텐츠 검색 작업의 다른 설정을 정의할 수 있습니다. 예제:
 
     ```powershell
     Set-AIPScannerContentScanJob -Schedule Manual -DiscoverInformationTypes PolicyOnly -Enforce Off -DefaultLabelType PolicyDefault -RelabelFiles Off -PreserveFileDetails On -IncludeFileTypes '' -ExcludeFileTypes '.msg,.tmp' -DefaultOwner <account running the scanner>

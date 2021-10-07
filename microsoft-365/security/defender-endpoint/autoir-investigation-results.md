@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
 ms.author: josephd
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 49c5dcacc12e6811fa692aade9cf6d462fc963fe
-ms.sourcegitcommit: ea4bc3b005d86b029700e56015a47b8cc6dca2a1
+ms.openlocfilehash: e089a38d0a9abc6a6713b82a77d3678d781ed456
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58509884"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197080"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>자동화 조사 세부정보 및 결과 보기
 
@@ -51,7 +51,7 @@ ms.locfileid: "58509884"
 
 ### <a name="select-an-item-in-the-action-center"></a>작업 센터에서 항목 선택
 
-향상된 [알림](auto-investigation-action-center.md) 센터는 [](manage-auto-investigation.md#remediation-actions) 장치, 전자 메일 및 공동 작업 콘텐츠 및 & 수정 작업을 함께 제공합니다. 나열된 작업에는 자동으로 또는 수동으로 수행된 수정 작업이 포함됩니다. 작업 센터에서 승인을 대기하는 작업과 이미 승인되거나 완료된 작업을 볼 수 있습니다. 조사 페이지와 같은 자세한 정보로 이동할 수 있습니다.
+향상된 [알림](auto-investigation-action-center.md) 센터는 [](manage-auto-investigation.md#remediation-actions) 장치, 전자 메일 및 공동 작업 콘텐츠 및 & 수정 작업을 함께 제공합니다. 나열된 작업에는 자동으로 또는 수동으로 수행된 수정 작업이 포함됩니다. 알림 센터에서 승인 대기 중인 작업과 이미 승인되거나 완료된 작업을 볼 수 있습니다. 조사 페이지와 같은 자세한 정보로 이동할 수 있습니다.
 
 1. <https://security.microsoft.com>으로 이동하여 로그인합니다.
 2. 탐색 창에서 **작업 센터** 를 선택합니다.
@@ -84,7 +84,7 @@ ms.locfileid: "58509884"
 |Tab|설명|
 |---|---|
 |**조사 그래프**|조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다.  <p> 그래프에서 항목을 선택하여 세부 정보를 볼 수 있습니다. 예를 들어 증거  아이콘을 선택하면 검색된 엔터티와 해당 판정을 볼 수 있는 증거 탭으로 이동됩니다. |
-|**알람**|조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 장치의 위협 방지 기능, Office, 앱 및 기타 Cloud App Security 기능에서 Microsoft 365 Defender 있습니다.|
+|**알람**|조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 장치의 Office 앱, Cloud App Security, 기타 Microsoft 365 Defender 기능의 위협 방지 기능에서 발생할 수 있습니다.|
 |**장치**|조사에 포함된 장치를 수정 수준과 함께 나열합니다. 재구성 수준은 장치 그룹의 [자동화 수준에 해당합니다.](automation-levels.md)|
 |**사서함**|검색된 위협의 영향을 받는 사서함을 나열합니다.|
 |**사용자**|검색된 위협의 영향을 미치는 사용자 계정을 나열합니다.|

@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 Microsoft 365 Defender 포털의 메시지 추적 링크를 사용하여 메시지에 대해 어떻게 Microsoft 365 Defender 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f7b6f7b12086e46c6ad93b60e8c510ea533815a1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0a5a62c437581228fc17fa7af159583029ef42ec
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214355"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196504"
 ---
 # <a name="message-trace-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털의 메시지 추적
 

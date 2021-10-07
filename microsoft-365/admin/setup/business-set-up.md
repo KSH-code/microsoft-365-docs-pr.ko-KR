@@ -11,7 +11,7 @@ f1_keywords:
 - O365E_M365SetupBanner
 - BCS365_M365SetupBanner
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -31,12 +31,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 도메인 및 사용자 추가, Microsoft 365 Business Premium 정책 설정 등을 포함하여 사용자 지정에 대한 설정 단계를 검색합니다.
-ms.openlocfilehash: 3336b75e1810f5f1323e69d2a1ba7feee36ec7c8
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: 9c2c9da3e9427f77f067001c5f244e7c6d4e247f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786362"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196204"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 Microsoft 365 Business Premium 설정
 

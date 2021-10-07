@@ -7,7 +7,7 @@ ms.date: 6/5/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Azure ExpressRoute와 함께 Azure ExpressRoute를 Office 365 배포하는 경우 네트워크 구현 프로젝트를 계획합니다.
-ms.openlocfilehash: 599b1b6a40e8b74f7ca4e3ad90723f201b74592d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9a4f4be76751ec03610bd766f51ec91526ca18a4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192872"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198544"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Office 365용 Azure Express 경로
 
@@ -103,7 +103,7 @@ For expressRoute for Office 365, you'll need to work with one or more [approved 
 
 [ExpressRoute에](https://aka.ms/ert)등록할 준비가 Office 365?
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
 

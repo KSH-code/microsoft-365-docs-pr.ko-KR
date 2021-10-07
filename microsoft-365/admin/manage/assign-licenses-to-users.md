@@ -9,7 +9,7 @@ ms.reviewer: sinakassaw, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -25,12 +25,12 @@ ms.custom:
 search.appverid: MET150
 description: 제품 라이선스를 특정 사용자에게 할당할지 아니면 사용자 라이선스를 특정 제품에 할당할지 여부에 따라 라이선스를 할당합니다.
 ms.date: 09/16/2021
-ms.openlocfilehash: b9fb8a670b649437a894619369731a5085c36804
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: eb122a7bce8aba070bf50e4654a54db6c40a1157
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785942"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164551"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 

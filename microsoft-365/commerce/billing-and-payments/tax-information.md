@@ -9,7 +9,7 @@ ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ ms.custom:
 - commerce_billing
 - AdminTemplateSet
 ms.date: 03/17/2021
-ms.openlocfilehash: 2ea5db8cbd68a6c0dd600730fac408dc4bb75e2a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1d0c8c007a9e1e06980f06c7db0add1830c28ae0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219152"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198940"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -148,7 +148,7 @@ Microsoft Corporation에서 청구를 수행하고(송장 참조) 미국, Micros
 
 판매세는 단가에 대해 계산된 다음 집계됩니다.
 
-예시:
+예제:
 
 >*(단가 X 세율) X 수량 = 총 판매세*
 

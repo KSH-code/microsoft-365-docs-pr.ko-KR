@@ -8,7 +8,7 @@ manager: dansimp
 audience: Admin
 ms.topic: how-to
 ms.date: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 링크에 대한 전역 설정("다음 URL 차단" 목록 및 Office 365 앱 보호)을 보고 구성하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 099ff894cc350ecedbd7743ab348aede540874ab
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: cc3906f2645c9bdc78caeb5c2535e1b851538982
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219822"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199468"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크에 대한 전역 설정 Office 365
 
@@ -64,7 +64,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 링크의 전역 설정에 대한 권장 금고 링크 금고 [참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-settings)
 
@@ -82,7 +82,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
 
 3. "다음 URL 차단" 목록에 대한 항목 구문에 설명된 하나 이상의 항목을 [구성합니다.](safe-links.md#entry-syntax-for-the-block-the-following-urls-list)
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
 ### <a name="configure-the-block-the-following-urls-list-in-powershell"></a>PowerShell에서 "다음 URL 차단" 목록 구성
 
@@ -131,7 +131,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에�
 
    - 사용자가 Office 365 앱에서 원래 URL을 클릭할 수 있도록 합니다. 사용자가 지원되는 Office 365 앱에서 원래 차단된 **URL을** 클릭하지 못하게 차단하려면 토글이 오른쪽에 있는지 ![ 확인합니다. ](../../media/scc-toggle-on.png)
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
 ### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>PowerShell에서 금고 앱에 대한 Office 365 링크 보호 구성
 

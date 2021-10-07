@@ -9,18 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cd1588221d8058963e49013df06c238b2f4a72b0
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.date: 10/05/2021
+ms.openlocfilehash: c42e79317371419367cef5375f7f0aeaeba1fe1f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776935"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60184740"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -203,7 +204,7 @@ Microsoft Endpoint Manager 관리 센터( ) 장치 구성 프로필 프로필 �
 
 ## <a name="deploying-and-managing-policy-by-using-intune-user-interface"></a>Intune 사용자 인터페이스를 사용하여 정책 배포 및 관리
 
-이 기능(Microsoft Endpoint Manager 관리 센터에서) 장치 구성 프로필 만들기: Windows 10 이상 & 프로필: 장치 <https://endpoint.microsoft.com/> 제어)를 아직 사용할 수 \> \> \> \> 없습니다.
+이 기능은 Microsoft Endpoint Manager 관리 센터( )에서 사용할 수 <https://endpoint.microsoft.com/> 있습니다. **끝점 보안 공격 표면**  >  **축소 정책**  >  **만들기로 이동 합니다.** 플랫폼: **Windows 10** 이상 프로필: 장치 제어 **를 선택하세요.**
 
 ## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 장치 Storage 이동식 액세스 제어 데이터 보기
 
@@ -234,7 +235,7 @@ DeviceEvents
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면입니다.":::
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="what-is-the-removable-storage-media-limitation-for-the-maximum-number-of-usbs"></a>최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?
 

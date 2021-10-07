@@ -12,7 +12,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 ms.prod: m365-security
 ms.date: 01/29/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 287bd9cd4dda6ccb152e93908a409e036eab9cc7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0096cb5f8c0d878ecc888de74f1548c77ed0dda9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219905"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196648"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화된 조사 및 응답 기능에서 가짓 긍정/부정을 보고하는 방법
 
@@ -72,7 +72,7 @@ Microsoft Defender에서 전자 메일 Office 365, 전자 메일 첨부 파일, 
 
 ****
 
-|시나리오|옵션 취소|자세히 알아보기|
+|시나리오|옵션 취소|자세한 정보|
 |---|---|---|
 |전자 메일 메시지가 사용자의 정크 메일 폴더로 라우팅되었습니다.|<ul><li>메시지를 사용자의 지우기 항목 폴더로 이동</li><li>메시지를 사용자의 받은 편지함으로 이동</li><li>메시지 삭제</li></ul>|[전자 메일에서 배달된 악성 전자 메일을 찾아 Office 365](investigate-malicious-email-that-was-delivered.md)|
 |전자 메일 메시지 또는 파일이 고지된 경우|<ul><li>전자 메일 또는 파일 릴리스</li><li> 전자 메일 또는 파일 삭제</li></ul>|[관리자로 quarantined messages 관리](manage-quarantined-messages-and-files.md)|

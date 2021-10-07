@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -18,12 +18,12 @@ description: 전자 메일의 악성 금고 보호하기 위해 첨부 파일 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8fcfb578f69062d39caa44886b63a84e926f9635
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 2eefdbdfd9121bdc778425fe63ea35d3f97a4adc
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483366"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196444"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 첨부 파일 정책 설정 Office 365
 
@@ -73,7 +73,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
   **참고**:
 
   - Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 관리 센터 포털에서 필요한 사용 권한 및 Microsoft 365 Defender 포털의  다른 기능에 대한 사용 권한이 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 첨부 파일 정책에 대한 권장 금고 첨부 파일 금고 [참조하세요.](recommended-settings-for-eop-and-office365.md#safe-attachments-settings)
 
@@ -119,7 +119,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
      이러한 값은 첨부 파일 [정책 금고 설명되어 있습니다.](safe-attachments.md#safe-attachments-policy-settings)
 
-   - **Quarantine policy**: 금고 Attachments(차단, 바꾸기 또는 동적 배달)에 의해 검역되는 메시지에 적용되는 금고 **정책을 선택합니다.** Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+   - **Quarantine policy**: 금고 Attachments(차단, 바꾸기 또는 동적 배달)에 의해 검역되는 메시지에 적용되는 금고 **정책을 선택합니다.** Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
      값을 비워 두면 기본 검지 정책이 사용됩니다(첨부 파일에서 전자 메일 검색을 위한 AdminOnlyAccessPolicy를 금고). 나중에 첨부 파일 금고 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
 

@@ -9,7 +9,7 @@ metadata:
   ms.date: 
   audience: ITPro
   ms.topic: troubleshooting
-  localization_priority: Normal
+  ms.localizationpriority: medium
   search.appverid:
   - MET150
   ms.assetid: 
@@ -19,12 +19,12 @@ metadata:
   description: 관리자는 EOP(EOP)에서 스푸핑 방지 보호에 대한 질문과 대답을 Exchange Online Protection 있습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: cab4af2dd359b878cdf417a2378c05d2aa706107
-  ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+  ms.openlocfilehash: 5b3aea341b9b8c44329a614fbebb17d7656aa3f4
+  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/12/2021
-  ms.locfileid: "59218072"
+  ms.lasthandoff: 10/06/2021
+  ms.locfileid: "60196612"
 title: 스푸핑 방지 보호 기능 FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]

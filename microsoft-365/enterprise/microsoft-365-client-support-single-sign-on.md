@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 모든 플랫폼, 클라이언트 및 PowerShell 모듈에서 단일 로그인을 지원하는 플랫폼, 클라이언트 및 PowerShell 모듈에 대해 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 560196694e1c2aaf924e02a882e0c8a3454bf667
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0726ce603bdebc56a69fbf0dda308df9e9045e0d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215905"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197344"
 ---
 # <a name="microsoft-365-client-app-support-single-sign-on"></a>Microsoft 365 클라이언트 앱 지원: 단일 Sign-On
 

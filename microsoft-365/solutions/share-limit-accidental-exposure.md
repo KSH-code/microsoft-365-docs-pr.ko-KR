@@ -13,16 +13,16 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 ms.custom: ''
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords: NOCSH
 recommendations: false
 description: 파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한하는 방법을 알아보세요.
-ms.openlocfilehash: c3769239951b409afe7596b6f4fecf83c87a9131
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4c60f77f7f7807395a503ce083795e76398d99b4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192152"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196252"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한
 
@@ -36,7 +36,7 @@ ms.locfileid: "59192152"
 
 Anyone 링크는 가장 쉽게 공유하는 방법이며 사용자가 IT 부서의 통제 밖에 있는 다른 솔루션을 찾는 데 위험을 줄여주기에 *Anyone* 링크를 활성화 상태로 둘 것을 권장합니다. *Anyone* 링크는 다른 사용자에게 전달될 수 있지만 파일 액세스는 링크가 있는 사용자만할 수 있습니다.
 
-조직 외부의 사람들이 SharePoint, 그룹 또는 팀의 콘텐츠에 액세스할 때 항상 인증을 하게 하려면 *모든 사용자* 공유를 해제합니다. 이렇게 하면 사용자가 인증되지 않은 콘텐츠를 공유할 수 없게 됩니다.
+조직 외부의 사람들이 SharePoint, 그룹스 또는 팀의 콘텐츠에 액세스할 때 항상 인증을 받도록 하려면 *모든 사용자* 공유를 끌 수 있습니다. 이렇게 하면 사용자가 인증되지 않은 콘텐츠 공유를 방지할 수 있습니다.
 
 *모든 사용자* 링크를 비활성화하는 경우 사용자는 여전히 *특정 사용자* 링크를 사용하여 쉽게 게스트와 공유할 수 있습니다. 이 경우 조직 외부의 모든 사람이 공유 콘텐츠에 액세스를 하려면 먼저 인증을 해야합니다.
 
@@ -94,7 +94,7 @@ SharePoint 및 OneDrive 보다 상위 수준에서 도메인 별로 공유를 �
 
     ![보안 그룹 관리 패널의 스크린샷.](/sharepoint/sharepointonline/media/manage-security-groups.png)
 
-4. **보안 그룹 추가** 상자에서 보안 그룹의 이름을 입력합니다. 보안 그룹 상자가 나타납니다.
+4. **보안 그룹 추가** 상자에 보안 그룹의 이름을 입력합니다. 보안 그룹 상자가 나타납니다.
 
 5. 보안 그룹 이름 옆에 있는 **공유 가능 대상** 드롭다운에서 다음 중 하나를 선택합니다.
 
