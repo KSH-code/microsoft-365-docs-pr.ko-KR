@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 69f96b4393a25e57fcbfd2e9adfbd652a5aa191d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8c35f6c399e7668883b5b276fffd56f162984669
+ms.sourcegitcommit: f6cb10b1dc4b679b7890d059f7242870fc40b9f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60211124"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60225023"
 ---
 # <a name="manage-indicators"></a>지표 관리
 
@@ -64,14 +64,19 @@ indicatorType|Enum|표시기 유형입니다. 가능한 값은 "FileSha1", "File
 indicatorValue|String|Indicator [엔터티의 ID입니다.](ti-indicator.md) **필수**
 조치|Enum|표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Alert", "AlertAndBlock" 및 "Allowed"입니다. **필수**
 title|String|표시기 경고 제목입니다. **필수**
-설명|String| 표시기 설명입니다. **필수**
-expirationTime|DateTimeOffset|YYYY-MM-DDTHH:MM:SS.0Z 형식의 표시기 만료 시간입니다. **선택**
-심각도|Enum|표시기 심각도입니다. 가능한 값은 "정보", "낮음", "중간" 및 "높음"입니다. **옵션**
-recommendedActions|String|TI 표시기 경고 권장 작업. **선택**
+description|String| 표시기 설명입니다. **필수**
+expirationTime|DateTimeOffset|YYYY-MM-DDTHH:MM:SS.0Z 형식의 표시기 만료 시간입니다. **옵션**
+심각도|Enum|표시기 심각도입니다. 가능한 값은 "정보", "낮음", "중간" 및 "높음"입니다. **선택**
+recommendedActions|String|TI 표시기 경고 권장 작업. **옵션**
 rbacGroupNames|String|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **옵션**
-category|String|경고 범주입니다. 예로는 실행 및 자격 증명 액세스가 있습니다. **선택**
+category|문자열|경고 범주입니다. 예로는 실행 및 자격 증명 액세스가 있습니다. **선택**
 mitretechniques|String|MITRE 기술 코드/id(콤보로 구분) 자세한 내용은 전략 [Enterprise 참조하세요.](https://attack.mitre.org/tactics/enterprise/) **선택 사항** MITRE 기술을 사용할 때 범주에 값을 추가하는 것이 좋습니다.
+GenerateAlert|String|경고를 생성해야 하는지 여부입니다. 가능한 값은 True 또는 False입니다. **선택**
 
+
+
+> [!NOTE]
+> IP 주소에 Inter-Domain CIDR(Classless Inter-Domain Routing) 상용화는 지원되지 않습니다.
 자세한 내용은 끝점용 Microsoft Defender 경고 범주가 [이제 MITRE ATT 및 CK에&참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-atp-alert-categories-are-now-aligned-with/ba-p/732748)
 
 ## <a name="see-also"></a>참고 항목
