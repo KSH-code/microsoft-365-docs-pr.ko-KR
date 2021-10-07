@@ -7,7 +7,7 @@ ms.date: 04/10/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - SPO_Content
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c932bd9b-fb9a-47ab-a330-6979d03688c0
 description: 이 문서에서는 허용되지 않는 기존 부하 테스트를 수행하지 않고 SharePoint Online에 배포하는 방법을 설명합니다.
-ms.openlocfilehash: fb54864168b35fed290ccb1139cb6c607969820d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f9bf4c508e862d9d99bac2935cfea32878a93762
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216075"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172026"
 ---
 # <a name="capacity-planning-and-load-testing-sharepoint-online"></a>Capacity planning and load testing SharePoint Online(용량 계획과 부하 테스트가 가능한 SharePoint Online)
 이 문서에서는 기존 부하 테스트 없이 SharePoint Online에 배포할 수 있는 방법에 대해 설명합니다. 이는 SharePoint Online에서 부하 테스트가 허용되지 않습니다. SharePoint 온라인은 클라우드 서비스로, 서비스의 부하 기능, 상태 및 전반적인 부하 잔액은 Microsoft에서 관리합니다.

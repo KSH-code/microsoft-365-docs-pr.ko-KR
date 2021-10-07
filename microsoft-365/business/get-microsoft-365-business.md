@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 파트너 센터에서 구매하기 위한 Microsoft 365 Business Premium 및 단계별 지침을 검색합니다.
-ms.openlocfilehash: 9e88229f22bdfbfc0b363b5bf56ed2def4db9b8c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f22fc831cb52e23a61e64950a2b9396d85a15dca
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188755"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60175662"
 ---
 # <a name="get-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 받기
 

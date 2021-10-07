@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd6b7587-5055-4bcd-83a4-13bd4929bfff
 description: 고객이 온라인으로 약속을 예약할 때 고객에게 질문을 해야 하는 경우 예약 페이지에 사용자 지정 질문과 필요한 질문을 추가할 수 있습니다.
-ms.openlocfilehash: 496d395677d272c436504bfe43b3c42833e3a73e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d7d997ff02e2a6b8d849cb50014924733bac8e32
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212882"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173970"
 ---
 # <a name="add-custom-and-required-questions-to-the-booking-page"></a>예약 페이지에 사용자 정의 및 필수 질문 추가
 

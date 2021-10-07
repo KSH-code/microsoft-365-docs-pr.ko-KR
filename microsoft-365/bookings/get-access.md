@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5382dc07-aaa5-45c9-8767-502333b214ce
 description: Microsoft 365.
-ms.openlocfilehash: 151534c2ba2effc265c8d836240a81ce88a17403
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f77a2b63b9c8ce88b1f9f7236f748713656d688e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186507"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173946"
 ---
 # <a name="get-access-to-microsoft-bookings"></a>Microsoft Bookings에 액세스하기
 

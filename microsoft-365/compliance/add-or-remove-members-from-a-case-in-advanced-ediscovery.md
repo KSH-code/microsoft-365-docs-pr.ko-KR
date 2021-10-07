@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 사례를 관리할 때 사례에 액세스할 수 있는 구성원을 추가하거나 제거하는 방법을 Advanced eDiscovery 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fbd3700a74da8975f46174405c73511d16af3b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3571adf6c9bbba791ba5d76f4eba5428dc9f453c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217032"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60175470"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>케이스에서 구성원 추가 또는 제거
 

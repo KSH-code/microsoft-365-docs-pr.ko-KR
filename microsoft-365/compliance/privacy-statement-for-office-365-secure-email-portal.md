@@ -9,19 +9,19 @@ ms.date: 10/12/2018
 audience: End User
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: 278917cd-a930-46cc-9580-6b9d2361a5f9
 ms.collection:
 - M365-security-compliance
 description: 'Last Updated: May 2017'
-ms.openlocfilehash: ac7bc50b621930244e7e549c27489436c4bbf6a19302c3cd16310d9f69108b1b
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: b881c1e73955ee83f49f8f326f1a184cced46a1f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53895298"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172266"
 ---
 # <a name="privacy-statement-for-secure-email-portal"></a>보안 전자 메일 포털에 대한 개인 정보 취급 방침
 
@@ -37,7 +37,7 @@ Microsoft 계정, 직장 또는 학교 계정 또는 Gmail 계정과 일회용 �
   
 암호 해독 프로세스 중에 수신하는 암호화된 메일은 새 OME 기능 포털에 저장되지 않습니다. 새 OME 기능 포털 외부로 전송되지는 않습니다.
   
-새 OME 기능 포털은 경우에 따라 이 및 기타 Microsoft 앱의 품질, 보안 및 무결성을 개선하기 위해 집계하여 분석할 수 있는 새 OME 기능의 사용 및 성능(예: 암호화된 메시지를 보는 방법, 브라우저 또는 앱, 발생하는 오류)에 대한 데이터 포인트를 수집할 수 있습니다. , 제품 또는 서비스. 이 정보는 식별, 연락처 또는 광고 대상 지정에 사용되지 않습니다.
+새 OME 기능 포털은 경우에 따라 이 및 기타 Microsoft 앱의 품질, 보안 및 무결성을 개선하기 위해 집계하여 분석할 수 있는 새 OME 기능의 사용 및 성능(예: 암호화된 메시지를 보는 방법, 브라우저 또는 앱, 발생하는 오류)에 대한 데이터 포인트를 수집할 수 있습니다.  제품 또는 서비스. 이 정보는 식별, 연락처 또는 광고 대상 지정에 사용되지 않습니다.
   
 ## <a name="for-more-information"></a>자세한 내용
 

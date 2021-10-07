@@ -13,7 +13,7 @@ f1_keywords:
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 recommendations: false
 description: 보안 및 준수 센터의 DLP(데이터 손실 방지) 정책 템플릿에 Office 365 & 대해 자세히 알아보습니다.
-ms.openlocfilehash: afcc641e6e868c1988f6b30a286c082e960d056c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ddeebc3cfeb2668cfb0d376a4ca8c9f92bfe36f6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216105"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172230"
 ---
 # <a name="what-the-dlp-policy-templates-include"></a>DLP 정책 템플릿에 포함되는 내용
 

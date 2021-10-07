@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: medium
 description: Microsoft SharePoint Syntex에서 설명 서식 파일을 사용하고 저장하는 방법에 대해 자세히 알아봅니다.
-ms.openlocfilehash: bad0db7c9ef6eb26904b345120be336830e90d10
-ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
-ms.translationtype: HT
+ms.openlocfilehash: 87d151a3dc0863b880515abb6ee59d3691d9e4c6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "60088418"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172242"
 ---
 # <a name="use-explanation-templates-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 설명 서식 파일 사용
 

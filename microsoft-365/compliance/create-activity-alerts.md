@@ -9,7 +9,7 @@ ms.date: 11/7/2017
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MED150
@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자가 특정 활동을 수행할 때 Microsoft 365 규정 준수 센터 전자 메일 알림을 Microsoft 365 수 있도록 메일 메시지에서 활동 경고를 추가 및 관리합니다.
-ms.openlocfilehash: 85362983749659bd6193e59b85e1d8f9eddaf83e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 84f2835d9b409b29042981ff0e1254c686aaf798
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189822"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172530"
 ---
 # <a name="create-activity-alerts"></a>활동 알림 만들기
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.date: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
+ms.localizationpriority: medium
 ROBOTS: ''
 description: Microsoft Teams 솔루션을 사용하여 계약 관리 채널을 만드는 Microsoft 365 대해 자세히 알아보십시오.
-ms.openlocfilehash: bafce28689e4340c3ff73694d150bac294a95b5a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a5a42bedcb6acba4caf8f6f114812c63869ee92e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189722"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172122"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>2단계. 이 Microsoft Teams 사용하여 계약 관리 채널 만들기
 
@@ -45,13 +45,13 @@ ms.locfileid: "59189722"
 ## <a name="customize-your-contracts-tab-tile-view"></a>계약 탭 타일 보기 사용자 지정
 
 > [!NOTE]
-> 이 섹션에서는 계약 관리 솔루션 [](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 자산 리포지토리에ContractTileFormatting.js파일에 포함된 코드 [예제를 참조합니다.](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management)
+> 이 섹션에서는 계약 관리 솔루션 자산 리포지토리에 포함된 [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 파일에 포함된 코드 [예제를 참조합니다.](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management)
 
 타일 Teams 보기에서 계약을 볼 수 있도록 하는 동안 계약 카드에 표시하려는 계약 데이터를 보게 계약 데이터를 사용자 지정할 수 있습니다. 예를 들어 계약  탭의 경우 구성원은 계약 카드에서 클라이언트, 계약자 및 수수료 금액을 보는 것이 중요합니다. 이러한 필드는 모두 문서 라이브러리에 적용된 SharePoint Syntex 모델을 통해 각 계약에서 추출되었습니다. 또한 구성원이 승인 프로세스에서 계약의 위치를 쉽게 확인할 수 있도록 각 상태에 대해 타일 헤더 막대를 다른 색으로 변경할 수 있습니다. 예를 들어 승인된 모든 계약에는 파란색 헤더 표시줄이 있습니다.
 
    ![라이브러리의 SharePoint 보기입니다.](../media/content-understanding/tile.png)
 
-사용하는 사용자 지정 타일 보기를 사용하려면 현재 타일 보기의 서식을 지정하는 데 사용되는 JSON 파일을 변경해야 합니다. 파일에서 카드 보기를 만드는 데 사용되는 JSON 파일을 [ 참조할ContractTileFormatting.js](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 있습니다. 다음 섹션에서는 계약 카드에 있는 기능에 대한 코드의 특정 섹션을 볼 수 있습니다.
+사용하는 사용자 지정 타일 보기를 사용하려면 현재 타일 보기의 서식을 지정하는 데 사용되는 JSON 파일을 변경해야 합니다. [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 파일을 보고 카드 보기를 만드는 데 사용되는 JSON 파일을 참조할 수 있습니다. 다음 섹션에서는 계약 카드에 있는 기능에 대한 코드의 특정 섹션을 볼 수 있습니다.
 
 Teams 채널의 보기에 대한 JSON 코드를 보거나 변경하려면 Teams 채널에서 보기 드롭다운 메뉴를 선택한 다음 현재 보기 서식을 **선택합니다.**
 
@@ -59,7 +59,7 @@ Teams 채널의 보기에 대한 JSON 코드를 보거나 변경하려면 Teams 
 
 ## <a name="card-size-and-shape"></a>카드 크기 및 모양
 
-in the [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) file, look at the following section to see the code for how the size and shape of the card is formatted.
+[ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 파일에서 다음 섹션에서 카드의 크기와 모양의 형식을 지정하는 방법에 대한 코드를 살펴 봐야 합니다.
 
 ```JSON
                   {
@@ -84,7 +84,7 @@ in the [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/
 
 ## <a name="contract-status"></a>계약 상태
 
-다음 코드에서는 각 제목 카드의 상태를 정의할 수 있습니다. 각 상태 값(새 *상태,* 검토 중, 승인됨 및 거부됨)에는 각각 다른 색 코드가 표시됩니다.  파일 [ContractTileFormatting.js상태를](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 정의하는 섹션을 살펴 봐야 합니다.
+다음 코드에서는 각 제목 카드의 상태를 정의할 수 있습니다. 각 상태 값(새 *상태,* 검토 중, 승인됨 및 거부됨)에는 각각 다른 색 코드가 표시됩니다.  [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 파일에서 상태를 정의하는 섹션을 살펴 봐야 합니다.
 
 ```JSON
           {
@@ -108,7 +108,7 @@ in the [ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/
 
 각 계약 카드에는 각 계약에 대해 추출된 세 개의 필드(클라이언트,계약자 및 수수료 금액)가 *표시됩니다.* 또한 파일을 식별하는 데 사용되는 SharePoint Syntex/날짜를 표시해야 합니다.
 
-파일 [ContractTileFormatting.js](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 다음 섹션에서는 이러한 각 섹션을 정의합니다.
+[ContractTileFormatting.json](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) 파일에서 다음 섹션에서는 이러한 각 섹션을 정의합니다.
 
 ### <a name="client"></a>클라이언트
 

@@ -7,7 +7,7 @@ ms.date: 07/27/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: Ent_O365
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 264f4f0d-e2cd-44da-a9d9-23bef250a720
 description: 이 문서에서는 PowerShell을 사용하여 사용자에 대한 Microsoft 365 액세스를 사용하지 않도록 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 7caab5fc6bc4522f210d788d0293c4594997f13d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bce02c40bf6ca99d74b8747fb0c5eb5c0b485888
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167354"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173466"
 ---
 # <a name="disable-access-to-microsoft-365-services-with-powershell"></a>PowerShell을 Microsoft 365 서비스에 액세스하지 않도록 설정
 
@@ -66,10 +66,10 @@ Get-MsolAccountSku | Select AccountSkuId | Sort AccountSkuId
   
 특정 라이선스 계획에 Microsoft 365 사용자에 대해 특정 Microsoft 365 서비스 집합을 사용하지 않도록 설정하기 위해 다음 단계를 수행합니다.
   
-#### <a name="step-1-identify-the-undesirable-services-in-the-licensing-plan-by-using-the-following-syntax"></a>1단계: 다음 구문을 사용하여 라이선스 계획에서 바람직하지한 서비스를 식별합니다.
+#### <a name="step-1-identify-the-undesired-services-in-the-licensing-plan-by-using-the-following-syntax"></a>1단계: 다음 구문을 사용하여 라이선싱 계획에서 원하지하는 서비스를 식별합니다.
     
 ```powershell
-$LO = New-MsolLicenseOptions -AccountSkuId <AccountSkuId> -DisabledPlans "<UndesirableService1>", "<UndesirableService2>"...
+$LO = New-MsolLicenseOptions -AccountSkuId <AccountSkuId> -DisabledPlans "<UndesiredService1>", "<UndesiredService2>"...
 ```
 
 다음 예제에서는 이름이 E3인 라이선스 계획에서 Office 및 SharePoint Online 서비스를 사용하지 않도록 설정하는 **LicenseOptions** 개체를 Office 365 Enterprise `litwareinc:ENTERPRISEPACK` 만듭니다.

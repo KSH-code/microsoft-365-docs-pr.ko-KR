@@ -2,15 +2,13 @@
 title: Mac에서 끝점용 Microsoft Defender 업데이트 배포
 description: 엔터프라이즈 환경에서 Mac의 끝점용 Microsoft Defender에 대한 업데이트를 제어합니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 업데이트, 배포
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ae8909f2533394e347a1885f2fb1354f6ce4cfae
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b2abd270aeee07e84cf31711494d68ca15885515
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214972"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60174678"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -142,7 +140,7 @@ MAU에서 업데이트를 검색하는 방법을 변경합니다.
 |**도메인**|`com.microsoft.autoupdate2`|
 |**키**|EnableCheckForUpdatesButton|
 |**Data type**|부울|
-|**사용 가능한 값:**|True(기본값) <p> 거짓|
+|**사용 가능한 값:**|True(기본값) <p> False|
 |||
 
 ### <a name="disable-insider-checkbox"></a>내부자 사용 안함 확인란
@@ -174,7 +172,7 @@ false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 
 |**도메인**|`com.microsoft.autoupdate2`|
 |**키**|SendAllTelemetryEnabled|
 |**Data type**|부울|
-|**사용 가능한 값:**|True(기본값) <p> 거짓|
+|**사용 가능한 값:**|True(기본값) <p> False|
 |||
 
 ## <a name="example-configuration-profile"></a>구성 프로필 예제

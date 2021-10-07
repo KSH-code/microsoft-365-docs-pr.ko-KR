@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-localization_priority: medium
+ms.localizationpriority: medium
 description: Viva 항목을 사용하여 조직의 여러 항목을 관리하는 모범 사례에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e076c8a29070fbfe0db5e21bbca842716afe69fd
-ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
+ms.openlocfilehash: f1e5a284d94f1afc2c67882a7fd24def7718e5ba
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60126821"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173250"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>항목의 규모에 따라 Microsoft Viva 관리
 

@@ -9,18 +9,18 @@ ms.date: 04/26/2021
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 8831293d1b17649ae387aab9ab99063ba31bef15
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2801840e0329233ad79abdae607b81094db5e282
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189612"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173310"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 및 Office 365 배포 랩 키트
 
@@ -59,12 +59,12 @@ Windows 10 및 Office 365 랩 키트는 배포 및 배포가 실행되는 데스
 - Desktop Analytics
 - 클라우드 배포 & 클라우드 관리 게이트웨이
 - 새로운 기능! 테넌트 연결 및 공동 관리
-- 새로운 기능! 끝점 분석
+- 새로운 기능! 엔드포인트 분석
 - VPN(원격 액세스)
 
 ### <a name="prepare-configuration"></a>구성 준비
 
-- 업데이트 Windows 10 최적화
+- Windows 10 업데이트 제공 최적화
 - 그룹 정책을 Windows 10 서비스 서비스
 - 서비스 Windows 10 사용하여 Microsoft Intune
 - Configuration Manager를 Windows 10 서비스

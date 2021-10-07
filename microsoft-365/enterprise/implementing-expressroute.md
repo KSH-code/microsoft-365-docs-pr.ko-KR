@@ -7,7 +7,7 @@ ms.date: 12/5/2017
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: 여러 인터넷 연결 서비스로의 대체 라우팅 경로를 제공하는 Office 365 ExpressRoute를 구현하는 Office 365 알아보습니다.
-ms.openlocfilehash: 66ff6157c8f2fb28b1a57af42295a6ba0ed93dad
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 574704fa52c556eed6550a25ec33c53a65dbcde4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215995"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173454"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>Office 365용 ExpressRoute 구현
 
@@ -573,7 +573,7 @@ ExpressRoute 연결을 사용하여 Office 365 배포하는 동안 ExpressRoute�
   
 다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/implementexpressroute365]()
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
   

@@ -7,7 +7,7 @@ ms.date: 11/14/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 이러한 TLG(테스트 랩 가이드)를 사용하여 TLG에 대한 데모, 개념 증명 또는 개발/테스트 환경을 Microsoft 365.'
-ms.openlocfilehash: a7dc8c4e731b03733b200b8750cc6157eb44a9c2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 802c606375ff6bfd4f2a7d7e1a36301c94bf3b37
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192849"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60174918"
 ---
 # <a name="test-microsoft-365-with-test-lab-guides-tlgs"></a>테스트 Microsoft 365(테스트 랩 가이드)
 

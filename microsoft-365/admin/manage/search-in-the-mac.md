@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - Adm_TOC
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 더 빠르고 나은 결과를 위해 관리 센터에서 검색 기능을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: c530d3e041800ef2e9b0c36169ec15366b9b3b1d
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: 026fe9ed40f44f01a056cc7c6af281c5ce46c6c1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786038"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60171870"
 ---
 # <a name="search-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 검색
 
@@ -35,7 +35,7 @@ ms.locfileid: "59786038"
 
 다음 섹션에서는 관리 센터에서 검색 가능한 다양한 영역 및 범주에 대해 설명합니다.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 관리 센터에서 검색하려면 관리자 권한이 필요합니다. 검색 결과는 로그인한 사용자가 가지는 관리자 권한으로 범위가 지정됩니다. 예를 들어 SharePoint 센터에 영역이나 범주가 없는 경우 검색에 해당 영역이 표시되지 않습니다.
 

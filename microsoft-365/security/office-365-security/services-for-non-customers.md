@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
@@ -17,12 +17,12 @@ ms.collection:
 description: 전자 메일 사용에 대한 사용자 신뢰를 유지하기 위해 Microsoft는 사용자를 보호하는 데 도움이 되는 다양한 정책 및 기술을 제공했습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9bed3c24fee91d746957a6418e5f5ea61babef6b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2894d565a08cf500199b123a0acd738de129faf0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185547"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60174186"
 ---
 # <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>고객이 아닌 고객이 메일로 메일을 보내는 Microsoft 365
 

@@ -7,7 +7,7 @@ ms.date: 8/4/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
 description: 이 문서에서는 연결 연결을 모니터링하고 유지 관리하는 데 사용할 수 있는 도구와 기술을 Microsoft 365 있습니다.
-ms.openlocfilehash: d6e93f4669bb14736d78a30ece095623edb67136
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 783278ad69fbe47afd6ea85fdb70c8bb0057005c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212565"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173262"
 ---
 # <a name="monitor-microsoft-365-connectivity"></a>Microsoft 365 연결 모니터링
 

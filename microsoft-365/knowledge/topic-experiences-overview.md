@@ -12,14 +12,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-localization_priority: None
+ms.localizationpriority: medium
 description: 조직에서 Viva 항목을 사용하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 902628d53f651073b1d08ce3f1915808da22b03f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9b719c77a54271078bf2ee80f657352a84d9713b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189542"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173214"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva 주제 개요 
 

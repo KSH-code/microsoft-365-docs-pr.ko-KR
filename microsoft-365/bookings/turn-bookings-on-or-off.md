@@ -7,15 +7,15 @@ audience: Admin
 ms.topic: article
 ms.service: bookings
 ms.custom: admindeeplinkMAC
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5382dc07-aaa5-45c9-8767-502333b214ce
 description: Microsoft Bookings에서 Microsoft Bookings에 액세스하는 방법을 Microsoft 365.
-ms.openlocfilehash: a5c5e0bbac10352d3e526bbde88db66e6a253e28
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8a92f156406a7c3aa4539036ae31d883a6db766f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212875"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173910"
 ---
 # <a name="turn-microsoft-bookings-on-or-off"></a>Microsoft Bookings 설정 또는 해제
 

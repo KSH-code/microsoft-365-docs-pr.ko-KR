@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -17,31 +17,31 @@ search.appverid:
 ms.assetid: ''
 description: 프레젠테이션 또는 외부 검토에 대한 Advanced eDiscovery 콘텐츠 선택 및 내보내기 방법에 대해 자세히 알아보겠습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5021428dc1ee82b5fb0aeed58d4e055710dec2ef
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dba9708bfda6d1b98a2861615e56518067822100
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191562"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60175170"
 ---
 # <a name="export-documents-from-a-review-set-in-advanced-ediscovery"></a>문서의 검토 집합에서 Advanced eDiscovery
 
 내보내기에서는 사용자가 다운로드 패키지의 검토 집합에서 문서를 내보낼 때 다운로드 패키지에 포함된 콘텐츠를 사용자 지정할 수 Advanced eDiscovery.
 
-검토 집합에서 문서를 내보내는 경우:
+검토 집합에서 문서 내보내기
 
 1. 다음 Microsoft 365 규정 준수 센터 사례를 Advanced eDiscovery 검토 집합 탭을 선택한  다음 내보낼 검토 집합을 선택합니다.
 
 2. 검토 집합에서 작업 **내보내기 를**  >  **클릭합니다.**
 
-   내보내기 도구에는 내보내기 구성 설정이 있는 플라이아웃 페이지가 표시됩니다. 일부 옵션은 기본적으로 선택되지만 변경할 수 있습니다. 구성할 수 있는 내보내기 옵션에 대한 설명은 다음 섹션을 참조하세요.
+   내보내기 도구는 내보내기를 구성하는 설정이 있는 플라이아웃 페이지를 표시합니다. 일부 옵션은 기본적으로 선택되지만 변경할 수 있습니다. 구성할 수 있는 내보내기 옵션에 대한 설명은 다음 섹션을 참조하세요.
 
    ![검토 집합에서 항목을 내보내기 위한 구성 옵션입니다.](../media/bcfc72c7-4a01-4697-9e16-2965b7f04fdb.png)
 
 3. 내보내기 구성 후 **내보내기** 를 클릭하여 내보내기 프로세스를 시작 합니다. 출력 옵션 섹션에서 선택한  옵션에 따라 직접 다운로드 또는 조직의 Azure Storage 액세스할 수 있습니다.
 
 > [!NOTE]
-> 내보내기 작업은 사례의 수명 동안 유지됩니다. 그러나 내보내기 작업이 완료된 후 30일 이내에 내보내기 작업에서 콘텐츠를 다운로드해야 합니다.
+> 내보내기 작업은 케이스 수명 동안 유지됩니다. 그러나 내보내기 작업이 완료된 후 30일 이내에 내보내기 작업에서 콘텐츠를 다운로드해야 합니다.
 
 ## <a name="export-options"></a>내보내기 옵션
 

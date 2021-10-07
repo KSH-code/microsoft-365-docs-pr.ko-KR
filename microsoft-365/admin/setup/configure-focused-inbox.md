@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -22,16 +23,16 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 비즈니스 내 모든 사용자의 전자 메일 설정 구성 책임을 맡고 있다면 이 문서에서 사용자의 중요 받은 편지함 구성 방법에 대해 알아보세요.
-ms.openlocfilehash: 0b9a48a394f563d897217599daa2c1836e920d1e
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: b2c315b6fb4a4c80f245bcf4731b93996753586a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774403"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176094"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 
-회사의 모든 사용자에 대해 전자 메일 작동 방법을 구성해야 하는 경우 이 문서를 참조하세요. 이 문서에서는 해당 비즈니스에 맞게 이러한 구성을 사용자 지정하거나 끄는 방법을 설명하고 [자주하는 질문](#faq-for-focused-inbox)에 대답합니다.
+비즈니스의 모든 사람에게 이메일 작동 방법을 구성하는 책임이 있는 경우 이 문서가 적합합니다! 이 문서는 이메일을 비즈니스에 맞게 사용자 지정하거나 해제하는 방법을 설명하고 [자주 묻는 질문](#faq-for-focused-inbox)에 대한 답변을 제공합니다.
 
 자신의 중요 받은 편지함을 끄려면 [중요 받은 편지함 끄기](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2)를 참조하세요.  
 
@@ -90,7 +91,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
   
 ## <a name="turn-focused-inbox-on-or-off-for-specific-users"></a>특정 사용자에 대해 중요 받은 편지함 켜기 또는 끄기
 
-이 예제에서는 Contoso 조직의 Tim Matthews에 대해 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 Tim Matthews의 기능 사용 가능성은 차단되지 않습니다. 원한다면 각 클라이언트에 대한 중요 받은 편지함을 다시 사용하도록 설정할 수도 있습니다. 
+이 예제에서는 Contoso 조직의 Tim Matthews에 대해 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 Tim Matthews의 기능 사용 가능성은 차단되지 않습니다. Tim Matthews가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
   
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
@@ -122,7 +123,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 
-2. **메일 흐름** \> **규칙** 으로 이동합니다. ![EAC 추가 아이콘](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif)을 선택합니다. 그런 다음 **새 규칙 만들기** 를 선택합니다. 
+2. **메일 흐름** \>규칙 **으로 이동합니다.** EAC 추가 아이콘![을 선택합니다. ](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif)한 다음 **새 규칙 만들기...** 를 선택합니다. 
 
 3. 새 규칙 만들기가 완료되면 **저장** 을 선택하여 해당 규칙을 시작합니다.
 
@@ -146,8 +147,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
     ```
 
 > [!IMPORTANT]
-> 이 예제에서 "X-MS-Exchange-Organization-BypassFocusedInbox" 및 "true" 모두 대소문자를 구분합니다.
-> 또한 중요 받은 편지함은 낮은 우선 순위 메일을 바이패스하는 X-헤더를 준수하므로 낮은 우선 순위 메일에서 이 설정을 사용하는 경우 중요 받은 편지함에서 사용됩니다. 자세한 구문 및 매개변수 정보 [New-TransportRule](/powershell/module/exchange/new-transportrule)을 참조하세요.
+> 이 예제에서 "X-MS-Exchange-Organization-BypassFocusedInbox" 및 "true" 모두 대소문자를 구분합니다. 또한 중요 받은 편지함은 낮은 우선 순위 메일을 바이패스하는 X-헤더를 준수하므로 낮은 우선 순위 메일에서 이 설정을 사용하는 경우 중요 받은 편지함에서도 사용됩니다. 자세한 구문 및 매개 변수 정보는 [New-TransportRule](/powershell/module/exchange/new-transportrule)을 참조하세요.
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 

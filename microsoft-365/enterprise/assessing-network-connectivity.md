@@ -7,7 +7,7 @@ ms.date: 6/23/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 64b420ef-0218-48f6-8a34-74bb27633b10
 description: Microsoft 365 인터넷 연결을 사용하여 전 세계 고객이 서비스에 연결할 수 있도록 합니다. 서비스가 발전함에 따라 Microsoft 365 인터넷을 사용하여 서비스에 대한 연결을 설정하는 고객을 기반으로 보안, 성능 및 안정성이 향상됩니다.
-ms.openlocfilehash: 4d80bdf5642b2456ac8293291c720429f7f18fb1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2f982bbce4786c69034560276e5aceebaa575a00
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213895"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172038"
 ---
 # <a name="assessing-microsoft-365-network-connectivity"></a>Microsoft 365 네트워크 연결 평가
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 랜섬웨어를 방지하기 위한 전자 메일 규칙을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 96822916753f2f70d481c213e7e31046f7081446
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f76d9883ef2d22803867da267f48760ec8894f99
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190509"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172746"
 ---
 # <a name="create-email-rules-to-prevent-ransomware"></a>랜섬웨어를 방지하기 위한 전자 메일 규칙 만들기
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 보다 복잡한 설정 및 작업에 Microsoft 365 대시보드 보기를 관리하려면 이 보기의 간소화된 보기를 사용합니다.
-ms.openlocfilehash: d1f187f7ab3f7fdad53727a3cd74e2543c3cbcef
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: 37ec045db118dc0508a47dc8d4cfa6fc90e7af42
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786374"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60171306"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 개요
 
@@ -118,7 +118,7 @@ To get to the Microsoft 365 관리 센터, go to [admin.microsoft.com,](https://
 
 관리 센터에서 모든 페이지의 맨 아래에 있는 도움이  **필요하세요?** 단추 옆에 있는 피드백 보내기 단추를 선택하여 사용자 환경과 관련한 Microsoft 피드백을 제공하면 됩니다. 원하는 것을 말하고 더 나은 작업을 알려 주시고. 또한 전체 노출 또는 새로 릴리스된 특정 경험에 대해 묻는 팝업 설문 조사를 수시로 받을 수 있습니다. 이 문서의 끝부분에서 이 정보가 도움이 었습니까?를 선택하여 **피드백을 줄 수 있습니다.**
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 여기에 답변된 질문이 없는가요? 이 페이지 **아래쪽의** 피드백 섹션으로 이동하여 질문을 합니다.
 

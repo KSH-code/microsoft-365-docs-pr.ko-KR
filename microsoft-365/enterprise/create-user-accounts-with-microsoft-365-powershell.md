@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: Ent_O365
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: PowerShell을 사용하여 사용자 계정을 개별적으로 또는 여러 개 Microsoft 365 방법
-ms.openlocfilehash: c096b5b4966bfde9973173b9a0a0c5bf1f0d786c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7396e98e597491910b639e5a0d0c57b8f685bc02
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218595"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172002"
 ---
 # <a name="create-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 Microsoft 365 사용자 계정 만들기
 
@@ -47,7 +47,7 @@ PowerShell에서 사용자 계정을 만들 때 특정 계정 속성은 항상 �
 >[!Note]
 >[다음을 사용하여 사용자](../admin/add-users/add-users.md) 계정을 만드는 방법을 Microsoft 365 관리 센터.
 > 
-> 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
+> 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](/admin)
 >   
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
@@ -126,7 +126,7 @@ New-MsolUser -DisplayName "Caleb Sills" -FirstName Caleb -LastName Sills -UserPr
 
 3. 결과 볼 수 있는 출력 파일을 검토 합니다. 암호를 지정하지 않았기 때문에 생성된 임의 암호가 Microsoft 365 파일에 표시됩니다.
     
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   

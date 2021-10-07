@@ -10,18 +10,18 @@ audience: ITPro
 ms.topic: article
 ms.prod: m365-security
 ms.technology: mdo
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Microsoft Defender for Office 365 E5 및 P1 및 P2 고객은 이제 전자 메일 엔터티 페이지가 있는 각 전자 메일을 360도로 볼 수 있습니다.
-ms.openlocfilehash: bf5f191ec183c5fcc135e78f0eec83f69b4a5f95
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: cf63609bf978dd205796d54432e143edbb6c6b87
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483858"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60174282"
 ---
 # <a name="the-email-entity-page"></a>전자 메일 엔터티 페이지
 

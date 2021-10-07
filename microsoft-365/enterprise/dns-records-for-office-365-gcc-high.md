@@ -7,7 +7,7 @@ ms.date: 05/19/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: ''
 description: '요약: 높은 Office 365 GCC DNS 레코드'
 hideEdit: true
-ms.openlocfilehash: 9edcda4616d50d05331db0e2d6c4d89967b02fdc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 103d6157bdb11f787b46b649a048b9fdd3fde5cb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189652"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60174882"
 ---
 # <a name="dns-records-for-office-365-gcc-high"></a>Office 365 GCC High용 DNS 레코드
 
@@ -57,14 +57,14 @@ High를 등록하는 Office 365 GCC 온라인 서비스 테넌트에 SMTP 및 SI
 
 ### <a name="cname-records"></a>CNAME 레코드
 
-| 형식 | 호스트 이름 | 주소 또는 값을 가리킴 | TTL |
+| 유형 | 호스트 이름 | 주소 또는 값을 가리킴 | TTL |
 | --- | --- | --- | --- |
 | CNAME | sip | sipdir.online.gov.skypeforbusiness.us | 1시간 |
 | CNAME | lyncdiscover | webdir.online.gov.skypeforbusiness.us | 1 Hour |
 
 ### <a name="srv-records"></a>SRV 레코드
 
-| 형식 | 서비스 | Protocol(프로토콜) | 포트 | 가중치 | 우선 순위 | 이름 | 대상 | TTL |
+| 유형 | 서비스 | Protocol(프로토콜) | 포트 | 가중치 | 우선 순위 | 이름 | 대상 | TTL |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SRV | \_sip | \_tls | 443 | 1 | 100 | @ | sipdir.online.gov.skypeforbusiness.us | 1시간 |
 | SRV | \_sipfederationtls | \_tcp | 5061 | 1 | 100 | @ | sipfed.online.gov.skypeforbusiness.us | 1 Hour |

@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -22,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: 사용자가 조직 Microsoft 365 관리 센터 외부의 사용자와 일정을 공유할 수 있도록 일정 공유를 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 5b9808f2b44e87d39a1f16389fa09aa511fbc2ee
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: b3ad3735c8cf5b33ddc501310e8f34dcc3c6f786
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776011"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60171774"
 ---
 # <a name="share-calendars-with-external-users"></a>외부 사용자와 일정 공유
 
@@ -54,4 +55,4 @@ ms.locfileid: "59776011"
 
 사이트에 대한 외부 공유 설정 또는 [해제(문서)\](/sharepoint/change-external-sharing-site)
 [개요](../../business-video/admin-center-overview.md) Microsoft 365 관리 센터(비디오)\
-[전자 메일 및 일정 관리(링크](../email/index.yml) 페이지)
+[전자 메일 및 일정 관리(링크](/admin) 페이지)

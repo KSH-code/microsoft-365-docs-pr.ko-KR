@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: Bookings 활동의 4개월 보기를 보는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: ceb318f0577d6bf1f4f46f809ecabe0d1bc5d804
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 70d73da86e40555a5754a4284cbfbb0510e8c9e6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188915"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60175638"
 ---
 # <a name="reporting-info-for-bookings"></a>Bookings에 대한 보고 정보
 

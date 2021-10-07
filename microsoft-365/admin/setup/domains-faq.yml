@@ -9,10 +9,11 @@ metadata:
   audience: Admin
   ms.topic: article
   ms.service: o365-administration
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ms.collection:
   - M365-subscription-management
   - Adm_O365
+  - Adm_TOC
   ms.custom:
   - AdminSurgePortfolio
   - okr_smb
@@ -25,12 +26,12 @@ metadata:
   - GEA150
   ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
   description: FAQ에서 질문에 대한 답변을 찾아 도메인(onmicrosoft domain and transfer domain)에 대해 자세히 알아보하세요.
-  ms.openlocfilehash: 7ec7b28a6c1672e637c339e23bca7391993f7666
-  ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+  ms.openlocfilehash: 5fc56caaf6c5769820a1d8387553ca6577ebc64b
+  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/24/2021
-  ms.locfileid: "59773210"
+  ms.lasthandoff: 10/06/2021
+  ms.locfileid: "60176070"
 title: 도메인 FAQ
 summary: "\n\n이 문서에는 도메인에 대한 질문과 대답이 포함되어 Microsoft 365.\n\n질문에 대한 대답을 찾을 수 없는 경우 저희에게 메모를 남겨 알려주시면 목록에 추가해 드리겠습니다.\n"
 sections:
@@ -59,4 +60,4 @@ sections:
   - question: "\"onmicrosoft.de 도메인이 있는 이유는 무엇입니까?"
     answer: "Microsoft 365 등록할 때 contoso.onmicrosoft.de 도메인을 만듭니다.  등록할 때 만드는 사용자 ID에는 도메인이 *포함됩니다(alan@contoso.onmicrosoft.de.* \n  \n **If you want to have your email look like *alan@contoso.de*:** buy the [domain](../get-help-with-domains/buy-a-domain-name.md) or just follow the steps in Add your users and domain [to Microsoft 365](add-domain.md) if you already own it. \n  \n- **등록한 후 onmicrosoft 도메인의 이름을 뒤로할 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.de 도메인으로 변경할 수 fabrikam.onmicrosoft.de. 다른 onmicrosoft.de 도메인을 사용하려면 새 구독을 시작해야 Microsoft 365. \n    \n- **팀 사이트 URL의 이름을 변경하면 안 됩니다.** 팀 사이트 URL은 사용자 도메인 onmicrosoft.de 기반입니다. 안타깝게도 온라인 SharePoint 작동 방식 때문에 팀 사이트의 이름을 다시 만들 수 없습니다. \n    \n- **onmicrosoft 도메인은 제거할 수 없습니다.** Microsoft 365 위해 배경에서 사용되어 유지해야 합니다. 그러나 사용자 지정 도메인을 추가한 후 직접 도메인을 사용할 수 없습니다. \n    \n도메인을 추가한 후에도 onmicrosoft.de 도메인을 계속 사용할 수 있습니다. 전자 메일 및 기타 서비스에도 계속 작동하기 때문에 선택이 됩니다.\n  \n"
   - question: 비영리 또는 교육 상태를 확인하는 방법
-    answer: "1. 관리 **센터에서** [설치를 선택하여](./index.yml) 마법사를 시작하세요. (먼저 로그인해야 Microsoft 365. \n    \n2. 학교의 관리자가 되하려면 학교에서  관리자 되기 옵션을 Microsoft 365. \n    \n3. 도메인의 DNS 호스트 웹 사이트에서 TXT DNS 레코드를 추가하라는 메시지가 표시됩니다. 이유 DNS 호스트에서 로그인하고 도메인의 레코드를 추가하면 도메인 Microsoft 365 소유하고 있는 것이 증명됩니다.\n    \n4. 레코드를 추가하고 나면 Microsoft 365 포털로 돌아가서 추가한 레코드를 확인하여 Microsoft 365 수 있습니다.\n    \n비영리단체가 있으며 비영리 Microsoft 365? [조직에서 서비스를 한정하는지 확인한](https://www.microsoft.com/nonprofits/eligibility) 다음 서비스에 등록합니다. \n  \n학교의 관리자 되기에 대해 더 알고 싶나요? [자세한 내용은 을(를) 자세히 알아보아야 합니다.](/microsoft-365/education/deploy/becoming-an-admin-in-office-365-education\n)"
+    answer: "1. 관리 **센터에서** [설치를 선택하여](/admin) 마법사를 시작하세요. (먼저 로그인해야 Microsoft 365. \n    \n2. 학교의 관리자가 되하려면 학교에서  관리자 되기 옵션을 Microsoft 365. \n    \n3. 도메인의 DNS 호스트 웹 사이트에서 TXT DNS 레코드를 추가하라는 메시지가 표시됩니다. 이유 DNS 호스트에서 로그인하고 도메인의 레코드를 추가하면 도메인 Microsoft 365 소유하고 있는 것이 증명됩니다.\n    \n4. 레코드를 추가하고 나면 Microsoft 365 포털로 돌아가서 추가한 레코드를 확인하여 Microsoft 365 수 있습니다.\n    \n비영리단체가 있으며 비영리 Microsoft 365? [조직에서 서비스를 한정하는지 확인한](https://www.microsoft.com/nonprofits/eligibility) 다음 서비스에 등록합니다. \n  \n학교의 관리자 되기에 대해 더 알고 싶나요? [자세한 내용은 을(를) 자세히 알아보아야 합니다.](/microsoft-365/education/deploy/becoming-an-admin-in-office-365-education\n)"

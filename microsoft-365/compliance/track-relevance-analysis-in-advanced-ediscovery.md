@@ -10,19 +10,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관련성 교육 상태 및 관련성 교육의 사례 문제에 대한 결과를 보고 해석하는 방법을 Advanced eDiscovery.
-ms.openlocfilehash: ac575ebf073afa8eb4ba13e63202f8b634c52f60
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7a2786a727fd233b6617779bae95a26c1b62644e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216342"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60175014"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery"></a>Advanced eDiscovery
   

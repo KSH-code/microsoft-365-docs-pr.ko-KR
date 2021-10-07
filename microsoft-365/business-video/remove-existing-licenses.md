@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: '필요한 경우 월별 구독의 라이선스 수를 줄일 수 있습니다. '
-ms.openlocfilehash: c9f72b9448fe1f844cc216baec9ba8249d387c71
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8506dd07022239ed67b437a2c0940e63f98bc490
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190499"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60171294"
 ---
 # <a name="remove-existing-licenses"></a>기존 라이선스 제거
 

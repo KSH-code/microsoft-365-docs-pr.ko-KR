@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 미성년자 개인 데이터를 규정하는 GDPR(일반 데이터 보호 규정) 규정에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e7f53a5a6b64f29f5029f0080fef44439c926edb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 84a1ecc9eb5d29ae1c2e4597b8299430cc3de038
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187155"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173070"
 ---
 # <a name="minors-and-acquiring-add-ins-from-the-store"></a>스토어에서 미성년자 및 추가 기능 다운로드
 

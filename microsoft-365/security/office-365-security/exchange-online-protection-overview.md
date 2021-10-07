@@ -8,19 +8,19 @@ manager: dansimp
 ms.date: 09/18/2020
 audience: ITPro
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: EOP(Exchange Online Protection)가 독립 실행형 및 하이브리드 환경에서 어떻게 프레미스 전자 메일 조직을 보호할 수 있도록 하는지 알아보십시오.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 006be2cf23735f6ec44c749de869e87d55be2123
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 0fa4aa1d724ad13b3c43f84a0c6d2a7e8002983f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483102"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60174366"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -102,7 +102,7 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 |피싱 방지|[2016년 8월의 피싱 Microsoft 365](set-up-anti-phishing-policies.md) <p> [EOP에서 스팸 방지 정책 구성](configure-anti-phishing-policies-eop.md)|
 |스푸핑 방지 보호 기능|[EOP의 스푸핑 인텔리전스 정보](learn-about-spoof-intelligence.md) <p> [테넌트 허용/차단 목록 관리](tenant-allow-block-list.md)|
 |배달된 맬웨어, 스팸 및 피싱 메시지에 대한 ZAP(제로 아워 자동 제거)|[Exchange Online](zero-hour-auto-purge.md)|
-|미리 설정된 보안 정책|[EOP 및 Microsoft Defender for Office 365](preset-security-policies.md) <p> [EOP 및 Microsoft Defender for Office 365](configuration-analyzer-for-security-policies.md)|
+|보안 정책 미리조정|[EOP 및 Microsoft Defender for Office 365](preset-security-policies.md) <p> [EOP 및 Microsoft Defender for Office 365](configuration-analyzer-for-security-policies.md)|
 |테넌트 허용/차단 목록|[테넌트 허용/차단 목록 관리](tenant-allow-block-list.md)|
 |메시지 보낸 사람에 대한 차단 목록|[EOP에서 차단된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)|
 |메시지 보낸 사람에 대한 목록 허용|[EOP에서 수신 가능한 보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)|
@@ -111,7 +111,7 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 |관리자 제출|[관리자 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출](admin-submission.md)|
 |사용자 제출(사용자 지정 사서함)|[사용자 제출 정책](user-submission.md)|
 |Quarantine - admins|[EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기](manage-quarantined-messages-and-files.md) <p> [Quarantined messages FAQ](quarantine-faq.yml) <p> [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md) <p> [Microsoft 365의 스팸 방지 메시지 헤더](anti-spam-message-headers.md) <p> 의 메시지 헤더 분석기를 사용하여 분리된 메시지의 메시지 [헤더를 분석할 수 있습니다.](https://mha.azurewebsites.net/)|
-|Quarantine - 최종 사용자|[EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md) <p> [검란 알림을 사용하여 검란된 메시지 릴리스 및 보고](use-spam-notifications-to-release-and-report-quarantined-messages.md) <p> [Quarantine policies](quarantine-policies.md)|
+|Quarantine - 최종 사용자|[EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md) <p> [검란 알림을 사용하여 검란된 메시지 릴리스 및 보고](use-spam-notifications-to-release-and-report-quarantined-messages.md) <p> [격리 정책](quarantine-policies.md)|
 |**메일 흐름**||
 |메일 흐름 규칙|[메일 흐름 규칙(전송 규칙) Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) <p> [Exchange Online의 메일 흐름 규칙 조건 및 예외(조건자)](/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions) <p> [Exchange Online의 메일 흐름 규칙 작업](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions) <p> [Exchange Online에서 메일 흐름 규칙 관리](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) <p> [흐름 규칙 절차 Exchange Online 메일](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-procedures)|
 |허용 도메인|[Exchange Online에서 허용 도메인 관리](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)|

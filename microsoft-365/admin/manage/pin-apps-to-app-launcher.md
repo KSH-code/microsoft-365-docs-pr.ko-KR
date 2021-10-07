@@ -13,14 +13,14 @@ ms.collection:
 - Adm_TOC
 ms.service: o365-administration
 ms.custom: admindeeplinkMAC
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 전역 관리자는 사용자의 앱 시작 관리자에 최대 3개의 앱을 고정할 수 있습니다.
-ms.openlocfilehash: 7e9975b13f66f39abd61a238cb30463baa9ed34e
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 7ff85e379198312666f03c2d7d6c8bb42b9e08d0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933366"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60171846"
 ---
 # <a name="pin-apps-to-your-users-app-launcher"></a>사용자의 앱 시작커에 앱 고정
 

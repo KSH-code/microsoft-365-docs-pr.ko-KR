@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 보안 수준 증가에 대한 도움말을 Microsoft 365
-ms.openlocfilehash: 7890d25b337bd143d8a5c79f0a2994a81fca8caf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 42acbae868a3d451add0b93a0b7c21d46893010d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188708"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172782"
 ---
 # <a name="increase-threat-protection-for-microsoft-365-subscription"></a>구독에 대한 위협 Microsoft 365 증가
 

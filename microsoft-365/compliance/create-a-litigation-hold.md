@@ -9,19 +9,19 @@ ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
 description: 조사 중에 모든 사서함 콘텐츠를 보존하여 사서함을 소송 보존으로 설정하는 방법을 학습합니다.
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 4a3271952a1f517f97e6b0a13044d2fac102e8ec
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0bd436106f4bb5dedecd1008aeeb768887dbe599
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189849"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60175350"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보류 만들기
 

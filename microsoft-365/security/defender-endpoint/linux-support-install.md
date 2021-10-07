@@ -3,15 +3,13 @@ title: Linux의 끝점용 Microsoft Defender 설치 문제 해결
 ms.reviewer: ''
 description: Linux의 끝점용 Microsoft Defender 설치 문제 해결
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -19,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8787a6bd5818eda5f5302fe149fd7b56db296abd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c90841ac9312fcc5f36ae9807ce757d9268b4cea
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215045"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173094"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender 설치 문제 해결
 

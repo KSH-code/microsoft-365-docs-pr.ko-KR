@@ -9,19 +9,19 @@ ms.date: 4/17/2018
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: 데이터 및 서비스에 대한 사용자 및 장치 Microsoft 365 보호하고 데이터 손실을 방지하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd8bbb62bc87ff59594e2fb2a3e21311c2452d9f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6f7d3c8af6526e5766086c7db5f6a7285f215162
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221107"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60172254"
 ---
 # <a name="protect-user-and-device-access"></a>사용자 및 장치 액세스 보호
 

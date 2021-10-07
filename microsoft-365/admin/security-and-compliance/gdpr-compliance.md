@@ -8,22 +8,23 @@ manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
 description: 비즈니스용 Microsoft 365이 GDPR(일반 데이터 보호 규정) 프로세스에 어떻게 도움이 되는지 알아보세요.
-ms.openlocfilehash: a32c31f0acd072d7c30eb7639b7f700a7f06048a
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 50ee497d57438994a4a5f839ff5a2afb103cd59b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776287"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60174030"
 ---
 # <a name="gdpr-simplified-a-guide-for-your-small-business"></a>GDPR 간소화: 소기업을 위한 가이드
 
@@ -125,7 +126,7 @@ GDPR은 데이터 주체 권한을 설정합니다. 즉, 고객, 직원, 비즈�
 IT 시스템에 개인 데이터를 저장하는 경우 데이터가 포함된 파일에 대한 액세스를 제한하세요(예: 강력한 암호를 통해). 시스템의 보안 설정을 정기적으로 업데이트합니다.
 
 > [!NOTE]
-> GDPR은 특정 IT 시스템의 사용을 규정하지 않지만 시스템에 적절한 수준의 보안을 갖도록 합니다. 자세한 내용은 [GDRP 문서 32: 처리 보안](https://gdpr.eu/article-32-security-of-processing/)을 참조하세요.
+> GDPR은 특정 IT 시스템의 사용을 규정하지 않지만 시스템에 적절한 수준의 보안을 갖도록 합니다. 자세한 내용은 [GDRP 32조: 처리 보안](https://gdpr.eu/article-32-security-of-processing/)을 참조하세요.
 
 개인 데이터를 사용하여 물리적 문서를 저장하는 경우 권한이 없는 사용자가 액세스할 수 없는지 확인합니다.
 
@@ -165,7 +166,7 @@ Microsoft의 개인 정보 보호 및 보안 약정, 데이터 처리 약관 및
  
 개인 데이터를 더 잘 보호하기 위해 조직에서 <b>DPO(데이터 보호 책임자)</b>를 임명해야 할 수도 있습니다. 그러나 개인 데이터 처리가 비즈니스의 핵심 부분이 아니거나 중소기업인 경우 데이터 보호 책임자를 지정할 필요가 없습니다. 예를 들어, 귀사에서 자택 배송을 위해서만 고객의 데이를 수집하는 경우에는 DPO를 지정할 필요가 없습니다. DPO를 사용해야 하는 경우에도 이러한 의무는 다른 작업과 더불어 기존 직원에게 할당될 수 있습니다. 또는 필요에 따라 이 업무를 위해 외부 컨설턴트를 고용하도록 선택할 수 있습니다.
 
-일반적으로 귀사는 [데이터 보호 영향 평가](https://gdpr.eu/article-35-impact-assessment/)를 수행할 필요가 없습니다. 이는 개인 데이터에 더 많은 위험을 초래하는 기업에 대해 유보되어 있습니다(예: 비디오 감시와 같이 공개적으로 액세스할 수있는 영역에 대한 대규모 모니터링을 수행하는 경우).
+일반적으로 [데이터 보호 영향 평가](https://gdpr.eu/article-35-impact-assessment/)를 수행할 필요가 없습니다. 이는 개인 데이터에 더 많은 위험을 초래하는 기업에 대해 유보되어 있습니다(예: 비디오 감시와 같이 공개적으로 액세스할 수있는 영역에 대한 대규모 모니터링을 수행하는 경우).
 
 직원 임금과 고객 목록을 관리하는 중소기업인 경우 일반적으로 데이터 보호 영향 평가를 수행할 필요가 없습니다.  
  
