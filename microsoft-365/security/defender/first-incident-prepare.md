@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 79a8c8f20b2db4f1b3604c5e652c98a6c9898868
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b73103dee0b20abbebc9c10834ba918c71f9c01b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59163602"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210654"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>첫 번째 인시던트에 대한 보안 준비
 

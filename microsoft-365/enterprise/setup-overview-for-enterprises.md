@@ -7,7 +7,7 @@ ms.date: 11/19/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
 description: 이러한 개요 단계는 네트워크를 설정하고, ID를 만들고, 데이터를 Microsoft 365 앱 마이그레이션하는 데 도움이 하도록 디자인되어 있습니다.
-ms.openlocfilehash: ce19d135b46bb848aecb557610bc1ed1703fc686
-ms.sourcegitcommit: e269371de759a1a747c9f292775463aa11415f25
+ms.openlocfilehash: 9ace2ce08a48600f20b5e04111a4b2e67d82e8d4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58355871"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205824"
 ---
 # <a name="deploy-microsoft-365-enterprise-for-your-organization"></a>조직의 Microsoft 365 Enterprise 배포
 

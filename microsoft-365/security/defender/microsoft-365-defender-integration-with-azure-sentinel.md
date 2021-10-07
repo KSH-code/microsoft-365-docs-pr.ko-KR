@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: d7982e8a8c320336a47cd64152b5477be7ae51f5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0520b5dde6cd2cd1d3b59fe05ce32df6412bb7fd
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185683"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210582"
 ---
 # <a name="microsoft-365-defender-integration-with-azure-sentinel"></a>Microsoft 365 Defender와 Azure Sentinel 통합
 
@@ -38,7 +38,7 @@ ms.locfileid: "59185683"
 
 Azure Sentinel용 Microsoft 365 Defender 커넥터(미리 보기)는 모든 Microsoft 365 Defender 인시던트 및 경고 정보를 Azure Sentinel로 보내고 인시던트가 동기화된 상태입니다. 
 
-커넥터를 추가하고 나면 Endpoint용 Microsoft Defender, ID용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft Cloud App Security에서 받은 모든 관련 경고, 엔터티 및 관련 정보가 포함된 인시던트가 Azure &mdash; Sentinel에 SIEM(보안 정보 및 이벤트 관리) 데이터로 스트리밍되어 Azure Sentinel을 통해 평가 및 인시던트 대응을 수행할 수 있는 컨텍스트를 &mdash; 제공합니다. Microsoft 365 Defender 
+커넥터를 추가하고 나면 Microsoft 365 Defender, 엔드포인트용 Microsoft Defender, ID용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft Cloud App Security 모든 관련 알림, 엔터티 및 관련 정보가 포함된 인시던트가 &mdash; &mdash; Azure Sentinel로 스트리밍됩니다. SIEM(보안 정보 및 이벤트 관리) 데이터로, Azure Sentinel을 사용하여 평가 및 인시던트 대응을 수행할 수 있는 컨텍스트를 제공합니다. 
 
 Azure Sentinel에서 인시던트는 Microsoft 365 Defender 양방향으로 동기화된 상태로 유지되므로 인시던트 조사 및 대응을 위해 Azure Portal에서 Microsoft 365 Defender 포털 및 Azure Sentinel의 이점을 활용할 수 있습니다.
 

@@ -13,14 +13,14 @@ ms.custom: seo-marvel-apr2020
 ms.collection:
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 관리자는 다중 위치 환경에서 SharePoint 및 OneDrive 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 5089a63f4c4f3406c146188151a145cf4b6aa7f2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 347968820e297d9d88e9338af07a5eea1e72d676
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210782"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205848"
 ---
 # <a name="administering-a-multi-geo-environment"></a>Multi-Geo 환경 관리
 
@@ -74,7 +74,7 @@ Power Apps 위해 만들어진 위치는 테넌트의 중앙 위치에 있는 �
 
 관리자는 각 위치에 대한 공유 정책을 설정하고 관리할 수 있습니다. 각 OneDrive 및 SharePoint 사이트는 해당 지역별 공유 설정만 적용합니다. (예를 들어, 중앙 위치에 대한 [외부 공유](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85)는 허용하지만 위성 위치의 외부 공유나 그 반대에 대해서는 허용할 수 없습니다.) 공유 설정에서는 지리적 위치간에 공유 제한을 구성할 수 없습니다.
 
-## <a name="stream"></a>스트림
+## <a name="stream"></a>Stream
 
 1:1 채팅에서 Stream에 업로드된 비디오는 업로드하는 사람의 OneDrive 저장됩니다. 모임 녹음/녹화는 모임을 OneDrive 각 참석자 중 하나에 저장됩니다.
 

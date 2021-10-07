@@ -12,14 +12,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-localization_priority: None
+ms.localizationpriority: medium
 description: Viva 항목의 사용자 역할에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e26f47e5826ac6db6c41e1b0648dd23398f51c43
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bf245cfc41fa3ad08af74dd2f2efbb8c0ddfef37
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215612"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205800"
 ---
 # <a name="roles-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 역할
 

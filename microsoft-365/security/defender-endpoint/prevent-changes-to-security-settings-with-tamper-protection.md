@@ -9,7 +9,7 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: Normal
+ms.localizationpriority: medium
 audience: ITPro
 ms.topic: article
 author: denisebmsft
@@ -18,12 +18,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.date: 09/23/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 75b19373cbdecfe73c9b41b6bcbdbaa2050fcf53
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 352cf74b85ed24eba47fd6973702dd4eb7f73a40
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042857"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209324"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 

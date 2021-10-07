@@ -7,7 +7,7 @@ ms.date: 07/08/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.collection:
 - Ent_O365
 - SPO_Content
 description: 초기에 새로운 문제를 감지하는 데 도움이 될 수 있도록 클라이언트 컴퓨터 연결의 기록을 검사하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: 460bde30a0b292569b045c339066df2860c50989
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3a294bd00f1fdfd6fb8d04130193658c4eeea2d4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210592"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209600"
 ---
 # <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>초기 계획 및 성능 기록을 사용하여 Office 365 성능 조정
 
@@ -307,7 +307,7 @@ Office 365 및 실제 사용자에 의해 모니터링되는 대용량 전용 Mi
   
 ![값을 빼기 위해 클라이언트에서 프록시로의 ping을 Office 365 수 있는 추가 그래픽입니다.](../media/cd764e77-5154-44ba-a5cd-443a628eb2d9.PNG)
   
-문제 해결 측면에서 이러한 기준을 유지하는 것에서 흥미로운 것을 발견할 수 있습니다. 예를 들어 일반적으로 프록시 또는 전송 지점에서 40~59밀리초 정도의 대기 시간이 있는 경우 Office 365, 클라이언트가 프록시 또는 발신 지점 대기 시간 약 3~7밀리초(해당 시간 동안 표시하는 네트워크 트래픽의 양에 따라 다를 수 있습니다.) 프록시 또는 발신 기준에 최근 3개의 클라이언트가 45밀리초의 대기 시간을 표시하는 경우 문제가 있다는 것을 확실하게 알 수 있습니다.
+문제 해결 측면에서 이러한 기준을 유지하는 것에서 흥미로운 것을 발견할 수 있습니다. 예를 들어 일반적으로 프록시 또는 전송 지점에서 40~59밀리초 정도의 대기 시간이 있는 경우 이 URL을 Office 365 있습니다. 클라이언트가 프록시 또는 발신 지점 대기 시간 약 3~7밀리초(해당 시간 동안 표시하는 네트워크 트래픽의 양에 따라 다를 수 있습니다) 프록시 또는 발신에 대한 마지막 3개의 클라이언트가 기준을 표시하는 경우 문제가 있다는 것을 확실하게 알 수 있습니다. 대기 시간(45밀리초)입니다.
   
 ### <a name="advanced-methods"></a>고급 메서드
 

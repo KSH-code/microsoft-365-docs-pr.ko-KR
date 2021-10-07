@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - M365-privacy-management
@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 개인 정보 관리의 개요 및 데이터 프로필과 조직의 조직 환경의 개인 데이터에 대한 정보를 얻는 Microsoft 365 알아보세요.
-ms.openlocfilehash: 2d0b72aff73649ff4a34952de5a915dcd28dc670
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: 058ca5253b034a409aa1fe994f9c8258fb99e1e0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59480595"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206040"
 ---
 # <a name="find-and-visualize-personal-data-in-privacy-management-preview"></a>개인 정보 관리에서 개인 데이터 찾기 및 시각화(미리 보기)
 

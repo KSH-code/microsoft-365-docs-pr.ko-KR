@@ -7,7 +7,7 @@ ms.date: 08/27/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: SaaS 서비스에 네트워크 최적화가 중요한 이유, Microsoft 365 네트워킹의 목표 및 SaaS가 다른 워크로드와 다른 네트워킹을 요구하는 방법에 대해 논의합니다.
-ms.openlocfilehash: c5794f9312ba098d27beb65bfbb272701ac3927f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e5dcbae5a1fbac3b0b4fd4472fdcac2380b84382
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167255"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209708"
 ---
 # <a name="microsoft-365-network-connectivity-overview"></a>Microsoft 365 연결 개요
 
@@ -95,7 +95,7 @@ Microsoft 365 및 암호화된 네트워크 연결을 사용하여 성능을 최
 
 네트워크 Microsoft 365 최적화를 수행하면 불필요한 단점을 제거할 수 있습니다. 이러한 Microsoft 365 트러스트된 트래픽으로 처리하면 패킷 검사 및 프록시 대역폭 경쟁으로 인해 대기 시간이 도입되지 않도록 할 수 있습니다. 클라이언트 컴퓨터와 Office 365 로컬 연결을 허용하면 트래픽을 Microsoft 전역 네트워크를 통해 동적으로 라우팅할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft 365 네트워크 연결 원칙](microsoft-365-network-connectivity-principles.md)
 

@@ -12,13 +12,13 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-localization_priority: None
-ms.openlocfilehash: d6dfb2f7f432a40c5b6e96a9437f50ba47e23387
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.localizationpriority: ''
+ms.openlocfilehash: d9f010bd816e50c29b9e857b25a710bb72a063a5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187756"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210188"
 ---
 # <a name="restrict-access-to-topics-in-microsoft-viva-topics"></a>특정 항목의 항목에 Microsoft Viva 제한
 

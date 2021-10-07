@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-security-compliance
@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 피싱 메시지가 전자 메일에서 수신되는 이유와 방법을 파악하고 Microsoft 365 향후 더 많은 피싱 메시지를 방지하는 방법에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5093981c5f0166d3f53c3b6c7d24371312633c99
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 299488a7ed8a891d870efb3ace618178c36552f1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213222"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206472"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 

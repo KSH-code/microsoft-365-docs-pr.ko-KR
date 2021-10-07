@@ -7,21 +7,21 @@ ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: Normal
+ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.date: 09/14/2021
+ms.date: 10/05/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: e629cfa55467bc7f5f0a021e52cc8ade5118c8c4
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 7936c7023801a5eab75b9b39c69ad0d0568281de
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491592"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205658"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -136,7 +136,7 @@ cmdlet의 형식은 다음과 같습니다.
 
 다음 표에는 PowerShell cmdlet 부분에서 사용할 수 있는 `<cmdlet>` cmdlet이 나열됩니다.
 
-<br>
+<br/><br/>
 
 |구성 작업|PowerShell cmdlet|
 |:---|:---|
@@ -146,7 +146,7 @@ cmdlet의 형식은 다음과 같습니다.
 
 다음 표에는 PowerShell cmdlet 부분에서 사용할 수 있는 `<exclusion list>` 값이 나열됩니다.
 
-<br>
+<br/><br/>
 
 |제외 유형|PowerShell 매개 변수|
 |---|---|
@@ -220,7 +220,8 @@ ExclusionPath
 
 ### <a name="system-environment-variables"></a>시스템 환경 변수
 
-다음 표에서는 시스템 계정 환경 변수를 나열하고 설명합니다.<br/><br/>
+다음 표에서는 시스템 계정 환경 변수를 나열하고 설명합니다.
+    <br/><br/>
     
 |이 시스템 환경 변수...|리디렉션|
 |---|---|
@@ -280,10 +281,10 @@ ExclusionPath
 |`%PUBLIC%\RecordedTV.library-ms`|`C:\Users\Public\RecordedTV.library-ms`|
 |`%PUBLIC%\Videos`|`C:\Users\Public\Videos`|
 |`%PUBLIC%\Videos\Sample Videos`|`C:\Users\Public\Videos\Sample Videos`|
-|`%USERPROFILE%`|`C:\Windows\System32\config\systemprofile`|
-|`%USERPROFILE%\AppData\Local`|`C:\Windows\System32\config\systemprofile\AppData\Local`|
-|`%USERPROFILE%\AppData\LocalLow`|`C:\Windows\System32\config\systemprofile\AppData\LocalLow`|
-|`%USERPROFILE%\AppData\Roaming`|`C:\Windows\System32\config\systemprofile\AppData\Roaming`|
+|`%USERPROFILE%`|`C:\Users\UserName`|
+|`%USERPROFILE%\AppData\Local`|`C:\Users\UserName\AppData\Local`|
+|`%USERPROFILE%\AppData\LocalLow`|`C:\Users\UserName\AppData\LocalLow`|
+|`%USERPROFILE%\AppData\Roaming`|`C:\Users\UserName\AppData\Roaming`|
 
 ## <a name="review-the-list-of-exclusions"></a>제외 목록 검토
 

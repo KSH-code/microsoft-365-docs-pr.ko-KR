@@ -9,18 +9,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1aa44e26a127bff90a8d0cf591d0418c50687d2
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 23d668751548205b6cef18bf0d73d14079b7c6d6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444178"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205586"
 ---
 # <a name="plan-your-microsoft-defender-for-endpoint-deployment"></a>엔드포인트용 Microsoft Defender 배포 계획
 

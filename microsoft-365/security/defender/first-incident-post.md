@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6b5311a2923d7b299ba4f70ef3c2e8d91809e7c8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8219192416bc286714b3fddc3878ce8ed5de949b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192489"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210678"
 ---
 # <a name="step-3-perform-a-post-incident-review-of-your-first-incident"></a>3단계. 첫 번째 인시던트에 대한 인시던트 사후 검토 수행
 

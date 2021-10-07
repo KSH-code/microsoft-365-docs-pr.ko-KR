@@ -12,7 +12,7 @@ f1.keywords:
 ms.author: tracyp
 author: MSFTTracyP
 ms.date: 05/19/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: how-to
 ms.technology: m365d
-ms.openlocfilehash: e3b2af2f8d893245c596af07284ee095985af7e2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9ab62cd50ab9d378c107928f73db71dc6bc14bc2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214545"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206616"
 ---
 # <a name="create-the-microsoft-365-defender-evaluation-environment"></a>Microsoft 365 Defender 환경 만들기
 

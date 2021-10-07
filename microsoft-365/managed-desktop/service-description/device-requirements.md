@@ -4,24 +4,24 @@ description: 장치와 함께 작동하기 위한 최소 하드웨어 및 소프
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f51208b8376ef160fe83a41e5a2ac74eb843c2f3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1ce5f0c3782b8e8082d0e1ede53339a190b7259f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215355"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209468"
 ---
 # <a name="device-requirements"></a>장치 요구 사항
 
-Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항을 정기적으로 평가합니다. 이 문서에서는 장치와 함께 작동하기 위해 장치가 충족해야 하는 하드웨어 및 소프트웨어 요구 사항에 대해 Microsoft Managed Desktop. 이러한 요구 사항에 따라 서비스에서 이미 사용이 승인된 특정 장치 목록을 검토할 수 있습니다. 쇼핑 비즈니스 Microsoft Managed Desktop 사이트에서 Windows 10 Pro [필터링](https://www.microsoft.com/en-us/windowsforbusiness/view-all-devices)
+Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항을 정기적으로 평가합니다. 이 문서에서는 장치와 함께 작동하기 위해 장치가 충족해야 하는 하드웨어 및 소프트웨어 요구 사항에 대해 Microsoft Managed Desktop. 이러한 요구 사항에 따라 서비스에서 이미 사용이 승인된 특정 장치 목록을 검토할 수 있습니다. 쇼핑 비즈니스 Microsoft Managed Desktop 사이트에서 Windows Pro [필터링](https://www.microsoft.com/en-us/windows/business/devices)
 
 > [!NOTE]
-> 이러한 요구 사항은 변경될 수 있지만 하드웨어 요구 사항 변경에 대해 30일 알림이 제공될 것입니다. 가장 최근에 변경된 요구 사항은 로 **\*** 표시됩니다. 
+> 이러한 요구 사항은 변경될 수 있지만 하드웨어 요구 사항 변경에 대해 30일 알림이 제공될 것입니다. 가장 최근에 변경된 요구 사항은 로 <b>\*</b> 표시됩니다. 
 
 ## <a name="check-hardware-requirements"></a>하드웨어 요구 사항 확인
 
@@ -45,13 +45,11 @@ Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항�
 
 디바이스에 다음 소프트웨어가 사전 설치되어야 합니다.
 
-- Windows 10 Enterprise, Pro 또는 Pro Workstation edition
+- <b>\*</b>Windows 10 또는 Windows 11: Enterprise, Pro 또는 Pro Workstation edition
 - 64비트 버전의 엔터프라이즈용 Microsoft 365 앱 
 - 적용 가능한 모든 장치 드라이버
 
-> [!NOTE]
-> Windows 11은 일반 공급에 도달한 후 사전 설치한 소프트웨어를 위한 추가 옵션입니다.
->
+
 ### <a name="physical-features"></a>물리적 기능
 
 디바이스에는 다음 기능이 있어야 합니다.
@@ -65,7 +63,7 @@ Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항�
 
 > [!NOTE]
 >- ARM 프로세서가 지원되지 않습니다.
->- Windows 11에는 추가 [하드웨어 요구 사항이 있습니다.](/windows/whats-new/windows-11-requirements)
+>- <b>\*</b>Windows 11에는 추가 [하드웨어 요구 사항이 있습니다.](/windows/whats-new/windows-11-requirements)
 
 장치는 저장소 및 메모리에 대한 다음 제한을 충족하거나 초과해야 합니다.
 

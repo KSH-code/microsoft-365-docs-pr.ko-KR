@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 관리하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 511dde8921f9406f753c857e2d813ccd80976c40
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 8411ca98b48b19c7ecf3085c450fbf40e5185474
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353637"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210392"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -92,7 +92,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
   >
   > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   >
-  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 ## <a name="configure-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 구성
 

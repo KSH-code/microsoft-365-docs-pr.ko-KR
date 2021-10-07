@@ -9,7 +9,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 ms.custom:
@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection 보호)의 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법을 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9dea01324e37a56fbff049e4e46cd5882f1fabad
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5fbccec656e0508535c2fbdaa055777a07968878
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166634"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210440"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 

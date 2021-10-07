@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 ms.custom: seo-marvel-apr2020
 description: 관리자는 PST 파일을 하드 드라이브에 복사한 다음 Microsoft로 Microsoft 365 사서함으로 PST 파일을 대량으로 가져오는 방법을 배울 수 있습니다.
-ms.openlocfilehash: c80428d1c1fc5fdbb8a8863dc4c6fbc4438d6c26
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: 06449ee6b2ce8df51d65dbf74e15ab583e42fc15
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011419"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206028"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>드라이브 배송을 사용하여 조직의 PST 파일 가져오기
 

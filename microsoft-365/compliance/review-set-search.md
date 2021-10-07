@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 검토 집합에서 쿼리를 만들고 실행하여 검토 사례에서 보다 효율적인 검토를 위해 콘텐츠를 구성하는 Advanced eDiscovery 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4e4d2603cc9f26925b65ebeb654ad366d245e8e8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f1f7fa8f811f5a2bda526454ae8b03163cfed187
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210902"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206064"
 ---
 # <a name="query-and-filter-content-in-a-review-set"></a>검토 집합의 콘텐츠 쿼리 및 필터링
 

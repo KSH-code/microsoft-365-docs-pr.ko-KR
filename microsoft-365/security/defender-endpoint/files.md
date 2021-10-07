@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9dffc5d2b7badba0a2f0e0b986973841ad488683
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4e7cbc65971c2f916d362e6a997d73e5581c9022
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220552"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205502"
 ---
 # <a name="file-resource-type"></a>파일 리소스 유형
 
@@ -60,13 +60,13 @@ Defender for Endpoint의 파일 엔터티를 나타냅니다.
 |size | Nullable long | 파일 크기 |
 |fileType | String | 파일 형식 |
 |isPeFile | 부울 | true이면 파일이 이식 가능한 실행 파일(예: "DLL", "EXE" 등)입니다. |
-|filePublisher | 문자열 | 파일 게시자 |
+|filePublisher | String | 파일 게시자 |
 |fileProductName | String | 제품 이름 |
 |signer | String | 파일 서명자 |
 |발급자 | String | 파일 발급자 |
-|signerHash | 문자열 | 서명 인증서의 해시 |
+|signerHash | String | 서명 인증서의 해시 |
 |isValidCertificate | 부울 | Microsoft Defender for Endpoint 에이전트에서 인증서 서명이 성공적으로 확인된 경우 |
-|determinationType | 문자열 | 파일의 결정 유형 |
+|determinationType | String | 파일의 결정 유형 |
 |determinationValue | String | 결정 값 |
 
 ## <a name="json-representation"></a>Json 표현

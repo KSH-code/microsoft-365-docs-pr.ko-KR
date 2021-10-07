@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-localization_priority: normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 7f18d72907ec8f2775ee258906c9185672bfa9be
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: a81fa60b1b66c8eb735da72e1e2108df804b2ef1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60041699"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206808"
 ---
 # <a name="run-live-response-commands-on-a-device"></a>장치에서 라이브 응답 명령 실행
 
@@ -85,7 +85,7 @@ ms.locfileid: "60041699"
     
   - **Windows Server 2022**
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 

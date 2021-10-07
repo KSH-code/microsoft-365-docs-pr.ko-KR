@@ -8,19 +8,19 @@ manager: dansimp
 audience: ITPro
 ms.topic: how-to
 ms.date: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c9446104a003dfe6374e86b4525dde6a2609b9ea
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 28dcfb3c914dd14ad9184f73c25c3469d2fa85d4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483270"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210488"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 피싱 방지 정책 Office 365
 
@@ -74,7 +74,7 @@ Defender for Office 365 피싱 방지 보호의 효율성을 높이기 위해 �
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - Defender for Office 365 피싱 방지 정책에 대한 권장 설정은 Office 365 설정에 대한 Defender의 피싱 [Office 365 참조하세요.](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)
 
@@ -204,7 +204,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by user impersonation protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by user impersonation protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
          빈 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for user imperation detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
   
@@ -226,7 +226,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
          비어 있는 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for mailbox intelligence detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
 
@@ -235,7 +235,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
 
      - **메시지가 스푸핑으로** 검색된 경우 : 이 설정은 이전 페이지에서 스푸핑 **인텔리전스** 사용 을 선택한 경우만 사용할 수 있습니다. 드롭다운 목록에서 차단된 스푸핑된 보낸 사람이 보낸 메시지에 대해 다음 작업 중 하나를 선택합니다.
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 검역:** 이 작업을 선택하면 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택하는 검역 정책 적용 상자가 나타납니다.  Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+       - **메시지 검역:** 이 작업을 선택하면 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택하는 검역 정책 적용 상자가 나타납니다.  Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
          빈 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for spoof intelligence detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
 

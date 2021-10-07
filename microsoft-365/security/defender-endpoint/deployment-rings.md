@@ -2,14 +2,13 @@
 title: 링에서 끝점용 Microsoft Defender 배포
 description: 링에서 끝점용 Microsoft Defender를 배포하는 방법 학습
 keywords: 배포, 링, 평가, 파일럿, 내부자 빠른, 내부자 저속, 설치, 온보드, 단계, 배포, 배포, 채택, 구성
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a9b7d78893f91242f5570a0df9fcbc3cab55bd4b
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 5894fa9fea9a6970981f1d1171af9097daa697e0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399301"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209981"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>링에서 끝점용 Microsoft Defender 배포
 

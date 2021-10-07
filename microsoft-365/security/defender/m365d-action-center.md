@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 52da535c376af5775f2c75d9259529d2a011791a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d1d3a6cb3b861641fde2c3f6455cf9bbe84ff7e9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218172"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210630"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -49,7 +49,7 @@ ms.locfileid: "59218172"
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Microsoft 365 Defender.":::
 
-예시: 
+예제: 
 
 - 이전에 Office 365 보안 & 준수 센터()를 사용 중이면 Microsoft 365 Defender [https://protection.office.com](https://protection.office.com) 포털()에서 통합 Microsoft 365 Defender [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.
 - Microsoft Defender 보안 센터()에서 작업 센터를 사용하는 경우 Microsoft 365 Defender [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) 포털()에서 통합 Microsoft 365 Defender [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.

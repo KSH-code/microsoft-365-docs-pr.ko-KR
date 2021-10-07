@@ -7,7 +7,7 @@ ms.date: 5/10/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.collection:
 - M365-security-compliance
 - Ent_O365
 description: 이 문서는 성능 문제의 Office 365 해결하고 가장 일반적인 몇 가지 문제를 해결하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 6ef459d6469881c71ea7d1da3a32eb42eb3ead6b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 23779158c250a94873f44139faa783e0079ab642
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191182"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209696"
 ---
 # <a name="performance-troubleshooting-plan-for-office-365"></a>Office 365 성능 문제 해결 계획
 
@@ -498,7 +498,7 @@ DNS 요청이 라우팅되는 outlook.office365.com 위치를 확인하려면 Pi
 
 이 네트워크 관련 문서에서는 응용 프로그램별 문제 해결에 사용되는 도구에 대해 다루지 않습니다. 그러나 이 페이지에서 사용할 수 *있는* 리소스를 찾을 [수 있습니다.](https://support.office.com/article/Network-planning-and-performance-tuning-for-Office-365-e5f1228c-da3c-4654-bf16-d163daee8848)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 끝점 관리](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
 

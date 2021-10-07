@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 18f7436c974ab9b976980861ae93bd4b3ea1fc2e
-ms.sourcegitcommit: e001934654119e15149ed29b3079b1019849f59c
+ms.openlocfilehash: cde5f6e00260710416266fd6f4113def9c7baf6f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934692"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206604"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>2013에서 경고 Microsoft 365 Defender
 
@@ -113,7 +113,7 @@ Microsoft 365 Defender 경고는 Microsoft Defender for Endpoint, Microsoft Defe
 :---|:---
 Office 365용 Microsoft Defender | `fa{GUID}` <br> 예: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
 엔드포인트용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
-ID용 Microsoft Defender | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Defender for Identity | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 ### <a name="analyze-affected-assets"></a>영향을 받는 자산 분석
@@ -141,9 +141,10 @@ Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33
 
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-manage.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-manage.png" alt-text="사이트 포털의 경고에 대한 요약 Microsoft 365 Defender 예입니다.":::
 
-경고 **관리 창에서** 다음을 지정할 수 있습니다.
+경고 **관리 창에서** 다음을 보거나 지정할 수 있습니다.
 
 - 경고 상태(신규, 해결, 진행 중)입니다.
+- 경고가 할당된 사용자 계정
 - 경고의 분류(설정되지 않은, True 경고, 거짓 경고)입니다.
 - 실제 경고로 분류하는 경우 결정 필드의 경고에 대한 위협 **유형입니다.**
 - 경고에 대한 설명입니다.

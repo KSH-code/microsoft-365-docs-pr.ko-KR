@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 search.appverid:
 - MET150
@@ -23,12 +23,12 @@ f1.keywords:
 - NOCSH
 description: 지원이 곧 종료되어 사용자 지정 지원 계약을 사용할 수 없는 Office 2010 서버 및 클라이언트 응용 프로그램에서 업그레이드 계획을 세우기 시작하십시오.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4f90a34bd4f6c4585cc8900b11808a11f4a2947
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2211df824335e0c9172f21e8ac02c45b72e19c51
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215645"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209552"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2010-servers-and-clients"></a>Office 2010 서버 및 클라이언트 업그레이드에 도움이 되는 리소스
 

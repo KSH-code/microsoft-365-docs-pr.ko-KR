@@ -11,7 +11,7 @@ ms.reviewer: shwetaj
 audience: ITPro
 ms.topic: article
 ms.prod: m365-security
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - next-gen
 - edr
@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: e58d98f059dc723b06a65bfad36d6e72807e2f63
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 41c51657d748ef1503c5540b1162d7ea43722b9f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042918"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205550"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 EDR(엔드포인트 감지 및 대응)
 
@@ -79,9 +79,9 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 
 |요구 사항|세부 정보|
 |---|---|
-|권한|에 전역 관리자 또는 보안 관리자 역할이 [할당되어 있어야 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 자세한 내용은 기본 사용 [권한을 참조하세요.](basic-permissions.md)|
+|사용 권한|에 전역 관리자 또는 보안 관리자 역할이 [할당되어 있어야 Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 자세한 내용은 기본 사용 [권한을 참조하세요.](basic-permissions.md)|
 |운영 체제|장치에서 다음 버전의 디바이스 중 하나를 실행해야 Windows. <ul><li>Windows 10(모든 릴리스)</li><li>Windows 서버, 버전 1803 이상</li><li>Windows Server 2019</li><li>Windows Server 2022</li><li>Windows Server 2016(Microsoft Defender 바이러스 백신 모드에 있는 경우만)</li></ul>|
-|끝점용 Microsoft Defender|끝점용 Defender에 장치를 온보딩해야 합니다. [끝점용 Microsoft Defender에 대한 최소 요구 사항을 참조하세요.](minimum-requirements.md)|
+|엔드포인트용 Microsoft Defender|끝점용 Defender에 장치를 온보딩해야 합니다. [끝점용 Microsoft Defender에 대한 최소 요구 사항을 참조하세요.](minimum-requirements.md)|
 |Microsoft Defender 바이러스 백신|장치에는 Microsoft Defender 바이러스 백신 수동 모드로 설치 및 실행되어야 합니다. [활성 Microsoft Defender 바이러스 백신 수동 모드에 있는지 확인](#how-do-i-confirm-microsoft-defender-antivirus-is-in-active-or-passive-mode)|
 |클라우드 제공 보호|Microsoft Defender 바이러스 백신 보호를 사용하도록 구성해야 [합니다.](enable-cloud-protection-microsoft-defender-antivirus.md)|
 |Microsoft Defender 바이러스 백신 플랫폼|장치를 최신으로 유지해야 합니다. 확인을 위해 PowerShell을 사용하여 [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus) cmdlet을 관리자 권한으로 실행합니다. **AMProductVersion** 줄에 **4.18.2001.10 이상이** 표시될 것입니다. <p> 자세한 내용은 [Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)을 참조하세요.|

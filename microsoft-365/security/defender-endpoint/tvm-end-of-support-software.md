@@ -10,7 +10,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e2b6d88f7cd443c7fb093d791a7904baafeb9c1d
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: 8e705c868dfc4bd5bba71d21d73fc112c6a54673
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60010132"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210880"
 ---
 # <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>지원 종료 소프트웨어 및 소프트웨어 버전을 계획하고 위협 및 취약성 관리
 

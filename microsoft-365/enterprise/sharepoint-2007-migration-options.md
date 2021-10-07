@@ -7,7 +7,7 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - SPO_Content
@@ -27,12 +27,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 SharePoint Server 2007을 사용하여 업그레이드를 계획하는 데 도움이 되는 정보를 제공합니다.
-ms.openlocfilehash: 38c4713b7dfb705c99d970c5f68a37b031c951a5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9f374e3e4f2282a7740575c60eb52e7095321c92
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210542"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210200"
 ---
 # <a name="sharepoint-2007-migration-options-to-consider"></a>SharePoint 2007 마이그레이션 옵션
 
@@ -77,7 +77,7 @@ Microsoft SharePoint 2007 및 SharePoint Server 2007의 지원이 종료됩니�
   
 1. 데이터베이스 연결 기능을 사용하여 Microsoft Office SharePoint Server 2007 데이터베이스의 백업을 별도로 업그레이드할 수 있습니다.
     
-2. Microsoft Office SharePoint Server 2007 팜에서 소수의 중요한 문서 라이브러리 및 기타 정보만 사용 중이면 데이터를 Microsoft Office SharePoint Server 2007에서 SharePoint Server 2010으로 수동으로 이동하거나 특정 사이트 및 웹만 다음 버전으로 이동하여 작업을 쉽게 할 수 있습니다.
+2. Microsoft Office SharePoint Server 2007 팜에서 소수의 중요한 문서 라이브러리 및 기타 정보만 사용 중이면 데이터를 Microsoft Office SharePoint Server 2007에서 SharePoint Server 2010으로 수동으로 이동하거나, 특정 사이트 및 웹을 다음 버전으로 변경합니다(작업을 더 쉽게 만들 수 있습니다).
     
 3. Microsoft Office SharePoint Server 2007 서버 팜을 직접 업그레이드할 때 팜에 포함된 데이터가 더 안전합니다.
     
@@ -103,7 +103,7 @@ In-Place 업그레이드와 같은 방법은 Microsoft Office SharePoint Server 
     
 - 큰 데이터 폴더(예: 파일 보관 파일)
     
-- 사용 가능
+- 사용 가능성
     
 - 팜의 중요 앱, 웹 파트 또는 docs(중요 중요 팜)
     

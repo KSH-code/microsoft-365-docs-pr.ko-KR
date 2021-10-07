@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: dolmont
 author: DulceMontemayor
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1d5771be82c687144759fd321dfc44b8c6158d57
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 60bd9f8bd5916c94bdbdb5414c910ee37490a076
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190932"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209792"
 ---
 # <a name="list-software-version-distribution"></a>소프트웨어 버전 배포 목록
 
@@ -39,7 +39,7 @@ ms.locfileid: "59190932"
 
 조직의 소프트웨어 버전 배포 목록을 검색합니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API](apis-intro.md) for details을 참조합니다.
 

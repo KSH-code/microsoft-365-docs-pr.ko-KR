@@ -6,7 +6,7 @@ manager: laurawi
 ms.audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 다중 위치 및 이동 위치를 Microsoft 365 단일 또는 Microsoft 365 테넌트를 배포하고 관리합니다.
-ms.openlocfilehash: 5dee78835de1e3e64f52f653f52ea4f32dcf6547
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 149dd4274e43d085f2c454774c4499a12561b766
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213122"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206436"
 ---
 # <a name="step-1-your-microsoft-365-for-enterprise-tenants"></a>1단계. 엔터프라이즈 Microsoft 365 대한 사용자 설정
 

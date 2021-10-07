@@ -7,17 +7,17 @@ author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: e1806a0a21dc5f3fc300442f31da5016ffcf99e7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9f2d0d20d9df68cb10a5a84d6f2ba07d11a4e478
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215272"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210116"
 ---
 # <a name="device-profiles"></a>장치 프로필
 
@@ -51,7 +51,7 @@ ms.locfileid: "59215272"
 |기능|중요한 데이터|Power User|Standard|
 |---|:---:|:---:|:---:|
 |**외부 웹 Storage**|예|예|아니요|
-|**[클라우드 차단 수준](/graph/api/resources/intune-deviceconfig-defendercloudblockleveltype)**|High|High|High|
+|**[클라우드 차단 수준](/graph/api/resources/intune-deviceconfig-defendercloudblockleveltype)**|높음|높음|높음|
 |**Microsoft 계정을 사용하지 않도록 설정**|예|예|아니요|
 |**개인 정보 보호 OneDrive**|예|예|아니요|
 |**권한 상승을 위해 보안 데스크톱으로 전환**|아니요|예|아니요|

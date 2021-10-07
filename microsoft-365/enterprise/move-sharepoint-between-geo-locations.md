@@ -10,17 +10,17 @@ ms.service: o365-solutions
 ms.collection:
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 다중 위치 SharePoint 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법에 대해 알아보고
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9c7ad267dcb32e055038e5186595db5776999263
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 44f6b8323f99419706378ff963259cf5c5fa85e9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212505"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209672"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>SharePoint 사이트를 다른 지리적 위치로 이동
 

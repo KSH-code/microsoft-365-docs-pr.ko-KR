@@ -4,17 +4,17 @@ description: 디바이스에 적용되는 기본 정책에 대해 Microsoft Mana
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e4f07adb051dde24d374055d206955ad61df432a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ec545a54988c2634c651ec07084c005467afd565
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218412"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210152"
 ---
 # <a name="device-configuration"></a>장치 구성
 

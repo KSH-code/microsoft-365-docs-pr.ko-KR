@@ -2,27 +2,25 @@
 title: Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포
 description: Android에서 끝점용 Microsoft Defender를 배포하는 방법을 Microsoft Intune
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, mde, android, 설치, 배포, 제거,
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f24e7242f56e91853e14cf91d3c97df239b625ee
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: b1b445f902445244f98c5dc8768c76a554098f73
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934230"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210164"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포
 

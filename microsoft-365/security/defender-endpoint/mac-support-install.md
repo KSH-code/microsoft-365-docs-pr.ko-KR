@@ -2,15 +2,13 @@
 title: Mac의 끝점용 Microsoft Defender 설치 문제 해결
 description: Mac의 끝점용 Microsoft Defender에서 설치 문제를 해결합니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 776cd18146fa4f726ef5d25433c564510b8a0e67
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8371129ff1b64681aee018802205a5f5a359fd86
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215005"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209480"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 설치 문제 해결
 
@@ -61,7 +59,7 @@ preinstall com.microsoft.wdav end [2020-03-11 13:08:49 -0700] 804 => 1
 ## <a name="mdatp-install-log-missing-or-not-updated"></a>MDATP 설치 로그가 누락되거나 업데이트되지 않습니다.
 
 드물지만 설치는 MDATP의 /Library/Logs/Microsoft/mdatp/install.log 파일에 추적을 남기지 않습니다.
-macOS 로그를 쿼리하여 설치가 발생했다는 사실과 가능한 오류를 분석할 수 있습니다(클라이언트 UI가 없는 경우 MDM 배포에 유용합니다). 많은 정보가 제공될 수 있도록 좁은 시간 창을 사용하여 쿼리를 실행하고 로깅 프로세스 이름을 사용하여 필터링하는 것이 좋습니다.
+macOS 로그를 쿼리하여 설치가 발생했다는 사실과 가능한 오류를 분석할 수 있습니다(클라이언트 UI가 없는 경우 MDM 배포에 유용합니다). 많은 정보가 제공될 수 있도록 좁은 시간 창을 사용하여 쿼리를 실행하고 로깅 프로세스 이름으로 필터링하는 것이 좋습니다.
 
 ```bash
 grep '^2020-03-11 13:08' /var/log/install.log

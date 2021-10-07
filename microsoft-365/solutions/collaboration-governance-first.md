@@ -7,7 +7,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365solution-collabgovernance
@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 공동 작업 거버넌스 계획을 만드는 방법 학습
-ms.openlocfilehash: cd6da85f43d3dc72ee7b9ccd763872dbccfbeb78
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: cce044aecfdc8c905ecd7aa9d87236db5c8f07ea
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213192"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206424"
 ---
 # <a name="create-your-collaboration-governance-plan"></a>공동 작업 거버넌스 계획 만들기
 

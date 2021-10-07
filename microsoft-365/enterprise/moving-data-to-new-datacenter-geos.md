@@ -7,7 +7,7 @@ ms.date: 12/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: 0a35176a-e585-4dec-a90b-36be8314667f
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 새로운 Office 365 데이터 센터 지역 및 데이터 상주 옵션을 사용하여 핵심 데이터를 새 지역으로 이동하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 797ac69e2c60c2e4c3ece38b376406027ff65e36
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 724021bc3fb5fd8a0946bcf5f460e4848c44bf9f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212502"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209648"
 ---
 # <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>핵심 데이터를 새 데이터 Microsoft 365 지역으로 이동
 

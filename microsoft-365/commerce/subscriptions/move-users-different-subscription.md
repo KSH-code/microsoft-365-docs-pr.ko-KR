@@ -9,7 +9,7 @@ ms.reviewer: micurn, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: 구독 간에 사용자를 이동하는 방법을 학습합니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 96ae6a589469004f2479edb2a4f8ed384b25f841
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5cbbdb79d291b89c2f62e44e44239ea5e2791f57
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221179"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206160"
 ---
 # <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
@@ -39,7 +39,7 @@ ms.locfileid: "59221179"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -51,7 +51,7 @@ ms.locfileid: "59221179"
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 

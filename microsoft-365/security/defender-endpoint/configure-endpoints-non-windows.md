@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1c8e5fa990e37f4812b8e5429fdbf2fcbfa7b71
-ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
+ms.openlocfilehash: 775db5f94cacbca08993b0cb9aac67019515174a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124736"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210032"
 ---
 # <a name="onboard-non-windows-devices"></a>Windows가 아닌 장치 온보딩
 
@@ -63,13 +63,9 @@ Endpoint용 Defender는 비영리 플랫폼 및 비영리 Windows 중앙 집중�
 
 ## <a name="offboard-non-windows-devices"></a>비보안 Windows 오프보드
 
-1. 타사의 설명서에 따라 끝점용 Microsoft Defender에서 타사 솔루션 연결을 끊습니다.
+macOS 및 Linux 장치의 경우 끝점용 Microsoft Defender를 통해 오프보딩할 수 있습니다. 탐색 창에서 **오프보드** 설정 선택을 선택하여 오프보링 프로세스를 \>  \> **시작합니다.**
 
-2. Azure AD 테넌트에서 타사 솔루션에 대한 사용 권한을 제거합니다.
-   1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
-   2. 응용 **Azure Active Directory > Enterprise 선택합니다.**
-   3. 오프보드할 응용 프로그램을 선택합니다.
-   4. 삭제 **단추를** 선택합니다.
+타사 통합을 Windows 비보안 장치를 오프보드할 수 있습니다. 타사 솔루션을 통합하여 Windows 플랫폼을 실행하는 장치에 대해 적용 [범위를 사용하도록 설정](https://securitycenter.windows.com/interoperability/partners) 
 
 ## <a name="related-topics"></a>관련 항목
 

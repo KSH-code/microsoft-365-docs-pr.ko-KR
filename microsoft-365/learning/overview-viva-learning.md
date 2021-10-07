@@ -13,14 +13,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
-localization_priority: None
+ms.localizationpriority: ''
 description: 사용자 환경의 Microsoft Viva Learning(미리 보기)에 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: e08be19d9277a31401b62be71f1e180859ba29bb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 41a10fe0e4179e9d56fbf8eca3793d0c41ad339b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191159"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205776"
 ---
 # <a name="overview-of-microsoft-viva-learning-preview"></a>개요 Microsoft Viva Learning(미리 보기) 
 

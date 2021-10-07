@@ -10,18 +10,18 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 초안 컬렉션은 컬렉션의 검색 쿼리와 일치하는 검색 예상 결과를 반환하는 Advanced eDiscovery 사례에서 양도 및 비보조 데이터 원본의 eDiscovery 검색입니다. 검색 통계를 검토하고, 항목 샘플링을 미리 보고, 결과를 검토 집합에 커밋하기 전에 컬렉션을 변경하고 다시할 수 있습니다.
-ms.openlocfilehash: 0354f2a04dfff82f995fe74663633f42ed01e677
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5a65bc97f44b2b5bf32f57f52000e66d68dc428a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165938"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206172"
 ---
 # <a name="create-a-draft-collection-in-advanced-ediscovery"></a>컬렉션에서 초안 컬렉션 Advanced eDiscovery
 

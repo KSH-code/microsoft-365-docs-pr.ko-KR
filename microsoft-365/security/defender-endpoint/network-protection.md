@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: Normal
+ms.localizationpriority: medium
 audience: ITPro
 author: denisebmsft
 ms.author: deniseb
@@ -17,12 +17,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: overview
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ab658009d5459093477dede8fdab5e8da4186eb6
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: b06c0cbe5fd9158b6793d3d8b1079c365016914a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491160"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209396"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 

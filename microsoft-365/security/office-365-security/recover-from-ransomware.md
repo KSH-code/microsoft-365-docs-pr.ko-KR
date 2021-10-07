@@ -6,7 +6,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9659a68e69f732203a20853320b2e35cd268a7c8
-ms.sourcegitcommit: d1eb1c26609146ff5a59b2a1b005dd7ac43ae64e
+ms.openlocfilehash: d2bb99111142be683c6504010576253784d3cd68
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60099756"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60210404"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -154,6 +154,7 @@ Microsoft의 주요 정보:
 Microsoft 365:
 
 - [Microsoft 365 테넌트용 랜섬웨어 보호 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)
+- [Azure 및 랜섬웨어의 탄력성을 최대화하고 Microsoft 365](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어로부터 Windows PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
@@ -165,6 +166,7 @@ Microsoft 365 Defender:
 Microsoft Azure:
 
 - [랜섬웨어 공격용 Azure 방어](https://azure.microsoft.com/resources/azure-defenses-for-ransomware-attack/)
+- [Azure 및 랜섬웨어의 탄력성을 최대화하고 Microsoft 365](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
 - [랜섬웨어로부터 보호하기 위한 백업 및 복원 계획](/security/compass/backup-plan-to-protect-against-ransomware)
 - [랜섬웨어로부터](https://www.youtube.com/watch?v=VhLOr2_1MCg) 보호하는 Microsoft Azure 백업(26분 비디오)
 - [시스템 ID 손상 복구](/azure/security/fundamentals/recover-from-identity-compromise)

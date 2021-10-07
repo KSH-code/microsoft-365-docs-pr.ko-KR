@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 07d810f1588de01e4ee53294b39cc6b09b372046
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d67be887a2efa3735665eedc6cdd7522b4f1f1f7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212285"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205622"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>엔드포인트용 Microsoft Defender 지원 문의
 
