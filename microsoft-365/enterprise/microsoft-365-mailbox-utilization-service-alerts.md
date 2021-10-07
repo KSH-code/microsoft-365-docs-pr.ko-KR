@@ -7,7 +7,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -17,12 +17,12 @@ ms.custom: admindeeplinkMAC
 f1.keywords:
 - NOCSH
 description: 사서함 사용률 서비스 알림을 사용하여 사서함 할당량에 도달하는 보류된 사서함을 모니터링합니다.
-ms.openlocfilehash: 32536cf8a034867ecb82e44487f34280a9b591ac
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: c131ef58cbad2e2f57c1e97de6c2da6b3b52a707
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011467"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177306"
 ---
 # <a name="service-alerts-for-mailbox-utilization-in-exchange-online-monitoring"></a>Exchange Online 모니터링의 사서함 사용률에 대한 서비스 알림
 

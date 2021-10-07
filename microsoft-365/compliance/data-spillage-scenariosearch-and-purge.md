@@ -8,18 +8,18 @@ manager: laurawi
 audience: ITPro
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: eDiscovery 및 검색 도구를 사용하여 조직의 데이터 유출 인시던트 관리 및 대응
-ms.openlocfilehash: 340bf10dc57737c024d1ffcb3a441ba53bc917d6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 51fe6119acff7007f879b2ef323f263865458dfa
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213912"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177618"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오 - 검색 및 제거
 

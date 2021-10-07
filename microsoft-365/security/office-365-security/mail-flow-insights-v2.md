@@ -7,18 +7,18 @@ author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 사용할 수 있는 인사이트 및 & 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 060cbc7a55257a0fbb1510fd8b2f5d325a396a86
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: 81313744f8c5f14abed59b77182f64e410f9d588
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988946"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180880"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 

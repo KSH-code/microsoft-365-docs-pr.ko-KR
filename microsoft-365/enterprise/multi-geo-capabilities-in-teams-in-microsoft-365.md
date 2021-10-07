@@ -15,14 +15,14 @@ ms.collection:
 - SPO_Content
 - m365solution-scenario
 - m365solution-spintranet
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Multi-Geo에서 Teams 작동하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6df7d20b8541ec6aefca1f30d7fbfe6bf7c3f6c9
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: e561332052f226fe98d0304bd6a76d6b76cfd1c4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60043014"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177282"
 ---
 # <a name="multi-geo-capabilities-in-microsoft-teams"></a>Microsoft Teams
 

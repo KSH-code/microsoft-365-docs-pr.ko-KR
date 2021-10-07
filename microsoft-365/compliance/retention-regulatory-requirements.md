@@ -10,17 +10,17 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MOE150
 - MET150
 description: 정보 거버넌스 및 레코드 관리를 위해 규정 요구 사항을 충족할 수 있도록 도움이 되는 리소스
-ms.openlocfilehash: a2629dbd9df4b582b2aeb7726de87d81eb726a76
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2d76f543217d3b671a30bcb4cb9a2d32d53b4069
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216535"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177342"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>정보 거버넌스 및 레코드 관리를 위한 규정 요구 사항
 

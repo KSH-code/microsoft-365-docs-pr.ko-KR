@@ -10,18 +10,18 @@ metadata:
   audience: ITPro
   ms.topic: overview
   ms.service: O365-seccomp
-  localization_priority: Normal
+  ms.localizationpriority: medium
   search.appverid:
   - MET150
   ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
   description: 새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요.
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 4298ab1460088ac494fe4c6386fa793665cb7c1b
-  ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
+  ms.openlocfilehash: 4dcac8a2b4a33b70bfe94421b4813412d012db46
+  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/05/2021
-  ms.locfileid: "60124820"
+  ms.lasthandoff: 10/06/2021
+  ms.locfileid: "60177486"
 title: 메시지 암호화 FAQ
 summary: >
   새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요. 또한 Azure Information [Protection의](/information-protection/get-started/faqs-rms) 데이터 보호 서비스인 Azure Rights Management에 대한 질문과 대답은 Azure Information Protection의 데이터 보호에 대한 질문과 대답을 살펴보아야 합니다.

@@ -11,10 +11,10 @@ metadata:
   author: twerner
   ms.author: twernermsft
   ms.date: 12/16/2020
-  localization_priority: Priority
+  ms.localizationpriority: high
 productDirectory:
   items:
-    - title: 시작
+    - title: 시작하기
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
       summary: 비즈니스용 Microsoft 365 이동을 계획합니다.
       url: what-is-microsoft-365.md
@@ -64,7 +64,7 @@ productDirectory:
       url: get-help-support.md
 additionalContent:
   sections:
-    - title: 자세히 알아보기
+    - title: 자세한 정보
       items:
         - title: 자세한 Office
           summary: 'Word, Excel, PowerPoint 앱 및 기타 Office 방법을 배워야 합니다.'

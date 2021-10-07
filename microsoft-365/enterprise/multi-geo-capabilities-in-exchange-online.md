@@ -10,14 +10,14 @@ ms.service: o365-solutions
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 기능 제한 사항 및 사서함 Exchange Online 같은 다중 위치 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: c7c7699906b92e09f88f59bb9d34d1c3b2c36135
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8938808a857a70a865678589e9a70e4ee0eb083c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210702"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177294"
 ---
 # <a name="multi-geo-capabilities-in-exchange-online"></a>Exchange Online의 다중 위치 기능
 

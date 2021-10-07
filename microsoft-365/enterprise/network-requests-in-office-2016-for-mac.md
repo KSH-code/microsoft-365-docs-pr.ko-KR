@@ -7,7 +7,7 @@ ms.date: 11/9/2018
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -17,12 +17,12 @@ ms.custom:
 search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b
 description: 이 문서에서는 응용 프로그램이 도달하려고 시도하는 끝점 Mac용 Office URL 및 제공된 서비스에 대해 설명합니다.
-ms.openlocfilehash: abb744d4ee75b06e66ac6a9aa43c7fd18d8a452f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 37071b0aaf9e6f172d99a10cb4a1506f1627ef03
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185940"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177078"
 ---
 # <a name="network-requests-in-office-for-mac"></a>Mac용 Office의 네트워크 요청
 
@@ -96,7 +96,7 @@ URL 형식은 다음과 같이 정의됩니다.
   
  **로그인**
   
-클라우드 기반 저장소에 로그인할 때 다음 네트워크 끝점에 연결됩니다. 계정 유형에 따라 다른 서비스에 문의할 수 있습니다. 예:
+클라우드 기반 저장소에 로그인할 때 다음 네트워크 끝점에 연결됩니다. 계정 유형에 따라 다른 서비스에 문의할 수 있습니다. 예제:
   
 - **MSA: Microsoft 계정** - 일반적으로 소비자 및 소매 시나리오에 사용됩니다. 
     
@@ -224,7 +224,7 @@ URL 형식은 다음과 같이 정의됩니다.
 |```https://wikipedia.firstpartyappssandbox.oappseperate.com/```  <br/> |W  <br/> |SS  <br/> |Wikipedia 샌드박스 프레임  <br/> |
 |```https://*.virtualearth.net/```  <br/> |X 키  <br/> |SS  <br/> |지도 서식 파일  <br/> |
    
- **안전한 링크**
+ **안전 링크**
   
 다음 네트워크 끝점은 Office 구독용 모든 Microsoft 365 적용됩니다.
   

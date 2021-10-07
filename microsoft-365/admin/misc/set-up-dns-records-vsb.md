@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365로 도메인을 확인하고 DNS 레코드 만드는 방법을 배웁니다.
 ms.custom:
 - AdminSurgePortfolio
-ms.openlocfilehash: 3359a676924760c7780da1d65c8a56f9f7498b6f
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: c4282ef4b140fa9e58168ba39c37b4af22b46193
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774367"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193844"
 ---
 # <a name="connect-your-domain-to-microsoft-365"></a>Microsoft 365에 도메인 연결
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 앱의 관리자 역할에 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 47fe5628bb8464053111078891fc1038fcdd8fa6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d63a8728ef3f4989d2753238d749371abff587ba
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188756"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193580"
 ---
 # <a name="what-is-a-microsoft-365-admin"></a>관리자란 Microsoft 365 무엇입니까?
 
@@ -48,7 +48,7 @@ ms.locfileid: "59188756"
 1. 관리자로 만들 사람을 선택합니다. 사용자의 세부 정보가 오른쪽 대화 상자에 표시됩니다.
 1. 역할 **관리를 선택 합니다.**
 1. 사용자(관리자 액세스 권한 **없음)** 확인란의 선택을 취소한 다음 관리자 역할 중 하나를 선택합니다. 역할에 대한 자세한 내용은 느낌표(!) 위에 마우스를 대고 도구 팁을 읽어보세요. 사용자에게 사용자와 동일한 역할을 제공하려면 전역 관리자 **를 선택합니다.**
-1. **변경 사항 저장** 을 선택합니다.
+1. **변경 내용 저장** 을 선택합니다.
 
 ### <a name="create-an-admin-account"></a>관리자 계정 만들기 
 

@@ -6,7 +6,7 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: conceptual
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 - MOE150
@@ -19,12 +19,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8651adb37640d68d0eace7aa23a134ba3b892bbd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b865725c39b6b21fe8963fe227e59658feefb813
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211735"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180892"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -130,7 +130,7 @@ Office 365용 Microsoft Defender 플랜 2에는 조직의 보안팀이 악의적
 
 - **[위협 트래커](threat-trackers.md)** 는 일반적인 사이버 보안 문제에 대한 최신 인텔리전스를 제공합니다. 예를 들어 최신 맬웨어에 대한 정보를 확인하고, 실제로 조직에 위협이 되기 전에 대응책을 사용할 수 있습니다. 사용 가능한 트래커에는 [주목할만한 트래커](threat-trackers.md#noteworthy-trackers), [인기 트래커](threat-trackers.md#trending-trackers), [추적 쿼리](threat-trackers.md#tracked-queries) 및 [저장된 쿼리](threat-trackers.md#saved-queries)가 포함됩니다.
 
-- **[위협 탐색기 (또는 실시간 검출)](threat-explorer.md)** (탐색기라고도 함)는 최근 위협을 식별하고 분석할 수있는 실시간 보고서입니다. 사용자 지정 기간에 대한 데이터를 표시하도록 탐색기를 구성할 수 있습니다.
+- **[위협 탐색기](threat-explorer.md)**(또는 실시간 검출) (탐색기라고도 함)는 최근 위협을 식별하고 분석할 수있는 실시간 보고서입니다. 사용자 지정 기간에 대한 데이터를 표시하도록 Explorer를 구성할 수 있습니다.
 
 - **[공격 시뮬레이션 교육](attack-simulation-training.md)** 은 사용자 조직에서 실제 공격 시나리오를 실행하여 취약성을 식별할 수 있습니다. 스피어 피싱 자격 증명 수집 및 첨부 파일 공격과 비밀번호 분무 및 무차별 비밀번호 대입 공격 등을 포함하여 최근 유형의 공격에 대한 시뮬레이션을 사용할 수 있습니다.
 

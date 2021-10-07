@@ -9,7 +9,7 @@ manager: dansimp
 ms.date: 12/16/2020
 audience: ITPro
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -20,12 +20,12 @@ description: 위협 조사 및 대응 기능을 사용하여 악성 전자 메�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1fef669f8e961ab60c222fad59811f78d55baabb
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: b3a427b90af637a59a35f18cba9138759b81f6d4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59484038"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180904"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-microsoft-365"></a>전자 메일에서 배달된 악성 전자 메일 Microsoft 365
 
@@ -64,7 +64,7 @@ ms.locfileid: "59484038"
 |활동|역할 그룹|미리 보기 역할이 필요하세요?|
 |---|---|---|
 |위협 탐색기(및 실시간 검색)를 사용하여 위협 분석 |전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요|
-|위협 탐색기(및 실시간 검색)를 사용하여 전자 메일 메시지에 대한 헤더를 보고, 분리된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니오|
+|위협 탐색기(및 실시간 검색)를 사용하여 전자 메일 메시지에 대한 헤더를 보고, 분리된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자|아니요|
 |위협 탐색기를 사용하여 헤더 보기, 전자 메일 미리 보기(전자 메일 엔터티 페이지만) 및 사서함에 배달된 전자 메일 메시지 다운로드|전역 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자 <p> Preview|예|
 |
 

@@ -9,19 +9,19 @@ ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 문서의 검토 집합에 있는 문서에 대한 메타데이터 필드를 Advanced eDiscovery Microsoft 365.
-ms.openlocfilehash: ed7652ecf720e32a7ddfaffbd0ff2db29b582b69
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0dd0c11360a1e815c950e6e01448d95a79a8e266
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219015"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177546"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Advanced eDiscovery의 문서 메타데이터 필드
 
@@ -78,7 +78,7 @@ ms.locfileid: "59219015"
 |중복 하위 집합||Duplicate_subset|정확한 중복 항목의 그룹 ID입니다.|
 |EmailAction*||Email_action|값은 **None,** **Reply** 또는 **Forward입니다.** 메시지의 제목 줄을 기반으로 합니다.|
 |전자 메일 배달 확인 요청||Email_delivery_receipt|배달 확인을 위해 인터넷 헤더에 제공된 전자 메일 주소입니다.|
-|Importance|EmailImportance|Email_importance|메시지의 중요도: **0** - 낮음 **1** - 보통; **2** - 높음|
+|중요도|EmailImportance|Email_importance|메시지의 중요도: **0** - 낮음 **1** - 보통; **2** - 높음|
 |무시된 처리 오류|ErrorIgnored|Error_Ignored|오류가 무시되고 수정되지 않습니다.|
 |EmailInternetHeaders|EmailInternetHeaders|Email_internet_headers|전자 메일 메시지의 전체 전자 메일 헤더 집합|
 |EmailLevel*||Email_level|메시지가 속한 전자 메일 스레드 내의 메시지 수준을 나타냅니다. 첨부 파일은 부모 메시지의 값을 상속합니다.|

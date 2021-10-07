@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-localization_priority: normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 MS.technology: mde
-ms.openlocfilehash: 29a369c2813cfe3c9c17b6b11f765d4d6162f8bf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ce8f931f0d400c967b3312fe6cfafcadb3a715c7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189312"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60181238"
 ---
 # <a name="configure-your-event-hub"></a>이벤트 허브 구성
 
@@ -99,7 +99,7 @@ ms.locfileid: "59189312"
 > [!NOTE]
 > 이벤트 허브 클러스터에 없는 이벤트 허브  네임스페이스를 사용하는 경우 이벤트 허브 네임스페이스당 이벤트 허브가 10개로 제한되어 정의한 각 내보내기 작업에서 내보낼 이벤트 유형(테이블)설정 수 있습니다.
 
-예:
+예제:
 
 ![예제 이벤트 허브의 이미지입니다.](../../media/005c1f6c10c34420d387f594987f9ffe.png)
 

@@ -4,7 +4,7 @@ description: 조직에서 장치에 대한 위험 및 노출 수준을 확인합
 keywords: 보안, 맬웨어, Microsoft 365, M365, Microsoft 365 Defender, 보안 센터, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender, 장치 페이지, 장치 프로필, 컴퓨터 페이지, 컴퓨터 프로필
 ms.prod: m365-security
 ms.mktglfcycl: deploy
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.author: v-maave
 author: martyav
 manager: dansimp
@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: f33b16cb08f7573a579f46327f126071ed726e42
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9838d7f3ffed46c62891822c6e3761e36d49baf5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192552"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60181214"
 ---
 # <a name="device-profile-page"></a>디바이스 프로필 페이지
 

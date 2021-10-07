@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 계획 2 조직용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c994d00066d5379d1f38a5dd774045ef679993df
-ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
+ms.openlocfilehash: e3a1be88cb1666f689b4482684823ff09fc39fed
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127001"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180995"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
 

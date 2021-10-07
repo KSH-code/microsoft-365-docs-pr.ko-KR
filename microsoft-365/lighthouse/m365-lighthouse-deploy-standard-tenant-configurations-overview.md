@@ -7,7 +7,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-lighthouse
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse)의 경우 기준을 사용하여 표준 테넌트 구성을 배포하는 방법을 배워야 합니다.
-ms.openlocfilehash: 5dc1f7da329ab1630d857ee337048a47ad06c9e9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 793a8f61634660487dc9256d23f0f7d83ff68983
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191139"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177042"
 ---
 # <a name="overview-of-using-baselines-to-deploy-standard-tenant-configurations"></a>기준을 사용하여 표준 테넌트 구성 배포 개요 
 

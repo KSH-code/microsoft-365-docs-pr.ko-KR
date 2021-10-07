@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: 비즈니스용 앱으로 이동하기 위한 요구 사항 및 고려 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: bda849f6337ed2cc9b9c5b2bc5a192e7ac016e03
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: 7e7d3a56d58c19e36372a4e3d8f32788bf19771d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786350"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193832"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 설정 계획
 

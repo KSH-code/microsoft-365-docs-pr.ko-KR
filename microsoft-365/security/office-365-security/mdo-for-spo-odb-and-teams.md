@@ -8,7 +8,7 @@ manager: dansimp
 audience: Admin
 ms.date: ''
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -23,12 +23,12 @@ ms.custom:
 description: Office 365 Online, Office 365 및 SharePoint 파일용 Microsoft Defender에 대해 비즈니스용 OneDrive Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fe601cdb6ea130e904f8b7526dc265cd19e2ab77
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 23348b0f1f1bff3a9abde8c0b6d890eb39fd898d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483846"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180868"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams를 위한 안전한 첨부 파일
 

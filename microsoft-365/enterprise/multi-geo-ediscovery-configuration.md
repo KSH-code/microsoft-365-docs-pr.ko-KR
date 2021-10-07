@@ -10,15 +10,15 @@ ms.service: o365-solutions
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Strat_SP_gtc
 description: Region 매개 변수를 사용하여 Multi-Geo의 위성 위치에서 사용하도록 eDiscovery를 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 4d3481fe8b72bb970893ce065293a7a2cc717331
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1bdf03a7c639e659d1b4ec12c691c65863318ad7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210675"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177270"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Microsoft 365 Multi-Geo eDiscovery 구성
 

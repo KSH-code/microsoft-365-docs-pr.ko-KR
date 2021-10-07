@@ -4,18 +4,18 @@ description: 두 도구, 실행 검사 및 결과의 의미에 대해 설명
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: cc06faa8a5a18f8f63a984e6ce3f7b6bfb6cbc4b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c584632a625ecb8597aa0c9319063e6f9198bec3
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215515"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216937"
 ---
 # <a name="readiness-assessment-tools"></a>준비 평가 도구
 
@@ -30,7 +30,10 @@ ms.locfileid: "59215515"
 온라인 [도구는](https://aka.ms/mmdart) Microsoft Endpoint Manager(특히 Microsoft Intune), Azure Active Directory(Azure AD) 및 Microsoft 365 설정이 Microsoft Managed Desktop. Microsoft Managed Desktop Azure AD 조직(테넌트)에서 검사를 마지막으로 실행한 후 12개월 동안 이러한 검사와 관련된 데이터가 보존됩니다. 12개월 후에 비식별된 양식으로 보존됩니다. 수집하는 데이터를 삭제할 수 있습니다.
 
 전역 읽기 권한자 또는 Intune 관리자 역할이 있는 모든 사용자가 이 도구를[](readiness-assessment-fix.md#conditional-access-policies) 실행할 수 있지만 [](readiness-assessment-fix.md#multifactor-authentication) 조건부 액세스 정책 및 다단계 인증의 두 가지 확인에는 추가 권한이 필요합니다.
- 
+
+> [!IMPORTANT]  
+> 온라인 준비 평가 도구를 사용하면 처음으로 온라인 준비 Microsoft Managed Desktop 준비를 확인할 수 있습니다. 조직이 이미 조직에 Microsoft Managed Desktop 이 도구를 사용하지 않습니다.
+
 평가 도구는 다음 항목을 검사합니다.
 
 ## <a name="microsoft-intune-settings"></a>Microsoft Intune 설정

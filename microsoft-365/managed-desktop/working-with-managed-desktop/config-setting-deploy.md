@@ -4,17 +4,17 @@ description: 구성 가능한 설정 변경 내용을 배포하고 추적할 수
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 배포, 단계적 배포, 구성 가능한 설정
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: aad4995f9c329b0fd8fcbcc8b1d13379453c2a76
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9a541ccf5a7bcd4197e1b24a2a6667995c08ea7f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191032"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177018"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정 배포 및 추적 - Microsoft Managed Desktop
 
