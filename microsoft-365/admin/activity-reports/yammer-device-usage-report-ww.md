@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Yammer 장치 사용 현황 보고서를 통해 사용자가 어떤 장치를 사용하고 Yammer.
-ms.openlocfilehash: b9c05f54b1cc8f2483b3b167743bf0158c6dbc35
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0cfe8dfe6cded534e3fd22126924a7aa2cae775e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185364"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158877"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 사용 현황 보고서
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 앱에 포함된 보안 기능에 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 686ced4c4612470d25ab3a39fdd824b576bbeab7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 118c69356e7e12bfab69770f6ee1dc15bd58525e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190549"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60160683"
 ---
 # <a name="overview-of-security"></a>보안 개요
 
@@ -55,7 +55,7 @@ Microsoft 365 Business Premium 맬웨어, Office 365 유해한 링크 등으로�
 
 [Exchange Online Archiving](/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description) Microsoft Exchange 및 데이터 중복을 Exchange Online 고급 보관 기능을 제공하는 클라우드 기반 보관 솔루션입니다. 보존 정책을 사용하여 조직에서 전자 메일 및 기타 통신과 관련된 부담을 줄일 수 있습니다. 회사에서 소송과 관련된 통신을 보존해야 하는 경우 소송 보존 및 소송 보존을 사용하여 In-Place 전자 메일을 보존할 수 있습니다.
 
-## <a name="device-management"></a>디바이스 관리
+## <a name="device-management"></a>장치 관리
 
 Microsoft 365 Business Premium 관리 기능을 사용하면 사용자가 등록된 디바이스로 할 수 있는 작업을 모니터링하고 제어할 수 있습니다. 이러한 기능에는 조건부 액세스, [MDM(모바일 장치 관리),](/microsoft-365/admin/basic-mobility-security/manage-enrolled-devices)BitLocker 및 자동 업데이트가 포함됩니다.
 

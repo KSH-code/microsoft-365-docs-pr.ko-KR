@@ -6,7 +6,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft 브라우저 사용 현황 보고서를 다운로드하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: 0e2d3b2ecc0ad196a64f15966fe034edb2601555
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f7878ddaef778c3a8a751f0ab1765df26b7c3a58
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166506"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156045"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 브라우저 사용
 

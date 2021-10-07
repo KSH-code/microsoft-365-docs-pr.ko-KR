@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 18243e1d8ad908572c0dccc4cd2a3bdfefa47d46
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: 90775af14d78092159d2b92736abce56a961416e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60009412"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159177"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>웹 위협으로부터 조직 보호
 
@@ -38,7 +38,7 @@ ms.locfileid: "60009412"
 > [!NOTE]
 > 디바이스에서 새 사용자 지정 표시기를 받는 데 최대 1시간이 걸릴 수 있습니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 웹 보호는 네트워크 보호를 사용하여 Microsoft Edge 및 타사 웹 브라우저에서 웹 검색 보안을 제공합니다.
 

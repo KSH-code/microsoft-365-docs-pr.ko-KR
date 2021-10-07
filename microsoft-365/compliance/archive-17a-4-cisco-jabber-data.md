@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 17a-4 Cisco Jabber DataParser 커넥터를 설정하고 사용하여 Cisco Jabber 데이터를 Microsoft 365.
-ms.openlocfilehash: b4e3093cef0a0d20334de2ca76bee5cf78c5d461
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 29f21e59d90c53b9128a4df610843e9d2a16ee23
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401353"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60155325"
 ---
 # <a name="set-up-a-connector-to-archive-cisco-jabber-data"></a>Cisco Jabber 데이터를 보관할 커넥터 설정
 

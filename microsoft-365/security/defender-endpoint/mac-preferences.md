@@ -2,15 +2,13 @@
 title: Mac의 끝점에 대한 Microsoft Defender 기본 설정 설정
 description: 엔터프라이즈 조직에서 Mac의 끝점에 대한 Microsoft Defender를 구성합니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 관리, 기본 설정, 엔터프라이즈, intune, jamf, macos, 카탈로나, mojave, high sierra
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1da7c59ad7702482b1edbf52da821e474addd601
-ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
+ms.openlocfilehash: 0ac6031e793d36bd51c84b2cd94517f81ab4e649
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60126869"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156273"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점에 대한 Microsoft Defender 기본 설정 설정
 

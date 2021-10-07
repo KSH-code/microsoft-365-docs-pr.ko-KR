@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b3fa8c7c919edc438bb63fe4baaeca6711a3a045
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4a96296f09a82fe2b2c8d5c4d5d250c48f89ffc4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212265"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156297"
 ---
 # <a name="information-protection-in-windows-overview"></a>Windows의 정보 보호 개요
 
@@ -54,7 +54,7 @@ Endpoint용 Defender는 민감도 레이블이 있는 파일과 중요한 정보
 
 DLP(Office 365 손실 방지) 구현의 중요한 정보 유형은 다음 두 가지 범주로 분류됩니다.
 
-- 기본값
+- 기본
 - 사용자 지정
 
 기본 중요한 정보 유형에는 은행 계좌 번호, 주민 번호 또는 국가 번호와 같은 정보가 포함됩니다. 자세한 내용은 중요한 정보 [유형이 를 찾아보는 것을 참조하세요.](/office365/securitycompliance/what-the-sensitive-information-types-look-for)
@@ -97,7 +97,7 @@ InformationProtectionLogs_CL
 | where Workload_s == "Windows Defender"
 ```
 
-### <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>전제 조건
 
 - 고객은 Azure Information Protection 구독이 있어야 합니다.
 - 다음을 통해 Azure Information Protection 통합을 Microsoft Defender 보안 센터.

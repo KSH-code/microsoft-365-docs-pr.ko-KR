@@ -9,14 +9,14 @@ ms.topic: reference
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: high
 description: REST API를 사용하여 모델 및 관련 콘텐츠 형식을 만듭니다.
-ms.openlocfilehash: 1c5bd84c777774edc1aa0c2419181f7b84aa4707
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c74eda4e3136e2c391c89fc012628bde2ce172f4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165874"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159571"
 ---
 # <a name="create-model"></a>모델 만들기
 

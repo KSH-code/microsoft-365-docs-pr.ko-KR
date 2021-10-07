@@ -9,19 +9,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 전자 메일 Advanced eDiscovery 수행하면 전자 메일 스레딩이 전자 메일 대화를 구문 분석하고 각 메시지를 서로 다른 범주로 구분합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: feb0294b47e01eae6849835e92e390a912558c71
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 788858d6acaccbe07f3190b5adaaa05fe95c33a5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399877"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159793"
 ---
 # <a name="email-threading-in-advanced-ediscovery"></a>전자 메일 스레딩 Advanced eDiscovery
 

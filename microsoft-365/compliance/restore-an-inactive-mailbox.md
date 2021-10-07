@@ -10,19 +10,19 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: 비활성 사서함의 내용을 기존 사서함에 복원(또는 병합)하는 방법을 Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 09ab8893b2c663d87417fbedf0c157100b3693da
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b57a309ed686f2fe2aaee34fb3b89264a2de9812
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221860"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159781"
 ---
 # <a name="restore-an-inactive-mailbox"></a>비활성 사서함 복원
 

@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 Rogers 네트워크 데이터를 원격 저장소에 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 52e200274ec74fc74e554d277bf8bd5323445015
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1e46e62e02d35ff9d740f075c188f9ba8b5da41d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184340"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60155253"
 ---
 # <a name="set-up-a-connector-to-archive-rogers-network-data"></a>Rogers 네트워크 데이터를 보관할 커넥터 설정
 

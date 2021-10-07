@@ -3,26 +3,24 @@ title: 인증서를 기반으로 표시기 만들기
 ms.reviewer: ''
 description: 엔터티의 검색, 방지 및 제외를 정의하는 인증서를 기반으로 표시기를 만들 수 있습니다.
 keywords: ioc, 인증서, 인증서, 관리, 허용, 차단, 차단, 클린, 악성, 파일 해시, ip 주소, URL, 도메인
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b471bcfa1c4a42ddf5c49c2a0bc2129c99fd9297
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 0e74fd5a0ffc62d077f9110b014af5d3b0813afd
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60043350"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60154845"
 ---
 # <a name="create-indicators-based-on-certificates"></a>인증서를 기반으로 표시기 만들기
 
@@ -46,7 +44,7 @@ ms.locfileid: "60043350"
 
 - 이 기능은 조직에서 클라우드 기반 보호를 Windows Defender 바이러스 백신 경우 사용할 수 있습니다. 자세한 내용은 클라우드 기반 보호 [관리를 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
-- Windows 10, 버전 1703 이상, Windows 서버 2016, 2019 및 Windows Server 2022의 컴퓨터에서 지원됩니다.
+- Windows 11, Windows 10 버전 1703 이상, Windows server 2016, 2019 및 Windows Server 2022의 컴퓨터에서 지원됩니다.
 - 바이러스 및 위협 방지 정의는 최신해야 합니다.
 - 이 기능은 현재 를 입력할 수 있습니다. CER 또는 . PEM 파일 확장명입니다.
 

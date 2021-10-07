@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.service: information-protection
 audience: Admin
 ms.reviewer: esaggese
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 1489671754f26d37abbc9bfbc84f59be26099c9b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 302bfdd5daa336564649e6e122f70e6f2a43ecbd
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212612"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60155097"
 ---
 # <a name="double-key-encryption-for-microsoft-365"></a>이중 키 암호화 Microsoft 365
 
@@ -35,7 +35,7 @@ DKE(이중 키 암호화)는 두 개의 키를 함께 사용하여 보호된 콘
 
 ## <a name="when-your-organization-should-adopt-dke"></a>조직에서 DKE를 채택해야 하는 경우
 
-이중 키 암호화는 가장 엄격한 보호 요구 사항을 준수하는 가장 중요한 데이터를 위한 것입니다. DKE는 모든 데이터를 위한 것이 아니며, 일반적으로 이중 키 암호화를 사용하여 전체 데이터의 일부만 보호합니다. 배포하기 전에 이 솔루션에 사용할 올바른 데이터를 식별할 때 신심해야 합니다. 경우에 따라 범위를 좁히고 Microsoft 관리 키 또는 BYOK를 사용하는 경우와 같은 대부분의 데이터에 Microsoft Information Protection 다른 솔루션을 활용해야 할 수 있습니다. 이러한 솔루션은 향상된 보호 및 규정 요구 사항을 준수하지 않는 문서에 충분합니다. 또한 이러한 솔루션을 사용하면 가장 강력한 Office 365 사용할 수 있습니다. DKE로 암호화된 콘텐츠와 함께 사용할 수 없는 서비스 예시:
+이중 키 암호화는 가장 엄격한 보호 요구 사항을 준수하는 가장 중요한 데이터를 위한 것입니다. DKE는 모든 데이터를 위한 것이 아니며, 일반적으로 이중 키 암호화를 사용하여 전체 데이터의 일부만 보호합니다. 배포하기 전에 이 솔루션에 사용할 올바른 데이터를 식별할 때 신심해야 합니다. 경우에 따라 범위를 좁히고 Microsoft 관리 키 또는 BYOK를 사용하는 경우와 같은 대부분의 데이터에 Microsoft Information Protection 다른 솔루션을 활용해야 할 수 있습니다. 이러한 솔루션은 향상된 보호 및 규정 요구 사항을 준수하지 않는 문서에 충분합니다. 또한 이러한 솔루션을 사용하면 가장 강력한 Office 365 사용할 수 있습니다. DKE로 암호화된 콘텐츠와 함께 사용할 수 없는 서비스 예:
 
 - 첨부 파일을 표시해야 하는 맬웨어 방지 및 스팸 방지를 포함한 전송 규칙
 - Microsoft Delve
@@ -139,12 +139,12 @@ Microsoft는 DKE 원본 파일을 로컬 저장소에 GitHub 제공합니다. �
 
 2. 화면 오른쪽에서 코드를 **선택합니다.** UI 버전에 복제 또는 다운로드 **단추가 표시될 수** 있습니다. 그런 다음 나타나는 드롭다운에서 복사 아이콘을 선택하여 URL을 클립보드에 복사합니다.
 
-    예시:
+    예:
 
    > [!div class="mx-imgBorder"]
    > ![이중 키 암호화 서비스 리포지토리를 GitHub.](../media/dke-clone.png)
 
-3. 다음 Visual Studio Code 보기 명령  팔레트 보기를 \> **선택하고** **Git: 복제를 선택합니다.** 목록의 옵션으로 이동하려면 입력을 시작하여 항목을 필터링한 다음 `git: clone` 드롭다운에서 선택합니다. 예시:
+3. 다음 Visual Studio Code 보기 명령  팔레트 보기를 \> **선택하고** **Git: 복제를 선택합니다.** 목록의 옵션으로 이동하려면 입력을 시작하여 항목을 필터링한 다음 `git: clone` 드롭다운에서 선택합니다. 예:
 
    > [!div class="mx-imgBorder"]
    > ![Visual Studio Code GIT:Clone 옵션.](../media/dke-vscode-clone.png)
@@ -153,7 +153,7 @@ Microsoft는 DKE 원본 파일을 로컬 저장소에 GitHub 제공합니다. �
 
 5. 나타나는 **폴더 선택** 대화 상자에서 리포지토리를 저장할 위치를 찾아 선택합니다. 프롬프트에서 열기 **를 선택합니다.**
 
-    리포지토리가 Visual Studio Code 왼쪽 아래에 현재 Git 분기가 표시됩니다. 예를 들어 분기는 **main** 입니다. 예시:
+    리포지토리가 Visual Studio Code 왼쪽 아래에 현재 Git 분기가 표시됩니다. 예를 들어 분기는 **main** 입니다. 예:
 
    ![주 분기를 표시하는 Visual Studio Code DKE 리포지터의 스크린샷입니다.](../media/dke-vscode-main-branch.jpg)
 
@@ -171,9 +171,9 @@ DKE 서비스를 배포하려면 다음과 같은 유형의 응용 프로그램 
 - [키 액세스 설정](#key-access-settings)
 - [테넌트 및 키 설정](#tenant-and-key-settings)
 
-파일에서 응용 프로그램 설정을 appsettings.js있습니다. 이 파일은 로컬로 복제한 DoubleKeyEncryptionService 리포지션의 DoubleKeyEncryptionService\src\customer-key-store에 있습니다. 예를 들어 Visual Studio Code 그림과 같이 파일을 찾아볼 수 있습니다.
+appsettings.json 파일에서 응용 프로그램 설정을 수정합니다. 이 파일은 로컬로 복제한 DoubleKeyEncryptionService 리포지션의 DoubleKeyEncryptionService\src\customer-key-store에 있습니다. 예를 들어 Visual Studio Code 그림과 같이 파일을 찾아볼 수 있습니다.
 
-![DKE에 appsettings.js파일을 위치합니다.](../media/dke-appsettingsjson.png)
+![DKE용 appsettings.json 파일 찾기](../media/dke-appsettingsjson.png)
 
 #### <a name="key-access-settings"></a>키 액세스 설정
 
@@ -185,9 +185,9 @@ DKE 서비스를 배포하려면 다음과 같은 유형의 응용 프로그램 
 
 ##### <a name="to-set-key-access-settings-for-dke-using-email-authorization"></a>전자 메일 권한 부여를 사용하여 DKE에 대한 키 액세스 설정을 설정하려면
 
-1. 파일에서 **appsettings.js열고** 설정을 `AuthorizedEmailAddress` 찾습니다.
+1. **appsettings.json** 파일을 열고 설정을 `AuthorizedEmailAddress` 찾습니다.
 
-2. 승인할 전자 메일 주소 또는 주소를 추가합니다. 여러 전자 메일 주소를 따옴표와 각자 구분합니다. 예시:
+2. 승인할 전자 메일 주소 또는 주소를 추가합니다. 여러 전자 메일 주소를 따옴표와 각자 구분합니다. 예:
 
    ```json
    "AuthorizedEmailAddress": ["email1@company.com", "email2@company.com ", "email3@company.com"]
@@ -201,21 +201,21 @@ DKE 서비스를 배포하려면 다음과 같은 유형의 응용 프로그램 
 
 4. 설정을 `AuthorizedRoles` 찾아 전체 줄을 삭제합니다.
 
-이 이미지는 전자 **메일appsettings.js** 올바르게 형식이 지정되어 있는 파일의 파일 형식을 보여줍니다.
+이 이미지는 전자 메일 권한 부여를 위해 올바르게 형식이 지정된 **appsettings.json** 파일을 보여줍니다.
 
-   ![전자 appsettings.js방법을 보여 주는 파일에 대한 메시지 표시 형식입니다.](../media/dke-email-accesssetting.png)
+   ![전자 메일 권한 부여 방법을 보여주는 appsettings.json 파일입니다.](../media/dke-email-accesssetting.png)
 
 ##### <a name="to-set-key-access-settings-for-dke-using-role-authorization"></a>역할 권한 부여를 사용하여 DKE에 대한 키 액세스 설정을 설정하려면
 
-1. 파일에서 **appsettings.js열고** 설정을 `AuthorizedRoles` 찾습니다.
+1. **appsettings.json** 파일을 열고 설정을 `AuthorizedRoles` 찾습니다.
 
-2. 승인할 Active Directory 그룹 이름을 추가합니다. 여러 그룹 이름을 따옴표와 각자 구분합니다. 예시:
+2. 승인할 Active Directory 그룹 이름을 추가합니다. 여러 그룹 이름을 따옴표와 각자 구분합니다. 예:
 
    ```json
    "AuthorizedRoles": ["group1", "group2", "group3"]
    ```
 
-3. 설정을 `LDAPPath` 찾아 Active Directory 도메인을 추가합니다. 예시:
+3. 설정을 `LDAPPath` 찾아 Active Directory 도메인을 추가합니다. 예:
 
    ```json
    "LDAPPath": "contoso.com"
@@ -223,19 +223,19 @@ DKE 서비스를 배포하려면 다음과 같은 유형의 응용 프로그램 
 
 4. 설정을 `AuthorizedEmailAddress` 찾아 전체 줄을 삭제합니다.
 
-이 이미지는 역할 **appsettings.js** 올바르게 형식이 지정되어 있는 파일의 파일 형식을 보여줍니다.
+이 이미지는 역할 권한 부여를 위해 올바르게 형식이 지정된 **appsettings.json** 파일을 보여줍니다.
 
-   ![appsettings.js권한 부여 방법을 보여 주면 파일에 표시됩니다.](../media/dke-role-accesssetting.png)
+   ![역할 권한 부여 방법을 보여준 appsettings.json 파일입니다.](../media/dke-role-accesssetting.png)
 
 #### <a name="tenant-and-key-settings"></a>테넌트 및 키 설정
 
-DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
+DKE 테넌트 및 키 설정은 **appsettings.json 파일에** 있습니다.
 
 ##### <a name="to-configure-tenant-and-key-settings-for-dke"></a>DKE에 대한 테넌트 및 키 설정을 구성하려면
 
-1. 파일에서 **appsettings.js를 니다.**
+1. **appsettings.json 파일을 열** 수 있습니다.
 
-2. 설정을 `ValidIssuers` 찾아 `<tenantid>` 테넌트 ID로 대체합니다. Azure Portal로 이동하고 테넌트 속성을 확인하여 테넌트 [ID를 찾을 수 있습니다.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 예시:
+2. 설정을 `ValidIssuers` 찾아 `<tenantid>` 테넌트 ID로 대체합니다. Azure Portal로 이동하고 테넌트 속성을 확인하여 테넌트 [ID를 찾을 수 있습니다.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 예:
 
    ```json
    "ValidIssuers": [
@@ -246,7 +246,7 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 > [!NOTE]
 > 키 저장소에 대한 외부 B2B 액세스를 사용하도록 설정하려면 이러한 외부 테넌트도 유효한 발급자 목록의 일부로 포함해야 합니다.
 
-`JwtAudience`를 찾습니다. DKE 서비스가 실행될 컴퓨터의 호스트 `<yourhostname>` 이름으로 바 대체합니다. 예시:
+`JwtAudience`를 찾습니다. DKE 서비스가 실행될 컴퓨터의 호스트 `<yourhostname>` 이름으로 바 대체합니다. 예:
 
   > [!IMPORTANT]
   > 의 값은 정확히 호스트의 `JwtAudience` 이름과 *일치해야 합니다.* 디버깅하는 동안 **localhost:5001을** 사용할 수 있습니다. 그러나 디버깅이 완료되면 이 값을 서버의 호스트 이름으로 업데이트해야 합니다.
@@ -254,9 +254,9 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 - `TestKeys:Name`. 키 이름을 입력합니다. 예: `TestKey1`
 - `TestKeys:Id`. GUID를 만들고 값으로 `TestKeys:ID` 입력합니다. 예를 들면 `DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE`와 같습니다. 온라인 GUID 생성기와 같은 사이트를 사용하여 [GUID를](https://guidgenerator.com/) 임의로 생성할 수 있습니다.
 
-이 이미지는 의 테넌트 및 키 설정에 대한 **올바른 형식을appsettings.js.** `LDAPPath` 는 역할 권한 부여를 위해 구성됩니다.
+이 이미지는 **appsettings.json의** 테넌트 및 키 설정에 대한 올바른 형식을 보여줍니다. `LDAPPath` 는 역할 권한 부여를 위해 구성됩니다.
 
-![파일에서 DKE에 대한 올바른 테넌트 및 키 appsettings.js표시됩니다.](../media/dke-appsettingsjson-tenantkeysettings.png)
+![appsettings.json 파일에서 DKE에 대한 올바른 테넌트 및 키 설정을 보여줍니다.](../media/dke-appsettingsjson-tenantkeysettings.png)
 
 ### <a name="generate-test-keys"></a>테스트 키 생성
 
@@ -286,9 +286,9 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
    openssl rsa -in key.pem -pubout > pubkeyonly.pem
    ```
 
-6. 텍스트 편집기에서 **pubkeyonly.pem을 열 수 있습니다.** 첫 줄과 마지막 줄을 제외한 **pubkeyonly.pem** 파일의 모든 콘텐츠를 파일에서 파일로appsettings.js`PublicPem` **섹션에 복사합니다.**
+6. 텍스트 편집기에서 **pubkeyonly.pem을 열 수 있습니다.** 첫 줄과 마지막 줄을 제외한 **pubkeyonly.pem** 파일의 모든 콘텐츠를 `PublicPem` **appsettings.json** 파일의 섹션에 복사합니다.
 
-7. 텍스트 편집기에서 **privkeynopass.pem을 열 수 있습니다.** 첫 줄과 마지막 줄을 제외한 **privkeynopass.pem** 파일의 모든 콘텐츠를 파일에서 파일로appsettings.js`PrivatePem` **섹션에 복사합니다.**
+7. 텍스트 편집기에서 **privkeynopass.pem을 열 수 있습니다.** 첫 줄과 마지막 줄을 제외한 **privkeynopass.pem** 파일의 모든 콘텐츠를 `PrivatePem` **appsettings.json** 파일의 섹션에 복사합니다.
 
 8. 및 섹션에서 공백과 줄임 표시를 `PublicPem` `PrivatePem` 모두 제거합니다.
 
@@ -331,9 +331,9 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 
    ![.NET에 대한 누락된 빌드 작업을 구성합니다.](../media/dke-configurebuildtask.png)
 
-   1. 템플릿에서 **tasks.js만들기 를 선택 합니다.**
+   1. 서식 **파일에서 tasks.json 만들기를 선택하십시오.**
 
-      ![DKE용 tasks.js파일에서 파일을 만듭니다.](../media/dke-createtasksjsonfromtemplate.png)
+      ![DKE용 템플릿에서 tasks.json 파일을 만듭니다.](../media/dke-createtasksjsonfromtemplate.png)
 
    2. 템플릿 유형 목록에서 **.NET Core 를 선택합니다.**
 
@@ -353,7 +353,7 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 
 4. **디버깅** 시작 \> **실행을 선택하여** 프로세스를 디버그합니다. 환경을 선택하라는 메시지가 표시될 경우 **.NET core 를 선택합니다.**
 
-   .NET 코어 디버거는 일반적으로 에 `https://localhost:5001` 실행됩니다. 테스트 키를 확인하기 위해 으로 이동하여 슬래시(/) 및 키 이름을 `https://localhost:5001` 추가합니다. 예시:
+   .NET 코어 디버거는 일반적으로 에 `https://localhost:5001` 실행됩니다. 테스트 키를 확인하기 위해 으로 이동하여 슬래시(/) 및 키 이름을 `https://localhost:5001` 추가합니다. 예:
 
    ```https
    https://localhost:5001/TestKey1
@@ -361,7 +361,7 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 
    키는 JSON 형식으로 표시해야 합니다.
 
-이제 설치가 완료되었습니다. 키스토어를 게시하기 전에 appsettings.js에서 JwtAudience 설정에 대해 호스트 이름의 값이 앱 서비스 호스트 이름과 정확히 일치해야 합니다. 빌드 문제를 해결하기 위해 localhost로 변경한 것일 수 있습니다.
+이제 설치가 완료되었습니다. 키스토어를 게시하기 전에 appsettings.json에서 JwtAudience 설정에 대해 호스트 이름의 값이 앱 서비스 호스트 이름과 정확히 일치해야 합니다. 빌드 문제를 해결하기 위해 localhost로 변경한 것일 수 있습니다.
 
 ### <a name="deploy-the-dke-service-and-publish-the-key-store"></a>DKE 서비스 배포 및 키 저장소 게시
 
@@ -379,11 +379,11 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 
 2. 구독 및 리소스 그룹을 선택하고 인스턴스 세부 정보를 정의합니다.
 
-   - DKE 서비스를 설치할 컴퓨터의 호스트 이름을 입력합니다. on 파일의 JwtAudience 설정에 정의된 이름과appsettings.js [**합니다.**](#tenant-and-key-settings) 이름에 대해 제공하는 값은 WebAppInstanceName도 됩니다.
+   - DKE 서비스를 설치할 컴퓨터의 호스트 이름을 입력합니다. [**appsettings.json**](#tenant-and-key-settings) 파일의 JwtAudience 설정에 정의된 이름과 같은지 확인 이름에 대해 제공하는 값은 WebAppInstanceName도 됩니다.
 
    - **게시에서** 코드를 **선택하고** 런타임 스택에 대해 **.NET Core 3.1을 선택합니다.** 
 
-   예시:
+   예:
 
    > [!div class="mx-imgBorder"]
    > ![앱 서비스를 추가합니다.](../media/dke-azure-add-app-service.png)
@@ -424,7 +424,7 @@ DKE가 배포된 후 만든 테스트 키를 찾아볼 수 있습니다. 아래�
 
 2. 표시되는 연결 문자열을 로컬 파일에 복사합니다. 이러한 문자열을 사용하여 Web App 서비스에 연결하고 FTP를 통해 파일을 업로드합니다.
 
-   예시:
+   예:
 
    ![FTP 대시보드에서 연결 문자열을 복사합니다.](../media/dke-ftp-dashboard.png)
 
@@ -462,7 +462,7 @@ key_store_tester.ps1 https://mydkeservice.com/mykey
 
 출력에 오류가 나타나지 않도록 합니다. 준비가 되면 키 [저장소를 등록합니다.](#register-your-key-store)
 
-키 이름은 대소문자 구분됩니다. 파일에서 키에 나타나는 키 appsettings.js입력합니다.
+키 이름은 대소문자 구분됩니다. appsettings.json 파일에 나타나는 키 이름을 입력합니다.
 
 ## <a name="register-your-key-store"></a>키 저장소 등록
 
@@ -478,7 +478,7 @@ DKE 서비스를 등록하는 경우:
 
    사용자 지정이 아닌 도메인(예: Microsoft Azure )에서 onmicrosoft.com 를 사용하는 경우 이 조직 디렉터리의 계정만(Microsoft 전용 - 단일 **테넌트)을** **선택합니다.**
 
-   예시:
+   예:
 
    > [!div class="mx-imgBorder"]
    > ![새 앱 등록.](../media/dke-app-registration.png)
@@ -499,7 +499,7 @@ DKE 서비스를 등록하는 경우:
    - 로컬로 테스트하는 경우 를 **https://localhost:5001** Visual Studio.
    - 모든 경우에 스키마는 **https 되어야 합니다.**
 
-   호스트 이름을 앱 서비스 호스트 이름과 정확히 일치하도록 합니다. 빌드 문제를 해결하기 위해 `localhost` 변경한 것일 수 있습니다. 에서 **appsettings.js** 이 값은 에 대해 설정한 호스트 `JwtAudience` 이름입니다.
+   호스트 이름을 앱 서비스 호스트 이름과 정확히 일치하도록 합니다. 빌드 문제를 해결하기 위해 `localhost` 변경한 것일 수 있습니다. **appsettings.json에서** 이 값은 에 대해 설정한 호스트 `JwtAudience` 이름입니다.
 
 9. **암시적 부여에서** **ID 토큰** 확인란을 선택합니다.
 
@@ -539,7 +539,7 @@ DKE 서비스를 등록하는 경우:
 
 이 Microsoft 365 규정 준수 센터 새 민감도 레이블을 만들고 다른 경우처럼 암호화를 적용합니다. 이중 **키 암호화 사용을 선택하고** 키의 끝점 URL을 입력합니다.
 
-예시:
+예:
 
 > [!div class="mx-imgBorder"]
 > ![다음 목록에서 이중 키 암호화 사용을 Microsoft 365 규정 준수 센터.](../media/dke-use-dke.png)

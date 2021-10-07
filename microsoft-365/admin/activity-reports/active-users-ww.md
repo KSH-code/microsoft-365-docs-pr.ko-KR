@@ -6,7 +6,7 @@ manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: 보고서의 Microsoft 365 보고서 대시보드를 사용하여 활성 사용자 보고서를 Microsoft 365 관리 센터 사용되는 제품 라이선스 수를 알아보는 방법을 알아보고
-ms.openlocfilehash: 456d561246a1c2073b571fa5c48ed97cc9f71849
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: abb2c4459ac52151fbf1af5712e52ac49f0d5762
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166519"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156069"
 ---
 # <a name="assess-the-microsoft-365-active-users-report"></a>활성 사용자 Microsoft 365 평가
 

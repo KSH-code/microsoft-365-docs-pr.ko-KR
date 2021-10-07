@@ -2,26 +2,24 @@
 title: 온보더링 문제 및 오류 메시지 문제 해결
 description: 끝점용 Microsoft Defender 설정을 완료하는 동안 온보딩 문제 및 오류 메시지를 해결합니다.
 keywords: 문제 해결, 문제 해결, Azure Active Directory, 온보딩, 오류 메시지, 오류 메시지, 끝점용 Microsoft Defender
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: a80f30d132706633232713f1ba4b30fa1e64b800
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: 10ec4562063c7352b337cdb6f5d11b76985ae19d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60010144"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159225"
 ---
 # <a name="troubleshoot-subscription-and-portal-access-issues"></a>구독 및 포털 액세스 문제 해결
 

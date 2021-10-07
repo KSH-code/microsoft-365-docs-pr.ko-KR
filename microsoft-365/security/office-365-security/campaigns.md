@@ -9,7 +9,7 @@ ms.reviewer: mcostea
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.collection:
 description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5bc2bb1adc39aae70f8ace89bf0efaaf5a7a5c5a
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 0af72653a8f180728b71b05fa044627012282c8b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482850"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60157701"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "59482850"
 
 캠페인은 하나 이상의 조직에 대해 조율된 전자 메일 공격입니다. 자격 증명 및 회사 데이터를 도용하는 전자 메일 공격은 대규모의 기업입니다. 기술이 공격을 중지하기 위한 노력이 증가하면 공격자는 계속 성공하기 위해 방법을 수정합니다.
 
-Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별합니다. 여러 요인에 따라 공격 정보를 분석하고 분류합니다. 예제:
+Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별합니다. 여러 요인에 따라 공격 정보를 분석하고 분류합니다. 예:
 
 - **공격 원본**: 원본 IP 주소 및 보낸 사람 전자 메일 도메인입니다.
 - **메시지 속성:** 메시지의 콘텐츠, 스타일 및 톤입니다.
@@ -88,7 +88,7 @@ Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방�
 
 - **유형:** 이 값은 **피싱 또는** 맬웨어입니다. 
 
-- **하위 스타일:** 이 값에는 캠페인에 대한 자세한 정보가 포함되어 있습니다. 예제:
+- **하위 스타일:** 이 값에는 캠페인에 대한 자세한 정보가 포함되어 있습니다. 예:
   - **피싱:** 사용 가능한 경우 이 캠페인에 의해 피싱되는 브랜드입니다. 예를 들면 `Microsoft` , , , 또는 `365` `Unknown` `Outlook` `DocuSign` 입니다.
   - **맬웨어**: 예: `HTML/PHISH` `HTML/<MalwareFamilyName>` 또는 .
 

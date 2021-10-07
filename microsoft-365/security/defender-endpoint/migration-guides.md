@@ -1,14 +1,13 @@
 ---
 title: 끝점용 Microsoft Defender로 전환하기 위한 마이그레이션 가이드
 description: 비보안 솔루션에서 끝점용 Microsoft Defender로 전환하는 Microsoft 365 Defender 방법을 알아보십시오.
-search.appverid: MET150
 author: denisebmsft
 ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
 ms.prod: m365-security
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365solution-scenario
@@ -17,12 +16,12 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: 1fd410be19a8b5181cb2ef2b88d53e198753c7a3
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 81de8401a9b09fdcc008a02a240bb66010d6ef33
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776743"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60154761"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender로 전환
 
@@ -45,6 +44,7 @@ ms.locfileid: "59776743"
 |Microsoft가 아닌 엔드포인트 보호 솔루션에서 Endpoint용 Defender로 전환하고 Microsoft Defender 바이러스 백신. 마이그레이션 프로세스와 전환 방법을 간략하게 살펴 보아야 합니다.|[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)|
 |끝점용 Defender로 이미 마이그레이션하거나 온보딩한 경우 보안 설정 관리, 추가 기능 구성 또는 보안 정책 미세 조정과 같은 다음 단계에 대한 몇 가지 도움말을 원합니다.|[끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md)|
 |
+
 
 ## <a name="do-you-have-feedback-for-us"></a>피드백이 있나요?
 

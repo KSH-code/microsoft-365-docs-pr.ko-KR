@@ -2,7 +2,6 @@
   href: index.yml
   items:
     - name: 시작하기
-      href: setup/index.yml
       items:
         - name: 등록
           href: admin-overview/sign-up-for-office-365.md
@@ -103,7 +102,6 @@
         - name: Azure Information Protection 지원
           href: services-in-china/parity-between-azure-information-protection.md
     - name: '사용자, 그룹 및 암호 관리'
-      href: add-users/index.yml
       items:
         - name: 사용자
           items:
@@ -180,7 +178,6 @@
             - name: 암호 만료 정책 설정
               href: manage/set-password-expiration-policy.md
     - name: 전자 메일 및 일정 관리
-      href: email/index.yml
       items:
         - name: 사용자 전자 메일 설정 정보
           href: email/office-365-user-email-settings.md
@@ -217,7 +214,6 @@
         - name: 조직에 대한 클러스터 관리
           href: email/configure-clutter.md
     - name: 도메인 관리
-      href: get-help-with-domains/index.yml
       items:
         - name: 도메인 추가
           href: setup/add-domain.md
@@ -240,7 +236,6 @@
         - name: 도메인 문제 해결
           href: get-help-with-domains/find-and-fix-issues.md
     - name: 데이터 및 서비스 관리
-      href: manage/index.yml
       items:
         - name: 보고서를 이용하여 Microsoft 365 활동 모니터링
           href: activity-reports/activity-reports.md
@@ -348,7 +343,6 @@
         - name: GDPR 준수 가이드
           href: security-and-compliance/gdpr-compliance.md
     - name: 장치 및 앱 데이터 관리
-      href: devices/index.yml
       items:
         - name: 장치 및 앱 데이터 보호 방법
           href: devices/choose-device-security.md
@@ -421,7 +415,6 @@
             - name: 문제 해결
               href: basic-mobility-security/troubleshoot.md
     - name: 고객과 협력
-      href: work-with-customers/index.yml
       items:
         - name: 게스트 사용자와 사이트 및 파일 공유
           href: manage/share-sites-with-external-users.md

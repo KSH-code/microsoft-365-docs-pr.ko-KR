@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 ms.collection: Strat_SP_gtc
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft 365 Multi-Geo에서 위성 위치를 삭제하는 방법을 알아봅니다. 위성 위치가 삭제되면 모든 사용자 데이터도 영구적으로 삭제됩니다.
-ms.openlocfilehash: 749b48528b113a836be6b4e5ee59895bc3816992
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 71bf501fe90cc5f8f29f8bc95a7d18da50ebf9cc
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212585"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158097"
 ---
 # <a name="delete-a-satellite-location-in-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo에서 위성 위치 삭제
 

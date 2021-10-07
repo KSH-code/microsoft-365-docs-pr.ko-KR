@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false
 description: 이 문서에서는 게스트와 공동 작업하는 방법을 SharePoint OneDrive.
-ms.openlocfilehash: db7e619e674a270745b783e85bca803b85ee54ff
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e51ec7e9695c564b2994089f0a827ca7ea4b67c6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219762"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158961"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서 상 공동 작업하기
 

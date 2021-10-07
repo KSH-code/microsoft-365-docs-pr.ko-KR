@@ -3,15 +3,13 @@ title: 엔드포인트용 Microsoft Defender(Linux용)
 ms.reviewer: ''
 description: Linux에서 끝점용 Microsoft Defender를 설치하고 사용하는 방법을 설명 합니다.
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -19,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cdf022be492701e790606479877bf57f6f426094
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 1717a184bb03bbc4165e4637a1a04557925f8abb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483582"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60157917"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
@@ -43,7 +41,7 @@ ms.locfileid: "59483582"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>전제 조건
 
 - Microsoft 365 Defender 액세스
 - 시스템 [관리자를](https://systemd.io/) 사용하여 Linux 배포
@@ -129,6 +127,10 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
   > [!NOTE]
   > 추가된 규칙에 의해 캡처된 시스템 이벤트는 (s)에 추가될 것이고 호스트 감사 및 업스트림 컬렉션에 영향을 `/etc/audit/rules.d/` `audit.log` 줄 수 있습니다. Linux의 끝점용 Microsoft Defender에서 추가한 이벤트는 키로 태그가 `mdatp` 지정됩니다.
 
+### <a name="configuring-exclusions"></a>제외 구성
+
+제외를 추가하는 Microsoft Defender 바이러스 백신 일반적인 제외 실수를 염두에 [두어야 Microsoft Defender 바이러스 백신](/microsoft-365/security/defender-endpoint/common-exclusion-mistakes-microsoft-defender-antivirus)
+
 ### <a name="network-connections"></a>네트워크 연결
 
 다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인해야 합니다. 있는 경우 해당 규칙에 대해  특별히 허용 규칙을 만들어야 할 수 있습니다.
@@ -166,6 +168,10 @@ Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위
 ## <a name="how-to-configure-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 엔드포인트용 Microsoft Defender를 구성하는 방법
 
 엔터프라이즈 환경에서 제품을 구성하는 방법에 대한 지침은 [Linux의 끝점용 Microsoft Defender](linux-preferences.md)기본 설정에서 사용할 수 있습니다.
+
+## <a name="common-applications-to-microsoft-defender-for-endpoint-can-impact"></a>끝점용 Microsoft Defender에 대한 일반 응용 프로그램이 영향을 줄 수 있습니다.
+
+특정 응용 프로그램의 I/O 워크로드가 높을 경우 끝점용 Microsoft Defender가 설치될 때 성능 문제가 생략될 수 있습니다. 여기에는 Jenkins 및 Jira와 같은 개발자 시나리오용 응용 프로그램과 OracleDB 및 Postgres와 같은 데이터베이스 워크로드가 포함됩니다. 성능 저하가 발생하는 경우 신뢰할 수 있는 응용 프로그램에 대해 [](/microsoft-365/security/defender-endpoint/common-exclusion-mistakes-microsoft-defender-antivirus) 제외를 설정하고 일반적인 제외 실수를 Microsoft Defender 바이러스 백신 고려합니다. 추가 지침은 타사 응용 프로그램의 바이러스 백신 제외와 관련한 컨설팅 설명서를 참조하세요.
 
 ## <a name="resources"></a>리소스
 

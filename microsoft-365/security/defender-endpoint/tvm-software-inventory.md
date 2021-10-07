@@ -10,7 +10,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 333cacf1bce50463fdfbac4023ae724a7564809c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 10e5c062af839142db0b12f562739fd2fb603d42
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220205"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60157833"
 ---
 # <a name="software-inventory---threat-and-vulnerability-management"></a>소프트웨어 인벤토리 - 위협 및 취약성 관리
 
@@ -50,8 +50,8 @@ ms.locfileid: "59220205"
 
 장치 목록에서 개별 디바이스 페이지의 특정 디바이스에서 소프트웨어를 [볼 수 있습니다.](machines-view-overview.md)
 
->[!NOTE]
->Microsoft Defender for Endpoint 전역 검색을 사용하여 소프트웨어를 검색하는 경우 공백 대신 밑면을 넣어야 합니다. 예를 들어 최상의 검색 결과를 위해 "windows_10" 대신 "Windows 10"를 작성합니다.
+> [!NOTE]
+> Microsoft Defender for Endpoint 전역 검색을 사용하여 소프트웨어를 검색하는 경우 공백 대신 밑면을 넣어야 합니다. 예를 들어 최상의 검색 결과를 위해 "windows_10" 대신 "Windows 10"를 작성합니다.
 
 ## <a name="software-inventory-overview"></a>소프트웨어 인벤토리 개요
 

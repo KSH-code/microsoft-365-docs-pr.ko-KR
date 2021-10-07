@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 관리자는 Veritas에서 다른 사용자로 ServiceNow 데이터를 가져오고 보관하는 커넥터를 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 해당 커넥터에 Microsoft 365. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: ed86c9a7dd7bd7922af3576313720a71400207a6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6b7642ea5d69fbc498d587ec890232e13a10272a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184307"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60155217"
 ---
 # <a name="set-up-a-connector-to-archive-servicenow-data"></a>ServiceNow 데이터를 보관할 커넥터 설정
 

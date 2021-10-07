@@ -6,7 +6,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 보고서 대시보드를 사용하여 전자 메일 활동 보고서를 Microsoft 365 관리 센터.
-ms.openlocfilehash: 7189fb560b47c37e48485fdc15be4cd15d80819f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 95742f5a8a2c410d0f9c7a526d565d8eb62b13a5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166498"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156033"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>Microsoft 365 관리 센터의 보고서 - 전자 메일 활동
 

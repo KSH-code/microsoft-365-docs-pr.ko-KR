@@ -2,15 +2,13 @@
 title: macOS에서 끝점에 대해 Microsoft Defender를 통해 스캔을 예약하는 방법
 description: 조직의 자산을 보다 잘 보호하기 위해 macOS에서 끝점용 Microsoft Defender에 대한 자동 검사 시간을 예약하는 방법을 배워야 합니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 검사, 바이러스 백신
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9ec708ee24d33765203730412ddfc7eea5cc2e37
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c1d785f88160a7e0ffd17285b384f54ba4f2f74a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212085"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156233"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 검사 예약
 

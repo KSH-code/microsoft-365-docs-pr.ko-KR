@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 앱에 대한 결제 방법을 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: a5c6c5082c5d4236b5eb7ab9e6c3af45793e16cb
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: a43f60201a282c8735480aa98f33054edbf59313
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401533"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60160639"
 ---
 # <a name="update-the-payment-method-for-your-subscription"></a>구독의 결제 방법 업데이트
 

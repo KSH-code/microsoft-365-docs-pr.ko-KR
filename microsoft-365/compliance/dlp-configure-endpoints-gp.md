@@ -8,18 +8,18 @@ ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
 description: 그룹 정책을 사용하여 구성 패키지가 서비스에 Windows 10 구성 패키지를 배포할 수 있습니다.
-ms.openlocfilehash: 284de5169324b6da4038cfe0b50b2f2ffa40e3fd
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 00befc6d33de8c93b2412d8a9f31a8aabe45f09c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59193079"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60155037"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드 
 

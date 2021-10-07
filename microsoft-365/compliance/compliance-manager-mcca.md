@@ -8,18 +8,18 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
-ms.openlocfilehash: 9bf88a79de07accbf8487f09f642324efcbaf086
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7f90c011eab86341d08411bbef24213925489a75
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189959"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158265"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -105,7 +105,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
   | 2 | 오스트레일리아 |
   | 3  | 캐나다 |
   | 4  | 유럽(프랑스 제외) /중동/아프리카 |
-  | 5  | 프랑스 |
+  | 5 | 프랑스 |
   | 6  | 인도 |
   | 7  | 일본 |
   | 8  | 한국 |

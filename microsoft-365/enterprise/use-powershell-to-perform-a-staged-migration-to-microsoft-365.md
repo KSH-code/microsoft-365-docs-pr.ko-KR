@@ -7,7 +7,7 @@ ms.date: 07/17/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: Ent_O365
@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: a20f9dbd-6102-4ffa-b72c-ff813e700930
 description: PowerShell을 사용하여 단계적 마이그레이션을 사용하여 시간이 지날 때 원본 전자 메일 시스템에서 원본 전자 메일 시스템으로 콘텐츠를 이동하는 방법을 Microsoft 365.
-ms.openlocfilehash: 0ec8aca643730b063ee75ead69908959a992d2dc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 66e91b4480e4433f610e627d1cf4e64f439b929f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210485"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60154833"
 ---
 # <a name="use-powershell-to-perform-a-staged-migration-to-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365로 미리 구성된 마이그레이션 수행
 

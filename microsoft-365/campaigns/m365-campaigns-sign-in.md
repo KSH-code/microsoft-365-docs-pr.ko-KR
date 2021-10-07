@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 로그인하여 Microsoft 365. 사이버 보안 위협으로부터 전자 메일, 데이터 및 통신에 대한 비즈니스, 관행 또는 캠페인을 보호합니다.
-ms.openlocfilehash: eff81da84853130da2f2dcc0aaaf2a9834477a85
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: cd2433adad2563528242d119011afdca208f7424
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219252"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60160607"
 ---
 # <a name="sign-in-to-microsoft-365"></a>로그인하여 Microsoft 365
 

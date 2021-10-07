@@ -2,8 +2,6 @@
 title: PowerShell, WMI 및 2016을 사용하여 끝점에 대한 Microsoft Defender MPCmdRun.exe
 description: PowerShell, WMI 및 PowerShell을 사용하여 끝점용 Microsoft Defender를 관리하는 방법을 MPCmdRun.exe
 keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, PowerShell, WMI, MPCmdRun.exe, 끝점용 Microsoft Defender, edr
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: deploy
@@ -11,7 +9,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: deniseb
 author: denisebmsft
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +18,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/23/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 27391b65b583a05e2c3d50f93dd1a0d2f3ce561b
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 2fe421e79efa7da204209e2df35d3be51bdbf6d1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59777007"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60154780"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-powershell-wmi-and-mpcmdrunexe"></a>PowerShell, WMI 및 PowerShell을 사용하여 끝점에 대한 Microsoft Defender를 MPCmdRun.exe
 
@@ -41,7 +39,7 @@ ms.locfileid: "59777007"
 > 디바이스에 [](/mem) 대한 Microsoft Endpoint Manager 보호 기능을 관리하기 위해 이 기능을 사용하는 것이 좋습니다(끝점이라고도 참조). Endpoint Manager [포함된](/mem/intune/fundamentals/what-is-intune) Microsoft Intune [및](/mem/configmgr/core/understand/introduction)Microsoft Endpoint Configuration Manager.
 >
 > - [자세한 내용은 Endpoint Manager](/mem/endpoint-manager-overview)
-> - [Configuration Manager 및 Intune을 사용하여 Windows 10 디바이스에서 끝점용 Microsoft Defender 공동 관리](manage-atp-post-migration-intune.md)
+> - [Configuration Manager 및 Intune을 사용하여 11개 Windows 10 및 Windows 끝점에 대한 Microsoft Defender 공동 관리](manage-atp-post-migration-intune.md)
 > - [Intune을 사용하여 끝점용 Microsoft Defender 관리](manage-atp-post-migration-intune.md)
 
 [PowerShell Microsoft Defender 바이러스 백신](#configure-microsoft-defender-for-endpoint-with-powershell)WMI(Windows [Management Instrumentation)](#configure-microsoft-defender-for-endpoint-with-windows-management-instrumentation-wmi) 및 [Microsoft 맬웨어](#configure-microsoft-defender-for-endpoint-with-microsoft-malware-protection-command-line-utility-mpcmdrunexe) 보호 명령줄 유틸리티(MPCmdRun.exe)를 사용하여 디바이스에서 일부 MPCmdRun.exe. 예를 들어 일부 설정은 Microsoft Defender 바이러스 백신 있습니다. 또한 경우에 따라 공격 표면 감소 규칙을 사용자 지정하고 보호 설정을 악용할 수 있습니다.

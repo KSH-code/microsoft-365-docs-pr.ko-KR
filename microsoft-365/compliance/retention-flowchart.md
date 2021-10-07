@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 순서도를 사용하여 항목에 여러 보존 정책 또는 보존 레이블 및 보존 정책이 있는 경우 결과를 확인합니다.
-ms.openlocfilehash: 45d67b3df71dc3be17bd545be77ce99afdff56b3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b99f54178adc05987249f05c0f2d1c00194f0db0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191309"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159769"
 ---
 # <a name="flowchart-to-determine-when-an-item-will-be-retained-or-permanently-deleted"></a>항목이 보존되거나 영구적으로 삭제되는 시기를 결정하는 순서도
 

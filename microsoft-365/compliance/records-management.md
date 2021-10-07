@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - m365initiative-compliance
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 466b346501f9ee4e02a4a254ebeb2dfdf6e23eca
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 410fa890e159d18e3aacedbf08be44ee047ee189
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775603"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158169"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
@@ -35,11 +35,11 @@ ms.locfileid: "59775603"
 
 Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 지원합니다.
 
-- **콘텐츠를 레코드로 레이블** 콘텐츠를 사용자가 적용하거나 중요한 정보, 키워드 또는 콘텐츠 유형을 식별하여 자동으로 적용할 수 있는 [레코드](#records)로 표시하는 보존 레이블을 작성하고 구성합니다.
+- **레코드로 콘텐츠에 레이블 지정**. 콘텐츠를 사용자가 적용하거나 중요한 정보, 키워드 또는 콘텐츠 유형을 식별하여 자동으로 적용할 수 있는 [레코드](#records)로 표시하는 보존 레이블을 작성하고 구성합니다.
 
-- **파일 계획을 사용하여 보존 요구 사항을 마이그레이션하고 관리합니다**. [파일 계획](file-plan-manager.md)을 사용하여 기존 보존 계획을 Microsoft 365으로 가져오거나 개선된 관리 기능을 위해 새 계획을 작성할 수 있습니다.
+- **파일 요금제를 사용하여 보존 요구 사항을 마이그레이션하고 관리합니다**. [파일 요금제](file-plan-manager.md)를 사용하여 기존 보존 요금제를 Microsoft 365로 가져오거나 향상된 관리 기능을 위해 새로운 보존 요금제를 구축할 수 있습니다.
 
-- **보존 레이블을 사용하여 보존 및 삭제 설정을 구성합니다.** 마지막으로 수정 또는 생성된 날짜를 포함하는 다양한 요소를 기반으로 보존 기간 및 작업을 사용하여 [보존 레이블](retention.md#retention-labels)을 구성합니다.
+- **보존 레이블로 보존 및 삭제 설정을 구성합니다**. 마지막으로 수정되거나 생성된 날짜를 포함하는 다양한 요소를 기반으로 하는 보존 기간 및 작업으로 [보존 레이블](retention.md#retention-labels)을 구성합니다.
 
 - [이벤트 기반 보존 **을 사용하여** 이벤트가 발생하는 경우 다른 보존 기간을 시작](event-driven-retention.md)합니다.
 
@@ -111,4 +111,4 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 
 ## <a name="configuration-guidance"></a>구성 지침
 
-[레코드 관리 시작](get-started-with-records-management.md)을 참조하세요. 이 문서에는 레코드 관리 시나리오에 대한 구독, 사용 권한 및 종단 내 구성 지침에 대한 정보가 들어 있습니다.
+[레코드 관리 시작하기](get-started-with-records-management.md)를 참조하세요. 이 문서에는 레코드 관리 시나리오에 대한 구독, 사용 권한 및 종단 내 구성 지침에 대한 정보가 들어 있습니다.

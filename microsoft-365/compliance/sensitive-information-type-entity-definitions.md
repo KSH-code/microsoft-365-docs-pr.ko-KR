@@ -12,19 +12,19 @@ ms.topic: reference
 f1_keywords:
 - ms.o365.cc.UnifiedDLPRuleContainsSensitiveInformation
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 hideEdit: true
 feedback_system: None
 recommendations: false
 description: DLP 정책에 사용할 수 있는 200가지 중요한 정보 유형이 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
-ms.openlocfilehash: 98e80f011329b80105de86816761baba7f8188a9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 80c0c0fa2a916b44204ea930a282c5b2e6402a85
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216525"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159733"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -5892,7 +5892,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - [불가리아](#bulgaria-drivers-license-number)
 - [크로아티아](#croatia-drivers-license-number)
 - [키프로스](#cyprus-drivers-license-number)
-- [Czech](#czech-drivers-license-number)
+- [체코어](#czech-drivers-license-number)
 - [덴마크](#denmark-drivers-license-number)
 - [에스토니아](#estonia-drivers-license-number)
 - [핀란드](#finland-drivers-license-number)
@@ -5926,7 +5926,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - [불가리아](#bulgaria-uniform-civil-number)
 - [크로아티아](#croatia-identity-card-number)
 - [키프로스](#cyprus-identity-card)
-- [Czech](#czech-personal-identity-number)
+- [체코어](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [에스토니아](#estonia-personal-identification-code)
 - [핀란드](#finland-national-id)
@@ -5959,7 +5959,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - [불가리아](#bulgaria-passport-number)
 - [크로아티아](#croatia-passport-number)
 - [키프로스](#cyprus-passport-number)
-- [Czech](#czech-passport-number)
+- [체코어](#czech-passport-number)
 - [덴마크](#denmark-passport-number)
 - [에스토니아](#estonia-passport-number)
 - [핀란드](#finland-passport-number)
@@ -5991,7 +5991,7 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
 - [오스트리아](#austria-social-security-number)
 - [벨기에](#belgium-national-number)
 - [크로아티아](#croatia-personal-identification-oib-number)
-- [Czech](#czech-personal-identity-number)
+- [체코어](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [핀란드](#finland-national-id)
 - [프랑스](#france-social-security-number-insee)
@@ -6012,7 +6012,7 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
 - [불가리아](#bulgaria-uniform-civil-number)
 - [크로아티아](#croatia-identity-card-number)
 - [키프로스](#cyprus-tax-identification-number)
-- [Czech](#czech-personal-identity-number)
+- [체코어](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [에스토니아](#estonia-personal-identification-code)
 - [핀란드](#finland-national-id)

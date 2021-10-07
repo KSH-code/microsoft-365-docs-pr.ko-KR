@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 31ff698a6094e72cea32b7db19db8edf947a1326
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c2b94dfee30e447aed553e2fdaca62af8ec82f8b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221575"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60157953"
 ---
 # <a name="find-devices-by-internal-ip-api"></a>내부 IP API로 장치 찾기
 
@@ -73,7 +73,7 @@ GET /api/machines/findbyip(ip='{IP}',timestamp={TimeStamp})
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|문자열|Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

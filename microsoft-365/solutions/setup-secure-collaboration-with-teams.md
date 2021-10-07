@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365solution-securecollab
@@ -17,12 +17,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 민감도에 따라 데이터를 보호하기 위해 Teams 콘텐츠 공동 작업을 설정하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 07f8f1193043b31c53346221791529b5b6162c30
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f8475cd2f832bf2b634a8e60c819927fb8f2769c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192162"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158997"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>보안 및 보안 Microsoft 365 설정 Microsoft Teams
 

@@ -8,7 +8,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e26e9c367015b05e1875693a5312af786a907031
-ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
+ms.openlocfilehash: 9b33db7e4fa0b3cc2fa61c0c7a45d1a9d2f9d3b7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124448"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156333"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
@@ -107,7 +107,6 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
     ![Microsoft Endpoint Configuration Manager 마법사9의 이미지입니다.](images/configmgr-confirm.png)
 
 이 작업을 완료한 후 이제 환경의 모든 Windows 장치 컬렉션이 있습니다.
-
 
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>2단계: 끝점용 Microsoft Defender 기능 구성
 
@@ -331,6 +330,7 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![스크린샷 Microsoft Endpoint Configuration Manager1.](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
+
 7. 새로 만든 Windows 정책을 선택하고 확인 을 **선택합니다.**
 
     ![스크린샷 Microsoft Endpoint Configuration Manager2.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
@@ -361,7 +361,9 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![Microsoft Endpoint Configuration Manager7의 스크린샷.](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
+
 7. 새로 만든 Windows 정책을 대상으로 지정하고 확인을 **클릭합니다.**
+
 
     ![Microsoft Endpoint Configuration Manager8의 스크린샷입니다.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 

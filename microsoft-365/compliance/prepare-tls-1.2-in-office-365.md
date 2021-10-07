@@ -3,7 +3,7 @@ title: Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 description: TLS 1.0 및 1.1에 대한 지원이 비활성화 된 후에 Office 365 및 Office 365 GCC에서 모든 클라이언트-서버 및 브라우저-서버 조합에 대해 TLS 1.2 사용을 준비하는 방법
 author: kccross
 manager: laurawi
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 audience: ITPro
@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: b09ffa936ef7395bd16df37378db2d7de4a253f8
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: 2ae758ef9e5c36b2406527e2a10c43f57986ea1f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59480739"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159757"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 

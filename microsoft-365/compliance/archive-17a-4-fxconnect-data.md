@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: DataParser 커넥터에서 17a-4 FX 커넥트 설정하고 사용하여 FX 데이터 가져오기 및 보관을 커넥트 방법을 Microsoft 365.
-ms.openlocfilehash: f0a229f370470e395442a14df3ddd43f76e82b05
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 4f2e0d7e4458fc7a9b4b58d6e54bf964deef6583
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356152"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60155289"
 ---
 # <a name="set-up-a-connector-to-archive-data-from-fx-connect"></a>FX 서버의 데이터를 보관할 커넥터 커넥트
 

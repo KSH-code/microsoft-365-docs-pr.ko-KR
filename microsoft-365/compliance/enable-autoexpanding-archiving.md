@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자용: 자동 확장 보관을 사용하도록 설정하여 사용자에게 사서함에 대한 추가 저장소를 Exchange Online 방법을 배워야 합니다. 전체 조직 또는 특정 사용자에 대해 자동 확장 보관을 사용하도록 설정할 수 있습니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2222cceabc183aeb3cee3021060128a48219747b
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: 18123fb53cd13cf742c7b2a19574a540dded1f9b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015493"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158193"
 ---
 # <a name="enable-auto-expanding-archiving---admin-help"></a>자동 확장 보관 사용 - 관리자 도움말
 

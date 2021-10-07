@@ -8,19 +8,19 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: 비즈니스용 원격 작업을 위한 최신 방법 정보, 팁, 리소스 및 지침을 Microsoft 365.
-ms.openlocfilehash: 2e2ce2c9b7e204a56a0deccc758ba19d7239c632
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bff6e8b54262ab4bc71f219ccfe401877269d0ee
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187011"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158733"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>원격 작업을 통해 소기업의 역량 강화
 

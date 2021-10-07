@@ -7,7 +7,7 @@ ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: 개별적으로 또는 그룹 멤버 자격에 따라 Microsoft 365 계정에 라이선스를 할당하는 방법에 대해 설명
-ms.openlocfilehash: 2d2afe7b9989ef7b82920a45e3dacd574cd51b5c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dd941be0d257aa356cf6e69bfdd59a8d1743ed93
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213875"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159465"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts"></a>사용자 Microsoft 365 라이선스 할당
 

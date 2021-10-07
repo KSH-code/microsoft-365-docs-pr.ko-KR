@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: 사서함에 대한 추가 보관 저장소를 제공하는 자동 Exchange Online 대해 자세히 알아보습니다.
-ms.openlocfilehash: 80c8ac2abd7dda63e8661dd82a145163c5a8d98d
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: e3c203b7c29732d09adedf6282880f7e2805d428
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015485"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60155085"
 ---
 # <a name="overview-of-auto-expanding-archiving"></a>자동 확장 보관 개요
 

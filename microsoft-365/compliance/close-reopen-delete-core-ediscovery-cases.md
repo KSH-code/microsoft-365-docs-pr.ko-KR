@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 핵심 eDiscovery 사례를 관리하는 방법을 설명합니다. 여기에는 사례 닫기, 닫힌 사례 다시 열기 및 사례 삭제가 포함됩니다.
-ms.openlocfilehash: 67961d2404f54ca3fbb33dabc71508ba65bfa205
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a210a06da2effb0b17d526a09499a65fa59bfeb4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166023"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158277"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Core eDiscovery 사례 닫기, 다시 열기 및 삭제
 

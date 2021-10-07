@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4ab36313b25ab61ece35041f7cc6de1064465ecb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 299a6fff547c921dfdc02d4c23bfd8947b878875
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214822"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60157881"
 ---
 # <a name="submit-or-update-indicator-api"></a>제출 또는 업데이트 표시기 API
 
@@ -81,13 +81,13 @@ Content-Type|문자열|application/json. **필수입니다**.
 indicatorValue|String|Indicator [엔터티의 ID입니다.](ti-indicator.md) **필수**
 indicatorType|Enum|표시기 유형입니다. 가능한 값은 "FileSha1", "FileMd5", "CertificateThumbprint", "FileSha256", "IpAddress", "DomainName" 및 "Url"입니다. **필수**
 조치|Enum|표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Alert", "Warn", "Block", "Audit, "BlockAndRemediate", "AlertAndBlock" 및 "Allowed"입니다. **필수**
-application|문자열|표시기와 연결된 응용 프로그램입니다. 이 필드는 새 표시기에서만 작동합니다. 기존 표시기에서 값을 업데이트하지 않습니다. **선택 사항**
-제목|문자열|표시기 경고 제목입니다. **필수**
-설명|문자열|표시기 설명입니다. **필수**
-expirationTime|DateTimeOffset|표시기 만료 시간입니다. **선택 사항**
-심각도|Enum|표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다. **선택 사항**
-recommendedActions|문자열|TI 표시기 경고 권장 작업. **선택 사항**
-rbacGroupNames|String|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **선택 사항**
+application|String|표시기와 연결된 응용 프로그램입니다. 이 필드는 새 표시기에서만 작동합니다. 기존 표시기에서 값을 업데이트하지 않습니다. **옵션**
+title|String|표시기 경고 제목입니다. **필수**
+설명|String|표시기 설명입니다. **필수**
+expirationTime|DateTimeOffset|표시기 만료 시간입니다. **선택**
+심각도|Enum|표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다. **옵션**
+recommendedActions|String|TI 표시기 경고 권장 작업. **선택**
+rbacGroupNames|String|콤보로 구분된 RBAC 그룹 이름 목록 표시기가 적용됩니다. **옵션**
 
 ## <a name="response"></a>응답
 

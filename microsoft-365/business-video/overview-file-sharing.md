@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스 파일을 공유하는 방법에 대한 개요입니다.
-ms.openlocfilehash: d762620cf07cd9f1201bf173e6e6aa0c16e050eb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7c4dde8f3ce19a2f7c443efffbbc780a746ba174
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188843"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60155685"
 ---
 # <a name="overview-of-sharing-business-files"></a>비즈니스 파일 공유 개요
 

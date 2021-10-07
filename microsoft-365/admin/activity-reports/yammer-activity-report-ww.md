@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Yammer 활동 보고서를 보고 메시지를 게시하거나 Yammer 읽은 사용자 수에 대해 자세히 알아 두세요.
-ms.openlocfilehash: d938052da82c1f1a0c038813dd7a0d02bbb510e4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4de77e432e1b72286d28ae742783f2c5324e35fe
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185380"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158889"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 활동 보고서
 

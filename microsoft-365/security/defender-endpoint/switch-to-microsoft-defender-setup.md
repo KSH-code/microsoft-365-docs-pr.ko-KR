@@ -2,8 +2,6 @@
 title: 끝점용 Microsoft Defender로 전환 - 설치
 description: 끝점용 Defender로 전환합니다. 설치 프로세스(설치 프로세스 포함)를 Microsoft Defender 바이러스 백신.
 keywords: 마이그레이션, 끝점용 Microsoft Defender, 바이러스 백신, 수동 모드, 설정 프로세스
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: deploy
@@ -11,7 +9,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: deniseb
 author: denisebmsft
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -23,12 +21,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 09/23/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 18722989f99c8bb5ccb9b6dfc9762ea570033511
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 5d4e81f78d0ad3f692fcce64f397914eb61d56e2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042990"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60159357"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -53,12 +51,11 @@ ms.locfileid: "60042990"
 특정 버전의 Windows, Microsoft Defender 바이러스 백신 Microsoft 바이러스 백신/맬웨어 방지 솔루션이 설치될 때 제거되거나 비활성화된 것일 수 있습니다. 끝점을 Windows 끝점에 대한 Defender에 온보딩된 경우 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 솔루션과 함께 수동 모드에서 실행할 수 있습니다. 자세한 내용은 [Endpoint용 Defender를 통해 바이러스 백신 보호를 참조합니다.](microsoft-defender-antivirus-compatibility.md#antivirus-protection-with-defender-for-endpoint)
 
 Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 사용하도록 설정하기 위해 특정 단계를 Microsoft Defender 바이러스 백신. 다음 표에서는 클라이언트 및 서버에서 Windows 설명되어 있습니다.
-
-<br/><br/>
+</br> </br>
 
 |끝점 유형|수행할 작업|
 |---|---|
-|Windows 클라이언트(예: Windows 10)|일반적으로 클라이언트가 제거되지 않은 경우 Windows 작업을 수행하지 Microsoft Defender 바이러스 백신 않습니다. Microsoft Defender 바이러스 백신 설치해야 하지만 마이그레이션 프로세스의 이 시점에서는 사용하지 않도록 설정되어 있을 가능성이 습니다. Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치되고 클라이언트가 끝점용 Defender에 아직 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다. <br/><br/> 나중에 클라이언트 끝점이 Endpoint용 Defender에 온보딩될 때 해당 끝점이 Microsoft가 아닌 바이러스 백신 솔루션을 실행하는 경우 Microsoft Defender 바이러스 백신 모드로 전환됩니다. <br/><br/> Microsoft가 아닌 바이러스 백신 솔루션을 제거하면 Microsoft Defender 바이러스 백신 모드로 전환됩니다.|
+|Windows 클라이언트(예: Windows 10 및 Windows 11 실행 끝점)|일반적으로 클라이언트가 제거되지 않은 경우 Windows 작업을 수행하지 Microsoft Defender 바이러스 백신 않습니다. 그 이유는 다음과 같습니다. <p> Microsoft Defender 바이러스 백신 설치해야 하지만 마이그레이션 프로세스의 이 시점에서는 사용하지 않도록 설정되어 있을 가능성이 습니다. <p> Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치되고 클라이언트가 끝점용 Defender에 아직 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다. <p> 나중에 클라이언트 끝점이 Endpoint용 Defender에 온보딩될 때 해당 끝점이 Microsoft가 아닌 바이러스 백신 솔루션을 실행하는 경우 Microsoft Defender 바이러스 백신 모드로 전환됩니다. <p> Microsoft가 아닌 바이러스 백신 솔루션을 제거하면 Microsoft Defender 바이러스 백신 모드로 전환됩니다.|
 |Windows 서버|Windows 서버에서 서버를 다시 설치하고 수동으로 Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다. 모든 Windows Microsoft가 아닌 바이러스 백신/맬웨어 방지가 설치되어 있는 경우 microsoft가 아닌 Microsoft Defender 바이러스 백신 솔루션과 함께 실행할 수 없습니다. 이러한 경우 수동으로 Microsoft Defender 바이러스 백신 제거하거나 사용하지 않도록 설정됩니다. <br/><br/> Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치하거나 사용하도록 설정하려면 다음 작업을 수행합니다. <br/>- [Windows Server에서 DisableAntiSpyware를 false로 설정(필요한](#set-disableantispyware-to-false-on-windows-server) 경우만 해당)<br/>- [Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치](#reinstall-microsoft-defender-antivirus-on-windows-server)<br/>- [Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 설정](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)|
 
 > [!TIP]
@@ -190,7 +187,7 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 
 |OS|제외|
 |---|---|
-|Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 이상(릴리스 정보 Windows 10 [참조)](/windows/release-health/release-information) <p> Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <p> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019), Windows Server 2022 <p> [Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803)|`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`|
+|Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 또는 Windows 11(Windows 10 [릴리스 정보](/windows/release-health/release-information)참조) <p> Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <p> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019), Windows Server 2022 <p> [Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803)|`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`|
 |[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) <p> [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p> [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)|`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe` <p> **참고:** 호스트 임시 파일 6\45 모니터링은 번호가 매기기된 하위 폴더가 다를 수 있습니다. <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe`|
 
 
