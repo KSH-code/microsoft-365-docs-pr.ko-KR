@@ -11,7 +11,7 @@ ms.author: bcarter
 author: brendacarter
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 51b03ebf277583541fc86bdbd80535704929fcf3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 81faa49992b49882ab162376608a03b2433741e9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219995"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198064"
 ---
 # <a name="promote-your-microsoft-365-defender-evaluation-environment-to-production"></a>프로덕션 Microsoft 365 Defender 환경으로 승격
 
@@ -36,7 +36,7 @@ ms.locfileid: "59219995"
 
 그런 다음 추가 구성을 완료하고 파일럿 그룹이 전체 프로덕션에 도달할 때까지 파일럿 그룹을 확장합니다. 
 
-## <a name="microsoft-defender-for-identity"></a>ID용 Microsoft Defender
+## <a name="microsoft-defender-for-identity"></a>Microsoft Defender for Identity
 Id에 대한 Defender에는 추가 구성이 필요하지 않습니다. 필요한 라이선스를 구입하고 모든 Active Directory 도메인 컨트롤러 및 AD FS(Active Directory Federation Services) 서버에 센서를 설치해야 합니다. 
 
 ## <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender

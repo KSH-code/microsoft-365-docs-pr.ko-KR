@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MED150
@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(2016년 8월 2일)의 최종 사용자 스팸 알림에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 029c48dd2986a55b1b2eb723c12f629a75b14efa
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 31cfebba6d7bde610ac855dc4c7985d2432fabe3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483026"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190248"
 ---
 # <a name="use-quarantine-notifications-to-release-and-report-quarantined-messages"></a>검란 알림을 사용하여 검란된 메시지 릴리스 및 보고
 
@@ -39,7 +39,7 @@ ms.locfileid: "59483026"
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP에서 Quarantined messages를 참조하세요.](quarantine-email-messages.md)
 
-_Quarantine policies_ define what users are allowed to do to quarantined messages based on why the message quarantined why the message was quarantined (for supported features). 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md) 또한 검사 경찰은 영향을 받는 받는 사람(공유 사서함 포함)이  자신의 검사된 메시지에 대한 주기적인 검지 알림을 받을지 여부를 제어합니다. 스팸 방지 정책 판정 뿐만 아니라 지원되는 모든 보호 기능에 대한 최종 사용자 스팸 알림을 대체하는 알림입니다.
+_Quarantine policies_ define what users are allowed to do to quarantined messages based on why the message quarantined why the message was quarantined (for supported features). 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요. 또한 검사 경찰은 영향을 받는 받는 사람(공유 사서함 포함)이  자신의 검사된 메시지에 대한 주기적인 검지 알림을 받을지 여부를 제어합니다. 스팸 방지 정책 판정 뿐만 아니라 지원되는 모든 보호 기능에 대한 최종 사용자 스팸 알림을 대체하는 알림입니다.
 
 관리자는 또한 정책에서 전역 설정을 사용하여 보낸 사람 표시 이름, 다른 언어로 된 고지지 텍스트 및 알림에 사용되는 회사 로고를 사용자 지정할 수 있습니다. 자세한 내용은 웹 사이트 포털에서 전역 Microsoft 365 Defender [설정을 참조하세요.](quarantine-policies.md#configure-global-quarantine-notification-settings-in-the-microsoft-365-defender-portal)
 

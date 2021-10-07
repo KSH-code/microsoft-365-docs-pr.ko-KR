@@ -9,15 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d8ab3b32fe52850898f91797ff737763c8f10f84
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 330dcaefa9eb2accd5edd0a3f3b0bfa9d8a21e9d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213072"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177990"
 ---
 # <a name="contact-support-for-sint-maarten"></a>Sint Maarten 지원에 문의
 

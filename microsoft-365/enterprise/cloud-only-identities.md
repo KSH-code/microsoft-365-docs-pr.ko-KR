@@ -7,7 +7,7 @@ ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Microsoft 365 구독에서 클라우드 전용 ID를 사용하는 경우 사용자 및 그룹을 만드는 방법에 대해 설명하는 문서입니다.
-ms.openlocfilehash: 9b58b831f2a338e5fb79726b8de66c11bba96d0e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 55c836b4508399a86144c677e2fe28fc529a935a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192839"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190584"
 ---
 # <a name="microsoft-365-cloud-only-identity"></a>Microsoft 365 전용 ID
 
@@ -41,7 +41,7 @@ ms.locfileid: "59192839"
  
 ![클라우드 전용 ID의 기본 구성 요소입니다.](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
-조직의 사용자 및 해당 사용자 계정은 여러 가지 방법으로 분류할 수 있습니다. 예를 들어 일부는 직원으로, 영구적 상태입니다. 일부는 임시 상태인 공급업체, 계약자 또는 파트너입니다. 사용자 계정이 없지만 상호 작용 및 공동 작업을 지원하기 위해 특정 서비스 및 리소스에 대한 액세스 권한을 부여받아야 하는 외부 사용자도 있습니다. 예:
+조직의 사용자 및 해당 사용자 계정은 여러 가지 방법으로 분류할 수 있습니다. 예를 들어 일부는 직원으로, 영구적 상태입니다. 일부는 임시 상태인 공급업체, 계약자 또는 파트너입니다. 사용자 계정이 없지만 상호 작용 및 공동 작업을 지원하기 위해 특정 서비스 및 리소스에 대한 액세스 권한을 부여받아야 하는 외부 사용자도 있습니다. 예제:
 
 - 테넌트 계정은 클라우드 서비스에 대한 라이선스를 부여한 조직 내부의 사용자를 나타냅니다.
 

@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ description: eDiscovery 관련 작업을 수행하는 데 필요한 사용 권�
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 8fda81c4318525744eaa51c8904a465e87159675
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2ff6a589ce8b4db6adf00a820eaf00b20f9f7bcc
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166183"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60217153"
 ---
 # <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>전자 메일 그룹에 eDiscovery 권한 Microsoft 365 규정 준수 센터
 
@@ -35,7 +35,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
   
 - **eDiscovery 관리자** - eDiscovery 관리자는 eDiscovery 검색 도구를 사용하여 조직의 콘텐츠 위치를 검색하고 미리 보기 및 검색 결과 내보내기 등의 다양한 검색 관련 작업을 수행할 수 있습니다. 또한 구성원은 Core eDiscovery 및 Advanced eDiscovery 사례를 만들고 관리하고, 사례에 구성원을 추가 및 제거하고, 사례 보류를 만들고, 사례와 연결된 검색을 실행하고, 사례 데이터에 액세스할 수 있습니다. eDiscovery Manager는 자신이 생성한 케이스에만 액세스하고 관리할 수 있습니다. 다른 eDiscovery Manager에서 생성한 케이스에 액세스하거나 관리할 수 없습니다.
   
-- **eDiscovery 관리자** - eDiscovery 관리자는 eDiscovery 매니저 역할 그룹의 구성원이며 eDiscovery 매니저가 수행할 수 있는 것과 동일한 콘텐츠 검색 및 케이스 관리 관련 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자는 다음과 같은 작업을 수행할 수 있습니다.
+- **eDiscovery 관리자** - eDiscovery 관리자는 eDiscovery 관리자 역할 그룹의 구성원으로, eDiscovery 관리자가 수행할 수 있는 동일한 콘텐츠 검색 및 사례 관리 관련 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자는 다음과 같은 작업을 수행할 수 있습니다.
   
   - 페이지의 **Core eDiscovery** 및 Advanced eDiscovery **페이지에** 나열된 모든 사례에 Microsoft 365 규정 준수 센터.
 
@@ -56,7 +56,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
   
 ## <a name="assign-ediscovery-permissions"></a>eDiscovery 사용 권한 할당
 
-1. 사용 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 할당할 수 있는 계정을 사용하여 로그인합니다.
+1. 으로 이동하여 권한을 할당할 수 있는 <https://compliance.microsoft.com> 계정을 사용하여 로그인합니다.
   
 2. 왼쪽 창에서 사용 권한을 **선택합니다.**
 
@@ -82,7 +82,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 | 역할 | 규정 준수 관리자 | eDiscovery 관리자 & 관리자 | 조직 관리 | Reviewer |
 |:-----|:-----:|:-----:|:-----:|:-----:|
 |사례 관리 <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> |
-|커뮤니케이션 <br/> | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> | <br/> |
+|통신 <br/> | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> | <br/> |
 |준수 검색 <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> |
 |Custodian <br/> | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> | <br/> |
 |내보내기 <br/> | <br/> |![확인 표시입니다.](../media/checkmark.png) <br/> | <br/> | <br/> |
@@ -105,7 +105,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 - [고급 eDiscovery 시작](get-started-with-advanced-ediscovery.md)
 
-### <a name="communication"></a>커뮤니케이션
+### <a name="communication"></a>통신
 
 이 역할을 사용하면 사용자가 사례에서 식별된 관리인과의 모든 통신을 Advanced eDiscovery 있습니다. 여기에는 보류 알림 만들기, 보류 미리 알림 및 관리로의 에스컬레이터가 포함됩니다. 또한 사용자는 보유자 확인을 추적하고 각 보유자에서 보유자 포털에 대한 액세스를 관리하여 보유자로 식별된 사례에 대한 통신을 추적할 수 있습니다.
 
@@ -113,7 +113,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 ### <a name="compliance-search"></a>준수 검색
 
-이 역할을 통해 사용자는 Microsoft 365 규정 준수 센터 콘텐츠 검색 도구를 실행하여 사서함 및 공용 폴더, SharePoint Online 사이트, 비즈니스용 OneDrive 사이트, 비즈니스용 Skype 대화, Microsoft 365 그룹 및 Microsoft Teams 및 Yammer 그룹을 검색할 수 있습니다. 이 역할을 사용하면 검색 결과를 예상하고 내보내기 보고서를 만들 수 있지만 검색 결과 미리 보기, 내보내기 또는 삭제와 같은 콘텐츠 검색 작업을 시작하는 데는 다른 역할이 필요합니다.
+이 역할을 사용하면 사용자가 사서함 및 공용 폴더 SharePoint, Microsoft 365 규정 준수 센터 온라인 사이트, 비즈니스용 OneDrive 사이트, 비즈니스용 Skype 대화, Microsoft 365 그룹을 검색할 수 있습니다. Microsoft Teams 및 Yammer 그룹입니다. 이 역할을 사용하면 검색 결과를 예상하고 내보내기 보고서를 만들 수 있지만 검색 결과 미리 보기, 내보내기 또는 삭제와 같은 콘텐츠 검색 작업을 시작하는 데는 다른 역할이 필요합니다.
 
 콘텐츠 검색 및 Core eDiscovery에서 준수 검색 역할이 할당되지만 미리 보기 역할이 없는 사용자는 미리 보기 역할이 할당된 사용자가 미리 보기 작업을 시작한 검색 결과를 미리 볼 수 있습니다. 미리 보기 역할이 없는 사용자는 초기 미리 보기 작업이 만들어진 후 최대 2주 동안 결과를 미리 볼 수 있습니다.
 
@@ -158,6 +158,30 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 ### <a name="search-and-purge"></a>검색 및 제거
 
 이 역할을 사용하면 사용자가 콘텐츠 검색 조건과 일치하는 데이터를 대량으로 제거하는 작업을 수행할 수 있습니다. 자세한 내용은 조직에서 전자 메일 메시지 검색 및 [삭제를 참조하세요.](search-for-and-delete-messages-in-your-organization.md)
+
+## <a name="adding-role-groups-as-members-of-ediscovery-cases"></a>eDiscovery 사례의 구성원으로 역할 그룹 추가
+
+역할 그룹의 구성원이 할당된 사례에서 작업에 액세스하고 수행할 수 있도록 역할 그룹을 Core eDiscovery 및 Advanced eDiscovery 구성원으로 추가할 수 있습니다. 역할 그룹에 할당된 역할은 역할 그룹의 구성원이 할 수 있는 작업을 정의합니다. 그런 다음 역할 그룹을 사례의 구성원으로 추가하면 구성원이 특정 경우에 해당 작업에 액세스하고 수행할 수 있습니다. 역할 그룹을 사례의 구성원으로 추가하는 데 대한 자세한 내용은 다음을 참조하세요.
+
+- [핵심 eDiscovery 시작](get-started-core-ediscovery.md#step-4-optional-add-members-to-a-core-ediscovery-case)
+
+- [사례에서 구성원 Advanced eDiscovery 제거](add-or-remove-members-from-a-case-in-advanced-ediscovery.md)
+
+이 점에 유의하여 역할 그룹에서 역할을 추가하거나 제거하면 역할 그룹이 구성원인 경우 해당 역할 그룹이 자동으로 제거됩니다. 이러한 이유는 사례의 구성원에게 추가 사용 권한을 부수적으로 제공하는 것을 방지하기 위한 것입니다. 마찬가지로 역할 그룹이 삭제되면 역할 그룹이 구성원이던 모든 경우에서 제거됩니다.
+
+eDiscovery 사례의 구성원이 될 수 있는 역할 그룹에 역할을 추가하거나 제거하기 전에 Security [& Compliance PowerShell에서](/powershell/exchange/connect-to-scc-powershell) 다음 명령을 실행하여 역할 그룹이 구성원으로 있는 사례 목록을 얻을 수 있습니다. 역할 그룹을 업데이트한 후 역할 그룹을 해당 사례의 구성원으로 다시 추가합니다.
+
+### <a name="get-a-list-of-role-groups-assigned-to-core-ediscovery-cases"></a>Core eDiscovery 사례에 할당된 역할 그룹 목록 표시
+
+```powershell
+Get-ComplianceCase -RoleGroup "Name of role group"
+```
+
+### <a name="get-a-list-of-role-groups-assigned-to-advanced-ediscovery-cases"></a>사례에 할당된 역할 Advanced eDiscovery
+
+```powershell
+Get-ComplianceCase -RoleGroup "Name of role group" -CaseType AdvancedEdiscovery
+```
 
 ## <a name="more-information"></a>추가 정보
 

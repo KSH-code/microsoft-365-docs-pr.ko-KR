@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 2016에서 Core eDiscovery를 사용하는 방법을 Microsoft 365. eDiscovery 권한을 할당하고 사례를 만든 후 구성원을 추가하고 eDiscovery 보류를 만든 다음 조사와 관련된 콘텐츠를 검색하고 내보낼 수 있습니다.
-ms.openlocfilehash: aa6e1efb6ef3a773eaae697fcc60a4293967d845
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: d8827f5f63e0fc0432aef7869436112c00ca4151
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59498223"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60217177"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>2013에서 Core eDiscovery 시작 Microsoft 365
 
@@ -129,6 +129,9 @@ eDiscovery 사용 권한에 대한 자세한 내용과 eDiscovery 관리자 역�
 4. 사례의 구성원으로 추가할 수 있는 사용자 또는 역할 그룹 목록에서 추가할 사용자(또는 역할 그룹)의 이름 왼쪽을 클릭합니다. 구성원으로 추가할 수 있는 사용자 또는 역할 그룹의 큰  목록이 있는 경우 검색 상자를 사용하여 목록에서 특정 사용자 또는 역할 그룹을 검색합니다.
   
 5. 사례의 구성원으로 추가할 사용자 또는 역할 그룹을 선택한  후 저장을 클릭하여 새 구성원 또는 역할 그룹을 저장합니다.
+
+> [!IMPORTANT]
+> 사례의 구성원으로 추가한 역할 그룹에서 역할을 추가하거나 제거하면 역할 그룹이 사례의 구성원(또는 역할 그룹이 구성원인 경우)으로 자동으로 제거됩니다. 이러한 이유는 사례의 구성원에게 추가 사용 권한을 부수적으로 제공하는 것을 방지하기 위한 것입니다. 마찬가지로 역할 그룹이 삭제되면 역할 그룹이 구성원이던 모든 경우에서 제거됩니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md#adding-role-groups-as-members-of-ediscovery-cases)을 참조하세요.
 
 ## <a name="explore-the-core-ediscovery-workflow"></a>Core eDiscovery 워크플로 살펴보기
 

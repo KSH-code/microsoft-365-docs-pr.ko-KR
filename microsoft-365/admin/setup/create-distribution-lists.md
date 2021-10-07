@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -23,12 +23,12 @@ ms.custom:
 - okr_smb
 - AdminTemplateSet
 description: 각 받는 사람 이름을 입력하지 않고도 Microsoft 365 관리 센터 전자 메일을 보낼 수 있도록 메일 그룹 또는 목록을 만들 수 있습니다.
-ms.openlocfilehash: 43453f54a9ae6c8bea90f58a2a3774b5c8cdca91
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 4eb98e0be0dcfef8d1648aabe4c9a35106814e52
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775363"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197824"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>메일 그룹에서 Microsoft 365 관리 센터
   

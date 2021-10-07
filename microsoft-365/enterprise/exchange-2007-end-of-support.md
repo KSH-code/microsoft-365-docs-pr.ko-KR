@@ -7,19 +7,19 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 ms.assetid: c3024358-326b-404e-9fe6-b618e54d977d
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 2007년 지원 종료 Exchange Server 옵션에 대해 알아보고 Microsoft 365, Office 365 또는 2016으로의 마이그레이션 계획을 Exchange 있습니다.
-ms.openlocfilehash: d7e8f50118dab6fcb618273f5c28497c80d4a549
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d5e79666c0e8e9804a63c89a0095a8725f14cd35
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218565"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178782"
 ---
 # <a name="exchange-2007-end-of-support-roadmap"></a>Exchange 2007 지원 종료 로드맵
 
@@ -255,4 +255,4 @@ Microsoft 365 마이그레이션하는 동안 문제가 발생하여 FastTrack �
     
 ## <a name="related-topics"></a>관련 항목
 
-[2007 서버 및 클라이언트를 업그레이드하는 Office 리소스](upgrade-from-office-2007-servers-and-products.md)
+[Office 2007 서버 및 클라이언트를 업그레이드하는 데 도움이 되는 리소스](upgrade-from-office-2007-servers-and-products.md)

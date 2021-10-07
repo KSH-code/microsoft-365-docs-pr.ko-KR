@@ -8,7 +8,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: 그룹 Microsoft 365 정책에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4617124801ed0400481bd81a453c6520a0c8d73a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: abfcc6947adc33610dee02b6b92447ce4c0d5412
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214112"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208868"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 만료 정책
 

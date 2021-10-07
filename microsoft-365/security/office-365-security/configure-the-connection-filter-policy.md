@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 전자 메일 서버에서 전자 메일을 허용하거나 차단하도록 EOP(Exchange Online Protection)에서 연결 필터링을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6edcbbe885f8271b073afdff248106ce0d209960
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5b59e7a5ed37cb4694ae72759815b46b1248c09f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189132"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209000"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -36,7 +36,7 @@ ms.locfileid: "59189132"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 고객인 경우 EOP의 연결 필터링(특히 기본 연결 필터 정책)을 사용하여 해당 IP 주소로 양호하거나 잘못된 원본 전자 메일 서버를 식별합니다. 기본 연결 필터 정책의 주요 구성 요소는 다음과 같습니다.
+Microsoft 365 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 고객인 경우 EOP의 연결 필터링(특히 기본 연결 필터 정책)을 사용하여 양호하거나 잘못된 원본을 식별합니다 Exchange Online. IP 주소로 전자 메일 서버 기본 연결 필터 정책의 주요 구성 요소는 다음과 같습니다.
 
 - **IP 허용 목록: IP** 주소 또는 IP 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지에 대해 스팸 필터링을 건너뜁습니다. 이러한 원본의 메시지에서 스팸 필터링이 계속 발생할 수 있는 시나리오는 이 문서 의 부분에 있는 [IP](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) 허용 목록의 원본에서 보낸 메시지가 여전히 필터링되는 시나리오 섹션을 참조하세요. IP 허용 목록이 전반적인 수신 허용 - 보낸 사람 전략에 적합한 방법에 대한 자세한 내용은 EOP에서 수신 허용 - 보낸 사람 목록 [만들기를 참조하세요.](create-safe-sender-lists-in-office-365.md)
 
@@ -44,7 +44,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 - **금고 목록:** *안전한* 목록은 고객 구성이 필요 없는 Microsoft 데이터 센터의 동적 허용 목록입니다. Microsoft는 구독에서 다양한 타사 목록으로의 이러한 신뢰할 수 있는 전자 메일 원본을 식별합니다. 안전한 목록의 사용을 활성화 또는 비활성화합니다. 수신 확인 목록에 원본 전자 메일 서버를 구성할 수 없습니다. 스팸 필터링은 수신 확인 목록의 전자 메일 서버에서 들어오는 메시지에서 건너뜁니다.
 
-이 문서에서는 Microsoft 365 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 기본 연결 필터 정책을 구성하는 방법에 대해 설명하고 있습니다. EOP에서 연결 필터링을 사용하는 방법에 대한 자세한 내용은 스팸 방지 보호를 [참조하세요.](anti-spam-protection.md)
+이 문서에서는 Microsoft 365 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell for Microsoft 365 조직에 사서함이 있는 조직용 PowerShell)에서 기본 연결 필터 정책을 구성하는 Exchange Online. 사서함이 없는 조직의 독립 실행형 EOP PowerShell Exchange Online) EOP에서 연결 필터링을 사용하는 방법에 대한 자세한 내용은 스팸 방지 보호를 [참조하세요.](anti-spam-protection.md)
 
 > [!NOTE]
 > IP 허용 목록, 수신 허용 목록 및 IP 차단 목록은 조직의 전자 메일을 허용하거나 차단하는 전체 전략의 일부입니다. 자세한 내용은 [수신이](create-safe-sender-lists-in-office-365.md) 가능한 보낸 사람 목록 만들기 및 수신이 차단된 보낸 [사람 목록 만들기를 참조하세요.](create-block-sender-lists-in-office-365.md)
@@ -64,7 +64,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 허용하거나 차단할 전자 메일 서버(보낸 사람)의 원본 IP 주소를 찾으면 메시지 헤더에서 연결 **IP(CIP)** 헤더 필드를 확인할 수 있습니다. 다양한 전자 메일 클라이언트에서 메시지 헤더를 확인하려면 에서 인터넷 메시지 [헤더 보기를 Outlook.](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)
 
@@ -82,7 +82,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
    - **설명** 섹션: 이름 **및 설명 편집을 클릭합니다.** 나타나는 **이름 및** 설명 편집 플라이아웃에서 설명 상자에 선택적 설명 텍스트를 **입력합니다.**
 
-     작업을 마친 후 **저장** 을 클릭합니다.
+     작업을 마쳤으면 **저장** 을 클릭합니다.
 
    - **연결 필터링 섹션:** 연결 **필터 정책 편집을 클릭합니다.** 플라이아웃이 나타나면 다음 설정을 구성합니다.
 
@@ -93,7 +93,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
        필요한 만큼 이 단계를 반복합니다. 기존 값을 제거하려면 제거를 클릭합니다. ![제거 아이콘.](../../media/m365-cc-sc-remove-selection-icon.png) 값 옆에 있습니다.
 
-     IP 주소 또는 주소 범위를 추가하려면 상자를 클릭하고  추가 아이콘 ![ 추가를 입력합니다. ](../../media/ITPro-EAC-AddIcon.png) 항목을 제거하려면 **허용된 IP** 주소의 항목을 선택한 다음 제거 **를** ![ ](../../media/scc-remove-icon.png) 클릭합니다. 작업을 마친 후 **저장** 을 클릭합니다.
+     IP 주소 또는 주소 범위를 추가하려면 상자를 클릭하고  추가 아이콘 ![ 추가를 입력합니다. ](../../media/ITPro-EAC-AddIcon.png) 항목을 제거하려면 **허용된 IP** 주소의 항목을 선택한 다음 제거 **를** ![ ](../../media/scc-remove-icon.png) 클릭합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
    - **항상 다음 IP 주소** 또는 주소 범위의 메시지를 차단합니다. IP 차단 목록입니다. 다음 IP 주소 또는 주소 범위의 메시지 항상 허용 설정에 설명된 바와 같이 상자에 단일 IP, IP 범위 또는 CIDR **IP를 입력합니다.**
 

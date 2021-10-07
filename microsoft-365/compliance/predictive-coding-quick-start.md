@@ -9,17 +9,17 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 이 모듈에서 예측 코딩 모듈을 사용하는 방법을 Advanced eDiscovery. 이 문서에서는 예측 코딩을 사용하여 조사와 가장 관련이 있는 검토 집합의 콘텐츠를 식별하는 종단-종단 프로세스에 대해 설명합니다.
-ms.openlocfilehash: 0ca9e4ff8b42ced962b68fff9073e892d8ea5d4e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 38607459057ff06a2ce74364b752130467deaddd
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186075"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197596"
 ---
 # <a name="quick-start-predictive-coding-in-advanced-ediscovery-preview"></a>빠른 시작: Advanced eDiscovery 예측 코딩(미리 보기)
 

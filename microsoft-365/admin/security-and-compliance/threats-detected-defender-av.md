@@ -7,19 +7,20 @@ manager: scotv
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: 바이러스Microsoft Defender 바이러스 백신 맬웨어 및 스파이웨어와 같은 소프트웨어 위협으로부터 Windows 장치를 보호하는 방법을 알아보십시오.
-ms.openlocfilehash: 7894a1f2a3947a3d71f46bf0ca3797370db078f4
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 969cd707e40c9c7f665089cc1b9b6ddd45583982
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59772737"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178074"
 ---
 # <a name="threats-detected-by-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에서 탐지된 위협
 

@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 사용자에 대해 다단계 인증을 지원하는 플랫폼, 클라이언트 및 PowerShell 모듈에 대해 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8749c05e3f7ce5dacf7d3ed1eaa46a46a20482d5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2b96e25355bf5dde302bf400fec25f4bafb6b0a6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215912"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178770"
 ---
 # <a name="microsoft-365-client-app-support-multi-factor-authentication"></a>Microsoft 365 클라이언트 앱 지원: 다단계 인증
 

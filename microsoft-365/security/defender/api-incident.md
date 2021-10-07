@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 0c0c2e280f63076687a0854e25c47577b050a8f7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c316bd7c429165869b235871b2366861a22c6056
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220032"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198100"
 ---
 # <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 Defender API 및 인시던트 리소스 유형
 
@@ -46,7 +46,7 @@ ms.locfileid: "59220032"
 
 HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문에는 도달한 할당량이 다시 설정될 때까지의 시간이 포함됩니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 인시던트 API에는 각 메서드에 대해 서로 다른 종류의 사용 권한이 필요합니다. 필요한 사용 권한에 대한 자세한 내용은 해당 방법의 문서를 참조하세요.
 

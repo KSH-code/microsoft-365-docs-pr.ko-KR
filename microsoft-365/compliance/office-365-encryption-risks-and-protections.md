@@ -8,7 +8,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+ms.localizationpriority: ''
 search.appverid:
 - MET150
 ms.collection:
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 보호에 사용할 수 있는 암호화 Office 365 위험에 대해 학습합니다.
-ms.openlocfilehash: 6bb0e705095b4f31c730a21921985131785dc3f0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fc1792c11bfbe0451eb2a835b3b02504ab05546f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216695"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190668"
 ---
 # <a name="encryption-risks-and-protections"></a>암호화 위험 및 보호
 

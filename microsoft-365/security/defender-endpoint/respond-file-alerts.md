@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3169464afe92a8af80df1b6dedfd9f7eb806a402
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 816e08c4c6ba3b2a50c981401163531d2b5d63c4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042629"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198167"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -57,9 +57,9 @@ ms.locfileid: "60042629"
 
 |사용 권한|PE 파일|PE가 아닌 파일|
 |---|:---:|:---:|
-|데이터 보기|X|X 키|
-|경고 조사|&#x2611;|X 키|
-|실시간 응답 기본|X|X 키|
+|데이터 보기|X|X|
+|경고 조사|&#x2611;|X|
+|실시간 응답 기본|X|X|
 |실시간 응답 고급|&#x2611;|&#x2611;|
 |
 

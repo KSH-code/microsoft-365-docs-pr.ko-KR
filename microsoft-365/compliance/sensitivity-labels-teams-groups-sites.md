@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 5e8e18d85a0161542d988107c450a6abb9f7c7d4
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: fff0326df591ad5cd414be73afe9f365b1bc04b0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60010332"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151005"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-[민감도 레이블](sensitivity-labels.md)을 사용하여 문서와 전자 메일을 분류하고 보호하는 것 외에도 민감도 레이블을 사용하여 Microsoft Teams 사이트, Microsoft 365 그룹([이전 이름: Office 365 그룹](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) 및 SharePoint 사이트와 같은 컨테이너의 콘텐츠를 보호할 수도 있습니다. 이 컨테이너 수준 분류 및 보호를 위해서는 다음 레이블 설정을 사용하세요.
+[민감도 레이블](sensitivity-labels.md)을 사용하여 문서와 전자 메일을 분류하고 보호하는 것 외에도 민감도 레이블을 사용하여 Microsoft Teams 사이트, Microsoft 365 그룹([이전의 Office 365 그룹](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)), SharePoint s사이트 컨테이너의 콘텐츠도 보호할 수 있습니다. 이 컨테이너 수준 분류와 보호의 경우, 다음 레이블 설정을 사용하세요.
 
 - 팀 사이트 및 Microsoft 365 그룹의 개인 정보(공개 또는 비공개)
 - 외부 사용자 액세스
@@ -209,7 +209,7 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
 
 #### <a name="powershell-tips-for-specifying-the-advanced-settings"></a>고급 설정 지정을 위한 PowerShell 팁
 
-민감도 레이블을 이름으로 지정할 수 있지만 레이블 이름 또는 표시 이름 지정에 대한 잠재적인 혼동을 피하기 위해 레이블 GUID를 사용하는 것이 좋습니다. GUID를 찾으려면:
+민감도 레이블을 이름으로 지정할 수 있지만 레이블 이름 또는 표시 이름 지정에 대한 잠재적인 혼동을 피하기 위해 레이블 GUID를 사용하는 것이 좋습니다. GUID를 찾으려면 다음을 수행합니다.
 
 ````powershell
 Get-Label | Format-Table -Property DisplayName, Name, Guid
@@ -329,7 +329,7 @@ SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 �
    Get-Label |ft Name, Guid
    ```
 
-3. 이제 [SharePoint Online PowerShell에 연결](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)하여 레이블 GUID를 변수로 저장합니다. 예제:
+3. 이제 [SharePoint Online PowerShell에 연결](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)하여 레이블 GUID를 변수로 저장합니다. 예를 들어
 
    ```powershell
    $Id = [GUID]("e48058ea-98e8-4940-8db0-ba1310fd955e")

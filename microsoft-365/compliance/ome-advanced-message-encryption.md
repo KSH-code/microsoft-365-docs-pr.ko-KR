@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.date: 08/11/2021
 ms.collection:
 - Strat_O365_IP
@@ -16,16 +16,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: 고급 메시지 암호화는 관리자가 보호된 메시지로 더 많은 작업을 할 수 있도록 하여 조직이 규정 준수 의무를 충족하는 데 도움이 됩니다.
-ms.openlocfilehash: dbd19c2028a3453d43dc2ce9082955a5ec1165db
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9e0f1933d68ba696e6446b321857eb3f6836f378
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216682"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197560"
 ---
 # <a name="advanced-message-encryption"></a>고급 메시지 암호화
 
-Office 365 고급 메시지 암호화 [Microsoft 365 Enterprise E5,](https://www.microsoft.com/microsoft-365/enterprise/home)Office 365 E5, Microsoft 365 E5(비영리 직원 가격), Office 365 Enterprise E5(비영리 직원 가격 책정) 및 Office 365 Education A5에 포함되어 있습니다. 조직에 구독이 포함되어 있지 않은 Office 365 고급 메시지 암호화. Microsoft 365 E5 Compliance, Microsoft 365 E3 Office 365 Advanced Compliance(비영리 직원 가격) 또는 Microsoft 365 E3, Microsoft 365 E3(비영리 직원 가격), Office 365 S Microsoft 365 E3 KU 또는 Microsoft 365 A3/E3용 Microsoft 365 E5/A5 정보 보호 및 거버넌스 SKU 추가 기능용 Microsoft 365 E5 Compliance SKU 추가 기능을 사용하여 구입할 수 있습니다.
+Office 365 고급 메시지 암호화 [E5,](https://www.microsoft.com/microsoft-365/enterprise/home)Office 365 E5, Microsoft 365 E5(비영리 직원 가격), Office 365 Enterprise E5(비영리 직원 가격 책정)에 포함되어 있습니다 Microsoft 365 Enterprise. 및 Office 365 Education A5. 조직에 Office 365 고급 메시지 암호화 없는 구독이 있는 경우 Microsoft 365 E3, Microsoft 365 E3(비영리 직원 가격) 또는 Microsoft 365 E3 Microsoft 365 E3(비영리 직원 가격), Office 365 SKU 또는 Microsoft 365 E5/A5 정보 보호 및 거버넌스 SKU 추가 기능용 Office 365 Advanced Compliance SKU 추가 기능으로 구매할 수 있습니다 Microsoft 365 E5 Compliance. Microsoft 365 A3/E3.
 
 고급 메시지 암호화는 고객이 외부 받는 사람에 대한 보다 유연한 제어 및 암호화된 전자 메일에 대한 액세스가 필요한 규정 준수 의무를 충족하는 데 도움이 됩니다. 고급 메시지 암호화를 사용하여 Office 365 정책을 사용하여 조직 외부에서 공유되는 중요한 전자 메일을 제어할 수 있습니다. 이러한 정책을 구성하여 PII, 재무 또는 상태 식별과 같은 중요한 정보 유형을 식별하거나 키워드를 사용하여 보호를 강화할 수 있습니다. 정책을 구성한 후 사용자 지정 브랜드 전자 메일 서식 파일과 정책을 페어링한 다음 정책에 맞는 전자 메일에 대한 추가 제어를 위한 만료 날짜를 추가합니다. 또한 관리자는 보안 웹 포털을 통해 외부에 액세스하는 암호화된 전자 메일에 대한 액세스를 해지하여 해당 메일에 대한 액세스 권한을 추가로 제어할 수 있습니다.
 

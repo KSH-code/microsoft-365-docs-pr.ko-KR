@@ -4,7 +4,7 @@ description: 사이트 포털에서 인시던트가 Microsoft 365 Defender 조�
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터링, 보고서, ID, 데이터, 장치, 앱, 인시던트, 분석, 응답
 ms.prod: m365-security
 ms.mktglfcycl: deploy
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -19,12 +19,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: d7decb3e566f8bb0abf4a3aec12e2e3a43ae3511
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f7145d2668f6c724644bf719dfd6414550af43c4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218182"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60209168"
 ---
 # <a name="investigate-users-in-microsoft-365-defender"></a>사용자 조사에서 Microsoft 365 Defender
 

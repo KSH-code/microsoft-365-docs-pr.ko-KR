@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: 75af74b2-c7ea-4556-a912-8c48e07271d3
@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2a28e2ecc45be941dbd6e346f9918e1692357840
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 296f5cbea567860411a9eb093d0547670bf80c62
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218125"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190380"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>2016년 8월의 피싱 방지 Microsoft 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "59218125"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-*피싱* 은 메시지에 포함된 중요한 정보를 훔치려고 하는 합법적인 발신자 또는 신뢰할 수 있는 발신자가 보낸 것 같은 전자 메일 공격입니다. 특정 범주의 피싱이 있습니다. 예시:
+*피싱* 은 메시지에 포함된 중요한 정보를 훔치려고 하는 합법적인 발신자 또는 신뢰할 수 있는 발신자가 보낸 것 같은 전자 메일 공격입니다. 특정 범주의 피싱이 있습니다. 예제:
 
 - **스피어 피싱은** 대상 받는 사람(일반적으로 공격자가 받는 사람을 정정한 후)에 맞게 특별히 조정된 포커스가 있는 사용자 지정 콘텐츠를 사용 합니다.
 

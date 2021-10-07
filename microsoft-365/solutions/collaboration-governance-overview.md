@@ -7,7 +7,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365solution-overview
@@ -17,12 +17,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 사용자 그룹, Microsoft 365, Teams, SharePoint 및 관리 Yammer 대해 Yammer.
-ms.openlocfilehash: fefda518d9864984d7fb8ee6f82e57ad14ff7b6e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 31b97403b955cb92a7e4cf4b79bb2cd31927b73b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187275"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190236"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란 무엇인가요?
 
@@ -230,7 +230,7 @@ Microsoft 365 광범위한 정보 보호 및 규정 준수 기능이 포함되�
 
 이러한 회의 세션을 시청하여 Microsoft 365 그룹 및 그룹의 거버넌스에 대해 Teams.
 
-**기본**
+**기본 사항**
 
 대규모 관리 및 거버넌스, 사용 및 채택을 추진하기 위한 모범 사례, 셀프 서비스를 포함하여 Microsoft 365 그룹의 기본 및 새로운 혁신에 대해 알아보습니다.
 

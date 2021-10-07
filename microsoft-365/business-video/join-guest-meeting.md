@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 게스트와 모임에 참가하는 Teams 방법을 배워야 할 수 있습니다.
-ms.openlocfilehash: 781e1aa242270588ba50a025ca0dd71c06354ad0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 13d5017e4136c24c0474622fb9fb4bb6f96c7899
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191849"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60177846"
 ---
 # <a name="join-a-teams-meeting-with-guests"></a>게스트와 Teams 모임 참가
 

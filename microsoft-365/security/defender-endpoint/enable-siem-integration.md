@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6adb1ed443dc39be3b6d56adc6c3dac65f37ee3d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c102583b2e3d8abc7995821870252946e48ccac6
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222733"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60217141"
 ---
 # <a name="enable-siem-integration-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 SIEM 통합 사용
 
@@ -45,7 +45,7 @@ SIEM(보안 정보 및 이벤트 관리) 통합을 사용하도록 설정하여 
 - 설정을 활성화하는 사용자에게 AAD(응용 프로그램)에서 앱을 만들 수 Azure Active Directory 있어야 합니다. 이 역할은 다음과 같은 역할을 합니다.
 
   - 보안 관리자 및 전역 관리자
-  - 클라우드 응용 프로그램 관리자
+  - 클라우드 애플리케이션 관리자
   - 응용 프로그램 관리자
   - 서비스 보안 주체의 소유자
 
@@ -90,7 +90,7 @@ SIEM(보안 정보 및 이벤트 관리) 통합을 사용하도록 설정하여 
 
 ## <a name="integrate-microsoft-defender-for-endpoint-with-ibm-qradar"></a>끝점용 Microsoft Defender와 IBM QRadar 통합
 
-끝점용 Microsoft Defender에서 검색을 수집하도록 IBM QRadar를 구성할 수 있습니다. 자세한 내용은 [IBM 기술 센터를 참조하세요.](https://www.ibm.com/support/knowledgecenter/SS42VS_DSM/c_dsm_guide_MS_Win_Defender_ATP_overview.html?cp=SS42VS_7.3.1)
+끝점용 Microsoft Defender에서 검색을 수집하도록 IBM QRadar를 구성할 수 있습니다. 자세한 내용은 [IBM 기술 센터를 참조하세요.](https://www.ibm.com/docs/en/qsip/7.3.2?topic=quick-start-guide)
 
 ## <a name="see-also"></a>참고 항목
 

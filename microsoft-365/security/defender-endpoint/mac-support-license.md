@@ -2,15 +2,13 @@
 title: Mac에서 끝점용 Microsoft Defender의 라이선스 문제 해결
 description: Mac의 끝점용 Microsoft Defender에서 라이선스 문제를 해결합니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 성능
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5b1cee16f4eccaa8f6fd36d8764b1305cba3131f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bf2da03b93b38b27efebbdf3e031c3071f56d188
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214985"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198171"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 라이선스 문제 해결
 

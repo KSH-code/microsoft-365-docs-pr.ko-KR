@@ -10,14 +10,14 @@ ms.topic: article
 ms.prod: microsoft-365-enterprise
 ms.custom: ''
 search.appverid: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 조직에서 테스트용 파일럿 프로그램을 계획하고 Microsoft Viva 방법을 배워야 합니다.
-ms.openlocfilehash: 783c84e0b7d14c51269672bc49902f02bdedd0e3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9e0aff8f2c4ce339af44261becc1b0ebd0a39445
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189529"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178722"
 ---
 # <a name="run-a-trial-of-microsoft-viva-topics"></a>항목 평가판 Microsoft Viva 실행
 

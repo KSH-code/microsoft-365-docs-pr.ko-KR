@@ -4,17 +4,17 @@ description: 이 항목에서는 장치 서비스 및 장치 서비스에 대한
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e843ae91536cfa24ad8c8a257764cc7fd88b8883
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 256598a1eb7a51c0e07bd7be9ebf616d2d1ce4ec
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215345"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198268"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Microsoft Managed Desktop 장치 서비스
 
@@ -27,7 +27,7 @@ Microsoft는 이러한 서비스를 Microsoft Managed Desktop 있습니다. 권�
 서비스 | 설명
 --- | ---
 지원 | 지원 에이전트는 장치 기능과 직접 관련된 질문에 대답하고 장치 문제를 진단합니다.
-재고 | 인벤토리 및 상태 추적을 위해 Microsoft Managed Desktop 관리 포털에서 모든 장치를 추적합니다.
+인벤토리 | 인벤토리 및 상태 추적을 위해 Microsoft Managed Desktop 관리 포털에서 모든 장치를 추적합니다.
 펌웨어 및 드라이버 업데이트 | 기본적으로 Microsoft Managed Desktop 업데이트에서 펌웨어 및 드라이버 업데이트를 받는 Windows 있습니다. 모든 하드웨어 파트너가 업데이트 업데이트를 통해 Windows 않습니다. 자동으로 게시되지 않은 업데이트에는 예외가 필요하며 고객이 배포해야 합니다.
 액세서리 | 장치와 함께 제공된 액세서리에는 장치 자체와 동일한 서비스가 적용되지만 보증 조건이 다를 수 있습니다. 장치를 선택할 때 선택한 보증 조건을 참조합니다. 
 장치 설정 | 디바이스는 현재 버전의 디바이스로 미리 Windows 클라우드를 통해 앱 및 구성을 수신합니다.

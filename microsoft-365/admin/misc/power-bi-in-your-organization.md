@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: 조직의 Power BI 이 비즈니스 분석 서비스를 사용하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 5301d3cd6b10101543741637014455aa2b2a207a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4b9a8df06cbb486afa878054c24d820bcb2af2e1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186987"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190116"
 ---
 # <a name="power-bi-in-your-organization"></a>조직의 Power BI
 
@@ -95,7 +95,7 @@ Microsoft에서 테넌트가 만들어진 경우 다음 단계에 따라 해당 
 
 ::: moniker range="o365-21vianet"
 
-3. <a href="https://portal.partner.microsoftonline.cn" target="_blank">https://portal.partner.microsoftonline.cn</a>으로 이동합니다.
+3. <a href="https://portal.partner.microsoftonline.cn" target="_blank">https://portal.partner.microsoftonline.cn</a>(으)로 이동합니다.
 
 ::: moniker-end
 
@@ -190,7 +190,7 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 
 3. 라이선스 **및 앱 탭에서** **Microsoft** Power BI 선택을 취소합니다.
 
-4. **변경 사항 저장** 을 선택합니다.
+4. **변경 내용 저장** 을 선택합니다.
 
 ## <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>새 사용자가 내 테넌트에 참여했을 때 이를 알 수 있는 방법은 무엇인가요?
 

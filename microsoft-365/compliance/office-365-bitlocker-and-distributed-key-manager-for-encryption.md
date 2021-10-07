@@ -8,7 +8,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+ms.localizationpriority: ''
 search.appverid:
 - MET150
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: BitLocker 암호화를 Office 365 방법을 알아보고 컴퓨터와 디스크를 분실하거나 도난당한 경우 데이터 도난 가능성을 줄입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cc329a053544ba6cf1753ae07caac642546cad11
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 343a5966dc24954e98d7d31977aacbc09daaba11
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216725"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197572"
 ---
 # <a name="bitlocker-and-distributed-key-manager-dkm-for-encryption"></a>암호화에 대한 BitLocker 및 분산 키 관리자(DKM)
 

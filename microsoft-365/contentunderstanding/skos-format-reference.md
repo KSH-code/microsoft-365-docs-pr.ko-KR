@@ -8,14 +8,14 @@ ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: enabler-strategic
-localization_priority: Priority
+ms.localizationpriority: high
 description: SharePoint 분류에 대한 SKOS 형식 참조
-ms.openlocfilehash: 4c08073f453ef0b6a224829b7d4cb4034b74ed14
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9ea3183bcf05755dcfb6d9391a2c59db63c35cb8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216092"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190596"
 ---
 # <a name="skos-format-reference-for-sharepoint-taxonomy"></a>SharePoint 분류에 대한 SKOS 형식 참조
 
@@ -105,7 +105,7 @@ ex:TermSetA    a    sharepoint-taxonomy:TermSet;
 
 **sharepoint-taxonomy:hasTopLevelTerm**
 
-SharePoint는 이 속성을 사용하여 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에서 맨 위의 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 매핑합니다. 이는 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에서 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)의 계층 구조에 대한 진입점입니다. 이는 sharepoint-taxonomy:topLevelTermOf와 역 관계입니다.
+SharePoint는 이 속성을 사용하여 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에서 최상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 매핑합니다. 이는 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 [Terms](/dotnet/api/microsoft.sharepoint.taxonomy.term) 계층에 대한 진입점입니다. 이 항목은 sharepoint-taxonomy:topLevelTermOf와 역 관계입니다.
 
 이를 정의하는 구문은 다음과 같습니다.
 
@@ -138,7 +138,7 @@ Term에는 기본 언어로 레이블이 하나 이상 포함될 수 있으며 �
 
 **sharepoint-taxonomy:defaultLabel**
 
-[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 필수 매개 변수인 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 기본 어휘 레이블을 사용합니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 시각적으로 나타내기 위해 사용합니다.
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)의 필수 매개 변수인 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 이 기본 어휘 레이블을 사용합니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)를 시각적으로 나타내는 데 사용합니다.
 
 DefaultLabel을 정의하는 구문은 다음과 같습니다.
 
@@ -194,7 +194,7 @@ ex:TermA    sharepoint-taxonomy:otherLabel    “Term A”@en-us.
 
 **sharepoint-taxonomy:parent**
 
-이는 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)과 계층적으로 관련되게 합니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)은 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 최상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)이 될 수 있지만 최상위 Term이 아닌 경우에는 상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)이 있어야 합니다.
+이 항목은 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)과 계층적으로 연결합니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)은 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 최상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)일 수 있지만 그렇지 않은 경우 상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)이 있어야 합니다.
 
 상위 항목을 정의하는 구문은 다음과 같습니다.
 

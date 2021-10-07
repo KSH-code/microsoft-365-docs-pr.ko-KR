@@ -8,19 +8,19 @@ manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
 ROBOTS: NOINDEX,NOFOLOW
 description: 관리자는 문서에서 활성 콘텐츠를 차단하는 정책을 만드는 Office 있습니다.
-ms.openlocfilehash: 1e27e3f4292b1036f05f41c3f5f2b48594d527b1
-ms.sourcegitcommit: 5eecb0ccc70bf75779411d80147ed5588132b103
+ms.openlocfilehash: 6781cc5c36749f91fdfc9dc4c421d97feace9f9d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59461635"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178482"
 ---
 # <a name="manage-active-content-in-office-documents"></a>문서에서 활성 Office 관리
 

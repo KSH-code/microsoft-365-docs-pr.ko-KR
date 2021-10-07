@@ -10,19 +10,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
-ms.openlocfilehash: d5fa34de0394c1455fccb70a875fe12cddee3ed8
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: d2e466bd728e546cfae546c16994eb1f68446657
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400327"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178434"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>이벤트 뷰어를 사용하여 이벤트 및 오류 검토
 
@@ -63,7 +63,7 @@ ms.locfileid: "59400327"
    |2|끝점용 Microsoft Defender 서비스 종료.|디바이스가 종료되거나 오프보더될 때 발생합니다.|정상 작동 알림 필요한 작업이 없습니다.|
    |3 |끝점용 Microsoft Defender 서비스를 시작하지 못했습니다. 오류 코드: `variable` .|서비스가 시작되지 않습니다.|다른 메시지를 검토하여 가능한 원인 및 문제 해결 단계를 파악합니다.|
    |4 |끝점용 Microsoft Defender 서비스가 에 서버에 `variable` 연결했습니다.|변수 = 끝점 처리 서버용 Defender의 URL입니다. <p> 이 URL은 방화벽 또는 네트워크 활동에 있는 URL과 일치합니다.|정상 작동 알림 필요한 작업이 없습니다.|
-   |5 |끝점용 Microsoft Defender 서비스가 의 서버에 연결하지 `variable` 못했습니다.|변수 = 끝점 처리 서버용 Defender의 URL입니다. <p> 서비스가 해당 URL의 외부 처리 서버에 연결하지 못했습니다.|URL에 대한 연결을 확인합니다. 프록시 [및 인터넷 연결 구성을 참조합니다.](configure-proxy-internet.md)|
+   |5|끝점용 Microsoft Defender 서비스가 의 서버에 연결하지 `variable` 못했습니다.|변수 = 끝점 처리 서버용 Defender의 URL입니다. <p> 서비스가 해당 URL의 외부 처리 서버에 연결하지 못했습니다.|URL에 대한 연결을 확인합니다. 프록시 [및 인터넷 연결 구성을 참조합니다.](configure-proxy-internet.md)|
    |6 |Microsoft Defender for Endpoint Service가 온보딩되지 않은 경우 온보딩 매개 변수를 찾을 수 없습니다.|장치가 올바르게 온보드되지 않았고 포털에 보고되지 않습니다.|서비스를 시작하기 전에 온보더링을 실행해야 합니다. <p> 온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|
    |7 |Microsoft Defender for Endpoint Service에서 온보딩 매개 변수를 읽지 못했습니다. 실패: `variable` .|변수 = 자세한 오류 설명입니다. 장치가 올바르게 온보드되지 않았고 포털에 보고되지 않습니다.|온보딩 설정 및 스크립트가 제대로 배포되었는지 확인합니다. 구성 패키지를 다시 재배포해 보아야 합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|
    |8 |Microsoft Defender for Endpoint Service에서 구성을 정리하지 못했습니다. 오류 코드: `variable` .|**온보드 중:** 서비스가 온보더링하는 동안 구성을 정리하지 못했습니다. 온보더링 프로세스가 계속됩니다. <p> **오프보더 중:** 서비스가 오프보더하는 동안 구성을 정리하지 못했습니다. 오프보더 프로세스가 완료 했지만 서비스가 계속 실행됩니다.|**온보더링:** 필요한 작업은 없습니다. <p> **오프보더링:** 시스템을 다시 부트합니다. <p> 장치 [온보드 Windows 10 참조.](configure-endpoints.md)|

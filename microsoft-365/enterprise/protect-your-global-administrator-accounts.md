@@ -7,7 +7,7 @@ ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - m365initiative-coredeploy
@@ -22,12 +22,12 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: 이 문서에서는 사용자 구독에 대한 전역 관리자 액세스를 보호하는 Microsoft 365 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a43c8b6ac5389be99581302c249e431853ba99b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9693a8321643539e21ff10f3c624a0558916eb29
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215782"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198352"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>전역 Microsoft 365 계정 보호
 
@@ -35,9 +35,9 @@ ms.locfileid: "59215782"
 
 정보 수집 및 피싱 공격을 포함하여 Microsoft 365 구독의 보안 위반은 일반적으로 전역 관리자 계정의 자격 증명을 Microsoft 365 수행됩니다. 클라우드의 보안은 사용자와 Microsoft 간의 파트너 관계입니다.
   
-- Microsoft 클라우드 서비스는 신뢰 및 보안을 토대로 구축됩니다. Microsoft는 데이터 및 응용 프로그램을 보호하는 데 도움이 되는 보안 제어 및 기능을 제공합니다.
+- Microsoft 클라우드 서비스는 신뢰와 보안을 기반으로 합니다. Microsoft는 데이터와 응용 프로그램을 보호하는 데 유용한 보안 컨트롤 및 기능을 제공합니다.
     
-- 데이터 및 ID와 데이터 보호에 대한 책임, 사내 리소스의 보안 및 제어하는 클라우드 구성 요소의 보안을 소유합니다.
+- 사용자는 데이터와 ID를 소유하며 데이터 및 ID의 보호, 온-프레미스 리소스의 보안, 사용자가 제어하는 클라우드 구성 요소의 보안은 사용자 책임입니다.
     
 Microsoft는 조직을 보호하는 데 도움이 되는 기능을 제공하지만 사용하는 경우만 유효합니다. 사용하지 않는 경우 공격에 취약할 수 있습니다. 전역 관리자 계정을 보호하기 위해 Microsoft는 다음에 대한 자세한 지침을 제공합니다.
   
@@ -113,7 +113,7 @@ MFA(다단계 인증)에는 계정 이름 및 암호 이외에 추가 정보가 
     
 하이브리드 ID 모델을 사용하는 대규모 조직인 Microsoft 365 더 많은 확인 옵션이 있습니다. 더 강력한 보조 인증 방법에 대한 보안 인프라가 이미 있는 경우 [MFA를](../admin/security-and-compliance/set-up-multi-factor-authentication.md) 설정하고 적절한 확인 방법을 위해 각 전용 전역 관리자 계정을 구성합니다.
   
-원하는 강력한 확인 방법에 대한 보안 인프라가 설정되지 않은 경우 Microsoft 365 MFA에 대해 작동할 경우 중간 보안 조치로 Microsoft Authenticator 앱, 전화 통화 또는 전역 관리자 계정에 대해 스마트폰으로 전송된 문자 메시지 확인 코드를 사용하여 MFA로 전용 전역 관리자 계정을 구성하는 것이 좋습니다. MFA에서 제공하는 추가 보호 없이는 전용 전역 관리자 계정을 그대로 두지 않습니다.
+원하는 강력한 확인 방법에 대한 보안 인프라가 설정되어 있지 않은 경우 Microsoft 365 MFA에 대해 작동할 경우 Microsoft Authenticator 앱, 전화 통화 또는 전역 관리자 계정의 스마트폰으로 전송된 문자 메시지 확인 코드를 사용하여 MFA로 전용 전역 관리자 계정을 구성하는 것이 좋습니다. measure. MFA에서 제공하는 추가 보호 없이는 전용 전역 관리자 계정을 그대로 두지 않습니다.
   
 자세한 내용은 에 [대한 MFA를 Microsoft 365.](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)
   

@@ -13,14 +13,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
-localization_priority: None
+ms.localizationpriority: ''
 description: 사용자용 학습 콘텐츠 SharePoint(미리 보기)로 구성하는 Microsoft Viva Learning 알아보겠습니다.
-ms.openlocfilehash: 96dc12f8c69281f420b339198222f9f918ebc5b4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c82f802dde29a5c837d9ef477abdddf8e00aac61
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191209"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178698"
 ---
 # <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>SharePoint 학습 콘텐츠 원본으로 구성(Microsoft Viva Learning)
 

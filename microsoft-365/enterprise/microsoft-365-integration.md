@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ search.appverid:
 - MED150
 ms.assetid: 263faf8d-aa21-428b-aed3-2021837a4b65
 description: 이 문서에서는 기존 디렉터리 서비스 및 Microsoft 365 환경과 통합하는 방법을 알아보십시오.
-ms.openlocfilehash: 87b456a0b44e4b38df6cec8e72713c6573917805
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 06e6ff598d064f14ffb89bcf88e78932cc621225
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215882"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198436"
 ---
 # <a name="microsoft-365-integration-with-on-premises-environments"></a>Microsoft 365 환경과의 통합
 

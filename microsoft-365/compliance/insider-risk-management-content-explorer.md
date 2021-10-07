@@ -2,7 +2,7 @@
 title: 내부자 위험 관리 콘텐츠 탐색기
 description: 내부자 위험 관리 앱의 콘텐츠 탐색기에 Microsoft 365
 keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b76194037dec0ca6a660d2024a35c3376f06eab2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 30600241881ccb4203c3ea1015d8c54a680458ff
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184019"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190740"
 ---
 # <a name="insider-risk-management-content-explorer"></a>내부자 위험 관리 콘텐츠 탐색기
 

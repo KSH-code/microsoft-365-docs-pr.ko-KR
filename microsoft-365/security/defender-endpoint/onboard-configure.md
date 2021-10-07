@@ -8,18 +8,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 49109b7671cc4ecd1891cb942dcd6b678d7b5c11
-ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
+ms.openlocfilehash: 52083cbd8b7e94c09c21ef434634376966102df6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124532"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178326"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Microsoft Defender for Endpoint 서비스에 장치 온보딩
 

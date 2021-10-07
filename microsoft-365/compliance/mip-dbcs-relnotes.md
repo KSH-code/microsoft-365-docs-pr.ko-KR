@@ -7,19 +7,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 더블 바이트 문자 집합에 대한 지원을 위한 릴리스 노트
-ms.openlocfilehash: cbcaec29de206344712749fee6bf9f358a04caa6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3731e32594461df29a9cc5ec3f21bf3eb17ee79c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210955"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190680"
 ---
 # <a name="support-for-double-byte-character-set-release-notes"></a>더블 바이트 문자 집합 릴리스 노트를 지원
 

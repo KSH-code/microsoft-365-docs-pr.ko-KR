@@ -10,19 +10,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 86a447ba3a5dca129d1044e5df83dd2ab81cbe74
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5a5fd36d57a1892189b4a5e9c4d13ad9d0ac6923
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167071"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198208"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>전달 프록시 뒤에 발생하는 연결 이벤트 조사
 

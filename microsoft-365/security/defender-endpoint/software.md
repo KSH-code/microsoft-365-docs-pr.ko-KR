@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: dolmont
 author: DulceMontemayor
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 85b162cce8655c7942a341326ff08ec112ace100
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 637c56e5c02283e4efee5a456c21f4a74fcda40d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356564"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178290"
 ---
 # <a name="software-resource-type"></a>소프트웨어 리소스 유형
 
@@ -66,8 +66,8 @@ ms.locfileid: "59356564"
 |속성|유형|설명|
 |---|---|---|
 |id|String|소프트웨어 ID|
-|이름|문자열|소프트웨어 이름|
-|공급업체|문자열|소프트웨어 공급업체 이름|
+|이름|String|소프트웨어 이름|
+|공급업체|String|소프트웨어 공급업체 이름|
 |약점|Long|검색된 취약성 수|
 |publicExploit|부울|일부 취약성에 대한 공개 악용이 있습니다.|
 |activeAlert|부울|활성 경고가 이 소프트웨어와 연결됩니다.|

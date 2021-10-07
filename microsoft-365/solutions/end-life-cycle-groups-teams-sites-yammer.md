@@ -7,7 +7,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365solution-collabgovernance
@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 그룹, 팀 및 팀에 대한 수명 주기 종료 옵션 Yammer.
-ms.openlocfilehash: fccdf838b7ebec6a1ab1fae2f709824bfbd3b6d1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 883af3878bd0bc68aa539fc1cc36b66c4f1cfe9e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192252"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190128"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>그룹, 팀 및 팀에 대한 수명 주기 종료 옵션 Yammer
 

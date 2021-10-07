@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 12/15/2016
 audience: ITPro
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
@@ -19,12 +19,12 @@ ms.custom:
 description: 대상 Microsoft 365 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 DNS에서 SPF(Sender Policy Framework) TXT 레코드를 사용하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 972f283f6138bafcebd877a19f0bfc429e0eed03
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ad620c1c1c08cbe92e6ad6b98c6554c4c5cd93b1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214382"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190332"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 방지하는 방법
 
@@ -59,11 +59,11 @@ SPF는 보낸 사람이 도메인을 대신하여 보낼 수 있는지 여부를
 
 SPF 규칙에 대한 기본 구문을 살펴보아야 합니다.
 
-v=spf1 \<IP\>\<enforcement rule\>
+v=spf1 \<IP\> \<enforcement rule\>
 
 예를 들어 다음 SPF 규칙이 다음과 같은 contoso.com.
 
-v=spf1 \<IP address #1\> \<IP address #2\> \<IP address #3\>\<enforcement rule\>
+v=spf1 \<IP address #1\> \<IP address #2\> \<IP address #3\> \<enforcement rule\>
 
 이 예에서 SPF 규칙은 받는 전자 메일 서버에서 다음 도메인에 대한 이러한 IP 주소의 메일만 수락할 수 contoso.com.
 
@@ -150,7 +150,7 @@ v=spf1 include:spf.protection.outlook.com -all
 v=spf1 [<ip4>|<ip6>:<IP address>] [include:<domain name>] <enforcement rule>
 ```
 
-예:
+예제:
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
@@ -201,7 +201,7 @@ v=spf1 ip4:192.168.0.1 include:spf.protection.outlook.com -all
 ### <a name="example-spf-txt-record-for-multiple-outbound-on-premises-mail-servers-and-microsoft-365"></a>예: 여러 아웃바운드-프레미스 메일 서버 및 서버의 SPF TXT Microsoft 365
 <a name="ExampleSPFMultipleMailServerO365"> </a>
 
-여러 아웃바운드 메일 서버가 있는 경우 SPF TXT 레코드에 각 메일 서버의 IP 주소를 포함하고 각 IP 주소를 공백과 "ip4:" 문으로 구분합니다. 예를 들어,
+여러 아웃바운드 메일 서버가 있는 경우 SPF TXT 레코드에 각 메일 서버의 IP 주소를 포함하고 각 IP 주소를 공백과 "ip4:" 문으로 구분합니다. 예제:
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.outlook.com -all

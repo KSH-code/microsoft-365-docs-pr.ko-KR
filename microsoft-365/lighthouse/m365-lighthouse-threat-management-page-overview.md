@@ -7,7 +7,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-lighthouse
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스를 사용하는 MSP(관리 서비스 공급자)Microsoft 365 Lighthouse 위협 관리 페이지에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 7f8a5ef0ebea7204b0463b921946362acfed17d9
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 6eb5ed0c37295a7683b2eb16068f96f912aefb91
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59443974"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178674"
 ---
 # <a name="microsoft-365-lighthouse-threat-management-page-overview"></a>Microsoft 365 Lighthouse 위협 관리 페이지 개요 
 
@@ -30,7 +30,7 @@ ms.locfileid: "59443974"
 
 **적용 대상:**
 
-- Windows 10
+- Windows 10
 
 Microsoft Defender 바이러스 백신 바이러스, 맬웨어 및 스파이웨어를 비롯한 소프트웨어 위협으로부터 테넌트, 사용자 및 장치를 보호합니다. Windows 10 및 Microsoft &nbsp; 365 E3에 Microsoft 365 Business Premium 강력하고 지속적인 &nbsp; 보호 기능입니다.  
   

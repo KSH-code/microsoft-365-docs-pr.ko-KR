@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: Normal
+ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: mkaminska
@@ -16,12 +16,12 @@ ms.technology: mde
 ms.topic: article
 ms.date: 08/31/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 946027419feca235442476db41533fb29adc6007
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: f23ff6ccbde512b8c8b3f1da36e86ede1c2d0324
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59490754"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208568"
 ---
 # <a name="cloud-protection-and-sample-submission-in-microsoft-defender-antivirus"></a>클라우드 보호 및 샘플 제출(Microsoft Defender 바이러스 백신
 
@@ -107,7 +107,7 @@ Intune, Configuration Manager, GPO 또는 PowerShell을 사용하는 구성 옵�
 
 다음 표에는 클라우드 보호에서 분석을 위해 전송된 메타데이터의 예가 나열됩니다.
 
-| 형식 | 특성 |
+| 유형 | 특성 |
 |:---|:---|
 | 컴퓨터 특성 | `OS version` <br/> `Processor` <br/> `Security settings` |
 | 동적 및 상황적 특성 | **프로세스 및 설치** <br/> `ProcessName` <br/> `ParentProcess` <br/> `TriggeringSignature` <br/> `TriggeringFile` <br/> `Download IP and url` <br/> `HashedFullPath` <br/> `Vpath` <br/> `RealPath` <br/> `Parent/child relationships` <br/><br/>**동작** <br/> `Connection IPs` <br/> `System changes` <br/> `API calls` <br/> `Process injection` <br/><br/>**Locale** <br/> `Locale setting` <br/> `Geographical location` |

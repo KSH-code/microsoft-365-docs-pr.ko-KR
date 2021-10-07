@@ -4,17 +4,17 @@ description: 보안 운영 센터에서 제공하는 서비스 및 프로세스
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 600755c15ce6da94481ef4d84732991e5006cce1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b575bb506c2d70a73b858560a6fc10f931e95ba1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215265"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178554"
 ---
 # <a name="security-operations-in-microsoft-managed-desktop"></a>보안 작업의 Microsoft Managed Desktop
 

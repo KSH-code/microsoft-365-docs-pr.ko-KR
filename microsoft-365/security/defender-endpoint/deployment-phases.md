@@ -2,14 +2,13 @@
 title: 배포 단계
 description: 끝점을 준비, 설정 및 서비스로 온보딩하여 끝점용 Microsoft Defender를 배포하는 방법에 대해 자세히 알아보기
 keywords: 배포, 준비, 설정, 온보드, 단계, 배포, 배포, 채택, 구성
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b5d7f7384d60a5353ce4c0363e07d3451e146598
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6b7c9c4389506e59998609f7d960016abf694ebc
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220600"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190536"
 ---
 # <a name="deployment-phases"></a>배포 단계
 

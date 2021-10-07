@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 06/22/2021
 audience: Admin
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MED150
@@ -22,12 +22,12 @@ ms.custom:
 description: ZAP(제로 아워 자동 제거)는 Exchange Online 사서함에 있는 배달된 메시지를 스팸, 피싱 또는 배달 후 맬웨어가 포함된 정크 메일 폴더 또는 검역소로 이동합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 14d3378ccc2693a62fbc90ce393073199e603931
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: ebfe8bd2eec176b57cfa55400525c8379f9ef4c8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483114"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197860"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>ZAP(제로 아워 자동 Exchange Online
 
@@ -54,7 +54,7 @@ ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색�
 
 ### <a name="zero-hour-auto-purge-zap-for-malware"></a>맬웨어에 대한 ZAP(제로 아워 자동 제거)
 
-배달 **후** 맬웨어가 포함된 것으로 확인된 읽거나 읽지 않은 메시지의 경우 ZAP는 맬웨어 첨부 파일이 포함된 메시지를 차단합니다. 기본적으로 관리자만이 맬웨어 메시지를 보고 관리할 수 있습니다. 그러나 관리자는 정책을 만들고  사용하여 맬웨어로 검사된 메시지에 대해 사용자가 할 수 있는 작업을 정의할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+배달 **후** 맬웨어가 포함된 것으로 확인된 읽거나 읽지 않은 메시지의 경우 ZAP는 맬웨어 첨부 파일이 포함된 메시지를 차단합니다. 기본적으로 관리자만이 맬웨어 메시지를 보고 관리할 수 있습니다. 그러나 관리자는 정책을 만들고  사용하여 맬웨어로 검사된 메시지에 대해 사용자가 할 수 있는 작업을 정의할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
 맬웨어에 대한 ZAP는 맬웨어 방지 정책에서 기본적으로 사용됩니다. 자세한 내용은 EOP에서 맬웨어 [방지 정책 구성을 참조하세요.](configure-anti-malware-policies.md)
 

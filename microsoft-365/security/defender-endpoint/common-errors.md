@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 6e5f21a5d0c22ff4149adc0779ce78b31ee12725
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 065a82521e8dad8ea4594ba6b3364471b99927ae
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165746"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178494"
 ---
 # <a name="common-rest-api-error-codes"></a>일반적인 REST API 오류 코드
 
@@ -74,7 +74,7 @@ API 설명서 페이지를 검토하고 제출된 매개 변수가 관련 예제
 
 오류에 대해 문의할 때 이 ID를 첨부하면 문제의 근본 원인을 찾는 데 도움이 됩니다.
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 
 ```json
 {

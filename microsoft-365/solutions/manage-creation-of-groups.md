@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 recommendations: false
 description: 그룹을 만들 수 있는 사용자를 제어하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: a9bfcbe97000cc6fbe0050ffee44cdc5ecc87080
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b78ff54c8ff475f96f10592a95a3f83255665727
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154149"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60217165"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
@@ -98,13 +98,13 @@ ms.locfileid: "60154149"
 
 아래 스크립트를 텍스트 편집기(예: 메모장 또는 ISE Windows PowerShell [복사합니다.](/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
-을 만든 그룹의 *\<GroupName\>* 이름으로 바 대체합니다. 예:
+을 만든 그룹의 *\<GroupName\>* 이름으로 바 대체합니다. 예제:
 
 `$GroupName = "Group Creators"`
 
 파일을 다른 파일로 GroupCreators.ps1.
 
-PowerShell 창에서 파일을 저장한 위치로 이동합니다("CD"를 <FileLocation> 입력).
+PowerShell 창에서 파일을 저장한 위치로 이동합니다("CD"를 \<FileLocation\> 입력).
 
 다음을 입력하여 스크립트를 실행합니다.
 
@@ -133,8 +133,7 @@ $settingsCopy["EnableGroupCreation"] = $AllowGroupCreation
 if($GroupName)
 {
   $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
-}
- else {
+} else {
 $settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
 }
 Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy

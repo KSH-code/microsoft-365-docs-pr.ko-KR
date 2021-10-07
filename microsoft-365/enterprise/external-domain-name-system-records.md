@@ -7,7 +7,7 @@ ms.date: 10/21/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Office 365 배포를 계획할 때 사용할 외부 Domain Name System 레코드의 참조 목록입니다.
-ms.openlocfilehash: e54a25aef956784fd74ad65dc54357ea3db0f57c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7be1acf8886bead9d50b7c47b5f0dab1e2a74a12
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218545"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208808"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Office 365에 대한 외부 Domain Name System 레코드
 
@@ -133,8 +133,8 @@ Office 365용 Exchange Online 전자 메일을 사용하지 않는 시나리오�
 |:-----|:-----|:-----|:-----|
 |1  <br/> |모든 전자 메일 시스템(필수)  <br/> |이 값으로 시작하는 모든 SPF 레코드  <br/> |v=spf1  <br/> |
 |2  <br/> |Exchange Online(일반적)  <br/> |Exchange Online만 사용  <br/> |포함:spf.protection.outlook.com  <br/> |
-|3  <br/> |제3자 전자 메일 시스템(덜 일반적임)  <br/> ||포함되는 사항:\<email system like mail.contoso.com\>  <br/> |
-|4  <br/> |온-프레미스 메일 시스템(덜 일반적임)  <br/> |Exchange Online Protection 또는 Exchange Online 및 다른 메일 시스템을 사용하는 경우 사용  <br/> |ip4:\<0.0.0.0\>  <br/> ip6:\< : : \>  <br/> 포함되는 사항은 다음과 같습니다.\<mail.contoso.com\>  <br/> 괄호 안의 값(\<\>)은 도메인의 전자 메일을 전송하는 다른 메일 시스템이어야 합니다.  <br/> |
+|3   <br/> |제3자 전자 메일 시스템(덜 일반적임)  <br/> ||포함되는 사항:\<email system like mail.contoso.com\>  <br/> |
+|4   <br/> |온-프레미스 메일 시스템(덜 일반적임)  <br/> |Exchange Online Protection 또는 Exchange Online 및 다른 메일 시스템을 사용하는 경우 사용  <br/> |ip4:\<0.0.0.0\>  <br/> ip6:\< : : \>  <br/> 포함되는 사항은 다음과 같습니다.\<mail.contoso.com\>  <br/> 괄호 안의 값(\<\>)은 도메인의 전자 메일을 전송하는 다른 메일 시스템이어야 합니다.  <br/> |
 |5  <br/> |모든 전자 메일 시스템(필수)  <br/> ||-모두  <br/> |
 
 ### <a name="example-adding-to-an-existing-spf-record"></a>예: 기존 SPF 레코드에 추가

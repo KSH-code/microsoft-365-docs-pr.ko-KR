@@ -7,7 +7,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365solution-collabgovernance
@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: Microsoft 365 그룹과 그룹 간의 설정 상호 작용에 대해 SharePoint
-ms.openlocfilehash: eb2f4ff9745eb73f23c48630582aa455ee2bb561
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2978e2f0a450c72d7b4abf71edb208a5d9f364c6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217872"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208892"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-and-sharepoint"></a>설정 그룹과 Microsoft 365 상호 작용 SharePoint
 

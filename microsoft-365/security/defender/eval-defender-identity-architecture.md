@@ -12,7 +12,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 ms.date: 07/09/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: d7474a3cb2f04627c5da16f84dbde6d195021551
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2a3e2949cd05a72c949bad4a55c10fcb84b1f4f2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192549"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60198088"
 ---
 # <a name="review-architecture-requirements-and-key-concepts-for-microsoft-defender-for-identity"></a>Microsoft Defender for Identity에 대한 아키텍처 요구 사항 및 주요 개념 검토
 
@@ -76,7 +76,7 @@ Id에 대한 Defender의 아키텍처에 대한 자세한 내용은 id와의 통
 | 네트워크 이름 확인    |  NNR(네트워크 이름 확인)은 네트워크 트래픽, Windows 이벤트, ETW 등을 기반으로 활동을 캡처하고 이 원시 데이터를 각 활동에 관련된 관련 컴퓨터와 상관 관계가 있는 MDI 기능의 구성 요소입니다.       | [네트워크 이름 확인이란?](/defender-for-identity/nnr-policy)      |
 | 보고서    | Id용 Defender 보고서를 사용하면 시스템 및 엔터티 상태 정보를 제공하는 보고서를 예약하거나 즉시 생성하고 다운로드할 수 있습니다.  사용자 환경에서 감지된 시스템 상태, 보안 경고 및 잠재적인 측면 이동 경로에 대한 보고서를 만들 수 있습니다.   | [Microsoft Defender for Identity Reports ](/defender-for-identity/reports)       |
 | 역할 그룹    | Id에 대한 Defender는 관리자, 사용자 및 뷰어를 포함하는 조직의 특정 보안 및 규정 준수 요구에 따라 데이터를 보호하기 위해 역할 기반 그룹 및 위임된 액세스를 제공합니다.        |  [ID용 Microsoft Defender 역할 그룹](/defender-for-identity/role-groups)       |
-| 관리 포털    |  Id 포털의 Microsoft 365 Defender 포털을 사용하여 의심스러운 활동을 모니터링하고 대응합니다.      | [Microsoft Defender for Identity 포털 작업](/defender-for-identity/workspace-portal)        |
+| 관리 포털    |  Id 포털의 Microsoft 365 Defender 포털을 사용하여 의심스러운 활동을 모니터링하고 대응합니다.      | [Microsoft Defender for Identity 포털에서 작업](/defender-for-identity/workspace-portal)        |
 | Microsoft Cloud App Security 통합   | Microsoft Cloud App Security Microsoft Defender for Identity와 통합하여 클라우드 앱과 사내 모두 하이브리드 환경에서 UEBA(사용자 엔터티 동작 분석)를 제공합니다.   | Microsoft Defender for Identity 통합  |
 | | | |
 

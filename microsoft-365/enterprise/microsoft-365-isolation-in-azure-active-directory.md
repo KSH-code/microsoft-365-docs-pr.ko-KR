@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 격리 및 액세스 제어가 작동하여 여러 테넌트의 데이터를 서로 격리된 데이터로 유지하는 방법을 Azure Active Directory.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d9305bd6c58abd7d3fa5d9b7c6761b64eab279f9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 11c2c488f0168815a1485f5833c5520259db0fa5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220891"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178746"
 ---
 # <a name="microsoft-365-isolation-and-access-control-in-azure-active-directory"></a>Microsoft 365 Azure Active Directory
 

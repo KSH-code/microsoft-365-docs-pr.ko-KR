@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 피싱, Office 365 및 기타 위협으로부터 중요한 데이터를 보호하고 보호할 수 있는 Microsoft Defender를 설정하십시오.
-ms.openlocfilehash: 92b4ca45e03995fb3586f1abce9301de7ec33570
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 60a84b972618444fcddc4165235eef909f4341c5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934050"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178170"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 

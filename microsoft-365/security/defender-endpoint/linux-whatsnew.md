@@ -2,15 +2,13 @@
 title: Linux의 끝점용 Microsoft Defender의 새로운
 description: Linux의 끝점용 Microsoft Defender에 대한 주요 변경 사항 목록입니다.
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, whatsnew, release
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: security
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: reference
 ms.technology: mde
-ms.openlocfilehash: 506b8103946d16c5ec85cc6d3cb449ef67f340f8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: cc24857adacf3b6fbb787030136f5ebb53f00937
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220480"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178350"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender의 새로운
 

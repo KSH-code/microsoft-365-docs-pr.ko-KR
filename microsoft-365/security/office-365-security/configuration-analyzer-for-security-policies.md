@@ -9,7 +9,7 @@ ms.reviewer: ''
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 구성 분석기를 사용하여 표준 보호 및 미리 설정된 보안 정책에서 엄격한 보호의 설정 아래에 있는 보안 정책을 찾아 수정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2b732922cf0a7d9f1d44a24d3b7b6f025f3c2a27
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b537da88199f9b565833c74fb94c233459970557
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219862"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197920"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
@@ -68,7 +68,7 @@ Microsoft 365 Defender 포털의 구성 분석기는 설정이 미리 설정된 
   > [!NOTE]
   >
   > - 해당 Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 Defender 포털에서 필요한 사용 권한과  해당 역할의 다른 기능에 대한 사용 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 ## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>웹 사이트 포털에서 구성 Microsoft 365 Defender 사용
 

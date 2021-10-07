@@ -16,12 +16,12 @@ metadata:
   ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
   description: 새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요.
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 4dcac8a2b4a33b70bfe94421b4813412d012db46
-  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+  ms.openlocfilehash: 8b9e9b17aa09c535529488bbd3b73abc9d9c1170
+  ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/06/2021
-  ms.locfileid: "60177486"
+  ms.lasthandoff: 10/07/2021
+  ms.locfileid: "60217116"
 title: 메시지 암호화 FAQ
 summary: >
   새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요. 또한 Azure Information [Protection의](/information-protection/get-started/faqs-rms) 데이터 보호 서비스인 Azure Rights Management에 대한 질문과 대답은 Azure Information Protection의 데이터 보호에 대한 질문과 대답을 살펴보아야 합니다.
@@ -105,9 +105,9 @@ sections:
 
       > Outlook 데스크톱 클라이언트는 PDF 암호화를 지원하지 않습니다.
   - question: >
-      첨부 비즈니스용 OneDrive 지원 여부
+      온라인 SharePoint 또는 비즈니스용 OneDrive 지원 여부
     answer: >
-      Not yet. 비즈니스용 OneDrive 지원되지 않는 경우 최종 사용자는 클라우드 서버가 포함된 메일을 암호화할 비즈니스용 OneDrive 없습니다.
+      Not yet. SharePoint 온라인 또는 비즈니스용 OneDrive 지원되지 않는 경우 최종 사용자는 메일을 암호화할 수 있지만 클라우드 첨부 파일은 암호화할 수 없습니다.
   - question: >
       보호된 전자 메일에서 암호화된 첨부 파일 미리 보기를 지원하는 전자 메일 클라이언트는 무엇입니까?
     answer: "첨부 파일이 보호된 메일로 보호되는 Outlook 클라이언트는 문서를 직접 미리 볼 수 있는 기능을 제공합니다. Outlook Office 문서(docx, xlsx, pptx, doc, xls, ppt)의 미리 보기를 지원할 수 있습니다. 웹용 Outlook 문서(docx Office xlsx, pptx) 및 PDF의 미리 보기를 지원할 수 있습니다.  \n"
@@ -135,7 +135,7 @@ sections:
   - question: >
       eDiscovery와 같은 준수 기능과 함께 메시지 암호화를 사용할 수 있나요?
     answer: >
-      예. Microsoft 365 기능을 통해 암호화된 모든 전자 메일 메시지를 검색할 수 있습니다. 자세한 내용은 암호화된 항목을 지원하는 [eDiscovery](/microsoft-365/compliance/ediscovery-decryption#ediscovery-activities-that-support-encrypted-items) 활동을 참조합니다.
+      예. OME로 보호되는 대부분의 메시지는 검색할 수 있습니다. 메일 흐름 규칙을 통해 사용자 지정 브랜드가 적용된 다른 Microsoft 365 조직에서 받는 OME 보호 메일은 eDiscovery 서비스에서 감지할 수 없습니다. 즉, 사용자의 사서함을 통해 메일에 액세스할 수 없는 대신 OME 포털에 대한 링크를 통해서만 표시하면 메일을 검색할 수 없습니다. 자세한 내용은 암호화된 항목을 지원하는 [eDiscovery](/microsoft-365/compliance/ediscovery-decryption#ediscovery-activities-that-support-encrypted-items) 활동을 참조합니다.
   - question: >
       전자 메일에서 암호화를 제거할 수 있나요?
     answer: >
@@ -200,6 +200,10 @@ sections:
       암호화된 메시지를 열 때 위임된 액세스가 지원하나요? 대리인이 다른 사용자의 사서함에 대한 모든 권한이 있는 경우에도
     answer: >
       암호화된 메일에 대한 위임된 액세스는 웹용 Outlook, Outlook, iOS용 Outlook 및 Android용 Outlook 지원됩니다.  Outlook 대한 Windows 위임된 액세스를 지원하지 않습니다.
+  - question: >
+      OME 포털에서 메일에 액세스할 수 있는 기간은 얼마나 하나요?
+    answer: >
+      보낸 사람 조직이 활성화되고 메일이 만료하도록 구성되지 않은 경우 OME 포털에 로그인하여 메일을 검색할 수 있습니다.
   - question: >
       요청한 후 일회용 통과 코드를 받지 못하면 어떻게 하나요?
     answer: >-
