@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 표시 이름, 별칭 또는 전자 메일 주소를 변경하여 사용자 이름 또는 전자 메일 주소를 변경하는 방법을 학습합니다.
-ms.openlocfilehash: af91a9597cba44762b009f3946aca889a2ab5a11
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e75046c53b8194d2f3fc386668263b9e1d97ee1a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219385"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191100"
 ---
 # <a name="change-a-users-name-or-email-address"></a>사용자의 이름 또는 전자 메일 주소 변경
 

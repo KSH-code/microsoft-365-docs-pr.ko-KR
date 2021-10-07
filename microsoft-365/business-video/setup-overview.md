@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자 설정에 필요한 내용을 Microsoft 365 Business Premium.
-ms.openlocfilehash: 70d0bf00afaa1a504097ac80598f9c1b1a184b05
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 82b8a1739451db9e93cb1006d77614cd1bd61443
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212765"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189732"
 ---
 # <a name="overview-of-microsoft-365-business-premium-setup"></a>설치 Microsoft 365 Business Premium 개요
 
@@ -85,7 +85,7 @@ ms.locfileid: "59212765"
 
 ## <a name="6-upgrade-your-pcs-to-windows-10-pro"></a>6. PC를 업그레이드하여 Windows 10 Pro
 
-- 고급 보안 Microsoft 365 Business Premium 및 장치 관리와 같은 모든 Microsoft 365 Business Premium 기능을 사용할 수 있도록 PC를 Windows 10 Professional(&#39;7&#39;7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro)로 업그레이드합니다(Windows 7 Windows 8 Pro 또는 Windows 8.1 Pro)로 업그레이드합니다.
+- PC를 Windows 10 Professional 업그레이드(Microsoft 365 Business Premium&#39;7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro)를 다시 실행하는 경우 Windows 7로 업그레이드를 시작할 수 있습니다. 고급 보안 Microsoft 365 Business Premium 장치 관리와 같은 모든 보안 기능을 사용할 수 있습니다.
 - 소비자 버전에서 Windows 10 Pro 업그레이드할 수도&#39;다시 Microsoft 365 Business Standard 구매해야 합니다.
 
 ## <a name="7-connect-your-pcs-to-microsoft-365"></a>7. 커넥트 PC를 Microsoft 365

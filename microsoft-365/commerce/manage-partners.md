@@ -9,7 +9,7 @@ ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 학교용 제품 및 서비스를 구매하고 관리하는 방법을 알아보십시오.
 ms.date: 04/13/2021
-ms.openlocfilehash: f7fd5cda68ce5312f284e7f86e1cfbd3716cc8d4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 19068c87693fbcda06a520b4e41baaad3fef651b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190272"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203450"
 ---
 # <a name="manage-partner-relationships"></a>파트너 관계 관리
 
@@ -55,7 +55,7 @@ Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 �
 
 ## <a name="find-a-partner"></a>파트너 찾기
 
-1. <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a>으로 이동합니다.
+1. <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a>(으)로 이동합니다.
 2. 위치를 입력하고, 조직 크기를 선택하고, 필요한 서비스 유형에 대한 키워드를 추가한 다음 이동을 **선택합니다.**
 3. 하나 이상의 파트너를 선택한 다음 선택한 **공급자에 문의 를 선택합니다.**
 4. 양식을 작성하여 비즈니스 요구 사항을 설명한 다음 보내기 를 **선택합니다.**

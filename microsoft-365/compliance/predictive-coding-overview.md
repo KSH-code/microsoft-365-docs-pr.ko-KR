@@ -9,17 +9,17 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Advanced eDiscovery 새로운 예측 코딩 모듈은 기계 학습을 사용하여 검토 집합의 항목을 사례 또는 조사와 관련된 예측 항목으로 분석합니다.
-ms.openlocfilehash: 0b453713d986572dae8d80efe6dcd60b0616d789
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 60f0fc2f53c8bfbde2a4a1d5cccb4eb678f7c33e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186084"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189360"
 ---
 # <a name="learn-about-predictive-coding-in-advanced-ediscovery-preview"></a>미리 보기의 예측 Advanced eDiscovery 대해 자세히 알아보기
 

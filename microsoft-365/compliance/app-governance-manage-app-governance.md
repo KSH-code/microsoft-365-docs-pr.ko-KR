@@ -9,17 +9,17 @@ audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 ms.collection: m365-security-compliance
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 애플리케이션 거버넌스 기능을 구현하여 애플리케이션을 관리합니다.
-ms.openlocfilehash: 379da2e2ff894b2f6355c14db93b339518dfca02
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ca1a77c4f5a1543a000b563dde98238136b3115d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190022"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189552"
 ---
 # <a name="app-governance-add-on-to-microsoft-cloud-app-security-in-preview"></a>Microsoft Cloud App Security에 대한 애플리케이션 거버넌스 추가 항목(미리 보기)
 
@@ -50,7 +50,7 @@ The scale of ongoing cybersecurity incidents affecting large enterprises and sma
 
 ## <a name="a-first-glimpse-at-app-governance"></a>애플리케이션 거버넌스를 한눈에 확인
 
-애플리케이션 거버넌스 대시보드를 보려면 [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance)(으)로 이동하세요. 앱 거버넌스 데이터를 보려면 로그인 계정에 [ 관리자 역할 ](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
+앱 거버넌스 대시보드를 보려면 [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance)(으)로 이동합니다. 앱 거버넌스 데이터를 보려면 로그인 계정에 [관리자 역할](app-governance-get-started.md#administrator-roles) 중 하나가 있어야 합니다.
 
 ## <a name="app-governance-integration-with-azure-ad-and-microsoft-cloud-app-security"></a>애플리케이션 거버넌스를 Azure AD 및 Microsoft Cloud App Security와 통합합니다.
 

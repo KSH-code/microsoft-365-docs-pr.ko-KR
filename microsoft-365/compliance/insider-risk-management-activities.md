@@ -2,7 +2,7 @@
 title: 내부자 위험 관리 활동 조사
 description: 2013에서 내부자 위험 관리 활동을 조사하는 Microsoft 365
 keywords: Microsoft 365, 내부자 위험, 위험 관리, 규정 준수
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 53e6c5ba245a99970a66aa7a61c74cecb6555420
-ms.sourcegitcommit: e001934654119e15149ed29b3079b1019849f59c
+ms.openlocfilehash: d97ddce798a043f2f73bf3f6bf62fdb890fdfee1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934680"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190812"
 ---
 # <a name="investigate-insider-risk-management-activities"></a>내부자 위험 관리 활동 조사
 

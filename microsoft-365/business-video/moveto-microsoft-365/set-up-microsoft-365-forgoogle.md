@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Google Workspace에서 마이그레이션할 Microsoft 365 설정하는 방법을 알아보고
-ms.openlocfilehash: ec8813f62febbd1c4ee2afa6877e4be505a75a81
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2ecb465ee10d0c27dec5baa09598e696641e3f02
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188859"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203522"
 ---
 # <a name="set-up-microsoft-365-for-google-workspace-migration"></a>Google Workspace Microsoft 365 대한 사용자 설정
 

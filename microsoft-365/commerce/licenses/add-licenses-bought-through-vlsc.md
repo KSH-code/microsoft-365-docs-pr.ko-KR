@@ -9,7 +9,7 @@ ms.reviewer: shegu, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid: MET150
 ROBOTS: NOINDEX
 description: Microsoft에서 인식하는 타사 파트너를 통해 Microsoft 365 구독에 라이선스를 추가하는 방법을 알아 하세요.
 ms.date: 08/27/2021
-ms.openlocfilehash: 5877ffbc1d0403d362666c4b6c34cdfee8aa5ee2
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.openlocfilehash: d5c8c689db74c1e12588ab1ad1bcefc102f9476d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745784"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203462"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>볼륨 라이선스 서비스 센터를 통해 구매한 구독에 라이선스 추가
 

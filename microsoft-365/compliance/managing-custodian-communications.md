@@ -9,19 +9,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery 통해 법적 조사에서 보유자에게 알리는 데 필요한 법적 보유 알림 워크플로를 쉽게 관리할 수 있습니다.
-ms.openlocfilehash: 28b719a83cbc1608ad5468e401a8b7946cb8da5f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d29b3af8efe83e0f4ce02979142587c61807b9cd
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188060"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189372"
 ---
 # <a name="work-with-communications-in-advanced-ediscovery"></a>2016년 8월 Advanced eDiscovery
 

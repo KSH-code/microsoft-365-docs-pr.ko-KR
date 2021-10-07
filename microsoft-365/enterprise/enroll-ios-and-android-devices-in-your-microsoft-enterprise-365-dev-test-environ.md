@@ -9,17 +9,17 @@ ms.date: 11/19/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: 이 테스트 랩 가이드를 사용하여 테스트 환경에 장치를 등록하고 Microsoft 365 원격으로 관리합니다.
-ms.openlocfilehash: 5e27f2eecc9edda0a0fe7225d4ed47c7431eee77
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7610348febcc8c2054c50d7f7a6f1433e9b62306
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189629"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189120"
 ---
 # <a name="enroll-ios-and-android-devices-in-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 iOS 및 Android 장치 등록
 
@@ -58,7 +58,7 @@ Intune에서 몇 가지 방법으로 iOS/iPadOS 및 Android 장치를 등록할 
 장치 관리에 Intune을 사용할 준비가 되어 있으며 몇 가지 지침을 원하는 경우 다음 정보가 도움이 될 수 있습니다.
 
 - [장치 관리 개요](/mem/intune/fundamentals/what-is-device-management)
-- [자습서: Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager)
+- [자습서: Microsoft Endpoint Manager Intune 연습](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager)
 - [배포 가이드: 설치 또는 배포로 Microsoft Intune](/mem/intune/fundamentals/deployment-guide-intune-setup)
 
 ## <a name="phase-3-manage-your-ios-and-android-devices-remotely"></a>3단계: 원격으로 iOS 및 Android 장치 관리

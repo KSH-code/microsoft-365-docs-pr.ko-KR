@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 060a9781-c8a2-4e85-a769-31e6417d05b3
 description: 기본 Bookings 페이지에서 다양한 메트릭을 사용할 수 있어 수익과 고객 활동을 쉽게 추적할 수 있습니다.
-ms.openlocfilehash: a7185ac12d1f2185a3824ea3b27d52c89933cfbe
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 494ce97c1272e5d0717ebeb2c40fa985cbb7ad05
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190559"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203570"
 ---
 # <a name="microsoft-bookings-metrics-and-activity-tracking"></a>Microsoft Bookings 메트릭 및 활동 추적
 

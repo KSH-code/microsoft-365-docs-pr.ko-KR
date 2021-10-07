@@ -8,15 +8,15 @@ manager: laurawi
 ms.service: O365-seccomp
 audience: ITPro
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 포함된 내용, Microsoft 365 규정 준수 센터 방법 및 다음 단계를 포함하여 앱에 대해 자세히 알아보십시오.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 27c8f69530632a78df3e383725205483b255ef48
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0fddf790eb37ce7d9c616f17a7f3830f63b50056
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216782"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203090"
 ---
 # <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 
@@ -74,7 +74,7 @@ Microsoft 365 규정 준수 센터 처음 방문하면 홈 페이지의 카드 �
 - 새 응용 Microsoft 365 규정 준수 센터 없는 경우 곧 사용할 수 있습니다. 이 Microsoft 365 규정 준수 센터 SKU 고객은 현재 Microsoft 365 사용할 수 있습니다.
 - 전역 Microsoft 365 규정 준수 센터, 규정 준수 관리자 또는 규정 준수 데이터 관리자로 이동하여 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **새 새 보기가 아직 Microsoft 365 규정 준수 센터?**
 

@@ -7,19 +7,19 @@ ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 연결 테스트 도구
-ms.openlocfilehash: 60817f54586fd23270edc4e67be8b41a994bf50c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e19c9863be6e5b827e15dd86fadc55ace7e427e4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215805"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199960"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool"></a>Microsoft 365 연결 테스트 도구
 
@@ -222,7 +222,7 @@ Exchange Online 서비스 프런트 도어에 대한 사용자 사무실 위치�
 
 30ms보다 낮아야 하는 측정된 UDP **지터를 보여줍니다.**
 
-#### <a name="connectivity"></a>연결
+#### <a name="connectivity"></a>연결성
 
 사용자 사무실 위치에서 필요한 모든 네트워크 끝점으로의 HTTP Microsoft 365 테스트합니다. 이러한 웹 은 에 [https://aka.ms/o365ip](./urls-and-ip-address-ranges.md) 게시됩니다. 네트워크에 연결할 수 없는 필수 네트워크 끝점에 대한 네트워크 인사이트가 표시됩니다.
 

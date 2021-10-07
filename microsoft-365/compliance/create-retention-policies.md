@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.custom: admindeeplinkMAC
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: a6d78ea9b96bb4967ef41471cd039a4c245b4aa1
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: ec138414078d18915c26755867d2f1a792573cfe
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400153"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189456"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -96,7 +96,7 @@ Teams에 대한 보존 정책을 사용하고 최종 사용자 환경을 이해�
 
 - 항목을 마지막으로 수정한 경우 보존 기간을 시작하는 옵션을 선택할 수 있어도 항상 **항목을 만든 시간** 이 사용됩니다. 편집된 메시지의 경우 원본 메시지의 복사본이 원래 타임스탬프와 함께 저장되어 미리 편집된 메시지를 만들 때를 식별하고, 사후 편집된 메시지에 새로운 타임스탬프가 있습니다.
 
-- **Teams 채널 메시지** 위치에 **편집** 을 선택하면 팀이 아닌 Microsoft 365 그룹이 표시될 수 있습니다. 이 그룹을 선택하지 마세요.
+- **Teams 채널 메시지** 위치에 대해 **편집** 을 선택하면 팀이 아닌 Microsoft 365 그룹이 표시될 수 있습니다. 이 그룹을 선택하지 마세요.
 
 - **Teams 채팅 위치에 대한 편집** 을 선택하면 게스트 및 비 사서함이 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
 
@@ -132,7 +132,7 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
     > [!IMPORTANT]
     > Yammer 사용자 메시지에 대한 보존 정책을 만들 수 있지만 이 위치에 대한 보존 정책은 모든 커뮤니티 구성원에 대한 Yammer 앱에서 커뮤니티 메시지를 삭제할 수 있습니다.
     > 
-    > 이 옵션을 선택하고 보존 정책이 사용자 메시지를 삭제하도록 구성될 경우 이 의미를 이해해야 합니다. 자세한 내용은 [Yammer 보존이 작동 원리](retention-policies-yammer.md#how-retention-works-with-yammer)를 참조하세요.
+    > 이 옵션을 선택하고 사용자 메시지를 삭제하도록 보존 정책이 구성되는 경우 이 의미를 이해해야 합니다. 자세한 내용은 [Yammer에서 보존 작업이 작동하는 방식](retention-policies-yammer.md#how-retention-works-with-yammer)을 참조하세요.
     
     기본적으로 모든 커뮤니티와 사용자가 선택되지만 포함하거나 제외할 커뮤니티와 사용자를 지정하여 세분화할 수 있습니다.
     
@@ -190,7 +190,7 @@ SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당
 
 #### <a name="configuration-information-for-exchange-email-and-exchange-public-folders"></a>Exchange 전자 메일 및 Exchange 공용 폴더에 대한 구성 정보
 
-**Exchange 전자 메일** 위치는 사서함 수준에서 보존 설정을 적용하여 사용자의 전자 메일, 일정 및 기타 사서함 항목에 대한 보존을 지원합니다. 공유 사서함도 지원됩니다.
+**Exchange 이메일** 위치는 사서함 수준에서 보존 설정을 적용하여 사용자의 이메일, 캘린더 및 기타 사서함 항목에 대한 보존을 지원합니다. 공유 사서함도 지원됩니다.
 
 보존 설정을 **모든 받는 사람** 에 적용하면 [비활성 사서함](create-and-manage-inactive-mailboxes.md)이 포함됩니다. 그러나 이 기본값을 변경하고 [특정 포함 또는 제외](#a-policy-with-specific-inclusions-or-exclusions)를 구성하는 경우 비활성 사서함은 지원되지 않으며 해당 사서함에 대해 보존 설정이 적용되거나 제외되지 않습니다.
 
@@ -232,7 +232,7 @@ Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함 및 Sh
 
 ### <a name="configuration-information-for-skype-for-business"></a>비즈니스용 Skype에 대한 구성 정보
 
-다른 위치와 달리 모든 사용자를 자동으로 포함하도록 Skype 위치의 상태를 전환할 수 없습니다. 대신, 해당 위치를 켜면 **편집** 옵션을 선택하여 대화를 유지할 사용자를 수동으로 선택해야 합니다.
+다른 위치와 달리 Skype 위치의 상태를 전환하여 모든 사용자를 자동으로 포함할 수 없습니다. 대신 해당 위치를 켤 때 **편집** 옵션을 선택하여 대화를 유지하려는 사용자를 수동으로 선택해야 합니다.
 
 ![보존 정책을 위한 Skype 위치 편집.](../media/skype-location-retention-policies.png)
 
@@ -292,7 +292,7 @@ Outlook 폴더인 **대화 내용** 은 Skype 아카이빙은 관계가 없는 �
 
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>특정 포함 또는 제외가 적용된 정책
 
-선택적 구성을 사용하여 특정 사용자, 특정 Microsoft 365 그룹 또는 특정 사이트에 대한 보존 설정의 범위를 지정하는 경우 정책별 몇 가지 제한 사항을 고려해야 합니다. 자세한 내용은 [보존 정책 및 보존 레이블 정책의 제한 사항](retention-limits.md)을 참조하세요. 
+선택적 구성을 사용하여 보존 설정의 범위를 특정 사용자, 특정 Microsoft 365 그룹 또는 특정 사이트로 지정하는 경우 정책별로 알아야 할 몇 가지 제한이 있습니다. 자세한 내용은 [보존 정책 및 보존 레이블 정책 제한](retention-limits.md)을 참조하세요. 
 
 선택적 구성을 사용하여 보존 설정의 범위를 지정하려면 해당 위치의 **상태** 가 **켜짐** 인지 확인한 후 링크를 사용하여 특정 사용자, Microsoft 365 그룹 또는 사이트를 포함하거나 배제하면 됩니다.
 

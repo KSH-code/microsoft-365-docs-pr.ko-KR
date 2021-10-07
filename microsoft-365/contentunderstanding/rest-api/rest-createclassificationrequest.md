@@ -9,18 +9,18 @@ ms.topic: reference
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: high
 description: REST API를 사용하여 학습된 문서 이해 모델을 사용하여 하나 이상의 파일을 분류하는 요청을 만듭니다.
-ms.openlocfilehash: 50aa406d25e6d598b568d7c21db6f56e04e111da
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 9f57799a9d1b631be5586dd285dc02cff1237b98
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776731"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60186996"
 ---
 # <a name="create-file-classification-request"></a>파일 분류 요청 만들기
 
-적용된 문서 이해 모델을 사용하여 하나 이상의 파일을 분류하는 요청을 만듭니다. (자세한 내용은 [예제](rest-createclassificationrequest.md#examples)를 참조하세요.)
+적용된 문서 이해 모델을 사용하여 하나 이상의 파일을 분류하는 요청을 만듭니다(자세한 내용은 [예제](rest-createclassificationrequest.md#examples)를 참조하세요.).
 
 SharePoint Online(및 온-프레미스 SharePoint 2016 이상)의 REST 서비스는 여러 요청의 결합을 지원합니다. 요청은 OData $batch 쿼리 옵션을 사용하여 서비스에 대한 단일 호출로 결합됩니다. 이 메서드는 한 번에 수백 개의 문서에 대한 분류 작업 항목을 큐에 넣기 위해 사용할 수 있습니다.
 

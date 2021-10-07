@@ -9,7 +9,7 @@ ms.date: 4/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
@@ -20,12 +20,12 @@ description: 조직 내부나 조직 외부의 사람과 보호된 전자 메일
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 93fbd85ed75684d55ed45aec6821d86ed5e9c3f7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d76b350736ead1620f2dc52bfed607ec2c9f7893
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216372"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188100"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>새 메시지 암호화 기능 설정하기
 
@@ -39,10 +39,10 @@ ms.locfileid: "59216372"
 
 새 OME 기능을 사용하기 위해서는 조직의 테넌트에서 [Azure 권한 관리](/azure/information-protection/what-is-azure-rms)가 활성화되어 있기만 하면 됩니다. 활성화된 경우에는 Microsoft 365가 새 OME 기능을 자동으로 활성화하므로 다른 작업이 필요 없습니다.
 
-대부분의 사용 가능한 플랜에서 Azure RMS가 자동으로 활성화되기 때문에, 여기에서도 보통의 경우 다른 추가 작업이 필요없습니다. 자세한 내용은 [Azure 권한 관리 활성화](/azure/information-protection/activate-service)를 참조하세요.
+또한 Azure RMS는 대부분의 적격 계획에 대해 자동으로 활성화되므로 이와 관련하여 아무 작업도 수행하지 않아도 됩니다. 자세한 내용은 [Azure Rights Management 활성화](/azure/information-protection/activate-service)를 참조하세요.
 
 > [!IMPORTANT]
-> Exchange Online과 함께 Active Directory Rights Management Service(AD RMS)를 사용하는 경우에 새 OME 기능을 사용하려면, 먼저 [Azure Information Protection 마이그레이션](/azure/information-protection/migrate-from-ad-rms-to-azure-rms)을 해야 합니다. OME는 AD RMS와 호환되지 않습니다.
+> Exchange Online에서 AD RMS(Active Directory Rights Management)를 사용하는 경우 새 OME 기능을 사용하려면 먼저 [Azure Information Protection으로 마이그레이션](/azure/information-protection/migrate-from-ad-rms-to-azure-rms)해야 합니다. OME는 AD RMS와 호환되지 않습니다.
 
 자세한 내용은 다음을 참조하세요.
 

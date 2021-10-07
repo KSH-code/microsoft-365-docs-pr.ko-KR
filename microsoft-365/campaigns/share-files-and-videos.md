@@ -8,7 +8,7 @@ manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 내에서 파일 및 비디오를 공유하고 Microsoft Teams SharePoint.
-ms.openlocfilehash: 20e232f1ca8a8392efa236d21b26259f47382148
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fa76261377f4ae52a53a4ff2375afc670086a449
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186428"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191016"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 

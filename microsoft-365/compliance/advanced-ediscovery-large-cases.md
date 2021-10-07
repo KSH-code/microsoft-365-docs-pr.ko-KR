@@ -10,18 +10,18 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 많은 경우 Advanced eDiscovery 항목을 추가하여 검토 집합을 더 추가하고 다른 증가된 제한을 활용할 수 있습니다.
-ms.openlocfilehash: 43211dbeed7621de64d696e21fa647d5023350bb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9481f268e47f10955d4438a0088d7153ebf9d21b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191589"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203342"
 ---
 # <a name="use-large-cases-in-advanced-ediscovery-preview"></a>대규모 사례를 Advanced eDiscovery(미리 보기)
 

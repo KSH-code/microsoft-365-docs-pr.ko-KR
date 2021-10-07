@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 17a-4 Bloomberg DataParser 커넥터를 설정하고 사용하여 Bloomberg 데이터를 Microsoft 365.
-ms.openlocfilehash: aa8da4bc100cb10ba4ebf25f52d90f69611d26b4
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: d1a217c3adf006e6fb6a3e287f2ee30a526381f0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356280"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188340"
 ---
 # <a name="set-up-a-connector-to-archive-bloomberg-data"></a>Bloomberg 데이터를 보관할 커넥터 설정
 

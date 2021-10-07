@@ -8,19 +8,19 @@ manager: laurawi
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: None
+ms.localizationpriority: ''
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 recommendations: false
 description: dlp 정책 조건 및 예외에 대한 자세한 정보
-ms.openlocfilehash: 385c59a41535fbc3fdec0fc551a50b6915736f4f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6e02b4010671404174c9166bd65e237295e87483
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59193089"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204398"
 ---
 # <a name="dlp-policy-conditions-exceptions-and-actions"></a>DLP 정책 조건, 예외 및 작업
 
@@ -136,7 +136,7 @@ DLP 정책의 조건 및 예외는 정책이 적용되는 중요한 항목을 �
 
 |DLP의 조건 또는 예외|PowerShell에서 조건/예외 Microsoft 365 매개 변수|속성 형식|설명|
 |---|---|---|---|
-|중요도|조건: *WithImportance* <br/> 예외: *ExceptIfWithImportance*|Importance|지정된 중요도 수준으로 표시된 메시지입니다.|
+|중요도|조건: *WithImportance* <br/> 예외: *ExceptIfWithImportance*|중요도|지정된 중요도 수준으로 표시된 메시지입니다.|
 |콘텐츠 문자 집합에 단어 포함|조건: *ContentCharacterSetContainsWords* <br/> *ExceptIfContentCharacterSetContainsWords*|CharacterSets|지정된 문자 집합 이름이 있는 메시지입니다.|
 |보낸 사람에 대한 다시금 확인|조건: *HasSenderOverride* <br/> 예외: *ExceptIfHasSenderOverride*|해당 없음|보낸 사람이 DLP(데이터 손실 방지) 정책을 다시 적용하기로 선택한 메시지입니다. DLP 정책에 대한 자세한 내용은 데이터 손실 [방지에 대한 자세한 정보를 참조하세요.](./dlp-learn-about-dlp.md)|
 |메시지 유형이 일치|조건: *MessageTypeMatches* <br/> 예외: *ExceptIfMessageTypeMatches*|MessageType|지정한 유형의 메시지입니다.|
@@ -160,7 +160,7 @@ DLP 정책의 조건 및 예외는 정책이 적용되는 중요한 항목을 �
 |특정 승인자에 대한 승인을 위해 메시지 전달|보통|첫 번째 속성: *ModerateMessageByUser*</br>두 번째 속성: *Addresses*|Moderate 매개 변수는 중재자에 전자 메일 메시지를 보내는 DLP 규칙에 대한 작업을 지정합니다. 이 매개 변수는 @{ ModerateMessageByUser = @("emailaddress1","emailaddress2",..."emailaddressN")} 구문을 사용합니다.|
 |받는 사람 추가|AddRecipients|첫 번째 속성: *Field*</br>두 번째 속성: *Addresses*|메시지의 받는 사람/Cc/Bcc 필드에 하나 이상의 받는 사람을 추가합니다. 이 매개 변수는 @{<AddToRecipients \| CopyTo \| BlindCopyTo> = "emailaddress"} 구문을 사용합니다.|
 |보낸 사람의 관리자를 받는 사람으로 추가|AddRecipients|첫 번째 속성: *AddedManagerAction*</br>두 번째 속성: *Field*|보낸 사람의 관리자를 지정된 받는 사람 유형(받는 사람,Cc, Bcc)으로 메시지에 추가하거나 보낸 사람 또는 받는 사람에게 알리지 않고 메시지를 보낸 사람의 관리자에게 리디렉션합니다. 이 작업은 보낸 사람 관리자 특성이 Active Directory에 정의된 경우만 작동합니다. 이 매개 변수는 @{AddManagerAsRecipientType = "<To \| Cc \| Bcc>"} 구문을 사용합니다.|
-제목 추가|PrependSubject|문자열|지정한 텍스트를 메시지의 제목 필드 시작에 추가합니다. 공백 또는 콜론(:) 를 지정한 텍스트의 마지막 문자로 사용하여 원래 제목 텍스트와 차별화합니다.</br>제목에 이미 있는 텍스트(예: 답장)에 동일한 문자열이 추가되지 않도록 규칙에 "The subject contains words"(ExceptIfSubjectContainsWords) 예외를 추가합니다.|
+제목 추가|PrependSubject|String|지정한 텍스트를 메시지의 제목 필드 시작에 추가합니다. 공백 또는 콜론(:) 를 지정한 텍스트의 마지막 문자로 사용하여 원래 제목 텍스트와 차별화합니다.</br>제목에 이미 있는 텍스트(예: 답장)에 동일한 문자열이 추가되지 않도록 규칙에 "The subject contains words"(ExceptIfSubjectContainsWords) 예외를 추가합니다.|
 |HTML 고지 조항 적용|ApplyHtmlDisclaimer|첫 번째 속성: *Text*</br>두 번째 속성: *Location*</br>세 번째 속성: *Fallback 작업*|지정한 HTML 고지 조항을 메시지의 필수 위치에 적용합니다.</br>이 매개 변수는 @{ Text = " 구문을 사용합니다. Location = <\| Append Prepend>; FallbackAction = <\| Wrap Ignore \| Reject> }|
 |사용자 Office 365 메시지 암호화 및 권한 보호 제거|RemoveRMSTemplate|해당 없음|전자 메일에 Office 365 암호화를 제거합니다.|
 |

@@ -7,7 +7,7 @@ ms.date: 02/02/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -18,16 +18,16 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: '요약: 단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결합니다.'
-ms.openlocfilehash: 82d623c0074a7cdb3b61d0e6380b779d55354809
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d7684debae5ba0cc6679acf7a0cb6f590cca11c5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218752"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201712"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결
 
-PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShell 세션을 동시에 열 수 있습니다. 사용자 계정, SharePoint Online, Exchange Online, 비즈니스용 Skype 온라인, Microsoft Teams, 보안 &amp; 준수 센터를 관리하는 PowerShell 창이 여러 개 있을 수 있습니다.
+PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShell 세션을 동시에 열 수 있습니다. 사용자 계정, SharePoint Online, Exchange Online, 비즈니스용 Skype Online, Microsoft Teams 및 보안 &amp; 준수 센터를 관리하기 위해 다른 PowerShell 창이 있을 수 있습니다.
   
 서비스 관리 창 간에 데이터를 교환할 수 없기 때문에 최적의 Microsoft 365 관리 방법이 아닙니다. 이 문서에서는 Microsoft 365 계정, 비즈니스용 Skype 온라인, Exchange Online, SharePoint Online, Microsoft Teams, 보안 &amp; 준수 센터를 관리하는 데 사용할 수 있는 PowerShell의 단일 인스턴스를 사용하는 방법을 설명합니다.
 
@@ -99,7 +99,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
    ```
 
    > [!Note]
-   > PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. PowerShell에서 이 cmdlet을 실행해야 합니다.
+   > PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. 사용자는 PowerShell의 이러한 cmdlet을 실행해야 합니다.
 
 4. SharePoint 온라인에 연결 하려면 이 명령을 실행하세요. 도메인에 대한 조직 이름을 지정합니다. 예를 들어 "litwareinc\.onmicrosoft.com"의 경우 조직 이름 값은 "litwareinc"입니다.
     

@@ -10,18 +10,18 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: KQL 편집기를 사용하여 콘텐츠 검색, Core eDiscovery 및 콘텐츠 검색에서 eDiscovery 검색 쿼리를 구성할 Advanced eDiscovery.
-ms.openlocfilehash: 571612cc2032b6241923cb6bba2a730a5d821c8a
-ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
+ms.openlocfilehash: cc63b0d945d6807178a801d8e6e1a69311916365
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "60088220"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190980"
 ---
 # <a name="use-the-kql-editor-to-build-search-queries-preview"></a>KQL 편집기를 사용하여 검색 쿼리 작성(미리 보기)
 

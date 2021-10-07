@@ -12,14 +12,14 @@ ms.collection:
 - m365initiative-syntex
 ms.custom: admindeeplinkMAC
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: SharePoint Syntex 설정
-ms.openlocfilehash: 2f77176e2bfd90b4f912379b3b2dcf15b62c7cf4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 50a38a172a2904a649d4f4c31aa293c3c085bd31
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187988"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202934"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -96,7 +96,7 @@ SharePoint Syntex 라이선스에 대한 자세한 내용은 [SharePoint Syntex 
 
     1. **사이트 이름** 에 대해 콘텐츠 센터 사이트에 지정할 이름을 입력합니다.
     
-    1. **사이트 주소** 는 사이트 이름에 대해 선택한 항목에 따라 사이트의 URL을 표시합니다. 변경하려는 경우 **편집** 을 클릭합니다.
+    1. **사이트 주소** 는 사이트 이름에 대해 선택한 항목에 따라 사이트의 URL을 표시합니다. 변경하려면 **편집** 을 클릭합니다.
 
        > [!div class="mx-imgBorder"]
        > ![콘텐츠 센터 만들기.](../media/content-understanding/admin-cu-create-cc.png)</br>
@@ -121,7 +121,7 @@ SharePoint Syntex를 구성한 후에는 SharePoint Syntex 기능을 사용할 �
 
 3. 드롭다운 메뉴에서 **앱** 을 선택합니다.
 
-4. **SharePoint Syntex용 앱 표시** 를 선택합니다. **앱** 에서 **SharePoint Syntex용 일반 데이터 서비스**, **SharePoint Syntex** 및 **SharePoint Syntex - SPO 유형** 이 모두 선택되어 있는지 확인합니다.
+4. **SharePoint Syntex용 앱 표시** 를 선택합니다. **앱** 에서 **SharePoint Syntex용 일반 데이터 서비스**, **SharePoint Syntex**, **SharePoint Syntex - SPO 유형** 이 모두 선택되어 있는지 확인합니다.
 
     > [!div class="mx-imgBorder"]
     > ![Microsoft 365 관리 센터의 SharePoint Syntex 라이선스.](../media/content-understanding/sharepoint-syntex-licenses.png)

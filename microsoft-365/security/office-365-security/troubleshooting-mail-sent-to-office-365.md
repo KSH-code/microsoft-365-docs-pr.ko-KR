@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
@@ -19,12 +19,12 @@ ms.custom:
 description: 이 문서에서는 전자 메일을 받은 편지함으로 보내는 문제에 대한 문제 해결 Microsoft 365 & 모범 사례를 Microsoft 365 제공합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c3017b0e7d0c583c9038f695f9f47010ff92c18a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1e51173e589bac06fb4ca1ba92657137e77ade92
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185531"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203810"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Microsoft 365로 전송한 문제 해결 메일
 
@@ -92,7 +92,7 @@ IP 주소에서 의심스러운 활동이 검색되어 추가 평가가 진행�
 
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>보낸 사람 이름에 메시지를 보내는 사람이 반영되도록 합니다.
 
-제목은 메시지의 내용을 간략하게 요약한 것이고 메시지 본문은 제품, 서비스 또는 제품의 대상을 명확하고 간결하게 나타내야 합니다. 예시:
+제목은 메시지의 내용을 간략하게 요약한 것이고 메시지 본문은 제품, 서비스 또는 제품의 대상을 명확하고 간결하게 나타내야 합니다. 예제:
 
 정확함:
 
@@ -106,7 +106,7 @@ IP 주소에서 의심스러운 활동이 검색되어 추가 평가가 진행�
 
 ### <a name="always-include-an-unsubscribe-option-in-campaign-emails"></a>캠페인 전자 메일에 구독 취소 옵션 항상 포함
 
-마케팅 전자 메일( 특히 뉴스레터)에는 항상 향후 전자 메일의 구독을 해지하는 방법이 포함되어야 합니다. 예시:
+마케팅 전자 메일( 특히 뉴스레터)에는 항상 향후 전자 메일의 구독을 해지하는 방법이 포함되어야 합니다. 예제:
 
  `This email was sent to example@contoso.com by sender@fabrikam.com.`
 
@@ -130,7 +130,7 @@ IP 주소에서 의심스러운 활동이 검색되어 추가 평가가 진행�
 
 - 전자 메일 메시지에서 받는 사람이 주소장에 보낸 사람을 추가하게 요청하는 경우 이러한 작업은 배달 보장이 아 없다고 명확하게 설명해야 합니다.
 
-- 메시지 본문에 포함된 리디렉션은 유사하고 일관적일 수 있으며 여러 개가 아니며 다양해야 합니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지에서 멀어진 모든 것입니다. 광고 또는 구독 취소 링크가 많거나 프로필 링크 업데이트가 있는 경우 모두 동일한 도메인을 지정해야 합니다. 예:
+- 메시지 본문에 포함된 리디렉션은 유사하고 일관적일 수 있으며 여러 개가 아니며 다양해야 합니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지에서 멀어진 모든 것입니다. 광고 또는 구독 취소 링크가 많거나 프로필 링크 업데이트가 있는 경우 모두 동일한 도메인을 지정해야 합니다. 예제:
 
   맞습니다(모든 도메인이 동일).
 

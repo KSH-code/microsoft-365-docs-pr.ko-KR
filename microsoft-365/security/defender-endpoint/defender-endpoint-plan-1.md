@@ -10,16 +10,16 @@ ms.topic: overview
 ms.date: 10/01/2021
 ms.prod: m365-security
 ms.technology: mdep1
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 5edc3db69c8c1f0f6f0a5f79a0838d2b054c9e91
-ms.sourcegitcommit: e686e64e846c26a9f4def7c145cbb140e6427076
+ms.openlocfilehash: 17026088cc10b5ace84cbab31f0a383661e2484b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60069116"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204050"
 ---
 # <a name="overview-of-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 개요(미리 보기)
 
@@ -119,7 +119,7 @@ Endpoint 요금제 1(미리 보기)에 대한 Defender에는 다음 기능이 �
 
 자세한 내용은 제어된 폴더 액세스로 중요한 [폴더 보호를 참조합니다.](controlled-folders.md)
 
-### <a name="device-control"></a>장치 제어
+### <a name="device-control"></a>디바이스 컨트롤
 
 경우에 따라 조직의 장치에 대한 위협이 이동식 드라이브(예: USB 드라이브)의 파일 형태로 나타날 수 있습니다. Endpoint용 Defender에는 권한이 없는 주변 장치의 위협으로 인해 장치가 중단되지 않도록 하는 기능이 포함되어 있습니다. 이동식 장치에서 이동식 장치 및 파일을 차단하거나 허용하도록 끝점에 대한 Defender를 구성할 수 있습니다. 
 

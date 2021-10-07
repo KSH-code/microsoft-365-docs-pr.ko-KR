@@ -9,7 +9,7 @@ ms.reviewer: jamitche, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: 기존 결제 방법을 사용하거나 Microsoft 365 관리 센터에서 새 결제 방법을 추가하여 Microsoft에서 비즈니스 제품 또는 서비스를 구매하세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: e944547e69ea8774690852d1b3123578d40bd3c0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1008beb9caf42b68e741406bef3be9efbe2fa2de
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219175"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190967"
 ---
 # <a name="manage-payment-methods"></a>결제 방법 관리
 
@@ -80,7 +80,7 @@ Microsoft에서 비즈니스 제품 또는 서비스를 구입하는 경우 기�
     > 청구 프로필과 연결된 구독이 있는 경우, 신용 카드나 직불 카드로만 결제할 수 있습니다. **결제 방법** 페이지에 나열된 은행 계좌를 사용하는 경우, 드롭다운 목록에서 선택할 수 없습니다.
 5. 새 결제 방법을 추가하려면 **결제 방법 추가** 를 선택합니다.
 6. **결제 방법 추가** 창에서 계좌 정보를 입력하고 **저장** 을 선택합니다. 테넌트와 동일한 국가의 결제 방법을 사용해야 합니다.
-7. 드롭다운 목록에 새 결제 방법이 이미 선택되어 있습니다. **변경** 을 선택합니다.
+7. 드롭다운 목록에 새 결제 방법이 이미 선택되어 있습니다. **바꾸기** 를 선택합니다.
 
 ## <a name="change-a-payment-method-for-a-single-subscription"></a>단일 구독의 결제 방법 변경
 
@@ -126,7 +126,7 @@ Microsoft에서 비즈니스 제품 또는 서비스를 구입하는 경우 기�
 |:----------|:-----|
 |**"현재 브라우저가 쿠키를 차단하도록 설정되어 있습니다"라는 오류 메시지가 나타납니다.** |타사 쿠키를 허용하도록 브라우저를 설정하고 다시 시도하세요. |
 |**내 신용 카드 또는 직불 카드가 거부되었습니다.** |신용 카드나 직불 카드로 결제하는 데 카드가 거부된 경우 Microsoft에서 결제를 처리하지 못했다는 내용의 전자 메일을 받게 됩니다. 카드 세부 정보 &mdash;카드 번호, 만료 날짜, 카드에 적힌 이름, 도시, 주 및 우편 번호를 포함한 주소&mdash;가 카드 및 명세서에 표시된 것과 정확히 일치하는지 다시 확인하세요. **구독 세부 정보** 페이지의 결제 섹션에 있는 **잔액 정산** 링크를 사용하여 카드 정보를 업데이트하고 즉시 결제를 제출할 수 있습니다.. 자세한 내용은 [미지불 잔액이 있는 경우 어떻게 해야 하나요?](pay-for-your-subscription.md#what-if-i-have-an-outstanding-balance)를 참조하세요.  <br/><br/>  "거부"되었다는 메시지가 계속 표시되면 해당 은행에 문의하세요. 카드가 활성화되지 않았을 수 있습니다. 최근에 업데이트된 만료 날짜가 있는 카드를 메일에 받은 경우 카드가 활성화되어 있는지 확인합니다. 또한 해당 은행에서 카드가 온라인 거래, 국제 거래 또는 반복 거래에 대해 승인되지 않았는지 여부를 알려줄 수 있습니다. |
-|**카드 또는 은행 계좌 번호를 업데이트하려고 합니다.** |기존 결제 방법으로는 카드 또는 계좌 번호를 변경할 수 없습니다. 카드 또는 계좌 번호가 변경된 경우 [다른 결제 수단으로 교체](#replace-a-payment-method)하여 모든 활성 구독을 결제 수단에서 새 결제 수단으로 이동한 다음, [이전 결제 수단을 삭제](#delete-a-payment-method-with-no-subscriptions-or-billing-profiles-attached)합니다. |
+|**카드 또는 은행 계좌 번호를 업데이트하려고 합니다.** |기존 결제 방법으로는 카드 또는 계좌 번호를 변경할 수 없습니다. 카드 또는 계좌 번호가 변경된 경우 [다른 결제 수단으로 교체](#replace-a-payment-method)하여 모든 활성 구독을 결제 수단에서 새 결제 수단으로 이동한 다음, [이전 결제 수단을 삭제합니다](#delete-a-payment-method-with-no-subscriptions-or-billing-profiles-attached). |
 |**계정에 카드 또는 은행 계좌가 하나밖에 없는데 그 카드 또는 은행 계좌를 제거하고 싶습니다.** |결제 수단이 하나 뿐인 경우 삭제하기 전에 [새 결제 수단으로 교체](#replace-a-payment-method)해야 합니다. |
 |**카드 또는 은행 계좌를 추가할 수 없습니다.**  |테넌트와 동일한 국가에서 발급한 결제 방법을 사용해야 합니다. 카드 또는 은행 계좌 정보를 입력하는 데 문제가 있는 경우 [지원에 문의](../../business-video/get-help-support.md)할 수 있습니다. |
 

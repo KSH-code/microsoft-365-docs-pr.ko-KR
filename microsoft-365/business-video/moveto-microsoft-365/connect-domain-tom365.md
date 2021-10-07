@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 도메인을 도메인에 연결하는 방법을 Microsoft 365.
-ms.openlocfilehash: 377bb0444582f8efe15583fa522eceb9d675e474
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d54b3bbf00dd0cf37006924e2884f2861c345d3e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211272"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191076"
 ---
 # <a name="connect-your-domain-to-microsoft-365-for-business"></a>커넥트 도메인을 비즈니스용 Microsoft 365 수 있도록 설정
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 에지에서 사용자 암호를 다시 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 593c4718fb2edcdf14bf65b6a38b55fef0962381
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fc3122a304ff8e89479d1b58b0ff92ad129bbc7b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190482"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203498"
 ---
 # <a name="reset-passwords-for-your-users"></a>사용자의 암호 다시 설정
 

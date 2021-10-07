@@ -10,14 +10,14 @@ ms.service: o365-solutions
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-localization_priority: normal
+ms.localizationpriority: medium
 description: PowerShell을 사용하여 Exchange Online 환경에서 다중 위치 설정을 관리하는 Microsoft 365 방법을 확인합니다.
-ms.openlocfilehash: c8f06318313c4192fc2b3a289727933c5a54f3ad
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2e4be2fd506f89579866c61bbf4a8a41aadc0d03
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210765"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189204"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Multi-Geo 환경에서 Exchange Online 사서함 관리
 

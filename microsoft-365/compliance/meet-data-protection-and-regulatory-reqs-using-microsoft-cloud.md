@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -17,12 +17,12 @@ ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Microsoft Service Trust Portal에서 준수 관리자를 사용해 데이터 보호와 규정 요구 사항을 충족하는 방법을 알아보세요.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX
-ms.openlocfilehash: fa4ed459f713761e648454c42c8ded91391f7cff
-ms.sourcegitcommit: c2d752718aedf958db6b403cc12b972ed1215c00
+ms.openlocfilehash: a4d38c827fb2941516c2d84389204723599db44b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58556171"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203222"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Microsoft 준수 관리자(기본)
 
@@ -264,9 +264,9 @@ CIA/위협 및 법적/외부 요인으로 표시되는 15가지의 가능한 위
 |위험 수준|컨트롤 값|
 |---|:---:|
 |낮음|1-3|
-|보통|6|
-|높음|8|
-|심각|10|
+|보통|6 |
+|높음|8 |
+|심각|10 |
 
 조직은 준수 점수 값이 가장 높은 평가 컨트롤에 우선 순위를 부여하여 위험이 가장 높은 항목에 집중하며, 완료된 각 컨트롤 평가의 평가 준수 총점에 포인트를 추가하는 방식으로 더 높은 비율의 긍적적 피드백을 받습니다.
 

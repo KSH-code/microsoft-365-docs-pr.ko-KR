@@ -11,7 +11,7 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.IngestionHelp
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
 description: Microsoft 365 규정 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: da5d795c2b2babb2f2ff89bb1cdd5531d4818b1b
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: ba757f55e226d436250efa4da3340253dc017be6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011275"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60190848"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -132,7 +132,7 @@ ms.locfileid: "60011275"
 
 #### <a name="what-permissions-are-required-to-create-import-jobs-in-the-office-365-import-service-using-network-upload"></a>네트워크 업로드를 사용하여 Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 권한은 무엇입니까?
 
-PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
+PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online의 사서함 가져오기 내보내기 역할을 할당받아야 합니다. 기본적으로 이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
 
 또한 Microsoft 365 규정 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나를 충족해야 합니다.
 
@@ -153,11 +153,11 @@ PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에�
 
 Using network upload to import PST files is free.
 
-또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339)의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 **Office 365로 데이터 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때에는 PST 파일의 목록이 비어 있을 수 있습니다.
+이는 또한 PST 파일이 Azure Storage 영역에서 삭제된 후 [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339)의 완료된 가져오기 작업에 대한 파일 목록에 더 이상 표시되지 않음을 의미합니다. 가져오기 작업이 **Office 365로 데이터 가져오기** 페이지에 계속 나열될 수 있지만 이전 가져오기 작업의 세부 정보를 볼 때 PST 파일 목록이 비어 있을 수 있습니다.
 
 #### <a name="what-version-of-the-pst-file-format-is-supported-for-importing-to-office-365"></a>What version of the PST file format is supported for importing to Office 365?
 
-There are two versions of the PST file format: ANSI and Unicode. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Office 365로 가져올 수 있습니다. ANSI PST 파일 가져오기에 대한 자세한 내용은 [네트워크 업로드를 사용하여 PST 파일을 Office 365로 가져오기](./use-network-upload-to-import-pst-files.md)의 4단계를 참조하세요.
+PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Office365로 가져올 수 있습니다. ANSI PST 파일 가져오기에 대한 자세한 내용은 [네트워크 업로드를 사용하여 PST 파일을 Office 365로 가져오기](./use-network-upload-to-import-pst-files.md)의 4단계를 참조하세요.
 
 또한 Outlook 2007 이상 버전의 PST 파일도 Office 365로 가져올 수 있습니다.
 
@@ -165,7 +165,7 @@ There are two versions of the PST file format: ANSI and Unicode. 유니코드 PS
 
 네트워크 업로드 방법을 사용하여 PST 파일을 가져오는 경우 Azure BLOB 컨테이너로 해당 파일을 업로드하는 것입니다.`ingestiondata` Microsoft 365 규정 준수 센터에서 **PST 파일 가져오기** 페이지의 가져오기 작업이 진행 중이 아니라면 Azure의 `ingestiondata` 컨테이너에 포함된 모든 PST 파일이 Microsoft 365 규정 준수 센터에서 가장 최근에 가져오기 작업이 생성된 날짜로부터 30일 후에 삭제됩니다. 즉, PST 파일을 Azure로 업로드한 후 30일 이내에 Microsoft 365 규정 준수 센터(네트워크 업로드 지침의 5단계에 설명됨)에 새 가져오기 작업을 만들어야 합니다.
 
-또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 Microsoft 365 규정 준수 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 Microsoft 365 규정 준수 센터에서 **PST 파일 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때는 PST 파일의 목록이 비어 있을 수 있습니다.
+이는 또한 PST 파일이 Azure Storage 영역에서 삭제된 후 Microsoft 365 규정 준수 센터의 완료된 가져오기 작업에 대한 파일 목록에 더 이상 표시되지 않음을 의미합니다. 가져오기 작업이 Microsoft 365 준수 센터의 **PST 파일 가져오기 페이지** 에 계속 나열될 수 있지만 이전 가져오기 작업의 세부 정보를 볼 때 PST 파일 목록이 비어 있을 수 있습니다.
 
 #### <a name="how-long-does-it-take-to-import-a-pst-file-to-a-mailbox-using-network-upload"></a>네트워크 업로드를 사용하여 PST 파일을 사서함으로 가져오는 데 얼마나 걸리나요?
 
@@ -207,7 +207,7 @@ Yes, this capability is now available.
 
 #### <a name="what-permissions-are-required-to-create-import-jobs-in-the-office-365-import-service-using-drive-shipping"></a>드라이브 이동을 사용하여 Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 권한은 무엇입니까?
 
-PST 파일을 Microsoft 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
+PST 파일을 Microsoft 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당받아야 합니다. 기본적으로 이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
 
 또한 Microsoft 365 규정 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나를 충족해야 합니다.
 
@@ -233,7 +233,7 @@ PST 파일을 Microsoft 365로 가져오기 위한 드라이브 배송은 Micros
 
 #### <a name="what-is-the-pricing-for-using-drive-shipping-to-import-pst-files-to-microsoft-365"></a>파일을 Microsoft 365로 가져오기 위해 드라이브 배송을 사용하는 경우 그 가격은 얼마인가요?
 
-Microsoft 365 사서함으로 PST 파일을 가져오기 위해 드라이브 배송을 사용하는 비용은 1GB의 데이터당 2,000원입니다. 예를 들어 1,000GB(1TB)의 PST 파일이 포함된 하드 드라이브를 배송하는 경우 비용은 2,000,000원입니다. 파트너와 협의하여 가져오기 요금을 지불할 수 있습니다. 파트너를 찾는 방법에 대한 내용은 [Microsoft 파트너 또는 대리점 찾기](../admin/manage/find-your-partner-or-reseller.md)를 참조하세요.
+Microsoft 365 사서함으로 PST 파일을 가져오기 위해 드라이브 배송을 사용하는 비용은 1GB의 데이터당 2,000원입니다. 예를 들어 1,000GB(1TB)의 PST 파일이 포함된 하드 드라이브를 배송하는 경우 비용은 2,000,000원입니다. 파트너와 협력하여 가져오기 요금을 지불할 수 있습니다. 파트너를 찾는 방법에 대한 내용은 [Microsoft 365 파트너 또는 재판매인 찾기](../admin/manage/find-your-partner-or-reseller.md)를 참조하세요.
 
 #### <a name="what-kind-of-hard-drives-are-supported-for-drive-shipping"></a>드라이브 배송이 가능한 하드 드라이브는 어떤 종류인가요?
 
@@ -252,7 +252,7 @@ You can ship a maximum of 10 hard drives for a single import job.
 
 #### <a name="after-my-hard-drive-arrives-at-the-microsoft-datacenter-how-long-does-it-take-to-upload-my-pst-files-to-azure"></a>하드 드라이브가 Microsoft 데이터 센터에 도착하면 내 PST 파일을 Azure에 업로드하는 데 얼마나 걸리나요?
 
-Microsoft 데이터 센터에 하드 드라이브가 도착하면 PST 파일을 해당 조직의 Azure Storage 위치에 업로드하는 데 영업일 기준으로 7~10일 정도 소요됩니다. PST 파일은 `ingestiondata`라고 하는 Azure Blob 컨테이너에 업로드됩니다.
+Microsoft 데이터 센터에서 하드 드라이브를 받은 후 PST 파일을 조직의 Azure Storage 위치에 업로드하는 데 영업일 기준 7~10일이 소요됩니다. PST 파일은 `ingestiondata`(이)라는 Azure Blob 컨테이너에 업로드됩니다.
 
 #### <a name="how-long-does-it-take-to-import-a-pst-file-to-a-mailbox-using-drive-shipping"></a>드라이브 이동을 사용하여 PST 파일을 사서함으로 가져오는 데 얼마나 걸리나요?
 
@@ -264,11 +264,11 @@ PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST �
 
 조직의 Azure Storage 위치(`ingestiondata`라고 하는 Blob 컨테이너)에 있는 모든 PST 파일은 Microsoft 365 규정 준수 센터에서 **PST 파일 가져오기** 페이지의 가장 최근 가져오기 작업이 만들어지고 30일 후에 삭제됩니다.
 
-또한 Azure Storage 영역에서 PST 파일이 삭제된 후에는 Microsoft 365 규정 준수 센터의 완료된 가져오기 작업 목록에 더 이상 해당 파일이 표시되지 않습니다. 가져오기 작업이 Microsoft 365 규정 준수 센터에서 **PST 파일 가져오기** 페이지에 계속 표시되더라도, 이전 가져오기 작업의 세부 정보를 볼 때는 PST 파일의 목록이 비어 있을 수 있습니다.
+이는 또한 PST 파일이 Azure Storage 영역에서 삭제된 후 Microsoft 365 규정 준수 센터의 완료된 가져오기 작업에 대한 파일 목록에 더 이상 표시되지 않음을 의미합니다. 가져오기 작업이 Microsoft 365 준수 센터의 **PST 파일 가져오기 페이지** 에 계속 나열될 수 있지만 이전 가져오기 작업의 세부 정보를 볼 때 PST 파일 목록이 비어 있을 수 있습니다.
 
 #### <a name="what-version-of-the-pst-file-format-is-supported-for-importing-to-microsoft-365"></a>Microsoft 365로 가져올 수 있는 PST 파일 형식의 버전은 어떻게 되나요?
 
-PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Microsoft 365로 가져올 수 있습니다. ANSI PST 파일 가져 오기에 대한 자세한 내용은 [드라이브 배송을 사용하여 조직 PST 파일을 Microsoft 365로 가져오기](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file)의 3 단계를 참조하세요.
+PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Microsoft 365로 가져올 수 있습니다. ANSI PST 파일 가져오기에 대한 자세한 내용은 [드라이브 배송을 사용하여 조직 PST 파일을 Microsoft 365로 가져오기](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file)의 3단계를 참조하세요.
 
 또한 Outlook 2007 이상 버전의 PST 파일도 Microsoft 365로 가져올 수 있습니다.
 

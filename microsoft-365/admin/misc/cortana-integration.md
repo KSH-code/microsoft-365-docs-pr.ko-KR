@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Cortana Microsoft 365 환경을 Office 365 수 있습니다.
-ms.openlocfilehash: 94fdd199a0887750379c2582fe38538b1ff48c2f
-ms.sourcegitcommit: a7b289b8cc3a2eb79d5e46f20f2968adc0237da1
+ms.openlocfilehash: ea1fc421a099c7fc446dd85c871ad9e508fb3a40
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58394183"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188856"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana Microsoft 365
 
@@ -179,7 +179,7 @@ Cortana 수행된 것으로 표시하거나 포커스 시간을 예약하여 수
 
 2. 조직의 사용자 대신 Microsoft에서 호스팅하는 데이터에 액세스하여 Cortana Windows 10(버전 **1909** 이전 버전) 및 iOS 및 Android의 Cortana 앱 허용 확인란의 선택을 해제하여 Cortana 연결된 환경을 사용하지 않도록 설정하십시오.
 
-3. **변경 사항 저장** 을 선택합니다.
+3. **변경 내용 저장** 을 선택합니다.
 
 Microsoft 서비스 계약 및 [Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=2109174) 개인정보처리방침이 제어하는 서비스의 경우 [Microsoft는](https://privacy.microsoft.com/privacystatement)데이터 컨트롤러입니다. 데이터 컨트롤러인 Microsoft는 Microsoft 개인 정보 취급 방침에 따라 데이터를 사용하여 제품 및 서비스를 [개선합니다.](https://privacy.microsoft.com/privacystatement)
 

@@ -7,7 +7,7 @@ ms.date: 12/3/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: a6d6ba01-2562-4c3d-a8f1-78748dd506cf
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에는 전자 메일에서 메시지 다운로드 성능을 향상시키는 데 필요한 정보가 포함되어 웹용 Outlook.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f2f30f4a725add062ff6d800a9cb3953dfeb078
-ms.sourcegitcommit: 6a73f0f0c0360fc015d9c0d0af26fb6926d9477d
+ms.openlocfilehash: aaacacc0c1db418181690a5a4691bd251180d97c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58745688"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188988"
 ---
 # <a name="use-lean-popouts-to-reduce-memory-used-when-reading-mail-messages"></a>마른 채로 팝업을 사용하여 메일 메시지를 읽을 때 사용되는 메모리 감소
 

@@ -9,19 +9,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.custom: seo-marvel-mar2020
 description: 검토 집합에서 문서를 Azure Storage 계정으로 내보은 다음 Azure Storage Explorer 사용하여 로컬 컴퓨터에 다운로드합니다.
-ms.openlocfilehash: 352bce7134f92a7f6759673f28d388aac4957d1c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8f3110ef386fd5c5d8adc641aa223435caf0da67
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218992"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203126"
 ---
 # <a name="export-documents-in-a-review-set-to-an-azure-storage-account"></a>검토 집합의 문서를 Azure Storage 계정으로 내보내기
 

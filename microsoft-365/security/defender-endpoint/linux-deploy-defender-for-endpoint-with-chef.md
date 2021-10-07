@@ -2,26 +2,24 @@
 title: Linux에서 Endpoint용 Defender를 배포하는 방법(원동기)
 description: Linux에서 Endpoint용 Defender를 배포하는 방법에 대해 자세히 알아보기
 keywords: microsoft, defender, atp, linux, 검사, 바이러스 백신, 끝점용 Microsoft Defender(linux)
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: v-lsaldanha
 author: lovina-saldanha
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d0ef13f9718c82c920ab7bd4a151f77b1162208f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f8f71f4cafc7034a8d5cc5485989f0cab472a855
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215072"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188868"
 ---
 # <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포
 

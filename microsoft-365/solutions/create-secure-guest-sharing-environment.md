@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords: NOCSH
 recommendations: false
 description: Microsoft 365에서 안전한 게스트 공유 환경을 만드는 데 사용할 수 있는 옵션에 대해 알아보고, 공동 작업을 위한 게스트 액세스를 제공합니다.
-ms.openlocfilehash: 1986140e2aa809e81415a8e581ce626c5100809d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 775a5f1376df1bca553bc1b3b9cd92072736ac60
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187267"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203738"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>보안 게스트 공유 환경 만들기
 
@@ -168,7 +168,7 @@ Microsoft 365 그룹 및 Teams의 경우, Azure AD 조건부 액세스 정책을
 8. **선택** 블레이드에서 **Microsoft Teams** 및 **Outlook Groups** 를 선택한 후 **선택** 을 클릭합니다.
 9. **할당** 아래에서 **조건** 을 클릭합니다.
 10. **조건** 블레이드에서 **클라이언트 앱** 을 클릭합니다.
-11. **클라이언트 앱** 블레이드에서 **구성** 의 경우 **예** 를 클릭하고 **모바일 앱 및 데스크톱 클라이언트**, **Exchange ActiveSync 클라이언트** 그리고 **기타 클라이언트** 설정을 선택합니다. **브라우저** 확인란을 선택 취소합니다.
+11. **클라이언트 앱** 블레이드에서 **구성** 의 경우 **예** 를 클릭하고 **모바일 앱 및 데스크톱 클라이언트**, **Exchange ActiveSync 클라이언트**, **기타 클라이언트** 설정을 선택합니다. **브라우저** 확인란은 선택 취소합니다.
 
     ![Microsoft Azure AD 조건부 액세스 클라이언트 앱 설정의 스크린샷](../media/azure-ad-conditional-access-client-mobile.png)
 

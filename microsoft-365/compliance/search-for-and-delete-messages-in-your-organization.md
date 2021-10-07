@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Microsoft 365 규정 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: f543a3239b7390e2cd449c0209a512735df2f52e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 33c65cb61be14d72631fd3a272b68f2dad2ffea6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59183996"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204230"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
@@ -43,7 +43,7 @@ ms.locfileid: "59183996"
 
 - 이 문서에 설명된 검색 및 제거 워크플로는 Microsoft Teams에서 채팅 메시지 또는 기타 콘텐츠를 삭제하지 않습니다. 2단계에서 만든 콘텐츠 검색이 Microsoft Teams의 항목을 반환하는 경우 3단계에서 항목을 제거할 때 해당 항목이 삭제되지 않습니다.
 
-- 콘텐츠 검색을 만들고 실행하려면 **eDiscovery 매니저** 역할 그룹의 구성원이거나 Microsoft 365 규정 준수 센터에서 **규정 준수 검색** 역할이 할당되어야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 규정 준수 센터에서 **검색 및 삭제** 역할을 할당받아야 합니다. 역할 그룹에 사용 자를 추가하는 방법에 대한 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
+- 콘텐츠 검색을 만들고 실행하려면 **eDiscovery Manager** 역할 그룹의 구성원이거나 Microsoft 365 규정 준수 센터에서 **규정 준수 검색** 역할을 할당받아야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 규정 준수 센터에서 **검색 및 제거** 역할을 할당받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
 
   > [!NOTE]
   > **조직 관리** 역할 그룹은 Exchange Online과 Microsoft 365 규정 준수 센터 양측에 모두 있습니다. 이들은 서로 다른 권한을 부여하는 별도의 역할 그룹입니다. Exchange Online에서 **조직 관리** 의 구성원은 전자 메일 메시지를 삭제하는 데 필요한 권한을 부여하지 않습니다. 규정 준수 센터에서 **검색 및 삭제** 역할(직접 또는 **조직 관리** 등의 역할 그룹을 통해)이 할당되지 않은 경우 "A 매개 변수를 찾을 수 없습니다"라는 메시지와 함께 **New-ComplianceSearchAction** cmdlet을 실행하면 3단계에서 오류가 발생합니다.
@@ -64,7 +64,7 @@ ms.locfileid: "59183996"
 
 ## <a name="step-2-create-a-content-search-to-find-the-message-to-delete"></a>2단계: 삭제할 메시지를 찾는 콘텐츠 검색 만들기
 
-두 번째 단계는 조직의 사서함에서 제거하려는 메시지를 찾는 콘텐츠 검색을 만들어 실행하는 것입니다. Microsoft 365 규정 준수 센터를 사용하거나 보안 및 규정 준수 PowerShell의 **New-ComplianceSearch** 및 **Start-ComplianceSearch** cmdlet을 실행하여 검색을 만들 수 있습니다. 이 검색의 쿼리와 일치하는 메시지는 [3단계](#step-3-delete-the-message)에서 **New-ComplianceSearchAction -Purge** 명령을 실행하여 삭제합니다. 콘텐츠 검색을 만들고 검색 쿼리를 구성하는 방법에 대한 자세한 내용은 다음 항목을 참조하세요.
+두 번째 단계는 콘텐츠 검색을 만들고 실행하여 조직의 사서함에서 제거하려는 메시지를 찾는 것입니다. Microsoft 365 규정 준수 센터를 사용하거나 Security & Compliance PowerShell에서 **New-ComplianceSearch** 및 **Start-ComplianceSearch** cmdlet을 실행하여 검색을 만들 수 있습니다. 이 검색에 대한 쿼리와 일치하는 메시지는 [3단계](#step-3-delete-the-message)에서 **New-ComplianceSearchAction -Purge** 명령을 실행하여 삭제됩니다. 콘텐츠 검색 생성 및 검색 쿼리 구성에 대한 자세한 내용은 다음 항목을 참조하세요.
 
 - [Office 365의 콘텐츠 검색](content-search.md)
 
@@ -145,13 +145,13 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 - **검색 및 삭제 작업에 대한 상태를 어떻게 가져오나요?**
 
-  삭제 작업에 대한 상태를 가져오려면 **Get-ComplianceSearchAction** 을 실행합니다. **New-ComplianceSearchAction** cmdlet을 실행할 때 생성되는 개체의 이름은 다음 형식을 사용하여 지정됩니다. `<name of Content Search>_Purge`.
+  **Get-ComplianceSearchAction** 을 실행하여 삭제 작업의 상태를 가져옵니다. **New-ComplianceSearchAction** cmdlet을 실행할 때 생성되는 개체의 이름은 `<name of Content Search>_Purge` 형식을 사용하여 지정됩니다.
 
 - **메시지를 삭제하면 어떻게 되나요?**
 
   `New-ComplianceSearchAction -Purge -PurgeType HardDelete` 명령을 사용하여 삭제한 메시지는 제거 폴더로 이동되고 사용자가 액세스할 수 없습니다. 사서함에서 단일 항목 복구를 사용하는 경우 메시지는 제거 폴더로 이동된 후 삭제된 항목 보존 기간 동안 보존됩니다. Microsoft 365에서는 새 사서함을 만들 때 단일 항목 복구가 기본적으로 사용됩니다. 삭제된 항목 보존 기간이 만료되면 메시지는 영구 삭제로 표시되고 관리되는 폴더 도우미에서 다음에 사서함을 처리할 때 Microsoft 365에서 제거됩니다.
 
-  `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` 명령을 사용하는 경우 사용자의 복구 가능한 항목 폴더에서 삭제 폴더로 메시지가 이동합니다. 메시지는 Microsoft 365에서 바로 제거되지 않습니다. 사용자는 사서함에 구성된 삭제된 항목 보존 기간에 따라 일정 기간 동안 삭제된 항목 폴더에서 메시지를 복구할 수 있습니다. 이 보존 기간이 만료되거나 만료되기 전에 사용자가 메시지를 제거하면 메시지는 제거 폴더로 이동되고 더 이상 액세스할 수 없습니다. 사서함에서 단일 항목 복구를 사용하는 경우 제거 폴더의 메시지는 사서함에 대해 구성된 삭제된 항목 보존 기간에 따라 일정 기간 동안 보존됩니다. Microsoft 365에서는 새 사서함을 만들 때 단일 항목 복구가 기본적으로 사용됩니다. 삭제된 항목 보존 기간이 만료되면 메시지는 영구 삭제로 표시되고 관리되는 폴더 도우미에서 다음에 사서함을 처리할 때 Microsoft 365에서 제거됩니다.
+  `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` 명령을 사용하면 메시지가 사용자의 복구 가능한 항목 폴더에 있는 삭제 폴더로 이동됩니다. Microsoft 365에서 즉시 제거되지 않습니다. 사용자는 사서함에 대해 구성된 삭제된 항목 보존 기간을 기반으로 하는 기간 동안 지운 편지함 폴더의 메시지를 복구할 수 있습니다. 이 보존 기간이 만료된 후(또는 사용자가 만료되기 전에 메시지를 제거한 경우) 메시지는 Purges 폴더로 이동되고 사용자가 더 이상 액세스할 수 없습니다. 삭제 폴더에 있으면 사서함에 대해 단일 항목 복구가 활성화된 경우 사서함에 대해 구성된 삭제된 항목 보존 기간에 따라 메시지가 보존됩니다. (Microsoft 365에서는 새 사서함을 만들 때 기본적으로 단일 항목 복구가 활성화됩니다.) 삭제된 항목 보존 기간이 만료된 후 메시지는 영구 삭제로 표시되고 다음에 관리되는 폴더 도우미에서 사서함이 처리될 때 Microsoft 365에서 제거됩니다.
 
 - **50,000개를 초과하는 사서함에서 메시지를 삭제해야 하는 경우 어떻게 되나요?**
 

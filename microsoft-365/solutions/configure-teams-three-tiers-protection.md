@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.collection:
@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: 세 가지 보호 수준을 사용하여 보안을 강화하기 위해 Teams를 구성하는 방법에 대해 알아보고, 공동 작업을 쉽게 수행할 수 있습니다.
-ms.openlocfilehash: 5cd06f540ba96f55aa52a1cc9b5e6e7c54c7bbab
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 279e338af6db4d82291209deb66e1ea1eef74630
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217882"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202336"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -122,7 +122,7 @@ Teams 게스트 공유는 기본적으로 켜져 있지만 필요한 경우 민�
 
 ![Microsoft Azure Active Directory 조건부 액세스 정책의 Office 365 클라우드 앱 스크린샷](/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
 
-모든 Microsoft 365 서비스에 영향을 주는 정책을 사용하면 보안이 강화되고 사용자 환경이 향상될 수 있습니다. 예를 들어 SharePoint에서만 관리되지 않는 장치에 대한 액세스를 차단하면 사용자가 관리되지 않는 장치가 있는 팀의 채팅에 액세스할 수 있지만 **파일** 탭에 액세스하려고 하면 액세스 권한이 손실됩니다. Office 365 클라우드 앱을 사용하면 [서비스 종속성](/azure/active-directory/conditional-access/service-dependencies)에 대한 문제를 방지할 수 있습니다.
+모든 Microsoft 365 서비스에 영향을 미치는 정책을 사용하면 사용자에게 더 나은 보안과 더 나은 환경을 제공할 수 있습니다. 예를 들어 SharePoint에서만 관리되지 않는 장치에 대한 액세스를 차단하면 사용자가 관리되지 않는 장치가 있는 팀의 채팅에 액세스할 수 있지만 **파일** 탭에 액세스하려고 하면 액세스 권한이 손실됩니다. Office 365 클라우드 앱을 사용하면 [서비스 종속성](/azure/active-directory/conditional-access/service-dependencies)에 대한 문제를 방지할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

@@ -7,7 +7,7 @@ ms.date: 06/03/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - SPO_Content
@@ -19,12 +19,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: SharePoint 페이지 진단 도구를 사용하여 SharePoint 온라인 최신 포털 및 클래식 게시 페이지를 미리 정의된 성능 기준 집합과 분석합니다.
-ms.openlocfilehash: e741e8e2da62d2361578e31edcb6dbbafafbb7dc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7e1931b7cdc661b5e0a6ed8751a26f8a77e4bc2e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213812"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199972"
 ---
 # <a name="use-the-page-diagnostics-for-sharepoint-tool"></a>사용자용 페이지 진단 SharePoint 사용
 

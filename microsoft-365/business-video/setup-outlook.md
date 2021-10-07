@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 전자 메일에 대한 Outlook 설정하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9dc0ed41df4aaadee060e0c7606600ba5512df09
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: aa098383371737e9f792acdc0478500cfff9fea0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212772"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204770"
 ---
 # <a name="set-up-outlook-for-microsoft-365-for-business-email"></a>비즈니스용 Microsoft 365용 Outlook 설정 
 

@@ -9,7 +9,7 @@ ms.reviewer: argani, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 description: 비즈니스용 라이선스에 대한 새 Microsoft 365 구입하는 방법을 배워야 합니다.
 ms.date: 09/16/2021
-ms.openlocfilehash: 51f90e3d2f5a49ce8d20c0ab905bd72c0494f653
-ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
+ms.openlocfilehash: 7a6be3ea1c7592b2c05983a0648b8eee87ab2049
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59477578"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204794"
 ---
 # <a name="buy-microsoft-365-licenses"></a>라이선스 Microsoft 365 구입
 
@@ -39,7 +39,7 @@ ms.locfileid: "59477578"
 새 사용자를 추가할 때 해당 사용자에 대한 Microsoft 365 라이선스를 더 구입해야 합니다.
 
 > [!NOTE]
-> 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지나면 기간이 끝날 때 구독을 취소하기 위해 재발급 청구를 해제합니다.
+> 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지난 경우 되풀이 청구를 해제하여 기간이 끝날 때 구독을 취소합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 

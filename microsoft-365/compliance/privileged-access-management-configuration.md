@@ -8,7 +8,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -22,12 +22,12 @@ ms.custom:
 - admindeeplinkMAC
 ms.assetid: ''
 description: 이 문서를 사용하여 해당 문서에서 권한이 부여된 액세스 관리를 사용하도록 설정하고 구성하는 방법을 Office 365.
-ms.openlocfilehash: e66a7e66c3505145b1fa4eb3e16db9ec63c3c1e4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 28e1e6a399f4491ad63094ac5e589c9746dd58cf
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221164"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189336"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한이 부여된 액세스 관리 시작
 

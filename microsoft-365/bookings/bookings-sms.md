@@ -6,14 +6,14 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft Bookings에서 클라이언트, 고객 및 파트너에 대해 SMS 텍스트 알림을 구성하는 방법을 알아보십시오.
-ms.openlocfilehash: 2b23ed2bd39cd301bfa1df3e15f325c676f1462d
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: be5d1d93754707be8217c5c3e17ec7d9f158e501
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491641"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204842"
 ---
 # <a name="configure-sms-text-notifications-and-reminders-in-microsoft-bookings"></a>Microsoft Bookings에서 SMS 텍스트 알림 및 미리 알림 구성
 
@@ -21,7 +21,7 @@ Microsoft Bookings를 사용하면 약속을 예약하는 이에게 SMS 텍스�
 
 SMS 알림에는 가상 예약 약속에 Teams 모임 링크가 포함됩니다.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 참석자, 고객 또는 파트너는 SMS 알림을 받으기 전에 유효한 미국 또는 캐나다 전화 번호가 필요합니다.
 

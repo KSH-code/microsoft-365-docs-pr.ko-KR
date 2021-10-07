@@ -10,19 +10,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 40개 파일에 태그를 지정한 다음 40개 파일의 교육 샘플을 사용하여 작업하는 단계를 Advanced eDiscovery.
-ms.openlocfilehash: 8cb1de2b2f02ec9c2fd94e07574b638a001ec235
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c21ec89896dbd67bd348abd317d1389f8e105fda
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216395"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202994"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery"></a>2016년 8월에 태그 지정 및 Advanced eDiscovery
   

@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 91ee0c6ec2e4c11b714dee586613b16fd22df278
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 2e2b3cc41d5baddaa5314a493dfeee07e20a8f72
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401929"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205394"
 ---
 # <a name="machine-resource-type"></a>컴퓨터 리소스 유형
 
@@ -74,15 +74,15 @@ ms.locfileid: "59401929"
 |computerDnsName|String|[컴퓨터의](machine.md) 정식 이름입니다.|
 |firstSeen|DateTimeOffset|Microsoft Defender for [](machine.md) Endpoint에서 컴퓨터가 관찰된 첫 번째 날짜 및 시간입니다.|
 |lastSeen|DateTimeOffset|마지막으로 수신한 전체 장치 보고서의 시간 및 날짜입니다. 일반적으로 장치는 24시간마다 전체 보고서를 전송합니다.|
-|osPlatform|문자열|운영 체제 플랫폼.|
+|osPlatform|String|운영 체제 플랫폼.|
 |onboardingstatus|String|컴퓨터 온보드 상태입니다. 가능한 값은 "온보드" 및 "오프보더"입니다.|
 |osProcessor|String|운영 체제 프로세서. 대신 osArchitecture 속성을 사용합니다.|
 |버전|String|운영 체제 버전입니다.|
 |osBuild|Nullable long|운영 체제 빌드 번호입니다.|
-|lastIpAddress|문자열|컴퓨터의 로컬 NIC에 대한 마지막 [IP입니다.](machine.md)|
+|lastIpAddress|String|컴퓨터의 로컬 NIC에 대한 마지막 [IP입니다.](machine.md)|
 |lastExternalIpAddress|String|컴퓨터로 인터넷에 [](machine.md) 액세스한 마지막 IP입니다.|
 |healthStatus|Enum|[컴퓨터](machine.md) 상태. 가능한 값은 "Active", "Inactive", "ImpairedCommunication", "NoSensorData", "NoSensorDataImpairedCommunication" 및 "Unknown"입니다.|
-|rbacGroupName|문자열|컴퓨터 그룹 이름입니다.|
+|rbacGroupName|String|컴퓨터 그룹 이름입니다.|
 |rbacGroupId|String|컴퓨터 그룹 ID입니다.|
 |riskScore|Nullable Enum|끝점에 대한 Microsoft Defender에서 평가한 위험 점수입니다. 가능한 값은 'None', 'Informational', 'Low', 'Medium' 및 'High'입니다.|
 |aadDeviceId|Nullable 표현 Guid|AAD 장치 [ID(장치가](machine.md) AAD에 가입된 경우).|
@@ -90,5 +90,5 @@ ms.locfileid: "59401929"
 |exposureLevel|Nullable Enum|끝점용 Microsoft Defender에서 평가한 노출 수준입니다. 가능한 값은 'None', 'Low', 'Medium' 및 'High'입니다.|
 |deviceValue|Nullable Enum|디바이스의 [값입니다.](tvm-assign-device-value.md) 가능한 값은 '보통', '낮음' 및 '높음'입니다.|
 |ipAddresses|IpAddress 컬렉션|***IpAddress*** 개체 집합입니다. 컴퓨터 [API 보기를 참조합니다.](get-machines.md)|
-|osArchitecture|문자열|운영 체제 아키텍처. 가능한 값은 "32비트", "64비트"입니다. osProcessor 대신 이 속성을 사용합니다.|
+|osArchitecture|String|운영 체제 아키텍처. 가능한 값은 "32비트", "64비트"입니다. osProcessor 대신 이 속성을 사용합니다.|
 |

@@ -2,26 +2,24 @@
 title: 끝점 제거 규칙에 대한 Microsoft Defender 관리
 description: 제거 규칙을 사용하여 포털에 경고가 나타나지 않도록 해야 할 수 있습니다. 끝점용 Microsoft Defender에서 제거 규칙을 관리하는 방법을 배워야 합니다.
 keywords: 제거 관리, 규칙, 규칙 이름, 범위, 작업, 경고, 켜기, 끄기
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ac8b6255b46c20582d43680b3287f324f4f63c42
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4a40fe425f829f3521098ece27bd23948619cd66
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214902"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205334"
 ---
 # <a name="manage-suppression-rules"></a>제거 규칙 관리
 

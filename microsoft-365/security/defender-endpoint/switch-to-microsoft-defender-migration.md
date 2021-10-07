@@ -2,15 +2,13 @@
 title: Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 description: 끝점 보호 솔루션에 대한 Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint로 전환합니다.
 keywords: 마이그레이션, windows defender, 고급 끝점 보호, 바이러스 백신, 맬웨어 방지, 수동 모드, 활성 모드
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: deniseb
 author: denisebmsft
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -24,12 +22,12 @@ ms.custom: migrationguides
 ms.date: 09/23/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: e9562ae976e4eeac1197c5280caebef449ae0180
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: e7b6777970102b71f61fcaed7a8a13daf8d73fa7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776767"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60205202"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 

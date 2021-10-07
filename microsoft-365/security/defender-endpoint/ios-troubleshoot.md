@@ -2,27 +2,25 @@
 title: iOS의 끝점용 Microsoft Defender와 관련된 FAQ 관련 문제 해결 및 답변 찾기
 description: 문제 해결 및 FAQ - iOS의 끝점용 Microsoft Defender
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, ios, 문제 해결, FAQ, 방법
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1a7900256207dd50f64a4bb8fe43b86bcf2b2913
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: 809954847f1ef96f3efae1b243061af4f573a21e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988274"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199804"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
@@ -106,7 +104,7 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 
 ## <a name="issues-on-supervised-devices-with-content-filter-profile-installed"></a>콘텐츠 필터 프로필이 설치된 감독되는 디바이스의 문제
 
-Endpoint용 Defender 콘텐츠 필터가 설치된 감독되는 장치에 문제가 있습니다. 이러한 장치에서 중간 연결 속도가 느려지거나 대기 시간이 관찰되면 장치에서 콘텐츠 필터 프로필을 제거하거나 삭제합니다. We are working to resolve this issue and will update this place once we have a resolution. 
+Endpoint용 Defender 콘텐츠 필터가 설치된 감독되는 장치에 문제가 있습니다. 이러한 장치에서 인터넷 연결 속도가 느려지거나 대기 시간이 관찰되면 장치에서 콘텐츠 필터 프로필을 제거하거나 삭제합니다. We are working to resolve this issue and will update this place once we have a resolution. 
 
 ## <a name="issues-during-app-updates-from-the-app-store"></a>앱 스토어에서 앱을 업데이트하는 동안의 문제
 
@@ -114,7 +112,7 @@ Endpoint용 Defender 콘텐츠 필터가 설치된 감독되는 장치에 문제
 
 ## <a name="send-in-app-feedback"></a>앱에서 내 피드백 보내기
 
-사용자가 위 섹션에서 아직 해결되지 않은 문제가 표시되거나 나열된 단계를 사용하여 해결할 수 없는 경우 사용자는 진단 데이터와 함께 앱에서 내 피드백을 제공할 수 있습니다. 그런 다음 팀에서 로그를 조사하여 올바른 솔루션을 제공합니다. 사용자는 다음 단계를 사용하여 수수료백을 보낼 수 있습니다.
+사용자가 위 섹션에서 아직 해결되지 않은 문제가 표시되거나 나열된 단계를 사용하여 해결할 수 없는 경우 사용자는 진단 데이터와 함께 앱에서 내 피드백을 제공할 수 있습니다. 그런 다음 팀에서 로그를 조사하여 올바른 솔루션을 제공합니다. 사용자는 다음 단계를 사용하여 피드백을 보낼 수 있습니다.
 
   - iOS/iPadOS 장치에서 MSDefender 앱을 니다.
   - 왼쪽 위 모서리에 있는 메뉴(프로필 아이콘)를 탭합니다.

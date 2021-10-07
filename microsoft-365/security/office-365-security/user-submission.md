@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5c2bd56198ac64119ec684422a94914b178d8ecf
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: d288a9a5821521a68e254aa3ff97182140d66b63
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59989006"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203798"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -145,7 +145,7 @@ Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 
 - 2| 또는 정크 아님
 - 3| 또는 피싱
 
-예를 들어:
+예제:
 
 `3|This part is ignored by the system` <br>
 `Not Junk:This part of the subject is ignored as well`

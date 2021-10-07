@@ -9,14 +9,14 @@ ms.topic: reference
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: high
 description: REST API를 사용하여 모델 및 모델이 적용된 라이브러리에 대한 정보를 가져옵니다.
-ms.openlocfilehash: 29240a6210e2079a082be6c3a07aae890d932719
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3e9344758e74d961670ba0ccd952eb438a439c00
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165850"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202898"
 ---
 # <a name="get-model-and-library-information"></a>모델 및 라이브러리 정보 가져오기
 

@@ -3,27 +3,25 @@ title: 개인 정보 보호 정보 - iOS의 끝점용 Microsoft Defender
 ms.reviewer: ''
 description: iOS의 끝점용 Microsoft Defender에 대한 개인 정보 보호 정보 설명
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, ios, 정책, 개요
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e1983e023a0236ea1e0ad9ac82b8d089e120cd7d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dcfa13256807e5a3f55d2f26fb5c7bafd4645cda
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220540"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188892"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>개인 정보 보호 정보 - iOS의 끝점용 Microsoft Defender
 

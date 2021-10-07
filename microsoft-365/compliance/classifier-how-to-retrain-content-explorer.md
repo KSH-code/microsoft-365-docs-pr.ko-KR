@@ -9,18 +9,18 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+ms.localizationpriority: ''
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기에서 학습 가능한 분류자에 피드백을 제공하는 방법을 학습합니다.
-ms.openlocfilehash: 7c021a1fb7a79e335f53fd99b162c9062c4f43a0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 00162bcce2f8291ff151d1f8a9f692581c9ee9b2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166063"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203282"
 ---
 # <a name="how-to-retrain-a-classifier-in-content-explorer"></a>콘텐츠 탐색기에서 분류자를 재학습하는 방법
 
@@ -37,7 +37,7 @@ ms.locfileid: "59166063"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyGMs]
 
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 규정 준수 센터에서 분류자에 Microsoft 365:
 

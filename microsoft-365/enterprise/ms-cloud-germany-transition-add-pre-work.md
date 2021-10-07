@@ -7,7 +7,7 @@ ms.date: 05/12/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 독일 신규 데이터 센터 Office 365 서비스로 전환할 때 사전 작업입니다.'
-ms.openlocfilehash: 77e3dbd3f819aea15632a0ba069249a44a8663fb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 04d94cb8cd95d55ccccec388e10be49541828270
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191239"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189072"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -93,7 +93,7 @@ nslookup -querytype=CNAME msoid.contoso.com
 **적용 프로그램:** Office 앱을 사용하는 고객, 특히 클라이언트에서 Windows 적용 <br>
 **적용된 경우:** 9단계가 시작되기 전의 모든 시간
 
-Office 365 "Germany" 지역으로 전환하는 테넌트는 모든 사용자가 Office 365에서 종료하고, 로그인한 후 테넌트 마이그레이션이 9단계에 도달한 후 모든 Office 데스크톱 응용 프로그램(Word, Excel, PowerPoint, Outlook 등)과 비즈니스용 OneDrive 클라이언트에 대해 다시 로그인해야 합니다. 로그인하면 Office 서비스에서 전역 Azure AD 서비스에서 새 인증 토큰을 얻을 수 있습니다.
+Office 365 "Germany" 지역으로 전환하는 테넌트의 경우 모든 사용자가 Office 365에서 종료한 후 모든 Office 데스크톱 응용 프로그램(Word, Excel, PowerPoint, Outlook 등)과 비즈니스용 OneDrive 클라이언트에 대해 다시 로그인해야 합니다. 테넌트 마이그레이션이 9단계에 도달했습니다. 로그인하면 Office 서비스에서 전역 Azure AD 서비스에서 새 인증 토큰을 얻을 수 있습니다.
 
 이는 모든 클라이언트에 필요합니다. 원활한 마이그레이션 환경을 보장하기 위해 영향을 받는 모든 사용자에게 이 예정된 활동에 대해 미리 알리고 지시하는 것이 좋습니다.
 
@@ -178,7 +178,7 @@ Exchange Online 하이브리드 관리자는 이 전환의 일부로 **HCW(하�
 |사용자 및 관리로의 전환을 위한 최종 사용자 및 관리 교육 Microsoft Teams.|사용자 통신 및 준비를 계획하여 Skype Teams 전환에 성공할 수 있습니다.|<ul><li>클라이언트는 새 서비스와 서비스가 서비스 서비스로 전환된 후 사용하는 방법을 Office 365 합니다.</li><li>고객 베니티 도메인과 초기 도메인 둘 다에 대해 DNS를 변경한 후 사용자는 도메인에 로그인하고 비즈니스용 Skype 도메인으로 마이그레이션된 Teams. 또한 백그라운드에서 사용할 수 있는 데스크톱 Teams 다운로드합니다.</li></ul>|
 
 
-## <a name="mobile-device-management"></a>모바일 디바이스 관리
+## <a name="mobile-device-management"></a>모바일 장치 관리
 
 <!-- before phase 5 -->
 **다음에 적용됩니다.** 타사 MDM(모바일 장치 관리) 솔루션을 사용하는 고객<br>
@@ -194,7 +194,7 @@ Exchange Online 하이브리드 관리자는 이 전환의 일부로 **HCW(하�
 |마이그레이션 후 다시 구성해야 하는지 여부를 판단합니다.|MDM(모바일 장치 관리) 솔루션은 끝점을 `outlook.de` 대상으로 할 수 있습니다. 이 Office 365 서비스로 전환할 때 클라이언트 프로필은 Office 365 URL로 업데이트해야 `outlook.office365.com` 합니다.|Exchange Online 및 MDM 고객|끝점에 액세스할 수 있는 동안 클라이언트가 계속 작동하지만 도이치클라드 Microsoft 클라우드 끝점을 더 이상 사용할 수 없는 경우 `outlook.de` 실패합니다.|
 
 
-## <a name="line-of-business-apps"></a>업무용 앱
+## <a name="line-of-business-apps"></a>LOB(기간 업무) 앱
 
 **다음에 적용됩니다.** 도이치클라드 Microsoft 클라우드에서 제공하는 끝점과 함께 LOB(LOB) 앱을 사용하는 고객<br>
 **적용된 경우:** 2단계가 완료된 후 9단계가 종료되기 전

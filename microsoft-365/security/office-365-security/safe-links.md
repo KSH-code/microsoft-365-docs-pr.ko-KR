@@ -10,7 +10,7 @@ ms.topic: overview
 f1_keywords:
 - "197503"
 ms.date: 09/08/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -28,12 +28,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 피싱 금고 URL을 사용하는 기타 공격으로부터 조직을 보호하기 위해 Office 365 Defender의 링크 보호 기능을 참조하세요. 링크 Teams 금고 검색하고 링크 메시지의 금고 참조하세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0b1faafe3b15ba0bb846fc10a87312c3174efac6
-ms.sourcegitcommit: 7be84e7940c63b4c958b9da875d323bead9aae95
+ms.openlocfilehash: 11dbd3ef2f2fa2a17d24f769256fe02cd12b4c75
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59453601"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60203942"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>금고 Microsoft Defender for Office 365
 

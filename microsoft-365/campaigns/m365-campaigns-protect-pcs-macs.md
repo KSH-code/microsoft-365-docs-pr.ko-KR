@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리되지 않는 장치 또는 BYOD(Bring Your Own Devices)를 Microsoft 365.
-ms.openlocfilehash: 40e94e2f961ab34827de4ce5e43e100af53a7340
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0f14112356313dcbad56f5a78bd2c837987d234f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219262"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204758"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>관리되지 않는 Windows 10 PC 및 Mac 보호
 
@@ -63,7 +63,7 @@ Windows 업데이트는 Windows 보안에 대한 업데이트를 자동으로 �
 
 이전 버전의 Windows 있는 경우 Microsoft Security Essentials 이전 버전으로 이동하는 Windows 보안. 자세한 내용은 를 [사용하여 디바이스를 보호하는 Windows 보안.](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security)
 
-**방화벽 Windows 켜기**<p>
+**Windows 방화벽 켜기**<p>
 다른 방화벽이 Windows 경우에도 항상 방화벽을 실행해야 합니다. 방화벽 Windows 해제하면 장치 및 네트워크가 있는 경우 무단 액세스에 더 취약할 수 있습니다. 지침은 [Windows 방화벽](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) 설정 또는 해제를 참조하세요.
 
 ## <a name="mac"></a>[Mac](#tab/Mac)

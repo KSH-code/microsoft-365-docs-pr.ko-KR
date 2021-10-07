@@ -16,15 +16,15 @@ f1.keywords: NOCSH
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkTEAMS
-localization_priority: Priority
+ms.localizationpriority: high
 recommendations: false
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: d3db87c0c01a9bddead9b7367b6ac64a7633e107
-ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
+ms.openlocfilehash: 8028258b1b5a7ec13c2a9c9e2e89e52756c97d38
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59477626"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202348"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -167,7 +167,7 @@ OneDrive는 SharePoint 내의 사이트 계층 구조이므로 조직 수준 공
 |:-----|:-----|:-----|
 |도메인별 외부 공유 제한|해제|이 설정을 사용하면 공유에 허용되거나 차단된 도메인 목록을 지정할 수 있습니다. 허용 도메인이 지정되면 해당 도메인에만 공유 초대를 보낼 수 있습니다. 거부된 도메인을 지정하면 공유 초대장을 해당 도메인으로 보낼 수 없습니다. <p> 이 설정은 조직의 모든 SharePoint 및 OneDrive 사이트에 영향을 줍니다.|
 |Allow only users in specific security groups to share externally(특정 보안 그룹의 사용자만 외부로 공유할 수 있도록 허용)|해제|SharePoint 및 OneDrive에서 게스트와 공유할 수 있는 사용자를 제한 하려면 지정된 보안 그룹에 있는 사용자와의 공유를 제한하는 것이 좋습니다. 이러한 설정은 Microsoft 365 그룹 또는 Teams를 통한 공유에는 영향을 주지 않습니다. 그룹 또는 팀을 통해 초대한 게스트는 관련 사이트에도 액세스할 수 있지만, 문서 및 폴더 공유는 지정된 보안 그룹의 사용자만 수행할 수 있습니다. <p> 지정된 각 그룹에서 모든 사용자 링크를 공유할 수 있는 사용자를 선택할 수 있습니다.|
-|게스트는 공유 초대장이 전송된 계정과 동일한 계정으로 로그인해야 함|해제|게스트가 초대장과 다른 전자 메일 주소를 사용하여 사이트 공유 초대장을 사용할 수 없도록 합니다. <p> [Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](/sharepoint/sharepoint-azureb2b-integration-preview)은 초대를 받은 전자 메일 주소를 기준으로 모든 게스트를 디렉토리에 추가하기 때문에 이 설정을 사용하지 않습니다. 대체 전자 메일 주소를 사용하여 사이트에 액세스할 수 없습니다.|
+|게스트는 공유 초대장이 전송된 계정과 동일한 계정으로 로그인해야 함|해제|게스트가 초대장과 다른 전자 메일 주소를 사용하여 사이트 공유 초대장을 사용할 수 없도록 합니다. <p> [Azure AD B2B(미리 보기)와 SharePoint 및 OneDrive 통합](/sharepoint/sharepoint-azureb2b-integration-preview)에서는 초대가 전송된 이메일 주소를 기반으로 디렉터리에 모든 게스트가 추가되기 때문에 이 설정을 사용하지 않습니다. 대체 이메일 주소는 사이트에 액세스하는 데 사용할 수 없습니다.|
 |게스트가 소유하지 않은 항목을 공유할 수 있도록 허용|켜짐|**켜짐** 을 설정되면 게스트는 다른 사용자나 게스트와 소유하지 않는 항목을 공유할 수 있습니다. **해제** 된 경우에는 할 수 없습니다. 게스트는 항상 모든 권한을 보유한 항목을 공유할 수 있습니다.|
 |People who use a verification code must reauthenticate after this many days(확인 코드를 사용하는 사용자는 다음 기간(일) 후에 다시 인증해야 함)|해제|이 설정을 사용하면 일회용 암호로 인증하는 사용자가 특정 기간(일) 후에 다시 인증해야 합니다.|
 |사이트 또는 OneDrive 게스트 액세스가 이 기간 후에 자동으로 만료됩니다.|설정|관리자가 게스트 액세스에 대한 만료 시간을 설정한 경우, 사이트에 초대하거나 개별 파일 및 폴더를 공유하는 각 게스트에게 일정 기간(일) 동안 액세스 권한이 부여됩니다. 자세한 내용은 [사이트에 대한 게스트 만료 관리](https://support.microsoft.com/en-us/office/manage-guest-expiration-for-a-site-25bee24f-42ad-4ee8-8402-4186eed74dea)를 참조하세요.

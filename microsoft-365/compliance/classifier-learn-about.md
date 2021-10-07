@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365solution-mip
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 교육 가능한 Microsoft 365 분류자란 테스트 또는 정책 응용 프로그램에 대해 다양한 유형의 콘텐츠를 인식할 수 있는 도구로, 이를 통해 볼 수 있는 양성 및 부정 샘플을 제공합니다.
-ms.openlocfilehash: 086ca0575bc701deccbb7c49dbc7c71bdd838d5a
-ms.sourcegitcommit: 835dcaf5d5e0b485dc3ac485ded8943046afe36c
+ms.openlocfilehash: b218fea598049e8a3b621b4b6711550227e3cbd4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942016"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204470"
 ---
 # <a name="learn-about-trainable-classifiers"></a>학습 가능한 분류자에 대한 자세한 정보
 
