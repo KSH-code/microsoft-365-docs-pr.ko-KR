@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 7712500caf2e30d6ecdb8146ecfa4173e087f154
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 176daff75e39f8ed4dda2854d3448cb9fbaa5dad
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221467"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211155"
 ---
 # <a name="get-domain-related-alerts-api"></a>도메인 관련 알림 API를 얻습니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "59221467"
 1. 구성된 보존 기간에 따라 마지막으로 업데이트된 경고에 대해 쿼리할 수 있습니다.
 2. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 
@@ -73,7 +73,7 @@ GET /api/domains/{domain}/alerts
 
 |헤더|값|
 |---|---|
-|권한 부여|문자열|
+|권한 부여|String|
 
 ## <a name="request-body"></a>요청 본문
 

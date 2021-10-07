@@ -12,7 +12,7 @@ f1.keywords:
 ms.author: tracyp
 author: MSFTTracyP
 ms.date: 06/25/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: bb0633145ab1a1ac97e77b7b319e8defeb06e309
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0979e35f2e1473f013efb2f3116b86f21567520d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214542"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60212116"
 ---
 # <a name="evaluate-and-pilot-microsoft-365-defender"></a>평가 및 파일럿 Microsoft 365 Defender
 
@@ -102,9 +102,9 @@ Microsoft는 설명된 순서대로 Microsoft 365 구성 요소를 사용하도�
 |------|---------|---------|
 |1     | [평가 환경 만들기](eval-create-eval-environment.md)       |이 단계를 통해 사용자에 대한 평가판 라이선스가 Microsoft 365 Defender.         |
 |2     | [ID에 Defender 사용](eval-defender-identity-overview.md)        | 아키텍처 요구 사항을 검토하고, 평가를 사용하도록 설정하고, 다양한 공격 유형을 식별하고 수정하기 위한 자습서를 진행합니다.   |
-|3      | [사용자에 대해 Defender를 Office 365](eval-defender-office-365-overview.md)       | 아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요. 이 구성 요소에는 Exchange Online Protection 포함되어 있으므로 여기서 실제로 두 가지를 *모두 평가합니다.*      |
+|3      | [사용자에 대해 Defender를 Office 365 ](eval-defender-office-365-overview.md)       | 아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요. 이 구성 요소에는 Exchange Online Protection 포함되어 있으므로 여기서 실제로 두 가지를 *모두 평가합니다.*      |
 |4      | [끝점에 Defender 사용 ](eval-defender-endpoint-overview.md)       | 아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요.         |
-|5      | [사용자 Microsoft Cloud App Security](eval-defender-mcas-overview.md)        |  아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요.        |
+|5     | [사용자 Microsoft Cloud App Security](eval-defender-mcas-overview.md)        |  아키텍처 요구 사항을 충족하는지 확인한 다음 평가를 사용하도록 설정한 다음 파일럿 환경을 만드세요.        |
 |6      | [위협 탐지 및 응답](eval-defender-investigate-respond.md)        |   공격을 시뮬레이트하고 인시던트 대응 기능을 사용을 시작합니다.      |
 |7      | [평가판을 제품으로 승격](eval-defender-promote-to-production.md)        | Microsoft 365 구성 요소를 일대일 프로덕션으로 승격합니다.        |
 | | | |

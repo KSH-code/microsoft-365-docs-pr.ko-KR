@@ -2,26 +2,24 @@
 title: 끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 description: 장치 온보딩 중에 또는 끝점용 Microsoft Defender 서비스에 발생할 수 있는 문제를 해결합니다.
 keywords: 온보더링, 온보더링 문제, 이벤트 뷰어, 데이터 수집 및 미리 보기 빌드, 센서 데이터 및 진단 문제 해결
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 3fe7610d35114200a5bed515f82bb7a4453cf4fa
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 9c9d731fa8a1632ab6804ebed9fdb2594564eaf8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042978"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60212428"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -119,9 +117,9 @@ Intune에서 정책을 구성한 경우 정책이 장치에 전파되지 않은 
 
 |오류 코드 16진수|오류 코드 Dec|오류 설명/Error Description|OMA-URI|가능한 원인 및 문제 해결 단계|
 |:---:|---|---|---|---|
-|0x87D1FDE8|-2016281112|재구성 실패|온보딩 <p> 오프보더링|**가능한 원인:** 잘못된 Blob( 잘못된 서명 또는 PreviousOrgIds 필드 누락)에서 온보딩 또는 오프보딩에 실패했습니다. <p> **문제 해결 단계:** <p> 장치 이벤트 로그의 에이전트 온보더링 오류 보기 섹션에서 이벤트 [ID를 확인합니다.](#view-agent-onboarding-errors-in-the-device-event-log) <p> 다음 표의 MDM 이벤트 로그를 확인하거나 [에서 MDM 오류 진단의 지침을 Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)|
+|0x87D1FDE8|-2016281112|재구성 실패|온보딩 <p> 오프보더링|**가능한 원인:** 잘못된 Blob( 잘못된 서명 또는 PreviousOrgIds 필드 누락)에서 온보딩 또는 오프보딩에 실패했습니다. <p> **문제 해결 단계:** <p> 장치 이벤트 로그의 에이전트 온보더링 오류 보기 섹션에서 이벤트 [ID를 확인합니다.](#view-agent-onboarding-errors-in-the-device-event-log) <p> 다음 표의 MDM 이벤트 로그를 확인하거나 [에서 MDM](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)오류 진단의 지침을 Windows.|
 ||||온보딩 <p> 오프보더링 <p> SampleSharing|**가능한 원인:** 끝점용 Microsoft Defender 정책 레지스트리 키가 존재하지 않는 경우 또는 OMA DM 클라이언트에 끝점 정책 레지스트리 키에 쓸 수 있는 권한이 없습니다. <p> **문제 해결 단계:** 다음 레지스트리 키가 존재하는지 확인 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` <p> 이 명령이 존재하지 않는 경우 상승된 명령을 열고 키를 추가합니다.|
-||||SenseIsRunning <p> OnboardingState <p> OrgId|**가능한 원인:** 읽기 전용 속성으로 수정하려고 합니다. 온보더링에 실패했습니다. <p> **문제 해결 단계:** 장치의 온보더링 문제 해결에서 문제 [해결 단계를 확인합니다.](#troubleshoot-onboarding-issues-on-the-device) <p> 다음 표의 MDM 이벤트 로그를 확인하거나 [에서 MDM 오류 진단의 지침을 Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)|
+||||SenseIsRunning <p> OnboardingState <p> OrgId|**가능한 원인:** 읽기 전용 속성으로 수정하려고 합니다. 온보더링에 실패했습니다. <p> **문제 해결 단계:** 장치의 온보더링 문제 해결에서 문제 [해결 단계를 확인합니다.](#troubleshoot-onboarding-issues-on-the-device) <p> 다음 표의 MDM 이벤트 로그를 확인하거나 [에서 MDM](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)오류 진단의 지침을 Windows.|
 ||||모두|**가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다. <p> 현재 지원되는 플랫폼: <p> Enterprise, 교육 및 Professional.<p> 서버가 지원되지 않습니다.|
 |0x87D101A9|-2016345687|SyncML(425): 보낸 사람에게 받는 사람에 대한 적절한 ACL(액세스 제어 권한)이 없는 경우 요청한 명령이 실패했습니다.|모두|**가능한 원인:** 지원되지 않는 SKU/플랫폼, 특히 Holographic SKU에 끝점용 Microsoft Defender를 배포하려고 시도합니다.<p> 현재 지원되는 플랫폼: <p> Enterprise, 교육 및 Professional.|
 |
@@ -218,13 +216,13 @@ MDM 이벤트 로그를 확인하여 온보더링 중에 발생할 수 있는 �
 
 ### <a name="ensure-the-diagnostic-data-service-is-enabled"></a>진단 데이터 서비스를 사용하도록 설정되어 있는지 확인
 
-장치가 올바르게 보고되지 않는 경우 Windows 10 진단 데이터 서비스가 자동으로 시작되고 장치에서 실행 중인지 확인해야 할 수 있습니다. 다른 프로그램이나 사용자 구성 변경으로 서비스가 사용하지 않도록 설정되어 있을 수 있습니다.
+장치가 올바르게 보고되지 않는 경우 Windows 진단 데이터 서비스가 자동으로 시작되고 장치에서 실행 중인지 확인해야 할 수 있습니다. 다른 프로그램이나 사용자 구성 변경으로 서비스가 사용하지 않도록 설정되어 있을 수 있습니다.
 
 먼저 서비스가 시작될 때 서비스가 자동으로 시작 Windows 확인한 다음 서비스가 현재 실행 중인지 확인하고 실행되고 있지 않은 경우 시작해야 합니다.
 
 ### <a name="ensure-the-service-is-set-to-start"></a>서비스가 시작되도록 설정되어 있는지 확인
 
-**명령줄을 사용하여 진단** 데이터 Windows 10 시작 유형을 확인할 수 있습니다.
+**명령줄을 사용하여 진단** 데이터 Windows 시작 유형을 확인할 수 있습니다.
 
 1. 디바이스에서 상승된 명령줄 프롬프트를 니다.
 
@@ -244,7 +242,7 @@ MDM 이벤트 로그를 확인하여 온보더링 중에 발생할 수 있는 �
 
    로 설정되지 않은 경우 서비스를 자동으로 `START_TYPE` `AUTO_START` 시작으로 설정해야 합니다.
 
-**명령줄을 사용하여 Windows 10 진단 데이터 서비스가 자동으로 시작될 수 있도록 합니다.**
+**명령줄을 사용하여 Windows 진단 데이터 서비스가 자동으로 시작될 수 있도록 합니다.**
 
 1. 디바이스에서 상승된 명령줄 프롬프트를 니다.
 

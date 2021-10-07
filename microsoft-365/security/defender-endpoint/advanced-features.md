@@ -2,26 +2,24 @@
 title: 끝점용 Microsoft Defender의 고급 기능 구성
 description: 끝점용 Microsoft Defender에서 파일 차단과 같은 고급 기능을 켜야 합니다.
 keywords: 고급 기능, 설정, 파일 차단, 자동화된 조사, 자동 해결, skype, ID에 대한 Microsoft Defender, office 365, Azure Information Protection, intune
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f9fbeb7d0fbaee05e86c89749ffc62695e8ff9e9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 432819930a1472d6241c62b275a940cb35c3cb37
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187635"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211432"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -118,7 +116,7 @@ PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 �
 
 이 기능을 켜면 IP 주소, 도메인 또는 URL에 대한 표시기를 만들어 사용자 지정 표시기 목록에 따라 허용할지 차단할지 여부를 결정할 수 있습니다.
 
-이 기능을 사용하려면 장치가 버전 1709 이상에서 Windows 10 실행되고 있어야 합니다. 또한 맬웨어 방지 플랫폼의 차단 모드 및 버전 4.18.1906.3 이상에서 네트워크 보호를 사용할 수도 있습니다. 자세한 내용은 [KB](https://go.microsoft.com/fwlink/?linkid=2099834)4052623.
+이 기능을 사용하려면 장치에서 버전 1709 이상 또는 Windows 10 11 이상을 Windows 합니다. 또한 맬웨어 방지 플랫폼의 차단 모드 및 버전 4.18.1906.3 이상에서 네트워크 보호를 사용할 수도 있습니다. 자세한 내용은 [KB](https://go.microsoft.com/fwlink/?linkid=2099834)4052623.
 
 자세한 내용은 [지표 관리를 참조하세요.](manage-indicators.md)
 
@@ -181,7 +179,7 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 이 설정을 사용하도록 설정하면 끝점용 Defender 신호가 클라우드 응용 Microsoft Cloud App Security 더 심층적으로 표시될 수 있습니다. 전달된 데이터는 사용자 데이터와 동일한 위치에 저장되고 Cloud App Security 처리됩니다.
 
 > [!NOTE]
-> 이 기능은 E5 라이선스와 함께 사용할 수 [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) 실행 중인 Windows 10. 버전 1709(OS 빌드 16299.1085(KB4493441 ), Windows 10, 버전 1803(OS 빌드 17134.704 및 [KB4493464](https://support.microsoft.com/help/4493464)), Windows 10, 버전 1809(OS 빌드 17763.379 및 [KB4489899](https://support.microsoft.com/help/4489899)) 이상 Windows 10 버전. [](https://support.microsoft.com/help/4493441)
+> 이 기능은 Windows 10 버전 1709(OS 빌드 16299.1085(KB4493441), Windows 10 버전 [](https://support.microsoft.com/help/4493441)1803(OS 빌드 17134.704 및 [KB4493464)을](https://support.microsoft.com/help/4493464)실행하는 장치에서 Enterprise Mobility + Security용 E5 라이선스와 함께 사용할 Windows 10, 버전 1809 수 있습니다( [](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) OS 빌드 [17763.379(KB4489899),](https://support.microsoft.com/help/4489899)이후 Windows 10 버전 또는 Windows 11입니다.
 
 ## <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -220,7 +218,7 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 이 기능은 다음의 경우만 사용할 수 있습니다.
 
 - E5 및 Enterprise Mobility + Security E3 및 Windows E5용 Microsoft 365 Enterprise 테넌트
-- Intune에서 관리하는 Microsoft Intune Azure AD에 가입된 장치를 Windows 10 활성 상태 [환경.](/azure/active-directory/devices/concept-azure-ad-join/)
+- Intune에서 관리하는 Microsoft Intune Azure AD에 가입된 Windows 활성 [환경입니다.](/azure/active-directory/devices/concept-azure-ad-join/)
 
 ### <a name="conditional-access-policy"></a>조건부 액세스 정책
 

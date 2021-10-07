@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 722c4a28ab477b34fc3e52cb3eb3efddf319d0d8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3f8a30dc09ab3bfd18b5d65335788a18984e1574
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221404"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213682"
 ---
 # <a name="get-file-related-machines-api"></a>파일 관련 컴퓨터 다운로드 API
 
@@ -46,7 +46,7 @@ ms.locfileid: "59221404"
 1. 이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.
 2. SHA-1 해시 함수만 지원됩니다(MD5 또는 SHA-256은 지원되지 않습니다).
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
 

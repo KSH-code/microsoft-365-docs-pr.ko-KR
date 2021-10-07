@@ -7,7 +7,7 @@ ms.date: 05/12/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 73b50d52094526857e3787c29b764f55976bde12
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 93d639b5d917bfa22a08f0c756236158e8334932
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185972"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60212848"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
 독일 Microsoft 클라우드(MCD)에서 Microsoft Office 365 글로벌 서비스의 지역 "독일"으로 테넌트 마이그레이션은 각 워크로드에 대해 구성된 작업 및 단계 집합으로 실행됩니다. 이 그림에서는 새로운 독일 데이터 센터로의 10개 마이그레이션 단계를 보여 주었다.
 
-[새 독일 데이터 센터로의 ![ 10단계 마이그레이션 단계 ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)](../media/ms-cloud-germany-migration-opt-in/migration-organization.png#lightbox)
+[새 독일 데이터 센터로의 ![ 10단계 마이그레이션 단계 ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png) ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png#lightbox)
 
 조직의 전체 크기 및 복잡도에 따라 마이그레이션 프로세스가 몇 주 동안 완료됩니다. 마이그레이션이 진행 중일 때 사용자와 관리자는 이 설명서에 자세히 설명된 변경 사항과 함께 서비스를 계속 사용할 수 있습니다. 그래픽 및 테이블은 마이그레이션 중의 단계와 단계를 정의합니다.
 
@@ -197,7 +197,7 @@ CNAME이 을(를) autodiscover-outlook.office.de 있는 기존 DNS 항목은 을
 
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예시:
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예제:
 
 ```powershell
 New-PSSession
@@ -324,7 +324,7 @@ Dynamics 365를 사용 하는 고객은 조직의 Dynamics 조직을 독립적�
 
 이 단계에서는 모든 클라이언트 응용 프로그램 및 Office Online이 클라이언트 컷오버를 수행하고 있습니다. Azure AD는 서비스 및 관련 끝점을 Office 365 테넌트 범위를 마무리합니다.
 
-Office 365 "Germany" 지역으로 전환하는 테넌트는 모든 사용자가 Office 365에서 종료하고, 로그인한 후 테넌트 마이그레이션이 9단계에 도달한 후 모든 Office 데스크톱 응용 프로그램(Word, Excel, PowerPoint, Outlook 등)과 비즈니스용 OneDrive 클라이언트에 대해 다시 로그인해야 합니다. 로그인하면 Office 서비스에서 전역 Azure AD 서비스에서 새 인증 토큰을 얻을 수 있습니다.
+Office 365 "Germany" 지역으로 전환하는 테넌트의 경우 모든 사용자가 Office 365에서 종료한 후 모든 Office 데스크톱 응용 프로그램(Word, Excel, PowerPoint, Outlook 등)과 비즈니스용 OneDrive 클라이언트에 대해 다시 로그인해야 합니다. 테넌트 마이그레이션이 9단계에 도달했습니다. 로그인하면 Office 서비스에서 전역 Azure AD 서비스에서 새 인증 토큰을 얻을 수 있습니다.
 
 응용 프로그램에서 Office 로그인한 후에도 Office 데스크톱 응용 프로그램이 작동하지 않을 경우 영향을 받는 컴퓨터의 Office 클라이언트 컷오버 [도구(OCCT)를](https://github.com/microsoft/OCCT) 실행하여 문제를 해결하는 것이 좋습니다.
 

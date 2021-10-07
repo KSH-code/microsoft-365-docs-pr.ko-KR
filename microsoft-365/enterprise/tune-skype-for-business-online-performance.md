@@ -7,7 +7,7 @@ ms.date: 9/29/2016
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: beec23c2-c5d6-4e84-a8af-e82aefca7802
 description: 이 문서에서는 네트워크 대역폭 요구 사항을 계획하거나 Online의 성능 향상을 계획하는 시스템 관리자를 위한 비즈니스용 Skype 제공합니다.
-ms.openlocfilehash: 6c210dc184f9164318215d37713a9136b556cc0b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5dd5672a016701b167c1510276da71198e21d7a7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187828"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211623"
 ---
 # <a name="tune-skype-for-business-online-performance"></a>비즈니스용 Skype Online 성능 조정
 

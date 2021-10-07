@@ -4,17 +4,17 @@ description: 표준 서비스 계획에 대한 예외를 요청하는 방법
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 59a2b8227eb7e410ecf8506ce288978213537edc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 78c02e628ac7d5503cc77929828775715fd6622e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215382"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60212728"
 ---
 # <a name="exceptions-to-the-service-plan"></a>서비스 계획에 대한 예외
 

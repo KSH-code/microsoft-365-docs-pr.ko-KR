@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 ms.custom: admindeeplinkMAC
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하거나 사용자가 구성한 설정에 따라 레코드로 표시된 항목이 자동으로 삭제되는 경우에 대한 콘텐츠 폐기 작업을 모니터링하고 관리합니다.
-ms.openlocfilehash: ac98276e79679d2917a955f02318132c96e2863b
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: 1b34ac4d8c9afead9ed72b060f8417affc2062b7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59480871"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179238"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -49,7 +49,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 
 - 처리 프로세스 중에 항목의 콘텐츠를 보려면 사용자를 **콘텐츠 탐색기 콘텐츠 뷰어** 역할 그룹에 추가하세요. 사용자가 이 역할 그룹의 권한을 가지고 있지 않은 경우에도 처리 검토 작업을 선택하여 처리 검토를 완료할 수 있지만, 규정 준수 센터의 미니 미리 보기 창에서 항목의 콘텐츠를 볼 수는 없습니다.
 
-- 기본적으로 **처리** 페이지에 액세스하는 각 사용자는 검토하도록 할당된 항목만 봅니다. 레코드 관리 관리자가 모든 사용자에게 할당된 모든 항목과 처리 검토를 위해 구성된 모든 보존 레이블을 보려면: **레코드 관리 설정** > **일반** > **레코드 관리자용 보안 그룹** 으로 이동하여 관리자 계정이 포함된 메일 사용 가능 보안 그룹을 선택한 다음 활성화합니다.
+- 기본적으로 **처리** 페이지에 액세스하는 각 사용자는 검토하도록 할당된 항목만 봅니다. 레코드 관리 관리자가 모든 사용자에게 할당된 모든 항목과 처리 검토를 위해 구성된 모든 보존 레이블을 보려면 **레코드 관리 설정** > **일반** > **코드 관리자용 보안 그룹** 으로 이동하여 관리자 계정이 포함된 메일 사용 가능 보안 그룹을 선택한 다음 활성화합니다.
     
     메일을 사용할 수 없는 Microsoft 365 그룹 및 보안 그룹은 이 기능을 지원하지 않으므로 선택할 목록에 표시되지 않습니다. 새 메일 사용 보안 그룹을 만들어야 하는 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에 대한 링크를 사용하여 새 그룹을 만듭니다. 
     
@@ -60,7 +60,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 
 #### <a name="enabling-another-security-group-for-disposition"></a>처리를 위해 다른 보안 그룹 활성화
 
-Microsoft 365 규정 준수 센터의 **레코드 관리 설정** 에서 처리를 위해 보안 그룹을 활성화한 후에는 그룹에 대해 이 권한을 비활성화하거나 규정 준수 센터에서 선택한 그룹을 바꿀 수 없습니다. 그러나 [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage) cmdlet을 사용하여 다른 메일 사용 보안 그룹을 설정할 수 있습니다.
+Microsoft 365 규정 준수 센터의 **레코드 관리 설정** 에서 처리를 위해 보안 그룹을 활성화한 후에는 그룹에 대해 이 권한을 비활성화하거나 규정 준수 센터에서 선택한 그룹을 바꿀 수 없습니다. 하지만, [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage) cmdlet을 사용하여 다른 메일 사용이 가능한 보안 그룹을 사용하도록 설정할 수 있습니다.
 
 예제: 
 
@@ -101,11 +101,11 @@ Enable-ComplianceTagStorage -RecordsManagementSecurityGroupEmail dispositionrevi
 > [!NOTE]
 > 처리 검토를 지원하려면 사서함에 10MB 이상의 데이터가 있어야 합니다.
 
-관리자는 보류 중인 모든 배치에 대한 개요를 **개요** 탭에서 볼 수 있습니다. 검토자는 처리 보류 중인 항목만 봅니다. 예:
+관리자는 보류 중인 모든 배치에 대한 개요를 **개요** 탭에서 볼 수 있습니다. 검토자는 처리 보류 중인 항목만 봅니다. 예를 들어
 
 ![레코드 관리에서 보류 중인 처리 개요.](../media/dispositions-overview.png)
 
-**보류 중인 모든 처리 보기** 를 선택하면 **처리** 페이지로 이동됩니다. 예를 들면 다음과 같습니다.
+**보류 중인 모든 처리 보기** 를 선택하면 **처리** 페이지로 이동됩니다. 예를 들어
 
 ![Microsoft 365 규정 준수 센터의 처리 페이지.](../media/disposition-tab.png)
 
@@ -177,7 +177,7 @@ If you need additional information, visit the helpdesk website (https://support.
 
 ![처리 검토를 위해 새 창에서 열기.](../media/open-in-new-window.png)
 
-**보류 중인 처리** 페이지에 해당 레이블에 대해 보류 중인 모든 처리가 표시됩니다. 하나 이상의 항목을 선택하면 미니 미리 보기 창과 **원본**, **세부 정보** 및 **기록** 탭을 사용하여 콘텐츠를 검사한 후 작업을 수행할 수 있습니다.
+**보류 중인 처리** 페이지에 해당 레이블에 대해 보류 중인 모든 처리가 표시됩니다. 하나 이상의 항목을 선택하면 미니 미리 보기 창과 **원본**, **세부 정보**, **기록** 탭을 사용하여 콘텐츠를 검사한 후 작업을 수행할 수 있습니다.
 
 ![처리 옵션.](../media/retention-disposition-options.png)
 
@@ -209,7 +209,7 @@ If you need additional information, visit the helpdesk website (https://support.
 - 처리 검토 결과로 삭제된 항목입니다.
 - 보관 기간이 끝날 때 자동으로 삭제된 레코드 또는 규제 레코드로 표시된 항목입니다.
 
-이러한 항목에는 **유형** 열에 **처리된 레코드** 를 표시합니다. 예를 들면 다음과 같습니다.
+이러한 항목에는 **유형** 열에 **처리된 레코드** 를 표시합니다.
 
 ![처리 검토가 없이 처리된 항목.](../media/records-disposed2.png)
 

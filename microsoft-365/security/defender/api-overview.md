@@ -1,5 +1,5 @@
 ---
-title: API Microsoft 365 Defender 개요
+title: Microsoft 365 Defender API 개요
 description: 2013에서 사용 가능한 API에 대해 Microsoft 365 Defender
 keywords: api, api, 개요, 인시던트, 인시던트, 위협 헌팅, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ef8a5e1b833bc1184132469f8c3b358e907974e4
-ms.sourcegitcommit: 6968594dc8cf8b30a4c958df6d65dfd0cd2cfae1
+ms.openlocfilehash: 2ce2e6e1efc87f0bcbfdbe6d650f35ea91da8422
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491268"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213568"
 ---
-# <a name="overview-of-microsoft-365-defender-apis"></a>API Microsoft 365 Defender 개요
+# <a name="overview-of-microsoft-365-defender-apis"></a>Microsoft 365 Defender API 개요
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

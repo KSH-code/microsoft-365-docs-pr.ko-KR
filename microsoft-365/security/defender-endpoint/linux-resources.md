@@ -3,27 +3,25 @@ title: Linux 리소스의 끝점용 Microsoft Defender
 ms.reviewer: ''
 description: Linux의 끝점용 Microsoft Defender에 대한 리소스( 제거 방법, 진단 로그 수집 방법, CLI 명령 및 제품에 대한 알려진 문제 포함)에 대해 설명
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8596cf95c7aa4479d1900ba99c98bc10025ee738
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 89178fc9c8ec44da0f9f51e2c4bfc6b1dfbab138
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187484"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211072"
 ---
 # <a name="resources"></a>리소스
 

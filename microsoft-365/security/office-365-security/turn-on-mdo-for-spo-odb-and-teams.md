@@ -8,7 +8,7 @@ manager: dansimp
 audience: ITPro
 ms.topic: how-to
 ms.date: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -20,12 +20,12 @@ description: 관리자는 검색된 파일에 대한 알림을 설정하는 금�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8a1020193a49dd7b4871b9b9fec53d21073b03e6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 546c714d76807f828845b3c0ef0c8fe3ef94169c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211555"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211888"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일 설정
 
@@ -61,7 +61,7 @@ Microsoft Defender for Office 365 for SharePoint, OneDrive 및 Microsoft Teams �
 
    설정, Office 365, SharePoint, OneDrive 및 Microsoft Teams 토글에 대한 **Defender** 켜기 토글을 ![ 전환합니다.](../../media/scc-toggle-on.png) 를 설정하여 금고, SharePoint, OneDrive 및 Microsoft Teams.
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
 ### <a name="use-exchange-online-powershell-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>PowerShell Exchange Online 사용하여 금고 OneDrive, SharePoint 및 SharePoint 첨부 파일을 Microsoft Teams
 
@@ -142,7 +142,7 @@ New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies ad
 
 - 금고, OneDrive 및 Microsoft Teams SharePoint 첨부 파일이 설정되어 있는지 확인 Microsoft Teams 다음 단계 중 하나를 수행합니다.
 
-  - Microsoft 365 Defender 포털에서 정책 & **규칙** 위협 정책 섹션금고 첨부 \>  \>  \> **파일,** 전역 설정 을 선택하고 Office 365,  OneDrive 및 Microsoft Teams SharePoint 설정에 대한 Office 365에 대한 Defender 켜기 Microsoft Teams 확인합니다.
+  - Microsoft 365 Defender 포털에서 정책 & **규칙** 위협 정책 \>  \>  \> **섹션금고** 첨부 파일, 전역 설정 을 선택하고 Office 365, SharePoint 및 에 대한 Defender 켜기 값을 **OneDrive. Microsoft Teams** 설정입니다.
 
   - PowerShell을 Exchange Online 다음 명령을 실행하여 속성 설정을 확인 합니다.
 

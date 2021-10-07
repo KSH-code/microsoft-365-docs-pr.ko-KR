@@ -6,7 +6,7 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MED150
@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사서함에서 정크 메일 설정을 구성하는 Exchange Online 있습니다. 이러한 설정 중 상당수는 사용자 또는 Outlook 사용할 웹용 Outlook.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c9a787c02273eeaf9e3db5174607f1b65a3c65a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1aee1825e5bc69973fb8ed8122881fe0f8dd6878
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166671"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213484"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
@@ -179,7 +179,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 사용자 계정에서 사용할 수 있는 클라이언트 쪽 정크 메일 필터 설정을 사용하도록 설정, 비활성화 및 구성하려면 Outlook 정책을 사용합니다. 자세한 내용은 관리 템플릿 파일(ADMX/ADML) 및 Office [Customization Tool for 엔터프라이즈용 Microsoft 365 앱, Office 2019 및 Office 2016](https://www.microsoft.com/download/details.aspx?id=49030) [](https://support.microsoft.com/help/2252421)및 그룹 정책을 사용하여 금고 보낸 사람 목록과 같은 정크 메일 설정을 배포하는 방법을 참조하세요.
 
-Outlook 정크 메일 필터가 기본값 No **automatic filtering** in **Home** \>  \> **Junk Junk E-Mail Options** \> (Outlook doesn't attempt to classify messages as spam)로 설정되어 있는 경우 금고 보낸 사람 목록, 금고 받는 사람 목록 및 수신 차단된 보낸 사람 목록)을 사용하여 메시지를 배달 후 정크 메일 폴더로 이동합니다. 이러한 설정에 대한 자세한 내용은 정크 메일 필터 [개요를 참조하세요.](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)
+Outlook 정크 메일 필터가 기본값으로 설정된  경우 홈 정크 메일 옵션에서 자동 필터링 안  \>  \>  \> 하세요. Outlook는 메시지를 스팸으로 분류하지 않지만 수신자 목록, 금고 받는 사람 목록 및 수신 수신 차단 목록)을 사용하여 메시지를 정크 메일 접기로 이동합니다 금고. r 배달 후 이러한 설정에 대한 자세한 내용은 정크 메일 필터 [개요를 참조하세요.](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)
 
 정크 Outlook 필터를 낮음 또는  높음으로 설정하면 Outlook 정크 메일 필터는 자체 SmartScreen 필터 기술을 사용하여 스팸을 식별하고 정크 메일 폴더로 이동합니다.  이 스팸 분류는 EOP에 의해 결정된 SCL(스팸 지수)과는 별개입니다. 실제로 Outlook EOP에서 SCL을 무시하고(EOP가 스팸 필터링을 건너뛰기 위해 메시지를 표시하지 않은 경우) 자체 조건을 사용하여 메시지가 스팸인지 여부를 판단합니다. 물론 EOP와 EOP의 스팸 판정이 같을 Outlook 있습니다. 이러한 설정에 대한 자세한 내용은 정크 메일 필터에서 보호 수준 [변경을 참조하세요.](https://support.microsoft.com/office/e89c12d8-9d61-4320-8c57-d982c8d52f6b)
 

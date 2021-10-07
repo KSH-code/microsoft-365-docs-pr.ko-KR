@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 5892932bc3fe35cfc6739c266db9f6379d08ee6b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bca5495b60bcd3fe84c7faf05ec124f2eb037994
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191602"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151293"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -135,7 +135,7 @@ SearchQueryInitiatedExchange 감사 레코드를 검색하려면 준수 센터�
 Exchange Online PowerShell에서 [Search-UnifiedAuditLog-Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 
 > [!NOTE]
-> 감사 로그에서 이 이벤트를 검색할 수 있도록 SearchQueryInitiatedExchange를 활성화해야 합니다. 자세한 내용은 [고급 감사 설정](set-up-advanced-audit.md#step-2-enable-advanced-audit-events)을 참조하세요.
+> 감사 로그에서 이 이벤트를 검색할 수 있도록 SearchQueryInitiatedExchange가 기록되도록 설정해야 합니다. 자세한 내용은 [고급 감사 설정](set-up-advanced-audit.md#step-2-enable-advanced-audit-events)을 참조하세요.
 
 ### <a name="searchqueryinitiatedsharepoint"></a>SearchQueryInitiatedSharePoint
 
@@ -158,7 +158,7 @@ SearchQueryInitiatedSharePoint 감사 레코드를 검색하려면 준수 센터
 또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 
 > [!NOTE]
-> 감사 로그에서 이 이벤트를 검색할 수 있도록 SearchQueryInitiatedSharePoint를 활성화해야 합니다. 자세한 내용은 [고급 감사 설정](set-up-advanced-audit.md#step-2-enable-advanced-audit-events)을 참조하세요.
+> 감사 로그에서 이 이벤트를 검색할 수 있도록 SearchQueryInitiatedSharePoint가 기록되도록 설정해야 합니다. 자세한 내용은 [고급 감사 설정](set-up-advanced-audit.md#step-2-enable-advanced-audit-events)을 참조하세요.
 
 ### <a name="other-advanced-audit-events-in-microsoft-365"></a>Microsoft 365의 기타 고급 감사 이벤트
 

@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Microsoft 365 비즈니스 에디션 구독이 만료되거나, 비활성화되거나, 사용자가 취소하는 경우 사용자의 데이터가 어떻게 처리되는지 알아봅니다.
 ms.date: 09/16/2021
-ms.openlocfilehash: 089caf11d590d38cc729466f53f91c1123f8b596
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: 491a279aac94b4242252df801bd9f65fcb9f8a5b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59481003"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151245"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?
 
@@ -109,11 +109,11 @@ ms.locfileid: "59481003"
   
 ### <a name="state-disabled"></a>상태: 사용 안 함
 
-**예상 결과:** 만료 단계에 있는 동안 구독을 다시 활성화하지 않으면 사용 안 함 단계로 전환됩니다. 대부분 국가와 지역에서 대부분 구독의 사용 안 함 단계는 90일 동안 지속됩니다. 볼륨 라이선싱 제품의 사용 안 함 단계는 30일 동안 지속됩니다.
+**예상되는 결과:**  만료 스테이지에서 구독을 다시 활성화하지 않으면 비활성 스테이지로 전환됩니다. 대부분의 국가와 지역에서 대부분의 구독에 대해 비활성 스테이지는 90일 동안 지속됩니다. 볼륨 라이선싱 제품의 경우, 비활성 스테이지는 30일 동안 지속됩니다.
 
 이 상태에서는 액세스 권한이 크게 줄어듭니다. 사용자는 전자 메일 또는 SharePoint Online과 같은 서비스에 로그인하거나 액세스할 수 없습니다. Office 응용 프로그램은 읽기 전용의 기능 제한 모드로 전환되며 [사용 허가되지 않은 제품 알림](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)이 표시됩니다. 여전히 로그인하여 관리 센터에 액세스할 수 있지만 사용자에게 라이선스를 할당할 수 없습니다. 팀 사이트의 모든 사용자 데이터, 전자 메일 및 파일을 포함한 고객 데이터는 사용자 및 다른 관리자만 사용할 수 있습니다.
 
-전역 또는 청구 관리자의 경우 [구독을 다시 활성화](reactivate-your-subscription.md)하고 모든 고객 데이터가 그대로 유지된 상태에서 Microsoft 365를 계속 사용할 수 있습니다. 다시 활성화하지 않을 경우 [데이터를 백업](back-up-data-before-switching-plans.md)하세요.
+전역 또는 청구 관리자는 [구독을 다시 활성화](reactivate-your-subscription.md)하고 모든 고객 데이터를 그대로 유지하면서 Microsoft 365를 계속 사용할 수 있습니다. 다시 활성화하지 않으려면 [데이터를 백업](back-up-data-before-switching-plans.md)하세요.
 
 ### <a name="state-deleted"></a>상태: 삭제됨
   

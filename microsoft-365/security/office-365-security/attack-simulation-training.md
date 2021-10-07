@@ -6,18 +6,18 @@ manager: dansimp
 audience: ITPro
 ms.topic: how-to
 ms.prod: m365-security
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 관리자는 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지를 위한 Microsoft Defender의 공격 시뮬레이션 교육을 사용하여 피싱 방지를 교육하는 방법을 Office 365.
 ms.technology: mdo
-ms.openlocfilehash: 304baf82d2b951ada35dc6cb97add1ac85b27236
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: fec06f65c67f0ec4c470660689a1f3fc1d9bfbcd
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988718"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213508"
 ---
 # <a name="simulate-a-phishing-attack"></a>피싱 공격 시뮬레이션
 
@@ -59,6 +59,7 @@ Microsoft Defender for Office 365 공격 시뮬레이션 교육을 사용하면 
 
 페이로드에는 다음을 선택하는 데 도움이 되는 다양한 데이터 포인트가 있습니다.
 
+- **언어에는** 페이로드 콘텐츠의 언어가 표시됩니다. Microsoft의 페이로드 카탈로그(전역)는 10개 이상의 언어로 페이로드를 제공하 고 필터링할 수도 있습니다.
 - **클릭 속도는** 이 페이로드를 클릭한 사용자 수를 계산합니다.
 - **예측된** 손상률은 고객용 Microsoft Defender에서 페이로드에 대한 기록 데이터를 기반으로 이 페이로드에 의해 손상될 비율을 Office 365 예측합니다.
 - **실행된 시뮬레이션은** 이 페이로드가 다른 시뮬레이션에 사용된 횟수를 계산합니다.

@@ -4,17 +4,17 @@ description: 이 보고서에 제공된 정보 설명
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c809f341c8bcb1b1f028a8a06ed06a1beeb8c00a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 747cfe06ef69703a9baf7bd360935c364b3c7832
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215145"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213184"
 ---
 # <a name="windows-security-updates-report"></a>Windows 보안 업데이트 보고서
 

@@ -4,17 +4,17 @@ description: 업데이트 및 기타 변경 내용을 관리하는 데 사용되
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2d1f2325937488b95c40600f277835cca1329d1e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 26fb8cdd76694ffcffbc81d93322f7fb23f39612
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215375"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60212680"
 ---
 # <a name="device-deployment-groups"></a>디바이스 배포 그룹
 

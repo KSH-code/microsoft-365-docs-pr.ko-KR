@@ -10,7 +10,7 @@ audience: Admin
 ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.PermissionsHelp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
@@ -20,12 +20,12 @@ description: 보안 또는 규정 준수 기능을 관리하려면 Microsoft 365
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2123cad54bcb1a608447d53a08e61211052e3cca
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2dcab8a14df6266bea87b3ae876ed9bac8eea1d7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214422"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213472"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 규정 준수 센터에 대한 액세스 권한 부여
 
@@ -60,7 +60,7 @@ ms.locfileid: "59214422"
 
 4. 역할 그룹에 추가할 모든 사용자를 선택한 경우 **추가를 \>** 클릭한 다음 확인 을 **클릭합니다.**
 
-5. 작업을 마친 후 **저장** 을 클릭합니다.
+5. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>보안 & 준수 센터 PowerShell을 사용하여 다른 사용자에게 보안 및 준수 센터에 & 권한을 부여합니다.
 

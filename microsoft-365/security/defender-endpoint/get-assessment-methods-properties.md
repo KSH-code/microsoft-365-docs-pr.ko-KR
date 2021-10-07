@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: v-jweston
 author: jweston-1
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: d98b231d4d2c0b415a3c76aa18d23402f19e8b06
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a5870f91bd154ddf344c7914c44c96e438fc9f99
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191002"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211192"
 ---
 # <a name="export-assessment-methods-and-properties-per-device"></a>장치당 평가 방법 및 속성 내보내기
 
@@ -188,7 +188,7 @@ CvssScore|문자열|CVE의 CVSS 점수입니다.
 DeviceId|문자열|서비스에서 장치의 고유 식별자입니다.
 장치 이름|문자열|장치의 FQDN(FQDN)입니다.
 DiskPaths|Array[string]|제품이 장치에 설치되어 있는 디스크 증거입니다.
-EventTimestamp|문자열|이 델타 이벤트를 찾은 시간입니다.
+EventTimestamp|String|이 델타 이벤트를 찾은 시간입니다.
 ExploitabilityLevel|문자열|이 취약성의 악용성 수준(NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit)
 FirstSeenTimestamp|문자열|이 제품의 CVE가 디바이스에 처음 표시됩니다.
 Id|문자열|레코드의 고유 식별자입니다.  
@@ -202,7 +202,7 @@ RegistryPaths |Array[string]|제품이 장치에 설치되어 있는 레지스
 SoftwareName|문자열|소프트웨어 제품의 이름입니다.
 SoftwareVendor|문자열|소프트웨어 공급업체의 이름입니다.
 SoftwareVersion|문자열|소프트웨어 제품의 버전 번호입니다.
-상태|문자열|**새로 추가**   (장치에 도입된 새로운 취약성의 경우).  **고정**   (디바이스에 더 이상 존재하지 않는 취약성의 경우, 즉 수정된 것입니다). **업데이트되었습니다.**   (변경된 장치의 취약성에 대한 경우). 가능한 변경 내용은 CVSS 점수, 악용 가능성 수준, 심각도 수준, DiskPaths, RegistryPaths, RecommendedSecurityUpdate입니다.
+상태|String|**새로 추가**   (장치에 도입된 새로운 취약성의 경우).  **고정**   (디바이스에 더 이상 존재하지 않는 취약성의 경우, 즉 수정된 것입니다). **업데이트되었습니다.**   (변경된 장치의 취약성에 대한 경우). 가능한 변경 내용은 CVSS 점수, 악용 가능성 수준, 심각도 수준, DiskPaths, RegistryPaths, RecommendedSecurityUpdate입니다.
 VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.
 
 ## <a name="see-also"></a>참고 항목

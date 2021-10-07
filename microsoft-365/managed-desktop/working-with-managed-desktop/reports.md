@@ -4,17 +4,17 @@ description: 이 보고서에서 사용할 수 있는 다양한 Microsoft Manage
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5bb575efa9c7e18f20025d7840d3ddc86aefb330
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 1fb29ef7555bb3e7ff2024090b3b7cf953a2de10
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444286"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213172"
 ---
 # <a name="work-with-reports"></a>보고서 작업
 
@@ -31,7 +31,7 @@ Microsoft Managed Desktop 조직의 IT 관리자가 디바이스의 다양한 �
 - Windows 보안 업데이트보고서(미리 보기)는 Windows 보안 업데이트가 여러 장치에서 릴리스되는 Microsoft Managed Desktop 보여줍니다. [  ](security-updates-report.md)
 - 응용 **프로그램 사용 현황 보고서는** 여러 장치에서 일반적인 앱 사용에 대한 Microsoft Managed Desktop 제공합니다. 장치가 이 보고서에 데이터를 제공하려면 선택적 진단 데이터 수준으로 설정해야 합니다.
 
-## <a name="endpoint-analytics"></a>끝점 분석
+## <a name="endpoint-analytics"></a>엔드포인트 분석
 Microsoft Managed Desktop 끝점 [분석과 통합됩니다.](/mem/analytics/overview) 이러한 보고서는 조직이 작업하는 방식과 사용자에게 전달된 환경의 품질을 측정하는 데 필요한 정보를 제공합니다. 끝점 분석은 의 **보고서** [메뉴에 Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) 모든 보고서로 이동하여 관리되는 장치만 포함하려면 Microsoft Managed Desktop 필터 드롭다운을  선택한 다음 장치 Microsoft Managed Desktop **선택합니다.**
 
 등록 중에 Azure AD 조직("테넌트")에 대해 끝점 분석이 자동으로 구성되지 않은 경우 직접 구성할 수 있습니다. 자세한 내용은 Endpoint 분석 [포털의 온보드를 참조하세요.](/mem/analytics/enroll-intune#bkmk_onboard) 모든 장치를 등록할 수도 있으며, 장치만 포함하려는 Microsoft Managed Desktop 테스트,  첫 번째, 빠르기 및 광범위에 대한 최신 작업 공간 장치 그룹을 선택합니다. 이러한 보고서에는 다른 사용 권한이 필요할 수 있습니다. 자세한 내용은 [사용 권한을](/mem/analytics/overview#permissions) 참조하여 역할을 적절하게 할당할 수 있습니다.

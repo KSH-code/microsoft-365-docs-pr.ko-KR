@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -19,12 +19,12 @@ description: 관리자는 전자 메일 포털에서 사용할 수 있는 전자
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9f3861cc57276cec6dcd09ba843ede35ab9dd583
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: 33bc93dba189a571779f2cd36fe3b295ed3acc2a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011491"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211948"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>전자 메일 포털에서 전자 메일 Microsoft 365 Defender 보기
 
@@ -457,7 +457,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **정책 유형**:
   - **모두**
   - **맬웨어 방지**
-  - **안전 첨부 파일**
+  - **안전한 첨부 파일**
   - **피싱 방지**
   - **스팸 방지**
   - **메일 흐름 규칙(전송** 규칙)
@@ -517,7 +517,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **정책 유형**:
   - **모두**
   - **맬웨어 방지**
-  - **안전 첨부 파일**
+  - **안전한 첨부 파일**
   - **피싱 방지**
   - **스팸 방지**
   - **메일 흐름 규칙(전송** 규칙)
@@ -568,7 +568,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **정책 유형**:
   - **모두**
   - **맬웨어 방지**
-  - **안전 첨부 파일**
+  - **안전한 첨부 파일**
   - **피싱 방지**
   - **스팸 방지**
   - **메일 흐름 규칙(전송** 규칙)
@@ -621,7 +621,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **정책 유형**:
   - **모두**
   - **맬웨어 방지**
-  - **안전 첨부 파일**
+  - **안전한 첨부 파일**
   - **피싱 방지**
   - **스팸 방지**
   - **메일 흐름 규칙(전송** 규칙)
@@ -689,7 +689,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **정책 유형**:
   - **모두**
   - **맬웨어 방지**
-  - **안전 첨부 파일**
+  - **안전한 첨부 파일**
   - **피싱 방지**
   - **스팸 방지**
   - **메일 흐름 규칙(전송** 규칙)
@@ -762,7 +762,7 @@ Microsoft 365 Defender 포털에서 보고서를 보시고 보고서 전자  메
 - **정책 유형**:
   - **모두**
   - **맬웨어 방지**
-  - **안전 첨부 파일**
+  - **안전한 첨부 파일**
   - **피싱 방지**
   - **스팸 방지**
   - **메일 흐름 규칙(전송** 규칙)

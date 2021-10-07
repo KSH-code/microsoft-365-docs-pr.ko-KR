@@ -2,26 +2,24 @@
 title: 끝점용 Microsoft Defender를 통해 검사 예약 방법(Linux)
 description: 조직의 자산을 보다 잘 보호하기 위해 끝점용 Microsoft Defender(Linux)에 대한 자동 검사 시간을 예약하는 방법을 학습합니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 검사, 바이러스 백신, 끝점용 Microsoft Defender(linux)
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d1f6f004738dc50238b0941f7c7182400117fb50
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 89e4c7fa5462f65d11b36cad205e18ccbee8542b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187475"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211036"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-linux"></a>끝점용 Microsoft Defender를 통해 검사 예약(Linux)
 

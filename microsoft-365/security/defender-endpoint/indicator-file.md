@@ -3,26 +3,24 @@ title: 파일에 대한 지표 만들기
 ms.reviewer: ''
 description: 엔터티의 검색, 방지 및 제외를 정의하는 파일 해시에 대한 표시기를 만들 수 있습니다.
 keywords: 파일, 해시, 관리, 허용, 차단, 차단, 정리, 악성, 파일 해시, ip 주소, URL, 도메인
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 34c2e3a797dd463ad44fbc5d8576bc2b77b75f5c
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 493a76d430f508976ba261d9e78bb4b8087be15e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042653"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60211168"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 
@@ -52,7 +50,7 @@ ms.locfileid: "60042653"
 
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
 
-- Windows 10 버전 1703 이상, Windows Server 2016, 2019 및 Windows Server 2022가 있는 장치에서 지원됩니다.
+- Windows 11, Windows 10 버전 1703 이상, Windows Server 2016, 2019 및 Windows Server 2022가 있는 장치에서 지원됩니다.
 
 - 파일 차단을 시작하려면 먼저 파일 차단에서 "차단 또는 [허용"](advanced-features.md) 기능을 켜야 설정.
 
@@ -151,7 +149,7 @@ Cert 및 File IoC 정책 처리 충돌은 다음 순서를 따르게 됩니다.
 
 위협 및 취약성 관리 응용 프로그램 차단 기능은 적용을 위해 IoC 파일을 사용하며 위의 충돌 처리 순서를 따르게 됩니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 <br>
 

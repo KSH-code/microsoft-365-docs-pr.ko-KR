@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 라이선스가 25개 미만인 경우 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다.
 ms.date: 09/16/2021
-ms.openlocfilehash: 932cac44b9bf1b8632116d544cf4b33c0cb19a27
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: 942953f586a65659609660363593c0f6e86c8ca6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59481039"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204578"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -47,7 +47,7 @@ ms.locfileid: "59481039"
 
 ## <a name="steps-to-cancel-your-subscription"></a>구독을 취소하는 단계
 
-구독에서 사용하기 위해 고유한 도메인 이름을 추가한 경우 구독을 취소하기 전에 도메인을 제거해야 합니다. 자세한 내용은 [도메인 제거](../../admin/get-help-with-domains/remove-a-domain.md)를 참조하십시오.
+구독에서 사용하기 위해 고유한 도메인 이름을 추가한 경우 구독을 취소하기 전에 도메인을 제거해야 합니다. 자세한 내용은 [도메인 제거](../../admin/get-help-with-domains/remove-a-domain.md)를 참조하세요.
 
 ::: moniker range="o365-worldwide"
 
@@ -80,15 +80,15 @@ ms.locfileid: "59481039"
 
 ## <a name="what-happens-when-you-cancel-a-subscription"></a>구독을 취소하면 어떻게 되나요?
 
-기간이 종료되기 전에 구독을 취소하면 구독 상태가 바로 사용 안 함 상태로 전환됩니다. 대부분의 국가 및 지역에서 대부분의 구독은 사용 안 함 상태가 90일 동안 유지됩니다. 구독이 사용 안 함 상태로 전환되더라도 관리자는 여전히 조직의 데이터에 액세스하고 데이터를 백업할 수 있지만, 관리자는 구독 취소 전에 [데이터를 백업](back-up-data-before-switching-plans.md)하는 것이 좋습니다. 특히 해당 구독이 유일한 구독인 경우 더욱 그렇습니다. 관리자는 사용 안 함 상태에서 구독을 다시 활성화할 수도 있습니다.
+기간 만료 전에 구독을 취소하면 구독 상태가 비활성 상태로 바로 이동합니다. 대부분의 국가와 지역에서 대부분의 구독의 경우, 비활성 상태는 90일 동안 지속됩니다. 구독이 사용 불가능한 상태에서도 관리자는 조직의 데이터에 액세스하고 백업할 수 있지만, 특히 구독이 유일한 구독인 경우 구독을 취소하기 전에 [데이터를 백업](back-up-data-before-switching-plans.md)하는 것이 좋습니다. 또한 구독이 비활성화 상태인 동안 관리자는 구독을 다시 활성화할 수 있습니다.
 
 90일이 지나면 구독이 삭제된 상태로 이동합니다. 남겨진 모든 데이터는 90일 후에 삭제될 수 있지만, 취소 후 180일 내에 삭제됩니다. 구독이 삭제된 상태에 도달할 때까지 취소된 구독에서 결제 방법을 제거할 수 없습니다.
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>구독을 취소할 경우 관리자와 사용자에 대해 예상되는 결과는 다음과 같습니다.
   
-- **관리자 액세스** 관리자는 여전히 관리 센터에 로그인하고 액세스할 수 있으며, 필요에 따라 다른 구독을 구입할 수 있습니다. 전역 관리자 또는 청구 관리자는 90일 이내에 모든 데이터가 그대로 유지된 상태로 [구독을 다시 활성화](reactivate-your-subscription.md)할 수 있습니다.
+- **관리자 액세스:** 관리자는 여전히 관리 센터에 로그인하고 액세스할 수 있으며, 필요에 따라 다른 구독을 구입할 수 있습니다. 전역 또는 대금 청구 관리자는 90일 이내에 모든 데이터가 그대로 유지된 상태로 [구독을 다시 활성화](reactivate-your-subscription.md)할 수 있습니다.
 
-- **사용자 액세스** 사용자는 비즈니스용 OneDrive 등의 서비스를 사용하거나 고객 데이터(예: 팀 사이트의 전자 메일 또는 문서)에 액세스할 수 없습니다. Word 및 Excel 등의 Office 응용 프로그램은 읽기 전용 상태가 되어 기능 제한 모드로 실행되며 [사용 허가되지 않은 제품 알림](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)을 표시합니다.
+- **사용자 액세스** 사용자는 비즈니스용 OneDrive 등의 서비스를 사용하거나 고객 데이터(예: 팀 사이트의 전자 메일 또는 문서)에 액세스할 수 없습니다. Word 및 Excel 등의 Office 응용 프로그램은 읽기 전용 상태가 되어 기능 제한 모드로 실행되며 사용 [허가되지 않은 제품 알림](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)을 표시합니다.
 
 자세한 내용은 [구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.
 
@@ -99,7 +99,7 @@ ms.locfileid: "59481039"
 
 ### <a name="change-custom-domain-settings"></a>사용자 지정 도메인 설정 변경
 
-구독에 사용자 지정 도메인을 사용하는 경우 구독을 취소하기 전에 수행해야 할 몇 가지 추가 단계가 있습니다. 사용자 지정 도메인이 없는 경우 [데이터 저장](#save-your-data)으로 건너뜁니다.
+구독에 사용자 지정 도메인을 사용하는 경우 구독을 취소하기 전에 수행해야 할 몇 가지 추가 단계가 있습니다. 사용자 지정 도메인이 없는 경우 [데이터 저장](#save-your-data)으로 건너뛸 수 있습니다.
 
 #### <a name="change-your-domain-nameserver-records-if-needed"></a>도메인의 이름 서버 레코드를 변경합니다(필요한 경우).
 
@@ -131,7 +131,7 @@ NS 레코드를 변경하려면 [도메인 제거](../../admin/get-help-with-dom
 
 ### <a name="uninstall-office-optional"></a>Office 제거(선택 사항)
 
-구독을 취소하고 [사용자를 Microsoft 365가 포함된 다른 구독으로 이동](move-users-different-subscription.md)하지 않은 경우 Microsoft 365는 기능 제한 모드로 실행됩니다. 이 경우 사용자는 문서를 읽고 인쇄할 수만 있으며, Microsoft 365 응용 프로그램은 [사용 허가되지 않은 제품 알림](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)을 표시합니다. 혼동을 방지하기 위해 사용자가 자신의 컴퓨터에서 [Office를 제거](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)하도록 하세요.
+구독을 취소하고 Microsoft 365를 포함하는 [다른 구독으로 사용자를 이동](move-users-different-subscription.md)하지 않으면 Microsoft 365가 기능 제한 모드로 실행됩니다. 이 경우 사용자는 문서를 읽고 인쇄할 수만 있으며, Microsoft 365 응용 프로그램에 [사용 허가되지 않은 제품 알림](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)이 표시됩니다. 혼동을 방지하기 위해 사용자가 해당 컴퓨터에서 [Office를 제거](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)하도록 하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
