@@ -4,18 +4,18 @@ description: 필요한 끝점을 포함하여 장치 및 네트워크 설정 확
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: ba233cf780ad428a9ecfdb6c4a3466b4ec4282da
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 57739b657f3aa296b92b67c16b7b7c5c3628e8b9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215555"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152445"
 ---
 # <a name="downloadable-readiness-assessment-checker"></a>다운로드 가능한 준비 평가 검사
 

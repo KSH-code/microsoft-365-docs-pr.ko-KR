@@ -6,18 +6,18 @@ manager: laurawi
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010의 지원이 종료됩니다. 이 계획 로드맵을 사용하여 Exchange Online 또는 최신 버전의 Exchange Server 준비합니다.
-ms.openlocfilehash: 14875c793380c509c578d86d2d835596fa57cc73
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b1b4c1244d195f62261f0abc9cfaa4093beeb22f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218555"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150837"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Exchange 2010 지원 종료 로드맵
 
@@ -34,7 +34,7 @@ Exchange Server 2010년 **10월 13일** 지원이 종료됩니다. Exchange 2010
 - 서버가 보안 위반에 취약해질 수 있는 취약점에 대한 보안 수정
 - 표준 시간대 업데이트.
 
-2010 Exchange 설치는 이 날짜 이후에도 계속 실행됩니다. 그러나 위에 나열된 변경 내용 때문에 가능한 한 빨리 Exchange 마이그레이션하는 것이 좋습니다.
+이 날짜 이후에도 Exchange 2010의 설치는 계속 실행됩니다. 그러나 위에 나열된 변경 내용 때문에 가능한 한 빨리 Exchange 마이그레이션하는 것이 좋습니다.
 
 지원 종료에 대한 자세한 내용은 [Resources to help you upgrade from Office servers and clients을 참조하십시오.](upgrade-from-office-2010-servers-and-products.md)
 

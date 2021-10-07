@@ -2,7 +2,7 @@
 title: 내부자 위험 관리 시작
 description: 조직에서 내부자 위험 관리를 구성합니다.
 keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: ed064be83a93c913b13de62dbd14936c38accd31
-ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
+ms.openlocfilehash: aa8d90365dbd638e9c79326621c300b15a065614
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "60088208"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151065"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 

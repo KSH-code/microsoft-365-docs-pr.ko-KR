@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
 description: 이 문서에는 연결 광학에 대한 Microsoft 365 포함되어 있습니다.
-ms.openlocfilehash: e4020fc21492f3c261e10b8fad3c60c43c64bad24d12f1b1145773489f2fa3b0
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: c1ee14966f13ff50ff809ebbdf4c578bf949e956
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53854894"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150548"
 ---
 # <a name="microsoft-365-connectivity-optics"></a>Microsoft 365 연결 광학
 

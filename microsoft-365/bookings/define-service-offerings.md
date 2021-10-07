@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a1c391e-524f-48e0-bef8-185df3a9634b
 description: 서비스 이름, 설명, 위치, 기간 및 가격을 비롯한 서비스 제품 정보를 입력하기 위한 지침입니다. 서비스를 제공할 자격이 있는 직원에 태그를 지정할 수도 있습니다.
-ms.openlocfilehash: aad627a164b7f33b82bfa29db6224b8c5206b5e1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6b276d9ec2d943527f1a6d8ab310fc91406f216c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190599"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151557"
 ---
 # <a name="define-your-service-offerings-in-bookings"></a>Bookings에서 서비스 제품 정의
 

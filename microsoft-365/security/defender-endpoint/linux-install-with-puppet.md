@@ -3,27 +3,25 @@ title: Puppet을 통해 Linux에서 끝점용 Microsoft Defender 배포
 ms.reviewer: ''
 description: Puppet을 사용하여 Linux에서 끝점용 Microsoft Defender를 배포하는 방법에 대해 설명
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6029fbb2f00cde1346dc2661486ae494015a753f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4309155fa078b4a851838e528f4c47f2ef6569eb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212192"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152245"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Puppet을 통해 Linux에서 끝점용 Microsoft Defender 배포
 
@@ -81,7 +79,7 @@ ms.locfileid: "59212192"
 
 Puppet 서버에서 관리하는 장치에 Linux의 Endpoint용 Defender를 배포하기 위한 Puppet 매니페스트를 만들어야 합니다. 이 예제에서는 puppetlabs에서 사용할 수 있는 *apt* 및 *yumrepo* 모듈을 사용하며, 모듈이 Puppet 서버에 설치되어 있는 것으로 가정합니다.
 
-Puppet 설치의 *모듈 install_mdatp/파일* 및 install_mdatp/매니페스트에 대한 폴더를 만들 수 있습니다.  이 폴더는 일반적으로 Puppet 서버의 */etc/puppetlabs/code/environments/production/modules에* 있습니다. 위에서 mdatp_onboard.js파일 폴더에 install_mdatp *파일을 복사합니다.* *init.pp 만들기* 배포 지침이 포함된 파일:
+Puppet 설치의 *모듈 install_mdatp/파일* 및 install_mdatp/매니페스트에 대한 폴더를 만들 수 있습니다.  이 폴더는 일반적으로 Puppet 서버의 */etc/puppetlabs/code/environments/production/modules에* 있습니다. 위에서 만든 mdatp_onboard.json 파일을 install_mdatp *폴더에 복사합니다.* *init.pp 만들기* 배포 지침이 포함된 파일:
 
 ```bash
 pwd

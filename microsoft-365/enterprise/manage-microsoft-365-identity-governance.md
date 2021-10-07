@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: ID 거버넌스 기능을 사용하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9b353a83b79c2b66ca224914a7d33a4854919d4e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 35b2092412ddbeacd5d6962e110de1931b2d0f4b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221020"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150753"
 ---
 # <a name="manage-microsoft-365-identity-governance"></a>ID Microsoft 365 관리
 

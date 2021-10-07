@@ -9,23 +9,23 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 데이터 커넥터를 설정하여 조직의 HR(인사) 시스템에서 직원 데이터를 가져올 수 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책의 HR 데이터를 사용하여 조직에 내부 위협을 줄 수 있는 특정 사용자의 활동을 검색할 수 있습니다.
-ms.openlocfilehash: 243740f725db14fc9355c28f44771d4d2573fb31
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0c3a6966155483ba374211b7db55675010b0c55f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188148"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151089"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>HR 데이터를 가져올 커넥터 설정
 
 데이터 커넥터를 사용자 Microsoft 365 규정 준수 센터 작업 수준의 변경과 같은 이벤트와 관련된 HR(인사) 데이터를 가져오기 위해 데이터 커넥터를 설정할 수 있습니다. 그런 다음 내부자 위험 관리 [](insider-risk-management.md) 솔루션에서 HR 데이터를 사용하여 조직 내부 사용자에 의해 가능한 악의적인 활동이나 데이터 도용을 확인할 수 있는 위험 지표를 생성할 수 있습니다.
 
-내부자 위험 관리 정책이 위험 지표를 생성하는 데 사용할 수 있는 HR 데이터에 대한 커넥터를 설정하는는 HR 데이터가 포함된 CSV 파일을 만드는 것으로 구성됩니다. 인증에 사용되는 Azure Active Directory 앱을 만들고, Microsoft 365 규정 준수 센터에서 HR 데이터 커넥터를 만들고, CSV 파일의 HR 데이터를 Microsoft 클라우드로 수집하는 스크립트를 실행하여 내부자 위험 관리 솔루션에서 사용할 수 있도록 합니다.
+내부자 위험 관리 정책이 위험 지표를 생성하는 데 사용할 수 있는 HR 데이터에 대한 커넥터를 설정하는 방법은 HR 데이터가 포함된 CSV 파일을 만들고, Azure Active Directory 인증에 사용되는 앱을 만들고, Microsoft 365 규정 준수 센터에서 HR 데이터 커넥터를 만들고, 스크립트를 실행(예약된 기준)하는 것으로 구성됩니다. t는 CSV 파일의 HR 데이터를 Microsoft 클라우드로 수집하여 내부자 위험 관리 솔루션에서 사용할 수 있도록 합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -54,14 +54,14 @@ ms.locfileid: "59188148"
 |  정책 템플릿 |  HR 데이터 형식 |
 |:-----------------------------------------------|:---------------------------------------------------------------------|
 | 퇴사하는 직원의 데이터 도난                   | 직원 퇴사                                                 |
-| 일반적인 데이터 유출                              | 해당 없음                                                        |
-| 우선순위 사용자의 데이터 유출                    | 해당 없음                                                        |
+| 일반적인 데이터 유출                              | 해당 사항 없음                                                        |
+| 우선순위 사용자의 데이터 유출                    | 해당 사항 없음                                                        |
 | 불만을 품은 사용자의 데이터 유출                 | 작업 수준 변경, 성능 검토, 성능 개선 계획 |
-| 일반 보안 정책 위반              | 해당 없음                                                        |
+| 일반 보안 정책 위반              | 해당 사항 없음                                                        |
 | 퇴사하는 사용자의 보안 정책 위반   | 직원 퇴사                                                 |
-| 우선순위 사용자의 보안 정책 위반    | 해당 없음                                                        |
+| 우선순위 사용자의 보안 정책 위반    | 해당 사항 없음                                                        |
 | 불만을 품은 사용자의 보안 정책 위반 | 작업 수준 변경, 성능 검토, 성능 개선 계획 |
-| 전자 메일의 불쾌한 언어                     | 해당 없음                                                        |
+| 전자 메일의 불쾌한 언어                     | 해당 사항 없음                                                        |
 
 내부자 위험 관리를 위한 정책 템플릿에 대한 자세한 내용은 [Insider risk management policies 을 참조하세요.](insider-risk-management-policies.md#policy-templates)
 

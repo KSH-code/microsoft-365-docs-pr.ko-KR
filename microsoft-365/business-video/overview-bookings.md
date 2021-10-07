@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 고객에게 약속 예약을 제공하는 소규모 기업용 온라인 및 모바일 앱인 Microsoft Bookings에 대해 자세히 알아보십시오.
-ms.openlocfilehash: f797a18616f63aea873ea5c1060a54dffbe078ef
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 05a43a08001b38d086b86c24c4bfb2d84db5fc1e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188844"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151473"
 ---
 # <a name="overview-of-microsoft-bookings"></a>Microsoft Bookings 개요
 

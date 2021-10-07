@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 커넥터에서 커넥터를 설정하고 사용하여 Microsoft 365 규정 준수 센터 가져오고 보관하는 방법을 비즈니스용 Skype Microsoft 365.
-ms.openlocfilehash: 3f772bfa7b59eac7292cd869aee2688ac1a132b6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 39ce8dbe114e9c6a6d57e29701b375c279e446a9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184292"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60153321"
 ---
 # <a name="set-up-a-connector-to-archive-skype-for-business-data"></a>데이터 보관을 위한 비즈니스용 Skype 설정
 

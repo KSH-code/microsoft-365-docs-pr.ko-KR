@@ -4,17 +4,17 @@ description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0137bef845cace589247c35763bbf4253398cbc6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e45bb0064554e9a0e5b9266c37aff86f101f6d99
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215202"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150333"
 ---
 # <a name="device-inventory-report"></a>디바이스 인벤토리 보고서
 

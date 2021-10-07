@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid: MET150
 description: E4 구독에서 업그레이드하는 Office 365 대해 자세히 알아보습니다.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5741588fddcddbfca47b39cada2fed7dca56afd8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1b909a6a40359e5d3f73b79bfd28ddff1037ea53
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188331"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151281"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>E4 구독에서 Office 365 업그레이드
 
@@ -139,6 +139,6 @@ ms.locfileid: "59188331"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[다른 계획으로](upgrade-to-different-plan.md) 업그레이드(문서)\
+[다른 계획으로 업그레이드](upgrade-to-different-plan.md) (문서)\
 [구독 라이선스 구입 또는](../licenses/buy-licenses.md) 제거(문서)\
 [사용자에게 라이선스](../../admin/manage/assign-licenses-to-users.md) 할당(문서)

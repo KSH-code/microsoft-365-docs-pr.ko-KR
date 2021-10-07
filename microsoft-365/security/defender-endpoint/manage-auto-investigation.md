@@ -10,7 +10,7 @@ ms.sitesec: library
 ms.pagetype: security
 author: JoeDavies-MSFT
 ms.author: josephd
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: 2abe290fc5956b5f8df1931b2142a35df8b53817
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 22229d495e9b7694d07f25b60e854240f7c420c8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166975"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152037"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>자동화된 조사 후 수정 작업 검토
 
@@ -89,7 +89,7 @@ ms.locfileid: "59166975"
 
 |작업 원본|지원되는 작업|
 |---|---|
-|<ul><li>자동화된 조사</li><li>Windows Defender 바이러스 백신</li><li>수동 응답 작업</li></ul>|<ul><li>디바이스 격리</li><li>코드 실행 제한</li><li>파일 Quarantine a file</li><li>레지스트리 키 제거</li><li>서비스 중지</li><li>드라이버를 사용하지 않도록 설정</li><li>예약된 작업 제거</li></ul>|
+|<ul><li>자동화된 조사</li><li>Microsoft Defender 바이러스 백신</li><li>수동 응답 작업</li></ul>|<ul><li>디바이스 격리</li><li>코드 실행 제한</li><li>파일 Quarantine a file</li><li>레지스트리 키 제거</li><li>서비스 중지</li><li>드라이버를 사용하지 않도록 설정</li><li>예약된 작업 제거</li></ul>|
 |
 
 ### <a name="to-undo-multiple-actions-at-one-time"></a>한 번씩 여러 작업을 취소하는 경우

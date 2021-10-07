@@ -19,15 +19,15 @@ f1.keywords: NOCSH
 ms.custom:
 - admindeeplinkMAC
 - admindeeplinkTEAMS
-localization_priority: Priority
+ms.localizationpriority: high
 recommendations: false
 description: Microsoft 365에서 공유를 제한하거나 해제할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 500d2dd8aa1a657cd3a71cb87b30a2faf63bb4c4
-ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
+ms.openlocfilehash: 9d1784e4520b59aedc53a71110f1c7ab0e9d8914
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59479768"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60154161"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Microsoft 365에서의 공유 제한
 
@@ -48,7 +48,7 @@ ms.locfileid: "59479768"
 
 사용자가 공유 콘텐츠에 액세스하는 조건을 제한할 수도 있습니다. 자세한 내용은 이 문서의 뒷부분에 나오는 [조건부 액세스](#conditional-access)를 참조하세요.
 
-이 문서에 설명된 관리 컨트롤을 사용하여 조직의 공유를 제한할 수 있지만 Microsoft 365에서 제공되는 보안 및 규정 준수 기능을 사용하여 안전한 공유 환경을 만드는 것을 고려해 볼 것을 강력히 권장합니다. 자세한 내용은 [ Microsoft 365를 사용하여 SharePoint에서 파일 공동 작업](/sharepoint/deploy-file-collaboration) 및 [보안 격리를 사용하여 팀 구성](secure-teams-security-isolation.md)을 참조하세요.
+이 문서에 설명된 관리 컨트롤을 사용하여 조직의 공유를 제한할 수 있지만 Microsoft 365에서 제공되는 보안 및 규정 준수 기능을 사용하여 안전한 공유 환경을 만드는 것을 고려해 볼 것을 강력히 권장합니다. 자세한 내용은 [SharePoint에서 Microsoft 365로 파일 공동 작업](/sharepoint/deploy-file-collaboration) 및 [보안 격리로 팀 구성](secure-teams-security-isolation.md)을 참조하세요.
 
 조직에서 공유를 사용하는 방법을 이해하려면 [파일 및 폴더 공유에 대한 보고서를 실행하세요](/sharepoint/sharing-reports).
 
@@ -121,7 +121,7 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 
 ### <a name="block-access-to-a-site"></a>사이트에 대한 액세스 차단
 
-사이트에 대한 액세스를 차단하거나 사이트의 잠금 상태를 변경하여 사이트를 읽기 전용으로 설정할 수 있습니다. 자세한 내용은 [사이트 잠금 및 잠금 해제](/sharepoint/manage-lock-status)를 참조하세요.
+사이트의 잠금 상태를 변경하여 사이트에 대한 액세스를 차단하거나 사이트를 읽기 전용으로 만들 수 있습니다. 자세한 내용은 [사이트 잠금 및 잠금 해제](/sharepoint/manage-lock-status)를 참조하세요.
 
 ### <a name="permissions-inheritance"></a>사용 권한 상속
 
@@ -212,7 +212,7 @@ Microsoft 365의 파일 및 폴더에 대한 액세스 권한이 있는 사용�
 
 ## <a name="conditional-access"></a>조건부 액세스
 
-Azure Active Directory 조건부 액세스에서는 네트워크 위치, 장치 상태, 로그인 위험 및 기타 요소를 기준으로 사용자와의 공유를 제한하거나 방지할 수 있는 옵션을 제공합니다. [조건부 액세스란?](/azure/active-directory/conditional-access/overview)을 참조하세요.
+Azure Active Directory 조건부 액세스에서는 네트워크 위치, 장치 상태, 로그인 위험 및 기타 요소를 기준으로 사용자와의 공유를 제한하거나 방지할 수 있는 옵션을 제공합니다. [조건부 액세스란 무엇입니까?](/azure/active-directory/conditional-access/overview)를 참조하세요.
 
 SharePoint에서는 관리되지 않는 장치와 네트워크 위치를 위해 Azure AD 조건부 액세스와 직접 통합을 제공합니다. 자세한 내용은 다음 참조 자료를 확인하세요.
 

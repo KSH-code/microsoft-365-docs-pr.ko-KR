@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,18 +22,18 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: 그룹 관리 방법에 대해 Microsoft 365 자세히 알아보아야 합니다.
-ms.openlocfilehash: 72bc47bb699e32f849f21ea4c5470a95d6228b68
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 28d8bae8aaed6d02fe082824c07afe03bdc0ce5a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221032"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150765"
 ---
 # <a name="manage-microsoft-365-groups"></a>Microsoft 365 그룹 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-구성에 Microsoft 365 여러 가지 방법으로 그룹 그룹을 관리할 수 있습니다. azure AD(Active Directory [도메인 서비스)](../admin/add-users/index.yml)관리 Microsoft 365 관리 센터, AD DS(Active Directory 도메인 [서비스)](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)또는 Azure Active Directory 관리 센터에서 사용자 계정을 관리할 수 있습니다. 
+구성에 Microsoft 365 여러 가지 방법으로 그룹 그룹을 관리할 수 있습니다. azure AD(Active Directory [도메인 서비스)](/admin)관리 Microsoft 365 관리 센터, AD DS(Active Directory 도메인 [서비스)](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)또는 Azure Active Directory 관리 센터에서 사용자 계정을 관리할 수 있습니다. 
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>그룹 관리 위치 및 방법 계획
 
@@ -43,7 +43,7 @@ ms.locfileid: "59221032"
 
 다음을 사용하여 그룹을 만들고 관리합니다.
 
-- [Microsoft 365 관리 센터](../admin/add-users/index.yml)
+- [Microsoft 365 관리 센터](/admin)
 - [PowerShell](maintain-group-membership-with-microsoft-365-powershell.md)
 - [Azure AD 관리 센터](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
     
@@ -53,7 +53,7 @@ AD DS 그룹은 AD DS의 Microsoft 365 동기화되어 있으므로 이러한 �
 
 AD DS 그룹과는 별개이지만 AD DS의 사용자 및 그룹을 포함할 수 있는 Azure AD 그룹을 만들고 관리할 수도 있습니다. 이 경우 다음을 사용할 수 있습니다.
 
-- [Microsoft 365 관리 센터](../admin/add-users/index.yml)
+- [Microsoft 365 관리 센터](/admin)
 - [PowerShell](maintain-group-membership-with-microsoft-365-powershell.md)
 - [Azure AD 관리 센터](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 

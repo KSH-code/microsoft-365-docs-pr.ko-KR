@@ -3,26 +3,24 @@ title: IP 및 URL/도메인에 대한 지표 만들기
 ms.reviewer: ''
 description: 엔터티의 검색, 방지 및 제외를 정의하는 IP 및 URL/도메인에 대한 표시기를 만들 수 있습니다.
 keywords: ip, url, domain, manage, allowed, blocked, clean, malicious, file hash, ip address, urls, domain
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0b28d4088b8475794989d777bf58ccc7550b3f7c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0aaeb4a290c43b8fc725fe806014acfe61a939e8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187507"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150030"
 ---
 # <a name="create-indicators-for-ips-and-urlsdomains"></a>IP 및 URL/도메인에 대한 지표 만들기
 
@@ -52,7 +50,7 @@ IPS, URL 또는 도메인에 대한 표시기를 만들기 전에 다음의 선�
 
 - URL/IP 허용 및 차단은 차단 모드에서 사용하도록 설정하기 위해 끝점 구성 요소 네트워크 보호에 대한 Defender를 사용합니다. 네트워크 보호 및 구성 지침에 대한 자세한 내용은 네트워크 보호 사용 [을 참조하세요.](enable-network-protection.md)
 - 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다.
-- 버전 1709 Windows 10 컴퓨터의 경우 지원됩니다.
+- Windows 10 버전 1709 이상 또는 Windows 11에 있는 컴퓨터에서 지원됩니다.
 - 고급 **기능의** 끝점에서 사용자 지정 **Microsoft 365 Defender > 설정 > 표시기가 > 확인합니다.** 자세한 내용은 고급 기능을 [참조하세요.](advanced-features.md)
 - iOS의 지표 지원은 사용자 지정 표시기 [구성을 참조합니다.](/microsoft-365/security/defender-endpoint/ios-configure-features#configure-custom-indicators)
 

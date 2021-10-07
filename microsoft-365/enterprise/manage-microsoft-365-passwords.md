@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,18 +22,18 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: 사용자 계정 암호를 관리하는 Microsoft 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 85d3c42a7aca977472e44fce63af3968fc8e9705
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6a0d4298f3d6c46ab067795bccf01123605ce1aa
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221011"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150741"
 ---
 # <a name="manage-microsoft-365-user-account-passwords"></a>사용자 Microsoft 365 암호 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-ID 구성에 Microsoft 365 여러 가지 방법으로 사용자 계정 암호를 관리할 수 있습니다. AD [DS(Active](../admin/add-users/index.yml)Directory 도메인 서비스) 또는 Microsoft 365 관리 센터(Azure AD) 관리 센터에서 사용자 계정을 Azure Active Directory 있습니다.
+ID 구성에 Microsoft 365 여러 가지 방법으로 사용자 계정 암호를 관리할 수 있습니다. AD [DS(Active](/admin)Directory 도메인 서비스) 또는 Microsoft 365 관리 센터(Azure AD) 관리 센터에서 사용자 계정을 Azure Active Directory 있습니다.
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-user-account-passwords"></a>사용자 계정 암호를 관리하는 위치 및 방법 계획
 
@@ -43,7 +43,7 @@ ID 구성에 Microsoft 365 여러 가지 방법으로 사용자 계정 암호를
 
 다음에서 사용자 계정 암호를 관리합니다.
 
-- [Microsoft 365 관리 센터](../admin/add-users/index.yml)
+- [Microsoft 365 관리 센터](/admin)
 - Azure AD 관리 센터
     
 ### <a name="hybrid"></a>하이브리드

@@ -2,26 +2,24 @@
 title: 끝점용 Microsoft Defender에 장치 온보딩
 description: 끝점용 Microsoft Defender에 Intune 관리 장치의 온보딩을 추적하고 온보딩 비율을 높입니다.
 keywords: 온보드, Intune 관리, 끝점용 Microsoft Defender, Microsoft Defender, Windows Defender, 구성 관리
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: lomayor
 author: lomayor
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8c296ab7f5f01c62b7342d2027ab90a894e1e55c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 620a04fa7426ea349cbf0311ff1817faedca8b93
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221680"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152433"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 장치 온보딩
 
@@ -42,18 +40,18 @@ ms.locfileid: "59221680"
 
 ## <a name="discover-and-track-unprotected-devices"></a>보호되지 않는 장치 검색 및 추적
 
-**온보딩** 카드는 실제로 끝점용 Defender에 온보딩된 Windows 10 장치 수를 Intune 관리 Windows 10 비교하여 온보딩 속도에 대한 간략한 개요를 제공합니다.
+**온보딩** 카드는 실제로 Endpoint용 Defender에 온보딩된 Windows 장치 수를 Intune 관리 Windows 비교하여 온보딩 속도에 대한 간략한 개요를 제공합니다.
 
 ![장치 구성 관리 온보더링 카드.](images/secconmgmt_onboarding_card.png)
 
-*Intune에서 관리하는 총 장치 수와 비교한 온보더 장치를 보여 Windows 10 카드*
+*Intune 관리 장치의 총 수와 비교하여 온보더된 Windows 카드*
 
 > [!NOTE]
 > Intune 프로필을 사용하지 않는 보안 센터 구성 관리자, 온보딩 스크립트 또는 기타 온보딩 방법을 사용한 경우 데이터 불일치가 발생할 수 있습니다. 이러한 불일치 문제를 해결하려면 끝점 온보딩용 Defender에 대한 해당 Intune 구성 프로필을 만들고 해당 프로필을 장치에 할당합니다.
 
 ## <a name="onboard-more-devices-with-intune-profiles"></a>Intune 프로필을 사용하여 더 많은 장치 온보드
 
-Endpoint용 Defender는 디바이스를 온보딩하기 위한 몇 가지 [편리한 Windows 10 있습니다.](onboard-configure.md) 그러나 Intune 관리 장치의 경우 Intune 프로필을 활용하여 Endpoint용 Defender 센서를 편리하게 배포하여 디바이스를 선택해 효과적으로 이러한 장치를 서비스에 온보딩할 수 있습니다.
+Endpoint용 Defender는 디바이스를 온보딩하기 위한 몇 가지 [편리한 Windows 있습니다.](onboard-configure.md) 그러나 Intune 관리 장치의 경우 Intune 프로필을 활용하여 Endpoint용 Defender 센서를 편리하게 배포하여 디바이스를 선택해 효과적으로 이러한 장치를 서비스에 온보딩할 수 있습니다.
 
 **온보더링 카드에서** 더 많은 디바이스 온보더를 **선택하여** Intune에서 프로필을 만들고 할당합니다. 이 링크를 통해 Intune의 장치 준수 페이지로 이동하여 온보더링 상태를 비슷한 개요로 제공합니다.
 

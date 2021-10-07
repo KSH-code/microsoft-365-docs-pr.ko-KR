@@ -7,19 +7,19 @@ author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 인사이트를 사용하여 보고를 통해 조직의 전자 메일 보낸 사람이 SMTP AUTH(인증된 SM & TP AUTH)를 사용하여 전자 메일 메시지를 보내는지 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 950661664479e38b8c9094c52908ee23ba34e66c
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: 30e3ff41068b80ad7c308fcb8163cb2748118e11
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988766"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60154425"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 SMTP & 인사이트 및 보고
 

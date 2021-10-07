@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: medium
 description: Microsoft SharePoint Syntex의 구문 목록, 정규식 및 근접 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: 99b3160e29a4c81a50d152187863d1dfb0cfa405
-ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
-ms.translationtype: HT
+ms.openlocfilehash: 4f155b4a7e6aef9c12b97f56e414de9fcda88536
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "60088016"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152829"
 ---
 # <a name="explanation-types-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex의 설명 유형
 

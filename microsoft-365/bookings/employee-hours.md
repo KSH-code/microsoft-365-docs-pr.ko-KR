@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0968717e-b61f-4b06-987c-6c1464541782
 description: Microsoft Bookings에서 직원의 근무 시간 및 가용성을 설정할 수 있습니다.
-ms.openlocfilehash: 854110217f31b69d54783484aa1800332763af3e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ef283043ecccc959d8ee42da661770a7f95337fe
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186516"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151533"
 ---
 # <a name="employee-working-hours-in-microsoft-bookings"></a>Microsoft Bookings의 직원 작업 시간
 

@@ -8,7 +8,7 @@ manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
 description: Microsoft 365 Defender 및 해당 보안 신호 원본을 사용하여 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호합니다.
-ms.openlocfilehash: 09b2e7930d6fbe0295dcf8343a559a19b680f547
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: c290d8d0c614f282cbacf4829da039dd14e336db
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59481099"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60149553"
 ---
 # <a name="step-2-deploy-attack-detection-and-response"></a>2단계. 공격 탐지 및 대응 배포
 

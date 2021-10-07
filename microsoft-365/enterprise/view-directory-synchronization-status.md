@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ search.appverid:
 - MED150
 ms.assetid: 18be3b98-34ae-47be-9337-ab6c3fb372ac
 description: 이 문서에서는 디렉터리 동기화의 상태를 검사하는 방법을 Office 365.
-ms.openlocfilehash: 0fddffc667e4fc23b2c7663e70fb5e60c49814a2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0cc5b5244c5809d3f1b13b15b200bd8cea585c7c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210412"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150525"
 ---
 # <a name="view-directory-synchronization-status-in-microsoft-365"></a>디렉터리 동기화 상태는 Microsoft 365
 

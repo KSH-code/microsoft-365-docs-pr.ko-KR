@@ -9,19 +9,19 @@ ms.date: 6/29/2018
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - BCS160
 - MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드하고, Microsoft가 고객 데이터를 안전하게 유지하는 방법을 찾고, 타사 감사를 사용할 때 ISO, HIPAA, FINRA 및 FedRAMP를 준수하는 방법을 Office 365.
-ms.openlocfilehash: a6e6de646df2048d880ce099a90c793d11aaff89
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: df0cf99a3cfba0c6f5358fb48c45cfd3da62799e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216465"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150993"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 및 준수 센터의 서비스 보증
 

@@ -8,7 +8,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+ms.localizationpriority: ''
 search.appverid:
 - MET150
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Azure 디스크 암호화와 같은 Azure에서 사용할 수 있는 암호화에 대해 자세히 알아보기
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee4eb2bec814d7e06d418518bb9be272f1bd5aaa
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f3672800b6f90277195a63b640911ea1ed24cac9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216742"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152950"
 ---
 # <a name="encryption-in-azure"></a>Azure의 암호화
 

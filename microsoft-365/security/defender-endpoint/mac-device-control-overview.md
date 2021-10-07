@@ -2,15 +2,13 @@
 title: macOS용 장치 제어
 description: MAC에서 끝점용 Microsoft Defender를 구성하여 USB 장치와 같은 이동식 저장소의 위협을 줄이는 방법을 알아보십시오.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 장치, 제어, usb, 이동식, 미디어
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: security
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 612c9a717ae10c97c91a183418e36fa87e2f7ba8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1be1598f1ff960a90e65de13ead5d1fd79b63173
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215015"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150112"
 ---
 # <a name="device-control-for-macos"></a>macOS용 장치 제어
 
@@ -86,7 +84,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 |---|---|
 |**도메인**|`com.microsoft.wdav`|
 |**키**|navigationTarget|
-|**Data type**|문자열|
+|**Data type**|String|
 |**Comments**|정의되지 않은 경우 제품이 수행한 작업을 설명하는 일반 페이지를 표시하는 기본 URL을 사용합니다.|
 |
 

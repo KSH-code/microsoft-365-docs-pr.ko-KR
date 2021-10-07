@@ -4,17 +4,17 @@ description: 구성 가능한 설정에 대한 Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, 문서, 설정, 구성 가능한 설정
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bf8672ee6c3332ea6f8522f5086d72e58d1b9048
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a83181d6b0fa33b0eb432627530099b316ebb617
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191029"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150357"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정-Microsoft 관리형 데스크톱
 
@@ -43,7 +43,7 @@ Microsoft Managed Desktop 관리되는 모든 장치에 적용되는 설정 및 
 
 각 설정 범주를 사용자 지정하고 자체적으로 배포할 수 있습니다. 여러 설정 범주에 변경 내용을 동시에 배포할 수 있습니다. 그러나 한 번의 변경 내용만 설정 범주에 배포할 수 있습니다.
 
-예시:
+예:
 - 데스크톱 배경 그림 및 신뢰할 수 있는 사이트에 변경 내용을 각각 자체 배포로 동시에 배포할 수 있습니다. 
 - 두 개의 배포를 브라우저 시작 페이지에 동시에 배포할 수 없습니다. 가장 최근 배포는 아직 진행 중인 이전 배포를 중지합니다.
 

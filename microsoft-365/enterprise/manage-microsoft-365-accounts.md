@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,16 +23,16 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: 사용자 계정을 관리하는 Microsoft 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 7a21ed12101f3aaa8323c62d2c15ae30860cd041
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7f75c74984ce58a8b403f01948075b185047f260
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221035"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150777"
 ---
 # <a name="manage-microsoft-365-user-accounts"></a>사용자 Microsoft 365 관리
 
-구성에 Microsoft 365 여러 가지 방법으로 사용자 계정을 관리할 수 있습니다. AD [DS(Active](../admin/add-users/index.yml)Directory 도메인 서비스) 또는 Azure AD(Active Directory 도메인 서비스) Microsoft 365 관리 센터 또는 Azure AD(Active Directory 도메인 서비스) Azure Active Directory 사용자 계정을 관리할 수 있습니다. [](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md) 
+구성에 Microsoft 365 여러 가지 방법으로 사용자 계정을 관리할 수 있습니다. AD [DS(Active](/admin)Directory 도메인 서비스) 또는 Azure AD(Active Directory 도메인 서비스) Microsoft 365 관리 센터 또는 Azure AD(Active Directory 도메인 서비스) Azure Active Directory 사용자 계정을 관리할 수 있습니다. [](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md) 
 
 사용자 계정을 구입하는 Microsoft 365 즉시 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a> Microsoft 365 관리 센터 및 PowerShell을 사용하여 계정을 관리할 수 있습니다. 클라우드 ID를 관리할 때 조직의 모든 사용자에게 별도의 사용자 계정 이름과 암호가 있습니다. 사내 인프라와 통합하고 사용자 계정이 Microsoft 365 동기화하려는 경우 Azure AD 커넥트 사용하여 SSO(Single Sign-On) 기능에 대한 ID 및 암호 동기화를 제공할 수 있습니다.
   
@@ -78,6 +78,6 @@ ms.locfileid: "59221035"
   
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 관리 센터](../admin/add-users/index.yml)
+[Microsoft 365 관리 센터](/admin)
 
 [PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)

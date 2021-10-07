@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ search.appverid:
 - BCS160
 ms.assetid: cb2250e3-451e-416f-bf4e-363549652c2a
 description: '**Azure AD에서** 통합 앱을 등록하고 Office 365 관리하여 Azure AD DC 관리자 또는 전역 관리자 수준에서 앱 권한 부여를 허용하는 **방법을** 설명합니다.'
-ms.openlocfilehash: ccf1e16e7e0307499e515eb3691c865d49801412
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 78092ae817708f0af19eaa85648c35a9c413d3fb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215982"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60150801"
 ---
 # <a name="integrated-apps-and-azure-ad-for-microsoft-365-administrators"></a>관리자를 위한 통합 Microsoft 365 Azure AD
 
@@ -36,7 +36,7 @@ ms.locfileid: "59215982"
 
 Azure AD에서 앱 앱을 관리하기 전에 Microsoft 365 작업을 수행해야 합니다.
   
-|필수 구성 요소|설명|
+|전제 조건|설명|
 |:-----|:-----|
 |[무료 Azure AD 구독 사용](../compliance/use-your-free-azure-ad-subscription-in-office-365.md) <br/> |모든 유료 구독은 Microsoft 365 Azure AD에 대한 무료 구독과 함께 제공됩니다. Azure AD를 사용하여 앱을 관리하고 사용자 및 그룹 계정을 만들고 관리할 수 있습니다. Azure AD를 사용하려면 에서 Azure Portal로 이동하여 사용자 계정으로 [https://portal.azure.com](https://portal.azure.com) Microsoft 365 로그인합니다.  <br/> |
 |[앱에 대한 사용자 동의 관리](../admin/misc/user-consent.md) <br/> |타사 앱이 사용자 액세스 및 Azure AD에서 앱을 등록할 Microsoft 365 수 있도록 앱에 대한 사용자 동의를 관리해야 합니다. 예를 들어 사용자가 타사 앱을 사용하는 경우 해당 앱은 사용자의 일정에 액세스하고 OneDrive 폴더에 있는 파일을 편집하는 권한을 요청할 수 있습니다.  <br/> |

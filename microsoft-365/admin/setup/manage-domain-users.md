@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_TOC
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 도메인 제어 사용자를 비즈니스용 Microsoft 365 동기화합니다.
-ms.openlocfilehash: 09a625bb882cfe654a92294cc35d62c3ad9e38b6
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: 9b15179a48905e6ab9f8e6a44ebd7a0d62dc2bea
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786241"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60153909"
 ---
 # <a name="synchronize-domain-users-to-microsoft-365"></a>도메인 사용자를 Microsoft 365와 동기화
 

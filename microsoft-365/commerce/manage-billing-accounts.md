@@ -9,7 +9,7 @@ ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 청구 계정과 이러한 계정이 계정 설정, 송장, 결제 방법 및 구매를 관리하는 데 사용되는 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 551165a9ddcde03f96b6a2d03e5b1f5cd6e93eec
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 07997e8001ee753de2693b62d693e3dc2e2261c9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190279"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151329"
 ---
 # <a name="understand-billing-accounts"></a>청구 계정 이해
 

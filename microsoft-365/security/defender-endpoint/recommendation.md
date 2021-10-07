@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: dolmont
 author: DulceMontemayor
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d3c29e5112a2cf68452bcb830681dac853eb8e1b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e938eb9a743b6e63a2836d71c96692e1e7d43f66
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220327"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152061"
 ---
 # <a name="recommendation-resource-type"></a>권장 리소스 유형
 
@@ -61,16 +61,16 @@ ms.locfileid: "59220327"
 
 |속성|유형|설명|
 |---|---|---|
-|id|문자열|권장 ID|
-|productName|문자열|관련 소프트웨어 이름|
-|recommendationName|문자열|권장 이름|
+|id|String|권장 ID|
+|productName|String|관련 소프트웨어 이름|
+|recommendationName|String|권장 이름|
 |약점|Long|검색된 취약성 수|
 |공급업체|String|관련 공급업체 이름|
 |recommendedVersion|String|권장 버전|
-|recommendedProgram|문자열|권장 프로그램|
+|recommendedProgram|String|권장 프로그램|
 |recommendedVendor|String|권장 공급업체|
-|recommendationCategory|문자열|권장 범주. 가능한 값은 "계정", "응용 프로그램", "네트워크", "OS", "SecurityControls"입니다.|
-|subCategory|문자열|권장 하위 범주|
+|recommendationCategory|String|권장 범주. 가능한 값은 "계정", "응용 프로그램", "네트워크", "OS", "SecurityControls"입니다.|
+|subCategory|String|권장 하위 범주|
 |severityScore|실수|구성이 조직의 장치에 대한 Microsoft 보안 점수에 미치는 잠재적인 영향(1-10)|
 |publicExploit|부울|공용 악용 사용 가능|
 |activeAlert|부울|활성 경고가 이 권장과 연결됩니다.|

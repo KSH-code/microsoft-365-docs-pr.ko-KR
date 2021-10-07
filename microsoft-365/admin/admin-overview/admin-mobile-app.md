@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 앱 Microsoft 365 관리 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: fdd379c6652492b2a0695b6c67b9cd46e2bdb184
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 404b722861de6885491c95843a7e5058752503cc
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773442"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60154101"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>관리자 Microsoft 365 앱
 
@@ -51,7 +52,7 @@ ms.locfileid: "59773442"
 > [!IMPORTANT]
 > iOS 또는 Android에서 관리 모바일 앱을 사용하는 데 문제가 있는 경우 에 전자 [메일을](mailto:feedback365@microsoft.com) 보내 feedback365@microsoft.com 알려주세요.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 관리자 모바일 앱을 사용하려면 Microsoft 365 조직의 관리자 되어야 합니다.
   
@@ -65,7 +66,7 @@ ms.locfileid: "59773442"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c]
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 다음은 질문과 대답입니다.
   

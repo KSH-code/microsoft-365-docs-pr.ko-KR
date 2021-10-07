@@ -8,17 +8,17 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery 및 In-Place 보류(및 해당 PowerShell cmdlet)Exchange Online 2020년 상반기에는 사용 중지됩니다. 동일한 Search-Mailbox 기간 내에 Advanced eDiscovery v1.0도 사용 중지됩니다.
-ms.openlocfilehash: 16a43122ce16a134a6068f78dadea02ac8605625
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 18509476234494633b425765de07dfc163eaabc9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188132"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152997"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
@@ -67,7 +67,7 @@ Microsoft 365 규정 준수 센터 eDiscovery의 새로운 기능과 향상된 �
 
 2017년 7월 1일의 원래 공지에 따라 EAC(Exchange 관리 센터)의 In-Place eDiscovery & 보류 기능이 사용 중지됩니다. EAC의 In-Place eDiscovery & 보류 페이지에서 콘텐츠를 검색, 보류 및 내보낼 수 Exchange Online. In-Place eDiscovery를 사용하면 검색 결과를 검색 사서함에 복사하여 사용자 또는 다른 eDiscovery 관리자가 콘텐츠를 검토하고 법률, 규정 및 공용 요청에 사용할 수 있도록 할 수 있습니다.
 
-검색 결과를 검색 사서함에 복사하는 기능을 제외한 이러한 모든 기능을 이제 콘텐츠 검색에서 사용할 수 있기 때문에 Microsoft 365 규정 준수 센터(향상된 기능, 안정성 및 다양한 Microsoft 365 서비스에 대한 지원으로) eDiscovery 및 Advanced eDiscovery 도구를 사용할 수 있기 때문에 이러한 도구를 최대한 빨리 사용하는 것이 좋습니다. [](./microsoft-365-compliance-center.md) 이러한 다른 eDiscovery 도구로의 전환을 지원하기 위해 아래 표에는 eDiscovery 및 보류를 사용하는 대신 사용할 In-Place In-Place 나열되어 있습니다.
+검색 결과를 검색 사서함에 복사하는 기능을 제외한 이러한 모든 기능을 이제 콘텐츠 검색에서 사용할 수 있기 때문에 Microsoft 365 규정 준수 센터의 eDiscovery 및 Advanced eDiscovery 도구(향상된 기능, 안정성 및 광범위한 Microsoft 365 서비스에 대한 지원)를 사용하는 것이 좋습니다. [](./microsoft-365-compliance-center.md) 가능한 한 빨리 이러한 도구를 사용하게 됩니다. 이러한 다른 eDiscovery 도구로의 전환을 지원하기 위해 아래 표에는 eDiscovery 및 보류를 사용하는 대신 사용할 In-Place In-Place 나열되어 있습니다.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
 
@@ -110,7 +110,7 @@ Microsoft 365 규정 준수 센터 eDiscovery의 새로운 기능과 향상된 �
 <p>콘텐츠를 검색, 내보내기 및 보류하기 위한 안정성 향상</p>
 </li>
 <li>
-<p>Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Microsoft Teams, Yammer 그룹, Microsoft 365 그룹 및 Office 365 응용 프로그램에 저장된 기타 콘텐츠 검색</p></li></ul>
+<p>Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Microsoft Teams, Yammer 그룹, Microsoft 365 그룹 및 저장된 기타 콘텐츠에 대한 콘텐츠 검색 Office 365 응용 프로그램</p></li></ul>
 </td>
 </tr>
 <tr class="even">
@@ -351,7 +351,7 @@ Advanced eDiscovery v1.0(핵심 eDiscovery 사례에서 사용할 수 있는 Adv
 
 3. 다음으로 전환 **단추가 Advanced eDiscovery** 클릭하면 사용 중지되는 1.0 버전의 Advanced eDiscovery 표시됩니다. Core eDiscovery에서 사례를 만들고 관리하는 능력은 영향을 받지 않습니다. v1.0으로 전환을 클릭하여 Advanced eDiscovery v1.0에서 사례 데이터를 추가하고 분석하는 Advanced eDiscovery **기능만** 사용 중지됩니다.
 
-Microsoft 365(Advanced eDiscovery *v2.0)의* 새로운 Advanced eDiscovery 솔루션은 원래 솔루션의 모든 기능을 제공하지만 이제 다른 Microsoft 365 서비스에서 콘텐츠를 식별하고 해당 콘텐츠를 수집한 다음 검토자는 빠른 검색 쿼리, 태그 지정 및 분석 기능을 활용하여 관련 문서를 선회하는 데 도움이 되는 검토 집합에 추가하는 관리자 기반 접근 방식을 포함합니다. Advanced eDiscovery Microsoft 파일 형식과 비 Microsoft 파일 형식 모두에 대한 향상된 처리 및 기본 [](./supported-filetypes-ediscovery20.md) 뷰어가 포함되어 있습니다. 여기에 파일 형식의 전체 목록이 있으며 지원되는 메타데이터 필드는 다음과 [같습니다.](./document-metadata-fields-in-advanced-ediscovery.md) 또한 새로운 Advanced eDiscovery 솔루션에서는 다른 서비스의 콘텐츠에 보류를 적용하고, 보류를 사용자에게 알리고, 보유자 응답을 추적할 수 있는 강력한 보유 관리 기능을 Advanced eDiscovery 있습니다.
+Microsoft 365의 새로운 Advanced eDiscovery 솔루션(Advanced eDiscovery *v2.0)은* 원래 솔루션의 모든 기능을 제공하지만 이제는 다른 Microsoft 365 서비스에서 콘텐츠를 식별하고, 해당 콘텐츠를 수집하는 관리자 기반 접근 방식을 포함합니다. 그런 다음 검토자는 빠른 검색 쿼리, 태그 지정 및 분석 기능을 활용하여 관련 문서를 선회할 수 있는 검토 집합에 추가합니다. Advanced eDiscovery Microsoft 파일 형식과 비 Microsoft 파일 형식 모두에 대한 향상된 처리 및 기본 [](./supported-filetypes-ediscovery20.md) 뷰어가 포함되어 있습니다. 여기에 파일 형식의 전체 목록이 있으며 지원되는 메타데이터 필드는 다음과 [같습니다.](./document-metadata-fields-in-advanced-ediscovery.md) 또한 새로운 Advanced eDiscovery 솔루션에서는 다른 서비스의 콘텐츠에 보류를 적용하고, 보류를 사용자에게 알리고, 보유자 응답을 추적할 수 있는 강력한 보유 관리 기능을 Advanced eDiscovery 있습니다.
 
 Advanced eDiscovery v2.0에 액세스하려면 다음을 수행합니다.
 

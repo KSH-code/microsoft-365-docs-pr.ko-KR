@@ -11,7 +11,7 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 정책에 대한 경고 정의 및 관리부터 시작하십시오.
-ms.openlocfilehash: ad117eb0c5460b90c92c664f0c233b81d1882327
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 601442336cb6ba2a913f3c64eb8345030d0f8209
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59193129"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151101"
 ---
 # <a name="get-started-with-the-data-loss-prevention-alert-dashboard"></a>데이터 손실 방지 경고 대시보드 시작
 
@@ -52,7 +52,7 @@ Teams DLP를 사용할 수 있는 끝점 [DLP를](endpoint-dlp-learn-about.md) �
 - Microsoft 365 (E5)
 - Office 365 (E5)
 - E5(고급 규정 준수) 추가 기능
-- Microsoft 365 E5/A5 정보 보호 및 거버넌스
+- Microsoft 365 E5/A5 Information Protection 및 거버넌스
 - 마이크로소프트 365 E5/A5 규정 준수
 
 ### <a name="licensing-for-alert-configuration-options"></a>경고 구성 옵션에 대한 라이선싱

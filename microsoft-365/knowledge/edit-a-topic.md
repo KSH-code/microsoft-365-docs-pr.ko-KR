@@ -12,14 +12,14 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 ms.service: ''
-localization_priority: medium
+ms.localizationpriority: medium
 description: 기존 항목의 기존 항목을 편집하는 Microsoft Viva 방법을 참조하세요.
-ms.openlocfilehash: 9394ed96a340f902d5ef4fc3dd96eb58a81a9e42
-ms.sourcegitcommit: d1a93f25323a0e6ce3b898bf9dc57dcef27eda67
+ms.openlocfilehash: 80deb818124466a6d3fbcc1db4311193bb7778ae
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60126881"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152661"
 ---
 # <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목 편집 
 

@@ -8,18 +8,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4779a0c40cd8282d8e05fde84ae72827531810d9
-ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
+ms.openlocfilehash: fcfce563a177dd90e312da2da3bc578ec39b15b5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124269"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152049"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -52,7 +52,7 @@ ms.locfileid: "60124269"
 - Microsoft 365 A5(M365 A5)
 - Microsoft 365 E5 Security
 - Microsoft 365 A5 보안
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
 
 > [!NOTE]
 > 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다.
@@ -67,7 +67,7 @@ ms.locfileid: "60124269"
 > [!NOTE]
 > 고객은 다음 사용자 라이선스 중 하나 이상에 대해 최소 50개 이상의 라이선스를 합한 경우 서버용 끝점용 Microsoft Defender에 대한 서버 라이선스(대상 서버당 OSE(운영 체제 환경))를 취득할 수 있습니다.
 >
-> - 끝점용 Microsoft Defender
+> - 엔드포인트용 Microsoft Defender
 > - Windows E5/A5
 > - Microsoft 365 E5/A5
 > - E5/A5 보안 Microsoft 365

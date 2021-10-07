@@ -8,7 +8,7 @@ manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 monikerRange: o365-germany
 ms.collection:
 - M365-subscription-management
@@ -20,12 +20,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: 독일의 Office 365 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 9aa7fc76be39f9ea0aee373ebbecb72387f47610
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 0496eae485f3be8298f0ab77d066a23fa87f9389
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773958"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60154089"
 ---
 # <a name="learn-about-office-365-germany"></a>독일 Office 365에 대해 알아보기
 

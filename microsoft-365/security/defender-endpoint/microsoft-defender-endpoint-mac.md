@@ -3,15 +3,13 @@ title: Mac의 끝점용 Microsoft Defender
 ms.reviewer: ''
 description: Mac에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamf, macos, big sur, catalina, mojave, mac용 mde
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -19,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 827ea407d51f657914161056d97be648b3282190
-ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
+ms.openlocfilehash: 4fe0d1b073a2efb14b8b771a2786889cbaa8e892
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124772"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60149889"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -54,7 +52,7 @@ ms.locfileid: "60124772"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-mac"></a>Mac에 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>전제 조건
 
 - 끝점용 Defender 구독 및 Microsoft 365 Defender 포털 액세스
 - macOS 및 BASH 스크립팅의 초보자 수준 환경
@@ -100,11 +98,15 @@ Mac의 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 �
 - Microsoft 365 A5(M365 A5)
 - Windows 10 Enterprise E5
 - Windows 11
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
 
 > [!NOTE]
 > 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다.
 > Microsoft Defender for Endpoint는 CSP(Microsoft Defender for Endpoint)에서 클라우드 솔루션 공급자 사용할 수 있습니다. CSP를 통해 구매한 경우 나열된 Microsoft 볼륨 라이선스 제품은 필요하지 않습니다.
+
+### <a name="configuring-exclusions"></a>제외 구성
+
+Microsoft Defender에 제외를 추가할 때 일반적인 제외 실수를 염두에 두는 [것이 Microsoft Defender 바이러스 백신](/microsoft-365/security/defender-endpoint/common-exclusion-mistakes-microsoft-defender-antivirus)
 
 ### <a name="network-connections"></a>네트워크 연결
 

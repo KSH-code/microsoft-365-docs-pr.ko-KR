@@ -9,18 +9,18 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 가져오기 도구 d를 사용하여 여러 보호자 및 관련 데이터 원본을 데이터 원본의 사례에 빠르게 Advanced eDiscovery.
-ms.openlocfilehash: ccb180766df47de39e3deb61faab60396c74bb9e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 97eb2337fb49863a19b8d55a6dd396e51f4ee8d2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166114"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151233"
 ---
 # <a name="import-custodians-to-an-advanced-ediscovery-case"></a>보시다시안을 사례로 Advanced eDiscovery 가져오기
 
@@ -87,7 +87,7 @@ custodian 가져오기 도구는 CSV 파일의 **Custodian contactEmail** 열에
 
 관리인이 유효성을 검사하고 사례에 추가하면, OneDrive 연결된 각 기본 사서함 및 OneDrive 계정이 추가됩니다.
 
-그러나 보호자에 연결된 다른 데이터 원본(예: SharePoint 사이트, Microsoft Teams, Microsoft 365 그룹 또는 Yammer 그룹)을 찾을 수 없는 경우 해당 데이터 원본이 보호자에 할당되지 않은 경우 유효성 검사되지 않은 값이 데이터  원본 탭의 보호자 옆에 있는  상태 열에 표시됩니다. 
+그러나 보호자에 연결된 다른 데이터 원본(예: SharePoint 사이트, Microsoft Teams, Microsoft 365 그룹 또는 Yammer 그룹)을 찾을 수 없는 경우 해당 데이터 원본이 보호자에 할당되지 않은 경우 유효성 검사되지 않은 값이 데이터  원본의 관리자 옆에 있는 상태  열에 표시됩니다.  tab.
 
 보호자에 대해 유효성이 검사된 데이터 원본을 추가하는 경우:
 

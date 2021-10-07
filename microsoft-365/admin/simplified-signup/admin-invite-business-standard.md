@@ -8,17 +8,18 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
-ms.collection: ''
+ms.localizationpriority: medium
+ms.collection:
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 description: 조직에 참가할 Microsoft 365 Business Standard 초대
-ms.openlocfilehash: e3fa00edd87f98dd67159e4fa6f7c9c3ba916876
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: f4170cee2e389665d59bd516b100143e62674281
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776623"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151797"
 ---
 # <a name="invite-users-to-microsoft-365-business-standard-admin"></a>사용자 초대를 Microsoft 365 Business Standard(관리자)
 
@@ -33,7 +34,7 @@ Microsoft 365 Business Standard 구독의 관리자는 동료 및 동료를 초�
 > [!IMPORTANT]
 > 비즈니스용 Microsoft 365에 등록하는 사용자(일반적으로 비즈니스 소유자)은 자동으로 조직의 기술 관리자가 됩니다. Microsoft 365 서비스 관리에 도움이 필요한 경우 다른 사용자를 관리자로 추가할 수 있습니다. 자세한 내용은 [관리자 추가](../../business-video/add-admin.md)를 확인하세요.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 이미 비즈니스용 등록을 마치고 [Microsoft 365 Business Standard](signup-business-standard.md) 표준 조직을 [설정해야 합니다.](../setup/setup-business-standard.md) 이러한 단계를 완료한 후 사용자에게 초대를 공유할 수 있습니다.
 
@@ -47,7 +48,7 @@ Microsoft 365 Business Standard 구독의 관리자는 동료 및 동료를 초�
 
 사용자와 함께 사용자와 함께 구독 공유에 대해 보낸 전자 메일 초대를 Microsoft 365 Business Standard 합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="i-shared-an-email-invite-but-the-user-didnt-receive-the-email"></a>전자 메일 초대를 공유했지만 사용자가 전자 메일을 받지 못했나요?
 

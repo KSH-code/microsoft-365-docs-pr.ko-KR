@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: MailItemsAccessed 사서함 감사 작업을 사용하여 손상된 사용자 계정에 대한 포렌식 조사를 수행합니다.
-ms.openlocfilehash: b0fac6e4ac5d6cc4bb20b6853cb67cf301c6295a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: eeb52058a9937b9ba59b53c7491ccf652cac5288
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186164"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152973"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>고급 감사를 사용하여 손상된 계정 조사
 
@@ -31,7 +31,7 @@ ms.locfileid: "59186164"
 
 ## <a name="the-mailitemsaccessed-mailbox-auditing-action"></a>MailItemsAccessed 사서함 감사 작업
 
-새 MailItemsAccessed 작업은 새로운 [고급 감사](advanced-audit.md) 기능의 일부입니다. [Exchange 사서함 감사](/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions)의 일부이며, Office 365 혹은 Microsoft 365 E5 라이선스가 부여된 사용자나 Microsoft 365 E5 준수 추가 기능 구독이 있는 조직에 기본적으로 활성화되어 있습니다.
+새로운 MailItemsAccessed 작업은 새로운 [고급 감사](advanced-audit.md) 기능의 일부입니다. [Exchange 사서함 감사](/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions)의 일부이며, Office 365 혹은 Microsoft 365 E5 라이선스가 부여된 사용자나 Microsoft 365 E5 Compliance 추가 기능 구독이 있는 조직에 기본적으로 활성화되어 있습니다.
 
 MailItemsAccessed 사서함 감사 작업은 POP, IMAP, MAPI, EWS, Exchange ActiveSync 및 REST와 같은 모든 메일 프로토콜을 포함합니다. 또한 *동기화* 및 *바인딩* 에 대한 두 가지 메일 액세스 유형을 다룹니다.
 

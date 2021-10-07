@@ -2,26 +2,24 @@
 title: 자동화 파일 업로드 관리
 description: 콘텐츠 분석을 사용하도록 설정하고 분석을 위해 제출할 파일 확장명 및 전자 메일 첨부 파일 확장명 구성
 keywords: 자동화, 파일, 업로드, 콘텐츠, 분석, 파일, 확장명, 전자 메일, 첨부 파일
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c89b5b676e25b23e0e5fdfb925f6894647cb41e5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6472414b2e27bbdf42f2b9508f2aff18387c0547
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220444"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152019"
 ---
 # <a name="manage-automation-file-uploads"></a>자동화 파일 업로드 관리
 

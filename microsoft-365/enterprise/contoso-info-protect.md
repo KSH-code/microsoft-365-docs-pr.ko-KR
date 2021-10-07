@@ -9,18 +9,18 @@ ms.date: 10/02/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 Microsoft 365 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: c61d6ee0a3f577d27c306631ea9f57d8cb3d7c2a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1a1130329f09868d6f235b575ff2d3128f538154
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218695"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152757"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -41,7 +41,7 @@ Contoso는 데이터를 분석하고 다음 분류 수준을 결정했습니다.
 다음 표에는 Contoso 정보 정책이 나열됩니다.
 
 
-| 값 | Access | 데이터 보존 | 정보 보호 |
+| 값 | 액세스 | 데이터 보존 | 정보 보호 |
 |:-------|:-----|:-----|:-----|
 | 비즈니스 가치가 낮은 데이터(수준 1: 기본 데이터) | 모두에 대한 액세스를 허용합니다.  | 6개월 | 암호화 사용. |
 | 비즈니스 가치가 중간 정도인 데이터(수준 2: 중요 데이터) | Contoso 직원, 하도급업자 및 파트너에 대한 액세스를 허용합니다. <BR><BR> MFA, TLS(전송 계층 보안) 및 MAM(모바일 응용 프로그램 관리) 사용. | 2년  | 데이터 무결성을 위해 해시 값 사용.  |
