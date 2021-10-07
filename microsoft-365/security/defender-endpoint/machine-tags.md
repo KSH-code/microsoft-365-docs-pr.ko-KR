@@ -2,26 +2,24 @@
 title: 장치 태그 만들기 및 관리
 description: 장치 태그를 사용하여 디바이스를 그룹화하여 컨텍스트를 캡처하고 인시던트의 일부로 동적 목록 만들기를 사용하도록 설정
 keywords: 태그, 장치 태그, 장치 그룹, 그룹, 수정, 수준, 규칙, aad 그룹, 역할, 할당, 순위
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e23980133d2fb0c69ca79f6dfdde7656e1961097
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 38b5d3f2ddcab56fc712c771019982d05a18e20e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166999"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199756"
 ---
 # <a name="create-and-manage-device-tags"></a>장치 태그 만들기 및 관리
 
@@ -80,6 +78,7 @@ API를 사용하여 디바이스 태그를 추가하려면 [디바이스 태그 
 > [!NOTE]
 > 다음 장치에서만 적용할 수 있습니다.
 >
+> - Windows 11
 > - Windows 10 버전 1709 이상
 > - Windows 서버, 버전 1803 이상
 > - Windows Server 2016

@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 33022fa1ad57b7adf13139272bcdca09a1d9487b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d539f34f72b5fe6c26325646452a15b5df76a5a7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219992"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60199552"
 ---
 # <a name="step-1-triage-and-analyze-your-first-incident"></a>1단계. 첫 번째 인시던트의 세분화 및 분석
 
