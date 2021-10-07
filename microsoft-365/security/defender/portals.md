@@ -1,10 +1,10 @@
 ---
 title: Microsoft 보안 포털 및 관리 센터
 description: 보안과 관련된 다양한 서비스를 관리하기 위한 올바른 Microsoft Microsoft 365 포털 찾기
-keywords: 보안, 포털, Microsoft 365, M365, 보안 센터, 관리 센터, URL, 링크, Microsoft 365 Defender, 끝점용 Microsoft Defender, Microsoft Defender 보안 센터, ID용 Microsoft Defender, Office 365, MCAS, WDSI, SCC, Intune, MDM, MEM, ASC, Cloud App Security , Azure AD, 보안 & 규정 준수 센터
+keywords: 보안, 포털, Microsoft 365, M365, 보안 센터, 관리 센터, URL, 링크, Microsoft 365 Defender, 끝점용 Microsoft Defender, Microsoft Defender 보안 센터, ID용 Microsoft Defender, Office 365 MCAS, WDSI, SCC, Intune, MDM, MEM, ASC , Cloud App Security Azure AD, 보안 및 & 센터
 ms.prod: m365-security
 ms.mktglfcycl: deploy
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.author: lomayor
@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 81fe9d058a1144c67a1d95d02a3e8b47e3c2104b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 873753f1802fce9480c16d6df33092284156a820
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211835"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191442"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 

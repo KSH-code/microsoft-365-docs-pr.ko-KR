@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: fa496e976f0d023960b6d2e633347931b7456ac3
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: cc83349a1c4fda3b95665ce13cb3e82bbf8610b3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401125"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192130"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -114,7 +114,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
     
     이 기능을 사용하도록 설정하기 전에는 그룹 및 사이트에 대한 보호 설정을 구성할 수 없습니다. 이 레이블 구성으로 인해 문서 혹은 전자 메일이 자동으로 레이블 지정되지는 않지만 레이블 설정은 콘텐츠가 저장될 수 있는 컨테이너에 대한 액세스를 제어하여 콘텐츠를 보호합니다. 이러한 설정에는 개인 정보 설정, 외부 사용자 액세스 및 외부 공유, 관리되지 않는 장치의 액세스가 포함됩니다.
 
-- **파일 및 전자 메일에 자동으로 레이블을 적용하거나 레이블을 추천합니다.** 레이블을 지정할 중요한 정보를 식별하는 방법을 선택하고 레이블을 자동으로 적용하거나 사용자에게 권장하는 레이블을 적용하도록 요청할 수 있습니다. 레이블을 권장하면 선택한 텍스트가 프롬프트에 표시됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+- **파일 및 이메일에 레이블을 자동으로 적용하거나 레이블을 추천하세요.** 레이블을 지정하려는 민감한 정보를 식별하는 방법을 선택하면 레이블이 자동으로 적용될 수 있습니다. 또는 사용자에게 권장하는 레이블을 적용하라는 메시지를 표시할 수 있습니다. 레이블을 추천하면 선택한 텍스트가 프롬프트에 표시됩니다. 예를 들면 다음과 같습니다.
     
     ![필수 레이블을 할당하라는 메시지가 표시됩니다.](../media/Sensitivity-label-Prompt-for-required-label.png)
     
@@ -144,7 +144,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 ### <a name="label-priority-order-matters"></a>레이블 우선 순위(순서가 중요함)
 
-관리자 센터에서 민감도 레이블을 만드는 경우 **레이블** 페이지의 **민감도** 탭에 있는 목록에 레이블이 나타납니다. 이 목록에서는 레이블의 우선 순위가 반영되기 때문에 레이블의 순서가 중요합니다. 극비와 같은 가장 제한적인 민감도 레이블은 목록의 **아래쪽** 에 표시되도록 하고, 공용과 같은 가장 덜 제한적인 민감도 레이블은 **위쪽** 에 표시되도록 합니다.
+관리 센터에서 민감도 레이블을 만들 경우 **레이블** 페이지의 **민감도** 탭에 목록으로 표시됩니다. 이 목록에서 레이블의 순서는 우선 순위를 반영하므로 중요합니다. 극비와 같은 가장 제한적인 민감도 레이블을 목록 **맨 아래** 에 표시하고, 공용과 같은 가장 덜 제한적인 민감도 레이블을 **맨 위** 에 표시할 수 있습니다.
 
 문서, 전자 메일 또는 컨테이너와 같은 한 항목에 한 개의 민감도 레이블만 적용할 수 있습니다. 사용자가 레이블을 더 낮은 분류로 변경하는 사유를 제공하는 옵션을 설정하는 경우 이 목록의 순서는 하위 분류를 식별합니다. 그러나 이 옵션은 상위 레이블의 우선순위를 공유하는 하위 레이블에는 적용되지 않습니다.
 
@@ -178,7 +178,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 레이블 정책을 구성하는 경우 다음을 수행할 수 있습니다.
 
-- **레이블이 표시되는 사용자 및 그룹을 선택합니다.** Azure AD에서 레이블은 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 메일 그룹 또는 Microsoft 365 그룹([동적 구성원](/azure/active-directory/users-groups-roles/groups-create-rule)이 될 수 있음)에 게시할 수 있습니다.
+- **레이블을 볼 사용자 및 그룹을 선택합니다.** Azure AD에서 레이블은 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 메일 그룹 또는 Microsoft 365 그룹([동적 멤버십](/azure/active-directory/users-groups-roles/groups-create-rule)을 가질 수 있음)에 게시할 수 있습니다.
 
 - 레이블이 지정되지 않은 문서 및 이메일, 새 컨테이너에 대한 **기본 레이블을 지정**([Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에 대해 민감도 레이블을 활성화](sensitivity-labels-teams-groups-sites.md)한 경우)하고, 이제 [Power BI 콘텐츠](/power-bi/admin/service-security-sensitivity-label-default-label-policy)에 대한 기본 레이블을 지정합니다. 네 가지 유형의 항목 모두 또는 다른 레이블에 대해 동일한 레이블을 지정할 수 있습니다. 사용자는 콘텐츠 또는 컨테이너의 민감도와 더 잘 일치하도록 적용된 기본 민감도 레이블을 변경할 수 있습니다.
     
@@ -256,7 +256,7 @@ Azure Information Protection을 처음 접하거나 레이블을 최근에 마�
 ### <a name="azure-information-protection-labels"></a>Azure Information Protection 레이블
 
 > [!NOTE]
-> Azure Portal의 Azure Information Protection 레이블에 대한 레이블 관리는 **2021년 3월 31일** 부로 더 이상 사용되지 않습니다. 공식 [사용 중단 통지](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179)에서 자세히 알아봅니다.
+> Azure Portal의 Azure Information Protection 레이블에 대한 레이블 관리는 **2021년 3월 31일부** 로 더 이상 사용되지 않습니다. 공식 [지원 중단 알림](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179)에서 자세히 알아보세요.
 
 테넌트가 아직 [통합 레이블 지정 플랫폼](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않은 경우 먼저 통합 레이블을 활성화해야 민감도 레이블을 사용할 수 있습니다. 자세한 내용은 [Azure Information Protection 레이블을 통합 민감도 레이블로 마이그레이션하는 방법](/azure/information-protection/configure-policy-migrate-labels)을 참조하세요. 
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대한 관리자 도움말을 찾는 방법을 Microsoft 365 Business Premium.
-ms.openlocfilehash: 18a50c34f87fa47fe5777e87f8dafa62fb0ac04b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1c42b59b66d95fbcc978664bbabc3d16d69f3544
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219332"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192442"
 ---
 # <a name="find-docs-and-training"></a>설명서 및 교육 찾기
 

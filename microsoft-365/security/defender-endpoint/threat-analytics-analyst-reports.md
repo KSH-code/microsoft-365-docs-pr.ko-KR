@@ -11,18 +11,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: maccruz
 author: schmurky
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 75913a539db89bb5377386effb97c8e2a6b3beab
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 49a0b34fb278fbb517bcfecc9d9e524d669029e3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220232"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195188"
 ---
 # <a name="the-analyst-report-in-threat-analytics"></a>위협 분석의 분석가 보고서
 

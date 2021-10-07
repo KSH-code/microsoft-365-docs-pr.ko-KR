@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: troubleshooting
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 search.appverid:
 - MOE150
@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: ''
 description: 조사하는 동안 다시 시도 단추를 사용하여 콘텐츠 위치 오류가 있는 콘텐츠 검색을 해결할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee60ab8aa5dad32360303f31924995f110ed99cc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3c433dfa6bf842f1d62350e3b518177d1bdca6d7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210915"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192166"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도하여 콘텐츠 위치 오류 해결
 

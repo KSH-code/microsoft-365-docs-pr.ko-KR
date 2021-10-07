@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: Normal
+ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -17,12 +17,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 364dbb4f3cb077f1428e76251554090c06b0f0cf
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: f59c91e75dd573e9f32d05a9673dd3efb5c10af7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59497587"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191705"
 ---
 # <a name="schedule-antivirus-scans-using-group-policy"></a>그룹 정책을 사용하여 바이러스 백신 검사 예약
 

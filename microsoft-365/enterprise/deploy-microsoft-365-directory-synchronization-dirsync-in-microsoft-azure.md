@@ -7,7 +7,7 @@ ms.date: 11/05/2018
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: b8464818-4325-4a56-b022-5af1dad2aa8b
 description: Azure의 가상 머신에 Azure AD 커넥트 배포하여 계정과 Azure AD 테넌트 간에 계정을 동기화하는 방법을 설명합니다.
-ms.openlocfilehash: f3e296c7401cfc20a2f7165888825adf58528c68
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6535b46fb360cf326d8daf07662cb7fa366ae6c2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167399"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178818"
 ---
 # <a name="deploy-microsoft-365-directory-synchronization-in-microsoft-azure"></a>Microsoft 365 디렉터리 동기화 배포 Microsoft Azure
 

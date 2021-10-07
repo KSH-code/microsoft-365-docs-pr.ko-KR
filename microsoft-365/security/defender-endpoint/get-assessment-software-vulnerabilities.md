@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: v-jweston
 author: jweston-1
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: c9964ce7abdae004b33fb7317740b30b46b72d95
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6b47f87a1892f7e50b7202871b06a328d5597a88
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185796"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192835"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>장치당 소프트웨어 취약점 평가 내보내기
 
@@ -119,7 +119,7 @@ RegistryPaths|배열 \[ 문자열\]|제품이 장치에 설치되어 있는 레�
 SoftwareName|문자열|소프트웨어 제품의 이름입니다.|chrome
 SoftwareVendor|문자열|소프트웨어 공급업체의 이름입니다.|google
 SoftwareVersion|문자열|소프트웨어 제품의 버전 번호입니다.|81.0.4044.138
-VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.|보통
+VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.|Medium
 |
 
 ### <a name="16-examples"></a>1.6 예제
@@ -404,8 +404,8 @@ RegistryPaths |Array[string]|제품이 장치에 설치되어 있는 레지스
 SoftwareName|문자열|소프트웨어 제품의 이름입니다.|chrome  
 SoftwareVendor|문자열|소프트웨어 공급업체의 이름입니다.|google  
 SoftwareVersion|문자열|소프트웨어 제품의 버전 번호입니다.|81.0.4044.138  
-상태|문자열|**새로 추가**   (장치에 도입된 새로운 취약성의 경우)  (1) **수정되었습니다(이** 취약점이 장치에 더 이상 존재하지 않는 경우, 즉   수정된 것입니다). (2)  **업데이트되었습니다.**   (장치의 취약점이 변경된 경우). 가능한 변경 내용은 CVSS 점수, 악용 가능성 수준, 심각도 수준, DiskPaths, RegistryPaths, RecommendedSecurityUpdate입니다. |고정
-VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.|보통
+상태|String|**새로 추가**   (장치에 도입된 새로운 취약성의 경우)  (1) **수정되었습니다(이** 취약점이 장치에 더 이상 존재하지 않는 경우, 즉   수정된 것입니다). (2)  **업데이트되었습니다.**   (장치의 취약점이 변경된 경우). 가능한 변경 내용은 CVSS 점수, 악용 가능성 수준, 심각도 수준, DiskPaths, RegistryPaths, RecommendedSecurityUpdate입니다. |고정
+VulnerabilitySeverityLevel|문자열|CVSS 점수 및 위협 환경의 영향을 미치는 동적 요인에 따라 보안 취약성에 할당된 심각도 수준입니다.|Medium
 |
 
 #### <a name="clarifications"></a>설명

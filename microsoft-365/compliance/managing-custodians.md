@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 법률 사례에 대한 데이터를 관리하기 위해 Advanced eDiscovery 관리 도구에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 22297edbf73f561ad46e5fae521abeb371fdc88d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d621e511f0607c77d05b27f5deae2b5f85d09eaa
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188059"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192214"
 ---
 # <a name="work-with-custodians-and-non-custodial-data-sources-in-advanced-ediscovery"></a>보유자 및 비보유 데이터 원본으로 작업
 

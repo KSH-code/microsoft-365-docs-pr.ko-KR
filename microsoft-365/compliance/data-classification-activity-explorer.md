@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365solution-mip
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: 8aff58bfd37fbf4e8573546f84f7670424e6b4d8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d44d285959e0529a694b2022d35f2b7e7a575fdc
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184204"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192262"
 ---
 # <a name="get-started-with-activity-explorer"></a>활동 탐색기 시작하기
 
@@ -93,7 +93,7 @@ ms.locfileid: "59184204"
 - 보호 제거됨
 - 검색된 파일 
 
-또한 활동 탐색기는 Exchange Online, SharePoint Online, OneDrive, Teams 채팅 및 채널(미리 보기), SharePoint 폴더 및 라이브러리, Windows 10 파일 공유 및 끝점 **DLP(데이터** 손실 방지)를 통해 Windows 10 장치와 일치하는 이벤트를 수집합니다.  다음과 같은 Windows 10 예시가 있습니다.
+또한 활동 탐색기는 Exchange Online, SharePoint Online, OneDrive, Teams 채팅 및 채널(미리 보기), SharePoint 폴더 및 라이브러리, 끝점을 통해 Windows 10 장치와 일치하는 이벤트를 수집합니다.  **DLP(데이터 손실 방지)**. 다음과 같은 Windows 10 예시가 있습니다.
 
 - deletions
 - creations

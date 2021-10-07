@@ -9,7 +9,7 @@ ms.reviewer: presharm, jmueller
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Microsoft 제품 및 서비스를 구입하는 데 도움이 되는 제안에 대해 자세히 알아보습니다.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 165843edcd890f4f7fc743a2b4c4181638409ff7
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 159c56240d62cd3e1abce58f4fa6d82320e76017
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599400"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179478"
 ---
 # <a name="understand-the-proposal-workflow"></a>제안 워크플로 이해
 

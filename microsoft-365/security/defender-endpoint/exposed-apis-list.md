@@ -10,19 +10,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8154c144e82a38665f18ec35fdc8d49247ad75ca
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8623a4932c23748e35af480613c1e5baac3bbcf6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220588"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191902"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>지원되는 엔드포인트용 Microsoft Defender API
 
@@ -40,7 +40,7 @@ ms.locfileid: "59220588"
 >
 > 쿼리 기반 OData에는 '/api' prefix가 있습니다. 예를 들어 알림을 얻기 위해 GET 요청을 보낼 수 있습니다. [https://api.securitycenter.microsoft.com/api/alerts](https://api.securitycenter.microsoft.com/api/alerts)
 
-### <a name="versioning"></a>버전화
+### <a name="versioning"></a>버전 관리
 
 > API는 버전 관리가 지원됩니다.
 >

@@ -10,19 +10,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: leonidzh
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ROBOTS: NOINDEX
 ms.technology: mde
-ms.openlocfilehash: 1c17d0b5a51dfa800590bcd76c061fe6f7413933a243a5398945bf5d464952ce
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 3921f79172bbbcc32b8510809b54bec477e44b85
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53793870"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192860"
 ---
 # <a name="get-cve-kb-map-api"></a>CVE-KB 지도 API 사용
 
@@ -40,7 +40,7 @@ ms.locfileid: "53793870"
 
 CVE의 지도를 KB 및 CVE 세부 정보로 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 사용자에게 읽기 권한이 필요합니다.
 

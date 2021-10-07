@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - Adm_O365
@@ -16,12 +16,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: 자세한 내용은 Microsoft Lists. 이 Microsoft Lists 고객 유형, 주문 이행 및 주문 진행률과 같은 고객 세부 정보를 추적할 수 있습니다.
-ms.openlocfilehash: bbe88fb5a241c5991c7f7532f3ea70930e550ab5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d8d09549751efddf1c2d1576d5a7b3c75981562a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188772"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194732"
 ---
 # <a name="use-microsoft-lists-to-track-business-info"></a>비즈니스 Microsoft Lists 추적
 

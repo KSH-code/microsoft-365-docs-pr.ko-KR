@@ -2,7 +2,7 @@
 title: 내부자 위험 관리 감사 로그
 description: 내부자 위험 관리 감사 로그에 대해 Microsoft 365
 keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6fa7ab5b30a4cfad8ec4305c0ddf8fcda1c6f284
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9355c3e41025ae8002bc9d40fc4ff06333c72e94
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191332"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179082"
 ---
 # <a name="insider-risk-management-audit-log"></a>내부자 위험 관리 감사 로그
 

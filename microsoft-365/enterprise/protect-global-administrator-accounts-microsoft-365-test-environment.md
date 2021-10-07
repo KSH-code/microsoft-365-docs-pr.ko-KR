@@ -9,18 +9,18 @@ ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
 description: 다음 단계에 따라 엔터프라이즈 테스트 환경에 대한 Microsoft 365 전역 관리자 계정을 보호합니다.
-ms.openlocfilehash: d9de3cb42a7473167c5e8c6dda5489aca2241909
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e529304b9f897e4cac7a0cec5f32821b88cd297d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212492"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195320"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 전역 관리자 계정 보호
 

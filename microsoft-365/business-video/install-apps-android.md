@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Android 장치에 Outlook 및 기타 Office 앱을 설치하는 방법을 학습합니다.
-ms.openlocfilehash: d474f8abed48844bbe8e92be62ede6da5056fe9a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 36d194de577cd7ecbe157988b6a09014ac695638
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59193409"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179694"
 ---
 # <a name="install-outlook-and-office-apps-on-android-devices"></a>Android Outlook Office 및 앱 설치
 

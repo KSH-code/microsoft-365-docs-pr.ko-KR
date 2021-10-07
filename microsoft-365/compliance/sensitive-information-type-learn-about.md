@@ -12,16 +12,16 @@ ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.UnifiedDLPRuleContainsSensitiveInformation
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 description: 이 문서에서는 중요한 정보 유형에 대해 간략하게 설명하고 주민등의 보안, 신용 카드 또는 은행 계좌 번호와 같은 중요한 정보를 검색하여 중요한 항목을 식별하는 방법을 제공합니다.
-ms.openlocfilehash: 5feb85bce941f295f58e88a0847d9c0ca04d8820
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 915a92ca7023aa9fbf13d36c3fa00707c664a688
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216505"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192142"
 ---
 # <a name="learn-about-sensitive-information-types"></a>중요한 정보 유형에 대해 자세히 알아보기
 

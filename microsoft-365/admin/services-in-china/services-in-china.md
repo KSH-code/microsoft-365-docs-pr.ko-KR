@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국에서 Office 365, 안정성 및 확장 가능한 클라우드 서비스에 대한 요구 사항을 충족하도록 설계된 21Vianet에서 운영하는 21Vianet에 의해 운영되는 비즈니스에 대해 자세히 알아보아야 합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 6313212d39b81e9954681848e5ac6747ff6ee3ea
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c8be22550ee4ff6b1281cd2cfabe94df2c0c56e0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186756"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195152"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -55,7 +55,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
   
 ## <a name="office-365-suite"></a>Office 365 제품군
 
-|함수|사용 가능|
+|함수|사용 가능성|
 |:-----|:-----|
 |사용자 지정 도메인  <br/> |관리자는 중국어별 도메인 공급자를 통해 등록된 사용자 지정 도메인을 만들고 사용할 수 있습니다. 사용자 지정 도메인이 없는 경우 도메인 [](../get-help-with-domains/buy-a-domain-name.md) 이름 등록 기관에서 도메인 이름을 구입하는 방법을 사용할 수 있습니다. 이미 도메인 등록 기관 또는 DNS 호스팅 공급자를 [찾으면 됩니다.](../get-help-with-domains/find-your-domain-registrar.md)  <br/> 또한 Office 365 SharePoint Online 서비스를 사용하여 공개 웹 사이트를 만드는 경우 중국 인터넷 준수 정책에 따라 ICP(인터넷 콘텐츠 공급자) 번호를 제공해야 합니다.  **참고:** 사용자 지정 도메인 이름에서 사용할 수 없는 단어에 대한 자동 유효성 검사를 사용할 수 없습니다.           |
 |구독, 청구 및 기술 지원  <br/> |21Vianet에서 제공 지원에 문의하는 방법에 대한 자세한 내용은 비즈니스용 Office 365 [문의를 참조하세요.](../../business-video/get-help-support.md)  <br/> |
@@ -74,7 +74,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
   
 ## <a name="sharepoint-online"></a>SharePoint Online
 
-|함수|사용 가능|
+|함수|사용 가능성|
 |:-----|:-----|
 |조직 외부의 사용자와 전자 메일로 문서, 라이브러리 또는 사이트 공유  <br/> |이 기능은 사용할 수 있지만 기본적으로 해제되어 사용자 국가 외부에서 공유되는 파일에 액세스할 수 있습니다. 관리자는 해당 기능을 설정할 수 있지만 파일이 사용자 국가 외부에서 공유될 수 있음을 나타내는 경고 메시지가 표시됩니다. 조직 외부의 사용자와 공유하려고 하는 사용자도 경고를 받게 됩니다. 자세한 내용은 [share SharePoint files or folders in Office 365.](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)  <br/> |
 |Access Services  <br/> |Access 2013은 지원되지만 새 Access 앱을 추가하는 것은 온라인에서 이 기능이 Office 365 SharePoint 없습니다. Office 365 및 SharePoint Online에서 새 Access 기반 웹앱 및 Access 웹 데이터베이스 만들기는 2018년 4월까지 나머지 웹앱 및 웹 데이터베이스가 2017년 6월부터 시작되지 않습니다. 또한 Access 2010 기능은 지원되지 않습니다. 또한 Access 2010 데이터베이스를 사용하려고 하면 오류가 발생하고 데이터가 손실될 수 있습니다.  <br/> |
@@ -93,7 +93,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
   
 ## <a name="outlook-web-app"></a>Outlook Web App
 
-|함수|사용 가능|
+|함수|사용 가능성|
 |:-----|:-----|
 |BBCS(Blackberry Business Cloud Services)  <br/> |사용할 수 없지만 RIM(Research in Motion Exchange ActiveSync( BlackBerry 무선 전자 메일 솔루션)의 제품 또는 디바이스를 사용하여 BES(Blackberry Enterprise Server)를 실행할 수 있습니다.  <br/> |
 |정보 권한 관리  <br/> |개봉박두.  <br/> |
@@ -154,9 +154,9 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
 |**On-Premises Exchange Version**|**MRM(분할 보관)**|**OWA 액세스(분할 보관)**|**원본 위치 eDiscovery**|**사서함 감사**|**In-Place Hold/Archiving**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| 모든 2013 CU5  <br/> | 지원됨 <br/>  | 지원되지 않음 <br/>  | 않음 <br/>  | 않음  <br/> | 않음 <br/> |
-| 모든 2010 SP3 <br/>  | 지원되지 않음 <br/>  | 지원되지 않음 <br/>  | 지원되는<sup>1</sup> <br/> | 않음  <br/> | 않음 <br/>  |
-| 2013 CU5 사전 서버 하나 이상  <br/> | 지원되는<sup>2</sup> <br/> | 지원되지 않음  <br/> | 지원되지 않음 <br/> | 않음  <br/> | 않음 <br/> |
+| 모든 2013 CU5  <br/> | 지원됨 <br/>  | 지원되지 않음 <br/>  | 지원 <br/>  | 않음  <br/> | 지원 <br/> |
+| 모든 2010 SP3 <br/>  | 지원되지 않음 <br/>  | 지원되지 않음 <br/>  | 지원되는<sup>1</sup> <br/> | 않음  <br/> | 지원 <br/>  |
+| 2013 CU5 사전 서버 하나 이상  <br/> | 지원되는<sup>2</sup> <br/> | 지원되지 않음  <br/> | 지원되지 않음 <br/> | 않음  <br/> | 지원 <br/> |
 |||
 
 <sup>1</sup> 모든 사서함에 대해 별도의 검색이 Exchange Online 합니다.  <br/> <sup>2</sup> MRM 보관 사서함 이동 정책은 Exchange 2013 CU5 이상 서버에 있는 사서함에 사용할 수 있습니다. 
@@ -169,7 +169,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 > [!IMPORTANT]
 >  Exchange Server [배포](https://go.microsoft.com/fwlink/?LinkId=506768) 도우미는 사내 조직과 조직 간에 하이브리드 배포를 구성하거나 하이브리드 배포로 완전히 마이그레이션하는 데 도움이 되는 무료 웹 Office 365 기반 Office 365. 이 도구는 몇 가지 단순한 질문을 제기한 다음 사용자의 답변에 따라 하이브리드 배포 구성 지침이 담긴 사용자 지정 검사 목록을 만듭니다. 배포 도우미를 사용하여 하이브리드 배포를 구성하는 것이 좋습니다. > Exchange 2013 CU5 서버로 업그레이드하거나 추가하지 않을 조직의 경우 Exchange 2013 SP1 조직은 해당 조직과 Exchange Online 조직 간에 공유 약속이 있는 일정 공유를 구성할 수 있습니다. 이 하이브리드 배포 기능을 구성하는 Exchange [21Vianet에서](https://support.microsoft.com/office/26e7cc26-c980-4cc5-a082-c333de544b6d)운영하는 Office 365 하이브리드 배포 기능 구성을 참조합니다. 
 
-|함수|사용 가능|
+|함수|사용 가능성|
 |:-----|:-----|
 |공존 및 사용 중/사용 중 공유|두 개 이상의 프레미스 조직 간에 약속Exchange/약속이 있는 일정 정보 공유 또는 두 21Vianet Office 365 공유는 지원되지 않습니다. 이 기능은 곧 출시될 예정입니다! | 
 |일정 공유|Exchange 2013 SP1 이상에서는 다른 Exchange 조직과 인터넷 일정 공유를 수동으로 구성할 Exchange Online 있습니다. 이 기능을 수동으로 구성하는 자세한 내용은 [Enable Internet Calendar Publishing을 참조하세요.](/exchange/enable-internet-calendar-publishing-exchange-2013-help) | 
@@ -177,9 +177,9 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
 |Exchange 호스팅된 전자 메일 암호화  |사용할 수 없습니다.  |
 |Office 365 메시지 암호화  |개봉박두.  |
    
-## <a name="office"></a>사무실
+## <a name="office"></a>Office
 
-|함수|사용 가능|
+|함수|사용 가능성|
 |:-----|:-----|
 |파일 Office **열기에서** 응용 \> **프로그램 열기...** button  <br/> |사용 가능. 로밍이 곧 출시될 예정입니다.  <br/> |
 |Microsoft 비즈니스용 OneDrive 로그인하는 동안 다른 사용자에 저장  <br/> |사용자 국가 내에서 데이터를 유지하려면 Microsoft 계정으로 로그인할 때 조직 사이트(비즈니스용 OneDrive)에 문서를 Office 수 없습니다.  <br/> |
@@ -187,13 +187,13 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
    
 ## <a name="office-client"></a>Office 클라이언트
 
-|함수|사용 가능|
+|함수|사용 가능성|
 |:-----|:-----|
 |계정 관리(Office 클라이언트 내에서)  <br/> |이 기능 및 Office 365 포털로 이동하기 위한 기능 등은 현재 전 세계 Office 365 포털을 Office 365 21Vianet에서 운영하는 Office 365 로그인할 수 없습니다. 이는 해결되고 있는 알려진 문제입니다. 그동안 URL을 사용하여 계정에 로그인하고 해당 계정에서 설정을 https://portal.partner.microsoftonline.cn/ 관리할 수 있습니다. 자세한 내용은 [Manage your 엔터프라이즈용 Microsoft 365 앱 account for Office 365 operated by 21Vianet 를 참조하십시오.](https://support.microsoft.com/office/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8)  <br/> |
    
 ## <a name="onenote"></a>OneNote
 
-|함수|사용 가능|
+|함수|사용 가능성|
 |:-----|:-----|
 |온라인 비디오 삽입 및 재생  <br/> |사용할 수 없습니다.  <br/> |
 |리서치 창과 서비스 Bing 통합  <br/> |사용할 수 없습니다.  <br/> |
@@ -211,7 +211,7 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
    
 ## <a name="skype-for-business"></a>비즈니스용 Skype
 
-|함수|사용 가능|
+|함수|사용 가능성|
 |:-----|:-----|
 |사용자 지정을 지원할 도메인 비즈니스용 Skype  <br/> |SRV 레코드를 지원하는 중국어별 도메인 공급자에 도메인을 등록해야 합니다. 도메인을 등록하는 방법에 대한 자세한 내용은 도메인 등록 기관 또는 DNS 호스팅 공급자 [찾기를 참조하세요.](../get-help-with-domains/find-your-domain-registrar.md)  <br/> |
 |전화 접속 회의(컴퓨터에 액세스할 수 없는 사용자의 모임에 전화 액세스 추가 기능)  <br/> |전화 접속 회의 및 공급자를 위한 비즈니스용 Skype 및 비즈니스용 Skype 관리 센터에 옵션이 표시될 수 있지만 이러한 기능은 아직 사용할 수 없습니다. 곧 출시될 예정입니다.  <br/> |

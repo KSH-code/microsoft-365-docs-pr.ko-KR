@@ -2,26 +2,24 @@
 title: Linux의 끝점용 Microsoft Defender 개인 정보
 description: 개인 정보 제어, Linux의 끝점용 Microsoft Defender에서 수집된 진단 데이터에 대한 개인 정보 및 정보에 영향을 미치는 정책 설정을 구성하는 방법.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 개인 정보, 진단
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3d6ce59ec83e8271ff0c665386bd33942084d9ad
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1c15e5ba5b48380e20ddfd6c291df5c5afafa251
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218382"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191758"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender 개인 정보
 
@@ -236,7 +234,7 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 |sha256|지원 로그의 SHA256 식별자입니다.|
 |size|지원 로그의 크기입니다.|
 |original_path|지원 로그 경로(항상 */var/opt/microsoft/mdatp/wdavdiag/ 아래).*|
-|형식|지원 로그의 형식입니다.|
+|format|지원 로그의 형식입니다.|
 
 #### <a name="diagnostic-log-upload-completed-report"></a>진단 로그 업로드 완료된 보고서
 

@@ -8,17 +8,18 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
-ms.collection: ''
+ms.localizationpriority: medium
+ms.collection:
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 description: 전자 메일 초대를 수락하여 Microsoft 365 Business Standard, Yahoo, Gmail 또는 Outlook 사용하여 조직에 가입합니다.
-ms.openlocfilehash: 7bbf6565b71be3c6741f9b6637599560550497e9
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 2faea6a0d9089eb1a9f42d3d52bc877636ead50a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774379"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60196124"
 ---
 # <a name="accept-an-email-invitation-to-a-microsoft-365-business-standard-subscription-organization-using-an-outlook-yahoo-gmail-or-other-account-user"></a>Microsoft 365 Business Standard, Yahoo, Gmail 또는 기타 계정(사용자)을 사용하여 Outlook 전자 메일 초대 수락
 
@@ -49,7 +50,7 @@ ms.locfileid: "59774379"
 
 비즈니스용 앱의 [Office 다운로드하여 사용을 시작하세요.](https://support.microsoft.com/office/install-office-apps-from-office-365-dcf2d841-dac7-455b-9a77-fc8f7ee92702)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="the-webpage-is-asking-me-to-agree-that-my-business-has-access-to-my-name-sign-in-and-other-information--what-does-that-mean"></a>이 웹 페이지는 내 비즈니스에서 내 이름, 로그인 및 기타 정보에 액세스할 수 있는 것으로 동의할 것을 요청합니다. 그 의미는 무엇입니까?
 

@@ -9,16 +9,16 @@ ms.date: 08/10/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 클라우드 서비스를 설정하기 위한 로드맵은 Microsoft 365.
-ms.openlocfilehash: 050dc8e622bbfe9f1a065a74f4dffcdd3647074a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 943235898cc3d1bf1ad9232d6d8196fd9202ff11
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187972"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192037"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>클라우드 서비스 로드맵을 Microsoft 365
 

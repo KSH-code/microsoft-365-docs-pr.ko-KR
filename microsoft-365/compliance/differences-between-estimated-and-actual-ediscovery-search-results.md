@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 예상 검색 결과 및 실제 검색 결과가 각기 다른 이유에 대해 이해합니다. 검색에서 eDiscovery 도구를 사용하여 Office 365.
-ms.openlocfilehash: ae6e8d21ceb448f2402b14a02d5e08a3bf331548
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ecd1ff1dec40e13ace177a0b744109822061fb28
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59193169"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194540"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>예상 및 실제 eDiscovery 검색 결과 차이
 

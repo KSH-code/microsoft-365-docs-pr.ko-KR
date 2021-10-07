@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.custom: admindeeplinkMAC
 description: 문제가 있는 경우 Microsoft 기술 지원 엔지니어가 데이터에 액세스할 수 있는 방법을 제어할 수 있는 고객 Lockbox 요청에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 8fae8b83230fb50e956900b8fed737fbb0a6b230
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 127d9acf602bd6449abd6b324d7b844814d53419
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184219"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179274"
 ---
 # <a name="customer-lockbox-in-office-365"></a>고객 Lockbox의 Office 365
 

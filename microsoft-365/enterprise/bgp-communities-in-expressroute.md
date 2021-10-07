@@ -7,7 +7,7 @@ ms.date: 6/26/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - SPO_Content
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 9ac4d7d4-d9f8-40a8-8c78-2a6d7fe96099
 description: Azure ExpressRoute에서 BGP 커뮤니티를 사용하여 여러 시나리오에 필요한 IP prefix 및 필요한 대역폭을 관리하는 Office 365 대해 설명합니다.
-ms.openlocfilehash: 9cb6980c1d8cc120f99cac087602856aeacf1adf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: afcbbbebda8dcc7c9425831b44f0d95f0eca5a18
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185995"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195416"
 ---
 # <a name="using-bgp-communities-in-expressroute-for-office-365-scenarios"></a>다른 시나리오에 ExpressRoute에서 BGP Office 365 사용
 
@@ -107,7 +107,7 @@ BGP 커뮤니티를 활용하여 ExpressRoute가 고객 네트워크를 통해 �
 
 돌아오는 데 사용할 수 있는 짧은 링크는 [https://aka.ms/bgpexpressroute365]() 입니다. .
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
   

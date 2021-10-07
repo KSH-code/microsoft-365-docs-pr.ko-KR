@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: Ent_O365
@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: b468cb4b-a35c-43d3-85bf-65446998af40
 description: PowerShell을 사용하여 원본 전자 메일 시스템에서 원본 전자 메일 시스템으로 콘텐츠를 한 번씩 이동하는 방법을 Microsoft 365.
-ms.openlocfilehash: 6e59ac4d590208e0faed22e94cabe05601b17f18
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 00cad52ee04c3799dc3c1ea1b4725203e977a7f3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210492"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194324"
 ---
 # <a name="use-powershell-to-perform-a-cutover-migration-to-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365로 컷오버 마이그레이션 수행
 

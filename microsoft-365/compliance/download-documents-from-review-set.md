@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 프레젠테이션 또는 외부 검토를 위해 Advanced eDiscovery 리뷰 집합에서 콘텐츠를 선택하고 다운로드하는 방법을 학습합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ec4c82acdc7958cb17def5660f51109f1ff32e0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 984b609525c81847dab7420f5425e67af582a5f0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212602"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194480"
 ---
 # <a name="download-selected-documents-from-a-review-set"></a>검토 집합에서 선택한 문서 다운로드
 

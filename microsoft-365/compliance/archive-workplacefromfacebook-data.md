@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 관리자는 Veritas의 Merge1 사이트에 보관된 Facebook의 Workplace에서 데이터를 가져오고 보관할 커넥터를 설정하여 데이터를 다른 사용자로 Microsoft 365. 커넥터를 설정하려면 Veritas와 함께 작업해야 합니다. 이 커넥터를 사용하면 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있도록 Microsoft 365 타사 데이터 원본의 데이터를 보관할 수 있습니다.
-ms.openlocfilehash: 97a2664a92b4383d08becb610640e7e8553e90da
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0d2db469186469759226f59775a30bac78fe8daa
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186219"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179442"
 ---
 # <a name="set-up-a-connector-to-archive-workplace-from-facebook-data"></a>Facebook 데이터에서 Workplace를 보관하는 커넥터 설정
 

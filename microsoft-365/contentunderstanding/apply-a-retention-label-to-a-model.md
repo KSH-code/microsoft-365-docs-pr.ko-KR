@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 2016년 8월 2일부로 하여금 모델에 보존 레이블을 적용하는 SharePoint Syntex.
-ms.openlocfilehash: 505a1a90fa1a85c6d125343d49d9a0dbd01443b7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ed1df9a37f37bc23b11bb2d7ef24109340b253c9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59183940"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195512"
 ---
 # <a name="apply-a-retention-label-to-a-model-in-sharepoint-syntex"></a>SharePoint Syntex에서 모델에 보존 레이블 적용
 

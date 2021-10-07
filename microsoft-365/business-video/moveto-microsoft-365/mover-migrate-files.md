@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Mover를 사용하여 비즈니스용 앱을 Microsoft 365 Google 파일을 마이그레이션하는 방법을 학습합니다.
-ms.openlocfilehash: 6791655f5ee8a9fc867266d5fe153cde6ec9adaa6148191c4c0eb3aedbfe0141
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 4bec723d024468f76bdfcc60934eb42c445fe0f5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53843494"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194816"
 ---
 # <a name="migrate-google-files-to-microsoft-365-for-business"></a>비즈니스용 앱으로 Google Microsoft 365 마이그레이션 
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 사용자 계정에서 암호를 직접 재설정할 수 있도록 하는 Microsoft 365 Business Premium.
-ms.openlocfilehash: 815c35098253f7286a1ab99ad99cb0d23009473c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b593421946488200b0df25929a1e302204456a5f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212785"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195932"
 ---
 # <a name="set-up-self-service-password-reset"></a>셀프 서비스 암호 재설정 설정
 

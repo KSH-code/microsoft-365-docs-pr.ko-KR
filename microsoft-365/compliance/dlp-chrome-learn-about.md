@@ -11,7 +11,7 @@ ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - m365solution-mip
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 통해 파일 활동 및 보호 작업을 Google Chrome 브라우저로 확장
-ms.openlocfilehash: cf7a3cd2e26f2e7d7a116e4a609f98aeea78be19
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ff0df602e68338315becabd0c5b65f981fe4dd43
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59193082"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179190"
 ---
 # <a name="learn-about-the-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장에 대해 알아보기
 

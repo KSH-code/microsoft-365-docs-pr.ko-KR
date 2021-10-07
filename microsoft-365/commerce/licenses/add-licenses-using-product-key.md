@@ -9,7 +9,7 @@ ms.reviewer: argani, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ search.appverid: MET150
 description: 제품 키를 통해 라이선스를 추가하거나 구독을 확장하는 방법을 자세히 알아보습니다.
 ROBOTS: NOINDEX
 ms.date: 04/07/2021
-ms.openlocfilehash: 7f1a1977eb5e20d09a22ef616937abdc483c431e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a3d6f2d87952a9601a422854c1df2f96f497efdf
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190359"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194720"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>제품 키를 사용하여 유료 구독에 라이선스 추가 또는 연장
 

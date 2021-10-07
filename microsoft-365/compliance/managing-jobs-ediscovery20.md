@@ -9,18 +9,18 @@ ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Advanced eDiscovery 작업을 사용하면 다양한 작업 수행과 관련된 장기 실행 프로세스의 상태를 추적할 Advanced eDiscovery 있습니다.
-ms.openlocfilehash: 27ac98d1f98e85800c8ca3dfc91cc5e0803ae2e8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d5b2facdead3be1369cd261392117fc33fa1a4fb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188052"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192202"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>작업 관리 Advanced eDiscovery
 

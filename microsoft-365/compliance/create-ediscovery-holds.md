@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조사 또는 법률 사례와 관련된 콘텐츠를 보존하기 위해 핵심 eDiscovery 사례와 Microsoft 365 보류를 만들 수 있습니다.
-ms.openlocfilehash: 57e825822ac622d224a402d677d4951ad9fa444a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0a5ac38afb649ab1972e7b7aee525dac9ab3b00e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59165930"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195656"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 

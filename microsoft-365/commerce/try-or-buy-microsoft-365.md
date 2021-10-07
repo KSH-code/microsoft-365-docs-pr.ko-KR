@@ -9,7 +9,7 @@ ms.reviewer: drjones, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: GEA150
 description: 30일 무료 평가판에 등록하여 Microsoft 365 Business Standard, Microsoft 365 Business Premium 또는 비즈니스용 Microsoft 365 앱.
 ms.date: 08/07/2020
-ms.openlocfilehash: b38d5a0fb49b67315d43011107c8643432fa021b
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: cb9d811f014fa0460e5030b794caf687df4ca4ae
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786026"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195764"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 사용해 보거나 구입
 
@@ -46,7 +46,7 @@ Microsoft 365 비즈니스용 서비스는 Microsoft가 IT를 대신하는 동�
 
 ::: moniker-end
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 무료 평가판에 등록하는 데 기존 Microsoft 계정이 필요하지 않습니다. 이 문서의 다른 모든 절차에 대해 조직의 전역 관리자 또는 대금 청구 관리자일 수 있습니다. 자세한 내용은 [관리자 역할 정보](../admin/add-users/about-admin-roles.md)를 참조하세요.
 

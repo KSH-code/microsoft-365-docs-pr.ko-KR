@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: Oracle의 Cisco Jabber에서 데이터를 가져오고 보관하기 위해 Microsoft 365 규정 준수 센터 커넥터를 설정하고 사용하는 방법을 Microsoft 365.
-ms.openlocfilehash: 34096f06d3516470fb203b87efa98e0bde2ec669
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f398c63b8af08de2c04401cb9a3de4fb77b2a9fe
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216995"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195704"
 ---
 # <a name="set-up-a-connector-to-archive-cisco-jabber-on-oracle-data"></a>Oracle 데이터에 Cisco Jabber를 보관할 커넥터 설정
 

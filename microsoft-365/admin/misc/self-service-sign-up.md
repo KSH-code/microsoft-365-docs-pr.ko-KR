@@ -9,7 +9,7 @@ ms.reviewer: seemg, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Power Apps Microsoft Microsoft 365, Microsoft Power Automate 및 Dynamics 365 for Finance와 같은 셀프 서비스 등록 및 사용 가능한 셀프 서비스 프로그램에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 7c4986beb1c920865cee28f2729859e426944f3f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 87f432be0659d03a1e8f77b682997dc32d1dc111
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186955"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192694"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 

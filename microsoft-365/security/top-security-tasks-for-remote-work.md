@@ -9,19 +9,19 @@ audience: Admin
 ms.topic: tutorial
 ms.prod: m365-security
 ms.technology: m365d
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다.
-ms.openlocfilehash: 8eccf38756a8f9d3686c8d1f3c05ac6065a54aca
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 1c3dc7f06a8fbb214ffc12bcf506da7df4c0422a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59355994"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191386"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>보안 팀이 집에서 작업할 수 있는 상위 12개 작업
 
@@ -47,7 +47,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 |2|[위협으로부터 보호](#2-protect-against-threats)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3 |[Microsoft Defender for Office 365](#3-configure-microsoft-defender-for-office-365)|||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[ID에 맞게 Microsoft Defender 구성](#4-configure-microsoft-defender-for-identity)|||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|5 |[Microsoft 365 Defender 켜기](#5-turn-on-microsoft-365-defender)|||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|5|[Microsoft 365 Defender 켜기](#5-turn-on-microsoft-365-defender)|||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[휴대폰 및 태블릿에 대한 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[Intune 앱 보호를 포함하여 게스트에 대한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[장치 관리에 PC 등록 및 호환 PC 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -121,7 +121,7 @@ Microsoft Defender for Office 365:
 
 ## <a name="5-turn-on-microsoft-365-defender"></a>5: 설정 Microsoft 365 Defender
 
-이제 Microsoft Defender for Office 365 ID용 Microsoft Defender를 구성한 후 하나의 대시보드에서 이러한 기능의 결합된 신호를 볼 수 있습니다. [Microsoft 365 Defender 경고,](./defender/microsoft-365-defender.md) 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 창으로 통합하여 [security.microsoft.com.](https://security.microsoft.com)
+이제 Microsoft Defender for Office 365 ID용 Microsoft Defender를 구성한 후 하나의 대시보드에서 이러한 기능의 결합된 신호를 볼 수 있습니다. [Microsoft 365 Defender](./defender/microsoft-365-defender.md) 경고, 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 창으로 security.microsoft.com [ ](https://security.microsoft.com).
 
 ![MTP 대시보드 그림입니다.](../media/top-ten-security-remote-work-mtp-dashboard.png)
 
@@ -165,7 +165,7 @@ Microsoft 365 E5 요금제를 사용 중일 때 위험 기반 MFA에 대해 Azur
 
 ## <a name="8-enroll-pcs-into-device-management-and-require-compliant-pcs"></a>8: 장치 관리에 PC 등록 및 호환 PC 필요
 
-여러 가지 방법으로 인력의 디바이스를 등록할 수 있습니다. 각 방법은 디바이스 소유권(개인 또는 회사), 디바이스 유형(iOS, Windows, Android) 및 관리 요구 사항(재설정, 선호도, 잠금)에 따라 다릅니다. 이 경우 정렬하는 데 시간이 다소 걸릴 수 있습니다. 에서 [장치 등록을 Microsoft Intune.](/mem/intune/enrollment/)
+몇 가지 방법으로 직원의 장치를 등록할 수 있습니다. 각 방법은 장치 소유권(개인 또는 회사), 장치 유형(iOS, Windows, Android) 및 관리 요구 사항(재설정, 선호도, 잠금)에 따라 다릅니다. 이 경우 정렬하는 데 시간이 다소 걸릴 수 있습니다. 에서 [장치 등록을 Microsoft Intune.](/mem/intune/enrollment/)
 
 가장 빠른 방법은 장치용 자동 등록을 설정하는 [Windows 10 것입니다.](/mem/intune/enrollment/quickstart-setup-auto-enrollment)
 

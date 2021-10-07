@@ -8,18 +8,18 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 엔터프라이즈용 Microsoft Intune Microsoft 365 사용하여 장치 및 장치에서 실행되는 앱을 관리하는 방법을 이해합니다.
-ms.openlocfilehash: c9acdbaa66af212a57bf66b2c64200b02ade6ad7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0dca8da328a3048413727410ebab7798d1068ac8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218675"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60178854"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Contoso의 모바일 장치 관리
 

@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e4309b7973b3f74ba43d178b6761449c91856d06
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 33143e85bf17a707ade6dd0d6d0c66886fd85373
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59443950"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179154"
 ---
 # <a name="information-barriers-attributes"></a>정보 장벽 특성
 
@@ -83,7 +83,7 @@ ms.locfileid: "59443950"
 | MSExchExtensionCustomAttribute4 | ExtensionCustomAttribute4 |
 | MSExchExtensionCustomAttribute5 | ExtensionCustomAttribute5 |
 | MailNickname | 별칭 |
-| PhysicalDeliveryOfficeName | 사무실 |
+| PhysicalDeliveryOfficeName | Office |
 | PostalCode | PostalCode |
 | ProxyAddresses | EmailAddresses |
 | StreetAddress | StreetAddress |

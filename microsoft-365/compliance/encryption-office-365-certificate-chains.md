@@ -9,7 +9,7 @@ ms.date: 2/1/2021
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: 전체 루트 인증서 및 CAS(인증 기관)의 전체 목록을 Microsoft 365.
-ms.openlocfilehash: ab4ca6f92407659b96e177161e0fd0c2847a890c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 65e71ad941c052fecca9d3c3817bbbb0a3a278d5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186179"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194456"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Microsoft 365 암호화 체인
 

@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 위한 몇 가지 실용적인 지침을 읽어보세요.
-ms.openlocfilehash: f3faab08138197535f9305fddef2a9db3d0b6bb9
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 3154388eaf1c677cec00782642de6f83819d0665
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59772761"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195596"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -39,7 +39,7 @@ ms.locfileid: "59772761"
 
 3. 사용자가 식별한 보존 설정 및 작업을 기반으로 **보존 정책 및 보존 레이블을 만듭니다**.
     
-    보존 레이블의 경우, [파일 계획](file-plan-manager.md)을 사용하여 스프레드시트에서 보존 레이블을 정의하고 세분화하는 것이 유용할 수 있습니다. 그런 다음 해당 스프레드시트를 가져와 레이블을 만듭니다.
+    보존 레이블의 경우 [파일 계획](file-plan-manager.md)을 사용하여 스프레드시트에서 보존 레이블을 정의하고 구체화하는 것이 유용할 수 있습니다. 그런 다음 해당 스프레드시트를 가져와 레이블을 만듭니다.
     
 3. **보존 레이블을 게시하고 적용합니다**. 보존 정책은 "설정하고 잊는" 구성을 위해 설계되었지만, 보존 레이블은 여러 정책에서 사용될 수 있고 사용자 워크플로에 통합될 수 있는 재사용 가능한 빌딩 블록입니다. 보존 레이블이 사용되는 방식을 식별하는 데 도움이 되는 [일반적인 시나리오](#common-scenarios-for-retention-policies-and-retention-labels) 목록을 참조세요. 
 
@@ -53,7 +53,7 @@ ms.locfileid: "59772761"
 
 보존 정책과 보존 레이블을 만들고 관리할 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지는 않으면서 액세스 권한을 부여할 수 있습니다. 이 제한적 관리를 위한 권한을 부여하기 위해서는 사용자를 **규정 준수 관리자** 관리 역할 그룹에 추가할 것을 권장합니다.
 
-이 기본 역할을 사용하는 대신 새 역할 그룹을 생성하고 **보존 관리** 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **읽기 전용 보존 관리** 를 사용하세요. 
+이 기본 역할을 사용하는 대신 새 역할 그룹을 만들고 이 그룹에 **보존 관리** 역할을 추가할 수 있습니다. 읽기 전용 역할의 경우 **보기 전용 보존 관리** 를 사용합니다. 
 
 기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [Office 365 규정 준수 센터의 사용 권한](microsoft-365-compliance-center-permissions.md)을 참조하세요.
 
@@ -77,7 +77,7 @@ ms.locfileid: "59772761"
 | 항목에 대한 보존 및 삭제 설정이 적용되는 방법과 위치 모니터링 | [보존 레이블 모니터링](retention.md#monitoring-retention-labels) |
 |문서 및 전자 메일에 대한 단일 레코드 관리 솔루션 사용 |[레코드 관리에 대한 자세한 정보](records-management.md) |
 
-레코드 관리에 대한 보존 레이블을 사용하는 경우 콘텐츠를 레코드로 표시하는 보존 레이블에 대해 고유한 추가 시나리오가 있습니다. [레코드 관리에 대한 일반적인 시나리오](get-started-with-records-management.md#common-scenarios-for-records-management)를 참조하세요.
+레코드 관리에 보존 레이블을 사용하는 경우 콘텐츠를 레코드로 표시하는 보존 레이블에 고유한 추가 시나리오가 있습니다. [레코드 관리를 위한 일반적인 시나리오](get-started-with-records-management.md#common-scenarios-for-records-management)를 참조하세요.
 
 ## <a name="end-user-documentation-for-retention"></a>보존에 대한 최종 사용자 설명서
 

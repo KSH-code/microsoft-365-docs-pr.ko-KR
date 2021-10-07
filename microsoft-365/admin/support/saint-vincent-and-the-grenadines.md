@@ -9,15 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ff07f662cbcc6ed9f9bbe38bd4496652702e27d1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b8244a2b0d2447e132a4ae8c1f8c8e3a70380d40
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59217372"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194936"
 ---
 # <a name="contact-support-for-saint-vincent-and-the-grenadines"></a>세인트 빈센트 그레나딘 지원에 문의
 

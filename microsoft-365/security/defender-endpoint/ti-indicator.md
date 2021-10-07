@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3dc075caccc5724ed3ea76e5d3c06f3a5b6f7f2e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d7805ad7a2c1aae750b6588a6dd2c4141c9b93c3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166863"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191638"
 ---
 # <a name="indicator-resource-type"></a>표시기 리소스 유형
 
@@ -54,7 +54,7 @@ ms.locfileid: "59166863"
 id|String|Indicator [엔터티의 ID입니다.](ti-indicator.md)
 indicatorValue|String|표시기 [값입니다.](ti-indicator.md)
 indicatorType|Enum|표시기 유형입니다. 가능한 값은 "FileSha1", "FileSha256", "FileMd5", "CertificateThumbprint", "IpAddress", "DomainName" 및 "Url"입니다.
-application|문자열|표시기와 연결된 응용 프로그램입니다.
+application|String|표시기와 연결된 응용 프로그램입니다.
 조치|Enum|표시기가 조직에서 검색되는 경우 수행되는 작업입니다. 가능한 값은 "Warn", "Block", "Audit", "Alert", "AlertAndBlock", "BlockAndRemediate" 및 "Allowed"입니다.
 |externalID|String|고객이 사용자 지정 상관 관계 요청에 제출할 수 있는 ID입니다.|
 sourceType|Enum|사용자가 만든 표시기(예: 포털에서)가 API를 통해 자동화된 응용 프로그램을 사용하여 제출한 경우 "사용자"입니다.
@@ -65,9 +65,9 @@ creationTimeDateTimeUtc|DateTimeOffset|표시기를 만든 날짜 및 시간입�
 expirationTime|DateTimeOffset|표시기 만료 시간입니다.
 lastUpdateTime|DateTimeOffset|표시기가 마지막으로 업데이트된 시간입니다.
 심각도|Enum|표시기 심각도입니다. 가능한 값은 "Informational", "Low", "Medium" 및 "High"입니다.
-제목|String|표시기 제목입니다.
-설명|문자열|표시기 설명입니다.
-recommendedActions|문자열|표시기를 위한 권장 작업입니다.
+title|String|표시기 제목입니다.
+설명|String|표시기 설명입니다.
+recommendedActions|String|표시기를 위한 권장 작업입니다.
 rbacGroupNames|문자열 목록|표시기가 노출되어 활성 상태인 RBAC 장치 그룹 이름입니다. 모든 장치에 노출되는 경우 빈 목록입니다.
 rbacGroupIds|문자열 목록|RBAC 장치 그룹 ID에서 표시기가 노출되어 활성 상태입니다. 모든 장치에 노출되는 경우 빈 목록입니다.
 ## <a name="public-preview-indicator-types"></a>공개 미리 보기: 표시기 유형

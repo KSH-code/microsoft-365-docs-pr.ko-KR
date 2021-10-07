@@ -2,15 +2,13 @@
 title: 엔드포인트용 Microsoft Defender 배포 준비
 description: 끝점용 Microsoft Defender 배포를 위한 이해 관계자 승인, 일정, 환경 고려 사항 및 채택 순서 준비
 keywords: 배포, 준비, 관련자, 타임라인, 환경, 끝점, 서버, 관리, 채택
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -19,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2fe6fa150967973cce58dec9cc47c625305462fc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0e577108f92abe0c704cd812e61445f8d0f83f13
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213485"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191746"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>엔드포인트용 Microsoft Defender 배포 준비
 
@@ -142,7 +140,7 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 
 |구성 요소|설명|채택 순서 순위|
 |---|---|---|
-|끝점 검색 & 응답(EDR)|Endpoint 끝점 감지 및 응답 기능에 대한 Defender는 거의 실시간으로 실행 가능한 고급 공격 감지를 제공합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 대응 조치를 취할 수 있습니다. <p> [더 알아보세요.](/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)|1|
+|끝점 검색 & 응답(EDR)|Endpoint 끝점 감지 및 응답 기능에 대한 Defender는 거의 실시간으로 실행 가능한 고급 공격 감지를 제공합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 응답 조치를 취할 수 있습니다. <p> [더 알아보세요.](/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)|1|
 |위협 & 취약성 관리(TVM)|위협 & 취약성 관리는 끝점용 Microsoft Defender의 구성 요소로, 다음을 비롯한 고유한 가치를 보안 관리자 및 보안 운영 팀에 제공합니다. <ul><li>엔드포인트 취약점과 관련된 실시간 EDR(엔드포인트 탐지 및 대응) 인사이트</li><li>인시던트 조사 중에 평가할 수 있는 장치 취약성 컨텍스트</li><li>Microsoft Intune Microsoft 2013을 통한 기본 System Center Configuration Manager</li></ul> <p> [자세히 알아보기](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Introducing-a-risk-based-approach-to-threat-and-vulnerability/ba-p/377845).|2|
 |NGP(차세대 보호)|Microsoft Defender 바이러스 백신 맬웨어 방지 솔루션으로, 데스크톱, 휴대용 컴퓨터 및 서버에 대한 차세대 보호 기능을 제공합니다. Windows Defender 바이러스 백신은 다음을 포함합니다. <ul><li>새로 등장하는 위협의 거의 즉각적인 탐지 및 차단을 위한 클라우드 전달 보호 기능. 기계 학습 및 Intelligent Security Graph와 함께 클라우드 전달 보호 기능은 Microsoft Defender 바이러스 백신을 지원하는 차세대 기술의 일부입니다.</li><li>고급 파일 및 프로세스 동작 모니터링 및 기타추론("실시간 보호"라고도 알려지기)을 사용하여 항상 검사합니다.</li><li>기계 학습, 인간 및 자동화된 대규모 데이터 분석, 심층 위협 저항 연구를 기반으로 하는 전용 보호 업데이트.</li></ul> <p> [자세히 알아보기](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10).|3 |
 |ASR(공격 표면 축소)|Microsoft Defender for Endpoint의 공격 표면 감소 기능은 새로운 위협으로부터 조직의 장치 및 응용 프로그램을 보호하는 데 도움이 됩니다. <br> [더 알아보세요.](/windows/security/threat-protection/windows-defender-atp/overview-attack-surface-reduction)|4 |

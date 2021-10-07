@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: 스마트 태그를 사용하면 특정 사례에서 콘텐츠를 검토할 때 기계 학습 기능을 Advanced eDiscovery 있습니다. 스마트 태그 그룹을 사용하여 변호사-클라이언트 권한 모델과 같은 기계 학습 검색 모델의 결과를 표시합니다.
-ms.openlocfilehash: 3d3852a13410a3aa57932e19031cc5d00ce52a96
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c47db0c38c13820013615ff986517a86236f186b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218795"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195548"
 ---
 # <a name="set-up-smart-tags-in-advanced-ediscovery"></a>팜에서 스마트 태그 Advanced eDiscovery
 

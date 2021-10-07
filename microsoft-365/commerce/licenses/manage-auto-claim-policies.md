@@ -9,7 +9,7 @@ ms.review: yinggiy, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -19,12 +19,12 @@ ms.custom:
 description: 특정 앱에 대한 라이선스를 사용자에게 자동으로 할당하는 자동 클레임 정책을 만들고 관리하는 방법을 학습합니다.
 search.appverid: MET150
 ms.date: 04/06/2021
-ms.openlocfilehash: b104700905b3753466036411368951f12a7012d8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 41d11c6c67d35766e61106bd2beefd69462a42ff
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190309"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179682"
 ---
 # <a name="manage-auto-claim-policies"></a>자동 클레임 정책 관리
 

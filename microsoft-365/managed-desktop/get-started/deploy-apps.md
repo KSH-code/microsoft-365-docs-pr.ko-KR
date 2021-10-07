@@ -4,17 +4,17 @@ description: 디바이스에 앱을 추가하고 배포하는 Microsoft Managed 
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 앱, LOB 앱, LOB 앱
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bcb1c85e533ae691c34d41bd6694e58c49617738
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a84f6e13a7c189ce4cd33f308e765e5c59dae374
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215482"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195236"
 ---
 # <a name="deploy-apps-to-devices"></a>장치에 앱 배포
 온보드를 Microsoft Managed Desktop 장치에 앱을 추가하고 배포하는 것이 포함됩니다. 앱 포털을 Microsoft Managed Desktop 앱을 추가하고 배포할 수 있습니다. 
@@ -79,7 +79,7 @@ LOB(LOB) 앱을 포털에 추가할 Microsoft Managed Desktop 있습니다. Micr
 
 앱 할당 유형 |    그룹 사용    | 예제 Azure AD 이름
 --- | --- | ---
-사용할 수 있음 |  앱은 앱 또는 웹 사이트에서 회사 포털 있습니다. | MMD – *앱 이름* - 사용 가능
+사용 가능 |  앱은 앱 또는 웹 사이트에서 회사 포털 있습니다. | MMD – *앱 이름* - 사용 가능
 필수 |  앱이 선택한 그룹의 장치에 설치됩니다. | MMD – *앱 이름* - 필수
 제거 |  선택한 그룹의 장치에서 앱이 제거됩니다. | MMD – *앱 이름* – 제거
 

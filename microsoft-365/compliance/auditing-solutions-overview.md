@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - m365-security-compliance
 - m365solution-audit
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 조직의 사용자와 관리자의 활동을 감사하는 방법에 대해 알아 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: afed2a8a12f158ff7e283e7d82d1abe7c35a0732
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: fbd00bdff46bebb73535f2b24c1b0bfa997dd55a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59498115"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60163435"
 ---
 # <a name="auditing-solutions-in-microsoft-365"></a>Microsoft 365의 감사 솔루션
 
@@ -46,7 +46,7 @@ Microsoft 365는 기본 감사 및 고급 감사라는 두 가지 감사 솔루�
 
    ![Microsoft 365 규정 준수 센터의 감사 로그 검색 도구.](../media/AuditLogSearchToolMCC.png)
 
-- **Search-UnifiedAuditLog cmdlet**. Exchange Online PowerShell의 **Search-UnifiedAuditLog** cmdlet(검색 도구의 기본 cmdlet)을 사용하여 감사 이벤트를 검색하거나 스크립트에서 사용할 수도 있습니다. 자세한 내용은 다음을 참조하세요.
+- **Search-UnifiedAuditLog cmdlet**. Exchange Online PowerShell의 **Search-UnifiedAuditLog** cmdlet(검색 도구의 기본 cmdlet)을 사용하여 감사 이벤트를 검색하거나 스크립트에서 사용할 수도 있습니다. 자세한 정보는 다음을 참조하세요.
 
   - [Search-UnifiedAuditLog cmdlet 참조](/powershell/module/exchange/search-unifiedauditlog)
   - [PowerShell 스크립트를 사용하여 감사 로그 검색](audit-log-search-script.md)
@@ -65,7 +65,7 @@ Microsoft 365는 기본 감사 및 고급 감사라는 두 가지 감사 솔루�
 
 - **더 길어진 감사 레코드의 보존** Exchange, SharePoint 및 Azure Active Directory 감사 레코드는 기본적으로 1년 동안 유지됩니다. 다른 모든 활동에 대한 감사 레코드는 기본적으로 90일 동안 보존되거나 감사 로그 보존 정책을 사용하여 더 긴 보존 기간을 구성할 수 있습니다.
 
-- **가치가 높고 중요한 고급 감사 이벤트**. 중요한 이벤트에 대한 감사 레코드는 메일 항목에 액세스한 시기, 메일 항목에 회신 및 회송된 시기 또는 Exchange Online 및 SharePoint Online에서 사용자가 검색한 시기 및 내용과 같은 이벤트에 대한 가시성을 제공하여 조직이 법의학적 조사 및 규정 준수 조사를 수행하는 데 도움이 될 수 있습니다. 이러한 주요 이벤트는 발생 가능성이 있는 위반을 조사하고 손상 범위를 결정 하는 데 도움이 될 수 있습니다.
+- **가치가 높고 중요한 고급 감사 이벤트**. 중요한 이벤트에 대한 감사 레코드는 전자 메일 항목에 액세스한 시점, 전자 메일 항목에 대한 회신 및 전달 시점, Exchange 온라인 및 SharePoint 온라인에서 사용자가 검색한 시기와 내용과 같은 이벤트에 대한 가시성을 제공하여 조직이 법의학 및 규정 준수 조사를 수행하는 데 도움이 될 수 있습니다. 이러한 중요한 이벤트는 가능한 위반을 조사하고 절충 범위를 결정하는 데 도움이 될 수 있습니다.
 
 - **Office 365 관리 활동 API에 대한 고 대역폭**. 고급 감사는 Office 365 관리 활동 API를 통해 감사 로그에 액세스할 수 있는 더 많은 대역폭을 조직에 제공합니다. 기본 감사 또는 고급 감사 기능이 있는 모든 조직에는 처음에는 분당 2,000개의 요청이 할당되지만, 이 제한은 조직의 좌석 수와 라이선스 가입에 따라 동적으로 증가합니다. 따라서 고급 감사 기능이 있는 조직은 기본 감사 기능이 있는 조직보다 약 두 배 더 많은 대역폭을 얻게 됩니다.
 

@@ -12,7 +12,7 @@ ms.custom: admindeeplinkMAC
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: f674e21ecc83a24f641ae7e21361245cb18cdd4c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4085804b6d782a177f4a036421afa9460f3c0354
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166002"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179406"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구 - Contoso는 통신에 대한 공격적인 언어 Microsoft Teams, Exchange Yammer 구성합니다.
 
@@ -59,7 +59,7 @@ Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 규정 준수 
 - Microsoft 365 A5 구독(유료 또는 평가판)
 - Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
 - Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
-- Microsoft 365 G5 구독(유료 또는 평가판)
+- Microsoft 365 G5 구독(유료 또는 평가판 버전)
 - Microsoft 365 G5 구독 + Microsoft 365 G5 준수 추가 기능
 - Microsoft 365 G5 구독 + Microsoft 365 G5 내부자 위험 관리 추가 기능
 - Office 365 Enterprise E5 구독(유료 또는 평가판)

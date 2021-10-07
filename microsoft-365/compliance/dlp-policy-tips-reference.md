@@ -8,7 +8,7 @@ ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP(데이터 손실 방지) 정책에 정책 팁을 추가하여 사용자에게 DLP 정책과 충돌하는 콘텐츠를 사용 중일 때 이를 알리는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 7c1e61378e4da34c964c4fcdaf87afc25e88b4d0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2537b653b435240e052374e3328e2b94504a8d74
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219045"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195644"
 ---
 # <a name="data-loss-prevention-policy-tips-reference"></a>데이터 손실 방지 정책 팁 참조
 
@@ -395,7 +395,7 @@ Outlook Web Access의 DLP 정책 팁은 다음을 제외한 DLP 정책의 Exchan
 |**앱 및 플랫폼**|**DLP 정책 팁 지원**|**지원되는 중요한 정보 유형**|**지원되는 사전 및 작업**|**Comments**|
 |:--|:--|:--|:--|:--|
 |**Outlook 웹에서**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|하위 집합||
-|**Outlook Win32(ver. 2105 빌드 14026.20000 및 반기 채널 ver. 2102 빌드 13801.20862)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|하위 집합|Outlook [2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) 이상에서는 일부 조건 및 예외에 대한 정책 팁만 표시하고 [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) 이상 및 데스크톱의 Office 앱 지원에서는 중요한 정보 유형 및 DLP 조건에 대한 지원에 대한 자세한 내용과 Outlook Win32에 대한 DLP 정책 팁을 표시하는 데 지원되는 작업에 대한 정책 팁만 보여 주실 수 있습니다.|
+|**Outlook Win32(ver. 2105 빌드 14026.20000 및 반기 채널 ver. 2102 빌드 13801.20862)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|하위 집합|Outlook [2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) 이상에서는 일부 조건 및 예외에 대한 정책 팁만 표시하고 [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) 이상 및 데스크톱의 Office 앱 지원 지원에서는 중요한 정보 유형 및 DLP 조건에 대한 지원에 대한 자세한 내용과 Outlook Win32에 대한 DLP 정책 팁을 표시하는 데 지원되는 작업에 대한 일부 중요한 정보 유형에 대한 정책 팁만 보여 주실 수 있습니다. .|
 |**Outlook 모바일(iOS, Android)/Outlook Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|DLP 정책 팁은 모바일에서 Outlook 지원되지 않습니다.|
 |**SharePoint 온라인/비즈니스용 OneDrive 웹 클라이언트**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|DLP의 모든 SPO/ODB 프레디트 및 작업||
 |**SharePoint Win32/ 비즈니스용 OneDrive Win32 클라이언트**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|DLP 정책 팁은 데스크톱 클라이언트 SharePoint OneDrive 지원되지 않습니다.|

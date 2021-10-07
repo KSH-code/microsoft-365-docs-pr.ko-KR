@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 17a-4 ServiceNow DataParser 커넥터를 설정하고 사용하여 17a-4에서 ServiceNow 데이터를 가져오고 보관하는 Microsoft 365.
-ms.openlocfilehash: 5cf800c10b8e4bb7631c43183ea939d8eba7cf28
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: f0aa908d8037dddbcf3ca00bb47d32979a042e76
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59401317"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195728"
 ---
 # <a name="set-up-a-connector-to-archive-data-from-servicenow"></a>ServiceNow에서 데이터를 보관할 커넥터 설정
 

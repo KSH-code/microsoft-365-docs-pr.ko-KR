@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Adm_O365
 - Adm_TOC
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 Microsoft 365 구독에 대한 온라인 또는 전화 지원을 받는 방법을 알아봅니다. 이러한 지원을 받으려면 비즈니스 구독의 관리자여야 합니다.
-ms.openlocfilehash: e224b5a6224dc182d36a99f0b7943a586c64b08a
-ms.sourcegitcommit: 4b1bf6e4f4a0c016d148cdde7f7880dd774403d1
+ms.openlocfilehash: 965038e883378aa754a5a4b3957644340feaca8b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59988610"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179730"
 ---
 # <a name="get-support"></a>지원 받기
 
@@ -48,7 +48,7 @@ ms.locfileid: "59988610"
 
 온라인으로 서비스 요청을 시작하여 시간을 절약합니다. 솔루션을 찾거나 기술 지원을 받을 수 있도록 도와드리겠습니다.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 관리자가 아닌 경우 이 페이지에 액세스하거나 이 작업을 수행할 수 있는 권한이 없다는 메시지가 표시됩니다. 자세한 내용은 [내 비즈니스에서 관리자 권한이 있는 사용자 알아보기](admin-center-overview.md#who-has-admin-permissions-in-my-business)를 참조하세요.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank">https://admin.microsoft.com</a>관리 센터로 이동합니다. 관리자가 아닌 경우 이 페이지에 액세스하거나 이 작업을 수행할 수 있는 권한이 없다는 메시지가 표시됩니다. 자세한 내용은 [내 비즈니스에서 관리자 권한이 있는 사용자 알아보기](admin-center-overview.md#who-has-admin-permissions-in-my-business)를 참조하세요.
 2. 페이지 오른쪽 아래에서 **도움말 및 지원** 을 선택합니다.
 3. 텍스트 상자에 질문이나 키워드를 입력합니다. 드롭다운 목록이 표시되면 질문에 가장 근접한 항목을 선택하거나 질문을 계속 입력한 다음 **Enter 키** 를 누릅니다.
 4. 결과가 도움이 되지 않는다면 맨 아래에서 **고객 지원** 을 선택합니다.
@@ -82,7 +82,7 @@ ms.locfileid: "59988610"
 
 중소기업 전문가의 전문가 조언을 통해 구독을 최대한 활용하세요.
 
-Microsoft 365용 Business Assist는 온보딩에서 일상적인 사용에 이르기까지 비즈니스 성장에 따라 귀하와 직원이 24시간 내내 중소기업 전문가에게 액세스할 수 있도록 중소기업을 위해 설계되었습니다. 자세한 내용은 [Business Assist](../admin/misc/business-assist.md)를 참조하세요.
+Microsoft 365용 비즈니스 도우미는 온보딩에서 일상적인 사용에 이르기까지 비즈니스 성장에 따라 귀하와 직원이 24시간 내내 중소기업 전문가에게 액세스할 수 있도록 중소기업을 위해 설계되었습니다. 자세한 내용은 [비즈니스 도우미](../admin/misc/business-assist.md)를 참조하세요.
 
 ::: moniker-end
 
@@ -232,7 +232,7 @@ Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터
 
 지원 옵션은 Office 365 Germany 구독 조직의 관리자만 사용할 수 있습니다. 직장이나 학교에서 Office 365 Germany를 사용하지만 관리자가 아닌 경우에도 커뮤니티 포럼이나 관리자 또는 IT 부서에 문의하여 지원을 받을 수 있습니다.
 
-- **온라인 요청을 엽니다.** 온라인으로 서비스 요청을 시작하여 시간을 절약하세요. 관리 센터에서 **지원** \> **새 서비스 요청** 을 선택합니다. Microsoft에서 해결 방법을 찾도록 도와 드리거나 전자 메일이나 전화로 연락받을 전문가에게 연결해 드립니다.
+- **온라인 요청을 엽니다.** 온라인으로 서비스 요청을 시작하여 시간을 절약하세요. 관리 센터에서 **지원** \> **새 서비스 요청** 을 선택합니다. 해결 방법을 찾거나 전자 메일 또는 전화로 전문가에게 연락할 수 있도록 도와드립니다.
 
 - **지원 서비스에 문의합니다.** 여기에서 지원해드립니다. 전화하는 관리자는 지원을 문의할 때 계정 정보를 준비하세요.
 

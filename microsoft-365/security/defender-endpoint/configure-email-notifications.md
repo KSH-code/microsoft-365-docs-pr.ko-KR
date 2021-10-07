@@ -1,27 +1,25 @@
 ---
 title: 끝점용 Microsoft Defender에서 경고 알림 구성
 description: 끝점용 Microsoft Defender를 사용하여 심각도 및 기타 기준에 따라 보안 경고에 대한 전자 메일 알림 설정을 구성할 수 있습니다.
-keywords: 전자 메일 알림, 경고 알림 구성, 끝점용 Microsoft Defender, 끝점 알림용 Microsoft Defender, 끝점 경고용 Microsoft Defender, Windows 10 Enterprise, Windows 10 Education
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
+keywords: 전자 메일 알림, 경고 알림 구성, 끝점용 Microsoft Defender, 끝점 알림용 Microsoft Defender, 끝점 경고용 Microsoft Defender, Windows 엔터프라이즈, Windows Education
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 857df1a9f088c316349fbbe02618a7345df5a075
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d598687edbb4268bc02a4f0bd8c752405cf22dee
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222004"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60192970"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 경고 알림 구성
 

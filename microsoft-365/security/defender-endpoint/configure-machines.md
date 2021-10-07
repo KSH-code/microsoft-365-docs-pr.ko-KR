@@ -2,26 +2,24 @@
 title: 장치가 올바르게 구성되어 있는지 확인
 description: 장치를 적절히 구성하여 위협에 대한 전반적인 탄력성을 높이고 공격을 감지하고 대응할 수 있는 기능을 향상시킵니다.
 keywords: 온보드, Intune 관리, 끝점용 Microsoft Defender, Microsoft Defender, Windows Defender, 공격 표면 감소, ASR, 보안 기준
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: lomayor
 author: lomayor
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b9d00ec13a08751882e7c699a4e029083dc08bc6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 06fa097275453e3ae7b64f0e0cb142fe7592c88b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221668"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191962"
 ---
 # <a name="ensure-your-devices-are-configured-properly"></a>장치가 올바르게 구성되어 있는지 확인
 
@@ -56,9 +54,9 @@ ms.locfileid: "59221668"
 
 ## <a name="enroll-devices-to-intune-management"></a>Intune 관리에 장치 등록
 
-장치 구성 관리는 Intune 장치 관리와 밀접하게 작동하여 조직의 디바이스 인벤토리 및 기준 보안 구성을 설정합니다. Intune 관리 디바이스에서 구성 문제를 추적하고 관리할 Windows 10 있습니다.
+장치 구성 관리는 Intune 장치 관리와 밀접하게 작동하여 조직의 디바이스 인벤토리 및 기준 보안 구성을 설정합니다. Intune 관리 디바이스에서 구성 문제를 추적하고 관리할 Windows 있습니다.
 
-장치가 올바르게 구성되었는지 확인하려면 먼저 Intune 관리에 등록합니다. Intune 등록은 강력하며 장치용 여러 등록 Windows 10 있습니다. Intune 등록 옵션에 대한 자세한 내용은 장치 등록 [설정에 대해 Windows 읽어 보십시오.](/intune/windows-enroll)
+장치가 올바르게 구성되었는지 확인하려면 먼저 Intune 관리에 등록합니다. Intune 등록은 강력하며 여러 가지 등록 옵션을 Windows 있습니다. Intune 등록 옵션에 대한 자세한 내용은 장치 등록 [설정에 대해 Windows 읽어 보십시오.](/intune/windows-enroll)
 
 > [!NOTE]
 > Intune에 Windows 등록하려면 관리자에게 라이선스가 이미 할당되어 있어야 합니다. [장치 등록에 대한 라이선스 할당에 대해 읽어 읽습니다.](/intune/licenses-assign)

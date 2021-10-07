@@ -9,7 +9,7 @@ ms.reviewer: micurn, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 description: 새 기능이 필요한 경우 사용자를 다른 구독으로 이동하는 방법을 배워야 합니다.
 ms.date: 09/16/2021
-ms.openlocfilehash: 436df4d563dea3717e463dab71c3a8b7e465dd70
-ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
+ms.openlocfilehash: a04532747b2685826bf7a7a07c6930a40c57ccde
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59477554"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179742"
 ---
 # <a name="move-users-to-different-subscriptions"></a>다른 구독으로 사용자 이동
 
@@ -41,7 +41,7 @@ ms.locfileid: "59477554"
 사용자가 역할을 변경하면 현재 구독에서 사용할 수 없는 기능이 필요할 Microsoft 365 Business Premium 있습니다. 이 경우 이러한 기능이 포함된 새 구독을 추가하고 필요한 사용자에게 라이선스를 할당할 수 있습니다.
 
 > [!NOTE]
-> 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지나면 기간이 끝날 때 구독을 취소하기 위해 재발급 청구를 해제합니다.
+> 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지난 경우 되풀이 청구를 해제하여 기간이 끝날 때 구독을 취소합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
@@ -58,7 +58,7 @@ ms.locfileid: "59477554"
 1. 창의 Microsoft 365 관리 센터 탐색 창에서 사용자 활성 **사용자를**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**선택합니다.**</a>
 1. 사용자의 이름을 선택한 다음 라이선스 및 앱 **s를** 선택합니다.
 1. 라이선스 **아래에서** 새 구독이 볼 수 있습니다. 새 구독 옆의 확인란을 선택하고 이전 구독 옆에 있는 확인란의 선택을 취소합니다.
-1. **변경 사항 저장** 을 선택합니다. 이제 새 구독에 대한 라이선스가 이 사용자에게 할당됩니다.
+1. **변경 내용 저장** 을 선택합니다. 이제 새 구독에 대한 라이선스가 이 사용자에게 할당됩니다.
 
 ### <a name="remove-an-unused-license"></a>사용되지 않는 라이선스 제거
 

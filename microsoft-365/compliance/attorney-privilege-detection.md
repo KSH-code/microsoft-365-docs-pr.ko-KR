@@ -9,19 +9,19 @@ ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: 변호사-클라이언트 권한 검색 모델을 사용하여 특정 사례의 콘텐츠를 검토할 때 권한이 부여된 콘텐츠에 대한 기계 학습 기반 검색을 Advanced eDiscovery 있습니다.
-ms.openlocfilehash: babf0088b7880e614234c0eea0432b0a7fa22db0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4e15f0366da8d860a0e907b82ed4668d7e4d7af4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166154"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179466"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>2013에서 변호사-클라이언트 권한 검색 Advanced eDiscovery
 

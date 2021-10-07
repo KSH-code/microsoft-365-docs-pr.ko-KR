@@ -10,7 +10,7 @@ ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetup4WindowsConfig
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
@@ -28,12 +28,12 @@ search.appverid:
 ROBOTS: NO INDEX, NO FOLLOW
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 자신의 직장 또는 학교 계정에 로그인할 때 모든 Windows 10 기본 장치 정책의 설정을 구성하는 방법을 학습합니다.
-ms.openlocfilehash: b4460f8f5e40ee6f0e121b128f17e27db7aa4979
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1a39fdad31de5e4aef2fa5bbc4995d9c4c8bbb90
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186956"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191244"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10 장치 보안
 

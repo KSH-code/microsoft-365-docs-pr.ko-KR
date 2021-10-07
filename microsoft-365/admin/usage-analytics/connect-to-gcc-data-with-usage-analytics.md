@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -21,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 정부 커뮤니티 클라우드(GCC) 테넌트의 Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 데이터에 연결하는 방법을 Power BI.
-ms.openlocfilehash: a57d536d7210e0ba927824d5403792a3e5090f98
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 3930ffe82c998797aade84e92145adac5fa2ea98
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776707"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179808"
 ---
 # <a name="connect-to-microsoft-365-government-community-cloud-gcc-data-with-usage-analytics"></a>커넥트 사용하여 Microsoft 365 정부 커뮤니티 클라우드(GCC) 데이터 관리
 
@@ -35,7 +36,7 @@ ms.locfileid: "59776707"
 > [!NOTE]
 > 이러한 지침은 테넌트의 Microsoft 365 GCC 있습니다. 
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 처음에 사용 현황 Microsoft 365 구성: 
 

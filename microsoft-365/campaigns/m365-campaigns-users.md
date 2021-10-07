@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대한 이러한 보안 권장 Microsoft 365 Business Premium 사용자에게 영향을 미치고 데이터를 보호하는 방법을 알아보습니다.
-ms.openlocfilehash: 8f8ccbbb1f9edb6eb9b1f29078317727b5e9b6e7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e6fc47e0476c063cb7d24bd84a255e279bf84ed3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186467"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194744"
 ---
 # <a name="how-these-security-recommendations-affect-your-users"></a>이러한 보안 권장 사항이 사용자에게 미치는 영향
 
@@ -72,7 +72,7 @@ ms.locfileid: "59186467"
 
 |**Windows 10**|**Mac**|
 |:-----|:------|
-|BitLocker 장치 보호 켜기<p><p> 계속 Windows Defender 확인 <p>방화벽 Windows 켜기| FileVault를 사용하여 Mac 디스크 암호화 <p><p>신뢰할 수 있는 바이러스 백신 소프트웨어 사용 <p>방화벽 보호 켜기|
+|BitLocker 장치 보호 켜기<p><p> 계속 Windows Defender 확인 <p>Windows 방화벽 켜기| FileVault를 사용하여 Mac 디스크 암호화 <p><p>신뢰할 수 있는 바이러스 백신 소프트웨어 사용 <p>방화벽 보호 켜기|
 
 이러한 권장 사항에 대한 자세한 내용은 해커 및 맬웨어로부터 계정 및 [장치 보호를 참조하세요.](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10)
 

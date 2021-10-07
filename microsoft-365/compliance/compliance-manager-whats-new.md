@@ -8,18 +8,18 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 관리의 새로운 것 및 새로운 방법을 찾아 찾습니다. 업데이트된 평가, 새 평가 템플릿, 새 작업 등에 대해 읽어 읽습니다.
-ms.openlocfilehash: 823df0ac274dad0ae278ce981a0dca0f0ad8a9ed
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e449cfdac56b9a22a571e1a6672bd274616508d9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189902"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179250"
 ---
 # <a name="whats-new-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자의 새로운
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 단일 위치에서 테넌트를 관리할 수 있는 기능을 제공 하는 테넌트 전환기 및 다중 테넌트 보기를 사용하는 방법을 학습합니다.
-ms.openlocfilehash: 78ab8be76d02b813ee81fe444c97d1451375e4ee
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: d30d352376bb10e142d478e21ddd550577f536ca
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786254"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195176"
 ---
 # <a name="multi-tenant-management"></a>다중 테넌트 관리
 

@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: ab53061a7880d5ba35c16203cffc7d6eb8e7b718
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fb30a5dbc2d5a6859343a1b382cdbd0106819cd2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222883"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60191950"
 ---
 # <a name="create-alert-api"></a>경고 API 만들기
 
@@ -77,8 +77,8 @@ POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 
 이름|유형|설명
 :---|:---|:---
-권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
-Content-Type | 문자열 | application/json. **필수입니다**.
+권한 부여 | String | Bearer {token}. **필수입니다**.
+Content-Type | String | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -89,11 +89,11 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 eventTime | DateTime(UTC) | 고급 헌팅에서 얻은 이벤트의 정확한 시간(문자열)입니다. 예: 필수 ```2018-08-03T16:45:21.7115183Z``` .
 reportId | String | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
 machineId | String | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
-심각도 | 문자열 | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
-제목 | String | 경고의 제목입니다. **필수입니다**.
+심각도 | String | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
+title | String | 경고의 제목입니다. **필수입니다**.
 설명 | String | 경고에 대한 설명입니다. **필수입니다**.
 recommendedAction| String | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
-category| 문자열 | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
+category| String | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
 
 ## <a name="response"></a>응답
 
