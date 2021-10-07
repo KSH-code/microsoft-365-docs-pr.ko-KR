@@ -11,19 +11,19 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: ce17ef1f76b7311dc9e0c10bcde1554954b6639d
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: bdc91a8e2f503efaed574d861adfbe7e94d7c852
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60043026"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216961"
 ---
 # <a name="communication-compliance-feature-reference"></a>커뮤니케이션 규정 준수 기능 참조
 
@@ -94,7 +94,7 @@ Microsoft 365 규정 준수 센터에서 Microsoft 365 조직에 대한 커뮤�
 - 정책을 검사하여 과도한 가짓 긍정 경고를 검사합니다. 일반적인 가짓 긍정 경고를 무시하기 위해 정책 조건에 예외 또는 변경 내용을 추가하는 것을 고려합니다.
 - 정책이 저장소 또는 메시지 제한에 도달하고 비활성화된 경우 정책 복사본을 만들어 동일한 조건과 사용자에 대한 작업을 계속 감지하고 조치를 취합니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 > [!IMPORTANT]
 > 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당된 역할은 통신 준수 기능에 액세스하기 전에 필요합니다.

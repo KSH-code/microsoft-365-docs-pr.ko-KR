@@ -7,7 +7,7 @@ ms.date: 04/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: Ent_O365
@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: e9d14cb2-ff28-4a18-a444-cebf891880ea
 description: 이 문서에서는 Azure를 사용하여 팜에 대한 재해 복구 환경을 만드는 SharePoint 설명합니다.
-ms.openlocfilehash: 87bbbf143fe831537ddbc08e6d43b4013fe1e379
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 80b85aeb602cadf3fb2306c5ef929acbe35d3762
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215675"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60214180"
 ---
 # <a name="sharepoint-server-2013-disaster-recovery-in-microsoft-azure"></a>Microsoft Azure에서 SharePoint Server 2013 재해 복구
 

@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격에 대한 조직의 보안을 강화하고 공통 암호를 금지하고 위험 기반 다단계 인증을 사용하세요.
-ms.openlocfilehash: bf722e665950be87ed652f4df7fa7e5b2298959c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d05b642455369cda3897733044727719e671a619
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186996"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60171762"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
 
@@ -113,7 +113,7 @@ Microsoft 365 암호에 대한 자세한 내용은 다음을 참조 하세요.
   
 ### <a name="ban-common-passwords"></a>일반적인 암호 금지
 
-암호를 만들 때 사용자에게 제공해야 하는 가장 중요한 암호 요구 사항은 조직의 무작위 암호 공격에 대한 취약성을 줄이기 위해 일반적인 암호 사용을 금지하는 것입니다. 일반적인 사용자 암호에는 **abcdefg**, **password**, **monkey** 가 포함됩니다.
+암호를 만들 때 사용자에게 제공해야 하는 가장 중요한 암호 요구 사항은 조직의 무작위 암호 공격에 대한 취약성을 줄이기 위해 일반적인 암호 사용을 금지하는 것입니다. 일반적인 사용자 암호에는 **abcdefg**, **password**, **monkey** 가 있습니다.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>다른 곳에서 조직 암호를 다시 사용하지 않도록 사용자를 교육합니다.
 

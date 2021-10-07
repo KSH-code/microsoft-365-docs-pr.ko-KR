@@ -11,29 +11,29 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 97401e58d5f75707d92325fc768d28d049e69b47
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 0e49935ff1d280adf4c1567a2064496a475c6033
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59484177"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216949"
 ---
 # <a name="communication-compliance-with-siem-solutions"></a>SIEM 솔루션과의 통신 규정 준수
 
 [커뮤니케이션 규정](communication-compliance.md) 준수는 조직의 부적절한 메시지를 Microsoft 365, 캡처 및 처리하여 통신 위험을 최소화하는 데 도움이 되는 조직의 내부자 위험 솔루션입니다. [Azure Sentinel](https://azure.microsoft.com/services/azure-sentinel) 또는 [Splunk와](https://www.splunk.com/) 같은 SIEM(보안 정보 및 이벤트 관리) 솔루션은 일반적으로 조직 내에서 위협을 집계하고 추적하는 데 사용됩니다.
 
-조직에 대한 일반적인 요구는 통신 준수 경고와 이러한 SIEM 솔루션을 통합하는 것입니다. 이러한 통합을 통해 조직은 SIEM 솔루션에서 통신 준수 경고를 보고 통신 준수 워크플로 및 사용자 환경 내에서 경고를 재구성할 수 있습니다. 예를 들어 직원이 다른 직원에게 공격 메시지를 보내고 해당 메시지는 비방 언어에 대한 통신 규정 준수 정책 모니터링에서 검색됩니다. 이러한 이벤트는 통신 준수 Microsoft 365 통합 감사 로그에서 추적되고 SIEM 솔루션에서 가져오기됩니다. 그런 다음 조직의 SIEM 솔루션에서 통신 준수 경고와 연결된 통합 감사 Microsoft 365 모니터링되는 이벤트에서 경고가 트리거됩니다. 조사자는 SIEM 솔루션에서 경고를 보고한 다음 통신 준수 솔루션에서 경고를 조사하고 수정합니다.
+조직에 대한 일반적인 요구는 통신 준수 경고와 이러한 SIEM 솔루션을 통합하는 것입니다. 이러한 통합을 통해 조직은 SIEM 솔루션에서 통신 준수 경고를 보고 통신 준수 워크플로 및 사용자 환경 내에서 경고를 재구성할 수 있습니다. 예를 들어 직원이 다른 직원에게 공격 메시지를 보내고 해당 메시지는 비방 언어에 대한 통신 규정 준수 정책 모니터링에서 검색됩니다. 이러한 이벤트는 통신 준수 솔루션에 의해 Microsoft 365 감사("통합 감사 로그"라고도 알려지며)에서 추적되고 SIEM 솔루션으로 가져올 수 있습니다. 그런 다음 조직의 SIEM 솔루션에서 통신 준수 경고와 관련된 Microsoft 365 감사에서 모니터링되는 이벤트에서 경고가 트리거됩니다. 조사자는 SIEM 솔루션에서 경고를 알리고 통신 준수 솔루션에서 경고를 조사하고 수정합니다.
 
-## <a name="communication-compliance-alerts-in-the-microsoft-365-unified-audit-logs"></a>통합 감사 로그의 Microsoft 365 준수 경고
+## <a name="communication-compliance-alerts-in-microsoft-365-audit"></a>감사의 통신 준수 Microsoft 365 알림
 
-모든 통신 준수 정책 일치는 통합 감사 Microsoft 365 캡처됩니다. 다음 예에서는 선택한 통신 준수 정책 일치 활동에 사용할 수 있는 세부 정보를 보여 주며,
+모든 통신 준수 정책 일치는 감사에서 Microsoft 365 캡처됩니다. 다음 예에서는 선택한 통신 준수 정책 일치 활동에 사용할 수 있는 세부 정보를 보여 주며,
 
 **공격 언어 정책 템플릿 일치에 대한 감사 로그 항목의 예는 다음과 같습니다.**
 
@@ -51,7 +51,7 @@ IsValid: True
 ObjectState: Unchanged
 ```
 
-**사용자 지정 키워드 일치(사용자 지정 중요한 정보 유형)가 있는 정책에 대한 감사 로그 항목의 예:**
+**사용자 지정 Microsoft 365 일치하는 정책에 대한 감사 로그 항목(사용자 지정 중요한 정보 유형)의 예:**
 
 ```xml
 RunspaceId: 5c7bc9b0-7672-4091-a112-0635bd5f7732
@@ -67,12 +67,12 @@ IsValid: True
 ObjectState: Unchanged
 ```
 
->[!NOTE]
->현재 정책 일치가 Microsoft 365 통합 감사 로그에 기록되는 시간과 통신 준수에서 정책 일치를 조사할 수 있는 시간 사이에는 최대 24시간의 지연이 있을 수 있습니다.
+> [!NOTE]
+> 현재 정책 일치가 Microsoft 365 감사에 기록되는 시간과 통신 규정 준수에서 정책 일치를 조사할 수 있는 시간 사이에는 최대 24시간이 지연될 수 있습니다.
 
 ## <a name="configure-communication-compliance-and-azure-sentinel-integration"></a>통신 규정 준수 및 Azure Sentinel 통합 구성
 
-Azure Sentinel을 사용하여 통신 준수 정책 일치를 집계하는 경우 Sentinel은 통합 Microsoft 365 로그를 데이터 원본으로 사용하게 됩니다. 통신 준수 경고를 Sentinel과 통합하기 위해 다음 단계를 완료합니다.
+Azure Sentinel을 사용하여 통신 준수 정책 일치를 집계할 때 Sentinel은 Microsoft 365 감사를 데이터 원본으로 사용하게 됩니다. 통신 준수 경고를 Sentinel과 통합하기 위해 다음 단계를 완료합니다.
 
 1. [Azure Sentinel에 온보드합니다.](/azure/sentinel/quickstart-onboard) 온보더링 프로세스의 일부로 데이터 원본을 구성합니다.
 2. Azure Sentinel [](/azure/sentinel/data-connectors-reference#microsoft-office-365) 데이터 Microsoft Office 365 구성하고 커넥터 구성에서 를 *Exchange.*
@@ -84,7 +84,7 @@ Azure Sentinel을 사용하여 통신 준수 정책 일치를 집계하는 경�
 
     *| OfficeActivity | 여기서 OfficeWorkload == "Exchange" 및 Operation == "SupervisionRuleMatch" 및 UserId == "User1@Contoso.com" | TimeGenerated별로 정렬*
 
-Azure Sentinel에서 수집한 Office 365 감사 로그에 대한 자세한 내용은 [Azure Monitor Logs reference 를 참조하세요.](/azure/azure-monitor/reference/tables/OfficeActivity)
+Azure Sentinel에서 Microsoft 365 감사 로그에 대한 Office 365 대한 자세한 내용은 [Azure Monitor Logs reference 를 참조하세요.](/azure/azure-monitor/reference/tables/OfficeActivity)
 
 ## <a name="configure-communication-compliance-and-splunk-integration"></a>통신 규정 준수 및 Splunk 통합 구성
 
@@ -111,7 +111,7 @@ Azure Sentinel에서 수집한 Office 365 감사 로그에 대한 자세한 내�
 
 ## <a name="configure-communication-compliance-with-other-siem-solutions"></a>다른 SIEM 솔루션과의 통신 준수 구성
 
-통합 감사 로그에서 통신 준수 Microsoft 365 일치를 검색하려면 PowerShell 또는 Office 365 [관리 API를](/office/office-365-management-api/office-365-management-activity-api-reference)사용할 수 있습니다.
+Microsoft 365 감사에서 통신 준수 정책 일치를 검색하기 위해 PowerShell 또는 Office 365 [관리 API를 사용할 수 있습니다.](/office/office-365-management-api/office-365-management-activity-api-reference)
 
 PowerShell을 사용하는 경우 **Search-UnifiedAuditLog** cmdlet과 함께 이러한 매개 변수 중 하나를 사용하여 통신 준수 활동에 대한 감사 로그 이벤트를 필터링할 수 있습니다.
 

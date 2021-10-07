@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.date: 06/11/2020
 ms.collection:
 - Strat_O365_IP
@@ -16,16 +16,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: 관리자 및 메시지 보낸 사람은 관리자 권한으로 암호화된 특정 전자 메일을 해지할 Office 365 고급 메시지 암호화.
-ms.openlocfilehash: b49915b6ef72d366a4b2718319150d2d5b640b9f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 86231857b01cc4f505f19063fe59cd58b75e263b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210872"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201820"
 ---
 # <a name="revoke-email-encrypted-by-advanced-message-encryption"></a>고급 메시지 암호화로 암호화된 전자 메일 해지
 
-전자 메일 해지는 전자 메일 해지의 일부로 Office 365 고급 메시지 암호화. Office 365 고급 메시지 암호화 [Microsoft 365 Enterprise E5,](https://www.microsoft.com/microsoft-365/enterprise/home)Office 365 E5, Microsoft 365 E5(비영리 직원 가격), Office 365 Enterprise E5(비영리 직원 가격 책정) 및 Office 365 Education A5에 포함되어 있습니다. 조직에 Office 365 고급 메시지 암호화 없는 구독이 있는 경우 Microsoft 365 E3, Microsoft 365 E3 Microsoft 365 E5 Compliance(비영리 직원 가격) 또는 Microsoft 365 E3(비영리 직원 가격) 또는 Microsoft 365 E3(비영리 직원 가격) 또는 Office 365 SKU용 Office 365 Advanced Compliance SKU 추가 기능을 사용하여 구입할 수 있습니다.
+전자 메일 해지는 전자 메일 해지의 일부로 Office 365 고급 메시지 암호화. Office 365 고급 메시지 암호화 [E5,](https://www.microsoft.com/microsoft-365/enterprise/home)Office 365 E5, Microsoft 365 E5(비영리 직원 가격), Office 365 Enterprise E5(비영리 직원 가격 책정)에 포함되어 있습니다 Microsoft 365 Enterprise. 및 Office 365 Education A5. 조직에 Office 365 고급 메시지 암호화 없는 구독이 있는 경우 Microsoft 365 E3, Microsoft 365 E3 Microsoft 365 E5 Compliance(비영리 직원 가격) 또는 Microsoft 365 E3(비영리 직원 가격) 또는 Microsoft 365 E3(비영리 직원 가격) 또는 Office 365 SKU용 Office 365 Advanced Compliance SKU 추가 기능을 사용하여 구입할 수 있습니다.
 
 이 문서는 에 대한 보다 큰 문서 [시리즈의 Office 365 메시지 암호화.](ome.md)
 

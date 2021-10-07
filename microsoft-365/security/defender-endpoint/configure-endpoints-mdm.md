@@ -8,18 +8,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6cb99f300c7d87497f31729507695a9a633b345a
-ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
+ms.openlocfilehash: 6aaa510df9b3155015979f4d3a5278c601b56223
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124700"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60217129"
 ---
 # <a name="onboard-the-windows-devices-using-mobile-device-management-tools"></a>모바일 Windows 도구를 사용하여 디바이스 온보드
 
@@ -85,7 +85,7 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
    - 날짜 형식: 문자열
    - 값: [WindowsDefenderATP_valid_until_YYYY-MM-DD.offboarding 파일의 콘텐츠에서 값을 복사하여 붙여넣기]
 
-정책 설정에 대한 Microsoft Intune 자세한 내용은 Windows 10 정책 설정을 [Microsoft Intune.](/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
+정책 설정에 대한 Microsoft Intune 자세한 내용은 Windows 10 정책 설정을 [Microsoft Intune.](/mem/intune/configuration/custom-settings-windows-10)
 
 > [!NOTE]
 > 등록 **해제된 장치의 상태 정책은** 읽기 전용 속성을 사용하며 수정될 수 없습니다.

@@ -2,27 +2,25 @@
 title: Android의 끝점용 Microsoft Defender 문제 해결
 description: Android의 끝점용 Microsoft Defender 문제 해결
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mde, android, cloud, connectivity, communication
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 81be4d293398b264dfa72bbca0eb74b0429add71
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 7868b57b03a237a3cd65841040ee741b2cdd0c12
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934122"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194312"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Android의 엔드포인트용 Microsoft Defender 문제 해결
 

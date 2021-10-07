@@ -4,16 +4,16 @@ description: 이 문서에서는 디바이스 사양에 사용되는 장치 사�
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: df9bf273edd85fea08cd11838093a1287b0fff97
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5946a131424dd0bea70004c272a66c4e86cc4b1d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215372"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213904"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Microsoft Managed Desktop 수명 주기
 

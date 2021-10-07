@@ -2,7 +2,7 @@
 title: 내부자 위험 관리 사례
 description: 내부자 위험 관리 사례에 대해 Microsoft 365
 keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 55373830a351bc3bad40a4a492101c5ac011d8b0
-ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
+ms.openlocfilehash: a8ab9bbc71924f7934ce9a21190323869a7238bb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59479528"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188160"
 ---
 # <a name="insider-risk-management-cases"></a>내부자 위험 관리 사례
 

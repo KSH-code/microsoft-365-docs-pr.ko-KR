@@ -9,18 +9,18 @@ ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
 description: 데이터 손실 방지 계획 프로세스 개요
-ms.openlocfilehash: 130675ad15a872ed14041289fb24aeec471014ff
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 144f07a75bc7ab2ae5cd06b04328f91f06c9a91f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192959"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201904"
 ---
 # <a name="plan-for-data-loss-prevention-dlp"></a>DLP(데이터 손실 방지) 계획
 

@@ -12,14 +12,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
-localization_priority: None
+ms.localizationpriority: ''
 description: 미리 보기(미리 보기)에 대한 리소스를 Microsoft Viva Learning 방법을 배워야 합니다.
-ms.openlocfilehash: f868c90e0dcb280bf3bd7ca592a950d9735143de
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0979d9e2a5b8f0f04565ccc8d2089e85eb6f8411
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191179"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213988"
 ---
 # <a name="introduction-to-microsoft-viva-learning-preview"></a>Microsoft Viva Learning 소개(미리 보기)
 
@@ -30,13 +30,13 @@ Microsoft Viva Learning(미리 보기)를 통해 조직의 팀과 개인이 하�
 
 이 페이지의 리소스는 조직에서 Viva Learning(미리 보기)에 대해 알아보고 사용을 시작할 수 있도록 디자인되어 있습니다.
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 
 이 섹션의 리소스를 통해 Viva Learning(미리 보기)에 대해 자세히 알아보고 조직에 도움이 되는 방법을 설명합니다.
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|Viva Learning(미리 보기)에 대해 자세히 알아보시고|[Microsoft Viva Learning(미리 보기) 개요](overview-viva-learning.md)|
+|Viva Learning(미리 보기)에 대한 자세한 정보|[Microsoft Viva Learning(미리 보기) 개요](overview-viva-learning.md)|
 |Microsoft Tech Community 리소스 센터에서 리소스 찾기|[Microsoft Viva Learning(미리 보기) 기술 Community](https://resources.techcommunity.microsoft.com/viva-learning/)|
 |최종 사용자를 Learning Viva Learning(미리 보기) 지침 찾기|[Microsoft Viva Learning(미리 보기) 도움말](https://support.microsoft.com/office/learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a)|
 

@@ -6,7 +6,7 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.collection:
@@ -17,12 +17,12 @@ ms.custom:
 - admindeeplinkMAC
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: 675717eceb1d7de80a66aad18429bd8bb03c2b34
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a48afdceef482a124131495d3f1148f9e8da4d9f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215842"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201592"
 ---
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Microsoft 365 고객 데이터가 저장되는 위치
 
@@ -248,7 +248,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -752,7 +752,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -920,7 +920,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 1 - EMEA |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -1064,7 +1064,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -1280,7 +1280,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -1304,7 +1304,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -1424,7 +1424,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -2024,7 +2024,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -2672,7 +2672,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -2960,7 +2960,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -3080,7 +3080,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -3344,7 +3344,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -3368,7 +3368,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -3632,7 +3632,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -3752,7 +3752,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -3800,7 +3800,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -3824,7 +3824,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -4016,7 +4016,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -4040,7 +4040,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -4064,7 +4064,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -4136,7 +4136,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 1 - EMEA |
 | 비즈니스용 Skype | 전세계 지리적 위치 1 - EMEA |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 1 - EMEA |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 1 - EMEA |
 | EOP | 전세계 지리적 위치 1 - EMEA |
 | Intune | 전세계 지리적 위치 1 - EMEA |
 | MyAnalytics | 전세계 지리적 위치 1 - EMEA |
@@ -4160,7 +4160,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -4184,7 +4184,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 1 - EMEA |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -4232,7 +4232,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -4328,7 +4328,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -4928,7 +4928,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5024,7 +5024,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5144,7 +5144,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5288,7 +5288,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5360,7 +5360,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5384,7 +5384,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5432,7 +5432,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5456,7 +5456,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5600,7 +5600,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5888,7 +5888,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |
@@ -5912,7 +5912,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
 | SharePoint Online | 전세계 지리적 위치 2 - 아시아 태평양 |
 | 비즈니스용 Skype | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Microsoft Teams | 전세계 지리적 위치 2 - 아시아 태평양 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 2 - 아시아 태평양 |
+| Office Online &amp; 모바일 | 전세계 지리적 위치 2 - 아시아 태평양 |
 | EOP | 전세계 지리적 위치 2 - 아시아 태평양 |
 | Intune | 전세계 지리적 위치 2 - 아시아 태평양 |
 | MyAnalytics | 전세계 지리적 위치 2 - 아시아 태평양 |

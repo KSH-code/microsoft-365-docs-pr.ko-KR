@@ -14,18 +14,18 @@ ms.collection:
 - m365solution-ediscovery
 - m365initiative-compliance
 - m365solution-overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MOE150
 - MET150
 description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 등의 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구를 제공합니다. 비즈니스용 Skype 대화를 제공합니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
-ms.openlocfilehash: 0dd8ca2e18f1388f4d8a5cdbbbbf401d1d579e10
-ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
+ms.openlocfilehash: f8419176e8307c6e87d376f04c8395f18c175740
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "60087800"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216901"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365
 
@@ -132,6 +132,7 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 - Microsoft 365 G1 구독
 - Microsoft 365 F1 또는 F3 구독 또는 F5 보안 추가 기능
 - Office 365 Education A1 구독
+- Office 365 E1 구독
 
 ### <a name="core-ediscovery"></a>핵심 eDiscovery
 
@@ -139,6 +140,7 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 - Microsoft 365 G3 구독
 - Microsoft 365 F5 준수 추가 기능 또는 F5 보안 & 준수 추가 기능
 - Microsoft 365 Education A3 또는 Office 365 Education A3 구독
+- Office 365 E3 구독
 
 ### <a name="advanced-ediscovery"></a>Advanced eDiscovery
 

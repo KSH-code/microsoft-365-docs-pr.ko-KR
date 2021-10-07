@@ -6,18 +6,18 @@ manager: dansimp
 audience: ITPro
 ms.topic: how-to
 ms.prod: m365-security
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 관리자는 Microsoft Defender에서 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드를 만드는 방법을 Office 365.
 ms.technology: mdo
-ms.openlocfilehash: d67da825862cc026b8dd3bc5b7a2f603606f1a4a
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: 62783abb7d3361c654d5c959c1acb046754c4973
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60010308"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202504"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>공격 시뮬레이션 교육에 대한 사용자 지정 페이로드 만들기
 

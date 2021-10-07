@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Microsoft 계정을 닫을 때 라이선스, 사용자 및 사용자 데이터를 포함하여 계정과 관련된 모든 정보가 삭제됩니다.
 ms.date: 04/02/2021
-ms.openlocfilehash: f46a35ca9a8b4ca0a68a3260f1a79bbf3717b552
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b19328ffaf785479b81d6253c602c8f80fca99ae
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190372"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202024"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
 

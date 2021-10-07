@@ -10,15 +10,15 @@ ms.service: o365-solutions
 f1.keywords:
 - NOCSH
 ms.collection: Strat_SP_gtc
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Multi-geo 환경에서 Microsoft 365 기본 설정 데이터 위치를 사용하여 그룹 그룹을 만드는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a035856344cf49e3a7221a00b98c175b95f9a72
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 05e910d82c44e37497b365a9d0757a80805c895a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210712"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201604"
 ---
 # <a name="create-a-microsoft-365-group-with-a-specific-preferred-data-location"></a>특정 기본 Microsoft 365 위치로 Microsoft 365 그룹 만들기
 

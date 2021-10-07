@@ -5,16 +5,16 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 322a46ce48cce4d080e51f482178462934d5c8f2
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4a7db8f26d3f7201087a7e4390b56637af37dc08
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215302"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208124"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft Managed Desktop 앱 요구 사항
 
@@ -28,7 +28,7 @@ Microsoft Managed Desktop 장치의 성능, 안정성 및 서비스성을 보장
 |관리 영역  |Microsoft Managed Desktop 방법  |
 |---------|---------|
 |장치 구성 또는 정책 관리     |  Microsoft Intune       |
-|응용 프로그램 관리      | Microsoft Intune 회사 포털        |
+|응용 프로그램 관리     | Microsoft Intune 회사 포털        |
 |드라이버 배포     |  장치, Windows 또는 Intune에 포함된 드라이버       |
 |장치 보안     | 장치 [보안 참조](security.md#device-security)      |
 |ID 및 액세스 관리     | ID [및 액세스 관리 참조](security.md#identity-and-access-management)        |

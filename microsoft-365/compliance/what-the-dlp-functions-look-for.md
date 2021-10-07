@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 recommendations: false
 description: DLP(데이터 손실 방지) 함수가 찾아보는 내용을 살펴 봐야 합니다.
-ms.openlocfilehash: 787abc1e7fb4c95392a76f7514ceffd3f7f4dda0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 94e7ec97083a8e914ba2155d087d1c7820336805
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216122"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201784"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>DLP 기능이 찾는 항목
 
@@ -253,22 +253,22 @@ Fund_eu_dates looks for dates in common E.U. "일/월/년", "일-월-년" 및 "�
 - 영어
   - 1월, 2월, 3월, 4월, 6월, 7월, 8월, 9월, 10월, 11월, 12월
   - Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.
-- Dutch
+- 네덜란드어
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
   - jan feb maart apr mei jun jul aug sep sept oct okt nov dec
-- French
+- 프랑스어
   - janvier, février, mars, avril, mai, juin juillet, août, septembre, octobre, novembre, décembre
   - janv. févr. mars avril mai juin juil. août. oct. nov. déc.
-- German
+- 독일어
   - jänuar, februar, märz, April, mai, juni juli, August, September, oktober, November, dezember
   - Jan./Jän. Feb. März Apr. Mai Juni Juli Aug. Sept. Okt. 11월 Dez.
-- Italian
+- 이탈리아어
   - gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
   - genn. febbr. mar. apr. magg. giugno luglio ag. sett. ott. nov. dic.
 - 포르투갈어
   - janeiro, fevereiro, março, marco, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro
   - jan fev mar abr mai jun jul ago set out nov dez
-- Spanish
+- 스페인어
   - enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre
   - enero feb. marzo abr. mayo jun. jul. agosto sept./set. oct. nov. dic.
 
@@ -314,7 +314,7 @@ Fund_eu_dates looks for dates in common E.U. "일/월/년", "일-월-년" 및 "�
 
 허용되는 월 이름:
 
-- Dutch
+- 네덜란드어
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
   - jan feb maart apr mei jun jul aug sep sept out okt nov dec
 

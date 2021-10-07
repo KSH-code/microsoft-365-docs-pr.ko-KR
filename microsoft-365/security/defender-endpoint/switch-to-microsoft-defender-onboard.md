@@ -2,8 +2,6 @@
 title: 끝점용 Microsoft Defender로 전환 - 온보딩
 description: 끝점용 Microsoft Defender로 전환합니다. 장치를 온보드한 다음 Microsoft가 아닌 다른 솔루션을 제거합니다.
 keywords: migration, Microsoft Defender for Endpoint, edr
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: deploy
@@ -11,7 +9,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: deniseb
 author: denisebmsft
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,14 +19,14 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 09/23/2021
+ms.date: 10/06/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: faf18134d125932c4da9e041c6bf80ccc3881761
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 47a698d2e0832ed477808be379a6ad99b932b702
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042845"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60217093"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Endpoint용 Microsoft Defender로 전환 - 3단계: 온보딩
 
@@ -88,7 +86,7 @@ ms.locfileid: "60042845"
 |---|---|
 |Windows 10 <p> Windows Server 2019 <p> <p> Windows Server 2022 <p>Windows 서버, 버전 1803 이상 <p> Windows Server 2016 <p> Windows Server 2012 R2|검색 [테스트 실행을 참조합니다.](run-detection-test.md) <p> Endpoint용 Defender 데모 시나리오 사이트( )를 방문하여 하나 이상의 <https://demo.wd.microsoft.com> 시나리오를 시도해 봤습니다. 예를 들어 클라우드 제공 보호 **데모 시나리오를 시도해** 보겠습니다.|
 |macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)|에서 DIY 앱을 다운로드하여 <https://aka.ms/mdatpmacosdiy> 사용하세요. <p> 자세한 내용은 [macOS의 Endpoint용 Defender를 참조하세요.](microsoft-defender-endpoint-mac.md)|
-|Linux: RHEL 7.2+; CentOS Linux 7.2+; Ubuntu 16 LTS 이상; SLES 12+; 데비안 9+; Oracle Linux 7.2|<ol><li>다음 명령을 실행하고 1 : **의 결과를 찾아야** `mdatp health --field real_time_protection_enabled` 합니다.</li><li>터미널 창을 열고 다음 명령을 `curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt` 실행합니다. .</li><li>다음 명령을 실행하여 검색된 위협을 `mdatp threat list` 나열합니다. .</li></ol> <p> 자세한 내용은 [Linux의 끝점용 Defender를 참조하세요.](microsoft-defender-endpoint-linux.md)|
+|Linux: RHEL 7.2+; CentOS Linux 7.2+; Ubuntu 16 LTS 이상; SLES 12+; 데비안 9+; Oracle Linux 7.2|1. 다음 명령을 실행하고 1 : **의 결과를 찾아야** `mdatp health --field real_time_protection_enabled` 합니다.<br/><br/>2. 터미널 창을 열고 다음 명령을 `curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt` 실행합니다. .<br/><br/>3. 다음 명령을 실행하여 감지된 위협을 `mdatp threat list` 나열합니다. .<br/><br/>자세한 내용은 [Linux의 끝점용 Defender를 참조하세요.](microsoft-defender-endpoint-linux.md)|
 
 
 ## <a name="confirm-that-microsoft-defender-antivirus-is-in-passive-mode-on-your-endpoints"></a>끝점에서 Microsoft Defender 바이러스 백신 수동 모드에 있는지 확인
@@ -101,7 +99,7 @@ ms.locfileid: "60042845"
 |---|---|
 |명령 프롬프트|1. Windows 디바이스에서 명령 프롬프트를 니다.<br/><br/>2. `sc query windefend` 를 입력한 다음 Enter를 누를 수 있습니다.<br/><br/>3. 결과를 검토하여 수동 Microsoft Defender 바이러스 백신 실행 중인지 검토합니다.|
 |PowerShell|1. Windows 디바이스에서 관리자 권한으로 Windows PowerShell 를 니다.<br/><br/>2. 다음 PowerShell cmdlet을 `Get-MpComputerStatus|select AMRunningMode` 실행합니다. . <br/><br/>3. 결과를 검토합니다. 수동 **모드가 표시됩니다.**|
-|Windows 보안 앱|1. Windows 디바이스에서 Windows 보안 를 니다.<br/><br/>2. 바이러스 **백신 & 보호를 선택합니다.**<br/><br/>3. Who **보호에서** 공급자 **관리를 선택합니다.** 보안 공급자 **페이지의** 바이러스 백신 **아래에서** 을(를) Microsoft Defender 바이러스 백신 **표시됩니다.**|
+|Windows 보안 앱|1. Windows 디바이스에서 Windows 보안 를 니다.<br/><br/>2. 바이러스 **백신 & 보호를 선택합니다.**<br/><br/>3. Who **보호에서** 공급자 **관리를 선택합니다.**<br/><br/>4. 보안 공급자 **페이지의** 바이러스 백신에서 를 **Microsoft Defender 바이러스 백신 을 검색합니다.**|
 |작업 관리자|1. Windows 디바이스에서 작업 관리자 앱을 니다.<br/><br/>2. 세부 정보 **탭을** 선택합니다. 목록에서 **MsMpEng.exe** 찾아야 합니다.|
 
 > [!NOTE]

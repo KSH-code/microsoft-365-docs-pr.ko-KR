@@ -10,19 +10,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: e207978dbb65863764c66c5afc5c467552100461
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 89ff7984e009f022984f4004a0195176c68a9bad
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220315"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194024"
 ---
 # <a name="advanced-hunting-using-powershell"></a>PowerShell을 사용하는 지능형 헌팅
 
@@ -120,7 +120,7 @@ $query = [IO.File]::ReadAllText("C:\myQuery.txt"); # Replace with the path to yo
 $results | ConvertTo-Csv -NoTypeInformation | Set-Content file1.csv
 ```
 
-아래 작업을 수행하여 파일 형식의 JSON file1.js결과를 출력합니다.
+file file1.json에서 JSON 형식으로 쿼리 결과를 출력하기 위해 다음을 실행합니다.
 
 ```
 $results | ConvertTo-Json | Set-Content file1.json

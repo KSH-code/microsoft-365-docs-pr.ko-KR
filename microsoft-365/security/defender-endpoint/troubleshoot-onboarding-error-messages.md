@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 10ec4562063c7352b337cdb6f5d11b76985ae19d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3bc58ec36775065b03ab368b65b833bc4ccaad5c
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159225"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60217081"
 ---
 # <a name="troubleshoot-subscription-and-portal-access-issues"></a>구독 및 포털 액세스 문제 해결
 
@@ -74,7 +74,7 @@ ms.locfileid: "60159225"
 
 ![현재 데이터 이미지를 사용할 수 없습니다.](images/atp-data-not-available.png)
 
-그 아래에 있는 모든 하위omain을 허용해야 `security.windows.com` 합니다. 예를 들면 `*.security.windows.com`와 같습니다.
+웹 브라우저에서 해당 하위 사이트 아래에 있는 모든 하위 사이트를 `security.windows.com` 허용해야 합니다. 예를 들면 `*.security.windows.com`와 같습니다.
 
 ## <a name="portal-communication-issues"></a>포털 통신 문제
 

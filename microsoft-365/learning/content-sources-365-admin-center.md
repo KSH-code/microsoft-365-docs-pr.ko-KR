@@ -13,14 +13,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
-localization_priority: None
+ms.localizationpriority: ''
 description: 앱의 미리 보기(미리 보기)에 Microsoft Viva Learning 학습 콘텐츠 원본을 구성하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: 977589a9b9500f062edbd962ada895436c9b2c96
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3161841f3c69992d7cc532e86f99bed7704ba016
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191202"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208172"
 ---
 # <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>웹 에지에서 Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 Microsoft 365 관리 센터
 

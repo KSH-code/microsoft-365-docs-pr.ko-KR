@@ -4,17 +4,17 @@ description: 등록된 Microsoft Managed Desktop 대한 OneDrive 설정하는 �
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 앱, LOB 앱, LOB 앱
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 892dbcccfc8f224f80a538f9736405cb012b69ca
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a599f36692cbca6cbf67ddfd4a6ca1c05e02351f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212385"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60214036"
 ---
 # <a name="microsoft-onedrive"></a>Microsoft OneDrive
 

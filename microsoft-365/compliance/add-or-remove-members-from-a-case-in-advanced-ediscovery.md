@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: ''
 description: 사례를 관리할 때 사례에 액세스할 수 있는 구성원을 추가하거나 제거하는 방법을 Advanced eDiscovery 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3571adf6c9bbba791ba5d76f4eba5428dc9f453c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 13a97af715a3f81b5570617f18b10cd8e35f9aec
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60175470"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60217105"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>케이스에서 구성원 추가 또는 제거
 
-케이스에 액세스할 수 있는 사용자를 관리하기 위해 구성원을 추가하거나 제거할 수 있습니다. 그러나 구성원이 Advanced eDiscovery 액세스하고 이 경우 작업을 수행하려면 먼저 보안 및 규정 준수 센터의 사용 권한 페이지에서  eDiscovery 관리자 역할 그룹에 사용자를 추가해야 합니다. 자세한 내용은 [eDiscovery 권한 할당](./assign-ediscovery-permissions.md)을 참조하세요.
+케이스에 액세스할 수 있는 사용자를 관리하기 위해 구성원을 추가하거나 제거할 수 있습니다. 그러나 구성원이 Advanced eDiscovery 액세스하고 이 경우 작업을 수행하려면 먼저 구성원의 사용 권한 페이지에서 eDiscovery 관리자  역할 그룹에 사용자를 추가해야 Microsoft 365 규정 준수 센터. 자세한 내용은 [eDiscovery 권한 할당](./assign-ediscovery-permissions.md)을 참조하세요.
 
 1. **Advanced eDiscovery** 페이지에서 구성원을 추가할 케이스로 이동합니다.
 
@@ -44,3 +44,6 @@ ms.locfileid: "60175470"
 6. 사례의 구성원으로 추가할 사용자 또는 역할 그룹을 선택한 후 추가를 **클릭합니다.**
 
 7. **이 케이스 관리** 플라이아웃 페이지에서 **저장** 을 클릭하여 새 케이스 구성원 목록을 저장합니다.
+
+> [!IMPORTANT]
+> 사례의 구성원으로 추가한 역할 그룹에서 역할을 추가하거나 제거하면 역할 그룹이 사례의 구성원(또는 역할 그룹이 구성원인 경우)으로 자동으로 제거됩니다. 이러한 이유는 사례의 구성원에게 추가 사용 권한을 부수적으로 제공하는 것을 방지하기 위한 것입니다. 마찬가지로 역할 그룹이 삭제되면 역할 그룹이 구성원이던 모든 경우에서 제거됩니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md#adding-role-groups-as-members-of-ediscovery-cases)을 참조하세요.

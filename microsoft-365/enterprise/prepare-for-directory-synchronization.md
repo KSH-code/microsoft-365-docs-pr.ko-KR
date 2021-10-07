@@ -7,7 +7,7 @@ ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: 디렉터리 동기화를 사용하여 사용자를 프로비전할 수 있도록 준비하는 Microsoft 365 이 방법을 사용하는 경우의 장기적인 이점에 대해 설명
-ms.openlocfilehash: 389f0ca682538baed21432220c16ad7cb269daa0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4bd244edfa11df315f83e78c97ec7fe63b5c2d9d
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220747"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216889"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a> Microsoft 365로 디렉터리 동기화 준비
 
@@ -48,6 +48,9 @@ ms.locfileid: "59220747"
 그러나 디렉터리 동기화를 수행하려면 AD DS(Active Directory 도메인 서비스)가 최소 오류와 함께 Microsoft 365 구독의 Azure AD 테넌트와 동기화되도록 계획하고 준비해야 합니다.
 
 최상의 결과를 얻기 위해 다음 단계를 따르세요.
+
+> [!NOTE]
+> ASCII가 아닌 문자는 AD DS 사용자 계정의 특성에 대해 동기화되지 않습니다.
 
 ## <a name="1-directory-cleanup-tasks"></a>1. 디렉터리 정리 작업
 

@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: 다음 지침에 따라 약속을 만들고 Microsoft Bookings 앱을 통해 직원을 할당합니다.
-ms.openlocfilehash: 9af9b28eb1f00bfc41dbdff2d7df4111cb8bdd13
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3c71a3f96aa79e55c857078aad77a14e37d9009b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190609"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202144"
 ---
 # <a name="create-a-manual-booking"></a>수동 예약 만들기
 

@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 480ac20e3fe6ac9b3b8c7aa66b759b361a96a595
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: faad84ceb24e1e06d2fa73c3179be0386c822102
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220288"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194012"
 ---
 # <a name="set-device-value-api"></a>장치 값 설정 API
 
@@ -74,7 +74,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{machineId}/setDevice
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|문자열|Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 Content-Type|문자열|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문

@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0e0a250981d0e3a6e0fec2eb782ef492a4e0bd89
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: b983c930173145a8bb1bb23932e711c5112040fa
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221560"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194216"
 ---
 # <a name="get-alert-related-machine-information-api"></a>경고 관련 컴퓨터 정보 얻기 API
 
@@ -75,7 +75,7 @@ GET /api/alerts/{id}/machine
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|문자열|Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 

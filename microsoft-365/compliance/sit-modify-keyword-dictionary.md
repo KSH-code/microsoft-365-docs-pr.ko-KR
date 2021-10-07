@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365 준수 센터에서 키워드 사전을 수정하는 방법을 자세히 알아보습니다.
-ms.openlocfilehash: e060b09f271615f98fe43002029144b119013439
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 3cf6a2df702a109a5e63c641f7ac64a9f9ab7b4f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218842"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188004"
 ---
 # <a name="modify-a-keyword-dictionary"></a>키워드 사전 수정
 

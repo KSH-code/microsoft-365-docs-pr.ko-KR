@@ -7,19 +7,19 @@ ms.date: 07/17/2020
 audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
 ms.custom: ''
 ms.assetid: b3209b1a-40c7-4ede-8e78-8a88bb2adc8a
 description: '요약: PowerShell을 사용하여 PowerShell을 관리해야 하는 이유를 Microsoft 365 경우에 따라 더 효율적으로 관리해야 하는 경우도 있습니다.'
-ms.openlocfilehash: 361900d66c1cb8f41a27f661241a63d7d806e99b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 79beabad5b588ae47d9de70cb8a9cce6862a1c1d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59210362"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208196"
 ---
 # <a name="why-you-need-to-use-powershell-for-microsoft-365"></a>Microsoft 365 용 PowerShell을 사용해야 하는 이유
 

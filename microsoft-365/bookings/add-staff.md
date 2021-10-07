@@ -6,14 +6,14 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 이 페이지를 사용하여 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리할 수 있습니다.
-ms.openlocfilehash: 3b61c2f3e5597208ace2a87a7d203e8d724e4f5f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ea9025edd20289aa404471f6c1d245e7bf5c7d4e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212915"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202156"
 ---
 # <a name="add-staff-to-bookings"></a>Bookings에 직원 추가
 

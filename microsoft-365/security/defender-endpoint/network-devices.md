@@ -10,7 +10,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: ellevin
 author: levinec
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b67a2551e592e2fd1186985590759d44bdcc177b
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: d95a2d526dc9a696f52c75f9358e6cc56038c1f0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356804"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194096"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>네트워크 장치 검색 및 취약성 관리
 
@@ -98,7 +98,7 @@ ms.locfileid: "59356804"
     > [!NOTE]
     > 모든 URL이 허용된 데이터 수집의 끝점용 Defender 문서화 목록에 지정되지는 않습니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 평가 작업을 구성하려면 보안 센터에서 보안 설정 관리와 같은 사용자 **권한 옵션이 필요합니다.** 역할 에서 **역할로** 설정 \> **있습니다.** 자세한 내용은 역할 기반 액세스 제어에 대한 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
 

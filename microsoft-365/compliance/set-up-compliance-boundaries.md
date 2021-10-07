@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f907e34bb7d266ead2441535856713dd0cbc5e49
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 29596375263d52eb6156ddfa32330f08957ccd15
+ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216405"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216877"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -107,6 +107,9 @@ Contoso 규정 준수 경계 시나리오를 사용하는 경우 4개의 역할 
 - Coho Winery 조사관
   
 Contoso 규정 준수 경계 시나리오의 요구 사항을 충족하기  위해  조사자 역할 그룹에서 보류 및 내보내기 역할을 제거하여 조사자는 콘텐츠 위치에 보류를 배치하고 사례에서 콘텐츠를 내보내지 못하도록 합니다.
+
+> [!IMPORTANT]
+> 사례의 구성원으로 추가한 역할 그룹에서 역할을 추가하거나 제거하면 역할 그룹이 사례의 구성원(또는 역할 그룹이 구성원인 경우)으로 자동으로 제거됩니다. 이러한 이유는 사례의 구성원에게 추가 사용 권한을 부수적으로 제공하는 것을 방지하기 위한 것입니다. 마찬가지로 역할 그룹이 삭제되면 역할 그룹이 구성원이던 모든 경우에서 제거됩니다.
 
 ## <a name="step-3-create-a-search-permissions-filter-to-enforce-the-compliance-boundary"></a>3단계: 준수 경계를 적용하는 검색 권한 필터 만들기
 
@@ -247,7 +250,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 - SharePoint 및 OneDrive 검색할 때 *Region* 매개 변수는 eDiscovery 관리자가 eDiscovery 조사를 수행하게 될 기본 또는 위성 위치로 검색을 지시합니다. eDiscovery 관리자가 검색 권한 SharePoint OneDrive 영역 외부의 사이트 및 사이트 검색을 검색하면 검색 결과가 반환되지 않습니다.
 
-- Core eDiscovery에서 검색 결과를 내보낼 때 콘텐츠 검색 도구를 사용하여 검색할 수 있는 모든 콘텐츠 위치(Exchange, 비즈니스용 Skype, SharePoint, OneDrive 및 기타 서비스)의 콘텐츠가 *Region* 매개 변수에 지정된 데이터 센터의 Azure Storage 위치에 업로드됩니다. 이렇게 하면 조직이 제어된 테두리에서 콘텐츠를 내보내지 못하도록 하여 규정 준수를 유지하도록 할 수 있습니다. 검색 권한 필터에 지역이 지정되지 않은 경우 콘텐츠가 조직의 기본 데이터 센터에 업로드됩니다.
+- Core eDiscovery에서 검색 결과를 내보낼 때 콘텐츠 검색 도구를 사용하여 검색할 수 있는 모든 콘텐츠 위치(Exchange, 비즈니스용 Skype, SharePoint, OneDrive 및 기타 서비스)의 콘텐츠가 데이터 센터의 Azure Storage 위치에 업로드됩니다. *Region* 매개 변수입니다. 이렇게 하면 조직이 제어된 테두리에서 콘텐츠를 내보내지 못하도록 하여 규정 준수를 유지하도록 할 수 있습니다. 검색 권한 필터에 지역이 지정되지 않은 경우 콘텐츠가 조직의 기본 데이터 센터에 업로드됩니다.
 
   사용자 계정에서 Advanced eDiscovery Region 매개 변수를 사용하여 콘텐츠가 업로드되는 위치를 제어할 *수* 없습니다. 콘텐츠가 조직의 Azure Storage 데이터 센터의 위치로 업로드됩니다. 중앙 위치에 기반한 지리적 위치 목록은 [Multi-Geo eDiscovery Microsoft 365 참조하세요.](../enterprise/multi-geo-ediscovery-configuration.md)
 
@@ -297,7 +300,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 - 콘텐츠 기반 준수 경계에 제외 필터(예: 검색 권한 필터에서 사용)를 사용하지 `-not()` 않는 것이 좋습니다. 최근에 업데이트된 특성이 있는 콘텐츠가 인덱싱되지 않은 경우 제외 필터를 사용하면 예기치 않은 결과가 발생할 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Who 및 cmdlet을 사용하여 검색 권한 필터를 New-ComplianceSecurityFilter Set-ComplianceSecurityFilter 수 있습니까?**
   

@@ -10,14 +10,14 @@ ms.service: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: enabler-strategic
-localization_priority: None
+ms.localizationpriority: medium
 description: 보안이 Viva 항목의 항목을 보는 데 사용되는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 25acd5ea96cb07a5974e10ec9763d1f20351d021
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: babf5cf6179df18bdf9f2cc1d68e5a6ed4b6b772
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215602"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60214024"
 ---
 # <a name="security-trimming-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 보안 트리밍
 

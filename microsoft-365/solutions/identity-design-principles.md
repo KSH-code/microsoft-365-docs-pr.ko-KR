@@ -7,19 +7,19 @@ manager: bcarter
 ms.audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 6d0599d11dd5892b032bda1285b92fbc8a09354b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8dd5b5f94a8c418cc8d077d785c73c968c40c3bc
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214172"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202372"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -78,7 +78,7 @@ Alas, language isn't a precise tool. 종종 동일한 단어를 사용하여 다
 
 Azure AD(Azure AD)에 대한 많은 설명서가 microsoft의 ID 플랫폼에 Azure Active Directory 있습니다. 방금 시작한 이들에게는 종종 압도적인 느낌이 들 수 있습니다. 학습한 후에도 지속적인 혁신과 변경을 유지하는 것은 어려울 수 있습니다. 고객 상호 작용에서 종종 비즈니스 목표와 이러한 문제를 해결하기 위한 "좋음, 더 좋음, 최상의" 접근 방법(및 이러한 항목에 대한 사람 "절제 메모") 간의 "번역자"를 발견합니다. 완벽한 답변은 거의 없습니다. "올바른" 결정은 다양한 위험 요소의 균형을 이루는 것입니다. 다음은 고객과 논의하는 경향이 있는 몇 가지 일반적인 질문과 혼동 영역입니다.
 
-### <a name="provisioning"></a>Provisioning
+### <a name="provisioning"></a>프로비전
 
 Azure AD는 ID 세계에서 거버넌스가 부족한 문제를 해결하지 못합니다. [ID 거버넌스는](/azure/active-directory/governance/identity-governance-overview) 클라우드 결정과는 독립적인 중요한 요소입니다. 거버넌스 요구 사항은 시간이 경과할 때 변경됩니다. 이는 도구가 아닌 프로그램인 이유입니다.
 
@@ -283,7 +283,7 @@ Office 365 감사 [로그가 있습니다.](../compliance/search-the-audit-log-i
 - [Exchange 메시지 추적](/powershell/module/exchange/get-messagetrace)
 - 위에서 설명한 위협/UEBA 시스템(예: Azure AD ID 보호, Microsoft Cloud App Security, 끝점용 Microsoft Defender 등)
 - [Microsoft 정보 보호](../compliance/data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi) 
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
 먼저 보안 및 규정 준수 프로그램에 필요한 모든 로그 원본을 식별하는 것이 중요합니다. 또한 로그마다 서로 다른 인라인 보존 제한이 있습니다.

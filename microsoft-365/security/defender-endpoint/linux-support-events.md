@@ -2,15 +2,13 @@
 title: Linux에서 끝점용 Microsoft Defender에 대한 누락된 이벤트 또는 경고 문제 해결
 description: Linux의 끝점용 Microsoft Defender에서 누락된 이벤트 또는 경고 문제를 해결합니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 이벤트
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 mms.collection:
@@ -18,12 +16,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 554767c1db2d4122c7bc77c47a55772e4ddaa0a6
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e53f959e75551fdd5b065514a1c990663a667201
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215055"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194144"
 ---
 # <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 누락된 이벤트 또는 경고 문제 해결
 

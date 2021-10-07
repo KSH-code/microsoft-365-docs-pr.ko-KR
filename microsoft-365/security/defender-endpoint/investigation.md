@@ -9,7 +9,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +18,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 54e060f1cc98f62ca048ce8d561247c47f189f24
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 069e74b8ad0aef33caab411b92c24c4d0b72f022
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218392"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60194156"
 ---
 # <a name="investigation-resource-type"></a>조사 리소스 유형
 
@@ -60,7 +60,7 @@ startTime|DateTime Nullable|조사를 만든 날짜 및 시간입니다.
 endTime|DateTime Nullable|조사가 완료된 날짜 및 시간입니다.
 cancelledBy|String|해당 조사를 취소한 사용자/응용 프로그램의 ID입니다.
 state|Enum|조사의 현재 상태입니다. 가능한 값은 '알 수 없음', 'Terminated', 'SuccessfullyRemediated', 'Benign', 'Failed', 'PartiallyRemediated', 'Running', 'PendingApproval', 'PendingResource', 'PartiallyInvestigated', 'TerminatedByUser', 'TerminatedBySystem', 'Queued', 'InnerFailure', 'PreexistingAlert', 'UnsupportedOs', 'UnsupportedAlertType', 'SuppressedAlert'.
-statusDetails|문자열|조사 상태 관련 추가 정보입니다.
+statusDetails|String|조사 상태 관련 추가 정보입니다.
 machineId|String|조사가 실행되는 장치의 ID입니다.
 computerDnsName|String|조사가 실행되는 장치의 이름입니다.
 triggeringAlertId|String|조사를 트리거한 경고의 ID입니다.

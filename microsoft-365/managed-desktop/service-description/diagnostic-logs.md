@@ -4,17 +4,17 @@ description: 문제 해결 중에 장치에서 수집될 수 있는 로그 및 �
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ef7d19fef989610c10323c2a9820a5314d5e1641
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5c890ea42da4bb13c163e7b8b123080e0264d025
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215312"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201532"
 ---
 # <a name="diagnostic-logs"></a>진단 로그
 
@@ -107,7 +107,7 @@ ms.locfileid: "59215312"
 - %ProgramData% \\ Microsoft \\ DiagnosticLogCSP \\ Collectors \\ \* .etl
 - %ProgramData% \\ Microsoft \\ IntuneManagementExtension \\ Logs \\ \* .\*
 - %ProgramData% \\ Microsoft Windows Defender 지원 \\ \\ \\MpSupportFiles.cab
-- %ProgramData% \\ Microsoft \\ Windows \\ WlanReportwlan-report-latest.htm\\ l
+- %ProgramData% \\ Microsoft \\ Windows \\ WlanReportwlan-report-latest.html \\
 - %ProgramData% \\ Microsoft \\ Windows \\ WlanReport -SourceFileName wlan-report-latest.html
 - %windir% \\ ccm \\ logs \* .log
 - %windir% \\ ccmsetup \\ logs \* .log
