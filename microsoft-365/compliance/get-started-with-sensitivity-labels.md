@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 0a3d4e1446b984bd0f7f9fad997e1ecc3882ac12
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: bd26fed7a7af874cc664f280a32ee504847e8099
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59498055"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189408"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -60,7 +60,7 @@ ms.locfileid: "59498055"
 
 기본적으로 테넌트에 대한 전역 관리자는 이러한 관리 센터에 액세스할 수 있으며, 규정 준수 관리자와 기타 사용자에게 테넌트 관리자의 모든 사용 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 이러한 위임된 제한적 관리 액세스 권한을 부여하려면 사용자를 **규정 준수 데이터 관리자**, **규정 준수 관리자** 또는 **보안 관리자** 역할 그룹에 추가합니다. 
 
-기본 역할을 사용하는 대신 새 역할 그룹을 만들고 **민감도 레이블 관리자** 또는 **조직 구성** 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **민감도 레이블 리더** 를 사용하세요. 
+기본 역할을 사용하는 대신 새 역할 그룹을 만들고 이 그룹에 **민감도 레이블 관리자** 또는 **조직 구성** 역할을 추가할 수 있습니다. 읽기 전용 역할의 경우 **민감도 레이블 리더** 를 사용합니다. 
 
 기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [Office 365 규정 준수 센터의 사용 권한](microsoft-365-compliance-center-permissions.md)을 참조하세요.
 
@@ -87,6 +87,7 @@ ms.locfileid: "59498055"
 |문서 및 전자 메일에 자동으로 민감도 레이블 적용 | [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)|
 |민감도 레이블을 사용하여 Teams와 SharePoint에서 콘텐츠 보호 |[Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하기](sensitivity-labels-teams-groups-sites.md)|
 |특정 민감도 레이블로 파일 또는 전자 메일 공유에 대해 사용자 차단 또는 경고 |[DLP 정책에서 민감도 레이블을 조건으로 사용](dlp-sensitivity-label-as-condition.md) |
+|보존 레이블을 적용하여 특정 민감도 레이블이 있는 파일 또는 전자 메일을 보존하거나 삭제합니다.|[보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기](apply-retention-labels-automatically.md) |
 |온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](/azure/information-protection/deploy-aip-scanner)|
 |클라우드에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호|[클라우드에 저장된 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Power BI에서 레이블을 적용 및 확인하고 서비스 외부에서 데이터를 저장할 때 데이터를 보호합니다.|[Power BI의 민감도 레이블](/power-bi/admin/service-security-sensitivity-label-overview)|

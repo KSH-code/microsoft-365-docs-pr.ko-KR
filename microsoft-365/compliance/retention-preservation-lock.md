@@ -10,17 +10,17 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 및 보존 레이블 정책과 함께 유지 잠금을 사용하여 규정 요구 사항을 충족하고 로그 관리자로부터의 안전 보호를 지원합니다.
-ms.openlocfilehash: eb842a3d5add719338773f088b07dcf4c32ede53
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 71cd5aaa4b868d85f94f92370c50ef57253cc084
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216555"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60179010"
 ---
 # <a name="use-preservation-lock-to-restrict-changes-to-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책 변경을 제한하기 위한 유지 잠금 사용
 
@@ -58,7 +58,7 @@ ms.locfileid: "59216555"
 
 1. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)합니다.
 
-2. [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)를 실행하여 잠그려는 정책의 이름을 찾습니다. 예를 들어,
+2. [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)를 실행하여 잠그려는 정책의 이름을 찾습니다. 예를 들면 다음과 같습니다.
     
    ![PowerShell의 보존 정책 목록.](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
@@ -82,7 +82,7 @@ ms.locfileid: "59216555"
 Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl
 ```
 
-**RestrictiveRetention** 이 **True** 로 설정되어 있는지 확인해야 합니다. 예를 들어,
+**RestrictiveRetention** 이 **True** 로 설정되어 있는지 확인해야 합니다. 예를 들면 다음과 같습니다.
 
 ![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책.](../media/retention-policy-preservation-lock-locked-policy.PNG)
 

@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
@@ -18,12 +18,12 @@ description: 관리자는 EOP(Exchange Online Protection)에 의해 메시지에
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4e115c6bda6e2a9ac8da089f9b13f3acdddd2713
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0b82826cf650caffa08c0c7435ea4cabf5a19742
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192382"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208988"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
@@ -69,7 +69,7 @@ ms.locfileid: "59192382"
 |`CIP:[IP address]`|연결할 IP 주소. IP 허용 목록 또는 IP 차단 목록에 이 IP 주소를 사용할 수 있습니다. 자세한 내용은 [연결 필터링 구성](configure-the-connection-filter-policy.md)을 참조하십시오.|
 |`CTRY`|연결 IP 주소(원래 메시지를 보낸 IP 주소와 다를 수도 있음)를 통해 확인되는 원본 국가입니다.|
 |`H:[helostring]`|연결 전자 메일 서버의 HELO 또는 EHLO 문자열입니다.|
-|`IPV:CAL`|원본 IP 주소가 IP 허용 목록에 있기 때문에 메시지가 스팸 필터링을 건너뛰었습니다. 자세한 내용은 [연결 필터링 구성](configure-the-connection-filter-policy.md)을 참조하십시오.|
+|`IPV:CAL`|원본 IP 주소가 IP 허용 목록에 있기 때문에 메시지가 스팸 필터링을 건너뛰었습니다. 자세한 내용은 [연결 필터링 구성](configure-the-connection-filter-policy.md)을 참조하세요.|
 |`IPV:NLI`|IP 주소가 IP 신뢰도 목록에서 발견되지 않았습니다.|
 |`LANG`|국가 코드로 지정된 메시지 작성 언어입니다(예를 들어 ru_RU는 러시아어입니다).|
 |`PTR:[ReverseDNS]`|원본 IP 주소의 PTR 레코드 (역 DNS 조회라고도 함).|
@@ -78,8 +78,8 @@ ms.locfileid: "59192382"
 |`SFV:BLK`|사용자의 차단된 보낸 사람 목록에 있는 주소에서 보낸 메시지이므로 필터링을 건너뛰고 메시지를 차단했습니다. <p> 관리자가 사용자의 차단된 보낸 사람 목록을 관리하는 방법에 대한 자세한 내용은 [Exchange Online 사서함](configure-junk-email-settings-on-exo-mailboxes.md)에서 정크 전자 메일 설정 구성을 참조하시기 바랍니다.|
 |`SFV:NSPM`|스팸 필터링은 메시지를 비스팸으로 표시했으며 메시지가 원하는 수신자에게 전송되었습니다.|
 |`SFV:SFE`|필터를 건너뛰고 사용자의 안전 보낸 사람 목록에 있는 주소에서 보낸 메시지이므로 이 메시지가 허용되었습니다. <p> 관리자가 사용자의 안전한 보낸 사람 목록을 관리하는 방법에 대한 자세한 내용은 [Exchange Online 사서함](configure-junk-email-settings-on-exo-mailboxes.md)에서 정크 전자 메일 설정 구성을 참조하시기 바랍니다.|
-|`SFV:SKA`|보낸 사람이 안티스팸 정책의 허용된 보낸 사람 목록 또는 허용된 도메인 목록에 있으므로 스팸 필터링을 건너뛰고 받은 편지함으로 배달되었습니다. 자세한 내용은 [안티스팸 정책 구성](configure-your-spam-filter-policies.md)을(를) 참조합니다.|
-|`SFV:SKB`|메시지는 차단된 보낸 사람 목록 또는 안티스팸 정책의 차단된 도메인 목록의 보낸 사람과 일치하기 때문에 스팸으로 표시되었습니다. 자세한 내용은 [안티스팸 정책 구성](configure-your-spam-filter-policies.md)을(를) 참조합니다.|
+|`SFV:SKA`|보낸 사람이 안티스팸 정책의 허용된 보낸 사람 목록 또는 허용된 도메인 목록에 있으므로 스팸 필터링을 건너뛰고 받은 편지함으로 배달되었습니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
+|`SFV:SKB`|메시지는 차단된 보낸 사람 목록 또는 안티스팸 정책의 차단된 도메인 목록의 보낸 사람과 일치하기 때문에 스팸으로 표시되었습니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
 |`SFV:SKI`|SFV와 유사합니다.SKN, 메시지는 다른 이유로 스팸 필터링을 건너뛰었습니다(예: 테넌트 내의 조직 내 전자 메일).|
 |`SFV:SKN`|스팸 필터링을 사용하여 메시지를 배달하기 전에 메시지를 스팸이 아닌 것으로 표시했습니다(예: 메시지가 메일 흐름 규칙에 따라 SCL-1 또는 **스팸 필터링 우회** 로 표시됨).|
 |`SFV:SKQ`|메시지가 검역소에서 릴리스되어 원하는 수신자에게 전송되었습니다.|
@@ -161,7 +161,7 @@ SPF, DKIM 및 DMARC에 대한 전자 메일 인증 확인 결과는 인바운드
 |`dmarc`|메시지의 MARC 검사 결과를 설명합니다. 가능한 값은 다음과 같습니다. <ul><li>**통과**: 메시지에 대한 DMARC 에 통과했음을 나타냅니다.</li><li>**실패**: 메시지에 대한 DMARC 검사에 실패했음을 나타냅니다.</li><li>**bestguesspass**: 도메인의 DMARC TXT 레코드가 없음을 나타내며, 이미 존재하는 경우에는 해당 메시지에 대한 DMARC 검사를 통과했음을 나타냅니다.</li><li>**없음**: DNS에 송신 도메인에 대한 DMARC TXT 레코드가 존재하지 않음을 나타냅니다.|
 |`header.d`|해당하는 경우, DKIM 서명에서 식별된 도메인입니다. 이는 공개 키에 대해 쿼리된 도메인입니다.|
 |`header.from`|전자 메일 메시지 헤더에 있는 `5322.From` 주소(보낸 사람 주소 또는 P2 보낸 사람이라고도 함)의 도메인입니다. 받는 사람은 전자 메일 클라이언트에서 보낸 사람 주소를 봅니다.|
-|`reason`|복합 인증을 통과 또는 실패한 이유입니다. 값은 3 자리 코드입니다. 예시: <ul><li>**000**: 메시지가 인증에 명시적으로 실패했습니다(`compauth=fail`). 예를 들어, 메시지가 격리 또는 거부 조치와 함께 DMARC 실패를 수신한 경우입니다.</li><li>**001**: 메시지가 인증에 암시적으로 실패했습니다(`compauth=fail`). 이는 보내는 도메인에 전자 메일 인증 레코드가 게시되지 않았거나 인증 레코드가 경우에는 실패 정책이 약함(SPF soft fail 또는 중립, `p=none`인 DMARC 정책)을 의미합니다.</li><li>**002**: 보낸 사람/도메인 쌍에 대해 스푸핑된 전자 메일을 보내는 것을 명시적으로 금지하는 정책을 가지고 있음을 의미합니다. 이 설정은 관리자가 수동으로 설정합니다.</li><li>**010**: 메시지가 거부 또는 격리 작업과 함께 DMARC에서 실패했음을 의미하며 전송 도메인은 조직에서 허용하는 도메인 중 하나입니다(이는 자체 대 자체 또는 내부 조직, 스푸핑의 일부).</li><li>**1xx** 또는 **7xx**: 메시지가 인증을 통과했습니다(`compauth=pass`). 마지막 두 자리는 Microsoft 365에서 사용하는 내부 코드입니다.</li><li>**2xx**: 메시지가 암시적 인증을 소프트 패스했습니다(`compauth=softpass`). 마지막 두 자리는 Microsoft 365에서 사용하는 내부 코드입니다.</li><li>**3xx**: 복합 인증에 대해 메시지를 확인하지 않았습니다(`compauth=none`).</li><li>**4xx** 또는 **9xx**: 메시지에서 복합 인증을 바이패스했습니다(`compauth=none`). 마지막 두 자리는 Microsoft 365에서 사용하는 내부 코드입니다.</li><li>**6xx**: 메시지가 암시적 전자 메일 인증에 실패했고 전송 도메인은 조직에서 허용하는 도메인 중 하나입니다(이는 자체 대 자체 또는 내부 조직, 스푸핑의 일부).</li></ul>|
+|`reason`|복합 인증을 통과 또는 실패한 이유입니다. 값은 3 자리 코드입니다. 예시: <ul><li>**000**: 메시지가 인증에 명시적으로 실패했습니다(`compauth=fail`). 예를 들어, 메시지가 격리 또는 거부 조치와 함께 DMARC 실패를 수신한 경우입니다.</li><li>**001**: 메시지가 인증에 암시적으로 실패했습니다(`compauth=fail`). 이는 보내는 도메인에 전자 메일 인증 레코드가 게시되지 않았거나 인증 레코드가 경우에는 실패 정책이 약함(SPF 일시적인 실패 또는 중립, `p=none`인 DMARC 정책)을 의미합니다.</li><li>**002**: 보낸 사람/도메인 쌍에 대해 스푸핑된 전자 메일을 보내는 것을 명시적으로 금지하는 정책을 가지고 있음을 의미합니다. 이 설정은 관리자가 수동으로 설정합니다.</li><li>**010**: 메시지가 거부 또는 격리 작업과 함께 DMARC에서 실패했음을 의미하며 전송 도메인은 조직에서 허용하는 도메인 중 하나입니다(이는 자체 대 자체 또는 내부 조직, 스푸핑의 일부).</li><li>**1xx** 또는 **7xx**: 메시지가 인증을 통과했습니다(`compauth=pass`). 마지막 두 자리는 Microsoft 365에서 사용하는 내부 코드입니다.</li><li>**2xx**: 메시지가 암시적 인증을 소프트 패스했습니다(`compauth=softpass`). 마지막 두 자리는 Microsoft 365에서 사용하는 내부 코드입니다.</li><li>**3xx**: 복합 인증에 대해 메시지를 확인하지 않았습니다(`compauth=none`).</li><li>**4xx** 또는 **9xx**: 메시지에서 복합 인증을 바이패스했습니다(`compauth=none`). 마지막 두 자리는 Microsoft 365에서 사용하는 내부 코드입니다.</li><li>**6xx**: 메시지가 암시적 전자 메일 인증에 실패했고 전송 도메인은 조직에서 허용하는 도메인 중 하나입니다(이는 자체 대 자체 또는 내부 조직, 스푸핑의 일부).</li></ul>|
 |`smtp.mailfrom`|`5321.MailFrom` 주소(메일 보낸 사람 주소, P1 보낸 사람 또는 봉투 보낸 사람이라고도 함)의 도메인입니다. 배달 못 함 보고서(NDR 또는 반송 메시지라고도 함)에 사용되는 전자 메일 주소입니다.|
 |`spf`|메시지에 대한 SPF 검사 결과를 설명합니다. 가능한 값은 다음과 같습니다. <ul><li>`pass (IP address)`: 전달된 메시지에 대한 SPF 검사에는 보낸 사람의 IP 주소가 포함됩니다. 클라이언트는 보낸 사람의 도메인을 대신하여 전자 메일을 보내거나 릴레이할 수 있습니다.</li><li>`fail (IP address)`: 메시지에 대한 SPF 검사가 실패했으며 보낸 사람의 IP 주소를 포함합니다. 이를 종종 _하드 실패_ 라고 합니다.</li><li>`softfail (reason)`: SPF 레코드에서 호스트가 전송이 허용되지 않는 것으로 지정되었지만 전환 중입니다.</li><li>`neutral`: SPF 레코드에는 IP 주소의 전송 권한이 있는지 여부를 주장하지 않는다는 내용이 명시되어 있습니다.</li><li>`none`: 도메인에 SPF 레코드가 없거나 SPF 레코드가 결과로 평가되지 않습니다.</li><li>`temperror`: 일시적인 오류가 발생했습니다. 예를 들어 DNS 오류입니다. 나중에 동일한 검사가 성공할 수 있습니다.</li><li>`permerror`: 영구 오류가 발생했습니다. 예를 들어, 도메인에 잘못된 형식의 SPF 레코드가 있습니다.</li></ul>|
 |

@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64957adeb242d14b2f4c986d3cffc282379c93f3
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: ba6e8e44a3f41bcd64257faf62c597d3b019e359
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444142"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206184"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -167,7 +167,7 @@ ms.locfileid: "59444142"
 
 - 조직의 모든 사용자(모든 테넌트 구성원). 이 설정에서는 게스트 계정이 제외됩니다.
 
-- 인증된 모든 사용자. 이 설정을 선택하기 전에 이 설정의 [요구 사항과 제한 사항](#requirements-and-limitations-for-add-any-authenticated-users)을 이해해야 합니다.
+- 모든 인증된 사용자입니다. 이 설정을 선택하기 전에 이 설정의 [요구 사항과 제한 사항](#requirements-and-limitations-for-add-any-authenticated-users)을 이해해야 합니다.
 
 - 모든 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 분배 그룹 또는 Azure AD의 Microsoft 365 그룹([이전 Office 365 그룹](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)). Microsoft 365 그룹에는 정적 또는 [동적 구성원](/azure/active-directory/users-groups-roles/groups-create-rule)이 있을 수 있습니다. 이 그룹 유형은 Azure AD와 동기화되지 않으며 전자 메일을 사용할 수없는 보안 그룹을 사용할 수 없으므로 [Exchange에서 동적 메일 그룹](/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups)을 사용할 수 없습니다.
 
@@ -335,7 +335,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 4. **사용 권한 할당** 창에서 **특정 전자 메일 주소 또는 도메인 추가** 를 선택합니다.
 
-5. 텍스트 상자에 다른 조직의 도메인 이름을 입력 합니다(예:**fabrikam.com**). 그런 다음 **추가** 를 선택합니다.
+5. 텍스트 상자에 다른 조직의 도메인 이름을 입력 합니다(예:**fabrikam.com**). 그리고 **추가** 를 선택합니다.
 
 6. **사용 권한 선택** 선택
 
@@ -361,7 +361,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 6. **사용 권한 선택** 창에서 이 사용자(또는 그룹)에 대한 사용 권한을 선택하고 **저장** 을 선택합니다.
 
-7. **사용 권한 할당** 창으로 돌아가서 이 레이블에 추가하려는 각 사용자(또는 그룹)에 대해 3 ~ 6단계를 반복합니다. 그런 다음 **저장** 을 클릭합니다.
+7. **사용 권한 할당** 창으로 돌아가서 이 레이블에 추가하려는 각 사용자(또는 그룹)에 대해 3 ~ 6단계를 반복합니다. 그리고 **저장** 을 클릭합니다.
 
 8. **암호화** 페이지에서 **다음** 을 선택하고 구성을 완료합니다.
 
@@ -416,8 +416,8 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 - 암호화된 파일에 대한 다음 작업은 Office 앱(Windows, Mac, Android 및 iOS)에서 지원되지 않으며 사용자에게 문제가 있다는 오류 메시지가 표시됩니다. 하지만 SharePoint 기능을 대신 사용할 수 있습니다.
 
-  - 이전 버전의 사본 보기, 복원 및 저장. 대안으로, 사용자는 [목록 또는 라이브러리에 대한 버전 관리를 활성화하고 구성할 때](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) 웹에서 Office를 사용하여 이러한 작업을 수행할 수 있습니다.
-  - 파일 이름 또는 위치 변경. 대안으로, 사용자는 SharePoint에서 [문서 라이브러리에서 파일, 폴더 또는 링크 이름 바꾸기](https://support.microsoft.com/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185)를 할 수 있습니다.
+  - 이전 버전의 사본을 보고 복원하고 저장합니다. 대안으로, 사용자는 [목록 또는 라이브러리에 대한 버전 관리를 활성화하고 구성할 때](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) 웹에서 Office를 사용하여 이러한 작업을 수행할 수 있습니다.
+  - 파일 이름이나 위치를 변경합니다. 대안으로, 사용자는 SharePoint에서 [문서 라이브러리에서 파일, 폴더 또는 링크 이름 바꾸기](https://support.microsoft.com/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185)를 할 수 있습니다.
 
 민감도 레이블로 암호화된 파일에 대한 최상의 공동 작업 환경을 위해서는 웹용 Office와 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블을 사용](sensitivity-labels-sharepoint-onedrive-files.md)하는 것이 좋습니다.
 

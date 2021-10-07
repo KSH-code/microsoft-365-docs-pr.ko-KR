@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 데이터를 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 2851fd356efe4405d4355547f364f4a147cb26d0
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1ce355b2780016dfd7732399546567696e7c2301
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213922"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60170814"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -73,7 +73,7 @@ ms.locfileid: "59213922"
 
     레이블 설정에 대한 자세한 정보는 개요 정보에서 [민감도 레이블이 수행하는 작업](sensitivity-labels.md#what-sensitivity-labels-can-do)을 참조하고 개별 설정 마법사의 도움말을 사용하세요.
 
-5. 이 단계를 반복하여 레이블을 더 만듭니다. 그러나 하위 레이블을 만들고자 하는 경우 먼저 상위 레이블을 선택하고 **추가 작업** 에서 **...** 을 선택한 다음 **하위 레이블 추가** 를 선택합니다.
+5. 더 많은 레이블을 만들려면 이 단계를 반복합니다. 그러나 하위 레이블을 만들려면 먼저 상위 레이블을 선택하고 **추가 작업** 에 대해 **...** 을 선택한 다음 **하위 레이블 추가** 를 선택합니다.
 
 6. 필요한 레이블을 모두 만든 경우 해당 주문을 검토하고 필요한 경우 해당 항목을 위나 아래로 이동합니다. 레이블 순서를 변경하려면 **추가 작업** 에 대해 **...** 를 선택한 다음 **위로 이동** 또는 **아래로 이동** 을 선택합니다. 자세한 내용은 개요 정보에서 [레이블 우선 순위(순서가 중요함)](sensitivity-labels.md#label-priority-order-matters)를 참조하세요.
 
@@ -157,7 +157,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
     > [!IMPORTANT]
     > 하위 레이블을 선택한 경우 해당 상위 레이블도 선택해야 합니다.
 
-4. 선택한 레이블을 검토하 고 내용을 변경하려면 **편집** 을 선택합니다. 그렇지 않으면 **다음** 을 선택합니다.
+4. 선택한 레이블을 검토하고 변경하려면 **편집** 을 선택합니다. 그렇지 않으면 **다음** 을 선택합니다.
 
 5. 화면에 나타나는 메시지에 따라 정책 설정을 구성합니다.
 

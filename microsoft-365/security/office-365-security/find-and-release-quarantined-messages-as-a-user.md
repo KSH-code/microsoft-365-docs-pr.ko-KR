@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: Consumer/IW
 ms.topic: how-to
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 - MEW150
@@ -20,12 +20,12 @@ ms.custom:
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3fcd6cb3eb6aee387fd1e4943c837f855abc5f34
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 262ffa4cdb4aae7af0624fe3b51b10b9b088b3c6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483666"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60213496"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 

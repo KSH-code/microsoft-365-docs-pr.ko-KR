@@ -14,18 +14,18 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 193afd61509b7361ac18dd32d827182752fb61ed
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e2b38179556c8658cf6619e40f87bb803fec80e4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214245"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208397"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
@@ -101,7 +101,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
 
 1. <https://admin.microsoft.com>에서 Microsoft 365 관리 센터를 엽니다.
 
-2. **사용자** \> **활성 사용자** 로 이동합니다. 해당 사용자 계정을 찾은 다음, 확인란을 선택하지 않고 사용자(행)를 선택 합니다.
+2. **사용자** \> **사용자 활성화** 로 이동합니다. 해당 사용자 계정을 찾은 다음, 확인란을 선택하지 않고 사용자(행)를 선택 합니다.
 
 3. 세부 정보 플라이아웃이 나타나면 **메일** 탭을 선택합니다.
 

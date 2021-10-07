@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 반복 청구 기능을 끄거나 켜서 대부분의 Microsoft 365를 비즈니스 구독용으로 갱신하는 방법에 대해 알아보세요.
 ms.date: 05/04/2021
-ms.openlocfilehash: ee39c45529c4dbfa54ff0a12fcfe19d29bdef025
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a2f43433c883a5380f4f4f92921bc99e5bf9effb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188363"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60188436"
 ---
 # <a name="renew-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 갱신
 

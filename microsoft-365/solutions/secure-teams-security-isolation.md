@@ -6,7 +6,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -16,12 +16,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 2a6285b63c67572ec363303e1d850c08d9c8e0c5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 83672c1d723103c3b6b72db7b9c67374a2223593
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192179"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206400"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -86,7 +86,7 @@ Contoso Corporation이 극비 프로젝트에 보안 팀을 사용한 방법을 
 3. **처음부터 팀 만들기** 를 선택합니다.
 4. **민감도** 목록에서 기본값을 유지합니다.
 5. **개인 정보 보호** 에서 **비공개** 를 클릭합니다.
-6. 중요한 프로젝트와 관련된 팀의 이름을 입력합니다. 예를 들어 **프로젝트 Saturn** 이 있습니다.
+6. 중요한 프로젝트와 관련된 팀의 이름을 입력합니다(예: **프로젝트 새턴**).
 7. **만들기** 를 클릭합니다.
 8. 팀에 사용자를 추가한 다음 **닫기** 를 클릭합니다.
 

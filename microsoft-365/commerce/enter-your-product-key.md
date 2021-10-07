@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,20 +22,19 @@ ms.custom:
 - AdminTemplateSet
 description: 소매점에서 Microsoft 365 Business Standard를 구입한 경우 제품 키를 사용하고 구독을 활성화하는 방법을 알아봅니다.
 ms.date: 11/13/2020
-ms.openlocfilehash: 5c9a1bba30f6c1b55688d2a36166651fe0b16a05
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d872a61de9f2d704f6cee92234d3358ca0d1c26f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190362"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195872"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Microsoft 365 Business Standard 제품 키 입력
 
 소매점에서 Microsoft 365 Business Standard를 구매한 경우 이 문서를 통해 구독을 활성화할 수 있습니다.
   
- **필요한 다른 사항이 있나요?**
- **Microsoft 365 Family 또는 Microsoft 365 Personal에 대한 도움말** 은 [Office 제품 키 사용](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)을 참조하세요.  
- **볼륨 라이선싱 고객이십니까?** [Microsoft Open License Program](https://go.microsoft.com/fwlink/p/?LinkID=613298)을(를) 통해 비즈니스용 Microsoft 365를 구입한 경우 문서 [Microsoft Open에서 구매한 제품 키 입력](purchases-from-microsoft-open.md)을 참조하세요.
+ **다른 내용이 필요하신가요?** **Microsoft 365 Family 또는 Microsoft 365 Personal에 대한 도움말** 은 [Office 제품 키 사용](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)을 참조하세요.  
+ **볼륨 라이선싱 고객이신가요?** [Microsoft Open License Program](https://go.microsoft.com/fwlink/p/?LinkID=613298)울 통해 비즈니스용 Microsoft 365를 구입한 경우 문서 [Microsoft Open에서 구매한 제품 키 입력](purchases-from-microsoft-open.md)을 참조하세요.
   
 ## <a name="activate-a-new-subscription"></a>새 구독 활성화
 
@@ -69,5 +68,5 @@ ms.locfileid: "59190362"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [다른 계획으로 업그레이드](./subscriptions/upgrade-to-different-plan.md) (문서)\
-[비즈니스용 Microsoft 365 구독이 종료되면 데이터 및 액세스는 어떻게 되나요?](./subscriptions/what-if-my-subscription-expires.md) (기사)\
+[Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](./subscriptions/what-if-my-subscription-expires.md) (문서)\
 [비즈니스에 대한 Microsoft 365 구독 및 라이선스 이해](./licenses/subscriptions-and-licenses.md) (문서)

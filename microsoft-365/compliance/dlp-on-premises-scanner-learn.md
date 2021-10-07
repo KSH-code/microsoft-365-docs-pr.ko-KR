@@ -11,7 +11,7 @@ ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - m365solution-mip
@@ -19,16 +19,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너는 파일 활동과 해당 파일에 대한 보호 작업 모니터링을 온-프레미스 파일 공유와 SharePoint 폴더 및 문서 라이브러리로 확대시킵니다. 파일은 AIP(정보 보호) 스캐너로 스캔되어 보호됩니다.
-ms.openlocfilehash: c59c6b90f6c219528cbff8a4aadc6472a48ecd23
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c696d4c4e8504d07ce69554c6ff52f264b8ba491
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192972"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207346"
 ---
 # <a name="learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기
 
-Microsoft 데이터 손실 방지 온-프레미스 스캐너는 Microsoft 365 서비스에서 중요한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365 데이터 손실 방지(DLP) 제품군의 일부입니다. 모든 Microsoft DLP 제공에 대한 자세한 내용은 [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)를 참조하세요.
+Microsoft 데이터 손실 방지 온-프레미스 검사기는 Microsoft 365 서비스에서 중요한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365의 DLP(데이터 손실 방지) 제품군의 일부입니다. 모든 Microsoft의 DLP 제공에 대한 자세한 내용은 [엔드포인트 데이터 손실 방지에 대한 자세한 정보](dlp-learn-about-dlp.md)를 참조하세요.
 
 **DLP 온-프레미스 스캐너** 는 유출됐을 경우 조직에 위험을 주거나 규정 준수 정책 위반의 위험을 초래하는 중요한 항목을 위해 파일 공유와 SharePoint 문서 라이브러리 및 폴더의 온-프레미스 미사용 데이터를 크롤링합니다. 이를 통해 중요한 항목이 올바르게 사용되고 보호받으며 위험을 초래하는 행동을 방지하는 데 필요한 가시성과 제어 기능을 제공합니다. DLP 온-프레미스 스캐너는 [기본 제공](sensitive-information-type-entity-definitions.md) 또는 [사용자 지정 중요한 정보](create-a-custom-sensitive-information-type.md) 유형, [민감도 레이블](sensitivity-labels.md) 또는 파일 속성을 사용하여 중요한 정보를 감지합니다. 사용자가 중요한 항목으로 수행하는 작업에 대한 정보는 [활동 탐색기](data-classification-activity-explorer.md)에서 확인할 수 있으며 해당 항목에 대한 보호 작업은 [DLP 정책](create-test-tune-dlp-policy.md)을 통해 적용시킬 수 있습니다.
 

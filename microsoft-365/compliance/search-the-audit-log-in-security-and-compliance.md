@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 08f3089433769960d7765ce5dfd096a971de0640
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: b50e320752f64360132410c50f454fbfbfd27a82
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483762"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60195620"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -43,14 +43,14 @@ ms.locfileid: "59483762"
 | 커뮤니케이션 규정 준수|ComplianceSuperVisionExchange|
 | 콘텐츠 탐색기|LabelContentExplorer|
 | DLP(데이터 손실 방지)|ComplianceDLPSharePoint, ComplianceDLPExchange|
-| 엔드포인트용 Defender|DLPEndpoint|
+| 엔드포인트용 Defender|DLPEndpoint, MSDEResponseActions, MSDEGeneralSettings, MSDEIndicatorsSettings, MSDERolesSettings|
 | Dynamics 365|CRM|
 | eDiscovery|검색, AeD|
 | 정확한 데이터 일치|MipExactDataMatch|
 | Exchange Online|ExchangeAdmin, ExchangeItem, ExchangeItemAggregated |
 | Forms|MicrosoftForms|
 | 정보 장벽|InformationBarrierPolicyApplication|
-| Microsoft 365 Defender|MDATPAudit, AirInvestigation, AirManualInvestigation, AirAdminActionInvestigation|
+| Microsoft 365 Defender|AirInvestigation, AirManualInvestigation, AirAdminActionInvestigation, MS365DCustomDetection|
 | Microsoft Teams|MicrosoftTeams|
 | MyAnalytics|MyAnalyticsSettings|
 | 비즈니스용 OneDrive|OneDrive|
@@ -1051,7 +1051,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="disposition-review-activities"></a>처리 검토 활동
 
-다음 표에는 항목이 구성된 보존 기간이 끝날 때 처리 검토자가 수행한 활동이 나열되어 있습니다. 자세한 내용은 [콘텐츠 보기 및 처리](disposition.md#viewing-and-disposing-of-content)를 참조하세요.
+다음 표는 항목이 구성된 보존 기간 끝에 도달했을 때 처리 검토자가 수행한 활동을 나열합니다. 자세한 내용은 [콘텐츠 보기 및 폐기](disposition.md#viewing-and-disposing-of-content)를 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|

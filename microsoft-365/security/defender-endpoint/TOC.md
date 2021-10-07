@@ -48,14 +48,14 @@
 ### [Windows 및 Windows Server의 엔드포인트용 Microsoft Defender]()
 #### [엔드포인트용 Microsoft Defender에 장치 온보딩](onboard-configure.md)
 #### [이전 버전의 Windows 온보딩](onboard-downlevel.md)
-#### [그룹 정책을 통한 Windows 10 장치 온보딩]()
+#### [그룹 정책을 통한 Windows 장치 온보딩]()
 ##### [온보딩 도구 및 방법](configure-endpoints.md)
 ##### [그룹 정책을 사용하여 장치 온보딩](configure-endpoints-gp.md)
 ##### [Microsoft Endpoint Configuration Manager를 사용하여 장치 온보딩](configure-endpoints-sccm.md)
 ##### [모바일 장치 관리 도구를 사용하여 장치 온보딩](configure-endpoints-mdm.md)
 ##### [로컬 스크립트를 사용하여 장치 온보딩](configure-endpoints-script.md)
 ##### [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
-##### [Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩](Onboard-Windows-10-multi-session-device.md)
+##### [Windows Virtual Desktop에서 Windows 다중 세션 장치 온보딩](onboard-windows-multi-session-device.md)
 #### [Windows 서버 온보딩](configure-server-endpoints.md)
 
 #### [인터넷 액세스 없이 장치 온보딩](onboard-offline-machines.md)
@@ -327,9 +327,6 @@
 ##### [성능 문제 해결](troubleshoot-performance-issues.md)
 ##### [이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-microsoft-defender-antivirus.md)
 ##### [타사 솔루션에서 마이그레이션하는 동안 Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
-
-#### [하드웨어 기반 격리]()
-##### [Windows 10의 하드웨어 기반 격리](overview-hardware-based-isolation.md)
 
 #### [악용 방지]()
 ##### [악용으로부터 장치 보호](exploit-protection.md)

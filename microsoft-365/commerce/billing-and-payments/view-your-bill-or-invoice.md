@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: GEA150
 ms.collection:
 - M365-subscription-management
@@ -24,12 +24,12 @@ ms.custom:
 - AdminTemplateSet
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: 319d8469ebdf1500f5f10e7fb84f69b9d87bed7c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d0b0f75615b7d1110d1a0366b96f32807a033fd7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190429"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60189672"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -37,7 +37,7 @@ ms.locfileid: "59190429"
   
 청구서에 표시된 요금 내용을 해석하는 데 도움이 필요한 경우 [결제 내역 또는 청구서 이해](understand-your-invoice2.md)에서 자세한 지침을 참조하세요.
   
-**청구서에 문제가 있나요?** [비즈니스 제품에 대해서는 고객 지원 센터에 문의하세요](../../business-video/get-help-support.md).
+**청구서에 문제가 있나요?** [비즈니스 제품에 대한 지원에 문의하세요](../../business-video/get-help-support.md).
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

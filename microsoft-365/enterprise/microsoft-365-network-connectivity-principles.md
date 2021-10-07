@@ -7,7 +7,7 @@ ms.date: 6/23/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서는 Microsoft 365 네트워크 연결을 안전하게 최적화하기 위한 최신 가이드를 재공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7aebf4e210c3e4feb94ec3c6deb6523e5742152c
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1ad7607fb03aee49fa86adaaf1e8970c864ea310
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59220819"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60212884"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Microsoft 365 네트워크 연결 원칙
 

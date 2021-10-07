@@ -6,7 +6,7 @@ manager: laurawi
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ search.appverid:
 - MBS150
 ms.assetid: 79c43023-5a47-45ae-8068-d8a26eee6bc2
 description: Office 365의 디렉터리 동기화 문제의 일반적인 원인을 설명하고 문제를 해결할 수 있는 몇 가지 방법을 제공합니다.
-ms.openlocfilehash: 27bbe07be43c7b04b7e74f1cc600df6c1409e372
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: dba6626ead648928186f8fbeac646a2b52206bc0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216072"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208280"
 ---
 # <a name="fixing-problems-with-directory-synchronization-for-microsoft-365"></a>Microsoft 365의 디렉터리 동기화 문제 해결
 
@@ -36,7 +36,7 @@ ms.locfileid: "59216072"
 
 문제가 있는 경우 이를 나타내는 첫 번째 표시는 Microsoft 365 관리 센터의 DirSync 상태 타일에 문제가 있음이 표시되는 것입니다.
   
-또한 Microsoft 365로부터 테넌트에 디렉터리 동기화 오류가 발생했음을 나타내는 메일(대체 전자 메일 및 관리자 전자 메일로 전송됨)을 받게 됩니다. 자세한 내용은 [Microsoft 365의 디렉터리 동기화 오류 식별](identify-directory-synchronization-errors.md)을 참조하세요.
+또한 Microsoft 365로부터 테넌트에 디렉터리 동기화 오류가 발생했음을 나타내는 메일(대체 전자 메일 및 관리자 전자 메일로 전송됨)을 받게 됩니다. 자세한 내용은 [Microsoft 365의 디렉터리 동기화 오류 확인](identify-directory-synchronization-errors.md)을 참조하세요.
   
 ## <a name="how-do-i-get-azure-active-directory-connect-tool"></a>Azure Active Directory Connect 도구는 어떻게 사용하나요?
 
@@ -64,7 +64,7 @@ Azure AD 동기화 서비스에서 Azure AD Connect로 업데이트 하려면 [�
 - [Azure AD Connect 동기화로 암호 동기화 구현](/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)
 
 ### <a name="im-seeing-an-alert-that-object-quota-exceeded"></a>개체 할당량을 초과했다는 알림이 표시됩니다.
-- 서비스를 보호를 위해 개체 할당량이 기본적으로 제공됩니다. 디렉터리에 Microsoft 365로 동기화해야 하는 개체가 너무 많은 경우에는 [비즈니스 제품 지원 문의](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)하여 할당량을 늘려야 합니다.
+- 서비스 보호를 위해 개체 할당량이 기본 제공됩니다. Microsoft 365와 동기화해야 하는 디렉터리에 개체가 너무 많을 경우 비즈니스 제품용 [고객 지원](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)에 문의하여 할당량을 늘려야 합니다.
 
 ### <a name="i-need-to-know-which-attributes-are-synchronized"></a>동기화되는 특성을 확인해야 합니다.
 - [여기](https://go.microsoft.com/fwlink/p/?LinkId=396719)에서 온-프레미스와 클라우드 간에 동기화되는 모든 특성 목록을 확인할 수 있습니다.

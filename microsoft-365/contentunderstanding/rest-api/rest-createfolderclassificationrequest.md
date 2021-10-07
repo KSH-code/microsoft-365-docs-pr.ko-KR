@@ -9,14 +9,14 @@ ms.topic: reference
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: high
 description: REST API를 사용하여 학습된 문서 이해 모델을 사용하여 전체 폴더를 분류하는 요청을 만듭니다.
-ms.openlocfilehash: 44e1969628fb61b797f59a7378b95403c94dda8a
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: ea5748b5eb376872738d30b142927314abfe9d3e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59777129"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60186876"
 ---
 # <a name="create-folder-classification-request"></a>폴더 분류 요청 만들기
 
