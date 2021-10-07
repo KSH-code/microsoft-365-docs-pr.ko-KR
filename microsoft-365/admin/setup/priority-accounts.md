@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - Adm_TOC
@@ -16,12 +16,12 @@ ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 description: 비즈니스에 큰 영향을 미치는 계정으로 보내거나 보낸 전자 메일로 전송된 실패 및 지연된 전자 메일 메시지를 모니터링합니다.
-ms.openlocfilehash: 95d5e703570b3a399335a0c26d7e953a277ccddf
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: b8762885cc54859cf927653abb14858c0094ea12
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934206"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201352"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>우선 순위 계정 관리 및 모니터링
 
@@ -96,4 +96,4 @@ ms.locfileid: "59934206"
 
 ## <a name="related-topics"></a>관련 항목
 
-[2016에서 우선 순위 계정 Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/using-priority-accounts-in-microsoft-365/ba-p/1873314)
+[Microsoft 365에서 우선 순위 계정 사용](https://techcommunity.microsoft.com/t5/microsoft-365-blog/using-priority-accounts-in-microsoft-365/ba-p/1873314)

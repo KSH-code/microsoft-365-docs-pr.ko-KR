@@ -6,7 +6,7 @@ manager: laurawi
 ms.audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Windows 테넌트의 Windows, Office 클라이언트 앱 및 Office 서버를 Microsoft 365 마이그레이션합니다.
-ms.openlocfilehash: 9570a34c1c1884452ee9090ca0b7d280411e0016
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 86f244ba8d28c242b59296a4de8b63b4a07b50ad
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59163451"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176191"
 ---
 # <a name="step-4-migration-for-your-microsoft-365-for-enterprise-tenants"></a>4단계. 엔터프라이즈 테넌트에 Microsoft 365 마이그레이션
 

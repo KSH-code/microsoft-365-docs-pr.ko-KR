@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 각 문서에서 Advanced eDiscovery 테마를 찾아 검토 집합을 구성할 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3dfc0dca0c6ed62e3ce8384efa2fd3ea407c3ce8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ed7759353230e80359a771416c01e62d2ec03337
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216332"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193186"
 ---
 # <a name="themes-in-advanced-ediscovery"></a>Advanced eDiscovery
 

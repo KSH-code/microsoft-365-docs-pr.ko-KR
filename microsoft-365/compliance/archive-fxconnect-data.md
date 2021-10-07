@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 관리자는 커넥터를 설정하여 Veritas FX 2013에서 데이터를 가져오고 보관할 커넥트 Microsoft 365. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 2669ab21d0746d680a3029c2be998ab5d3ab6f82
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 045a53fe7a0433e56a7b6b4c04f04f6e39bd6e16
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216932"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193318"
 ---
 # <a name="set-up-a-connector-to-archive-fx-connect-data"></a>FX 데이터 보관 커넥터 커넥트 설정
 

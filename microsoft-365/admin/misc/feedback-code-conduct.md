@@ -6,14 +6,14 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 제공하는 피드백에 대한 Microsoft의 행동 규범에 대해 자세히 알아보습니다.
-ms.openlocfilehash: aa109d61a2fc3723d20ec118c25eed014e96d652
-ms.sourcegitcommit: dd4214a309c71292490743752da728cec7bffe88
+ms.openlocfilehash: b7735a7c6560c1cce79e88f4f5612f9ef0c42ced
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59479595"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180428"
 ---
 # <a name="microsoft-feedback-code-of-conduct"></a>Microsoft 피드백 행동 규범
 

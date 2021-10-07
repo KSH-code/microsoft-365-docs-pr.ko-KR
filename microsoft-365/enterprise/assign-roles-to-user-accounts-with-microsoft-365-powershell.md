@@ -7,7 +7,7 @@ ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: Ent_O365
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: 이 문서에서는 PowerShell을 사용하여 사용자 계정에 관리자 역할을 Microsoft 365 방법을 알아보습니다.
-ms.openlocfilehash: 4174877bed9accacc3a61de576fa6e54060678bf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0b0fc0a5da1a6b84d4f13f95ace4846e367ae111
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213865"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193138"
 ---
 # <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 통해 사용자 Microsoft 365 관리자 역할 할당
 
@@ -36,7 +36,7 @@ PowerShell을 사용하여 사용자 계정에 역할을 쉽게 할당할 수 Mi
 >[!Note]
 >사용자 계정을 [통해](../admin/add-users/assign-admin-roles.md) 관리자 역할을 할당하는 방법을 Microsoft 365 관리 센터.
 >
->추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
+>추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](/admin)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
@@ -111,7 +111,7 @@ Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADD
     이 명령은 사용자 계정의 표시 이름을 표시 이름별로 정렬하여 한 화면씩 나열합니다. **Where** cmdlet을 사용하여 목록을 더 작은 집합으로 필터링할 수 있습니다. 아래 예제를 참고하십시오.
 
    >[!Note]
-   >PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. Windows PowerShell에서 이러한 cmdlet을 실행합니다.
+   >PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. Windows PowerShell 이러한 cmdlet을 실행합니다.
    >
     
   ```powershell

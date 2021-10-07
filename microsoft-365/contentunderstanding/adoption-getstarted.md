@@ -13,13 +13,13 @@ ms.collection:
 - m365initiative-syntex
 ms.custom: Adopt
 search.appverid: ''
-localization_priority: Normal
-ms.openlocfilehash: f8d3e4bc1b410ddcf0472f408864de1f34dad722
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.localizationpriority: medium
+ms.openlocfilehash: 172c0a681bc8e7c7867e4bcba1c75f94cfc12e60
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192889"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193162"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex 도입: 시작
 
@@ -76,7 +76,7 @@ ms.locfileid: "59192889"
 | 양식 처리 구성 | 양식 처리를 위한 Dataverse 환경 구성 | 사용 사례 수집 | 비즈니스 사용 사례 수집 |
 | 콘텐츠 센터 및 사용 권한 관리| AIB 크레딧 구매 및 할당 | 모범 사례 설정 및 모델 분석 검토 | 모델 만들기 및 적용 |
 
-기술 관리자, 비즈니스 프로세스 소유자 및 콘텐츠 모델 소유자는 조직에서 샘플 모델과 챔피언 채택을 생성합니다.
+지식 관리자, 비즈니스 프로세스 소유자 및 콘텐츠 모델 소유자는 조직에서 샘플 모델 및 챔피언 채택을 생성합니다.
 관련이 있을 수 있는 기타: 규정 준수 관리자, 세분화 관리자.
 
 어디에서 모델을 빌드하고 적용할 것인가? 개선할 수 있는 기존 프로세스 또는 리포지토리가 있나요?

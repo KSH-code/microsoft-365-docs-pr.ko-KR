@@ -9,17 +9,17 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 콘텐츠의 보존, 수집, 검토 및 내보내기 방법을 Microsoft Teams Advanced eDiscovery.
-ms.openlocfilehash: 462442d2319c2c199d39795b77b67c6dcefdb758
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 1c52a3ea0c803af89f9529d6529bd7610ff05d80
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216355"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200296"
 ---
 # <a name="advanced-ediscovery-workflow-for-content-in-microsoft-teams-using-large-cases-preview"></a>Advanced eDiscovery(미리 보기)를 사용하여 Microsoft Teams 콘텐츠에 대한 워크플로 관리
 

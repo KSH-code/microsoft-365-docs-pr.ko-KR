@@ -2,7 +2,7 @@
 title: 내부자 위험 관리에 대해 알아보기
 description: 조직의 내부자 위험 관리를 통해 조직의 위험을 최소화하는 데 도움이 되는 방법을 Microsoft 365.
 keywords: Microsoft 365, 내부자 위험, 위험 관리, 규정 준수
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 51a94e2fd87bc5356de80e26fb70297e1dd3b710
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: d588d4792bc8396fb3720a08e0624bd8273b5d93
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460107"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201088"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
 

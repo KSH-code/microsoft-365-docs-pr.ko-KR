@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획은 보존 라벨에 대한 고급 관리 기능을 제공한다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 5c270e3b03c8c8373cc3fcb204f5f5a654eeb001
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6c77268133440e4f067d42d66f4c99f76034e735
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191509"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201148"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>파일 계획을 사용하여 보존 레이블 관리
 
@@ -70,25 +70,25 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 
 - **상태** 는 레이블이 레이블 정책 또는 자동 적용 정책에 포함되어 있는지 여부(**활성화** 또는 **비활성화**)를 식별합니다.
 
-- **기준** 에 따라 보존 기간이 시작되는 방법 또는 시기를 식별합니다. 올바른 값
+- **기준에 따라** 보존 기간이 시작되는 방법 또는 시기를 식별합니다. 유효한 값은 다음과 같습니다.
     - 이벤트
     - 만든 날짜
     - 마지막으로 수정한 날짜
     - 레이블을 지정한 날짜
 
-- **현재 레코드** 는 레이블이 적용될 때 항목이 레코드로 표시되는지 여부를 식별합니다. 올바른 값
+- **현재 레코드** 는 레이블이 적용될 때 항목이 레코드로 표시되는지 여부를 식별합니다. 유효한 값은 다음과 같습니다.
     - 아니요
     - 예
     - 예(규정)
 
-- **보존 기간** 은 보존 기간을 식별합니다. 올바른 값
+- **보존 기간** 은 보존 기간을 식별합니다. 유효한 값은 다음과 같습니다.
     - 일
     - 월
     - 년 후에 삭제
     - 기한 없음
     - 없음
 
-- **처리 유형** 은 보존 기간이 끝날 때 컨텐츠에 발생하는 작업을 식별합니다. 올바른 값
+- **처리 유형** 은 보존 기간이 끝날 때 컨텐츠에 발생하는 작업을 식별합니다. 유효한 값은 다음과 같습니다.
     - 작업 없음
     - 자동 삭제
     - 검토 필요
@@ -109,7 +109,7 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
 
 ![보존 레이블을 만들거나 편집할 때 수행 하는 파일 계획 설명자.](../media/file-plan-descriptors.png)
 
-이러한 각 선택적 설명자에 대해 **선택** 을 선택하면 기본 제공 값 중 하나를 선택하거나 직접 만든 다음 선택할 수 있습니다. 예를 들어 다음과 같습니다. 
+이러한 각 선택적 설명자에 대해 **선택** 을 선택하면 기본 제공 값 중 하나를 선택하거나 직접 만든 다음 선택할 수 있습니다. 예를 들면 다음과 같습니다. 
 
 ![프로비전/인용을 위한 새 파일 플랜 설명자를 만듭니다.](../media/file-plan-descriptors-create.png)
 
@@ -161,10 +161,10 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스** 에서 보존 레�
    |Category|String|아니요|이 속성은 **범주** 파일 계획 설명자에 표시되는 값을 지정합니다.|
    |SubCategory|String|아니요|이 속성은 **하위 범주** 파일 계획 설명자에 표시되는 값을 지정합니다.|
    |AuthorityType|String|아니요|이 속성은 **기관 유형** 파일 계획 설명자에 표시되는 값을 지정합니다.|
-   |CitationName|String|아니요|이 속성은 **프로비저닝/인용** 파일 계획 설명자에 표시되는 인용문의 이름을 지정합니다. 예를 들어, "2002년 Sarbanes-Oxley Act"가 있습니다. |
+   |CitationName|String|아니요|이 속성은 **조항/인용** 파일 계획 설명자에 표시된 인용의 이름을 지정합니다(예: "Sarbanes-Oxley Act or 2002"). |
    |CitationUrl|String|아니요|이 속성은 **조항/인용** 파일 계획 설명자에 표시되는 URL을 지정합니다.|
    |CitationJurisdiction|String|아니요|이 속성은 **프로비전/인용** 파일 플랜 설명자에 표시되는 관할지 또는 에이전시를 지정합니다(예: 미국 SEC(증권 거래 위원회)).|
-   |Regulatory|String|아니요|이 속성은 레이블이 콘텐츠를 규정 레코드로 표시할지 여부를 지정합니다. 규정 레코드는 레코드보다 [더 제한적](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked)입니다. 이 레이블 구성을 사용하려면 [콘텐츠를 규제 레코드로 표시하는 옵션](declare-records.md#how-to-display-the-option-to-mark-content-as-a-regulatory-record)을 표시하도록 테넌트를 구성해야 합니다. 그렇지 않으면 가져오기 유효성 검사가 실패합니다. 유효한 값은 다음과 같습니다. </br>**TRUE**: 레이블은 항목을 규정 레코드로 표시합니다. 또한 **IsRecordLabel** 속성을 TRUE로 설정해야 합니다.</br>**FALSE**: 레이블은 내용을 규정 레코드로 표시하지 않습니다. 이 값은 기본값입니다.|
+   |Regulatory|String|아니요|이 속성은 레이블이 콘텐츠를 규정 레코드로 표시할지 여부를 지정합니다. 규정 레코드는 레코드보다 [더 제한적](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked)입니다. 이 레이블 구성을 사용하려면 [콘텐츠를 규제 레코드로 표시하는 옵션](declare-records.md#how-to-display-the-option-to-mark-content-as-a-regulatory-record)을 표시하도록 테넌트를 구성해야 합니다. 그렇지 않으면 가져오기 유효성 검사가 실패합니다. 유효한 값은 다음과 같습니다. </br>**TRUE**: 레이블은 항목을 규정 레코드로 표시합니다. 또한 **IsRecordLabel** 속성을 TRUE로 설정해야 합니다.</br>**FALSE**: 레이블은 내용을 규정 레코드로 표시하지 않습니다. 기본값입니다.|
    |EventType|문자열|아니요, **RetentionType** 이 **EventAgeInDays** 인 경우 제외|이 속성은 [이벤트 기반 보존](event-driven-retention.md)에 사용되는 이벤트 유형을 지정합니다. **레코드 관리** > **이벤트** > **이벤트 유형 관리** 에 표시되는 기존 이벤트 유형을 지정합니다. 또는 [Get-ComplianceRetentionEventType](/powershell/module/exchange/get-complianceretentioneventtype) cmdlet을 사용하여 사용 가능한 이벤트 유형을 확인합니다. **직원 활동** 및 **제품 수명** 같은 몇 가지 기본 제공 이벤트 유형이 있지만 고유한 이벤트 유형을 만들 수도 있습니다. </br> </br> 고유한 이벤트 형식을 지정하는 경우 가져오기 프로세스의 일부로 이름의 유효성을 검사하기 때문에 가져오기 전에 미리 만들어야 합니다.|
    |||
 

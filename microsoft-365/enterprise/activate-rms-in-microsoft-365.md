@@ -7,7 +7,7 @@ ms.date: 07/16/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: ''
@@ -17,12 +17,12 @@ search.appverid:
 - BCS160
 ms.assetid: 5b6d3ac7-b1ac-428e-b03e-50e882f85a6e
 description: 권한 관리 서비스를 활성화하고 권한 관리 서비스를 사용하는 Microsoft 365.
-ms.openlocfilehash: 887979e372bf4ba938b2d2570f981aee9373d485
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7f063b8d4258c261d1791900375fa0492d494e59
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218782"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207142"
 ---
 # <a name="activate-rights-management-in-the-admin-center"></a>관리 센터에서 권한 관리 활성화
 

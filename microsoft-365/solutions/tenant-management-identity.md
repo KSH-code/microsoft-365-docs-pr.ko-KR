@@ -6,7 +6,7 @@ manager: laurawi
 ms.audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 테넌트에 대한 올바른 ID 모델을 Microsoft 365 강력한 사용자 로그인을 적용합니다.
-ms.openlocfilehash: cd67db1c70c4f3aaa4ec9784e1de6992dd40300a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 10757c2fd88df9b9e30905f067432a1034c24421
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192132"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176286"
 ---
 # <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>3단계. 엔터프라이즈 테넌트의 Microsoft 365 ID
 

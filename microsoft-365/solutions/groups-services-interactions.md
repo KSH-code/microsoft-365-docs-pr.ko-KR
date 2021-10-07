@@ -7,7 +7,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365solution-collabgovernance
@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 그룹 서비스 상호 작용
-ms.openlocfilehash: 54d8cd0ff31bad9af4269b3a4d8af23ccb618e16
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f20f8199811b8b34b4cb74ac18a989a79dde7759
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192239"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207466"
 ---
 # <a name="groups-services-interactions"></a>그룹 서비스 상호 작용
 
@@ -181,7 +181,7 @@ Teams Microsoft 및 타사 서비스와 상호 작용할 수 있는 단수 인�
 
 - Conversations
 - 채널 & 탭
-- Meetings
+- 모임
 
 **그룹을 Teams 수 있나요?**
 

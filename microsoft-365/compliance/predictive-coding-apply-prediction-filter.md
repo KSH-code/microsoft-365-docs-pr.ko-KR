@@ -9,17 +9,17 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 예측 점수 필터를 사용하여 예측 코딩 모델이 관련성이 있는 것으로 예측된 항목을 표시합니다.
-ms.openlocfilehash: 34a9b4da55443cae6c2334952f60b94953b0d9d4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 04d0881e36c28a70df58a1aa7b054c641dfeeb2a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186100"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200464"
 ---
 # <a name="apply-a-prediction-score-filter-to-a-review-set-preview"></a>검토 집합에 예측 점수 필터 적용(미리 보기)
 

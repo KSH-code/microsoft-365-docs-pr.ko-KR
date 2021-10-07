@@ -7,19 +7,20 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Microsoft Defender 바이러스 백신 장치에서 감지된 위협을 검토하고 Windows 10 방법을 알아보십시오.
-ms.openlocfilehash: fe03b7a7a72b3908b19da71544853a671fc90f52
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 30c2114a3605c73214f773414fe64e18522d9093
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59772785"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180404"
 ---
 # <a name="review-detected-threats-and-take-action"></a>탐지된 위협 검토 및 조치 수행
 
@@ -81,7 +82,7 @@ IT 전문가/관리자는 사용자 계정의 [Intune에](/mem/intune/enrollment
 | 빠른 검사 실행 | 레지스트리 키 및 알려진 시작 폴더와 같은 맬웨어가 등록될 수 있는 일반적인 위치를 중심으로 장치에서 Windows 검사가 시작됩니다. |
 | 전체 검사 실행 | 맬웨어가 등록될 수 있는 일반적인 위치와 장치의 모든 파일 및 폴더를 포함하여 디바이스에서 전체 바이러스 백신 검색을 시작합니다. 결과는 에 [Microsoft Endpoint Manager.](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) |
 | 바이러스 백신 업데이트 | 장치에 바이러스 백신 [](https://go.microsoft.com/fwlink/?linkid=2149926) 및 맬웨어 방지 보호에 대한 보안 인텔리전스 업데이트를 다운로드해야 합니다. |
-| 장치 다시 시작 | 5분 Windows 10 장치를 강제로 다시 시작합니다.<br><br>**중요:** 장치 소유자 또는 사용자에게 다시 시작에 대한 알림을 자동으로 잃어버렸다가 다시 시작되지 않은 작업을 잃을 수 있습니다. |
+| “장치 다시 시작” | 5분 Windows 10 장치를 강제로 다시 시작합니다.<br><br>**중요:** 장치 소유자 또는 사용자에게 다시 시작에 대한 알림을 자동으로 잃어버렸다가 다시 시작되지 않은 작업을 잃을 수 있습니다. |
 
 ## <a name="manage-threat-detections-in-microsoft-endpoint-manager"></a>보안 기능에서 위협 Microsoft Endpoint Manager
 

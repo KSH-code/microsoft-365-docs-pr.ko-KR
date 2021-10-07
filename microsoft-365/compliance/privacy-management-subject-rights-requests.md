@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - M365-privacy-management
@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 개인 정보 보호 관리의 주체 권한 요청 영역을 사용하면 개인 데이터를 찾고 콘텐츠를 검토하고 보고서를 만드는 데 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: 76c35bd7ad4ef557db75b61939ac5ebbaa001384
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: deb5bc50aa047cd336684e586ee3bf86286417c1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59481027"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207214"
 ---
 # <a name="manage-subject-rights-requests-in-privacy-management-preview"></a>개인 정보 관리에서 주체 권한 요청 관리(미리 보기)
 

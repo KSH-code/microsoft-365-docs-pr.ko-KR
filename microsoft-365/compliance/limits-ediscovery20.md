@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Advanced eDiscovery 솔루션에 적용된 사례 제한, 인덱싱 제한 및 검색 제한에 대해 Microsoft 365.
-ms.openlocfilehash: e82b7d44a5733c245b00a1890b9d07dd95c679e2
-ms.sourcegitcommit: 88c3b9758214936d283bad0321b826fb40a2e7e9
+ms.openlocfilehash: 7cdcadb5a6657c0fc975753241e8f101e25c998b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "60088232"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207286"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 

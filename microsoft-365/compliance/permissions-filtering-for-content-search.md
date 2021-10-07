@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: 검색 권한 필터링을 사용하여 eDiscovery 관리자가 조직의 사서함 및 사이트의 하위 집합만 검색할 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6452f2dd17d93ce30065aa5636d6cacf2818b05d
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 785fd1237cab66a898307724c5142a6baf4d6120
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186131"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200428"
 ---
 # <a name="configure-permissions-filtering-for-ediscovery"></a>eDiscovery에 대한 사용 권한 필터링 구성
 

@@ -7,7 +7,7 @@ ms.reviewer: kshi
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: ''
@@ -16,12 +16,12 @@ ms.collection:
 description: 금고 문서 또는 Microsoft 365 E5 문서에 대해 Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 74b01872a1b5aee75730f203fec9b2b0ebf77fdc
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: cd1bb71bee6a123ae698f1178e62a521409d4103
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400909"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180710"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -63,7 +63,7 @@ ms.locfileid: "59400909"
   >
   > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   >
-  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Microsoft는 데이터를 어떻게 처리하나요?
 
@@ -81,7 +81,7 @@ ms.locfileid: "59400909"
    - **금고 클라이언트에** 대한 Office 설정 : 토글을 오른쪽으로 이동하여 기능을 ![ 켜기: 토글합니다. ](../../media/scc-toggle-on.png) .
    - **사용자가 파일을** 악성으로 식별한 경우에도 금고 보기를 클릭할 수 있도록 허용 : 이 옵션을 해제한 후(토글을 왼쪽으로 그대로 두기: ![ 토글 해제). ](../../media/scc-toggle-off.png)
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
    ![금고 첨부 파일 페이지에서 전역 설정을 선택한 금고 문서화합니다.](../../media/safe-docs-global-settings.png)
 
@@ -129,7 +129,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 
 문서를 사용하도록 설정하고 구성한 금고 다음 단계를 수행합니다.
 
-- Microsoft 365 Defender 포털의 정책 섹션 전역 설정에서 전자 메일 & 공동 **작업** 정책 & 규칙 위협 \>  \>  \> **정책금고**  \>    첨부 파일로 이동하고, Office 클라이언트에 대해 금고 문서 켜기 및 문서가 파일을 악성 설정으로 식별하는 경우에도 금고 보기를 클릭할 수 있도록 허용을 확인합니다.
+- Microsoft 365 Defender 포털의 정책 섹션 전역 설정에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 금고 첨부 파일로 이동한 다음 Office 클라이언트에 대한 금고 문서 켜기 \>  \>  \>   \>  **및** **사용자가 보호된 보기를 클릭할 수 있도록 허용을 확인합니다. 문서를 금고 악성 설정으로 파일을 식별하는 경우에도**
 
 - PowerShell에서 Exchange Online 명령을 실행하고 속성 값을 검증합니다.
 

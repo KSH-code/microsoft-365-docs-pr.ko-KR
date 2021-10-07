@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: medium
 description: SharePoint Syntex에서 모델에 민감도 레이블을 적용하는 방법을 알아봅니다.
-ms.openlocfilehash: 2e6fc51db228ac4beb7171047478b0132c1194f5
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
-ms.translationtype: HT
+ms.openlocfilehash: 2b0ef2afda8f0a3d5431b8a14bc76dfcc3c3b663
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167418"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200200"
 ---
 # <a name="apply-a-sensitivity-label-to-a-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 모델에 민감도 레이블 적용
 

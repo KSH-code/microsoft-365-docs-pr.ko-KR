@@ -10,7 +10,7 @@ ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.CustomizeExportReport
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: 검색 결과에서 콘텐츠 검색의 실제 결과를 내보내는 Microsoft 365 규정 준수 센터 검색 결과 보고서를 내보낼 수 있습니다. 보고서에는 내보낼 각 항목에 대한 자세한 정보가 포함된 검색 결과 및 문서가 요약되어 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 715476f71a480555d9559165d997eb57f7c79abd
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: d5bef65905d6a93ab1eba51c7550824baca0e8ee
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59497815"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201184"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 

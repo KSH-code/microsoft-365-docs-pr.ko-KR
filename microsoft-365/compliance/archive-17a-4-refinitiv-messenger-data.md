@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 17a-4 Refinitiv Eikon Messenger DataParser 커넥터를 설정하고 사용하여 이 데이터를 Microsoft 365.
-ms.openlocfilehash: b3714a2e0d0d3e20d5a2851e520be00dd6ed5aeb
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 9db1af04a731b3903cdfcf9dc20d7c7577b337e9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399649"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200584"
 ---
 # <a name="set-up-a-connector-to-archive-refinitiv-eikon-messenger-data"></a>Refinitiv Eikon Messenger 데이터를 보관할 커넥터 설정
 

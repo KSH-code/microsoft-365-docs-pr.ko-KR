@@ -8,7 +8,7 @@ manager: dansimp
 audience: Admin
 ms.date: ''
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
@@ -20,12 +20,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 첨부 파일 기능에 대해 자세히 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c80428c59f4ff8621be2d9f62ac8c650ea9d41ce
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 10b3d46d2cd2fd123c790ccb5af556510d911350
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59484002"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180711"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>금고 Microsoft Defender for Office 365
 
@@ -80,7 +80,7 @@ ms.locfileid: "59484002"
   |**동적 배달**|메시지를 즉시 배달하지만 첨부 파일 검색이 완료될 때까지 금고 자리 표시자로 대체합니다. <p> 악의적인 첨부 파일이 포함된 메시지는 차단됩니다. 기본적으로 관리자(사용자가 아 아는 경우)만 메시지를 검토, 해제 또는 삭제할 수 있습니다.<sup>\*</sup> <p> 자세한 내용은 이 문서 2부의 금고 첨부 [파일](#dynamic-delivery-in-safe-attachments-policies) 정책의 동적 배달 섹션을 참조하십시오.|악의적인 파일로부터 받는 사람을 보호하면서 메시지 지연을 방지합니다.|
   |
 
-  <sup>\*</sup>관리자는 사용자가 메시지에  대해 허용되는 작업을 정의하는 금고 정책에서 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Quarantine policies 을 참조하십시오.](quarantine-policies.md)
+  <sup>\*</sup>관리자는 사용자가 메시지에  대해 허용되는 작업을 정의하는 금고 정책에서 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
 - 검색 시 첨부 파일 **리디렉션:** 리디렉션을 사용하도록 설정하고 첨부 파일을  다음 전자 메일 주소로 보내기:  **차단,** 모니터링 또는 바꾸기 작업의 경우 맬웨어 첨부 파일이 포함된 메시지를 분석 및 조사를 위해 지정된 내부 또는 외부 전자 메일 주소로 전송합니다.
 

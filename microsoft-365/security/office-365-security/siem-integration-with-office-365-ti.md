@@ -7,7 +7,7 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
-localization_priority: None
+ms.localizationpriority: ''
 search.appverid:
 - MET150
 - MOE150
@@ -19,12 +19,12 @@ description: 조직의 SIEM 서버를 Office 365 관리 API의 microsoft Defende
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3eb38325c9695ae0ed5cfb9389e8972ee599739f
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 3dbb175ba169c9bb8f4d7240d59d9886391167c3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356006"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176358"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Microsoft Defender와 SIEM Office 365
 

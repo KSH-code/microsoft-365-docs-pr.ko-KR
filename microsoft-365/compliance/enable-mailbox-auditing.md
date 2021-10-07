@@ -8,7 +8,7 @@ manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365 사서함 감사 또는 사서함 감사라고도 합니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행한 특정 작업이 사서함 감사 로그에 자동으로 기록되며, 사서함에서 수행되는 작업을 검색할 수 있습니다.
-ms.openlocfilehash: fb88c1f4ff909f4f4a5a2e8a3d089c9217753817
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4487defd4c971b5decda3442739730adcafac453
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218915"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207310"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -64,7 +64,7 @@ False **값은** 기본적으로 사서함 감사가 조직에 대해 사용하�
 
 ****
 
-|사서함 유형|않음|
+|사서함 유형|지원|
 |---|:---:|
 |사용자 사서함|![확인 표시입니다.](../media/checkmark.png)|
 |공유 사서함|![확인 표시입니다.](../media/checkmark.png)|
@@ -311,7 +311,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직의 사서함 감사 기본 사용이 켜져 있으면 특정 사서함에 대한 사서함 감사를 사용하지 않도록 설정할 수 없습니다. 예를 들어 *AuditEnabled* 사서함 속성을 **False로** 설정하면 무시됩니다.
 
-그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여 작업이 수행되는 위치와 관계없이 지정된 사용자의 모든 사서함 작업이 기록되지 않도록 할 수 있습니다.  예시:
+그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여 작업이 수행되는 위치와 관계없이 지정된 사용자의 모든 사서함 작업이 기록되지 않도록 할 수 있습니다.  예제:
 
 - 무시된 사용자가 수행한 사서함 소유자 작업은 기록되지 않습니다.
 - 다른 사용자의 사서함(공유 사서함 포함)에서 무시된 사용자가 수행한 위임 작업은 기록되지 않습니다.

@@ -10,7 +10,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 73c16691dc56ad478912b85cb1b712bc7b1b44a8
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f90a029472c03fc45ac5915e56176f7c2527a7cb
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189502"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207908"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 사용자 계정 조사
 

@@ -10,19 +10,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 ROBOTS: NOINDEX, NOFOLLOW
 description: 파일에 태그를 지정하고 평가 결과를 검토하는 등 평가 교육을 수행하는 단계를 Advanced eDiscovery.
-ms.openlocfilehash: 539d4e8f28aa8e4e3ab98807c5019711edbdcc4f
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4d779d7ea364083c973cbb3d2e821b85c34fb795
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216362"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200284"
 ---
 # <a name="tagging-and-assessment-in-the-relevance-module-in-advanced-ediscovery"></a>2016년 8월의 연결 모듈에 있는 태그 지정 및 Advanced eDiscovery
   

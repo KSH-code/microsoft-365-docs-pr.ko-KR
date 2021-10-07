@@ -9,7 +9,7 @@ ms.date: 09/29/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 준수 점수 및 준수 관리자를 사용하여 개인 데이터에 대한 보호 수준을 개선하는 방법을 학습합니다.
-ms.openlocfilehash: 26e9f54ce77869f4f6ef07c18147483628ddc223
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f42835304ca27fa1d30ff3c1e5143e87d2b95c75
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59214142"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180654"
 ---
 # <a name="use-compliance-manager-to-manage-improvement-actions"></a>준수 관리자를 사용하여 개선 작업 관리
 

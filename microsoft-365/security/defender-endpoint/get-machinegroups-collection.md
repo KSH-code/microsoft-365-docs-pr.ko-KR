@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: leonidzh
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 10/07/2018
-ms.openlocfilehash: ca0c033a92f7607db2b1ad6e00f13cd33ad9c8f9
-ms.sourcegitcommit: 132b8dc316bcd4b456de33d6a30e90ca69b0f956
+ms.openlocfilehash: 7ce84e35f2a5ece81b1cb70436c6c75a940c99b9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589549"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207022"
 ---
 # <a name="get-kb-collection-api"></a>KB 컬렉션 API 사용
 
@@ -38,7 +38,7 @@ ms.locfileid: "58589549"
 
 RBAC 장치 그룹 컬렉션을 검색합니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 사용자에게 읽기 권한이 필요합니다.
 

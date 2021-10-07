@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -21,12 +21,12 @@ description: 보유자 및 해당 데이터 원본에 보류를 설정하여 보
 ms.custom:
 - seo-marvel-mar2020
 - admindeeplinkMAC
-ms.openlocfilehash: 12fdc5e6282358f96dcc1d454156a7fccf7518a4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 72b62623aa45ffadf43b371ad811373d4e383885
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186147"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207250"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>보류를 Advanced eDiscovery
 

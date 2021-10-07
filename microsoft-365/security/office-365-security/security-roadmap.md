@@ -8,7 +8,7 @@ manager: laurawi
 ms.date: 08/20/2021
 audience: Admin
 ms.topic: conceptual
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365
 - Strat_O365_IP
@@ -19,12 +19,12 @@ ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 보안 기능을 구현하여 보안 환경을 보호하기 위한 Microsoft 사이버 보안 팀의 Microsoft 365 권장 사항입니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a2e982f1da196185d466dfddfbbc61e98100070
-ms.sourcegitcommit: e5de03d4bd669945fec0d25a3f5eae56f86c9dcc
+ms.openlocfilehash: 7c3128482e9c8974ebb8938639ff3e27d400a418
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60042797"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176406"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위
 

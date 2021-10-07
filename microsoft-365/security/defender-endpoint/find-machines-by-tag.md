@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f8c6c289cca61e5a0891af04ef97831a27b341f3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5875568c21fb9128e6d3edc8db31721f20d19b4b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185852"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176898"
 ---
 # <a name="find-devices-by-tag-api"></a>태그 API로 장치 찾기
 
@@ -74,13 +74,13 @@ GET /api/machines/findbytag?tag={tag}&useStartsWithFilter={true/false}
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|문자열|Bearer {token}. **필수입니다**.
+권한 부여|String|Bearer {token}. **필수입니다**.
 
 ## <a name="request-uri-parameters"></a>요청 URI 매개 변수
 
 이름|유형|설명
 :---|:---|:---
-tag|문자열|태그 이름입니다. **필수입니다**.
+tag|String|태그 이름입니다. **필수입니다**.
 useStartsWithFilter|부울|true로 설정하면 쿼리에서 태그 이름이 지정한 태그로 시작하는 모든 장치가 검색됩니다. 기본값은 false입니다. 선택 사항입니다.
 
 ## <a name="request-body"></a>요청 본문

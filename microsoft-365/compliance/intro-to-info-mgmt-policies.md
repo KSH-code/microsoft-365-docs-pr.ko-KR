@@ -9,7 +9,7 @@ ms.date: 5/16/2014
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - WSU150
 - SPO160
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 정보 관리 정책을 사용하여 콘텐츠가 보존되는 기간 또는 사용자가 해당 콘텐츠에 대해 수행할 수 있는 작업과 같은 작업을 제어하고 추적하는 방법을 학습합니다.
-ms.openlocfilehash: fc3bfe1c0da54ccf4cb2c59589647cb396a5081e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 98eae2a08aa246a1f0ebe7d037103a82c132d060
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59216812"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193294"
 ---
 # <a name="introduction-to-information-management-policies"></a>정보 관리 정책 소개
 

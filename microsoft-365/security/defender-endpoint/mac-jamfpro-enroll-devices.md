@@ -2,15 +2,13 @@
 title: MacOS 장치에서 Endpoint용 Microsoft Defender를 Jamf 2013에 Pro
 description: MacOS 장치에서 Endpoint용 Microsoft Defender를 Jamf 2013에 Pro
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, catalina, mojave, high sierra
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 207c1334f91ecd22385ce281b3f10763afe57810
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: afe044e2f8cc495ce7f74bc482a99689af3e9482
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167026"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207838"
 ---
 # <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>MacOS 장치에서 Endpoint용 Microsoft Defender를 Jamf 2013에 Pro
 

@@ -5,17 +5,17 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 20af244d14f8f29e0175fb5e8efdabff94ff9a2b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c10d7f59f31b3cfbd8baf34247e9fc4288751dd9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59215245"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60208088"
 ---
 # <a name="service-changes-and-communication"></a>서비스 변경 및 커뮤니케이션
 

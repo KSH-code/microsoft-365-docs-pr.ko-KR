@@ -2,26 +2,24 @@
 title: 역할 기반 액세스 제어에 대한 역할 만들기 및 관리
 description: 역할 만들기 및 역할에 할당된 권한을 역할 기반 액세스 제어 구현의 일부로 Microsoft 365 Defender
 keywords: 사용자 역할, 역할, rbac 액세스
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1f8ab38d3e224155fc6af311e7dde42410a07823
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: 34b9327debf5adc207e29b482ea1f33939d0d977
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60009592"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207730"
 ---
 # <a name="create-and-manage-roles-for-role-based-access-control"></a>역할 기반 액세스 제어에 대한 역할 만들기 및 관리
 

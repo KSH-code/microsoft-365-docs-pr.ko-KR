@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3f3eef756d37bf1552120a05e351c844b37b863b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 4a9539d075c5428374972e8f7398ff2f326a587f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185932"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207154"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>끝점 검색 API 필드에 대한 Microsoft Defender
 
@@ -57,7 +57,7 @@ ArcSight 필드 열에는 끝점용 Defender 필드와 ArcSight의 기본 제공
 > |2|심각도|deviceSeverity|높음|모든 검색에 사용할 수 있는 값입니다.|
 > |3 |범주|deviceEventCategory|맬웨어|모든 검색에 사용할 수 있는 값입니다.|
 > |4 |검색 원본|sourceServiceName|바이러스 검사|Microsoft Defender 바이러스 백신 또는 Defender for Endpoint. 모든 검색에 사용할 수 있는 값입니다.|
-> |5 |MachineName|sourceHostName|desktop-4a5ngd6|모든 검색에 사용할 수 있는 값입니다.|
+> |5|MachineName|sourceHostName|desktop-4a5ngd6|모든 검색에 사용할 수 있는 값입니다.|
 > |6 |FileName|fileName|Robocopy.exe|파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.|
 > |7 |FilePath|filePath|C:\Windows\System32\Robocopy.exe|파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.|
 > |8 |UserDomain|sourceNtDomain|CONTOSO|활동을 실행하는 사용자 컨텍스트의 도메인으로, 끝점 동작 기반 검색을 위해 Defender에 사용할 수 있습니다.|

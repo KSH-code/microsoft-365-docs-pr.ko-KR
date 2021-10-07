@@ -9,19 +9,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Salesforce Chatter, Yahoo Messenger 또는 Yammer.
-ms.openlocfilehash: 7e82f114138a8f1f8ac9eb4563ce1434e6c26167
-ms.sourcegitcommit: f9e038dd8420e7af2d1b0244d3567b376475c641
+ms.openlocfilehash: 5b6bbab9ff6ad54440fc84213d3e810c863ebef4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011239"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200188"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>타사 데이터를 저장하는 데 파트너와 협력
 
@@ -469,15 +469,15 @@ Microsoft 파트너와 협력하여 타사 데이터 원본에서 데이터 원�
 
 - Windows 데스크톱 컴퓨터 화면
 
-## <a name="step-2-create-and-configure-a-third-party-data-mailbox-in-microsoft-365"></a>2단계: Microsoft 365에서 타사 데이터 사서함 만들기 및 구성
+## <a name="step-2-create-and-configure-a-third-party-data-mailbox-in-microsoft-365"></a>2단계: 2단계: 2단계에서 타사 데이터 사서함 만들기 및 Microsoft 365
 
-Microsoft 365로 데이터를 가져오기 위한 타사 데이터 사서함을 만들고 구성하는 단계는 다음과 같습니다. 앞서 설명한 것 처럼 파트너 커넥터에서 항목의 사용자 ID를 사용자 계정에 매핑할 수 없는 경우 항목이 이 사서함으로 가져오기됩니다.
+다음은 데이터 원본으로 데이터를 가져오기 위한 타사 데이터 사서함을 만들고 구성하는 Microsoft 365. 앞서 설명한 것 처럼 파트너 커넥터에서 항목의 사용자 ID를 사용자 계정에 매핑할 수 없는 경우 항목이 이 사서함으로 가져오기됩니다.
 
- **Microsoft 365 관리 센터에서 이러한 작업 완료**
+ **다음 작업의 Microsoft 365 관리 센터**
 
-1. 사용자 계정을 만들고 Exchange Online 계획 2 라이선스를 할당합니다. [Microsoft 365에 사용자 추가를 참조합니다.](../admin/add-users/add-users.md) 계획 2 라이선스는 사서함을 소송 자료 보관에 두거나 저장소 할당량 최대 1.5 TB가 있는 보관 사서함을 사용하도록 설정하는 데 필요합니다.
+1. 사용자 계정을 만들고 계획 Exchange Online 라이선스를 할당합니다. 에 [사용자 추가를 Microsoft 365.](../admin/add-users/add-users.md) 계획 2 라이선스는 사서함을 소송 자료 보관에 두거나 저장소 할당량 최대 1.5 TB가 있는 보관 사서함을 사용하도록 설정하는 데 필요합니다.
 
-2. 타사 데이터 사서함의 사용자 계정을 Microsoft 365의 **Exchange 관리자** 역할에 추가합니다. [Microsoft 365에서](../admin/add-users/assign-admin-roles.md)관리자 역할 할당을 참조하세요.
+2. 타사 데이터 사서함에 대한 사용자 계정을  Exchange 관리자 역할에 Microsoft 365. 에서 [관리자 역할 할당을 Microsoft 365.](../admin/add-users/assign-admin-roles.md)
 
     > [!TIP]
     > 이 사용자 계정의 자격 증명을 기록해 둡니다. 4단계에서 설명한 것처럼 파트너에게 제공해야 합니다.
@@ -490,7 +490,7 @@ Microsoft 365로 데이터를 가져오기 위한 타사 데이터 사서함을 
     Set-Mailbox -Identity <identity of third-party data mailbox> -HiddenFromAddressListsEnabled $true
     ```
 
-2. 관리자 또는 준수 관리자가 Outlook 데스크톱 클라이언트에서 타사 데이터 사서함을 열 수 있도록 타사 데이터 사서함에 **FullAccess** 권한을 할당합니다. 받는 [사람에 대한 사용 권한 관리를 참조합니다.](https://go.microsoft.com/fwlink/p/?LinkId=692104)
+2. 관리자 **또는** 규정 준수 관리자가 타사 데스크톱 클라이언트에서 타사 데이터 사서함을 열 수 있도록 타사 데이터 Outlook 권한을 할당합니다. 받는 [사람에 대한 사용 권한 관리를 참조합니다.](https://go.microsoft.com/fwlink/p/?LinkId=692104)
 
 3. 타사 데이터 사서함에 대해 다음 준수 관련 기능을 사용하도록 설정하십시오.
 
@@ -506,11 +506,11 @@ Microsoft 365로 데이터를 가져오기 위한 타사 데이터 사서함을 
 
 ## <a name="step-3-configure-user-mailboxes-for-third-party-data"></a>3단계: 타사 데이터에 대한 사용자 사서함 구성
 
-다음 단계는 타사 데이터를 지원하도록 사용자 사서함을 구성하는 것입니다. Exchange 관리 센터를 사용하여 또는 해당 cmdlet을 사용하여 이러한 Windows PowerShell 완료합니다.
+다음 단계는 타사 데이터를 지원하도록 사용자 사서함을 구성하는 것입니다. Exchange 관리 센터 또는 해당 Windows PowerShell cmdlet을 사용하여 이러한 작업을 완료합니다.
 
 1. 각 사용자에 대해 보관 사서함을 사용하도록 설정 보관 [사서함 사용 및](enable-archive-mailboxes.md) 자동 확장 보관 사용 [을 참조합니다.](enable-autoexpanding-archiving.md)
 
-2. 사용자 사서함에 소송 보존을 적용하거나 Microsoft 365 보존 정책을 적용합니다. 다음 항목 중 하나를 참조하세요.
+2. 사용자 사서함에 소송 보존을 적용하거나 보존 Microsoft 365 적용합니다. 다음 항목 중 하나를 참조하세요.
 
     - [사서함을 소송 자료 보존으로 설정](./create-a-litigation-hold.md)
 
@@ -522,19 +522,19 @@ Microsoft 365로 데이터를 가져오기 위한 타사 데이터 사서함을 
 
 마지막 단계는 파트너가 사용자 사서함 및 타사 데이터 사서함으로 데이터를 가져오도록 조직에 연결하도록 커넥터를 구성할 수 있도록 파트너에게 다음 정보를 제공하는 것입니다.
 
-- Microsoft 365의 Azure 서비스에 연결하는 데 사용되는 끝점:
+- 다음의 Azure 서비스에 연결하는 데 사용되는 끝점은 Microsoft 365.
 
     ```http
     https://office365ingestionsvc.gble1.protection.outlook.com/service/ThirdPartyIngestionService.svc
     ```
 
-- 2단계에서 만든 타사 데이터 사서함의 로그인 자격 증명(Microsoft 365 사용자 ID 및 암호)입니다. 이러한 자격 증명은 파트너 커넥터가 항목을 액세스하고 사용자 사서함 및 타사 데이터 사서함으로 가져올 수 있도록 하는 데 필요합니다.
+- 2단계에서 만든 타사 데이터 Microsoft 365 사서함의 로그인 자격 증명(사용자 ID 및 암호)입니다. 이러한 자격 증명은 파트너 커넥터가 항목을 액세스하고 사용자 사서함 및 타사 데이터 사서함으로 가져올 수 있도록 하는 데 필요합니다.
 
-## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a>5단계: Azure Active Directory에 타사 데이터 커넥터 등록
+## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a>5단계: 타사 데이터 커넥터를 등록합니다Azure Active Directory
 
-2018년 9월 30일부터 Microsoft 365의 Azure 서비스는 Exchange Online의 최신 인증을 사용하여 조직에 연결하여 데이터를 가져오는 타사 데이터 커넥터를 인증합니다. 이러한 변경의 이유는 최신 인증이 Azure 서비스에 연결하기 위해 앞서 설명한 끝점을 사용하는 타사 커넥터에 대한 허용 목록을 기반으로 했던 현재 방법보다 더 많은 보안을 제공하기 위한 것입니다.
+2018년 9월 30일부터 Microsoft 365 Azure 서비스는 Exchange Online 최신 인증을 사용하여 조직에 연결하여 데이터를 가져오는 타사 데이터 커넥터를 인증합니다. 이러한 변경의 이유는 최신 인증이 Azure 서비스에 연결하기 위해 앞서 설명한 끝점을 사용하는 타사 커넥터에 대한 허용 목록을 기반으로 했던 현재 방법보다 더 많은 보안을 제공하기 위한 것입니다.
 
-타사 데이터 커넥터가 새로운 최신 인증 방법을 사용하여 Microsoft 365에 연결할 수 있도록 설정하려면 조직의 관리자가 커넥터를 Azure Active Directory에서 신뢰할 수 있는 서비스 응용 프로그램으로 등록하는 데 동의해야 합니다. 이 수행은 커넥터가 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 허용하는 권한 요청을 수락하여 수행됩니다. 이 요청을 수락하면 타사 데이터 커넥터가 Azure Active Directory에 엔터프라이즈 응용 프로그램으로 추가된 후 서비스 사용자로 표시됩니다. 동의 프로세스에 대한 자세한 내용은 테넌트 관리자 동의 [를 참조하세요.](/skype-sdk/trusted-application-api/docs/tenantadminconsent)
+타사 데이터 커넥터가 새로운 최신 인증 방법을 사용하여 Microsoft 365 커넥터에 연결할 수 있도록 설정하려면 조직의 관리자가 커넥터를 해당 커넥터에 신뢰할 수 있는 서비스 응용 프로그램으로 등록하는 데 동의해야 Azure Active Directory. 이 수행은 커넥터가 조직의 데이터에 액세스할 수 있도록 허용하는 권한 요청을 수락하여 Azure Active Directory. 이 요청을 수락하면 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램으로 추가되어 서비스 Azure Active Directory 사용자로 표현됩니다. 동의 프로세스에 대한 자세한 내용은 테넌트 관리자 동의 [를 참조하세요.](/skype-sdk/trusted-application-api/docs/tenantadminconsent)
 
 커넥터 등록 요청을 액세스하고 수락하는 단계는 다음과 같습니다.
 
@@ -546,20 +546,20 @@ Microsoft 365로 데이터를 가져오기 위한 타사 데이터 사서함을 
 
 2. **Accept(동의함)** 를 클릭합니다.
 
-요청을 수락하면 [Azure Portal이](https://portal.azure.com) 표시됩니다. 조직의 응용 프로그램 목록을 보려면 **Azure Active Directory Enterprise** 응용 프로그램  >  **을 클릭합니다.** Microsoft 365 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램 **블레이드에 나열됩니다.**
+요청을 수락하면 [Azure Portal이](https://portal.azure.com) 표시됩니다. 조직의 응용 프로그램 목록을 보려면 응용 **프로그램 Azure Active Directory** Enterprise  >  **클릭합니다.** 타사 Microsoft 365 커넥터가 Enterprise **블레이드에 나열되어** 있습니다.
 
 > [!IMPORTANT]
-> 2018년 9월 30일 이후에는 Azure Active Directory에 타사 데이터 커넥터를 등록하지 않은 경우 더 이상 타사 데이터를 조직의 사서함으로 가져오지 않습니다. 참고 기존 타사 데이터 커넥터(2018년 9월 30일 전에 만든 커넥터)도 5단계의 절차를 수행하여 Azure Active Directory에 등록해야 합니다.
+> 2018년 9월 30일 이후에는 타사 데이터 커넥터를 조직에 등록하지 않은 경우 더 이상 타사 데이터를 조직의 사서함으로 가져오지 Azure Active Directory. 참고 기존 타사 데이터 커넥터(2018년 9월 30일 전에 만든 커넥터)도 5단계의 절차를 수행하여 Azure Active Directory 등록해야 합니다.
 
 ### <a name="revoking-consent-for-a-third-party-data-connector"></a>타사 데이터 커넥터에 대한 동의 해지
 
-조직에서 Azure Active Directory에 타사 데이터 커넥터를 등록하기 위해 사용 권한 요청에 동의하면 조직에서 해당 동의를 취소할 수 있습니다. 그러나 커넥터에 대한 동의를 해지하면 타사 데이터 원본의 데이터를 더 이상 Microsoft 365로 가져올 수 없습니다.
+조직에서 타사 데이터 커넥터를 등록하기 위한 권한 요청에 동의하면 Azure Active Directory 해당 동의를 취소할 수 있습니다. 그러나 커넥터에 대한 동의를 해지하면 타사 데이터 원본의 데이터를 더 이상 커넥터로 가져오지 Microsoft 365.
 
-타사 데이터 커넥터에 대한 동의를 해지하려면 Azure Portal의 엔터프라이즈 응용 프로그램 블레이드를 사용하여 또는  Microsoft 365 PowerShell에서 [Remove-MsolServicePrincipal을](/powershell/module/msonline/remove-msolserviceprincipal) 사용하여 Azure Active Directory에서 해당 서비스 계정을 삭제하여 응용 프로그램을 삭제할 수 있습니다. Azure Active Directory PowerShell에서 [Remove-AzureADServicePrincipal](/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 사용할 수 있습니다.
+타사 데이터 커넥터에 대한 동의를 해지하려면 Azure Portal에서 Enterprise 응용 프로그램 블레이드를 사용하거나 Azure  Portal에서 [Remove-MsolServicePrincipal을](/powershell/module/msonline/remove-msolserviceprincipal) 사용하여 Azure Active Directory 서비스 계정을 삭제하여 응용 프로그램을 삭제할 수 Microsoft 365 있습니다. PowerShell에서 [Remove-AzureADServicePrincipal](/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 Azure Active Directory 있습니다.
 
 ## <a name="more-information"></a>추가 정보
 
-- 앞서 설명한 것처럼 타사 데이터 원본의 항목을 Exchange 사서함에 전자 메일 메시지로 가져옵니다. 파트너 커넥터는 Microsoft 365 API에 필요한 Schema를 사용하여 항목을 가져올 수 있습니다. 다음 표에서는 타사 데이터 원본 항목을 Exchange 사서함에 전자 메일 메시지로 가져온 후, 타사 데이터 원본 항목에 대한 메시지 속성을 설명합니다. 또한 이 표는 메시지 속성이 필수인지 여부를 나타냅니다. 필수 속성은 채워야 합니다. 필수 속성이 없는 항목은 Microsoft 365로 가져오지 않습니다. 가져오기 프로세스에서는 항목을 가져오지 않은 이유와 누락된 속성을 설명하는 오류 메시지가 반환됩니다.<br/><br/>
+- 앞서 설명한 것처럼 타사 데이터 원본의 항목을 Exchange 사서함에 전자 메일 메시지로 가져옵니다. 파트너 커넥터는 파트너 API에 필요한 schema를 사용하여 Microsoft 365. 다음 표에서는 타사 데이터 원본 항목을 Exchange 사서함에 전자 메일 메시지로 가져온 후, 타사 데이터 원본 항목에 대한 메시지 속성을 설명합니다. 또한 이 표는 메시지 속성이 필수인지 여부를 나타냅니다. 필수 속성은 채워야 합니다. 필수 속성이 없는 항목은 해당 항목으로 가져오지 Microsoft 365. 가져오기 프로세스에서는 항목을 가져오지 않은 이유와 누락된 속성을 설명하는 오류 메시지가 반환됩니다.<br/><br/>
 
     |**메시지 속성**|**필수 여부**|**설명**|**예제 값**|
     |:-----|:-----|:-----|:-----|

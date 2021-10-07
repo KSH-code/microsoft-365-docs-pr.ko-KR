@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: how-to
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 EOP(스푸핑 인텔리전스 정보)에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b84671da05fcd3c476f19aa61a7325ac9df4c263
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 8e8f7513e9d4d175807fdb99e39353ffc531dec5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59213282"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207514"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>EOP의 스푸핑 인텔리전스 정보
 
@@ -41,7 +41,7 @@ ms.locfileid: "59213282"
 
 Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection) 조직에서 Exchange Online 전자 메일 메시지가 자동으로 스푸핑으로부터 보호됩니다. EOP는 피싱에 **대한** 조직의 전반적인 방어의 일부로 스푸핑 인텔리전스를 사용 합니다. 자세한 내용은 EOP의 스푸핑 방지 보호 [기능을 참조하세요.](anti-spoofing-protection.md)
 
-보낸 사람이 전자 메일 주소를 스푸핑하면 조직의 도메인 중 하나에 있는 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시됩니다. 스팸 또는 피싱 전자 메일을 보내기 위해 보낸 사람 스푸핑하는 공격자는 차단해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑하는 시나리오가 있습니다. 예:
+보낸 사람이 전자 메일 주소를 스푸핑하면 조직의 도메인 중 하나에 있는 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시됩니다. 스팸 또는 피싱 전자 메일을 보내기 위해 보낸 사람 스푸핑하는 공격자는 차단해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑하는 시나리오가 있습니다. 예제:
 
 - 내부 도메인을 스푸핑하기 위한 합법적인 시나리오:
   - 타사 보낸 사람이 도메인을 사용하여 회사 설문 조사를 위해 직원에게 대량 메일을 보낼 수 있습니다.
@@ -59,7 +59,7 @@ Microsoft 365 Defender 포털에서  스푸핑 인텔리전스 인사이트를 �
 
 마찬가지로 스푸핑 인텔리전스에서 허용된 스푸핑된 보낸 사람도 검토하고 스푸핑 인텔리전스 인사이트에서 해당 보낸 사람은 수동으로 차단할 수 있습니다.
 
-이 문서의 나머지부분에서는 Microsoft 365 Defender 포털 및 PowerSh Exchange Online ell(Microsoft 365 사서함이 있는 Microsoft 365 조직용 Exchange Online, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell)에서 스푸핑 인텔리전스 정보를 사용하는 방법을 설명합니다.
+이 문서의 나머지부분에서는 Microsoft 365 Defender 포털 및 PowerShell(Exchange Online에 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, 없는 조직을 위한 독립 실행형 EOP PowerShell)에서 스푸핑 인텔리전스 정보를 사용하는 방법을 설명합니다. Exchange Online)
 
 > [!NOTE]
 >
@@ -84,7 +84,7 @@ Microsoft 365 Defender 포털에서  스푸핑 인텔리전스 인사이트를 �
   > [!NOTE]
   >
   > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - EOP 및 Microsoft Defender for Office 365 피싱 방지 정책에서 스푸핑 인텔리전스를 사용하도록 설정하고 사용하지 않도록 Office 365. 스푸핑 인텔리전스가 기본적으로 사용됩니다. 자세한 내용은 [EOP에서](configure-anti-phishing-policies-eop.md) 피싱 방지 정책 구성 또는 Microsoft [Defender에서](configure-mdo-anti-phishing-policies.md)피싱 방지 정책 Office 365.
 

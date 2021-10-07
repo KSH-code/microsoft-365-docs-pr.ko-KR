@@ -9,7 +9,7 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 ms.custom: seo-marvel-apr2020
 description: PST 파일을 가져올 때 Microsoft 365 가져오기 서비스의 지능형 가져오기 기능을 사용하여 데이터를 필터링하는 방법을 Microsoft 365.
-ms.openlocfilehash: b893c0678d2821855bfc09ee703e3aa4cb8119cb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0c321c4bcdb413c42c5a3edff1f19e2a34c093d1
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191492"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200512"
 ---
 # <a name="filter-data-when-importing-pst-files"></a>PST 파일을 가져올 때 데이터 필터링
 
@@ -138,8 +138,8 @@ PST 가져오기 작업을 만든 후 다음 단계에 따라 데이터를 가�
     |**메시지 클래스 ID**|**이 메시지 클래스를 사용하는 사서함 항목**|
     |:-----|:-----|
     |IPM. 활동  <br/> |업무 일지 항목  <br/> |
-    |IPM.Doc  <br/> |문서 및 파일(전자 메일 메시지에 첨부되지 않은 경우)  <br/> |
-    |IPM. 파일  <br/> |(멘트와 IPM.Doc동일)  <br/> |
+    |IPM. 문서  <br/> |문서 및 파일(전자 메일 메시지에 첨부되지 않은 경우)  <br/> |
+    |IPM. 파일  <br/> |IPM과 동일합니다. Document)  <br/> |
     |IPM. 참고.IMC.Notification  <br/> |인터넷에 대한 커넥트 게이트웨이인 인터넷 메일 서비스에서 Exchange Server 보고서  <br/> |
     |IPM. 참고.Microsoft.Fax  <br/> |팩스 메시지  <br/> |
     |IPM. 참고.Rules.Oof.Template.Microsoft  <br/> |부재 중 메시지 자동 고치기  <br/> |

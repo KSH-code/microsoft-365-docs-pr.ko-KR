@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: 콘텐츠 검색 및 핵심 eDiscovery 기능에 대해 적용될 제한에 대해 Microsoft 365 규정 준수 센터.
-ms.openlocfilehash: db0f24d66fd7dc23a82a5ededfcfbc4d9edabad7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 207e9a71a1d178f841bf9a7561c279cf48dbed6a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188076"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193246"
 ---
 # <a name="limits-for-ediscovery-search"></a>eDiscovery 검색 제한
 
@@ -123,7 +123,7 @@ Microsoft는 모든 조직에서 실행한 검색에 대한 성능 정보를 수
 |최대 파서 출력|200만 자|인덱싱된 파서에서 출력되는 최대 텍스트 양입니다. 예를 들어 파서가 문서에서 800만 문자를 추출한 경우 처음 200만자만 인덱싱됩니다.|
 |최대 주석 토큰|2백만|전자 메일 메시지가 인덱싱될 때 각 단어는 해당 단어의 인덱싱 방법을 지정하는 다른 처리 지침으로 주석 처리됩니다. 각 처리 명령 집합을 주석 토큰이라고 합니다. 서비스 품질을 유지하기 위해 Office 365 메시지에 대한 주석 토큰은 200만 개로 제한됩니다.|
 |인덱스의 최대 본문 크기|6,700만자|전자 메일 메시지 본문과 모든 첨부 파일에 있는 총 문자 수입니다. 전자 메일 메시지를 인덱싱하면 메시지 본문과 모든 첨부 파일에 있는 모든 텍스트가 단일 문자열로 연결됩니다. 인덱싱되는 이 문자열의 최대 크기는 6700만자입니다.|
-|본문의 최대 고유 토큰|1,000,000|앞서 설명한 것 처럼 토큰은 콘텐츠에서 텍스트를 추출하고 문장 부호와 공백을 제거한 다음 인덱스에 저장된 단어(토큰)로 나분한 결과입니다. 예를 들어 `"cat, mouse, bird, dog, dog"` 구문에는 5개 토큰이 포함되어 있습니다. 그러나 이 중 4개만 고유한 토큰입니다. 전자 메일 메시지당 고유 토큰은 1,000만 개로 제한됩니다. 이로 인해 인덱스가 임의 토큰으로 너무 큰 것을 방지할 수 있습니다.|
+|본문의 최대 고유 토큰|1백만|앞서 설명한 것 처럼 토큰은 콘텐츠에서 텍스트를 추출하고 문장 부호와 공백을 제거한 다음 인덱스에 저장된 단어(토큰)로 나분한 결과입니다. 예를 들어 `"cat, mouse, bird, dog, dog"` 구문에는 5개 토큰이 포함되어 있습니다. 그러나 이 중 4개만 고유한 토큰입니다. 전자 메일 메시지당 고유 토큰은 1,000만 개로 제한됩니다. 이로 인해 인덱스가 임의 토큰으로 너무 큰 것을 방지할 수 있습니다.|
 |||
 
 ## <a name="more-information"></a>추가 정보

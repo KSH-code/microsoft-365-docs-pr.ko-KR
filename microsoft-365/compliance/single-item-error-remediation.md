@@ -9,19 +9,19 @@ ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: 대량 오류 수정 프로세스를 수행하지 않고도 문서의 검토 집합에서 Advanced eDiscovery 오류를 수정할 수 있습니다.
-ms.openlocfilehash: b0f710b737b8cc87c154747dd952322f3cf2ea20
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c816ef1e3fd28299bb316e51aa434a8f08d544a0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59218875"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200380"
 ---
 # <a name="single-item-error-remediation-in-advanced-ediscovery"></a>단일 항목 오류 수정 Advanced eDiscovery
 

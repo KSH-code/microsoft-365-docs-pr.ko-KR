@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 플래너를 통해 이벤트를 계획하는 방법을 학습합니다.
-ms.openlocfilehash: a1fe282b7edc9d52db643b47a5dc15a214588e10
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e0df0cf7bef2e6452000c43475c27d242384e105
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190522"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200752"
 ---
 # <a name="use-microsoft-planner-to-plan-an-event"></a>Microsoft Planner를 사용하여 이벤트 계획
 

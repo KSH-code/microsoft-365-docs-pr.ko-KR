@@ -8,7 +8,7 @@ manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 소규모 기업, 일정 및 정치 캠페인을 포함한 소규모 기업을 위한 Microsoft 365 Business Premium 보안 및 공동 작업 권장 사항입니다.
-ms.openlocfilehash: 8e1da206a23a58d568d6e0e4a9efe04cef510a85
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: efa38b27680365caeaa207dbbeea9834f46490be
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188723"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60200740"
 ---
 # <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>소규모 기업 및 캠페인을 위한 Microsoft 365
 

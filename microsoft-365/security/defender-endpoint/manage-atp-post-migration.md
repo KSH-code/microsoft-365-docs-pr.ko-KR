@@ -2,8 +2,6 @@
 title: 마이그레이션 후 끝점에 대한 Microsoft Defender 관리
 description: 끝점용 Microsoft Defender로 전환한 후 다음 단계는 위협 방지 기능을 관리하는 것입니다.
 keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, 끝점용 Microsoft Defender, edr
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: deploy
@@ -11,7 +9,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: deniseb
 author: denisebmsft
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +18,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 09/23/2021
 ms.reviewer: chventou
-ms.openlocfilehash: f55dababb3fe0a98f8be8594d453bc3b943c22af
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 1b0dfbb7996cde595fc4d133f1a946e8692d8941
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776899"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206902"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-post-migration"></a>끝점용 Microsoft Defender 관리, 마이그레이션 후
 

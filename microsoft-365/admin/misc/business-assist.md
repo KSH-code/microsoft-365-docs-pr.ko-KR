@@ -8,23 +8,23 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 비즈니스 지원 프로그램에 대해 알아보고 비즈니스용 비즈니스용 앱에 대한 향상된 도움말 및 사용법을 통해 조직에 도움이 되는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: f6c5b1ddfa6028d0748d3f01237e91dd4ac8507e
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 01d4353fa24e5c9ace8e9e1d43853c5cbc3935e6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774198"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180510"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Microsoft 365용 비즈니스 도우미
 
-중소기업 전문가의 전문가의 조언을 통해 구독을 가장 잘 이용하세요.
+중소기업 전문가의 전문가 조언을 통해 구독을 최대한 활용하세요.
 
 비즈니스 Microsoft 365 비즈니스 지원은 **온보드에서** 일상적으로 사용할 수 있는 비즈니스 성장에 따라 중소기업 전문가와 직원에게 일상적인 액세스를 제공합니다.
 

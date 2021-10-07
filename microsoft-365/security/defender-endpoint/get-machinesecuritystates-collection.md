@@ -10,17 +10,17 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: leonidzh
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a57e9b33cf581f274bc858729f17e2fb98ec696c0e4947d2a6386fcdfb3b6d41
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 320f2bfd06f7f01c15419f4bd6dc0eb5536079f0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53847262"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176814"
 ---
 # <a name="get-machines-security-states-collection-api"></a>컴퓨터 보안 상태 수집 API를 얻습니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "53847262"
 
 장치 보안 상태 컬렉션을 검색합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 사용자에게 읽기 권한이 필요합니다.
 

@@ -2,26 +2,24 @@
 title: 에이전트 상태 문제 조사
 description: mdatp 상태 명령을 실행하면 반환되는 값에 대해 자세히 알아보시고
 keywords: mdatp 상태, 명령, 상태, 상태, 명령, 온보더링 상태
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1480e4322c59d841e4f24fecb55f2e5453471798
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: f43905fe3487f44d3736e098c19964eaad3bf126
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59221875"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60206974"
 ---
 # <a name="investigate-agent-health-issues"></a>에이전트 상태 문제 조사
 
@@ -41,7 +39,7 @@ ms.locfileid: "59221875"
 |---|---|
 |automatic_definition_update_enabled|True이면 자동 바이러스 백신 정의 업데이트가 사용하도록 설정되어 있습니다. 그렇지 않으면 false입니다.|
 |cloud_automatic_sample_submission_consent|현재 샘플 제출 수준입니다. 다음 값 중 하나가 될 수 있습니다. <ul><li>**없음:** 의심스러운 샘플이 Microsoft에 제출하지 않습니다.</li><li>**금고:** PII(개인 식별 정보)를 포함하지 않는 의심스러운 샘플만 자동으로 제출됩니다. 이 설정의 기본값입니다.</li><li>**모두:** 의심스러운 모든 샘플이 Microsoft에 제출됩니다.</li></ul>|
-|cloud_diagnostic_enabled|True이면 선택적 진단 데이터 수집을 사용하도록 설정하고, 그렇지 않으면 false입니다. Endpoint용 Defender 및 Microsoft Defender 바이러스 백신 및 서비스와 관련된 Microsoft Defender 바이러스 백신 Windows 10 Microsoft 개인 정보 취급 방침을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=827576)|
+|cloud_diagnostic_enabled|True이면 선택적 진단 데이터 수집을 사용하도록 설정하고, 그렇지 않으면 false입니다. Endpoint용 Defender 및 Microsoft Defender 바이러스 백신 및 Windows Microsoft 개인 정보 취급 방침을 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=827576)|
 |cloud_enabled|True이면 클라우드 제공 보호가 사용하도록 설정되어 있습니다. 그렇지 않으면 false입니다.|
 |conflicting_applications|끝점용 Microsoft Defender와 충돌할 수 있는 응용 프로그램 목록입니다. 이 목록에는 호환성 문제를 일으키는 것으로 알려진 기타 보안 제품 및 기타 응용 프로그램이 포함되어 있지만 이에 국한되지 않습니다.|
 |definitions_status|바이러스 백신 정의의 상태입니다.|

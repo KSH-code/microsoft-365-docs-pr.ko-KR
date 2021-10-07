@@ -2,15 +2,13 @@
 title: Mac에서 끝점용 Microsoft Defender 제외 구성 및 유효성 검사
 description: Mac의 끝점에 대한 Microsoft Defender 제외를 제공하고 유효성을 검사합니다. 파일, 폴더 및 프로세스에 대해 제외를 설정할 수 있습니다.
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 제외, 검사, 바이러스 백신
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: dansimp
 author: dansimp
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 96f7693e83bf4c3f4a1f14f39d99de55f7ef1979
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: d779ee570e310a2d8a07154d73fe353db8bce907
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212182"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207886"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 제외 구성 및 유효성 검사
 

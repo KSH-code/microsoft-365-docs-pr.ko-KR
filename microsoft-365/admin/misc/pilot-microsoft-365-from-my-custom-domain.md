@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Adm_O365
 - Adm_TOC
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 두 개의 테스트 계정만 사용하여 사용자 지정 도메인의 전자 메일 기능을 Microsoft 365 사서함으로 시험해 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 95939aa0ae967ba74861e631d6abfc6ecd50dbaf
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: c428d070d0d4c20034a5a2a6ab94c8896549ea90
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934014"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176130"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>사용자 지정 도메인에서 Microsoft 365 파일럿
 
@@ -136,7 +136,7 @@ Microsoft 365 또는 Office 365에서 다음 사항을 완료했는지 확인합
 
 ### <a name="2-set-up-a-connector-from-microsoft-365-or-office-365-to-your-email-server"></a>2. Microsoft 365 또는 Office 365에서 전자 메일 서버로 커넥터 설정
 
-Microsoft 365 또는 Office 365에서 커넥터를 만들려면 **관리** 를 클릭한 다음 **Exchange** 를 클릭하여 Exchange 관리 센터로 이동합니다. 그 다음 **메일 흐름**, **커넥터** 를 차례로 클릭합니다.
+Microsoft 365 또는 Office 365에서 커넥터를 만들려면 **관리** 를 클릭한 다음 **Exchange** 를 클릭하여 Exchange 관리 센터로 이동합니다. 그런 다음 **메일 흐름** 을 클릭하고 **커넥터** 를 클릭합니다.
 
 마법사를 사용하여 커넥터를 설정합니다.
 
@@ -189,6 +189,6 @@ DNS 호스팅 공급자의 웹 사이트에 로그인하고 [DNS 레코드를 �
 
 ### <a name="step-10-move-mailbox-contents"></a>10단계: 사서함 콘텐츠 이동하기
 
-두 명의 테스트 사용자만 이동하고 사용자 A와 사용자 B가 모두 Outlook을 사용하고 있으므로, 새 Outlook 프로필에서 이전 .PST 파일을 열고 메시지, 일정 항목, 연락처 등을 복사하여 전자 메일을 이동할 수 있습니다. 자세한 내용은 [Outlook .pst 파일에서 전자 메일, 연락처 및 일정 가져오기](https://support.microsoft.com/office/import-email-contacts-and-calendar-from-an-outlook-pst-file-431a8e9a-f99f-4d5f-ae48-ded54b3440ac)를 참조하세요.
+두 명의 테스트 사용자만 이동하고 사용자 A와 사용자 B가 모두 Outlook을 사용하고 있으므로, 새 Outlook 프로필에서 이전 .PST 파일을 열고 메시지, 일정 항목, 연락처 등을 복사하여 전자 메일을 이동할 수 있습니다. 자세한 내용은 [Outlook .pst 파일에서 이메일, 연락처 및 캘린더 가져오기](https://support.microsoft.com/office/import-email-contacts-and-calendar-from-an-outlook-pst-file-431a8e9a-f99f-4d5f-ae48-ded54b3440ac)를 참조하세요.
 
 콘텐츠를 Microsoft 365 사서함의 적절한 위치로 가져온 후에는 모든 장치에서 어디서나 해당 항목에 액세스할 수 있습니다.

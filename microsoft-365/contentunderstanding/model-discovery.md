@@ -11,14 +11,14 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-syntex
-localization_priority: Priority
+ms.localizationpriority: medium
 description: 훈련된 모델을 다른 사용자가 사용할 수 있도록 하는 방법과 Microsoft SharePoint Syntex에서 훈련된 다른 모델을 적용하는 방법을 알아보세요.
-ms.openlocfilehash: 05c6cbb1e372e4dd452f261ef763274b46d1ac80
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
-ms.translationtype: HT
+ms.openlocfilehash: 528071efaf06c68d42b34f6d7e509a1839f6ca08
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59498457"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60201004"
 ---
 # <a name="publish-and-discover-models-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 모델 게시 및 검색
 

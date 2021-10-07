@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 AT&T Mobile Network에서 SMS 및 MMS 데이터를 가져오고 보관할 수 있습니다. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: e17f5d369eefd5a2d7b2d9b8e55df0d1a4c9714b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 6055792f8d2099f12138ab26e03873698158ea1f
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211022"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60193354"
 ---
 # <a name="set-up-a-connector-to-archive-att-smsmms-data"></a>AT SMS/MMS 데이터를 보관할&설정
 
