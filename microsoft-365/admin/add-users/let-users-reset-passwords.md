@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - MSStore_Link
 - TRN_M365B
@@ -25,18 +26,18 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용하여 사용자가 암호를 직접 재설정할 수 있도록 하는 정책을 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 16259d7cca85a8a12baea3aac5c2d748c4e64c36
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: a30c32239cb1c995beaaf725aaf5dc3821beec8e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773466"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60161777"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
 관리자는 Microsoft 365 셀프 서비스 암호 재설정 도구를 [](https://go.microsoft.com/fwlink/p/?LinkId=522677) 사용할 수 있도록 하여 암호를 다시 설정할 수 있습니다. 관리자의 업무를 덜 수 있습니다!
   
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
   
 - 클라우드 사용자에 대해 비즈니스,  교육 또는 비영리 Microsoft 365 셀프 서비스 암호 재설정을 무료로 받을 수 있습니다. 평가판에서는 작동하지 Microsoft 365 않습니다.
 

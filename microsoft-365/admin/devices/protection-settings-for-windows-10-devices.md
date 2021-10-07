@@ -12,7 +12,7 @@ f1_keywords:
 - O365E_Win10AppPolicy
 - BCS365_Win10AppPolicy
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
@@ -30,12 +30,12 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: 앱 관리 정책을 만들거나 편집하고 사용자의 개인 앱 디바이스에서 작업 파일을 보호하는 Windows 10 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7525cf1194022e5712f1a661c7176c8066de84e8
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 6370f2c21ce9f8de1223d5445c87abf197c0cf89
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933750"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165487"
 ---
 # <a name="set-or-edit-application-protection-settings-for-windows-10-devices"></a>디바이스의 응용 프로그램 보호 Windows 10 설정 또는 편집
 

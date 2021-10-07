@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -25,12 +25,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 이름 시스템은 컴퓨터 호스트 이름을 IP 주소에 매핑하며 DNS 및 도메인 등록 기관의 기본 기능을 이해하면 도메인을 관리하는 데 도움이 됩니다.
-ms.openlocfilehash: 42c93ba7c0edd76b1371015ea9c3b2dd1e4f8bbb
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 3195e6ba1e8483a5444eb0f8046add1e3e7725f3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774607"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164779"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -195,7 +195,7 @@ Microsoft 365에서 도메인을 사용하려면 많은 DNS 레코드가 필요�
   
 도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Microsoft 365 관리 센터</a>에 바로 포함됩니다. 
   
-또는 배포를 계획하고 있는 경우 Microsoft 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값 목록을 검토해 볼 수 있습니다. [Microsoft 365에 대한 외부 Domain Name System 레코드](../../enterprise/external-domain-name-system-records.md)를 참조하세요.
+또는 배포를 계획하는 경우 Microsoft 365에 필요한 모든 DNS 레코드 목록, 해당 기능 및 예제 값을 검토할 수 있습니다. [Microsoft 365용 외부 도메인 이름 시스템 레코드](../../enterprise/external-domain-name-system-records.md)를 확인하세요.
   
 ## <a name="next-steps"></a>다음 단계
 
@@ -208,4 +208,4 @@ Microsoft 365에서 도메인을 사용하려면 많은 DNS 레코드가 필요�
 
 [도메인 FAQ](../setup/domains-faq.yml)(문서)\
 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)\
-[도메인 관리](index.yml)(링크 페이지)
+[도메인 관리](/admin)(링크 페이지)

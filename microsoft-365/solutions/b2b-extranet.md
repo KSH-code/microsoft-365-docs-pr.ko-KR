@@ -13,16 +13,16 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 ms.custom: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false
 description: 파트너 조직의 관리되는 게스트를 사용하여 B2B 엑스트라넷 사이트 또는 팀을 만드는 방법을 학습합니다.
-ms.openlocfilehash: 7e3ddf12473095b0a7ac91ded01256e77c299ddf
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ab8bba31538b9e79ed198f65349f14d8211f81f7
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185515"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60162137"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>관리 대상 게스트와 B2B 엑스트라넷 작성
 

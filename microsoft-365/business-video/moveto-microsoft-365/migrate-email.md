@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Google Workspace에서 비즈니스용 전자 메일, 연락처 및 일정을 비즈니스용 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 58037d033c35bad97d5b18dc408e5450340d0c25
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: a5ceccfde47b5084326aae9346b1c645cef7114a
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59402013"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60163758"
 ---
 # <a name="migrate-business-email-and-calendar-from-google-workspace"></a>Google Workspace에서 비즈니스 전자 메일 및 일정 마이그레이션
 

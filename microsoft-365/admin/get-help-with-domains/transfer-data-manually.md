@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: 계획 또는 회사 이름을 변경하거나 여러 구독을 결합한 경우 두 개의 Microsoft 365 계정 간에 데이터를 수동으로 전송하는 방법을 찾아 찾습니다.
-ms.openlocfilehash: a400784db27fabfdb57f5ece04236a035b43b168
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 36156a83f1d6a3d52561689cc4a82ac5098ceae9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775387"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164587"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>두 계정 간에 수동으로 데이터 전송
 

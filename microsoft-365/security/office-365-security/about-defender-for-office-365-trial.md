@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: overview
 ms.prod: m365-security
 ms.technology: mdo
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: 21cff6ecd695ef95173149eed211b40989fa47ce
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: a7e8efc38722b3dc6342255a0193634f307eec27
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59402109"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60162185"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
 
@@ -44,8 +44,8 @@ Microsoft Defender for Office 365 평가판은 Defender for Office 365 사용해
 |기능|설명|
 |---|---|
 |[피싱 방지 정책의 단독 설정](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)|사용자 가장 보호, 도메인 가장 보호, 사서함 인텔리전스 및 고급 피싱 임계값을 얻습니다.|
-|[안전한 첨부 파일](safe-attachments.md)|제어된 검색 환경에서 전자 메일 첨부 파일 및 기타 파일을 검사하여 새로운 맬웨어와 공격적인 맬웨어를 탐지합니다.|
-|[안전한 링크](safe-links.md)|클릭 시간 검사를 수행하여 초기 검사를 통과한 URL이 번지르지 않은지 확인할 수 있습니다.|
+|[안전 첨부 파일](safe-attachments.md)|제어된 검색 환경에서 전자 메일 첨부 파일 및 기타 파일을 검사하여 새로운 맬웨어와 공격적인 맬웨어를 탐지합니다.|
+|[안전 링크](safe-links.md)|클릭 시간 검사를 수행하여 초기 검사를 통과한 URL이 번지르지 않은지 확인할 수 있습니다.|
 |[위협 트래커](threat-trackers.md)<sup>\*</sup>|정보 위젯 및 보기를 사용하여 조직에 영향을 줄 수 있는 사이버 보안 문제를 식별합니다.|
 |[위협 탐색기](threat-explorer.md)<sup>\*</sup>|전자 메일의 위협에 대한 거의 실시간 정보를 Office 365.|
 |[자동화된 조사 및 대응(AIR)](office-365-air.md)<sup>\*</sup>|경고가 트리거될 때 위협 개체를 자동으로 찾아 수정합니다.|
@@ -74,9 +74,9 @@ Defender for Office 365 평가판은 90일 동안 사용할 수 있으며 모든
 
 평가판 설정의 일부로, Office 365 대한 Defender 라이선스가 조직에 자동으로 적용됩니다. 라이선스는 처음 90일 동안 무료로 제공됩니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
-평가판을 시작하거나 종료하려면 평가판에서 전역  관리자  또는 보안 관리자 역할의 구성원 Azure Active Directory. 자세한 내용은 관리자 역할 [정보를 참조하세요.](../../admin/add-users/about-admin-roles.md)
+평가판을 시작하거나 종료하려면 평가판에서 전역  관리자  또는 보안 관리자 역할의 구성원 Azure Active Directory. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="additional-information"></a>추가 정보
 
@@ -84,7 +84,7 @@ Defender for Office 365 평가판은 90일 동안 사용할 수 있으며 모든
 
 관리자는 모든 시점에서 평가판을 사용하지 않도록 설정할 수 <> 있습니다.
 
-## <a name="availability"></a>사용 가능
+## <a name="availability"></a>사용 가능성
 
 Office 365 평가판의 Defender는 특정 기준(지리 포함)을 충족하고 Office 365 플랜 1 또는 계획 2 라이선스(구독 또는 추가 기능으로 포함)에 대한 기존 Defender가 없는 기존 고객에게 점진적으로 배포하고 있습니다.
 

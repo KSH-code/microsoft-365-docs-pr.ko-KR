@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: 비즈니스용 장치에서 사용할 수 있는 설정에 대해 Microsoft 365 장치를 보호하는 Windows 10 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 1c1e510af4280233079961651ef8fe002d9bc3d6
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 1217c6ad8be6b74c4b1fa05294f5bc51f275bea2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933294"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165475"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>PC에 대한 장치 보호 Windows 10 편집하거나 만들기
 

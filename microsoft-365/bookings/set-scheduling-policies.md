@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b2c84ec-64d3-4027-af4c-40f69e7b37c9
 description: 비즈니스에 대한 계획 정책을 설정하는 방법을 배워야 합니다. 예약 정책에는 약속의 길이뿐만 아니라 허용되는 잠재 고객 및 취소 시간도 포함됩니다.
-ms.openlocfilehash: 82cc9a66e82665040a1f0d08635cae10cd413d4b
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e2d59feec2cb50bd51f4b6d2a411b48183a5d549
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219475"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164010"
 ---
 # <a name="set-your-scheduling-policies"></a>예약 정책 설정
 

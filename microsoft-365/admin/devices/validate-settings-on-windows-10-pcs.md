@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: 비즈니스용 앱 보호 Microsoft 365 설정이 사용자의 디바이스에 영향을 Windows 10 방법을 확인합니다.
-ms.openlocfilehash: c0d5ded2eeda022984f86c33429572fa4a8671bb
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 311da3efec8cd3ad57e722aea5a8c3888d1af7b0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933378"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165331"
 ---
 # <a name="validate-device-protection-settings-for-windows-10-pcs"></a>PC에 대한 장치 보호 Windows 10 유효성 검사
 
@@ -62,5 +62,5 @@ ms.locfileid: "59933378"
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 문서 및 리소스에 대한 자세한 설명](./index.yml)\
+[Microsoft 365 문서 및 리소스에 대한 자세한 설명](/admin)\
 [Windows 10 PC용 장치 구성 설정](protection-settings-for-windows-10-pcs.md)

@@ -10,14 +10,14 @@ metadata:
   ms.topic: article
   ms.service: o365-administration
   ms.custom: commerce_vl
-  localization_priority: Normal
+  ms.localizationpriority: medium
   description: 제품 키 질문과 대답
-  ms.openlocfilehash: 9da77700bb949fb72467516f3f195d87152d91ea
-  ms.sourcegitcommit: 095e23ba4181c86a301a25d8c898d25d1befec97
+  ms.openlocfilehash: 3a1ca8e666ab710cfd0554a4050ab69d750936d3
+  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/09/2021
-  ms.locfileid: "58951161"
+  ms.lasthandoff: 10/06/2021
+  ms.locfileid: "60156777"
 title: 제품 키 질문과 대답
 summary: ''
 sections:

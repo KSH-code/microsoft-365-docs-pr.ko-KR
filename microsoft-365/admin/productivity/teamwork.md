@@ -8,28 +8,29 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom: AdminSurgePortfolio
 monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
 description: 팀워크의 세부 정보 - 사람들은 생산성 점수를 경험합니다.
-ms.openlocfilehash: a10de3daf0d485ec75948f7f23202b06bfe29793
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 1c66dbac320787579d1d8cfe3c463bcb37ebf5ad
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59772835"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60161441"
 ---
 # <a name="teamwork--people-experiences"></a>팀워크 - 사람 환경
 
 생산성 점수는 조직의 디지털 변환 여정에 대한 인사이트를 Microsoft 365 지원하는 기술 환경을 제공합니다. 조직의 점수는 사용자 및 기술 환경 측정값을 반영하며 사용자와 비슷한 조직의 벤치마크와 비교할 수 있습니다. 팀워크 범주는 사람들이 경험하는 측정의 일부입니다. 자세한 내용은 생산성 점수 개요를 [확인하고](productivity-score.md) Microsoft의 개인 정보 [취급 방침을 참조하세요.](https://privacy.microsoft.com/privacystatement)
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 팀워크 인사이트를 시작하려면 조직의 사용자들이 다음에 대한 라이선스를 부여해야 합니다.
 

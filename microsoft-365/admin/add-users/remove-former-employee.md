@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 - SPO_Content
 ms.custom:
 - MSStore_Link
@@ -25,18 +26,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 솔루션의 단계에 따라 이전 직원을 제거하고 Microsoft 365 데이터를 보호합니다.
-ms.openlocfilehash: ef89160f52c03bfe92a48b5432e3fdad700b1b40
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 63a53ba8ae982fd49b033da62c27d4da3d72737d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775351"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60161609"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>개요: 이전 직원 및 보안 데이터 제거
 
 자주 묻는 질문은 "직원이 퇴사할 때 데이터를 보호하고 액세스를 보호하기 위해 어떻게 해야 나요?"입니다. 이 문서 시리즈에서는 이러한 사용자가 Microsoft 365 로그인할 수 없는 Microsoft 365, 조직 데이터를 보호하기 위해 취해야 하는 단계 및 다른 직원이 전자 메일 및 전자 메일 데이터에 액세스하도록 허용하는 OneDrive 설명되어 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 이 솔루션의 단계를 완료하려면 전역 관리자로 설정해야 합니다.
 

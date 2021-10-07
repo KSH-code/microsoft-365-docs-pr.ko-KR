@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3c0a4ee-e3d8-4fbe-bd8f-16d1c712d1f4
 description: 직원이 지정된 시간 동안 예약할 수 없음으로 표시될 수 있도록 Bookings 일정에서 사무실 폐쇄 및 직원의 시간을 예약합니다.
-ms.openlocfilehash: bdd00d2bc97de1e981b2de7f5f21325de6967aa7
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 30f43af083da6a41ab8458e377bdc9fc99690678
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190572"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164071"
 ---
 # <a name="schedule-business-closures-time-off-and-vacation-time"></a>업무 폐쇄, 휴가 및 휴가 예약
 

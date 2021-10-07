@@ -8,7 +8,7 @@ manager: svidican
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리자 역할은 비즈니스 기능에 매핑되어 관리 센터에서 특정 작업을 수행할 수 있는 권한을 제공합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: b6e787fe4eb72ef5a6d8da78391839509a38b446
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 8232e95649ac894e8a024a2d2ac4e7b4261cb1f2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59773646"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60161921"
 ---
 # <a name="get-started-with-the-roles-page"></a>역할 페이지 시작
 

@@ -11,7 +11,7 @@ metadata:
   author: kwekua
   ms.author: kwekua
   ms.date: 11/08/2019
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.custom: AdminSurgePortfolio
   ms.collection: Adm_TOC
 highlightedContent:
@@ -32,7 +32,7 @@ productDirectory:
     - title: 시작하기
       imageSrc: 'https://docs.microsoft.com/office/media/icons/sign-up-blue.svg'
       summary: Microsoft 365 등록 및 설정
-      url: setup/index.yml
+      url: /admin
     - title: 데이터 마이그레이션
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       summary: 다른 서비스의 데이터를 Microsoft 365로 이동합니다.
@@ -55,16 +55,16 @@ additionalContent:
           url: admin-overview/about-the-admin-center.md
         - title: 사용자 및 그룹
           summary: 암호를 관리하고 사용자를 추가 및 제거하며 그룹을 설정 및 관리하고 게스트 액세스를 관리하며 사용자 라이선스를 할당합니다.
-          url: add-users/index.yml
+          url: /admin
         - title: 전자 메일 및 일정
           summary: '전자 메일 설정, 메일 그룹, 보안 설정을 관리하고 공유 편지함을 설정합니다.'
-          url: email/index.yml
+          url: /admin
         - title: 도메인
           summary: 도메인에 대해 알아보고 도메인을 설정 및 관리하며 DNS 레코드를 업데이트합니다.
           url: setup/add-domain.md
         - title: 데이터 및 서비스
           summary: 서비스 상태를 모니터링하고 데이터를 백업하며 추가 기능을 설치하고 최신 앱으로 업그레이드합니다.
-          url: manage/index.yml
+          url: /admin
         - title: 구독 및 청구
           summary: '청구서, 구독 및 제품 라이선스를 관리하고 결제 방법을 업데이트하며 추가 서비스 및 저장소를 구입합니다.'
           url: ../commerce/index.yml
@@ -73,7 +73,7 @@ additionalContent:
           url: security-and-compliance/secure-your-business-data.md
         - title: 고객과의 협력
           summary: 문서를 공유하고 Teams를 사용하여 공동 작업하고 모임을 가집니다.
-          url: work-with-customers/index.yml
+          url: /admin
         - title: 문제 해결
           summary: Office 제품 또는 서비스 문제를 해결하고 문제 해결에 도움이 되는 리소스에 액세스합니다.
           url: 'https://docs.microsoft.com/office/troubleshoot/'

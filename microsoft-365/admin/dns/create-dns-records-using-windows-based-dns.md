@@ -1,5 +1,5 @@
 ---
-title: WINDOWS DNS를 사용하여 Microsoft용 DNS 레코드 만들기
+title: Windows 기반 DNS를 사용하여 Microsoft용 DNS 레코드 만들기
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -23,14 +23,14 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Microsoft용 도메인 기반 DNS에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 Windows DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 3a1b11eb9663a68f7787b026c7c7402db8ef4a854e4b9ecdb3356bb1074e2610
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 43cc3679f33a929545ed3d9deec388126aec853c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53826210"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165295"
 ---
-# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>WINDOWS DNS를 사용하여 Microsoft용 DNS 레코드 만들기
+# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Windows 기반 DNS를 사용하여 Microsoft용 DNS 레코드 만들기
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
    
@@ -41,7 +41,7 @@ Windows 기반 DNS를 사용하여 자체 DNS 레코드를 호스트하는 경�
 DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제를 해결하는 데 문제가 발생하면 도메인 이름 또는 DNS 레코드를 변경한 후 문제 [해결을 참조합니다.](../get-help-with-domains/find-and-fix-issues.md) 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Windows 기반 DNS에서 DNS 레코드 찾기
-<a name="BKMK_find_your_dns_1"></a> 도메인에 대한 DNS 레코드가 있는 페이지로 이동합니다. Windows Server 2008에서 작업하는 경우 실행 시작으로   >  **이동하십시오.** If you're working in Windows Server 2012, press the Windows key and **r**. **dnsmgmnt.msc 를 입력하고** 확인 을 **선택합니다.** DNS 관리자에서 정방 **\<DNS server name\> \> 응답 영역 을 확장합니다.** 도메인을 선택합니다. 이제 DNS 레코드를 만들 준비가 되었습니다.
+<a name="BKMK_find_your_dns_1"></a> 도메인에 대한 DNS 레코드가 있는 페이지로 이동합니다. Windows Server 2008에서 작업하는 경우 실행 시작으로   >  **이동하십시오.** Windows Server 2012에서 작업하는 경우 Windows 키와 **r** 을 누릅니다. **dnsmgmnt.msc** 를 입력한 다음 **확인** 을 선택합니다. DNS 관리자에서 정방 **\<DNS server name\> \> 응답 영역 을 확장합니다.** 도메인을 선택합니다. 이제 DNS 레코드를 만들 준비가 되었습니다.
    
 ## <a name="add-mx-record"></a>MX 레코드 추가
 <a name="BKMK_add_MX"> </a>
@@ -51,7 +51,7 @@ DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제를 해결하�
 - Microsoft의 DNS 레코드 추가 페이지의 Exchange Online 섹션에 있는 MX 행에서 주소 지점에 나열된 값을 복사합니다. 이 작업에서 만드는 레코드에 이 값을 사용하게 됩니다. 
 - 도메인의 DNS 관리자 페이지에서 작업   >  **메일 교환기(MX) 로 이동합니다.** 도메인에 대한 이 페이지를 찾으십시오. Windows [기반 DNS에서 DNS 레코드 찾기를 참조하세요.](#find-your-dns-records-in-windows-based-dns)  
 - 새 **자원 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정되어 있는지 확인하십시오. 
-    - 호스트 이름: 
+    - 호스트 이름:  
     - @Address: 방금 Microsoft에서 복사한 지점 주소 값을 붙여 넣습니다.  
     - Pref: 
 - **변경 사항 저장** 을 선택합니다.

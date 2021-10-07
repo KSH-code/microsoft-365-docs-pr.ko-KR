@@ -12,7 +12,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - Adm_TOC
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: AutoPilot을 사용하여 Windows 사용할 수 있도록 비즈니스용 Windows 10 디바이스를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 1ba80deb2f1af5f0edc6969674e64df5259cbd44
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 4b187d5e8f9acc8fb76e77770ec88790394dfbe3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933786"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165643"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 

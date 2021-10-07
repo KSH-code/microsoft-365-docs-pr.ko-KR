@@ -10,18 +10,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8f80aa4fb43c0e1becd24d58713e6f0ad9251bc1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 07aec0c4ff4c6ea42fcc6e4bb95357bd98bf5cba
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167007"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60162605"
 ---
 # <a name="device-health-and-compliance-report-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 장치 상태 및 준수 보고서
 

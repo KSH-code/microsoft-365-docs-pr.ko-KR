@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 회사 파일을 파일로 이동하는 방법을 SharePoint.
-ms.openlocfilehash: e7a778fea9d358d2c5b3e7944edfbb8b2b7fb0f1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bf7cac00b588cc1025c032755b94fd210a1d8170
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219335"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156921"
 ---
 # <a name="move-files-to-sharepoint"></a>파일 이동을 SharePoint
 

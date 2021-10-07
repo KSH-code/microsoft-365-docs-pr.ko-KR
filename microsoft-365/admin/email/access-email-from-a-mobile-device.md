@@ -8,7 +8,7 @@ manager: scotv
 audience: End User
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
@@ -17,12 +17,12 @@ search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모바일 장치에서 전자 메일에 액세스하는 방법을 확인합니다.
-ms.openlocfilehash: c003b90e704a51adcaca6d3887d1fc7286f40168
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c6ed0685dcb26dcb74bff3ccf8a28a6b9233afc3
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184819"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165235"
 ---
 # <a name="options-for-accessing-email-from-your-mobile-device"></a>모바일 장치에서 전자 메일에 액세스하기 위한 옵션
 

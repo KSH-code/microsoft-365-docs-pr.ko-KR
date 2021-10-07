@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -17,12 +17,12 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: 조직의 연락처 정보를 업데이트하고 수신할 Microsoft 365 제품 관련 통신을 선택하세요.
-ms.openlocfilehash: afb69c52ba89c2a9e6ff7af014a74b0abfda4e5e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: eeda3d78dcc4b33995a78e1dc5763fee07109caa
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184532"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164455"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Microsoft의 통신에 대한 연락처 기본 설정 변경
 
@@ -45,7 +45,7 @@ ms.locfileid: "59184532"
 
 5. **저장** 을 선택합니다.
   
-Office 365 Enterprise, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic 조직의 사용자 국가 또는 지역에 따라 Microsoft 365 관리자로 처음 등록하면 사용자들이 제품 관련 통신을 받기 위해 자동으로 등록될 수 있습니다.
+Office 365 Enterprise, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic 조직의 사용자 국가 또는 지역에 따라 Microsoft 365 관리자로 처음 등록할 때 제품 관련 통신을 수신하기 위해 자동으로 등록될 수 있습니다.
   
 대금 청구 관련 질문에 대답은 다음을 참조하세요.
   

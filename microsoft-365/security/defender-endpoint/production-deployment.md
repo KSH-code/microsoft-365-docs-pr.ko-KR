@@ -2,15 +2,13 @@
 title: 끝점 배포를 위한 Microsoft Defender 설정
 description: 끝점용 Microsoft Defender 배포를 설정하는 방법을 설명합니다.
 keywords: 배포, 설정, 라이선스 유효성 검사, 테넌트 구성, 네트워크 구성
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -19,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ab7007143fd472757f8f6489cb14babc8cda1129
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: 22b4e1c1609264a5eef17e2149b4b6e50d707999
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460199"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60162569"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 설정
 
@@ -163,7 +161,7 @@ Down-Level 장치에는 Windows 7 SP1 및 Windows 8.1 Workstation과 Windows Ser
 
 ### <a name="proxy-service-urls"></a>프록시 서비스 URL
 
-v20이 포함된 URL은 버전 1803 이상을 Windows 10 있는 경우 필요합니다. 예를 들어 디바이스가 버전 1803 이상에 있는 Windows 10만 `us-v20.events.data.microsoft.com` 필요합니다.
+v20이 포함된 URL은 버전 1803 또는 Windows 10 11개가 있는 Windows 필요합니다. 예를 들어 `us-v20.events.data.microsoft.com` 디바이스가 1803 버전 1803 또는 Windows 10 11에 있는 Windows 필요합니다.
 
 프록시 또는 방화벽이 익명 트래픽을 차단하는 경우, Endpoint용 Microsoft Defender 센서가 시스템 컨텍스트에서 연결하고 있는 경우 나열된 URL에서 익명 트래픽이 허용되어 있는지 확인하십시오.
 

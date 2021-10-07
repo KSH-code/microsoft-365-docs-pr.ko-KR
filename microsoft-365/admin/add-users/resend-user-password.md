@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -19,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
 description: 암호를 다시 설정하고 새 사용자로 전자 메일을 보내는 Microsoft 365 방법을 배워야 합니다.
-ms.openlocfilehash: f16ea3550afd109e16f2a5ebae937bbc21621c24
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: cbd89d2a3f39df90425f6a5b701f3af19bd681a2
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774102"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60161573"
 ---
 # <a name="resend-a-users-password---admin-help"></a>사용자 암호 다시 보내기 - 관리자 도움말
 

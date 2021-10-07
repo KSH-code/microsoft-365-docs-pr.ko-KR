@@ -9,7 +9,7 @@ ms.reviewer: argani, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_o365
@@ -22,19 +22,19 @@ ms.custom:
 search.appverid: MET150
 description: 다음 단계에 따라 비즈니스용 구독에 대한 라이선스를 더 구입하거나 라이선스 수를 Microsoft 365 수 있습니다.
 ms.date: 09/16/2021
-ms.openlocfilehash: 77c1547b279cc5367ef23106e15dc2eee0c5a471
-ms.sourcegitcommit: b295c60d5aa69781a20c59b9cdf2ed91c62b21af
+ms.openlocfilehash: 6cdcad3c37db8475bcb64fa7a33e287f502dcd66
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59480751"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60163651"
 ---
 # <a name="buy-or-remove-licenses"></a>라이선스 구입 또는 제거
 
 다음 단계를 사용하여 추가 라이선스를 구입하거나 구독에 대한 라이선스 수를 줄일 수 있습니다.
 
 > [!NOTE]
-> 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지나면 기간이 끝날 때 구독을 취소하기 위해 재발급 청구를 해제합니다.
+> 일부 구독의 경우 구독을 구입하거나 갱신한 후 제한된 기간 동안만 취소할 수 있습니다. 취소 기간이 지난 경우 되풀이 청구를 해제하여 기간이 끝날 때 구독을 취소하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -87,7 +87,7 @@ ms.locfileid: "59480751"
 
 이 표에서는 라이선스 구입  또는 라이선스  제거 단추를 사용할 수 없는 이유와 가능한 해결 방법도 설명되어 있습니다.
 
-|이유  |설명  |솔루션  |
+|이유  |설명  |해결 방법  |
 |---------|---------|---------|
 |신용 검사가 보류 중입니다. |신용 검사가 보류 중인 경우 신용 검사가 완료될 때까지 라이선스를 구입하거나 제거할 수 없습니다.  | 나중에 다시 확인하여 신용 검사가 완료된지 확인할 수 있습니다. 신용 조사가 완료되려면 보통 영업일 기준 최대 2일이 걸립니다.<br/>신용 검사가 완료되면 라이선스 구입  및 라이선스 **제거 단추가** 표시됩니다. |
 |제품 키를 사용하여 구독을 활성화한 경우| 25자 제품 키를 사용하여 구독을 구입하고 정품 인증한 경우 제품 페이지의  구매 채널 열에 "선불"이라는 단어가 **표시됩니다.**  |제품 키를 사용하여 유료 [구독에 라이선스 추가를 참조하세요.](add-licenses-using-product-key.md) |

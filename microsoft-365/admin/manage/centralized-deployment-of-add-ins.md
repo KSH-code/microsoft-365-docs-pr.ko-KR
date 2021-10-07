@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -21,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: 9bddbf7f11d01bdf18f4b09f1d92e8f99e82ae5a
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: fa2532539a09f74331f4129ab73cde367ed070b6
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774427"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164515"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -44,7 +45,7 @@ ms.locfileid: "59774427"
 
 추가 기능을 모든 사용자의 클라이언트에 표시하는 데 최대 24시간이 걸릴 수 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 추가 기능을 중앙 집중식으로 배포하려면 사용자가 Microsoft 365 Enterprise SKUS( E3/E5/F3 또는 Business SKUS: Business Basic, Business Standard, Business Premium(조직 ID를 사용하여 Office 로그인)를 사용하고 Exchange Online 및 활성 상태의 Exchange Online 사서함이 필요합니다. 구독 디렉터리가 에 있어야 합니다. 또는 구독 디렉터리에 Azure Active Directory.
 아래에서 배포 및 Office 요구 Exchange 또는 중앙 집중식 배포 호환성 검사 를 사용할 [수 있습니다.](#centralized-deployment-compatibility-checker)

@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 - SPO_Content
 ms.custom:
 - MSStore_Link
@@ -24,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 Microsoft 365 라이선스를 제거합니다.
-ms.openlocfilehash: cf75d12ba425701528ec4f07d6d7e6b91e4dc585
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 0491a28daac7b85c23037a722f3f810bb4eab71d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775339"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60161585"
 ---
 # <a name="step-6---remove-the-microsoft-365-license-from-a-former-employee"></a>6단계 - 이전 Microsoft 365 라이선스 제거
 

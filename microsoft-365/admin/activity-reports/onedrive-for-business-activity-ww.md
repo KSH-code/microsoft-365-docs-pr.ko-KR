@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직의 OneDrive 사용 현황 보고서를 보고 모든 OneDrive 사용자, 공유되는 파일 수 및 저장소 사용률을 알 수 있습니다.
-ms.openlocfilehash: 145bf6cc4f079e4916730b949ed0c4a798242860
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0c5eeea5b351425c25240be54d81434248d735c8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185420"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60157281"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>Microsoft 365 관리 센터의 보고서 - 비즈니스용 OneDrive 활동
 

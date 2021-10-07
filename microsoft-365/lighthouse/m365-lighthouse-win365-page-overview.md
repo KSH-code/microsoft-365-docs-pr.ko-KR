@@ -7,7 +7,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.prod: microsoft-365-lighthouse
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: MICROSOFT 365 LIGHTHOUSE MSP(관리 서비스 공급자)의 경우 Windows 365(클라우드 PC) 페이지에 대해 자세히 알아보십시오.
-ms.openlocfilehash: b71beb0315c15929b20e1afd32a96bfd811a9ea9
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: a0d828a382000502f6700d585624b967a740ff36
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211722"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60163183"
 ---
 # <a name="windows-365-cloud-pcs-page-overview"></a>Windows 365(클라우드 PC) 페이지 개요  
 
@@ -30,7 +30,7 @@ ms.locfileid: "59211722"
   
 Windows 365는 MEM(Microsoft Endpoint Manager) 관리자가 Windows 365 라이선스가 있는 사용자를 위해 클라우드 PC를 프로비전하고 관리할 수 있는 클라우드 기반 서비스입니다. Windows 365는 장치 관리를 위한 MEM과 완전히 통합되어 있으며, Microsoft 365 Lighthouse 모든 고객 테넌트에서 클라우드 PC의 파트너 관리에 사용할 수 있습니다.
 
-365의 Windows 자세한 내용은 [365란 Windows 참조하세요.](/windows-365/overview) 365 요구 Windows 목록은 [Requirements for Windows 365을 참조하세요.](/windows-365/requirements)
+365의 Windows 자세한 내용은 [365란 Windows 참조하세요.](/windows-365/overview) 365 요구 Windows 목록은 [Requirements for Windows 365을 참조하세요.](/windows-365/enterprise/requirements)
 
 > [!IMPORTANT]
 > Lighthouse에서 관리하려면 [먼저 MEM으로](https://go.microsoft.com/fwlink/p/?linkid=2150463) 이동하여 각 고객 테넌트에 대해 클라우드 PC를 프로비전해야 합니다. Lighthouse 내에서 프로비전할 수 없는 경우
@@ -77,7 +77,7 @@ Windows 365는 MEM(Microsoft Endpoint Manager) 관리자가 Windows 365 라이�
 - **검색:** 키워드를 입력하여 목록에서 특정 클라우드 PC를 빠르게 찾습니다.
 - **프로비전 다시 시도:** 목록에서 프로비전 실패 상태인 클라우드 PC 1~20대를 선택한 다음 이 옵션을 선택하여 해당 클라우드 PC에 대한 프로비전을 다시 시도합니다. 
 
-클라우드 PC 상태 및 해당 상태의 의미에 대한 전체 목록은 Windows 365 설명서 라이브러리의 클라우드 [PC](/windows-365/device-management-overview#cloud-pc-overview-page) 개요 페이지를 참조하세요.
+클라우드 PC 프로비전 상태와 해당 상태의 의미에 [](/windows-365/enterprise/device-management-overview#column-details) 대한 전체 목록을 확인하려면 Windows 설명서 라이브러리의 클라우드 PC에 대한 장치 관리 개요를 참조하세요.
 
 :::image type="content" source="../media/m365-lighthouse-win365-page-overview/all-cloud-pcs-tab.png" alt-text="Screenshot of the Windows 365 All Cloud PCs tab.":::
 
@@ -101,6 +101,6 @@ On the On-premises network connections tab, the colored count-annotation bar dis
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[365 Windows란?](/windows-365/overview) (기사)\
-[Windows PC에 대한 365](/windows-365/device-management-overview) 장치 관리 개요(문서)\
+[Windows 365란?](/windows-365/overview) (기사)\
+[Windows PC에 대한 365](/windows-365/enterprise/device-management-overview) 장치 관리 개요(문서)\
 [Microsoft 365 Lighthouse FAQ(문서)](m365-lighthouse-faq.yml)

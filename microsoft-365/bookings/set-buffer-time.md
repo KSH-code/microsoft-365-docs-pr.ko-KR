@@ -6,15 +6,15 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: bookings
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 271f43e4-b8f7-4d63-8059-b5747679bb7e
 description: Microsoft Bookings에서 약속 전후에 버퍼 시간을 설정하여 장비 정리 또는 초기화 시간을 허용합니다.
-ms.openlocfilehash: 21830b0cc1ec2f14bc845937387e700fb7a2ee72
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: c3d07be3c858eca5f6e9a672581b386625f5dd80
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219455"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164047"
 ---
 # <a name="set-buffer-time-in-microsoft-bookings"></a>Microsoft Bookings에서 버퍼 시간 설정
 

@@ -8,7 +8,7 @@ manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 로그인 페이지에 대한 개인 정보 및 동의 알림으로 로그인 페이지를 Microsoft 365.
-ms.openlocfilehash: 652566ca1caf46cd224e5205da3bebfd7b25cefa
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 003853e0577b2c23fc8240d2b19918c3235eade8
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59186452"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60156789"
 ---
 # <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a>개인 정보 및 동의 알림으로 로그인 페이지 사용자 지정
 

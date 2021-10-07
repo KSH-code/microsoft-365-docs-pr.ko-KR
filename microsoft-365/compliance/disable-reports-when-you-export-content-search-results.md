@@ -9,7 +9,7 @@ ms.date: 12/30/2016
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MOE150
 - MET150
@@ -17,12 +17,12 @@ ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 ms.custom:
 - seo-marvel-apr2020
 description: 로컬 Windows 콘텐츠 검색의 결과를 내보낼 때 보고서를 사용하지 않도록 설정하려면 로컬 컴퓨터의 Microsoft 365 규정 준수 센터.
-ms.openlocfilehash: efe9ea768b68524dbfda003796a10d60453862bc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: bafdab1586b28239ddba7cf251704111731f2239
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59193159"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60163411"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 

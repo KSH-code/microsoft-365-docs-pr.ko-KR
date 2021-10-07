@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f7c2ff2-af65-4557-8840-0b84ce96d9bc
 description: 메시지 센터 게시물은 영어로만 표시되지만 메시지 센터에 대해 지정한 언어로 자동으로 Microsoft 365.
-ms.openlocfilehash: 84d88c507b16e81fd63f28261cc27be4883584c3
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 0afdd98b56b6cb13a5f4bef014d8612c30dfbf11
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59184508"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164335"
 ---
 # <a name="language-translation-for-message-center-posts"></a>메시지 센터 게시물에 대한 언어 번역
 

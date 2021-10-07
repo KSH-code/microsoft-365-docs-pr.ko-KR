@@ -9,15 +9,15 @@ ms.date: ''
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정하여 원격 네트워크의 Verizon 네트워크에서 SMS 및 MMS 데이터를 가져오고 보관할 Microsoft 365. 이를 통해 타사 데이터 원본의 데이터를 보관할 수 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: d95b78267dc74fb78eb9db6fcf3df25c4a4ac59a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 10e416825b9241c26f26ab37a254cddbd22fa836
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59188179"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60163495"
 ---
 # <a name="set-up-a-connector-to-archive-verizon-network-data"></a>Verizon 네트워크 데이터를 보관할 커넥터 설정
 

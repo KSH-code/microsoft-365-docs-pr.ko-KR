@@ -11,18 +11,18 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: macapara
 author: mjcaparas
-localization_priority: Normal
+ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b4d8643a1c7e39df1d2f2250e7a61caa0535cbae
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: 09e4b386d61835f4e15e208aaa64c69ddf85e112
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353745"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60162991"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 파트너 응용 프로그램
 
@@ -103,7 +103,7 @@ Defender for Endpoint는 플랫폼의 감지, 조사 및 위협 인텔리전스 
 ![더 나은 모바일 로고의 이미지.](images/bettermobile-logo.png)|[모바일 개선](https://go.microsoft.com/fwlink/?linkid=2086214)|피싱의 모바일 위협을 & AI 기반 MTD 솔루션입니다. 개인 정보 보호를 위한 개인 인터넷 검색
 ![Corrata 로고 이미지](images/corrata-logo.png)|[코라타](https://go.microsoft.com/fwlink/?linkid=2081148)|모바일 솔루션 - Corrata에서 세부적인 가시성 및 제어로 모바일 장치 보호
 ![Lookout 로고의 이미지입니다.](images/lookout-logo.png)|[Lookout](https://go.microsoft.com/fwlink/?linkid=866935)|Android 및 iOS 모바일 장치에 대한 Lookout Mobile Threat Protection 원격 분석 다운로드
-![Symantec 모바일 Endpoint Protection 이미지입니다.](images/symantec-logo.png)|[Symantec Endpoint Protection Mobile](https://go.microsoft.com/fwlink/?linkid=2090992)|SEP Mobile은 기업이 모바일 장치에서 보안 위협 및 취약점을 예측, 감지 및 방지하는 데 도움이 됩니다.
+![Symantec 모바일 Endpoint Protection 이미지입니다.](images/symantec-logo.png)|[Symantec Endpoint Protection 모바일](https://go.microsoft.com/fwlink/?linkid=2090992)|SEP Mobile은 기업이 모바일 장치에서 보안 위협 및 취약점을 예측, 감지 및 방지하는 데 도움이 됩니다.
 ![Zimperium 로고 이미지](images/zimperium-logo.png)|[Zimperium](https://go.microsoft.com/fwlink/?linkid=2118044)|모바일 위협 방어를 통해 끝점용 Defender를 iOS 및 Android로 Machine Learning 확장
 
 ## <a name="other-integrations"></a>기타 통합

@@ -7,19 +7,19 @@ manager: bcarter
 ms.audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 3ce1715baaf9b23fe53d900d67fc378d8fa624bb
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: fcbf4ea9d3f43d0ce005265c4c40572ea3f846a4
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59192169"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60162065"
 ---
 # <a name="security-hurdles-you-can-sail-overone-architects-viewpoint"></a>설계자 한 의 관점에서 볼 수 있는 보안 허점을 다분화할 수 있습니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "59192169"
 
 |리소스   |추가 정보  |
 |---------|---------|
-|[재택 근무를 지원하는 보안 팀의 주요 작업](../security/top-security-tasks-for-remote-work.md)      | 대부분 재택근무 인력을 갑자기 지원하고 있는 경우 이 문서는 보안을 빠르게 강화하는 데 도움이 됩니다. 여기에는 라이선스 계획에 따라 권장되는 상위 작업이 포함됩니다.    |
+|[보안팀의 재택 근무 지원용 최상위 작업](../security/top-security-tasks-for-remote-work.md)      | 대부분 재택근무 인력을 갑자기 지원하고 있는 경우 이 문서는 보안을 빠르게 강화하는 데 도움이 됩니다. 여기에는 라이선스 계획에 따라 권장되는 상위 작업이 포함됩니다.    |
 |[Microsoft 365 비즈니스 의사 결정권자에 대한 보안](../security/Microsoft-365-security-for-bdm.md)    | 보다 포괄적인 계획을 세우는 데 시간이 있는 경우 이 문서에는 공격 표면에 따라 우선 순위가 Microsoft 365 권장 사항이 포함되어 있습니다. 라이선스 및 영역(예: ID, 위협 방지 및 모니터링)을 정렬하는 데 사용할 수 있는 스프레드시트와 함께 제공될 수 있습니다.  |
 |[Microsoft 보안 아키텍처 권장 사항](/security/compass/compass)    | 보안 설계자인 경우 ID, 네트워킹 및 보안 운영을 포함하여 분야별로 구성한 보안 권장 사항을 확인합니다.   |
 |[Microsoft 보안 운영 권장 사항](/security/compass/security-operations-videos-and-decks)|SOC(보안 운영 센터) 설정 및 실행에 대한 Microsoft 권장 사항 학습 |

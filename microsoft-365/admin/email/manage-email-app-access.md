@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: d00b6b83-1f14-4e9c-a2c5-dbd9a92816f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 전자 메일, 일정 및 연락처에 액세스하는 데 사용할 수 있는 모바일 앱을 선택하는 방법을 학습합니다.
-ms.openlocfilehash: d38730df158758ceb310ba25f45f222d7893afe2d0aefc601a17663e85787552
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 44991f9d84b421b77dd9923377b2db50b2772687
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53825982"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164971"
 ---
 # <a name="manage-email-app-access-in-the-microsoft-365-admin-center"></a>전자 메일 앱 액세스 관리 Microsoft 365 관리 센터
 
@@ -40,7 +40,7 @@ ms.locfileid: "53825982"
 > [!IMPORTANT]
 >  이 기능을 사용하지 않는 경우 사용자 환경이 변경되지 않습니다. 모바일 전자 메일 앱을 사용하여 모바일 장치에서 전자 메일, 일정 및 연락처에 대한 직장 또는 학교 계정에 액세스할 수 있습니다. 
     
-1. 관리 센터 미리 보기에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">서비스 &amp; 추가 기능</a> 페이지로 이동합니다. 
+1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">서비스 &amp; 추가 기능</a> 페이지로 이동합니다. 
 
 2. 모바일 전자 메일 **액세스 옵션 페이지에서** 확인란을 선택한 다음 조직의 사용자가 장치에서 전자 메일 앱을 사용하는 방법을 선택합니다.
   

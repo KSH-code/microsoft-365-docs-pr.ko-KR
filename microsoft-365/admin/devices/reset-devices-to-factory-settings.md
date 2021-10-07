@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 비즈니스용 Microsoft 365 사용하여 관리하는 Windows 10 초기화하고 구매 시 원래 설정으로 되전하는 방법을 배워야 합니다.
-ms.openlocfilehash: 64f0ea1f6b39ec4ea6cc817bbe96ee78b3b96cdb
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: eeacb9cbfb6e6f4ea7ccc9db9b3f387070bce37e
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933330"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165367"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Windows 10 장치를 공장 설정으로 초기화
 

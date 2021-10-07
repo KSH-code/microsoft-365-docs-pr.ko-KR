@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -21,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'PowerShell을 사용하여 조직의 전체 또는 특정 사용자에 대해 클러터 기능을 사용하도록 설정하거나 사용하지 않도록 Exchange 방법을 학습합니다. '
-ms.openlocfilehash: 055e02cd9a53dfcb8dd5bc3d3b7b601e3efe53ad
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 5037e7cb6518ca90f3d12c183fcff3c838c29907
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774679"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165090"
 ---
 # <a name="configure-clutter-for-your-organization"></a>조직에 대한 클러터 구성
 

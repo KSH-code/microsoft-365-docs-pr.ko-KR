@@ -4,18 +4,18 @@ description: 도구에서 찾을 수 있는 각 문제별로 수행할 세부 �
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 32e750dc824484624a5f0d953b75f242639c3e23
-ms.sourcegitcommit: 4ea16de333421e24b15dd1f164963bc9678653fb
+ms.openlocfilehash: d2e055b553e3358107283236d634d9d46d33de4d
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60009508"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60163159"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -285,6 +285,14 @@ Microsoft Managed Desktop 기본 설정은 디렉터리의 모든 사용자와 �
 **권고**
 
 **구성원 권한이 있는** 게스트를 포함하여 특정 관리자 역할에 할당된 구성원 사용자 및 게스트 사용자를 초대할 수 있습니다. 단계에 대한 자세한 내용은 게스트 계정에 대한 [사전 준비를 참조하세요.](/microsoft-365/managed-desktop/get-ready/guest-accounts)
+
+### <a name="guest-user-access"></a>게스트 사용자 액세스
+
+Microsoft Managed Desktop 기본 설정을 사용하면 디렉터리의 모든 게스트 사용자가 구성원과 동일한 액세스 권한을 하도록 허용하기 때문에 게스트 사용자 액세스를 조정하는 것이 좋습니다.
+
+**권고**
+
+**게스트 사용자는 속성에 제한적으로** 액세스할 수 있으며 디렉터리 개체의 멤버 자격을 사용하도록 설정해야 합니다. 단계에 대한 자세한 내용은 게스트 계정에 대한 [사전 준비를 참조하세요.](/microsoft-365/managed-desktop/get-ready/guest-accounts)
 
 ### <a name="licenses"></a>라이선스
 

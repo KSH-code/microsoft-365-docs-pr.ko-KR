@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+ms.localizationpriority: medium
 ms.topic: article
 author: denisebmsft
 ms.author: deniseb
@@ -17,12 +17,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 77a9a6f8e38dc59d9668756be057ab8688a6346c
-ms.sourcegitcommit: 584445b62cb82218597b62495fb76fcb5b12af9d
+ms.openlocfilehash: a9e8860129df9f5b91cad8737a595a11296d91c9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59497599"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60162545"
 ---
 # <a name="configure-and-run-on-demand-microsoft-defender-antivirus-scans"></a>요청 기반 Microsoft Defender 바이러스 백신 검사 구성 및 실행
 

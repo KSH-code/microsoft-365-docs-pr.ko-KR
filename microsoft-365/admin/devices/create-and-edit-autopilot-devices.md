@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - M365-subscription-management
@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: 장치에서 AutoPilot을 사용하여 디바이스를 업로드하는 방법을 Microsoft 365 Business Premium. 장치 또는 장치 그룹에 프로필을 할당할 수 있습니다.
-ms.openlocfilehash: f578e1879d851e7b07129f7a1ba6a1d098cea16a
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: 96034ca50da114adca60169ae29da5948793b498
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59933558"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165559"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot 장치 만들기 및 편집
 

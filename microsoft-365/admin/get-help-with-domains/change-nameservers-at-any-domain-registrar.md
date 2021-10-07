@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 - Adm_O365_Setup
 ms.custom:
 - okr_smb
@@ -25,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 Microsoft 365 같은 서비스가 자체 도메인 이름을 사용할 수 있도록 비즈니스용 Skype 도메인을 추가하고 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 7e5afb1f07bb0d6146471cc65de1c6856ee50830
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 9158d7b22533ffde9a378b5f680ff5552854bae9
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774643"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164827"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>도메인 등록 기관에서 이름 Microsoft 365 설정
 
@@ -194,4 +195,4 @@ Microsoft를 지점으로 이름 서비스 레코드가 업데이트된 후 도�
 
 [도메인을 연결하기](create-dns-records-at-any-dns-hosting-provider.md) 위해 DNS 레코드 추가(문서)\
 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)\
-[도메인 관리](index.yml)(링크 페이지)
+[도메인 관리](/admin)(링크 페이지)
