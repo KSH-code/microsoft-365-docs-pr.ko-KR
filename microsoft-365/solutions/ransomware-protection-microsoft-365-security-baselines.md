@@ -8,7 +8,7 @@ manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
 description: 보안 기준을 사용하여 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호합니다.
-ms.openlocfilehash: c2e461e5b4236738909a61c30d5bfde060f372cb
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 662e4097f4d6fd868810ba889c99d58fd0dc2f75
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444697"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60202312"
 ---
 # <a name="step-1-configure-security-baselines"></a>1단계. 보안 기준 구성
 
@@ -38,7 +38,7 @@ ms.locfileid: "59444697"
 
 먼저 [Microsoft Secure Score](/microsoft-365/security/defender/microsoft-secure-score)를 사용하여 보안 태세를 평가하고 측정하고 지침에 따라 필요에 따라 개선합니다.
 
-다음으로, [공격 노출 영역 감소 규칙](/microsoft-365/security/defender-endpoint/attack-surface-reduction)을 사용하여 의심스러운 활동 및 취약한 콘텐츠를 차단합니다. 이러한 규칙에는 다음과 같은 방지가 포함됩니다.
+그런 다음 [공격 노출 감소 규칙](/microsoft-365/security/defender-endpoint/attack-surface-reduction)을 사용하여 의심스러운 활동과 취약한 콘텐츠를 차단합니다. 이러한 규칙에는 다음을 방지하는 것이 포함됩니다.
 
 - 모든 Office 응용 프로그램에서 자녀 프로세스를 만들지 못하도록 차단
 - 전자 메일 클라이언트 및 웹메일에서 실행 가능한 콘텐츠

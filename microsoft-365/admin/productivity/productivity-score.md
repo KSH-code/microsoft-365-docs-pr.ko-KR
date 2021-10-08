@@ -8,11 +8,12 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 monikerRange: o365-worldwide
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -20,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수가 사용자 및 기술 경험 측정값을 반영하는 방식을 알아보고 비슷한 크기의 조직과 비교해 보세요.
-ms.openlocfilehash: 0c0d260ebea02d57e099c84acdbc8960d58f3638
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: a8d5ae03b624fd451e86d7b993479359fce2603c
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59774174"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60197836"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -70,7 +71,7 @@ Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항�
 
 생산성 점수를 위한 역할 기반 액세스 제어 모델을 통해 조직에서 Microsoft 365를 통해 조직 내 IT 전문가에게 역할을 유연하게 할당할 수 있습니다.
 
-Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있습니다. 이 [개인정보 보호 문서](privacy.md)에서는 조직의 IT 관리자로서 Microsoft 에서 사용자가 신뢰하는 바를 훼손하지 않으면서 정보를 작업할 수 있도록 하기 위해 Microsoft에서 제공하는 제어 기능에 대해 설명합니다.
+Microsoft는 개인의 개인 정보를 보호하기 위해 최선을 다하고 있습니다. 이 [개인정보 보호 문서](privacy.md)는 조직의 IT 관리자로서 Microsoft에 대한 신뢰를 훼손하지 않으면서 정보를 실행할 수 있도록 하는 제어 기능에 대해 설명합니다.
 
 **보고서** > **생산성 점수** 의 Microsoft 365 관리자 홈에서 경험에 액세스할 수 있습니다.
   

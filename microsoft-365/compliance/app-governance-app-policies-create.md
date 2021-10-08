@@ -9,17 +9,17 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: m365-security-compliance
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MOE150
 - MET150
 description: 앱 정책을 만듭니다.
-ms.openlocfilehash: 4029a7eeac53a23ad4d0b12556d6c9d0a71ba920
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 25aa33fad47abd5faebb90b28b47564f32d6b008
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59190129"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60204542"
 ---
 # <a name="create-app-policies"></a>앱 정책 만들기
 
@@ -107,8 +107,7 @@ ms.locfileid: "59190129"
 - 모든 앱
 - 특정 앱 선택
 
-  창을 통해 하나 이상의 앱을 선택할 수 있습니다.
-  **추가** 를 선택합니다.
+  창에서 하나 이상의 앱을 선택할 수 있습니다. **추가** 를 선택합니다.
 
 **다음** 을 선택합니다.
 
