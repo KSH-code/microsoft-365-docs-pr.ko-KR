@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 서비스 관리자와 같은 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
-ms.openlocfilehash: f6881e4a4b15f79cb79a67cdab9abc6347eafa8c
-ms.sourcegitcommit: 24bff8a546491ff32ebf04d1f51abb3197035706
+ms.openlocfilehash: 644e03fcfd5cfdc2997793097b26a3ca6a494d50
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59786182"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158829"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -96,7 +96,7 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
 
 - **헬프데스크 에이전트** 헬프데스크 관리자와 동일한 권한입니다.
 
-파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](../misc/add-partner.md)를 참조하십시오.
+파트너가 이러한 권한을 사용자에게 지정하려면, 먼저 고객이 파트너를 위임된 관리자로 고객의 계정에 추가해야 합니다. 이 프로세스는 공인 파트너가 시작합니다. 파트너가 위임된 관리자 역할을 수행할 수 있는 권한을 요청하는 전자 메일을 보냅니다. 자세한 지침은 [파트너 관계 승인 또는 제거](../misc/add-partner.md)를 참조하세요.
   
 ## <a name="related-content"></a>관련 콘텐츠
 

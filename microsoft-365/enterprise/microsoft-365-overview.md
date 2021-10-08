@@ -9,16 +9,16 @@ ms.date: 02/01/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 404670e42f46b249b748d0a54f882c631c6f91ee
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: baa31d972a4722390e72798c582f41df5133a98b
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59167242"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60152733"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -106,7 +106,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 - FastTrack과의 관계
 
-   FastTrack을 사용하면 Microsoft 엔지니어가 사용자의 진도에 따라 클라우드를 이동하는데 도움을 줍니다. [Microsoft 365용 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
+   FastTrack을 사용하면 Microsoft 엔지니어가 사용자의 진도에 따라 클라우드를 이동하는데 도움을 줍니다. [Microsoft 365용 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하세요.
 
 - Microsoft 컨설팅 서비스 혹은 [Microsoft 파트너](https://partner.microsoft.com/)의 도움말 사용
 

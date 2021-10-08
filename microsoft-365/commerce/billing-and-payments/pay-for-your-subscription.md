@@ -9,7 +9,7 @@ ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ ms.custom:
 - commerce_billing
 - AdminTemplateSet
 ms.date: 05/04/2021
-ms.openlocfilehash: 128107630580bb1594d61313c6469bb83a4adfc1
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9add2523eeedb9accdbc864979721fa7a3b99ac5
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59219155"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60158637"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>구독 결제 방법
 
@@ -40,7 +40,7 @@ ms.locfileid: "59219155"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 이 문서에 설명된 단계를 수행하려면 전역 또는 대금 청구 관리자여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+- 이 문서에 설명된 단계를 수행하려면 전역 관리자 또는 청구 관리자여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 - 결제 중에 선택하신 결제 방법은 향후 모든 청구 기간에 사용되는 결제 방법입니다. 이 변경은 아무 때나 할 수 있습니다.
 
 ## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>신용 카드, 직불 카드 또는 은행 계좌로 결제
@@ -74,7 +74,7 @@ ms.locfileid: "59219155"
 연체 금액이 있는 결제 방법을 직접 추가한 경우 **정산 잔액** 을 이용해 결제할 수 있습니다. 연체 금액을 지불하기 위해 사용하는 결제 방법은 거절된 결제 방법을 사용한 모든 구독에 대해 새로운 결제 방법이 됩니다.
 
 1. 관리 센터에서 **청구** > **청구서 및 결제** 페이지로 이동한 다음 <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">결제 방법</a> 탭을 선택합니다.
-1. 경고 메시지에는 거부된 결제 방법이 표시됩니다. **잔액 정산** 을 선택합니다.
+1. 어떤 결제 방법이 거부되었는지 경고 메시지가 표시됩니다. **잔액 정산** 을 선택합니다.
 1. 오른쪽 창에서 다른 결제 방법을 선택하거나 **새 결제 방법 추가** 를 선택합니다.
 1. 결제 방법 정보를 업데이트한 후 **저장** 을 선택합니다.
 

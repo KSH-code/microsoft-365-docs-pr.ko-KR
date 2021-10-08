@@ -16,16 +16,16 @@ ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
 - admindeeplinkTEAMS
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords: NOCSH
 recommendations: false
 description: Teams에서 게스트와 작업, 대화 및 문서 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보세요.
-ms.openlocfilehash: e0d787691ee7ec580efcbd61d6bab7bd1052e54c
-ms.sourcegitcommit: 1ef30b82d97bd998149235dc69d3c0e450e95285
+ms.openlocfilehash: 3c5d5689f676e6fecc6c0251df6ee90f54398238
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59477618"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60169386"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -73,7 +73,7 @@ Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 1. [https://admin.microsoft.com](https://admin.microsoft.com)에서 Microsoft 365 관리 센터에 로그인합니다.
 2. 왼쪽 탐색 창에서 **모두 표시** 를 클릭합니다.
 3. **관리 센터** 에서 **Teams** 를 클릭합니다.
-4. Teams 관리 센터의 왼쪽 탐색 창에서 **조직 전체 설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2173122" target="_blank">**게스트 액세스**</a>를 선택합니다.
+4. Teams 관리 센터의 왼쪽 탐색 창에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2173122" target="_blank">**게스트 액세스**</a>를 선택합니다.
 5. Teams의 **게스트 액세스 허용** 이 **사용** 으로 설정되어 있는지 확인합니다.
 6. 추가 게스트 설정을 원하는대로 변경 한 다음 **저장** 을 클릭하세요.
 

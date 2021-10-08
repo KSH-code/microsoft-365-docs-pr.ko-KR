@@ -9,19 +9,19 @@ ms.date: 08/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
 ms.custom: ''
 description: 직원이 언제 어디서나 원격으로 작업할 수 있는 보안 및 인프라를 구성하세요.
-ms.openlocfilehash: 38dc7110c44b3b9acf20283a4156b3eccc0f2165
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 29b97c570972527ef30f3333797a213bf2722932
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59163426"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60176322"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>개발/테스트 환경에서 보안 격리를 사용하여 팀 구성
 
@@ -46,7 +46,7 @@ ms.locfileid: "59163426"
 
 먼저 Azure 포털을 사용하여 보안 그룹을 만듭니다.
 
-1. 브라우저에 별도의 탭을 만든 다음 [https://portal.azure.com](https://portal.azure.com)에서 Azure Portal로 이동합니다. 필요한 경우 Office 365 E5 평가판 혹은 유료 구독의 전역 관리자 계정의 자격 증명으로 로그인합니다.
+1. 브라우저에서 별도의 탭을 만든 다음 [https://portal.azure.com](https://portal.azure.com)에서 Azure Portal로 이동합니다. 필요한 경우 Microsoft 365 E5 평가판 또는 유료 구독에 대한 전역 관리자 계정의 자격 증명으로 로그인합니다.
 
 2. Azure Portal에서 **Azure Active Directory > 그룹** 을 차례로 클릭합니다.
 
@@ -145,11 +145,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 4. 레이블 이름에 대한 **회사 전략** 을 입력합니다.
 5. 툴팁으로 **선임 리더십 회사 전략 문서** 를 입력한 다음 **다음** 을 클릭하세요.
 6. **암호화** 페이지의 **암호화** 드롭다운에서 **적용** 을 선택합니다.
-7. 팀 사용 권한을 추가하려면:<br>
-  a. **사용 권한 할당** 을 클릭합니다.<br>
-  b. **사용자 또는 그룹 추가** 를 클릭하고 **회사 전략** 을 선택한 다음 **추가** 를 클릭하세요.<br>
-  c. **사용 권한 선택** 을 클릭합니다.<br>
-  d. 드롭다운 목록에서 **공동 작성** 을 선택한 다음 **저장** 을 클릭합니다.<br>
+7. 팀 사용 권한을 추가하려면:<br>a. **사용 권한 할당** 을 클릭합니다.<br>NS. **사용자 또는 그룹 추가** 를 클릭하고 **회사 전략** 을 선택한 다음 **추가** 를 클릭합니다.<br> c. **사용 권한 선택** 을 클릭합니다.<br> d. 드롭다운 목록에서 **공동 작성** 을 선택한 다음 **저장** 을 클릭합니다.<br>
 8. **다음** 을 클릭합니다.
 9. **콘텐츠 표시** 페이지에서 **다음** 을 클릭합니다.
 10. **사이트 및 그룹 설정** 페이지에서 **사이트 및 그룹 설정** 을 **켜짐** 으로 설정합니다.

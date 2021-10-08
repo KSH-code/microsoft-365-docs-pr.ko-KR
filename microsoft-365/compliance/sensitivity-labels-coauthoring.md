@@ -8,17 +8,17 @@ manager: laurawi
 audience: Admin
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: 3a538f866be9d43088ab22923b41c6b070855ea3
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: fc519ea7a8d76135b4d536a64e6a411844bd3e47
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59356128"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60151053"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -112,7 +112,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 - iOS 및 Android용 Office 앱은 현재 지원되지 않습니다.
 
 - 공동 작성 및 자동 저장을 지원하지 않으며, 다음 [구성을 암호화](encryption-sensitivity-labels.md#configure-encryption-settings)하는 데 사용하는 레이블 지정 및 암호화된 Office 문서에서는 작동하지 않습니다.
-    - **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 허용하고** **Word, PowerPoint및 Excel에서는 사용자에게 권한을 지정하라는 메시지** 가 선택됩니다. 때로는 이 구성을 ‘사용자 정의 권한’이라고도 합니다.
+    - **사용자가 레이블을 적용할 때 권한을 할당하도록 허용** 및 **Word, PowerPoint 및 Excel에서 사용자에게 권한 지정 메시지 표시** 확인란이 선택되어 있습니다. 이 구성을 "사용자 정의 권한"이라고도 합니다.
     - **콘텐츠에 대한 사용자 액세스 만료** 가 **만료 안 함** 이외의 값으로 설정됩니다.
     - **이중 키 암호화** 가 선택됩니다.
     

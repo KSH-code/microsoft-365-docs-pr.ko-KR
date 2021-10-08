@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
 description: 제어된 폴더 액세스, MIP, DLP 및 Microsoft Cloud App Security를 사용하여 Microsoft 365 중요 데이터를 보호할 수 있습니다.
-ms.openlocfilehash: 9548b394f5fa2cad6ec1e55e9386905b85f0335b
-ms.sourcegitcommit: 0ed93816e2c1e6620e68bd1c0f00390062911606
+ms.openlocfilehash: 392a86ef736adb258f131515a855d21ca29fe438
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59483054"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60149541"
 ---
 # <a name="step-5-protect-information"></a>5단계. 정보 보호
 
@@ -122,6 +122,7 @@ Microsoft의 주요 정보:
 
 Microsoft 365:
 
+- [Azure 및 Microsoft 365를 사용하여 랜섬웨어 복원력 최대화](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
 - [랜섬웨어 공격으로부터 복구](/microsoft-365/security/office-365-security/recover-from-ransomware)
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어에서 Windows 10 PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
@@ -134,6 +135,7 @@ Microsoft 365 Defender:
 Microsoft Azure:
 
 - [랜섬웨어 공격용 Azure 방어](https://azure.microsoft.com/resources/azure-defenses-for-ransomware-attack/)
+- [Azure 및 Microsoft 365를 사용하여 랜섬웨어 복원력 최대화](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
 - [랜섬웨어로부터 보호하기 위한 백업 및 복원 계획](/security/compass/backup-plan-to-protect-against-ransomware)
 - [Microsoft Azure Backup을 통해 랜섬웨어로부터 보호](https://www.youtube.com/watch?v=VhLOr2_1MCg)(26분 비디오)
 - [시스템 ID 손상 복구](/azure/security/fundamentals/recover-from-identity-compromise)

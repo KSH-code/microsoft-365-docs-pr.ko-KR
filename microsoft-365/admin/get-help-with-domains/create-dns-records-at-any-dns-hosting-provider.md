@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 - Adm_O365_Setup
 search.appverid:
 - MET150
@@ -21,12 +22,12 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - admindeeplinkMAC
-ms.openlocfilehash: f9af8ccf5a6a8cadfa192fdac5706de6c9d0890b
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: ae8dc1c1d2f603e81d2affd723df2be460a873de
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775555"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60164815"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS 레코드를 추가하여 도메인 연결하기
 
@@ -170,7 +171,7 @@ SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기�
 
 호스팅 공급자가 SRV 레코드에 이러한 필드를 제공하지 않으면 레코드의 **대상** 필드에 이를 지정해야 합니다. (참고: 호스팅 공급자에 따라 **대상** 필드는 **콘텐츠**, **IP 주소** 또는 **대상 호스트** 와 같이 다른 이름으로 불릴 수도 있습니다.)
 
-이러한 값을 추가하려면 값을 공백으로 구분하고 *때로는 점으로 끝나는* 단일 문자열을 만듭니다(확실하지 않은 경우 공급자에게 문의). 값은 우선 순위, 무게, 포트, 대상 순서로 포함되어야 합니다.
+이러한 값을 추가하려면 공백으로 값을 구분하고 *점으로 끝나는* 단일 문자열을 만드세요(확실하지 않은 경우 제공업체에 문의). 값은 우선 순위, 가중치, 포트, 대상의 순서로 포함되어야 합니다.
 
 - 예제 1: `100 1 443 sipdir.online.lync.com.`
 - 예제 2: `100 1 443 sipdir.online.lync.com`
@@ -179,4 +180,4 @@ SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기�
 
 [모든 도메인 등록 기관에서 Microsoft 365를 설정하도록 네임 서버 변경](change-nameservers-at-any-domain-registrar.md)(문서)\
 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)\
-[도메인 관리](index.yml)(링크 페이지)
+[도메인 관리](/admin)(링크 페이지)
