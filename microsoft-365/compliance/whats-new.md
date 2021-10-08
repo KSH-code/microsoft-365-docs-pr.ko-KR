@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c341034169def6627d0b03c043bc32aa399f70c4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: cbe868ea7f5418b9013719caa9858317d1fd6ba3
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60167081"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240347"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -45,12 +45,29 @@ ms.locfileid: "60167081"
 
 ### <a name="app-governance"></a>앱 거버넌스
 
-- [간소화된 앱 거버넌스](https://docs.microsoft.com/microsoft-365/compliance/app-governance-get-started) 시작 정보의 워크플로가 변경되어 공개 미리 보기 등록에 새 링크가 추가되었습니다.
-- [새 검색 경고 정의](https://docs.microsoft.com/microsoft-365/compliance/app-governance-anomaly-detection-alerts#app-made-high-volume-of-importance-mail-read-and-created-inbox-rule) 추가(업데이트, 컬렉션 경고에 대한 새 정의 추가)
+- [간소화된 앱 거버넌스](app-governance-get-started.md) 시작 정보의 워크플로가 변경되어 공개 미리 보기 등록에 새 링크가 추가되었습니다.
+- [새 검색 경고 정의](app-governance-anomaly-detection-alerts.md#app-made-high-volume-of-importance-mail-read-and-created-inbox-rule) 추가(업데이트, 컬렉션 경고에 대한 새 정의 추가)
 
 ### <a name="auditing"></a>감사
 
 - [조직의 감사 상태에](turn-audit-log-search-on-or-off.md) 대한 변경 내용을 자체적으로 감사하는 방법에 대한 새 섹션에 대한 감사를 설정하거나 해제합니다. 즉, 감사를 설정하거나 해제하면 감사 레코드가 기록됩니다. 관리자 감사 Exchange 검색할 수 있습니다.
+
+### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
+
+- [SIEM 솔루션과의](communication-compliance-siem.md) 통신 준수 통합을 위한 SIEM 솔루션과의 통신 규정 준수 지침)
+
+### <a name="compliance-offerings"></a>규정 준수 제품
+
+- [MTCS(다중 계층 클라우드 보안)](/compliance/regulatory/offering-mtcs-singapore) Dynamics 365 적용 범위에 대한 싱가포르 표준 업데이트
+- [PCI(Payment Card Industry)](/compliance/regulatory/offering-pci-dss) SharePoint 온라인 범위에 대한 DSS(데이터 보안 표준) 업데이트
+- [미국 섹션 508 새](/compliance/regulatory/offering-section-508-vpats) 클라이언트 소프트웨어 지침
+- [웹 콘텐츠 접근성 지침](/compliance/regulatory/offering-wcag-2-1) 새 클라이언트 소프트웨어 지침
+
+### <a name="compliance--service-assurance"></a>규정 & 서비스 보증
+
+- [서비스 보증](/compliance/) 분기별 인증 및 적용성 설명에 대한 콘텐츠 업데이트 검토
+  - 데이터 포함 장치 폐기
+  - DDOS 공격
 
 ### <a name="data-connectors"></a>데이터 커넥터
 
@@ -60,6 +77,19 @@ ms.locfileid: "60167081"
 ### <a name="ediscovery"></a>eDiscovery
 
 - [KQL](ediscovery-kql-editor.md) 편집기를 사용하여 콘텐츠 검색, Core eDiscovery 및 검색에서 검색 쿼리를 만드는 새로운 방법의 검색 쿼리 공개 미리 보기를 Advanced eDiscovery. KQL 편집기는 지원되는 검색 가능한 속성 및 조건에 대한 자동 고침을 제공하며 표준 속성 및 조건에 대해 지원되는 값 목록을 표시합니다. 또한 KQL 편집기는 검색 쿼리에서 발생할 수 있는 오류 수정을 위한 오류 검색 및 제안 사항도 제공합니다.
+
+### <a name="information-barriers"></a>정보 장벽
+
+- [정보 장벽 모드에](information-barriers-policies.md#step-6-information-barriers-modes-preview) 대한 정보 장벽의 새로운 미리 보기 기능 시작
+- [정보 장벽 Microsoft Teams](/microsoftteams/information-barriers-in-teams) 새로운 미리 보기 기능을 통해 정보 장벽
+- [정보 장벽 OneDrive](/onedrive/information-barriers) 새로운 미리 보기 기능을 통해 정보 장벽
+- [정보 장벽 모드에 SharePoint 온라인의](/sharepoint/information-barriers) 새로운 미리 보기 기능이 있는 정보 장벽
+
+### <a name="insider-risk-management"></a>내부자 위험 관리
+
+- [권장 작업을 시작하기](insider-risk-management-configure.md#recommended-actions-preview) 위한 내부자 위험 관리 새로운 미리 보기 기능 시작
+- [내부자 위험 활동](insider-risk-management-activities.md#get-help-managing-your-insider-risk-alert-queue) 조사 새로운 '내부자 위험 경고 큐 관리 도움말 확인' 지침 섹션
+- [내부자 위험 관리](insider-risk-management-settings.md#admin-notifications) 설정 시작 새 관리자 알림 설정 미리 보기 기능
 
 ### <a name="retention-and-records-management"></a>보존 및 레코드 관리
 - [이제 새로운](disposition.md) 감사 이벤트를 통해 GA(다단계 분해 검토)를 일반적으로 사용할 [수 있습니다.](search-the-audit-log-in-security-and-compliance.md#disposition-review-activities) 다단계 분해 검토를 사용하면 보존 레이블에 대한 최대 5개의 연속된 분류 검토 단계로 지정할 수 있으며, 검토자는 다른 사용자를 해당 분류 검토 단계에 추가할 수 있습니다. 또한 전자 메일 알림 및 미리 알림을 사용자 지정할 수 있습니다.

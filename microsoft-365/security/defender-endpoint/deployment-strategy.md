@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 23d668751548205b6cef18bf0d73d14079b7c6d6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ca64c56d2e99bc0539b9c0e0cef8eb04f9a1b9b6
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205586"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240116"
 ---
 # <a name="plan-your-microsoft-defender-for-endpoint-deployment"></a>엔드포인트용 Microsoft Defender 배포 계획
 
@@ -52,7 +52,13 @@ ms.locfileid: "60205586"
 
 ## <a name="step-2-select-deployment-method"></a>2단계: 배포 방법 선택
 
-Endpoint용 Defender는 서비스에 온보딩할 수 있는 다양한 끝점을 지원합니다.
+| 끝점     | 배포 도구                       |
+|--------------|------------------------------------------|
+| **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md) <br> [Azure Defender와 통합](configure-server-endpoints.md#integration-with-azure-defender)  |
+| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
+| **Linux Server** | [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
+| **iOS**      | [Microsoft Endpoint Manager ](ios-install.md)                                |
+| **Android**  | [Microsoft Endpoint Manager ](android-intune.md)               | 
 
 다음 표에는 배포를 적절하게 계획할 수 있도록 지원되는 끝점 및 해당 배포 도구가 나열됩니다.
 

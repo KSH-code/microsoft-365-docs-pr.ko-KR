@@ -18,12 +18,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.date: 09/23/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 352cf74b85ed24eba47fd6973702dd4eb7f73a40
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: cf64e4d8c808551ea98afc8d135e7f2d614e5fb0
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209324"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240551"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -38,6 +38,8 @@ ms.locfileid: "60209324"
 - Windows Server 2022
 - Windows 서버, 버전 1803 이상
 - Windows Server 2016
+- Windows Server 2012 R2
+
 
 ## <a name="overview"></a>개요
 
@@ -102,7 +104,7 @@ ms.locfileid: "60209324"
 
 - Microsoft 365 Defender 포털을 사용하여 변조 방지를 관리할 때 Intune 또는 테넌트 연결 방법을 사용할 필요가 없습니다.
 
-- Microsoft 365 Defender 포털에서 변조 방지를 관리하는 경우 이 설정은 테넌트 전체에 적용되어 Windows 10, Windows Server 2016 또는 Windows Server 201 Windows 9 또는 Windows Server 2022를 실행하는 모든 장치에 영향을 미치게 됩니다. 변조 방지를 미세 조정하려면(예: 일부 장치에 대해 변조 보호를 설정하고 다른 장치에는 사용하지 않는 경우) 테넌트 연결과 함께 [Intune](#manage-tamper-protection-for-your-organization-using-intune) 또는 [Configuration Manager를 사용 합니다.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
+- Microsoft Defender 보안 센터 변조 보호를 관리하는 경우 이 설정은 테넌트 전체에 적용되어 Windows 10, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019 또는 Windows Server 2022. 변조 방지를 미세 조정하려면(예: 일부 장치에 대해 변조 보호를 설정하고 다른 장치에는 사용하지 않는 경우) 테넌트 연결과 함께 [Intune](#manage-tamper-protection-for-your-organization-using-intune) 또는 [Configuration Manager를 사용 합니다.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - 하이브리드 환경이 있는 경우 Intune에서 구성된 변조 보호 설정이 Microsoft 365 Defender 구성한 설정보다 우선합니다.
 
@@ -117,7 +119,14 @@ ms.locfileid: "60209324"
   - Windows 서버, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
   - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
 
-  릴리스에 대한 자세한 내용은 릴리스 [Windows 10 참조하세요.](/windows/release-health/release-information)
+   - Windows 10
+   - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+   - [Windows Server, 버전 1803](/windows/release-health/status-windows-10-1803) 이상
+   - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
+   - [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)
+
+릴리스에 대한 자세한 내용은 릴리스 [Windows 10 참조하세요.](/windows/release-health/release-information)
+
 
 - 디바이스를 [끝점용 Microsoft Defender에 온보딩해야 합니다.](/microsoft-365/security/defender-endpoint/onboarding)
 
@@ -184,7 +193,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 ## <a name="manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006"></a>Configuration Manager 버전 2006을 사용하여 조직의 변조 보호 관리
 
-[Configuration Manager 버전 2006을](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2006)사용하는 경우 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2016, Windows Server 2019 및 Windows Server 2022에서 변조 보호 설정을 관리할 수 *있습니다.* 테넌트 연결 기능을 사용하면 프레미스 전용 Configuration Manager 장치를 Microsoft Endpoint Manager 관리 센터에 동기화한 다음 끝점 보안 구성 정책을 장치용 & 있습니다.
+[Configuration Manager 버전 2006을](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2006)사용하는 경우 테넌트 연결 이라는 방법을 사용하여 Windows 10, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019 및 Windows Server 2022에서 변조 방지 설정을 관리할 수 있습니다.  테넌트 연결 기능을 사용하면 프레미스 전용 Configuration Manager 장치를 Microsoft Endpoint Manager 관리 센터에 동기화한 다음 끝점 보안 구성 정책을 장치용 & 있습니다.
 
 > [!NOTE]
 > 이 절차를 사용하여 Windows 10 Server 2019 및 Windows Server 2022를 실행하는 장치로 변조 Windows 수 있습니다. 이 절차에 언급된 리소스의 선행 절차 및 기타 정보를 검토해야 합니다.
@@ -244,13 +253,13 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 위협 및 취약성 관리에 & 자세한 내용은 & 위협 및 취약성 [관리를 Microsoft 365 Defender.](/microsoft-365/security/defender-endpoint/tvm-dashboard-insights#threat--vulnerability-management-in-microsoft-defender-security-center)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="on-which-versions-of-windows-can-i-configure-tamper-protection"></a>어떤 버전의 변조 Windows 구성할 수 있나요?
 
 Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/windows/release-health/status-windows-10-1803), [1809](/windows/release-health/status-windows-10-1809-and-windows-server-2019)이상과 [끝점용 Microsoft Defender](/microsoft-365/security/defender-endpoint).
 
-테넌트 연결과 함께 Configuration Manager 버전 2006을 사용하는 경우 변조 방지를 Windows Server 2019 및 Windows Server 2022로 확장할 수 있습니다. 테넌트 연결: 관리 센터에서 끝점 보안 바이러스 백신 정책 만들기 및 배포(미리 [보기)를 참조하세요.](/mem/configmgr/tenant-attach/deploy-antivirus-policy)
+Configuration Manager 버전 2006을 테넌트 연결과 함께 사용하는 경우 변조 방지를 Windows Server 2012 R2, Windows Server 2016, Windows Server 2019 및 Windows Server 2022로 확장할 수 있습니다. 테넌트 연결: 관리 센터에서 끝점 보안 바이러스 백신 정책 만들기 및 배포(미리 [보기)를 참조하세요.](/mem/configmgr/tenant-attach/deploy-antivirus-policy)
 
 ### <a name="will-tamper-protection-affect-non-microsoft-antivirus-registration-in-the-windows-security-app"></a>변조 방지는 앱의 비 Microsoft 바이러스 백신 등록에 Windows 보안 영향을 미치나요?
 

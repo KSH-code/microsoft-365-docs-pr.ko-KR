@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 9c9d731fa8a1632ab6804ebed9fdb2594564eaf8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8f6a4278918dc364f160aea1665c56878a05a41a
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212428"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240047"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -232,7 +232,7 @@ MDM 이벤트 로그를 확인하여 온보더링 중에 발생할 수 있는 �
 
 2. 다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
 
-   ```text
+   ```console
    sc qc diagtrack
    ```
 
@@ -252,21 +252,19 @@ MDM 이벤트 로그를 확인하여 온보더링 중에 발생할 수 있는 �
 
 2. 다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
 
-   ```text
+   ```console
    sc config diagtrack start=auto
    ```
 
 3. 성공 메시지가 표시됩니다. 다음 명령을 입력하여 변경을 확인하고 **Enter를 누르고 :**
 
-   ```text
+   ```console
    sc qc diagtrack
    ```
 
-4. 서비스를 시작 합니다.
+4. 서비스를 시작 합니다. 명령 프롬프트에서 다음 명령을 입력하고 **Enter를 입력합니다.**
 
-   a. 명령 프롬프트에서 다음 명령을 입력하고 **Enter를 입력합니다.**
-
-   ```text
+   ```console
    sc start diagtrack
    ```
 
@@ -304,7 +302,7 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
   - `<Key Path="SOFTWARE\Policies\Microsoft\Windows Defender"><KeyValue Value="0" ValueKind="DWord" Name="DisableAntiVirus"/></Key>`
 
 > [!IMPORTANT]
-> 이 설정은 더 이상 사용되지 않습니다. 이 설정은 `disableAntiSpyware` 2020년 8월(버전 4.18.2007.8) 업데이트 이후 모든 클라이언트 장치에서 Microsoft Defender 바이러스 백신.
+> `disableAntiSpyware`2020년 8월(버전 4.18.2007.8) 업데이트 이후로 모든 Windows 10 장치에서 이 설정이 Microsoft Defender 바이러스 백신.
 
 - 정책을 지운 후 온보더링 단계를 다시 실행합니다.
 
@@ -320,19 +318,20 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
    > - `<Key Path="SYSTEM\CurrentControlSet\Services\WdBoot"><KeyValue Value="0" ValueKind="DWord" Name="Start"/></Key>`
    > - `<Key Path="SYSTEM\CurrentControlSet\Services\WdFilter"><KeyValue Value="0" ValueKind="DWord" Name="Start"/></Key>`
 
-## <a name="troubleshoot-onboarding-issues-on-a-server"></a>서버의 온보더링 문제 해결
+## <a name="troubleshoot-onboarding-issues"></a>온보딩 문제 해결 
 
 > [!NOTE]
 > 다음 문제 해결 지침은 하위 수준에만 Windows Server 2016 있습니다.
 
 서버를 등록하는 동안 문제가 발생하는 경우 다음 확인 단계를 수행하여 가능한 문제를 해결합니다.
 
+
 - [MMA(Microsoft Monitoring Agent 센서 데이터를 서비스에 보고하도록 설치 및 구성) 확인](configure-server-endpoints.md)
 - [서버 프록시 및 인터넷 연결 설정이 올바르게 구성되었는지 확인](configure-server-endpoints.md)
 
 다음을 확인해야 할 수도 있습니다.
 
-- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예제:
+- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예시:
 
     ![Endpoint Service용 Microsoft Defender가 실행되는 프로세스 보기의 이미지입니다.](images/atp-task-manager.png)
 

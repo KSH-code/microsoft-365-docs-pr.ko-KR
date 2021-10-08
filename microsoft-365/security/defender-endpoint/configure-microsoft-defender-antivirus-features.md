@@ -17,12 +17,12 @@ ms.date: 06/04/2021
 ms.reviewer: ''
 manager: dansimp
 ms.collection: M365-security-compliance
-ms.openlocfilehash: b6837e63b24a0d95cc7f8ccb8535f8f8e98c8dec
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 333ea6a30ee9740b6556e1adc6576b742d277ce2
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201443"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240167"
 ---
 # <a name="configure-microsoft-defender-antivirus-features"></a>Microsoft Defender 바이러스 백신 기능 구성
 
@@ -37,6 +37,7 @@ ms.locfileid: "60201443"
 - 그룹 정책
 - PowerShell cmdlet
 - WMI(Windows Management Instrumentation)
+- [테넌트 연결](/mem/configmgr/tenant-attach/)
 
 다음과 같은 광범위한 기능 범주를 구성할 수 있습니다.
 

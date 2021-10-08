@@ -17,12 +17,12 @@ ms.topic: article
 ms.custom: nextgen
 ms.date: 09/17/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 4650bb23cd7b486ba608a47f99cdfa6cf5b05045
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2432677f1e4bb5faa8de7255e766124660fb7bbb
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213736"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240456"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성
 
@@ -32,7 +32,24 @@ ms.locfileid: "60213736"
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 - Microsoft Defender 바이러스 백신
 
-## <a name="summary"></a>요약
+Microsoft Defender 바이러스 백신 및 Windows Server 2016 Windows Server 2019에서 지정한 서버 역할에 정의된 특정 제외에 자동으로 등록합니다. 이러한 제외는 Windows 보안 앱에 표시되는 표준 제외 [목록에는 나타나지 않습니다.](microsoft-defender-security-center-antivirus.md)
+
+> [!NOTE]
+> 자동 제외는 RTP(실시간 보호) 검사에만 적용됩니다. 자동 제외는 전체/빠른 또는 수동 검사 중에 사용되지 않습니다.
+
+서버 역할 정의 자동 제외 외에도 사용자 지정 제외를 추가하거나 제거할 수 있습니다. 이렇게 하여 다음 문서를 참조합니다.
+- [파일 이름, 확장명 및 폴더 위치를 기반으로 제외 구성 및 유효성 검사](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
+- [프로세스에서 연 파일에 대한 제외 구성 및 유효성 검사](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
+
+## <a name="a-few-points-to-keep-in-mind"></a>유의해야 할 몇 가지 지점
+
+다음과 같은 중요한 점에 유의하십시오.
+
+- 사용자 지정 제외는 자동 제외보다 우선합니다.
+- 자동 제외는 RTP(실시간 보호) 검사에만 적용됩니다. 자동 제외는 전체/빠른 또는 수동 검사 중에 사용되지 않습니다.
+- 사용자 지정 및 중복 제외는 자동 제외와 충돌하지 않습니다.
+- Microsoft Defender 바이러스 백신 DISM(배포 이미지 서비스 및 관리) 도구를 사용하여 컴퓨터에 설치된 역할을 확인합니다.
+- 서버 역할에 대한 자동 제외는 R2에서 Windows Server 2012 않습니다.
 
 이 문서에서는 Microsoft Defender 바이러스 백신 이상에서 제외하는 Windows Server 2016 제공합니다.
 

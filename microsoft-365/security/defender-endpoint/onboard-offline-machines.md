@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c2d590445265d1189463312f969f7b8b57b5eed5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e490123a06c2384568e4aabe9119936ed618b2c2
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210892"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240487"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 인터넷 액세스 없이 장치 온보딩
 
@@ -54,7 +54,9 @@ ms.locfileid: "60210892"
 
 - 프록시 또는 허브 역할을 하게 Azure Log Analytics(이전의 OMS 게이트웨이)를 설치합니다.
   - [Azure Log Analytics 에이전트](/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
-  - [끝점 작업 영역 Microsoft Monitoring Agent MMA(Defender)](configure-server-endpoints.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint) 지점 설치 및 & ID
+  - [끝점 작업 영역 Microsoft Monitoring Agent MMA(Defender)](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma) 지점 설치 및 & ID
+
+[이전 버전의 Windows 온보딩](onboard-downlevel.md)
 
 - Azure Log Analytics의 동일한 네트워크에서 오프라인 장치
   - MMA를 구성하여:
@@ -63,15 +65,14 @@ ms.locfileid: "60210892"
 
 ## <a name="azure-virtual-machines"></a>Azure 가상 컴퓨터
 
-- [Azure Log Analytics 작업](/azure/azure-monitor/platform/gateway) 영역 구성 및 사용
-  - 프록시 또는 허브 역할을 하게 Azure Log Analytics Gateway(이전의 OMS 게이트웨이)를 설치합니다.
+- 프록시 또는 허브 역할을 하게 Azure Log Analytics Gateway(이전의 OMS 게이트웨이)를 설치합니다.
     - [Azure Log Analytics 게이트웨이](/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
-    - [끝점 작업 영역 Microsoft Monitoring Agent MMA(Defender)](configure-server-endpoints.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint) 지점 설치 및 & ID
-    - 동일한 OMS 게이트웨이 네트워크의 오프라인 Azure VM
-      - Azure Log Analytics IP를 프록시로 구성
-      - Azure Log Analytics 작업 영역 키 & ID
-    - Azure Defender
-      - [보안 정책 \> 로그 분석 작업 영역](/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
-      - [위협 감지 끝점에서 내 데이터에 액세스할 수 있도록 \> 허용](/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
+    - [끝점 작업 영역 Microsoft Monitoring Agent MMA(Defender)](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma) 지점 설치 및 & ID
+- 동일한 OMS 게이트웨이 네트워크의 오프라인 Azure VM
+    - Azure Log Analytics IP를 프록시로 구성
+    - Azure Log Analytics 작업 영역 키 & ID
+- Azure Defender
+    - [보안 정책 \> 로그 분석 작업 영역](/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
+    - [위협 감지 끝점에서 내 데이터에 액세스할 수 있도록 \> 허용](/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
 
-        자세한 내용은 보안 정책 [작업을 참조하세요.](/azure/security-center/tutorial-security-policy)
+    자세한 내용은 보안 정책 [작업을 참조하세요.](/azure/security-center/tutorial-security-policy)

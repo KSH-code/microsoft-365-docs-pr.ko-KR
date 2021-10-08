@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0a92cf747142dbb01908b1ea3931d9b7a6bfa115
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ac6aa01877b7b4968b01b5a16c931079e2b4360e
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159165"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239579"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -34,7 +34,7 @@ ms.locfileid: "60159165"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
-다음 기능은 Microsoft Defender for Endpoint의 최신 릴리스에서 미리 보기로 제공되거나 일반적으로 사용할 수 Windows 10 및 Windows 서버입니다.
+다음 기능은 미리 보기에 제공되거나 끝점용 Microsoft Defender의 최신 릴리스에서 GA(일반 제공)입니다.
 
 미리 보기 기능에 대한 자세한 내용은 미리 보기 [기능을 참조하세요.](preview.md)
 
@@ -59,7 +59,10 @@ ms.locfileid: "60159165"
 - [iOS의 끝점용 Defender의 새로운](ios-whatsnew.md)
 - [Linux의 끝점용 Defender의 새로운](linux-whatsnew.md)
 
+
 ## <a name="october-2021"></a>2021년 10월
+
+- [R2 및 Windows Server 2012 R2의 온보드 및 기능 패리티가 Windows Server 2016(미리 보기)](configure-server-endpoints.md)<br> 새로운 통합 솔루션 패키지를 사용하면 종속성 및 설치 단계를 제거하여 서버를 보다 쉽게 온보드할 수 있습니다. 또한 이 통합 솔루션 패키지에는 여러 가지 새로운 기능이 개선됩니다.
 
 - Windows 및 지원에 대한 Microsoft Defender에 추가된 11 Microsoft 365 Defender.
 

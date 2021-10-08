@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5894fa9fea9a6970981f1d1171af9097daa697e0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: bb1bf8d55cc2d4dfd1c2fd29a40641e8da159d9e
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209981"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240215"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>링에서 끝점용 Microsoft Defender 배포
 
@@ -83,18 +83,13 @@ ms.locfileid: "60209981"
 
 다음 표에는 지원되는 끝점과 장치를 서비스에 온보드하는 데 사용할 수 있는 해당 도구가 표시됩니다.
 
-<br>
-
-****
-
-|끝점|배포 도구|
-|---|---|
-|**Windows**|[로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <p> **참고:** 프로덕션 환경에 10개 이상의 장치를 배포하려는 경우 그룹 정책 방법이나 아래에 나열된 다른 지원되는 도구를 대신 사용합니다. <p> [그룹 정책](configure-endpoints-gp.md) <p> [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <p> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <p> [VDI 스크립트](configure-endpoints-vdi.md) <p> [Azure Defender와 통합](configure-server-endpoints.md#integration-with-azure-defender)|
-|**macOS**|[로컬 스크립트](mac-install-manually.md) <p> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <p> [JAMF Pro](mac-install-with-jamf.md) <p> [모바일 장치 관리](mac-install-with-other-mdm.md)|
-|**Linux Server**|[로컬 스크립트](linux-install-manually.md) <p> [Puppet](linux-install-with-puppet.md) <p> [Ansible](linux-install-with-ansible.md)|
-|**iOS**|[앱 기반](ios-install.md)|
-|**Android**|[Microsoft Endpoint Manager ](android-intune.md)|
-|
+| 끝점     | 배포 도구                       |
+|--------------|------------------------------------------|
+| **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br> 참고: 프로덕션 환경에 10개 이상의 장치를 배포하려는 경우 그룹 정책 방법이나 아래에 나열된 다른 지원되는 도구를 대신 사용합니다.<br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md) <br> [Azure Defender와 통합](configure-server-endpoints.md#integration-with-azure-defender)  |
+| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
+| **Linux Server** | [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
+| **iOS**      | [Microsoft Endpoint Manager ](ios-install.md)                                |
+| **Android**  | [Microsoft Endpoint Manager ](android-intune.md)               |
 
 ### <a name="full-deployment"></a>전체 배포
 

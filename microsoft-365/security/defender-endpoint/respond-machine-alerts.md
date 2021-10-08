@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 069fb6b29021f8008be9752dedd12ba81dcfef51
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b7aedad0c66544c24e572987c0d777aa0e02a92c
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156201"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240563"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -73,7 +73,7 @@ ms.locfileid: "60156201"
 
 자동화된 조사에 대한 자세한 내용은 [Overview of Automated investigations를 참조하십시오.](automated-investigations.md)
 
-## <a name="initiate-live-response-session"></a>실시간 응답 세션 시작
+## <a name="initiate-live-response-session"></a>라이브 응답 세션 시작
 
 실시간 응답은 원격 셸 연결을 사용하여 장치에 즉시 액세스할 수 있는 기능입니다. 이를 통해 심층 조사 작업을 수행하고 즉각적인 대응 조치를 취하여 식별된 위협을 실시간으로 즉시 포함할 수 있습니다.
 
@@ -133,10 +133,9 @@ ms.locfileid: "60156201"
 
 조사 또는 응답 프로세스의 일부로 원격으로 바이러스 백신 검색을 시작하여 손상된 장치에 있을 수 있는 맬웨어를 식별하고 수정하는 데 도움을 줄 수 있습니다.
 
-> [!IMPORTANT]
->
-> - 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
-> - A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
+>[!IMPORTANT]
+>- 이 작업은 Windows 10 Server 2019, Windows, Windows Server 2016 및 R2 버전 1709 이상에 있는 Windows Server 2012 사용할 수 있습니다.
+>- A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
 
 바이러스 백신 검사 실행을 선택한 경우 실행할 검사 유형(빠른 또는 전체)을 선택하고 스캔을 확인하기 전에 설명을 추가합니다.
 
@@ -155,9 +154,8 @@ ms.locfileid: "60156201"
 
 악의적인 프로세스를 중지하여 공격을 포함하는 것 외에도 장치를 잠그고 잠재적인 악성 프로그램이 실행되지 않도록 할 수도 있습니다.
 
-> [!IMPORTANT]
->
-> - 이 작업은 버전 1709 이상에서 Windows 10 장치에 사용할 수 있습니다.
+>[!IMPORTANT]
+> - 이 작업은 버전 1709 이상에서 Windows 10 장치에서 사용할 수 Windows Server 2016. 
 > - 이 기능은 조직에서 이 기능을 사용하는 Microsoft Defender 바이러스 백신.
 > - 이 작업은 응용 프로그램 제어 Windows Defender 정책 형식 및 서명 요구 사항을 충족해야 합니다. 자세한 내용은 코드 무결성 정책 형식 및 [서명을 참조하세요.](/windows/device-security/device-guard/requirements-and-deployment-planning-guidelines-for-device-guard#code-integrity-policy-formats-and-signing)
 
@@ -176,15 +174,17 @@ ms.locfileid: "60156201"
 
 ![앱 제한 이미지.](images/atp-app-restriction.png)
 
+>[!NOTE]
+>알림은 R2 및 Windows Server 2016 사용할 Windows Server 2012 없습니다.
+
 ## <a name="isolate-devices-from-the-network"></a>네트워크에서 장치 격리
 
 공격의 심각도 및 장치의 민감도에 따라 네트워크에서 장치를 격리할 수 있습니다. 이 작업은 공격자가 손상된 장치를 제어하고 데이터 유출 및 측면 이동과 같은 추가 작업을 수행하지 못하게 방지하는 데 도움이 될 수 있습니다.
 
-> [!IMPORTANT]
->
-> - Windows 10, 버전 1703, Windows Server 2019 및 Windows 디바이스에 대해 전체 Windows 사용할 수 있습니다.
-> - 선택적 고리 설정은 Windows 10 버전 1709 이상, Windows Server 2019 및 Windows Server 2022의 장치에서 사용할 수 있습니다.
-> - 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.
+>[!IMPORTANT]
+>- Windows 10, 버전 1703, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2 및 Windows Server 2022의 장치에서 전체 Windows 사용할 수 있습니다.
+>- 선택적 고리는 버전 1709 이상에서 Windows 10 디바이스에 사용할 수 있습니다.
+>- 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.
 
 이 장치 분리 기능은 손상된 디바이스를 네트워크에서 분리하는 동시에 디바이스를 계속 모니터링하는 Endpoint용 Defender 서비스에 대한 연결을 유지 관리합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: Configuration Manager를 Windows 장치 온보드
-description: Configuration Manager를 사용하여 디바이스가 서비스에 온보드될 수 있도록 디바이스에 구성 패키지를 배포합니다.
+description: Configuration Manager를 사용하여 끝점용 Defender 서비스에 온보딩할 수 있도록 장치에 구성 패키지를 배포합니다.
 keywords: sccm을 사용하여 장치 온보딩, 장치 관리, 끝점 장치용 Microsoft Defender 구성
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/22/2021
 ms.technology: mde
-ms.openlocfilehash: ff1863a24e352823fce6d1c9e57f228528cda016
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0faeb2039f0a66c014d0bb63e6bbc657206e3e16
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176886"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240203"
 ---
-# <a name="onboard-the-windows-devices-using-configuration-manager"></a>Configuration Manager를 Windows 장치 온보드
+# <a name="onboard-windows-devices-using-configuration-manager"></a>Configuration Manager를 Windows 장치 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,43 +35,16 @@ ms.locfileid: "60176886"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-configureendpointssccm-abovefoldlink)
 
-## <a name="supported-client-operating-systems"></a>지원되는 클라이언트 운영 체제
 
-실행 중인 Configuration Manager 버전에 따라 다음 클라이언트 운영 체제를 온보드할 수 있습니다.
+Configuration Manager를 사용하여 끝점을 Microsoft Defender for Endpoint 서비스에 온보딩할 수 있습니다. 
 
-- **Configuration Manager 버전 1910 및 이전**:
-  - 클라이언트 컴퓨터에서 Windows 10
-- **Configuration Manager 버전 2002 이상**:
+Configuration Manager를 사용하여 디바이스를 온보드하는 데 사용할 수 있는 몇 가지 옵션이 있습니다.
+- [장치를 사용하여 온보드 System Center Configuration Manager](/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection)
+- [테넌트 연결](/mem/configmgr/tenant-attach/)
 
-  Configuration Manager 버전 2002부터 다음 운영 체제를 온보드할 수 있습니다.
 
-  - Windows 8.1
-  - Windows 10
-  - Windows 11
-  - Windows Server 2012 R2
-  - Windows Server 2016
-  - Windows Server 2016 버전 1803 이상
-  - Windows Server 2019
-  - Windows Server 2022
 
-> [!NOTE]
-> Windows Server 2012 R2, Windows Server 2016, Windows Server 2019 및 Windows Server 2022를 온보드하는 방법에 대한 자세한 내용은 [onboard Windows servers을](configure-server-endpoints.md)참조하십시오.
-
-### <a name="onboard-devices-using-system-center-configuration-manager"></a>장치를 사용하여 온보드 System Center Configuration Manager
-
-[PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) Microsoft Defender for Endpoint 배포에서 다양한 경로를 확인할 수 있습니다.
-
-1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(WindowsDefenderATPOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
-    1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.
-    2. 운영 Windows 10 Windows 또는 11을 선택합니다.
-    3. 배포 **방법 필드에서** System Center Configuration Manager **2012/2012 R2/1511/1602 를 선택합니다.**
-    4. 패키지 **다운로드를** 선택하고 파일 .zip 저장합니다.
-
-2. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 .zip 공유 읽기 전용 위치로 파일 파일의 내용을 추출합니다. *이름이 WindowsDefenderATPOnboardingScript.cmd인 파일이 있습니다.*
-
-3. System Center [R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) 문서의 단계에 따라 패키지를 배포합니다.
-
-   패키지를 배포할 미리 정의한 장치 컬렉션을 선택하십시오.
+R2 Windows Server 2012 및 Windows Server 2016 - 온보더링 단계를 완료한 후 클라이언트 를 구성하고 System Center Endpoint Protection [합니다.](onboard-downlevel.md#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
 > Endpoint용 Defender는 [OOBE(첫 경험)](https://answers.microsoft.com/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) 단계에서 온보딩을 지원하지 않습니다. 설치 또는 업그레이드를 실행한 후 사용자가 OOBE를 Windows 합니다.
@@ -226,7 +199,6 @@ Value: "1"
 자세한 내용은 [System Center 2012 R2 Configuration Manager의](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))규정 준수 설정 소개를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
-
 - [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
 - [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
 - [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)

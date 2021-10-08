@@ -18,16 +18,18 @@ ms.collection:
 ms.topic: article
 ms.date: 09/23/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 94eb6e7bf031a9c59fa66eb24b64298ea9a0465c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 88225337d0c9edbae8185a34bd7d98378007c72a
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191734"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240575"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-group-policy-objects"></a>그룹 정책 개체를 사용하여 끝점용 Microsoft Defender 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+[!include[Prerelease information](../../includes/prerelease.md)]
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -41,6 +43,9 @@ ms.locfileid: "60191734"
 Azure Active Directory 도메인 서비스의 그룹 정책 개체를 사용하여 끝점용 Microsoft Defender의 일부 설정을 관리할 수 있습니다.
 
 ## <a name="configure-microsoft-defender-for-endpoint-with-group-policy-objects"></a>그룹 정책 개체를 사용하여 끝점에 대한 Microsoft Defender 구성
+
+> [!NOTE]
+> Windows Server 2012 R2 및 [2016에](/microsoft-365/security/defender-endpoint/configure-server-endpoints#new-functionality-in-the-modern-unified-solution-for-windows-server-2012-r2-and-2016-preview)대해 통합된 새로운 통합 Microsoft Defender for Endpoint 솔루션을 사용하는 경우 중앙 저장소에서 최신 ADMX 파일을 사용하여 올바른 Microsoft Defender 정책 옵션에 액세스하는지 확인합니다. 에서 [그룹](/troubleshoot/windows-client/group-policy/create-and-manage-central-store) 정책 관리 템플릿에 대한 중앙 저장소를 만들고 관리하는 방법을 참조하고 Windows 에서 사용할 최신 파일을 **Windows 10.** 
 
 다음 표에는 그룹 정책 개체를 사용하여 끝점용 Microsoft Defender를 구성하기 위해 수행할 수 있는 다양한 작업이 나열됩니다.
 

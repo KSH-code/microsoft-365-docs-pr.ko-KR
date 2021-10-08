@@ -16,12 +16,12 @@ ms.technology: mde
 ms.topic: article
 ms.date: 08/05/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: df73543f0aaf5ac03508e6239e850f7a8d3034c9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2b2545205af25a07fc8addab4818e603c18ff846
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210952"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240071"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Windows Server의 Microsoft Defender 바이러스 백신
 
@@ -36,9 +36,10 @@ Microsoft Defender 바이러스 백신 서버의 다음 버전/버전에서 사�
 - Windows Server 2019
 - Windows Server 2022
 - Windows 서버, 버전 1803 이상
-- Windows Server 2016.
+- Windows Server 2016
+- Windows Server 2012 R2(끝점용 Microsoft Defender 필요)
 
-경우에 따라 Microsoft Defender 바이러스 백신 라고도 *Endpoint Protection.* 그러나 보호 엔진은 동일합니다. Microsoft Defender 바이러스 백신 구성 및 관리는 거의 동일하기는 [](microsoft-defender-antivirus-in-windows-10.md)하지만 Windows 10 Server에서 몇 가지 주요 Windows 있습니다.
+경우에 따라 Microsoft Defender 바이러스 백신 라고도 *Endpoint Protection.* 그러나 보호 엔진은 동일합니다. Microsoft Defender 바이러스 백신 구성 및 관리는 거의 동일하기는 [](microsoft-defender-antivirus-windows.md)하지만 Windows 10 Server에서 몇 가지 주요 Windows 있습니다.
 
 - Windows 서버 역할에 [](configure-server-exclusions-microsoft-defender-antivirus.md) 따라 자동 제외가 적용됩니다.
 
@@ -61,6 +62,11 @@ Microsoft Defender 바이러스 백신 서버의 다음 버전/버전에서 사�
 기본적으로 Microsoft Defender 바이러스 백신 서버에서 설치 및 Windows 있습니다. GUI(사용자 인터페이스)가 기본적으로 설치되지만 GUI가 필요하지 않은 경우도 있습니다. PowerShell, 그룹 정책 또는 기타 방법을 사용하여 그룹 정책을 관리할 Microsoft Defender 바이러스 백신.
 
 GUI가 서버에 설치되어 있지 않은 경우 역할 및 기능 추가  마법사 또는 PowerShell cmdlet을 설치합니다.
+
+
+
+>[!NOTE]
+>이 옵션은 R2에서 사용할 Windows Server 2012 없습니다. 자세한 내용은 [끝점용 Microsoft Defender를 설치하는 옵션을 참조하세요.](configure-server-endpoints.md#options-to-install-microsoft-defender-for-endpoint)
 
 ### <a name="turn-on-the-gui-using-the-add-roles-and-features-wizard"></a>역할 및 기능 추가 마법사를 사용하여 GUI 켜기
 
@@ -182,6 +188,10 @@ sc query Windefend
 |**3**  -  **모든 샘플 자동 보내기**|Microsoft Defender 바이러스 백신 서비스는 확인 메시지를 표시하지 않고 모든 파일을 전송합니다.|
 |
 
+>[!NOTE]
+>이 옵션은 R2에서 사용할 Windows Server 2012 없습니다. 
+
+
 ## <a name="configure-automatic-exclusions"></a>자동 제외 구성
 
 보안 및 성능을 보장하기 위해 Microsoft Defender 바이러스 백신 또는 2019 또는 Windows Server 2016 Server 2022에서 Microsoft Defender 바이러스 백신 사용할 때 설치하는 역할 및 기능에 따라 특정 제외가 Windows 추가됩니다.
@@ -192,21 +202,20 @@ Microsoft Defender 바이러스 백신 서버에서 제외 Windows [참조합니
 
 Windows Server에서 Microsoft가 아닌 바이러스 백신 제품을 기본 바이러스 백신 솔루션으로 사용하는 경우 Microsoft Defender 바이러스 백신 모드 또는 비활성화 모드로 설정해야 합니다.
 
-- Windows Server, 버전 1803 이상 또는 Windows Server 2019 또는 Windows Server 2022에서 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다. 다음 섹션을 참조하세요.
-  - [레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정](#set-microsoft-defender-antivirus-to-passive-mode-using-a-registry-key)
-  - [역할 Microsoft Defender 바이러스 백신 제거 마법사를 사용하여 사용자 설정을 사용하지 않도록 설정](#disable-microsoft-defender-antivirus-using-the-remove-roles-and-features-wizard)
-  - [PowerShell을 Microsoft Defender 바이러스 백신 사용자 인터페이스 끄기](#turn-off-the-microsoft-defender-antivirus-user-interface-using-powershell)
+자세한 내용은 [Install Microsoft Defender 바이러스 백신 on Windows 참조하십시오.](microsoft-defender-antivirus-on-windows-server.md#install-microsoft-defender-antivirus-on-windows-server)
 
-- 이 Windows Server 2016 Microsoft가 Microsoft Defender 바이러스 백신 맬웨어 방지 제품과 함께 지원되지 않습니다. 이러한 경우 이 모드를 사용하지 않도록 Microsoft Defender 바이러스 백신 설정해야 합니다. 자세한 [내용은 2016년](#uninstalling-or-disabling-microsoft-defender-antivirus-on-windows-server-2016) 8월 1일의 Microsoft Defender 바이러스 백신 또는 Windows Server 2016
 
 ### <a name="set-microsoft-defender-antivirus-to-passive-mode-using-a-registry-key"></a>레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정
 
-Windows Server, 버전 1803 또는 Windows Server 2019 또는 Windows Server 2022를 사용하는 경우 다음 레지스트리 키를 설정하여 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다.
-
+다음 레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다.
 - 경로: `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`
 - 이름: `ForceDefenderPassiveMode`
 - 유형: `REG_DWORD`
 - 값: `1`
+
+
+
+
 
 ### <a name="disable-microsoft-defender-antivirus-using-the-remove-roles-and-features-wizard"></a>역할 Microsoft Defender 바이러스 백신 제거 마법사를 사용하여 사용자 설정을 사용하지 않도록 설정
 
@@ -226,9 +235,10 @@ GUI를 Microsoft Defender 바이러스 백신 다음 PowerShell cmdlet을 사용
 Uninstall-WindowsFeature -Name Windows-Defender-GUI
 ```
 
-### <a name="uninstalling-or-disabling-microsoft-defender-antivirus-on-windows-server-2016"></a>2016에서 Microsoft Defender 바이러스 백신 또는 Windows Server 2016
+### <a name="are-you-using-windows-server-2012-r2-or-windows-server-2016"></a>R2 또는 Windows Server 2012 사용 Windows Server 2016?
 
-Microsoft가 아닌 Windows Server 2016 맬웨어 방지/바이러스 백신 제품을 사용하는 경우 해당 제품을 사용하지 않도록 설정하거나 제거해야 Microsoft Defender 바이러스 백신. 다음 방법 중 하나를 사용할 수 있습니다.
+이제 R2 및 Microsoft Defender 바이러스 백신 수동 모드에서 Windows Server 2012 실행할 수 Windows Server 2016. 자세한 내용은 [끝점용 Microsoft Defender를 설치하는 옵션을 참조하세요.](configure-server-endpoints.md#options-to-install-microsoft-defender-for-endpoint)
+
 
 <br>
 
@@ -242,7 +252,8 @@ Microsoft가 아닌 Windows Server 2016 맬웨어 방지/바이러스 백신 제
 |PowerShell을 Microsoft Defender 바이러스 백신 제거|다음 PowerShell cmdlet을 사용 합니다. `Uninstall-WindowsFeature -Name Windows-Defender`|
 |
 
-## <a name="see-also"></a>참고 항목
 
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
+## <a name="see-also"></a>참고 항목
+- [Microsoft Defender 바이러스 백신 서버에 Windows 설치]()
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-windows.md)
 - [Microsoft Defender 바이러스 백신 호환성](microsoft-defender-antivirus-compatibility.md)

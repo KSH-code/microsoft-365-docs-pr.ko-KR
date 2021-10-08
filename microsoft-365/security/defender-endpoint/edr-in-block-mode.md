@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 41c51657d748ef1503c5540b1162d7ea43722b9f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 25b5aa85bc11cf7819c6a878aebdf2cbcdeeb237
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205550"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239867"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 EDR(엔드포인트 감지 및 대응)
 
@@ -90,7 +90,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 > [!IMPORTANT]
 > 최상의 보호 값을 얻기 위해 정기적인 업데이트 및 필수 기능을 받도록 바이러스 백신 솔루션이 구성되어 있는지, 그리고 제외가 구성되어 [있는지 확인합니다.](configure-exclusions-microsoft-defender-antivirus.md) EDR 모드는 끝점용 Microsoft Defender에 대해 정의된 Microsoft Defender 바이러스 백신 제외를 존중합니다. [](manage-indicators.md)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="do-i-need-to-turn-edr-in-block-mode-on-if-i-have-microsoft-defender-antivirus-running-on-devices"></a>장치에서 실행 중인 EDR 차단 모드에서 Microsoft Defender 바이러스 백신 설정해야 하나요?
 
@@ -126,7 +126,7 @@ Windows 10, Windows Server, 버전 1803 이상, Windows Server 2019 또는 Windo
 
 <br/><br/>
 
-|방법|절차|
+|메서드|절차|
 |---|---|
 |PowerShell|<ol><li>선택 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 .</li><li>`Get-MpComputerStatus`(을)를 입력합니다.</li><li>결과 목록의 **AMRunningMode** 행에서 다음 값 중 하나를 검색합니다.<ul><li>`Normal`</li><li>`Passive Mode`</li></ul></li></ol> <p> 자세한 내용은 [Get-MpComputerStatus 를 참조합니다.](/powershell/module/defender/get-mpcomputerstatus)|
 |명령 프롬프트|<ol><li>명령 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 명령 `Command Prompt` Windows 열 수 있습니다.</li><li>`sc query windefend`(을)를 입력합니다.</li><li>결과 목록의 **STATE** 행에서 서비스가 실행 중인지 선택합니다.</li></ol>|
@@ -149,15 +149,14 @@ PowerShell을 사용하여 수동 모드에서 EDR 설정되어 있는지 확인
 활성 Microsoft Defender 바이러스 백신 수동 모드로 실행 중인 경우 EDR 모드로 설정하면 다음 버전의 Windows.
 
 - Windows 10(모든 릴리스)
-- Windows 서버, 버전 1803 이상
-- Windows Server 2019
+- Windows 서버, 버전 1803 이상 
 - Windows Server 2022
+- Windows Server 2019 
+- Windows Server 2016
+- Windows Server 2012 R2
 
-#### <a name="what-about-windows-server-2016"></a>어떤 Windows Server 2016?
-
-Windows Server 2016 모드로 Microsoft Defender 바이러스 백신 끝점이 Endpoint용 Defender에 온보딩된 경우 기술적으로 EDR 모드로 실행됩니다. 그러나 EDR 모드는 끝점에서 기본 바이러스 백신 솔루션이 아닌 Microsoft Defender 바이러스 백신 추가 보호를 위해 고안된 것입니다. 이러한 경우 수동 Microsoft Defender 바이러스 백신 실행됩니다.
-
-현재 수동 Microsoft Defender 바이러스 백신 모드로 실행되는 것은 지원되지 Windows Server 2016. 자세한 내용은 수동 모드 및 Windows [서버](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server) 및 Microsoft Defender 바이러스 백신 [호환성을 참조합니다.](microsoft-defender-antivirus-compatibility.md)
+>[!NOTE]
+>Windows Server 2016 및 Windows Server 2012 R2는 이 기능이 작동하려면 Windows 서버의 [](configure-server-endpoints.md) 지침을 사용하여 온보드해야 합니다. 
 
 ### <a name="how-much-time-does-it-take-for-edr-in-block-mode-to-be-disabled"></a>차단 모드에서 EDR 데 얼마나 걸릴까요?
 

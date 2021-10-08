@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 775db5f94cacbca08993b0cb9aac67019515174a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9d403005c66a636e5e485fb396d055b5d94b4106
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210032"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239855"
 ---
 # <a name="onboard-non-windows-devices"></a>Windows가 아닌 장치 온보딩
 
@@ -68,8 +68,7 @@ macOS 및 Linux 장치의 경우 끝점용 Microsoft Defender를 통해 오프�
 타사 통합을 Windows 비보안 장치를 오프보드할 수 있습니다. 타사 솔루션을 통합하여 Windows 플랫폼을 실행하는 장치에 대해 적용 [범위를 사용하도록 설정](https://securitycenter.windows.com/interoperability/partners) 
 
 ## <a name="related-topics"></a>관련 항목
-
-- [장치 Windows 온보드](configure-endpoints.md)
+- [그룹 정책을 통한 Windows 장치 온보딩](configure-endpoints.md)
 - [서버 온보드](configure-server-endpoints.md)
 - [프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

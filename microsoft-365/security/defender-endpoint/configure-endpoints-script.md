@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c00130dba6dcb742ff3f321d7a51edcbfb378f62
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 74e0289c2233a4df1a4e9810a31e960a49078177
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205682"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239843"
 ---
-# <a name="onboard-the-windows-devices-using-a-local-script"></a>로컬 스크립트를 Windows 장치 온보딩
+# <a name="onboard-windows-devices-using-a-local-script"></a>로컬 스크립트를 Windows 장치 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +37,13 @@ ms.locfileid: "60205682"
 >
 > 대규모로 배포하기 위해 다른 [배포 옵션을 사용하세요.](configure-endpoints.md) 예를 들어 그룹 정책을 사용하여 온보딩 스크립트를 온보딩 장치에서 사용할 수 있는 스크립트를 사용하여 프로덕션의 10개가 넘는 디바이스에 [배포할 Windows 있습니다.](configure-endpoints-gp.md)
 
-## <a name="onboard-devices"></a>온보딩 장치
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) 또는 Visio [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다. 
+
+## <a name="onboard-devices"></a>온보딩 장치 
+
+1.  서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. Defender 포털에서 [패키지를 Microsoft 365 있습니다.](https://security.microsoft.com/)
+
+    1. 탐색 창에서 **끝점 설정**  >  **관리**  >    >  **온보더링** 을 선택합니다.
 
 
 [PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
@@ -131,7 +137,6 @@ Value: 0 or 1
 3. 장치가 나타나는지 확인
 
 ## <a name="related-topics"></a>관련 항목
-
 - [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
 - [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)

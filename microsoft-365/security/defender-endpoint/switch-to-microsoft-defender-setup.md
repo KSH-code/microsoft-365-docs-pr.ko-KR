@@ -21,12 +21,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 09/23/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 5d4e81f78d0ad3f692fcce64f397914eb61d56e2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 15dfa857187ef83d7fb5a297b4e83d4d97fafb2c
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159357"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239639"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -88,7 +88,7 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 > - Windows Server 2019
 > - Windows Server 2022
 > - Windows 서버, 버전 1803(핵심 전용 모드)
-> - Windows Server 2016 (다음 섹션, 현재 사용 [중입니까?](#are-you-using-windows-server-2016)Windows Server 2016 참조).
+> - Windows Server 2016(다음 섹션, 현재 사용 [중이십니까? Windows Server 2016.](#are-you-using-windows-server-2012-r2-or-windows-server-2016)
 
 1. 끝점 또는 디바이스의 로컬 관리자로서 관리자 권한으로 Windows PowerShell.
 
@@ -128,35 +128,9 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 > [!NOTE]
 > Endpoint용 Defender에 온보딩한 후 Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 있습니다. 수동 모드가 예상대로 설정되어 있는지 확인하려면 **Microsoft-Windows-Windows Defender** 작업 로그()에서 이벤트 *5007을* 검색하고 `C:\Windows\System32\winevt\Logs` **ForceDefenderPassiveMode** 또는 **PassiveMode** 레지스트리 키가 에 의해 0x1.
 
-### <a name="are-you-using-windows-server-2016"></a>사용 중이 Windows Server 2016?
+### <a name="are-you-using-windows-server-2012-r2-or-windows-server-2016"></a>R2 또는 Windows Server 2012 사용 Windows Server 2016?
 
-현재는 수동 모드에서 Microsoft Defender 바이러스 백신 실행할 수 Windows Server 2016. Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션을 제거하고 설치/Microsoft Defender 바이러스 백신. 사용자 설정에 문제가 있는 경우 Microsoft Defender 바이러스 백신 Windows Server 2016 다음 단계를 따르세요.
-
-1. 장치에서 관리자 권한으로 PowerShell을 여는 것입니다.
-
-2. 다음 PowerShell cmdlet을 `mpcmdrun -wdenable` 입력합니다. .
-
-> [!TIP]
-> 자세한 내용은 다음 문서를 참조하세요.
->
-> - [Windows Server의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md)
-> - [Microsoft Defender 바이러스 백신 제품과의 호환성](microsoft-defender-antivirus-compatibility.md)
-
-### <a name="confirm-that-microsoft-defender-antivirus-is-enabled"></a>사용 Microsoft Defender 바이러스 백신 확인
-
-다음 표에 설명된 여러 방법 중 하나를 사용하여 Microsoft Defender 바이러스 백신 상태를 확인할 수 있습니다.
-
-<br/><br/>
-
-|방법|절차|
-|---|---|
-|Windows 보안 앱| 1. Windows 디바이스에서 Windows 보안 를 니다.<br/><br/>2. 바이러스 **백신 & 보호를 선택합니다.**<br/><br/>3. Who **보호에서** 공급자 **관리를 선택합니다.** 보안 공급자 **페이지의** 바이러스 백신 **아래에서** 을(를) Microsoft Defender 바이러스 백신 **표시됩니다.**|
-|작업 관리자|1. Windows 디바이스에서 작업 관리자 앱을 니다.<br/><br/>2. 세부 정보 **탭을** 선택합니다.<br/><br/>3. **목록에서** MsMpEng.exe찾아야 합니다.|
-|Windows PowerShell <br/><br/> (실행 중인 Microsoft Defender 바이러스 백신 확인)|1. Windows 장치에서 Windows PowerShell.<br/><br/>2. 다음 PowerShell cmdlet을 `Get-Process` 실행합니다. .<br/><br/>3. 결과를 검토합니다. 활성화된 **MsMpEng.exe** 경우 Microsoft Defender 바이러스 백신 표시됩니다.|
-|Windows PowerShell <br/> (바이러스 백신 보호가 실행 중이지 확인)|[Get-MpComputerStatus PowerShell cmdlet을 사용할 수 있습니다.](/powershell/module/defender/get-mpcomputerstatus) <br/><br/>1. Windows 장치에서 Windows PowerShell.<br/><br/>2. 다음 PowerShell cmdlet을 `Get-MpComputerStatus|select AMRunningMode` 실행합니다. .<br/><br/>3. 결과를 검토합니다. 끝점에서 사용할 **수** **있는** Microsoft Defender 바이러스 백신 일반 또는 수동이 표시됩니다.|
-
-> [!TIP]
-> [자세한 내용은 Microsoft Defender 바이러스 백신 을(를) 자세히 알아보아야 합니다.](microsoft-defender-antivirus-compatibility.md#more-details-about-microsoft-defender-antivirus-states)
+이제 위의 메서드를 Microsoft Defender 바이러스 백신 R2 및 2016에서 Windows Server 2012 수동 모드로 실행할 수 있습니다. 자세한 내용은 [끝점용 Microsoft Defender를 설치하는 옵션을 참조하세요.](configure-server-endpoints.md#options-to-install-microsoft-defender-for-endpoint)
 
 ## <a name="configure-defender-for-endpoint"></a>엔드포인트용 Defender 구성
 
@@ -183,13 +157,10 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 
 구성할 특정 제외는 끝점 또는 장치가 Windows 버전에 따라 달라지며 다음 표에 나열되어 있습니다.
 
-<br><br/>
-
-|OS|제외|
-|---|---|
-|Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 또는 Windows 11(Windows 10 [릴리스 정보](/windows/release-health/release-information)참조) <p> Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <p> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019), Windows Server 2022 <p> [Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803)|`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe` <p> `C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`|
-|[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) <p> [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p> [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)|`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe` <p> **참고:** 호스트 임시 파일 6\45 모니터링은 번호가 매기기된 하위 폴더가 다를 수 있습니다. <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe` <p> `C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe`|
-
+|OS |제외 |
+|--|--|
+|Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 이상(릴리스 정보 Windows 10 [참조)](/windows/release-health/release-information)<br/>Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <br/> Windows 11<br/>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019) <br/> Windows Server 2022 <br/>[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<br/>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>[Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`<br/>  |
+|[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <br/>[Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe`<br/>**참고:** 호스트 임시 파일 6\45 모니터링은 번호가 매기기된 하위 폴더가 다를 수 있습니다. <br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe` |
 
 ## <a name="add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus"></a>기존 솔루션을 기존 솔루션의 제외 목록에 Microsoft Defender 바이러스 백신
 

@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: f7d663dc403d3323bf1dd1fa0ba210c26433cee1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9e4899aa2e1719139c211a00c247a19023d109ea
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210356"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239683"
 ---
 # <a name="microsoft-cloud-for-it-architects-illustrations"></a>IT 설계자용 Microsoft 클라우드 그림
 
@@ -50,7 +50,7 @@ Microsoft 클라우드 서비스 및 플랫폼의 보안과 관련하여 IT 설�
   
 | 항목 | 설명 |
 |:-----|:-----|
-|[![엔터프라이즈 설계자 모델 축소판 그림을 위한 Microsoft 클라우드 보안.](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf) <br/> [PDF](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf)  \| <br/>2021년 4월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다. <ul><li>Microsoft 및 고객 보안 책임</li><li>ID 및 장치 액세스</li><li>위협 방지</li><li>정보 보호 </ul><br/>|
+|[![엔터프라이즈 설계자 모델 축소판 그림을 위한 Microsoft 클라우드 보안.](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security.pdf) <br/> [PDF](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security.pdf)  \| <br/>2021년 10월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다. <ul><li>Microsoft 및 고객 보안 책임</li><li>ID 및 장치 액세스</li><li>위협 방지</li><li>정보 보호 </ul><br/>|
    
 <a name="networking"></a>
 ### <a name="microsoft-cloud-networking-for-it-architects"></a>IT 설계자용 Microsoft 클라우드 네트워킹

@@ -17,12 +17,12 @@ ms.technology: mde
 ms.topic: how-to
 ms.date: 08/17/2021
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 2b399e306e766a4bb1d723bd93ed22d88a72c55b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5ef41d825b8f375377a6307a0a4de8f69c5737df
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174894"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240587"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
@@ -46,6 +46,8 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 - Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
+- [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2) 
 - Windows Server 2022
 
 공격 표면 감소 규칙의 전체 기능 집합을 사용하려면 다음이 필요합니다.

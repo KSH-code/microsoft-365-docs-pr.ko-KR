@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 493a76d430f508976ba261d9e78bb4b8087be15e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e6e8d03002675ce3c4b9c1e79f0a340f64633036
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60211168"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239651"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 
@@ -50,7 +50,10 @@ ms.locfileid: "60211168"
 
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
 
-- Windows 11, Windows 10 버전 1703 이상, Windows Server 2016, 2019 및 Windows Server 2022가 있는 장치에서 지원됩니다.
+- Windows 10 버전 1703 이상, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2 및 Windows Server 2022가 있는 장치에서 지원됩니다.
+    
+   >[!NOTE]
+    >Windows Server 2016 및 Windows Server 2012 R2는 이 기능이 작동하려면 Windows 서버의 [](configure-server-endpoints.md#windows-server-2012-r2-and-windows-server-2016) 지침을 사용하여 온보드해야 합니다. 
 
 - 파일 차단을 시작하려면 먼저 파일 차단에서 "차단 또는 [허용"](advanced-features.md) 기능을 켜야 설정.
 

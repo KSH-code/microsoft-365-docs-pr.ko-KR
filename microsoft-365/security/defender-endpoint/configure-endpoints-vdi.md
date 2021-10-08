@@ -17,15 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/22/2021
 ms.technology: mde
-ms.openlocfilehash: 9d64ee92d543fd10bfaa706998aa5c0bf61110e9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 86332ff7e9a5a9dc08d5bb278ea856990e4cb0c6
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210008"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240323"
 ---
-# <a name="onboarding-non-persistent-virtual-desktop-infrastructure-devices"></a>비영구적 가상 데스크톱 인프라 장치 온보드
-
+# <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-in-microsoft-365-defender"></a>영구적이지 않은 VDI(가상 데스크톱 인프라) 장치를 Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +36,7 @@ ms.locfileid: "60210008"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-configvdi-abovefoldlink)
 
-## <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
+## <a name="onboarding-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보드
 
 Endpoint용 Defender는 비영구 VDI 세션 온보딩을 지원합니다.
 
@@ -62,11 +61,17 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 ### <a name="for-windows-10-or-windows-11-or-windows-server-2019-or-windows-server-2022"></a>Windows 10 또는 Windows 11 또는 Windows Server 2019 또는 Windows Server 2022의 경우
 
-1. 서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 다음 포털에서 패키지를 [Microsoft 365 Defender 있습니다.](https://security.microsoft.com/)
-   1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.
-   2. 운영 Windows 10 Windows 또는 11을 선택합니다.
-   3. 배포 **방법 필드에서** 비영구 끝점에 **대한 VDI 온보딩 스크립트를 선택합니다.**
-   4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
+1.  서비스 온보더링 마법사에서 .zip 다운로드한 *VDI* 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 다음 포털에서 패키지를 [Microsoft 365 Defender 있습니다.](https://security.microsoft.com/)
+
+    1. 탐색 창에서 **끝점 설정**  >  **관리**  >    >  **온보더링** 을 선택합니다.
+
+    1. 운영 체제를 선택합니다.
+
+    1.  배포 **방법 필드에서** 비영구 끝점에 **대한 VDI 온보딩 스크립트를 선택합니다.**
+
+    1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
+
+2. .zip 파일에서 추출한 WindowsDefenderATPOnboardingPackage 폴더의 파일을 경로 아래에 있는 골든/마스터 이미지로 `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 복사합니다. 
 
 2. .zip 파일에서 추출한 WindowsDefenderATPOnboardingPackage 폴더의 파일을 경로 아래에 있는 골든/마스터 이미지로 `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` 복사합니다.
     1. 각 디바이스에 대해 여러 항목을 구현하는 경우 각 세션에 대해 하나씩 WindowsDefenderATPOnboardingScript.cmd를 복사합니다.
@@ -120,7 +125,7 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
     reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging" /v VDI /t REG_SZ /d "NonPersistent" /f
     ```
 
-2. 서버 [온보더링 프로세스를 따르는 경우.](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016)
+2. 서버 [온보더링 프로세스를 따르는 경우.](configure-server-endpoints.md) 
 
 ## <a name="updating-non-persistent-virtual-desktop-infrastructure-vdi-images"></a>비영구적 VDI(가상 데스크톱 인프라) 이미지 업데이트
 
@@ -165,7 +170,6 @@ DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문�
 5. 평소와 처럼 골든/마스터 이미지를 다시 비우는 것이 가장 까다로워질 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
-
 - [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
 - [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)

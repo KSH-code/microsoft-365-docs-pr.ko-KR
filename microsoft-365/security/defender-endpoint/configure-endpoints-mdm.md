@@ -1,6 +1,6 @@
 ---
 title: 모바일 Windows 도구를 사용하여 장치 온보드
-description: 모바일 장치 관리 도구를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
+description: 모바일 장치 관리 도구를 사용하여 끝점용 Defender 서비스에 온보딩할 수 있도록 장치에 구성 패키지를 배포합니다.
 keywords: mdm을 사용하여 장치 온보딩, 장치 관리, Endpoint 장치용 Microsoft Defender 온보딩, mdm
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -14,14 +14,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6aaa510df9b3155015979f4d3a5278c601b56223
-ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
+ms.openlocfilehash: a92b663eeddfcfb8ccf17bad204074764711685d
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60217129"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239880"
 ---
-# <a name="onboard-the-windows-devices-using-mobile-device-management-tools"></a>모바일 Windows 도구를 사용하여 디바이스 온보드
+# <a name="onboard-windows-devices-using-mobile-device-management-tools"></a>모바일 Windows 도구를 사용하여 장치 온보드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -31,7 +31,8 @@ ms.locfileid: "60217129"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-configureendpointsmdm-abovefoldlink)
 
-MDM(모바일 장치 관리) 솔루션을 사용하여 장치를 구성할 수 있습니다. Endpoint용 Defender는 장치 관리 정책을 만들 수 있는 OMA-URIs MDM을 지원합니다.
+MDM(모바일 장치 관리) 솔루션을 사용하여 모바일 장치를 구성할 Windows 10 있습니다. Endpoint용 Defender는 장치 관리 정책을 만들 수 있는 OMA-URIs MDM을 지원합니다.
+
 
 Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedThreatProtection CSP](https://msdn.microsoft.com/library/windows/hardware/mt723296(v=vs.85).aspx) 및 [WindowsAdvancedThreatProtection DDF 파일](https://msdn.microsoft.com/library/windows/hardware/mt723297(v=vs.85).aspx)을 참조하세요.
 
@@ -94,7 +95,6 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
 > 오프보더링을 통해 디바이스가 포털에 센서 데이터 전송을 중지하지만, 디바이스에서 전송한 모든 경고에 대한 참조를 포함하여 장치의 데이터는 최대 6개월 동안 보존됩니다.
 
 ## <a name="related-topics"></a>관련 항목
-
 - [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
 - [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)

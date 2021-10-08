@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: 그룹 및 Microsoft 365 정보를 얻을 수 있는 그룹 보고서를 얻습니다.
-ms.openlocfilehash: 62d2ed90a29a75062dcce98346aa5ed3f5460428
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 332ffc9c570994de364f6559218d7bfa78d532db
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157341"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240335"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 365 그룹
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft 365 그룹 보고서에서 조직의 그룹 활동에 대한 정보를 얻고 만들어지고 사용되는 그룹 수를 볼 수 있습니다.
   
 > [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
+> 보고서를 보기 위해 Microsoft 365, Azure의 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자 비즈니스용 Skype 합니다.  
   
 ## <a name="how-to-get-to-the-groups-report"></a>그룹 보고서에 도착하는 방법
 

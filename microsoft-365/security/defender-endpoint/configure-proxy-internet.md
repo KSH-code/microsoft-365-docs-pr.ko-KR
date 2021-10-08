@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 68d69f45820dd014ead07a7a9f2f6bbcb82a7d3a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 42f21f27e30cc4a2bc4af5a2ecefd07c7353d96a
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60186623"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240227"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -186,7 +186,7 @@ netsh winhttp reset proxy
 
 ### <a name="microsoft-monitoring-agent-mma---proxy-and-firewall-requirements-for-older-versions-of-windows-client-or-windows-server"></a>Microsoft Monitoring Agent(MMA) - 이전 버전의 Windows 클라이언트 또는 Windows Server에 대한 프록시 및 방화벽 요구 사항
 
-아래 정보에는 Windows 7 SP1, Windows 8.1, Windows Server 2008 R2, Windows Server 2012 R2 및 이전 버전의 Windows 버전에 대한 Log Analytics 에이전트(Microsoft Monitoring Agent라고도임)와 통신하는 데 필요한 프록시 및 방화벽 구성 정보가 Windows Server 2016.
+아래 정보에는 Windows 7 SP1, Windows 8.1 및 Windows Server 2008 R2* 등의 이전 버전의 Windows에 대해 Log Analytics 에이전트(Microsoft Monitoring Agent라고도임)와 통신하는 데 필요한 프록시 및 방화벽 구성 정보가 나열되어 있습니다.
 
 <br>
 
@@ -199,6 +199,9 @@ netsh winhttp reset proxy
 |*.blob.core.windows.net|포트 443|아웃바운드|예|
 |*.azure-automation.net|포트 443|아웃바운드|예|
 
+>[!NOTE]
+>*이러한 연결 요구 사항은 MMA가 필요한 Windows Server 2016 및 Windows Server 2012 R2용 이전의 Microsoft Defender for Endpoint에도 적용됩니다. 새 통합 솔루션으로 이러한 운영 체제를 온보딩하는 지침은 [온보딩](configure-server-endpoints.md)Windows 서버 또는 [끝점용 Microsoft Defender의](/microsoft-365/security/defender-endpoint/server-migration)서버 마이그레이션 시나리오에서 새 연결되지 않은 솔루션으로 마이그레이션하는 것입니다.
+
 > [!NOTE]
 > 클라우드 기반 솔루션으로 IP 범위는 변경될 수 있습니다. DNS 확인할 수 있는 설정으로 이동하는 것이 좋습니다.
 
@@ -206,7 +209,7 @@ netsh winhttp reset proxy
 
  이전 버전의 MMA(Microsoft Monitoring Agent)를 사용할 때 특정 환경에 대한 와일드카드(*) 요구 사항을 Windows.
 
-1. MMA(Microsoft Monitoring Agent)를 통해 이전 운영 체제를 끝점용 Defender에 온보딩합니다(자세한 내용은 [Endpoint용 Defender](https://go.microsoft.com/fwlink/p/?linkid=2010326) 및 Windows 서버에 이전 버전의 Windows [온보딩을 참조하세요.](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016)
+1.  MMA(Microsoft Monitoring Agent)를 통해 이전 운영 체제를 끝점용 Defender에 온보딩합니다(자세한 내용은 [Endpoint용 Defender](https://go.microsoft.com/fwlink/p/?linkid=2010326) 및 Windows 서버에 이전 버전의 Windows [온보딩을 참조하세요.](configure-server-endpoints.md)
 
 2. 컴퓨터의 포털에 보고하는 Microsoft 365 Defender 합니다.
 
@@ -275,5 +278,5 @@ netsh winhttp reset proxy
 
 - [Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)
 - [그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신](use-group-policy-microsoft-defender-antivirus.md)
-- [장치 Windows 온보드](configure-endpoints.md)
+- [그룹 정책을 통한 Windows 장치 온보딩](configure-endpoints.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

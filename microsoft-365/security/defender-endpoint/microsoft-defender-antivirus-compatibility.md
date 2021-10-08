@@ -17,19 +17,19 @@ manager: dansimp
 ms.technology: mde
 ms.date: 09/14/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 769c8519fa2967b317bd266d143153c28b269b98
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: baf8114372d86a995483c61802462bd94597f147
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60169710"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240083"
 ---
 # <a name="microsoft-defender-antivirus-compatibility-with-other-security-products"></a>Microsoft Defender 바이러스 백신 제품과의 호환성
 
 **적용 대상:**
 
 - Microsoft Defender 바이러스 백신
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 
 
 Microsoft Defender 바이러스 백신 다음 버전의 응용 프로그램을 실행하는 끝점에 Windows.
@@ -84,7 +84,12 @@ Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션이 사
 > [!TIP]
 > Microsoft Defender 바이러스 백신 [서버](microsoft-defender-antivirus-on-windows-server.md) 설치에 대한 주요 차이점 및 Windows 관리 옵션은 Windows 참조하세요. 이 Windows Server 2016 에 를 표시하지 *않고* Windows Defender 바이러스 백신 수 *Microsoft Defender 바이러스 백신.*
 
-### <a name="why-run-microsoft-defender-antivirus-in-passive-mode"></a>수동 Microsoft Defender 바이러스 백신 실행해야 하는 이유는 무엇입니까?
+> [!IMPORTANT]
+> Microsoft Defender 바이러스 백신 Windows 10 R2, Windows Server 2012 R2, Windows Server 2016, Windows Server, 버전 1803 이상 및 Windows Server 2019를 실행하는 장치에서만 사용할 수 있습니다.
+>
+> 이 Windows 8.1 엔터프라이즈 수준의 끝점 바이러스 백신 [](/previous-versions/system-center/system-center-2012-R2/hh508760(v=technet.10))보호는 System Center Endpoint Protection 를 통해 관리되는 Microsoft Endpoint Configuration Manager.
+>
+> Windows Defender 엔터프라이즈 수준 관리를 제공하지는 [Windows 8.1](/previous-versions/windows/it-pro/windows-8.1-and-8/dn344918(v=ws.11)#BKMK_WindowsDefender)소비자 장치에도 제공됩니다.
 
 Endpoint용 Defender에는 끝점에 설치된 바이러스 백신 보호를 추가로 확장하는 기능이 포함되어 있습니다. 다른 바이러스 백신 솔루션과 함께 Microsoft Defender 바이러스 백신 수 있습니다.
 
@@ -137,7 +142,7 @@ Endpoint용 Defender는 수동 Microsoft Defender 바이러스 백신 수 있는
 
 <br/><br/>
 
-|방법|절차|
+|메서드|절차|
 |---|---|
 |Windows 보안 앱| 1. Windows 디바이스에서 Windows 보안 를 니다.<br/>2. 바이러스 **백신 & 보호를 선택합니다.**<br/>3. Who **보호에서** 공급자 **관리를 선택합니다.**<br/>4. **보안** 공급자 페이지의 바이러스 백신 **아래에서** 를 Microsoft Defender 바이러스 백신 **표시됩니다.**|
 |작업 관리자| 1. Windows 디바이스에서 작업 관리자 앱을 니다.<br/>2. 세부 정보 **탭을** 선택합니다.<br/>3. **목록에서** MsMpEng.exe찾아야 합니다.|

@@ -21,12 +21,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 10/06/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 47a698d2e0832ed477808be379a6ad99b932b702
-ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
+ms.openlocfilehash: 52c1c4ba86f596e7832b5cb3feaaa65688ba452d
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60217093"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239591"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Endpoint용 Microsoft Defender로 전환 - 3단계: 온보딩
 
@@ -64,17 +64,21 @@ ms.locfileid: "60217093"
 
 배포 방법은 운영 체제 및 기본 설정 방법에 따라 다릅니다. 다음 표에는 끝점용 Defender에 온보딩하는 데 도움이 되는 리소스가 나열됩니다.
 
-<br/><br/>
+|운영 체제  |메서드  |
+|---------|---------|
+|<ul><li> Windows 10</li> <li>Windows Server 1803 및 2019</li> <li>Windows Server 2012 R2 및 2016 <sup> [[1]](#fn1)<sup></li></ul>  |   [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md)<br>   [그룹 정책](configure-endpoints-gp.md)<br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Microsoft Endpoint Manager/ 모바일 장치 관리(Intune)](configure-endpoints-mdm.md)<br>    [VDI 스크립트](configure-endpoints-vdi.md) <br><br> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.
+|<ul><li> Windows Server 2008 R2 SP1 </li></ul>| [Microsoft Monitoring Agent(MMA)](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma) [또는 Azure Defender](/azure/security-center/security-center-wdatp) <br><br> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)  
+|<ul><li> Windows 7 SP1 </li> <li>  Windows 7 SP1 Pro </li> <li>  Windows 8.1 Pro </li> <li> Windows 8.1 Enterprise</li></ul>  | [Microsoft Monitoring Agent(MMA)](onboard-downlevel.md) <br><br> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)  
+| <ul><li> macOS:<p>11.3.1(Big Sur) <p>10.15(카탈로나)<p>10.14(모잡) | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md)   |
+| <ul><li>Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS 이상<p>SLES 12+<p>데비안 9+<p>Oracle Linux 7.2 |  [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|  
+| <ul><li>iOS | [Microsoft Endpoint Manager ](ios-install.md)     |
+|<ul><li> Android  | [Microsoft Endpoint Manager ](android-intune.md)               | 
 
-|운영 체제|메서드|
-|---|---|
-|Windows 10|[그룹 정책](configure-endpoints-gp.md) <br/><br/> [Configuration Manager](configure-endpoints-sccm.md) <br/><br/> [모바일 장치 관리(Intune)](configure-endpoints-mdm.md) <br/><br/> [로컬 스크립트](configure-endpoints-script.md) <br/><br/> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.|
-|Windows 8.1 Enterprise <br/><br/> Windows 8.1 Pro <br/><br/> Windows 7 SP1 Enterprise <br/><br/> Windows 7 SP1 Pro|[Microsoft Monitoring Agent](onboard-downlevel.md) <br/><br/> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)|
-|Windows Server 2019 이상 <br/><br/> Windows Server 2019 Core Edition <br/><br/> Windows 서버 버전 1803 이상|[로컬 스크립트](configure-endpoints-script.md) <br/><br/> [그룹 정책](configure-endpoints-gp.md) <br/><br/> [Configuration Manager](configure-endpoints-sccm.md) <br/><br/> [System Center Configuration Manager](configure-endpoints-sccm.md) <br/><br/> [비영구 장치에 대한 VDI 온보딩 스크립트](configure-endpoints-vdi.md) <br/><br/> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.|
-|Windows Server 2016 <br/><br/> Windows Server 2012 R2 <br/><br/> Windows Server 2008 R2 SP1|[Microsoft 365 Defender 포털](configure-server-endpoints.md) <br/><br/> [Azure Defender](/azure/security-center/security-center-wdatp)|
-|macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)|[Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)|
-|iOS|[Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)|
-|Linux: RHEL 7.2+; CentOS Linux 7.2+; Ubuntu 16 LTS 이상; SLES 12+; 데비안 9+; Oracle Linux 7.2|[Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)|
+
+
+
+(<a id="fn1">1</a>) Windows Server 2016 Windows Server 2012 R2는 온보드 서버의 지침을 사용하여 Windows [합니다.](configure-server-endpoints.md#windows-server-2012-r2-and-windows-server-2016)
+
 
 ## <a name="run-a-detection-test"></a>검색 테스트 실행
 

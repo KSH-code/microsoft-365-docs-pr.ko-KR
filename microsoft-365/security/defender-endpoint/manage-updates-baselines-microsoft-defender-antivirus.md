@@ -16,14 +16,14 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 881711359313bb0b22870ce15bbbc7ff2d91d1b5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ea87ef0acbcd0cda0fb9d4861042ac1e181ff7fb
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205310"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60239627"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -544,6 +544,20 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 자세한 내용은 운영 체제 설치 Windows Microsoft [Defender 업데이트를 참조하세요.](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)
 
 <details>
+<summary>1.1.2110.01</summary>
+
+&ensp;패키지 버전: **1.1.2110.01**<br/>
+&ensp;플랫폼 버전: **4.18.2109.6**<br/>
+&ensp;엔진 버전: **1.1.18500.10**<br/>
+&ensp;서명 버전: **1.349.2103.0**<br/>
+
+### <a name="fixes"></a>수정
+- 없음
+
+### <a name="additional-information"></a>추가 정보
+- 없음
+<br/>
+</details><details>
 <summary>1.1.2109.01</summary>
 
 &ensp;패키지 버전: **1.1.2109.01**<br/>

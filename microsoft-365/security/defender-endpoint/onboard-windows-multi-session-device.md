@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.collection: M365-security-compliance
-ms.openlocfilehash: b6b39dfe3a080b339ca5f4bbaf91c3db7d84c8d9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 709cd408d548e8a7c16973c08b0369616f3b91d1
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209336"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240539"
 ---
 # <a name="onboard-windows-multi-session-devices-in-azure-virtual-desktop"></a>Azure Virtual Desktop에서 Windows 세션 장치 온보드
 
@@ -55,14 +55,13 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 
 - 시작 중에 골든 이미지 또는 공유 위치에서 스크립트를 실행합니다.
 - 관리 도구를 사용하여 스크립트를 실행합니다.
-- [Azure Defender와의 통합을 통해](configure-server-endpoints.md#integration-with-azure-defender)
+- [Azure Defender와의 통합을 통해](azure-server-integration.md)
 
 #### <a name="scenario-1-using-local-group-policy"></a>*시나리오 1: 로컬 그룹 정책 사용*
 
 이 시나리오에서는 스크립트를 골든 이미지에 배치하고 로컬 그룹 정책을 사용하여 부팅 프로세스 초기에 실행해야 합니다.
 
-비영구적 [VDI(가상 데스크톱 인프라) 디바이스 온보드의 지침을 사용하세요.](configure-endpoints-vdi.md#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices)
-
+비영구적 [VDI(가상 데스크톱 인프라) 장치 온보드의 지침을 사용하세요.](configure-endpoints-vdi.md)
 
 각 디바이스에 대한 단일 항목에 대한 지침을 따릅니다.
 

@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0aaeb4a290c43b8fc725fe806014acfe61a939e8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e90495ee1f803731296cc1df6b55ddf99bbdad35
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60150030"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240489"
 ---
 # <a name="create-indicators-for-ips-and-urlsdomains"></a>IP 및 URL/도메인에 대한 지표 만들기
 
@@ -49,9 +49,13 @@ Endpoint용 Defender는 Microsoft 브라우저용 Windows Defender SmartScreen �
 IPS, URL 또는 도메인에 대한 표시기를 만들기 전에 다음의 선행 구성 요소에 대해 이해하는 것이 중요합니다.
 
 - URL/IP 허용 및 차단은 차단 모드에서 사용하도록 설정하기 위해 끝점 구성 요소 네트워크 보호에 대한 Defender를 사용합니다. 네트워크 보호 및 구성 지침에 대한 자세한 내용은 네트워크 보호 사용 [을 참조하세요.](enable-network-protection.md)
-- 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다.
-- Windows 10 버전 1709 이상 또는 Windows 11에 있는 컴퓨터에서 지원됩니다.
-- 고급 **기능의** 끝점에서 사용자 지정 **Microsoft 365 Defender > 설정 > 표시기가 > 확인합니다.** 자세한 내용은 고급 기능을 [참조하세요.](advanced-features.md)
+- 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다. 
+- Windows 10 버전 1709 이상, Windows 11, Windows Server 2016, Windows Server 2012 R2, Windows Server 2019 및 Windows Server 2022의 컴퓨터에서 지원됩니다.
+   
+    >[!NOTE]
+    >Windows Server 2016 및 Windows Server 2012 R2는 이 기능이 작동하려면 Windows 서버의 [](configure-server-endpoints.md#windows-server-2012-r2-and-windows-server-2016) 지침을 사용하여 온보드해야 합니다. 
+
+- 고급 **기능 에서** 사용자 지정 **네트워크 표시기가 Microsoft Defender 보안 센터 > 설정 > 확인합니다.** 자세한 내용은 고급 기능을 [참조하세요.](advanced-features.md)
 - iOS의 지표 지원은 사용자 지정 표시기 [구성을 참조합니다.](/microsoft-365/security/defender-endpoint/ios-configure-features#configure-custom-indicators)
 
 > [!IMPORTANT]

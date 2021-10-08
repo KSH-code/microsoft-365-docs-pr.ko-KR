@@ -17,12 +17,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: d84a234a07edddf22f560bc55b5efb5f5dbb62de
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c19d2bc64ffda9e6b101af170bb836a434e993d0
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201520"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240359"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -35,15 +35,50 @@ ms.locfileid: "60201520"
   - GUID
   - 구성 관리 시스템 규칙 이름
 
-## <a name="supported-operating-systems"></a>지원되는 운영 체제 
+## <a name="public-preview-supported-operating-systems"></a>공개 미리 보기: 지원되는 운영 체제
 
-다음 표에는 공격 표면 감소 규칙이 사전순으로 나열됩니다. 확인 표시는 해당 열에 나열된 운영 체제에서 규칙이 지원되는 경우를 나타냅니다.
+> [!IMPORTANT]
+> 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
+
+다음 표에는 현재 출시 전 제품인 공격 표면 감소 규칙에 대해 지원되는 운영 체제가 나열됩니다. 규칙은 사전순으로 나열됩니다.
 
 > [!Note]
 >
 > - 달리 명시하지 않는 한 최소 Windows 10 빌드는 버전 &nbsp; 1709(RS3, 빌드 16299) 이상, 최소 Windows Server 빌드 버전은 &nbsp; 1809 이상입니다.
 >
-> - \* 모든 규칙은 다른 명시가 없는 한 파일 및 폴더 제외를 지원합니다.
+
+| 규칙 이름 | &nbsp;Windows Server 2016 <sup> [[1](#fn1)]<sup></sup> | &nbsp;Windows Server 2012 R2 <sup> [[1]](#fn1)<sup></sup> |
+|---|:---:|:---:|
+|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers) | Y | Y |
+|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes) | Y | Y |
+|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes) | Y | Y |
+|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem) | Y | Y |
+|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail) | Y | Y |
+|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion) | Y | Y |
+|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts) | Y | Y |
+|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) | Y | N |
+|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content) | Y | Y |
+|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes)  | Y | Y |
+|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes) | Y | Y |
+|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription) \* _파일 및 폴더 제외는 지원되지 않습니다._ | N | N |
+|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands) | Y | Y |
+|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb) | Y | Y |
+|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros) | N | N |
+|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware) | Y | Y |
+| **규칙 이름** | **Windows &nbsp; Server 2016** <sup> [[1](#fn1)]<sup></sup> | **Windows &nbsp; Server 2012 R2** <sup> [[1]](#fn1)<sup></sup> |
+
+(<a id="fn1">1) 2016</a>및 2016에 대한 최신 통합 Windows Server 2012 참조합니다. 자세한 내용은 [Onboard Windows Servers to the Defender for Endpoint Service를 참조하세요.](configure-server-endpoints.md)
+
+_공용 미리 보기 종료: 지원되는 운영 체제_
+
+## <a name="supported-operating-systems"></a>지원되는 운영 체제 
+
+다음 표에는 현재 일반 공급에 릴리스된 규칙에 대해 지원되는 운영 체제가 나열됩니다. 규칙은 사전순으로 나열됩니다.
+
+> [!Note]
+>
+> - 달리 명시하지 않는 한 최소 Windows 10 빌드는 버전 &nbsp; 1709(RS3, 빌드 16299) 이상, 최소 Windows Server 빌드 버전은 &nbsp; 1809 이상입니다.
+>
 
 |규칙 이름|&nbsp;Windows 10|&nbsp;Windows Server 2019|&nbsp;Windows 서버|&nbsp;Windows Server 2016|&nbsp;Windows Server 2012 R2|
 |---|:---:|:---:|:---:|:---:|:---:|

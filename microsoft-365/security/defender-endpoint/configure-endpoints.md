@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 680171f2edc23b1d41a0665287c141e2a36d839e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 26f4789ed5c44a2a3380476c78cea67daab84917
+ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60150293"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60240512"
 ---
 # <a name="onboarding-tools-and-methods-for-windows-devices-in-defender-for-endpoint"></a>Endpoint용 Defender의 Windows 장치용 온보딩 도구 및 방법
 
@@ -37,8 +37,22 @@ ms.locfileid: "60150293"
 
 끝점용 Defender 서비스가 해당 장치에서 센서 데이터를 얻을 수 있도록 조직의 장치를 구성해야 합니다. 조직에서 장치를 구성하는 데 사용할 수 있는 다양한 방법 및 배포 도구가 있습니다.
 
-다음과 같은 배포 도구 및 방법이 지원됩니다.
+일반적으로 온보더링할 Windows 식별한 다음 장치 또는 환경에 적합한 도구를 따르게 됩니다.
 
+![온보더링 도구 및 방법의 이미지](images/onboarding-config-tools.png)
+
+## <a name="endpoint-onboarding-tools"></a>끝점 온보더링 도구
+온보 Windows 끝점에 따라 다음 표에 설명된 해당 도구 또는 방법을 사용합니다.
+
+Windows 장치 | 온보더링 도구 또는 방법
+:---|:---
+|<ul><li> Windows 10</li> <li>Windows 서버 1803 및 2019 및 2022</li> <li>Windows Server 2012 R2 및 2016 <sup> [[1]](#fn1)<sup></li></ul>  |   [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md)<br>   [그룹 정책](configure-endpoints-gp.md)<br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Microsoft Endpoint Manager/ 모바일 장치 관리(Intune)](configure-endpoints-mdm.md)<br>    [VDI 스크립트](configure-endpoints-vdi.md) <br><br> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.
+|<ul><li> Windows Server 2008 R2 SP1 </li></ul>| [Microsoft Monitoring Agent(MMA)](onboard-downlevel.md) <br>[이전 버전의 Windows](onboard-downlevel.md) [또는 Azure Defender 온보딩](/azure/security-center/security-center-wdatp) <br><br> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)  
+|<ul><li> Windows 7 SP1 </li> <li>  Windows 7 SP1 Pro </li> <li>  Windows 8.1 Pro </li> <li> Windows 8.1 Enterprise</li></ul>  | [Microsoft Monitoring Agent(MMA)](onboard-downlevel.md) <br><br> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)
+
+
+
+(<a id="fn1">1</a>) Windows Server 2016 Windows Server 2012 R2는 온보드 서버의 지침을 사용하여 Windows [합니다.](configure-server-endpoints.md#windows-server-2012-r2-and-windows-server-2016)
 
 항목|설명
 :---|:---
