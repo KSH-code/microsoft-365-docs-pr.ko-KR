@@ -8,10 +8,11 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
@@ -23,17 +24,17 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: 53e82d0cdd1fb9f11ab15ce4a2fbdc4b0c0ac980
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 64ee2649127445e8438d915734dad9f2aa965933
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59775591"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60165043"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
 > [!NOTE]
-> 조직에서 하이브리드 Exchange 환경을 사용하는 경우 온-프레미스 EAC(Exchange 관리 센터)를 사용하여 공유 사서함을 만들고 관리해야 합니다. [Exchange 관리 센터에서 공유 사서함을 만드는 방법](/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?preserve-view=true.&view=exchserver-2019)을 참조하세요.
+> 조직에서 하이브리드 Exchange 환경을 사용하는 경우 온-프레미스 EAC(Exchange 관리 센터)를 사용하여 공유 사서함을 만들고 관리해야 합니다. [Exchange 관리 센터에서 공유 사서함 만들기](/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?preserve-view=true.&view=exchserver-2019)를 참조하세요.
 >
 > 공유 사서함 또는 Outlook용 Microsoft 365 그룹 중 무엇을 만들어야 하는지 확실하지 않은 경우 [Compare groups](../create-groups/compare-groups.md)(그룹 비교)에서 지침을 확인하세요. 현재 공유 사서함은 Microsoft 365 그룹으로 마이그레이션할 수 없습니다. 이것이 원하는 것이라면 [여기에서 투표](https://go.microsoft.com/fwlink/?linkid=871518)를 통해 알려주세요.
 
@@ -45,7 +46,7 @@ ms.locfileid: "59775591"
 
 ## <a name="create-a-shared-mailbox-and-add-members"></a>공유 사서함 만들기 및 구성원 추가
   
-1. 전역 관리자 계정 또는 Exchange 관리자 계정을 사용하여 로그인합니다. “**이 페이지에 액세스하거나 이 작업을 수행할 권한이 없습니다**”메시지가 나타나는 경우 관리자가 아닙니다. 
+1. 전역 관리자 계정 또는 Exchange 관리자 계정으로 로그인합니다. 관리자가 아닌 경우 "**이 페이지에 액세스하거나 이 작업을 수행할 권한이 없습니다.**"라는 메시지가 표시됩니다. 
 
 ::: moniker range="o365-worldwide"
 
@@ -69,13 +70,13 @@ ms.locfileid: "59775591"
     
     ![공유 사서함 이름을 지정합니다.](../../media/e3035132-8986-4ec7-b7c0-f2752080d2c0.png)
   
-4. **변경 내용 저장** 을 선택합니다. 몇 분 정도 기다린 다음에 구성원을 추가할 수 있습니다.
+4. **변경 내용 저장** 을 선택합니다. 몇 분 정도 지나고 나면 구성원을 추가할 수 있습니다.
 
-5. **다음 단계** 에서 **이 사서함에 구성원 추가** 를 선택합니다. 구성원은 이 공유 사서함으로 받는 메일과 보내는 회신을 볼 수 있습니다.
+5. **다음 단계** 에서 **이 사서함에 구성원 추가** 를 선택합니다. 구성원은 이 공유 사서함의 받는 메일과 보내는 회신을 볼 수 있는 사람입니다.
 
    ![구성원 추가를 선택합니다.](../../media/a2a72e3d-6170-40fe-a94f-0af8fbef8ab2.png)
 
-6. **+구성원 추가** 단추를 선택합니다. 이 공유 사서함을 사용하길 원하는 사용자 옆에 확인 표시를 하고 **저장** 을 선택합니다.
+6. **+구성원 추가** 버튼을 선택합니다. 이 공유 사서함을 사용하기를 원하는 사용자 옆에 확인 표시를 하고 **저장** 을 선택합니다.
 
    ![공유 사서함에 구성원을 할당합니다.](../../media/e6c58953-f6d7-4f0b-97ba-308516bf2a94.png)
 
@@ -87,9 +88,9 @@ ms.locfileid: "59775591"
 
 공유 사서함에서 다음 사용 권한을 사용할 수 있습니다.
 
-- **모든 액세스 권한**: 모든 권한이 있는 사용자는 공유 사서함을 열어 해당 사서함의 소유자로서 작업할 수 있습니다. 공유 사서함에 액세스한 후 사용자는 일정 항목을 만들고, 전자 메일 메시지를 읽고, 보고, 삭제하고, 변경하고, 작업 및 일정 연락처를 만들 수 있습니다. 그러나 모든 권한을 가진 사용자라도 다른 사람 이름으로 보내기 또는 대신 보내기 사용 권한이 없으면 공유 사서함에서 전자 메일을 보낼 수 없습니다.
+- **모든 권한**: 모든 권한이 있는 사용자는 공유 사서함을 열고 해당 사서함의 소유자로서 작업할 수 있습니다. 사용자는 공유 사서함에 액세스한 후에 일정 항목을 만들고, 전자 메일 메시지를 읽고 보고 삭제하고 변경하며, 작업 및 일정 연락처를 만들 수 있습니다. 그러나 모든 권한이 있는 사용자는 다른 사람 이름으로 보내기 또는 대신 보내기 권한도 함께 가지고 있지 않다면 공유 사서함에서 전자 메일을 보낼 수 없습니다.
 
-- **다른 사람 이름으로 보내기**: 다른 사람 이름으로 보내기 사용 권한을 부여하면 사용자가 전자 메일을 보낼 때 공유 사서함인 것처럼 보이게 할 수 있습니다. 예를 들어 Katerina가 마케팅 부서의 공유 사서함에 로그인하여 전자 메일을 보낸 경우에는 마케팅 부서에서 전자 메일을 보낸 것으로 보입니다.
+- **다른 사람 이름으로 보내기**: 다른 사람 이름으로 보내기 권한이 있는 사용자는 메일을 보낼 때 공유 사서함을 다른 사람으로 가장하여 사용할 수 있습니다. 예를 들어 Katerina이 마케팅 부서 공유 사서함에 로그인하여 전자 메일을 보내면, 마케팅 부서에서 전자 메일을 보낸 것처럼 표시됩니다.
 
 - **대신 보내기**: 대신 보내기 권한이 있는 사용자는 공유 사서함 대신 전자 메일을 보낼 수 있습니다. 예를 들면 John이 Reception Building 32 공유 사서함에 로그인하여 이메일을 보내면, "Reception Building 32 대신 John"이 보낸 것처럼 메일이 표시됩니다. EAC를 사용하여 대신 보내기 사용 권한을 부여할 수는 없습니다. 대신 보내기 사용 권한을 부여하려면 **Set-Mailbox** cmdlet을 _GrantSendonBehalf_ 매개 변수와 함께 사용해야 합니다.
 
