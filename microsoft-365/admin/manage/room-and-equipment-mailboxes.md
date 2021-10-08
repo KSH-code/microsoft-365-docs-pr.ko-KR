@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: '회의실 또는 장비 사서함을 만들었으면 조직의 누구나 Outlook을 사용하여 모임이나 행사용으로 예약할 수 있습니다. '
-ms.openlocfilehash: 2255d6b509e56f5a8e573ee8e88766c4ad59ada0
-ms.sourcegitcommit: aebcdbef52e42f37492a7f780b8b9b2bc0998d5c
+ms.openlocfilehash: 38df6be558c3f590e851460f8065712d73dbf4b0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59776035"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173082"
 ---
 # <a name="room-and-equipment-mailboxes"></a>회의실 및 장비 사서함
 
@@ -49,7 +49,7 @@ ms.locfileid: "59776035"
     
 3. 받는 사람 필드에 예약하려는 회의실 또는 장비의 이름과 초대하려는 참석자의 이름을 입력합니다.
 
-   또는 **받는 사람** 을 선택하고 목록에서 회의실 또는 장비를 두 번 클릭합니다. 그런 다음 **확인** 을 선택합니다.
+   또는 **받는 사람** 을 선택한 다음 목록에서 회의실이나 장비를 두 번 클릭합니다. 그런 다음 **확인** 을 선택합니다.
 
    ![Outlook에서 회의실 사서함을 예약합니다.](../../media/4588c806-9fb9-46c9-b2d8-34caa943e28e.png)
   
@@ -66,7 +66,7 @@ ms.locfileid: "59776035"
     
 8. 다른 사용자가 모임에 온라인 또는 전화를 통해 참가할 수 있도록 허용하려면 **Skype 모임** 을 선택합니다.
     
-9. 회의실, 장비 및 초대한 사용자가 해당 시간에 바쁘지 않은지 확인하려면 맨 위에서 **일정 정리** 를 클릭합니다. 그런 다음 달력에서 비어 있는 시간을 선택합니다.
+9. 회의실, 장비 및 초대한 사용자가 해당 시간에 바쁘지 않은지 확인하려면 맨 위에서 **일정 정리** 를 선택합니다. 그런 다음 달력에서 비어 있는 시간을 선택합니다.
 
    ![회의실 장비의 사용 가능 여부를 확인합니다.](../../media/eb0097c6-4263-4b63-bfca-f7c03ad99b4f.png)
 

@@ -8,7 +8,7 @@ manager: laurawi
 audience: Admin
 ms.topic: how-to
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Exchange Online에서 Search-UnifiedAuditLog cmdlet을 실행하여 감사 로그를 검색하는 PowerShell 스크립트를 사용하세요. 이 스크립트는 대량 감사 레코드 집합(최대 50,000개)을 반환하는 데 최적화되어 있습니다. 이 스크립트는 이러한 레코드를 Excel의 Power Query를 사용하여 보거나 변환할 수 있는 CSV 파일로 내보냅니다.
-ms.openlocfilehash: 8abea51bb1e7e1fa7bd513bea78708b06da62def
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 7f54924cf0f90b976c52c8ee7c53e151f50111b0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59166151"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60173550"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>PowerShell 스크립트를 사용하여 감사 로그 검색
 
@@ -165,7 +165,7 @@ Exchange Online PowerShell에 연결한 후 다음 단계는 스크립트를 생
    .\SearchAuditLog.ps1
    ```
 
-스크립트는 실행 중 진행률 메시지를 표시합니다. 스크립트 실행이 완료되면 감사 레코드가 포함된 로그 파일과 CSV 파일을 생성하여 `$logFile` 및 `$outputFile` 변수로 정의된 폴더에 저장합니다.
+스크립트가 실행되는 동안 진행 메시지를 표시합니다. 스크립트 실행이 완료되면 감사 레코드가 포함된 로그 파일과 CSV 파일을 생성하여 `$logFile` 및 `$outputFile` 변수로 정의된 폴더에 저장합니다.
 
 > [!IMPORTANT]
 > 이 스크립트를 실행할 때마다 반환되는 최대 감사 레코드 수에는 50,000개의 제한이 있습니다. 이 스크립트를 실행하고 50,000개의 결과를 반환하는 경우 날짜 범위 내에 발생한 작업에 대한 감사 레코드가 포함되지 않았을 수 있습니다. 이 경우 날짜 범위를 더 작은 기간으로 나눈 다음 각 날짜 범위에 대해 스크립트를 다시 실행하는 것이 좋습니다. 예를 들어, 90일 간의 날짜 범위가 50,000개의 결과를 반환하는 경우 스크립트를 두 번, 날짜 범위에서 처음 45일 동안 한 번, 이후 45일 동안 다시 실행할 수 있습니다.

@@ -10,7 +10,7 @@ audience: ITPro
 ms.topic: how-to
 f1_keywords:
 - ms.exch.eac.ActionCenter.Restricted.Users.RestrictedUsers
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
@@ -20,12 +20,12 @@ description: 관리자는 Microsoft 365 Defender 포털의 제한된 사용자 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f9c54f5ac443192f094f1c1edb14273c9f226f9f
-ms.sourcegitcommit: db571169242063f104450fec4c4b19aeec688b15
+ms.openlocfilehash: a9a4cea0a21dce8115c31f39033639c90fdd1bf0
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447363"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60180738"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-microsoft-365"></a>Microsoft 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
