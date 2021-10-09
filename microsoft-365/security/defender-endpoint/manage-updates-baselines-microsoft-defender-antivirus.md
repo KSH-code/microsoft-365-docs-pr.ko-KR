@@ -18,12 +18,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 10/07/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ea87ef0acbcd0cda0fb9d4861042ac1e181ff7fb
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: a5f5428ce3c710cc99c7c86306a64501419ae60f
+ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/08/2021
-ms.locfileid: "60239627"
+ms.locfileid: "60245672"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -84,8 +84,26 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 - 성능 개선
 - 서비스성 개선 및
 - 통합 개선(클라우드, [](/microsoft-365/security/defender/microsoft-365-defender)Microsoft 365 Defender).
-<br/>
+<br/><br/>
 <details>
+<summary> 2021년 9월(플랫폼: 4.18.2109.6 | 엔진: 1.1.18600.4)</summary>
+
+&ensp;보안 인텔리전스 업데이트 버전: **1.351.7.0**<br/>
+&ensp;릴리스: **2021년 10월 7일**<br/>
+&ensp;플랫폼: **4.18.2109.6**<br/>
+&ensp;엔진: **1.1.18600.4**<br/>
+&ensp;지원 단계: **보안 및 중요 업데이트**<br/>
+
+엔진 버전: 1.1.18600.4 보안 인텔리전스 업데이트 버전: 업데이트
+
+### <a name="whats-new"></a>새로운 기능
+- Microsoft Defender 바이러스 백신 및 플랫폼 업데이트에 대한 새로운 지연 링입니다. 이 링에 옵트인된 장치는 48시간 지연된 업데이트를 받게 됩니다. 중요한 환경에만 새 지연 링이 제안됩니다. Microsoft Defender 업데이트에 대한 서진적 출시 프로세스 [관리를 참조하세요.](manage-gradual-rollout.md)
+- Microsoft Defender 업데이트의 향상된점적 출시 프로세스
+
+### <a name="known-issues"></a>알려진 문제
+알려진 문제 없음
+<br/>
+</details><details>
 <summary> 2021년 8월(플랫폼: 4.18.2108.7 | 엔진: 1.1.18500.10)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.349.22.0**<br/>
@@ -123,14 +141,19 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음
 <br/>
-</details><details>
+</details>
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
+
+새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다.
+<details>
 <summary> 2021년 6월(플랫폼: 4.18.2106.5 | 엔진: 1.1.18300.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.343.17.0**<br/>
 &ensp;릴리스: **2021년 6월 28일**<br/>
 &ensp;플랫폼: **4.18.2106.5**<br/>
 &ensp;엔진: **1.1.18300.4**<br/>
-&ensp;지원 단계: **보안 및 중요 업데이트**<br/>
+&ensp;지원 단계: **기술 업그레이드 지원(전용)**<br/>
 
 ### <a name="whats-new"></a>새로운 기능
 - Microsoft Defender 업데이트의점적 출시 프로세스를 관리하기 위한 새로운 컨트롤입니다. Microsoft Defender 업데이트에 대한 서진적 출시 프로세스 [관리를 참조하세요.](manage-gradual-rollout.md)
@@ -141,12 +164,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
-
-새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다.
-<details>
+</details><details>
 <summary> 2021년 5월(플랫폼: 4.18.2105.4 | 엔진: 1.1.18200.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.341.8.0**<br/>

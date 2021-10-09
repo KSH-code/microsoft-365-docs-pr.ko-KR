@@ -146,7 +146,7 @@
               href: investigate-users.md
             - name: 첫 번째 인시던트에 대응
               items:
-                - name: 소개
+                - name: 개요
                   href: first-incident-overview.md
                 - name: 준비
                   href: first-incident-prepare.md
@@ -166,6 +166,8 @@
               href: /security/compass/incident-response-playbooks
             - name: 인시던트 전자 메일 알림 받기
               href: get-incident-notifications.md
+            - name: Power Automate를 사용하여 위협 분류
+              href: use-power-automate.md
         - name: 자동화된 조사 및 응답 관리
           items:
             - name: 개요
@@ -306,24 +308,22 @@
               href: ../mtp/microsoft-threat-experts.md
             - name: Microsoft 위협 전문가 기능 구성 및 관리
               href: ../mtp/configure-microsoft-threat-experts.md
-        - name: Microsoft 365 Defender에 대한 SecOps 통합
-          items:
-            - name: 개요
-              href: integrate-microsoft-365-defender-secops.md
-            - name: 1단계. 운영 준비
-              href: integrate-microsoft-365-defender-secops-plan.md
-            - name: 2단계. 제로 트러스트 사용하여 준비 상태 평가
-              href: integrate-microsoft-365-defender-secops-readiness.md
-            - name: 3단계. SOC 서비스와 통합
-              href: integrate-microsoft-365-defender-secops-services.md
-            - name: '4단계. 역할, 책임 및 감독'
-              href: integrate-microsoft-365-defender-secops-roles.md
-            - name: 5단계. 사용 사례 테스트
-              href: integrate-microsoft-365-defender-secops-use-cases.md
-            - name: 6단계. SOC 유지 관리 작업
-              href: integrate-microsoft-365-defender-secops-tasks.md
-        - name: Power Automate를 사용하여 위협 분류
-          href: use-power-automate.md
+    - name: SecOps 통합
+      items:
+        - name: 개요
+          href: integrate-microsoft-365-defender-secops.md
+        - name: 1단계. 운영 준비
+          href: integrate-microsoft-365-defender-secops-plan.md
+        - name: 2단계. 제로 트러스트 사용하여 준비 상태 평가
+          href: integrate-microsoft-365-defender-secops-readiness.md
+        - name: 3단계. SOC 서비스와 통합
+          href: integrate-microsoft-365-defender-secops-services.md
+        - name: '4단계. 역할, 책임 및 감독'
+          href: integrate-microsoft-365-defender-secops-roles.md
+        - name: 5단계. 사용 사례 테스트
+          href: integrate-microsoft-365-defender-secops-use-cases.md
+        - name: 6단계. SOC 유지 관리 작업
+          href: integrate-microsoft-365-defender-secops-tasks.md
     - name: 사용 방법 가이드
       items:
         - name: 평가판 랩 또는 파일럿 환경 만들기

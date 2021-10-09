@@ -31,32 +31,46 @@
 #### [배포 링](deployment-rings.md)
 #### [Microsoft Endpoint Configuration Manager를 사용하여 온보딩](onboarding-endpoint-configuration-manager.md)
 #### [Microsoft Endpoint Manager를 사용하여 온보딩](onboarding-endpoint-manager.md)
-#### [온보딩 지원 장치](onboard-configure.md)
 
 ## [마이그레이션 가이드](migration-guides.md)
 ### [타사 엔드포인트 보호에서 끝점용 Defender로 전환](switch-to-microsoft-defender-migration.md)
 #### [1 단계: 준비](switch-to-microsoft-defender-prepare.md)
 #### [2 단계: 설정](switch-to-microsoft-defender-setup.md)
 #### [3 단계: 온보딩](switch-to-microsoft-defender-onboard.md)
+
+
+
 ### [마이그레이션 후 엔드포인트용 Defender 관리](manage-atp-post-migration.md)
 #### [Intune 사용(권장)](manage-atp-post-migration-intune.md)
 #### [Configuration Manager 사용](manage-atp-post-migration-configuration-manager.md)
 #### [그룹 정책 사용](manage-atp-post-migration-group-policy-objects.md)
 #### [PowerShell, WMI 또는 MPCmdRun.exe 사용](manage-atp-post-migration-other-tools.md)
+#### [서버 마이그레이션 시나리오](server-migration.md)
 
 ## [장치 구성 및 온보드]()
+### [디바이스 온보딩 및 Endpoint용 Microsoft Defender 기능 구성](onboard-configure.md)
+
+
 ### [Windows 및 Windows Server의 엔드포인트용 Microsoft Defender]()
-#### [엔드포인트용 Microsoft Defender에 장치 온보딩](onboard-configure.md)
-#### [이전 버전의 Windows 온보딩](onboard-downlevel.md)
-#### [그룹 정책을 통한 Windows 장치 온보딩]()
-##### [온보딩 도구 및 방법](configure-endpoints.md)
-##### [그룹 정책을 사용하여 장치 온보딩](configure-endpoints-gp.md)
-##### [Microsoft Endpoint Configuration Manager를 사용하여 장치 온보딩](configure-endpoints-sccm.md)
-##### [모바일 장치 관리 도구를 사용하여 장치 온보딩](configure-endpoints-mdm.md)
-##### [로컬 스크립트를 사용하여 장치 온보딩](configure-endpoints-script.md)
-##### [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
-##### [Windows Virtual Desktop에서 Windows 다중 세션 장치 온보딩](onboard-windows-multi-session-device.md)
-#### [Windows 서버 온보딩](configure-server-endpoints.md)
+#### [Windows 엔드포인트용 온보딩 도구 및 방법](configure-endpoints.md)
+#### [Windows 장치 및 Windows 서버 온보딩]()
+
+##### [이전 버전의 Windows 온보딩](onboard-downlevel.md)
+
+
+##### [Windows 장치 및 Windows 서버 온보딩]()
+###### [Windows Server 2012 R2, 2016, 반기 채널, 2019 및 2022 온보딩](configure-server-endpoints.md)
+###### [로컬 스크립트를 사용하여 Windows 장치 온보딩](configure-endpoints-script.md)
+###### [그룹 정책을 사용하여 Windows 장치 온보딩](configure-endpoints-gp.md)
+###### [Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩](configure-endpoints-sccm.md)
+###### [모바일 장치 관리 도구를 사용한 Windows 장치 온보딩](configure-endpoints-mdm.md)
+###### [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
+###### [Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩](onboard-windows-multi-session-device.md)
+
+
+
+
+#### [Azure Defender와 통합](azure-server-integration.md)
 
 #### [인터넷 액세스 없이 장치 온보딩](onboard-offline-machines.md)
 #### [새로 온보딩된 장치에서 검색 테스트 실행](run-detection-test.md)

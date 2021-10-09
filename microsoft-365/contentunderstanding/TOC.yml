@@ -78,25 +78,5 @@
       href: push-content-type-to-hub.md
     - name: 용어 저장소 보고서
       href: term-store-analytics.md
-- name: REST API
-  items:
-    - name: 개요
-      href: rest-api/syntex-model-rest-api.md
-    - name: 모델 만들기
-      href: rest-api/rest-createmodel-method.md
-    - name: GetByUniqueId
-      href: rest-api/rest-getbyuniqueid-method.md
-    - name: GetByTitle
-      href: rest-api/rest-getbytitle-method.md
-    - name: 모델 적용
-      href: rest-api/rest-applymodel-method.md
-    - name: 모델 및 라이브러리 정보 가져오기
-      href: rest-api/rest-getmodelandlibraryinfo.md
-    - name: UpdateModelSettings
-      href: rest-api/rest-updatemodelsettings-method.md
-    - name: BatchDelete
-      href: rest-api/rest-batchdelete-method.md
-    - name: 파일 분류 요청 만들기
-      href: rest-api/rest-createclassificationrequest.md
-    - name: 폴더 분류 요청 만들기
-      href: rest-api/rest-createfolderclassificationrequest.md
+- name: 확장성
+  href: /sharepoint/dev/apis/syntex/syntex-model-rest-api.md

@@ -9,15 +9,15 @@ ms.collection:
 - M365-security-compliance
 ms.prod: microsoft-365-enterprise
 ms.custom: seo-marvel-jun2020
-localization_priority: Priority
+ms.localizationpriority: high
 description: 재무 서비스 기관에서 Microsoft 365와 Teams를 사용하여 재무 보안 규정 준수를 유지하고 효과적으로 공동 작업하는 방법을 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 0e3fada6a74776e4edf2c8c41ef9026ce17871ad
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 073f24bc751bcb9f11a415d4ef142172fd5387ed
+ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59189029"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60207526"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -83,7 +83,7 @@ Microsoft 365는 Microsoft 365 그룹을 기본 멤버십 서비스로 사용하
 
 **Microsoft 365 그룹 이름 지정 정책** 은 Microsoft 365 그룹과 팀이 회사 정책에 따라 이름을 지정하도록 도와줍니다. 이름이 적절하지 않으면 문제가 될 수 있습니다. 예를 들어, 이름이 적절하게 적용되지 않으면 직원들이 어떤 팀과 함께 일하거나 정보를 공유해야 하는지 알 수 없습니다. 그룹 이름 지정 정책(접두사/접미사 기반 정책 및 사용자 지정 차단 단어 지원 포함)은 그룹 내 "위생"을 강화하고 예약어 또는 부적절한 용어와 같은 특정 단어의 사용을 방지할 수 있습니다.
   
-**Microsoft 365 그룹 만료 정책** 은 Microsoft 365 그룹과 팀이 조직이 원하거나 필요한 기간보다 더 오랫동안 유지되지 않도록 합니다. 이 기능은 다음 두 가지 주요 정보 관리 문제를 방지하는 데 도움이 됩니다.
+**Microsoft 365 그룹 만료 정책** 은 Microsoft 365 그룹 및 팀이 조직에서 원하거나 필요로 하는 것보다 오랫동안 보존되지 않도록 하는 데 도움이 됩니다. 이 기능은 다음 두 가지 주요 정보 관리 문제를 방지하는 데 도움이 됩니다.
 
 * 필요하지 않거나 사용되지 않는 팀의 확산.
 * 조직에서 더 이상 필요하지 않거나 사용하지 않는 데이터의 과잉 보존(법적 보유/보존의 경우 제외).
@@ -256,7 +256,7 @@ Microsoft 365는 금융 기관이 SEC 규칙 17a-4의 요건을 충족할 수 �
  
 조직에서 요구하는 경우 Microsoft는 즉시 SEC 17a-4에 대한 규정 준수 증명서를 제공합니다.
 
-또한 Microsoft 365는 이러한 기능을 통해 **미국 상품선물거래위원회** 의 [CFTC 규칙 1.31(c)-(d)](https://www.cftc.gov/sites/default/files/opa/press99/opa4266-99-attch.htm) 및 **금융산업규제당국** 의 [FINRA 규칙 시리즈 4510](https://www.finra.org/rules-guidance/rulebooks/finra-rules/4511)에 대한 저장소 요건을 충족할 수 있습니다. 이러한 규칙은 총체적으로 금융 기관이 기록을 유지하기 위한 가장 규범적인 지침을 나타냅니다.
+또한 이러한 기능은 Microsoft 365 **금융 산업 규제 기관의 **미국 상품선물 거래 위원회** 및 [FINRA Rule Series 4510](https://www.finra.org/rules-guidance/rulebooks/finra-rules/4511)[CFTC 규칙 1.31(c)-(d)](https://www.cftc.gov/sites/default/files/opa/press99/opa4266-99-attch.htm)에 대한 스토리지 요구 사항을 충족하는 데 도움이 됩니다.** 이러한 규칙은 금융 기관이 레코드를 보존하기 위해 전 세계적으로 가장 규범적인 지침을 나타냅니다.
 
 Microsoft 365가 SEC 규칙 17a-4 및 기타 규정을 준수하는 방법에 대한 자세한 내용은 [Cohasset Associates의 Office 365 Exchange Online SEC 17a-4(f) / CFTC 1.31(c)-(d) 평가](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9fa8349d-a0c9-47d9-93ad-472aa0fa44ec&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)에서 확인할 수 있습니다.
 
@@ -284,7 +284,7 @@ Microsoft 365의 정보 장벽은 Teams의 대화 및 파일을 지원합니다.
 
 금융 기관은 일반적으로 직원의 활동을 모니터링하고 해당 증권법을 준수할 수 있도록 조직 내에서 감독 기능을 설정하고 유지해야 합니다. 특히, FINRA는 다음과 같은 감독 요건을 수립했습니다.
  
-* [FINRA 규칙 3110(감독)](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3110)은 기업이 직원의 활동 및 기업이 참여하는 사업의 유형을 감독하기 위한 WSP(서면 감독 절차)를 마련하도록 요구합니다. 다른 요구 사항 외에도 절차에 다음이 포함되어야 합니다.
+* [FINRA 규칙 3110(감독)](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3110)은 기업이 직원의 활동 및 해당 직원이 참여하는 비즈니스 유형을 감독하기 위해 WSP(서면 관리 절차)를 마련하도록 요구합니다. 다른 요구 사항 외에도 절차에는 다음이 포함되어야 합니다.
    - 감독 관리자의 감독
    - 회사의 투자 은행, 증권업, 내부 커뮤니케이션 및 내부 조사 검토
    - 내부자 거래에 대한 거래 검토

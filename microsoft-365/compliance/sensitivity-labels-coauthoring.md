@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: fc519ea7a8d76135b4d536a64e6a411844bd3e47
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f5a3f401f17ee71ff78e15f6e1b3e9c7348ac40c
+ms.sourcegitcommit: 96618d21ad0424b7b51090afad5079ad0e955c21
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60151053"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60251103"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -90,7 +90,8 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
     - **엔드포인트 데이터 손실 방지(Endpoint DLP):**
         - Windows 10 1809, KB 4601383 포함
         - Windows 10 1903 및 1909, KB 4601380 포함
-        - Windows 10 2004, KB 4601382 포함
+        - Windows 10 2004, KB 46013 포함
+        - Windows 10 2004 이후의 Windows 버전은 KB 업데이트 없이 지원됩니다.
     
     - **Microsoft Information Protection SDK를 사용하는 앱 및 서비스:** 
         - 1.7 최소 버전 

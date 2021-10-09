@@ -23,13 +23,13 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
-description: '새 Microsoft 365 파트너를 찾거나 과거에 함께 일한 파트너에 대한 연락처 정보를 얻는 방법을 알아보는 방법을 배워야 합니다. '
-ms.openlocfilehash: be68ea0f270a974951b59309139db7773addad62
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+description: 새 Microsoft 365 파트너를 찾거나 과거에 함께 일한 파트너에 대한 연락처 정보를 얻는 방법을 알아보는 방법을 배워야 합니다.
+ms.openlocfilehash: d50c829281654842079a2124be4f8a8e16e993bf
+ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60164371"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60245653"
 ---
 # <a name="find-your-partner-or-reseller"></a>파트너 또는 대리점 찾기
 
@@ -41,7 +41,7 @@ ms.locfileid: "60164371"
 
 볼륨 라이선싱을 통해 볼륨 Microsoft 365 구매하거나 갱신할 준비가 되거나 파트너와의 작업에 대한 자세한 정보를 원하는 경우 아래 옵션을 선택합니다. 
   
-- [Microsoft PinPoint를 사용하여 파트너 검색](https://go.microsoft.com/fwlink/p/?LinkId=613304)
+- [Microsoft 인증 서비스 파트너 검색](https://go.microsoft.com/fwlink/p/?LinkId=613304)
     
 - [Microsoft 볼륨 라이선스 호출](https://go.microsoft.com/fwlink/p/?LinkId=613305)
     

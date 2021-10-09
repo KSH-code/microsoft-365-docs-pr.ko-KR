@@ -19,12 +19,12 @@ hideEdit: true
 feedback_system: None
 recommendations: false
 description: DLP 정책에 사용할 수 있는 200가지 중요한 정보 유형이 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
-ms.openlocfilehash: 80c0c0fa2a916b44204ea930a282c5b2e6402a85
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9d018833f6dd6d63ff32e8a3d77209177d7709f6
+ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159733"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60245684"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -3318,6 +3318,8 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 칠레 ID no.
 - 칠레 ID 번호
 - 칠레 ID #
+- R.U.T
+- R.U.N
 
 
 ## <a name="china-resident-identity-card-prc-number"></a>중국 거주자 ID 카드(PRC) 번호
@@ -3382,7 +3384,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="format"></a>형식
 
-서식이 지정되거나 서식 없는(dddddd)될 수 있으며 Luhn 테스트를 통과해야 하는 14-16자리 숫자입니다.
+서식이 지정되거나 서식이 없는 14-19자리 숫자(dddddd) Luhn 테스트를 통과해야 합니다.
 
 ### <a name="pattern"></a>패턴
 
@@ -3390,7 +3392,7 @@ Visa, MasterCard, Discover Card, JCB, American Express, 기프트 카드, 다이
 
 ### <a name="checksum"></a>체크섬
 
-있음(Luhn 체크섬)
+예, Luhn 검사
 
 ### <a name="definition"></a>정의
 
@@ -5027,7 +5029,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 10자리 숫자:
 - 생년월일인 DDMMYY 형식의 6자리 숫자
-- 하이픈
+- 선택적 공백 또는 하이픈
 - 마지막 숫자가 검사 숫자인 4자리 숫자
 
 ### <a name="checksum"></a>체크섬
@@ -7212,37 +7214,58 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="format"></a>형식
 
-2010년 11월 1일: 9개의 문자 및 숫자
+2010년 11월 1일: 9-11개의 문자 및 숫자
 
 1987년 4월 1일부터 2010년 10월 31일까지: 10자리
 
 ### <a name="pattern"></a>패턴
 
-2010년 11월 1일 이후:
-- 한 문자(대소문자 구분 안 )
-- 8자리 숫자
+2010년 11월 1일 이후: 영문자 패턴 9~11자
+- L, M, N, P, R, T, V, W, X, Y(대소문자 미지정)
+- C, F, G, H, J, K, L, M, N, P, R, T, V, W, X, Y 및 Z의 8자리 숫자 또는 문자(대소문자 미정)
+- 선택적 검사 숫자
+- 선택적 d/D
 
 1987년 4월 1일부터 2010년 10월 31일까지:
 - 10자리 숫자
 
 ### <a name="checksum"></a>체크섬
 
-아니요
+예
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있다는 신뢰도는 낮습니다.
-- 정규식 Regex_germany_id_card 일치하는 콘텐츠를 검색합니다.
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- 이 `Func_german_id_card_with_check` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 시작 `Keyword_germany_id_card` 키워드가 발견됩니다.
+- 체크섬이 통과됩니다.
+
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- 정규식은 패턴과 일치하는 콘텐츠를 검색합니다(2010년 전에 발급된 검사 숫자가 없는 `Regex_germany_id_card` 9자 또는 posy 2010에서 발급된 10자리 숫자 패턴).
 - 검색된 Keyword_germany_id_card 발견됩니다.
 
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있다는 신뢰도는 낮습니다.
+- 이 `Func_german_id_card_with_check` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 체크섬이 통과됩니다.
+
+
 ```xml
-<!-- Germany Identity Card Number -->
-<Entity id="e577372f-c42e-47a0-9d85-bebed1c237d4" recommendedConfidence="65" patternsProximity="300">
-  <Pattern confidenceLevel="65">
-     <IdMatch idRef="Regex_germany_id_card"/>
-     <Match idRef="Keyword_germany_id_card"/>
-  </Pattern>
-</Entity>
+      <!-- Germany Identity Card Number -->
+      <Entity id="e577372f-c42e-47a0-9d85-bebed1c237d4" patternsProximity="300" recommendedConfidence="75"> 
+        <Pattern confidenceLevel="75">
+         <IdMatch idRef="Regex_germany_id_card" /> 
+         <Match idRef="Keyword_germany_id_card" /> 
+        </Pattern>
+        <Version minEngineVersion="15.20.4545.000"> 
+          <Pattern confidenceLevel="85">
+           <IdMatch idRef="Func_german_id_card_with_check" />
+            <Match idRef="Keyword_germany_id_card" /> 
+          </Pattern> 
+          <Pattern confidenceLevel="65">
+           <IdMatch idRef="Func_german_id_card_with_check" /> 
+          </Pattern> 
+        </Version>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -7266,19 +7289,16 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="germany-passport-number"></a>독일 여권 번호
 
-이 엔터티는 EU Passport Number 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
-
 ### <a name="format"></a>형식
 
-10자리 숫자 또는 문자
+9~11자
 
 ### <a name="pattern"></a>패턴
 
-패턴에는 다음이 모두 포함되어야 합니다.
-- 첫 문자는 이 집합의 숫자 또는 문자(C, F, G, H, J, K)입니다.
-- 3자리 숫자
-- 이 집합의 5자리 숫자 또는 문자(C, -H, J-N, P, R, T, V-Z)
-- 숫자
+- C, F, G, H, J, K(대소문자 미구분)
+- C, F, G, H, J, K, L, M, N, P, R, T, V, W, X, Y 및 Z의 8자리 숫자 또는 문자(대소문자 미정)
+- 선택적 검사 숫자
+- 선택적 d/D
 
 ### <a name="checksum"></a>체크섬
 
@@ -7287,32 +7307,40 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 ### <a name="definition"></a>정의
 
 DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
-- Func_german_passport 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- 이 `Func_german_passport_checksum` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
 - 키워드를 `Keyword_german_passport` `Keywords_eu_passport_number_common` 찾거나 찾은 경우
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
-- Func_german_passport_data 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- 이 `Func_german_passport` 함수는 9자 패턴과 일치하는 콘텐츠를 검색합니다(검사 숫자 및 선택적 d/D).
 - 키워드를 `Keyword_german_passport` `Keywords_eu_passport_number_common` 찾거나 찾은 경우
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있다는 신뢰도는 낮습니다.
+- 이 `Func_german_passport_checksum` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
 - 체크섬이 통과됩니다.
 
 ```xml
     <!-- German Passport Number -->
     <Entity id="2e3da144-d42b-47ed-b123-fbf78604e52c" patternsProximity="300" recommendedConfidence="75">
-      <Pattern confidenceLevel="85">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_german_passport" />
         <Any minMatches="1">
           <Match idRef="Keyword_german_passport" />
           <Match idRef="Keywords_eu_passport_number_common" />
         </Any>
       </Pattern>
-      <Pattern confidenceLevel="75">
-        <IdMatch idRef="Func_german_passport_data" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_german_passport" />
-          <Match idRef="Keywords_eu_passport_number_common" />
-        </Any>
-      </Pattern>
+      <Version minEngineVersion="15.20.4570.0">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_german_passport_checksum" />
+          <Any minMatches="1">
+            <Match idRef="Keyword_german_passport" />
+            <Match idRef="Keywords_eu_passport_number_common" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Func_german_passport_checksum" />
+        </Pattern>
+      </Version>
     </Entity>
 ```
 
@@ -7853,7 +7881,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 없음
+해당 사항 없음
 
 ### <a name="definition"></a>정의
 
@@ -12008,7 +12036,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 없음
+해당 사항 없음
 
 ### <a name="definition"></a>정의
 
@@ -13023,12 +13051,11 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="format"></a>형식
 
-3개의 문자, 공백(선택 사항) 및 4자리 숫자
+3개의 문자와 4자리 숫자
 
 ### <a name="pattern"></a>패턴
 
 - 'I' 및 'O'를 제외한 3개의 문자(대소문자 구분 안 )
-- 공백(선택 사항)
 - 4자리 숫자
 
 ### <a name="checksum"></a>체크섬
@@ -13065,14 +13092,8 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 - NHI
 - New Zealand
-- 상태
-- 처리
-- 국가 건강 인덱스 번호
-- nhi number
-- nhi no.
+- 국가 건강 인덱스
 - NHI #
-- National Health Index No.
-- National Health Index Id
 - 국가 건강 인덱스 #
 
 ## <a name="new-zealand-social-welfare-number"></a>뉴질랜드 사회 일지 번호
@@ -15794,7 +15815,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ### <a name="checksum"></a>체크섬
 
-해당 없음
+해당 사항 없음
 
 ### <a name="definition"></a>정의
 
@@ -17712,7 +17733,8 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ### <a name="pattern"></a>패턴
 
-9자리 연속 숫자
+- 한 문자 또는 숫자
+- 8자리 숫자
 
 ### <a name="checksum"></a>체크섬
 

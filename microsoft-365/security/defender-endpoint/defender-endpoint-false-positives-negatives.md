@@ -20,14 +20,15 @@ ms.collection:
 - m365solution-scenario
 - m365scenario-fpfn
 ms.topic: how-to
+ms.date: 10/07/2021
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 3182c8360628ab7227840951cb69cc7fc38bdc55
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 17fac205740fca442489ae0608e7998b894128d1
+ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60163111"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60245754"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -35,7 +36,7 @@ ms.locfileid: "60163111"
 
 **적용 대상**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146806) 
 
 끝점 보호 솔루션에서 가짓 긍정은 엔터티가 실제로 위협이 아닌 경우에도 악성으로 검색되고 식별된 파일 또는 프로세스와 같은 엔터티입니다. 거짓 부정은 실제로 악의적이어도 위협으로 검색되지 않은 엔터티입니다. 끝점용 Microsoft Defender를 포함하여 모든 위협 방지 솔루션에서 [가긍성/부정이](microsoft-defender-endpoint.md)발생할 수 있습니다.
 
@@ -79,7 +80,7 @@ ms.locfileid: "60163111"
    |경고 상태|수행할 작업|
    |---|---|
    |경고가 정확합니다.|경고를 할당한 다음 추가로 [조사합니다.](investigate-alerts.md)|
-   |경고가 가긍성입니다.|<ol><li>[경고를 가의](#classify-an-alert) 긍정으로 분류합니다.</li><li>[경고를 표시하지 않습니다.](#suppress-an-alert)</li><li>[끝점용](#indicators-for-microsoft-defender-for-endpoint) Microsoft Defender에 대한 표시기를 생성합니다.</li><li>[분석을 위해 Microsoft에 파일을 제출합니다.](#part-4-submit-a-file-for-analysis)</li></ol>|
+   |경고가 가긍성입니다.|1. [경고를 가짓 긍정으로](#classify-an-alert) 분류합니다.<br/><br/>2. [경고를 표시하지 않습니다.](#suppress-an-alert)<br/><br/>3. [끝점용](#indicators-for-microsoft-defender-for-endpoint) Microsoft Defender에 대한 표시기를 생성합니다.<br/><br/>4. [분석을 위해 Microsoft에 파일을 제출합니다.](#part-4-submit-a-file-for-analysis)|
    |경고는 정확하지만 양성(미미한)|[경고를](#classify-an-alert) 실제 양의 경고로 분류한 다음 [경고를 표시하지 않습니다.](#suppress-an-alert)|
 
 ### <a name="classify-an-alert"></a>경고 분류

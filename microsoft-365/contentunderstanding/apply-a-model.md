@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 ms.localizationpriority: medium
 description: Microsoft SharePoint 문서 라이브러리에 게시된 모델을 적용하는 방법을 SharePoint Syntex.
-ms.openlocfilehash: 23a885194a1bfa6c0f468188944dd00d309f3a09
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f8e6cc20b010df5deafe478bbd718946f328a6af
+ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60194408"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60245732"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 

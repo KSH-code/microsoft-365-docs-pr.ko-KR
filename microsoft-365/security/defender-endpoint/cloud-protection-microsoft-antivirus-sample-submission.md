@@ -14,21 +14,21 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.date: 08/31/2021
+ms.date: 10/05/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f23ff6ccbde512b8c8b3f1da36e86ede1c2d0324
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ffb8ccb40a6fcbe90d8dd0636402f8e9a40f058b
+ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208568"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60245782"
 ---
 # <a name="cloud-protection-and-sample-submission-in-microsoft-defender-antivirus"></a>클라우드 보호 및 샘플 제출(Microsoft Defender 바이러스 백신
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
-- Microsoft Defender 바이러스 백신
+- [Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-windows.md)
 
 Microsoft Defender 바이러스 백신 맬웨어를 검색하는 데는 여러 가지 지능형 메커니즘이 사용되었습니다. 가장 강력한 기능 중 하나는 클라우드의 기능을 적용하여 맬웨어를 감지하고 신속한 분석을 수행하는 기능입니다. 클라우드 보호 및 자동 샘플 제출은 새로운 위협으로부터 Microsoft Defender 바이러스 백신 보호하는 데 도움이 됩니다. 
 
@@ -103,7 +103,7 @@ Intune, Configuration Manager, GPO 또는 PowerShell을 사용하는 구성 옵�
 
 ## <a name="examples-of-metadata-sent-to-the-cloud-protection-service"></a>클라우드 보호 서비스로 전송된 메타데이터의 예
 
-:::image type="content" source="images/cloud-protection-metadata-sample.png" alt-text="그림 2. Microsoft Defender 클라우드 보호로 전송된 메타데이터의 예":::
+:::image type="content" source="images/cloud-protection-metadata-sample.png" alt-text="Microsoft Defender 클라우드 보호로 전송된 메타데이터의 예를 설명하는 이미지":::
 
 다음 표에는 클라우드 보호에서 분석을 위해 전송된 메타데이터의 예가 나열됩니다.
 

@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 09/23/2021
+ms.date: 10/07/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: e265c319f8574a9de02d1f7f7f782e07fb105f91
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0b5fb7ee6a10ef6aa0fc1448f805ff14d51c3582
+ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154605"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60245720"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>끝점용 Microsoft Defender로 전환 - 1단계: 준비
 
@@ -114,12 +114,12 @@ Microsoft 365 Defender 포털()에서는 끝점용 Defender의 기능에 액세�
 
 |기능|운영 체제|리소스|
 |---|---|---|
-|[끝점 검색 및](overview-endpoint-detection-response.md) 응답(EDR)|[Windows 10](/windows/release-health/release-information) <p> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019) <p>Windows Server 2022 <p> <p> [Windows Server 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803)|[컴퓨터 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)|
-|EDR|[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p> [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) <p> [Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <p> [Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)|[프록시 및 인터넷 연결 설정 구성](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings)|
-|EDR|macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)|[MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)|
-|[Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)|[Windows 10](/windows/release-health/release-information) <p> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p> Windows Server 2022 <p> [Windows Server 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803) <p> [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)|[Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)|
-|바이러스 검사|macOS: 11.3.1(Big Sur); 10.15(카탈로나); 10.14(모잡)|[MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)|
-|바이러스 검사|Linux: RHEL 7.2+; CentOS Linux 7.2+; Ubuntu 16 LTS 이상; SLES 12+; 데비안 9+; Oracle Linux 7.2|[Linux의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-linux.md#network-connections)|
+|[끝점 검색 및](overview-endpoint-detection-response.md) 응답(EDR)|[Windows 10](/windows/release-health/release-information)<br/><br/>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/><br/>Windows Server 2022 <br/><br/>[Windows Server 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803)|[컴퓨터 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)|
+|EDR|[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<br/><br/>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/><br/>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/><br/>[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/><br/>[Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)|[프록시 및 인터넷 연결 설정 구성](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings)|
+|EDR|macOS:<br/> 11.3.1(Big Sur)<br/>10.15(카탈로나)<br/>10.14(모잡)|[MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)|
+|[Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)|[Windows 10](/windows/release-health/release-information) <br/><br/> [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/><br/> Windows Server 2022 <br/><br/> [Windows Server 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803) <br/><br/> [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)|[Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)|
+|바이러스 검사|macOS:<br/> 11.3.1(Big Sur)<br/>10.15(카탈로나)<br/>10.14(모잡)|[MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)|
+|바이러스 검사|Linux:<br/> RHEL 7.2+<br/>CentOS Linux 7.2+<br/>Ubuntu 16 LTS 이상<br/>SLES 12+<br/>데비안 9+<br/>Oracle Linux 7.2|[Linux의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-linux.md#network-connections)|
 
 
 ## <a name="next-step"></a>다음 단계
