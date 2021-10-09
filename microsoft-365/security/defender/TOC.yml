@@ -138,12 +138,6 @@
               href: incident-queue.md
             - name: 인시던트 관리
               href: manage-incidents.md
-            - name: 인시던트 조사
-              href: investigate-incidents.md
-            - name: 경고 조사
-              href: investigate-alerts.md
-            - name: 사용자 조사
-              href: investigate-users.md
             - name: 첫 번째 인시던트에 대응
               items:
                 - name: 개요
@@ -162,6 +156,14 @@
                       href: first-incident-path-phishing.md
                     - name: ID
                       href: first-incident-path-identity.md
+            - name: 인시던트 조사
+              items:
+                - name: 인시던트
+                  href: investigate-incidents.md
+                - name: 경고
+                  href: investigate-alerts.md
+                - name: 사용자
+                  href: investigate-users.md
             - name: 인시던트 대응 플레이북
               href: /security/compass/incident-response-playbooks
             - name: 인시던트 전자 메일 알림 받기
@@ -324,14 +326,6 @@
           href: integrate-microsoft-365-defender-secops-use-cases.md
         - name: 6단계. SOC 유지 관리 작업
           href: integrate-microsoft-365-defender-secops-tasks.md
-    - name: 사용 방법 가이드
-      items:
-        - name: 평가판 랩 또는 파일럿 환경 만들기
-          href: eval-overview.md
-        - name: 파일럿 플레이북 실행
-          href: eval-overview.md
-        - name: FAQ 사용 설정
-          href: m365d-enable-faq.md
     - name: 참조
       items:
         - name: 사용 권한 및 설정
