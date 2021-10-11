@@ -19,12 +19,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 이 문서에 포함된 템플릿 중 하나를 사용하여 DLP 정책을 만드는 방법을 Office 365.
-ms.openlocfilehash: 4f3647d5f1d320f57243570b58d10cb1726728b6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7ea3e320a75953f51315579549a6dd5086706d12
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60167381"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264903"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 
@@ -40,7 +40,7 @@ Microsoft 365 다양한 일반 규정 및 비즈니스 정책 요구를 충족�
 
 1. <https://compliance.microsoft.com>에서 로그인합니다.
 
-2. 준수 센터 왼쪽 \> 탐색 데이터 손실 \> **방지** \> **정책** \> **+ 정책 만들기에서**.
+2. 준수 센터 왼쪽 \> 탐색 \> **솔루션** \> **데이터 손실 방지** \> **정책** + 정책 \> **만들기 에서**
 
     ![정책 단추를 만드십시오.](../media/b1e48a08-92e2-47ca-abdc-4341694ddc7c.png)
           

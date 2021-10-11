@@ -18,16 +18,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: d44d285959e0529a694b2022d35f2b7e7a575fdc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 113fd3ec196ec6b16c49435e14ed213cd193e5db
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60192262"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264747"
 ---
 # <a name="get-started-with-activity-explorer"></a>활동 탐색기 시작하기
 
-데이터 [분류 개요 및](data-classification-overview.md) 콘텐츠 [탐색기](data-classification-content-explorer.md) 탭을 사용하면 검색되고 레이블이 지정되는 콘텐츠와 해당 콘텐츠의 위치를 확인할 수 있습니다. 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠로 수행한 작업을 모니터링할 수 있도록 하여 이 기능 제품군을 자세히 설명합니다. 활동 탐색기는 레이블이 지정한 콘텐츠에 대한 활동의 기록 보기를 제공합니다. 활동 정보는 통합 감사 Microsoft 365 수집되어 활동 탐색기 UI에서 사용할 수 있도록 변환됩니다. 
+데이터 [분류 개요 및](data-classification-overview.md) 콘텐츠 [탐색기](data-classification-content-explorer.md) 탭을 사용하면 검색되고 레이블이 지정되는 콘텐츠와 해당 콘텐츠의 위치를 확인할 수 있습니다. 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠로 수행한 작업을 모니터링할 수 있도록 하여 이 기능 제품군을 자세히 설명합니다. 활동 탐색기는 레이블이 지정한 콘텐츠에 대한 활동의 기록 보기를 제공합니다. 활동 정보는 통합 감사 Microsoft 365 로그에서 수집되고 변환되어 활동 탐색기 UI에서 사용할 수 있습니다. 활동 탐색기는 최대 30일 동안의 데이터를 보고합니다.
 
 ![자리 holder 스크린샷 개요 활동 탐색기입니다.](../media/data-classification-activity-explorer-1.png)
 
@@ -74,6 +74,7 @@ ms.locfileid: "60192262"
 
 - 준수 관리자
 - 보안 관리자
+- 보안 읽기 권한자
 
 ## <a name="activity-types"></a>활동 유형
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: 정책의 DLP Office 365 DLP 정책 일치, 재지정 또는 가짓 긍정 수를 보고 시간이 경과에 따라 추세인지 또는 하락 추세인지를 볼 수 있습니다.
-ms.openlocfilehash: c585d65a9ce91ca0fae3881efc107efdd4537889
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 711ed74ca53ec09be6b2fd5738246dffab332307
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198580"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264939"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>데이터 손실 방지에 대한 보고서 보기
 
@@ -88,7 +88,7 @@ DLP 정책에서 사용자가 이를 재정의할 수 있도록 허용하는 경
 
 대부분의 보안 &amp; 준수 센터용 cmdlet을 사용하려면 다음의 단계를 따르십시오:
   
-1. [커넥트 PowerShell을 사용하여 보안 및 준수 &amp; 센터에 연결](/powershell/exchange/connect-to-scc-powershell&amp;clcid=0x409)
+1. [커넥트 PowerShell을 사용하여 보안 및 준수 &amp; 센터에 연결](/powershell/exchange/connect-to-scc-powershell)
     
 2. 다음 보안 및 준수 센터 [ &amp; cmdlet 사용](/powershell/exchange/exchange-online-powershell)
     

@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP 정책 구성 요소 및 구성 참조
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: b2cfc2e9387b9c29fd7bd6141046436254f88704
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d5b4c4f99d146ceff683a4fbf6dcb36018d40a16
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201244"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264774"
 ---
 # <a name="data-loss-prevention-policy-reference"></a>데이터 손실 방지 정책 참조
 
@@ -322,7 +322,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 
 ![제외가 있는 HIPPA 정책](../media/dlp-rule-exceptions.png)
 
-위치에서 지원되는 예외 조건은 모든 포함 조건과 동일합니다. 단, 지원되는 각 조건에 대해 "If 제외"의 보류 중 유일한 차이점이 있습니다.
+위치에서 지원되는 예외 조건은 모든 포함 조건과 동일합니다. 단, 지원되는 각 조건에 대해 "If 제외"의 보류 중 유일한 차이점이 있습니다. 예외만 포함된 규칙은 제외 조건을 충족하지 않는 모든 전자 메일 또는 파일에 적용됩니다.
 
 모든 위치에서 포괄 조건을 지원하는 경우와 같습니다.
 

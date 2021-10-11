@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6d40ed80bdbf77e6cbc2c9489462c734840755cd
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 50077baad1bb028e9686cf29105ec2c05eb25024
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240621"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264783"
 ---
 # <a name="server-migration-scenarios-from-the-previous-mma-based-microsoft-defender-for-endpoint-solution"></a>이전의 MMA 기반 Microsoft Defender for Endpoint 솔루션의 서버 마이그레이션 시나리오
 
@@ -49,19 +49,23 @@ ms.locfileid: "60240621"
 
 업그레이드를 수행하지 Microsoft Endpoint Configuration Manager 또는 아직 업그레이드를 수행할 수 없는 경우 업그레이드를 용이하게 하기 위해 이 업그레이드 스크립트 를 [사용할 수 있습니다.](https://github.com/microsoft/mdefordownlevelserver) 다음과 같은 필수 단계를 자동화하는 데 도움이 될 수 있습니다.
 
-1. 끝점용 Microsoft Defender의 OMS 작업 영역 제거(OPTIONAL)
-2. 설치된 System Center Endpoint Protection 클라이언트 제거
-3. 필요한 경우 R2의 Windows Server 2012 다운로드 및 [설치](configure-server-endpoints.md#prerequisites)
-4. 끝점용 Microsoft Defender 설치
+1. 끝점용 Microsoft Defender의 OMS 작업 영역(OPTIONAL)을 제거합니다.
+2. 설치된 System Center Endpoint Protection 클라이언트를 제거합니다.
+3. 필요한 경우 R2(Windows Server 2012)를 다운로드하여 설치합니다. [](configure-server-endpoints.md#prerequisites)
+4. 끝점용 Microsoft Defender를 설치합니다.
 5. 에서 다운로드한  그룹 정책에 사용할 온보딩 스크립트를 [Microsoft Defender 보안 센터.](https://securitycenter.microsoft.com)
 
-스크립트를 사용하려면 설치 및 온보딩 패키지도 배치한 설치 디렉터리에 다운로드합니다(서버 끝점 구성 [참조).](configure-server-endpoints.md)
+스크립트를 사용하려면 설치 및 온보딩 패키지도 배치한 설치 디렉터리에 다운로드합니다(서버 끝점 [구성 참조).](configure-server-endpoints.md)
 
 예: .\install.ps1 -RemoveMMA <YOUR_WORKSPACE_ID> -OnboardingScript ".\WindowsDefenderATPOnboardingScript.cmd"
 
 ## <a name="microsoft-endpoint-configuration-manager-migration-scenarios"></a>Microsoft Endpoint Configuration Manager 마이그레이션 시나리오 
 
 ### <a name="you-are-currently-using-microsoft-endpoint-configuration-manager-to-manage-your-servers-including-system-center-endpoint-protection-scep-and-are-running-the-microsoft-monitoring-agent-mma-based-sensor-you-want-to-upgrade-to-the-microsoft-defender-for-endpoint-unified-solution-preview"></a>현재 Microsoft Endpoint Configuration Manager SCEP(System Center Endpoint Protection)를 포함하여 서버를 관리하고 MMA(Microsoft Monitoring Agent) 기반 센서를 실행하고 있습니다. 끝점 통합 솔루션 미리 보기용 Microsoft Defender로 업그레이드하려는 **경우**
+
+>[!NOTE]
+>버전 Microsoft Endpoint Configuration Manager 2107이 필요합니다.
+
 
 마이그레이션 단계: 
 

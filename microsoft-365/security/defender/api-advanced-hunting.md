@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 2752de976329f3fbef047557e6a626afd05a520f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a7be2c43a2ff97fddfa9db0a6d02bcc611e13173
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206640"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264867"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender 고급 헌팅 API
 
@@ -46,7 +46,7 @@ ms.locfileid: "60206640"
 
 1. 쿼리는 지난 30일 동안의 데이터를 탐색하고 반환합니다.
 2. 결과는 최대 100,000개 행을 반환할 수 있습니다.
-3. 테넌트당 분당 최대 15통의 통화를 만들 수 있습니다.
+3. 테넌트당 분당 최대 45통의 통화를 만들 수 있습니다.
 4. 다음 15분 주기가 지날 때까지 테넌트가 100%에 도달하면 쿼리가 차단됩니다.
 5. 단일 요청이 10분 이상 실행되는 경우 시간이 너무 까다로우며 오류가 반환됩니다.
 6. HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문을 읽고 도달한 제한을 이해합니다. 

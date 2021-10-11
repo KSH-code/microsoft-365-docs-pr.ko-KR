@@ -79,4 +79,4 @@
     - name: 용어 저장소 보고서
       href: term-store-analytics.md
 - name: 확장성
-  href: /sharepoint/dev/apis/syntex/syntex-model-rest-api.md
+  href: /sharepoint/dev/apis/syntex/syntex-model-rest-api

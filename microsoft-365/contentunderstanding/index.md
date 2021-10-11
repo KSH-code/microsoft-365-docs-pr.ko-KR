@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 ms.localizationpriority: medium
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 0b81da28d587b9041e6a59e183926f4486282d36
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6e738a90486b0aa1d37c483a6e369a84a2196a9d
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195488"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264711"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
@@ -70,6 +70,7 @@ SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이 되는 Mi
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |SharePoint Syntex 설정 및 구성|[SharePoint Syntex 설정](./set-up-content-understanding.md)|
+|SharePoint Syntex 라이선싱에 대해 알아보기|[SharePoint Syntex에 대한 라이선싱](./syntex-licensing.md)|
 |이미지 태그 지정 및 사용 해제 방법에 대 한 자세한 정보|[SharePoint Syntex에서 이미지 태그 지정](./image-tagging.md)|
 
 ## <a name="models"></a>모델
@@ -95,3 +96,10 @@ SharePoint Syntex 라이선스는 사용자에게 Microsoft 365 환경에서 추
 |SharePoint 라이브러리 및 목록에서 콘텐츠 형식을 더욱 일관되게 사용하는 방법을 알아봅니다.|[콘텐츠 형식을 허브로 푸시](./push-content-type-to-hub.md)|
 |사용할 수 있는 용어 저장소 보고서에 대한 자세한 정보|[용어 저장소 보고서](./term-store-analytics.md)|
 
+## <a name="extensibility"></a>확장성
+
+REST API를 사용하여 문서 이해 모델을 만들고, 하나 이상의 라이브러리에 모델을 적용 또는 제거하고, 모델에 대한 정보를 얻거나 업데이트합니다.
+
+| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
+|:-----|:-----|
+|문서 이해 모델을 위한 REST API 사용|[SharePoint Syntex 문서 이해 모델 REST API](/sharepoint/dev/apis/syntex/syntex-model-rest-api)|

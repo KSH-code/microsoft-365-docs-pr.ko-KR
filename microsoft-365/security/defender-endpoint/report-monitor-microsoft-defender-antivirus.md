@@ -11,23 +11,20 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 09/23/2021
+ms.date: 10/11/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 6c9b334f2da04c3ad55f8c1faedad5f823c2571a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9aecf89ca654bb4f1896fb8f632a72da83f2f1e9
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60151905"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264699"
 ---
 # <a name="report-on-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에 대한 보고
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -36,8 +33,6 @@ ms.locfileid: "60151905"
 Microsoft Defender 바이러스 백신 Windows 10 Server 2019, Windows Server 2022 및 Windows Windows Server 2016. Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint의 차세대 보호 기능입니다. 차세대 보호는 전자 메일, 앱, 클라우드 및 웹에서 바이러스, 맬웨어 및 스파이웨어와 같은 소프트웨어 위협으로부터 장치를 보호하는 데 도움이 됩니다.
 
 이 Microsoft Defender 바이러스 백신 보호 상태 및 경고를 검토하기 위한 몇 가지 옵션이 있습니다. 전자 메일 알림을 Microsoft Endpoint Manager [모니터링하거나 Microsoft Defender 바이러스 백신](/configmgr/protect/deploy-use/monitor-endpoint-protection) [수 있습니다.](/configmgr/protect/deploy-use/endpoint-configure-alerts) 또는 를 사용하여 보호를 모니터링할 [Microsoft Intune.](/intune/introduction-intune)
-
-Microsoft Operations Management [](/windows/deployment/update/update-compliance-get-started) Suite에는 보호 업데이트 및 실시간 보호 설정을 비롯한 주요 Microsoft Defender 바이러스 백신 문제를 보고하는 업데이트 준수 추가 기능도 있습니다.
 
 타사 SIEM(보안 정보 및 이벤트 관리) 서버가 있는 경우 클라이언트 이벤트 를 사용할 [Windows Defender 있습니다.](/windows/win32/events/windows-events)
 
@@ -49,7 +44,7 @@ Windows 이벤트는 SAM(보안 계정 관리자) 이벤트(보안 계정[](/win
 
 PowerShell, WMI 또는 Microsoft Azure 모니터링 또는 확인은 (배포, 관리 및 보고 옵션 표)를 [참조하세요.](deploy-manage-report-microsoft-defender-antivirus.md#ref2)
 
-## <a name="related-articles"></a>관련 문서
+## <a name="see-also"></a>참고 항목
 
 - [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
 - [Windows Server 2016 및 2019의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md)

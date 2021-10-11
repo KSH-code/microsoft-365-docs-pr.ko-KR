@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fa6527c2c33eb4bf245f6e1a54a1d6995d074b1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9d1856d0019a95f200b6be33f3f29ae3e471685e
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60167405"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264927"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -57,7 +57,7 @@ ms.locfileid: "60167405"
 
 이 절차를 사용하여 사용자가 완전히 정의하는 중요한 정보 유형을 새로 만들 수 있습니다. 
 
-1. 규정 준수 센터에서 **데이터 분류** \> **중요한 정보 유형** 으로 이동하여 **정보 유형 만들기** 를 선택합니다.
+1. 준수 센터에서 데이터 **분류** 중요한 정보 유형으로 \> **이동하여** 중요한 정보 유형 **만들기 를 선택하세요.**
 2. **이름** 및 **설명** 값을 입력하고 **다음** 을 선택합니다.
 3. **패턴 만들기** 를 선택합니다. 새 중요한 정보 유형을 정의할 때 각각 서로 다른 요소와 신뢰 수준이 있는 여러 개의 패턴을 만들 수 있습니다.
 4. 패턴의 기본 신뢰 수준을 선택합니다. 값에는 **낮은 신뢰 신뢰도**, **보통 신뢰도** 및 **높은 신뢰도** 가 있습니다.

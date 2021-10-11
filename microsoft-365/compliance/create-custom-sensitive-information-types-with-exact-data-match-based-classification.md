@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 141178db0ba221d6e8ef9c5f3d4d85bb90607fb1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 98dae682c8837a87d7c757b25111f4985e6e6489
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60160067"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264807"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -37,12 +37,12 @@ ms.locfileid: "60160067"
 
 하지만 일반적인 패턴을 기반으로 일치 항목을 찾는 대신 정확한 데이터 값을 사용하는 사용자 지정 SIT(중요한 정보 유형)을 원한다면 어떻게 해야 할까요? 정확한 데이터 매치(EDM) 기반 분류를 사용하여 다음과 같이 설계된 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
 
-- 역동적이며 쉽게 새로 고침
-- 확장성 향상
-- 가양성 수 감소
-- 구조화된 중요한 데이터 사용
-- 중요한 정보를 더 안전하게 처리
-- 여러 Microsoft 클라우드 서비스와 함께 사용 가능
+- 동적이며 쉽게 새로 고칠 수 있습니다.
+- 보다 확장성이 있습니다.
+- 가을 더 적게 밝게 합니다.
+- 구조화된 중요한 데이터로 작업할 수 있습니다.
+- 중요한 정보를 보다 안전하게 처리합니다.
+- 여러 Microsoft 클라우드 서비스와 사용 가능.
 
 ![EDM 기반 분류.](../media/EDMClassification.png)
 
@@ -62,7 +62,7 @@ EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확�
 
 이 문서에 설명된 작업을 수행하려면 전역 관리자, 준수 관리자 또는 Exchange Online 관리자여야 합니다. DLP 권한에 관한 자세한 내용은 [권한](data-loss-prevention-policies.md#permissions)을 참조하세요.
 
-EDM 기반 분류가 이 구독에 포함되어 있습니다
+EDM 기반 분류가 이 구독에 포함되어 있습니다.
 
 - Office 365 E5
 - Microsoft 365 E5
@@ -89,9 +89,9 @@ EDM 기반 분류가 이 구독에 포함되어 있습니다
 
 EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 
-1. [중요한 데이터를 .csv .tsv 형식으로 저장](#save-sensitive-data-in-csv-or-tsv-format)
-2. [중요한 정보 데이터베이스 스키마 정의](#define-the-schema-for-your-database-of-sensitive-information)
-3. [규칙 패키지 만들기](#set-up-a-rule-package)
+1. [중요한 데이터를 .csv .tsv 형식으로 저장합니다.](#save-sensitive-data-in-csv-or-tsv-format)
+2. [중요한 정보 데이터베이스 schema 를 정의합니다.](#define-the-schema-for-your-database-of-sensitive-information)
+3. [규칙 패키지를 만들 수 있습니다.](#set-up-a-rule-package)
 
 #### <a name="save-sensitive-data-in-csv-or-tsv-format"></a>중요한 데이터를 .csv .tsv 형식으로 저장
 
@@ -269,21 +269,21 @@ PatientRecords 스키마가 검색 가능한 5개의 필드를 정의한 이전 
 
 ```xml
 <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
-      <Pattern confidenceLevel="65">
-        <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
-      </Pattern>
-      <Pattern confidenceLevel="75">
-        <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
-        <Any minMatches ="3" maxMatches ="100">
-          <match matches="PatientID" />
-          <match matches="MRN"/>
-          <match matches="FirstName"/>
-          <match matches="LastName"/>
-          <match matches="Phone"/>
-          <match matches="DOB"/>
-        </Any>
-      </Pattern>
-    </ExactMatch>
+  <Pattern confidenceLevel="65">
+    <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+    <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
+    <Any minMatches ="3" maxMatches ="100">
+      <match matches="PatientID" />
+      <match matches="MRN"/>
+      <match matches="FirstName"/>
+      <match matches="LastName"/>
+      <match matches="Phone"/>
+      <match matches="DOB"/>
+    </Any>
+  </Pattern>
+</ExactMatch>
 ```
 
 이 예에서는 다음 사항에 유의하세요.
@@ -376,14 +376,14 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 #### <a name="prerequisites"></a>필수 구성 요소
 
-- **EDM\_DataUploaders** 보안 그룹에 추가될 Microsoft 365용 회사 또는 학교 계정
-- EDMUploadAgent 실행을 위한 .NET 버전 4.6.2가있는 Windows 10 또는 Windows Server 2016 시스템
+- **EDM \_ DataUploaders** Microsoft 365 그룹에 추가할 작업 또는 학교 계정입니다.
+- EDMUploadAgent를 Windows 10.Windows Server 2016 .NET 버전 4.6.2가 있는 컴퓨터 또는 컴퓨터입니다.
 - 다음에 대한 업로드 컴퓨터의 디렉토리 :
-  - EDMUploadAgent
-  - 예제에 설명된 .csv 또는 .tsv 형식의PatientRecords.csv파일 
-  - 출력 해시 및 솔트 파일
-  - **edm.xml** 파일의 데이터 저장소 이름(이 예에서는 `PatientRecords`)
-- [정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사](sit-edm-wizard.md)를 사용한 경우 ****다운로드해야만*** 합니다.
+  - EDMUploadAgent.
+  - 예제에서 .csv 또는 .tsv 형식의PatientRecords.csv 파일입니다.
+  - 출력 해시 및 솔트 파일.
+  - edm.xml데이터 **edm.xml;** 이 예제의 경우 `PatientRecords` 입니다.
+- 정확한 데이터 [일치chema](sit-edm-wizard.md)및 중요한 정보 유형 마법사를 사용한 경우 해당 마법사를 ***다운로드해야*** 합니다.
 
 #### <a name="set-up-the-security-group-and-user-account"></a>보안 그룹 및 사용자 계정 설정
 
@@ -433,25 +433,25 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
    선택 사항: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하여 스키마 및 패턴 파일을 생성한 경우 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>
    ```
 
 5. 중요한 데이터를 해시하고 업로드하려면 명령 프롬프트 창에서 다음 명령을 실행하세요.
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"] /AllowedBadLinesPercentage [value]
    ```
 
    예: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml /AllowedBadLinesPercentage 5**
 
    중요한 데이터 파일의 기본 형식은 콤보로 구분된 값입니다. /ColumnSeparator 매개 변수를 사용하여 "{Tab}" 옵션을 지정하여 탭으로 구분된 파일을 지정하거나 "|" 옵션을 지정하여 파이프로 구분된 파일을 지정할 수 있습니다.
-   중요한 정보 테이블에 형식이 잘못 지정되어 있지만 잘못된 행을 아우르는 동안 나머지 데이터를 가져오고자 하는 경우 명령에서 /AllowedBadLinesPercentage 매개 변수를 사용할 수 있습니다. 위의 예제에서는 5% 임계값을 지정합니다. 즉, 행의 최대 5%가 유효하지 않은 경우에도 도구가 중요한 정보 테이블을 해시하고 업로드합니다. 이 설정의 기본값은 1%입니다. 
+   중요한 정보 테이블에 형식이 잘못 지정되어 있지만 잘못된 행을 아우르는 동안 나머지 데이터를 가져오고자 하는 경우 명령에서 **/AllowedBadLinesPercentage** 매개 변수를 사용할 수 있습니다. 위의 예제에서는 5% 임계값을 지정합니다. 즉, 행의 최대 5%가 유효하지 않은 경우에도 도구가 중요한 정보 테이블을 해시하고 업로드합니다. 이 매개 변수를 지원하는 도구 버전에서 기본 임계값은 0%입니다. 따라서 행이 잘못 표시될 경우 오류가 발생합니다. 
    이 명령은 보안을 강화하기 위해 임의로 생성된 솔트 값을 해시에 자동으로 추가합니다. 선택에 따라, 고유한 솔트 값을 사용하려면 **/Salt <saltvalue>** 를 명령에 추가하세요. 이 값은 길이가 64자여야 하며 a-z 문자와 0-9만 포함할 수 있습니다.
 
 6. 다음 명령을 실행하여 업로드 상태를 확인하세요.
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>
    ```
 
@@ -465,23 +465,23 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 선택 사항: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하여 스키마 및 패턴 파일을 생성한 경우 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
-```dos
+```console
 EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>
 ````
 
 1. 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /AllowedBadLinesPercentage [value]
    ```
 
    예를 들면 :
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml /AllowedBadLinesPercentage 5
    ```
 
-   **/Salt <saltvalue>** 옵션을 지정하지 않은 경우 해시 파일과 이러한 확장자를 가진 솔트 파일이 출력됩니다.
+   **/Salt \<saltvalue\>** 옵션을 지정하지 않은 경우 해시 파일과 이러한 확장자를 가진 솔트 파일이 출력됩니다.
 
    - .EdmHash
    - .EdmSalt
@@ -490,19 +490,19 @@ EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to 
 
    해시된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>
    ```
 
    예를 들어,
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
    ```
 
    중요한 데이터가 업로드 되었는지 확인하려면 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /GetDataStore
    ```
 
@@ -510,7 +510,7 @@ EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to 
 
    특정 저장소에 대한 모든 데이터 업로드를 표시하려면 Windows 명령 프롬프트에서 다음 명령을 실행 합니다.
 
-   ```dos
+   ```console
    EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>
    ```
 
@@ -526,8 +526,8 @@ EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to 
 
 2. 중요한 데이터를 앱으로 다시 내보내고(예: Microsoft Excel) 파일을 .csv .tsv 형식으로 저장합니다. [중요한 데이터 해시 및 업로드](#part-2-hash-and-upload-the-sensitive-data)에 설명된 단계를 따를 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.
 
-      > [!NOTE]
-      > .csv 또는 .tsv 파일의 구조(필드 이름)가 변경되지 않은 경우 데이터를 새로 고칠 때 데이터베이스 체계 파일을 변경할 필요가 없습니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
+    > [!NOTE]
+    > .csv 또는 .tsv 파일의 구조(필드 이름)가 변경되지 않은 경우 데이터를 새로 고칠 때 데이터베이스 체계 파일을 변경할 필요가 없습니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
 
 3. [작업 스케줄러](/windows/desktop/TaskSchd/task-scheduler-start-page)를 사용하여 [중요한 데이터 해시 및 업로드](#part-2-hash-and-upload-the-sensitive-data) 절차의 2단계와 3단계를 자동화합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
 
@@ -650,7 +650,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 10. **조건** 섹션의 **+ 조건 추가** 목록에서 **콘텐츠가 중요한 유형을 포함** 을 선택합니다.
 
-      ![콘텐츠에는 중요한 정보 유형이 포함되어 있습니다.](../media/edm-dlp-newrule-conditions.png)
+    ![콘텐츠에는 중요한 정보 유형이 포함되어 있습니다.](../media/edm-dlp-newrule-conditions.png)
 
 11. 규칙 패키지를 설정할 때 만든 중요한 정보 유형을 검색한 다음 **+ 추가** 를 선택합니다.
     그런 다음 **완료** 를 선택합니다.
