@@ -17,12 +17,12 @@ ms.collection:
 description: 개별 사용자 또는 전체 조직에 대해 보고서 메시지 또는 Outlook 및 웹용 Outlook 피싱 보고 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 47ba6d4d9f02934f05a98cf8ef01820a9daac8d9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b0f8e835f8439c4b45c8cd005429f68f267150d2
+ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191458"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268815"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>보고서 메시지 또는 보고서 피싱 추가 기능 사용
 
@@ -50,7 +50,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 전역 관리자 또는 Exchange Online 관리자로서 Exchange OAuth 인증을 사용하도록 구성된 경우 조직에 대해 보고서 메시지 추가 기능 및 피싱 보고 추가 기능을 사용하도록 설정할 수 있습니다. 이제 중앙 집중식 배포를 통해 두 추가 [기능을 모두 사용할 수 있습니다.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 보고서 메시지 추가 기능 및 피싱 보고 추가 기능 모두 대부분의 Microsoft 365 및 다음 제품과 함께 작동합니다.
   - 웹용 Outlook
@@ -69,7 +69,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 - 보고서 메시지 기능을 사용하여 메시지를 보고하는 방법에 대한 자세한 내용은 report [false positives and false negatives in Outlook.](report-false-positives-and-false-negatives.md)
 
-- URL 필터링 또는 보안 솔루션(예: Proxy 및 FireWall)이 있는 조직은 HTTPS 프로토콜에서 ipagave.azurewebsites.net outlook.office.com 끝점에 도달할 수 있도록 허용해야 합니다.
+- URL 필터링 또는 보안 솔루션(예: 프록시 및/또는 방화벽)이 있는 조직은 HTTPS 프로토콜에서 ipagave.azurewebsites.net outlook.office.com 끝점에 도달할 수 있도록 허용해야 합니다.
 
 
 > [!IMPORTANT]

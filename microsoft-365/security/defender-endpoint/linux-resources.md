@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 89178fc9c8ec44da0f9f51e2c4bfc6b1dfbab138
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8d7de5d6b897d93b0112745ed566879a451e5448
+ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60211072"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268557"
 ---
 # <a name="resources"></a>리소스
 
@@ -125,6 +125,9 @@ Linux에서 끝점용 Defender를 제거하는 방법에는 여러 가지가 있
 |구성|PUA 보호 켜기|`mdatp threat policy set --type potentially_unwanted_application --action block`|
 |구성|PUA 보호 끄기|`mdatp threat policy set --type potentially_unwanted_application --action off`|
 |구성|PUA 보호에 대한 감사 모드 켜기|`mdatp threat policy set --type potentially_unwanted_application --action audit`|
+|구성|요구 시 검사에 대한 병렬 처리 수준 구성|`mdatp config maximum-on-demand-scan-threads --value [numerical-value-between-1-and-64]`|
+|구성|보안 인텔리전스 업데이트 후 검사 켜기/끄기|`mdatp config scan-after-definition-update --value [enabled/disabled]`|
+|구성|보관 검색 켜기/끄기(요구 시 검사만 해당)|`mdatp config scan-archives --value [enabled/disabled]`|
 |진단|로그 수준 변경|`mdatp log level set --level verbose [error|warning|info|verbose]`|
 |진단|진단 로그 생성|`mdatp diagnostic create --path [directory]`|
 |상태|제품의 상태 확인|`mdatp health`|
@@ -142,37 +145,6 @@ Linux에서 끝점용 Defender를 제거하는 방법에는 여러 가지가 있
 |Quarantine management|Quarantine에서 파일 복원|`mdatp threat quarantine restore --id [threat-id]`|
 |끝점 검색 및 응답|초기 미리 보기 설정(사용되지 않은)|`mdatp edr early-preview [enable|disable]`|
 |끝점 검색 및 응답|group-id 설정|`mdatp edr group-ids --group-id [group-id]`|
-|끝점 검색 및 응답|태그 설정/제거(지원되는 `GROUP` 태그만)|`mdatp edr tag set --name GROUP --value [tag]`|
+|끝점 검색 및 응답|태그 설정/제거,지원만 `GROUP`|`mdatp edr tag set --name GROUP --value [tag]`|
 |끝점 검색 및 응답|목록 제외(루트)|`mdatp edr exclusion list [processes|paths|extensions|all]`|
 |
-
-## <a name="microsoft-defender-for-endpoint-portal-information"></a>끝점 포털 정보용 Microsoft Defender
-
-끝점용 Defender 포털에는 다음과 같은 두 가지 범주의 정보가 있습니다.
-
-- 다음을 비롯한 바이러스 백신 경고
-  - 심각도
-  - 검사 유형
-  - 장치 정보(호스트 이름, 장치 식별자, 테넌트 식별자, 앱 버전 및 OS 유형)
-  - 파일 정보(이름, 경로, 크기 및 해시)
-  - 위협 정보(이름, 유형 및 상태)
-- 다음을 비롯한 장치 정보
-  - 장치 식별자
-  - 테넌트 식별자
-  - 앱 버전
-  - Hostname(호스트 이름)
-  - OS 유형
-  - OS 버전
-  - 컴퓨터 모델
-  - 프로세서 아키텍처
-  - 디바이스가 가상 컴퓨터인지 여부
-
-### <a name="known-issues"></a>알려진 문제
-
-- 제품이 예상대로 작동하고 있도 Microsoft 365 Defender 포털의 컴퓨터 정보 페이지에 "센서 데이터 없음, 통신 장애가 있습니다."가 표시될 수 있습니다. We are working on addressing this issue.
-- 로그온한 사용자가 로그인 포털에 Microsoft 365 Defender 않습니다.
-- SUSE 배포에서 *libatomic1* 설치가 실패하면 OS가 등록되어 있는지 유효성을 검사해야 합니다.
-
-   ```bash
-   sudo SUSEConnect --status-text
-   ```

@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: b50e320752f64360132410c50f454fbfbfd27a82
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5fa3ad73ffbc869a700776319477c5ab3128cae5
+ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195620"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268757"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -127,8 +127,9 @@ ms.locfileid: "60195620"
 
 - 감사 로그에서 프로그래밍 방식으로 데이터를 다운로드하려면 PowerShell 스크립트를 사용하는 대신 Office 365 관리 작업 API를 사용하는 것이 좋습니다. Office 365 관리 작업 API는 조직의 작업, 보안 및 규정 준수 모니터링 솔루션을 개발하는 데 사용할 수 있는 REST 웹 서비스입니다. 자세한 내용은 [Office 365 관리 작업 API 참조](/office/office-365-management-api/office-365-management-activity-api-reference)를 참조하세요.
 
-- 감사 로그 검색 결과에 해당 감사 로그 레코드가 반환되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. 다음 표에는 Microsoft 365의 여러 서비스가 표시되는 데 걸리는 시간이 나와 있습니다.
+- Azure A (azure Active Directory)는 Microsoft 365의 디렉터리 서비스입니다. 통합 감사 로그에는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](/azure/active-directory/reports-monitoring/concept-audit-logs)를 참조하세요.
 
+- 감사 로그 검색 결과에 해당 감사 로그 레코드가 반환되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. 다음 표에는 Microsoft 365의 여러 서비스가 표시되는 데 걸리는 시간이 나와 있습니다.
 
   |Microsoft 365 서비스 또는 기능|30분|24시간|
   |---|:---:|:---:|
@@ -151,8 +152,6 @@ ms.locfileid: "60195620"
   |Yammer||![확인 표시입니다.](../media/checkmark.png)|
   |Microsoft Forms|![확인 표시입니다.](../media/checkmark.png)||
   ||||
-
-- Azure A (azure Active Directory)는 Microsoft 365의 디렉터리 서비스입니다. 통합 감사 로그에는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](/azure/active-directory/reports-monitoring/concept-audit-logs)를 참조하세요.
 
 - Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
 
@@ -426,7 +425,6 @@ Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니�
     :::column-end:::
 :::row-end:::
 
-
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
 
 다음 표에서는 SharePoint Online 및 비즈니스용 OneDrive의 파일 및 페이지 활동에 대해 설명합니다.
@@ -589,8 +587,8 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
-|컴퓨터에서 파일을 동기화할 수 있도록 허용됨|ManagedSyncClientAllowed|사용자가 사이트와 동기화 관계를 설정합니다. 사용자 컴퓨터가 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용-받는 사람 목록*)에 추가된 도메인의 구성원이므로 동기화 관계는 성공적으로 설정됩니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](/powershell/module/sharepoint-online/)을 참조하세요.|
-|컴퓨터에서 파일을 동기화할 수 없도록 차단됨|UnmanagedSyncClientBlocked|사용자가 조직의 도메인 구성원이 아니거나 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용 - 받는 사람 목록)* 에 추가되지 않은 도메인의 구성원인 컴퓨터에서 사이트와 동기화 관계를 설정하려고 합니다. 동기화 관계는 허용되지 않고 사용자의 컴퓨터에서 문서 라이브러리의 파일에 대한 동기화, 다운로드 또는 업로드가 차단됩니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](/powershell/module/sharepoint-online/)을 참조하세요.|
+|컴퓨터에서 파일을 동기화할 수 있도록 허용됨|ManagedSyncClientAllowed|사용자가 사이트와 동기화 관계를 성공적으로 설정했습니다. 사용자의 컴퓨터가 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*안전한 받는 사람 목록* 으로 칭함)에 추가된 도메인의 구성원이므로 동기화 관계가 성공적으로 설정됩니다.<br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](/powershell/module/sharepoint-online/)을 참조하세요.|
+|컴퓨터에서 파일을 동기화할 수 없도록 차단됨|UnmanagedSyncClientBlocked|사용자가 조직의 도메인 구성원이 아니거나 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용 - 받는 사람 목록*)에 추가되지 않은 도메인의 구성원인 컴퓨터에서 사이트와 동기화 관계를 설정하려고 합니다. 동기화 관계가 허용되지 않으며, 사용자 컴퓨터에서 문서 라이브러리의 파일을 동기화, 다운로드 또는 업로드할 수 없도록 차단되었습니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](/powershell/module/sharepoint-online/)을 참조하세요.|
 |컴퓨터에 파일 다운로드됨|FileSyncDownloadedFull|사용자가 동기화 관계를 설정하고 처음으로 문서 라이브러리에서 해당 컴퓨터로 파일을 다운로드합니다.|
 |컴퓨터에 파일 변경 내용 다운로드됨|FileSyncDownloadedPartial|사용자가 문서 라이브러리의 파일에 대한 변경 내용을 다운로드합니다. 이 활동은 문서 라이브러리의 파일에 대한 변경 내용이 사용자 컴퓨터로 모두 다운로드되었음을 나타냅니다. **컴퓨터에 파일 다운로드됨** 활동에 표시된 것처럼 사용자가 이전에 문서 라이브러리를 다운로드했기 때문에 변경 내용만 다운로드되었습니다.|
 |문서 라이브러리에 파일 업로드됨|FileSyncUploadedFull|사용자가 동기화 관계를 설정하고 처음으로 해당 컴퓨터에서 문서 라이브러리로 파일을 업로드합니다.|
@@ -826,8 +824,13 @@ Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법�
 |데이터 액세스 설정 업데이트됨|UpdatedDataAccessSetting|관리자가 데이터 액세스 설정을 업데이트했습니다.|
 |개인 정보 설정 업데이트됨|UpdatedPrivacySetting|관리자가 개인 정보 설정을 업데이트했습니다.(예: 최소 그룹 크기)|
 |조직 데이터가 업로드됨|UploadedOrgData|관리자가 조직 데이터 파일을 업로드했습니다.|
+|사용자가 로그인됨<sup>*</sup>| UserLoggedIn |사용자가 Microsoft 365 사용자 계정에 로그인했습니다.|
+|사용자가 로그아웃함<sup>*</sup>| UserLoggedOff |사용자가 Microsoft 365 사용자 계정에서 로그아웃했습니다.
 |탐색 보기|ViewedExplore|분석가가 하나 이상의 탐색 페이지 탭에서 시각화를 봤습니다.|
 ||||
+
+> [!NOTE]
+> <sup>*</sup>Azure Active Directory 로그인 및 로그아웃 활동입니다. 조직에서 Workplace Analytics를 설정하지 않은 경우에도 이러한 활동이 기록됩니다. 사용자 로그인 활동에 대한 자세한 내용은 [Azure Active Directory 로그인 로그](/azure/active-directory/reports-monitoring/concept-sign-ins)를 참조하세요.
 
 ### <a name="microsoft-teams-activities"></a>Microsoft Teams 활동
 

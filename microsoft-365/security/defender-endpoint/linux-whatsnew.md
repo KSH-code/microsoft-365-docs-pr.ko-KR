@@ -16,16 +16,25 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: reference
 ms.technology: mde
-ms.openlocfilehash: cc24857adacf3b6fbb787030136f5ebb53f00937
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1692c80d400cbae3ebaefd2a6995cba9c362c580
+ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60178350"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268899"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+## <a name="1014500-30121072145000"></a>101.45.00 (30.121072.14500.0)
+
+- 명령줄 도구에 새 스위치가 추가되었습니다.
+  - On-Demand 검사에 대한 병렬 처리 정도를 제어합니다. 를 통해 구성할 수 `mdatp config maximum-on-demand-scan-threads --value [number-between-1-and-64]` 있습니다. 기본적으로 병렬 처리 `2` 정도가 사용됩니다.
+  - 보안 인텔리전스 업데이트를 사용할지 여부를 제어합니다. 를 통해 구성할 수 `mdatp config scan-after-definition-update --value [enabled/disabled]` 있습니다. 기본적으로 이 설정은 로 `enabled` 설정됩니다.
+  - 요구 시 검사 중에 보관 파일을 검사할지 여부를 제어합니다. 를 통해 구성할 수 `mdatp config scan-archives --value [enabled/disabled]` 있습니다. 기본적으로 이 설정은 로 `enabled` 설정됩니다.
+- 이제 제품 로그 수준을 변경하려면 권한 상승 필요
+- 버그 수정
 
 ## <a name="1013998-30121062139980"></a>101.39.98 (30.121062.13998.0)
 

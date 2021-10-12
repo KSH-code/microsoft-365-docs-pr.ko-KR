@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: acfadd7ad57b12f4dabf2719457f96e96a5c3f69
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e89edb32e3af5fc661a8f22870e8b7097faf82e2
+ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60175230"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60264915"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장 시작하기
 
@@ -115,7 +115,7 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
 
 조직 전체 배포에 이 설정 방법을 사용합니다.
 
-##### <a name="enabling-required-registry-key-via-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 통해 필수 레지스트리 키 사용
+##### <a name="enabling-required-registry-value-via-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 통한 필수 레지스트리 값 사용
 
 1. 다음 내용으로 PowerShell 스크립트를 만듭니다.
 

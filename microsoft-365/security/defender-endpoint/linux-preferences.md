@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15dd2d09746ad934e50376c1d4a9172011983cde
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 704c9c11ee12d9e08d5ede73440f5fde7de3d51b
+ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154821"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268717"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 기본 설정 설정
 
@@ -113,9 +113,41 @@ ms.locfileid: "60154821"
 |---|---|
 |**키**|scanAfterDefinitionUpdate|
 |**Data type**|부울|
-|**사용 가능한 값:**|false(기본값) <p> true|
-|**Comments**|Endpoint 버전 101.41.51 이상용 Defender에서 사용할 수 있습니다.|
+|**사용 가능한 값:**|true(기본값) <p> false|
+|**Comments**|Defender for Endpoint 버전 101.45.00 이상에서 사용할 수 있습니다.|
 |
+
+#### <a name="scan-archives-on-demand-antivirus-scans-only"></a>보관함 검사(요구 시 바이러스 백신 검사만 해당)
+
+요구 시 바이러스 백신 검사 중에 보관 파일을 검사할지 여부를 지정합니다.
+
+<br>
+
+****
+
+|설명|값|
+|---|---|
+|**키**|scanArchives|
+|**Data type**|부울|
+|**사용 가능한 값:**|true(기본값) <p> false|
+|**Comments**|Microsoft Defender for Endpoint 버전 101.45.00 이상에서 사용할 수 있습니다.|
+|||
+
+#### <a name="degree-of-parallelism-for-on-demand-scans"></a>요구 시 검사에 대한 병렬 처리 수준
+
+요구 시 검사에 대한 병렬 처리의 정도를 지정합니다. 이는 검색을 수행하는 데 사용되는 스레드 수에 해당하며, CPU 사용량과 필요한 검사 기간에 영향을 줍니다.
+
+<br>
+
+****
+
+|설명|값|
+|---|---|
+|**키**|maximumOnDemandScanThreads|
+|**Data type**|정수|
+|**사용 가능한 값:**|2(기본값) 허용되는 값은 1에서 64 사이의 정수입니다.|
+|**Comments**|Microsoft Defender for Endpoint 버전 101.45.00 이상에서 사용할 수 있습니다.|
+|||
   
 
 #### <a name="exclusion-merge-policy"></a>제외 병합 정책
@@ -485,7 +517,9 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 {
    "antivirusEngine":{
       "enableRealTimeProtection":true,
-      "maximumOnDemandScanThreads":1,
+      "scanAfterDefinitionUpdate":true,
+      "scanArchives":true,
+      "maximumOnDemandScanThreads":2,
       "passiveMode":false,
       "scanAfterDefinitionUpdate":false,
       "exclusionsMergePolicy":"merge",
