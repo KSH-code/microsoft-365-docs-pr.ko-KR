@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1ccd9982f387fb5af984bf2b381053d786cc5615
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c67ceb51de8084727d03cb37f69c27b034eef707
+ms.sourcegitcommit: 11855e904e7f4e57aff302852546a93526cad4dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191998"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275679"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-apis"></a>엔드포인트용 Microsoft Defender API에 액세스
 
@@ -42,7 +42,7 @@ Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와
 
 일반적으로 API를 사용하려면 다음 단계를 수행해야 합니다.
 
-- [AAD 응용 프로그램 만들기](/microsoft-365/security/defender-endpoint/exposed-apis-create-app-nativeapp)
+- 응용 [AAD 만들기](/microsoft-365/security/defender-endpoint/exposed-apis-create-app-nativeapp)
 - 이 응용 프로그램을 사용하여 액세스 토큰 얻기
 - 토큰을 사용하여 Endpoint API용 Defender 액세스
 
@@ -54,7 +54,7 @@ Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와
 
   응용 프로그램 컨텍스트를 통해 Endpoint API용 Defender에 액세스하는 데 필요한 단계:
 
-  1. AAD 웹 응용 프로그램을 만들 수 있습니다.
+  1. 웹 응용 AAD 만들기
   2. 원하는 사용 권한을 응용 프로그램에 할당합니다(예: '경고 읽기', '컴퓨터 격리').
   3. 이 응용 프로그램에 대한 키를 생성합니다.
   4. 응용 프로그램을 키와 함께 사용하여 토큰을 얻습니다.
@@ -66,9 +66,9 @@ Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와
 
   사용자를 대신하여 API에서 작업을 수행하는 데 사용됩니다.
 
-  응용 프로그램 컨텍스트를 통해 Endpoint API용 Defender에 액세스하기 위해 수행해야 하는 단계:
+  사용자 컨텍스트를 통해 Endpoint API용 Defender에 액세스하기 위해 취하는 단계:
 
-  1. AAD 네이티브 응용 프로그램을 만들 수 있습니다.
+  1. 기본 AAD 만들기
   2. 원하는 사용 권한을 응용 프로그램에 할당합니다(예: '경고 읽기', '컴퓨터 격리' 등).
   3. 사용자 자격 증명과 함께 응용 프로그램을 사용하여 토큰을 얻습니다.
   4. 토큰을 사용하여 끝점용 Microsoft Defender API에 액세스

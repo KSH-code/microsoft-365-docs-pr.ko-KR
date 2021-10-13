@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: feb05a19264564d98b1b7a79993c1be6d61237a3
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3afc71b226bb7858caed439f13c55aee44d81a63
+ms.sourcegitcommit: 11855e904e7f4e57aff302852546a93526cad4dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195224"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275691"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -248,6 +248,8 @@ ms.locfileid: "60195224"
 ### <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
 장치의 Microsoft Edge 구성이 **Server(cmd** \> **Systeminfo** OS 구성)인 경우 \> **지원됩니다.** 네트워크 보호는 지원되는 타사 브라우저에서 트래픽을 보호하는 서버 장치의 검사 모드에서만 지원됩니다.
+
+네트워크 보호는 현재 SSL 검사를 지원하지 않습니다. 이로 인해 일반적으로 차단되는 웹 콘텐츠 필터링에서 일부 사이트가 허용될 수 있습니다. TLS 핸드세이크가 적용된 후 암호화된 트래픽에 대한 가시성이 부족하고 특정 리디렉션을 구문 분석할 수 없는 경우 사이트가 허용됩니다.  여기에는 일부 웹 기반 메일 로그인 페이지에서 사서함 페이지로의 리디렉션이 포함됩니다. 수락된 해결 작업으로 로그인 페이지에 대한 사용자 지정 차단 표시기를 만들어 사용자가 사이트에 액세스할 수 없는지 보장할 수 있습니다. 이 경우 동일한 웹 사이트와 연결된 다른 서비스에 대한 액세스가 차단될 수 있습니다. 
 
 ## <a name="see-also"></a>참고 항목
 
