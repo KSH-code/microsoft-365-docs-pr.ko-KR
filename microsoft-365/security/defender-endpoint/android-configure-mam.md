@@ -1,7 +1,7 @@
 ---
 title: MAM(앱 보호 정책)을 사용하여 끝점 위험 신호에 대한 Microsoft Defender 구성
 description: 앱 보호 정책을 사용하여 끝점 위험 신호를 위해 Microsoft Defender를 구성하는 방법에 대해 설명
-keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mde, android, 구성
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mde, android, 구성, MAM, 앱 보호 정책, 관리되는 앱
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d9e6ffb2f3df7df707619189e0fb3a29c470ef20
-ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
+ms.openlocfilehash: b497d93b18136bbc64f296c8277df1d483ec1541
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60217325"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335589"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-risk-signals-using-app-protection-policy-mam"></a>MAM(앱 보호 정책)을 사용하여 끝점 위험 신호에 대한 Microsoft Defender 구성
+# <a name="configure-microsoft-defender-for-endpoint-risk-signals-using-app-protection-policies-mam"></a>MAM(앱 보호 정책)을 사용하여 끝점 위험 신호에 대한 Microsoft Defender 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,11 +34,11 @@ ms.locfileid: "60217325"
 
 
 
-MDM(모바일 장치 관리) 시나리오에서 엔터프라이즈 사용자를 이미 보호하는 끝점 Android용 Microsoft Defender는 이제 MAM(모바일 앱 관리)을 지원합니다. 이 기능을 사용하면 응용 프로그램 내에서 조직의 데이터를 관리하고 보호할 수 있습니다.
+MDM(모바일 장치 관리) 시나리오에서 엔터프라이즈 사용자를 이미 보호하는 Android의 끝점용 Microsoft Defender는 이제 Intune MDM(모바일 장치 관리)을 사용하여 등록되지 않은 장치에 대한 MAM(모바일 앱 관리)으로 지원을 확장합니다. 또한 MAM(모바일 응용 프로그램 관리)에 Intune을 사용하면서 다른 엔터프라이즈 모바일 관리 솔루션을 사용하는 고객에게도 이 지원을 확장합니다. 이 기능을 사용하면 응용 프로그램 내에서 조직의 데이터를 관리하고 보호할 수 있습니다.
 
-끝점용 Microsoft Defender Android 위협 정보는 Intune 앱 보호 정책에 의해 활용되어 이러한 앱을 보호합니다. APP(앱 보호 정책)은 조직의 데이터를 안전하게 유지하거나 관리되는 앱에 포함되도록 하는 규칙입니다. 관리되는 응용 프로그램에는 앱 보호 정책이 적용되고 Intune에서 관리할 수 있습니다.  
+Android 위협 정보의 끝점용 Microsoft Defender는 Intune 앱 보호 정책에 의해 활용되어 이러한 앱을 보호합니다. APP(앱 보호 정책)은 조직의 데이터를 안전하게 유지하거나 관리되는 앱에 포함되도록 하는 규칙입니다. 관리되는 응용 프로그램에는 앱 보호 정책이 적용되고 Intune에서 관리할 수 있습니다.  
 
-끝점용 Microsoft Defender(모바일)는 MAM의 두 구성을 모두 지원
+Android용 끝점용 Microsoft Defender는 MAM의 두 구성을 모두 지원
 - **Intune MDM + MAM:** IT 관리자는 Intune MDM(모바일 장치 관리)에 등록된 장치에서만 앱 보호 정책을 사용하여 앱을 관리할 수 있습니다.
 - 장치 등록이 없는 **MAM**: 장치 등록이 없는 MAM 또는 MAM-WE를 사용하면 IT 관리자가 Intune MDM에 등록되지 않은 디바이스에서 앱 보호 정책을 사용하여 앱을 관리할 수 있습니다. [](/mem/intune/app/app-protection-policy) 즉, 타사 EMM 공급자에 등록된 장치에서 Intune에서 앱을 관리할 수 있습니다. 위의 두 구성에서 모두 사용하여 앱을 관리하려면 고객이 앱 관리 센터에서 Intune을 [Microsoft Endpoint Manager 합니다.](https://go.microsoft.com/fwlink/?linkid=2109431)
 
@@ -63,13 +63,13 @@ MDM(모바일 장치 관리) 시나리오에서 엔터프라이즈 사용자를 
 
   ![Intune의 Endpoint-Intune 커넥터용 Defender 이미지](images/validate-intune-connector.png)
 
-- **끝점에 대해 Microsoft Defender 사용(모바일) APP(앱 보호 정책)에 대한 커넥터 사용**
+- **App Protection 정책(APP)용 Android 커넥터에서 끝점에 대해 Microsoft Defender 사용**
   
   앱 보호 정책에 대해 Intune Microsoft Endpoint Manager 커넥터를 구성합니다.
 
   a. Microsoft Defender for Endpoint의 > 커넥터 및 토큰 > **테넌트 관리로 이동하십시오.**
 
-  b. Android 및 iOS용 앱 보호 정책에 대한 토글을 으로 하세요(다음 스크린샷에 나와 있는 경우).
+  b. 다음 스크린샷과 같이 Android용 앱 보호 정책에 대한 토글을 켜야 합니다.
 
   c. **저장** 을 선택합니다.
 
@@ -87,7 +87,7 @@ APP(앱 보호 정책)은 조직의 데이터를 안전하게 유지하거나 �
 
 2. 앱 추가 <br>
     a. 이 정책을 다른 디바이스의 앱에 적용하는 방법을 선택하세요. 그런 다음 앱을 하나 이상 추가합니다. <br>
-    이 옵션을 사용하여 해당 정책이 관리되지 않는 장치에 적용되는지 여부를 지정할 수 있습니다. Android의 경우 Android, 장치 관리자 또는 관리되지 않는 디바이스에 정책이 Enterprise 지정할 수 있습니다. 관리 상태의 디바이스에서 정책을 앱에 대상으로 지정하기로 선택할 수도 있습니다.
+    이 옵션을 사용하여 해당 정책이 관리되지 않는 장치에 적용되는지 여부를 지정할 수 있습니다. Android의 경우 Android, 장치 관리자 또는 관리되지 않는 디바이스에 정책이 Enterprise 지정할 수 있습니다. 또한 관리 상태의 디바이스에서 정책을 앱으로 대상으로 지정할 수도 있습니다.
 모바일 앱 관리에는 장치 관리가 필요하지 않습니다. 따라서 관리되는 디바이스와 관리되지 않는 디바이스 모두에서 회사 데이터를 보호할 수 있습니다. 관리는 사용자 ID를 중심으로 하여 장치 관리에 대한 요구 사항을 제거합니다. 회사에서는 MDM과 함께 또는 사용하지 않고 앱 보호 정책을 동시에 사용할 수 있습니다. 예를 들어 회사에서 발급한 휴대폰과 개인용 태블릿을 모두 사용하는 직원을 고려합니다. 회사 전화는 MDM에 등록되어 있으며 앱 보호 정책에 의해 보호되는 반면 개인 장치는 앱 보호 정책에 의해서만 보호됩니다.
 
     b. 앱 선택<br>
@@ -98,7 +98,7 @@ APP(앱 보호 정책)은 조직의 데이터를 안전하게 유지하거나 �
     ![관리 Outlook 앱으로 이미지 관리](images/managed-app.png)
 
  3. 보호 정책에 대한 로그인 보안 요구 사항을 설정하세요. <br>
-장치 **조건에서 > 허용되는** 최대 장치 위협 수준 설정을 **선택하고** 값을 입력합니다. 그런 다음 **작업: "액세스 차단"을 선택합니다.** 끝점용 Microsoft Defender(모바일)는 이 장치 위협 수준을 공유합니다.
+장치 **조건에서 > 허용되는** 최대 장치 위협 수준 설정을 **선택하고** 값을 입력합니다. 그런 다음 **작업: "액세스 차단"을 선택합니다.** Android의 끝점용 Microsoft Defender는 이 장치 위협 수준을 공유합니다.
 
     ![조건부 실행 이미지](images/conditional-launch.png)
 
@@ -111,7 +111,7 @@ APP(앱 보호 정책)은 조직의 데이터를 안전하게 유지하거나 �
 
 ## <a name="end-user-prerequisites"></a>최종 사용자 선행 준비
 - 브로커 앱을 설치해야 합니다.
-    - Android: Intune 회사 포털
+    - Intune 회사 포털
     
 - 사용자에게 관리되는 앱에 대한 필수 라이선스가 있으며 앱이 설치되어 있습니다.
 
@@ -119,7 +119,7 @@ APP(앱 보호 정책)은 조직의 데이터를 안전하게 유지하거나 �
 
 1. 관리되는 응용 프로그램에 로그인합니다(예: Outlook. 장치가 등록되어 있으며 응용 프로그램 보호 정책이 장치와 동기화됩니다. 응용 프로그램 보호 정책은 장치의 상태를 인식합니다.  
 
-2. 계속을 **선택합니다.** 엔드포인트 Android 앱용 Microsoft Defender의 다운로드 및 설정을 권장하는 화면이 표시됩니다.
+2. 계속을 **선택합니다.** Android 앱에서 끝점용 Microsoft Defender를 다운로드하고 설정하는 것이 권장되는 화면이 표시됩니다.
 
 3. 다운로드를 **선택합니다.** 앱 스토어로 리디렉션됩니다(Google play). 
 

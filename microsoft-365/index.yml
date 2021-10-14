@@ -157,7 +157,7 @@ additionalContent:
             - text: Microsoft 365 관리 센터
               url: admin/index.yml
             - text: Microsoft 365 Business Premium
-              url: admin/index.yml
+              url: business/index.yml
             - text: 엔터프라이즈용 Microsoft 365
               url: enterprise/index.yml
             - text: Microsoft 365 규정 준수
@@ -267,3 +267,6 @@ additionalContent:
         - title: 기술 커뮤니티
           summary: Microsoft 365 기술 커뮤니티에 참여하여 경험을 공유하고 전문가들로부터 배워보세요.
           url: 'https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365'
+        - title: Microsoft 365 커뮤니티 콘텐츠
+          summary: IT 전문가 및 관리자 커뮤니티에서 Microsoft 365 사용자에 대 한 솔루션 및 시나리오 지침을 찾아보세요.
+          url: /microsoft-365/community/

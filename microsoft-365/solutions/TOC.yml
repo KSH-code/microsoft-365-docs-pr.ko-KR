@@ -289,7 +289,7 @@
         - name: ID 및 장치 액세스 구성
           href: ../security/office-365-security/microsoft-365-policies-configurations.md
         - name: 엔드포인트용 Microsoft Defender 배포
-          href: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases.md
+          href: /microsoft-365/security/defender-endpoint/deployment-phases.md
         - name: Symantec에서 엔드포인트용 Microsoft Defender로 마이그레이션
           href: ../security/defender-endpoint/symantec-to-microsoft-defender-endpoint-migration.md
         - name: McAfee에서 엔드포인트용 Microsoft Defender로 마이그레이션

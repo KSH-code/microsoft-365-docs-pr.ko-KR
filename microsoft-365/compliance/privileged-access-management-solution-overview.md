@@ -3,7 +3,7 @@ title: Microsoft 365의 권한 있는 액세스 관리
 description: 여러 사용자에 대해 내부자 위험 기능을 구성하는 Microsoft 365.
 keywords: Microsoft 365, 내부자 위험, 규정 준수
 ms.localizationpriority: medium
-ms.prod: microsoft-365-enterprise
+ms.service: O365-seccomp
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: 542c9814522eff056e236b9ac8c260c06524461b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: fe229318d3eaabfe9a20fb83d9c42d06651a5f85
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203042"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335277"
 ---
 # <a name="privileged-access-management-in-microsoft-365"></a>Microsoft 365의 권한 있는 액세스 관리
 

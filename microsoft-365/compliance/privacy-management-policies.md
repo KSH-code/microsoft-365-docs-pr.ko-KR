@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에서 조직의 개인 데이터를 처리하는 정책을 만들고 관리하는 방법을 Microsoft 365 경고에 응답하고 문제를 해결합니다.
-ms.openlocfilehash: dec7fd3692330dc267bace22451f1dc65ccd8fd9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 78a446851a0ce964e5685b8cfab760214cdf3536
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60179022"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335977"
 ---
 # <a name="create-and-manage-policies-in-privacy-management-preview"></a>개인 정보 관리에서 정책 만들기 및 관리(미리 보기)
 
@@ -64,7 +64,7 @@ ms.locfileid: "60179022"
 
 정책을 바로 시작하려면 미리 설정된 세 가지 정책 유형 중 하나를 선택합니다. 이러한 속성에 대한 세부 정보를 검토하려면 설정 보기를 선택하여 데이터 형식, 데이터 위치, 정책 일치를 트리거하는 조건 등 정책을 구성하는 특정 속성을 볼 수 있습니다.
 
-템플릿에서 직접 정책을 만들 때 많은 설정이 자동으로 선택됩니다. 여기에는 기본적으로 정책을 켜는 것이 포함됩니다. 정책을 완전히 활성화하기 전에 실행되는 정책을 미리 보고 싶은 경우 정책을 생성한 후 목록에서 찾고, 정책을 편집하고, 테스트 모드로 전환합니다. 자세한 내용은 정책 [테스트를 참조하세요.](#test-your-policy)
+템플릿에서 직접 정책을 만들 때 많은 설정이 자동으로 선택됩니다. 테스트 모드에서 시작된 다음 전체 활성 상태로 전환할 수 있습니다. 자세한 내용은 정책 [테스트를 참조하세요.](#test-your-policy)
 
 ### <a name="create-custom-policy"></a>사용자 지정 정책 만들기
 

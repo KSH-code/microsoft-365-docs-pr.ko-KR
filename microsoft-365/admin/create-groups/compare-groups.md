@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Microsoft 365 그룹 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
-ms.openlocfilehash: f62fd8f05231589edefdc131e35bd2113a129e8b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 655b90ca13631c1df7937443e37d1bf904814e14
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60165811"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335421"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -72,7 +72,7 @@ Microsoft 365 그룹은 다른 Microsoft 365 그룹이나 배포 또는 보안 �
 
 배포 그룹은 [Microsoft 365 groups로 업그레이드](../manage/upgrade-distribution-lists.md)할 수 있습니다.
 
-메일 그룹은 Microsoft Teams에서 팀에 추가할 수 있습니다.
+메일 그룹은 Microsoft Teams의 팀에 추가할 수 있지만 구성원만 추가되고 그룹 자체는 추가되지 않습니다.
 
 Microsoft 365 그룹은 배포 그룹의 구성원일 수 없습니다.
 

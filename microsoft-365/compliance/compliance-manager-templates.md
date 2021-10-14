@@ -10,17 +10,20 @@ ms.topic: article
 ms.custom: admindeeplinkMAC
 ms.service: O365-seccomp
 ms.localizationpriority: medium
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: 9b3ee570b116d501ec092fd417e5b2fc1ca07251
-ms.sourcegitcommit: 81533e5d3e1aee0823539a7c9bdc20dba6541a02
+ms.openlocfilehash: dd9f2b2f673164bce7f05f7e390b13012247c362
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60223440"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335989"
 ---
 # <a name="learn-about-assessment-templates-in-compliance-manager"></a>준수 관리자의 평가 템플릿에 대해 자세히 알아보기
 

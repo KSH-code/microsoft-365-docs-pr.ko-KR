@@ -9,17 +9,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.localizationpriority: medium
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 관리의 새로운 것 및 새로운 방법을 찾아 찾습니다. 업데이트된 평가, 새 평가 템플릿, 새 작업 등에 대해 읽어 읽습니다.
-ms.openlocfilehash: e449cfdac56b9a22a571e1a6672bd274616508d9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6082f008dd3290ba396796e5d0ae7c3ad940db79
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60179250"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335553"
 ---
 # <a name="whats-new-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자의 새로운
 

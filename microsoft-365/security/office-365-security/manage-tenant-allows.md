@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 411fc860ad59c214000936486d3c0456c732df19
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 98ae7b53ce793809ae93cf32d574d979e5b7c6e5
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190320"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335565"
 ---
 # <a name="add-allows-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 허용 추가
 
@@ -32,7 +32,11 @@ ms.locfileid: "60190320"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-허용을 테넌트 허용/차단 목록에 직접 추가할 수 없습니다. 관리자 제출 프로세스를 사용하여 테넌트 허용/차단 목록에 URL, 파일 및/또는 보낸 사람 허용을 추가합니다. Microsoft는 관리자가 직접 허용하도록 허용하지는 않지만 차단된 기능을 결정하고 사용자에게 허용을 제공합니다. 대부분의 경우 허용을 추가하여 시스템에 시간을 주고, 허용되는 경우 자연스럽게 허용합니다. 경우에 따라 Microsoft에서 허용을 관리합니다.
+관리자는 테넌트 허용/차단 목록에 직접 허용할 수 없습니다. 대신 관리 제출 프로세스를 사용하여 해당 URL, 파일 및/또는 보낸 사람이 테넌트 허용/차단 목록에 추가될 수 있도록 차단된 메시지를 제출합니다. 메시지가 잘못 차단된 가짓 긍정으로 확인된 대부분의 경우 허용은 시스템에 자연스럽게 허용하는 데 필요한 기간 동안 유지됩니다.
+
+> [!IMPORTANT]
+>
+> Microsoft는 필요하지 않은 사용자, 보낸 사람, URL 또는 파일을 허용하는 허용을 관리하기 때문에 불량으로 간주되는 파일이 제거됩니다. 이는 환경을 보호하고 허용이 잘못 구성되지 않도록 방지하기 위한 것입니다. 동의하지 않을 수 있는 경우 메시지가 여전히 잘못된 것으로 간주되는 이유를 확인하는 데 도움이 되는 지원 사례가 필요할 수 있습니다.
 
 ## <a name="add-allows-using-the-submissions-portal"></a>Add를 사용하면 제출 포털을 사용할 수 있습니다. 
 
@@ -42,7 +46,7 @@ ms.locfileid: "60190320"
 
 2. 제출 **페이지에서** 분석용 **제출** 탭이 선택되어 있는지 확인한 다음 광고 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **분석을 위해 Microsoft에 제출합니다.**
 
-3. 검토 **플라이아웃을 위해 Microsoft에** 제출을 사용하여 보낸 사람, 파일 또는 URL을 가음성으로 표시합니다. 
+3. 검토 플라이아웃을 **위해 Microsoft에** 제출을 사용하여 네트워크 메시지 ID를 추가하거나 전자 메일 파일을 업로드하여 메시지를 제출합니다. 
 
 4. **Microsoft에** 제출할 이유 선택 섹션에서 차단되지 않은 경우(가음성)를 **선택합니다.** 
 
@@ -57,12 +61,12 @@ ms.locfileid: "60190320"
 
 ## <a name="create-spoofed-sender-allow-entries-using-microsoft-365-defender"></a>스푸핑된 보낸 사람 허용 항목을 Microsoft 365 Defender
 
-**참고**:
-
-- _스푸핑된_ 사용자와 도메인  쌍에 정의된 전송 인프라의 조합만 스푸핑을 특별히 허용하거나 차단합니다.
-- 도메인 쌍에 대해 허용 또는 차단 항목을 구성하면 해당 도메인 쌍의 메시지가 더 이상 스푸핑 인텔리전스 인사이트에 나타나지 않습니다.
-- 스푸핑된 보낸 사람에 대한 항목은 만료되지 않습니다.
-- 스푸핑은 허용 및 차단을 모두 지원합니다. URL은 허용만 지원됩니다.
+> [!NOTE]
+> 
+> - _스푸핑된_ 사용자와 도메인  쌍에 정의된 전송 인프라의 조합만 스푸핑을 특별히 허용하거나 차단합니다.
+> - 도메인 쌍에 대해 허용 또는 차단 항목을 구성하면 해당 도메인 쌍의 메시지가 더 이상 스푸핑 인텔리전스 인사이트에 나타나지 않습니다.
+> - 스푸핑된 보낸 사람에 대한 항목은 만료되지 않습니다.
+> - 스푸핑은 허용 및 차단을 모두 지원합니다. URL은 허용만 지원됩니다.
 
 1. Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **테넌트 허용/차단 목록으로 이동하세요.**
 

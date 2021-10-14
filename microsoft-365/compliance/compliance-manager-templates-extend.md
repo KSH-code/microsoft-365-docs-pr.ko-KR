@@ -9,18 +9,21 @@ audience: Admin
 ms.topic: article
 ms.custom: admindeeplinkMAC
 ms.service: O365-seccomp
-localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.localizationpriority: medium
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가 템플릿을 확장하여 컨트롤을 추가하고 수정하는 방법을 이해합니다.
-ms.openlocfilehash: a255b3787a1da66be5882f00854d5a73cfe0352e
-ms.sourcegitcommit: 81533e5d3e1aee0823539a7c9bdc20dba6541a02
+ms.openlocfilehash: 4618c085228c44e3af1aa0b3de9c3b1ebd63424c
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60223548"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60336062"
 ---
 # <a name="extend-assessment-templates-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자에서 평가 템플릿 확장
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8da104ced882ae7c163aaea673aea93b9768f938
-ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
+ms.openlocfilehash: b7bb40d4990d5bd68d3ee56149506374c5e0c6fb
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60216925"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60334533"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
@@ -41,7 +41,7 @@ ms.locfileid: "60216925"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Android에 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>필수 조건
 
 - **최종 사용자의 경우**:
   - 앱의 최종 사용자에게 할당된 끝점용 Microsoft Defender 라이선스입니다. 끝점 라이선싱 요구 사항에 대한 [Microsoft Defender를 참조하세요.](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
@@ -52,8 +52,8 @@ ms.locfileid: "60216925"
 - **관리자용**
    - 사이트 포털에 Microsoft 365 Defender 액세스합니다.
    - 액세스 [Microsoft Endpoint Manager 관리 센터에 액세스](https://go.microsoft.com/fwlink/?linkid=2109431)
-        - 조직의 등록된 사용자 그룹에 앱을 배포합니다.
-        - 앱 보호 정책에서 끝점 위험 신호에 대해 Microsoft Defender를 구성합니다.
+       - 조직의 등록된 사용자 그룹에 앱을 배포합니다.
+       - 앱 보호 정책에서 끝점 위험 신호에 대해 Microsoft Defender를 구성합니다.
   
     > [!NOTE]
     > - 이제 끝점용 Microsoft Defender는 MDM(모바일 장치 관리)을 사용하여 등록되지는 않지만 Intune을 사용하여 모바일 응용 프로그램을 관리하는 장치에 대한 MAM(관리되는 응용 프로그램) 내의 조직 데이터로 보호를 확장합니다. 또한 MAM(모바일 응용 프로그램 관리)에 Intune을 사용하면서 다른 엔터프라이즈 모바일 관리 솔루션을 사용하는 고객에게도 이 지원을 [확장합니다.](/mem/intune/apps/mam-faq)

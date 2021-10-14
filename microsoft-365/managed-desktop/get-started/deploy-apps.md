@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a84f6e13a7c189ce4cd33f308e765e5c59dae374
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 15b41681d94d8f33176d140ebc00cc74319e69ff
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195236"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60334505"
 ---
 # <a name="deploy-apps-to-devices"></a>장치에 앱 배포
 온보드를 Microsoft Managed Desktop 장치에 앱을 추가하고 배포하는 것이 포함됩니다. 앱 포털을 Microsoft Managed Desktop 앱을 추가하고 배포할 수 있습니다. 
@@ -59,17 +59,18 @@ LOB(LOB) 앱을 포털에 추가할 Microsoft Managed Desktop 있습니다. Micr
 2. 내 **그룹에 대한 쇼핑 을 선택합니다.**
 3. 검색을 사용하여 원하는 앱을 찾고 앱을 선택합니다.
 4. 제품 세부 정보에서 앱 **다운로드를 선택합니다.** Microsoft Store 앱을 조직의 **제품에** 추가합니다.
-
-**Intune과 Intune 간에 동기화를 비즈니스용 Microsoft Store**
-1. Microsoft Endpoint Manager [센터에 로그인합니다.](https://go.microsoft.com/fwlink/?linkid=2109431)
-2. **테넌트 관리**  >  **커넥터 및 토큰을 비즈니스용 Microsoft Store.**  >  
-3. **동기화를** 선택하여 앱에서 구입한 앱을 Intune으로 Microsoft Store 선택합니다.
-
+    
 **Intune과 Intune 간의 동기화가 비즈니스용 Microsoft Store 확인**
 1. 비즈니스용 Microsoft Store 관리자 [계정으로](https://businessstore.microsoft.com) 비즈니스용 Microsoft Store 로그인합니다.
 2. 관리를 **선택합니다.**
 3. 를 **설정** 를 선택한 다음 **배포를 선택합니다.**
 4. 관리 **도구에서** Intune이 나열되어 있으며 상태가 활성 상태인지 **확인**  
+    
+**Intune과 Intune 간에 동기화를 비즈니스용 Microsoft Store**
+1. Microsoft Endpoint Manager [센터에 로그인합니다.](https://go.microsoft.com/fwlink/?linkid=2109431)
+2. **테넌트 관리**  >  **커넥터 및 토큰을 비즈니스용 Microsoft Store.**  >  
+3. 동기화를 사용하도록 비즈니스용 Microsoft Store 활성화를 **선택하면 Intune을** 사용하여 볼륨 구매 앱에 액세스할 수 있습니다.  
+4. 원하는 언어를 선택한 다음  동기화를 선택하여 앱에서 구입한 앱을 intune으로 Microsoft Store 선택합니다.
 
 <span id="2" />
 

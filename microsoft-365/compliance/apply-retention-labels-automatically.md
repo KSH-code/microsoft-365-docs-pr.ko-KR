@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: eeeda9a41f35f6380d2d20adf80b00bc80ba4c4e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ed123a772d3c3db23f4519beeb32903bb43267a7
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198772"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335769"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -41,7 +41,7 @@ ms.locfileid: "60198772"
     
 - 사용자가 더 이상 데이터 거버넌스 정책을 알아야 할 필요가 없으며, 업무에 집중할 수 있습니다.
     
-콘텐츠에 중요한 정보, 키워드나 검색 가능한 속성 또는 [학습 가능한 분류자](classifier-get-started-with.md) 일치 항목이 포함된 경우 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
+콘텐츠에 아직 보존 레이블이 적용되어 있지 않고 중요한 정보, 키워드 또는 검색 가능한 속성 또는 [학습 가능한 분류자](classifier-get-started-with.md)에 대한 일치 항목이 포함되어 있는 경우 콘텐츠에 보존 레이블을 자동으로 적용할 수 있습니다.
 
 > [!TIP]
 > 검색 가능한 속성을 사용하여 [Teams 모임 녹음/녹화](#microsoft-teams-meeting-recordings) 및 [민감도 레이블이 적용된 항목](#identify-files-and-emails-that-have-a-sensitivity-label)을 식별합니다.
@@ -83,15 +83,16 @@ ms.locfileid: "60198772"
     
     바로 옵션이 표시되지 않나요? 먼저 **모두 표시** 를 선택합니다. 
 
-2. 마법사의 지시를 따릅니다. 레코드 관리를 사용하는 경우:
+2. 구성에 대한 지시를 따릅니다. 레코드 관리를 사용하는 경우:
     
     - 파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요
     
     - 보존 레이블을 사용하여 레코드를 선언하려면 **항목을 레코드로 표시** 를 선택하거나 **항목을 규제 레코드로 표시** 를 선택합니다. 자세한 정보는 [레코드를 선언하도록 보존 레이블 구성하기](declare-records.md#configuring-retention-labels-to-declare-records)를 참조하세요.
 
-3. 레이블을 만든 후 레이블을 게시하고 레이블을 자동으로 적용하거나 단지 레이블을 저장하는 옵션이 표시되면 **이 레이블을 특정 콘텐츠에 자동으로 적용** 을 선택한 후 **완료** 를 선택하여 다음 절차에서 2 단계로 바로 이동하는 자동 레이블 만들기 마법사를 시작합니다.
+3. 레이블을 만든 후 레이블을 게시하거나 레이블을 자동 적용하거나 레이블을 저장하는 옵션이 표시되면 **특정 콘텐츠 유형에 이 레이블 자동 적용** 을 선택한 다음 **완료** 를 선택합니다. 
+4.  다음 프로시저의 2단계로 직접 이동할 수 있는 구성입니다.
 
-기존 레이블을 편집하려면 레이블을 선택한 후 **레이블 편집** 옵션을 선택하여 레이블 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 편집 보유 마법사를 2단계에서 시작합니다.
+기존 레이블을 수정하려면 레이블을 선택한 다음 **레이블 편집** 옵션을 선택하여 2단계의 레이블 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경할 수 있는 **보존 레이블 편집** 구성을 시작합니다.
 
 ### <a name="step-2-create-an-auto-apply-policy"></a>2단계: 자동 적용 정책 만들기
 
@@ -107,15 +108,18 @@ ms.locfileid: "60198772"
     
     바로 옵션이 표시되지 않나요? 먼저 **모두 표시** 를 선택합니다. 
 
-2. 자동 레이블 만들기 마법사의 지시를 따릅니다.
+2. 자동 레이블 지정 구성 만들기에 대한 지시를 따릅니다.
     
     보존 레이블을 자동으로 적용하는 조건을 구성하는 방법에 대한 자세한 내용은이 페이지에서 [보존 레이블 자동 적용에 대한 조건 구성하기](#configuring-conditions-for-auto-apply-retention-labels) 섹션을 참조하세요.
     
     보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](retention.md#retention-label-policies-and-locations) 섹션을 참조하세요.
 
-기존 자동 적용 정책을 편집하려면 정책을 선택하고 선택한 보존 레이블과 모든 [적격 설정](#updating-retention-labels-and-their-policies)을 2단계에서 변경하도록 해주는 보존 정책 편집 마법사를 시작합니다.
+기존 자동 적용 정책을 편집하려면 정책을 선택하고 선택한 보존 레이블과 모든 [적격 설정](#updating-retention-labels-and-their-policies)을 2단계에서 변경하도록 해주는 **보존 정책 구성 편집** 을 시작합니다.
 
 자동 적용 레이블 정책을 사용하여 콘텐츠에 레이블을 지정한 후에는 콘텐츠 또는 정책을 변경하거나 새 자동 적용 레이블 정책을 사용하여 적용된 레이블을 자동으로 제거하거나 변경할 수 없습니다. 자세한 내용은 [한 번에 하나의 보존 레이블만](retention.md#only-one-retention-label-at-a-time)을 참조하세요.
+
+> [!NOTE]
+> 자동 적용 보존 레이블 정책은 콘텐츠에 적용되는 기존 보존 레이블을 대체하지 않습니다. 구성한 조건을 사용하여 콘텐츠 레이블을 다시 지정하려면 기존 콘텐츠에서 현재 보존 레이블을 수동으로 제거해야 합니다.
 
 ### <a name="configuring-conditions-for-auto-apply-retention-labels"></a>보존 레이블 자동 적용에 대한 조건 구성하기
 

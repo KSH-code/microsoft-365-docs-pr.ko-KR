@@ -9,17 +9,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.localizationpriority: medium
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 컨트롤에 대한 구현 및 테스트를 수행하는 방법을 설명합니다. 작업 할당, 저장소 설명서 및 보고서 내보내기
-ms.openlocfilehash: 6b8c85b4d22fdd8161300d250d7322f68959f808
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e0f1faa6ede05358eeafa8740fcf3cd79613b39c
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156537"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60336001"
 ---
 # <a name="assign-and-complete-improvement-actions-in-compliance-manager"></a>준수 관리자에서 개선 작업 할당 및 완료
 

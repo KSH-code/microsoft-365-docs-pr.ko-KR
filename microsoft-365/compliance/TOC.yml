@@ -36,10 +36,14 @@
           href: communication-compliance-plan.md
         - name: 커뮤니케이션 규정 준수 시작
           href: communication-compliance-configure.md
+        - name: 커뮤니케이션 규정 준수를 사용하여 채널 신호 검색
+          href: communication-compliance-channels.md
+        - name: 커뮤니케이션 규정 준수 정책 만들기 및 관리
+          href: communication-compliance-policies.md
         - name: 커뮤니케이션 규정 준수 알림 검사 및 수정
           href: communication-compliance-investigate-remediate.md
-        - name: 커뮤니케이션 규정 준수에 대한 기능 참조
-          href: communication-compliance-feature-reference.md
+        - name: 커뮤니케이션 규정 준수 보고서 및 감사에 대해 알아보기
+          href: communication-compliance-reports-audits.md
         - name: SIEM 솔루션과의 통신 규정 준수
           href: communication-compliance-siem.md
         - name: 사례 연구 - Contoso에서 빠르게 무례한 언어 정책을 구성합니다
@@ -343,16 +347,6 @@
               href: dlp-migrate-exo-policy-to-unified-dlp.md
             - name: 데이터 손실 방지 정책 팁 참조
               href: dlp-policy-tips-reference.md
-        - name: DLP 문제 해결
-          items:
-            - name: DLP 정책 팁 문제 해결
-              href: /office365/troubleshoot/data-loss-prevention/data-loss-prevention-policy-tips.md
-            - name: DLP 정책에 대한 변경 내용이 Office 365의 Outlook 2013에서 적용되지 않음
-              href: /office365/troubleshoot/data-loss-prevention/data-loss-prevention-not-work.md
-            - name: 준수 센터의 DLP 정책 팁이 OWA/Outlook에서 작동하지 않음
-              href: /office365/troubleshoot/data-loss-prevention/dlp-tips-not-work.md
-            - name: Office 365의 Exchange Online Protection에서 DLP 정책 팁 문제를 해결하는 방법
-              href: /office365/troubleshoot/data-loss-prevention/data-loss-prevention-tips.md
 - name: 정보 거버넌스 관리
   items:
     - name: 사용자 데이터 관리
@@ -629,6 +623,8 @@
           href: app-governance-detect-remediate-overview.md
         - name: 시작
           href: app-governance-detect-remediate-get-started.md
+        - name: 비정상적인 데이터 사용량이 있는 앱 모니터링 및 대응
+          href: app-governance-monitor-apps-unusual-data-usage.md
         - name: 변칙 검색 경고 조사
           href: app-governance-anomaly-detection-alerts.md
         - name: 앱 위협 해결

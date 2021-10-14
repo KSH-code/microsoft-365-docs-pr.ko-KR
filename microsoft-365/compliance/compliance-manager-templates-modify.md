@@ -9,18 +9,21 @@ audience: Admin
 ms.topic: article
 ms.custom: admindeeplinkMAC
 ms.service: O365-seccomp
-localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.localizationpriority: medium
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가 템플릿을 수정하는 방법을 이해합니다.
-ms.openlocfilehash: 846c3bc02105a50863afa7caca6041d9f72a5d95
-ms.sourcegitcommit: 81533e5d3e1aee0823539a7c9bdc20dba6541a02
+ms.openlocfilehash: 539da4118843e8d72ead07b06a351d2245c2f6d9
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60223556"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335469"
 ---
 # <a name="modify-assessment-templates-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자에서 평가 템플릿 수정
 
@@ -61,7 +64,7 @@ ms.locfileid: "60223556"
 
 ### <a name="change-an-improvement-actions-name"></a>개선 작업의 이름 변경
 
-개선 작업의 이름을 변경하려는 경우 기존 이름을 새 이름으로 바꾸는 스프레드시트에서 명시적으로 지정해야 합니다. 다음 단계를 따릅니다:
+개선 작업의 이름을 변경하려는 경우 기존 이름을 새 이름으로 바꾸는 스프레드시트에서 명시적으로 지정해야 합니다. 다음 단계를 따릅니다.
 
 1. 스프레드시트의 **작업** 탭에서 A 열 다음에 스프레드시트에 새 열을 추가합니다.
 2. 이제 B 열이 된 이 새 열에서 1 행의 **oldActionTitle에** 해당 헤더로 넣습니다.

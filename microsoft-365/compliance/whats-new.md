@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cbe868ea7f5418b9013719caa9858317d1fd6ba3
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 94f5f0be4a0498107217cfc0b88e21c64d8acb3f
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240347"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60336037"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -107,7 +107,7 @@ ms.locfileid: "60240347"
 - [경고 인사이트에 대한 확장된 항목입니다.](app-governance-anomaly-detection-alerts.md#collection-alerts) 이제 앱 거버넌스에서 사용할 수 있는 추가 경고 정보를 설명하기 위해 새로운 항목이 추가되었습니다.
 
 ### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
-- [커뮤니케이션 준수 기능 참조는](communication-compliance-feature-reference.md) 개인 채팅 및 채널에서 최신 첨부 파일 검색을 Teams 새로운 미리 보기 기능 지원을 추가했습니다.
+- [커뮤니케이션 규정 준수 채널에는](communication-compliance-channels.md) 개인 채팅 및 채널에서 최신 첨부 파일 검색을 위한 Teams 기능이 추가되었습니다.
 
 ### <a name="compliance--service-assurance"></a>규정 & 서비스 보증
 

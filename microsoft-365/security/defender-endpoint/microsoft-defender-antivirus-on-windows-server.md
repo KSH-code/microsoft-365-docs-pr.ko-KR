@@ -14,14 +14,14 @@ ms.reviewer: pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 08/05/2021
+ms.date: 10/13/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 2b2545205af25a07fc8addab4818e603c18ff846
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 8f5ae71ecc602a7bc588ff62036be20b883087db
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240071"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335481"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Windows Server의 Microsoft Defender 바이러스 백신
 
@@ -33,8 +33,8 @@ ms.locfileid: "60240071"
 
 Microsoft Defender 바이러스 백신 서버의 다음 버전/버전에서 사용할 Windows 있습니다.
 
-- Windows Server 2019
 - Windows Server 2022
+- Windows Server 2019
 - Windows 서버, 버전 1803 이상
 - Windows Server 2016
 - Windows Server 2012 R2(끝점용 Microsoft Defender 필요)
@@ -65,8 +65,8 @@ GUI가 서버에 설치되어 있지 않은 경우 역할 및 기능 추가  마
 
 
 
->[!NOTE]
->이 옵션은 R2에서 사용할 Windows Server 2012 없습니다. 자세한 내용은 [끝점용 Microsoft Defender를 설치하는 옵션을 참조하세요.](configure-server-endpoints.md#options-to-install-microsoft-defender-for-endpoint)
+> [!NOTE]
+> 이 옵션은 R2에서 사용할 Windows Server 2012 없습니다. 자세한 내용은 [끝점용 Microsoft Defender를 설치하는 옵션을 참조하세요.](configure-server-endpoints.md#options-to-install-microsoft-defender-for-endpoint)
 
 ### <a name="turn-on-the-gui-using-the-add-roles-and-features-wizard"></a>역할 및 기능 추가 마법사를 사용하여 GUI 켜기
 
@@ -138,11 +138,11 @@ sc query Windefend
 
 <br/><br/>
 
-|방법|설명|
+| 방법 | 설명 |
 |---|---|
-|**Windows 업데이트**|**업데이트를 자동으로 설치하면** 보안 인텔리전스 업데이트를 포함하여 모든 Windows Defender 설치됩니다. <p> **업데이트를 다운로드하지만** 설치할지 여부를 선택할 수 Windows Defender 보안 인텔리전스 업데이트를 자동으로 다운로드하고 설치할 수 있지만 다른 업데이트는 자동으로 설치되지 않습니다.|
-|**그룹 정책**|관리 **템플릿\Windows 구성 요소\Windows** 업데이트\자동 업데이트 구성 경로의 그룹 정책에서 사용할 수 있는 설정을 사용하여 Windows 업데이트를 설정하고 관리할 수 있습니다.|
-|**AUOptions** 레지스트리 키|다음 두 값을 사용하면 Windows 업데이트에서 보안 인텔리전스 업데이트를 자동으로 다운로드하여 설치할 수 있습니다. <p> **4**  -  **자동으로 업데이트를 설치합니다.** 이 값을 설정하면 보안 인텔리전스 업데이트를 포함하여 모든 Windows Defender 자동으로 설치됩니다. <p> **3**  -  **업데이트를 다운로드하지만 설치할지 여부를 선택할 수 있습니다.** 이 값을 Windows Defender 보안 인텔리전스 업데이트를 자동으로 다운로드하여 설치할 수 있지만 다른 업데이트는 자동으로 설치되지 않습니다.|
+| **Windows 업데이트** | **업데이트를 자동으로 설치하면** 보안 인텔리전스 업데이트를 포함하여 모든 Windows Defender 설치됩니다. <br/><br/> **업데이트를 다운로드하지만** 설치할지 여부를 선택할 수 Windows Defender 보안 인텔리전스 업데이트를 자동으로 다운로드하고 설치할 수 있지만 다른 업데이트는 자동으로 설치되지 않습니다. |
+| **그룹 정책** | 관리 **템플릿\Windows 구성 요소\Windows** 업데이트\자동 업데이트 구성 경로의 그룹 정책에서 사용할 수 있는 설정을 사용하여 Windows 업데이트를 설정하고 관리할 수 있습니다. |
+| **AUOptions** 레지스트리 키 | 다음 두 값을 사용하면 Windows 업데이트에서 보안 인텔리전스 업데이트를 자동으로 다운로드하여 설치할 수 있습니다. <br/><br/> **4**  -  **자동으로 업데이트를 설치합니다.** 이 값을 설정하면 보안 인텔리전스 업데이트를 포함하여 모든 Windows Defender 자동으로 설치됩니다. <br/><br/> **3**  -  **업데이트를 다운로드하지만 설치할지 여부를 선택할 수 있습니다.** 이 값을 Windows Defender 보안 인텔리전스 업데이트를 자동으로 다운로드하여 설치할 수 있지만 다른 업데이트는 자동으로 설치되지 않습니다. |
 
 맬웨어로부터 보호를 유지하려면 다음 서비스를 사용하도록 설정하는 것이 좋습니다.
 
@@ -151,17 +151,15 @@ sc query Windefend
 
 다음 표에는 서비스 및 종속 Microsoft Defender 바이러스 백신 대한 서비스가 나열되어 있습니다.
 
-<br>
+<br/><br/>
 
-****
 
-|서비스 이름|파일 위치|설명|
+| 서비스 이름 | 파일 위치 | 설명 |
 |---|---|---|
-|Windows Defender 서비스(WinDefend)|`C:\Program Files\Windows Defender\MsMpEng.exe`|이 서비스는 Microsoft Defender 바이러스 백신 실행해야 하는 기본 서비스입니다.|
-|Windows 오류 보고 서비스(Wersvc)|`C:\WINDOWS\System32\svchost.exe -k WerSvcGroup`|이 서비스는 오류 보고서를 Microsoft로 다시 전송합니다.|
-|Windows Defender 방화벽(MpsSvc)|`C:\WINDOWS\system32\svchost.exe -k LocalServiceNoNetwork`|방화벽 서비스를 사용하도록 Windows Defender 것이 좋습니다.|
-|Windows 업데이트(Wuauserv)|`C:\WINDOWS\system32\svchost.exe -k netsvcs`|Windows 보안 인텔리전스 업데이트 및 맬웨어 방지 엔진 업데이트를 다운로드하려면 업데이트가 필요합니다.|
-|
+| Windows Defender 서비스(WinDefend) | `C:\Program Files\Windows Defender\MsMpEng.exe` | 이 서비스는 Microsoft Defender 바이러스 백신 실행해야 하는 기본 서비스입니다.|
+| Windows 오류 보고 서비스(Wersvc) | `C:\WINDOWS\System32\svchost.exe -k WerSvcGroup` | 이 서비스는 오류 보고서를 Microsoft로 다시 전송합니다. |
+| Windows Defender 방화벽(MpsSvc) | `C:\WINDOWS\system32\svchost.exe -k LocalServiceNoNetwork` | 방화벽 서비스를 사용하도록 Windows Defender 것이 좋습니다. |
+| Windows 업데이트(Wuauserv) | `C:\WINDOWS\system32\svchost.exe -k netsvcs`| Windows 보안 인텔리전스 업데이트 및 맬웨어 방지 엔진 업데이트를 다운로드하려면 업데이트가 필요합니다. |
 
 ## <a name="submit-samples"></a>샘플 제출
 
@@ -176,20 +174,17 @@ sc query Windefend
 
 자동 샘플 제출을 사용하도록 설정하려면 Windows PowerShell 콘솔을 시작하고 다음 설정 중 하나에 따라 **SubmitSamplesConsent** 값 데이터를 설정하십시오.
 
-<br>
-
-****
+<br/><br/>
 
 |설정|설명|
 |---|---|
-|**0**  -  **항상 프롬프트**|Microsoft Defender 바이러스 백신 서비스에서 필요한 모든 파일의 제출을 확인하라는 메시지를 제공합니다. 이 설정은 Microsoft Defender 바이러스 백신 기본 설정이지만 Windows Server 2016 또는 2019 또는 Windows Server 2022에 GUI가 없는 설치에는 권장되지 않습니다.|
-|**1**   -  **안전한 샘플 자동 보내기**|Microsoft Defender 바이러스 백신 서비스는 "안전"으로 표시된 모든 파일을 전송하고 나머지 파일을 묻는 메시지를 제공합니다.|
-|**2**  -  **보내지 않는 경우**|Microsoft Defender 바이러스 백신 서비스는 메시지를 표시하지 않습니다. 또한 어떤 파일도 보내지 않습니다.|
-|**3**  -  **모든 샘플 자동 보내기**|Microsoft Defender 바이러스 백신 서비스는 확인 메시지를 표시하지 않고 모든 파일을 전송합니다.|
-|
+| **0**  -  **항상 프롬프트** | Microsoft Defender 바이러스 백신 서비스에서 필요한 모든 파일의 제출을 확인하라는 메시지를 제공합니다. 이 설정은 Microsoft Defender 바이러스 백신 기본 설정이지만 Windows Server 2016 또는 2019 또는 Windows Server 2022에 GUI가 없는 설치에는 권장되지 않습니다. |
+| **1**   -  **안전한 샘플 자동 보내기** | Microsoft Defender 바이러스 백신 서비스는 "안전"으로 표시된 모든 파일을 전송하고 나머지 파일을 묻는 메시지를 제공합니다. |
+| **2**  -  **보내지 않는 경우** | Microsoft Defender 바이러스 백신 서비스는 메시지를 표시하지 않습니다. 또한 어떤 파일도 보내지 않습니다. |
+| **3**  -  **모든 샘플 자동 보내기** | Microsoft Defender 바이러스 백신 서비스는 확인 메시지를 표시하지 않고 모든 파일을 전송합니다. |
 
->[!NOTE]
->이 옵션은 R2에서 사용할 Windows Server 2012 없습니다. 
+> [!NOTE]
+> 이 옵션은 R2에서 사용할 Windows Server 2012 없습니다. 
 
 
 ## <a name="configure-automatic-exclusions"></a>자동 제외 구성
@@ -213,10 +208,6 @@ Windows Server에서 Microsoft가 아닌 바이러스 백신 제품을 기본 �
 - 유형: `REG_DWORD`
 - 값: `1`
 
-
-
-
-
 ### <a name="disable-microsoft-defender-antivirus-using-the-remove-roles-and-features-wizard"></a>역할 Microsoft Defender 바이러스 백신 제거 마법사를 사용하여 사용자 설정을 사용하지 않도록 설정
 
 1. 역할, 역할 서비스 또는 기능 설치 또는 제거 및 역할 및 기능 **제거 마법사 사용을 참조합니다.** [](/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features#remove-roles-role-services-and-features-by-using-the-remove-roles-and-features-wizard)
@@ -239,21 +230,17 @@ Uninstall-WindowsFeature -Name Windows-Defender-GUI
 
 이제 R2 및 Microsoft Defender 바이러스 백신 수동 모드에서 Windows Server 2012 실행할 수 Windows Server 2016. 자세한 내용은 [끝점용 Microsoft Defender를 설치하는 옵션을 참조하세요.](configure-server-endpoints.md#options-to-install-microsoft-defender-for-endpoint)
 
+<br/><br/>
 
-<br>
-
-****
-
-|절차|설명|
+| 절차 | 설명 |
 |---|---|
-|그룹 Microsoft Defender 바이러스 백신 사용하지 않도록 설정|로컬 그룹 정책 편집기에서 Windows Defender **로** 이동한 다음 끄기를 **Windows Defender 바이러스 백신.**|
-|레지스트리 Microsoft Defender 바이러스 백신 사용하지 않도록 설정|[DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키를 사용 하 고 로 이동 하 고 라는 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` DWORD 항목을 설정 또는 만들 수 `DisableAntiSpyware` 있습니다. 해당 값을 로 설정하여 레지스트리 키의 값을 `1` *true로 설정합니다.*|
-|PowerShell을 Microsoft Defender 바이러스 백신 사용하지 않도록 설정|다음 PowerShell cmdlet을 사용 합니다. `Set-MpPreference -DisableRealtimeMonitoring $true`|
-|PowerShell을 Microsoft Defender 바이러스 백신 제거|다음 PowerShell cmdlet을 사용 합니다. `Uninstall-WindowsFeature -Name Windows-Defender`|
-|
+| 그룹 Microsoft Defender 바이러스 백신 사용하지 않도록 설정 | 로컬 그룹 정책 편집기에서 Windows Defender **로** 이동한 다음 끄기를 **Windows Defender 바이러스 백신.** |
+| 레지스트리 Microsoft Defender 바이러스 백신 사용하지 않도록 설정 | [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키를 사용 하 고 로 이동 하 고 라는 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` DWORD 항목을 설정 또는 만들 수 `DisableAntiSpyware` 있습니다. 해당 값을 로 설정하여 레지스트리 키의 값을 `1` *true로 설정합니다.* |
+| PowerShell을 Microsoft Defender 바이러스 백신 사용하지 않도록 설정 | 다음 PowerShell cmdlet을 사용 합니다. `Set-MpPreference -DisableRealtimeMonitoring $true` |
+| PowerShell을 Microsoft Defender 바이러스 백신 제거 | 다음 PowerShell cmdlet을 사용 합니다. `Uninstall-WindowsFeature -Name Windows-Defender` |
 
 
 ## <a name="see-also"></a>참고 항목
-- [Microsoft Defender 바이러스 백신 서버에 Windows 설치]()
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-windows.md)
+
+- [Windows의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-windows.md)
 - [Microsoft Defender 바이러스 백신 호환성](microsoft-defender-antivirus-compatibility.md)

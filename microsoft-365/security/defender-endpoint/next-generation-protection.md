@@ -16,14 +16,16 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 57f17cf798d92eeb5fcd22f12029f9d8d36a82fa
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 78bcb88ffba87cbdb09b4c47293bfc420d4140e2
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196852"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335577"
 ---
 # <a name="next-generation-protection-overview"></a>차세대 보호 개요
+
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 엔드포인트용 Microsoft Defender에는 네트워크의 보안 경계를 강화하기 위한 차세대 보호 기능이 포함되어 있습니다. 차세대 보호는 모든 유형의 새로운 위협을 포착하도록 설계되었습니다. Microsoft Defender 바이러스 백신 외에도 차세대 보호 서비스에는 다음 기능이 포함되어 있습니다.
 

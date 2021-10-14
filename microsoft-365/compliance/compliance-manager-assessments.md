@@ -9,17 +9,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.localizationpriority: medium
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하여 조직에 중요한 규정 및 인증의 요구 사항을 충족할 수 있도록 합니다.
-ms.openlocfilehash: a425f144e2c98866d32f14d7a16829342c14ef74
-ms.sourcegitcommit: 81533e5d3e1aee0823539a7c9bdc20dba6541a02
+ms.openlocfilehash: 536b153a847ef038c4dee25d3dcd23aa638049ee
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60223441"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335929"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>준수 관리자에서 평가 빌드 및 관리
 

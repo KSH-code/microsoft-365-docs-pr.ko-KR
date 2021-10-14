@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 858149ce169d335924a643e3c90b895906d28d9b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1c06cdf9492fa18797bfbf25f8153fa347137ced
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60170634"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335601"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -209,7 +209,7 @@ Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을
 
 - 관리자 및 최종 사용자는 콘텐츠에 적용된 기존 보존 레이블을 수동으로 변경하거나 제거할 수 있습니다. 
 
-- 콘텐츠에 이미 보존 레이블이 적용된 경우 기존 레이블은 자동으로 제거되거나 다른 보존 레이블로 대체되지 않습니다. 한 가지 예외: 기존 레이블이 기본 레이블로 적용되었습니다.
+- 콘텐츠에 이미 보존 레이블이 적용된 경우 기존 레이블은 자동으로 제거되거나 다른 보존 레이블로 대체되지 않습니다. 한 가지 예외: 기존 레이블이 기본 레이블로 적용되었습니다. 기본 레이블을 사용할 때 다른 기본 레이블로 대체되거나 자동으로 제거될 수 있는 몇 가지 시나리오가 있습니다. 
     
     기본 레이블을 사용하여 적용될 때 레이블 동작에 대한 자세한 내용은 다음을 참조하세요.
     - Sharepoint의 기본 레이블: [SharePoint에서 기본 레이블을 사용하는 경우 레이블 동작](create-apply-retention-labels.md#label-behavior-when-you-use-a-default-label-for-sharepoint)
@@ -526,4 +526,4 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
 
 ## <a name="configuration-guidance"></a>구성 지침
 
-[보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md) 참조 이 문서에는 보존 시나리오에 대한 구독, 사용 권한 및 종단 내 구성 지침에 대한 정보가 들어 있습니다.
+[보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요. 이 문서에는 보존 시나리오에 대한 엔드 투 엔드 구성 지침에 대한 구독, 권한 및 링크에 대한 정보가 있습니다.

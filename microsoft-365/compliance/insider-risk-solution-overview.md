@@ -3,7 +3,7 @@ title: 내부 위험 솔루션
 description: 조직의 내부자 위험 솔루션을 통해 조직의 위험을 최소화하는 데 도움이 되는 방법을 Microsoft 365.
 keywords: Microsoft 365, 내부자 위험, 규정 준수
 ms.localizationpriority: medium
-ms.prod: microsoft-365-enterprise
+ms.service: O365-seccomp
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-overview
-ms.openlocfilehash: ab7f0b26770c78298d620fa1f7d991dc5c7cae4b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5028b2f577d5eb67a3e1316048878d1020a7e53c
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60175242"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60334677"
 ---
 # <a name="insider-risk-solutions-in-microsoft-365"></a>Microsoft 365의 참가자 위험 솔루션
 
@@ -33,18 +33,18 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 
 | 위험 아이콘 | 위험 | 커뮤니케이션 규정 준수 | 내부자 위험 관리 | 정보 장벽 | 권한이 부여된 액세스 관리 |
 | :---- | :-------- | :--------------------------- | :-------------------------- |:-------------------------| :--------------------------------|
-| ![데이터 유출 아이콘입니다.](../media/ir-risk-data-spillage.png)| 데이터 유출 | ![않음](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |  |
-| ![기밀 위반 아이콘.](../media/ir-risk-confidentiality-violations.png)| 기밀 위반 | ![않음](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |
-| ![IP 도난 아이콘.](../media/ir-risk-ip-theft.png)| IP 도난 | ![지원](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |
-| ![직장 폭력 아이콘.](../media/ir-risk-workplace-violence.png)| 직장 폭력 | ![지원](../media/check-mark.png) |  |  |  |
-| ![사기/도둑 아이콘.](../media/ir-risk-fraud.png)| 사기 | ![않음](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |  |
-| ![정책 위반 아이콘입니다.](../media/ir-risk-policy-violations.png)| 정책 위반 | ![않음](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![지원](../media/check-mark.png) |
-| ![내부자 거래/핸드사이크 아이콘.](../media/ir-risk-insider-trading.png)| 내부자 거래 | ![지원](../media/check-mark.png) |  |  |  |
-| ![관심 있는 충돌 아이콘입니다.](../media/ir-risk-conflicts-of-interest.png)| 이해 상충 | ![않음](../media/check-mark.png) |  | ![지원](../media/check-mark.png) |  |
-| ![중요한 데이터 누수/장치 아이콘입니다.](../media/ir-risk-sensitive-data-leaks.png)| 중요한 데이터 누수 | ![않음](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |  |
+| ![데이터 유출 아이콘입니다.](../media/ir-risk-data-spillage.png)| 데이터 유출 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |  |
+| ![기밀 위반 아이콘.](../media/ir-risk-confidentiality-violations.png)| 기밀 위반 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |
+| ![IP 도난 아이콘.](../media/ir-risk-ip-theft.png)| IP 도난 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |
+| ![직장 폭력 아이콘.](../media/ir-risk-workplace-violence.png)| 직장 폭력 | ![않음](../media/check-mark.png) |  |  |  |
+| ![사기/도둑 아이콘.](../media/ir-risk-fraud.png)| 사기 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |  |
+| ![정책 위반 아이콘입니다.](../media/ir-risk-policy-violations.png)| 정책 위반 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |
+| ![내부자 거래/핸드사이크 아이콘.](../media/ir-risk-insider-trading.png)| 내부자 거래 | ![않음](../media/check-mark.png) |  |  |  |
+| ![관심 있는 충돌 아이콘입니다.](../media/ir-risk-conflicts-of-interest.png)| 이해 상충 | ![않음](../media/check-mark.png) |  | ![않음](../media/check-mark.png) |  |
+| ![중요한 데이터 누수/장치 아이콘입니다.](../media/ir-risk-sensitive-data-leaks.png)| 중요한 데이터 누수 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |  |
 | ![직장 희롱/사람 아이콘.](../media/ir-risk-workplace-harassment.png)| 직장 희롱 | ![않음](../media/check-mark.png) |  |  |  |
-| ![보안 위반 아이콘.](../media/ir-risk-security-violations.png)| 보안 위반 |  | ![않음](../media/check-mark.png) |  | ![지원](../media/check-mark.png) |
-| ![규정 준수 위반 아이콘입니다.](../media/ir-risk-regulatory-compliance-violations.png)| 규정 준수 위반 | ![않음](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |
+| ![보안 위반 아이콘.](../media/ir-risk-security-violations.png)| 보안 위반 |  | ![않음](../media/check-mark.png) |  | ![않음](../media/check-mark.png) |
+| ![규정 준수 위반 아이콘입니다.](../media/ir-risk-regulatory-compliance-violations.png)| 규정 준수 위반 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |
 
 ## <a name="microsoft-365-insider-risk-solutions"></a>Microsoft 365 참가자 위험 솔루션
 

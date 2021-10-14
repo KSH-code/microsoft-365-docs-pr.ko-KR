@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 재택근무, 재택근무, 하이브리드, 원격근무, 하이브리드 근무, 원격직원, 하이브리드 연결, 원격접속, 재택근무, 재택근무, 재택근무, 원격근무, 원격근무, 원격근무, 유연한 근무 장소
 description: 하이브리드 직원이 온-프레미스 및 Microsoft 365 리소스에 안전하게 액세스할 수 있도록 인프라 계층으로 이동합니다.
-ms.openlocfilehash: b93469fe1cb60dd1f0b86d34e23c49faa5c9e373
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ae6d9ab0017ed4d4a33fc57be74ac0ea4aa955a4
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205034"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335953"
 ---
 # <a name="set-up-your-infrastructure-for-hybrid-work-with-microsoft-365"></a>Microsoft 365를 사용하여 하이브리드 작업을 위한 인프라 설정
 
@@ -91,7 +91,7 @@ Microsoft 365에는 하이브리드 직원이 현장이나 원격으로 작업�
 |Azure AD 응용 프로그램 프록시|인트라넷 서버에서 호스트되는 웹 기반 응용 프로그램에 대한 보안 원격 액세스를 제공합니다.|별도의 유료 Azure 구독 필요|
 |Azure 지점 및 사이트 간 VPN|Azure 가상 네트워크를 통해 원격 작업자의 장치에서 인트라넷으로의 연결을 안전하게 만듭니다.|별도의 유료 Azure 구독 필요|
 |Windows Virtual Desktop|가상 데스크톱이 Azure에서 실행되는 관리되지 않는 개인 장치만 사용할 수 있는 원격 작업자를 지원합니다.|별도의 유료 Azure 구독 필요|
-|원격 데스크톱 서비스(RDS)|직원이 인트라넷의 Windows 기반 컴퓨터에 연결하도록 허용합니다.|Microsoft 365 E3 혹은 E5|
+|원격 데스크톱 |직원이 인트라넷의 Windows 기반 컴퓨터에 연결하도록 허용합니다.|Microsoft 365 E3 혹은 E5|
 |원격 데스크톱 서비스 게이트웨이|통신을 암호화하고 RDS 호스트가 인터넷에 직접 노출되지 않도록 합니다.|별도의 Windows Server 라이선스 필요|
 |Microsoft Intune|장치 및 응용 프로그램을 관리합니다.|Microsoft 365 E3 혹은 E5|
 |기능이며|장치의 소프트웨어 설치, 업데이트 및 설정 관리|별도의 Configuration Manager 라이선스 필요|

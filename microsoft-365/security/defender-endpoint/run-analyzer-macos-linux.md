@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 258adabaa29420ca0b713e290926048a2ed1752d
-ms.sourcegitcommit: e685fafd6dde4901c378685b423883faed7b4fe7
+ms.openlocfilehash: ad973120d2051a6a4834b1db4877c1b5ed6dc2ec
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460019"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335433"
 ---
 # <a name="run-the-client-analyzer-on-macos-and-linux"></a>macOS 및 Linux에서 클라이언트 분석기 실행
 
@@ -60,7 +60,7 @@ ms.locfileid: "59460019"
 
 3. `cd XMDEClientAnalyzer`
 
-4. `chmod +x mde_support_tool.sh"`
+4. `chmod +x mde_support_tool.sh`
 
 3. 루트가 아닌 사용으로 실행하여 필요한 pip 및 lxml 구성 요소를 설치합니다. `./mde_support_tool.sh`
 

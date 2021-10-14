@@ -3,7 +3,7 @@ title: 내부자 위험 관리 설정
 description: 내부자 위험 관리 설정에 대해 Microsoft 365
 keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
 ms.localizationpriority: medium
-ms.prod: microsoft-365-enterprise
+ms.service: O365-seccomp
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: ea91263cf6f466f718d30d8cfdc303611bf755ad
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 89a6947aa9ada34df0e60ed2d552254edb6719a5
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204302"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335313"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>내부자 위험 관리 설정 시작
 
@@ -87,7 +87,7 @@ ms.locfileid: "60204302"
 내부자 위험 Windows 10 보고할 계획인 장치 장치가 이러한 요구 사항을 충족하는지 확인합니다.
 
 1. x64 Windows 10 1809 이상을 실행하고 2020년 2월 20일부터 Windows 10 [업데이트(OS 빌드 17763.1075)를](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818) 설치해야 합니다.
-2. 디바이스에 로그인하는 데 사용되는 사용자 Windows 10 AAD(Active Azure Active Directory 계정) 계정이 있어야 합니다. 이 Windows 10 [AAD,](/azure/active-directory/devices/concept-azure-ad-join)하이브리드 AAD 또는 Active Directory 가입 또는 AAD가 등록되어 있을 수 있습니다.
+2. 디바이스에 로그인하는 데 사용되는 Windows 10 계정은 활성 Azure Active Directory(AAD) 계정입니다. 이 Windows 10, 하이브리드 AAD [](/azure/active-directory/devices/concept-azure-ad-join)또는 Active Directory가 AAD 또는 등록된 AAD 있습니다.
 3. 끝점 Chromium Microsoft Chromium 에지 브라우저를 설치하여 클라우드 업로드 활동에 대한 작업을 모니터링합니다. [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)를 참조하세요.
 
 #### <a name="step-2-onboarding-devices"></a>2단계: 장치 온보더링

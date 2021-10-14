@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 ms.localizationpriority: medium
 description: 2013에서 규정 준수를 빠르게 시작하는 데 도움이 되는 작업에 대해 Microsoft 365.
-ms.openlocfilehash: d60a9f589b6dc0c29d60c96fac9a8e30fbc4a3e0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 422459bb9831fff265e67c3887fab4288f468f0f
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156549"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335445"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 
@@ -88,7 +88,7 @@ Microsoft 365 메일, Exchange 사이트, SharePoint 계정 및 OneDrive 그룹�
 
 ## <a name="task-7-configure-sensitive-information-and-offensive-language-policies"></a>작업 7: 중요한 정보 및 비방성 언어 정책 구성
 
-중요한 정보를 보호하고 직장 괴롭혔던 인시던트 감지 및 대응은 내부 정책 및 표준을 준수하는 데 중요한 부분입니다. [전자 메일의](communication-compliance-feature-reference.md) Microsoft 365 준수는 전자 메일 및 전자 메일 통신에 대한 수정 작업을 신속하게 감지, 캡처 및 조치를 취하도록 지원하여 이러한 위험을 최소화하는 Microsoft Teams 도움이 됩니다. 여기에는 희롱, 위협 및 괴롭히는 부적절한 커뮤니케이션과 조직 내부 및 외부의 중요한 정보를 공유하는 커뮤니케이션이 포함됩니다.
+중요한 정보를 보호하고 직장 괴롭혔던 인시던트 감지 및 대응은 내부 정책 및 표준을 준수하는 데 중요한 부분입니다. [전자 메일의](communication-compliance.md) Microsoft 365 준수는 전자 메일 및 전자 메일 통신에 대한 수정 작업을 신속하게 감지, 캡처 및 조치를 취하도록 지원하여 이러한 위험을 최소화하는 Microsoft Teams 도움이 됩니다. 여기에는 희롱, 위협 및 괴롭히는 부적절한 커뮤니케이션과 조직 내부 및 외부의 중요한 정보를 공유하는 커뮤니케이션이 포함됩니다.
 
 미리 정의된  비방성 언어 및 괴롭히는 괴롭히기 방지 정책 템플릿을 사용하면 정책 일치에 대한 내부 및 외부 통신을 검사하여 지정된 검토자에 의해 검사될 수 있습니다. 검토자는 조직에서 검사된 전자 메일, Microsoft Teams, Yammer 또는 타사 통신을 조사하고 적절한 수정 조치를 취하여 조직의 표준을 준수하는지 검사할 수 있습니다.
 

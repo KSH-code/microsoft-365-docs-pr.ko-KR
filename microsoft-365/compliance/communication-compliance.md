@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 46ba59bc1e9e2d137c254939847c5de8a68a861a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 71dfd68ce690491497e6926eb1046d1c31f41408
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60153225"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335941"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>정보 통신 규정 준수에 대해 Microsoft 365
 
@@ -118,7 +118,7 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 다음을 비롯하�
 - **비즈니스용 Skype 온라인:** 통신 준수 정책은 비즈니스용 Skype Online에서 채팅 통신 및 [관련 첨부 파일 검색을 지원합니다.](/SkypeForBusiness/skype-for-business-online)
 - **타사** 원본: 타사 원본의 메시지에서 [](archiving-third-party-data.md) 조직의 사서함으로 가져온 데이터를 Microsoft 365 있습니다. 통신 규정 준수는 Instant Bloomberg 등의 인기 있는 여러 플랫폼에 대한 연결을 지원합니다.
 
-통신 준수 정책의 메시징 채널 지원에 대한 자세한 내용은 지원되는 통신 [유형을 참조하세요.](communication-compliance-feature-reference.md#supported-communication-types)
+통신 준수 정책의 메시징 채널 지원에 대한 자세한 내용은 커뮤니케이션 규정 준수를 사용하여 [채널 신호 검색을 참조하세요.](communication-compliance-channels.md)
 
 ## <a name="workflow"></a>워크플로
 

@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 5fa3ad73ffbc869a700776319477c5ab3128cae5
-ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
+ms.openlocfilehash: 3edb4307937bcf76a87f9bbdf8930a646794156e
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268757"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335833"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -418,10 +418,10 @@ Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니�
         [커뮤니케이션 규정 준수 작업](#communication-compliance-activities)
     :::column-end:::
     :::column:::
-        [Exchange 관리자 활동](#exchange-admin-audit-log)
+        [보고서 활동](#report-activities)
     :::column-end:::
     :::column:::
-        
+        [Exchange 관리자 활동](#exchange-admin-audit-log)
     :::column-end:::
 :::row-end:::
 
@@ -1026,7 +1026,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 - [브리핑 전자 메일 구성](/Briefing/be-admin)
 
 |**친숙한 이름**|**작업**|**설명**|
-|:-----|:-----|:-----|
+|:----|:-----|:-----|
 |조직의 개인 정보 보호 설정이 업데이트됨|UpdatedOrganizationBriefingSettings|관리자가 브리핑 전자 메일에 대한 조직 개인 정보 보호 설정을 업데이트합니다. |
 |사용자 개인 정보 보호 설정이 업데이트됨|UpdatedUserBriefingSettings|관리자가 브리핑 전자 메일에 대한 사용자 개인 정보 보호 설정을 업데이트합니다.
 ||||
@@ -1073,6 +1073,15 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |정책 업데이트|SupervisionPolicyCreated, SupervisionPolicyUpdated, SupervisionPolicyDeleted|통신 준수 관리자가 정책을 업데이트했습니다.|
 |정책 일치|SupervisionRuleMatch|사용자가 정책의 조건과 일치하는 메시지를 보냈습니다.|
 |메시지에 적용된 태그|SupervisoryReviewTag|메시지에 적용된 태그나 해결된 메시지|
+||||
+
+### <a name="report-activities"></a>보고서 활동
+
+다음 표에서는 Microsoft 365 감사 로그에 기록된 사용 현황 보고서에 대한 활동을 나열합니다.
+
+|**친숙한 이름**|**작업**|**설명**|
+|:-----|:-----|:-----|
+|업데이트된 사용 현황 보고서 개인 정보 설정|UpdateUsageReportsPrivacySetting|관리자가 사용 현황 보고서에 대한 개인 정보 설정을 업데이트했습니다. |
 ||||
 
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그

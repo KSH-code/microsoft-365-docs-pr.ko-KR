@@ -3,7 +3,7 @@ title: 내부자 위험 관리 브라우저 신호 감지(미리 보기)에 대�
 description: 내부자 위험 관리 브라우저 신호 검색에 대해 Microsoft 365
 keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
 ms.localizationpriority: medium
-ms.prod: microsoft-365-enterprise
+ms.service: O365-seccomp
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: f25664c0ca9cffa3a54e0bb9fb734bb506dfdf5b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a89393a2e420948a126ec5503a16ce981ed9652a
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190764"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60334506"
 ---
 # <a name="learn-about-and-configure-insider-risk-management-browser-signal-detection-preview"></a>내부자 위험 관리 브라우저 신호 감지(미리 보기)에 대해 알아보고 구성
 

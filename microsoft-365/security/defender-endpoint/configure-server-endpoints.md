@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 31f8d4343f425369f842122c3dfd483edeefe3d9
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: b180cedbad90082fa548e0dbd41af7313bc9e5b8
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60239900"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335781"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -118,7 +118,7 @@ R2 및 Windows Server 2012 R2의 이전 구현에서는 Windows Server 2016 MMA(
 > 이 R2 및 Windows Server 2012 Windows Server 2016 미리 보기에 있는 동안 MMA(Microsoft Monitoring Agent)를 사용하여 이전 온보더링 방법을 계속 사용할 수 있습니다. 자세한 내용은 [MMA를 사용하여 끝점 설치 및 구성을 참조하세요.](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma)
 
 
-### <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>필수 조건
 
 **R2의** Windows Server 2012 선행 최신 월별 롤업 패키지로 [](/troubleshoot/windows-client/deployment/standard-terminology-software-updates.md#monthly-rollup) 컴퓨터를 완전히 업데이트한 경우  추가 선행 구성이 없습니다.
 
@@ -242,23 +242,6 @@ Windows Server 2019 및 Windows Server 2022용 온보딩 패키지는 Microsoft 
 
 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md)
 
-## <a name="offboard-windows-servers"></a>서버 Windows 오프보드
-
-Windows Server 2012 클라이언트 장치에 사용할 수 있는 동일한 방법으로 Windows Server 2012 R2, Windows Server 2016, Windows Server(Windows Server), Windows Server 2019, Windows Server 2019 Core edition을 Windows 10 있습니다.
-
-- [그룹 정책을 사용하여 오프보더](configure-endpoints-gp.md#offboard-devices-using-group-policy)
-- [Configuration Manager를 사용하여 디바이스 오프보드](configure-endpoints-sccm.md#offboard-devices-using-configuration-manager)
-- [모바일 장치 관리 도구를 사용하여 장치 오프보드 및 모니터링](configure-endpoints-mdm.md#offboard-and-monitor-devices-using-mobile-device-management-tools)
-- [로컬 스크립트를 사용하여 디바이스 오프보딩](configure-endpoints-script.md#offboard-devices-using-a-local-script)
-
-다른 Windows 서버 버전의 경우 서비스에서 서버 Windows 오프보드할 수 있는 두 가지 옵션이 있습니다.
-
-- MMA 에이전트 제거
-- 끝점용 Defender 작업 영역 구성 제거
-
->[!NOTE]
->*다른 Windows 서버 버전에 대한 이러한 오프보딩 지침은 MMA가 필요한 Windows Server 2016 및 Windows Server 2012 R2에 대해 이전의 Microsoft Defender for Endpoint를 실행하는 경우도 적용됩니다. 새로운 연결되지 않은 솔루션으로 마이그레이션하는 지침은 [Microsoft Defender for Endpoint의](/microsoft-365/security/defender-endpoint/server-migration)서버 마이그레이션 시나리오에 있습니다.
-
 > [!NOTE]
 > 이 Microsoft Defender 바이러스 백신 실행은 필수는 아니며 권장됩니다. 다른 바이러스 백신 공급업체 제품이 기본 끝점 보호 솔루션인 경우 수동 모드에서 Defender 바이러스 백신을 실행할 수 있습니다. Microsoft Defender for Endpoint 센서(SENSE)가 실행되고 있는지 확인한 후에만 수동 모드가 설정되고 있는지 확인할 수 있습니다. 
 
@@ -285,6 +268,24 @@ Windows Server 2012 클라이언트 장치에 사용할 수 있는 동일한 방
 
 ## <a name="next-steps"></a>다음 단계
 디바이스를 서비스에 성공적으로 온보딩한 후 끝점에 대한 Microsoft Defender의 개별 구성 요소를 구성해야 합니다. 채택 [순서에 따라](prepare-deployment.md#adoption-order) 다양한 구성 요소를 사용하도록 설정하는 것이 안내됩니다.
+
+
+## <a name="offboard-windows-servers"></a>서버 Windows 오프보드
+
+Windows Server 2012 클라이언트 장치에 사용할 수 있는 동일한 방법으로 Windows Server 2012 R2, Windows Server 2016, Windows Server(Windows Server), Windows Server 2019, Windows Server 2019 Core edition을 Windows 10 있습니다.
+
+- [그룹 정책을 사용하여 오프보더](configure-endpoints-gp.md#offboard-devices-using-group-policy)
+- [Configuration Manager를 사용하여 디바이스 오프보드](configure-endpoints-sccm.md#offboard-devices-using-configuration-manager)
+- [모바일 장치 관리 도구를 사용하여 장치 오프보드 및 모니터링](configure-endpoints-mdm.md#offboard-and-monitor-devices-using-mobile-device-management-tools)
+- [로컬 스크립트를 사용하여 디바이스 오프보딩](configure-endpoints-script.md#offboard-devices-using-a-local-script)
+
+다른 Windows 서버 버전의 경우 서비스에서 서버 Windows 오프보드할 수 있는 두 가지 옵션이 있습니다.
+
+- MMA 에이전트 제거
+- 끝점용 Defender 작업 영역 구성 제거
+
+>[!NOTE]
+>*다른 Windows 서버 버전에 대한 이러한 오프보딩 지침은 MMA가 필요한 Windows Server 2016 및 Windows Server 2012 R2에 대해 이전의 Microsoft Defender for Endpoint를 실행하는 경우도 적용됩니다. 새로운 연결되지 않은 솔루션으로 마이그레이션하는 지침은 [Microsoft Defender for Endpoint의](/microsoft-365/security/defender-endpoint/server-migration)서버 마이그레이션 시나리오에 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [이전 버전의 Windows 온보딩](onboard-downlevel.md)
