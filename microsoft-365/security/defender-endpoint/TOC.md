@@ -176,6 +176,7 @@
 
 ##### [구성]()
 ###### [Microsoft Defender for Endpoint(Android용) 기능 구성](android-configure.md)
+###### [앱 보호 정책을 사용하여 엔드포인트용 Microsoft Defender 위험 신호 구성](android-configure-mam.md)
 
 ##### [개인 정보]()
 ###### [Microsoft Defender for Endpoint(Android용) - 개인 정보](android-privacy.md)

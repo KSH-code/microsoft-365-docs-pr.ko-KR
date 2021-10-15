@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 랜섬웨어, 인간이 운영하는 랜섬웨어, 인간 운영 랜섬웨어, HumOR, 공격, 랜섬웨어 공격, 암호화, 암호화
 description: 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호하는 단계를 안내합니다.
-ms.openlocfilehash: e7d06b1589e9b56eed93a63d978992d4ddf417b9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 57f79f82f5032c4e1706a8f71eb5eae8a38c0e98
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199264"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364750"
 ---
 # <a name="deploy-ransomware-protection-for-your-microsoft-365-tenant"></a>Microsoft 365 테넌트용 랜섬웨어 보호 배포
 
@@ -231,7 +231,7 @@ Microsoft의 주요 정보:
 - [랜섬웨어 위협 증가](https://blogs.microsoft.com/on-the-issues/2021/07/20/the-growing-threat-of-ransomware/), 2021년 7월 20일 Microsoft On the Issue 블로그 게시물
 - [사람이 조작하는 랜섬웨어](/security/compass/human-operated-ransomware)
 - [랜섬웨어 및 탈취로부터 신속하게 보호](/security/compass/protect-against-ransomware)
-- [최신 Microsoft 보안 인텔리전스 보고서](https://www.microsoft.com/securityinsights/)(22-24페이지 참조)
+- [2021 Microsoft Digital Defense 보고서](https://www.microsoft.com/security/business/microsoft-digital-defense-report)(10-19페이지 참조)
 - **랜섬웨어:** Microsoft 365 Defender 포털의 **위협 분석** 노드에 만연하고 지속적인 위협 보고서가 있습니다(이 [라이선스 요구 사항](/microsoft-365/security/defender/prerequisites#licensing-requirements) 참조).
 
 Microsoft 365:

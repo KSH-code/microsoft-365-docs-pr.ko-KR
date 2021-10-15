@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 구성 가능한 일치를 사용하도록 EDM 스키마를 수정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce02113cd8e6b0d0e2b2b5b950a78e2958b95004
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a409b8bad43b6a6ade81c96ae14f691289e11cec
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60167213"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60336049"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
 
@@ -66,7 +66,7 @@ EDM(정확한 데이터 일치) 기반 분류를 사용하면 중요한 정보 �
 
 위의 예에서 `caseInsensitive` 및 `ignoredDelimiters` 모두 추가되는 경우, 원래 `PolicyNumber`열의 변형은 더 이상 필요하지 않습니다. 
 
-EDM이 구성 가능한 일치를 사용하도록 스키마를 업데이트하려면 `caseInsensitive` 및 `ignoredDelimiters` 플래그를 사용합니다.  다음과 같은 경우입니다.
+EDM이 구성 가능한 일치를 사용하도록 스키마를 업데이트하려면 `caseInsensitive` 및 `ignoredDelimiters` 플래그를 사용합니다. 형태는 다음과 같습니다.
 
 ```xml
 <EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
@@ -100,11 +100,12 @@ EDM이 구성 가능한 일치를 사용하도록 스키마를 업데이트하�
 - a-z
 - \"
 - \,
+- |
 
 6. [보안 및 준수 센터 PowerShell](/powershell/exchange/connect-to-scc-powershell)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
 
 > [!NOTE]
-> 조직에서 [테넌트 수준(공개 미리 보기)에서 Microsoft 365용 고객 키](customer-key-tenant-level.md#overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview)를 설정한 경우 정확한 데이터 일치는 암호화 기능을 자동으로 사용합니다.  상업용 클라우드의 E5 라이선스 테넌트에서만 사용할 수 있습니다.
+> 조직에서 [테넌트 수준(공개 미리 보기)에서 Microsoft 365용 고객 키](customer-key-tenant-level.md#overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview)를 설정한 경우 정확한 데이터 일치는 자동으로 암호화 기능을 사용합니다. 이는 상업용 클라우드의 E5 라이선스 테넌트에게만 제공됩니다.
 
 7. cmdlets를 한 번에 하나씩 실행하여 다음과 같이 스키마를 업데이트합니다.
 

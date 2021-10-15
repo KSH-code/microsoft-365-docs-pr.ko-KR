@@ -1,5 +1,5 @@
 ---
-title: Windows Defender 바이러스 백신
+title: Windows의 Microsoft Defender 바이러스 백신
 description: Microsoft Defender 바이러스 백신, 내장된 맬웨어 및 바이러스 방지 기능을 관리, 구성 및 사용하는 방법에 대해 알아 보세요.
 keywords: Microsoft Defender Antivirus, windows defender, antimalware, scep, system center endpoint protection, system center configuration manager, virus, malware, threat, detection, protection, security
 search.product: eADQiWindows 10XVcnh
@@ -16,18 +16,21 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 585fa260452a69572f6498429f3675af22ca8479
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7de844673c12b1bc72853f07683da47deaa5aae1
+ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174642"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60335893"
 ---
 # <a name="microsoft-defender-antivirus-in-windows"></a>Windows의 Microsoft Defender 바이러스 백신
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
+- Microsoft Defender 바이러스 백신
+
+Microsoft Defender 바이러스 백신은 Windows 10 및 Windows 11 및 Windows Server 버전에서 사용할 수 있습니다.
 
 Windows Defender 바이러스 백신은 엔드포인트용 Microsoft Defender의 차세대 보호 구성 요소입니다. 이 기능은 기계 학습, 빅데이터 분석, 심층 위협 방지 연구, Microsoft 클라우드 인프라를 결합하여 조직의 장치(또는 엔드포인트)를 보호합니다. Microsoft Defender 바이러스 백신은 Windows에 기본 제공되며, 엔드포인트용 Microsoft Defender와 함께 작동하여 장치 및 클라우드를 보호합니다.
 
@@ -39,16 +42,13 @@ Windows Defender 바이러스 백신은 엔드포인트용 Microsoft Defender의
 
 다음 표에서는 Microsoft Defender 바이러스 백신 활성 모드, 수동 모드 또는 사용 중지 상태일 때 예상되는 사항에 대해 설명합니다.
 
-<br>
+<br/><br/>
 
-****
-
-|모드|발생 작업|
+| 모드 | 발생 작업 |
 |---|---|
-|활성 모드|활성 모드에서 Microsoft Defender 바이러스 백신은 장치의 기본 바이러스 백신 앱으로 사용됩니다. 파일이 스캔되고, 위협이 수정되고, 검색된 위협이 조직의 보안 보고서 및 Windows 보안 앱에 나열됩니다.|
-|수동 모드|수동 모드에서 Microsoft Defender 바이러스 백신은 장치의 기본 바이러스 백신 앱으로 사용되지 않습니다. 파일이 스캔되고 검색된 위협이 보고되지만 위협이 Microsoft Defender 바이러스 백신에 의해 수정되지는 않습니다. <p> **중요**: Microsoft Defender 바이러스 백신은 엔드포인트용 Microsoft Defender에 온보딩된 엔드포인트에서만 수동 모드로 실행할 수 있습니다. [Microsoft Defender 바이러스 백신을 수동 모드에서 실행하기 위한 요구 사항](microsoft-defender-antivirus-compatibility.md#requirements-for-microsoft-defender-antivirus-to-run-in-passive-mode)을 참조하세요.|
-|사용 중지 또는 제거됨|사용 중지하거나 제거하면 Microsoft Defender 바이러스 백신이 사용되지 않습니다. 파일이 스캔되지 않으며 위협은 수정되지 않습니다. 일반적으로 Microsoft Defender 바이러스 백신을 사용 중지하거나 제거하는 것은 권장되지 않습니다.|
-|
+| 활성 모드 | 활성 모드에서 Microsoft Defender 바이러스 백신은 장치의 기본 바이러스 백신 앱으로 사용됩니다. 파일이 스캔되고, 위협이 수정되고, 검색된 위협이 조직의 보안 보고서 및 Windows 보안 앱에 나열됩니다. |
+| 수동 모드 | 수동 모드에서 Microsoft Defender 바이러스 백신은 장치의 기본 바이러스 백신 앱으로 사용되지 않습니다. 파일이 스캔되고 검색된 위협이 보고되지만 위협이 Microsoft Defender 바이러스 백신에 의해 수정되지는 않습니다. <br/><br/> **중요**: Microsoft Defender 바이러스 백신은 엔드포인트용 Microsoft Defender에 온보딩된 엔드포인트에서만 수동 모드로 실행할 수 있습니다. [Microsoft Defender 바이러스 백신을 수동 모드에서 실행하기 위한 요구 사항](microsoft-defender-antivirus-compatibility.md#requirements-for-microsoft-defender-antivirus-to-run-in-passive-mode)을 참조하세요. |
+| 사용 중지 또는 제거됨 | 사용 중지하거나 제거하면 Microsoft Defender 바이러스 백신이 사용되지 않습니다. 파일이 스캔되지 않으며 위협은 수정되지 않습니다. 일반적으로 Microsoft Defender 바이러스 백신을 사용 중지하거나 제거하는 것은 권장되지 않습니다. |
 
 자세한 내용은 [Microsoft Defender 바이러스 백신 호환성](microsoft-defender-antivirus-compatibility.md)을 참조하세요.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 조직의 사용자와 관리자의 활동을 감사하는 방법에 대해 알아 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fbd00bdff46bebb73535f2b24c1b0bfa997dd55a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 726aa84157b82b3f4a5ea6ddfe1fed9734b3991b
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60163435"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60363981"
 ---
 # <a name="auditing-solutions-in-microsoft-365"></a>Microsoft 365의 감사 솔루션
 
@@ -118,8 +118,8 @@ Microsoft 365는 기본 감사 및 고급 감사라는 두 가지 감사 솔루�
 - Microsoft 365 Education A3 구독 + Microsoft 365 A5 규정 준수 추가 기능
 - Microsoft 365 Education A3 구독 + Microsoft 365 A5 eDiscovery 및 감사 추가 기능
 - Microsoft 365 Government G5 구독
-- Microsoft 365 Government G5 구독 + Microsoft 365 G5 규정 준수 추가 기능
-- Microsoft 365 Government G5 구독 + Microsoft 365 G5 eDiscovery 및 감사 추가 기능
+- Microsoft 365 Government G3 구독 + Microsoft 365 G5 규정 준수 추가 기능
+- Microsoft 365 Government G3 구독 + Microsoft 365 G5 eDiscovery 및 감사 추가 기능
 - Microsoft 365 Frontline F5 규정 준수 또는 F5 보안 및 규정 준수 추가 기능
 - Office 365 Enterprise E5 구독
 - Office 365 Education A5 구독
