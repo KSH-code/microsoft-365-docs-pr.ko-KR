@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 자세한 내용은 Microsoft 365 Business Voice.
-ms.openlocfilehash: ef3c0d08ac2a419e8d15b825272f6689f6cd3eaf
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e95a472ee70e38851dc0552968d2494304be1df4
+ms.sourcegitcommit: 1e990628d72b6d392500ea564859543e7c8bc632
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199060"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60386173"
 ---
 # <a name="overview-of-business-voice"></a>비즈니스 음성 개요
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M?autoplay=false]
 
-Microsoft 365 Business Voice 및 해당 직원을 위한 종단-종단 클라우드 기반 전화 시스템을 제공합니다.
+Microsoft 365 Business Voice 회사 및 해당 직원을 위한 종단-종단 클라우드 기반 전화 시스템을 제공합니다.
 
 ## <a name="what-is-business-voice"></a>What is Business Voice
 
@@ -49,7 +49,7 @@ Business Voice는 비즈니스용 음성의 일부이기 때문에 모든 Micros
 
 1. 기존 Microsoft 365 Business Voice 구독에 대한 추가 Microsoft 365 구입합니다.
 1. 회사 외부의 사용자와 전화를 걸고 받기 위해 회사 전화 번호가 필요한 모든 직원에 대한 라이선스를 취득해야 합니다.
-1. Business Voice를 설정하면 회사 및 직원의 새 전화 번호를 받게 됩니다. 기존 비즈니스 번호를 나중에 가져오는 경우에도 이 작업을 해야 합니다.
+1. Business Voice를 설정하면 회사 및 직원의 새 전화 번호를 받게 됩니다. 기존 비즈니스 번호를 나중에 가져오는 경우에도 이 작업을 합니다.
 1. 무료 번호 또는 국제 번호로 전화를 걸 수 있는 기능을 원하는 경우 Business Voice에 포함된 통화 시간 이후의 통화 시간(분)을 제공하는 비즈니스용 통신 크레딧을 구입합니다.
 1. 녹음을 업로드하거나 메시지를 입력하여 고객을 위한 인사말을 만들고 텍스트를 음성으로 변환합니다.
 1. 그런 다음 기본 회사 번호에서 음성 또는 전화의 키를 사용하여 고객을 올바른 사람 또는 부서로 연결되는 통화 라우팅 메뉴를 만드세요. 휴일이나 시간 이후 다른 인사말과 메뉴를 예약할 수 있습니다.
@@ -60,4 +60,4 @@ Business Voice는 비즈니스용 음성의 일부이기 때문에 모든 Micros
 
 전화 통화를 걸기 위해 컴퓨터, Teams 휴대폰에서 Teams 앱을 열고 통화를 선택하세요. 할당된 전화 번호와 원하는 번호로 전화를 걸 때 사용할 수 있는 다이얼 패드가 표시됩니다. 또는 연락처 또는 휴대폰에서 Outlook 선택하고 직접 전화를 걸 수 있습니다.
 
-전화가 걸리면 일반 전화의 환경과 비슷하게 통화를 수락하거나 무시하라는 메시지가 표시될 수 있습니다. 필요한 경우 통화를 전달하거나 여러 장치를 울리면 고객의 중요한 통화가 누락되지 않도록 합니다.
+전화가 걸리면 일반 전화의 환경과 비슷하게 통화를 수락하거나 무시하라는 메시지가 표시될 것입니다. 필요한 경우 통화를 전달하거나 여러 장치를 울리면 고객의 중요한 통화가 누락되지 않도록 합니다.

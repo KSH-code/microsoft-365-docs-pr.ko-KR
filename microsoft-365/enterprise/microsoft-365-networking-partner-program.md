@@ -16,12 +16,12 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: 이 Microsoft 365 네트워킹 파트너 프로그램 장치를 사용하여 인증을 받을 수 Microsoft 365.
 hideEdit: true
-ms.openlocfilehash: c269c63a9637eda1f1b4950cace4ed75dd963a49
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: fb08aad09fbeabb7b1e0a4a40f708f3249d4fe1f
+ms.sourcegitcommit: 1e990628d72b6d392500ea564859543e7c8bc632
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60197284"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60386161"
 ---
 # <a name="microsoft-365-networking-partner-program"></a>Microsoft 365 네트워킹 파트너 프로그램
 
@@ -35,4 +35,4 @@ ms.locfileid: "60197284"
 
 이 Microsoft 365 네트워킹 파트너 프로그램 질문에 답변하고 고객이 최상의 비즈니스 환경을 위해 네트워크 아키텍처를 구축하고 최적화하도록 지원하기 위한 Microsoft의 Microsoft 365 보여 줄 수 있습니다. Microsoft 365 팀에서는 여러 네트워크 산업 파트너와 협력하여 최적의 연결에 대한 주요 원칙이 기본적으로 네트워크 제품 및 솔루션에 기본 제공되도록 합니다.
 
-이 Microsoft 365 네트워킹 파트너 프로그램 "작업 방식"으로 적격 네트워킹 솔루션을 Microsoft 365. Microsoft의 엄격한 테스트 요구 사항을 충족하는 장치 또는 솔루션만 설치와 원활한 설치 환경을 제공하며, Microsoft 365 사용할 경우 "작업 Microsoft 365" 지정을 받게 됩니다. 이러한 유효성이 검사된 파트너 [](https://www.microsoft.com/microsoft-365/partners/O365networkingpartners)솔루션은 Microsoft 365 네트워킹 파트너 프로그램 페이지에 나열되어 있으며 자세한 내용은 솔루션 세부 정보 및 링크에 나와 있습니다.
+이 Microsoft 365 네트워킹 파트너 프로그램 "작업 방식"으로 적격 네트워킹 솔루션을 Microsoft 365. Microsoft의 엄격한 테스트 요구 사항을 충족하는 장치 또는 솔루션만 설치와 원활한 설치 환경을 제공하며, Microsoft 365 사용할 경우 "작업 Microsoft 365" 지정을 받게 됩니다. 이러한 유효성이 검사된 파트너 [](https://cloudpartners.transform.microsoft.com/m365networkingpartners)솔루션은 Microsoft 365 네트워킹 파트너 페이지에 나열되어 있으며 자세한 내용은 솔루션 세부 정보 및 링크에 나와 있습니다.
