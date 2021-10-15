@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9bc29db2ffd4914093b7045241395732f49a8b16
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 3548f23964f50740ce8c3adb96d82a2f0cbafddd
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335649"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364606"
 ---
 # <a name="insider-risk-management-policies"></a>내부 위험 관리 정책
 
@@ -127,13 +127,13 @@ ms.locfileid: "60335649"
 
 | **정책 템플릿** | **정책에 대한 트리거링 이벤트** | **필수 구성 요소** |
 | :------------------ | :--------------------------------- | :---------------- |
-| 퇴사하는 직원의 데이터 도난 | HR 커넥터의 퇴사 또는 종료 날짜 지표 | (선택 사항) 종료 및 퇴사 날짜 지표 또는 Azure Active Directory 통합을 사용하도록 구성된 Microsoft 365 HR 커넥터 |
-| 일반적인 데이터 유출 | 심각도가 높은 경고를 만드는 데이터 유출 정책 활동 | (선택 사항) 심각도가 높은 경고 또는 기본 제공 데이터 반출 트리거링 이벤트에 대해 구성된 DLP 정책 |
+| 퇴사하는 직원의 데이터 도난 | HR 커넥터 또는 계정 삭제에서 Azure Active Directory 종료 날짜 표시기 | (선택 사항) 종료 및 퇴사 날짜 지표를 위해 구성된 Microsoft 365 HR 커넥터 |
+| 일반적인 데이터 유출 | *높은 심각도* 경고 또는 기본 제공 반출 트리거링 이벤트를 만드는 데이터 유출 정책 활동 | (선택 사항) 높은 심각도 경고에 대해 구성된 DLP 정책 |
 | 우선순위 사용자의 데이터 유출 | *높은 심각도* 경고 또는 기본 제공 반출 트리거링 이벤트를 만드는 데이터 유출 정책 활동 | (선택 사항) 높은 심각도 경고에 대해 구성된 DLP 정책 <br><br> 내부 위험 설정에 구성된 우선순위 사용자 그룹 |
 | 불만을 품은 사용자의 데이터 유출 | HR 커넥터의 성과 개선, 성과 저하 또는 작업 수준 변경 지표 | 불만 표시를 위해 구성된 Microsoft 365 HR 커넥터 |
-| 일반 보안 정책 위반 | 엔드포인트용 Microsoft Defender에서 탐지한 보안 제어 또는 원치 않는 소프트웨어의 방어적 회피 | 활성 엔드포인트용 Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 엔드포인트용 Microsoft Defender 통합 구성 |
+| 일반 보안 정책 위반 | 끝점용 Microsoft Defender에서 감지한 보안 제어 또는 원치 않는 소프트웨어의 방어 공격 | 활성 엔드포인트용 Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 엔드포인트용 Microsoft Defender 통합 구성 |
 | 퇴사하는 사용자의 보안 정책 위반 | HR 커넥터 또는 Azure Active Directory 계정 삭제의 퇴사 또는 종료 날짜 지표 | (선택 사항) 종료 및 퇴사 날짜 지표를 위해 구성된 Microsoft 365 HR 커넥터 <br><br> 활성 엔드포인트용 Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 엔드포인트용 Microsoft Defender 통합 구성 |
-| 우선순위 사용자의 보안 정책 위반 | 엔드포인트용 Microsoft Defender에서 탐지한 보안 제어 또는 원치 않는 소프트웨어의 방어적 회피 | 활성 엔드포인트용 Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 엔드포인트용 Microsoft Defender 통합 구성 <br><br> 내부 위험 설정에 구성된 우선순위 사용자 그룹 |
+| 우선순위 사용자의 보안 정책 위반 | 끝점용 Microsoft Defender에서 감지한 보안 제어 또는 원치 않는 소프트웨어의 방어 공격 | 활성 엔드포인트용 Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 엔드포인트용 Microsoft Defender 통합 구성 <br><br> 내부 위험 설정에 구성된 우선순위 사용자 그룹 |
 | 불만을 품은 사용자의 보안 정책 위반 | HR 커넥터의 성과 개선, 성과 저하 또는 작업 수준 변경 지표 | 불만 표시를 위해 구성된 Microsoft 365 HR 커넥터 <br><br> 활성 엔드포인트용 Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 엔드포인트용 Microsoft Defender 통합 구성 |
 
 ## <a name="prioritize-content-in-policies"></a>정책에서 콘텐츠 우선순위 지정
@@ -271,7 +271,7 @@ ms.locfileid: "60335649"
     - **설명(선택 사항)**: 정책에 대한 설명을 입력합니다.
 
 6. **다음** 을 선택하여 계속합니다.
-7. **사용자 및 그룹** 페이지에서 **모든 사용자 및 그룹 포함** 또는 **특정 사용자 및 그룹 포함** 을 선택하여 정책에 포함할 사용자 또는 그룹을 정의하거나 우선순위 사용자 기반 템플릿을 선택한 경우 **우선순위 사용자 그룹 추가 또는 편집** 을 선택합니다. **모든 사용자 및 그룹 포함** 을 선택하면 조직의 모든 사용자 및 그룹에 대한 트리거링 이벤트를 찾아 정책에 대한 위험 점수 할당을 시작합니다. **특정 사용자 및 그룹 포함** 을 선택하면 정책에 할당할 사용자 및 그룹을 정의할 수 있습니다.
+7. **사용자 및 그룹** 페이지에서 **모든 사용자 및 그룹 포함** 또는 **특정 사용자 및 그룹 포함** 을 선택하여 정책에 포함할 사용자 또는 그룹을 정의하거나 우선순위 사용자 기반 템플릿을 선택한 경우 **우선순위 사용자 그룹 추가 또는 편집** 을 선택합니다. **모든 사용자 및 그룹 포함** 을 선택하면 조직의 모든 사용자 및 그룹에 대한 트리거링 이벤트를 찾아 정책에 대한 위험 점수 할당을 시작합니다. **특정 사용자 및 그룹 포함** 을 선택하면 정책에 할당할 사용자 및 그룹을 정의할 수 있습니다. 게스트 사용자 계정은 지원되지 않습니다.
 8. **다음** 을 선택하여 계속합니다.
 9. **우선순위를 지정할 콘텐츠** 페이지에서 우선순위를 지정할 소스를 할당할 수 있고(필요한 경우), 이를 통해 이러한 소스에 대해 높은 심각도 경고를 생성할 가능성이 높아집니다. 다음 선택 항목 중 하나를 선택합니다.
 

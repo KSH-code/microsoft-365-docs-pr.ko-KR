@@ -20,12 +20,12 @@ description: eDiscovery 관련 작업을 수행하는 데 필요한 사용 권�
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 2ff6a589ce8b4db6adf00a820eaf00b20f9f7bcc
-ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
+ms.openlocfilehash: d6515dc213fe6b89a9a638c9df8dcad63785967c
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60217153"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364558"
 ---
 # <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>전자 메일 그룹에 eDiscovery 권한 Microsoft 365 규정 준수 센터
 
@@ -43,6 +43,8 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
   
   - 케이스에 본인을 구성원으로 추가하고, eDiscovery 케이스 관리.
   
+  - eDiscovery 사례에서 구성원을 제거합니다. eDiscovery 관리자만 사례에서 구성원을 제거할 수 있습니다. eDiscovery 관리자 하위 구성원인 사용자는 사용자가 사례를 만든 경우에도 사례에서 구성원을 제거할 수 없습니다.
+  
   조직에서 eDiscovery 관리자(Administrator)를 원할 수 있는 이유는 추가 정보를 [참조하세요.](#more-information)
 
 > [!NOTE]
@@ -52,7 +54,7 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 - 조직 관리 역할 그룹의 구성원이거나 역할 관리 역할을 할당하여 조직에서 eDiscovery 권한을 할당해야 Microsoft 365 규정 준수 센터.
 
-- Security & Compliance Center PowerShell에서 [Add-RoleGroupMember](/powershell/module/exchange/Add-RoleGroupMember) cmdlet을 사용하여 메일 사용이 가능한 보안 그룹을 eDiscovery 관리자 역할 그룹의 eDiscovery 관리자 하위 그룹 구성원으로 추가할 수 있습니다. 그러나 메일 사용이 가능한 보안 그룹을 eDiscovery Administrators 하위 그룹에 추가할 수 없습니다. 자세한 내용은 추가 정보를 [참조하십시오.](#more-information) 
+- Security & Compliance Center PowerShell에서 [Add-RoleGroupMember](/powershell/module/exchange/Add-RoleGroupMember) cmdlet을 사용하여 메일 사용이 가능한 보안 그룹을 eDiscovery 관리자 역할 그룹의 eDiscovery 관리자 하위 그룹 구성원으로 추가할 수 있습니다. 그러나 메일 사용이 가능한 보안 그룹을 eDiscovery Administrators 하위 그룹에 추가할 수 없습니다. 자세한 내용은 추가 정보를 [참조하십시오.](#more-information)
   
 ## <a name="assign-ediscovery-permissions"></a>eDiscovery 사용 권한 할당
 
@@ -171,13 +173,13 @@ Microsoft 365 규정 준수 센터 주 eDiscovery 관련 역할 그룹을 **eDis
 
 eDiscovery 사례의 구성원이 될 수 있는 역할 그룹에 역할을 추가하거나 제거하기 전에 Security [& Compliance PowerShell에서](/powershell/exchange/connect-to-scc-powershell) 다음 명령을 실행하여 역할 그룹이 구성원으로 있는 사례 목록을 얻을 수 있습니다. 역할 그룹을 업데이트한 후 역할 그룹을 해당 사례의 구성원으로 다시 추가합니다.
 
-### <a name="get-a-list-of-role-groups-assigned-to-core-ediscovery-cases"></a>Core eDiscovery 사례에 할당된 역할 그룹 목록 표시
+### <a name="get-a-list-of-core-ediscovery-cases-a-role-group-is-assigned-to"></a>역할 그룹이 할당된 Core eDiscovery 사례 목록 표시
 
 ```powershell
 Get-ComplianceCase -RoleGroup "Name of role group"
 ```
 
-### <a name="get-a-list-of-role-groups-assigned-to-advanced-ediscovery-cases"></a>사례에 할당된 역할 Advanced eDiscovery
+### <a name="get-a-list-of-advanced-ediscovery-cases-a-role-group-is-assigned-to"></a>역할 그룹이 Advanced eDiscovery 사례 목록 표시
 
 ```powershell
 Get-ComplianceCase -RoleGroup "Name of role group" -CaseType AdvancedEdiscovery

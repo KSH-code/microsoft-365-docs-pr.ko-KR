@@ -21,12 +21,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 10/07/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 76b390c8f4ff3cd83dacd308ac6d9fc64da21017
-ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
+ms.openlocfilehash: 36de4b9703c0200d8e2eddba8e3ec0f9b6fe47f9
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60245504"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364762"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -48,14 +48,14 @@ ms.locfileid: "60245504"
 
 ## <a name="reinstallenable-microsoft-defender-antivirus-on-your-endpoints"></a>끝점에서 Microsoft Defender 바이러스 백신 다시 설치/사용
 
-특정 버전의 Windows, Microsoft Defender 바이러스 백신 Microsoft 바이러스 백신/맬웨어 방지 솔루션이 설치될 때 제거되거나 비활성화된 것일 수 있습니다. 끝점을 Windows 끝점에 대한 Defender에 온보딩된 경우 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 솔루션과 함께 수동 모드에서 실행할 수 있습니다. 자세한 내용은 [Endpoint용 Defender를 통해 바이러스 백신 보호를 참조합니다.](microsoft-defender-antivirus-compatibility.md#antivirus-protection-with-defender-for-endpoint)
+특정 버전의 Windows, Microsoft Defender 바이러스 백신 Microsoft 바이러스 백신/맬웨어 방지 솔루션이 설치될 때 제거되거나 비활성화된 것일 수 있습니다. 끝점을 Windows 끝점에 대한 Defender에 온보딩된 경우 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 솔루션과 함께 수동 모드에서 실행할 수 있습니다. 자세한 내용은 [Endpoint용 Defender를 통해 바이러스 백신 보호를 참조합니다.](microsoft-defender-antivirus-compatibility.md#antivirus-protection-without-defender-for-endpoint)
 
 Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 사용하도록 설정하기 위해 특정 단계를 Microsoft Defender 바이러스 백신. 다음 표에서는 클라이언트 및 서버에서 Windows 설명되어 있습니다.
 </br> </br>
 
 |끝점 유형|수행할 작업|
 |---|---|
-|Windows 클라이언트(예: Windows 10 및 Windows 11 실행 끝점)|일반적으로 클라이언트가 제거되지 않은 경우 Windows 작업을 수행하지 Microsoft Defender 바이러스 백신 않습니다. 그 이유는 다음과 같습니다. <br/><br/> Microsoft Defender 바이러스 백신 설치해야 하지만 마이그레이션 프로세스의 이 시점에서는 사용하지 않도록 설정되어 있을 가능성이 습니다. <br/><br/> Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치되고 클라이언트가 끝점용 Defender에 아직 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다. <br/><br/> 나중에 클라이언트 끝점이 Endpoint용 Defender에 온보딩될 때 해당 끝점이 Microsoft가 아닌 바이러스 백신 솔루션을 실행하는 경우 Microsoft Defender 바이러스 백신 모드로 전환됩니다. <br/><br/> Microsoft가 아닌 바이러스 백신 솔루션을 제거하면 Microsoft Defender 바이러스 백신 모드로 전환됩니다.|
+|Windows 클라이언트(예: Windows 10 및 Windows 11)|일반적으로 클라이언트가 제거되지 않은 경우 Windows 작업을 수행하지 Microsoft Defender 바이러스 백신 않습니다. 그 이유는 다음과 같습니다. <br/><br/> Microsoft Defender 바이러스 백신 설치해야 하지만 마이그레이션 프로세스의 이 시점에서는 사용하지 않도록 설정되어 있을 가능성이 습니다. <br/><br/> Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치되고 클라이언트가 끝점용 Defender에 아직 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다. <br/><br/> 나중에 클라이언트 끝점이 Endpoint용 Defender에 온보딩될 때 해당 끝점이 Microsoft가 아닌 바이러스 백신 솔루션을 실행하는 경우 Microsoft Defender 바이러스 백신 모드로 전환됩니다. <br/><br/> Microsoft가 아닌 바이러스 백신 솔루션을 제거하면 Microsoft Defender 바이러스 백신 모드로 전환됩니다.|
 |Windows 서버|Windows 서버에서 서버를 다시 설치하고 수동으로 Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다. 모든 Windows Microsoft가 아닌 바이러스 백신/맬웨어 방지가 설치되어 있는 경우 microsoft가 아닌 Microsoft Defender 바이러스 백신 솔루션과 함께 실행할 수 없습니다. 이러한 경우 수동으로 Microsoft Defender 바이러스 백신 제거하거나 사용하지 않도록 설정됩니다. <br/><br/> Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치하거나 사용하도록 설정하려면 다음 작업을 수행합니다. <br/>- [Windows Server에서 DisableAntiSpyware를 false로 설정(필요한](#set-disableantispyware-to-false-on-windows-server) 경우만 해당)<br/>- [Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치](#reinstall-microsoft-defender-antivirus-on-windows-server)<br/>- [Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 설정](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)|
 
 > [!TIP]

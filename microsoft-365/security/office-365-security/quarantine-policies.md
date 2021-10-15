@@ -16,14 +16,17 @@ ms.collection:
 description: 관리자는 사용자가 메시지를 검사하기 위해 할 수 있는 작업을 제어하기 위해 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b6b7ee1d93023e18beb1a0858151474fcf048721
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c8e8e81f44ab50ef0f670589551cb529a5c6ab6f
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208976"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364859"
 ---
 # <a name="quarantine-policies"></a>격리 정책
+
+> [!NOTE]
+> 이 문서에서 설명하는 기능은 롤아웃 중이기 때문에 아직 사용할 수 없습니다. 전 세계 출시의 대상 날짜는 2021년 10월 31일입니다.
 
 EOP(Exchange Online Protection(Exchange Online Protection) 및 Microsoft Defender for Office 365 정책은 관리자가 메시지가 검사된 이유에 따라 사용자가 메시지를 검사할 수 있는 작업을 제어할 수 있도록 합니다.
 

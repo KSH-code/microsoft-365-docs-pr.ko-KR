@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 256598a1eb7a51c0e07bd7be9ebf616d2d1ce4ec
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0e90d4fd51c0e25a20b6ef985d7a15edc001bfb5
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198268"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364137"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Microsoft Managed Desktop 장치 서비스
 
@@ -22,7 +22,7 @@ ms.locfileid: "60198268"
 
 ## <a name="device-services"></a>장치 서비스
 
-Microsoft는 이러한 서비스를 Microsoft Managed Desktop 있습니다. 권장되는 프로그램 Microsoft Managed Desktop 목록은 Shop Microsoft Managed Desktop business devices 사이트에서 Windows 10 Pro [필터링하세요.](https://www.microsoft.com/windowsforbusiness/view-all-devices)
+Microsoft는 이러한 서비스를 Microsoft Managed Desktop 있습니다. 권장되는 프로그램 Microsoft Managed Desktop 목록은 Shop Microsoft Managed Desktop business devices 사이트에서 Windows Pro [필터링합니다.](https://www.microsoft.com/windows/business/devices)
 
 서비스 | 설명
 --- | ---

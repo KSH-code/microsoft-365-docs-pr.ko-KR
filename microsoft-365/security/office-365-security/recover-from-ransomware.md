@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d2bb99111142be683c6504010576253784d3cd68
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 898456075cd0298973b94ab8b8ea700fe52f5c08
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210404"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364546"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -79,7 +79,7 @@ ms.locfileid: "60210404"
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>4단계: 정리된 컴퓨터 또는 장치에서 파일 복구
 
-사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하는 것을 방지) Windows 11, Windows 10, Windows 8.1 및 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
+사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하지 못하게 [](https://support.microsoft.com/help/17128) 하려는 경우) Windows 11, Windows 10, Windows 8.1 및 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다.
 
 **참고**:
 
@@ -148,13 +148,13 @@ Microsoft의 주요 정보:
 - [랜섬웨어 위협 증가](https://blogs.microsoft.com/on-the-issues/2021/07/20/the-growing-threat-of-ransomware/), 2021년 7월 20일 Microsoft On the Issue 블로그 게시물
 - [사람이 조작하는 랜섬웨어](/security/compass/human-operated-ransomware)
 - [랜섬웨어 및 탈취로부터 신속하게 보호](/security/compass/protect-against-ransomware)
-- [최신 Microsoft 보안 인텔리전스 보고서](https://www.microsoft.com/securityinsights/)(22-24페이지 참조)
+- [2021 Microsoft Digital Defense](https://www.microsoft.com/security/business/microsoft-digital-defense-report) 보고서(10-19 페이지 참조)
 - **랜섬웨어:** Microsoft 365 Defender 포털의 **위협 분석** 노드에 만연하고 지속적인 위협 보고서가 있습니다(이 [라이선스 요구 사항](/microsoft-365/security/defender/prerequisites#licensing-requirements) 참조).
 
 Microsoft 365:
 
 - [Microsoft 365 테넌트용 랜섬웨어 보호 배포](/microsoft-365/solutions/ransomware-protection-microsoft-365)
-- [Azure 및 랜섬웨어의 탄력성을 최대화하고 Microsoft 365](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
+- [Azure 및 Microsoft 365를 사용하여 랜섬웨어 복원력 최대화](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어로부터 Windows PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
@@ -166,7 +166,7 @@ Microsoft 365 Defender:
 Microsoft Azure:
 
 - [랜섬웨어 공격용 Azure 방어](https://azure.microsoft.com/resources/azure-defenses-for-ransomware-attack/)
-- [Azure 및 랜섬웨어의 탄력성을 최대화하고 Microsoft 365](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
+- [Azure 및 Microsoft 365를 사용하여 랜섬웨어 복원력 최대화](https://azure.microsoft.com/resources/maximize-ransomware-resiliency-with-azure-and-microsoft-365/)
 - [랜섬웨어로부터 보호하기 위한 백업 및 복원 계획](/security/compass/backup-plan-to-protect-against-ransomware)
 - [랜섬웨어로부터](https://www.youtube.com/watch?v=VhLOr2_1MCg) 보호하는 Microsoft Azure 백업(26분 비디오)
 - [시스템 ID 손상 복구](/azure/security/fundamentals/recover-from-identity-compromise)

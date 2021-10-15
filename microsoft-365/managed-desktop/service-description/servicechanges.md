@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: c10d7f59f31b3cfbd8baf34247e9fc4288751dd9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6542769d203604738f863af7da211bfc21ba8ac7
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208088"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364678"
 ---
 # <a name="service-changes-and-communication"></a>서비스 변경 및 커뮤니케이션
 
@@ -45,7 +45,7 @@ ms.locfileid: "60208088"
 
 - Windows 및 Office 설치
 - 장치에 적용된 보안 기준 업데이트
-- 지원되는 장치. 추천 장치를 표시하기 위해 비즈니스 Microsoft Managed Desktop 사이트에서 Windows 10 Pro [필터링합니다.](https://www.microsoft.com/windowsforbusiness/view-all-devices)
+- 지원되는 장치. 추천 디바이스를 표시하기 위해 비즈니스 Microsoft Managed Desktop 사이트에서 Windows Pro [필터링합니다.](https://www.microsoft.com/windows/business/devices)
 
 설정한 채널을 사용하여 이러한 변경 내용을 전달할 것입니다. 변경 내용에 대한 질문이 있으면 Microsoft Managed Desktop [팀에 문의하세요.](../working-with-managed-desktop/admin-support.md) 서비스에 대한 변경 내용도 변경 기록 에 필요한 경우 [문서화됩니다.](../change-history-managed-desktop.md)
 

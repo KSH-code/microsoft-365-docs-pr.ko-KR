@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 84caa800657ee33d4bb44f81eda0acf433a7e227
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 193fed7b4e211fa1389902d7da9f92b96977a118
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212668"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364161"
 ---
 # <a name="device-images"></a>장치 이미지
 
@@ -31,7 +31,7 @@ ms.locfileid: "60212668"
 Dell 영업 담당자와 직접 작업합니다. 이 담당자가 승인한 이미지가 Microsoft Managed Desktop 장치에 적용해야 합니다. Dell 장치, 이미지 및 주문 프로세스에 대한 자세한 내용은 에 문의 MMD_at_dell@dell.com.
 
 ### <a name="hp"></a>HP 
-HP에서 새 장치를 주문하는 경우 쇼핑 Windows 10 Pro 비즈니스 장치 사이트에 있는 각 모델에 [](https://www.microsoft.com/windowsforbusiness/view-all-devices#view-all-filter) 대한 추가 요구 사항 섹션에 나열된 특정 SKU를 사용하세요(보기를 필터링하여 Microsoft Managed Desktop 장치 표시).
+HP에서 새 디바이스를 주문하는 경우 쇼핑 Windows Pro 비즈니스 장치 사이트에 있는 각 모델에 대한 추가 요구 사항 섹션에 나열된 특정 SKU를 사용하세요(보기를 필터링하여 Microsoft Managed Desktop 장치 표시). [](https://www.microsoft.com/windows/business/devices#view-all-filter)
 
 예외로 승인되어 있지만 현재 장치 목록 페이지에 나열되지 않은 장치를 HP에서 주문하는 경우 모델에 사용할 SKU를 요청해야 합니다. [](customizing.md) 예외 요청을 사용하여 HP와 함께 이 정보를 얻게 됩니다. 다음 주소를 사용하여 장치 및 장치 주문 지침에 대한 질문이 있으면 HP에 직접 문의할 수 있습니다.
  
@@ -83,7 +83,7 @@ Microsoft Surface 디바이스에는 각 모델에 특정한 "베어 메탈 [복
 
 
 ### <a name="universal-image"></a>유니버설 이미지
-Microsoft Managed Desktop 사용할 수 있는 Windows 10 Pro 및 Microsoft 365 앱 Enterprise 이미지가 Microsoft Managed Desktop. 그러나 가능하면 제조업체에서 제공하는 Microsoft Managed Desktop 적합한 이미지를 사용하는 것이 가장 좋습니다. 이는 이전 Windows 버전이면 사용자가 로그인한 후 업데이트해야 하는 경우에도 해당됩니다. 유니버설 Microsoft Managed Desktop 사용하는 것이 최종 옵션입니다.
+Microsoft Managed Desktop 사용할 수 있는 Windows Pro 및 Microsoft 365 앱 Enterprise 이미지가 Microsoft Managed Desktop. 그러나 가능하면 제조업체에서 제공하는 Microsoft Managed Desktop 적합한 이미지를 사용하는 것이 가장 좋습니다. 이는 이전 Windows 버전이면 사용자가 로그인한 후 업데이트해야 하는 경우에도 해당됩니다. 유니버설 Microsoft Managed Desktop 사용하는 것이 최종 옵션입니다.
 
 - 30-60일마다 최신 Windows 품질 업데이트로 이미지를 업데이트하고 1년에 Microsoft 365 앱 Enterprise 업데이트에 대해 업데이트합니다.
 - 이 이미지에는 복구 시나리오에 따라 복구 Microsoft 365 앱 Enterprise 복구 Windows 패키지가 포함되어 있습니다.

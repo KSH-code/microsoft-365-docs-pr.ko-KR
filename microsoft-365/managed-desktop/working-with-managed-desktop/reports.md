@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1fb29ef7555bb3e7ff2024090b3b7cf953a2de10
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4a0a1d674d14b6569acc07d65ec3f2cc886deeaa
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213172"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364149"
 ---
 # <a name="work-with-reports"></a>보고서 작업
 
@@ -29,7 +29,7 @@ Microsoft Managed Desktop 조직의 IT 관리자가 디바이스의 다양한 �
 - 장치 [ **상태 보고서(미리**](device-status-report.md) 보기)는 장치 활동 및 사용량에 따라 Microsoft Managed Desktop 서비스 사용을 보여 줍니다. 
 - 장치 상태  추세(미리보기)를 사용하여 장치 장치에 대한 지난 60일 동안의 장치 상태 추세를 Microsoft Managed Desktop 있습니다. 추세는 장치 상태를 시간이 경과에 따라 다른 변경 내용(예: 새 배포)과 연결하는 데 도움이 될 수 있습니다. 
 - Windows 보안 업데이트보고서(미리 보기)는 Windows 보안 업데이트가 여러 장치에서 릴리스되는 Microsoft Managed Desktop 보여줍니다. [  ](security-updates-report.md)
-- 응용 **프로그램 사용 현황 보고서는** 여러 장치에서 일반적인 앱 사용에 대한 Microsoft Managed Desktop 제공합니다. 장치가 이 보고서에 데이터를 제공하려면 선택적 진단 데이터 수준으로 설정해야 합니다.
+- 응용 [ **프로그램 사용 현황** 보고서는](app-usage-report.md) 여러 디바이스에서 일반적인 앱 사용에 대한 Microsoft Managed Desktop 제공합니다. 장치가 이 보고서에 데이터를 제공하려면 선택적 진단 데이터 수준으로 설정해야 합니다.
 
 ## <a name="endpoint-analytics"></a>엔드포인트 분석
 Microsoft Managed Desktop 끝점 [분석과 통합됩니다.](/mem/analytics/overview) 이러한 보고서는 조직이 작업하는 방식과 사용자에게 전달된 환경의 품질을 측정하는 데 필요한 정보를 제공합니다. 끝점 분석은 의 **보고서** [메뉴에 Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) 모든 보고서로 이동하여 관리되는 장치만 포함하려면 Microsoft Managed Desktop 필터 드롭다운을  선택한 다음 장치 Microsoft Managed Desktop **선택합니다.**

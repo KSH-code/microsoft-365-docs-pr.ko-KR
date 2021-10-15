@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b180cedbad90082fa548e0dbd41af7313bc9e5b8
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 041f4840f3c06439c37043e0779d7acf0173c56c
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335781"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60363993"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -31,7 +31,7 @@ ms.locfileid: "60335781"
 
 - Windows Server 2012 R2
 - Windows Server 2016
-- Windows 서버 Semi-Annual 채널
+- Windows 서버 Semi-Annual Enterprise 채널
 - Windows Server 2019 이상
 - Windows Server 2019 Core Edition
 - Windows Server 2022
@@ -61,7 +61,7 @@ Windows 보안 서버의 기본 Windows 다운로드하고 사용하는 방법�
 - 응용 프로그램 설치
 - 해당 도구에 대한 온보더링 단계 수행
 
-**Windows 서버 Semi-Annual 채널 및 Windows Server 2019**
+**Windows 서버 Semi-Annual Enterprise 채널 및 Windows Server 2019**
 
 - 온보더링 패키지 다운로드
 - 해당 도구에 대한 온보더링 단계 수행
@@ -93,16 +93,16 @@ R2 및 Windows Server 2012 R2의 이전 구현에서는 Windows Server 2016 MMA(
 - 프록시 서버에서 끝점 서비스 [URL에 대한 Microsoft Defender 액세스](/microsoft-365/security/defender-endpoint/configure-proxy-internet?enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server) 사용에 지정된 연결 요구 사항이 충족되어 있는지 확인합니다. 서버 2019의 Windows 동일합니다. 
 - 이전에는 OMS 게이트웨이에서 Microsoft Monitoring Agent(MMA)를 Windows Server 2016 OMS 게이트웨이에서 Defender 클라우드 서비스에 대한 연결을 제공할 수 있습니다. Windows Server 2019, Windows Server 2022 및 Windows 10의 끝점용 Microsoft Defender와 같은 새 솔루션은 이 게이트웨이를 지원하지 않습니다.
 - 이 Windows Server 2016 설치된 Microsoft Defender 바이러스 백신 활성 상태 및 최신 상태인지 확인합니다. 업데이트 업데이트를 사용하여 최신 플랫폼 버전을 다운로드하고 설치할 Windows 있습니다. 또는 Microsoft 업데이트 카탈로그 또는 [](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4052623) MMPC에서 수동으로 업데이트 [패키지를 다운로드합니다.](https://go.microsoft.com/fwlink/?linkid=870379&arch=x64)  
-- R2에 Windows Server 2012 사용자 인터페이스가 Microsoft Defender 바이러스 백신. 또한 사용자 인터페이스의 Windows Server 2016 기본 작업만 허용합니다. 장치에서 로컬로 작업을 수행하려면 [PowerShell, WMI ](/microsoft-365/security/defender-endpoint/manage-atp-post-migration-other-tools)및 를 사용하여 끝점용 Microsoft Defender 관리를 MPCmdRun.exe. 따라서 사용자에게 의사 결정을 내리거나 특정 작업을 수행하라는 메시지가 표시되는 위치와 같이 사용자 조작을 구체적으로 하는 기능이 예상대로 작동하지 않을 수 있습니다. 일반적으로 사용자 인터페이스를 사용하지 않도록 설정하거나 사용하지 않도록 설정하거나 보호 기능에 영향을 줄 수 있는 관리되는 서버에서 사용자 상호 작용을 요구하지 않는 것이 좋습니다.
-- 일부 공격 표면 감소 규칙을 모든 운영 체제에서 사용할 수 있는 것은 아니며, [ASR(공격 표면 축소) 규칙을 검토하십시오.](/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules)
+- R2에 Windows Server 2012 사용자 인터페이스가 Microsoft Defender 바이러스 백신. 또한 사용자 인터페이스의 Windows Server 2016 기본 작업만 허용합니다. 장치에서 로컬로 작업을 수행하려면 [PowerShell, WMI ](/microsoft-365/security/defender-endpoint/manage-atp-post-migration-other-tools)및 를 사용하여 끝점용 Microsoft Defender 관리를 MPCmdRun.exe. 따라서 사용자에게 의사 결정을 내리거나 특정 작업을 수행하라는 메시지가 표시되는 위치와 같이 사용자 조작을 구체적으로 하는 기능이 예상대로 작동하지 않을 수 있습니다. 사용자 인터페이스를 사용하지 않도록 설정하거나 사용하지 않도록 설정하거나 보호 기능에 영향을 줄 수 있는 관리되는 서버에서 사용자 상호 작용을 요구하지 않는 것이 좋습니다.
+- 일부 공격 표면 감소 규칙을 모든 운영 체제에서 사용할 수 있는 것은 아니며, [ASR(공격 표면 축소) 규칙을 참조합니다.](/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules)
 - 네트워크 [보호를 사용하도록 설정하려면](/microsoft-365/security/defender-endpoint/network-protection)추가 구성이 필요합니다.   
     -- Set-MpPreference -EnableNetworkProtection Enabled  
     -- Set-MpPreference -AllowNetworkProtectionOnWinServer 1  
     -- Set-MpPreference -AllowNetworkProtectionDownLevel 1  
     -- Set-MpPreference -AllowDatagramProcessingOnWinServer 1  
   또한 네트워크 트래픽이 많은 컴퓨터의 경우 이 기능을 광범위하게 사용하도록 설정하기 전에 해당 환경에서 성능 테스트를 하는 것이 좋습니다. 추가 리소스 사용량을 고려해야 할 수 있습니다.
- - R2 Windows Server 2012 시간 표시 막대에 네트워크 이벤트가 채워지지 않을 수 있습니다. This issue requires a Windows Update KB4645768 released as part of the October 12th patch Tuesday.
- - 운영 체제 업그레이드는 지원되지 않습니다. 업그레이드하기 전에 오프보드했다가 제거하시기 바랍니다.
+ - R2 Windows Server 2012 시간 표시 막대에 네트워크 이벤트가 채워지지 않을 수 있습니다. 이 문제를 해결하려면 Windows 2021년 10월 12일 패치의 일부로 릴리스된 업데이트 KB4645768이 필요합니다.
+ - 운영 체제 업그레이드는 지원되지 않습니다. 업그레이드하기 전에 오프보드를 설치한 다음 제거합니다.
 
 ## <a name="integration-with-azure-defender"></a>Azure Defender와 통합
 끝점용 Microsoft Defender는 Azure Defender와 원활하게 통합됩니다. 서버를 자동으로 온보딩하고, Azure Defender가 모니터링하는 서버를 Endpoint용 Defender에 표시하고, Azure Defender 고객으로 자세한 조사를 실시할 수 있습니다. 
@@ -133,7 +133,7 @@ R2 및 Windows Server 2012 R2의 이전 구현에서는 Windows Server 2016 MMA(
 
 **R2 및 2016의 끝점용 Microsoft Defender에 Windows Server 2012 업데이트 패키지**
 
-EDR 센서 구성 요소에 대한 정기적인 제품 개선 및 수정을 받으 Windows [업데이트 KB5005292가](https://go.microsoft.com/fwlink/?linkid=2168277) 적용되거나 승인되도록 합니다. 또한 보호 구성 요소를 업데이트된 유지 관리하기 위해 관리 Microsoft Defender 바이러스 백신 [기준을 적용하세요.](/microsoft-365/security/defender-endpoint/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions)
+EDR 센서 구성 요소에 대한 정기적인 제품 개선 및 수정을 받으 Windows [업데이트 KB5005292가](https://go.microsoft.com/fwlink/?linkid=2168277) 적용되거나 승인되도록 합니다. 또한 보호 구성 요소를 업데이트된 유지 관리하기 위해 Microsoft Defender 바이러스 백신 및 기준 [적용을 참조하세요.](/microsoft-365/security/defender-endpoint/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions)
 
 ### <a name="download-installation-and-onboarding-packages"></a>설치 및 온보더링 패키지 다운로드 
 
@@ -188,7 +188,7 @@ Windows Server에 대한 지원은 서버 활동, 커널 및 메모리 공격 �
 
 설치 관리자 [스크립트를](server-migration.md#installer-script) 사용하여 설치, 제거 및 온보딩을 자동화할 수도 있습니다.
 
-## <a name="windows-server-semi-annual-channel-and-windows-server-2019-and-windows-server-2022"></a>Windows Server Semi-Annual Channel 및 Windows Server 2019 및 Windows Server 2022
+## <a name="windows-server-semi-annual-enterprise-channel-and-windows-server-2019-and-windows-server-2022"></a>Windows Server Semi-Annual Enterprise Channel 및 Windows Server 2019 및 Windows Server 2022
 
 Windows Server 2019 및 Windows Server 2022용 온보딩 패키지는 Microsoft Endpoint Manager 현재 스크립트를 제공합니다. Configuration Manager에서 스크립트를 배포하는 방법에 대한 자세한 내용은 Configuration Manager의 패키지 [및 프로그램을 참조하세요.](/configmgr/apps/deploy-use/packages-and-programs)
 
@@ -223,14 +223,22 @@ Windows Server 2019 및 Windows Server 2022용 온보딩 패키지는 Microsoft 
     ```
         
     > [!NOTE]
-    > 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows Server 2022, Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
+    >
+    > - 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows Server 2022, Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
+    > - 이러한 통합을 활용하는 서버 끝점 모니터링은 Office 365 GCC 사용하지 않도록 설정되어 있습니다.
 
       
 
     3. 수동 모드 이벤트가 포함된 최근 이벤트가 발견된지 확인:
+    
+     ![수동 모드 확인 결과의 이미지](images/atp-verify-passive-mode.png)
 
-       ![수동 모드 확인 결과의 이미지](images/atp-verify-passive-mode.png)
-
+> [!IMPORTANT]
+>
+> - Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트에 대한 Defender가 자동으로 만들어집니다(미국 사용자의 경우 미국, 유럽 사용자에 대한 EU 및 영국 사용자의 경우 영국 사용자).
+Endpoint용 Defender에서 수집한 데이터는 프로비전 중에 식별된 테넌트의 지리적 위치에 저장됩니다.
+> - Azure Defender를 사용하기 전에 Endpoint용 Defender를 사용하는 경우 나중에 Azure Defender와 통합하는 경우에도 테넌트를 만들 때 지정한 위치에 데이터가 저장됩니다.
+> - 일단 구성되면 데이터가 저장되는 위치를 변경할 수 없습니다. 데이터를 다른 위치로 이동해야 하는 경우 Microsoft 지원에 문의하여 테넌트를 다시 설정해야 합니다.
 
 
 ## <a name="verify-the-onboarding-and-installation"></a>온보더링 및 설치 확인

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 관리하는 앱 거버넌스 기능을 시작하세요.
-ms.openlocfilehash: bb5fa0e54eadec89124c39a350b7591be82b7583
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 8998a0e4f6cf01a7394e44695cd06f0b60915c7e
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335881"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364738"
 ---
 # <a name="get-started-with-app-governance-in-preview"></a>앱 거버넌스 시작(미리 보기)
 
@@ -101,7 +101,6 @@ MCAS와의 통합이 활성 상태인지 확인하려면 아래에 나열된 앱
 - 회사 관리자
 - 규정 준수 관리자
 - 규정 준수 데이터 관리자
-- 규정 준수 읽기 권한자(읽기 전용)
 - 전역 읽기 권한자
 - 보안 관리자
 - 보안 운영자

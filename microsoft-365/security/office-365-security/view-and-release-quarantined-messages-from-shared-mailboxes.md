@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: 사용자는 사용 권한이 있는 공유 사서함으로 전송된 분리된 메시지를 보고 해당 메시지를 보는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d98e228bc966dd95210276ad3ad86543c3ac711f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e78a46bca97ea58a88195c9d05e11332528cf3af
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196276"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364871"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>공유 사서함에서 분리된 메시지 보기 및 릴리스
 
@@ -36,13 +36,7 @@ ms.locfileid: "60196276"
 이제 사용자가 공유 사서함으로 전송된 고지된 메시지를 관리하기 위해 더 이상 automapping이 필요하지 않습니다. 작동하기만 합니다. 공유 사서함에 전송된 서로 다른 두 가지 방법으로는 서로 다른 두 가지 방법으로 메시지에 액세스할 수 있습니다.
 
 - 관리자가 스팸 알림(이전의 최종 사용자 스팸 알림)을 허용하도록 검사 정책을 구성한 경우 공유 사서함의 검지 알림에 액세스할 수 있는 모든  사용자는 알림의 검토 단추를 클릭하여 Microsoft 365 Defender 포털에서 검사로 이동하면 됩니다. [](quarantine-policies.md) 이 방법을 사용하면 사용자가 공유 사서함으로 전송된 분리된 메시지만 관리할 수 있습니다. 사용자는 이 컨텍스트에서 자체적으로 메시지를 관리할 수 없습니다.
-- 사용자는 사이트 포털 에서 [검사로 Microsoft 365 Defender 있습니다.](find-and-release-quarantined-messages-as-a-user.md) 기본적으로 사용자에게 전송된 메시지만 표시됩니다. 그러나 정렬 결과(메시지  ID 단추 기본적으로 메시지 **ID** 단추)를 받는 사람 전자 메일 주소로 변경하고 **공유** 사서함 전자 메일 주소를 입력한 다음 새로 고침을 클릭하여 공유 사서함으로 전송된 고지된 메시지를 볼 수 있습니다. 
-
-  ![받는 사람 전자 메일 주소로 quarantined 메시지를 정렬합니다.](../../media/quarantine-sort-results-by-recipient-email-address.png)
-
-방법과 관계없이 사용자는 받는 사람 열을  사용하여 분리된 메시지에 대해 혼동을 피할 수 있습니다. 표시할 최대 열 수는 7개이기 때문에 사용자가 열 **수정을** 클릭하고 기존 열을 제거(예: 정책 **유형),** 받는 사람 을 선택한 다음 저장 **또는** 기본으로 저장을 **클릭해야 합니다.**
-
-  ![정책 유형 열을 제거하고 받는 사람 열을 분리합니다.](../../media/quarantine-add-recipient-column.png)
+- 사용자는 Microsoft 365 Defender 포털에서 검지로 이동한 다음 필터를  클릭하여 받는 사람 주소(공유 사서함의 전자 [메일](find-and-release-quarantined-messages-as-a-user.md) 주소)로 결과를 **필터링할** 수 있습니다. 기본 **Quarantine** 페이지에서 받는 사람 열을 클릭하여 공유 사서함으로 전송된 메시지를 정렬할 수 있습니다. 
 
 ## <a name="things-to-keep-in-mind"></a>주의 사항
 

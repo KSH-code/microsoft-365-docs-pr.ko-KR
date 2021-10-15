@@ -20,12 +20,12 @@ metadata:
   description: 관리자는 EOP(EOP)에서 스팸 방지 보호에 대한 질문과 Exchange Online Protection 수 있습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: efcca5d8834c8d4bf67dbf3ee98a07380733bf5f
-  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+  ms.openlocfilehash: ff584aba00db965946fccd81a5a433f97d05c8ef
+  ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/06/2021
-  ms.locfileid: "60202528"
+  ms.lasthandoff: 10/15/2021
+  ms.locfileid: "60364125"
 title: 스팸 방지 보호 FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -40,7 +40,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  이 항목에서는 Microsoft 365 사서함이 있는 Exchange Online 또는 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 조직에 대한 맬웨어 방지 Exchange Online 질문과 대답을 제공합니다.
+  이 항목에서는 사서함이 Microsoft 365 사서함이 있는 Microsoft 365 Exchange Online 조직 또는 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 조직에 대한 스팸 방지 Exchange Online 질문과 대답을 제공합니다.
 
 
   격리에 대한 질문과 대답은 [격리 FAQ](quarantine-faq.yml)를 참조하세요.
@@ -159,7 +159,7 @@ sections:
 
         보내는 도메인의 A 레코드와 MX 레코드가 DNS에 없으면 서비스에서는 메시지 내용이 스팸인지 여부에 관계없이 위험성이 높은 배달 풀을 통하여 해당 메시지를 라우팅합니다. 위험도가 높은 배달 풀에 대한 자세한 내용은 아웃바운드 메시지에 대한 위험도가 높은 [배달 풀을 참조하세요.](high-risk-delivery-pool-for-outbound-messages.md)
 
-      - **아웃바운드 메일 서버에는 역방향 DNS(PTR) 항목이 있습니다.**
+      - **아웃바운드 전자 메일 서버에는 역방향 DNS(PTR) 항목이 필요합니다.**
 
         예를 들어 전자 메일 원본 IP 주소가 192.0.43.10인 경우 역방향 DNS 항목은 `43-10.any.icann.org` .'
 

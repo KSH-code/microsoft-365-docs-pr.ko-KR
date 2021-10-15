@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f4b845f9a34eecde953d3736b1a82f37b54b05d6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a146c08834d0b7c4dc6d184a09176d986af1913f
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205046"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364823"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -169,6 +169,9 @@ ms.locfileid: "60205046"
 
 - 도메인 contoso.com의 가장 예는 ćóntoso.com입니다.
 - 사용자 michelle@contoso.com의 가장 예는 michele@contoso.com입니다.
+
+> [!NOTE]
+> 가장 보호는 유사한 도메인을 검색합니다. 예를 들어 도메인이 contoso.com 경우 가장 시도로 서로 다른 최상위 도메인(.com, .biz 등)과 다소 유사한 도메인도 검사합니다. 예를 들어 contosososo.com contoabcdef.com 가장 시도로 볼 수 contoso.com.
 
 가장된 도메인은 받는 사람을 속이려는 의도가 있다는 것을 제외하고 합법적(등록된 도메인, 구성한 전자 메일 인증 기록 등)으로 간주될 수 있습니다.
 

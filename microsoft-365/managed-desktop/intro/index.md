@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c1e2b871c8b8dfb8229482d43ca02898f6adb852
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: fc76ad5e41610c23f60392c2f13655049018a1eb
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208136"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364594"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -56,7 +56,7 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 ## <a name="device-management"></a>디바이스 관리
 등록된 장치 및 사용중인 Microsoft 소프트웨어 관리에 대한 부담을 Microsoft Managed Desktop이 덜어줍니다.
 
-- **하드웨어**: 장치가 서비스와 호환되는지 조사하고 파악해야 하는 IT 부서 대신 특정 하드웨어 및 소프트웨어 요구 사항, 도구 및 프로세스를 제공하여 확신을 가지고 장치를 선택할 수 있도록 선택을 간소화했습니다. [Windows 10 Pro 비즈니스 장치 쇼핑](https://www.microsoft.com/windowsforbusiness/view-all-devices) 사이트에서 Microsoft Managed Desktop을 필터링하여 권장 장치를 찾을 수 있습니다. 장치를 직접 얻고(또는 파트너와 함께 작업) 이미 가지고 있는 장치를 다시 사용할 수 있습니다. 등록된 장비는 쉽고 간편합니다. 배포되기 전 사용자의 고객의 경험에 맞도록 장치를 [사용자 지정](../working-with-managed-desktop/config-setting-overview.md) 할 수 있습니다.
+- **하드웨어**: 장치가 서비스와 호환되는지 조사하고 파악해야 하는 IT 부서 대신 특정 하드웨어 및 소프트웨어 요구 사항, 도구 및 프로세스를 제공하여 확신을 가지고 장치를 선택할 수 있도록 선택을 간소화했습니다. 비즈니스 디바이스 쇼핑 사이트에서 Microsoft Managed Desktop 필터링하여 권장 [Windows Pro 있습니다.](https://www.microsoft.com/windows/business/devices) 장치를 직접 얻고(또는 파트너와 함께 작업) 이미 가지고 있는 장치를 다시 사용할 수 있습니다. 등록된 장비는 쉽고 간편합니다. 배포되기 전 사용자의 고객의 경험에 맞도록 장치를 [사용자 지정](../working-with-managed-desktop/config-setting-overview.md) 할 수 있습니다.
 
 - **업데이트**: Microsoft Managed Desktop은 Windows 10 품질 및 기능 업데이트, 드라이버, 펌웨어, 바이러스 백신 정의 및 엔터프라이즈용 Microsoft 365 앱 업데이트 [배포 그룹](../service-description/updates.md)의 모든 것을 설정하고 관리합니다. 광범위한 검사 및 모든 업데이트 확인이 포함되어 등록된 장비가 항상 최신 상태를 유지하고 방해를 최소화 하여 상시 업무로 부터 IT 부서를 자유롭게 해줍니다.
 

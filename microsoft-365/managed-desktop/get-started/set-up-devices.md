@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: db373ad60782de8bcf925107b5b8b773eb10a482
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 98adf2e8d6faeb089b74a2ec4050b7ec53620e0f
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60166718"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364630"
 ---
 # <a name="set-up-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 설정
 
@@ -25,7 +25,7 @@ ms.locfileid: "60166718"
 
 승인된 장치 파트너 중 하나와 함께 작업하는 것이 좋습니다. Microsoft 계정 연락처와 협력하여 장치 파트너 관계를 설정하는 데 더 많은 도움을 줄 수 있습니다. 그러나 본질적으로 프로세스는 다음과 같습니다.
 
-1. Shop Windows 10 Pro Business Devices 사이트에서 비즈니스용 디바이스를 필터링하여 현재 Microsoft Managed Desktop [목록을 검토합니다.](https://www.microsoft.com/windowsforbusiness/view-all-devices)
+1. 비즈니스 디바이스 쇼핑 사이트에서 현재 권장되는 Microsoft Managed Desktop [필터링하여 Windows Pro 검토합니다.](https://www.microsoft.com/windows/business/devices)
 2. 규격 이미지와 함께 사용할 장치의 예를 하나 또는 몇 가지 주문합니다. 순서를 지정하려면 특정 [순서 단계가 필요할 수 있습니다.](../service-description/device-images.md)
 3. [예제](validate-device.md) 디바이스의 유효성을 검사합니다.
 5. 유효성 검사에 성공한 후 승인된 장치 파트너와 함께 작업하여 디바이스를 주문합니다.

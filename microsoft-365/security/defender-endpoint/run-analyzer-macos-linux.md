@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ad973120d2051a6a4834b1db4877c1b5ed6dc2ec
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 5be8fcb6928588fdc0195bcaffb7a8797fc2bfd9
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335433"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364654"
 ---
 # <a name="run-the-client-analyzer-on-macos-and-linux"></a>macOS 및 Linux에서 클라이언트 분석기 실행
 
@@ -54,7 +54,7 @@ ms.locfileid: "60335433"
 
 관련 컴퓨터로 터미널 또는 SSH를 열고 다음 명령을 실행합니다.
 
-1. `wget --quiet -O XMDEClientAnalyzer.zip https://aka.ms/XMDEClientAnalyzer *`
+1. `wget --quiet -O XMDEClientAnalyzer.zip https://aka.ms/XMDEClientAnalyzer`
 
 2. `unzip -q XMDEClientAnalyzer.zip`
 

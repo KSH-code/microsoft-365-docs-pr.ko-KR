@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 주제에 대한 계획을 세우는 Microsoft Viva 방법을 배워야 합니다.
-ms.openlocfilehash: dd7b56342a3881c25be65a62028d024aa55c35ce
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 61729eeaa4a30a3f7e0faf50ab40320d88f3d78a
+ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60163195"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60364582"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 계획
 
@@ -71,9 +71,7 @@ Site name,URL
 
 ### <a name="multi-geo"></a>Multi-geo
 
-조직에서 [multi-geo를 Microsoft 365](/microsoft-365/enterprise/microsoft-365-multi-geo)경우 항목 센터가 중앙 위치에 프로비전되어 SharePoint 사이트의 원본으로 사용할 수 있습니다. (모든 **사이트를** 선택하면 Viva 항목은 중앙 위치의 모든 사이트를 사용하게 됩니다.)
-
-콘텐츠의 모든 처리 및 저장은 중앙 위치에서 수행됩니다.
+조직에서 [multi-Microsoft 365 배포한](/microsoft-365/enterprise/microsoft-365-multi-geo)경우 Viva Topics는 항목 데이터가 항상 올바른 지리적 위치에 저장될 수 있도록 하여 데이터 주권을 존중합니다. 항목 센터는 중앙 위치에 프로비전됩니다. 모든 지리적 위치의 콘텐츠는 중앙 위치에서 처리됩니다. 검색된 항목은 원본 콘텐츠와 동일한 지리적 위치에 저장됩니다. 항목 원본 데이터가 지리적 위치 간에 이동하면 설명과 같은 해당 항목 속성도 함께 이동됩니다.
 
 ## <a name="user-permissions"></a>사용자 권한
 
