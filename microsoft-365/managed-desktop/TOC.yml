@@ -21,20 +21,23 @@
           href: service-description/regions-languages.md
         - name: 제품 수명 주기
           href: service-description/device-lifecycle.md
-        - name: 장치 요구 사항
-          href: service-description/device-requirements.md
-        - name: 장치 이미지
-          href: service-description/device-images.md
-        - name: 디바이스 이름
-          href: service-description/device-names.md
-        - name: 장치 서비스
-          href: service-description/device-services.md
-        - name: 장치 프로필
-          href: service-description/profiles.md
-        - name: 디바이스 배포 그룹
-          href: service-description/deployment-groups.md
-        - name: 장치 구성
-          href: service-description/device-policies.md
+        - name: 디바이스
+          href: null
+          items:
+            - name: 장치 요구 사항
+              href: service-description/device-requirements.md
+            - name: 장치 이미지
+              href: service-description/device-images.md
+            - name: 디바이스 이름
+              href: service-description/device-names.md
+            - name: 장치 서비스
+              href: service-description/device-services.md
+            - name: 장치 프로필
+              href: service-description/profiles.md
+            - name: 디바이스 배포 그룹
+              href: service-description/deployment-groups.md
+            - name: 장치 구성
+              href: service-description/device-policies.md
         - name: 보안 기술
           href: service-description/security.md
         - name: 보안 작업
@@ -154,6 +157,8 @@
               href: working-with-managed-desktop/device-status-report.md
             - name: Windows 보안 업데이트 보고서
               href: working-with-managed-desktop/security-updates-report.md
+            - name: 앱 사용 현황 보고서
+              href: working-with-managed-desktop/app-usage-report.md
         - name: 관리자 지원
           href: working-with-managed-desktop/admin-support.md
         - name: 사용자 지원
