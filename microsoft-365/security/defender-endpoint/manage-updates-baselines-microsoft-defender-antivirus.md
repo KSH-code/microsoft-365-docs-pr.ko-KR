@@ -16,14 +16,14 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 10/07/2021
+ms.date: 10/15/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a5f5428ce3c710cc99c7c86306a64501419ae60f
-ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
+ms.openlocfilehash: de1ab0bc8f58123bb24bd9d9d6d855f924c54986
+ms.sourcegitcommit: 53a4ee148348010444f7deb0590d34e6a298adb8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60245672"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60400026"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -74,6 +74,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 > - 이 문서에는 광범위한 릴리스 채널에 포함된 변경 내용이 나열됩니다. [여기에서 최신 광범위 채널 릴리스를 참조하세요.](https://www.microsoft.com/security/encyclopedia/adlpackages.aspx?action=info)
 > - 단계적 출시 프로세스에 대한 자세한 내용을 알아보고 다음 릴리스에 대한 자세한 내용은 Microsoft Defender 업데이트에 대한 단계적 출시 프로세스 관리를 [참조하세요.](manage-gradual-rollout.md)
 > - 보안 인텔리전스 업데이트에 대한 자세한 내용은 보안 인텔리전스 업데이트 및 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 [방지를 참조하세요.](https://www.microsoft.com/wdsi/defenderupdates)
+> - Microsoft Defender 프로세스 목록을 찾고 있는 경우 **[mde-urls](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)** 통합 문서 를 다운로드한 다음 **Microsoft Defender 프로세스** 워크시트 를 선택합니다. mde-urls 통합 문서에는 프록시 서버에서 [Microsoft Defender for Endpoint](configure-proxy-internet.md)서비스 URL에 대한 액세스 사용에 설명된 바와 같이 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL도 나열됩니다.
 
 ## <a name="monthly-platform-and-engine-versions"></a>월별 플랫폼 및 엔진 버전
 
