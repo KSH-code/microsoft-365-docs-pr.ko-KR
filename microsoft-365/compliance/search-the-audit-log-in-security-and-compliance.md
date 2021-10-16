@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 3edb4307937bcf76a87f9bbdf8930a646794156e
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: dd79e0c74e2313855e2bf698053c99a50e5aaefd
+ms.sourcegitcommit: 53a4ee148348010444f7deb0590d34e6a298adb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335833"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60400062"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -646,6 +646,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |사용자 검색 결과 원본이 사용하도록 설정됨|PeopleResultsScopeSet|사이트 관리자가 사이트에 대한 사용자 검색 결과 원본을 만듭니다.|
 |RSS 피드가 사용하도록 설정됨|NewsFeedEnabledSet|사이트 관리자 또는 소유자가 사이트에 대해 RSS 피드를 사용하도록 설정합니다. 전역 관리자는 SharePoint 관리 센터에서 전체 조직에 대해 RSS 피드를 사용하도록 설정할 수 있습니다.|
 |사이트가 허브 사이트에 연결됨|HubSiteJoined|사이트 소유자가 사이트를 허브 사이트에 연결합니다.|
+|수정된 사이트 모음 할당량|SiteCollectionQuotaModified|사이트 관리자는 사이트 모음의 할당량을 수정합니다.|
 |허브 사이트 등록됨|HubSiteRegistered|SharePoint 또는 전역 관리자가 허브 사이트를 만듭니다. 그 결과 사이트는 허브 사이트에 등록됩니다.|
 |허용된 데이터 위치 제거됨|AllowedDataLocationDeleted|SharePoint 또는 전역 관리자가 여러 지리적 환경에서 허용되는 데이터 위치를 제거했습니다.|
 |지리적 위치 관리자 제거됨|GeoAdminDeleted|SharePoint 또는 전역 관리자가 위치에 대한 지리적 관리자로 사용자를 제거했습니다.|
