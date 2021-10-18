@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침입니다.
-ms.openlocfilehash: bfe4fa129488595e6e9713d909c2c4020a2b5bb6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f86692d07f7636f35ba700b9750510219a6ef380
+ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60175362"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432640"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>보존 레이블을 만들고 앱에 적용
 
@@ -49,6 +49,8 @@ ms.locfileid: "60175362"
 
 조직의 전역 관리자는 보존 레이블과 해당 정책을 만들고 편집할 수 있는 모든 권한을 가지고 있습니다. 전역 관리자로 로그인하지 않은 경우 [보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels)을 참조하세요.
 
+보존 레이블 정책을 만들기 전에 **적응형** 또는 **정적** 정책인지 결정합니다. 자세한 내용은 [보존을 위한 적응형 또는 정적 정책 범위](retention.md#adaptive-or-static-policy-scopes-for-retention)를 참조하세요. 적응형 정책을 사용하기로 결정한 경우 보존 레이블 정책을 만들기 전에 하나 이상의 적응형 범위를 만든 다음 보존 레이블 정책 만들기 프로세스 중에 선택해야 합니다. 자세한 내용은 [적응형 범위에 대한 구성 정보](retention-settings.md#configuration-information-for-adaptive-scopes)를 참조하세요.
+
 ## <a name="how-to-create-and-publish-retention-labels"></a>보존 레이블을 만들고 게시하는 방법
 
 먼저 보존 레이블을 만듭니다. 그런 다음 레이블을 앱에 적용할 수 있게 되는 레이블 정책을 만듭니다.
@@ -65,9 +67,13 @@ ms.locfileid: "60175362"
     - 레코드 관리를 사용하지 않는 경우:
        - **솔루션** > **정보 관리** > **레이블** tab > + **레이블 만들기**
     
-    바로 옵션이 표시되지 않나요? 먼저 **모두 표시** 를 선택합니다. 
+    탐색 창에 솔루션이 즉시 표시되지 않나요? 먼저 **모두 표시** 를 선택합니다. 
 
-2. 마법사의 지시를 따릅니다. 레코드 관리를 사용하는 경우:
+2. 마법사의 지시를 따릅니다.
+    
+    보존 설정에 대한 자세한 내용은 [콘텐츠 보존 및 삭제 설정](retention-settings.md#settings-for-retaining-and-deleting-content)을 참조하세요.
+    
+    레코드 관리를 사용하는 경우:
     
     - 파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요.
     
@@ -91,14 +97,25 @@ SharePoint 및 Outlook과 같은 앱에서 사용자가 적용할 수 있도록 
     - 레코드 관리를 사용하지 않는 경우:
         - **솔루션** > **정보 관리** > **레이블 정책** 탭 > **레이블 게시**
     
-    바로 옵션이 표시되지 않나요? 먼저 **모두 표시** 를 선택합니다. 
+    탐색 창에 솔루션이 즉시 표시되지 않나요? 먼저 **모두 표시** 를 선택합니다. 
 
-2. 마법사의 지시를 따릅니다.
+2. 링크를 사용하여 게시할 보존 라벨을 선택한 후 **다음** 을 선택합니다.
+
+3. **생성할 보존 정책 유형 선택** 페이지에서 [시작하기 전](#before-you-begin) 지침에서 선택한 항목에 따라 **적응형** 또는 **정적** 을 선택합니다. 적응형 범위를 아직 만들지 않은 경우 **적응형** 을 선택할 수 있지만 선택할 적응형 범위가 없기 때문에 이 옵션으로 마법사를 완료할 수 없습니다.
+
+4. 선택한 범위에 따라:
     
-    보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](retention.md#retention-label-policies-and-locations)를 참조하세요. 
+    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 하나 이상의 적응형 범위를 선택합니다. 그런 다음 하나 이상의 위치를 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Exchange 이메일** 은 선택할 수 있지만 **SharePoint 사이트** 는 선택할 수 없습니다. 
+    
+    - **정적** 을 선택한 경우: **위치 선택** 페이지에서 위치를 켜거나 끕니다. 각 위치에 대해 기본값으로 두어 [전체 위치에 정책을 적용](retention-settings.md#a-policy-that-applies-to-entire-locations)하거나 [포함 및 제외를 지정](retention-settings.md#a-policy-with-specific-inclusions-or-exclusions)할 수 있습니다.
+    
+    위치 선택에 대한 자세한 내용은 [위치](retention-settings.md#locations)를 참조하세요.
 
-기존 보존 레이블 정책(정책 유형은 **게시**)을 편집 하려면, 이를 선택하고 그 후 **편집** 옵션을 선택하여 보존 정책 편집을 시작합니다. 이 마법사를 사용하여 정책 설명과 2단계에서 [적격 설정](#updating-retention-labels-and-their-policies)을 변경할 수 있습니다.
+5.  마법사의 프롬프트에 따라 정책 이름을 지정하고 구성 선택 사항을 검토한 후 제출합니다.
+    
+    위치 선택에 대한 자세한 내용은 [위치](retention-settings.md#locations)를 참조하세요. 
 
+기존 보존 레이블 정책(정책 유형은 **게시**)을 편집 하려면, 이를 선택하고 그 후 **편집** 옵션을 선택하여 보존 정책 편집을 시작합니다. 이 마법사를 사용하면 정책 설명과 모든 [적격 설정](#updating-retention-labels-and-their-policies)을 변경할 수 있습니다.
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>보존 레이블을 적용할 수 있게 되면
 

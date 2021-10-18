@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Exchange Online 사서함에 배치할 수 있는 다양한 유형의 보류를 식별하는 Microsoft 365.
-ms.openlocfilehash: 8696ab52fdb0826dddd9f1a186f56f853b6fae3d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 05c169bd8ac7e3fdb71a6ee474f723a62df6da41
+ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201856"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432664"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -43,9 +43,9 @@ Microsoft 365 조직에서 사서함 콘텐츠가 영구적으로 삭제되는 �
 
   사서함에 할당할 수 있는 Microsoft 365 정책에는 두 가지 유형이 있습니다.
 
-    - **특정 위치 보존 정책:** 특정 사용자의 콘텐츠 위치에 할당되는 정책입니다. PowerShell에서 **Get-Mailbox** cmdlet을 Exchange Online 특정 사서함에 할당된 보존 정책에 대한 정보를 얻습니다. 이 유형의 보존 정책에 대한 자세한 [](create-retention-policies.md#a-policy-with-specific-inclusions-or-exclusions) 내용은 보존 정책 설명서에서 특정 포함 또는 제외가 있는 정책 섹션을 참조하세요.
+    - **특정 위치 보존 정책:** 특정 사용자의 콘텐츠 위치에 할당되는 정책입니다. PowerShell에서 **Get-Mailbox** cmdlet을 Exchange Online 특정 사서함에 할당된 보존 정책에 대한 정보를 얻습니다. 이 유형의 보존 정책에 대한 자세한 [](retention-settings.md#a-policy-with-specific-inclusions-or-exclusions) 내용은 보존 정책 설명서에서 특정 포함 또는 제외가 있는 정책 섹션을 참조하세요.
 
-    - **조직 전체 보존 정책:** 다음은 조직의 모든 콘텐츠 위치에 할당되는 정책입니다. PowerShell에서 **Get-OrganizationConfig** cmdlet을 Exchange Online 조직 전체 보존 정책에 대한 정보를 얻습니다. 이 유형의 보존 정책에 대한 자세한 내용은 보존 정책 설명서에서 [전체](create-retention-policies.md#a-policy-that-applies-to-entire-locations) 위치에 적용되는 정책 섹션을 참조하세요.
+    - **조직 전체 보존 정책:** 다음은 조직의 모든 콘텐츠 위치에 할당되는 정책입니다. PowerShell에서 **Get-OrganizationConfig** cmdlet을 Exchange Online 조직 전체 보존 정책에 대한 정보를 얻습니다. 이 유형의 보존 정책에 대한 자세한 내용은 보존 정책 설명서에서 [전체](retention-settings.md#a-policy-that-applies-to-entire-locations) 위치에 적용되는 정책 섹션을 참조하세요.
 
 - **[Microsoft 365](retention.md)** 보존 레이블: 사용자가 사서함의 폴더 또는 항목에 Microsoft 365 보존 레이블(콘텐츠를 보존하거나 보존한 다음 삭제하도록 구성된  레이블)을 적용하는 경우 사서함이 소송 보존 상태 또는 Microsoft 365 보존 정책에 할당된 경우처럼 사서함에 보류가 적용됩니다. 자세한 내용은 이 [](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) 문서의 폴더 또는 항목에 보존 레이블이 적용되어 보류된 사서함 식별 섹션을 참조하세요.
 
@@ -119,7 +119,7 @@ InPlaceHolds 속성의 항목을 Microsoft 365 보존 정책으로 식별하는 
 | **2** | 보존 정책이 항목을 보류하도록 구성되어 있는지 나타냅니다. 보존 기간이 만료된 후 정책은 항목을 삭제하지 않습니다. |
 | **3** | 보존 정책이 항목을 보존한 다음 보존 기간이 만료된 후 삭제하도록 구성되어 있는지 나타냅니다.             |
 
-보존 작업에 대한 자세한 내용은 특정 기간 동안 콘텐츠 보존 [섹션을 참조하세요.](create-retention-policies.md#retaining-content-for-a-specific-period-of-time)
+보존 작업에 대한 자세한 내용은 특정 기간 동안 콘텐츠 보존 [섹션을 참조하세요.](retention-settings.md#retaining-content-for-a-specific-period-of-time)
    
 ## <a name="step-2-use-the-guid-to-identify-the-hold"></a>2단계: GUID를 사용하여 보류 식별
 

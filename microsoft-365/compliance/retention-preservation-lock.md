@@ -15,16 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 및 보존 레이블 정책과 함께 유지 잠금을 사용하여 규정 요구 사항을 충족하고 로그 관리자로부터의 안전 보호를 지원합니다.
-ms.openlocfilehash: 71cd5aaa4b868d85f94f92370c50ef57253cc084
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 64c2bb8f2718ce0da9d638b5b8b6bd4f89d33668
+ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60179010"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432676"
 ---
 # <a name="use-preservation-lock-to-restrict-changes-to-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책 변경을 제한하기 위한 유지 잠금 사용
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
+
+> [!IMPORTANT]
+> 현재 [적응 정책 범위](retention.md#adaptive-or-static-policy-scopes-for-retention)는 유지 잠금 기능을 지원하지 않습니다.
 
 유지 잠금은 전역 관리자를 비롯하여 누구도 정책을 해제하거나 삭제하거나 덜 제한적으로 만들 수 없도록 보존 정책 또는 보존 레이블 정책을 잠급니다. 해당 구성은 규정 요구 사항에 필요할 수 있으며 로그 관리자로부터의 안전 보호를 지원할 수 있습니다.
 
@@ -45,7 +48,7 @@ ms.locfileid: "60179010"
 > [!IMPORTANT]
 > 보존 정책 또는 보존 레이블 정책을 잠그기 전에 해당 정책의 영향을 이해하고 조직에 해당 정책이 필요한지 여부를 확인하는 것이 중요합니다. 예를 들어 규정 요구 사항을 충족해야 할 수 있습니다. 유지 잠금이 적용된 후에는 관리자가 해당 정책을 사용하지 않도록 설정하거나 삭제할 수 없습니다.
 
-[게시](create-apply-retention-labels.md)하거나 [자동 적용](apply-retention-labels-automatically.md)하는 [보존 정책](create-retention-policies.md) 또는 보존 레이블 정책을 생성한 후에 유지 잠금을 구성합니다. 
+[게시](create-apply-retention-labels.md)하거나 [자동 적용](apply-retention-labels-automatically.md)하는 [보존 정책](create-retention-policies.md) 또는 보존 레이블 정책을 생성한 후에 유지 잠금을 구성합니다.
 
 > [!NOTE]
 > 레이블 정책을 잠그더라도 관리자는 잠긴 정책에 포함된 레이블의 보존 기간을 단축할 수 없습니다. 이 요구 사항은 다른 제한 사항과 함께 항목을 [규제 기록](records-management.md#records)으로 표시하도록 레이블을 구성할 때 충족될 수 있습니다.

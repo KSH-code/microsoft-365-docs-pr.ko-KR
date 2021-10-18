@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: 보존 정책 및 보존 레이블 정책에 대한 정책당 최대 정책 및 항목 수 이해
-ms.openlocfilehash: 881aa208036bab4fe476bb424e42ff16dbb5344f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 52318fb2f8ae81022734bb1f620b220830214ad7
+ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195572"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432652"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 제한 사항
 
@@ -47,11 +47,25 @@ ms.locfileid: "60195572"
 
 Microsoft Teams 및 Yammer에 대한 보존 정책은 사서함을 사용하여 보존 목적으로 데이터를 저장하지만 Exchange Online의 최대 정책 수는 Teams 및 Yammer에 대한 보존 정책을 제외합니다.
 
+## <a name="maximums-for-adaptive-policy-scopes"></a>적응형 정책 범위의 최대값
+
+보존을 위해 정책에 추가할 수 있는 [적응형 정책 범위](retention.md#adaptive-or-static-policy-scopes-for-retention)의 수에는 제한이 없지만 각 적응형 범위를 정의하는 쿼리에는 몇 가지 최대 제한이 있습니다.
+
+- 특성 또는 속성 값의 문자열 길이: 200
+- 그룹이 없거나 그룹 내에 있는 특성 또는 속성 수: 10
+- 그룹 수: 10
+- 고급 쿼리의 문자 수: 10,000
+
+그룹 내의 특성 또는 속성 그룹화는 지원되지 않습니다. 즉, 단일 적응 범위 내에서 지원되는 속성 또는 특성의 최대 수는 100개입니다.
+
 ## <a name="maximum-number-of-items-per-policy"></a>정책당 최대 항목 수
 
-선택적 구성을 사용하여 특정 사용자, 특정 Microsoft 365 그룹 또는 특정 사이트에 대한 보존 설정의 범위를 지정하는 경우 다음의 정책별 몇 가지 제한 사항을 고려해야 합니다. 
+> [!IMPORTANT]
+> [적응형 정책 범위가 아닌 정적 정책 범위](retention.md#adaptive-or-static-policy-scopes-for-retention)를 사용하는 경우에만 적용됩니다.
 
-보존 정책당 최대 항목 수:
+정적 범위 및 선택적 구성을 사용하여 특정 사용자, 특정 Microsoft 365 그룹 또는 특정 사이트를 포함하거나 제외하는 경우 주의해야 할 정책당 몇 가지 제한이 있습니다. 
+
+정적 범위의 보존에 대한 정책당 최대 항목 수:
 
 - Exchange 사서함: 1,000
 - Microsoft 365 그룹: 1,000
@@ -66,14 +80,11 @@ Microsoft Teams 및 Yammer에 대한 보존 정책은 사서함을 사용하여 
 
 이러한 제한 사항은 정책당로 적용되므로 특정 포함 또는 제외를 사용하여 이러한 수를 검토해야 하는 경우 동일한 보존 설정을 가진 추가 정책을 생성할 수 있습니다. 이러한 이유로 여러 보존 정책을 사용하는 일부 [예제 시나리오 및 솔루션](#examples-of-using-multiple-policies-to-avoid-exceeding-maximum-numbers)은 다음 섹션을 참조하십시오.
 
-그러나 여러 정책으로 인해 관리 오버헤드가 증가하므로 포함 및 제외가 정말 필요한지 확인해야 합니다. 전체 위치에 적용되는 기본 구성에는 제한이 없으며, 이 구성 선택은 여러 정책을 만들고 유지하는 것보다 더 나은 솔루션이 될 수 있습니다.
-
-> [!TIP]
-> 이 시나리오에 대해 여러 정책을 생성하고 유지 관리해야하는 경우 보다 효율적인 구성을 위해 [PowerShell](retention.md#powershell-cmdlets-for-retention-policies-and-retention-labels)을 사용하는 것이 좋습니다.
+그러나 여러 정책으로 인해 관리 오버헤드가 높아질 수 있습니다. 포함 및 제외를 사용하여 여러 정책을 만들고 유지 관리하는 대신 적응형 범위를 사용하는 것이 좋습니다.
 
 ### <a name="examples-of-using-multiple-policies-to-avoid-exceeding-maximum-numbers"></a>최대 수 초과를 방지하는 여러 정책을 사용하는 예
 
-다음 예제는 보존 정책의 위치만 지정할 수 없는 경우에 대한 몇 가지 설계 솔루션을 제공하며, 이전 섹션에서 설명한 최대 항목 수를 고려해야 합니다.
+다음 예는 정적 범위에 대한 것이며 보존 정책의 위치만 지정할 수 없고 이전 섹션에서 문서화된 최대 항목 수를 고려해야 하는 경우에 대한 몇 가지 설계 솔루션을 제공합니다.
 
 Exchange 예제:
 
