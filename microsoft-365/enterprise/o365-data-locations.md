@@ -17,12 +17,12 @@ ms.custom:
 - admindeeplinkMAC
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: a48afdceef482a124131495d3f1148f9e8da4d9f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 430ec1fe58f8b62ce558f2367e0dac67972e8868
+ms.sourcegitcommit: 1e990628d72b6d392500ea564859543e7c8bc632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201592"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60386245"
 ---
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Microsoft 365 고객 데이터가 저장되는 위치
 
@@ -102,7 +102,7 @@ Microsoft는 다음과 같은 경우를 제외하고 지정된 Geo 외부에 Int
    
   - 일반적으로 미국에 고객 데이터가 저장되지만 전역적으로 저장할 수 있는 미리 보기, 베타 또는 기타 시험판 서비스
 
-그렇지만 Microsoft는 고객이나 최종 사용자가 고객 데이터에 액세스할 수 있는 지리적 위치를 제어하거나 제한하지 않습니다. 
+그렇지만 Microsoft는 고객이나 최종 사용자가 고객 데이터에 액세스할 수 있는 지리적 위치를 제어하거나 제한하지 않습니다. 마찬가지로, 다른 서비스의 고객 데이터가 이후에 Intune에 통합되는 경우 원래 고객 데이터는 다른 서비스 고유의 지리적 약정(있는 경우)의 적용을 받으며 Intune에 통합된 고객 데이터의 복사본만 Intune에 대해 명시된 Geo에 저장됩니다.  
 
 ## <a name="data-center-locations"></a>데이터 센터 위치
 
