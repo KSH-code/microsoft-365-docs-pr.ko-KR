@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: dd79e0c74e2313855e2bf698053c99a50e5aaefd
-ms.sourcegitcommit: 53a4ee148348010444f7deb0590d34e6a298adb8
+ms.openlocfilehash: b1cb482b478259177044a1af84bf865b8f8ec882
+ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60400062"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432712"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -1006,13 +1006,17 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
+| 변경된 적응형 범위 멤버십 |ApplicableAdaptiveScopeChange |사용자, 사이트 또는 그룹이 적응형 범위에 추가되거나 범위에서 제거되었습니다. 이러한 변경 내용은 범위의 쿼리를 실행한 결과입니다. 변경 내용이 시스템에서 시작되어 보고된 사용자가 사용자 계정이 아닌 GUID로 표시됩니다.|
 | 보존 정책에 대해 구성된 설정 |NewRetentionComplianceRule |관리자가 새 보존 정책에 대한 보존 설정을 구성했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](/powershell/module/exchange/new-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다.|
+| 적응형 범위 생성됨 |NewAdaptiveScope |관리자가 적응형 범위를 만들었습니다.|
 | 보존 레이블을 만들었습니다. |NewComplianceTag |관리자가 새 보존 레이블을 만들었습니다.|
 | 보존 정책을 만들었습니다. |NewRetentionCompliancePolicy|관리자가 새 보존 정책을 만들었습니다.|
+| 적응형 범위 삭제됨  | RemoveAdaptiveScope| 관리자가 적응형 범위를 삭제했습니다.|
 | 보존 정책에서 설정을 삭제했습니다.| RemoveRetentionComplianceRule<br/>| 관리자가 보존 정책의 구성 설정을 삭제했습니다. 이 활동은 관리자가 보존 정책을 삭제하거나 [RetentionComplianceRule 제거](/powershell/module/exchange/Remove-RetentionComplianceRule) cmdlet을 실행할 때 기록될 가능성이 높습니다.|
 | 보존 레이블 삭제. |RemoveComplianceTag | 관리자가 보존 레이블을 삭제했습니다.|
 | 보존 정책을 삭제했습니다. |RemoveRetentionCompliancePolicy<br/> |관리자가 보존 정책을 삭제했습니다. |
 | 보존 레이블에 대한 규제 레코드 옵션이 활성화되었습니다.<br/> |SetRestrictiveRetentionUI |관리자가 [Set-RegulatoryCompliance를 설정](/powershell/module/exchange/set-regulatorycomplianceui) cmdlet을 사용하면 관리자가 보존 레이블에 대한 UI 구성 옵션을 선택하여 내용을 규제 레코드로 표시할 수 있습니다.|
+| 적응형 범위 업데이트됨 | SetAdaptiveScope | 관리자가 기존 적응형 범위에 대한 설명이나 쿼리를 변경했습니다. |
 | 보존 정책에 대한 설정 업데이트 | SetRetentionComplianceRule | 관리자가 기존 보존 정책에 대한 보존 설정을 변경했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다. |
 | 보존 레이블 업데이트 |SetComplianceTag  | 관리자가 기존 보존 레이블을 업데이트했습니다.|
 | 보존 정책이 업데이트되었습니다. |SetRetentionCompliancePolicy |관리자가 기존 보존 정책을 업데이트했습니다. 이 이벤트를 트리거하는 업데이트에는 보존 정책이 적용되는 콘텐츠 위치 추가 또는 제외가 포함됩니다.|

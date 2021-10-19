@@ -14,14 +14,14 @@ ms.reviewer: pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 10/13/2021
+ms.date: 10/18/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 8f5ae71ecc602a7bc588ff62036be20b883087db
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 9e92096ab6b1b291094781fed9ee994ca1fd7358
+ms.sourcegitcommit: 3260d47a29c35e90ed7b1d14d400b39baa741873
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335481"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462228"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Windows Server의 Microsoft Defender 바이러스 백신
 
@@ -62,8 +62,6 @@ Microsoft Defender 바이러스 백신 서버의 다음 버전/버전에서 사�
 기본적으로 Microsoft Defender 바이러스 백신 서버에서 설치 및 Windows 있습니다. GUI(사용자 인터페이스)가 기본적으로 설치되지만 GUI가 필요하지 않은 경우도 있습니다. PowerShell, 그룹 정책 또는 기타 방법을 사용하여 그룹 정책을 관리할 Microsoft Defender 바이러스 백신.
 
 GUI가 서버에 설치되어 있지 않은 경우 역할 및 기능 추가  마법사 또는 PowerShell cmdlet을 설치합니다.
-
-
 
 > [!NOTE]
 > 이 옵션은 R2에서 사용할 Windows Server 2012 없습니다. 자세한 내용은 [끝점용 Microsoft Defender를 설치하는 옵션을 참조하세요.](configure-server-endpoints.md#options-to-install-microsoft-defender-for-endpoint)
@@ -234,7 +232,7 @@ Uninstall-WindowsFeature -Name Windows-Defender-GUI
 
 | 절차 | 설명 |
 |---|---|
-| 그룹 Microsoft Defender 바이러스 백신 사용하지 않도록 설정 | 로컬 그룹 정책 편집기에서 Windows Defender **로** 이동한 다음 끄기를 **Windows Defender 바이러스 백신.** |
+| 그룹 Microsoft Defender 바이러스 백신 사용하지 않도록 설정 | 로컬 그룹 정책 편집기에서 관리 템플릿 Windows 구성 요소 Endpoint Protection 사용하지 Endpoint Protection 로 이동한 다음 확인 사용  >    >    >  **을**   >  **선택합니다.** |
 | 레지스트리 Microsoft Defender 바이러스 백신 사용하지 않도록 설정 | [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키를 사용 하 고 로 이동 하 고 라는 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` DWORD 항목을 설정 또는 만들 수 `DisableAntiSpyware` 있습니다. 해당 값을 로 설정하여 레지스트리 키의 값을 `1` *true로 설정합니다.* |
 | PowerShell을 Microsoft Defender 바이러스 백신 사용하지 않도록 설정 | 다음 PowerShell cmdlet을 사용 합니다. `Set-MpPreference -DisableRealtimeMonitoring $true` |
 | PowerShell을 Microsoft Defender 바이러스 백신 제거 | 다음 PowerShell cmdlet을 사용 합니다. `Uninstall-WindowsFeature -Name Windows-Defender` |

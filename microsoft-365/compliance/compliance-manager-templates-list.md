@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 국가, 지역 및 산업 규정, 표준 및 법률에 부합하는 평가를 구축하기 위한 템플릿을 제공합니다.
-ms.openlocfilehash: b0ed861380b365cfeb20d5bdbe9e929f64c0b3e4
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 858442e54277c32c6510d211f225f73feaf7c4d3
+ms.sourcegitcommit: 3260d47a29c35e90ed7b1d14d400b39baa741873
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60334521"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462216"
 ---
 # <a name="compliance-manager-templates-list"></a>준수 관리자 서식 파일 목록
 
@@ -171,6 +171,7 @@ ms.locfileid: "60334521"
 - 캘리포니아 - CPRA(개인 정보 보호권법)(Microsoft 365)
 - 캘리포니아 - SB-327 정보 개인 정보 보호: 연결된 장치(Microsoft 365)
 - 캘리포니아 소비자 신용 보고 기관법(Microsoft 365)
+- CPA(콜로라도 개인 정보 보호법)(Microsoft 365)
 - 캘리포니아 소비자 개인 정보 [보호법(CCPA)(Microsoft 365)](/compliance/regulatory/offering-ccpa)
 - 소비자 데이터 개인 정보 보호를 위한 콜로라도 보호(Microsoft 365)
 - 콜로라도 수정된 법안, 6-1-716, 보안 침해 고지(Microsoft 365)
@@ -234,6 +235,7 @@ ms.locfileid: "60334521"
 - 유타 전자 정보 또는 데이터 개인 정보(Microsoft 365)
 - Vermont - 데이터 개인 정보 보호 및 소비자 보호(Microsoft 365)
 - 버지니아 개인 정보 보호법(Microsoft 365)
+- 버지니아 소비자 데이터 개인 정보 보호법(CDPA)(Microsoft 365)
 - 워싱턴 DC - 소비자 보안 위반 알림 표준(Microsoft 365)
 - 서부 버지니아 - 소비자 정보의 보안 침해(Microsoft 365)
 - Wisconsin 보안 위반 알림(Microsoft 365)
@@ -244,6 +246,9 @@ ms.locfileid: "60334521"
 
 - APEC(아시아 태평양 경제 협력) 개인 정보 보호 프레임워크
 - 오스트레일리아 - ASD Essential 8(Microsoft 365)
+- 오스트레일리아 - ASD 필수 8 만기 수준 1
+- 오스트레일리아 - ASD 필수 8 만기 수준 2
+- 오스트레일리아 - ASD 필수 8 만기 수준 3
 - 오스트레일리아 - 보관함 법
 - 오스트레일리아 - 공용 레코드 Office 레코드 보관 표준(Microsoft 365)
 - 오스트레일리아 - 스팸 방지법 2003(Microsoft 365)
@@ -326,6 +331,7 @@ ms.locfileid: "60334521"
 - 도시 - 건강 데이터 보호 규정(Microsoft 365)
 - 소비자 보호 규정(통신 규제 기관)(Microsoft 365)
 - 아랍에미리트 ISR(Microsoft 365)
+- 이집트 - 데이터 보호법(Microsoft 365)
 - 에스토니아 - 개인 데이터 보호법(Microsoft 365)
 - 에스토니아 - 정보 시스템에 대한 보안 조치 시스템(Microsoft 365)
 - EU - 지침 2006/24/EC(Microsoft 365)
