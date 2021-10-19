@@ -1014,22 +1014,10 @@
           href: ../solutions/financial-services-secure-collaboration.md
         - name: 에너지 서비스 보안 및 규정 준수
           href: ../solutions/energy-secure-collaboration.md
-- name: 개인 정보 보호 위험 관리
+- name: 개인 정보 관리
   items:
     - name: 개인 정보 관리에 대해 알아보기
-      href: privacy-management.md
-    - name: 개인 정보 관리 시작
-      href: privacy-management-setup.md
-    - name: 개인 정보 관리에서 사용자 권한 설정
-      href: privacy-management-permissions.md
-    - name: 개인 정보 설정 관리
-      href: privacy-management-settings.md
-    - name: 개인 정보 관리에서 개인 데이터 찾기 및 시각화
-      href: privacy-management-data-profile.md
-    - name: 개인 정보 관리에서 정책 만들기 및 관리
-      href: privacy-management-policies.md
-    - name: 개인 정보 관리에서 주체 권한 요청 관리
-      href: privacy-management-subject-rights-requests.md
+      href: /privacy/solutions/privacymanagement/privacy-management
 - name: 하이브리드 준수 기능
   items:
     - name: AD RMS를 사용하여 Exchange Online 메일 암호화
