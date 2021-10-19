@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 자세한 내용은 Advanced eDiscovery 솔루션에 대해 Microsoft 365. 이 문서에서는 내부 및 외부 Advanced eDiscovery 관리하는 Microsoft 365 도구인 2016의 개요를 제공합니다. 또한 법적 조사를 관리하는 데 Advanced eDiscovery 비즈니스 이유에 대한 프레임을 틀 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 40ff0b39f71dd124f641a60e4431aebbc2c08793
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 769f88b6bd2f3348061a759655c8169e9a8310f5
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201016"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478822"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>개요 Microsoft 365 Advanced eDiscovery
 
@@ -71,9 +71,9 @@ Advanced eDiscovery 필요한 eDiscovery 솔루션의 수를 줄이는 데 도�
 
 기본 제공 Advanced eDiscovery 워크플로는 Microsoft 365 EDRM(전자 검색 참조 모델)에 설명된 eDiscovery 프로세스에 맞게 조정됩니다.
 
-![EDRM(전자 검색 참조 모델)](../media/EDRMv1.png)
+![EDRM(전자 검색 참조 모델)](../media/EDRMv2.png)
 
-(이미지 원본에 대한 edrm.net. 원본 이미지는 Creative Commons Attribution 3.0 미지원 라이선스에서 사용할 수 있습니다.)
+(EDRM 모델을 기반으로 하는 edrm.net)
 
 Advanced eDiscovery는 높은 수준에서 다음과 같은 방식으로 EDRM 워크플로를 지원합니다.
 

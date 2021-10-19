@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 전자 메일 계정에 대한 일반적인 Microsoft 365 문제를 해결하는 데 도움이 되는 감사 로그 검색 도구를 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 026a0d86d1f8d4dd6dbe3d1f93eae167c817e5dc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0ac1bbb2ff0a9c09b661abd8f60fd960d33fd774
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201952"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478580"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색하여 일반적인 지원 문제 조사
 
@@ -180,7 +180,11 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 이 시나리오에 대한 감사 로그 검색 쿼리를 구성하는 방법에는 다음이 있습니다.
 
-**활동:** 사서함 **Exchange 아래에서** 받은 편지함 규칙 **만들기/수정/사용/사용 안 함을 선택합니다.**
+**활동:** 사서함 **Exchange 아래에서** 다음 활동 중 하나 또는 둘 다를 선택합니다.
+
+- **New-InboxRule 에서 새 받은 편지함 규칙을 Outlook Web App.** 이 활동은 웹앱 또는 PowerShell을 사용하여 받은 편지함 규칙을 만들 때 Outlook 감사 Exchange Online 반환합니다.
+
+- **클라이언트에서 받은 편지함 Outlook 업데이트되었습니다.** 이 활동은 데스크톱 클라이언트를 사용하여 받은 편지함 규칙을 만들거나 수정하거나 제거할 때 감사 Outlook 반환합니다.
 
 **시작 날짜** 및 **종료 날짜:** 조사에 적용되는 날짜 범위를 선택합니다.
 

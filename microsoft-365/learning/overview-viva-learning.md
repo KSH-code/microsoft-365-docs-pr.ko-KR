@@ -15,22 +15,22 @@ ms.collection:
 - m365initiative-viva-learning
 ms.localizationpriority: ''
 description: 사용자 환경의 Microsoft Viva Learning(미리 보기)에 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 41a10fe0e4179e9d56fbf8eca3793d0c41ad339b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 563b808a55efcbdba08119d721e52f73873cd9ea
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205776"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478856"
 ---
-# <a name="overview-of-microsoft-viva-learning-preview"></a>개요 Microsoft Viva Learning(미리 보기) 
+# <a name="overview-of-microsoft-viva-learning-preview"></a>개요 Microsoft Viva Learning(미리 보기)
 
 > [!NOTE]
-> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 
+> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 미리 보기가 현재 새 참가자에게 열려 있지 않습니다.
 
 Viva Learning(미리 보기)는 학습 및 구축 기술을 Microsoft Teams 통합할 수 있는 중앙 집중식 학습 허브입니다. Viva Learning(미리 보기)에서 팀은 조직과 파트너가 제공하는 콘텐츠 라이브러리를 검색, 공유, 할당 및 학습할 수 있습니다. 모든 작업을 종료하지 않고도 이 작업을 Microsoft Teams.
 
    ![Screenshot of the Viva Learning (Preview) homepage in Teams.](../media/learning/learning-home-teams.png)
- 
+
 직원들은 학습하고 성장할 기회를 제공하면 만족감을 보고하고 조직에 더 오래 남아 있을 가능성이 습니다. Viva Learning(미리 보기)를 사용하면 이미 사용 중이던 통신 도구를 멀어지지 않고도 조직에 이러한 기회를 쉽게 만들 수 있습니다.
 
 ## <a name="learn-while-working"></a>작업 중 학습
@@ -65,7 +65,7 @@ Viva Learning(미리 보기)를 사용하면 하루 중 학습을 쉽게 통합�
 
 지식 관리자는 보통 기술적인 지식이 있으며 관리자 자격 증명을 SharePoint 합니다. 지식 관리자는 조직의 교육, 학습, 교육 또는 직원 경험에서 잘 교육을 쌓아야 합니다.
 
-## <a name="get-started"></a>시작하기
+## <a name="get-started"></a>시작
 
 사용자 환경에서 Viva Learning(미리 보기)를 설정하고 구성할 Microsoft 365 경우:
 

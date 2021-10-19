@@ -16,17 +16,20 @@ ms.collection:
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: ''
 description: Microsoft Viva Learning 관리 센터에서 Microsoft Viva Learning(미리 보기)를 구성하는 Teams 대해 자세히 알아보도록 합니다.
-ms.openlocfilehash: 4a54bc478c22d7a7ba3cb64c7efe69153882e308
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 98dc352de2196ff557a1cbc0ae3bc899ebee868d
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198328"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60479000"
 ---
 # <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Microsoft Viva Learning 관리 센터에서 Teams(미리 보기) 설정
 
 > [!NOTE]
-> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 
+> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다.
+
+> [!NOTE]
+> [미리 보기는 현재 새 참가자에게 닫혀 있습니다.]
 
 Teams 관리자는 특정 단계를 수행하여 테넌트의 사용자에 대해 Viva Learning(미리 보기)를 사용하도록 설정해야 합니다. 이러한 단계는 테넌트가 활성화되는 방식에 따라 달라집니다. [*공개*](set-up-teams-admin-center.md#public-preview-tenants) 미리 보기 또는 비공개 [ *미리* 보기(또는 베타)](set-up-teams-admin-center.md#private-preview-tenants)).
 
@@ -34,19 +37,19 @@ Teams 관리자는 특정 단계를 수행하여 테넌트의 사용자에 대�
 
 ### <a name="administrator-steps-for-public-preview-tenants"></a>공개 미리 보기 테넌트에 대한 관리자 단계
 
-Viva Learning(미리 보기)를 아직 사용할 수 없는 상태이기 때문에 기능을 사용하도록 설정하고 특정 사용자 또는 그룹에 대한 사용 권한을 설정하려면 특정 단계가 필요합니다. 
+Viva Learning(미리 보기)를 아직 사용할 수 없는 상태이기 때문에 기능을 사용하도록 설정하고 특정 사용자 또는 그룹에 대한 사용 권한을 설정하려면 특정 단계가 필요합니다.
 
 1. Viva(미리 보기) 사용자에 대해 Learning 미리 보기 기능을 사용하도록 설정
 
-    a. 공용 Teams 기능을 사용하도록 업데이트 정책을 수정합니다. 공개 [Microsoft Teams 을 참조합니다.](/microsoftteams/public-preview-doc-updates)
+   1. 공용 Teams 기능을 사용하도록 업데이트 정책을 수정합니다. 공개 [Microsoft Teams 을 참조합니다.](/microsoftteams/public-preview-doc-updates)
 
-    b. Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 업데이트 정책을 사용하도록 설정하십시오. 사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)
+   1. Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 업데이트 정책을 사용하도록 설정하십시오. 사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)
 
 2. Viva(미리 보기) 사용자에 대한 Learning 권한 정책을 수정합니다.
 
-    a. 현재 글로벌 정책의 일부가 않는 한 앱 사용 권한 정책의 모든 Microsoft 앱을 허용합니다. 에서 [앱 권한 정책 Microsoft Teams.](/microsoftteams/teams-app-permission-policies) 
+   1. 현재 글로벌 정책의 일부가 않는 한 앱 사용 권한 정책의 모든 Microsoft 앱을 허용합니다. 에서 [앱 권한 정책 Microsoft Teams.](/microsoftteams/teams-app-permission-policies) 
 
-    b. Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 앱 권한 정책을 사용하도록 설정할 수 있습니다. 사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)
+   1. Viva Learning(미리 보기) 테스트를 수행할 사용자 또는 그룹에 대해 앱 권한 정책을 사용하도록 설정할 수 있습니다. 사용자 [및 그룹에 정책 할당을 참조합니다.](/microsoftteams/assign-policies-users-and-groups)
 
 3. Viva Learning(미리 보기)를 테스트할 사용자에게 빌드 클라이언트를 공개 미리 보기로 전환할 수 있도록 [Teams.](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants)
 

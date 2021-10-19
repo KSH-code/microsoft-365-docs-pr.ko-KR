@@ -1,7 +1,7 @@
 ---
 title: Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 ms.reviewer: ''
-description: Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
+description: Linux에서 끝점용 Microsoft Defender의 클라우드 연결 문제를 해결하는 방법에 대해 자세히 알아보기
 keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 클라우드, 연결, 통신
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cbd0e45a44f3053e48b3714bb526e70d5d634502
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4f547e6701e0b22c2d55d0fa68a236f85b821a11
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210998"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478916"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 
@@ -94,22 +94,12 @@ curl -x http://proxy_address:port -w ' %{url_effective}\n' 'https://x.cp.wd.micr
 
 파일에 구성된 동일한 프록시 주소와 포트를 사용하는지 `/lib/system/system/mdatp.service` 확인 위의 명령에서 오류가 있는 경우 프록시 구성을 검사합니다.
 
-> [!WARNING]
-> 정적 프록시는 시스템 전체 환경 변수를 통해 `HTTPS_PROXY` 구성할 수 없습니다. 대신 파일에 올바르게 `HTTPS_PROXY` 설정되어 있는지 `/lib/system/system/mdatp.service` 확인합니다.
-
-정적 프록시를 사용하려면 `mdatp.service` 파일을 수정해야 합니다. 다음 줄의 줄을 제거하기 위해 선행이 `#` 제거되도록 `/lib/systemd/system/mdatp.service` 합니다.
+mdatp에 대한 프록시를 설정하기 위해 다음 명령을 사용 합니다.
 
 ```bash
-#Environment="HTTPS_PROXY=http://address:port"
+mdatp config proxy set --value http://address:port 
 ```
 
-또한 을 바꾸기 위해 올바른 정적 프록시 주소를 채워야 `address:port` 합니다.
-
-이 파일이 올바른 경우 터미널에서 다음 명령을 실행하여 Linux의 끝점용 Defender를 다시 로드하고 설정을 전파합니다.
-
-```bash
-sudo systemctl daemon-reload; sudo systemctl restart mdatp
-```
 
 성공하면 명령줄에서 다른 연결 테스트를 시도합니다.
 

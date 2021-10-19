@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1717a184bb03bbc4165e4637a1a04557925f8abb
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1b8fceed1e749a21323ade7ee87ab54a7fcffde8
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157917"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478988"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>엔드포인트용 Microsoft Defender(Linux용)
 
@@ -41,7 +41,7 @@ ms.locfileid: "60157917"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>전제 조건
+### <a name="prerequisites"></a>필수 구성 요소
 
 - Microsoft 365 Defender 액세스
 - 시스템 [관리자를](https://systemd.io/) 사용하여 Linux 배포
@@ -73,15 +73,55 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 
 - 지원되는 Linux 서버 배포 및 x64(AMD64/EM64T) 버전:
 
-  - Red Hat Enterprise Linux 7.2 이상
+  - Red Hat Enterprise Linux 6.7 이상
+  - Red Hat Enterprise Linux 7.2 이상 
+  - CentOS 6.7 이상 
   - CentOS 7.2 이상
   - Ubuntu 16.04 LTS 이상 LTS
   - 데비안 9 이상
   - SUSE Linux Enterprise Server 12 이상
   - Oracle Linux 7.2 이상
+  - Amazon Linux 2
+  - Fedora 33 이상
 
     > [!NOTE]
     > 명시적으로 나열되지 않은 배포 및 버전은 지원되지 않습니다(공식적으로 지원되는 배포에서 파생된 경우에도).
+
+
+    Red Hat Enterprise Linux 6 및 CentOS 6의 경우 지원되는 커널 버전 목록은 다음입니다.
+       - 6.7: 2.6.32-573.* 
+       - 6.8: 2.6.32-642.* 
+       - 6.9: 2.6.32-696.* 
+       - 6.10의 경우: 2.6.32.754.2.1.el6.x86_64 2.6.32-754.41.2로:
+
+    버전 목록:
+
+    - 2.6.32-754.2.1.el6.x86_64 
+    - 2.6.32-754.17.1.el6.x86_64
+    - 2.6.32-754.29.1.el6.x86_64
+    - 2.6.32-754.3.5.el6.x86_64 
+    - 2.6.32-754.18.2.el6.x86_64
+    - 2.6.32-754.29.2.el6.x86_64
+    - 2.6.32-754.6.3.el6.x86_64 
+    - 2.6.32-754.22.1.el6.x86_64
+    - 2.6.32-754.30.2.el6.x86_64
+    - 2.6.32-754.9.1.el6.x86_64 
+    - 2.6.32-754.23.1.el6.x86_64
+    - 2.6.32-754.33.1.el6.x86_64
+    - 2.6.32-754.10.1.el6.x86_64
+    - 2.6.32-754.24.2.el6.x86_64
+    - 2.6.32-754.35.1.el6.x86_64
+    - 2.6.32-754.11.1.el6.x86_64
+    - 2.6.32-754.24.3.el6.x86_64
+    - 2.6.32-754.39.1.el6.x86_64
+    - 2.6.32-754.12.1.el6.x86_64
+    - 2.6.32-754.25.1.el6.x86_64
+    - 2.6.32-754.41.2.el6.x86_64
+    - 2.6.32-754.14.2.el6.x86_64
+    - 2.6.32-754.27.1.el6.x86_64
+    - 2.6.32-754.15.3.el6.x86_64
+    - 2.6.32-754.28.1.el6.x86_64       
+
 
 - 최소 커널 버전 3.10.0-327
 

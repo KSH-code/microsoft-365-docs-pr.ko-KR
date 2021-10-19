@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c90841ac9312fcc5f36ae9807ce757d9268b4cea
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a8f30a42fac3cc52de38e06b4193ab4098258262
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60173094"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478904"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender 설치 문제 해결
 
@@ -34,7 +34,7 @@ ms.locfileid: "60173094"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-## <a name="verify-if-installation-succeeded"></a>설치가 성공한지 확인
+## <a name="verify-that-the-installation-succeeded"></a>설치가 성공한지 확인
 
 설치 시 오류가 발생하거나 패키지 관리자가 의미 있는 오류 메시지를 표시하지 않을 수 있습니다. 설치가 성공적이지 확인하려면 다음을 사용하여 설치 로그를 구하고 검사합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "60173094"
 
 ## <a name="make-sure-you-have-the-correct-package"></a>올바른 패키지가 있는지 확인
 
-설치하는 패키지는 호스트 배포 및 버전과 일치합니다.
+설치하는 패키지가 호스트 배포 및 버전과 일치하는지 확인
 
 <br>
 
@@ -65,8 +65,8 @@ ms.locfileid: "60173094"
 |package|distribution|
 |---|---|
 |mdatp-rhel8. Linux.x86_64.rpm|Oracle, RHEL 및 CentOS 8.x|
-|mdatp-sles12. Linux.x86_64.rpm|SuSE Linux Enterprise Server 12.x|
-|mdatp-sles15. Linux.x86_64.rpm|SuSE Linux Enterprise Server 15.x|
+|mdatp-sles12. Linux.x86_64.rpm|SUSE Linux Enterprise Server 12.x|
+|mdatp-sles15. Linux.x86_64.rpm|SUSE Linux Enterprise Server 15.x|
 |mdatp. Linux.x86_64.rpm|Oracle, RHEL 및 CentOS 7.x|
 |mdatp. Linux.x86_64.deb|데비안 및 Ubuntu 16.04, 18.04 및 20.04|
 |
@@ -75,10 +75,10 @@ ms.locfileid: "60173094"
 
 ## <a name="installation-failed"></a>설치 실패
 
-mdatp 서비스가 실행 중인지 확인:
+Endpoint용 Defender 서비스가 실행 중인지 확인:
 
 ```bash
-systemctl status mdatp
+service mdatp status
 ```
 
 ```Output
@@ -93,7 +93,7 @@ systemctl status mdatp
            └─1968 /opt/microsoft/mdatp/sbin/wdavdaemon
  ```
 
-## <a name="steps-to-troubleshoot-if-mdatp-service-isnt-running"></a>mdatp 서비스가 실행되고 있지 않은 경우 문제 해결 단계
+## <a name="steps-to-troubleshoot-if-the-mdatp-service-isnt-running"></a>mdatp 서비스가 실행되고 있지 않은 경우 문제 해결 단계
 
 1. "mdatp" 사용자가 존재하는지 확인:
 
@@ -110,21 +110,20 @@ systemctl status mdatp
 2. 다음을 사용하여 서비스를 사용하도록 설정하고 다시 시작하십시오.
 
     ```bash
-    sudo systemctl enable mdatp
+    sudo service mdatp start
     ```
 
     ```bash
-    sudo systemctl restart mdatp
+    sudo service mdatp restart
     ```
 
 3. 이전 명령을 실행할 때 mdatp.service를 찾을 수 없는 경우 다음을 실행합니다.
 
     ```bash
-    sudo cp /opt/microsoft/mdatp/conf/mdatp.service <systemd_path>
+    sudo cp /opt/microsoft/mdatp/conf/mdatp.service <systemd_path> 
     ```
 
-    여기서 은 Ubuntu 및 데비안 배포를 위한 것이고 `<systemd_path>` `/lib/systemd/system` `/usr/lib/systemd/system` Rhel, CentOS, Oracle 및 SLES용입니다.
-   그런 다음 2단계를 다시 진행합니다.
+    여기서 `<systemd_path>` `/lib/systemd/system` 는 Rhel, CentOS, Oracle 및 SLES용 Ubuntu 및 Debian 배포 및 /usr/lib/systemd/system'에 대한 것입니다. 그런 다음 2단계를 다시 진행합니다.
 
 4. 위의 단계가 작동하지 않는 경우 SELinux가 설치되어 있으며 실행 모드로 설정하는지 확인합니다. 이 경우 이를 사용(가급적) 또는 비활성화 모드로 설정해 보십시오. 이 매개 변수는 파일에서 매개 변수를 "사용" 또는 "사용 안 하게"로 설정한 다음 다시 부팅하여 `SELINUX` `/etc/selinux/config` 수행될 수 있습니다. 자세한 내용은 selinux의 man-page를 참조하세요.
 이제 2단계를 사용하여 mdatp 서비스를 다시 시작합니다. 보안상의 이유로 구성 변경을 시도한 후 다시 시작한 후 즉시 구성 변경을 되버려야 합니다.
@@ -151,7 +150,7 @@ systemctl status mdatp
 
 7. wdavdaemon을 포함하는 파일 시스템이 "noexec"로 탑재되어 있지 않은지 확인
 
-## <a name="if-mdatp-service-is-running-but-eicar-text-file-detection-doesnt-work"></a>mdatp 서비스가 실행 중이지만 EICAR 텍스트 파일 검색이 작동하지 않는 경우
+## <a name="if-the-defender-for-endpoint-service-is-running-but-the-eicar-text-file-detection-doesnt-work"></a>Endpoint용 Defender 서비스가 실행 중이지만 EICAR 텍스트 파일 검색이 작동하지 않는 경우
 
 1. 다음을 사용하여 파일 시스템 형식을 검사합니다.
 

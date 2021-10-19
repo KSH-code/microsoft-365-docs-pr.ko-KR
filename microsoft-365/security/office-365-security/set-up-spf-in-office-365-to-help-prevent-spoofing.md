@@ -19,12 +19,12 @@ ms.custom:
 description: Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework)를 사용할 수 있도록 DNS(도메인 이름 서비스) 레코드를 업데이트하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c4369cafece2d0a7c7a27890cbedf35eca2b90a7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ab7bd0e579bfe26236eb009dc09689ddb90f2782
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157521"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478832"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
 
@@ -77,18 +77,20 @@ Office 365용 SPF TXT 레코드는 모든 사용자 지정 도메인 또는 하�
 
 1. 다음 표에서는 SPF 구문을 잘 알고 있어야 합니다.
 
-   ****
+    <br>
 
-   |요소|만약 다음을 사용 중이라면...|고객에게 일반적인가요?|이 항목을 추가하세요...|
-   |---|---|---|---|
-   |1|모든 전자 메일 시스템 (필수)|일반적. 이 값으로 시작하는 모든 SPF TXT 레코드|`v=spf1`|
-   |2|Exchange Online|공통|`include:spf.protection.outlook.com`|
-   |3 |Exchange Online 전용|공통이 아님|`ip4:23.103.224.0/19` <br> `ip4:206.191.224.0/19` <br> `ip4:40.103.0.0/16` <br> `include:spf.protection.outlook.com`|
-   |4 |Office 365 독일, Microsoft Cloud 독일 전용|공통이 아님|`include:spf.protection.outlook.de`|
-   |5|제3자 전자 메일 시스템|공통이 아님|`include:<domain_name>` <p> \<domain_name\>은(는) 타사 전자 메일 시스템 도메인입니다.|
-   |6 |온-프레미스 이메일 시스템. 예를 들어 Exchange Online Protection 및 다른 메일 시스템|공통이 아님|추가 메일 시스템마다 다음 중 하나를 사용합니다. <p> `ip4:<IP_address>` <br> `ip6:<IP_address>` <br> `include:<domain_name>` <p> \<IP_address\> 및 \<domain_name\>은(는) 도메인을 대신하여 메일을 보내는 다른 전자 메일 시스템의 IP 주소 및 도메인입니다.|
-   |7 |모든 전자 메일 시스템 (필수)|일반적. 이 값으로 끝나는 모든 SPF TXT 레코드|`<enforcement rule>` <p> 다음 여러 값 중 하나일 수 있습니다. `-all`을 사용하는 것이 좋습니다.|
-   |
+    ****
+
+    |요소|만약 다음을 사용 중이라면...|고객에게 일반적인가요?|이 항목을 추가하세요...|
+    |---|---|---|---|
+    |1|모든 전자 메일 시스템 (필수)|일반적. 이 값으로 시작하는 모든 SPF TXT 레코드|`v=spf1`|
+    |2|Exchange Online|공통|`include:spf.protection.outlook.com`|
+    |3 |Exchange Online 전용|공통이 아님|`ip4:23.103.224.0/19` <br> `ip4:206.191.224.0/19` <br> `ip4:40.103.0.0/16` <br> `include:spf.protection.outlook.com`|
+    |4 |Office 365 독일, Microsoft Cloud 독일 전용|공통이 아님|`include:spf.protection.outlook.de`|
+    |5|제3자 전자 메일 시스템|공통이 아님|`include:<domain_name>` <p> \<domain_name\>은(는) 타사 전자 메일 시스템 도메인입니다.|
+    |6 |온-프레미스 이메일 시스템. 예를 들어 Exchange Online Protection 및 다른 메일 시스템|공통이 아님|추가 메일 시스템마다 다음 중 하나를 사용합니다. <p> `ip4:<IP_address>` <br> `ip6:<IP_address>` <br> `include:<domain_name>` <p> \<IP_address\> 및 \<domain_name\>은(는) 도메인을 대신하여 메일을 보내는 다른 전자 메일 시스템의 IP 주소 및 도메인입니다.|
+    |7 |모든 전자 메일 시스템 (필수)|일반적. 이 값으로 끝나는 모든 SPF TXT 레코드|`<enforcement rule>` <p> 다음 여러 값 중 하나일 수 있습니다. `-all`을 사용하는 것이 좋습니다.|
+    |
 
 2. 아직 이 작업을 수행하지 않은 경우 다음 표의 구문을 사용하여 SPF TXT 레코드를 구성합니다.
 

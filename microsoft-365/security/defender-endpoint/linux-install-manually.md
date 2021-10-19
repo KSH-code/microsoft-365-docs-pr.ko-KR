@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7e737ecba6acfd9ebf09b826d6cec643936f090c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 437669f392f108526670d3eca3aef4071aa8cb02
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60169842"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478880"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -39,7 +39,7 @@ ms.locfileid: "60169842"
 - [Linux에서 수동으로 끝점용 Microsoft Defender 배포](#deploy-microsoft-defender-for-endpoint-on-linux-manually)
   - [선행 조건 및 시스템 요구 사항](#prerequisites-and-system-requirements)
   - [Linux 소프트웨어 리포지토리 구성](#configure-the-linux-software-repository)
-    - [RHEL 및 변형(CentOS 및 Oracle Linux)](#rhel-and-variants-centos-and-oracle-linux)
+    - [RHEL 및 변형(CentOS 및 Oracle Linux)](#rhel-and-variants-centos-oracle-linux-and-amazon-linux-2)
     - [SLES 및 변형](#sles-and-variants)
     - [Ubuntu 및 데비안 시스템](#ubuntu-and-debian-systems)
   - [응용 프로그램 설치](#application-installation)
@@ -65,7 +65,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 > [!WARNING]
 > 초기 설치 후 채널을 전환하려면 제품을 다시 설치해야 합니다. 제품 채널을 전환하려면 기존 패키지를 제거하고 새 채널을 사용하도록 장치를 다시 구성하고 이 문서의 단계에 따라 새 위치에서 패키지를 설치합니다.
 
-### <a name="rhel-and-variants-centos-and-oracle-linux"></a>RHEL 및 변형(CentOS 및 Oracle Linux)
+### <a name="rhel-and-variants-centos-oracle-linux-and-amazon-linux-2"></a>RHEL 및 변형(CentOS, Oracle Linux 및 Amazon Linux 2)
 
 - 아직 `yum-utils` 설치되지 않은 경우 다음을 설치합니다.
 
@@ -83,14 +83,12 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 
     |Distro & 버전|패키지|
     |---|---|
-    |RHEL 8.0-8.5의 경우|<https://packages.microsoft.com/config/rhel/8/prod/>|
-    |RHEL 7.2-7.9의 경우|<https://packages.microsoft.com/config/rhel/7/prod/>|
-    |
+    |RHEL/Centos/Oracle 8.0-8.5의 경우|<https://packages.microsoft.com/config/rhel/8/[channel].repo>|
+    |RHEL/Centos/Oracle 7.2-7.9 & Amazon Linux 2의 경우 |<https://packages.microsoft.com/config/rhel/7/[channel].repo>|
+    | RHEL/Centos/Oracle 6.7-6.10의 경우 | <https://packages.microsoft.com/config/rhel/6/[channel].repo>
 
     다음 명령에서 *[version]* 및 *[channel]을* 식별한 정보로 바 대체합니다.
 
-    > [!NOTE]
-    > Oracle Linux의 경우 *[distro]를* "rhel"으로 바하십시오.
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/rhel/[version]/[channel].repo

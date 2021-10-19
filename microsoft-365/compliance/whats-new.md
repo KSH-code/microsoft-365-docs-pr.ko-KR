@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 94f5f0be4a0498107217cfc0b88e21c64d8acb3f
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 2beb65d3f5d73265df72b1d052dec0d1a9c6e512
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60336037"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478568"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -193,7 +193,7 @@ ms.locfileid: "60336037"
 
 ### <a name="privacy-management"></a>개인 정보 관리
 
-- Microsoft [개인 정보 관리가](privacy-management.md) 공개 미리 보기로 들어갔습니다. 개인 정보 관리는 조직이 사용자 환경의 개인 데이터를 이해하고 관리하고Microsoft 365 잠재적인 개인 정보 위험을 수정하고, 주체 권한 요청을 이행하는 데 도움이 됩니다.
+- Microsoft [개인 정보 관리가](/privacy/solutions/privacymanagement/privacy-management) 공개 미리 보기로 들어갔습니다. 개인 정보 관리는 조직이 사용자 환경의 개인 데이터를 이해하고 관리하고Microsoft 365 잠재적인 개인 정보 위험을 수정하고, 주체 권한 요청을 이행하는 데 도움이 됩니다.
 
 ### <a name="retention-and-records-management"></a>보존 및 레코드 관리
 - 미리 보기: [Teams](create-retention-policies.md#retention-policy-for-teams-locations) 정책은 이제 보존 정책을 만들거나 편집할 때 개인 Teams 위치로 지원됩니다.

@@ -15,24 +15,24 @@ ms.collection:
 - m365initiative-viva-learning
 ms.localizationpriority: ''
 description: 앱의 미리 보기(미리 보기)에 Microsoft Viva Learning 학습 콘텐츠 원본을 구성하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: 3161841f3c69992d7cc532e86f99bed7704ba016
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 82b26e01928bf62c443545a045c64ae585fddcb3
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208172"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478755"
 ---
 # <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>웹 에지에서 Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 Microsoft 365 관리 센터
 
 > [!NOTE]
-> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 
+> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 미리 보기가 현재 새 참가자에게 열려 있지 않습니다.
 
 조직의 관리자는 Microsoft 365 관리 센터 또는 조직에서 선택한 개인에게 기술 관리자 역할을 할당하여 Viva Learning(미리 보기)와 관련된 설정을 관리하고 학습 콘텐츠 원본을 구성할 수 있습니다.
 
 관리자는 Viva SharePoint(미리 보기) 사용자가 사용할 다른 학습 콘텐츠 원본(예: SharePoint 또는 지원되는 타사 콘텐츠 공급자 원본)을 Learning 선택합니다. 그런 다음 관리자는 해당 원본을 구성하여 콘텐츠를 검색 및 검색에 사용할 수 있으며 Viva Learning(미리 보기)를 사용하는 직원이 검색할 수 있습니다.
 
 > [!NOTE]
->  사용자는 브라우저 또는 포함된 뷰어에서 학습을 Learning Pro Microsoft가 아닌 다른 사용자 및 LinkedIn에 로그인합니다. 이 구성된 학습은 Viva Learning(미리 보기) 약관이 아니라 조직과 제3자 간의 별도의 사용권, 개인 정보 보호 및 서비스 약관의 적용을 하게 됩니다. 이 유형의 학습을 선택하기 전에 조직 및 사용자에 대한 계약이 있는지 확인해야 합니다.
+> 사용자는 브라우저 또는 포함된 뷰어에서 학습을 Learning Pro Microsoft가 아닌 다른 사용자 및 LinkedIn에 로그인합니다. 이 구성된 학습은 Viva Learning(미리 보기) 약관이 아니라 조직과 제3자 간의 별도의 사용권, 개인 정보 보호 및 서비스 약관의 적용을 하게 됩니다. 이 유형의 학습을 선택하기 전에 조직 및 사용자에 대한 계약이 있는지 확인해야 합니다.
 
 ## <a name="assign-the-knowledge-admin-role-optional"></a>지식 관리자 역할 할당(선택 사항)
 

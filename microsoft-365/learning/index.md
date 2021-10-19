@@ -14,17 +14,17 @@ ms.collection:
 - m365initiative-viva-learning
 ms.localizationpriority: ''
 description: 미리 보기(미리 보기)에 대한 리소스를 Microsoft Viva Learning 방법을 배워야 합니다.
-ms.openlocfilehash: 0979d9e2a5b8f0f04565ccc8d2089e85eb6f8411
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 00ce845dcb5cc5dd8b86620c7e7aafddaab334f5
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213988"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478844"
 ---
 # <a name="introduction-to-microsoft-viva-learning-preview"></a>Microsoft Viva Learning 소개(미리 보기)
 
 > [!NOTE]
-> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 
+> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 미리 보기가 현재 새 참가자에게 열려 있지 않습니다.
 
 Microsoft Viva Learning(미리 보기)를 통해 조직의 팀과 개인이 하루 중 자연스러운 학습을 할 수 있습니다. 앱은 직원들이 조직 전체의 Microsoft Teams 라이브러리에서 공유하고, 할당하고, 학습할 수 있는 중앙 허브를 만듭니다.
 
