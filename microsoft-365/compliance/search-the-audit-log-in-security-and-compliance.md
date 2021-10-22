@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: b1cb482b478259177044a1af84bf865b8f8ec882
-ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
+ms.openlocfilehash: 87df624f35231a43cd8d9e2d34912d2bc48a5252
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60432712"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478964"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -685,7 +685,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |보낸 메시지|보내기|메시지가 전송되었거나 회신 또는 전달되었습니다. 이 활동은 Office 365 또는 Microsoft 365 E5 라이선스가 있는 사용자에게만 기록됩니다. 자세한 내용은 [고급 감사](advanced-audit.md#advanced-audit-events)의 "고급 감사 이벤트" 섹션을 참조하세요.|
 |다른 사람 이름으로 보내기 권한을 사용하여 메시지 전송됨|SendAs|메시지가 SendAs 권한을 사용하여 전송되었습니다. 즉 사서함 소유자가 보낸 것처럼 보이도록 하여 다른 사용자가 메시지를 보냈습니다.|
 |대신 보내기 권한을 사용하여 메시지 전송됨|SendOnBehalf|메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.|
-|Outlook 클라이언트로부터 편지함 규칙 업데이트됨|UpdateInboxRules|사서함에 액세스할 수 있는 사서함 소유자 또는 다른 사용자가 Outlook 클라이언트에서 받은 편지함 규칙을 수정했습니다.|
+|Outlook 클라이언트로부터 편지함 규칙 업데이트됨|UpdateInboxRules|사서함 소유자 또는 사서함에 액세스할 수 있는 다른 사용자가 Outlook 클라이언트를 사용하여 받은 편지함 규칙을 생성, 수정 또는 제거했습니다.|
 |메시지 업데이트됨|업데이트|메시지 또는 해당 속성이 변경되었습니다.|
 |사용자가 사서함에 로그인함|MailboxLogin|사용자가 자신의 사서함에 로그인했습니다.|
 |메시지에 레코드로 레이블을 지정합니다.||사용자가 전자 메일 메시지에 보존 레이블을 적용했으며 해당 레이블은 항목을 레코드로 표시하도록 구성되어 있습니다. |

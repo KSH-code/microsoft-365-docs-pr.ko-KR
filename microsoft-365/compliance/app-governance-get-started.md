@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 관리하는 앱 거버넌스 기능을 시작하세요.
-ms.openlocfilehash: 8998a0e4f6cf01a7394e44695cd06f0b60915c7e
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 78e9570c1c5a19353eb9868a649eba958d23067b
+ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364738"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60478796"
 ---
 # <a name="get-started-with-app-governance-in-preview"></a>앱 거버넌스 시작(미리 보기)
 
@@ -29,16 +29,16 @@ ms.locfileid: "60364738"
 Microsoft Cloud App Security에 대한 앱 거버넌스 추가 기능 사용을 시작하려면 다음 세 단계를 실행해야 합니다.
 
 1. [라이선스 및 관리자 필수 구성 요소 확인](#licensing-and-administrator-role-prerequisites).
-1. [앱 거버넌스 평가판 신청](#sign-up-for-free-trial-of-app-governance).
+1. [앱 거버넌스 등록](#sign-up-for-app-governance)
 1. [MCAS 통합 추가](#add-integration-with-mcas)
 
 
-## <a name="sign-up-for-free-trial-of-app-governance"></a>앱 거버넌스 평가판에 등록
+## <a name="sign-up-for-app-governance"></a>앱 거버넌스 등록
 
 기존 Microsoft 365 고객용:
 
 1. [평가판 등록 페이지](https://aka.ms/appgovernancetrial)로 이동합니다.
-1. 앱 거버넌스를 추가하는 단계별 실행을 완료합니다. 다음 그래픽에 표시된 바와 같이 간단하게 등록할 수 있습니다.
+1. 앱 거버넌스를 추가하는 단계별 실행을 완료합니다. 
 
 <!--
 :::image type="content" source="../media/manage-app-protection-governance/sign-up-page.png" alt-text="Simple steps to add app governance to your account.":::
@@ -49,6 +49,8 @@ Microsoft Cloud App Security에 대한 앱 거버넌스 추가 기능 사용을 
 1. 이 페이지 맨 위에서  **무료 계정** 버튼을 선택합니다.
 1.  **비즈니스용 Microsoft 365 체험** 아래에서 **1개월 무료 체험** 을 선택합니다.
 1. 등록 단계별 실행을 완료합니다.
+
+앱 거버넌스 구독을 구매하려면 영업 계정 팀에 문의하세요.
 
 ## <a name="add-integration-with-mcas"></a>MCAS와의 통합 추가
 

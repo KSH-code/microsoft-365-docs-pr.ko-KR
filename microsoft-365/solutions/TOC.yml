@@ -139,6 +139,8 @@
                   href: ../admin/add-users/remove-former-employee-step-6.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
                 - name: 7단계. 이전 직원의 사용자 계정 삭제
                   href: ../admin/add-users/remove-former-employee-step-7.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+        - name: 콘텐츠를 Microsoft 365로 마이그레이션
+          href: /sharepointmigration/migrate-to-sharepoint-online?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
         - name: 파일 공유에서 Microsoft 365로 마이그레이션
           items:
             - name: 개요
@@ -268,6 +270,8 @@
           href: ../compliance/insider-risk-solution-overview.md
         - name: 감사 솔루션
           href: ../compliance/auditing-solutions-overview.md
+        - name: Microsoft 365 eDiscovery 솔루션
+          href: ../compliance/ediscovery.md
         - name: Microsoft 365 Advanced eDiscovery
           href: ../compliance/overview-ediscovery-20.md
         - name: 규정 준수 조치 계획
@@ -288,14 +292,18 @@
           href: ../security/microsoft-365-security-for-bdm.md
         - name: ID 및 장치 액세스 구성
           href: ../security/office-365-security/microsoft-365-policies-configurations.md
+        - name: Microsoft 365 Defender 평가 및 파일럿
+          href: ../security/defender/eval-overview.md
+        - name: 첫 번째 인시던트에 대응
+          href: ../security/defender/first-incident-overview.md
         - name: 엔드포인트용 Microsoft Defender 배포
           href: /microsoft-365/security/defender-endpoint/deployment-phases.md
-        - name: Symantec에서 엔드포인트용 Microsoft Defender로 마이그레이션
-          href: ../security/defender-endpoint/symantec-to-microsoft-defender-endpoint-migration.md
-        - name: McAfee에서 엔드포인트용 Microsoft Defender로 마이그레이션
-          href: ../security/defender-endpoint/mcafee-to-microsoft-defender-migration.md
         - name: 타사 엔드포인트 보호에서 엔드포인트용 Microsoft Defender로 전환
           href: ../security/defender-endpoint/switch-to-microsoft-defender-migration.md
+        - name: Microsoft 365의 우선 순위 계정에 대한 보안 권장 사항
+          href: ../security/office-365-security/security-recommendations-for-priority-accounts.md
+        - name: 이전 직원 제거 및 데이터 보안
+          href: /admin/add-users/remove-former-employee?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Contoso 사례 연구
       items:
         - name: Contoso Corporation의 Microsoft 365 솔루션
