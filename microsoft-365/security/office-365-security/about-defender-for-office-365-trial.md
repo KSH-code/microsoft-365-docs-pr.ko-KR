@@ -19,14 +19,17 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: a7e8efc38722b3dc6342255a0193634f307eec27
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 43659c3eb548d31ad3b6d07d7855a5076b843b54
+ms.sourcegitcommit: d38a40db14a0e41e3c1c0f235843968b2746c6c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162185"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60562178"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
+
+> [!IMPORTANT]
+> Microsoft Defender for Office 365 [시작해보아야 합니다.](https://download.microsoft.com/download/8/8/8/888e96ce-eb6a-487a-babc-a7e4ae1cd151/MDO%20Trial%20Playbook.pdf) 이 플레이북은 Microsoft Defender를 사용하여 조직을 보호하는 방법을 보여 주어 무료 평가판을 Office 365.
 
 Microsoft Defender for Office 365 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. Office 365용 Defender는 다음 사항을 포함합니다.
 
@@ -35,7 +38,7 @@ Microsoft Defender for Office 365 전자 메일 메시지, 링크(URL) 및 공�
 - **위협 조사 및 응답 기능**: 최첨단 도구를 사용하여 위협을 조사, 이해, 시뮬레이션 및 예방할 수 있습니다.
 - **자동화된 조사 및 응답 기능**: 위협을 조사하고 완화하는 시간과 노력을 줄여줍니다.
 
-Microsoft Defender for Office 365 평가판은 Defender for Office 365 사용해 보는 가장 쉬운 방법으로, 몇 번의 클릭만 하면 됩니다. 평가판 설정이 완료되면 조직에서 Office 365 계획 1 및 계획 2 기능에 대한 모든 Defender를 최대 90일 동안 사용할 수 있습니다. 이러한 고급 기능은 다음 목록에 설명되어 있습니다.
+A Microsoft Defender for Office 365 평가판은 몇 번의 클릭 후에 Office 365 요금제 2용 Defender의 기능을 사용해보는 간편한 방법입니다. 다음 표에는 이러한 높은 수준의 기능이 설명되어 있습니다.
 
 <br>
 
@@ -44,55 +47,86 @@ Microsoft Defender for Office 365 평가판은 Defender for Office 365 사용해
 |기능|설명|
 |---|---|
 |[피싱 방지 정책의 단독 설정](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)|사용자 가장 보호, 도메인 가장 보호, 사서함 인텔리전스 및 고급 피싱 임계값을 얻습니다.|
-|[안전 첨부 파일](safe-attachments.md)|제어된 검색 환경에서 전자 메일 첨부 파일 및 기타 파일을 검사하여 새로운 맬웨어와 공격적인 맬웨어를 탐지합니다.|
-|[안전 링크](safe-links.md)|클릭 시간 검사를 수행하여 초기 검사를 통과한 URL이 번지르지 않은지 확인할 수 있습니다.|
+|[안전한 첨부 파일](safe-attachments.md)|제어된 검색 환경에서 전자 메일 첨부 파일 및 기타 파일을 검사하여 새로운 맬웨어와 공격적인 맬웨어를 탐지합니다.|
+|[안전한 링크](safe-links.md)|클릭 시간 검사를 수행하여 초기 검사를 통과한 URL이 번지르지 않은지 확인할 수 있습니다.|
 |[위협 트래커](threat-trackers.md)<sup>\*</sup>|정보 위젯 및 보기를 사용하여 조직에 영향을 줄 수 있는 사이버 보안 문제를 식별합니다.|
 |[위협 탐색기](threat-explorer.md)<sup>\*</sup>|전자 메일의 위협에 대한 거의 실시간 정보를 Office 365.|
 |[자동화된 조사 및 대응(AIR)](office-365-air.md)<sup>\*</sup>|경고가 트리거될 때 위협 개체를 자동으로 찾아 수정합니다.|
 |[공격 시뮬레이션 교육](attack-simulation-training.md)<sup>\*</sup>|피싱 공격을 식별하고 적절하게 대응하도록 사용자를 교육합니다.|
 |[캠페인 보기](campaigns.md)<sup>\*</sup>|대규모 악성 전자 메일 활동을 조사하고 이에 대응합니다.|
 |[Office 365 기능으로 Defender를 사용하는 보고서](view-reports-for-mdo.md)|위협 방지 상태, URL 위협 방지, 메일 대기 시간 등을 포함한 보고서를 볼 수 있습니다.|
+|[우선 순위 계정 보호](/microsoft-365/admin/setup/priority-accounts)<sup>\*</sup>|우선 순위 계정으로 식별하는 사용자에게는 경고, 보고서 및 조사에 태그가 지정됩니다. 필터에서 Priority 태그를 사용할 수도 있습니다.|
+|
 
-<sup>\*</sup>평가판의 Office 365 사용할 수 있는 계획 2 기능용 Defender.
-
-> [!NOTE]
-> 이 문서에서 설명하는 자동화된 구성은 현재 공개 미리 보기에 있으며 조직에서 사용할 수 없습니다.
-
-## <a name="terms-and-conditions"></a>사용 약관
-
-Defender for Office 365 평가판은 90일 동안 사용할 수 있으며 모든 사용자에 대해 시작할 수 있습니다. 자세한 내용은 [Microsoft Defender for Office 365 평가판 조건 & 참조하세요.](defender-for-office-365-trial-terms-and-conditions.md)
+<sup>\*</sup>이 기능은 요금제 2용 Defender에서만 Office 365 있습니다.
 
 ## <a name="set-up-a-defender-for-office-365-trial"></a>평가판용 Defender Office 365 설정
 
-평가판을 통해 조직은 평가판 기능을 위해 Defender를 Office 365 수 있습니다. 설치하는 동안 Office 365(특히 금고 첨부 파일, 금고 링크 및 스팸 방지 [](safe-links.md)정책의 가장 보호)에 대한 Defender 전용 정책은 미리 설정한 [](preset-security-policies.md)보안 정책의 표준 템플릿을 사용하여 [적용됩니다.](safe-attachments.md) [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+평가판을 통해 조직은 평가판 기능을 위해 Defender를 Office 365 수 있습니다. 설치하는 동안 Office 365(특히 전자 메일 메시지에 대한 금고 첨부 파일), 전자 메일 메시지에 대한 금고 링크 및 Microsoft Teams 및 스팸 [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)방지 정책의 가장 보호)에 대한 Defender 전용 [](preset-security-policies.md)정책은 미리 설정한 보안 정책의 표준 템플릿을 사용하여 [적용됩니다.](safe-attachments.md) [](safe-links.md)
 
-기본적으로 이러한 정책의 범위는 조직의 모든 사용자로 지정되지만 관리자는 설치 중에 또는 이후에 정책을 사용자 지정하여 특정 사용자에게만 적용할 수 있습니다.
+기본적으로 이러한 정책의 범위는 조직의 모든 사용자로 지정되지만 평가판을 설정하는 동안 또는 이후에 특정 사용자로 정책 할당을 변경할 수 있습니다.
 
-설치하는 동안 Office 365 응답 기능에 대한 Defender(Office 365 P2 또는 동등한 기능에 대한 Defender)도 전체 조직에 대해 설정됩니다. 정책의 스위핑은 필요하지 않습니다.
+지원되는 금고 앱에 대한 금고 [SharePoint,](mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 및 금고 링크에 대한 Office 365 첨부 파일)도 보호할 [수 있습니다.](safe-links.md#safe-links-settings-for-office-365-apps)
+
+평가판을 설정하는 동안 전체 조직에 대해 Office 365 Plan 2용 Defender 전용 응답 [](threat-explorer.md)기능(예: [AIR](office-365-air.md) 및 위협 탐색기)도 설정됩니다. 정책의 스위핑은 필요하지 않습니다.
 
 ## <a name="licensing"></a>라이선싱
 
-평가판 설정의 일부로, Office 365 대한 Defender 라이선스가 조직에 자동으로 적용됩니다. 라이선스는 처음 90일 동안 무료로 제공됩니다.
+평가판 설정의 일부로, Office 365 대한 Defender 라이선스가 조직에 자동으로 적용됩니다. 라이선스는 처음 30일 동안 무료로 제공됩니다.
 
-## <a name="permissions"></a>권한
+평가판의 라이선스 카드에는 다음 정보가 표시됩니다.
+
+![Microsoft Defender for Office 365 라이선스 카드입니다.](../../media/mdo-trial-licensing-card.png)
+
+- **사용 유형 섹션:**
+  - **평가판:** 사용할 수 있는 Office 365 라이선스에 대한 평가판 Defender 수입니다.
+
+    > [!NOTE]
+    > 다른 위치에서는 사용 가능한 평가판 라이선스 수에 대해 값 300이 표시될 수 있습니다. 이 값은 올바르지 않습니다(조직에서 정확히 300명을 들이지 않는 한). 사용 가능한 평가판 라이선스 수는 임의의 값 300이 아니라 조직의 크기에 해당합니다.
+
+  - **유료:** 유료 라이선스의 Office 365 Defender 수입니다(있는 경우).
+
+- **사용** 섹션: 정책에 대해 Defender가 적용하는 사용자의 Office 365.
+  - **검색 & 응답만:** 다음 시나리오에 포함된 총 사용자 수입니다.
+    - 평가판을 진행하는 동안 특정 사용자로 정책 범위를 지정했습니다.
+    - 특정 사용자로 범위가 지정된 사용자 지정 제한이 있습니다.
+  - **전체 보호:** Office 365 플랜 2 기능(AIR, 위협 탐색기, 공격 시뮬레이션 교육 등)에 대해 Defender가 보호하는 총 사용자 수입니다.
+
+## <a name="permissions"></a>사용 권한
 
 평가판을 시작하거나 종료하려면 평가판에서 전역  관리자  또는 보안 관리자 역할의 구성원 Azure Active Directory. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="additional-information"></a>추가 정보
 
-평가판에 등록한 후 변경 내용 및 업데이트를 사용할 수 있는 데 최대 2시간이 걸릴 수 있습니다. 또한 관리자는 로그아웃했다가 다시 로그인하여 변경 내용을 확인해야 합니다.
-
-관리자는 모든 시점에서 평가판을 사용하지 않도록 설정할 수 <> 있습니다.
+평가판을 시작한 후 변경 내용 및 업데이트를 사용할 수 있는 데 최대 2시간이 걸릴 수 있습니다. 또한 관리자는 로그아웃했다가 다시 로그인하여 변경 내용을 확인해야 합니다.
 
 ## <a name="availability"></a>사용 가능성
 
-Office 365 평가판의 Defender는 특정 기준(지리 포함)을 충족하고 Office 365 플랜 1 또는 계획 2 라이선스(구독 또는 추가 기능으로 포함)에 대한 기존 Defender가 없는 기존 고객에게 점진적으로 배포하고 있습니다.
+Defender for Office 365 평가판은 특정 기준을 충족하고 Office 365 요금제 2 라이선스(구독 또는 추가 기능으로 포함)에 대한 기존 Defender가 없는 기존 고객에게 점진적으로 배포하고 있습니다.
+
+## <a name="terms-and-conditions"></a>사용 약관
+
+자세한 내용은 [Microsoft Defender for Office 365 평가판 조건 & 참조하세요.](defender-for-office-365-trial-terms-and-conditions.md)
+
+## <a name="frequently-asked-questions"></a>질문과 대답
+
+### <a name="q-how-do-i-extend-the-trial"></a>Q: 평가판을 확장하는 방법
+
+A: [평가판 연장을 참조합니다.](/microsoft-365/commerce/try-or-buy-microsoft-365#extend-your-trial)
+
+### <a name="q-what-happens-to-my-data-after-the-trial-expires"></a>Q: 평가판이 만료된 후 내 데이터는 어떻게 됩니까?
+
+A: 평가판이 만료되면 30일 동안 평가판 데이터(이전에는 Office 365 않았던 기능의 데이터)에 액세스할 수 있습니다. 이 30일 기간이 지난 후 평가판을 위해 Defender와 Office 365 모든 정책 및 데이터가 삭제됩니다.
+
+### <a name="q-how-many-times-can-i-use-the-defender-for-office-365-trial-in-my-organization"></a>Q: 조직에서 평가판을 위해 Defender를 Office 365 수 있나요?
+
+A: 최대 2회 첫 번째 평가판이 만료되면 만료 날짜 이후 30일 이상 기다렸다가 2007년 10월 평가판용 Defender에 Office 365 있습니다.
 
 ## <a name="learn-more-about-defender-for-office-365"></a>Defender for Office 365
 
 비즈니스용 Defender Office 365 포괄적인 기능을 제공하면 조직이 엔터프라이즈를 보호하는 데 도움이 됩니다.
 
-또한 이 대화형 가이드 에서 Office 365 대한 자세한 내용을 볼 [수 있습니다.](https://techcommunity.microsoft.com/t5/video-hub/protect-your-organization-with-microsoft-365-defender/m-p/1671189)
+또한 이 대화형 가이드 에서 Office 365 대한 자세한 내용을 볼 [수 있습니다.](https://aka.ms/MS365D.InteractiveGuide)
 
 ![Microsoft Defender for Office 365 다이어그램입니다.](../../media/microsoft-defender-for-office-365.png)
 

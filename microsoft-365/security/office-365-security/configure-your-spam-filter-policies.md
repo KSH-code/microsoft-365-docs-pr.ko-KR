@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 91549fcbc4c528c0aeebe107d2f97b3bb8b52d41
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ff568ffb32a6feb3ef8eba46cad1127dcead0465
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176629"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553895"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -158,9 +158,9 @@ Microsoft 365 Defender 포털에서 사용자 지정 스팸 방지 정책을 만
      |**작업 없음**|||||![확인 표시](../../media/checkmark.png)|
      |
 
-     > <sup>1</sup> Exchange Online에서 사서함에 정크 메일 규칙이 활성화되어 있으면 메시지는 정크 메일 폴더로 이동합니다(기본적으로 활성화되어 있음). 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성](configure-junk-email-settings-on-exo-mailboxes.md)을 참조하세요.
+     > <sup>1</sup> EOP는 이제 자체 메일 흐름 전달 에이전트를 사용하여 정크 이메일 규칙을 사용하는 대신 정크 이메일 폴더로 메시지를 라우팅합니다. **Set-MailboxJunkEmailConfiguration** cmdlet의 _Enabled_ 매개 변수는 더 이상 메일 흐름에 영향을 미치지 않습니다. 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
      >
-     > EOP로 온-프레미스 Exchange 사서함을 보호하는 하이브리드 환경에서는 EOP 스팸 필터링 평가 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
+     > EOP가 온-프레미스 Exchange 사서함을 보호하는 하이브리드 환경에서는 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 이러한 메일 흐름 규칙은 EOP 스팸 필터링 판정을 변환하므로 사서함의 정크 메일 규칙이 메시지를 정크 메일 폴더로 이동할 수 있습니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 전달하도록 EOP 구성](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)을 참조하세요.
      >
      > <sup>2</sup> 메일 흐름 규칙에서 해당 값을 조건으로 사용하여 메시지를 필터링하거나 경로 지정할 수 있습니다.
      >

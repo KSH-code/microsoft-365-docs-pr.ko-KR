@@ -1,5 +1,5 @@
 <!-- This file is generated automatically. Changes made to this file will be overwritten.-->
-|클라이언트|Android|iOS|Mac|Windows 10<br>데스크톱|Windows 10<br>최신 앱|
+|클라이언트|Android|iOS|Mac|Windows 10<br>데스크톱|Windows 10<br>최신 앱|
 |:-|:-|:-|:-|:-|:-|
 |ACCESS|해당 없음|해당 없음|해당 없음|계획|해당 없음|
 |AZURE ACTIVE DIRECTORY 관리자|해당 없음|해당 없음|해당 없음|계획|해당 없음|
@@ -31,7 +31,7 @@
 |SWAY|해당 없음|해당 없음|해당 없음|해당 없음|계획|
 |TEAMS|✔|✔|✔|✔|해당 없음|
 |TO-DO|계획|계획|계획|해당 없음|계획|
-|VISIO|해당 없음|✔|해당 없음|계획|해당 없음|
+|VISIO|해당 없음|✔|해당 없음|✔|해당 없음|
 |WHITEBOARD|✔|계획|해당 없음|해당 없음|계획|
 |WORD|✔|✔|✔|✔|해당 없음|
 |WORKPLACE ANALYTICS|해당 없음|해당 없음|해당 없음|해당 없음|해당 없음|
