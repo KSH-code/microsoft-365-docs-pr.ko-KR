@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 설치를 설정한 Windows 10 PC를 보호하는 방법을 Microsoft 365 Business Premium.
-ms.openlocfilehash: e89dbd21edc05c7f930f57bdef59ad5242041c9e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 11b91796d5c838cdcba656de430b875327be3db4
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60155973"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554363"
 ---
 # <a name="secure-windows-10-computers"></a>Windows 10 컴퓨터 보안
 
@@ -45,8 +45,7 @@ ms.locfileid: "60155973"
 
     페이지 맨 위에 있는 시작 **을 선택합니다.**
 
-4. 컴퓨터 **Windows 10 보안** 창에서 켜고 싶은 옵션을 선택합니다. 설정에 대한 자세한 내용은 [Secure Windows 10 devices](../misc/secure-windows-10-devices.md) (article)\을 참조하십시오.
-). 
+4. 컴퓨터 **Windows 10 보안** 창에서 켜고 싶은 옵션을 선택합니다. 설정에 대한 자세한 내용은 [보안 Windows 10(문서)를](../misc/secure-windows-10-devices.md) 참조하세요. 
     
     대부분의 조직에서 이 옵션을 사용하면 보안 수준이 양호합니다. 그러나 조직에 더 복잡한 보안 요구가 있는 경우 미리 정의된 보안 기준을 사용하여 Windows 10 있습니다. 자세한 내용은 장치 에 대한 보안 [기준을 Windows 10 참조하세요.](/mem/intune/protect/security-baselines)   
 

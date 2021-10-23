@@ -2,7 +2,6 @@
 title: 엔드포인트용 Microsoft Defender의 차세대 보호 개요
 description: 엔드포인트용 Microsoft Defender의 차세대 보호에 대한 개요를 확인하세요. 모든 유형의 새로운 위협을 포착하도록 설계된 차세대 보호를 사용하여 네트워크의 보안 경계를 강화하세요.
 keywords: Microsoft Defender 바이러스 백신, windows defender, 맬웨어 방지, 바이러스, 맬웨어, 위협, 감지, 보호, 보안
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,16 +15,16 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 78bcb88ffba87cbdb09b4c47293bfc420d4140e2
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 5bd2fb3fcd09e41b7da5aa6f75ecfd692dbc76fe
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335577"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553847"
 ---
 # <a name="next-generation-protection-overview"></a>차세대 보호 개요
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
 
 엔드포인트용 Microsoft Defender에는 네트워크의 보안 경계를 강화하기 위한 차세대 보호 기능이 포함되어 있습니다. 차세대 보호는 모든 유형의 새로운 위협을 포착하도록 설계되었습니다. Microsoft Defender 바이러스 백신 외에도 차세대 보호 서비스에는 다음 기능이 포함되어 있습니다.
 

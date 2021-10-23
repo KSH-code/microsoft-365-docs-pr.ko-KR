@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직에서 통신 및 공동 작업을 위해 Microsoft 365 채택하는 방법에 대한 개요를 얻습니다.
-ms.openlocfilehash: 1db5444c5d7829e5f55a961827122817f4d5885e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: acdd6899a8f555e4deb9f6f2c262c45ca299abff
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60155721"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552671"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 
@@ -82,6 +82,9 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함되어 있습니�
 
 특정 개별 서비스에 대해 사용자 활동 보고서를 사용할 수 있습니다. 이러한 보고서는 Active Directory 특성과 조인된 사용자 수준 세부 사용 현황 데이터를 제공합니다. 또한 부서 채택 보고서를 사용하면 Active Directory 특성으로 분할하여 모든 개별 서비스에서 활성 사용자를 볼 수 있습니다. 모든 메트릭은 최근 전체 월에 대해 집계됩니다. 콘텐츠 날짜를 확인하려면 테이블 페이지로 이동하여 TimeFrame의 값이 보고 기간을 제공하는 UserActivity 테이블을 선택합니다. 
 
+> [!NOTE]
+> 전역 읽기 권한자 및 사용 현황 요약 보고서 읽기 권한자에는 사용자 활동 보고서를 볼 수 있는 권한이 없습니다. 
+
 ## <a name="faq"></a>FAQ
 
 ### <a name="is-this-template-app-going-to-be-available-through-purchase-or-will-it-be-free"></a>이 템플릿 앱은 구매를 통해 사용할 수 있나요 아니면 무료인가요?
@@ -89,13 +92,10 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함되어 있습니�
 무료가 아니며, 라이선스가 Power BI Pro 합니다. 자세한 내용은 [템플릿](/power-bi/service-template-apps-install-distribute#prerequisites) 앱 설치, 사용자 지정 및 배포를 위한 선행 구성을 참조하세요.
 
 다른 사용자와 대시보드를 공유하기 위해 자세한 내용은 Share dashboards and reports (대시보드 및 보고서 [공유)를 참조하세요.](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#share-dashboards-and-reports)
-### <a name="is-the-usage-summary-reports-reader-role-enough-to-view-the-usage-analytics"></a>사용 현황 요약 보고서 읽기 도구 역할이 사용 현황 분석을 볼 수 있을 만큼 충분한가요?
-
-사용 현황 요약 보고서 읽기 전용 역할은 사용 현황 분석에서 테넌트 수준 집계에 Microsoft 365 허용합니다.  보고서 읽기 권한자 또는 사용 현황 요약 보고서 읽기 권한자 역할은 변경 관리 및 채택을 담당하지만 반드시 IT 관리자가 아닐 수도 있는 모든 사용자에 대해 권장됩니다.
 
 ### <a name="who-can-connect-to-microsoft-365-usage-analytics"></a>누가 Microsoft 365 사용 현황 분석에 연결할 수 있나요?
 
-템플릿 앱에 대한 연결을 설정하려면 전역 관리자, Exchange 관리자, 비즈니스용 Skype 관리자, SharePoint  **관리자,** 전역 읽기 프로그램 또는 보고서 읽기 프로그램 중 하나일 수 있습니다.    자세한 [내용은 관리자 역할](../add-users/about-admin-roles.md) 정보를 참조하세요.
+템플릿 앱에 대한 연결을 설정하려면 전역 관리자, Exchange 관리자, 비즈니스용 Skype **관리자,** SharePoint 관리자, 전역 읽기 **프로그램,** 보고서 읽기 **프로그램,** 사용 현황 요약 **보고서** 읽기 프로그램 중 하나일 수 있습니다.  자세한 [내용은 관리자 역할](../add-users/about-admin-roles.md) 정보를 참조하세요. **참고:** **전역**  읽기 권한자 및 사용 현황 요약 보고서 읽기 권한자만 사용 현황 분석에서 테넌트 수준 집계에 Microsoft 365 사용자 활동 보고서를 볼 수 있는 권한이 없습니다. 
 
 ### <a name="who-can-customize-the-usage-analytics-reports"></a>Who 분석 보고서를 사용자 지정할 수 있나요?
 

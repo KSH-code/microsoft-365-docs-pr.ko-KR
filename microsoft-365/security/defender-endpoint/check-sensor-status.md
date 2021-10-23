@@ -2,8 +2,6 @@
 title: 끝점용 Microsoft Defender에서 센서의 상태 확인
 description: 장치의 센서 상태 확인을 통해 잘못 구성되거나, 비활성 상태인 경우 또는 센서 데이터를 보고하지 않는지 확인할 수 있습니다.
 keywords: 센서, 센서 상태, 잘못 구성된, 비활성, 센서 데이터 없음, 센서 데이터, 통신 장애, 통신
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: e7794f99b21939c3cf51f4b5afe2b9da50f9b933
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e980cc5dd2f164acf8c63aab5511423d5a38d46b
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207070"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554999"
 ---
 # <a name="check-sensor-health-state-in-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender의 센서 상태 확인
 
@@ -36,7 +34,7 @@ ms.locfileid: "60207070"
 
 센서 **문제가 있는 디바이스 타일은** 보안 작업 대시보드에서 찾을 수 있습니다. 이 타일은 센서 데이터를 제공하고 Endpoint 서비스용 Defender와 통신하는 개별 디바이스의 능력에 대한 정보를 제공합니다. 주의가 필요한 장치 수를 보고하고 문제가 있는 장치를 식별하고 알려진 문제를 수정하기 위한 조치를 취하는 데 도움이 됩니다.
 
-타일에는 서비스에 올바르게 보고하지 않는 장치 수에 대한 정보를 제공하는 두 가지 상태 표시기가 있습니다.
+타일에는 서비스에 제대로 보고되지 않는 장치 수에 대한 정보를 제공하는 두 가지 상태 표시기가 있습니다.
 
 - **잘못 구성되었습니다.** 이러한 장치는 센서 데이터를 부분적으로 Endpoint용 Defender 서비스에 보고하고 수정해야 하는 구성 오류가 있을 수 있습니다.
 - **비활성** - 지난 달에 7일 이상 Endpoint용 Defender 서비스에 보고를 중지한 장치.

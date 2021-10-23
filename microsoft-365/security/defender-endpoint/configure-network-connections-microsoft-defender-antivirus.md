@@ -2,7 +2,6 @@
 title: Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사
 description: 클라우드 보호 서비스에 대한 연결을 Microsoft Defender 바이러스 백신 테스트합니다.
 keywords: 바이러스 백신, Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, defender, 클라우드, 적극성, 보호 수준
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: manage
@@ -13,16 +12,16 @@ author: denisebmsft
 ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
-ms.date: 06/17/2021
+ms.date: 10/18/2021
 ms.reviewer: ''
 manager: dansimp
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 1efc4fbb38e27151eb0269a1926b8ae8277f7cc5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4ded08af0dfa0bf904d83eef43a76bed3dd4cc2f
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212597"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552443"
 ---
 # <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사
 
@@ -81,7 +80,7 @@ Microsoft Defender 바이러스 백신 명령줄 유틸리티( )와 함께 다�
 ```
 
 > [!NOTE]
-> 명령 프롬프트의 관리자 수준 버전을 열 필요가 있습니다. 관리자 권한에서 항목을 시작 메뉴 관리자 권한으로  실행을 클릭하고 사용 권한 프롬프트에서 **예를** 클릭합니다. 이 명령은 버전 Windows 10 버전 1703 이상에서만 사용할 수 있습니다.
+> 명령 프롬프트의 관리자 수준 버전을 열 필요가 있습니다. 관리자 권한에서 항목을 시작 메뉴 관리자 권한으로  실행을 클릭하고 사용 권한 프롬프트에서 **예를** 클릭합니다. 이 명령은 버전 Windows 10 버전 1703 이상에서만 Windows 11.
 
 자세한 내용은 명령줄 Microsoft Defender 바이러스 백신 사용하여 mpcmdrun.exe [관리를 참조하세요.](command-line-arguments-microsoft-defender-antivirus.md)
 

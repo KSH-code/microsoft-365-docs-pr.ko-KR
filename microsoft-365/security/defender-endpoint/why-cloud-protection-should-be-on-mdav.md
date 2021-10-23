@@ -2,7 +2,7 @@
 title: 클라우드 보호를 사용하도록 설정해야 하는 Microsoft Defender 바이러스 백신
 description: 클라우드 보호를 설정해야 하는 이유를 Microsoft Defender 바이러스 백신. 끝점 작업을 위한 Microsoft Defender의 많은 보안 기능에 도움이 됩니다.
 keywords: Microsoft Defender 바이러스 백신, 클라우드 보호, 보안 기능, 샘플 제출
-search.product: eADQiWindows 10XVcnh
+search.product: ''
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -14,14 +14,14 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.date: 09/21/2021
+ms.date: 10/22/2021
 ms.collection: m365-security-compliance
-ms.openlocfilehash: acf0f5fdd3741e99fda82cf91bc8d2f615d25602
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 50e9639ed861bee3a661da7ad1374c06b72b071e
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212296"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555455"
 ---
 # <a name="why-cloud-protection-should-be-enabled-for-microsoft-defender-antivirus"></a>클라우드 보호를 사용하도록 설정해야 하는 Microsoft Defender 바이러스 백신
 
@@ -36,17 +36,19 @@ Microsoft Defender 바이러스 백신 클라우드 보호는 끝점 및 네트�
 
 다음 표에는 클라우드 보호에 종속된 기능이 요약되어 있습니다. <br/><br/>
 
-| 기능/기능  | 구독 |  설명  |
+| 기능/기능  | 구독 요구 사항 |  설명  |
 |---------|---------|--------|
-| 클라우드의 메타데이터 확인  | Microsoft 365 E5 또는 E3 | Microsoft Defender 바이러스 백신 클라우드 서비스는 추가 방어 계층으로 기계 학습 모델을 사용 합니다. 이러한 기계 학습 모델에는 메타데이터가 포함되어 있으므로 의심스러우거나 악의적인 파일이 감지되면 해당 메타데이터가 검사됩니다. <br/><br/>자세한 내용은 [Blog: Get to know the advanced technologies at the core of Microsoft Defender for Endpoint next-generation protection를 참조하세요.](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)  |
-| 클라우드 보호 및 샘플 제출 | Microsoft 365 E5 또는 E3 | 파일 및 실행 파일은 검색 및 분석을 위해 Microsoft Defender 바이러스 백신 클라우드 서비스로 보낼 수 있습니다. <br/><br/>자세한 내용은 에서 클라우드 보호 및 샘플 [제출을 Microsoft Defender 바이러스 백신.](cloud-protection-microsoft-antivirus-sample-submission.md)<br/><br/>**참고:** 자동 샘플 제출은 클라우드 보호를 사용하나 독립 실행형 설정으로 구성할 수도 있습니다.         |
-| 변조 방지 | Microsoft 365 E5 | 변조 보호는 조직의 보안 설정에 대한 원치 않는 변경으로부터 보호하는 데 도움이 됩니다. Microsoft 365 Defender 포털에서 변조 보호를 적용하려면 클라우드 보호를 사용하도록 설정해야 합니다. <br/><br/>자세한 내용은 [변조 방지로 보안 설정 보호를 참조하세요.](prevent-changes-to-security-settings-with-tamper-protection.md)        |
-| 처음에 차단 | Microsoft 365 E5 또는 E3 | 바로 차단은 새로운 맬웨어를 감지하고 몇 초 이내에 차단합니다. 의심스러우거나 악의적인 파일이 감지되면, 무단 차단 기능은 클라우드 보호 백드를 쿼리하고 파일에 대한 추론, 기계 학습 및 자동화된 분석을 적용하여 위협인지 여부를 판단합니다.<br/><br/>자세한 내용은 ["최초 차단"이란?을 참조하세요.](configure-block-at-first-sight-microsoft-defender-antivirus.md#what-is-block-at-first-sight)   |
-| 긴급 서명 업데이트 | Microsoft 365 E5 | 악성 콘텐츠가 감지되면 긴급 서명 업데이트 및 수정 내용이 배포됩니다. 다음 정기 업데이트를 기다리지 않고 몇 분 이내에 이러한 수정 및 업데이트를 받을 수 있습니다.   |
-| 차단 모드의 EDR(엔드포인트 감지 및 대응) | Microsoft 365 E5 | EDR 설정하면 장치의 기본 바이러스 백신 제품이 아닌 Microsoft Defender 바이러스 백신 보호 기능을 추가로 제공합니다. EDR 모드에서는 Microsoft가 아닌 기본 바이러스 백신 솔루션이 누락할 수 EDR 생성 검사 중에 발견된 아티팩트를 수정합니다. 기본 바이러스 백신 솔루션으로 Microsoft Defender 바이러스 백신 장치를 사용할 수 있는 경우 EDR 모드로 설정하면 EDR 검사 중에 식별된 아티팩트를 자동으로 수정하는 이점이 추가됩니다. <br/><br/>자세한 내용은 EDR [모드로 전환을 참조합니다.](edr-in-block-mode.md)|
-| 공격 노출 영역 축소 규칙 | Microsoft 365 E5 또는 E3 | 공격 표면 감소는 조직 끝점이 사이버 공격에 취약한 위치와 방법을 줄이는 것입니다. 공격 표면 감소 규칙은 맬웨어를 중지하도록 구성할 수 있는 지능형 규칙입니다. 특정 규칙은 완벽하게 작동하기 위해 클라우드 보호를 켜야 합니다. 이러한 규칙은 다음과 같습니다. <br/>- 실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 조건을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단 <br/>- 랜섬웨어에 대한 고급 보호 사용 <br/>- 이동식 드라이브에서 트러스터가 실행되지 않는 프로그램 차단 <br/><br/>자세한 내용은 공격 표면 감소 규칙을 사용하여 맬웨어 [감염 방지를 참조합니다.](attack-surface-reduction.md)  |
-| 손상 표시기(IoC) | Microsoft 365 E5  | 끝점용 Defender의 IoC는 엔터티의 검색, 방지 및 제외를 정의하도록 구성할 수 있습니다. 예를 들어 "허용" 표시기를 사용하여 끝점용 Defender에서 검사 Microsoft Defender 바이러스 백신 수정 작업에 대한 예외를 정의할 수 있습니다. 또 다른 예로 "경고 및 차단" 표시기를 사용하여 파일 또는 프로세스가 실행되지 않도록 방지하고, Microsoft 365 Defender 포털에서 볼 수 있는 경고로 이러한 활동을 추적할 수 있습니다. <br/><br/>자세한 내용은 [지표 만들기를 참조합니다.](manage-indicators.md)    |
+| 클라우드의 메타데이터 확인  | 끝점 계획 1 또는 계획 2용 Microsoft Defender(독립 실행형 또는 Microsoft 365 E3 E5와 같은 계획에 포함) | Microsoft Defender 바이러스 백신 클라우드 서비스는 추가 방어 계층으로 기계 학습 모델을 사용 합니다. 이러한 기계 학습 모델에는 메타데이터가 포함되어 있으므로 의심스러우거나 악의적인 파일이 감지되면 해당 메타데이터가 검사됩니다. <br/><br/>자세한 내용은 [Blog: Get to know the advanced technologies at the core of Microsoft Defender for Endpoint next-generation protection를 참조하세요.](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)  |
+| 클라우드 보호 및 샘플 제출 | 끝점 계획 1 또는 계획 2용 Microsoft Defender(독립 실행형 또는 Microsoft 365 E3 E5와 같은 계획에 포함) | 파일 및 실행 파일은 검색 및 분석을 위해 Microsoft Defender 바이러스 백신 클라우드 서비스로 보낼 수 있습니다. <br/><br/>자세한 내용은 에서 클라우드 보호 및 샘플 [제출을 Microsoft Defender 바이러스 백신.](cloud-protection-microsoft-antivirus-sample-submission.md)<br/><br/>**참고:** 자동 샘플 제출은 클라우드 보호를 사용하나 독립 실행형 설정으로 구성할 수도 있습니다.         |
+| 변조 방지 | Microsoft Defender for Endpoint Plan 2(독립 실행형 또는 독립 실행형 또는 2013과 같은 계획에 Microsoft 365 E5) | 변조 보호는 조직의 보안 설정에 대한 원치 않는 변경으로부터 보호하는 데 도움이 됩니다. Microsoft 365 Defender 포털에서 변조 보호를 적용하려면 클라우드 보호를 사용하도록 설정해야 합니다. <br/><br/>자세한 내용은 [변조 방지로 보안 설정 보호를 참조하세요.](prevent-changes-to-security-settings-with-tamper-protection.md)        |
+| 처음에 차단 | 끝점 계획 1 또는 계획 2용 Microsoft Defender(독립 실행형 또는 Microsoft 365 E3 E5와 같은 계획에 포함) | 바로 차단은 새로운 맬웨어를 감지하고 몇 초 이내에 차단합니다. 의심스러우거나 악의적인 파일이 감지되면, 무단 차단 기능은 클라우드 보호 백드를 쿼리하고 파일에 대한 추론, 기계 학습 및 자동화된 분석을 적용하여 위협인지 여부를 판단합니다.<br/><br/>자세한 내용은 ["최초 차단"이란?을 참조하세요.](configure-block-at-first-sight-microsoft-defender-antivirus.md#what-is-block-at-first-sight)   |
+| 긴급 서명 업데이트 | Microsoft Defender for Endpoint Plan 2(독립 실행형 또는 독립 실행형 또는 2013과 같은 계획에 Microsoft 365 E5) | 악성 콘텐츠가 감지되면 긴급 서명 업데이트 및 수정 내용이 배포됩니다. 다음 정기 업데이트를 기다리지 않고 몇 분 이내에 이러한 수정 및 업데이트를 받을 수 있습니다.   |
+| 차단 모드의 EDR(엔드포인트 감지 및 대응) | Microsoft Defender for Endpoint Plan 2(독립 실행형 또는 독립 실행형 또는 2013과 같은 계획에 Microsoft 365 E5) | EDR 설정하면 장치의 기본 바이러스 백신 제품이 아닌 Microsoft Defender 바이러스 백신 보호 기능을 추가로 제공합니다. EDR 모드에서는 Microsoft가 아닌 기본 바이러스 백신 솔루션이 누락할 수 EDR 생성 검사 중에 발견된 아티팩트를 수정합니다. 기본 바이러스 백신 솔루션으로 Microsoft Defender 바이러스 백신 장치를 사용할 수 있는 경우 EDR 모드로 설정하면 EDR 검사 중에 식별된 아티팩트를 자동으로 수정하는 이점이 추가됩니다. <br/><br/>자세한 내용은 EDR [모드로 전환을 참조합니다.](edr-in-block-mode.md)|
+| 공격 노출 영역 축소 규칙 | 끝점 계획 1 또는 계획 2용 Microsoft Defender(독립 실행형 또는 Microsoft 365 E3 E5와 같은 계획에 포함) | 공격 표면 감소는 조직 끝점이 사이버 공격에 취약한 위치와 방법을 줄이는 것입니다. 공격 표면 감소 규칙은 맬웨어를 중지하도록 구성할 수 있는 지능형 규칙입니다. 특정 규칙은 완벽하게 작동하기 위해 클라우드 보호를 켜야 합니다. 이러한 규칙은 다음과 같습니다. <br/>- 실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 조건을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단 <br/>- 랜섬웨어에 대한 고급 보호 사용 <br/>- 이동식 드라이브에서 트러스터가 실행되지 않는 프로그램 차단 <br/><br/>자세한 내용은 공격 표면 감소 규칙을 사용하여 맬웨어 [감염 방지를 참조합니다.](attack-surface-reduction.md)  |
+| 손상 표시기(IoC) | Microsoft Defender for Endpoint Plan 2(독립 실행형 또는 독립 실행형 또는 2013과 같은 계획에 Microsoft 365 E5) | 끝점용 Defender의 IoC는 엔터티의 검색, 방지 및 제외를 정의하도록 구성할 수 있습니다. 예를 들어 "허용" 표시기를 사용하여 끝점용 Defender에서 검사 Microsoft Defender 바이러스 백신 수정 작업에 대한 예외를 정의할 수 있습니다. 또 다른 예로 "경고 및 차단" 표시기를 사용하여 파일 또는 프로세스가 실행되지 않도록 방지하고, Microsoft 365 Defender 포털에서 볼 수 있는 경고로 이러한 활동을 추적할 수 있습니다. <br/><br/>자세한 내용은 [지표 만들기를 참조합니다.](manage-indicators.md)    |
 
+> [!TIP]
+> Endpoint 요금제용 Defender에 대한 자세한 내용은 끝점 계획 [1용 Microsoft Defender(미리 보기) 및 계획 2를 참조합니다.](defender-endpoint-plan-1-2.md)
 
 ## <a name="next-steps"></a>다음 단계
 

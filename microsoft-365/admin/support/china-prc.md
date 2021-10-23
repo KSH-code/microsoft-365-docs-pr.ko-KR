@@ -1,5 +1,5 @@
 ---
-title: 중국(PRC)에 대한 지원 정보
+title: 중국 지원 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -12,14 +12,14 @@ ms.collection: Adm_Support
 ms.localizationpriority: medium
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 045962ec7d3cb0eb7d8d5382f29ff562e9850dda
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 118e836fbd55f9b69acfc892cf16edb1b19d2eff
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195092"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554435"
 ---
-# <a name="contact-support-for-china-prc"></a>중국 지원에 문의(PRC)
+# <a name="contact-support-for-china"></a>중국 지원에 문의
 
 [다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)
 

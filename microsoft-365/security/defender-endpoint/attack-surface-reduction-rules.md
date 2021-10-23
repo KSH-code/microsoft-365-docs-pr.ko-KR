@@ -17,12 +17,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c19d2bc64ffda9e6b101af170bb836a434e993d0
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 6a7b7bb094a18eadab6e3353ef99a9ac440b1b8d
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240359"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553656"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -146,8 +146,10 @@ _공용 미리 보기 종료: 지원되는 운영 체제_
 >
 > 드라이버를 검사하기 위해 이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출합니다.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
-Intune 이름: `Block abuse of exploited vulnerable signed drivers`
+Intune 이름: `Block abuse of exploited vulnerable signed drivers` (아직 사용할 수 없습니다)
 
+Configuration Manager 이름: 아직 사용할 수 없습니다.
+  
 GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
 
 <!-- Hide this intro with no subsequent list items

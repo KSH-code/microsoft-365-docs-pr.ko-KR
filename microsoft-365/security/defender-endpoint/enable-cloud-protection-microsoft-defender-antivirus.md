@@ -2,7 +2,6 @@
 title: 클라우드에서 클라우드 보호 Microsoft Defender 바이러스 백신
 description: 빠르고 고급 보호 기능을 활용하기 위해 클라우드 보호를 켜야 합니다.
 keywords: Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, 클라우드, 한시적 차단
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -10,18 +9,18 @@ ms.localizationpriority: medium
 ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
-ms.date: 08/31/2021
+ms.date: 10/18/2021
 ms.reviewer: mkaminska
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 68a98b3ddcc12d185d8b06827ed68044ab062257
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b523956d031ee96d8d6a23215bf88661b1995d3a
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196948"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555047"
 ---
 # <a name="turn-on-cloud-protection-in-microsoft-defender-antivirus"></a>클라우드에서 클라우드 보호 Microsoft Defender 바이러스 백신
 
@@ -45,7 +44,7 @@ ms.locfileid: "60196948"
 끝점이 클라우드 보호 서비스에 연결할 수 있도록 하는 특정 네트워크 연결 요구 사항에 대한 자세한 내용은 네트워크 연결 구성 및 유효성 [검사를 참조하세요.](configure-network-connections-microsoft-defender-antivirus.md)
 
 > [!NOTE]
-> 이 Windows 10 이 항목에 설명된 기본  및  고급 보고 옵션 간에는 차이가 없습니다. 이는 레거시 구분으로, 두 설정을 선택하면 동일한 수준의 클라우드 보호가 됩니다. 공유되는 정보의 유형이나 양에는 차이가 없습니다. 수집하는 정보에 대한 자세한 내용은 Microsoft 개인 정보 취급 [방침을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=521839)
+> 이 Windows 10 및 Windows 11 이 항목에 설명된 기본  및  고급 보고 옵션 간에는 차이가 없습니다. 이는 레거시 구분으로, 두 설정을 선택하면 동일한 수준의 클라우드 보호가 됩니다. 공유되는 정보의 유형이나 양에는 차이가 없습니다. 수집하는 정보에 대한 자세한 내용은 Microsoft 개인 정보 취급 [방침을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=521839)
 
 ## <a name="use-intune-to-turn-on-cloud-protection"></a>Intune을 사용하여 클라우드 보호 켜기
 

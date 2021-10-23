@@ -2,7 +2,6 @@
 title: 차단 모드에서 끝점 검색 및 응답
 description: 차단 모드에서 끝점 검색 및 응답에 대해 자세히 알아보기
 keywords: 끝점용 Microsoft Defender, mde, EDR 모드, 수동 모드 차단
-search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
 ms.author: deniseb
@@ -20,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 9ab524d58e318625773291a9d206ff32753eca91
-ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
+ms.openlocfilehash: 2c463da937222939586029a970439b05134315a3
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60245696"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554579"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 EDR(엔드포인트 감지 및 대응)
 
@@ -113,7 +112,7 @@ EDR 모드에서는 사용자의 장치에서 실행되는 타사 바이러스 �
 
 ### <a name="what-is-the-difference-between-active-and-passive-mode"></a>활성 모드와 수동 모드의 차이점은 무엇입니까?
 
-Windows 10, Windows Server, 버전 1803 이상, Windows Server 2019 또는 Windows Server 2022를 실행하는 끝점의 경우 Microsoft Defender 바이러스 백신 모드에 있는 경우 장치의 기본 바이러스 백신으로 사용됩니다. 수동 모드에서 실행되는 경우 Microsoft Defender 바이러스 백신 바이러스 백신 제품이 아닌 것입니다. 이 경우 위협은 실시간으로 Microsoft Defender 바이러스 백신 않습니다.
+Windows 10, Windows 11, Windows Server, 버전 1803 이상, Windows Server 2019 또는 Windows Server 2022를 실행하는 끝점의 경우 Microsoft Defender 바이러스 백신 활성 모드인 경우 장치의 기본 바이러스 백신으로 사용됩니다. 수동 모드에서 실행되는 경우 Microsoft Defender 바이러스 백신 바이러스 백신 제품이 아닌 것입니다. 이 경우 위협은 실시간으로 Microsoft Defender 바이러스 백신 않습니다.
 
 > [!NOTE]
 > Microsoft Defender 바이러스 백신 끝점용 Microsoft Defender에 온보딩된 경우 수동 모드에서만 실행할 수 있습니다.
@@ -137,7 +136,7 @@ PowerShell을 사용하여 수동 모드에서 EDR 설정되어 있는지 확인
 
 1. 선택 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 .
 
-2. `Get-MPComputerStatus|select AMRunningMode`(을)를 입력합니다.
+2. `Get-MPComputerStatus|select AMRunningMode`를 입력합니다.
 
 3. 결과가 `EDR Block Mode` 표시되는지 확인
 
@@ -154,6 +153,7 @@ PowerShell을 사용하여 수동 모드에서 EDR 설정되어 있는지 확인
 - Windows Server 2019 
 - Windows Server 2016
 - Windows Server 2012 R2
+- Windows 11
 
 >[!NOTE]
 >Windows Server 2016 및 Windows Server 2012 R2는 이 기능이 작동하려면 Windows 서버의 [](configure-server-endpoints.md) 지침을 사용하여 온보드해야 합니다. 

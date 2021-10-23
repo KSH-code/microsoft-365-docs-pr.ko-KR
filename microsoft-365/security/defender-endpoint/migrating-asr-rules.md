@@ -2,7 +2,6 @@
 title: 타사 HIPS에서 ASR 규칙으로 마이그레이션
 description: 타사 HIPS(호스트 침입 방지 시스템) 솔루션에서 ASR 규칙으로의 마이그레이션에 접근하는 방법에 대해 설명
 keywords: 공격 표면 감소 규칙, asr, asr 규칙, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지, 악용, 감염 방지, 끝점용 Microsoft Defender
-search.product: eADQiWindows 10XVcnh
 ms.topic: article
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -16,12 +15,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ec28153c25b6c9108a62ea7d3c63336d4ff1ddb7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 559b0689a4bf6c5507e37ad228894781f1bccf56
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210916"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555959"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>타사 HIPS에서 ASR 규칙으로 마이그레이션
 
@@ -123,7 +122,7 @@ ms.locfileid: "60210916"
 - **프로세스**- *
 - **작업**- 프로세스 종료
 - **파일/폴더, 레지스트리 키/값, 프로세스, 서비스**- MsSense.exe, MsMpEng.exe, NisSrv.exe, svchost.exe*, services.exe, csrss.exe, smss.exe, wininit.exe 등입니다.
-- **공격 표면 감소 규칙**- ASR 규칙은 기본 제공 보안 보호 기능으로 보호되어 있기 때문에 이러한 Windows 10 지원하지 않습니다.
+- **공격 표면 감소 규칙**- ASR 규칙은 기본 제공 보안 보호 기능으로 보호되어 있기 때문에 Windows 지원하지 않습니다.
 - ELAM(맬웨어 방지 조기 실행), PPL(보호 프로세스 조명), PPL 맬웨어 방지 조명 및 System Guard와 같은 권장 기능도 있습니다.
 
 ### <a name="block-specific-launch-process-attempt"></a>특정 시작 프로세스 시도 차단

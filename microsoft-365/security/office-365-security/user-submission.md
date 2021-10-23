@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d288a9a5821521a68e254aa3ff97182140d66b63
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0ec5e495e23326c52af37858d596caa3fbead606
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203798"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556319"
 ---
 # <a name="user-reported-message-settings"></a>사용자가 보고한 메시지 설정
 
@@ -54,9 +54,7 @@ ms.locfileid: "60203798"
 
 - [스팸에](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) 대한 ZAP 및 피싱용 ZAP가 꺼져 있는 사용자 지정 사서함을 포함하는 스팸 방지 정책을 만들 수 **있습니다(** 제로 아워 자동 제거 섹션 사용 제로 아워 자동 제거(ZAP)를 선택하지 \>  않았습니다.
 
-- 사용자 지정 사서함에서 정크 메일 규칙을 사용하지 않도록 설정 사서함에서 [정크 메일 Exchange Online 구성을 사용하여](configure-junk-email-settings-on-exo-mailboxes.md) 정크 메일 규칙을 사용하지 않도록 설정할 수 있습니다. 이 기능을 사용하지 않도록 설정한 후 EOP는 스팸 필터링 판정 동작에 따라 메시지를  정크 메일 폴더로 이동하거나 사서함의 수신할 수 있는 목록 모음으로 메시지를 이동할 수 없습니다.
-
-Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 사용자에게 영향을 끼치지 못하도록 아래를 구성해야 합니다.
+Microsoft Defender for Office 365 고급 필터링이 메시지를 보고하는 사용자에게 영향을 끼치지 않을 수 있도록 다음 설정도 구성해야 합니다.
 
 - [금고](set-up-safe-links-policies.md) 링크 검색이 꺼져 있는 사용자 지정 사서함을 포함하는 금고 링크 정책을 만드십시오( 메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택 섹션 \> **끄기).**
 

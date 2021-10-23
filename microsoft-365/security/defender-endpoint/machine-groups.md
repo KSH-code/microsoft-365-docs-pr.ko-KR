@@ -14,19 +14,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a9576470b029ac97660868341c46ecda82662b36
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 95f377992c745045667a016fcf7dae1b391f2323
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60152024"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554075"
 ---
 # <a name="create-and-manage-device-groups"></a>장치 그룹 만들기 및 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **적용 대상:**
+
 - Azure Active Directory
 - Office 365
 
@@ -100,7 +100,6 @@ RBAC(역할 기반 액세스)의 컨텍스트에서 장치 그룹을 만들어 �
 
 > [!TIP]
 > 속성당 여러 값을 허용하는 동일한 조건 유형의 행 사이에 'OR' 연산자를 사용합니다.
->
 > 태그, 장치 이름, 도메인 등 각 속성 유형에 대해 최대 10개 행(값)을 추가할 수 있습니다.
 
 장치 그룹 정의에 연결하는 데 대한 자세한 내용은 장치 그룹 - 보안 Microsoft 365 [참조하세요.](https://sip.security.microsoft.com/homepage)

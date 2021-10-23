@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c4faa3c7edcdbf9e7d4eae7b19746b7aaa43e1d6
-ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
+ms.openlocfilehash: 856fc5b076189e68669c75d740c7320f418597f9
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60264759"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555263"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>엔드포인트용 Microsoft Defender(미국 정부 고객용)
 
@@ -190,5 +190,5 @@ Windows Server 2008 R2 SP1|![예.](images/svg/check-yes.svg)|![예](images/svg/c
 |네트워크 검색|![예](images/svg/check-yes.svg)|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
 |웹 컨텐츠 필터링|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
 |통합: Azure Sentinel|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg) 경고 <br /> ![예](images/svg/check-yes.svg) 인시던트 & 데이터: 비공개 미리 보기|![예](images/svg/check-yes.svg) 경고 <br /> ![예](images/svg/check-yes.svg) 인시던트 & 데이터: 비공개 미리 보기|
-|통합: Microsoft Power Automate & Azure Logic Apps|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg) Azure Logic Apps <br /> ![아니요](images/svg/check-no.svg) Power Automate: 개발 중|
+|통합: Microsoft Power Automate & Azure Logic Apps|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|
 |Microsoft 위협 전문가|![아니요](images/svg/check-no.svg) 백로그 엔지니어링|![아니요](images/svg/check-no.svg) 백로그 엔지니어링|![아니요](images/svg/check-no.svg) 백로그 엔지니어링|

@@ -2,8 +2,6 @@
 title: 고급 헌팅Chema의 DeviceAlertEvents 테이블
 description: 고급 헌팅 스위마의 DeviceAlertEvents 테이블에서 경고 생성 이벤트에 대해 자세히 알아보시고
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, mdatp, microsoft defender atp, 끝점용 Microsoft Defender, wdatp 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, DeviceAlertEvents, alert, severity, category
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: 3919aea64e73e23a4de6aac3fe2b01de238bdb91
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 58e0ae53cc679136bca960f05e2eb6cf2c5a09a6
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60211408"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554027"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 

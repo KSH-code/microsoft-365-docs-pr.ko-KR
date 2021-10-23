@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fdce3a978d79f3ba87455f67d058185f740972ce
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c7a078fdd618cd3b5070063d4fa7529c9c7f6216
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60150050"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553799"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 
@@ -56,18 +56,27 @@ ms.locfileid: "60150050"
 
   장치에서 다음 버전의 디바이스 중 하나를 실행해야 Windows
 
-  - **Windows 10**
+  - **Windows 10 & 11**
     - [버전 1909](/windows/whats-new/whats-new-windows-10-version-1909) 이상
     - [버전 1903(KB4515384)](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384) [](/windows/whats-new/whats-new-windows-10-version-1903)
     - [KB4537818이](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818) 있는 버전 [1809(RS 5)](/windows/whats-new/whats-new-windows-10-version-1809)
     - [KB4537795가](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795) 있는 버전 [1803(RS 4)](/windows/whats-new/whats-new-windows-10-version-1803)
     - [KB4537816이](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816) 있는 버전 [1709(RS 3)](/windows/whats-new/whats-new-windows-10-version-1709)
 
-  - **Windows Server 2019 - 공개 미리 보기에만 해당**
+  - **macOS** - 공개 미리 보기에만 해당, 최소 필수 버전: 101.43.84 
+  
+  - **Linux** - 공개 미리 보기에만 해당, 최소 필수 버전: 101.45.13 
+    
+  - **Windows Server 2012 R2** - [KB5005292](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-update-for-edr-sensor-f8f69773-f17f-420f-91f4-a8e5167284ac)
+  
+  - **Windows Server 2016** - [KB5005292](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-update-for-edr-sensor-f8f69773-f17f-420f-91f4-a8e5167284ac)
+
+  - **Windows Server 2019**
     - 버전 1903 또는 이후 [버전(KB4515384](https://support.microsoft.com/help/4515384/windows-10-update-kb4515384)사용)
     - 버전 [1809(KB4537818)](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
     
   - **Windows Server 2022**
+
        
 
 - **고급 설정 페이지에서 라이브 응답을 사용하도록 설정합니다.**
@@ -91,6 +100,9 @@ ms.locfileid: "60150050"
   ![오류 메시지의 이미지입니다.](images/live-response-error.png)
 
 - **라이브 응답 부호 없는** 스크립트 실행을 사용하도록 설정(선택 사항).
+
+  >[!IMPORTANT]
+  >서명 확인은 PowerShell 스크립트에만 적용됩니다. 
 
   > [!WARNING]
   > 부호 없는 스크립트를 사용할 수 있도록 허용하면 위협에 대한 노출이 증가할 수 있습니다.
@@ -148,28 +160,26 @@ ms.locfileid: "60150050"
 <br>
 
 ****
-
-|명령|설명|
-|---|---|
-|`cd`|현재 디렉터리를 변경합니다.|
-|`cls`|콘솔 화면을 지우습니다.|
-|`connect`|디바이스에 대한 라이브 응답 세션을 초기화합니다.|
-|`connections`|모든 활성 연결을 보여 주며,|
-|`dir`|디렉터리의 파일 및 하위 디렉터리 목록을 보여줍니다.|
-|`drivers`|장치에 설치된 모든 드라이버를 보여줍니다.|
-|`fg <command ID>`|지정한 작업을 포그라운드의 포그라운드에 두어 현재 작업으로 지정합니다. <p> **참고**: fg는 PID가 아니라 작업에서 사용할 수 있는 "명령 ID"를 취합니다.|
-|`fileinfo`|파일에 대한 정보를 얻습니다.|
-|`findfile`|디바이스에서 지정한 이름으로 파일을 찾습니다.|
-|`getfile <file_path>`|파일을 다운로드합니다.|
-|`help`|라이브 응답 명령에 대한 도움말 정보를 제공합니다.|
-|`jobs`|현재 실행 중인 작업, ID 및 상태를 보여줍니다.|
-|`persistence`|디바이스에서 알려진 모든 지속성 메서드를 보여 주며,|
-|`processes`|디바이스에서 실행 중인 모든 프로세스를 보여 줍니다.|
-|`registry`|레지스트리 값을 나타냅니다.|
-|`scheduledtasks`|디바이스의 모든 예약된 작업을 보여줍니다.|
-|`services`|디바이스의 모든 서비스를 보여줍니다.|
-|`trace`|터미널의 로깅 모드를 디버그로 설정|
-|
+| 명령  | 설명  | Windows 및 Windows Server  | macOS  | Linux  |
+|---|---|---|---|---|
+| cd  | 현재 디렉터리를 변경합니다.  | Y  | Y | Y |
+| cls  | 콘솔 화면을 지우습니다.  | Y  | Y  | Y  |
+| connect  | 디바이스에 대한 라이브 응답 세션을 초기화합니다.  | Y  | Y  | Y  |
+| connections  | 모든 활성 연결을 보여 주며,  | Y  | N | N |
+| dir  | 디렉터리의 파일 및 하위 디렉터리 목록을 보여줍니다.  | Y  | Y  |Y  |
+| drivers  | 장치에 설치된 모든 드라이버를 보여줍니다.  | Y |  N | N  |
+| fg `<command ID>`  | 지정한 작업을 포그라운드의 포그라운드에 두어 현재 작업으로 지정합니다.  참고: fg는 PID가 아니라 작업에서 사용할 수 있는 '명령 ID'를 취합니다.  | Y  | Y  | Y  |
+| fileinfo  | 파일에 대한 정보를 얻습니다.  |Y  | Y  | Y  |
+| findfile  | 디바이스에서 지정한 이름으로 파일을 찾습니다.  | Y | Y  | Y  |
+| getfile <file_path>  | 파일을 다운로드합니다.  | Y  | Y  | Y  |
+| 도움말  | 라이브 응답 명령에 대한 도움말 정보를 제공합니다.  |Y  | Y | Y  |
+| jobs  | 현재 실행 중인 작업, ID 및 상태를 보여줍니다.  | Y  | Y | Y |
+| persistence  | 디바이스에서 알려진 모든 지속성 메서드를 보여 주며,  | Y  | N | N |
+| 프로세스  | 디바이스에서 실행 중인 모든 프로세스를 보여 줍니다.  | Y  | Y  | Y  |
+| registry  | 레지스트리 값을 나타냅니다.  | Y  | N | N |
+| scheduledtasks  | 디바이스의 모든 예약된 작업을 보여줍니다.  | Y | N | N |
+| 서비스  | 디바이스의 모든 서비스를 보여줍니다.  | Y  | N | N |
+| trace  | 터미널의 로깅 모드를 디버그로 설정  | Y  | Y  |Y  |
 
 ### <a name="advanced-commands"></a>고급 명령
 
@@ -179,15 +189,19 @@ ms.locfileid: "60150050"
 
 ****
 
-|명령|설명|
-|---|---|
-|`analyze`|다양한 판별 엔진을 통해 엔터티를 분석하여 판정에 도달합니다.|
-|`run`|장치의 라이브러리에서 PowerShell 스크립트를 실행합니다.|
-|`library`|라이브 응답 라이브러리에 업로드된 파일을 나열합니다.|
-|`putfile`|라이브러리에서 장치로 파일을 넣습니다. 파일은 작업 폴더에 저장되고 장치가 기본적으로 다시 시작될 때 삭제됩니다.|
-|`remediate`|장치에서 엔터티를 수정합니다. 수정 작업은 엔터티 유형에 따라 달라집니다. <ul><li>파일: 삭제</li><li>프로세스: 이미지 파일 중지, 삭제</li><li>서비스: 이미지 파일 중지, 삭제</li><li>레지스트리 항목: delete</li><li>예약된 작업: remove</li><li>시작 폴더 항목: 파일 삭제</li></ul> <p> **참고:** 이 명령에는 선행 명령이 있습니다. 명령을 함께 사용하여 자동으로 선행 명령을 실행할 `-auto` `remediate` 수 있습니다.
-|`undo`|수정된 엔터티를 복원합니다.|
-|
+| 명령  | 설명  | Windows 및 Windows Server  | macOS  | Linux  |
+|---|---|---|---|---|
+| analyze  | 다양한 판별 엔진을 통해 엔터티를 분석하여 판정에 도달합니다.  | Y  | N  | N  |
+| collect  | 컴퓨터의 포렌식 패키지 수집  | N  | Y  | Y  |
+| 격리  | 끝점용 Defender 서비스에 대한 연결을 유지하면서 네트워크에서 장치 연결을 끊습니다.  | N  | Y  | N  |
+| release  | 네트워크에서 장치 해제  | N  | Y  | N  |
+| run  | 장치의 라이브러리에서 PowerShell 스크립트를 실행합니다.  | Y  | Y  | Y  |
+| library  | 라이브 응답 라이브러리에 업로드된 파일을 나열합니다.  | Y  | Y  | Y  |
+| putfile  | 라이브러리에서 장치로 파일을 넣습니다. 파일은 작업 폴더에 저장되고 장치가 기본적으로 다시 시작될 때 삭제됩니다.  | Y  | Y  | Y  |
+| 재구성  | 장치에서 엔터티를 수정합니다. 수정 작업은 엔터티 유형에 따라 달라집니다. 파일: 프로세스 삭제: 삭제, 이미지 파일 삭제: 중지, 이미지 파일 삭제 레지스트리 항목: 예약된 작업 삭제: 시작 폴더 항목 제거: 파일 삭제: 이 명령에는 선행 조건 명령이 있습니다. 재구성과 함께 -auto 명령을 사용하여 자동으로 선행 명령을 실행할 수 있습니다.  | Y  | Y  | Y  |
+| scan  | 끝점용 Defender 서비스에 대한 연결을 유지하면서 네트워크에서 장치 연결을 끊습니다.  | N  | Y  | Y  |
+| 취소  | 수정된 엔터티를 복원합니다.  | Y  | Y  | Y  |
+
 
 ## <a name="use-live-response-commands"></a>라이브 응답 명령 사용
 
@@ -257,13 +271,13 @@ ms.locfileid: "60150050"
 > [!WARNING]
 > 이 바로 가기를 사용하면 에이전트 쪽의 명령이 중지되지 않습니다. 포털에서 명령만 취소합니다. 따라서 명령이 취소된 동안 "재구성" 등의 변경 작업이 계속될 수 있습니다.
 
-## <a name="run-a-powershell-script"></a>PowerShell 스크립트 실행
+## <a name="run-a-script"></a>스크립트 실행
 
-PowerShell 스크립트를 실행하려면 먼저 라이브러리에 업로드해야 합니다.
+PowerShell/Bash 스크립트를 실행하려면 먼저 라이브러리에 업로드해야 합니다.
 
 스크립트를 라이브러리에 업로드한 후 명령을 사용하여 `run` 스크립트를 실행합니다.
 
-세션에서 부호 없는 스크립트를 사용하려면 고급 기능 설정 페이지에서 설정을 사용하도록 [설정해야](advanced-features.md) 합니다.
+세션에서 부호 없는 PowerShell 스크립트를 사용하려면 고급 기능 설정 페이지에서 설정을 사용하도록 [설정해야](advanced-features.md) 합니다.
 
 > [!WARNING]
 > 부호 없는 스크립트를 사용할 수 있도록 허용하면 위협에 대한 노출이 증가할 수 있습니다.

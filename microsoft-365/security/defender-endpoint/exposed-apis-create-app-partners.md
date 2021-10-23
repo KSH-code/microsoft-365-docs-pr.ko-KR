@@ -3,7 +3,6 @@ title: 사용자 없이 끝점용 Microsoft Defender에 액세스하는 응용 �
 ms.reviewer: ''
 description: 사용자 없이 끝점용 Microsoft Defender에 프로그래밍 방식 액세스 권한을 부여하도록 웹앱을 디자인하는 방법을 학습합니다.
 keywords: api, 그래프 api, 지원되는 api, 배우, 경고, 장치, 사용자, 도메인, ip, 파일, 고급 헌팅, 쿼리
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 107bed51ac0558bb0b81e20b6ea7070689dd42e3
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a63587500952687ea182d5d2162432195f91ea05
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207094"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554207"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>끝점 API용 Microsoft Defender를 통한 파트너 액세스
 
@@ -135,7 +134,7 @@ ms.locfileid: "60207094"
 
 **참고:** 고객을 대신하여 액세스 토큰을 얻습니다. 다음 토큰 취득 시 고객의 테넌트 ID를 사용 합니다.
 
-AAD 토큰에 대한 자세한 내용은 [AAD 자습서를 참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+토큰에 대한 AAD 자세한 내용은 AAD [참조하세요.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 ### <a name="using-powershell"></a>PowerShell 사용
 

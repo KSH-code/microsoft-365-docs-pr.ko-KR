@@ -20,12 +20,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 타사 데이터 커넥터 및 Microsoft Microsoft 365 API를 사용하여 규정 준수 솔루션을 확장하는 Graph 대해 자세히 알아보십시오.
-ms.openlocfilehash: bc812a6cdc051daf64b14f60db32f360ceee7bd4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 04bffeb43a001ab94ffb96504b64ffbf4bf566c5
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204410"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555371"
 ---
 # <a name="microsoft-365-compliance-extensibility"></a>Microsoft 365 규정 준수 extensibility
 
@@ -89,7 +89,7 @@ eDiscovery용 Graph API의 첫 번째 집합은 공개 미리 보기에서 사�
 
 Advanced eDiscovery API에 대한 라이선스 요구 사항에 대한 자세한 내용은 보안 및 준수에 대한 Microsoft 365 라이선싱 지침의 "eDiscovery" [& 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#ediscovery)
 
-### <a name="microsoft-graph-api-for-teams-export-preview"></a>Microsoft Graph 내보내기용 microsoft Teams API(미리 보기)
+### <a name="microsoft-graph-api-for-teams-export"></a>Microsoft Graph 내보내기용 Microsoft Teams API
 
 Enterprise 고객용 EIA(Microsoft Teams 보관)는 고객이 규정 요구 사항을 해결할 수 있도록 하는 주요 시나리오입니다. 고객 및 파트너는 Microsoft Teams 콘텐츠를 보관하는 기본 제공 기능 외에도 사용자 지정 응용 프로그램 Teams 통합 시나리오를 위해 API 내보내기 기능을 사용할 수 있습니다. 이 Teams 내보내기 API는 메시지 및 메시지 첨부 파일로 대량 내보내기(앱/테넌트당 최대 200개Teams 수 있습니다. 삭제된 메시지는 API에서 삭제된 후 최대 30일 동안 액세스할 수도 있습니다. 이러한 API 내보내기 Teams 및 응용 프로그램에서 사용하는 방법에 대한 자세한 내용은 Api 내보내기 에서 콘텐츠 [Microsoft Teams 참조하세요.](/microsoftteams/export-teams-content)
 

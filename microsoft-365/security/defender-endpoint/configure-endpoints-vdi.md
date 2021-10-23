@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/22/2021
 ms.technology: mde
-ms.openlocfilehash: 86332ff7e9a5a9dc08d5bb278ea856990e4cb0c6
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 931edcd890148a828a6d189722e8f29907c15b79
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240323"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553691"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-in-microsoft-365-defender"></a>영구적이지 않은 VDI(가상 데스크톱 인프라) 장치를 Microsoft 365 Defender
 
@@ -32,9 +32,12 @@ ms.locfileid: "60240323"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 - VDI(가상 데스크톱 인프라) 장치
-- Windows 10 Windows 11, Windows Server 2019, Windows Server 2022, Windows Server 2008R2/2012R2/2016
+- Windows 10, Windows 11, Windows Server 2019, Windows Server 2022, Windows Server 2008R2/2012R2/2016
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-configvdi-abovefoldlink)
+
+ > [!NOTE]
+  > **영구 VDI**  -  [영구 VDI](configure-endpoints.md) 머신을 Microsoft Defender for Endpoint에 온보딩하는 것은 데스크톱 또는 노트북과 같은 실제 컴퓨터 온보딩과 동일한 방식으로 처리됩니다. 그룹 정책, Microsoft Endpoint Manager 및 기타 메서드를 사용하여 영구 컴퓨터 온보드할 수 있습니다. 보안 센터에서( 온보더링에서 기본 설정 온보더링 방법을 선택하고 해당 유형에 대한 https://security.microsoft.com) 지침을 따릅니다. 
 
 ## <a name="onboarding-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보드
 
@@ -170,8 +173,8 @@ DISM 명령 및 오프라인 서비스에 대한 자세한 내용은 아래 문�
 5. 평소와 처럼 골든/마스터 이미지를 다시 비우는 것이 가장 까다로워질 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
-- [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
-- [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
-- [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)
+- [그룹 정책을 사용하여 Windows 장치 온보딩](configure-endpoints-gp.md)
+- [Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩](configure-endpoints-sccm.md)
+- [모바일 장치 관리 도구를 사용한 Windows 장치 온보딩](configure-endpoints-mdm.md)
+- [로컬 스크립트를 사용하여 Windows 장치 온보딩](configure-endpoints-script.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

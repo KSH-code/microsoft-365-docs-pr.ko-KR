@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse)의 경우 기준을 사용하여 표준 테넌트 구성을 배포하는 방법을 배워야 합니다.
-ms.openlocfilehash: 793a8f61634660487dc9256d23f0f7d83ff68983
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2818b0e611bad7ae8895a1f44dcf557cb293aba8
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60177042"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554951"
 ---
 # <a name="overview-of-using-baselines-to-deploy-standard-tenant-configurations"></a>기준을 사용하여 표준 테넌트 구성 배포 개요 
 
@@ -45,9 +45,9 @@ Lighthouse 내에서 기본 기준 및 해당 배포 단계를 볼 수 있습니
 | 관리자에게 MFA 필요 | 관리자에 대해 다단계 인증을 요구하는 보고서 전용 조건부 액세스 정책입니다. 모든 클라우드 응용 프로그램에 필요합니다. |
 | 최종 사용자에 대해 MFA 필요 | 사용자에 대해 다단계 인증이 필요한 보고서 전용 조건부 액세스 정책입니다. 모든 클라우드 응용 프로그램에 필요합니다. |
 | 레거시 인증 차단 | 레거시 클라이언트 인증을 차단하는 보고서 전용 조건부 액세스 정책입니다. |
-| 디바이스를 Microsoft Endpoint Manager – Azure AD 가입 | 테넌트 장치가 테넌트에 등록할 수 있도록 장치 등록을 Microsoft Endpoint Manager. 이 수행은 사용자와 사용자 간에 자동 등록을 설정하여 Azure Active Directory Microsoft Endpoint Manager. |
-| AV(바이러스 백신) 정책 구성 | 미리 구성된 Windows 장치용 장치 구성 Microsoft Defender 바이러스 백신. |
-| 창 10 준수 정책 설정 | 기본 Windows 충족하기 위해 미리 구성된 설정이 있는 장치 정책입니다. |
+| 장치 등록 설정 | 테넌트 장치가 테넌트에 등록할 수 있도록 장치 등록을 Microsoft Endpoint Manager. 이 수행은 사용자와 사용자 간에 자동 등록을 설정하여 Azure Active Directory Microsoft Endpoint Manager. |
+| 사용자 Microsoft Defender 바이러스 백신 대한 Windows 10 구성 | 미리 구성된 Windows 장치용 장치 구성 Microsoft Defender 바이러스 백신. |
+| 장치 준수 정책 구성 Windows 10 이상 | 기본 Windows 충족하기 위해 미리 구성된 설정이 있는 장치 정책입니다. |
 
 ## <a name="related-content"></a>관련 콘텐츠
 

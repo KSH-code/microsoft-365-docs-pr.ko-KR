@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 898456075cd0298973b94ab8b8ea700fe52f5c08
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: da9b53aec47231446571a2ae5852bed842311079
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364546"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552683"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -148,8 +148,9 @@ Microsoft의 주요 정보:
 - [랜섬웨어 위협 증가](https://blogs.microsoft.com/on-the-issues/2021/07/20/the-growing-threat-of-ransomware/), 2021년 7월 20일 Microsoft On the Issue 블로그 게시물
 - [사람이 조작하는 랜섬웨어](/security/compass/human-operated-ransomware)
 - [랜섬웨어 및 탈취로부터 신속하게 보호](/security/compass/protect-against-ransomware)
-- [2021 Microsoft Digital Defense](https://www.microsoft.com/security/business/microsoft-digital-defense-report) 보고서(10-19 페이지 참조)
-- **랜섬웨어:** Microsoft 365 Defender 포털의 **위협 분석** 노드에 만연하고 지속적인 위협 보고서가 있습니다(이 [라이선스 요구 사항](/microsoft-365/security/defender/prerequisites#licensing-requirements) 참조).
+- [2021 Microsoft Digital Defense 보고서](https://www.microsoft.com/security/business/microsoft-digital-defense-report)(10-19페이지 참조)
+- [랜섬웨어:](https://security.microsoft.com/threatanalytics3/05658b6c-dc62-496d-ad3c-c6a795a33c27/overview) 랜섬웨어 포털의 보행 및 지속적인 위협 분석 Microsoft 365 Defender 보고서
+
 
 Microsoft 365:
 
@@ -158,6 +159,7 @@ Microsoft 365:
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어로부터 Windows PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
+- [보안 포털의 랜섬웨어에](https://security.microsoft.com/threatanalytics3?page_size=30&filters=tags%3DRansomware&ordering=-lastUpdatedOn&fields=displayName,alertsCount,impactedEntities,reportType,createdOn,lastUpdatedOn,tags,flag) 대한 위협 Microsoft 365 Defender 보고서
 
 Microsoft 365 Defender:
 

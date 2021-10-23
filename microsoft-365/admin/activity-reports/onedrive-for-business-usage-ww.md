@@ -22,23 +22,20 @@ search.appverid:
 - MET150
 - MOE150
 description: '조직에서 비즈니스용 OneDrive 총 파일 및 저장소 수를 확인하려면 사용 현황 보고서를 다운로드합니다. '
-ms.openlocfilehash: 5e69791057eae44ec2b9565c73b61c4b8c2131a1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 66e9cb7774f9f35a7d720e71062b90a85c2e6026
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157257"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553055"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Microsoft 365 관리 센터의 보고서 - 비즈니스용 OneDrive 사용 현황
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
 예를 들어 대시보드의 OneDrive 카드에서는 비즈니스용 OneDrive에서 가져오는 값(예: 총 파일 수 및 조직 전체를 통해 사용되는 저장소)을 대략적으로 볼 수 있습니다. 그런 다음 하위 수준을 표시하여 활성 OneDrive 계정의 추세, 사용자가 상호 작용 중인 파일 수 외에도 사용되는 저장소를 파악할 수 있습니다. 사용자의 OneDrive에 대한 세부 정보도 제공합니다.
-  
-> [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
- 
-## <a name="how-do-i-get-to-the-onedrive-activity-report"></a>OneDrive 활동 보고서에 액세스하려면 어떻게 하나요?
+
+## <a name="how-do-i-get-to-the-onedrive-usage-report"></a>사용 현황 보고서에 OneDrive 방법
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
 2. 대시보드 홈페이지의 대시보드 카드에서  더 보기 단추를 OneDrive 클릭합니다.
@@ -50,6 +47,8 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![OneDrive 보고서 - 열을 선택 합니다.](../../media/9ee80f25-cfe3-411d-8e31-08f1507d18c1.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
+
+사용 **비즈니스용 OneDrive** 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다.
   
 |항목|설명|
 |:-----|:-----|

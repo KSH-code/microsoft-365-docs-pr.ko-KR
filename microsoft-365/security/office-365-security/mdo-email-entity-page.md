@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Microsoft Defender for Office 365 E5 및 P1 및 P2 고객은 이제 전자 메일 엔터티 페이지가 있는 각 전자 메일을 360도로 볼 수 있습니다.
-ms.openlocfilehash: cf63609bf978dd205796d54432e143edbb6c6b87
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b6f4df0dcd8f12b7a2d8475954583573616a6fd9
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174282"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554771"
 ---
 # <a name="the-email-entity-page"></a>전자 메일 엔터티 페이지
 
@@ -114,10 +114,6 @@ Office 365 E5 Microsoft Defender 및 Office P1 및 P2용 Defender의 관리자�
 - Exchange 규칙(메일 흐름 규칙 또는 *ETRS라고도* 알려지음) : 이러한 규칙은 전송 계층의 메시지에 적용되고 피싱 및 스팸 판정보다 우선합니다. 이러한 ETR은 Exchange 관리 센터에서만 만들어 수정할 수 있지만 ETR이 메시지에 적용되는 경우 여기에 ETR 이름과 GUID가 표시됩니다. 추적을 위한 중요한 정보입니다.
 
 - *시스템 오버라이드:* 위협 및 감지 기술에 따라 시스템에서 제공한 배달 위치를 의회하여 메시지에 의도된 배달 위치를 예외로 만드는 수단입니다.
-
-- *정크 사서함 규칙:*'정크'는 모든 사서함에서 기본적으로 사용하도록 설정된 숨겨진 받은 편지함 규칙입니다.
-  - 사서함에서 정크 메일 규칙을 사용하도록 설정하면 EOP(Exchange Online Protection)에서 몇 가지 조건에 따라 메시지를 정크로 이동할 수 있습니다. 이 이동은 스팸 필터링 판정 작업 정크 메일 폴더로 메시지 이동 또는 사서함의 수신 차단된 보낸 사람 목록에 기반할 수 있습니다. 정크 메일 규칙을 사용 안 하여 사서함의 보낸 사람 목록에 따라 정크 메일 폴더로 메시지를 *금고* 수 없습니다.
-  - 사서함에서 정크 메일  규칙을 사용하지 않도록 설정하면 EOP에서 스팸 필터링 판정 동작에 따라 메시지를 정크 메일 폴더로 이동하거나 사서함의 수신 확인 목록 모음으로 메시지를 이동할 수 없습니다. 
 
 - *BCL(대량* 불만 수준) : 메시지의 BCL(대량 불만 수준)입니다. BCL이 높을수록 대량 메일 메시지가 불만을 생성할 가능성이 높음(전자 메일이 스팸일 가능성이 높은 경우의 자연스러운 결과)을 나타냅니다.
 

@@ -19,21 +19,18 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 보고서 대시보드를 사용하여 전자 메일 활동 보고서를 Microsoft 365 관리 센터.
-ms.openlocfilehash: 95742f5a8a2c410d0f9c7a526d565d8eb62b13a5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4ea339f01d926c2f008dbeae572f64b143192ab1
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156033"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553307"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>Microsoft 365 관리 센터의 보고서 - 전자 메일 활동
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
 예를 들어 보고서 페이지에서 조직 내의 전자 메일 트래픽을 개략적으로 본 다음, 조직 내 전자 메일 활동의 추세와 사용자 수준별 세부 정보를 이해하기 위해 전자 메일 활동 위젯을 표시할 수 있습니다.
-  
-> [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다. 
 
 ## <a name="how-to-get-to-the-email-activity-report"></a>전자 메일 활동 보고서에 액세스하는 방법
 
@@ -49,7 +46,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
   
 |항목|설명|
 |:-----|:-----|
-|1.  <br/> |**전자 메일 활동** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 표(7)에 현재 날짜로부터 최대 28일간의 데이터가 표시됩니다(보고서가 생성된 날짜가 아 아지 않습니다).  <br/> |
+|1.  <br/> |**전자 메일 활동** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다.  <br/> |
 |2.  <br/> |각 보고서의 데이터는 일반적으로 최근 24시간에서 48시간까지 처리됩니다.  <br/> |
 |3.  <br/> |**활동** 차트를 사용하면 조직에서 수행되는 전자 메일 활동이 어느 정도인지 추세를 파악할 수 있습니다. 전자 메일 보내기, 전자 메일 읽기, 받은 전자 메일, 만든 모임 또는 모임 상호 작용 활동의 분할을 이해할 수 있습니다.  <br/> |
 |4.  <br/> |**사용자** 차트를 사용하면 전자 메일 활동을 생성 중인 고유한 사용자 수의 추세를 파악할 수 있습니다. 전자 메일 보내기, 전자 메일 읽기, 전자 메일 수신, 모임 만들기 또는 모임 상호 작용 활동을 수행하는 사용자의 추세를 볼 수 있습니다.  <br/> |

@@ -20,19 +20,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Yammer 활동 보고서를 보고 메시지를 게시하거나 Yammer 읽은 사용자 수에 대해 자세히 알아 두세요.
-ms.openlocfilehash: 4de77e432e1b72286d28ae742783f2c5324e35fe
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3b3d99754a7ace6ffbd8b503e4d70f956425e678
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60158889"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553019"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 활동 보고서
 
 관리자 Microsoft 365 보고서 대시보드에는  조직 내의 제품 사용 현황에 대한 데이터가 표시됩니다. 관리 [센터에서 활동 보고서를 체크 아웃합니다.](activity-reports.md) **Yammer 활동 보고서** 를 사용하면 메시지를 게시하거나 좋아요를 클릭하거나 읽는 데 Yammer를 사용하는 고유한 사용자 수와 조직 전체에서 생성된 활동의 크기를 확인하여 조직의 Yammer 사용 수준을 이해할 수 있습니다. 
-  
-> [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
  
 ## <a name="how-do-i-get-to-the-yammer-activity-report"></a>Yammer 활동 보고서에 Yammer 방법
 
@@ -47,6 +44,8 @@ ms.locfileid: "60158889"
 열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Yammer 활동 보고서 - 열을 선택하십시오.](../../media/7ef6351d-f7e9-4504-913d-2c2df9062bf6.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
+
+Yammer **활동 보고서에서** 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다.
   
 |항목|설명|
 |:-----|:-----|

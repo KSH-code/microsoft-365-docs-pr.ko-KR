@@ -3,8 +3,6 @@ title: Microsoft Cloud App Security 통합 개요
 ms.reviewer: ''
 description: 끝점용 Microsoft Defender는 모든 Cloud App Security 네트워킹 활동을 전달하여 앱과 통합됩니다.
 keywords: 클라우드, 앱, 네트워킹, 가시성, 사용
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 10/18/2018
 ms.technology: mde
-ms.openlocfilehash: 4f2229b5d82668920396efc77469110c4e3e3909
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 40eda96b350a5801c732842c0e9a64f29badcc27
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60168281"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555587"
 ---
 # <a name="microsoft-cloud-app-security-in-defender-for-endpoint-overview"></a>Microsoft Cloud App Security용 Defender 개요
 
@@ -41,7 +39,7 @@ ms.locfileid: "60168281"
 Microsoft Cloud App Security (Cloud App Security)는 클라우드에 저장된 데이터에 대한 규정 준수 요구 사항을 적용하면서 클라우드 앱에 대한 액세스를 제어하고 제한할 수 있도록 하여 클라우드 앱 및 서비스에 대한 가시성을 제공하는 포괄적인 솔루션입니다. 자세한 내용은 를 [Cloud App Security.](/cloud-app-security/what-is-cloud-app-security)
 
 > [!NOTE]
-> 이 기능은 버전 1809 [이상을](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) 실행하는 Enterprise Mobility + Security E5 라이선스와 함께 사용할 Windows 10 있습니다.
+> 이 기능은 버전 1809 [이상](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) 또는 Enterprise Mobility + Security 실행 중인 Windows 10 E5 라이선스와 함께 사용할 수 Windows 11.
 
 ## <a name="microsoft-defender-for-endpoint-and-cloud-app-security-integration"></a>Microsoft Defender for Endpoint 및 Cloud App Security 통합
 

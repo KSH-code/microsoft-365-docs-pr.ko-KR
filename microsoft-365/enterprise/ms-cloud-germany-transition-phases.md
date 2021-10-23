@@ -3,7 +3,7 @@ title: 마이그레이션 단계 도이클란드 Microsoft 클라우드에서 �
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 05/12/2021
+ms.date: 10/21/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 93d639b5d917bfa22a08f0c756236158e8334932
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: fc113b0d81312a199282a5b2f0ec652ffd8cad8d
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212848"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554639"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
 독일 Microsoft 클라우드(MCD)에서 Microsoft Office 365 글로벌 서비스의 지역 "독일"으로 테넌트 마이그레이션은 각 워크로드에 대해 구성된 작업 및 단계 집합으로 실행됩니다. 이 그림에서는 새로운 독일 데이터 센터로의 10개 마이그레이션 단계를 보여 주었다.
 
-[새 독일 데이터 센터로의 ![ 10단계 마이그레이션 단계 ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png) ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png#lightbox)
+[![새 독일 데이터 센터로의 10단계 마이그레이션 단계](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)](../media/ms-cloud-germany-migration-opt-in/migration-organization.png#lightbox)
 
 조직의 전체 크기 및 복잡도에 따라 마이그레이션 프로세스가 몇 주 동안 완료됩니다. 마이그레이션이 진행 중일 때 사용자와 관리자는 이 설명서에 자세히 설명된 변경 사항과 함께 서비스를 계속 사용할 수 있습니다. 그래픽 및 테이블은 마이그레이션 중의 단계와 단계를 정의합니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "60212848"
 
 |Step(s)|설명|영향|
 |---|---|---|
-|**고객 작업:** 마이그레이션에 대한 동의 부여|고객은 Microsoft가 데이터 및 서비스를 전역 서비스 인스턴스로 마이그레이션하고 오케스트레이션할 수 있는 권한을 얻게 하여 마이그레이션에 Office 365 동의합니다. 두 가지 방법이 있습니다. <ol><li>테넌트 Office 365 Microsoft 주도 마이그레이션에 옵트인(opt in)합니다.</li><li>고객은 2020년 5월 1일 이후에 MCD Office 365 구독을 갱신했습니다. Microsoft는 매월 이러한 고객에게 마이그레이션을 알리고 30일 동안 기다렸다가 취소할 수 있는 기회를 제공한 다음 직접 옵트인(opt in)합니다.</li></ol>|<ul><li>테넌트가 마이그레이션에 동의한 것으로 표시되어 관리 센터에 확인이 표시됩니다.</li><li>Acknowledgment는 Office 365 메시지 센터에 게시됩니다. 서비스 구성은 도이치란드 Microsoft 클라우드 끝점에서 계속됩니다.</li></ul>
+|**고객 작업:** 마이그레이션에 대한 동의 부여|고객은 Microsoft가 데이터 및 서비스를 전역 서비스 인스턴스로 마이그레이션하고 오케스트레이션할 수 있는 권한을 얻게 하여 마이그레이션에 Office 365 동의합니다. 두 가지 방법이 있습니다. <ol><li>테넌트 Office 365 Microsoft 주도 마이그레이션에 옵트인(opt in)합니다.</li><li>고객은 2020년 5월 1일 이후에 MCD Office 365 구독을 갱신했습니다. Microsoft는 매월 이러한 고객에게 마이그레이션을 직접 옵트인(opt in)할 수 있도록 30일간 기다렸다가 취소할 수 있는 기회를 제공합니다.</li></ol>|<ul><li>테넌트가 마이그레이션에 동의한 것으로 표시되어 관리 센터에 확인이 표시됩니다.</li><li>Acknowledgment는 Office 365 메시지 센터에 게시됩니다. 서비스 구성은 도이치란드 Microsoft 클라우드 끝점에서 계속됩니다.</li></ul>
 |**테넌트 관리자:** 메시지 모니터링|테넌트 관리자는 현재 Office 365 단계 상태에 대한 업데이트를 위해 메시지 센터에서 업데이트를 모니터링해야 합니다.|고객은 필요한 작업을 제시간에 실행할 수 있습니다.
 |
 
@@ -79,7 +79,7 @@ ms.locfileid: "60212848"
 
 모든 고객에게 적용되는 마이그레이션 준비 단계에 [익숙해야 합니다.](ms-cloud-germany-transition-add-pre-work.md)
 
-소유한 하나 또는 여러 DNS 네임스페이스에서 _msoid라는_ DNS CNAME을 설정한 경우 8단계가 끝날 때까지 CNAME을 제거해야 합니다. 8단계가 끝나기 전에 CNAME _msoid를_ 제거할 수 있습니다. [DNS에 대한 사전 작업 을 참조합니다.](ms-cloud-germany-transition-add-pre-work.md#dns-entries-for-custom-domains)
+소유한 하나 또는 여러 DNS 네임스페이스에서 _msoid라는_ DNS CNAME을 설정한 경우 8단계가 끝날 때까지 CNAME을 제거해야 합니다. 8단계가 끝나기 전에 언제든지 CNAME _msoid를_ 제거할 수 있습니다. [DNS에 대한 사전 작업 을 참조합니다.](ms-cloud-germany-transition-add-pre-work.md#dns-entries-for-custom-domains)
 
 Microsoft 클라우드 도이치클라드 인스턴스에서 Office 365 Azure에 대해 Single Sign-On을 사용하는 경우 그에 따라 Azure 구독 마이그레이션을 준비하고 예약해야 합니다. 에 대한 사전 작업 [Microsoft Azure.](ms-cloud-germany-transition-add-pre-work.md#microsoft-azure)
 
@@ -129,7 +129,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 |**관리자 작업**|도이치스크란드 Microsoft 클라우드 구독 또는 SKU GUID에 종속된 모든 고객 프로세스를 Office 365 서비스 제공|고객 프로세스는 계속 작동됩니다.|
 |
 
-**적용된 경우:** 파트너 포털을 Office 365 Microsoft 파트너
+**적용:** 파트너 포털을 사용하는 Microsoft Office 365 적용
 
 2단계와 3단계 사이에는 파트너 포털에 액세스할 수 없습니다. 이 시간 동안 파트너는 파트너 포털에서 테넌트 정보에 액세스하지 못하게 될 수 있습니다. 마이그레이션마다 다르기 때문에 내게 필요한 경우의 기간은 시간일 수 있습니다.
 
@@ -246,18 +246,20 @@ EOP(백 엔드 Exchange Online Protection) 기능은 새 지역 "독일"에 복�
 
 - 마이그레이션 단계 6이 시작되고 마이그레이션 단계 9(메시지 센터 알림이 게시될 때)가 완료될 때에는 Office 365 Worldwide 설정을 사용하여 HCW를 다시 실행하여 Office 365 전역 서비스를 설정해야 합니다. 9단계 [마이그레이션 완료] 이전의 이 작업을 완료하지 못하면 메일에 대한 NDRS가 배포와 배포에 Exchange 라우팅될 Office 365.
 - 온보드 또는 오프보더 사서함 이동을 중지하거나 삭제합니다. 즉, 온-프레미스와 온-프레미스 간에 사서함을 Exchange 이동하지 Exchange Online.  이렇게 하면 사서함 이동 요청이 오류와 함께 실패하지 않습니다. 이렇게 하지 못하면 서비스 또는 클라이언트가 실패할 Office 있습니다.
-- 추가 Send-Connectors HCW에서 만든 커넥터 외에 만들어지며 Exchange Online HCW 실행이 실행된 직후에 이 단계에서 업데이트해야 합니다. 그렇지 않으면 작동이 중지됩니다. 이러한 송신 커넥터에 대해 TLS 도메인을 업데이트해야 합니다. <br> TLS 도메인을 업데이트하려면 사용자 환경의 다음 PowerShell 명령을 Exchange Server 합니다.
+- 추가 Send-Connectors HCW에서 만든 커넥터 외에 만들어지며 Exchange Online HCW 실행이 실행된 직후에 이 단계에서 업데이트해야 합니다. 그렇지 않으면 작동이 중지됩니다. 이러한 송신 커넥터에 대해 TLS 도메인을 업데이트해야 합니다.
 
-```powershell
-Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outlook.com"
-```
+  TLS 도메인을 업데이트하려면 사용자 환경의 다음 PowerShell 명령을 Exchange Server 합니다.
+
+  ```powershell
+  Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outlook.com"
+  ```
 
 ## <a name="phase-7-skype-for-business-online---transition-to-microsoft-teams"></a>7단계: 비즈니스용 Skype Online - Microsoft Teams
 
 **다음에 적용됩니다.** 비즈니스용 Skype Online을 사용하는 모든 고객
 
 비즈니스용 Skype [Online](ms-cloud-germany-transition-add-pre-work.md#skype-for-business-online) 마이그레이션에 대한 마이그레이션 전 단계를 검토하고 모든 단계를 완료해야 합니다.
-이 단계에서는 비즈니스용 Skype 마이그레이션 Microsoft Teams됩니다. 기존 비즈니스용 Skype 고객은 유럽의 Office 365 전역 서비스로 마이그레이션된 다음 Microsoft Teams 서비스의 "독일" 지역에 있는 Office 365 전환됩니다.
+이 단계에서는 비즈니스용 Skype 마이그레이션 Microsoft Teams됩니다. 기존 비즈니스용 Skype 고객은 유럽의 Office 365 전역 서비스로 마이그레이션된 다음 테넌트의 등록 Microsoft Teams 지역에 있는 전역 서비스로 [전환됩니다.](o365-data-locations.md)
 
 - 사용자는 마이그레이션 날짜에 로그인할 비즈니스용 Skype 수 없습니다.
 - 정책 구성이 마이그레이션됩니다.
@@ -267,7 +269,7 @@ Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outl
 - 사용자는 고객 DNS 항목이 완료될 때까지 비즈니스용 Skype 서비스로 전환되는 Office 365 로그인할 수 없습니다.
 - 연락처 및 기존 모임은 계속해서 모임이 비즈니스용 Skype 기능합니다.
 
-베니티 도메인이 구성되면 비즈니스용 Skype DNS 항목을 업데이트해야 합니다. DNS [구성의](https://admin.microsoft.com/Adminportal/Home#/Domains) Microsoft 365 관리 센터 도메인을 참조하고 변경 내용을 적용합니다.
+베니티 도메인이 구성되면 비즈니스용 Skype DNS 항목을 업데이트해야 합니다. DNS 구성의 [Microsoft 365 관리 센터](https://admin.microsoft.com/Adminportal/Home#/Domains) 도메인을 참조하고 변경 내용을 적용합니다.
 
 마이그레이션 9단계가 완료된 비즈니스용 Skype PowerShell을 사용하여 비즈니스용 Skype Online에 연결해야 하는 경우 다음 PowerShell 코드를 사용하여 연결합니다.
 
@@ -278,7 +280,7 @@ Connect-MicrosoftTeams -Credential $userCredential
 ```
 
 ### <a name="known-limitations-until-finalizing-azure-ad-migration"></a>Azure AD 마이그레이션을 완료할 때까지 알려진 제한 사항
-Microsoft Teams Azure AD의 기능을 활용합니다. Azure AD의 마이그레이션이 완료되지 않은 동안 일부 Microsoft Teams 사용할 수 없습니다. 9단계를 수행하고 나면 Azure AD 마이그레이션이 완료된 후 다음 기능을 완전히 사용할 수 있습니다.
+Microsoft Teams Azure AD의 기능을 사용하고 있습니다. Azure AD의 마이그레이션이 완료되지 않은 동안 일부 Microsoft Teams 사용할 수 없습니다. 9단계를 수행하고 나면 Azure AD 마이그레이션이 완료된 후 다음 기능을 완전히 사용할 수 있습니다.
 
 - 앱 관리 센터에서 앱을 관리할 Microsoft Teams 없습니다.
 - 새 팀을 Microsoft Teams 팀을 만들 수 있는 권한을 Teams 새 팀을 만들 수 있습니다. 새 팀은 관리 센터에서 만들 Microsoft Teams 없습니다.
@@ -370,7 +372,7 @@ Microsoft Azure 테넌트가 전 세계로의 마이그레이션을 완료하는
 **다음에 적용됩니다.** Azure AD 등록 또는 가입 장치를 사용 하는 고객
 
 9단계가 완료되면 Azure AD 등록 및 가입된 장치를 새 독일 데이터 센터 지역의 전환된 Azure AD 인스턴스에 연결해야 합니다.
-Azure AD에 다시 가입되지 않은 장치는 10단계가 끝나면 더 이상 작동하지 않을 수 있습니다. 자세한 지침과 자세한 내용은 장치에 대한 추가 [정보를 참조하세요.](ms-cloud-germany-transition-add-devices.md)
+Azure AD에 다시 연결되지 않은 장치는 10단계가 끝나면 더 이상 작동하지 않을 수 있습니다. 자세한 지침과 자세한 내용은 장치에 [대한 추가 정보를 참조하세요.](ms-cloud-germany-transition-add-devices.md)
 
 ### <a name="azure-ad-connect"></a>Azure AD Connect
 

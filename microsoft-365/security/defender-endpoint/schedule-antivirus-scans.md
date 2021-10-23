@@ -2,7 +2,6 @@
 title: 정기적인 빠른 검사 및 전체 검사 Microsoft Defender 바이러스 백신
 description: 실행해야 하는 시간 및 전체 검사 또는 빠른 검사로 실행 여부를 포함하여 재발(예약된) 검사 설정
 keywords: 빠른 검사, 전체 검사, 빠른 대 전체, 검사 예약, 매일, 매주, 시간, 예약, 정기적인
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,18 +10,18 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 06/09/2021
+ms.date: 10/18/2021
 ms.reviewer: pauhijbr, ksarens
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f5347bb3b671473f6d16d9f50578a9a7a2c5ebe1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0b840da9ad0bda3360265f997c0473c4b70fadae
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162497"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556031"
 ---
 # <a name="configure-scheduled-quick-or-full-microsoft-defender-antivirus-scans"></a>예약된 빠른 또는 전체 Microsoft Defender 바이러스 백신 검사 구성
 

@@ -3,8 +3,6 @@ title: 위협 분석의 분석 보고서 섹션을 이해합니다.
 ms.reviewer: ''
 description: 위협 분석 보고서의 보고서 섹션에서 위협, 완화, 검색, 고급 헌팅 쿼리에 대한 정보를 제공하는 방법
 keywords: 분석 보고서, 위협 분석, 검색, 고급 헌팅 쿼리, 완화,
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 49a0b34fb278fbb517bcfecc9d9e524d669029e3
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9f1744735008c201795a43344e7fb81c65cf2431
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195188"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554291"
 ---
 # <a name="the-analyst-report-in-threat-analytics"></a>위협 분석의 분석가 보고서
 

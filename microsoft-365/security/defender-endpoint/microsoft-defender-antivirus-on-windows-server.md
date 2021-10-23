@@ -2,7 +2,6 @@
 title: Windows Server의 Microsoft Defender 바이러스 백신
 description: Microsoft Defender 바이러스 백신 Server 2019 및 Windows Server 2016 Server 2019 및 Windows 2022에서 Windows 구성하는 방법을 학습합니다.
 keywords: windows defender, server, scep, system center endpoint protection, server 2016, current branch, server 2012
-search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -16,12 +15,12 @@ ms.technology: mde
 ms.topic: article
 ms.date: 10/18/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 9e92096ab6b1b291094781fed9ee994ca1fd7358
-ms.sourcegitcommit: 3260d47a29c35e90ed7b1d14d400b39baa741873
+ms.openlocfilehash: a6af3ff71cf6f64fbc548ceb3b333cdf135c70dc
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462228"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554555"
 ---
 # <a name="microsoft-defender-antivirus-on-windows-server"></a>Windows Server의 Microsoft Defender 바이러스 백신
 
@@ -39,7 +38,7 @@ Microsoft Defender 바이러스 백신 서버의 다음 버전/버전에서 사�
 - Windows Server 2016
 - Windows Server 2012 R2(끝점용 Microsoft Defender 필요)
 
-경우에 따라 Microsoft Defender 바이러스 백신 라고도 *Endpoint Protection.* 그러나 보호 엔진은 동일합니다. Microsoft Defender 바이러스 백신 구성 및 관리는 거의 동일하기는 [](microsoft-defender-antivirus-windows.md)하지만 Windows 10 Server에서 몇 가지 주요 Windows 있습니다.
+경우에 따라 Microsoft Defender 바이러스 백신 라고도 *Endpoint Protection.* 그러나 보호 엔진은 동일합니다. 기능, 구성 및 관리는 Microsoft Defender 바이러스 백신 및 Windows 10 [](microsoft-defender-antivirus-windows.md) Windows 11 기능, 구성 및 관리는 크게 동일하기는 하지만 Windows Server에서 몇 가지 주요 차이점이 있습니다.
 
 - Windows 서버 역할에 [](configure-server-exclusions-microsoft-defender-antivirus.md) 따라 자동 제외가 적용됩니다.
 

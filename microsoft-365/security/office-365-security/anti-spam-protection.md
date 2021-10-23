@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 방지)에서 스팸을 방지하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7a6cd11e25a29cd9b3866adb216464e021d15dc0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1d8a004e5eb909399f1340374b80495dcf0b6e9b
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154365"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552527"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 
@@ -94,13 +94,11 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 - **조직 설정** 확인: 메시지가 스팸 필터링을 건너뛸 수 있도록 하는 설정(예: 스팸 방지 정책의 허용된 도메인 목록에 사용자 도메인을 추가하는 경우)을 확인합니다. 권장 설정에 대한 자세한 내용은 EOP 및 Microsoft [Defender for Office 365](recommended-settings-for-eop-and-office365.md) 안전한 보낸 사람 목록 만들기를 [참조하세요.](create-safe-sender-lists-in-office-365.md)
 
-- **사용자의** 사서함에서 정크 메일 규칙이 사용하도록 설정되어 있는지 확인합니다. 규칙은 기본적으로 사용하도록 설정되지만, 사용하지 않도록 설정되어 있는 경우 정크 메일 폴더로 정크 메일로 표시된 메시지를 이동할 수 없습니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
-
 - **사용 가능한 수신 차단된** 보낸 사람 목록 사용: 자세한 내용은 차단된 보낸 사람 목록 [만들기를 참조하세요.](create-block-sender-lists-in-office-365.md)
 
 - **대량 전자 메일 구독 취소** 사용자가 등록한 메시지(뉴스레터, 제품 공지 등)에 포함된 것으로, 구독 취소 링크가 포함된 경우 구독을 취소하도록 요청하는 것이 좋은 예입니다.
 
-- 독립 실행형 **EOP: EOP** 스팸 필터링 Exchange 위한 메일 흐름 규칙 만들기: EOP가 Exchange 사서함을 보호하는 EOP 환경에서는 정크 메일 규칙이 메시지를 정크 메일 폴더로 이동할 수 있도록 EOP 스팸 필터링 판정을 변환하도록 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
+- 독립 실행형 **EOP: EOP** 스팸 필터링 판정에 대한 Exchange 프레미스 전자 메일 흐름 규칙 만들기: EOP가온-프레미스 Exchange 사서함을 보호하는 하이브리드 환경에서는 전자 메일 흐름 규칙(전송 규칙)을 구성해야 Exchange. 이러한 메일 흐름 규칙은 사서함의 정크 메일 규칙이 메시지를 정크 메일 폴더로 이동할 수 있도록 EOP 스팸 필터링 판정을 변환합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
 
 ### <a name="prevent-good-email-from-being-identified-as-spam"></a>좋은 전자 메일이 스팸으로 식별되지 않도록 방지
 

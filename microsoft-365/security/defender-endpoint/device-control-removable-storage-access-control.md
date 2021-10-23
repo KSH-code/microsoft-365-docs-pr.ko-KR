@@ -15,13 +15,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.date: 10/05/2021
-ms.openlocfilehash: c42e79317371419367cef5375f7f0aeaeba1fe1f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.date: 10/21/2021
+ms.openlocfilehash: bc73ab308fed1d420815d894c5e8c6fbeb4aaa34
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60184740"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553643"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -37,7 +37,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 |권한|사용 권한|
 |---|---|
-|Access|읽기, 쓰기, 실행|
+|액세스|읽기, 쓰기, 실행|
 |작업 모드|감사, 허용, 방지|
 |CSP 지원|예|
 |GPO 지원|예|
@@ -87,7 +87,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 | **유형** | IncludedIDList에서 이동식 저장소 그룹에 대한 작업을 정의합니다. <ul><li>적용: 허용 또는 거부 </li><li>감사: AuditAllowed 또는 AuditDenied</ul></li> | <ul><li>허용</li><li>거부 </li><li>AuditAllowed: 액세스가 허용되는 경우 알림 및 이벤트를 정의합니다.</li><li>AuditDenied: 액세스가 거부된 경우 알림 및 이벤트를 정의합니다. 거부 항목과 **함께 작업해야** 합니다.</li></ul> <p> 동일한 미디어에 대한 충돌 유형이 있는 경우 시스템은 정책의 첫 번째 형식을 적용합니다. 충돌 형식의 예로는 **Allow** 및 **Deny가 있습니다.** |
 | **Sid** | 로컬 컴퓨터 Sid 또는 AD 개체의 Sid는 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다. |  |
 | **ComputerSid** | 로컬 컴퓨터 Sid 또는 AD 개체의 Sid는 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 ComputerSid를 사용할 수 있으며 ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다. |  |
-| **옵션** | 알림을 표시할지 여부를 정의합니다. |**0-4:** 허용 또는 거부 유형이 선택된 경우. <ul><li>0: nothing</li><li>4: 이 항목에 **대해 AuditAllowed** 및 **AuditDenied를** 사용하지 않도록 설정 **차단이 발생하고** AuditDenied가 구성된 경우에도 시스템에 알림이 표시되지 않습니다. </li></ul> <p> **AuditAllowed 또는** **AuditDenied** 유형이 선택된 경우: <ul><li>0: nothing</li><li>1: 알림 표시</li><li>2: 이벤트 보내기</li><li>3: 알림 표시 및 이벤트 보내기 </li></ul>|
+| **옵션** | 알림을 표시할지 여부를 정의합니다. |**0 또는 4:** 허용 또는 거부 유형이 선택된 경우. <ul><li>0: nothing</li><li>4: 이 항목에 **대해 AuditAllowed** 및 **AuditDenied를** 사용하지 않도록 설정 **차단이 발생하고** AuditDenied가 구성된 경우에도 시스템에 알림이 표시되지 않습니다. </li></ul> <p> **AuditAllowed 유형이 선택된** 경우: <ul><li>0: nothing</li><li>1: nothing</li><li>2: 이벤트 보내기</li><li>3: 이벤트 보내기 </li></ul><p> **AuditDenied 유형이 선택된** 경우: <ul><li>0: nothing</li><li>1: 알림 표시</li><li>2: 이벤트 보내기</li><li>3: 알림 표시 및 이벤트 보내기 </li></ul>|
 |AccessMask|액세스를 정의합니다. | **1-7**: <ol><li>읽기</li><li>쓰기</li><li>읽기 및 쓰기</li><li>실행</li><li>읽기 및 실행</li><li>쓰기 및 실행 </li><li>읽기 및 쓰기 및 실행</li></ol> |
 
 ## <a name="common-removable-storage-access-control-scenarios"></a>일반적인 이동식 Storage 액세스 제어 시나리오
@@ -235,7 +235,7 @@ DeviceEvents
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면입니다.":::
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="what-is-the-removable-storage-media-limitation-for-the-maximum-number-of-usbs"></a>최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?
 

@@ -2,8 +2,6 @@
 title: 관리되는 보안 서비스 공급자 지원 구성
 description: 끝점용 Microsoft Defender와 MSSP 통합을 구성하는 데 필요한 단계 수행
 keywords: 관리되는 보안 서비스 공급자, mssp, 구성, 통합
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8f4b63c2c4d1f0205e3a97eec6273c878d866f0d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 95eaf9d6921fa0e238b1c4c703414a6c8e4f4c3b
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213748"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554795"
 ---
 # <a name="configure-managed-security-service-provider-integration"></a>관리형 보안 서비스 공급자 통합 구성
 

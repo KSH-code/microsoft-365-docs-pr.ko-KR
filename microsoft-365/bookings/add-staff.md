@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 ms.localizationpriority: medium
 description: 이 페이지를 사용하여 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리할 수 있습니다.
-ms.openlocfilehash: ea9025edd20289aa404471f6c1d245e7bf5c7d4e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b76b3e647af6f43f1c8ad7364fe24c895dc86b45
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60202156"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553979"
 ---
 # <a name="add-staff-to-bookings"></a>Bookings에 직원 추가
 
@@ -28,6 +28,9 @@ Bookings는 모든 Microsoft 365 Microsoft 365 계정이 필요한 것은 아닙
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWuVka]
 
 ## <a name="steps"></a>단계
+
+> [!NOTE]
+> 새 Bookings 환경에서는 이러한 단계를 아직 사용할 수 없습니다.
 
 1. 직원 관리 [페이지로 이동하여](https://outlook.office.com/bookings/staff) 직원 **추가를 선택합니다.**
 

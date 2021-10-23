@@ -2,7 +2,6 @@
 title: 끝점용 Microsoft Defender의 장치에서 응답 작업 수행
 description: 디바이스를 고지하고, 조사 패키지를 수집하고, 태그를 관리하고, av 검색을 실행하고, 앱 실행을 제한하는 등의 장치에 대한 대응 조치를 취합니다.
 keywords: 응답, 격리, 장치 격리, 조사 패키지 수집, 알림 센터, 제한, 태그 관리, av 검사, 앱 제한
-search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4175fa0131870c3ae661727b23d4358dd05b722d
-ms.sourcegitcommit: 1e990628d72b6d392500ea564859543e7c8bc632
+ms.openlocfilehash: b21090c28fd240e349ec22b078843cf980f3325c
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60386233"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555011"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -87,7 +86,7 @@ ms.locfileid: "60386233"
 
 > [!IMPORTANT]
 >
-> - 이러한 응답 작업은 버전 1703 이상의 Windows 10 장치에만 사용할 수 있습니다.
+>이러한 작업은 현재 macOS 및 Linux에서 지원되지 않습니다. 라이브 응답을 사용하여 작업을 실행합니다. 라이브 응답에 대한 자세한 내용은 라이브 응답을 사용하여 디바이스에서 [엔터티 조사를 참조하세요.](live-response.md)
 
 패키지(Zip 파일)를 다운로드하고 장치에서 발생한 이벤트를 조사하려면
 
@@ -115,7 +114,7 @@ ms.locfileid: "60386233"
 |---|---|
 |자동 런|각각 디바이스에서 공격자 지속성을 식별하는 데 도움이 되는 알려진 ASEP(자동 시작 진입점)의 레지스트리 콘텐츠를 나타내는 파일 집합이 포함되어 있습니다. <p> <div class="alert"><b>참고:</b> 레지스트리 키를 찾을 수 없는 경우 파일에 "오류: 시스템에서 지정된 레지스트리 키 또는 값을 찾을 수 없습니다."라는 메시지가 표시됩니다.<div>|
 |설치된 프로그램|이 .CSV 파일에는 장치에 현재 설치된 프로그램을 식별하는 데 도움이 되는 설치된 프로그램 목록이 포함되어 있습니다. 자세한 내용은 클래스 [Win32_Product 참조하세요.](https://go.microsoft.com/fwlink/?linkid=841509)|
-|네트워크 연결|이 폴더에는 의심스러운 URL, 공격자 명령 및 제어(C&C) 인프라, 측면 이동 또는 원격 연결에 대한 연결을 식별하는 데 도움이 되는 연결 정보와 관련된 데이터 포인트 집합이 포함되어 있습니다. <ul><li>ActiveNetConnections.txt: 프로토콜 통계 및 현재 TCP/IP 네트워크 연결을 표시됩니다. 프로세스에서 만들어지는 의심스러운 연결을 찾아 볼 수 있는 기능을 제공합니다.</li><li>Arp.txt: 모든 인터페이스에 대한 현재 ARP(주소 확인 프로토콜) 캐시 테이블을 표시됩니다. ARP 캐시는 네트워크의 손상되거나 의심스러운 네트워크의 다른 호스트가 내부 공격을 실행하기 위해 사용될 수 있는 것으로 의심스러워할 수 있습니다.</il><li>DnsCache.txt: 로컬 Hosts 파일에서 미리 로드된 항목과 컴퓨터에서 확인된 이름 쿼리에 대해 최근에 획득한 리소스 레코드를 모두 포함하는 DNS 클라이언트 확인자 캐시의 내용을 표시됩니다. 이는 의심스러운 연결을 식별하는 데 도움이 될 수 있습니다.</li><li>IpConfig.txt: 모든 어댑터에 대한 전체 TCP/IP 구성을 표시됩니다. 어댑터는 설치된 네트워크 어댑터와 같은 물리적 인터페이스나 전화 접속 연결과 같은 논리적 인터페이스를 표현할 수 있습니다.</li><li>FirewallExecutionLog.txt 및 pfirewall.log</li></ul>|
+|네트워크 연결|이 폴더에는 의심스러운 URL, 공격자 명령 및 제어(C&C) 인프라, 측면 이동 또는 원격 연결에 대한 연결을 식별하는 데 도움이 되는 연결 정보와 관련된 데이터 포인트 집합이 포함되어 있습니다. <ul><li>ActiveNetConnections.txt: 프로토콜 통계 및 현재 TCP/IP 네트워크 연결을 표시됩니다. 프로세스에서 만들어지는 의심스러운 연결을 찾아 볼 수 있는 기능을 제공합니다.</li><li>Arp.txt: 모든 인터페이스에 대한 현재 ARP(주소 확인 프로토콜) 캐시 테이블을 표시됩니다. ARP 캐시는 네트워크의 손상되거나 의심스러운 네트워크의 다른 호스트가 내부 공격을 실행하기 위해 사용될 수 있는 것으로 의심스러워할 수 있습니다.</il><li>DnsCache.txt: 로컬 Hosts 파일에서 미리 로드된 항목과 컴퓨터에서 확인된 이름 쿼리에 대해 최근에 획득한 리소스 레코드를 모두 포함하는 DNS 클라이언트 확인자 캐시의 내용을 표시됩니다. 이는 의심스러운 연결을 식별하는 데 도움이 될 수 있습니다.</li><li>IpConfig.txt: 모든 어댑터에 대한 전체 TCP/IP 구성을 표시됩니다. 어댑터는 설치된 네트워크 어댑터와 같은 물리적 인터페이스나 전화 접속 연결과 같은 논리적 인터페이스를 표현할 수 있습니다.</li><li>FirewallExecutionLog.txt 및 pfirewall.log</li></ul><p><div class="alert"><b>참고:</b> pfirewall.log 파일은 %windir%\system32\logfiles\firewall\pfirewall.log에 있어야 조사 패키지에 포함됩니다. 방화벽 로그 파일을 만드는 데 대한 자세한 내용은 [Configure the Windows Defender Firewall with Advanced Security Log을 참조하십시오.](/windows/security/threat-protection/windows-firewall/configure-the-windows-firewall-log)<div>|
 |프리포치 파일|Windows 프리포치 파일은 응용 프로그램 시작 프로세스의 속도를 향상하도록 디자인됩니다. 이 파일을 사용하여 최근에 시스템에서 사용된 모든 파일을 추적하고 삭제된 응용 프로그램에 대한 추적을 찾을 수 있지만 프리포치 파일 목록에서 계속 찾을 수 있습니다. <ul><li>프리피치 폴더: 의 프리포치 파일의 복사본을 `%SystemRoot%\Prefetch` 포함 참고: 프리포치 파일을 보기 위해 프리포치 파일 뷰어를 다운로드하는 것이 좋습니다.</li><li>PrefetchFilesList.txt: 프리피치 폴더에 대한 복사 오류가 발생했다는 기록을 추적하는 데 사용할 수 있는 복사된 모든 파일 목록이 포함되어 있습니다.</li></ul>|
 |프로세스|실행 중인 .CSV 나열하는 파일과 디바이스에서 실행 중인 현재 프로세스를 식별하는 기능을 제공합니다. 이는 의심스러운 프로세스 및 상태를 식별할 때 유용할 수 있습니다.|
 |예약된 작업|예약된 .CSV 목록이 들어 있습니다. 이 파일은 선택한 장치에서 자동으로 수행되는 루틴을 식별하여 자동으로 실행으로 설정된 의심스러운 코드를 확인하는 데 사용할 수 있습니다.|
@@ -134,7 +133,7 @@ ms.locfileid: "60386233"
 조사 또는 응답 프로세스의 일부로 원격으로 바이러스 백신 검색을 시작하여 손상된 장치에 있을 수 있는 맬웨어를 식별하고 수정하는 데 도움을 줄 수 있습니다.
 
 >[!IMPORTANT]
->- 이 작업은 Windows 10 Server 2019, Windows, Windows Server 2016 및 R2 버전 1709 이상에 있는 Windows Server 2012 사용할 수 있습니다.
+>- 이 작업은 현재 macOS 및 Linux에서 지원되지 않습니다. 라이브 응답을 사용하여 작업을 실행합니다. 라이브 응답에 대한 자세한 내용은 라이브 응답을 사용하여 디바이스에서 [엔터티 조사를 참조하세요.](live-response.md)
 >- A Microsoft Defender 바이러스 백신(Microsoft Defender AV) 검사는 Microsoft Defender AV가 활성 바이러스 백신 솔루션인지 여부에 따라 다른 바이러스 백신 솔루션과 함께 실행할 수 있습니다. Microsoft Defender AV는 수동 모드일 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
 
 바이러스 백신 검사 실행을 선택한 경우 실행할 검사 유형(빠른 또는 전체)을 선택하고 스캔을 확인하기 전에 설명을 추가합니다.
@@ -182,6 +181,7 @@ ms.locfileid: "60386233"
 공격의 심각도 및 장치의 민감도에 따라 네트워크에서 장치를 격리할 수 있습니다. 이 작업은 공격자가 손상된 장치를 제어하고 데이터 유출 및 측면 이동과 같은 추가 작업을 수행하지 못하게 방지하는 데 도움이 될 수 있습니다.
 
 >[!IMPORTANT]
+>- 이 작업은 현재 macOS 및 Linux에서 지원되지 않습니다. 라이브 응답을 사용하여 작업을 실행합니다. 라이브 응답에 대한 자세한 내용은 라이브 응답을 사용하여 디바이스에서 [엔터티 조사를 참조하세요.](live-response.md)
 >- Windows 10, 버전 1703, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2 및 Windows Server 2022의 장치에서 전체 Windows 사용할 수 있습니다.
 >- 선택적 고리는 버전 1709 이상에서 Windows 10 디바이스에 사용할 수 있습니다.
 >- 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.

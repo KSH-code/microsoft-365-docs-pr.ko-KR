@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ac6031e793d36bd51c84b2cd94517f81ab4e649
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: aeb78768db5426c249ab71f01a4e4d5d1fc154e0
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156273"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552611"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점에 대한 Microsoft Defender 기본 설정 설정
 
@@ -230,7 +230,7 @@ ms.locfileid: "60156273"
 
 ****
 
-|제외|정의|예|
+|제외|정의|예제|
 |---|---|---|
 |파일 확장명|디바이스의 아무 곳이나 확장명을 사용하여 모든 파일|`.test`|
 |파일|전체 경로로 식별된 특정 파일|`/var/log/test.log` <p> `/var/log/*.log` <p> `/var/log/install.?.log`|
@@ -797,7 +797,7 @@ macOS에서 끝점용 Microsoft Defender의 끝점 EDR(검색 및 응답) 구성
         <key>scanArchives</key>
         <true/>
         <key>maximumOnDemandScanThreads</key>
-        <integer>1</integer>
+        <integer>2</integer>
         <key>exclusions</key>
         <array>
             <dict>

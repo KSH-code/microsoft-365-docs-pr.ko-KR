@@ -2,8 +2,6 @@
 title: 엔드포인트용 Microsoft Defender의 위협 방지 보고서
 description: 위협 방지 보고서를 사용하여 경고 감지, 범주 및 심각도 추적
 keywords: 경고 검색, 원본, 범주별 경고, 경고 심각도, 경고 분류, 결정
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4413c536eb5ee1b748996c21891a9801c6488fc2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: cb9a45313c099ba30537bde061ef0f2a90012e9b
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159345"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553631"
 ---
 # <a name="threat-protection-report-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 위협 방지 보고서
 

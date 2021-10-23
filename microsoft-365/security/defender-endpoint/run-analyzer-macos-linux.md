@@ -2,8 +2,6 @@
 title: macOS 또는 Linux에서 클라이언트 분석기 실행
 description: macOS 또는 Linux에서 끝점 클라이언트 분석기용 Microsoft Defender를 실행하는 방법에 대해 자세히 알아보기
 keywords: 클라이언트 분석기, 센서 문제 해결, 분석기, mdeanalyzer, macos, linux, mdeanalyzer
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 5be8fcb6928588fdc0195bcaffb7a8797fc2bfd9
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 9207d4aebf3fa729fdf879a52a31103349fac8f8
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364654"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554231"
 ---
 # <a name="run-the-client-analyzer-on-macos-and-linux"></a>macOS 및 Linux에서 클라이언트 분석기 실행
 

@@ -2,8 +2,6 @@
 title: Microsoft Defender에서 끝점 서비스 상태 확인
 description: Microsoft Defender에서 끝점 서비스 상태 확인, 서비스에 문제가 발생하는지 확인하고 해결된 이전 문제를 검토합니다.
 keywords: 대시보드, 서비스, 문제, 서비스 상태, 현재 상태, 상태 기록, 영향 요약, 예비 근본 원인, 해결, 해결 시간, 예상 해결 시간
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7be50f2a0e83b5a69bb0529bf2ba227d0bb2d81d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 728d152d8c755464669d59e11746566472acd737
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206784"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553871"
 ---
 # <a name="check-the-microsoft-defender-for-endpoint-service-health"></a>Microsoft Defender에서 끝점 서비스 상태 확인
 

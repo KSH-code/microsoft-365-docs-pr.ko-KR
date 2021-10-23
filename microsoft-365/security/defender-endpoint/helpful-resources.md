@@ -2,8 +2,6 @@
 title: 엔드포인트 리소스에 대한 유용한 Microsoft Defender
 description: 블로그 링크 및 끝점용 Microsoft Defender와 관련된 기타 리소스와 같은 유용한 리소스에 액세스
 keywords: Microsoft Defender 보안 센터, 제품 간략한, 간략한 기능, 라이선싱
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3eea8d2f0a33dfaa49b4020285d9a7362a2e253c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6bae723100c0b465265c51e18bc60855ef41e6c2
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213664"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554255"
 ---
 # <a name="helpful-microsoft-defender-for-endpoint-resources"></a>엔드포인트 리소스에 대한 유용한 Microsoft Defender
 

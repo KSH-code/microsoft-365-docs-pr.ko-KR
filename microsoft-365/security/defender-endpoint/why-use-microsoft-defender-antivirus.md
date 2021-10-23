@@ -2,7 +2,6 @@
 title: 끝점용 Microsoft Defender와 함께 Microsoft Defender 바이러스 백신 사용하는 이유
 description: 최상의 결과를 얻은 Microsoft Defender 바이러스 백신 Microsoft 제품과 함께 사용할 수 있습니다.
 keywords: windows defender, 바이러스 백신, 타사 av
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 4a4fb5a54769522d86b7aa4b25aec4e1b4bf6979
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 76e7c0bc2057b44a46ecefca4ffa73ac8a55b33a
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212284"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555227"
 ---
 # <a name="better-together-microsoft-defender-antivirus-and-microsoft-defender-for-endpoint"></a>함께 활용: Microsoft Defender 바이러스 백신 및 Microsoft Defender for Endpoint
 
@@ -54,6 +53,6 @@ Microsoft Defender for Endpoint에서 Microsoft가 아닌 바이러스 백신 �
 
 ## <a name="learn-more"></a>자세한 정보
 
-[엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
+[엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint) 
 
-[위협 및 취약성 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+[위협 & 취약성 관리](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)

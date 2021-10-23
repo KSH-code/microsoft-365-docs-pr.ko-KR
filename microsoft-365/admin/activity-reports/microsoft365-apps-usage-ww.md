@@ -18,22 +18,18 @@ search.appverid:
 - MOE150
 - GEA150
 description: 보고서의 Microsoft 365 앱 보고서 대시보드를 사용하여 Microsoft 365 보고서를 Microsoft 365 관리 센터.
-ms.openlocfilehash: 7c93394233eea83eeb87bf68a508639dc3aee9a6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 21169f47d6066e60c33596aaf21f229dde7dc82e
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157389"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553091"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 365 앱 사용 현황
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
 
  예를 들어 앱 전반의 활동과 플랫폼에서 앱 사용 방법을 보고 Microsoft 365 앱 앱을 사용하기 위해 라이선스가 부여된 각 사용자의 활동을 이해할 수 있습니다.
-
-
- > [!NOTE]
- > 전역 관리자, 전역 읽기 권한자 또는 Microsoft 365 보고서 읽기 권한자 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자 되어야 합니다. 공유 컴퓨터 활성화는 이 보고서에 포함되지 않습니다.
 
 ## <a name="how-to-get-to-the-microsoft-365-apps-usage-report"></a>사용 현황 보고서에 Microsoft 365 앱 방법
 
@@ -49,7 +45,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 |항목|설명|
  |:-----|:-----|
- |1. <br/> |사용 **Microsoft 365 앱** 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 표(7)에 현재 날짜로부터 최대 28일간의 데이터가 표시됩니다(보고서가 생성된 날짜가 아 아지 않습니다). <br/> |
+ |1. <br/> |사용 **Microsoft 365 앱** 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다. <br/> |
  |2. <br/> |일반적으로 각 보고서의 데이터는 최대 지난 2일까지 처리됩니다. 6일마다 데이터 품질을 보장하기 위해 부 업데이트로 보고서를 새로 고칠 것입니다. <br/> |
  |3. <br/> |사용자 **보기에는** 각 앱의 활성 사용자 수(Outlook, Word, Excel, PowerPoint, OneNote 및 앱의 Teams. "활성 사용자"는 이러한 앱 내에서 의도적인 작업을 수행하는 사용자입니다. <br/> |
  |4. <br/> |플랫폼 **보기는** 각 플랫폼(앱, Mac, 웹 및 모바일)에 대한 Windows 활성 사용자의 추세를 보여줍니다. <br/> |

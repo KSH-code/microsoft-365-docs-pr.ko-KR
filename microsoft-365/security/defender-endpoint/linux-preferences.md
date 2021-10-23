@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 704c9c11ee12d9e08d5ede73440f5fde7de3d51b
-ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
+ms.openlocfilehash: 72f8b5e32f02ccef028e6d1bccb7bec942ce5d48
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268717"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556331"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 기본 설정 설정
 
@@ -521,7 +521,6 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
       "scanArchives":true,
       "maximumOnDemandScanThreads":2,
       "passiveMode":false,
-      "scanAfterDefinitionUpdate":false,
       "exclusionsMergePolicy":"merge",
       "exclusions":[
          {

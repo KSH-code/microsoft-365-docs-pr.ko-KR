@@ -2,8 +2,6 @@
 title: 끝점용 Microsoft Defender 클라이언트 분석기 다운로드
 description: Microsoft Defender for Endpoint Client Analyzer를 Windows, macOS 또는 Linux에서 다운로드하는 방법을 배워야 합니다.
 keywords: 다운로드, 클라이언트 분석기, 센서 문제 해결, 분석기, mdeanalyzer
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c3a115cc972fa6eeb7d30395f11873c4eb409a09
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 5ef1a35516858128c8baf4f119dc3f421592daf2
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59222773"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555815"
 ---
 # <a name="download-the-microsoft-defender-for-endpoint-client-analyzer"></a>끝점용 Microsoft Defender 클라이언트 분석기 다운로드
 

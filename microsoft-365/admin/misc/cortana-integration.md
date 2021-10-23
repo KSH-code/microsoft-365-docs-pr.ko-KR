@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Cortana Microsoft 365 환경을 Office 365 수 있습니다.
-ms.openlocfilehash: ea1fc421a099c7fc446dd85c871ad9e508fb3a40
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ddf2eaffff528051e3d7268bfb92618d614439fc
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60188856"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553823"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana Microsoft 365
 
@@ -83,7 +83,7 @@ Windows 10 버전 2004부터 Cortana Windows 미리 설치한 UWP(유니버설 W
 
 [자세한 내용은 Cortana 자세한 Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview)
 
-### <a name="cortana-voice-assistance-in-teams"></a>Cortana 음성 지원 Teams
+### <a name="cortana-voice-assistance-in-teams-mobile-and-teams-display"></a>Cortana 및 모바일 Teams 음성 Teams 지원
 
 > [!NOTE]
 > Cortana 음성 지원은 Microsoft Teams 및 Android용 모바일 앱 및 Microsoft Teams, 영국, 캐나다, 인도 및 오스트레일리아의 사용자를 위해 영어로 표시됩니다. [](/microsoftteams/devices/teams-displays)  Microsoft Teams 룸 Windows 미국 사용자만 지원됩니다. Cortana 음성 지원은 현재 GCC, GCC, DoD, EDU 테넌트에 사용할 수 없습니다. 추가 언어 및 지역으로의 확장은 향후 릴리스의 일부로 진행되고 관리자 고객에게는 메시지 센터 및 Microsoft 365 [로드맵을 통해 알림을 하게 됩니다.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=65346)
@@ -99,9 +99,41 @@ Cortana 음성 지원은 기본적으로 테넌트에 대해 사용하도록 설
 개별 사용자는 Cortana 단추를 클릭하여 Teams 모바일 앱에서 음성 지원을 사용해 볼 수 있습니다. 또한 Cortana &#8220;Cortana.&#8221; 호출에 응답하는지 여부를 제어하기만 Microsoft Teams 디바이스에서 Cortana 음성 지원을 사용해 볼 수 있습니다. 
 
 1. 모바일 Teams 열기
-2. 이동하여 설정
-3. 선택 Cortana
-4. 음성 활성화 토글 전환
+2. 이동하여 **설정**
+3. 선택 **Cortana**
+4. 음성 활성화 **토글** 전환
+
+[자세한 내용은 2013에서 음성 지원을 Teams](https://support.microsoft.com/office/274bb2f0-d962-4182-b45d-307435cea256)
+
+### <a name="cortana-voice-assistance-in-teams-meeting-room"></a>Cortana 음성 Teams 미팅룸
+
+Cortana 회의실의 Teams 음성 지원은 원터치 조인, 물리적 화이트보드를 지능적으로 모임에 공유하는 콘텐츠 카메라, 개인 장치에서 회의실을 Teams 모임으로 원활하게 전송하는 등 고유한 회의실 내 기능을 제공하여 개인 디바이스에서 Teams 수행될 수 있는 기능을 능가합니다. 사용자는 마이크를 눌러 통화를 시작한 다음 "모임 시작"Cortana 눌러 PTT(푸시 토크)를 사용할 수 있습니다. KWS(Keyword Spotting)를 Cortana 사용자가 "Cortana"라고 말하면 수신을 시작할 수 있습니다. 
+
+#### <a name="admin-control"></a>관리자 컨트롤
+
+Cortana 음성 Teams 지원은 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수 약속을 Office 365 서비스를 사용하여 전달됩니다. Cortana 엔터프라이즈 서비스의 데이터 처리에 대한 자세한 내용은 Cortana 참조 Microsoft 365하세요. Cortana 테넌트의 Teams 회의실에서 기본적으로 사용하도록 설정됩니다. IT 관리자는 사용자 계정의 사용자에 대한 음성 Teams 미팅룸 옵트아웃할 수 Microsoft 365 관리 센터. 
+ 
+회의실의 모든 Cortana 기능을 Teams 방법:
+1.  로그인한 Microsoft 365 관리 센터 [](https://admin.microsoft.com/adminportal/home?ref=Domains)
+2.  장치 **선택**
+3.  선택 **Teams 룸**
+4.  변경할 하나 또는 여러 장치 선택
+5.  편집 **설정**
+6.  **끄기 Cortana** 끄기에서 기존 값 **바꾸기 선택**
+7.  적용 선택
+
+회의실에서 음성 활성화를 옵트아웃하는 Teams 방법:
+1.  로그인한 Microsoft 365 관리 센터 [](https://admin.microsoft.com/adminportal/home?ref=Domains)
+2.  장치 **선택**
+3.  선택 **Teams 룸**
+4.  변경할 하나 또는 여러 장치 선택
+5.  편집 **설정**
+6.  절전 모드 해제 **단어 검색 상자의 확인을 해제합니다.**
+7.  적용 **선택**
+
+#### <a name="configure-cortana-remotely-using-an-xml-configuration-file"></a>XML Cortana 사용하여 원격으로 구성
+XML 구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정을 관리하는 방법에 대한 자세한 내용은 원격으로 Microsoft Teams 룸 [설정을 참조하세요.](/microsoftteams/rooms/xml-config-file)
+
 
 [자세한 내용은 Cortana 음성 지원을 Teams](/microsoftteams/cortana-in-teams)
 
@@ -179,12 +211,13 @@ Cortana 수행된 것으로 표시하거나 포커스 시간을 예약하여 수
 
 2. 조직의 사용자 대신 Microsoft에서 호스팅하는 데이터에 액세스하여 Cortana Windows 10(버전 **1909** 이전 버전) 및 iOS 및 Android의 Cortana 앱 허용 확인란의 선택을 해제하여 Cortana 연결된 환경을 사용하지 않도록 설정하십시오.
 
-3. **변경 내용 저장** 을 선택합니다.
+3. **변경 사항 저장** 을 선택합니다.
 
 Microsoft 서비스 계약 및 [Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=2109174) 개인정보처리방침이 제어하는 서비스의 경우 [Microsoft는](https://privacy.microsoft.com/privacystatement)데이터 컨트롤러입니다. 데이터 컨트롤러인 Microsoft는 Microsoft 개인 정보 취급 방침에 따라 데이터를 사용하여 제품 및 서비스를 [개선합니다.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="related-content"></a>관련 콘텐츠
-
+ 
 [Cortana 음성](/microsoftteams/cortana-in-teams) Teams(문서)\
 [웹 Cortana 구성](/windows/configuration/cortana-at-work/cortana-at-work-overview) Windows 10(문서)\
 [내 전자 메일 재생을 사용하여 어떻게 할 Cortana?](https://support.microsoft.com/help/4558256)
+

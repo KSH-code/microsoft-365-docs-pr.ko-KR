@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 중앙 집중식 추가 기능을 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 학습합니다.
-ms.openlocfilehash: 942cd3b942cc8aa3b51b1eddf40ad238341ea036
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d619438a8fdf2eb0da2a5b2f55b43bb064d3cea4
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60168197"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552743"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 
@@ -42,7 +42,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 
 추가 기능의 상태는 **On** 또는 **Off 상태일 수** 있습니다.
   
-| 시/도 | 상태가 적용되는 경우 | 영향 |
+| 상태 | 상태가 적용되는 경우 | 영향 |
 |:-----|:-----|:-----|
 |**활성**  <br/> |관리자가 추가 기능을 업로드하고 사용자 또는 그룹에 할당했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.  <br/> |
 |**해제됨**  <br/> |관리자가 추가 기능을 해제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> 추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.  <br/> |
@@ -54,26 +54,23 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 
 배포된 추가 기능을 삭제할 수도 있습니다.
 
-1. 관리 센터에서 설정 서비스 &  >  **페이지로 이동합니다.**
+1. 관리 센터에서 통합 앱 **설정**  >  **이동합니다.**
 
-    > [!NOTE]
-    > 통합 앱을 통해 관리 센터에서 추가 기능을 [배포할 수도 있습니다.](test-and-deploy-microsoft-365-apps.md) 통합 앱은 전역 관리자 및 관리자에게 Exchange 표시됩니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
+2. 배포된 추가 기능을 선택한 다음 구성 **탭을** 선택합니다.
 
-2. 배포된 추가 기능을 선택합니다.
+3. 구성 **창에서** 고급 추가 설정  >  **로 이동합니다.**
 
-3. 추가 기능 **삭제 를 클릭합니다.** 오른쪽 아래 모서리에서 추가 기능 단추를 제거합니다.
+4. 목록에서 추가 기능을 다시 선택합니다.
 
-4. 선택한 항목을 확인하고 **추가 기능 제거** 를 선택합니다.
+5. 추가 **기능 제거 를 선택 합니다.** 오른쪽 아래 모서리에 있는 추가 기능 버튼을 제거합니다.
+
+6. 선택의 유효성을 검사하고 제거 를 **선택합니다.**
 
 ## <a name="edit-add-in-access"></a>추가 기능 액세스 편집
 
 배포 후 관리자는 추가 기능의 사용자 액세스를 관리할 수도 있습니다.
 
-1. 관리 센터에서 설정 서비스 &  >  **페이지로 이동합니다.**
-
-    > [!NOTE]
-    > 통합 앱을 통해 관리 센터에서 추가 기능을 [배포할 수도 있습니다.](test-and-deploy-microsoft-365-apps.md) 통합 앱은 전역 관리자 및 관리자에게 Exchange 표시됩니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
-
+1. 관리 센터에서 통합 앱 **설정**  >  **이동합니다.**
 
 2. 배포된 추가 기능을 선택합니다.
 
@@ -90,15 +87,11 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
   
 **추가 기능 취득을 끄기 위해**
   
-1. 관리 센터에서 **설정** \> [서비스 &amp; 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=2053743) 페이지로 이동합니다.
+1. 관리 센터에서 설정  \> [설정 페이지로](https://go.microsoft.com/fwlink/p/?linkid=2053743) 이동합니다.
 
-    > [!NOTE]
-    > 통합 앱을 통해 관리 센터에서 추가 기능을 [배포할 수도 있습니다.](test-and-deploy-microsoft-365-apps.md) 통합 앱은 전역 관리자 및 관리자에게 Exchange 표시됩니다. 위의 단계가 없는 경우 통합 앱으로 이동하여 중앙 **집중식 배포 섹션으로 설정**  >  **합니다.** On the top of the **Integrated apps** page, choose **Add-ins**.
-
+2. **사용자 소유 애플리케이션 및 서비스** 를 선택하세요.
     
-3. **사용자 소유 애플리케이션 및 서비스** 를 선택하세요.
-    
-4. 사용자가 Office Store에 액세스할 수 있도록 하려면 이 옵션을 선택 취소합니다.
+3. 사용자가 Office Store에 액세스할 수 있도록 하려면 이 옵션을 선택 취소합니다.
 
     이렇게 하면 모든 사용자가 스토어에서 다음 추가 기능을 다운로드할 수 없습니다.
       
@@ -106,7 +99,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
         
       - Windows
       - Mac
-      - Office
+      - 사무실
         
         
     - **AppSource** 내에서 시작하여 취득
@@ -165,8 +158,5 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[관리 센터에서](./manage-deployment-of-add-ins.md) 추가 기능 배포(문서)\
-추가 기능 만들기 및 구축에 대해 자세히 Office 추가 [기능](/office/dev/add-ins/overview/office-add-ins) 만들기(문서)\
-[중앙 집중식 배포 PowerShell cmdlet을](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) 사용하여 추가 기능 관리(문서)\
-[문제 해결: 추가](/office365/troubleshoot/access-management/user-not-seeing-add-ins) 기능을 볼 수 없는 사용자(문서)\
-[미성년자](./minors-and-acquiring-addins-from-the-store.md) 및 사용자로부터 추가 Microsoft Store(문서)
+[미성년자 및 사용자로부터 추가 Microsoft Store](./minors-and-acquiring-addins-from-the-store.md)
+

@@ -19,19 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 07f67fc4-c0a4-4d3f-ad20-f40c7f6db524
 description: 조직에서 사용자 Microsoft Teams 보고서를 얻고 조직에서 Teams 활동을 파악하는 방법을 학습합니다.
-ms.openlocfilehash: d1fe93248db16928d84ad8857130e3a8107a2d7b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d431a96834a7e7ad69d637cf4009296ca2493211
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157425"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553103"
 ---
 # <a name="microsoft-365-admin-center-reports---microsoft-teams-user-activity"></a>Microsoft 365 관리 센터 보고서 - Microsoft Teams 활동
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft Teams 사용자 활동 보고서에서는 조직의 Microsoft Teams 활동에 대한 정보를 확인할 수 있습니다.
-  
-> [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
  
 ## <a name="how-to-get-to-the-microsoft-teams-user-activity-report"></a>Microsoft Teams 사용자 활동 보고서에 액세스하는 방법
 
@@ -46,7 +43,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
   
 |항목|설명|
 |:-----|:-----|
-|1.  <br/> |**Microsoft Teams 사용자 활동** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 표(7)에 현재 날짜로부터 최대 28일간의 데이터가 표시됩니다(보고서가 생성된 날짜가 아 아지 않습니다).  <br/> |
+|1.  <br/> |**Microsoft Teams 사용자 활동** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다.  <br/> |
 |2.  <br/> |각 보고서의 데이터는 일반적으로 최근 24시간에서 48시간까지 처리됩니다.  <br/> |
 |3.  <br/> |데이터 품질을 보장하기 위해 지난 5일 동안 매일 데이터 유효성 검사를 수행하고 감지된 간격을 채울 것입니다. 프로세스 중에 기록 데이터에서 차이가 발견될 수 있습니다.  <br/> |
 |4.  <br/> |**활동** 보기에는 활동 유형별 Microsoft Teams 활동 수가 표시됩니다. 활동 유형은 팀 채팅 메시지 수, 비공개 채팅 메시지 수, 통화 수 또는 모임 수입니다.  <br/> |

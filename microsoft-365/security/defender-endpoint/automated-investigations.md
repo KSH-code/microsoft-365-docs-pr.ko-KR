@@ -2,8 +2,6 @@
 title: 자동화된 조사를 사용하여 위협 조사 및 수정
 description: 끝점용 Microsoft Defender의 자동화된 조사 흐름을 이해합니다.
 keywords: 자동화, 조사, 검색, 끝점용 Microsoft Defender
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: deploy
@@ -21,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: 7b1ce14e1ec01041ea9b3a298f4f794978054e5f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d9c212cf1c566050b21760ea9434eaba772f7fac
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193054"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556091"
 ---
 # <a name="overview-of-automated-investigations"></a>자동 조사 개요
 
@@ -95,6 +93,7 @@ ms.locfileid: "60193054"
 - Windows 10 버전 1709(OS 빌드 [16299.1085(KB4493441)](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)이상
 - Windows 10 버전 1803(OS 빌드 [17134.704(KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)이상
 - Windows 10 버전 [1803](/windows/release-information/status-windows-10-1809-and-windows-server-2019) 이상
+- Windows 11
 
 ## <a name="next-steps"></a>다음 단계
 

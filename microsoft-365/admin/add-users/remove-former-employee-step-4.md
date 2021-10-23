@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
-ms.openlocfilehash: a87db595ae3191a294e5287d13a68396f64a2426
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 15ad3de7b7493e2c1a6eba99b40c1fd0a9a03c19
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60161681"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552925"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 
@@ -47,7 +47,7 @@ ms.locfileid: "60161681"
 
 2. 사용자를 선택합니다.
 
-3. 오른쪽 창에서 를 **OneDrive.** 파일에 **액세스하려면 아래에서** **파일에 대한 링크 만들기 를 선택합니다.**
+3. 사용자 속성 페이지에서 를 **OneDrive.** 파일에 **액세스하려면 아래에서** **파일에 대한 링크 만들기 를 선택합니다.**
 
 4. 파일 위치를 열 링크를 선택합니다. 파일을 컴퓨터에 다운로드하거나 이동  또는 복사를 선택하여 파일을 자신의 컴퓨터 또는 공유 라이브러리로 OneDrive 복사합니다. 
 

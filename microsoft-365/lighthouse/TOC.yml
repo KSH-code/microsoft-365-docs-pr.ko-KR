@@ -26,6 +26,10 @@
   items:
     - name: 사용자 페이지 개요
       href: m365-lighthouse-users-page-overview.md
+    - name: 다단계 인증 관리
+      href: m365-lighthouse-manage-mfa.md
+    - name: 셀프 서비스 암호 재설정 관리
+      href: m365-lighthouse-manage-sspr.md
 - name: 장치 관리
   items:
     - name: 장치 준수 페이지 개요
@@ -36,9 +40,9 @@
   items:
     - name: 위협 관리 페이지 개요
       href: m365-lighthouse-threat-management-page-overview.md
-- name: 도움말 및 지원하기
+- name: 도움말 및 지원 받기
   items:
-    - name: 도움말 및 지원하기
+    - name: 도움말 및 지원 받기
       href: m365-lighthouse-get-help-and-support.md
     - name: FAQ(질문과 대답)
       href: m365-lighthouse-faq.yml

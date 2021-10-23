@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: 검색 권한 필터링을 사용하여 eDiscovery 관리자가 조직의 사서함 및 사이트의 하위 집합만 검색할 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 785fd1237cab66a898307724c5142a6baf4d6120
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 190ed836c30dbb08015c662f948d6b3dc9310c94
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60200428"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553379"
 ---
 # <a name="configure-permissions-filtering-for-ediscovery"></a>eDiscovery에 대한 사용 권한 필터링 구성
 
@@ -115,9 +115,17 @@ _Filters 매개_ 변수는 준수 보안 필터에 대한 검색 조건을 지�
 
 - **사서함 또는 OneDrive 필터링:** 이 유형의 필터는 할당된 사용자(Users 매개 OneDrive 지정)가  검색할 수 있는 사서함 및 계정 계정을 지정합니다. 이러한 유형의 필터는 사용자가 *검색할* 수 있는 콘텐츠 위치를 정의하기 때문에 콘텐츠 위치 필터라고 합니다. 이 유형의 필터에 대한 구문은  _mailboxPropertyName에 Mailbox_ MailboxPropertyName입니다._ 여기서 _MailboxPropertyName은_ 검색할 수 있는 사서함 및 OneDrive 계정의 범위를 지정하는 사서함 속성을 지정합니다. 예를 들어 사서함 필터를 사용하면 이 필터가 할당된 사용자가 `"Mailbox_CustomAttribute10 -eq 'OttawaUsers'"` CustomAttribute10 속성에서 "OttawaUsers" OneDrive 사서함 및 사서함 계정만 검색할 수 있습니다.
 
-  지원되는 필터링 가능한 받는 사람 속성은  _MailboxPropertyName 속성에 사용할 수_ 있습니다. 검색 가능한 속성 목록은 [-RecipientFilter](/powershell/exchange/recipientfilter-properties)매개 변수의 필터링 가능한 속성을 참조하세요.
+  지원되는 필터링 가능한 받는 사람 속성은 사서함 또는 사서함 필터의 _MailboxPropertyName_ 속성에 사용할 OneDrive 있습니다. 다음 표에는 사서함 또는 사서함 필터를 만드는 데 사용되는 일반적으로 사용되는 네 가지 받는 사람 OneDrive 나열되어 있습니다. 이 표에는 필터에서 속성을 사용하는 예제도 포함되어 있습니다.
 
-- **사서함 콘텐츠 필터링:** 이 유형의 필터는 검색할 수 있는 콘텐츠에 적용됩니다. 이 유형의 필터는 할당된 사용자가 *검색할* 수 있는 사서함 콘텐츠를 지정하기 때문에 콘텐츠 필터라고 합니다. 이 유형의 필터에 대한 구문은 **MailboxContent_** _SearchablePropertyName: value입니다._ 여기서  _SearchablePropertyName은_ 검색에서 지정할 수 있는 KQL(Keyword Query Language) 속성을 지정합니다. 예를 들어 사서함 콘텐츠 필터를 사용하면 이 필터가 할당된 사용자가 해당 도메인의 받는 사람에게 보낸 메시지만 contoso.com  `MailboxContent_recipients:contoso.com` 있습니다. 검색 가능한 메시지 속성 목록은 [eDiscovery에 대한 키워드 쿼리](keyword-queries-and-search-conditions.md#searchable-email-properties)및 검색 조건을 참조하세요. 
+  |속성 이름  |예제  |
+  |---------|---------|
+  |별칭    |`"Mailbox_Alias -like 'v-'"`         |
+  |Company  |`"Mailbox_Company -eq 'Contoso'"`        |
+  |CountryOrRegion |`"Mailbox_CountryOrRegion -eq 'United States'"`         |
+  |부서 |`"Mailbox_Department -eq 'Finance'"`        |
+  |||
+
+- **사서함 콘텐츠 필터링:** 이 유형의 필터는 검색할 수 있는 콘텐츠에 적용됩니다. 이 유형의 필터는 할당된 사용자가 *검색할* 수 있는 사서함 콘텐츠를 지정하기 때문에 콘텐츠 필터라고 합니다. 이 유형의 필터에 대한 구문은 **MailboxContent_** _SearchablePropertyName: value입니다._ 여기서  _SearchablePropertyName은_ 검색에서 지정할 수 있는 KQL(Keyword Query Language) 속성을 지정합니다. 예를 들어 사서함 콘텐츠 필터를 사용하면 이 필터가 할당된 사용자가 해당 도메인의 받는 사람에게 보낸 메시지만 contoso.com  `MailboxContent_recipients:contoso.com` 있습니다. 검색 가능한 메시지 속성 목록은 [eDiscovery에 대한 키워드 쿼리](keyword-queries-and-search-conditions.md#searchable-email-properties)및 검색 조건을 참조하세요.
 
   > [!IMPORTANT]
   > 단일 검색 필터에는 사서함 필터와 사서함 콘텐츠 필터를 포함할 수 없습니다. 이러한 필터를 단일 필터에 결합하기 위해 필터 목록 을 [사용해야 합니다.](#using-a-filters-list-to-combine-filter-types)  그러나 필터에는 같은 형식의 보다 복잡한 쿼리가 포함될 수 있습니다. 예를 들어 `"Mailbox_CustomAttribute10 -eq 'FTE' -and Mailbox_MemberOfGroup -eq '$($DG.DistinguishedName)'"`
@@ -170,6 +178,12 @@ Users 매개 변수를 사용하여 역할 Microsoft 365 규정 준수 센터 �
 ## <a name="examples-of-creating-search-permissions-filters"></a>검색 권한 필터 만들기의 예
 
 다음은 **New-ComplianceSecurityFilter** cmdlet을 사용하여 검색 권한 필터를 만드는 예입니다.
+
+이 예에서는 "US Discovery Managers" 역할 그룹의 구성원이 미국의 사서함 및 OneDrive 계정만 검색할 수 있습니다.
+  
+```powershell
+New-ComplianceSecurityFilter -FilterName USDiscoveryManagers  -Users "US Discovery Managers" -Filters "Mailbox_CountryOrRegion  -eq 'United States'"
+```
   
 이 예에서는 사용자가 캐나다의 사서함 및 annb@contoso.com 계정에만 검색 작업을 OneDrive 수 있습니다. 이 필터에는 ISO 3166-1의 3자리 캐나다 국가 코드가 포함되어 있습니다.
 
@@ -181,12 +195,6 @@ New-ComplianceSecurityFilter -FilterName CountryFilter  -Users annb@contoso.com 
 
 ```powershell
 New-ComplianceSecurityFilter -FilterName MarketingFilter  -Users donh,suzanf -Filters "Mailbox_CustomAttribute1  -eq 'Marketing'"
-```
-
-이 예에서는 "US Discovery Managers" 역할 그룹의 구성원이 미국의 사서함 및 OneDrive 계정만 검색할 수 있습니다. 이 필터에는 ISO 3166-1의 3자리 미국 국가 코드가 포함되어 있습니다.
-  
-```powershell
-New-ComplianceSecurityFilter -FilterName USDiscoveryManagers  -Users "US Discovery Managers" -Filters "Mailbox_CountryCode  -eq '840'"
 ```
 
 이 예에서는 "Fourth Coffee eDiscovery Managers" 역할 그룹의 구성원이 Department 사서함 속성에 대해 'FourthCoffee' OneDrive 사서함 및 사서함 계정만 검색할 수 있습니다. 또한 이 필터를 사용하면 역할 그룹 구성원이 Fourth Coffee SharePoint 검색할 수 있습니다.

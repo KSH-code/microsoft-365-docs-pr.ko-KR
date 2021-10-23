@@ -2,8 +2,6 @@
 title: Windows에서 클라이언트 분석기 실행
 description: Microsoft Defender for Endpoint Client Analyzer를 2013에서 Windows.
 keywords: 클라이언트 분석기, 센서 문제 해결, 분석기, mdeanalyzer, windows
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a0d715bd9c51f73eb58e06d68892ba955bdb7d1d
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 29b414ac9dcab9a9c32b5ba09d45d5d9b9ce67de
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59400813"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554687"
 ---
 # <a name="run-the-client-analyzer-on-windows"></a>Windows에서 클라이언트 분석기 실행
 
@@ -56,7 +54,7 @@ ms.locfileid: "59400813"
 위 외에도 라이브 응답을 사용하여 분석기 지원 로그를 [수집하는 옵션도 있습니다.](troubleshoot-collect-support-log.md)
 
 > [!NOTE]
-> windows 10, Windows Server 2019 이상 OS 버전에서 클라이언트 분석기 스크립트는 클라우드 서비스 URL에 대한 연결 테스트를 실행하기 위해 호출된 실행 파일로 `MDEClientAnalyzer.exe` 호출합니다.
+> Windows 10, Windows Server 2019 이상 OS 버전 또는 Windows 11 클라이언트 분석기 스크립트는 호출된 실행 파일을 호출하여 클라우드 서비스 URL에 대한 연결 테스트를 `MDEClientAnalyzer.exe` 실행합니다.
 >
 > Windows 8.1, Windows Server 2016 또는 이전 OS 버전에서 클라이언트 분석기 스크립트는 CnC(명령 및 제어) URL에 대한 연결 테스트를 실행하기 위해 호출된 실행 파일로 호출하고 사이버 데이터 채널 URL에 대한 Microsoft Monitoring Agent 연결 도구로 `MDEClientAnalyzerPreviousVersion.exe` `TestCloudConnection.exe` 호출합니다.
 

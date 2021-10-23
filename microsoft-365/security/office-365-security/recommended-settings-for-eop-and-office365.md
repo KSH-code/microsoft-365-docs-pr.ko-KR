@@ -19,12 +19,12 @@ ms.collection:
 description: 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 Office 365 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떻게 해야 하나요? 또한 2016년 8월에 Defender를 사용하는 경우 어떤 추가 Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ecb8094c73aedc4d737043f2682bbd1a1258acfa
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9a7942d07297dedb4c414d186898dda7384521c2
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157581"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556226"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정
 
@@ -40,9 +40,6 @@ ms.locfileid: "60157581"
 보안 관리자가 보안 설정을 사용자 지정할 수 있도록 지원하기는 하지만 EOP와 Microsoft Defender for  Office 365 권장되는 두 가지 보안 수준이 **있습니다.** 표준 및 엄격 . 각 고객의 환경과 요구는 서로 다르지만 이러한 필터링 수준은 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함으로 전달되지 않도록 하는 데 도움이 될 것으로 생각됩니다.
 
 사용자에게 표준 또는 엄격한 설정을 자동으로 적용하려면 EOP의 미리 설정 보안 정책 및 Microsoft [Defender for Office 365.](preset-security-policies.md)
-
-> [!NOTE]
-> 필터링이 제대로 작동하려면 사서함에서 정크 메일 규칙을 사용하도록 설정해야 합니다. 기본적으로 사용하도록 설정되어 있지만 필터링이 작동하지 않는지 확인해야 합니다. 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
 이 문서에서는 기본 설정과 사용자를 보호하는 데 도움이 되는 권장 표준 및 엄격한 설정에 대해 설명합니다. 표에는 Microsoft 365 Defender 및 PowerShell(Exchange Online 사서함이 없는 조직용 PowerShell 또는 Exchange Online Protection PowerShell용 독립 실행형 Exchange Online 설정이 포함되어 있습니다.
 
@@ -61,7 +58,7 @@ ms.locfileid: "60157581"
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**스팸 속성에 & 대량 전자 메일 임계값**|||||
 |**대량 전자 메일 임계값** <p> _BulkThreshold_|7 |6 |4 |자세한 내용은 [EOP의 BCL(대량 불만 수준)을 참조합니다.](bulk-complaint-level-values.md)|
@@ -98,7 +95,7 @@ ms.locfileid: "60157581"
 
 ****
 
-|보안 기능 이름|댓글|
+|보안 기능 이름|Comment|
 |---|---|
 |**원격 사이트에 대한** 이미지 링크(_IncreaseScoreWithImageLinks_)||
 |**URL의 숫자 IP 주소(** _IncreaseScoreWithNumericIps_)||
@@ -128,7 +125,7 @@ ms.locfileid: "60157581"
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**외부 메시지 제한 설정** <p> _RecipientLimitExternalPerHour_|0|500|400|기본값 0은 서비스 기본값을 사용하는 것입니다.|
 |**내부 메시지 제한 설정** <p> _RecipientLimitInternalPerHour_|0|1000|800|기본값 0은 서비스 기본값을 사용하는 것입니다.|
@@ -147,7 +144,7 @@ ms.locfileid: "60157581"
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**보호 설정**|||||
 |**공통 첨부 파일 필터 사용** <p> _EnableFileFilter_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|이 설정은 첨부 파일 콘텐츠에 관계없이 파일 형식에 따라 실행 파일이 포함된 메시지를 검지합니다.|
@@ -181,7 +178,7 @@ ms.locfileid: "60157581"
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**스푸핑 인텔리전스 사용** <p> _EnableSpoofIntelligence_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
@@ -218,7 +215,7 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 전자 메일 임계값** <p> _PhishThresholdLevel_|**1 - 표준** <p> `1`|**2 - 적극적** <p> `2`|**3 - 보다 적극적** <p> `3`||
 |
@@ -231,7 +228,7 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 사용하지
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**사용자가 보호할** 수 있도록 설정(가장된 사용자 보호) <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|선택되지 않음 <p> `$false` <p> 없음|선택됨 <p> `$true` <p> \<list of users\>|선택됨 <p> `$true` <p> \<list of users\>|주요 역할에 사용자(메시지 보낸 사람)를 추가하는 것이 좋습니다. 내부적으로 보호된 보낸 사람이 CEO, CFO 및 기타 고위 리더일 수 있습니다. 외부적으로 보호되는 보낸 사람에는 위원회 구성원이나 해당 이사진이 포함됩니다.|
@@ -260,7 +257,7 @@ EOP의 스팸 방지 정책 설정에서 사용할 수 있는 설정과 [동일�
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**피싱 임계값 & 보호**|||||
 |**스푸핑 인텔리전스 사용** <p> _EnableSpoofIntelligence_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
@@ -285,7 +282,7 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기** <p> _EnableATPForSPOTeamsODB_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**클라이언트에 금고 문서 Office 켜기** <p> _EnableSafeDocs_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 기능은 사용자용 Defender에 포함되어 있지 않은 라이선스(예: Microsoft 365 E5 또는 Microsoft 365 E5 Security)에서만 사용할 수 있으며 의미가 Office 365 있습니다. 자세한 내용은 금고 [문서의 Microsoft 365 E5.](safe-docs.md)|
@@ -305,7 +302,7 @@ PowerShell에서는 이러한 설정에 [New-SafeAttachmentPolicy](/powershell/m
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**금고 첨부 파일 알 수 없는 맬웨어 응답** <p> _사용_ 및 _작업_|**해제** <p> `-Enable $false` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|_Enable_ 매개 변수가 $false _Action_ 매개 변수의 값은 중요하지 않습니다.|
 |**Quarantine policy** (_QuarantineTag_)|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|새 금고 첨부 파일 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 첨부 파일(AdminOnlyAccessPolicy)에서 금고 메시지에 대한 기록 기능을 정의하는 데 사용됩니다. <p> 관리자는 사용자에 대해 더 많은 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
@@ -327,12 +324,12 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**다음 URL 차단** <p> _ExcludedUrls_|Blank <p> `$null`|Blank <p> `$null`|Blank <p> `$null`|이 설정에 대한 구체적인 권장은 없습니다. <p> 자세한 내용은 링크에 대한 "다음 URL [차단" 금고 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
-|**앱의 금고 링크 Office 365 사용** <p> _EnableSafeLinksForO365Clients_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|지원되는 금고 데스크톱 및 모바일(iOS 및 Android) 앱에서 Office 365 링크를 사용하세요. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
+|**앱의 금고 링크 Office 365 사용** <p> _EnableSafeLinksForO365Clients_|켜짐 <p> `$true`|켜짐 <p> `$true`|설정 <p> `$true`|지원되는 금고 데스크톱 및 모바일(iOS 및 Android) 앱에서 Office 365 링크를 사용하세요. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
 |**사용자가 앱의 보호된 링크를 클릭하는 Office 365 추적하지 않습니다.** <p> _TrackClicks_|켜짐 <p> `$false`|해제 <p> `$true`|해제 <p> `$true`|이 설정을 _끄면(TrackClicks를_ 로 설정) 지원되는 앱의 사용자 `$true` 클릭을 Office 365 추적합니다.|
-|**사용자가 앱의 원래 URL을 클릭할 Office 365 안 하세요.** <p> _AllowClickThrough_|설정 <p> `$false`|설정 <p> `$false`|설정 <p> `$false`|이 설정을 _켜면(AllowClickThrough를_ 로 설정) 지원되는 앱의 원래 `$false` URL을 클릭할 Office 365 없습니다.|
+|**사용자가 앱의 원래 URL을 클릭할 Office 365 안 하세요.** <p> _AllowClickThrough_|켜짐 <p> `$false`|켜짐 <p> `$false`|켜짐 <p> `$false`|이 설정을 _켜면(AllowClickThrough를_ 로 설정) 지원되는 앱의 원래 `$false` URL을 클릭할 Office 365 없습니다.|
 |
 
 #### <a name="safe-links-policy-settings"></a>금고 링크 정책 설정
@@ -348,11 +345,11 @@ PowerShell에서는 이러한 설정에 [New-SafeLinksPolicy](/powershell/module
 
 ****
 
-|보안 기능 이름|기본|Standard|Strict|댓글|
+|보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**보호 설정**|||||
-|**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|**해제** <p> `$false`|**설정** <p> `$true`|**켜짐** <p> `$true`||
-|**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|**해제** <p> `$false`|**켜짐** <p> `$true`|**설정** <p> `$true`||
+|**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|**해제** <p> `$false`|**설정** <p> `$true`|**설정** <p> `$true`||
+|**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|**해제** <p> `$false`|**설정** <p> `$true`|**켜짐** <p> `$true`||
 |**파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용** <p> _ScanUrls_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**메시지를 배달하기 전에 URL 검색이 완료될 때까지 기다렸다가** <p> _DeliverMessageAfterScan_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |**조직 금고 보낸 전자 메일 메시지에 링크 적용** <p> _EnableForInternalSenders_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||

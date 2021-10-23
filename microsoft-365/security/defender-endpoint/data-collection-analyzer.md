@@ -2,8 +2,6 @@
 title: Windows에서 고급 문제 해결을 위한 데이터 수집
 description: 클라이언트 분석기를 사용하여 복잡한 문제 해결 시나리오에 대한 데이터를 수집하는 방법을 설명합니다.
 keywords: analzyer, 데이터 수집, mdeclientanalyzer 문제 해결, 고급 문제 해결
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 7fa72bc6e96199fb7773e4df385e3527ac14938e
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 469e1cd227e83facb678c85bd123f4ea250cd08c
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59191019"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555911"
 ---
 # <a name="data-collection-for-advanced-troubleshooting-on-windows"></a>Windows에서 고급 문제 해결을 위한 데이터 수집
 
@@ -78,7 +76,7 @@ Microsoft 지원 전문가와 공동 작업할 때 클라이언트 분석기를 
 >
 > - RemoteMDEClientAnalyzer.cmd를 사용하는 경우 psexec로 호출하여 구성된 파일 공유에서 도구를 다운로드한 다음 파일을 통해 로컬로 PsExec.exe.
     CMD 스크립트는 '-r' 플래그를 사용하여 SYSTEM 컨텍스트 내에서 원격으로 실행되고 있으므로 사용자에게 메시지를 표시하지 않습니다.
-> - MDEClientAnalyzer.cmd와 동일한 플래그를 사용하여 데이터 수집에 대한 시간(분)을 지정하라는 메시지가 사용자에게 표시되지 않도록 할 수 있습니다. 예시:
+> - MDEClientAnalyzer.cmd와 동일한 플래그를 사용하여 데이터 수집에 대한 시간(분)을 지정하라는 메시지가 사용자에게 표시되지 않도록 할 수 있습니다. 예제:
 >
 >    **MDEClientAnalyzer.cmd -r -i -m 5**
 >

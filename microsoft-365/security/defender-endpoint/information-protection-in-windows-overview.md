@@ -3,7 +3,6 @@ title: Windows의 정보 보호 개요
 ms.reviewer: ''
 description: 중요한 정보를 식별하고 보호하기 위해 Windows 보호에서 정보 보호가 작동하는 방식에 대해 자세히 알아보기
 keywords: 정보, 보호, dlp, 데이터, 손실, 방지, 보호
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4a96296f09a82fe2b2c8d5c4d5d250c48f89ffc4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 878bef057161b8235d6547e2f946c205b4657a69
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156297"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555023"
 ---
 # <a name="information-protection-in-windows-overview"></a>Windows의 정보 보호 개요
 
@@ -54,7 +53,7 @@ Endpoint용 Defender는 민감도 레이블이 있는 파일과 중요한 정보
 
 DLP(Office 365 손실 방지) 구현의 중요한 정보 유형은 다음 두 가지 범주로 분류됩니다.
 
-- 기본
+- 기본값
 - 사용자 지정
 
 기본 중요한 정보 유형에는 은행 계좌 번호, 주민 번호 또는 국가 번호와 같은 정보가 포함됩니다. 자세한 내용은 중요한 정보 [유형이 를 찾아보는 것을 참조하세요.](/office365/securitycompliance/what-the-sensitive-information-types-look-for)
@@ -97,7 +96,7 @@ InformationProtectionLogs_CL
 | where Workload_s == "Windows Defender"
 ```
 
-### <a name="prerequisites"></a>전제 조건
+### <a name="prerequisites"></a>필수 구성 요소
 
 - 고객은 Azure Information Protection 구독이 있어야 합니다.
 - 다음을 통해 Azure Information Protection 통합을 Microsoft Defender 보안 센터.

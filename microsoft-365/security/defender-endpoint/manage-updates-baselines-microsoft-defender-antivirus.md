@@ -16,14 +16,14 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 10/15/2021
+ms.date: 10/19/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: de1ab0bc8f58123bb24bd9d9d6d855f924c54986
-ms.sourcegitcommit: 53a4ee148348010444f7deb0590d34e6a298adb8
+ms.openlocfilehash: 6e6b552bb108785f9f727084609f7a8c873ce6e2
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60400026"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556355"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -770,3 +770,5 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 |[최신이 지난 끝점에 대한 업데이트 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md) | 끝점에서 업데이트 또는 예약된 검사가 누락된 경우 다음에 사용자가 로그인할 때 강제로 업데이트를 실행하거나 검색할 수 있습니다. |
 |[이벤트 기반 강제 업데이트 관리](manage-event-based-updates-microsoft-defender-antivirus.md) | 시작 시 또는 특정 클라우드 제공 보호 이벤트 후에 보호 업데이트를 다운로드할 수 있습니다. |
 |[모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)| 모바일 장치 및 가상 머신에 특히 유용한 배터리 전원에서 업데이트가 발생해야 하는지 여부와 같은 설정을 지정할 수 있습니다. |
+| [Microsoft Defender for Endpoint update for EDR Sensor](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-update-for-edr-sensor-f8f69773-f17f-420f-91f4-a8e5167284ac) | 2021년에 출시된 새로운 Endpoint용 Microsoft Defender 통합 MsSense.exe 패키지에 포함된 EDR 센서(MsSense.exe)를 업데이트할 수 있습니다.   |
+

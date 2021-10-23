@@ -2,7 +2,6 @@
 title: 보안 보호 기능 Microsoft Defender 바이러스 백신 사용 및 구성
 description: 동작 모니터링Microsoft Defender 바이러스 백신 학습과 같은 실시간 보호 기능 사용 및 구성
 keywords: 바이러스 백신, 실시간 보호, rtp, 기계 학습, 동작 모니터링,추론
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: manage
@@ -12,16 +11,16 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.topic: article
-ms.date: 07/29/2021
+ms.date: 10/18/2021
 manager: dansimp
 ms.custom: nextgen
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f2e1945f3fce3445c6bbed18aaf676c5df1e2486
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1861e15ce72bafdafa796463ff41163c338fc8bf
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60185004"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555623"
 ---
 # <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성
 
@@ -42,7 +41,7 @@ ms.locfileid: "60185004"
 
 1. 다음과 **같이 로컬 그룹 정책 편집기를** 열 수 있습니다.
 
-    1. 작업 Windows 10 상자에 **gpedit 를 입력합니다.**
+    1. 작업 Windows 10 Windows 11 상자에 **gpedit 를 입력합니다.**
 
     2. 최상의 **일치 아래에서** 그룹 정책 **편집을 선택하여** 로컬 그룹 정책 **편집기를 실행합니다.**
     
@@ -123,7 +122,7 @@ ms.locfileid: "60185004"
 
 1. 로컬 **그룹 정책 편집기를 열습니다.**
 
-   1. 작업 Windows 10 상자에 **gpedit 를 입력합니다.**
+   1. 작업 Windows 10 Windows 11 상자에 **gpedit 를 입력합니다.**
    2. 최상의 **일치 아래에서** 그룹 정책 **편집을 선택하여** 로컬 그룹 정책 **편집기를 실행합니다.**
 
 2. 로컬 그룹 정책 편집기 왼쪽 창에서 컴퓨터  구성 관리 템플릿 Windows 구성 요소 및 실시간 보호로 Microsoft Defender 바이러스 백신 \>  \>  \>  \> **확장합니다.**

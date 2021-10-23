@@ -21,19 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
 description: Microsoft Teams 보고서에서 Microsoft Teams 앱 사용 현황 보고서를 확인하여 조직에서 사용되는 Microsoft 365 정보를 얻습니다.
-ms.openlocfilehash: cf593d2af8912bc09b8b58fd5091349edb23a836
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 03b4969a25fb48c71c06c063d782b8c0cce8c788
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60158925"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553151"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft Teams 사용 현황
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft Teams 앱 사용 보고서에서는 조직에서 사용되는 Microsoft Teams 앱에 대한 정보를 확인할 수 있습니다.
-  
-> [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
  
 ## <a name="how-to-get-to-the-microsoft-teams-app-usage-report"></a>Microsoft Teams 앱 사용 보고서에 액세스하는 방법
 

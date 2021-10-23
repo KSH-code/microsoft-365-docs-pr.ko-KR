@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 이 문서에서는 조직의 요구에 따라 DLP 정책을 만들고 테스트하고 조정하는 방법을 배우게 됩니다.
-ms.openlocfilehash: a7d7541f90573df4f86b71aa02e377ff20717f85
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 490af48e3279147af31178e809010d6316367d7f
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203294"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554783"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -38,7 +38,7 @@ DLP는 전자 메일 메시지와 파일에 신용 카드 번호와 같은 중�
 
 ## <a name="permissions"></a>사용 권한
 
-DLP 정책을 만드는 규정 준수 팀 구성원에게는 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 규정 준수 관리자 및 기타 사용자 액세스 권한을 부여할 수 있습니다. 다음 단계를 따릅니다:
+DLP 정책을 만드는 규정 준수 팀 구성원에게는 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 규정 준수 관리자 및 기타 사용자 액세스 권한을 부여할 수 있습니다. 다음 단계를 따릅니다.
   
 1. Microsoft 365에서 그룹을 생성하고 규정 준수 책임자를 추가하십시오.
     
@@ -111,7 +111,7 @@ Microsoft 365 정책을 만드는 데 사용할 수 있는 [다양한 DLP](what-
 
 ## <a name="test-a-dlp-policy"></a>DLP 정책 테스트
 
-새 DLP 정책은 약 1시간 이내에 적용됩니다. 정상적인 사용자 활동에 의해 트리거될 때까지 기다리거나 직접 트리거할 수 있습니다. 이전에서는 DLP [](sensitive-information-type-entity-definitions.md)일치를 트리거하는 방법에 대한 정보를 제공하는 중요한 정보 유형 엔터티 정의에 연결했습니다.
+일반 사용자 활동에 의해 정책이 트리거될 때까지 기다리거나 직접 트리거할 수 있습니다. 이전에서는 DLP [](sensitive-information-type-entity-definitions.md)일치를 트리거하는 방법에 대한 정보를 제공하는 중요한 정보 유형 엔터티 정의에 연결했습니다.
 
 예를 들어 이 문서에 대해 만든 DLP 정책은 오스트레일리아 세금 파일 번호(TFN)를 검색합니다. 설명서에 따라 일치는 다음 조건을 기반으로 합니다.
 

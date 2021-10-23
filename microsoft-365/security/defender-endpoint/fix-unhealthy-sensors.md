@@ -2,8 +2,6 @@
 title: Endpoint용 Microsoft Defender에서 불안정한 센서 수정
 description: 서비스가 장치에서 데이터를 수신할 수 있도록 잘못 구성되거나 비활성으로 보고되는 장치 센서를 수정합니다.
 keywords: 잘못 구성, 비활성, 센서 수정, 센서 상태, 센서 데이터 없음, 센서 데이터, 통신 장애, 통신
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/06/2020
 ms.technology: mde
-ms.openlocfilehash: b9cbdc184dd5759821b738cd4e16e1d27fa2132b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a01fa71e8d52a9e6de522483ee982458f04141af
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205478"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555287"
 ---
 # <a name="fix-unhealthy-sensors-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender에서 불안정한 센서 수정
 
@@ -84,7 +82,7 @@ ms.locfileid: "60205478"
   프록시 구성이 성공적으로 완료되어 WinHTTP가 사용자 환경의 프록시 서버를 검색하고 통신할 수 있는지, 프록시 서버에서 끝점 서비스 URL에 대한 Microsoft Defender에 대한 트래픽을 허용하는지 확인
 
 - [진단 데이터 서비스를 사용하도록 설정되어 있는지 확인](troubleshoot-onboarding.md#ensure-the-diagnostics-service-is-enabled)</br>
-장치가 올바르게 보고되지 않는 경우 Windows 10 진단 데이터 서비스가 자동으로 시작되고 끝점에서 실행 중인지 확인해야 할 수 있습니다.
+장치가 올바르게 보고되지 않는 경우 Windows 진단 데이터 서비스가 자동으로 시작되고 끝점에서 실행 중인지 확인해야 할 수 있습니다.
 
 - [정책에 Microsoft Defender 바이러스 백신 사용하지 않도록 설정되어 있지 않은지 확인](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)</br>
 장치에서 타사 맬웨어 방지 클라이언트를 실행하는 경우 끝점용 Defender 에이전트는 ELAM(Microsoft Defender 바이러스 백신 맬웨어 방지 조기 실행) 드라이버를 사용하도록 설정해야 합니다.

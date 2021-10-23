@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 261f5128c0ef26843f20e1d94b26ba86f0850349
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c1dfbc1fb953a83c3854e7059bba30a069a37c83
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60192982"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555215"
 ---
 # <a name="configure-device-discovery"></a>장치 검색 구성
 
@@ -38,6 +38,7 @@ ms.locfileid: "60192982"
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 검색은 표준 모드 또는 기본 모드로 구성할 수 있습니다. 표준 옵션을 사용하여 네트워크에서 장치를 적극적으로 찾으면 끝점 검색을 보다 잘 보장하고 더 풍부한 장치 분류를 제공할 수 있습니다.
+
 
 표준 검색을 수행하는 데 사용되는 장치 목록을 사용자 지정할 수 있습니다. 이 기능을 지원하는 모든 온보드 디바이스(현재 - Windows 10 장치만 해당)에서 표준 검색을 사용하도록 설정하거나 장치 태그를 지정하여 장치의 하위 집합 또는 하위 집합을 선택할 수 있습니다.
 
@@ -54,7 +55,7 @@ ms.locfileid: "60192982"
 
 ## <a name="exclude-devices-from-being-actively-probed-in-standard-discovery"></a>표준 검색에서 디바이스가 적극적으로 프로브되지 못하게 제외
 
-네트워크에 적극적으로 검사하지 말아야 하는 장치(예: 다른 보안 도구의 허니팟으로 사용되는 장치)가 있는 경우 제외 목록을 정의하여 검사하지 못하게 할 수도 있습니다. 기본 검색 모드를 사용하여 디바이스를 검색할 수 있습니다. 이러한 디바이스는 수동적으로 검색되지만 적극적으로 프로브되지 않습니다.
+네트워크에 적극적으로 검사하지 말아야 하는 장치(예: 다른 보안 도구의 허니팟으로 사용되는 장치)가 있는 경우 제외 목록을 정의하여 검사하지 못하게 할 수도 있습니다. 기본 검색 모드를 사용하여 디바이스를 계속 검색할 수 있으며 멀티캐스트 검색 시도를 통해 검색할 수도 있습니다. 이러한 디바이스는 수동적으로 검색되지만 적극적으로 프로브되지 않습니다.   
 
 ## <a name="select-networks-to-monitor"></a>모니터링할 네트워크 선택
 
@@ -65,7 +66,7 @@ ms.locfileid: "60192982"
 장치 검색을 수행할 수 있는 네트워크 목록이 모니터링된 네트워크 **페이지에 표시됩니다.**
 
 > [!NOTE]
-> 네트워크 목록에서는 연결된 장치 수에 따라 상위 50개 네트워크만 사용할 수 있습니다.
+> 이 목록에는 회사 네트워크로 식별된 네트워크가 표시됩니다. 50개 미만의 네트워크가 회사 네트워크로 식별되면 목록에는 최대 50개 네트워크와 가장 많은 온보드 장치가 표시됩니다. 
 
 모니터링된 네트워크 목록은 지난 7일 동안 네트워크에 표시된 총 장치 수를 기준으로 정렬됩니다.
 

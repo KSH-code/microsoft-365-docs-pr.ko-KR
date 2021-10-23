@@ -2,7 +2,6 @@
 title: 함께 개선 - Microsoft Defender 바이러스 백신 및 Office 365(OneDrive 포함) - 랜섬웨어 및 사이버 위협으로부터 더 나은 보호
 description: Office 365 포함된 OneDrive 함께 Microsoft Defender 바이러스 백신. 자세한 내용은 이 문서를 읽어 보아야 합니다.
 keywords: windows defender, 바이러스 백신, office 365, onedrive, 복원, 랜섬웨어
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -17,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 2f3fbbe456d67ae60bca22d869258a38f73bce70
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3015dbbc251ec175a648145f202a291ca0c6c1bc
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199696"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556128"
 ---
 # <a name="better-together-microsoft-defender-antivirus-and-office-365"></a>함께 활용: Microsoft Defender 바이러스 백신 및 Office 365
 
@@ -36,7 +35,7 @@ ms.locfileid: "60199696"
 
 이미 다음을 알고 있을 수 있습니다.
 
-- **Microsoft Defender 바이러스 백신 바이러스, 맬웨어 및 스파이웨어와 같은** 소프트웨어 위협으로부터 Windows 10 장치를 보호합니다. Microsoft Defender 바이러스 백신 완벽한 지속적인 보호 기능으로 기본 제공되고 Windows 10 준비되어 있습니다. [Microsoft Defender 바이러스 백신 차세대 보호입니다.](./microsoft-defender-antivirus-in-windows-10.md) 
+- **Microsoft Defender 바이러스 백신 바이러스, 맬웨어 및 스파이웨어와 같은** 소프트웨어 위협으로부터 Windows 장치를 보호합니다. Microsoft Defender 바이러스 백신 완전하고 지속적인 보호 기능으로, Windows 10 및 Windows 11 준비되어 있습니다. [Microsoft Defender 바이러스 백신 차세대 보호입니다.](./microsoft-defender-antivirus-in-windows-10.md) 
 
 - Office 365, 스파이웨어 방지 및 맬웨어 방지 **보호가 포함되어 있습니다.** Office 365 구독을 사용하면 모든 디바이스에서 프리미엄 전자 메일 및 일정, Office 앱, 1 TB의 클라우드 저장소(OneDrive) 및 고급 보안을 얻을 수 있습니다. 가정용 및 비즈니스 사용자도 마찬가지입니다. 또한 비즈니스 사용자인 경우 조직에서 Office 365 E5 를 사용하여 위협으로부터 보호를 Office 365 Microsoft Defender를 통해 훨씬 더 많은 [보호를 Office 365.](/microsoft-365/security/office-365-security/protect-against-threats)
 

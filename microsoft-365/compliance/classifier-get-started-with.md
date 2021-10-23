@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 한 Microsoft 365 분류자 는 다양한 유형의 콘텐츠를 볼 수 있는 샘플을 제공하여 인식하는 데 사용할 수 있는 도구입니다. 이 문서에서는 사용자 지정 분류기를 만들고 교육하는 방법과 정확도를 높이기 위해 분류기를 다시 학습하는 방법을 보여집니다.
-ms.openlocfilehash: d67c4a6b3934500e3594b1021ffad7f291af5587
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 89229a8c6f4eb5ac04fcb4f956c233e34b40806d
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193330"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554867"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>학습 가능한 분류자 시작
 
@@ -46,7 +46,7 @@ ms.locfileid: "60193330"
 
 분류자 는 Microsoft 365 E5 또는 E5 준수 기능입니다. 이러한 구독을 사용하려면 이러한 구독 중 하나만 있어야 합니다.
 
-### <a name="permissions"></a>권한
+### <a name="permissions"></a>사용 권한
 
 UI에서 분류자에 액세스하는 경우: 
 
@@ -98,9 +98,6 @@ UI에서 분류자에 액세스하는 경우:
 1. 50-500개 사이의 시드 콘텐츠 항목을 수집합니다. 이러한 샘플은 학습 가능한 분류자에서 분류 범주에 속하는 것으로 긍정적으로 식별하려는 콘텐츠 유형을 강력하게 나타내는 샘플만 있어야 합니다. 지원되는 파일 형식에 대한 자세한 내용은 SharePoint [Server의](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 기본 크롤링 파일 이름 확장명 및 구문 분석된 파일 형식을 참조합니다.
 
    > [!IMPORTANT]
-   > 시드 및 테스트 샘플 항목은 암호화되지 말고 영어로 표시되어야 합니다.
-
-   > [!IMPORTANT]
    > 시드 집합의 항목이 범주의  강력한 예가 있는지 확인합니다. 학습 가능한 분류기는 처음에 시드한 모델을 기반으로 모델을 빌드합니다. 분류기는 모든 시드 샘플이 강력한 양수로 가정하며, 샘플이 범주에 약한지 또는 음수와 일치하는지 알 수 없습니다.
 
 2. 시드 콘텐츠만 SharePoint 전용인 SharePoint Online 폴더에 시드 *콘텐츠를 배치합니다.* 사이트, 라이브러리 및 폴더 URL을 확인합니다.
@@ -128,9 +125,6 @@ UI에서 분류자에 액세스하는 경우:
     > ![교육 가능한 분류자 테스트를 준비합니다.](../media/classifier-trainable-ready-to-test-detail.png)
 
 11. 최상의 결과를 얻으 위해 테스트 콘텐츠 항목을 200개 이상(최대 10,000개) 수집합니다. 이러한 항목은 강한 양성, 강력한 부정 및 특성상 약간 명확하지 않다는 항목이 혼합된 것이 틀려야 합니다. 지원되는 파일 형식에 대한 자세한 내용은 SharePoint [Server의](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 기본 크롤링 파일 이름 확장명 및 구문 분석된 파일 형식을 참조합니다.
-
-    > [!IMPORTANT]
-    > 샘플 항목은 암호화되지 말고 영어로 번역해야 합니다.
 
 12. 테스트 콘텐츠만 SharePoint 전용 온라인 폴더에 테스트 콘텐츠를 *배치합니다.* 온라인 사이트, SharePoint 및 폴더 URL을 메모해 두세요.
 

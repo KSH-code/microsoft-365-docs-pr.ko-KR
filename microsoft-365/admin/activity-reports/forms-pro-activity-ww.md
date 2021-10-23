@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft Dynamics 365 고객 음성 활동 보고서를 Microsoft 365 관리 센터.
-ms.openlocfilehash: 8bddb423c45e97c147dbc3aa262b7c798d143ae5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2eedcf65e95d2bf85dbf156b4e1ac2d540acdf46
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157485"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553427"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365 관리 센터의 보고서 - Dynamics 365 고객 음성 활동
 
@@ -33,9 +33,6 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
   
 예를 들어 Dynamics 365 Customer Voice와의 상호 작용을 보고 Microsoft Dynamics 365 Customer Voice를 사용하기 위해 라이선스가 부여된 모든 사용자의 활동을 이해할 수 있습니다. 또한 사용자가 응답한 설문 조사를 Pro 수를 보고 Pro 진행되는 공동 작업 수준을 파악하는 데 도움이 됩니다. 
   
-> [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
- 
 ## <a name="how-to-get-to-the-dynamics-365-customer-voice-activity-report"></a>Dynamics 365 고객 음성 활동 보고서에 도착하는 방법
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
@@ -48,6 +45,8 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Dynamics 365 고객 음성 활동 보고서 - 열을 선택 합니다.](../../media/5ab66f4b-32eb-4c9b-9683-1157ae9e2c0a.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
+
+**Dynamics 365 고객** 음성 활동 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다.
   
 |항목|설명|
 |:-----|:-----|

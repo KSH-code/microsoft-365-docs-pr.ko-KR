@@ -2,7 +2,6 @@
 title: 클라우드 보호의 클라우드 보호 수준을 Microsoft Defender 바이러스 백신
 description: 사용자에 대한 클라우드 보호 수준을 Microsoft Defender 바이러스 백신.
 keywords: Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, Defender, 클라우드, 적극성, 보호 수준
-search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -17,12 +16,12 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 09eb5f5c183a6a89d89b173557bdc40b9204824b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2c0f342c62409e8bfcf782c22714d9fd707c24a7
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60166221"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555539"
 ---
 # <a name="specify-the-cloud-protection-level"></a>클라우드 보호 수준 지정
 

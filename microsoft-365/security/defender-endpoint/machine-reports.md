@@ -2,8 +2,6 @@
 title: 엔드포인트용 Microsoft Defender의 장치 상태 및 준수 보고서
 description: 장치 상태 및 준수 보고서를 사용하여 장치 상태 검색, 바이러스 Windows 10 OS 플랫폼 및 버전 추적
 keywords: 상태, 바이러스 백신, os 플랫폼, Windows 10 버전, 버전, 상태, 규정 준수, 상태
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 07aec0c4ff4c6ea42fcc6e4bb95357bd98bf5cba
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: db2b82f1f966946f66a1c23dbe8b1c708549dc8e
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162605"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556163"
 ---
 # <a name="device-health-and-compliance-report-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 장치 상태 및 준수 보고서
 
@@ -34,7 +32,7 @@ ms.locfileid: "60162605"
 
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-장치 상태 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다. 이 보고서에는 센서 상태, 바이러스 백신 상태, OS 플랫폼 및 최신 버전을 보여 Windows 10 포함되어 있습니다.
+장치 상태 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다. 이 보고서에는 센서 상태, 바이러스 백신 상태, OS 플랫폼 및 Windows 10(및 Windows 11) 버전이 포함되어 있습니다.
 
 대시보드는 다음 두 섹션으로 구성됩니다.
 

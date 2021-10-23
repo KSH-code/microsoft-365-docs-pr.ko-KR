@@ -2,8 +2,6 @@
 title: 엔드포인트용 Microsoft Defender 서비스 문제 해결
 description: 서비스에 액세스하려고 할 때 서버 오류와 같은 알려진 문제에 대한 해결 방법과 해결 방법을 찾아야 합니다.
 keywords: 끝점에 대한 Microsoft Defender 문제 해결, 서버 오류, 액세스 거부, 잘못된 자격 증명, 데이터 없음, 대시보드 포털, 허용, 이벤트 뷰어
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 2d001d8c554738415e1108bd273aef642851e619
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d46fb5d456377a3089e5d6cfa45918eb42849227
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191578"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553862"
 ---
 # <a name="troubleshoot-service-issues"></a>서비스 문제 해결
 

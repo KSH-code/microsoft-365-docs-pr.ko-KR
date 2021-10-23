@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 재택근무, 재택근무, 하이브리드, 원격근무, 하이브리드 근무, 원격직원, 하이브리드 연결, 원격접속, 재택근무, 재택근무, 재택근무, 원격근무, 원격근무, 원격근무, 유연한 근무 장소
 description: 하이브리드 직원이 온-프레미스 및 Microsoft 365 리소스에 안전하게 액세스할 수 있도록 인프라 계층으로 이동합니다.
-ms.openlocfilehash: ae6d9ab0017ed4d4a33fc57be74ac0ea4aa955a4
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 296c8ccd3373d7b23b187f60b1a93318538ec8fe
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335953"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554519"
 ---
 # <a name="set-up-your-infrastructure-for-hybrid-work-with-microsoft-365"></a>Microsoft 365를 사용하여 하이브리드 작업을 위한 인프라 설정
 
@@ -114,7 +114,7 @@ Microsoft 365에는 하이브리드 직원이 현장이나 원격으로 작업�
 
 - 웹을 통해 직접 Microsoft 365 클라우드 앱 및 서비스에 액세스할 수 있는 기능, 보안 및 성능을 갖춘 Surface 노트북 및 Windows 10과 같은 최신 장치
 
-- 빠르게 배포된 [Windows 10 기반 가상 데스크톱](empower-people-to-work-remotely-remote-access.md#deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices)을 통해 간접적으로 Microsoft 365 클라우드 앱 및 서비스에 액세스할 수 있는 가정에서 사용되는 구형 노트북 또는 데스크톱을 포함한 모든 장치 이 옵션은 고성능, 강력한 보안 및 단순화된 IT 관리를 제공합니다.
+- 빠르게 배포된 [Windows 10 기반 가상 데스크톱](empower-people-to-work-remotely-remote-access.md#deploy-azure-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices)을 통해 간접적으로 Microsoft 365 클라우드 앱 및 서비스에 액세스할 수 있는 가정에서 사용되는 구형 노트북 또는 데스크톱을 포함한 모든 장치 이 옵션은 고성능, 강력한 보안 및 단순화된 IT 관리를 제공합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

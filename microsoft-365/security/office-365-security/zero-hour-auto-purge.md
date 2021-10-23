@@ -22,12 +22,12 @@ ms.custom:
 description: ZAP(제로 아워 자동 제거)는 Exchange Online 사서함에 있는 배달된 메시지를 스팸, 피싱 또는 배달 후 맬웨어가 포함된 정크 메일 폴더 또는 검역소로 이동합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ebfe8bd2eec176b57cfa55400525c8379f9ef4c8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c2b6e8ce6d15ad652b87e6529f9fd3cb2b3878f7
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60197860"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556343"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>ZAP(제로 아워 자동 Exchange Online
 
@@ -64,7 +64,7 @@ ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색�
 
 - **X-Header** **추가,** 제목 줄에 텍스트 추가, 전자 메일 주소로 메시지 **리디렉션** **,** 메시지 삭제: ZAP는 메시지에 대한 작업을 수행하지 않습니다.
 
-- **정크 메일로** 메시지 이동 : ZAP는 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우(기본적으로 사용하도록 설정되어 있는 경우) 메시지를 정크 메일 폴더로 이동합니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
+- **정크 메일로** 메시지 이동 : ZAP가 메시지를 정크 메일 폴더로 이동합니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
 
 - **메시지 Quarantine message**: ZAP quarantines the message.
 
@@ -84,7 +84,7 @@ ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색�
 
 - **X-Header** **추가,** 제목 줄에 텍스트 추가, 전자 메일 주소로 메시지 **리디렉션** **,** 메시지 삭제: ZAP는 메시지에 대한 작업을 수행하지 않습니다.
 
-- **정크 메일로** 메시지 이동 : ZAP는 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우(기본적으로 사용하도록 설정되어 있는 경우) 메시지를 정크 메일 폴더로 이동합니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
+- **정크 메일로** 메시지 이동 : ZAP가 메시지를 정크 메일 폴더로 이동합니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
 
 - **메시지 Quarantine message**: ZAP quarantines the message. 기본적으로 최종 사용자는 받는 사람인 스팸으로 분류된 메시지를 보고 관리할 수 있습니다. 그러나 관리자는 스팸으로 분류된 메시지에 대해 사용자가 할 수 있는 작업을 정의하기 위해 정책을 만들고 사용할 수 있습니다.  자세한 내용은 [Quarantine policies을 참조하십시오.](quarantine-policies.md)
 

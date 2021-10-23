@@ -2,7 +2,6 @@
 title: 보안 보호 Microsoft Defender 바이러스 백신 사용 및 구성
 description: Microsoft Defender AV에서 동작 기반, 방어적 및 실시간 보호를 사용하도록 설정할 수 있습니다.
 keywords: 맬웨어 방지, 기계 학습, 동작 모니터, 실시간 보호, 무중단, Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, defender
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: manage
@@ -16,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.collection: M365-security-compliance
-ms.openlocfilehash: beb7b022bd8e0dbd9296e18cbc4befa19690e492
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a82349553c098c604e8901568a7a42b1c4f896df
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212560"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555952"
 ---
 # <a name="configure-behavioral-heuristic-and-real-time-protection"></a>동작, 추론 및 실시간 보호 구성
 

@@ -2,8 +2,6 @@
 title: 엔드포인트용 Microsoft Defender 지원 문의
 description: 끝점 지원에 대해 Microsoft Defender에 문의하는 방법 학습
 keywords: 지원, 문의, 프리미어 지원, 솔루션, 문제, 사례
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d67be887a2efa3735665eedc6cdd7522b4f1f1f7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 86a0f1fda29fff47e81b77827daca82597cef3bd
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205622"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555143"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>엔드포인트용 Microsoft Defender 지원 문의
 
@@ -89,7 +87,7 @@ Endpoint 지원에 대한 Defender에 문의하여 지원 티켓을 여는 방�
 
 :::image type="content" source="../../media/contactsupport2.png" alt-text="고객 지원 2":::
 
-1. 직면하고 있는 문제의 제목과 설명과 전화 번호 및 전자 메일 주소를 입력합니다.
+1. 마주 보고 있는 문제의 제목과 설명, 전화 번호 및 전자 메일 주소를 입력합니다.
 2. (선택 사항) 지원 사례에 대한 추가 컨텍스트를 제공하기 위해 문제와 관련된 첨부 파일을 최대 5개까지 포함합니다.
 3. 해당되는 경우 표준 시간대 및 대체 언어를 선택합니다. 요청이 Microsoft 지원 팀으로 전송됩니다. 팀이 서비스 요청에 곧 응답합니다.
 

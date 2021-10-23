@@ -22,21 +22,18 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: 보고서의 Microsoft 365 보고서 대시보드를 사용하여 활성 사용자 보고서를 Microsoft 365 관리 센터 사용되는 제품 라이선스 수를 알아보는 방법을 알아보고
-ms.openlocfilehash: abb2c4459ac52151fbf1af5712e52ac49f0d5762
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 793f83e28c396add9046f2c464efbdfef2b291f8
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156069"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553367"
 ---
 # <a name="assess-the-microsoft-365-active-users-report"></a>활성 사용자 Microsoft 365 평가
 
-Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
+Microsoft 365 보고서 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
 예를 들어 **활성 사용자** 보고서를 사용하여 조직의 사용자가 사용 중인 제품 라이선스 수를 파악하고 어떤 사용자가 어떤 제품을 사용 중인지에 대한 정보를 드릴다운할 수 있습니다. 관리자는 이 보고서를 사용하여 충분히 이용되지 않는 제품이나 추가 교육 또는 정보가 필요한 사용자를 확인할 수 있습니다. 
-  
-> [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
 
 ## <a name="how-to-get-to-the-active-users-report"></a>활성 사용자 보고서에 액세스하는 방법
 
@@ -47,7 +44,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 활성 사용자 탭을 선택하여 Office 365 활성 사용자를 **볼 수** 있습니다.<br/>![Microsoft 365 - 활성 Microsoft Office 365 수 있습니다.](../../media/56fe2e54-76ad-49e5-886f-1344c2697258.png)
 
-- 활성 사용자 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 보는 경우 표(7)에는 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표시됩니다.
+- 활성 사용자 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 보는 경우 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다.
 
 - 각 보고서의 데이터는 일반적으로 최근 24시간에서 48시간까지 처리됩니다.
 

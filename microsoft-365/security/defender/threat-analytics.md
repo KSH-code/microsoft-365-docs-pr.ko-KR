@@ -3,8 +3,6 @@ title: 보안 위협 분석 Microsoft 365 Defender
 ms.reviewer: ''
 description: 새로운 위협 및 공격 기술과 이를 중지하는 방법에 대해 자세히 알아보십시오. 조직에 미치는 영향을 평가하고 조직 탄력성 평가
 keywords: 위협 분석, 위험 평가, Microsoft 365 Defender, M365D, 완화 상태, 보안 구성, Office 365용 Microsoft Defender, Office 365 위협 분석용 Microsoft Defender, MDO 위협 분석, MDE 및 MDO 위협 분석 통합, 위협 분석 데이터 통합, 통합된 Microsoft 365 Defender 위협 분석
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -21,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2980eb4d5fe2d16d38237d3166b9c25810985fab
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 869dad3e3b5acd34f27cbac83d2a9ab089bddd41
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205106"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554855"
 ---
 # <a name="threat-analytics-in-microsoft-365-defender"></a>보안 위협 분석 Microsoft 365 Defender 
 

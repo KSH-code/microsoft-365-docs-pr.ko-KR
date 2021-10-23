@@ -2,7 +2,6 @@
 title: 네트워크 보호 문제 해결
 description: 끝점용 Microsoft Defender의 네트워크 보호 문제를 해결하기 위한 리소스 및 샘플 코드입니다.
 keywords: 문제 해결, 오류, 수정, windows defender eg, asr, 규칙, hips, 문제 해결, 감사, 제외, 가극적, 손상, 차단, 끝점용 Microsoft Defender
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,12 +15,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: fce2366a155dca3f045497abf2a7a9892180710d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 131021236f5294f10f9abdf6e4ba170e2349b707
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159321"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555755"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
@@ -53,7 +52,7 @@ ms.locfileid: "60159321"
 > [!div class="checklist"]
 >
 > - 끝점에서 Windows 10 Pro 버전 Enterprise 버전 1709 이상을 실행하고 있습니다.
-> - 끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다. [Microsoft가 아닌 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)솔루션을 사용할 때 발생하는 문제를 참조합니다.
+> - 끝점에서 단독 Microsoft Defender 바이러스 백신 보호 앱으로 사용하고 있습니다. Microsoft가 아닌 바이러스 백신 솔루션을 사용 중일 때 발생하는 [문제를 참조합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 > - [실시간 보호가](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) 사용됩니다.
 > - [클라우드 제공 보호를](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 사용할 수 있습니다.
 > - 감사 모드를 사용할 수 없습니다. 그룹 [정책을 사용하여](enable-network-protection.md#group-policy) 규칙을 사용 안 하게 **설정(값:** **0)합니다.**
@@ -80,7 +79,7 @@ ms.locfileid: "60159321"
 
 ## <a name="report-a-false-positive-or-false-negative"></a>가짓 긍정 또는 거짓 부정 보고
 
-데모 사이트 및 감사 모드로 기능을 테스트했지만 네트워크 보호가 미리 구성된 시나리오에서 작동하지만 특정 연결에 대해 예상대로 작동하지 않는 경우 [Windows Defender 보안](https://www.microsoft.com/wdsi/filesubmission) 인텔리전스 웹 기반 제출 양식을 사용하여 네트워크 보호에 대한 거짓 부정 또는 가양성 보고를 합니다. E5 구독을 사용하면 연결된 경고에 대한 링크를 [제공할 수도 있습니다.](alerts-queue.md)
+데모 사이트 및 감사 모드로 기능을 테스트한 경우 네트워크 보호가 미리 구성된 시나리오에서 작동하지만 특정 연결에 대해 예상대로 작동하지 않는 경우 [Windows Defender 보안](https://www.microsoft.com/wdsi/filesubmission) 인텔리전스 웹 기반 제출 양식을 사용하여 네트워크 보호에 대해 거짓 부정 또는 가양성으로 보고합니다. E5 구독을 사용하면 연결된 경고에 대한 링크를 [제공할 수도 있습니다.](alerts-queue.md)
 
 끝점에 대한 [Microsoft Defender의 가짓 긍정/부정 주소를 참조하세요.](defender-endpoint-false-positives-negatives.md)
 

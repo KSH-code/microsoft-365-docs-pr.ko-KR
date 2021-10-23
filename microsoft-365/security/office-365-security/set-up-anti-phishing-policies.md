@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a146c08834d0b7c4dc6d184a09176d986af1913f
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 2628fcd5b53a8f73e471fd17512a790bc6b98fc6
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364823"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554891"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -113,7 +113,7 @@ ms.locfileid: "60364823"
 
 - **무단 보낸** 사람 알림: 이러한 알림은 스푸핑 인텔리전스가 켜져 있는 경우만 사용할 수 있습니다. 다음 섹션의 정보를 참조하세요.
 - **작업:** 차단된 스푸핑된 보낸 사람(스푸핑 인텔리전스에 의해 자동으로 차단되거나 테넌트 허용/차단 목록에서 수동으로 차단)의 메시지에 대해 메시지에 대해 수행할 작업을 지정할 수도 있습니다.
-  - **받는 사람의** 정크 메일 폴더로 메시지 이동 : 이 값은 기본값입니다. 메시지가 사서함으로 배달된 후 정크 메일 폴더로 이동됩니다. 이 Exchange Online 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우 메시지가 정크 메일 폴더로 이동됩니다(기본적으로 사용하도록 설정). 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
+  - **받는 사람의** 정크 메일 폴더로 메시지 이동 : 이 값은 기본값입니다. 메시지가 사서함으로 배달된 후 정크 메일 폴더로 이동됩니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
   - **메시지 Quarantine the message**: Sends the message to quarantine instead of the intended recipients. 격리에 대한 자세한 내용은 다음 게시물을 참조하세요.
     - [Microsoft 365](quarantine-email-messages.md)
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
@@ -202,7 +202,7 @@ ms.locfileid: "60364823"
 - **작업:** 정책의 보호된 사용자 및 보호된 도메인에 대해 가장 시도가 포함된 인바운드 메시지에 대해 수행할 작업을 선택하십시오. 보호된 사용자 가장과 보호된 도메인의 가장에 대해 서로 다른 작업을 지정할 수 있습니다.
   - **어떤 작업도 적용하지 않습니다.**
   - **메시지를 다른** 전자 메일 주소로 리디렉션: 지정된 받는 사람이 아닌 지정된 받는 사람에게 메시지를 보냅니다.
-  - **받는 사람의** 정크 메일 폴더로 메시지 이동: 메시지가 사서함으로 배달된 후 정크 메일 폴더로 이동됩니다. 이 Exchange Online 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우 메시지가 정크 메일 폴더로 이동됩니다(기본적으로 사용하도록 설정). 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
+  - **받는 사람의** 정크 메일 폴더로 메시지 이동: 메시지가 사서함으로 배달된 후 정크 메일 폴더로 이동됩니다. 자세한 내용은 [Configure junk email settings on Exchange Online mailboxes in Microsoft 365.](configure-junk-email-settings-on-exo-mailboxes.md)
   - **메시지 Quarantine the message**: Sends the message to quarantine instead of the intended recipients. 격리에 대한 자세한 내용은 다음 게시물을 참조하세요.
     - [Microsoft 365](quarantine-email-messages.md)
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)

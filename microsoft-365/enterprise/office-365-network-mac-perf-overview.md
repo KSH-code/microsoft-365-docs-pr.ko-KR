@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요
-ms.openlocfilehash: 479b779e466f9c3e7168856642be4a129dbbcf1a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 579166cef377810dfe38993bf3736e65d46f8c0c
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60150597"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552851"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 네트워크 연결
 
@@ -63,7 +63,11 @@ Windows 위치 서비스는 컴퓨터의 동의를 얻어야 합니다. 앱 앱�
 
 이 옵션의 경우 위치 Windows 또는 Wi-Fi 필요하지 않습니다. OneDrive 대한 Windows 최신 버전으로, 해당 위치에 있는 하나 이상의 컴퓨터에 설치해야 합니다.
 
-또한 위치 페이지에서 위치를 **추가하거나** CSV 파일에서 위치를 가져와야 합니다. 추가된 위치에는 office LAN 서브넷 정보가 포함되어야 합니다.
+또한 위치 페이지에 위치를 추가하거나 CSV 파일에서 위치를 가져와야 합니다.  추가된 위치에는 office LAN 서브넷 정보가 포함되어야 합니다. 위치를 추가하거나 편집하기 위한 대화 상자에서 여러 LAN 서브넷과 여러 공용 EGS IP 서브넷을 지정할 수 있습니다. LAN 서브넷은 필수 요소로, 결과 표시를 위해 수신된 네트워크 평가의 LAN 서브넷 특성과 일치해야 합니다. 슈퍼 네트워크는 지원되지 않습니다. 따라서 LAN 서브넷이 정확히 일치해야 합니다.
+
+일반적으로 LAN 서브넷은 RFC1918에 정의된 개인 IP 주소 범위로, 공용 IP 주소를 LAN 서브넷으로 사용하는 것은 올바르지 않습니다. 이 대화 상자에는 조직의 최근 네트워크 평가 테스트에서 확인된 LAN 서브넷의 제안 사항이 표시될 수 있으므로 선택할 수 있습니다.
+
+공용 EGS IP 주소를 추가하는 경우 이러한 IP 주소는 보조 차별화 기능으로 사용하며 동일한 LAN 서브넷 IP 주소 범위를 사용하는 여러 사이트가 있는 경우를 위한 것입니다. 테스트 결과가 표시될 수 있도록 공용 나가기 IP 주소 범위를 비워 두는 것부터 시작해야 합니다. 이 범위가 포함된 경우 테스트 결과는 LAN 서브넷 IP 주소 범위 중 하나와 공용 IP 주소 범위 중 하나와 모두 일치해야 합니다.
 
 이 옵션을 사용하면 도시 내에 여러 사무실을 정의할 수 있습니다.
 

@@ -1,8 +1,7 @@
 ---
 title: Microsoft Defender 바이러스 백신 평가
-description: 규모에 제한이 없는 기업은 이 가이드를 사용하여 조직에서 제공하는 보호를 평가하고 Microsoft Defender 바이러스 백신 Windows 10.
+description: 모든 크기의 기업은 이 가이드를 사용하여 조직에서 제공하는 보호를 평가하고 Microsoft Defender 바이러스 백신 Windows.
 keywords: Microsoft Defender 바이러스 백신, 클라우드, 맬웨어 방지, 보안, defender, 평가, 테스트, 보호, 비교, 실시간 보호
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,17 +10,17 @@ ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 09/03/2018
+ms.date: 10/18/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 13d3714f1d5843597e19f04a4f94e63f4adf09cb
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6db826e44ed45f0c99bb7bb671e5f1853fc0294b
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60192874"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555719"
 ---
 # <a name="evaluate-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신 평가
 

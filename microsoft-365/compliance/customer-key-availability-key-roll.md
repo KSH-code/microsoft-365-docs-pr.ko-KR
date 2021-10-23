@@ -12,12 +12,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키와 함께 사용되는 Azure Key Vault에 저장된 고객 루트 키를 롤링하는 방법을 설명합니다. 서비스에는 Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 Teams 포함됩니다.
-ms.openlocfilehash: a3968485a807aae03abb0dfa14d26d94db0445f9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 22cf7d1ee9635a92684d377d05a4c53a909eb4bb
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60175326"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553967"
 ---
 # <a name="roll-or-rotate-a-customer-key-or-an-availability-key"></a>고객 키 또는 가용성 키 롤 또는 회전
 
@@ -90,7 +90,7 @@ SharePoint 온라인에서만 키를 한 번만 롤링할 수 있습니다. 키 
 1. 다음과 Update-SPODataEncryptionPolicy cmdlet을 실행합니다.
   
    ```powershell
-   Update-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl> -KeyVaultName <ReplacementKeyVaultName> -KeyName <ReplacementKeyName> -KeyVersion <ReplacementKeyVersion> -KeyType <Primary | Secondary>
+   Update-SPODataEncryptionPolicy  <SPOAdminSiteUrl> -KeyVaultName <ReplacementKeyVaultName> -KeyName <ReplacementKeyName> -KeyVersion <ReplacementKeyVersion> -KeyType <Primary | Secondary>
    ```
 
    이 cmdlet은 SharePoint Online 및 비즈니스용 OneDrive 키 롤 작업을 시작하나 작업이 즉시 완료되지는 않습니다.
@@ -98,7 +98,7 @@ SharePoint 온라인에서만 키를 한 번만 롤링할 수 있습니다. 키 
 2. 키 롤 작업의 진행률을 표시하기 위해 다음과 Get-SPODataEncryptionPolicy cmdlet을 실행합니다.
 
    ```powershell
-   Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
+   Get-SPODataEncryptionPolicy  <SPOAdminSiteUrl>
    ```
 
 ## <a name="related-articles"></a>관련 문서

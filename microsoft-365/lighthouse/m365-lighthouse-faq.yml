@@ -17,12 +17,12 @@ metadata:
   - M365-Lighthouse
   search.appverid: MET150
   description: 서비스 공급자를 사용하는 MSP(관리 Microsoft 365 Lighthouse 공급자)의 경우 서비스 공급자에 대한 FAQ(질문과 대답)를 Microsoft 365 Lighthouse.
-  ms.openlocfilehash: 2a42dc6b0bec6b1b88b175eee8e2cb0b4b291e8c
-  ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+  ms.openlocfilehash: f7e2798305587f8e8d30b566dfdf5eca5b412f4f
+  ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/06/2021
-  ms.locfileid: "60188952"
+  ms.lasthandoff: 10/23/2021
+  ms.locfileid: "60552647"
 title: Microsoft 365 Lighthouse 질문과 대답(FAQ)
 summary: >
   > [!NOTE]
@@ -91,4 +91,4 @@ sections:
     answer: >
       Lighthouse에서 **?** 포털 맨 위에 있는 아이콘을 클릭하여 도움말 **창을** 여는 데 도움이 됩니다. 여기에서 자가 도움말 문서에 액세스하거나 지원에 문의할 수 있습니다. 도움말 및 지원 옵션에 대한 자세한 내용은 에 대한 도움말 및 지원 [Microsoft 365 Lighthouse.](m365-lighthouse-get-help-and-support.md)
   - question: 피드백과 아이디어를 제출할 수 있는 곳은 어디인가요?
-    answer: 여러분의 피드백은 중요하며 저희에게 중요합니다! Intune 피드백 페이지를 통해 피드백 또는 기능 [Microsoft Endpoint Manager 제출합니다.](https://go.microsoft.com/fwlink/?linkid=2151507) Lighthouse 및 Windows 365 기능에 대한 대화를 시작하고, 다른 파트너 또는 Microsoft Windows 질문하고, 기능 피드백을 제공하는 등 다양한 정보를 제공할 수 있습니다.
+    answer: "여러분의 피드백은 중요하며 저희에게 중요합니다! 피드백을 제출하는 방법에는 몇 가지가 있습니다.\n\n- Lighthouse의 오른쪽 위 모서리에 있는 피드백 아이콘을 선택합니다. \n- Lighthouse에서 피드백을 제공해야 하는 가끔(한 달에 한 번 이상) 팝업 창에 응답합니다."

@@ -26,12 +26,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대한 다단계 인증을 설정하는 방법에 대해 알아 보십시오.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 0dddf5cbc1bcf921d239c7a93031be6cce419eb6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 824eefed4dbda14edab7608324a317b0f504b7ef
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60178086"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554159"
 ---
 # <a name="set-up-multifactor-authentication"></a>다단계 인증 설정
 
@@ -98,14 +98,6 @@ Azure AD P1 및 P2에 대한 자세한 내용은 [Azure Active Directory 가격]
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>의 왼쪽 탐색 창에서 **설정** \> **조직 설정** 을 선택합니다.
 2. **서비스** 탭에서 **최신 인증** 을 선택하고, **최신 인증** 창에서 **최신 인증 사용** 이 선택되어 있는지 확인합니다. **변경 내용 저장** 을 선택합니다.
 
-
-### <a name="turn-off-legacy-per-user-mfa"></a>레거시 사용자별 MFA 해제
-
-이전에 사용자별 MFA를 설정한 경우, 보안 기본값을 사용하기 전에 먼저 이 기능을 해제해야 합니다.
-
-1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**활성 사용자**</a>를 선택합니다.
-1. **활성 사용자** 페이지에서 **다단계 인증** 을 선택합니다.
-1. 다단계 인증 페이지에서 각 사용자를 선택하고 다단계 인증 상태를 **사용 안 함** 으로 설정합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 7af22cf31c8ad8cad4640d99737bc359e0ab6d2c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9b1bf2d20bb9f2084abadbc164bb668c3ebf174f
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60192910"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555995"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
@@ -42,17 +42,20 @@ ms.locfileid: "60192910"
 ## <a name="what-is-basic-discovery-mode"></a>기본 검색 모드란?
 이 모드를 사용하면 모든 끝점용 Microsoft Defender 온보딩 장치에서 네트워크 데이터를 수집하고 인접한 장치를 검색할 수 있습니다. 온보드 엔드포인트는 네트워크에서 수동적으로 이벤트를 수집하고 해당 끝점에서 장치 정보를 추출합니다. 네트워크 트래픽이 시작되지 않습니다. 온보드 엔드포인트는 단순히 온보더된 장치에서 볼 수 있는 모든 네트워크 트래픽에서 데이터를 추출합니다. 네트워크에서 관리되지 않는 장치를 나열하는 데 사용되는 데이터입니다.
 
+
 ## <a name="can-i-disable-basic-discovery"></a>기본 검색을 사용하지 않도록 설정할 수 있나요?
 고급 기능 페이지를 통해 장치 검색을 해제할 [수](advanced-features.md) 있습니다. 그러나 네트워크에서 관리되지 않는 장치에 대한 가시성을 잃게 됩니다. 검색이 SenseNDR.exe 관계없이 온보드 장치에서 계속 실행됩니다. 
 
 ## <a name="what-is-standard-discovery-mode"></a>표준 검색 모드란?
- 이 모드 끝점에서 끝점용 Microsoft Defender에 온보딩된 끝점은 네트워크에서 관찰된 장치를 적극적으로 프로브하여 수집된 데이터를 보강할 수 있습니다(네트워크 트래픽의 미미한 양). 이 모드는 신뢰할 수 있고 뛰어난 장치 인벤토리를 구축하는 데 매우 권장됩니다. 이 모드를 사용하지 않도록 선택하고 기본 검색 모드를 선택하면 네트워크에서 관리되지 않는 끝점만 볼 수 있습니다.
+ 이 모드 끝점에서 끝점용 Microsoft Defender에 온보딩된 끝점은 네트워크에서 관찰된 장치를 적극적으로 프로브하여 수집된 데이터를 보강할 수 있습니다(네트워크 트래픽의 미미한 양). 기본 검색 모드로 관찰된 장치만 표준 모드로 프로브됩니다. 이 모드는 신뢰할 수 있고 뛰어난 장치 인벤토리를 구축하는 데 매우 권장됩니다. 이 모드를 사용하지 않도록 선택하고 기본 검색 모드를 선택하면 네트워크에서 관리되지 않는 끝점만 볼 수 있습니다.
+
+ 표준 모드는 또한 네트워크에서 멀티캐스트 쿼리를 사용하는 일반 검색 프로토콜을 활용하여 수동 방법을 사용하여 처리된 장치뿐만 아니라 더 많은 디바이스를 검색합니다.
 
 ## <a name="can-i-control-which-devices-perform-standard-discovery"></a>표준 검색을 수행하는 장치를 제어할 수 있나요?
  표준 검색을 수행하는 데 사용되는 장치 목록을 사용자 지정할 수 있습니다. 이 기능을 지원하는 모든 온보드 디바이스에서 Standard 검색을 사용하도록 설정하거나(현재 Windows 10 장치만 해당) 장치 태그를 지정하여 장치의 하위 집합 또는 하위 집합을 선택할 수 있습니다. 이 경우 다른 모든 장치는 기본 검색만 실행하도록 구성됩니다. 구성은 장치 검색 설정 페이지에서 사용할 수 있습니다.
 
 ## <a name="can-i-exclude-unmanaged-devices-from-the-device-inventory-list"></a>관리되지 않는 장치를 장치 인벤토리 목록에서 제외할 수 있나요?
-예, 장치 인벤토리 목록에서 관리되지 않는 장치를 제외하는 필터를 적용할 수 있습니다. API 쿼리의 등록 상태 열을 사용하여 관리되지 않는 장치를 필터링할 수도 있습니다. 
+예, 필터를 적용하여 관리되지 않는 장치를 장치 인벤토리 목록에서 제외할 수 있습니다. API 쿼리의 등록 상태 열을 사용하여 관리되지 않는 장치를 필터링할 수도 있습니다. 
 
 
 ## <a name="which-onboarded-devices-can-perform-discovery"></a>검색을 수행할 수 있는 온보드 장치는 무엇입니까?
@@ -68,7 +71,10 @@ ms.locfileid: "60192910"
  장치가 표준 검색을 실행하도록 구성된 경우 노출된 서비스는 ARP, FTP, HTTP, HTTPS, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL, RPC, mDNS, DHCP, AFP, CrestonCIP, IphoneSync, WinRM, VNC, SLP
 
 ## <a name="how-can-i-exclude-targets-from-being-probed-with-standard-discovery"></a>표준 검색을 사용하여 대상이 프로브되지 못하게 제외하는 방법
- 네트워크에 적극적으로 프로브하지 말아야 하는 장치가 있는 경우 제외 목록을 정의하여 검사하지 못하게 할 수도 있습니다. 구성은 장치 검색 설정 페이지에서 사용할 수 있습니다.
+ 네트워크에 적극적으로 프로브하지 말아야 하는 장치가 있는 경우 제외 목록을 정의하여 검사하지 못하게 할 수도 있습니다. 구성은 장치 검색 설정 페이지에서 사용할 수 있습니다. 
+
+>[!NOTE]
+> 디바이스는 여전히 네트워크에서 멀티캐스트 검색 시도에 응답할 수 있습니다. 이러한 디바이스는 검색되지만 적극적으로 프로브되지 않습니다. 
 
 ## <a name="can-i-exclude-devices-from-being-discovered"></a>장치가 검색되지 못하게 제외할 수 있나요?
  장치 검색에서는 수동 방법을 사용하여 네트워크에서 장치를 검색할 때 회사 네트워크의 온보드 장치와 통신하는 모든 장치를 검색하여 인벤토리에 나열할 수 있습니다. 장치를 활성 프로비전에서만 제외할 수 있습니다.

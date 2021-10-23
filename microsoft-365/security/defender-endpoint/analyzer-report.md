@@ -2,8 +2,6 @@
 title: 클라이언트 분석기 HTML 보고서 이해
 description: Endpoint 클라이언트 분석기 HTML 보고서용 Microsoft Defender를 분석하는 방법 학습
 keywords: 클라이언트 분석기 보고서, html 보고서, 클라이언트 분석기
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 735b2a0331e399fa7bf3444ff8e5326898c038b4
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 2c866f6b7cd5c357c7b11db22ef5ecc10a0818ed
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187587"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60556259"
 ---
 # <a name="understand-the-client-analyzer-html-report"></a>클라이언트 분석기 HTML 보고서 이해
 
@@ -50,7 +48,7 @@ ms.locfileid: "59187587"
 
 ![클라이언트 분석기 세부 결과의 이미지입니다.](images/85f56004dc6bd1679c3d2c063e36cb80.png)
 
--   결과 **확인 요약에서** 분석기에서 검색된 오류, 경고 또는 정보 이벤트에 대한 집계된 수를 하게 됩니다.
+-   결과 **확인 요약에서** 분석기에서 검색된 오류, 경고 또는 정보 이벤트에 대한 집계된 수를 얻게 됩니다.
 
 -   자세한 **결과에는** 결과가 있는 목록(심각도별로 정렬)과 분석기에서 관찰한 결과를 기반으로 하는 지침이 표시됩니다.
 

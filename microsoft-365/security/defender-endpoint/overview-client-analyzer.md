@@ -2,8 +2,6 @@
 title: Endpoint Client Analyzer용 Microsoft Defender를 사용하여 센서 상태 문제 해결
 description: 장치의 센서 상태 문제를 해결하여 센서 데이터 또는 기능에 영향을 주는 잠재적인 구성, 환경, 연결 또는 원격 분석 문제를 식별합니다.
 keywords: 센서, 센서 상태, 잘못 구성된, 비활성, 센서 데이터 없음, 센서 데이터, 통신 장애, 통신
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: bf37f1229712ba94539a8f493a5661fab61657c2
-ms.sourcegitcommit: 4740e69326eb7f8302eec7bab5bd516d498e4492
+ms.openlocfilehash: 7f816c9762fd884431deb6fd61beeb02657e300b
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "59399181"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554567"
 ---
 # <a name="troubleshoot-sensor-health-using-microsoft-defender-for-endpoint-client-analyzer"></a>Endpoint Client Analyzer용 Microsoft Defender를 사용하여 센서 상태 문제 해결
 

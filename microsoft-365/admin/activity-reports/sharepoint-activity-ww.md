@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: SharePoint 활동 사용 현황 보고서를 통해 모든 SharePoint 사용자의 활동, 공유되는 파일 수 및 저장소 사용률을 알 수 있습니다.
-ms.openlocfilehash: c1e476ff36fb21150914d08e39aa742bd17493a2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2ef2e5f736ec6a178f6cbc107b6884b5dc680986
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60158913"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553043"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>Microsoft 365 관리 센터의 보고서 - SharePoint 활동
 
@@ -33,9 +33,6 @@ ms.locfileid: "60158913"
   
 예를 들어 파일과의 상호 작용을 확인하여 SharePoint를 사용하도록 라이선스가 부여된 모든 사용자의 활동을 파악할 수 있습니다. 또한 공유된 파일 수를 확인하여 진행 중인 공동 작업의 수준을 파악하는 데도 도움이 됩니다.
   
-> [!NOTE]
-> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다. 
- 
 ## <a name="how-do-i-get-to-the-to-the-sharepoint-activity-report"></a>SharePoint 활동 보고서에 어떻게 액세스하나요?
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
@@ -48,6 +45,8 @@ ms.locfileid: "60158913"
 열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![SharePoint 보고서 - 열을 선택하십시오.](../../media/3c396cd1-9701-4712-8eaa-eb7bba702aa8.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
+
+SharePoint **활동 보고서에서** 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다.
   
 |항목|설명|
 |:-----|:-----|

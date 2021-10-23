@@ -2,8 +2,6 @@
 title: 개요 - 고급 헌팅
 description: Microsoft 365의 고급 검색 쿼리와 이를 사용하여 네트워크의 위협과 약점을 사전에 찾는 방법에 대해 알아보세요.
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -21,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: f2bee83b4529a37d5685f98c1b779f96cc71625f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: eb29c2f30e19acb3733f5512f2cba7d666d3df21
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208448"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554615"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>고급 헌팅을 통해 위협을 사전 예방적으로 Microsoft 365 Defender
 

@@ -2,8 +2,6 @@
 title: MSSP(관리되는 보안 서비스 공급자)에 대한 액세스 권한 부여
 description: 끝점용 Microsoft Defender와 MSSP 통합을 구성하는 데 필요한 단계 수행
 keywords: 관리되는 보안 서비스 공급자, mssp, 구성, 통합
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 59d4fd4fa2582b925668adc7eb65d37e8f336da6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e262c6b7176ba5c269c086b4a196a685a25bc8ed
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208520"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60553883"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>MSSP(관리되는 보안 서비스 공급자) 액세스 권한 부여(미리 보기)
 
@@ -30,7 +28,6 @@ ms.locfileid: "60208520"
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-mssp-support-abovefoldlink)
 
@@ -47,7 +44,7 @@ ms.locfileid: "60208520"
 
 ## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 역할 기반 액세스 제어 사용
 
-1. **고객 AAD에서 MSSP 리소스에 대한 액세스 그룹 만들기: 그룹**
+1. **고객 그룹: 그룹에서 MSSP 리소스에 AAD 그룹 만들기**
 
     이러한 그룹은 Endpoint용 Defender에서 만든 역할에 연결됩니다. 이렇게 하여 고객 AD 테넌트에서 세 개의 그룹을 만드면 됩니다. 이 예제에서는 다음 그룹을 생성합니다.
 
@@ -77,13 +74,13 @@ ms.locfileid: "60208520"
 
 ## <a name="configure-governance-access-packages"></a>거버넌스 액세스 패키지 구성
 
-1. **고객 AAD에서 MSSP를 연결된 조직으로 추가: ID 거버넌스**
+1. **고객 관리에서 MSSP를 연결된 조직으로 AAD: ID 거버넌스**
 
     MSSP를 연결된 조직으로 추가하면 MSSP가 프로비전된 액세스를 요청하고 액세스할 수 있습니다.
 
     이렇게 하려면 고객 AD 테넌트에서 ID 거버넌스: 연결된 조직에 액세스합니다. 새 조직을 추가하고 테넌트 ID 또는 도메인을 통해 MSSP 분석가 테넌트 검색 MSSP 분석가를 위한 별도의 AD 테넌트 만들기를 제안합니다.
 
-2. **고객 AAD에서 리소스 카탈로그 만들기: ID 거버넌스**
+2. **고객 관리에서 리소스 카탈로그 AAD: ID 거버넌스**
 
     리소스 카탈로그는 고객 AD 테넌트에서 만든 액세스 패키지의 논리적 컬렉션입니다.
 
@@ -93,7 +90,7 @@ ms.locfileid: "60208520"
 
     자세한 내용은 리소스 카탈로그 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-catalog-create)
 
-3. **MSSP 리소스 고객 AAD: ID 거버넌스에 대한 액세스 패키지 만들기**
+3. **MSSP 리소스에 대한 액세스 패키지 만들기 고객 AAD: ID 거버넌스**
 
     액세스 패키지는 승인 시 요청자에 부여되는 권한 및 액세스의 모음입니다.
 
@@ -109,7 +106,7 @@ ms.locfileid: "60208520"
 
     자세한 내용은 새 액세스 패키지 [만들기를 참조하세요.](/azure/active-directory/governance/entitlement-management-access-package-create)
 
-4. **고객 AAD에서 MSSP 리소스에 대한 액세스 요청 링크 제공: ID 거버넌스**
+4. **고객 관리: ID 거버넌스에서 MSSP 리소스에 대한 AAD 링크 제공**
 
     내 액세스 포털 링크는 MSSP SOC 분석가가 만든 액세스 패키지를 통해 액세스를 요청하는 데 사용됩니다. 링크는 지속형으로, 시간이 지날 때 새 분석가에게 동일한 링크를 사용할 수 있습니다. 분석가 요청은 MSSP 분석가 승인자 의 승인을 **위해 큐로 들어갑니다.**
 

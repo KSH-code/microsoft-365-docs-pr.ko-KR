@@ -2,7 +2,6 @@
 title: 클라우드 보호 및 샘플 제출(Microsoft Defender 바이러스 백신
 description: 클라우드 제공 보호 및 보호에 대해 Microsoft Defender 바이러스 백신
 keywords: Microsoft Defender 바이러스 백신, 차세대 기술, 바이러스 백신 샘플 제출, 차세대 av, 기계 학습, 맬웨어 방지, 보안, defender, 클라우드, 클라우드 제공 보호
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -14,14 +13,14 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.date: 10/05/2021
+ms.date: 10/18/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ffb8ccb40a6fcbe90d8dd0636402f8e9a40f058b
-ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
+ms.openlocfilehash: 6e86f4c7f311a356d38d5ecee5498e120190d7b9
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60245782"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554087"
 ---
 # <a name="cloud-protection-and-sample-submission-in-microsoft-defender-antivirus"></a>클라우드 보호 및 샘플 제출(Microsoft Defender 바이러스 백신
 

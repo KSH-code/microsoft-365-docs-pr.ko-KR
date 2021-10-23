@@ -2,7 +2,6 @@
 title: 제한된 주기적 Microsoft Defender 바이러스 백신 기능 사용
 description: 제한된 주기적 검색을 통해 설치된 Microsoft Defender 바이러스 백신 AV 공급자와 함께 사용할 수 있습니다.
 keywords: lps, 제한, 주기적, 검사, 검사, 호환성, 제3자, 기타 av, 사용 안 하게
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,17 +10,17 @@ ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 09/03/2018
+ms.date: 10/18/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b2ad3b7d1ff4ae2be4aff5e970395a9db2dc42de
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c97947ae081d6b01db2717cfc35a4c328e7c61ec
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174690"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555767"
 ---
 # <a name="use-limited-periodic-scanning-in-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에서 제한된 주기적 검사 사용
 
@@ -32,7 +31,7 @@ ms.locfileid: "60174690"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-제한된 주기적 검사는 특정 유형의 위협 감지 및 수정으로, 다른 바이러스 백신 제품을 Windows 10 있습니다.
+제한된 주기적 검사는 특정 유형의 위협 감지 및 수정으로, 다른 바이러스 백신 제품을 Windows 10 또는 Windows 11 있습니다.
 
 특정 상황에서만 사용하도록 설정될 수 있습니다. 제한된 주기적 검사 및 다른 바이러스 백신 제품에서 Microsoft Defender 바이러스 백신 방법에 대한 자세한 내용은 Microsoft Defender 바이러스 백신 [참조하세요.](microsoft-defender-antivirus-compatibility.md)
 
@@ -40,7 +39,7 @@ ms.locfileid: "60174690"
 
 ## <a name="how-to-enable-limited-periodic-scanning"></a>제한된 주기적 검색을 사용하도록 설정하는 방법
 
-기본적으로 Microsoft Defender 바이러스 백신 바이러스 백신 제품이 설치되지 않은 경우 또는 다른 Windows 10 만료되었거나 제대로 작동하지 않는 경우 Windows 10 장치에서 자체적으로 사용하도록 설정됩니다.
+기본적으로 Microsoft Defender 바이러스 백신 설치된 다른 바이러스 백신 제품이 Windows 10 또는 Windows 11 또는 다른 제품이 만료되었거나 제대로 작동하지 않는 경우 Windows 10 또는 Windows 11 장치에서 자체적으로 사용하도록 설정됩니다.
 
 이 Microsoft Defender 바이러스 백신 사용하도록 설정하면 해당 장치에서 구성하는 일반 옵션이 표시됩니다.
 

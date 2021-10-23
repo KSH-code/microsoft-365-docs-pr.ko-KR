@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 연결 테스트 도구
-ms.openlocfilehash: e19c9863be6e5b827e15dd86fadc55ace7e427e4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4671db1e09713ff6b25ef163a30fb524576d6932
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199960"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554303"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool"></a>Microsoft 365 연결 테스트 도구
 
@@ -254,13 +254,11 @@ Microsoft에서 제공하지 않는 SSL 인증서가 발견되는 경우 테스�
 
 다음은 자주 묻는 몇 가지 질문과 대답입니다.
 
-### <a name="is-this-tool-released-and-supported-by-microsoft"></a>이 도구는 Microsoft에서 릴리스 및 지원하나요?
-
-현재 미리 보기로, Microsoft의 지원을 통해 일반 가용성 릴리스 상태에 도달할 때까지 정기적으로 업데이트를 제공할 예정입니다. 개선에 도움이 되는 피드백을 제공하시기 바랍니다. 이 도구의 일부로 보다 자세한 Office 365 네트워크 온보드 가이드를 게시할 계획입니다. 이 가이드는 테스트 결과로 조직에 맞게 사용자 지정됩니다.
-
 ### <a name="what-is-required-to-run-the-advanced-test-client"></a>고급 테스트 클라이언트를 실행하려면 무엇이 필요한가요?
 
 고급 테스트 클라이언트에는 .NET Core 3.1 데스크톱 런타임이 필요합니다. 설치하지 않고 고급 테스트 클라이언트를 실행하면 [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)설치 관리자 페이지로 이동됩니다. SDK가 아닌 데스크톱 런타임 또는 페이지 상의 ASP.NET Core 런타임이 설치해야 합니다. .NET Core를 설치하려면 컴퓨터에 대한 관리자 권한이 필요합니다.
+
+고급 테스트 클라이언트는 SignalR을 사용하여 웹 페이지와 통신합니다. 이를 위해 연결에 대한 TCP 포트 443 연결이 열려 connectivity.service.signalr.net 합니다. 이 URL은 클라이언트 응용 프로그램 사용자에 대해 연결이 필요하지 Office 365 https://aka.ms/o365ip 게시되지 않습니다.
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>서비스 Microsoft 365 프론트 도어란?
 

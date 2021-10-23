@@ -2,8 +2,6 @@
 title: 끝점용 Microsoft Defender 클라이언트 분석기 도구에 대한 피드백 제공
 description: 끝점용 Microsoft Defender 클라이언트 분석기 도구에 대한 피드백 제공
 keywords: 센서, 센서 상태, 잘못 구성된, 비활성, 센서 데이터 없음, 센서 데이터, 통신 장애, 통신
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: d0638b6d76c4d2675c98dca1bd28e3b9f26a32fc
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 957bf2479a4c9d49532b072a3c18d73b9b5e6966
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59187588"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554987"
 ---
 # <a name="provide-feedback-on-the-microsoft-defender-for-endpoint-client-analyzer-tool"></a>끝점용 Microsoft Defender 클라이언트 분석기 도구에 대한 피드백 제공
 
