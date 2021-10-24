@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 description: IT 파트를 관리해주는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아보세요.
 feedback_system: None
-ms.date: 7/28/2020
-ms.openlocfilehash: 683c45c4f88dbd45ed810fe16b4932b7f40e5c43
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.date: 10/20/2021
+ms.openlocfilehash: c1514be3cb1f8aa19a78a5a2c2ef37b80dada217
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191052"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555383"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
@@ -45,7 +45,7 @@ Microsoft 365 Business Premium에 가입하면 Microsoft 365 Business Standard�
 | 위협으로부터 보호 | Microsoft 365 Business Premium을 통해 고급 위협 방지, 안전한 첨부 파일 및 안전한 링크 보호 기능을 통해 위협으로부터 사용자를 보호할 수 있습니다. |
 | 비즈니스 데이터 보안 | 개인 데이터는 PIN 액세스 및 제한된 복사 및 저장을 통해 개인 장치에서 보호됩니다. 또한 정보 보호 기능을 추가하여 권한이 부여된 사용자만 중요한 정보에 액세스할 수 있도록 할 수 있습니다. |
 | 장치 보안 | 복사 및 붙여넣기와 같은 모바일 액세스를 제한하여 장치에서 작업 파일을 보호할 수 있습니다. 또한 장치를 분실하거나 도난당한 경우에 등록된 모바일 장치에서 비즈니스 데이터를 선택적으로 지울 수 있습니다. |
-| 추가 보안 기능 | Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다. 이러한 기능에는 Office 365 Advanced Threat Protection, DLP(데이터 손실 방지 정책), Exchange Online archiving, Azure Information Protection 및 Intune이 포함됩니다. |
+| 추가 보안 기능 | Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다. 기능에는 Office 365용 Microsoft Defender 플랜 1, DLP(데이터 손실 방지 정책), Exchange Online 보관, Azure Information Protection 및 Intune이 포함됩니다. |
 
 Microsoft Business Premium이 있는 경우 보안을 설정하고 안전하게 공동 작업을 시작하는 가장 빠른 방법은 [소규모 기업 및 캠페인을 위한 Microsoft 365](../campaigns/index.md) 라이브러리의 지침을 따르는 것입니다. 이 지침은 Microsoft Defending Democracy 팀과 협력하여 정교한 해커가 시작한 사이버 위협으로부터 모든 중소기업 고객을 보호하기 위해 개발되었습니다. 
 
