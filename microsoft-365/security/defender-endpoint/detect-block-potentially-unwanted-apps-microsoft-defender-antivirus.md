@@ -2,7 +2,6 @@
 title: Microsoft Defender 바이러스 백신을 통해 사용자 동의없이 설치된 응용 프로그램 차단
 description: PUA(사용자 동의없이 설치된 응용 프로그램) 바이러스 백신 기능을 사용하도록 설정하여 애드웨어와 같은 원하지 않는 소프트웨어를 차단합니다.
 keywords: pua, 사용, 원하지 않는 소프트웨어, 원하지 않는 앱, 애드웨어, 브라우저 도구 모음, 감지, 차단, Microsoft Defender 바이러스 백신
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: detect
 ms.sitesec: library
@@ -15,14 +14,14 @@ ms.reviewer: mimilone, julih
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 06/02/2021
+ms.date: 10/18/2021
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 3202ccd469cf27d188a48bcbd09224f573134344
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: de5b108c3e7a3fbd0831f4bb02385611a1c6ae3c
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60166543"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555887"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications"></a>사용자 동의없이 설치된 응용 프로그램 검색 및 차단
 
@@ -42,7 +41,7 @@ PUA(사용자 동의없이 설치된 응용 프로그램)는 컴퓨터가 느리
 > [!TIP]
 > 보안 기능에서 특별히 주의를 기울이기 위해 응용 프로그램에 레이블을 지정하는 데 사용하는 기준에 대한 논의 사항과 추가 예제는 [Microsoft에서 맬웨어 및 사용자 동의없이 설치된 응용 프로그램을 식별하는 방법](/windows/security/threat-protection/intelligence/criteria)을 참조하세요.
 
-사용자 동의없이 설치된 응용 프로그램이 있으면 네트워크가 실제 맬웨어에 감염될 위험이 높아지고 맬웨어 감염을 식별하기 어렵게 되거나 감염을 없애는 데 IT 리소스가 낭비될 수 있습니다. PUA 보호 기능은 Windows 10, Windows Server 2019, Windows Server 2022 및 Windows Server 2016에서 지원됩니다. Windows 10(버전 2004 이상)에서 Microsoft Defender 바이러스 백신은 기본적으로 Enterprise(E5) 디바이스용 PUA로 간주되는 앱을 차단합니다.
+사용자 동의없이 설치된 응용 프로그램이 있으면 네트워크가 실제 맬웨어에 감염될 위험이 높아지고 맬웨어 감염을 식별하기 어렵게 되거나 감염을 없애는 데 IT 리소스가 낭비될 수 있습니다. PUA 보호 기능은 Windows 10, Windows 11, Windows Server 2019, Windows Server 2022 및 Windows Server 2016에서 지원됩니다. Windows 10(버전 2004 이상)에서 Microsoft Defender 바이러스 백신은 기본적으로 Enterprise(E5) 디바이스용 PUA로 간주되는 앱을 차단합니다.
 
 ## <a name="microsoft-edge"></a>Microsoft Edge
 
@@ -74,7 +73,7 @@ PUA 보호가 켜진 Chromium 기반 Edge에서 Microsoft Defender SmartScreen�
 Microsoft Defender 바이러스 백신의 PUA(사용자 동의없이 설치된 응용 프로그램) 보호 기능은 네트워크의 끝점에서 PUA를 검색하고 차단할 수 있습니다.
 
 > [!NOTE]
-> 이 기능은 Windows 10, Windows Server 2019, Windows Server 2022 및 Windows Server 2016에서 사용할 수 있습니다.
+> 이 기능은 Windows 10, Windows 11, Windows Server 2019, Windows Server 2022 및 Windows Server 2016에서 사용할 수 있습니다.
 
 Microsoft Defender 바이러스 백신은 감지된 PUA 파일 및 이를 다운로드, 이동, 실행 또는 설치하려는 시도를 차단합니다. 그런 다음 차단된 PUA 파일은 이동하여 격리됩니다. 끝점에서 PUA 파일이 감지되면 Microsoft Defender 바이러스 백신에서는 다른 위협 감지와 같은 형식으로 사용자에게 알림을 전송합니다([알림이 사용하지 않도록 설정된 경우가 아니면](configure-notifications-microsoft-defender-antivirus.md)). 알림은 내용은 표시하기 위해 `PUA:`(으)로 시작됩니다.
 

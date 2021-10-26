@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
 description: 제어된 폴더 액세스, MIP, DLP 및 Microsoft Cloud App Security를 사용하여 Microsoft 365 중요 데이터를 보호할 수 있습니다.
-ms.openlocfilehash: 3085afe91449c8c368a0f8622c26ceb1581b331a
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: f63a830e8c17eddcbe3efe40408881ec1f1d9736
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364811"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555659"
 ---
 # <a name="step-5-protect-information"></a>5단계. 정보 보호
 
@@ -118,7 +118,7 @@ Microsoft의 주요 정보:
 - [사람이 조작하는 랜섬웨어](/security/compass/human-operated-ransomware)
 - [랜섬웨어 및 탈취로부터 신속하게 보호](/security/compass/protect-against-ransomware)
 - [2021 Microsoft Digital Defense 보고서](https://www.microsoft.com/security/business/microsoft-digital-defense-report)(10-19페이지 참조)
-- **랜섬웨어:** Microsoft 365 Defender 포털의 **위협 분석** 노드에 만연하고 지속적인 위협 보고서가 있습니다(이 [라이선스 요구 사항](/microsoft-365/security/defender/prerequisites#licensing-requirements) 참조).
+- [랜섬웨어: 만연하고 지속적인 위협](https://security.microsoft.com/threatanalytics3/05658b6c-dc62-496d-ad3c-c6a795a33c27/overview) Microsoft 365 Defender 포털의 위협 분석 보고서
 
 Microsoft 365:
 
@@ -127,6 +127,8 @@ Microsoft 365:
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어에서 Windows 10 PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
+- Microsoft 365 Defender 포털의 [랜섬웨어에 대한 위협 분석 보고서](https://security.microsoft.com/threatanalytics3?page_size=30&filters=tags%3DRansomware&ordering=-lastUpdatedOn&fields=displayName,alertsCount,impactedEntities,reportType,createdOn,lastUpdatedOn,tags,flag)
+
 
 Microsoft 365 Defender:
 

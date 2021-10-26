@@ -17,12 +17,12 @@ ms.custom:
 - admindeeplinkMAC
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: 430ec1fe58f8b62ce558f2367e0dac67972e8868
-ms.sourcegitcommit: 1e990628d72b6d392500ea564859543e7c8bc632
+ms.openlocfilehash: adab62809b8533c255ce390cd40818b8373b3a6b
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60386245"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552623"
 ---
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Microsoft 365 고객 데이터가 저장되는 위치
 
@@ -88,6 +88,10 @@ Microsoft Azure에 대한 데이터 상주 정보를 찾으려면 [지역별 사
 ### <a name="what-services-support-multi-geo"></a>Multi-Geo를 지원하는 서비스는 무엇인가요?
 
 [Multi-Geo는](https://go.microsoft.com/fwlink/p/?linkid=872033) Exchange Online, 비즈니스용 OneDrive, SharePoint Online 및 Teams에서 사용 할 수 있습니다.
+
+### <a name="why-do-i-see-my-microsoft-365-service-requests-for-my-data-at-rest-connecting-to-servers-in-countries-outside-of-my-region"></a>미사용 데이터에 대한 Microsoft 365 서비스 요청이 내 지역 외부 국가의 서버에 연결되는 이유는 무엇인가요?
+
+경우에 따라 미사용 데이터가 저장되는 위치와 다른 지역의 서버에서 고객 요청을 처리할 수 있습니다. 이 문제는 네트워크 라우팅 결정에서 요청 처리를 위해 다른 서버를 선택하지만 이러한 경우 데이터가 새 미사용 위치로 이동되지 않는 경우에 발생할 수 있습니다.
 
 ### <a name="what-are-the-exceptions-for-intune-data-locations"></a>Intune 데이터 위치의 예외는 무엇인가요?
 

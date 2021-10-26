@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4a3c08ad2492437ec5b489e8bc8915ef4a402ba9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1906d9bbb7e36c95ed74c7eea2b66d3afb70e5a3
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196312"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555527"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -393,7 +393,17 @@ Return-Path: <communication@bulkemailprovider.com>
 ## <a name="next-steps-after-you-set-up-dkim-for-microsoft-365"></a>다음 단계: Microsoft 365에 대한 DKIM을 설정한 후
 <a name="DKIMNextSteps"> </a>
 
-DKIM은 스푸핑을 방지하도록 설계되었지만 SPF 및 DMARC에서 더 잘 작동합니다. DKIM을 설정한 후에 SPF를 아직 설정하지 않은 경우 설정을 수행해야합니다. SPF를 빠르게 도입하여 신속하게 구성하려면 [**스푸핑 방지를 위해 Microsoft 365에서 SPF 설정**](set-up-spf-in-office-365-to-help-prevent-spoofing.md)을 참조하세요. Microsoft 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요. 다음으로 [**DMARC를 사용하여 전자 메일 유효성 검사**](use-dmarc-to-validate-email.md)를 참조하세요. [스팸 방지 메시지 헤더](anti-spam-message-headers.md)에는 Microsoft 365에서 DKIM 검사에 사용하는 구문 및 헤더 필드가 포함됩니다.
+**DKIM은 스푸핑을 방지하도록 설계되었지만 SPF 및 DMARC에서 더 잘 작동합니다.**
+
+DKIM을 설정한 후에 SPF를 아직 설정하지 않은 경우 설정을 수행해야합니다. SPF를 빠르게 도입하여 신속하게 구성하려면 [**스푸핑 방지를 위해 Microsoft 365에서 SPF 설정**](set-up-spf-in-office-365-to-help-prevent-spoofing.md)을 참조하세요. Microsoft 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요. 
+
+다음으로 [**DMARC를 사용하여 전자 메일 유효성 검사**](use-dmarc-to-validate-email.md)를 참조하세요. [스팸 방지 메시지 헤더](anti-spam-message-headers.md)에는 Microsoft 365에서 DKIM 검사에 사용하는 구문 및 헤더 필드가 포함됩니다.
+
+**이 테스트는** DKIM 서명 구성이 올바르게 구성되었고 적절한 DNS 항목이 게시되었는지 유효성을 검사합니다.
+
+<div class="nextstepaction">
+<p><a href="https://aka.ms/diagdkim" data-linktype="external">테스트 실행: DKIM</a></p>
+</div>
 
 ## <a name="more-information"></a>추가 정보
 

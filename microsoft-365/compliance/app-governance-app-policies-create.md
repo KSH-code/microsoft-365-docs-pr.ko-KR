@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱 정책을 만듭니다.
-ms.openlocfilehash: 25aa33fad47abd5faebb90b28b47564f32d6b008
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 61394e280478e7d240fd035c569e17b85e45a076
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204542"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60554351"
 ---
 # <a name="create-app-policies"></a>앱 정책 만들기
 
@@ -69,6 +69,8 @@ ms.locfileid: "60204542"
 |---|---|
 |과도한 권한이 있는 앱|잠재적인 사용 권한 감소에 대한 기회를 식별하기 위해 해당 앱에서 사용하는 것보다 권한이 더 많은 모든 앱을 강조 표시합니다. <p> 기본적으로 이 정책은 90일 동안 사용되지 않는 경우 과도한 권한 보유로 표시된 모든 앱에 플래그를 지정합니다. 이 기간 필터는 더 많은 조건 및 작업으로 사용자 지정할 수 있습니다.|
 |높은 권한이 있는 새 앱|추가 조사가 필요할 수 있는 잠재적으로 큰 공간을 차지하는 앱을 식별하도록 사용 권한이 높은 모든 새 앱을 강조 표시합니다. <p> 기본적으로 이 정책은 높은 사용 권한이 있는 지난 7일 동안 등록된 모든 앱에 플래그를 지정합니다.|
+ |비 Graph 권한이 있는 새 앱|비 Graph API에 대한 권한이 있는 모든 새 앱을 강조 표시하여 최신 보안 업데이트를 받지 못하거나 나중에 지원되지 않을 수 있는 API를 식별하고 검토합니다.
+ <p> 기본적으로 이 정책은 비 Graph 권한이 있는 지난 7일 동안 등록된 모든 앱에 플래그를 지정합니다.|
 |||
 
 ### <a name="m365-certification"></a>M365 인증
@@ -130,6 +132,7 @@ ms.locfileid: "60204542"
 |위임된 권한|목록에서 하나 이상의 API 권한 선택|[Microsoft Graph 권한 참조](/graph/permissions-reference)|
 |높은 권한|예 또는 아니요|MCAS에서 사용하는 동일한 논리를 기반으로 하는 내부 지정입니다.|
 |과도한 권한이 있는 앱|예 또는 아니요|해당 앱에서 사용하는 것보다 더 많은 권한이 부여된 앱입니다.|
+|비 Graph API 권한|예 또는 아니요|Graph API 권한이 없는 앱입니다.|
 |앱 데이터 액세스|시간당 XGB 데이터 액세스보다 큼||
 |앱 데이터 액세스 추세|지난 7일 간의 데이터 사용량 X% 증가||
 |앱 API 액세스|시간당 X API 호출보다 큼||

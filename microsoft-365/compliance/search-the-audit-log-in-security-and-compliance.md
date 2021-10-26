@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 87df624f35231a43cd8d9e2d34912d2bc48a5252
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.openlocfilehash: 5840368c8d73bcafd486db9c3aa982fa03896b5e
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478964"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60555035"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -544,6 +544,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |목록 항목 업데이트됨|ListItemUpdated|사용자가 하나 이상의 속성을 수정하여 SharePoint 목록 항목을 업데이트했습니다.|
 |사이트 열 업데이트됨|SiteColumnUpdated|사용자가 하나 이상의 속성을 수정하여 SharePoint 사이트 열을 업데이트했습니다.|
 |사이트 콘텐츠 유형이 업데이트됨|SiteContentTypeUpdated|사용자가 하나 이상의 속성을 수정하여 SharePoint 사이트 콘텐츠 유형을 업데이트했습니다.|
+|목록 항목 봄|ListItemViewed|사용자가 SharePoint 목록 항목을 봤습니다.|
 ||||
 
 ### <a name="sharing-and-access-request-activities"></a>공유 및 액세스 요청 활동
@@ -589,10 +590,10 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |:-----|:-----|:-----|
 |컴퓨터에서 파일을 동기화할 수 있도록 허용됨|ManagedSyncClientAllowed|사용자가 사이트와 동기화 관계를 성공적으로 설정했습니다. 사용자의 컴퓨터가 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*안전한 받는 사람 목록* 으로 칭함)에 추가된 도메인의 구성원이므로 동기화 관계가 성공적으로 설정됩니다.<br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](/powershell/module/sharepoint-online/)을 참조하세요.|
 |컴퓨터에서 파일을 동기화할 수 없도록 차단됨|UnmanagedSyncClientBlocked|사용자가 조직의 도메인 구성원이 아니거나 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용 - 받는 사람 목록*)에 추가되지 않은 도메인의 구성원인 컴퓨터에서 사이트와 동기화 관계를 설정하려고 합니다. 동기화 관계가 허용되지 않으며, 사용자 컴퓨터에서 문서 라이브러리의 파일을 동기화, 다운로드 또는 업로드할 수 없도록 차단되었습니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](/powershell/module/sharepoint-online/)을 참조하세요.|
-|컴퓨터에 파일 다운로드됨|FileSyncDownloadedFull|사용자가 동기화 관계를 설정하고 처음으로 문서 라이브러리에서 해당 컴퓨터로 파일을 다운로드합니다.|
-|컴퓨터에 파일 변경 내용 다운로드됨|FileSyncDownloadedPartial|사용자가 문서 라이브러리의 파일에 대한 변경 내용을 다운로드합니다. 이 활동은 문서 라이브러리의 파일에 대한 변경 내용이 사용자 컴퓨터로 모두 다운로드되었음을 나타냅니다. **컴퓨터에 파일 다운로드됨** 활동에 표시된 것처럼 사용자가 이전에 문서 라이브러리를 다운로드했기 때문에 변경 내용만 다운로드되었습니다.|
-|문서 라이브러리에 파일 업로드됨|FileSyncUploadedFull|사용자가 동기화 관계를 설정하고 처음으로 해당 컴퓨터에서 문서 라이브러리로 파일을 업로드합니다.|
-|문서 라이브러리에 파일 변경 내용 업로드됨|FileSyncUploadedPartial|사용자가 문서 라이브러리의 파일에 대한 변경 내용을 업로드합니다. 이 이벤트는 문서 라이브러리의 로컬 파일 버전에 대한 변경 내용이 문서 라이브러리로 업로드되었음을 나타냅니다. **문서 라이브러리에 파일 업로드됨** 활동에 표시된 것처럼 사용자가 이전에 해당 파일을 업로드했기 때문에 변경 내용만 업로드되었습니다.|
+|컴퓨터에 파일 다운로드됨|FileSyncDownloadedFull|사용자가 OneDrive 동기화 앱(OneDrive.exe)을 사용하여 SharePoint 문서 라이브러리 또는 비즈니스용 OneDrive 파일을 컴퓨터에 다운로드합니다.|
+|컴퓨터에 파일 변경 내용 다운로드됨|FileSyncDownloadedPartial|이 이벤트는 이전 비즈니스용 OneDrive 동기화 앱(Groove.exe)과 함께 사용되지 않습니다.|
+|문서 라이브러리에 파일 업로드됨|FileSyncUploadedFull|사용자가 OneDrive 동기화 앱(OneDrive.exe)을 사용하여 SharePoint 문서 라이브러리 또는 비즈니스용 OneDrive 새 파일 또는 변경 내용을 파일에 업로드합니다.|
+|문서 라이브러리에 파일 변경 내용 업로드됨|FileSyncUploadedPartial|이 이벤트는 이전 비즈니스용 OneDrive 동기화 앱(Groove.exe)과 함께 사용되지 않습니다.|
 ||||
 
 ### <a name="site-permissions-activities"></a>사이트 사용 권한 활동

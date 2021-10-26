@@ -2,7 +2,6 @@
 title: 즉각적 차단 기능을 사용하여 몇 초 안에 맬웨어 검색
 description: 즉각적 차단 기능을 켜면 몇 초 내에 맬웨어를 검색하고 차단합니다.
 keywords: 검사, 즉각적 차단, 맬웨어, 즉각적, 클라우드, defender, 바이러스 백신
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -12,16 +11,16 @@ ms.author: deniseb
 ms.reviewer: marcmcc
 manager: dansimp
 ms.custom: nextgen
-ms.date: 07/29/2021
+ms.date: 10/18/2021
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: fe20298dbfbea1b81f82864beb5d2ccb66ef66d7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 53ef056a61da1dca83c1c6bdf611e37a50dc9008
+ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193006"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "60552839"
 ---
 # <a name="turn-on-block-at-first-sight"></a>즉각적 차단 켜기
 
@@ -199,7 +198,7 @@ Windows 보안 앱을 사용하는 개별 클라이언트 장치에 즉각적 �
 
 조직에서 관리하지 않는 개인 장치가 있는 경우 즉각적 차단을 켜거나 끄는 방법에 대해 궁금할 수 있습니다. Windows 보안 앱을 사용하여 즉각적 차단을 관리할 수 있습니다.
 
-1. Windows 10 컴퓨터에서 Windows 보안 앱을 엽니다.
+1. Windows 10 또는 Windows 11 컴퓨터에서 Windows 보안 앱을 엽니다.
 
 2. **바이러스 및 위협 방지** 를 선택합니다.
 
