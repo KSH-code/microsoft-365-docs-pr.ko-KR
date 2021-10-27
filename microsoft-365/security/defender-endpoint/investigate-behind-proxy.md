@@ -2,8 +2,6 @@
 title: 전달 프록시 뒤에 발생하는 연결 이벤트 조사
 description: 프록시 대신 실제 대상을 표시하는 끝점용 Microsoft Defender의 네트워크 보호를 통해 고급 HTTP 수준 모니터링을 사용하는 방법을 알아보십시오.
 keywords: 프록시, 네트워크 보호, 전달 프록시, 네트워크 이벤트, 감사, 차단, 도메인 이름, 도메인
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5a5fd36d57a1892189b4a5e9c4d13ad9d0ac6923
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b3cfbfc2e0330ce7b09bc34d379d45fc75dde8ca
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198208"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586116"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>전달 프록시 뒤에 발생하는 연결 이벤트 조사
 

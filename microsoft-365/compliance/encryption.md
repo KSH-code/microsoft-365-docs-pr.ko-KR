@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: 이 Office 365 사용할 수 있는 가장 강력한 암호화, 프로토콜 및 기술을 사용하여 미사용 및 전송 중 콘텐츠가 암호화됩니다. 암호화에 대한 개요를 Office 365.
-ms.openlocfilehash: e250970afa709cdd328506ea350ab2d886a985b0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a1ee73d7ded7a02cd7851081412d2403e0ca8f1d
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204350"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587304"
 ---
 # <a name="encryption"></a>암호화
 
@@ -78,12 +78,11 @@ Microsoft 365 볼륨 암호화, 파일 암호화 및 사서함 암호화에 대�
 
 |**이 작업을 수행하기 위해**|**다음 리소스를 참조합니다.**|
 |:-----|:-----|
-|조직에 대한 암호화 설정  <br/> |[Office 365 Enterprise의 암호화 설정](set-up-encryption.md) <br/> |
-|인증서, 기술 및 TLS 암호 제품군에 대한 세부 정보 보기 <br/> |[암호화에 대한 기술 세부 정보](technical-reference-details-about-encryption.md) <br/> |
-|모바일 장치에서 암호화된 메시지 사용  <br/> |[Android 장치에서 암호화된 메시지 보기](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [암호화된 메시지 보기iPhone 또는 iPad](https://support.microsoft.com/en-us/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
-|암호 보호를 사용하여 문서 암호화  <br/><br/>  암호 보호는 브라우저에서 지원되지 않습니다. 암호 보호를 위해 Word, Excel PowerPoint 데스크톱 버전을 사용하세요. |[문서, 통합 문서 또는 프레젠테이션에 보호 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> 보호 추가 **섹션을** 선택한 다음 암호로 **암호화를 참조하세요.**  |
-|문서에서 암호화 제거  <br/> |[문서, 통합 문서 또는 프레젠테이션에 보호 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> 보호 **제거 섹션을** 선택한 다음 암호 암호화 **제거를 참조하세요.**  |
-
+|조직에 대한 암호화 설정|[Office 365 Enterprise의 암호화 설정](set-up-encryption.md)|
+|인증서, 기술 및 TLS 암호 제품군에 대한 세부 정보 보기|[암호화에 대한 기술 세부 정보](technical-reference-details-about-encryption.md)|
+|모바일 장치에서 암호화된 메시지 사용|[Android 장치에서](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb)암호화된 메시지 보기 암호화된 메시지 보기 iPhone[또는](https://support.microsoft.com/en-us/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf) iPad|
+|암호 보호를 사용하여 문서를 암호화합니다. (암호 보호는 브라우저에서 지원되지 않습니다. 암호 보호를 위해 Word, Excel PowerPoint 데스크톱 버전을 사용하세요.) |문서, 통합 문서 또는 프레젠테이션에 보호를 [추가하거나 제거합니다.](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) 보호 추가 **섹션을** 선택한 다음 암호로 **암호화를 참조하세요.**|
+|문서에서 암호화 제거|문서, 통합 문서 또는 프레젠테이션에 보호를 [추가하거나 제거합니다.](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) 보호 **제거 섹션을** 선택한 다음 암호 암호화 **제거를 참조하세요.**  |
 
 ## <a name="related-topics"></a>관련 항목
 

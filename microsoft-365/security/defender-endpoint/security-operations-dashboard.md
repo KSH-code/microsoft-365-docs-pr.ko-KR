@@ -2,8 +2,6 @@
 title: Microsoft Defender 보안 센터 보안 작업 대시보드
 description: 대시보드를 사용하여 위험이 있는 장치를 식별하고, 서비스의 상태를 추적하고, 장치 및 경고에 대한 통계 및 정보를 볼 수 있습니다.
 keywords: 대시보드, 경고, 새, 진행 중, 해결된, 위험, 위험 상태의 장치, 감염, 보고, 통계, 차트, 그래프, 상태, 활성 맬웨어 감지, 위협 범주, 범주, 암호 도용자, 랜섬웨어, 악용, 위협, 낮은 심각도, 활성 맬웨어
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4007280a5225fea3c13904163e546f256e7ee217
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e2535de64276048f933fba4d12c654a46ab1991d
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60166293"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587140"
 ---
 # <a name="microsoft-defender-security-center-security-operations-dashboard"></a>Microsoft Defender 보안 센터 보안 작업 대시보드
 

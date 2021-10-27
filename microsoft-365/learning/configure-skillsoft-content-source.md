@@ -16,14 +16,17 @@ ms.collection:
 localization_priority: medium
 description: Skillsoft를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
 ROBOTS: NOINDEX
-ms.openlocfilehash: 23c170deb8030caf835fb66647e4189020990c9d
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 1a9b086ea2eed50369607521470ddece381dc884
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557236"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586080"
 ---
 # <a name="configure-skillsoft-as-a-content-source-for-microsoft-viva-learning"></a>Microsoft Viva Learning
+
+>[!NOTE]
+>이 기능은 미리 보기에서 지원되지 않습니다.
 
 이 문서에서는 Viva 2013에서 Skillsoft를 타사 학습 콘텐츠 원본으로 구성하는 Learning.
 

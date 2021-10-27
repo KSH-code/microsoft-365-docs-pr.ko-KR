@@ -14,14 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 952363dfa689ea20e1ca1fcd97da4a79cfa66062
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 16c899ca895e73f51bc0d72f20e008f367cfe731
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212997"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588355"
 ---
-# <a name="protect-your-organizations-data-with-device-control"></a>장치 제어를 사용하여 조직의 데이터 보호
+# <a name="device-control-report"></a>장치 제어 보고서
 
 **적용 사항:** [끝점용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
@@ -41,6 +41,7 @@ Microsoft Defender for Endpoint 장치 컨트롤은 이동식 저장 장치 및 
 
 - **USB 드라이브 탑재 및 언모트:** USB 드라이브가 탑재되거나 탑재되지 않은 경우 생성되는 감사 이벤트입니다.
 - **PnP:** 플러그 앤 플레이 감사 이벤트는 이동식 저장소, 프린터 또는 미디어가 Bluetooth 생성됩니다.
+- **이동식 저장소 액세스 제어:** 이동식 저장소 액세스 제어 정책이 트리거될 때 이벤트가 생성됩니다. 감사, 차단 또는 허용일 수 있습니다.
 
 ## <a name="monitor-device-control-security"></a>장치 제어 보안 모니터링
 
@@ -49,7 +50,7 @@ Microsoft Defender for Endpoint 장치 컨트롤은 이동식 저장 장치 및 
 보고서 대시보드의 장치  보호 카드에는 지난 180일 동안 미디어 유형에 의해 생성된 감사 이벤트 수가 표시됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![DeviceControlReportCard](images/devicecontrolcard.png)
+> ![DeviceControlReportCard](https://user-images.githubusercontent.com/81826151/138504137-e9a7673e-e988-48cd-820d-2625ec6df352.png)
 
 세부 **정보 보기 단추는** 장치 제어 보고서 페이지에 더 많은 미디어 사용 현황 **데이터를** 보여 줍니다.
 
@@ -60,9 +61,9 @@ Microsoft Defender for Endpoint 장치 컨트롤은 이동식 저장 장치 및 
 
 이벤트를 선택하면 자세한 정보를 표시하는 플라이아웃이 나타납니다.
 
-- **일반 세부 정보:** 날짜, 작업 모드 및 이 이벤트의 정책입니다.
-- **미디어 정보:** 미디어 정보에는 미디어 이름, 클래스 이름, 클래스 GUID, 장치 ID, 공급업체 ID, 볼륨, 일련 번호 및 버스 유형이 포함됩니다.
-- **위치 세부 정보:** 장치 이름 및 MDATP 장치 ID입니다.
+- **일반 세부 정보:** 이 이벤트의 날짜, 작업 모드, 정책 및 액세스입니다.
+- **미디어 정보:** 미디어 정보에는 미디어 이름, 클래스 이름, 클래스 GUID, 장치 ID, 공급업체 ID, 일련 번호 및 버스 유형이 포함됩니다.
+- **위치 세부 정보:** 장치 이름, 사용자 및 MDATP 장치 ID입니다.
 
 > [!div class="mx-imgBorder"]
 > ![FilterOnDeviceControlReport](images/devicecontrolreportfilter.png)

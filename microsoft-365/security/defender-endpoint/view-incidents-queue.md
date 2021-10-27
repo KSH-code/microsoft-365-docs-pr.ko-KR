@@ -3,8 +3,6 @@ title: 인시던트 큐 보기 및 구성
 ms.reviewer: ''
 description: 인시던트 목록을 보고 필터를 적용하여 목록을 제한하고 보다 집중적인 보기를 얻을 수 있는 방법을 배워야 합니다.
 keywords: 보기, 구성, 인시던트, 집계, 조사, 큐, ttp
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e287f9a4713ba0ad96fd4b1b7f51e0fee948ec28
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4db3016236963f77ded08981f0380876f7819653
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207682"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587388"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>엔드포인트용 Microsoft Defender 인시던트 큐 보기 및 구성
 
@@ -58,7 +56,7 @@ ms.locfileid: "60207682"
 인시던트 심각도 | 설명
 :---|:---
 높음 </br>(빨강) | APT(고급 영구 위협)와 자주 관련된 위협. 이러한 인시던트는 장치에 노출될 수 있는 손상의 심각도로 인해 높은 위험을 나타냅니다.
-Medium </br>(주황색) | 일반적인 레지스트리 변경, 의심스러운 파일 실행, 공격 단계의 일반적인 관찰 동작 등 조직에서 거의 발견되지 않습니다.
+보통 </br>(주황색) | 일반적인 레지스트리 변경, 의심스러운 파일 실행, 공격 단계의 일반적인 관찰 동작 등 조직에서 거의 발견되지 않습니다.
 낮음 </br>(노란색) | 조직을 대상으로 하는 고급 위협을 나타낼 필요는 없는, 보급된 맬웨어 및 해킹 도구와 관련된 위협.
 정보 </br>(회색) | 정보 인시던트는 네트워크에 해로운 것으로 간주되지는 않지만 추적하는 것이 좋습니다.
 

@@ -14,14 +14,14 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.date: 10/05/2021
+ms.date: 10/25/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 7936c7023801a5eab75b9b39c69ad0d0568281de
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f31af157470a64984968f2a7befd23aab7af37e0
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205658"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588224"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -308,17 +308,17 @@ PowerShell을 사용하는 경우 다음 두 가지 방법으로 목록을 검�
 
 ### <a name="validate-the-exclusion-list-by-using-mpcmdrun"></a>MpCmdRun을 사용하여 제외 목록 유효성 검사
 
-전용 명령줄 도구에서 제외를 확인하려면 mpcmdrun.exe[명령을 ](./command-line-arguments-microsoft-defender-antivirus.md?branch=v-anbic-wdav-new-mpcmdrun-options)사용합니다.
+전용 명령줄 도구에서 제외를 확인하려면 mpcmdrun.exe[명령을 ](./command-line-arguments-microsoft-defender-antivirus.md)사용합니다.
 
 ```DOS
 Start, CMD (Run as admin)
 cd "%programdata%\microsoft\windows defender\platform"
-cd 4.18.1812.3 (Where 4.18.1812.3 is this month's MDAV "Platform Update".)
+cd 4.18.2110-3.0 (Where 4.18.2110-3.0 is this month's Microsoft Defender Antivirus "Platform Update".)
 MpCmdRun.exe -CheckExclusion -path <path>
 ```
 
 > [!NOTE]
-> MpCmdRun을 통해 제외를 확인하려면 MICROSOFT DEFENDER 바이러스 백신 CAMP 버전 4.18.1812.3(2018년 12월에 출시) 이상이 필요합니다.
+> MpCmdRun에서 제외를 확인하려면 MICROSOFT DEFENDER 바이러스 백신 CAMP 버전 4.18.2110-3.0(2021년 10월에 출시) 이상이 필요합니다.
 
 ### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>PowerShell을 사용하여 다른 모든 Microsoft Defender 바이러스 백신 제외 목록 검토
 

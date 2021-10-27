@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4a9539d075c5428374972e8f7398ff2f326a587f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.custom: api
+ms.openlocfilehash: 8913573f534dcb106ad4310171a90e4099a1ac99
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207154"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587376"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>끝점 검색 API 필드에 대한 Microsoft Defender
 
@@ -73,7 +74,7 @@ ArcSight 필드 열에는 끝점용 Defender 필드와 ArcSight의 기본 제공
 > |18 |AlertId|externalId|636210704265059241_673569822|모든 검색에 사용할 수 있는 값입니다.|
 > |19|LinkToWDATP|flexString1|`https://securitycenter.windows.com/alert/636210704265059241_673569822`|모든 검색에 사용할 수 있는 값입니다.|
 > |20|AlertTime|deviceReceiptTime|2017-05-07T01:56:59.3191352Z|이벤트가 발생한 시간입니다. 모든 검색에 사용할 수 있는 값입니다.|
-> | 21|MachineDomain|sourceDnsDomain|contoso.com|AAD에 가입된 디바이스와 관련이 없는 도메인 이름입니다. 모든 검색에 사용할 수 있는 값입니다.|
+> | 21|MachineDomain|sourceDnsDomain|contoso.com|가입된 디바이스와 관련이 AAD 도메인 이름입니다. 모든 검색에 사용할 수 있는 값입니다.|
 > |22|배우|deviceCustomString4|BORON|알려진 배우 그룹과 관련된 경고에 사용할 수 있습니다.|
 > |21+5|ComputerDnsName|매핑 없음|liz-bean.contoso.com|디바이스의 정식 도메인 이름입니다. 모든 검색에 사용할 수 있는 값입니다.|
 > ||LogOnUsers|sourceUserId|contoso\liz-bean; contoso\jay-hardee|이벤트 당시 대화형 로그온 사용자의 도메인 및 사용자입니다. 참고: Windows 10 버전 1607의 디바이스에서는 도메인 정보를 사용할 수 없습니다.|

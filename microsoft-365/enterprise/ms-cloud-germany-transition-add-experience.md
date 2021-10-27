@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동한 후의 마이그레이션 후 활동'
-ms.openlocfilehash: 234631b9169b29a557ab3b08f29dd67788575eee
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 349b9aa756a67d823e95ec2d999a04b12863d0fb
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201616"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586208"
 ---
 # <a name="post-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 마이그레이션 후 활동
 
@@ -75,7 +75,9 @@ The following table provides an overview about which endpoints will replace the 
 |:------|:-------|:-------|
 | 서비스 끝점에 대한 Office 365 DNS 서비스를 업데이트합니다. | 도이치클라드 Microsoft 클라우드를 지점으로 하는 고객 관리 DNS 항목을 업데이트하여 글로벌 서비스 끝점을 Office 365 합니다. DNS [구성의](https://admin.microsoft.com/Adminportal/Home#/Domains) Microsoft 365 관리 센터 도메인을 참조하고 변경 내용을 적용합니다. | 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. |
 ||||
-
+   > [!NOTE]
+   > 이 Microsoft 365 관리 센터 전환된 고객에게 outlook.de 영역의 새 도메인에 대한 MX(메일 교환) 레코드를 프로비전할 outlook.de 합니다. 예: consoto-com.mail.protection.outlook.de. 새 도메인의 경우 사용자 지정 MX 레코드가 사용자 지정 MX 레코드가 outlook.com/올바른 값입니다. 동일한 예제를 사용하여 올바른 항목을 consoto-com.mail.protection.outlook.com. 전환된 조직의 도메인에 대해 이 동작을 수정하기 위한 수정이 진행 중입니다.
+   
 ## <a name="third-party-services"></a>타사 서비스
 **다음에 적용됩니다.** Office 365 서비스 끝점에 타사 서비스를 사용하는 고객
 

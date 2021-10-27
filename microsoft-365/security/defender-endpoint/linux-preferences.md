@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 72f8b5e32f02ccef028e6d1bccb7bec942ce5d48
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: c8a51358d18edaf4bab680d2c63268638eca3283
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60556331"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60585994"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 기본 설정 설정
 
@@ -100,6 +100,22 @@ ms.locfileid: "60556331"
 |**사용 가능한 값:**|false(기본값) <p> true|
 |**Comments**|Endpoint 버전 100.67.60 이상용 Defender에서 사용할 수 있습니다.|
 |
+
+
+#### <a name="enabledisable-behavior-monitoring"></a>동작 모니터링 사용/사용 안 하도록 설정 
+
+장치에서 동작 모니터링 및 차단 기능이 활성화되어 있는지 여부를 확인합니다.보안 보호의 효율성을 높이기 위해 이 기능을 켜 두는 것이 좋습니다.
+
+<br>
+
+****
+
+|설명|값|
+|---|---|
+|**키**|name|
+|**Data type**|String|
+|**사용 가능한 값:**|비활성화됨 <p> 사용(기본값)|
+|**Comments**|Defender for Endpoint 버전 101.45.00 이상에서 사용할 수 있습니다.|
   
 #### <a name="run-a-scan-after-definitions-are-updated"></a>정의가 업데이트된 후 검사 실행
 
@@ -480,12 +496,14 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 - 자동 보안 인텔리전스 업데이트 사용
 - 클라우드 제공 보호 사용
 - 수준에서 자동 샘플 제출 `safe` 사용
+- 동작 모니터링 사용
 
 ### <a name="sample-profile"></a>샘플 프로필
 
 ```JSON
 {
    "antivirusEngine":{
+      "behaviorMonitoring":"enabled",
       "enableRealTimeProtection":true,
       "threatTypeSettings":[
          {
@@ -516,6 +534,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 ```JSON
 {
    "antivirusEngine":{
+      "behaviorMonitoring":"enabled",
       "enableRealTimeProtection":true,
       "scanAfterDefinitionUpdate":true,
       "scanArchives":true,

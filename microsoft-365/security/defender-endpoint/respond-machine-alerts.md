@@ -2,7 +2,6 @@
 title: 끝점용 Microsoft Defender의 장치에서 응답 작업 수행
 description: 디바이스를 고지하고, 조사 패키지를 수집하고, 태그를 관리하고, av 검색을 실행하고, 앱 실행을 제한하는 등의 장치에 대한 대응 조치를 취합니다.
 keywords: 응답, 격리, 장치 격리, 조사 패키지 수집, 알림 센터, 제한, 태그 관리, av 검사, 앱 제한
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -15,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b21090c28fd240e349ec22b078843cf980f3325c
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: a992f457bab54ff53f3b134cfeba44f50b66af6e
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555011"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587412"
 ---
 # <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
@@ -56,7 +55,7 @@ ms.locfileid: "60555011"
 
 > [!IMPORTANT]
 >
-> - 이러한 응답 작업은 Windows 10 버전 1703 이상, Windows Server 2019 및 Windows Server 2022의 장치에만 사용할 수 있습니다.
+> - 이러한 응답 작업은 Windows 10, 버전 1703 이상, Windows 11, Windows Server 2019 및 Windows Server 2022의 장치에만 사용할 수 있습니다.
 > - 비영리 Windows 플랫폼의 경우 응답 기능(예: 장치 고리)은 타사 기능에 따라 달라집니다.
 > - Microsoft 자사 에이전트의 경우 최소 OS 요구 사항에 대한 각 기능 아래의 "추가 정보" 링크를 참조하세요.
 
@@ -154,7 +153,7 @@ ms.locfileid: "60555011"
 악의적인 프로세스를 중지하여 공격을 포함하는 것 외에도 장치를 잠그고 잠재적인 악성 프로그램이 실행되지 않도록 할 수도 있습니다.
 
 >[!IMPORTANT]
-> - 이 작업은 버전 1709 이상에서 Windows 10 장치에서 사용할 수 Windows Server 2016. 
+> - 이 작업은 버전 1709 이상, Windows 10 버전 및 Windows 11 디바이스에서 사용할 수 Windows Server 2016. 
 > - 이 기능은 조직에서 이 기능을 사용하는 Microsoft Defender 바이러스 백신.
 > - 이 작업은 응용 프로그램 제어 Windows Defender 정책 형식 및 서명 요구 사항을 충족해야 합니다. 자세한 내용은 코드 무결성 정책 형식 및 [서명을 참조하세요.](/windows/security/threat-protection/windows-defender-application-control/use-code-signing-to-simplify-application-control-for-classic-windows-applications)
 
@@ -182,8 +181,8 @@ ms.locfileid: "60555011"
 
 >[!IMPORTANT]
 >- 이 작업은 현재 macOS 및 Linux에서 지원되지 않습니다. 라이브 응답을 사용하여 작업을 실행합니다. 라이브 응답에 대한 자세한 내용은 라이브 응답을 사용하여 디바이스에서 [엔터티 조사를 참조하세요.](live-response.md)
->- Windows 10, 버전 1703, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2 및 Windows Server 2022의 장치에서 전체 Windows 사용할 수 있습니다.
->- 선택적 고리는 버전 1709 이상에서 Windows 10 디바이스에 사용할 수 있습니다.
+>- Windows 10, 버전 1703, Windows 11, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2 및 Windows Server 2022의 장치에서 전체 Windows 사용할 수 있습니다.
+>- 선택적 사용은 버전 1709 이상에서 Windows 10 디바이스에 사용할 수 Windows 11.
 >- 장치를 고지할 때 특정 프로세스 및 대상만 허용됩니다. 따라서 장치가 격리된 후 전체 VPN 터널 뒤에 있는 장치는 끝점용 Microsoft Defender 클라우드 서비스에 도달할 수 없습니다. Microsoft Defender for Endpoint 및 클라우드 기반 보호 관련 트래픽에 Microsoft Defender 바이러스 백신 분할 터널링 VPN을 사용하는 것이 좋습니다.
 
 이 장치 분리 기능은 손상된 디바이스를 네트워크에서 분리하는 동시에 디바이스를 계속 모니터링하는 Endpoint용 Defender 서비스에 대한 연결을 유지 관리합니다.

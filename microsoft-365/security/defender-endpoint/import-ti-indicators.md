@@ -14,12 +14,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5ad5e942f60f34adb7faf35eb70b1a027124664e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.custom: api
+ms.openlocfilehash: 222659172b939587a74a2fd34deb53f6140f414b
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157929"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588367"
 ---
 # <a name="import-indicators-api"></a>표시기 가져오기 API
 
@@ -46,7 +47,7 @@ IP에 대한 CIDR은 지원되지 않습니다.
 2. 테넌트당 활성 표시기는 15,000개로 제한됩니다. [](ti-indicator.md)
 3. 하나의 API 호출에 대한 최대 일괄 처리 크기는 500입니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [시작을 참조합니다.](apis-intro.md)
 
@@ -66,7 +67,7 @@ POST https://api.securitycenter.microsoft.com/api/indicators/import
 
 이름|유형|설명
 :---|:---|:---
-권한 부여|String|Bearer {token}. **필수입니다**.
+권한 부여|문자열|Bearer {token}. **필수입니다**.
 Content-Type|문자열|application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: 43659c3eb548d31ad3b6d07d7855a5076b843b54
-ms.sourcegitcommit: d38a40db14a0e41e3c1c0f235843968b2746c6c4
+ms.openlocfilehash: cf701be45841f155b825e86b761f5967bc6298f4
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60562178"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588280"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
 
@@ -72,7 +72,7 @@ A Microsoft Defender for Office 365 평가판은 몇 번의 클릭 후에 Office
 
 ## <a name="licensing"></a>라이선싱
 
-평가판 설정의 일부로, Office 365 대한 Defender 라이선스가 조직에 자동으로 적용됩니다. 라이선스는 처음 30일 동안 무료로 제공됩니다.
+평가판 설정의 일부로, Office 365 대한 Defender 라이선스가 조직에 자동으로 적용됩니다. 라이선스는 처음 90일 동안 무료로 제공됩니다.
 
 평가판의 라이선스 카드에는 다음 정보가 표시됩니다.
 
@@ -120,7 +120,7 @@ A: 평가판이 만료되면 30일 동안 평가판 데이터(이전에는 Offic
 
 ### <a name="q-how-many-times-can-i-use-the-defender-for-office-365-trial-in-my-organization"></a>Q: 조직에서 평가판을 위해 Defender를 Office 365 수 있나요?
 
-A: 최대 2회 첫 번째 평가판이 만료되면 만료 날짜 이후 30일 이상 기다렸다가 2007년 10월 평가판용 Defender에 Office 365 있습니다.
+A: 최대 2회 첫 번째 평가판이 만료되면 만료 날짜 이후 30일 이상 기다렸다가 2007년 10월 평가판용 Defender에 Office 365 있습니다. 두 번째 평가판을 시작한 후 다른 평가판에 등록할 수 없습니다.
 
 ## <a name="learn-more-about-defender-for-office-365"></a>Defender for Office 365
 

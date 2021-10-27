@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내에서 인덱싱된 항목(인덱싱되지 않은 항목이라고도 Exchange, SharePoint 및 비즈니스용 OneDrive 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 4b919500c929c4bc92c6ef090442b737ecadf212
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 5160a46e6be825dd858be030fc5cf5941734e65d
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364642"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586316"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -67,7 +67,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
 
 `(Size of all partially indexed items/Size of all items) x 100`
 
-`(10.27 GB/146.46 MB) x 100 = 7.0%`
+`(10.27 GB/146.46 GB) x 100 = 7.0%`
 
 따라서 이전 예에서는 사서함 항목의 전체 크기의 7%가 부분적으로 인덱싱된 항목에서 나타났습니다. 앞서 설명한 것 처럼 대부분의 조직 고객은 볼륨당 콘텐츠의 1% 미만을 차지하고 부분적으로 인덱싱된 크기에 따라 콘텐츠의 12% 미만을 차지합니다.
 

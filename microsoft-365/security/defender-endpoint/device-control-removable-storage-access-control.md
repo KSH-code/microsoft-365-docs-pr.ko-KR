@@ -15,13 +15,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.date: 10/21/2021
-ms.openlocfilehash: bc73ab308fed1d420815d894c5e8c6fbeb4aaa34
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.date: 10/25/2021
+ms.openlocfilehash: b227af391856166fb4a3b35be7355d8030677658
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553643"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587840"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -70,7 +70,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 |속성 이름|설명|옵션|
 |---|---|---|
-|**GroupId**|[GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier), 고유 ID는 그룹을 나타내며 정책에 사용됩니다.||
+|**GroupId**|고유 ID인 GUID는 그룹을 나타내며 정책에 사용됩니다.||
 |**DescriptorIdList**|그룹에서 다루는 데 사용할 장치 속성을 나열합니다. 각 장치 속성에 대한 자세한 내용은 [장치 속성을](device-control-removable-storage-protection.md) 참조하세요. 모든 속성에는 대소문자 구분이 있습니다. |<ul><li>**PrimaryId**: RemovableMediaDevices, CdRomDevices, WpdDevices</li><li>**DeviceId**</li><li>**HardwareId**</li><li>**InstancePathId**: InstancePathId는 시스템에서 장치를 고유하게 식별하는 문자열입니다(예: `USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0` ). 끝에 있는 번호(예: &0)는 사용 가능한 슬롯을 나타내며 디바이스에서 장치로 변경될 수 있습니다. 최상의 결과를 얻기 위해 끝에 와일드카드를 사용 합니다. 예를 들면 `USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*`와 같습니다.</li><li>**FriendlyNameId**</li><li>**SerialNumberId**</li><li>**VID**</li><li>**PID**</li><li>**VID_PID**<ul><li>0751_55E0: 이 정확한 VID/PID 쌍과 일치</li><li>55E0: PID=55E0과 모든 미디어 일치 </li><li>0751: VID=0751과 모든 미디어 일치</li></ul></li></ul>|
 |**MatchType**|DescriptorIDList에 여러 장치 속성이 사용되는 경우 MatchType은 관계를 정의합니다.|**MatchAll:** DescriptorIdList의 모든 특성은 **And 관계가** 됩니다. 예를 들어 관리자가 DeviceID와 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 시스템에서 USB가 두 값을 모두 충족하는지 확인합니다. <p> **MatchAny:** DescriptorIdList의 특성은 **또는** 관계가 됩니다. 예를 들어 관리자가 DeviceID 및 InstancePathID를 넣는 경우 연결된 모든 USB에 대해 USB에 **동일한 DeviceID** 또는 **InstanceID** 값이 있는 한 시스템에서 적용을 실행합니다. |
 
@@ -80,13 +80,13 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 | 속성 이름 | 설명 | 옵션 |
 |---|---|---|
-| **PolicyRuleId** | 고유한 ID인 [GUID는](https://en.wikipedia.org/wiki/Universally_unique_identifier)정책을 나타내며 보고 및 문제 해결에 사용됩니다. | |
+| **PolicyRuleId** | 고유한 ID인 GUID는 정책을 나타내며 보고 및 문제 해결에 사용됩니다. | |
 | **IncludedIdList** | 정책을 적용할 그룹입니다. 여러 그룹이 추가된 경우 정책은 해당 그룹의 모든 미디어에 적용됩니다.|이 인스턴스에서는 그룹 ID/GUID를 사용해야 합니다. <p> 다음 예에서는 GroupID의 사용을 보여 줍니다. <p> `<IncludedIdList> <GroupId> {EAA4CCE5-F6C9-4760-8BAD-FDCC76A2ACA1}</GroupId> </IncludedIdList>` |
 | **ExcludedIDList** | 정책이 적용되지 않는 그룹입니다. | 이 인스턴스에서는 그룹 ID/GUID를 사용해야 합니다. |
 | **항목 ID** | 하나의 PolicyRule에는 여러 항목이 있을 수 있습니다. 고유한 GUID가 있는 각 항목은 장치 제어에 한 가지 제한을 알 수 있습니다.| |
 | **유형** | IncludedIDList에서 이동식 저장소 그룹에 대한 작업을 정의합니다. <ul><li>적용: 허용 또는 거부 </li><li>감사: AuditAllowed 또는 AuditDenied</ul></li> | <ul><li>허용</li><li>거부 </li><li>AuditAllowed: 액세스가 허용되는 경우 알림 및 이벤트를 정의합니다.</li><li>AuditDenied: 액세스가 거부된 경우 알림 및 이벤트를 정의합니다. 거부 항목과 **함께 작업해야** 합니다.</li></ul> <p> 동일한 미디어에 대한 충돌 유형이 있는 경우 시스템은 정책의 첫 번째 형식을 적용합니다. 충돌 형식의 예로는 **Allow** 및 **Deny가 있습니다.** |
-| **Sid** | 로컬 컴퓨터 Sid 또는 AD 개체의 Sid는 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다. |  |
-| **ComputerSid** | 로컬 컴퓨터 Sid 또는 AD 개체의 Sid는 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 ComputerSid를 사용할 수 있으며 ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다. |  |
+| **Sid** | 로컬 사용자 Sid 또는 사용자 Sid 그룹 또는 AD 개체의 Sid는 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다. |  |
+| **ComputerSid** | 로컬 컴퓨터 Sid 또는 컴퓨터 Sid 그룹 또는 AD 개체의 Sid는 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 ComputerSid를 사용할 수 있으며 ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다. |  |
 | **옵션** | 알림을 표시할지 여부를 정의합니다. |**0 또는 4:** 허용 또는 거부 유형이 선택된 경우. <ul><li>0: nothing</li><li>4: 이 항목에 **대해 AuditAllowed** 및 **AuditDenied를** 사용하지 않도록 설정 **차단이 발생하고** AuditDenied가 구성된 경우에도 시스템에 알림이 표시되지 않습니다. </li></ul> <p> **AuditAllowed 유형이 선택된** 경우: <ul><li>0: nothing</li><li>1: nothing</li><li>2: 이벤트 보내기</li><li>3: 이벤트 보내기 </li></ul><p> **AuditDenied 유형이 선택된** 경우: <ul><li>0: nothing</li><li>1: 알림 표시</li><li>2: 이벤트 보내기</li><li>3: 알림 표시 및 이벤트 보내기 </li></ul>|
 |AccessMask|액세스를 정의합니다. | **1-7**: <ol><li>읽기</li><li>쓰기</li><li>읽기 및 쓰기</li><li>실행</li><li>읽기 및 실행</li><li>쓰기 및 실행 </li><li>읽기 및 쓰기 및 실행</li></ol> |
 

@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fab35b6e40d03239d57329128505a31737904a64
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 608746c406ef308636e0a2ffc6f4bb1d69f6bbf7
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555803"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587352"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
@@ -55,10 +55,6 @@ ms.locfileid: "60555803"
 
 > [!NOTE]
 > VPN을 사용하지 않도록 설정하면 웹 보호를 사용할 수 없습니다. 웹 보호를 다시 사용하도록 설정하려면 장치에서 끝점용 Microsoft Defender 앱을 열고 웹 보호를 사용하도록 설정하세요.
-
-## <a name="issues-with-device-health-card"></a>장치 상태 카드 관련 문제
-
-사용자가 최신 버전에 있는 경우에도 잘못된 알림으로 인해 iOS 버전을 업데이트할 수 있는 장치 상태 카드에 알려진 문제가 있습니다. 사용자가 끝점용 Defender의 알림을 무시하는 것이 좋습니다. 이 때문에 장치 준수에 영향을 줄 수 없습니다. We are working to resolve this issue and will update this place once we have a resolution.
 
 ## <a name="coexistence-with-multiple-vpn-profiles"></a>여러 VPN 프로필과 공존
 

@@ -2,7 +2,6 @@
 title: 2016에서 인시던트 Microsoft 365 Defender
 description: 상태, 인시던트, 경고, 연관된 경고, 할당, 업데이트, 상태, 관리, 분류, microsoft, 365, m365를
 keywords: 인시던트, 인시던트, 분석, 대응, 경고, 상관 관계 경고, 할당, 업데이트, 상태, 관리, 분류, Microsoft, 365, m365
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,14 +19,13 @@ ms.collection:
 ms.topic: conceptual
 search.appverid:
 - MOE150
-- MET150
 ms.technology: m365d
-ms.openlocfilehash: 89a294766f4472c4a23d7149ff2ca843d4e7cc38
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3ac0af88a38c6e563dd75e85d1f24820c9ebe19d
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212092"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587767"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>2016에서 인시던트 Microsoft 365 Defender
 

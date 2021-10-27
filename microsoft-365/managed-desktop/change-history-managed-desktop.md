@@ -13,17 +13,43 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 42ee6668c4a38a446e06732fdefdd1f26cf4ef62
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8a2720a4b01992396a06fc4109887bd759d539ce
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209516"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588388"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 문서에는 새 문서와 업데이트된 문서가 Microsoft Managed Desktop [나열되어 있습니다.](index.yml) "업데이트된" 문서에는 오타, 스타일 또는 서식 문제의 수정과 같은 부적인 수정이 추가되거나 수정되었습니다. 언제든지 의 리포지토리를 방문하여 특정 커밋 기록(변경 내용 세부 정보 [포함)을](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)볼 GitHub.
 
+## <a name="october-2021"></a>2021년 10월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[장치 요구 사항](service-description/device-requirements.md) | 업데이트된 문서
+[직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트된 문서
+[준비 평가 도구](get-ready/readiness-assessment-tool.md) | 업데이트된 문서
+[장치에 앱 배포](get-started/deploy-apps.md) | 업데이트된 문서
+
+## <a name="september-2021"></a>2021년 9월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[보고서 작업](working-with-managed-desktop/reports.md)| 업데이트된 문서
+[직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트된 문서
+[게스트 계정에 대한 필수 구성 요소](get-ready/guest-accounts.md) | 업데이트된 문서
+[준비 평가 도구에서 발견한 문제 해결](get-ready/readiness-assessment-fix.md) | 업데이트된 문서
+
+## <a name="august-2021"></a>2021년 8월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[보고서 작업](working-with-managed-desktop/reports.md)| 업데이트된 문서
+[디바이스 상태 보고서](working-with-managed-desktop/device-status-report.md) | 업데이트된 문서
+[Windows 보안 업데이트 보고서](working-with-managed-desktop/security-updates-report.md) | 업데이트된 문서
+[개인 정보 및 개인 데이터](service-description/privacy-personal-data.md) | 업데이트된 문서
+[Microsoft Managed Desktop 수명 주기](service-description/device-lifecycle.md) | 업데이트된 문서
+[Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](get-ready/certs-wifi-lan.md) | 업데이트된 문서
+[준비 평가 도구에서 발견한 문제 해결](get-ready/readiness-assessment-fix.md) | 업데이트된 문서
 
 ## <a name="july-2021"></a>2021년 7월
 신규 또는 변경된 문서 | 설명
@@ -185,7 +211,7 @@ ms.locfileid: "60209516"
 --- | ---
 [Microsoft Managed Desktop 앱 요구 사항](service-description/mmd-app-requirements.md) | 업데이트된 문서
 [규정 준수](intro/compliance.md) | 업데이트된 문서
-[앱 컨트롤 시작](get-started/get-started-app-control.md) | 업데이트된 문서
+[앱 제어 시작하기](get-started/get-started-app-control.md) | 업데이트된 문서
 [앱 제어 작업](working-with-managed-desktop/work-with-app-control.md) | 업데이트된 문서
 [Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트된 문서
 [앱 제어](service-description/app-control.md) | 업데이트된 문서

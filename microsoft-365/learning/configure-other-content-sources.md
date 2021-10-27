@@ -16,14 +16,17 @@ ms.collection:
 localization_priority: medium
 description: 다른 공급자를 사용자에 대한 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
 ROBOTS: NOINDEX
-ms.openlocfilehash: 006b3e6690df253f80bc8e47d93264b9bf19ea0f
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 1a638131b9bf8cca41f7ee8575e472885929d3c8
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557272"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588008"
 ---
 # <a name="add-other-content-providers-for-microsoft-viva-learning"></a>사용자용 다른 콘텐츠 공급자 Microsoft Viva Learning
+
+>[!NOTE]
+>이 기능은 미리 보기에서 지원되지 않습니다.
 
 Viva 및 Viva를 통해 점점 더 많은 학습 콘텐츠 공급자 및 학습 관리 시스템을 사용할 Learning. 이 집합은 더 많은 공급자가 프로그램에 참여하거나 프로그램을 통해 상태를 변경하면 변경될 수 있습니다.
 

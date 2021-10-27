@@ -16,14 +16,17 @@ ms.collection:
 localization_priority: medium
 description: Udemy를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
 ROBOTS: NOINDEX
-ms.openlocfilehash: edd11ba3a1b3edc8b7019de45261fb9b539a2efb
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 404f70983f1deadfac111829f026bd3ccdbcb633
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557084"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587948"
 ---
 # <a name="configure-udemy-as-a-content-source-for-microsoft-viva-learning"></a>Udemy를 콘텐츠 원본으로 Microsoft Viva Learning
+
+>[!NOTE]
+>이 기능은 미리 보기에서 지원되지 않습니다.
 
 이 문서에서는 Udemy를 사용자용 타사 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
 

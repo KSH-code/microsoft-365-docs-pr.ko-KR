@@ -2,7 +2,7 @@
 title: Ansible을 통해 Linux에서 끝점용 Microsoft Defender 배포
 ms.reviewer: ''
 description: Ansible을 사용하여 Linux에서 끝점용 Microsoft Defender를 배포하는 방법을 기술합니다.
-keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos, fedora, amazon linux 2
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ecc13693a043602885e8f221e6967bd44eb0da8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 796095323cfbe24a49ed4da712ceef55e8a5d941
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205442"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588200"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Ansible을 통해 Linux에서 끝점용 Microsoft Defender 배포
 
@@ -141,7 +141,7 @@ ms.locfileid: "60205442"
     다음 명령에서 *[distro]* 및 *[version]을* 식별한 정보로 바 대체합니다.
 
     > [!NOTE]
-    > Oracle Linux의 경우 *[distro]를* "rhel"으로 바하십시오.
+    > Oracle Linux 및 Amazon Linux 2의 경우 *[distro]를* "rhel"으로 대체합니다.
 
   ```bash
   - name: Add Microsoft APT key

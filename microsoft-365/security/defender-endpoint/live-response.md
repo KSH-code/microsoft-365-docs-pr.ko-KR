@@ -2,8 +2,6 @@
 title: 끝점용 Microsoft Defender에서 라이브 응답을 사용하여 장치의 엔터티 조사
 description: 보안 원격 셸 연결을 사용하여 장치에 액세스하여 조사 작업을 수행하고 실시간으로 디바이스에서 즉각적인 응답 작업을 수행할 수 있습니다.
 keywords: 원격, 셸, 연결, 라이브, 응답, 실시간, 명령, 스크립트, 재구성, 헌트, 내보내기, 로그, 놓기, 다운로드, 파일,
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c7a078fdd618cd3b5070063d4fa7529c9c7f6216
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 07091dfaa997ff0415ecdb981b0b26f301cf0dce
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553799"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587176"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 

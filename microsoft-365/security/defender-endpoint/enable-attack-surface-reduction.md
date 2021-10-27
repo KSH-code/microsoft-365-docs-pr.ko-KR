@@ -17,12 +17,12 @@ ms.technology: mde
 ms.topic: how-to
 ms.date: 08/17/2021
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5ef41d825b8f375377a6307a0a4de8f69c5737df
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 59208058dce036da06d5378efc2539b8f454dead
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240587"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60585912"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
@@ -54,7 +54,7 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 
 - Windows Defender 바이러스 백신 AV로 사용(실시간 보호 기능)
 - [클라우드 배달 보호](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 기능 사용(일부 규칙의 경우
-- Windows 10 Enterprise E5 또는 E3 라이선스 또는 Microsoft 365 라이선스
+- Windows 10 Enterprise E5 또는 E3 라이선스
 
 공격 표면 감소 규칙에는 [Windows E5](/windows/deployment/deploy-enterprise-licenses)라이선스가 필요하지는 않습니다. Windows E5 라이선스가 있는 경우 끝점용 Defender에서 사용 가능한 모니터링, 분석 및 워크플로를 비롯한 고급 관리 기능과 Microsoft 365 보안 센터의 보고 및 구성 기능을 사용할 수 있습니다. E3 라이선스에서는 이러한 고급 기능을 사용할 수 없지만 이벤트 뷰어를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
 
@@ -101,6 +101,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 ## <a name="intune"></a>Intune
 
+**장치 구성 프로필**
 1. 장치 **구성** \> **프로필을 선택합니다.** 기존 끝점 보호 프로필을 선택하거나 새 끝점 보호 프로필을 만들 수 있습니다. 새 프로필을 만들하려면 프로필 만들기를 **선택하고** 이 프로필에 대한 정보를 입력합니다. 프로필 **유형에서** **끝점 보호를 선택합니다.** 기존 프로필을 선택한 경우 속성을  선택한 다음 을 **설정.**
 
 2. 끝점 보호 창에서 **Exploit** **Guard** Windows Defender 선택하고 공격 표면 **감소를 선택합니다.** 각 ASR 규칙에 대해 원하는 설정을 선택합니다.
@@ -110,6 +111,17 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
    `C:\folder`, `%ProgramFiles%\folder\file`, `C:\path`
 
 4. 세 **개의 구성** 창에서 확인을 선택합니다. 그런 다음 **새** 끝점 보호 파일을 만드는  경우 만들기를 선택하고 기존 끝점 보호 파일을 편집하는 경우 저장을 선택합니다.
+
+**끝점 보안 정책**
+1. **끝점 보안** \> **공격 표면 감소를 선택합니다.** 기존 ASR 규칙을 선택하거나 새 ASR 규칙을 만들 수 있습니다. 새 정책을 만들하려면 정책 만들기를 **선택하고** 이 프로필에 대한 정보를 입력합니다. 프로필 **유형에서** 공격 **표면 감소 규칙을 선택합니다.** 기존 프로필을 선택한 경우 속성을  선택한 다음 을 **설정.**
+
+2. 구성 **설정 창에서** 공격  표면 감소를 선택한 다음 각 ASR 규칙에 대해 원하는 설정을 선택합니다.
+
+3. 보호해야 하는 추가 폴더 **목록,** 보호된 폴더에 액세스할 수 있는 앱 목록 및 공격 표면 축소 규칙에서 파일 및 경로 제외에서 개별 파일 및 폴더를 입력합니다.  가져오기 **를** 선택하여 ASR 규칙에서 제외할 파일 및 폴더가 포함된 CSV 파일을 가져올 수도 있습니다. CSV 파일의 각 줄 서식은 다음과 같이 지정해야 합니다.
+
+   `C:\folder`, `%ProgramFiles%\folder\file`, `C:\path`
+
+4. 세 **가지** 구성 창에서 다음을  선택하고 새 정책을 만드는 경우  만들기를 선택하고 기존 정책을 편집하는 경우 저장을 선택합니다.
 
 ## <a name="mem"></a>MEM
 

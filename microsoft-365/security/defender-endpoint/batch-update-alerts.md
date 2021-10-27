@@ -15,12 +15,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 59f06ebfb75d628bb5e050a8dfd2b93e6714245f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.custom: api
+ms.openlocfilehash: b8109c71206ee9f689cafb28d7def14ff3122704
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208004"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586140"
 ---
 # <a name="batch-update-alerts"></a>일괄 업데이트 경고
 
@@ -74,8 +75,8 @@ POST /api/alerts/batchUpdate
 
 이름|유형|설명
 :---|:---|:---
-권한 부여 | String | Bearer {token}. **필수입니다**.
-Content-Type | String | application/json. **필수입니다**.
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -88,11 +89,11 @@ Content-Type | String | application/json. **필수입니다**.
 속성 | 유형 | 설명
 :---|:---|:---
 alertIds | 목록 &lt; 문자열&gt;| 업데이트할 경고의 IDS 목록입니다. **필수**
-status | String | 지정한 경고의 업데이트된 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
-assignedTo | String | 지정된 경고의 소유자
-classification | String | 지정한 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
-determination | String | 지정한 경고의 결정에 대해 지정합니다. 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
-comment | String | 지정한 경고에 추가할 설명입니다.
+status | 문자열 | 지정한 경고의 업데이트된 상태를 지정합니다. 속성 값은 'New', 'InProgress' 및 'Resolved'입니다.
+assignedTo | 문자열 | 지정된 경고의 소유자
+classification | 문자열 | 지정한 경고의 사양을 지정합니다. 속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다. 
+determination | 문자열 | 지정한 경고의 결정에 대해 지정합니다. 속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.
+comment | 문자열 | 지정한 경고에 추가할 설명입니다.
 
 ## <a name="response"></a>응답
 

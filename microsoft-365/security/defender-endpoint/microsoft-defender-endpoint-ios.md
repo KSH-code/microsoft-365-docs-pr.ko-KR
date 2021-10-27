@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2cf075b115cd5591e8187f753649ed48bdee7f03
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c4c44b62cba02f772f606d13abce7b26270b9613
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174654"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587152"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
@@ -45,9 +45,14 @@ ms.locfileid: "60174654"
 
 - 앱의 최종 사용자에게 할당된 끝점용 Microsoft Defender 라이선스입니다. 끝점 [라이선스 요구 사항에 대한 Microsoft Defender를 참조하세요.](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
 
-- **등록된 장치의 경우:** 디바이스가 [](/mem/intune/user-help/enroll-your-device-in-intune-ios) Intune 장치 준수 정책을 Intune 회사 포털 앱을 통해 등록됩니다. 이렇게 하려면 최종 사용자에게 라이선스를 할당해야 Microsoft Intune 합니다.
+- **등록된 장치의 경우**:
+    - Intune 장치 [](/mem/intune/user-help/enroll-your-device-in-intune-ios) 준수 정책을 적용하기 위해 Intune 회사 포털 장치를 통해 등록됩니다. 이렇게 하려면 최종 사용자에게 라이선스를 할당해야 Microsoft Intune 합니다.
     - Intune 회사 포털 앱을 [Apple App Store에서 다운로드할 수 있습니다.](https://apps.apple.com/us/app/intune-company-portal/id719171358)
-    - Apple은 사용자가 앱 스토어에서 다른 앱을 다운로드하도록 리디렉션을 허용하지 않습니다. 따라서 이 단계는 끝점용 Microsoft Defender 앱에 온보딩하기 전에 사용자가 수행해야 합니다.
+    
+    >[!NOTE]
+    >Apple에서는 사용자가 앱 스토어에서 다른 앱을 다운로드하도록 리디렉션을 허용하지 않습니다. 따라서 사용자가 끝점용 Microsoft Defender 앱에 온보딩하기 전에 이 단계를 완료해야 합니다.
+    
+    - 디바이스가 디바이스에 등록되어 Azure Active Directory. 이렇게 하려면 최종 사용자가 앱 을 통해 [로그인해야 Microsoft Authenticator 합니다.](https://apps.apple.com/app/microsoft-authenticator/id983156458)
 
 - **등록되지 않은** 장치의 경우: 디바이스가 등록되어 Azure Active Directory. 이렇게 하려면 최종 사용자가 앱 을 통해 [로그인해야 Microsoft Authenticator 합니다.](https://apps.apple.com/app/microsoft-authenticator/id983156458)
 

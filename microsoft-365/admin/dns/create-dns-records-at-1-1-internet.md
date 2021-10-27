@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: Microsoft용 1 IONOS 1에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS&설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 9fe9d97f381369836b036a3302e9d28fae070fac
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: d7bda20734851ece8e699bc19459f1eb6ece8f03
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60556981"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586592"
 ---
 # <a name="connect-your-dns-records-at-ionos-by-11-to-microsoft-365"></a>커넥트 IONOS에서 DNS 레코드를 1에서&1에서 Microsoft 365
 
@@ -41,24 +41,30 @@ DNS 호스팅 공급자로 IONOS를&1로 설정하는 경우 이 문서의 단�
 
 - [**도메인 커넥트**](#use-domain-connect-to-verify-and-set-up-your-domain) 다른 전자 메일 서비스 공급자와 함께 도메인을 설정하지 않은 경우 Domain 커넥트 단계를 사용하여 도메인 공급자와 함께 사용할 새 도메인을 자동으로 확인하고 Microsoft 365. 
 
-또는
+    또는
 
 - [**수동 단계 사용**](#create-dns-records-with-manual-setup) 아래 수동 단계를 사용하여 도메인을 확인하고 도메인 등록 기관에 추가할 레코드를 언제 및 어떤 레코드로 추가할지 선택하세요. 예를 들어 편의상 새 MX(메일) 레코드를 설정할 수 있습니다. 
 
 ## <a name="use-domain-connect-to-verify-and-set-up-your-domain"></a>Domain 커넥트 사용하여 도메인 확인 및 설정
 
-다음 단계에 따라 도메인을 사용하여 Cloudflare 도메인을 자동으로 확인하고 Microsoft 365.
+다음 단계에 따라 IONOS를 1개 도메인과 1개&1개까지 자동으로 Microsoft 365.
 
 1. 다음 Microsoft 365 관리 센터 도메인 **설정** 를 선택하고 설정할  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"></a>도메인을 선택합니다.
 
+    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-1.png" alt-text="Select your domain in Microsoft 365.":::
+
 1. 세 개의 점(추가 작업)을 > **시작을 선택합니다.**
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text="설치 시작을 선택합니다.":::
 
 1. On the How do you want to connect your domain? 페이지, **계속을 선택합니다.**   
 
 1. DNS 레코드 추가 페이지에서 DNS 레코드 **추가를 선택합니다.**
 
 1. IONOS by 1&1 로그인 페이지에서 계정에 로그인하고 커넥트 및 **허용을** **선택합니다.**
-    
+ 
+    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-3.png" alt-text="선택 커넥트 다음 허용을 선택합니다.":::
+   
     그러면 도메인에 대한 도메인 설정이 Microsoft 365. 
 
 ## <a name="create-dns-records-with-manual-setup"></a>수동 설정으로 DNS 레코드 만들기
@@ -88,18 +94,25 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
  
    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-2.png" alt-text="드롭다운 목록에서 DNS를 선택합니다.":::
     
-1. 레코드 **추가를** 선택한 다음 **TXT 섹션을** 선택합니다.
+1. 레코드 **추가 를 선택합니다.**
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-3.png" alt-text="레코드 추가를 선택합니다.":::
+
+1. **TXT 섹션을** 선택합니다.
     
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-4.png" alt-text="TXT 섹션을 선택합니다.":::
+
 1. DNS 레코드 추가 페이지의 새 레코드용 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. 
     
-    ||||
+    |**호스트 이름** <br/> |**Value(값)** <br/> | **TTL**
     |:-----|:-----|:-----|
-  |**호스트 이름** <br/> |**값** <br/> |
-|(이 필드를 비워 두십시오.)  <br/> |MS=ms *XXXXXXXX*  <br/> 참고: 이 예제는 다음과 같습니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
-   
-1. **저장** 을 선택합니다.
+    |(이 필드를 비워 두십시오.)  <br/> |MS=ms *XXXXXXXX*  <br/> 참고: 이 예제는 다음과 같습니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          | 1시간 |
     
-1. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
+1. **저장** 을 선택합니다.
+  
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-5.png" alt-text="저장을 선택합니다.":::
+  
+    방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
 이제 도메인 등록 기관에 레코드가 추가되었습니다. Microsoft 365로 돌아가서 Microsoft 365에 레코드를 찾을 것을 요청합니다. Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
 
@@ -107,9 +120,13 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 1. 관리 센터에서 도메인 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**로 이동하세요.**</a>
     
-2. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.**   
+1. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.** 
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text="설치 시작을 선택합니다.":::
+
+1. 계속을 **선택합니다.**
   
-3. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
+1. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
     
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요.
@@ -129,18 +146,28 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
  
    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-2.png" alt-text="드롭다운 목록에서 DNS를 선택합니다.":::
     
-1. 레코드 **추가를** 선택한 다음 **MX 섹션을** 선택합니다.
+1. 레코드 **추가 를 선택합니다.**
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-3.png" alt-text="레코드 추가를 선택합니다.":::
+
+1. **MX 섹션을** 선택합니다.
     
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-MX.png" alt-text="MX 섹션을 선택합니다.":::
+  
 1. DNS 레코드 추가 페이지의 새 레코드용 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. 
     
     | **호스트 이름**| **연결 대상** |**Priority(우선 순위)**| **TTL** |
     |:-----|:-----|:-----| :-----|
     |  @  | *\<domain-key\>*  .mail.protection.outlook.com  <br/>  참고: \<domain-key\> Microsoft 계정에서 다운로드합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. | 1시간 |
   
-8. **저장** 을 선택합니다.<br/>(아래로 스크롤해야 할 수 있습니다.)<br/>
+1. **저장** 을 선택합니다.
 
-6. MX 레코드가 이미 나열되어 있는 경우 레코드 삭제 를 선택하여 각 레코드를 **삭제합니다.**
-  
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-MX-Save.png" alt-text="저장을 선택합니다.":::
+
+1. MX 레코드가 이미 나열되어 있는 경우 레코드 추가  페이지에서 레코드 휴지통 삭제를 선택하여 각 레코드를 **삭제합니다.**
+ 
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-Delete.png" alt-text="레코드 삭제를 선택합니다.":::
+ 
 ### <a name="add-the-cname-record-required-for-microsoft"></a>Microsoft에 필요한 CNAME 레코드 추가
 
 > [!NOTE]
@@ -157,26 +184,30 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-2.png" alt-text="드롭다운 목록에서 DNS를 선택합니다.":::
     
     두 개의 하위 도메인을 만들고 각 도메인에 대한 **별칭** 값을 설정합니다.<br/>1개&IONOS에서는 최상위 CNAME 레코드가 하나만 지원되지만 Microsoft에는 여러 CNAME 레코드가 필요하기 때문에 이 요구가 필요합니다.<br/>먼저 자동 검색 하위 도메인을 만듭니다.
-    
+
+1. **하위omains 를 선택합니다.**
+  
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-Subdomains.png" alt-text="하위omain을 선택합니다.":::
+  
 1. **하위omain 추가를 선택합니다.**
+
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-add-subdomains.png" alt-text="하위omain 추가를 선택합니다.":::
   
 1. 새 **하위도메인에** 대한 하위도메인 추가 상자에 다음 표의  하위도메인 추가 값만 입력하거나 복사하여 붙여넣습니다. (이후 단계에서 **별칭** 값을 추가합니다.)
 
-    |**하위omain 추가**|**별칭**|
+    |**하위omain 추가**| **별칭** |
     |:-----|:-----|
-    |autodiscover  <br/> |autodiscover.outlook.com   | 
-  
-1. **방금** 만든 **자동** 검색 하위 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 드롭다운 목록에서 **DNS를** 선택합니다. <br/>
+    |autodiscover  <br/> | autodiscover.outlook.com |
 
-1. 레코드 **추가를** 선택한 다음 **CNAME 섹션을** 선택합니다.
-  
-1. **별칭:** 상자에서 다음 표의 **별칭** 값만 입력하거나 복사하여 붙여넣습니다.<br/> 
+1. **방금** 만든 **자동** 검색 하위 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 드롭다운 목록에서 **DNS를** 선택합니다. <br/>
     
-    |**하위omain 추가**|**별칭**|
+1. 레코드 **추가를** 선택한 다음 **CNAME 섹션을** 선택합니다.
+
+1. **별칭:** 상자에서 다음 표의 **별칭** 값만 입력하거나 복사하여 붙여넣습니다. <br/>
+    
+    |**하위omain 추가**| **별칭** |
     |:-----|:-----|
-    |autodiscover  <br/> |autodiscover.outlook.com   |
-  
-1. 고지 사항을 **알고 있음** 에 대한 확인란을 선택합니다.<br/>
+    |autodiscover  <br/> | autodiscover.outlook.com |
   
 1. **저장** 을 선택합니다.
 
@@ -198,23 +229,49 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
  
    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-2.png" alt-text="드롭다운 목록에서 DNS를 선택합니다.":::
    
-1. 레코드 **추가를** 선택한 다음 **SPF(TXT) 섹션을** 선택합니다.
-    
+1. 레코드 **추가 를 선택합니다.**
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-3.png" alt-text="레코드 추가를 선택합니다.":::
+
+1. **SPF(TXT) 섹션을** 선택합니다.
+   
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-SPFTXT.png" alt-text="SPF(TXT) 섹션을 선택합니다.":::
+ 
 1. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. <br/>
     
     |**유형**|**호스트 이름**|**Value(값)**| **TTL** |
     |:-----|:-----|:-----|:-----|
     |SPF (TXT)  <br/> |(이 필드는 비워 둡니다.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다. | 1시간 |
   
-1. **저장** 을 선택합니다.<br/>!
-  
+1. **저장** 을 선택합니다.
+ 
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-SPFTXT-Save.png" alt-text="저장을 선택합니다.":::
+ 
 ## <a name="advanced-option-skype-for-business"></a>고급 옵션: 비즈니스용 Skype
 
 조직에서 채팅, 전화 회의 및 화상 통화와 비즈니스용 Skype 같은 온라인 통신 서비스에도 이 옵션을 사용하는 Microsoft Teams. Skype 사용자 간 통신을 위한 SRV 레코드 2개와 사용자를 로그인하고 서비스에 연결하기 위한 CNAME 레코드 2개 등 4개 레코드가 필요합니다.
 
 ### <a name="add-two-additional-cname-records"></a>두 개의 추가 CNAME 레코드 추가
   
-1. 위의 첫 번째 CNAME 레코드에 대한 지침을 사용하여 다른 하위omain(Lyncdiscover)을 만들 수 있습니다.
+1. 시작하려면 이 링크를 사용하여 IONOS의 도메인 페이지로&[1로 이동합니다.](https://my.1and1.com/) You'll be prompted to log in.
+    
+1. 메뉴 **를** 선택한 다음 도메인 및 **SSL 을 선택합니다.**
+  
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-1.png" alt-text="도메인 및 SSL을 선택합니다.":::
+  
+1. **업데이트할** 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 DNS 를 **선택합니다.**
+ 
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-2.png" alt-text="드롭다운 목록에서 DNS를 선택합니다.":::
+    
+    두 개의 하위 도메인을 만들고 각 도메인에 대한 **별칭** 값을 설정합니다.<br/>1개&IONOS에서는 최상위 CNAME 레코드가 하나만 지원되지만 Microsoft에는 여러 CNAME 레코드가 필요하기 때문에 이 요구가 필요합니다.<br/>먼저 lyncdiscover 하위omain을 만들어야 합니다.
+
+1. **하위omains 를 선택합니다.**
+  
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-Subdomains.png" alt-text="하위omain을 선택합니다.":::
+  
+1. **하위omain 추가를 선택합니다.**
+
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-add-subdomains.png" alt-text="하위omain 추가를 선택합니다.":::
     
 1. 새 **하위도메인에** 대한 하위도메인 추가 상자에 다음 표의  하위도메인 추가 값만 입력하거나 복사하여 붙여넣습니다. (이후 단계에서 **별칭** 값을 추가합니다.)<br/> 
     
@@ -222,7 +279,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |:-----|:-----|
     |lyncdiscover   |webdir.online.lync.com  |
    
-1. **방금** 만든 **자동** 검색 하위 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 드롭다운 목록에서 **DNS를** 선택합니다. <br/>
+1. **방금** 만든 **lyncdiscover** 하위 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 드롭다운 목록에서 **DNS를** 선택합니다. <br/>
     
 1. 레코드 **추가를** 선택한 다음 **CNAME 섹션을** 선택합니다.
 
@@ -231,8 +288,6 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |**하위 도메인 만들기**|**별칭**|
     |:-----|:-----|
     |lyncdiscover  <br/> |webdir.online.lync.com  <br/> |
-   
-1. 고지 사항 **알고 있음** 에 대한 확인란을 선택한 다음 **저장** 을 선택합니다.
     
 1. 다른 하위omain(SIP)을 만들 수 있습니다. <br/>**하위omain 추가를 선택합니다.**
     
@@ -244,7 +299,11 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
 1. **방금** 만든 하위 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 드롭다운 목록에서 **DNS를** 선택합니다. <br/>
     
-1. 레코드 **추가를** 선택한 다음 **CNAME 섹션을** 선택합니다.
+1. 레코드 **추가 를 선택합니다.**
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-3.png" alt-text="레코드 추가를 선택합니다.":::
+
+1. **CNAME 섹션을** 선택합니다.
 
 1. **별칭: 상자에** 다음 표의 **별칭** 값만 입력하거나 복사하여 붙여넣습니다. 
     
@@ -269,17 +328,25 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
  
    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-2.png" alt-text="드롭다운 목록에서 DNS를 선택합니다.":::
     
-1. 레코드 **추가를** 선택한 다음 **SRV 섹션을** 선택합니다.
-    
+1. 레코드 **추가 를 선택합니다.**
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-3.png" alt-text="레코드 추가를 선택합니다.":::
+
+1. **SRV 섹션을** 선택합니다.
+ 
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-SRV.png" alt-text="SRV 섹션을 선택합니다.":::
+   
 1. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. <br/>
     
     |**유형**|**서비스**|**프로토콜**|**호스트 이름**|**연결 대상**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV  <br/> |sip  <br/> |tls  <br/> |(이 필드는 비워 둡니다.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1  <br/> |443  <br/> |3600(1시간)  <br/> |
-    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(이 필드는 비워 둡니다.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600(1시간)  <br/> |  
+    |SRV  <br/> |_sip  <br/> |tls  <br/> |(이 필드는 비워 둡니다.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1  <br/> |443  <br/> |1시간  <br/> |
+    |SRV  <br/> |_sipfederationtls  <br/> |tcp  <br/> |(이 필드는 비워 둡니다.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1  <br/> |5061  <br/> |1시간 <br/> |  
   
-1. **저장** 을 선택합니다. <br/>
-  
+1. **저장** 을 선택합니다.
+ 
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-SRV-Save.png" alt-text="저장을 선택합니다.":::
+ 
 1. 다른 SRV 레코드를 추가합니다. 
     
 > [!NOTE]
@@ -292,12 +359,66 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 ### <a name="add-the-two-required-cname-records"></a>두 개의 필수 CNAME 레코드 추가
 
 > [!IMPORTANT]
-> 다른 CNAME 레코드에 사용한 절차에 따라 다음 표의 값을 제공합니다. 
+> 다른 CNAME 레코드에 사용한 하위omain 프로시저를 수행하고 다음 표의 값을 제공합니다. 
   
-|**하위omain 추가**|**별칭**|
-|:-----|:-----|
-|enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |
-|enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
+1. 시작하려면 이 링크를 사용하여 IONOS의 도메인 페이지로&[1로 이동합니다.](https://my.1and1.com/) You'll be prompted to log in.
+    
+1. 메뉴 **를** 선택한 다음 도메인 및 **SSL 을 선택합니다.**
+  
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-1.png" alt-text="도메인 및 SSL을 선택합니다.":::
+  
+1. **업데이트할** 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 DNS 를 **선택합니다.**
+ 
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-2.png" alt-text="드롭다운 목록에서 DNS를 선택합니다.":::
+    
+    두 개의 하위 도메인을 만들고 각 도메인에 대한 **별칭** 값을 설정합니다.<br/>1개&IONOS에서는 최상위 CNAME 레코드가 하나만 지원되지만 Microsoft에는 여러 CNAME 레코드가 필요하기 때문에 이 요구가 필요합니다.<br/>먼저 lyncdiscover 하위omain을 만들어야 합니다.
+
+1. **하위omains 를 선택합니다.**
+  
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-Subdomains.png" alt-text="하위omain을 선택합니다.":::
+  
+1. **하위omain 추가를 선택합니다.**
+
+   :::image type="content" source="../../media/dns-IONOS/IONOS-domains-add-subdomains.png" alt-text="하위omain 추가를 선택합니다.":::
+    
+1. 새 **하위도메인에** 대한 하위도메인 추가 상자에 다음 표의  하위도메인 추가 값만 입력하거나 복사하여 붙여넣습니다. (이후 단계에서 **별칭** 값을 추가합니다.)<br/> 
+    
+    |**하위omain 추가**|**별칭**|
+    |:-----|:-----|
+    |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |
    
+1. **방금** 만든 **enterpriseregistration** 하위 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 드롭다운 목록에서 **DNS를** 선택합니다. <br/>
+    
+1. 레코드 **추가를** 선택한 다음 **CNAME 섹션을** 선택합니다.
+
+1. **별칭:** 상자에서 다음 표의 **별칭** 값만 입력하거나 복사하여 붙여넣습니다. <br/>
+    
+    |**하위omain 추가**|**별칭**|
+    |:-----|:-----|
+    |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |
+    
+1. 다른 하위omain을 만들 수 있습니다. <br/>**하위omain 추가를 선택합니다.**
+    
+1. 새 **하위도메인에** 대한 하위도메인 추가 상자에 다음 표의  하위도메인 추가 값만 입력하거나 복사하여 붙여넣습니다. (이후 단계에서 **별칭** 값을 추가합니다.) <br/>
+    
+    |**하위omain 추가**|**별칭**|
+    |:-----|:-----|
+    |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
+
+1. **방금** 만든 **enterpriseenrollment** 하위 도메인에 대한 작업에서 기어 컨트롤을 선택한 다음 드롭다운 목록에서 **DNS를** 선택합니다. <br/>
+    
+1. 레코드 **추가 를 선택합니다.**
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-domains-3.png" alt-text="레코드 추가를 선택합니다.":::
+
+1. **CNAME 섹션을** 선택합니다.
+
+1. **별칭: 상자에** 다음 표의 **별칭** 값만 입력하거나 복사하여 붙여넣습니다. 
+    
+    |**하위 도메인 만들기**|**별칭**|
+    |:-----|:-----|
+    |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
+   
+1. 고지 사항 **알고 있음** 에 대한 확인란을 선택한 다음 **저장** 을 선택합니다.
 
   

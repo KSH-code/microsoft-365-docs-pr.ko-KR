@@ -15,12 +15,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 320f2bfd06f7f01c15419f4bd6dc0eb5536079f0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.custom: api
+ms.openlocfilehash: af3881a5215871b0405f2f6b42b73c248af0c00c
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176814"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586876"
 ---
 # <a name="get-machines-security-states-collection-api"></a>컴퓨터 보안 상태 수집 API를 얻습니다.
 
@@ -37,7 +38,7 @@ ms.locfileid: "60176814"
 
 장치 보안 상태 컬렉션을 검색합니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 사용자에게 읽기 권한이 필요합니다.
 
@@ -75,7 +76,7 @@ Content-type: application/json
 
 ### <a name="response-example"></a>응답 예제
 
-다음은 응답의 예입니다.
+응답의 예는 다음과 같습니다.
 
 필드 *ID는* 디바이스 ID를 포함하며 디바이스 정보의 필드 *ID**에 해당합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop 앱 요구 사항
-description: ''
+description: 사용하는 관리 도구
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4a7db8f26d3f7201087a7e4390b56637af37dc08
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 29c531599e1122ae596281efbd187081348def6a
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208124"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587960"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft Managed Desktop 앱 요구 사항
 

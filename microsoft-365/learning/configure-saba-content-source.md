@@ -16,14 +16,17 @@ ms.collection:
 localization_priority: medium
 description: Saba를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
 ROBOTS: NOINDEX
-ms.openlocfilehash: 26af97604b071e621794937d45882c98fdef0d31
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: e259c7d7af3a7ff645017b2eccf76ff89c9a0bdf
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557161"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587316"
 ---
 # <a name="configure-saba-as-a-content-source-for-microsoft-viva-learning"></a>사바를 콘텐츠 원본으로 Microsoft Viva Learning
+
+>[!NOTE]
+>이 기능은 미리 보기에서 지원되지 않습니다.
 
 이 문서에서는 Saba를 사용자용 타사 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning. 이러한 단계를 수행하려면 Saba 시스템 관리자 또는 Super User가 되어야 합니다.
 

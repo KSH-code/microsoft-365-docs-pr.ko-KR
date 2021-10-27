@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 041f4840f3c06439c37043e0779d7acf0173c56c
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 3ea7429e4426c6904539da1d7ee056f9f248cbfe
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60363993"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587532"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -91,7 +91,7 @@ R2 및 Windows Server 2012 R2의 이전 구현에서는 Windows Server 2016 MMA(
 #### <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 다음은 R2 및 2016의 새로운 통합 솔루션 Windows Server 2012 적용됩니다.
 - 프록시 서버에서 끝점 서비스 [URL에 대한 Microsoft Defender 액세스](/microsoft-365/security/defender-endpoint/configure-proxy-internet?enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server) 사용에 지정된 연결 요구 사항이 충족되어 있는지 확인합니다. 서버 2019의 Windows 동일합니다. 
-- 이전에는 OMS 게이트웨이에서 Microsoft Monitoring Agent(MMA)를 Windows Server 2016 OMS 게이트웨이에서 Defender 클라우드 서비스에 대한 연결을 제공할 수 있습니다. Windows Server 2019, Windows Server 2022 및 Windows 10의 끝점용 Microsoft Defender와 같은 새 솔루션은 이 게이트웨이를 지원하지 않습니다.
+- 이전에는 OMS/Microsoft Monitoring Agent 서비스에 대한 연결을 제공하기 위해 OMS/Log Analytics 게이트웨이에 Microsoft Monitoring Agent 및 그 이하에서 MMA(M Windows Server 2016 MA)를 사용할 수 있습니다. Windows Server 2019, Windows Server 2022 및 Windows 10의 끝점용 Microsoft Defender와 같은 새 솔루션은 이 게이트웨이를 지원하지 않습니다.
 - 이 Windows Server 2016 설치된 Microsoft Defender 바이러스 백신 활성 상태 및 최신 상태인지 확인합니다. 업데이트 업데이트를 사용하여 최신 플랫폼 버전을 다운로드하고 설치할 Windows 있습니다. 또는 Microsoft 업데이트 카탈로그 또는 [](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4052623) MMPC에서 수동으로 업데이트 [패키지를 다운로드합니다.](https://go.microsoft.com/fwlink/?linkid=870379&arch=x64)  
 - R2에 Windows Server 2012 사용자 인터페이스가 Microsoft Defender 바이러스 백신. 또한 사용자 인터페이스의 Windows Server 2016 기본 작업만 허용합니다. 장치에서 로컬로 작업을 수행하려면 [PowerShell, WMI ](/microsoft-365/security/defender-endpoint/manage-atp-post-migration-other-tools)및 를 사용하여 끝점용 Microsoft Defender 관리를 MPCmdRun.exe. 따라서 사용자에게 의사 결정을 내리거나 특정 작업을 수행하라는 메시지가 표시되는 위치와 같이 사용자 조작을 구체적으로 하는 기능이 예상대로 작동하지 않을 수 있습니다. 사용자 인터페이스를 사용하지 않도록 설정하거나 사용하지 않도록 설정하거나 보호 기능에 영향을 줄 수 있는 관리되는 서버에서 사용자 상호 작용을 요구하지 않는 것이 좋습니다.
 - 일부 공격 표면 감소 규칙을 모든 운영 체제에서 사용할 수 있는 것은 아니며, [ASR(공격 표면 축소) 규칙을 참조합니다.](/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules)
@@ -101,7 +101,7 @@ R2 및 Windows Server 2012 R2의 이전 구현에서는 Windows Server 2016 MMA(
     -- Set-MpPreference -AllowNetworkProtectionDownLevel 1  
     -- Set-MpPreference -AllowDatagramProcessingOnWinServer 1  
   또한 네트워크 트래픽이 많은 컴퓨터의 경우 이 기능을 광범위하게 사용하도록 설정하기 전에 해당 환경에서 성능 테스트를 하는 것이 좋습니다. 추가 리소스 사용량을 고려해야 할 수 있습니다.
- - R2 Windows Server 2012 시간 표시 막대에 네트워크 이벤트가 채워지지 않을 수 있습니다. 이 문제를 해결하려면 Windows 2021년 10월 12일 패치의 일부로 릴리스된 업데이트 KB4645768이 필요합니다.
+ - R2 Windows Server 2012 시간 표시 막대에 네트워크 이벤트가 채워지지 않을 수 있습니다. 이 문제를 해결하려면 Windows [2021년 10월 12일 월별 롤업(KB5006714)의 일부로](https://support.microsoft.com/topic/october-12-2021-kb5006714-monthly-rollup-4dc4a2cd-677c-477b-8079-dcfef2bda09e)릴리스된 업데이트가 필요합니다.
  - 운영 체제 업그레이드는 지원되지 않습니다. 업그레이드하기 전에 오프보드를 설치한 다음 제거합니다.
 
 ## <a name="integration-with-azure-defender"></a>Azure Defender와 통합
@@ -118,7 +118,7 @@ R2 및 Windows Server 2012 R2의 이전 구현에서는 Windows Server 2016 MMA(
 > 이 R2 및 Windows Server 2012 Windows Server 2016 미리 보기에 있는 동안 MMA(Microsoft Monitoring Agent)를 사용하여 이전 온보더링 방법을 계속 사용할 수 있습니다. 자세한 내용은 [MMA를 사용하여 끝점 설치 및 구성을 참조하세요.](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma)
 
 
-### <a name="prerequisites"></a>필수 조건
+### <a name="prerequisites"></a>필수 구성 요소
 
 **R2의** Windows Server 2012 선행 최신 월별 롤업 패키지로 [](/troubleshoot/windows-client/deployment/standard-terminology-software-updates.md#monthly-rollup) 컴퓨터를 완전히 업데이트한 경우  추가 선행 구성이 없습니다.
 
@@ -176,7 +176,7 @@ Msiexec /x md4ws.msi /quiet
 스위치는 `/quiet` 모든 알림을 표시하지 않습니다.
 
 > [!NOTE]
-> Microsoft Defender 바이러스 백신 수동 모드로 자동 전환되지 않습니다. Microsoft가 아닌 바이러스 백신/맬웨어 방지 Microsoft Defender 바이러스 백신 실행 중인 경우 수동 모드에서 실행될 수 있습니다. 명령줄 설치의 경우 선택적 구성 요소가 Microsoft Defender 바이러스 백신 `FORCEPASSIVEMODE=1` 수동 모드로 즉시 설정됩니다.
+> Microsoft Defender 바이러스 백신 수동 모드로 자동 전환되지 않습니다. Microsoft가 아닌 바이러스 백신/맬웨어 방지 Microsoft Defender 바이러스 백신 실행 중인 경우 수동 모드에서 실행될 수 있습니다. 명령줄 설치의 경우 선택 요소는 간섭을 방지하기 위해 Microsoft Defender 바이러스 백신 구성 요소를 수동 모드로 `FORCEPASSIVEMODE=1` 즉시 설정합니다. 그런 다음 온보딩 후 Defender가 수동 모드로 유지되도록 EDR Block과 같은 기능을 지원하기 위해 "ForceDefenderPassiveMode" 레지스트리 키를 설정하십시오.
 >
 > 자세한 내용은 수동 [모드로 Microsoft Defender 바이러스 백신 필요를 참조하세요.](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server)
 > - Windows Server 2019 및 Windows Server 2022용 온보딩 패키지는 Microsoft Endpoint Manager 현재 스크립트를 제공합니다. Configuration Manager에서 스크립트를 배포하는 방법에 대한 자세한 내용은 Configuration Manager의 패키지 [및 프로그램을 참조하세요.](/configmgr/apps/deploy-use/packages-and-programs)

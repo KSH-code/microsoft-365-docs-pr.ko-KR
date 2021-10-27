@@ -2,7 +2,6 @@
 title: 민감도 레이블을 사용하여 인시던트 대응의 우선 순위 지정
 description: 민감도 레이블을 사용하여 인시던트의 우선 순위를 지정하고 조사하는 방법에 대해 자세히 알아보기
 keywords: 정보, 보호, 데이터, 손실, 방지,레이블, dlp, 인시던트, 조사, 조사
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -15,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb21eb0d52f62c49a9406bd92697dccaff290d7e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5b27187530deb8182dea39c8053413a9f70ac4e2
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156285"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587816"
 ---
 # <a name="use-sensitivity-labels-to-prioritize-incident-response"></a>민감도 레이블을 사용하여 인시던트 대응의 우선 순위 지정
 
@@ -41,7 +40,7 @@ Endpoint용 Defender는 민감도 레이블을 사용하여 보안 인시던트�
 데이터 민감도 레이블을 사용하여 인시던트 조사의 우선 순위를 지정하는 방법을 학습합니다.
 
 > [!NOTE]
-> 레이블이 검색된 Windows 10, 버전 1809 이상입니다.
+> 레이블은 Windows 10, 버전 1809 검색된 후 Windows 11.
 
 1. Microsoft 365 Defender 포털에서 **인시던트** 및 & \> **를 선택합니다.**
 

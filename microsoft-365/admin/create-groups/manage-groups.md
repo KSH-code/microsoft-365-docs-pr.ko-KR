@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 Microsoft 365, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 그룹 관리 방법을 학습합니다.
-ms.openlocfilehash: 979291cfde3c82bb6e16520f13f51c51e9bd47c2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 89e4ff11ffbb396038dd28c26b1f06762a2b5b21
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60165763"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586460"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>그룹에서 그룹 Microsoft 365 관리 센터
 
@@ -80,6 +80,9 @@ ms.locfileid: "60165763"
 3. 관리 센터 그룹 목록에서 변경할 그룹의 이름을 선택하고 설정 탭에서 외부 보낸 사람이 이 그룹에 전자 **메일을** 보낼 수 있도록 **허용을 선택합니다.**
     
 4. **저장** 을 선택합니다.
+
+> [!NOTE]
+> 유기적 외부의 사용자가 그룹에 전자 메일을 보내기까지 최대 30분이 걸릴 수 있습니다.
 
 ## <a name="permanently-delete-a-microsoft-365-group"></a>영구적으로 그룹 Microsoft 365 삭제
 

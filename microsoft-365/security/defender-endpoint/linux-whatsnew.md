@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: reference
 ms.technology: mde
-ms.openlocfilehash: 779f77b39eeaf58918c115582f62fb08199f1b91
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.openlocfilehash: ab59d5511037d9b1c1a4b0aa7a6404ab27b8fb56
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478892"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586104"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender의 새로운
 
@@ -31,7 +31,7 @@ ms.locfileid: "60478892"
 ## <a name="1014513-30121082145130"></a>101.45.13 (30.121082.14513.0)
 
 - 이 버전부터는 다음 배포판에 끝점용 Microsoft Defender 지원을 제공합니다. 
-  -  RHEL6.7-6.10 및 CentOS6.7-6.10 버전.
+  - RHEL6.7-6.10 및 CentOS6.7-6.10 버전.
   - Amazon Linux 2
   - Fedora 33 이상
 - 버그 수정

@@ -2,7 +2,7 @@
 title: Puppet을 통해 Linux에서 끝점용 Microsoft Defender 배포
 ms.reviewer: ''
 description: Puppet을 사용하여 Linux에서 끝점용 Microsoft Defender를 배포하는 방법에 대해 설명
-keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos, fedora, amazon linux 2
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4309155fa078b4a851838e528f4c47f2ef6569eb
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3c3832cb8f5783d7e972fd41f4d9e56a650390e2
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60152245"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586036"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Puppet을 통해 Linux에서 끝점용 Microsoft Defender 배포
 
@@ -115,12 +115,12 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 아래 명령에서 *[distro]* 및 *[version]을* 식별한 정보로 바 대체합니다.
 
 > [!NOTE]
-> RedHat, Oracle EL 및 CentOS 8의 경우 *[distro]를* 'rhel'으로 바꿈합니다.
+> RedHat, Oracle Linux, Amazon Linux 2 및 CentOS 8의 경우 *[distro]를* 'rhel'으로 대체합니다.
 
 ```puppet
 # Puppet manifest to install Microsoft Defender for Endpoint on Linux.
 # @param channel The release channel based on your environment, insider-fast or prod.
-# @param distro The Linux distribution in lowercase. In case of RedHat, Oracle EL, and CentOS 8, the distro variable should be 'rhel'.
+# @param distro The Linux distribution in lowercase. In case of RedHat, Oracle Linux, Amazon Linux 2, and CentOS 8, the distro variable should be 'rhel'.
 # @param version The Linux distribution release number, e.g. 7.4.
 
 class install_mdatp (

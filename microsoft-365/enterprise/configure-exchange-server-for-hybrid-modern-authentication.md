@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 권한 부여를 Exchange Server HMA(하이브리드 최신 인증)를 사용하도록 하이브리드 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef3e584103906ec649df052897e5facdfabd8086
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5ddf30a3409c01e44fd731002cc97ef339ed9819
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190572"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587371"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 Exchange Server 온-프레미스를 구성하는 방법
 
@@ -30,9 +30,9 @@ ms.locfileid: "60190572"
 
 HMA(하이브리드 최신 인증)는 보다 안전한 사용자 인증 및 권한 부여를 제공하는 ID 관리 방법으로, Exchange 하이브리드 배포에 사용할 수 있습니다.
 
-## <a name="fyi"></a>FYI
+## <a name="definitions"></a>정의
 
-시작하기 전에 다음을 호출합니다.
+시작하기 전에 몇 가지 정의에 익숙해야 합니다.
 
 - 하이브리드 최신 인증 \> HMA
 
@@ -49,6 +49,7 @@ HMA를 켜는 것은 다음을 의미합니다.
 1. 시작하기 전에 사전 요구 사항을 충족하는지 확인
 
 1. 대부분의 **선행** 요구는 비즈니스용 Skype 및 Exchange 모두 공통적이기 때문에 [하이브리드](hybrid-modern-auth-overview.md)최신 인증 개요 및 하이브리드 최신 인증 개요 및 비즈니스용 Skype 및 Exchange 서버와 함께 사용할 수 있습니다. 이 문서의 단계를 시작하기 전에 이 작업을 수행합니다.
+삽입할 연결된 사서함에 대한 요구 사항
 
 1. Azure AD에서 **SPNS(서비스 사용자 이름)로** 사내 웹 서비스 URL 추가 EXCH가 여러 테넌트와 하이브리드에 있는 경우 이러한 사내 웹 서비스 URL을 EXCH와 하이브리드에 있는 모든 테넌트의 Azure AD에 SPNS로 추가해야 합니다. 
 
@@ -61,7 +62,6 @@ HMA를 켜는 것은 다음을 의미합니다.
 > [!NOTE]
 > 사용자 버전의 Office MA를 지원하나요? [2013 및 Office 2016](modern-auth-for-office-2013-and-2016.md)클라이언트 앱에 대해 최신 Office 방법을 참조하세요.
 
-
 ## <a name="make-sure-you-meet-all-the-prerequisites"></a>모든 선행 요구 사항을 충족하는지 확인
 
 많은 선행 요구 사항들이 비즈니스용 Skype 및 Exchange 모두 공통적이기 때문에 하이브리드 최신 인증 개요 및 하이브리드 최신 인증 개요 및 전제 요구 비즈니스용 Skype 및 Exchange [서버와](hybrid-modern-auth-overview.md)함께 사용하세요. 이  *문서의*  단계를 시작하기 전에 이 작업을 수행합니다.
@@ -73,7 +73,7 @@ HMA를 켜는 것은 다음을 의미합니다.
 
 Azure AD SPNS로 사내 웹 서비스 URL을 할당하는 명령을 실행합니다. SPNS는 인증 및 권한 부여 중에 클라이언트 컴퓨터 및 장치에서 사용됩니다. Azure Active Directory Azure AD(Azure AD)로의 연결에 사용할 수 있는 모든 URL은 Azure AD에 등록해야 합니다(내부 및 외부 네임스페이스 모두 포함).
 
-먼저 AAD에 추가해야 하는 모든 URL을 수집합니다. 다음 명령을 사내에서 실행합니다.
+먼저 추가해야 하는 모든 URL을 AAD. 다음 명령을 사내에서 실행합니다.
 
 ```powershell
 Get-MapiVirtualDirectory | FL server,*url*
@@ -81,11 +81,12 @@ Get-WebServicesVirtualDirectory | FL server,*url*
 Get-ClientAccessServer | fl Name, AutodiscoverServiceInternalUri
 Get-OABVirtualDirectory | FL server,*url*
 Get-AutodiscoverVirtualDirectory | FL server,*url*
+Get-OutlookAnywhere | FL server,*hostname*
 ```
 
-연결할 수 있는 URL 클라이언트가 AAD에 HTTPS 서비스 사용자 이름으로 나열되어 있는지 확인 EXCH가 여러 테넌트와 하이브리드에 있는 경우 이러한 HTTPS SPNS는 EXCH와 하이브리드에 있는 모든 테넌트의 AAD에 추가되어야 합니다. 
+클라이언트에서 연결할 수 있는 URL이 HTTPS 서비스 사용자 이름으로 나열되어 AAD. EXCH가 여러 테넌트와 하이브리드에 있는 경우 이러한 HTTPS SPNS를 EXCH와 함께 하이브리드에 있는 AAD 테넌트의 구성에 추가해야 합니다. 
 
-1. 먼저 다음 지침을 사용하여 [AAD에 연결합니다.](connect-to-microsoft-365-powershell.md)
+1. 먼저 다음 AAD [에 연결합니다.](connect-to-microsoft-365-powershell.md)
 
     > [!NOTE]
     > 아래 명령을 사용하려면 커넥트 이 페이지의 _커넥트-MsolService_ 옵션을 사용해야 합니다.
@@ -133,31 +134,39 @@ InternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
 ExternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
 ```
 
-OAuth가 서버 및 네 개의 가상디렉터에서 누락된 경우 계속하기 전에 관련 명령을 사용하여 추가해야 합니다([Set-MapiVirtualDirectory,](/powershell/module/exchange/set-mapivirtualdirectory) [Set-WebServicesVirtualDirectory,](/powershell/module/exchange/set-webservicesvirtualdirectory) [Set-OABVirtualDirectory](/powershell/module/exchange/set-oabvirtualdirectory)및 [Set-AutodiscoverVirtualDirectory](/powershell/module/exchange/set-autodiscovervirtualdirectory)).
+OAuth가 서버 및 네 개의 가상 Director에서 누락된 경우 계속하기 전에 관련 명령을 사용하여 추가해야 합니다([Set-MapiVirtualDirectory,](/powershell/module/exchange/set-mapivirtualdirectory) [Set-WebServicesVirtualDirectory,](/powershell/module/exchange/set-webservicesvirtualdirectory) [Set-OABVirtualDirectory](/powershell/module/exchange/set-oabvirtualdirectory)및 [Set-AutodiscoverVirtualDirectory](/powershell/module/exchange/set-autodiscovervirtualdirectory)).
 
 ## <a name="confirm-the-evosts-auth-server-object-is-present"></a>EvoSTS Auth 서버 개체가 있는지 확인
 
 이 마지막 명령에 대한 Exchange 관리 셸을 실행합니다. 이제 evoSTS 인증 공급자에 대한 항목이 On-프레미스에 유효한지 확인할 수 있습니다.
 
 ```powershell
-Get-AuthServer | where {$_.Name -like "*EvoSts*"}
+Get-AuthServer | where {$_.Name -like "EvoSts*"} | ft name,enabled
 ```
 
-출력에 이름 EvoSts의 AuthServer가 표시되어 '사용' 상태가 True가 됩니다. 이 설정이 없는 경우 최신 버전의 하이브리드 구성 마법사를 다운로드하여 실행해야 합니다.
+출력에 GUID가 있는 Name EvoSts의 AuthServer가 표시되어 'Enabled' 상태가 True가 됩니다. 이 설정이 없는 경우 최신 버전의 하이브리드 구성 마법사를 다운로드하여 실행해야 합니다.
 
 > [!NOTE]
 > EXCH가 여러 테넌트와 함께 하이브리드에 있는 경우 출력에 EXCH와 하이브리드의 각 테넌트에 대한 Name EvoSts - {GUID}의 AuthServer가 하나 표시되어야 합니다. 이러한 모든 AuthServer 개체에 대해 'Enabled' 상태가 True가 됩니다. 
 
- **중요** 환경에서 Exchange 2010을 실행하는 경우 EvoSTS 인증 공급자가 만들어지지 않습니다.
+> [!IMPORTANT]
+> 환경에서 Exchange 2010을 실행하는 경우 EvoSTS 인증 공급자가 만들어지지 않습니다.
 
 ## <a name="enable-hma"></a>HMA 사용
 
-Exchange 관리 셸에서 다음 명령을 실행합니다.
+명령줄에서 사용자 환경의 문자열로 Exchange 관리 셸의 Exchange \<GUID\> 실행합니다.
 
 ```powershell
-Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true
+Set-AuthServer -Identity "EvoSTS - <GUID>" -IsDefaultAuthorizationEndpoint $true
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
+
+> [!NOTE]
+> 이전 버전의 하이브리드 구성 마법사에서 EvoSts AuthServer는 GUID를 연결하지 않고 단순히 EvoSTS라는 이름이 지정되었습니다. 필요한 작업은 없습니다. 명령의 GUID 부분을 제거하여 이를 반영하도록 위의 명령줄을 수정하면 됩니다.
+>
+> ```powershell
+> Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true
+> ```
 
 EXCH 버전이 Exchange 2016(CU18 이상) 또는 Exchange 2019(CU7 이상)이고 하이브리드가 2020년 9월 이후에 다운로드된 HCW로 구성된 경우 Exchange 관리 셸, 사내에서 다음 명령을 실행합니다.
 
@@ -178,17 +187,16 @@ HMA를 사용하도록 설정하면 클라이언트의 다음 로그인에서 �
 > [!NOTE]
 > HMA를 비즈니스용 Skype 구성해야 하나요? 지원되는 토폴로지 목록과 [](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)구성 방법을 보여 주는 문서 2개가 [필요합니다.](configure-skype-for-business-for-hybrid-modern-authentication.md)
 
-
 ## <a name="using-hybrid-modern-authentication-with-outlook-for-ios-and-android"></a>Android 및 iOS용 Outlook에서 하이브리드 최신 인증 사용
 
-TCP 443에서 Exchange 서버를 사용하는 사내 고객의 경우 다음 IP 주소 범위에 대한 트래픽 처리를 무시합니다.
+TCP 443에서 Exchange 서버를 사용하는 사내 고객인 경우 다음 IP 범위의 네트워크 트래픽을 허용하십시오.
 
-```text
+```console
 52.125.128.0/20
 52.127.96.0/23
 ```
 
-iOS 및 Android용 Outlook 앱은 모바일 장치에서 Microsoft 365 Office 365 앱을 사용하여 일상 생활과 작업을 찾고, 계획하고Microsoft 서비스 우선 순위를 지정하는 데 가장 적합한 방법으로 디자인됩니다. 자세한 내용은 iOS 및 Android용 하이브리드 최신 인증을 Outlook [참조하세요.](/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)
+이러한 IP 주소 범위는 IP 주소 및 URL 웹 서비스에 포함되지 Office 365 추가 [끝점에도 문서화되어 있습니다.](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls)
 
 ## <a name="related-topics"></a>관련 항목
 

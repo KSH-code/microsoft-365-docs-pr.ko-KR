@@ -16,14 +16,17 @@ ms.collection:
 localization_priority: medium
 description: SAP SuccessFactors를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
 ROBOTS: NOINDEX
-ms.openlocfilehash: f7df19cdfa4298c6d5f6b6700c7203205dd1c3de
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 25e5d5df44afcbbf8c3dc11a66cfa8f254290420
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557044"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588056"
 ---
 # <a name="configure-sap-successfactors-as-a-content-source-for-microsoft-viva-learning"></a>SAP SuccessFactors를 콘텐츠 원본으로 Microsoft Viva Learning
+
+>[!NOTE]
+>이 기능은 미리 보기에서 지원되지 않습니다.
 
 이 문서에서는 SAP SuccessFactors를 타사 콘텐츠 원본으로 구성하는 Microsoft Viva Learning. 먼저 SuccessFactors 포털에서 시스템 구성을 편집해야 합니다. 그런 다음 구성을 완료해야 Microsoft 365 관리 센터.
 

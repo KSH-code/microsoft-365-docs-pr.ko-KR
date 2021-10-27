@@ -17,12 +17,13 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ROBOTS: NOINDEX
 ms.technology: mde
-ms.openlocfilehash: 866ece7467d3889778a434231b4a40a9bcdf02c2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.custom: api
+ms.openlocfilehash: 5464162714e6f8d61df96eb56301db39e5087924
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191854"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587340"
 ---
 # <a name="get-kb-collection-api"></a>KB 컬렉션 API 사용
 
@@ -40,7 +41,7 @@ ms.locfileid: "60191854"
 
 KB 및 KB 세부 정보 컬렉션을 검색합니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 사용자에게 읽기 권한이 필요합니다.
 

@@ -16,14 +16,17 @@ ms.collection:
 localization_priority: medium
 description: Go1을 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
 ROBOTS: NOINDEX
-ms.openlocfilehash: 2751a855f663ca47f0e5896b489f4ee9d3055cf5
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: ade44c0cc7607ab1b7a247ee60bdd2ca3505e6e9
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557296"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586164"
 ---
 # <a name="configure-go1-as-a-content-source-for-microsoft-viva-learning"></a>Go1을 콘텐츠 원본으로 Microsoft Viva Learning
+
+>[!NOTE]
+>이 기능은 미리 보기에서 지원되지 않습니다.
 
 이 문서에서는 Viva 2013에서 Go1을 타사 학습 콘텐츠 원본으로 구성하는 Learning.
 

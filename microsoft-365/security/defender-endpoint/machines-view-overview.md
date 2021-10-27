@@ -2,8 +2,6 @@
 title: 끝점 장치용 Microsoft Defender 목록 보기 및 구성
 description: 조사를 향상하기 위해 목록을 정렬, 필터링 및 내보내기와 같은 장치 목록에서 사용할 수 있는 사용 가능한 기능에 대해 자세히 알아보습니다.
 keywords: 정렬, 필터, 내보내기, csv, 장치 이름, 도메인, 마지막으로 본, 내부 IP, 상태, 활성 경고, 활성 맬웨어 감지, 위협 범주, 경고 검토, 네트워크, 연결, 맬웨어, 유형, 암호 도용자, 랜섬웨어, 악용, 위협, 일반 맬웨어, 원치 않는 소프트웨어
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: bd3e8a9a265070f3cda61a2c96eb704ed2dc177a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 51b55a92a88dfa5faf89df89bfc3351b97571feb
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60169830"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588328"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>끝점 장치용 Microsoft Defender 목록 보기 및 구성
 
@@ -82,9 +80,9 @@ ms.locfileid: "60169830"
 
 조사할 OS 플랫폼만 선택합니다.
 
-### <a name="windows-10-versions"></a>Windows 10 버전
+### <a name="windows-versions"></a>Windows 버전
 
-조사할 Windows 10 버전만 선택합니다.
+조사할 Windows 버전만 선택합니다.
 
 ### <a name="health-state"></a>상태
 

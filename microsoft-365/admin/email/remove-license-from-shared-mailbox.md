@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 description: '공유 사서함에서 라이선스를 제거하여 다른 사용자에게 할당하거나 라이선스 비용을 지불하지 않을 수 있도록 라이선스를 반환합니다. '
 ms.date: 05/11/2021
-ms.openlocfilehash: 384e5d68d2b964278244fe5c2ec7f87097325540
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ccbab157b810e86a941da519346da621398a4af9
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60164911"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586816"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -36,12 +36,15 @@ ms.locfileid: "60164911"
 
 > [!NOTE]
 >
-> 다음과 같은 시나리오에서는 라이선스가 필요합니다.
+> 다음 Exchange Online 계획 2 라이선스가 필요합니다.
 >
-> 1. 공유 사서함에 사용 중이 50GB가 넘는 저장소가 있습니다.
-> 2. 공유 사서함은 인바운드 보관을 사용 합니다.
-> 3. 공유 사서함은 소송 보류에 배치됩니다.
-> 4. 공유 사서함에 Microsoft Defender 라이선스가 할당되어 있습니다.
+> - 공유 사서함에 사용 중이 50GB가 넘는 저장소가 있습니다.
+> - 공유 사서함은 인바운드 보관을 사용 합니다.
+> - 공유 사서함은 소송 보류에 배치됩니다.
+> - 공유 사서함에 Microsoft Defender 라이선스가 할당되어 있습니다.
+> 
+> 라이선스를 할당하는 방법에 대한 단계별 지침은 사용자에게 라이선스 할당을 [참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users) 
+
 
 ## <a name="remove-the-license"></a>라이선스 제거
 
@@ -70,7 +73,7 @@ ms.locfileid: "60164911"
 
 3. 라이선스 **및** 앱 탭 중  하나에서 라이선스를 확장하고 제거할 라이선스의 확인란을 선택하지 않습니다.
 
-4. **변경 내용 저장** 을 선택합니다.
+4. **변경 사항 저장** 을 선택합니다.
 
 5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 없는 **상태가 됩니다.**
 

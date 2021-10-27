@@ -2,7 +2,6 @@
 title: 2013에서 경고 Microsoft 365 Defender
 description: 여러 장치, 사용자 및 사서함에 걸쳐 경고를 조사합니다.
 keywords: 인시던트, 경고, 조사, 분석, 대응, 상관 관계, 공격, 컴퓨터, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, Microsoft, m365
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,14 +19,13 @@ ms.collection:
 ms.topic: conceptual
 search.appverid:
 - MOE150
-- MET150
 ms.technology: m365d
-ms.openlocfilehash: cde5f6e00260710416266fd6f4113def9c7baf6f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 92542fdeebd5e6bbfebd075b178a0c22b08f186e
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206604"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587764"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>2013에서 경고 Microsoft 365 Defender
 
@@ -56,7 +54,7 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 
 
 - 심각도
 - 상태
-- 범주
+- Category
 - 검색 원본
 - 태그
 - 정책
@@ -113,7 +111,7 @@ Microsoft 365 Defender 경고는 Microsoft Defender for Endpoint, Microsoft Defe
 :---|:---
 Office 365용 Microsoft Defender | `fa{GUID}` <br> 예: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
 엔드포인트용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
-Microsoft Defender for Identity | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+ID용 Microsoft Defender | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 ### <a name="analyze-affected-assets"></a>영향을 받는 자산 분석

@@ -2,8 +2,6 @@
 title: 끝점용 Microsoft Defender에서 파일에 대한 응답 작업 수행
 description: 파일을 중지 및 차단하거나 파일을 차단하고 활동 세부 정보를 확인하여 파일 관련 경고에 대한 대응 조치를 취합니다.
 keywords: 응답, 중지 및 검사, 파일 차단, 심층 분석
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 816e08c4c6ba3b2a50c981401163531d2b5d63c4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6fad903cc5e5839afea6f87f06a7435cadf0eb66
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198167"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587556"
 ---
 # <a name="take-response-actions-on-a-file"></a>파일에 대해 대응 조치 실행
 
@@ -72,13 +70,13 @@ ms.locfileid: "60198167"
 > [!IMPORTANT]
 > 이 작업은 다음의 경우만 취할 수 있습니다.
 >
-> - 작업을 수행 중인 장치가 버전 1703 이상에서 Windows 10 실행 중입니다.
+> - 작업을 수행 중인 디바이스가 Windows 10 버전 1703 이상 및 Windows 11
 > - 파일이 신뢰할 수 있는 타사 게시자에 속하지 않는 경우 또는 Microsoft에서 서명하지 않은 경우
 > - Microsoft Defender 바이러스 백신 수동 모드에서 실행해야 합니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 파일 중지 및 **Quarantine 작업으로는** 실행 중인 프로세스를 중지하고, 파일을 검지하고, 레지스트리 키와 같은 영구 데이터를 삭제하는 작업이 포함됩니다.
 
-이 작업은 지난 30일 동안 Windows 10 버전 1703 이상이 있는 장치에 적용됩니다.
+이 작업은 지난 30일 동안 Windows 10 버전 1703 이상 및 Windows 11 있는 장치에 적용됩니다.
 
 > [!NOTE]
 > 파일을 무단으로 복원할 수 있습니다.
@@ -175,7 +173,7 @@ ms.locfileid: "60198167"
 > - 바이러스 백신 엔진 버전은 1.1.17300.4 이상입니다. 월별 [플랫폼 및 엔진 버전 참조](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
 > - 클라우드 기반 보호를 사용할 수 있습니다. 클라우드 [제공 보호 켜기 참조](enable-cloud-protection-microsoft-defender-antivirus.md)
 > - 샘플 제출이 켜져 있습니다.
-> - 장치에 Windows 10 버전 1703 이상 또는 Windows server 2016 또는 2019 또는 Windows Server 2022가 있습니다.
+> - 장치에 Windows 10 버전 1703 이상 또는 Windows server 2016 또는 2019 또는 Windows Server 2022 또는 Windows 11
 
 ### <a name="collect-files"></a>파일 수집
 
@@ -193,7 +191,7 @@ ms.locfileid: "60198167"
 >
 > - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
 > - 이 기능은 의심되는 맬웨어(또는 악성 파일)가 웹에서 다운로드되지 않도록 디자인되었습니다. 현재 이식 가능한 PE(이식 가능한 실행 파일) 파일을.exe _.dll_ _있습니다._ 적용 범위는 시간이 지날 때 연장됩니다.
-> - 이 응답 작업은 버전 1703 Windows 10 장치에 사용할 수 있습니다.
+> - 이 응답 작업은 Windows 10 버전 1703 이상 및 버전 1703 이상의 장치에서 사용할 수 Windows 11.
 > - 허용 또는 차단 작업 전에 파일의 분류가 디바이스 캐시에 있는 경우 파일에서 허용 또는 차단 기능을 사용할 수 없습니다.
 
 > [!NOTE]
@@ -256,9 +254,9 @@ ms.locfileid: "60198167"
  파일을 Endpoint 백 엔드용 Defender 샘플 컬렉션에서 사용할 수 있는 경우 또는 심층 분석 제출을 지원하는 Windows 10 장치에서 파일을 관찰한 경우 심층 분석을 위한 제출을 사용할 수 있습니다.
 
 > [!NOTE]
-> 모든 파일의 Windows 10 자동으로 수집할 수 있습니다.
+> 사용자 및 Windows 10 파일 Windows 11 자동으로 수집할 수 있습니다.
 
-파일에서 파일이 관찰되지 않은 경우 [Microsoft](https://www.microsoft.com/security/portal/submission/submit.aspx) 보안 센터 포털을 통해 샘플을 제출할 Windows 10  심층 분석 단추가 제공될 때까지 기다릴 수 있습니다.
+Windows 10 장치(또는 Windows 11)에서 파일이 관찰되지 않은 경우 [Microsoft](https://www.microsoft.com/security/portal/submission/submit.aspx) 보안 센터 포털을 통해 샘플을 제출하고  심층 분석 단추가 제공될 때까지 기다릴 수 있습니다.
 
 > [!NOTE]
 > Microsoft 보안 센터 포털의 백 엔드 처리 흐름으로 인해 파일 전송과 Endpoint용 Defender의 심층 분석 기능 가용성 사이에 최대 10분이 지연될 수 있습니다.
@@ -281,7 +279,7 @@ ms.locfileid: "60198167"
    진행률 표시줄이 표시되고 다양한 분석 단계에 대한 정보를 제공합니다. 그런 다음 분석이 완료되면 보고서를 볼 수 있습니다.
 
 > [!NOTE]
-> 디바이스 가용성에 따라 샘플 수집 시간이 다를 수 있습니다. 샘플 수집에는 3시간의 시간 제한이 있습니다. 이때 장치 보고를 위해 온라인 Windows 10 컬렉션이 실패하고 작업이 다시 표시됩니다. 심층 분석을 위해 파일을 다시 제출하여 파일에 대한 새 데이터를 얻을 수 있습니다.
+> 디바이스 가용성에 따라 샘플 수집 시간이 다를 수 있습니다. 샘플 수집에는 3시간의 시간 제한이 있습니다. 이때 온라인 Windows 10(또는 Windows 11) 보고가 없는 경우 컬렉션이 실패하고 작업이 Windows 11 않습니다. 심층 분석을 위해 파일을 다시 제출하여 파일에 대한 새 데이터를 얻을 수 있습니다.
 
 ### <a name="view-deep-analysis-reports"></a>심층 분석 보고서 보기
 

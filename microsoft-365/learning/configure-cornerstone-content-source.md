@@ -16,14 +16,17 @@ ms.collection:
 localization_priority: medium
 description: Cornerstone OnDemand를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
 ROBOTS: NOINDEX
-ms.openlocfilehash: 0d4f344b2c5ea6854337bb78013994ae5da16f70
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 6cc77ec25f7297fa2492b5a22d70e60350b8eccc
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557260"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586128"
 ---
 # <a name="configure-cornerstone-ondemand-as-a-content-source-for-microsoft-viva-learning"></a>Cornerstone OnDemand를 콘텐츠 원본으로 Microsoft Viva Learning
+
+>[!NOTE]
+>이 기능은 미리 보기에서 지원되지 않습니다.
 
 이 문서에서는 Viva 2013에서 Cornerstone OnDemand를 타사 학습 콘텐츠 원본으로 구성하는 Learning. 먼저 Viva를 사용하도록 설정하고 Learning 포털에서 세부 정보를 얻습니다. 그런 다음 사용자 설정에서 구성을 완료해야 Microsoft 365 관리 센터.
 

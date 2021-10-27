@@ -2,8 +2,6 @@
 title: Endpoint 장치용 Defender 목록에서 장치 조사
 description: 경고, 네트워크 연결 정보를 검토하고, 장치 태그 및 그룹을 추가하고, 서비스 상태 확인을 통해 영향을 받는 장치를 조사합니다.
 keywords: 장치, 태그, 그룹, 끝점, 경고 큐, 경고, 장치 이름, 도메인, 마지막으로 본 내부 IP, 활성 경고, 위협 범주, 필터, 정렬, 경고 검토, 네트워크, 연결, 유형, 암호 도용자, 랜섬웨어, 악용, 위협, 낮은 심각도, 서비스 상태
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f229aee785066f1cf356a95a3ffd242704c578dc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 83f025ed8319e74eaa2e908765a1ac1922ac8415
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154857"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587852"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Microsoft Defender for Endpoint Devices 목록에서 장치 조사
 

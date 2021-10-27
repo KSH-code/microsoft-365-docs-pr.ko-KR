@@ -2,7 +2,6 @@
 title: 2013에서 인시던트 Microsoft 365 Defender
 description: 장치, 사용자 및 사서함과 관련된 인시던트 조사
 keywords: 인시던트, 인시던트, 분석, 응답, 컴퓨터, 장치, 사용자, ID, 메일, 전자 메일, 사서함, 조사, 그래프, 증거
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -23,14 +22,13 @@ ms.collection:
 ms.topic: conceptual
 search.appverid:
 - MOE150
-- MET150
 ms.technology: m365d
-ms.openlocfilehash: 31dbc29d2aca019c2b2553bb7ffa3082e410aab9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9037b8f721a33f6709f3beefdac6d294c7125333
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209204"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588304"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>2013에서 인시던트 Microsoft 365 Defender
 

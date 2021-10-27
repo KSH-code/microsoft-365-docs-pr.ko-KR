@@ -11,16 +11,16 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.topic: article
-ms.date: 10/18/2021
+ms.date: 10/22/2021
 manager: dansimp
 ms.custom: nextgen
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 1861e15ce72bafdafa796463ff41163c338fc8bf
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: b428767dab4a3087c857de389ee8e6b66f3e42ab
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555623"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588195"
 ---
 # <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성
 
@@ -49,20 +49,11 @@ ms.locfileid: "60555623"
 
 2. 로컬 그룹 정책 편집기 왼쪽 창에서 트리를 컴퓨터 구성 관리 템플릿 Windows  \>  \> **구성 요소** \> Microsoft Defender 바이러스 백신.
 
-3. 다음과 Microsoft Defender 바이러스 백신 맬웨어 방지 서비스 정책 설정을 구성합니다.
+3. 맬웨어 Microsoft Defender 바이러스 백신 정책 설정을 구성합니다.
 
-   1. 오른쪽의  Microsoft Defender 바이러스 백신 세부 정보 창에서 다음 표에 지정된 정책 설정을 두 번 클릭합니다.
+   오른쪽의  Microsoft Defender 바이러스 백신 창에서 맬웨어 방지 서비스가 정상 우선 순위로 시작하도록 허용을 두 번 클릭하고 사용으로 **설정합니다.**
 
-      <br/><br/>
-
-      |설정|기본 설정|
-      |---|---|
-      |맬웨어 방지 서비스가 정상 우선 순위로 시작하도록 허용 <p> 검색 엔진의 우선 순위를 Microsoft Defender 바이러스 백신 있습니다. 우선 순위를 낮추면 시작 프로세스를 가능한 한 줄이 원하는 경우에 유용할 수 있습니다. 그러나 이 작업을 수행하면 끝점 보호에 영향을 줄 수 있습니다. 계속 주의하세요.|사용
-      |맬웨어 방지 서비스가 항상 실행되는 상태로 유지하도록 허용 <p> 보호 업데이트를 사용하지 않도록 설정한 경우 계속 Microsoft Defender 바이러스 백신 수 있습니다. 보호 업데이트를 사용 안 하게 하면 끝점 보호가 줄어듭됩니다.|사용 안 함|
-
-   2. 설정을 적절하게 구성하고 확인 을 **선택합니다.**
-
-   3. 표의 각 설정에 대해 이전 단계를 반복합니다.
+   그런 다음 **확인** 을 선택합니다.
 
 4. 다음과 Microsoft Defender 바이러스 백신 실시간 보호 정책 설정을 구성합니다.
 
@@ -78,19 +69,9 @@ ms.locfileid: "60555623"
 
     1. 왼쪽 **창의** Microsoft Defender 바이러스 백신 트리에서 스캔 을 **선택합니다.**
     
-       ![Microsoft Defender 바이러스 백신 검사 옵션.](images/gpedit-windows-defender-antivirus-scan.png)
+   2. 오른쪽의 **스캔** 세부 정보 창에서추학 켜기 를 두 번 **클릭하고** 사용으로 **설정합니다.** 
 
-      ![Microsoft Defender 바이러스 백신 검사 옵션](images/gpedit-windows-defender-antivirus-scan.png)
-
-   2. 오른쪽의 **스캔** 세부 정보 창에서 다음 표에 지정된 정책 설정을 두 번 클릭합니다.
-      <br/><br/>
-
-      |설정|기본 설정|
-      |---|---|
-      |추론 켜기 <p> 추론 보호는 활동 감지를 요청하기 직전에 의심스러운 활동을 Microsoft Defender 바이러스 백신 차단합니다.|사용|
-
-
-   3. 설정을 적절하게 구성하고 확인 을 **선택합니다.**
+   3. **확인** 을 선택합니다.
 
 6. 로컬 **그룹 정책 편집기를 닫습니다.**
 
@@ -129,11 +110,7 @@ ms.locfileid: "60555623"
 
 3. 오른쪽의  실시간 보호 세부 정보 창에서 실시간 보호 끄기 를 **두 번 클릭합니다.**
 
-   ![실시간 보호를 해제합니다.](images/gpedit-turn-off-real-time-protection.png)
-
 4. 실시간 **보호** 설정 끄기 창에서 옵션을 사용으로 **설정합니다.**
-
-   ![실시간 보호를 사용하도록 설정하지 않습니다.](images/gpedit-turn-off-real-time-protection-enabled.png)
    
 5. 확인을 **선택합니다.**
 

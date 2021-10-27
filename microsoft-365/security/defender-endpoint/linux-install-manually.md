@@ -2,7 +2,7 @@
 title: Linux에서 수동으로 끝점용 Microsoft Defender 배포
 ms.reviewer: ''
 description: 명령줄에서 수동으로 Linux에 끝점용 Microsoft Defender를 배포하는 방법을 설명 합니다.
-keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos, fedora, amazon linux 2
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 437669f392f108526670d3eca3aef4071aa8cb02
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.openlocfilehash: ade60ba21b97a22795740cc57971e9b197eb0322
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478880"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587188"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -39,7 +39,7 @@ ms.locfileid: "60478880"
 - [Linux에서 수동으로 끝점용 Microsoft Defender 배포](#deploy-microsoft-defender-for-endpoint-on-linux-manually)
   - [선행 조건 및 시스템 요구 사항](#prerequisites-and-system-requirements)
   - [Linux 소프트웨어 리포지토리 구성](#configure-the-linux-software-repository)
-    - [RHEL 및 변형(CentOS 및 Oracle Linux)](#rhel-and-variants-centos-oracle-linux-and-amazon-linux-2)
+    - [RHEL 및 변형(CentOS, Fedora, Oracle Linux 및 Amazon Linux 2)](#rhel-and-variants-centos-fedora-oracle-linux-and-amazon-linux-2)
     - [SLES 및 변형](#sles-and-variants)
     - [Ubuntu 및 데비안 시스템](#ubuntu-and-debian-systems)
   - [응용 프로그램 설치](#application-installation)
@@ -65,7 +65,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 > [!WARNING]
 > 초기 설치 후 채널을 전환하려면 제품을 다시 설치해야 합니다. 제품 채널을 전환하려면 기존 패키지를 제거하고 새 채널을 사용하도록 장치를 다시 구성하고 이 문서의 단계에 따라 새 위치에서 패키지를 설치합니다.
 
-### <a name="rhel-and-variants-centos-oracle-linux-and-amazon-linux-2"></a>RHEL 및 변형(CentOS, Oracle Linux 및 Amazon Linux 2)
+### <a name="rhel-and-variants-centos-fedora-oracle-linux-and-amazon-linux-2"></a>RHEL 및 변형(CentOS, Fedora, Oracle Linux 및 Amazon Linux 2)
 
 - 아직 `yum-utils` 설치되지 않은 경우 다음을 설치합니다.
 
@@ -85,7 +85,9 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     |---|---|
     |RHEL/Centos/Oracle 8.0-8.5의 경우|<https://packages.microsoft.com/config/rhel/8/[channel].repo>|
     |RHEL/Centos/Oracle 7.2-7.9 & Amazon Linux 2의 경우 |<https://packages.microsoft.com/config/rhel/7/[channel].repo>|
-    | RHEL/Centos/Oracle 6.7-6.10의 경우 | <https://packages.microsoft.com/config/rhel/6/[channel].repo>
+    |RHEL/Centos/Oracle 6.7-6.10의 경우|<https://packages.microsoft.com/config/rhel/6/[channel].repo>|
+    |Fedora 33의 경우|<https://packages.microsoft.com/config/fedora/33/prod.repo>|
+    |Fedora 34의 경우|<https://packages.microsoft.com/config/fedora/34/prod.repo>|
 
     다음 명령에서 *[version]* 및 *[channel]을* 식별한 정보로 바 대체합니다.
 

@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 ms.localizationpriority: ''
 description: 앱의 미리 보기(미리 보기)에 Microsoft Viva Learning 학습 콘텐츠 원본을 구성하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: 82b26e01928bf62c443545a045c64ae585fddcb3
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.openlocfilehash: f0c49521012cdadf827682dde9377880b661825f
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478755"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586176"
 ---
 # <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>웹 에지에서 Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 Microsoft 365 관리 센터
 
@@ -93,11 +93,11 @@ Viva 2013에서 콘텐츠 원본을 학습하기 위한 설정을 Learning 다�
 
 > [!NOTE]
 > LinkedIn 무료 콘텐츠는 LinkedIn 개인 정보 취급 방침 및 사용자 계약에 따라 사용자에게 제공됩니다. LinkedIn은 사용자의 IP 주소, 이전에 LinkedIn에서 설정한 쿠키를 수신하며 무료 콘텐츠 사용을 추적하기 위해 새 쿠키를 설정할 것입니다. 사용자는 무료 콘텐츠를 받기 위해 LinkedIn에 로그인할 필요는 없습니다.<br><br>
-LinkedIn 프리미엄 콘텐츠의 경우 조직에서 해당 콘텐츠에 액세스하려면 팀의 구독이 필요합니다. 사용자는 LinkedIn을 통해 조직 및 사용자 약관에 따라 제공되는 학습에 액세스하려면 LinkedIn에 로그인해야 합니다.<br><br> Microsoft가 아닌 콘텐츠(무료 LinkedIn 콘텐츠 제외)의 경우 조직에서 Viva 계정(미리 보기)에 연결하기 전에 사용자가 작업 계정을 사용하여 해당 콘텐츠에 액세스할 수 있는 구독이 Learning 합니다. Microsoft가 아닌 학습 공급자에 대한 사용자의 개인 구독은 Viva Learning(미리 보기)와 통합되지 않습니다. 사용자는 브라우저 또는 포함된 뷰어에서 학습을 Learning Pro Microsoft가 아닌 다른 사용자 및 LinkedIn에 로그인합니다. 사용자가 조직 구독이 없는 콘텐츠로 이동하면 개별 구독에 등록할 수 있는 공급자 페이지가 표시될 수 있습니다. Microsoft가 아닌 모든 학습은 Viva 공급자의 일부가 아니라 Microsoft가 아닌 공급자의 약관에 따라 Learning. 
+LinkedIn 프리미엄 콘텐츠의 경우 조직에서 해당 콘텐츠에 액세스하려면 팀의 구독이 필요합니다. 사용자는 LinkedIn을 통해 조직 및 사용자 약관에 따라 제공되는 학습에 액세스하려면 LinkedIn에 로그인해야 합니다.<br><br> Microsoft가 아닌 콘텐츠(무료 LinkedIn 콘텐츠 제외)의 경우 조직에서 Viva 계정(미리 보기)에 연결하기 전에 사용자가 작업 계정을 사용하여 해당 콘텐츠에 액세스할 수 있는 구독이 Learning 합니다. Microsoft가 아닌 학습 공급자에 대한 사용자의 개인 구독은 Viva Learning(미리 보기)와 통합되지 않습니다. 사용자는 브라우저 또는 포함된 뷰어에서 학습을 Learning Pro Microsoft가 아닌 다른 사용자 및 LinkedIn에 로그인합니다. 사용자가 조직 구독이 없는 콘텐츠로 이동하면 개별 구독에 등록할 수 있는 공급자 페이지가 표시될 수 있습니다. Microsoft가 아닌 모든 학습은 Viva 공급자의 일부가 아니라 Microsoft가 아닌 공급자의 약관에 따라 Learning.
 
 학습 콘텐츠 원본을 사용하도록 설정하거나 사용하지 않도록 설정하려면 원본 옆의 확인란을 선택합니다. 원본을 사용하도록 설정하면 확인 표시가 표시됩니다.
 
-## <a name="third-party-content-providers"></a>타사 콘텐츠 공급자 
+## <a name="third-party-content-providers"></a>타사 콘텐츠 공급자
 
 사용 가능한 연결된 학습 공급자 집합은 변경될 수 있습니다. 프로그램이 커질수록 더 많은 공급자가 참여하게 됩니다. 사용 가능한 공급자가 Viva 또는 Viva(미리 보기)와의 연결을 Learning 있습니다.
 
@@ -105,13 +105,13 @@ LinkedIn 프리미엄 콘텐츠의 경우 조직에서 해당 콘텐츠에 액�
 
 Viva Learning(미리 보기)의 경우 Skillsoft를 사용하도록 설정하고 Skillsoft 콘텐츠를 보기로 선택한 사용자는 조직의 Percipio 사이트 이름을 입력할지 묻는 Percipio 페이지에 표시됩니다. 사용자가 조직의 사이트 이름을 입력하면 조직의 Percipio 사이트에 로그인하기 위해 페이지로 이동됩니다. 사용자는 기존 자격 증명을 사용하여 로그인하고 원래 선택한 콘텐츠를 볼 수 있습니다. 사용자는 브라우저 캐시가 지워질 때까지 Percipio 사이트 이름을 한 번만 입력해야 합니다. 사용자에 대해 이 환경을 간소화하기 위해 Viva Learning(미리 보기)에 보내는 내부 통신에 Percipio 사이트 이름을 Learning 좋습니다.
 
-이는 미리 보기를 위한 임시 환경으로, 사용자가 조직의 Percipio 사이트 이름을 제공해야 하는 단계를 우회하는 일반 가용성을 위해 테넌트별 통합을 지원하기 위해 Skillsoft와 협력하고 있습니다. 
+이는 미리 보기를 위한 임시 환경으로, 사용자가 조직의 Percipio 사이트 이름을 제공해야 하는 단계를 우회하는 일반 가용성을 위해 테넌트별 통합을 지원하기 위해 Skillsoft와 협력하고 있습니다.
 
 ### <a name="details-on-microsoft-substrate"></a>Microsoft 기판에 대한 세부 정보  
 
 Microsoft가 아닌 서비스(학습 공급자 또는 학습 관리 시스템)에서 Viva Learning(미리 보기)로 복사하는 데이터의 경우 Viva Learning(미리 보기)에서 해당 데이터를 직접 추출, 수정 또는 삭제할 수 없습니다. Microsoft가 아닌 다른 공급자에서 가져온 데이터를 즉시 새로 고쳐 Microsoft가 아닌 원본 데이터의 변경 내용과 변경 내용을 반영합니다.
 
-Microsoft가 아닌 서비스의 라이선스, 서비스 또는 개인 정보 취급 방침에 따라 데이터를 액세스, 수정, 삭제 또는 추출하려면 Microsoft가 아닌 서비스 공급업체와 협력해야 합니다. 이 변경 내용은 Microsoft가 아닌 서비스 및 Viva Learning(미리 보기)의 데이터 업데이트 주기가 완료될 때 Viva Learning(미리 보기)에서 사용하기 위해 처리된 데이터에 반영됩니다. Viva Learning(미리 보기)와 Microsoft가 아닌 서비스 간의 연결을 끄면 이전에 해당 서비스에서 가져온 모든 데이터가 삭제됩니다. 
+Microsoft가 아닌 서비스의 라이선스, 서비스 또는 개인 정보 취급 방침에 따라 데이터를 액세스, 수정, 삭제 또는 추출하려면 Microsoft가 아닌 서비스 공급업체와 협력해야 합니다. 이 변경 내용은 Microsoft가 아닌 서비스 및 Viva Learning(미리 보기)의 데이터 업데이트 주기가 완료될 때 Viva Learning(미리 보기)에서 사용하기 위해 처리된 데이터에 반영됩니다. Viva Learning(미리 보기)와 Microsoft가 아닌 서비스 간의 연결을 끄면 이전에 해당 서비스에서 가져온 모든 데이터가 삭제됩니다.
 
 ## <a name="next-step"></a>다음 단계
 

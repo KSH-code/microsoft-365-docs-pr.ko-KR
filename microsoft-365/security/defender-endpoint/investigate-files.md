@@ -2,8 +2,6 @@
 title: 끝점 파일에 대한 Microsoft Defender 조사
 description: 조사 옵션을 사용하여 경고, 동작 또는 이벤트와 관련된 파일에 대한 세부 정보를 얻을 수 있습니다.
 keywords: 조사, 조사, 파일, 악의적인 활동, 공격 동기 부여, 심층 분석, 심층 분석 보고서
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -19,12 +17,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 99bcf3c3d3381ffe226aeb54a72c7a673b06e88e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: dc0b5326f4f5a0400ea624a85a57bc0cb12b577a
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60166365"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588092"
 ---
 # <a name="investigate-a-file-associated-with-a-microsoft-defender-for-endpoint-alert"></a>끝점 경고에 대한 Microsoft Defender와 관련된 파일 조사
 

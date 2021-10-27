@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: dd9f2b2f673164bce7f05f7e390b13012247c362
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 74b896f6c0fdd625cf50cc04a31fa79d48dc3a4e
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335989"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587684"
 ---
 # <a name="learn-about-assessment-templates-in-compliance-manager"></a>준수 관리자의 평가 템플릿에 대해 자세히 알아보기
 
@@ -89,8 +89,6 @@ GCC 높음 및 DOD 계정은 볼륨 라이선스를 통해 템플릿 [라이선�
 - 조직에서 **평가에** 템플릿을 사용하지 않는 경우 템플릿이 비활성으로 간주됩니다.
 
 평가를 구매한 프리미엄 템플릿에 연결하는 경우 해당 템플릿은 1년 동안 활성화됩니다. 취소하지 않으면 구매가 자동으로 갱신됩니다.
-
-평가판을 기반으로 프리미엄 템플릿을 사용해도 됩니다. 평가판 라이선스는 30일 동안 최대 25개 템플릿에 좋습니다. 평가판이 시작되면 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다. 평가판은 를 통해 활성화할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">수 Microsoft 365 관리 센터.</a>
 
 #### <a name="activated-templates-counter"></a>활성화된 템플릿 카운터
 

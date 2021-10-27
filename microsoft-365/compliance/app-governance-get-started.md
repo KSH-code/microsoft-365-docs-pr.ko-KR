@@ -15,40 +15,24 @@ search.appverid:
 - MOE150
 - MET150
 description: 앱을 관리하는 앱 거버넌스 기능을 시작하세요.
-ms.openlocfilehash: 78e9570c1c5a19353eb9868a649eba958d23067b
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.openlocfilehash: d28dec16cad1c54c4b5f8fd0415da3c2811ea989
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478796"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60585852"
 ---
 # <a name="get-started-with-app-governance-in-preview"></a>앱 거버넌스 시작(미리 보기)
 
 [![앱 거버넌스 무료 평가판 신청](../media/manage-app-protection-governance/large-app-governance-banner.png)](https://aka.ms/appgovernancetrial)
 
-Microsoft Cloud App Security에 대한 앱 거버넌스 추가 기능 사용을 시작하려면 다음 세 단계를 실행해야 합니다.
-
-1. [라이선스 및 관리자 필수 구성 요소 확인](#licensing-and-administrator-role-prerequisites).
-1. [앱 거버넌스 등록](#sign-up-for-app-governance)
-1. [MCAS 통합 추가](#add-integration-with-mcas)
-
+MCAS(Microsoft Cloud App Security)에 대한 앱 거버넌스 추가 기능을 사용하려면 먼저 관리자 역할 및 라이선싱 요구 사항에 대한 필수 구성 요소를 확인하세요. 그러면 [앱 거버넌스 평가판에 가입](#sign-up-for-app-governance)할 수 있습니다. 마지막 단계는 [MCAS와의 통합을 활성화](#add-integration-with-mcas)하는 것입니다.
 
 ## <a name="sign-up-for-app-governance"></a>앱 거버넌스 등록
 
-기존 Microsoft 365 고객용:
+기존 Microsoft 365 고객의 경우 [무료 평가판 등록 페이지](https://aka.ms/appgovernancetrial)로 이동하여 테넌트에 앱 거버넌스를 추가하는 단계를 완료할 수 있습니다.
 
-1. [평가판 등록 페이지](https://aka.ms/appgovernancetrial)로 이동합니다.
-1. 앱 거버넌스를 추가하는 단계별 실행을 완료합니다. 
-
-<!--
-:::image type="content" source="../media/manage-app-protection-governance/sign-up-page.png" alt-text="Simple steps to add app governance to your account.":::
--->
-
-아직 Microsoft 365 고객이 아닌 경우 무료 평가판에 등록할 수 있습니다.
-
-1. 이 페이지 맨 위에서  **무료 계정** 버튼을 선택합니다.
-1.  **비즈니스용 Microsoft 365 체험** 아래에서 **1개월 무료 체험** 을 선택합니다.
-1. 등록 단계별 실행을 완료합니다.
+아직 Microsoft 365 고객이 아닌 경우 이 페이지 상단의  **무료 계정**  버튼을 선택하여 무료 평가판에 등록할 수 있습니다.  **비즈니스용 Microsoft 365 사용해 보기** 에서 **1개월 무료 체험** 을 선택하고 가입 단계를 완료합니다.
 
 앱 거버넌스 구독을 구매하려면 영업 계정 팀에 문의하세요.
 
@@ -72,11 +56,11 @@ MCAS와의 통합이 활성 상태인지 확인하려면 아래에 나열된 앱
 - Microsoft 365 OAuth 피싱 감지
 - Microsoft 365 OAuth 앱 거버넌스
 
-## <a name="licensing-and-administrator-role-prerequisites"></a>라이선스 및 관리자 역할 필수 구성 요소
+## <a name="prerequisites"></a>필수 구성 요소
 
 1. 계정이 [적절한 수준의 라이선싱](#licensing-for-app-governance)을 보유하고 있는지 확인합니다. 앱 거버넌스는 MCAS(Microsoft Cloud App Security)의 추가 기능이므로 계정은 MCAS는 독립 실행형 제품 또는 다양한 라이선스 패키지의 일부를 통해 라이선스를 보유하고 있어야 합니다.
 1. 포털에서 앱 거버넌스 페이지에 액세스하려면 아래에 나열된 [관리자 역할](#administrator-roles) 중 하나가 있어야 합니다.
-1. 무료 평가판을 활성화하려면 조직의 청구 주소가 [북미, 유럽 또는 아프리카에서 지원되는 지역](app-governance-countries.md) 중 하나여야 합니다.
+1. 무료 평가판을 활성화하려면 조직의 청구 주소가 WW 지역이나 GBR, CAN, JPN, IND 또는 AUS go-local 지역에 있어야 합니다.
 
 ### <a name="licensing-for-app-governance"></a>앱 거버넌스 라이선싱
 

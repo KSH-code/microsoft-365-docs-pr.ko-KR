@@ -2,8 +2,6 @@
 title: 끝점 경고에 대한 Microsoft Defender 관리
 description: 경고 상태를 변경하고, 경고를 숨기기 위한 제거 규칙을 만들고, 설명을 제출하고, 경고 관리 메뉴를 사용하여 개별 경고에 대한 변경 기록을 검토합니다.
 keywords: 경고 관리, 관리, 경고, 상태, 신규, 진행 중, 해결, 경고 해결, 제거, 제거, 규칙, 컨텍스트, 기록, 설명, 변경
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d6ce6d8f081141214c8d10ea21898fb66e3e0c10
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1d4df8855e9aea643860d21b07473e82019f2323
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205382"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587164"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-alerts"></a>끝점 경고에 대한 Microsoft Defender 관리
 

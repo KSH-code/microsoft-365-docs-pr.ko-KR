@@ -18,12 +18,12 @@ ms.custom:
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
 description: 엔터프라이즈 조직 네트워크 Office 365 작동할 수 있도록 끝점을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 01fb9f067bd94e564deb182338fdcde055edb153
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 96aa778316fcaa5994d408c869e8566e465a07d1
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201700"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587328"
 ---
 # <a name="managing-office-365-endpoints"></a>Office 365 끝점 관리
 
@@ -99,7 +99,7 @@ PAC 파일이 직접 아웃 바운드 트래픽에 사용되지 않는 경우에
 
 Office 365 IP 주소 및 URL의 변경 사항은 보통 매월 말일에 게시됩니다. 경우에 따라 운영, 지원 또는 보안 요구 사항으로 인해 해당 일정을 벗어나서 변경 사항이 게시될 수 있습니다.
 
-IP 주소 또는 URL이 추가되어 조취를 취해야 하는 변경 사항이 게시되면 변경 사항을 게시한 시점부터 해당 끝점에 Office 365 서비스가 있을 때까지 30일 알림을 받게 됩니다. 이 알림 기간을 목표로 하지만 운영, 지원 또는 보안 요구 사항으로 인해 불가능할 수도 있습니다. 삭제된 IP 주소 또는 URL 또는 중요하지 않은 변경 등과 같이 연결을 유지하기 위해 직접적인 조치가 필요하지 않은 변경 사항은 사전 알림을 포함하지 않습니다. 제공되는 알림과 상관없이 각 변경 내용에 대한 예상 서비스 활성 날짜를 나열합니다.
+IP 주소 또는 URL이 추가되어 조취를 취해야 하는 변경 사항이 게시되면 변경 사항을 게시한 시점부터 해당 끝점에 Office 365 서비스가 있을 때까지 30일 알림을 받게 됩니다. 이는 유효 날짜로 반영됩니다. 이 알림 기간을 목표로 하지만 운영, 지원 또는 보안 요구 사항으로 인해 불가능할 수도 있습니다. 삭제된 IP 주소 또는 URL 또는 중요하지 않은 변경 등과 같이 연결을 유지하기 위해 직접적인 조치가 필요하지 않은 변경 사항은 사전 알림을 포함하지 않습니다. 이러한 경우에는 유효 날짜가 제공되지 않습니다. 제공되는 알림과 상관없이 각 변경 내용에 대한 예상 서비스 활성 날짜를 나열합니다.
 
 ### <a name="change-notification-using-the-web-service"></a>웹 서비스를 사용하여 변경 알림
 
@@ -207,9 +207,7 @@ Office 365 타사 서비스에 액세스할 수 없는 경우 이 문서에서 �
 <a name="bkmk_consumer"> </a>
 ### <a name="how-do-i-block-access-to-microsofts-consumer-services"></a>Microsoft 소비자 서비스에 대한 액세스를 차단하려면 어떻게 하나요?
 
-소비자 서비스에 대한 액세스를 제한하는 작업은 사용자의 책임으로 수행해야 합니다. 소비자 서비스를 차단하는 신뢰할 수 있는 유일한 방법은 *login.live.com* FQDN에 대한 액세스를 제한하는 것입니다. 이 FQDN은 MSDN, TechNet과 같은 비소비자 서비스를 비롯한 다양한 서비스에서 사용됩니다. 이 FQDN은 Microsoft 지원의 보안 파일 교환 프로그램에서도 사용됩니다. Microsoft 제품에 대한 문제 해결을 용이하게 하기 위해 파일을 전송하는 데 필요합니다.  이 FQDN에 대한 액세스를 차단하면 이러한 서비스와 연결된 네트워크 연결에 대한 규칙의 예외를 포함해야 할 수 있습니다.
-  
-Microsoft 소비자 서비스에 대한 액세스만 차단해서는 네트워크상의 누군가가 Office 365 테넌트 또는 기타 서비스를 사용하여 정보를 빼내는 것을 막지 못한다는 점에 유의하세요.
+테넌트 제한 기능은 이제 OneDrive, Hotmail 및 같은 모든 Microsoft 소비자 응용 프로그램(MSA 앱)의 사용을 Xbox.com. 이 경우 끝점에 대한 별도의 헤더가 login.live.com 있습니다. 자세한 내용은 테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 [액세스 관리를 참조합니다.](/azure/active-directory/manage-apps/tenant-restrictions#blocking-consumer-applications)
 
 <a name="bkmk_IPOnlyFirewall"> </a>
 ### <a name="my-firewall-requires-ip-addresses-and-cannot-process-urls-how-do-i-configure-it-for-office-365"></a>방화벽에 IP 주소가 필요하며 URL을 처리할 수 없습니다. Office 365에 맞게 구성하려면 어떻게 하나요?

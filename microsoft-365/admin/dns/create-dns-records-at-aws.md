@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: AWS(Amazon Web Services)에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 알아보십시오.
-ms.openlocfilehash: 05ab925645fe840816496038e02a827af37570f6
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 1e148b13a89def2eb034ca0bcaa4287c890fe904
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60556931"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586448"
 ---
 # <a name="connect-your-dns-records-at-amazon-web-services-aws-to-microsoft-365"></a>커넥트 AWS(Amazon Web Services)에서 DNS 레코드를 Microsoft 365
 
@@ -87,13 +87,15 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
 다음을 통해 레코드를 Microsoft 365.
   
-1. Microsoft 관리 센터에서 도메인 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**로 이동하세요.**</a>
+1. 관리 센터에서 도메인 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**로 이동하세요.**</a>
+    
+1. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.** 
 
-2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
-    
-3. **설정** 페이지에서 **설정 시작** 을 선택합니다.
-    
-4. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
+    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text="설치 시작을 선택합니다.":::
+
+1. 계속을 **선택합니다.**
+  
+1. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
     
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결하기](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 

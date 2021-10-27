@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Microsoft 2013에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 123-reg.co.uk 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2c9e917a7c63759d69e58ffda4dc8a35c76d04ca
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 98bbd9fa4963b24b08c417f608f7a0a3d8d84f31
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60556964"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586974"
 ---
 # <a name="connect-your-dns-records-at-123-regcouk-to-microsoft-365"></a>커넥트 DNS 레코드를 123-reg.co.uk Microsoft 365
 
@@ -49,7 +49,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 1. 시작하려면 [이 링크](https://www.123-reg.co.uk/secure/cpanel/domain/overview)를 사용하여 123-reg.co.uk의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. 도메인 이름 개요 페이지에서 확인할 도메인의 이름을 선택합니다. 
+2. 도메인을 **선택하고** 도메인 이름 개요 페이지에서 확인할 도메인의 이름을 선택합니다. 
     
    :::image type="content" source="../../media/dns-123reg/123reg-domains-1.png" alt-text="확인할 도메인을 선택합니다.":::
 
@@ -67,10 +67,14 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |:-----|:-----|:-----|
     |**호스트 이름** <br/> |**종류** <br/> |**Destination TXT/SPF** <br/> |
     |@  <br/> |TXT/SPF  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
-   
+  
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-TypeTXTSPF.png" alt-text="드롭다운 목록에서 TXT/SPF 유형을 선택하고 값을 입력합니다.":::
+ 
 6. **추가** 를 선택합니다.
-    
-7. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
+ 
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-TXTSPF-Add.png" alt-text="추가를 선택합니다.":::
+   
+   방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
 이제 도메인 등록 기관의 사이트에 레코드를 추가한 후 Microsoft로 돌아가 레코드에 대한 검색을 요청합니다. Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
@@ -78,9 +82,13 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 1. 관리 센터에서 도메인 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**로 이동하세요.**</a>
     
-2. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.**   
+1. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.** 
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text="설치 시작을 선택합니다.":::
+
+1. 계속을 **선택합니다.**
   
-3. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
+1. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
     
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
@@ -106,10 +114,16 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |**호스트 이름**|**종류**|**우선 순위**|**대상 MX**|
     |:-----|:-----|:-----|:-----|
     |@  <br/> |MX  <br/> |1  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft 계정에서 \<domain-key\>을(를) 받으세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
-  
+ 
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-MX.png" alt-text="드롭다운 목록에서 MX 유형을 선택하고 값을 입력합니다.":::
+ 
 6. **추가** 를 선택합니다.
-  
+ 
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-MX-Add.png" alt-text="추가를 선택합니다.":::
+ 
 7. 다른 MX 레코드가 있으면 해당 레코드에 대한 **삭제(휴지통)** 아이콘을 선택하여 각 레코드를 삭제합니다. 
+
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-MX-delete.png" alt-text="삭제(휴지통)를 선택합니다.":::
   
 ## <a name="add-the-cname-record-required-for-microsoft"></a>Microsoft에 필요한 CNAME 레코드 추가
 
@@ -134,8 +148,12 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |**호스트 이름**|**종류**|**대상 CNAME**|
     |:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |autodiscover.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
-  
+ 
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-CNAME.png" alt-text="드롭다운 목록에서 CNAME 형식을 선택하고 값을 입력합니다.":::
+ 
 6. **추가** 를 선택합니다.
+
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-CNAME-Add.png" alt-text="추가를 선택합니다.":::
     
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>전자 메일 스팸 방지에 유용한 SPF용 TXT 레코드 추가
 
@@ -161,6 +179,8 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |**호스트 이름**|**종류**|**Destination TXT/SPF**|
     |:-----|:-----|:-----|
     |@  <br/> |TXT/SPF  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
+
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-TypeTXTSPF.png" alt-text="드롭다운 목록에서 TXT/SPF 유형을 선택하고 값을 입력합니다.":::
   
 6. **추가** 를 선택합니다.
 
@@ -194,8 +214,12 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |_sip._tls|SRV|100|3600|1 443 sipdir.online.lync.com. **이 값은 마침표(.)로 끝나야 합니다.**<br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
     |_sipfederationtls._tcp|SRV|100|3600|1 5061 sipfed.online.lync.com. **이 값은 마침표(.)로 끝나야 합니다.** <br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
   
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-TypeTXTSPF.png" alt-text="드롭다운 목록에서 TXT/SPF 유형을 선택하고 값을 입력합니다.":::
+
 6. **추가** 를 선택합니다.
   
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-TXTSPF-Add.png" alt-text="추가를 선택합니다.":::
+
 7. 다른 SRV 레코드를 추가합니다.
     
 > [!NOTE]
@@ -225,8 +249,12 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |:-----|:-----|:-----|
     |sip  <br/>|CNAME  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
     |lyncdiscover  <br/>|CNAME  <br/> |webdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
-  
+ 
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-CNAME.png" alt-text="드롭다운 목록에서 CNAME 형식을 선택하고 값을 입력합니다.":::
+ 
 1. **추가** 를 선택합니다.
+
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-CNAME-Add.png" alt-text="추가를 선택합니다.":::
   
 1. 다른 CNAME 레코드를 추가합니다.
     
@@ -241,15 +269,15 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
 1. 시작하려면 [이 링크](https://www.123-reg.co.uk/secure/cpanel/domain/overview)를 사용하여 123-reg.co.uk의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
 
-2. On the Domain name overview page, select the name of the domain that you want to edit. 
+1. On the Domain name overview page, select the name of the domain that you want to edit. 
     
    :::image type="content" source="../../media/dns-123reg/123reg-domains-1.png" alt-text="편집할 도메인의 이름을 선택합니다.":::
 
-3. 도메인 관리 페이지의 **고급 도메인 설정에서** **DNS 관리를 선택합니다.**
+1. 도메인 관리 페이지의 **고급 도메인 설정에서** **DNS 관리를 선택합니다.**
   
    :::image type="content" source="../../media/dns-123reg/123reg-domains-2.png" alt-text="드롭다운 목록에서 DNS 관리를 선택합니다.":::
   
-4. DNS 관리 페이지에서 고급 **DNS 탭을** 선택합니다. 
+1. DNS 관리 페이지에서 고급 **DNS 탭을** 선택합니다. 
   
    :::image type="content" source="../../media/dns-123reg/123reg-domains-3.png" alt-text="고급 DNS 탭을 선택합니다.":::
     
@@ -257,13 +285,17 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     새 **레코드의 유형** 상자에 있는 드롭다운 목록에서 **CNAME을** 선택한 다음 다음 표의 다른 값을 입력하거나 복사하여 붙여넣습니다.
     
- | **호스트 이름**|**종류**|**대상 CNAME**|
-    |:-----|:-----|:-----|
-    | enterpriseregistration <br/> | CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
-    |enterpriseenrollment  <br/> | CNAME  <br/> |enterpriseenrollment.manage.microsoft.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+   | **호스트 이름**|**종류**|**대상 CNAME**|
+   |:-----|:-----|:-----|
+   | enterpriseregistration <br/> | CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+   |enterpriseenrollment  <br/> | CNAME  <br/> |enterpriseenrollment.manage.microsoft.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
   
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-CNAME.png" alt-text="드롭다운 목록에서 CNAME 형식을 선택하고 값을 입력합니다.":::
+
 1. **추가** 를 선택합니다.
-  
+ 
+   :::image type="content" source="../../media/dns-123reg/123reg-domains-CNAME-Add.png" alt-text="추가를 선택합니다.":::
+ 
 1. 다른 CNAME 레코드를 추가합니다.
     
 > [!NOTE]

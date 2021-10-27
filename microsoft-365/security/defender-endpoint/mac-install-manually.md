@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5e94467557df7cefc5e1adaddc5a1ae515ef508a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b198cbfe979cc8453db289911ab48de601a3edd2
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60152193"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60585968"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 수동 배포
 
@@ -92,27 +92,27 @@ ms.locfileid: "60152193"
 
 1. Finder에서 다운로드한 wdav.pkg로 이동한 다음 을 열어 립니다.
 
-    ![앱 설치 스크린샷4.](images/big-sur-install-1.png)
+    ![앱 설치 스크린샷4.](images/monterey-install-1.png)
 
 2. 계속을 **선택하고** 사용 조건에 동의하고 메시지가 표시될 때 암호를 입력합니다.
 
 3. 설치 프로세스가 끝나면 제품에서 사용하는 시스템 확장을 승인하기 위해 승격됩니다. 보안 **기본 설정 열기 를 선택합니다.**
 
-    ![시스템 확장 승인.](images/big-sur-install-2.png)
+    ![시스템 확장 승인.](images/monterey-install-2.png)
 
 4. 보안 및 **개인 & 창에서** 허용을 **선택합니다.**
 
-    ![시스템 확장 보안 기본 설정1.](images/big-sur-install-3.png)
+    ![시스템 확장 보안 기본 설정1.](images/monterey-install-3.png)
 
 5. Mac의 끝점용 Microsoft Defender와 함께 배포된 모든 시스템 확장에 대해 & 4단계를 반복합니다.
 
 6. 끝점 검색 및 응답 기능의 일부로 Mac의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft 365 Defender 포털에 보고합니다. 네트워크 트래픽을 필터링할 수 있는 끝점에 대한 Microsoft Defender 사용 권한을 부여하라는 메시지가 표시될 때 허용을 **선택합니다.**
 
-    ![시스템 확장 보안 기본 설정2.](images/big-sur-install-4.png)
+    ![시스템 확장 보안 기본 설정2.](images/monterey-install-4.png)
 
 7. 시스템 **기본 설정** 보안 & 개인 정보 보호 탭으로 \>  이동합니다. Microsoft Defender ATP 및 **Microsoft Defender ATP**  끝점 보안 확장에 모든 디스크 액세스 권한을 **부여합니다.** 
 
-    ![전체 디스크 액세스.](images/big-sur-install-5.png)
+    ![전체 디스크 액세스.](images/monterey-install-5.png)
 
 ## <a name="client-configuration"></a>클라이언트 구성
 

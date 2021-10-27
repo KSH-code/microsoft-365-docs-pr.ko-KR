@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Microsoft용 OVH에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: c7f5516ba9f50ea25f82d4511c542227d6d98453
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 7da9094a5d4cff2f93ab87251b29fc81bedc51ca
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557024"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587008"
 ---
 # <a name="connect-your-dns-records-at-ovh-to-microsoft-365"></a>커넥트 OVH에서 DNS 레코드를 Microsoft 365
 
@@ -71,7 +71,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(공백으로 둠)  <br/> |3600(초)  <br/> |MS=msxxxxxxxxxx  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
-1. **다음** 선택
+1. **다음** 을 선택합니다.
 
 1. **확인** 을 선택합니다. 
     
@@ -81,13 +81,17 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
 이제 도메인 등록 기관에 레코드가 추가되었습니다. Microsoft로 돌아가서 레코드를 요청합니다. Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
  
-도메인에서 도메인을 Microsoft 365.
- 
+다음을 통해 레코드를 Microsoft 365.
+  
 1. 관리 센터에서 도메인 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**로 이동하세요.**</a>
     
-2. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.**   
+1. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.** 
+
+    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text="설치 시작을 선택합니다.":::
+
+1. 계속을 **선택합니다.**
   
-3. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
+1. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
     
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
@@ -195,7 +199,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 1. In the boxes for the new record, type or copy and paste the following values. TTL 값을 할당하기 위해 드롭다운 목록에서 **사용자** 지정을 선택한 다음 텍스트 상자에 값을 입력합니다. 
     
     |**하위 도메인**|**TTL**|**값**|
-    |:-----|:-----|:-----|:-----|
+    |:-----|:-----|:-----|
     |(공백으로 둠)  <br/> |3600(초)  <br/> |v=spf1 include:spf.protection.outlook.com -all <br/**참고:** 모든 공란이 올바르게 유지 있도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![OVH SPF에 대한 TXT 레코드를 추가합니다.](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)

@@ -2,7 +2,7 @@
 title: Mac의 끝점용 Microsoft Defender
 ms.reviewer: ''
 description: Mac에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
-keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamf, macos, big sur, catalina, mojave, mac용 mde
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamf, macos, monterey, big sur, catalina, mojave, mde for mac
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4fe0d1b073a2efb14b8b771a2786889cbaa8e892
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3943c5c9e477dc114b74d7f3f9a76b5b00119dd6
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60149889"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587732"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -52,7 +52,7 @@ ms.locfileid: "60149889"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-mac"></a>Mac에 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>전제 조건
+### <a name="prerequisites"></a>필수 구성 요소
 
 - 끝점용 Defender 구독 및 Microsoft 365 Defender 포털 액세스
 - macOS 및 BASH 스크립팅의 초보자 수준 환경
@@ -75,12 +75,9 @@ Mac에서 끝점용 Defender를 설치하고 구성하는 데 사용할 수 있�
 macOS의 가장 최근 주요 릴리스 3개가 지원됩니다.
 
 > [!IMPORTANT]
-> macOS 11(Big Sur)에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 MacOS 카탈로리나 및 최신 [버전의 macOS용](mac-sysext-policies.md)새 구성 프로필에 나열된 추가 구성 프로필을 배포해야 합니다.
+> macOS 11(Big Sur) 이상에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 MacOS 카탈로리나 및 최신 [버전의 macOS용](mac-sysext-policies.md)새 구성 프로필에 나열된 추가 구성 프로필을 배포해야 합니다.
 
-> [!IMPORTANT]
-> MacOS 10.13(High Sierra)에 대한 지원은 2021년 2월 15일부터 중단됩니다.
-
-- 11(빅 수르), 10.15(카탈리나), 10.14(모자베)
+- 12(몬테레이), 11(빅 수르), 10.15(카탈리나), 10.14(모자베)
 - 디스크 공간: 1GB
 
 MacOS의 베타 버전은 지원되지 않습니다.

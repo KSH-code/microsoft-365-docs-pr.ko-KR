@@ -3,8 +3,6 @@ title: 끝점 검색 및 응답 기능 개요
 ms.reviewer: ''
 description: 끝점용 Microsoft Defender의 엔드포인트 감지 및 응답 기능에 대해 자세히 알아보시고
 keywords: 끝점용 Microsoft Defender, 엔드포인트 감지 및 대응, 대응, 탐지, 사이버 보안, 보호
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -17,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f1461cc9871e57cf422c261191723d8d229cc3c9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 709f07bcaa803a922e1dade2acf90e73b6dca53e
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205214"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586000"
 ---
 # <a name="overview-of-endpoint-detection-and-response"></a>엔드포인트 검색 및 대응 개요
 

@@ -17,12 +17,13 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/24/2018
 ms.technology: mde
-ms.openlocfilehash: db114ab17f5e60b9f7660adc71bdc7dd441242b2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.custom: api
+ms.openlocfilehash: c0589818e35ef065f41f40f3b101ba0daab060b1
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60150177"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588376"
 ---
 # <a name="microsoft-defender-for-endpoint-apis-using-powershell"></a>PowerShell을 사용하여 끝점 API용 Microsoft Defender
 
@@ -62,7 +63,7 @@ ms.locfileid: "60150177"
 아래를 실행합니다.
 
 - $tenantId: 쿼리를 실행할 테넌트의 ID입니다(즉, 이 테넌트의 데이터에 대해 쿼리가 실행됩니다).
-- $appId: AAD 앱의 ID(앱에 끝점용 Defender에 대한 '고급 쿼리 실행' 권한이 있어야 합니다.
+- $appId: AAD 앱의 ID(앱에 Endpoint용 Defender에 대한 '고급 쿼리 실행' 권한이 있어야 합니다.
 - $appSecret: Azure AD 앱의 비밀
 
 - $suspiciousUrl: URL
