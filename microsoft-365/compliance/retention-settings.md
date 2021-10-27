@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 또는 보존 레이블 정책에서 구성할 수 있는 설정을 이해하여 원하는 항목을 보존하고 원하지 않는 항목을 제거합니다.
-ms.openlocfilehash: 63437f64fe746b2cd664aab75ec42d2b544f9b9c
-ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
+ms.openlocfilehash: 7b5a6566f9e30d0510dad208ba0dbee503a1e2aa
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60434502"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587996"
 ---
 # <a name="common-settings-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 공통 설정
 
@@ -190,7 +190,7 @@ SharePoint 검색을 사용하여 쿼리를 실행하려면 다음을 수행합�
 
 ## <a name="locations"></a>위치
 
-보존 정책의 위치는 Exchange 전자 메일 및 SharePoint 사이트와 같은 보존 설정을 지원하는 특정 Microsoft 365 서비스를 식별합니다.
+보존 정책의 위치는 Exchange 전자 메일 및 SharePoint 사이트와 같은 보존 설정을 지원하는 특정 Microsoft 365 서비스를 식별합니다. 정책에 대해 선택할 때 알고 있어야 하는 구성 세부 정보 및 가능한 예외가 있는 위치에 대해서는 다음 섹션을 참조하세요.
 
 ### <a name="configuration-information-for-exchange-email-and-exchange-public-folders"></a>Exchange 전자 메일 및 Exchange 공용 폴더에 대한 구성 정보
 
@@ -216,7 +216,7 @@ Exchange에 대한 보존 설정을 구성할 때 포함 및 제외되는 사서
 
 ### <a name="configuration-information-for-sharepoint-sites-and-onedrive-accounts"></a>SharePoint 사이트 및 OneDrive 계정에 대한 구성 정보
 
-**SharePoint 사이트** 위치를 선택하면 보존 정책이 SharePoint 커뮤니케이션 사이트, Microsoft 365 그룹에서 연결하지 않은 팀 사이트, 클래식 사이트에서 문서를 보존하고 삭제할 수 있습니다. Microsoft 365 그룹에서 연결된 팀 사이트는 이 옵션으로 지원되지 않으며 대신 해당 그룹의 사서함, 사이트 및 파일에 있는 콘텐츠에 적용되는 **Microsoft 365 그룹** 위치를 사용합니다.
+**SharePoint 사이트** 위치를 선택하면 보존 정책이 SharePoint 커뮤니케이션 사이트, Microsoft 365 그룹에서 연결하지 않은 팀 사이트, 클래식 사이트에서 문서를 보존하고 삭제할 수 있습니다. [적응형 정책 범위](#exceptions-for-adaptive-policy-scopes)를 사용하지 않는 한 Microsoft 365 그룹에서 연결된 팀 사이트는 이 옵션으로 지원되지 않으며 대신 해당 그룹의 사서함, 사이트 및 파일에 있는 콘텐츠에 적용되는 **Microsoft 365 그룹** 위치를 사용합니다.
 
 SharePoint 및 OneDrive에 대한 보존 설정을 구성할 때 포함되고 제외되는 항목에 대한 자세한 내용은 [보존 및 삭제에 포함되는 항목](retention-policies-sharepoint.md#whats-included-for-retention-and-deletion)을 참조하세요. 
 
@@ -230,6 +230,12 @@ SharePoint 사이트 또는 OneDrive 계정 위치를 지정하는 경우 사이
 > 또한 사용자의 UPN이 변경되면 OneDrive URL이 [자동적으로 변경](/onedrive/upn-changes)됩니다. 예를 들어, 이름 변경 이벤트(예: 결혼)입니다. 또는 조직의 이름 바꾸기 또는 비즈니스 재구성을 지원하기 위해 도메인 이름을 변경합니다. UPN이 변경되면 보존 설정에 지정한 OneDrive URL을 업데이트해야 합니다.
 > 
 > 정적 범위를 포함하거나 제외하기 위해 개별 사용자가 URL을 확실하게 지정해야 하는 어려움 때문에 **사용자** 범위 유형을 사용하는 [적응형 범위](retention.md#adaptive-or-static-policy-scopes-for-retention)가 이 목적에는 더 적합합니다.
+
+#### <a name="exceptions-for-adaptive-policy-scopes"></a>적응형 정책 범위에 대한 예외
+
+적응형 정책 범위를 사용하는 보존 정책을 구성하고 **SharePoint 사이트** 위치를 선택하는 경우:
+
+- OneDrive 사이트 및 Microsoft 365 그룹 ​​연결 사이트는 SharePoint 커뮤니케이션 사이트, Microsoft 365 그룹으로 연결되지 않은 팀 사이트 및 클래식 사이트 외에 포함됩니다.
 
 ### <a name="configuration-information-for-microsoft-365-groups"></a>Microsoft 365 그룹에 대한 구성 정보
 
@@ -254,6 +260,16 @@ Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함 및 Sh
 중요한 정보 유형을 사용하는 자동 적용 정책을 구성하고 **Microsoft 365 그룹** 위치를 선택하는 경우:
 
 - Microsoft 365 사서함이 포함되지 않습니다. 정책에 이러한 사서함을 포함하려면 **Exchange 전자 메일** 위치를 대신 선택합니다.
+
+#### <a name="what-happens-if-a-microsoft-365-group-is-deleted-after-a-policy-is-applied"></a>정책이 적용된 후 Microsoft 365 그룹이 삭제되면 어떻게 되나요?
+
+Microsoft 365 그룹에 보존 정책을 적용한 후 해당 그룹이 Azure Active Directory에서 삭제됩니다.
+
+- 그룹 연결 SharePoint 사이트는 보존되며 **Microsoft 365 그룹** ​​위치의 보존 정책에 의해 계속 관리됩니다. 그룹이 삭제되기 전에 사이트에 액세스할 수 있었던 사용자는 사이트에 계속 액세스할 수 있으며 이제 모든 새 권한은 SharePoint를 통해 관리해야 합니다.
+    
+    이 시점에서는 삭제된 그룹을 지정할 수 없기 때문에 Microsoft 365 그룹 ​​위치에서 사이트를 제외할 수 없습니다. 이 사이트에서 보존 정책을 해제해야 하는 경우 Microsoft 지원에 문의하세요. 예를 들어 [Microsoft 365 관리 센터에서 서비스 요청](https://admin.microsoft.com/Adminportal/Home#/support)을 엽니다.
+
+- 삭제된 그룹의 사서함은 비활성화되고 SharePoint 사이트와 마찬가지로 보존 설정이 적용됩니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요.
 
 ### <a name="configuration-information-for-skype-for-business"></a>비즈니스용 Skype에 대한 구성 정보
 

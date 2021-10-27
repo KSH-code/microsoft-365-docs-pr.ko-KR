@@ -11,6 +11,10 @@
     - name: Teams 관리 센터에서 설정
       href: set-up-teams-admin-center.md
     - name: 학습 콘텐츠 원본 구성
-      href: content-sources-365-admin-center.md
-    - name: SharePoint를 콘텐츠 원본으로 구성
-      href: configure-sharepoint-content-source.md
+      items:
+        - name: 개요
+          href: content-sources-365-admin-center.md
+        - name: SharePoint를 콘텐츠 원본으로 구성
+          href: configure-sharepoint-content-source.md
+        - name: 다른 공급자 추가
+          href: configure-other-content-sources.md
