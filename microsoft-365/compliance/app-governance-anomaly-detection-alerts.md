@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이상 탐지 경고를 조사합니다.
-ms.openlocfilehash: bc82c0a8145b783ea914dd7eec32f3a5f7c6d05e
-ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
+ms.openlocfilehash: d3876900e1dfa26e80550e699dd00d6034d8e6d7
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268877"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588116"
 ---
 # <a name="investigate-anomaly-detection-alerts"></a>이상 탐지 경고 조사
 
@@ -31,15 +31,15 @@ ms.locfileid: "60268877"
 
 이 가이드에서는 다음 범주에서 앱 거버넌스 경고를 조사하고 수정하는 방법에 관한 정보를 제공합니다.
 
-- 초기 액세스
+- [초기 액세스](#initial-access-alerts)
 - 실행
-- 지속성
+- [지속성](#persistence-alerts)
 - 권한 상승
 - 방어 회피
 - 자격 증명 액세스
-- 검색
+- [검색](#discovery-alerts)
 - 수평 이동
-- 컬렉션
+- [컬렉션](#collection-alerts)
 - 유출
 - 영향
 
@@ -344,6 +344,29 @@ Azure Active Directory를 사용하여 암호를 다시 설정하는 방법에 �
 1. 이 앱에서 수행하는 모든 활동을 검토합니다.
 1. 앱에서 승인한 범위를 검토합니다.
 1. 이 앱과 연결된 사용자 활동을 검토합니다.
+
+### <a name="suspicious-enumeration-activities-performed-using-aad-powershell"></a>AAD PowerShell을 사용하여 수행된 의심스러운 열거 활동
+
+**심각도**: 보통
+
+**MITRE ID**: T1087
+
+이 검색은 AAD PowerShell 애플리케이션을 통해 짧은 시간 내에 수행되는 많은 양의 의심스러운 열거 활동을 식별합니다.
+
+**TP일까요, FP일까요?**
+
+- **TP**: AAD PowerShell 애플리케이션에서 의심스러운/비정상적인 열거 활동을 수행했는지 확인할 수 있는 경우
+
+  **권장 작업**: 애플리케이션을 사용하지 않도록 설정 및 제거하고 암호를 다시 설정합니다.
+
+- **FP**: 애플리케이션에서 비정상적인 활동이 수행되지 않았다는 것을 확인할 수 있는 경우입니다.
+
+  **권장 작업**: 경고를 해제합니다.
+
+**위반 범위 이해하기**
+
+1. 이 애플리케이션에서 수행하는 모든 활동을 검토합니다.
+1. 이 애플리케이션과 연결된 사용자 활동을 검토합니다.
 
 ## <a name="collection-alerts"></a>컬렉션 경고
 

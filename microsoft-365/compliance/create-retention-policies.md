@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 4a1a0c5334772d9259278d884090c75d8441df22
-ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
+ms.openlocfilehash: d899b611608642873a84ffe5681719fef0e9581e
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60432604"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60586696"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -80,7 +80,7 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 
 4. 선택한 범위에 따라:
     
-    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 하나 이상의 적응형 범위를 선택합니다. 그런 다음 하나 이상의 위치를 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Teams 채팅** 은 선택할 수 있지만 **Teams 채널 메시지** 는 선택할 수 없습니다. 
+    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 적응형 범위를 하나 이상 선택합니다. 그런 다음 위치를 하나 이상 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Teams 채팅** 은 선택할 수 있지만 **Teams 채널 메시지** 는 선택할 수 없습니다. 
     
     - **정적** 을 선택한 경우: **정책을 적용할 위치 선택** 페이지에서 Teams에 대해 하나 이상의 위치를 ​​선택합니다.
         - **Teams 채널 메시지**: 표준 채널 채팅 및 표준 채널 모임의 메시지이지만 자체 정책 위치가 있는 [비공개 채널](/microsoftteams/private-channels)에서 보낸 메시지는 아닙니다.
@@ -141,7 +141,7 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
 
 4. 선택한 범위에 따라:
     
-    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 하나 이상의 적응형 범위를 선택합니다. 그런 다음 하나 이상의 위치를 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Yammer 사용자 메시지** 는 선택할 수 있지만 **Yammer 커뮤니티 메시지** 는 선택할 수 없습니다. 
+    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 적응형 범위를 하나 이상 선택합니다. 그런 다음 위치를 하나 이상 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Yammer 사용자 메시지** 는 선택할 수 있지만 **Yammer 커뮤니티 메시지** 는 선택할 수 없습니다. 
     
     - **정적** 을 선택한 경우: **정책을 적용할 위치 선택** 페이지에서 Yammer: **Yammer 커뮤니티 메시지** 및 **Yammer 사용자 메시지** 중 하나 또는 두 가지 모두를 전환합니다.
         
@@ -168,11 +168,11 @@ Yammer용 보존 정책이 작동하는 방식에 대한 자세한 내용은 [Ya
 
 Yammer는 단지 커뮤니티 메시지와 비공개 메시지 그 이상의 기능을 수행합니다. Yammer 네트워크의 전자 메일 메시지를 보존 및 삭제하려면 **Microsoft 365 그룹** 위치를 사용하여 Yammer에 사용되는 Microsoft 365 그룹을 포함하는 추가 보존 정책을 구성합니다. 
 
-Yammer에 저장된 파일을 유지 및 삭제하려면 **SharePoint 사이트** 또는 **OneDrive 계정** 위치를 포함하는 보존 정책이 필요합니다.
+Yammer에 저장된 파일을 유지 및 삭제하려면 **Microsoft 365 그룹** 또는 **OneDrive 계정** 위치를 포함하는 보존 정책이 필요합니다.
 
 - 개인 메시지에서 공유되는 파일은 파일을 공유한 사용자의 OneDrive 계정에 저장됩니다. 
 
-- 커뮤니티에 업로드된 파일은 Yammer 커뮤니티의 SharePoint 사이트에 저장됩니다.
+- 커뮤니티에 업로드된 파일은 Yammer 커뮤니티의 그룹 연결 SharePoint 사이트에 저장됩니다.
 
 SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당 메시지가 삭제되기 전에 Yammer 메시지에 참조된 파일을 삭제할 수 있습니다. 이 시나리오에서는 파일이 Yammer 메시지에 여전히 표시되지만 사용자가 파일을 선택하면 "파일을 찾을 수 없음" 오류가 발생합니다. 이러한 동작은 보존 정책에만 국한되지 않으며 사용자가 SharePoint 또는 OneDrive에서 파일을 수동으로 삭제하는 경우에도 발생할 수 있습니다.
 
@@ -194,7 +194,7 @@ SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당
 
 4. 선택한 범위에 따라:
     
-    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 하나 이상의 적응형 범위를 선택합니다. 그런 다음 하나 이상의 위치를 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Exchange 이메일** 은 선택할 수 있지만 **SharePoint 사이트** 는 선택할 수 없습니다. 
+    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 적응형 범위를 하나 이상 선택합니다. 그런 다음 위치를 하나 이상 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Exchange 이메일** 은 선택할 수 있지만 **SharePoint 사이트** 는 선택할 수 없습니다. 
     
     - **정적** 을 선택한 경우: **위치 선택** 페이지에서 Teams 및 Yammer의 위치를 ​​제외한 모든 위치를 켜거나 끕니다. 각 위치에 대해 설정을 기본값으로 유지하여 [전체 위치에 정책을 적용](retention-settings.md#a-policy-that-applies-to-entire-locations)하거나 [포함 및 제외를 지정](retention-settings.md#a-policy-with-specific-inclusions-or-exclusions)할 수 있습니다.
     

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: 9e70ecd26eabad62e93901d0c6a296c068717b73
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ecdb81e5dcb6507a3ef929dce04bfd9aee8d93af
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60197500"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60588248"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
@@ -108,7 +108,7 @@ SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책
 
 ## <a name="how-retention-works-for-onenote-content"></a>OneNote 콘텐츠의 보존 방식
 
-OneNote 컨텐츠가 포함된 위치에 보존 정책을 적용하면 배경 뒤에 다른 OneNote 섹션이 개별 파일입니다. 즉, 지정한 보존 설정에 따라 각 구역이 개별적으로 유지 및 삭제됩니다.
+OneNote 콘텐츠가 포함된 위치에 보존 정책을 적용하거나 보이지 않는 OneNote 폴더에 보존 레이블을 적용하는 경우 다른 OneNote 섹션은 보존 설정을 상속하는 개별 파일입니다. 즉, 지정한 보존 설정에 따라 각 구역이 개별적으로 유지 및 삭제됩니다.
 
 ## <a name="how-retention-works-with-document-versions"></a>보존이 문서 버전에서 작동하는 방식입니다.
 

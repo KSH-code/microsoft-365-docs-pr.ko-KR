@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 5840368c8d73bcafd486db9c3aa982fa03896b5e
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 74c23766bc2780cca0e370940e7fefacdba9d050
+ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555035"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60587544"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -996,9 +996,10 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |:-----|:-----|:-----|
 |사이트에 적용된 민감도 레이블|SensitivityLabelApplied|민감도 레이블이 SharePoint 또는 Teams 사이트에 적용됩니다.|
 |사이트에서 제거된 민감도 레이블|SensitivityLabelRemoved|민감도 레이블이 SharePoint 또는 Teams 사이트에서 제거되었습니다.|
-|파일에 적용된 민감도 레이블|FileSensitivityLabelApplied|웹용 Office 또는 자동 레이블 정책을 사용하여 민감도 레이블을 문서에 적용했습니다.|
-|파일에 변경된 민감도 레이블을 적용|FileSensitivityLabelChanged|웹용 Office 또는 자동 레이블 정책을 사용하여 다른 민감도 레이블을 문서에 적용했습니다.|
-|파일에서 제거된 민감도 레이블|FileSensitivityLabelRemoved|웹의 Office, 자동 레이블 지정 정책을 사용하거나 [Unlocked-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 사용하여 문서에서 민감도 레이블이 제거되었습니다.|
+|파일에 적용된 민감도 레이블|FileSensitivityLabelApplied|민감도 레이블은 Microsoft 365 앱인 웹용 Office를 사용하여 문서에 적용되었습니다. 또는 자동 레이블 지정 정책입니다.|
+|파일에 변경된 민감도 레이블을 적용|FileSensitivityLabelChanged<br /><br>SensitivityLabelUpdated|문서에 다른 민감도 레이블이 적용되었습니다. <br /><br>이 작업에 대한 작업은 레이블이 변경된 방법에 따라 다릅니다.<br /> - 웹용 Office 또는 자동 레이블 지정 정책(FileSensitivityLabelChanged) <br /> - Microsoft 365 앱(SensitivityLabelUpdated)|
+|사이트의 민감도 레이블이 변경됨|SensitivityLabelChanged|SharePoint 또는 Teams 사이트에 다른 민감도 레이블이 적용되었습니다.|
+|파일에서 제거된 민감도 레이블|FileSensitivityLabelRemoved|Microsoft 365 앱, 웹의 Office, 자동 레이블 지정 정책을 사용하거나 [Unlocked-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 사용하여 문서에서 민감도 레이블이 제거되었습니다.|
 ||||
 
 ### <a name="retention-policy-and-retention-label-activities"></a>유지 정책 및 보존 레이블 활동
