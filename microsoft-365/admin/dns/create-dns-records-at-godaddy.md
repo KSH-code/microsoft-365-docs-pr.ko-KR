@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: Microsoft용 GoDaddy에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: a4428b092ee1a679fe622d83dbfee7535649e9f0
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: ac71bbe1c57e1471e1ff343df75f034cc15c5901
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60586393"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60647787"
 ---
 # <a name="connect-your-dns-records-at-godaddy-to-microsoft-365"></a>커넥트 DNS 레코드를 확인하여 Microsoft 365
 
@@ -40,11 +40,11 @@ DNS 호스팅 공급자로 GoDaddy를 사용하고 있는 경우, 이 문서에 
 
 도메인에 대한 DNS 레코드를 설정하는 두 가지 옵션이 있습니다.
 
-- [**도메인 커넥트**](#use-domain-connect-to-verify-and-set-up-your-domain) 다른 전자 메일 서비스 공급자와 함께 도메인을 설정하지 않은 경우 Domain 커넥트 단계를 사용하여 도메인 공급자와 함께 사용할 새 도메인을 자동으로 확인하고 Microsoft 365. 
+- [**도메인 커넥트**](#use-domain-connect-to-verify-and-set-up-your-domain) 다른 전자 메일 서비스 공급자와 함께 도메인을 설정하지 않은 경우 Domain 커넥트 단계를 사용하여 도메인 공급자와 함께 사용할 새 도메인을 자동으로 확인하고 Microsoft 365.
 
    또는
 
-- [**수동 단계 사용**](#create-dns-records-with-manual-setup) 아래 수동 단계를 사용하여 도메인을 확인하고 도메인 등록 기관에 추가할 레코드를 언제 및 어떤 레코드로 추가할지 선택하세요. 예를 들어 편의상 새 MX(메일) 레코드를 설정할 수 있습니다. 
+- [**수동 단계 사용**](#create-dns-records-with-manual-setup) 아래 수동 단계를 사용하여 도메인을 확인하고 도메인 등록 기관에 추가할 레코드를 언제 및 어떤 레코드로 추가할지 선택하세요. 예를 들어 편의상 새 MX(메일) 레코드를 설정할 수 있습니다.
 
 ## <a name="use-domain-connect-to-verify-and-set-up-your-domain"></a>Domain 커넥트 사용하여 도메인 확인 및 설정
 
@@ -56,13 +56,13 @@ DNS 호스팅 공급자로 GoDaddy를 사용하고 있는 경우, 이 문서에 
 
    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text="설치 시작을 선택합니다.":::
 
-1. On the How do you want to connect your domain? 페이지, **계속을 선택합니다.**   
+1. On the How do you want to connect your domain? 페이지, **계속을 선택합니다.**
 
 1. DNS 레코드 추가 페이지에서 DNS 레코드 **추가를 선택합니다.**
 
 1. GoDaddy 로그인 페이지에서 계정에 로그인하고 **승인을 선택합니다.**
-    
-    그러면 도메인에 대한 도메인 설정이 Microsoft 365. 
+
+    그러면 도메인에 대한 도메인 설정이 Microsoft 365.
 
 ## <a name="create-dns-records-with-manual-setup"></a>수동 설정으로 DNS 레코드 만들기
 
@@ -78,7 +78,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 > [!NOTE]
 > 이 레코드는 사용자가 도메인을 소유하고 있는지 확인하는 데만 사용되며 그 밖에 아무런 영향도 주지 않습니다. 원하는 경우 나중에 삭제할 수 있습니다.
 
-1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 
+1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다.
 
    로그인하라는 메시지가 표시될 경우 로그인 자격 증명을 사용하여 오른쪽 상단에서 로그인 이름을 선택한 다음 내 제품 **을 선택합니다.**
 
@@ -90,7 +90,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
    :::image type="content" source="../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png" alt-text="추가를 선택합니다.":::
 
-1. 드롭다운 **목록에서 TXT를** 선택합니다. 
+1. 드롭다운 **목록에서 TXT를** 선택합니다.
 
    :::image type="content" source="../../media/dns-godaddy/godaddy-domains-Type.png" alt-text="유형 드롭다운 목록에서 TXT를 선택합니다.":::
 
@@ -113,21 +113,21 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 다음을 통해 레코드를 Microsoft 365.
   
 1. 관리 센터에서 도메인 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**로 이동하세요.**</a>
-    
-1. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.** 
+
+1. 도메인 페이지에서 확인할 도메인을 선택하고 설정 시작 **을 선택합니다.**
 
    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text="설치 시작을 선택합니다.":::
 
-1. 계속을 **선택합니다.**
+1. **계속** 을 선택합니다.
   
 1. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
-    
+
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요.
 
 ### <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>사용자 도메인의 전자 메일이 Microsoft로 전송되도록 MX 레코드 추가하기
 
-1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 
+1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다.
 
    로그인하라는 메시지가 표시될 경우 로그인 자격 증명을 사용하여 오른쪽 상단에서 로그인 이름을 선택한 다음 내 제품 **을 선택합니다.**
 
@@ -157,7 +157,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
 ### <a name="add-the-cname-record-required-for-microsoft"></a>Microsoft에 필요한 CNAME 레코드 추가
 
-1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 
+1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다.
 
    로그인하라는 메시지가 표시될 경우 로그인 자격 증명을 사용하여 오른쪽 상단에서 로그인 이름을 선택한 다음 내 제품 **을 선택합니다.**
 
@@ -192,7 +192,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 > [!IMPORTANT]
 > 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신 두 값 집합을 모두 포함하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필요한 Microsoft 값을 추가합니다.
 
-1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 
+1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다.
 
    로그인하라는 메시지가 표시될 경우 로그인 자격 증명을 사용하여 오른쪽 상단에서 로그인 이름을 선택한 다음 내 제품 **을 선택합니다.**
 
@@ -226,7 +226,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
 ### <a name="add-the-two-required-srv-records"></a>필수 SRV 레코드 2개 추가
 
-1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 
+1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다.
 
    로그인하라는 메시지가 표시될 경우 로그인 자격 증명을 사용하여 오른쪽 상단에서 로그인 이름을 선택한 다음 내 제품 **을 선택합니다.**
 
@@ -264,7 +264,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
 ### <a name="add-the-two-required-cname-records"></a>두 개의 필수 CNAME 레코드 추가
   
-1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 
+1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다.
 
    로그인하라는 메시지가 표시될 경우 로그인 자격 증명을 사용하여 오른쪽 상단에서 로그인 이름을 선택한 다음 내 제품 **을 선택합니다.**
 
@@ -281,7 +281,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
    :::image type="content" source="../../media/dns-godaddy/godaddy-domains-Type.png" alt-text="유형 드롭다운 목록에서 CNAME을 선택합니다.":::
 
 1. 새 레코드의 빈 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다.
-    
+
     |**유형**|**Host(호스트)**|**Points to(연결 대상)**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1시간  <br/> |
@@ -289,12 +289,12 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
    :::image type="content" source="../../media/dns-godaddy/godaddy-domains-CNAME-values.png" alt-text="CNAME 레코드에 대한 테이블의 값을 입력합니다.":::
   
-1. **저장** 을 선택합니다. 
+1. **저장** 을 선택합니다.
   
 1. 표의 두 번째 행에서 값을 선택하여 다른 CNAME 레코드를 추가합니다.
-    
+
 > [!NOTE]
-> 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
+> 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요.
   
 ## <a name="advanced-option-intune-and-mobile-device-management-for-microsoft-365"></a>고급 옵션: Intune 및 모바일 장치 관리 Microsoft 365
 
@@ -302,7 +302,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
 ### <a name="add-the-two-required-cname-records"></a>두 개의 필수 CNAME 레코드 추가
 
-1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 
+1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다.
 
    로그인하라는 메시지가 표시될 경우 로그인 자격 증명을 사용하여 오른쪽 상단에서 로그인 이름을 선택한 다음 내 제품 **을 선택합니다.**
 
@@ -319,7 +319,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
    :::image type="content" source="../../media/dns-godaddy/godaddy-domains-Type.png" alt-text="유형 드롭다운 목록에서 CNAME을 선택합니다.":::
 
 1. 새 레코드의 빈 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다.
-    
+
     |**유형**|**Host(호스트)**|**Points to(연결 대상)**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1시간  <br/> |
@@ -327,9 +327,9 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
    :::image type="content" source="../../media/dns-godaddy/godaddy-domains-CNAME-values.png" alt-text="CNAME 레코드에 대한 테이블의 값을 입력합니다.":::
   
-1. **저장** 을 선택합니다. 
+1. **저장** 을 선택합니다.
   
 1. 표의 두 번째 행에서 값을 선택하여 다른 CNAME 레코드를 추가합니다.
-    
+
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요.

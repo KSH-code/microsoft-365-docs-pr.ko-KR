@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7a4438d564fd414d40c6c42b1265b13bcb13b983
-ms.sourcegitcommit: df1ad7118c4a95a310a4f17124322a6ae6ace26f
+ms.openlocfilehash: 1df9efd022f58ef68ed06c8271e140b33dcb0f67
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268718"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60646931"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 리소스
 
@@ -120,7 +120,7 @@ macOS에서 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가
 |보호|전체 검사 실행|`mdatp scan full`|
 |보호|지속적인 주문형 검사 취소|`mdatp scan cancel`|
 |보호|보안 인텔리전스 업데이트 요청|`mdatp definitions update`|
-|EDR|디바이스에 그룹 태그를 추가합니다. EDR 태그는 장치 그룹을 관리하는 데 사용됩니다. 자세한 내용은 /microsoft-365/security/defender-endpoint/machine-groups을 방문하세요.|`mdatp edr tag set --name GROUP --value [name]`|
+|EDR|태그 설정/제거, GROUP만 지원|`mdatp edr tag set --name GROUP --value [name]`|
 |EDR|장치에서 그룹 태그 제거|`mdatp edr tag remove --tag-name [name]`|
 |EDR|그룹 ID 추가|`mdatp edr group-ids --group-id [group]`|
 

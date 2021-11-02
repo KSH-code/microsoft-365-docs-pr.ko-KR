@@ -8,7 +8,7 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: v-lsaldanha
+ms.author: dansimp
 author: lovina-saldanha
 ms.localizationpriority: medium
 manager: dansimp
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ec6333317297ee83ba4e5869fd92ceea62f2a971
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ca01be03f3243159e6cc105b799731efc094e16e
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212152"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60643246"
 ---
 # <a name="set-up-your-microsoft-365-defender-trial-in-a-lab-environment"></a>랩 환경에서 Microsoft 365 Defender 평가판 설정 
 
@@ -134,7 +134,7 @@ ms.locfileid: "60212152"
 
    ![이미지 of_Microsoft 계정 및 사용자 이름 관리를 선택할 수 있는 365 관리 센터 페이지입니다.](../../media/mtp-eval-29.png)
 
-8. [선택 사항] 이전 단계에서  onmicrosoft.com 따라 도메인을 사용자 도메인으로 변경합니다. **변경 내용 저장** 을 클릭합니다.
+8. [선택 사항] 이전 단계에서  onmicrosoft.com 따라 도메인을 사용자 도메인으로 변경합니다. **변경 사항 저장** 를 클릭합니다.
 
    ![이미지 of_Microsoft 도메인 기본 설정을 변경할 수 있는 365 관리 센터 페이지입니다.](../../media/mtp-eval-30.png)
 

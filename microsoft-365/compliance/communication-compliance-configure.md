@@ -20,16 +20,16 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 9b1fd596988498a543778b097b2a8a431a200aba
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: c58df514c136c6df2db5d1392a57db1ee6c34bb3
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335757"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60647438"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
-커뮤니케이션 준수 정책을 사용하여 내부 또는 외부 검토자에 의해 검사할 사용자 커뮤니케이션을 식별합니다. 통신 준수 정책이 조직의 통신을 모니터링하는 데 도움이 되는 방법에 대한 자세한 내용은 에서 통신 [준수 정책을 Microsoft 365.](communication-compliance.md) Contoso가 Microsoft Teams, Exchange Online 및 Yammer 통신에서 공격적인 언어를 모니터링하도록 통신 준수 정책을 신속하게 구성한 방법을 검토하고자 하는 경우 이 사례 연구를 [참조합니다.](communication-compliance-case-study.md)
+커뮤니케이션 준수 정책을 사용하여 내부 또는 외부 검토자에 의해 검사할 사용자 커뮤니케이션을 식별합니다. 통신 준수 정책이 조직의 통신을 모니터링하는 데 도움이 되는 방법에 대한 자세한 내용은 에서 통신 [준수 정책을 Microsoft 365.](communication-compliance.md) Contoso가 Microsoft Teams, Exchange Online 및 Yammer 통신에서 부적절한 콘텐츠를 모니터링하도록 통신 준수 정책을 빠르게 구성한 방법을 검토하고자 하는 경우 이 사례 연구를 [참조하세요.](communication-compliance-case-study.md)
 
 ## <a name="subscriptions-and-licensing"></a>구독 및 라이선스
 
@@ -54,6 +54,16 @@ ms.locfileid: "60335757"
 > Office 365 Advanced Compliance 독립 실행형 구독으로 더 이상 판매하지 않습니다. 현재 구독이 만료되면 고객은 동일한 또는 추가 규정 준수 기능을 포함하는 위의 구독 중 하나로 전환해야 합니다.
 
 기존 Office 365 Enterprise E5 요금제가 없는 경우 통신 규정 준수를 시도하려는 경우 기존 구독에 Microsoft 365 [](https://www.microsoft.com/microsoft-365/enterprise) 구독을 추가하거나 E5의 평가판을 등록할 Office 365 Enterprise 있습니다. [](/office365/admin/try-or-buy-microsoft-365)
+
+## <a name="recommended-actions-preview"></a>권장 작업(미리 보기)
+
+권장되는 작업은 조직이 커뮤니케이션 규정 준수 기능과 기존 정책을 가장 잘 아는 데 도움이 될 수 있습니다. 개요 페이지에 **포함된** 권장 작업은 인사이트를 제공하고 중요한 정보 유형과 조직의 커뮤니케이션에서 부적절한 콘텐츠 활동을 요약합니다.
+
+![통신 준수 권장 작업.](../media/communication-compliance-recommended-actions.png)
+
+부적절한 콘텐츠가 포함된 메시지의 활동은 부적절한 콘텐츠에 대해 분류기를 사용하는 부적절한 콘텐츠 서식 파일 또는 사용자 지정 정책을 사용하는 기존 정책의 분류자 유형에 의해 열적됩니다. 정책에 대한 경고 대시보드에서 이러한 메시지에 대한 경고를 조사합니다.
+
+중요한 정보 유형과 관련된 활동은 기존 정책에서 다루는 메시지 및 기존 정책에서 다루지 않는 메시지에서 검색됩니다. Insights 기존 통신 준수 정책에서 이전에 정의하지 않은 정보 유형을 포함하여 모든 중요한 정보 유형에 대한 정보가 제공됩니다. 이러한 인사이트를 사용하여 새 통신 준수 정책을 만들거나 기존 정책을 업데이트합니다.
 
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>1단계(필수): 통신 규정 준수에 대한 사용 권한 사용
 
@@ -118,6 +128,8 @@ ms.locfileid: "60335757"
 
 커뮤니케이션 규정 준수를 수행하려면 감사 로그가 경고를 표시하고 검토자가 수행한 교정 작업을 추적해야 합니다. 감사 로그는 정의된 조직 정책 또는 커뮤니케이션 규정 준수 정책이 변경될 때마다 연결된 모든 작업의 요약입니다.
 
+감사는 기본적으로 Microsoft 365 사용하도록 설정되어 있습니다. 일부 조직에서는 특정 이유로 감사를 사용하지 않도록 설정한 경우도 있습니다. 조직에서 감사를 사용하지 않도록 설정한 경우 다른 관리자가 감사 기능을 해제한 것일 수 있습니다. 이 단계를 완료할 때 감사를 다시 설정하는 것이 좋습니다.
+
 감사를 켜는 단계별 지침은 감사 로그 검색 켜기 또는 [끄기 를 참조하세요.](turn-audit-log-search-on-or-off.md) 감사를 설정하면 감사 로그가 준비되고 있으며 준비가 완료된 후 몇 시간 내에 검색을 실행할 수 있다는 메시지가 표시됩니다. 이 작업은 한 번만 수행하면 됩니다. 감사 로그 사용에 대한 자세한 내용은 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
 
 ## <a name="step-3-optional-set-up-groups-for-communication-compliance"></a>3단계(선택 사항): 통신 규정 준수를 위한 그룹 설정
@@ -180,8 +192,11 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
 
 ## <a name="step-5-required-create-a-communication-compliance-policy"></a>5단계(필수): 통신 준수 정책 만들기
 
-> [!IMPORTANT]
-> PowerShell을 사용하여 커뮤니케이션 규정 준수 정책을 만들고 관리하는 것은 지원되지 않습니다. 이러한 정책을 만들고 관리하려면 통신 규정 준수 솔루션의 정책 관리 [Microsoft 365 합니다.](https://compliance.microsoft.com/supervisoryreview)
+>[!IMPORTANT]
+>PowerShell을 사용하여 커뮤니케이션 규정 준수 정책을 만들고 관리하는 것은 지원되지 않습니다. 이러한 정책을 만들고 관리하려면 통신 규정 준수 솔루션의 정책 관리 [Microsoft 365 합니다.](https://compliance.microsoft.com/supervisoryreview)
+
+>[!TIP]  
+>새 통신 규정 준수 정책을 설정하고 경고를 수정하는 심층적인 워크스루를 보고 싶나요? 이 [15분](communication-compliance-plan.md#creating-a-communication-compliance-policy-walkthrough) 분의 비디오를 통해 통신 규정 준수 정책이 부적절한 메시지를 감지하고 잠재적인 위반을 조사하고 규정 준수 문제를 수정하는 데 어떻게 도움이 될 수 있는지 확인할 수 있습니다.
 
 1. 조직에서 관리자 계정의 자격 <https://compliance.microsoft.com> 증명을 사용하여 Microsoft 365 로그인합니다.
 

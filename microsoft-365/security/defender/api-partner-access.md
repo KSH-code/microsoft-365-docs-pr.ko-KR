@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b2cb41e4696d964f8a732adb56826de20dcdec6d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b3a1925a5d08b13558a312e92270f5703452aa07
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199600"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60643234"
 ---
 # <a name="create-an-app-with-partner-access-to-microsoft-365-defender-apis"></a>앱 API에 대한 파트너 액세스 권한이 있는 Microsoft 365 Defender 만들기
 
@@ -221,7 +221,7 @@ appSecret = '' # Paste your own app secret here to test, then store it in a safe
 
 url = "https://login.windows.net/%s/oauth2/token" % (tenantId)
 
-resourceAppIdUri = 'https://api.securitycenter.windows.com'
+resourceAppIdUri = 'https://api.security.microsoft.com'
 
 body = {
     'resource' : resourceAppIdUri,

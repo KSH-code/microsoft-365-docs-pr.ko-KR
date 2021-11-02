@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8de50b9f06f05c012cc2b4c789838612d98abe62
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: c575cc6b235f82c02404f29d33712731609322a2
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60557308"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60646930"
 ---
 # <a name="microsoft-defender-for-endpoint---mobile-threat-defense"></a>Endpoint용 Microsoft Defender - Mobile Threat Defense
 
@@ -47,11 +47,15 @@ Android 및 iOS의 끝점용 Microsoft Defender는 아래의 주요 기능을 �
 |웹 보호|피싱 방지, 안전하지 않은 네트워크 연결 차단 및 사용자 지정 표시기 지원|
 |맬웨어 보호(Android 전용)|악성 앱 검색.|
 |탈옥 검색(iOS 전용)|무단으로 보호된 장치 검색.|
+|TVM(위협 및 취약성 관리). 미리 보기에서. 아래 참고 사항*을 참조하세요.|온보드 모바일 장치의 취약점 평가 이 페이지를 [방문하여](next-gen-threat-and-vuln-mgt.md) 끝점용 Microsoft Defender의 위협 및 취약성 관리 자세히 알아보십시오. *iOS에서는 이 미리 보기에서 OS 취약성만 지원됩니다.*|
 |통합 알림|통합 M365 보안 콘솔의 모든 플랫폼에서 알림|
 |조건부 액세스, 조건부 실행|위험한 장치가 회사 리소스에 액세스하지 않습니다. 끝점 위험 신호에 대한 Defender를 MAM(앱 보호 정책)에 추가할 수도 있습니다.|
 |통합 Microsoft Tunnel|VPN 게이트웨이 솔루션인 Microsoft Tunnel 통합하여 단일 앱에서 보안 및 연결을 사용할 수 있습니다. 현재 Android에서만 사용 가능|
 
 이러한 모든 기능은 끝점용 Microsoft Defender 라이선스 보유자가 사용할 수 있습니다. 자세한 내용은 라이선스 요구 [사항을 참조하세요.](minimum-requirements.md#licensing-requirements)
+
+> [!NOTE]
+> Android 및 iOS의 취약점 평가는 현재 미리 보기로 표시되고 상업적으로 출시되기 전에 상당수 수정될 수 있습니다. 공개 미리 보기 기능을 사용하도록 설정한 경우 Android 및 iOS에서 TVM 기능을 확인할 수 있습니다! 그렇지 않은 경우 끝점용 Microsoft Defender의 미리 보기 기능을 켜서 새로운 기능에 액세스하는 것이 권장됩니다. [](preview.md)
 
 ## <a name="overview-and-deploy"></a>개요 및 배포
 
@@ -96,7 +100,7 @@ Android 및 iOS의 끝점용 Microsoft Defender는 아래의 주요 기능을 �
 - [Android Enterprise - Always-on VPN을 설치합니다.](android-intune.md#auto-setup-of-always-on-vpn)
 - [iOS - VPN 프로필 자동 설정](ios-install.md#auto-onboarding-of-vpn-profile-simplified-onboarding)
 
-## <a name="configure"></a>구성하기
+## <a name="configure"></a>구성
 
 - [Android 기능 구성](android-configure.md)
 - [iOS 기능 구성](ios-configure-features.md)

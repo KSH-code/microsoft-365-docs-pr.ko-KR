@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Yammer 장치 사용 현황 보고서를 통해 사용자가 어떤 장치를 사용하고 Yammer.
-ms.openlocfilehash: c75a8ef6559ba62a43ae5a29984acab14f781c66
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 25dbf966d0756cf90e39dcbe69d587434d3de3ae
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60552911"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60648746"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 사용 현황 보고서
 
-Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
+Microsoft 365 보고서 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
 Yammer 장치 사용 현황 보고서는 사용자가 Yammer를 사용하는 장치에 대한 정보를 제공합니다. 장치 유형별로 일일 사용자 수 및 장치 유형별로 사용자 수를 볼 수 있습니다. 선택한 기간에 대해 이 두 정보를 모두 볼 수 있습니다. 사용자당 세부 정보도 볼 수 있습니다.
  
@@ -56,7 +56,7 @@ Yammer  장치 사용 현황 보고서에서 지난 7일, 30일, 90일 또는 18
 |사용자 상태  <br/> |Active, Deleted 또는 Suspended 값 중 하나 이러한 보고서에서는 활성, 일시 중지 및 삭제된 사용자의 데이터를 표시합니다. 보류 중인 사용자는 메시지를 게시하거나 읽거나 좋아요를 클릭할 수 없으므로 보류 중인 사용자는 반영하지 않습니다.   <br/> |
 |상태 변경 날짜(UTC)  <br/> |이 날짜에서 사용자의 상태가 변경된 Yammer.  <br/> |
 |마지막 활동 날짜(UTC)  <br/> |사용자가 Yammer 활동에 참가한 마지막 날짜(UTC)  <br/> |
-|웹  <br/> |사용자가 웹에서 사용자 Yammer 나타냅니다.  <br/> |
+|Web  <br/> |사용자가 웹에서 사용자 Yammer 나타냅니다.  <br/> |
 |Windows 휴대폰  <br/> | 사용자가 휴대폰에서 Yammer 사용한 Windows 나타냅니다.  <br/> |
 |Android 휴대폰  <br/> |사용자가 Android 휴대폰에서 Yammer 사용하는지 나타냅니다. <br/>|
 |iphone <br/> | 사용자가 해당 응용 Yammer 사용 iPhone.  <br/> |

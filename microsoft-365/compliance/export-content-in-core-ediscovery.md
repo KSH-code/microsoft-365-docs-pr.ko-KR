@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례에서 콘텐츠를 내보내고 다운로드하는 방법을 Microsoft 365.
-ms.openlocfilehash: c6b5ac0d8bb6b555dc4720e90e045672cdb2439d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5e7d17c7ddb9060417812cccd45437c30b70e9f3
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190908"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60647369"
 ---
 # <a name="export-content-from-a-core-ediscovery-case"></a>Core eDiscovery 케이스에서 콘텐츠 내보내기
 
@@ -58,6 +58,9 @@ Core eDiscovery 사례와 연결된 검색이 성공적으로 실행된 후 검�
 7. 만든 내보내기 작업을 클릭하여 플라이아웃 페이지에 상태 정보를 표시합니다. 이 정보에는 이전 위치로 전송된 항목의 Azure Storage 포함됩니다.
 
 8. 모든 항목이 전송된 후  결과 다운로드를 클릭하여 검색 결과를 로컬 컴퓨터에 다운로드합니다. 검색 결과를 다운로드하는 자세한 내용은 콘텐츠 검색 결과 내보내기에서 [2단계를 참조하세요.](export-search-results.md#step-2-download-the-search-results)
+
+> [!NOTE]
+> 내보내기 작업을 만든 후 14일 이내에 내보낼 검색 결과를 다운로드해야 합니다.
 
 ### <a name="more-information-about-exporting-searches-from-a-case"></a>사례에서 검색 내보내기에 대한 자세한 정보
 

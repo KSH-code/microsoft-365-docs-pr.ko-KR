@@ -15,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 709cd408d548e8a7c16973c08b0369616f3b91d1
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: d968afeaf484387597d6672bf4db1a01180e52a4
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240539"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60643150"
 ---
 # <a name="onboard-windows-multi-session-devices-in-azure-virtual-desktop"></a>Azure Virtual Desktop에서 Windows 세션 장치 온보드
 
@@ -47,7 +47,7 @@ Microsoft는 Azure Virtual Desktop을 가상 데스크톱당 단일 항목으로
 WVD 골든 이미지에 끝점용 Microsoft Defender 온보딩 스크립트를 추가하는 것이 좋습니다. 이렇게 하면 이 온보딩 스크립트가 첫 번째 부팅 시 즉시 실행됩니다. 이 스크립트는 WVD 골든 이미지에서 프로비전된 모든 WVD 컴퓨터의 첫 번째 부팅 시 시작 스크립트로 실행됩니다. 그러나 수정하지 않고 갤러리 이미지 중 하나를 사용하는 경우 스크립트를 공유 위치에 두고 로컬 또는 도메인 그룹 정책에서 호출합니다.
 
 > [!NOTE]
-> WVD 골든 이미지에서 VDI 온보딩 시작 스크립트의 배치 및 구성은 WVD가 시작되면 실행되는 시작 스크립트로 구성합니다. 실제 WVD 골든 이미지를 온보드하는 것은 권장되지 않습니다. 또 다른 고려 사항은 스크립트를 실행하는 데 사용되는 메서드입니다. 세션을 받는 데 사용할 수 있는 컴퓨터와 서비스에 대한 장치 온보드 간의 시간을 줄이기 위해 가능한 한 시작/프로비저닝 프로세스 초기에 실행해야 합니다. 아래 시나리오 1에서는 & 2를 고려합니다.
+> WVD 골든 이미지에서 VDI 온보딩 시작 스크립트의 배치 및 구성은 WVD가 시작되면 실행되는 시작 스크립트로 구성합니다. 실제 WVD 골든 이미지를 온보드하는 것은 권장되지 않습니다.  또 다른 고려 사항은 스크립트를 실행하는 데 사용되는 메서드입니다. 세션을 받는 데 사용할 수 있는 컴퓨터와 서비스에 대한 장치 온보드 간의 시간을 줄이기 위해 가능한 한 시작/프로비저닝 프로세스 초기에 실행해야 합니다. 아래 시나리오 1과 2에서는 이를 고려합니다.
 
 ### <a name="scenarios"></a>시나리오
 
@@ -74,7 +74,7 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 1. VDI 구성 패키지 파일(.zip) 열기(WindowsDefenderATPOnboardingPackage.zip)
 
     1. Microsoft 365 Defender 포털 탐색 창에서 **끝점** 설정(장치 관리 아래)를 \>  \>  **선택합니다.**
-    1. 운영 Windows 10 Windows 또는 11을 선택합니다.
+    1. 운영 Windows 10 Windows 11 선택하거나 선택합니다.
     1. 배포 **방법 필드에서** 비영구 끝점에 대한 VDI 온보딩 스크립트를 선택합니다.
     1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
@@ -159,4 +159,4 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 
 #### <a name="related-links"></a>관련 링크
 
-[PowerShell을 사용하여 Microsoft Defender에 대한 제외 추가](/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#add-exclusions-for-windows-defender-by-using-powershell)
+[PowerShell을 통해 끝점용 Defender에 대한 제외 추가](/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#add-exclusions-for-microsoft-defender-by-using-powershell)

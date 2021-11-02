@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: Exchange 및 SharePoint 검색에서 실행되는 eDiscovery 검색에 포함할 수 있는 인덱서되지 않은 항목에 대해 Microsoft 365 규정 준수 센터.
-ms.openlocfilehash: 09bc5959550a21b27298ea2fb2e0857bcd598381
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: c77c0f13de9d214da4cd6107d1346aa36be1fa25
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364714"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60646354"
 ---
 # <a name="partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목
 
@@ -116,9 +116,8 @@ ms.locfileid: "60364714"
 3. 1단계에서 사용한 동일한 검색 쿼리를 사용하여 동일한 위치를 검색하는 두 번째 검색을 만들고 실행합니다. AND 연산자를 사용하여 원래 쿼리에 다음 **절을 추가합니다.**
 
    ```text
-   ((IndexingErrorCode>0 OR IndexingErrorCode<0) AND Date:date1…date2))
+   <original query> AND ((IndexingErrorCode>0 OR IndexingErrorCode<0) AND sent:date1..date2)
    ```
-  
    이 절을 추가하면 원래 검색 쿼리와 일치하고 특정 날짜 범위 내에 있는 부분적으로 인덱싱된 항목이 반환됩니다. <sup>2</sup>
 
 4. 3단계에서 검색 결과를 내보낼 수 있으며, 이번에는 내보내기에서 부분적으로 인덱싱된 항목이 포함됩니다. 이를 위해 인식할 수 없는 형식을 가지거나 암호화되거나 다른 이유로 인덱싱되지 않은 내보내기 옵션을 포함하여 모든 항목을 **선택합니다.**

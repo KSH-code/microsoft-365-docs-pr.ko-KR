@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0bc0b09bcb834c67cb5da13469139875037440b0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 06e87fcb0f9f1521e77d254895ef4fc2c57cf1d5
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198688"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60646946"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf 2013에서 macOS에서 끝점에 대한 Microsoft Defender Pro
 
@@ -124,9 +124,9 @@ ms.locfileid: "60198688"
 
 ## <a name="step-3-configure-microsoft-defender-for-endpoint-settings"></a>3단계: 끝점 설정에 맞게 Microsoft Defender 구성
 
-JAMF Pro GUI를 사용하여 Microsoft Defender 구성의 개별 설정을 편집하거나 텍스트 편집기에서 구성 Plist를 만들고 JAMF 2013에 업로드하여 레거시 메서드를 Pro.
+JAMF Pro GUI를 사용하여 끝점 구성에 대한 Microsoft Defender의 개별 설정을 편집하거나 텍스트 편집기에서 구성 Plist를 만들고 JAMF 2013에 업로드하여 레거시 메서드를 Pro.
 
-기본 설정 도메인과 정확히 일치해야 합니다. Microsoft Defender는 이 이름만 사용하며 관리되는 설정을 `com.microsoft.wdav`  `com.microsoft.wdav.ext` 로드합니다.
+기본 설정 도메인과 정확히 일치해야 합니다. `com.microsoft.wdav` 끝점용 Microsoft Defender는 이 이름만 사용하며 관리되는 설정을 `com.microsoft.wdav.ext` 로드해야 합니다.
 
 GUI 메서드를 사용하려면 드물게 버전이 사용될 수 있지만 아직 Schema에 추가되지 않은 설정을 구성해야 `com.microsoft.wdav.ext` 합니다.
 
@@ -156,7 +156,7 @@ GUI 메서드를 사용하려면 드물게 버전이 사용될 수 있지만 아
 
     ![업로드.](images/a6f9f556037c42fabcfdcb1b697244cf.png)
 
-5. 기본 설정 도메인 속성 아래에서 지원되는 모든 Microsoft Defender 구성 **설정을 볼 수 있습니다.** 속성 **추가/제거를** 클릭하여 관리하려는 설정을 선택하고 확인을  클릭하여 변경 내용을 저장합니다. (설정 선택하지 않은 왼쪽은 관리 구성에 포함되지 않을 경우 최종 사용자는 자신의 컴퓨터의 해당 설정을 구성할 수 있습니다.)
+5. 기본 설정 도메인 속성 아래에서 지원되는 모든 끝점용 Microsoft Defender 구성 **설정을 볼 수 있습니다.** 속성 **추가/제거를** 클릭하여 관리하려는 설정을 선택하고 확인을  클릭하여 변경 내용을 저장합니다. (설정 선택하지 않은 왼쪽은 관리 구성에 포함되지 않을 경우 최종 사용자는 자신의 컴퓨터의 해당 설정을 구성할 수 있습니다.)
 
     ![관리 설정을 선택합니다.](images/817b3b760d11467abe9bdd519513f54f.png)
 
@@ -180,7 +180,7 @@ GUI 메서드를 사용하려면 드물게 버전이 사용될 수 있지만 아
 
     ![구성 설정 - 완료.](images/dd55405106da0dfc2f50f8d4525b01c8.png)
 
-Microsoft Defender는 시간이 지날 때 새 설정을 추가합니다. 이러한 새 설정은 새 버전이 Github에 게시됩니다.
+Microsoft Defender for Endpoint는 시간이 지날 때 새 설정을 추가합니다. 이러한 새 설정은 새 버전이 Github에 게시됩니다.
 업데이트하기만 하면 업데이트된 스마마를 다운로드하고, 기존 구성 프로필을 편집하고, **Application & 사용자** 지정 설정만하면 됩니다. 
 
 ### <a name="legacy-method"></a>레거시 메서드

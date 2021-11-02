@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 링크 정책 및 전역 금고 링크 설정을 보고, 만들고, 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 85d2ad698ffc1a450afc302586134bdd5e566eb5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 878f29e07c99892fddf322c2435c6eeebc694f07
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207550"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60646366"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크 정책 Office 365
 
@@ -38,7 +38,9 @@ ms.locfileid: "60207550"
 
 금고 Microsoft [Defender for Office 365](defender-for-office-365.md) 메일 흐름에서 인바운드 전자 메일 메시지의 URL 검색과 전자 메일 메시지 및 기타 위치에서 URL 및 링크 확인을 클릭하는 시간을 제공합니다. 자세한 내용은 microsoft [Defender에서](safe-links.md)금고 링크를 참조하세요Office 365.
 
-기본 제공 또는 기본 금고 정책이 없습니다. URL의 금고 검색하려면 이 문서에 설명된 하나 이상의 금고 링크 정책을 만들어야 합니다.
+기본 금고 링크 정책은 있지만 기본  제공 보호 미리 설정 보안 정책은 모든 받는 사람(사용자 지정 금고 링크 정책에 정의되지 않은 사용자)에게 금고 링크 보호를 제공합니다. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md)
+
+이 문서의 절차에 따라 특정 사용자, 그룹 또는 도메인에 금고 링크 정책을 만들 수도 있습니다.
 
 > [!NOTE]
 >
@@ -191,7 +193,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 링크 정책을 만
 
 기본적으로 금고 링크에는 만들어진 순서에 따라 우선 순위가 부여됩니다(새 정책은 이전 정책보다 우선 순위가 낮음). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
-정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이** 거나 **우선 순위를 낮춥** 니다(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
+정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이거나** **우선 순위를 낮춥니다**(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
 
 **참고**:
 

@@ -1,6 +1,6 @@
 ---
-title: 사례 연구 - Contoso는 통신에 대한 공격적인 언어 Microsoft Teams, Exchange Yammer 구성합니다.
-description: Contoso에 대한 사례 연구 및 이러한 사례 연구를 통해 통신에서 공격적인 언어를 모니터링하도록 통신 Microsoft Teams Exchange Online 구성하는 Yammer 있습니다.
+title: 사례 연구 - Contoso는 통신에 대한 부적절한 콘텐츠 정책을 Microsoft Teams, Exchange Yammer 구성합니다.
+description: Contoso에 대한 사례 연구 및 이러한 사례 연구를 통해 통신, Microsoft Teams, Exchange Online 및 통신에서 부적절한 콘텐츠를 모니터링하도록 통신 준수 정책을 빠르게 Yammer 있습니다.
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -20,20 +20,20 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4085804b6d782a177f4a036421afa9460f3c0354
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ff326544d2485fa3ca7385f9ad8b924514aec1a5
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60179406"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60647561"
 ---
-# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구 - Contoso는 통신에 대한 공격적인 언어 Microsoft Teams, Exchange Yammer 구성합니다.
+# <a name="case-study---contoso-quickly-configures-an-inappropriate-content-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구 - Contoso는 통신에 대한 부적절한 콘텐츠 정책을 Microsoft Teams, Exchange Yammer 구성합니다.
 
-조직의 Microsoft 365 규정 준수는 조직에서 부적절한 메시지를 검색, 캡처 및 처리하도록 하여 통신 위험을 최소화하는 데 도움이 됩니다. 미리 정의된 정책과 사용자 지정 정책을 사용하면 내/외부 커뮤니케이션에서 정책 일치 사항을 검사하여 지정된 검토자가 검토할 수 있습니다. 검토자는 조직에서 검사된 전자 메일, Microsoft Teams, Yammer 또는 타사 통신을 조사하고 적절한 수정 조치를 취하여 조직의 메시지 표준을 준수하는지 검사할 수 있습니다.
+조직의 Microsoft 365 규정 준수는 조직에서 부적절한 콘텐츠가 있는 메시지를 검색, 캡처 및 처리하도록 하여 통신 위험을 최소화하는 데 도움이 됩니다. 부적절한 콘텐츠에는 비언어, 위협, 괴롭히기 및 부적절한 이미지가 포함되어 있을 수 있습니다. 미리 정의된 정책과 사용자 지정 정책을 사용하면 내/외부 커뮤니케이션에서 정책 일치 사항을 검사하여 지정된 검토자가 검토할 수 있습니다. 검토자는 조직에서 검사된 전자 메일, Microsoft Teams, Yammer 또는 타사 통신을 조사하고 적절한 수정 조치를 취하여 조직의 메시지 표준을 준수하는지 검사할 수 있습니다.
 
-Contoso Corporation은 불쾌한 언어를 모니터링하기 위한 정책을 신속하게 구성해야 하는 가상의 조직입니다. 주로 전자 메일, Microsoft 365 및 사용자에 대한 Microsoft Teams Yammer 지원에 대해 사용했지만 직장 괴롭음에 대한 회사 정책을 적용하기 위한 새로운 요구 사항이 있습니다. Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 작업의 기본 원칙을 이해하고 있으며 통신 규정 준수를 빠르게 시작하는 방법에 대한 종단 간 지침을 찾고 있습니다.
+Contoso Corporation은 부적절한 콘텐츠를 모니터링하도록 정책을 신속하게 구성해야 하는 소설 조직입니다. 주로 전자 메일, Microsoft 365 및 사용자에 대한 Microsoft Teams Yammer 지원에 대해 사용했지만 직장 괴롭음에 대한 회사 정책을 적용하기 위한 새로운 요구 사항이 있습니다. Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 작업의 기본 원칙을 이해하고 있으며 통신 규정 준수를 빠르게 시작하는 방법에 대한 종단 간 지침을 찾고 있습니다.
 
-이 사례 연구에서는 불쾌한 언어의 커뮤니케이션을 모니터링하도록 커뮤니케이션 준수 정책을 신속하게 구성하는 기본 사항에 대해 설명합니다. 이 지침에는 다음이 포함됩니다.
+이 사례 연구에서는 부적절한 콘텐츠에 대한 통신을 모니터링하도록 통신 준수 정책을 신속하게 구성하기 위한 기본 내용을 다 가정합니다. 이 지침에는 다음이 포함됩니다.
 
 - 1단계 - 커뮤니케이션 준수 계획
 - 2단계 - Microsoft 365의 커뮤니케이션 규정 준수 액세스
@@ -42,12 +42,12 @@ Contoso Corporation은 불쾌한 언어를 모니터링하기 위한 정책을 �
 
 ## <a name="step-1-planning-for-communication-compliance"></a>1단계: 통신 규정 준수 계획
 
-Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 규정 준수 솔루션에 대한 온라인 웨비나에 참석하고 커뮤니케이션 규정 준수 정책이 작업 공간 괴롭침을 줄이기 위해 업데이트된 회사 정책 요구 사항을 충족하는 데 도움이 된다고 결정했습니다. 함께 협력하여 Microsoft Teams, 개인 메시지 및 커뮤니티 대화, Yammer 메시지로 전송된 전자 메일 메시지에 대한 공격적인 언어를 모니터링하는 통신 준수 정책을 만들고 사용하도록 Exchange Online. 해당 계획에서는 다음 사항을 식별합니다.
+Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 규정 준수 솔루션에 대한 온라인 웨비나에 참석하고 커뮤니케이션 규정 준수 정책이 작업 공간 괴롭침을 줄이기 위해 업데이트된 회사 정책 요구 사항을 충족하는 데 도움이 된다고 결정했습니다. 함께 협력하여 Microsoft Teams, Yammer의 개인 메시지 및 커뮤니티 대화, Exchange Online에서 전송된 전자 메일 메시지에 대한 부적절한 콘텐츠를 모니터링하는 통신 준수 정책을 만들고 사용하도록 설정하는 계획을 세우고 Exchange Online. 해당 계획에서는 다음 사항을 식별합니다.
 
 - 통신 규정 준수 기능에 액세스해야 하는 IT 관리자
 - 커뮤니케이션 정책을 만들고 관리해야 하는 규정 준수 전문가.
 - 커뮤니케이션 규정 준수 경고를 조사하고 수정해야 하는 기타 부서의 준수 전문가 및 기타 동료(인사, 법률 등)입니다.
-- 통신 규정 준수 비방성 언어 정책의 범위 내 사용자입니다.
+- 통신 규정 준수에 대한 범위 내 사용자 부적절한 콘텐츠 정책입니다.
 
 ### <a name="licensing"></a>라이선싱
 
@@ -147,7 +147,7 @@ Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 관리 센터 
 
 ## <a name="step-3-configuring-prerequisites-and-creating-a-communication-compliance-policy"></a>3단계: 선행 구성 및 통신 준수 정책 만들기
 
-커뮤니케이션 규정 준수 정책을 시작하려면 Contoso IT 관리자가 불쾌한 언어를 모니터링하도록 새 정책을 설정하기 전에 구성해야 하는 몇 가지 필수 구성 요소가 있습니다. 이러한 사전 요구 사항이 완료되면 Contoso IT 관리자 및 규정 준수 전문가가 새 정책을 구성할 수 있으며 규정 준수 전문가가 조사를 시작하고 생성된 경고에 업데이트를 적용할 수 있습니다.
+통신 준수 정책을 시작하기 위해 Contoso IT 관리자가 부적절한 콘텐츠를 모니터링하도록 새 정책을 설정하기 전에 구성해야 하는 몇 가지 선행 조건이 있습니다. 이러한 사전 요구 사항이 완료되면 Contoso IT 관리자 및 규정 준수 전문가가 새 정책을 구성할 수 있으며 규정 준수 전문가가 조사를 시작하고 생성된 경고에 업데이트를 적용할 수 있습니다.
 
 ### <a name="enabling-auditing-in-microsoft-365"></a>2016에서 감사 Microsoft 365
 
@@ -157,13 +157,13 @@ ContosoIT 관리자가 [단계별 지침](turn-audit-log-search-on-or-off.md)을
 
 ### <a name="configuring-yammer-tenant-for-native-mode"></a>기본 Yammer 테넌트 구성
 
-커뮤니케이션 규정 준수를 위해서는 조직의 Yammer 테넌트가 개인 메시지 및 공개 커뮤니티 대화에서 공격적인 언어를 모니터링하도록 기본 모드에 있습니다.
+커뮤니케이션 규정 준수를 위해서는 조직의 Yammer 테넌트가 개인 메시지 및 공용 커뮤니티 대화에서 부적절한 콘텐츠를 모니터링하도록 기본 모드로 설정해야 합니다.
 
 Contoso IT 관리자는 Microsoft 365 문서의 Yammer [](/yammer/configure-your-yammer-network/overview-native-mode) 네이티브 모드 개요에 있는 정보를 검토하고 Configure your Yammer network [for Native Mode for Microsoft 365](/yammer/configure-your-yammer-network/native-mode) 문서에서 마이그레이션 도구를 실행하기 위한 단계를 수행합니다.
 
 ### <a name="setting-up-a-group-for-in-scope-users"></a>범위 내 사용자를 위한 그룹 설정
 
-Contoso 규정 준수 전문가는 비방 언어를 모니터링하는 통신 정책에 모든 사용자를 추가하려는 경우 정책에 각 사용자 계정을 별도로 추가할 수도 있지만, 이 정책에 대한 사용자에 대해  모든 사용자 메일 그룹을 사용하는 것이 훨씬 더 쉬우고 시간을 절약하기도 합니다.
+Contoso 규정 준수 전문가는 부적절한 콘텐츠가 모니터링되는 통신 정책에 모든 사용자를 추가하려는 경우 정책에 각 사용자 계정을 별도로 추가할 수도 있지만, 이 정책에 대한 사용자에 대해  모든 사용자 메일 그룹을 사용하는 것이 훨씬 더 쉬우고 시간을 절약하기도 합니다.
 
 모든 Contoso 사용자를 포함하려면 새 그룹을 만들어야 하여 다음 단계를 수행합니다.
 
@@ -176,21 +176,21 @@ Contoso 규정 준수 전문가는 비방 언어를 모니터링하는 통신 �
 
     ![Exchange 관리 센터.](../media/communication-compliance-case-eac.png)
 
-### <a name="creating-the-policy-to-monitor-for-offensive-language"></a>불쾌한 언어를 모니터링할 정책 생성
+### <a name="creating-the-policy-to-monitor-for-inappropriate-content"></a>부적절한 콘텐츠에 대해 모니터링할 정책 만들기
 
-모든 사전 요구 사항이 완료되면 Contoso의 IT 관리자와 규정 준수 전문가가 불쾌한 언어를 모니터링하도록 커뮤니케이션 규정 준수 정책을 구성할 수 있습니다. 새로운 언어 정책 템플릿을 사용하면 이 정책을 쉽고 빠르게 구성할 수 있습니다.
+모든 선행 조건이 완료되면 CONtoso의 IT 관리자 및 규정 준수 전문가가 부적절한 콘텐츠를 모니터링하도록 통신 준수 정책을 구성할 준비가 완료되었습니다. 새 부적절한 콘텐츠 정책 템플릿을 사용하면 이 정책을 쉽고 빠르게 구성할 수 있습니다.
 
-1. Contoso IT 관리자 및 규정 준수 전문가는 **Microsoft 365 규정 준수 센터** 에 로그인하고 왼쪽 탐색 창에서 **커뮤니케이션 규정 준수** 를 선택합니다. 이 작업을 수행하면 커뮤니케이션 규정 준수 정책 템플릿에 대한 빠른 링크가 있는 **개요** 대시보드가 열립니다. 템플릿에 대해 **시작하기** 를 선택하여 **불쾌한 언어 모니터링** 템플릿을 선택합니다.
+1. Contoso IT 관리자 및 규정 준수 전문가는 **Microsoft 365 규정 준수 센터** 에 로그인하고 왼쪽 탐색 창에서 **커뮤니케이션 규정 준수** 를 선택합니다. 이 작업을 수행하면 커뮤니케이션 규정 준수 정책 템플릿에 대한 빠른 링크가 있는 **개요** 대시보드가 열립니다. 서식 파일 **시작을** 선택하여 부적절한 콘텐츠  서식 파일 모니터링을 선택합니다.
 
-    ![통신 준수 비방 언어 서식 파일](../media/communication-compliance-case-template.png)
+    ![통신 준수 부적절한 콘텐츠 서식 파일](../media/communication-compliance-case-template.png)
 
 2. 정책 템플릿 마법사에서 Contoso IT 관리자 및 규정 준수 전문가가 함께 작업하여 **정책 이름**, **사용자 또는 그룹**, **검토자** 의 세 가지 필수 필드를 작성합니다.
 3. 정책 마법사가 이미 정책 이름을 제안했기 때문에 IT 관리자와 규정 준수 전문가는 제안된 이름을 유지하고 나머지 필드에 집중하기로 결정합니다. 해당 사용자는  필드를 감독할 사용자 또는 그룹의 모든 사용자 그룹을 선택하고 검토자 필드에 대한 정책 알림을 조사하고 수정해야 하는 준수 **전문가를** 선택합니다.  정책을 구성하고 경고 정보 수집을 시작하는 마지막 단계는 정책 만들기 **를 선택하는 것입니다.**
 
-    ![통신 준수 비방 언어 마법사.](../media/communication-compliance-case-wizard.png)
+    ![통신 규정 준수 부적절한 콘텐츠 마법사.](../media/communication-compliance-case-wizard.png)
 
 ## <a name="step-4-investigate-and-remediate-alerts"></a>4단계: 경고 조사 및 수정
 
-이제 불쾌한 언어에 대해 모니터링할 커뮤니케이션 규정 준수 정책이 구성되었으므로 Contoso 규정 준수 전문가가 정책에서 생성된 모든 알림을 조사하고 업데이트를 적용해야 합니다. 정책이 모든 커뮤니케이션 소스 채널의 커뮤니케이션을 완전히 처리하고 **경고 대시보드** 에 경고가 표시되는 데 최대 24시간이 걸립니다.
+부적절한 콘텐츠를 모니터링하는 통신 준수 정책이 구성되면 Contoso 규정 준수 전문가를 위한 다음 단계는 정책에 의해 생성된 경고를 조사하고 수정하는 것입니다. 정책이 모든 커뮤니케이션 소스 채널의 커뮤니케이션을 완전히 처리하고 **경고 대시보드** 에 경고가 표시되는 데 최대 24시간이 걸립니다.
 
-경고가 생성된 후 Contoso 규정 준수 [](communication-compliance-investigate-remediate.md) 전문가는 워크플로 지침에 따라 공격적인 언어 문제를 조사하고 수정합니다.
+경고가 생성된 후 Contoso 규정 준수 [](communication-compliance-investigate-remediate.md) 전문가는 워크플로 지침을 따라 부적절한 콘텐츠 문제를 조사하고 수정합니다.

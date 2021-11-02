@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ac6aa01877b7b4968b01b5a16c931079e2b4360e
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: d8a3ea4d701c390c7c8505f42fa2440e38965584
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60239579"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60643213"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -38,14 +38,12 @@ ms.locfileid: "60239579"
 
 미리 보기 기능에 대한 자세한 내용은 미리 보기 [기능을 참조하세요.](preview.md)
 
-
 > [!TIP]
 > RSS 피드: 다음 URL을 복사하여 피드 읽기에 붙여 넣는 방법을 통해 이 페이지가 업데이트될 때 알림을 받을 수 있습니다.
 >
 > ```https
 > https://docs.microsoft.com/api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
-
 
 다른 Microsoft Defender 보안 제품과 함께 새로운 제품에 대한 자세한 내용은 다음을 참조하세요.
 
@@ -55,16 +53,16 @@ ms.locfileid: "60239579"
 - [새로운 Microsoft Cloud App Security](/cloud-app-security/release-notes)
 
 다른 운영 체제의 끝점용 Microsoft Defender에 대한 자세한 내용은
+
 - [MacOS의 끝점용 Defender의 새로운](mac-whatsnew.md)
 - [iOS의 끝점용 Defender의 새로운](ios-whatsnew.md)
 - [Linux의 끝점용 Defender의 새로운](linux-whatsnew.md)
-
 
 ## <a name="october-2021"></a>2021년 10월
 
 - [R2 및 Windows Server 2012 R2의 온보드 및 기능 패리티가 Windows Server 2016(미리 보기)](configure-server-endpoints.md)<br> 새로운 통합 솔루션 패키지를 사용하면 종속성 및 설치 단계를 제거하여 서버를 보다 쉽게 온보드할 수 있습니다. 또한 이 통합 솔루션 패키지에는 여러 가지 새로운 기능이 개선됩니다.
 
-- Windows 및 지원에 대한 Microsoft Defender에 추가된 11 Microsoft 365 Defender.
+- Windows 11 Microsoft Defender for Endpoint 및 Microsoft 365 Defender.
 
 ## <a name="september-2021"></a>2021년 9월
 
@@ -88,7 +86,7 @@ ms.locfileid: "60239579"
 
 - 취약점 및 보안 구성 평가 [내보내기](get-assessment-methods-properties.md) API <br> 장치 기준에 따라 위협 및 취약성 관리 끌어오는 API 컬렉션을 추가합니다. 보안 구성 평가, 소프트웨어 인벤토리 평가 및 소프트웨어 취약점 평가와 같은 다양한 유형의 데이터를 얻을 수 있는 API 호출이 있습니다. 각 API 호출에는 조직의 장치에 대한 필요합니다.
 
-- [재구성 활동](get-remediation-methods-properties.md) API <br>  테넌트에서 만든 수정 위협 및 취약성 관리 포함된 응답이 포함된 API 컬렉션을 추가합니다. 응답 정보 유형에는 ID로 하나의 수정 활동, 모든 수정 활동 및 하나의 수정 활동의 노출된 장치가 포함됩니다.
+- [재구성 활동](get-remediation-methods-properties.md) API <br> 테넌트에서 만든 수정 위협 및 취약성 관리 포함된 응답이 포함된 API 컬렉션을 추가합니다. 응답 정보 유형에는 ID로 하나의 수정 활동, 모든 수정 활동 및 하나의 수정 활동의 노출된 장치가 포함됩니다.
 
 - [장치 검색](device-discovery.md) <br> 추가 어플라이언스 또는 번거로운 프로세스 변경 없이도 회사 네트워크에 연결된 관리되지 않는 장치를 찾을 수 있습니다. 온보드 장치를 사용하여 네트워크에서 관리되지 않는 장치를 찾고 취약성 및 위험을 평가할 수 있습니다. 그런 다음 검색된 장치를 온보드하여 네트워크에 관리되지 않는 끝점이 있는 경우와 관련된 위험을 줄일 수 있습니다.
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b2bf0bd7f1d20e65921a3d5ee503152b3d3940fb
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 10932b96b205e3e73ba6e5363ed2acd301d9cef5
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60586996"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60643222"
 ---
 # <a name="server-migration-scenarios-from-the-previous-mma-based-microsoft-defender-for-endpoint-solution"></a>이전의 MMA 기반 Microsoft Defender for Endpoint 솔루션의 서버 마이그레이션 시나리오
 
@@ -138,7 +138,7 @@ ms.locfileid: "60586996"
 6. 그룹 정책, PowerShell 또는 제3자 관리 솔루션을 사용하여 정책을 만들고 적용합니다.
 
 > [!TIP]
-> 설치 관리자 [스크립트를 사용하여](server-migration.md#installer-script) 1~4단계를 자동화할 수 있습니다. 수동 모드를 사용하도록 설정하려면 온보딩하기 전에 Defender가 수동 모드로 전환되어 Microsoft가 아닌 맬웨어 방지 솔루션을 방해하지 않는 -Passive 플래그를 적용합니다. 그런 다음 등록 후 Defender 바이러스 백신이 수동 모드로 유지되도록 EDR 차단과 같은 EDR "ForceDefenderPassiveMode" 레지스트리 키를 설정해야 합니다. 예제: 자세한 내용은 수동 모드로 Microsoft Defender 바이러스 백신 `.\install.ps1 -OnboardingScript ".\WindowsDefenderATPOnboardingScript.cmd" -Passive` [필요를 참조하세요.](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server)
+> 설치 관리자 [스크립트를 사용하여](server-migration.md#installer-script) 1~4단계를 자동화할 수 있습니다. 수동 모드를 사용하도록 설정하려면 온보딩하기 전에 Defender 바이러스 백신이 수동 모드로 전환되어 Microsoft가 아닌 맬웨어 방지 솔루션을 방해하지 않는 -Passive 플래그를 적용합니다. 그런 다음 등록 후 Defender 바이러스 백신이 수동 모드로 유지되도록 EDR 차단과 같은 EDR "ForceDefenderPassiveMode" 레지스트리 키를 설정해야 합니다. 예제: 자세한 내용은 수동 모드로 Microsoft Defender 바이러스 백신 `.\install.ps1 -OnboardingScript ".\WindowsDefenderATPOnboardingScript.cmd" -Passive` [필요를 참조하세요.](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server)
 
 *이 단계는 Microsoft가 아닌 바이러스 백신 솔루션을 교체하려는 경우만 적용됩니다. 전체 기능 집합을 Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint에 포함된 웹 서비스를 사용하는 것이 좋습니다. 함께 더 나은 보기: Microsoft Defender 바이러스 백신 [및 끝점용 Microsoft Defender를 참조합니다.](why-use-microsoft-defender-antivirus.md) 
 
@@ -155,5 +155,4 @@ ms.locfileid: "60586996"
 Azure Defender를 사용하는 경우 자동화된 업그레이드 프로세스를 활용할 수 있습니다. 보안 센터의 통합된 통합 EDR 끝점 [보호: 끝점용 Microsoft Defender를 참조합니다.](/azure/security-center/security-center-wdatp#enable-the-microsoft-defender-for-endpoint-integration)
 
 ## <a name="group-policy-configuration"></a>그룹 정책 구성
-그룹 정책을 사용하는 구성의 경우 중앙 저장소에서 최신 ADMX 파일을 사용하여 올바른 Microsoft Defender 정책 옵션에 액세스하는지 확인합니다. 에서 [그룹](/troubleshoot/windows-client/group-policy/create-and-manage-central-store) 정책 관리 템플릿에 대한 중앙 저장소를 만들고 관리하는 방법을 참조하고 Windows 에서 사용할 최신 파일을 **Windows 10.** 
-
+그룹 정책을 사용하는 구성의 경우 중앙 저장소에서 최신 ADMX 파일을 사용하여 올바른 끝점용 Defender 정책 옵션에 액세스하는지 확인합니다. 에서 [그룹](/troubleshoot/windows-client/group-policy/create-and-manage-central-store) 정책 관리 템플릿에 대한 중앙 저장소를 만들고 관리하는 방법을 참조하고 Windows 에서 사용할 최신 파일을 **Windows 10.**

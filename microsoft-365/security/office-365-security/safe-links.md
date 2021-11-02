@@ -28,12 +28,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 피싱 금고 URL을 사용하는 기타 공격으로부터 조직을 보호하기 위해 Office 365 Defender의 링크 보호 기능을 참조하세요. 링크 Teams 금고 검색하고 링크 메시지의 금고 참조하세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 11dbd3ef2f2fa2a17d24f769256fe02cd12b4c75
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3e00d5cb4db44b2a741135426cd4a902ef5942b6
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203942"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60646390"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>금고 Microsoft Defender for Office 365
 
@@ -50,14 +50,14 @@ ms.locfileid: "60203942"
 
 안전한 링크 보호는 다음 위치에서 사용할 수 있습니다.
 
-- **이메일 메시지**: 전자 메일 메시지의 링크에 대한 안전한 링크 보호는 안전한 링크 정책에 의해 제어됩니다. 기본 금고 링크 정책이 없습니다. 따라서 전자 메일 메시지의 금고 링크를 보호하려면 하나 이상의 금고 링크 정책을 **만들어야 합니다.** 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
+- **전자** 메일 메시지: 기본 금고 링크 정책은 없습니다.  기본 제공 보호 미리 설정 보안 정책은 모든 받는 사람(사용자 지정 금고 링크 정책에 정의되지 않은 사용자)에게 금고 링크 보호를 제공합니다. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md) 특정 사용자, 금고 도메인에 적용되는 링크 정책을 만들 수도 있습니다. 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
   전자 메일 메시지의 금고 보호에 대한 자세한 내용은 이 문서 의 금고 전자 [메일](#safe-links-settings-for-email-messages) 메시지에 대한 링크 설정 섹션을 참조하세요.
   
   > [!NOTE]
   > 금고 메일 사용이 가능한 공용 폴더에서는 링크가 작동하지 않습니다.
 
-- **Microsoft Teams**: Teams 대화, 그룹 채팅 또는 채널의 링크에 대한 안전한 링크 보호 기능도 안전한 링크 정책에 의해 제어됩니다. 기본 금고 링크 정책이 없습니다. 따라서 금고 링크 보호를 Teams 하나 이상의 금고 링크 정책을 **만들어야 합니다.**
+- **Microsoft Teams**: Teams 대화, 그룹 채팅 또는 채널의 링크에 대한 안전한 링크 보호 기능도 안전한 링크 정책에 의해 제어됩니다.
 
   금고 링크 보호의 Teams 대한 자세한 내용은 이 금고 [](#safe-links-settings-for-microsoft-teams) 의 Microsoft Teams 링크 설정 섹션을 참조하십시오.
 
@@ -262,7 +262,7 @@ ms.locfileid: "60203942"
 
 링크의 전역 설정에서 URL 금고 구성합니다. 자세한 내용은 [Configure the "Block the following URLs" list을 참조하십시오.](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal)
 
-**참고**:
+**참고:**
 
 - 모든 곳에서 차단되는 URL의 진정한 범용 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
 - 다음 URL **차단 목록에 대한 제한 사항:**
@@ -299,7 +299,7 @@ ms.locfileid: "60203942"
 
 새 링크 정책 또는 기존 링크 정책의 목록에 금고 추가하려면 Create [금고 Links policies](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) 또는 Modify 금고 Links [policies을 참조하세요.](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-modify-safe-links-policies)
 
-**참고**:
+**참고:**
 
 - 다음 클라이언트는 링크 정책에서 다음 URL 목록을 다시 금고 않습니다.  이러한 클라이언트에서 링크 검색 결과를 기반으로 하여 금고 사용자가 URL에 액세스하지 못하게 차단할 수 있습니다.
   - Microsoft Teams

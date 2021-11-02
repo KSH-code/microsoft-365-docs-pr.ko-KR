@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 42f21f27e30cc4a2bc4af5a2ecefd07c7353d96a
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 4d3dceeea5566b14e9742df77773c3bf07a1bbfc
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240227"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60645802"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>디바이스 프록시 및 인터넷 연결 설정 구성
 
@@ -63,7 +63,7 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 검색 프록시 설정과는
 컴퓨터가 인터넷에 연결할 수 없는 경우 진단 데이터를 보고하고 끝점 서비스용 Defender와 통신하도록 끝점 검색 및 응답(EDR) 센서에 대한 Defender에 대한 레지스트리 기반 정적 프록시를 구성합니다.
 
 > [!NOTE]
-> Windows 10 또는 Windows 11 또는 Windows Server 2019 또는 Windows Server 2022에서 이 옵션을 사용하는 경우 다음 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.
+> Windows 10 또는 Windows 11 또는 Windows Server 2019 또는 Windows Server 2022에서 이 옵션을 사용하는 경우 다음(이상) 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.
 >
 > - Windows 11
 > - Windows 10, 버전 1809 Windows Server 2019 또는 Windows Server 2022 -<https://support.microsoft.com/kb/5001384>
@@ -91,7 +91,7 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 검색 프록시 설정과는
 | 그룹 정책 | 레지스트리 키 | 레지스트리 항목 | 값 |
 |:---|:---|:---|:---|
 | 연결된 사용자 환경 및 원격 분석 서비스에 대해 인증된 프록시 사용 구성 | `HKLM\Software\Policies\Microsoft\Windows\DataCollection` | `DisableEnterpriseAuthProxy` | 1(REG_DWORD) |
-| 연결된 사용자 환경 및 원격 분석 구성 | `HKLM\Software\Policies\Microsoft\Windows\DataCollection` | `TelemetryProxyServer` | ```http://servername or ip:port``` <br> <br> 예: ```http://10.0.0.6:8080``` (REG_SZ) |
+| 연결된 사용자 환경 및 원격 분석 구성 | `HKLM\Software\Policies\Microsoft\Windows\DataCollection` | `TelemetryProxyServer` | ```servername:port or ip:port``` <br> <br> 예: ```10.0.0.6:8080``` (REG_SZ) |
 
 ## <a name="configure-a-static-proxy-for-microsoft-defender-antivirus"></a>사용자에 대한 정적 프록시 Microsoft Defender 바이러스 백신
 

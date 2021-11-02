@@ -21,12 +21,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 가져오고 사서함에 보관하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 26b183770599d3c740ad311b759c1bf696e30461
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.openlocfilehash: 92efcffeaf9d85fe0c53cabf477e03cdfa5f5cd6
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478784"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60647651"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>타사 데이터를 데이터 저장소에 Microsoft 365
 
@@ -55,8 +55,10 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 |타사 데이터  |소송 보류|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
 |[블룸버그 메시지](archive-bloomberg-message-data.md)     |![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)||
+|[픽사이트 EHR 의료](import-epic-data.md) ||||||![확인 표시](../media/checkmark.png)|
 |[Facebook](archive-facebook-data-with-sample-connector.md)     |![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[인사(인사)](import-hr-data.md) ||||||![확인 표시](../media/checkmark.png)
+|[일반 EHR 의료](import-healthcare-data.md) ||||||![확인 표시](../media/checkmark.png)|
+|[인사(인사)](import-hr-data.md) ||||||![확인 표시](../media/checkmark.png)|
 |[ICE 채팅](archive-icechat-data.md)     |![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[Instant Bloomberg](archive-instant-bloomberg-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[LinkedIn](archive-linkedin-data.md)   |![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
@@ -94,7 +96,7 @@ Microsoft 365 사용하여 관리자는 데이터 커넥터를 사용하여 소�
 |[텍스트 구분](archive-text-delimited-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[Webex Teams](archive-webexteams-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[웹 페이지](archive-webpagecapture-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
-|[Facebook의 작업 영역](archive-workplacefromfacebook-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
+|[Facebook의 Workplace](archive-workplacefromfacebook-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[XIP](archive-xip-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |[XSLT/XML](archive-xslt-xml-data.md)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|||
 |[Yieldbroker](archive-yieldbroker-data.md)|![확인 표시입니다.](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||

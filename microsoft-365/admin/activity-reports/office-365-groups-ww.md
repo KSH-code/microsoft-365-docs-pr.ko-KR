@@ -21,16 +21,16 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: 그룹 Microsoft 365 활동을 알 수 있는 그룹 보고서를 얻습니다.
-ms.openlocfilehash: aa757fd70cec700e18196a11df522529e6fdc6fc
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 6ef375e1aab13f4ec01514967a90ce726680efbc
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553079"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60648870"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 365 그룹
 
-Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft 365 그룹 보고서에서 조직의 그룹 활동에 대한 정보를 얻고 만들어지고 사용되는 그룹 수를 볼 수 있습니다.
+Microsoft 365 보고서 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft 365 그룹 보고서에서 조직의 그룹 활동에 대한 정보를 얻고 만들어지고 사용되는 그룹 수를 볼 수 있습니다.
   
 ## <a name="how-to-get-to-the-groups-report"></a>그룹 보고서에 도착하는 방법
 

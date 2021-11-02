@@ -23,12 +23,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 ms.technology: m365d
-ms.openlocfilehash: 9037b8f721a33f6709f3beefdac6d294c7125333
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: f4a29a17bc8c3563779b54b9df594548a02acabd
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60588304"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60646414"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>2013에서 인시던트 Microsoft 365 Defender
 
@@ -82,7 +82,7 @@ Microsoft 365 Defender, 사용자 및 사서함에 있는 모든 관련 경고, 
 
 - 심각도.
 - 경고에 관련된 엔터티입니다.
-- 경고의 원본(ID용 Microsoft Defender, 끝점용 Microsoft Defender, Microsoft Defender for Office 365).
+- 경고의 원본(ID용 Microsoft Defender, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, 클라우드 앱용 Defender 및 앱 거버넌스).
 - 함께 연결된 이유입니다.
 
 다음은 예입니다.

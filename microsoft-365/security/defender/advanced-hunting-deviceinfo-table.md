@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2e71699e35339fe6fcf81b9eeaa93e84737e026d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 25cf4f098d1dd58e86583be17ccbd371a16b128d
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190428"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60643182"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -50,7 +48,7 @@ ms.locfileid: "60190428"
 | `ClientVersion` | 문자열 | 기기에서 실행되는 끝점 에이전트 또는 센서의 버전 |
 | `PublicIP` | 문자열 | 등록된 컴퓨터에 의해 끝점용 Microsoft Defender 서비스에 연결하는 데 사용되는 공용 IP 주소입니다. 컴퓨터 자체의 IP 주소, NAT 장치 또는 프록시일 수 있습니다. |
 | `OSArchitecture` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 아키텍처 |
-| `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 11, Windows, Windows 10 및 Windows 7과 같은 특정 운영 체제를 나타냅니다. |
+| `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 11, Windows 10 및 Windows 7과 같은 동일한 패밀리 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
 | `OSBuild` | 문자열 | 시스템에서 실행되는 운영 체제의 빌드 버전 |
 | `IsAzureADJoined` | 부울 | 컴퓨터의 가입 여부를 나타내는 부울 표시기입니다Azure Active Directory |
 | `AadObjectId` | 문자열 | Azure AD에서 디바이스의 고유 식별자 |

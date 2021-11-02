@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 - MOE150
 description: SharePoint 사이트 사용 현황 보고서를 통해 사용자가 SharePoint 사이트에 저장하는 파일 수, 적극적으로 사용되는 파일 수 및 사용된 총 저장소를 알 수 있습니다.
-ms.openlocfilehash: 1adf1175569b1d798b238d4d55037a6461c34558
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 2c29234df1076fa31ea836b7ead51234e121004e
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553031"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60648822"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Microsoft 365 관리 센터의 보고서 - SharePoint 사용 현황
 
-관리자 Microsoft 365 보고서 대시보드에는  조직의 다양한 제품에 대한 활동 개요가 표시됩니다. 각 제품의 고유한 활동에 대한 자세한 정보를 확인할 수 있습니다. 예를 들어 사용자가 SharePoint 사이트에 저장하는 총 파일 수, SharePoint 현재 사용되고 있는 파일 수 및 이러한 모든 사이트에서 사용되는 저장소의 관점에서 SharePoint 값을 개성적으로 볼 수 있습니다. 그런 다음, SharePoint 사이트 사용 보고서를 확인하여 추세와 모든 사이트에 대한 수준별 세부 정보를 파악할 수 있습니다. 
+관리자로 Microsoft 365 보고서 대시보드에는 조직의 다양한 제품에 대한 활동 개요가 표시됩니다. 각 제품의 고유한 활동에 대한 자세한 정보를 확인할 수 있습니다. 예를 들어 사용자가 SharePoint 사이트에 저장하는 총 파일 수, SharePoint 현재 사용되고 있는 파일 수 및 이러한 모든 사이트에서 사용되는 저장소의 관점에서 SharePoint 값을 개성적으로 볼 수 있습니다. 그런 다음, SharePoint 사이트 사용 보고서를 확인하여 추세와 모든 사이트에 대한 수준별 세부 정보를 파악할 수 있습니다. 
 
 ## <a name="how-to-get-to-the-sharepoint-site-usage-report"></a>SharePoint 사이트 사용 보고서에 액세스하는 방법
 
@@ -65,6 +65,8 @@ ms.locfileid: "60553031"
 :::image type="content" alt-text="SharePoint 사용 현황 보고서 - 열을 선택하십시오." source="../../media/71ac3195-c494-40c1-9346-a858125ef6df.png":::
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
+
+사이트 **SharePoint** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택하면 보고서가 생성된 날짜가 아니라 현재 날짜로부터 최대 28일간의 데이터가 표에 표시됩니다.
   
 |메트릭|설명|
 |:-----|:-----|
