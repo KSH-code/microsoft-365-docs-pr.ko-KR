@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f17f8fe3ccb659f04ab5acac9108d4151a5d1769
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 5c4936906ba830a660c38b76c7aaf5598ba7724c
+ms.sourcegitcommit: 7791c519bd8b68fc23433e13e1ecbdbeaddbebfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240527"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60725581"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>이전 버전의 Windows 온보딩
 
@@ -83,15 +83,18 @@ Endpoint용 Defender는 System Center Endpoint Protection 맬웨어 감지에 �
 - [2018년 2월 월별 업데이트 롤업 설치](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
 
   > [!NOTE]
-  > Windows 7 SP1 Enterprise 및 Windows 7 SP1 Pro.
+  > Windows Server 2008 R2, Windows 7 SP1 Enterprise 및 Windows 7 SP1 Pro.
 
 - 고객 환경 및 진단 원격 [분석에](https://support.microsoft.com/help/3080149/update-for-customer-experience-and-diagnostic-telemetry) 대한 업데이트 설치
 
 - [.NET framework 4.5](https://www.microsoft.com/download/details.aspx?id=30653) 이상 또는 [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework) 설치
 
     > [!NOTE]
-    > Windows 7 SP1 Enterprise 및 Windows 7 SP1 Pro.
+    > Windows Server 2008 R2, Windows 7 SP1 Enterprise 및 Windows 7 SP1 Pro.
+    >
     > 4.0.x는 위의 .NET Framework 아니기 때문에 설치하지 않습니다.
+    >
+    > .NET 4.5를 설치하려면 설치 후 컴퓨터를 다시 시작해야 할 수 있습니다.
 
 - Azure Log Analytics 에이전트 최소 시스템 요구 사항을 충족합니다. 자세한 내용은 Log Analytics를 사용하여 환경의 컴퓨터에서 [데이터 수집을 참조하세요.](/azure/log-analytics/log-analytics-concept-hybrid#prerequisites)
 
@@ -325,7 +328,7 @@ Server 2008 R2를 온보드하기 전에 KB가 Windows 확인하시기 바랍니
 
     ![속성 Microsoft Monitoring Agent 이미지](images/atp-mma.png)
 
-#### <a name="run-a-powershell-command-to-remove-the-configuration&quot;></a>PowerShell 명령을 실행하여 구성 제거
+#### <a name="run-a-powershell-command-to-remove-the-configuration"></a>PowerShell 명령을 실행하여 구성 제거
 
 1. 작업 영역 ID를 얻게 합니다.
 
@@ -339,7 +342,7 @@ Server 2008 R2를 온보드하기 전에 KB가 Windows 확인하시기 바랍니
     ```   
     $AgentCfg = New-Object -ComObject AgentConfigManager.MgmtSvcCfg
     # Remove OMS Workspace
-    $AgentCfg.RemoveCloudWorkspace(&quot;WorkspaceID")
+    $AgentCfg.RemoveCloudWorkspace("WorkspaceID")
     # Reload the configuration and apply changes
     $AgentCfg.ReloadConfiguration()
 

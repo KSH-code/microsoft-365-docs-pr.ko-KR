@@ -15,13 +15,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.date: 10/28/2021
-ms.openlocfilehash: 6ae7805ddc762de081b201b1ebafca21eeaf5632
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.date: 11/02/2021
+ms.openlocfilehash: b7dc38ba6b4c1fcc214dfca5d621269a35eaf323
+ms.sourcegitcommit: 7791c519bd8b68fc23433e13e1ecbdbeaddbebfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701660"
+ms.locfileid: "60725559"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -88,7 +88,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 | **Sid** | 로컬 사용자 Sid 또는 사용자 Sid 그룹 또는 AD 개체의 Sid는 특정 사용자 또는 사용자 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 Sid를 사용할 수 있으며 Sid가 없는 항목은 컴퓨터 위에 정책을 적용하는 것입니다. |  |
 | **ComputerSid** | 로컬 컴퓨터 Sid 또는 컴퓨터 Sid 그룹 또는 AD 개체의 Sid는 특정 컴퓨터 또는 컴퓨터 그룹에 이 정책을 적용할지 여부를 정의합니다. 하나의 항목은 최대 하나의 ComputerSid를 사용할 수 있으며 ComputerSid가 없는 항목은 컴퓨터에 정책을 적용하는 것입니다. 특정 사용자 및 특정 컴퓨터에 Entry를 적용하려면 Sid와 ComputerSid를 모두 동일한 항목에 추가합니다. |  |
 | **옵션** | 알림을 표시할지 여부를 정의합니다. |**0 또는 4:** 허용 또는 거부 유형이 선택된 경우. <p>0: nothing<p>4: 이 항목에 **대해 AuditAllowed** 및 **AuditDenied를** 사용하지 않도록 설정 **차단이 발생하고** AuditDenied가 구성된 경우에도 시스템에 알림이 표시되지 않습니다. <p> **AuditAllowed 유형이 선택된** 경우: <p>0: nothing <p>1: nothing <p>2: 이벤트 보내기<p>3: 이벤트 보내기 <p> **AuditDenied 유형이 선택된** 경우: <p>0: nothing <p>1: 알림 표시 <p>2: 이벤트 보내기<p>3: 알림 표시 및 이벤트 보내기 |
-|AccessMask|액세스를 정의합니다. | **1-7**: <p>읽기 <p>쓰기 <p>읽기 및 쓰기 <p>실행 <p>읽기 및 실행<p>쓰기 및 실행 <p>읽기 및 쓰기 및 실행 |
+|AccessMask|액세스를 정의합니다. | **1-7**: <p>1: 읽기 <p>2: 쓰기 <p>3: 읽기 및 쓰기 <p>4: 실행 <p>5: 읽기 및 실행<p>6: 쓰기 및 실행 <p>7: 읽기 및 쓰기 및 실행 |
 
 ## <a name="common-removable-storage-access-control-scenarios"></a>일반적인 이동식 Storage 액세스 제어 시나리오
 

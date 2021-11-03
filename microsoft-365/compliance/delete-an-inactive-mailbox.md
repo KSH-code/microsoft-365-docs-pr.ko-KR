@@ -18,12 +18,12 @@ ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 ms.custom:
 - seo-marvel-apr2020
 description: 비활성 사서함의 콘텐츠를 더 Microsoft 365 비활성 사서함을 영구적으로 삭제할 수 있습니다.
-ms.openlocfilehash: f0f60952db4b4a63dd0c72d1cd467e918a1a68c4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1f3dee1ab2680445f854d963d8c55cdb3192ac56
+ms.sourcegitcommit: 7791c519bd8b68fc23433e13e1ecbdbeaddbebfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203174"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60725638"
 ---
 # <a name="delete-an-inactive-mailbox"></a>비활성 사서함 삭제
 
@@ -204,11 +204,11 @@ Set-RetentionCompliancePolicy -Identity <retention policy GUID without prefix or
    Get-MailboxSearch $InPlaceHold.Name | FL Sources
    ```
 
-## <a name="more-information"></a>추가 정보
+## <a name="more-information"></a>자세한 정보
 
-- **비활성 사서함은 소프트 삭제된 사서함의 유형입니다.** 이 Exchange Online 사서함은 삭제된 사서함이지만 특정 보존 기간 내에 복구할 수 있는 사서함입니다. 이전에 비활성 상태인 사서함은 183일 동안 Exchange Online 사서함으로 사용할 수 있습니다. 즉, 사서함이 소프트 삭제된 후 183일 이내에 복구할 수 있습니다. 183일이 지난 후 소프트 삭제된 사서함은 영구적으로 삭제된 것으로 표시되고 복구할 수 없습니다.
+- **비활성 사서함은 소프트 삭제된 사서함의 유형입니다.** 이 Exchange Online 사서함은 삭제된 사서함이지만 특정 보존 기간 내에 복구할 수 있는 사서함입니다. 보류되지 않은 소프트 삭제된 사서함의 경우 30일 이내에 사서함을 복구할 수 있습니다. 비활성 사서함(삭제되기 전에 보류된 사서함)은 보류가 제거될 때까지 보류 상태로 소프트 삭제된 상태로 유지됩니다. 비활성 사서함에서 보류를 제거하면 사서함이 더 이상 비활성 상태가 되지 않습니다. 대신 보류가 제거되고 해당 Exchange Online 복구할 수 있는 날로부터 183일 동안 영구적으로 유지됩니다. 183일이 지난 후 소프트 삭제된 사서함은 영구적으로 삭제된 것으로 표시되고 복구할 수 없습니다.
 
-- **비활성 사서함에 대한 보류를 제거하면 어떻게 하나요?** 사서함은 다른 소프트 삭제된 사서함처럼 처리되고 183일의 소프트 삭제된 사서함 보존 기간이 만료된 후 영구적으로 삭제된 것으로 표시됩니다. 이 보존 기간은 사서함이 처음 비활성화된 날짜에 시작됩니다. 이 날짜를 일시 삭제 날짜(해당 사용자 계정이 삭제된 날짜 또는 **Remove-Mailbox** cmdlet을 사용하여 Exchange Online 사서함이 삭제된 날짜)라고 합니다. 일시 삭제된 날짜는 보류를 제거하는 날짜가 아니며,
+- **비활성 사서함에 대한 보류를 제거하면 어떻게 하나요?** 사서함은 다른 소프트 삭제된 사서함처럼 처리되고 183일의 소프트 삭제된 사서함 보존 기간이 만료된 후 영구적으로 삭제된 것으로 표시됩니다. 이 보존 기간은 비활성 사서함에서 보류가 제거된 날짜에 시작됩니다. *InactiveMailboxRetireTime* 속성은 사서함이 비활성 상태(보류 중으로 소프트 삭제)에서 더 이상 비활성(보류되지 않는 소프트 삭제)으로 전환될 때 설정됩니다. 이때 *InactiveMailboxRetireTime* 속성은 전환이 발생한 현재 날짜로 설정됩니다. *InactiveMailboxRetireTime* 속성이 설정된 사서함을 검색하는 도우미가 *실행됩니다(MailboxLifeCycle* 도우미라고도함). "InactiveMailboxRetireTime + 183일"이 현재 날짜보다 작을 경우 사서함이 제거됩니다.
 
 - **비활성 사서함은 보류가 제거된 직후 영구적으로 삭제하나요?** 이전의 비활성 사서함은 183일 동안 소프트 삭제 상태로 사용할 수 있습니다. 183일이 지난 후 사서함은 영구 삭제로 표시됩니다.
 

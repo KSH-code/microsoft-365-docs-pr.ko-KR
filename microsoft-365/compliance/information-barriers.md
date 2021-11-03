@@ -16,12 +16,12 @@ ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3bbcdbcc8dae41d9de2071e90b0bec877cef63ba
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5baff70cb3318b05092e940e8160029bc2be69af
+ms.sourcegitcommit: 7791c519bd8b68fc23433e13e1ecbdbeaddbebfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198724"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60725612"
 ---
 # <a name="learn-about-information-barriers-in-microsoft-365"></a>정보 장벽에 대해 Microsoft 365
 
@@ -82,8 +82,8 @@ SharePoint Online 및 OneDrive 정보 장벽 정책은 다음과 같은 종류�
 
 이제 정보 장벽이 롤아웃 중으로, 다음과 같은 구독에 포함됩니다.
 
-- Microsoft 365 E5/A5
-- Office 365 E5/A5
+- Microsoft 365 E5/A5/A3/A1
+- Office 365 E5/A5/A3/A1
 - Office 365 Advanced Compliance
 - Microsoft 365 준수 E5/A5
 - Microsoft 365 내부자 위험 관리
