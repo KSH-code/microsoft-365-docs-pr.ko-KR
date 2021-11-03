@@ -311,7 +311,19 @@
             - name: 사용 현황 분석 오류 문제 해결
               href: usage-analytics/usage-analytics-errors.md
         - name: ServiceNow 구성 가이드와 Microsoft 365 지원 통합
-          href: manage/microsoft-365-servicenow-support-integration.md
+          items:
+            - name: ServiceNow 구성 개요와 Microsoft 365 지원 통합
+              href: manage/servicenow-overview.md
+            - name: ServiceNow 기본 인증과 지원 통합 구성
+              href: manage/servicenow-basic-authentication.md
+            - name: AAD OAuth 토큰과의 Microsoft 365 지원 통합 구성
+              href: manage/servicenow-aad-oauth-token.md
+            - name: 서비스 상태 인시던트에 대한 Microsoft 365 지원 통합 및 권장 솔루션만
+              href: manage/servicenow-service-health-incidents-solutions-only.md
+            - name: ServiceNow 구성 테스트
+              href: manage/servicenow-testing-the-configuration.md
+            - name: ServiceNow와 Microsoft 365 지원 통합 문제 해결
+              href: manage/servicenow-troubleshooting.md
     - name: 구독 및 청구 관리
       href: ../commerce/index.yml
     - name: 조직 보호
