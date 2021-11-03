@@ -15,14 +15,14 @@ ms.collection:
 - ransomware
 - m365solution-ransomware
 ms.custom: seo-marvel-jun2020
-keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
+keywords: 랜섬웨어, 사람이 조작하는 랜섬웨어, 사람 조작 랜섬웨어, HumOR, 탈취 공격, 랜섬웨어 공격, 암호화 바이러스학, 제로 트러스트
 description: 제어된 폴더 액세스, MIP, DLP 및 Microsoft Cloud App Security를 사용하여 Microsoft 365 중요 데이터를 보호할 수 있습니다.
-ms.openlocfilehash: f63a830e8c17eddcbe3efe40408881ec1f1d9736
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: cd2f7526de1b9089c6c2febfb667b4df7d816913
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555659"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60666737"
 ---
 # <a name="step-5-protect-information"></a>5단계. 정보 보호
 
@@ -151,6 +151,14 @@ Microsoft Cloud App Security:
 Microsoft 보안 팀 블로그 게시물:
 
 - [랜섬웨어 방지 및 복구를 위한 3단계(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/07/3-steps-to-prevent-and-recover-from-ransomware/)
+- [사람이 조작하는 랜섬웨어를 퇴치하기 위한 가이드: 1부(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/20/a-guide-to-combatting-human-operated-ransomware-part-1/)
+
+  Microsoft의 DART(감지 및 대응 팀)가 랜섬웨어 인시던트 조사를 수행 하는 방법에 대한 주요 단계입니다.
+
+- [사람이 조작하는 랜섬웨어를 퇴치하기 위한 가이드: 2부(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/27/a-guide-to-combatting-human-operated-ransomware-part-2/)
+
+  권장 사항 및 모범 사례.
+
 - [사이버 보안 위험 파악을 통한 탄력성 강화: 제4부—현재 위협 탐색(2021년 5월)](https://www.microsoft.com/security/blog/2021/05/26/becoming-resilient-by-understanding-cybersecurity-risks-part-4-navigating-current-threats/)
 
   **랜섬웨어** 섹션을 참조하세요.

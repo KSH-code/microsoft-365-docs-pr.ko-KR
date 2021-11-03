@@ -15,14 +15,14 @@ ms.collection:
 - ransomware
 - m365solution-ransomware
 ms.custom: seo-marvel-jun2020
-keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
+keywords: 랜섬웨어, 사람이 조작하는 랜섬웨어, 사람 조작 랜섬웨어, HumOR, 탈취 공격, 랜섬웨어 공격, 암호화 바이러스학, 제로 트러스트
 description: 보안 기준을 사용하여 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호합니다.
-ms.openlocfilehash: 662e4097f4d6fd868810ba889c99d58fd0dc2f75
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: bd988f70dacc1ad2a7645b09c9d9994315b5a4df
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60202312"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667797"
 ---
 # <a name="step-1-configure-security-baselines"></a>1단계. 보안 기준 구성
 

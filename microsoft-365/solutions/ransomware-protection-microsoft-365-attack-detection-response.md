@@ -15,14 +15,14 @@ ms.collection:
 - ransomware
 - m365solution-ransomware
 ms.custom: seo-marvel-jun2020
-keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
+keywords: 랜섬웨어, 사람이 조작하는 랜섬웨어, 사람 조작 랜섬웨어, HumOR, 탈취 공격, 랜섬웨어 공격, 암호화 바이러스학, 제로 트러스트
 description: Microsoft 365 Defender 및 해당 보안 신호 원본을 사용하여 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호합니다.
-ms.openlocfilehash: c290d8d0c614f282cbacf4829da039dd14e336db
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 16e9f2add4b064a3091a836efe23f7fcd2299f22
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60149553"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60666701"
 ---
 # <a name="step-2-deploy-attack-detection-and-response"></a>2단계. 공격 탐지 및 대응 배포
 

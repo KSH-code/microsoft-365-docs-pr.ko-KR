@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Yammer에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: ea1638b3dd97c97354eff64d0e33d6a4b84a0313
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 88e4081ba23ce38153af7eb5fe8af69a00df73b8
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60175110"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667709"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Yammer의 보존에 대한 자세한 정보
 
@@ -103,6 +103,68 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 2. 해당 기간 동안 **사용자가 Yammer 메시지를 삭제하는 경우** 그 항목은 즉시 영구적으로 삭제되는 SubstrateHolds 폴더로 즉시 이동됩니다.
 
+#### <a name="example-flows-and-timings-for-retention-policies"></a>보존 정책의 흐름 및 타이밍 예
+
+다음 예제를 사용하여 이전 섹션에서 설명한 프로세스 및 타이밍이 다음 구성을 가진 보존 정책에 어떻게 적용되는지 확인합니다.
+
+- [예제 1: 7년 동안 보존만](#example-1-retain-only-for-7-years)
+- [예제 2: 30일 동안 보존한 다음 삭제](#example-2-retain-for-30-days-and-then-delete)
+- [예제 3: 1일 후에 ​​삭제만](#example-3-delete-only-after-1-day)
+
+영구 삭제를 참조하는 모든 예제의 경우 [보존 원칙](retention.md#the-principles-of-retention-or-what-takes-precedence)으로 인해 메시지가 항목을 보존하기 위한 다른 보존 정책의 적용을 받거나 eDiscovery 보존이 적용되는 경우 이 작업이 일시 중지됩니다.
+
+##### <a name="example-1-retain-only-for-7-years"></a>예제 1: 7년 동안 보존만
+
+1일 차에 사용자가 새 Yammer 메시지를 게시합니다.
+
+5일 차에 사용자가 해당 메시지를 편집합니다.
+
+30일 차에 사용자가 현재 메시지를 삭제합니다.
+
+보존 결과:
+
+- 원본 메시지의 경우:
+    - 5일 차에는 메시지가 SubstrateHolds 폴더에 복사되어 eDiscovery 도구를 사용하여 1일부터 최소 7년(보존 기간) 동안 계속 검색할 수 있습니다.
+
+- 현재 (편집된) 메시지의 경우:
+    - 30일 차에는 메시지가 SubstrateHolds 폴더에 이동되어 eDiscovery 도구를 사용하여 1일부터 최소 7년(보존 기간) 동안 계속 검색할 수 있습니다.
+
+사용자가 보존 기간이 아닌 지정된 보존 기간 이후에 현재 메시지를 삭제 한 경우 메시지는 여전히 SubstrateHolds 폴더로 이동됩니다. 그러나 이제 보존 기간이 만료되었으므로 메시지는 최소 1일 후에 영구적으로 삭제되고 일반적으로 1~7일 이내에 삭제됩니다.
+
+##### <a name="example-2-retain-for-30-days-and-then-delete"></a>예제 2: 30일 동안 보존한 다음 삭제
+
+1일 차에 사용자가 새 Yammer 메시지를 게시합니다.
+
+10일 차에 사용자가 해당 메시지를 편집합니다.
+
+사용자는 더 이상 편집하지 않고 메시지를 삭제하지 않습니다.
+
+보존 결과:
+
+- 원본 메시지의 경우:
+    - 10 일에 메시지는 SubstrateHolds 폴더에 복사되며 eDiscovery 도구를 사용하여 검색 할 수 있습니다.
+    - 보존 기간(1일부터 30일)이 끝나면 메시지는 일반적으로 최소 1일 후 1~ 7일 이내에 영구적으로 삭제된 다음 eDiscovery 검색과 함께 반환되지 않습니다.
+
+- 현재 (편집된) 메시지의 경우:
+    - 보존 기간(1일부터 30일)이 끝나면 메시지는 일반적으로 1~7일 이내에 SubstrateHolds 폴더로 이동하며 eDiscovery 도구를 사용하여 검색할 수 있습니다.
+    - 그리고 나서 메시지는 일반적으로 최소 1일 후 1~ 7일 이내에 영구적으로 삭제된 다음 eDiscovery 검색과 함께 반환되지 않습니다.
+
+##### <a name="example-3-delete-only-after-1-day"></a>예제 3: 1일 후에 ​​삭제만
+
+> [!NOTE]
+> 1-7 일의 기간 내에 작동하는 이 구성 및 보존 프로세스의 짧은 1일 기간으로 인해 이 섹션에서는 일반적인 시간 범위 내에 있는 예제 타이밍을 보여줍니다.
+
+1일 차에 사용자가 새 Yammer 메시지를 게시합니다.
+
+사용자가 메시지를 편집하거나 삭제하지 않은 경우 보존 결과의 예:
+
+- 5일(일반적으로 2일 보존 기간이 시작된 후 1~7일):
+    - 메시지는 이 폴더로 이동하며 eDiscovery 도구로 검색할 수 있는 최소 1일 동안 이 폴더에 남아 있습니다.
+
+- 9일(일반적으로 SubstrateHolds 폴더에서 최소 1일 이후부터 1~7일):
+    - 메시지가 영구적으로 삭제된 후 eDiscovery 검색에서 반환되지 않습니다.
+
+이 예제에서 볼 수 있는처럼, 하루만에 메시지를 삭제하도록 보존 정책을 구성할 수 있습니다. 그러나 이 서비스는 규정 준수 삭제를 보장하기 위해 여러 프로세스를 진행합니다. 결과적으로 1일 후 삭제 작업은 메시지가 영구적으로 삭제되기 까지 16일이 걸릴 수 있으므로 eDiscovery 검색에서 더 이상 반환되지 않습니다.
 
 ## <a name="messages-and-external-users"></a>메시지 및 외부 사용자
 

@@ -1,10 +1,16 @@
 - name: Microsoft 365용 스케줄러
-  href: scheduler-overview.md
-- name: 법적 고지 및 개인정보처리방침
-  href: scheduler-trust-privacy.md
-- name: Microsoft 365용 스케줄러 설정
-  href: scheduler-setup.md
-- name: Microsoft 365용 스케줄러 사용 방법
-  href: scheduler-using.md
-- name: Microsoft 365용 스케줄러 FAQ
-  href: scheduler-faqs.md
+  href: index.yml
+  expanded: true
+  items:
+    - name: Microsoft 365용 스케줄러 시작
+      href: scheduler-overview.md
+    - name: 신뢰 및 개인 정보
+      href: scheduler-trust-privacy.md
+    - name: Microsoft 365용 스케줄러 설정
+      href: scheduler-setup.md
+    - name: Microsoft 365용 스케줄러 사용 방법
+      href: scheduler-using.md
+    - name: 정기 모임 예약
+      href: scheduler-recurring-meetings.md
+    - name: Microsoft 365용 스케줄러 FAQ
+      href: scheduler-faqs.md

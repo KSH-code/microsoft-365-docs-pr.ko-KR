@@ -15,14 +15,14 @@ ms.collection:
 - ransomware
 - m365solution-ransomware
 ms.custom: seo-marvel-jun2020
-keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
+keywords: 랜섬웨어, 사람이 조작하는 랜섬웨어, 사람 조작 랜섬웨어, HumOR, 탈취 공격, 랜섬웨어 공격, 암호화 바이러스학, 제로 트러스트
 description: 보안 로그인 및 조건부 액세스를 사용하여 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호할 수 있습니다.
-ms.openlocfilehash: 5761cb402be3fb0be907be8f3677a8e3ecbfd875
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: 23a9833952aca745e869c13139823b4b0a9400bf
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444618"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60666689"
 ---
 # <a name="step-3-protect-identities"></a>3단계. ID 보호
 

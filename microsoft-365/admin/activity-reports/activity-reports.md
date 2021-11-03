@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
-ms.openlocfilehash: 10c2fdeae19746358745308d3b5171afb0647ebd
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 6ea5027daad00e6c141bfb53137307113321aa7a
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553355"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60655447"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -89,53 +89,37 @@ ms.locfileid: "60553355"
   
 ## <a name="which-activity-reports-are-available-in-the-admin-center"></a>관리 센터에서 사용할 수 있는 활동 보고서
 
-구독에 따라 사용 가능한 보고서는 다음과 같습니다.
+구독에 따라 모든 환경에서 사용할 수 있는 보고서는 다음과 같습니다.
 
-- [Microsoft 브라우저 사용량](browser-usage-report.md) 
-  
-- [이메일 활동](email-activity-ww.md)
-    
-- [사서함 사용 현황](mailbox-usage.md)
-    
-- [Office 정품 인증](microsoft-office-activations-ww.md)
+|**보고서**|**공개c**|**GCC**|**GCC-High**|**DoD**|**21Vianet에서 운영하는 Office 365**|
+|:-----|:-----|:-----|:-----|:-----|:-----|
+|[Microsoft 브라우저 사용량](browser-usage-report.md)|예|No[^1]|No[^1]|No[^1]|No[^1]|
+|[이메일 활동](email-activity-ww.md)|예|예|예|예|예|
+|[이메일 앱 사용 현황](email-apps-usage-ww.md)|예|예|예|예|예|
+|[사서함 사용 현황](mailbox-usage.md)|예|예|예|예|예|
+|[Office 정품 인증](microsoft-office-activations-ww.md)|예|예|예|예|예|
+|[활성 사용자](active-users-ww.md)|예|예|예|예|예|
+|[Microsoft 365 그룹](office-365-groups-ww.md)|예|예|예|예|예|
+|[Microsoft 365 앱 사용 현황](microsoft365-apps-usage-ww.md)|예|예|No[^1]|No[^1]|No[^1]|
+|[비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity-ww.md)|예|예|예|예|예|
+|[비즈니스용 OneDrive 사용 현황](onedrive-for-business-usage-ww.md)|예|예|예|예|예|
+|[SharePoint 사이트 사용 현황](sharepoint-site-usage-ww.md)|예|예|예|예|예|
+|[SharePoint 활동](sharepoint-activity-ww.md)|예|예|예|예|예|
+|[Microsoft Teams 사용자 활동](microsoft-teams-user-activity-preview.md)|예|예|예|예|N/A[^2]|
+|[Microsoft Teams 장치 사용 현황](microsoft-teams-device-usage-preview.md)|예|예|예|예|N/A[^2]|
+|[Yammer 활동](yammer-activity-report-ww.md)|예|예|N/A[^2]|N/A[^2]|N/A[^2]|
+|[Yammer 장치 사용 현황](yammer-device-usage-report-ww.md)|예|예|N/A[^2]|N/A[^2]|N/A[^2]|
+|[Yammer 그룹 활동 보고서](yammer-groups-activity-report-ww.md)|예|예|N/A[^2]|N/A[^2]|N/A[^2]|
+|[양식 활동](forms-activity-ww.md)|예|예|No[^1]|No[^1]|No[^1]|
+|[Dynamics 365 고객 음성 활동](forms-pro-activity-ww.md)|예|예|N/A[^2]|N/A[^2]|N/A[^2]|
+|[Skype for Business Online activity](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)(비즈니스용 Skype Online 활동)|예|예|No[^1]|No[^1]|예|
+|[Skype for Business Online conference organized activity](/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)(비즈니스용 Skype Online 전화 회의 조직 활동)|예|예|No[^1]|No[^1]|예|
+|[Skype for Business Online conference participant activity](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)(비즈니스용 Skype Online 전화 회의 참가자 활동)|예|예|No[^1]|No[^1]|예|
+|[Skype for Business Online peer-to-peer activity](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)(비즈니스용 Skype Online 피어 투 피어 활동)|예|예|No[^1]|No[^1]|예|
+|[Viva Learning 활동](viva-learning-activity.md)|예|해당 없음|해당 없음|해당 없음|해당 없음|
 
-- [활성 사용자](active-users-ww.md)
-  
-- [이메일 앱 사용 현황](email-apps-usage-ww.md)
-
-- [양식 활동](forms-activity-ww.md)
-
-- [Dynamics 365 고객 음성 활동](forms-pro-activity-ww.md)
-
-- [Microsoft 365 그룹](office-365-groups-ww.md)
-  
-- [비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity-ww.md)
-
-- [비즈니스용 OneDrive 사용 현황](onedrive-for-business-usage-ww.md)
-
-- [Microsoft 365 앱 사용 현황](microsoft365-apps-usage-ww.md)
-  
-- [SharePoint 사이트 사용 현황](sharepoint-site-usage-ww.md)
-  
-- [SharePoint 활동](sharepoint-activity-ww.md)
-  
-- [Skype for Business Online activity](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)(비즈니스용 Skype Online 활동)
-  
-- [Skype for Business Online conference organized activity](/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)(비즈니스용 Skype Online 전화 회의 조직 활동)
-  
-- [Skype for Business Online conference participant activity](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)(비즈니스용 Skype Online 전화 회의 참가자 활동)
-  
-- [Skype for Business Online peer-to-peer activity](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)(비즈니스용 Skype Online 피어 투 피어 활동)
-
-- [Yammer 활동](yammer-activity-report-ww.md)
-
-- [Yammer 장치 사용 현황](yammer-device-usage-report-ww.md)
-
-- [Yammer 그룹 활동 보고서](yammer-groups-activity-report-ww.md)
-
-- [Microsoft Teams 사용자 활동](microsoft-teams-user-activity-preview.md)
-
-- [Microsoft Teams 장치 사용 현황](microsoft-teams-device-usage-preview.md)
+[^1]: The report is in plan to be released in the future. The <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=" target="_blank">Microsoft 365 Roadmap</a> will be updated before the release.
+[^2]: The service is not available in the environment so no plan to release the report.
 
 ## <a name="how-to-view-licensing-information"></a>라이선스 정보를 보는 방법
 
@@ -163,14 +147,6 @@ ms.locfileid: "60553355"
 보고서를 생성할 때 사용자 수준 정보를 숨기지 않길 원한다면 **전역 관리자** 가 간단하게 관리 센터에서 이 변경 내용을 적용할 수 있습니다.
 
 보고서는 조직의 사용량 데이터에 대한 정보를 제공합니다. 기본적으로 보고서에는 사용자, 그룹 및 사이트의 식별 가능한 이름이 포함된 정보가 표시됩니다. Microsoft는 2021년 9월 1일부터 회사가 현지 개인 정보 보호법을 지원할 수 있도록 돕는 지속적인 노력의 일환으로 기본적으로 모든 보고서에 대해 사용자 정보를 숨기고 있습니다.
-
-  
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">서비스 &amp; 추가 기능</a> 페이지로 이동합니다.
-
-2. **조직 설정** 을 선택하고 **서비스** 를 선택합니다. 
-  
-3. **보고서** 창에서 **사용자 정보를 표시하는 방법 선택** 을 선택하고 **보고서에 식별 가능한 사용자 정보 표시** 를 선택합니다.
-  
 
 전역 관리자는 해당 테넌트에 대해 이 변경 내용을 되돌리고 조직의 개인정보처리방침에서 허용하는 경우 식별 가능한 사용자 정보를 표시할 수 있습니다. 이러한 결과는 Microsoft 365 관리 센터에서 다음 단계를 수행하여 달성할 수 있습니다.
   
