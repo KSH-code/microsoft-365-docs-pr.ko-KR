@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가용 템플릿을 만드는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: c2638d2425d505dcb15e1827e54c1a2d6492e6a7
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: be8d3356bd47289e3822133a2f97cf6349fad05c
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60334641"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701636"
 ---
 # <a name="create-an-assessment-template-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자에서 평가 템플릿 만들기
 

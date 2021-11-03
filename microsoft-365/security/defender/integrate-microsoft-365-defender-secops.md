@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 302317cd71921333b2fab8fd987f170bc7b69591
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 63da2b70153644b19a676f022ae800cafc4998c4
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60197944"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60702518"
 ---
 # <a name="integrating-microsoft-365-defender-into-your-security-operations"></a>보안 Microsoft 365 Defender 통합
 
@@ -36,9 +36,9 @@ ms.locfileid: "60197944"
 **적용 대상:**
 - Microsoft 365 Defender
 
-최신 SOC(보안 운영 센터)는 보안이 기본 제공될 수 있도록 배포 프로세스의 앞부분에서 보안 프로세스를 이동하는 위협 방어 전략을 수용하는 인텔리전스 기반 적응형 조직입니다. 즉, 격리된 기술 및 프로세스를 단일 보안 분석가에게 할당하면 더 이상 여러 원본에서 데이터를 크게 증가할 수 없습니다. 보안 분석가와 엔지니어는 보다 전체적인 접근 방식을 취하고 다양한 플랫폼 및 분야 전반에 걸쳐 공유된 정보를 사용하여 효과적인 조치를 취해야 합니다. 
+최신 SOC(보안 운영 센터)는 보안이 기본 제공될 수 있도록 배포 프로세스의 앞부분에서 보안 프로세스를 이동하는 위협 방어 전략을 수용하는 인텔리전스 기반 적응형 조직입니다. 즉, 격리된 기술 및 프로세스를 단일 보안 분석가에게 할당하면 더 이상 여러 원본에서 데이터를 크게 증가할 수 없습니다. 보안 분석가와 엔지니어는 보다 전체적인 접근 방식을 취하고 다양한 플랫폼 및 분야 전반에 걸쳐 공유된 정보를 사용하여 효과적인 조치를 취해야 합니다.
 
-이러한 이유로 Microsoft Defender 플랫폼의 배포 및 구현에는 Defender 서비스 자체의 일상적인 운영 및 수명 주기 관리를 최적화하기 위해 SOC 팀과의 신중한 계획이 필요합니다. 이 콘텐츠는 최신 보안 운영의 토대를 형성하는 새로운 사용자Microsoft 365 Defender 프로세스 및 기술과 통합하고 운영하는 방법에 대한 몇 가지 개념을 탐색합니다.
+이러한 이유로 Microsoft 365 Defender 플랫폼의 배포 및 구현은 Microsoft 365 Defender 서비스 자체의 일상적인 운영 및 수명 주기 관리를 최적화하기 위해 SOC 팀과 신중하게 계획해야 합니다. 이 콘텐츠는 최신 보안 운영의 토대를 형성하는 새로운 사용자Microsoft 365 Defender 프로세스 및 기술과 통합하고 운영하는 방법에 대한 몇 가지 개념을 탐색합니다.
 
 이 문서에 아직 익숙하지 않은 Microsoft 365 Defender 다음 문서를 참조합니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "60197944"
 조직에서 기존 아키텍처의 일부 측면을 이미 Microsoft 365 Defender 이러한 문서는 기존 아키텍처와 프로세스를 개선하는 데 도움이 될 수 있습니다.
 
 >[!Note]
->Microsoft 파트너인 Protiviti는 이 문서에 기여하고 중요한 피드백을 제공했습니다.
+>Microsoft 파트너인 Protiviti에서 이 문서에 기여하고 중요한 피드백을 제공했습니다.
 >
 
 ## <a name="target-audience"></a>대상 그룹

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e6b7df942ee117c0f23a97516c75d64131e0770d
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: b2e25e28952d18ad32141c010bc258d50e383d4e
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/03/2021
-ms.locfileid: "60698408"
+ms.locfileid: "60724431"
 ---
 # <a name="redirecting-accounts-from-office-365-security-and-compliance-center-to-microsoft-365-defender"></a>Office 365 및 준수 센터에서 계정으로 Microsoft 365 Defender
 
@@ -84,7 +84,7 @@ ms.locfileid: "60698408"
 이 설정은 어떤 경우든 다시 사용하도록 설정할 수 있습니다.
 
 ## <a name="related-information"></a>관련 정보
-- [Microsoft 365 Defender 개요](overview-security-center.md)
+- [Microsoft 365 Defender 개요](microsoft-365-defender.md)
 - [Microsoft Defender for Endpoint in Microsoft 365 Defender](microsoft-365-security-center-mde.md)
 - [Microsoft는 보안 운영을 현대화하기 위해 통합 SIEM 및 XDR을 제공합니다.](https://www.microsoft.com/security/blog/?p=91813) 
 - [XDR 및 SIEM 인포그래픽](https://afrait.com/blog/xdr-versus-siem/) 

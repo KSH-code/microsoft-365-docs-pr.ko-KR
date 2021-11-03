@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 11395c28014ad83f110574eb0f0cf6feccb40b2d
-ms.sourcegitcommit: d78553deeba23d2f8238f10e64c2e27f235dc37f
+ms.openlocfilehash: 523a73477343bc9face75bcceda1ed603d1f6439
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124460"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60704634"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Microsoft Defender 업데이트에 대한 사용자 지정 서진 배포 프로세스 만들기
 
@@ -59,19 +59,19 @@ Defender 업데이트에 대한 사용자 지정 서서적 출시 프로세스�
 > [!NOTE]
 > 업데이트된 Defender ADMX 템플릿이 21H2 릴리스와 함께 Windows 10. 지역화되지 않은 버전은 에서 다운로드할 수 https://github.com/microsoft/defender-updatecontrols 있습니다.
 
-그룹 정책을 [사용하여](/windows/win32/srvnodes/group-policy?redirectedfrom=MSDN)끝점에서 Microsoft Defender 바이러스 백신   관리할 수 있습니다.
+그룹 정책을 [사용하여](/windows/win32/srvnodes/group-policy?redirectedfrom=MSDN) 끝점에서 Microsoft Defender 바이러스 백신 관리할 수 있습니다.
 
 일반적으로 다음 절차에 따라 그룹 정책 설정을 구성하거나 Microsoft Defender 바이러스 백신 수 있습니다.
 
-1. 그룹 정책 관리 컴퓨터의 **** 그룹 정책 관리 콘솔을 열고 구성할 GPO(그룹 정책 개체)를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.** 
+1. 그룹 정책 관리 컴퓨터의 그룹 정책 관리 콘솔을 열고 구성할 GPO(그룹 정책 개체)를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.** 
 
-2. 그룹 정책 관리 편집기를 사용하여 컴퓨터 **구성으로 이동하십시오.**
+2. 그룹 정책 관리 편집기를 사용하여 컴퓨터 **구성으로 이동하십시오.**
 
-3. 관리 **템플릿 을 클릭합니다.**
+3. 관리 **템플릿 을 클릭합니다.**
 
-4. 트리를 확장하여 **Windows 구성 요소를 > Microsoft Defender 바이러스 백신.**
+4. 트리를 확장하여 **Windows 구성 요소를 > Microsoft Defender 바이러스 백신.**
 
-5. 구성할 설정이 포함된 **** 섹션(이 항목의 표에서 위치)을 확장하고 설정을 두 번 클릭하여 열고 구성을   변경합니다.
+5. 구성할 설정이 포함된  섹션(이 항목의 표에서 위치)을 확장하고 설정을 두 번 클릭하여 열고 구성을 변경합니다.
 
 6. [평소처럼 업데이트된 GPO를 배포합니다.](https://msdn.microsoft.com/library/ee663280(v=vs.85).aspx)
 
@@ -81,7 +81,7 @@ Defender 업데이트에 대한 사용자 지정 서서적 출시 프로세스�
 
 [Windows 10 디바이스에 대한 사용자 지정 설정 Microsoft Intune - Azure \| Microsoft Docs](/mem/intune/configuration/custom-settings-windows-10)
 
-서서한 롤아웃 프로세스에 사용되는 Defender CSP에 대한 자세한 내용은 [Defender CSP를 참조하세요.](/windows/client-management/mdm/defender-csp)
+서서한 롤아웃 프로세스에 사용되는 Defender CSP에 대한 자세한 내용은 [Defender CSP 를 참조하세요.](/windows/client-management/mdm/defender-csp)
 
 ## <a name="powershell"></a>PowerShell
 

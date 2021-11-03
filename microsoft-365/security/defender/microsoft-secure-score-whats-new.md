@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 59ff0e516bb6b0a5f5c89e07fb972184a5a6c837
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 72bd56905392ff89fbcd3209212029d3b33b9a98
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162305"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724352"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운
 
@@ -34,7 +34,7 @@ ms.locfileid: "60162305"
 
 Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 사항을 적용해 두었다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 [점수의 출시 예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
 
-Microsoft 보안 점수는 웹 사이트 포털에서 Microsoft 365 Defender https://security.microsoft.com/securescore [있습니다.](overview-security-center.md)
+Microsoft 보안 점수는 웹 사이트 포털에서 Microsoft 365 Defender https://security.microsoft.com/securescore [있습니다.](microsoft-365-defender.md#the-microsoft-365-defender-portal)
 
 ## <a name="july-2021"></a>2021년 7월
 

@@ -12,24 +12,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ''
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: m365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 시뮬레이션 및 교육과 관련하여 배포 고려 사항과 Office 365 정보를 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 19b8997a5f2d1f8df40c740fb996432b13a21d3b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 75b85c637382e2fc508b4c48459d1409b02ec922
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196600"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60704137"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>공격 시뮬레이션 교육 배포 고려 사항 및 FAQ
 
-공격 시뮬레이션 교육은 이제 일반적으로 [사용할 수 있습니다.](https://techcommunity.microsoft.com/t5/microsoft-security-and/attack-simulation-training-in-microsoft-defender-for-office-365/ba-p/2037291) 공격 시뮬레이션 교육은 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직이 실제 피싱 페이로드를 통해 강화된 피싱 시뮬레이션을 생성 및 관리할 수 있도록 하여 소셜 엔지니어링 위험을 측정하고 관리할 수 있도록 합니다. Terranova 보안과 협력하여 제공된 하이퍼 대상 교육은 지식을 개선하고 직원의 행동을 변경하는 데 도움이 됩니다.
+공격 시뮬레이션 교육은 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직이 실제 피싱 페이로드를 통해 강화된 피싱 시뮬레이션을 생성 및 관리할 수 있도록 하여 소셜 엔지니어링 위험을 측정하고 관리할 수 있도록 합니다. Terranova 보안과 협력하여 제공된 하이퍼 대상 교육은 지식을 개선하고 직원의 행동을 변경하는 데 도움이 됩니다.
 
 공격 시뮬레이션 교육을 시작하는 데 대한 자세한 내용은 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
 
@@ -41,7 +39,7 @@ ms.locfileid: "60196600"
 
 URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 이상의 URL을 안전하지 않은 것으로 식별할 수 있습니다. Google 금고 검색을 통해 시뮬레이션된 피싱 URL 중 일부를 기만 사이트 미리 **메시지로 차단합니다.** 항상 시뮬레이션 URL을 허용하기 위해 많은 URL 신뢰도 공급업체와 협력하고 있습니다. 그러나 항상 전체 범위가 있는 것은 아니며,
 
-![Google Chrome에서 기만적인 사이트 경고.](../../media/attack-sim-chrome-deceptive-site-message.png)
+![Google Chrome에서 기만적인 사이트 경고.](../../media/attack-sim-training-faq-chrome-deceptive-site-message.png)
 
 이 문제는 이 문제의 영향을 Microsoft Edge.
 
@@ -98,11 +96,11 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 시뮬레이션이 예약된  상태일 때 시뮬레이션 보고서는 대부분 비어 있습니다. 이 단계에서 시뮬레이션 엔진은 대상 사용자 전자 메일 주소를 확인하거나, 메일 그룹을 확장하고, 목록에서 게스트 사용자를 제거하는 등입니다.
 
-![예약된 상태의 보고](../../media/attack-sim-empty-reporting.png)
+![예약된 상태의 시뮬레이션을 보여 주며 시뮬레이션 세부 정보입니다.](../../media/attack-sim-training-faq-scheduled-state.png)
 
 시뮬레이션이 진행 중 **단계에 들어오면** 보고에 들어가기 시작하는 정보를 알 수 있습니다.
 
-![진행 중 상태의 보고](../../media/attack-sim-in-progress.png)
+![진행 중 상태의 시뮬레이션을 보여 주며 시뮬레이션 세부 정보입니다.](../../media/attack-sim-training-faq-in-progress-state.png)
 
 진행 중 상태로 전환한 후 개별 시뮬레이션 보고서가 업데이트되는 데 최대 30분이 걸릴 **수** 있습니다. 시뮬레이션이 **Completed** 상태가 될 때까지 보고서 데이터가 계속 빌드됩니다. 보고 업데이트는 다음과 같은 간격으로 발생합니다.
 
@@ -154,7 +152,7 @@ A: CSV 파일에서 받는 사람을 가져오거나 시뮬레이션에 개별 �
 
 ### <a name="q-does-microsoft-provide-payloads-in-other-languages"></a>Q: Microsoft에서 다른 언어로 페이로드를 제공합니까?
 
-A: 현재 사용할 수 있는 지역화된 페이로드는 5개입니다. 기존 페이로드를 다른 언어로 직접 또는 기계 번역하면 부정확성 및 줄어든다는 사실이 발견했습니다.
+A: 현재 사용할 수 있는 지역화된 페이로드는 5개입니다. 기존 페이로드를 다른 언어로 직접 또는 기계 번역하면 부정확성 및 줄어든다.
 
 즉, 사용자 지정 페이로드 제작 환경을 사용하여 원하는 언어로 직접 페이로드를 만들 수 있습니다. 또한 특정 지리에서 사용자를 대상으로 지정하는 데 사용된 기존 페이로드를 수집하는 것이 좋습니다. 즉, 공격자가 콘텐츠를 지역화할 수 있습니다.
 
@@ -168,7 +166,7 @@ A: Microsoft 365 Office 365 사용자 계정에 대해 언어 구성이 구체�
 
 A: 예! 마법사의 **마지막** 시뮬레이션 검토 페이지에서 새 시뮬레이션을 만들 수 있습니다. 테스트 보내기 옵션이 **있습니다.** 이 옵션은 현재 로그인한 사용자에게 샘플 피싱 시뮬레이션 메시지를 전송합니다. 받은 편지함에서 피싱 메시지의 유효성을 검사한 후 시뮬레이션을 제출할 수 있습니다.
 
-![시뮬레이션 검토 페이지에서 테스트 단추를 보내십시오.](../../media/attack-sim-review-simulation-page.png)
+![시뮬레이션 검토 페이지에서 테스트 단추를 보내십시오.](../../media/attack-sim-training-simulations-review-simulation.png)
 
 ### <a name="q-can-i-target-users-that-belong-to-a-different-tenant-as-part-of-the-same-simulation-campaign"></a>Q: 동일한 시뮬레이션 캠페인의 일부로 다른 테넌트에 속한 사용자를 대상으로 할 수 있나요?
 

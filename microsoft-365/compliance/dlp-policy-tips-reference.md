@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP(데이터 손실 방지) 정책에 정책 팁을 추가하여 사용자에게 DLP 정책과 충돌하는 콘텐츠를 사용 중일 때 이를 알리는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 2537b653b435240e052374e3328e2b94504a8d74
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f4aeefca80412c225da1b2f589d109355be21305
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195644"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701986"
 ---
 # <a name="data-loss-prevention-policy-tips-reference"></a>데이터 손실 방지 정책 팁 참조
 
@@ -403,7 +403,7 @@ Outlook Web Access의 DLP 정책 팁은 다음을 제외한 DLP 정책의 Exchan
 |**Word, Excel, PowerPoint Mobile 클라이언트**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|DLP 정책 팁은 모바일 앱에 지원되지 Office.|
 |**Teams Web/Teams Desktop/Teams Mobile/Teams Mac**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|모든 Teams DLP 정책의 모든 Teams|정책 팁은 메시지가 "이 메시지에 플래그가 지정된 경우 표시됩니다. 어떻게 해야 나요?" 링크를 클릭할 때 사용자는 감지된 중요한 정보 유형을 검토하고 관리자가 허용하는 경우 문제를 재지정하거나 보고할 수 있습니다. 파일에 대한 정책 팁은 표시하지 않습니다. 받는 사람이 문서에 액세스하는 경우 허용되지 않는 경우 액세스가 거부될 수 있습니다.|
 |**Win32 끝점 장치**|:::image type="icon" source="../media/rightmrk.png" border="false":::|하위 집합|DLP 정책의 모든 끝점 DLP 사문자 및 작업|일부 중요한 정보 유형에 대한 정책 팁 지원 끝점의 데이터 손실 [방지를 참조하세요.](#data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types)|
-|**Mac 장치**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|데이터 손실 방지 정책은 현재 Mac 장치에서 적용되지 않습니다.|
+|**macOS 장치(미리 보기)**|기본 팁만|all|하위 집합|데이터 손실 방지 정책은 macOS 장치에서 적용할 수 있습니다. 사용자 지정 정책 팁은 지원되지 않습니다.|
 |**제3자 클라우드 앱**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|데이터 손실 방지 정책 팁은 제3자 클라우드 앱에서 지원되지 않습니다.|
 |**On-prem**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음||
 |**Word, Excel, PowerPoint Win32 Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|하위 집합|하위 집합|지원되는 중요한 정보 유형 목록에 대한 일부 중요한 정보 유형에 대한 정책 팁만 보여 Outlook [2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) 이상 및 데스크톱의 Office 앱을 참조하세요.</br></br>WXP 클라이언트 앱에 대한 정책 팁은 SharePoint Online 또는 비즈니스용 OneDrive 사이트에 저장된 문서에서 DLP 정책의 조건 또는 작업 중 아래 또는 일부가 있는 모든 DLP 정책에 대해 작동됩니다.</br> <ul><li>콘텐츠에 중요한 정보 유형 포함</li><li>액세스 범위(콘텐츠가 내부/외부적으로 공유)</li><li>사용자에게 알림(정책 팁/사용자 알림)</li><li>모든 사람 차단</li><li>문제 보고서</li></ul></br> 다른 조건이나 작업이 있는 경우 해당 정책에 대한 DLP 정책 팁이 Word, Excel 또는 PowerPoint.</br>자세한 내용은 Excel, PowerPoint [및 Word의](use-notifications-and-policy-tips.md#policy-tips-in-excel-powerpoint-and-word) 정책 팁을 참조하세요.|

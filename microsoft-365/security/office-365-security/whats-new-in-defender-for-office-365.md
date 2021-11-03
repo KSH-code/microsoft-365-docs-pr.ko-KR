@@ -21,18 +21,19 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5980d01dfb15a019aec9dd39cf6ceae7a1682753
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: ca0d3e29809b8975f65dc3f12816a6e4f9a19dbe
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555275"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60702406"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**적용 대상**
+**적용 대상:**
+
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
@@ -76,8 +77,8 @@ ms.locfileid: "60555275"
   - 피싱으로 플래그가 지정 및 확인된 양식
   - [ZAP에 대한 새 경고 정책](../../compliance/new-defender-alert-policies.md)
 - microsoft Defender for Office 365 통합 알림이 통합된 Microsoft 365 Defender - Microsoft 365 Defender 경고 큐에 [통합됩니다.](../defender/investigate-alerts.md)
-- [이제](user-tags.md) 사용자 태그는 Office 365 Security & Compliance의 경고 큐 및 세부 정보를 포함하여 Office 365 경고 환경을 위한 Microsoft Defender에 통합되고, 사용자 태그에 사용자 지정 경고 정책을 지정하여 대상 경고 정책을 만들 수 있습니다. 
-  - 태그는 Microsoft 365 Defender 센터의 통합 경고 큐에서도 사용할 수 있습니다(Office 365 계획 2용 Microsoft Defender).
+- [이제](user-tags.md) 사용자 태그는 Office 365 Security & Compliance의 경고 큐 및 세부 정보를 포함하여 Office 365 경고 환경을 위한 Microsoft Defender에 통합되고, 사용자 태그에 사용자 지정 경고 정책을 지정하여 대상 경고 정책을 만들 수 있습니다.
+  - 태그는 Microsoft 365 Defender 포털(Microsoft Defender for Office 365 Plan 2)에서도 사용할 수 있습니다.
 
 ## <a name="june-2021"></a>2021년 6월
 

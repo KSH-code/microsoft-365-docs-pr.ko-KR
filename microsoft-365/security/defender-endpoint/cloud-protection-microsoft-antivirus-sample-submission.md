@@ -15,12 +15,12 @@ ms.technology: mde
 ms.topic: article
 ms.date: 10/18/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 6e86f4c7f311a356d38d5ecee5498e120190d7b9
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 1c7ef9883aacf9af0ee5474795c19adf1694fd9c
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554087"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701732"
 ---
 # <a name="cloud-protection-and-sample-submission-in-microsoft-defender-antivirus"></a>클라우드 보호 및 샘플 제출(Microsoft Defender 바이러스 백신
 
@@ -102,7 +102,7 @@ Intune, Configuration Manager, GPO 또는 PowerShell을 사용하는 구성 옵�
 
 ## <a name="examples-of-metadata-sent-to-the-cloud-protection-service"></a>클라우드 보호 서비스로 전송된 메타데이터의 예
 
-:::image type="content" source="images/cloud-protection-metadata-sample.png" alt-text="Microsoft Defender 클라우드 보호로 전송된 메타데이터의 예를 설명하는 이미지":::
+:::image type="content" source="images/cloud-protection-metadata-sample.png" alt-text="2013의 클라우드 보호로 전송된 메타데이터의 예를 Microsoft Defender 바이러스 백신":::
 
 다음 표에는 클라우드 보호에서 분석을 위해 전송된 메타데이터의 예가 나열됩니다.
 

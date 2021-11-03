@@ -16,14 +16,14 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: db11cc6940a26efb03ef906d0ac09e52986969eb
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3982f25f8c2397d59d90777f70354dca1fc0765f
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60668015"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724754"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -82,25 +82,28 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 
 모든 업데이트에 포함
 
-- 성능 개선
-- 서비스성 개선 및
-- 통합 개선(클라우드, [](/microsoft-365/security/defender/microsoft-365-defender)Microsoft 365 Defender).
+- 성능 향상
+- 서비스성 개선
+- 향상된 통합 기능(클라우드, [](/microsoft-365/security/defender/microsoft-365-defender)Microsoft 365 Defender )
 <br/><br/>
 <details>
-<summary> 2021년 10월(플랫폼: 4.18.xxxx.x| 엔진: 1.1.18700.4)</summary>
+<summary> 2021년 10월(플랫폼: 4.18.2110.6| 엔진: 1.1.18700.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.353.3.0**<br/>
 &ensp;릴리스: **2021년 10월 28일**<br/>
-&ensp;플랫폼: **4.18.xxxx.x**<br/>
+&ensp;플랫폼: **4.18.2110.6**<br/>
 &ensp;엔진: **1.1.18700.4**<br/>
 &ensp;지원 단계: **보안 및 중요 업데이트**<br/>
 
 엔진 버전: 1.1.18700.4 보안 인텔리전스 업데이트 버전: 1.353.3.0
 
 ### <a name="whats-new"></a>새로운 기능
-- FTP 네트워크 트래픽 범위 개선
-- Exchange 서버에서 Microsoft Defender CPU 사용량을 줄이는 Windows Server 2016
-- Defender 서비스 변조 탄력성 개선
+
+- FTP(파일 전송 프로토콜) 네트워크 트래픽 범위 개선
+- Microsoft Defender CPU 사용량을 줄이기 위해 Exchange Server 실행 Windows Server 2016
+- 검사 중단에 대한 수정
+- 보안 센터에 나타나지 않는 차단된 변조 시도에 대한 경고 수정
+- Microsoft Defender 서비스의 변조 탄력성 개선
 
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음

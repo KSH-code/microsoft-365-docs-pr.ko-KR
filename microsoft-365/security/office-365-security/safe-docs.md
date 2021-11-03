@@ -16,12 +16,12 @@ ms.collection:
 description: 금고 문서 또는 Microsoft 365 E5 문서에 대해 Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cd1bb71bee6a123ae698f1178e62a521409d4103
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 66093240f6ea9137bb9af361bfabc2598676e390
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60180710"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703084"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -69,7 +69,7 @@ ms.locfileid: "60180710"
 
 보호를 유지하기 위해 금고 문서를 분석하기 위해 [Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 클라우드로 파일을 전송합니다. 끝점용 Microsoft Defender가 데이터를 처리하는 방법에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 [보호용 Microsoft Defender에서](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)찾을 수 있습니다.
 
-금고 전송된 파일은 분석에 필요한 시간(일반적으로 24시간 미만)이 지난 시간 동안 Defender에 보존되지 않습니다.
+금고 문서가 전송한 파일은 분석에 필요한 시간(일반적으로 24시간 미만)이 지난 후 끝점용 Defender에 보존되지 않습니다.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-configure-safe-documents"></a>Microsoft 365 Defender 포털을 사용하여 금고 구성
 

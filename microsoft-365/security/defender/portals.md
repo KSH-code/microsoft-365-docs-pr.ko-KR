@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -17,18 +17,18 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 873753f1802fce9480c16d6df33092284156a820
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6543d2b5dee1b30bcd08e37c4d05499977fc7b40
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191442"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724359"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 365 Defender 포털은 [ID,](overview-security-center.md) 데이터, 장치 및 앱 전체의 보안을 모니터링하고 관리하기 위한 새로운 홈이기 때문에 특정 특수 작업을 위해 다양한 포털에 액세스해야 합니다.
+Microsoft 365 Defender 포털은 [ID,](microsoft-365-defender.md#the-microsoft-365-defender-portal) 데이터, 장치 및 앱 전체의 보안을 모니터링하고 관리하기 위한 새로운 홈이기 때문에 특정 특수 작업을 위해 다양한 포털에 액세스해야 합니다.
 
 > [!TIP] 
 > 포털에서 다양한 관련 포털에 액세스하려면 Microsoft 365 Defender 창에서 **추가** 리소스를 선택합니다.
@@ -46,7 +46,7 @@ Microsoft 365 Defender 포털은 [ID,](overview-security-center.md) 데이터, �
 | Azure Defender 포털 | [Azure Defender를](/azure/security-center/security-center-intro) 사용하여 클라우드에서 데이터 센터 및 하이브리드 워크로드의 보안 환경 강화 | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
 | Microsoft Defender for Identity 포털 | Id에 대한 [Microsoft Defender와](/azure-advanced-threat-protection/what-is-atp) 함께 Active Directory 신호를 사용하여 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사합니다. | [portal.atp.azure.com](https://portal.atp.azure.com/) |
 | Cloud App Security 포털 | 클라우드 [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) 정보를 활용하여 풍부한 가시성, 데이터 이동 제어 및 정교한 분석을 활용하여 클라우드 서비스의 사이버 위협을 식별하고 퇴치 | [portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/) |
-| Microsoft Defender 보안 인텔리전스 포털 | 끝점용 Microsoft Defender에 대한 보안 인텔리전스 업데이트 다운로드, 샘플 제출 및 위협 백과사전 탐색 | [microsoft.com/wdsi](https://microsoft.com/wdsi) |
+| Microsoft 보안 인텔리전스 포털 | 끝점용 Microsoft Defender에 대한 보안 인텔리전스 업데이트 다운로드, 샘플 제출 및 위협 백과사전 탐색 | [microsoft.com/wdsi](https://microsoft.com/wdsi) |
 
 ## <a name="portals-for-other-workloads"></a>다른 워크로드용 포털
 

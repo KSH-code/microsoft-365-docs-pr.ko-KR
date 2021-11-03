@@ -22,8 +22,8 @@ ms.openlocfilehash: 99e243e86c66babd9a983ae6df891f4094cdbb83
 ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60673647"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701614"
 ---
 # <a name="learn-about-assessment-templates-in-compliance-manager"></a>준수 관리자의 평가 템플릿에 대해 자세히 알아보기
 

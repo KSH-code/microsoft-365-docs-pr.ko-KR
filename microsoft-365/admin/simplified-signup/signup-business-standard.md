@@ -14,12 +14,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: 구매 Microsoft 365 Business Standard 조직을 설정하는 방법을 제공합니다.
-ms.openlocfilehash: cf19c2f07129eb064368c1efd6eea09af0870b93
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e84e88fd478209d13fca889010b023a9c10f450b
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60164251"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701494"
 ---
 # <a name="sign-up-for-a-microsoft-365-business-standard-subscription"></a>Microsoft 365 Business Standard 구독 신청
 
@@ -42,10 +42,12 @@ ms.locfileid: "60164251"
 2. 다음 페이지에서 월별 비용을 찾은 다음 페이지를 아래로 스크롤하여 앱에 포함된 콘텐츠에 대한 자세한 Microsoft 365. 다음 Microsoft 365 Business Standard 지금 **구입을 선택합니다.**
 3. 선택해 **주셔서 Microsoft 365 Business Standard** 페이지에서 시작할 정보를 입력합니다. **다음** 을 선택합니다.
 4. 이미 사용 중이신 전자 메일 주소를 입력합니다. 이 주소는 설정하는 동안 Microsoft에서 사용자와 통신하는 데 사용할 모든 주소일 수 있습니다. 또한 청구서 및 갱신에 대한 정보를 보낼 주소입니다. 그런 다음 계정 **설정 을 선택합니다.**
-5. 이름, 회사 전화 번호, 회사 크기, 회사 이름 및 위치를 입력합니다. 국가 또는 지역은 Microsoft에서 받는 정확한 서비스를 결정하며, 이 단계를 완료한 후에 변경할 수 없습니다. **다음** 을 선택합니다.
+5. 이름, 회사 전화 번호, 회사 크기, 회사 이름 및 위치를 입력합니다. **다음** 을 선택합니다.
 
-    > [!NOTE]
-    > 관리 센터에 회사 이름이 표시됩니다. 여기서 사용자, Microsoft 365 및 기타 기능 및 서비스를 관리할 수 있습니다. 또한 모든 내부 사이트 URL에 SharePoint 포함됩니다.
+    > [!IMPORTANT]
+    > 등록의 일부로 사용자 지정 도메인을 추가하는 경우 여기에 입력하는 회사 이름이 모든 사용자 지정 SharePoint OneDrive 사용됩니다. 변경하지 못하게 될 수 있으므로 철자가 올바르게 입력된 것이고 브랜칭 관점에서 사용할 이름인지 확인합니다. 사용자, 라이선스 및 기타 기능 및 서비스를 관리하는 관리 센터에도 회사 Microsoft 365 표시됩니다.
+    > 
+    > 국가 또는 지역은 Microsoft에서 받는 정확한 서비스를 결정하며, 이 단계를 완료한 후에 변경할 수 없습니다. 
 
 6. 사용자에 대한 확인을 도와 드시겠습니다. 사용자에 도달하는 데 사용할 수 있는 번호를 입력하고 확인 **코드 보내기 를 선택합니다.**
 

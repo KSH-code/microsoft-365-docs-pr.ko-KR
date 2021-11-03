@@ -18,8 +18,8 @@ ms.openlocfilehash: 9e2c52d23c0e0c949059dc37eee4c1a59b35964e
 ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60677292"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60704946"
 ---
 # <a name="manage-your-resource-with-sdk--apis"></a>SDK API를 사용하여 리소스 & 관리
 자동화는 자동화 및 DevOps 핵심적인 측면입니다. 리소스에 대한 테스트 기반을 관리하고 Microsoft 365 프로그래밍 방식의 테스트 결과를 얻은 다음 CI 도구와 통합할 계획입니까? 기본 API/SDK를 테스트하면 이러한 모든 API를 달성하는 데 도움이 될 수 있습니다. 

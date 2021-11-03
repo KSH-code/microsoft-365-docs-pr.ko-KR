@@ -7,19 +7,19 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.date: 10/01/2021
+ms.date: 10/29/2021
 ms.prod: m365-security
 ms.technology: mdep1
 ms.localizationpriority: medium
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 17026088cc10b5ace84cbab31f0a383661e2484b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4881d1ca4d8b6ca12dbb7c6c273328e515a503ac
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204050"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60704879"
 ---
 # <a name="overview-of-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 개요(미리 보기)
 
@@ -31,7 +31,7 @@ ms.locfileid: "60204050"
 - **Endpoint 요금제 1용 Defender**, 현재 미리 보기로, 이 문서에 설명되어 있습니다. 및 
 - **[Endpoint 요금제 2용 Defender](microsoft-defender-endpoint.md)**(일반적으로 사용 가능) 및 이전의 [Endpoint용 Defender 입니다.](microsoft-defender-endpoint.md)
 
-다음 이미지는 Defender for Endpoint Plan 1(미리 보기)에 포함된 것을 나타냈습니다.
+다음 이미지의 녹색 상자에는 Defender for Endpoint Plan 1(미리 보기)에 포함된 것이 표시됩니다.
 
 :::image type="content" source="../../media/mde-p1/mde-p1-overview-diagram.png" alt-text="Endpoint 요금제 1용 Defender 다이어그램":::
 
@@ -77,8 +77,8 @@ Endpoint 요금제 1(미리 보기)에 대한 Defender에는 다음 기능이 �
 
 | 파일/장치 | 작업 | 설명 |
 |:---|:---|:---|
-| 디바이스 | 바이러스 백신 검사 실행 | 바이러스 백신 검색을 시작합니다. 장치에서 위협이 감지되면 바이러스 백신 검사 중에 이러한 위협이 해결되는 경우가 종종 있습니다. |
-| 디바이스 | 디바이스 격리 | 끝점용 Defender에 대한 연결을 유지하면서 조직의 네트워크에서 장치를 분리합니다. 이 작업을 통해 디바이스를 모니터링하고 필요한 경우 추가 조치를 취할 수 있습니다. |
+| 장치 | 바이러스 백신 검사 실행 | 바이러스 백신 검색을 시작합니다. 장치에서 위협이 감지되면 바이러스 백신 검사 중에 이러한 위협이 해결되는 경우가 종종 있습니다. |
+| 장치 | 디바이스 격리 | 끝점용 Defender에 대한 연결을 유지하면서 조직의 네트워크에서 장치를 분리합니다. 이 작업을 통해 디바이스를 모니터링하고 필요한 경우 추가 조치를 취할 수 있습니다. |
 | 파일 | 중지 및 격리 |프로세스 실행을 중지하고 관련 파일을 검사합니다. |
 | 파일 | 파일을 차단하거나 허용하는 표시기 추가 | 차단 표시기는 이식 가능한 실행 파일이 장치에서 읽거나 쓰거나 실행되지 못하게 합니다. <p>표시기를 허용하면 파일이 차단되거나 수정되지 않습니다. |
 

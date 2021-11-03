@@ -20,14 +20,14 @@ ms.custom:
 description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 계획 2 조직용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e3a1be88cb1666f689b4482684823ff09fc39fed
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f6b8a10432c63a12f4d81e67f580f11b4f8b35ed
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60180995"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701206"
 ---
-# <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
+# <a name="get-started-using-attack-simulation-training-in-defender-for-office-365"></a>Defender for Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "60180995"
 조직에 위협 Microsoft 365 E5 및 대응 기능이 포함된 Office 365 계획 2용 [](office-365-ti.md)Microsoft Defender 또는 Microsoft Defender가 있는 경우 Microsoft 365 Defender 포털에서 공격 시뮬레이션 교육을 사용하여 조직에서 실제 공격 시나리오를 실행할 수 있습니다. 이러한 시뮬레이션된 공격은 실제 공격이 아래쪽에 영향을 미치기 전에 취약한 사용자를 식별하고 찾는 데 도움이 될 수 있습니다. 자세한 내용은 이 문서를 읽어 보아야 합니다.
 
 > [!NOTE]
-> 공격 시뮬레이션 교육은 Microsoft Defender for Office 365 공격 시뮬레이터에 설명된 이전 공격 시뮬레이터 v1 환경을 [Office 365.](attack-simulator.md)
+> 공격 시뮬레이션 교육은 위협 관리 공격 시뮬레이터 또는 의 보안 &  준수 센터에서 사용할 수 있는 이전 공격 시뮬레이터 v1 환경을 \>  <https://protection.office.com/attacksimulator> 대체합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 

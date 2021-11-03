@@ -18,12 +18,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 링크에 대한 전역 설정("다음 URL 차단" 목록 및 Office 365 앱 보호)을 보고 구성하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc3906f2645c9bdc78caeb5c2535e1b851538982
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4386f0f1b6dee2b877790b3ae715d1fb1e5f535a
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199468"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701516"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 링크에 대한 전역 설정 Office 365
 
@@ -47,9 +47,9 @@ ms.locfileid: "60199468"
 
 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 전역 Exchange Online 링크 설정을 구성할 수 있습니다. Exchange Online 사서함이 있는 적격 Microsoft 365 조직의 경우, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell은 Office 365 추가 기능 구독용 Microsoft Defender를 사용하여 구성할 수 있습니다. 금고
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 기본 제공 또는 기본 금고 링크 정책이 있으므로 다음 URL 차단 목록이 금고 링크 정책을 하나  이상 만들어야 합니다. 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
+- 기본 금고 링크 정책은 있지만 기본  제공 보호 미리 설정 보안 정책은 모든 받는 사람(사용자 지정 금고 링크 정책에 정의되지 않은 사용자)에게 금고 링크 보호를 제공합니다. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md) 특정 사용자, 금고 도메인에 적용할 링크 정책을 만들 수도 있습니다. 자세한 내용은 [Set up 금고 Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
 - <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. 링크 페이지로 직접 금고 **를** <https://security.microsoft.com/safelinksv2> 사용하세요.
 

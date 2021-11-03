@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f472b42a5ce967e67c4b4cbe3511e493ac86d42c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c2482c83eef315c390e2748e371ddf26dcb3c012
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208472"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60705354"
 ---
 # <a name="devicefromip"></a>DeviceFromIP()
 
@@ -62,7 +60,7 @@ invoke DeviceFromIP()
 - **x**-첫 번째 매개 변수는 일반적으로 이미 쿼리의 열입니다. 이 경우 이 열은 이라는 열로, 할당된 장치 목록을 보게 할 `IP` IP 주소입니다. 로컬 IP 주소입니다. 외부 IP 주소는 지원되지 않습니다.
 - **y**-두 번째 선택적 매개 변수는 이며, 이 매개 변수는 특정 시간에서 가장 최근에 할당된 장치를 구하도록 `Timestamp` 함수에 지시합니다. 이 함수를 지정하지 않으면 사용 가능한 최신 레코드가 반환됩니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 
 ### <a name="get-the-latest-devices-that-have-been-assigned-specific-ip-addresses"></a>특정 IP 주소가 할당된 최신 장치 다운로드

@@ -19,12 +19,12 @@ ms.collection:
 description: 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 Office 365 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떻게 해야 하나요? 또한 2016년 8월에 Defender를 사용하는 경우 어떤 추가 Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9a7942d07297dedb4c414d186898dda7384521c2
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 893454f6d3e17ecff6902622fcbfb8cf264be2aa
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60556226"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703186"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정
 
@@ -61,7 +61,7 @@ ms.locfileid: "60556226"
 |보안 기능 이름|기본값|Standard|Strict|Comment|
 |---|:---:|:---:|:---:|---|
 |**스팸 속성에 & 대량 전자 메일 임계값**|||||
-|**대량 전자 메일 임계값** <p> _BulkThreshold_|7 |6 |4 |자세한 내용은 [EOP의 BCL(대량 불만 수준)을 참조합니다.](bulk-complaint-level-values.md)|
+|**대량 전자 메일 임계값** <p> _BulkThreshold_|7 |6 |4|자세한 내용은 [EOP의 BCL(대량 불만 수준)을 참조합니다.](bulk-complaint-level-values.md)|
 |_MarkAsSpamBulkMail_|`On`|`On`|`On`|이 설정은 PowerShell에서만 사용할 수 있습니다.|
 |**스팸 점수 설정** 늘리기|해제|해제|해제|이러한 설정은 모두 ASF(고급 스팸 필터)의 일부입니다. 자세한 내용은 이 문서의 스팸 방지 정책의 [ASF](#asf-settings-in-anti-spam-policies) 설정을 참조하세요.|
 |**스팸 설정으로** 표시|해제|해제|해제|이러한 설정은 대부분 ASF의 일부입니다. 자세한 내용은 이 문서의 스팸 방지 정책의 [ASF](#asf-settings-in-anti-spam-policies) 설정을 참조하세요.|
@@ -74,7 +74,7 @@ ms.locfileid: "60556226"
 |**피싱 감지** 작업 <p> _PhishSpamAction_|**메시지 검량** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
 |**높은 신뢰도 피싱 감지** 작업 <p> _HighConfidencePhishAction_|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
 |**대량** 검색 작업 <p> _BulkSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`||
-|**이 며칠 동안 스팸을 검지에서 보존** <p> _QuarantineRetentionPeriod_|15일|30일|30일||
+|**이 며칠 동안 스팸을 검지에서 보존** <p> _QuarantineRetentionPeriod_|30일|30일|30일|또한 이 값은 피싱 방지 정책에 의해 의해서리된 메시지에 영향을 미치게 됩니다. 자세한 내용은 [EOP에서 Quarantined email messages를 참조하세요.](quarantine-email-messages.md)|
 |**스팸 보안 팁 사용** <p> _InlineSafetyTipsEnabled_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |피싱 메시지에 ZAP(제로 아워 자동 제거)를 사용하도록 설정 <p> _PhishZapEnabled_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |스팸 메시지에 ZAP 사용 <p> _SpamZapEnabled_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
@@ -87,9 +87,7 @@ ms.locfileid: "60556226"
 
 #### <a name="asf-settings-in-anti-spam-policies"></a>스팸 방지 정책의 ASF 설정
 
-스팸 방지 정책에는 사용되지 않습니다. 이러한 기능의 정가 하한 일정에 대한 자세한 내용은 이 문서 외부에 전달될 것입니다.
-
-표준 및 엄격한 수준 모두에  대해  다음 ASF 설정을 **해제하는 것이** 좋습니다. ASF 설정에 대한 자세한 내용은 [EOP의 ASF(고급 스팸 필터) 설정을 참조하세요.](advanced-spam-filtering-asf-options.md)
+이 섹션의 표에서는 스팸 방지 정책에서 사용할 수 있는 ASF(고급 스팸 필터) 설정에 대해 설명합니다. 이러한 설정은 모두 **표준** 수준과 엄격 수준 모두에서 **해제됩니다.**  ASF 설정에 대한 자세한 내용은 [EOP의 ASF(고급 스팸 필터) 설정을 참조하세요.](advanced-spam-filtering-asf-options.md)
 
 <br>
 
@@ -197,7 +195,7 @@ ms.locfileid: "60556226"
 >
 > - Microsoft Defender for Office 365 피싱 방지 정책은 모든 [](set-up-anti-phishing-policies.md#spoof-settings) 받는 사람에게 스푸핑 보호 및 사서함 인텔리전스를 제공합니다. 그러나 사용 가능한 [](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 다른 가장 보호 [](#advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 기능 및 고급 설정은 기본 정책에서 구성되거나 사용하도록 설정되지 않습니다. 모든 보호 기능을 사용하도록 설정하려면 기본 피싱 방지 정책을 수정하거나 추가 피싱 방지 정책을 만들 수 있습니다.
 >
-> - 조직의 모든 받는 금고 자동으로 보호하는 금고 정책 또는 첨부 파일 정책에 대한 기본 정책은 없습니다. 보호 기능을 사용하려면 하나 이상의 링크 정책과 첨부 금고 정책을 금고 합니다.
+> - 기본 금고 첨부 파일 정책 또는 금고 링크 정책은 있지만  기본 제공 보호 미리 설정 보안 정책은 모든 받는 사람(사용자 지정 금고 첨부 파일 정책 또는 금고 링크 정책에 정의되지 않은 사용자)에게 금고 첨부 파일 보호 및 금고 링크 보호를 제공합니다. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md)
 >
 > - [금고, SharePoint,](mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 보호 및 금고 [문서](safe-docs.md) 보호에 대한 첨부 파일은 금고 링크 정책에 종속됩니다.
 
@@ -272,7 +270,14 @@ EOP의 스팸 방지 정책 설정에서 사용할 수 있는 설정과 [동일�
 
 금고 Microsoft Defender for Office 365 첨부 파일에는 금고 정책과 관계가 없는 전역 설정과 각 첨부 파일 링크 정책과 금고 설정이 포함됩니다. 자세한 내용은 에 [대한 금고 Defender의](safe-attachments.md)첨부 파일을 Office 365.
 
+기본 금고 첨부 파일 정책은 있지만 기본  제공 보호 미리 설정 보안 정책은 모든 받는 사람(사용자 지정 금고 첨부 파일 정책에 정의되지 않은 사용자)에게 금고 첨부 파일 보호를 제공합니다. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md)
+
 #### <a name="global-settings-for-safe-attachments"></a>첨부 파일 금고 전역 설정
+
+> [!NOTE]
+> 금고 첨부 파일에 대한 전역 설정은 기본  제공 보호 미리 설정된 보안 정책에 의해 설정되지만 **표준** 또는 **엄격한** 미리 설정된 보안 정책에 의해 설정되지 않습니다. 어느 방법을 사용하든 관리자는 이러한 전역 금고 첨부 파일 설정을 수정할 수 있습니다.
+>
+> 기본 **열에는** 기본 제공 보호  미리 설정 보안 정책이 존재하기 전의 값이 표시됩니다. 기본 **제공** 보호 열에는 기본 제공 보호  미리 설정된 보안 정책에 의해 설정된 값이 표시되어 권장 값도 표시됩니다.
 
 이러한 설정을 구성하려면 금고 에서 [SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 금고 문서에 대한 금고 설정을 [Microsoft 365 E5.](safe-docs.md)
 
@@ -282,11 +287,11 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
-|---|:---:|:---:|:---:|---|
-|**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기** <p> _EnableATPForSPOTeamsODB_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
-|**클라이언트에 금고 문서 Office 켜기** <p> _EnableSafeDocs_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 기능은 사용자용 Defender에 포함되어 있지 않은 라이선스(예: Microsoft 365 E5 또는 Microsoft 365 E5 Security)에서만 사용할 수 있으며 의미가 Office 365 있습니다. 자세한 내용은 금고 [문서의 Microsoft 365 E5.](safe-docs.md)|
-|**문서에서 파일을 악성으로 식별한 경우에도 금고 보기를 클릭할 수 있도록 허용** <p> _AllowSafeDocsOpen_|해제 <p> `$false`|해제 <p> `$false`|해제 <p> `$false`|이 설정은 문서 금고 관련이 있습니다.|
+|보안 기능 이름|기본값|기본 제공 보호|Comment|
+|---|:---:|:---:|---|
+|**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기** <p> _EnableATPForSPOTeamsODB_|해제 <p> `$false`|켜짐 <p> `$true`||
+|**클라이언트에 금고 문서 Office 켜기** <p> _EnableSafeDocs_|해제 <p> `$false`|켜짐 <p> `$true`|이 기능은 사용자용 Defender에 포함되어 있지 않은 라이선스(예: Microsoft 365 E5 또는 Microsoft 365 E5 Security)에서만 사용할 수 있으며 의미가 Office 365 있습니다. 자세한 내용은 금고 [문서의 Microsoft 365 E5.](safe-docs.md)|
+|**문서에서 파일을 악성으로 식별한 경우에도 금고 보기를 클릭할 수 있도록 허용** <p> _AllowSafeDocsOpen_|해제 <p> `$false`|해제 <p> `$false`|이 설정은 문서 금고 관련이 있습니다.|
 |
 
 #### <a name="safe-attachments-policy-settings"></a>금고 첨부 파일 정책 설정
@@ -296,25 +301,34 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 PowerShell에서는 이러한 설정에 [New-SafeAttachmentPolicy](/powershell/module/exchange/new-safeattachmentpolicy) 및 [Set-SafeAttachmentPolicy](/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용합니다.
 
 > [!NOTE]
-> 앞에서 설명한 대로 첨부 파일 정책의 기본 금고 없습니다. 기본 열의 값은 새로 만드는 첨부 파일 정책의 금고 값입니다.
+> 앞에서 설명한 대로 기본 금고 첨부 파일 정책은 없지만 금고 기본 제공 보호 미리 설정 보안 정책에 따라 모든 받는 사람에게 첨부 파일 보호가 [  할당됩니다.](preset-security-policies.md)
+>
+> 사용자 **지정 열의** 기본값은 새로 만든 첨부 파일 정책의 금고 참조합니다. 나머지 열은 다른 설명이 없는 한 해당 미리 설정한 보안 정책에 구성된 값을 나타냅니다.
 
 <br>
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
-|---|:---:|:---:|:---:|---|
-|**금고 첨부 파일 알 수 없는 맬웨어 응답** <p> _사용_ 및 _작업_|**해제** <p> `-Enable $false` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|_Enable_ 매개 변수가 $false _Action_ 매개 변수의 값은 중요하지 않습니다.|
-|**Quarantine policy** (_QuarantineTag_)|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|새 금고 첨부 파일 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 첨부 파일(AdminOnlyAccessPolicy)에서 금고 메시지에 대한 기록 기능을 정의하는 데 사용됩니다. <p> 관리자는 사용자에 대해 더 많은 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
-|**검색된 첨부 파일이 있는 첨부 파일 리디렉션:** **리디렉션 사용** <p> _리디렉션_ <p> _RedirectAddress_|선택되어 있지 않습니다. 전자 메일 주소가 지정되지 않았습니다. <p> `-Redirect $false` <p> _RedirectAddress가_ 비어 있습니다( `$null` )|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다.|
-|**검사가 금고 수 없는 경우 첨부 파일 검색 응답 적용(시간 제한 또는 오류)** <p> _ActionOnError_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
+|보안 기능 이름|사용자 지정의 기본값|기본 제공 보호|Standard|Strict|Comment|
+|---|:---:|:---:|:---:|:---:|---|
+|**금고 첨부 파일 알 수 없는 맬웨어 응답** <p> _사용_ 및 _작업_|**해제** <p> `-Enable $false` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|**차단** <p> `-Enable $true` 및 `-Action Block`|_Enable_ 매개 변수가 $false _Action_ 매개 변수의 값은 중요하지 않습니다.|
+|**Quarantine policy** (_QuarantineTag_)|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|AdminOnlyAccessPolicy|새 금고 첨부 파일 정책을 만들 때 빈 값은 기본 검역 정책을 사용하여 첨부 파일(AdminOnlyAccessPolicy)에서 금고 메시지에 대한 기록 기능을 정의하는 데 사용됩니다. <p> 관리자는 사용자에 대해 더 많은 기능을 정의하는 사용자 지정 검지 정책을 만들고 선택할 수 있습니다. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.|
+|**검색된 첨부 파일이 있는 첨부 파일 리디렉션:** **리디렉션 사용** <p> _리디렉션_ <p> _RedirectAddress_|선택되어 있지 않습니다. 전자 메일 주소가 지정되지 않았습니다. <p> `-Redirect $false` <p> _RedirectAddress가_ 비어 있습니다( `$null` )|선택되어 있지 않습니다. 전자 메일 주소가 지정되지 않았습니다. <p> `-Redirect $false` <p> _RedirectAddress가_ 비어 있습니다( `$null` )|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|선택되어 있으며 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다. <p> **참고:** 이 설정은 **표준,** 엄격한 또는  기본 제공 보호 미리 설정한 보안 정책에서 구성되지 않습니다. Standard **및** **Strict** 값은  새로 만든 첨부 파일 정책에 금고 권장 값을 나타냅니다.|
+|**검사가 금고 수 없는 경우 첨부 파일 검색 응답 적용(시간 제한 또는 오류)** <p> _ActionOnError_|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
 |
 
 ### <a name="safe-links-settings"></a>금고 링크 설정
 
 금고 Office 365 Defender의 링크에는 활성 금고 링크 정책에 포함된 모든 사용자에게 적용되는 전역 설정과 각 금고 링크 정책과 관련이 있습니다. 자세한 내용은 에 [대한 금고 Defender의 링크를 Office 365.](safe-links.md)
 
+기본 금고 링크 정책은 있지만 기본  제공 보호 미리 설정 보안 정책은 모든 받는 사람(사용자 지정 금고 링크 정책에 정의되지 않은 사용자)에게 금고 링크 보호를 제공합니다. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md)
+
 #### <a name="global-settings-for-safe-links"></a>링크의 전역 금고 설정
+
+> [!NOTE]
+> 금고 링크에 대한 전역 설정은 기본  제공 보호 미리 설정된 보안 정책에 의해 설정되지만 **표준** 또는 **엄격한** 미리 설정된 보안 정책에 의해 설정되지 않습니다. 어느 방법을 사용하든 관리자는 이러한 전역 금고 링크 설정을 수정할 수 있습니다.
+>
+> 기본 **열에는** 기본 제공 보호  미리 설정 보안 정책이 존재하기 전의 값이 표시됩니다. 기본 **제공** 보호 열에는 기본 제공 보호  미리 설정된 보안 정책에 의해 설정된 값이 표시되어 권장 값도 표시됩니다.
 
 이러한 설정을 구성하려면 [Configure global settings for 금고 Links in Defender for Office 365.](configure-global-settings-for-safe-links.md)
 
@@ -324,12 +338,12 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
-|---|:---:|:---:|:---:|---|
-|**다음 URL 차단** <p> _ExcludedUrls_|Blank <p> `$null`|Blank <p> `$null`|Blank <p> `$null`|이 설정에 대한 구체적인 권장은 없습니다. <p> 자세한 내용은 링크에 대한 "다음 URL [차단" 금고 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
-|**앱의 금고 링크 Office 365 사용** <p> _EnableSafeLinksForO365Clients_|켜짐 <p> `$true`|켜짐 <p> `$true`|설정 <p> `$true`|지원되는 금고 데스크톱 및 모바일(iOS 및 Android) 앱에서 Office 365 링크를 사용하세요. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
-|**사용자가 앱의 보호된 링크를 클릭하는 Office 365 추적하지 않습니다.** <p> _TrackClicks_|켜짐 <p> `$false`|해제 <p> `$true`|해제 <p> `$true`|이 설정을 _끄면(TrackClicks를_ 로 설정) 지원되는 앱의 사용자 `$true` 클릭을 Office 365 추적합니다.|
-|**사용자가 앱의 원래 URL을 클릭할 Office 365 안 하세요.** <p> _AllowClickThrough_|켜짐 <p> `$false`|켜짐 <p> `$false`|켜짐 <p> `$false`|이 설정을 _켜면(AllowClickThrough를_ 로 설정) 지원되는 앱의 원래 `$false` URL을 클릭할 Office 365 없습니다.|
+|보안 기능 이름|기본값|기본 제공 보호|Comment|
+|---|:---:|:---:|---|
+|**다음 URL 차단** <p> _ExcludedUrls_|Blank <p> `$null`|Blank <p> `$null`|이 설정에 대한 구체적인 권장은 없습니다. <p> 자세한 내용은 링크에 대한 "다음 URL [차단" 금고 참조하세요.](safe-links.md#block-the-following-urls-list-for-safe-links)
+|**앱의 금고 링크 Office 365 사용** <p> _EnableSafeLinksForO365Clients_|설정 <p> `$true`|켜짐 <p> `$true`|지원되는 금고 데스크톱 및 모바일(iOS 및 Android) 앱에서 Office 365 링크를 사용하세요. 자세한 내용은 금고 앱에 대한 [링크 Office 365 참조하세요.](safe-links.md#safe-links-settings-for-office-365-apps)|
+|**사용자가 앱의 보호된 링크를 클릭하는 Office 365 추적하지 않습니다.** <p> _TrackClicks_|켜짐 <p> `$false`|해제 <p> `$true`|이 설정을 _끄면(TrackClicks를_ 로 설정) 지원되는 앱의 사용자 `$true` 클릭을 Office 365 추적합니다.|
+|**사용자가 앱의 원래 URL을 클릭할 Office 365 안 하세요.** <p> _AllowClickThrough_|설정 <p> `$false`|켜짐 <p> `$false`|이 설정을 _켜면(AllowClickThrough를_ 로 설정) 지원되는 앱의 원래 `$false` URL을 클릭할 Office 365 없습니다.|
 |
 
 #### <a name="safe-links-policy-settings"></a>금고 링크 정책 설정
@@ -339,26 +353,29 @@ PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/modul
 PowerShell에서는 이러한 설정에 [New-SafeLinksPolicy](/powershell/module/exchange/new-safelinkspolicy) 및 [Set-SafeLinksPolicy](/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용합니다.
 
 > [!NOTE]
-> 앞에서 설명한 대로 기본 링크 정책은 금고 없습니다. 기본값 열의 값은 새로 만드는 링크 정책의 기본값입니다금고 링크 정책입니다.
+> 앞에서 설명한 대로 기본 금고 링크 정책은 없지만 금고 기본 제공 보호 미리 설정 보안 정책에 따라 모든 받는 사람에게 링크 보호가 [  할당됩니다.](preset-security-policies.md)
+>
+> 사용자 **지정 열의** 기본값은 새로 만든 링크 금고 기본값을 참조합니다. 나머지 열은 다른 설명이 없는 한 해당 미리 설정한 보안 정책에 구성된 값을 나타냅니다.
 
 <br>
 
 ****
 
-|보안 기능 이름|기본값|Standard|Strict|Comment|
-|---|:---:|:---:|:---:|---|
-|**보호 설정**|||||
-|**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|**해제** <p> `$false`|**설정** <p> `$true`|**설정** <p> `$true`||
-|**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|**해제** <p> `$false`|**설정** <p> `$true`|**켜짐** <p> `$true`||
-|**파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용** <p> _ScanUrls_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
-|**메시지를 배달하기 전에 URL 검색이 완료될 때까지 기다렸다가** <p> _DeliverMessageAfterScan_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
-|**조직 금고 보낸 전자 메일 메시지에 링크 적용** <p> _EnableForInternalSenders_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`||
-|**사용자 클릭 추적 안 하도록 설정** <p> _DoNotTrackUserClicks_|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|이 설정을 _끄면(DoNotTrackUserClicks를_ 로 설정) 사용자 `$false` 클릭이 추적됩니다.|
-|**사용자가 원래 URL을 클릭할 수 없습니다.** <p> _DoNotAllowClickThrough_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|이 _설정(DoNotAllowClickThrough를_ 로 설정)을 설정하면 원래 URL을 클릭할 `$true` 수 없습니다.|
-|**알림 및 경고 페이지에 조직 브랜드 표시** <p> _EnableOrganizationBranding_|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|이 설정에 대한 구체적인 권장은 없습니다. <p> 이 설정을 켜기 전에 조직에서 회사 [](../../admin/setup/customize-your-organization-theme.md) 로고를 업로드할 수 있도록 Microsoft 365 테마 사용자 지정의 지침을 따라야 합니다.|
-|**다음 URL을 다시 덮어치지 않습니다.** <p> _DoNotRewriteUrls_|선택되지 않음 <p> blank|선택되지 않음 <p> blank|선택되지 않음 <p> blank|이 설정에 대한 구체적인 권장은 없습니다. 자세한 내용은 링크 정책의 "다음 URL을 다시 [금고 않습니다." 목록을 참조하세요.](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)|
-|**알림**|||||
-|**사용자에게 어떻게 알리시겠습니까?**|**기본 알림 텍스트 사용**|**기본 알림 텍스트 사용**|**기본 알림 텍스트 사용**|이 설정에 대한 구체적인 권장은 없습니다. <p> 사용자 지정 알림 **텍스트 사용(** _CustomNotificationText)을_ 선택하여 사용할 사용자 지정 알림 텍스트를 입력할 수 있습니다. 자동 지역화에 Microsoft 번역기 사용(UseTranslatedNotificationText)을 선택하여 사용자 지정 알림 텍스트를 사용자 언어로 번역할 수도 있습니다.  
+|보안 기능 이름|사용자 지정의 기본값|기본 제공 보호|Standard|Strict|Comment|
+|---|:---:|:---:|:---:|:---:|---|
+|**보호 설정**||||||
+|**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|**해제** <p> `$false`|**설정** <p> `$true`|**켜짐** <p> `$true`|**켜짐** <p> `$true`||
+|**알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 Microsoft Teams** <p> _EnableSafeLinksForTeams_|**해제** <p> `$false`|**켜짐** <p> `$true`|**설정** <p> `$true`|**켜짐** <p> `$true`||
+|**파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용** <p> _ScanUrls_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
+|**메시지를 배달하기 전에 URL 검색이 완료될 때까지 기다렸다가** <p> _DeliverMessageAfterScan_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
+|**조직 금고 보낸 전자 메일 메시지에 링크 적용** <p> _EnableForInternalSenders_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|선택됨 <p> `$true`||
+|**사용자 클릭 추적 안 하도록 설정** <p> _DoNotTrackUserClicks_|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|이 설정을 _끄면(DoNotTrackUserClicks를_ 로 설정) 사용자 `$false` 클릭이 추적됩니다.|
+|**사용자가 원래 URL을 클릭할 수 없습니다.** <p> _DoNotAllowClickThrough_|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택됨 <p> `$true`|이 _설정(DoNotAllowClickThrough를_ 로 설정)을 설정하면 원래 URL을 클릭할 `$true` 수 없습니다.|
+|**알림 및 경고 페이지에 조직 브랜드 표시** <p> _EnableOrganizationBranding_|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`|이 설정에 대한 구체적인 권장은 없습니다. <p> 이 설정을 켜기 전에 조직에서 회사 [](../../admin/setup/customize-your-organization-theme.md) 로고를 업로드할 수 있도록 Microsoft 365 테마 사용자 지정의 지침을 따라야 합니다.|
+|**URL을 다시 덮어치지 않습니다. 링크 API만 금고 확인** <p> _DisableURLRewrite_|선택되지 않음 <p> `$false`|선택됨 <p> `$true`|선택되지 않음 <p> `$false`|선택되지 않음 <p> `$false`||
+|**다음 URL을 다시 덮어치지 않습니다.** <p> _DoNotRewriteUrls_|선택되지 않음 <p> blank|선택되지 않음 <p> blank|선택되지 않음 <p> blank|선택되지 않음 <p> blank|이 설정에 대한 구체적인 권장은 없습니다. 자세한 내용은 링크 정책의 "다음 URL을 다시 [금고 않습니다." 목록을 참조하세요.](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)|
+|**알림**||||||
+|**사용자에게 어떻게 알리시겠습니까?**|**기본 알림 텍스트 사용**|**기본 알림 텍스트 사용**|**기본 알림 텍스트 사용**|**기본 알림 텍스트 사용**|이 설정에 대한 구체적인 권장은 없습니다. <p> 사용자 지정 알림 **텍스트 사용(** _CustomNotificationText)을_ 선택하여 사용할 사용자 지정 알림 텍스트를 입력할 수 있습니다. 자동 지역화에 Microsoft 번역기 사용(UseTranslatedNotificationText)을 선택하여 사용자 지정 알림 텍스트를 사용자 언어로 번역할 수도 있습니다.  
 |
 
 ## <a name="related-articles"></a>관련 문서

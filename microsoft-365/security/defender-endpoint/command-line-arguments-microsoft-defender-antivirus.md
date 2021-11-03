@@ -16,12 +16,12 @@ ms.date: 05/24/2021
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f377126eb56291f6ea0c43502f42916f8d64adee
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 98831bfff3d38d111c66d16ba150261f8ed148e8
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213124"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60702180"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>명령줄 Microsoft Defender 바이러스 백신 사용하여 mpcmdrun.exe 구성 및 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "60213124"
 의 전용 명령줄 도구를 사용하여 Microsoft Defender 바이러스 백신 다양한 기능을 수행할 **수mpcmdrun.exe.** 이 유틸리티는 모든 작업을 자동화하려는 Microsoft Defender 바이러스 백신 유용합니다. 유틸리티는 에서 찾을 수 `%ProgramFiles%\Windows Defender\MpCmdRun.exe` 있습니다. 명령 프롬프트에서 실행합니다.
 
 > [!TIP]
-> 명령 프롬프트의 관리자 수준 버전을 열 필요가 있을 수 있습니다. 명령 **프롬프트에서** 명령 프롬프트를 시작 메뉴 관리자 권한으로 **실행을 선택 합니다.** 업데이트된 Microsoft Defender 플랫폼 버전을 실행 중인 경우 다음 위치에서 `MpCmdRun` `C:\ProgramData\Microsoft\Windows Defender\Platform\<antimalware platform version>` 실행합니다. . 맬웨어 방지 플랫폼에 대한 자세한 내용은 Microsoft Defender 바이러스 백신 [및 기준을 참조하세요.](manage-updates-baselines-microsoft-defender-antivirus.md)
+> 명령 프롬프트의 관리자 수준 버전을 열 필요가 있을 수 있습니다. 명령 **프롬프트에서** 명령 프롬프트를 시작 메뉴 관리자 권한으로 **실행을 선택 합니다.** 업데이트된 Microsoft Defender 맬웨어 방지 플랫폼 버전을 실행하는 경우 다음 위치에서 `MpCmdRun` `C:\ProgramData\Microsoft\Windows Defender\Platform\<antimalware platform version>` 실행합니다. . 맬웨어 방지 플랫폼에 대한 자세한 내용은 Microsoft Defender 바이러스 백신 [및 기준을 참조하세요.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
 MpCmdRun 유틸리티는 다음 구문을 사용 합니다.
 

@@ -22,18 +22,18 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: bfe3718a6e8c82c516a395e2d2c7f43d21ceda04
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3bce20b1b86ea569014313f345bcf7e4f6dd2cc0
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196672"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724323"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. 이 사이트는 사이트 포털 https://security.microsoft.com/securescore [에서 Microsoft 365 Defender 있습니다.](overview-security-center.md)
+Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. 이 사이트는 사이트 포털 https://security.microsoft.com/securescore [에서 Microsoft 365 Defender 있습니다.](microsoft-365-defender.md#the-microsoft-365-defender-portal)
 
 Secure Score 권장 사항을 따르면 조직을 위협으로부터 지킬 수 있습니다. 조직은 Microsoft 365 Defender 포털의 중앙 집중식 대시보드에서 ID, 앱 및 Microsoft 365 보안에 대해 모니터링하고 작업할 수 있습니다.
 
@@ -47,7 +47,7 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 
 ![보안 점수 홈페이지입니다.](../../media/secure-score/secure-score-home-page.png)
 
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방법
 
 다음 작업에 대한 포인트가 부여됩니다.
 

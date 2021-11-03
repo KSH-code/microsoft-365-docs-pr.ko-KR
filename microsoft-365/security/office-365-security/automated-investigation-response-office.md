@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e421f29ec1723ad724c64991e67bd0da31bb35b6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 36662f61c27019046780ce1f7b5290d280eba7fe
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60202492"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60704078"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 자동화된 조사 및 대응이 작동하는 Office 365
 
@@ -77,7 +77,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 ## <a name="example-a-security-administrator-triggers-an-investigation-from-threat-explorer"></a>예: 보안 관리자가 위협 탐색기에서 조사를 트리거합니다.
 
-경고에 의해 트리거되는 자동화된 조사 외에도 조직의 보안 운영 팀은 위협 탐색기 의 보기에서 자동화된 조사를 트리거할 [수 있습니다.](threat-explorer.md)  또한 이 조사는 Microsoft Defender 인시던트 및 외부 SIEM 도구에서 이 조사가 트리거된 것으로 볼 수 있도록 경고를 생성합니다.
+경고에 의해 트리거되는 자동화된 조사 외에도 조직의 보안 운영 팀은 위협 탐색기 의 보기에서 자동화된 조사를 트리거할 [수 있습니다.](threat-explorer.md)  또한 이 조사는 Microsoft 365 Defender 및 외부 SIEM 도구에서 이 조사가 트리거된 것으로 볼 수 있도록 경고를 생성합니다.
 
 예를 들어 탐색기에서 맬웨어 **보기를 사용하고 있는** 경우를 가정해 보겠습니다. 차트 아래의 탭을 사용하여 전자 메일 **탭을** 선택합니다. 목록에서 항목을 하나 이상 선택하면 **+ 작업** 단추가 활성화됩니다.
 

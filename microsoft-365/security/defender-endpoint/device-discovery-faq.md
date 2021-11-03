@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 9b1bf2d20bb9f2084abadbc164bb668c3ebf174f
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 185de1d39f6d10f84ab5409772dbf0c1193544e7
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555995"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701084"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
@@ -95,7 +95,7 @@ ms.locfileid: "60555995"
  보안 권장 및 대시보드 위젯은 네트워크에서 안정된 디바이스에 사용됩니다. 비정기 장치, 게스트 장치 및 기타 제외 이 아이디어는 조직의 전체 보안 점수를 의미하는 영구 장치에 권장하는 것입니다.
 
 ## <a name="can-i-onboard-unmanaged-devices-that-were-found"></a>찾은 관리되지 않는 장치를 온보드할 수 있나요?
- 예. 네트워크에서 관리되지 않는 끝점은 네트워크에 취약성 및 위험을 도입합니다. 서비스를 온보더링하면 서비스에 대한 보안 가시성을 강화할 수 있습니다. 
+ 예. 관리되지 않는 장치를 수동으로 온보드할 수 있습니다. 네트워크에서 관리되지 않는 끝점은 네트워크에 취약성 및 위험을 도입합니다. 서비스를 온보더링하면 서비스에 대한 보안 가시성을 강화할 수 있습니다. 
 
 ## <a name="ive-noticed-that-unmanaged-device-health-state-is-always-active-why-is-that"></a>관리되지 않는 장치 상태는 항상 "활성"입니다. 그 이유는 무엇입니까?
 일시적으로 관리되지 않는 장치 상태는 실제 상태와 관계없이 장치 인벤토리의 표준 보존 기간 동안 "활성"입니다.

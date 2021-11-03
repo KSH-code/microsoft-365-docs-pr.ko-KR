@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다.
-ms.openlocfilehash: 1c3dc7f06a8fbb214ffc12bcf506da7df4c0422a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 071b89bf941bf1c572dc90e9befe6d6c29b33bc5
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191386"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724718"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>보안 팀이 집에서 작업할 수 있는 상위 12개 작업
 
@@ -46,7 +46,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 |1|[Azure AD MFA(다단계 인증) 사용](#1-enable-azure-ad-multi-factor-authentication-mfa)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[위협으로부터 보호](#2-protect-against-threats)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3 |[Microsoft Defender for Office 365](#3-configure-microsoft-defender-for-office-365)|||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|4 |[ID에 맞게 Microsoft Defender 구성](#4-configure-microsoft-defender-for-identity)|||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|4|[ID에 맞게 Microsoft Defender 구성](#4-configure-microsoft-defender-for-identity)|||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5|[Microsoft 365 Defender 켜기](#5-turn-on-microsoft-365-defender)|||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[휴대폰 및 태블릿에 대한 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[Intune 앱 보호를 포함하여 게스트에 대한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -244,8 +244,7 @@ Microsoft 365 조직의 사용자에게 알리는 데 도움이 되는 다음 �
 
 Microsoft 365 상태를 모니터링하고 적절한 조치를 취하는 여러 가지 방법이 포함되어 있습니다. 가장 좋은 시작 지점은 조직의 Microsoft 보안 점수와 주의가 필요한 모든 경고 또는 엔터티를 볼 수 있는 Microsoft 365 보안 센터( [https://security.microsoft.com](https://security.microsoft.com) )입니다. [](./defender/microsoft-secure-score.md)
 
-- [보안 센터 Microsoft 365 시작](./defender/overview-security-center.md)
-- [보고서 모니터링 및 보기](./defender/overview-security-center.md)
+- [사이트 포털 Microsoft 365 Defender 시작](./defender/microsoft-365-defender.md#the-microsoft-365-defender-portal)
 - [보안 포털을 Microsoft 365](./defender/portals.md)
 
 ## <a name="next-steps"></a>다음 단계

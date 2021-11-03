@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f771837dd40bc8a3fbaebeac060c10259395c3fc
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 30a0e3b61e004ffe6c78e3b7a2d15b7b190253d9
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/03/2021
-ms.locfileid: "60699068"
+ms.locfileid: "60724658"
 ---
 # <a name="redirecting-accounts-from-microsoft-defender-for-endpoint-to-microsoft-365-defender"></a>끝점용 Microsoft Defender에서 계정으로 Microsoft 365 Defender
 
@@ -114,7 +114,7 @@ If something isn't working for you or if there's anything you're unable to compl
 사용하지 않도록 설정하면 계정이 더 이상 security.microsoft.com 라우팅되지 않습니다. securitycenter.windows.com 또는 이전 포털에 다시 securitycenter.microsoft.com. 
 
 ## <a name="related-information"></a>관련 정보
-- [Microsoft 365 Defender 개요](overview-security-center.md)
+- [Microsoft 365 Defender 개요](microsoft-365-defender.md)
 - [Microsoft Defender for Endpoint in Microsoft 365 Defender](microsoft-365-security-center-mde.md)
 - [Microsoft는 보안 운영을 현대화하기 위해 통합 SIEM 및 XDR을 제공합니다.](https://www.microsoft.com/security/blog/?p=91813) 
 - [XDR 및 SIEM 인포그래픽](https://afrait.com/blog/xdr-versus-siem/) 

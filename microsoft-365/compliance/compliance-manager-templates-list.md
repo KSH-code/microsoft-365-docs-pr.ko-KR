@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 국가, 지역 및 산업 규정, 표준 및 법률에 부합하는 평가를 구축하기 위한 템플릿을 제공합니다.
-ms.openlocfilehash: 858442e54277c32c6510d211f225f73feaf7c4d3
-ms.sourcegitcommit: 3260d47a29c35e90ed7b1d14d400b39baa741873
+ms.openlocfilehash: 4201dac3b83c73dd61f39a01f7ba2d98b6207bc4
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462216"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60700868"
 ---
 # <a name="compliance-manager-templates-list"></a>준수 관리자 서식 파일 목록
 
@@ -56,6 +56,21 @@ ms.locfileid: "60462216"
 
 > [!NOTE]
 > 미국 정부 Community(GCC) 보통, GCC High 및 DoD(국방부) 고객의 경우: 위에 나열된 템플릿 외에도 CMMC(Cybersecurity Maturity Model Certification) 수준 1 ~5 템플릿이 포함됩니다.
+
+## <a name="preview-templates"></a>미리 보기 서식 파일
+
+이러한 템플릿은 현재 미리 보기에 사용할 수 있습니다. 이러한 템플릿을 사용하여 평가를 만들면 사용된 라이선스 템플릿의 총 수에 계산되지 않습니다.
+
+- AZURE용 ISO 27001:2013(미리 보기)
+- Dynamics 365용 ISO 27001:2013(미리 보기)
+- Dynamics 365용 FedRAMP Moderate(미리 보기)
+- Azure용 FedRAMP Moderate(미리 보기)
+- Azure용 FedRAMP High(미리 보기)
+- Dynamics 365용 FedRAMP High(미리 보기)
+- AZURE용 SOC 2(미리 보기)
+- Dynamics 365용 SOC 2(미리 보기)
+- AZURE용 ISO 27018:2019(미리 보기)
+- Dynamics 365용 ISO 27018:2019(미리 보기)
 
 ## <a name="premium-templates"></a>Premium 서식 파일
 

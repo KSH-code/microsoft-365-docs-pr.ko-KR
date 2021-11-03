@@ -19,12 +19,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: bf1c7d2e47ef64e1c44744988f33a69898cfd412
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 690e4bf115ba4565a65b0414a763530627a03bbc
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209084"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724455"
 ---
 # <a name="microsoft-defender-for-endpoint-in-microsoft-365-defender"></a>Microsoft Defender for Endpoint in <DICT__Microsoft⚐365⚐Defender>Microsoft 365 Defender</DICT__Microsoft⚐365⚐Defender>
 
@@ -44,7 +44,7 @@ ms.locfileid: "60209084"
 
 | Microsoft Defender 보안 센터 | Microsoft 365 Defender |
 |---------|---------|
-| 대시보드 <ul><li>보안 운영</li><li>위협 분석</li></ul>  |홈 <ul><li>위협 분석</li></ul>   |
+| 대시보드 <ul><li>보안 운영</li><li>위협 분석</li></ul>  |Home <ul><li>위협 분석</li></ul>   |
 | 인시던트 | 인시던트 및 경고 |
 | 장치 인벤토리 | 장치 인벤토리 |
 | 경고 큐 | 인시던트 및 경고 |
@@ -57,7 +57,7 @@ ms.locfileid: "60209084"
 | 구성 관리 | 구성 관리 |
 | 설정 | 설정 | 
 
-향상된 Microsoft 365 Defender [](overview-security-center.md) 기능은 전자 메일, 공동 작업, ID 및 장치 위협을 보호, 감지, 조사 및 대응하는 [https://security.microsoft.com](https://security.microsoft.com) 보안 기능을 결합합니다. 이를 통해 보안 및 규정 준수 센터를 비롯한 기존 Microsoft Microsoft Defender 보안 센터 기능을 Office 365 & 있습니다.
+향상된 Microsoft 365 Defender [](microsoft-365-defender.md#the-microsoft-365-defender-portal) 기능은 전자 메일, 공동 작업, ID 및 장치 위협을 보호, 감지, 조사 및 대응하는 [https://security.microsoft.com](https://security.microsoft.com) 보안 기능을 결합합니다. 이를 통해 보안 및 규정 준수 센터를 비롯한 기존 Microsoft Microsoft Defender 보안 센터 기능을 Office 365 & 있습니다.
 
 이 문서의 내용에 익숙한 Microsoft Defender 보안 센터 이 문서는 사용자 관리의 일부 변경 및 개선 Microsoft 365 Defender. 그러나 인식해야 할 몇 가지 새 요소와 업데이트된 요소가 있습니다.
 
@@ -77,7 +77,7 @@ Microsoft Defender for Endpoint Microsoft 365 Defender Microsoft Defender 보안
 
 다음을 [https://security.microsoft.com](https://security.microsoft.com) Microsoft 365 Defender.
 
-이점에 대한 자세한 내용은 [Overview of Microsoft 365 Defender](overview-security-center.md)
+이점에 대한 자세한 내용은 [Overview of Microsoft 365 Defender](microsoft-365-defender.md)
 
 ## <a name="whats-changed"></a>변경된 기능
 
@@ -182,6 +182,6 @@ Endpoint용 Defender에 대한 전자 메일 알림을 계속 사용할 수 있�
 
 ## <a name="related-information"></a>관련 정보
 
-- [Microsoft 365 Defender](overview-security-center.md)
+- [Microsoft 365 Defender](microsoft-365-defender.md)
 - [Microsoft Defender for Endpoint in Microsoft 365 Defender](microsoft-365-security-center-mde.md)
 - [끝점용 Microsoft Defender에서 계정으로 Microsoft 365 Defender](microsoft-365-security-mde-redirection.md)

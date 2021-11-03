@@ -20,12 +20,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 ms.technology: m365d
-ms.openlocfilehash: 92542fdeebd5e6bbfebd075b178a0c22b08f186e
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 3126523fd68afba29e3401533f7de2313f7df65b
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587764"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724766"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>2013에서 경고 Microsoft 365 Defender
 
@@ -100,7 +100,7 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 알림과 
 경고 페이지 전체에서 모든 엔터티 옆에 있는 타원(**...**)을 선택하여 경고 페이지를 열거나 경고를 다른 인시던트에 연결하는 등의 사용 가능한 작업을 볼 수 있습니다.
 
 ### <a name="alert-sources"></a>경고 원본
-Microsoft 365 Defender 경고는 Microsoft Defender for Endpoint, Microsoft Defender for Office 365 및 Microsoft Cloud App Security. 경고에 미리 문자가 있는 경고가 표시될 수 있습니다. 다음 표에서는 경고에 추가된 문자를 기반으로 경고 원본의 매핑을 이해하는 데 도움이 되는 지침을 제공합니다.
+Microsoft 365 Defender 경고는 Microsoft Defender for Endpoint, Office 365, Microsoft Cloud App Security 및 앱 관리용 앱 거버넌스 추가 기능과 같은 솔루션에서 Microsoft Cloud App Security. 경고에 미리 문자가 있는 경고가 표시될 수 있습니다. 다음 표에서는 경고에 추가된 문자를 기반으로 경고 원본의 매핑을 이해하는 데 도움이 되는 지침을 제공합니다.
 
 > [!NOTE]
 > - 추가된 GUID는 통합 경고 큐, 통합 알림 페이지, 통합 조사 및 통합 인시던트와 같은 통합 환경 전용입니다.<br>
@@ -112,7 +112,7 @@ Microsoft 365 Defender 경고는 Microsoft Defender for Endpoint, Microsoft Defe
 Office 365용 Microsoft Defender | `fa{GUID}` <br> 예: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
 엔드포인트용 Microsoft Defender | `da` 또는 `ed` 사용자 지정 검색 경고용 <br> 
 ID용 Microsoft Defender | `aa{GUID}` <br> 예: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
-Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft 클라우드 앱 보안 |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 ### <a name="analyze-affected-assets"></a>영향을 받는 자산 분석
 
@@ -171,6 +171,32 @@ Microsoft Cloud App Security |`ca{GUID}` <br> 예: `ca123a456b-c789-1d2e-12f1g33
 경고 분석이 완료되고 해결할 수 있는 경우 경고에  대한 경고 관리 창으로 이동하여 경고 상태를 **해결된** 것으로 표시하고 **False** 경고 또는 True 경고로 **분류합니다.** 실제 경고의 경우 결정 필드에 경고의 위협 유형을 **지정합니다.**
 
 경고를 분류하고 결정 값을 지정하면 경고를 Microsoft 365 Defender 보다 실제 경고와 거짓 경고를 줄이면 경고를 조정할 수 있습니다.
+
+## <a name="use-power-automate-to-triage-alerts"></a>경고 Power Automate 사용하여 경고를 선보이기
+
+최신 보안 운영(SecOps) 팀은 효율적으로 작동하려면 자동화가 필요합니다. SecOps 팀은 실제 위협을 헌팅하고 조사하는 데 집중하기 위해 Power Automate 목록을 조사하고 위협이 아닌 경고 목록을 제거합니다.  
+
+### <a name="criteria-for-resolving-alerts"></a>경고를 해소하기 위한 조건
+
+- 사용자에게 부재 중 메시지가 켜져 있습니다.
+
+- 사용자가 높은 위험으로 태그가 지정되지 않습니다.
+
+둘 다 참이면 SecOps는 경고를 합법적인 출장으로 표시하고 해결합니다. 알림이 해결된 Microsoft Teams 게시됩니다. 
+
+### <a name="connect-power-automate-to-microsoft-cloud-app-security"></a>커넥트 Power Automate Microsoft Cloud App Security
+
+자동화를 만들기 위해 API 토큰이 필요하면 API 토큰을 Power Automate 수 Microsoft Cloud App Security. 
+
+1. 다음 **설정** 를 클릭하고 보안 확장을  **선택한** 다음 API 토큰 탭에서 토큰 **추가를** 클릭합니다. 
+
+2. 토큰의 이름을 입력한 다음 생성을 **클릭합니다.** 나중에 필요할 때 토큰을 저장합니다.
+
+### <a name="create-an-automated-flow"></a>자동화된 흐름 만들기
+
+자세한 단계별 프로세스는 여기에서 비디오를 [참조하세요.](https://www.microsoft.com/en-us/videoplayer/embed/RWFIRn) 
+
+또한 이 비디오에서는 전원 자동화를 연결하여 전원을 연결하는 Cloud App Security. 
 
 ## <a name="next-steps"></a>다음 단계
 

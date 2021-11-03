@@ -18,22 +18,22 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가 템플릿을 확장하여 컨트롤을 추가하고 수정하는 방법을 이해합니다.
-ms.openlocfilehash: 4618c085228c44e3af1aa0b3de9c3b1ebd63424c
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: d47488f578436b1ea8bd865855d681d8778d07bd
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60336062"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703072"
 ---
 # <a name="extend-assessment-templates-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자에서 평가 템플릿 확장
 
 준수 관리자는 기존 템플릿에 자체 컨트롤 및 개선 작업을 추가하는 옵션을 제공합니다. 이 프로세스를 템플릿 확장이라고 합니다.
 
-템플릿을 확장하려면 평가 템플릿 또는 유니버설 평가 템플릿을 확장하는지 여부에 따라 템플릿 데이터를 Microsoft 365 특별한 지침을 사용하게 됩니다.
+템플릿을 확장하려면 Microsoft 평가 템플릿을 확장하는지 또는 유니버설 평가 템플릿을 확장하는지 여부에 따라 템플릿 데이터를 수정하는 데 특별한 지침을 사용하게 됩니다.
 
-## <a name="extend-microsoft-365-assessment-templates"></a>평가 Microsoft 365 확장
+## <a name="extend-microsoft-assessment-templates"></a>Microsoft 평가 템플릿 확장
 
-Microsoft 365 템플릿을 확장하는 경우 Microsoft에서 릴리스한 업데이트를 받을 수 있습니다. 이 업데이트는 관련 규정 또는 제품이 변경될 때 수행될 수 [있습니다(평가에](compliance-manager-assessments.md#accept-updates-to-assessments)대한 업데이트 수락 참조).
+Microsoft 템플릿을 확장하는 경우(예: Microsoft에서 사용할 수 Microsoft 365 Microsoft에서 릴리스된 업데이트를 받을 수 있습니다. 관련 규정 또는 제품이 변경될 때 업데이트가 수행될 [수 있습니다(평가에 대한](compliance-manager-assessments.md#accept-updates-to-assessments)업데이트 수락 참조).
 
 ### <a name="prepare-template-data-and-create-extension"></a>서식 파일 데이터 준비 및 확장 만들기
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 74656a9f79fba0e81afcb9db207c83162b2dfd81
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 930d9fc489e449effcb61c3224f5695ec835a1a1
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176580"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724706"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -46,7 +46,11 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 - [ID용 Microsoft Defender의 새로운](/defender-for-identity/whats-new)
 - [새로운 Microsoft Cloud App Security](/cloud-app-security/release-notes)
 
+## <a name="november-2021"></a>2021년 11월
+- (미리 보기) 클라우드 앱용 Defender에 대한 응용 프로그램 거버넌스 추가 기능 기능은 이제 클라우드 앱에서 사용할 Microsoft 365 Defender. 앱 거버넌스는 Microsoft 앱 API를 통해 Microsoft 365 액세스하는 OAuth 사용 앱을 위해 설계된 보안 Graph 관리 기능을 제공합니다. 애플리케이션 거버넌스는 실행 가능한 인사이트와 자동화된 정책 경고 및 작업을 통해 이러한 애플리케이션과 사용자가 Microsoft 365에 저장된 중요 데이터에 액세스, 사용 및 공유하는 방법에 대한 완벽한 가시성, 문제 해결 및 거버넌스를 제공합니다. [응용 프로그램 거버넌스에 대해 자세히 알아보시다.](/cloud-app-security/app-governance-manage-app-governance)
 
+## <a name="october-2021"></a>2021년 10월
+- (GA) 고급 헌팅에서는 [CloudAppEvents](advanced-hunting-cloudappevents-table.md) 테이블에 더 많은 열이 추가되었습니다. 이제 `AccountType` 쿼리에 `IsExternalUser` , `IsImpersonated` , , , `IPTags` , `IPCategory` `UserAgentTags` 를 추가할 수 있습니다. 
 
 ## <a name="september-2021"></a>2021년 9월
 - (GA) Microsoft Defender for Office 365 이벤트 데이터는 Microsoft 365 Defender 스트리밍 API에서 사용할 수 있습니다. 스트리밍 API의 Supported Microsoft 365 Defender 이벤트 유형에서 이벤트 [유형의 가용성과 상태를](supported-event-types.md)확인할 수 있습니다.
@@ -78,7 +82,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 
 
 ## <a name="april-2021"></a>2021년 4월
-- Microsoft 365 Defender<br> 이제 [향상된](https://security.microsoft.com) Microsoft 365 Defender 포털을 사용할 수 있습니다. 이 새로운 환경은 Endpoint용 Defender, Office 365, ID용 Defender 등 여러 정보를 단일 포털로 통합합니다. 보안 제어를 관리하는 새로운 홈입니다. [새로운 기능에 대해 알아보세요](./overview-security-center.md).
+- Microsoft 365 Defender<br> 이제 [향상된](https://security.microsoft.com) Microsoft 365 Defender 포털을 사용할 수 있습니다. 이 새로운 환경은 Endpoint용 Defender, Office 365, ID용 Defender 등 여러 정보를 단일 포털로 통합합니다. 보안 제어를 관리하는 새로운 홈입니다. [새로운 기능에 대해 알아보세요](./microsoft-365-defender.md#the-microsoft-365-defender-portal).
 
 - [Microsoft 365 Defender 위협 분석 보고서](threat-analytics.md)<br>
  위협 분석을 사용하면 활성 공격에 대응하고 영향을 최소화할 수 있습니다. 또한 솔루션 솔루션에 의해 차단되는 공격 시도에 대해 Microsoft 365 Defender 추가 노출 및 탄력성 증가 위험을 완화하는 예방 조치를 취할 수 있습니다. 통합 보안 환경의 일부로, 이제 Microsoft Defender for Endpoint 및 Microsoft Defender for Office 사용할 수 있습니다.
@@ -86,5 +90,5 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="march-2021"></a>2021년 3월
 - [CloudAppEvents 테이블](advanced-hunting-cloudappevents-table.md) <br>다양한 클라우드 앱 및 서비스에서 이벤트에 대한 정보를 Microsoft Cloud App Security. 이 표에는 이전에 표에 제공된 정보도 `AppFileEvents` 포함되어 있습니다.
 ## <a name="february-2021"></a>2021년 2월
-- (미리 보기) 향상된 Microsoft 365 Defender [ https://security.microsoft.com) 포털(이제](https://security.microsoft.com) 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 끝점용 Defender와 중앙에 Office 365 Defender를 제공합니다. [변경 사항에 대한 자세한 정보](./overview-security-center.md).
+- (미리 보기) 향상된 Microsoft 365 Defender [ https://security.microsoft.com) 포털(이제](https://security.microsoft.com) 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 끝점용 Defender와 중앙에 Office 365 Defender를 제공합니다. [변경 사항에 대한 자세한 정보](microsoft-365-defender.md#the-microsoft-365-defender-portal).
 - **[(미리 보기) Microsoft 365 Defender](api-overview.md)** API - 최상위 Microsoft 365 Defender API를 사용하면 공유 인시던트 및 고급 헌팅 테이블을 기반으로 워크플로를 자동화할 수 있습니다. 

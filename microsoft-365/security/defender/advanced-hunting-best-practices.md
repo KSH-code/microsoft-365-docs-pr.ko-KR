@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 44f7ebba62f4c21ab3ad4cb55f0ca70302857d33
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 171364d447b2b160f40888b4b6132a7f1630391b
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206700"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60705366"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -254,7 +252,7 @@ SHA256,ThreatTypes,DetectionMethods
 ### <a name="parse-strings"></a>문자열 구문 분석
 구문 분석 또는 변환이 필요한 문자열을 효율적으로 처리하는 데 사용할 수 있는 다양한 함수가 있습니다.
 
-| String | 함수 | 사용 예제 |
+| 문자열 | 함수 | 사용 예제 |
 |--|--|--|
 | 명령줄 | [parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) | 명령과 모든 인수를 추출합니다. |
 | 경로 | [parse_path()](/azure/data-explorer/kusto/query/parsepathfunction) | 파일 또는 폴더 경로의 섹션을 추출합니다. |

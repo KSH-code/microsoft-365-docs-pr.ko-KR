@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f2fe77b6c1760ac4f25031dc78fbd5e0a259f0f8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9946482f9ce5ac268255acd43f7929710a8a9bbd
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212465"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724670"
 ---
 # <a name="get-started-with-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 시작(미리 보기)
 
@@ -77,7 +77,7 @@ Microsoft 365 Defender 포털()에서는 알림을 보고, 장치를 관리하�
 | **상태**  >  **서비스 상태** | 에서 서비스 상태 페이지로 Microsoft 365 관리 센터. 이 페이지에서는 조직의 구독에서 사용할 수 있는 모든 서비스에서 상태를 볼 수 있습니다.   |
 | **상태**  >  **메시지 센터** | 메시지 센터의 메시지 센터로 Microsoft 365 관리 센터. 메시지 센터에서는 계획된 변경 내용에 대한 정보를 제공합니다. 각 메시지는 출시 예정 내용, 사용자에게 미칠 수 있는 영향 및 변경 내용을 관리하는 방법에 대해 설명합니다. |  
 | **역할에 & 사용 권한** | 사이트 포털 사용 권한을 부여할 Microsoft 365 Defender 있습니다. 사용 권한은 Azure AD(Azure AD)의 역할을 Azure Active Directory 부여됩니다. 역할을 선택하면 플라이아웃 창이 나타납니다. 플라이아웃에는 역할 그룹의 구성원을 추가하거나 제거할 수 있는 Azure AD에 대한 링크가 포함되어 있습니다. <br/><br/> 자세한 내용은 역할 기반 액세스 제어를 사용하여 포털 액세스 [관리를 참조합니다.](rbac.md)  |
-| **설정** | 보안 센터로 나열된 Microsoft 365 Defender 포털에 대한 일반 설정 및 끝점용 Defender(끝점으로 **나열)로 이동합니다.** <br/><br/> 자세한 내용은 [를](../defender/overview-security-center.md)설정. |
+| **설정** | 보안 센터로 나열된 Microsoft 365 Defender 포털에 대한 일반 설정 및 끝점용 Defender(끝점으로 **나열)로 이동합니다.** <br/><br/> 자세한 내용은 [를](../defender/microsoft-365-defender.md#the-microsoft-365-defender-portal)설정. |
 | **추가 리소스** | 추가 포털 및 센터 목록(예: Azure Active Directory 및 Microsoft 365 규정 준수 센터. <br/><br/> 자세한 내용은 Microsoft 보안 포털 [및 관리 센터를 참조하세요.](../defender/portals.md) |
 
 > [!TIP]

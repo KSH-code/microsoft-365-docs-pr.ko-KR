@@ -19,31 +19,31 @@ ms.collection:
 recommendations: false
 description: DLP 정책 구성 요소 및 구성 참조
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: d5b4c4f99d146ceff683a4fbf6dcb36018d40a16
-ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
+ms.openlocfilehash: ebf088126b89a94dbae2def79ec9dcc380627b75
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60264774"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60702776"
 ---
 # <a name="data-loss-prevention-policy-reference"></a>데이터 손실 방지 정책 참조
 
-DLP(데이터 손실 방지) 정책에는 구성할 수 있는 많은 구성 요소가 있습니다. 효과적인 정책을 만들 수 있도록 각 구성 요소의 용도와 구성으로 정책의 동작을 변경하는 방법을 이해해야 합니다. 이 문서에서는 DLP 정책에 대한 자세한 설명을 제공 합니다.
+DLP(데이터 손실 방지) 정책에는 구성할 구성 요소가 많이 있습니다. 효과적인 정책을 만들 수 있도록 각 구성 요소의 용도와 구성으로 정책의 동작을 변경하는 방법을 이해해야 합니다. 이 문서에서는 DLP 정책에 대한 자세한 설명을 제공 합니다.
 
 ## <a name="policy-templates"></a>정책 템플릿 
 
 DLP 정책 템플릿은 다음 네 가지 범주로 미리 정렬됩니다.
 
-- 재무 정보 유형을 감지하고 보호할 **수 있는 정보**
-- 의료 및 건강 정보 유형을 감지하고 보호할 **수 있는 정보**
-- 개인 정보 유형을 검색하고 보호할 **수 있는** 정보 보호
+- 재무 정보 유형을 검색하고 보호할 **수 있는 정보입니다.**
+- 의료 및 건강 정보 유형을 감지하고 **보호할 수 있는 정보입니다.**
+- 개인 정보 유형을 검색하고 보호할 **수 있는 정보입니다.**
 - 다른 **사용자 지정** 템플릿 중 하나에서 조직의 요구 사항을 충족하지 않는 경우 자체 정책을 빌드하는 데 사용할 수 있는 사용자 지정 템플릿입니다.
 
 이 표에는 모든 정책 템플릿 및 해당 템플릿이 다루는 SIT(중요한 정보 유형)가 나열됩니다. 
 
-2021년 6월 23일 현재
+업데이트 날짜: 2021년 6월 23일
 
-|범주| 서식 파일 | SIT |
+|Category| 서식 파일 | SIT |
 |---------|---------|---------|
 |금융| 호주 재무 데이터| - [SWIFT 코드](sensitive-information-type-entity-definitions.md#swift-code) </br> - [오스트레일리아 세금 파일 번호](sensitive-information-type-entity-definitions.md#australia-tax-file-number) </br> - [호주 은행 계좌 번호](sensitive-information-type-entity-definitions.md#australia-bank-account-number) </br> - [신용 카드 번호](sensitive-information-type-entity-definitions.md#credit-card-number)|
 |금융| 캐나다 재무 데이터 |- [신용 카드 번호](sensitive-information-type-entity-definitions.md#credit-card-number) </br> -  [캐나다 은행 계좌 번호](sensitive-information-type-entity-definitions.md#canada-bank-account-number)|
@@ -97,12 +97,7 @@ DLP 정책 템플릿은 다음 네 가지 범주로 미리 정렬됩니다.
 |개인 정보| 미국 개인 정보 침해 고지법|- [신용 카드 번호](sensitive-information-type-entity-definitions.md#credit-card-number) </br> - [미국 은행 계좌 번호](sensitive-information-type-entity-definitions.md#us-bank-account-number)</br> -[미국 운전 면허 번호](sensitive-information-type-entity-definitions.md#us-drivers-license-number) </br> - [미국 SSN(사회 보장 번호)](sensitive-information-type-entity-definitions.md#us-social-security-number-ssn)|
 |개인 정보| 미국 사회 보장 번호 기밀 유지법|- [미국 SSN(사회 보장 번호)](sensitive-information-type-entity-definitions.md#us-social-security-number-ssn)| 
 
-
-
 ## <a name="locations"></a>위치
-
-<!--This section covers a mapping of data-at-rest, data-in-use, and data-in-motion to the locations/workloads. It introduces the idea that the options that are selected here have a direct impact on the UI that they will encounter further along in the policy creation/edit flow. It will also cover the dependencies between locations (eg. Teams chat and channel requires SharePoint and ODB). It will also include the impact of the different scope settings. eg. If you want the policy to be applied to DEF, but not HIJ, you should configure your include/exclude scopes like this......--> 
-
 
 DLP 정책은 여러 위치에서 중요한 정보가 포함된 항목을 찾아 보호할 수 있습니다.
 
@@ -125,25 +120,23 @@ Exchange에서 특정 메일 그룹을 포함하도록 선택하는 경우 DLP �
 
 ### <a name="location-support-for-how-content-can-be-defined"></a>콘텐츠를 정의하는 방법에 대한 위치 지원
 
-DLP 정책은 중요한 항목을 SIT(중요한 정보 유형), 민감도 레이블 또는 보존 레이블에 일치하여 검색합니다. 각 위치는 중요한 콘텐츠를 정의하는 다양한 방법을 지원합니다. 또한 정책에서 위치를 결합할 때 콘텐츠를 정의할 수 있는 방식은 단일 위치에서 콘텐츠를 정의하는 방법과 다를 수 있습니다. 
+DLP 정책은 중요한 항목을 SIT(중요한 정보 유형) 또는 민감도 레이블 또는 보존 레이블에 일치하여 검색합니다. 각 위치는 중요한 콘텐츠를 정의하는 다양한 방법을 지원합니다. 정책에서 위치를 결합하면 콘텐츠를 정의할 수 있는 방식이 단일 위치에서 콘텐츠를 정의하는 방법과 다를 수 있습니다. 
 
 > [!IMPORTANT]
 > 정책에 대해 여러 위치를 선택하면 콘텐츠 정의 범주에 대한 "아니요" 값이 "yes" 값보다 우선합니다. 예를 들어 사이트만 SharePoint 경우 정책은 SIT 중 하나 이상, 민감도 레이블 또는 보존 레이블에 따라 중요한 항목 검색을 지원합니다. 그러나 사이트 및 SharePoint 채팅  Teams 메시지 위치를 선택할 경우 정책은 SIT를 통해 중요한 항목 검색만 지원합니다. 
 
-|위치|  SIT를 통해 콘텐츠를 정의할 수 있습니다.|  콘텐츠는 민감도 레이블을 정의할 수 있습니다.|   콘텐츠를 보존 레이블로 정의할 수 있습니다.|
+|위치|  SIT를 통해 콘텐츠를 정의할 수 있습니다.|  콘텐츠는 민감도 레이블을 정의할 수 있습니다.|   콘텐츠는 보존 레이블로 정의할 수 있습니다.|
 |---------|---------|---------|---------|
 |Exchange 전자 메일 보내기|예| 예|    아니요|
 |SharePoint 사이트|   예|    예|    예|
 |비즈니스용 OneDrive 계정|    예|    예|    예|
 |Teams 채팅 및 채널 메시지 |  예|    아니요| 아니요|
 |디바이스    |예 |  예|    아니요|
-|Microsoft Cloud App Security|  예|    예|    예|
+|Microsoft 클라우드 앱 보안|  예|    예|    예|
 |On-Premises repositories|  예|    예|    아니요|
 
 > [!NOTE]
-> DLP는 전자 메일 및 첨부emnet에서 민감도 레이블 검색을 지원함 [DLP](dlp-sensitivity-label-as-condition.md#use-sensitivity-labels-as-conditions-in-dlp-policies) 정책에서 민감도 레이블을 조건으로 사용 참조
-
-
+> DLP는 전자 메일 및 첨부emnet에서 민감도 레이블 검색을 지원함 DLP 정책에서 민감도 레이블을 조건으로 사용을 [참조하세요.](dlp-sensitivity-label-as-condition.md#use-sensitivity-labels-as-conditions-in-dlp-policies)
 
 ## <a name="rules"></a>규칙
 
@@ -169,7 +162,7 @@ DLP 정책은 중요한 항목을 SIT(중요한 정보 유형), 민감도 레이
 
 ### <a name="the-priority-by-which-rules-are-processed"></a>규칙이 처리되는 우선 순위
 
-각 규칙에는 규칙이 만들어진 순서대로 우선 순위가 할당됩니다. 즉, 처음 만든 규칙에 첫 번째 우선 순위가 지정됩니다. 두 번째로 만든 규칙의 우선 순위는 두 번째입니다. 
+각 규칙에는 규칙이 만들어진 순서대로 우선 순위가 할당됩니다. 즉, 처음 만든 규칙은 첫 번째 우선 순위를, 두 번째로 만든 규칙은 두 번째 우선 순위를 입니다. 
   
 ![우선 순위의 규칙](../media/dlp-rules-in-priority-order.png)
 
@@ -280,7 +273,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 
 ##### <a name="conditions-devices-supports"></a>장치가 지원하는 조건
 
-- 콘텐츠에 포함된 내용
+- 콘텐츠 포함
 - 모니터링하고 조치를 취할 수 있는 [끝점 활동을 참조](endpoint-dlp-learn-about.md#endpoint-activities-you-can-monitor-and-take-action-on)
 
 ##### <a name="conditions-microsoft-cloud-app-security-support"></a>지원 Microsoft Cloud App Security 조건
@@ -304,7 +297,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
     
     그리고
     
-- 환자의 병력에 관한 커뮤니케이션 또는 환자에게 제공된 의료 서비스에 대한 설명과 같이 식별하기 더 어려운 콘텐츠 해당 콘텐츠를 식별하려면 국제질병분류(ICD-9-CM 또는 ICD-10-CM)처럼 아주 방대한 키워드 목록에서 일치하는 키워드가 필요합니다.
+- 환자의 병력에 관한 커뮤니케이션 또는 환자에게 제공된 의료 서비스에 대한 설명과 같이 식별하기 더 어려운 콘텐츠 해당 콘텐츠를 식별하려면 국제질병분류(ICD-9-CM 또는 ICD-10-CM)처럼 방대한 키워드 목록에서 일치하는 키워드가 필요합니다.
     
 조건을 그룹화하고 그룹 간에 AND,OR(논리 연산자)를 사용하여 이러한 유형의 데이터를 식별할 수 있습니다.
     
@@ -381,7 +374,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 > [!NOTE]
 > 장치는 활동 **감사,** 활동 차단 또는 활동  에 대한 금지 옵션을 제공합니다. 
 
-장치 위치는 다양한 하위 활동(조건) 및 작업을 제공합니다. 자세한 내용은 모니터링하고 작업을 수행 할 수 있는 [끝점 활동을 참조합니다.](endpoint-dlp-learn-about.md#endpoint-activities-you-can-monitor-and-take-action-on) 
+장치 위치는 다양한 하위 동작(조건) 및 작업을 제공합니다. 자세한 내용은 모니터링하고 작업을 수행 할 수 있는 [끝점 활동을 참조합니다.](endpoint-dlp-learn-about.md#endpoint-activities-you-can-monitor-and-take-action-on) 
 
 #### <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security:
 
@@ -444,7 +437,7 @@ for where they are used/expected behavior-->
 
 사용자가 규칙의 조건 및 예외를 충족하는 컨텍스트에서 중요한 항목에 대한 작업을 시도하면 사용자 알림 전자 메일 및 컨텍스트 정책 팁 팝업을 통해 해당 항목에 대해 알 수 있습니다. 이러한 알림은 인식을 높이고 조직의 DLP 정책에 대해 교육하는 데 도움이 됐기 때문에 유용합니다. 
 
-예를 들어 PII(개인 식별 Excel)를 포함하며 외부 사용자와 공유되는 비즈니스용 OneDrive 사이트의 비즈니스용 OneDrive 통합 문서와 같은 콘텐츠입니다.
+예를 들어 PII(개인 식별 Excel)를 포함하며 게스트와 공유되는 비즈니스용 OneDrive 사이트의 Excel 통합 문서와 같은 콘텐츠가 있습니다.
 
 ![메시지 표시줄에서는 Excel 2016 정책 팁](../media/7002ff54-1656-4a6c-993f-37427d6508c8.png)
 
@@ -468,7 +461,7 @@ for where they are used/expected behavior-->
     - 콘텐츠를 전송, 공유 또는 마지막으로 수정한 사용자에게 전자 메일 알림
     - 특정 사용자에게 알림
 
-뿐만 아니라 전자 메일 텍스트, 제목 및 정책 팁 텍스트를 사용자 지정할 수 있습니다.
+및 전자 메일 텍스트, 제목 및 정책 팁 텍스트를 사용자 지정합니다.
 
 ![Exchange, SharePoint, OneDrive, Teams 채팅 및 채널 및 MCAS에 사용할 수 있는 사용자 알림 및 정책 팁 구성 옵션](../media/dlp-user-notification-non-devices.png)
 
@@ -478,7 +471,7 @@ for where they are used/expected behavior-->
 
 이러한 매개 변수를 사용하여 텍스트의 제목과 본문을 사용자 지정할 수 있습니다. 본문은 다음을 지원합니다.
 
-|일반 이름  |매개 변수  |예
+|일반 이름  |매개 변수  |예시
 |---------|---------|---------|
 |파일 이름     |%%FileName%% | Contoso doc 1 |
 |프로세스 이름     |%%ProcessName%% | Word |
@@ -544,7 +537,7 @@ Here's what a policy tip looks like in a OneDrive for Business account.
 
 ### <a name="user-overrides"></a>사용자 오버라이드
 
-사용자 무시의 의도는 사용자가 작업을 계속할 수 있도록 Exchange, SharePoint, OneDrive 또는 Teams 중요한 항목에 대한 작업을 차단하는 사명을 사용하여 DLP 정책을 무시할 수 있는 방법을 사용자에게 제공하기 위한 것입니다.  사용자 다시 설정은 정책  팁을 사용하여 Office 365 서비스 사용자에게 알림이 설정된 경우만 사용하도록 설정되어 있으므로 사용자 다시 설정은 알림 및 정책 팁과 함께 사용할 수 있습니다. 
+사용자 무시의 의도는 사용자가 작업을 계속할 수 있도록 Exchange, SharePoint, OneDrive 또는 Teams 중요한 항목에 대한 작업을 차단하는 정당성에 따라 DLP 정책을 무시할 수 있는 방법을 사용자에게 제공하기 위한 것입니다.  사용자 다시 설정은 정책  팁을 사용하여 Office 365 서비스 사용자에게 알림이 설정된 경우만 사용하도록 설정되어 있으므로 사용자 다시 설정은 알림 및 정책 팁과 함께 사용할 수 있습니다. 
 
 ![DLP 정책에 대한 사용자 다시 설정 옵션](../media/dlp-user-overrides.png)
 
@@ -571,17 +564,17 @@ Here's what a policy tip looks like in a OneDrive for Business account.
 https://docs.microsoft.com/en-us/microsoft-365/compliance/view-the-dlp-reports?view=o365-worldwide
 https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-configure-view-alerts-policies?view=o365-worldwide-->
 
-규칙이 일치하면 규정 준수 책임자(또는 다른 사용자)에게 사고 보고서와 이벤트에 대한 세부 정보를 보낼 수 있습니다. 이 보고서에는 일치된 항목에 관한 정보, 규칙과 일치한 실제 콘텐츠, 해당 콘텐츠를 마지막으로 수정한 사람이 포함됩니다. 전자 메일 메시지의 경우 보고서에는 DLP 정책과 일치하는 원본 메시지가 첨부 파일로 포함되어 있습니다.
+규칙이 일치하면 규정 준수 책임자(또는 다른 사용자)에게 사고 보고서와 이벤트에 대한 세부 정보를 보낼 수 있습니다. 이 보고서에는 일치하는 항목, 규칙과 일치하는 실제 콘텐츠 및 콘텐츠를 마지막으로 수정한 사람의 이름에 대한 정보가 포함됩니다. 전자 메일 메시지의 경우 보고서에는 DLP 정책과 일치하는 원본 메시지가 첨부 파일로 포함되어 있습니다.
 
 DLP는 내부자 위험 관리와 같은 Microsoft 365 정보 보호 서비스에 인시던트 정보를 [Microsoft 365.](insider-risk-management.md#learn-about-insider-risk-management-in-microsoft-365) 인시던트 정보를 내부자 위험 관리에 사용하려면 인시던트 보고서 심각도 수준을 높음으로 설정해야 **합니다.** 
 
 <!--![Page for configuring incident reports](../media/31c6da0e-981c-415e-91bf-d94ca391a893.png)-->
 
-활동이 규칙과 일치할 때마다 알림이 전송되는 것을 선택할 수 있습니다. 이 규칙은 매우 시목이 될 수 있습니다. 또는 설정된 기간 동안 일치 횟수 또는 항목의 양에 따라 인시던트 수를 더 적은 경고로 집계할 수 있습니다.
+활동이 규칙과 일치할 때마다 알림을 보낼 수 있습니다. 이 규칙은 시목이 될 수 있습니다. 또는 설정된 기간 동안 일치하는 항목 수 또는 항목의 양에 따라 더 적은 수의 경고로 집계될 수 있습니다.
 
 ![규칙이 일치하거나 시간이 지난 후 집계될 때마다 경고를 더 적은 보고서로 보내기](../media/dlp-incident-reports-aggregation.png)
 
-DLP는 SharePoint Online 또는 비즈니스용 OneDrive의 항목과는 다른 방식으로 전자 메일을 검사합니다. SharePoint Online 및 비즈니스용 OneDrive에서 DLP는 기존 항목을 비롯하여 새 항목을 검사하고 일치하는 항목이 발견될 때마다 인시던트 보고서를 생성합니다. Exchange Online에서 DLP는 새 전자 메일 메시지만 검사하고 정책 일치 항목이 있는 경우에 보고서를 생성합니다. DLP는 사서함이나 보관함에 저장된 기존 전자 메일 항목을 검색하거나 일치시키지 ***않습니다.***
+DLP는 온라인 또는 SharePoint 항목과 비즈니스용 OneDrive 검색합니다. SharePoint Online 및 비즈니스용 OneDrive에서 DLP는 기존 항목을 비롯하여 새 항목을 검사하고 일치하는 항목이 발견될 때마다 인시던트 보고서를 생성합니다. Exchange Online에서 DLP는 새 전자 메일 메시지만 검사하고 정책 일치 항목이 있는 경우에 보고서를 생성합니다. DLP는 사서함이나 보관함에 저장된 기존 전자 메일 항목을 검색하거나 일치시키지 ***않습니다.***
 
 ### <a name="additional-options"></a>추가 옵션
 

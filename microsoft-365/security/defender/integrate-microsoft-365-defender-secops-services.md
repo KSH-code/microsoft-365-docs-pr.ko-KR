@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e9a915cfb698e80756e0810963e112889bd67a66
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 47e86a19f637278a9e9d82fd0b8fd260a77af6cd
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157689"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60702742"
 ---
 # <a name="step-3-plan-for-microsoft-365-defender-integration-with-your-soc-catalog-of-services"></a>3단계. SOC Microsoft 365 Defender 통합 계획
 
@@ -55,7 +55,7 @@ SOC(보안 운영 센터)에는 다음을 포함할 수 있는 서비스 카탈�
 - 데이터 손실 방지
 - 브랜드 모니터링
 
-여러 Microsoft 365 Defender 기술에 걸쳐 있으므로 SOC 팀은 각 Defender 구성 요소를 관리하고 서비스 기능에 맞추는 데 가장 적합한 역할과 책임을 결정해야 합니다.
+여러 Microsoft 365 Defender 기술에 걸쳐 있으므로 SOC 팀은 각 구성 요소를 관리하고 서비스 기능에 맞추기 위해 가장 적합한 역할과 책임을 Microsoft 365 Defender 결정해야 합니다.
 
 이러한 구성 요소는 Microsoft 365 Defender 있습니다.
 

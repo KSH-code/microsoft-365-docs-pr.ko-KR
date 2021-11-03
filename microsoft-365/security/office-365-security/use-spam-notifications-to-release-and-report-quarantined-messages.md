@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(2016년 8월 2일)의 최종 사용자 스팸 알림에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 31cfebba6d7bde610ac855dc4c7985d2432fabe3
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b08a89adb5f2cc8f02cdce4e5150b82838f287cf
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190248"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60702860"
 ---
 # <a name="use-quarantine-notifications-to-release-and-report-quarantined-messages"></a>검란 알림을 사용하여 검란된 메시지 릴리스 및 보고
 
@@ -41,12 +41,14 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 _Quarantine policies_ define what users are allowed to do to quarantined messages based on why the message quarantined why the message was quarantined (for supported features). 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요. 또한 검사 경찰은 영향을 받는 받는 사람(공유 사서함 포함)이  자신의 검사된 메시지에 대한 주기적인 검지 알림을 받을지 여부를 제어합니다. 스팸 방지 정책 판정 뿐만 아니라 지원되는 모든 보호 기능에 대한 최종 사용자 스팸 알림을 대체하는 알림입니다.
 
-관리자는 또한 정책에서 전역 설정을 사용하여 보낸 사람 표시 이름, 다른 언어로 된 고지지 텍스트 및 알림에 사용되는 회사 로고를 사용자 지정할 수 있습니다. 자세한 내용은 웹 사이트 포털에서 전역 Microsoft 365 Defender [설정을 참조하세요.](quarantine-policies.md#configure-global-quarantine-notification-settings-in-the-microsoft-365-defender-portal)
+관리자는 AdminOnlyAccessPolicy 또는 DefaultFullAccessPolicy라는 기본 제공 검열 알림에서 알림을 설정하지 않습니다. 조직에 알림이 있는 경우 NotificationEnabledPolicy라는 기본 제공 검지 정책에서 알림이 [켜져 있습니다.](quarantine-policies.md#full-access-permissions-and-quarantine-notifications) 그렇지 않은 경우, 정책에서 검지 알림을 켜기 위해 새 검지 정책을 만들고 [구성해야 합니다.](quarantine-policies.md#step-1-create-quarantine-policies-in-the-microsoft-365-defender-portal)
+
+관리자는 또한 정책에서 전역 설정을 사용하여 보낸 사람 표시 이름, 다른 언어로 된 고지지 텍스트 및 알림에 사용되는 회사 로고를 사용자 지정할 수 있습니다. 자세한 내용은 [Configure global quarantine notification settings을 참조하십시오.](quarantine-policies.md#configure-global-quarantine-notification-settings-in-the-microsoft-365-defender-portal)
 
 공유 사서함의 경우 공유 사서함에 대한 FullAccess 권한이 부여된 사용자에 한해 알림이 지원됩니다. 자세한 내용은 EAC를 사용하여 공유 사서함 위임 [편집을 참조하세요.](/Exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation)
 
 > [!NOTE]
-> 기본적으로 높은 신뢰도 피싱, 맬웨어, 메일 흐름 규칙(전송 규칙) 또는 금고 Defender에서 첨부 파일 정책으로 Office 365 메시지는 관리자만 사용할 수 있습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
+> 기본적으로 높은 신뢰도 피싱, 맬웨어, 메일 흐름 규칙(전송 규칙)에 의해 또는 금고 Attachments 정책(Office 365 for Office 365)으로 검열된 메시지는 관리자만 사용할 수 있습니다(기본적으로 AdminOnlyAccessPolicy 검지 정책이 사용). 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 >
 > 그룹에 대해 알림이 지원되지 않습니다.
 

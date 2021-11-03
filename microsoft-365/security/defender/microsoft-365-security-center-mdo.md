@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 77aa51e80cd339878c5d07d38e71cab810ee130f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 91f80cb79efe7a301bfcefaf7663e13f391b4b1e
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191530"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724335"
 ---
 # <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender for Office 365 Microsoft 365 Defender
 
@@ -48,7 +48,7 @@ ms.locfileid: "60191530"
 |레코드 관리||자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |정보 거버넌스||자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |위협 관리|[전자 메일 & 공동 작업](https://security.microsoft.com/homepage)|||
-|권한|[역할에 & 사용 권한](https://security.microsoft.com/emailandcollabpermissions)|자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
+|사용 권한|[역할에 & 사용 권한](https://security.microsoft.com/emailandcollabpermissions)|자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |메일 흐름|||관리 [Exchange 참조](https://admin.exchange.microsoft.com/#/)|
 |데이터 개인 정보||자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |검색|[감사](https://security.microsoft.com/auditlogsearch?viewid=Async%20Search)|검색(콘텐츠 검색)||
@@ -58,11 +58,11 @@ ms.locfileid: "60191530"
 |eDiscovery||자세한 [내용은 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)||
 |||||
 
-[Microsoft 365 Defender](./overview-security-center.md) 보안 및 준수 센터를 포함하여 기존 Microsoft 보안 포털의 보안 <https://security.microsoft.com> & 결합되어 있습니다. 이 개선된 센터는 보안 팀이 더 효과적이고 효율적으로 위협으로부터 조직을 보호하는 데 도움이 됩니다.
+[Microsoft 365 Defender](./microsoft-365-defender.md) 보안 및 준수 센터를 포함하여 기존 Microsoft 보안 포털의 보안 <https://security.microsoft.com> & 결합되어 있습니다. 이 개선된 센터는 보안 팀이 더 효과적이고 효율적으로 위협으로부터 조직을 보호하는 데 도움이 됩니다.
 
 이 문서에서는 보안 & 준수 센터(protection.office.com)에 대해 잘 알고 있는 경우 Microsoft 365 Defender.
 
-이점에 대한 자세한 내용은 [Overview of Microsoft 365 Defender](overview-security-center.md)
+이점에 대한 자세한 내용은 [Overview of Microsoft 365 Defender](microsoft-365-defender.md)
 
 규정 준수 관련 항목을 찾고 있는 경우 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/homepage)를 방문하세요.
 

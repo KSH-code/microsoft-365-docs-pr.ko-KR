@@ -17,16 +17,33 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 관리의 새로운 것 및 새로운 방법을 찾아 찾습니다. 업데이트된 평가, 새 평가 템플릿, 새 작업 등에 대해 읽어 읽습니다.
-ms.openlocfilehash: 4e51063447ba43129b588bfe05650572b7c97e4a
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 6233cd278e3ca5c445361ae4f50c33d8d00c6b94
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554411"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701602"
 ---
 # <a name="whats-new-in-microsoft-compliance-manager"></a>Microsoft 준수 관리자의 새로운
 
 **이 문서의 예는** 준수 관리자의 최근 업데이트에 대해 자세히 알아보습니다.
+
+## <a name="november-2021"></a>2021년 11월
+
+### <a name="new-assessment-templates"></a>새 평가 템플릿
+
+이제 미리 보기에서 다음 평가 템플릿을 사용할 수 있습니다.
+
+- AZURE용 ISO 27001:2013(미리 보기)
+- Dynamics 365용 ISO 27001:2013(미리 보기)
+- Dynamics 365용 FedRAMP Moderate(미리 보기)
+- Azure용 FedRAMP Moderate(미리 보기)
+- Azure용 FedRAMP High(미리 보기)
+- Dynamics 365용 FedRAMP High(미리 보기)
+- AZURE용 SOC 2(미리 보기)
+- Dynamics 365용 SOC 2(미리 보기)
+- AZURE용 ISO 27018:2019(미리 보기)
+- Dynamics 365용 ISO 27018:2019(미리 보기)
 
 ## <a name="october-2021"></a>2021년 10월
 

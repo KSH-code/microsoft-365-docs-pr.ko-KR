@@ -15,14 +15,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/16/2021
 ms.technology: mde
-ms.openlocfilehash: d0f97dcbde929c7661fd3bf3a2aba8eb9f69c3c1
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: fd6453c245a5d7320518c2dc500ed4718568857c
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60239951"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703264"
 ---
-# <a name="onboard-windows-devices-using-group-policy"></a>그룹 정책을 Windows 장치 온보드 
+# <a name="onboard-windows-devices-using-group-policy"></a>그룹 정책을 사용하여 Windows 장치 온보딩 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "60239951"
 > Windows Server 2019 및 Windows Server 2022의 경우 그룹 정책 기본 설정에서 만드는 XML 파일의 NT AUTHORITY\Well-Known-System-Account를 NT AUTHORITY\SYSTEM으로 대체해야 할 수 있습니다.
 
 > [!NOTE]
-> Windows Server 2012 R2 및 2016에 대해 통합된 새로운 통합 Microsoft Defender for Endpoint 솔루션을 사용하는 경우 중앙 저장소에서 최신 ADMX 파일을 사용하여 올바른 Microsoft Defender 정책 옵션에 액세스하는지 확인합니다. 에서 [그룹](/troubleshoot/windows-client/group-policy/create-and-manage-central-store) 정책 관리 템플릿에 대한 중앙 저장소를 만들고 관리하는 방법을 참조하고 Windows 에서 사용할 최신 파일을 **Windows 10.** 
+> Windows Server 2012 R2 및 2016에 대한 새로운 통합 Microsoft Defender for Endpoint 솔루션을 사용하는 경우 중앙 저장소에서 최신 ADMX 파일을 사용하여 올바른 끝점용 Microsoft Defender 정책 옵션에 액세스하는지 확인합니다. 에서 [그룹](/troubleshoot/windows-client/group-policy/create-and-manage-central-store) 정책 관리 템플릿에 대한 중앙 저장소를 만들고 관리하는 방법을 참조하고 Windows 에서 사용할 최신 파일을 **Windows 10.** 
 
 [PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
@@ -248,7 +248,7 @@ Microsoft MAPS에 가입|사용, 고급 지도
 
 ## <a name="setup-defender-av-policies"></a>Defender AV 정책 설정
 
-새 그룹 정책을 만들거나 이러한 설정을 다른 정책과 함께 그룹화합니다. 이는 고객 환경 및 다양한 OU(조직 구성 단위)를 대상으로 하여 서비스를 롤아웃하는 방법에 따라 달라집니다.
+새 그룹 정책을 만들거나 이러한 설정을 다른 정책과 함께 그룹화합니다. 이는 고객 환경 및 다양한 US(조직 구성 단위)를 대상으로 하여 서비스를 롤아웃하는 방법에 따라 달라집니다.
 
 1. GP를 선택하거나 새 GP를 만든 후 GP를 편집합니다.
 
@@ -272,7 +272,7 @@ Microsoft MAPS에 가입|사용, 고급 지도
 
 :::image type="content" source="images/config-monitor-incoming-outgoing-file-act.png" alt-text="들어오는 파일 활동에 대한 모니터링을 구성합니다.":::
 
-### <a name="configure-windows-defender-smart-screen-settings"></a>스마트 Windows Defender 설정 구성
+### <a name="configure-windows-defender-smartscreen-settings"></a>SmartScreen Windows Defender 구성
 
 1. Computer **Configuration** \> **Policies** \> **Administrative Templates** \> **Windows Components Windows Defender** \> **SmartScreen** \> **Explorer로 연결합니다.**
 
@@ -320,9 +320,9 @@ MAPS에서 **컴퓨터** 구성 정책 관리 \>  \>  \> **템플릿 Windows 구
 :::image type="content" source="images/cloud-protection-level.png" alt-text="클라우드 보호 수준 구성.":::
 
 ## <a name="related-topics"></a>관련 항목
-- [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
-- [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)
+- [Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩](configure-endpoints-sccm.md)
+- [모바일 장치 관리 도구를 사용한 Windows 장치 온보딩](configure-endpoints-mdm.md)
+- [로컬 스크립트를 사용하여 Windows 장치 온보딩](configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

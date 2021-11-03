@@ -21,18 +21,18 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: d1f1c36eeaa010981ffd44ccad75e0d73a7159f6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c04d7eed5957fbb5633710ec07af28ca66809356
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162365"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724802"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Microsoft 보안 점수 기록 추적 및 목표 충족
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-[Microsoft 보안 점수는](microsoft-secure-score.md) 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행되었음을 나타내고 있습니다. 이 사이트는 사이트 포털 https://security.microsoft.com/securescore [에서 Microsoft 365 Defender 있습니다.](overview-security-center.md)
+[Microsoft 보안 점수는](microsoft-secure-score.md) 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행되었음을 나타내고 있습니다. 이 사이트는 사이트 포털 https://security.microsoft.com/securescore [에서 Microsoft 365 Defender 있습니다.](microsoft-365-defender.md#the-microsoft-365-defender-portal)
 
 ## <a name="gain-insights-into-activity-that-has-affected-your-score"></a>점수에 영향을 주는 활동에 대한 인사이트 얻기
 

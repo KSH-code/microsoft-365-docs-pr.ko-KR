@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: 5333b198413c25aed4b894721803c5fa4772b439
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 68670139062f4589d61d32521568b9bd00e5dc0f
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60334693"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60704746"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 커뮤니케이션 규정 준수
 
@@ -41,4 +41,4 @@ ms.locfileid: "60334693"
 ## <a name="more-information-about-communication-compliance"></a>통신 규정 준수에 대한 자세한 정보
 
 - [경고 조사 및 수정](communication-compliance-investigate-remediate.md)
-- [사례 연구 - Contoso는 통신에 대한 공격적인 언어 Microsoft Teams, Exchange Yammer 구성합니다.](communication-compliance-case-study.md)
+- [사례 연구 - Contoso는 통신에 대한 부적절한 콘텐츠 정책을 Microsoft Teams, Exchange Yammer 구성합니다.](communication-compliance-case-study.md)

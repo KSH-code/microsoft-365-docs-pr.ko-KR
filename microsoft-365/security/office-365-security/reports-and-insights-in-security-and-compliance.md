@@ -19,12 +19,12 @@ description: 보안 및 준수 센터에서 사용할 수 있는 스마트 보�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fb46c3436c48328b02e2937968321c0adce9ffb8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b81e31781ad4105dc5a0ee270ef605ffe96691e7
+ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60202420"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60724790"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 똑똑한 보고서 및 분석
 
@@ -68,6 +68,6 @@ ms.locfileid: "60202420"
 
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 Defender 포털](../defender/overview-security-center.md)
+[Microsoft 365 Defender 포털](../defender/microsoft-365-defender.md#the-microsoft-365-defender-portal)
 
 [보안 위협으로부터 Office 365](protect-against-threats.md)

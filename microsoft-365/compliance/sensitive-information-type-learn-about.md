@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 description: 이 문서에서는 중요한 정보 유형에 대해 간략하게 설명하고 주민등의 보안, 신용 카드 또는 은행 계좌 번호와 같은 중요한 정보를 검색하여 중요한 항목을 식별하는 방법을 제공합니다.
-ms.openlocfilehash: 4be28abc7f343fa7b396c736255f1c8e15872d0b
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.openlocfilehash: 57f8f74a88749e94f9157d2c890a101256edff3f
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478952"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703478"
 ---
 # <a name="learn-about-sensitive-information-types"></a>중요한 정보 유형에 대해 자세히 알아보기
 
@@ -40,6 +40,7 @@ ms.locfileid: "60478952"
 - [보존 레이블](retention.md)
 - [내부자 위험 관리](insider-risk-management.md)
 - [커뮤니케이션 규정 준수](communication-compliance.md)
+- [내부 위험 관리](insider-risk-management-solution-overview.md)
 - [자동 레이블 지정 정책](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 - [개인 정보 관리](/privacy/solutions/privacymanagement/privacy-management)
 

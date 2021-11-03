@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6a915130fe080622d7373e6a0d550606f623dd9b
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 979e1081dd85047286c580907ff9335442ba0b55
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335613"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701050"
 ---
 # <a name="plan-for-insider-risk-management"></a>내부자 위험 관리 계획
 
@@ -75,7 +75,7 @@ ms.locfileid: "60335613"
 
 - 사용자 템플릿을 종료하여 데이터 도난을 사용하는 경우 조직의 사용자에 대한 Microsoft 365 및 종료 날짜 정보를 주기적으로 가져오도록 Microsoft 365 HR 커넥터를 구성해야 합니다.  조직의 Microsoft 365 HR 커넥터를 구성하는 단계별 지침은 [HR 커넥터 데이터 가져오기](import-hr-data.md) 문서를 참조하세요.
 - 데이터 **누수** 템플릿을 사용할 경우 조직에서 중요한 정보를 정의하고 심각도 DLP 정책 경고에 대한 내부자 위험 경고를 수신하도록 하나 이상의 DLP(데이터 손실 방지) 정책을 구성해야 합니다. 조직의 DLP 정책을 구성하는 단계별 지침은 [ DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md) 문서를 참조하세요.
-- 보안 **정책** 위반 템플릿을 사용할 때 보안 위반 경고를 가져오기 위해 Defender 보안 센터에서 내부자 위험 관리 통합에 대해 끝점용 Microsoft Defender를 사용하도록 설정해야 합니다. 내부자 위험 관리와 끝점 통합을 위해 Defender를 사용하도록 설정하는 단계별 지침은 [Microsoft Defender의](/windows/security/threat-protection/microsoft-defender-atp/advanced-features) 고급 기능 구성 문서를 참조하세요.
+- 보안 **정책** 위반 템플릿을 사용할 때 보안 위반 경고를 가져오기 위해 Defender 보안 센터에서 내부자 위험 관리 통합에 대해 끝점용 Microsoft Defender를 사용하도록 설정해야 합니다. 내부자 위험 관리와 끝점 통합을 위해 Defender를 사용하도록 설정하는 단계별 지침은 [끝점용 Microsoft Defender의 고급 기능 구성을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/advanced-features)
 - 불만이 **없는** 사용자 템플릿을 사용하는 경우 조직의 사용자에 대한 성능 Microsoft 365 상태 정보를 주기적으로 가져오도록 Microsoft 365 HR 커넥터를 구성해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성하는 단계별 지침은 [HR 커넥터 데이터 가져오기](import-hr-data.md) 문서를 참조하세요.
 
 ## <a name="test-with-a-small-group-of-users-in-a-production-environment"></a>프로덕션 환경에서 소규모 사용자 그룹으로 테스트

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: bf0341ec4c77b8f3c803d087ff52ad4bde40decd
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: c1a76bb0a82562a7c2a2f96e87b087f6fd09fcea
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60552604"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701006"
 ---
 # <a name="device-discovery-overview"></a>장치 검색 개요
 
@@ -115,12 +115,12 @@ DeviceInfo 테이블에서 검색된 끝점에 대한 세부 정보 또는 Devic
 
 장치 검색은 네트워크 데이터 원본으로 끝점용 Microsoft Defender를 네트워크 데이터 원본으로 활용하여 활동을 비보딩된 장치에 특성화합니다. 즉, 온보딩되지 않은 장치와 통신한 끝점용 Microsoft Defender 온보딩 디바이스의 경우 온보딩되지 않은 장치의 활동은 타임라인 및 고급 헌팅 DeviceNetworkEvents 테이블을 통해 볼 수 있습니다.
 
-새 이벤트는 TCP(Transmission Control Protocol) 연결 기반 이벤트로, 현재 DeviceNetworkEvents 스키마에 맞습니다. TCP는 끝점 사용이 가능한 비 Microsoft Defender에서 끝점용 Microsoft Defender 사용 디바이스로 다시 연결합니다. 
+새 이벤트는 TCP(Transmission Control Protocol) 연결 기반 이벤트로, 현재 DeviceNetworkEvents 스키마에 맞습니다. TCP는 끝점 사용이 가능한 비 Microsoft Defender에서 끝점용 Microsoft Defender 사용 디바이스로 다시 연결합니다.
 
 다음 작업 유형도 추가되었습니다.
 
-- ConnectionAttempt - TCP 연결(syn)을 설정하려는 시도 
-- ConnectionAcknowledged - TCP 연결이 수락되었습니다(syn\ack) 
+- ConnectionAttempt - TCP 연결(syn)을 설정하려는 시도
+- ConnectionAcknowledged - TCP 연결이 수락되었습니다(syn\ack)
 
 다음 예제 쿼리를 시도할 수 있습니다.
 
@@ -134,7 +134,7 @@ DeviceNetworkEvents
 
 다음 섹션에서는 이 기능을 사용하는 경우 Microsoft Defender for Endpoint 및/또는 Microsoft 365 보안 센터에서 관찰할 변경 내용을 나열합니다.
 
-1. Microsoft Defender에서 끝점으로 온보딩되지 않은 장치는 장치 인벤토리, 고급 헌팅 및 API 쿼리에 표시될 것으로 예상됩니다. 이렇게 하여 쿼리 결과의 크기가 크게 증가할 수 있습니다.
+1. 끝점용 Microsoft Defender에 등록되지 않은 장치는 장치 인벤토리, 고급 헌팅 및 API 쿼리에 표시될 것으로 예상됩니다. 이렇게 하여 쿼리 결과의 크기가 크게 증가할 수 있습니다.
     1. 고급 헌팅의 "DeviceInfo" 및 "DeviceNetworkInfo" 테이블은 이제 검색된 장치를 보유합니다. "OnboardingStatus" 특성을 사용하여 이러한 장치를 필터링할 수 있습니다.
     2. 검색된 장치는 스트리밍 API 쿼리 결과에 표시될 것으로 예상됩니다. 쿼리에서 필터를 사용하여 이러한 장치를 `OnboardingStatus` 필터링할 수 있습니다.
 2. 관리되지 않는 장치는 정의된 기준에 따라 기존 장치 그룹에 할당됩니다.

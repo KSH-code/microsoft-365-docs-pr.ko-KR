@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5a1a8c8eeffaa05e34f7a3216b743540b1e6406f
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 85ef173543b9696a8aa8a0c7505ed30cefc5f932
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553487"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701744"
 ---
 # <a name="configure-and-manage-microsoft-threat-experts-capabilities"></a>Microsoft 위협 전문가 기능 구성 및 관리
 
@@ -144,7 +144,7 @@ Endpoint 고객용 Defender인 경우 Microsoft 위협 전문가 **-** 대상 �
 
 ### <a name="threat-intelligence-details"></a>위협 인텔리전스 세부 정보
 
-- 사용자에게 악성 Word 문서를 전달하는 피싱 전자 메일을 검색했습니다. 악성 Word 문서에서 일련의 의심스러운 이벤트가 발생하여 [맬웨어 이름] 맬웨어에 대한 여러 Microsoft Defender 경고가 트리거되었습니다. 이 맬웨어에 대한 정보가 있나요? 그렇다면 링크를 보낼 수 있나요?
+- 사용자에게 악성 Word 문서를 전달하는 피싱 전자 메일을 검색했습니다. 악성 Word 문서에서 일련의 의심스러운 이벤트가 발생하여 [맬웨어 이름] 맬웨어에 대한 끝점 경고를 여러 개 트리거했습니다. 이 맬웨어에 대한 정보가 있나요? 그렇다면 링크를 보낼 수 있나요?
 - 최근에 산업을 대상으로 하는 위협에 대한 [소셜 미디어 참조, 예: Twitter 또는 블로그] 게시물을 보했습니다. 이 위협 요소에 대해 끝점용 보호 Defender가 제공하는 보호 기능을 이해하는 데 도움이 될 수 있나요?
 
 ### <a name="microsoft-threat-experts-alert-communications"></a>Microsoft 위협 전문가 알림 통신

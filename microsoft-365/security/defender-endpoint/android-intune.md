@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b1b445f902445244f98c5dc8768c76a554098f73
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c110682e6090c013ffc3d13cd5fa78b1483c8d2d
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210164"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703454"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포
 
@@ -75,7 +75,7 @@ Android에서 Android용 끝점용 Defender를 배포하는 방법을 Intune 회
 
     잠시 후 Endpoint용 Defender 앱이 성공적으로 만들어지며 알림이 페이지의 오른쪽 위 모서리에 표시됩니다.
 
-    :::image type="content" alt-text="Defender Microsoft Endpoint Manager 관리 센터 알림의 이미지입니다." source="images/86cbe56f88bb6e93e9c63303397fc24f.png" lightbox="images/86cbe56f88bb6e93e9c63303397fc24f.png":::
+    :::image type="content" alt-text="Endpoint Microsoft Endpoint Manager Defender의 관리 센터 알림 이미지입니다." source="images/86cbe56f88bb6e93e9c63303397fc24f.png" lightbox="images/86cbe56f88bb6e93e9c63303397fc24f.png":::
 
 5. 표시되는 앱 정보 페이지의 모니터 섹션에서 장치  설치 상태를 선택하여 장치 설치가 성공적으로 완료되어 있는지 확인합니다. 
 
@@ -109,7 +109,7 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
 
     :::image type="content" alt-text="관리 Microsoft Endpoint Manager Google Play의 이미지입니다." source="images/579ff59f31f599414cedf63051628b2e.png" lightbox="images/579ff59f31f599414cedf63051628b2e.png":::
 
-2. 이후에 로드되는 관리되는 Google Play 페이지에서 검색 상자로 이동하여 **Microsoft Defender를 검색합니다.** 검색은 관리되는 Google Play에 끝점용 Microsoft Defender 앱을 표시해야 합니다. 앱 검색 결과에서 끝점용 Microsoft Defender 앱을 클릭합니다.
+2. 이후에 로드되는 관리되는 Google Play 페이지에서 검색 상자로 이동하여 를 `Microsoft Defender` 입력합니다. 검색은 관리되는 Google Play에 끝점용 Microsoft Defender 앱을 표시해야 합니다. 앱 검색 결과에서 끝점용 Microsoft Defender 앱을 클릭합니다.
 
     ![관리 센터 Microsoft Endpoint Manager 검색의 이미지입니다.](images/0f79cb37900b57c3e2bb0effad1c19cb.png)
 
@@ -232,7 +232,7 @@ Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 �
 
 4. **배정**
 
-   할당 **페이지에서** 이 앱 구성 정책을 할당할 사용자 그룹을   선택합니다. 그룹 **선택을** 클릭하여 해당 그룹을 포함 및 선택하고 다음을 **클릭합니다.** 여기서 선택한 그룹은 일반적으로 Endpoint Android용 Microsoft Defender 앱을 할당할 그룹과 동일합니다.
+   할당 **페이지에서** 이 앱 구성 정책을 할당할 사용자 그룹을 선택합니다. 포함할 **그룹 선택을** 선택하고 해당 그룹을 선택한 후 다음 을 **선택합니다.** 여기서 선택한 그룹은 일반적으로 Endpoint Android용 Microsoft Defender 앱을 할당할 그룹과 동일합니다.
 
    ![장치 구성 프로필의 이미지 할당.](images/4autosetupofvpn.png)
 

@@ -21,11 +21,11 @@ ms.collection:
 ms.topic: article
 ms.technology: m365d
 ms.openlocfilehash: a707de259897080f8e726aed70618ea6505bdea6
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444118"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60717529"
 ---
 # <a name="use-power-automate-in-microsoft-365-defender"></a>이 Power Automate Microsoft 365 Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "59444118"
 **적용 대상:**
 - Microsoft 365 Defender
 
-> Microsoft 365 Defender를 경험해 보고 싶으신가요? [랩 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
+> Microsoft 365 Defender를 경험하고 싶으신가요? [실험실 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
 >
 
 최신 보안 운영(SecOps) 팀은 효율적으로 작동하려면 자동화가 필요합니다. SecOps 팀은 실제 위협을 헌팅하고 조사하는 데 집중하기 위해 Power Automate 목록을 조사하고 위협이 아닌 경고 목록을 제거합니다.  
