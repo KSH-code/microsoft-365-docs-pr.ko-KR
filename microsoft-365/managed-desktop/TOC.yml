@@ -19,8 +19,6 @@
       items:
         - name: 지원되는 지역
           href: service-description/regions-languages.md
-        - name: 제품 수명 주기
-          href: service-description/device-lifecycle.md
         - name: 디바이스
           href: null
           items:

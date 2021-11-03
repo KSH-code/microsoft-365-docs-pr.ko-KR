@@ -3,8 +3,8 @@ title: 사용 약관 이해
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
-ms.reviewer: chrisarnoldmsft
-ms.date: ''
+ms.reviewer: shirana
+ms.date: 11/02/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 ms.localizationpriority: medium
 description: Viva 2013을 사용할 때 적용되는 사용 약관을 Learning.
-ms.openlocfilehash: dcbf25ca555b51feae8e7f38fb47f07704113c06
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 692afdfaba72fec1ce65c7ea2e90be5e883ec5da
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60566804"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60700364"
 ---
 # <a name="understand-terms-and-conditions"></a>사용 약관 이해
 

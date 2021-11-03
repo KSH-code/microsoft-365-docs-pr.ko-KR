@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 관리자가 해당 사서함이 법적 보유 상태인 경우에도 Exchange Online 사서함에 대한 사용자의 복구 가능한 항목 폴더에 있는 항목을 삭제하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aedd887caed1ffd4484ea55561aa77562869726a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8ef725e841c46c33c037efbc0109b91864af4737
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60189432"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60698420"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -164,9 +164,9 @@ PowerShell에서 다음 Exchange Online 수행합니다.
     ```
 
     > [!NOTE]
-    > 단일 항목 복구를 사용하지 않도록 설정하는 데 최대 60분이 걸릴 수 있습니다. 이 기간이 경과할 때까지 복구 가능한 항목 폴더의 항목을 삭제하지 않습니다. 
+    > 단일 항목 복구를 사용하지 않도록 설정하는 데 최대 240분이 걸릴 수 있습니다. 이 기간이 경과할 때까지 복구 가능한 항목 폴더의 항목을 삭제하지 않습니다.
   
-4. 다음 명령을 실행하여 관리되는 폴더 도우미가 사서함을 처리하지 못하게 합니다. 앞서 설명한 것 처럼 보존 잠금이 있는 보존 정책이 사서함에 적용되지 않은 경우만 관리되는 폴더 도우미를 사용하지 않도록 설정할 수 있습니다. 
+4. 다음 명령을 실행하여 관리되는 폴더 도우미가 사서함을 처리하지 못하게 합니다. 앞서 설명한 것 처럼 보존 잠금이 있는 보존 정책이 사서함에 적용되지 않은 경우만 관리되는 폴더 도우미를 사용하지 않도록 설정할 수 있습니다.
 
     ```powershell
     Set-Mailbox <username> -ElcProcessingDisabled $true
@@ -188,7 +188,7 @@ Set-Mailbox <username> -LitigationHoldEnabled $false
 ```
 
 > [!NOTE]
-> 클라이언트 액세스 방법 및 단일 항목 복구를 사용할 수 있도록 설정하는 경우와 마찬가지로 소송 보류를 제거하는 데 최대 60분이 걸릴 수 있습니다. 이 기간이 경과할 때까지 복구 가능한 항목 폴더에서 항목을 삭제하지 않습니다. 
+> 단일 항목 복구를 사용할 수 있는 경우와 마찬가지로 소송 보류를 제거하는 데 최대 240분이 걸릴 수 있습니다. 이 기간이 경과할 때까지 복구 가능한 항목 폴더에서 항목을 삭제하지 않습니다.
   
 ### <a name="in-place-hold"></a>원본 위치 유지
   
@@ -414,7 +414,7 @@ PowerShell에서 다음 단계를 지정한 Exchange Online 수행합니다.
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
 
-## <a name="more-information"></a>추가 정보
+## <a name="more-information"></a>자세한 정보
 
 **다음은 Get-Mailbox** 또는 **Get-OrganizationConfig** cmdlet을 실행할 때 *InPlaceHolds* 속성의 값에 따라 다양한 유형의 보류를 식별하는 방법을 설명하는 표입니다. 자세한 내용은 사서함에 배치된 보류 유형을 식별하는 [Exchange Online 참조하세요.](identify-a-hold-on-an-exchange-online-mailbox.md)
 
