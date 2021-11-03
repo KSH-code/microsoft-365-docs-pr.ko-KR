@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b7bb40d4990d5bd68d3ee56149506374c5e0c6fb
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 7c1940e6e51bace08f355bd23e77c369f16ebbfd
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60334533"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667275"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
@@ -41,7 +41,7 @@ ms.locfileid: "60334533"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Android에 끝점용 Microsoft Defender를 설치하는 방법
 
-### <a name="prerequisites"></a>필수 조건
+### <a name="prerequisites"></a>필수 구성 요소
 
 - **최종 사용자의 경우**:
   - 앱의 최종 사용자에게 할당된 끝점용 Microsoft Defender 라이선스입니다. 끝점 라이선싱 요구 사항에 대한 [Microsoft Defender를 참조하세요.](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
@@ -66,7 +66,7 @@ ms.locfileid: "60334533"
 
 ### <a name="system-requirements"></a>시스템 요구 사항
 
-- Android 6.0 이상을 실행하는 휴대폰. **Android를 실행하는 태블릿 및 기타 모바일 장치는 현재 지원되지 않습니다.**
+- Android 6.0 이상을 실행하는 휴대폰. **Android를 실행하는 휴대폰, 태블릿 및 Android를 실행하는 기타 모바일 장치는 현재 지원되지 않습니다.**
 - Intune 회사 포털 [Google Play에서](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) 다운로드하여 설치합니다. Intune 장치 준수 정책을 적용하려면 장치 등록이 필요합니다.
 
 ### <a name="installation-instructions"></a>설치 지침

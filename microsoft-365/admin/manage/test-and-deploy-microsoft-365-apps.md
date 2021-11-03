@@ -14,12 +14,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직 내 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 찾고 테스트하고 Microsoft 365 관리 센터.
-ms.openlocfilehash: 08660c4f90a27f4294268aa0fb2204347ad06498
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: bc633b2a2541a5c1fd813848cd39c7c6e91420ee
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174150"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662789"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>통합 앱 포털에서 Microsoft 365 앱 테스트 및 배포
 
@@ -86,8 +86,8 @@ ms.locfileid: "60174150"
 다음 시나리오에 대해 통합 앱 포털에서 파트너가 단일 Microsoft 365 앱 앱을 배포할 수 없습니다.
 
 - 동일한 추가 기능도 두 개 이상의 SaaS 제공에 연결됩니다.
-- SaaS 혜택은 추가 기능과 연결되지만 Microsoft Graph 통합되지 않고 AAD 앱 ID가 제공되지 않습니다.
-- SaaS 제품은 추가 기능과 연결되지만 Microsoft Graph 통합을 위해 제공된 AAD 앱 ID는 여러 SaaS 제품에서 공유됩니다.
+- SaaS 제공은 추가 기능과 연결되지만 Microsoft Graph 통합되지 AAD 않습니다.
+- SaaS 제품은 추가 AAD 연결되지만 Microsoft Graph 통합을 위해 제공된 앱 ID는 여러 SaaS 제품에서 공유됩니다.
 
 ## <a name="upload-custom-line-of-business-apps-for-testing-and-full-deployment"></a>업로드 전체 배포를 위한 사용자 지정 업무 앱 배포
 
@@ -123,7 +123,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 
 ### <a name="before-you-begin"></a>시작하기 전에
 
-추가 기능을 배포하려면 사용자가 Microsoft 365 Enterprise 라이선스(E3/E5/F3) 또는 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium)를 사용해야 합니다. 또한 사용자는 자신의 조직 ID를 사용하여 Office 로그인해야 합니다Exchange Online 및 활성 Exchange Online 합니다. 구독 디렉터리가 에 있어야 합니다. 또는 구독 디렉터리에 Azure Active Directory. 
+추가 기능을 배포하려면 사용자가 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium), Office 365 Enterprise 라이선스(E1/E3/E5/F3) 또는 Microsoft 365 Enterprise 라이선스(E3/E5/F3)를 사용해야 합니다. 또한 사용자는 자신의 조직 ID를 사용하여 Office 로그인해야 합니다Exchange Online 및 활성 Exchange Online 합니다. 구독 디렉터리가 에 있어야 합니다. 또는 구독 디렉터리에 Azure Active Directory. 
 
 배포는 다음을 지원하지 않습니다. 
 
@@ -136,11 +136,11 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 ### <a name="office-requirements"></a>Office 요구 사항 
 
 Word, Excel 및 PowerPoint 추가 기능의 경우 사용자가 다음 중 하나를 사용하고 있어야 합니다. 
-- Windows(E3/E5/F3) 또는 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium)의 버전 170 Microsoft 365 Enterprise 4 이상 
+- Windows 장치에서 Microsoft 365 Business 라이선스 버전 1704 이상(Business Basic, Business Standard, Business Premium), Office 365 Enterprise 라이선스(E1/E3/E5/F3) 또는 Microsoft 365 Enterprise 라이선스(E3/E5/F3) 
 - Mac 버전 15.34 이상. 
 
 이 Outlook 사용자는 다음 중 하나를 사용하고 있어야 합니다. 
-- 버전 1701 이상Microsoft 365 Enterprise E3/E5/F3) 또는 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium). 
+- Microsoft 365 Business 라이선스 버전 1701 이상(Business Basic, Business Standard, Business Premium), Office 365 Enterprise 라이선스(E1/E3/E5/F3) 또는 Microsoft 365 Enterprise 라이선스(E3/E5/F3) 
 - 2019 또는 Office Professional Plus 2019 버전 Office Standard 버전 1808 이상입니다. 
 - MSI(버전 16.0.4494.1000 이상) 또는 MSI(Office Professional Plus 2016)Office Standard 2016 버전입니다.
     > [!NOTE]
@@ -247,7 +247,7 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office�
 ## <a name="add-in-states"></a>추가 기능 상태
 추가 기능의 상태는 **On** 또는   Off **상태일 수**   있습니다. 
 
-| 시/도 | 상태가 적용되는 경우 | 영향 |
+| 상태 | 상태가 적용되는 경우 | 영향 |
 |:-----|:-----|:-----|
 |**활성**  <br/> |관리자가 추가 기능을 업로드하고 사용자 또는 그룹에 할당했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.  <br/> |
 |**해제됨**  <br/> |관리자가 추가 기능을 해제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> 추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.  <br/> |
@@ -289,7 +289,7 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 Office�
 - 추가 기능을 둘 이상의 추가 기능 및 웹앱에 연결하고 이러한 추가 기능 중 하나 이상이 다른 관리자(exchange/global)에 의해 배포되고 사용자 할당이 균일하지 않은 경우 사용자 할당이 이미 배포된 모든 앱에 대해 동일한 경우 추가 기능 배포만 허용합니다.  
 
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="which-administrator-role-do-i-need-to-access-integrated-apps"></a>통합 앱에 액세스하려면 어떤 관리자 역할이 필요한가요?
 

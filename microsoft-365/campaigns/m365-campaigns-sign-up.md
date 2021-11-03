@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대한 Microsoft 365 단계별 등록 전자 메일, 데이터 및 통신에 대한 사이버 보안 위협으로부터 캠페인을 보호합니다.
-ms.openlocfilehash: 7ef49e686a152cd4bc56d39e7edff107dfbb2ea7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1af25933491d4c05d11707f290c584145019602b
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156885"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662753"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인 등록 Microsoft 365 등록 
 
@@ -54,6 +54,10 @@ ms.locfileid: "60156885"
     1. 사용자 **이름** 에 전자 메일 주소에 대해 원하는 이름 또는 별칭을 입력합니다. 예를 들어 Alice 또는 Rob으로 알려야 할 수 있습니다. 더 큰 캠페인에서는 AliceC 또는 AliceChavez가 더 의미가 있을 수 있습니다.
     2. **회사에서** 작업하는 캠페인의 이름을 입력합니다. 예: ContosoCampaign. 도메인을 이미 소유하고 있는 경우 여기에서 해당 이름을 사용하세요. 
     3. 도메인 **선택에서** **지금 .onmicrosoft.com** 선택합니다. 나중에 도메인을 설정하거나 이미 소유한 도메인에 Microsoft 365 수 있습니다.
+
+       > [!IMPORTANT]
+       > .onmicrosoft.com 도메인에 대해 입력한 이름은 모든 SharePoint 및 OneDrive URL에 사용되어 변경하지 못하게 될 수 있습니다. 브랜디드 관점에서 이름을 고려하고 철자를 올바르게 입력해야 합니다.
+
     4. 암호를 만들고 내 계정 **만들기 를 선택합니다.**
     > [!NOTE]
     > 캠페인이나 파티가 도메인을 소유하지 않는 경우 원하는 도메인을 결정한 경우 지금 도메인을 선택하여 구입할 수 있습니다.

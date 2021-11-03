@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4082dbe9964c115df279f04d4a25ce5fbeb2cec2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5006347ad8f4487c904fc6df4934bbaf612a1bdf
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159117"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60664239"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -55,14 +53,14 @@ ms.locfileid: "60159117"
 
 | 열 이름 | 원래 값 이름 | 새 값 이름 | 변경 이유
 |--|--|--|--|
-| `DetectionSource` | MCAS | Microsoft Cloud App Security | Rebranding |
+| `DetectionSource` | MCAS | Microsoft 클라우드 앱 보안 | Rebranding |
 | `DetectionSource` | WindowsDefenderAtp| EDR| Rebranding |
 | `DetectionSource` | WindowsDefenderAv | 바이러스 검사 | Rebranding |
 | `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Rebranding |
 | `DetectionSource` | CustomerTI | 사용자 지정 TI | Rebranding |
 | `DetectionSource` | OfficeATP | Office 365용 Microsoft Defender | Rebranding |
 | `DetectionSource` | MTP | Microsoft 365 Defender | Rebranding |
-| `DetectionSource` | AzureATP | Microsoft Defender for Identity | Rebranding |
+| `DetectionSource` | AzureATP | ID용 Microsoft Defender | Rebranding |
 | `DetectionSource` | CustomDetection | 사용자 지정 검색 | Rebranding |
 | `DetectionSource` | AutomatedInvestigation |자동화된 조사 | Rebranding |
 | `DetectionSource` | ThreatExperts | Microsoft 위협 전문가 | Rebranding |
@@ -70,7 +68,7 @@ ms.locfileid: "60159117"
 | `ServiceSource` | Microsoft Defender ATP| 엔드포인트용 Microsoft Defender | Rebranding |
 |`ServiceSource` |Microsoft 위협 방지 | Microsoft 365 Defender | Rebranding |
 | `ServiceSource` | Office 365 ATP |Office 365용 Microsoft Defender | Rebranding |
-| `ServiceSource` |Azure ATP |Microsoft Defender for Identity | Rebranding |
+| `ServiceSource` |Azure ATP |ID용 Microsoft Defender | Rebranding |
 
 `DetectionSource` 은 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. `ServiceSource` 은 [AlertEvidence](advanced-hunting-alertevidence-table.md) 및 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. 
 

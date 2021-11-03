@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 피싱, Office 365 및 기타 위협으로부터 중요한 데이터를 보호하고 보호할 수 있는 Microsoft Defender를 설정하십시오.
-ms.openlocfilehash: 60a84b972618444fcddc4165235eef909f4341c5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 89405628488d5a8574636025a614a3aac7e20dd9
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60178170"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667785"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -100,7 +100,7 @@ ms.locfileid: "60178170"
 
 사용자의 사서함에 액세스할 수 있는 해커는 사서함이 자동으로 전자 메일을 전달하도록 설정하여 메일을 도용할 수 있습니다. 이는 사용자의 인식 없이도 발생될 수 있습니다. 이러한 문제를 방지할 수 있도록 메일 흐름 규칙을 구성합니다.
 
-메일 전송 규칙을 만들 수 [](../../business-video/stop-email-auto-forward.md) 있는 경우 이 짧은 비디오를 시청하거나 다음 단계를 따르세요.
+메일 전송 규칙을 만들 수 있는 단계는 다음과 같습니다.
 
 1. 다음 Microsoft 365 관리 센터 에서 관리 센터 **를** \> **Exchange.**
 
@@ -131,7 +131,7 @@ Office 365 또는 Microsoft 365 사용자 지정 도메인을 하나 이상 구�
 
 Microsoft Defender에서 피싱 방지 정책을 Office 365 이 짧은 교육 [](../../business-video/setup-anti-phishing.md)비디오를 시청하거나 다음 단계를 완료하세요.
 
-1. [https://protection.office.com](https://protection.office.com)(으)로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
 
 2. 보안 및 준수 센터의 왼쪽 탐색 창에 있는 위협 관리에서 &amp; 정책을 **선택 합니다.** 
 

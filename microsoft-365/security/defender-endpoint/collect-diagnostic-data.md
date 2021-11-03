@@ -17,14 +17,14 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3a4dc0b6a9faafe841efbd976b35631a8ac0febf
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f32300976136c8a7526d62547515d739a681e51c
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193078"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60665792"
 ---
-# <a name="collect-microsoft-defender-av-diagnostic-data"></a>Microsoft Defender AV 진단 데이터 수집
+# <a name="collect-microsoft-defender-antivirus-diagnostic-data"></a>진단 Microsoft Defender 바이러스 백신 데이터 수집
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "60193078"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-이 문서에서는 Microsoft 지원 및 엔지니어링 팀에서 Microsoft Defender AV를 사용할 때 발생할 수 있는 문제를 해결하는 데 사용할 수 있는 진단 데이터를 수집하는 방법을 설명합니다.
+이 문서에서는 Microsoft 지원 및 엔지니어링 팀에서 사용할 수 있는 진단 데이터를 수집하여 데이터 센터를 사용할 때 발생할 수 있는 문제를 해결하는 Microsoft Defender 바이러스 백신.
 
 > [!NOTE]
 > 조사 또는 응답 프로세스의 일부로 장치에서 조사 패키지를 수집할 수 있습니다. 방법: 장치에서 [조사 패키지를 수집합니다.](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
@@ -48,10 +48,10 @@ ms.locfileid: "60193078"
 
     c. 관리자 자격 증명을 지정하거나 프롬프트를 승인합니다.
 
-2. Microsoft Defender 디렉터리로 이동합니다. 기본적으로 는 `C:\Program Files\Windows Defender` 입니다.
+2. 검색할 디렉터리로 Microsoft Defender 바이러스 백신. 기본적으로 는 `C:\Program Files\Windows Defender` 입니다.
 
    > [!NOTE]
-   > 업데이트된 [Microsoft Defender 플랫폼](https://support.microsoft.com/help/4052623/update-for-microsoft-defender-antimalware-platform)버전을 실행 중인 경우 다음 위치에서 `MpCmdRun` `C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` 실행하세요. .
+   > 업데이트된 [Microsoft Defender](https://support.microsoft.com/help/4052623/update-for-microsoft-defender-antimalware-platform)맬웨어 방지 플랫폼 버전을 실행하는 경우 다음 위치에서 `MpCmdRun` `C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` 실행하세요. .
 
 3. 다음 명령을 입력한 다음 **Enter를 누르기**
 
@@ -62,7 +62,11 @@ ms.locfileid: "60193078"
 4. 다양한 .cab 로그가 포함된 파일도 생성됩니다. 파일 위치는 명령 프롬프트의 출력에 지정됩니다. 기본적으로 위치는 `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` 입니다.
 
    > [!NOTE]
-   > cab 파일을 다른 경로 또는 UNC 공유로 리디렉션하기 위해 다음 명령을 사용 합니다. `mpcmdrun.exe -GetFiles -SupportLogLocation <path>`  <br/>자세한 내용은 진단 데이터를 [UNC 공유로 리디렉션을 참조하세요.](#redirect-diagnostic-data-to-a-unc-share)
+   > cab 파일을 다른 경로 또는 UNC 공유로 리디렉션하기 위해 다음 명령을 사용 합니다.
+   >
+   > `mpcmdrun.exe -GetFiles -SupportLogLocation <path>`
+   >
+   > 자세한 내용은 진단 데이터를 [UNC 공유로 리디렉션을 참조하세요.](#redirect-diagnostic-data-to-a-unc-share)
 
 5. 이러한 .cab 파일을 Microsoft 지원에서 액세스할 수 있는 위치에 복사합니다. 예를 들어 사용자와 공유할 수 있는 암호로 OneDrive 폴더를 예로 들 수 있습니다.
 

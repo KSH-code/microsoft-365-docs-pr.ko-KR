@@ -19,12 +19,12 @@ description: Microsoft Defender를 Office 365 Microsoft Defender for Endpoint를
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c0d532f06ce4757e8bca7f337992706480916aba
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 289625785baf6184d1da15d4f241283277dd456b
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60149613"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60660930"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 함께 Office 365 Microsoft Defender 사용
 
@@ -39,7 +39,7 @@ Microsoft Defender for Office 365 Microsoft Defender for Endpoint와 통합하�
 
 ![끝점용 Microsoft Defender를 사용하도록 설정하면 경고가 있는 장치 목록을 볼 수 있습니다.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
 
-이 예에서는 감지된 전자 메일 메시지의 받는 사람에게 4개의 장치가 있으며, 다른 하나는 경고를 표시하는지 볼 수 있습니다. 장치에 대한 링크를 클릭하면 Microsoft 365 Defender 포털(이전의 Microsoft Defender 보안 [센터)에서](../defender-endpoint/microsoft-defender-security-center.md) 해당 페이지가 열립니다.
+이 예에서는 감지된 전자 메일 메시지의 받는 사람에게 4개의 장치가 있으며, 다른 하나는 경고를 표시하는지 볼 수 있습니다. 디바이스에 대한 링크를 클릭하면 Microsoft 365 Defender 포털(이전의 [Microsoft Defender 보안 센터.)에서](../defender-endpoint/microsoft-defender-security-center.md) 해당 페이지가 열립니다.
 
 > [!TIP]
 > Microsoft 365 Defender 포털이 Microsoft Defender 보안 센터. 에서 [Microsoft Defender for Endpoint를 Microsoft 365 Defender.](../defender/microsoft-365-security-center-mde.md)

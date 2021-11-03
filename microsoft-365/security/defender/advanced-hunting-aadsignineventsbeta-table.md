@@ -1,6 +1,6 @@
 ---
 title: 고급 헌팅 스위마의 AADSignInEventsBeta 테이블
-description: 고급 헌팅 Azure Active Directory 로그인 이벤트 테이블과 관련된 정보에 대해 자세히 알아보시고
+description: 고급 헌팅 Azure Active Directory 로그인 이벤트 표에 대해 자세히 알아보시고
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, 파일, IP 주소, 장치, 컴퓨터, 사용자, 계정, ID, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d5e5ee451920f996dd3cc710cd6a0dbe9aaf3c50
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8fa111b636026de49c854eb5ec8c17f1aad5c3eb
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60202682"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60700340"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -34,9 +32,9 @@ ms.locfileid: "60202682"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> 이 표는 현재 베타 버전이며 AAD(로그인 이벤트)를 Azure Active Directory 수 있도록 `AADSignInEventsBeta` 단기적으로 제공됩니다. 결국 모든 로그인 Schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.
+> 이 표는 현재 베타로 제공되고 있으며, 사용자가 Azure Active Directory(AAD) 로그인 이벤트를 헌팅할 수 있도록 `AADSignInEventsBeta` 단기적으로 제공됩니다. 고객은 이 테이블에 대한 Azure Active Directory Premium P2 수집하고 볼 수 있는 라이선스가 필요합니다. 결국 모든 로그인 Schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.
 
-고급 헌팅chema의 표에는 대화형 Azure Active Directory 비대화형 로그인에 대한 정보가 `AADSignInEventsBeta` 포함되어 있습니다. 자세한 내용은 Azure Active Directory 활동 보고서의 로그인 - 미리 [보기를 통해 자세히 알아보실 수 있습니다.](/azure/active-directory/reports-monitoring/concept-all-sign-ins)
+고급 헌팅chema의 표에는 대화형 Azure Active Directory 비대화형 로그인에 대한 정보가 `AADSignInEventsBeta` 포함되어 있습니다. 자세한 내용은 Azure Active Directory 활동 보고서의 로그인 - 미리 [보기를 통해 자세히 알아보실 수 있습니다.](/azure/active-directory/reports-monitoring/concept-all-sign-ins) 
 
 이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다. 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)를 참조하세요.
 
@@ -49,10 +47,10 @@ ms.locfileid: "60202682"
 |`Timestamp`|datetime|레코드 생성 날짜 및 시간|
 |`Application`|문자열|기록된 작업을 수행한 응용 프로그램|
 |`ApplicationId`|문자열|응용 프로그램의 고유 식별자|
-|`LogonType`|문자열|로그온 세션 유형, 특히 RDP(대화형, 원격 대화형), 네트워크, 일괄 처리 및 서비스|
+|`LogonType`|문자열|로그온 세션 유형, 대화형, RDP(원격 대화형), 네트워크, 일괄 처리 및 서비스|
 |`ErrorCode`|int|로그인 오류가 발생하는 경우 오류 코드가 들어 있습니다. 특정 오류 코드에 대한 설명을 찾으면 을 <https://aka.ms/AADsigninsErrorCodes> 방문하세요.|
 |`CorrelationId`|문자열|로그인 이벤트의 고유 식별자|
-|`SessionId`|문자열|방문 또는 세션 기간 동안 웹 사이트 서버에 의해 사용자에게 할당된 고유 번호|
+|`SessionId`|문자열|방문 또는 세션 중에 웹 사이트 서버에서 사용자에게 할당된 고유 번호|
 |`AccountDisplayName`|문자열|주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 이니셜 및 성 또는 성의 조합입니다.|
 |`AccountObjectId`|문자열|Azure AD에서 계정의 고유 식별자|
 |`AccountUpn`|문자열|계정의 UPN(사용자 계정 이름)|
@@ -65,7 +63,7 @@ ms.locfileid: "60202682"
 |`ResourceTenantId`|문자열|액세스한 리소스의 테넌트의 고유 식별자입니다.|
 |`DeviceName`|문자열|컴퓨터의 FQDN(정규화된 도메인 이름)|
 |`AadDeviceId`|문자열|Azure AD에서 디바이스의 고유 식별자|
-|`OSPlatform`|문자열|컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 11, Windows, Windows 10 및 Windows 7과 같은 특정 운영 체제를 나타냅니다.|
+|`OSPlatform`|문자열|컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 11, Windows 10 및 7과 같은 동일한 패밀리 내의 변형을 포함하여 특정 운영 Windows 나타냅니다.|
 |`DeviceTrustType`|문자열|로그인한 장치의 트러스트 유형을 나타냅니다. 관리되는 장치 시나리오의 경우만 해당합니다. 가능한 값은 Workplace, AzureAd 및 ServerAd입니다.|
 |`IsManaged`|int|로그인을 시작한 장치가 관리되는 장치(1)인지 아니면 관리되는 장치(0)가 아닌지 나타냅니다.|
 |`IsCompliant`|int|로그인을 시작한 장치가 호환(1) 또는 비호응(0)하는지 나타냅니다.|

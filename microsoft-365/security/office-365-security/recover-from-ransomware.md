@@ -12,15 +12,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
+- m365solution-ransomware
 description: Microsoft 365 관리자가 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: da9b53aec47231446571a2ae5852bed842311079
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 86ca603b013f95d93ced70faa42f47f0f7b63e8c
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60552683"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667819"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>랜섬웨어 공격으로부터 Microsoft 365
 
@@ -81,7 +82,7 @@ ms.locfileid: "60552683"
 
 사용자 환경에서 랜섬웨어 페이로드를 제거하기 위한 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하지 못하게 [](https://support.microsoft.com/help/17128) 하려는 경우) Windows 11, Windows 10, Windows 8.1 및 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다.
 
-**참고**:
+**참고:**
 
 - 일부 랜섬웨어는 또한 백업 버전을 암호화하거나 삭제하기 때문에 파일 기록 또는 시스템 보호를 사용하여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명된 바와 같이 랜섬웨어 또는 랜섬웨어의 영향을 받지 OneDrive 장치에서 백업을 사용해야 합니다.
 
@@ -149,8 +150,7 @@ Microsoft의 주요 정보:
 - [사람이 조작하는 랜섬웨어](/security/compass/human-operated-ransomware)
 - [랜섬웨어 및 탈취로부터 신속하게 보호](/security/compass/protect-against-ransomware)
 - [2021 Microsoft Digital Defense 보고서](https://www.microsoft.com/security/business/microsoft-digital-defense-report)(10-19페이지 참조)
-- [랜섬웨어:](https://security.microsoft.com/threatanalytics3/05658b6c-dc62-496d-ad3c-c6a795a33c27/overview) 랜섬웨어 포털의 보행 및 지속적인 위협 분석 Microsoft 365 Defender 보고서
-
+- [랜섬웨어: 만연하고 지속적인 위협](https://security.microsoft.com/threatanalytics3/05658b6c-dc62-496d-ad3c-c6a795a33c27/overview) Microsoft 365 Defender 포털의 위협 분석 보고서
 
 Microsoft 365:
 
@@ -159,7 +159,7 @@ Microsoft 365:
 - [맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [랜섬웨어로부터 Windows PC 보호](https://support.microsoft.com//windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3)
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
-- [보안 포털의 랜섬웨어에](https://security.microsoft.com/threatanalytics3?page_size=30&filters=tags%3DRansomware&ordering=-lastUpdatedOn&fields=displayName,alertsCount,impactedEntities,reportType,createdOn,lastUpdatedOn,tags,flag) 대한 위협 Microsoft 365 Defender 보고서
+- Microsoft 365 Defender 포털의 [랜섬웨어에 대한 위협 분석 보고서](https://security.microsoft.com/threatanalytics3?page_size=30&filters=tags%3DRansomware&ordering=-lastUpdatedOn&fields=displayName,alertsCount,impactedEntities,reportType,createdOn,lastUpdatedOn,tags,flag)
 
 Microsoft 365 Defender:
 
@@ -182,6 +182,14 @@ Microsoft Cloud App Security:
 Microsoft 보안 팀 블로그 게시물:
 
 - [랜섬웨어 방지 및 복구를 위한 3단계(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/07/3-steps-to-prevent-and-recover-from-ransomware/)
+- [인간이 운영하는 랜섬웨어를 퇴치하기 위한 가이드: 1부(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/20/a-guide-to-combatting-human-operated-ransomware-part-1/)
+
+  Microsoft의 DART(감지 및 대응 팀)가 랜섬웨어 인시던트 조사를 수행 하는 방법에 대한 주요 단계입니다.
+
+- [인간이 운영하는 랜섬웨어를 퇴치하기 위한 가이드: 2부(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/27/a-guide-to-combatting-human-operated-ransomware-part-2/)
+
+  권장 사항 모범 사례를 제공합니다.
+
 - [사이버 보안 위험 파악을 통한 탄력성 강화: 제4부—현재 위협 탐색(2021년 5월)](https://www.microsoft.com/security/blog/2021/05/26/becoming-resilient-by-understanding-cybersecurity-risks-part-4-navigating-current-threats/)
 
   **랜섬웨어** 섹션을 참조하세요.

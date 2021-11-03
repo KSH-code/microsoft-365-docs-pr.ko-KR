@@ -12,19 +12,19 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 1fcbdb702035913cf1a3317dd9b3619ef020ebab
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 43207493a33c002d8137ecf3604393b06a15c17e
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208148"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662442"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 네트워크 구성
 
 <!--Proxy config -->
 
 
-## <a name="proxy-configuration"></a>프록시 구성
+## <a name="proxy-configuration"></a> 프록시 구성
 
 Microsoft Managed Desktop 클라우드 관리 서비스입니다. 서비스에서 도달할 수 Microsoft Managed Desktop 끝점이 있습니다. 이 섹션에서는 Microsoft Managed Desktop 서비스에서 다양한 측면에 대해 허용해야 하는 끝점을 나열합니다. 
 
@@ -36,7 +36,7 @@ Microsoft Managed Desktop 클라우드 관리 서비스입니다. 서비스에�
 
 프록시 또는 방화벽은 TLS 1.2를 지원해야 합니다. 그렇지 않으면 프로토콜 검색을 사용하지 않도록 설정해야 할 수 있습니다.
 
-### <a name="endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop"></a>끝점 사용이 허용되는 데 필요한 끝점은 Microsoft Managed Desktop
+### <a name="allowed-endpoints-that-are-necessary-for-microsoft-managed-desktop"></a>허용되는 끝점에 필요한 Microsoft Managed Desktop
 
 Microsoft Managed Desktop Azure Portal을 사용하여 웹 콘솔을 호스트합니다. 다음 URL은 프록시 및 방화벽의 허용 목록에 있어야 Microsoft Managed Desktop Microsoft 서비스와 통신할 수 있습니다.  
 
@@ -44,13 +44,12 @@ Microsoft Managed Desktop Azure Portal을 사용하여 웹 콘솔을 호스트�
 
 Microsoft 서비스  | 허용 목록에 필요한 URL 
 --- | ---
-Microsoft Managed Desktop | prod-mwaas-services-customerapi.azurewebsites.net
+Microsoft Managed Desktop | prod-mwaas-services-customerapi.azurewebsites.net <br>mmd-support-prod-nam.trafficmanager.net <br>mmdls.microsoft.com
 도움말 | \*.support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net  <br>concierge.live.com
 빠른 지원 | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*.lync.com
 Microsoft 지원 및 복구 도우미 | \*.apibasic.diagnostics.office.com  <br>\*.api.diagnostics.office.com
  
-
-### <a name="endpoints-allowed-used-by-other-microsoft-products"></a>다른 Microsoft 제품에서 사용할 수 있는 끝점
+### <a name="allowed-endpoints-used-by-other-microsoft-products"></a>다른 Microsoft 제품에서 사용되는 허용된 끝점
 
 허용 목록에 여러 Microsoft 제품의 URL이 있으므로 Microsoft Managed Desktop Microsoft 서비스와 통신할 수 있습니다. 링크를 사용하여 각 제품에 대한 전체 목록을 볼 수 있습니다. 
 

@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(전자 메일 그룹)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 Exchange Online Protection 있습니다. Microsoft Defender for Office 365 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 비즈니스용 OneDrive 관리할 Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7bf5b4fa2c339e1132efb71c53a5eaf62f9646ad
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5b3192c7531006b16d238899fe6ccbaa5390d815
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174438"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60663670"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -63,12 +63,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
   - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
   - <sup>\*</sup>Microsoft 365 Defender 포털의 **전자 메일** & 공동 작업 역할에 있는 [](permissions-microsoft-365-security-center.md#email--collaboration-roles-in-the-microsoft-365-defender-portal) **Quarantine** **Administrator** 역할 그룹의 구성원도 Exchange Online PowerShell에서 절차를 수행하려면 Exchange Online 관리 역할 그룹의 구성원이 Exchange Online 합니다. [](/Exchange/permissions-exo/permissions-exo#role-groups)
 
-- Quarantined messages are retained for a default period of time before they're automatically deleted:
-  - 스팸 방지 정책(스팸, 피싱 및 대량 전자 메일)으로 차단된 메시지에 대해 30일 이 값은 기본값 및 최대값입니다. 이 값을 구성(더 낮음)으로 설정하는 내용은 스팸 방지 정책 [구성을 참조합니다.](configure-your-spam-filter-policies.md)
-  - 맬웨어가 포함된 메시지의 경우 15일
-  - SharePoint, OneDrive 및 Microsoft Teams 대한 금고 첨부 파일로 Microsoft Teams 15일 동안 Office 365.
-
-  메시지가 검지에서 만료되면 복구할 수 없습니다.
+- Quarantined messages are retained for a default period of time based on why they were quarantined. 보존 기간이 만료되면 메시지가 자동으로 삭제되며 복구할 수 없습니다. 자세한 내용은 [EOP의 Quarantined email messages in EOP 및 Defender for Offie 365를 참조하세요.](quarantine-email-messages.md)
 
 ## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-email-messages"></a>Microsoft 365 Defender 포털을 사용하여 quarantined email messages 관리
 

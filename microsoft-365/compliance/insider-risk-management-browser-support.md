@@ -1,5 +1,5 @@
 ---
-title: 내부자 위험 관리 브라우저 신호 감지(미리 보기)에 대해 알아보고 구성
+title: 내부자 위험 관리 브라우저 신호 감지에 대해 알아보고 구성
 description: 내부자 위험 관리 브라우저 신호 검색에 대해 Microsoft 365
 keywords: Microsoft 365, 내부 위험 관리, 위험 관리, 규정 준수
 ms.localizationpriority: medium
@@ -15,14 +15,14 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: a89393a2e420948a126ec5503a16ce981ed9652a
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 5cde3a6f03c1c876878fc5ddda5ac4a8bc698977
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60334506"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662531"
 ---
-# <a name="learn-about-and-configure-insider-risk-management-browser-signal-detection-preview"></a>내부자 위험 관리 브라우저 신호 감지(미리 보기)에 대해 알아보고 구성
+# <a name="learn-about-and-configure-insider-risk-management-browser-signal-detection"></a>내부자 위험 관리 브라우저 신호 감지에 대해 알아보고 구성
 
 웹 브라우저는 사용자가 조직 내에서 중요한 파일과 중요하지 않은 파일에 모두 액세스하는 데 자주 사용됩니다. 내부자 위험 관리를 통해 조직은 조직과 [Google Chrome](https://www.google.com/chrome) 브라우저에서 볼 수 있는 실행되지 않는 모든 파일에 대한 브라우저 [유출 신호를 Microsoft Edge](https://www.microsoft.com/edge) 수 있습니다. 이러한 신호를 사용하여 분석가와 조사자는 이러한 브라우저를 사용할 때 범위 내 정책 사용자가 다음 활동 중 한 가지를 수행할 때 신속하게 작업을 수행할 수 있습니다.
 

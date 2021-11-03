@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d1f3214efa76759fa9e1a17ed4497c476125a096
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: a5c96f8a3dd96219f58ac667e03b50e03498dcae
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60552597"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60659106"
 ---
 # <a name="supported-operating-systems-platforms-and-capabilities---for-threat-and-vulnerability-management"></a>지원되는 운영 체제, 플랫폼 및 기능 - 위협 및 취약성 관리
 
@@ -64,6 +64,8 @@ CentOS 7.2 이상|예|예|예|예|예
 Ubuntu 16.04 LTS 이상 LTS|예|예|예|예|예
 Oracle Linux 7.2 이상|예|예|예|예|예
 SUSE Linux Enterprise Server 12 이상|예|예|예|예|예
+Android 6.0 이상(미리 보기)|예|예|지원되지 않음|지원되지 않음|지원되지 않음
+iOS 12.0 이상(미리 보기)|예|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음
 
 > [!NOTE]
 > 일부 기능은 다운 수준 운영 체제에 사용할 수 없습니다. 지원되는 OS에 대한 Microsoft 365 Defender 자세한 내용은 Microsoft 365 Defender Portal을 참조합니다.

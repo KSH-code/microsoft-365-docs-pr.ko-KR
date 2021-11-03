@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eff066610d87dd637a861906b8f6a4a4c73ae2ae
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3954ef585ee3a4f51677f3e5e26b6309d3b75889
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162401"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60661462"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -63,13 +61,19 @@ ms.locfileid: "60162401"
 | `Isp` | 문자열 | IP 주소와 연결된 ISP(인터넷 서비스 공급자) |
 | `UserAgent` | 문자열 | 웹 브라우저 또는 기타 클라이언트 응용 프로그램의 사용자 에이전트 정보 |
 | `ActivityType` | 문자열 | 이벤트를 트리거한 활동 유형 |
-| `ActivityObjects` | 문자열 | 기록된 활동에 관련된 파일 또는 폴더와 같은 개체 목록 |
+| `ActivityObjects` | dynamic | 기록된 활동에 관련된 파일 또는 폴더와 같은 개체 목록 |
 | `ObjectName` | 문자열 | 기록된 동작이 적용된 개체의 이름입니다. |
 | `ObjectType` | 문자열 | 기록된 작업이 적용된 개체 유형(예: 파일 또는 폴더)입니다. |
 | `ObjectId` | 문자열 | 기록된 작업이 적용된 개체의 고유 식별자입니다. |
 | `ReportId` | 문자열 | 이벤트의 고유 식별자 |
 | `RawEventData` | 문자열 | 원본 응용 프로그램 또는 서비스의 원시 이벤트 정보(JSON 형식) |
-| `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
+| `AdditionalFields` | dynamic | 엔터티 또는 이벤트에 대한 추가 정보 |
+| `AccountType` | 문자열 | 일반, 시스템, 관리자, DcAdmin, System, Application 등의 일반 역할 및 액세스 수준을 나타내는 사용자 계정 유형 | 
+| `IsExternalUser` | 부울 | 네트워크 내부 사용자가 조직의 도메인에 속하지 않는지 여부를 나타냅니다. | 
+| `IsImpersonated` | 부울 | 다른(가장) 사용자를 대신하여 한 사용자가 활동을 수행한지 여부를 나타냅니다. | 
+| `IPTags` | dynamic | 특정 IP 주소 및 IP 주소 범위에 적용되는 고객 정의 정보 | 
+| `IPCategory` | 문자열 | IP 주소에 대한 추가 정보 | 
+| `UserAgentTags` | dynamic | 사용자 에이전트 필드의 태그에 Microsoft Cloud App Security 사용자가 제공하는 추가 정보입니다. 네이티브 클라이언트, 기한이 지난 브라우저, 기한이 지난 운영 체제, Robot 값을 사용할 수 있습니다. | 
 
 ## <a name="apps-and-services-covered"></a>적용된 앱 및 서비스
 

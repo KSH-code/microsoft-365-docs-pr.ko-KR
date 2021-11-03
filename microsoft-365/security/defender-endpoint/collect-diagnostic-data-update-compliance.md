@@ -1,6 +1,6 @@
 ---
-title: 업데이트 준수 및 업데이트 관리에 대한 진단 Windows Defender Microsoft Defender 바이러스 백신
-description: 도구를 사용하여 데이터 수집을 통해 Microsoft Defender 바이러스 백신 추가 기능 사용 시 준수 업데이트 문제를 해결
+title: 업데이트 준수 및 업데이트 관리에 대한 진단 Microsoft Defender 바이러스 백신
+description: 도구를 사용하여 데이터 수집을 통해 Microsoft Defender 바이러스 백신 추가 기능을 사용할 때 준수 업데이트 문제를 해결합니다.
 keywords: 문제 해결, 오류, 수정, 업데이트 준수, oms, 모니터링, 보고서, Microsoft Defender AV
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -17,12 +17,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 496087a2a66f37537c0638687b4e8503e63bf9f5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b8a0c196373cf0d6ef03b2eccb171d125917a993
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208556"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60665804"
 ---
 # <a name="collect-update-compliance-diagnostic-data-for-microsoft-defender-antivirus-assessment"></a>테스트 평가를 위한 업데이트 Microsoft Defender 바이러스 백신 데이터 수집
 
@@ -71,4 +71,4 @@ ms.locfileid: "60208556"
 
 ## <a name="see-also"></a>참고 항목
 
-- [보고 Windows Defender Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-reporting.md)
+- [보고 Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-reporting.md)

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 데이터 커넥터를 설정하여 조직의 물리적 배지 시스템에서 데이터 원본으로 데이터를 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책에서 이 데이터를 사용하여 조직에 대한 내부 위협을 나타낼 수 있는 특정 사용자의 실제 건물 액세스를 검색할 수 있습니다.
-ms.openlocfilehash: 38e24f85b371a7bf3934c5e4af5b6bfeb0800794
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 042bd5f6089ff05d734ce6d2e159f5d3e3d104bd
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190872"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668337"
 ---
 # <a name="set-up-a-connector-to-import-physical-badging-data-preview"></a>물리적 배지 데이터를 가져오는 커넥터 설정(미리 보기)
 
@@ -45,6 +45,8 @@ ms.locfileid: "60190872"
 
 - 4단계에서 실행한 샘플 스크립트는 내부자 위험 관리 솔루션에서 사용할 수 있도록 JSON 파일의 실제 배지 데이터를 커넥터 API로 푸시합니다. 이 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서 지원되지 않습니다. 샘플 스크립트는 어떤 종류의 보증도 없이 그대로 제공됩니다. 또한 Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 그외 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용할 수 없음으로 인해 발생하는 모든 손해(수익 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알았더라도 마찬가지입니다.
 
+- 이 커넥터는 미국 GCC 클라우드의 Microsoft 365 환경에서 사용할 수 있습니다. 타사 응용 프로그램 및 서비스는 Microsoft 365 인프라 외부에 있는 타사 시스템에서 조직의 고객 데이터를 저장, 전송 및 처리해야 할 수 있으므로 Microsoft 365 및 데이터 보호 약정의 적용을 Microsoft 365 수 있습니다. Microsoft는 타사 응용 프로그램에 연결하는 데 이 제품을 사용하는 것은 해당 타사 응용 프로그램이 FEDRAMP 규격임을 암시하는 표현을 사용하지 않습니다.
+
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1단계: 앱에서 앱 Azure Active Directory
 
 첫 번째 단계는 Azure AD(Azure AD)에서 새 Azure Active Directory 등록하는 것입니다. 앱은 3단계에서 만든 실제 배지 커넥터에 해당합니다. 이 앱을 만들면 Azure AD에서 실제 배지 데이터가 포함된 JSON 페이로드에 대한 푸시 요청을 인증할 수 있습니다. 이 Azure AD 앱을 만들 때 다음 정보를 저장해야 합니다. 이러한 값은 이후 단계에서 사용됩니다.
@@ -69,7 +71,7 @@ JSON 파일은 커넥터에 필요한 Schema 정의를 준수해야 합니다. J
 |AssetId|실제 자산 또는 물리적 액세스 지점의 참조 ID입니다.|영문 문자열|
 |AssetName|실제 자산 또는 물리적 액세스 지점의 이름입니다.|영문 문자열|
 |EventTime|액세스의 타임스탬프입니다.|날짜 및 시간(UTC 형식)|
-|AccessStatus|또는 `Success``Failed`|String|
+|AccessStatus|또는 `Success``Failed`|문자열|
 |||
 
 다음은 필요한 Schema를 준수하는 JSON 파일의 예입니다.

@@ -17,12 +17,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: overview
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c6540847d6861b5d4f07d3b542afe8ceb3fcf413
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: a00fa0c255156f17f579889e8a399c52d126a6f8
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553463"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60661601"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
@@ -141,7 +141,7 @@ Azure의 Windows 데스크톱에서 사용되는 Windows 10 Enterprise 세션 19
 
 ## <a name="network-protection-troubleshooting"></a>네트워크 보호 문제 해결
 
-네트워크 보호가 실행되는 환경으로 인해 Microsoft는 운영 체제 프록시 설정을 검색하지 못하게 될 수 있습니다. 경우에 따라 네트워크 보호 클라이언트가 클라우드 서비스에 연결하지 못할 수 있습니다. 연결 문제를 해결하려면 E5 라이선스가 있는 고객은 다음 Defender 레지스트리 키 중 하나를 구성해야 합니다.
+네트워크 보호가 실행되는 환경으로 인해 Microsoft는 운영 체제 프록시 설정을 검색하지 못하게 될 수 있습니다. 경우에 따라 네트워크 보호 클라이언트가 클라우드 서비스에 연결하지 못할 수 있습니다. 연결 문제를 해결하려면 E5 라이선스가 있는 고객은 다음 레지스트리 키 중 하나를 구성해야 합니다.
 
 ```console
 reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f

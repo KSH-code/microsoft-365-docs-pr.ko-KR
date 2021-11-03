@@ -18,16 +18,16 @@ search.appverid:
 - MOE150
 - GEA150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft 브라우저 사용 현황 보고서를 다운로드하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: 973129b6b5bccf26e6a37dada5fde13c97e69f18
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: ac2eb7af8f89fb3d496d7b2afd8ca66322e20275
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553331"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60654002"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 브라우저 사용
 
-Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 이를 통해 개별 제품 수준 보고서를 드릴다운하여 각 제품 내의 활동에 대한 더 세부적인 정보를 얻을 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft 브라우저 사용 현황 보고서에서 사용 현황, Internet Explorer 및 새로운 Microsoft Edge 레거시 정보를 얻을 Microsoft Edge 있습니다. 사용 현황 보고는 Microsoft Microsoft 365 액세스하는 온라인 서비스를 기반으로 합니다.
+보고서 Microsoft 365 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 이를 통해 개별 제품 수준 보고서를 드릴다운하여 각 제품 내의 활동에 대한 더 세부적인 정보를 얻을 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft 브라우저 사용 현황 보고서에서 사용 현황, Internet Explorer 및 새로운 Microsoft Edge 레거시 정보를 얻을 Microsoft Edge 있습니다. 사용 현황 보고는 Microsoft Microsoft 365 액세스하는 온라인 서비스를 기반으로 합니다.
 
 ## <a name="how-to-get-to-the-microsoft-browser-usage-report"></a>Microsoft 브라우저 사용 현황 보고서에 다운로드하는 방법
 

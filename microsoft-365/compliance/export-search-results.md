@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 콘텐츠 검색의 검색 결과를 로컬 Microsoft 365 규정 준수 센터 내보낼 수 있습니다. 전자 메일 결과는 PST 파일로 내보낼 수 있습니다. 사이트 SharePoint 비즈니스용 OneDrive 콘텐츠는 기본 Office 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4a140b933aabbdcf06c9f3c9ab0cbf40d2b05e7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 22f66333a5fa2c5b570b564276c626fa0b41f83d
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60170683"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662697"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -138,6 +138,9 @@ ms.locfileid: "60170683"
 ## <a name="step-2-download-the-search-results"></a>2단계: 검색 결과 다운로드
 
 다음 단계는 검색 결과를 로컬 컴퓨터로 Azure Storage 다운로드하는 것입니다.
+
+> [!NOTE]
+> 내보낼 검색 결과는 1단계에서 내보내기 작업을 만든 후 14일 이내에 다운로드해야 합니다.
   
 1. 콘텐츠 **검색 페이지의** Microsoft 365 규정 준수 센터 **내보내기 탭을** 선택합니다.
   
@@ -172,7 +175,7 @@ ms.locfileid: "60170683"
   
     **eDiscovery 내보내기 도구** 는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료되면 다운로드된 위치에서 파일에 액세스할 수 있습니다.
 
-## <a name="more-information"></a>추가 정보
+## <a name="more-information"></a>자세한 정보
 
 검색 결과 내보내기에 대한 자세한 내용은 다음과 같은 정보를 제공합니다.
   

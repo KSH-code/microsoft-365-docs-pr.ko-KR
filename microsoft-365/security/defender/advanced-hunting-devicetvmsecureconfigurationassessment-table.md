@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 193bfb6b535ebafa0056c416a55a4c32af53bf84
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0699f5b034787882ac85a73f27fa5b040dbccc68
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60202634"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60659075"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -46,7 +44,7 @@ ms.locfileid: "60202634"
 |-------------|-----------|-------------|
 | `DeviceId` | 문자열 | 서비스에서 디바이스의 고유 식별자 |
 | `DeviceName` | 문자열 | 장치의 FQDN(FQDN) |
-| `OSPlatform` | 문자열 | 디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 11, Windows, Windows 10 및 Windows 7과 같은 특정 운영 체제를 나타냅니다.|
+| `OSPlatform` | 문자열 | 디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 11, Windows 10 및 Windows 7과 같은 동일한 패밀리 내의 변형을 포함하여 특정 운영 체제를 나타냅니다.|
 | `Timestamp` | 날짜 시간 | 레코드 생성 날짜 및 시간 |
 | `ConfigurationId` | 문자열 | 특정 구성의 고유 식별자 |
 | `ConfigurationCategory` | 문자열 | 구성이 속해 있는 범주 또는 그룹(응용 프로그램, OS, 네트워크, 계정, 보안 제어) |

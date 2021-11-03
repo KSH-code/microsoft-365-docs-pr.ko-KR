@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: 검색 결과에서 콘텐츠 검색의 실제 결과를 내보내는 Microsoft 365 규정 준수 센터 검색 결과 보고서를 내보낼 수 있습니다. 보고서에는 내보낼 각 항목에 대한 자세한 정보가 포함된 검색 결과 및 문서가 요약되어 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5bef65905d6a93ab1eba51c7550824baca0e8ee
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d06cc712e8c81304bbd11a9c93f35e48d279a36e
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201184"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668369"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
@@ -99,6 +99,9 @@ ms.locfileid: "60201184"
 ## <a name="step-2-download-the-report"></a>2단계: 보고서 다운로드
 
 다음 단계는 보고서 영역의 보고서를 로컬 Azure Storage 다운로드하는 것입니다.
+
+> [!NOTE]
+> 내보낼 검색 보고서는 1단계에서 보고서를 생성한 후 14일 이내에 다운로드해야 합니다.
 
 1. 콘텐츠 **검색 페이지의** Microsoft 365 규정 준수 센터 **내보내기 탭을** 선택합니다.
   

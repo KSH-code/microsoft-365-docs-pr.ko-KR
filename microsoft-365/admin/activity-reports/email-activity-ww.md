@@ -19,16 +19,16 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 보고서 대시보드를 사용하여 전자 메일 활동 보고서를 Microsoft 365 관리 센터.
-ms.openlocfilehash: 4ea339f01d926c2f008dbeae572f64b143192ab1
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 82d9e7ecd6273f46e378953cf4b6fafffc7abd0f
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553307"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60653416"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>Microsoft 365 관리 센터의 보고서 - 전자 메일 활동
 
-Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
+Microsoft 365 보고서 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
 예를 들어 보고서 페이지에서 조직 내의 전자 메일 트래픽을 개략적으로 본 다음, 조직 내 전자 메일 활동의 추세와 사용자 수준별 세부 정보를 이해하기 위해 전자 메일 활동 위젯을 표시할 수 있습니다.
 

@@ -17,12 +17,12 @@ ms.technology: mde
 ms.topic: how-to
 ms.date: 08/17/2021
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 59208058dce036da06d5378efc2539b8f454dead
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: b741844819d98a394eba969451a59e7b654fcc72
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60585912"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667327"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
@@ -156,9 +156,13 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
    - **이름에** 규칙의 이름을 입력합니다.
    - **설명에** 간단한 설명을 입력합니다.
-  - **OMA-URI에서** 추가하는 규칙에 대한 특정 OMA-URI 링크를 입력하거나 붙여넣습니다. 이 예제 규칙에 사용할 OMA-URI에 대해 이 항목의 앞부분에 있는 MEM 섹션을 참조하세요. ASR 규칙 GUIDS에 대한 자세한 내용은 [공격](attack-surface-reduction-rules.md#per-rule-descriptions) 표면 감소 규칙 항목의 규칙 설명을 참조하세요.
+   - **OMA-URI에서** 추가하는 규칙에 대한 특정 OMA-URI 링크를 입력하거나 붙여넣습니다. 이 예제 규칙에 사용할 OMA-URI에 대해 이 항목의 앞부분에 있는 MEM 섹션을 참조하세요. ASR 규칙 GUIDS에 대한 자세한 내용은 [공격](attack-surface-reduction-rules.md#per-rule-descriptions) 표면 감소 규칙 항목의 규칙 설명을 참조하세요.
    - 데이터 **형식에서** 문자열 을 **선택합니다.**
-   - **값에서** GUID 값, 부호 및 상태 값을 공백이 없는 상태로 입력하거나 \= 붙여넣습니다(_GUID=StateValue)._ Where: {0 : Disable (Disable the ASR rule)}, {1 : Block (Enable the ASR rule)}, {2 : Audit (Evaluate how the ASR rule would impact your organization if enabled)}, {6 : Warn (Enable the ASR rule but allow the end-user to bypass the block)}
+   - **값에서** GUID 값, 부호 및 상태 값을 공백이 없는 상태로 입력하거나 \= 붙여넣습니다(_GUID=StateValue)._ 여기서,
+     - 0: 사용 안 하게(ASR 규칙 사용 안 하게)
+     - 1: 차단(ASR 규칙 사용)
+     - 2: 감사(ASR 규칙이 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가)
+     - 6: 경고(ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용)
 
    > [!div class="mx-imgBorder"]
    > ![MEM OMA URI 구성.](images/mem05-add-row-oma-uri.png)
@@ -218,7 +222,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 - 0: 사용 안 하게(ASR 규칙 사용 안 하게)
 - 1: 차단(ASR 규칙 사용)
 - 2: 감사(ASR 규칙이 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가)
-- 6: 경고(ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용). 이제 경고 모드를 대부분의 ASR 규칙에 사용할 수 있습니다.
+- 6: 경고(ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용). 경고 모드는 대부분의 ASR 규칙에 사용할 수 있습니다.
 
 [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions](/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions) CSP(구성 서비스 공급자)를 사용하여 제외를 추가합니다.
 
@@ -256,9 +260,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 3. 공격 표면 **감소를 Windows 구성** \> **Microsoft Defender 바이러스 백신** \> **Microsoft Defender Exploit Guard** \> **트리를 확장합니다.**
 
-4. 공격 **표면 축소 규칙 구성을 선택하고** 사용 을 **선택합니다.** 그런 다음 옵션 섹션에서 각 규칙에 대한 개별 상태를 설정할 수 있습니다.
-
-     **표시...를** 선택하고 값 이름 열에 규칙 ID를 입력하고 다음과 같이 값 열에 선택한 상태를 입력합니다.
+4. 공격 **표면 축소 규칙 구성을 선택하고** 사용 을 **선택합니다.** 그런 다음 옵션 섹션에서 각 규칙에 대한 개별 상태를 설정할 수 있습니다.   **표시...를** 선택하고 값 이름 열에 규칙 ID를 입력하고 다음과 같이 값 열에 선택한 상태를 입력합니다.
 
    - 0: 사용 안 하게(ASR 규칙 사용 안 하게)
    - 1: 차단(ASR 규칙 사용)
@@ -276,6 +278,12 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 > [!WARNING]
 > Intune, Configuration Manager 또는 다른 엔터프라이즈 수준의 관리 플랫폼을 사용하여 컴퓨터 및 장치를 관리하는 경우 관리 소프트웨어가 시작 시 충돌하는 PowerShell 설정을 덮어 덮어 덮어 습니다. 사용자가 PowerShell을 사용하여 값을 정의할 수 있도록 허용하기 위해 관리 플랫폼에서 규칙에 대해 "사용자 정의" 옵션을 사용합니다.
+> "사용자 정의"를 사용하면 로컬 관리자 사용자가 규칙을 구성할 수 있습니다.
+> 사용자 정의 옵션 설정은 다음 그림에 나와 있습니다.
+
+> [!div class="mx-imgBorder"]
+> ![ASR에서 "사용자 정의" 사용](images/asr-user-defined.png)
+
 
 1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
 

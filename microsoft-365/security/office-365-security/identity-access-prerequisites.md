@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: d4f44b1e77771860ba36a77f257b34bf0cd10e2a
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: ba6a12036d6d6e0b53b930e2b1683781a474d186
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59211685"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60666725"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>ID 및 장치 액세스 정책 구현을 위한 선행 작업
 
@@ -51,13 +51,14 @@ ms.locfileid: "59211685"
 |[PHS를 구성합니다.](/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)  유출된 자격 증명을 검색하고 위험 기반 조건부 액세스에 대해 이 기능을 사용하도록 설정해야 합니다. **참고:** 이는 조직에서 페더러드 인증을 사용하는지 여부에 관계없이 필요합니다.|클라우드 전용|Microsoft 365 E3 혹은 E5|
 |[원활한 Single Sign-On을](/azure/active-directory/connect/active-directory-aadconnect-sso) 사용하도록 설정하여 사용자가 조직 네트워크에 연결된 조직 장치에 있는 경우 자동으로 로그인합니다.|클라우드 전용 및 페더|Microsoft 365 E3 혹은 E5|
 |[명명된 위치를 구성합니다.](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) Azure AD ID 보호는 모든 사용 가능한 세션 데이터를 수집하고 분석하여 위험 점수를 생성합니다. Azure AD 명명된 위치 구성에서 네트워크에 대한 조직의 공용 IP 범위를 지정하는 것이 좋습니다. 이러한 범위에서 오는 트래픽에는 위험 점수가 감소하고 조직 환경 외부에서 오는 트래픽에는 더 높은 위험 점수가 부여됩니다.||Microsoft 365 E3 혹은 E5|
-|[모든 사용자를 SSPR(셀프](/azure/active-directory/authentication/concept-registration-mfa-sspr-converged)서비스 암호 재설정) 및 MFA(다단계 인증)에 등록합니다. Azure AD 다단계 인증에 사용자를 미리 등록하는 것이 좋습니다. Azure AD ID 보호는 Azure AD 다단계 인증을 사용하여 추가 보안 확인을 수행하도록 합니다. 또한 최상의 로그인 환경을 위해 사용자가 디바이스에 Microsoft Authenticator [](/azure/active-directory/user-help/microsoft-authenticator-app-how-to) 앱과 Microsoft 회사 포털 앱을 설치하는 것이 좋습니다. 이러한 앱은 각 플랫폼의 앱 스토어에서 설치할 수 있습니다.||Microsoft 365 E3 혹은 E5|
+|[모든 사용자를 SSPR(셀프 서비스 암호 재설정) 및 MFA(다단계 인증)에 등록합니다.](/azure/active-directory/authentication/concept-registration-mfa-sspr-converged) Azure AD 다단계 인증에 사용자를 미리 등록하는 것이 좋습니다. Azure AD ID 보호는 Azure AD 다단계 인증을 사용하여 추가 보안 확인을 수행하도록 합니다. 또한 최상의 로그인 환경을 위해 사용자가 디바이스에 Microsoft Authenticator [](/azure/active-directory/user-help/microsoft-authenticator-app-how-to) 앱과 Microsoft 회사 포털 앱을 설치하는 것이 좋습니다. 이러한 앱은 각 플랫폼의 앱 스토어에서 설치할 수 있습니다.||Microsoft 365 E3 혹은 E5|
 |[도메인에 가입된 컴퓨터의](/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup)자동 장치 등록을 Windows. 조건부 액세스는 앱에 연결하는 장치가 도메인에 가입되어 있는지 또는 규격인지 확인 합니다. Windows 컴퓨터에서 이 기능을 지원하려면 Azure AD를 사용하여 장치를 등록해야 합니다.  이 문서에서는 자동 장치 등록을 구성하는 방법에 대해 설명합니다.|클라우드 전용|Microsoft 365 E3 혹은 E5|
 |**사용자의 지원 팀 준비**. MFA를 완료할 수 없는 사용자에 대한 계획을 시행합니다. 정책 제외 그룹에 추가하거나 새 MFA 정보를 등록하는 것일 수 있습니다. 이러한 보안에 중요한 변경을 적용하기 전에 실제 사용자가 요청을 하는지 확인해야 합니다. 사용자의 관리자에 대해 승인을 통해 도움을 주도록 요구하는 것이 효과적인 단계입니다.||Microsoft 365 E3 혹은 E5|
-|[온-프레미스 AD에 대한 암호 쓰기 저장 구성](/azure/active-directory/active-directory-passwords-getting-started). 암호 쓰기 저장을 사용하면 Azure AD에서 높은 위험 계정 손상이 감지될 때 사용자가 자신의온-프레미스 암호를 변경해야 할 수 있습니다. Azure AD 커넥트 두 가지 방법 중 하나를 사용하여 이 기능을  사용하도록 설정할 수 있습니다. 즉, Azure AD 커넥트 설정 마법사의 선택적 기능 화면에서 암호 쓰기 저장을 사용하도록 설정하거나 Windows PowerShell.|클라우드 전용|Microsoft 365 E3 혹은 E5|
+|[온-프레미스 AD에 대한 암호 쓰기 저장 구성](/azure/active-directory/active-directory-passwords-getting-started). 암호 쓰기 저장을 사용하면 Azure AD에서 높은 위험 계정 손상이 감지될 때 사용자가 자신의온-프레미스 암호를 변경해야 할 수 있습니다. Azure AD 커넥트 설정의 선택적 기능 화면에서 암호 쓰기  저장을 사용하도록 설정하거나 설치 커넥트 방법 중 하나를 사용하여 이 기능을 사용하도록 설정할 수 Windows PowerShell.|클라우드 전용|Microsoft 365 E3 혹은 E5|
 |[Azure AD 암호 보호를 구성합니다.](/azure/active-directory/authentication/concept-password-ban-bad) Azure AD 암호 보호에서는 알려진 취약한 암호와 해당 변형을 감지하고 차단하며 조직에 관련된 추가 취약한 용어를 차단할 수도 있습니다. 기본 전역 금지 암호 목록은 Azure AD 테넌트의 모든 사용자에게 자동으로 적용됩니다. 사용자 지정 금지 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경하거나 재설정하면 해당 금지된 암호 목록은 강력한 암호를 사용하도록 확인됩니다.||Microsoft 365 E3 혹은 E5|
 |[ID Azure Active Directory 사용.](/azure/active-directory/identity-protection/overview-identity-protection) Azure AD ID 보호를 사용하면 조직의 ID에 영향을 주는 잠재적인 취약점을 감지하고 로그인 위험 및 사용자 위험을 낮음, 중간, 높음으로 자동 수정 정책을 구성할 수 있습니다.||Microsoft 365 E5 추가 Microsoft 365 E3 또는 E5 보안 추가 기능을 사용할 수 있습니다.|
 |**사용자 및 Exchange Online** [온라인에](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) 대해 최신 [비즈니스용 Skype 사용하도록 설정](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) 최신 인증은 MFA를 사용하기 위한 선행 단계입니다. 최신 인증은 Office 2016 및 2019 클라이언트, SharePoint 및 비즈니스용 OneDrive.||Microsoft 365 E3 혹은 E5|
+|Azure [AD에 대한 지속적인 액세스 평가를](microsoft-365-continuous-access-evaluation.md) 사용하도록 설정 지속적인 액세스 평가는 활성 사용자 세션을 사전적으로 종료하고 거의 실시간으로 테넌트 정책 변경을 적용합니다.||Microsoft 365 E3 혹은 E5|
 |
 
 ## <a name="recommended-client-configurations"></a>권장되는 클라이언트 구성
@@ -99,11 +100,11 @@ BYOD Windows 장치의 경우 사용자는 직장 또는 학교 계정 추가 **
 
 |플랫폼|Word/Excel/PowerPoint|OneNote|OneDrive 앱|SharePoint 앱|[OneDrive 동기화 클라이언트](/onedrive/enable-conditional-access)|
 |---|---|---|---|---|---|
-|Windows 8.1|않음|않음|해당 없음|해당 없음|않음|
-|Windows 10|않음|않음|해당 없음|해당 없음|않음|
-|Android|않음|않음|않음|않음|해당 없음|
-|iOS|않음|않음|않음|않음|해당 없음|
-|macOS|않음|않음|해당 없음|해당 없음|지원되지 않음|
+|Windows 8.1|지원|지원|해당 없음|해당 없음|지원|
+|Windows 10|지원|지원|해당 없음|해당 없음|지원|
+|Android|지원|지원|지원|지원|해당 없음|
+|iOS|지원|지원|지원|지원|해당 없음|
+|macOS|지원|지원|해당 없음|해당 없음|지원되지 않음|
 |Linux|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|
 |
 

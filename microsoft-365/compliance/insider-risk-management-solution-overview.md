@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: ddec25fdc3c9e4bedeabb65b6efa2859188fbc74
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: bee78aa071ec24fae499a3e144be78aab6e97dcc
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335301"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667731"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>2016의 내부자 위험 Microsoft 365
 
@@ -49,8 +49,8 @@ Microsoft 365 내부자 위험 관리는 모든 서비스 및 제3자 지표를 
 1. 내부자 [위험 관리에](insider-risk-management.md) 대해 Microsoft 365
 2. 내부자 [위험 관리 계획 및 라이선스 확인](insider-risk-management-plan.md)
 3. 내부자 [위험 관리 설정 구성](insider-risk-management-settings.md)
-4. [커넥터에](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management) 대한 사용 권한 및 정책 & [구성](insider-risk-management-configure.md#step-4-configure-prerequisites-for-policies)
-5. 내부자 위험 [관리 정책 만들기 및 구성](insider-risk-management-configure.md#step-6-create-an-insider-risk-management-policy)
+4. [커넥터에](insider-risk-management-configure.md#step-1-required-enable-permissions-for-insider-risk-management) 대한 사용 권한 및 정책 & [구성](insider-risk-management-configure.md#step-4-required-configure-prerequisites-for-policies)
+5. 내부자 위험 [관리 정책 만들기 및 구성](insider-risk-management-configure.md#step-6-required-create-an-insider-risk-management-policy)
 
 ## <a name="more-information-about-insider-risk-management"></a>내부자 위험 관리에 대한 자세한 정보
 

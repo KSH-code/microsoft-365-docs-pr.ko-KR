@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(스팸 방지)에서 스팸을 방지하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1d8a004e5eb909399f1340374b80495dcf0b6e9b
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 1bc5d81b1221b73bcb701345b8db2f160380ba37
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60552527"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60657116"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 
@@ -57,7 +57,7 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 - **연결** 필터링: IP 허용 목록, IP 차단 목록 및 수신 허용 목록을 통해 인바운드  전자 메일 연결 초기에 양호하고 잘못된 전자 메일 원본 서버(Microsoft에서 유지 관리하는 신뢰할 수 있는 보낸 사람 목록)를 식별합니다. 연결 필터 정책에서 이러한 설정을 구성합니다. 자세한 내용은 [Configure connection filtering 을(를) 통해 자세히 알아보도록 합니다.](configure-the-connection-filter-policy.md)
 
-- **스팸 필터링(콘텐츠 필터링)**: EOP는 스팸 필터링 판정 **스팸,** **높은** 지수 **스팸,**  대량 전자 **메일,** 피싱 전자 메일 및 높은 지수 피싱 전자 메일을 사용하여 메시지를 분류합니다. 이러한 판정에 따라 수행할 작업을 구성하고, 배달되지 않고 검사된 메시지에 대한 최종 사용자 알림 옵션을 구성할 수 있으며, 사용자가 검사 정책을 사용하여 메시지에 대해 수행할 수 있는 작업을 구성할 수 [있습니다.](quarantine-policies.md) 자세한 내용은 [Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
+- **스팸 필터링(콘텐츠 필터링)**: EOP는 스팸 필터링 판정 **스팸,** **높은** 지수 **스팸,**  대량 전자 **메일,** 피싱 전자 메일 및 높은 지수 피싱 전자 메일을 사용하여 메시지를 분류합니다. 이러한 판정에 따라 수행할 작업을 구성할 수 있으며, 사용자가 분리된 메시지에 대해 수행할 수 있는 작업 및 사용자가 검사 정책을 사용하여 검지 알림을 받을지 여부를 구성할 [수 있습니다.](quarantine-policies.md) 자세한 내용은 [Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
 
   > [!NOTE]
   > 기본적으로 스팸 필터링은 스팸으로 표시된 메시지를 받는 사람의 정크 메일 폴더로 보내도록 구성됩니다. 그러나 EOP가 Exchange 사서함을 보호하는 하이브리드 환경에서는 메시지에 추가된 EOP 스팸 헤더를 인식하도록 Exchange 조직에서 두 개의 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.

@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 0f2923d03a101d6ec55bfa4090ce22e9d1353e6e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 11590c443c7d466f323075bd2228156492c82ab0
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174606"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60661533"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>타사 솔루션에서 마이그레이션하는 동안 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -129,7 +129,7 @@ Microsoft Defender 바이러스 백신 활성 상태인 다른 바이러스 백�
 > [!WARNING]
 > *wdboot,* *wdfilter,* wdnisdrv, *wdnissvc* 및 *windefend에* 대한 Windows Defender 시작 값을 편집하는 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services 지원되지 않을 수 있으며 강제로 시스템을 다시 이미지화해야 할 수 있습니다.  
 
-수동 모드는 끝점용 Microsoft Defender 및 타사 바이러스 백신과 함께 사용 가능한 Microsoft Defender 바이러스 백신. 수동 모드를 사용하면 Microsoft Defender가 파일을 검색하고 자체적으로 업데이트할 수 있지만 위협을 해결하지는 않습니다. 또한 끝점 [DLP(데이터](/microsoft-365/security/defender-endpoint/information-protection-in-windows-overview) 손실 방지)가 배포되지 않는 한 실시간 보호를 통한 동작 모니터링은 수동 모드에서 사용할 수 없습니다. [](configure-real-time-protection-microsoft-defender-antivirus.md)
+수동 모드는 끝점용 Microsoft Defender 및 타사 바이러스 백신과 함께 사용 가능한 Microsoft Defender 바이러스 백신. 수동 모드에서는 Microsoft Defender 바이러스 백신 검색하고 자체적으로 업데이트할 수 있지만 위협을 해결하지는 않습니다. 또한 끝점 [DLP(데이터](/microsoft-365/security/defender-endpoint/information-protection-in-windows-overview) 손실 방지)가 배포되지 않는 한 실시간 보호를 통한 동작 모니터링은 수동 모드에서 사용할 수 없습니다. [](configure-real-time-protection-microsoft-defender-antivirus.md)
 
 제한된 주기적 [](limited-periodic-scanning-microsoft-defender-antivirus.md)검사라고 하는 또 다른 기능은 최종 사용자가 자동으로 끄기 Microsoft Defender 바이러스 백신 사용할 수 있습니다. 이 기능을 Microsoft Defender 바이러스 백신 검색을 통해 타사 바이러스 백신과 함께 파일을 주기적으로 검색할 수 있습니다.
 

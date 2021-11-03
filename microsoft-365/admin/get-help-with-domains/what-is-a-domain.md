@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: eef9c82593d75ecebb4d07b5bcaaf39ff59cb350
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7d3c38b3c9ff89bed613413405fec54718ebdd42
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60164563"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60659987"
 ---
 # <a name="what-is-a-domain"></a>도메인이란 무엇인가요?
 
@@ -42,7 +42,7 @@ ms.locfileid: "60164563"
 
  **새 도메인 구입:**
   
-새 Microsoft 365 구입하는 데 사용 - 모든 것이 설정됩니다. [더 알아보세요.](buy-a-domain-name.md)
+새 Microsoft 365 구입하는 데 사용 - 모든 것이 설정됩니다. [자세히 알아보기](buy-a-domain-name.md)
   
  **이미 소유한 도메인 사용:**
   
@@ -51,9 +51,12 @@ ms.locfileid: "60164563"
 > [!TIP]
 > 도메인이 등록되어 있는지 확실하지 않나요? - [도메인 등록 기관 찾기 도움말을 확인하세요.](find-your-domain-registrar.md)
   
- **지금 기본 도메인 사용:**
+ **지금 Microsoft 도메인을 사용하세요.**
   
-*yourcompany.onmicrosoft와 같은 기본 도메인을 사용할 수 있습니다. <span> com을* 사용하여 지금 로그인하고 나중에 사용자 지정 도메인을 추가합니다. 기본 도메인은 변경하거나 이름을 바꿀 수 없으므로 다음으로 넘어가기 전에 원하는 내용이 맞는지 확인합니다. 
+*yourcompany.onmicrosoft와 같은 Microsoft 도메인을 사용할 수 있습니다. <span> com을* 사용하여 지금 로그인하고 나중에 사용자 지정 도메인을 추가합니다. 
+  
+> [!IMPORTANT]
+> 이 옵션을 선택하면 .onmicrosoft.com 도메인에 대해 입력한 이름이 모든 SharePoint OneDrive 사용됩니다. 이 이름을 변경하지 못하게 될 수 있으므로 브랜디드 관점에서 사용할 이름을 올바르게 입력해야 합니다. 
   
 ## <a name="feeling-stuck"></a>도움이 필요하나요?
 

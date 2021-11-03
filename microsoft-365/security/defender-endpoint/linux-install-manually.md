@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ade60ba21b97a22795740cc57971e9b197eb0322
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: d510ad9e2fb0609fa6eecf21f3d038a28f9cd0d8
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587188"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60665694"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -85,7 +85,7 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     |---|---|
     |RHEL/Centos/Oracle 8.0-8.5의 경우|<https://packages.microsoft.com/config/rhel/8/[channel].repo>|
     |RHEL/Centos/Oracle 7.2-7.9 & Amazon Linux 2의 경우 |<https://packages.microsoft.com/config/rhel/7/[channel].repo>|
-    |RHEL/Centos/Oracle 6.7-6.10의 경우|<https://packages.microsoft.com/config/rhel/6/[channel].repo>|
+    |RHEL/Centos 6.7-6.10의 경우|<https://packages.microsoft.com/config/rhel/6/[channel].repo>|
     |Fedora 33의 경우|<https://packages.microsoft.com/config/fedora/33/prod.repo>|
     |Fedora 34의 경우|<https://packages.microsoft.com/config/fedora/34/prod.repo>|
 

@@ -1,56 +1,49 @@
 ---
-title: Microsoft Viva Learning 소개(미리 보기)
-ms.author: chucked
-author: chuckedmonson
+title: Microsoft Viva Learning
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
-ms.reviewer: chrisarnoldmsft
-ms.date: ''
-audience: enabler
-ms.topic: article
+ms.reviewer: shirana
+ms.date: 11/02/2021
+audience: enabler, admin
+ms.topic: landing-page
+ms.custom: intro-hub-or-landing
 ms.prod: microsoft-365-enterprise
-search.appverid: ''
+search.appverid: MET150
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
-ms.localizationpriority: ''
-description: 미리 보기(미리 보기)에 대한 리소스를 Microsoft Viva Learning 방법을 배워야 합니다.
-ms.openlocfilehash: 00ce845dcb5cc5dd8b86620c7e7aafddaab334f5
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.localizationpriority: medium
+description: 앱에 대한 리소스를 찾는 방법을 Microsoft Viva Learning.
+ms.openlocfilehash: 24d71691b8751ce3ca3770e77be35585f0221a4b
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478844"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668245"
 ---
-# <a name="introduction-to-microsoft-viva-learning-preview"></a>Microsoft Viva Learning 소개(미리 보기)
+# <a name="introduction-to-microsoft-viva-learning"></a>Microsoft Viva Learning
 
-> [!NOTE]
-> 이 문서의 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 보기 제품과 관련이 있습니다. 미리 보기가 현재 새 참가자에게 열려 있지 않습니다.
+Microsoft Viva Learning 통해 직원들은 이미 사용하는 도구 및 플랫폼 내에서 작업 흐름에 대해 학습할 수 있도록 하여 하루 중 자연스러운 학습을 할 수 있습니다. 2016년 8월 1일부로 진행되는 학습 센터에서 다양한 출처에서 학습을 검색, 공유 및 추적할 Microsoft Teams.
 
-Microsoft Viva Learning(미리 보기)를 통해 조직의 팀과 개인이 하루 중 자연스러운 학습을 할 수 있습니다. 앱은 직원들이 조직 전체의 Microsoft Teams 라이브러리에서 공유하고, 할당하고, 학습할 수 있는 중앙 허브를 만듭니다.
+## <a name="get-started"></a>시작
 
-이 페이지의 리소스는 조직에서 Viva Learning(미리 보기)에 대해 알아보고 사용을 시작할 수 있도록 디자인되어 있습니다.
-
-## <a name="get-started"></a>시작하기
-
-이 섹션의 리소스를 통해 Viva Learning(미리 보기)에 대해 자세히 알아보고 조직에 도움이 되는 방법을 설명합니다.
+이 섹션의 리소스는 Viva가 어떻게 Learning 어떻게 조직에 도움이 될 수 있는가에 대해 자세히 알아보는 데 도움이 됩니다.
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|Viva Learning(미리 보기)에 대한 자세한 정보|[Microsoft Viva Learning(미리 보기) 개요](overview-viva-learning.md)|
-|Microsoft Tech Community 리소스 센터에서 리소스 찾기|[Microsoft Viva Learning(미리 보기) 기술 Community](https://resources.techcommunity.microsoft.com/viva-learning/)|
-|최종 사용자를 Learning Viva Learning(미리 보기) 지침 찾기|[Microsoft Viva Learning(미리 보기) 도움말](https://support.microsoft.com/office/learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a)|
+|Viva 2016에 대해 Learning |[Microsoft Viva Learning 개요](overview-viva-learning.md)|
+|Viva를 통해 Viva를 Learning|[Viva Learning 제품 페이지](https://www.microsoft.com/en-us/microsoft-viva/learning?activetab=pivot:overviewtab&rtc=1)|
+|Microsoft Tech Community 리소스 센터에서 리소스 찾기|[Microsoft Viva Learning Tech Community](https://techcommunity.microsoft.com/t5/viva-learning/bd-p/VivaLearning/)|
+|최종 사용자를 Learning Viva 관리 지침 찾기|[Microsoft Viva Learning 도움말](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a)|
 
-## <a name="set-up-and-administration"></a>설정 및 관리
+## <a name="setup-and-administration"></a>설정 및 관리
 
-이 섹션의 리소스는 조직의 관리자가 조직 환경에서 Viva Learning(미리 보기)를 설정하고 Microsoft 365 데 도움이 됩니다.
+이 섹션의 리소스는 조직의 관리자가 사용자 환경의 Viva Learning 구성하는 데 Microsoft 365 있습니다.
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|Viva 2016을 설정 및 구성하는 Learning(미리 보기)|[설정 Microsoft Viva Learning(미리 보기)](set-up-teams-admin-center.md)|
-|학습 콘텐츠 원본을 구성하는 방법 학습|[학습 콘텐츠 원본 구성](content-sources-365-admin-center.md)|
-|사용자만의 학습 콘텐츠를 추가하는 방법에 대해 자세히 알아보겠습니다.|[SharePoint를 콘텐츠 원본으로 구성](configure-sharepoint-content-source.md)|
-
-
-
-
-
+|Viva 2013을 설정하고 구성하는 방법을 Learning|[설정 Microsoft Viva Learning](set-up-viva-learning.md)|
+|콘텐츠 원본 구성 및 관리 방법 학습|[학습 콘텐츠 원본 구성](content-sources-365-admin-center.md)|
+|사용자만의 학습 콘텐츠를 추가하는 방법에 대해 자세히 알아보겠습니다.|[콘텐츠 SharePoint 추가](configure-sharepoint-content-source.md)|
+|다른 공급자의 콘텐츠를 추가하는 방법에 대해 자세히 알아보겠습니다.|[다른 공급자를 콘텐츠 원본으로 추가](content-sources-365-admin-center.md)|

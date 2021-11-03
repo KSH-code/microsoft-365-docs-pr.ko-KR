@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 description: '공유 사서함에서 라이선스를 제거하여 다른 사용자에게 할당하거나 라이선스 비용을 지불하지 않을 수 있도록 라이선스를 반환합니다. '
 ms.date: 05/11/2021
-ms.openlocfilehash: ccbab157b810e86a941da519346da621398a4af9
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: fb1455e9d4c23c6563940b1b4c3e57576c1063c2
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60586816"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60660013"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -41,7 +41,7 @@ ms.locfileid: "60586816"
 > - 공유 사서함에 사용 중이 50GB가 넘는 저장소가 있습니다.
 > - 공유 사서함은 인바운드 보관을 사용 합니다.
 > - 공유 사서함은 소송 보류에 배치됩니다.
-> - 공유 사서함에 Microsoft Defender 라이선스가 할당되어 있습니다.
+> - 공유 사서함에 할당된 Microsoft 365 Defender 있습니다.
 > 
 > 라이선스를 할당하는 방법에 대한 단계별 지침은 사용자에게 라이선스 할당을 [참조하세요.](/microsoft-365/admin/manage/assign-licenses-to-users) 
 

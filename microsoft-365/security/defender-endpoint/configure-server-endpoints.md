@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3ea7429e4426c6904539da1d7ee056f9f248cbfe
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 60842a3132f159979a0c5f8798301cf4b530d82f
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587532"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667343"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점 Windows Microsoft Defender에 서버 온보딩
 
@@ -103,6 +103,7 @@ R2 및 Windows Server 2012 R2의 이전 구현에서는 Windows Server 2016 MMA(
   또한 네트워크 트래픽이 많은 컴퓨터의 경우 이 기능을 광범위하게 사용하도록 설정하기 전에 해당 환경에서 성능 테스트를 하는 것이 좋습니다. 추가 리소스 사용량을 고려해야 할 수 있습니다.
  - R2 Windows Server 2012 시간 표시 막대에 네트워크 이벤트가 채워지지 않을 수 있습니다. 이 문제를 해결하려면 Windows [2021년 10월 12일 월별 롤업(KB5006714)의 일부로](https://support.microsoft.com/topic/october-12-2021-kb5006714-monthly-rollup-4dc4a2cd-677c-477b-8079-dcfef2bda09e)릴리스된 업데이트가 필요합니다.
  - 운영 체제 업그레이드는 지원되지 않습니다. 업그레이드하기 전에 오프보드를 설치한 다음 제거합니다.
+ - 서버 역할에 대한 자동 제외는 R2에서 Windows Server 2012 없습니다. 제외를 추가하는 데 대한 자세한 내용은 현재 지원되는 Enterprise 버전을 실행하는 Enterprise 컴퓨터에 대한 바이러스 검사 권장 사항을 [Windows.](https://support.microsoft.com/topic/virus-scanning-recommendations-for-enterprise-computers-that-are-running-currently-supported-versions-of-windows-kb822158-c067a732-f24a-9079-d240-3733e39b40bc)
 
 ## <a name="integration-with-azure-defender"></a>Azure Defender와 통합
 끝점용 Microsoft Defender는 Azure Defender와 원활하게 통합됩니다. 서버를 자동으로 온보딩하고, Azure Defender가 모니터링하는 서버를 Endpoint용 Defender에 표시하고, Azure Defender 고객으로 자세한 조사를 실시할 수 있습니다. 
@@ -176,7 +177,7 @@ Msiexec /x md4ws.msi /quiet
 스위치는 `/quiet` 모든 알림을 표시하지 않습니다.
 
 > [!NOTE]
-> Microsoft Defender 바이러스 백신 수동 모드로 자동 전환되지 않습니다. Microsoft가 아닌 바이러스 백신/맬웨어 방지 Microsoft Defender 바이러스 백신 실행 중인 경우 수동 모드에서 실행될 수 있습니다. 명령줄 설치의 경우 선택 요소는 간섭을 방지하기 위해 Microsoft Defender 바이러스 백신 구성 요소를 수동 모드로 `FORCEPASSIVEMODE=1` 즉시 설정합니다. 그런 다음 온보딩 후 Defender가 수동 모드로 유지되도록 EDR Block과 같은 기능을 지원하기 위해 "ForceDefenderPassiveMode" 레지스트리 키를 설정하십시오.
+> Microsoft Defender 바이러스 백신 수동 모드로 자동 전환되지 않습니다. Microsoft가 아닌 바이러스 백신/맬웨어 방지 Microsoft Defender 바이러스 백신 실행 중인 경우 수동 모드에서 실행될 수 있습니다. 명령줄 설치의 경우 선택 요소는 간섭을 방지하기 위해 Microsoft Defender 바이러스 백신 구성 요소를 수동 모드로 `FORCEPASSIVEMODE=1` 즉시 설정합니다. 그런 다음 온보딩 후 Defender 바이러스 백신이 수동 모드로 유지되도록 EDR Block과 같은 기능을 지원하기 위해 "ForceDefenderPassiveMode" 레지스트리 키를 설정하십시오.
 >
 > 자세한 내용은 수동 [모드로 Microsoft Defender 바이러스 백신 필요를 참조하세요.](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server)
 > - Windows Server 2019 및 Windows Server 2022용 온보딩 패키지는 Microsoft Endpoint Manager 현재 스크립트를 제공합니다. Configuration Manager에서 스크립트를 배포하는 방법에 대한 자세한 내용은 Configuration Manager의 패키지 [및 프로그램을 참조하세요.](/configmgr/apps/deploy-use/packages-and-programs)
@@ -218,20 +219,18 @@ Windows Server 2019 및 Windows Server 2022용 온보딩 패키지는 Microsoft 
 
     2. 수동 모드가 구성되어 있는지 확인하도록 다음 PowerShell 명령을 실행합니다.
     
-    ```PowerShell
-    Get-WinEvent -FilterHashtable @{ProviderName="Microsoft-Windows-Sense" ;ID=84}
-    ```
+        ```PowerShell
+        Get-WinEvent -FilterHashtable @{ProviderName="Microsoft-Windows-Sense" ;ID=84}
+        ```
         
-    > [!NOTE]
-    >
-    > - 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows Server 2022, Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
-    > - 이러한 통합을 활용하는 서버 끝점 모니터링은 Office 365 GCC 사용하지 않도록 설정되어 있습니다.
-
-      
+        > [!NOTE]
+        >
+        > - 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합은 Windows Server 2022, Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 확장되어 있습니다.
+        > - 이러한 통합을 활용하는 서버 끝점 모니터링은 Office 365 GCC 사용하지 않도록 설정되어 있습니다.
 
     3. 수동 모드 이벤트가 포함된 최근 이벤트가 발견된지 확인:
     
-     ![수동 모드 확인 결과의 이미지](images/atp-verify-passive-mode.png)
+       ![수동 모드 확인 결과의 이미지](images/atp-verify-passive-mode.png)
 
 > [!IMPORTANT]
 >

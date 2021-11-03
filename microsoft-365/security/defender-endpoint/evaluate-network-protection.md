@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 2176fd78f5c355dcb734f2a360ba917c6d130c03
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b0a52af9eb9cbc8d1cfc4084d7f137fd5e6975be
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60166507"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668103"
 ---
 # <a name="evaluate-network-protection"></a>네트워크 보호 평가
 
@@ -35,7 +35,7 @@ ms.locfileid: "60166507"
 이 문서는 기능을 사용하도록 설정하고 테스트 사이트로 안내하여 네트워크 보호를 평가하는 데 도움이 됩니다. 이 평가 문서의 사이트는 악의적이지 않습니다. 악의적인 것으로 하여 특별히 만들어진 웹 사이트입니다. 사이트는 사용자가 악성 사이트 또는 도메인을 방문한 경우 실행되는 동작을 복제합니다.
 
 > [!TIP]
-> Microsoft Defender Testground 웹 사이트를 방문하여 다른 보호 [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 방법을 확인할 수도 있습니다.
+> Microsoft Defender 데모 시나리오 웹 사이트를 방문하여 다른 보호 [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 방법을 확인할 수도 있습니다.
 
 ## <a name="enable-network-protection-in-audit-mode"></a>감사 모드에서 네트워크 보호 사용
 
@@ -52,7 +52,7 @@ ms.locfileid: "60166507"
 
 1. 선택한 Internet Explorer, Google Chrome 또는 기타 브라우저를 열 수 있습니다.
 
-2. [https://smartscreentestratings2.net](https://smartscreentestratings2.net)(으)로 이동합니다.
+2. [https://smartscreentestratings2.net](https://smartscreentestratings2.net)으로 이동합니다.
 
 네트워크 연결이 허용되고 테스트 메시지가 표시됩니다.
 

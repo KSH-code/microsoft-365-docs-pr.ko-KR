@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5f52b9391940204e53af03aaee3d5776da67b219
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 6d5974f1a6fca1a56438317b58d36193cb08a7fc
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60334545"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662625"
 ---
 # <a name="investigate-insider-risk-management-activities"></a>내부자 위험 관리 활동 조사
 
@@ -206,4 +206,4 @@ ms.locfileid: "60334545"
 
 - 가장 높은 위험 경고에 먼저 분석가 및 **조사자 노력을 집중합니다.** 정책에 따라 활동을 캡처하고 위험 완화 노력에 다양한 정도의 잠재적인 영향을 미치는 경고를 생성하고 있을 수 있습니다. [심각도로](insider-risk-management-activities.md#filter-alerts-on-the-alert-dashboard) 경고를 필터링하고 심각도 높은 경고의 우선 *순위를* 지정합니다.
 - **사용자를 분석가 및 조사자로 할당합니다.** 적절한 역할에 올바른 사용자를 할당하는 것은 내부자 위험 경고 검토 프로세스의 중요한 부분입니다. 내부자 위험 관리 분석가 및  내부자 위험 관리 조사자 역할 그룹에 적절한 사용자를 *할당해야* 합니다.  
-- **자동화된 내부자 위험 기능을 사용하여** 가장 높은 위험 활동을 검색할 수 있습니다. 내부자 위험 관리 [](insider-risk-management-policies.md#cumulative-exfiltration-detection-preview) [시퀀스 검색](insider-risk-management-policies.md#sequence-detection-preview) 및 누적 유출 감지 기능을 사용하면 조직에서 위험을 찾기가 더 어려워질 수 있습니다. 정책에 대한 위험 [](insider-risk-management-settings.md#indicators)점수 부스터, 파일 형식 [제외,](insider-risk-management-settings.md#file-type-exclusions) [도메인](insider-risk-management-settings.md#domains-preview)및 최소 지표 [임계값](insider-risk-management-settings.md#indicator-level-settings-preview) 설정을 미세 조정하는 것이 좋습니다.
+- **자동화된 내부자 위험 기능을 사용하여** 가장 높은 위험 활동을 검색할 수 있습니다. 내부자 위험 관리 [](insider-risk-management-policies.md#cumulative-exfiltration-detection-preview) [시퀀스 검색](insider-risk-management-policies.md#sequence-detection-preview) 및 누적 유출 감지 기능을 사용하면 조직에서 위험을 찾기가 더 어려워질 수 있습니다. 정책에 대한 위험 [](insider-risk-management-settings.md#indicators)점수 부스터, 파일 형식 [제외,](insider-risk-management-settings.md#file-type-exclusions) [도메인](insider-risk-management-settings.md#domains)및 최소 지표 [임계값](insider-risk-management-settings.md#indicator-level-settings-preview) 설정을 미세 조정하는 것이 좋습니다.

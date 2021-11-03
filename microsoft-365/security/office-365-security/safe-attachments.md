@@ -20,12 +20,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for 금고 첨부 파일 기능에 대해 자세히 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 10b3d46d2cd2fd123c790ccb5af556510d911350
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: efe1b985a7df7e8066533bf3789e38120dd97787
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60180711"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668425"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>금고 Microsoft Defender for Office 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "60180711"
 
 금고 [Microsoft Defender for Office 365](defender-for-office-365.md) EOP(맬웨어 방지 보호)에서 이미 검사된 전자 메일 첨부 파일에 대한 추가 보호 [계층을 Exchange Online Protection 있습니다.](anti-malware-protection.md) 특히, 금고 첨부 파일이 받는 사람에게 배달되기 전에 가상 환경을 사용하여 전자 메일 메시지의 첨부 파일을 검사합니다(데스토니아라고도 하는 _프로세스)._
 
-전자 메일 메시지에 대한 안전한 첨부 파일 보호는 안전한 첨부 파일 정책에 의해 제어됩니다. 첨부 파일 금고 기본 정책이 없습니다. 따라서 첨부 금고 보호하려면 하나 이상의 첨부 파일 정책을 금고 **합니다.** 자세한 내용은 [Set up 금고 Attachments policies in Defender for Office 365.](set-up-safe-attachments-policies.md)
+전자 메일 메시지에 대한 안전한 첨부 파일 보호는 안전한 첨부 파일 정책에 의해 제어됩니다. 기본 금고 첨부 파일 정책은 있지만 기본  제공 보호 미리 설정 보안 정책은 모든 받는 사람(사용자 지정 금고 첨부 파일 정책에 정의되지 않은 사용자)에게 금고 첨부 파일 보호를 제공합니다. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md) 특정 사용자, 금고 도메인에 적용되는 첨부 파일 정책을 만들 수도 있습니다. 자세한 내용은 [Set up 금고 Attachments policies in Microsoft Defender for Office 365.](set-up-safe-attachments-policies.md)
 
 다음 표에서는 금고 Microsoft Defender for Microsoft 365 및 Office 365 조직에서 microsoft Defender를 Office 365(즉, 예제에서는 라이선스 부족이 문제가 아닙니다)에 대한 시나리오에 대해 설명합니다.
 
@@ -47,10 +47,10 @@ ms.locfileid: "60180711"
 
 |시나리오|결과|
 |---|---|
-|Pat의 Microsoft 365 E5 첨부 파일 정책이 금고 없습니다.|Pat는 첨부 파일로 보호되지 금고 않습니다. <p> 관리자는 첨부 파일 보호를 활성화하기 금고 대한 첨부 파일 금고 하나 이상 만들어야 합니다. 또한 Pat가 첨부 파일로 보호되는 경우 정책의 조건에는 Pat가 포함되어 금고 합니다.|
-|이민호의 조직에는 재무 금고 적용되는 첨부 파일 정책이 있습니다. 이성진은 영업 부서의 구성원입니다.|이민호는 첨부 파일로 보호되지 금고 않습니다. <p> 재무 직원은 첨부 파일로 금고 보호되지만 영업 직원 및 기타 직원은 그렇지 않습니다.|
-|어제, 홍성주 조직의 관리자는 모든 직원에게 적용되는 금고 첨부 파일 정책을 만들 수 있습니다. 오늘 이르면 이르면 님이 첨부 파일이 포함된 전자 메일 메시지를 수신했습니다.|도형은 첨부 파일로 금고 보호됩니다. <p> 일반적으로 새 정책이 적용되는 데 30분 정도 걸립니다.|
-|Chris의 조직은 조직의 모든 사용자에 대해 금고 첨부 파일 정책을 오랫동안 제공합니다. Chris는 첨부 파일이 있는 전자 메일을 받은 다음 외부 받는 사람에게 메시지를 전달합니다.|Chis는 첨부 파일로 금고 보호됩니다. <p> 외부 받는 사람이 조직에 첨부 금고 정책이 있는 경우 전달된 메시지에는 해당 정책이 적용됩니다.|
+|Pat의 Microsoft 365 E5 첨부 파일 정책이 금고 없습니다.|Pat는 금고 정책에 달리 정의되어 있지  않은 모든 받는 사람에게 적용되는 기본 제공 보호 미리 설정 보안 정책으로 인해 금고 보호됩니다.|
+|이민호의 조직에는 재무 금고 적용되는 첨부 파일 정책이 있습니다. 이성진은 영업 부서의 구성원입니다.|이민호와 나머지 영업 부서는 금고 첨부 파일 정책에  달리 정의되어 있지 않은 모든 받는 사람에게 적용되는 기본 제공 보호 미리 설정 보안 정책으로 인해 금고 첨부 파일로 보호됩니다.|
+|어제, 홍성주 조직의 관리자는 모든 직원에게 적용되는 금고 첨부 파일 정책을 만들 수 있습니다. 오늘 이르면 이르면 님이 첨부 파일이 포함된 전자 메일 메시지를 수신했습니다.|이 사용자 지정 첨부 파일 정책으로 금고 첨부 파일에 의해 금고 보호됩니다. <p> 일반적으로 새 정책이 적용되는 데 30분 정도 걸립니다.|
+|Chris의 조직은 조직의 모든 사용자에 대해 금고 첨부 파일 정책을 오랫동안 제공합니다. Chris는 첨부 파일이 있는 전자 메일을 받은 다음 외부 받는 사람에게 메시지를 전달합니다.|Chis는 첨부 파일로 금고 보호됩니다. <p> 조직에 있는 외부 받는 사람이 Microsoft 365 전달된 메시지도 첨부 파일로 금고 보호됩니다.|
 |
 
 안전한 첨부 파일 검사는 Microsoft 365 데이터가 있는 동일한 지역에서 수행됩니다. 데이터 센터 지리에 대한 자세한 내용은 데이터가 어디에 [있나요?를 참조하세요.](https://products.office.com/where-is-your-data-located?geo=All)

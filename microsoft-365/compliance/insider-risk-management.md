@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 30f73f99b60092c854ae7d1ccc2d8eac1e7a49b7
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 455c60e925fe9563fff26699e6f023b0971bb96c
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335845"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662519"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
 
@@ -63,7 +63,7 @@ ms.locfileid: "60335845"
 
 내부 위험 분석을 사용하면 내부 위험 정책을 구성하지 않고도 조직에서 잠재적인 내부 위험 평가를 수행할 수 있습니다. 이 평가는 조직에서 사용자 위험이 큰 잠재적 영역을 식별하고 구성을 고려할 수 있는 내부 위험 관리 정책의 유형과 범위를 결정하는 데 도움이 될 수 있습니다. 이 평가는 기존 내부자 위험 정책의 추가 라이선싱 또는 향후 최적화에 대한 요구 사항을 결정하는 데도 도움이 될 수 있습니다.
 
-내부자 위험 분석에 대한 자세한 내용은 내부자 위험 관리 [설정: 분석을 참조하세요.](insider-risk-management-settings.md#analytics-preview)
+내부자 위험 분석에 대한 자세한 내용은 내부자 위험 관리 [설정: 분석을 참조하세요.](insider-risk-management-settings.md#analytics)
 
 ## <a name="get-started-with-recommended-actions-preview"></a>권장 작업 시작(미리 보기)
 
@@ -88,6 +88,7 @@ Microsoft 365의 내부 위험 관리를 통해 내부 위험 활동 및 규정 
 - [우선순위 사용자의 데이터 유출(미리 보기)](insider-risk-management-policies.md#data-leaks-by-priority-users-preview)
 - [불만을 품은 사용자의 데이터 유출(미리 보기)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
 - [일반 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#general-security-policy-violations-preview)
+- [일반 환자 데이터 오용(미리 보기)](insider-risk-management-policies.md#general-patient-data-misuse-preview))
 - [퇴사하는 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-departing-users-preview)
 - [우선순위 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
 - [불만을 품은 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-disgruntled-users-preview)
@@ -137,7 +138,7 @@ Microsoft 365의 내부 위험 관리를 통해 내부 위험 활동 및 규정 
 더 심각한 상황에서는 조직의 다른 검토자 또는 서비스와 내부자 위험 관리 사례 정보를 공유해야 할 수 있습니다. 내부자 위험 관리는 종단 Microsoft 365 해결을 지원하기 위해 다른 규정 준수 솔루션과 긴밀하게 통합됩니다.
 
 - **Advanced eDiscovery:** 조사를 위해 사례를 에스컬레이터하면 사례의 데이터 및 관리를 해당 사례에 Advanced eDiscovery Microsoft 365. Advanced eDiscovery는 조직의 내부 및 외부 법률 조사에 대응하는 내용을 보존, 수집, 검토, 분석 및 내보낼 수 있는 엔드투엔드 워크플로를 제공합니다. 이를 통해 법률 팀이 법적 보존 알림 워크플로 전반을 관리할 수 있습니다. Advanced eDiscovery 케이스에 대한 자세한 내용은 [Microsoft 365의 Advanced eDiscovery 개요](overview-ediscovery-20.md)를 참조하세요.
-- **Office 365 관리 API** 통합(미리 보기) : 내부자 위험 관리는 Office 365 관리 API를 통해 보안 정보 및 이벤트 관리(SIEM) 서비스로 경고 정보를 내보낼 수 있습니다. 플랫폼의 경고 정보에 액세스할 수 있는 권한이 조직의 위험 프로세스에 가장 잘 맞는지 확인하면 위험 활동에 대한 작업 방법을 보다 유연하게 할 수 있습니다. 관리 API를 통해 경고 정보를 내보내는 Office 365 자세한 내용은 [경고 내보내기 를 참조하세요.](insider-risk-management-settings.md#export-alerts-preview)
+- **Office 365 관리 API** 통합(미리 보기) : 내부자 위험 관리는 Office 365 관리 API를 통해 보안 정보 및 이벤트 관리(SIEM) 서비스로 경고 정보를 내보낼 수 있습니다. 플랫폼의 경고 정보에 액세스할 수 있는 권한이 조직의 위험 프로세스에 가장 잘 맞는지 확인하면 위험 활동에 대한 작업 방법을 보다 유연하게 할 수 있습니다. 관리 API를 통해 경고 정보를 내보내는 Office 365 자세한 내용은 [경고 내보내기 를 참조하세요.](insider-risk-management-settings.md#export-alerts)
 
 > [!NOTE]
 > ServiceNow 커넥터 미리 보기를 하는 동안 피드백과 지원에 감사드립니다. ServiceNow 커넥터의 미리 보기를 종료하고 2020년 11월 30일 내부자 위험 관리에서 지원을 중단하기로 결정했습니다. 내부자 위험 관리에서 ServiceNow 통합을 고객에게 제공하기 위한 대체 방법을 적극적으로 평가하고 있습니다.
@@ -174,9 +175,15 @@ Microsoft 365의 내부 위험 관리를 통해 내부 위험 활동 및 규정 
 - [우선순위 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
 - [우선순위 사용자의 데이터 유출(미리 보기)](insider-risk-management-policies.md#data-leaks-by-priority-users-preview)
 
+## <a name="healthcare-preview"></a>의료(미리 보기)
+
+의료 산업의 조직의 경우 최근 연구에 따르면 내부자 관련 데이터 위반 비율이 매우 높습니다. 환자 데이터 및 건강 기록 정보의 오용을 감지하는 것은 환자 개인 정보를 보호하고 HIPAA(Health Insurance Portability and Accountability Act) 및 HITECH(Health Information Technology for Economic and Health) Act와 같은 규정 준수 규정을 준수하는 데 중요한 구성 요소입니다. 환자 데이터 오용은 권한이 부여된 환자 기록에 액세스하는 것에서 악의적인 의도를 갖는 가족 또는 인접 주민의 기록에 액세스할 수 있습니다. 이러한 유형의 위험한 활동을 ID로 지정하기 위해 다음 내부자 위험 관리 정책 템플릿은 Microsoft 365 HR 커넥터 및 의료 관련 데이터 커넥터를 사용하여 EHR(전자 열 기록) 시스템 내에서 발생할 수 있는 동작과 관련된 위험 지표의 점수 지정을 시작할 수 있습니다.
+
+- [일반 환자 데이터 오용(미리 보기)](insider-risk-management-policies.md#general-patient-data-misuse-preview)
+
 ## <a name="actions-and-behaviors-by-disgruntled-users-preview"></a>불만이 있는 사용자의 작업 및 동작(미리 보기)
 
-고용 스트레스 이벤트는 내부자 위험과 관련된 여러 가지 방법으로 사용자 동작에 영향을 줄 수 있습니다. 이러한 스트레스는 성능 검토 성능이 나쁨, 위치 강하 또는 성과 검토 계획에 배치되는 사용자일 수 있습니다. 대부분의 사용자는 이러한 이벤트에 악의적으로 응답하지는 않습니다. 그러나 이러한 작업의 스트레스로 인해 일부 사용자는 정상적인 상황에서 일반적으로 고려하지 않을 수 있는 조치를 취하게 될 수 있습니다. 이러한 유형의 위험한 활동을 ID로 확인하기 위해 다음 내부자 위험 관리 정책 템플릿은 Microsoft 365 HR 커넥터를 사용하여 고용 스트레스 이벤트에 가까운 상황에서 발생할 수 있는 동작과 관련된 위험 지표의 점수 매기기를 시작합니다.
+고용 스트레스 이벤트는 내부자 위험과 관련된 여러 가지 방법으로 사용자 동작에 영향을 줄 수 있습니다. 이러한 스트레스는 성능 검토 성능이 나쁨, 위치 강하 또는 성과 검토 계획에 배치되는 사용자일 수 있습니다. 대부분의 사용자는 이러한 이벤트에 악의적으로 응답하지는 않습니다. 그러나 이러한 작업의 스트레스로 인해 일부 사용자는 정상적인 상황에서 일반적으로 고려하지 않을 수 있는 조치를 취하게 될 수 있습니다. 이러한 유형의 위험한 활동을 ID로 확인하기 위해 다음 내부자 위험 관리 정책 템플릿은 Microsoft 365 HR 커넥터를 사용하여 고용 스트레스 이벤트에 가까운 상황에서 발생할 수 있는 동작과 관련된 위험 지표를 점수 매기기 시작합니다.
 
 - [불만을 품은 사용자의 데이터 유출(미리 보기)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
 - [불만을 품은 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-disgruntled-users-preview)

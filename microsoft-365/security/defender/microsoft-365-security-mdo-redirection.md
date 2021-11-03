@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c1c93f659d284124a33c12cb08109a609778073c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e6b7df942ee117c0f23a97516c75d64131e0770d
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209072"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60698408"
 ---
 # <a name="redirecting-accounts-from-office-365-security-and-compliance-center-to-microsoft-365-defender"></a>Office 365 및 준수 센터에서 계정으로 Microsoft 365 Defender
 
@@ -39,7 +39,8 @@ ms.locfileid: "60209072"
 이 문서에서는 이전 Microsoft 365 Defender 보안 및 준수 센터(protection.office.com)에서 Microsoft 365 Defender Office 365(security.microsoft.com)로 자동 리디렉션을 사용하도록 설정하여 계정을 Microsoft 365 Defender 방법에 대해 security.microsoft.com.
 
 ## <a name="what-to-expect"></a>예상할 일
-자동 리디렉션을 사용하도록 설정하고 활성화하면 Office 365 보안 및 규정 준수(protection.office.com)의 보안 관련 기능에 액세스하는 사용자는 자동으로 Microsoft 365 Defender( https://security.microsoft.com) .  
+
+자동 리디렉션을 사용하도록 설정하고 활성화하면 Office 365 보안 및 규정 준수(protection.office.com)의 보안 관련 기능에 액세스하는 사용자는 자동으로 Microsoft 365 Defender(security.microsoft.com)로 라우팅됩니다.
 
 변경된 내용을 자세히 알아보시고 Microsoft [Defender for Office 365 에서 Microsoft 365 Defender.](microsoft-365-security-center-mdo.md)
 
@@ -57,7 +58,7 @@ ms.locfileid: "60209072"
 
 <!--To start routing accounts to Microsoft 365 Defender at security.microsoft.com:
 
-1. Make sure you’re a global administrator or have security administrator permissions in Azure Active directory.
+1. Make sure you're a global administrator or have security administrator permissions in Azure Active directory.
 2. [Sign in](https://security.microsoft.com/) to Microsoft 365 Defender.
 3. Navigate to **Settings** > **Email & collaboration** > **Portal redirection**.  
 4. Toggle the Automatic redirection setting to **On**.
@@ -67,6 +68,7 @@ ms.locfileid: "60209072"
 > After redirection is enabled, accounts in active sessions while this setting is applied will not be ejected from their session and will only be routed to Microsoft 365 Defender after ending their current session and signing back in again.-->
 
 ## <a name="can-i-go-back-to-using-the-former-portal"></a>이전 포털을 사용하여 다시 돌아갈 수 있나요?
+
 문제가 작동하지 않는 경우 또는 사용자 검색을 통해 완료할 수 Microsoft 365 Defender 경우 포털 피드백 옵션을 사용하여 해당 정보를 듣고 싶을 것입니다. 리디렉션에 문제가 발생하면 알려주세요.
 
 이전 포털로 되버리기:
@@ -86,6 +88,6 @@ ms.locfileid: "60209072"
 - [Microsoft Defender for Endpoint in Microsoft 365 Defender](microsoft-365-security-center-mde.md)
 - [Microsoft는 보안 운영을 현대화하기 위해 통합 SIEM 및 XDR을 제공합니다.](https://www.microsoft.com/security/blog/?p=91813) 
 - [XDR 및 SIEM 인포그래픽](https://afrait.com/blog/xdr-versus-siem/) 
-- [The New Defender](https://afrait.com/blog/the-new-defender/) 
+- [`The New Defender`](https://afrait.com/blog/the-new-defender/) 
 - [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) 
 - [Microsoft 보안 포털 및 관리 센터](portals.md)

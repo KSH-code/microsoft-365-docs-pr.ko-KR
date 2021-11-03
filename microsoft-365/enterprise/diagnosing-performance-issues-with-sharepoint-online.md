@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 3c364f9e-b9f6-4da4-a792-c8e8c8cd2e86
 description: 이 문서에서는 개발자 도구를 사용하여 SharePoint 일반적인 문제를 진단하는 Internet Explorer 방법을 보여줍니다.
-ms.openlocfilehash: 5910e1164ffdf892ffc7252e0e887a6633598c3c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: bb12bc6b8b8f95c33ad35aafad760803e927e830
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198520"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60664942"
 ---
 # <a name="diagnosing-performance-issues-with-sharepoint-online"></a>SharePoint Online의 성능 문제 진단
 
@@ -38,12 +38,12 @@ ms.locfileid: "60198520"
 
 - SharePoint 온라인 응답 헤더 메트릭
 
-이 항목에서는 이러한 각 방법을 사용하여 성능 문제를 진단하는 방법에 대해 설명합니다. 문제의 원인을 찾은 후 에서 찾을 수 있는 성능 향상에 대한 문서를 SharePoint 해결 방법을 찾을 수 https://aka.ms/tune 있습니다.
+이 항목에서는 이러한 각 방법을 사용하여 성능 문제를 진단하는 방법에 대해 설명합니다. 문제의 원인을 찾은 후 에서 찾을 수 있는 성능 향상에 대한 문서를 SharePoint 해결 방법을 찾을 수 https://aka.ms/tune 있습니다. 또는 관리자인 경우 문제를 빠르게 진단하려면 이 진단 [도구를 실행합니다.](https://aka.ms/PillarSiteandPagePerf) 
   
 ## <a name="using-the-f12-tool-bar-to-diagnose-performance-in-sharepoint-online"></a>F12 도구 모음을 사용하여 온라인에서 SharePoint 진단
 <a name="F12ToolInfo"> </a>
 
-이 문서에서는 Internet Explorer 11을 사용했습니다. 다른 브라우저의 F12 개발자 도구 버전은 약간 다를 수 있습니다. F12 개발자 도구에 대한 자세한 내용은 다음을 참조하세요.
+이 문서에서는 11에 Internet Explorer 있습니다. 다른 브라우저의 F12 개발자 도구 버전은 약간 다를 수 있습니다. F12 개발자 도구에 대한 자세한 내용은 다음을 참조하세요.
   
 - [F12 도구의 새로운 기능](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182632(v=vs.85))
 

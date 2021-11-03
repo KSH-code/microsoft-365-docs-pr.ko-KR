@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3943c5c9e477dc114b74d7f3f9a76b5b00119dd6
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 2649cf86dbfab3d74b5b28ec78ae161a962a3cab
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587732"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662289"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -103,7 +103,7 @@ Mac의 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 �
 
 ### <a name="configuring-exclusions"></a>제외 구성
 
-Microsoft Defender에 제외를 추가할 때 일반적인 제외 실수를 염두에 두는 [것이 Microsoft Defender 바이러스 백신](/microsoft-365/security/defender-endpoint/common-exclusion-mistakes-microsoft-defender-antivirus)
+제외를 추가할 때 에 대한 일반적인 제외 실수에 [유의해야 Microsoft Defender 바이러스 백신.](/microsoft-365/security/defender-endpoint/common-exclusion-mistakes-microsoft-defender-antivirus)
 
 ### <a name="network-connections"></a>네트워크 연결
 

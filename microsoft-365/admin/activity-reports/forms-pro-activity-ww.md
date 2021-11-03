@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft Dynamics 365 고객 음성 활동 보고서를 Microsoft 365 관리 센터.
-ms.openlocfilehash: 2eedcf65e95d2bf85dbf156b4e1ac2d540acdf46
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: d143728f8170ae9c12a6d007e9e256a23f7ff74d
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553427"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60650472"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365 관리 센터의 보고서 - Dynamics 365 고객 음성 활동
 
-Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
+Microsoft 365 보고서 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
 예를 들어 Dynamics 365 Customer Voice와의 상호 작용을 보고 Microsoft Dynamics 365 Customer Voice를 사용하기 위해 라이선스가 부여된 모든 사용자의 활동을 이해할 수 있습니다. 또한 사용자가 응답한 설문 조사를 Pro 수를 보고 Pro 진행되는 공동 작업 수준을 파악하는 데 도움이 됩니다. 
   

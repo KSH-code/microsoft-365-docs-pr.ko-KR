@@ -13,21 +13,21 @@ ms.collection:
 - m365initiative-syntex
 ms.localizationpriority: medium
 description: Microsoft SharePoint Syntex에서 추출기를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d7d4352283645a80844e0dcc8cd2715a8357b5be
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e6598704375aad88efcdbaef700ee0187c4f7e07
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60177318"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60665081"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기 만들기
 
 
-</br>
+<br/>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CL2G]
 
-</br> 
+<br/> 
 
 특정 문서 유형의 식별 및 분류를 자동화하기 위해 분류자 모델을 만들기 전 또는 후에, 모델에 추출기를 추가하여 해당 문서에서 필요에 따라 특정 정보를 가져오도록 할 수 있습니다. 예를 들어, 문서 라이브러리에 추가된 모든 *계약 갱신* 문서를 식별할 뿐만 아니라 각 문서의 *서비스 시작 날짜* 를 문서 라이브러리의 열 값으로 표시하도록 할 수 있습니다.
 
@@ -39,9 +39,12 @@ ms.locfileid: "60177318"
 ## <a name="name-your-extractor"></a>추출기 이름 짓기
 
 1. 모델 홈 페이지의 **추출기 만들기와 학습시키기** 타일에서 **추출기 학습시키기** 를 클릭합니다.
+
 2. **새로운 엔터티 추출기** 화면에서 **새로운 추출기 이름** 필드에 추출기 이름을 입력합니다. 예를 들어 각 계약 갱신 문서에서 서비스 시작 날짜를 추출하려는 경우 **서비스 시작 날짜** 를 이름으로 입력합니다. 이전에 만든 열(예: 관리된 메타데이터 열)을 다시 사용하도록 선택할 수도 있습니다.
-> [!NOTE]
-> 새 추출기를 만든 경우에는 **새 열 유형** 을 선택하고 **단일 텍스트 줄** 을 선택하세요. 최대 문자 제한은 255자 입니다. 입력한 문자가 한도를 초과하는 경우 모두 잘립니다. 
+
+    > [!NOTE]
+    > 열 유형이 한 줄 텍스트인 추출기의 경우 **최대** 문자 제한은 255입니다. 입력한 문자가 한도를 초과하는 경우 모두 잘립니다.
+
 3. 모두 마쳤으면 **만들기** 를 클릭합니다.
 
 ## <a name="add-a-label"></a>레이블 추가
@@ -99,11 +102,11 @@ ms.locfileid: "60177318"
 
 1. **설명 섹션** 에서 **신규** 를 선택한 다음 **설명 라이브러리 이용** 을 선택합니다.
 2. 설명 라이브러리에서 **날짜** 를 선택합니다. 인식되는 모든 날짜 변형을 볼 수 있습니다.
-3. **추가** 를 선택합니다.</br>
+3. **추가** 를 선택합니다.
 
     ![설명 라이브러리](../media/content-understanding/explanation-library.png) 
 
-4. **설명 만들기** 페이지에서 설명 라이브러리의 *날짜* 정보가 필드에 자동으로 채워집니다. **저장** 을 선택합니다.</br>
+4. **설명 만들기** 페이지에서 설명 라이브러리의 *날짜* 정보가 필드에 자동으로 채워집니다. **저장** 을 선택합니다.
 
     ![날짜.](../media/content-understanding/date-explanation-library.png) 
 

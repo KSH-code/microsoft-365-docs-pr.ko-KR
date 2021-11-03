@@ -17,12 +17,12 @@ audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6bfd4f42a6fcc43d7eec6c378cb1cdc25b186991
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b36d4d46e6a9ab8b705626ab186e06e577f2c46e
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196888"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60665542"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>실시간 보호와 관련된 성능 문제 해결
 
@@ -51,7 +51,7 @@ ms.locfileid: "60196888"
 
 시스템 성능에 영향을 주는 소프트웨어를 쉽게 식별할 수 있는 경우 소프트웨어 공급업체의 기술 자료 또는 지원 센터로 이동하십시오. 바이러스 백신 제외에 대한 권장 사항이 있는 경우 검색합니다. 공급업체의 웹 사이트에 해당 웹 사이트가 없는 경우 지원 티켓을 열어서 게시할 수 있습니다.
 
-소프트웨어 공급업체는 업계와 파트너 관계의 다양한 지침을 따라 가극적 긍정을 [최소화하는 것이 좋습니다.](https://www.microsoft.com/security/blog/2018/08/16/partnering-with-the-industry-to-minimize-false-positives/) 공급업체는 Microsoft Defender 보안 인텔리전스 포털(MDSI)을 통해 소프트웨어를 [제출할 수 있습니다.](https://www.microsoft.com/wdsi/filesubmission?persona=SoftwareDeveloper)
+소프트웨어 공급업체는 업계와 파트너 관계의 다양한 지침을 따라 가극적 긍정을 [최소화하는 것이 좋습니다.](https://www.microsoft.com/security/blog/2018/08/16/partnering-with-the-industry-to-minimize-false-positives/) 공급업체는 웹 사이트 포털 [을 통해 Microsoft 보안 인텔리전스 수 있습니다.](https://www.microsoft.com/wdsi/filesubmission?persona=SoftwareDeveloper)
 
 ## <a name="analyze-the-microsoft-protection-log"></a>Microsoft 보호 로그 분석
 
@@ -167,7 +167,7 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 ### <a name="capture-performance-logs-using-the-wpr-ui"></a>WPR UI를 사용하여 성능 로그 캡처
 
 > [!TIP]
-> 문제가 발생하는 디바이스가 여러 개 있는 경우 RAM이 가장 많은 장치를 사용 합니다.
+> 여러 장치에서 이 문제가 발생하는 경우 RAM이 가장 많은 장치를 사용 합니다.
 
 1. WPR을 다운로드하여 설치합니다.
 

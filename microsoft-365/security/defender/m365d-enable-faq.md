@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: dansimp
+author: dansimp
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ac26e2528698cc671c5cb45eb507d01900a77ec4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f7f27d772f5b0d68c22bfa57a771cf2d13ca58c6
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162329"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667017"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>이 기능을 켜면 자주 묻는 Microsoft 365 Defender
 

@@ -18,12 +18,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 0c2d4fad95371f2529fb2c8ec3e430995d1c6627
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a93fb821c69f390bbc6e19034e1dc025b06cd623
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205578"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60665754"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스를 사용하여 중요한 폴더 보호
 
@@ -55,7 +55,7 @@ ms.locfileid: "60205578"
 
 앱이 보전 및 신뢰도에 따라 목록에 추가됩니다. 조직 전체에서 매우 만연하며 악의적인 것으로 간주되는 동작을 표시하지 않은 앱은 신뢰할 수 있는 앱으로 간주됩니다. 이러한 앱은 목록에 자동으로 추가됩니다.
 
-Configuration Manager 또는 Intune을 사용하여 앱을 신뢰할 수 있는 목록에 수동으로 추가할 수도 있습니다. 앱에 대한 [](respond-file-alerts.md#add-indicator-to-block-or-allow-a-file) 파일 표시기 추가와 같은 추가 작업은 보안 센터 콘솔에서 수행할 수 있습니다.
+Configuration Manager 또는 Intune을 사용하여 앱을 신뢰할 수 있는 목록에 수동으로 추가할 수도 있습니다. 보안 센터 콘솔에서 추가 작업을 수행할 수 있습니다. 
 
 ## <a name="why-controlled-folder-access-is-important"></a>제어된 폴더 액세스가 중요한 이유
 

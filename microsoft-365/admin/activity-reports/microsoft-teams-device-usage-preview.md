@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft Teams 보고서에서 Microsoft Teams 앱 사용 현황 보고서를 확인하여 조직에서 사용되는 Microsoft 365 정보를 얻습니다.
-ms.openlocfilehash: 64ea581ddcd82b5ed65aa401c594c909fc62d61d
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: cb93481d2b702fd18bd28b5504865316119335a4
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553259"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60649084"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft Teams 사용 현황
 
-Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft Teams 앱 사용 보고서에서는 조직에서 사용되는 Microsoft Teams 앱에 대한 정보를 확인할 수 있습니다.
+Microsoft 365 보고서 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft Teams 앱 사용 보고서에서는 조직에서 사용되는 Microsoft Teams 앱에 대한 정보를 확인할 수 있습니다.
   
 ## <a name="how-to-get-to-the-microsoft-teams-app-usage-report"></a>Microsoft Teams 앱 사용 보고서에 액세스하는 방법
 
@@ -57,7 +57,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 |Android 휴대폰  <br/> | Android용 모바일 클라이언트에서 Teams 활성화된 경우 선택됩니다.  <br/> |
 |Chrome OS  <br/> |사용자가 ChromeOS 컴퓨터의 Teams 클라이언트에서 활성 상태인 경우 선택됩니다.|
 |Linux  <br/> | 사용자가 Linux 컴퓨터의 Teams 클라이언트에서 활성 상태인 경우 선택됩니다.  <br/> |
-|웹  <br/> |사용자가 디바이스의 웹 클라이언트에서 Teams 활성화된 경우 선택됩니다.|
+|Web  <br/> |사용자가 디바이스의 웹 클라이언트에서 Teams 활성화된 경우 선택됩니다.|
 |마지막 활동 날짜(UTC)  <br/> |사용자가 Teams(UTC)입니다.  <br/> |
 |사용이 허가됩니다.|사용자에게 사용이 허가된 경우 선택된 Teams.|
 |||

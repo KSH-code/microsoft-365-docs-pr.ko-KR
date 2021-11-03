@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1741eb7226f8ae601b45b73eef5f55ffe9f22ca5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d71bbda27998ed99f6bffbd91ca3b76d9579be78
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204110"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662327"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -231,7 +231,7 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태  모니�
     > [!div class="mx-imgBorder"]
     > ![응용 프로그램 목록.](images/mdatp-12-applications.png)
 
-(Defender 배포에 대한 [Intune의](/mem/intune/apps/apps-advanced-threat-protection-macos)페이지에서 자세한 정보를 찾을 수 있습니다.)
+자세한 내용은 [Add Microsoft Defender for Endpoint to macOS devices using Microsoft Intune](/mem/intune/apps/apps-advanced-threat-protection-macos).)
 
    > [!CAUTION]
    > 위에서 설명한 대로 필요한 구성 프로필을 모두 만들어 모든 컴퓨터로 푸시해야 합니다.

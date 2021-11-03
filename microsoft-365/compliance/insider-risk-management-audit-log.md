@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 3024c0861f0530c59fb5f620959a2b28f3078ea0
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 2bf453e8856f69e9ddb8c7c7a9264267ef77b4f0
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60334653"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60662543"
 ---
 # <a name="insider-risk-management-audit-log"></a>내부자 위험 관리 감사 로그
 
@@ -36,7 +36,7 @@ ms.locfileid: "60334653"
 - 사용자
 - 알림 템플릿
 
-감사 로그에서 데이터를 보고 내보내기하려면 사용자를 내부자 위험 관리 또는 내부자 위험 관리 감사자 역할 그룹에 *할당해야* 합니다.  내부자 위험 관리 역할 그룹에 대한 자세한 내용은 내부자 위험 관리 1단계: 사용 권한 사용 [시작을 참조합니다.](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management)
+감사 로그에서 데이터를 보고 내보내기하려면 사용자를 내부자 위험 관리 또는 내부자 위험 관리 감사자 역할 그룹에 *할당해야* 합니다.  내부자 위험 관리 역할 그룹에 대한 자세한 내용은 내부자 위험 관리 1단계: 사용 권한 사용 [시작을 참조합니다.](insider-risk-management-configure.md#step-1-required-enable-permissions-for-insider-risk-management)
 
 > [!NOTE]
 > 내부자 위험 관리 감사 로그는 Microsoft 365 감사 로그와 연결되지 않습니다. 이러한 로그는 독립적인 감사 시스템으로, 별도의 활동에 대한 정보를 캡처합니다. 감사를 Microsoft 365 내부자 위험 관리 내의 활동 감사에는 영향을주지 않습니다.
@@ -64,7 +64,7 @@ ms.locfileid: "60334653"
 
 파일에는 다음 필드에 대한 활동 정보가 포함되어 있습니다.
 
-- **수행되는 활동:** 항목 값을 수정하는 사용자의 사용자 이름입니다. 여기에 나열된 사용자는 내부자 위험 관리, 내부자 위험 관리 관리자, 내부자 위험 관리 분석가, 내부자 위험 관리 조사자 등 역할 내부자 위험 관리 역할 그룹 중 하나 이상에 *할당됩니다.* [](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management) 각 역할 그룹에는 내부자 위험 기능을 관리하기 위한 사용 권한 수준이 다릅니다.
+- **수행되는 활동:** 항목 값을 수정하는 사용자의 사용자 이름입니다. 여기에 나열된 사용자는 내부자 위험 관리, 내부자 위험 관리 관리자, 내부자 위험 관리 분석가, 내부자 위험 관리 조사자 등 역할 내부자 위험 관리 역할 그룹 중 하나 이상에 *할당됩니다.* [](insider-risk-management-configure.md#step-1-required-enable-permissions-for-insider-risk-management) 각 역할 그룹에는 내부자 위험 기능을 관리하기 위한 사용 권한 수준이 다릅니다.
 - **활동:** 항목에 대한 활동입니다. 값은 *보기, 삭제, 추가, 편집된 정책, 사례, 사용자,* 경고 *및 설정.*
 - **추가된** 개체: 사용자, 파일 형식 또는 도메인과 같이 활동 중에 추가된 개체입니다.
 - **경고 볼륨:** 내부자 위험 관리 설정에 정의된 경고 볼륨 수준입니다.

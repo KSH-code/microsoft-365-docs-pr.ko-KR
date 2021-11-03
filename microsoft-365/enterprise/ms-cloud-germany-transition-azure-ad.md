@@ -18,16 +18,24 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft Azure Active Directory(Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 추가 정보입니다.'
-ms.openlocfilehash: 349df1366c76eb23c8aaaf0447ef90a031e6e52d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f8219bb578655ad504f7182933a21f66723b9208
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60189060"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60700376"
 ---
 # <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이치클라드에서 마이그레이션하기 위한 추가 Azure Active Directory 정보
 
-Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료하기 위해 OIDC(OpenID 커넥트) 끝점에서 상업용 클라우드 끝점 보고를 시작할 때 응용 프로그램의 인증 끝점, Azure Active Directory(Azure AD) Graph 및 MS Graph 끝점을 상업용 클라우드의 끝점으로 업데이트하는 것이 `https://login.microsoftonline.com/<TenantIdOrDomain>/.well-known/openid-configuration` 좋습니다. 
+> [!WARNING]
+> **Azure Active Directory(Azure AD) Graph 더는 사용이 없습니다.** 기능 손실을 방지하려면 Azure AD Graph API 끝점이 요청에 응답하지 않는 경우 2022년 6월 30일 전에 Azure 공용 클라우드의 응용 프로그램을 Microsoft Graph 마이그레이션합니다.
+>
+> Microsoft는 모든 기능 및 지원이 종료될 때 2022년 6월 30일까지 Azure AD Graph 기술 지원을 계속하고 보안 수정을 적용합니다. 2022년 6월 30일 Graph Microsoft로 응용 프로그램을 마이그레이션하지 못하면 응용 프로그램의 기능과 안정성이 위험에 노출됩니다.
+> 
+>**지금 Microsoft 앱을 Graph Azure AD Graph 업데이트합니다.**
+
+
+Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료하기 위해 OIDC(OpenID 커넥트) 끝점에서 상업용 클라우드 끝점 보고를 시작할 때 응용 프로그램의 인증 끝점, Azure Active Directory(Azure AD) Graph 및 MS Graph 끝점을 상업용 클라우드의 끝점으로 업데이트하는 것이 `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` 좋습니다. 
  
 **언제 변경해야 하나요?**
 
@@ -81,10 +89,6 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 
 테넌트 외부에 있는 사용자가 사용할 수 있는 응용 프로그램을 게시하는 경우 연속성을 보장하기 위해 응용 프로그램 등록을 변경해야 할 수 있습니다. 응용 프로그램을 사용하는 다른 테넌트는 테넌트와 다른 시간으로 이동할 수 있습니다. 응용 프로그램에 대한 액세스 권한을 잃지 않도록 보장하려면 Azure Germany에서 Azure Public으로 동기화되는 앱에 동의해야 합니다.
 
-**마이그레이션 중 새 다중 테넌트 응용 프로그램을 추가하는 경우**
-
-다른 조직(다중 테넌트 응용 프로그램)에서 게시하는 새 응용 프로그램을 사용하려는 경우 마이그레이션 프로세스(2~9단계)에서 해당 응용 프로그램을 추가하지는 제한됩니다.  조직이 9단계를 완료하고 Azure 공용 인스턴스로 완전히 전환될 때 이 작업을 실행할 수 있습니다.
-
 ## <a name="additional-considerations"></a>추가 고려 사항
 
 다음은 Azure AD에 대한 몇 가지 추가 고려 사항입니다.
@@ -123,7 +127,7 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 
 - 테넌트가 마이그레이션 중이면 Office 365 독일 포털과 Office 365 포털에서 Azure AD ad 커넥트 버전에 대한 경고가 표시됩니다. 마이그레이션이 완료된 후 버전 경고가 더 이상 경고를 표시하지 않는 경우 무시할 수 있습니다. 마이그레이션 전이나 후에 경고가 표시될 경우 두 포털에서 Azure AD 커넥트 업데이트해야 합니다. 경고 메시지는 다음을 나타냅니다. "디렉터리 동기화 도구가 사용 중입니다. Microsoft 다운로드 센터로 이동하여 최신 버전의 Azure AD 2013을 다운로드하는 커넥트."
 
-## <a name="more-information"></a>추가 정보
+## <a name="more-information"></a>자세한 정보
 
 시작:
 
@@ -143,3 +147,4 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 - [Dynamics 365 마이그레이션 프로그램 정보](/dynamics365/get-started/migrate-data-german-region)
 - [Power BI 마이그레이션 프로그램 정보](/power-bi/admin/service-admin-migrate-data-germany)
 - [Microsoft Teams 업그레이드 시작하기](/microsoftteams/upgrade-start-here)
+- 

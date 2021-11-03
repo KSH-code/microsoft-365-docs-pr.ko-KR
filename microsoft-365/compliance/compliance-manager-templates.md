@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 파일 형식을 사용하여 서식 있는 서식 Excel 수정합니다.
-ms.openlocfilehash: 74b896f6c0fdd625cf50cc04a31fa79d48dc3a4e
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 99e243e86c66babd9a983ae6df891f4094cdbb83
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587684"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60673647"
 ---
 # <a name="learn-about-assessment-templates-in-compliance-manager"></a>준수 관리자의 평가 템플릿에 대해 자세히 알아보기
 
@@ -36,9 +36,9 @@ ms.locfileid: "60587684"
 
 템플릿은 준수 관리자에서 평가를 만들기 위한 컨트롤 프레임워크입니다. 당사의 포괄적인 템플릿 집합은 조직이 데이터 수집 및 사용에 대한 국가, 지역 및 산업별 요구 사항을 준수하는 데 도움이 될 수 있습니다.
 
-EU GDPR 템플릿 및 ISO/IEC 27701:2019 템플릿과 같은 기본 인증 또는 규정과 동일한 이름으로 템플릿을 참조합니다. 준수 관리는 다양한 유형의 제품을 평가하는 데 사용할 수 있으며 각 템플릿은 두 가지 버전으로 제공됩니다. 하나는 Microsoft 365, 선택한 제품에 맞게 조정할 수 있는 유니버설 버전입니다.
+EU GDPR 템플릿 및 ISO/IEC 27701:2019 템플릿과 같은 기본 인증 또는 규정과 동일한 이름으로 템플릿을 참조합니다. 규정 준수 관리는 다양한 유형의 제품을 평가하는 데 사용할 수 있으며 각 템플릿은 두 가지 버전으로 제공됩니다. 하나는 Microsoft 365 미리 정의된 제품에 적용되는 버전과 선택한 제품에 맞게 조정할 수 있는 유니버설 버전입니다.
 
-미국 정부 Community(GCC) 보통, GCC High 및 DoD(국방부) 고객은 현재 Microsoft 365 템플릿 버전을 사용할 수 있지만 유니버설은 사용할 수 없습니다.
+미국 정부 Community(GCC) 보통, GCC High 및 DoD(국방부) 고객은 현재 유니버설 템플릿을 사용할 수 없습니다.
 
 ## <a name="template-availability-and-licensing"></a>서식 파일 가용성 및 라이선스
 
@@ -74,9 +74,10 @@ GCC 높음 및 DOD 계정은 볼륨 라이선스를 통해 템플릿 [라이선�
 
 구매하기 전에 프리미엄 템플릿을 사용해 보시고 평가판 버전의 라이선스를 취득할 수도 있습니다. 평가판 라이선스는 90일 동안 최대 25개 템플릿에 좋습니다. 평가판 라이선스를 획득하면 48시간 이내에 테넌트에서 템플릿을 사용할 수 있습니다.
 
-평가판을 시작하려면 조직에 적합한 링크를 선택하세요.
+조직에 준수 관리자에 대한 상업용 라이선스가 있는 경우 Microsoft 준수 관리자 프리미엄 평가판에 대한 무료 평가판 정보를 통해 평가판을 시작하는 방법을 배울 [수 있습니다.](compliance-easy-trials-compliance-manager-assessments.md)
 
-- [상업용](https://admin.microsoft.com/Adminportal/Home?#/catalog/offer-details/compliance-manager-premium-assessment-add-on/e320704d-b7c9-4012-b6a6-0a2679790360)
+조직이 GCC 또는 DOD 라이선스를 사용 중이면 조직에 적합한 평가판 링크를 선택하세요.
+
 - [GCC 보통](https://admin.microsoft.com/Adminportal/Home?#/catalog/offer-details/compliance-manager-premium-assessment-add-on/87ed2908-0a8d-430a-9635-558ed42b581f)
 - [GCC High](https://portal.office365.us/SubscriptionDetails?OfferId=e14362d7-2c11-4a43-9c92-59f1b499b96a)
 - [DOD](https://portal.apps.mil/Commerce/Trial.aspx?OfferId=17e28290-7de6-41a9-af30-f6497396ab2e)
@@ -98,7 +99,7 @@ GCC 높음 및 DOD 계정은 볼륨 라이선스를 통해 템플릿 [라이선�
 
 카운터에 5/2가 표시되면 이는 조직이 제한을 초과하고 사용 중이 있는 프리미엄 템플릿 3개를 구입해야 하다는 것을 나타냅니다.
 
-Microsoft 365 및 유니버설 버전의 템플릿에는 공동 라이선스가 있으므로 두 개 이상의 제품에서 동일한 기본 인증을 사용할 수 있습니다. 동일한 템플릿 중 하나 또는 두 버전을 모두 사용하면 하나의 활성화된 템플릿으로 계산됩니다.
+미리 정의된 제품의 템플릿(예: Microsoft 365 템플릿)에는 동일한 템플릿의 유니버설 버전과의 공동 라이선싱이 있습니다. 이렇게 하면 두 개 이상의 제품에서 동일한 동일한 인증을 사용할 수 있습니다. 동일한 템플릿 중 하나 또는 두 버전을 모두 사용하면 하나의 활성화된 템플릿으로 계산됩니다.
 
 자세한 내용은 준수 관리자 라이선스 [지침을 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 
@@ -118,7 +119,7 @@ Microsoft 365 및 유니버설 버전의 템플릿에는 공동 라이선스가 
 
 ## <a name="extend-an-assessment-template"></a>평가 템플릿 확장
 
-준수 관리자는 기존 템플릿에 자체 컨트롤 및 개선 작업을 추가하는 옵션을 제공합니다. 이 프로세스를 템플릿 확장이라고 합니다. 템플릿을 확장하기 위해 평가 템플릿 또는 유니버설 평가 템플릿을 확장하는지 여부에 따라 템플릿 데이터에 Microsoft 365 특별한 지침을 사용하게 됩니다. 자세한 내용은 평가 템플릿 [확장을 참조합니다.](compliance-manager-templates-extend.md)
+준수 관리자는 기존 템플릿에 자체 컨트롤 및 개선 작업을 추가하는 옵션을 제공합니다. 이 프로세스를 템플릿 확장이라고 합니다. 템플릿을 확장하기 위해 Microsoft 평가 템플릿 또는 유니버설 평가 템플릿을 확장하는지 여부에 따라 템플릿 데이터에 추가하기 위한 특수 지침을 사용할 수 있습니다. 자세한 내용은 평가 템플릿 [확장을 참조합니다.](compliance-manager-templates-extend.md)
 
 ## <a name="format-assessment-template-data-in-excel"></a>평가 템플릿 데이터 형식을 Excel
 

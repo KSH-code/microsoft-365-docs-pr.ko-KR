@@ -16,12 +16,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b69e093e49bbfd143604f6f1a44e472b29762109
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 022709bf47a52ae6a8763bf36df4e7e0d49c34cd
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60211139"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668071"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
@@ -55,11 +55,11 @@ iOS에서 끝점용 Defender를 배포하는 Intune 회사 포털.
     > [!div class="mx-imgBorder"]
     > ![관리 Microsoft Endpoint Manager 이미지1.](images/ios-deploy-1.png)
 
-1. 앱 추가 페이지에서 앱  스토어 검색을 클릭하고 검색 표시줄에 **Microsoft Defender 끝점을** 입력합니다. 검색 결과 섹션에서 *Microsoft Defender 끝점을 클릭하고* 선택을 **클릭합니다.**
+1. 앱 **추가 페이지에서** 앱  스토어 검색을 클릭하고 검색 표시줄에 **Microsoft Defender 끝점을** 입력합니다. 검색 결과 섹션에서 *Microsoft Defender 끝점을 클릭하고* 선택을 **클릭합니다.**
 
 1. **최소 운영 체제로 iOS 11.0을** 선택합니다. 앱에 대한 나머지 정보를 검토하고 다음을 **클릭합니다.**
 
-1. 배정 *섹션에서* 필수 섹션으로 **이동하여** 그룹 **추가 를 선택합니다.** 그런 다음 iOS 앱에서 끝점용 Defender를 대상으로 할 사용자 그룹을 선택할 수 있습니다. 선택을 **클릭한** 후 다음 을 **클릭합니다.**
+1. 배정 **섹션에서** 필수 섹션으로 **이동하여** 그룹 **추가 를 선택합니다.** 그런 다음 iOS 앱에서 끝점용 Defender를 대상으로 할 사용자 그룹을 선택할 수 있습니다. 선택을 **클릭한** 후 다음 을 **클릭합니다.**
 
     > [!NOTE]
     > 선택한 사용자 그룹은 Intune에 등록된 사용자로 구성됩니다.
@@ -143,13 +143,13 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
 
 1. 다음을 클릭하여 **범위** 태그 페이지를 열 수 있습니다.  범위 태그는 선택 사항입니다. **다음** 을 클릭하여 계속합니다.
 
-1. 과제 **페이지에서** 이 프로필을 받을 그룹을 선택합니다. 이 시나리오에서는 모든 장치를 대상으로 **지정하는 것이 가장 좋은 시나리오입니다.** 프로필 할당에 대한 자세한 내용은 사용자 및 장치 프로필 [할당을 참조하세요.](/mem/intune/configuration/device-profile-assign)
+1. **할당** 페이지에서 이 프로필을 받을 그룹을 선택합니다. 이 시나리오에서는 모든 장치를 대상으로 **지정하는 것이 가장 좋은 시나리오입니다.** 프로필 할당에 대한 자세한 내용은 [사용자 및 디바이스 프로필 할당](/mem/intune/configuration/device-profile-assign)을 참조하세요.
 
    사용자 그룹에 배포할 때 정책이 적용되기 전에 사용자가 장치에 로그인해야 합니다.
 
    **다음** 을 클릭합니다.
 
-1. 검토 **+ 만들기 페이지에서** 완료되면 만들기 를 **선택합니다.** 새 프로필이 구성 프로필 목록에 표시됩니다.
+1. **검토 + 만들기** 페이지에서 완료되면 **만들기** 를 선택합니다. 새 프로필이 구성 프로필 목록에 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

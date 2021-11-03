@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 48dda6faf9d0cfc5b301a766dd07f8cb4e15d394
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c60f9ff0b302948d5fd2d8c450e33a12768e8db0
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174558"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60665530"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -58,7 +56,7 @@ AssignedIPAddresses(x, y)
 - **x**- `DeviceId` `DeviceName` 또는 디바이스를 식별하는 값
 - **y**- (datetime) 특정 시간에서 가장 최근에 할당된 IP 주소를 구하도록 `Timestamp` 함수에 지시하는 값입니다. 지정하지 않으면 함수는 최신 IP 주소를 반환합니다.
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 ### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>24시간 전 디바이스에서 사용하는 IP 주소 목록 표시
 

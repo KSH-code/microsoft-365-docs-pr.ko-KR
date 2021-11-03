@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 9207d4aebf3fa729fdf879a52a31103349fac8f8
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 3d94a08e651aec05869e54cfee2d605680e03426
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554231"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60664590"
 ---
 # <a name="run-the-client-analyzer-on-macos-and-linux"></a>macOS 및 Linux에서 클라이언트 분석기 실행
 
@@ -35,7 +35,7 @@ ms.locfileid: "60554231"
 1. [XMDE 클라이언트 분석기](https://aka.ms/XMDEClientAnalyzer) 도구를 조사해야 하는 macOS 또는 Linux 컴퓨터로 다운로드합니다.
 
    > [!NOTE]
-   > 위 링크에서 다운로드한 'XMDEClientAnalyzer.zip'의 현재 SHA256 해시는 '973725417D136B7B17AF4B301F1E99BA21D7F4A7DF88036DC5A731A4B768A8B2'입니다.
+   > 위의 링크에서 다운로드한 'XMDEClientAnalyzer.zip'의 현재 SHA256 해시는 'ECD2E7518EDC803E2FC2D9919531A22FD61375BED85A73EF64B74A97C7CBD9E3'입니다.
 
 2. 컴퓨터의 콘텐츠 XMDEClientAnalyzer.zip 추출합니다.
 
@@ -68,7 +68,9 @@ ms.locfileid: "60554231"
 > - Linux의 경우 분석기에서 결과 출력을 생성하려면 'lxml'이 필요합니다. 설치되지 않은 경우 분석기는 아래 python 패키지에 대한 공식 리포지토리에서 이를 페치하려고 시도합니다. <https://files.pythonhosted.org/packages/\*/lxml\*.whl>
 > 
 > - 또한 이 도구는 현재 Python 버전 3 이상을 설치해야 합니다.
-> 
+>
+> - Python 3을 사용할 수 없는 컴퓨터 또는 lxml 구성 요소를 페치할 수 없는 컴퓨터의 경우 요구 사항이 없는 이진 기반 버전의 분석기를 다운로드할 수 있습니다. [XMDE 클라이언트](https://aka.ms/XMDEClientAnalyzerBinary) 분석기 이진
+>
 > - 장치가 프록시 뒤에 있는 경우 프록시 서버를 환경 변수로 mde_support_tool.sh 스크립트에 전달할 수 있습니다. 예: `https_proxy=https://myproxy.contoso.com:8080 ./mde_support_tool.sh"`
 
 예제:

@@ -1,5 +1,5 @@
 ---
-title: FAQ에 Microsoft 365 스케줄러
+title: MICROSOFT 365 대한 스케줄러 FAQ
 ms.author: v-aiyengar
 author: AshaIyengar21
 manager: serdars
@@ -7,15 +7,15 @@ audience: Admin
 ms.topic: article
 ms.service: scheduler
 ms.localizationpriority: medium
-description: FAQ에 Microsoft 365 스케줄러
-ms.openlocfilehash: da00bf841c41d1bda589142a680d948796db3b45
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+description: MICROSOFT 365 대한 스케줄러 FAQ
+ms.openlocfilehash: 2392c48de3d80cf41d179eb053c46967626b5159
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60178542"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60673303"
 ---
-# <a name="scheduler-for-microsoft-365-faqs"></a>FAQ에 Microsoft 365 스케줄러
+# <a name="scheduler-for-microsoft-365-faq"></a>MICROSOFT 365 대한 스케줄러 FAQ
 
 **질문:** Scheduler는 Cortana, 매일 브리핑 전자 Windows 및 내 전자 *메일* 재생과 같은 다른 Cortana 기능과 어떻게 *통합하나요?* </br>
 스케줄러는 다른 모든 기능의 독립적인 Cortana 있습니다. 다른 Cortana 기능은 테넌트 수준에서 사용하지 않도록 설정할 수 있으며, 여전히 전자 메일 주소의 전자 메일 주소를 사용하여 스케줄러를 cortana@yourdomain.com 있습니다. 현재 사용자는 전자 메일을 통해서만 스케줄러와 상호 작용할 수 있습니다.

@@ -18,12 +18,12 @@ description: 전자 메일의 악성 금고 보호하기 위해 첨부 파일 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2eefdbdfd9121bdc778425fe63ea35d3f97a4adc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1cc31f00045173202d6404a81b64fdaab791e0c5
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196444"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60673761"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 첨부 파일 정책 설정 Office 365
 
@@ -38,7 +38,7 @@ ms.locfileid: "60196444"
 
 금고 첨부 파일은 [EOP(Exchange Online Protection)에서](whats-new-in-defender-for-office-365.md) 맬웨어 방지 보호를 통해 검색된 후 받는 사람에게 배달되기 전에 [](anti-malware-protection.md)가상 환경을 사용하여 인바운드 전자 메일 메시지의 첨부 파일을 검사하는 Office 365 Microsoft Defender의 기능입니다. 자세한 내용은 microsoft [Defender에서](safe-attachments.md)금고 첨부 파일을 Office 365.
 
-첨부 파일 정책에 대한 기본 금고 없습니다. 전자 메일 금고 첨부 파일 검색을 시작하려면 이 문서에 설명된 금고 첨부 파일 정책을 하나 이상 만들어야 합니다.
+기본 금고 첨부 파일 정책은 있지만 기본  제공 보호 미리 설정 보안 정책은 모든 받는 사람(사용자 지정 금고 첨부 파일 정책에 정의되지 않은 사용자)에게 금고 첨부 파일 보호를 제공합니다. 자세한 내용은 EOP에서 보안 정책 미리 설정 및 Microsoft [Defender for Office 365.](preset-security-policies.md) 이 문서의 절차에 따라 특정 사용자, 그룹 또는 도메인에 금고 첨부 파일 정책을 만들 수도 있습니다.
 
 Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online PowerShell)에서 Microsoft 365 사서함이 있는 Microsoft 365 조직에 대해 Exchange Online 첨부 파일 정책을 구성할 수 있습니다. 없는 조직의 경우 독립 실행형 EOP PowerShell을 사용할 수 있습니다. 금고 Exchange Online 추가 기능 구독용 Defender를 Office 365)
 
@@ -70,7 +70,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
   자세한 내용은 Microsoft 365 Defender [포털의](permissions-microsoft-365-security-center.md) 사용 권한 및 [Exchange Online.](/exchange/permissions-exo/permissions-exo)
 
-  **참고**:
+  **참고:**
 
   - Azure Active Directory 역할에 사용자를 추가하면 Microsoft 365 관리 센터 포털에서 필요한 사용 권한 및 Microsoft 365 Defender 포털의  다른 기능에 대한 사용 권한이 Microsoft 365. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
@@ -184,7 +184,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 **참고:** Microsoft 365 Defender 포털에서 첨부 파일 정책을 만든 금고 정책의 우선 순위만 변경할 수 있습니다. PowerShell에서 안전한 첨부 파일 규칙을 만들 때 기본 우선 순위를 다시 정할 수 있습니다(기존 규칙의 우선 순위에 영향을 줄 수 있습니다).
 
-정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이** 거나 **우선 순위를 낮춥** 니다(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
+정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이거나** **우선 순위를 낮춥니다**(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
 
 1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
 
@@ -226,7 +226,7 @@ PowerShell에서 금고 첨부 파일 정책을 만드는 과정은 다음 두 �
 1. 안전한 첨부 파일 정책을 만들 수 있습니다.
 2. 규칙이 적용되는 안전한 첨부 파일 정책을 지정하는 안전한 첨부 파일 규칙을 만들 수 있습니다.
 
- **참고**:
+ **참고:**
 
 - 새 안전한 첨부 파일 규칙을 만들고 연결되지 않은 기존 안전 첨부 파일 정책을 할당할 수 있습니다. 안전한 첨부 파일 규칙은 두 개 이상의 안전한 첨부 파일 정책과 연결될 수 없습니다.
 

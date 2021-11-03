@@ -15,17 +15,15 @@ author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
-- m365initiative-m365-defender
+ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 82557f955626436236401f622de6f2dc19aba9c2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: acae853032be246184b4f74f83d308fbde1d43b5
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60202670"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60667075"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -33,7 +31,7 @@ ms.locfileid: "60202670"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> 이 표는 현재 베타 버전이며 단기적으로 제공되어 AAD(Azure Active Directory) 서비스 사용자 및 관리되는 ID 로그인 이벤트를 확인할 `AADSpnSignInEventsBeta` 수 있습니다. 결국 모든 로그인 Schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.
+> 이 표는 현재 베타로 제공되고 있으며, 사용자가 Azure Active Directory(AAD) 로그인 이벤트를 헌팅할 수 있도록 `AADSpnSignInEventsBeta` 단기적으로 제공됩니다. 고객은 이 테이블에 대한 Azure Active Directory Premium P2 수집하고 볼 수 있는 라이선스가 필요합니다. 결국 모든 로그인 Schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.
 
 고급 헌팅 schema의 표에는 서비스 사용자 및 Azure Active Directory 로그인에 대한 정보가 `AADSpnSignInEventsBeta` 포함되어 있습니다. 로그인 활동 보고서 - 미리 보기에서 다양한 종류의 [로그인에 대해 Azure Active Directory 수 있습니다.](/azure/active-directory/reports-monitoring/concept-all-sign-ins)
 

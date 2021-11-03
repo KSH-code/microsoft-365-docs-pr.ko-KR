@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d89d98e6e972707266f3b3ed95db3b78b8a5d161
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2e133c9f924b614c8cc34c9a943895736526e6e7
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159441"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668027"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
 
@@ -55,10 +55,10 @@ MacOS의 끝점용 Microsoft Defender는 공급업체별 기능에 의존하지 
 
 대부분의 최신 MDM 솔루션에는 이러한 기능이 포함되어 있습니다. 그러나 이러한 기능을 다르게 호출할 수도 있습니다.
 
-그러나 앞의 목록에서 마지막 요구 사항 없이 Defender를 배포할 수 있습니다.
+그러나 앞의 목록에서 마지막 요구 사항 없이 Endpoint용 Defender를 배포할 수 있습니다.
 
 - 중앙 집중식 방식으로 상태를 수집할 수 없습니다.
-- Defender를 제거하기로 결정한 경우 로컬에서 관리자로 클라이언트 장치에 로그온해야 합니다.
+- Endpoint용 Defender를 제거하기로 결정한 경우 로컬에서 관리자로 클라이언트 장치에 로그온해야 합니다.
 
 ## <a name="deployment"></a>배포
 
@@ -81,7 +81,7 @@ Microsoft 365 Defender 포털에서 다운로드한 등록 패키지에서 추�
 또는 먼저 속성 목록을 다른 형식으로 변환해야 할 수 있습니다.
 
 일반적으로 사용자 지정 프로필에는 ID, 이름 또는 도메인 특성이 있습니다. 이 값은 정확히 "com.microsoft.wdav.atp"를 사용해야 합니다.
-MDM은 이 파일을 사용하여 클라이언트 장치의 **/Library/Managed Preferences/com.microsoft.wdav.atp.plist에** 설정 파일을 배포하고 Defender는 이 파일을 사용하여 온보딩 정보를 로드합니다.
+MDM은 이 파일을 사용하여 클라이언트 장치의 **/Library/Managed Preferences/com.microsoft.wdav.atp.plist에** 설정 파일을 배포하고 Defender for Endpoint는 이 파일을 사용하여 온보딩 정보를 로드합니다.
 
 ### <a name="kernel-extension-policy"></a>커널 확장 정책
 

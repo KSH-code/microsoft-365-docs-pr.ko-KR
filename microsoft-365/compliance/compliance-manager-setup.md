@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: 275d664edd7e07909aceced72330fea2b406cf45
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ec44ec38a76cf0371804df25b698d77ba7b5aa22
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203198"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668403"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -324,20 +324,20 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 
 - **평가**: 평가 이름
 - **상태**:
-    - **Complete** - 모든 컨트롤의 상태가 "통과"되거나 하나 이상의 컨트롤이 전달된 후 나머지는 "범위를 벗어났습니다."
-    - **불완전 -** 하나 이상의 컨트롤 상태가 "실패"입니다.
-    - **없음** - 모든 컨트롤이 테스트되지 않은 경우
-    - **진행 중** - 개선 작업의 상태가 "진행 중", "부분 크레딧" 또는 "확인되지 않습니다."를 비롯한 다른 상태가 있습니다.
+  - **Complete** - 모든 컨트롤의 상태가 "통과"되거나 하나 이상의 컨트롤이 전달된 후 나머지는 "범위를 벗어났습니다."
+  - **불완전 -** 하나 이상의 컨트롤 상태가 "실패"입니다.
+  - **없음** - 모든 컨트롤이 테스트되지 않은 경우
+  - **진행 중** - 개선 작업의 상태가 "진행 중", "부분 크레딧" 또는 "확인되지 않습니다."를 비롯한 다른 상태가 있습니다.
 - **평가 진행률:** 성공적으로 테스트된 컨트롤 수로 측정된 완료를 위해 완료된 작업의 백분율
 - **개선 작업:** 컨트롤 구현을 충족하기 위한 완료된 작업 수
 - **Microsoft 작업:** Microsoft 컨트롤 구현을 충족하기 위한 완료된 작업 수
 - **Group**: 평가가 속한 그룹의 이름
-- **제품**: 연결된 Microsoft 365 서비스
+- **제품**: 관련 제품(예: Microsoft 365 또는 평가를 위해 정의된 다른 제품)
 - **규정**: 평가에 적용되는 규제 표준, 정책 또는 법률
 
 ### <a name="filtering-your-assessments-view"></a>평가 보기 필터링
 
-평가 보기를 필터링하기 위해 다음을 수행하십시오.
+평가 보기를 필터링합니다.
 
 1. 평가 **목록의** 왼쪽 위 모서리에 있는 필터를 선택합니다.
 2. 필터 **플라이아웃** 창에서 원하는 조건을 검사합니다.
@@ -360,4 +360,5 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 **자세한 내용은 평가** [템플릿으로 작업하는 방법을 읽어 를 읽어보아야 합니다.](compliance-manager-templates.md)
 
 ## <a name="next-step"></a>다음 단계
+
 평가를 설정하여 준수 [관리자를 사용자 지정합니다.](compliance-manager-assessments.md)

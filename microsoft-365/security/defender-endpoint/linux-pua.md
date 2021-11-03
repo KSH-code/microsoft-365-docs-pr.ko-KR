@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 73ddc6e4ec4c114a86c88c62287e15e7fa051175
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b05674d7b98d0088b265eda127b6d449e9fba645
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154797"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668049"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 통해 잠재적으로 원치 않는 응용 프로그램 검색 및 차단
 
@@ -39,11 +39,11 @@ Linux의 Endpoint용 Defender의 PUA(잠재적으로 원치 않는 응용 프로
 
 이러한 응용 프로그램은 네트워크가 맬웨어에 감염될 위험을 높이고, 맬웨어 감염을 식별하기 더 어렵게 할 수 있으며, 응용 프로그램을 정리하는 데 IT 리소스를 낭비할 수 있습니다.
 
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방법
 
 Linux의 끝점용 Defender는 PUA 파일을 검색하고 보고할 수 있습니다. 차단 모드에서 구성하면 PUA 파일이 검지로 이동됩니다.
 
-끝점에서 PUA가 감지되면 Linux의 Endpoint용 Defender는 위협 기록에 감염의 기록을 보관합니다. 기록은 센터 포털 또는 Microsoft 365 Defender 도구를 통해 `mdatp` 시각화할 수 있습니다. 위협 이름에는 "Application"이라는 단어가 포함되어 있습니다.
+끝점에서 PUA가 감지되면 Linux의 Endpoint용 Defender는 위협 기록에 감염의 기록을 보관합니다. 기록은 보안 센터 포털 또는 Microsoft 365 Defender 도구를 통해 `mdatp` 시각화할 수 있습니다. 위협 이름에는 "Application"이라는 단어가 포함되어 있습니다.
 
 ## <a name="configure-pua-protection"></a>PUA 보호 구성
 

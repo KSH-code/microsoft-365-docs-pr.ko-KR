@@ -147,8 +147,6 @@
           href: anti-malware.md
         - name: 랜섬웨어에 대한 전자 메일 규칙 만들기
           href: prevent-ransom-in-email.md
-        - name: 전자 메일 자동 전달 중지
-          href: stop-email-auto-forward.md
         - name: 피싱 방지 설정
           href: setup-anti-phishing.md
         - name: 안전한 첨부 파일 관리

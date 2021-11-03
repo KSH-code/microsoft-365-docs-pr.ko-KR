@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: 9f428dc011d98d446f32f009345d5df30337c4f2
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 332a2b14bb74363091df8fc18423c347d1d8c6fb
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60552755"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60663031"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -47,7 +47,7 @@ ms.locfileid: "60552755"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-추가 기능을 중앙 집중식으로 배포하려면 사용자가 Microsoft 365 Enterprise SKUS( E3/E5/F3, Office 365 Enterprise SKUS: E3/E5/F3 또는 Business SKUS: Business Basic, Business Standard, Business Premium(조직 ID를 사용하여 Office 로그인)를 사용해야 합니다. Exchange Online 사서함 및 Exchange Online 활성 상태입니다. 구독 디렉터리가 해당 디렉터리에 있어야 합니다. 또는 통합 디렉터리에 Azure Active Directory.
+추가 기능을 중앙 집중식으로 배포하려면 사용자가 Microsoft 365 Business 라이선스(Business Basic, Business Standard, Business Premium), Office 365 Enterprise 라이선스(E1/E3/E5/F3) 또는 Microsoft 365 Enterprise 라이선스(E3/E5/F3)를 사용하고 조직 ID를 사용하여 Office 로그인해야 Exchange Online 및 활성 Exchange Online 사서함이 필요합니다. 구독 디렉터리가 해당 디렉터리에 있어야 합니다. 또는 통합 디렉터리에 Azure Active Directory.
 아래에서 배포 및 Office 요구 Exchange 또는 중앙 집중식 배포 호환성 검사 를 사용할 [수 있습니다.](#centralized-deployment-compatibility-checker)
 
 중앙 집중식 배포는 다음을 지원하지 않습니다.
@@ -63,11 +63,11 @@ ms.locfileid: "60552755"
 ### <a name="office-requirements"></a>Office 요구 사항
 
 - Word, Excel 및 PowerPoint 추가 기능의 경우 사용자가 다음 중 하나를 사용하고 있어야 합니다.
-  - Windows SKUS 버전 1704 이상Microsoft 365 Enterprise E3/E5/F3 또는 Business SKUS: Business Basic, Business Standard, Business Premium.
+  - Windows 장치에서 Microsoft 365 Business 라이선스 버전 1704 이상(Business Basic, Business Standard, Business Premium), Office 365 Enterprise 라이선스(E1/E3/E5/F3) 또는 Microsoft 365 Enterprise 라이선스(E3/E5/F3)
   - Mac 버전 15.34 이상.
 
 - 이 Outlook 사용자는 다음 중 하나를 사용하고 있어야 합니다.
-  - 버전 1701 이상Microsoft 365 Enterprise SKUS: E3/E5/F3 또는 Business SKUS: Business Basic, Business Standard, Business Premium.
+  - Microsoft 365 Business 라이선스 버전 1701 이상(Business Basic, Business Standard, Business Premium), Office 365 Enterprise 라이선스(E1/E3/E5/F3) 또는 Microsoft 365 Enterprise 라이선스(E3/E5/F3)
   - 2019 또는 Office Professional Plus 2019 버전 Office Standard 버전 1808 이상입니다.
   - MSI(버전 16.0.4494.1000 이상)Office Professional Plus 2016(MSI) 또는 Office Standard 2016(MSI)\*
   - MSI(Office Professional Plus 2013) 또는 Office Standard 2013(MSI) 버전 15.0.4937.1000 이상\*

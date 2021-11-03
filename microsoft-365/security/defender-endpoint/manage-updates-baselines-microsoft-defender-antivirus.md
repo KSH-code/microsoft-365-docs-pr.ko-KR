@@ -16,14 +16,14 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 10/19/2021
+ms.date: 11/01/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 6e6b552bb108785f9f727084609f7a8c873ce6e2
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: db11cc6940a26efb03ef906d0ac09e52986969eb
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60556355"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668015"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -87,6 +87,25 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 - 통합 개선(클라우드, [](/microsoft-365/security/defender/microsoft-365-defender)Microsoft 365 Defender).
 <br/><br/>
 <details>
+<summary> 2021년 10월(플랫폼: 4.18.xxxx.x| 엔진: 1.1.18700.4)</summary>
+
+&ensp;보안 인텔리전스 업데이트 버전: **1.353.3.0**<br/>
+&ensp;릴리스: **2021년 10월 28일**<br/>
+&ensp;플랫폼: **4.18.xxxx.x**<br/>
+&ensp;엔진: **1.1.18700.4**<br/>
+&ensp;지원 단계: **보안 및 중요 업데이트**<br/>
+
+엔진 버전: 1.1.18700.4 보안 인텔리전스 업데이트 버전: 1.353.3.0
+
+### <a name="whats-new"></a>새로운 기능
+- FTP 네트워크 트래픽 범위 개선
+- Exchange 서버에서 Microsoft Defender CPU 사용량을 줄이는 Windows Server 2016
+- Defender 서비스 변조 탄력성 개선
+
+### <a name="known-issues"></a>알려진 문제
+알려진 문제 없음
+<br/>
+</details><details>
 <summary> 2021년 9월(플랫폼: 4.18.2109.6 | 엔진: 1.1.18600.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.351.7.0**<br/>
@@ -95,7 +114,7 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 &ensp;엔진: **1.1.18600.4**<br/>
 &ensp;지원 단계: **보안 및 중요 업데이트**<br/>
 
-엔진 버전: 1.1.18600.4 보안 인텔리전스 업데이트 버전: 업데이트
+엔진 버전: 1.1.18600.4 보안 인텔리전스 업데이트 버전: 1.351.7.0
 
 ### <a name="whats-new"></a>새로운 기능
 - Microsoft Defender 바이러스 백신 및 플랫폼 업데이트에 대한 새로운 지연 링입니다. 이 링에 옵트인된 장치는 48시간 지연된 업데이트를 받게 됩니다. 중요한 환경에만 새 지연 링이 제안됩니다. Microsoft Defender 업데이트에 대한 서진적 출시 프로세스 [관리를 참조하세요.](manage-gradual-rollout.md)
@@ -124,14 +143,21 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음
 <br/>
-</details><details>
+</details>
+
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
+
+새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다.<br/><br/>
+
+<details>
 <summary> 2021년 7월(플랫폼: 4.18.2107.4 | 엔진: 1.1.18400.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.345.13.0**<br/>
 &ensp;릴리스: **2021년 8월 5일**<br/>
 &ensp;플랫폼: **4.18.2107.4**<br/>
 &ensp;엔진: **1.1.18400.4**<br/>
-&ensp;지원 단계: **보안 및 중요 업데이트**<br/>
+&ensp;지원 단계: **기술 업그레이드 지원(전용)**<br/>
 
 ### <a name="whats-new"></a>새로운 기능
 - 휴대용 장치에 대한 장치 Windows 지원 추가
@@ -141,13 +167,9 @@ Microsoft Defender 바이러스 백신 업데이트라고 하는 월별 [업데�
 
 ### <a name="known-issues"></a>알려진 문제
 알려진 문제 없음
+
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>이전 버전 업데이트: 기술 업그레이드 지원만
-
-새 패키지 버전이 출시된 후 이전 두 버전에 대한 지원은 기술 지원으로만 축소됩니다. 이 섹션에 나열된 버전보다 오래된 버전은 기술 업그레이드 지원 전용으로 제공됩니다.
-<details>
+</details><details>
 <summary> 2021년 6월(플랫폼: 4.18.2106.5 | 엔진: 1.1.18300.4)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.343.17.0**<br/>

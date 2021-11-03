@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft Forms 활동 보고서를 다운로드하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: b5f654acddf679f0040f0e15a6146f74044a7e45
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 900ae6c273d47785296b94622060f2fe3b6dc0ca
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553319"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60652875"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365 관리 센터의 보고서 - 양식 활동
 
-Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
+Microsoft 365 보고서 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
 예를 들어 양식과의 상호 작용을 보고 Microsoft Forms 사용이 허가된 모든 사용자의 활동을 이해할 수 있습니다. 또한 사용자가 만든 양식 및 사용자가 응답한 양식의 수를 보고 진행되는 공동 작업 수준을 이해하는 데도 도움이 됩니다.
   

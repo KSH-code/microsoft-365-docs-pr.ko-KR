@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 99b17e10cdf3396fc715d83d5ca6de51ae4cb9c9
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 779b5f29c2bbac542ee1a8f079a2baab8537e689
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364173"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60665248"
 ---
 # <a name="plan-for-communication-compliance"></a>커뮤니케이션 규정 준수 계획
 
@@ -108,7 +108,7 @@ ms.locfileid: "60364173"
 
 ## <a name="plan-for-policies"></a>정책 계획
 
-비방성 언어, 중요한 정보 [](communication-compliance-policies.md#policy-templates) 및 규정 준수를 위한 미리 정의된 템플릿을 사용하여 커뮤니케이션 규정 준수 정책을 빠르고 쉽게 만들 수 있습니다. 사용자 지정 커뮤니케이션 규정 준수 정책을 사용하면 조직 및 요구 사항과 관련한 문제를 유연하게 검색하고 조사할 수 있습니다.
+부적절한 콘텐츠, 중요한 [](communication-compliance-policies.md#policy-templates) 정보 및 규정 준수를 위해 미리 정의된 템플릿을 사용하여 커뮤니케이션 규정 준수 정책을 빠르고 쉽게 만들 수 있습니다. 사용자 지정 커뮤니케이션 규정 준수 정책을 사용하면 조직 및 요구 사항과 관련한 문제를 유연하게 검색하고 조사할 수 있습니다.
 
 통신 준수 정책을 계획할 때 다음 영역을 고려하십시오.
 
@@ -118,6 +118,15 @@ ms.locfileid: "60364173"
 - 정책은 사용자 지정 통신 준수 정책에서 영어가 없는 모니터링 언어를 지원할 수 있습니다. 선택한 [언어로](communication-compliance-policies.md#custom-keyword-dictionaries) 공격적인 단어의 사용자 지정 키워드 사전을 작성하거나, 교육 가능한 [](classifier-get-started-with.md) 분류자들을 사용하여 자체 기계 학습 모델을 Microsoft 365.
 - 모든 조직에는 서로 다른 통신 표준 및 정책 요구가 있습니다. 통신 준수 정책 조건을 [](communication-compliance-policies.md#conditional-settings) 사용하여 특정 키워드를 모니터링하거나 사용자 지정 중요한 정보 유형이 있는 특정 유형의 정보를 [모니터링합니다.](create-a-custom-sensitive-information-type.md)
 
+## <a name="creating-a-communication-compliance-policy-walkthrough"></a>통신 준수 정책 만들기 워크스루
+
+새 통신 규정 준수 정책을 설정하고 경고를 수정하는 심층적인 워크스루를 보고 싶나요? 다음 15분 분간의 비디오를 통해 통신 규정 준수 정책이 부적절한 메시지를 검색하고 잠재적인 위반을 조사하고 규정 준수 문제를 수정하는 데 어떻게 도움이 될 수 있는지 확인할 수 있습니다.
+<br>
+<br>
+
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RWNchy]
+<br>
+
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨나요?
 
-Microsoft 365 조직에 대한 통신 규정 준수를 [](communication-compliance-configure.md) 구성하는 Microsoft 365 구성을 참조하거나 [Contoso에](communication-compliance-case-study.md) 대한 사례 연구 및 Contoso가 Microsoft Teams, Exchange Online 및 Yammer 통신에서 공격 언어를 모니터링하도록 통신 준수 정책을 구성한 방법을 참조합니다.
+Microsoft 365 조직에 대한 통신 규정 준수를 구성하는 방법에 대한 자세한 내용은 configure [communication compliance for Microsoft 365](communication-compliance-configure.md) 또는 check out the case study for [Contoso](communication-compliance-case-study.md) 및 how they quickly configured a communication compliance policy to monitor for in Microsoft Teams, Exchange Online, and Yammer communications을 참조하세요.

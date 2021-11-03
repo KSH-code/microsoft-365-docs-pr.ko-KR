@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 28868e619fbfd51919ecfba470827b6b9a43eef6
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: e4bee56b3543c4c9286f94d6dc09e264cd092c81
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554099"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60659409"
 ---
 # <a name="supported-managed-security-service-providers"></a>관리되는 보안 서비스 공급자 지원
 
@@ -48,7 +48,7 @@ ms.locfileid: "60554099"
 ![expel 로고의 이미지입니다.](images/expel-logo.png)| [Microsoft Defender 끝점에 대한 관리 검색 및 응답 Expel](https://go.microsoft.com/fwlink/?linkid=2162430) | Expel은 Microsoft Defender 끝점에서 보안 위험을 감지하여 보안을 유지하는 데 도움이 됩니다.
 ![Mandiant 로고 이미지](images/mandiant-logo.png) | [끝점용 Microsoft Defender에 대한 MDR(Mandiant Managed Defense)](https://go.microsoft.com/fwlink/?linkid=2164352) | Mandiant의 24/7 프런트라인 MDR 인텔리전스 및 전문 지식을 통해 끝점에 대한 Defender를 강화합니다.
 ![NTT 보안 로고의 이미지입니다.](images/ntt-logo.png)| [NTT 보안](https://go.microsoft.com/fwlink/?linkid=2095320) | NTT의 EDR 서비스는 끝점 및 네트워크 전반에 걸쳐 & 24/7 보안 모니터링을 제공합니다.
-![OneVinn 로고의 이미지입니다.](images/onevinn-logo.png) | [Onevinn MDR](https://go.microsoft.com/fwlink/?linkid=2155203)| 24/7 Microsoft Defender 및 Azure Sentinel을 기본으로 구축된 24/7 관리 검색 및 응답으로 Onevinn의 위협 인텔리전스를 강화했습니다.
+![OneVinn 로고의 이미지입니다.](images/onevinn-logo.png) | [Onevinn MDR](https://go.microsoft.com/fwlink/?linkid=2155203)| Onevinn의 위협 인텔리전스가 강화된 Microsoft 365 Defender Azure Sentinel을 사용하여 구축된 24/7 관리 검색 및 응답.
 ![쿼럼 사이버 로고의 이미지입니다.](images/quorum-logo.png) | [쿼럼 사이버](https://go.microsoft.com/fwlink/?linkid=2155202)| 보안 엔지니어링 서비스에 대한 최신 & 위협 헌팅
 ![빨간색 Canary 로고 이미지](images/redcanary-logo.png)| [빨간색 Canary](https://go.microsoft.com/fwlink/?linkid=2103852) | Red Canary는 최신 팀을 위한 보안 운영 파트너로, 몇 분 만에 배포되는 MDR
 ![Red Cloak 로고로 전원을 공급하는 SecureWorks 관리 검색 및 응답의 이미지입니다.](images/secureworks-logo.png)| [Red Cloak로 전원을 공급하는 SecureWorks 관리 검색 및 응답](https://go.microsoft.com/fwlink/?linkid=2133634) | Secureworks는 위협 인텔리전스 및 20년 이상의 경험을 SaaS 및 관리되는 보안 솔루션에 결합합니다.
