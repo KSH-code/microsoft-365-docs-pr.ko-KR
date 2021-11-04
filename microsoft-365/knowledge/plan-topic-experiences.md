@@ -3,19 +3,19 @@ title: Microsoft Viva 계획
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: nkokoye
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 주제에 대한 계획을 세우는 Microsoft Viva 방법을 배워야 합니다.
-ms.openlocfilehash: 61729eeaa4a30a3f7e0faf50ab40320d88f3d78a
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: b6dd9373a8bca8b5e3ff310abfe308f7599a4dd4
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754342"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 계획
 
@@ -41,6 +41,9 @@ Viva 항목은 사용자가 매일 사용하는 사이트 및 파일에 액세�
 Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) SharePoint 관리자 또는 Microsoft 365 관리 센터 해야 합니다.
 
 항목을 사용하려면 모든 사용자에게 항목 환경 **라이선스가** 필요합니다. 라이선스 할당은 Set [up Microsoft Viva 항목에서 다를 수 있습니다.](set-up-topic-experiences.md)
+
+> [!Important] 
+> 항목은 영어 콘텐츠만 크롤링합니다.
 
 ## <a name="topic-discovery"></a>항목 검색
 

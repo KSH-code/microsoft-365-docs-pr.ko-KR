@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: medium
 description: Saba를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
-ms.openlocfilehash: 07c0148d7e1fefcd920a03426efba77ac91f374b
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 1f8c9610d9c1e747af6e0804bbd7c133de4351cf
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60664903"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755798"
 ---
 # <a name="configure-saba-as-a-content-source-for-microsoft-viva-learning"></a>사바를 콘텐츠 원본으로 Microsoft Viva Learning
 
@@ -42,11 +42,15 @@ ms.locfileid: "60664903"
 1. 기본 Saba 클라우드 URL(예: "org".sabacloud.com)을 식별합니다. API 대시보드 URL이 org-api.sabacloud.com 호스트 URL이 org.sabacloud.com.
 2. **Saba** Cloud Admin System Admin Manage Integrations API Dashboard로 이동하여 API 대시보드  >    >    >    >  **URL을 식별합니다.** API 대시보드 URL을 찾은 다음 호스트 URL을 https:// "https://" 및 "-api"를 제거합니다.
 
+    ![API 대시보드의 이미지입니다.](../media/learning/saba-a.png)
+
 ### <a name="client-id-and-client-secret"></a>클라이언트 ID 및 클라이언트 비밀
 
 1. 호스트 URL이 있는 동일한 화면에서 클라이언트 ID 및 클라이언트 비밀이 이미 생성된 경우 복사합니다.
 
 2. 클라이언트 비밀이 아직 없는 경우 **GENERATE** 단추를 선택하여 생성합니다.
+
+    ![생성 단추를 마우스로 이동하는 커서가 있는 API 대시보드의 이미지입니다.](../media/learning/saba-b.png)
 
 ## <a name="configure-in-your-microsoft-365-admin-center"></a>사용자 설정에서 Microsoft 365 관리 센터
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 문제 및 권장 솔루션에 대한 통합만 지원
+title: Microsoft 365 인시던트 및 권장 솔루션에 대한 통합 지원
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -17,14 +17,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - MET150
 description: ServiceNow에 대한 범위가 지정한 인증된 응용 프로그램 설치 및 구성 가이드입니다.
-ms.openlocfilehash: 427b4b20b33d83676e2cbebbfb6dcd627bcd51fe
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 7b1ebccb60500d0f1b2c6513be55d8f04628b6ac
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60661919"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754224"
 ---
-# <a name="microsoft-365-support-integration-for-service-health-incidents-and-recommended-solutions-only"></a>Microsoft 365 문제 및 권장 솔루션에 대한 통합만 지원
+# <a name="microsoft-365-support-integration-for-service-health-incidents-and-recommended-solutions-only"></a>Microsoft 365 인시던트 및 권장 솔루션에 대한 통합 지원
 
 이 구성에서는 ServiceNow 인스턴스를 통해 Microsoft 지원 서비스에서 사례를 만들 수 없습니다. 이 옵션은 ServiceNow 인스턴스를 통해 사용 가능한 서비스 상태 인시던트 정보 및 권장 솔루션만 제공합니다.
 

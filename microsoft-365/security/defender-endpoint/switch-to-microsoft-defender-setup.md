@@ -21,12 +21,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 10/07/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 36de4b9703c0200d8e2eddba8e3ec0f9b6fe47f9
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 655886ad0d55c91a9dc961b3c9cdaf983eb472a2
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364762"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756130"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -102,8 +102,9 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
    # For Windows Server 2019 and Windows Server 2022
    Dism /online /Enable-Feature /FeatureName:Windows-Defender
    ```
-   그런 다음 장치를 다시 시작합니다. 
-   
+
+   그런 다음 장치를 다시 시작합니다.
+
    PowerShell을 실행하는 작업 순서 내에서 DISM 명령을 사용하는 경우 다음 경로에 cmd.exe 필요합니다.
    예제:
 

@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configuration Manager를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
-ms.openlocfilehash: 15561e21dd93f8742dea48cf8c2eac2eef7e13fe
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1d551f0411910f1a8db99ee76a61204c8c475348
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60194516"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754758"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>구성 관리자를 사용하여 Windows 10 장치 온보딩
 
@@ -30,9 +30,9 @@ ms.locfileid: "60194516"
 
 ### <a name="onboard-devices-using-system-center-configuration-manager"></a>장치를 사용하여 온보드 System Center Configuration Manager
 
-1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(DeviceComplianceOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. Microsoft 준수 센터에서 [패키지를 다운로드할 수 있습니다.](https://compliance.microsoft.com/)
+1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(DeviceComplianceOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. 에서 패키지를 얻을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a>
 
-2. 탐색 창에서 장치 **온보 설정**  >  **를**  >  **선택합니다.**
+2. 탐색 창에서 장치 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174201" target="_blank">**온보 설정**</a>  >  **를**  >  **선택합니다.**
 
 3. 배포 **방법 필드에서** **2012/Microsoft Endpoint Configuration Manager R2/1511/1602를 선택합니다.**
 
@@ -140,9 +140,9 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 
 ### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>System Center 2012 R2 Configuration Manager를 사용하여 장치 오프보드
 
-1. Microsoft 준수 센터에서 오프보더 [패키지를 다운로드합니다.](https://compliance.microsoft.com/)
+1. 에서 오프보더 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">패키지를 Microsoft 365 규정 준수 센터.</a>
 
-2. 탐색 창에서 장치 **온보 설정** 해제를  >    >  **선택합니다.**
+2. 탐색 창에서 장치 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174201" target="_blank">**온보 설정**</a>해제를  >    >  **선택합니다.**
 
 3. 운영 Windows 10 로 실행을 선택합니다.
 

@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Microsoft 제품 및 서비스를 구입하는 데 도움이 되는 제안에 대해 자세히 알아보습니다.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 159c56240d62cd3e1abce58f4fa6d82320e76017
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0a067049f278daee3c6e55aba00a81dcb2746c3c
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60179478"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754780"
 ---
 # <a name="understand-the-proposal-workflow"></a>제안 워크플로 이해
 
@@ -41,11 +41,9 @@ Microsoft 담당자가 사용자와 귀하의 담당자가 논의한 항목이 �
 
 ### <a name="billing-account"></a>청구 계정
 
-청구 계정을 사용하여 계정 설정, 송장, 청구 프로필 및 제품 및 서비스를 관리할 수 있습니다. 청구 계정이 아직 없는 경우 Microsoft 담당자가 청구 계정을 만듭니다.
-그렇지 않은 경우 해당 청구 계정을 사용할 수 있는 권한이 있는 경우 조직에 대한 기존 청구 계정을 사용하게 됩니다.
+청구 계정을 사용하여 계정 설정, 송장, 청구 프로필 및 제품 및 서비스를 관리할 수 있습니다. 청구 계정이 아직 없는 경우 Microsoft 담당자가 청구 계정을 만듭니다. 그렇지 않은 경우 해당 청구 계정을 사용할 수 있는 권한이 있는 경우 조직에 대한 기존 청구 계정을 사용하게 됩니다.
 
-청구 계정 권한은 청구 계정 소유자가 관리합니다.
-전역 관리자는 자신을 청구 계정 소유자 역할에 할당한 다음 다른 사용자 청구 계정 소유자로 지정할 수 있습니다.
+청구 계정 권한은 청구 계정 소유자가 관리합니다. 전역 관리자는 자신을 청구 계정 소유자 역할에 할당한 다음 다른 사용자 청구 계정 소유자로 지정할 수 있습니다.
 
 청구 계정에 대한 자세한 내용은 청구 계정 [관리를 참조하세요.](manage-billing-accounts.md)
 
@@ -61,8 +59,7 @@ MCA(Microsoft 고객 계약)를 통해 조직은 Microsoft 제품 및 서비스�
 
 새 청구 계정이자 계약에 동의한 사용자가 없는 경우 다음이 제공되면 자동으로 청구 계정 소유자가 됩니다.
 
-- 제안에 명명된 사람\
-    또는
+- 제안에 명명된 사람 **또는**
 - 이미 조직의 Azure Active Directory [전역](/azure/active-directory/roles/permissions-reference#global-administrator) 관리자인 경우
 
 ## <a name="what-is-the-overall-workflow"></a>전체 워크플로란?
@@ -73,8 +70,8 @@ MCA(Microsoft 고객 계약)를 통해 조직은 Microsoft 제품 및 서비스�
 - 이 링크를 사용하여 제안 로그인 페이지로 이동합니다.
 - 조직의 정보를 검토합니다.
 - 제안을 검토하고 필요한 경우 MCA를 수락한 다음 체크 아웃 프로세스를 완료합니다.
-    > [!IMPORTANT]
-    > 조직을 대신하여 MCA에 서명할 권한이 있어야 합니다. 해당 권한이 없는 경우 해당 권한이 있는 사용자가 이 단계를 해야 합니다.
+  > [!IMPORTANT]
+  > 조직을 대신하여 MCA에 서명할 권한이 있어야 합니다. 해당 권한이 없는 경우 해당 권한이 있는 사용자가 이 단계를 해야 합니다.
 - 체크 아웃이 완료되면 제품 및 서비스를 설정할 수 있는 추가 링크가 부여됩니다.
 
 ## <a name="proposal-terms"></a>제안 용어
@@ -100,7 +97,7 @@ MCA(Microsoft 고객 계약)를 통해 조직은 Microsoft 제품 및 서비스�
 
 조직 **섹션에** 연결된 청구 계정이 표시됩니다. 청구 계정 정보는 기존 청구 계정에서 끌어오거나 Microsoft 담당자가 생성합니다. 조직이 다른 조직의 계열사인 경우 해당 조직의 이름과 주소가 있는 Lead **조직** 섹션도 표시됩니다.
 
-조직에서 처음으로 Microsoft와 상업적 관계를 설정하는 경우 아직 MCA에 서명하지 않은 경우 조직 또는  잠재  고객 조직의 정보가 올바르지 않은 경우 담당자에게 문의하여 변경합니다. MCA를 수락한 후 조직의 청구 계정 페이지에서 조직의 주소 및 [](https://go.microsoft.com/fwlink/p/?linkid=2084771) 연락처 정보를 검토하고 변경할 수 Microsoft 365 관리 센터. 조직 이름이 변경되는 경우 서비스 요청을 열어 업데이트합니다. [서비스 요청을 여는 방법 학습](../business-video/get-help-support.md)
+조직에서 처음으로 Microsoft와 상업적 관계를 설정하는 경우 아직 MCA에 서명하지 않은 경우 조직 또는  잠재  고객 조직의 정보가 올바르지 않은 경우 담당자에게 문의하여 변경합니다. MCA를 수락한 후 조직의 청구 계정 페이지에서 조직의 주소 및 [](https://go.microsoft.com/fwlink/p/?linkid=2084771) 연락처 정보를 검토하고 변경할 수 Microsoft 365 관리 센터. 조직 이름이 변경되는 경우 서비스 요청을 열어 업데이트합니다. [서비스 요청을 여는 방법을 배워야 합니다.](../business-video/get-help-support.md)
 
 ### <a name="your-information"></a>사용자 정보
 

@@ -17,13 +17,14 @@ search.appverid:
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkCOMPLIANCE
 description: 기존 콘텐츠 검색의 CSV 파일을 사용하여 특정 전자 메일 항목을 반환하는 ID 목록 검색을 만들 수 있습니다.
-ms.openlocfilehash: 574c130f7ec7c4f47569179ca6fc0712d76c395c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6e06a5ba45b7c9b90875ed099e11263c28146998
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156489"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755714"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>ID 목록 콘텐츠 검색을 위한 CSV 파일 준비
 
@@ -80,7 +81,7 @@ ID 목록 검색을 만드는 프로세스를 간략하게 간략하게 소개�
 > [!IMPORTANT]
 > 검색 결과 또는 보고서를 내보낼 때 ID 목록 검색을 2일 이상 만들어야 합니다. 2일 전에 내보낼 검색 결과 또는 보고서의 경우 검색 결과 또는 보고서를 다시 내보내서 업데이트된 CSV 파일을 생성해야 합니다. 그런 다음 업데이트된 CSV 파일 중 하나를 준비하고 이를 사용하여 ID 목록 검색을 만들 수 있습니다.
 
-1. <https://compliance.microsoft.com>으로 이동하여 로그인합니다.
+1. 사이트로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 로그인합니다.
 
 2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 **모두 표시** 를 클릭한 다음 **콘텐츠 검색** 을 클릭합니다.
 
@@ -100,6 +101,6 @@ ID 목록 검색을 만드는 프로세스를 간략하게 간략하게 소개�
 
 6. ID 목록 검색에서 반환된 항목을 미리 보거나 내보낼 수 있습니다.
 
-## <a name="more-information"></a>추가 정보
+## <a name="more-information"></a>자세한 정보
 
 ID 목록 검색을 만들고 나서 사서함을 이동하면 검색 쿼리에서 지정된 항목이 반환되지 않습니다. 사서함을 이동할 때 사서함 항목의 **DocumentId** 속성이 변경되어 있기 때문에입니다. ID 목록 검색을 만든 후 사서함을 이동하는 경우는 드물지만 새 콘텐츠 검색을 만들거나 기존 검색에 대한 검색 결과를 업데이트한 다음 검색 결과 또는 보고서를 내보내 새 ID 목록 검색을 만드는 데 사용할 수 있는 업데이트된 CSV 파일을 생성해야 합니다.

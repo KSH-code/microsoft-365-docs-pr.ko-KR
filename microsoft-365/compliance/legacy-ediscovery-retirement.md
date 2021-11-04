@@ -13,19 +13,19 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery 및 In-Place 보류(및 해당 PowerShell cmdlet)Exchange Online 2020년 상반기에는 사용 중지됩니다. 동일한 Search-Mailbox 기간 내에 Advanced eDiscovery v1.0도 사용 중지됩니다.
-ms.openlocfilehash: 18509476234494633b425765de07dfc163eaabc9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2d5e058f5fab62249f578d7f138731233bde1091
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60152997"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756482"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
 > [!IMPORTANT]
 > 이 문서에 설명된 레거시 eDiscovery 도구의 기능은 Microsoft 365 서비스에서 제거되거나 계속 사용할 수 있지만 더 이상 지원되지 않습니다. 사용 가능한 모든 기능은 예고 없이 제거될 수 있습니다. 이러한 레거시 도구를 계속 사용하는 경우 이 문서에 설명된 대안 중 하나 또는 Microsoft 365 규정 준수 센터 eDiscovery 도구로 마이그레이션하는 것이 있습니다.
 
-수년 동안 Microsoft는 전자 메일 콘텐츠를 검색, 미리 보기 및 내보낼 수 있는 eDiscovery 도구를 Exchange Online. 그러나 이러한 도구는 더 이상 Exchange Online 및 Microsoft 365 SharePoint 그룹과 같은 다른 Microsoft 365 서비스에서 비영구 콘텐츠를 검색하는 효과적인 Microsoft 365 없습니다. 이를 해결하기 위해 Microsoft는 다양한 전자 메일 콘텐츠를 검색하는 데 도움이 되는 다른 eDiscovery Microsoft 365 제공합니다. 또한 현재 및 강력한 eDiscovery 기능을 에 통합하기 위해 노력해 [Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com) 이를 통해 조직은 조직을 비롯한 여러 Microsoft 365 서비스에서 콘텐츠에 대한 법적, 내부 및 기타 문서 요청에 대응할 Exchange Online.
+수년 동안 Microsoft는 전자 메일 콘텐츠를 검색, 미리 보기 및 내보낼 수 있는 eDiscovery 도구를 Exchange Online. 그러나 이러한 도구는 더 이상 Exchange Online 및 Microsoft 365 SharePoint 그룹과 같은 다른 Microsoft 365 서비스에서 비영구 콘텐츠를 검색하는 효과적인 Microsoft 365 없습니다. 이를 해결하기 위해 Microsoft는 다양한 전자 메일 콘텐츠를 검색하는 데 도움이 되는 다른 eDiscovery Microsoft 365 제공합니다. 또한 현재 및 강력한 eDiscovery 기능을 에 통합하기 위해 노력해 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a> 이를 통해 조직은 조직을 비롯한 여러 Microsoft 365 서비스에서 콘텐츠에 대한 법적, 내부 및 기타 문서 요청에 대응할 Exchange Online.
 
 Microsoft 365 규정 준수 센터 eDiscovery의 새로운 기능과 향상된 기능으로 인해 Exchange Online 및 2013에서 전자 메일 콘텐츠 검색과 관련된 다음과 같은 eDiscovery 관련 기능이 Exchange Online Microsoft 365.
 
@@ -345,19 +345,15 @@ Advanced eDiscovery v1.0(핵심 eDiscovery 사례에서 사용할 수 있는 Adv
 
 조직에서 v1.0을 Advanced eDiscovery 확인:
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)로 이동합니다.
+1. **eDiscovery** Microsoft 365 규정 준수 센터 선택한 다음  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2174007" target="_blank"></a>Core eDiscovery 사례를 여는 데 사용할 수 있습니다.
 
-2. 준수 센터의 왼쪽 탐색 창에서 **eDiscovery**> Core를 클릭하고 Core eDiscovery 사례를 열 수 있습니다.
-
-3. 다음으로 전환 **단추가 Advanced eDiscovery** 클릭하면 사용 중지되는 1.0 버전의 Advanced eDiscovery 표시됩니다. Core eDiscovery에서 사례를 만들고 관리하는 능력은 영향을 받지 않습니다. v1.0으로 전환을 클릭하여 Advanced eDiscovery v1.0에서 사례 데이터를 추가하고 분석하는 Advanced eDiscovery **기능만** 사용 중지됩니다.
+1. 다음으로 전환 **단추가 Advanced eDiscovery** 클릭하면 사용 중지되는 1.0 버전의 Advanced eDiscovery 표시됩니다. Core eDiscovery에서 사례를 만들고 관리하는 능력은 영향을 받지 않습니다. v1.0으로 전환을 클릭하여 Advanced eDiscovery v1.0에서 사례 데이터를 추가하고 분석하는 Advanced eDiscovery **기능만** 사용 중지됩니다.
 
 Microsoft 365의 새로운 Advanced eDiscovery 솔루션(Advanced eDiscovery *v2.0)은* 원래 솔루션의 모든 기능을 제공하지만 이제는 다른 Microsoft 365 서비스에서 콘텐츠를 식별하고, 해당 콘텐츠를 수집하는 관리자 기반 접근 방식을 포함합니다. 그런 다음 검토자는 빠른 검색 쿼리, 태그 지정 및 분석 기능을 활용하여 관련 문서를 선회할 수 있는 검토 집합에 추가합니다. Advanced eDiscovery Microsoft 파일 형식과 비 Microsoft 파일 형식 모두에 대한 향상된 처리 및 기본 [](./supported-filetypes-ediscovery20.md) 뷰어가 포함되어 있습니다. 여기에 파일 형식의 전체 목록이 있으며 지원되는 메타데이터 필드는 다음과 [같습니다.](./document-metadata-fields-in-advanced-ediscovery.md) 또한 새로운 Advanced eDiscovery 솔루션에서는 다른 서비스의 콘텐츠에 보류를 적용하고, 보류를 사용자에게 알리고, 보유자 응답을 추적할 수 있는 강력한 보유 관리 기능을 Advanced eDiscovery 있습니다.
 
 Advanced eDiscovery v2.0에 액세스하려면 다음을 수행합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)로 이동합니다.
-
-2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 **모두 표시** 를 클릭한 다음 **eDiscovery > Advanced** 를 클릭합니다.
+**eDiscovery** Microsoft 365 규정 준수 센터 선택한 다음  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2174006" target="_blank"></a>Core eDiscovery 사례를 여는 데 사용할 수 있습니다.
 
 이때 eDiscovery 워크플로를 새 Advanced eDiscovery 전환하는 것이 좋습니다. 필요한 경우 콘텐츠를 내보내고 Advanced eDiscovery 1.0 사례를 보관할 수 있습니다. 2020년 12월 31일까지는 기존 사례에서 Advanced eDiscovery v1.0에 계속 액세스할 수 있습니다. 그러나 Microsoft 지원은 2020년 10월 1일 이후에는 지원을 제공하지 않습니다. 자세한 내용은 다음 타임라인을 참조하세요.
 

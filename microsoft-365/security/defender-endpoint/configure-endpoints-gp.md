@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/16/2021
 ms.technology: mde
-ms.openlocfilehash: fd6453c245a5d7320518c2dc500ed4718568857c
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: f9253a01cc1a971f472733f41a92f0b78beba737
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60703264"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753980"
 ---
 # <a name="onboard-windows-devices-using-group-policy"></a>그룹 정책을 사용하여 Windows 장치 온보딩 
 
@@ -42,22 +42,19 @@ ms.locfileid: "60703264"
 > Windows Server 2019 및 Windows Server 2022의 경우 그룹 정책 기본 설정에서 만드는 XML 파일의 NT AUTHORITY\Well-Known-System-Account를 NT AUTHORITY\SYSTEM으로 대체해야 할 수 있습니다.
 
 > [!NOTE]
-> Windows Server 2012 R2 및 2016에 대한 새로운 통합 Microsoft Defender for Endpoint 솔루션을 사용하는 경우 중앙 저장소에서 최신 ADMX 파일을 사용하여 올바른 끝점용 Microsoft Defender 정책 옵션에 액세스하는지 확인합니다. 에서 [그룹](/troubleshoot/windows-client/group-policy/create-and-manage-central-store) 정책 관리 템플릿에 대한 중앙 저장소를 만들고 관리하는 방법을 참조하고 Windows 에서 사용할 최신 파일을 **Windows 10.** 
+> Windows Server 2012 R2 및 2016에 대한 새로운 통합 Microsoft Defender for Endpoint 솔루션을 사용하는 경우 중앙 저장소에서 최신 ADMX 파일을 사용하여 올바른 끝점용 Microsoft Defender 정책 옵션에 액세스하는지 확인합니다. 에서 [그룹](/troubleshoot/windows-client/group-policy/create-and-manage-central-store) 정책 관리 템플릿에 대한 중앙 저장소를 만들고 관리하는 방법을 참조하고 Windows 에서 사용할 최신 파일을 **Windows 10.**
 
 [PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
+1. 서비스 온보더링 마법사에서 다운로드한 GP 구성 패키지 파일( `WindowsDefenderATPOnboardingPackage.zip` )을 니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
 
-1. 서비스 온보더 .zip 다운로드한 GP 구성 패키지 파일(*WindowsDefenderATPOnboardingPackage.* zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
- 
     1. 탐색 창에서 **끝점 설정**  >  **관리**  >     >  **온보더링** 을 선택합니다.
 
     1. 운영 체제를 선택합니다.
-    
+
     1. 배포 **방법 필드에서** 그룹 정책 **을 선택합니다.**
 
     1. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
-
-     
 
 2. 디바이스에서 액세스할 수 있는 .zip 읽기 전용 공유 위치로 파일 콘텐츠의 추출 *OptionalParamsPolicy라는* 폴더와 *WindowsDefenderATPOnboardingScript.cmd* 파일이 있습니다.
 

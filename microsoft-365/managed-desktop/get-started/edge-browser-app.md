@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 40ee9f21f94d480ec0cd76a6d145b6d242921614
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2534319ad890fbac20fa106216740f49eb5a3572
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60170046"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756678"
 ---
 # <a name="new-microsoft-edge-app"></a>새 Microsoft Edge 앱
 
@@ -104,19 +104,22 @@ Microsoft Managed Desktop 끝점에 Chrome 확장이 설치되지 않도록 이 
 
 **기본값:** 사용 안 하게
 
-암호 관리자는 기본적으로 사용하지 않도록 설정되어 있습니다. 이 기능을 사용하는 경우 지원 요청을 제출하면 서비스 엔지니어가 사용자 환경에서 설정을 사용하도록 설정할 수 있습니다. 
+암호 관리자는 기본적으로 사용하지 않도록 설정되어 있습니다. 이 기능을 사용하도록 설정하려면 지원 요청을 제출하고 서비스 엔지니어가 사용자 환경에서 설정을 사용하도록 설정할 수 있습니다.
 
 ### <a name="internet-explorer-mode-in-microsoft-edge"></a>Internet Explorer 모드 Microsoft Edge
-Microsoft Edge의 IE 모드를 사용하면 조직에서 필요로 하는 모든 사이트를 단일 브라우저에서 간편하게 사용할 수 있습니다. Chromium 렌더링 엔진과 호환되는 사이트에는 통합 Chromium 엔진을 사용하며 IE 기능에 종속되지 않은 사이트에는 IE11(Internet Explorer 11)의 Trident MSHTML 엔진을 사용하게 됩니다. [자세한 정보](/DeployEdge/edge-ie-mode) 
 
-Microsoft Managed Desktop 기본적으로 Internet Explorer 모드로 설정 
+Microsoft Edge의 IE 모드를 사용하면 조직에서 필요로 하는 모든 사이트를 단일 브라우저에서 간편하게 사용할 수 있습니다. Chromium 렌더링 엔진과 호환되는 사이트에는 통합 Chromium 엔진을 사용하며 IE 기능에 종속되지 않은 사이트에는 IE11(Internet Explorer 11)의 Trident MSHTML 엔진을 사용하게 됩니다. [자세한 정보](/DeployEdge/edge-ie-mode)
+
+Microsoft Managed Desktop 기본적으로 Internet Explorer 모드로 설정됩니다.
 
 #### <a name="internet-explorer-mode-integration"></a>Internet Explorer 모드 통합
+
 **기본값:** Internet Explorer 모드
 
 기본적으로 장치는 Internet Explorer 모드로 설정되지만 독립 실행형 11 창에서 Internet Explorer 열리게 설정할 수 있습니다. 이 동작을 변경하기 위해 지원 요청을 제출합니다.
 
 #### <a name="add-sites-to-the-enterprise-mode-site-list"></a>Enterprise 사이트 목록에 사이트 추가
+
 사이트가 Internet Explorer 모드로 열리기 위해 사이트 목록 에 [Enterprise 합니다.](/DeployEdge/edge-ie-mode-sitelist) 사이트 목록의 Enterprise 유지 관리하고 배포하는 것은 귀하의 책임입니다. 자세한 내용은 [Configure using the Configure Enterprise Mode Site List policy을 참조하세요.](/DeployEdge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy)
 
 ### <a name="other-settings"></a>기타 설정

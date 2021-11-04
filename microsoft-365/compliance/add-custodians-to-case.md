@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 워크플로를 조정하고 관련 데이터 원본을 식별하기 위해 Advanced eDiscovery 기본 제공 관리 도구를 사용하는 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12a1a6d40706e71043dffdc899847b7d8062430b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d195690493e320407f7c9b1ca0d45da7c78955a7
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60171042"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753553"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>추가한 사례에 Advanced eDiscovery 추가
 
@@ -48,11 +48,11 @@ Advanced eDiscovery 기본 제공 관리 도구를 사용하여 보호자를 관
 
 1. 으로 이동하여 적절한 eDiscovery 권한이 할당된 사용자 계정으로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다.
 
-2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 **모두 표시** 를 클릭한 다음 **eDiscovery > Advanced** 를 클릭합니다.
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 모든   >  **eDiscovery** Advanced eDiscovery 를 선택하고 사례 탭  >   <a href="https://go.microsoft.com/fwlink/p/?linkid=2173764" target="_blank"> **을** 선택합니다.</a>
 
-3. Advanced eDiscovery **페이지에서** 사례 탭을  클릭한 다음, 보전원을 추가할 사례를 선택합니다.
+3. 보육원을 추가할 사례를 선택합니다.
 
-4. 데이터 원본 **탭을** 클릭한 다음 데이터 **원본** 추가를 클릭합니다.  >  
+4. 데이터 원본 **탭을** 선택한 다음 데이터 원본 추가 새 보호자  >  **추가 를 선택합니다.**
 
 5. 사용자 이름 또는 별칭의 첫 부분을 입력하여 조직의 한 명 이상의 사용자를 사례에 관리인으로 추가합니다. 올바른 사람을 찾은 후 이름을 선택하여 목록에 추가합니다.
 

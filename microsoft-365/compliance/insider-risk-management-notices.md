@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 498cd0c629d294a9b5c4e1501b60641a0deb484c
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 47b53814ce3df8c2a8215705521169f27065b5a3
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335529"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753900"
 ---
 # <a name="insider-risk-management-notice-templates"></a>내부자 위험 관리 알림 템플릿
 
@@ -57,7 +57,7 @@ ms.locfileid: "60335529"
 
 다음 단계를 완료하여 새 내부자 위험 관리 알림 템플릿을 만듭니다.
 
-1. In the [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com), go to **Insider risk management** and select the Notice **templates** tab.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>, go to **Insider risk management** and select the Notice **templates** tab.
 2. 알림 **만들기 도구를 열고** 알림 서식 파일 만들기를 선택합니다.
 3. 새 알림 **서식 파일 만들기 페이지에서** 다음 필드를 입력합니다.
     - **서식 파일 이름:** 알림의 이름을 입력합니다. 이 이름은 사례에서 통지를 보낼 때 알림 대시보드의 알림 목록 및 알림 선택 목록에 표시됩니다.
@@ -71,7 +71,7 @@ ms.locfileid: "60335529"
 
 기존 내부자 위험 관리 알림 템플릿을 업데이트하기 위해 다음 단계를 완료합니다.
 
-1. In the [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com), go to **Insider risk management** and select the Notice **templates** tab.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>, go to **Insider risk management** and select the Notice **templates** tab.
 2. 알림 대시보드에서 관리할 알림 서식 파일을 선택합니다.
 3. 알림 세부 정보 페이지에서 **편집을 선택합니다.**
 4. 편집 **페이지에서** 다음 필드를 편집할 수 있습니다.
@@ -86,7 +86,7 @@ ms.locfileid: "60335529"
 
 기존 내부자 위험 관리 알림 템플릿을 삭제하려면 다음 단계를 완료합니다.
 
-1. In the [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com), go to **Insider risk management** and select the Notice **templates** tab.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>, go to **Insider risk management** and select the Notice **templates** tab.
 2. 알림 대시보드에서 삭제할 알림 서식 파일을 선택합니다.
 3. 도구 **모음에서** 삭제 아이콘을 선택합니다.
 4. 알림 서식 파일을 삭제하려면 **삭제** 대화 상자에서 예를 선택합니다. 지우기 작업을 취소하려면 취소 를 **선택합니다.**

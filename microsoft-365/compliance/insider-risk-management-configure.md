@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 5e0367bf0cf5e180218237fab04a2011cda0abe9
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 38353492f15ad653a1c2d09375c3a004b355337a
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701580"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755114"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -104,7 +104,7 @@ ms.locfileid: "60701580"
 
 다음 단계를 완료하여 내부자 위험 관리 역할 그룹에 사용자를 추가합니다.
 
-1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 조직에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 계정의 자격 증명을 사용하여 로그인합니다Microsoft 365.
 
 2. 보안 및 &amp; 준수 센터에서 사용 **권한 으로 이동 합니다.** 웹에서 역할을 보고 관리하려면 링크를 Office 365.
 
@@ -134,7 +134,7 @@ ms.locfileid: "60701580"
 
 내부자 위험 분석을 사용하도록 설정하려면 다음 단계를 완료합니다.
 
-1. 에서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)내부자 **위험 관리로 이동합니다.**
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>내부자 **위험 관리로 이동합니다.**
 2. 내부자 위험  **관리** 개요 탭의 조직 카드에서 내부자 위험 검사에서 검사 **실행을** 선택합니다. 이 작업을 수행하면 조직에 대한 분석 검색이 설정됩니다. 내부자 위험 설정 분석(미리   >  **보기)으로** 이동하고 테넌트의 사용자 활동 검색을 사용하도록 설정하여 잠재적인 내부자 위험을 식별하여 조직에서 검색을 하도록 할 **수도 있습니다.**
 3. 분석 **세부 정보 창에서** 검사 실행을 선택하여 조직에 **대한 검색을 시작합니다.** 분석 검사 결과가 검토를 위해 보고서로 제공되기까지 최대 24시간이 걸릴 수 있습니다.
 
@@ -222,7 +222,7 @@ DLP 정책은 다음 정책 템플릿을 사용하는 경우 선택 사항입니
 
 정책을 구성하기 전에 다음 내부자 위험 설정을 정의합니다.
 
-1. In the [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com), go to **Insider risk management** and select **Insider risk settings** from the top-right corner of any page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>, go to **Insider risk management** and select **Insider risk settings** from the top-right corner of any page.
 2. 개인 **정보 페이지에서** 정책 경고에 대한 사용자 이름을 표시하기 위한 개인 정보 설정을 선택합니다.
 3. 지표 **페이지에서** 모든 내부자 위험 정책에 적용할 경고 표시기를 선택합니다.
 
@@ -247,7 +247,7 @@ DLP 정책은 다음 정책 템플릿을 사용하는 경우 선택 사항입니
 
 내부 위험 관리 정책에는 할당된 사용자가 포함되며 경고에 대해 구성된 위험 표시기 유형을 정의합니다. 활동이 경고를 트리거하려면 먼저 정책을 구성해야 합니다. 정책 마법사를 사용하여 새 내부자 위험 관리 정책을 만들 수 있습니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
 2. **정책 만들기** 를 선택하여 정책 마법사를 엽니다.
 3. **정책 템플릿** 페이지에서 정책 범주를 선택한 다음 새 정책에 대한 템플릿을 선택합니다. 이 서식 파일은 탐지하고 조사하려는 위험 활동을 정의하는 조건 및 지표로 구성됩니다. 템플릿 필수 구성 요소, 트리거링 이벤트 및 탐지된 활동을 검토하여 이 정책 템플릿이 요구 사항에 맞는지 확인합니다.
 

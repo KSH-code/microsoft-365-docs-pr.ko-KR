@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 주제를 설정하는 Microsoft Viva 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 2a662640c765cc970483e73ed42971e73067e614
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7b5411ceea134be56a7d878510729f2d7150dd7d
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60197260"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755668"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>항목 Microsoft Viva 설정
 
@@ -23,7 +23,7 @@ ms.locfileid: "60197260"
 
 환경에서 항목을 설정하고 구성하는 가장 좋은 방법을 계획하는 것이 중요합니다. 이 문서의 절차를 시작하기 전에 plan [for Microsoft Viva Topics을](plan-topic-experiences.md) 읽어야 합니다.
 
-Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) SharePoint 관리자 또는 Microsoft 365 관리 센터 해야 합니다.
+[Viva](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 전역 관리자 또는 SharePoint 관리자 및 그룹 관리자 모두 Microsoft 365 관리 센터 설정해야 합니다.
 
 > [!IMPORTANT]
 > 관리되는 장치를 SharePoint 구성한 [](/sharepoint/control-access-from-unmanaged-devices)경우 관리되는 장치에서 항목을 설정해야 합니다.
@@ -55,7 +55,7 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
    > [!div class="mx-imgBorder"]
    > ![Microsoft Viva 항목 라이선스를 Microsoft 365 관리 센터.](../media/topic-experiences-licenses.png)
 
-5. **변경 내용 저장** 을 클릭합니다.
+5. **변경 사항 저장** 를 클릭합니다.
 
 라이선스가 할당된 후 사용자가 항목에 액세스하는 데 최대 1시간이 걸릴 수 있습니다.
 
@@ -74,7 +74,7 @@ Viva 항목에 액세스하고 항목을 설정하려면 [Viva](https://www.micr
 
     ![시작.](../media/k-get-started.png) 
 
-4. **Viva 항목을 찾는 방법** 선택 페이지에서 항목 검색을 구성합니다. 검색 **SharePoint** 원본 선택 섹션에서 SharePoint 항목의 원본으로 크롤링할 사이트를 선택합니다. 다음 중 선택:
+4. **Viva 항목을 찾는 방법** 선택 페이지에서 항목 검색을 구성합니다. 검색 **SharePoint** 원본 선택 섹션에서 SharePoint 항목의 원본으로 크롤링할 사이트를 선택합니다. 다음 중에서 선택합니다.
     - **모든 사이트**: 조직의 모든 SharePoint 사이트입니다. 여기에는 현재 사이트와 향후 사이트가 포함됩니다.
     - **선택한 사이트를 제외한** 모든 사이트: 제외할 사이트의 이름을 입력합니다.  검색에서 옵트아웃하려는 사이트 목록을 업로드할 수도 있습니다. 향후 만들어진 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
     - **선택한 사이트만:** 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 이후에 생성된 사이트는 토픽 검색의 원본으로 포함되지 않습니다.

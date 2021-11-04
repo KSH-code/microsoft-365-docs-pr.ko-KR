@@ -19,23 +19,24 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkCOMPLIANCE
 description: 데이터 손실 방지 경고 및 경고 대시보드에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ea5d01e580b88445ba64e4ed26fc01fb51c97d5d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 375b16a3072f40ef8f366f7c1c4e8f714f195d63
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60175218"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754376"
 ---
 # <a name="learn-about-the-data-loss-prevention-alerts-dashboard"></a>데이터 손실 방지 알림 대시보드에 대한 자세한 정보
 
-DLP(데이터 손실 방지) 정책의 기준이 사용자가 중요한 항목에 대해 수행하고 있는 작업과 일치하면 정책에서 경고를 생성할 수 있습니다. 이로 인해 많은 경고가 생성될 수 있습니다. DLP 경고는 경고 대시보드에서 수집됩니다. 알림 대시보드에서는 정책 일치와 관련한 모든 세부 정보를 심도 깊게 조사할 수 있는 단일 장소를 제공합니다.  
+DLP(데이터 손실 방지) 정책의 기준이 사용자가 중요한 항목에 대해 수행하고 있는 작업과 일치하면 정책에서 경고를 생성할 수 있습니다. 이 경우 많은 경고가 생성될 수 있습니다. DLP 경고는 경고 대시보드에서 수집됩니다. 알림 대시보드에서는 정책 일치에 대한 모든 세부 정보를 심도 깊게 조사할 수 있는 단일 장소를 제공합니다.  
 
 <!-- [Microsoft 365 compliance center](https://compliance.microsoft.com/)-->
 
 ## <a name="workloads"></a>워크로드
 
-DLP [경고 관리](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) [대시보드](https://compliance.microsoft.com/)의 Microsoft 365 규정 준수 센터 워크로드에 대한 DLP 정책에 대한 경고가 표시됩니다.
+DLP [경고 관리](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">대시보드</a>의 Microsoft 365 규정 준수 센터 워크로드에 대한 DLP 정책에 대한 경고가 표시됩니다.
 
 - Exchange
 - SharePoint
@@ -66,7 +67,7 @@ DLP 정책에서 구성할 수 있는 두 가지 유형의 경고가 있습니�
 |위치 |이벤트가 검색된 워크로드|모든 이벤트 |
 |활동 시간     |DLP 정책의 조건과 일치하는 사용자 활동의 시간 |
 
-### <a name="impacted-entities"></a>영향을 미치는 엔터티
+### <a name="affected-entities"></a>영향을 받는 엔터티
 
 |속성 이름 |설명| 이벤트 유형|
 |---------|---------|---------|

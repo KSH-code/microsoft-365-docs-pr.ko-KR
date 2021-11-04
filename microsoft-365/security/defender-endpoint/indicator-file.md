@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e6e8d03002675ce3c4b9c1e79f0a340f64633036
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 5136da918480d2ae9b9543b410e8ae45ade9dc7d
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60239651"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755596"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 지표 만들기
 
@@ -85,9 +85,13 @@ ms.locfileid: "60239651"
 > [!IMPORTANT]
 > 이 섹션의 **정보(자동화된** 조사 및 수정 엔진용 공개 미리 보기)는 상업적으로 출시되기 전에 상당 부분 수정될 수 있는 출시 전 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
 
-파일 IOC에 대해 현재 지원되는 작업은 허용, 감사 및 차단 및 수정입니다.
-파일을 차단하기로 선택한 후 경고 트리거가 필요한지 여부를 선택할 수 있습니다. 이렇게 하면 보안 운영 팀으로 전송되는 알림 수를 제어하고 필요한 알림만 발생하게 할 수 있습니다.
-Microsoft 365 Defender 파일 설정 > 끝점 > 표시기> 파일 해시 추가로 이동하여 파일 차단 이벤트에 대한 경고를 생성하는 경우 선택 파일을 차단하고 수정합니다. 파일 차단 이벤트에 대한 경고를 생성하려면 선택을 선택하고 경고 설정을 정의합니다.
+파일 IOC에 대해 현재 지원되는 작업은 허용, 감사 및 차단 및 수정입니다. 파일을 차단하기로 선택한 후 경고 트리거가 필요한지 여부를 선택할 수 있습니다. 이렇게 하면 보안 운영 팀으로 전송되는 알림 수를 제어하고 필요한 알림만 발생하게 할 수 있습니다.
+
+In Microsoft 365 Defender, go to **설정**  >    >  **Indicators**  >  **Add New File Hash**.
+
+파일을 차단하고 수정하기로 선택하십시오.
+
+파일 차단 이벤트에 대해 경고 생성을 선택하고 경고 설정을 정의할지 선택합니다.
 
 - 경고 제목
 - 경고 심각도

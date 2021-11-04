@@ -15,16 +15,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: 2013의 기본 데이터 손실 방지 정책에 대해 Microsoft Teams
-ms.openlocfilehash: 201cef1c71222fdc06718b4332c1036f58177e05
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 764e0c13d73684e8b55037749b68ad980d540084
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193306"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754627"
 ---
 # <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)
 
-[개인 채널 메시지를](dlp-learn-about-dlp.md) 포함하여 Microsoft Teams 및 채널 메시지를 포함하기 위해 데이터 손실 방지 기능이 확장되어 있습니다. 이 릴리스의 일부로 규정 준수 센터에 처음 Microsoft Teams 대한 기본 DLP 정책을 만들 수 있습니다.
+[개인 채널 메시지를](dlp-learn-about-dlp.md) 포함하여 Microsoft Teams 및 채널 메시지를 포함하기 위해 데이터 손실 방지 기능이 확장되어 있습니다. 이 릴리스의 일부로 에 처음 Microsoft Teams 에 대한 기본 DLP 정책을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a>
 
 ## <a name="applies-to"></a>적용 대상
 

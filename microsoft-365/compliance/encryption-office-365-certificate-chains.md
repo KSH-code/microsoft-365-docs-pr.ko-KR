@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: 전체 루트 인증서 및 CAS(인증 기관)의 전체 목록을 Microsoft 365.
-ms.openlocfilehash: 65e71ad941c052fecca9d3c3817bbbb0a3a278d5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 34084fd3046a4e26c2ff99a0d8982e00b5c70829
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60194456"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755230"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Microsoft 365 암호화 체인
 
@@ -146,19 +146,19 @@ Last updated: **10/16/2020**
 | **핀(SHA-256)** | /zQvtsTIvTCkcG9zSJU58Z5uSMwF9GJUZU9mENvFQOk= |
 | **CRL URL** | ldap://directory.d-trust.net/CN=D-TRUST%20Root%20Class%203%20CA%202%20EV%202009,O=D-Trust%20GmbH,C=DE?certificaterevocationlist<br>http://www.d-trust.net/crl/d-trust\_root\_class\_3\_ca\_2\_ev\_2009.crl |
 
-### <a name="dst-root-ca-x3"></a>**DST 루트 CA X3**
+### <a name="isrg-root-x1"></a>**ISRG 루트 X1**
 
-| **제목** | CN=DST Root CA X3<br>O=Digital Signature Trust Co. |
+| **제목** | C = US, O = Internet Security Research Group, CN = ISRG Root X1 |
 | --- | --- |
-| **일련 번호** | 44:AF:B0:80:D6:A3:27:BA:89:30:39:86:2E:F8:40:6B |
-| **공개 키 길이** | RSA 2048비트(e 65537) |
-| **서명 알고리즘** | sha1RSA |
-| **이전과 다른 유효성** | 9월 30일 21:12:19 2000 UTC |
-| **유효 기간 이후 아지 않는 경우** | 2021년 9월 30일 14:01:15 UTC |
-| **주체 키 식별자** | c4:a7:b1:a4:7b:2c:71:fa:db:e1:4b:90:75:ff:c4:15:60:85:89:10 |
-| **지문(SHA-1)** | DAC9024F54D8F6DF94935FB1732638CA6AD77C13 |
-| **지문(SHA-256)** | 0687260331A72403D909F105E69BCF0D32E1BD2493FFC6D9206D11BCD6770739 |
-| **핀(SHA-256)** | Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys= |
+| **일련 번호** | 82:10:cf:b0:d2:40:e3:59:44:63:e0:bb:63:82:8b:00 |
+| **공개 키 길이** | RSA 4096 비트 |
+| **서명 알고리즘** | sha256WithRSAEncryption |
+| **이전과 다른 유효성** | 6월 4일 11:04:38 2015 UTC |
+| **유효 기간 이후 아지 않는 경우** | 6월 4일 11:04:38 2035 UTC |
+| **주체 키 식별자** | 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E |
+| **지문(SHA-1)** | CABD2A79A1076A31F21D253635CB039D4329A5E8 |
+| **지문(SHA-256)** | 96BCEC06264976F37460779ACF28C5A7CFE8A3C0AAE11A8FFCEE05C0BDDF08C6 |
+| **핀(SHA-256)** | 0b9fa5a59eed715c26c1020c711b4f6ec42d58b0015e14337a39dad301c5afc3 |
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Entrust Root Certification Authority - G2**
 

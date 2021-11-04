@@ -11,15 +11,16 @@ ms.service: O365-seccomp
 ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MET150
 description: 그룹 정책을 사용하여 구성 패키지가 서비스에 Windows 10 구성 패키지를 배포할 수 있습니다.
-ms.openlocfilehash: 00befc6d33de8c93b2412d8a9f31a8aabe45f09c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3329d21b4e0ba55c4b91a56a26af890b1199fb56
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60155037"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755737"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>그룹 정책을 Windows 10 장치 온보드 
 
@@ -59,8 +60,8 @@ ms.locfileid: "60155037"
 
 12. 확인을 **클릭하고** 열려 있는 GPMC 창을 닫습니다.
 
-
 ## <a name="offboard-devices-using-group-policy"></a>그룹 정책을 사용하여 디바이스 오프보드
+
 보안상의 이유로, 오프보드 장치에 사용된 패키지는 다운로드한 날짜 30일 후에 만료됩니다. 장치에 전송된 만료된 오프보더 패키지는 거부됩니다. 오프보더 패키지를 다운로드할 때 패키지 만료 날짜에 대한 알림을 하게 되고 패키지 이름에도 포함됩니다.
 
 > [!NOTE]
@@ -98,7 +99,7 @@ ms.locfileid: "60155037"
 그룹 정책을 사용하는 경우 디바이스에서 정책 배포를 모니터링할 수 있는 옵션이 없습니다. 모니터링은 포털에서 직접 수행하거나 다른 배포 도구를 사용하여 수행될 수 있습니다.
 
 ## <a name="monitor-devices-using-the-portal"></a>포털을 사용하여 장치 모니터링
-1. Microsoft 규정 [준수 센터로 이동](https://compliance.microsoft.com/)
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>로 이동합니다.
 2. 장치 **목록을** 클릭합니다.
 3. 장치가 나타나는지 확인
 

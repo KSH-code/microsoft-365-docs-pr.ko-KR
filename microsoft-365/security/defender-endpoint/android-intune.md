@@ -15,18 +15,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c110682e6090c013ffc3d13cd5fa78b1483c8d2d
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3b2094be06dd9d5f2543738082f9f76bb292609d
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60703454"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754968"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -124,7 +125,7 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
 
 5. 승인 설정 페이지가 표시됩니다. 이 페이지에서는 Android의 끝점용 Defender가 요청하는 새 앱 권한을 처리하기 위한 기본 설정을 확인할 수 있습니다. 선택을 검토하고 원하는 옵션을 선택합니다. **완료** 를 선택합니다.
 
-    기본적으로 관리되는 Google Play는 앱이 새 권한을 요청할 때 *승인된 유지를 선택합니다.*
+    기본적으로 관리되는 Google Play는 앱이 새 권한을 요청할 때 **승인된 유지를 선택합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![알림 탭의 이미지입니다.](images/ffecfdda1c4df14148f1526c22cc0236.png)

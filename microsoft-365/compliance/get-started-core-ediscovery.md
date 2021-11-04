@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 2016에서 Core eDiscovery를 사용하는 방법을 Microsoft 365. eDiscovery 권한을 할당하고 사례를 만든 후 구성원을 추가하고 eDiscovery 보류를 만든 다음 조사와 관련된 콘텐츠를 검색하고 내보낼 수 있습니다.
-ms.openlocfilehash: 4245cd391adbaca4284d7861a44f3c41ed3104e4
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 80b59f1dc2115ebd6c49d7b3bc3ff53f800adfe5
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60363957"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755690"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>2013에서 Core eDiscovery 시작 Microsoft 365
 
@@ -56,7 +56,7 @@ Core eDiscovery에 대한 라이선스를 사용하려면 적절한 조직 구�
 
 라이선스에 대한 자세한 내용은
 
-- 비교 표의 "eDiscovery 및 감사" [Microsoft 365 다운로드하여 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2139145)
+- 비교 표의 eDiscovery 및 감사 [섹션을 Microsoft 365 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2139145)
 
 - 보안 및 [준수 & 설명을 참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
 
@@ -66,9 +66,9 @@ Core eDiscovery에 액세스하거나 Core eDiscovery 사례의 구성원으로 
 
 다음 단계를 완료하여 eDiscovery 관리자 역할 그룹에 사용자를 추가합니다.
 
-1. 으로 이동하여 조직 또는 조직에서 관리자 계정의 자격 <https://compliance.microsoft.com/permissions> 증명을 Microsoft 365 Office 365 로그인합니다.
+1. 조직으로 Microsoft 365 규정 준수 센터 또는 조직에서 관리자 계정의 자격 증명을 사용하여 Microsoft 365 Office 365 로그인합니다.
 
-2. 사용 **권한 페이지에서** **eDiscovery 관리자 역할 그룹을** 선택합니다.
+2. 사용 <a href="https://go.microsoft.com/fwlink/p/?linkid=2173597" target="_blank">**권한 페이지에서**</a> **eDiscovery 관리자 역할 그룹을** 선택합니다.
 
 3. eDiscovery 관리자 플라이아웃 페이지에서  **eDiscovery** 관리자 섹션 옆에 있는 편집을 클릭합니다.
 
@@ -104,9 +104,9 @@ eDiscovery 사용 권한에 대한 자세한 내용과 eDiscovery 관리자 역�
 
 다음 단계는 사례를 만들고 Core eDiscovery 사용을 시작하는입니다. 다음 단계를 완료하여 사례를 만들고 구성원을 추가합니다. 사례를 만드는 사용자는 자동으로 구성원으로 추가됩니다.
 
-1. 으로 이동한 후 적절한 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 [https://compliance.microsoft.com](https://compliance.microsoft.com) 사용하여 로그인합니다. 조직 관리 역할 그룹의 구성원은 핵심 eDiscovery 사례를 만들 수 있습니다.
+1. 이동하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 사용하여 로그인합니다. 조직 관리 역할 그룹의 구성원은 핵심 eDiscovery 사례를 만들 수 있습니다.
 
-2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 클릭한 다음 **eDiscovery**> 클릭합니다. 
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 **표시를** 클릭한 다음 **eDiscovery** Core 를  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2174007" target="_blank">**클릭합니다.**</a>
 
 3. Core **eDiscovery** 페이지에서 사례 만들기 **를 클릭합니다.**
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: 데이터 보호, Microsoft 365 전자 메일을 포함하여 GDPR 및 캘리포니아 소비자 개인 정보 보호법(CCPA)과 같은 데이터 개인 정보 보호 규정에 Microsoft Teams SharePoint 구성합니다.
-ms.openlocfilehash: 49d5848c6b81dcd6a81377cc3ff83cb242354690
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7517faa02ea74d5a9934e22595d61a34e99067a5
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213376"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756590"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>데이터 개인 정보 보호 규정에 대한 정보 보호를 Microsoft 365
 
@@ -73,7 +73,7 @@ Microsoft 365 유형의 예로는 Microsoft Teams, Exchange 전자 메일 및 Sh
 
 ## <a name="track-run-risk-assessments-and-check-your-compliance-score"></a>추적: 위험 평가 실행 및 준수 점수 확인
 
-Microsoft 365 규정 준수 센터 제공되는 준수 관리자는 사용자에게 적용되는 여러 데이터 개인 정보 규정과 관련된 것뿐만 아니라 개선 작업을 전반적으로 추적하고 관리할 수 있는 기본 제공 기능을 제공합니다.
+Microsoft 365 규정 준수 센터 있는 준수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank"></a>관리자는 사용자에게 적용되는 여러 데이터 개인 정보 규정과 관련된 것뿐만 아니라 개선 작업을 전반적으로 추적하고 관리할 수 있는 기본 제공 기능을 제공합니다.
 
 각 규정과 관련된 기본 제공 평가 템플릿을 사용할 수 있습니다. 여기서 선택한 각 평가 템플릿에 대한 작업 항목을 추적하고 특정 규제 컨트롤을 보고 특정 작업과 관련될 수 있습니다.
 

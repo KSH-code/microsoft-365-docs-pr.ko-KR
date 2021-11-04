@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 171364d447b2b160f40888b4b6132a7f1630391b
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: fe21093b8849effaf50771f2260d8588a6e68e5d
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60705366"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756602"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -185,6 +185,7 @@ ms.locfileid: "60705366"
 ## <a name="query-scenarios"></a>쿼리 시나리오
 
 ### <a name="identify-unique-processes-with-process-ids"></a>프로세스 ID를 사용하여 고유한 프로세스 식별
+
 PID(프로세스 ID)는 Windows에서 재활용할 수 있으며 새 프로세스를 위해 다시 사용됩니다. 즉, 특정 프로세스에 대한 고유 식별자로는 사용할 수 없습니다.
 
 특정 컴퓨터에서 프로세스에 대한 고유 식별자를 얻으려면 프로세스 생성 시간과 함께 프로세스 ID를 사용합니다. 프로세스 주변의 데이터를 합치거나 요약할 때는 컴퓨터 식별자에 대한 열 (`DeviceId` 또는 `DeviceName`), 프로세스 ID (`ProcessId` 또는 `InitiatingProcessId`), 프로세스 만들기 시간 (`ProcessCreationTime` 또는 `InitiatingProcessCreationTime`)을 포함합니다.
@@ -192,11 +193,11 @@ PID(프로세스 ID)는 Windows에서 재활용할 수 있으며 새 프로세�
 다음의 예제 쿼리는 포트 445(SMB)를 통해 10 개가 넘는 IP 주소에 액세스하는 프로세스를(잠정적으로 파일 공유를 검색하며) 찾습니다.
 
 쿼리 예제:
+
 ```kusto
 DeviceNetworkEvents
 | where RemotePort == 445 and Timestamp > ago(12h) and InitiatingProcessId !in (0, 4)
-| summarize RemoteIPCount=dcount(RemoteIP) by DeviceName, InitiatingProcessId
-InitiatingProcessCreationTime, InitiatingProcessFileName
+| summarize RemoteIPCount=dcount(RemoteIP) by DeviceName, InitiatingProcessId, InitiatingProcessCreationTime, InitiatingProcessFileName
 | where RemoteIPCount > 10
 ```
 

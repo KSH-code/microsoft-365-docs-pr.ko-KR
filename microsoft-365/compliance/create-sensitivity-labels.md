@@ -13,22 +13,23 @@ ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 데이터를 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 1ce355b2780016dfd7732399546567696e7c2301
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: efe24585981451ef91181ecc4caabb82d45d8ea4
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60170814"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753164"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-모든 Microsoft Information Protection 솔루션(때로는 MIP로 줄여서 부름)은 [민감도 레이블](sensitivity-labels.md)을 사용하여 구현됩니다. 이러한 레이블을 만들고 게시하려면, [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)로 이동합니다. 이전 포털인 Office 365 보안 및 준수 센터를 사용할 수도 있습니다.
+모든 Microsoft Information Protection 솔루션(때로는 MIP로 줄여서 부름)은 [민감도 레이블](sensitivity-labels.md)을 사용하여 구현됩니다. 이러한 레이블을 만들고 게시하려면, <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>로 이동합니다. 이전 포털인 Office 365 보안 및 준수 센터를 사용할 수도 있습니다.
 
 먼저 앱과 다른 서비스에서 사용할 수 있게 하고자 하는 민감도 레이블을 만들고 구성합니다. 예를 들어 사용자가 Office 앱에서 보고 적용하도록 하려는 레이블입니다. 
 
@@ -40,15 +41,9 @@ ms.locfileid: "60170814"
 
 ## <a name="create-and-configure-sensitivity-labels"></a>민감도 레이블 생성 및 구성
 
-1. 레이블 관리 센터에서 민감도 레이블로 이동합니다.
-
-    - Microsoft 365 규정 준수 센터: 
-        - **솔루션** > **정보 보호**
-
-        이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다. 
-
-    - 보안 및 준수 센터:
-        - **분류** > **민감도 레이블**
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **솔루션** > **정보 보호** 를 선택합니다.
+    
+    이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다.
 
 2. **레이블** 페이지에서 **+레이블 만들기** 를 선택하여 새 민감도 레이블 마법사를 시작합니다. 
 
@@ -133,15 +128,9 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 ## <a name="publish-sensitivity-labels-by-creating-a-label-policy"></a>레이블 정책을 만들어 민감도 레이블 게시
 
-1. 레이블 관리 센터에서 민감도 레이블로 이동합니다.
-
-    - Microsoft 365 규정 준수 센터: 
-        - **솔루션** > **정보 보호**
-
-        이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다. 
-
-    - 보안 및 준수 센터:
-        - **분류** > **민감도 레이블**
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **솔루션** > **정보 보호** 를 선택합니다.
+    
+    이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다.
 
 2. **레이블 정책** 탭을 선택한 다음 **레이블 게시** 를 선택하여 정책 만들기 마법사를 시작합니다.
 

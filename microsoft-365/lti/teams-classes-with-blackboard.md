@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 description: Blackboard Microsoft Teams 클래스 사용
-ms.openlocfilehash: b74aaca3df01b2e6f222605f3700066c980cd9bd
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2cf6c3f3e7c9c8b0004ea08fccdec981c032a491
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60170118"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757373"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard-learn-ultra"></a>Blackboard Microsoft Teams 클래스 사용
 
@@ -29,13 +29,13 @@ ms.locfileid: "60170118"
 > [!IMPORTANT]
 > [SIS(학생](https://help.blackboard.com/Learn/Administrator/SaaS/Integrations/Student_Information_System/SIS_Planning) 정보 시스템)에서 기관 전자 메일 필드를 성공적으로 설정해야 합니다.
 >
->Microsoft Teams 클래스 통합은 SIS의 기관 전자 메일 필드를 통해 AAD(Microsoft Azure Active Directory) [UPN(사용자](/azure/active-directory/hybrid/howto-troubleshoot-upn-changes)원칙 이름)에 매핑됩니다. 기관 전자 메일이 프로비전되지 않은 경우 이 전자 메일은 기본적으로 기존 전자 메일로 설정됩니다. 데이터가 올바르게 동기화되도록 모든 사용자에 대해 이 필드를 설정하고 AAD와 Blackboard Learn Ultra 간에 전자 메일 데이터가 충돌하지 않도록 하는 것이 좋습니다.
+>Microsoft Teams 클래스 통합은 SIS의 기관 전자 메일 필드를 통해 올바른 MICROSOFT AZURE ACTIVE DIRECTORY(AAD) [UPN(사용자](/azure/active-directory/hybrid/howto-troubleshoot-upn-changes)원칙 이름)에 매핑됩니다. 기관 전자 메일이 프로비전되지 않은 경우 이 전자 메일은 기본적으로 기존 전자 메일로 설정됩니다. 데이터가 올바르게 동기화되도록 모든 사용자에 대해 이 필드를 설정하고 전자 메일 데이터와 전자 메일 데이터가 충돌하지 않도록 AAD 것이 좋습니다.
 >
 > SIS 매핑에서 이 필드를 적절하게 설정하지 않은 경우 통합이 계속 작동하지만 사용자가 만든 Teams 나타나지 않을 수 있으며 오류가 발생할 수 있습니다.
 
 ## <a name="supporting-institutional-data-mapping--institution-email-sis-field"></a>기관 데이터 매핑 지원 - 기관 전자 메일 SIS 필드
 
-클라우드 공급자 통합의 일부로 Blackboard Learn Ultra는 학생  정보 시스템 프레임워크 통합과 공용 REST API 모두에 새로운 기관 전자 메일 필드를 만들어 기관이 Blackboard Learn Ultra와 AAD 간에 데이터 동기화 프로세스를 효과적으로 관리할 수 있도록 합니다.
+클라우드 공급자와의 통합의 일환으로 Blackboard Learn Ultra는  학생 정보 시스템 프레임워크 통합과 공용 REST API 모두에 새로운 기관 전자 메일 필드를 만들어서 기관이 Blackboard Learn Ultra와 2013 간에 데이터 동기화 프로세스를 효과적으로 관리할 수 AAD.
 
 ### <a name="what-does-the-institution-email-mean-and-what-does-it-support"></a>기관 전자 메일의 의미와 지원 여부
 

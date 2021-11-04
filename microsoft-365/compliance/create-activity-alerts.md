@@ -10,6 +10,7 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.localizationpriority: medium
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MOE150
 - MED150
@@ -18,12 +19,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자가 특정 활동을 수행할 때 Microsoft 365 규정 준수 센터 전자 메일 알림을 Microsoft 365 수 있도록 메일 메시지에서 활동 경고를 추가 및 관리합니다.
-ms.openlocfilehash: 84f2835d9b409b29042981ff0e1254c686aaf798
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 593c51a9d85ebb6f687a5e8573df32d4de515e6b
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60172530"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747803"
 ---
 # <a name="create-activity-alerts"></a>활동 알림 만들기
 
@@ -42,11 +43,11 @@ ms.locfileid: "60172530"
 
 - 감사 로그에서 검색할 수 있는 동일한 활동에 대한 알림을 만들 수 있습니다. 알림을 [만들](#more-information) 수 있는 일반적인 시나리오(및 모니터링할 특정 활동)의 목록은 추가 정보 섹션을 참조하세요.
 
-- 조직의 주소  Microsoft 365 규정 준수 센터 목록에 있는 사용자가 수행한 활동에만 경고를 만들 수 있습니다. 이 페이지를 사용하여 주소 목록에 없는 외부 사용자가 수행한 활동에 대한 알림을 만들 수 없습니다.
+- 조직의 주소  Microsoft 365 규정 준수 센터 목록에 있는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank"></a> 사용자가 수행한 활동에만 경고를 만들 수 있습니다. 이 페이지를 사용하여 주소 목록에 없는 외부 사용자가 수행한 활동에 대한 알림을 만들 수 없습니다.
 
 ## <a name="create-an-activity-alert"></a>활동 경고 만들기
 
-1. <https://compliance.microsoft.com/managealerts>으로 이동합니다.
+1. 으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a>
 
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
@@ -85,7 +86,7 @@ ms.locfileid: "60172530"
 
 전자 메일 알림을 보내지 못하게 활동 알림을 해제할 수 있습니다. 활동 경고를 끄면 조직의 활동 경고 목록에 계속 표시되고 해당 속성을 볼 수 있습니다.
 
-1. <https://compliance.microsoft.com/managealerts>으로 이동합니다.
+1. 으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a>
 
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
@@ -97,7 +98,7 @@ ms.locfileid: "60172530"
 
 활동 경고를 다시 켜려면 이러한 단계를 반복하고 해제 토글 스위치를 클릭하여 상태를 켜기 로 **변경합니다.** 
 
-## <a name="more-information"></a>추가 정보
+## <a name="more-information"></a>자세한 정보
 
 - 다음은 전자 메일 알림의 보낸 사람 필드(활동 알림 페이지의 받는 사람 아래에 나열)에 지정된  사용자에게 전송되는 전자 메일 알림의 Microsoft 365 규정 준수 센터. 
 

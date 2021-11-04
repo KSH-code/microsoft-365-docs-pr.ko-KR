@@ -17,15 +17,16 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: c58df514c136c6df2db5d1392a57db1ee6c34bb3
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 2a63f13885311ba4a794ca1c25c5e90d320472f5
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60647438"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753520"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -104,9 +105,9 @@ ms.locfileid: "60647438"
 
 이 옵션을 사용하여 특정 역할 그룹에 사용자를 할당하여 조직의 여러 사용자 사이에서 통신 준수 액세스 및 책임을 구분할 수 있습니다.
 
-1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) 증명을 사용하여 Microsoft 365 로그인합니다.
+1. Microsoft 365 규정 준수 센터 조직의 관리자 계정에 대한 자격 증명을 사용하여 Microsoft 365 로그인한 다음 사용 권한으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2173597" target="_blank">**이동하십시오.**</a>
 
-2. 보안 및 &amp; 준수 센터에서 사용 **권한 으로 이동 합니다.** 웹에서 역할을 보고 관리하려면 링크를 Office 365.
+2. 웹에서 역할을 보고 관리하려면 링크를 Office 365.
 
 3. 통신 준수 역할 그룹 중 하나를 선택한 다음 역할 그룹 **편집 을 선택합니다.**
 
@@ -198,7 +199,7 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
 >[!TIP]  
 >새 통신 규정 준수 정책을 설정하고 경고를 수정하는 심층적인 워크스루를 보고 싶나요? 이 [15분](communication-compliance-plan.md#creating-a-communication-compliance-policy-walkthrough) 분의 비디오를 통해 통신 규정 준수 정책이 부적절한 메시지를 감지하고 잠재적인 위반을 조사하고 규정 준수 문제를 수정하는 데 어떻게 도움이 될 수 있는지 확인할 수 있습니다.
 
-1. 조직에서 관리자 계정의 자격 <https://compliance.microsoft.com> 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 조직에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 계정의 자격 증명을 사용하여 조직에 Microsoft 365 로그인합니다.
 
 2. 다음 Microsoft 365 규정 준수 센터 통신 준수 **를 선택합니다.**
 
@@ -253,7 +254,7 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
 
 정책 일치를 조사하고 메시지에 대한 작업을 수행 할 때 표시되는 사용자 이름에 대해 동의어를 사용하도록 선택할 수도 있습니다.
 
-1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com](https://compliance.microsoft.com) 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 조직에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 계정의 자격 증명을 사용하여 조직에 Microsoft 365 로그인합니다.
 
 2. 다음 Microsoft 365 규정 준수 센터 통신 준수 **로 이동합니다.**
 

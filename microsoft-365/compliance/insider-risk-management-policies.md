@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9cb9297fdfbe30c79f984e89cfc46e0fa436c7b7
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: a20604bd36f286546a321c438cb5d534ee9cf8ab
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60704958"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755300"
 ---
 # <a name="insider-risk-management-policies"></a>내부 위험 관리 정책
 
@@ -268,7 +268,7 @@ ms.locfileid: "60704958"
 
 새 정책을 만들려면 다음 단계를 완료합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
 2. **정책 만들기** 를 선택하여 정책 마법사를 엽니다.
 3. **정책 템플릿** 페이지에서 정책 범주를 선택한 다음 새 정책에 대한 템플릿을 선택합니다. 이 서식 파일은 탐지하고 조사하려는 위험 활동을 정의하는 조건 및 지표로 구성됩니다. 템플릿 필수 구성 요소, 트리거링 이벤트 및 탐지된 활동을 검토하여 이 정책 템플릿이 요구 사항에 맞는지 확인합니다.
 
@@ -330,7 +330,7 @@ ms.locfileid: "60704958"
 
 기존 정책을 관리하려면 다음 단계를 완료합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
 2. 정책 대시보드에서 관리할 정책을 선택합니다.
 3. 정책 세부 정보 페이지에서 **정책 편집** 을 선택합니다.
 4. 정책 마법사에서는 다음을 편집할 수 없습니다.
@@ -387,7 +387,7 @@ ms.locfileid: "60704958"
 
 기존 정책을 복사하려면 다음 단계를 완료합니다.
 
-1. Microsoft 365 규정 준수 센터에서 내부 위험 관리로 이동하여 정책 탭을 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>내부자 위험 관리로 이동하고 정책 탭을 선택합니다.
 2. 정책 대시보드에서 복사할 정책을 선택합니다.
 3. 정책 세부 정보 페이지에서 복사를 선택합니다.
 4. 정책 마법사에서 새 정책의 이름을 지정하고 필요에 따라 정책 구성을 업데이트합니다.
@@ -407,7 +407,7 @@ ms.locfileid: "60704958"
 
 하나 이상의 내부 위험 관리 정책에서 사용자에 대한 점수 매기기 작업을 수동으로 시작하려면 다음 단계를 완료합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
 2. 정책 대시보드에서 사용자를 추가할 정책을 선택합니다.
 3. **사용자에 대한 점수 매기기 작업 시작** 을 선택합니다.
 4. **여러 정책에 사용자 추가** 창의 **이유 필드** 에서 사용자를 추가하는 이유를 추가합니다.
@@ -434,7 +434,7 @@ ms.locfileid: "60704958"
 
 기존 내부 위험 관리 정책을 삭제하려면 다음 단계를 완료합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **내부 위험 관리** 로 이동하여 **정책** 탭을 선택합니다.
 2. 정책 대시보드에서 삭제할 정책을 선택합니다.
 3. 대시보드 도구 모음에서 **삭제** 를 선택합니다.
 4. **삭제** 대화 상자에서 **예** 를 선택하여 정책을 삭제하거나 **취소** 를 선택하여 대화 상자를 닫습니다.

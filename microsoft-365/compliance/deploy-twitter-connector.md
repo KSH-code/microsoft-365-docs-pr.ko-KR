@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Twitter 데이터를 가져오고 보관할 네이티브 커넥터를 설정하여 기본 Microsoft 365. 이 데이터를 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 Twitter 데이터의 거버넌스를 관리할 수 있습니다.
-ms.openlocfilehash: 478731bc2855b199888311377c21f09aac17fcf1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: bd0885c0b9893b79d36981d52f596d1e5d6b8396
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193450"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757072"
 ---
 # <a name="deploy-a-connector-to-archive-twitter-data"></a>Twitter 데이터를 보관하는 커넥터 배포
 
@@ -56,7 +57,7 @@ ms.locfileid: "60193450"
 
    ![비밀을 입력하고 만료 기간을 선택 합니다.](../media/TCimage08.png)
 
-8. 비밀 값을 복사하여 텍스트 파일이나 다른 저장 위치에 저장합니다. 이후 단계에서 사용하는 AAD 응용 프로그램 비밀입니다.
+8. 비밀 값을 복사하여 텍스트 파일이나 다른 저장 위치에 저장합니다. 이 AAD 단계에서 사용하는 응용 프로그램 비밀입니다.
 
    ![비밀을 복사하여 저장합니다.](../media/TCimage09.png)
 
@@ -160,7 +161,7 @@ ms.locfileid: "60193450"
 
 ## <a name="step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center"></a>5단계: 계정에서 Twitter 커넥터 Microsoft 365 규정 준수 센터
 
-1. 으로 이동한 다음 왼쪽 [https://compliance.microsoft.com](https://compliance.microsoft.com) **네비게이트에서 데이터** 커넥터를 클릭합니다.
+1. 웹 페이지로 Microsoft 365 규정 준수 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2173865" target="_blank"> /a의 **데이터** 커넥터<선택합니다.
 
 2. Twitter **아래의 데이터 커넥터** **페이지에서** 보기를 **클릭합니다.**
 

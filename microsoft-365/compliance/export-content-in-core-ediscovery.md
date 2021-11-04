@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례에서 콘텐츠를 내보내고 다운로드하는 방법을 Microsoft 365.
-ms.openlocfilehash: 5e7d17c7ddb9060417812cccd45437c30b70e9f3
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 6fa9c82d2ef764f292dae3848e10ef53dd06c182
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60647369"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755818"
 ---
 # <a name="export-content-from-a-core-ediscovery-case"></a>Core eDiscovery 케이스에서 콘텐츠 내보내기
 
@@ -30,9 +30,9 @@ Core eDiscovery 사례와 연결된 검색이 성공적으로 실행된 후 검�
   
 ## <a name="export-search-results"></a>검색 결과 내보내기
 
-1. 으로 이동한 후 적절한 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 [https://compliance.microsoft.com](https://compliance.microsoft.com) 사용하여 로그인합니다.
+1. eDiscovery <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 권한이 할당된 사용자 계정의 자격 증명을 사용하여 로그인합니다.
 
-2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 클릭한 다음 **eDiscovery**> 클릭합니다. 
+2. 창의 왼쪽 탐색 창에서 Microsoft 365 규정 준수 센터 표시를 선택한 다음 **eDiscovery** Core 를  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2174007" target="_blank">**선택합니다.**</a>
 
 3. Core **eDiscovery** 페이지에서 보류를 만들 사례의 이름을 클릭합니다.
 

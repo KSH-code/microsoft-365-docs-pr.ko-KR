@@ -13,16 +13,17 @@ ms.collection:
 - M365-security-compliance
 - m365solution-compliancemanager
 - m365initiative-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MOE150
 - MET150
 description: 준수 관리자 빠른 시작 가이드를 사용하여 준수 관리자를 이해하고, 설정하고, 사용하는 여정을 안내합니다.
-ms.openlocfilehash: 40453034c169c5969694425bea25f6f6b3ec4f84
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: e614c8abb46b9562db45afb0c3e67d990f627ce6
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335745"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747217"
 ---
 # <a name="compliance-manager-quickstart"></a>준수 관리자 빠른 시작
 
@@ -34,7 +35,7 @@ ms.locfileid: "60335745"
 
 ## <a name="first-visit-get-to-know-compliance-manager"></a>첫 번째 방문: 준수 관리자에 대해 알아가기
 
-준수 관리자는 의 Microsoft 365 규정 준수 센터 https://compliance.microsoft.com 있습니다. 준수 관리자 사용을 시작하기 전에 [](compliance-manager-setup.md#set-user-permissions-and-assign-roles) 조직의 전역 관리자가 사용자 권한을 설정하고 역할을 할당해야 합니다.
+준수 관리자는 에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a> 준수 관리자 사용을 시작하기 전에 [](compliance-manager-setup.md#set-user-permissions-and-assign-roles) 조직의 전역 관리자가 사용자 권한을 설정하고 역할을 할당해야 합니다.
 
 준수 관리자를 처음 방문하면 조직에 대한 준수 점수가 볼 수 있습니다. 준수 관리자는 데이터 보호 기준에 따라 현재 Microsoft 365 환경을 이미 평가하고 있습니다. 준수 관리자에 익숙해지기 시작하는 가장 좋은 방법은 표시하는 요소, 주요 요소 및 대시보드를 사용자 지정하는 방법을 이해하는 것입니다.
 

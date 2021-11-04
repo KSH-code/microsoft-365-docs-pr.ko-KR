@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 09e7cb8f05796994e1b68d59ceea312b8735a3cc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4b7c2b79892874fad37be382ba7eecea1b761fe7
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201448"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753568"
 ---
 # <a name="get-live-response-results"></a>라이브 응답 결과 얻기
 
@@ -93,7 +93,7 @@ id}/GetLiveResponseResultDownloadLink(index={command-index})
 
 |이름|유형|설명|
 |---|---|---|
-|권한 부여|String|Bearer {token}. 필수 특성입니다.|
+|권한 부여|문자열|Bearer {token}. 필수 특성입니다.|
 
 ## <a name="request-body"></a>요청 본문
 

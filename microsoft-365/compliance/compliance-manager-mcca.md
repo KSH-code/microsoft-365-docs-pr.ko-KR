@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
-ms.openlocfilehash: 75fb613aa1e0256c6c819336f9bcdd340acdff7d
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 2e0327a11067a4e474831d95b2c74c4c289086ce
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335493"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747229"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -42,22 +42,23 @@ MCCA를 이해하기 위한 추가 리소스는 에 대한 [README](https://gith
 
 MCCA 도구를 설치하려면 다음을 Windows PowerShell. 도구를 다운로드하여 설치한 후 보고서를 실행하기 위해 이러한 단계를 반복할 필요가 없습니다. MCCA를 열 때마다 로그인 자격 증명을 묻고 업데이트된 새 보고서를 생성합니다.
 
-#### <a name="step-1-install-windows-powershell"></a>1단계: 설치 Windows PowerShell
+### <a name="step-1-install-windows-powershell"></a>1단계: 설치 Windows PowerShell
+
 먼저 PowerShell 갤러리에서 사용할 Exchange Online PowerShell 모듈(v2.0.3 이상)이 필요합니다. [설치 지침을 을(를) 얻습니다.](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/2.0.3)
 
-#### <a name="step-2-install-mcca"></a>2단계: MCCA 설치
+### <a name="step-2-install-mcca"></a>2단계: MCCA 설치
 
 MCCA를 설치하려면 관리자 모드에서 PowerShell을 사용하여 시작하십시오. 아래 단계를 따릅니다.
 
 1. 시작 Windows **선택합니다.**
-2. **PowerShell을 입력하고** 마우스 오른쪽 단추로 Windows PowerShell **를** 클릭한 다음 관리자 권한으로 **실행을 선택합니다.**
+1. **PowerShell을 입력하고** 마우스 오른쪽 단추로 Windows PowerShell **를** 클릭한 다음 관리자 권한으로 **실행을 선택합니다.**
 1. 명령 프롬프트에서 다음을 입력합니다.
 
     ```powershell
     Install-Module -Name MCCAPreview
     ```
 
-#### <a name="step-3-run-a-report"></a>3단계: 보고서 실행
+### <a name="step-3-run-a-report"></a>3단계: 보고서 실행
 
 MCCA를 설치한 후 MCCA를 실행하고 보고서를 생성할 수 있습니다. 보고서를 실행합니다.
 
@@ -68,7 +69,7 @@ MCCA를 설치한 후 MCCA를 실행하고 보고서를 생성할 수 있습니�
     Get-MCCAReport
     ```
 
-   높은 고객인 GCC 보고서를 실행하려면 추가 입력 매개 변수를 제공해야 합니다.
+    높은 고객인 GCC 보고서를 실행하려면 추가 입력 매개 변수를 제공해야 합니다.
 
     ```powershell
     Get-MCCAReport -ExchangeEnvironmentName O365USGovGCCHigh
@@ -107,7 +108,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
   | 1 | 아시아 태평양 |
   | 2 | 오스트레일리아 |
   | 3  | 캐나다 |
-  | 4  | 유럽(프랑스 제외) /중동/아프리카 |
+  | 4 | 유럽(프랑스 제외) /중동/아프리카 |
   | 5 | 프랑스 |
   | 6  | 인도 |
   | 7  | 일본 |

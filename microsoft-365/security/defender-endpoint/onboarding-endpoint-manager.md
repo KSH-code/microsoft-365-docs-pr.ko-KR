@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7da419a779cb3a58488ca27ea7185262f4001d44
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: baa4294209ddb32a0a531e07b5bf87b0bb10aa9b
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159490"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756386"
 ---
 # <a name="onboarding-using-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 사용하여 온보딩
 
@@ -81,7 +81,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
 > [!NOTE]
 > Intune은 Azure Active Directory(Azure AD) 그룹을 사용하여 장치 및 사용자를 관리합니다. Intune 관리자는 조직의 요구 사항에 맞게 그룹을 설정할 수 있습니다.
 >
-> 자세한 내용은 사용자 및 장치를 구성하는 그룹 [추가를 참조하세요.](/mem/intune/fundamentals/groups-add)
+> 자세한 내용은 [그룹을 추가하여 사용자 및 디바이스 구성](/mem/intune/fundamentals/groups-add)을 참조하세요.
 
 ### <a name="create-a-group"></a>그룹 만들기
 
@@ -180,7 +180,7 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
     > [!div class="mx-imgBorder"]
     > ![portal12 Microsoft Endpoint Manager 이미지입니다.](images/6b728d6e0d71108d768e368b416ff8ba.png)
 
-3. 플랫폼 - Windows 10 이상 - Windows 및 프로필 - Microsoft Defender 바이러스 백신 > **만들기를 선택합니다.**
+3. 플랫폼 - Windows 10 이상 - Windows **및 프로필 - Microsoft Defender 바이러스 백신 > 선택합니다.**
 
 4. 이름 및 설명을 입력하고 다음 을 **선택합니다.**
 
@@ -353,12 +353,12 @@ Endpoint용 Defender는 다양한 끝점 및 도구의 온보딩을 지원하기
     > [!div class="mx-imgBorder"]
     > [![서비스 패널 1의 이미지입니다.](images/b418a232a12b3d0a65fc98248dbb0e31.png)](images/b418a232a12b3d0a65fc98248dbb0e31.png#lightbox)
 
-2. 구성이 적용된 후 Endpoint Protection Service용 Defender를 시작해야 합니다.
+2. 구성이 적용된 후 Endpoint Protection 서비스를 시작해야 합니다.
 
     > [!div class="mx-imgBorder"]
     > [![서비스 패널 2의 이미지입니다.](images/a621b699899f1b41db211170074ea59e.png)](images/a621b699899f1b41db211170074ea59e.png#lightbox)
 
-3. 장치에서 서비스가 실행되고 나면 장치가 Microsoft Defender 보안 센터에 표시됩니다.
+3. 장치에서 서비스가 실행되고 나면 디바이스가 디바이스에 Microsoft Defender 보안 센터.
 
     > [!div class="mx-imgBorder"]
     > [![이미지 Microsoft Defender 보안 센터.](images/df0c64001b9219cfbd10f8f81a273190.png)](images/df0c64001b9219cfbd10f8f81a273190.png#lightbox)

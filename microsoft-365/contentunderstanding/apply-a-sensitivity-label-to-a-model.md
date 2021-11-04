@@ -13,18 +13,18 @@ ms.collection:
 - m365initiative-syntex
 ms.localizationpriority: medium
 description: SharePoint Syntex에서 모델에 민감도 레이블을 적용하는 방법을 알아봅니다.
-ms.openlocfilehash: 2b0ef2afda8f0a3d5431b8a14bc76dfcc3c3b663
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e03c1f2558c85866994ca2a13095158adb113207
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60200200"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756142"
 ---
 # <a name="apply-a-sensitivity-label-to-a-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 모델에 민감도 레이블 적용
 
 Microsoft SharePoint Syntex에서 문서 이해 모델에 [민감도 레이블](../compliance/sensitivity-labels.md)을 쉽게 적용할 수 있습니다. 이 기능은 양식 처리 모델에 아직 사용할 수 없습니다.
 
-민감도 레이블을 사용하면 모델이 식별하는 문서에 암호화, 공유 및 조건부 액세스 정책을 적용할 수 있습니다. 예를 들어 모델에서 문서 라이브러리에 업로드된 은행 계좌 번호 또는 신용 카드 번호가 포함된 금융 문서를 식별할 뿐만 아니라 *암호화* 민감도 레이블을 적용하여 해당 콘텐츠에 액세스할 수 있는 사용자와 사용 방법을 제한하려고 합니다. SharePoint Syntex 모델은 [레이블 순서](../compliance/apply-sensitivity-label-automatically.md#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label) 규칙을 적용하고 사용자가 파일에 수동으로 적용한 기존 레이블을 덮어쓰지 않습니다. 
+민감도 레이블을 사용하면 모델이 식별하는 문서에 암호화, 공유 및 조건부 액세스 정책을 적용할 수 있습니다. 예를 들어 모델에서 문서 라이브러리에 업로드된 은행 계좌 번호 또는 신용 카드 번호가 포함된 모든 재무 문서를 식별할 뿐만 아니라 암호화 설정으로 구성된 민감도 레이블을 적용하여 해당 콘텐츠에 액세스할 수 있는 사용자와 사용 방법을 제한하도록 하려는 경우를 예로 들 수 있습니다. SharePoint Syntex 모델은 [레이블 순서](../compliance/apply-sensitivity-label-automatically.md#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label) 규칙을 적용하고 사용자가 파일에 수동으로 적용한 기존 레이블을 덮어쓰지 않습니다. 
 
 모델의 홈페이지에서 모델 설정을 통해 기존 민감도 레이블을 모델에 적용할 수 있습니다. 레이블은 모델 설정에서 선택할 수 있도록 이미 게시되어 있어야 합니다.
 

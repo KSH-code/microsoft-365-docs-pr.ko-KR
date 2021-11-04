@@ -15,16 +15,17 @@ ms.collection:
 - m365solution-aed
 - m365initiative-compliance
 - m365solution-scenario
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 사례를 만들고 관리하는 방법을 Advanced eDiscovery 있습니다. 첫 번째 단계에서는 사례를 만들고 Advanced eDiscovery 기능을 사용하게 합니다.
-ms.openlocfilehash: f76d4688ebb0324b1b009f4b98b5ab15b65ec960
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 48e6f255361591f270ac95e525c4a1e33b6b7212
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60172494"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747791"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>사례 만들기 및 Advanced eDiscovery 관리
 
@@ -36,11 +37,11 @@ ms.locfileid: "60172494"
 
 다음 단계를 완료하여 사례를 만들고 구성원을 추가합니다. 사례를 만드는 사용자는 자동으로 구성원으로 추가됩니다. 사례의 구성원은 사례에 액세스하여 Microsoft 365 규정 준수 센터 수행할 Advanced eDiscovery 있습니다.
 
-1. 으로 이동한 후 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 <https://compliance.microsoft.com> 사용하여 로그인합니다. 조직 관리 역할 그룹의 구성원은 조직 관리 Advanced eDiscovery 있습니다.
+1. eDiscovery <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 할당된 사용자 계정의 자격 증명을 사용하여 로그인합니다. 조직 관리 역할 그룹의 구성원은 조직 관리 Advanced eDiscovery 있습니다.
 
-2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 **모두 표시** 를 클릭한 다음 **eDiscovery > Advanced** 를 클릭합니다.
+2. 창의 왼쪽 탐색 Microsoft 365 규정 준수 센터 모두 표시를 클릭한 다음 **eDiscovery** 고급을 선택한 다음 사례 탭  >   <a href="https://go.microsoft.com/fwlink/p/?linkid=2173764" target="_blank"> **을** 선택합니다.</a>
 
-3. Advanced eDiscovery **페이지에서** 사례 탭을 클릭한 다음 사례 만들기 **를 클릭합니다.** 
+1. **케이스 만들기** 를 선택합니다.
 
 4. 새 **eDiscovery** 사례 플라이아웃 페이지에서 사례에 이름(필수)을 지정한 다음 선택적 사례 번호와 설명을 입력합니다. 사례 이름은 조직에서 고유해야 합니다.
 

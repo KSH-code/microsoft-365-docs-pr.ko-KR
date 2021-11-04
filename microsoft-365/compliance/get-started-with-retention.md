@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 위한 몇 가지 실용적인 지침을 읽어보세요.
-ms.openlocfilehash: 3154388eaf1c677cec00782642de6f83819d0665
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5d1566cc5840b93a4d3a994004ea0e1d52e01bb6
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195596"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757361"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -51,7 +51,7 @@ ms.locfileid: "60195596"
 
 ## <a name="permissions-required-to-create-and-manage-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한
 
-보존 정책과 보존 레이블을 만들고 관리할 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지는 않으면서 액세스 권한을 부여할 수 있습니다. 이 제한적 관리를 위한 권한을 부여하기 위해서는 사용자를 **규정 준수 관리자** 관리 역할 그룹에 추가할 것을 권장합니다.
+보존 정책과 보존 레이블을 만들고 관리할 규정 준수 팀의 구성원에게는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지는 않으면서 액세스 권한을 부여할 수 있습니다. 이 제한적 관리를 위한 권한을 부여하기 위해서는 사용자를 **규정 준수 관리자** 관리 역할 그룹에 추가할 것을 권장합니다.
 
 이 기본 역할을 사용하는 대신 새 역할 그룹을 만들고 이 그룹에 **보존 관리** 역할을 추가할 수 있습니다. 읽기 전용 역할의 경우 **보기 전용 보존 관리** 를 사용합니다. 
 

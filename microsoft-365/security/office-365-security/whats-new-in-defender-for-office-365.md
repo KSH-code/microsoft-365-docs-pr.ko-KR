@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca0d3e29809b8975f65dc3f12816a6e4f9a19dbe
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 1618d77a81888fe9076d00124cef770e81810836
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702406"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756974"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -50,6 +50,12 @@ ms.locfileid: "60702406"
 - [엔드포인트용 Microsoft Defender의 새로운 기능](../defender-endpoint/whats-new-in-microsoft-defender-atp.md)
 - [ID용 Microsoft Defender의 새로운](/defender-for-identity/whats-new)
 - [새로운 Microsoft Cloud App Security](/cloud-app-security/release-notes)
+
+
+## <a name="october-2021"></a>2021년 10월
+
+- [고급 배달 DKIM 향상:](configure-advanced-delivery.md)타사 피싱 시뮬레이션 구성의 일부로 DKIM 도메인 항목에 대한 지원이 추가되었습니다.
+- [기본적으로 보안:](secure-by-default.md)메일 흐름 규칙(전송 Exchange)에 대해 기본적으로 확장 보안이 설정됩니다.
 
 ## <a name="september-2021"></a>2021년 9월
 

@@ -8,7 +8,9 @@ author: robmazz
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.custom: admindeeplinkMAC
+ms.custom:
+- admindeeplinkMAC
+- admindeeplinkCOMPLIANCE
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
 ms.service: O365-seccomp
@@ -20,12 +22,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: ff326544d2485fa3ca7385f9ad8b924514aec1a5
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3d0a905137ae1f2a55bddb0ae3d9691e68d69bac
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60647561"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756256"
 ---
 # <a name="case-study---contoso-quickly-configures-an-inappropriate-content-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구 - Contoso는 통신에 대한 부적절한 콘텐츠 정책을 Microsoft Teams, Exchange Yammer 구성합니다.
 
@@ -93,7 +95,7 @@ Contoso는 통신 준수  역할 그룹을 사용하여 모든 통신 준수 관
 | **커뮤니케이션 규정 준수 뷰어** | 이 그룹을 사용하여 통신 보고서를 관리할 사용자에게 사용 권한을 할당합니다. 이 역할 그룹에 할당된 사용자는 통신 준수 홈 페이지의 모든 보고 위젯에 액세스할 수 있으며 모든 통신 준수 보고서를 볼 수 있습니다. |
 
 1. Contoso IT 관리자는 전역 [](https://compliance.microsoft.com/permissions) 관리자 계정에 대한 자격 증명을 사용하여 Microsoft 365 규정 준수 센터 권한 페이지에 로그인하고 해당 페이지에서 역할을 보고 관리하기 위한 링크를 Microsoft 365.
-2. 이 **Microsoft 365 규정 준수 센터** 에서 사용 권한으로 이동한 다음 해당 권한에서 역할을 보고 관리하기 위한 링크를 Office 365. 
+2. 이 Microsoft 365 규정 준수 센터 사용 권한으로 이동하여 권한에서 역할을 보고 관리하기 위한 링크를 Office 365. <a href="https://go.microsoft.com/fwlink/p/?linkid=2173597" target="_blank"></a>
 3. 관리자는 통신 준수 역할 *그룹을* 선택한 다음 역할 그룹 **편집 을 선택합니다.**
 4. 관리자는 왼쪽 **탐색** 창에서 구성원 선택을 선택한 다음 편집 을 **선택합니다.**
 5. 사용자는 **추가를** 선택한 다음 커뮤니케이션 규정 준수를 관리하고, 조사하고, 경고를 검토할 모든 Contoso 사용자에 대한 확인란을 선택합니다.

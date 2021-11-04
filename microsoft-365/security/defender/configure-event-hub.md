@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 MS.technology: mde
-ms.openlocfilehash: ce8f931f0d400c967b3312fe6cfafcadb3a715c7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: bb45a15dd8931c5a7d9866b7b57ea84be0e0581a
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60181238"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755376"
 ---
 # <a name="configure-your-event-hub"></a>이벤트 허브 구성
 
@@ -38,15 +38,15 @@ ms.locfileid: "60181238"
 
 ## <a name="set-up-the-required-resource-provider-in-the-event-hub-subscription"></a>이벤트 허브 구독에서 필수 리소스 공급자 설정
 
-1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
-1. 구독 **선택** { 이벤트 허브가 } 리소스 공급자에 배포될 \>  \> **구독을 선택합니다.**
+1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
+1. 구독 **선택**{ 이벤트 허브가 } 리소스 공급자에 배포될  >    >  **구독을 선택합니다.**
 1. **Microsoft.Insights** 공급자가 등록되어 있는지 확인하십시오. 그렇지 않으면 등록합니다.
 
 ![리소스 공급자의 Microsoft Azure.](../../media/f893db7a7b1f7aa520e8b9257cc72562.png)
 
 ## <a name="set-up-azure-active-directory-app-registration"></a>앱 등록 Azure Active Directory 설정
 
-> ! [참고] 관리자가 아닌 사용자가 앱을 등록할 수 Azure Active Directory AAD(관리자 역할 또는 사용자 계정)가 설정되어 있어야 합니다. 서비스 사용자에게 역할을 할당하려면 소유자 또는 사용자 액세스 관리자 역할도 있어야 합니다. 자세한 내용은 [Create an Azure AD app & service principal in the portal - Microsoft ID 플랫폼 Microsoft \| Docs를 참조하세요.](/azure/active-directory/develop/howto-create-service-principal-portal)
+> ! [참고] 관리자가 아닌 사용자가 앱을 등록할 수 있도록 관리자 역할 또는 Azure Active Directory(AAD)를 설정해야 합니다. 서비스 사용자에게 역할을 할당하려면 소유자 또는 사용자 액세스 관리자 역할도 있어야 합니다. 자세한 내용은 [Create an Azure AD app & service principal in the portal - Microsoft ID 플랫폼 Microsoft \| Docs를 참조하세요.](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 1. 앱 등록에 새 등록(본질적으로 서비스 사용자 **생성)을** Azure Active Directory 새 \>  \> **등록을 만듭니다.**
 

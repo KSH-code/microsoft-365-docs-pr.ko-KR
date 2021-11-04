@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 10932b96b205e3e73ba6e5363ed2acd301d9cef5
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 48639d4d30a0cc95275fd0268381b53e60ee0708
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60643222"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747377"
 ---
 # <a name="server-migration-scenarios-from-the-previous-mma-based-microsoft-defender-for-endpoint-solution"></a>이전의 MMA 기반 Microsoft Defender for Endpoint 솔루션의 서버 마이그레이션 시나리오
 
@@ -104,15 +104,13 @@ ms.locfileid: "60643222"
 
 *이러한 단계는 Microsoft가 아닌 바이러스 백신 솔루션을 교체하려는 경우만 적용됩니다. 함께 더 나은 보기: Microsoft Defender 바이러스 백신 [및 끝점용 Microsoft Defender를 참조합니다.](why-use-microsoft-defender-antivirus.md)
 
-
-수동 모드에서 컴퓨터 이동을 위해 다음 키를 0으로 설정하십시오. 
+수동 모드에서 컴퓨터 이동을 위해 다음 키를 0으로 설정하십시오.
 
 경로: HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection 이름: ForceDefenderPassiveMode 형식: REG_DWORD 값: 0
 
 자세한 내용은 수동 [모드로 Microsoft Defender 바이러스 백신 필요를 참조하세요.](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server)
 
-
-## <a name="other-migration-scenarios"></a>기타 마이그레이션 시나리오 
+## <a name="other-migration-scenarios"></a>기타 마이그레이션 시나리오
 
 ### <a name="you-have-a-server-that-has-been-onboarded-using-the-mma-based-microsoft-defender-for-endpoint-it-has-scep-installed-windows-server-2012-r2-or-microsoft-defender-antivirus-windows-server-2016-this-machine-is-not-managed-through-azure-defender-microsoft-endpoint-manager-or-microsoft-endpoint-configuration-manager"></a>MMA 기반의 끝점용 Microsoft Defender를 사용하여 온보딩된 서버가 있습니다. SCEP가 설치되어 있습니다(Windows Server 2012 R2) 또는 Microsoft Defender 바이러스 백신(Windows Server 2016). 이 **컴퓨터는** Azure Defender, Microsoft Endpoint Manager 또는 Microsoft Endpoint Configuration Manager.
 
@@ -140,10 +138,9 @@ ms.locfileid: "60643222"
 > [!TIP]
 > 설치 관리자 [스크립트를 사용하여](server-migration.md#installer-script) 1~4단계를 자동화할 수 있습니다. 수동 모드를 사용하도록 설정하려면 온보딩하기 전에 Defender 바이러스 백신이 수동 모드로 전환되어 Microsoft가 아닌 맬웨어 방지 솔루션을 방해하지 않는 -Passive 플래그를 적용합니다. 그런 다음 등록 후 Defender 바이러스 백신이 수동 모드로 유지되도록 EDR 차단과 같은 EDR "ForceDefenderPassiveMode" 레지스트리 키를 설정해야 합니다. 예제: 자세한 내용은 수동 모드로 Microsoft Defender 바이러스 백신 `.\install.ps1 -OnboardingScript ".\WindowsDefenderATPOnboardingScript.cmd" -Passive` [필요를 참조하세요.](microsoft-defender-antivirus-on-windows-server.md#passive-mode-and-windows-server)
 
-*이 단계는 Microsoft가 아닌 바이러스 백신 솔루션을 교체하려는 경우만 적용됩니다. 전체 기능 집합을 Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint에 포함된 웹 서비스를 사용하는 것이 좋습니다. 함께 더 나은 보기: Microsoft Defender 바이러스 백신 [및 끝점용 Microsoft Defender를 참조합니다.](why-use-microsoft-defender-antivirus.md) 
+*이 단계는 Microsoft가 아닌 바이러스 백신 솔루션을 교체하려는 경우만 적용됩니다. 전체 기능 집합을 Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint에 포함된 웹 서비스를 사용하는 것이 좋습니다. 함께 더 나은 보기: Microsoft Defender 바이러스 백신 [및 끝점용 Microsoft Defender를 참조합니다.](why-use-microsoft-defender-antivirus.md)
 
-
-수동 모드에서 컴퓨터 이동을 위해 다음 키를 0으로 설정하십시오. 
+수동 모드에서 컴퓨터 이동을 위해 다음 키를 0으로 설정하십시오.
 
 경로: HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection 이름: ForceDefenderPassiveMode 형식: REG_DWORD 값: 0
 

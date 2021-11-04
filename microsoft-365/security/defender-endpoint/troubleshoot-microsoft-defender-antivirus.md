@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 590842462f4c757ba16c90ef641382801d79bcab
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 59392ebb51bb483393cf657ced400c238852d72c
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60212368"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753544"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -896,7 +896,7 @@ UAC </dt>
 사용자 작업:
 </td>
 <td >
-필요한 작업은 없습니다. Microsoft Defender 바이러스 백신 일시 중단하고 이 위협에 대한 일상적인 조치를 취할 수 있습니다. 위협을 수동으로 제거하려면 Microsoft Defender 바이러스 백신 컴퓨터 <b>정리를 클릭합니다.</b>
+아무 조치도 필요하지 않습니다. Microsoft Defender 바이러스 백신 일시 중단하고 이 위협에 대한 일상적인 조치를 취할 수 있습니다. 위협을 수동으로 제거하려면 Microsoft Defender 바이러스 백신 컴퓨터 <b>정리를 클릭합니다.</b>
 </td>
 </tr>
 <tr>
@@ -1205,7 +1205,7 @@ UAC </dt>
 Microsoft Defender 바이러스 백신 클라이언트에서 중요한 문제로 인해 이 오류가 발생했습니다. 끝점이 보호되지 않을 수 있습니다. 오류 설명을 검토한 다음 아래의 관련 <b>사용자 작업 단계를</b> 따릅니다.
 <table>
 <tr>
-<th>작업</th>
+<th>조치</th>
 <th>사용자 작업</th>
 </tr>
 <tr>

@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams 채널은 DLP(데이터 손실 방지) 정책을 지원합니다.
-ms.openlocfilehash: f4e4c7b0d25d411fe8aa3d69b1768ed7508b9b6b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a7db6b951a0522698b2f6b3879fc444825ed2ca1
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60168713"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753968"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -116,7 +116,7 @@ Exchange, [Outlook, 웹용 Outlook,](data-loss-prevention-policies.md#policy-eva
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 사용 권한을 [참조합니다.](data-loss-prevention-policies.md#permissions)
 
-1. 준수 센터()로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 로그인합니다.
+1. 사이트로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 로그인합니다.
 
 2. **데이터 손실 방지** > **정책** 을 선택합니다.
 
@@ -147,7 +147,7 @@ Exchange, [Outlook, 웹용 Outlook,](data-loss-prevention-policies.md#policy-eva
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 사용 권한을 [참조합니다.](data-loss-prevention-policies.md#permissions)
 
-1. 준수 센터()로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 로그인합니다.
+1. 사이트로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 로그인합니다.
 
 2. **데이터 손실 방지** > **정책** > **+ 정책 만들기** 를 선택합니다.
 

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: dcddcebcdf70f02f84c2dbbceb61ef97488369aa
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: b7dd1df95c3cedc9a2f187f1599003e179024927
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335289"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747671"
 ---
 # <a name="insider-risk-management-users-dashboard"></a>내부자 위험 관리 사용자 대시보드
 
@@ -98,7 +98,7 @@ ms.locfileid: "60335289"
 
 모든 내부자 위험 관리 정책에서 범위 내 상태의 사용자를 수동으로 제거하려면 다음 단계를 완료합니다.
 
-1. 에서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)내부자 위험 **관리로 이동하고** 사용자 **탭을** 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>내부자 위험 **관리로 이동하고** 사용자 **탭을** 선택합니다.
 2. 사용자 **대시보드에서** 내부자 위험 관리 정책의 범위 내 범위를 벗어날 사용자를 선택합니다.
 3. 사용자 **제거를 선택합니다.**
 4. 사용자 **제거 창에서** 제거  또는  취소를 선택하여 변경 내용을 취소하고 대화 상자를 닫습니다.

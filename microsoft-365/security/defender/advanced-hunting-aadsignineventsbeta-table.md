@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8fa111b636026de49c854eb5ec8c17f1aad5c3eb
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3c25132cc8743bf791123ae2cc4d29a195faa34a
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60673098"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755352"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -36,7 +36,7 @@ ms.locfileid: "60673098"
 
 고급 헌팅chema의 표에는 대화형 Azure Active Directory 비대화형 로그인에 대한 정보가 `AADSignInEventsBeta` 포함되어 있습니다. 자세한 내용은 Azure Active Directory 활동 보고서의 로그인 - 미리 [보기를 통해 자세히 알아보실 수 있습니다.](/azure/active-directory/reports-monitoring/concept-all-sign-ins) 
 
-이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다. 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)를 참조하세요.
+이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다. 고급 헌팅 스마의 다른 표에 대한 자세한 내용은 고급 헌팅 참조 [를 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)
 
 <br>
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정하고, 제거하고, 테스트하는 & 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9d1856d0019a95f200b6be33f3f29ae3e471685e
-ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
+ms.openlocfilehash: e9b080d2837fc14c15987c774770b8bc5e9777eb
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60264927"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754804"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -118,6 +118,18 @@ ms.locfileid: "60264927"
 12. **다음** 을 선택합니다.
 13. 이 중요한 정보 유형에 대한 **권장 신뢰 수준** 을 선택합니다.
 14. 설정을 확인하고 **제출** 을 선택합니다.
+
+> [!NOTE]
+> 이러한 SITS는 복사할 수 없습니다.
+> - 캐나다 운전 면허 번호
+> - EU 운전 면허 번호
+> - EU 국가 ID 번호
+> - EU 여권 번호
+> - EU 사회 보장 번호 또는 동등한 식별
+> - EU 세금 식별 번호
+> - 국제질병 분류(ICD-10-CM)
+> - 국제적인 병 분류(ICD-9-CM)
+> - 미국 운전 면허 번호
 
 PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지정 중요한 정보 유형을 만들 수도 있습니다. 해당 방법에 대한 자세한 내용은 다음을 참조하세요.
 - [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)

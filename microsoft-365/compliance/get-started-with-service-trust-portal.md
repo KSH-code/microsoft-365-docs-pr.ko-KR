@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Microsoft Service Trust Portal에 액세스하고 이를 사용하여 보안, 개인 정보 보호 및 규정 준수 사례에 도움이 되는 방법을 배워야 합니다.
-ms.openlocfilehash: bbfc84b2ada1e75407ca8c1c42855bdbf336bbf2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c74cd1e12d7ca2d6ac7adeb3ace921f54fe4b5a1
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207322"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757194"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 
@@ -69,7 +69,7 @@ Service **Trust Portal 링크에** 홈 페이지가 표시됩니다. 이 기능�
 ### <a name="compliance-manager"></a>규정 관리자
 
 > [!IMPORTANT]
-> 준수 관리자가 서비스 신뢰 포털에서 서비스 트러스트 포털의 새 위치로 [Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com/) 모든 고객 데이터가 새 위치로 이동하여 중단 없이 준수 관리자를 계속 사용할 수 있습니다. 설치 정보는 [준수 관리자](compliance-manager.md) 설명서를 참조하고 새로운 기능에 대해 자세히 알아보는 것이 좋습니다. 준수 관리자의 클래식 버전은 Service Trust Portal에 유지되어도 모든 사용자는 서비스 신뢰 포털에서 준수 관리자를 사용하는 것이 Microsoft 365 규정 준수 센터.
+> 준수 관리자가 서비스 신뢰 포털에서 서비스 트러스트 포털의 새 위치로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a> 모든 고객 데이터가 새 위치로 이동하여 중단 없이 준수 관리자를 계속 사용할 수 있습니다. 설치 정보는 [준수 관리자](compliance-manager.md) 설명서를 참조하고 새로운 기능에 대해 자세히 알아보는 것이 좋습니다. 준수 관리자의 클래식 버전은 Service Trust Portal에 유지되어도 모든 사용자는 서비스 신뢰 포털에서 준수 관리자를 사용하는 것이 Microsoft 365 규정 준수 센터.
 
 ### <a name="trust-documents"></a>보안 문서
 

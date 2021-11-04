@@ -18,22 +18,20 @@ audience: ITPro
 ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 67768257dc0a43d04fbc10f3c9d97cdd5fc83fa2
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: f810929d254056ee261defa0a7f2a1458145f8f0
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60643183"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753062"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 **적용 대상:**
+
 - Microsoft 365 Defender
-
-
 
 고급 `EmailAttachmentInfo` 헌팅 [schema의](advanced-hunting-overview.md) 표에는 Microsoft Defender에서 고급 헌팅을 위해 처리한 전자 메일의 첨부 파일에 대한 Office 365. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
@@ -61,6 +59,7 @@ ms.locfileid: "60643183"
 | `FileSize` | 문자열 | 파일 크기(bytes)입니다. |
 
 ## <a name="related-topics"></a>관련 항목
+
 - [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

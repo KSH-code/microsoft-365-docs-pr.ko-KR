@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9b33db7e4fa0b3cc2fa61c0c7a45d1a9d2f9d3b7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b60aca935af326680165a0ccc8669082b14f299d
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60156333"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753788"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
@@ -118,9 +118,9 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 
 ### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
 
-#### <a name="windows-10-and-windows-11"></a>Windows 10 및 Windows 11
+#### <a name="windows-10-and-windows-11"></a>Windows 10 Windows 11
 
-Microsoft 365 Defender 포털 내에서 '.onboarding' 정책을 다운로드하여 11대의 System Center Configuration Manager 및 Windows 10 및 Windows 배포할 수 있습니다.
+Microsoft 365 Defender 포털 내에서 정책을 만드는 데 사용할 수 있는 정책을 다운로드하여 System Center Configuration Manager 정책을 Windows 10 Windows 11 `.onboarding` 있습니다.
 
 1. Microsoft 365 Defender 포털에서 설정 [를 선택한 다음 온보더링을 선택합니다.](https://security.microsoft.com/preferences2/onboarding)
 
@@ -330,7 +330,6 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
     ![스크린샷 Microsoft Endpoint Configuration Manager1.](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-
 7. 새로 만든 Windows 정책을 선택하고 확인 을 **선택합니다.**
 
     ![스크린샷 Microsoft Endpoint Configuration Manager2.](images/0ccfe3e803be4b56c668b220b51da7f7.png)
@@ -339,7 +338,7 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
 #### <a name="to-set-controlled-folder-access-rules-in-audit-mode"></a>감사 모드에서 제어된 폴더 액세스 규칙을 설정
 
-1. Microsoft Endpoint Configuration Manager 콘솔에서 Exploit Guard를 사용하여 자산 및 준수 Endpoint Protection **\> Windows Defender \> \> 탐색하고** Exploit Guard 정책 **만들기 를 선택하세요.**
+1. Microsoft Endpoint Configuration Manager 콘솔에서 Exploit Guard의 자산 및 준수 개요 Endpoint Protection Windows Defender Exploit Guard 정책  >    >    >   **만들기를 선택하세요.**
 
     ![Microsoft Endpoint Configuration Manager3의 스크린샷.](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 

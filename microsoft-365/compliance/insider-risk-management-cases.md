@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 67626bb35ad0a07ac8958709d24fa09c7a40e2d9
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 953a29817d13017c0b4fb72031bc97c64924a819
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335917"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754426"
 ---
 # <a name="insider-risk-management-cases"></a>내부자 위험 관리 사례
 
@@ -165,7 +165,7 @@ ms.locfileid: "60335917"
 
 사례에 메모를 추가하는 경우:
 
-1. 에서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
 2. 사례를 선택한 다음 사례 메모 **탭을** 선택합니다.
 3. 사례 **메모 추가를 선택합니다.**
 4. 사례 **메모 추가 대화** 상자에서 사례에 대한 메모를 입력합니다. **사례에** 메모를 추가하려면 저장을  선택하거나 메모를 사례에 저장하지 않고 닫기 닫기 를 선택합니다.
@@ -182,7 +182,7 @@ ms.locfileid: "60335917"
 
 사례에 참가자를 추가하는 경우:
 
-1. 에서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
 2. 사례를 선택한 다음 참가자 **탭을** 선택합니다.
 3. 참가자 **추가를 선택합니다.**
 4. 참가자 **추가 대화** 상자에서 추가할 사용자의 이름을 입력한 다음 제안된 사용자 목록에서 사용자를 선택합니다. 이 목록은 테넌트 구독의 Azure Active Directory 생성됩니다.
@@ -200,7 +200,7 @@ ms.locfileid: "60335917"
 
 사례에 할당된 사용자에게 통지를 보내기 위해 다음을 합니다.
 
-1. 에서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
 2. 사례를 선택한 다음  사례 작업 도구 모음에서 전자 메일 알림 보내기 단추를 선택합니다.
 3. 전자 **메일 알림 보내기 대화** 상자에서 알림 서식 파일 선택 **드롭다운** 컨트롤을 선택하여 알림의 알림 서식 파일을 선택합니다. 이 선택 영역은 알림의 다른 필드를 미리 채우게 됩니다.
 4. 알림 필드를 검토하고 적절하게 업데이트합니다. 여기에 입력한 값은 템플릿의 값을 다시 정의합니다.
@@ -212,7 +212,7 @@ ms.locfileid: "60335917"
 
 사례를 사용자 조사로 에스컬레이터합니다.
 
-1. 에서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
 2. 사례를 선택한 다음 사례 작업 도구 모음에서 조사를 위해 **에스컬레이터** 단추를 선택합니다.
 3. 조사 **에스컬레이터 대화** 상자에서 새 사용자 조사의 이름을 입력합니다. 필요한 경우 사례에 대한 메모를 입력하고 **에스컬레이터를 선택합니다.**
 4. 알림 필드를 검토하고 적절하게 업데이트합니다. 여기에 입력한 값은 템플릿의 값을 다시 정의합니다.
@@ -256,7 +256,7 @@ Microsoft 팀 통합을 사용하도록 설정하기 전에 연 사례의 경우
 
 사례를 해결합니다.
 
-1. 에서 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>내부자 위험 **관리로 이동하고** 사례 **탭을** 선택합니다.
 2. 사례를 선택한 다음  사례 작업 도구 모음에서 사례 해결 단추를 선택합니다.
 3. 사례 **해결 대화** 상자에서 **다음으로** 해결 드롭다운 컨트롤을 선택하여 사례에 대한 해결 분류를 선택합니다. 옵션은 **무해하거나 확인된** 정책 **위반입니다.**
 4. **대소문자 확인 대화** 상자의 작업 수행 텍스트 필드에 확인 분류 **이유를** 입력합니다.

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 ms.custom: seo-marvel-apr2020
 description: PST 파일을 가져올 때 Microsoft 365 가져오기 서비스의 지능형 가져오기 기능을 사용하여 데이터를 필터링하는 방법을 Microsoft 365.
-ms.openlocfilehash: 0c321c4bcdb413c42c5a3edff1f19e2a34c093d1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: da5b22d79339ad4a4a94bd0db803970c1d66537f
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60200512"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755252"
 ---
 # <a name="filter-data-when-importing-pst-files"></a>PST 파일을 가져올 때 데이터 필터링
 
@@ -64,7 +64,7 @@ Microsoft 365 가져오기 서비스의 새로운 지능형 가져오기 기능�
 
 PST 가져오기 작업을 만든 후 다음 단계에 따라 데이터를 가져오기 전에 데이터를 Office 365.
   
-1. <https://compliance.microsoft.com>으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다.
+1. 이동하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 관리자 계정의 자격 증명을 사용하여 로그인합니다.
     
 2. Microsoft 365 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **가져오기** 를 클릭합니다.
     
@@ -129,7 +129,7 @@ PST 가져오기 작업을 만든 후 다음 단계에 따라 데이터를 가�
   
 7. 작업 가져오기 를 클릭하여 각 PST 파일의 상태 및 구성한 필터 설정과 같은 자세한 정보를 표시합니다.
 
-## <a name="more-information"></a>추가 정보
+## <a name="more-information"></a>자세한 정보
 
 - 연령 Microsoft 365 증분을 어떻게 결정하나요? PST Microsoft 365 분석할 때 각 항목의 보내거나 받은 타임스탬프를 니다(항목에 보낸 타임스탬프와 받은 타임스탬프가 모두 있는 경우 가장 오래된 날짜가 선택된 경우). 그런 Microsoft 365 타임스탬프의 연도 값을 확인하여 현재 날짜와 비교하여 항목의 사용 기간을 결정해야 합니다. 이러한 연령은 연령 필터에 대한 드롭다운 목록의 값으로 **사용됩니다.** 예를 들어 PST 파일에 2016, 2015 및 2014의 메시지가 있는  경우 연령 필터의 값은 **1년,** **2년** 및 **3년입니다.**
   

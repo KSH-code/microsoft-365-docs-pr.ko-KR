@@ -12,12 +12,12 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010의 지원이 종료됩니다. 이 계획 로드맵을 사용하여 Exchange Online 또는 최신 버전의 Exchange Server 준비합니다.
-ms.openlocfilehash: b1b4c1244d195f62261f0abc9cfaa4093beeb22f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e49bf68ce2fb9b441ecd40ae4bb89ad88ea568c8
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60150837"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757405"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Exchange 2010 지원 종료 로드맵
 
@@ -199,7 +199,7 @@ Exchange 2016에는 이전 릴리스의 모든 기능이 Exchange. 일부 기능
 
 ****
 
-|고려 사항|추가 정보|
+|고려 사항|자세한 정보|
 |---|---|
 |지원 종료 날짜|Exchange 2010과 마찬가지로 각 Exchange 자체 지원 종료 날짜가 있습니다. <p> Exchange 2013년 4월 - 2023년 4월 <p> Exchange 2016년 10월 - 2025년 10월 <p> 지원 종료 날짜가 이르면 더 빨리 다른 마이그레이션을 수행해야 합니다. 2023년 4월이 생각보다 훨씬 더 가까워지고 있습니다.|
 |2013 또는 Exchange 마이그레이션 경로|마이그레이션 경로는 Exchange 2010에서 최신 버전으로의 마이그레이션 경로는 2013 또는 Exchange 2016에 Exchange 동일합니다. <p> 기존 Exchange 2010 조직에 2013 또는 2016을 Exchange 설치합니다. <p> 서비스 및 기타 인프라를 2013 Exchange 2016으로 이동 <p> 사서함 및 공용 폴더를 Exchange 2013 또는 2016년 2010 서버의 나머지 Exchange 해제합니다.|

@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: GEA150
 description: 30일 무료 평가판에 등록하여 Microsoft 365 Business Standard, Microsoft 365 Business Premium 또는 비즈니스용 Microsoft 365 앱.
 ms.date: 08/07/2020
-ms.openlocfilehash: cb9d811f014fa0460e5030b794caf687df4ca4ae
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 10ad9f24d7e34da30cfe5b62207e90275a0649c0
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60195764"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754400"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 사용해 보거나 구입
 
@@ -77,7 +77,7 @@ Microsoft 365 비즈니스용 서비스는 Microsoft가 IT를 대신하는 동�
 
 구입하기 전에 비즈니스용 Microsoft 365 사용해보는 데 시간이 더 필요한가요? 평가판 구독이 15일 이내에 만료되며 만료일 이전에 평가판 사용 기간이 연장되지 않은 경우 평가판 사용 기간을 30일 더 연장할 수 있습니다. 연장은 한 번만 가능합니다.
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 2. 제품 **탭에서** 확장할 평가판 구독을 선택합니다.
 3. 구독 세부 정보 페이지의 구독  및 결제 설정 섹션에서 종료 날짜 **연장을 선택합니다.**
 4. 종료 **날짜 연장** 창에서 내선 정보를 검토하고 필요한 경우 결제 방법을 선택합니다. 완료되면 평가판 확장 **을 선택합니다.**
@@ -86,7 +86,7 @@ When you're ready to buy, see [Buy your trial version](#buy-a-subscription-from-
 
 ## <a name="cancel-your-free-trial-subscription"></a>무료 평가판 구독 취소
 
-무료 평가 기간이 종료되기 전에 평가판 구독을 취소하기로 결정한 경우 평가판으로 이동하여 Microsoft 365 관리 센터 청구를 [끄면 됩니다.](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) 평가판은 월이 끝나면 자동으로 만료되며 신용 카드가 \' 청구되지 않습니다.
+무료 평가 기간이 종료되기 전에 평가판 구독을 취소하기로 결정한 경우 평가판으로 이동하여 Microsoft 365 관리 센터 청구를 [끄면 됩니다.](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) 평가판은 월이 끝나면 자동으로 만료되며 신용 카드가 청구되지 않습니다.
 
 ## <a name="try-a-different-subscription"></a>다른 구독 시도
 

@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: '받는 응용 프로그램 및 서비스는 구입한 Microsoft 365(예: 비즈니스용 Microsoft 365 앱.'
 ms.date: 07/01/2020
-ms.openlocfilehash: 11cda35cdb4326e620d5bedbc49762e868e93efa
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 29a56ecfc1cb2f3cbe3afebec552fff29905675b
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60153657"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756567"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스용 구독 및 라이선스 Microsoft 365 이해
 

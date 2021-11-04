@@ -16,12 +16,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
-ms.openlocfilehash: ffbf31415dbdcd3ff9b8261b7f1679989823ecd0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 96544e023ba9e5ff3e362911e82c86acc72d0970
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60168641"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755727"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 
@@ -93,15 +93,13 @@ Azure Active Directory PowerShell for Graph 모듈에서 새 cmdlet을 필요로
 ```console
 Untrusted repository
 
-You are installing the modules from an untrusted repository. If you trust this repository, change
-its InstallationPolicy value by running the `Set-PSRepository` cmdlet.
+You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the `Set-PSRepository` cmdlet.
 
 Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
 설치를 계속하려면 **예** 또는 **모두 예** 로 대답하십시오.
-
 
 ### <a name="step-2-connect-to-azure-ad-for-your-microsoft-365-subscription"></a>2단계: Microsoft 365 구독을 위해 Azure AD에 연결
 

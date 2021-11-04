@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 기본 커넥터를 설정하여 Facebook 비즈니스 페이지를 가져와서 보관할 수 Microsoft 365. 이 데이터를 Microsoft 365 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 조직의 Facebook 데이터의 거버넌스를 관리할 수 있습니다.
-ms.openlocfilehash: 1707236a889d03f272c5cce527245cf2a83f8949
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0bbe7f65ef6226386911817b40bbaaa418cdabec
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60170838"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757230"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook 비즈니스 페이지 데이터를 보관하는 커넥터 배포
 
@@ -30,7 +31,7 @@ ms.locfileid: "60170838"
 
 1. 으로 이동한 후 전역 관리자 계정의 자격 증명을 <https://portal.azure.com> 사용하여 로그인합니다.
 
-    ![AAD에서 앱을 만들 수 있습니다.](../media/FBCimage1.png)
+    ![앱에서 앱을 AAD.](../media/FBCimage1.png)
 
 2. 왼쪽 탐색 창에서 **Azure Active Directory** 를 클릭합니다.
 
@@ -60,7 +61,7 @@ ms.locfileid: "60170838"
 
     ![비밀을 입력한 다음 만료 기간을 선택 합니다.](../media/FBCimage8.png)
 
-9. 비밀 값을 복사하여 텍스트 파일이나 다른 저장 위치에 저장합니다. 이후 단계에서 사용하는 AAD 응용 프로그램 비밀입니다.
+9. 비밀 값을 복사하여 텍스트 파일이나 다른 저장 위치에 저장합니다. 이 AAD 단계에서 사용하는 응용 프로그램 비밀입니다.
 
    ![비밀 값을 복사하여 저장합니다.](../media/FBCimage9.png)
 
@@ -182,13 +183,13 @@ ms.locfileid: "60170838"
 
    - **AAD 응용 프로그램 ID:** 1단계에서 Azure Active Directory 앱의 응용 프로그램 ID입니다.
 
-   - **AAD 응용 프로그램 비밀:** 1단계에서 만든 APISecretKey 비밀의 값입니다.
+   - **AAD 다음을 실행합니다.** 1단계에서 만든 APISecretKey 비밀의 값입니다.
 
 5. **저장을** 클릭하여 커넥터 설정을 저장합니다.
 
 ## <a name="step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center"></a>5단계: 2단계에서 Facebook 커넥터 Microsoft 365 규정 준수 센터
 
-1. 으로 이동한 다음 왼쪽 [https://compliance.microsoft.com](https://compliance.microsoft.com) **네비게이트에서 데이터** 커넥터를 클릭합니다.
+1. 다음으로 이동한 Microsoft 365 규정 준수 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2173865" target="_blank"> /a에 **있는** 데이터 커넥터를<선택합니다.
 
 2. Facebook **비즈니스 페이지의** 데이터 커넥터 **페이지에서** 보기를 **클릭합니다.**
 
@@ -206,7 +207,7 @@ ms.locfileid: "60170838"
 
    - 암호 **상자에** 2단계에서 추가한 APISecretKey의 값을 입력하거나 붙여넣습니다.
 
-   - Azure **앱 ID** 상자에 1단계에서 만든 AAD 응용 프로그램 ID로도 호출되는 응용 프로그램(클라이언트) ID의 값을 입력하거나 붙여넣습니다.
+   - Azure **앱 ID** 상자에 1단계에서 만든 응용 프로그램 ID로 AAD 응용 프로그램(클라이언트) ID의 값을 입력하거나 붙여넣습니다.
 
 6. 연결의 유효성이 검사된 후 다음 을 **클릭합니다.**
 

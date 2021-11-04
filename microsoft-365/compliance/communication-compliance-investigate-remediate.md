@@ -15,15 +15,16 @@ ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d8b3dedd4dca6842dcd45c2c2973511bfe716cf5
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3770d42f72ff9b1dea33554ba11722ba3ba3f843
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60665296"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757437"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>커뮤니케이션 규정 준수 알림 검사 및 수정
 
@@ -33,7 +34,7 @@ ms.locfileid: "60665296"
 
 정책에서 감지된 문제를 조사하는 첫 번째 단계는 정책에서 통신 준수 경고를 검토하는 Microsoft 365 규정 준수 센터. 알림 그룹화의 선호 방식에 따라 알림을 빠르게 조사하는 데 도움이 되는 커뮤니케이션 규정 준수 솔루션 영역에는 몇 가지 영역이 있습니다.
 
-- **통신 준수 정책 페이지:** Microsoft 365 조직에서 관리자 계정의 자격 증명을 사용하여 로그인할 때 통신 준수를 선택하여 통신 준수 정책 페이지를 [https://compliance.microsoft.com](https://compliance.microsoft.com)  표시합니다.  이 페이지에는 조직에 대해 구성된 통신 준수 정책과 Microsoft 365 템플릿에 대한 링크가 표시됩니다. 나열된 각 정책에는 검토해야 하는 알림 수, 에스컬레이터 및 해결된 항목 수, 정책 상태, 마지막 정책 검사 날짜 및 시간이 포함됩니다. 정책을 선택하면 해당 정책과 일치하는 보류 중인 모든 경고를 표시할 수 있으며, 특정 경고를 선택하여 해당 정책 세부 정보 페이지를 열고, 수정 작업을 시작할 수 있습니다.
+- 통신 준수 정책 **페이지:** Microsoft 365 규정 준수 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank"></a> 조직의 관리자 계정에 대한 자격 증명을 사용하여 Microsoft 365 로그인할 때 통신 준수를 선택하여 통신 준수 정책 페이지를 **표시합니다.**  이 페이지에는 조직에 대해 구성된 통신 준수 정책과 Microsoft 365 템플릿에 대한 링크가 표시됩니다. 나열된 각 정책에는 검토해야 하는 알림 수, 에스컬레이터 및 해결된 항목 수, 정책 상태, 마지막 정책 검사 날짜 및 시간이 포함됩니다. 정책을 선택하면 해당 정책과 일치하는 보류 중인 모든 경고를 표시할 수 있으며, 특정 경고를 선택하여 해당 정책 세부 정보 페이지를 열고, 수정 작업을 시작할 수 있습니다.
 - **경고:** 커뮤니케이션 **준수** 경고로 이동하여 지난 30일 동안의 경고를 정책 일치 항목으로  >   그룹화하여 표시합니다. 이 보기를 사용하면 가장 많은 경고가 생성된 커뮤니케이션 규정 준수 정책을 심각도에 따라 나열하여 빠르게 확인할 수 있습니다. 수정 작업을 시작하려면 경고와 연결된 정책을 선택하여 정책 세부 정보 **페이지를 실행합니다.** 정책 **세부** 정보 페이지에서 개요 페이지의 활동 요약을 검토하거나 보류 중인 페이지의 경고 메시지를  검토 및 작업하거나 해결된 페이지에서 닫힌 경고 기록을 검토할 **수** 있습니다. 
 - **보고서:** 통신 준수 **보고서로**  >  **이동하여** 통신 준수 보고서 위젯을 표시합니다. 각 위젯은 정책 일치 및 수정 작업에 대한 더 깊은 인사이트에 대한 액세스를 포함하여 커뮤니케이션 규정 준수 활동 및 상태에 대한 개요를 제공합니다.
 
@@ -68,7 +69,7 @@ ms.locfileid: "60665296"
 
 #### <a name="to-configure-a-filter"></a>필터를 구성하기 위해
 
-1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com](https://compliance.microsoft.com) 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 조직에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 계정의 자격 증명을 사용하여 조직에 Microsoft 365 로그인합니다.
 
 2. 다음 Microsoft 365 규정 준수 센터 통신 준수 **로 이동합니다.**
 
@@ -92,7 +93,7 @@ ms.locfileid: "60665296"
 
 #### <a name="to-remediate-duplicates"></a>중복 항목을 수정
 
-1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com](https://compliance.microsoft.com) 증명을 사용하여 Microsoft 365 로그인합니다.
+1. 조직에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 계정의 자격 증명을 사용하여 조직에 Microsoft 365 로그인합니다.
 
 2. 다음 Microsoft 365 규정 준수 센터 통신 준수 **로 이동합니다.**
 
@@ -176,7 +177,7 @@ ms.locfileid: "60665296"
 
 다음 단계를 완료하여 기본 템플릿에서 Power Automate 흐름을 만듭니다.
 
-1. 다음 Microsoft 365 규정 준수 센터 통신 준수 정책으로 이동하여 검토할 경고가 있는   >   정책을 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>커뮤니케이션 규정 준수 정책으로 이동하고 검토할 경고가 있는  >   정책을 선택합니다.
 2. 정책에서 보류 중인 **탭을 선택하고** 보류 중인 알림을 선택합니다.
 3. 경고 **Power Automate** 메뉴에서 선택을 선택합니다.
 4. 이 **Power Automate** 페이지의 섹션에 있는 **통신** 준수 템플릿에서 기본 템플릿을 선택합니다.
@@ -193,7 +194,7 @@ ms.locfileid: "60665296"
 Power Automate 흐름을 공유하려면 하나 이상의 통신 준수 역할 그룹의 구성원이 되어야 합니다.
 다음 단계를 완료하여 공유 흐름을 Power Automate 합니다.
 
-1. 다음 Microsoft 365 규정 준수 센터 통신 준수 정책으로 이동하여 검토할 경고가 있는   >   정책을 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>커뮤니케이션 규정 준수 정책으로 이동하고 검토할 경고가 있는  >   정책을 선택합니다.
 2. 정책에서 보류 중인 **탭을 선택하고** 보류 중인 알림을 선택합니다.
 3. 경고 **Power Automate** 메뉴에서 선택을 선택합니다.
 4. 흐름 **Power Automate** 내 흐름 또는 팀  흐름 **탭을** 선택합니다.
@@ -207,7 +208,7 @@ Power Automate 흐름을 공유하려면 하나 이상의 통신 준수 역할 �
 
 다음 단계를 완료하여 흐름을 Power Automate 합니다.
 
-1. 다음 Microsoft 365 규정 준수 센터 통신 준수 정책으로 이동하여 검토할 경고가 있는   >   정책을 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>커뮤니케이션 규정 준수 정책으로 이동하고 검토할 경고가 있는  >   정책을 선택합니다.
 2. 정책에서 보류 중인 **탭을 선택하고** 보류 중인 알림을 선택합니다.
 3. 경고 **Power Automate** 메뉴에서 선택을 선택합니다.
 4. 흐름 **Power Automate 편집할** 흐름을 선택합니다. 흐름 **제어 메뉴에서** 편집을 선택합니다.
@@ -220,7 +221,7 @@ Power Automate 흐름을 공유하려면 하나 이상의 통신 준수 역할 �
 
 다음 단계를 완료하여 흐름을 Power Automate 합니다.
 
-1. 다음 Microsoft 365 규정 준수 센터 통신 준수 정책으로 이동하여 검토할 경고가 있는   >   정책을 선택합니다.
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>커뮤니케이션 규정 준수 정책으로 이동하고 검토할 경고가 있는  >   정책을 선택합니다.
 2. 정책에서 보류 중인 **탭을 선택하고** 보류 중인 알림을 선택합니다.
 3. 경고 **Power Automate** 메뉴에서 선택을 선택합니다.
 4. 흐름 **Power Automate** 페이지에서 삭제할 흐름을 선택합니다. 흐름 **제어** 메뉴에서 삭제를 선택합니다.
@@ -236,7 +237,7 @@ Power Automate 흐름을 공유하려면 하나 이상의 통신 준수 역할 �
 |:-----|:-----|:-----|
 |**서식 파일 이름** | 예 | 수정 중에 워크플로 알림에서 선택할 알림 서식 파일 이름에 텍스트 문자가 지원됩니다. |
 | **보낸 사람 주소** | 예 | 정책 일치가 있는 사용자에게 메시지를 보내는 하나 이상의 사용자 또는 그룹의 주소로, 구독의 Active Directory에서 선택됩니다. |
-| **CC 및 BCC 주소** | 아니요 | 선택적 사용자 또는 그룹이 구독에 대한 Active Directory에서 선택되어 정책 일치를 알림을 하게 됩니다. |
+| **CC 및 BCC 주소** | 아니오 | 선택적 사용자 또는 그룹이 구독에 대한 Active Directory에서 선택되어 정책 일치를 알림을 하게 됩니다. |
 | **제목** | 예 | 메시지의 제목 줄에 나타나는 정보는 텍스트 문자를 지원합니다. |
 | **메시지 본문** | 예 | 메시지 본문에 나타나는 정보로 텍스트 또는 HTML 값을 지원할 수 있습니다. |
 
@@ -266,7 +267,7 @@ Power Automate 흐름을 공유하려면 하나 이상의 통신 준수 역할 �
 
 메시지를 확인하지 않은 경우 다음 단계를 완료합니다.
 
-1. 조직에서 Microsoft 365 규정 준수 센터 커뮤니케이션 준수 [분석가](https://compliance.microsoft.com) 또는 통신  준수 조사자  역할 그룹에 할당된 사용자의 자격 증명을 사용하여 조직에 Microsoft 365 로그인합니다.
+1. 조직에서 Microsoft 365 규정 준수 센터 커뮤니케이션 준수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">분석가</a> 또는 통신  준수 조사자  역할 그룹에 할당된 사용자의 자격 증명을 사용하여 조직에 Microsoft 365 로그인합니다.
 2. 다음 Microsoft 365 규정 준수 센터 통신 준수 **로 이동합니다.**
 3. 정책 **탭을** 선택한 다음 확인된 경고 메시지가 포함된 정책을 선택하고 두 번 클릭하여 정책 페이지를 **열** 수 있습니다.
 4. 정책 **페이지에서** 해결된 **탭을** 선택합니다.

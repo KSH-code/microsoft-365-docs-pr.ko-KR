@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 통합 지원 서비스Now 구성 개요
+title: ServiceNow 구성 개요와 Microsoft 365 지원 통합
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -17,18 +17,18 @@ ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - MET150
 description: ServiceNow에 대한 범위가 지정한 인증된 응용 프로그램 설치 및 구성 가이드입니다.
-ms.openlocfilehash: c5d0bf57eb037bd19b9666f9b3684249986d8f2e
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 28b156cc9f9062863868550f2aac216b8d92a403
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60661936"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754202"
 ---
-# <a name="microsoft-365-support-integration-with-servicenow-configuration-overview"></a>Microsoft 365 통합 지원 서비스Now 구성 개요
+# <a name="microsoft-365-support-integration-with-servicenow-configuration-overview"></a>ServiceNow 구성 개요와 Microsoft 365 지원 통합
 
 **Microsoft 365 통합을** 통해 서비스 Microsoft 365, 지원 및 서비스 상태와 ServiceNow 인스턴스를 통합할 수 있습니다. Microsoft의 알려진 문제 및 보고된 문제를 조사하고, 인시던트 문제를 해결하고, Microsoft 권장 솔루션을 사용하여 작업을 완료하고, 필요한 경우 Microsoft 휴먼 지원으로 에스컬레이터할 수 있습니다.
 
-ServiceNow **Microsoft 365** 지원 통합 앱의 경우 servicenow 스토어로 [이동하세요.](https://store.servicenow.com/sn_appstore_store.do#!/store/application/6d05c93f1b7784507ddd4227cc4bcb9f)
+ServiceNow **Microsoft 365** 지원 통합 앱의 경우 [ServiceNow 스토어로 이동하세요.](https://store.servicenow.com/sn_appstore_store.do#!/store/application/6d05c93f1b7784507ddd4227cc4bcb9f)
 
 ## <a name="key-features"></a>주요 기능
 

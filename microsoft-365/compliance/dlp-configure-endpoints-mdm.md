@@ -11,15 +11,16 @@ ms.service: O365-seccomp
 ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MET150
 description: 모바일 장치 관리 도구를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
-ms.openlocfilehash: 7d1d51ef048c619f700f5c04d30804ec15f4c15d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7c5efde45558f41da4331c33937526f36b777abf
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204374"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754318"
 ---
 # <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩
 
@@ -49,21 +50,23 @@ MDM과 함께 MDM을 사용하도록 설정하는 Microsoft Intune 장치 [등�
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-1. Microsoft 준수 센터에서 [오프보더 패키지를 다운로드합니다.](https://compliance.microsoft.com/)
+1. 에서 오프보더 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">패키지를 Microsoft 365 규정 준수 센터.</a>
 
 2. 탐색 창에서 장치 **온보 설정** 해제를  >    >  **선택합니다.**
 
 3. 배포 **방법 필드에서** 모바일 장치 관리 **/를 Microsoft Intune.**
-    
+
 4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
 5. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 .zip 공유 읽기 전용 위치로 파일 파일의 내용을 추출합니다. 이름이 *DeviceCompliance_valid_until_YYYY-MM-DD.offboarding 입니다.*
 
 6. 사용자 Microsoft Intune 정책을 사용하여 지원되는 다음 OMA-URI 설정을 배포합니다.
 
-      OMA-URI: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection/Offboarding      
-      날짜 형식: 문자열      
-      값: [DeviceCompliance_valid_until_YYYY-MM-DD.offboarding 파일의 콘텐츠에서 값을 복사하여 붙여넣기]
+    ```text
+    OMA-URI: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection/Offboarding
+    Date type: String
+    Value: [Copy and paste the value from the content of the DeviceCompliance_valid_until_YYYY-MM-DD.offboarding file]
+    ```
 
 정책 설정에 대한 Microsoft Intune 자세한 내용은 Windows 10 정책 설정을 [Microsoft Intune.](/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
 

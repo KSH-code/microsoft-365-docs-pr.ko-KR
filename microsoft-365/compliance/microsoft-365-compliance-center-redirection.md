@@ -11,16 +11,16 @@ ms.topic: article
 ms.localizationpriority: medium
 description: 보안 및 준수 센터 Office 365 사용자에 대한 자동 리디렉션에 대해 Microsoft 365 규정 준수 센터.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: dcf589eddc0ede59efd01d7eddbe9ab3685bfa68
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 9e299ee84eb046a1d6c3ae41d80eeb0106fad63e
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60700904"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754792"
 ---
 # <a name="redirection-of-users-from-the-office-365-security-and-compliance-center-to-the-microsoft-365-compliance-center"></a>보안 및 Office 365 센터에서 사용자로 Microsoft 365 규정 준수 센터
 
-이 문서에서는 Office 365 보안 및 준수 센터(protection.office.com)에서 Microsoft 365 규정 준수 센터(보안 및 준수 센터)로 규정 준수 솔루션에 액세스하는 사용자에 대해 자동 리디렉션이 작동하는 compliance.microsoft.com.
+이 문서에서는 Office 365 보안 및 준수 센터(protection.office.com)에서 준수 솔루션에 액세스하는 사용자에 대해 자동 리디렉션이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a>
 
 ## <a name="what-to-expect"></a>예상할 일
 
@@ -36,7 +36,7 @@ ms.locfileid: "60700904"
 - [정보 거버넌스](manage-information-governance.md)
 - [레코드 관리](records-management.md)
 
-사용자는 Microsoft 365 규정 준수 센터(compliance.microsoft.com) 규정 준수 솔루션으로 자동으로 라우팅됩니다.
+사용자는 에서 동일한 준수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">솔루션으로 Microsoft 365 규정 준수 센터.</a>
 
 이 기능과 관련 컨트롤은 Microsoft Defender for Office 365. 보안 기능에 대한 리디렉션을 사용하도록 설정하려면 자세한 내용은 [Microsoft Defender에서](/microsoft-365/security/defender/microsoft-365-security-mdo-redirection) Office 365 보안 센터로 Microsoft 365 리디렉션을 참조합니다.
 

@@ -14,12 +14,12 @@ audience: ITPro
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: da6a875a7d9fc5a3445a18312245ffebdf6503c0
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 48a813765693c69cff726c6973959ee63200a357
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60667117"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753924"
 ---
 # <a name="device-control-printer-protection"></a>장치 제어 프린터 보호
 
@@ -150,9 +150,9 @@ DeviceEvents
 ```
 
  :::image type="content" source="../../media/device-control-advanced-hunting.png" alt-text="고급 헌팅.":::
- 
+
  PnP 이벤트를 사용하여 조직에서 사용되는 USB 프린터를 찾을 수 있습니다.
- 
+
 ```kusto
 //find the USB Printer VID/PID
 DeviceEvents

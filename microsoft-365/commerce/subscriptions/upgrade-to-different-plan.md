@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 계획을 업그레이드하는 가장 쉬운 방법은 관리 센터의 업그레이드 탭을 사용하는 것입니다. 그러나 업그레이드 탭이 항상 지원되지는 않습니다.
 ms.date: 04/21/2021
-ms.openlocfilehash: 8d481ec0b5eb64fcc86ca331d9bde3cac746f177
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7e4190fed287033f723be2cd89e800cb2e31e11a
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60167549"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747323"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 
@@ -120,7 +120,7 @@ ms.locfileid: "60167549"
 
 계획을 업그레이드할 때 업그레이드할 수 있는 계획은 현재 계획의 서비스에 따라 표시됩니다. 데이터 관련 서비스가 동일한 요금제(예: Exchange Online 또는 SharePoint Online)로만 업그레이드하거나 상위 버전으로 업그레이드할 수 있습니다. 이렇게 하면 사용자가 업그레이드 중에 해당 서비스와 관련된 데이터를 \' 손실하지 않습니다.
 
-계획을 자동으로 업그레이드할 수 없는 경우 대신 계획을 수동으로 [](change-plans-manually.md)변경할 수 있습니다. 지원을 문의하여 [도움을 줄](../../business-video/get-help-support.md) 수 있습니다.
+계획을 자동으로 업그레이드할 수 없는 경우 계획을 수동으로 변경할 [수](change-plans-manually.md) 있습니다. 지원을 문의하여 [도움을 줄](../../business-video/get-help-support.md) 수 있습니다.
 
 #### <a name="your-subscription-has-an-add-on"></a>구독에 추가 기능
 
@@ -143,11 +143,10 @@ ms.locfileid: "60167549"
 ### <a name="users-and-licenses"></a>사용자 및 라이선스
 
 이전 구독의 사용자는 자동으로 새 구독으로 이전됩니다.
-  
+
 이전 구독에 여러 서비스가 포함되어 있으며 사용자가 할당된 이러한 서비스를 변경한 경우 계획을 업그레이드하기 전에 이를 메모해 두면 이후에 이러한 변경 내용을 다시 만들 수 있습니다. 모든 사용자는 새 구독의 모든 서비스에 액세스할 수 있습니다. 예를 들어 Microsoft 365 Business Premium 100명 모두에 대해 Microsoft 365 Business Premium 구입했지만 이 중 50명에서 SharePoint Online 서비스를 배정하지 않은 경우 계획을 업그레이드한 후에도 이 변경이 유지되지 않습니다.
-  
+
 계획을 업그레이드하기 전에 구독이 두 개 이상 있는 경우 사용자에게 라이선스를 두 개 이상의 구독에 할당한 경우 이 할당 패턴은 새 구독에서 가능한 한 많이 유지됩니다.
-  
 모든 사용자 데이터는 업그레이드 중에 사서함 및 온라인 Exchange, 목록 및 기타 SharePoint 보존됩니다.
   
 ### <a name="billing"></a>청구

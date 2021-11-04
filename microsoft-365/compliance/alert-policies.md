@@ -17,13 +17,14 @@ search.appverid:
 - MOE150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkCOMPLIANCE
 description: 보안 센터 또는 Microsoft 365 규정 준수 센터 Microsoft 365 Defender 보안 포털에서 경고 정책을 만들어 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링합니다.
-ms.openlocfilehash: 2498017d7322de547db57a9106cfb58b42664fec
-ms.sourcegitcommit: 7791c519bd8b68fc23433e13e1ecbdbeaddbebfa
+ms.openlocfilehash: afb186d0b0f1eb1073822261dafdb28ef839509d
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60725648"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753946"
 ---
 # <a name="alert-policies-in-microsoft-365"></a>Microsoft 365의 알림 정책
 
@@ -61,7 +62,7 @@ Microsoft 365 규정 준수 센터 또는 Microsoft 365 Defender 포털에서 �
 
 ### <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 
-으로 <https://compliance.microsoft.com> 이동한 다음 정책 경고  >  **경고 정책**  >  **을 선택합니다.** 또는 으로 직접 이동하면 <https://compliance.microsoft.com/alertpolicies> 됩니다.
+다음으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>정책 경고 정책   >    >  **을 선택합니다.**
 
 ![준수 센터에서 정책을 선택하고 경고에서 경고 정책을 선택하여 경고 정책을 보고 생성합니다.](../media/LaunchAlertPoliciesMCC.png)
 

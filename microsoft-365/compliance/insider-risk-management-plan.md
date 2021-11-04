@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 979e1081dd85047286c580907ff9335442ba0b55
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 8fcb3826bc40d9959c3f4bfb95e2a5453f8a211f
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701050"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754388"
 ---
 # <a name="plan-for-insider-risk-management"></a>내부자 위험 관리 계획
 
@@ -48,7 +48,7 @@ ms.locfileid: "60701050"
 
 ## <a name="plan-for-the-review-and-investigation-workflow"></a>검토 및 조사 워크플로 계획
 
-의 정기적인 케이던스에 대한 경고 및 사례를 모니터링하고 검토하려면 전용 이해 [관계자를 Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com/) 내부자 위험 관리에서 사용할 수 있는 다양한 역할 그룹에 서로 다른 관련자를 할당하는 방법을 이해해야 합니다.
+의 정기적인 케이던스에 대한 경고 및 사례를 모니터링하고 검토하려면 전용 이해 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">관계자를 Microsoft 365 규정 준수 센터.</a> 내부자 위험 관리에서 사용할 수 있는 다양한 역할 그룹에 서로 다른 관련자를 할당하는 방법을 이해해야 합니다.
 
 >[!IMPORTANT]
 >특정 사용자가 조직을 떠나는 경우  내부자 위험  관리 구성이 '관리자 0' 시나리오에 액세스하지 못하도록 내부자 위험 관리 또는 내부자 위험 관리 관리자 역할 그룹(선택한 옵션에 따라)에 항상 한 명 이상의 사용자가 있는지 확인

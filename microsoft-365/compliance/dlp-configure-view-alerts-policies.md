@@ -20,16 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 정책에 대한 경고를 정의하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 1692467ac882b563cedd51ad3770312ba883ccd9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a2969da8fa782a07063614763da015e74d4826f9
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60194504"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753532"
 ---
 # <a name="configure-and-view-alerts-for-data-loss-prevention-polices"></a>데이터 손실 방지에 대한 경고 구성 및 보기
 
-DLP(데이터 손실 방지) 경찰은 중요한 항목의 의도치 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. 새 DLP 경고 관리 대시보드를 사용하여 DLP [](https://compliance.microsoft.com/) 정책 위반에 Microsoft 365 규정 준수 센터, 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
+DLP(데이터 손실 방지) 정책은 중요한 항목의 의도하지 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. 새 DLP 경고 관리 대시보드를 사용하여 DLP <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank"></a> 정책 위반에 Microsoft 365 규정 준수 센터, 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
 
 <!-- LEFT OFF HERE-->
 
@@ -37,7 +37,7 @@ DLP(데이터 손실 방지) 경찰은 중요한 항목의 의도치 않은 공�
 
 이 기능의 일부로는 다음과 같은 기능이 있습니다.
 
--   **DLP 경고** [관리](https://compliance.microsoft.com/)대시보드: Microsoft 365 규정 준수 센터 에서 이 대시보드에는 다음 워크로드에 적용된 DLP 정책에 대한 경고가 표시됩니다.
+-   **DLP 경고** <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">관리</a>대시보드: Microsoft 365 규정 준수 센터 에서 이 대시보드에는 다음 워크로드에 적용된 DLP 정책에 대한 경고가 표시됩니다.
 
     -   Exchange
     -   SharePoint
@@ -62,13 +62,13 @@ Teams DLP를 사용할 수 있는 끝점 [DLP를](endpoint-dlp-learn-about.md) �
 
 ### <a name="licensing-for-alert-configuration-options"></a>경고 구성 옵션에 대한 라이선싱
 
--   **단일 이벤트** 경고 구성: E1, F1 또는 G1 구독이 있는 조직이나 E3 또는 G3 구독이 있는 조직은 활동이 발생할 때마다 경고가 트리거되는 경우만 경고 정책을 만들 수 있습니다.
--   **집계된 경고 구성:** 임계값을 기준으로 집계 경고 정책을 구성하려면 다음 구성 중 하나를 설정해야 합니다.
-    -   E5 또는 G5 구독
-    -   E1, F1 또는 G1 구독 또는 다음 기능 중 하나를 포함하는 E3 또는 G3 구독
-        -   Office 365 Advanced Threat Protection Plan 2
-        -   Microsoft 365 E5 Compliance
-        -   Microsoft 365 및 추가 기능 라이선스 감사
+- **단일 이벤트** 경고 구성: E1, F1 또는 G1 구독이 있는 조직이나 E3 또는 G3 구독이 있는 조직은 활동이 발생할 때마다 경고가 트리거되는 경우만 경고 정책을 만들 수 있습니다.
+- **집계된 경고 구성:** 임계값을 기준으로 집계 경고 정책을 구성하려면 다음 구성 중 하나를 설정해야 합니다.
+  - E5 또는 G5 구독
+  - E1, F1 또는 G1 구독 또는 다음 기능 중 하나를 포함하는 E3 또는 G3 구독
+    - Office 365 Advanced Threat Protection Plan 2
+    - Microsoft 365 E5 Compliance
+    - Microsoft 365 및 추가 기능 라이선스 감사
 
 ### <a name="roles"></a>역할
 
@@ -101,7 +101,7 @@ DLP 경고 관리 대시보드에 액세스하려면 경고 관리 역할 및 �
 
 DLP 경고 관리 대시보드에서 작업하는 경우:
 
-1.  에서 [Microsoft 365 규정 준수 센터](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
+1.  에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>데이터 손실 **방지로 이동하십시오.**
 
 2.  경고 **탭을 선택하여** DLP 경고 대시보드를 볼 수 있습니다.
 
@@ -110,10 +110,9 @@ DLP 경고 관리 대시보드에서 작업하는 경우:
 
         :::image type="content" source="../media/alert-details.png" alt-text="Screenshot showing alert details on the DLP alert management dashboard." border="false":::
 
-1.  경고와  연결된 모든 이벤트를 표시하려면 이벤트 탭을 선택합니다. 특정 이벤트를 선택하면 세부 정보를 볼 수 있습니다.
-    다음 표에는 일부 이벤트 세부 정보가 표시됩니다.
+1.  경고와  연결된 모든 이벤트를 표시하려면 이벤트 탭을 선택합니다. 특정 이벤트를 선택하면 세부 정보를 볼 수 있습니다. 다음 표에는 일부 이벤트 세부 정보가 표시됩니다.
     
-    | 범주          | 속성 이름                 | 설명                                                                | 적용 가능한 이벤트 유형                   |
+    | Category          | 속성 이름                 | 설명                                                                | 적용 가능한 이벤트 유형                   |
     |-------------------|-------------------------------|----------------------------------------------------------------------------|------------------------------------------|
     |*이벤트 세부 정보*||
     |      | Id                            | 이벤트와 연결된 고유 ID                                        | 모든 이벤트                               |

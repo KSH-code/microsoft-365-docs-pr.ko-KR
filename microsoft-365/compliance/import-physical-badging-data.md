@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 데이터 커넥터를 설정하여 조직의 물리적 배지 시스템에서 데이터 원본으로 데이터를 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책에서 이 데이터를 사용하여 조직에 대한 내부 위협을 나타낼 수 있는 특정 사용자의 실제 건물 액세스를 검색할 수 있습니다.
-ms.openlocfilehash: 042bd5f6089ff05d734ce6d2e159f5d3e3d104bd
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: cb568836c0f763682cbad5524b41d19b034d02dc
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60668337"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756166"
 ---
 # <a name="set-up-a-connector-to-import-physical-badging-data-preview"></a>물리적 배지 데이터를 가져오는 커넥터 설정(미리 보기)
 
@@ -136,7 +136,7 @@ JSON 파일은 커넥터에 필요한 Schema 정의를 준수해야 합니다. J
 
 다음 단계는 웹 에지에서 실제 배지 커넥터를 Microsoft 365 규정 준수 센터. 4단계에서 스크립트를 실행하면 3단계에서 만든 JSON 파일이 처리 및 1단계에서 구성한 API 끝점으로 푸시됩니다. 이 단계에서는 커넥터를 만들 때 생성된 JobId를 복사해야 합니다. 스크립트를 실행할 때 JobId를 사용하게 됩니다.
 
-1. 으로 이동한 다음 왼쪽 <https://compliance.microsoft.com> **네비게이트에서 데이터** 커넥터를 클릭합니다.
+1. 다음으로 Microsoft 365 규정 준수 센터 데이터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2173865" target="_blank">**커넥터를 선택합니다.**</a>
 
 2. 실제 **배지** 아래의 데이터 커넥터 페이지에서 **보기를** **클릭합니다.**
 
@@ -217,7 +217,7 @@ JSON 파일은 커넥터에 필요한 Schema 정의를 준수해야 합니다. J
 
 실제 배지 커넥터를 만들고 실제 배지 데이터를 푸시한 후 커넥터를 보고 해당 커넥터의 업로드 상태를 Microsoft 365 규정 준수 센터. 스크립트가 정기적으로 자동으로 실행될 수 있는 경우 스크립트가 마지막으로 실행된 후 현재 상태를 볼 수도 있습니다.
 
-1. 으로 <https://compliance.microsoft.com> 이동하여 왼쪽 **nav에서 데이터** 커넥터를 클릭합니다.
+1. 다음으로 Microsoft 365 규정 준수 센터 데이터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2173865" target="_blank">**커넥터를 선택합니다.**</a>
 
 2. 커넥터 **탭을** 클릭한 다음 실제 배지 커넥터를 선택하여 플라이아웃 페이지를 표시합니다. 이 페이지에는 커넥터에 대한 속성과 정보가 포함되어 있습니다.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 가져오기 도구 d를 사용하여 여러 보호자 및 관련 데이터 원본을 데이터 원본의 사례에 빠르게 Advanced eDiscovery.
-ms.openlocfilehash: 97eb2337fb49863a19b8d55a6dd396e51f4ee8d2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f0d9290d6014b820008408ea6ab9249c0c5a28f4
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60151233"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757459"
 ---
 # <a name="import-custodians-to-an-advanced-ediscovery-case"></a>보시다시안을 사례로 Advanced eDiscovery 가져오기
 
@@ -54,20 +54,27 @@ CSV custodian 템플릿을 다운로드한 후 각 행에 보호자 및 해당 �
 |**Exchange 사용** | CUSTODian의 사서함을 포함하거나 포함하지 않을 TRUE/FALSE 값입니다.      |
 |**OneDrive 사용** | TRUE/FALSE 값으로, 관리인 계정이 포함되거나 포함되지 비즈니스용 OneDrive 않습니다. |
 |**Is OnHold**        | 보유자 데이터 원본을 보류할지 여부를 나타내는 TRUE/FALSE 값입니다. <sup>1</sup>     |
-|**Workload1 유형**         |보호자에 연결되는 데이터 원본의 유형을 나타내는 문자열 값입니다. 가능한 값은 다음과 같습니다. <br/>- ExchangeMailbox<br/> - SharePointSite<br/>- TeamsMailbox<br/>- TeamsSite<br/> - YammerMailbox<br/>- YammerSite |
+|**Workload1 유형**         |보호자에 연결되는 데이터 원본의 유형을 나타내는 문자열 값입니다. 가능한 값은 다음과 같습니다. <br/>- ExchangeMailbox<br/> - SharePointSite<br/>- TeamsMailbox<sup>2</sup><br/>- YammerMailbox<sup>2</sup>| 
 |**Workload1 Location**     | 작업 유형에 따라 데이터 원본의 위치가 됩니다. 예를 들어 Exchange 사서함의 전자 메일 주소 또는 SharePoint 있습니다. |
 |||
 
 > [!NOTE]
 > <sup>1</sup> 보유자 가져오기 프로세스 및 CSV 파일을 사용하여 최대 1,000개 사서함과 100개 사이트를 보류할 수 있습니다. 이 프로세스를 사용하여 사례에 1,000명 이상의 보유자 추가를 할 수 있지만 보류 제한은 계속 적용됩니다. 보류 제한에 대한 자세한 내용은 [에서 제한을 Advanced eDiscovery.](limits-ediscovery20.md#hold-limits)
+<br>
+> <sup>2</sup> CSV 파일에 TeamsMailbox 및 YammerMailbox 작업을 포함하면 그룹 사이트(TeamSite 및 YammerSite)가 기본적으로 자동으로 추가됩니다. CSV 파일에서 TeamsSite와 YammerSite를 별도로 지정할 필요가 없습니다.
 
 다음은 보호자 정보가 있는 CSV 파일의 예입니다.<br/><br/>
 
 |Custodian contactEmail      | Exchange 사용 | OneDrive 사용 | Is OnHold | Workload1 유형 | Workload1 Location             |
 | ----------------- | ---------------- | ---------------- | --------- | -------------- | ------------------------------ |
-|robinc@onmicrosoft.contoso.com | TRUE             | TRUE             | TRUE      | SharePointSite | https://contoso.sharepoint.com |
-|pillarp@onmicrosoft.contoso.com | TRUE             | TRUE             | TRUE      | |  |
+|robinc@contoso.onmicrosoft.com | TRUE             | TRUE             | TRUE      | SharePointSite | https://contoso.sharepoint.com |
+|pillarp@contoso.onmicrosoft.com | TRUE             | TRUE             | TRUE      | |  |
+|.johnj@contoso.onmicrosoft.com|TRUE|TRUE|TRUE||
+|sarad@contoso.onmicrosoft.com|TRUE|TRUE|TRUE|ExchangeMailbox|.saradavis@contoso.onmicrosoft.com
 ||||||
+
+> [!NOTE]
+> 비활성 사서함을 custodian로 가져오거나 비활성 사서함을 다른 보존인과 연결하기 위해 비활성 사서함의 UPN 주소에 "." prefix를 추가합니다.
 
 ## <a name="custodian-and-data-source-validation"></a>보호자 및 데이터 원본 유효성 검사
 

@@ -13,16 +13,17 @@ ms.collection:
 - M365-security-compliance
 - m365solution-compliancemanager
 - m365initiative-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: ec44ec38a76cf0371804df25b698d77ba7b5aa22
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 5f8bdec9dd7a6a784ff9eb6e91ab44ffd97fcda0
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702020"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754892"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -38,7 +39,7 @@ ms.locfileid: "60702020"
 
 ## <a name="sign-in"></a>로그인
 
-1. 사용자 [계정으로 Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/) **전역** 관리자 계정으로 Microsoft 365 로그인합니다.
+1. 사용자 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">계정으로 Microsoft 365 규정 준수 센터</a> **전역** 관리자 계정으로 Microsoft 365 로그인합니다.
 2. 왼쪽 **탐색 창에서** 준수 관리자를 선택합니다. 준수 관리자 [대시보드에 도착합니다.](#understand-the-compliance-manager-dashboard)
 
 준수 관리자에 액세스하는 직접 링크는 [https://compliance.microsoft.com/compliancemanager](https://compliance.microsoft.com/compliancemanager) 입니다.
@@ -56,7 +57,7 @@ ms.locfileid: "60702020"
 
 사용 권한을 설정하고 Microsoft 365 규정 준수 센터 다음 단계를 따르세요.
 
-1. 이동하여 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/compliancemanager) **탐색에** 대한 사용 권한을 선택합니다.
+1. 이동하여 Microsoft 365 규정 준수 센터 사용 권한을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2173597" target="_blank">**선택합니다.**</a>
 
 2. 준수 센터 **드롭다운에서** 역할을 **선택합니다.**
 
@@ -108,7 +109,7 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 
 #### <a name="to-manage-your-automated-testing-settings"></a>자동화된 테스트 설정을 관리하려면
 
-1. 의 **설정** 있는 어디에서나 왼쪽 탐색에 [있는](https://compliance.microsoft.com/)Microsoft 365 규정 준수 센터.
+1. 선택 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174201" target="_blank">**설정**</a> 선택 Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -130,7 +131,7 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 
 **사용자 기록 설정을 찾으면 다음을 입력합니다.**
 
-1. 에서 설정 있는 모든 곳에서 왼쪽 탐색의 [Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com/)
+1. 선택 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174201" target="_blank">**설정**</a> 선택 Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -148,7 +149,7 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 
 **아래 단계에 따라 사용자에 따라 보고서를 내보낼 수 있습니다.**
 
-1. 의 **설정** 있는 어디에서나 왼쪽 탐색에 [있는](https://compliance.microsoft.com/)Microsoft 365 규정 준수 센터.
+1. 선택 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174201" target="_blank">**설정**</a> 선택 Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -166,7 +167,7 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 
 **다른 사용자에게 개선 작업을 다시 위임하기 위해 아래 단계를 따르세요.**
 
-1. 의 **설정** 있는 어디에서나 왼쪽 탐색에 [있는](https://compliance.microsoft.com/)Microsoft 365 규정 준수 센터.
+1. 선택 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174201" target="_blank">**설정**</a> 선택 Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 
@@ -193,7 +194,7 @@ Azure AD ID가 Office 365 Microsoft 365 구독이 없는 사용자는 해당 구
 
 사용자 기록을 삭제하려면 다음 단계를 따릅니다.
 
-1. 의 **설정** 있는 어디에서나 왼쪽 탐색에 [있는](https://compliance.microsoft.com/)Microsoft 365 규정 준수 센터.
+1. 선택 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174201" target="_blank">**설정**</a> 선택 Microsoft 365 규정 준수 센터.
 
 2. 설정 페이지에서 준수 **관리자를 선택합니다.**
 

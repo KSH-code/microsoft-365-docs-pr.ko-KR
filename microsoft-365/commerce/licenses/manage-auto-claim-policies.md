@@ -19,12 +19,12 @@ ms.custom:
 description: 특정 앱에 대한 라이선스를 사용자에게 자동으로 할당하는 자동 클레임 정책을 만들고 관리하는 방법을 학습합니다.
 search.appverid: MET150
 ms.date: 04/06/2021
-ms.openlocfilehash: 41d11c6c67d35766e61106bd2beefd69462a42ff
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 28d05e0e3b1d1e8692672bf741a612ebee02e39f
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60179682"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753496"
 ---
 # <a name="manage-auto-claim-policies"></a>자동 클레임 정책 관리
 
@@ -131,8 +131,7 @@ ms.locfileid: "60179682"
 
 ## <a name="change-the-assigning-apps-and-services"></a>할당 앱 및 서비스 변경
 
-각 제품에는 앱 및 서비스 모음이 연결되어 있습니다.
-자동 클레임 정책의 각 제품에 대해 사용자에게 해당 제품에 대한 라이선스가 자동으로 할당될 때 포함할 앱 및 서비스를 지정할 수 있습니다.
+각 제품에는 앱 및 서비스 모음이 연결되어 있습니다. 자동 클레임 정책의 각 제품에 대해 사용자에게 해당 제품에 대한 라이선스가 자동으로 할당될 때 포함할 앱 및 서비스를 지정할 수 있습니다.
 
 1. 관리 센터에서 청구 라이선스  페이지로 이동한 다음 자동 클레임 정책 \>  <a href="https://go.microsoft.com/fwlink/p/?linkid=2134398" target="_blank">탭을</a> 선택합니다.
 2. 편집할 정책을 선택합니다.

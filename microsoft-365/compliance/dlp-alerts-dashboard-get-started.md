@@ -19,17 +19,18 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkCOMPLIANCE
 description: 데이터 손실 방지 정책에 대한 경고 정의 및 관리부터 시작하십시오.
-ms.openlocfilehash: 601442336cb6ba2a913f3c64eb8345030d0f8209
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 442929df84508d99ee9ae3d88bc2297e293ecc73
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60151101"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747345"
 ---
 # <a name="get-started-with-the-data-loss-prevention-alert-dashboard"></a>데이터 손실 방지 경고 대시보드 시작
 
-DLP(데이터 손실 방지) 정책은 중요한 항목의 의도하지 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. DLP 정책 위반에 대한 [경고,](https://compliance.microsoft.com/) 이벤트 및 관련 메타데이터를 보기 위해 Microsoft 365 규정 준수 센터 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) 경고 관리 대시보드를 사용하는 방법을 볼 수 있습니다.
+DLP(데이터 손실 방지) 정책은 중요한 항목의 의도하지 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. DLP 정책 위반에 대한 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">경고,</a> 이벤트 및 관련 메타데이터를 보기 위해 Microsoft 365 규정 준수 센터 [DLP](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) 경고 관리 대시보드를 사용하는 방법을 볼 수 있습니다.
 
 DLP 경고를 새로 사용하는 경우 데이터 손실 방지 경고에 대한 자세한 정보 대시보드를 [검토해야 합니다.](dlp-alerts-dashboard-learn.md)
 
@@ -53,7 +54,7 @@ Teams DLP를 사용할 수 있는 끝점 [DLP를](endpoint-dlp-learn-about.md) �
 - Office 365 (E5)
 - E5(고급 규정 준수) 추가 기능
 - Microsoft 365 E5/A5 Information Protection 및 거버넌스
-- 마이크로소프트 365 E5/A5 규정 준수
+- Microsoft 365 E5/A5 규정 준수
 
 ### <a name="licensing-for-alert-configuration-options"></a>경고 구성 옵션에 대한 라이선싱
 
@@ -115,7 +116,7 @@ DLP 정책에서 경고를 구성하는 방법에 대한 자세한 내용은 데
 
 DLP 경고 관리 대시보드에서 작업하는 경우:
 
-1. 에서 [Microsoft 365 규정 준수 센터](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>데이터 손실 **방지로 이동하십시오.**
 2. 경고 **탭을 선택하여** DLP 경고 대시보드를 볼 수 있습니다.
 3. 경고를 선택하여 세부 정보를 봐야 합니다.
 

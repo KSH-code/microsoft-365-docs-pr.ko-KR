@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6d5974f1a6fca1a56438317b58d36193cb08a7fc
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 47840e7de14f48a4ae6fee5c134d432accb27e4c
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60662625"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754486"
 ---
 # <a name="investigate-insider-risk-management-activities"></a>내부자 위험 관리 활동 조사
 
@@ -103,7 +103,7 @@ ms.locfileid: "60662625"
 
 내부자 위험 경고를 해지하기 위해 다음 단계를 완료합니다.
 
-1. In the [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com), go to **Insider risk management** and select the **Alerts** tab.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>, go to **Insider risk management** and select the **Alerts** tab.
 2. 경고 **대시보드에서** 경고(또는 경고)를 선택하고  검토 상태를 검토해야 합니다.를 선택합니다.
 3. 경고 명령 표시줄에서 경고 **해지 를 선택합니다.**
 4. 알림 **보내기** 세부 정보 창에서 선택한 경고와 연결된 사용자 및 정책 세부 정보를 검토할 수 있습니다.
@@ -113,7 +113,7 @@ ms.locfileid: "60662625"
 
 내부자 위험 경고를 평가하기 위해 다음 단계를 완료합니다.
 
-1. In the [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com), go to **Insider risk management** and select the **Alerts** tab.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>, go to **Insider risk management** and select the **Alerts** tab.
 2. 경고 **대시보드에서** Triage를 원하는 경고를 선택합니다.
 3. 경고 세부 **정보** 페이지에서 경고에 대한 정보를 검토할 수 있으며 경고를 확인하고 새 사례를 만들거나, 경고를 확인하고 기존 사례에 추가하거나, 경고를 해지할 수 있습니다. 이 페이지에는 경고의 현재 상태와 높음, 보통 또는 낮음으로 나열된 경고 위험 심각도 수준도 포함됩니다. 심각도 수준은 경고가 세분화되지 않은 경우 시간이 지날 때 증가하거나 감소할 수 있습니다.
 
@@ -153,7 +153,7 @@ ms.locfileid: "60662625"
 
 활동 **탐색기를 사용하려면** 다음 단계를 완료합니다.
 
-1. 사용자 Microsoft 365 규정 준수 센터 내부자 위험 관리로 **이동하여** **경고 탭을** 선택합니다.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>, go to **Insider risk management** and select the **Alerts** tab.
 2. 경고 **대시보드에서** Triage를 원하는 경고를 선택합니다.
 3. 경고 **세부 정보 창에서** 확장된 **보기 열기 를 선택합니다.**
 4. 선택한 경고에 대한 페이지에서 활동 탐색기 **탭을** 선택합니다.
@@ -171,7 +171,7 @@ ms.locfileid: "60662625"
 
 경고를 검토하고 심사할 때 새 사례를 만들어 위험 활동을 추가로 조사할 수 있습니다. 경고에 대한 사례를 만들 수 있는 단계는 다음과 같습니다.
 
-1. In the [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com), go to **Insider risk management** and select the **Alerts** tab.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>, go to **Insider risk management** and select the **Alerts** tab.
 2. 경고 **대시보드에서** 확인할 경고를 선택하고 새 사례를 생성합니다.
 3. Alerts **details(알림** 세부 정보) 창에서 Actions Confirm alerts **(경고** 확인) &  >  **선택합니다.**
 4. 경고 **확인** 및 내부자 위험 사례 만들기 대화 상자에서 사례 이름을 입력하고 참가자로 추가할 사용자를 선택하고 해당하는 설명을 추가합니다. 설명은 사례 메모로 사례에 자동으로 추가됩니다.

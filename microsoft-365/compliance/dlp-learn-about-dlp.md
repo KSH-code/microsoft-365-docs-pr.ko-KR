@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 데이터 손실 방지 정책 및 도구를 사용하여 Microsoft 365 보호하는 방법을 알아보고 DLP 수명 주기를 둘러보는 방법을 알아보고 있습니다.
-ms.openlocfilehash: 690791369f40c4c73e837ce872428978632881f3
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 79029444f19db9754d4ebddf83e370b5cdac7da1
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60197644"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747693"
 ---
 # <a name="learn-about-data-loss-prevention"></a>데이터 손실 방지에 대해 알아보기
 
@@ -89,7 +89,7 @@ DLP 정책은 전자 메일을 통해 중요한 정보를 부적절하게 공유
 - SharePoint Online 사이트
 - OneDrive 계정
 - Teams 채팅 및 채널 메시지
-- Microsoft Cloud App Security
+- Microsoft 클라우드 앱 보안
 - Windows 10 장치
 - 사내 리포지토리
 
@@ -121,7 +121,10 @@ DLP 정책은 전자 메일을 통해 중요한 정보를 부적절하게 공유
 
 #### <a name="enable-the-control-and-tune-your-policies"></a>제어를 사용하도록 설정하고 정책 조정
 
-정책이 모든 목표를 충족하면 켜야 합니다. 정책 응용 프로그램의 결과를 계속 모니터링하고 필요한 경우 조정합니다. 일반적으로 정책은 켜진 후 1시간 정도 적용됩니다.
+정책이 모든 목표를 충족하면 켜야 합니다. 정책 응용 프로그램의 결과를 계속 모니터링하고 필요한 경우 조정합니다. 
+
+> [!NOTE]
+> 일반적으로 정책은 켜진 후 1시간 정도 적용됩니다.
 
 <!--See, LINK TO topic for SLAs for location specific  details-->
 

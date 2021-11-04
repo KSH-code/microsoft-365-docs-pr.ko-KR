@@ -1,5 +1,5 @@
 ---
-title: ServiceNow 기본 인증과의 지원 통합 구성
+title: ServiceNow와의 지원 통합 구성 - 기본 인증
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -17,14 +17,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - MET150
 description: ServiceNow에 대한 범위가 지정한 인증된 응용 프로그램 설치 및 구성 가이드입니다.
-ms.openlocfilehash: 4aefd0afa21b3fbb80aa318fbac7b30cf374d924
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: bd19e5fd72e2b21c7ec08e00497444475701817c
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60701336"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754256"
 ---
-# <a name="configure-support-integration-with-servicenow-basic-authentication"></a>ServiceNow 기본 인증과의 지원 통합 구성
+# <a name="configure-support-integration-with-servicenow---basic-authentication"></a>ServiceNow와의 지원 통합 구성 - 기본 인증
 
 ## <a name="prerequisites-basic-authentication"></a>Prerequisites(기본 인증)
 

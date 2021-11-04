@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: medium
 description: SAP SuccessFactors를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
-ms.openlocfilehash: 8e5c8c920934883dec9cd020fbb97a87e546c38c
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: fafa0d8b610c3964617015ba3d4d1b9771c9e850
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60703038"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747272"
 ---
 # <a name="configure-sap-successfactors-as-a-content-source-for-microsoft-viva-learning"></a>SAP SuccessFactors를 콘텐츠 원본으로 Microsoft Viva Learning
 
@@ -56,7 +56,7 @@ ms.locfileid: "60703038"
     - enabled는 "false" 또는 "true"일 수 있습니다. 파트너 추출을 사용하도록 설정하려면 이 설정을 "true"로 설정하세요.
         - partners1.enabled=
     
-    <!--![Image of the PARTNER_EXTRACT configuration settings filled in.](../media/learning/sap-1.png)-->
+    [![구성 PARTNER_EXTRACT 이미지입니다. ](../media/learning/sf-focus.png) ](../media/learning/sf-2.png#lightbox)
 
 SuccessFactors 포털에서 이러한 단계를 완료한 후 2단계에서 설정을 완료해야 Microsoft 365 관리 센터.
 
@@ -90,6 +90,10 @@ SuccessFactors 포털에서 이러한 단계를 완료한 후 2단계에서 설�
     **PGP 개인** 키 암호: IT 관리자 또는 PGP 키를 제공하는 팀에서 이 값을 제공해야 합니다.
 
     **회사 ID:** SuccessFactors 포털에 로그인합니다. 프로필 아이콘을 선택한 다음 버전 **표시를 설정.** 여기에서 회사 ID를 볼 수 있습니다.
+
+    ![버전 표시가 선택된 프로필 설정 이미지입니다.](../media/learning/sf-3.png)
+        
+    ![버전 설정 창의 이미지입니다.](../media/learning/sf-1.png)
 
 4. **저장을** 선택하여 에지에서 SuccessFactors 콘텐츠를 활성화합니다Microsoft Viva Learning. Viva 2013에서 콘텐츠를 사용할 수 Learning.
 
