@@ -13,13 +13,14 @@ ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 description: 관리자는 데이터 커넥터를 설정하여 조직의 물리적 배지 시스템에서 데이터 원본으로 데이터를 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책에서 이 데이터를 사용하여 조직에 대한 내부 위협을 나타낼 수 있는 특정 사용자의 실제 건물 액세스를 검색할 수 있습니다.
-ms.openlocfilehash: cb568836c0f763682cbad5524b41d19b034d02dc
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 80e92f758f12c506e89ceea48ea6facfa9c01c74
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756166"
+ms.locfileid: "60786881"
 ---
 # <a name="set-up-a-connector-to-import-physical-badging-data-preview"></a>물리적 배지 데이터를 가져오는 커넥터 설정(미리 보기)
 

@@ -19,12 +19,12 @@ ms.custom: migrationguides
 description: 타사 보호 서비스 또는 장치에서 Microsoft Defender로 마이그레이션하기 위한 사전 Office 365 단계입니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c079fbe808b59ef95663ae8a5af6b3913db49eb9
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: f6785e96829256ffe0763eb0f3e84059973d6379
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60779127"
+ms.locfileid: "60785801"
 ---
 # <a name="migrate-to-microsoft-defender-for-office-365---phase-1-prepare"></a>마이그레이션을 위해 Microsoft Defender로 Office 365 - 1단계: 준비
 
@@ -118,7 +118,7 @@ ms.locfileid: "60779127"
 
   오늘날에는 Microsoft 365 원본에 따라 일부 대량 메일(예: 뉴스레터)을 안전한 것으로 고려합니다. 이러한 "안전한" 원본의 메일은 현재 대량으로 표시되지 않습니다(대량 불만 수준 또는 BCL은 0 또는 1이기 때문에 이러한 원본의 메일을 전역적으로 차단하기가 어렵습니다). 대부분의 사용자에 대해 해결 방법은 이러한 대량 메시지의 구독을 개별적으로 취소하거나 보낸 Outlook 차단하는 것입니다. 그러나 일부 사용자는 대량 메시지 자체의 차단 또는 수신을 원하지 않습니다.
 
-  대량 전자 메일을 필터링하는 메일 흐름 규칙은 VIP 사용자가 이를 직접 관리하지 않을 때 유용할 수 있습니다. 자세한 내용은 메일 흐름 규칙을 사용하여 대량 전자 [메일 필터링을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-filter-bulk-mail.md)
+  대량 전자 메일을 필터링하는 메일 흐름 규칙은 VIP 사용자가 이를 직접 관리하지 않을 때 유용할 수 있습니다. 자세한 내용은 메일 흐름 규칙을 사용하여 대량 전자 [메일 필터링을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-filter-bulk-mail)
 
 ## <a name="identify-and-designate-priority-accounts"></a>우선 순위 계정 식별 및 지정
 

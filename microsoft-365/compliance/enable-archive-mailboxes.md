@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: 준수 센터를 사용하여 조직의 메시지 보존, eDiscovery 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: c62d1d1478b62ac3ba66ccc0fc7fb9d5fc6101b3
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7a409dd83d33e1b18ccbb11613b0a5162e0ff4d0
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207334"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756154"
 ---
 # <a name="enable-archive-mailboxes-in-the-compliance-center"></a>준수 센터에서 보관 사서함 사용
 
@@ -40,7 +40,7 @@ Microsoft 365(*내부 보관* 이라고도 함)의 보관은 사용자에게 추
 
 ## <a name="enable-an-archive-mailbox"></a>보관 사서함 사용
 
-1. <https://compliance.microsoft.com>으로 이동하여 로그인합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>로 이동하고 로그인합니다.
 
 2. Microsoft 365 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** 를 클릭하고 **보관** 탭을 클릭합니다.
 
@@ -72,7 +72,7 @@ Microsoft 365 규정 준수 센터의 **보관** 페이지에서 사용자의 �
 
 보관 사서함을 사용하지 않으려면:
 
-1. <https://compliance.microsoft.com>으로 이동하여 로그인합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>로 이동하고 로그인합니다.
 
 2. Microsoft 365 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** 를 클릭하고 **보관** 탭을 클릭합니다.
 

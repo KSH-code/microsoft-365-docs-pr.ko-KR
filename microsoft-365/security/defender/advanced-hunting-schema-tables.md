@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c0f1a476963a3eed3e1759743f87b1bce2233ffc
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: cd087ef92a261904ce43951f2a29bb64639405ac
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60667051"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786037"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>고급 헌팅 스키마 이해
 
@@ -48,7 +48,7 @@ ms.locfileid: "60667051"
 ### <a name="access-the-schema-reference"></a>Schema 참조 액세스
 스마마 참조에 빠르게 액세스하려면  해당 Schema 표현에서 테이블 이름 옆에 있는 참조 보기 작업을 선택합니다. 또한 **Schema 참조를 선택하여** 테이블을 검색할 수도 있습니다.
 
-![포털 내 Schema 참조에 액세스하는 방법을 보여주는 이미지입니다.](../../media/mtp-ah/ah-reference.png)
+![포털 내 Schema 참조에 액세스하는 방법을 보여주는 이미지입니다.](../../media/understand-schema-1.png)
 
 ## <a name="learn-the-schema-tables"></a>Schema 테이블에 대해 자세히 알아보기
 다음 참조는 스키마에서 모든 표를 나열합니다. 각 표 이름은 해당 표의 열 이름을 설명하는 페이지에 연결됩니다. 표 및 열 이름은 고급 헌팅 화면의 Schema 표현의 일부로 보안 센터에도 나열됩니다.

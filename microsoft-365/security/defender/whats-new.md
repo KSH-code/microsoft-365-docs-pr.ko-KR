@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 930d9fc489e449effcb61c3224f5695ec835a1a1
-ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
+ms.openlocfilehash: a1937fd24c8025aa3e3d7afb16fbf050b1155fb3
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60724706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786617"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -47,10 +47,12 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 - [새로운 Microsoft Cloud App Security](/cloud-app-security/release-notes)
 
 ## <a name="november-2021"></a>2021년 11월
-- (미리 보기) 클라우드 앱용 Defender에 대한 응용 프로그램 거버넌스 추가 기능 기능은 이제 클라우드 앱에서 사용할 Microsoft 365 Defender. 앱 거버넌스는 Microsoft 앱 API를 통해 Microsoft 365 액세스하는 OAuth 사용 앱을 위해 설계된 보안 Graph 관리 기능을 제공합니다. 애플리케이션 거버넌스는 실행 가능한 인사이트와 자동화된 정책 경고 및 작업을 통해 이러한 애플리케이션과 사용자가 Microsoft 365에 저장된 중요 데이터에 액세스, 사용 및 공유하는 방법에 대한 완벽한 가시성, 문제 해결 및 거버넌스를 제공합니다. [응용 프로그램 거버넌스에 대해 자세히 알아보시다.](/cloud-app-security/app-governance-manage-app-governance)
 
+- (미리 보기) 클라우드 앱용 Defender에 대한 응용 프로그램 거버넌스 추가 기능 기능은 이제 클라우드 앱에서 사용할 Microsoft 365 Defender. 앱 거버넌스는 Microsoft 앱 API를 통해 Microsoft 365 액세스하는 OAuth 사용 앱을 위해 설계된 보안 Graph 관리 기능을 제공합니다. 애플리케이션 거버넌스는 실행 가능한 인사이트와 자동화된 정책 경고 및 작업을 통해 이러한 애플리케이션과 사용자가 Microsoft 365에 저장된 중요 데이터에 액세스, 사용 및 공유하는 방법에 대한 완벽한 가시성, 문제 해결 및 거버넌스를 제공합니다. [응용 프로그램 거버넌스에 대해 자세히 알아보시다.](/cloud-app-security/app-governance-manage-app-governance)
+- (미리 보기) 이제 [고급](advanced-hunting-overview.md) 헌팅 페이지에는 멀티탭 지원, 스마트 스크롤, 간소화된 스마마 탭, 쿼리에 대한 빠른 편집 옵션, 쿼리 리소스 사용 표시기 및 기타 개선된 기능을 통해 쿼리를 보다 원활하고 세부 조정하기 쉽게 만들 수 있습니다.
+- (미리 보기) 이제 인시던트 기능에 대한 링크를 사용하여 고급 헌팅 쿼리 결과의 이벤트 또는 레코드를 조사하는 새 인시던트 또는 기존 인시던트에 바로 포함할 수 있습니다. [](advanced-hunting-link-to-incident.md) 
 ## <a name="october-2021"></a>2021년 10월
-- (GA) 고급 헌팅에서는 [CloudAppEvents](advanced-hunting-cloudappevents-table.md) 테이블에 더 많은 열이 추가되었습니다. 이제 `AccountType` 쿼리에 `IsExternalUser` , `IsImpersonated` , , , `IPTags` , `IPCategory` `UserAgentTags` 를 추가할 수 있습니다. 
+- (GA) 고급 헌팅에서는 [CloudAppEvents](advanced-hunting-cloudappevents-table.md) 테이블에 더 많은 열이 추가되었습니다. 이제 `AccountType` 쿼리에 , `IsExternalUser` , , , 및 `IsImpersonated` `IPTags` `IPCategory` `UserAgentTags` 를 포함할 수 있습니다. 
 
 ## <a name="september-2021"></a>2021년 9월
 - (GA) Microsoft Defender for Office 365 이벤트 데이터는 Microsoft 365 Defender 스트리밍 API에서 사용할 수 있습니다. 스트리밍 API의 Supported Microsoft 365 Defender 이벤트 유형에서 이벤트 [유형의 가용성과 상태를](supported-event-types.md)확인할 수 있습니다.

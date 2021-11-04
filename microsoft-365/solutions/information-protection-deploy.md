@@ -15,14 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365solution-infoprotection
 - m365solution-overview
-ms.custom: ''
+ms.custom: admindeeplinkCOMPLIANCE
 description: 데이터 보호, Microsoft 365 전자 메일을 포함하여 GDPR 및 캘리포니아 소비자 개인 정보 보호법(CCPA)과 같은 데이터 개인 정보 보호 규정에 Microsoft Teams SharePoint 구성합니다.
-ms.openlocfilehash: 7517faa02ea74d5a9934e22595d61a34e99067a5
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 92314529cf6ca3ec318b181eb367bab81b9b81a0
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756590"
+ms.locfileid: "60786677"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>데이터 개인 정보 보호 규정에 대한 정보 보호를 Microsoft 365
 

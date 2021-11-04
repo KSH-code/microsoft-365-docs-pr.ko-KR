@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 6a7e03dfaf76e7af5dc256d0fdbf904e785346a9
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 1a2fd580a98fc7ac9db9d6592191eb4667ae757f
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60659247"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786701"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>고급 헌팅에 대한 전문 교육을 받을 수 있습니다.
 
@@ -50,6 +50,7 @@ ms.locfileid: "60659247"
 |--|--|--|--|
 | 에피소드 1  | 이 에피소드에서는 고급 헌팅 쿼리를 실행하는 다양한 모범 사례를 배우게 됩니다. 이 항목 중에는 쿼리를 최적화하고, 랜섬웨어에 고급 헌팅을 사용하며, JSON을 동적 유형으로 처리하고, 외부 데이터 연산자를 사용하는 방법도 있습니다. | [](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) YouTube(56:34) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.txt) |
 | 에피소드 2 | 이 에피소드에서는 받은 편지함 전달 규칙을 통해 의심스러우거나 비정상적인 로그온 위치 및 데이터 유출을 조사하고 이에 대응하는 방법을 배우게 됩니다. 클라우드 보안 CxE의 선임 프로그램 관리자인 Sebastien Molendijk는 고급 헌팅을 사용하여 데이터로 다단계 인시던트를 조사하는 Microsoft Cloud App Security 공유합니다. | [](https://www.youtube.com/watch?v=QaUxdtNfbd8) YouTube(57:07) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/MCAS%20-%20The%20Hunt.txt)
+| 에피소드 3 | 이 에피소드에서는 고급 헌팅에 대한 최신 개선된 기능, 외부 데이터 원본을 쿼리로 가져오는 방법 및 분할을 사용하여 큰 쿼리 결과를 더 작은 결과 집합으로 분할하여 API 제한에 도달하지 않도록 하는 방법을 다루게 됩니다. | [](https://www.youtube.com/watch?v=vd5lgIJKmYs) YouTube(40:59) | [텍스트 파일](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/l33tspeak%2011%20Oct%202021%20-%20externaldata%20and%20query%20partitioning.csl)
 
 
 ## <a name="how-to-use-the-csl-file"></a>CSL 파일을 사용하는 방법

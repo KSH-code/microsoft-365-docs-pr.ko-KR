@@ -15,13 +15,14 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkCOMPLIANCE
 description: Microsoft 지원 사례에 대한 eDiscovery 진단 정보를 수집하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 65a54a1d4567d536c19363ad0834e2cdd74078ab
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 5c62aead0e21411cc2c5befd023f29a7a2403e06
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754826"
+ms.locfileid: "60786353"
 ---
 # <a name="collect-ediscovery-diagnostic-information"></a>eDiscovery 진단 정보 수집
 
@@ -77,7 +78,7 @@ Get-ComplianceCase "<Core eDiscovery case name>"| %{$_|fl;"`t==Searches==";Get-C
 
 설정  사례의 Advanced eDiscovery 탭을 사용하면 사례에 대한 진단 정보를 빠르게 복사할 수 있습니다. 진단 정보는 클립보드에 저장되어 텍스트 파일에 붙여넣고 Microsoft 지원에 보낼 수 있습니다.
 
-1. eDiscovery Microsoft 365 규정 준수 센터 으로 이동한 다음 **eDiscovery** 고급 을  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2174006" target="_blank">**선택합니다.**</a>
+1. **eDiscovery** Microsoft 365 규정 준수 센터 를  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2174006" target="_blank">**선택합니다.**</a>
 
 2. 사례를 선택한 다음 설정 **클릭합니다.**
 

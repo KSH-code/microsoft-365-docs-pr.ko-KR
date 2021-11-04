@@ -15,14 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365solution-infoprotection
 - m365solution-scenario
-ms.custom: ''
+ms.custom: admindeeplinkCOMPLIANCE
 description: 준수 점수 및 준수 관리자를 사용하여 개인 데이터에 대한 보호 수준을 개선하는 방법을 학습합니다.
-ms.openlocfilehash: f42835304ca27fa1d30ff3c1e5143e87d2b95c75
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5a655d504551e42398cdabbcf7a3f651d788c0ad
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60180654"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786017"
 ---
 # <a name="use-compliance-manager-to-manage-improvement-actions"></a>준수 관리자를 사용하여 개선 작업 관리
 

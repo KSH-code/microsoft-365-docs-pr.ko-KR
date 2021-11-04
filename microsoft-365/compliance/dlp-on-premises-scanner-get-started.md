@@ -16,15 +16,16 @@ ms.collection:
 - M365-security-compliance
 - m365solution-mip
 - m365initiative-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 설정
-ms.openlocfilehash: 28453a3791677b1923a6d72dbf8d59d2620ea139
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: fabe83372822f401fdf8ddd1330bc974dc710fd2
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60158180"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60787133"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner"></a>데이터 손실 방지 온-프레미스 스캐너로 시작하기
 

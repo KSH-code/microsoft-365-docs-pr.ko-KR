@@ -15,12 +15,13 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 74a0a04b932d0d116616e0d72322e817b11b7b9c
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.custom: admindeeplinkCOMPLIANCE
+ms.openlocfilehash: f56ca8e534a9e925cb117d614002c611282ceb44
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757028"
+ms.locfileid: "60786977"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>내부자 위험 관리 설정 시작
 
@@ -257,7 +258,7 @@ Security & 규정 준수 경고에 대한 내부자 위험 관리 경고에 대�
 |:------------------|:----------------|
 | AlertType | 경고의 유형은 사용자 지정 *입니다.*  |
 | AlertId | 경고의 GUID입니다. 내부자 위험 관리 경고는 변경 가능합니다. 경고 상태가 변경될 때 동일한 AlertID를 사용하여 새 로그가 생성됩니다. 이 AlertID는 경고에 대한 업데이트를 상관 관계에 두는 데 사용할 수 있습니다. |
-| Category | 경고의 범주는 *InsiderRiskManagement입니다.* 이 범주를 사용하여 다른 보안 및 준수 경고와 이러한 경고를 & 수 있습니다. |
+| 범주 | 경고의 범주는 *InsiderRiskManagement입니다.* 이 범주를 사용하여 다른 보안 및 준수 경고와 이러한 경고를 & 수 있습니다. |
 | 설명 | 경고에 대한 기본 설명입니다. 값은 *새* 경고(경고가 생성될 때 기록) 및 *경고* 업데이트(경고 업데이트가 있는 경우 기록)입니다. AlertID를 사용하여 경고에 대한 업데이트의 상관 관계가 있습니다. |
 | 데이터 | 경고에 대한 데이터에는 고유한 사용자 ID, 사용자 계정 이름 및 사용자가 정책에 트리거된 날짜 및 시간(UTC)이 포함됩니다. |
 | 이름 | 경고를 생성한 내부자 위험 관리 정책의 정책 이름입니다. |

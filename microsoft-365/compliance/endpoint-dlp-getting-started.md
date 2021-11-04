@@ -18,13 +18,14 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
+ms.custom: admindeeplinkCOMPLIANCE
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: f6790e3c9af833c6e9e9103f68b91730c475cfb8
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 9a706350be231fa5af794cb2774e3d88fb89dc1b
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754860"
+ms.locfileid: "60786725"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 

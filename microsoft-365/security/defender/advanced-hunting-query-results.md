@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f78234da247835da0ad9c1ecbdaa9702a206f942
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e127f757b2aaa2865e8cb109699d76ed79f41cb6
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206688"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785516"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>고급 헌팅 쿼리 결과 사용
 
@@ -71,24 +71,9 @@ AlertInfo
 ```
 결과를 렌더링할 때 열 차트에는 각 심각도 값이 별도의 열로 표시됩니다.
 
-![열 차트로 표시되는 고급 헌팅 쿼리 결과의 이미지입니다. ](../../media/advanced-hunting-column-chart.jpg)
+![열 차트로 표시되는 고급 헌팅 쿼리 결과의 이미지입니다. ](../../media/advanced-hunting-column-chart-new.png)
  *열 차트로 표시되는* 심각도에 따라 경고에 대한 쿼리 결과
 
-#### <a name="alert-severity-by-operating-system"></a>운영 체제의 경고 심각도
-연산자를 사용하여 여러 필드의 차트 값에 대한 `summarize` 결과를 준비할 수도 있습니다. 예를 들어 운영 체제(OS)에 경고 심각도가 분산되어 있는 방법을 이해해야 할 수 있습니다. 
-
-아래 쿼리는 연산자를 사용하여 테이블에서 OS 정보를 끌어와서 및 열의 값을 계산하는 `join` `DeviceInfo` 데 `summarize` `OSPlatform` `Severity` 사용합니다.
-
-```kusto
-AlertInfo
-| join AlertEvidence on AlertId
-| join DeviceInfo on DeviceId
-| summarize Count = count() by OSPlatform, Severity 
-```
-이러한 결과는 누적 세로형 차트를 사용하여 가장 잘 시각화됩니다.
-
-![누적 차트로 표시되는 고급 헌팅 쿼리 결과의 이미지입니다. ](../../media/advanced-hunting-stacked-chart.jpg)
- *누적 차트로 표시되는 OS의* 경고 및 심각도에 대한 쿼리 결과
 
 #### <a name="phishing-emails-across-top-ten-sender-domains"></a>상위 10개 보낸 사람 도메인의 피싱 전자 메일
 유한하지 않은 값 목록을 다루는 경우 연산자를 사용하여 대부분의 인스턴스가 있는 값만 차트로 `Top` 만들 수 있습니다. 예를 들어 피싱 전자 메일이 가장 많은 상위 10개 보낸 사람 도메인을 얻은 경우 아래 쿼리를 사용합니다.
@@ -101,7 +86,7 @@ EmailEvents
 ```
 파이 차트 보기를 사용하여 최상위 도메인에 대한 배포를 효과적으로 보여 주면 됩니다.
 
-![고급 헌팅 쿼리 결과가 파이 차트로 표시되는 이미지입니다. ](../../media/advanced-hunting-pie-chart.jpg)
+![고급 헌팅 쿼리 결과가 파이 차트로 표시되는 이미지입니다. ](../../media/advanced-hunting-pie-chart-new.png)
  상위 보낸 사람 도메인에 걸쳐 피싱 전자 메일 *배포를 보여주는 파이 차트*
 
 #### <a name="file-activities-over-time"></a>시간의에 대한 파일 활동
@@ -115,7 +100,7 @@ CloudAppEvents
 ```
 아래 라인 차트는 관련 활동이 더 많은 기간을 명확하게 `invoice.doc` 강조합니다. 
 
-![고급 헌팅 쿼리 결과가 라인 차트로 표시되는 이미지입니다. ](../../media/advanced-hunting-line-chart.jpg)
+![고급 헌팅 쿼리 결과가 라인 차트로 표시되는 이미지입니다. ](../../media/line-chart-a.png)
  시간의 지난 파일 관련 이벤트 *수를 보여 주는* 라인 차트
 
 
@@ -129,30 +114,22 @@ CloudAppEvents
 쿼리 결과에서 레코드를 빠르게 검사하려면 해당 행을 선택하여 레코드 검사 **패널을 여는 방법을** 선택합니다. 패널은 선택한 레코드에 따라 다음 정보를 제공합니다.
 
 - **자산** - 레코드에 있는 주요 자산(사서함, 장치 및 사용자)에 대한 요약된 보기, 위험 및 노출 수준과 같은 사용 가능한 정보로 향상
-- **프로세스 트리** - 프로세스 정보가 있는 레코드에 대해 생성되어 사용 가능한 상황 정보를 사용하여 강화됩니다. 일반적으로 더 많은 열을 반환하는 쿼리의 경우 프로세스 트리가 더 다양할 수 있습니다.
 - **모든 세부 정보** - 레코드의 열에 있는 모든 값  
 
-![레코드를 검사하기 위한 패널이 있는 선택한 레코드의 이미지입니다.](../../media/mtp-ah/inspect-record.png)
+![레코드를 검사하기 위한 패널이 있는 선택한 레코드의 이미지입니다.](../../media/results-inspect-record.png)
 
 컴퓨터, 파일, 사용자, IP 주소 또는 URL과 같은 쿼리 결과의 특정 엔터티에 대한 자세한 내용을 확인하려면 엔터티 식별자를 선택하여 해당 엔터티에 대한 자세한 프로필 페이지를 열 수 있습니다.
 
 ## <a name="tweak-your-queries-from-the-results"></a>결과에서 쿼리 조정
-결과 집합의 값을 마우스 오른쪽 단추로 클릭하면 쿼리가 빠르게 향상됩니다. 옵션을 사용하여 다음을 수행할 수 있습니다.
+레코드 검사 패널에서 열 오른쪽에 있는 세 점을 **선택합니다.** 옵션을 사용하여 다음을 수행할 수 있습니다.
 
 - 선택한 값을 명시적으로 찾습니다 (`==`)
 - 쿼리에서 선택한 값을 제외합니다 (`!=`)
 - 쿼리에 값을 추가하는 고급 연산자를 사용합니다 (예: `contains`, `starts with` 및 `ends with`) 
 
-![고급 헌팅 결과 집합의 이미지입니다.](../../media/advanced-hunting-results-filter.png)
+![고급 헌팅 결과 집합의 이미지입니다.](../../media/work-with-query-tweak-query.png)
 
-## <a name="filter-the-query-results"></a>쿼리 결과 필터링
-오른쪽에 표시되는 필터는 결과 집합에 대한 요약을 제공합니다. 각 열에는 해당 열에 대해 발견된 고유 값과 인스턴스 수를 나열하는 자체적인 섹션이 있습니다.
 
-포함하거나 제외하려는 값에서 또는 단추를 선택한 다음 쿼리 실행 을 선택하여 쿼리를 `+` `-` **구체화합니다.**
-
-![고급 헌팅 필터의 이미지입니다.](../../media/advanced-hunting-filter.png)
-
-필터를 적용하여 쿼리를 수정한 다음 쿼리를 실행하면 그에 따라 결과가 업데이트됩니다.
 
 >[!NOTE]
 >이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [더 많은 Microsoft 365 Defender](m365d-enable.md) 사용하여 위협을 헌팅할 수 있습니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 Defender [Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 쿼리 마이그레이션의 단계를 수행하여 고급 헌팅 워크플로를 끝점으로 이동할 수 있습니다.

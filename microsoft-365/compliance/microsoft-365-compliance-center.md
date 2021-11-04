@@ -11,16 +11,17 @@ ms.topic: article
 ms.localizationpriority: medium
 description: 포함된 내용, Microsoft 365 규정 준수 센터 방법 및 다음 단계를 포함하여 앱에 대해 자세히 알아보십시오.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 0fddf790eb37ce7d9c616f17a7f3830f63b50056
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.custom: admindeeplinkCOMPLIANCE
+ms.openlocfilehash: 9ca790f596a8baf7741a2b5213e738610026e99f
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203090"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785583"
 ---
 # <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 
-조직의 규정 준수에 관심이 있는 경우 조직의 규정 준수 [Microsoft 365 규정 준수 센터.](https://compliance.microsoft.com) Microsoft 365 규정 준수 센터에서는 조직의 규정 준수 요구 사항을 관리하는 데 필요한 데이터와 도구에 쉽게 액세스할 수 있습니다.
+조직의 규정 준수에 관심이 있는 경우 조직의 규정 준수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a> Microsoft 365 규정 준수 센터에서는 조직의 규정 준수 요구 사항을 관리하는 데 필요한 데이터와 도구에 쉽게 액세스할 수 있습니다.
 
 이 문서를 읽고 Microsoft 365 규정 준수 센터, 질문과 대답 및 [](#how-do-i-get-the-compliance-center)다음 단계에 [](#frequently-asked-questions)대해 [자세히 알고자 합니다.](#next-steps)
 
@@ -74,11 +75,11 @@ Microsoft 365 규정 준수 센터 처음 방문하면 홈 페이지의 카드 �
 - 새 응용 Microsoft 365 규정 준수 센터 없는 경우 곧 사용할 수 있습니다. 이 Microsoft 365 규정 준수 센터 SKU 고객은 현재 Microsoft 365 사용할 수 있습니다.
 - 전역 Microsoft 365 규정 준수 센터, 규정 준수 관리자 또는 규정 준수 데이터 관리자로 이동하여 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **새 새 보기가 아직 Microsoft 365 규정 준수 센터?**
 
-먼저 적절한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 에서 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다. 아직 새로운 규정 준수 센터가 없는 경우 곧 이 센터를 사용하게 됩니다.
+먼저 적절한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터.</a> 아직 새로운 규정 준수 센터가 없는 경우 곧 이 센터를 사용하게 됩니다.
 
 ![추가 리소스.](../media/m365-compliance-center-more-resources.png)
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 보안 Microsoft 365 규정 준수 기능을 배포하고 개인 정보를 보호합니다.
-ms.openlocfilehash: f8111f1662a7669dde978d6d41f04fd4b6c50ea6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d605147b24c4f6ef3a12eedab2243bcaa4c6745b
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176346"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785933"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 보호 규정을 준수하는 정보 보호
 
@@ -134,7 +134,7 @@ Microsoft Information Protection 프레임워크의 민감도 레이블을 사�
 
 ### <a name="create-and-deploy-sensitivity-labels-for-sites-groups-and-teams"></a>사이트, 그룹 및 팀에 대한 민감도 레이블 만들기 및 배포
 
-사용자 [지정에서](../compliance/sensitivity-labels-teams-groups-sites.md) 민감도 레이블을 Microsoft 365 규정 준수 센터 다음 컨테이너에 적용할 수 있습니다.
+에서 [민감도](../compliance/sensitivity-labels-teams-groups-sites.md) <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">레이블을</a>만들 때 Microsoft 365 규정 준수 센터 컨테이너에 적용할 수 있습니다.
 
 - Microsoft Teams 사이트
 - Microsoft 365 그룹(이전 Office 365 그룹)
@@ -158,7 +158,7 @@ Microsoft Information Protection 프레임워크의 민감도 레이블을 사�
 2. **각 레이블이 수행할 수 있는 작업을 정의합니다.** 각 레이블과 연결할 보호 설정을 구성합니다. 예를 들어 민감도가 낮은 콘텐츠(예: "일반" 레이블)에 머리마크나 발자국만 적용하고 민감도가 높은 콘텐츠(예: "기밀" 레이블)에는 워터마크를 적용하고 암호화를 사용하도록 설정해야 할 수 있습니다.
 3. **레이블을 게시합니다.** 민감도 레이블이 구성되 면 레이블 정책을 사용하 여 해당 레이블을 게시합니다. 어떤 사용자와 그룹에 레이블과 정책 설정을 사용할지 결정합니다. 단일 레이블을 다시 사용할 수 있습니다. 한 번 정의한 다음 여러 사용자에게 할당된 여러 레이블 정책에 포함할 수 있습니다.
 
-앱에서 민감도 레이블을 게시하면 Microsoft 365 규정 준수 센터 만들거나 편집할 [](../compliance/sensitivity-labels-office-apps.md) 때 콘텐츠를 분류하고 보호할 수 있도록 Office 앱에 표시됩니다.
+앱의 민감도 레이블을 Microsoft 365 규정 준수 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">사용자가</a>만들거나 편집할 때 콘텐츠를 분류하고 [보호할](../compliance/sensitivity-labels-office-apps.md) 수 있도록 Office 앱에 표시됩니다.
 
 ![민감도 레이블 배포 흐름의 Microsoft 365.](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-label-flow.png)
 
@@ -208,7 +208,7 @@ DLP를 사용하면 다음을 할 수 있습니다.
 
 ### <a name="supported-workloads-for-dlp"></a>DLP에 지원되는 워크로드
 
-Microsoft 365 규정 준수 센터 DLP 정책을 사용하면 Exchange Online, SharePoint, OneDrive, OneDrive 등 Microsoft 365 여러 위치에서 중요한 항목을 식별, 모니터링 및 자동으로 보호할 수 Microsoft Teams.
+Microsoft 365 규정 준수 센터 DLP 정책을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank"></a>사용하여 Microsoft 365, SharePoint Exchange Online, OneDrive 및 Microsoft 365의 여러 위치에서 중요한 항목을 식별, 모니터링 및 자동으로 보호할 수 Microsoft Teams.
 
 예를 들어 모든 OneDrive 사이트에 저장된 신용 카드 번호가 포함된 문서를 식별하거나 특정 OneDrive 사이트만 모니터링할 수 있습니다.
 

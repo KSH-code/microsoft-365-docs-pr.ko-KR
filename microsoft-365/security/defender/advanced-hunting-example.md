@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0226be17f475250d5d50d363596bd115f27ce6cd
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e0e5a44811138604abeec4eb6f9b83668a6988ca
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191542"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60787093"
 ---
 # <a name="advanced-hunting-example-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -73,7 +73,7 @@ EmailPostDeliveryEvents
 LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, LogonType
 ```
 
-:::image type="content" source="../../media/converge-13-advanced-hunt-an-email-zap-new.png" alt-text="쿼리 패널 맨 위에 선택된 쿼리가 있는 고급 헌팅 페이지(헌팅 아래)를 표시하고 Kusto 쿼리를 실행하여 지난 7일 동안의 ZAP 작업을 캡처합니다.":::
+:::image type="content" source="../../media/ah-query-example-new.png" alt-text="쿼리 패널 맨 위에 선택된 쿼리가 있는 고급 헌팅 페이지(헌팅 아래)를 표시하고 Kusto 쿼리를 실행하여 지난 7일 동안의 ZAP 작업을 캡처합니다.":::
 
 이 쿼리의 데이터는 쿼리 자체 아래에 있는 결과 패널에 나타납니다. 결과에는 사용자 지정 가능한 결과 집합의 'DeviceName', 'AccountDisplayName', 'ZapTime' 같은 정보가 포함됩니다. 레코드에 대한 결과를 내보낼 수도 있습니다. 쿼리가 다시 필요하면 **저장** > **다른 이름으로 저장** 을 선택하고 쿼리 목록, 공유 또는 커뮤니티 쿼리에 쿼리를 추가합니다.
 

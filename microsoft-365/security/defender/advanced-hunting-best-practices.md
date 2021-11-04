@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: fe21093b8849effaf50771f2260d8588a6e68e5d
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: a5d64106d801dfe554fe01290011e2d3e2b7767e
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756602"
+ms.locfileid: "60786086"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -36,7 +36,11 @@ ms.locfileid: "60756602"
 이러한 권장 사항을 적용하여 결과를 더 빠르게 얻고 복잡한 쿼리를 실행하는 동안 시간 제한을 방지합니다. 쿼리 성능을 개선하는 방법에 대한 자세한 내용은 [Kusto 쿼리 모범 사례](/azure/kusto/query/best-practices)를 참조하세요.
 
 ## <a name="understand-cpu-resource-quotas"></a>CPU 리소스 할당량 이해
-크기에 따라 각 테넌트는 고급 헌팅 쿼리를 실행하기 위해 할당된 CPU 리소스 집합에 액세스할 수 있습니다. 다양한 서비스 제한에 대한 자세한 내용은 고급 헌팅 할당량 및 사용 매개 변수 를 [참조하세요.](advanced-hunting-limits.md)
+크기에 따라 각 테넌트는 고급 헌팅 쿼리를 실행하기 위해 할당된 CPU 리소스 집합에 액세스할 수 있습니다. 다양한 사용 매개 변수에 대한 자세한 내용은 고급 헌팅 할당량 및 사용 매개 변수 를 [참조하세요.](advanced-hunting-limits.md)
+
+쿼리를 실행한 후 실행 시간 및 해당 리소스 사용량(낮음, 중간, 높음)을 볼 수 있습니다. 높음은 쿼리를 실행하는 데 더 많은 리소스가 걸려 결과를 더 효율적으로 반환하도록 개선될 수 있다는 것입니다.
+
+![낮은 리소스 표시기를 보여 주는 이미지](../../media/resource-usage.png)
 
 여러 쿼리를 정기적으로 실행하는 고객은 사용을 추적하고 이 문서의 최적화 지침을 적용하여 할당량 또는 사용 매개 변수 초과로 인한 중단을 최소화해야 합니다.
 

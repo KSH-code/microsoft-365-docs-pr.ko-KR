@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d8a3ea4d701c390c7c8505f42fa2440e38965584
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: f4e8cf234cf3fbf84567ecb47e7efc720ae4f873
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60643213"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60787121"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
@@ -58,9 +58,14 @@ ms.locfileid: "60643213"
 - [iOS의 끝점용 Defender의 새로운](ios-whatsnew.md)
 - [Linux의 끝점용 Defender의 새로운](linux-whatsnew.md)
 
+## <a name="november-2021"></a>2021년 11월
+- [보안 구성 관리](security-config-management.md) <br/> Microsoft Defender에 대한 보안 구성을 직접 받기 위해 Microsoft Endpoint Manager 또는 Microsoft Intune Microsoft Endpoint Configuration Manager 관리되지 않는 장치에 대한 Endpoint Manager.
+
+- 플랫폼 간 지원 향상.
+
 ## <a name="october-2021"></a>2021년 10월
 
-- [R2 및 Windows Server 2012 R2의 온보드 및 기능 패리티가 Windows Server 2016(미리 보기)](configure-server-endpoints.md)<br> 새로운 통합 솔루션 패키지를 사용하면 종속성 및 설치 단계를 제거하여 서버를 보다 쉽게 온보드할 수 있습니다. 또한 이 통합 솔루션 패키지에는 여러 가지 새로운 기능이 개선됩니다.
+- [R2 및 Windows Server 2012 R2의 온보드 및 기능 패리티가 Windows Server 2016(미리 보기)](configure-server-endpoints.md)<br/> 새로운 통합 솔루션 패키지를 사용하면 종속성 및 설치 단계를 제거하여 서버를 보다 쉽게 온보드할 수 있습니다. 또한 이 통합 솔루션 패키지에는 여러 가지 새로운 기능이 개선됩니다.
 
 - Windows 11 Microsoft Defender for Endpoint 및 Microsoft 365 Defender.
 

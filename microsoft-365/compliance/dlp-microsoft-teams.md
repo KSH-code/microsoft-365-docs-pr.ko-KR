@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams 채널은 DLP(데이터 손실 방지) 정책을 지원합니다.
-ms.openlocfilehash: a7db6b951a0522698b2f6b3879fc444825ed2ca1
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 66d451e55d5ee41abb0d43927e56295261bd4c8f
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753968"
+ms.locfileid: "60786065"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -49,7 +49,7 @@ Office 365 Microsoft 365 E3 온라인, OneDrive 및 SharePoint DLP 보호가 Exc
 라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참고하십시오.
 
 > [!IMPORTANT]
-> DLP는 채팅 또는 채널 스레드의 실제 메시지에만 적용됩니다. 짧은 메시지 미리 보기를 포함하며 사용자의 알림 설정에 따라 나타나는 활동  알림은 DLP에 Teams 없습니다. 미리 보기에 표시되는 메시지 부분에 있는 모든 중요한 정보는 DLP 정책이 적용되고 메시지 자체를 제거한 후에도 알림에 계속 표시됩니다.
+> DLP는 채팅 또는 채널 스레드의 실제 메시지에만 적용됩니다. 짧은 메시지 미리 보기를 포함하며 사용자의 알림 설정에 따라 나타나는  활동 알림은 DLP에 Teams 않습니다. 미리 보기에 표시되는 메시지 부분에 있는 모든 중요한 정보는 DLP 정책이 적용되고 메시지 자체를 제거한 후에도 알림에 계속 표시됩니다.
 
 ## <a name="scope-of-dlp-protection"></a>DLP 보호 범위
 
@@ -116,7 +116,7 @@ Exchange, [Outlook, 웹용 Outlook,](data-loss-prevention-policies.md#policy-eva
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 사용 권한을 [참조합니다.](data-loss-prevention-policies.md#permissions)
 
-1. 사이트로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 로그인합니다.
+1. 준수 센터()로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 로그인합니다.
 
 2. **데이터 손실 방지** > **정책** 을 선택합니다.
 
@@ -125,7 +125,7 @@ Exchange, [Outlook, 웹용 Outlook,](data-loss-prevention-policies.md#policy-eva
     > [!div class="mx-imgBorder"]
     > ![기존 정책의 위치입니다.](../media/dlp-teams-editexistingpolicy.png)
 
-4. 상태 **열에서** 채팅 및 채널 메시지 **에 Teams 을 으로 끄습니다.**
+4. 상태 **열에서** 채팅 및 채널 **메시지에 Teams 을 켜야 합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![채팅 및 Teams 대한 DLP입니다.](../media/dlp-teams-addteamschatschannels.png)
@@ -147,7 +147,7 @@ Exchange, [Outlook, 웹용 Outlook,](data-loss-prevention-policies.md#policy-eva
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 사용 권한을 [참조합니다.](data-loss-prevention-policies.md#permissions)
 
-1. 사이트로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 로그인합니다.
+1. 준수 센터()로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 로그인합니다.
 
 2. **데이터 손실 방지** > **정책** > **+ 정책 만들기** 를 선택합니다.
 
@@ -180,7 +180,7 @@ Exchange, [Outlook, 웹용 Outlook,](data-loss-prevention-policies.md#policy-eva
 
     설정 검토 또는 편집을 마치면 다음 을 **선택합니다.**
 
-8. 정책  설정 탭의 정책을 켜거나 먼저 테스트할지 여부에서 정책을 켜거나 먼저 테스트할지, 아니면 지금 해제된 후 다음 을 **선택합니다.** [](dlp-overview-plan-for-dlp.md#policy-deployment)
+8. 정책 설정 탭의 정책을 켜거나 먼저 테스트할지 여부 아래에서 정책을 켜거나, 먼저 [](dlp-overview-plan-for-dlp.md#policy-deployment)테스트할지, 아니면 지금 해제된 후 다음을 **선택합니다.** 
 
     > [!div class="mx-imgBorder"]
     > ![정책을 끄지 여부를 지정합니다.](../media/dlp-teams-policysettings-turnonnow.png)

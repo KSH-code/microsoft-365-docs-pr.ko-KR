@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-symantecmigrate
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 10/07/2021
+ms.date: 11/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 655886ad0d55c91a9dc961b3c9cdaf983eb472a2
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 8ff011277df4e4bfba16eef169f5f64ba5751b32
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756130"
+ms.locfileid: "60786713"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -51,7 +51,7 @@ ms.locfileid: "60756130"
 특정 버전의 Windows, Microsoft Defender 바이러스 백신 Microsoft 바이러스 백신/맬웨어 방지 솔루션이 설치될 때 제거되거나 비활성화된 것일 수 있습니다. 끝점을 Windows 끝점에 대한 Defender에 온보딩된 경우 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 솔루션과 함께 수동 모드에서 실행할 수 있습니다. 자세한 내용은 [Endpoint용 Defender를 통해 바이러스 백신 보호를 참조합니다.](microsoft-defender-antivirus-compatibility.md#antivirus-protection-without-defender-for-endpoint)
 
 Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 사용하도록 설정하기 위해 특정 단계를 Microsoft Defender 바이러스 백신. 다음 표에서는 클라이언트 및 서버에서 Windows 설명되어 있습니다.
-</br> </br>
+<br/> <br/>
 
 |끝점 유형|수행할 작업|
 |---|---|
@@ -136,7 +136,6 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 ## <a name="configure-defender-for-endpoint"></a>엔드포인트용 Defender 구성
 
 마이그레이션 프로세스의 이 단계에서는 끝점에 대한 Microsoft Defender 바이러스 백신 구성합니다. Intune을 사용하는 것이 좋습니다. 그러나 다음 표에 나열된 모든 메서드를 사용할 수 있습니다.
-
 <br/><br/>
 
 |메서드|수행할 작업|
@@ -157,17 +156,18 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 > 제외를 구성하는 데 도움이 필요한 경우 솔루션 공급자의 설명서를 참조하십시오.
 
 구성할 특정 제외는 끝점 또는 장치가 Windows 버전에 따라 달라지며 다음 표에 나열되어 있습니다.
+<br/><br/>
 
 |OS |제외 |
 |--|--|
-|Windows 11 <br/><br/>Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 이상(릴리스 정보 Windows 10 [참조)](/windows/release-health/release-information)<br/><br/>Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <br/><br/> Windows Server 2022<br/><br/>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019) <br/><br/>[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<br/><br/>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/><br/>[Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`<br/>  |
+|Windows 11 <br/><br/>Windows 10 버전 [1803](/windows/release-health/status-windows-10-1803) 이상(릴리스 정보 Windows 10 [참조)](/windows/release-health/release-information)<br/><br/>Windows 10 버전 1703 또는 [1709(KB4493441](https://support.microsoft.com/help/4493441) 설치) <br/><br/> Windows Server 2022<br/><br/>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019) <br/><br/>[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<br/><br/>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/><br/>[Windows 서버, 버전 1803](/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`<br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCM.exe`<br/>
+<br/>또한 최신 통합 솔루션을 Windows Server 2012 R2 및 2016에서 [KB5005292를](https://support.microsoft.com/en-us/topic/microsoft-defender-for-endpoint-update-for-edr-sensor-f8f69773-f17f-420f-91f4-a8e5167284ac)사용하여 Sense EDR 구성 요소를 업데이트한 후에 다음 제외가 필요합니다.<br/> |<br/>`C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Platform\*\MsSense.exe`<br/>`C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Platform\*\SenseCnCProxy.exe`<br/>`C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Platform\*\SenseIR.exe`<br/>`C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Platform\*\SenseCE.exe`<br/>`C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Platform\*\SenseSampleUploader.exe`<br/>`C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Platform\*\SenseCM.exe`<br/>
 |[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/><br/>[Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/><br/>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe`<br/>**참고:** 호스트 임시 파일 6\45 모니터링은 번호가 매기기된 하위 폴더가 다를 수 있습니다. <br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe`<br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe` |
 
 ## <a name="add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus"></a>기존 솔루션을 기존 솔루션의 제외 목록에 Microsoft Defender 바이러스 백신
 
 설치 프로세스의 이 단계에서 기존 솔루션을 제외 목록에 Microsoft Defender 바이러스 백신 합니다. 다음 표에 나열된 여러 가지 방법에서 제외를 Microsoft Defender 바이러스 백신 수 있습니다.
-
-<br><br/>
+<br/><br/>
 
 |메서드|수행할 작업|
 |---|---|
@@ -191,7 +191,6 @@ Endpoint용 Defender로 전환할 때 추가 기능을 다시 설치하거나 �
 ## <a name="set-up-your-device-groups-device-collections-and-organizational-units"></a>장치 그룹, 장치 모음 및 조직 구성 단위 설정
 
 장치 그룹, 장치 컬렉션 및 조직 구성 단위를 사용하면 보안 팀이 보안 정책을 효율적이고 효율적으로 관리하고 할당할 수 있습니다. 다음 표에서는 이러한 각 그룹과 이러한 그룹을 구성하는 방법에 대해 설명하고 있습니다. 조직에서 세 가지 컬렉션 유형을 모두 사용하지 않을 수 있습니다.
-
 <br/><br/>
 
 |컬렉션 유형|수행할 작업|

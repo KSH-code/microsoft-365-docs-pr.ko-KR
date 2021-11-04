@@ -11,12 +11,13 @@ ms.service: O365-seccomp
 ms.localizationpriority: medium
 description: 포함된 Microsoft 365, 솔루션 카탈로그를 다운로드하는 방법 및 다음 단계를 포함하여 솔루션 카탈로그에 대해 알아보세요.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a0b6d6ac32f9dfcc81a93deddc081dcb77acd973
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.custom: admindeeplinkCOMPLIANCE
+ms.openlocfilehash: 8a2daf2bf3dd8c3260be24a6b09761e5a6ea3e92
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60158205"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786053"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -78,7 +79,7 @@ ms.locfileid: "60158205"
 
 Microsoft 365 카탈로그를 방문하여 전역 관리자, 준수 관리자 또는 규정 준수 데이터 관리자로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다. 화면 **왼쪽의** 탐색 창에서 카탈로그를 선택하여 카탈로그 홈 페이지를 열 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **솔루션 카탈로그가 Microsoft 365 없는 이유는 무엇입니까?**
 

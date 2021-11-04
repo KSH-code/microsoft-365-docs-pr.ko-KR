@@ -22,12 +22,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a075b653e3eeae9287f4fdbf83ed9e5e2133df99
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e412852e7184a4f9b520ed777938836a44b62b5c
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208460"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786184"
 ---
 # <a name="try-microsoft-365-defender-incident-response-capabilities-in-a-pilot-environment"></a>파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 
@@ -186,7 +186,7 @@ ms.locfileid: "60208460"
       > [!NOTE]
       > 데이터 반환을 제한하는 필터링 옵션에 대한 다음 단계를 참조하세요.
 
-      ![고급 헌팅 쿼리 결과의 예입니다.](../../media/mtp/fig19.png)
+      ![고급 헌팅 쿼리 결과의 예입니다.](../../media/advanced-hunting-incident-response-try-1.png)
 
         > [!NOTE]
         > 고급 헌팅은 쿼리 결과를 테이블형 데이터로 표시됩니다. 차트와 같은 다른 형식의 데이터를 볼 수도 있습니다.
@@ -200,7 +200,7 @@ ms.locfileid: "60208460"
 
    1. 레코드를 검사할 수 있도록 쿼리에서 결과 행을 클릭합니다.
 
-      ![고급 헌팅 결과를 선택할 때 열 수 있는 조사 레코드 쪽 패널의 예입니다.](../../media/mtp/fig21.png)
+      ![고급 헌팅 결과를 선택할 때 열 수 있는 조사 레코드 쪽 패널의 예입니다.](../../media/advanced-hunting-incident-response-try-2.png)
 
 4. 이제 전자 메일을 볼 수 있는 것으로 확인되면 첨부 파일에 대한 필터를 추가합니다. 환경의 첨부 파일이 있는 모든 전자 메일에 집중합니다. 이 시뮬레이션에서는 사용자 환경에서 전송되는 전자 메일이 아니라 인바운드 전자 메일에 중점을 니다. 메시지를 찾기 위해 추가한 필터를 제거하고 "| 여기서 **AttachmentCount > 및** **EmailDirection**  ==  **"Inbound""**
 
@@ -258,7 +258,7 @@ ms.locfileid: "60208460"
 
 1. 쿼리 페이지에서 이동 헌팅 지침의 7단계에서 추가된 줄 7과 8을 제거하고 검색 규칙 **만들기를 클릭합니다.**
 
-   ![고급 헌팅 페이지에서 검색 규칙 만들기를 클릭할 수 있는 위치의 예](../../media/mtp/fig22.png)
+   ![고급 헌팅 페이지에서 검색 규칙 만들기를 클릭할 수 있는 위치의 예](../../media/advanced-hunting-incident-response-try-3.png)
 
    > [!NOTE]
    > 검색 규칙 **만들기를** 클릭하고 쿼리에 구문 오류가 있는 경우 검색 규칙이 저장되지 않습니다. 쿼리를 다시 확인하여 오류가 없는지 검사합니다.

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 32bd63e5b7a0546c6222fab72684ebd990541366
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6a573b68d03e7446fc63f4fbc34bee3d46da9c49
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176766"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786652"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>이동 헌트로 엔터티 또는 이벤트 정보를 빠르게 헌팅
 
@@ -42,16 +42,16 @@ ms.locfileid: "60176766"
 
 - [인시던트 페이지에서](investigate-incidents.md#summary)인시던트와 관련된 사용자, 장치 및 기타 여러 엔터티에 대한 세부 정보를 검토할 수 있습니다. 엔터티를 선택하면 해당 엔터티에 대해 수행할 수 있는 다양한 작업뿐만 아니라 추가 정보도 얻을 수 있습니다. 아래 예에서는 사서함에 대한 세부 정보와 사서함에 대한 자세한 정보를 헌팅할 수 있는 옵션을 표시하는 사서함이 선택되어 있습니다.
 
-    ![이동 헌트 옵션이 있는 사서함 세부 정보를 보여 주는 이미지입니다.](../../media/mtp-ah/go-hunt-email.png)
+    ![이동 헌트 옵션이 있는 사서함 세부 정보를 보여 주는 이미지입니다.](../../media/go-hunt-1-incident.png)
 
 - 인시던트 페이지에서 증거 탭의 엔터티 목록에 액세스할 수도 있습니다. 이러한 엔터티 중 하나를 선택하면 해당 엔터티에 대한 정보를 빠르게 찾을 수 있습니다.
 
-    ![증거 탭에서 이동 헌트 옵션이 있는 선택한 파일을 보여 주는 이미지입니다.](../../media/mtp-ah/go-hunt-evidence-file.png)
+    ![증거 탭에서 이동 헌트 옵션이 있는 선택한 파일을 보여 주는 이미지입니다.](../../media/go-hunt-2-entity.png)
 
 
 - 디바이스의 타임라인을 볼 때 타임라인에서 이벤트를 선택하여 해당 이벤트에 대한 추가 정보를 볼 수 있습니다. 이벤트를 선택하면 고급 헌팅에서 다른 관련 이벤트를 헌팅할 수 있습니다.
 
-    ![이동 헌트 옵션을 사용하여 이벤트 세부 정보를 보여 주는 이미지입니다.](../../media/mtp-ah/go-hunt-event.png)
+    ![이동 헌트 옵션을 사용하여 이벤트 세부 정보를 보여 주는 이미지입니다.](../../media/go-hunt-3-event.png)
 
 이동 **헌트 또는** 헌트와 관련된 이벤트에 대한 헌트를 **선택하면** 엔터티 또는 이벤트를 선택 여부에 따라 다른 쿼리가 전달됩니다.
 

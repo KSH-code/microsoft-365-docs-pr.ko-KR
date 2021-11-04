@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a267921468bfc72513a54b11d9ca58b539848ac8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 48bc7302f8f5e96f35eec70039ec437f602ada2d
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157713"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786422"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -192,7 +192,7 @@ DeviceEvents
 
 ### <a name="view-existing-rules"></a>기존 규칙 보기
 
-기존 사용자 지정 검색 규칙을 모두 보기 위해 사용자 지정 검색 **헌팅으로**  >  **이동합니다.** 페이지에는 다음 실행 정보가 있는 모든 규칙이 나열됩니다.
+기존 사용자 지정 검색 규칙을 모두 보기 위해 사용자 지정 검색 규칙 **헌팅으로**  >  **이동합니다.** 페이지에는 다음 실행 정보가 있는 모든 규칙이 나열됩니다.
 
 - **마지막 실행**- 쿼리 일치를 확인하고 경고를 생성하기 위해 규칙을 마지막으로 실행한 경우
 - **마지막 실행 상태**- 규칙이 성공적으로 실행된지 여부
@@ -201,9 +201,9 @@ DeviceEvents
 
 ### <a name="view-rule-details-modify-rule-and-run-rule"></a>규칙 세부 정보 보기, 규칙 수정 및 규칙 실행
 
-사용자 지정 검색 규칙에 대한 포괄적인 정보를 보기 위해 사용자 지정 검색 헌팅으로 이동한 다음 규칙 이름을  >   선택합니다. 그런 다음 실행 상태 및 범위 정보를 포함하여 규칙에 대한 일반 정보를 볼 수 있습니다. 이 페이지는 트리거된 경고 및 작업 목록도 제공합니다.
+사용자 지정 검색 규칙에 대한 포괄적인 정보를 보기 위해 사용자 지정 검색 규칙 **헌팅으로** 이동한 다음 규칙 이름을  >   선택합니다. 그런 다음 실행 상태 및 범위 정보를 포함하여 규칙에 대한 일반 정보를 볼 수 있습니다. 이 페이지는 트리거된 경고 및 작업 목록도 제공합니다.
 
-![사용자 지정 검색 규칙 세부 정보 페이지.](../../media/custom-detection-details.png)<br>
+![사용자 지정 검색 규칙 세부 정보 페이지.](../../media/custom-detect-rules-view.png)<br>
 *사용자 지정 검색 규칙 세부 정보*
 
 이 페이지에서 규칙에 대해 다음 작업을 수행할 수도 있습니다.
@@ -231,7 +231,7 @@ DeviceEvents
 >[!NOTE]
 >이 문서의 일부 열은 Microsoft Defender for Endpoint에서 사용할 수 없습니다. [더 많은 Microsoft 365 Defender](m365d-enable.md) 사용하여 위협을 헌팅할 수 있습니다. Endpoint용 Microsoft Defender에서 고급 헌팅 Microsoft 365 Defender [Microsoft Defender에서](advanced-hunting-migrate-from-mde.md)고급 헌팅 쿼리 마이그레이션의 단계를 수행하여 고급 헌팅 워크플로를 끝점으로 이동할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 - [사용자 지정 검색 개요](custom-detections-overview.md)
 - [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [고급 헌팅 쿼리 언어 알아보기](advanced-hunting-query-language.md)

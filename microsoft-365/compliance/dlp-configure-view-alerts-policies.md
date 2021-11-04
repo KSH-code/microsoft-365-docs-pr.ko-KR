@@ -19,13 +19,14 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkCOMPLIANCE
 description: 데이터 손실 방지 정책에 대한 경고를 정의하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: a2969da8fa782a07063614763da015e74d4826f9
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 629f0e84b1118313d6968a07a24d4e27b12f0bce
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753532"
+ms.locfileid: "60785453"
 ---
 # <a name="configure-and-view-alerts-for-data-loss-prevention-polices"></a>데이터 손실 방지에 대한 경고 구성 및 보기
 
@@ -112,7 +113,7 @@ DLP 경고 관리 대시보드에서 작업하는 경우:
 
 1.  경고와  연결된 모든 이벤트를 표시하려면 이벤트 탭을 선택합니다. 특정 이벤트를 선택하면 세부 정보를 볼 수 있습니다. 다음 표에는 일부 이벤트 세부 정보가 표시됩니다.
     
-    | Category          | 속성 이름                 | 설명                                                                | 적용 가능한 이벤트 유형                   |
+    | 범주          | 속성 이름                 | 설명                                                                | 적용 가능한 이벤트 유형                   |
     |-------------------|-------------------------------|----------------------------------------------------------------------------|------------------------------------------|
     |*이벤트 세부 정보*||
     |      | Id                            | 이벤트와 연결된 고유 ID                                        | 모든 이벤트                               |

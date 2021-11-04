@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 30e3d3ffbe2bf95def8c2c62906b82abb1356213
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: cd4423ab63019b554157de3a05da3c6c7e7d3d4c
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159105"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60787057"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>고급 헌팅 쿼리 결과에 대한 작업 수행
 
@@ -44,7 +44,7 @@ ms.locfileid: "60159105"
 - 파일 Quarantine files
 
 ## <a name="required-permissions"></a>필요한 사용 권한
-고급 헌팅을 통해 조치를 취하려면 장치에서 수정 작업을 제출할 수 있는 권한이 있는 끝점용 Microsoft [Defender의 역할이 필요합니다.](/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) 조치를 취할 수 없는 경우 전역 관리자에게 문의하여 다음 권한을 부여합니다.
+고급 헌팅을 통해 작업을 수행하려면 장치에서 수정 작업을 제출할 수 있는 권한이 있는 끝점용 Microsoft [Defender의 역할이 필요합니다.](/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) 조치를 취할 수 없는 경우 전역 관리자에게 문의하여 다음 권한을 부여합니다.
 
 *위협 및 > 조치 취약성 관리 - 수정 처리*
 
@@ -75,7 +75,7 @@ ms.locfileid: "60159105"
 ## <a name="take-action"></a>작업 수행
 설명된 작업을 수행하려면 쿼리 결과에서 하나 이상의 레코드를 선택한 다음 작업 **실행을 선택합니다.** 마법사가 기본 작업을 선택한 다음 제출하는 프로세스를 안내합니다.
 
-![레코드를 검사하기 위한 패널이 있는 선택한 레코드의 이미지입니다.](../../media/mtp-ah/ah-take-actions.png)
+![레코드를 검사하기 위한 패널이 있는 선택한 레코드의 이미지입니다.](../../media/take-action-multiple.png)
 
 ## <a name="review-actions-taken"></a>수행한 작업 검토
 각 작업은 각각 동작 센터 [](m365d-action-center.md) 기록( 또는 )의 security.microsoft.com/action-center/history  >   기록됩니다.[](https://security.microsoft.com/action-center/history) 작업 센터로 이동하여 각 작업의 상태를 검사합니다.

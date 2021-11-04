@@ -16,15 +16,16 @@ ms.collection:
 - M365-security-compliance
 - m365solution-mip
 - m365initiative-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: e89edb32e3af5fc661a8f22870e8b7097faf82e2
-ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
+ms.openlocfilehash: 1ac08dc558806d47c382db7c3b4a58f43ff3c4f4
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60264915"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754354"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장 시작하기
 
@@ -243,13 +244,13 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 
 ### <a name="use-the-alerts-management-dashboard-to-viewing-chrome-dlp-alerts"></a>경고 관리 대시보드를 사용하여 Chrome DLP 경고 보기
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에서 **데이터 손실 방지** 페이지를 열고 **경고** 를 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **데이터 손실 방지** 페이지를 열고 **경고** 를 선택합니다.
 
 2. 엔드포인트 DLP 정책에 대한 경고를 보려면 [DLP 정책을 구성하고 경고를 보는 방법](dlp-configure-view-alerts-policies.md)의 절차를 참조하세요.
 
 ### <a name="viewing-chrome-dlp-data-in-activity-explorer"></a>활동 탐색기에서 Chrome DLP 데이터 보기
 
-1. Microsoft 365 규정 준수 센터에서 도메인에 대한 [데이터 분류 페이지](https://compliance.microsoft.com/dataclassification?viewid=overview)를 열고 **활동 탐색기** 를 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 도메인에 대한 [데이터 분류 페이지](https://compliance.microsoft.com/dataclassification?viewid=overview)를 열고 **활동 탐색기** 를 선택합니다.
 
 2. [활동 탐색기 시작하기](data-classification-activity-explorer.md)의 절차를 참조하여 엔드포인트 장치에 대한 모든 데이터에 액세스하고 테이터를 필터링합니다.
 

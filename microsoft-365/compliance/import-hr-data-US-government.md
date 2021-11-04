@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 ROBOTS: NOINDEX, NOFOLLOW
 description: 미국 정부 클라우드의 관리자는 데이터 커넥터를 설정하여 조직의 HR(인사) 시스템에서 직원 데이터를 데이터 원본으로 가져올 Microsoft 365. 이렇게 하면 내부자 위험 관리 정책의 HR 데이터를 사용하여 조직에 내부 위협을 줄 수 있는 특정 사용자의 활동을 검색할 수 있습니다.
-ms.openlocfilehash: 540a652d314aa94a191dccfe672ee7429b3d7f35
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 1797b8b30f47a94673e5c7383fd60a2d6b8e462c
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755198"
+ms.locfileid: "60786917"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government"></a>미국 정부에서 HR 데이터를 가져오는 커넥터 설정
 
@@ -209,7 +210,7 @@ HR 커넥터를 만들고 스크립트를 실행하여 HR 데이터를 업로드
 
    1. **프로그램/스크립트 상자에서** 찾아보기를 클릭하고 다음 위치로 이동한 다음 상자에 경로를 표시하려면 을  `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` 선택합니다.
 
-   1. 인수 **추가(선택 사항)** 상자에 4단계에서 실행한 동일한 스크립트 명령을 붙여 넣습니다. 예를 들어 `.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
+   1. 인수 **추가(선택 사항)** 상자에 4단계에서 실행한 동일한 스크립트 명령을 붙여 넣습니다. 예를 들면 `.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
 
    1. 시작 **위치(선택 사항)** 상자에 4단계에서 실행한 스크립트의 폴더 위치를 붙여 넣습니다. 예를 들면 `C:\Users\contosoadmin\Desktop\Scripts`와 같습니다.
 

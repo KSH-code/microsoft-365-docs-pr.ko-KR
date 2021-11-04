@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 02250d5eb75983ad0341f43addc097a26d03d6f1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 49d14074af42437caaca9684cbfa3fc46362d32d
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174666"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60786301"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 헌팅 이벤트를 사용자 계정으로 스트리밍하도록 끝점에 대한 Microsoft Defender Storage 구성
 
@@ -91,7 +91,7 @@ ms.locfileid: "60174666"
 
 2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
 
-   ```
+   ```kusto
    {EventType}
    | getschema
    | project ColumnName, ColumnType
@@ -99,7 +99,7 @@ ms.locfileid: "60174666"
 
 - 장치 정보 이벤트의 예는 다음과 같습니다.
 
-  ![이벤트 허브 리소스 ID3의 이미지입니다.](images/machine-info-datatype-example.png)
+  ![이벤트 허브 리소스 ID3의 이미지입니다.](images/data-types-mapping-query.png)
 
 ## <a name="related-topics"></a>관련 항목
 
