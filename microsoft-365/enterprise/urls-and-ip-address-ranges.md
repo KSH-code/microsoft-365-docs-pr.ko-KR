@@ -3,7 +3,7 @@ title: 'Office 365 URL 및 IP 주소 범위 '
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/28/2021
+ms.date: 10/29/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: '요약: Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아래의 끝점은 Government 커뮤니티 클라우드(GCC)를 포함하여 Office 365 요금제를 사용하는 고객에 연결할 수 있어야 합니다.'
 hideEdit: true
-ms.openlocfilehash: 936c2bd4a981434883f115a932f870a558a7355d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d223ec20be108cdcfa53a2357e95cccdf6474e69
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60189012"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60700888"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 
@@ -39,14 +39,14 @@ Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아
 
 |메모|다운로드|사용|
 |---|---|---|
-|**마지막 업데이트 날짜:** 2021년 9월 28일 - ![RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**다운로드:** 모든 필수 및 선택 대상을 [JSON 형식](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) 목록에 다운로드합니다.|**사용:** 프록시 [PAC 파일](managing-office-365-endpoints.md#pacfiles)|
+|**최종 업데이트:** 2021년 10월 29일 - ![RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [로그 구독 변경](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**다운로드:** 모든 필수 및 선택 대상을 [JSON 형식](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) 목록에 다운로드합니다.|**사용:** 프록시 [PAC 파일](managing-office-365-endpoints.md#pacfiles)|
 |
 
 [Office 365 끝점 관리](managing-office-365-endpoints.md)에서 시작해 이 데이터를 사용해 네트워크 연결을 관리하는 데 추천하는 사항을 파악합니다. 끝점 데이터는 새 IP 주소 및 URL이 활성화되기 30일 전인 월초에 필요에 따라 업데이트됩니다. 이렇게 하면 자동 업데이트를 설정하지 않은 고객에게 새로운 연결이 필요하기 해당 프로세스를 완료할 수 있습니다. 끝점 주소는 지원 에스컬레이션, 보안 문제 또는 그 외의 즉각적인 운영 요구 사항을 처리하는 데 필요한 경우 월중에 업데이트될 수 있습니다. 이 페이지 아래에 표시되는 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트 또는 네트워크 장치를 사용하여 이 데이터에 액세스 하는 경우, 직접 [웹 서비스](microsoft-365-ip-web-service.md)로 이동해야 합니다.
 
-아래의 엔드포인트 데이터는 사용자의 컴퓨터에서 Microsoft Office 365에 연결할 때의 요구 사항을 나열합니다. 이는 하이브리드 또는 인바운드 네트워크 연결이라 불리며 Microsoft에서 고객 네트워크로의 네트워크 연결을 포함하지 않습니다. 자세한 내용은 [추가 끝점](additional-office365-ip-addresses-and-urls.md)을 참조하세요.
+아래 끝점 데이터에는 사용자 컴퓨터에서 Office 365로 연결하기 위한 요구 사항이 나열되어 있습니다. Microsoft에서 고객 네트워크로의 네트워크 연결에 사용되는 IP 주소(하이브리드 또는 인바운드 네트워크 연결이라고도 함)에 대한 자세한 내용은 [추가 엔드포인트](additional-office365-ip-addresses-and-urls.md)를 참조하세요.
 
-끝점은 네 가지 서비스 영역으로 그룹화됩니다. 첫 번째 세 개의 서비스 영역은 연결용으로 개별 선택할 수 있습니다. 네 번째 서비스 영역(Microsoft 365 Common 및 Office 라고 함)은 일반적인 종속성이 있으며 항상 네트워크에 연결된 상태여야 합니다.
+끝점은 세 가지 기본 워크로드와 공통 리소스 집합을 나타내는 네 가지 서비스 영역으로 그룹화됩니다. 그룹은 트래픽 흐름을 특정 애플리케이션과 연결하는 데 사용할 수 있지만 기능이 여러 워크로드에서 엔드포인트를 사용하는 경우가 많다는 점을 감안할 때 이러한 그룹은 액세스를 제한하는 데 효과적으로 사용할 수 없습니다.
 
 표시된 데이터 열:
 
