@@ -158,6 +158,7 @@
 
 ##### [Microsoft Defender for Endpoint(Android용)]()
 ###### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-android.md)
+###### [새로운 기능](android-whatsnew.md)
 
 ###### [배포]()
 ####### [Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포](android-intune.md)
@@ -188,10 +189,13 @@
 
 ##### [엔드포인트용 Microsoft Defender 응용 프로그램 사용 조건](mde-terms-mobile.md) 
 
+### [Microsoft Endpoint Manager를 사용하여 장치에서 엔드포인트용 Microsoft Defender 구성 설정 관리](security-config-management.md)
 
 ### [온보딩 문제 해결]()
 #### [온보딩 중 문제 해결](troubleshoot-onboarding.md)
 #### [구독 및 포털 액세스 문제 해결](troubleshoot-onboarding-error-messages.md)
+#### [보안 구성 관리 온보딩 문제 해결](troubleshoot-security-config-mgt.md)
+
 
 
 

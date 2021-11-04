@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 22f7e2eb1476543eb1aed9d772333f3ae7843477
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: f6790e3c9af833c6e9e9103f68b91730c475cfb8
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60703728"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754860"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -126,7 +126,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 이 배포 시나리오에서는 아직 온보딩되지 않은 장치를 온보드하고, Windows 10 장치의 의도하지 않은 공유에서 중요한 항목을 모니터링하고 보호하려고 합니다.
 
-1. [Microsoft 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>를 엽니다.
 
 2. 규정 준수 센터 설정 페이지를 열고 **장치 온보딩** 을 선택합니다.
 
@@ -162,7 +162,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 이 시나리오에서 엔드포인트용 Microsoft Defender는 이미 배포되었으며 엔드포인트 보고가 있습니다. 이러한 모든 엔드포인트는 관리되는 장치 목록에 나타납니다. [장치 온보딩 절차](endpoint-dlp-getting-started.md#onboarding-devices)를 사용하여 새 장치를 Endpoint DLP로 계속해서 온보딩하여 범위를 확장할 수 있습니다.
 
-1. [Microsoft 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>를 엽니다.
 
 2. 규정 준수 센터 설정 페이지를 열고 **장치 모니터링 사용** 을 선택합니다.
 
@@ -189,7 +189,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 ### <a name="viewing-endpoint-dlp-alerts-in-dlp-alerts-management-dashboard"></a>DLP 경고 관리 대시보드에서 끝점 DLP 경고 보기
 
-1. Microsoft 365 규정 준수 센터에서 데이터 손실 방지 페이지를 열고 경고를 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 데이터 손실 방지 페이지를 열고 경고를 선택합니다.
 
 2. 끝점 DLP 정책에 대한 경고를 보려면 [DLP 정책에 대한 경고를 구성하고 보는 방법](dlp-configure-view-alerts-policies.md)에서 절차를 참조하세요.
 

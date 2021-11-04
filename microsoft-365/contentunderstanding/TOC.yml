@@ -38,6 +38,8 @@
       href: apply-a-retention-label-to-a-model.md
     - name: 민감도 레이블 적용
       href: apply-a-sensitivity-label-to-a-model.md
+    - name: 라이브러리에서 메타데이터 검색
+      href: metadata-search.md
     - name: 모델 사용량 분석
       href: model-usage-analytics.md
     - name: 추출자를 만들 때 용어 저장소 분류 활용
