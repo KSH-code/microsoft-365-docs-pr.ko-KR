@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/21/2020
+ms.date: ''
 audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 6eef2485379544233db29fe94539c5c07499f9fc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: eb42d43db8edf0bad02e66a5ee4e2853b8d42878
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60167261"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756028"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -31,7 +31,7 @@ ms.locfileid: "60167261"
 
 ## <a name="dlp-settings"></a>DLP 설정
 
-시작하기 전에 모든 장치에 대한 DLP 정책에 적용되는 DLP 설정을 설정해야 합니다. 적용되는 정책을 만들려면 다음을 반드시 구성해야 합니다.
+시작하기 전에 DLP 설정을 지정해야 합니다. 설정은 장치의 모든 DLP 정책에 적용됩니다. 적용되는 정책을 만들려면 다음을 반드시 구성해야 합니다.
 
 - 클라우드 송신 제한 사항
 - 허용되지 않는 앱 제한 사항
@@ -43,17 +43,51 @@ ms.locfileid: "60167261"
   > [!div class="mx-imgBorder"]
   > ![DLP 설정](../media/endpoint-dlp-1-using-dlp-settings.png).
 
+### <a name="advanced-classification-scanning-and-protection"></a>고급 분류 검색 및 보호
+
+#### <a name="get-registered"></a>등록하기
+
+이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. [등록하기](https://aka.ms/Ignite2021DLP)를 참조하세요.
+
+사용하도록 설정하면 **고급 분류 검색 및 보호** 를 통해 고급 Microsoft 365 클라우드 기반 데이터 분류 서비스가 항목을 검색하고 분류하고 결과를 로컬 시스템에 반환할 수 있습니다. 즉, DLP 정책에서 [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) 분류, [명명된 항목(미리보기)](named-entities-learn.md#learn-about-named-entities-preview) 분류 기술을 활용할 수 있습니다.
+
+고급 분류에서 콘텐츠는 스캔 및 분류를 위해 로컬 장치에서 클라우드 서비스로 전송됩니다. 대역폭 사용이 우려되는 경우 24시간 동안 사용할 수 있는 양에 대해 장치별로 적용되는 이 전역 설정에서 제한을 설정할 수 있습니다. 대역폭 사용 제한을 설정하고 이를 초과하면 DLP가 사용자 콘텐츠를 클라우드로 보내는 것을 중지하고 데이터 분류가 장치에서 로컬로 계속됩니다. 누적 대역폭 사용률이 롤링 24시간 제한 아래로 떨어지면 클라우드 서비스와의 통신이 다시 시작됩니다.
+
+대역폭 사용률이 문제가 되지 않는 경우 제한을 설정하고 무제한 사용을 허용할 수 없습니다.
+
+> [!NOTE]
+> DLP 정책 평가는 사용자 콘텐츠가 전송되지 않는 경우에도 항상 클라우드에서 발생합니다.
+
+### <a name="endpoint-dlp-windows-10-and-macos-settings"></a>Endpoint DLP Windows 10 및 macOS 설정
+
+macOS 지원에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. [등록하기](https://aka.ms/Ignite2021DLP)를 참조하세요.
+
+|설정 |Windows 10, 1809 이상  |macOS Catalina 10.15 이상(미리 보기)  |메모  |
+|---------|---------|---------|---------|
+|파일 경로 제외     |지원         |지원         |macOS에는 기본적으로 켜져 있는 권장 제외 목록이 포함되어 있습니다.          |
+|허용되지 않는 앱     |지원         |지원         |         |
+|허용되지 않는 Bluetooth 앱    |지원         |지원되지 않음         |         |
+|중요한 항목에 대한 브라우저 및 도메인 제한      |지원         |지원         |         |
+|엔드포인트 DLP에 대한 추가 설정     |지원         |지원         |macOS 장치에는 기본 비즈니스 근거만 지원됩니다.         |
+|장치에 대한 파일 활동 항상 감사     |지원         |지원         |         |
+
+
+
 ### <a name="file-path-exclusions"></a>파일 경로 제외
+
+[규정 준수 센터](https://compliance.microsoft.com) > **데이터 손실 방지** > **Endpoint DLP 설정** > **파일 경로 제외** 를 엽니다.
 
 지나치게 잡음이 많거나 관심 있는 파일을 포함하지 않으므로 장치에서 DLP 모니터링, DLP 경고, DLP 정책 적용에서 특정 경로를 제외하고자 할 수 있습니다. 해당 위치에서 파일을 감사하지 않으며 해당 위치에서 만들어지거나 수정된 모든 파일에 DLP 정책 적용이 적용되지 않습니다. DLP 설정에서 경로 제외를 구성할 수 있습니다.
 
-이 논리를 사용하여 제외 경로를 생성할 수 있습니다.
+#### <a name="windows-10-devices"></a>Windows 10 장치
+
+이 논리를 사용하여 Windows 10 장치에 대한 제외 경로를 구성할 수 있습니다.
 
 - ‘\로 끝나는 올바른 파일 경로입니다. 이는 폴더 바로 아래에 있는 파일만을 의미합니다. <br/>예시: C:\Temp\
 
-- ‘\*’로 끝나는 올바른 파일 경로입니다. 이는 폴더 바로 아래에 있는 파일 외에 하위 폴더 바로 아래에 있는 파일만을 의미합니다. <br/>예시: C:\Temp\*
+- 폴더 바로 아래에 있는 파일 외에 하위 폴더 아래에 있는 파일만 의미하는 '\*'로 끝나는 유효한 파일 경로입니다. <br/>예시: C:\Temp\*
 
-- ‘\’ 또는 ‘\*’로 끝나는 올바른 파일 경로입니다. 이는 폴더 및 모든 하위 폴더 바로 아래에 있는 모든 파일을 의미합니다. <br/>예시: C:\Temp
+- '\' 또는 '\*' 없이 끝나는 유효한 파일 경로는 폴더 및 모든 하위 폴더 바로 아래에 있는 모든 파일을 의미합니다. <br/>예시: C:\Temp
 
 - 각 면의 '\' 사이에 와일드카드가 있는 경로입니다. <br/>예시: C:\Users\*\Desktop\
 
@@ -63,19 +97,58 @@ ms.locfileid: "60167261"
 
 - 위의 모든 것을 혼합한 것입니다. <br/>예시: %SystemDrive%\Users\*\Documents\*(2)\Sub\
 
+#### <a name="macos-devices-preview"></a>macOS 장치(미리 보기)
+
+Windows 10 장치와 유사하게 macOS 장치에 대한 고유한 제외를 추가할 수 있습니다.
+
+- 파일 경로 정의는 대소문자를 구분하지 않으므로 `User`은(는) `user`과(와) 동일합니다.
+
+- 와일드카드 값이 지원됩니다. 따라서 경로 정의는 경로 중간 또는 경로 끝에 `*`을(를) 포함할 수 있습니다. 예: `/Users/*/Library/Application Support/Microsoft/Teams/*`
+
+#####  <a name="recommended-file-path-exclusions-preview"></a>권장 파일 경로 제외(미리 보기)
+
+성능상의 이유로 Endpoint DLP에는 macOS 장치에 대한 권장 파일 경로 제외 목록이 포함되어 있습니다. 이러한 제외는 기본적으로 켜져 있습니다. 원하는 경우 **Mac용 권장 파일 경로 제외 포함** 토글을 토글하여 비활성화할 수 있습니다. 목록에는 다음이 포함됩니다.
+
+- /Applications/*
+- /System/*
+- /usr/*
+- /Library/*
+- /private/*
+- /opt/*
+- /Users/*/Library/Application Support/Microsoft/Teams/*
+
 ### <a name="unallowed-apps"></a>허용되지 않는 앱
 
-허용되지 않는 앱은 DLP로 보호된 파일에 액세스할 수 없도록 만든 애플리케이션 목록입니다.
+허용되지 않는 앱은 DLP로 보호된 파일에 액세스할 수 없도록 만든 애플리케이션 목록입니다. Windows 10 및 macOS 장치(미리 보기)에서 사용할 수 있습니다.
+
 정책의 **허용되지 않은 앱에 의한 액세스** 설정이 켜져 있고 허용되지 않은 목록에 있는 앱이 보호된 파일에 액세스하려고 하면 활동이 허용, 차단 또는 차단되지만 사용자는 제한을 재정의할 수 있습니다. 모든 활동을 감사하며 활동 탐색기에서 검토할 수 있습니다.
 
 > [!IMPORTANT]
 > 실행 파일 이름(예: 브라우저.exe)은 포함해야 하지만 실행 파일 경로는 포함하지 않아야 합니다.
+
+#### <a name="macos-devices-preview"></a>macOS 장치(미리 보기)
+
+Windows 장치와 마찬가지로 이제 macOS 앱이 **허용되지 않는 앱** 목록에서 중요한 데이터에 액세스하는 것을 방지할 수 있습니다. 
+
+> [!NOTE]
+> 플랫폼 간 앱은 실행 중인 OS에 따라 고유한 경로로 입력해야 합니다.
+
+Mac 앱의 전체 경로를 찾으려면:
+1. macOS 장치에서 **활동 모니터** 를 엽니다. 제한하려는 프로세스를 찾아 두 번 클릭합니다.
+
+2. **파일 및 포트 열기** 탭을 선택합니다.
+  
+3. 앱 이름은 전체 경로의 끝에 있습니다.
+
 
 #### <a name="protect-sensitive-data-from-cloud-synchronization-apps"></a>클라우드 동기화 앱에서 중요한 데이터 보호
 
 *onedrive.exe* 와 같은 클라우드 동기화 앱이 중요한 항목을 클라우드에 동기화하지 못하도록 하려면 클라우드 동기화 앱을 **허용되지 않는 앱** 목록에 추가하세요. 허용되지 않은 클라우드 동기화 앱이 차단 DLP 정책으로 보호되는 항목에 액세스하려고 하면 DLP가 반복적인 알림을 생성할 수 있습니다. **허용되지 않는 앱** 에서 **자동 격리** 옵션을 사용하도록 설정하면 이러한 반복 알림을 방지할 수 있습니다.  
 
 ##### <a name="auto-quarantine-preview"></a>자동 격리(미리 보기)
+
+> [!NOTE]
+> 자동 격리는 Windows 10만 지원됩니다.
 
 활성화하면 허용되지 않은 앱이 DLP로 보호되는 중요한 항목에 액세스하려고 할 때 자동 격리가 시작됩니다. 자동 격리는 중요한 항목을 관리자가 구성한 폴더로 이동하고 원본 위치에 자리 표시자 **.txt** 파일을 남길 수 있습니다. 항목이 이동된 위치 및 기타 관련 정보를 사용자에게 알리도록 자리 표시자 파일의 텍스트를 구성할 수 있습니다.  
 
@@ -139,7 +212,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 끝점 DLP 및 Edge Chromium 웹 브라우저를 사용하여 중요한 항목이 허용되지 않는 클라우드 앱 및 서비스에 대한 의도하지 않은 공유를 제한할 수 있습니다. Edge Chromium은 항목이 끝점 DLP 정책으로 제한되는 경우에 대해 이해하고 액세스 제한을 적용합니다.
 
-올바르게 구성된 DLP 정책 및 Edge Chromium 브라우저에서 끝점 DLP를 위치로 사용하는 경우 이러한 설정에 정의된 허용되지 않는 브라우저는 DLP 정책 컨트롤과 일치하는 중요한 항목에 액세스할 수 없습니다. 대신 사용자는 Edge Chromium을 사용하도록 리디렉션되며 Edge Chromium이 DLP 적용 제한 사항을 이해하여 DLP 정책의 조건을 충족하는 경우 활동을 차단하거나 제한할 수 있습니다.
+올바르게 구성된 DLP 정책 및 Edge Chromium 브라우저에서 끝점 DLP를 위치로 사용하는 경우 이러한 설정에 정의된 허용되지 않는 브라우저는 DLP 정책 컨트롤과 일치하는 중요한 항목에 액세스할 수 없습니다. 대신 사용자는 DLP 부과 제한 사항을 이해하고 DLP 정책의 조건이 충족될 때 활동을 차단하거나 제한할 수 있는 Edge Chromium을 사용하도록 리디렉션됩니다.
 
 이 제한을 사용하려면 중요한 3가지 부분을 구성해야 합니다.
 
