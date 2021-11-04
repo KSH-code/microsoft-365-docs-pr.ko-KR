@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: a3aa925924d5cf2a1ab51bcf8d60880ada5cfcf8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1ad7ba8af90a099ccc7d1072397c77ed2de387c0
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60188388"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60647740"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -47,7 +47,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 
 - **사용자가 문서를 편집하거나 전자 메일을 작성(답장 또는 전달) 시 클라이언트 쪽 레이블 지정**: 파일 및 전자 메일(Word, Excel, PowerPoint 및 Outlook 포함)에 자동 레이블을 지정하기 위해 구성된 레이블을 사용합니다.
 
-    이 방법은 자동 레이블 적용 뿐만 아니라 사용자에게 레이블 권장을 지원합니다. 그러나 두 경우 모두 사용자가 레이블을 수락할지 또는 거부할지 결정하여 내용에 올바른 레이블을 지정할 수 있도록 합니다. 이 클라이언트 쪽 레이블에는 문서가 저장되기 전에 레이블을 지정할 수 있으므로 문서에 대한 지연 시간이 최소화됩니다. 그러나 일부 클라이언트 앱에서는 자동 레이블 지정을 지원하지 않습니다. 이 기능은 Azure Information Protection 통합 레이블 지정 클라이언트 및 [일부 버전의 Office](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)에서 지원됩니다.
+    이 방법은 자동 레이블 적용 뿐만 아니라 사용자에게 레이블 권장을 지원합니다. 그러나 두 경우 모두 사용자가 레이블을 수락할지 또는 거부할지 결정하여 내용에 올바른 레이블을 지정할 수 있도록 합니다. 이 클라이언트 쪽 레이블에는 문서가 저장되기 전에 레이블을 지정할 수 있으므로 문서에 대한 지연 시간이 최소화됩니다. 그러나 일부 클라이언트 앱에서는 자동 레이블 지정을 지원하지 않습니다. 이 기능은 [일부 Office 버전](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)의 기본 제공 레이블 지정 및 Azure Information Protection 통합 레이블 지정 클라이언트에서 지원됩니다.
 
     구성 방법에 대한 자세한 내용은 이 페이지에서 [Office 앱에 대한 자동 레이블 지정 구성 방법](#how-to-configure-auto-labeling-for-office-apps)을 참조하세요.
 

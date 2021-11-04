@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37838e91003e53df9f7ff3a3318282305236240a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 00844614ea14b668fc3167f20ec2747d995aed17
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60192094"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703412"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -115,14 +115,11 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 
 ## <a name="office-built-in-labeling-client-and-other-labeling-solutions"></a>Office 기본 제공 레이블 지정 클라이언트 및 기타 레이블 솔루션
 
-Office 기본 제공 레이블 지정 클라이언트는 다음 관리 센터에서 민감도 레이블 및 민감도 레이블 정책 설정을 다운로드합니다.
+Office 기본 제공 레이블 지정 클라이언트는 Microsoft 365 규정 준수 센터에서 민감도 레이블 및 민감도 레이블 정책 설정을 다운로드합니다. 
 
-- Microsoft 365 규정 준수 센터
-- Office 365 보안 및 준수 센터(이전 관리 포털)
+Office 기본 제공 레이블 지정 클라이언트를 사용하려면 규정 준수 센터에서 사용자에게 게시된 하나 이상의 [레이블 정책](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)과 [지원되는 Office 버전](#support-for-sensitivity-label-capabilities-in-apps)이 있어야 합니다.
 
-Office 기본 제공 레이블 지정 클라이언트를 사용하려면 나열된 관리 센터 중 하나와 [지원되는 Office 버전](#support-for-sensitivity-label-capabilities-in-apps)에서 사용자에게 하나 이상의 [레이블 정책이 게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)되어 있어야 합니다.
-
-두 가지 조건이 모두 충족되지만 Office 기본 제공 레이블링 클라이언트를 해제해야 하는 경우 다음 그룹 정책 설정을 사용하세요.
+이 두 조건이 모두 충족되지만 Office 앱에서 기본 제공 레이블을 해제해야 하는 경우 다음 그룹 정책 설정을 사용합니다.
 
 1. **사용자 구성/정책/관리 템플릿/Microsoft Publisher 2016/보안** 으로 이동합니다.
 
@@ -132,11 +129,13 @@ Office 기본 제공 레이블 지정 클라이언트를 사용하려면 나열�
 
 ### <a name="office-built-in-labeling-client-and-the-azure-information-protection-client"></a>Office 기본 제공 레이블 지정 클라이언트 및 Azure Information Protection 클라이언트
 
-사용자가 [Azure Information Protection 클라이언트를 설치](/azure/information-protection/rms-client/aip-clientv2)한 경우 기본적으로 Office 앱에서 기본 제공 레이블 지정 클라이언트가 해제됩니다. 
+사용자가 Windows 컴퓨터에 [Azure Information Protection 클라이언트](/azure/information-protection/rms-client/aip-clientv2)를 설치한 경우 기본적으로 [이를 지원하는 Office 앱](#labeling-client-for-desktop-apps)에서 기본 제공 레이블이 꺼져 있습니다. 기본 제공 레이블은 Azure Information Protection 클라이언트에서 사용되는 Office 추가 기능을 사용하지 않으므로 안정성과 성능이 향상된다는 이점이 있습니다. 또한 고급 분류기와 같은 최신 기능을 지원합니다.
 
-Office 앱용 Azure Information Protection 클라이언트 대신 기본 제공 레이블 지정을 사용하려면 [Office 2013 및 Office 2016 프로그램의 그룹 정책 설정으로 인해 로드된 추가 기능 없음](https://support.microsoft.com/help/2733070/no-add-ins-loaded-due-to-group-policy-settings-for-office-2013-and-off)에 설명된 것처럼 **관리되는 추가 기능 목록** 그룹 정책 설정을 사용하는 것이 좋습니다.
+Azure Information Protection 클라이언트를 제거하는 대신 Azure Information Protection 추가 기능이 Office 앱에서 로드되지 않도록 하는 것이 좋습니다. 그런 다음 Office 앱의 기본 제공 레이블 지정의 이점과 Office 앱 외부의 Azure Information Protection 클라이언트 레이블 지정 파일의 이점을 얻습니다. 예를 들어 Azure Information Protection 클라이언트는 파일 탐색기 및 PowerShell을 사용하여 모든 파일 형식에 레이블을 지정할 수 있습니다. Office 앱 외부에서 지원되는 레이블 지정 기능에 대한 자세한 내용은 [민감도 레이블 및 Azure Information Protection](sensitivity-labels.md#sensitivity-labels-and-azure-information-protection)을 참조하세요.
 
-Microsoft Word 2016, Excel 2016, PowerPoint 2016 및 Outlook 2016에서 Azure Information Protection 클라이언트에 대해 다음과 같은 프로그래밍 식별자(ProgID)를 지정하고 옵션을 **0으로 설정합니다. 이 추가 기능은 언제나 사용하지 않도록 설정됩니다(차단).**
+Office 앱에서 Azure Information Protection 클라이언트 추가 기능이 로드되지 않도록 하려면 [Office 2013 및 Office 2016 프로그램에 대한 그룹 정책 설정으로 인해 로드된 추가 기능 없음](https://support.microsoft.com/help/2733070/no-add-ins-loaded-due-to-group-policy-settings-for-office-2013-and-off)에 설명된 대로 그룹 정책 설정 관리되는 **추가 기능 목록** 을 사용하세요.
+
+기본 제공 레이블 지정을 지원하는 Office 앱의 경우 Microsoft Word 2016, Excel 2016, PowerPoint 2016 및 Outlook 2016 구성을 사용하고 Azure Information Protection 클라이언트에 대해 다음과 같은 프로그래밍 식별자(ProgID)를 지정하고 옵션을 **0: 이 추가 기능은 언제나 사용하지 않도록 설정됩니다(차단)** 로 설정합니다.
 
 |응용 프로그램  |ProgID  |
 |---------|---------|
@@ -146,17 +145,16 @@ Microsoft Word 2016, Excel 2016, PowerPoint 2016 및 Outlook 2016에서 Azure In
 |Outlook | `MSIP.OutlookAddin` |
 | | | 
 
-
 그룹 정책 또는 [Office 클라우드 정책 서비스](/DeployOffice/overview-office-cloud-policy-service)를 사용하여 이 설정을 배포합니다.
 
-> [!NOTE]
+> [!IMPORTANT]
 > 그룹 정책 설정 **Office의 민감도 기능을 사용하여 민감도 레이블을 적용하고 보기** 를 사용하고 이 설정을 **1** 로 설정하는 경우 Azure Information Protection 클라이언트가 여전히 Office 앱에 로드 될 수 있는 상황이 몇 가지 있습니다. 각 앱에서 추가 기능이 로드되지 못하게 하면 이 현상을 방지할 수 있습니다.
 
 또는 Word, Excel, PowerPoint 및 Outlook에서 **Microsoft Azure Information Protection** Office 추가 기능을 사용하지 않도록 설정하거나 제거할 수 있습니다. 이 방법은 단일 컴퓨터 및 임시 테스트에 적합합니다. 자세한 내용은 [Office 프로그램에서 추가 기능 보기, 관리 및 설치](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d)를 참조하세요. 
 
-어떤 메서드를 선택하든 Office 앱이 다시 시작될 때 변경 내용이 적용됩니다. 이 Office 추가 기능을 비활성화하거나 제거하면 Azure Information Protection 클라이언트는 컴퓨터에 설치된 상태로 유지되므로 Office 앱 외부에서 파일에 레이블을 계속 지정할 수 있습니다. 예를 들어, 파일 탐색기 또는 PowerShell을 사용하여 이 작업을 수행할 수 있습니다.
+어떤 메서드를 선택하든 Office 앱이 다시 시작될 때 변경 내용이 적용됩니다.
 
-Azure Information Protection 클라이언트 및 Office 내장 레이블 지정 클라이언트에서 지원하는 기능에 대한 자세한 내용은 [Azure Information Protection 문서에서 Windows 레이블 지정 솔루션 선택](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)을 참조하세요.
+Azure Information Protection 클라이언트 및 Office 기본 제공 레이블 지정 클라이언트에서 지원하는 기능에 대한 자세한 내용은 [Azure Information Protection 문서에서 Windows 레이블 지정 솔루션 선택](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)을 참조하세요.
 
 ## <a name="office-file-types-supported"></a>지원되는 Office 파일 형식
 
@@ -261,7 +259,7 @@ SharePoint 또는 OneDrive의 문서에 대해 Office가 웹에 있는 Office �
     
     이 옵션의 이점은 암호화 설정에서 전자 메일 주소를 지정하여 특정 사용자에 대한 액세스 및 권한을 제한할 수 있다는 것입니다. 단점은 계정 생성 및 레이블 구성과의 조정을 위한 관리 오버헤드입니다.
 
-- 또 다른 옵션은 사용자가 링크를 공유할 때 게스트 계정이 자동으로 생성되도록 [Azure AD B2B(미리 보기)가 포함된 SharePoint 및 OneDrive 통합](/sharepoint/sharepoint-azureb2b-integration-preview)을 사용하는 것입니다.
+- 또 다른 옵션은 사용자가 링크를 공유할 때 게스트 계정이 자동으로 생성되도록 [Azure AD B2B가 포함된 SharePoint 및 OneDrive 통합](/sharepoint/sharepoint-azureb2b-integration)을 사용하는 것입니다.
     
     이 옵션의 이점은 계정이 자동으로 생성되고 레이블 구성이 간단하기 때문에 관리 오버헤드가 최소화된다는 것입니다. 이 시나리오에서는 암호화 옵션 [인증된 사용자 추가](encryption-sensitivity-labels.md#requirements-and-limitations-for-add-any-authenticated-users)를 선택해야 합니다. 사용자가 전자 메일 주소를 미리 알 수 없기 때문입니다. 단점은 이 설정으로 특정 사용자에 대한 액세스 및 사용 권한을 제한할 수 없다는 것입니다.
 

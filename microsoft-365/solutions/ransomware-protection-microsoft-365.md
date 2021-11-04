@@ -16,14 +16,14 @@ ms.collection:
 - m365solution-ransomware
 - m365solution-overview
 ms.custom: seo-marvel-jun2020
-keywords: 랜섬웨어, 인간이 운영하는 랜섬웨어, 인간 운영 랜섬웨어, HumOR, 공격, 랜섬웨어 공격, 암호화, 암호화
+keywords: 랜섬웨어, 사람이 조작하는 랜섬웨어, 사람 조작 랜섬웨어, HumOR, 탈취 공격, 랜섬웨어 공격, 암호화 바이러스학, 제로 트러스트
 description: 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호하는 단계를 안내합니다.
-ms.openlocfilehash: 04ce78802b24ed286ebf34fa404c17f53fef340b
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: bdfb793ef5a86a21abf421addfd9d1e84dfdba61
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60556151"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703520"
 ---
 # <a name="deploy-ransomware-protection-for-your-microsoft-365-tenant"></a>Microsoft 365 테넌트용 랜섬웨어 보호 배포
 
@@ -139,6 +139,13 @@ Microsoft는 OneDrive 및 SharePoint 파일의 경우 대량 공격에 의해 �
 
 ![Microsoft 365 테넌트용 랜섬웨어 방지](../media/ransomware-protection-microsoft-365/ransomware-protection-microsoft-365-architecture.png)
 
+이 솔루션은 [제로 트러스트](/security/zero-trust/) 원칙을 사용합니다. 
+
+- **명시적으로 확인:** 항상 사용 가능한 모든 데이터 포인트를 기반으로 인증하고 승인합니다.
+- **최소 권한 액세스 사용:** Just-In-Time 및 Just-Enough-Access(JIT/JEA), 위험 기반 적응형 정책 및 데이터 보호를 통해 사용자 액세스를 제한합니다.
+- **위반 가정:** 블라스트 반경 및 세그먼트 액세스를 최소화합니다. 엔드 투 엔드 암호화를 확인하고 분석을 사용하여 가시성을 확보하고 위협 탐지를 촉진하며 방어를 향상시키세요.
+
+조직의 방화벽 뒤에 있는 모든 요소를 신뢰하는 기존의 인트라넷 액세스와 달리 제로 트러스트는 각 로그인 및 액세스가 조직 방화벽 뒤에 있는지 또는 인터넷에 있는지와 관계 없이 해당 로그인이 제어되지 않는 네트워크에서 시작된 것처럼 취급합니다. 제로 트러스트에는 네트워크, 인프라, ID, 엔드포인트, 앱 및 데이터에 대한 보호가 필요합니다.
 
 ## <a name="microsoft-365-capabilities-and-features"></a>Microsoft 365 기능 및 기능
 
@@ -243,7 +250,6 @@ Microsoft 365:
 - [SharePoint Online에서 랜섬웨어 처리](/sharepoint/troubleshoot/security/handling-ransomware-in-sharepoint-online)
 - Microsoft 365 Defender 포털의 [랜섬웨어에 대한 위협 분석 보고서](https://security.microsoft.com/threatanalytics3?page_size=30&filters=tags%3DRansomware&ordering=-lastUpdatedOn&fields=displayName,alertsCount,impactedEntities,reportType,createdOn,lastUpdatedOn,tags,flag)
 
-
 Microsoft 365 Defender:
 
 - [고급 헌팅으로 랜섬웨어 찾기](/microsoft-365/security/defender/advanced-hunting-find-ransomware)
@@ -265,6 +271,14 @@ Microsoft Cloud App Security:
 Microsoft 보안 팀 블로그 게시물:
 
 - [랜섬웨어 방지 및 복구를 위한 3단계(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/07/3-steps-to-prevent-and-recover-from-ransomware/)
+- [사람이 조작하는 랜섬웨어를 퇴치하기 위한 가이드: 1부(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/20/a-guide-to-combatting-human-operated-ransomware-part-1/)
+
+  Microsoft의 DART(감지 및 대응 팀)가 랜섬웨어 인시던트 조사를 수행 하는 방법에 대한 주요 단계입니다.
+
+- [사람이 조작하는 랜섬웨어를 퇴치하기 위한 가이드: 2부(2021년 9월)](https://www.microsoft.com/security/blog/2021/09/27/a-guide-to-combatting-human-operated-ransomware-part-2/)
+
+  권장 사항 및 모범 사례.
+
 - [사이버 보안 위험 파악을 통한 탄력성 강화: 제4부—현재 위협 탐색(2021년 5월)](https://www.microsoft.com/security/blog/2021/05/26/becoming-resilient-by-understanding-cybersecurity-risks-part-4-navigating-current-threats/)
 
   **랜섬웨어** 섹션을 참조하세요.

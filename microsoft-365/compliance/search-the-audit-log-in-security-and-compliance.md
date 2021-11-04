@@ -21,12 +21,12 @@ description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 �
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
-ms.openlocfilehash: 74c23766bc2780cca0e370940e7fefacdba9d050
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 2cd42f5443506a51539638d4ddaa7ab2bd19ebcd
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587544"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60646958"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -170,7 +170,7 @@ Microsoft 365에서 감사 로그를 검색하는 과정은 다음과 같습니�
 1. <https://compliance.microsoft.com>으로 이동하여 로그인합니다.
 
     > [!TIP]
-    > 비공개 브라우징 세션(일반 세션이 아님)을 사용하여 Microsoft 365 규정 준수 센터에 액세스하면 현재 로그온한 자격 증명이 사용되지 않으므로 비공개 브라우징 세션을 사용하세요. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 Ctrl+Shift+P를 누르면 됩니다. Google Chrome에서 비공개 브라우징 세션(시크릿 모드 창이라고 함)을 열려면 Ctrl+Shift+N을 누릅니다.
+    > 비공개 브라우징 세션(일반 세션이 아님)을 사용하여 Microsoft 365 규정 준수 센터에 액세스하면 현재 로그온한 자격 증명을 사용할 수 없으므로 비공개 브라우징 세션을 사용하세요. **CTRL+SHIFT+N** 을 눌러 Microsoft Edge에서 InPrivate 브라우징 세션을 열거나 Google Chrome에서 개인 브라우징 세션(시크릿 창이라고 함)을 엽니다.
 
 2. Microsoft 365 준수 센터의 왼쪽 창에서 **감사** 를 클릭합니다.
 
