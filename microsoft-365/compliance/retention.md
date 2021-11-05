@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 6f147de6412db71a17e8bb4a8b79968160d0fe3e
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: a66ef59df6f05ec0e03fa5b9388f2fd3e0fd9a58
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701940"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792571"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -189,10 +189,10 @@ SharePoint의 문서에 대한 DLP(데이터 손실 방지) 정책에서 보존 
   
 | 보존 레이블이 | 레이블 정책을 적용할 수 있는 위치 |
 |:-----|:-----|
-|관리자 및 최종 사용자에게 게시됨  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
-|중요한 정보 유형 또는 학습 가능한 분류자를 기반으로 자동 적용됨  <br/> |Exchange, SharePoint, OneDrive  <br/> |
-|키워드 또는 쿼리에 따라 자동 적용  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
-|클라우드 첨부 파일에 자동 적용됨  <br/> |SharePoint, OneDrive, Microsoft 365 Groups  <br/> |
+|관리자 및 최종 사용자에게 게시됨  |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  |
+|중요한 정보 유형 또는 학습 가능한 분류자를 기반으로 자동 적용됨  |Exchange, SharePoint, OneDrive  |
+|키워드 또는 쿼리에 따라 자동 적용  |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  |
+|클라우드 첨부 파일에 자동 적용됨  |SharePoint, OneDrive, Microsoft 365 Groups  |
 
 Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을 지원하지 않습니다. 해당 위치에서 콘텐츠를 보존하고 삭제하려면 보존 정책을 대신 사용하세요.
 
@@ -437,15 +437,35 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
 
 ## <a name="releasing-a-policy-for-retention"></a>보존 정책 릴리스
 
-보존 정책의 제공에는 유지 잠금이 포함되어 있지 않으므로 언제든지 정책을 삭제할 수 있어 이전에 적용된 보존 설정을 효과적으로 해제할 수 있습니다. 정책을 유지할 수 있지만 위치 상태를 설정 해제로 변경하거나 정책을 비활성화할 수도 있습니다. 정책이 SharePoint에 대한 특정 사이트 또는 OneDrive 계정을 포함하도록 구성된 경우 정책을 편집하여 이러한 항목 중 하나 이상을 제거하여 해당 사이트 또는 계정에 대한 정책을 해제할 수도 있습니다.
- 
-이러한 작업을 수행할 때 정책의 보존 대상이 되는 SharePoint 또는 OneDrive 콘텐츠는 의도하지 않은 데이터 손실을 방지하기 위해 30일 동안 유지됩니다. 이 30일 유예 기간 동안에는 삭제된 파일은 보존되며 자료 보존 라이브러리에 계속 추가되지만, 보존 보류 라이브러리를 주기적으로 정리하는 타이머 작업은 이러한 파일에 대해 일시 중단되므로 필요할 경우 복원할 수 있습니다.
+보존 정책에 보존 잠금이 없으면 정책을 언제든지 삭제할 수 있으므로 보존 정책에 대한 보존 설정이 효과적으로 해제되고 보존 레이블은 더 이상 보존 레이블 정책에서 적용할 수 없습니다. 이전에 적용된 보존 레이블은 구성된 보존 설정으로 유지되며 이러한 레이블의 경우 항목에 레이블이 지정된 시기를 기반으로 하지 않는 경우 보존 기간을 계속 업데이트할 수 있습니다.
 
-이 30일 유예 기간에 대한 예외는 하나 이상의 SharePoint 사이트 또는 OneDrive 계정을 제외하도록 정책을 업데이트하는 경우입니다. 이 경우 타이머 작업은 30일 지연 없이 자료 보존 라이브러리에서 이러한 위치에 대한 파일을 삭제합니다.
+정책을 유지할 수 있지만 위치 상태를 설정 해제로 변경하거나 정책을 비활성화할 수도 있습니다. 또 다른 옵션은 특정 사용자, 사이트, 그룹 등을 더 이상 포함하지 않도록 정책을 다시 구성하는 것입니다. 
 
-보존 보류 라이브러리에 대한 자세한 내용은 [SharePoint 및 단일 드라이브에 대한 보존 작동 방식](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)을 참조하세요.
+특정 위치에 대한 추가 정보:
 
-유예 기간 동안의 동작으로 인해 정책을 다시 실행하거나 30일 이내에 위치 상태를 다시 켜면 이 기간 동안 영구 데이터 손실 없이 정책이 다시 시작됩니다.
+- **SharePoint 사이트 및 OneDrive 계정:**
+    
+    SharePoint 사이트 및 OneDrive 계정에 대한 보존 정책을 해제하면 정책의 보존 대상이 되는 모든 콘텐츠는 우발적인 데이터 손실을 방지하기 위해 30일 동안 계속 보존됩니다. 이 30일 유예 기간 동안에는 삭제된 파일은 보존되며 자료 보존 라이브러리에 계속 추가되지만, 보존 보류 라이브러리를 주기적으로 정리하는 타이머 작업은 이러한 파일에 대해 일시 중단되므로 필요할 경우 복원할 수 있습니다.
+    
+    이 30일 유예 기간에 대한 예외는 하나 이상의 SharePoint 사이트 또는 OneDrive 계정을 제외하도록 정책을 업데이트하는 경우입니다. 이 경우 타이머 작업은 30일 지연 없이 자료 보존 라이브러리에서 이러한 위치에 대한 파일을 삭제합니다.
+    
+    보존 보류 라이브러리에 대한 자세한 내용은 [SharePoint 및 단일 드라이브에 대한 보존 작동 방식](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)을 참조하세요.
+    
+    유예 기간 동안의 동작으로 인해 정책을 다시 실행하거나 30일 이내에 위치 상태를 다시 켜면 이 기간 동안 영구 데이터 손실 없이 정책이 다시 시작됩니다.
+
+- **Exchange 전자 메일 및 Microsoft 365 그룹**
+    
+    정책이 해제될 때 [비활성](inactive-mailboxes-in-office-365.md) 상태인 사서함에 대한 보존 정책을 해제하는 경우:
+    
+    - 보존 정책이 사서함에 명시적으로 적용되는 경우 보존 설정이 더 이상 적용되지 않습니다. 보존 설정이 적용되지 않으면 비활성 사서함이 일반적인 방식으로 자동 삭제될 수 있습니다.
+        
+        명시적 보존 정책에는 적응형 정책 범위 또는 정책이 적용되고 나중에 비활성화될 때 활성 사서함을 지정하는 포함 구성이 있는 정적 정책 범위가 필요합니다.
+    
+    - 보존 정책이 사서함에 암시적으로 적용되고 구성된 보존 작업이 보존인 경우 보존 정책이 계속 적용되고 비활성 사서함은 자동 삭제 대상이 되지 않습니다. 보존 기간이 만료되어 보존 작업이 더 이상 적용되지 않는 경우 Exchange 관리자는 이제 [비활성 사서함을 수동으로 삭제](delete-an-inactive-mailbox.md)할 수 있습니다.
+        
+        암시적 보존 정책에는 **모든 수신자**(Exchange 전자 메일의 경우) 또는 **모든 그룹**(Microsoft 365 그룹의 경우) 구성이 포함된 정적 정책 범위가 필요합니다.
+    
+    보존 정책이 적용된 비활성 사서함에 대한 자세한 내용은 [비활성 사서함 및 Microsoft 365 보존 정책](inactive-mailboxes-in-office-365.md#inactive-mailboxes-and-microsoft-365-retention-policies)을 참조하세요.
 
 ## <a name="auditing-retention-configuration-and-actions"></a>보존 구성 및 작업 감사
 
