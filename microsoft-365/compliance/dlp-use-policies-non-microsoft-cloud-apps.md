@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft가 아닌 클라우드 앱에 대해 dlp 정책을 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 314520ce48b53d4629d0ebd2fa2bed0cdb798c8a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 503f112a598641733593cfbb37b231b1418b4b36
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60177582"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792559"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps"></a>Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용
 
@@ -45,9 +45,10 @@ Microsoft가 아닌 클라우드 앱에 DLP 정책을 사용하려면 먼저 Mic
 
 ### <a name="permissions"></a>권한
 DLP 정책을 만드는 사용자는 다음을 해야 합니다.
+
 - 전역 관리자
-- 준수 관리자
-- 규정 준수 데이터 관리자
+- 준수 관리자: Azure AD에서 할당
+- 규정 준수 데이터 관리자: Azure AD에서 할당
 
 ### <a name="prepare-your-cloud-app-security-environment"></a>사용자 환경 Cloud App Security 준비
 

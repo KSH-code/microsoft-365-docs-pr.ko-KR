@@ -1,5 +1,5 @@
 ---
-title: macOS 디바이스를 Microsoft 365 개요(미리 보기)
+title: macOS 디바이스를 Microsoft 365 개요에 온보딩(미리 보기)
 f1.keywords: NOCSH
 ms.author: chrfox
 author: chrfox
@@ -14,20 +14,20 @@ ms.collection:
 search.appverid:
 - MET150
 description: 규정 준수 솔루션에 macOS 장치 온보드에 대해 자세히 알아보십시오.
-ms.openlocfilehash: b9e04b95a0daa123a7e5a8c7863d6477ab2ccf15
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: b24fd172224e0d1f8080ddd22cb3532dce0afe2b
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60661909"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792295"
 ---
-# <a name="onboard-macos-devices-into-microsoft-365-overview-preview"></a>macOS 디바이스를 Microsoft 365 개요(미리 보기)
+# <a name="onboard-macos-devices-into-microsoft-365-overview-preview"></a>macOS 디바이스를 Microsoft 365 개요에 온보딩(미리 보기)
 
 MacOS 장치는 Intune 또는 JAMF 2013을 사용하여 Microsoft 365 준수 솔루션에 온보드할 수 Pro. 온보더링 절차는 사용하는 관리 솔루션에 따라 다릅니다. macOS 장치가 끝점용 Microsoft Defender(MDE)에 이미 온보딩된 경우 단계는 더 적습니다. 적합한 [절차에](#next-steps) 대한 링크는 다음 단계를 참조하세요.
 
-## <a name="get-registered"></a>등록
+## <a name="get-registered"></a>등록하기
 
-이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/Ignite2021DLP)
+이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/EndpointDLPIgnite21-Previews)
 
 **적용 대상:**
 

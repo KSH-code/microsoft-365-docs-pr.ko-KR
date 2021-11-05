@@ -14,21 +14,21 @@ ms.collection:
 search.appverid:
 - MET150
 description: MDE 고객을 위한 Microsoft 365(미리 보기)를 사용하여 macOS 장치를 Microsoft Intune 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 94664f0d57f1b702484e27c62f9e80339e04e105
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: c1ed019f6191d930da8c6b1d0674625e9c27d1b6
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701376"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792487"
 ---
-# <a name="onboard-and-offboard-macos-devices-into-compliance-solutions-using-intune-for-microsoft-defender-for-endpoint-customers-preview"></a>끝점 고객을 위한 Microsoft Defender용 Intune을 사용하여 MacOS 장치를 준수 솔루션에 온보딩 및 오프보드(미리 보기)
+# <a name="onboard-and-offboard-macos-devices-into-compliance-solutions-using-intune-for-microsoft-defender-for-endpoint-customers-preview"></a>엔드포인트용 Microsoft Defender 고객을 위한 Intune을 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
 
 > [!IMPORTANT]
 > MacOS  장치에 끝점용 Microsoft Defender(MDE)를 배포한 경우 이 절차를 사용합니다.
 
-## <a name="get-registered"></a>등록
+## <a name="get-registered"></a>등록하기
 
-이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/Ignite2021DLP)
+이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/EndpointDLPIgnite21-Previews)
 
 **적용 대상:**
 

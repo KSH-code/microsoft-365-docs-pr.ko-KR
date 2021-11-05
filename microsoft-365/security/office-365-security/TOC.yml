@@ -126,16 +126,8 @@
           href: install-app-guard.md
     - name: 마이그레이션
       items:
-        - name: 타사 보호 서비스 또는 장치에서 Office 365용 Defender로 마이그레이션
-          items:
-            - name: 타사 보호 서비스 또는 장치에서 Office 365용 Defender로 마이그레이션
-              href: migrate-to-defender-for-office-365.md
-            - name: '마이그레이션 1단계: 준비'
-              href: migrate-to-defender-for-office-365-prepare.md
-            - name: '마이그레이션 2단계: 설치'
-              href: migrate-to-defender-for-office-365-setup.md
-            - name: '마이그레이션 3단계: 온보딩'
-              href: migrate-to-defender-for-office-365-onboard.md
+        - name: 'Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환'
+          href: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
     - name: 방지
       items:
         - name: 보안 강화를 위해 테넌트 구성

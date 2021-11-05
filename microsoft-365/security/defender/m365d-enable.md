@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 84cb795ec2ffb8e8a2c2ce0d8d476c841c4438ca
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: c55a91987ffc4823bda61b8b13f38af710181edd
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60705260"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792379"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender 켜기
 
@@ -47,7 +47,19 @@ Microsoft 365 Defender 권한이 있는 적격 고객이 포털을 방문하면 
 
 ### <a name="check-your-role"></a>역할 확인
 
-전역 관리자  또는 보안  관리자 Azure Active Directory 설정해야 Microsoft 365 Defender. [Azure AD에서 역할 보기](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)
+이 기능을 설정하려면 다음 역할 중 하나 Microsoft 365 Defender.
+    
+- 전역 관리자
+- 보안 관리자
+- 보안 운영자
+- 전역 읽기 권한자
+- 보안 읽기 권한자
+- 규정 준수 관리자
+- 규정 준수 데이터 관리자
+- 응용 프로그램 관리자
+- 클라우드 응용 프로그램 관리자
+
+[Azure AD에서 역할 보기](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)
 
 ## <a name="supported-services"></a>지원되는 서비스
 

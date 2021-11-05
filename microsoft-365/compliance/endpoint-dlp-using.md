@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: eb42d43db8edf0bad02e66a5ee4e2853b8d42878
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 898acf4e74f6aadb79bf5dfb7e3fc751d6286ecb
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756028"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792391"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -60,7 +60,7 @@ ms.locfileid: "60756028"
 
 ### <a name="endpoint-dlp-windows-10-and-macos-settings"></a>Endpoint DLP Windows 10 및 macOS 설정
 
-macOS 지원에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. [등록하기](https://aka.ms/Ignite2021DLP)를 참조하세요.
+macOS 지원에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. [등록하기](https://aka.ms/EndpointDLPIgnite21-Previews)를 참조하세요.
 
 |설정 |Windows 10, 1809 이상  |macOS Catalina 10.15 이상(미리 보기)  |메모  |
 |---------|---------|---------|---------|

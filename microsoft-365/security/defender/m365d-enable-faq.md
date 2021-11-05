@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f7f27d772f5b0d68c22bfa57a771cf2d13ca58c6
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: fce766313b7757712faaa2a2b122730601f137aa
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60667017"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792523"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>이 기능을 켜면 자주 묻는 Microsoft 365 Defender
 
@@ -43,7 +43,7 @@ ms.locfileid: "60667017"
 
 다음과 같은 비 E5 라이선스를 사용하는 고객은 다음을 사용할 수 Microsoft 365 Defender.
 
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
 - ID용 Microsoft Defender
 - Microsoft Cloud App Security
 - Office 365용 Defender(플랜 2)
@@ -78,6 +78,11 @@ Microsoft 365 Defender 에서 사용할 수 <https://security.microsoft.com> 있
 - 보안 운영자
 - 전역 읽기 권한자
 - 보안 읽기 권한자
+- 규정 준수 관리자
+- 규정 준수 데이터 관리자
+- 응용 프로그램 관리자
+- 클라우드 응용 프로그램 관리자
+
 
 > [!NOTE]
 > 엔드포인트용 Microsoft Defender의 역할 기반 액세스 제어 설정은 데이터에 대한 액세스에 영향을 미칩니다. 자세한 내용은 [Microsoft 365 Defender에 대한 액세스 관리](m365d-permissions.md)를 참조하세요.

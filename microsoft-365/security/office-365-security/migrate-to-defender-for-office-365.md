@@ -19,19 +19,21 @@ ms.custom: ''
 description: Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPort와 같은 타사 보호 서비스 또는 장치에서 Microsoft Defender로 마이그레이션하는 올바른 방법을 Office 365 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 80823f77fb76c44d5031d7d856151fa84491ee2d
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 6c48de77ff62e21263f4475f0ce5e0bd5f36d221
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60779161"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792499"
 ---
 # <a name="migrate-from-a-third-party-protection-service-or-device-to-microsoft-defender-for-office-365"></a>타사 보호 서비스 또는 장치에서 Microsoft Defender로 Office 365
 
 **적용 대상**
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 
-이 가이드에서는 타사 보호 서비스 또는 장치에서 Microsoft Defender for Office 365. 이 가이드에서는 다음과 같은 사실이 가정됩니다.
+Microsoft 365 앞에 있는 기존 타사 보호 서비스 또는 장치가 이미 있는 경우 이 가이드를 사용하여 통합된 관리 환경, 잠재적으로 비용 절감(이미 지불한 제품 사용) 및 통합 보안 보호가 있는 성숙된 제품으로 통합된 관리 환경의 이점을 얻을 수 Office 365 Microsoft Defender로 마이그레이션할 수 있습니다. 자세한 내용은 Microsoft [Defender for Office.](https://www.microsoft.com/security/business/threat-protection/office-365-defender)
+
+이 가이드에서는 마이그레이션을 위한 구체적 및 실행 가능한 단계를 제공하며 다음과 같은 사실을 가정합니다.
 
 - 이미 사서함이 Microsoft 365 있지만 현재 전자 메일 보호를 위해 타사 서비스 또는 장치를 사용하고 있습니다. 인터넷에서 전송되는 메일은 Microsoft 365 조직으로 배달되기 전에 보호 서비스를 통과하며 Microsoft 365 보호는 최대한 낮습니다(예: 맬웨어 보호는 항상 적용).
 

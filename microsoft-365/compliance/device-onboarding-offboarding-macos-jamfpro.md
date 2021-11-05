@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: JAMF 2013(미리 보기)을 사용하여 macOS 장치를 Microsoft 365 규정 준수 솔루션에 Pro 방법 확인
-ms.openlocfilehash: c1fefa8263b2bee9b11156ae18c218520eeae5a8
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 5335ceb47475a633e8f7ba000f8690ca3b9b8b6c
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701383"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792511"
 ---
 # <a name="onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-jamf-pro-preview"></a>JAMF 2013을 사용하여 macOS 장치를 Microsoft 365 준수 솔루션에 Pro(미리 보기)
 
@@ -28,9 +28,9 @@ JAMF 디바이스를 Pro 끝점 데이터 손실 방지와 같은 Microsoft 365 
 > [!IMPORTANT]
 > MacOS 장치에  끝점용 Microsoft Defender(MDE)가 배포되지 않은 경우 이 절차를 사용합니다.
 
-## <a name="get-registered"></a>등록
+## <a name="get-registered"></a>등록하기
 
-이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/Ignite2021DLP)
+이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/EndpointDLPIgnite21-Previews)
 
 **적용 대상:**
 

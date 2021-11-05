@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 452129ac5bb6116f23e9a2791ff7147cd74adee6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d136ae298abdf876a9be6f58634940ec71c07e47
+ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60181010"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60792343"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Microsoft 365 Defender 전제
 
@@ -70,7 +70,6 @@ Microsoft 365 Defender, Microsoft 365 Defender, Internet Explorer Microsoft Edge
 
 ## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>US GCC, GCC High 및 기타 미국 정부 기관의 가용성
 현재 다음 Microsoft 365 Defender *수* 없습니다.
-- US 정부 커뮤니티 클라우드(GCC)
 - US 정부 커뮤니티 클라우드 High(GCC High)
 - 미 국방부
 - 상업용 라이선스가 있는 모든 미국 정부 기관
