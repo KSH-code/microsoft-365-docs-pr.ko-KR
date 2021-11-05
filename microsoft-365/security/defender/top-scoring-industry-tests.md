@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: deea83a515feeec15097613b297f395f39e1ffa1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6d617024f2a09b73b7b944fb34bd2f34d024d3c1
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60202540"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60661060"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 테스트에서 최고 점수 기록
 
@@ -39,7 +39,7 @@ Microsoft 365 Defender는 [엔드포인트용 Microsoft Defender](https://www.mi
 
 ### <a name="mitre-demonstrated-real-world-detection-response-and-protection-from-advanced-attacks"></a>MITRE: 지능적 공격으로부터 실제 감지, 응답 및 보호를 시연합니다.
 
-MITRE의 테스트 접근 방식의 핵심은 실제 공격을 모방하여 솔루션이 이러한 공격을 적절하게 감지하고 응답할 수 있는지 여부를 파악하는 것입니다. 테스트는 엔드포인트 탐지 및 응답에 초점을 맞췄지만 MITRE의 시뮬레이션된 APT29 공격은 여러 공격 도메인에 걸쳐 있어 엔드포인트 보호 이상의 방어자에게 권한을 부여할 수 있는 기회를 제공합니다. Microsoft는 Microsoft 365 Defender를 사용하여 방어자의 가시성을 끝점 이상으로 확장했습니다.
+MITRE의 테스트 접근 방식의 핵심은 실제 공격을 모방하여 솔루션이 이러한 공격을 적절하게 감지하고 응답할 수 있는지 여부를 파악하는 것입니다. 테스트는 엔드포인트 탐지 및 응답에 초점을 맞췄지만 MITRE의 시뮬레이션된 APT29 공격은 여러 공격 도메인에 걸쳐 있어 엔드포인트 보호 이상의 방어자에게 권한을 부여할 수 있는 기회를 제공합니다. Microsoft는 Microsoft 365 Defender를 사용하여 가시성을 끝점 이상으로 확장했습니다.
 
 - Microsoft 365 Defender의 ATT&CK 기반 평가 - 2020년 5월: [실제 감지 부문의 선두](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 

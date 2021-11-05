@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: cc83349a1c4fda3b95665ce13cb3e82bbf8610b3
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b43ec6b8d529fe0f5c2ed89ed58c8fc122ada66e
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60192130"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60668325"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -237,11 +237,13 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 ## <a name="sensitivity-labels-and-azure-information-protection"></a>민감도 레이블 및 Azure Information Protection
 
-Windows 컴퓨터에서 Microsoft 365 앱에서 민감도 레이블을 사용하는 경우 Office 앱에 내장된 레이블 또는 Azure Information Protection 클라이언트를 사용할 수 있습니다.
+Windows 컴퓨터에서 Microsoft 365 앱에서 민감도 레이블을 사용하는 경우 Office 앱에 내장된 레이블 또는 [Azure Information Protection 클라이언트](/azure/information-protection/rms-client/aip-clientv2)를 사용할 수 있습니다.
 
-기본적으로 Azure Information Protection 클라이언트가 설치되면 이러한 앱에서 기본 제공 레이블이 해제되어 있습니다. 기본 동작을 변경하는 방법을 포함하여 자세한 내용은 [Office 기본 제공 레이블 지정 클라이언트 및 Azure Information Protection 클라이언트](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client)를 참조하십시오.
+기본 제공 레이블은 Azure Information Protection 클라이언트에서 사용되는 Office 추가 기능을 사용하지 않으므로 안정성과 성능이 향상된다는 이점이 있습니다. 또한 고급 분류기와 같은 최신 기능을 지원합니다.
 
-Office 앱에서 기본 제공 레이블을 사용하는 경우에도 다음 사항에 대해 민감도 레이블이 있는 Azure Information Protection 통합 레이블 클라이언트를 사용할 수 있습니다.
+기본적으로 Azure Information Protection 클라이언트가 설치되면 이러한 앱에서 기본 제공 레이블이 해제되어 있습니다. 기본 동작을 변경하고 Office 앱에 대한 기본 제공 레이블을 사용하려면 [Office 기본 제공 레이블 지정 클라이언트 및 Azure Information Protection 클라이언트](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client)를 참조하세요.
+
+Office 앱에서 Azure Information Protection 클라이언트를 설치하지만 사용하지 않도록 설정하면 다음과 같은 민감도 레이블이 있는 Azure Information Protection 클라이언트를 사용할 수 있습니다.
 
 - 온-프레미스에 저장된 중요한 정보를 검색한 다음 해당 콘텐츠에 선택적으로 레이블을 지정하는 스캐너
 
@@ -251,7 +253,7 @@ Office 앱에서 기본 제공 레이블을 사용하는 경우에도 다음 사
 
 - 온-프레미스 파일에서 중요한 정보를 검색하고 이러한 파일에서 레이블 및 암호화를 적용 또는 제거하는 PowerShell 모듈
 
-Azure Information Protection을 처음 접하거나 레이블을 최근에 마이그레이션한 기존 Azure Information Protection 고객인 경우 Azure Information Protection 설명서에서 "[indows 레이블 지정 솔루션 선택](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)을 참조하세요.
+Azure Information Protection을 처음 사용하는 경우 Azure Information Protection 설명서에서 [Windows 레이블 지정 솔루션 선택](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)을 참조하세요.
 
 ### <a name="azure-information-protection-labels"></a>Azure Information Protection 레이블
 
