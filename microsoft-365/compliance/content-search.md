@@ -19,13 +19,14 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkCOMPLIANCE
 description: 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용하여 다양한 Microsoft 365 서비스의 콘텐츠를 검색합니다.
-ms.openlocfilehash: e3d8ee540ab403eb2e3ebeaf930d498599be530a
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: d1636885e03544a78432516e77bfabb8cd52575d
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364690"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754904"
 ---
 # <a name="create-a-content-search"></a>콘텐츠 검색 만들기
 
@@ -45,7 +46,7 @@ Microsoft 365 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사�
 
 ## <a name="before-you-run-a-search"></a>검색을 실행하기 전에
 
-- Microsoft 365 규정 준수의 콘텐츠 검색 도구에 액세스(하여 검색을 실행하고 검색 결과 미리 보기 및 내보내기를 실행)하려면 관리자, 준수 관리자 또는 eDiscovery 구성원이 Microsoft 365 규정 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원이어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
+- Microsoft 365 규정 준수의 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">콘텐츠 검색</a> 도구에 액세스(하여 검색을 실행하고 검색 결과 미리 보기 및 내보내기를 실행)하려면 관리자, 준수 관리자 또는 eDiscovery 구성원이 Microsoft 365 규정 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원이어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
 
 - Exchange 하이브리드 배포에서는 콘텐츠 검색 도구를 사용하여 온-프레미스 사서함을 검색할 수 없습니다. 이 도구는 클라우드 기반 사서함을 검색하는 데만 사용할 수 있습니다.
 

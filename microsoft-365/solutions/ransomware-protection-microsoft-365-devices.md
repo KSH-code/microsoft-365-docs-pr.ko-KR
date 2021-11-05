@@ -15,14 +15,14 @@ ms.collection:
 - ransomware
 - m365solution-ransomware
 ms.custom: seo-marvel-jun2020
-keywords: 랜섬웨어, 사람이 운영하는 랜섬웨어, 사람이 운영하는 랜섬웨어, HumOR, 갈취 공격, 랜섬웨어 공격, 암호화, 크립토바이러스
+keywords: 랜섬웨어, 사람이 조작하는 랜섬웨어, 사람 조작 랜섬웨어, HumOR, 탈취 공격, 랜섬웨어 공격, 암호화 바이러스학, 제로 트러스트
 description: Windows Intune을 MDA 및 MAM 공급자로 사용하고 Windows 10 보안 기능을 사용하여 랜섬웨어 공격으로부터 Microsoft 365 리소스를 보호하세요.
-ms.openlocfilehash: 1ca17604bba09e5df83252d3d65c60561f56e2d1
-ms.sourcegitcommit: 7e7effd8ef4ffe75cdee7bb8517fec8608e4c230
+ms.openlocfilehash: adbefb7ac8ec574a69bc59a67cab61cc69d00568
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59444628"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60702214"
 ---
 # <a name="step-4-protect-devices"></a>4단계. 장치 보호
 

@@ -13,16 +13,17 @@ ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침입니다.
-ms.openlocfilehash: f86692d07f7636f35ba700b9750510219a6ef380
-ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
+ms.openlocfilehash: 8c8fac9d8cfa5ff0a8b2ad8d5c3e42f614a3932b
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60432640"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753108"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>보존 레이블을 만들고 앱에 적용
 
@@ -49,7 +50,7 @@ ms.locfileid: "60432640"
 
 조직의 전역 관리자는 보존 레이블과 해당 정책을 만들고 편집할 수 있는 모든 권한을 가지고 있습니다. 전역 관리자로 로그인하지 않은 경우 [보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels)을 참조하세요.
 
-보존 레이블 정책을 만들기 전에 **적응형** 또는 **정적** 정책인지 결정합니다. 자세한 내용은 [보존을 위한 적응형 또는 정적 정책 범위](retention.md#adaptive-or-static-policy-scopes-for-retention)를 참조하세요. 적응형 정책을 사용하기로 결정한 경우 보존 레이블 정책을 만들기 전에 하나 이상의 적응형 범위를 만든 다음 보존 레이블 정책 만들기 프로세스 중에 선택해야 합니다. 자세한 내용은 [적응형 범위에 대한 구성 정보](retention-settings.md#configuration-information-for-adaptive-scopes)를 참조하세요.
+보존 레이블 정책을 만들기 전에 **적응형** 또는 **정적** 정책인지 결정합니다. 자세한 내용은 [보존을 위한 적응형 또는 정적 정책 범위](retention.md#adaptive-or-static-policy-scopes-for-retention)를 참조하세요. 적응형 정책을 사용하기로 결정한 경우 보존 레이블 정책을 만들기 전에 하나 이상의 적응형 범위를 만든 다음 보존 레이블 정책 만들기 프로세스 중 범위를 선택해야 합니다. 자세한 내용은 [적응형 범위에 대한 구성 정보](retention-settings.md#configuration-information-for-adaptive-scopes)를 참조하세요.
 
 ## <a name="how-to-create-and-publish-retention-labels"></a>보존 레이블을 만들고 게시하는 방법
 
@@ -59,7 +60,7 @@ ms.locfileid: "60432640"
 
 ### <a name="step-1-create-retention-labels"></a>1단계: 보존 레이블 만들기
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 다음의 위치 중 한 곳으로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 다음의 위치 중 한 곳으로 이동합니다.
     
     - 레코드 관리를 사용하는 경우:
         - **솔루션** > **레코드 관리** > **파일 계획** 탭 > **+ 레이블 만들기** > **보존 레이블**
@@ -89,7 +90,7 @@ ms.locfileid: "60432640"
 
 SharePoint 및 Outlook과 같은 앱에서 사용자가 적용할 수 있도록 보존 레이블을 게시합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 다음의 위치 중 한 곳으로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 다음의 위치 중 한 곳으로 이동합니다.
     
     - 레코드 관리를 사용하는 경우:
         - **솔루션** > **레코드 관리** > > **레이블 정책** 탭 > **레이블 게시**
@@ -101,13 +102,13 @@ SharePoint 및 Outlook과 같은 앱에서 사용자가 적용할 수 있도록 
 
 2. 링크를 사용하여 게시할 보존 라벨을 선택한 후 **다음** 을 선택합니다.
 
-3. **생성할 보존 정책 유형 선택** 페이지에서 [시작하기 전](#before-you-begin) 지침에서 선택한 항목에 따라 **적응형** 또는 **정적** 을 선택합니다. 적응형 범위를 아직 만들지 않은 경우 **적응형** 을 선택할 수 있지만 선택할 적응형 범위가 없기 때문에 이 옵션으로 마법사를 완료할 수 없습니다.
+3. **생성할 보존 정책 유형 선택** 페이지에서 [시작하기 전](#before-you-begin) 지침에서 선택한 항목에 따라 **적응형** 또는 **정적** 을 선택합니다. 적응형 범위를 아직 만들지 않은 경우 **적응형** 을 선택할 수는 있지만 선택할 적응형 범위가 없기 때문에 이 옵션으로 마법사를 완료할 수 없습니다.
 
 4. 선택한 범위에 따라:
     
-    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 하나 이상의 적응형 범위를 선택합니다. 그런 다음 하나 이상의 위치를 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Exchange 이메일** 은 선택할 수 있지만 **SharePoint 사이트** 는 선택할 수 없습니다. 
+    - **적응형** 을 선택한 경우: **적응형 정책 범위 및 위치 선택** 페이지에서 **범위 추가** 를 선택하고 생성된 적응형 범위를 하나 이상 선택합니다. 그런 다음 위치를 하나 이상 ​​선택합니다. 선택할 수 있는 위치는 추가된 [범위 유형](retention-settings.md#configuration-information-for-adaptive-scopes)에 따라 다릅니다. 예를 들어 **사용자** 의 범위 유형만 추가한 경우 **Exchange 이메일** 은 선택할 수 있지만 **SharePoint 사이트** 는 선택할 수 없습니다. 
     
-    - **정적** 을 선택한 경우: **위치 선택** 페이지에서 위치를 켜거나 끕니다. 각 위치에 대해 기본값으로 두어 [전체 위치에 정책을 적용](retention-settings.md#a-policy-that-applies-to-entire-locations)하거나 [포함 및 제외를 지정](retention-settings.md#a-policy-with-specific-inclusions-or-exclusions)할 수 있습니다.
+    - **정적** 을 선택한 경우: **위치 선택** 페이지에서 위치를 켜거나 끕니다. 각 위치를 기본값으로 둬서 [정책을 전체 위치에 적용](retention-settings.md#a-policy-that-applies-to-entire-locations)하거나 [포함 및 제외를 지정](retention-settings.md#a-policy-with-specific-inclusions-or-exclusions)합니다.
     
     위치 선택에 대한 자세한 내용은 [위치](retention-settings.md#locations)를 참조하세요.
 

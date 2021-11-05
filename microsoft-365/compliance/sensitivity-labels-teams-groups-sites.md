@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: fff0326df591ad5cd414be73afe9f365b1bc04b0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6e32a74dcb682d77367b5c8e3a3bc2b656d0e236
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60151005"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60703050"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -102,7 +102,7 @@ ms.locfileid: "60151005"
     
     - **외부 사용자 액세스**: 그룹 소유자가 [그룹에 게스트를 추가](/office365/admin/create-groups/manage-guest-access-in-groups)할 수 있는지를 제어합니다.
 
-4. **장치 외부 공유 및 장치 액세스 설정** 을 선택한 경우 이제 다음 설정을 구성합니다.
+4. **외부 공유 및 조건부 액세스 설정** 을 선택한 경우 이제 다음 설정을 구성합니다.
     
     - **레이블이 지정된 SharePoint 사이트에서 외부 공유 제어**: 이 옵션을 선택하고, 모든 사용자, 신규 및 기존 게스트, 기존 게스트, 조직 내부 사용자만 중 원하는 외부 공유 옵션을 선택합니다. 이 구성 및 설정에 대한 자세한 내용은 SharePoint 설명서, [사이트에 대해 외부 공유 설정 또는 해제](/sharepoint/change-external-sharing-site)를 참조 하세요.
     

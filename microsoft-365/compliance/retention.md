@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: c8c5fc71cc7f6757cb40cc5ae649021ba020dcc2
-ms.sourcegitcommit: f6fff04431d632db02e7bdbf12f691091a30efad
+ms.openlocfilehash: 6f147de6412db71a17e8bb4a8b79968160d0fe3e
+ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60432702"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701940"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -142,7 +142,7 @@ ms.locfileid: "60432702"
   
 - Outlook, 웹용 Outlook, OneDrive, SharePoint 및 Microsoft 365 그룹의 콘텐츠에 **조직의 사용자가 수동으로 보존 레이블을 적용할 수 있도록 합니다**. 대개 사용자가 자신이 작업 중인 콘텐츠의 유형을 가장 잘 알고 있으므로 사용자가 콘텐츠를 분류하고 적절한 보존 설정이 적용되도록 할 수 있습니다. 
     
-- 콘텐츠에 다음이 포함된 경우처럼 특정 조건과 일치하는 경우 **콘텐츠에 보존 레이블을 자동으로 적용** 합니다. 
+- 이메일 또는 팀에서 공유되는 클라우드 첨부 파일을 포함하는 특정 조건과 일치하거나 콘텐츠에 다음이 포함된 경우 **콘텐츠에 자동으로 보존 레이블을 적용합니다**. 
     - 특정 중요한 정보 유형
     - 만든 쿼리와 일치하는 특정 키워드
     - 학습 가능한 분류자에 대한 패턴 일치
@@ -185,14 +185,14 @@ SharePoint의 문서에 대한 DLP(데이터 손실 방지) 정책에서 보존 
 
 #### <a name="retention-label-policies-and-locations"></a>보존 레이블 정책 및 위치
 
-보존 레이블이 수행하는 작업에 따라, 다양한 유형의 보존 레이블을 여러 다른 위치에 게시할 수 있습니다.
+보존 레이블이 수행하는 작업에 따라, 보존 레이블을 여러 다른 위치에 게시할 수 있습니다.
   
 | 보존 레이블이 | 레이블 정책을 적용할 수 있는 위치 |
 |:-----|:-----|
 |관리자 및 최종 사용자에게 게시됨  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
 |중요한 정보 유형 또는 학습 가능한 분류자를 기반으로 자동 적용됨  <br/> |Exchange, SharePoint, OneDrive  <br/> |
 |키워드 또는 쿼리에 따라 자동 적용  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
-   
+|클라우드 첨부 파일에 자동 적용됨  <br/> |SharePoint, OneDrive, Microsoft 365 Groups  <br/> |
 
 Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을 지원하지 않습니다. 해당 위치에서 콘텐츠를 보존하고 삭제하려면 보존 정책을 대신 사용하세요.
 
@@ -246,7 +246,7 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
 |보존 후 삭제, 보존만 또는 삭제만 할 수 있는 보존 설정 |예 |예 |
 |워크로드 지원됨:  <br />- Exchange <br />- SharePoint <br />- OneDrive <br />- Microsoft 365 그룹 <br />- 비즈니스용 Skype <br />- Teams<br />- Yammer|<br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 | <br /> 예, 공용 폴더 제외 <br /> 예 <br /> 예 <br /> 예 <br /> 아니요 <br /> 아니요 <br /> 아니요 |
 |자동으로 보존 적용됨 | 예 | 예 |
-|조건을 기준으로 보존 적용 <br /> -중요한 정보 유형, KQL 쿼리 및 키워드, 교육 가능한 분류자| 아니요 | 예 |
+|조건을 기준으로 보존 적용 <br /> -중요한 정보 유형, KQL 쿼리 및 키워드, 교육 가능한 분류자, 클라우드 첨부 파일| 아니요 | 예 |
 |수동으로 보존 적용됨 | 아니요 | 예 |
 |최종 사용자 상호 작용 | 아니오 | 예 |
 |콘텐츠를 이동해도 유지됨 | 아니요 | 예, Microsoft 365 테넌트 내에서 지원됩니다. |

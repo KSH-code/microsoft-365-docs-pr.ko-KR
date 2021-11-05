@@ -17,13 +17,14 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkCOMPLIANCE
 description: Office 365 보안 및 준수 센터에서 키워드 사전을 만드는 기본 단계에 대해 알아봅니다.
-ms.openlocfilehash: f585009ee54c03b0417f5aa74fd0b7d2fa0d5e7e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b1749b51367bda90945e0d8e61e9674acc5077b6
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60167333"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747725"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
@@ -73,7 +74,7 @@ Remove-Item $rawFile
 
 사전의 키워드는 다양한 원본, 서비스 또는 PowerShell cmdlet에서 가져온 파일(예:.csv 또는 .txt 목록)(대부분의 경우), PowerShell cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.
   
-1. **규정 준수 센터**([https://compliance.microsoft.com](https://compliance.microsoft.com))를 사용하거나 **보안 &amp;준수 센터 PowerShell** 에 연결합니다.
+1. *<a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>를 사용하거나 **보안 &amp;준수 센터 PowerShell에 연결**.
     
 2. **의도한 원본의 키워드 정의 또는 로드** - 마법사와 cmdlet 모두 쉼표로 구분된 키워드 목록을 수락하여 사용자 지정 키워드 사전을 만드므로, 이 단계는 키워드를 가져오는 원본에 따라 약간 다릅니다. 로드되면 해당 항목들을 가져오기 전에 인코딩되고 바이트 배열로 변환됩니다.
     
@@ -83,7 +84,7 @@ Remove-Item $rawFile
 
 다음 단계를 따라 사용자 지정 사전에 대한 키워드를 만들고 가져오세요.
 
-1. .준수 센터에 연결합니다([https://compliance.microsoft.com](https://compliance.microsoft.com)).
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에 연결합니다.
 
 2. **분류 > 중요한 정보 유형** 으로 이동합니다.
 

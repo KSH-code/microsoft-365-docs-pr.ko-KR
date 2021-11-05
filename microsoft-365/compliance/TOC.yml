@@ -880,6 +880,8 @@
               href: supported-filetypes-ediscovery20.md
             - name: 문서 메타데이터 필드
               href: document-metadata-fields-in-advanced-ediscovery.md
+            - name: 기록 버전 설정
+              href: advanced-ediscovery-historical-versions.md
             - name: 비공개 유지 권한 검색 설정
               href: attorney-privilege-detection.md
             - name: eDiscovery 사용 권한 할당

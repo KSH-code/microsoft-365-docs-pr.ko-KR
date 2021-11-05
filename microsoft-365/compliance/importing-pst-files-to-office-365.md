@@ -25,8 +25,8 @@ ms.openlocfilehash: 7f632288b339cbccb99bd07330ebe705471340aa
 ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60673376"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60701952"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 

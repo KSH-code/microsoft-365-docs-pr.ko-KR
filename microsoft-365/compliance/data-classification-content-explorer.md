@@ -14,16 +14,17 @@ ms.collection:
 - M365-security-compliance
 - m365solution-mip
 - m365initiative-compliance
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: ed0eb21f5c97c4028395b6d85a01e6855a46e028
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0332584988ab9a88ef7440f6e5fc71ef3c9cbd5d
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60168689"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747779"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 
@@ -67,7 +68,7 @@ ms.locfileid: "60168689"
 > [!IMPORTANT]
 > 이러한 권한은 해당 항목에 로컬로 할당되는 권한을 대체하여 콘텐츠를 볼 수 있게 합니다. 
 
-콘텐츠 탐색기에는 액세스 권한을 부여하는 두 가지 역할이 있으며 [규정 준수 센터](https://compliance.microsoft.com/permissions)를 사용하여 부여됩니다.
+콘텐츠 탐색기에는 액세스 권한을 부여하는 두 가지 역할이 있으며 <a href="https://go.microsoft.com/fwlink/p/?linkid=2173597" target="_blank">Microsoft 365 규정 준수 센터</a>를 사용하여 부여됩니다.
 
 - **콘텐츠 탐색기 목록 뷰어**: 이 역할 그룹의 구성원 자격으로 목록 보기에서 각 항목과 해당 위치를 볼 수 있습니다. `data classification list viewer` 역할이 사전에 이 역할 그룹에 할당되었습니다.
 

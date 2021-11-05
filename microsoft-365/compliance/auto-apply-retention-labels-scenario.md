@@ -12,16 +12,17 @@ ms.localizationpriority: high
 ms.collection:
 - M365-security-compliance
 - SPO_Content
+ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MOE150
 - MET150
 description: 메타데이터를 사용하여 내용을 분류하고 레이블을 자동으로 적용하며 이벤트 기반 보존을 사용하여 보존 기간을 시작하여 SharePoint 에서 문서의 라이프사이클을 관리하는 방법입니다.
-ms.openlocfilehash: fe24f13609752dd5a5e73f4631644bd1cf4d4e6c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 586f9074628ed3c4c272715378b1ba413ebdd3ec
+ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60151353"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753670"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리
 
@@ -215,7 +216,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 이제 KQL 쿼리가 작동 중임을 확인했으므로 KQL 쿼리를 사용하여 적절한 문서에 제품 사양 보존 레이블을 자동으로 적용하는 레이블 정책을 만들겠습니다.
 
-1. [준수 센터](https://compliance.microsoft.com/homepage)에서 **기록 관리** > **레이블 정책** 으로 이동하여  > **레이블 자동 적용** 을 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a>에서 **기록 관리** > **레이블 정책** 으로 이동하여  > **레이블 자동 적용** 을 선택합니다.
 
    [ ![레이블 페이지에서 "라벨 자동 적용"을 선택합니다.](../media/SPRetention16.png) ](../media/SPRetention16.png#lightbox)
 
