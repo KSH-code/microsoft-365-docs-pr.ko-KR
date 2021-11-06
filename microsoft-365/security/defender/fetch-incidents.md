@@ -1,6 +1,6 @@
 ---
-title: MSSP 고객 테넌트에서 경고 페치
-description: 고객 테넌트에서 경고를 페치하는 방법 학습
+title: 인시던트 Microsoft 365 Defender 페치
+description: 고객 테넌트에서 인시던트 Microsoft 365 Defender 페치하는 방법 학습
 keywords: 관리되는 보안 서비스 공급자, mssp, 구성, 통합
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -15,16 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
+ms.technology: m365d
 ms.custom: api
-ms.openlocfilehash: 5d5f0e7ec66deabcc037d529676fadabd9999729
+ms.openlocfilehash: 1ea39bfce5303360165a56d6361908d1014d370f
 ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2021
-ms.locfileid: "60804944"
+ms.locfileid: "60805030"
 ---
-# <a name="fetch-alerts-from-mssp-customer-tenant"></a>MSSP 고객 테넌트에서 경고 페치
+# <a name="fetch-microsoft-365-defender-incidents"></a>인시던트 Microsoft 365 Defender 페치 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -41,9 +41,9 @@ ms.locfileid: "60804944"
 - SIEM 메서드 사용
 - API 사용
 
-## <a name="fetch-alerts-into-your-siem"></a>SIEM으로 경고 페치
+## <a name="fetch-incidents-into-your-siem"></a>SIEM에 인시던트 페치
 
-SIEM 시스템으로 경고를 페치하려면 다음 단계를 수행해야 합니다.
+인시던트가 SIEM 시스템으로 페치하려면 다음 단계를 수행해야 합니다.
 
 - 1단계: 타사 응용 프로그램 만들기
 - 2단계: 고객의 테넌트에서 토큰 액세스 및 새로 고침
@@ -172,17 +172,11 @@ SIEM 시스템으로 경고를 페치하려면 다음 단계를 수행해야 합
 
 5. 응용 **프로그램 승인을 클릭합니다.**
 
-이제 SIEM에 대한 관련 구성 파일을 다운로드하고 해당 API에 Microsoft 365 Defender 있습니다. 자세한 내용은 SIEM 도구로 [경고 끌어오기를 참조하세요.](configure-siem.md)
+이제 SIEM에 대한 관련 구성 파일을 다운로드하고 해당 API에 Microsoft 365 Defender 있습니다. 자세한 내용은 SIEM 도구로 [경고 끌어오기를 참조하세요.](../defender-endpoint/configure-siem.md)
 
 - ArcSight 구성 파일/ Splunk 인증 속성 파일에서 비밀 값을 설정하여 응용 프로그램 키를 수동으로 작성합니다.
 - 포털에서 새로 고침 토큰을 획득하는 대신 이전 단계의 스크립트를 사용하여 새로 고침 토큰을 획득하거나 다른 방법을 통해 새로 고침 토큰을 획득합니다.
 
 ## <a name="fetch-alerts-from-mssp-customers-tenant-using-apis"></a>API를 사용하여 MSSP 고객의 테넌트에서 경고 페치
 
-REST API를 사용하여 경고를 끌어오는 방법에 대한 자세한 내용은 REST API를 사용하여 [경고 끌어오기 를 참조하세요.](pull-alerts-using-rest-api.md)
-
-## <a name="see-also"></a>참고 항목
-
-- [MSSP 액세스를 포털에 부여](grant-mssp-access.md)
-- [MSSP 고객 포털에 액세스](access-mssp-portal.md)
-- [경고 알림 구성](configure-mssp-notifications.md)
+REST API를 사용하여 경고를 끌어오는 방법에 대한 자세한 내용은 REST API를 사용하여 [경고 끌어오기 를 참조하세요.](../defender-endpoint/pull-alerts-using-rest-api.md)

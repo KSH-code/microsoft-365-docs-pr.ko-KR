@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9162c0c6fa3afd74a00b9e0ee75b3d0a3fbd2a6d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 527bd73d11a40672839d29a5007298a0807d95b6
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174798"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804788"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 
@@ -33,11 +33,11 @@ ms.locfileid: "60174798"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-[제어된 폴더 액세스는](controlled-folders.md) 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows 10 Server 2019에 Windows 포함되어 있습니다.
+[제어된 폴더 액세스는](controlled-folders.md) 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows 10 Server 2019에 Windows 포함되어 있습니다.  제어된 폴더 액세스는 Windows [Server 2012R2 및 2016에 대한 최신 통합 솔루션의 일부로도 포함되어 있습니다.](/microsoft-365/security/defender-endpoint/configure-server-endpoints#new-functionality-in-the-modern-unified-solution-for-windows-server-2012-r2-and-2016-preview)
 
 다음 방법 중 한 가지를 사용하여 제어된 폴더 액세스를 사용하도록 설정할 수 있습니다.
 
-- [Windows 보안 앱](#windows-security-app)
+- [Windows 보안 앱 *](#windows-security-app)
 - [Microsoft Endpoint Manager ](#endpoint-manager)
 - [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
 - [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
@@ -62,6 +62,8 @@ ms.locfileid: "60174798"
 3. 제어된 폴더 **액세스에 대한 스위치를** **켜기 로 설정**
 
 > [!NOTE]
+> *이 방법은 Windows Server 2012R2 또는 2016에서는 사용할 수 없습니다.
+> 
 > 제어된 폴더 액세스가 그룹 정책, PowerShell 또는 MDM CSP로 구성된 경우 디바이스를 다시 시작한 후 Windows 보안 앱에서 상태가 변경됩니다.
 > 해당 도구를 사용하여  기능이 감사 모드로 설정되어 있는 경우 Windows 보안 앱이 상태를 끄기로 **표시됩니다.**
 > 사용자 프로필 데이터를 보호하는 경우 사용자 프로필이 설치 드라이브의 기본 Windows 좋습니다.
@@ -106,7 +108,7 @@ ms.locfileid: "60174798"
 4. 변경 차단 또는 감사, 다른 앱 허용 또는 다른 폴더 추가 여부를 선택하고 다음 을 **선택합니다.**
 
    > [!NOTE]
-   > 응용 프로그램에는 Wilcard가 지원되지만 폴더에는 지원되지 않습니다. 하위폴더는 보호되지 않습니다. 허용된 앱은 다시 시작할 때까지 이벤트를 계속 트리거합니다.
+   > 와일드카드는 응용 프로그램에 지원되지만 폴더에는 지원되지 않습니다. 하위폴더는 보호되지 않습니다. 허용된 앱은 다시 시작할 때까지 이벤트를 계속 트리거합니다.
 
 5. 설정을 검토하고 **다음을** 선택하여 정책을 만들 수 있습니다.
 

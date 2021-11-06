@@ -17,12 +17,12 @@ ms.custom: ''
 description: 관리자는 EOP(Exchange Online Protection)의 고급 배달 정책을 사용하여 지원되는 특정 시나리오(타사 피싱 시뮬레이션 및 SecOps(보안 작업) 사서함으로 배달된 메시지)에서 필터링하지 말아야 하는 메시지를 식별하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b8d5aba4974bf4ac179f88a08ae5f8c037fa0a71
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 5d131b150a030ade32e8d8d7f25692c0883c5d4d
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335541"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804908"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>사용자에 대한 타사 피싱 시뮬레이션 및 필터되지 않은 메시지의 SecOps 사서함 배달 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "60335541"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예시:
+기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱으로 식별된 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들면 다음과 같습니다.
 
 - **타사 피싱 시뮬레이션:** 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
 - **SecOps(보안 작업)** 사서함: 보안 팀에서 필터되지 않은 메시지를 수집 및 분석하는 데 사용하는 전용 사서함(좋음과 불량 모두)입니다.
@@ -138,7 +138,7 @@ ms.locfileid: "60335541"
 
 고급 배달 정책이 도움이 될 수 있는 두 가지 시나리오 외에도 필터링을 무시해야 하는 다른 시나리오가 있습니다.
 
-- **타사 필터:** 도메인의 MX 레코드가  메시지를 Office 365 경우(메시지가 먼저 다른 곳에 라우팅되는 [경우)](secure-by-default.md) 기본적으로 보안을 사용할 *수 없습니다.* 보호를 추가하려면 커넥터에 대해 향상된 필터링을 사용하도록 설정해야 합니다(목록 *건너뛰기라고도 합니다).* 자세한 내용은 [Manage mail flow using a third-party cloud service with Exchange Online.](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud) 커넥터에 대해 향상된 필터링을 사용하지 않는 경우 메일 흐름 규칙(전송 규칙)을 사용하여 타사 필터링으로 이미 평가된 메시지에 대해 Microsoft 필터링을 무시합니다. 자세한 내용은 메일 흐름 규칙을 사용하여 [메시지에서 SCL 설정을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl.md)
+- **타사 필터:** 도메인의 MX 레코드가  메시지를 Office 365 경우(메시지가 먼저 다른 곳에 라우팅되는 [경우)](secure-by-default.md) 기본적으로 보안을 사용할 *수 없습니다.* 보호를 추가하려면 커넥터에 대해 향상된 필터링을 사용하도록 설정해야 합니다(목록 *건너뛰기라고도 합니다).* 자세한 내용은 [Manage mail flow using a third-party cloud service with Exchange Online.](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud) 커넥터에 대해 향상된 필터링을 사용하지 않는 경우 메일 흐름 규칙(전송 규칙)을 사용하여 타사 필터링으로 이미 평가된 메시지에 대해 Microsoft 필터링을 무시합니다. 자세한 내용은 메일 흐름 규칙을 사용하여 [메시지에서 SCL 설정을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)
 
 - **검토 중의** 가양성: 관리자 제출을 통해 Microsoft에서 여전히 분석하고 [](admin-submission.md) 있는 특정 메시지를 일시적으로 허용하여 Microsoft에 잘못 잘못된 것으로 잘못 표시된 알려진 좋은 메시지(가양성)를 보고할 수 있습니다. 모든 재지정과 함께 **** 이러한 허용은 임시로 지정하는 것이 좋습니다.
 

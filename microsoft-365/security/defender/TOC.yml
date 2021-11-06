@@ -392,10 +392,16 @@
                       href: api-update-incidents.md
                     - name: 인시던트 가져오기
                       href: api-get-incident.md
-        - name: 미리 보기 기능
-          href: preview.md
-        - name: 문제 해결
-          href: ./troubleshoot.md
+            - name: Microsoft 365 Defender 인시던트 가져오기
+              href: fetch-incidents.md
+            - name: SIEM 통합
+              items:
+                - name: SIEM 도구를 Microsoft 365 Defender와 통합
+                  href: configure-siem-defender.md
+                - name: SIEM 도구 통합 관련 문제 해결
+                  href: ../defender-endpoint/troubleshoot-siem.md
+            - name: 위협 인텔리전스 개념 이해
+              href: ../defender-endpoint/threat-indicator-concepts.md
     - name: Office 365용 Microsoft Defender
       href: ../office-365-security/index.yml
     - name: 엔드포인트용 Microsoft Defender

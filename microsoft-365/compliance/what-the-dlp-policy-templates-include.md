@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 recommendations: false
 description: 보안 및 준수 센터의 DLP(데이터 손실 방지) 정책 템플릿에 Office 365 & 대해 자세히 알아보습니다.
-ms.openlocfilehash: ddeebc3cfeb2668cfb0d376a4ca8c9f92bfe36f6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9de05cd38f6089c3bc7671b2f41a7bf1c0cee8ce
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60172230"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804845"
 ---
 # <a name="what-the-dlp-policy-templates-include"></a>DLP 정책 템플릿에 포함되는 내용
 
@@ -135,7 +135,7 @@ ms.locfileid: "60172230"
 |**규칙 이름**|**<br/>조건(중요한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
 |낮은 볼륨 EU 중요한 콘텐츠가 발견됩니다.  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  유럽 직불 카드 번호 - 최소 개수 1, 최대 개수 9  <br/>  EU 운전 면허 번호 - 최소 개수 1, 최대 개수 9  <br/>  EU 국가 식별 번호 - 최소 개수 1, 최대 개수 9  <br/>  EU 여권 번호 - 최소 개수 1, 최대 개수 9  <br/>  EU SSN(사회 보장 번호) 또는 동등한 ID - 최소 개수 1, 최대 개수 9  <br/>  EU 세금 식별 번호(TIN) - 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |관리자에게 문제 보고서 보내기  <br/> |
-|EU 중요한 콘텐츠가 찾은 대량  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  유럽 직불 카드 번호 - 최소 개수 1, 최대 개수 9  <br/>  EU 운전 면허 번호 - 최소 개수 1, 최대 개수 9  <br/>  EU 국가 식별 번호 - 최소 개수 1, 최대 개수 9  <br/>  EU 여권 번호 - 최소 개수 1, 최대 개수 9  <br/>  EU SSN(사회 보장 번호) 또는 동등한 ID - 최소 개수 1, 최대 개수 9  <br/>  EU 세금 식별 번호(TIN) - 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 외부 사용자의 콘텐츠에 대한 액세스 제한  <br/>  전자 메일 및 정책 팁을 통해 사용자에게 알림  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  관리자에게 문제 보고서 보내기  <br/> |
+|EU 중요한 콘텐츠가 찾은 대량  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  유럽 직불 카드 번호 - 최소 개수 10, 최대 개수 500  <br/>  EU 운전 면허 번호 - 최소 개수 10, 최대 개수 500  <br/>  EU 국가 식별 번호 - 최소 개수 10, 최대 개수 500  <br/>  EU 여권 번호 - 최소 개수 10, 최대 개수 500  <br/>  EU SSN(사회 보장 번호) 또는 동등한 ID - 최소 개수 10, 최대 개수 500  <br/>  EU 세금 식별 번호(TIN) - 최소 개수 10, 최대 개수 500  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 외부 사용자의 콘텐츠에 대한 액세스 제한  <br/>  전자 메일 및 정책 팁을 통해 사용자에게 알림  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  관리자에게 문제 보고서 보내기  <br/> |
    
 ## <a name="germany-financial-data"></a>독일 재무 데이터
 

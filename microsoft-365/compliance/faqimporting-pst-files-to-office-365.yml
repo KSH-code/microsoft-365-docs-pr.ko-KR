@@ -18,12 +18,12 @@ metadata:
   ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
   ms.custom: seo-marvel-apr2020
   description: 이 문서에는 PST 파일을 가져오는 관리자를 위한 몇 가지 질문과 대답이 포함되어 있습니다. Microsoft 365 가져오기 서비스를 사용하여 PST 파일을 Office 365 있습니다.
-  ms.openlocfilehash: 0b8ba1414768ade4c192023797eeec55934be817
-  ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+  ms.openlocfilehash: e6baaf6125817956bdc09048e852e1eca2e66d88
+  ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 11/03/2021
-  ms.locfileid: "60701974"
+  ms.lasthandoff: 11/06/2021
+  ms.locfileid: "60804620"
 title: PST 파일 가져오기에 대한 FAQ
 summary: >
   **이 문서는 관리자를 위한 것입니다. PST 파일을 자신의 사서함으로 가져오시겠습니까? [.pst 파일에서](https://go.microsoft.com/fwlink/p/?LinkID=785075) 전자 메일, 연락처 및 일정 Outlook 참조**
@@ -61,7 +61,7 @@ sections:
   - question: >
       네트워크 업로드는 어디에서 사용할 수 있나요?
     answer: >
-      네트워크 업로드는 현재 미국, 캐나다, 브라질, 영국, 프랑스, 독일, 스위스, 노르웨이, 유럽, 인도, 동아시아, 동남아시아, 일본, 대한민국, 오스트레일리아 및 아랍에미리트(UAE)에서 사용할 수 있습니다. 네트워크 업로드는 향후 더 많은 지역에서 사용할 수 있습니다.
+      네트워크 업로드는 현재 다음 지역에서 사용할 수 있습니다. 미국, 캐나다, 브라질, 영국, 프랑스, 독일, 스위스, 노르웨이, 유럽, 인도, 동아시아, 동남아시아, 일본, 대한민국, 호주, 아랍에미리트(UAE)입니다. 네트워크 업로드는 향후에 더 많은 지역에서 사용할 수 있습니다.
   - question: >
       What is the pricing for importing PST files by using network upload?
     answer: >
@@ -86,7 +86,7 @@ sections:
   - question: >
       How long does it take to import a PST file to a mailbox?
     answer: >
-      트워크 용량에 따라 달라지지만 1TB(테라바이트)의 데이터를 조직의 Azure Storage 영역에 업로드하는 데 일반적으로 몇 시간이 걸립니다. PST 파일을 Azure Storage 영역으로 복사한 후 PST 파일을 하루 약 24GB의 Microsoft 365 사서함으로 가져오게 <sup>\*</sup> 됩니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 마이그레이션하는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
+      트워크 용량에 따라 달라지지만 1TB(테라바이트)의 데이터를 조직의 Azure Storage 영역에 업로드하는 데 일반적으로 몇 시간이 걸립니다. PST 파일을 Azure Storage 영역으로 복사한 후 약 하루당 24GB 속도로 PST 파일을 Microsoft 365 사서함으로 가져올 수 있습니다<sup>\*</sup>. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 마이그레이션하는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
 
 
       <sup>\*</sup>이 속도는 보장되지 않습니다. 서버 워크로드 및 일시적인 성능 문제로 이 속도가 저하될 수 있습니다.
@@ -153,7 +153,7 @@ sections:
   - question: >
       드라이브 배송을 사용할 수 있는 지역은 어디인가요?
     answer: >
-      현재 드라이브 배송은 미국, 캐나다, 브라질, 영국, 유럽, 인도, 동아시아, 동남 아시아, 일본, 대한민국 및 오스트레일리아에서 사용할 수 있습니다. Drive shipping will be available in more regions in the future.
+      현재 드라이브 배송은 미국, 캐나다, 브라질, 영국, 유럽, 인도, 동아시아, 동남 아시아, 일본, 대한민국 및 오스트레일리아에서 사용할 수 있습니다. 드라이브 배송은 향후 더 많은 지역에서 사용할 수 있습니다.
 
 
       > [!NOTE]
@@ -191,7 +191,10 @@ sections:
   - question: >
       How long does it take to import a PST file to a mailbox?
     answer: >
-      PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST 파일의 데이터를 안전한 방법으로 분석하여 항목 경과 시간과 PST 파일에 포함된 다양한 메시지 유형을 식별합니다. 분석이 완료되면 PST 파일의 모든 데이터를 가져오거나 필터를 설정하여 가져온 데이터를 제어할 수 있는 옵션이 나타납니다. 가져오기 작업을 시작하면 하루당 최소 24GB의 속도로 PST 파일을 Microsoft 365 사서함으로 가져옵니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
+      PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST 파일의 데이터를 안전한 방법으로 분석하여 항목 경과 시간과 PST 파일에 포함된 다양한 메시지 유형을 식별합니다. 분석이 완료되면 PST 파일의 모든 데이터를 가져오거나 필터를 설정하여 가져온 데이터를 제어할 수 있는 옵션이 나타납니다. 가져오기 작업을 시작하면 PST 파일을 하루 Microsoft 365 약 24GB의 비율로 사서함으로 가져오게 됩니다. <sup>\*</sup> 이 비율이 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 다른 방법으로 가져올 수 Office 365. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
+
+
+      <sup>\*</sup>이 속도는 보장되지 않습니다. 서버 워크로드 및 일시적인 성능 문제로 이 속도가 저하될 수 있습니다.
 
 
       다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 여러 PST 파일을 동일한 사서함으로 가져오는 경우 동시에 가져오지 않고 순차적으로(한 번에 하나씩) 가져옵니다.

@@ -18,12 +18,12 @@ ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 ms.custom:
 - seo-marvel-apr2020
 description: 비활성 사서함의 콘텐츠를 더 Microsoft 365 비활성 사서함을 영구적으로 삭제할 수 있습니다.
-ms.openlocfilehash: 69cbe206e040ca1b1f76e846c3b3efbf45c1539e
-ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
+ms.openlocfilehash: 929b3d8a01dd9c88bc12e6e13bf4477a07496b34
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60786893"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804632"
 ---
 # <a name="delete-an-inactive-mailbox"></a>비활성 사서함 삭제
 
@@ -126,7 +126,7 @@ Set-RetentionCompliancePolicy -Identity <retention policy GUID without prefix or
 
 ### <a name="remove-in-place-holds"></a>원본 위치 보존 제거
 
- 비활성 사서함에서 보류를 In-Place 방법은 두 가지가 있습니다. 
+ 비활성 사서함에서 보류를 In-Place 방법은 두 가지가 있습니다.
   
 - **Hold In-Place 삭제합니다.** 영구적으로 삭제할 비활성 사서함이 비활성 보류에 대한 유일한 원본 In-Place 보류 개체를 In-Place 있습니다. 
 
@@ -204,7 +204,7 @@ Set-RetentionCompliancePolicy -Identity <retention policy GUID without prefix or
    Get-MailboxSearch $InPlaceHold.Name | FL Sources
    ```
 
-## <a name="more-information"></a>자세한 정보
+## <a name="more-information"></a>추가 정보
 
 - **비활성 사서함은 소프트 삭제된 사서함의 유형입니다.** 이 Exchange Online 사서함은 삭제된 사서함이지만 특정 보존 기간 내에 복구할 수 있는 사서함입니다. 보류되지 않은 소프트 삭제된 사서함의 경우 30일 이내에 사서함을 복구할 수 있습니다. 비활성 사서함(삭제되기 전에 보류된 사서함)은 보류가 제거될 때까지 보류 상태로 소프트 삭제된 상태로 유지됩니다. 비활성 사서함에서 보류를 제거하면 사서함이 더 이상 비활성 상태가 되지 않습니다. 대신 보류가 제거되고 해당 Exchange Online 복구할 수 있는 날로부터 183일 동안 영구적으로 유지됩니다. 183일이 지난 후 소프트 삭제된 사서함은 영구적으로 삭제된 것으로 표시되고 복구할 수 없습니다.
 
@@ -212,7 +212,7 @@ Set-RetentionCompliancePolicy -Identity <retention policy GUID without prefix or
 
 - **비활성 사서함은 보류가 제거된 직후 영구적으로 삭제하나요?** 이전의 비활성 사서함은 183일 동안 소프트 삭제 상태로 사용할 수 있습니다. 183일이 지난 후 사서함은 영구 삭제로 표시됩니다.
 
-- **보류가 제거된 후 비활성 사서함에 대한 정보를 표시하는 방법** 보류가 제거되고 비활성 사서함이 소프트 삭제된 사서함으로 되돌아가면 **Get-Mailbox** cmdlet과 *함께 InactiveMailboxOnly* 매개 변수를 사용하여 반환되지 않습니다. 그러나 **Get-Mailbox -SoftDeletedMailbox** 명령을 사용하여 사서함에 대한 정보를 표시할 수 있습니다. 예제:
+- **보류가 제거된 후 비활성 사서함에 대한 정보를 표시하는 방법** 보류가 제거되고 비활성 사서함이 소프트 삭제된 사서함으로 되돌아가면 **Get-Mailbox** cmdlet과 *함께 InactiveMailboxOnly* 매개 변수를 사용하여 반환되지 않습니다. 그러나 **Get-Mailbox -SoftDeletedMailbox** 명령을 사용하여 사서함에 대한 정보를 표시할 수 있습니다. 예를 들면 다음과 같습니다.
 
   ```text
   Get-Mailbox -SoftDeletedMailbox -Identity pilarp | FL Name,Identity,LitigationHoldEnabled,In

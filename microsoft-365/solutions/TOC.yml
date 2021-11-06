@@ -300,6 +300,8 @@
           href: /microsoft-365/security/defender-endpoint/deployment-phases.md
         - name: 타사 엔드포인트 보호에서 엔드포인트용 Microsoft Defender로 전환
           href: ../security/defender-endpoint/switch-to-microsoft-defender-migration.md
+        - name: 타사 보호 도구에서 Office 365용 Microsoft Defender로 전환
+          href: ../security/office-365-security/migrate-to-defender-for-office-365.md
         - name: Microsoft 365의 우선 순위 계정에 대한 보안 권장 사항
           href: ../security/office-365-security/security-recommendations-for-priority-accounts.md
         - name: 이전 직원 제거 및 데이터 보안
@@ -324,7 +326,7 @@
           href: team-security-isolation-dev-test.md
 - name: 산업별 지침
   items:
-    - name: 재무
+    - name: 금융 서비스
       items:
         - name: 금융 서비스 산업용 보안 및 규정 준수
           href: financial-services-secure-collaboration.md

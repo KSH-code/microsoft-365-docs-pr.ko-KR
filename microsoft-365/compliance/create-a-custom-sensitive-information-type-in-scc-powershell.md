@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 센터에서 정책에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: c0e7efb9770c870210265b951a74012fb21e1b2e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d626e805c0e680dc64236066c962ce40229fd3bd
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203246"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804980"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -514,7 +514,7 @@ Microsoft 365 두 개의 일반 유효성 검사기 제공
 
 - 각 사용자 지정 중요 정보 유형은 최대 2048개의 키워드를 가질 수 있습니다.
 
-- 단일 테넌트에서 키워드 사전의 최대 크기는 1MB로 압축됩니다. 사용자 지정 중요한 정보 유형을 생성할 때 필요한 횟수만큼 동일한 사전을 참조합니다. 우선 중요한 정보 유형에 사용자 정의 키워드 목록을 만드는 것부터 시작하고 키워드 목록에 2048개 이상의 키워드가 있거나 키워드의 길이가 50자 이상인 경우 키워드 사전을 사용합니다.
+- 단일 테넌트에서 키워드 사전의 최대 크기는 AD Schema 제한을 준수하기 위해 압축된 480KB입니다. 사용자 지정 중요한 정보 유형을 생성할 때 필요한 횟수만큼 동일한 사전을 참조합니다. 우선 중요한 정보 유형에 사용자 정의 키워드 목록을 만드는 것부터 시작하고 키워드 목록에 2048개 이상의 키워드가 있거나 키워드의 길이가 50자 이상인 경우 키워드 사전을 사용합니다.
 
 - 테넌트에는 최대 50개의 키워드 사전 기반 중요한 정보 유형이 허용됩니다.
 

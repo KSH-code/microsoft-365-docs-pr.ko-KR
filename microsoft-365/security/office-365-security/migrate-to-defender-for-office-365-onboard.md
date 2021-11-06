@@ -19,12 +19,12 @@ ms.custom: migrationguides
 description: 타사 보호 서비스 또는 장치에서 Microsoft Defender로 마이그레이션하기 위한 단계를 Office 365 완료합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a218aa1e86bd696079bb2c77b630bcf870bc0c25
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: a40ee22ee843d250c90a8b03526ab61fe3ad56f6
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60779191"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804644"
 ---
 # <a name="migrate-to-microsoft-defender-for-office-365---phase-3-onboard"></a>Microsoft Defender로 마이그레이션 Office 365 - 3단계: 온보딩
 
@@ -52,7 +52,7 @@ ms.locfileid: "60779191"
 
 조직에 보안 대응 팀이 있는 경우 이제 티켓 시스템을 포함하여 Office 365 프로세스에 Microsoft Defender를 통합하기 시작할 시간입니다. 이 항목은 전체 항목 자체에 해당하지만 간과하기도 합니다. 보안 대응 팀을 조기 구성하면 MX 레코드를 전환할 때 조직에서 위협을 대응할 준비가 되도록 할 수 있습니다. 인시던트 대응을 잘 갖추어 다음 작업을 처리해야 합니다.
 
-- 새 도구를 알아보고 기존 흐름에 통합합니다. 예제:
+- 새 도구를 알아보고 기존 흐름에 통합합니다. 예를 들면 다음과 같습니다.
   - 분리된 메시지의 관리자 관리가 중요합니다. 자세한 내용은 [관리자로 quarantined messages and files를 참조하세요.](manage-quarantined-messages-and-files.md)
   - 메시지 추적을 사용하면 메시지가 메시지에 들어오거나 메시지에서 나갈 때 어떤 일이 Microsoft 365. 자세한 내용은 의 최신 Exchange 관리 센터의 메시지 [추적을 Exchange Online.](/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
 - 조직에 들어와 있을 수 있는 위험을 식별합니다.
@@ -229,4 +229,4 @@ MX 레코드를 전환하여 MX 레코드를 전환할 준비가 된 경우 이 
 
 - 사용자 제출, 특히 사용자가 보고한 [피싱 메시지를 검토합니다.](/microsoft-365/security/office-365-security/automated-investigation-response-office.md#example-a-user-reported-phish-message-launches-an-investigation-playbook)
 - 위협 방지 상태 보고서에서 재지정을 [검토합니다.](view-email-security-reports.md#threat-protection-status-report)
-- 고급 [헌팅](/microsoft-365/security/defender/advanced-hunting-example.md) 쿼리를 사용하여 조정 기회 및 위험한 메시지를 검색합니다.
+- 고급 [헌팅](/microsoft-365/security/defender/advanced-hunting-example) 쿼리를 사용하여 조정 기회 및 위험한 메시지를 검색합니다.

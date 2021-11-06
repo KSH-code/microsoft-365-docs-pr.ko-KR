@@ -483,6 +483,7 @@
 
 
 ## 참조
+### [위협 인텔리전스 개념 이해](threat-indicator-concepts.md)
 ### [다른 Microsoft 솔루션과 통합 구성]()
 #### [조건부 액세스 구성](configure-conditional-access.md)
 #### [Microsoft Cloud App Security 통합 구성](microsoft-cloud-app-security-config.md)
@@ -496,7 +497,7 @@
 ###### [Hello World](api-hello-world.md)
 ###### [응용 프로그램 컨텍스트를 사용하여 액세스](exposed-apis-create-app-webapp.md)
 ###### [사용자 컨텍스트를 사용하여 액세스](exposed-apis-create-app-nativeapp.md)
-###### [파트너 응용 프로그램에 액세스하기](exposed-apis-create-app-partners.md)
+
 
 
 ##### [엔드포인트용 Microsoft Defender API 스키마]() 
@@ -645,13 +646,9 @@
 
 
 #### [SIEM 통합]()
-##### [위협 인텔리전스 개념 이해](threat-indicator-concepts.md)
-##### [검색 결과를 끌어오는 다양한 방법에 대해 자세히 알아보기](configure-siem.md)
-##### [SIEM 통합 사용](enable-siem-integration.md)
-##### [검색 결과를 끌어오도록 Micro Focus ArcSight 구성](configure-arcsight.md)
+##### [엔드포인트용 Microsoft Defender를 사용하여 SIEM 도구 통합](configure-siem.md)
 ##### [엔드포인트용 Microsoft Defender 검색 필드](api-portal-mapping.md)
 ##### [SIEM REST API를 사용하여 검색 결과 끌어오기](pull-alerts-using-rest-api.md)
-##### [고객 테넌트에서 경고 페치](fetch-alerts-mssp.md)
 ##### [SIEM 도구 통합 문제 해결](troubleshoot-siem.md)
 
 #### [파트너 및 API]()
@@ -666,19 +663,24 @@
 ###### [장치 그룹 사용](machine-groups.md)
 ###### [장치 태그 만들기 및 관리](machine-tags.md)
 
-#### [MSSP(관리형 보안 서비스 공급자) 통합]()
-##### [관리형 보안 서비스 공급자 통합 구성](configure-mssp-support.md)
-##### [관리되는 보안 서비스 공급자 지원](mssp-list.md)
-##### [MSSP 액세스를 포털에 부여](grant-mssp-access.md)
-##### [MSSP 고객 포털에 액세스](access-mssp-portal.md)
-##### [경고 알림 구성](configure-mssp-notifications.md)
-##### [파트너 응용 프로그램에 액세스하기](exposed-apis-create-app-partners.md)
 
+
+
+
+
+
+### [MSSP(관리형 보안 서비스 공급자) 통합]()
+#### [관리형 보안 서비스 공급자 통합 구성](configure-mssp-support.md)
+#### [관리되는 보안 서비스 공급자 지원](mssp-list.md)
+#### [MSSP 액세스를 포털에 부여](grant-mssp-access.md)
+#### [MSSP 고객 포털에 액세스](access-mssp-portal.md)
+#### [경고 알림 구성](configure-mssp-notifications.md)
+#### [파트너 응용 프로그램에 액세스하기](exposed-apis-create-app-partners.md)
+#### [고객 테넌트에서 경고 페치](fetch-alerts-mssp.md)
+#### [관리형 보안 서비스 공급자 기회](mssp-support.md)
 ### [파트너 통합 시나리오]()
 #### [기술 파트너 기회](partner-integration.md)
-#### [관리형 보안 서비스 공급자 기회](mssp-support.md)
 #### [엔드포인트용 Microsoft Defender 파트너 자격](get-started-partner-integration.md) 
-
 ### [통합]()
 #### [엔드포인트용 Microsoft Defender 통합](threat-protection-integration.md)
 #### [조건부 액세스로 사용자, 데이터 및 장치 보호](conditional-access.md)

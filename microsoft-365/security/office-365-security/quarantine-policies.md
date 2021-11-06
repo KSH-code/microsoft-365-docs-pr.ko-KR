@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 사용자가 메시지를 검사하기 위해 할 수 있는 작업을 제어하기 위해 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c5c9709d0e7c0313035a5f0603a8241cc24b1930
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 1849e131573b0c7a09bec0be665bad43acdf911a
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60703220"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804956"
 ---
 # <a name="quarantine-policies"></a>격리 정책
 
@@ -63,8 +63,8 @@ EOP(Exchange Online Protection(Exchange Online Protection) 및 Microsoft Defende
 
 |기본 검지 정책|사용된 사용 권한 그룹|알림을 검사할 수 있나요?|
 |---|---|---|
-|AdminOnlyAccessPolicy|액세스 권한 없음|아니요|
-|DefaultFullAccessPolicy|모든 액세스|아니요|
+|AdminOnlyAccessPolicy|액세스 권한 없음|아니오|
+|DefaultFullAccessPolicy|모든 액세스|아니오|
 |NotificationEnabledPolicy<sup>\*</sup>|모든 액세스|예|
 
 미리 설정한 사용 권한 그룹에서 기본 사용 권한을 원하지 않는 경우 또는 알림을 사용하도록 설정하려면 사용자 지정 검지 정책을 만들고 사용 합니다. 각 사용 권한의 작동에 대한 자세한 내용은 이 문서 의 부분에 있는 정책 사용 권한 세부 정보 [섹션을](#quarantine-policy-permission-details) 참조하십시오.
@@ -83,7 +83,7 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 
 앞에서 설명한 대로, 스팸 방지 정책에서 켜거나 끄는 데 사용한 최종 사용자 스팸 알림은 정책에 있는 검지 알림을 대체합니다. DefaultFullAccessPolicy라는 기본 제공 검역 정책은 검역된 메시지에 대한 기록 권한을 복제하지만, 검역 알림은 검역 정책에서 설정되지 않습니다.   또한 기본 제공 정책을 수정할 수 없습니다. DefaultFullAccessPolicy에서 알림을 끄면 안 됩니다.
 
-DefaultFullAccessPolicy의 사용 권한을 제공하지만, 검역 알림을 설정하기 위해 필요한 조직(최종 사용자 스팸 알림이 설정된 조직)에 대해 DefaultFullAccessPolicy 대신 사용할 NotificationEnabledPolicy라는 정책을 만들 수 있습니다.
+DefaultFullAccessPolicy의 사용 권한을 제공하지만, 검역 알림이 켜져 있는 경우 필요한 조직(최종 사용자 스팸 알림이 켜진 조직)에 대해 DefaultFullAccessPolicy 대신 사용할 NotificationEnabledPolicy라는 정책을 만들 수 있습니다.
 
 스팸 방지 정책에서 최종 사용자 스팸 알림을 사용하도록 설정한 적이 없는 신규 조직 또는 이전 조직의 경우 NotificationEnabledPolicy라는 검역 정책이 없습니다. 알림을 설정하는 방법은 알림이 설정되어 있는 사용자 지정 검사 정책을 만들고 사용하는 것입니다.
 
@@ -122,7 +122,7 @@ DefaultFullAccessPolicy의 사용 권한을 제공하지만, 검역 알림을 �
 5. 최종 **사용자 스팸** 알림 페이지에서 Enable **to** enable quarantine notifications(이전의 최종 사용자 스팸 알림)를 사용하도록 설정을 선택합니다. 작업을 마친 후 **다음** 을 클릭합니다.
 
    > [!NOTE]
-   > 앞서 설명한 대로 기본 제공 정책(AdminOnlyAccessPolicy 또는 DefaultFullAccessPolicy)에는 검리된 알림이 설정되어 있지 않고 정책을 수정할 수 없습니다.
+   > 앞에서 설명한 대로 기본 제공 정책(AdminOnlyAccessPolicy 또는 DefaultFullAccessPolicy)에는 검리된 알림이 설정되어 있지 않고 정책을 수정할 수 없습니다.
 
 6. 정책 **검토 페이지에서** 설정을 검토합니다. 각 섹션에서 **편집** 선택하여 섹션 내의 설정을 수정할 수 있습니다. 또는 **뒤로** 를 클릭하거나 마법사에서 특정 페이지를 선택할 수 있습니다.
 
@@ -251,7 +251,7 @@ New-QuarantinePolicy -Name LimitedAccess -EndUserQuarantinePermissions $LimitedA
 |피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호(](set-up-anti-phishing-policies.md#spoof-settings) _AuthenticationFailAction_)</li><li>[에 대한 Defender의](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)가장 Office 365:<ul><li>**가장된** 사용자로 메시지가 검색된 경우(_TargetedUserProtectionAction_)</li><li>**가장된** 도메인으로 메시지가 검색된 경우(_TargetedDomainProtectionAction_)</li><li>**사서함 인텔리전스가** 사용자를 검색하고 가장하는 경우(_MailboxIntelligenceProtectionAction_)</li></ul></li></ul>|예|<ul><li>DefaultFullAccessPolicy(모든 <sup>\*</sup> 액세스)</li><li>가장 보호:<ul><li>DefaultFullAccessPolicy(모든 <sup>\*</sup> 액세스)</li><li>DefaultFullAccessPolicy(모든 <sup>\*</sup> 액세스)</li><li>DefaultFullAccessPolicy(모든 <sup>\*</sup> 액세스)</li></ul></li></ul>|
 |[맬웨어 방지 정책:](configure-anti-malware-policies.md)검색된 모든 메시지는 항상 차단됩니다.|예|AdminOnlyAccessPolicy(액세스 없음)|
 |[금고 보호](safe-attachments.md): <ul><li>첨부 파일 정책에 의해 맬웨어로 금고 전자 메일 _메시지(사용_ 및 _작업)_</li><li>맬웨어로 금고, 파일 및 SharePoint, OneDrive 첨부 [파일로 Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li></ul>|<ul><li>예</li><li>아니요</li></ul>|<ul><li>AdminOnlyAccessPolicy(액세스 없음)</li><li>해당 없음</li></ul>|
-|[메일 흐름 규칙(전송](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 규칙)에 다음  작업을 수행하여 메시지를 호스팅된 검사(_Quarantine)로 배달합니다._|아니요|해당 없음|
+|[메일 흐름 규칙(전송](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 규칙)에 다음  작업을 수행하여 메시지를 호스팅된 검사(_Quarantine)로 배달합니다._|아니오|해당 없음|
 |
 
 <sup>\*</sup> 이 [문서에서 설명한 바와](#full-access-permissions-and-quarantine-notifications)같이 조직에서는 DefaultFullAccessPolicy 대신 NotificationEnabledPolicy를 사용할 수 있습니다. 이러한 두 개의 검사 정책 간의 유일한 차이점은 NotificationEnabledPolicy에서 알림을 설정하고 DefaultFullAccessPolicy에서 해제했다는 것입니다.
@@ -261,7 +261,7 @@ New-QuarantinePolicy -Name LimitedAccess -EndUserQuarantinePermissions $LimitedA
 > [!NOTE]
 > 기본 최종 사용자 권한 및 기본 검사 정책에 의해 제공(또는 제공되지 않은) 알림이 만족스러우면 아무 것도 할 필요가 없습니다. 사용자로 분리된 메시지에 대해 최종 사용자 기능(사용 가능한 단추)을 추가하거나 제거하거나, 검지 알림을 사용하도록 설정하고, 검사 알림에 동일한 기능을 추가하거나 제거하려는 경우 다른 검지 정책을 검지 작업에 할당할 수 있습니다.
 
-## <a name="assign-quarantine-policies-in-supported-polices-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 지원되는 정책에 Microsoft 365 Defender 할당
+## <a name="assign-quarantine-policies-in-supported-policies-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 지원되는 정책에 Microsoft 365 Defender 할당
 
 ### <a name="anti-spam-policies"></a>스팸 방지 정책.
 
@@ -295,7 +295,7 @@ New-QuarantinePolicy -Name LimitedAccess -EndUserQuarantinePermissions $LimitedA
 
 **참고:**
 
-- _PhishSpamAction_ 및 _HighConfidencePhishAction_ 매개 변수의 기본값은 Quarantine이기 때문에 PowerShell에서 새 스팸 필터 정책 만들기 시 이러한 매개 변수를 사용할 필요가 없습니다. 새 스팸 방지 정책 또는 기존 스팸 방지 정책의 _SpamAction,_ _HighConfidenceSpamAction_ 및 _BulkSpamAction_ 매개 변수의 경우, 해당 값이 Quarantine인 경우만 해당 정책이 적용됩니다.
+- _PhishSpamAction_ 및 _HighConfidencePhishAction_ 매개 변수의 기본값은 Quarantine이기 때문에 PowerShell에서 새 스팸 필터 정책을 만들 때 이러한 매개 변수를 사용할 필요가 없습니다. 새 스팸 방지 정책 또는 기존 스팸 방지 정책의 _SpamAction,_ _HighConfidenceSpamAction_ 및 _BulkSpamAction_ 매개 변수의 경우, 해당 값이 Quarantine인 경우만 해당 정책이 적용됩니다.
 
   기존 스팸 방지 정책에서 중요한 매개 변수 값을 표시하기 위해 다음 명령을 실행합니다.
 
@@ -363,7 +363,7 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
    ![피싱 방지 정책에서 정책 선택을 검사합니다.](../../media/quarantine-tags-in-anti-phishing-policies.png)
 
-피싱 방지 정책을 만들고 수정하기 위한 전체 지침은 다음 항목에서 사용할 수 있습니다.
+다음 항목에서는 피싱 방지 정책을 만들고 수정하기 위한 전체 지침을 사용할 수 있습니다.
 
 - [EOP에서 스팸 방지 정책 구성](configure-anti-phishing-policies-eop.md)
 - [Microsoft Defender에서 피싱 방지 정책 Office 365](configure-mdo-anti-phishing-policies.md)
@@ -609,7 +609,7 @@ PowerShell을 사용하여 정책을 보시고자 하는 경우 다음 단계를
 
 ## <a name="modify-quarantine-policies-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 Microsoft 365 Defender 수정
 
-AdminOnlyAccessPolicy 또는 DefaultFullAccessPolicy라는 기본 제공 정책을 수정할 수 없습니다. NotificationEnabledPolicy(있는 경우) 및 사용자[](#full-access-permissions-and-quarantine-notifications)지정 검지 정책이라는 기본 제공 정책을 수정할 수 있습니다.
+AdminOnlyAccessPolicy 또는 DefaultFullAccessPolicy라는 기본 제공 검지 정책을 수정할 수 없습니다. NotificationEnabledPolicy(있는 경우) 및 사용자[](#full-access-permissions-and-quarantine-notifications)지정 검지 정책이라는 기본 제공 정책을 수정할 수 있습니다.
 
 1. Microsoft 365 Defender 포털에서 전자 메일 &  위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
 
@@ -674,7 +674,7 @@ Remove-QuarantinePolicy -Identity "<QuarantinePolicyName>"
 - 보안 관리자
 - 조직 관리(전역 관리자)
 
-관리자는 전자 메일 알림 받는 사람을 사용자 지정하거나 추가 옵션에 대한 사용자 지정 경고 정책을 만들 수 있습니다.
+관리자는 전자 메일 알림 받는 사람을 사용자 지정하거나 추가 옵션을 위한 사용자 지정 경고 정책을 만들 수 있습니다.
 
 경고 정책에 대한 자세한 내용은 [Microsoft 365의 경고 정책](../../compliance/alert-policies.md)을 참조하세요.
 
@@ -690,7 +690,7 @@ Remove-QuarantinePolicy -Identity "<QuarantinePolicyName>"
 
 검지 정책에 액세스 권한  없음(관리자만 액세스)을 할당하면 사용자는 다음으로 확인된 메시지를 볼 수 없습니다.
 
-- **Quarantined message details:** No messages will show in the end user view.
+- **Quarantined message details**: No messages will show in the end-user view.
 - **알림 검량:** 해당 메시지에 대한 알림이 전송되지 않습니다.
 
 #### <a name="limited-access"></a>제한된 액세스

@@ -1,8 +1,7 @@
 ---
-title: 끝점 검색 API 필드에 대한 Microsoft Defender
-description: 검색 API 필드가 검색 API 필드의 값에 매핑되는 Microsoft 365 Defender
+title: 끝점용 Microsoft Defender 경고 필드
+description: 경고 필드가 끝점용 Microsoft Defender의 값에 매핑하는 방법 이해
 keywords: 검색, 검색 필드, 필드, api, 필드, 검색 끌어오기, rest api, 요청, 응답
-search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -17,14 +16,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8913573f534dcb106ad4310171a90e4099a1ac99
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 08a280130f7bd7566c0ef3998034998b5eff5ef6
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587376"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804782"
 ---
-# <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>끝점 검색 API 필드에 대한 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-alert-fields"></a>끝점용 Microsoft Defender 경고 필드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -57,7 +56,7 @@ ArcSight 필드 열에는 끝점용 Defender 필드와 ArcSight의 기본 제공
 > |1|AlertTitle|name|Microsoft Defender AV에서 'Mikatz' 높은 심각도 맬웨어 검색|모든 검색에 사용할 수 있는 값입니다.|
 > |2|심각도|deviceSeverity|높음|모든 검색에 사용할 수 있는 값입니다.|
 > |3 |범주|deviceEventCategory|맬웨어|모든 검색에 사용할 수 있는 값입니다.|
-> |4 |검색 원본|sourceServiceName|바이러스 검사|Microsoft Defender 바이러스 백신 또는 Defender for Endpoint. 모든 검색에 사용할 수 있는 값입니다.|
+> |4|검색 원본|sourceServiceName|바이러스 검사|Microsoft Defender 바이러스 백신 또는 Defender for Endpoint. 모든 검색에 사용할 수 있는 값입니다.|
 > |5|MachineName|sourceHostName|desktop-4a5ngd6|모든 검색에 사용할 수 있는 값입니다.|
 > |6 |FileName|fileName|Robocopy.exe|파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.|
 > |7 |FilePath|filePath|C:\Windows\System32\Robocopy.exe|파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.|
