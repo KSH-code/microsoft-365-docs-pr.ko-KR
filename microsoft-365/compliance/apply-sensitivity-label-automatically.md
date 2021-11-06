@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 1ad7ba8af90a099ccc7d1072397c77ed2de387c0
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: f04044d1c0b951dc62e3d515f951faf8625e1b44
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60647740"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785645"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -418,6 +418,8 @@ OneDrive 및 SharePoint에 대한 자동 레이블 지정 정책에 대한 최�
 ## <a name="tips-to-increase-labeling-reach"></a>레이블 지정 범위를 늘리기 위한 팁
 
 자동 레이블 지정은 조직에서 소유하는 Office 파일을 분류, 레이블 지정 및 보호하는 가장 효율적인 방법 중 하나이지만 레이블 지정 범위를 늘리기 위해 추가 방법으로 자동 레이블 지정을 보완할 수 있는지 확인하세요.
+
+- SharePoint Syntex를 사용하면 [문서 이해 모델에 민감도 레이블을 적용](/microsoft-365/contentunderstanding/apply-a-sensitivity-label-to-a-model)하여 SharePoint 라이브러리에서 식별된 문서에 자동으로 레이블을 지정할 수 있습니다.
 
 - [Azure Information Protection 통합 레이블 지정 클라이언트](/azure/information-protection/rms-client/aip-clientv2)를 사용하는 경우:
 

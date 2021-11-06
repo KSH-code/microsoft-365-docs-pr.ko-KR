@@ -122,6 +122,8 @@
               href: ../defender-identity/entity-tags.md
             - name: 보안 경고 관리
               href: ../defender-identity/manage-security-alerts.md
+            - name: 탐지 제외 구성
+              href: ../defender-identity/exclusions.md
             - name: 전자 메일 및 syslog 알림
               href: ../defender-identity/notifications.md
     - name: 위협 조사 및 대응
@@ -304,7 +306,7 @@
               href: ../mtp/microsoft-threat-experts.md
             - name: Microsoft 위협 전문가 기능 구성 및 관리
               href: ../mtp/configure-microsoft-threat-experts.md
-    - name: 보안 운영 가이드
+    - name: 보안 작업 가이드
       items:
         - name: 개요
           href: integrate-microsoft-365-defender-secops.md

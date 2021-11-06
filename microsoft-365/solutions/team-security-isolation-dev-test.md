@@ -14,14 +14,14 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom: ''
+ms.custom: admindeeplinkCOMPLIANCE
 description: 직원이 언제 어디서나 원격으로 작업할 수 있는 보안 및 인프라를 구성하세요.
-ms.openlocfilehash: 1aad52292578a292b66530cad01ce8820e132b26
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: b7c96cac2820f5ace71f18287e1d4b3e74e4444f
+ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753120"
+ms.locfileid: "60786401"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>개발/테스트 환경에서 보안 격리를 사용하여 팀 구성
 
@@ -139,7 +139,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 다음 단계를 따릅니다.
 
-1. Microsoft 365 규정 준수 센터를 열고 **솔루션** 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174015" target="_blank">**정보 보호**</a>를 선택합니다.
+1. Microsoft 365 규정 준수 센터를 열고 **솔루션** 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174015" target="_blank">**Information Protection**</a>을 선택합니다.
 1. **레이블 만들기** 를 클릭합니다.
 1. 레이블 이름에 대한 **회사 전략** 을 입력합니다.
 1. 툴팁으로 **선임 리더십 회사 전략 문서** 를 입력한 다음 **다음** 을 클릭하세요.
@@ -156,7 +156,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 다음 단계에 따라 새 레이블을 게시합니다.
 
-1. 이 Microsoft 365 규정 준수 센터의 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174015" target="_blank">**정보 보호**</a>에서 **레이블 정책** 탭을 선택합니다.
+1. Microsoft 365 규정 준수 센터의 <a href="https://go.microsoft.com/fwlink/p/?linkid=2174015" target="_blank">**Information Protection**</a>에서 **레이블 정책** 탭을 선택합니다.
 2. **레이블 게시** 를 클릭합니다.
 3. **민감도 레이블을 게시하도록 선택** 페이지에서 **민감도 레이블을 게시하도록 선택** 을 클릭합니다.
 4. **회사 전략** 을 선택한 다음 **추가** 를 클릭하세요.
