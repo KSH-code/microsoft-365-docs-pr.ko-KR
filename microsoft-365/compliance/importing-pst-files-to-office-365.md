@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkMAC
 description: Microsoft 365 규정 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: 7f632288b339cbccb99bd07330ebe705471340aa
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 721129905d6d0818304972572b1515ff167bffc8
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701952"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804932"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -171,9 +171,10 @@ PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유
 
 트워크 용량에 따라 달라지지만 1TB(테라바이트)의 데이터를 조직의 Azure Storage 영역에 업로드하는 데 일반적으로 몇 시간이 걸립니다. PST 파일을 Azure Storage 영역으로 복사한 후 약 하루당 24GB 속도로 PST 파일을 Microsoft 365 사서함으로 가져올 수 있습니다<sup>\*</sup>. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
 
-<sup>\*</sup>이 속도는 보장되지 않습니다. 서버 워크로드 및 일시적인 성능 문제로 이 속도가 저하될 수 있습니다.
-
 다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 여러 PST 파일을 동일한 사서함으로 가져오는 경우 동시에 가져오지 않고 순차적으로(한 번에 하나씩) 가져옵니다.
+
+> [!NOTE]
+> <sup>\*</sup>이 속도는 보장되지 않습니다. 서버 워크로드 및 일시적인 성능 문제로 이 속도가 저하될 수 있습니다.
 
 #### <a name="how-does-the-pst-import-process-handle-duplicate-email-items"></a>PST 가져오기 프로세스는 중복 전자 메일 항목을 어떻게 처리합니까?
 
@@ -256,9 +257,12 @@ Microsoft 데이터 센터에서 하드 드라이브를 받은 후 PST 파일을
 
 #### <a name="how-long-does-it-take-to-import-a-pst-file-to-a-mailbox-using-drive-shipping"></a>드라이브 이동을 사용하여 PST 파일을 사서함으로 가져오는 데 얼마나 걸리나요?
 
-PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST 파일의 데이터를 안전한 방법으로 분석하여 항목 경과 시간과 PST 파일에 포함된 다양한 메시지 유형을 식별합니다. 분석이 완료되면 PST 파일의 모든 데이터를 가져오거나 필터를 설정하여 가져온 데이터를 제어할 수 있는 옵션이 나타납니다. 가져오기 작업을 시작하면 하루당 최소 24GB의 속도로 PST 파일을 Microsoft 365 사서함으로 가져옵니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Microsoft 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
+PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST 파일의 데이터를 안전한 방법으로 분석하여 항목 경과 시간과 PST 파일에 포함된 다양한 메시지 유형을 식별합니다. 분석이 완료되면 PST 파일의 모든 데이터를 가져오거나 필터를 설정하여 가져온 데이터를 제어할 수 있는 옵션이 나타납니다. 가져오기 작업을 시작하면 일일 약 24GB의 속도로 PST 파일을 Microsoft 365 사서함으로 가져옵니다.<sup>\*</sup> 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Microsoft 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
 
 다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 여러 PST 파일을 동일한 사서함으로 가져오는 경우 동시에 가져오지 않고 순차적으로(한 번에 하나씩) 가져옵니다.
+
+> [!NOTE]
+> <sup>\*</sup>이 속도는 보장되지 않습니다. 서버 워크로드 및 일시적인 성능 문제로 이 속도가 저하될 수 있습니다.
 
 #### <a name="after-microsoft-uploads-my-pst-files-to-azure-how-long-are-they-kept-in-azure-before-theyre-deleted"></a>Microsoft에서 Azure에 내 PST 파일을 업로드한 후 삭제되기까지 Azure에서 얼마나 보관되나요?
 

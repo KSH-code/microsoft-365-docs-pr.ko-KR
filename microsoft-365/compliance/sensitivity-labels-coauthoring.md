@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: 5b1ad39feeebdbf44a83e09e1daa25794ebc98fa
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 64d4239eeda905d9b0d924804bed6795b7ca5673
+ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60698432"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60804896"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -55,11 +55,11 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 
 조직 내에 이전 위치에 레이블 지정 메타데이터를 읽거나 쓰는 앱, 서비스, 스크립트 또는 도구가 있다면, 이러한 변경 때문에 이 설정을 사용하지 마세요. 그럴 경우 다음과 같은 결과가 나타날 수 있습니다.
 
-- 레이블을 지정한 문서가 사용자에게 레이블이 없는 것으로 표시됨
+- 레이블을 지정한 문서가 사용자에게 레이블이 없는 것으로 표시됩니다.
 
-- 문서에서 사용자에게 기간이 지난 레이블을 표시함
+- 문서에서 사용자에게 기간이 지난 레이블을 표시합니다.
 
-- 다른 사용자가 새 레이블 메타데이터를 지원하지 않는 Office 데스크톱 앱에서 문서를 연 경우 공동 작성 및 암호화된 문서에는 공동 작성 및 자동 저장이 작동하지 않습니다.
+- 다른 사용자가 새 레이블 메타데이터를 지원하지 않는 Office 데스크톱 앱에서 문서를 연 경우 공동 작성 및 암호화된 문서에는 공동 작성 및 자동 저장이 작동하지 않습니다. 외부 사용자 및 초대된 게스트가 파일을 연 경우 조직 외부 사용자에 대해서도 이 시나리오가 발생할 수 있습니다.
 
 - [Office 첨부 파일에서 레이블을 사용자 지정 속성으로 식별하는](/azure/information-protection/configure-exo-rules#example-2-rule-that-applies-the-encrypt-only-option-to-emails-when-they-have-attachments-that-are-labeled-confidential--partners-and-these-emails-are-sent-outside-the-organization) Exchange Online 메일 흐름 규칙이 전자 메일 및 첨부 파일을 암호화하지 못하거나 잘못 암호화합니다.
 
