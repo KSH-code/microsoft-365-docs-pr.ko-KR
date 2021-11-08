@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: reference
 ms.technology: mde
-ms.openlocfilehash: c29570668f6fcf542ef3336c8053b395331fcce2
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: 416bea849ac493afd96f9c3969f9f9642135d8a1
+ms.sourcegitcommit: 854f20e8b7d3ef8f4c14cf189560f76056552334
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792547"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60825602"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-android"></a>Android의 끝점용 Microsoft Defender의 새로운
 
@@ -34,13 +34,11 @@ ms.locfileid: "60792547"
 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 ## <a name="upcoming-permission-changes-for-microsoft-defender-for-endpoint-running-android-11-or-later-nov-2021"></a>Android 11 이상을 실행하는 끝점용 Microsoft Defender의 예정된 사용 권한 변경 사항(2021년 11월)
-릴리스 빌드: 1.0.3501.0301 릴리스 월: 2021년 11월
+릴리스 빌드: 1.0.3501.0301 릴리스 월: 2021년 11월 Microsoft Defender for Endpoint는 Android API 30으로 업그레이드하기 위해 [Google에서](https://developer.android.com/distribute/play-policies#APILevel30) 요구하는 이 업데이트를 출시했습니다. 이 변경은 Android 11 이상을 실행하는 디바이스에 대해 새 저장소 권한 에 대한 액세스를 요청하는 사용자에게 메시지를 표시합니다. [](https://developer.android.com/training/data-storage/manage-all-files#all-files-access-google-play) 사용자는 릴리스 빌드 1.0.3501.0301 이상으로 Defender 앱을 업데이트한 후 이 새 저장소 권한을 수락해야 합니다. 이렇게 하면 중단 없이 Defender의 '앱 보안' 기능이 작동할 수 있습니다. 자세한 내용은 다음 섹션의 세부 정보를 참조하세요.
 
-끝점용 Microsoft Defender는 [Google이 Android](https://developer.android.com/distribute/play-policies#APILevel30) API 30으로 업그레이드할 수 있도록 합니다. 이 변경은 Android [](https://developer.android.com/training/data-storage/manage-all-files#all-files-access-google-play) 11 이상을 실행하는 장치에 대한 새 저장소 권한을 묻는 메시지를 표시합니다. 사용자는 릴리스 빌드 1.0.3501.0301 이상으로 Defender 앱을 업데이트한 후 이 새 저장소 권한을 수락해야 합니다. 이렇게 하면 중단 없이 Defender의 '앱 보안' 기능이 작동할 수 있습니다. 자세한 내용은 다음 섹션의 세부 정보를 참조하세요.
-
-**조직에 미치는 영향:**
-
-Android 11 이상을 실행하는 장치에서 끝점용 Microsoft Defender를 사용하고 빌드 1.0.3501.0301 이상을 릴리스하기 위해 Defender를 업데이트한 경우 이러한 변경 내용이 영향을 미치게 됩니다. 이 설정은 관리자를 통해 구성할 수 Microsoft Endpoint Manager. 위에서 언급한 Google API 변경으로 인해 사용자는 조치를 취해야 합니다.
+**조직에 미치는 영향:** Android 11 이상을 실행하는 장치에서 끝점용 Microsoft Defender를 사용하고 빌드 1.0.3501.0301 이상을 릴리스하기 위해 Defender를 업데이트한 경우 이러한 변경 내용이 영향을 미치게 됩니다.
+>[!NOTE]
+> 새 저장소 사용 권한은 관리자가 새 저장소를 통해 '자동 승인'하도록 구성할 수 Microsoft Endpoint Manager. 사용자는 이 사용 권한에 대한 액세스를 제공하기 위해 조치를 취해야 합니다.
 
 - **사용자 환경:** 사용자는 앱 보안에 대한 사용 권한이 누락되었음을 나타내는 알림을 받게 됩니다. 사용자가 이 권한을 거부하면 장치에서 '앱 보안' 기능이 꺼집니다. 사용자가 권한을 수락하거나 거부하지 않는 경우 승인될 때까지 디바이스 잠금을 해제하거나 앱을 열 때 메시지가 계속 표시됩니다.
 

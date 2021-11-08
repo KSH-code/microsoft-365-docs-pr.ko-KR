@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기에서 사용할 수 있는 레이블 지정 활동 목록입니다.
-ms.openlocfilehash: ed1b207f4d0879185d757e2481cc3e8879293710
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f93fe7f6301e079cdfbbed080d8073d562c6ac8f
+ms.sourcegitcommit: 854f20e8b7d3ef8f4c14cf189560f76056552334
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60173478"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60825566"
 ---
 # <a name="labeling-activities-that-are-available-in-activity-explorer"></a>활동 탐색기에서 사용할 수 있는 레이블 지정 활동
 
@@ -44,9 +44,10 @@ ms.locfileid: "60173478"
 |Exchange        |예         | |
 |AIP(Azure Information Protection) 통합 클라이언트 및 AIP 통합 스캐너 |예 |AIP *새 레이블 동작이* 활동 탐색기에서 *적용된 레이블에* 매핑됩니다.   |
 |MIP(Microsoft 정보 보호) SDK         |예|AIP *새 레이블 동작이* 활동 탐색기에서 *적용된 레이블에* 매핑됩니다.|
-|RMS(권한 관리 서비스)         |해당 없음         | |
-|Power BI 및 웹        | 아니요| 감사 로그에서 Microsoft 365 액세스할 수 있습니다.         |
+|RMS(권한 관리 서비스)         |해당 사항 없음         | |
+|Power BI 및 웹        | 아니오| 감사 로그에서 Microsoft 365 액세스 가능         |
 |Microsoft Cloud App Security(MCAS)         |아니요|         |
+
 
 ## <a name="sensitivity-label-changed"></a>민감도 레이블 변경
 
@@ -57,7 +58,7 @@ ms.locfileid: "60173478"
 - 기본 응용 프로그램 및 웹 응용 프로그램에서 저장 Office 캡처됩니다. 
 - Azure Information Protection 통합 클라이언트 추가 기능 및 스캐너 적용에서 발생 시 캡처됩니다.
 - 레이블 이벤트 유형 필드 및 필터를 통해  레이블 업그레이드 및 다운그레이드 작업을 모니터링할 수도 있습니다. 온라인 *및* 온라인을 제외한 SharePoint 텍스트도 OneDrive.
-- Office 기본 앱에서 수행한 민감도 레이블 Outlook 파일 저장/전자 메일 보내기 작업 전에 생성된 마지막 작업을 수집합니다. 예를 들어 사용자가 보내기 전에 전자 메일에서 레이블을 여러 번 변경하는 경우 전자 메일이 전송될 때 찾은 마지막 레이블이 감사 로그에 캡처된 다음 활동 탐색기에서 보고됩니다. 
+- Office 기본 앱에서 수행한 민감도 레이블 Outlook 파일 저장/전자 메일 보내기 작업 전에 생성된 마지막 작업을 수집합니다. 예를 들어 사용자가 보내기 전에 전자 메일의 레이블을 여러 번 변경하는 경우 전자 메일이 전송될 때 찾은 마지막 레이블이 감사 로그에 캡처된 다음 활동 탐색기에서 보고됩니다. 
 
 
 |원본  |활동 탐색기에서 보고|참고  |
@@ -70,8 +71,9 @@ ms.locfileid: "60173478"
 |AIP 통합 스캐너         |예         |
 |MIP SDK         |예         |
 |RMS 서비스         |해당 없음         |
-|Power BI 및 웹         |아니요         |감사 로그에서 Microsoft 365 액세스할 수 있습니다. |
-|MCAS     |아니요         |         |
+|Power BI 및 웹         |아니요         |감사 로그에서 Microsoft 365 액세스 가능 |
+|MCAS     |아니오         |         |
+
 
 ## <a name="sensitivity-label-removed"></a>민감도 레이블 제거됨
 
@@ -87,12 +89,13 @@ ms.locfileid: "60173478"
 |Outlook         |예         ||
 |SharePoint 온라인, OneDrive         |예         |
 |Exchange         |예         |
-|AIP 통합 클라이언트         |예         |AIP *레이블 제거 작업은* 활동 탐색기에서 레이블 제거 *동작에* 매핑됩니다.|
-|AIP 통합 스캐너         |예         |AIP *레이블 제거 작업은* 활동 탐색기에서 레이블 제거 *동작에* 매핑됩니다. |
-|MIP SDK         |예         |AIP *레이블 제거 작업은* 활동 탐색기에서 레이블 제거 *동작에* 매핑됩니다. |
+|AIP 통합 클라이언트         |예         |AIP *레이블 제거 작업은* 활동 탐색기에서 레이블 *제거 동작에* 매핑됩니다.|
+|AIP 통합 스캐너         |예         |AIP *레이블 제거 작업은* 활동 탐색기에서 레이블 *제거 동작에* 매핑됩니다. |
+|MIP SDK         |예         |AIP *레이블 제거 작업은* 활동 탐색기에서 레이블 *제거 동작에* 매핑됩니다. |
 |RMS 서비스         |해당 없음         |
-|Power BI 및 웹         |아니요         |감사 로그에서 Microsoft 365 액세스할 수 있습니다. |
-|MCAS     |아니요         |         |
+|Power BI 및 웹         |아니요         |감사 로그에서 Microsoft 365 액세스 가능 |
+|MCAS     |아니오         |         |
+
  
 
 ## <a name="sensitivity-label-file-read"></a>민감도 레이블 파일 읽기
@@ -102,15 +105,16 @@ ms.locfileid: "60173478"
 |원본  |활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |예         |
-|Outlook         |아니요         |
-|SharePoint 온라인, OneDrive         |아니요         |
-|Exchange         |아니요         |
-|AIP 통합 클라이언트         |예         |AIP *액세스 작업이* 활동 탐색기에서 *파일* 읽기 작업으로 매핑됩니다.|
-|AIP 통합 스캐너         |예         |AIP *액세스 작업이* 활동 탐색기에서 *파일* 읽기 작업으로 매핑됩니다.|
-|MIP SDK         |예         |AIP *액세스 작업이* 활동 탐색기에서 *파일* 읽기 작업으로 매핑됩니다.|
-|RMS 서비스         |예         |액세스 *작업이* 활동 탐색기에서 *파일 읽기* 작업으로 매핑됩니다. |
-|Power BI 및 웹         |아니요         |감사 로그에서 Microsoft 365 액세스할 수 있습니다. |
-|MCAS     |아니요         |         |
+|Outlook         |아니오         |
+|SharePoint 온라인, OneDrive         |아니오         |
+|Exchange         |아니오         |
+|AIP 통합 클라이언트         |예         |AIP *액세스 동작이* 활동 탐색기에서 *파일* 읽기 동작에 매핑됩니다.|
+|AIP 통합 스캐너         |예         |AIP *액세스 동작이* 활동 탐색기에서 *파일* 읽기 동작에 매핑됩니다.|
+|MIP SDK         |예         |AIP *액세스 동작이* 활동 탐색기에서 *파일* 읽기 동작에 매핑됩니다.|
+|RMS 서비스         |예         |액세스 *작업이* 활동 탐색기에서 *파일 읽기* 동작에 매핑됩니다. |
+|Power BI 및 웹         |아니오         |감사 로그에서 Microsoft 365 액세스 가능 |
+|MCAS     |아니오         |         |
+
 
 
 ## <a name="files-discovered"></a>검색된 파일
@@ -120,13 +124,13 @@ ms.locfileid: "60173478"
 |원본  |활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |해당 없음         |
-|Outlook         |해당 없음         |
+|Outlook         |해당 사항 없음         |
 |SharePoint 온라인, OneDrive         |해당 없음         |
 |Exchange         |해당 없음         |
 |AIP 통합 클라이언트         |해당 없음       |
 |AIP 통합 스캐너         |예         |AIP *검색 작업이* 활동 탐색기에서 검색된 파일에 매핑됩니다. |
 |MIP SDK         |예         |AIP *검색 작업이* 활동 탐색기에서 검색된 파일에 매핑됩니다. |
-|RMS 서비스         |해당 없음         |
+|RMS 서비스         |해당 사항 없음         |
 |Power BI 및 웹         |해당 없음         |
 |MCAS     |해당 없음         |         |
 
@@ -138,15 +142,15 @@ ms.locfileid: "60173478"
 |원본  | 활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------| 
 |Word, Excel, PowerPoint         |예         |
-|Outlook         |해당 없음         |
+|Outlook         |해당 사항 없음         |
 |SharePoint 온라인, OneDrive         |아니요        |
-|Exchange         |해당 없음         |
+|Exchange         |해당 사항 없음         |
 |AIP 통합 클라이언트         |아니요         |
-|AIP 통합 스캐너         |아니요         |
-|MIP SDK         |아니요         |
-|RMS 서비스         |아니요      |
-|Power BI 및 웹         |아니요         |
-|MCAS     |아니요         |         |
+|AIP 통합 스캐너         |아니오         |
+|MIP SDK         |아니오         |
+|RMS 서비스         |아니오      |
+|Power BI 및 웹         |아니오         |
+|MCAS     |아니오         |         |
 
 
 ## <a name="file-removed"></a>파일 제거됨
@@ -155,16 +159,16 @@ ms.locfileid: "60173478"
 
 |원본  |활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------| 
-|Word, Excel, PowerPoint         |해당 없음         |
-|Outlook         |해당 없음         |
+|Word, Excel, PowerPoint         |해당 사항 없음         |
+|Outlook         |해당 사항 없음         |
 |SharePoint 온라인, OneDrive         |해당 없음           |
-|Exchange         |해당 없음         |
+|Exchange         |해당 사항 없음         |
 |AIP 통합 클라이언트         |해당 없음            |
 |AIP 통합 스캐너         |예         |
-|MIP SDK         |해당 없음            |
+|MIP SDK         |해당 사항 없음            |
 |RMS 서비스         |해당 없음         |
-|Power BI 및 웹         |해당 없음  |
-|MCAS     |해당 없음        |         |
+|Power BI 및 웹         |해당 사항 없음  |
+|MCAS     |해당 사항 없음        |         |
 
 ### <a name="protection-applied"></a>적용된 보호
 
@@ -172,12 +176,12 @@ ms.locfileid: "60173478"
 
 |원본  |활동 탐색기에서 보고 | 참고  |
 |---------|---------|---------| 
-|Word, Excel, PowerPoint         |아니요         |
-|Outlook         |아니요         |
-|SharePoint 온라인, OneDrive         |해당 없음           |
-|Exchange         |아니요       |
+|Word, Excel, PowerPoint         |아니오         |
+|Outlook         |아니오         |
+|SharePoint 온라인, OneDrive         |해당 사항 없음           |
+|Exchange         |아니오       |
 |AIP 통합 클라이언트         |예            |
-|AIP 통합 스캐너         |해당 없음         |
+|AIP 통합 스캐너         |해당 사항 없음         |
 |MIP SDK         |예            |
 |RMS 서비스         |해당 없음         |
 |Power BI 및 웹         |해당 없음            |
@@ -189,16 +193,16 @@ ms.locfileid: "60173478"
 
 |원본  |활동 탐색기에서 보고 |
 |---------|---------| 
-|Word, Excel, PowerPoint         |아니요         |
-|Outlook         |아니요         |
-|SharePoint 온라인, OneDrive         |해당 없음           |
-|Exchange         |아니요       |
+|Word, Excel, PowerPoint         |아니오         |
+|Outlook         |아니오         |
+|SharePoint 온라인, OneDrive         |해당 사항 없음           |
+|Exchange         |아니오       |
 |AIP 통합 클라이언트         |예            |
-|AIP 통합 스캐너         |해당 없음         |
+|AIP 통합 스캐너         |해당 사항 없음         |
 |MIP SDK         |예            |
-|RMS 서비스         |해당 없음         |
+|RMS 서비스         |해당 사항 없음         |
 |Power BI 및 웹         |해당 없음            |
-|MCAS     |해당 없음        |
+|MCAS     |해당 사항 없음        |
 
 ## <a name="protection-removed"></a>보호 제거됨
 
@@ -206,12 +210,12 @@ ms.locfileid: "60173478"
 
 |원본  |활동 탐색기에서 보고 |
 |---------|---------| 
-|Word, Excel, PowerPoint         |아니요         |
-|Outlook         |아니요         |
-|SharePoint 온라인, OneDrive         |해당 없음           |
-|Exchange         |아니요       |
+|Word, Excel, PowerPoint         |아니오         |
+|Outlook         |아니오         |
+|SharePoint 온라인, OneDrive         |해당 사항 없음           |
+|Exchange         |아니오       |
 |AIP 통합 클라이언트         |예            |
-|AIP 통합 스캐너         |해당 없음         |
+|AIP 통합 스캐너         |해당 사항 없음         |
 |MIP SDK         |예            |
 |RMS 서비스         |해당 없음         |
 |Power BI 및 웹         |해당 없음            |
@@ -228,21 +232,21 @@ ms.locfileid: "60173478"
 |OneDrive |예|
 |Teams |예   |
 |Windows 10 장치         |예 |
-|MAC         |아니요     |
-|On-premises         |아니요|
-|MCAS     |아니요        | 
+|MAC         |아니오     |
+|온-프레미스         |아니오|
+|MCAS     |아니오        | 
 
 끝점 DLP(Windows 10 장치)에 대한 이벤트는 다음입니다.
 
-- 파일이 삭제되었습니다.
-- 만든 파일
+- 파일 삭제
+- 파일을 만들었음
 - 파일을 클립보드로 복사함
-- 파일 수정
+- 파일을 수정함
 - 파일 읽기
-- 인쇄된 파일
-- 파일 이름 변경
+- 파일을 인쇄함
+- 파일 이름을 바꿈
 - 파일을 네트워크 공유에 복사함
-- 허용되지 않은 앱에서 액세스하는 파일
+- 허용되지 않은 앱에서 파일에 액세스함
 
 
 ## <a name="retention-label-applied"></a>적용된 보존 레이블 
@@ -253,7 +257,7 @@ ms.locfileid: "60173478"
 
 |원본  |활동 탐색기에서 보고 |
 |---------|---------| 
-|Exchange         |아니요       |
+|Exchange         |아니오       |
 |SharePoint Online|예          |
 |OneDrive |예|
 

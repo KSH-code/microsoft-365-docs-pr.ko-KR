@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 구성 가능한 일치를 사용하도록 EDM 스키마를 수정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7d401c89ccff96615c4b367341542bf0ab5c697
-ms.sourcegitcommit: 317fab13e84b2867087a6ba0a593313ecf43bbed
+ms.openlocfilehash: 40f7ef0f538fd79c0e8ff44de32a4bdd72254f7a
+ms.sourcegitcommit: 854f20e8b7d3ef8f4c14cf189560f76056552334
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60364702"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60825554"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
 
@@ -99,8 +99,7 @@ EDM(정확한 데이터 일치) 기반 분류를 사용하면 중요한 정보 �
     - A-Z
     - a-z
     - \"
-    - \,
-    - |
+    - \,    
 
 6. [보안 및 준수 센터 PowerShell](/powershell/exchange/connect-to-scc-powershell)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
 
