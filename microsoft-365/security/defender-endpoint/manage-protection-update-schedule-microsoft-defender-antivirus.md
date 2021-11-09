@@ -2,7 +2,6 @@
 title: Microsoft Defender 바이러스 백신 보호 업데이트 예약
 description: 보호 업데이트를 다운로드해야 하는 시기에 대한 일, 시간 및 간격 예약
 keywords: 업데이트, 보안 기준, 업데이트 예약
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 search.appverid: met150
 ms.mktglfcycl: manage
@@ -17,12 +16,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: f1a163b2f56e84b7c93be99972d5aa62894edfed
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 2ef5840efae9572631694289cb53d34f14190264
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207754"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882516"
 ---
 # <a name="manage-the-schedule-for-when-protection-updates-should-be-downloaded-and-applied"></a>보호 업데이트를 다운로드하여 적용해야 하는 경우에 대한 예약 관리
 
