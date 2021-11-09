@@ -15,12 +15,12 @@ ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74a16519a6b7e6640c72eb500b1c72d5df494fd9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ec745f46790ee6d230266f010a9311e1cebb12cc
+ms.sourcegitcommit: 6d470e37b2a1c40c7f31c2365ae654a3c35d7674
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204338"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834105"
 ---
 # <a name="get-started-with-information-barriers"></a>정보 장벽 시작
 
@@ -282,9 +282,6 @@ PowerShell을 사용하면 다음 표에 나와 있는 사용자 계정, 세그�
 ## <a name="step-6-information-barriers-modes-preview"></a>6단계: 정보 장벽 모드(미리 보기)
 
 모드를 사용하면 리소스의 IB 모드를 기반으로 Microsoft 365 리소스에 대한 액세스, 공유 및 구성원 자격을 강화할 수 있습니다. 모드는 Microsoft 365, Microsoft Teams, OneDrive 및 SharePoint 사이트에서 지원되며 새 IB 구성 또는 기존 IB 구성에서 자동으로 사용하도록 설정됩니다.
-
->[!IMPORTANT]
->2021년 10월 15일 전에 테넌트에서 정보 장벽을 사용하도록 설정한 경우 추가 단계가 필요하지 않습니다. 2021년 10월 15일 이후에 테넌트에서 정보 장벽을 온보더링하는 경우 그룹이 정보 장벽 규정 준수로 전환될 수 있도록 Microsoft Teams 연결된 모든 기존 Microsoft 365 그룹에 IB 모드를 설정해야 합니다.
 
 다음 IB 모드는 모든 리소스에서 Microsoft 365 있습니다.
 
