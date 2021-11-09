@@ -2,7 +2,6 @@
 title: 성능 문제 해결
 description: 끝점용 Microsoft Defender의 실시간 보호 서비스와 관련된 높은 CPU 사용량 문제를 해결합니다.
 keywords: 문제 해결, 성능, 높은 CPU 사용률, 높은 CPU 사용, 오류, 수정, 업데이트 준수, oms, 모니터, 보고서, Microsoft Defender 바이러스 백신
-search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -12,17 +11,17 @@ ms.author: maccruz
 author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
-ms.date: 04/14/2021
+ms.date: 10/19/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b36d4d46e6a9ab8b705626ab186e06e577f2c46e
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: cf0ca72bb29c47708c497740b9bd3b64a7347136
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60665542"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60884076"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>실시간 보호와 관련된 성능 문제 해결
 
@@ -232,7 +231,7 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 
     ![세부 정보를 입력합니다.](images/wpr-12.png)
 
-    1. 파일 **이름:** 추적 파일을 저장할 위치를 결정하려면 선택합니다. 기본적으로 에 1.is `%user%\Documents\WPR Files\` 저장됩니다.
+    1. 파일 **이름:** 추적 파일을 저장할 위치를 결정하려면 선택합니다. 기본적으로 에 `%user%\Documents\WPR Files\` 저장됩니다.
     1. **저장** 을 선택합니다.
 
 14. 추적이 병합되는 동안 기다릴 수 있습니다.

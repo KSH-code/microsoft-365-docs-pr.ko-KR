@@ -2,7 +2,6 @@
 title: 엔드포인트용 Microsoft Defender 호스트 방화벽 보고
 description: 보안 센터에서 방화벽 보고를 Microsoft 365 볼 수 있습니다.
 keywords: windows defender, 방화벽
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,12 +14,12 @@ ms.author: dansimp
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6dc04eb51346b078218117d35f1b7a5b2d1c9268
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4896ffe6b01d87d4e54d6d06867aea3435a1513a
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174738"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883140"
 ---
 # <a name="host-firewall-reporting-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 호스트 방화벽 보고
 
@@ -30,11 +29,11 @@ ms.locfileid: "60174738"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-관리자인 경우 이제 보안 센터 에 방화벽 [보고를 Microsoft 365 있습니다.](https://security.microsoft.com) 이 기능을 사용하면 중앙 위치에서 Windows 10, Windows Server 2019 및 Windows Server 2022 방화벽 보고를 볼 수 있습니다.
+관리자인 경우 이제 보안 센터 에 방화벽 [보고를 Microsoft 365 있습니다.](https://security.microsoft.com) 이 기능을 사용하면 중앙 위치에서 Windows 10, Windows 11, Windows Server 2019 및 Windows Server 2022 방화벽 보고를 볼 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- Server 2019 또는 Windows 10 Windows 또는 Windows 실행 중이야 합니다.
+- Server 2022 또는 Windows 10 Windows 11 Windows 또는 Windows 실행 중이야 합니다.
 - 디바이스를 Microsoft Defender for Endpoint 서비스에 온보딩하는 경우 여기를 [참조하세요.](onboard-configure.md)
 - 보안 Microsoft 365 센터에서 데이터 수신을 시작하려면 고급  보안이 있는 방화벽에 Windows Defender 감사 이벤트를 사용하도록 설정해야 합니다.
   - [필터링 플랫폼 패킷 삭제 감사](/windows/security/threat-protection/auditing/audit-filtering-platform-packet-drop)

@@ -2,8 +2,6 @@
 title: Microsoft Defender 업데이트에 대한 사용자 지정 서진 배포 프로세스 만들기
 description: 지원되는 도구를 사용하여 업데이트에 대한 사용자 지정 서진 롤아웃 프로세스를 만드는 방법에 대해 자세히 알아보기
 keywords: 업데이트 도구, gpo, intune, mdm, Microsoft 끝점 관리자, 정책, powershell
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 9023a6fe8f95f086ad90f2a6276733bd4a4213a2
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 198b5d0392b5984f6bbb434bcf524660371b7437
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747195"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881880"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Microsoft Defender 업데이트에 대한 사용자 지정 서진 배포 프로세스 만들기
 

@@ -2,8 +2,6 @@
 title: 지원되는 운영 체제 플랫폼 및 기능
 description: 모든 장치의 활동을 제대로 위협 및 취약성 관리 운영 체제 또는 플랫폼 요구 사항을 충족하는지 확인합니다.
 keywords: 위협 & 취약성 관리, 위협 및 취약성 관리, 운영 체제, 플랫폼 요구 사항, 선행 조건, Endpoint-tvm 지원 os용 Microsoft Defender, Endpoint-tvm용 Microsoft Defender, 지원되는 운영 체제, 지원되는 플랫폼, linux 지원, mac 지원
-search.appverid: met150
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a5c96f8a3dd96219f58ac667e03b50e03498dcae
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 091ba63ac23342c9423d8989cc2e56f4a1423f76
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60659106"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883380"
 ---
 # <a name="supported-operating-systems-platforms-and-capabilities---for-threat-and-vulnerability-management"></a>지원되는 운영 체제, 플랫폼 및 기능 - 위협 및 취약성 관리
 

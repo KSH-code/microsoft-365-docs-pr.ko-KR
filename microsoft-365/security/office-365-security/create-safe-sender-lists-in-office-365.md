@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(인바운드 메시지)에서 인바운드 메시지를 허용하는 사용 가능한 옵션과 기본 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ac0d6cf4ff2dab75809525e5c49fc5c12eec670b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 376ea1a5c598adce28fb65ee2b2d1fbceceecd34
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157665"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882204"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 가능한 보낸 사람 목록 만들기
 
@@ -57,10 +57,12 @@ Microsoft 365 사서함이 있는 Microsoft 365 Exchange Online 고객 또는 Ex
 > - EOP 및 Outlook 다른 메시지 속성을 검사하여 메시지 보낸 사람 확인 자세한 내용은 이 [](#considerations-for-bulk-email) 문서 부분의 대량 전자 메일 고려 사항 섹션을 참조하세요.
 >
 
-
 반면에 차단된 보낸 사람 목록을 사용하여 특정 원본의 전자 메일을 차단하는 몇 가지 _옵션도 있습니다._ 자세한 내용은 [EOP에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
 
 ## <a name="recommended-use-mail-flow-rules"></a>(권장) 메일 흐름 규칙 사용
+
+> [!NOTE]
+> 메시지 헤더 및 메일 흐름 규칙을 사용하여 내부 보낸 사람이 안전한 보낸 사람으로 지정될 수 없습니다. 이 섹션의 절차는 외부 보낸 사람에 한해 사용할 수 있습니다.
 
 EOP 및 Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙은 메시지 식별 조건 및 예외를 사용하며, 이러한 메시지에 대해 수행할 작업을 지정하는 작업을 지정합니다. 자세한 내용은 에서 메일 흐름 [규칙(전송 규칙)을 Exchange Online.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
@@ -117,7 +119,7 @@ EOP 및 Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙은 메�
 
 앞서 설명한 메일 흐름 규칙을 사용할 수 없는 경우 다음으로는 연결 필터 정책의 IP 허용 목록에 원본 전자 메일 서버 또는 서버를 추가하는 것이 가장 좋습니다. 자세한 내용은 EOP에서 연결 필터링 [구성을 참조합니다.](configure-the-connection-filter-policy.md)
 
-**참고**:
+**참고:**
 
 - 허용된 IP 주소 수를 최소로 유지하는 것이 중요하기 때문에 가능하면 전체 IP 주소 범위를 사용하지 않도록 합니다.
 

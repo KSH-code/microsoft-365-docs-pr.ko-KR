@@ -2,7 +2,6 @@
 title: 네트워크 보호 평가
 description: 보호하는 일반적인 시나리오를 테스트하여 네트워크 보호가 작동하는 방법을 확인합니다.
 keywords: 네트워크 보호, 악용, 악성 웹 사이트, ip, 도메인, 평가, 테스트, 데모
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b0a52af9eb9cbc8d1cfc4084d7f137fd5e6975be
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 0f26b92d9475daf0c151d18f9ab024e3ad3bb34f
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60668103"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883164"
 ---
 # <a name="evaluate-network-protection"></a>네트워크 보호 평가
 
@@ -54,9 +53,9 @@ ms.locfileid: "60668103"
 
 2. [https://smartscreentestratings2.net](https://smartscreentestratings2.net)으로 이동합니다.
 
-네트워크 연결이 허용되고 테스트 메시지가 표시됩니다.
-
-![연결 차단을 표시하는 알림의 예: IT 관리자가 이 네트워크 Windows 보안 차단했습니다. IT 지원 센터에 문의합니다.](images/np-notif.png)
+    네트워크 연결이 허용되고 테스트 메시지가 표시됩니다.
+    
+    ![연결 차단을 표시하는 알림의 예: IT 관리자가 이 네트워크 Windows 보안 차단했습니다. IT 지원 센터에 문의합니다.](images/np-notif.png)
 
 > [!NOTE]
 > 사이트가 네트워크 보호에 의해 차단된 경우에도 네트워크 연결이 성공할 수 있습니다. 자세한 내용은 네트워크 보호 및 [TCP 3차원 핸드세이크 를 참조합니다.](network-protection.md#network-protection-and-the-tcp-three-way-handshake)

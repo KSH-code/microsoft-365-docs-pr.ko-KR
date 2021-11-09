@@ -2,7 +2,6 @@
 title: 업데이트 수신 방법 및 Microsoft Defender 바이러스 백신 관리
 description: 보호 업데이트를 받는 방법에 대한 Microsoft Defender 바이러스 백신 관리합니다.
 keywords: 업데이트, 보안 기준, 보호, 변경 순서, ADL, MMPC, UNC, 파일 경로, 공유, wsus
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,12 +15,12 @@ manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 21ff0e12e76dbbc65aa9bcfa26c0f8c07444c7a8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 082b93be0a540e2d51cb81315180876c308b3fad
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196936"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883152"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리
 
@@ -65,9 +64,9 @@ ms.locfileid: "60196936"
 - [네트워크 파일 공유](#unc-share)
 - [맬웨어 및 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지에 대한 보안 인텔리전스 업데이트](https://www.microsoft.com/wdsi/defenderupdates) <sup> [[2](#fn1)]<sup></sup>
 
-  (<a id="fn1">1)</a>Intune 내부 정의 업데이트 서버 - SCCM/SUP을 사용하여 Microsoft Defender 바이러스 백신에 대한 정의 업데이트를 다운로드하고 클라이언트 장치에서 차단된 Windows 업데이트에 액세스해야 하는 경우 공동 관리로 전환하고 끝점 보호 작업을 Intune으로 오프로드할 수 있습니다. Intune에 구성된 맬웨어 방지 정책에는 '내부 정의 업데이트 서버'에 대한 옵션이 있습니다. 이 옵션은 업데이트 원본으로 사내 WSUS를 사용하도록 구성할 수 있습니다. 이렇게 하면 공식 WU 서버의 업데이트가 엔터프라이즈에 대해 승인되는 업데이트를 제어할 수 있으며, 네트워크 트래픽을 공식 UPdates 네트워크로 프록시하고 Windows 도움이 됩니다.
+(<a id="fn1">1)</a>Intune 내부 정의 업데이트 서버 - SCCM/SUP을 사용하여 Microsoft Defender 바이러스 백신에 대한 정의 업데이트를 다운로드하고 클라이언트 장치에서 차단된 Windows 업데이트에 액세스해야 하는 경우 공동 관리로 전환하고 끝점 보호 작업을 Intune으로 오프로드할 수 있습니다. Intune에 구성된 맬웨어 방지 정책에는 '내부 정의 업데이트 서버'에 대한 옵션이 있습니다. 이 옵션은 업데이트 원본으로 사내 WSUS를 사용하도록 구성할 수 있습니다. 이렇게 하면 공식 WU 서버의 업데이트가 엔터프라이즈에 대해 승인되는 업데이트를 제어할 수 있으며, 네트워크 트래픽을 공식 UPdates 네트워크로 프록시하고 Windows 도움이 됩니다.
 
-  (<a id="fn1">2)</a>정책 및 레지스트리에 MMPC(Microsoft 맬웨어 보호 센터 보안 인텔리전스) 이전 이름으로 나열될 수 있습니다.
+(<a id="fn1">2)</a>정책 및 레지스트리에 MMPC(Microsoft 맬웨어 보호 센터 보안 인텔리전스) 이전 이름으로 나열될 수 있습니다.
 
 Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 릴리스를 허용합니다. 즉, 자주 더 작은 다운로드가 가능합니다. Windows 서버 업데이트 서비스, Microsoft Endpoint Configuration Manager 및 Microsoft 보안 인텔리전스 업데이트 원본은 덜 자주 업데이트를 제공합니다. 따라서 델타가 커서 더 큰 다운로드가 생성될 수 있습니다.
 

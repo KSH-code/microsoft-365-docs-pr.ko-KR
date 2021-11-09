@@ -2,7 +2,6 @@
 title: 설정에 대한 로컬 Microsoft Defender 바이러스 백신 구성
 description: 사용자가 Microsoft Defender AV에서 로컬로 설정을 변경하지 못하도록 설정하거나 사용하지 않도록 설정
 keywords: 로컬 오버라이드, 로컬 정책, 그룹 정책, gpo, 잠금, 병합, 목록
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: manage
@@ -13,16 +12,16 @@ author: denisebmsft
 ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
-ms.date: 09/14/2021
+ms.date: 10/18/2021
 ms.reviewer: ''
 manager: dansimp
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c206d998d1900ef39a0edbfd21c24b2e0cdc0514
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: aec2283b1d55e395f0080d412a3ea0a836cc8b39
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60192946"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882336"
 ---
 # <a name="prevent-or-allow-users-to-locally-modify-microsoft-defender-antivirus-policy-settings"></a>사용자가 로컬에서 정책 설정을 수정하지 Microsoft Defender 바이러스 백신 허용
 

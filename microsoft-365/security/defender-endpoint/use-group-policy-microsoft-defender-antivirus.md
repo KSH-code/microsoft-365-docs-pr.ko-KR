@@ -2,7 +2,6 @@
 title: 그룹 Microsoft Defender 바이러스 백신 구성
 description: 그룹 정책을 사용하여 끝점용 Microsoft Defender에서 끝점에서 Microsoft Defender 바이러스 백신 정책을 구성하고 관리하는 방법을 학습합니다.
 keywords: 그룹 정책, GPO, 구성, 설정
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -10,19 +9,19 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/08/2021
+ms.date: 10/18/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
 ms.collection: m365-security-compliance
-ms.openlocfilehash: c00ed9b12212cb24cb3ac6e4c7a8ab1577832453
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a8eb8db33a79ccb7d4cc9cd010a689e524746fad
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176802"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883680"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신
 

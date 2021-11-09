@@ -1,9 +1,7 @@
 ---
-title: 디바이스용 Microsoft Secure Score
+title: 장치용 Microsoft Secure Score
 description: 장치에 대한 점수는 응용 프로그램, 운영 체제, 네트워크, 계정 및 보안 제어 전반에 걸쳐 디바이스의 총 보안 구성 상태를 보여줍니다.
 keywords: Microsoft Secure Score for Devices, Endpoint Microsoft Defender for Devices, Secure score, configuration score, 위협 및 취약성 관리, security controls, improvement opportunities, security configuration score over time, security posture, baseline
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,14 +16,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ec39f07ff653b3c28c645978c0a708da37d348dc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 0cd0dc7a68fc399d46b0a028753c7132df53a468
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206760"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882960"
 ---
-# <a name="microsoft-secure-score-for-devices"></a>디바이스용 Microsoft Secure Score
+# <a name="microsoft-secure-score-for-devices"></a>장치용 Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -62,7 +60,7 @@ ms.locfileid: "60206760"
 
 3. 기본 **설정 저장을 선택합니다.**
 
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방법
 
 > [!NOTE]
 > Microsoft Secure Score for Devices는 현재 그룹 정책을 통해 설정된 구성을 지원합니다. 현재 부분 Intune 지원으로 인해 Intune을 통해 설정될 수 있는 구성이 잘못 구성된 것으로 표시될 수 있습니다. 조직에서 보안 구성 관리를 위해 Intune을 사용하는 경우 IT 관리자에게 문의하여 실제 구성 상태를 확인할 수 있습니다.

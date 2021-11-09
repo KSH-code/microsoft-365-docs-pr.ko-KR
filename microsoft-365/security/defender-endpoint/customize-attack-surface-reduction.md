@@ -2,7 +2,6 @@
 title: 공격 표면 감소 규칙 사용자 지정
 description: 개별적으로 감사, 차단 또는 비활성화 모드에서 규칙을 설정하고 공격 표면 감소 규칙에서 제외해야 하는 파일 및 폴더를 추가합니다.
 keywords: 공격 표면 감소, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지, 악용, 감염 방지, 사용자 지정, 구성, 제외
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,12 +14,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 393dbcf19232a0a27197a781c1c7b71b4aa2683e
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: e1837a460589e0e1e83a4944628644bd6241bee3
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240179"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882900"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용자 지정
 
@@ -113,17 +112,18 @@ ms.locfileid: "60240179"
 
 ### <a name="use-powershell-to-exclude-files-and-folders"></a>PowerShell을 사용하여 파일 및 폴더 제외
 
-1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 **단추로** 클릭하고 Windows PowerShell 관리자 권한으로 **실행을 선택합니다.**
+1. 목록에서 **powershell을** 시작 메뉴 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
+
 2. 다음 cmdlet을 입력합니다.
 
     ```PowerShell
     Add-MpPreference -AttackSurfaceReductionOnlyExclusions "<fully qualified path or resource>"
     ```
 
-계속 사용하여 `Add-MpPreference -AttackSurfaceReductionOnlyExclusions` 목록에 폴더를 더 추가합니다.
-
-> [!IMPORTANT]
-> 목록에 `Add-MpPreference` 앱을 추가하거나 추가하는 데 사용할 수 있습니다. `Set-MpPreference`cmdlet을 사용하여 기존 목록을 덮어 습니다.
+    계속 사용하여 `Add-MpPreference -AttackSurfaceReductionOnlyExclusions` 목록에 폴더를 더 추가합니다.
+    
+    > [!IMPORTANT]
+    > 목록에 `Add-MpPreference` 앱을 추가하거나 추가하는 데 사용할 수 있습니다. `Set-MpPreference`cmdlet을 사용하여 기존 목록을 덮어 습니다.
 
 ### <a name="use-mdm-csps-to-exclude-files-and-folders"></a>MDM CSP를 사용하여 파일 및 폴더 제외
 

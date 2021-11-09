@@ -2,7 +2,6 @@
 title: 감사 모드에서 끝점용 Microsoft Defender 기능이 어떻게 작동 하는지 테스트
 description: 감사 모드를 사용하면 끝점용 Microsoft Defender가 디바이스를 사용하도록 설정한 경우 어떻게 보호하는지 볼 수 있습니다.
 keywords: exploit guard, 감사, 감사, 모드, 사용, 비활성화, 테스트, 데모, 평가, 랩
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,14 +14,14 @@ ms.reviewer: ''
 manager: dansimp
 ms.topic: article
 ms.technology: mde
-ms.date: 09/22/2021
+ms.date: 10/14/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: b261625215fa5f4f84daac7850f50569d8826cb6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: fd5966380b23b13ab43b3e0e0c6583db03971541
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174870"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882936"
 ---
 # <a name="test-attack-surface-reduction-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 공격 표면 감소 테스트
 

@@ -2,7 +2,6 @@
 title: 특정 프로세스에서 연 파일에 대한 제외 구성
 description: 특정 프로세스에서 파일을 연 경우 검사에서 파일을 제외할 수 있습니다.
 keywords: Microsoft Defender 바이러스 백신, 프로세스, 제외, 파일, 검사
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: manage
@@ -16,12 +15,12 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.collection: M365-security-compliance
-ms.openlocfilehash: eb1b28b49bbf684f0f1845eafb1332c7fb00be12
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 44107228cf0e05f43484bfb88a757335fe6c2b86
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205634"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882732"
 ---
 # <a name="configure-exclusions-for-files-opened-by-processes"></a>프로세스에서 연 파일에 대한 제외 구성
 

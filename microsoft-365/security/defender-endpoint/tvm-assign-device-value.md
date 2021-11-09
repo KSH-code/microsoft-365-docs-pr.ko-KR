@@ -2,8 +2,6 @@
 title: 장치 값 할당 - 위협 및 취약성 관리
 description: 자산 우선 순위를 차별화하는 데 도움이 될 수 있도록 장치에 낮은 값, 보통 또는 높은 값을 할당하는 방법을 배워야 합니다.
 keywords: Microsoft Defender for Endpoint 장치 값, 위협 및 취약성 관리 값, 높은 값 장치, 장치 값 노출 점수
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a1cc240c1c013468b482533ab00ef498543431fd
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 383001a8beac1f14ab6c1436fa42b28e48dbdc25
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193928"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60884052"
 ---
 # <a name="assign-device-value---threat-and-vulnerability-management"></a>장치 값 할당 - 위협 및 취약성 관리
 

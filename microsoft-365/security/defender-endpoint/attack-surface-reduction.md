@@ -2,7 +2,6 @@
 title: 공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 description: 공격 표면 감소 규칙은 악용이 앱 및 스크립트를 사용하여 장치를 맬웨어에 감염하는 것을 방지하는 데 도움이 될 수 있습니다.
 keywords: 공격 표면 감소 규칙, asr, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지, 악용, 감염 방지, 끝점용 Microsoft Defender
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -17,12 +16,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 77f3472d809a64c78426534c8773658a1a6c736b
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 5392cf40a0d37e332d7b3bec260ab34e9a3a083e
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240311"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882444"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -70,6 +69,7 @@ ms.locfileid: "60240311"
 경고 모드는 다음 버전의 경고를 실행하는 장치에서 Windows.
 
 - [Windows 10, 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809) 이상
+- Windows 11
 - [Windows Server, 버전 1809 이상](/windows-server/get-started/whats-new-in-windows-server-1809)
 
 Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 통해 [실행해야 합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
@@ -164,7 +164,7 @@ DeviceEvents
 |1121|차단 모드에서 규칙이 발생하면 이벤트|
 |1122|감사 모드에서 규칙이 발생하면 이벤트|
 
-이벤트 로그의 공격 표면 축소 이벤트에 대해 나열된 "엔진 버전"은 운영 체제가 아니라 Endpoint용 Defender에 의해 생성됩니다. Endpoint용 Defender는 Windows 10 통합되어 있으므로 이 Windows 10 설치된 모든 장치에서 작동합니다.
+이벤트 로그의 공격 표면 축소 이벤트에 대해 나열된 "엔진 버전"은 운영 체제가 아니라 Endpoint용 Defender에 의해 생성됩니다. Endpoint용 Defender는 Windows 10 및 Windows 11 통합되어 있으므로 이 Windows 10 또는 Windows 11 작동합니다.
 
 ## <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -174,23 +174,23 @@ DeviceEvents
 
 |규칙 이름|GUID|파일 & 제외|지원되는 최소 OS|
 |---|:---:|---|---|
-|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 |
-|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2) |
-|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br> Windows Server 2016|
-|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br><br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)|
-|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br> Windows Server 2016 <br> Windows Server 2012 R2|
-|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2) |
-|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br> Windows Server 2016|
-|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br> Windows Server 2016 <br> Windows Server 2012 R2 |
-|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription)|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|지원되지 않음|[Windows 10 버전 1903(빌드](/windows/whats-new/whats-new-windows-10-version-1903) 18362) 이상|
-|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br> <br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)
+|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11|
+|[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2) |
+|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br> Windows Server 2016|
+|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br><br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)|
+|[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br> Windows Server 2016 <br> Windows Server 2012 R2|
+|[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11|
+|[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2) |
+|[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br> Windows Server 2016|
+|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br> Windows Server 2016 <br> Windows Server 2012 R2 |
+|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11|
+|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11|
+|[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription)|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|지원되지 않음|[Windows 10 버전 1903(빌드](/windows/whats-new/whats-new-windows-10-version-1903) 18362) 이상 또는 Windows 11|
+|[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br> <br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)
 |
-|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|않음|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 <br> <br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2) |
+|[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11|
+|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11|
+|[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|지원|[Windows 10 버전 1709(RS3,](/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 또는 Windows 11 <br> <br>  [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) <br> [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2) |
 |
 
 ### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>악용된 취약한 서명된 드라이버의 남용 차단

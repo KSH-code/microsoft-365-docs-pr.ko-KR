@@ -1,8 +1,6 @@
 ---
 title: Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어, 이동식 저장소 미디어
 description: 끝점용 Microsoft Defender에 대한 Walk-through
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
 ms.date: 11/02/2021
-ms.openlocfilehash: b7dc38ba6b4c1fcc214dfca5d621269a35eaf323
-ms.sourcegitcommit: 7791c519bd8b68fc23433e13e1ecbdbeaddbebfa
+ms.openlocfilehash: e62f40b7d7b0d1f194c1549173edcb3ec3ec3634
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60725559"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882720"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -46,7 +44,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
-이동식 Storage 맬웨어 방지 Windows 10 **버전이 4.18.2103.3** 이상인 Windows 10 장치에 액세스 제어를 배포합니다.
+이동식 Storage 맬웨어 방지 클라이언트 Windows 10 Windows 11 **4.18.2103.3** 이상이 있는 Windows 11 장치에 이동식 액세스 제어를 배포합니다.
 
 - **4.18.2104** 이상 : SerialNumberId 추가, VID_PID, 파일 경로 기반 GPO 지원, ComputerSid
 - **4.18.2105** 이상 : HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId에 대한 와일드카드 지원 추가, 특정 컴퓨터의 특정 사용자 조합, 제거 가능한 SSD(SanDisk Extreme SSD)/UAS(USB 연결된 SCSI) 지원
@@ -235,7 +233,7 @@ DeviceEvents
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="이동식 저장소의 차단을 표시하는 화면입니다.":::
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="what-is-the-removable-storage-media-limitation-for-the-maximum-number-of-usbs"></a>최대 USB 수에 대한 이동식 저장소 미디어 제한은 무엇입니까?
 

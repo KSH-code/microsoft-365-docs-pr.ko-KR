@@ -2,7 +2,6 @@
 title: Microsoft Defender 바이러스 백신 이벤트 코드 및 오류 코드
 description: 이벤트 MICROSOFT DEFENDER 바이러스 백신 오류의 원인 및 해결 방법 찾아 보기
 keywords: 이벤트, 오류 코드, siem, 로깅, 문제 해결, wef, Windows 이벤트 전달
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,17 +10,17 @@ ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 09/11/2018
+ms.date: 10/19/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 59392ebb51bb483393cf657ced400c238852d72c
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 0bf6b5ed0d59e445eba4f8146d8321cf5bff1bf9
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753544"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881719"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -36,7 +35,7 @@ ms.locfileid: "60753544"
 
 표 목록에는 다음이 나열됩니다.
 
-- [Microsoft Defender 바이러스 백신 이벤트 ID(Windows 10](#windows-defender-av-ids) 및 Windows Server 2016)
+- [Microsoft Defender 바이러스 백신 이벤트 ID(Windows 10,](#windows-defender-av-ids) Windows 11 및 Windows Server 2016)
 - [Microsoft Defender 바이러스 백신 오류 코드](#error-codes)
 - [내부 Microsoft Defender 바이러스 백신 클라이언트 오류 코드(개발 및 테스트 중에 Microsoft에서 사용)](#internal-error-codes)
 
@@ -393,7 +392,7 @@ Microsoft Defender 바이러스 백신 로그에 이벤트 WINDOWS 기록합니�
 <li>IEPROTECT: IE - IExtensionValidation; 이렇게 하여 악의적인 웹 페이지 컨트롤로부터 보호</li>
 <li>ELAM(맬웨어 방지 조기 실행). 여기에는 부팅 시퀀스에서 검색된 맬웨어가 포함됩니다.</li>
 <li>원격 attestation</li>
-</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PS, VBS)를 보호하는 데 주로 사용됩니다.
+</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PowerShell, VBS)를 보호하는 데 주로 사용됩니다.
 UAC </dt> 
 <dt>상태: &lt; 상태 &gt; </dt>
 <dt>사용자: &lt; 도메인 &gt; \& lt; 사용자 &gt; </dt>
@@ -807,7 +806,7 @@ Microsoft Defender 바이러스 백신 의심스러운 동작을 감지했습니
 <li>IEPROTECT: IE - IExtensionValidation; 이렇게 하여 악의적인 웹 페이지 컨트롤로부터 보호</li>
 <li>ELAM(맬웨어 방지 조기 실행). 여기에는 부팅 시퀀스에서 검색된 맬웨어가 포함됩니다.</li>
 <li>원격 attestation</li>
-</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PS, VBS)를 보호하는 데 주로 사용됩니다.
+</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PowerShell, VBS)를 보호하는 데 주로 사용됩니다.
 UAC </dt> 
 <dt>상태: &lt; 상태 &gt; </dt>
 <dt>사용자: &lt; 도메인 &gt; \& lt; 사용자 &gt; </dt>
@@ -882,7 +881,7 @@ Microsoft Defender 바이러스 백신 맬웨어 또는 사용자 원치 않는 
 <li>IEPROTECT: IE - IExtensionValidation; 이렇게 하여 악의적인 웹 페이지 컨트롤로부터 보호</li>
 <li>ELAM(맬웨어 방지 조기 실행). 여기에는 부팅 시퀀스에서 검색된 맬웨어가 포함됩니다.</li>
 <li>원격 attestation</li>
-</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PS, VBS)를 보호하는 데 주로 사용됩니다.
+</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PowerShell, VBS)를 보호하는 데 주로 사용됩니다.
 UAC </dt> 
 <dt>사용자: &lt; 도메인 &gt; \& lt; 사용자 &gt; </dt>
 <dt>프로세스 이름: &lt; PID &gt; </dt>서명 버전의
@@ -961,7 +960,7 @@ Microsoft Defender 바이러스 백신 맬웨어 또는 사용자 원치 않는 
 <li>IEPROTECT: IE - IExtensionValidation; 이렇게 하여 악의적인 웹 페이지 컨트롤로부터 보호</li>
 <li>ELAM(맬웨어 방지 조기 실행). 여기에는 부팅 시퀀스에서 검색된 맬웨어가 포함됩니다.</li>
 <li>원격 attestation</li>
-</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PS, VBS)를 보호하는 데 주로 사용됩니다.
+</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PowerShell, VBS)를 보호하는 데 주로 사용됩니다.
 UAC </dt> 
 <dt>사용자: &lt; 도메인 &gt; \& lt; 사용자 &gt; </dt>
 <dt>프로세스 이름: &lt; PID &gt; </dt> 
@@ -1083,7 +1082,7 @@ Microsoft Defender 바이러스 백신 또는 사용자 원치 않는 기타 소
 <li>IEPROTECT: IE - IExtensionValidation; 이렇게 하여 악의적인 웹 페이지 컨트롤로부터 보호</li>
 <li>ELAM(맬웨어 방지 조기 실행). 여기에는 부팅 시퀀스에서 검색된 맬웨어가 포함됩니다.</li>
 <li>원격 attestation</li>
-</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PS, VBS)를 보호하는 데 주로 사용됩니다.
+</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PowerShell, VBS)를 보호하는 데 주로 사용됩니다.
 UAC </dt> 
 <dt>사용자: &lt; 도메인 &gt; \& lt; 사용자 &gt; </dt>
 <dt>프로세스 이름: &lt; PID &gt; </dt> 
@@ -1175,7 +1174,7 @@ Microsoft Defender 바이러스 백신 또는 사용자 원치 않는 기타 소
 <li>IEPROTECT: IE - IExtensionValidation; 이렇게 하여 악의적인 웹 페이지 컨트롤로부터 보호</li>
 <li>ELAM(맬웨어 방지 조기 실행). 여기에는 부팅 시퀀스에서 검색된 맬웨어가 포함됩니다.</li>
 <li>원격 attestation</li>
-</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PS, VBS)를 보호하는 데 주로 사용됩니다.
+</ul>AMSI(맬웨어 방지 검사 인터페이스). 제3자도 호출할 수 있는 스크립트(PowerShell, VBS)를 보호하는 데 주로 사용됩니다.
 UAC </dt> 
 <dt>사용자: &lt; 도메인 &gt; \& lt; 사용자 &gt; </dt>
 <dt>프로세스 이름: &lt; PID &gt; </dt> 
@@ -1205,7 +1204,7 @@ UAC </dt>
 Microsoft Defender 바이러스 백신 클라이언트에서 중요한 문제로 인해 이 오류가 발생했습니다. 끝점이 보호되지 않을 수 있습니다. 오류 설명을 검토한 다음 아래의 관련 <b>사용자 작업 단계를</b> 따릅니다.
 <table>
 <tr>
-<th>조치</th>
+<th>작업</th>
 <th>사용자 작업</th>
 </tr>
 <tr>
@@ -2784,7 +2783,7 @@ Microsoft Defender 바이러스 백신 내부에서 감지된 위협을 수정�
 <td>
 이 오류는 Microsoft Defender 바이러스 백신 플랫폼의 현재 버전을 지원하지 않는 새 버전의 플랫폼이 필요하다는 의미입니다.
 </td></tr><tr><td>해결 방법</td><td>
-이 경우 해당 Microsoft Defender 바이러스 백신 사용할 수 Windows 10. Windows 8 7과 Windows Vista의 Windows 를 사용할 <a href="https://www.microsoft.com/server-cloud/system-center/endpoint-protection-2012.aspx">System Center Endpoint Protection.</a><br/></td>
+사용자 및 Microsoft Defender 바이러스 백신 Windows 10 사용할 수 Windows 11. Windows 8 7과 Windows Vista의 Windows 를 사용할 <a href="https://www.microsoft.com/server-cloud/system-center/endpoint-protection-2012.aspx">System Center Endpoint Protection.</a><br/></td>
 </tr>
 </table>
 

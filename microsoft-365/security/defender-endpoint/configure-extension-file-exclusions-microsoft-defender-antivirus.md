@@ -2,7 +2,6 @@
 title: 확장명, 이름 또는 위치를 기준으로 제외 구성 및 유효성 검사
 description: 파일 확장명Microsoft Defender 바이러스 백신 이름 또는 위치에 따라 파일 검색에서 파일을 제외합니다.
 keywords: 제외, 파일, 확장명, 파일 형식, 폴더 이름, 파일 이름, 검사
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: manage
@@ -16,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.date: 11/02/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: df4bfe29f9881ea6dcd1cf4ae8e21c9a3e673532
-ms.sourcegitcommit: 7791c519bd8b68fc23433e13e1ecbdbeaddbebfa
+ms.openlocfilehash: 7c939b43edf206d31cf62678fa0984aa26707fab
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60725548"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882408"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -136,7 +135,7 @@ cmdlet의 형식은 다음과 같습니다.
 
 다음 표에는 PowerShell cmdlet 부분에서 사용할 수 있는 `<cmdlet>` cmdlet이 나열됩니다.
 
-<br/><br/>
+<br/>
 
 |구성 작업|PowerShell cmdlet|
 |:---|:---|
@@ -146,7 +145,7 @@ cmdlet의 형식은 다음과 같습니다.
 
 다음 표에는 PowerShell cmdlet 부분에서 사용할 수 있는 `<exclusion list>` 값이 나열됩니다.
 
-<br/><br/>
+<br/>
 
 |제외 유형|PowerShell 매개 변수|
 |---|---|
@@ -201,7 +200,7 @@ ExclusionPath
     
 다음 표에서는 와일드카드를 사용하는 방법을 설명하고 몇 가지 예를 제공합니다.
 
-<br/><br/>
+<br/>
 
 |와일드카드|예제|
 |---|---|
@@ -221,8 +220,9 @@ ExclusionPath
 ### <a name="system-environment-variables"></a>시스템 환경 변수
 
 다음 표에서는 시스템 계정 환경 변수를 나열하고 설명합니다.
-    <br/><br/>
-    
+
+<br/>
+
 |이 시스템 환경 변수...|리디렉션|
 |---|---|
 |`%APPDATA%`|`C:\Users\UserName.DomainName\AppData\Roaming`|
@@ -310,7 +310,7 @@ PowerShell을 사용하는 경우 다음 두 가지 방법으로 목록을 검�
 
 전용 명령줄 도구에서 제외를 확인하려면 mpcmdrun.exe[명령을 ](./command-line-arguments-microsoft-defender-antivirus.md)사용합니다.
 
-```DOS
+```console
 Start, CMD (Run as admin)
 cd "%programdata%\microsoft\windows defender\platform"
 cd 4.18.2110-5.0 (Where 4.18.2110-5.0 is this month's Microsoft Defender Antivirus "Platform Update".)

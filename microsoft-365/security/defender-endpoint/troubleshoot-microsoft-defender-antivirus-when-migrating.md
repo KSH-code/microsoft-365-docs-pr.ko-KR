@@ -2,7 +2,6 @@
 title: 타사 솔루션에서 마이그레이션하는 동안 Microsoft Defender 바이러스 백신 문제 해결
 description: 마이그레이션할 때 발생하는 일반적인 오류 Microsoft Defender 바이러스 백신
 keywords: 이벤트, 오류 코드, 로깅, 문제 해결, Microsoft Defender 바이러스 백신, Windows Defender 바이러스 백신, 마이그레이션
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,17 +10,17 @@ ms.topic: article
 author: martyav
 ms.author: v-maave
 ms.custom: nextgen
-ms.date: 09/11/2018
+ms.date: 10/19/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 11590c443c7d466f323075bd2228156492c82ab0
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3a4fe04d563cd531e1f17916fcb54164e5010b62
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60661533"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882480"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>타사 솔루션에서 마이그레이션하는 동안 Microsoft Defender 바이러스 백신 문제 해결
 
@@ -36,13 +35,13 @@ ms.locfileid: "60661533"
 
 ## <a name="review-event-logs"></a>이벤트 로그 검토
 
-작업 표시줄에서 검색 아이콘을  선택하고 이벤트 뷰어를 검색하여 이벤트 뷰어 *앱을 열 수 있습니다.*
+1. 작업 표시줄에서 검색 아이콘을  선택하고 이벤트 뷰어를 검색하여 이벤트 뷰어 *앱을 열 수 있습니다.*
 
-응용 프로그램에 Microsoft Defender 바이러스 백신 응용 프로그램  및 서비스 로그 Microsoft Windows \>  \> **Windows Defender.** \> 
+    응용 프로그램에 Microsoft Defender 바이러스 백신 응용 프로그램  및 서비스 로그 Microsoft Windows \>  \> **Windows Defender.** \> 
 
-이 위치에서 작동 **아래의 열기** 를 **선택합니다.**
+1. 이 위치에서 작동 **아래의 열기** 를 **선택합니다.**
 
-세부 정보 창에서 이벤트를 선택하면 아래쪽 창의 일반 및 세부 정보 탭에서  이벤트에 대한 자세한 정보가 표시됩니다. 
+    세부 정보 창에서 이벤트를 선택하면 아래쪽 창의 일반 및 세부 정보 탭에서  이벤트에 대한 자세한 정보가 표시됩니다. 
 
 ## <a name="microsoft-defender-antivirus-wont-start"></a>Microsoft Defender 바이러스 백신 시작되지 않습니다.
 
@@ -58,10 +57,10 @@ ms.locfileid: "60661533"
 
 ### <a name="how-to-tell-if-microsoft-defender-antivirus-wont-start-because-a-third-party-antivirus-is-installed"></a>타사 바이러스 백신이 Microsoft Defender 바이러스 백신 프로그램 업데이트가 시작되지 않는지 어떻게 알 수 있습니다.
 
-Windows 10 장치에서 끝점용 Microsoft Defender를 사용하지 않는 경우 타사 바이러스 백신이 설치되어 있는 경우 Microsoft Defender 바이러스 백신 자동으로 꺼집니다. 타사 바이러스 백신이 설치된 끝점용 Microsoft Defender를 사용하는 경우 Microsoft Defender 바이러스 백신 기능이 축소되어 수동 모드로 시작됩니다.
+Windows 10 또는 Windows 11 장치에서 끝점용 Microsoft Defender를 사용하지 않는 경우 타사 바이러스 백신이 설치되어 있는 경우 Microsoft Defender 바이러스 백신 자동으로 꺼집니다. 타사 바이러스 백신이 설치된 끝점용 Microsoft Defender를 사용하는 경우 Microsoft Defender 바이러스 백신 기능이 축소되어 수동 모드로 시작됩니다.
 
 > [!TIP]
-> 방금 설명한 시나리오는 해당 시나리오에만 Windows 10. 다른 버전의 Windows [타사](microsoft-defender-antivirus-compatibility.md) 보안 소프트웨어와 함께 실행되는 Microsoft Defender 바이러스 백신 응답이 다릅니다.
+> 방금 설명한 시나리오는 해당 Windows 10 Windows 11. 다른 버전의 Windows [타사](microsoft-defender-antivirus-compatibility.md) 보안 소프트웨어와 함께 실행되는 Microsoft Defender 바이러스 백신 응답이 다릅니다.
 
 #### <a name="use-services-app-to-check-if-microsoft-defender-antivirus-is-turned-off"></a>서비스 앱을 사용하여 서비스 Microsoft Defender 바이러스 백신 해제되어 있는지 확인
 
@@ -77,7 +76,7 @@ Windows 10 장치에서 끝점용 Microsoft Defender를 사용하지 않는 경�
 
 관리자 모드로 실행 모드에서 명령 프롬프트를 열고  다음 명령을 입력하여 현재 활성 그룹 정책에 대한 자세한 보고서를 생성할 수 있습니다.
 
-```powershell
+```console
 GPresult.exe /h gpresult.html
 ```
 

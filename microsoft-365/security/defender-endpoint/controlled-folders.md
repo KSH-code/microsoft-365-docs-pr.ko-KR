@@ -2,7 +2,6 @@
 title: 제어된 폴더 액세스로 파일을 암호화하지 않는 랜섬웨어로부터 중요한 폴더 보호
 description: 기본 폴더의 파일은 악성 앱에 의해 변경되지 못하게 보호할 수 있습니다. 랜섬웨어가 파일을 암호화하지 못하게 합니다.
 keywords: 제어된 폴더 액세스, windows 10, windows defender, 랜섬웨어, 보호, 파일, 폴더
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -18,12 +17,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a93fb821c69f390bbc6e19034e1dc025b06cd623
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 19a54dca079c8b43110d3140a9ad3543634086e3
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60665754"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883212"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스를 사용하여 중요한 폴더 보호
 
@@ -37,7 +36,7 @@ ms.locfileid: "60665754"
 
 ## <a name="what-is-controlled-folder-access"></a>제어된 폴더 액세스란?
 
-제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 알려진 신뢰할 수 있는 앱 목록에서 앱을 확인하여 데이터를 보호합니다. Windows Server 2019, Windows Server 2022 및 Windows 10 클라이언트에서 지원되는 제어된 폴더 액세스는 Windows 보안 App, Microsoft Endpoint Configuration Manager 또는 Intune(관리되는 디바이스의 경우)을 사용하여 켜져 있을 수 있습니다.
+제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 알려진 신뢰할 수 있는 앱 목록에서 앱을 확인하여 데이터를 보호합니다. Windows Server 2019, Windows Server 2022, Windows 10 및 Windows 11 클라이언트에서 지원되는 제어된 폴더 액세스는 Windows 보안 App, Microsoft Endpoint Configuration Manager 또는 Intune(관리되는 디바이스용)
 
 > [!NOTE]
 > 스크립팅 엔진은 신뢰할 수 없습니다. 제어된 보호된 폴더에 대한 액세스를 허용할 수 없습니다. 예를 들어 인증서 및 파일 표시기를 사용하여 허용하는 경우에도 PowerShell은 제어된 폴더 액세스에서 [신뢰되지 않습니다.](/microsoft-365/security/defender-endpoint/indicator-certificates)
@@ -68,6 +67,7 @@ Configuration Manager 또는 Intune을 사용하여 앱을 신뢰할 수 있는 
 제어된 폴더 액세스는 다음 버전의 폴더에서 Windows.
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- Windows 11
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - Windows Server 2022
 
@@ -129,7 +129,7 @@ DeviceEvents
 
 앱 앱을 Windows 보안 제어된 폴더 액세스로 보호되는 폴더 목록을 볼 수 있습니다.
 
-1. 디바이스에서 Windows 10 앱을 Windows 보안 를 니다.
+1. 사용자 Windows 10 Windows 11 디바이스에서 Windows 보안 를 니다.
 2. **바이러스 및 위협 방지** 를 선택합니다.
 3. **랜섬웨어 보호에서** **랜섬웨어** 보호 관리를 선택합니다.
 4. 제어된 폴더 액세스가 꺼져 있는 경우 이를 켜야 합니다. 보호된 **폴더를 선택합니다.**

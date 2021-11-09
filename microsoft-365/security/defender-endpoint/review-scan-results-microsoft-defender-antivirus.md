@@ -2,7 +2,6 @@
 title: 검사 결과 Microsoft Defender 바이러스 백신 검토
 description: Microsoft Endpoint Configuration Manager, Microsoft Intune 또는 앱 앱을 사용하여 검사 Windows 보안 검토
 keywords: 검사 결과, 수정, 전체 검사, 빠른 검사
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,18 +10,18 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 06/17/2021
+ms.date: 10/18/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: db19bb6a7d3fb8eeaa77c640efb084d98f50a3d4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: cec44ad879eb7e425fa8ed20daa468eae7c61af1
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60169662"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881772"
 ---
 # <a name="review-microsoft-defender-antivirus-scan-results"></a>검사 Microsoft Defender 바이러스 백신 검토
 

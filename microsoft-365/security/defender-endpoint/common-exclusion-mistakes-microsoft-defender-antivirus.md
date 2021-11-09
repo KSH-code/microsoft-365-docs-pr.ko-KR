@@ -2,7 +2,6 @@
 title: 제외 정의 시 피해야 하는 일반적인 실수
 description: 검사에 대한 제외를 정의할 때 일반적인 Microsoft Defender 바이러스 백신 방지합니다.
 keywords: 제외, 파일, 확장명, 파일 형식, 폴더 이름, 파일 이름, 검사
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,14 +14,14 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 09/22/2021
+ms.date: 10/19/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 55f2ca89c04fb35c853ef39255ef97a9e811138a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 625b5dc2743f42d35a652582827454b3178e1786
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213112"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881940"
 ---
 # <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>제외 정의 시 피해야 하는 일반적인 실수
 

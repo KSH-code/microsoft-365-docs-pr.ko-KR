@@ -2,7 +2,6 @@
 title: 검사에 대한 제외 Microsoft Defender 바이러스 백신 설정
 description: 파일(지정된 프로세스에서 수정한 파일 포함) 및 폴더가 해당 폴더에서 검색되지 Microsoft Defender 바이러스 백신. PowerShell을 사용하여 제외의 유효성을 검사합니다.
 keywords: ''
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,12 +15,12 @@ ms.technology: mde
 ms.audience: ITPro
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: e97f720a5004a61687cea6d62afe6fc32481f94f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 78ee4e8beba06c61ee15f76f5e3bdf669c809884
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213838"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883332"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>검사에 대한 제외 Microsoft Defender 바이러스 백신 유효성 검사
 

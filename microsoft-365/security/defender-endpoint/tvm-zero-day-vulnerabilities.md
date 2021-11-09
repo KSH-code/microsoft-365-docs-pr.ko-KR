@@ -2,8 +2,6 @@
 title: 제로 데이 취약성 완화 - 위협 및 취약성 관리
 description: 사용자 환경의 제로 데이 취약성을 찾아서 완화하는 방법을 위협 및 취약성 관리.
 keywords: Endpoint tvm 제로 데이 취약성, tvm, 위협 & 취약성 관리, 0일, 0일, 0일 취약성 완화, 취약한 CVE
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 197dba88c8944559f152772b20935450b6f30c9b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9f1ed6e23c462e78ad0aaf6e94e59aa1c8efb11e
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193904"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881760"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>제로 데이 취약성 완화 - 위협 및 취약성 관리
 

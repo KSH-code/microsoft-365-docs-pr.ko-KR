@@ -14,12 +14,12 @@ audience: ITPro
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 48a813765693c69cff726c6973959ee63200a357
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: bb2c66c8ebb04b32fb409a749b7f1872361dd4a4
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753924"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882240"
 ---
 # <a name="device-control-printer-protection"></a>장치 제어 프린터 보호
 
@@ -48,7 +48,7 @@ Intune의 정책 배포의 경우 OMA-URI를 통해 정책을 배포하려면 �
 
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
-이러한 요구 사항을 Windows 10 프린터 보호를 배포할 계획인 디바이스가 있는지 확인합니다.
+이러한 요구 사항을 Windows 10 Windows 11 또는 Windows 11 장치를 설치해야 합니다.
 
 1. 다음 Windows 업데이트가 설치되어 있습니다.
     - 1809 Windows: 업데이트 Windows [KB5003217](https://support.microsoft.com/topic/may-20-2021-kb5003217-os-build-17763-1971-preview-08687c95-0740-421b-a205-54aa2c716b46) 설치

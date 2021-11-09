@@ -2,8 +2,6 @@
 title: 사용자에 대한 성능 Microsoft Defender 바이러스 백신
 description: 사용자 및 사용자에 대한 성능 조정 절차를 Microsoft Defender 바이러스 백신.
 keywords: tune, performance, microsoft defender for endpoint, defender antivirus
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fa6206628d8652aef9c8b31dd2ee74d4b6023829
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 40b683a04527eb4a528f2aeaa25071e94fdd62e0
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60659228"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60884016"
 ---
 # <a name="performance-analyzer-for-microsoft-defender-antivirus"></a>사용자에 대한 성능 Microsoft Defender 바이러스 백신
 

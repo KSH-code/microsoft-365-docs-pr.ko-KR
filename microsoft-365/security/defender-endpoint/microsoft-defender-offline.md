@@ -1,8 +1,7 @@
 ---
-title: Microsoft Defender 오프라인 Windows 10
+title: Microsoft Defender 오프라인 Windows
 description: 앱의 Microsoft Defender 오프라인 바로 사용할 Windows Defender 바이러스 백신 있습니다. 네트워크에서 배포되는 방법을 관리할 수도 있습니다.
 keywords: 검사, defender, 오프라인
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,12 +15,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 829f908d4b7cde6713cd6443100a15284d305eca
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 12023c7655a8978e5e0ae54b8a2831edda9b9d9e
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209432"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883584"
 ---
 # <a name="run-and-review-the-results-of-a-microsoft-defender-offline-scan"></a>Microsoft Defender 오프라인 검사의 결과 실행 및 검토
 
@@ -36,13 +35,13 @@ Microsoft Defender 오프라인 신뢰할 수 있는 환경에서 검색을 부�
 
 맬웨어 Microsoft Defender 오프라인 의심하거나 맬웨어 발생 후 끝점을 완전히 정리하려는 경우 이 방법을 사용할 수 있습니다.
 
-이 Windows 10 앱에서 Microsoft Defender 오프라인 클릭 한 번으로 실행할 [Windows 보안 있습니다.](microsoft-defender-security-center-antivirus.md) 이전 버전의 Windows 사용자는 부팅 가능한 미디어에 Microsoft Defender 오프라인 끝점을 다시 시작하고 부팅 가능한 미디어를 로드해야 합니다.
+Windows 10 Windows 11 Microsoft Defender 오프라인 앱에서 직접 한 번의 클릭으로 Windows 보안 수 [있습니다.](microsoft-defender-security-center-antivirus.md) 이전 버전의 Windows 사용자는 부팅 가능한 미디어에 Microsoft Defender 오프라인 끝점을 다시 시작하고 부팅 가능한 미디어를 로드해야 합니다.
 
 ## <a name="prerequisites-and-requirements"></a>선행 조건 및 요구 사항
 
-Microsoft Defender 오프라인 Windows 10 하드웨어 요구 사항이 Windows 10.
+Microsoft Defender 오프라인 Windows 10 Windows 11 하드웨어 요구 사항이 Windows 10.
 
-요구 사항에 대한 Windows 10 내용은 다음 항목을 참조하십시오.
+요구 사항 및 Windows 10 Windows 11 자세한 내용은 다음 항목을 참조하십시오.
 
 - [최소 하드웨어 요구 사항](/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
 

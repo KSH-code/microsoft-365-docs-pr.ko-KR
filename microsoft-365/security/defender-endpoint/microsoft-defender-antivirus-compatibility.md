@@ -2,7 +2,6 @@
 title: Microsoft Defender 바이러스 백신 제품과의 호환성
 description: 다른 보안 Microsoft Defender 바이러스 백신 운영 체제와의 통합에 대해 자세히 알아보습니다.
 keywords: windows defender, 끝점용 defender, 차세대, 바이러스 백신, 호환성, 수동 모드
-search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -15,21 +14,21 @@ ms.custom: nextgen
 ms.reviewer: mkaminska, pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 10/22/2021
+ms.date: 10/26/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 9b39e380b1619c3b441421e7fbbb5223316e67a6
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 9ffbeb2b8b1f8095b79ebfce1466ecc4ee559cac
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587696"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882504"
 ---
 # <a name="microsoft-defender-antivirus-compatibility-with-other-security-products"></a>Microsoft Defender 바이러스 백신 제품과의 호환성
 
 **적용 대상:**
 
 - Microsoft Defender 바이러스 백신
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
@@ -58,12 +57,12 @@ Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션이 사
 
 <br/><br/>
 
- | Windows 버전 | 기본 바이러스 백신/맬웨어 방지 솔루션 | Microsoft Defender 바이러스 백신 상태 | 
- |---|---|---| 
- | Windows 10 | Microsoft Defender 바이러스 백신 | 활성 모드 | 
- | Windows 10 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 비활성화 모드(자동으로 발생) | 
- | Windows Server 2022 <br/>Windows Server 2019<br/> Windows 서버, 버전 1803 이상 <br/>Windows Server 2016 | Microsoft Defender 바이러스 백신 | 활성 모드 | 
- | Windows Server 2022 <br/>Windows Server 2019<br/> Windows 서버, 버전 1803 이상 <br/>Windows Server 2016 | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 사용 안 하게(수동으로 설정) <sup>[[1](#fn1)]</sup> | 
+|Windows 버전|기본 바이러스 백신/맬웨어 방지 솔루션|Microsoft Defender 바이러스 백신 상태|
+|---|---|---|
+|Windows 10 <p> Windows 11|Microsoft Defender 바이러스 백신|활성 모드|
+|Windows 10 <p> Windows 11|Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|비활성화 모드(자동으로 발생)|
+|Windows Server 2022 <p> Windows Server 2019<p> Windows 서버, 버전 1803 이상 <p> Windows Server 2016 |Microsoft Defender 바이러스 백신|활성 모드|
+|Windows Server 2022<p>Windows Server 2019<p>Windows 서버, 버전 1803 이상 <p> Windows Server 2016 <p>  |Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션|사용 안 하게(수동으로 설정) <sup>[[1](#fn1)]</sup>|
 
 (<a id="fn1">1)</a>Windows Server에서 Microsoft가 아닌 바이러스 백신 제품을 실행하는 경우 그룹 정책을 사용하여 Microsoft Defender 바이러스 백신 해제하거나 [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키를 사용하여 Microsoft Defender 바이러스 백신 사용하지 않도록 설정할 수 있습니다. 레지스트리 키를 사용 하 고 로 이동 하 고 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` 이라는 DWORD 항목을 설정하거나 만들 수 `DisableAntiSpyware` 있습니다. 해당 값을 로 설정하고(레지스트리 키의 값을 true로 설정) 기준에 대해 `1` **16진수** 를 선택합니다. 
 
@@ -74,24 +73,24 @@ Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션이 사
 
 다음 표에는 Microsoft가 아닌 Microsoft Defender 바이러스 백신 맬웨어 방지 솔루션이 함께 사용되거나 끝점용 Microsoft Defender가 없는 경우 발생하는 문제가 요약되어 있습니다. 
 
- |  Windows 버전    |  바이러스 백신/맬웨어 방지 솔루션   |  온보더드- <br/> Endpoint용 Defender  |  Microsoft Defender 바이러스 백신 상태      | 
- |------|------|-------|-------| 
- |  Windows 10   |  Microsoft Defender 바이러스 백신  |  예   |  활성 모드  |  
- |  Windows 10   |  Microsoft Defender 바이러스 백신  |  아니요    |  활성 모드  | 
- |  Windows 10   |  Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션  |  예   |  수동 모드(자동)  | 
- |  Windows 10   |  Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션  |  아니요    |  비활성화 모드(자동)     | 
- |  Windows Server 2019 <br/>Windows 서버, 버전 1803 이상  |  Microsoft Defender 바이러스 백신   |  예  |          활성 모드   | 
- | Windows Server 2019 <br/> Windows 서버, 버전 1803 이상 |  Microsoft Defender 바이러스 백신  |  아니요   |  활성 모드  | 
- |  Windows Server 2019 <br/>Windows 서버, 버전 1803 이상 |  Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션  |  예   |  Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다(수동) <sup> [[2]](#fn2)<sup>   |  
- | Windows Server 2019 <br/>Windows 서버, 버전 1803 이상 |  Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션  |  아니요   |  Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[3](#fn3)]<sup></sup>   | 
- |   Windows Server 2016 <br/>Windows Server 2012 R2 |  Microsoft Defender 바이러스 백신  |  예  |  활성 모드  | 
- |  Windows Server 2016 <br/>Windows Server 2012 R2  |  Microsoft Defender 바이러스 백신  |  아니요  |  활성 모드  | 
- |   Windows Server 2016 <br/>Windows Server 2012 R2  |  Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션  |  예  |  Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다(수동) <sup> [[2]](#fn2)<sup>  | 
- |   Windows Server 2016 <br/>Windows Server 2012 R2  |  Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션  |  아니요  |  Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[3](#fn3)]<sup>  | 
+| Windows 버전   | 바이러스 백신/맬웨어 방지 솔루션  | 온보더드- <br/> Endpoint용 Defender | Microsoft Defender 바이러스 백신 상태     |
+|------|------|-------|-------|
+| Windows 10 <p> Windows 11| Microsoft Defender 바이러스 백신 | 예  | 활성 모드 | 
+| Windows 10 <p> Windows 11 | Microsoft Defender 바이러스 백신 | 아니요   | 활성 모드 |
+| Windows 10 <p> Windows 11  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 예  | 수동 모드(자동) |
+| Windows 10 <p> Windows 11  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니요   | 비활성화 모드(자동)    |
+| Windows Server 2019 <p>Windows 서버, 버전 1803 이상  | Microsoft Defender 바이러스 백신  | 예 |         활성 모드  |
+| Windows Server 2019 <p> Windows 서버, 버전 1803 이상   | Microsoft Defender 바이러스 백신 | 아니요  | 활성 모드 |
+| Windows Server 2019 <p> Windows 서버, 버전 1803 이상  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 예  | Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다(수동) <sup> [[2]](#fn2)<sup>  | 
+| Windows Server 2019 <p> Windows 서버, 버전 1803 이상  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니요  | Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[3](#fn3)]<sup></sup>  |
+| Windows Server 2016 <br><br> Windows Server 2012 R2   | Microsoft Defender 바이러스 백신 | 예 | 활성 모드 |
+|Windows Server 2016 <br><br> Windows Server 2012 R2  | Microsoft Defender 바이러스 백신 | 아니오 | 활성 모드 |
+| Windows Server 2016 <br><br> Windows Server 2012 R2  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 예 | Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다(수동) <sup> [[2]](#fn2)<sup> |
+|Windows Server 2016 <br><br> Windows Server 2012 R2  | Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션 | 아니오 | Microsoft Defender 바이러스 백신 비활성화해야 합니다(수동으로) <sup> [[3](#fn3)]<sup> |
 
 <a id="fn2">(2)</a>Windows Server 2019, Windows Server, 버전 1803 이상, Windows Server 2016 또는 Windows Server 2012 R2에서는 Microsoft가 아닌 바이러스 백신을 설치할 때 Microsoft Defender 바이러스 백신 수동 모드가 자동으로 전환되지 않습니다. product. 이러한 경우 [Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md) 바이러스 백신 제품을 여러 개 설치하여 문제를 방지할 수 있는 수동 모드로 설정하십시오. PowerShell, Microsoft Defender 바이러스 백신 또는 레지스트리 키를 사용하여 수동 모드로 설정할 수 있습니다. 
 
-다음 레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다.
+  다음 레지스트리 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다.
 - 경로: `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`
 - 이름: `ForceDefenderPassiveMode`
 - 유형: `REG_DWORD`
@@ -104,6 +103,13 @@ Microsoft가 아닌 다른 바이러스 백신/맬웨어 방지 솔루션이 사
 
 > [!TIP]
 > Microsoft Defender 바이러스 백신 [서버](microsoft-defender-antivirus-on-windows-server.md) 설치에 대한 주요 차이점 및 Windows 관리 옵션은 Windows 참조하세요. 이 Windows Server 2016 에 를 표시하지 *않고* Windows Defender 바이러스 백신 수 *Microsoft Defender 바이러스 백신.*
+
+> [!IMPORTANT]
+> Microsoft Defender 바이러스 백신 Windows 10 및 11, Windows Server 2022, Windows Server 2019, Windows Server, 버전 1803 이상, Windows Server 2016 및 Windows Server 2012 R2를 실행하는 장치에서만 사용할 수 있습니다.
+>
+> 이 Windows 8.1 엔터프라이즈 수준의 끝점 바이러스 백신 [](/previous-versions/system-center/system-center-2012-R2/hh508760(v=technet.10))보호는 System Center Endpoint Protection 를 통해 관리되는 Microsoft Endpoint Configuration Manager.
+>
+> Windows Defender 엔터프라이즈 수준 관리를 [](/previous-versions/windows/it-pro/windows-8.1-and-8/dn344918(v=ws.11)#BKMK_WindowsDefender)제공하지는 Windows 8.1 소비자 Windows Defender 장치도 제공됩니다.
 
 Endpoint용 Defender에는 끝점에 설치된 바이러스 백신 보호를 추가로 확장하는 기능이 포함되어 있습니다. 다른 바이러스 백신 솔루션과 함께 Microsoft Defender 바이러스 백신 수 있습니다.
 
@@ -137,7 +143,7 @@ Endpoint용 Defender는 수동 Microsoft Defender 바이러스 백신 수 있는
  | [공격 표면 감소 규칙](attack-surface-reduction.md)  | 예 | 아니요 | 아니요  | 아니요 | 
  | [제한된 주기적 검사 가용성](limited-periodic-scanning-microsoft-defender-antivirus.md) | 아니요 | 아니요 | 예 | 아니요 | 
  | [파일 검색 및 검색 정보](review-scan-results-microsoft-defender-antivirus.md) | 예 | 예 | 아니요 | 예 | 
- | [위협 수정](configure-remediation-microsoft-defender-antivirus.md) | 예 | 참고 <sup>참조 [[5](#fn5)]</sup> | 아니요 | 예 | 
+ | [위협 수정](configure-remediation-microsoft-defender-antivirus.md) | 예 | 참고 <sup>참조 [[5](#fn5)]</sup> | 아니오 | 예 | 
  | [보안 인텔리전스 업데이트](manage-updates-baselines-microsoft-defender-antivirus.md) | 예 | 예 | 아니요 | 예 | 
 
 (<a id="fn4">4)</a>일반적으로 Microsoft Defender 바이러스 백신 수동 모드인 경우 실시간 보호는 수동 모드로 설정되어 있는 경우에도 차단 또는 적용을 제공하지 않습니다.

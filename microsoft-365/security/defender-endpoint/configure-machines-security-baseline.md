@@ -2,8 +2,6 @@
 title: 엔드포인트 보안 기준에 대한 Microsoft Defender 준수 강화
 description: 끝점용 Microsoft Defender 보안 기준은 최적의 보호를 제공하도록 보안 제어를 설정합니다.
 keywords: Intune 관리, 끝점용 Microsoft Defender, Microsoft Defender, 끝점 ASR용 Microsoft Defender, 보안 기준
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3149f453886f72fd300f2961a7ef2ea1defce7a5
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 052ba7710d7c3561a93d8a67cf933a20a8cf7b99
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60704724"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882612"
 ---
 # <a name="increase-compliance-to-the-microsoft-defender-for-endpoint-security-baseline"></a>엔드포인트 보안 기준에 대한 Microsoft Defender 준수 강화
 
@@ -44,7 +42,7 @@ ms.locfileid: "60704724"
 
 ## <a name="compare-the-microsoft-defender-for-endpoint-and-the-windows-intune-security-baselines"></a>끝점용 Microsoft Defender와 Intune Windows 기준 비교
 
-Windows Intune 보안 기준은 브라우저 설정, PowerShell 설정, 브라우저 설정 등 Windows 실행 중인 장치를 안전하게 구성하는 데 필요한 포괄적인 권장 설정 집합을 Microsoft Defender 바이러스 백신. 반면 끝점용 Defender 기준은 끝점 검색 및 응답(EDR)에 대한 설정과 Windows Intune 보안 기준에 있는 설정을 포함하여 끝점 스택에 대한 Defender의 모든 보안 컨트롤을 최적화하는 설정을 제공합니다. 각 기준에 대한 자세한 내용은 다음을 참조하세요.
+Windows Intune 보안 기준에서는 브라우저 설정, PowerShell 설정 및 Windows 같은 일부 보안 기능에 대한 설정을 포함하여 보안이 실행되는 장치를 안전하게 구성하는 데 필요한 포괄적인 권장 설정 집합을 Microsoft Defender 바이러스 백신. 반면 끝점용 Defender 기준은 끝점 검색 및 응답(EDR)에 대한 설정과 Windows Intune 보안 기준에 있는 설정을 포함하여 끝점 스택에 대한 Defender의 모든 보안 컨트롤을 최적화하는 설정을 제공합니다. 각 기준에 대한 자세한 내용은 다음을 참조하세요.
 
 - [Windows 대한 보안 기준 설정](/intune/security-baseline-settings-windows)
 - [Intune에 대한 끝점 기준 설정에 대한 Microsoft Defender](/intune/security-baseline-settings-defender-atp)
@@ -52,11 +50,11 @@ Windows Intune 보안 기준은 브라우저 설정, PowerShell 설정, 브라�
 끝점용 Defender에 온보딩된 장치는 초기에 보안을 강화하기 위한 Windows Intu Windows ne 보안 기준과 끝점 보안 컨트롤에 대한 Defender를 최적으로 구성하기 위해 위에 계층화된 끝점 보안 기준의 두 기준을 모두 배포하는 것이 가장 이상적입니다. 위험 및 위협에 대한 최신 데이터를 사용하여 기준이 발전함에 따라 충돌을 최소화하기 위해 항상 출시되는 즉시 모든 제품에 최신 버전의 기준을 적용합니다.
 
 > [!NOTE]
-> 끝점용 Defender 보안 기준은 실제 장치에 최적화되어 있으며 현재 VM(가상 컴퓨터) 또는 VDI 끝점에서 사용하지 않는 것이 좋습니다. 특정 기준 설정은 가상화된 환경에서 원격 대화형 세션에 영향을 줄 수 있습니다.
+> 끝점용 Defender 보안 기준은 실제 장치에 최적화되어 있으며 현재 VM(가상 컴퓨터) 또는 VDI 끝점에서 사용하지 않는 것이 좋습니다. 특정 기준 설정은 가상화된 환경의 원격 대화형 세션에 영향을 줄 수 있습니다.
 
 ## <a name="monitor-compliance-to-the-defender-for-endpoint-security-baseline"></a>끝점 보안 기준에 대한 Defender 준수 모니터링
 
-장치 **구성 관리의** 보안 기준 카드는 끝점 보안 기준에 Windows 10 장치 전반에 걸쳐 규정 준수에 대한 개요를 제공합니다. [](configure-machines.md)
+장치 **구성** 관리의 [](configure-machines.md) 보안 기준 카드는 끝점 보안 기준에 대한 Defender가 할당된 Windows 10 Windows 11 장치 전반에 걸쳐 규정 준수에 대한 개요를 제공합니다.
 
 ![보안 기준 카드.](images/secconmgmt_baseline_card.png)
 
@@ -76,7 +74,7 @@ Windows Intune 보안 기준은 브라우저 설정, PowerShell 설정, 브라�
 
 ## <a name="review-and-assign-the-microsoft-defender-for-endpoint-security-baseline"></a>끝점용 Microsoft Defender 보안 기준 검토 및 할당
 
-장치 구성 관리는 끝점 보안 기준에 Windows 10 Microsoft Defender가 할당된 디바이스의 기준 준수만 모니터링합니다. Intune 장치 관리에서 기준을 편리하게 검토하고 장치에 할당할 수 있습니다.
+장치 구성 관리는 끝점 보안 기준에 대해 Microsoft Defender가 특별히 Windows 10 Windows 11 장치 및 디바이스의 기준 준수만 모니터링합니다. Intune 장치 관리에서 기준을 편리하게 검토하고 장치에 할당할 수 있습니다.
 
 1. **Intune** 장치 관리로 이동하려면 보안 기준 카드에서 보안 기준 구성을 선택합니다.  유사한 기준 준수 개요가 표시됩니다.
 

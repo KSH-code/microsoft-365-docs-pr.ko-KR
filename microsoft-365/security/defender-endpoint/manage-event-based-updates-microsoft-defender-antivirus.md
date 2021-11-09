@@ -2,7 +2,6 @@
 title: 특정 Microsoft Defender 바이러스 백신 후 업데이트 적용
 description: 시작 또는 Microsoft Defender 바이러스 백신 검색 보고서를 받은 후 보안 인텔리전스 업데이트를 적용하는 방법을 관리합니다.
 keywords: 업데이트, 보호, 강제 업데이트, 이벤트, 시작, 최신 확인, 알림
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -17,12 +16,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: ca814b93b3d36695e980fb560d1267ca9ded762e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f47787a137f9397ab8526ed202e60f44a7d52a55
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60159405"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883632"
 ---
 # <a name="manage-event-based-forced-updates"></a>이벤트 기반 강제 업데이트 관리
 

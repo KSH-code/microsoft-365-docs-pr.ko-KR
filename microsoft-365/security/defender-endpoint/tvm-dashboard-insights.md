@@ -2,8 +2,6 @@
 title: 대시보드 정보 - 위협 및 취약성 관리
 description: 이 위협 및 취약성 관리 대시보드는 SecOps 및 보안 관리자가 사이버 보안 위협을 해결하고 조직의 보안 탄력성을 구축하는 데 도움이 될 수 있습니다.
 keywords: Endpoint-tvm용 Microsoft Defender, Endpoint-tvm 대시보드용 Microsoft Defender 대시보드, 위협 & 취약성 관리, 위협 및 취약성 관리, 위험 기반 위협 & 취약성 관리, 보안 구성, 장치용 Microsoft 보안 점수, 노출 점수
-search.appverid: met150
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79bae1cdf4ce21ef00f622bfd438238e69f6ff8a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7c5bdc74a214ed76aa791a9ee8331ac2f0a5492a
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193916"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882984"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>대시보드 정보 - 위협 및 취약성 관리
 

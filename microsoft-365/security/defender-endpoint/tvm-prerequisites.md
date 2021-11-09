@@ -2,8 +2,6 @@
 title: 사용 권한의 & - 위협 및 취약성 관리
 description: 사용자 위협 및 취약성 관리 시작하기 전에 관련 구성 및 사용 권한이 있는지 확인해야 합니다.
 keywords: 위협 & 취약성 관리 사용 권한 선행 위협 및 취약성 관리, Microsoft Defender for Endpoint TVM 사용 권한 선행 취약성 관리
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c3bb52686c43afca710dbe8842463c493a15e140
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d3684d8b13020605fbca20e67093c28d3e782da2
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206736"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881747"
 ---
 # <a name="prerequisites--permissions---threat-and-vulnerability-management"></a>사용 권한의 & - 위협 및 취약성 관리
 

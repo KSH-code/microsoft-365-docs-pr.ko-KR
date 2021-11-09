@@ -2,8 +2,6 @@
 title: 보안 권장 사항에 대한 예외 만들기 및 보기 - 위협 및 취약성 관리
 description: 보안 권장 사항에 대한 예외를 만들고 모니터링하는 위협 및 취약성 관리.
 keywords: Microsoft Defender for Endpoint tvmmediation, Microsoft Defender for Endpoint tvm, 위협 및 취약성 관리, threat & 취약성 관리, threat & 취약성 관리 remediation, tvm remediation intune, tvm remediation sccm
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79bf9503b94b6d3c1f1a8bcd9203c381aad9e90f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b837199972f225a44406c7e18a57ae417363d15d
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206856"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883476"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항에 대한 예외 만들기 및 보기 - 위협 및 취약성 관리
 
@@ -41,7 +39,7 @@ ms.locfileid: "60206856"
 
 권장에 대한 예외가 만들어질 경우 예외 기간이 끝날 때까지 권장되지 않습니다. 권장 상태는 전체  예외 또는 부분 **예외(장치** 그룹)로 변경됩니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 "예외 처리" 권한이 있는 사용자만 예외(만들기 또는 취소 포함)를 관리할 수 있습니다. [RBAC 역할에 대해 자세히 알아보시다.](user-roles.md)
 
@@ -89,7 +87,7 @@ ms.locfileid: "60206856"
 
 유의해야 할 몇 가지 사항:
 
-- 권장 설정이 전역 예외에 해당되는 경우 전역 예외가 만료되거나 취소될 때까지 장치 그룹에 대해 새로 만든 예외가 일시 중단됩니다. 이 시점이 지난 후 만료될 때까지 새 장치 그룹 예외가 적용됩니다.
+- 전역 예외에서 권장되는 경우 전역 예외가 만료되거나 취소될 때까지 장치 그룹에 대해 새로 만든 예외가 일시 중단됩니다. 이 시점이 지난 후 만료될 때까지 새 장치 그룹 예외가 적용됩니다.
 - 권장에 특정 장치 그룹에 대한 예외가 이미 있는 경우 전역 예외가 생성되면 장치 그룹 예외가 만료되거나 전역 예외가 만료되기 전에 취소될 때까지 일시 중단됩니다.
 
 ### <a name="justification"></a>사리

@@ -1,8 +1,6 @@
 ---
 title: 끝점 장치 제어 장치 설치용 Microsoft Defender
 description: 이 항목에서는 끝점 장치 제어 장치 설치용 Microsoft Defender에 대한 정보를 제공합니다.
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -15,12 +13,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9b56f6ba5cc481de7c295305ab1d5abfbec68cd4
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 07ee57728d93458ca3242fafea1e7514a9e853b3
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60662301"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881988"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-device-installation"></a>끝점 장치 제어 장치 설치용 Microsoft Defender 
 
@@ -38,12 +36,12 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 |작업 모드|허용, 방지 |
 |CSP 지원|예|
 |GPO 지원|예|
-|사용자 기반 지원|아니요|
+|사용자 기반 지원|아니오|
 |컴퓨터 기반 지원|예|
 
 ## <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
-Server 2022의 Windows 10 장치 Windows 배포합니다.
+Server 2022에서 Windows 10, Windows 11 장치 Windows 배포합니다.
 
 ## <a name="device-properties"></a>장치 속성
 
@@ -69,7 +67,7 @@ Server 2022의 Windows 10 장치 Windows 배포합니다.
 이 **정책** 설정과 함께 모든 장치 일치 조건에서 장치 설치 허용 및 방지 정책에 대해 계층적 평가 순서 적용 정책 설정을 사용하도록 설정하지 않은 경우 특별히 설치를 방지하는 다른 정책 설정이 우선합니다. 
 
 > [!NOTE]
-> 다른 **정책 설정에서** 설명하지 않는 장치 설치 방지 정책  설정이 지원되는 대상 버전에 대한 모든 장치 일치 조건 조건 정책 설정에서 장치 설치 허용 및 금지에 대한 계층적 평가 순서 적용 정책 설정으로 Windows 10 변경되었습니다. 가능한 경우 모든 장치  일치 조건 정책 설정에서 장치 설치 허용 및 금지 정책에 대해 계층적 평가 순서 적용을 사용하는 것이 좋습니다.
+> 다른 Windows 10 **정책 설정에** 설명되지 않은 디바이스 설치 방지  정책 설정은 지원되는 대상 버전 및 디바이스에 대한 모든 장치 일치 조건 조건 정책 설정에서 장치 설치 허용 및 금지에 대한 계층적 평가 순서 적용 정책 설정으로 Windows 11. 가능한 경우 모든 장치  일치 조건 정책 설정에서 장치 설치 허용 및 금지 정책에 대해 계층적 평가 순서 적용을 사용하는 것이 좋습니다.
 
 ### <a name="allow-installation-of-devices-that-match-any-of-these-device-instance-ids"></a>이러한 장치 인스턴스와 일치하는 장치 설치 허용 
 

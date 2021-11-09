@@ -2,7 +2,6 @@
 title: 최신 끝점에 Microsoft Defender AV 보호 업데이트 적용
 description: 한 동안 업데이트되지 않은 끝점에 대해 업데이트를 적용하는 경우와 방법을 정의합니다.
 keywords: 업데이트, 보호, 오래된, 오래된, 오래된, catch-up
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -12,17 +11,17 @@ ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 09/03/2018
+ms.date: 10/18/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 1232d9fe6e604c0b4fea5598cf3b745ea6864cb7
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4ead5c123920670113a336d92fb98e69fea372b9
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60151981"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882264"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-scans-for-endpoints-that-are-out-of-date"></a>Microsoft Defender 바이러스 백신 업데이트 및 만료된 엔드포인트에 대한 검사 관리
 

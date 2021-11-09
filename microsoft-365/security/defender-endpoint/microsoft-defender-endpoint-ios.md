@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c4c44b62cba02f772f606d13abce7b26270b9613
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 05b714c21a1fdb095457f60a715a6daee677886e
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587152"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883620"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
@@ -73,7 +73,7 @@ ms.locfileid: "60587152"
 
 **시스템 요구 사항**
 
-- iOS 11.0 이상을 실행하는 iOS 장치입니다. iPad도 지원됩니다. *iOS 11.0에 대한 지원은 더 이상 사용되지 않습니다. 지원되는 최소 버전은 2021년 10월 25일부터 iOS 12.0입니다.*
+- iOS 12.0 이상을 실행하는 iOS 장치입니다. iPad도 지원됩니다.
 
 - 디바이스가 Intune 회사 포털 앱에 [](https://apps.apple.com/us/app/intune-company-portal/id719171358) 등록되거나 Azure Active Directory [등록되어 Microsoft Authenticator.](https://apps.apple.com/app/microsoft-authenticator/id983156458)
 
@@ -96,4 +96,4 @@ iOS에서 끝점용 Microsoft Defender 배포는 MEM(Microsoft Endpoint Manager)
 - [MAM(Endpoint 위험 신호)에 대한 Defender를 포함하도록 앱 보호 정책 구성](ios-install-unmanaged.md)
 - [iOS 기능에 대한 끝점용 Microsoft Defender 구성](ios-configure-features.md)
 - [끝점용 Microsoft Defender의 장치 위험 점수를 기반으로 조건부 액세스 정책 구성](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)
-- [MAM(모바일 응용 프로그램 관리) 기본](/mem/intune/apps/app-management#mobile-application-management-mam-basics)
+- [MAM(모바일 애플리케이션 관리) 기본 사항](/mem/intune/apps/app-management#mobile-application-management-mam-basics)

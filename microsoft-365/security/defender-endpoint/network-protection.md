@@ -2,7 +2,6 @@
 title: 네트워크 보호를 사용하여 잘못된 사이트에 대한 연결 방지
 description: 사용자가 알려진 악성 및 의심스러운 네트워크 주소에 액세스하지 못하게 하여 네트워크 보호
 keywords: 네트워크 보호, 악용, 악성 웹 사이트, ip, 도메인, 도메인
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -17,12 +16,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: overview
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a00fa0c255156f17f579889e8a399c52d126a6f8
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 13c8591d03bd0c4c6649f6afbdb383ad54089499
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60661601"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883560"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
@@ -53,7 +52,7 @@ ms.locfileid: "60661601"
 
 |Windows 버전|Microsoft Defender 바이러스 백신|
 |---|---|
-|Windows 10 버전 1709 이상 <p> Windows 서버 1803 이상|[Microsoft Defender 바이러스 백신 보호](configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다.|
+|Windows 10 버전 1709 이상 <p> Windows 11 <p> Windows 서버 1803 이상|[Microsoft Defender 바이러스 백신 보호](configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다.|
 |
 
 서비스를 사용하도록 설정한 후 서비스와 장치(끝점이라고도 하는) 간의 연결을 허용하도록 네트워크 또는 방화벽을 구성해야 할 수 있습니다.

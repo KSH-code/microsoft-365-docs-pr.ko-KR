@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: medium
 description: Udemy를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
-ms.openlocfilehash: 0f1b87ae2c218679a590cd714e9850b0c09773d2
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: f5cbb140d2bf76fdf03eba5de0e09ad70fbf4afb
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60703780"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883901"
 ---
 # <a name="configure-udemy-as-a-content-source-for-microsoft-viva-learning"></a>Udemy를 콘텐츠 원본으로 Microsoft Viva Learning
 
@@ -38,15 +38,28 @@ ms.locfileid: "60703780"
 
 1. 관리로 **이동한** **설정** API **를 검색합니다.** API의 상태를 검사합니다. 사용하지 않도록 설정된 경우 지원 팀에 문의하여 사용하도록 설정하거나 아래 단계에 따라 사용하도록 설정할 수 있습니다.
 
+    ![API 설정 페이지의 이미지입니다.](../media/learning/udemy-1.png)
+
 2. API를 사용하지 않도록 설정한 경우 **LMS/LXP** 통합으로 이동한 다음 **설정** 시작, 기타 로 **이동합니다.**
+
+    [![LMS/LXP 통합 설정 페이지의 이미지입니다.](../media/learning/udemy-2small.png)](../media/learning/udemy-2.png#lightbox)
 
 3. 다음 화면에서 사용자 지정 LMS/LXP 또는 타사 응용 프로그램의 이름을 입력합니다. 그런 다음 자동 등록 옵션을 켜거나 끄고 저장을 **선택합니다.** 자동 등록 옵션을 사용하면 LMS/LXP를 통해 과정을 시작한 사용자가 자동으로 Udemy에 등록할 수 있습니다.
 
+    ![자동 등록에 대한 on/off 토글의 이미지입니다.](../media/learning/udemy-3.png)
+
 4. 저장한 후 클라이언트 ID 및 클라이언트 비밀이 생성되고 화면에서 복사할 수 있습니다. 이제 제공된 클라이언트 자격 증명을 사용하여 API에 액세스할 수 있습니다.
+
+    ![생성된 클라이언트 ID 및 클라이언트 비밀의 이미지입니다.](../media/learning/udemy-4.png)
 
 5. API 끝점에 액세스하려면 API 끝점 및 ACCOUNT_ID URL이 필요합니다. 이 정보에 액세스한 다음 관리 , 다음 API로 설정 API를 사용해 볼 수 **있습니다.**  API를 사용하도록 설정하면 API의 상태가 "사용"으로 표시됩니다. API 설명서 링크를 선택합니다.
 
+    ![API가 활성화된 것으로 표시되어 있는 API 설정의 이미지입니다.](../media/learning/udemy-5.png)
+
 6. 개요 페이지에서 API 끝점 URL을 ACCOUNT_ID URL을 확인합니다. 지원되는 메서드로 이동하여 API 호출을 시도합니다. 이제 모두 Udemy Business API를 호출할 수 있습니다.
+
+    ![끝점 URL 및 클라이언트 ID를 표시하는 개요 페이지의 이미지입니다.](../media/learning/udemy-6.png)
+    ![URL 및 클라이언트 ID를 입력할 수 있는 직접 시도 페이지의 이미지입니다.](../media/learning/udemy-7.png)
 
 ## <a name="configure-in-your-microsoft-365-admin-center"></a>사용자 설정에서 Microsoft 365 관리 센터
 

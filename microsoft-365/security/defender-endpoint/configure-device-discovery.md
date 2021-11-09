@@ -2,8 +2,6 @@
 title: 장치 검색 구성
 description: 기본 검색 또는 표준 검색을 사용하여 Microsoft 365 Defender 장치 검색을 구성하는 방법 학습
 keywords: 기본, 표준, 끝점 검색 구성, 장치 검색
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c1dfbc1fb953a83c3854e7059bba30a069a37c83
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 914e246fe4c276a624989b189a3358c1821194fd
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555215"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882924"
 ---
 # <a name="configure-device-discovery"></a>장치 검색 구성
 

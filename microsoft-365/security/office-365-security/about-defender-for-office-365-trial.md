@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Microsoft Defender for Office 365
-ms.openlocfilehash: cf701be45841f155b825e86b761f5967bc6298f4
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 5dc374a8fbb305c7e5d9bf63660953cc20b644e3
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60588280"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882192"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Microsoft Defender for Office 365 평가판
 
@@ -66,6 +66,9 @@ A Microsoft Defender for Office 365 평가판은 몇 번의 클릭 후에 Office
 
 기본적으로 이러한 정책의 범위는 조직의 모든 사용자로 지정되지만 평가판을 설정하는 동안 또는 이후에 특정 사용자로 정책 할당을 변경할 수 있습니다.
 
+> [!NOTE]
+> 기존 스팸 방지 정책은 스팸 방지  정책에서 높은 스팸 지수의 판정을 위해 메시지를 정크 메일 폴더로 이동 작업을 통해 구성될 수 있습니다. 미리 설정한 보안 정책에 대한  표준 템플릿은 높은 스팸 지수에 대해 메시지 차단 작업을 사용하며, 미리 설정한 보안 정책은 사용자 지정 스팸 방지 정책 또는 기본 스팸 방지 정책 전에 항상 적용됩니다. 기본, 표준 및 엄격한 설정에 대한 자세한 내용은 EOP 및 보안용 Microsoft Defender에 대한 권장 [Office 365 참조하세요.](recommended-settings-for-eop-and-office365.md)
+
 지원되는 금고 앱에 대한 금고 [SharePoint,](mdo-for-spo-odb-and-teams.md) OneDrive 및 Microsoft Teams 및 금고 링크에 대한 Office 365 첨부 파일)도 보호할 [수 있습니다.](safe-links.md#safe-links-settings-for-office-365-apps)
 
 평가판을 설정하는 동안 전체 조직에 대해 Office 365 Plan 2용 Defender 전용 응답 [](threat-explorer.md)기능(예: [AIR](office-365-air.md) 및 위협 탐색기)도 설정됩니다. 정책의 스위핑은 필요하지 않습니다.
@@ -92,7 +95,7 @@ A Microsoft Defender for Office 365 평가판은 몇 번의 클릭 후에 Office
     - 특정 사용자로 범위가 지정된 사용자 지정 제한이 있습니다.
   - **전체 보호:** Office 365 플랜 2 기능(AIR, 위협 탐색기, 공격 시뮬레이션 교육 등)에 대해 Defender가 보호하는 총 사용자 수입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 평가판을 시작하거나 종료하려면 평가판에서 전역  관리자  또는 보안 관리자 역할의 구성원 Azure Active Directory. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 

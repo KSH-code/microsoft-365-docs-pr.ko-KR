@@ -2,7 +2,6 @@
 title: 공격 표면 감소 이벤트 보기
 description: 사용자 지정 보기를 가져와 공격 표면 축소 이벤트를 볼 수 있습니다.
 keywords: 이벤트 보기, exploit guard, 감사, 검토, 이벤트
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,12 +14,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: article
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 4ca3058db2f3f2e8ac79c7388d9a68ead1f48d38
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 7dccc8992d808b5f9cea2b190a9b40cdf75f3392
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60704850"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883176"
 ---
 # <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 

@@ -2,8 +2,6 @@
 title: 엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 description: 끝점용 Microsoft Defender에서 가짓 긍정 또는 거짓 부정을 처리하는 방법을 학습합니다.
 keywords: antivirus, exception, exclusion, Microsoft Defender for Endpoint, false positive, false negative, blocked file, blocked url
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: deploy
@@ -20,15 +18,15 @@ ms.collection:
 - m365solution-scenario
 - m365scenario-fpfn
 ms.topic: how-to
-ms.date: 10/07/2021
+ms.date: 10/19/2021
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: eadfdd0245c7a31aa71405a9cf63dfc3eaf90bb1
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 8023bcea4eb12689706790af41ead359e302898d
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60704660"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882864"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -269,7 +267,7 @@ ms.locfileid: "60704660"
 
 - Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
-- 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016 또는 Windows Server 2019 또는 Windows Server 2022
+- 디바이스가 Windows 10 버전 1703 이상 또는 Windows 11. Windows Server 2016 또는 Windows Server 2019 또는 Windows Server 2022
 - 차단 [또는 허용 기능이 켜져 있습니다.](/microsoft-365/security/defender-endpoint/advanced-features)
 
 #### <a name="indicators-for-ip-addresses-urls-or-domains"></a>IP 주소, URL 또는 도메인에 대한 표시기
@@ -280,7 +278,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 
 - 끝점용 Defender의 네트워크 보호는 차단 모드에서 사용하도록 설정됩니다(네트워크 [보호 사용 참조).](/microsoft-365/security/defender-endpoint/enable-network-protection)
 - 맬웨어 방지 클라이언트 버전은 4.18.1906.x 이상입니다.
-- 디바이스가 Windows 10 버전 1709 이상이 실행되고 있습니다.
+- 디바이스가 Windows 10 버전 1709 이상 또는 Windows 11
 
 사용자 지정 네트워크 표시기는 의 에서 [Microsoft 365 Defender.](microsoft-defender-security-center.md) 자세한 내용은 고급 기능을 [참조합니다.](/microsoft-365/security/defender-endpoint/advanced-features)
 
@@ -292,7 +290,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 
 - Microsoft Defender 바이러스 백신 클라우드 기반 보호를 사용하도록 구성됩니다(클라우드 기반 보호 [관리 참조).](deploy-manage-report-microsoft-defender-antivirus.md)
 - 맬웨어 방지 클라이언트 버전은 4.18.1901.x 이상입니다.
-- 디바이스에서 Windows 10 버전 1703 이상이 실행되고 있습니다. Windows Server 2016 또는 Windows Server 2019 또는 Windows Server 2022
+- 디바이스가 Windows 10 버전 1703 이상 또는 Windows 11. Windows Server 2016 또는 Windows Server 2019 또는 Windows Server 2022
 - 바이러스 및 위협 방지 정의가 최신입니다.
 
 > [!TIP]
@@ -312,7 +310,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 
 ### <a name="submit-a-fileless-detection-for-analysis"></a>분석을 위해 파일 없는 검색 제출
 
-동작에 따라 맬웨어로 검색된 파일도 없는 경우 분석을 위해 파일을 `Mpsupport.cab` 제출할 수 있습니다. Microsoft 맬웨어 보호.cab유틸리티(Command-Line 유틸리티) 도구를 사용하여 MPCmdRun.exe 파일을 Windows 10. 
+동작에 따라 맬웨어로 검색된 파일도 없는 경우 분석을 위해 파일을 `Mpsupport.cab` 제출할 수 있습니다. Microsoft 맬웨어 보호.cabCommand-Line 유틸리티(MPCmdRun.exe) 도구를 사용하여 Windows 10 파일을 Windows 11. 
 
 1. 로 ` C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` 이동한 다음 관리자 `MpCmdRun.exe` 권한으로 실행합니다.
 

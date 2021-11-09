@@ -2,8 +2,6 @@
 title: 조직의 취약성 - 위협 및 취약성 관리
 description: 조직에서 실행되는 소프트웨어에서 발견되는 취약점의 일반적인 CVE(취약성 및 노출) ID를 나열합니다. Endpoint용 Microsoft Defender에서 검색한 위협 및 취약성 관리 기능입니다.
 keywords: Microsoft Defender for Endpoint threat & 취약성 관리, 위협 및 취약성 관리, Microsoft Defender for Endpoint tvm vulnerabilites page, finding vulnerabilites through tvm, tvm vulnerability list, vulnerability details in tvm
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5395ae9452dae6ffc170ee294c59fce4942000a0
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 801eabd49beae39c4d926b4c370229f5308fb35b
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60193940"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882216"
 ---
 # <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>조직의 취약성 - 위협 및 취약성 관리
 

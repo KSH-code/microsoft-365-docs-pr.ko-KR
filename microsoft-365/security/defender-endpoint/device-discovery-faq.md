@@ -2,8 +2,6 @@
 title: 장치 검색에 자주 묻는 질문
 description: 장치 검색에 대한 FAQ(질문과 대답)에 대한 답변 찾기
 keywords: 장치 검색, 검색, 수동, 사전, 네트워크, 표시 여부, 서버, Workstation, 온보드, 관리되지 않는 장치
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -20,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 185de1d39f6d10f84ab5409772dbf0c1193544e7
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: df0488f8ae9aad5ab00b39f85d638fae2dc0eabc
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701084"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882708"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
@@ -59,13 +57,13 @@ ms.locfileid: "60701084"
 
 
 ## <a name="which-onboarded-devices-can-perform-discovery"></a>검색을 수행할 수 있는 온보드 장치는 무엇입니까?
- Windows 10 버전 1809 이상에서 실행되는 온보드 장치는 검색을 수행할 수 있습니다. 이때 서버가 검색을 수행할 수 없습니다.
+ Windows 10 버전 1809 이상에서 실행되거나 Windows 11 장치를 검색할 수 있습니다. 이때 서버가 검색을 수행할 수 없습니다.
 
 ## <a name="what-happens-if-my-onboarded-devices-is-connected-to-my-home-network-or-to-public-access-point"></a>온보드 장치가 홈 네트워크 또는 공용 액세스 지점에 연결되어 있는 경우 어떻게 하나요?
  검색 엔진은 회사 네트워크에서 수신되는 네트워크 이벤트와 회사 네트워크 외부에서 수신되는 네트워크 이벤트를 구분합니다. 모든 테넌트 클라이언트에서 네트워크 식별자를 상호 연결하면 개인 네트워크와 회사 네트워크에서 받은 이벤트 간에 이벤트가 차별화됩니다. 예를 들어 조직의 대부분의 장치가 동일한 기본 게이트웨이와 DHCP 서버 주소를 사용하여 동일한 네트워크 이름에 연결된다고 보고하는 경우 이 네트워크가 회사 네트워크일 가능성이 높다고 가정할 수 있습니다. 개인 네트워크 장치는 인벤토리에 나열되지 않을 뿐만 아니라 적극적으로 프로브되지 않습니다.
 
 ## <a name="what-protocols-are-you-capturing-and-analyzing"></a>어떤 프로토콜을 캡처하고 분석하나요?
- 기본적으로 Windows 10 버전 1809 이상에서 실행되는 모든 온보드 장치는 ARP, CDP, DHCP, DHCPv6, IP(헤더), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP(SYN 헤더), UDP(헤더), WSD 프로토콜을 캡처하고 분석합니다.
+ 기본적으로 Windows 10 버전 1809 이상 또는 Windows 11 실행되는 모든 온보드 장치는 ARP, CDP, DHCP, DHCPv6, IP(헤더), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP(SYN 헤더), UDP(헤더), WSD 프로토콜을 캡처하고 분석합니다.
 
 ## <a name="which-protocols-do-you-use-for-active-probing-in-standard-discovery"></a>표준 검색에서 활성 프로비전에 어떤 프로토콜을 사용하나요?
  장치가 표준 검색을 실행하도록 구성된 경우 노출된 서비스는 ARP, FTP, HTTP, HTTPS, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL, RPC, mDNS, DHCP, AFP, CrestonCIP, IphoneSync, WinRM, VNC, SLP

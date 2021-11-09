@@ -19,12 +19,12 @@ ms.custom: ''
 description: Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPort와 같은 타사 보호 서비스 또는 장치에서 Microsoft Defender로 마이그레이션하는 올바른 방법을 Office 365 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6c48de77ff62e21263f4475f0ce5e0bd5f36d221
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: c80d9e6005b5f9f329164dbc4ba0ebfed6a05a1b
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792499"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883956"
 ---
 # <a name="migrate-from-a-third-party-protection-service-or-device-to-microsoft-defender-for-office-365"></a>타사 보호 서비스 또는 장치에서 Microsoft Defender로 Office 365
 
@@ -55,7 +55,7 @@ Microsoft 365 앞에 있는 기존 타사 보호 서비스 또는 장치가 이�
 
 ## <a name="why-use-the-steps-in-this-guide"></a>이 가이드의 단계를 사용하는 이유는 무엇입니까?
 
-IT 업계에서 놀라움은 일반적으로 좋지 않습니다. MX 레코드를 대칭 이동하여 사전 및 Microsoft 365 테스트하지 않으면 많은 놀라움을 줄 수 있습니다. 예제:
+IT 업계에서 놀라움은 일반적으로 좋지 않습니다. MX 레코드를 대칭 이동하여 사전 및 Microsoft 365 테스트하지 않으면 많은 놀라움을 줄 수 있습니다. 예를 들면 다음과 같습니다.
 
 - 사용자 또는 선행 작업에서 최적의 메일 배달을 위해 기존 보호 서비스를 사용자 지정하는 데 많은 시간과 노력을 소비한 것일 수 있습니다(즉, 차단해야 하는 사항을 차단하고 허용해야 하는 사항을 허용). 현재 보호 서비스의 일부 사용자 지정이 Defender에서 필수가 아니라는 사실은 거의 Office 365. 또한 Defender for Office 365 발생하지 않았거나 현재 보호 서비스에 필요하지 않은 새로운 문제(허용 또는 차단)를 도입할 수도 있습니다.
 - 지원 센터 및 보안 담당자는 지원 센터를 위해 Defender에서 할 작업을 알아야 Office 365. 예를 들어 사용자가 누락된 메시지에 대해 불만을 표시하는 경우 지원 센터에서 메시지를 찾아야 하는 위치 또는 방법을 알고 있나요? 기존 보호 서비스의 도구에 익숙한 것으로 확인될 수 있지만 Defender for Office 365?
@@ -89,4 +89,4 @@ Defender for Office 365 조직에 어떤 영향을 주는지 더 잘 알수록 �
 
 ## <a name="next-step"></a>다음 단계
 
-- [1단계: 설치로 진행합니다.](migrate-to-defender-for-office-365-prepare.md)
+- [1단계: 준비로 진행합니다.](migrate-to-defender-for-office-365-prepare.md)

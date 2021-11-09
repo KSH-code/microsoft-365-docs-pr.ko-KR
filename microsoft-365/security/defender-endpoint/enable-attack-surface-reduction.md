@@ -2,7 +2,6 @@
 title: 공격 노출 영역 축소 규칙 사용
 description: ASR(공격 표면 축소) 규칙을 사용하도록 설정하여 매크로, 스크립트 및 일반적인 삽입 기술을 사용하는 공격으로부터 장치를 보호합니다.
 keywords: 공격 표면 감소, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지, 악용, 감염 방지, 사용, 켜기
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,14 +14,14 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.date: 08/17/2021
+ms.date: 10/14/2021
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b741844819d98a394eba969451a59e7b654fcc72
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 92adcad0a7cbb12853e2caca217b87f448efcb65
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60667327"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881952"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
@@ -156,7 +155,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
    - **이름에** 규칙의 이름을 입력합니다.
    - **설명에** 간단한 설명을 입력합니다.
-   - **OMA-URI에서** 추가하는 규칙에 대한 특정 OMA-URI 링크를 입력하거나 붙여넣습니다. 이 예제 규칙에 사용할 OMA-URI에 대해 이 항목의 앞부분에 있는 MEM 섹션을 참조하세요. ASR 규칙 GUIDS에 대한 자세한 내용은 [공격](attack-surface-reduction-rules.md#per-rule-descriptions) 표면 감소 규칙 항목의 규칙 설명을 참조하세요.
+   - **OMA-URI에서** 추가하는 규칙에 대한 특정 OMA-URI 링크를 입력하거나 붙여넣습니다. 이 예제 규칙에 사용할 OMA-URI에 대해 이 문서 앞부분의 MEM 섹션을 참조하세요. Azure Site Recovery rule GUIDS에 대한 자세한 내용은 [공격](attack-surface-reduction-rules.md#per-rule-descriptions) 표면 감소 규칙 항목의 규칙 설명을 참조하세요.
    - 데이터 **형식에서** 문자열 을 **선택합니다.**
    - **값에서** GUID 값, 부호 및 상태 값을 공백이 없는 상태로 입력하거나 \= 붙여넣습니다(_GUID=StateValue)._ 여기서,
      - 0: 사용 안 하게(ASR 규칙 사용 안 하게)

@@ -2,7 +2,6 @@
 title: 알림 Microsoft Defender 바이러스 백신 구성
 description: 끝점에서 표준 및 기타 Microsoft Defender 바이러스 백신 알림을 구성하고 사용자 지정하는 방법을 학습합니다.
 keywords: 알림, defender, 바이러스 백신, 끝점, 관리, 관리자
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.technology: mde
 ms.mktglfcycl: manage
@@ -13,16 +12,16 @@ author: denisebmsft
 ms.topic: article
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 06/16/2021
+ms.date: 10/18/2021
 ms.reviewer: ''
 manager: dansimp
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c5b651dba1cf6b4e1af2e02e21f18f5663c21d1e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b2b23a52312b3f384122f34b054b65bd6aa486a2
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60201411"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881916"
 ---
 # <a name="configure-microsoft-defender-antivirus-notifications-that-appear-on-endpoints"></a>끝점에 Microsoft Defender 바이러스 백신 알림 구성
 
@@ -30,7 +29,7 @@ ms.locfileid: "60201411"
 
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-이러한 Windows 10 맬웨어 검색 및 수정에 대한 응용 프로그램 알림은 더욱 강력하고 일관되고, 일관성이 있습니다. Microsoft Defender 바이러스 백신 검사가 완료되고 위협이 감지되면 끝점에 알림이 표시됩니다. 알림은 예약된 검사와 수동 트리거된 검사 모두를 따르게 됩니다. 이러한 알림은 알림 센터에도 **표시될** 수 있으며, 검사 및 위협 검색 요약은 정기적인 간격으로 표시됩니다.
+이러한 Windows 10 Windows 11 맬웨어 검색 및 수정에 대한 응용 프로그램 알림은 더욱 강력하고 일관되고, 일관성이 있습니다. Microsoft Defender 바이러스 백신 검사가 완료되고 위협이 감지되면 끝점에 알림이 표시됩니다. 알림은 예약된 검사와 수동 트리거된 검사 모두를 따르게 됩니다. 이러한 알림은 알림 센터에도 **표시될** 수 있으며, 검사 및 위협 검색 요약은 정기적인 간격으로 표시됩니다.
 
 조직의 보안 팀에 속하는 경우 시스템 재부팅을 요청하는 알림이나 위협이 감지되고 수정된 것을 나타내는 알림과 같이 끝점에 알림이 나타나는 방법을 구성할 수 있습니다.
 
@@ -39,7 +38,7 @@ ms.locfileid: "60201411"
 최신 위협 감지 요약과 같은 추가 알림 표시를 Windows 보안 [그룹](microsoft-defender-security-center-antivirus.md) 정책을 사용하여 구성할 수 있습니다.
 
 > [!NOTE]
-> Windows 10 버전 1607에서는 이 기능을 고급  알림이라고 하여 Windows 설정  업데이트 & \> **보안** \> Windows Defender. 모든 버전의 사용자에 대한 그룹 정책 설정에서 Windows 10 기능을 **고급 알림이라고 합니다.**
+> Windows 10 버전 1607에서는 이 기능을 고급  알림이라고 하여 Windows 설정  업데이트 & \> **보안** \> Windows Defender. 모든 버전의 Windows 10 및 Windows 11 그룹 정책 설정에서 알림 기능을 고급 알림이라고 **합니다.**
 
 ### <a name="use-group-policy-to-disable-additional-notifications"></a>그룹 정책을 사용하여 추가 알림을 사용하지 않도록 설정
 

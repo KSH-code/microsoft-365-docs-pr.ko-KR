@@ -2,8 +2,6 @@
 title: 네트워크 장치 검색 및 취약성 관리
 description: 이제 스위치, 라우터, WLAN 컨트롤러 및 방화벽 운영 체제에서 보안 권장 사항 및 취약점 감지를 사용할 수 있습니다.
 keywords: 네트워크 장치, 네트워크 장치 취약점 감지, 스위치 운영 체제, 라우터, WLAN 컨트롤러 및 방화벽
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 87b712bb8c70f9c1f3dad62a156cc4a7a45e2647
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 1ec9863a97d58dd61aaf47da1fcd965aab1fd4d3
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60667263"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881976"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>네트워크 장치 검색 및 취약성 관리
 
@@ -98,7 +96,7 @@ ms.locfileid: "60667263"
     > [!NOTE]
     > 모든 URL이 허용된 데이터 수집의 끝점용 Defender 문서화 목록에 지정되지는 않습니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 평가 작업을 구성하려면 보안 센터에서 보안 설정 관리와 같은 사용자 **권한 옵션이 필요합니다.** 역할 에서 **역할로** 설정 \> **있습니다.** 자세한 내용은 역할 기반 액세스 제어에 대한 역할 만들기 [및 관리를 참조하세요.](user-roles.md)
 

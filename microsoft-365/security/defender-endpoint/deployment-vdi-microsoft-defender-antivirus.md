@@ -2,7 +2,6 @@
 title: Microsoft Defender 바이러스 백신 가상 데스크톱 인프라 배포 가이드
 description: 보호와 성능 Microsoft Defender 바이러스 백신 균형을 유지하기 위해 가상 데스크톱 환경에 배포하는 방법을 학습합니다.
 keywords: vdi, hyper-v, vm, 가상 컴퓨터, windows defender, 바이러스 백신, av, 가상 데스크톱, rds, 원격 데스크톱
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,17 +10,17 @@ ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 08/31/2021
+ms.date: 10/18/2021
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 86f2ecdbf263f922d5e271028d28c50b91af31b5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 23ac32508338771b46ccd30b520da53a471be81a
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213724"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882084"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드
 
@@ -179,7 +178,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 알림을 표시하지 Microsoft Defender 바이러스 백신 검사가 수행되거나 수정 작업이 수행될 Windows 10 알림 센터에 알림이 표시되지 않습니다. 그러나 보안 운영 팀의 검색 결과는 검색 포털에서 Microsoft 365 Defender [표시됩니다.](microsoft-defender-security-center.md)
 
 > [!TIP]
-> 관리 센터를 Windows 10 다음 단계 중 하나를 수행합니다.
+> Windows 10 또는 Windows 11 센터를 열기 위해 다음 단계 중 하나를 수행합니다.
 >
 > - 작업 표시줄의 오른쪽 끝에서 작업 센터 아이콘을 선택합니다.
 > - 로고 Windows 단추 + A를 누릅니다.

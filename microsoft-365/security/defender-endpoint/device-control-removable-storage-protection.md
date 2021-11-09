@@ -2,8 +2,6 @@
 title: Microsoft Defender for Endpoint Device Control 이동식 Storage 보호
 description: 사용자 또는 컴퓨터 또는 둘 다 권한이 없는 이동식 저장소 미디어를 사용하지 못하도록 하는 '기능' 이해
 keywords: 이동식 저장소 미디어
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 655ed51ae6ca6110bf86657a32be95a4084f5c9a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9e3e658af5118d7a2d6ff565d52154e7be3f95fa
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60184728"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882696"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 보호
 
@@ -38,14 +36,14 @@ Microsoft Defender for Endpoint의 장치 제어 이동식 저장소 보호는 �
 - *감사* 제외를 포함하거나 제외하지 않고 다양한 장치 속성을 기반으로 이동식 저장소에 대한 액세스를 읽거나 쓰기 또는 실행합니다.
 - *방지* 제외를 포함하거나 제외하지 않고 액세스 읽기 또는 쓰기 또는 실행 - 다양한 장치 속성에 따라 특정 장치를 허용합니다.
 
-**Windows 10 지원 세부 정보**:
+**Windows 10 Windows 11 지원 세부 정보:**
 
 - 장치 수준 사용자 수준에서 적용됩니다. 또는 둘 다를 사용할 수 있습니다. 특정 컴퓨터의 특정 이동식 저장소에 대한 읽기/쓰기/실행 액세스를 수행하는 특정 사용자만 허용합니다.
 - MEM OMA-URI 및 GPO를 지원합니다.
 - 나열된['장치 속성'이](#device-properties)지원됩니다.
 - 이 기능의 Windows [이동식 저장소 액세스 제어를 참조합니다.](device-control-removable-storage-access-control.md)
 
-**지원되는 플랫폼** - Windows 10
+**지원되는 플랫폼** - Windows 10, Windows 11
 
 **macOS 지원 세부 정보**:
 
@@ -59,14 +57,14 @@ Microsoft Defender for Endpoint의 장치 제어 이동식 저장소 보호는 �
 
 **기능** - 다양한 장치 속성에 따라 제외를 포함하거나 제외하지 않고 설치하지 못하게 합니다.
 
-**Windows 10 지원 세부 정보**:
+**Windows 10 Windows 11 지원 세부 정보:**
 
 - 장치 수준에서 적용: 로그온한 모든 사용자에 대해 동일한 정책이 적용됩니다.
 - 그룹 Microsoft Endpoint Manager 개체를 지원할 수 있습니다.
 - 나열된['장치 속성'이](#device-properties)지원됩니다.
 - 자세한 내용은 Windows [Microsoft Defender for Endpoint를](control-usb-devices-using-intune.md)사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법을 참조하세요.
 
-**지원되는 플랫폼** - Windows 10
+**지원되는 플랫폼** - Windows 10, Windows 11
 
 **macOS 지원 세부 정보**:
 
@@ -81,7 +79,7 @@ Microsoft Defender for Endpoint의 장치 제어 이동식 저장소 보호는 �
 
 **설명** - 자세한 내용은 Windows 끝점 데이터 손실 Microsoft 365 [정보를 참조하세요.](../../compliance/endpoint-dlp-learn-about.md)
 
-**지원되는 플랫폼** - Windows 10
+**지원되는 플랫폼** - Windows 10, Windows 11
 
 ### <a name="bitlocker"></a>BitLocker
 
@@ -92,7 +90,7 @@ Microsoft Defender for Endpoint의 장치 제어 이동식 저장소 보호는 �
 
 **설명** - 에 대한 자세한 Windows [BitLocker - 이동식](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings)드라이브 설정.
 
-**지원되는 플랫폼** - Windows 10
+**지원되는 플랫폼** - Windows 10, Windows 11
 
 ## <a name="device-properties"></a>장치 속성
 

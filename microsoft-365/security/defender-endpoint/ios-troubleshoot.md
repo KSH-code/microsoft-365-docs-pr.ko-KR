@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 608746c406ef308636e0a2ffc6f4bb1d69f6bbf7
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 9245062a0906186ce779383725cecc8209655c6f
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587352"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882756"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
@@ -62,13 +62,11 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 
 ## <a name="battery-consumption"></a>배터리 사용
 
-웹 기반 위협으로부터 모든 시간을 보호하기 위해 끝점용 Microsoft Defender는 백그라운드에서 실행해야 합니다. 이로 인해 장치의 전체 배터리 사용이 사소하게 증가할 수 있습니다.
+웹 기반 위협으로부터 모든 시간을 보호하기 위해 끝점용 Microsoft Defender는 백그라운드에서 실행해야 합니다. 이로 인해 장치의 전체 배터리 사용이 사소하게 증가할 수 있습니다. 상당한 배터리 소모가 표시될 경우 [](ios-troubleshoot.md#send-in-app-feedback) 피드백을 보내주세요. 조사할 것입니다.
 
 또한 설정 앱에서 iOS는 특정 기간 동안 사용자에게 표시되는 앱의 배터리 사용만 보여 줍니다. 화면에 표시된 앱의 배터리 사용량은 해당 기간 동안만 사용하며 CPU 및 네트워크 사용량을 비롯한 다양한 요인에 따라 iOS에서 계산됩니다. 끝점용 Microsoft Defender는 백그라운드에서 로컬/루프백 VPN을 사용하여 악성 웹 사이트 또는 연결에 대한 웹 트래픽을 확인합니다. 모든 앱에서 네트워크 패킷이 이 검사를 통과하여 끝점용 Microsoft Defender의 배터리 사용이 부정확하게 계산됩니다. Endpoint용 Microsoft Defender의 실제 배터리 사용은 장치의 배터리 설정 페이지에 표시된 것보다 적습니다.
 
-백그라운드에서 실행되는 끝점용 Microsoft Defender의 하루 평균 배터리 사용량은 하루 동안 소비된 전체 배터리의 **약 8.81%입니다.** 이 메트릭은 최종 사용자 장치에서 끝점용 Microsoft Defender의 실제 사용 현황을 기준으로 Apple에서 보고하며 위에서 언급한 이유 때문에 네트워크 활동이 있는 다른 앱에도 고려될 수 있습니다.
-
-또한 사용되는 VPN은 로컬 VPN으로, 기존 VPN과 달리 네트워크 트래픽은 장치 외부로 전송되지 않습니다.
+사용된 VPN은 로컬 VPN으로, 기존 VPN과 달리 네트워크 트래픽은 장치 외부로 전송되지 않습니다.
 
 ## <a name="data-usage"></a>데이터 사용 현황
 
@@ -76,7 +74,7 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 
 다른 VPN 서비스와도 비슷한 관찰을 하여 Apple에 보고했습니다.
 
-또한 더 나은 보호를 제공하기 위해 백 엔드 서비스를 통해 끝점에 대한 Microsoft Defender를 최신으로 설정하는 것이 중요합니다. 그러나 Microsoft Defender for Endpoint의 데이터 사용을 최적화하기 위해 작업 중입니다.
+또한 더 나은 보호를 제공하기 위해 백 엔드 서비스를 통해 끝점에 대한 Microsoft Defender를 최신으로 설정하는 것이 중요합니다.
 
 ## <a name="report-unsafe-site"></a>안전하지 않은 사이트 보고
 

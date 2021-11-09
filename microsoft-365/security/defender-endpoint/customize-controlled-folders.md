@@ -1,8 +1,7 @@
 ---
 title: 제어된 폴더 액세스 사용자 지정
 description: 제어된 폴더 액세스로 보호해야 하는 다른 폴더를 추가하거나 중요한 파일의 변경 내용을 잘못 차단하는 앱을 허용합니다.
-keywords: 제어된 폴더 액세스, windows 10, windows defender, 랜섬웨어, 보호, 파일, 폴더, 사용자 지정, 폴더 추가, 앱 추가, 허용, 실행 파일 추가
-search.product: eADQiWindows 10XVcnh
+keywords: 제어된 폴더 액세스, windows 10, windows 11, windows defender, 랜섬웨어, 보호, 파일, 폴더, 사용자 지정, 폴더 추가, 앱 추가, 허용, 실행 파일 추가
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -12,16 +11,16 @@ author: denisebmsft
 ms.author: deniseb
 ms.reviewer: jcedola, dbodorin, vladiso, nixanm, anvascon
 manager: dansimp
-ms.date: 05/10/2021
+ms.date: 10/19/2021
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 88ecdbdc5055a954a2bd163697eac144edf0b2bc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ff4b1f7b5fc271c01ef1d9eee079b4e4b4397ba2
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60178470"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883224"
 ---
 # <a name="customize-controlled-folder-access"></a>제어된 폴더 액세스 사용자 지정
 
@@ -32,7 +31,7 @@ ms.locfileid: "60178470"
 > [!TIP]
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows Server 2019, Windows Server 2022 및 Windows 10 지원됩니다. 이 문서에서는 제어된 폴더 액세스 기능을 사용자 지정하는 방법을 설명하고 다음 섹션을 포함합니다.
+제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows Server 2022, Windows Server 2022, Windows 10 및 windows 11 클라이언트에서 지원됩니다. 이 문서에서는 제어된 폴더 액세스 기능을 사용자 지정하는 방법을 설명하고 다음 섹션을 포함합니다.
 
 - [추가 폴더 보호](#protect-additional-folders)
 - [보호된 폴더에 액세스할 수 있도록 허용해야 하는 앱 추가](#allow-specific-apps-to-make-changes-to-controlled-folders)

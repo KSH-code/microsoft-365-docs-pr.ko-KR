@@ -2,8 +2,6 @@
 title: 소프트웨어 인벤토리의 위협 및 취약성 관리
 description: Endpoint용 Microsoft Defender for Endpoint 위협 및 취약성 관리 소프트웨어 인벤토리 페이지에는 소프트웨어에서 감지된 약점 및 취약성의 수가 표시됩니다.
 keywords: 위협 및 취약성 관리, Endpoint용 Microsoft Defender, Endpoint용 Microsoft Defender 소프트웨어 인벤토리, Endpoint 위협 & 취약성 관리용 Microsoft Defender, Endpoint 위협 & 취약성 관리 소프트웨어 인벤토리, Endpoint tvm용 Microsoft Defender 소프트웨어 인벤토리, tvm 소프트웨어 인벤토리
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 10e5c062af839142db0b12f562739fd2fb603d42
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 63af06a3d7565ede3fb703ccb5aeaacc77d3612d
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60157833"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883836"
 ---
 # <a name="software-inventory---threat-and-vulnerability-management"></a>소프트웨어 인벤토리 - 위협 및 취약성 관리
 
@@ -38,7 +36,7 @@ ms.locfileid: "60157833"
 
 위협 및 취약성 관리 소프트웨어 인벤토리는 공식 [CPE(Common Platform Enumerations)가](https://nvd.nist.gov/products/cpe)있는 조직의 알려진 소프트웨어 목록입니다. 공식 CPE가 없는 소프트웨어 제품에는 취약점이 게시되지 않습니다. 또한 공급업체 이름, 약점 수, 위협, 노출된 장치 수 등의 세부 정보도 포함됩니다.
 
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방법
 
 검색 필드에서는 끝점 감지 및 응답 기능에 대한 Microsoft Defender의 감지 및 취약점 평가를 담당하는 동일한 신호 집합을 [활용하고 있습니다.](overview-endpoint-detection-response.md)
 
@@ -51,7 +49,7 @@ ms.locfileid: "60157833"
 장치 목록에서 개별 디바이스 페이지의 특정 디바이스에서 소프트웨어를 [볼 수 있습니다.](machines-view-overview.md)
 
 > [!NOTE]
-> Microsoft Defender for Endpoint 전역 검색을 사용하여 소프트웨어를 검색하는 경우 공백 대신 밑면을 넣어야 합니다. 예를 들어 최상의 검색 결과를 위해 "windows_10" 대신 "Windows 10"를 작성합니다.
+> Microsoft Defender for Endpoint 전역 검색을 사용하여 소프트웨어를 검색하는 경우 공백 대신 밑면을 넣어야 합니다. 예를 들어 최상의 검색 결과를 얻기 위해 "windows_10" 또는 "windows_11" 대신 "Windows 10" 또는 "Windows 11"를 작성합니다.
 
 ## <a name="software-inventory-overview"></a>소프트웨어 인벤토리 개요
 

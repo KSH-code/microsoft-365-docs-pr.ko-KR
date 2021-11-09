@@ -2,8 +2,6 @@
 title: 공격 표면 감소 기능 구성
 description: 공격 Microsoft Intune, Microsoft Endpoint Configuration Manager, PowerShell cmdlet 및 그룹 정책을 사용하여 공격 표면 감소를 구성합니다.
 keywords: asr, 공격 표면 감소, windows defender, microsoft defender, 바이러스 백신, av
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,13 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.date: 08/11/2021
-ms.openlocfilehash: 1ad1a58b47b6e84366cbaf7bceea19ec9fe6bc52
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.date: 10/14/2021
+ms.openlocfilehash: 0809f300cd1baa139d42ac5e49905add68b5f735
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213843"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882636"
 ---
 # <a name="configure-attack-surface-reduction-capabilities"></a>공격 표면 감소 기능 구성
 
@@ -60,7 +58,7 @@ Endpoint용 Defender에는 여러 공격 표면 감소 기능이 포함되어 �
 
 > [!TIP]
 > 대부분의 경우 공격 표면 감소 기능을 구성할 때 다음 여러 방법 중에서 선택할 수 있습니다.
-
+>
 > - Microsoft Endpoint Manager(현재 Microsoft Intune 및 Microsoft Endpoint Configuration Manager)
 > - 그룹 정책
 > - PowerShell cmdlet

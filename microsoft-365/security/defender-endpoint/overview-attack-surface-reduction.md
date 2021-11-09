@@ -3,8 +3,6 @@ title: 공격 표면 감소 개요
 ms.reviewer: ''
 description: 끝점용 Microsoft Defender의 공격 표면 축소 기능에 대해 자세히 알아보십시오.
 keywords: asr, 공격 표면 감소, 끝점용 Microsoft Defender, Microsoft Defender, 바이러스 백신, av, windows defender
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -18,13 +16,13 @@ ms.collection: M365-security-compliance
 ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
-ms.date: 06/02/2021
-ms.openlocfilehash: 5950dba146260f69256f5b64a2a44f666060a18b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.date: 10/14/2021
+ms.openlocfilehash: 5da8e3bf024745ed38142779e982e17b59c26439
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60204014"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60884064"
 ---
 # <a name="overview-of-attack-surface-reduction-capabilities"></a>공격 표면 감소 기능 개요
 

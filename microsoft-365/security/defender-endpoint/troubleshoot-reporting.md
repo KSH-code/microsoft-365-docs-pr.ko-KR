@@ -2,7 +2,6 @@
 title: 데이터 관리에 대한 보고 도구 Microsoft Defender 바이러스 백신
 description: 업데이트 준수에서 보안 보호 Microsoft Defender 바이러스 백신 보고할 때 일반적인 문제 식별 및 해결
 keywords: 문제 해결, 오류, 수정, 업데이트 준수, oms, 모니터링, 보고, Microsoft Defender 바이러스 백신
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: dc9ad48614e386c0e61bc6395ad3126247802046
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f1d749eba67696fd2074283cd3c02ffe43330172
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196789"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883452"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-reporting-in-update-compliance"></a>업데이트 규정 준수에서 Microsoft Defender 바이러스 백신 보고 문제 해결
 
@@ -74,6 +73,7 @@ Windows [분석](/windows/deployment/update/update-compliance-using#wdav-assessm
 
 > [!div class="nextstepaction"]
 > [업데이트 준수 문제 해결을 위한 진단 데이터 수집](collect-diagnostic-data.md)
+
 
 ## <a name="related-topics"></a>관련 항목
 

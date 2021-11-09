@@ -2,7 +2,6 @@
 title: 공격 노출 영역 축소 규칙
 description: 규칙에 따라 공격 표면 감소 규칙에 대한 세부 정보를 나열합니다.
 keywords: 공격 표면 감소 규칙, ASR, asr 규칙, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지 규칙, 악용 방지 규칙, 감염 방지 규칙, 끝점용 Microsoft Defender, ASR 규칙 구성, ASR 규칙 설명
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -17,12 +16,12 @@ ms.custom: asr
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 6a7b7bb094a18eadab6e3353ef99a9ac440b1b8d
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 9db0543a8d6c68c74b2ae6eba98a14bffb3411f7
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60553656"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882672"
 ---
 # <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
@@ -202,7 +201,7 @@ GUID: `d4f940ab-401b-4efc-aadc-ad5f3c50688a`
 
 이 규칙은 LSASS(Local Security Authority Subsystem Service)를 잠가 자격 증명 도용을 방지하는 데 도움이 됩니다.
 
-LSASS는 Windows 인증합니다. Microsoft Defender Credential Guard는 Windows 10 LSASS에서 자격 증명을 추출하려고 시도하지 않습니다. 그러나 일부 조직에서는 사용자 지정 스마트 카드 드라이버 또는 LSA(Local Security Authority)로 로드되는 다른 프로그램과의 호환성 문제로 인하여 모든 컴퓨터에서 Credential Guard를 사용하도록 설정할 수 없습니다. 이러한 경우 공격자는 Mimikatz와 같은 해킹 도구를 사용하여 LSASS에서 지우기 암호 및 NTLM 해시를 스크랩할 수 있습니다.
+LSASS는 Windows 인증합니다. Microsoft Defender Credential Guard는 Windows LSASS에서 자격 증명을 추출하려고 시도하지 않습니다. 그러나 일부 조직에서는 사용자 지정 스마트 카드 드라이버 또는 LSA(Local Security Authority)로 로드되는 다른 프로그램과의 호환성 문제로 인하여 모든 컴퓨터에서 Credential Guard를 사용하도록 설정할 수 없습니다. 이러한 경우 공격자는 Mimikatz와 같은 해킹 도구를 사용하여 LSASS에서 지우기 암호 및 NTLM 해시를 스크랩할 수 있습니다.
 
 > [!NOTE]
 > 일부 앱에서는 코드가 실행 중인 모든 프로세스를 열기하고 모든 사용 권한으로 열려고 시도합니다. 이 규칙은 앱의 프로세스 열기 작업을 거부하고 보안 이벤트 로그에 세부 정보를 기록합니다. 이 규칙은 노이즈를 많이 생성할 수 있습니다. LSASS를 열기만 하지만 기능에는 실질적인 영향을 미치는 앱이 있는 경우 제외 목록에 앱을 추가할 필요가 없습니다. 이 이벤트 로그 항목 자체는 악의적인 위협을 나타낼 필요는 없습니다.

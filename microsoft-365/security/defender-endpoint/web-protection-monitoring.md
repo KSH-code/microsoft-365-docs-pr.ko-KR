@@ -2,7 +2,6 @@
 title: 끝점용 Microsoft Defender의 웹 검색 보안 모니터링
 description: 끝점용 Microsoft Defender의 웹 보호를 사용하여 웹 검색 보안 모니터링
 keywords: 웹 보호, 웹 위협 방지, 웹 검색, 모니터링, 보고서, 카드, 도메인 목록, 보안, 피싱, 맬웨어, 악용, 웹 사이트, 네트워크 보호, Edge, Internet Explorer, Chrome, Firefox, 웹 브라우저
-search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5bf6cc1f64cfbc7c4238e01ad7d623e3164639c8
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4bbe7fa9bb9db540451c2878806f04b0d31b1165
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60191554"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881844"
 ---
 # <a name="monitor-web-browsing-security"></a>웹 검색 보안 모니터링
 

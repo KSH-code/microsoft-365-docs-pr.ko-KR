@@ -2,8 +2,6 @@
 title: 웹 컨텐츠 필터링
 description: 끝점용 Microsoft Defender의 웹 콘텐츠 필터링을 사용하여 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제합니다.
 keywords: 웹 보호, 웹 위협 방지, 웹 검색, 모니터링, 보고서, 카드, 도메인 목록, 보안, 피싱, 맬웨어, 악용, 웹 사이트, 네트워크 보호, Edge, Internet Explorer, Chrome, Firefox, 웹 브라우저
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -16,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3afc71b226bb7858caed439f13c55aee44d81a63
-ms.sourcegitcommit: 11855e904e7f4e57aff302852546a93526cad4dc
+ms.openlocfilehash: 65010f13ca5b1605d9bcec672c4e51270913d407
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275691"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883440"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -56,7 +54,7 @@ ms.locfileid: "60275691"
 
 - 포털()에 Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
 
-- 조직의 장치에서 최신 바이러스 백신/맬웨어 방지 Windows 10 1주년 업데이트(버전 1607) 이상이 [실행되고 있습니다.](manage-updates-baselines-microsoft-defender-antivirus.md)
+- 조직의 장치가 1주년 업데이트(Windows 10 1607) 이상 또는 최신 바이러스 백신/Windows 11 맬웨어 방지 업데이트로 [실행되고 있습니다.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
 - Windows Defender SmartScreen 및 네트워크 보호는 조직의 장치에서 사용하도록 설정됩니다.
 

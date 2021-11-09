@@ -1,8 +1,7 @@
 ---
 title: 제어된 폴더 액세스 평가
 description: 제어된 폴더 액세스를 통해 악성 앱에 의해 파일이 변경되지 못하게 보호하는 방법을 확인합니다.
-keywords: Exploit Protection, windows 10, windows defender, 랜섬웨어, 보호, 평가, 테스트, 데모, 시도
-search.product: eADQiWindows 10XVcnh
+keywords: Exploit Protection, windows 10, windows 11, windows defender, 랜섬웨어, 보호, 평가, 테스트, 데모, 시도
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: d4c029ee825299202b3d1a128c9fbee5986bf5cc
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4209c48fbf718a14ccdc8faf7f4e859485679bcd
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60166531"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882840"
 ---
 # <a name="evaluate-controlled-folder-access"></a>제어된 폴더 액세스 평가
 
@@ -33,7 +32,7 @@ ms.locfileid: "60166531"
 > 엔드포인트용 Microsoft Defender를 경험하고 싶으신가요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 
-[제어된 폴더 액세스는](controlled-folders.md) 의심스러운 앱 또는 악성 앱에 의해 문서 및 파일을 수정하지 못하게 보호하는 기능입니다. 제어된 폴더 액세스는 Windows Server 2019, Windows Server 2022 및 Windows 10 지원됩니다.
+[제어된 폴더 액세스는](controlled-folders.md) 의심스러운 앱 또는 악성 앱에 의해 문서 및 파일을 수정하지 못하게 보호하는 기능입니다. 제어된 폴더 액세스는 Windows Server 2022, Windows Server 2022, Windows 10 및 windows 11 클라이언트에서 지원됩니다.
 
 파일을 암호화하고 인질을 [](https://www.microsoft.com/wdsi/threats/ransomware) 보유하려는 랜섬웨어로부터 보호하는 데 특히 유용합니다.
 

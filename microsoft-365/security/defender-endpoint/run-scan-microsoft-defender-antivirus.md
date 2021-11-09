@@ -2,7 +2,6 @@
 title: 조직에서 요구 시 검사 실행 및 Microsoft Defender 바이러스 백신
 description: PowerShell, Windows 관리 계측을 사용하여 또는 Windows 보안 끝점에서 개별적으로 검사 실행 및 구성
 keywords: 검사, on-demand, dos, intune, instant scan
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -12,17 +11,17 @@ ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 06/10/2021
+ms.date: 10/22/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a9e8860129df9f5b91cad8737a595a11296d91c9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1f2f5625eff5b19c47aebf896d6a0398437426aa
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162545"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60881664"
 ---
 # <a name="configure-and-run-on-demand-microsoft-defender-antivirus-scans"></a>요청 기반 Microsoft Defender 바이러스 백신 검사 구성 및 실행
 
@@ -43,7 +42,7 @@ ms.locfileid: "60162545"
 
 2. 끝점 **보안 바이러스 백신** \> **을 선택 합니다.**
 
-3. 탭 목록에서 Windows 10 **끝점을 선택합니다.**
+3. 탭 목록에서 Windows 10 끝점 또는 Windows 11 끝점을 **선택합니다.** 
 
 4. 제공된 작업 목록에서  빠른 검사(권장) 또는 전체 검사 **를 선택합니다.**
 

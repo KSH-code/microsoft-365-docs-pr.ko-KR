@@ -2,7 +2,6 @@
 title: 클라이언트 행동적 차단
 description: 클라이언트 동작 차단은 끝점용 Microsoft Defender의 동작 차단 및 포함 기능의 일부입니다.
 keywords: 동작 차단, 신속한 보호, 클라이언트 동작, 끝점용 Microsoft Defender
-search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
 ms.author: deniseb
@@ -19,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 80b8ae1eebb0aac941d8c337e73eab97cdafb2a5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e8b117370f5684fa8ccbf23f18a681000e5e5b84
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174846"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882108"
 ---
 # <a name="client-behavioral-blocking"></a>클라이언트 행동적 차단
 
@@ -63,7 +62,7 @@ ms.locfileid: "60174846"
 |방어 회피|`Behavior:Win32/DefenseEvasion.*!ml`|
 |자격 증명 액세스|`Behavior:Win32/CredentialAccess.*!ml`|
 |검색|`Behavior:Win32/Discovery.*!ml`|
-|측면 이동|`Behavior:Win32/LateralMovement.*!ml`|
+|수평 이동|`Behavior:Win32/LateralMovement.*!ml`|
 |컬렉션|`Behavior:Win32/Collection.*!ml`|
 |명령 및 제어|`Behavior:Win32/CommandAndControl.*!ml`|
 |유출|`Behavior:Win32/Exfiltration.*!ml`|

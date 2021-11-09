@@ -2,7 +2,6 @@
 title: WMI를 Microsoft Defender 바이러스 백신 구성
 description: WMI 스크립트를 사용하여 Microsoft Defender 바이러스 백신 Microsoft Defender for Endpoint의 설정을 검색, 수정 및 업데이트하여 사용자 지정 설정을 구성하고 관리하는 방법을 학습합니다.
 keywords: wmi, 스크립트, Windows 관리 계측, 구성
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,19 +10,19 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 09/03/2018
+ms.date: 10/18/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 27d7d2ad83506eab73d758880afb12a6d8a3b08a
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 80b35c4b036933817ef2002dfd53df4afdc5f7e8
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207718"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883656"
 ---
 # <a name="use-windows-management-instrumentation-wmi-to-configure-and-manage-microsoft-defender-antivirus"></a>WMI(Windows Management Instrumentation)를 사용하여 WMI를 구성하고 Microsoft Defender 바이러스 백신
 

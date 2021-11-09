@@ -3,7 +3,6 @@ metadata:
   title: 공격 표면 감소 자주 묻는 질문(FAQ)
   description: Endpoint의 공격 표면 감소 규칙에 대한 Microsoft Defender에 대한 질문과 대답을 찾아보십시오.
   keywords: Attack surface reduction rules, asr, hips, host intrusion prevention system, protection rules, anti-exploit, antiexploit, exploit, infection prevention, microsoft defender for endpoint
-  search.product: eADQiWindows 10XVcnh
   ms.pagetype: security
   ms.prod: m365-security
   ms.mktglfcycl: manage
@@ -18,12 +17,12 @@ metadata:
   ms.topic: article
   ms.technology: mde
   ms.collection: M365-security-compliance
-  ms.openlocfilehash: 9f76502b13186c90f1866f5762d88eabea3b249d
-  ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+  ms.openlocfilehash: 29719b023a669463ff7ad0bddca9fc9a569d8ab5
+  ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 11/03/2021
-  ms.locfileid: "60701018"
+  ms.lasthandoff: 11/09/2021
+  ms.locfileid: "60882468"
 title: 공격 표면 감소 자주 묻는 질문(FAQ)
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
@@ -44,7 +43,7 @@ sections:
   - question: >
       ASR 규칙을 실행하려면 엔터프라이즈 라이선스가 필요한가요?
     answer: >
-      전체 ASR 규칙 및 기능 집합은 전체 ASR 규칙 및 기능 집합에 대한 엔터프라이즈 라이선스가 있는 Windows 10. 엔터프라이즈 라이선스 없이 제한된 수의 규칙이 작동할 수 있습니다. Business를 Microsoft 365 경우 Microsoft Defender 바이러스 백신 보안 솔루션으로 설정하고 PowerShell을 통해 규칙을 사용하도록 설정하십시오. 엔터프라이즈 라이선스 없이 ASR을 사용하는 것은 공식적으로 지원되지 않고 ASR의 모든 기능을 사용할 수 없습니다.
+      전체 ASR 규칙 및 기능 집합은 엔터프라이즈 라이선스가 있는 사용자만 Windows 10 Windows 11. 엔터프라이즈 라이선스 없이 제한된 수의 규칙이 작동할 수 있습니다. Business를 Microsoft 365 경우 Microsoft Defender 바이러스 백신 보안 솔루션으로 설정하고 PowerShell을 통해 규칙을 사용하도록 설정하십시오. 엔터프라이즈 라이선스 없이 ASR을 사용하는 것은 공식적으로 지원되지 않고 ASR의 모든 기능을 사용할 수 없습니다.
 
 
       라이선스 라이선스에 대한 Windows 자세한 내용은 [](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) Windows 10 라이선스를 참조하고 에 대한 볼륨 라이선스 [가이드를 Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
@@ -171,7 +170,7 @@ sections:
   - question: >
       GPO를 사용하여 규칙을 적용한 경우 이제 Microsoft Outlook 규칙의 인덱싱 옵션을 확인하려고 할 때 '액세스 거부'를 표시하는 메시지가 표시됩니다.
     answer: >
-      인덱싱 옵션을 직접 열고 Windows 10.
+      인덱싱 옵션은 인덱싱 옵션을 Windows 10 Windows 11.
 
 
       1. 작업 **표시줄의** 검색 Windows 선택합니다.

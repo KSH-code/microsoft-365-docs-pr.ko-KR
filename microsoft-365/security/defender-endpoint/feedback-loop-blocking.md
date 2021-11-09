@@ -2,7 +2,6 @@
 title: 피드백-루프 차단
 description: 신속한 보호라고도 하는 피드백 루프 차단은 끝점용 Microsoft Defender의 동작 차단 및 포함 기능의 일부입니다.
 keywords: 동작 차단, 신속한 보호, 피드백 차단, 끝점용 Microsoft Defender
-search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
 ms.author: deniseb
@@ -17,12 +16,12 @@ ms.custom:
 - edr
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: c5ef1b39856a8f54432789566355875a7b256fcb
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 30e1fdb8baede9506af52ae844f456baed1097a9
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176862"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882684"
 ---
 # <a name="feedback-loop-blocking"></a>피드백-루프 차단
 

@@ -2,7 +2,6 @@
 title: 공격 표면 감소 규칙 평가
 description: 공격 표면 감소가 사용자 지정 데모 도구를 사용하여 공격을 차단하고 방지하는 방법을 참조하세요.
 keywords: 공격 표면 감소, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지, 악용, 감염 방지, 평가, 테스트, 데모
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -15,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 79ba3d241a913ca967c590c856e53d4073e76f3f
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: e16899f831a8c7e937ea1c1600591572f8ecb445
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60239819"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60882120"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 평가
 

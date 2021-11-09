@@ -2,7 +2,6 @@
 title: 모바일 장치에서 모바일 장치를 업데이트하는 방법을 Microsoft Defender 바이러스 백신
 description: 랩톱과 같은 모바일 장치를 보호 업데이트로 업데이트하는 Microsoft Defender 바이러스 백신 관리합니다.
 keywords: 업데이트, 보호, 업데이트 예약, 배터리, 모바일 장치, 노트북, 노트북, 옵트인, Microsoft 업데이트, wsus, override
-search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 5e95167e5493e55e375dc5827531a6f22b139023
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3d39f2de9d1dcfed8b81e2c4aba2350796005daa
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60178338"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883644"
 ---
 # <a name="manage-updates-for-mobile-devices-and-virtual-machines-vms"></a>모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리
 
