@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 345f9ad748ca108cfa3e153239ef8534c1262bfa
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 72037127bf0b89c51a1ba73193e43646d84d4b08
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702764"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60883701"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -297,12 +297,12 @@ Get-Label | Format-Table -Property DisplayName, Name, Guid
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
 
-학습 가능한 분류자 옵션을 선택할 때 기본 분류자 중 하나 또는 사용자 지정 분류자를 선택할 수 있습니다. 기본 제공 분류자에는 **이력서**, **SourceCode**, **대상 희롱**, **비속어**, **위협** 이 포함됩니다.
+학습 가능한 분류자 옵션을 선택하는 경우 미리 학습된 분류자 또는 사용자 지정 학습 가능한 분류자 하나 이상을 선택할 수 있습니다.
 
 ![학습 가능한 분류자 선택.](../media/retention-label-classifers.png)
 
 > [!CAUTION]
-> 당사는 **비속어** 기본 제공 분류자가 많은 수의 가양성을 생성하였기 에 그 사용을 중단하고 있습니다. 이러한 기본 제공 분류자를 사용하지 않도록 하고 현재 사용하고 있는 경우에는 비즈니스 프로세스를 제거해야 합니다. 대신에 **대상 지정 괴롭힘**,**모독** 그리고 **위협** 기본 제공 분류자를 사용하는 것이 좋습니다.
+> 많은 수의 가양성을 생성하는 관계로 미리 학습된 **불쾌감을 주는 언어** 분류자는 사용을 중단합니다. 이 분류자를 사용하지 마세요. 만약 현재 사용 중이라면 이 옵션을 사용하지 않도록 비즈니스 프로세스를 변경하고, 대신 미리 학습된 **표적 괴롭힘**, **욕설**, **위협** 분류자를 사용하는 것이 좋습니다.
 
 이 옵션을 사용하여 레이블을 자동으로 적용하려면 SharePoint 사이트 및 사서함에 10MB 이상의 데이터가 있어야 합니다.
 
