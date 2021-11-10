@@ -18,12 +18,12 @@ description: 관리자는 EOP(Exchange Online Protection)에 의해 메시지에
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0b82826cf650caffa08c0c7435ea4cabf5a19742
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8eaf567e4cbceae66a5acd1fa1a45565f15a4804
+ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208988"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60884004"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
@@ -85,7 +85,7 @@ ms.locfileid: "60208988"
 |`SFV:SKQ`|메시지가 검역소에서 릴리스되어 원하는 수신자에게 전송되었습니다.|
 |`SFV:SKS`|스팸 필터링으로 메시지를 처리하기 전에 메시지를 스팸으로 표시했습니다(예: 메시지가 메일 흐름 규칙에 따라 SCL 5~9로 표시됨).|
 |`SFV:SPM`|메시지가 스팸 필터링에 의해 스팸으로 표시되었습니다.|
-|`SRV:BULK`|메시지가 스팸 필터링 및 BCL(대량 불만 수준) 임계값에 의해 벌크 메일로 식별되었습니다. _MarkAsSpamBulkMail_ 매개 변수가 `On`인 경우(기본적으로 켜져 있음) 벌크 메일 메시지는 높은 정확도의 스팸(SCL 9)으로 표시됩니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
+|`SRV:BULK`|메시지가 스팸 필터링 및 BCL(대량 불만 수준) 임계값에 의해 벌크 메일로 식별되었습니다. _MarkAsSpamBulkMail_ 매개 변수가 `On`인 경우(기본적으로 켜져 있음) 벌크 메일 메시지는 스팸(SCL 6)으로 표시됩니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
 |`X-CustomSpam: [ASFOption]`|메시지가 ASF(고급 스팸 필터) 설정과 일치합니다. 각 ASF 설정의 X-헤더 값을 보려면 [ASF(고급 스팸 필터) 설정](advanced-spam-filtering-asf-options.md)을 참조하세요.|
 |
 
