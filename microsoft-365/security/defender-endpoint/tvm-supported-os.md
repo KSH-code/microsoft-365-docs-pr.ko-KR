@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 091ba63ac23342c9423d8989cc2e56f4a1423f76
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 8135ce430773eae051f1214e685638073ef07809
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883380"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899727"
 ---
 # <a name="supported-operating-systems-platforms-and-capabilities---for-threat-and-vulnerability-management"></a>지원되는 운영 체제, 플랫폼 및 기능 - 위협 및 취약성 관리
 
@@ -62,6 +62,7 @@ CentOS 7.2 이상|예|예|예|예|예
 Ubuntu 16.04 LTS 이상 LTS|예|예|예|예|예
 Oracle Linux 7.2 이상|예|예|예|예|예
 SUSE Linux Enterprise Server 12 이상|예|예|예|예|예
+Linux Debian 9 이상(미리 보기)|예|예|예|예|예
 Android 6.0 이상(미리 보기)|예|예|지원되지 않음|지원되지 않음|지원되지 않음
 iOS 12.0 이상(미리 보기)|예|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음
 

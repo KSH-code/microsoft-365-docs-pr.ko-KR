@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false
 description: 게스트와 공동 작업하기 위해 Microsoft 365 사이트 설정에 필요한 SharePoint 구성 단계에 대해 자세히 알아보십시오.
-ms.openlocfilehash: aac548381b8b56ef753f762e9ef7bf0c07cf9163
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 64c325873514171c858ffa24637e57d2b94a93e9
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190212"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899705"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>게스트와 현장에서 공동 작업하기
 
@@ -51,7 +51,7 @@ B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단
 2. 왼쪽 탐색 창에서 **Azure Active Directory** 를 클릭합니다.
 3. **외부 ID** 를 클릭합니다.
 4. **시작** 화면의 왼쪽 탐색 창에서 **외부 동 작업 설정** 을 클릭합니다.
-5. **게스트 초대자 역할의 관리자 및 사용자가 초대할 수 있음** 및 **구성원이 초대할 수 있음** 이 모두 **예** 로 설정되어 있는지 확인합니다.
+5. 특정 관리자  역할에 할당된 구성원 사용자와 사용자가 구성원 권한이 있는 게스트를 비롯한 게스트 사용자를 초대할 수 있도록 합니다. 또는 조직의 모든 사용자가 게스트 사용자(게스트 및 비 관리자 포함)를 초대할 **수** 있도록 합니다.
 6. 변경한 내용이 있으면 **저장** 을 클릭합니다.
 
 **공동 작업 제한** 섹션의 설정을 확인합니다. 공동 작업하려는 게스트의 도메인이 차단되지 않았는지 합니다.

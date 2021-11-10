@@ -10,18 +10,18 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 10/18/2021
+ms.date: 11/10/2021
 ms.reviewer: pauhijbr, ksarens
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 339f98bf8e25fe1795db98739020c36789f8e844
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 85bd15d4babec45ba368370dc33b3428cc5c1b67
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555695"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899621"
 ---
 # <a name="schedule-antivirus-scans-using-group-policy"></a>그룹 정책을 사용하여 바이러스 백신 검사 예약
 
@@ -57,7 +57,7 @@ ms.locfileid: "60555695"
 | 검사 | 예약된 검사에 사용할 검사 유형 지정 | 빠른 검사 |
 | 검사 | 예약된 검색을 실행할 날짜 지정 | 검색을 실행할 날짜를 지정하거나 지정하지 않습니다. | 없음 |
 | 검사 | 예약된 검색을 실행할 시간 지정 | 자정 이후의 시간(분)을 지정합니다(예: **60** :a.m.). | 2:a.m. |
-| 루트 | 예약된 작업 시간 임의로 |이 Microsoft Defender 바이러스 백신 검사 시작 시간을 0시간에서 4시간 사이의 간격으로 임의로 임의로 변경합니다. <p>[SCEP에서](/mem/intune/protect/certificates-scep-configure)임의로 스캔을 30분을 더하거나 30분을 더한 간격으로 임의로 변경합니다. 이는 가상 컴퓨터 또는 VDI 배포에서 유용할 수 있습니다. | 사용 |
+| 루트 | 예약된 작업 시간 임의로 |이 Microsoft Defender 바이러스 백신 검사의 시작 시간을 0시간에서 23시간 사이의 간격으로 임의로 임의로 변경합니다. <p>[SCEP에서](/mem/intune/protect/certificates-scep-configure)임의로 스캔을 30분을 더하거나 30분을 더한 간격으로 임의로 변경합니다. 이는 가상 컴퓨터 또는 VDI 배포에서 유용할 수 있습니다. | 사용 |
 
 ## <a name="group-policy-settings-for-scheduling-scans-for-when-an-endpoint-is-not-in-use"></a>끝점이 사용되지 않는 경우 검색을 위한 그룹 정책 설정
 

@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false
 description: 이 문서에서는 게스트와 공동 작업하는 방법을 SharePoint OneDrive.
-ms.openlocfilehash: e51ec7e9695c564b2994089f0a827ca7ea4b67c6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7c58b9ef4fdc759c5afa1920083dd1875fad17f1
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60158961"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899633"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서 상 공동 작업하기
 
@@ -49,7 +49,7 @@ B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단
 2. 왼쪽 탐색 창에서 **Azure Active Directory** 를 클릭합니다.
 3. **외부 ID** 를 클릭합니다.
 4. **시작** 화면의 왼쪽 탐색 창에서 **외부 동 작업 설정** 을 클릭합니다.
-5. **게스트 초대자 역할의 관리자 및 사용자가 초대할 수 있음** 및 **구성원이 초대할 수 있음** 이 모두 **예** 로 설정되어 있는지 확인합니다.
+5. 특정 관리자  역할에 할당된 구성원 사용자와 사용자가 구성원 권한이 있는 게스트를 비롯한 게스트 사용자를 초대할 수 있도록 합니다. 또는 조직의 모든 사용자가 게스트 사용자(게스트 및 비 관리자 포함)를 초대할 **수** 있도록 합니다.
 6. 변경한 내용이 있으면 **저장** 을 클릭합니다.
 
 **공동 작업 제한** 섹션의 설정을 확인합니다. 공동 작업하려는 게스트의 도메인이 차단되지 않았는지 합니다.

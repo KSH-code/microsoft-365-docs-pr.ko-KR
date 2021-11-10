@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6dff7d5fc0acbb80500608a887ad00705bd1d2eb
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 66be1b35e98176c8282f52248899aef52b032845
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883188"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899734"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
@@ -60,7 +60,7 @@ ms.locfileid: "60883188"
 
 - [PowerShell](#powershell)
 - [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
-- [Microsoft Endpoint Manager / Intune](#microsoft-endpoint-manager-formerly-intune)
+- [Microsoft Endpoint Manager ](#microsoft-endpoint-manager)
 - [그룹 정책](#group-policy)
 - [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
 
@@ -86,13 +86,15 @@ ms.locfileid: "60883188"
 
 [./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender) CSP(구성 서비스 공급자)를 사용하여 네트워크 보호를 사용하도록 설정하거나 감사 모드를 사용하도록 설정할 수 있습니다.
 
-### <a name="microsoft-endpoint-manager-formerly-intune"></a>Microsoft Endpoint Manager(이전의 Intune)
+### <a name="microsoft-endpoint-manager"></a>Microsoft Endpoint Manager
 
 1. Microsoft Endpoint Manager 센터( 에 https://endpoint.microsoft.com) 로그인합니다.
 
 2. 장치 **구성**  >  **프로필 프로필**  >  **만들기로 이동하세요.**
 
-3. 프로필 **만들기 플라이아웃에서** 템플릿 목록에서 **끝점** 보호를 선택한 다음 만들기를 **선택합니다.**
+3. 프로필 **만들기 플라이아웃에서** 플랫폼을 **선택하고** 프로필 유형을 **템플릿으로** **선택합니다.**
+
+4. 템플릿 **이름에서** 템플릿 목록에서 **끝점** 보호를 선택한 다음 만들기를 **선택합니다.**
 
 4. **끝점 보호**  >  **기본으로 이동하여** 프로필 이름을 입력한 후 다음 을 **선택합니다.**
 

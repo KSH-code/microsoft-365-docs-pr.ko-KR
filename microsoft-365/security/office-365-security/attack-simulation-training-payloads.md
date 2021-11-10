@@ -1,5 +1,5 @@
 ---
-title: 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드 만들기
+title: 공격 시뮬레이션 교육에 대한 사용자 지정 페이로드 만들기
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 Plan 2용 Microsoft Defender에서 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드를 Office 365 있습니다.
 ms.technology: mdo
-ms.openlocfilehash: bf132e44c458fbe228b6b6e8d2bf7b1a6474e9e9
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 420642bfa8318f44548494b275b0dc617787f46a
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60666812"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899753"
 ---
 # <a name="create-custom-payloads-for-attack-simulation-training-in-defender-for-office-365"></a>Defender에서 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드를 Office 365
 
@@ -158,7 +158,7 @@ ms.locfileid: "60666812"
 
   - 코드 **탭에서** HTML 코드를 직접 보고 수정할 수 있습니다. 동적 태그, 피싱 **링크**  또는 맬웨어 첨부 파일 링크와 같은 서식 및 기타 컨트롤은 **사용할** 수 없습니다.
 
-  - 전자 **메일 메시지의** 모든 링크를 피싱 링크로 바꾸기 토글을 통해 메시지의 모든 링크를  이전에 선택한 피싱 링크 또는 첨부 파일 URL에 대한 링크로 바꾸면 시간을 **절약할 수** 있습니다. 이렇게 설정하기 위해 설정을 아이콘에서 ![ 토글로 ](../../media/scc-toggle-on.png) 전환합니다.
+  - 전자 **메일 메시지의** 모든 링크를 피싱 링크 토글로 바꾸기 토글은 기술 선택 페이지에서 자격 증명 **수집,** 맬웨어 링크 또는 드라이브로 **URL을** 선택한 **경우만** 사용할 수 있습니다. 이 토글은 메시지의 모든 링크를 이전에 선택한 피싱  링크 또는 첨부 파일 URL에 대한 링크로 바꾸어 **시간을 절약할 수** 있습니다. 이렇게 설정하기 위해 설정을 아이콘에서 ![ 토글로 ](../../media/scc-toggle-on.png) 전환합니다.
 
 작업을 마친 후 **다음** 을 클릭합니다.
 

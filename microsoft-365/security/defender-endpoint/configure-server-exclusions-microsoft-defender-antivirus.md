@@ -14,14 +14,14 @@ author: denisebmsft
 ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
-ms.date: 10/19/2021
+ms.date: 11/10/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c82b97f1c5799442ca5c857b65f24b9ef8b2e928
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: fad476d132e00dd7e01ab7876ec9bee0224f4e72
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883200"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899578"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성
 
@@ -102,7 +102,7 @@ Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습�
 ##### <a name="windows-tempedb-files"></a>Windows "temp.edb" 파일
 
 - `%windir%\SoftwareDistribution\Datastore\*\tmp.edb`
-- `%ProgramData%\Microsoft\Search\Data\Applications\Windows\*\*.log`
+- `%ProgramData%\Microsoft\Search\Data\Applications\Windows\windows.edb`
 
 ##### <a name="windows-update-files-or-automatic-update-files"></a>Windows 파일 업데이트 또는 자동 업데이트 파일
 

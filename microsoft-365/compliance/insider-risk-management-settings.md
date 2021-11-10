@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 ms.custom: admindeeplinkCOMPLIANCE
-ms.openlocfilehash: f56ca8e534a9e925cb117d614002c611282ceb44
-ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
+ms.openlocfilehash: 20fc59b0a2a6b614619693050a4ef728fabd7232
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60786977"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899693"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>내부자 위험 관리 설정 시작
 
@@ -67,7 +67,7 @@ ms.locfileid: "60786977"
 정책 표시기는 다음 영역으로 분할됩니다. 내부자 위험 정책을 만들 때 각 지표 수준에 대한 표시기 이벤트 제한을 활성화하고 사용자 지정할 수 있는 표시기를 선택할 수 있습니다.
 
 - **Office 표시기:** 사이트, SharePoint 및 전자 메일 메시징에 Microsoft Teams 표시기가 포함됩니다.
-- **장치 표시기:** 여기에는 네트워크를 통해 또는 장치와 파일을 공유하는 등의 활동에 대한 정책 표시기가 포함됩니다. 표시기에는 실행 파일(.exe) 및 동적 링크 라이브러리(.dll) 파일 활동을 제외한 모든 파일 형식과 관련된 활동이 포함됩니다. 장치 *표시기를* 선택하면 빌드 1809 이상 및 macOS(Windows 10 10.15 이상) 장치가 있는 장치에 대한 활동이 처리됩니다. Windows 및 macOS 장치의 경우 먼저 장치를 준수 센터에 온보드해야 합니다. 또한 장치 표시기에는 브라우저 신호 감지가 포함되어 조직이 파일 및 Google Chrome에서 보거나, 복사하거나, 공유하거나, 인쇄할 수 없는 파일에 대한 유출 신호를 감지하고 Microsoft Edge 수 있습니다. 내부자 위험과의 통합을 위해 Windows 장치 구성에 대한 자세한 내용은 이 문서의 장치 표시기 사용 및 Windows 장치 [온보드](insider-risk-management-settings.md#OnboardDevices) 섹션을 참조하세요. 내부자 위험과의 통합을 위해 macOS 장치를 구성하는 자세한 내용은 이 문서의 장치 표시기 및 macOS 장치 온보드 사용 섹션을 참조하세요. 브라우저 신호 감지에 대한 자세한 내용은 내부자 위험 관리 브라우저 신호 감지(미리 보기)에 대해 자세히 알아보고 구성을 [참조하세요.](insider-risk-management-browser-support.md)
+- **장치 표시기:** 여기에는 네트워크를 통해 또는 장치와 파일을 공유하는 등의 활동에 대한 정책 표시기가 포함됩니다. 표시기에는 실행 파일(.exe) 및 동적 링크 라이브러리(.dll) 파일 활동을 제외한 모든 파일 형식과 관련된 활동이 포함됩니다. 장치 *표시기를* 선택하면 빌드 1809 이상 및 macOS(Windows 10 10.15 이상) 장치가 있는 장치에 대한 활동이 처리됩니다. Windows 및 macOS 장치의 경우 먼저 장치를 준수 센터에 온보드해야 합니다. 또한 장치 표시기에는 브라우저 신호 감지가 포함되어 조직이 파일 및 Google Chrome에서 보거나, 복사하거나, 공유하거나, 인쇄할 수 없는 파일에 대한 유출 신호를 감지하고 Microsoft Edge 수 있습니다. 내부자 위험과의 통합을 위해 Windows 장치 구성에 대한 자세한 내용은 이 문서의 장치 표시기 사용 및 Windows 장치 [온보드](insider-risk-management-settings.md#OnboardDevices) 섹션을 참조하세요. 내부자 위험과의 통합을 위해 macOS 장치를 구성하는 자세한 내용은 이 문서의 장치 표시기 및 macOS 장치 온보드 사용 섹션을 참조하세요. 브라우저 신호 감지에 대한 자세한 내용은 내부자 위험 관리 브라우저 신호 감지에 대해 자세히 알아보고 [구성을 참조하세요.](insider-risk-management-browser-support.md)
 - **보안 정책 위반 표시기(미리 보기)**: 승인되지 않은 또는 악성 소프트웨어 설치 또는 보안 제어 무시와 관련된 끝점용 Microsoft Defender의 표시기가 포함됩니다. 내부자 위험 관리에서 경고를 수신하려면 끝점용 활성 Defender 라이선스와 내부자 위험 통합을 사용하도록 설정해야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 데 대한 자세한 내용은 [끝점용 Microsoft Defender의 고급 기능 구성을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center)
 - **상태 레코드 액세스 표시기(미리 보기)**: 환자 의료 레코드 액세스에 대한 정책 표시기가 포함됩니다. 예를 들어 EMR(전자 의료 기록) 시스템 로그의 환자 의료 기록에 대한 액세스를 내부자 위험 관리 의료 정책과 공유할 수 있습니다. 내부자 위험 관리에서 이러한 유형의 경고를 수신하려면 의료 관련 데이터 커넥터와 HR 데이터 커넥터가 구성되어 있어야 합니다.
 - **물리적 액세스 표시기(미리 보기)**: 여기에는 중요한 자산에 대한 물리적 액세스를 위한 정책 표시기가 포함됩니다. 예를 들어 실제 배지 시스템 로그의 제한된 영역에 대한 액세스 시도는 내부자 위험 관리 정책과 공유할 수 있습니다. 내부자 위험 관리에서 이러한 유형의 알림을 받으하려면 내부자 위험 관리에서 우선 순위 물리적 자산을 사용하도록 설정하고 물리적 배지 데이터 커넥터를 [구성해야](import-physical-badging-data.md) 합니다. 실제 액세스 구성에 대한 자세한 내용은 이 문서의 우선 순위 물리적 [액세스 섹션을](#priority-physical-assets-preview) 참조하십시오.

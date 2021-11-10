@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: df517e07242bfd15ec0feccbd0de9d682c74d381
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f746f07f20c4a8eddba51bb37d86acf2aafdaa6b
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60184704"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899741"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>끝점용 Microsoft Defender 평가 랩
 
@@ -43,7 +43,7 @@ ms.locfileid: "60184704"
 
 자동화된 조사, 고급 헌팅 및 위협 분석과 같은 플랫폼의 강력한 기능에 대한 모든 권한을 가지게 되므로 Endpoint용 Defender가 제공하는 포괄적인 보호 스택을 테스트할 수 있습니다.
 
-Windows 10, Windows 11, Windows Server 2019 또는 Windows Server 2022 장치에서 최신 OS 버전 및 올바른 보안 구성 요소를 설치하고 Office 2019 Standard를 설치할 수 있습니다.
+Windows 10, Windows 11, Windows Server 2019 또는 Windows Server 2022 장치에서 최신 OS 버전 및 올바른 보안 구성 요소를 설치하고 Office 2019 Standard를 설치하도록 미리 구성된 장치를 추가할 수 있습니다.
 
 위협 시뮬레이터를 설치할 수 있습니다. Endpoint용 Defender는 업계를 선도하는 위협 시뮬레이션 플랫폼과 파트너가 되어 포털을 떠나지 않고도 끝점용 Defender 기능을 테스트할 수 있습니다.
 
@@ -103,9 +103,9 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 랩 설정 프로세스가 완료되면 디바이스를 추가하고 시뮬레이션을 실행할 수 있습니다.
 
-## <a name="add-devices"></a>장치 추가
+## <a name="add-devices"></a>디바이스 추가
 
-환경에 장치를 추가하면 끝점용 Defender가 연결 세부 정보가 있는 잘 구성된 장치를 설치합니다. Server Windows 10 11, Windows Server 2019 또는 Windows Server 2022 Windows 추가할 수 있습니다.
+환경에 장치를 추가하면 끝점용 Defender가 연결 세부 정보가 있는 잘 구성된 장치를 설치합니다. Server Windows 10, Windows 11 Server 2019 또는 Windows Server 2022 Windows 추가할 수 있습니다.
 
 장치는 최신 버전의 OS 및 Office 2019 Standard 및 Java, PysIntenals 등의 기타 앱으로 구성됩니다.
 
@@ -134,7 +134,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 
 1. 대시보드에서 장치 **추가 를 선택합니다.**
 
-2. 추가할 디바이스 유형을 선택하십시오. Windows 10 11, Windows Server 2019 또는 Windows Server 2022를 Windows 수 있습니다.
+2. 추가할 디바이스 유형을 선택하십시오. Windows 10, Windows 11 Server 2019 또는 Windows Server 2022를 Windows 수 있습니다.
 
     :::image type="content" source="../../media/add-machine-optionsnew.png" alt-text="디바이스 옵션을 사용하여 랩 설정.":::
 
@@ -189,8 +189,6 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 고급 [헌팅을](advanced-hunting-overview.md) 사용하여 데이터 및 [위협](threat-analytics.md) 분석을 쿼리하여 새로운 위협에 대한 보고서를 볼 수 있습니다.
 
 ### <a name="do-it-yourself-attack-scenarios"></a>직접 공격 시나리오
-
-미리 만든 시뮬레이션을 찾고 있는 경우 ["직접 실행"](https://security.microsoft.com/tutorials/all)공격 시나리오를 사용할 수 있습니다. 이러한 스크립트는 안전하고 문서화되어 있으며 사용하기 쉽습니다. 이러한 시나리오는 끝점 기능에 대한 Defender를 반영하고 조사 환경을 진행합니다.
 
 미리 만든 시뮬레이션을 찾고 있는 경우 ["직접 실행"](https://security.microsoft.com/tutorials/all)공격 시나리오를 사용할 수 있습니다. 이러한 스크립트는 안전하고 문서화되어 있으며 사용하기 쉽습니다. 이러한 시나리오는 끝점 기능에 대한 Defender를 반영하고 조사 환경을 진행합니다.
 

@@ -13,14 +13,14 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.date: 11/02/2021
+ms.date: 11/10/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 7c939b43edf206d31cf62678fa0984aa26707fab
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 11d8df5d56999cb4da41c57b8fdd09ebb8847c3e
+ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882408"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60899587"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -110,14 +110,16 @@ ms.locfileid: "60882408"
     1. 옵션을 사용으로 **설정합니다.**
     2. 옵션 **섹션에서** 표시를 **선택합니다.**
     3. 값 이름 열 아래에 각 폴더를 자체 **줄에 지정합니다.**
-    4. 파일을 지정하는 경우 드라이브 문자, 폴더 경로, 파일 이름 및 확장명을 포함하여 파일의 정식 경로를 입력해야 합니다. 값 **열에 0을** **입력합니다.**
+    4. 파일을 지정하는 경우 드라이브 문자, 폴더 경로, 파일 이름 및 확장명을 포함하여 파일의 정식 경로를 입력해야 합니다. 
+    5. 값 **열에 0을** **입력합니다.**
 
 5. **확인** 을 선택합니다.
 
 6. 편집할 **확장 제외** 설정을 열고 제외를 추가합니다.
     1. 옵션을 사용으로 **설정합니다.**
     2. 옵션 **섹션에서** 표시를 **선택합니다.**
-    3. 값 열의 값 이름 **열Enter** **0** 아래에 각 파일 확장명을 자체 **줄에 입력합니다.**
+    3. 값 이름 열 아래에 각 파일 확장명을 자체 **줄에 입력합니다.**
+    4. 값 **열에 0을** **입력합니다.**
 
 7. **확인** 을 선택합니다.
 
