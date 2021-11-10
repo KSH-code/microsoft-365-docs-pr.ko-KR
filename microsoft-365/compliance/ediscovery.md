@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, Microsoft Teams 등의 여러 위치에서 찾은 콘텐츠를 검색하고 내보내는 데 사용할 수 있는 세 가지 eDiscovery 도구를 제공합니다. 비즈니스용 Skype 대화를 제공합니다. 핵심 eDiscovery 및 Advanced eDiscovery 조사를 관리하는 데 도움이 되는 다양한 추가 기능을 제공합니다.
-ms.openlocfilehash: 61a4f02d122a83b3279ebe7701b0a26d27b287de
-ms.sourcegitcommit: 53a4ee148348010444f7deb0590d34e6a298adb8
+ms.openlocfilehash: 61b5345b26684c4cc5161c4b2372460428c6496e
+ms.sourcegitcommit: 16e3a6e6df253de1153e46d058941cd9a2bbf2b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60400244"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60889810"
 ---
-# <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365
+# <a name="ediscovery-solutions-in-microsoft-365"></a>Microsoft 365 eDiscovery 솔루션
 
 전자 검색 또는 eDiscovery는 법률 소송에서 증거로 사용할 수 있는 전자 정보를 식별하고 전달하는 프로세스입니다. Microsoft 365 eDiscovery 도구를 사용하여 Exchange Online, 비즈니스용 OneDrive, SharePoint Online, Microsoft Teams, Microsoft 365 그룹 및 Yammer 검색할 수 있습니다. 동일한 eDiscovery 검색에서 사서함 및 사이트를 검색한 다음 검색 결과를 내보낼 수 있습니다. Core eDiscovery 사례를 사용하여 사서함 및 사이트에 있는 콘텐츠를 식별, 보류 및 내보낼 수 있습니다. 조직에 Office 365 E5 또는 Microsoft 365 E5 구독(또는 관련 E5 추가 기능 구독)이 있는 경우 Advanced eDiscovery 기능이 풍부한 Advanced eDiscovery 솔루션을 사용하여 콘텐츠를 추가로 관리하고 콘텐츠를 분석할 수 Microsoft 365.
 
@@ -131,13 +131,16 @@ Microsoft 365 콘텐츠 검색, Core eDiscovery 및 eDiscovery의 세 가지 eDi
 - Microsoft 365 E1 구독
 - Microsoft 365 G1 구독
 - Microsoft 365 F1 또는 F3 구독 또는 F5 보안 추가 기능
+- Microsoft 365 Business Premium 구독
 - Office 365 Education A1 구독
 - Office 365 E1 구독
+
 
 ### <a name="core-ediscovery"></a>핵심 eDiscovery
 
 - Microsoft 365 E3 구독
 - Microsoft 365 G3 구독
+- Microsoft 365 Business Premium 구독
 - Microsoft 365 F5 준수 추가 기능 또는 F5 보안 & 준수 추가 기능
 - Microsoft 365 Education A3 또는 Office 365 Education A3 구독
 - Office 365 E3 구독

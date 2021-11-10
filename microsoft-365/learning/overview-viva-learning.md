@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-viva-learning
 ms.localizationpriority: medium
 description: 사용자 환경의 Microsoft Viva Learning 방법을 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 1747cef7ade83adfc33f369ae5196a0638f918b3
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: c92fc51d11b2d57c7fd051cbd060276d093be019
+ms.sourcegitcommit: 16e3a6e6df253de1153e46d058941cd9a2bbf2b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60645954"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60889762"
 ---
 # <a name="overview-of-microsoft-viva-learning"></a>개요 Microsoft Viva Learning
 
@@ -59,7 +59,7 @@ Viva Learning 일부 콘텐츠는 기본적으로 Microsoft Teams 사용할 수 
 
 ### <a name="knowledge-admin"></a>지식 관리자
 
-지식 관리자는 조직의 모든 Azure Active Directory 할당할 수 있는 Microsoft 365 관리 센터(Azure AD) 역할입니다. 이 역할은 조직의 학습 콘텐츠 원본을 관리하기 위해 Microsoft 365 관리 센터. 자세한 내용은 Azure AD 기본 [제공 역할을 참조하세요.](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
+지식 관리자는 조직의 모든 Azure Active Directory 할당할 수 있는 Microsoft 365 관리 센터(Azure AD) 역할입니다. 이 역할은 조직의 학습 콘텐츠 원본을 관리하기 위해 Microsoft 365 관리 센터. 자세한 내용은 [Azure AD 기본 제공 역할](/azure/active-directory/roles/permissions-reference#knowledge-administrator)을 참조하세요.
 
 지식 관리자는 보통 기술적인 지식이 있으며 관리자 자격 증명을 SharePoint 합니다. 지식 관리자는 조직의 교육, 학습, 교육 또는 직원 경험에서 잘 교육을 쌓아야 합니다.
 
@@ -69,7 +69,75 @@ Microsoft Learn and Microsoft 365 Training의 콘텐츠는 Viva Learning. Linked
 
 ## <a name="supported-languages"></a>지원되는 언어
 
-Viva Learning 조직의 언어 기본 설정에 Microsoft 365 조정합니다. 그러나 Viva Learning 현재 오른쪽에서 왼쪽으로 언어를 지원하지 않습니다.
+Viva Learning 조직의 언어 기본 설정에 Microsoft 365 조정합니다. 그러나 Viva Learning 현재 오른쪽에서 왼쪽으로 언어를 지원하지 않습니다. 현재 Viva Learning 다음 로컬에서 지원됩니다.
+
+:::row:::
+   :::column span="":::
+      - az-Latn-AZ
+      - bg-BG
+      - bn-IN
+      - ca-ES
+      - ca-Es-VALENCIA
+      - cs-CZ
+      - cy-GB
+      - da-DK
+      - de-DE
+      - el-GR
+      - en-GB
+      - en-US
+      - es-ES
+      - es-MX
+   :::column-end:::
+   :::column span="":::
+      - et-EE
+      - eu-ES
+      - fi-FI
+      - fil-PH
+      - fr-CA
+      - fr-FR
+      - gl-ES
+      - gu-IN
+      - hi-IN
+      - hr-HR
+      - hu-HU
+      - id-ID
+      - is-IS
+      - it-IT
+   :::column-end:::
+   :::column span="":::
+      - ja-JP
+      - ka-GE
+      - kk-KZ
+      - kn-IN
+      - ko-KR
+      - lt-LT
+      - lv-LV
+      - mk-MK
+      - ml-IN
+      - mr-IN
+      - nb-NO
+      - nl-NL
+      - nn-NO
+      - pl-PL
+   :::column-end:::
+   :::column span="":::
+      - pt-BR
+      - pt-PT
+      - ro-RO
+      - ru-RU
+      - sk-SK
+      - sl-SI
+      - sq-AL
+      - sr-Latn-RS
+      - sv-SE,ta-IN
+      - te-IN,th-TH
+      - tr-TR
+      - uk-UA
+      - vi-VN
+      - zh-CN
+      - zh-TW
+   :::column-end:::
+:::row-end:::
 
 ## <a name="data-and-privacy"></a>데이터 및 개인 정보
 
@@ -87,7 +155,7 @@ Viva 2013에서 저장되는 Learning 포함:
 >[!NOTE]
 >관리자는 진단 데이터의 저장소를 설정하거나 해제할 수 있습니다.
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 
 사용자 환경에서 Viva 2016을 설정하고 구성할 준비가 Learning 다음을 Microsoft 365 있습니다.
 

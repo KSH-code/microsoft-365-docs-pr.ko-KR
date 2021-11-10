@@ -83,7 +83,11 @@
         - name: 맬웨어 방지 정책 구성
           href: configure-anti-malware-policies.md
         - name: 스팸 방지 정책 구성
-          href: configure-your-spam-filter-policies.md
+          items:
+            - name: 스팸 방지 정책 구성
+              href: configure-your-spam-filter-policies.md
+            - name: 고급 스팸 필터 (ASF) 설정
+              href: advanced-spam-filtering-asf-options.md
         - name: 하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성
           href: /exchange/standalone-eop/configure-eop-spam-protection-hybrid
         - name: Exchange Online 사서함에 대한 정크 메일 설정 구성
@@ -126,8 +130,16 @@
           href: install-app-guard.md
     - name: 마이그레이션
       items:
-        - name: 'Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환'
-          href: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
+        - name: 타사 보호 서비스 또는 장치에서 Office 365용 Defender로 마이그레이션
+          items:
+            - name: 타사 보호 서비스 또는 장치에서 Office 365용 Defender로 마이그레이션
+              href: migrate-to-defender-for-office-365.md
+            - name: '마이그레이션 1단계: 준비'
+              href: migrate-to-defender-for-office-365-prepare.md
+            - name: '마이그레이션 2단계: 설치'
+              href: migrate-to-defender-for-office-365-setup.md
+            - name: '마이그레이션 3단계: 온보딩'
+              href: migrate-to-defender-for-office-365-onboard.md
     - name: 방지
       items:
         - name: 보안 강화를 위해 테넌트 구성
@@ -158,8 +170,6 @@
           href: recommended-settings-for-eop-and-office365.md
         - name: AIR를 사용자 지정 솔루션 또는 타사 솔루션과 통합
           href: air-custom-reporting.md
-        - name: 고급 스팸 필터 (ASF) 설정
-          href: advanced-spam-filtering-asf-options.md
         - name: 테넌트 허용/차단 목록
           items:
             - name: 테넌트 허용/차단 목록 관리

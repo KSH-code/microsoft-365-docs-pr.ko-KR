@@ -17,12 +17,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.date: 10/18/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 6a9903a0867a6d1800fef052bcd3cfe61eeba157
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: ee4ad26b534ff132a00ca07fdd0b55494445c580
+ms.sourcegitcommit: 16e3a6e6df253de1153e46d058941cd9a2bbf2b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555971"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60889774"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -40,6 +40,8 @@ ms.locfileid: "60555971"
 - Windows Server 2016
 - Windows Server 2012 R2
 
+> [!NOTE]
+> R2의 변조 Windows Server 2012 최신 통합 솔루션 패키지를 사용하여 온보드된 디바이스에 사용할 수 있습니다. 자세한 내용은 R2 및 [2016](/microsoft-365/security/defender-endpoint/configure-server-endpoints?view=o365-worldwide#new-functionality-in-the-modern-unified-solution-for-windows-server-2012-r2-and-2016-preview)Preview에 대한 최신 통합 솔루션의 Windows Server 2012 기능을 참조하세요.
 
 ## <a name="overview"></a>개요
 
@@ -54,7 +56,7 @@ ms.locfileid: "60555971"
 - 클라우드 제공 보호를 사용 안 하게
 - 보안 인텔리전스 업데이트 제거
 
-### <a name="how-it-works"></a>작업 방법
+### <a name="how-it-works"></a>작동 방법
 
 변조 방지는 기본적으로 Microsoft Defender 바이러스 백신 기본값으로 잠그고, 다음과 같은 앱과 방법을 통해 보안 설정이 변경되지 않도록 합니다.
 
@@ -91,7 +93,7 @@ ms.locfileid: "60555971"
 
 |변조 방지를 사용하는 방법|MAPS(클라우드 제공 보호)에 대한 종속성|
 |---|---|
-|Microsoft Intune|아니요|
+|Microsoft Intune|아니오|
 |Microsoft Endpoint Configuration Manager + 테넌트 첨부|아니요|
 |Microsoft 365 Defender 포털( [https://security.microsoft.com](https://security.microsoft.com) )|예|
 |
@@ -160,7 +162,7 @@ ms.locfileid: "60555971"
 
 ![Intune을 통해 변조 보호를 켜야 합니다.](images/turnontamperprotect-MEM.png)
 
-1. Microsoft Endpoint Manager [관리 센터로 이동하여](https://endpoint.microsoft.com) 로그인합니다.
+1. [Microsoft Endpoint Manager 관리 센터](https://endpoint.microsoft.com)로 이동하여 로그인합니다.
 
 2. 장치 **구성** \> **프로필을 선택합니다.**
 

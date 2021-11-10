@@ -186,14 +186,14 @@
               href: /sharepoint/guide-to-setting-up-viva-connections?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 인트라넷의 홈 사이트 가져오기
               href: /sharepoint/home-site-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: 타운홀 계획 및 생산
-              href: /sharepoint/hold-town-hall-using-yammer?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 조직 뉴스 배포
               href: /sharepoint/distribute-corporate-news-to-your-organization?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: 리더십 연결
+            - name: 리더와 조직 연결
               href: /sharepoint/leadership-connection?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: 신입 사원 온보딩
-              href: /sharepoint/onboard-employees?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: Yammer를 사용하여 타운홀 개최
+              href: /sharepoint/hold-town-hall-using-yammer?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: 학습 및 교육 환경 구축
+              href: /sharepoint/build-learning-and-training-experiences-for-employees?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: 팀워크 및 공동 작업
       items:
         - name: 비즈니스에 대한 계약 관리

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 관리자가 해당 사서함이 법적 보유 상태인 경우에도 Exchange Online 사서함에 대한 사용자의 복구 가능한 항목 폴더에 있는 항목을 삭제하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ef725e841c46c33c037efbc0109b91864af4737
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 8e23c8628fc5985863c206bc3c7589e9cc4d2024
+ms.sourcegitcommit: 16e3a6e6df253de1153e46d058941cd9a2bbf2b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60698420"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60889738"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -202,7 +202,7 @@ Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name
   
 ### <a name="retention-policies-applied-to-specific-mailboxes"></a>특정 사서함에 적용된 보존 정책
   
-Security & Compliance [Center PowerShell에서](/powershell/exchange/exchange-online-powershell) 다음 명령을 실행하여 사서함에 적용되는 보존 정책을 식별합니다. 이 명령은 사서함에 Teams 모든 대화 보존 정책도 반환합니다. 1단계에서 식별한 보존 정책에 대한 GUID(또는 prefix 포함 안 `mbx` `skp` )를 사용 합니다.
+Security & Compliance [Center PowerShell에서](/powershell/exchange/connect-to-scc-powershell) 다음 명령을 실행하여 사서함에 적용되는 보존 정책을 식별합니다. 이 명령은 사서함에 Teams 모든 대화 보존 정책도 반환합니다. 1단계에서 식별한 보존 정책에 대한 GUID(또는 prefix 포함 안 `mbx` `skp` )를 사용 합니다.
 
 ```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
@@ -414,7 +414,7 @@ PowerShell에서 다음 단계를 지정한 Exchange Online 수행합니다.
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
 
-## <a name="more-information"></a>자세한 정보
+## <a name="more-information"></a>추가 정보
 
 **다음은 Get-Mailbox** 또는 **Get-OrganizationConfig** cmdlet을 실행할 때 *InPlaceHolds* 속성의 값에 따라 다양한 유형의 보류를 식별하는 방법을 설명하는 표입니다. 자세한 내용은 사서함에 배치된 보류 유형을 식별하는 [Exchange Online 참조하세요.](identify-a-hold-on-an-exchange-online-mailbox.md)
 
