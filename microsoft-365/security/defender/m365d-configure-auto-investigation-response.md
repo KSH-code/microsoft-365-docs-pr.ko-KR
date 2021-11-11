@@ -16,12 +16,12 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
-ms.openlocfilehash: 3a2a06b48da1f83e82fd9f1a1293e9484517bd0e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 03cf5cbf209f0884304d541601de58ad748d9e4c
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162377"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914196"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동 조사 및 응답 기능 구성
 
@@ -90,7 +90,7 @@ Microsoft는 특정 위험을 [식별하는](../../compliance/alert-policies.md)
 
 ## <a name="make-sure-microsoft-365-defender-is-turned-on"></a>설정되어 Microsoft 365 Defender 있는지 확인
 
-:::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP on.":::
+:::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="설정되어 있는지 Microsoft 365 Defender 방법" lightbox="../../media/mtp-enable/mtp-on.png":::
 
 1. Microsoft 365 Defender 포털()에 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
 

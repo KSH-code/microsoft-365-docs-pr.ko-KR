@@ -15,16 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 description: PowerShell을 사용하여 사용자 지정 중요한 정보 유형을 제거하는 방법을 학습
-ms.openlocfilehash: 4bb42bdc80cba64bc8970753b77160afc6720523
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: bb3bf67a1493ec232a66b2bdc0c784ea52de32f5
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60189264"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914407"
 ---
 # <a name="remove-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용하여 사용자 지정 중요한 정보 유형 제거
-
-
 
 규정 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형을 제거하는 두 가지 방법이 있습니다.
 

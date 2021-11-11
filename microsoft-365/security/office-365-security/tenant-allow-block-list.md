@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 관리하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8411ca98b48b19c7ecf3085c450fbf40e5185474
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7c344f4462b258d4ffbacd94ddfb0f3afd4b7ed4
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210392"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914647"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -78,7 +78,7 @@ Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Ex
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 이 게시물의 절차를 수행하려면 먼저 Exchange Online에서 사용 권한을 할당받아야 합니다.
+- 이 문서의 절차를 수행하려면 Microsoft 365 Defender 포털에서 사용 권한을 할당해야 합니다.
   - **보낸 사람, URL 및 파일**:
     - 테넌트 허용/차단 목록에서 값을 추가 및 제거하려면 조직 **관리,** 보안 관리자  또는 보안 운영자 역할 그룹의 구성원 또는 테넌트 **AllowBlockList 관리자** 역할이 할당되어 있습니다.
     - 테넌트 허용/차단 목록에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나 해야 합니다.
@@ -121,19 +121,19 @@ Microsoft 365 Defender 포털에서 정책 &  규칙 규칙 \>  \>  섹션 \> **
      - **작업**: 허용 또는 **차단** **값입니다.**
      - **마지막 업데이트**
      - **제거**
-     - **참고**
+     - **참고 사항**
    - **URL**:
      - **값:** URL입니다.
      - **작업**: 허용 또는 **차단** **값입니다.**
      - **마지막 업데이트**
      - **제거**
-     - **참고**
+     - **참고 사항**
    - **파일**
      - **값:** 파일 해시입니다.
      - **작업**: 허용 또는 **차단** **값입니다.**
      - **마지막 업데이트**
      - **제거**
-     - **참고**
+     - **참고 사항**
    - **스푸핑**
      - **스푸핑된 사용자**
      - **인프라 보내기**

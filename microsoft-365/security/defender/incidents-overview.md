@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: a1ef2dde05bd2244ea982cfa2dabd5927484f46b
-ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
+ms.openlocfilehash: 54d80dca5d1f2253aed3995b64097bfb911e45d8
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60724383"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914431"
 ---
 # <a name="incident-response-with-microsoft-365-defender"></a>인시던트에 대한 Microsoft 365 Defender
 
@@ -46,7 +46,7 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 개별 경고를 함께 하여 공격에 대한 통찰력을 확보하는 것은 까다롭고 시간이 많이 소요될 수 Microsoft 365 Defender 경고 및 관련 정보를 인시던트에 자동으로 집계합니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents.png" alt-text="엔터티 Microsoft 365 Defender 이벤트와 인시던트의 상관 관계가 지정되는 방법":::
+:::image type="content" source="../../media/incidents-overview/incidents.png" alt-text="엔터티 Microsoft 365 Defender 이벤트와 인시던트의 상관 관계가 지정되는 방법" lightbox="../../media/incidents-overview/incidents.png":::
 
 4분 동안의 인시던트에 대한 Microsoft 365 Defender 간략한 개요를 시청하세요.
 
@@ -68,11 +68,11 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 인시던트  및 인시던트 & 포털(>)의 빠른 실행에서 인시던트 Microsoft 365 Defender 관리합니다 security.microsoft.com.[](https://security.microsoft.com) 다음은 예입니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="사이트 포털의 인시던트 Microsoft 365 Defender.":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="사이트 포털의 인시던트 Microsoft 365 Defender." lightbox="../../media/incidents-queue/incidents-ss-incidents.png":::
 
 인시던트 이름을 선택하면 인시던트 요약이 표시될 수 있으며 추가 정보가 있는 탭에 액세스할 수 있습니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="사이트 포털의 인시던트에 대한 요약 Microsoft 365 Defender 예":::
+:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="사이트 포털의 인시던트에 대한 요약 Microsoft 365 Defender 예" lightbox="../../media/incidents-overview/incidents-ss-incident-summary.png":::
 
 인시던트에 대한 추가 탭은:
 
@@ -106,13 +106,13 @@ Microsoft 365 및 앱은 의심스러우거나 악의적인 이벤트나 활동�
 
 다음은 인시던트와 인시던트 데이터 및 인시던트 포털에서 인시던트의 탭 Microsoft 365 Defender 관계입니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="인시던트 및 데이터와 인시던트 포털의 인시던트 탭 간의 Microsoft 365 Defender.":::
+:::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="인시던트 및 데이터와 인시던트 포털의 인시던트 탭 간의 Microsoft 365 Defender." lightbox="../../media/incidents-overview/incidents-security-center.png":::
 
 ## <a name="example-incident-response-workflow-for-microsoft-365-defender"></a>예제 인시던트 대응 워크플로를 Microsoft 365 Defender
 
 다음은 Microsoft 365 포털을 사용하여 인시던트에 응답하기 위한 Microsoft 365 Defender 예제입니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="관리에 대한 인시던트 대응 워크플로의 Microsoft 365.":::
+:::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="관리에 대한 인시던트 대응 워크플로의 Microsoft 365." lightbox="../../media/incidents-overview/incidents-example-workflow.png":::
 
 지속적인 기준에 따라 인시던트 큐에서 분석 및 해결을 위해 우선순위가 가장 높은 인시던트를 식별하고 대응을 준비합니다. 이러한 조치는 다음으로 구성됩니다.
 
@@ -150,7 +150,7 @@ Microsoft 제품 전반의 인시던트 대응에 대한 자세한 내용은 이
 
 다음은 보안 작업(SecOps)의 예입니다Microsoft 365 Defender.
 
-:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="보안 작업의 예로는 Microsoft 365 Defender.":::
+:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="보안 작업의 예로는 Microsoft 365 Defender." lightbox="../../media/incidents-overview/incidents-example-operations.png":::
 
 일별 작업에는 다음이 포함됩니다.
 
@@ -212,7 +212,7 @@ Microsoft 제품 전반의 SecOps에 대한 자세한 내용은 다음 리소스
     - **전자 메일에 조직 이름 포함** - 전자 메일 알림에 조직 이름을 표시하려면 선택합니다.
     - **테넌트별 포털 링크 포함** - 전자 메일 알림에 특정 Microsoft 365 테넌트에 액세스하기 위한 테넌트 ID가 포함된 링크를 추가하려면 선택합니다.
 
-    :::image type="content" source="../../media/get-incident-notifications/incidents-ss-email-notification-settings.png" alt-text="인시던트 전자 메일 알림에 대한 알림 설정입니다.":::
+    :::image type="content" source="../../media/get-incident-notifications/incidents-ss-email-notification-settings.png" alt-text="인시던트 전자 메일 알림에 대한 알림 설정입니다." lightbox="../../media/get-incident-notifications/incidents-ss-email-notification-settings.png":::
 
 5. **다음** 을 선택합니다. 받는 **사람 페이지에서** 인시던트 알림을 받을 전자 메일 주소를 추가합니다. 각 **새 전자** 메일 주소를 입력한 후 추가를 선택합니다. 알림을 테스트하고 받는 사람이 받은 편지함으로 받는지 확인하려면 테스트 전자 메일 **보내기 를 선택합니다.** 
 6. **다음** 을 선택합니다. 규칙 **검토 페이지에서** 규칙 설정을 검토한 다음 규칙 만들기 **를 선택합니다.** 받는 사람은 설정에 따라 전자 메일을 통해 인시던트 알림을 수신하기 시작할 것입니다.

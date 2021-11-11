@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 95fa7c4821f28775c78175aa18a413b8cd1928e5
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a5ce8d049402fc0f1acdd1f47885c29bb4eba0cb
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174414"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914263"
 ---
 # <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>역할 기반 액세스 제어에서 사용자 지정 역할 Microsoft 365 Defender
 
@@ -41,7 +41,7 @@ ms.locfileid: "60174414"
 - **AD(Azure Active Directory 전역 역할) 역할**
 - **사용자 지정 역할**
 
-AAD(Microsoft 365 Defender 전역 역할을 사용하여 사용자 액세스 권한을 Azure Active Directory [수 있습니다.](m365d-permissions.md)
+사용자 Microsoft 365 Defender 액세스는 전역 역할(Azure Active Directory)을 사용하여 [AAD.](m365d-permissions.md)
 
 특정 제품 데이터에 대한 액세스에 대한 더 큰 유연성과 제어가 필요한 Microsoft 365 Defender 각 보안 포털을 통해 사용자 지정 역할을 만들어 액세스 권한을 관리할 수도 있습니다.  
 
@@ -100,5 +100,6 @@ AAD(Microsoft 365 Defender 전역 역할을 사용하여 사용자 액세스 권
 - 보기 전용 받는 사람
 
 ## <a name="related-topics"></a>관련 항목
+- [RBAC 역할](../office-365-security/migrate-to-defender-for-office-365-onboard.md#rbac-roles)
 - [Microsoft 365 Defender에 대한 액세스 관리](m365d-permissions.md)
 - [MCAS에 대한 관리자 액세스 관리](/cloud-app-security/manage-admins)

@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a99b69994638af788d3e4ba80c695885f7c3a856
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 59b7f7f9aad9406fc5575f4ada5f45a68dd81b22
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60169698"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914443"
 ---
 # <a name="manage-portal-access-using-role-based-access-control"></a>역할 기반 액세스 제어를 사용하여 포털 액세스 관리
 
@@ -37,11 +37,14 @@ RBAC(역할 기반 액세스 제어)를 사용하면 보안 작업 팀 내에 �
 
 대규모 지역 분산 보안 운영 팀은 일반적으로 계층 기반 모델을 채택하여 보안 포털에 대한 액세스를 할당하고 권한을 부여합니다. 일반적인 계층에는 다음 세 가지 수준이 포함됩니다.
 
-계층|설명
-:---|:---
-계층 1|**로컬 보안 운영 팀/IT 팀** <br> 이 팀은 일반적으로 지리적 위치 내에 포함된 경고를 조사하고 활성 수정이 필요한 경우 계층 2로 에스컬레이터합니다.
-계층 2|**지역 보안 운영 팀** <br> 이 팀은 해당 지역의 모든 장치를 보고 수정 작업을 수행할 수 있습니다.
-계층 3|**글로벌 보안 운영 팀** <br> 이 팀은 보안 전문가로 구성하며 포털에서 모든 작업을 보고 수행할 수 있는 권한이 있습니다.
+계층|설명|
+:---|:---|
+계층 1|**로컬 보안 운영 팀/IT 팀** <br> 이 팀은 일반적으로 지리적 위치 내에 포함된 경고를 조사하고 활성 수정이 필요한 경우 계층 2로 에스컬레이터합니다.|
+계층 2|**지역 보안 운영 팀** <br> 이 팀은 해당 지역의 모든 장치를 보고 수정 작업을 수행할 수 있습니다.|
+계층 3|**글로벌 보안 운영 팀** <br> 이 팀은 보안 전문가로 구성하며 포털에서 모든 작업을 보고 수행할 수 있는 권한이 있습니다.|
+
+> [!NOTE]
+> 계층 0 자산의 [](/azure/active-directory/privileged-identity-management/pim-configure) 경우 보안 Privileged Identity Management 사용하여 끝점 및 데이터 관리에 대한 Microsoft Defender를 보다 세부적으로 Microsoft 365 Defender.  
 
 Endpoint RBAC용 Defender는 선택 계층 또는 역할 기반 모델을 지원하도록 설계되었습니다. 또한 역할이 볼 수 있는 역할, 액세스할 수 있는 장치 및 수행할 수 있는 작업에 대한 세부적인 제어를 제공합니다. RBAC 프레임워크는 다음 컨트롤을 중심으로 합니다.
 
@@ -74,4 +77,5 @@ Endpoint용 Defender 전역 관리자 역할이 있는 사용자는 장치 그�
 
 ## <a name="related-topic"></a>관련 항목
 
+- [RBAC 역할](../office-365-security/migrate-to-defender-for-office-365-onboard.md#rbac-roles)
 - [끝점용 Microsoft Defender에서 장치 그룹 만들기 및 관리](machine-groups.md)

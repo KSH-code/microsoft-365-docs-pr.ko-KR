@@ -20,12 +20,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 ms.technology: m365d
-ms.openlocfilehash: 3ac0af88a38c6e563dd75e85d1f24820c9ebe19d
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 3535e258cb5825a5be4ff97e4bd03a700c80589c
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587767"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914219"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>2016에서 인시던트 Microsoft 365 Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "60587767"
 
 인시던트  및 인시던트 & 포털(>)의 빠른 실행에서 인시던트 Microsoft 365 Defender 관리합니다 security.microsoft.com.[](https://security.microsoft.com) 다음은 예입니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예입니다.":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예입니다." lightbox="../../media/incidents-queue/incidents-ss-incidents.png":::
 
 인시던트 관리 방법은 다음과 같습니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "60587767"
 
 인시던트에 대한 **인시던트 관리** 창에서 인시던트를 관리할 수 있습니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-manage.png" alt-text="인시던트의 인시던트 관리 창 예":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-manage.png" alt-text="인시던트의 인시던트 관리 창 예" lightbox="../../media/incidents-queue/incidents-ss-incidents-manage.png":::
 
 이 창은 다음의  문제 관리 링크에서 표시할 수 있습니다.
 

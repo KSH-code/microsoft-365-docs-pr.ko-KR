@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: d1d3a6cb3b861641fde2c3f6455cf9bbe84ff7e9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a0f705fd63f8a613a48f86efcdcef37059037caf
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210630"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914359"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -47,9 +47,9 @@ ms.locfileid: "60210630"
 
 통합 알림 센터()에는 장치에 대한 보류 중 및 완료된 수정 작업, 전자 메일 & 공동 작업 콘텐츠 및 ID가 한 위치에 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 나열됩니다.
 
-:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Microsoft 365 Defender.":::
+:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="통합된 포털의 Microsoft 365 Defender 센터입니다." lightbox="../../media/m3d-action-center-unified.png":::
 
-예제: 
+예시: 
 
 - 이전에 Office 365 보안 & 준수 센터()를 사용 중이면 Microsoft 365 Defender [https://protection.office.com](https://protection.office.com) 포털()에서 통합 Microsoft 365 Defender [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.
 - Microsoft Defender 보안 센터()에서 작업 센터를 사용하는 경우 Microsoft 365 Defender [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) 포털()에서 통합 Microsoft 365 Defender [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.
@@ -80,7 +80,7 @@ ms.locfileid: "60210630"
 
 관리 센터에서 데이터를 사용자 지정, 정렬, 필터링 및 내보낼 수 있습니다.
 
-:::image type="content" source="../../media/m3d-action-center-columnsfilters.png" alt-text="관리 센터를 사용하면 작업 목록을 정렬, 필터링 및 사용자 지정할 수 있습니다.":::
+:::image type="content" source="../../media/m3d-action-center-columnsfilters.png" alt-text="관리 센터의 기능을 정렬, 필터링 및 사용자 지정합니다." lightbox="../../media/m3d-action-center-columnsfilters.png":::
 
 - 열 제목을 선택하여 항목을 오차 또는 내선 순서로 정렬합니다.
 - 기간 필터를 사용하여 지난 일, 주, 30일 또는 6개월의 데이터를 볼 수 있습니다.

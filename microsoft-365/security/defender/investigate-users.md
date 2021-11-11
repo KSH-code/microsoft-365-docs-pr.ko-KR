@@ -19,12 +19,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: f7145d2668f6c724644bf719dfd6414550af43c4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 165f1ccb1e0a059d61802e9a8e026b9dbef3efc2
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60209168"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914383"
 ---
 # <a name="investigate-users-in-microsoft-365-defender"></a>사용자 조사에서 Microsoft 365 Defender
 
@@ -36,11 +36,11 @@ ms.locfileid: "60209168"
 
 인시던트 조사의 일부에는 사용자 계정이 포함됩니다. **인시던트** 및 인시던트의 인시던트에 대한 사용자 탭에서 & _ 사용자  \> **_를_*\>* 선택합니다.**
 
-:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예입니다.":::
+:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예입니다." lightbox="../../media/investigate-incidents/incident-users.png":::
 
 인시던트에 대한 사용자 계정을 빠르게 요약하려면 사용자 계정 이름 옆의 확인 표시를 선택합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Microsoft 365 Defender 포털의 인시던트에 대한 사용자 계정 요약 창의 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="인시던트에 대한 사용자 계정 요약 창의 예입니다." lightbox="../../media/investigate-users/incidents-ss-user-pane.png":::
 
 > [!NOTE]
 > 사용자 페이지에 Azure Active Directory(Azure AD) 조직 및 그룹이 표시되어 사용자와 연결된 그룹 및 사용 권한을 이해하는 데 도움이 됩니다.
@@ -51,13 +51,13 @@ ms.locfileid: "60209168"
 
 여기에서 사용자 페이지로  이동을 선택하여 사용자 계정의 세부 정보를 볼 수 있습니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="사이트 포털에서 인시던트에 대한 사용자 계정 Microsoft 365 Defender 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="인시던트에 대한 사용자 계정 페이지의 예입니다." lightbox="../../media/investigate-users/incidents-ss-user-details.png":::
 
 사용자 페이지의 목록에서 사용자 계정의 이름을 선택하여 이 페이지를 볼 **수** 있습니다.
 
 그룹 에서 번호를 선택하여 사용자의 그룹 구성원 자격을 볼 **수 있습니다.**
 
-:::image type="content" source="../../media/investigate-users/user-group-membership.png" alt-text="Microsoft 365 Defender 포털의 사용자에 대한 그룹 구성원의 예":::
+:::image type="content" source="../../media/investigate-users/user-group-membership.png" alt-text="사용자에 대한 그룹 구성원의 예입니다." lightbox="../../media/investigate-users/user-group-membership.png":::
 
 관리자에서 아이콘을 **선택하면** 사용자가 조직 트리의 위치를 볼 수 있습니다.
 
@@ -76,7 +76,7 @@ Microsoft 365 Defender 포털 사용자 페이지는 Microsoft Defender for Endp
 
 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Microsoft 365 Defender 포털에서 인시던트에 대한 사용자 계정에 대한 작업의 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="인시던트에 대한 사용자 계정에 대한 작업의 예입니다." lightbox="../../media/investigate-users/incidents-ss-user-details-actions.png":::
 
 <!--
 You can access this page from multiple areas in the Microsoft 365 Defender portal. You can access this page from a specific incident in the **Users** tab. Some alerts might include users as a specific affected asset. You can also search for users.  
@@ -93,7 +93,7 @@ Learn more about how to investigate users and potential risk [in this Cloud App 
 
 지난 2일 동안 엔터티에 대해 잠재적인 측면 이동 경로가 검색되지 않은 경우 그래프가 표시되지 않습니다. 다른 날짜 보기를 사용하여 이 엔터티에 대해 검색된 이전 측면 이동 경로 그래프를 볼 수 있는 다른 날짜를 선택합니다. 측면 이동 경로 보고서는 검색된 잠재적인 측면 이동 경로에 대한 정보를 항상 제공할 수 있으며 시간별 사용자 지정이 가능합니다.
 
-:::image type="content" source="../../media/investigate-users/lateral-movement-path.png" alt-text="포털에서 사용자에 대한 측면 이동 Microsoft 365 Defender 예":::
+:::image type="content" source="../../media/investigate-users/lateral-movement-path.png" alt-text="사용자에 대한 측면 이동 경로의 예입니다." lightbox="../../media/investigate-users/lateral-movement-path.png":::
 
 자세한 내용은 측면 이동 [경로를 참조하세요.](/defender-for-identity/use-case-lateral-movement-path)
 

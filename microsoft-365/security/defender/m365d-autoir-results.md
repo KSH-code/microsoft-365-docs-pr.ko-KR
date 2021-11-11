@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 7eaf3c7f1b712bc6b3f0c1d17869ccf434a74d89
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3bfdca63325516394c78626899c6b83e3f3f0e20
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199492"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914371"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동 조사의 세부 내용과 결과
 
@@ -35,11 +35,9 @@ ms.locfileid: "60199492"
 **적용 대상:**
 - Microsoft 365 Defender
 
-이 Microsoft 365 Defender 자동화된 조사가 실행되는 경우 자동화된 조사 프로세스 중 및 이후에 조사에 대한 세부 정보를 사용할 수 있습니다. [](m365d-autoir.md) [필수 권한이](m365d-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  이 보기는 최신 상태 및 보류 중인 작업을 승인하는 기능을 제공합니다. 
+이 Microsoft 365 Defender 자동화된 조사가 실행되는 경우 자동화된 조사 프로세스 중 및 이후에 조사에 대한 세부 정보를 사용할 수 있습니다. [](m365d-autoir.md) 필요한 권한이 [](m365d-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 세부 정보를 볼 수 있습니다. 이 보기에서는 최신 상태와 보류 중인 작업을 승인할 수 있습니다. 
 
-:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="조사 세부 정보.":::
-
-## <a name="new-unified-investigation-page"></a>(NEW!) 통합 조사 페이지
+## <a name="new-unified-investigation-page"></a>(NEW) 통합 조사 페이지
 
 조사 페이지가 최근에 장치, 전자 메일 및 공동 작업 콘텐츠에 대한 정보를 포함하기 위해 업데이트되었습니다. 새로운 통합 조사 페이지는 공통 언어를 정의하고 끝점용 [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 및 Microsoft [Defender](../office-365-security/defender-for-office-365.md)for Office 365. 통합 조사 페이지에 액세스하려면 노란색 배너의 링크를 선택합니다.
 
@@ -89,13 +87,13 @@ ms.locfileid: "60199492"
 
 다음은 예입니다.
 
-:::image type="content" source="../../media/mtp-incidentdetails-tabs.png" alt-text="인시던트 세부 정보.":::
+:::image type="content" source="../../media/mtp-incidentdetails-tabs.png" alt-text="조사 페이지의 예" lightbox="../../media/mtp-incidentdetails-tabs.png":::
 
 ## <a name="investigation-details"></a>조사 세부정보
 
 조사 세부정보 보기를 사용 하여 과거, 현재 및 보류 중인 활동을 확인하고 조사합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="조사 세부 정보.":::
+:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="조사 세부 정보의 예" lightbox="../../media/mtp-air-investdetails.png":::
 
 조사 세부정보 보기에서 아래 테이블에 설명되어 있는 것 처럼 **조사 그래프**, **알람**, **장치**, **항목**, **주요 발견 사항**, **대상**, **로그** 및 **보류 활동** 을 확인할 수 있습니다. 
 

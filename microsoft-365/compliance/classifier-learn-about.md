@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 교육 가능한 Microsoft 365 분류자란 테스트 또는 정책 응용 프로그램에 대해 다양한 유형의 콘텐츠를 인식할 수 있는 도구로, 이를 통해 볼 수 있는 양성 및 부정 샘플을 제공합니다.
-ms.openlocfilehash: 91944d4d0d958c71232e2c9ea461eab9bf21c0cc
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: b57c8438a7b51fd175286d79a71ea746b72704f0
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335869"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914347"
 ---
 # <a name="learn-about-trainable-classifiers"></a>학습 가능한 분류자에 대한 자세한 정보
 
@@ -41,7 +41,7 @@ ms.locfileid: "60335869"
 - 키워드 또는 메타데이터 값(키워드 쿼리 언어)입니다.
 - 주민등의 보안, 신용 카드 또는 은행 계좌 번호(중요한 정보 유형 엔터티 정의)와 같은 이전에 식별된 중요한 정보 패턴을 [사용합니다.](sensitive-information-type-entity-definitions.md)
 - 서식 파일(문서 손가락 인쇄)의 변형이기 때문에 [항목을 인식합니다.](document-fingerprinting.md)
-- 정확한 문자열(정확한 데이터 [일치)이 있는 경우](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md).
+- 정확한 문자열의 존재를 사용하여 [정확한 데이터가 일치합니다.](sit-learn-about-exact-data-match-based-sits.md#learn-about-exact-data-match-based-sensitive-information-types)
 
 그런 다음 민감도 및 보존 레이블을 자동으로 적용하여 데이터 손실 방지에 대해 자세히 [보기에서](dlp-learn-about-dlp.md)콘텐츠를 사용할 수 있도록 설정하고 보존 레이블에 대한 정책을 자동으로 적용할 [수 있습니다.](apply-retention-labels-automatically.md)
 
@@ -69,7 +69,7 @@ ms.locfileid: "60335869"
 Microsoft 365 5개의 사전 학습된 분류자와 함께 사용할 수 있습니다.
 
 > [!CAUTION]
-> 많은 수의 가양성 생성이 터지기 때문에 공격 언어 사전 학습된 분류자 사용이 더는 사용되지 않습니다.  이 기능을 사용하지 말고 현재 사용 중인 경우 비즈니스 프로세스를 벗어날 수 있습니다. 위협,  **비언어** 및 괴롭히기 사전 학습된 분류자 대신 사용하는 것이 좋습니다. 
+> 많은 수의 가양성을 생성하는 관계로 미리 학습된 **불쾌감을 주는 언어** 분류자는 사용을 중단합니다. 이 기능을 사용하지 말고 현재 사용 중인 경우 비즈니스 프로세스를 벗어날 수 있습니다. 위협,  **비언어** 및 괴롭히기 사전 학습된 분류자 대신 사용하는 것이 좋습니다. 
 
 - **이력서:** 신청자의 개인, 교육, 전문 자격, 작업 환경 및 기타 개인 식별 정보의 텍스트 계정인 항목을 검색합니다.
 - **소스 코드:** 25개 도구에서 사용된 컴퓨터 프로그래밍 언어 중 상위 25개 언어로 작성된 명령문 집합이 포함된 GitHub
@@ -146,4 +146,4 @@ Microsoft 365 5개의 사전 학습된 분류자와 함께 사용할 수 있습�
 - [민감도 레이블](sensitivity-labels.md)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [문서 손가락 인쇄](document-fingerprinting.md)
-- [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+- [정확한 데이터 일치 기반 중요한 정보 유형에 대해 자세히 알아보기](sit-learn-about-exact-data-match-based-sits.md#learn-about-exact-data-match-based-sensitive-information-types)

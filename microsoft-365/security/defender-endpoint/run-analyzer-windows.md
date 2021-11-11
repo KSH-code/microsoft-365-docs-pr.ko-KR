@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 29b414ac9dcab9a9c32b5ba09d45d5d9b9ce67de
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 172c883ae5572be65903c0b19459c514a39882d0
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554687"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914118"
 ---
 # <a name="run-the-client-analyzer-on-windows"></a>Windows에서 클라이언트 분석기 실행
 
@@ -57,6 +57,24 @@ ms.locfileid: "60554687"
 > Windows 10, Windows Server 2019 이상 OS 버전 또는 Windows 11 클라이언트 분석기 스크립트는 호출된 실행 파일을 호출하여 클라우드 서비스 URL에 대한 연결 테스트를 `MDEClientAnalyzer.exe` 실행합니다.
 >
 > Windows 8.1, Windows Server 2016 또는 이전 OS 버전에서 클라이언트 분석기 스크립트는 CnC(명령 및 제어) URL에 대한 연결 테스트를 실행하기 위해 호출된 실행 파일로 호출하고 사이버 데이터 채널 URL에 대한 Microsoft Monitoring Agent 연결 도구로 `MDEClientAnalyzerPreviousVersion.exe` `TestCloudConnection.exe` 호출합니다.
+
+
+분석기에 포함된 모든 PowerShell 스크립트 및 모듈은 Microsoft에서 서명합니다.
+파일이 수정된 경우 분석기는 다음 오류와 함께 종료될 것으로 예상됩니다.
+
+![클라이언트 분석기 오류의 이미지](images/sigerror.png)
+
+
+이 오류가 표시되어 있는 경우 issuerInfo.txt 파일에 대한 자세한 정보가 표시됩니다.
+
+![발급자 정보 이미지](images/issuerinfo.png)
+
+
+수정 후의 MDEClientAnalyzer.ps1 예시:
+
+![수정된 ps1 파일의 이미지](images/modified-ps1.png)
+
+
 
 ## <a name="result-package-contents-on-windows"></a>결과 패키지 콘텐츠가 Windows
 
@@ -140,6 +158,9 @@ ms.locfileid: "60554687"
   - OperationsManager.evtx
 
     설명: Microsoft Monitoring Agent 로그 내보내기
+
+
+
 
 ## <a name="see-also"></a>참고 항목
 

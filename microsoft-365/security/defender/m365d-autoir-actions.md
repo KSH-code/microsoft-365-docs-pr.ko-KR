@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 949fbfa6b34fe78e7d5a575756547fdadfef8c8f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7f43c41570e8b097e0652b3909d603600de9f96a
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199504"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914239"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>관리 센터에서 작업 보기 및 관리
 
@@ -55,7 +55,7 @@ ms.locfileid: "60199504"
 
 3. 작업 센터의 보류 중인 **탭에서** 목록의 항목을 선택합니다. 플라이아웃 창이 열립니다. 다음은 예입니다.
 
-   ![작업을 승인하거나 거부합니다.](../../media/air-actioncenter-itemselected.png)
+   :::image type="content" source="../../media/air-actioncenter-itemselected.png" alt-text="작업의 수락 또는 거부의 예입니다." lightbox="../../media/air-actioncenter-itemselected.png":::
 
 4. 플라이아웃 창의 정보를 검토한 후 다음 단계 중 하나를 수행합니다.
    - 조사에 대한 자세한 내용을 **확인하려면** 조사 페이지 열기 를 선택합니다.

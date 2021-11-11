@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5f8a1be949c922a98d52b7d84ccc19e2ed3f9913
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: d3dea119e73da7d0b0e8745ea1f96969f4818ac8
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154617"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914323"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>인시던트 우선 순위를 Microsoft 365 Defender
 
@@ -42,7 +42,7 @@ Microsoft 365 Defender 상관 관계 분석을 적용하고 다양한 제품의 
 
 인시던트 및  인시던트 & 포털(>)의 빠른 실행에서 인시던트 Microsoft 365 Defender 큐로[security.microsoft.com.](https://security.microsoft.com) 다음은 예입니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예입니다.":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예입니다." lightbox="../../media/incidents-queue/incidents-ss-incidents.png":::
 
 최근 **인시던트** 및 알림 섹션에는 지난 24시간 동안 수신된 경고 및 인시던트 수의 그래프가 표시됩니다.
 
@@ -63,7 +63,7 @@ Microsoft 365 Defender 상관 관계 분석을 적용하고 다양한 제품의 
 
 기본 인시던트 큐에서  필터를 선택하여 필터링된 인시던트 집합을 볼 수 있는 필터 창을 볼 수 있습니다. 예를 들면 다음과 같습니다.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-filters.png" alt-text="문제 큐에 대한 필터 창의 예입니다.":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-filters.png" alt-text="문제 큐에 대한 필터 창의 예입니다." lightbox="../../media/incidents-queue/incidents-ss-incidents-filters.png":::
 
 다음 표에는 사용 가능한 필터 이름이 나열되어 있습니다.
 

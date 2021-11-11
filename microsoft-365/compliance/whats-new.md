@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 694a066efa35743206aaff8a1169014a266164b8
-ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
+ms.openlocfilehash: febd40a6312b794c62339e6b19f5425c2acf9542
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/11/2021
-ms.locfileid: "60907792"
+ms.locfileid: "60914635"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -40,6 +40,65 @@ ms.locfileid: "60907792"
 > - [Microsoft 365 Defender의 새로운 기능](../security/defender/whats-new.md)
 >
 > 또한 Microsoft 365 [](https://www.microsoft.com/microsoft-365/roadmap) 로드맵을 방문하여 Microsoft 365, 개발 중, 취소 또는 이전에 릴리스된 Microsoft 365 기능에 대해 자세히 알아보습니다.
+
+## <a name="october-2021"></a>2021년 10월
+
+### <a name="app-governance"></a>앱 거버넌스
+
+- Cloud Apps용 Defender용 앱 거버넌스 추가 [기능의 일반 공급이 출시되었습니다.](/cloud-app-security/app-governance-manage-app-governance) 앱 거버넌스 설명서가 클라우드 앱용 Defender 설명서에 가입하기 위해 이동했습니다.
+
+### <a name="compliance--service-assurance"></a>규정 & 서비스 보증
+
+- [서비스 보증](/compliance) - 분기별 인증 및 적용성 설명에 대한 콘텐츠 업데이트 검토) 데이터 센터 자산 관리
+  - 데이터 센터 아키텍처 및 인프라
+  - 데이터 센터 비즈니스 연속성 및 재해 복구
+  - 데이터 센터 환경 보호 장치
+  - 데이터 센터 물리적 액세스 보안
+  - Microsoft 365 SDL 준수 프로그램
+  - Microsoft 365 서비스 엔지니어 액세스 제어
+  - MS 클라우드에 대한 위험 평가 가이드
+
+### <a name="data-loss-prevention"></a>데이터 손실 방지
+
+- [MacOS 지원](endpoint-dlp-learn-about.md) 및 고급 분류를 위해 데이터 손실 방지가 업데이트되었습니다. 지원되는 모든 파일 형식에 대한 활동을 감사하기 위한 사용자 지정 DLP 정책을 만들기 위해 업데이트되었습니다.
+- [시작 Microsoft 365 끝점](endpoint-dlp-getting-started.md) 데이터 손실 방지가 macOS 지원 및 고급 분류에 대해 업데이트되었습니다.
+- [MacOS 지원](endpoint-dlp-using.md) 및 고급 분류를 위해 끝점 데이터 손실 방지 사용이 업데이트되었습니다.
+- [데이터 손실 방지 정책 팁 참조는](dlp-policy-tips-reference.md) macOS 지원 및 고급 분류에 대해 업데이트되었습니다.
+- [macOS 장치에 macOS Microsoft 365(미리 보기)가](device-onboarding-macos-overview.md) macOS 지원 및 고급 분류에 대해 업데이트되었습니다.
+- 온보더링 장치에 대한 다음과 같은 새 페이지가 추가되었습니다.
+  - [Intune을 사용하여 macOS 디바이스를 Microsoft 365 준수 솔루션으로 온보드 및 오프보드(미리 보기)](device-onboarding-offboarding-macos-intune.md)
+  - [엔드포인트용 Microsoft Defender 고객을 위한 Intune을 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)](device-onboarding-offboarding-macos-intune-mde.md)
+  - [JAMF 2013을 사용하여 macOS 장치를 Microsoft 365 준수 솔루션에 Pro(미리 보기)](device-onboarding-offboarding-macos-jamfpro.md)
+  - [엔드포인트용 Microsoft Defender 고객을 위한 JAMF Pro를 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)](device-onboarding-offboarding-macos-jamfpro-mde.md)
+
+### <a name="ediscovery"></a>eDiscovery
+
+- [클라우드 첨부](advanced-ediscovery-cloud-attachments.md) Advanced eDiscovery 수집하는 것 외에도 전자 메일 메시지 또는 채팅 대화에서 공유된 버전을 수집할 Teams 있습니다. 클라우드 첨부 파일에 보존 레이블을 자동으로 적용하는 새로운 기능을 통해 공유 버전을 수집할 수 있습니다.
+- [검색을](advanced-ediscovery-historical-versions.md) 위해 Advanced eDiscovery 문서의 모든 버전을 인덱싱하는 새로운 기능에서 이전 SharePoint 설정 즉, 컬렉션 쿼리와 일치하는 콘텐츠가 포함된 문서 버전이 검색 결과에 반환됩니다.
+
+### <a name="encryption"></a>암호화
+
+- [일대일 통화에](/microsoftteams/teams-end-to-end-encryption) 종단 Microsoft Teams 암호화 사용(공개 미리 보기) 공개 미리 보기의 새 콘텐츠입니다.
+
+### <a name="information-governance"></a>정보 거버넌스
+
+- 새 커넥터를 설정하여 [중성 EHR](import-epic-data.md) 감사 데이터를 가져오는 커넥터를 설정하면 Insider Risk Management에 대한 새로운 일반 환자 데이터 오용 시나리오를 지원하기 위해 중환자 전자 의료 레코드 시스템에서 데이터를 가져올 수 있습니다.
+- [의료 EHR](import-healthcare-data.md) 감사 데이터를 가져오는 커넥터를 설정하면 전자 의료 레코드 시스템에서 데이터를 가져와 내부자 위험 관리를 위한 새로운 일반 환자 데이터 오용 시나리오를 지원할 수 있습니다.
+
+### <a name="retention-and-records-management"></a>보존 및 레코드 관리
+- [적응 정책 범위는](retention.md#adaptive-or-static-policy-scopes-for-retention) 보존 정책 및 보존 레이블 정책에 대한 미리 보기에서 릴리스됩니다.
+- 이제 민감도 레이블에 따라 보존 [레이블을 자동으로 적용할 수 있습니다.](apply-retention-labels-automatically.md#identify-files-and-emails-that-have-a-sensitivity-label)
+- 파일 계획에 새 [가져오기 프로세스가 있습니다.](file-plan-manager.md#import-retention-labels-into-your-file-plan)
+- [보존 정책 및 보존](retention-settings.md)레이블 정책에 대한 일반 설정: 보존 정책과 보존 레이블 정책 둘 다에서 적응 범위 및 기타 설정을 구성하는에 대한 자세한 정보를 위한 새로운 문서입니다.
+
+### <a name="sensitive-information-types"></a>중요한 정보 유형
+
+- [명명된 엔터티에 대한 명명된 엔터티(미리 보기)](named-entities-learn.md) 새 콘텐츠에 대해 자세히 알아보겠습니다.
+- [명명된 엔터티를](named-entities-use.md) 사용하는 데 데이터 손실 방지 정책(미리 보기) 새 콘텐츠에 명명된 엔터티를 사용하세요.
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+
+- [기본 레이블 및](mip-easy-trials.md) 기본 정책은 적격 고객에게 롤아웃됩니다.
 
 ## <a name="september-2021"></a>2021년 9월
 
@@ -259,38 +318,3 @@ ms.locfileid: "60907792"
 - 미리 보기에서 이제  그룹 및 사이트에 대해 민감도 레이블을 구성할 때 인증 컨텍스트에 대한 새 설정을 [사용할 수 있습니다.](sensitivity-labels-teams-groups-sites.md) 이 옵션은 Azure AD 조건부 액세스 정책과 함께 작동하여 사용자가 레이블이 적용된 SharePoint 사이트에 액세스할 때 더 엄격한 조건을 적용합니다. 이 설정을 구성하기 전에 종속성 및 [제한](sensitivity-labels-teams-groups-sites.md#more-information-about-the-dependencies-for-the-authentication-context-option) 사항을 읽어야 합니다.
 - [현재 사용자에](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) 대해 구성된 자동 레이블 지정 정책은 Exchange 전달 금지 또는  추가 옵션에 대한 사용 권한을 할당하도록 허용을 통해 암호화를 적용하는 민감도 레이블을 Encrypt-Only 있습니다.
 - [필수 레이블 지정은](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) 이제 모든 플랫폼의 모든 Office 앱에서 일반적으로 사용할 수 있습니다.
-
-## <a name="april-2021"></a>2021년 4월
-
-### <a name="advanced-ediscovery"></a>Advanced eDiscovery
-
-- [의 제한 Advanced eDiscovery.](/microsoft-365/compliance/limits-ediscovery20#export-limits---final-export-out-of-review-set) 이제 조직은 검토 집합에서 항목의 단일 내보내기에서 최대 500만 개 항목 또는 500MB(더 작은 항목)를 내보낼 수 있습니다.
-
-### <a name="data-classification"></a>데이터 분류
-
-- [활동 탐색기에서 사용할 수 있는 레이블 지정 활동](/microsoft-365/compliance/data-classification-activity-explorer-available-events)
-
-### <a name="data-connectors"></a>데이터 커넥터
-
-- [Oracle 데이터에 Cisco Jabber를 보관할 커넥터 설정](/microsoft-365/compliance/archive-ciscojabberonoracle-data)
-- [PostgreSQL 데이터에 Cisco Jabber를 보관할 커넥터 설정](/microsoft-365/compliance/archive-ciscojabberonpostgresql-data)
-
-### <a name="data-loss-prevention"></a>데이터 손실 방지
-
-- 데이터 손실 방지 정책 [팁 참조에 대한 새 항목입니다.](/microsoft-365/compliance/dlp-policy-tips-reference)
-- 데이터 손실 [방지에 대한 새로운 항목입니다.](/microsoft-365/compliance/dlp-learn-about-dlp)
-- 데이터 손실 방지 경고 대시보드 시작에 [대한 새 항목입니다.](/microsoft-365/compliance/dlp-alerts-dashboard-get-started)
-
-### <a name="retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책
-
-- Microsoft 365 그룹 위치는 *이제 Applications* 매개 변수와 함께 [Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) cmdlet을 사용하여 Microsoft 365 사서함 또는 연결된 SharePoint 사이트에 보존 설정을 적용할 수 있습니다.
-
-### <a name="sensitivity-labels"></a>민감도 레이블
-
-Outlook 릴리스 및 업데이트:
-
-- [이제 기본 레이블 및](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling) 필수 레이블 지정에 대한 다양한 설정이 기본 제공 레이블 지정에 지원됩니다. 이전에는 AIP 통합 레이블 지정 클라이언트에서만 이러한 설정을 지원했습니다.
-- [암호화 전용은](encryption-sensitivity-labels.md#let-users-assign-permissions) 이제 macOS, iOS 및 Android에서 지원됩니다.
-- [필수 레이블은](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) 나머지 플랫폼에 롤아웃됩니다.
-- [모든 변수가](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) 있는 동적 표시는 모든 클라이언트에서 Outlook 지원됩니다.
-
