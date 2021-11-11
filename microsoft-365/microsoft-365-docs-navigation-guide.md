@@ -11,12 +11,12 @@ author: samanro
 ms.author: samanro
 manager: pamgreen
 ms.collection: Adm_TOC
-ms.openlocfilehash: 4e1b03d0424a7d1007e972c6d571fb12560da81f
-ms.sourcegitcommit: 34259ec9b6cccc8f6e29808dbe4796d9f72b651b
+ms.openlocfilehash: c2c7c73b4f49ab5d8b76b8a7574f900f414d1d1f
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59934026"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907912"
 ---
 # <a name="microsoft-365-docs-navigation-guide"></a>Microsoft 365 설명서 탐색 가이드
 
@@ -29,14 +29,6 @@ Microsoft 365 허브 페이지는 관련 콘텐츠 찾기를 위한 [https://aka
 기술 설명서 집합 내의 모든 페이지 **맨 위에** 있는 머리 Microsoft 365 를 선택하여 항상 이 페이지로 Microsoft 365 있습니다.
 
 ![Microsoft 365 헤더에 있는 열입니다.](media/m365-header-cursor.png)
-
-## <a name="offline-documentation"></a>오프라인 설명서
-
-오프라인 시스템에서 Microsoft 365 설명서를 보시고자 하는 경우 기술 설명서의 어느 곳에나 PDF를 Microsoft 365 있습니다.
-
-PDF를 만들 경우 모든 콘텐츠 테이블의 맨 아래에 있는 **PDF** 다운로드 링크를 선택합니다.
-
-![PDF를 다운로드합니다.](media/m365-download-pdf-cursor.png)
 
 ## <a name="toc-search"></a>TOC 검색 
 이 docs.microsoft.com 맨 위에 있는 필터 검색 상자를 사용하여 콘텐츠 테이블의 콘텐츠를 검색할 수 있습니다.

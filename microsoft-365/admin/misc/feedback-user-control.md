@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 85eb9d9360026aaa7eb19c626c90f985a12af582
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: b276c82687481267a9c1de3a1261786bf2027254
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60161537"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907835"
 ---
 # <a name="learn-about-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백에 대해 자세히 알아보시고
 
@@ -31,6 +31,9 @@ ms.locfileid: "60161537"
 이 항목에서는 존재하는 피드백 유형, 피드백을 수집하는 방법, 수집하는 항목 및 데이터를 처리하는 방법에 대한 정보를 찾을 수 있습니다.
 
 관리자는 조직의 피드백 신호를 관리할 수 있습니다. 조직에 대한 사용자 피드백 모음 내에서 사용자 피드백 모음을 관리하는 데 도움이 되는 새로운 정책 Microsoft 365 도입되었습니다. 이러한 정책 설정은 Azure Active Directory 그룹을 대상으로 지정하고 조직에 대한 피드백 수집 환경을 구성하는 데 도움이 됩니다. 사용자 의견은 엔지니어에게 직접 보내지며 모든 사용자를 위한 Microsoft 제품 및 서비스의 미래를 형성하는 데 도움이 됩니다. 이러한 정책 설정, 적용하는 응용 프로그램 및 조직에 대한 Microsoft 피드백 관리에서 모범 사례에 대해 [자세히 알아보면 됩니다.](../manage/manage-feedback-ms-org.md)
+
+<!--> [!IMPORTANT]
+> 신뢰할 수 있는 원본에서 피드백이 제출된 것으로 확인하는 것이 좋습니다. 사용자 이름 또는 사용자 ID가 조직의 실제 사용자와 일치하는지 >
 
 ## <a name="feedback-types"></a>피드백 유형
 
@@ -46,11 +49,17 @@ ms.locfileid: "60161537"
 
 ### <a name="in-product-surveys"></a>제품 내 설문 조사
 
-또한 사용자는 시스템 시작 설문 조사 프롬프트를 통해 자신의 경험을 평가하고 경험에 대한 추가 정보를 제공할 수 있습니다. 이러한 프롬프트는 Microsoft 365 제품 내에서 발생합니다. 메시지가 표시될 때 사용자는 피드백을 제공할지 선택할 수 있습니다. 설문 조사 프롬프트는 일반적으로 앱 오른쪽 아래에 표시됩니다. 사용자가 피드백을 제공하거나, 프롬프트를 해지하거나, 프롬프트가 자체적으로 사라지게 하도록 설정하면 해당 사용자는 설문 조사를 한 번 더 볼 수 없습니다. 또한 Microsoft는 거버넌스 프로세스를 활용하여 이러한 시스템이 시작한 설문 조사의 수를 제한합니다.  거버넌스의 의도는 사용자가 설문 조사 프롬프트 수에 부담을 주지 않도록 하는 것입니다.
+사용자는 시스템 시작 설문 조사 프롬프트를 통해 자신의 경험을 평가하고 경험에 대한 추가 정보를 제공할 수 있습니다. 이러한 프롬프트는 Microsoft 365 제품 내에서 발생합니다. 메시지가 표시될 때 사용자는 피드백을 제공할지 선택할 수 있습니다. 설문 조사 프롬프트는 일반적으로 앱 오른쪽 아래에 표시됩니다. 사용자가 피드백을 제공하거나, 프롬프트를 해지하거나, 프롬프트가 자체적으로 사라지게 하도록 설정하면 해당 사용자는 설문 조사를 한 번 더 볼 수 없습니다. 또한 Microsoft는 거버넌스 프로세스를 활용하여 이러한 시스템이 시작한 설문 조사의 수를 제한합니다.  거버넌스의 의도는 사용자가 설문 조사 프롬프트 수에 부담을 주지 않도록 하는 것입니다.
 
 :::image type="content" source="../../media/feedback-love.png" alt-text="스크린샷: 제품 내 피드백 요청의 예":::
 
-:::image type="content" source="../../media/feedback-excel.png" alt-text="스크린샷: 제품 내 피드백 요청의 예":::
+:::image type="content" source="../../media/feedback-excel.png" alt-text="Screenshot: Example of in-product Excel feedback request":::
+
+### <a name="community-feedback"></a>Community 피드백
+
+사용자는 새로운 [Microsoft](https://feedbackportal.microsoft.com/feedback/) 피드백 포털을 활용하여 모든 모든 microsoft 피드백 제품에 대한 공개 커뮤니티 포럼에 Microsoft 365 있습니다. 새 피드백 포털을 통해 사용자는 공개적으로 제출된 피드백을 찾아서 지지할 수 있으며 지원되는 제품에 대한 새 공개 커뮤니티 피드백을 제출할 수 있습니다. 알려진 상위 피드백 항목은 새 포털에서 계속 사용할 수 있습니다. 또한 이 포털은 사용자가 공식 Microsoft 응답을 추적하고 제출한 피드백에 대해 Microsoft에 참여할 수 있는 새로운 응답 캔버스입니다.
+
+:::image type="content" source="../../media/community-feedback1.png" alt-text="Screenshot: Microsoft Teams feedback portal page":::
 
 ## <a name="what-kind-of-feedback-is-best"></a>어떤 피드백이 가장 적합한가요?
 

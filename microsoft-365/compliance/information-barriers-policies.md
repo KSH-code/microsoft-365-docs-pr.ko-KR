@@ -15,12 +15,12 @@ ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec745f46790ee6d230266f010a9311e1cebb12cc
-ms.sourcegitcommit: 6d470e37b2a1c40c7f31c2365ae654a3c35d7674
+ms.openlocfilehash: 1a9b6a4000b6d96fa8fe60b3abc60ff01676073e
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834105"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907816"
 ---
 # <a name="get-started-with-information-barriers"></a>정보 장벽 시작
 
@@ -51,7 +51,7 @@ ms.locfileid: "60834105"
 | **3단계:** [정보 장벽 정책 정의](#step-3-define-information-barrier-policies) | - 정책 정의(아직 적용되지 않습니다)<br/>- 두 가지 종류(차단 또는 허용) 중 선택 |
 | **4단계:** [정보 장벽 정책 적용](#step-4-apply-information-barrier-policies) | - 정책을 활성 상태로 설정<br/>- 정책 응용 프로그램 실행<br/>- 정책 상태 보기 |
 | **5단계:** 사용자 및 사용자에 대한 정보 SharePoint [OneDrive 구성(선택 사항)](#step-5-configuration-for-information-barriers-on-sharepoint-and-onedrive) | - 사용자 및 사용자에 대한 정보 장벽 SharePoint OneDrive |
-| **6단계:** [정보 장벽 모드(선택 사항)](#step-6-information-barriers-modes-preview) | - 해당하는 경우 정보 장벽 모드 업데이트 |
+| **6단계:** [정보 장벽 모드(선택 사항)](#step-6-information-barriers-modes) | - 해당하는 경우 정보 장벽 모드 업데이트 |
 
 ## <a name="step-1-make-sure-prerequisites-are-met"></a>1단계: 선행 단계를 충족하는지 확인
 
@@ -279,7 +279,7 @@ PowerShell을 사용하면 다음 표에 나와 있는 사용자 계정, 세그�
 
 사용자 및 사용자 SharePoint OneDrive 장벽을 사용하도록 설정하려면 다음 문서와 함께 정보 장벽 사용 [문서의](/sharepoint/information-barriers) 지침 및 SharePoint 따릅니다.
 
-## <a name="step-6-information-barriers-modes-preview"></a>6단계: 정보 장벽 모드(미리 보기)
+## <a name="step-6-information-barriers-modes"></a>6단계: 정보 장벽 모드
 
 모드를 사용하면 리소스의 IB 모드를 기반으로 Microsoft 365 리소스에 대한 액세스, 공유 및 구성원 자격을 강화할 수 있습니다. 모드는 Microsoft 365, Microsoft Teams, OneDrive 및 SharePoint 사이트에서 지원되며 새 IB 구성 또는 기존 IB 구성에서 자동으로 사용하도록 설정됩니다.
 
@@ -288,7 +288,7 @@ PowerShell을 사용하면 다음 표에 나와 있는 사용자 계정, 세그�
 | **Mode** | **설명** | **예** |
 |:-----|:------------|:--------|
 | **열기** | IB 정책 또는 세그먼트가 Microsoft 365 없습니다. 모든 사람을 리소스의 구성원으로 초대할 수 있습니다. | 조직에서 소나기 이벤트를 위해 만든 팀 사이트입니다. |
-| **소유자 중재** | IB 정책은 Microsoft 365 소유자의 IB 정책에 따라 결정됩니다. 자원 소유자는 IB 정책에 따라 자원에 사용자를 초대할 수 있습니다. 이 모드는 회사에서 소유자가 중재하는 비호화 세그먼트 사용자 간 공동 작업을 허용하려는 경우 유용합니다. 자원 소유자만 IB 정책에 따라 새 구성원을 추가할 수 있습니다. | HR의 VP는 영업 및 리서치 VP와 공동 작업을 하고자 합니다. IB SharePoint 소유자 중재로 설정되어 판매  및 리서치 세그먼트 사용자를 동일한 사이트에 추가하는 새 사이트입니다. 적절한 구성원이 리소스에 추가되도록 하는 것은 소유자의 책임입니다. |
+| **소유자 중재(미리 보기)** | IB 정책은 Microsoft 365 소유자의 IB 정책에 따라 결정됩니다. 자원 소유자는 IB 정책에 따라 자원에 사용자를 초대할 수 있습니다. 이 모드는 회사에서 소유자가 중재하는 비호화 세그먼트 사용자 간 공동 작업을 허용하려는 경우 유용합니다. 자원 소유자만 IB 정책에 따라 새 구성원을 추가할 수 있습니다. | HR의 VP는 영업 및 리서치 VP와 공동 작업을 하고자 합니다. IB SharePoint 소유자 중재로 설정되어 판매  및 리서치 세그먼트 사용자를 동일한 사이트에 추가하는 새 사이트입니다. 적절한 구성원이 리소스에 추가되도록 하는 것은 소유자의 책임입니다. |
 | **암시적** | IB 정책 또는 Microsoft 365 리소스 구성원 IB 정책에서 상속됩니다. 소유자는 리소스의 기존 구성원과 호환되는 한 구성원을 추가할 수 있습니다. 이 모드는 사용자 지정에 대한 기본 IB Microsoft Teams. | 영업 부문 사용자는 조직에서 Microsoft Teams 다른 세그먼트와 공동 작업을 할 수 있는 팀을 만듭니다. |
 | **Explicit** | Microsoft 365 리소스의 IB 정책은 리소스와 연결된 세그먼트에 따라 다를 수 있습니다. 자원 소유자 또는 SharePoint 관리자가 자원의 세그먼트를 관리할 수 있습니다.  | 판매 세그먼트 구성원만 만든 사이트는 판매 세그먼트를 사이트에 연결하여 공동 작업할 수 있습니다.   |
 

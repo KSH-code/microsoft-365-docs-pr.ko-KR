@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2628fcd5b53a8f73e471fd17512a790bc6b98fc6
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: d4e0cb56d6aad0b26bea145439b806080982dfe5
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554891"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907934"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>2016년 8월의 피싱 Microsoft 365
 
@@ -119,7 +119,7 @@ ms.locfileid: "60554891"
     - [2016년 8월에 관리자로 quarantined messages and files Microsoft 365](manage-quarantined-messages-and-files.md)
     - [2016년 8월에 사용자로 확인된 메시지 찾기 및 Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
-    메시지의 **검역을** 선택하는 경우 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택할 수도 있습니다. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
+    메시지의 **검역을** 선택하는 경우 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택할 수도 있습니다. Quarantine policies define what users are able to do to quarantined messages, and whether users receive quarantine notifications. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
 ### <a name="unauthenticated-sender"></a>비인식 보낸 사람
 
@@ -228,7 +228,7 @@ ms.locfileid: "60554891"
   - **아무 작업도 적용하지** 않습니다. 이 값은 사서함 인텔리전스를 켜고 인텔리전스 가장 보호 사용은 해제하는 경우와 결과가 **같습니다.** 
   - **메시지를 다른 전자 메일 주소로 리디렉션**
   - **받는 사람의 정크 메일 폴더로 메시지 이동**
-  - **메시지 Quarantine the message:** If you select this action, you can also select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
+  - **메시지 Quarantine the message:** If you select this action, you can also select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to do to quarantined messages, and whether users receive quarantine notifications. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
   - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
   - **배달되기 전에 메시지 삭제**
 

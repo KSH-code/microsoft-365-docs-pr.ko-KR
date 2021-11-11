@@ -18,12 +18,12 @@ ms.custom:
 description: 관리자는 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 시뮬레이션 및 교육과 관련하여 배포 고려 사항과 Office 365 정보를 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 75b85c637382e2fc508b4c48459d1409b02ec922
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 380241d44f667a845c47f85062d877192e1a7802
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60704137"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907996"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>공격 시뮬레이션 교육 배포 고려 사항 및 FAQ
 
@@ -49,7 +49,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="phishing-simulation-and-admin-urls-blocked-by-network-proxy-solutions-and-filter-drivers"></a>네트워크 프록시 솔루션 및 필터 드라이버에 의해 차단되는 피싱 시뮬레이션 및 관리자 URL
 
-피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예제:
+피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예시:
 
 - 방화벽
 - WAF(웹 응용 프로그램 방화벽) 솔루션
@@ -116,7 +116,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="messages-reported-as-phishing-by-users-arent-appearing-in-simulation-reports"></a>사용자가 피싱으로 보고한 메시지가 시뮬레이션 보고서에 나타나지 않습니다.
 
-공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예제:
+공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예시:
 
 - 메시지의 링크를 클릭한 사용자입니다.
 - 자격 증명을 포기한 사용자입니다.
@@ -152,7 +152,7 @@ A: CSV 파일에서 받는 사람을 가져오거나 시뮬레이션에 개별 �
 
 ### <a name="q-does-microsoft-provide-payloads-in-other-languages"></a>Q: Microsoft에서 다른 언어로 페이로드를 제공합니까?
 
-A: 현재 사용할 수 있는 지역화된 페이로드는 5개입니다. 기존 페이로드를 다른 언어로 직접 또는 기계 번역하면 부정확성 및 줄어든다.
+A: 현재 중국어(간체), 중국어(간체), 영어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 포르투갈어, 러시아어, 스페인어 및 네덜란드어 등 10개 이상의 언어로 사용할 수 있는 지역화된 페이로드가 있습니다. 기존 페이로드를 다른 언어로 직접 또는 기계 번역하면 부정확성 및 줄어든다.
 
 즉, 사용자 지정 페이로드 제작 환경을 사용하여 원하는 언어로 직접 페이로드를 만들 수 있습니다. 또한 특정 지리에서 사용자를 대상으로 지정하는 데 사용된 기존 페이로드를 수집하는 것이 좋습니다. 즉, 공격자가 콘텐츠를 지역화할 수 있습니다.
 

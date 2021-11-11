@@ -18,12 +18,12 @@ description: 전자 메일의 악성 금고 보호하기 위해 첨부 파일 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1cc31f00045173202d6404a81b64fdaab791e0c5
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3ae702417d34351c99ccbd8432c2fc29f11a433f
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702168"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907941"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 금고 첨부 파일 정책 설정 Office 365
 
@@ -119,7 +119,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
      이러한 값은 첨부 파일 [정책 금고 설명되어 있습니다.](safe-attachments.md#safe-attachments-policy-settings)
 
-   - **Quarantine policy**: 금고 Attachments(차단, 바꾸기 또는 동적 배달)에 의해 검역되는 메시지에 적용되는 금고 **정책을 선택합니다.** Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
+   - **Quarantine policy**: 금고 Attachments(차단, 바꾸기 또는 동적 배달)에 의해 검역되는 메시지에 적용되는 금고 **정책을 선택합니다.** Quarantine policies define what users are able to do to quarantined messages, and whether users receive quarantine notifications. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
      값을 비워 두면 기본 검지 정책이 사용됩니다(첨부 파일에서 전자 메일 검색을 위한 AdminOnlyAccessPolicy를 금고). 나중에 첨부 파일 금고 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
 
@@ -156,7 +156,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 금고 첨부 파일 정책
 
 3. 표시되는 정책 세부 정보 플라이아웃에서 각 섹션에서 **편집** 을 선택하여 섹션 내의 설정을 수정합니다. 설정에 대한 자세한 내용은 [](#use-the-microsoft-365-defender-portal-to-create-safe-attachments-policies) 이 문서 앞부분의 Microsoft 365 Defender 포털을 사용하여 금고 정책 만들기 섹션을 참조하십시오.
 
-정책을 사용하도록 설정하거나 사용하지 않도록 설정하거나 정책 우선 순위를 설정하려면 다음 섹션을 참조하세요.
+정책을 사용하거나 사용하지 않도록 설정하거나 정책 우선 순위 순서를 설정하려면 다음 섹션을 참조하세요.
 
 ### <a name="enable-or-disable-safe-attachments-policies"></a>첨부 파일 금고 사용 또는 사용 안 하도록 설정
 

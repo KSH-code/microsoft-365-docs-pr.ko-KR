@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 28dcfb3c914dd14ad9184f73c25c3469d2fa85d4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9681f1d110280a99e43283d56a7de3bb11e0f8b3
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210488"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907960"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 피싱 방지 정책 Office 365
 
@@ -204,7 +204,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by user impersonation protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
+       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by user impersonation protection. Quarantine policies define what users are able to do to quarantined messages, and whether users receive quarantine notifications. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
          빈 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for user imperation detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
   
@@ -226,7 +226,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
+       - **메시지 Quarantine the message:** If you select this action, an **Apply quarantine policy** box where you select the quarantine policy that applies to messages that are quarantined by mailbox intelligence protection. Quarantine policies define what users are able to do to quarantined messages, and whether users receive quarantine notifications. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
          비어 있는 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for mailbox intelligence detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
 
@@ -235,7 +235,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
 
      - **메시지가 스푸핑으로** 검색된 경우 : 이 설정은 이전 페이지에서 스푸핑 **인텔리전스** 사용 을 선택한 경우만 사용할 수 있습니다. 드롭다운 목록에서 차단된 스푸핑된 보낸 사람이 보낸 메시지에 대해 다음 작업 중 하나를 선택합니다.
        - **받는 사람의 정크 메일 폴더로 메시지 이동**
-       - **메시지 검역:** 이 작업을 선택하면 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택하는 검역 정책 적용 상자가 나타납니다.  Quarantine policies define what users are able to quarantined messages. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
+       - **메시지 검역:** 이 작업을 선택하면 스푸핑 인텔리전스 보호로 검역된 메시지에 적용되는 검역 정책을 선택하는 검역 정책 적용 상자가 나타납니다.  Quarantine policies define what users are able to do to quarantined messages, and whether users receive quarantine notifications. 자세한 내용은 [격리 정책](quarantine-policies.md)을 참조하세요.
 
          빈 **Apply quarantine policy value** means the default quantine policy is used (DefaultFullAccessPolicy for spoof intelligence detections). 나중에 피싱 방지 정책을 편집하거나 설정을 볼 때 기본 검지 정책 이름이 표시됩니다.
 
@@ -280,7 +280,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
 
    기본 피싱 방지 정책의 경우 **사용자,** 그룹 및 도메인 섹션을 사용할 수 없습니다(정책은 모든 사용자에게 적용), 정책의 이름을 변경할 수 없습니다.
 
-정책을 사용하도록 설정하거나 사용하지 않도록 설정하거나 정책 우선 순위를 설정하려면 다음 섹션을 참조하세요.
+정책을 사용하거나 사용하지 않도록 설정하거나 정책 우선 순위 순서를 설정하려면 다음 섹션을 참조하세요.
 
 ### <a name="enable-or-disable-custom-anti-phishing-policies"></a>사용자 지정 피싱 방지 정책 사용 또는 사용 안 하도록 설정
 
@@ -304,7 +304,7 @@ Microsoft 365 Defender 포털에서 사용자 지정 피싱 방지 정책을 만
 
 기본적으로 피싱 방지 정책에는 만들어진 순서에 따라 우선 순위가 부여됩니다(새 정책은 이전 정책보다 우선 순위가 낮음). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
-정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이** 거나 **우선 순위를 낮춥** 니다(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
+정책의 우선 순위를 변경하려면 정책 속성에서 **우선 순위를 높이거나** **우선 순위를 낮춥니다**(Microsoft 365 Defender 포털에서 **우선 순위** 번호를 직접 수정할 수 없습니다). 정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우에만 의미가 있습니다.
 
  **참고**:
 
@@ -353,7 +353,7 @@ PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계�
 1. 피싱 방지 정책을 생성합니다.
 2. 규칙이 적용되는 피싱 방지 정책을 지정하는 피싱 방지 규칙을 생성합니다.
 
- **참고**:
+ **참고:**
 
 - 새 피싱 방지 규칙을 만들고 기존의 통합되지 않은 피싱 방지 정책을 할당할 수 있습니다. 피싱 방지 규칙은 두 개 이상의 피싱 방지 정책과 연결될 수 없습니다.
 - 정책을 만든 후까지 Microsoft 365 Defender 포털에서 사용할 수 없는 PowerShell의 새 피싱 방지 정책에 대해 다음 설정을 구성할 수 있습니다.

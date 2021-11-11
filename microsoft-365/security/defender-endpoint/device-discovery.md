@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 09492c81135c9859b683e2d042e8e4a99cc94c83
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 95f20e1e5ac3c623decb131929d3c27164f3a96b
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882180"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60908008"
 ---
 # <a name="device-discovery-overview"></a>장치 검색 개요
 
@@ -47,6 +47,12 @@ Microsoft Defender for Endpoint는 추가 어플라이언스 또는 번거로운
 - **검색된 끝점 온보드**
 
   네트워크에서 관리되지 않는 끝점은 네트워크에 취약성 및 위험을 도입합니다. 서비스를 온보더링하면 서비스에 대한 보안 가시성을 강화할 수 있습니다.
+
+
+이 비디오를 시청하여 장치 검색 방법을 간략하게 살펴 봐야 합니다.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWORdQ]
+
 
 이 기능과 함께, 기존 위협 및 취약성 관리 환경의 일부로 끝점용 Microsoft Defender에 장치를 온보딩하기 위한 새로운 보안 권장을 사용할 수 있습니다.
 

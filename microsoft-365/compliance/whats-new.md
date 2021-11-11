@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 롤아웃하는지 여부에 Microsoft 365 규정 준수 환경의 최신 기능을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2beb65d3f5d73265df72b1d052dec0d1a9c6e512
-ms.sourcegitcommit: 43adb0d91af234c34e22d450a9c1d26aa745c2ca
+ms.openlocfilehash: 694a066efa35743206aaff8a1169014a266164b8
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "60478568"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907792"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -80,7 +80,7 @@ ms.locfileid: "60478568"
 
 ### <a name="information-barriers"></a>정보 장벽
 
-- [정보 장벽 모드에](information-barriers-policies.md#step-6-information-barriers-modes-preview) 대한 정보 장벽의 새로운 미리 보기 기능 시작
+- [정보 장벽 모드에](information-barriers-policies.md#step-6-information-barriers-modes) 대한 정보 장벽의 새로운 미리 보기 기능 시작
 - [정보 장벽 Microsoft Teams](/microsoftteams/information-barriers-in-teams) 새로운 미리 보기 기능을 통해 정보 장벽
 - [정보 장벽 OneDrive](/onedrive/information-barriers) 새로운 미리 보기 기능을 통해 정보 장벽
 - [정보 장벽 모드에 SharePoint 온라인의](/sharepoint/information-barriers) 새로운 미리 보기 기능이 있는 정보 장벽
