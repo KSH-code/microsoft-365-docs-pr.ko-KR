@@ -4,8 +4,8 @@ description: 평가 모드에서 Office 365 Defender는 맬웨어와 같은 Offi
 keywords: 평가 Office 365 Microsoft Defender for Office 365, office 365 평가, office 365, Microsoft Defender, 끝점용 Microsoft Defender 평가
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: 04/21/2021
 audience: ITPro
@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6baa78512b102bae74a242e243c2e4ac023aa4f2
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 7ba60d7b9f677c653bb2d57760989aeb18a4a1e6
+ms.sourcegitcommit: 6dbf879f769a825ed7039363f3a91d676e355ee0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60149599"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60940551"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 
@@ -46,11 +46,11 @@ Microsoft Defender for Office 365 지원하는 라이선스가 없는 경우 [�
 
 평가 모드에서 Office 365 Defender는 맬웨어와 같은 Office 365 기록하지만 메시지에 대해 행동하지 않는 전자 메일 정책에 대한 Defender를 만듭니다. MX 레코드 구성을 변경할 필요는 없습니다.
 
-평가 모드에서는 금고 [,](safe-attachments.md)금고 [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [링크](safe-links.md)및 사서함 인텔리전스 기반 가장 정책이 사용자 대신 설정됩니다. 모든 Office 365 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
+평가 모드에서는 금고 [첨부](safe-attachments.md) [파일,](safe-links.md)금고 링크 및 [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 사서함 인텔리전스를 대신하여 설정됩니다. 모든 Office 365 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
 
-설치의 일부로 평가 모드는 커넥터에 대한 향상된 [필터링도 구성합니다.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 그렇지 않으면 메일이 ESG(전자 메일 보안 게이트웨이)를 통과할 때 전자 메일 주소 및 보낸 사람 정보가 Office 365. 또한 커넥터에 대한 향상된 필터링은 기존 EOP(스팸 방지) Exchange Online Protection 및 피싱 방지 정책에 대한 필터링 정확도를 향상시킵니다.
+또한 설치의 일부로 평가 모드는 커넥터에 대한 향상된 필터링(목록 건너뛰기라고도 _알려)을 구성합니다._ [](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 그렇지 않으면 메일이 ESG(전자 메일 보안 게이트웨이)를 통과할 때 전자 메일 주소 및 보낸 사람 정보가 Office 365. 또한 커넥터에 대한 향상된 필터링은 기존 EOP(스팸 방지) Exchange Online Protection 및 피싱 방지 정책에 대한 필터링 정확도를 향상시킵니다.
 
-향상된 커넥터 필터링은 필터링 정확도를 향상시킵니다. 그러나 현재 EOP 필터링을 무시하지 않는 ESG가 Office 365 ESG가 있는 경우 특정 메시지에 대한 배달성이 변경될 수 있습니다. 영향은 EOP 정책으로 제한됩니다. 평가의 일부로 Office 365 정책에 대한 Defender가 적용되지 않은 모드로 만들어집니다. 잠재적인 프로덕션 영향을 최소화하기 위해 메일 흐름 규칙(전송 규칙)을 만들어 메시지의 SCL(스팸 지수)을 -1로 설정하여 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 Use mail flow rules to set the spam confidence level (SCL) in messages in Exchange Online을](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)   참조하세요.
+향상된 커넥터 필터링은 필터링 정확도를 향상시킵니다. 그러나 현재 EOP 필터링을 무시하지 않는 ESG가 Office 365 ESG가 있는 경우 특정 메시지에 대한 배달성이 변경될 수 있습니다. 영향은 EOP 정책으로 제한됩니다. 평가의 일부로 Office 365 정책에 대한 Defender가 적용되지 않은 모드로 만들어집니다. 잠재적인 프로덕션 영향을 최소화하기 위해 메일 흐름 규칙(전송 규칙)을 만들어 메시지의 SCL(스팸 지수)을 -1로 설정하여 대부분의 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 Use mail flow rules to set the spam confidence level (SCL) in messages in Exchange Online을](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)   참조하세요.
 
 평가 모드를 설정하면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일 보내기, 검지). 보고서는 모든 Defender 및 EOP Office 365 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 주문형 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 탐색기를 사용하여 심층 검색 메시지를 만들 수 있습니다.
 
@@ -91,6 +91,10 @@ Microsoft Defender for Office 365 평가판 라이선스를 얻기 위해  청�
 
 다음 역할이 필요합니다.
 
+<br>
+
+****
+
 |작업|역할(Exchange Online)|
 |---|---|
 |무료 평가판을 다운로드하거나 Microsoft Defender for Office 365 구입(계획 2)|청구 관리자 역할 또는 전역 관리자 역할|
@@ -100,11 +104,11 @@ Microsoft Defender for Office 365 평가판 라이선스를 얻기 위해  청�
 |평가 보고서 보기|보안 관리자 역할 또는 보안 읽기 관리자 역할|
 |
 
-### <a name="enhanced-filtering"></a>향상된 필터링
+### <a name="enhanced-filtering-for-connectors"></a>커넥터에 대한 향상된 필터링
 
-대량 Exchange Online Protection 스팸 방지와 같은 정책은 동일하게 유지됩니다. 그러나 이 평가에서는 커넥터에 대한 향상된 필터링이 설정되어 우회하지 않는 한 메일 흐름 및 Exchange Online Protection 정책에 영향을 줄 수 있습니다.
+대량 Exchange Online Protection 스팸 방지와 같은 정책은 동일하게 유지됩니다. 그러나 이 평가에서는 커넥터에 대한 향상된 필터링이 켜지며, 이 필터링은 무시하지 않는 한 메일 흐름 및 Exchange Online Protection 정책에 영향을 줄 수 있습니다.
 
-커넥터에 대한 향상된 필터링을 통해 테넌트는 스푸핑 방지 보호 기능을 사용할 수 있습니다. ESG(전자 메일 보안 게이트웨이)를 사용하는 경우 커넥터에 대한 향상된 필터링을 설정하지 않은 경우 스푸핑 방지가 지원되지 않습니다.
+커넥터에 대한 향상된 필터링을 통해 테넌트는 스푸핑 방지 보호를 사용할 수 있습니다. ESG(전자 메일 보안 게이트웨이)를 사용하는 경우 커넥터에 대한 향상된 필터링을 설정하지 않은 경우 스푸핑 방지가 지원되지 않습니다.
 
 ### <a name="urls"></a>URL
 
@@ -114,7 +118,7 @@ Microsoft Defender for Office 365 평가판 라이선스를 얻기 위해  청�
 
 ### <a name="email-routing"></a>전자 메일 라우팅
 
-메일을 라우팅하는 인바운드 커넥터의 이름을 포함하여 전자 메일이 현재 라우팅되는 방법을 설정하는 데 필요한 해당 세부 정보를 준비합니다. 이 두 가지 Exchange Online Protection 사용하는 경우 커넥터가 없습니다.  [메일 흐름 및 전자 메일 라우팅에 대해 자세히](/office365/servicedescriptions/exchange-online-service-description/mail-flow)
+메일을 라우팅하는 인바운드 커넥터의 이름을 포함하여 전자 메일이 현재 라우팅되는 방법을 설정하는 데 필요한 해당 세부 정보를 준비합니다. 이 두 가지 Exchange Online Protection 사용하는 경우 커넥터가 없습니다. [ 메일 흐름 및 전자 메일 라우팅에 대해 자세히](/office365/servicedescriptions/exchange-online-service-description/mail-flow)
 
 지원되는 전자 메일 라우팅 시나리오는 다음과 같습니다.
 
@@ -133,7 +137,7 @@ Microsoft Defender for Office 365 평가판 라이선스를 얻기 위해  청�
 - Proofpoint
 - 소포스
 - Symantec
-- 추세 마이크로
+- 추세 Micro
 
 ### <a name="scoping"></a>겹치기
 

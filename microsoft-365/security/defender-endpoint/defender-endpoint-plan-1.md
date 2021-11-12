@@ -9,17 +9,17 @@ audience: ITPro
 ms.topic: overview
 ms.date: 10/29/2021
 ms.prod: m365-security
-ms.technology: mdep1
+ms.technology: mde
 ms.localizationpriority: medium
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 4881d1ca4d8b6ca12dbb7c6c273328e515a503ac
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: e49ab3b0cfcdf32bd152b7f2a8cc2b3dd7986665
+ms.sourcegitcommit: 6dbf879f769a825ed7039363f3a91d676e355ee0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60704879"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60940563"
 ---
 # <a name="overview-of-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 개요(미리 보기)
 

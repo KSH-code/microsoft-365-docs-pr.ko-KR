@@ -9,17 +9,17 @@ audience: ITPro
 ms.topic: overview
 ms.date: 10/01/2021
 ms.prod: m365-security
-ms.technology: mdep1
+ms.technology: mde
 ms.localizationpriority: medium
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ceda29b0e4ad17cfd9a6d9ad43a42f0ee31323ea
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 26dbdfa70e05e3c8bb055fa1d18b056ee798c132
+ms.sourcegitcommit: 6dbf879f769a825ed7039363f3a91d676e355ee0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205330"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60940575"
 ---
 # <a name="set-up-and-configure-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1에 대한 Microsoft Defender 설정 및 구성(미리 보기)
 
@@ -40,7 +40,7 @@ Endpoint Plan 1(미리 보기)에 대한 일반적인 설치 및 구성 프로�
 | 1 | [요구 사항 검토](#review-the-requirements)  | 라이선스, 브라우저, 운영 체제 및 데이터 센터 요구 사항 나열   |
 | 2 | [배포 계획](#plan-your-deployment) | 고려할 여러 배포 방법을 나열하고 사용할 방법을 결정하는 데 도움이 되는 추가 리소스에 대한 링크를 포함합니다.  |
 | 3  | [테넌트 환경 설정](#set-up-your-tenant-environment) | 테넌트 환경 설정에 대한 작업 나열 |
-| 4  | [역할 및 사용 권한 할당](#assign-roles-and-permissions) | 보안 팀에 대해 고려할 역할 및 사용 권한 나열 <br/><br/>**팁:** 역할 및 사용 권한이 할당되는 즉시 보안 팀이 보안 포털을 사용하여 시작할 Microsoft 365 Defender 있습니다. 자세한 내용은 [시작을 참조합니다.](mde-plan1-getting-started.md) |
+| 4 | [역할 및 사용 권한 할당](#assign-roles-and-permissions) | 보안 팀에 대해 고려할 역할 및 사용 권한 나열 <br/><br/>**팁:** 역할 및 사용 권한이 할당되는 즉시 보안 팀이 보안 포털을 사용하여 시작할 Microsoft 365 Defender 있습니다. 자세한 내용은 [시작을 참조합니다.](mde-plan1-getting-started.md) |
 | 5 | [끝점용 Defender에 온보딩](#onboard-to-defender-for-endpoint) | Endpoint Plan 1용 Defender에 온보딩할 운영 체제의 여러 방법을 나열하고 각 방법에 대한 자세한 정보에 대한 링크를 포함합니다.  |
 | 6  | [차세대 보호 구성](#configure-next-generation-protection) | 2013에서 차세대 보호 설정을 구성하는 Microsoft Endpoint Manager  |
 | 7  | [공격 표면 감소 기능 구성](#configure-your-attack-surface-reduction-capabilities)        | 구성할 수 있는 공격 표면 감소 기능 유형을 나열하고 추가 리소스에 대한 링크가 포함된 절차를 포함합니다.  |
@@ -170,7 +170,7 @@ Microsoft 365 Defender 포털에 액세스하거나 끝점에 대한 Defender �
 
 2. 끝점 **보안 공격 표면**  >  **감소**+ 정책  >  **만들기 를 선택 합니다.**
 
-3. **플랫폼에서** 에 대해 Windows 10 **이상을 선택합니다.**
+3. **플랫폼** 에 대해 **Windows 10 이상** 을 선택합니다.
 
 4. 프로필에서 공격 **표면 감소 규칙을 선택한** 다음 만들기 를 **선택합니다.** 
 
@@ -236,7 +236,7 @@ Microsoft 365 Defender 포털에 액세스하거나 끝점에 대한 Defender �
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다. 
 
-2. 장치 **구성**  >  **프로필 프로필**  >  **만들기를 선택합니다.**
+2. **디바이스 구성** > **구성 프로필** > **프로필 만들기** 를 선택합니다.
 
 3. **플랫폼의** 경우 Windows 10 이상을 선택하고 프로필 유형 **에** **대해** 템플릿 **을 선택합니다.** 
 
@@ -269,7 +269,7 @@ Microsoft 365 Defender 포털에 액세스하거나 끝점에 대한 Defender �
 
 1. Microsoft Endpoint Manager 관리 센터()로 이동하여 [https://endpoint.microsoft.com](https://endpoint.microsoft.com) 로그인합니다. 
 
-2. 장치 **구성**  >  **프로필 프로필**  >  **만들기를 선택합니다.**
+2. **디바이스 구성** > **구성 프로필** > **프로필 만들기** 를 선택합니다.
 
 3. **플랫폼의** 경우 Windows 10 이상을 선택하고 프로필 유형 **에** **대해** 템플릿 **을 선택합니다.** 
 
@@ -393,7 +393,7 @@ Microsoft 365 Defender 포털에 액세스하거나 끝점에 대한 Defender �
 
 ### <a name="application-control"></a>응용 프로그램 제어
 
-Windows Defender WDAC(응용 프로그램 제어)는 신뢰할 수 있는 응용 프로그램 및 프로세스만 Windows 끝점을 보호하는 데 도움이 됩니다. 대부분의 조직에서는 WDAC의 단계적 배포를 사용했습니다. 즉, 대부분의 조직에서는 처음에 모든 끝점에서 WDAC를 Windows 않습니다. 실제로 조직의 Windows 끝점이 완전히 관리되고, 약간 관리되는지 또는 "장치 가져오기" 끝점인지에 따라 모든 끝점 또는 일부 끝점에 WDAC를 배포할 수 있습니다.
+Windows Defender 응용 프로그램 제어(WDAC)를 사용하면 신뢰할 수 있는 응용 Windows 프로세스만 실행할 수 있도록 하여 끝점을 보호할 수 있습니다. 대부분의 조직에서는 WDAC의 단계적 배포를 사용했습니다. 즉, 대부분의 조직에서는 처음에 모든 끝점에서 WDAC를 Windows 않습니다. 실제로 조직의 Windows 끝점이 완전히 관리되고, 약간 관리되는지 또는 "장치 가져오기" 끝점인지에 따라 모든 끝점 또는 일부 끝점에 WDAC를 배포할 수 있습니다.
 
 WDAC 배포 계획을 지원하기 위해 다음 리소스를 참조합니다.
 
@@ -401,7 +401,7 @@ WDAC 배포 계획을 지원하기 위해 다음 리소스를 참조합니다.
 
 - [Windows Defender 응용 프로그램 제어 정책 디자인 결정](/windows/security/threat-protection/windows-defender-application-control/understand-windows-defender-application-control-policy-design-decisions)
 
-- [Windows Defender 다양한 시나리오에서 응용 프로그램 제어 배포: 장치 유형](/windows/security/threat-protection/windows-defender-application-control/types-of-devices)
+- [Windows Defender 응용 프로그램 제어 배포: 장치 유형](/windows/security/threat-protection/windows-defender-application-control/types-of-devices)
 
 ## <a name="next-steps"></a>다음 단계
 

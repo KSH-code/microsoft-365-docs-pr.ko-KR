@@ -9,17 +9,17 @@ audience: ITPro
 ms.topic: overview
 ms.date: 10/01/2021
 ms.prod: m365-security
-ms.technology: mdep1
+ms.technology: mde
 ms.localizationpriority: medium
 ms.reviewer: inbadian
 f1.keywords: NOCSH
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 9946482f9ce5ac268255acd43f7929710a8a9bbd
-ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
+ms.openlocfilehash: 27dcbdde1d52a8a6b072cb1f15cfe2a62d558278
+ms.sourcegitcommit: 6dbf879f769a825ed7039363f3a91d676e355ee0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60724670"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60940594"
 ---
 # <a name="get-started-with-microsoft-defender-for-endpoint-plan-1-preview"></a>끝점 계획 1용 Microsoft Defender 시작(미리 보기)
 
@@ -64,7 +64,7 @@ Microsoft 365 Defender 포털()에서는 알림을 보고, 장치를 관리하�
 | **인시던트 & 경고** | 인시던트 및 **경고를 표시하기** 위해 **확장됩니다.** |
 | **인시던트 & 경고**  >  **인시던트** | 인시던트 **목록으로** 이동합니다. 경고가 트리거되고 위협이 감지되면 인시던트가 생성됩니다. 기본적으로 인시던트 목록에는 지난 30일간의 데이터가 표시되고 가장 최근 인시던트가 먼저 나열됩니다.  <br/><br/> 자세한 내용은 인시던트 [를 참조합니다.](view-incidents-queue.md) |
 | **인시던트 & 경고**  >  **경고** | 경고 **목록(경고** 큐라고도 **지칭)으로 이동합니다.** 의심스러우거나 악의적인 파일, 프로세스 또는 동작이 감지되면 경고가 트리거됩니다. 기본적으로 경고 **목록에는** 지난 30일간의 데이터가 표시되고 가장 최근 경고가 먼저 나열됩니다. <br/><br/> 자세한 내용은 [경고를 참조합니다.](alerts-queue.md) |
-| **알림 센터** | 재구성 및 수동 응답 작업을 추적하는 관리 센터로 이동합니다. 동작 센터는 다음 작업을 추적합니다. <br/>- Microsoft Defender 바이러스 백신 파일이 발생하는 경우 해당 파일을 차단/제거합니다. <br/>- 보안 팀이 장치를 격리합니다.<br/>- Endpoint용 Defender가 파일을 검색하고 검사합니다. <br/><br/> 자세한 내용은 Action [Center를 참조합니다.](auto-investigation-action-center.md) |
+| **Action Center** | 재구성 및 수동 응답 작업을 추적하는 관리 센터로 이동합니다. 동작 센터는 다음 작업을 추적합니다. <br/>- Microsoft Defender 바이러스 백신 파일이 발생하는 경우 해당 파일을 차단/제거합니다. <br/>- 보안 팀이 장치를 격리합니다.<br/>- Endpoint용 Defender가 파일을 검색하고 검사합니다. <br/><br/> 자세한 내용은 Action [Center를 참조합니다.](auto-investigation-action-center.md) |
 | **보안 점수** | 개선 작업 및 메트릭 목록과 함께 조직의 보안 자세에 대한 표현을 표시합니다. <br/><br/> 자세한 내용은 [Microsoft 보안 점수를 참조합니다.](../defender/microsoft-secure-score.md) |
 | **Learning 허브** | 보안 기능에 대해 자세히 알아보기 위해 액세스할 수 있는 학습 경로 Microsoft 365 탐색합니다.  |
 | **끝점**  >  **검색** | 장치 이름으로 특정 장치를 검색할 수 있는 페이지로 이동합니다. 결과 목록에서 위험 수준 및 상태와 같은 세부 정보를 한눈에 볼 수 있습니다. |

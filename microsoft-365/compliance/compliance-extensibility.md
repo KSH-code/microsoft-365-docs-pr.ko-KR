@@ -20,12 +20,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 타사 데이터 커넥터 및 Microsoft Microsoft 365 API를 사용하여 규정 준수 솔루션을 확장하는 Graph 대해 자세히 알아보십시오.
-ms.openlocfilehash: 04bffeb43a001ab94ffb96504b64ffbf4bf566c5
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 0957cb0f874964740697516a1cd8a37a2f8dca27
+ms.sourcegitcommit: 6dbf879f769a825ed7039363f3a91d676e355ee0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555371"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60940737"
 ---
 # <a name="microsoft-365-compliance-extensibility"></a>Microsoft 365 규정 준수 extensibility
 
@@ -49,7 +49,7 @@ Microsoft는 Microsoft에서 구성할 수 있는 타사 데이터 커넥터를 
 
 Microsoft 파트너 중 하나에서 Microsoft 365 규정 준수 센터 데이터 커넥터의 경우 조직에서 파트너와의 비즈니스 관계가 필요한 경우 커넥터를 배포할 수 있습니다.
 
-타사 데이터 커넥터에 대한 라이선스 요구 사항은 준수 라이선싱 비교 문서의 [Microsoft 365 있습니다.](/office365/servicedescriptions/downloads/microsoft-365-compliance-licensing-comparison.xlsx)
+타사 데이터 커넥터에 대한 라이선스 요구 사항은 보안 및 준수에 대한 Microsoft 365 라이선싱 지침의 "데이터 커넥터" [& 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#data-connectors)
 
 ## <a name="apis"></a>API
 
@@ -83,7 +83,7 @@ DLP에 대한 라이선스 요구 사항에 Teams 보안 Microsoft 365 규정 �
 
 [조직은](overview-ediscovery-20.md)Advanced eDiscovery 사용하여 데이터가 있는 데이터를 검색하고 지능형 기계 학습 및 분석 기능이 있는 더 많은 엔드-엔드 eDiscovery 워크플로를 관리하여 데이터가 관련 집합에 대한 데이터만 Microsoft 365 보안 및 규정 준수 경계 내에 유지될 수 있습니다.
 
-Graph 비즈니스용 API를 Advanced eDiscovery 및 관리하고, 검토 집합을 검토하고, 확장 가능하고 반복 가능한 방식으로 집합 쿼리를 검토하는 데 사용할 수 있습니다. 이를 통해 고객과 파트너는 사례 만들기, 보유자 및 법적 보유 관리와 같은 일반 및 반복 프로세스를 자동화하는 앱 및 워크플로를 만들 수 있습니다.
+Graph API를 Advanced eDiscovery 사례를 만들고 관리하고, 검토 집합을 검토하고, 확장 가능하고 반복 가능한 방식으로 집합 쿼리를 검토하는 데 사용할 수 있습니다. 이를 통해 고객과 파트너는 사례 만들기, 보유자 및 법적 보유 관리와 같은 일반 및 반복 프로세스를 자동화하는 앱 및 워크플로를 만들 수 있습니다.
 
 eDiscovery용 Graph API의 첫 번째 집합은 공개 미리 보기에서 사용할 수 있습니다. 연말까지 더 많은 기능을 추가할 계획입니다. 이러한 API 및 기타 업데이트에 대한 자세한 내용은 이 Advanced eDiscovery 를 [참조하세요.](https://aka.ms/Ignite2020AeDAA)
 
@@ -91,11 +91,10 @@ Advanced eDiscovery API에 대한 라이선스 요구 사항에 대한 자세한
 
 ### <a name="microsoft-graph-api-for-teams-export"></a>Microsoft Graph 내보내기용 Microsoft Teams API
 
-Enterprise 고객용 EIA(Microsoft Teams 보관)는 고객이 규정 요구 사항을 해결할 수 있도록 하는 주요 시나리오입니다. 고객 및 파트너는 Microsoft Teams 콘텐츠를 보관하는 기본 제공 기능 외에도 사용자 지정 응용 프로그램 Teams 통합 시나리오를 위해 API 내보내기 기능을 사용할 수 있습니다. 이 Teams 내보내기 API는 메시지 및 메시지 첨부 파일로 대량 내보내기(앱/테넌트당 최대 200개Teams 수 있습니다. 삭제된 메시지는 API에서 삭제된 후 최대 30일 동안 액세스할 수도 있습니다. 이러한 API 내보내기 Teams 및 응용 프로그램에서 사용하는 방법에 대한 자세한 내용은 Api 내보내기 에서 콘텐츠 [Microsoft Teams 참조하세요.](/microsoftteams/export-teams-content)
+Enterprise EIA(Microsoft Teams 보관)는 고객이 규정 요구 사항을 해결할 수 있도록 하는 주요 시나리오입니다. 고객 및 파트너는 Microsoft Teams 콘텐츠를 보관하는 기본 제공 기능 외에도 사용자 지정 응용 프로그램 Teams 통합 시나리오를 위해 API 내보내기 기능을 사용할 수 있습니다. 이 Teams 내보내기 API는 메시지 및 메시지 첨부 파일로 대량 내보내기(앱/테넌트당 최대 200개Teams 수 있습니다. 삭제된 메시지는 API에서 삭제된 후 최대 30일 동안 액세스할 수도 있습니다. 이러한 API 내보내기 Teams 및 응용 프로그램에서 사용하는 방법에 대한 자세한 내용은 Api 내보내기 에서 콘텐츠 [Microsoft Teams 참조하세요.](/microsoftteams/export-teams-content)
 
 Teams API를 사용하기 위한 라이선스 요구 사항은 Microsoft 365 규정 준수에 대한 Microsoft 365 [라이선스 지침을 & 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ### <a name="microsoft-graph-connector-apis-preview"></a>Microsoft Graph 커넥터 API(미리 보기)
 
 [Microsoft Graph](/microsoftsearch/connectors-overview)커넥터를 사용하여 조직은 타사 데이터를 인덱싱하여 모든 결과에 표시될 Microsoft Search 있습니다. 이 기능은 생산성 앱 및 더 광범위한 Microsoft 에코시스템에서 Microsoft 365 콘텐츠 원본 유형을 확장합니다. 타사 데이터는 사내 또는 공용 또는 사설 클라우드에서 호스팅할 수 있습니다. 이 Advanced eDiscovery 시작으로 연결된 앱의 기본 제공 준수 값에 대한 개발자 미리 보기를 Microsoft 365 있습니다. 이렇게 하면 앱에 대한 규정 준수가 Microsoft 365 에코시스템에 통합되어 원활한 규정 준수 환경을 사용자에게 부여할 수 있습니다. 앱 보기에 Microsoft Graph 커넥터 API를 통합하는 방법에 대한 자세한 내용은 Microsoft Graph에서 연결 만들기, 업데이트 및 [삭제를 참조하세요.](/graph/search-index-manage-connections)
-

@@ -271,6 +271,7 @@
 #### [공격 표면 감소 기능 구성](configure-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙에 대한 자세한 정보](attack-surface-reduction.md)
 #### [공격 표면 감소 규칙](attack-surface-reduction-rules.md)
+#### [공격 표면 감소 규칙 배포](attack-surface-reduction-rules-deployment.md)
 #### [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙 사용자 지정](customize-attack-surface-reduction.md)
