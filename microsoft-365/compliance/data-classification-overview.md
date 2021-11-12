@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 중요한 데이터를 얼마나 많이 찾고 분류했는지 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: 2e9d9a2581a5a2dd94dbfa32e3105486999f4b6b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 67ceb75fd5062e422121588f7830fcd389202cb5
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60153129"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914539"
 ---
 # <a name="learn-about-data-classification"></a>데이터 분류에 대한 자세한 정보
 
@@ -39,7 +39,7 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 
 - [학습 가능한 분류자](classifier-learn-about.md)
 - [중요한 정보 유형](sensitive-information-type-learn-about.md)
-- [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+- [정확한 데이터 일치 기반 중요한 정보 유형에 대해 알아보기](sit-learn-about-exact-data-match-based-sits.md#learn-about-exact-data-match-based-sensitive-information-types)
 - [콘텐츠 탐색기](data-classification-content-explorer.md)
 - [활동 탐색기](data-classification-activity-explorer.md)
 

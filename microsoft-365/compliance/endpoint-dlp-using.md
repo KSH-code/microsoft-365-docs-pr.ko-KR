@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 898acf4e74f6aadb79bf5dfb7e3fc751d6286ecb
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: b354e578c40845a89b7bb837854f6dd7fa5bb4d3
+ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792391"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60907804"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -54,6 +54,12 @@ ms.locfileid: "60792391"
 고급 분류에서 콘텐츠는 스캔 및 분류를 위해 로컬 장치에서 클라우드 서비스로 전송됩니다. 대역폭 사용이 우려되는 경우 24시간 동안 사용할 수 있는 양에 대해 장치별로 적용되는 이 전역 설정에서 제한을 설정할 수 있습니다. 대역폭 사용 제한을 설정하고 이를 초과하면 DLP가 사용자 콘텐츠를 클라우드로 보내는 것을 중지하고 데이터 분류가 장치에서 로컬로 계속됩니다. 누적 대역폭 사용률이 롤링 24시간 제한 아래로 떨어지면 클라우드 서비스와의 통신이 다시 시작됩니다.
 
 대역폭 사용률이 문제가 되지 않는 경우 제한을 설정하고 무제한 사용을 허용할 수 없습니다.
+
+이러한 Windows 버전은 고급 분류 검사 및 보호를 지원합니다.
+
+- Windows 10 버전 20H1/20H2/21H1(KB 5006738)
+- Windows 10 버전 19H1/19H2(KB 5007189)
+- RS5 Windows 10(KB 5006744)
 
 > [!NOTE]
 > DLP 정책 평가는 사용자 콘텐츠가 전송되지 않는 경우에도 항상 클라우드에서 발생합니다.

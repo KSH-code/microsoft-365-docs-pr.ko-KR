@@ -124,6 +124,8 @@
           items:
             - name: 중요한 정보 유형에 대해 자세히 알아보기
               href: sensitive-information-type-learn-about.md
+            - name: 정확한 데이터 일치 기반 중요한 정보 유형에 대해 알아보기
+              href: sit-learn-about-exact-data-match-based-sits.md
             - name: 문서 지문
               href: document-fingerprinting.md
             - name: 명명된 엔터티에 대해 알아보기(미리 보기)
@@ -132,14 +134,22 @@
           items:
             - name: 사용자 지정 중요한 정보 유형 시작 - 준수 센터
               href: create-a-custom-sensitive-information-type.md
+            - name: 정확한 데이터 일치 기반 중요한 정보 유형 시작
+              href: sit-get-started-exact-data-match-based-sits-overview.md
+            - name: 정확한 데이터 일치 기반 중요한 정보 유형에 대한 원본 데이터 내보내기
+              href: sit-get-started-exact-data-match-export-data.md
+            - name: 정확한 데이터 일치 기반 중요한 정보 유형에 대한 스키마 만들기
+              href: sit-get-started-exact-data-match-create-schema.md
+            - name: 정확한 데이터 일치 기반 중요한 정보 유형에 대해 중요한 정보 원본 테이블을 해시하고 업로드합니다.
+              href: sit-get-started-exact-data-match-hash-upload.md
+            - name: 정확한 데이터 일치 중요한 정보 유형/규칙 패키지 만들기
+              href: sit-get-started-exact-data-match-create-rule-package.md
+            - name: 정확한 데이터 일치 중요한 정보 유형 테스트
+              href: sit-get-started-exact-data-match-test.md
         - name: 중요한 정보 유형 사용
           items:
             - name: 기본 제공 중요한 정보 유형 사용자 지정
               href: customize-a-built-in-sensitive-information-type.md
-            - name: 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-              href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-            - name: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사 사용
-              href: sit-edm-wizard.md
             - name: 구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
               href: sit-modify-edm-schema-configurable-match.md
             - name: 정확한 데이터 일치 활동에 대한 알림 만들기(미리 보기)
@@ -154,6 +164,10 @@
               href: create-a-keyword-dictionary.md
             - name: 키워드 사전 수정
               href: sit-modify-keyword-dictionary.md
+            - name: 정확한 데이터 일치 스키마 관리
+              href: sit-use-exact-data-manage-schema.md
+            - name: 중요한 정보 원본 테이블 파일 새로 고침
+              href: sit-use-exact-data-refresh-data.md
             - name: 데이터 손실 방지 정책에서 명명된 엔터티 사용(미리 보기)
               href: named-entities-use.md
         - name: 중요한 정보 유형 참조

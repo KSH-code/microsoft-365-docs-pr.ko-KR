@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 구성 가능한 일치를 사용하도록 EDM 스키마를 수정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 40f7ef0f538fd79c0e8ff44de32a4bdd72254f7a
-ms.sourcegitcommit: 854f20e8b7d3ef8f4c14cf189560f76056552334
+ms.openlocfilehash: f41dee9b1ca13f319e5dc05fc5f7512bd98a5186
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60825554"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914467"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
 
@@ -130,7 +130,7 @@ EDM(정확한 데이터 일치) 기반 분류를 사용하면 중요한 정보 �
 
 ## <a name="related-articles"></a>관련 문서
 
-- [분류에 기반한 정확한 데이터 일치를 사용한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+- [정확한 데이터 일치 기반 중요한 정보 유형에 대해 알아보기](sit-learn-about-exact-data-match-based-sits.md#learn-about-exact-data-match-based-sensitive-information-types)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [사용자 지정 중요한 정보 유형](./sensitive-information-type-learn-about.md)
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 2574ad8c9a42c5646bda770a0c5a310548ddc88e
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 8d45308bc9bb4562cc82417ddb8ed762d8ac65b1
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883761"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914287"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -94,7 +94,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 |조건: 전자 메일 공유 옵션 및 추가 옵션|아니요 |예 |
 |조건: 예외|아니요 |예(전자 메일만 해당) |
 |권장 사항, 정책 도구 설명 및 사용자 재정의|예 |아니요 |
-|시뮬레이션 모드|아니오 |예 |
+|시뮬레이션 모드|아니요 |예 |
 |조건이 확인된 Exchange 첨부 파일|아니요 | 예|
 |시각적 표시 적용 |예 |예(전자 메일만 해당) |
 |레이블 없이 적용된 IRM 암호화 재정의|예(사용자에게 내보내기의 최소 사용 권한이 있는 경우) |예(전자 메일만 해당) |
@@ -151,7 +151,7 @@ DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 일치 정확
 
 #### <a name="custom-sensitive-information-types-with-exact-data-match"></a>정확한 데이터 일치가 포함된 사용자 지정 중요한 정보 유형
 
-사용자 지정 중요한 정보 유형에 대해 [정확한 데이터 일치(EDM) 기반 분류](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)를 사용하도록 민감도 레이블을 구성할 수 있습니다. 그러나 현재로서는 EDM을 사용하지 않는 중요한 정보 유형도 하나 이상 지정해야 합니다. 예를 들어 **신용카드 번호** 와 같은 기본 제공 중요한 정보 유형 중 하나입니다.
+사용자 지정 중요한 정보 유형에 대해[정확한 데이터 일치 기반 중요한 정보 유형](sit-learn-about-exact-data-match-based-sits.md#learn-about-exact-data-match-based-sensitive-information-types)을 사용하도록 민감도 레이블을 구성할 수 있습니다. 그러나 현재로서는 EDM을 사용하지 않는 중요한 정보 유형도 하나 이상 지정해야 합니다. 예를 들어 **신용카드 번호** 와 같은 기본 제공 중요한 정보 유형 중 하나입니다.
 
 중요한 정보 유형 조건에 대해 EDM만 사용하여 민감도 레이블을 구성하면 레이블에 대한 자동 레이블 설정이 자동으로 꺼집니다.
 

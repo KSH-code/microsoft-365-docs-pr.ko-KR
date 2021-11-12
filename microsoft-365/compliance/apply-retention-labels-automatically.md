@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 72037127bf0b89c51a1ba73193e43646d84d4b08
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: c84add5ddc1b96d2a5ab3dfd713722522211bfa2
+ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883701"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60914587"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -181,7 +181,7 @@ SharePoint 및 OneDrive:
 
 ![중요한 정보 유형을 갖는 정책 템플릿.](../media/sensitive-info-configuration.png)
 
-중요한 정보 유형에 대한 자세한 내용은 [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조하세요. 현재 이 시나리오에서는 [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) 및 [문서 지문](document-fingerprinting.md)이 지원되지 않습니다.
+민감도도 정보 유형에 대해 자세히 알아보려면 [중요한 정보 유형에 대해 알아보기](sensitive-information-type-learn-about.md#learn-about-sensitive-information-types)를 참조하세요. 현재 이 시나리오에서는[ 중요한 정보 유형에 기반한 정확한 데이터 일치에 대해 알아보기](sit-learn-about-exact-data-match-based-sits.md#learn-about-exact-data-match-based-sensitive-information-types) 및 [문서 핑거프린팅](document-fingerprinting.md)이 지원되지 않습니다.
 
 정책 서식 파일을 선택한 후에는 모든 유형의 중요한 정보를 추가하거나 제거할 수 있으며, 신뢰 수준 및 인스턴스 수를 변경할 수 있습니다. 이전 예제 스크린샷에서는 다음과 같은 경우에만 보존 라벨이 자동으로 적용되도록 이러한 옵션이 변경되었습니다.
   
