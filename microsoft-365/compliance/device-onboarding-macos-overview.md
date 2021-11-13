@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 규정 준수 솔루션에 macOS 장치 온보드에 대해 자세히 알아보십시오.
-ms.openlocfilehash: b24fd172224e0d1f8080ddd22cb3532dce0afe2b
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: f7ff900fdbeca59a63c0acd2c2f542c6e96f367b
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792295"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950692"
 ---
 # <a name="onboard-macos-devices-into-microsoft-365-overview-preview"></a>macOS 디바이스를 Microsoft 365 개요에 온보딩(미리 보기)
 
@@ -31,9 +31,8 @@ MacOS 장치는 Intune 또는 JAMF 2013을 사용하여 Microsoft 365 준수 솔
 
 **적용 대상:**
 
-- [Microsoft 365 끝점 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
+- [Microsoft 365 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
 - [내부자 위험 관리](insider-risk-management.md#learn-about-insider-risk-management-in-microsoft-365)
-<!--- [Insider risk management](insider-risk-management.md#learn-about-insider-risk-management-in-microsoft-365)-->
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -48,6 +47,11 @@ DLP에 익숙하지 않은 경우 다음 문서도 익숙해야 합니다.
 - [DLP(데이터 손실 방지) 계획](dlp-overview-plan-for-dlp.md#plan-for-data-loss-prevention-dlp)
 - [데이터 손실 방지 정책 참조](dlp-policy-reference.md#data-loss-prevention-policy-reference)
 
+내부자 위험에 익숙하지 않은 경우 다음 문서에 익숙해야 합니다.
+
+ - [내부자 위험 관리](insider-risk-management.md#learn-about-insider-risk-management-in-microsoft-365)
+ - [내부자 위험 관리 계획](insider-risk-management-plan.md#plan-for-insider-risk-management)
+
 MacOS 장치는 Intune 또는 JAMF 2013을 통해 이미 Pro.
  
 - Intune에 등록하기 위해 배포 가이드: Microsoft Intune [MacOS](/mem/intune/fundamentals/deployment-guide-platform-macos) 장치 관리 및 mac을 등록을 [Intune 회사 포털.](/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) 
@@ -56,7 +60,7 @@ MacOS 장치는 Intune 또는 JAMF 2013을 통해 이미 Pro.
 
 ## <a name="licensing-guidance"></a>라이선싱 지침
 
-정보 [보호를 Microsoft 365 라이선스 지침을 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)
+정보 [보호에 Microsoft 365 라이선스 지침을 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection-data-loss-prevention-for-exchange-online-sharepoint-online-and-onedrive-for-business)
 
 ## <a name="activities-that-can-be-restricted-on-macos"></a>macOS에서 제한할 수 있는 활동 
 
@@ -74,17 +78,34 @@ macOS 장치가 Microsoft 365 준수 솔루션에 온보드된 후 DLP(데이터
 
 **허용되지** 않는 앱에서 액세스 - 이 작업을 적용하면 전역 설정에 정의된 허용되지 않은 앱 목록에 있는 응용 프로그램이 끝점 장치에서 보호된 파일에 액세스할 수 없습니다. 예제 시나리오 
 
+## <a name="onboarding-devices-into-device-management"></a>장치 관리에 장치 온보딩
+
+장치에서 중요한 항목을 모니터링하고 보호하려면 장치 모니터링을 사용하도록 설정하고 엔드포인트를 온보딩해야 합니다. 이러한 작업은 모두 Microsoft 365 규정 준수 포털에서 수행됩니다.
+
+아직 온보딩되지 않은 장치를 온보딩하려는 경우 적절한 스크립트를 다운로드하여 해당 장치에 배포합니다. <!--Follow the [Onboarding devices procedure](endpoint-dlp-getting-started.md#onboarding-devices).-->
+
+<!--If you already have devices onboarded into [Microsoft Defender for Endpoint](/windows/security/threat-protection/), they will already appear in the managed devices list.-->
+
+1. Microsoft 규정 [준수 센터 설정](https://compliance.microsoft.com) **열고** 장치 모니터링 **사용 을 선택합니다.**
+
+   > [!NOTE]
+   > 일반적으로 장치 온보딩이 활성화되는 데 60초 정도 소요되지만, Microsoft 지원에 연락하기 전에 30분까지 기다려보세요.
+
+2. 규정 준수 센터 설정 페이지를 열고 **장치 온보딩** 을 선택합니다.
+
+   > [!div class="mx-imgBorder"]
+   > ![장치 관리를 사용하도록 설정.](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+
 ## <a name="next-steps"></a>다음 단계
 
 DLP 센서 원격 분석 Microsoft 365 데이터 손실 방지 정책을 적용하려면 장치를 Microsoft 365 준수 솔루션으로 온보드해야 합니다. 
 
-- Intune을 통해 관리되는 macOS 장치의 경우 Intune을 사용하여 Microsoft 365 준수 솔루션으로 macOS 장치 [온보드 및 오프보드를 참조하세요.](device-onboarding-offboarding-macos-intune.md#onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-intune-preview)
-
-- Intune을 통해 관리되고 끝점용 Microsoft Defender(MDE)가 배포된 macOS 장치의 경우 끝점 고객을 위한 [Microsoft Defender용 Intune을](device-onboarding-offboarding-macos-intune-mde.md#onboard-and-offboard-macos-devices-into-compliance-solutions-using-intune-for-microsoft-defender-for-endpoint-customers-preview) 사용하여 MacOS 장치를 준수 솔루션으로 온보딩 및 오프보드(미리 보기)를 참조하세요.
-
-- JAMF 2013을 통해 관리되는 macOS 장치의 경우 jamF Pro 사용하여 macOS 장치 온보드 및 오프보드를 Microsoft 365 준수 솔루션으로 [Pro(미리 보기)를 참조하세요.](device-onboarding-offboarding-macos-jamfpro.md#onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-jamf-pro-preview)
-
-- JAMF Pro 통해 관리되고 끝점용 Microsoft Defender(MDE)가 배포된 macOS 장치의 경우 Endpoint 고객용 [Microsoft Defender용 JAMF](device-onboarding-offboarding-macos-jamfpro-mde.md#onboard-and-offboard-macos-devices-into-compliance-solutions-using-jamf-pro-for-microsoft-defender-for-endpoint-customers-preview) Pro 사용하여 MacOS 장치 온보딩 및 오프보드를 참조하세요.
+항목 | 설명
+:---|:---
+|[Intune을 사용하여 macOS 디바이스를 Microsoft 365 준수 솔루션으로 온보드 및 오프보드(미리 보기)](device-onboarding-offboarding-macos-intune.md#onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-intune-preview)|Intune을 통해 관리되는 macOS 장치의 경우
+|[엔드포인트용 Microsoft Defender 고객을 위한 Intune을 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)](device-onboarding-offboarding-macos-intune-mde.md#onboard-and-offboard-macos-devices-into-compliance-solutions-using-intune-for-microsoft-defender-for-endpoint-customers-preview) |Intune을 통해 관리되고 끝점용 Microsoft Defender(MDE)가 배포된 macOS 장치의 경우
+|[JAMF 2013을 사용하여 macOS 장치를 Microsoft 365 준수 솔루션에 Pro(미리 보기)](device-onboarding-offboarding-macos-jamfpro.md#onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-jamf-pro-preview) | JAMF 2013을 통해 관리되는 macOS Pro
+|[엔드포인트용 Microsoft Defender 고객을 위한 JAMF Pro를 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)](device-onboarding-offboarding-macos-jamfpro-mde.md#onboard-and-offboard-macos-devices-into-compliance-solutions-using-jamf-pro-for-microsoft-defender-for-endpoint-customers-preview)|JAMF Pro 관리되고 끝점용 Microsoft Defender(MDE)가 배포된 macOS 장치의 경우
 
 
 ## <a name="related-topics"></a>관련 항목

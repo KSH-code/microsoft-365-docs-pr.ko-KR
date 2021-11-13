@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 통해 파일 활동 및 보호 작업을 Google Chrome 브라우저로 확장
-ms.openlocfilehash: ff0df602e68338315becabd0c5b65f981fe4dd43
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e41343f14e799f354906361fe88f6a99dba12908
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60179190"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950668"
 ---
 # <a name="learn-about-the-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장에 대해 알아보기
 
@@ -46,7 +46,7 @@ Microsoft 규정 준수 확장을 사용하여 Windows 10을 실행하는 장치
 
 ## <a name="deployment-process"></a>배포 프로세스
 1. [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md)
-2. [Windows 10 장치용 온보딩 도구 및 방법](dlp-configure-endpoints.md)
+2. [Windows 10 장치용 온보딩 도구 및 방법](device-onboarding-overview.md)
 3. [Windows 10 장치에 확장 설치](dlp-chrome-get-started.md)
 4. 클라우드 서비스에 대한 업로드를 제한하는 [DLP 정책을 만들거나 편집](create-test-tune-dlp-policy.md)하거나 허용되지 않는 브라우저 작업으로 액세스하여 Windows 10 장치에 적용
 

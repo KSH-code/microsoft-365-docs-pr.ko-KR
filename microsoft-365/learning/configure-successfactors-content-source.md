@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: medium
 description: SAP SuccessFactors를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
-ms.openlocfilehash: fafa0d8b610c3964617015ba3d4d1b9771c9e850
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 9ea98339d1a73a6bc8c7a8e2d1588329c99bb2ca
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747272"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950764"
 ---
 # <a name="configure-sap-successfactors-as-a-content-source-for-microsoft-viva-learning"></a>SAP SuccessFactors를 콘텐츠 원본으로 Microsoft Viva Learning
 
@@ -92,7 +92,7 @@ SuccessFactors 포털에서 이러한 단계를 완료한 후 2단계에서 설�
     **회사 ID:** SuccessFactors 포털에 로그인합니다. 프로필 아이콘을 선택한 다음 버전 **표시를 설정.** 여기에서 회사 ID를 볼 수 있습니다.
 
     ![버전 표시가 선택된 프로필 설정 이미지입니다.](../media/learning/sf-3.png)
-        
+
     ![버전 설정 창의 이미지입니다.](../media/learning/sf-1.png)
 
 4. **저장을** 선택하여 에지에서 SuccessFactors 콘텐츠를 활성화합니다Microsoft Viva Learning. Viva 2013에서 콘텐츠를 사용할 수 Learning.
@@ -102,9 +102,6 @@ SuccessFactors 포털에서 이러한 단계를 완료한 후 2단계에서 설�
 
 >[!Note]
 > 조직 내의 모든 사용자는 모든 테넌트 관련 과정을 검색할 수 있지만 액세스 권한이 있는 과정에만 액세스하고 사용할 수 있습니다. 사용자별 콘텐츠 검색은 향후 릴리스될 예정입니다.
-
->[!NOTE]
->테넌트 메타데이터는 지역별 데이터 저장소에 저장되지 않는 데이터 저장소에 중앙에 저장됩니다.
 
 >[!NOTE]
 >현재 조직 내의 모든 사용자는 모든 테넌트 관련 과정을 검색할 수 있지만 액세스 권한이 있는 과정만 사용할 수 있습니다. 역할 및 사용 권한을 기반으로 하는 사용자별 콘텐츠 검색은 향후 릴리스될 예정입니다.

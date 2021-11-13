@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: medium
 description: Udemy를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
-ms.openlocfilehash: f5cbb140d2bf76fdf03eba5de0e09ad70fbf4afb
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: ea015d6ee0ec1890d56b6f40f928fe96ea44ccbc
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883901"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950584"
 ---
 # <a name="configure-udemy-as-a-content-source-for-microsoft-viva-learning"></a>Udemy를 콘텐츠 원본으로 Microsoft Viva Learning
 
@@ -80,6 +80,3 @@ ms.locfileid: "60883901"
     - **클라이언트 비밀:** 4단계에서 Udemy 포털에서 수집한 클라이언트 비밀입니다.
 
 4. **저장을** 선택하여 Udemy 콘텐츠의 활성화를 Microsoft Viva Learning. Viva 2013에서 콘텐츠를 사용할 수 있는 데 최대 24시간이 Learning.
-
->[!NOTE]
->테넌트 메타데이터는 지역별 데이터 저장소에 저장되지 않는 데이터 저장소에 중앙에 저장됩니다.

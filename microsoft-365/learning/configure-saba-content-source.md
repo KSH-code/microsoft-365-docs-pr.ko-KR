@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: medium
 description: Saba를 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
-ms.openlocfilehash: 1f8c9610d9c1e747af6e0804bbd7c133de4351cf
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: cb13822e2f4a0a2eccf31e2c03f2ac5e109dd843
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755798"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950500"
 ---
 # <a name="configure-saba-as-a-content-source-for-microsoft-viva-learning"></a>사바를 콘텐츠 원본으로 Microsoft Viva Learning
 
@@ -68,9 +68,6 @@ ms.locfileid: "60755798"
 
 > [!Note]
 > Saba Cloud 통합의 경우 호스트 URL에 sabacloud.com 도메인이 필요합니다. 다른 도메인 이름이 있는 경우 도메인 이름을 허용하기 위해 지원 티켓을 발생해야 합니다.
-
->[!NOTE]
->테넌트 메타데이터는 지역별 데이터 저장소에 저장되지 않는 데이터 저장소에 중앙에 저장됩니다.
 
 >[!NOTE]
 >현재 조직 내의 모든 사용자는 모든 테넌트 관련 과정을 검색할 수 있지만 액세스 권한이 있는 과정만 사용할 수 있습니다. 역할 및 사용 권한을 기반으로 하는 사용자별 콘텐츠 검색은 향후 릴리스될 예정입니다.

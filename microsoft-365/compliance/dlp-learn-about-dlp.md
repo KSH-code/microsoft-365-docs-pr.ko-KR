@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 데이터 손실 방지 정책 및 도구를 사용하여 Microsoft 365 보호하는 방법을 알아보고 DLP 수명 주기를 둘러보는 방법을 알아보고 있습니다.
-ms.openlocfilehash: 79029444f19db9754d4ebddf83e370b5cdac7da1
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 2552fe2482ba06fd34403fe2ff690bdf11c7bd20
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747693"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950560"
 ---
 # <a name="learn-about-data-loss-prevention"></a>데이터 손실 방지에 대해 알아보기
 
@@ -38,7 +38,7 @@ Microsoft 365 단순한 텍스트 검색이 아니라 심층 콘텐츠 분석을
 
 ## <a name="dlp-is-part-of-the-larger-microsoft-365-compliance-offering"></a>DLP는 더 큰 Microsoft 365 규정 준수 제공의 일부입니다.
 
-Microsoft 365 DLP는 거주하거나 여행하는 모든 Microsoft 365 보호하는 데 사용할 수 있는 규정 준수 도구 중 하나에 불과합니다. 규정 준수 도구 집합의 다른 도구와 Microsoft 365 상호 연결하고 함께 작업하는 방법을 이해해야 합니다.  정보 보호 [Microsoft 365 대한 자세한](protect-information.md) 내용은 준수 도구를 참조하세요.
+Microsoft 365 DLP는 거주하거나 출장하는 모든 중요한 항목을 보호하는 데 사용할 Microsoft 365 규정 준수 도구 중 하나에 불과합니다. 규정 준수 도구 집합의 다른 도구와 Microsoft 365 상호 연결하고 함께 작업하는 방법을 이해해야 합니다.  정보 보호 [Microsoft 365 대한 자세한](protect-information.md) 내용은 준수 도구를 참조하세요.
 
 ## <a name="protective-actions-of-dlp-policies"></a>DLP 정책의 보호 작업
 
@@ -89,7 +89,7 @@ DLP 정책은 전자 메일을 통해 중요한 정보를 부적절하게 공유
 - SharePoint Online 사이트
 - OneDrive 계정
 - Teams 채팅 및 채널 메시지
-- Microsoft 클라우드 앱 보안
+- Microsoft Cloud App Security
 - Windows 10 장치
 - 사내 리포지토리
 
@@ -156,9 +156,9 @@ DLP 정책을 만들고 구성하는 방법에는 유연성이 있습니다. 미
 4. **정책 조건이 충족되는** 경우 수행할 작업을 선택하십시오. 작업은 활동이 수행되는 위치에 따라 달라 집니다.  예를 들면 다음과 같습니다.
 
 - SharePoint/Exchange/OneDrive: 조직 외부의 사람이 콘텐츠에 액세스하는 것을 차단합니다. 사용자에게 팁을 표시하고 DLP 정책에 의해 금지된 작업을 수행하고 있는 전자 메일 알림을 전송합니다.
-- Teams 채팅 및 채널: 채팅 또는 채널에서 중요한 정보가 공유되지 못하게 차단
-- Windows 10 장치: 중요한 항목을 제거 가능한 USB 장치로 복사 감사 또는 제한
-- Office 앱: 사용자에게 위험한 동작에 참여하고 있으며 이를 차단하거나 차단하지만 이를 허용하도록 알리는 팝업을 표시하세요.
+- Teams 및 채널: 채팅 또는 채널에서 중요한 정보가 공유되지 못하게 차단
+- Windows 10 장치: 제거 가능한 USB 장치에 중요한 항목 복사 감사 또는 제한
+- Office 앱: 사용자에게 위험한 동작에 참여하고 있으며, 차단하거나 차단하지만 이를 허용하는 팝업을 표시하세요.
 - On-premises file shares: move the file from where it is stored to a quarantine folder
 
 > [!NOTE]
@@ -219,3 +219,7 @@ DLP에 대한 Microsoft 365 자세한 내용은 다음을 참조합니다.
 - [데이터 손실 방지 알림 대시보드에 대한 자세한 정보](dlp-alerts-dashboard-learn.md)
 
 데이터 손실 방지를 사용하여 데이터 개인 정보 보호 규정을 준수하는 방법에 대한 자세한 내용은 [Deploy information protection for data privacy regulations with Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy)를 참조하십시오.
+
+## <a name="licensing-and-subscriptions"></a>라이선스 및 구독
+
+DLP를 지원하는 구독에 대한 자세한 내용은 [Information Protection에](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 대한 라이선스 요구 사항을 참조하세요.

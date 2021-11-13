@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP 정책 구성 요소 및 구성 참조
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: ebf088126b89a94dbae2def79ec9dcc380627b75
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: fbd6ffa3f0e9167c98d6e950a971254e7c21a988
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702776"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950716"
 ---
 # <a name="data-loss-prevention-policy-reference"></a>데이터 손실 방지 정책 참조
 
@@ -43,7 +43,7 @@ DLP 정책 템플릿은 다음 네 가지 범주로 미리 정렬됩니다.
 
 업데이트 날짜: 2021년 6월 23일
 
-|Category| 서식 파일 | SIT |
+|범주| 서식 파일 | SIT |
 |---------|---------|---------|
 |금융| 호주 재무 데이터| - [SWIFT 코드](sensitive-information-type-entity-definitions.md#swift-code) </br> - [오스트레일리아 세금 파일 번호](sensitive-information-type-entity-definitions.md#australia-tax-file-number) </br> - [호주 은행 계좌 번호](sensitive-information-type-entity-definitions.md#australia-bank-account-number) </br> - [신용 카드 번호](sensitive-information-type-entity-definitions.md#credit-card-number)|
 |금융| 캐나다 재무 데이터 |- [신용 카드 번호](sensitive-information-type-entity-definitions.md#credit-card-number) </br> -  [캐나다 은행 계좌 번호](sensitive-information-type-entity-definitions.md#canada-bank-account-number)|
@@ -109,7 +109,7 @@ DLP 정책은 여러 위치에서 중요한 정보가 포함된 항목을 찾아
 |비즈니스용 OneDrive 계정| 계정 또는 메일 그룹 |데이터 저장 </br> 데이터 사용 중|아니요|
 |Teams 채팅 및 채널 메시지     | 계정 또는 메일 그룹 |데이터 동작 </br> 데이터 사용 중 |  아니요       |
 |Microsoft Cloud App Security(MCAS)   | 클라우드 앱 인스턴스       |데이터 저장         | - [Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용](dlp-use-policies-non-microsoft-cloud-apps.md#use-data-loss-prevention-policies-for-non-microsoft-cloud-apps)        |
-|디바이스  |사용자 또는 그룹         |데이터 저장 </br>  데이터 사용 중 </br>  데이터 동작         |- [끝점 Microsoft 365 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md#learn-about-microsoft-365-endpoint-data-loss-prevention) </br>- [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md#get-started-with-endpoint-data-loss-prevention) </br>- [끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정 구성](endpoint-dlp-configure-proxy.md#configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp)        |
+|디바이스  |사용자 또는 그룹         |데이터 저장 </br>  데이터 사용 중 </br>  데이터 동작         |- [끝점 Microsoft 365 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md#learn-about-microsoft-365-endpoint-data-loss-prevention) </br>- [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md#get-started-with-endpoint-data-loss-prevention) </br>- [정보 보호를 위한 장치 프록시 및 인터넷 연결 설정 구성](device-onboarding-configure-proxy.md#configure-device-proxy-and-internet-connection-settings-for-information-protection) |
 |사내 리포지토리(파일 공유 및 SharePoint)    |repository         | 데이터 저장         | - [데이터 손실 Microsoft 365 스캐너에 대해 자세히 알아보시고](dlp-on-premises-scanner-learn.md#learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner) </br> - [데이터 손실 방지 On-premises 스캐너 시작](dlp-on-premises-scanner-get-started.md#get-started-with-the-data-loss-prevention-on-premises-scanner)         |
 
 Exchange에서 특정 메일 그룹을 포함하도록 선택하는 경우 DLP 정책은 해당 그룹의 구성원으로만 제한됩니다. 마찬가지로 메일 그룹을 제외하면 해당 메일 그룹의 모든 구성원이 정책 평가에서 제외됩니다. 메일 그룹의 구성원, 동적 메일 그룹, 보안 그룹에 대한 정책의 범위를 선택할 수 있습니다. DLP 정책에는 50개 이하의 이러한 포함 및 제외가 포함될 수 있습니다.
@@ -130,9 +130,9 @@ DLP 정책은 중요한 항목을 SIT(중요한 정보 유형) 또는 민감도 
 |Exchange 전자 메일 보내기|예| 예|    아니요|
 |SharePoint 사이트|   예|    예|    예|
 |비즈니스용 OneDrive 계정|    예|    예|    예|
-|Teams 채팅 및 채널 메시지 |  예|    아니요| 아니요|
+|Teams 및 채널 메시지 |  예|    아니요| 아니요|
 |디바이스    |예 |  예|    아니요|
-|Microsoft 클라우드 앱 보안|  예|    예|    예|
+|Microsoft Cloud App Security|  예|    예|    예|
 |On-Premises repositories|  예|    예|    아니요|
 
 > [!NOTE]
@@ -363,7 +363,7 @@ SITS에는 필요한 경우 변경할 수 [**있는**](https://www.microsoft.com
 
 - 액세스 제한 또는 콘텐츠 암호화 위치의 Microsoft 365 암호화
 
-#### <a name="teams-chat-and-channel-messages"></a>Teams 채팅 및 채널 메시지
+#### <a name="teams-chat-and-channel-messages"></a>Teams 및 채널 메시지
 
 - 액세스 제한 또는 콘텐츠 암호화 위치의 Microsoft 365 암호화
 
@@ -451,7 +451,7 @@ for where they are used/expected behavior-->
 - Exchange
 - SharePoint
 - OneDrive
-- Teams 채팅 및 채널
+- Teams 및 채널
 - MCAS
 
 
@@ -471,7 +471,7 @@ for where they are used/expected behavior-->
 
 이러한 매개 변수를 사용하여 텍스트의 제목과 본문을 사용자 지정할 수 있습니다. 본문은 다음을 지원합니다.
 
-|일반 이름  |매개 변수  |예시
+|일반 이름  |매개 변수  |예제
 |---------|---------|---------|
 |파일 이름     |%%FileName%% | Contoso doc 1 |
 |프로세스 이름     |%%ProcessName%% | Word |

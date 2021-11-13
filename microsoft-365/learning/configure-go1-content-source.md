@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: medium
 description: Go1을 사용자용 학습 콘텐츠 원본으로 구성하는 Microsoft Viva Learning.
-ms.openlocfilehash: f327d17e1ca1095a0cceadefc5a649d2acab2f03
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 1adef6275be2a8656eaad9a7f47805d13299e3c7
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702156"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950536"
 ---
 # <a name="configure-go1-as-a-content-source-for-microsoft-viva-learning"></a>Go1을 콘텐츠 원본으로 Microsoft Viva Learning
 
@@ -65,6 +65,3 @@ Go1용 개인 개발자 앱을 만드는 [방법에 대해 자세히 알아보�
 2. 다음 **설정** **로 이동합니다.** Viva Learning 선택하고 패널에서 Go1을 사용하도록 설정합니다.
 3. Go1 포털에서 검색한 구성 세부 정보를 입력합니다.
 4. **저장을** 선택하여 Viva 2013에서 Go1 콘텐츠를 Learning. Viva 앱에 콘텐츠가 표시될 때 최대 24시간이 Learning 있습니다.
-
->[!NOTE]
->테넌트 메타데이터는 지역별 데이터 저장소에 저장되지 않는 데이터 저장소에 중앙에 저장됩니다.
