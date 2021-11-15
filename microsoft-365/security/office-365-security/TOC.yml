@@ -276,8 +276,6 @@
               href: enable-the-report-message-add-in.md
             - name: Outlook에서 가양성 및 가음성 보고
               href: report-false-positives-and-false-negatives.md
-            - name: 수동으로 Microsoft에 메시지 제출
-              href: submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
             - name: 메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
               href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft
             - name: 맬웨어 및 비 맬웨어를 Microsoft에 제출

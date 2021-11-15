@@ -19,14 +19,15 @@ ms.collection:
 - M365-security-compliance
 - m365solution-scenario
 - m365solution-pilotmtpproject
+ms.custom: admindeeplinkDEFENDER
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 25a36b74e612c5f09d9794c09d14301e6c32f4ba
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: fa9f41675c68f4d832c14b2cf1c33dcf1a9d9d6d
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60162413"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963290"
 ---
 # <a name="run-an-attack-simulation-in-a-microsoft-365-defender-pilot-environment"></a>파일럿 환경에서 공격 시뮬레이션 Microsoft 365 Defender 실행
 
@@ -53,7 +54,7 @@ Microsoft 365 Defender 포털에는 파일럿 환경에 시뮬레이션된 공�
 
 - 공격 자습서는 & 끝점에 대한 Microsoft 365 Defender 시뮬레이션을 [https://security.microsoft.com/tutorials/simulations](https://security.microsoft.com/tutorials/simulations) 제공합니다.
 
-  Microsoft 365 Defender 포털에서 끝점 > 시뮬레이션 & **선택합니다.**
+  Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a> **Endpoints**> 자습서를 & 선택합니다.
 
 ### <a name="defender-for-office-365-attack-simulation-training"></a>공격 시뮬레이션 Office 365 수비수
 
@@ -186,7 +187,7 @@ ran NetSessionEnum against [DC Name] with return code result 0
 
 SOC 분석가의 시선으로 전환하면 이제 포털에서 공격 조사를 시작할 Microsoft 365 Defender 있습니다.
 
-1. 웹 Microsoft 365 Defender [를 열 수 있습니다.](https://security.microsoft.com/)
+1. 웹 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">를 열 수 있습니다.</a>
 
 2. 탐색 창에서 인시던트 및 & 알림 > **선택합니다.**
 
@@ -202,7 +203,7 @@ Microsoft 365 Defender 서로 연관하고 서로 다른 제품의 모든 관련
 
 인시던트 보기:
 
-1. 웹 Microsoft 365 Defender [를 열 수 있습니다.](https://security.microsoft.com/)
+1. 웹 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">를 열 수 있습니다.</a>
 
 2. 탐색 창에서 인시던트 및 & 알림 > **선택합니다.**
 

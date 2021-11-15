@@ -11,17 +11,19 @@ audience: ITPro
 ms.topic: article
 author: denisebmsft
 ms.author: deniseb
-ms.custom: nextgen
+ms.custom:
+- nextgen
+- admindeeplinkDEFENDER
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3015dbbc251ec175a648145f202a291ca0c6c1bc
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 569a36a595a53c45dd3d1a24857932523344d7e5
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60556128"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962642"
 ---
 # <a name="better-together-microsoft-defender-antivirus-and-office-365"></a>함께 활용: Microsoft Defender 바이러스 백신 및 Office 365
 
@@ -73,7 +75,7 @@ Microsoft Defender for Office 365 Microsoft Defender for Endpoint와 통합하�
 
     SO
 
-- 통합을 사용하도록 설정하면 보안 운영 팀은 검색된 URL 또는 전자 메일 메시지의 받는 사람이 사용하는 장치 목록과 해당 장치에 대한 최근 알림과 함께 Microsoft 365 Defender 포털()에서 볼 수 있습니다. [https://security.microsoft.com](https://security.microsoft.com)
+- 통합이 사용하도록 설정되면 보안 운영 팀은 검색된 URL 또는 전자 메일 메시지의 받는 사람이 사용하는 장치 목록과 해당 장치에 대한 최근 알림과 함께 Microsoft 365 Defender 포털에서 볼 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">수 있습니다.</a>
 
 아직 통합하지 않은 경우 Microsoft [Defender for Office 365 끝점용 Microsoft Defender와 통합합니다.](/microsoft-365/security/office-365-security/integrate-office-365-ti-with-wdatp)
 

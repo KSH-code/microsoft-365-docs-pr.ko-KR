@@ -12,15 +12,16 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.date: 09/16/2021
 ms.technology: mde
-ms.openlocfilehash: f9253a01cc1a971f472733f41a92f0b78beba737
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 51950846b1e445bf9fecb3111e827e1ca9b6d1e4
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753980"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962966"
 ---
 # <a name="onboard-windows-devices-using-group-policy"></a>그룹 정책을 사용하여 Windows 장치 온보딩 
 
@@ -46,7 +47,7 @@ ms.locfileid: "60753980"
 
 [PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
-1. 서비스 온보더링 마법사에서 다운로드한 GP 구성 패키지 파일( `WindowsDefenderATPOnboardingPackage.zip` )을 니다. 포털에서 패키지를 Microsoft 365 Defender [있습니다.](https://security.microsoft.com/)
+1. 서비스 온보더링 마법사에서 다운로드한 GP 구성 패키지 파일( `WindowsDefenderATPOnboardingPackage.zip` )을 니다. 다음 포털에서 패키지를 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender 있습니다.</a>
 
     1. 탐색 창에서 **끝점 설정**  >  **관리**  >     >  **온보더링** 을 선택합니다.
 
@@ -199,7 +200,7 @@ Microsoft MAPS에 가입|사용, 고급 지도
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서 오프보더 패키지를 얻습니다.</a>
 
     1. 탐색 창에서 **끝점 설정** 관리  >    >  오프보링  >  **을 선택합니다.**
 
@@ -236,7 +237,7 @@ Microsoft MAPS에 가입|사용, 고급 지도
 
 ## <a name="monitor-devices-using-the-portal"></a>포털을 사용하여 장치 모니터링
 
-1. 포털 [Microsoft 365 Defender 로 이동](https://security.microsoft.com/)
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털로 이동합니다.</a>
 2. 장치 **인벤토리 를 클릭합니다.**
 3. 장치가 나타나는지 확인
 
@@ -316,7 +317,7 @@ MAPS에서 **컴퓨터** 구성 정책 관리 \>  \>  \> **템플릿 Windows 구
 
 :::image type="content" source="images/cloud-protection-level.png" alt-text="클라우드 보호 수준 구성.":::
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩](configure-endpoints-sccm.md)
 - [모바일 장치 관리 도구를 사용한 Windows 장치 온보딩](configure-endpoints-mdm.md)
 - [로컬 스크립트를 사용하여 Windows 장치 온보딩](configure-endpoints-script.md)

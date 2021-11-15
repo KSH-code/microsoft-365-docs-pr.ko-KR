@@ -10,14 +10,15 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
+ms.custom: admindeeplinkDEFENDER
 description: 관리자는 Microsoft 365 Defender 포털의 공격 시뮬레이션 교육이 사용자에게 미치는 영향을 알아보고 시뮬레이션 및 교육 결과를 통해 정보를 얻을 수 있습니다.
 ms.technology: mdo
-ms.openlocfilehash: f101abfb8d7ebd771ab2d02847f9371d35441ae6
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 362f094d340b4f80a7b6fd54b1325540b812fa3e
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702687"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962918"
 ---
 # <a name="insights-and-reports-for-attack-simulation-training-in-defender-for-office-365"></a>Insights Defender의 공격 시뮬레이션 교육에 대한 Office 365
 
@@ -36,7 +37,7 @@ Insights 및 보고서는 Microsoft 365 Defender 포털의 공격 시뮬레이�
 
 ## <a name="insights-and-reports-on-the-overview-tab-of-attack-simulation-training"></a>Insights 시뮬레이션 교육의 개요 탭에 대한 정보 및 보고서
 
-개요 탭으로  이동하여 에서 Microsoft 365 Defender 포털을 열고 전자 메일 & 공동 작업 공격 시뮬레이션 교육으로 이동한 다음 개요 탭이 선택되어 있는지(기본값) 확인해야 <https://security.microsoft.com/>  \> 합니다.  공격 시뮬레이션 교육 **페이지의 개요** **탭으로** 직접 이동하기 위해 를 <https://security.microsoft.com/attacksimulator?viewid=overview> 사용합니다.
+개요 탭으로  이동하여 에서 Microsoft 365 Defender 포털을 열고 전자 메일 & 공동 작업 공격 시뮬레이션 교육으로 이동한 다음 개요 탭이 선택되어 있는지(기본값) 확인해야 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">https://security.microsoft.com</a>  \> 합니다.  공격 시뮬레이션 교육 **페이지의 개요** **탭으로** 직접 이동하기 위해 를 <https://security.microsoft.com/attacksimulator?viewid=overview> 사용합니다.
 
 이 섹션의 나머지 부분에서는 공격 시뮬레이션 교육의 개요 탭에서 사용할 수 있는 정보에 대해 설명합니다. 
 
@@ -248,7 +249,7 @@ Insights 및 보고서는 Microsoft 365 Defender 포털의 공격 시뮬레이�
 
 ## <a name="insights-and-reports-in-the-simulation-details-of-attack-simulation-training"></a>Insights 시뮬레이션 교육의 시뮬레이션 세부 정보 및 보고서
 
-시뮬레이션 **탭으로** 이동하려면 에서 Microsoft 365 Defender 포털을 열고 전자 메일 & 공동 작업 공격 시뮬레이션 교육으로 이동한 다음 시뮬레이션 <https://security.microsoft.com/>  \>  **탭을** 클릭합니다. 공격 시뮬레이션 교육 페이지의 **시뮬레이션** 탭으로 직접 이동하기 **위해** 를 <https://security.microsoft.com/attacksimulator?viewid=simulations> 사용합니다.
+시뮬레이션 **탭으로** 이동하려면 에서 Microsoft 365 Defender 포털을 열고 전자 메일 & 공동 작업 공격 시뮬레이션 교육으로 이동한 다음 시뮬레이션 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">https://security.microsoft.com</a>  \>  **탭을** 클릭합니다. 공격 시뮬레이션 교육 페이지의 **시뮬레이션** 탭으로 직접 이동하기 **위해** 를 <https://security.microsoft.com/attacksimulator?viewid=simulations> 사용합니다.
 
 목록에서 시뮬레이션을 선택하면 세부 정보 페이지가 열립니다. 이 페이지에는 예상한 시뮬레이션의 구성 설정(상태, 시작 날짜, 사용된 페이로드 등)이 포함되어 있습니다.
 
@@ -256,7 +257,7 @@ Insights 및 보고서는 Microsoft 365 Defender 포털의 공격 시뮬레이�
 
 ### <a name="simulation-impact-section"></a>시뮬레이션 영향 섹션
 
-시뮬레이션 **세부 정보** 페이지의 시뮬레이션 영향 섹션에는 시뮬레이션에 의해 완전히 속인 사용자 수와 시뮬레이션의 총 사용자 수가 표시됩니다. 표시되는 정보는 시뮬레이션 유형에 따라 다릅니다. 예제:
+시뮬레이션 **세부 정보** 페이지의 시뮬레이션 영향 섹션에는 시뮬레이션에 의해 완전히 속인 사용자 수와 시뮬레이션의 총 사용자 수가 표시됩니다. 표시되는 정보는 시뮬레이션 유형에 따라 다릅니다. 예를 들면
 
 - 링크: **자격 증명을 입력하고** **자격 증명을 입력하지 않은 경우.**
 
@@ -270,7 +271,7 @@ Insights 및 보고서는 Microsoft 365 Defender 포털의 공격 시뮬레이�
 
 ### <a name="all-user-activity-section"></a>모든 사용자 활동 섹션
 
-시뮬레이션 **세부 정보 페이지의** 모든 사용자 활동 섹션에는 시뮬레이션 결과의 가능한 숫자가 표시됩니다. 표시되는 정보는 시뮬레이션 유형에 따라 다릅니다. 예제:
+시뮬레이션 **세부 정보 페이지의** 모든 사용자 활동 섹션에는 시뮬레이션 결과의 가능한 숫자가 표시됩니다. 표시되는 정보는 시뮬레이션 유형에 따라 다릅니다. 예를 들면
 
 - **SuccessfullyDeliveredEmail**
 - **ReportedEmail:** 시뮬레이션 메시지를 의심스러운 것으로 보고한 사용자 수입니다.

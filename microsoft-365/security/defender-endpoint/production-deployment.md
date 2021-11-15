@@ -15,14 +15,15 @@ ms.collection:
 - M365-security-compliance
 - m365solution-endpointprotect
 - m365solution-scenario
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f68bd40afd0094f8a319f10c6e71d0cee94cef28
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 1cee88d872ca7d83b9fbaf391a25cdb21cd10bd6
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754434"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963386"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 설정
 
@@ -80,7 +81,7 @@ ms.locfileid: "60754434"
 
 끝점용 Microsoft Defender에 쉽게 온보딩할 수 있습니다. 탐색 메뉴에서 끝점 섹션 아래에 있는 항목을 선택하거나 인시던트, 헌팅Microsoft 365 Defender 센터 또는 위협 분석과 같은 모든 Microsoft 365 Defender 기능을 선택하여 온보더링 프로세스를 시작할 수 있습니다.
 
-웹 브라우저에서 보안 센터 [Microsoft 365 이동합니다.](https://security.microsoft.com)
+웹 브라우저에서 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">센터의 Microsoft 365 이동합니다.</a>
 
 ## <a name="network-configuration"></a>네트워크 구성
 
@@ -157,7 +158,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 
 ### <a name="proxy-configuration-for-down-level-devices"></a>다운 수준 장치에 대한 프록시 구성
 
-Down-Level 장치에는 Windows 7 SP1 및 Windows 8.1 Workstation과 Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 및 Windows Server 2016 Windows Server CB 1803 이전의 Windows Server 2016 버전이 포함됩니다. 이러한 운영 체제는 끝점에서 Azure로의 통신을 처리하도록 Microsoft 관리 에이전트의 일부로 구성됩니다. 이러한 장치에서 프록시를 구성하는 방법에 대한 자세한 내용은 Microsoft Management Agent Fast Deployment Guide를 참조하십시오.
+Down-Level 장치에는 Windows 7 SP1 및 Windows 8.1 Workstation과 Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 및 Windows Server 2016 이전 버전의 Windows  서버 CB 1803. 이러한 운영 체제는 끝점에서 Azure로의 통신을 처리하도록 Microsoft 관리 에이전트의 일부로 구성됩니다. 이러한 장치에서 프록시를 구성하는 방법에 대한 자세한 내용은 Microsoft Management Agent Fast Deployment Guide를 참조하십시오.
 
 ### <a name="proxy-service-urls"></a>프록시 서비스 URL
 

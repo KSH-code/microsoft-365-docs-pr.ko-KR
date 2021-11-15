@@ -1,5 +1,5 @@
 ---
-title: 로컬 스크립트를 Windows 장치 온보딩
+title: 로컬 스크립트를 사용하여 Windows 장치 온보딩
 description: 로컬 스크립트를 사용하여 디바이스를 서비스에 온보딩할 수 있도록 디바이스에 구성 패키지를 배포합니다.
 keywords: 로컬 스크립트를 사용하여 장치 구성, 장치 관리, 끝점 장치용 Microsoft Defender 구성
 search.appverid: met150
@@ -13,16 +13,17 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 74e0289c2233a4df1a4e9810a31e960a49078177
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: ded0c6ac55fbf6265fb77e0391700aa2a70e0756
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60239843"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962942"
 ---
-# <a name="onboard-windows-devices-using-a-local-script"></a>로컬 스크립트를 Windows 장치 온보딩
+# <a name="onboard-windows-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 Windows 장치 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -41,16 +42,16 @@ ms.locfileid: "60239843"
 
 ## <a name="onboard-devices"></a>온보딩 장치 
 
-1.  서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. Defender 포털에서 [패키지를 Microsoft 365 있습니다.](https://security.microsoft.com/)
+1.  서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">있습니다.</a>
 
     1. 탐색 창에서 **끝점 설정**  >  **관리**  >    >  **온보더링** 을 선택합니다.
 
 
 [PDF](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf) 또는 Visio [](https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.vsdx) 끝점용 Defender 배포에서 다양한 경로를 확인할 수 있습니다.
 
-1. 서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. Defender 포털에서 [패키지를 Microsoft 365 있습니다.](https://security.microsoft.com/)
+1. 서비스 온보더링 마법사에서 .zip ** 다운로드한 GP 구성 패키지 파일(WindowsDefenderATPOnboardingPackage.zip)을 열 수 있습니다. 포털에서 패키지를 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">있습니다.</a>
     1. 탐색 창에서 **끝점 설정** \> **관리** \>  \> **온보더링** 을 선택합니다.
-    2. 운영 Windows 10 Windows 또는 11을 선택합니다.
+    2. 운영 Windows 10 Windows 11 선택하거나 선택합니다.
     3. 배포 **방법 필드에서** 로컬 스크립트 **를 선택합니다.**
     4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
@@ -103,9 +104,9 @@ Value: 0 or 1
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
+1. 에서 오프보더 패키지를 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털</a>:
     1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**
-    2. 운영 Windows 10 Windows 또는 11을 선택합니다.
+    2. 운영 Windows 10 Windows 11 선택하거나 선택합니다.
     3. 배포 **방법 필드에서** 로컬 스크립트 **를 선택합니다.**
     4. 패키지 **다운로드를** 클릭하고 파일 .zip 저장합니다.
 
@@ -132,14 +133,14 @@ Value: 0 or 1
 
 ### <a name="monitor-devices-using-the-portal"></a>포털을 사용하여 장치 모니터링
 
-1. 검색 포털로 Microsoft 365 Defender.
+1. 포털 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender 로 이동</a>
 2. 장치 **인벤토리 를 클릭합니다.**
 3. 장치가 나타나는지 확인
 
-## <a name="related-topics"></a>관련 항목
-- [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
-- [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
+## <a name="related-topics"></a>관련 주제
+- [그룹 정책을 사용하여 Windows 장치 온보딩](configure-endpoints-gp.md)
+- [Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩](configure-endpoints-sccm.md)
+- [모바일 장치 관리 도구를 사용한 Windows 장치 온보딩](configure-endpoints-mdm.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

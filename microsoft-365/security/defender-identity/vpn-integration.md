@@ -6,13 +6,14 @@ ms.topic: how-to
 author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
+ms.custom: admindeeplinkDEFENDER
 manager: raynew
-ms.openlocfilehash: e6b8015cc8b6ac073c689bde3b15a411c859cada
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: 9f542d2b5a25a8274d74e0ee3dbfc40fdc119926
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59185700"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963326"
 ---
 # <a name="defender-for-identity-vpn-integration-in-microsoft-365-defender"></a>ID VPN 통합을 위한 Defender Microsoft 365 Defender
 
@@ -24,7 +25,7 @@ ms.locfileid: "59185700"
 이 문서에서는 에서 VPN과 [ID에 대한 Microsoft Defender를](/defender-for-identity) [통합하는 Microsoft 365 Defender.](/microsoft-365/security/defender/overview-security-center)
 
 >[!IMPORTANT]
->Id와의 수렴의 일부로 Microsoft 365 Defender Id 포털의 해당 위치에서 일부 옵션 및 세부 정보가 변경됩니다. 익숙한 기능과 새로운 기능을 모두 찾을 수 있는 위치를 확인하시기 바랍니다.
+>Id와의 수렴의 일부로 Microsoft 365 Defender 일부 옵션 및 세부 사항은 ID용 Defender 포털의 해당 위치에서 변경했습니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a> 익숙한 기능과 새로운 기능을 모두 찾을 수 있는 위치를 확인하시기 바랍니다.
 
 [!INCLUDE [Product long](includes/product-long.md)] 는 VPN 솔루션에서 회계 정보를 수집할 수 있습니다. 이 구성 시 사용자의 프로필 페이지에는 VPN 연결의 정보(예: 연결이 시작된 IP 주소 및 위치)가 포함됩니다. 이 기능은 비정상 VPN 연결에 대한 새로운 검색뿐만 아니라 사용자 활동에 대한 추가 정보를 제공하여 조사 프로세스를 보완합니다. 위치에 대한 외부 IP 주소를 확인하기 위한 호출은 익명입니다. 이 호출에는 개인 식별자가 전송되지 않습니다.
 
@@ -35,7 +36,7 @@ ms.locfileid: "59185700"
 - 검사점
 - Cisco ASA
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 VPN 통합을 사용하도록 설정하려면 다음 매개 변수를 설정해야 합니다.
 
@@ -70,7 +71,7 @@ RRAS 서버에서 다음 단계를 수행합니다.
 
 2016에서 VPN 데이터를 [!INCLUDE [Product short](includes/product-short.md)] 구성 Microsoft 365 Defender.
 
-1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a>에서  설정 **ID로 이동합니다.**
 
     ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 

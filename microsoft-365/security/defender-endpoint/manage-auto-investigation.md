@@ -14,15 +14,16 @@ audience: ITPro
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
+ms.custom: admindeeplinkDEFENDER
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: 371b698dc25a1875c71e7ca942d7e6b7563f40fb
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: d2f4eda359b64b1fe4f7be300980c15485fb2bf5
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587715"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963398"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>자동화된 조사 후 수정 작업 검토
 
@@ -60,7 +61,7 @@ ms.locfileid: "60587715"
 
 ## <a name="review-pending-actions"></a>보류 중인 작업 검토
 
-1. 보안 Microsoft 365()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
+1. 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">센터로 Microsoft 365 로그인합니다.</a>
 2. 탐색 창에서 **작업 센터** 를 선택합니다.
 3. 보류 중인 **탭의 항목을 검토합니다.**
 4. 플라이아웃 창을 여는 작업을 선택합니다.
@@ -72,7 +73,7 @@ ms.locfileid: "60587715"
 
 ## <a name="review-completed-actions"></a>완료된 작업 검토
 
-1. 보안 Microsoft 365()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
+1. 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">센터로 Microsoft 365 로그인합니다.</a>
 2. 탐색 창에서 **작업 센터** 를 선택합니다.
 3. 기록 탭의 **항목을 검토합니다.**
 4. 해당 수정 조치에 대한 자세한 내용을 확인하려면 항목을 선택합니다.

@@ -13,15 +13,17 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 탐색기 또는 실시간 검색을 사용하여 위협을 효율적으로 조사하고 대응합니다.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- admindeeplinkDEFENDER
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9cced68d084bb5f4625f745dfd0f19db16cece9c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: c0a2d76904c7f04974315c92425ca30700b10497
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60176382"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962954"
 ---
 # <a name="explorer-and-real-time-detections-basics"></a>탐색기 및 실시간 검색 기본
 
@@ -41,7 +43,7 @@ ms.locfileid: "60176382"
 
 조직에 Office 365 Microsoft [Defender가 있으며 사용](defender-for-office-365.md)권한이 [](#required-licenses-and-permissions)있는 경우  **탐색기(위협** 탐색기라고도 하는) 또는 실시간 검색을 사용하여 위협을 감지하고 치료할 수 있습니다. 
 
-in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ) go to Email & **collaboration**, and then choose **Explorer** _or_ **Real-time detections**.
+Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 & **공동** 작업으로 이동한 다음 **탐색기**  또는 실시간 검색 **을 선택하세요.**
 
 다음 도구를 사용하여 다음을 수행할 수 있습니다.
 

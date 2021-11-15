@@ -14,12 +14,13 @@ ms.author: dansimp
 manager: dansimp
 ms.technology: mde
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 4896ffe6b01d87d4e54d6d06867aea3435a1513a
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.custom: admindeeplinkDEFENDER
+ms.openlocfilehash: 4d06c974f5ccc01326bd574ac1ad1c3fbde00990
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883140"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962545"
 ---
 # <a name="host-firewall-reporting-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender 호스트 방화벽 보고
 
@@ -35,7 +36,7 @@ ms.locfileid: "60883140"
 
 - Server 2022 또는 Windows 10 Windows 11 Windows 또는 Windows 실행 중이야 합니다.
 - 디바이스를 Microsoft Defender for Endpoint 서비스에 온보딩하는 경우 여기를 [참조하세요.](onboard-configure.md)
-- 보안 Microsoft 365 센터에서 데이터 수신을 시작하려면 고급  보안이 있는 방화벽에 Windows Defender 감사 이벤트를 사용하도록 설정해야 합니다.
+- 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365</a> 센터에서 데이터 수신을 시작하려면 고급  보안이 있는 방화벽에 Windows Defender 감사 이벤트를 사용하도록 설정해야 합니다.
   - [필터링 플랫폼 패킷 삭제 감사](/windows/security/threat-protection/auditing/audit-filtering-platform-packet-drop)
   - [필터링 플랫폼 연결 감사](/windows/security/threat-protection/auditing/audit-filtering-platform-connection)
 - 그룹 정책 개체 편집기, 로컬 보안 정책 또는 로컬 보안 정책을 사용하여 이러한 이벤트를 auditpol.exe 사용합니다. 자세한 내용은 여기를 [참조하세요.](/windows/win32/fwp/auditing-and-logging)

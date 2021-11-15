@@ -14,27 +14,23 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365(미리 보기)를 사용하여 macOS 장치를 Microsoft Intune 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 7e5692197a05f16326d3fd8b43e37a19186b9926
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: 82aa3909ac7829f07a797673300cc0061bb4feef
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792283"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962714"
 ---
-# <a name="onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-intune-preview"></a>Intune을 사용하여 macOS 디바이스를 Microsoft 365 준수 솔루션으로 온보드 및 오프보드(미리 보기)
+# <a name="onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-intune-preview"></a>Intune을 사용하여 macOS 장치를 Microsoft 365 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
 
 Intune을 사용하여 macOS 장치를 준수 솔루션에 Microsoft 365 수 있습니다.
 
 > [!IMPORTANT]
 > MacOS 장치에  끝점용 Microsoft Defender(MDE)가 배포되지 않은 경우 이 절차를 사용합니다.
 
-## <a name="get-registered"></a>등록하기
-
-이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/EndpointDLPIgnite21-Previews)
-
 **적용 대상:**
 
-- [Microsoft 365 끝점 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
+- [Microsoft 365 엔드포인트 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
 - [내부자 위험 관리](insider-risk-management.md#learn-about-insider-risk-management-in-microsoft-365)
 
 ## <a name="before-you-begin"></a>시작하기 전에

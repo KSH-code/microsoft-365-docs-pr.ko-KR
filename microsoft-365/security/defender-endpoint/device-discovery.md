@@ -16,14 +16,15 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
+ms.custom: admindeeplinkDEFENDER
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 95f20e1e5ac3c623decb131929d3c27164f3a96b
-ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
+ms.openlocfilehash: 156ddfc6a44074db23369ca20e8d7c3d4471459e
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60908008"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963122"
 ---
 # <a name="device-discovery-overview"></a>장치 검색 개요
 
@@ -136,7 +137,7 @@ DeviceNetworkEvents
 
 ## <a name="changed-behavior"></a>변경된 동작
 
-다음 섹션에서는 이 기능을 사용하는 경우 Microsoft Defender for Endpoint 및/또는 Microsoft 365 보안 센터에서 관찰할 변경 내용을 나열합니다.
+다음 섹션에서는 이 기능을 사용하는 경우 Microsoft Defender for <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Endpoint 및/또는</a> Microsoft 365 보안 센터에서 관찰할 변경 내용을 나열합니다.
 
 1. 끝점용 Microsoft Defender에 등록되지 않은 장치는 장치 인벤토리, 고급 헌팅 및 API 쿼리에 표시될 것으로 예상됩니다. 이렇게 하여 쿼리 결과의 크기가 크게 증가할 수 있습니다.
     1. 고급 헌팅의 "DeviceInfo" 및 "DeviceNetworkInfo" 테이블은 이제 검색된 장치를 보유합니다. "OnboardingStatus" 특성을 사용하여 이러한 장치를 필터링할 수 있습니다.

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 관리 센터의 보고서 - Microsoft 브라우저 사용
+title: Microsoft 365 센터의 보고서 - Microsoft 브라우저 사용
 ms.author: waxiaoyu
 author: sarahwxy
 manager: scotv
@@ -18,14 +18,14 @@ search.appverid:
 - MOE150
 - GEA150
 description: Microsoft 365 보고서 대시보드를 사용하여 Microsoft 브라우저 사용 현황 보고서를 다운로드하는 Microsoft 365 관리 센터.
-ms.openlocfilehash: ac2eb7af8f89fb3d496d7b2afd8ca66322e20275
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: d653bf1132f461b14644b1ddc04bab2fdceee358
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60654002"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960961"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 관리 센터의 보고서 - Microsoft 브라우저 사용
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 센터의 보고서 - Microsoft 브라우저 사용
 
 보고서 Microsoft 365 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 이를 통해 개별 제품 수준 보고서를 드릴다운하여 각 제품 내의 활동에 대한 더 세부적인 정보를 얻을 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft 브라우저 사용 현황 보고서에서 사용 현황, Internet Explorer 및 새로운 Microsoft Edge 레거시 정보를 얻을 Microsoft Edge 있습니다. 사용 현황 보고는 Microsoft Microsoft 365 액세스하는 온라인 서비스를 기반으로 합니다.
 
@@ -39,9 +39,11 @@ ms.locfileid: "60654002"
 
 :::image type="content" alt-text="Microsoft 브라우저 사용 현황 보고서 작업 흐름입니다." source="../../media/1ef4eb08-18b8-4dda-aa15-1aad013ecd70.png" lightbox="../../media/1ef4eb08-18b8-4dda-aa15-1aad013ecd70.png":::
 
-전역 관리자는 Edge 레거시(지원되지 않는) 및 Microsoft 365(지원되지 않는) 및 Internet Explorer 사용자에게 메시지를 보내지 못하도록 옵트인(opt in)할 수 있습니다. 이 대상 지정 메시지는 이러한 브라우저에 대한 지원이 곧 전송될 것 및 브라우저 전환을 위해 따라야 할 간단한 단계와 Microsoft Edge 정보가 있는 지원 문서로 연결될 것 Microsoft Edge 알려주는 메시지입니다. 
+전역 관리자는 Microsoft 365 서비스에 액세스하는 사용자에게 메시지를 Internet Explorer(미리 알림으로 Internet Explorer 데스크톱 응용 프로그램은 2022년 6월 15일에 사용 중지됩니다).에 옵트인(opt in)할 수 있습니다. 이 대상 지정 메시지는 이러한 브라우저에 대한 지원이 곧 전송될 것 및 브라우저 전환을 위해 따라야 할 간단한 단계와 Microsoft Edge 정보가 있는 지원 문서로 연결될 것 Microsoft Edge 알려주는 메시지입니다. 
 
-이 기능은 보고서 페이지에서 찾을 수 있습니다. 메시지가 만들어질 때 2021년 8월 17일까지 지정된 빈도로 사용자에게 통보됩니다. 사용자에게 알림 보내기 중지를 위해 이 기능을 해제할 수 있습니다. 알림을 다시 보내기 시작하고 기능을 다시 켜야 합니다.
+조직에서 보고서에 표시된 사용 현황이 있는 경우 Microsoft 브라우저 사용 현황 보고서 페이지에서 이 Internet Explorer(전역 관리자 권한 필요)를 찾을 수 있습니다. 메시지가 만들어질 때 2022년 6월 15일까지 지정된 빈도로 사용자에게 통보됩니다. 이 기능은 어떤 경우든 켜거나 끄면 됩니다.
+
+이 기능은 현재 미국 전역 관리자만 사용할 수 있으며 온라인에서 사용자 알림을 허용하는 Excel 기능입니다.
 
 ## <a name="interpret-the-microsoft-browser-usage-report"></a>Microsoft 브라우저 사용 보고서 해석
 

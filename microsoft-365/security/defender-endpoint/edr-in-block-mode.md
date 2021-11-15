@@ -14,17 +14,18 @@ ms.localizationpriority: medium
 ms.custom:
 - next-gen
 - edr
+- admindeeplinkDEFENDER
 ms.date: 10/07/2021
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 2c463da937222939586029a970439b05134315a3
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 82addf4b41ae41c67353a4045c8fdacce7bb8afa
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554579"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963050"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 EDR(엔드포인트 감지 및 대응)
 
@@ -72,7 +73,7 @@ EDR 모드는 위협 [요소와 & 취약성 관리.](next-gen-threat-and-vuln-mg
 3. 아래로 스크롤한 다음 차단 모드에서 EDR **을 켜야 합니다.**
 
 > [!NOTE]
-> EDR 포털( ) 또는 이전 Microsoft 365 Defender()에서만 차단 [https://security.microsoft.com](https://security.microsoft.com) 모드로 Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) 있습니다. 레지스트리 키, Microsoft Intune 또는 그룹 정책을 사용하여 차단 모드에서 EDR 수 없습니다.
+> EDR 포털 또는 이전 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender()에서만</a> 차단 모드로 Microsoft Defender 보안 센터 [https://securitycenter.windows.com](https://securitycenter.windows.com) 있습니다. 레지스트리 키, Microsoft Intune 또는 그룹 정책을 사용하여 차단 모드에서 EDR 수 없습니다.
 
 ## <a name="requirements-for-edr-in-block-mode"></a>차단 모드의 EDR 요구 사항
 
@@ -136,7 +137,7 @@ PowerShell을 사용하여 수동 모드에서 EDR 설정되어 있는지 확인
 
 1. 선택 시작 메뉴 를 선택하고 를 입력한 다음 결과에서 Windows PowerShell `PowerShell` 를 .
 
-2. `Get-MPComputerStatus|select AMRunningMode`를 입력합니다.
+2. `Get-MPComputerStatus|select AMRunningMode`(을)를 입력합니다.
 
 3. 결과가 `EDR Block Mode` 표시되는지 확인
 
@@ -148,7 +149,7 @@ PowerShell을 사용하여 수동 모드에서 EDR 설정되어 있는지 확인
 활성 Microsoft Defender 바이러스 백신 수동 모드로 실행 중인 경우 EDR 모드로 설정하면 다음 버전의 Windows.
 
 - Windows 10(모든 릴리스)
-- Windows 서버, 버전 1803 이상 
+- Windows Server, 버전 1803 이상 
 - Windows Server 2022
 - Windows Server 2019 
 - Windows Server 2016

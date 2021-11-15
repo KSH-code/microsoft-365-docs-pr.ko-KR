@@ -16,12 +16,13 @@ ms.technology: mde
 ms.topic: how-to
 ms.date: 10/14/2021
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 92adcad0a7cbb12853e2caca217b87f448efcb65
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.custom: admindeeplinkDEFENDER
+ms.openlocfilehash: 544d16919f039f7ac4ae7a7234b2b90c925a7329
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60881952"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962557"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙 사용
 
@@ -43,7 +44,7 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 
 - Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
+- Windows Server, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
 - [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2) 
@@ -55,7 +56,7 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 - [클라우드 배달 보호](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 기능 사용(일부 규칙의 경우
 - Windows 10 Enterprise E5 또는 E3 라이선스
 
-공격 표면 감소 규칙에는 [Windows E5](/windows/deployment/deploy-enterprise-licenses)라이선스가 필요하지는 않습니다. Windows E5 라이선스가 있는 경우 끝점용 Defender에서 사용 가능한 모니터링, 분석 및 워크플로를 비롯한 고급 관리 기능과 Microsoft 365 보안 센터의 보고 및 구성 기능을 사용할 수 있습니다. E3 라이선스에서는 이러한 고급 기능을 사용할 수 없지만 이벤트 뷰어를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
+공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지는 않습니다. Windows E5 라이선스가 있는 경우 끝점용 Defender에서 사용 가능한 모니터링, 분석 및 워크플로를 비롯한 고급 관리 기능과 Microsoft 365 보안 센터의 보고 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">및 구성</a>기능을 사용할 수 [있습니다.](/windows/deployment/deploy-enterprise-licenses) E3 라이선스에서는 이러한 고급 기능을 사용할 수 없지만 이벤트 뷰어를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
 
 각 ASR 규칙에는 다음 네 가지 설정 중 하나가 포함되어 있습니다.
 
@@ -225,7 +226,7 @@ MEM(Microsoft Endpoint Manager) OMA-URI를 사용하여 사용자 지정 ASR 규
 
 [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions](/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions) CSP(구성 서비스 공급자)를 사용하여 제외를 추가합니다.
 
-예제:
+예:
 
 `OMA-URI path: ./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions`
 

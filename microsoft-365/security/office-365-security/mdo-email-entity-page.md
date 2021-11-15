@@ -15,13 +15,14 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
+ms.custom: admindeeplinkDEFENDER
 description: Microsoft Defender for Office 365 E5 및 P1 및 P2 고객은 이제 전자 메일 엔터티 페이지가 있는 각 전자 메일을 360도로 볼 수 있습니다.
-ms.openlocfilehash: b6f4df0dcd8f12b7a2d8475954583573616a6fd9
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 6a742653f5c249da356b9295572085733ecec5bf
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554771"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960649"
 ---
 # <a name="the-email-entity-page"></a>전자 메일 엔터티 페이지
 
@@ -35,7 +36,7 @@ Office 365 E5 Microsoft Defender 및 Office P1 및 P2용 Defender의 관리자�
 
 ## <a name="reach-the-email-entity-page"></a>전자 메일 엔터티 페이지로 이동
 
-전자 메일 엔터티 페이지는 Microsoft 365 Defender 포털( <https://security.microsoft.com> )의 전자 메일 & **탐색기에서 사용할 수** \> **있습니다.** 또는 탐색기 페이지로 직접 **이동하려면** 를 <https://security.microsoft.com/threatexplorer> 사용합니다.
+전자 메일 엔터티 페이지는 전자 메일 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">공동</a> 작업 탐색기에서 & **있습니다.** \>  또는 탐색기 페이지로 직접 **이동하려면** 를 <https://security.microsoft.com/threatexplorer> 사용합니다.
 
 **탐색기에서** 조사할 전자 메일의 제목을 선택합니다. 해당 메일에 대한 전자 메일 플라이아웃의 맨 위에 골드 막대가 표시됩니다. 새 페이지에 대한 이 초대는 '강화된 데이터를 사용하여 새 전자 메일 엔터티 페이지 사용해 보시다...'를 읽습니다. 새 페이지를 표시하려면 선택합니다.
 

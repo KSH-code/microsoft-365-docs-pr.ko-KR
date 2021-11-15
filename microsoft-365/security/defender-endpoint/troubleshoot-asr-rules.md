@@ -13,16 +13,18 @@ author: lovina-saldanha
 ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
-ms.custom: asr
+ms.custom:
+- asr
+- admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c54e0fd187adabbba76fd16d4d8f873bc83dc249
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: fd23f0cdf35a9b7e236a957fed0922192091beb3
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60667973"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963158"
 ---
 # <a name="report-and-troubleshoot-microsoft-defender-for-endpoint-asr-rules"></a>끝점 ASR 규칙에 대한 Microsoft Defender 보고 및 문제 해결
 
@@ -33,9 +35,9 @@ ms.locfileid: "60667973"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Microsoft 365 보안 센터는 Microsoft ID, 데이터, 장치, 앱 및 인프라 전체의 보안을 모니터링하고 관리하기 위한 새로운 인터페이스입니다. Microsoft 365 보안 센터를 통해 조직의 보안 상태를 쉽게 검토할 수 있으며 디바이스, 사용자 및 앱을 구성하는 작업을 비롯하여 의심스러운 활동에 대해 알림을 받을 수 있습니다. Microsoft 365 보안 센터는 보안 관리자와 보안 운영 팀이 조직을 더 효과적으로 관리하고 보호하는 데 도움을 줄 수 있도록 설계되었습니다. 의 Microsoft 365 보안 센터를 <https://security.microsoft.com> 방문합니다.
+Microsoft 365 보안 센터는 Microsoft <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">ID,</a> 데이터, 장치, 앱 및 인프라 전체의 보안을 모니터링하고 관리하기 위한 새로운 인터페이스입니다. Microsoft 365 보안 센터를 통해 조직의 보안 상태를 쉽게 검토할 수 있으며 디바이스, 사용자 및 앱을 구성하는 작업을 비롯하여 의심스러운 활동에 대해 알림을 받을 수 있습니다. Microsoft 365 보안 센터는 보안 관리자와 보안 운영 팀이 조직을 더 효과적으로 관리하고 보호하는 데 도움을 줄 수 있도록 설계되었습니다. 의 Microsoft 365 보안 센터를 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"><https://security.microsoft.com></a> 방문합니다.
 
-Microsoft 365 센터에서 현재 ASR 규칙 구성 및 자산의 이벤트를 전체적으로 살펴 볼 수 있습니다. 이러한 보고서를 채우기 위해 디바이스를 끝점용 Microsoft Defender 서비스에 온보딩해야 합니다.
+Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">보안</a>센터에서 현재 ASR 규칙 구성 및 자산의 이벤트를 전체적으로 살펴 볼 수 있습니다. 이러한 보고서를 채우기 위해 디바이스를 끝점용 Microsoft Defender 서비스에 온보딩해야 합니다.
 다음은 Microsoft 365 보안 센터의 스크린샷입니다(보고서  장치 공격 표면 \>  \> **감소).** 장치 수준에서 공격 **표면** 감소 규칙 창에서 **구성을** 선택합니다. 다음 화면이 표시되어 특정 장치를 선택하고 개별 ASR 규칙 구성을 확인할 수 있습니다.
 
 :::image type="content" source="images/asrrulesnew.png" lightbox="images/asrrulesnew.png" alt-text="ASR 규칙 화면.":::
@@ -82,7 +84,7 @@ ASR 규칙이 이미 활성화되어 있는지 확인하는 가장 쉬운 방법
 
 ASR 규칙에 대한 위의 정보를 확장하기 위해 및/또는 에 대한 AttackSurfaceReductionRules_Ids **사용할** **AttackSurfaceReductionRules_Actions.**
 
-예제:
+예:
 
 ```powershell
 Get-MPPreference | Select-Object -ExpandProperty**AttackSurfaceReductionRules_Ids

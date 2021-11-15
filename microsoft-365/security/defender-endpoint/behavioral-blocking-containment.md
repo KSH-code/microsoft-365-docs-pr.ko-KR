@@ -14,16 +14,17 @@ ms.localizationpriority: medium
 ms.custom:
 - next-gen
 - edr
+- admindeeplinkDEFENDER
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 6a7ac6e546ab7578ccf914c29304c1a88139094e
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 99f9756170345941f38918c5f31336c1e6bc5ad7
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882132"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962786"
 ---
 # <a name="behavioral-blocking-and-containment"></a>동작 차단 및 제약
 
@@ -57,13 +58,13 @@ ms.locfileid: "60882132"
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>동작 차단 및 포함의 구성 요소
 
-- **클라이언트에서 정책 기반 공격 [표면 감소 규칙](attack-surface-reduction.md)** 미리 정의한 일반적인 공격 동작은 공격 표면 감소 규칙에 따라 실행되지 않습니다. 이러한 동작이 실행을 시도하면 Microsoft 365 Defender 포털()에서 정보 알림으로 볼 [https://security.microsoft.com](https://security.microsoft.com) 수 있습니다. 공격 표면 감소 규칙은 기본적으로 사용되지 않습니다. Microsoft 365 Defender [포털에서 정책을 구성합니다.](microsoft-defender-security-center.md)
+- **클라이언트에서 정책 기반 공격 [표면 감소 규칙](attack-surface-reduction.md)** 미리 정의한 일반적인 공격 동작은 공격 표면 감소 규칙에 따라 실행되지 않습니다. 이러한 동작이 실행을 시도하면 정보 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a> 경고로 Microsoft 365 Defender 수 있습니다. 공격 표면 감소 규칙은 기본적으로 사용되지 않습니다. Microsoft 365 Defender [포털에서 정책을 구성합니다.](microsoft-defender-security-center.md)
 
 - **[클라이언트 동작 차단](client-behavioral-blocking.md)** 끝점의 위협은 기계 학습을 통해 감지된 다음 자동으로 차단되고 수정됩니다. 클라이언트 동작 차단은 기본적으로 사용하도록 설정됩니다.
 
 - **[피드백 루프](feedback-loop-blocking.md)** 차단(신속한 보호라고도 지칭) 위협 감지는 동작 인텔리전스를 통해 관찰됩니다. 위협이 중지되고 다른 끝점에서 실행되지 않습니다. 피드백 루프 차단은 기본적으로 사용하도록 설정됩니다.
 
-- **[차단 모드의 끝점 EDR 응답(EDR)](edr-in-block-mode.md)** 위반 후 보호를 통해 관찰되는 악의적인 아티팩트 또는 동작은 차단되어 포함되어 있습니다. EDR 기본 바이러스 백신 솔루션이 아니어도 Microsoft Defender 바이러스 백신 모드로 전환됩니다. (EDR 모드에서는 기본적으로 사용하도록 설정되지 않습니다. 이 설정은 Microsoft 365 Defender.
+- 차단 모드에서 끝점 **[감지 및 대응(EDR)을](edr-in-block-mode.md)** 통해 위반 후 보호를 통해 관찰되는 악성 아티팩트 또는 동작이 차단 및 포함되어 있습니다. EDR 기본 바이러스 백신 솔루션이 아니어도 Microsoft Defender 바이러스 백신 모드로 전환됩니다. (EDR 모드에서는 기본적으로 사용하도록 설정되지 않습니다. 이 설정은 Microsoft 365 Defender.
 
 Microsoft는 계속해서 위협 방지 기능과 기능을 개선하기에 따라 동작 차단 및 포함 영역에 더 많은 것이 제공될 것으로 예상합니다. 현재 계획된 계획 및 롤아웃을 보시다시피 Microsoft 365 [로드맵을 방문하세요.](https://www.microsoft.com/microsoft-365/roadmap)
 

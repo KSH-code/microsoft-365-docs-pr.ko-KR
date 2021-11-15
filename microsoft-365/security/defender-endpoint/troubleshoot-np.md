@@ -15,12 +15,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 131021236f5294f10f9abdf6e4ba170e2349b707
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: a31b5cb7507bcf5bcc2c919f47cbf7f2f786045e
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555755"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962810"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
@@ -87,7 +87,7 @@ ms.locfileid: "60555755"
 현재 제외 옵션은 다음과 같습니다.
 
 1.  사용자 지정 허용 표시기 설정
-2.  IP 제외 사용: `Add-MpPreference -Exclusion IpAddress 192.168.1.1`
+2.  IP 제외 사용: `Add-MpPreference -ExclusionIpAddress 192.168.1.1`
 3.  전체 프로세스를 제외합니다. 자세한 내용은 제외 [Microsoft Defender 바이러스 백신 참조하세요.](configure-exclusions-microsoft-defender-antivirus.md) 
 
 

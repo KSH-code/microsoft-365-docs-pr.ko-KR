@@ -18,18 +18,19 @@ ms.custom:
 - okr_smb
 - AdminTemplateSet
 - admindeeplinkMAC
+- admindeeplinkDEFENDER
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호하는 방법
-ms.openlocfilehash: a7640dd1fae74bf2a954dc02df14e05e63750fcd
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 1923f4a13e2971cf58c83ccfb1444b7446133566
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60178110"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962726"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 요금제의 보안 Microsoft 365 10가지 방법
 
@@ -42,7 +43,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 |1|[다단계 인증 설정](secure-your-business-data.md#setup)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[사용자 교육](secure-your-business-data.md#train)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3 |[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|4 |[메일의 맬웨어에 대한 보호 수준 높이기](secure-your-business-data.md#malware)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|4|[메일의 맬웨어에 대한 보호 수준 높이기](secure-your-business-data.md#malware)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5|[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[전자 메일에 대한 자동 전달 중지](secure-your-business-data.md#forwarding)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[메시지 Office 사용](secure-your-business-data.md#encryption)||![포함.](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -52,7 +53,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 
 Microsoft Business Premium이 있는 경우 보안을 설정하고 안전하게 공동 작업을 시작하는 가장 빠른 방법은 [소규모 기업 및 캠페인을 위한 Microsoft 365](../../campaigns/index.md) 라이브러리의 지침을 따르는 것입니다. 이 지침은 Microsoft Defending Democracy 팀과 협력하여 정교한 해커가 시작한 사이버 위협으로부터 모든 중소기업 고객을 보호하기 위해 개발되었습니다.
 
-시작하기 전에 보안 [센터에서](../../security/defender/microsoft-secure-score.md) Microsoft 365 보안 점수를 Microsoft 365 합니다. 중앙 집중식 대시보드에서 ID, 데이터, 앱, 장치 및 인프라에 대한 Microsoft 365 모니터링하고 개선할 수 있습니다. 권장 보안 기능을 구성하거나, 보안 관련 작업(예: 보고서 보기)을 수행하거나, 타사 응용 프로그램 또는 소프트웨어를 사용하여 권장 사항을 해결하기 위한 포인트가 부여됩니다. 더 광범위한 Microsoft 제품 및 서비스 집합에 대한 추가 통찰력과 가시성을 통해 조직의 보안 상태 보고를 확신할 수 있습니다.
+시작하기 전에 보안 [센터에서 Microsoft 365](../../security/defender/microsoft-secure-score.md) 보안 점수를 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">합니다.</a> 중앙 집중식 대시보드에서 ID, 데이터, 앱, 장치 및 인프라에 대한 Microsoft 365 모니터링하고 개선할 수 있습니다. 권장 보안 기능을 구성하거나, 보안 관련 작업(예: 보고서 보기)을 수행하거나, 타사 응용 프로그램 또는 소프트웨어를 사용하여 권장 사항을 해결하기 위한 포인트가 부여됩니다. 더 광범위한 Microsoft 제품 및 서비스 집합에 대한 추가 통찰력과 가시성을 통해 조직의 보안 상태 보고를 확신할 수 있습니다.
 
 ![Microsoft 보안 점수 스크린샷.](../../media/secure-score.png)
 
@@ -167,7 +168,7 @@ Azure 포털의 Azure Active Directory(Azure AD)에 대해 **속성** 창에서 
 > [!TIP]
 > 4단계의 맬웨어 방지 목록에 차단할 파일을 추가할 [수 있습니다.](#4-raise-the-level-of-protection-against-malware-in-mail)
 
-자세한 내용은 다음을 참조하세요.
+자세한 내용은 다음 항목을 참조하세요.
 
 - [랜섬웨어: 위험을 줄이는 방법](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 
@@ -304,7 +305,7 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 ## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10: 링크로 피싱 금고 보호
 <a name="phishingatp"> </a>
 
-해커가 전자 메일 또는 기타 파일의 링크에서 악성 웹 사이트를 숨기는 경우도 있습니다. 금고 Microsoft Defender의 일부인 Office 365 링크는 전자 메일 메시지 및 문서의 웹 주소(URL)에 대한 클릭 시간 확인을 제공하여 조직을 Office 있습니다. 보호는 링크 정책을 통해 금고 정의됩니다.
+해커가 전자 메일 또는 기타 파일의 링크에서 악성 웹 사이트를 숨기는 경우도 있습니다. 금고 Microsoft Defender의 일부인 Office 365 링크는 전자 메일 메시지 및 문서의 웹 주소(URL)에 대한 클릭 시간 확인을 제공하여 조직을 보호하는 Office 있습니다. 보호는 링크 정책을 통해 금고 정의됩니다.
 
 다음을 하는 것이 좋습니다.
 

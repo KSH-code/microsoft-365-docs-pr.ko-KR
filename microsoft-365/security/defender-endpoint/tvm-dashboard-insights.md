@@ -14,14 +14,15 @@ audience: ITPro
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
+ms.custom: admindeeplinkDEFENDER
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7c5bdc74a214ed76aa791a9ee8331ac2f0a5492a
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 63d994ce521f3915daea6a585f64c407fd241eee
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882984"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963218"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>대시보드 정보 - 위협 및 취약성 관리
 
@@ -41,7 +42,7 @@ ms.locfileid: "60882984"
 - 인시던트 조사 중에 평가할 수 있는 장치 취약성 컨텍스트
 - 기본 제공 수정 프로세스 및 Microsoft Intune Microsoft Endpoint Configuration Manager
 
-포털의 위협 및 취약성 관리 기능을 사용하여 [Microsoft 365 Defender 수](https://security.microsoft.com/) 있습니다.
+위협 및 취약성 관리 포털의 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">기능을 사용하여 다음을 Microsoft 365 Defender 있습니다.</a>
 
 - 주요 보안 권장 사항, 소프트웨어 취약성, 수정 활동 및 노출된 장치와 함께 노출 점수 및 장치에 대한 Microsoft 보안 점수 보기
 - 엔드포인트 EDR 정보를 고려하여 처리합니다.
@@ -77,7 +78,7 @@ ms.locfileid: "60882984"
 
 포털 전체에서 사용되는 아이콘에 대한 자세한 내용은 [끝점 아이콘용 Microsoft Defender를 참조하세요.](portal-overview.md#microsoft-defender-for-endpoint-icons)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
 - [노출 점수](tvm-exposure-score.md)

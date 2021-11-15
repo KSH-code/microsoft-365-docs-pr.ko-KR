@@ -14,16 +14,17 @@ ms.collection:
 - M365-security-compliance
 - m365solution-mip
 - m365initiative-compliance
+ms.custom: admindeeplinkDEFENDER
 search.appverid:
 - MOE150
 - MET150
 description: 한 Microsoft 365 분류자 는 다양한 유형의 콘텐츠를 볼 수 있는 샘플을 제공하여 인식하는 데 사용할 수 있는 도구입니다. 이 문서에서는 사용자 지정 분류기를 만들고 교육하는 방법과 정확도를 높이기 위해 분류기를 다시 학습하는 방법을 보여집니다.
-ms.openlocfilehash: 89229a8c6f4eb5ac04fcb4f956c233e34b40806d
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 42a96a746317b85cd0634e5f4cb7964a6caeaa40
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554867"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963266"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>학습 가능한 분류자 시작
 
@@ -40,7 +41,7 @@ ms.locfileid: "60554867"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyGL7]
 
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 ### <a name="licensing-requirements"></a>라이선스 요구사항
 
@@ -105,7 +106,7 @@ UI에서 분류자에 액세스하는 경우:
    > [!TIP]
    > 시드 데이터에 대한 새 사이트 및 폴더를 만드는 경우 해당 시드 데이터를 사용할 학습 가능한 분류기를 만들기 전에 해당 위치가 인덱싱될 수 있도록 적어도 1시간을 허용합니다.
 
-3. 준수 관리자 또는 Microsoft 365 규정 준수 센터 관리자 역할 액세스로 로그인하고  보안 Microsoft 365 규정 준수 센터 또는 Microsoft 365 데이터 분류를   >  **를 하세요.**
+3. 준수 관리자 또는 Microsoft 365 규정 준수 센터 관리자 역할 액세스로 로그인하고 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank"></a> 보안 Microsoft 365 규정 준수 센터 또는 Microsoft 365 데이터 분류를 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a>  >  **를 하세요.**
 
 4. 학습 가능한 **분류자 탭을** 선택합니다.
 

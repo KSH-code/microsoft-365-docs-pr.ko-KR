@@ -12,14 +12,15 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dca768ea376531d7c9a47cf4425ba65e49911b23
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 1babfd14883520968af283ed050945950bf3f6e0
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702192"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962582"
 ---
 # <a name="ensure-your-devices-are-configured-properly"></a>장치가 올바르게 구성되어 있는지 확인
 
@@ -43,7 +44,7 @@ ms.locfileid: "60702192"
 
 *장치 구성 관리 페이지*
 
-조직 수준에서 구성 상태를 추적하고, 보안 센터 및 Microsoft Intune 및 Microsoft 365 보안 센터의 장치 관리 페이지에 대한 직접적인 딥 링크를 통해 불량 온보더링 범위, 규정 준수 문제 및 최적화된 공격 표면 완화에 대응하여 신속하게 조치를 취할 수 있습니다.
+조직 수준에서 구성 상태를 추적하고, 보안 센터 및 Microsoft Intune 및 보안 센터의 장치 관리 페이지에 대한 직접적인 딥 링크를 통해 불량 온보더링 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365</a>범위, 규정 준수 문제 및 최적화된 공격 표면 완화에 대응하여 신속하게 조치를 취할 수 있습니다.
 
 이렇게 하면 다음을 통해 혜택을 받을 수 있습니다.
 
@@ -88,6 +89,6 @@ ms.locfileid: "60702192"
 :---|:---
 [끝점용 Defender에 장치 온보딩](configure-machines-onboarding.md)|Intune 관리 장치의 온보더링 상태를 추적하고 Intune을 통해 더 많은 장치를 온보드합니다. 
 [엔드포인트 보안 기준에 대한 Defender 준수 강화](configure-machines-security-baseline.md)|기준 준수 및 비준수 추적 더 많은 Intune 관리 장치에 보안 기준을 배포합니다.
-[ASR 규칙 배포 및 검색 최적화](configure-machines-asr.md)|규칙 배포를 검토하고 보안 센터에서 영향 분석 도구를 사용하여 Microsoft 365 조정합니다.
+[ASR 규칙 배포 및 검색 최적화](configure-machines-asr.md)|규칙 배포를 검토하고 보안 센터의 영향 분석 도구를 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">조정합니다.</a>
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판을 신청하세요.](https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&ru=https://aka.ms/MDEp2OpenTrial?ocid=docs-wdatp-onboardconfigure-belowfoldlink)

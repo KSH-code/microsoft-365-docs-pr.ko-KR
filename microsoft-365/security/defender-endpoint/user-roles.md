@@ -12,14 +12,15 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1591862a759b4d1df17d100e80185479c38d868c
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 02e2d3249bbec9c4c0c4211a53cae0cee1789c1f
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554507"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960853"
 ---
 # <a name="create-and-manage-roles-for-role-based-access-control"></a>역할 기반 액세스 제어에 대한 역할 만들기 및 관리
 
@@ -38,7 +39,7 @@ ms.locfileid: "60554507"
 
 다음 단계에서는 2단계에서 역할을 만드는 방법을 Microsoft 365 Defender. 사용자 그룹에 대해 이미 Azure Active Directory 가정합니다.
 
-1. 보안 [관리자](https://security.microsoft.com/) Microsoft 365 Defender 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
+1. 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">관리자</a> Microsoft 365 Defender 전역 관리자 역할이 할당된 계정을 사용하여 로그인합니다.
 
 2. 탐색 창에서 **끝점 설정(사용 권한** 아래)를 \>  \>  **선택합니다.**
 
@@ -92,7 +93,7 @@ ms.locfileid: "60554507"
 
 ## <a name="edit-roles"></a>역할 편집
 
-1. 보안 관리자 또는 [Microsoft 365 Defender](https://security.microsoft.com/) 할당된 계정을 사용하여 로그인합니다.
+1. 보안 관리자 또는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> 할당된 계정을 사용하여 로그인합니다.
 
 2. 탐색 창에서 **끝점 설정(사용 권한** 아래)를 \>  \>  **선택합니다.**
 
@@ -106,7 +107,7 @@ ms.locfileid: "60554507"
 
 ## <a name="delete-roles"></a>역할 삭제
 
-1. 보안 관리자 또는 [Microsoft 365 Defender](https://security.microsoft.com/) 할당된 계정을 사용하여 로그인합니다.
+1. 보안 관리자 또는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> 할당된 계정을 사용하여 로그인합니다.
 
 2. 탐색 창에서 **끝점 설정(사용 권한** 아래)를 \>  \>  **선택합니다.**
 

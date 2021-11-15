@@ -15,16 +15,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
+ms.custom: admindeeplinkDEFENDER
 description: Microsoft Defender for Office 365 계획의 자동화된 조사 및 대응 기능의 수정 조치에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 06/10/2021
-ms.openlocfilehash: 4d81fe5e2baa4146136d7e55461290a31ef2462b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5321f1cbe35727649c80dc17778dc843630f695e
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196624"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962738"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>관리 센터에서 재구성 작업을 검토하고 Office 365
 
@@ -42,13 +43,13 @@ ms.locfileid: "60196624"
 자동 조사 작업을 찾아서 수행할 수 있는 네 가지 방법이 있습니다.
 
 - [인시던트 큐](https://security.microsoft.com/incidents)
-- [알림 센터 ](https://security.microsoft.com/action-center/pending)
+- [Action Center](https://security.microsoft.com/action-center/pending)
 - 조사 자체(인시던트 또는 경고를 통해 액세스)
 - [조사 및 재구성 조사 큐](https://security.microsoft.com/airinvestigation)
 
 ## <a name="incident-queue"></a>인시던트 큐
 
-1. Microsoft 365 Defender 포털( <https://security.microsoft.com> )을 열고 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털을 열고</a> 로그인합니다.
 2. 탐색 창에서 인시던트 및 **& 인시던트**> 선택합니다.
 3. 문제 이름을 선택하여 요약 페이지를 열 수 있습니다.
 4. 증거 및 **응답 탭을** 선택합니다.
@@ -57,7 +58,7 @@ ms.locfileid: "60196624"
 
 ## <a name="investigation-queue"></a>조사 큐
 
-1. Microsoft 365 Defender 포털( <https://security.microsoft.com> )을 열고 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털을 열고</a> 로그인합니다.
 2. 경고/인시던트 페이지에서 이동합니다.
 3. 조사 페이지에서 보류 중인 작업 **탭으로** 이동합니다.
 4. 목록에서 항목을 선택합니다. 왼쪽 창이 열립니다.
@@ -65,7 +66,7 @@ ms.locfileid: "60196624"
 
 ## <a name="action-center"></a>알림 센터 
 
-1. Microsoft 365 Defender 포털( <https://security.microsoft.com> )을 열고 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털을 열고</a> 로그인합니다.
 2. 탐색 창에서 작업 센터 **를 선택합니다.**
 3. 보류 **중인 탭에서** 승인을 대기 중인 작업 목록을 검토합니다.
    - 조사에 대한 자세한 내용을 **확인하려면** 조사 페이지 열기 를 선택합니다.
@@ -74,7 +75,7 @@ ms.locfileid: "60196624"
 
 ## <a name="investigation-and-remediation-investigations-queue"></a>조사 및 재구성 조사 큐
 
-1. Microsoft 365 Defender 포털( <https://security.microsoft.com> )을 열고 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털을 열고</a> 로그인합니다.
 2. 보류 중인 조사를 개방합니다.
 3. 조사 페이지에서 보류 중인 작업 **탭으로** 이동합니다.
 4. 목록에서 항목을 선택합니다. 왼쪽 창이 열립니다.

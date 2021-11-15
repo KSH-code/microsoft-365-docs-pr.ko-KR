@@ -16,14 +16,15 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
+ms.custom: admindeeplinkDEFENDER
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 914e246fe4c276a624989b189a3358c1821194fd
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: c481f846b91ee2072f453d4ad8e9df13b4dd534f
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882924"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960815"
 ---
 # <a name="configure-device-discovery"></a>장치 검색 구성
 
@@ -42,11 +43,11 @@ ms.locfileid: "60882924"
 
 > [!IMPORTANT]
 > 미리 보기의 경우 먼저 미리 보기에서 미리 보기 기능을 켜야 Microsoft 365 Defender.
-> 그런 다음 보안 센터에서 장치 검색 구성에 액세스할 Microsoft 365 있습니다. 관리되지 않는 장치 및 보안 권장 사항 목록은 Microsoft 365 Defender 및 Microsoft 365 보안 센터에서 사용할 수 있으며 대시보드 타일은 Microsoft 365 보안 센터에서만 사용할 수 있습니다.
+> 그런 다음 보안 센터 에서 장치 검색 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">구성에 액세스할 Microsoft 365 있습니다.</a> 관리되지 않는 장치 및 보안 권장 사항 목록은 Microsoft 365 Defender 및 Microsoft 365 보안 센터 둘 다에서 사용할 수 있으며 대시보드 타일은 Microsoft 365 보안 센터에서만 사용할 수 있습니다.
 
-보안 센터에서 다음 구성 Microsoft 365 수행합니다.
+보안 센터에서 다음 구성 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 수행합니다.</a>
 
-1. 장치 **검색 설정 > 로 이동합니다.**
+1. 장치 **검색 설정**  >  **로 이동합니다.**
 2. 온보드 디바이스에서 사용할 검색 모드를 선택합니다.
 3. 표준 검색을 사용하기로 선택한 경우 해당 장치 태그를 지정하여 활성 프로비전에 사용할 장치(모든 장치 또는 하위 집합)를 선택합니다.
 4. **저장** 을 클릭합니다.

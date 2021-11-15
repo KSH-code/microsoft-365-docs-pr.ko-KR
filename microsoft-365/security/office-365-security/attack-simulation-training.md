@@ -10,14 +10,15 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
+ms.custom: admindeeplinkDEFENDER
 description: 관리자는 Microsoft Defender for Office 365 계획의 공격 시뮬레이션 교육을 사용하여 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지에 교육하는 방법을 배울 수 있습니다.
 ms.technology: mdo
-ms.openlocfilehash: 10a4391cc901eaa51f7ff272b5b014fdb9e17dcd
-ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
+ms.openlocfilehash: 394a37baffb9961511b5a944a774b2083a384a58
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60907852"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962461"
 ---
 # <a name="simulate-a-phishing-attack-in-defender-for-office-365"></a>Defender에서 피싱 공격을 Office 365
 
@@ -29,7 +30,7 @@ Office 365 계획 2 또는 Microsoft 365 E5 Microsoft Defender의 공격 시뮬�
 
 시뮬레이트된 피싱 공격을 시작하기 위해 다음 단계를 수행합니다.
 
-1. 의 Microsoft 365 Defender 포털에서 전자 메일 & 공격 시뮬레이션 <https://security.microsoft.com/>  \> **교육** \> **시뮬레이션 탭으로 이동하세요.**
+1. 의 Microsoft 365 Defender 포털에서 전자 메일 & 공격 시뮬레이션 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">https://security.microsoft.com</a>  \> **교육** \> **시뮬레이션 탭으로 이동하세요.**
 
    시뮬레이션 탭으로 직접 **이동하기** 위해 를 <https://security.microsoft.com/attacksimulator?viewid=simulations> 사용합니다.
 

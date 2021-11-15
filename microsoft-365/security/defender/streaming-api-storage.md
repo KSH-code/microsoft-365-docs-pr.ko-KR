@@ -14,14 +14,15 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5573f9da541b62242ad5686672bedc86c7f9e6ac
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 159b4a41d423c2a7af3d367185e29af35a378b6b
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60210524"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963110"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 Microsoft 365 Defender 헌팅 이벤트를 사용자 계정으로 Storage 구성
 
@@ -41,7 +42,7 @@ ms.locfileid: "60210524"
 
 ## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍 사용
 
-1. * Microsoft 365 Defender 포털( )에 * 전역 관리자 _ 또는 _* 보안 <https://security.microsoft.com> 관리자 **로 _로그인합니다._
+1. *전역 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> **_** 또는 __*_ 보안 관리자 **로 로그인합니다.
 
 2. 스트리밍 **API 설정** \> **Microsoft 365 Defender** \> **로 이동 합니다.** 스트리밍 API 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/settings/mtp_settings/raw_data_export> 사용하세요.
 
@@ -85,7 +86,7 @@ ms.locfileid: "60210524"
 
 이벤트 속성에 대한 데이터 형식을 얻기 위해 다음을 합니다.
 
-1. Microsoft 365 Defender 포털()에 <https://security.microsoft.com> 로그인하고 헌팅 고급 헌팅으로  \> **이동합니다.** 고급 헌팅 **페이지로** 직접 이동하기 위해 헌팅 <security.microsoft.com/advanced-hunting>.
+1. 로그인하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a> Microsoft 365 Defender 헌팅 고급  \> **헌팅으로 이동합니다.** 고급 헌팅 **페이지로** 직접 이동하기 위해 헌팅 <security.microsoft.com/advanced-hunting>.
 
 2. 쿼리 **탭에서** 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
 
@@ -99,7 +100,7 @@ ms.locfileid: "60210524"
 
   ![이벤트 허브 리소스 ID3의 이미지입니다.](../defender-endpoint/images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [고급 헌팅 개요](../defender/advanced-hunting-overview.md)
 - [Microsoft 365 Defender 스트리밍 API](streaming-api.md)

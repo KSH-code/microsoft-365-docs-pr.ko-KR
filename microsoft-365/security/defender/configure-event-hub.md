@@ -18,14 +18,15 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 MS.technology: mde
-ms.openlocfilehash: bb45a15dd8931c5a7d9866b7b57ea84be0e0581a
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 71149412285d7d9540c80ef3ad89dc3b0a6a6208
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755376"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963062"
 ---
 # <a name="configure-your-event-hub"></a>이벤트 허브 구성
 
@@ -40,7 +41,7 @@ ms.locfileid: "60755376"
 
 1. [Azure 포털](https://portal.azure.com)에 로그인합니다.
 1. 구독 **선택**{ 이벤트 허브가 } 리소스 공급자에 배포될  >    >  **구독을 선택합니다.**
-1. **Microsoft.Insights** 공급자가 등록되어 있는지 확인하십시오. 그렇지 않으면 등록합니다.
+1. **Microsoft.Insights** 공급자가 등록되어 있습니다. 그렇지 않으면 등록합니다.
 
 ![리소스 공급자의 Microsoft Azure.](../../media/f893db7a7b1f7aa520e8b9257cc72562.png)
 
@@ -99,7 +100,7 @@ ms.locfileid: "60755376"
 > [!NOTE]
 > 이벤트 허브 클러스터에 없는 이벤트 허브  네임스페이스를 사용하는 경우 이벤트 허브 네임스페이스당 이벤트 허브가 10개로 제한되어 정의한 각 내보내기 작업에서 내보낼 이벤트 유형(테이블)설정 수 있습니다.
 
-예제:
+예를 들면
 
 ![예제 이벤트 허브의 이미지입니다.](../../media/005c1f6c10c34420d387f594987f9ffe.png)
 
@@ -119,7 +120,7 @@ ms.locfileid: "60755376"
 
 ### <a name="set-up-microsoft-365-defender-send-email-tables-to-splunk-via-event-hub"></a>이벤트 Microsoft 365 Defender Splunk로 전자 메일 테이블 보내기 설정
 
-1. 다음 역할 Microsoft 365 Defender 충족하는 계정으로 에 <https://security.microsoft.com> 로그인합니다.
+1. 다음 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">역할</a> Microsoft 365 Defender 충족하는 계정으로 로그인합니다.
 
     - 내보낼 이벤트 *허브에* 대한 이벤트 허브 네임스페이스 리소스 수준 이상에 대한 참가자 역할 이 권한이 없는 경우 설정을 저장하려고 하면 내보내기 오류가 발생합니다.
 

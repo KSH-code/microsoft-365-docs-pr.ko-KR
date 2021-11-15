@@ -14,16 +14,17 @@ audience: ITPro
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
+ms.custom: admindeeplinkDEFENDER
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: 4b359ee1905081396f382bf762f2c74e89acf5dd
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: a22850b6bc668e62e8db98884f61d264b529df79
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60587828"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963153"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>관리 센터를 방문하여 수정 작업 보기
 
@@ -47,7 +48,7 @@ ms.locfileid: "60587828"
 |---------|---------|
 |장치 및 전자 메일에 대해 보류 중인 작업과 완료된 작업을 한 위치에 나열합니다. <br/>([Endpoint용 Microsoft Defender와](microsoft-defender-endpoint.md) [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/office-365-atp))|장치에 대한 보류 중인 작업 및 완료된 작업 목록 <br/> [(끝점용 Microsoft Defender만 해당)](microsoft-defender-endpoint.md)   |
 |에 있습니다.<br/>[https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)         |에 있습니다.<br/>[https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center)     |
-| 보안 Microsoft 365 센터에서 **관리 센터 를 선택 합니다.** <p>:::image type="content" source="images/action-center-nav-new.png" alt-text="보안 센터의 관리 센터로 Microsoft 365."::: | In the Microsoft Defender 보안 센터, choose **Automated investigations**  >  **Action center**. <p>:::image type="content" source="images/action-center-nav-old.png" alt-text="Microsoft Defender 보안 센터.":::  |
+| 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 에서</a>관리 **센터 를 선택 합니다.** <p>:::image type="content" source="images/action-center-nav-new.png" alt-text="보안 센터의 관리 센터로 Microsoft 365."::: | In the Microsoft Defender 보안 센터, choose **Automated investigations**  >  **Action center**. <p>:::image type="content" source="images/action-center-nav-old.png" alt-text="Microsoft Defender 보안 센터.":::  |
 
 통합 관리 센터는 Endpoint용 Defender 및 2016용 Defender에 대한 수정 Office 365. 모든 수정 작업에 대한 공통 언어를 정의하고 통합 조사 환경을 제공합니다.
 
@@ -64,7 +65,7 @@ ms.locfileid: "60587828"
 
 향상된 보안 센터의 통합 Microsoft 365:
 
-1. 보안 Microsoft 365()로 이동하여 <https://security.microsoft.com> 로그인합니다.
+1. 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">센터로 Microsoft 365 로그인합니다.</a>
 2. 탐색 창에서 작업 센터 **를 선택합니다.**
 
 작업 센터를 방문하면 보류 중인 작업 및 **기록의 두 개의 탭이** **표시됩니다.** 다음 표에서는 각 탭에 표시하는 내용을 요약하여 제공합니다.

@@ -12,14 +12,15 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 65010f13ca5b1605d9bcec672c4e51270913d407
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 4c316c09ced5e38b51395faea7a84adccc2c2645
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883440"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962630"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
@@ -46,17 +47,17 @@ ms.locfileid: "60883440"
 
 - 보안 팀은 실제 블록 및 웹 사용 현황을 볼 수 있는 동일한 중앙 위치에 있는 웹 보고서에 액세스할 수 있습니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 이 기능을 시도하기 전에 다음 요구 사항을 충족하는지 확인합니다.
 
-- 구독에는 Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 Microsoft Defender for Endpoint 독립 실행형 라이선스. 
+- 구독에는 E5, Windows 10 Enterprise, Microsoft 365 E5, Microsoft 365 E5 Security Microsoft 365 E3 + Microsoft 365 E5 Security  추가 기능 또는 끝점 독립 실행형 라이선스용 Microsoft Defender 
 
-- 포털()에 Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
+- 포털 에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">액세스할 Microsoft 365 Defender 있습니다.</a>
 
 - 조직의 장치가 1주년 업데이트(Windows 10 1607) 이상 또는 최신 바이러스 백신/Windows 11 맬웨어 방지 업데이트로 [실행되고 있습니다.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
-- Windows Defender SmartScreen 및 네트워크 보호는 조직의 장치에서 사용하도록 설정됩니다.
+- Windows Defender 장치에서 SmartScreen 및 네트워크 보호를 사용할 수 있습니다.
 
 ## <a name="data-handling"></a>데이터 처리
 
@@ -64,7 +65,7 @@ ms.locfileid: "60883440"
 
 ## <a name="turn-on-web-content-filtering"></a>웹 콘텐츠 필터링 켜기
 
-왼쪽 탐색 메뉴에서 **끝점 설정** 고급 기능을 \>  \>  \> **선택합니다.** 웹 콘텐츠 필터링 항목이 표시될 때까지 아래로 **스크롤합니다.** 토글을 **켜기 및** 저장 기본 **설정으로 전환합니다.**
+Microsoft 365 Defender 포털의 왼쪽 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a>탐색에서 **끝점 설정** 고급 기능을 \>  \>  \> **선택합니다.** 웹 콘텐츠 필터링 항목이 표시될 때까지 아래로 **스크롤합니다.** 토글을 **켜기 및** 저장 기본 **설정으로 전환합니다.**
 
 ### <a name="configure-web-content-filtering-policies"></a>웹 콘텐츠 필터링 정책 구성
 
@@ -159,7 +160,7 @@ ms.locfileid: "60883440"
 
 새 정책을 추가하기 위해 다음 단계를 수행합니다.
 
-1. in the Microsoft 365 Defender portal ( [https://security.microsoft.com](https://security.microsoft.com) ), choose **설정** Web  >  **content filtering**  >  **+ Add policy**.
+1. 웹 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">에서</a>웹 **설정** 필터링 + 정책 추가 를  >    >  **선택하세요.**
 
 2. 이름을 지정합니다.
 
@@ -185,7 +186,7 @@ ms.locfileid: "60883440"
 
 사용자 지정 표시기를 정의하기 위해 다음 단계를 수행합니다.
 
-1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ) go to **설정** \> **Endpoints** \> **Indicators** \> **URL/Domain** \> **Add Item**.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>끝점 **표시기 URL/설정** 항목 추가 로 \>  \>  \>  \> **이동하십시오.**
 
 2. 사이트의 도메인을 입력합니다.
 

@@ -15,13 +15,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - remotework
+ms.custom: admindeeplinkDEFENDER
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다.
-ms.openlocfilehash: 071b89bf941bf1c572dc90e9befe6d6c29b33bc5
-ms.sourcegitcommit: cfcdb11cc5d39c6c71a34e09c03e8859cd6708d3
+ms.openlocfilehash: 91099106cd9c90b415382619ee9747b02033ff18
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60724718"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962538"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>보안 팀이 집에서 작업할 수 있는 상위 12개 작업
 
@@ -57,7 +58,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 |12 |[위협 모니터링 및 조치 수행](#12-monitor-for-threats-and-take-action)|![포함.](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
 
-시작하기 전에 보안 [센터에서](./defender/microsoft-secure-score.md) Microsoft 365 보안 점수를 Microsoft 365 합니다. 중앙 집중식 대시보드에서 ID, 데이터, 앱, 장치 및 인프라에 대한 Microsoft 365 모니터링하고 개선할 수 있습니다. 권장 보안 기능을 구성하거나, 보안 관련 작업(예: 보고서 보기)을 수행하거나, 타사 응용 프로그램 또는 소프트웨어를 사용하여 권장 사항을 해결하기 위한 포인트가 부여됩니다. 이 문서의 권장 작업은 점수를 높입니다.
+시작하기 전에 보안 [센터에서 Microsoft 365](./defender/microsoft-secure-score.md) 보안 점수를 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">합니다.</a> 중앙 집중식 대시보드에서 ID, 데이터, 앱, 장치 및 인프라에 대한 Microsoft 365 모니터링하고 개선할 수 있습니다. 권장 보안 기능을 구성하거나, 보안 관련 작업(예: 보고서 보기)을 수행하거나, 타사 응용 프로그램 또는 소프트웨어를 사용하여 권장 사항을 해결하기 위한 포인트가 부여됩니다. 이 문서의 권장 작업은 점수를 높입니다.
 
 ![Microsoft 보안 점수 스크린샷.](../media/secure-score.png)
 
@@ -82,10 +83,10 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 
 모든 Microsoft 365 계획에는 다양한 위협 방지 기능이 포함되어 있습니다. 이러한 기능에 대한 보호 기능을 강화하는 데 몇 분 정도 걸립니다.
 
-- 맬웨어 방지 보호 기능
+- 맬웨어 방지 보호
 - 악의적인 URL 및 파일로부터 보호
 - 피싱 방지 보호 기능
-- 스팸 방지 보호 기능
+- 스팸 방지 보호
 
 [시작점으로](office-365-security/protect-against-threats.md) 사용할 Office 365 지침은 보안 위협으로부터 보호를 참조하세요.
 
@@ -121,7 +122,7 @@ Microsoft Defender for Office 365:
 
 ## <a name="5-turn-on-microsoft-365-defender"></a>5: 설정 Microsoft 365 Defender
 
-이제 Microsoft Defender for Office 365 ID용 Microsoft Defender를 구성한 후 하나의 대시보드에서 이러한 기능의 결합된 신호를 볼 수 있습니다. [Microsoft 365 Defender](./defender/microsoft-365-defender.md) 경고, 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 창으로 security.microsoft.com [ ](https://security.microsoft.com).
+이제 Microsoft Defender for Office 365 ID용 Microsoft Defender를 구성한 후 하나의 대시보드에서 이러한 기능의 결합된 신호를 볼 수 있습니다. [Microsoft 365 Defender 경고,](./defender/microsoft-365-defender.md) 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">하나의 창으로 통합합니다. Microsoft 365 보안 센터</a>.
 
 ![MTP 대시보드 그림입니다.](../media/top-ten-security-remote-work-mtp-dashboard.png)
 
@@ -242,7 +243,7 @@ Microsoft 365 조직의 사용자에게 알리는 데 도움이 되는 다음 �
 
 ## <a name="12-monitor-for-threats-and-take-action"></a>12: 위협 모니터링 및 조치 수행
 
-Microsoft 365 상태를 모니터링하고 적절한 조치를 취하는 여러 가지 방법이 포함되어 있습니다. 가장 좋은 시작 지점은 조직의 Microsoft 보안 점수와 주의가 필요한 모든 경고 또는 엔터티를 볼 수 있는 Microsoft 365 보안 센터( [https://security.microsoft.com](https://security.microsoft.com) )입니다. [](./defender/microsoft-secure-score.md)
+Microsoft 365 상태를 모니터링하고 적절한 조치를 취하는 여러 가지 방법이 포함되어 있습니다. 가장 좋은 시작 지점은 조직의 [Microsoft](./defender/microsoft-secure-score.md)Microsoft 365 점수와 주의가 필요한 모든 경고 또는 엔터티를 볼 수 있는 보안 센터입니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a>
 
 - [사이트 포털 Microsoft 365 Defender 시작](./defender/microsoft-365-defender.md#the-microsoft-365-defender-portal)
 - [보안 포털을 Microsoft 365](./defender/portals.md)

@@ -12,14 +12,15 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 72385d19e6c734c06a8ac14c2de01a023db28d53
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 7a22d07919aaebc1373c5b330c51d720c25b4f8c
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60883344"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963134"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>ASR 규칙 배포 및 검색 최적화
 
@@ -38,7 +39,7 @@ ms.locfileid: "60883344"
 <br>
 *공격 표면 관리 카드*
 
-공격 *표면 관리 카드는* 다음에 사용할 수 있는 Microsoft 365 보안 센터의 도구 진입점입니다.
+공격 *표면 관리 카드는* 다음에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a> 사용할 수 있는 Microsoft 365 보안 센터의 도구 진입점입니다.
 
 * ASR 규칙이 현재 조직에 배포되는 방법을 이해합니다.
 * ASR 검색을 검토하고 가능한 잘못된 검색을 식별합니다.
@@ -52,7 +53,7 @@ ms.locfileid: "60883344"
 > [!NOTE]
 > 보안 Microsoft 365 액세스하려면 Microsoft 365 E3 또는 E5 라이선스와 특정 역할이 있는 계정이 Azure Active Directory. [필요한 라이선스 및 사용 권한에 대해 읽어 읽습니다.](/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)
 
-Microsoft 365 센터의 ASR 규칙 배포에 대한 자세한 내용은 ASR 규칙 배포 및 검색 모니터링 및 관리를 [참조하세요.](/office365/securitycompliance/monitor-devices#monitor-and-manage-asr-rule-deployment-and-detections)
+Microsoft 365 센터의 ASR 규칙 배포에 대한 자세한 내용은 ASR 규칙 배포 및 검색 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">모니터링 및</a>관리를 [참조하세요.](/office365/securitycompliance/monitor-devices#monitor-and-manage-asr-rule-deployment-and-detections)
 
 **관련 항목**
 

@@ -10,14 +10,15 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
+ms.custom: admindeeplinkDEFENDER
 description: 관리자는 Plan 2용 Microsoft Defender에서 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드를 Office 365 있습니다.
 ms.technology: mdo
-ms.openlocfilehash: 420642bfa8318f44548494b275b0dc617787f46a
-ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
+ms.openlocfilehash: 79e530a6635079bcf262b23e887f06ab5ebe79b3
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60899753"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962882"
 ---
 # <a name="create-custom-payloads-for-attack-simulation-training-in-defender-for-office-365"></a>Defender에서 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드를 Office 365
 
@@ -27,7 +28,7 @@ ms.locfileid: "60899753"
 
 이 문서에서는 공격 시뮬레이션 교육에서 직접 페이로드를 만드는 방법을 설명하고 있습니다. 다음 위치에서 사용자 지정 페이로드를 만들 수 있습니다.
 
-- **페이로드** 탭: 의 Microsoft 365 Defender 포털에서 전자 메일 & 공격 시뮬레이션 <https://security.microsoft.com/>  \> **교육** \> **페이로드 탭으로** 이동하세요. 페이로드 탭으로 직접 **이동하기** 위해 를 <https://security.microsoft.com/attacksimulator?viewid=payload> 사용합니다.
+- **페이로드** 탭: 의 Microsoft 365 Defender 포털에서 전자 메일 & 공격 시뮬레이션 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">https://security.microsoft.com</a>  \> **교육** \> **페이로드 탭으로** 이동하세요. 페이로드 탭으로 직접 **이동하기** 위해 를 <https://security.microsoft.com/attacksimulator?viewid=payload> 사용합니다.
 - 시뮬레이션을 만드는 동안: 시뮬레이션 만들기 마법사의 페이로드 선택 페이지(세 번째 페이지)에서 사용자 지정 페이로드를 만들 수 있습니다.  자세한 내용은 에 대한 Defender의 피싱 공격 [시뮬레이션을 Office 365.](attack-simulation-training.md)
 
 공격 시뮬레이션 교육에 대한 시작 정보는 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)

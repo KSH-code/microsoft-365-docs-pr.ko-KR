@@ -18,13 +18,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkCOMPLIANCE
+- admindeeplinkDEFENDER
 description: 보안 센터 또는 Microsoft 365 규정 준수 센터 Microsoft 365 Defender 보안 포털에서 경고 정책을 만들어 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링합니다.
-ms.openlocfilehash: afb186d0b0f1eb1073822261dafdb28ef839509d
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: f942420a18a9f0bef947e215754eb1c1164eb08a
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753946"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963038"
 ---
 # <a name="alert-policies-in-microsoft-365"></a>Microsoft 365의 알림 정책
 
@@ -68,7 +69,7 @@ Microsoft 365 규정 준수 센터 또는 Microsoft 365 Defender 포털에서 �
 
 ### <a name="microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털
 
-전자 메일 <https://security.microsoft.com> 관리 공동 **작업으로 이동하여** & **정책**& 경고  >  **정책 을 선택합니다.** 또는 으로 직접 이동하면 <https://security.microsoft.com/alertpolicies> 됩니다.
+보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 이동하고</a> 전자 메일 & **공동** 작업에서 정책 & **경고**  >  **정책 을 선택합니다.** 또는 으로 직접 이동하면 <https://security.microsoft.com/alertpolicies> 됩니다.
 
 ![Defender 포털에서 전자 메일 & 공동 작업에서 정책 정책 & 선택한 다음 경고 정책을 선택하여 경고 정책을 보고 생성합니다.](../media/LaunchAlertPoliciesDefenderPortal.png)
 
@@ -126,7 +127,7 @@ Microsoft는 관리자 권한 남용, Exchange, 잠재적인 외부 및 내부 �
 
 또한 이 표에는 각 요금제에 Office 365 Enterprise Office 365 미국 정부 계획의 기본 계획 및 기본 계획이 표시됩니다. 조직에 E1/F1/G1 또는 E3/F3/G3 구독 외에 적절한 추가 기능 구독이 있는 경우 일부 기본 경고 정책을 사용할 수 있습니다.
 
-| 기본 경고 정책 | 설명 | Category | Enterprise 구독 |
+| 기본 경고 정책 | 설명 | 범주 | Enterprise 구독 |
 |:-----|:-----|:-----|:-----|
 |**악의적인 URL 클릭이 감지되었습니다.**|조직의 링크로 보호된 사용자가 [](../security/office-365-security/safe-links.md) 금고 링크를 클릭할 때 경고를 생성합니다. 이 이벤트는 MICROSOFT Defender에서 URL Office 365 변경 내용이 식별되거나 사용자가 금고 링크 페이지를 Microsoft 365 비즈니스용 금고 정책에 따라 트리거됩니다. 이 경고 정책에는 **심각도 높은** 설정이 있습니다. Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 [Set up 금고 Links policies을 참조하십시오.](../security/office-365-security/set-up-safe-links-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
 |**관리자 전송 결과 완료**|관리 제출이 제출된 엔터티의 다시 검색을 완료하면 경고를 생성합니다. [](../security/office-365-security/admin-submission.md) 관리자 제출에서 다시 검색 결과가 렌더링될 때마다 경고가 트리거됩니다. 이러한 알림은 이전 제출의 [](https://compliance.microsoft.com/reportsubmission)결과를 검토하고, 사용자가 보고한 메시지를 제출하여 최신 정책 확인을 받아 결과를 다시 검사하고, 조직의 필터링 정책이 의도한 영향을 미치는지 확인하는 데 도움이 하도록 알리기 위한 것입니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리|E1/F1, E3/F3 또는 E5|
@@ -140,8 +141,8 @@ Microsoft는 관리자 권한 남용, Exchange, 잠재적인 외부 및 내부 �
 |**배달 후 제거된 전자 메일 메시지**|악의적인 엔터티(URL 또는 파일)를 포함하지 않는 악의적인 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md) 이 새 정책에 대한 자세한 내용은 Microsoft Defender for [Office 365.](new-defender-alert-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
 |**사용자가 맬웨어 또는 피싱 메일로 보고한 전자 메일**|조직의 사용자가 보고서 메시지 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고하면 경고를 생성합니다. 이 정책의 **심각도는** 낮음 설정입니다. 이 추가 기능의 자세한 내용은 보고서 메시지 추가 기능 [사용을 참조하세요.](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 에서 자동으로 자동화된 조사 [및 응답을 Office 365.](../security/office-365-security/office-365-air.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**전자 메일 보내기 제한 초과**|조직의 누군가가 아웃바운드 스팸 정책에서 허용하는 것보다 많은 메일을 보낸 경우 경고를 생성합니다. 이는 일반적으로 사용자가 너무 많은 전자 메일을 보내거나 계정이 손상될 수 있는 표시입니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 이 경고 정책에 의해 경고가 생성되는 경우 사용자 계정이 손상되어 있는지 [여부를 검사하는 것이 좋습니다.](../security/office-365-security/responding-to-a-compromised-email-account.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
-|**잠재적인 피싱 시도로 인해 양식이 차단됩니다.**|조직의 누군가가 반복되는 피싱 시도 동작으로 인해 Microsoft Forms를 사용하여 양식을 공유하고 응답을 수집할 수 제한되면 경고를 생성합니다. 이 정책에는 **심각도 높은 설정이** 있습니다.|위협 관리|E1, E3/F3 또는 E5|
-|**피싱으로 플래그가 지정 및 확인된 양식**|조직 내에서 Microsoft Forms에서 만든 양식이 보고서 남용을 통해 잠재적인 피싱으로 식별되고 Microsoft에서 피싱으로 확인되면 경고를 생성합니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|위협 관리|E1, E3/F3 또는 E5|
+|**잠재적인 피싱 시도로 인해 차단된 양식**|조직의 누군가가 반복되는 피싱 시도 동작으로 인해 Microsoft Forms를 사용하여 양식을 공유하고 응답을 수집할 수 제한되면 경고를 생성합니다. 이 정책에는 **심각도 높은 설정이** 있습니다.|위협 관리|E1, E3/F3 또는 E5|
+|**피싱으로 신고 및 확인된 양식**|조직 내에서 Microsoft Forms에서 만든 양식이 보고서 남용을 통해 잠재적인 피싱으로 식별되고 Microsoft에서 피싱으로 확인되면 경고를 생성합니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|위협 관리|E1, E3/F3 또는 E5|
 |**메시지가 지연된 경우**|커넥터를 사용하여 Microsoft가 전자 메일 메시지를 사용자 조직 또는 파트너 서버로 배달할 수 없는 경우 경고를 생성합니다. 이 경우 메시지가 큐에 Office 365. 이 경고는 2,000개 이상의 메시지가 1시간 이상 대기 중인 경우 트리거됩니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|메일 흐름|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**배달 후 검색된 맬웨어 캠페인**|맬웨어가 포함된 비정상적으로 많은 수의 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 감염된 메시지를 사서함에서 Exchange Online 제거합니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|위협 관리|E5/G5 또는 Microsoft Defender for Office 365 P2 추가 기능 구독|
 |**맬웨어 캠페인 검색 및 차단**|조직의 사용자에게 특정 유형의 맬웨어가 포함된 비정상적으로 많은 수의 전자 메일 메시지를 보내고 시도하면 경고가 생성됩니다. 이 이벤트가 발생하면 감염된 메시지가 Microsoft에서 차단되고 사서함으로 배달되지 않습니다. 이 정책의 **심각도는** 낮음 설정입니다.|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
@@ -182,7 +183,7 @@ Microsoft는 관리자 권한 남용, Exchange, 잠재적인 외부 및 내부 �
 
 ### <a name="microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털
 
-으로 <https://security.microsoft.com> 이동한 다음 **인시던트** 및 &  >  **경고를 선택합니다.** 또는 으로 직접 이동하면 <https://security.microsoft.com/alerts> 됩니다.
+보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 센터로</a> 이동한 다음 **인시던트**& 경고  >  **를 선택합니다.** 또는 으로 직접 이동하면 <https://security.microsoft.com/alerts> 됩니다.
 
 ![Microsoft 365 Defender 포털에서 경고에 대한 인시던트 & 선택한 다음 경고를 선택합니다.](../media/ViewAlertsDefenderPortal.png)
 
@@ -327,7 +328,7 @@ RBAC 사용 권한에 따라 이 디자인을 사용하면 조직의 특정 작�
 
 정책에 의해 트리거되는 Office 365 Cloud App Security 규정 준수 센터의  경고 페이지에 표시됩니다. 여기에는 활동 정책에 의해 트리거되는 경고와 해당 정책의 이상 검색 정책에 의해 트리거되는 경고가 Office 365 Cloud App Security. 즉, 준수 센터에서 모든 경고를 볼 수 있습니다. Office 365 Cloud App Security E5 또는 OFFICE 365 ENTERPRISE US Government G5 구독을 Office 365 조직에서만 사용할 수 있습니다. 자세한 내용은 Overview [of Cloud App Security.](/cloud-app-security/what-is-cloud-app-security)
 
-Microsoft Cloud App Security E5 Enterprise Mobility + Security 독립 실행형 서비스로 등록된 조직은 에서 Cloud App Security 앱 및 서비스와 관련된 Microsoft 365 알림을 볼 수도 있습니다. Microsoft 365 규정 준수 센터 또는 Microsoft 365 Defender 포털입니다.
+Microsoft Cloud App Security E5 구독의 일부로 또는 Enterprise Mobility + Security 독립 실행형 서비스로 등록된 조직은 Cloud App Security 및 서비스와 관련된 Microsoft 365 알림을 볼 수 있습니다. 에서 Microsoft 365 규정 준수 센터 Microsoft 365 Defender.
 
 준수 Cloud App Security Defender 포털에서 경고만 표시하려면 원본 필터를  사용하여 를 **Cloud App Security.**
 

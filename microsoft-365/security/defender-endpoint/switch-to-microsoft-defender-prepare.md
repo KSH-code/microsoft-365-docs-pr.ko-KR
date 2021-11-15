@@ -18,15 +18,17 @@ ms.collection:
 - m365solution-mcafeemigrate
 - m365solution-symantecmigrate
 ms.topic: article
-ms.custom: migrationguides
+ms.custom:
+- migrationguides
+- admindeeplinkDEFENDER
 ms.date: 10/07/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 0b5fb7ee6a10ef6aa0fc1448f805ff14d51c3582
-ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
+ms.openlocfilehash: 44b347248d5f9e42bba72a0aea7c315bf10a4245
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60245720"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960793"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>끝점용 Microsoft Defender로 전환 - 1단계: 준비
 
@@ -83,14 +85,14 @@ ms.locfileid: "60245720"
 
 4. 조직의 끝점(예: 장치)이 프록시를 사용하여 인터넷에 액세스하는 경우 Endpoint 설치용 [Defender: 네트워크 구성을 참조합니다.](production-deployment.md#network-configuration)
 
-이제 Microsoft 365 Defender 포털()을 사용할 보안 관리자 및 보안 운영자에 대한 액세스 권한을 부여할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
+이제 Microsoft 365 Defender 포털을 사용할 보안 관리자 및 보안 운영자에 대한 액세스 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">권한을 부여할 수 있습니다.</a>
 
 > [!NOTE]
-> Microsoft 365 Defender 포털을 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 이전 Microsoft Defender 보안 센터(는 곧 Microsoft 365 Defender https://securitycenter.windows.com) 포털로 리디렉션됩니다. 자세한 내용은 Microsoft 365 Defender [개요를 참조하세요.](portal-overview.md)
+> Microsoft 365 Defender 포털을 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">https://security.microsoft.com</a> 있습니다. 이전 Microsoft Defender 보안 센터(는 곧 Microsoft 365 Defender https://securitycenter.windows.com) 포털로 리디렉션됩니다. 자세한 내용은 Microsoft 365 Defender [개요를 참조하세요.](portal-overview.md)
 
 ## <a name="grant-access-to-the-microsoft-365-defender-portal"></a>웹 사이트 포털에 Microsoft 365 Defender 권한 부여
 
-Microsoft 365 Defender 포털()에서는 끝점용 Defender의 기능에 액세스하고 [https://security.microsoft.com](https://security.microsoft.com) 구성할 수 있습니다. 자세한 내용은 포털 [개요를 Microsoft 365 Defender 참조하세요.](use.md)
+Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털은</a> 끝점용 Defender의 기능에 액세스하고 구성하는 위치입니다. 자세한 내용은 포털 [개요를 Microsoft 365 Defender 참조하세요.](use.md)
 
 기본 사용 Microsoft 365 Defender RBAC(역할 기반 액세스 제어)를 사용하여 사이트 포털에 대한 사용 권한을 부여할 수 있습니다. 사용 권한을 보다 세밀하게 제어할 수 있도록 RBAC를 사용하는 것이 좋습니다.
 

@@ -14,16 +14,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9e3e658af5118d7a2d6ff565d52154e7be3f95fa
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: cf57eb6e08278625ac8887985a39d355266f47d5
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882696"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962930"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 보호
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 Microsoft Defender for Endpoint의 장치 제어 이동식 저장소 보호는 사용자, 끝점 또는 둘 다 권한이 없는 이동식 저장소 미디어를 사용하지 못하게 합니다.
 

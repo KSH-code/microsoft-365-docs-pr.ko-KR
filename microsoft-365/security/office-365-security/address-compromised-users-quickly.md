@@ -11,16 +11,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.date: 06/10/2021
 description: Microsoft Defender for Office 365 계획에서 자동화된 조사 및 응답 기능을 통해 손상된 사용자 계정을 검색하고 처리하는 프로세스를 Office 365 방법을 학습합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 22531f529834b6d309853e3d219c608e6af03cbb
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8561abc3477ccf0dd627b7d69f2761940972435d
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154593"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962894"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동화된 조사 및 응답을 통해 손상된 사용자 계정 해결
 
@@ -67,7 +68,7 @@ ms.locfileid: "60154593"
 
 제한된 사용자 목록으로의 몇 가지 옵션을 사용할 수 있습니다. 예를 들어 Microsoft 365 Defender 포털에서 전자 메일 & **검토** 제한된 사용자 \>  \> **검토로 이동하면 됩니다.** 다음 절차에서는 트리거될 수 있는 다양한 종류의 경고를 볼 수 있는 좋은 방법인 **Alerts** 대시보드를 사용하여 탐색에 대해 설명합니다.
 
-1. Microsoft 365 Defender 포털()을 열고 인시던트 및 & <https://security.microsoft.com>  \> **경고로 이동합니다.** 또는 경고 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/alerts> 사용하세요.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털을</a> 열고 **인시던트** 및 & \> **경고로 이동합니다.** 또는 경고 페이지로 직접 이동하기 위해 **를** <https://security.microsoft.com/alerts> 사용하세요.
 
 2. 알림 **페이지에서** 기간 및 전자 메일 보내기에서 **제한된 사용자라는 정책을 사용하여 결과를 필터링합니다.**
 

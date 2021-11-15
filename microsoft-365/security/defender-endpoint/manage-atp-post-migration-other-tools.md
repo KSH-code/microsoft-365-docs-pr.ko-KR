@@ -15,15 +15,16 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365solution-scenario
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.date: 09/23/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 2fe421e79efa7da204209e2df35d3be51bdbf6d1
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4109a7754cb277f615ba7dc337606d32fb191d1e
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60154780"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962750"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-powershell-wmi-and-mpcmdrunexe"></a>PowerShell, WMI 및 PowerShell을 사용하여 끝점에 대한 Microsoft Defender를 MPCmdRun.exe
 
@@ -39,7 +40,7 @@ ms.locfileid: "60154780"
 > 디바이스에 [](/mem) 대한 Microsoft Endpoint Manager 보호 기능을 관리하기 위해 이 기능을 사용하는 것이 좋습니다(끝점이라고도 참조). Endpoint Manager [포함된](/mem/intune/fundamentals/what-is-intune) Microsoft Intune [및](/mem/configmgr/core/understand/introduction)Microsoft Endpoint Configuration Manager.
 >
 > - [자세한 내용은 Endpoint Manager](/mem/endpoint-manager-overview)
-> - [Configuration Manager 및 Intune을 사용하여 11개 Windows 10 및 Windows 끝점에 대한 Microsoft Defender 공동 관리](manage-atp-post-migration-intune.md)
+> - [Configuration Manager 및 Intune을 사용하여 Windows 10 및 Windows 11 디바이스에서 Microsoft Defender를 공동 관리](manage-atp-post-migration-intune.md)
 > - [Intune을 사용하여 끝점용 Microsoft Defender 관리](manage-atp-post-migration-intune.md)
 
 [PowerShell Microsoft Defender 바이러스 백신](#configure-microsoft-defender-for-endpoint-with-powershell)WMI(Windows [Management Instrumentation)](#configure-microsoft-defender-for-endpoint-with-windows-management-instrumentation-wmi) 및 [Microsoft 맬웨어](#configure-microsoft-defender-for-endpoint-with-microsoft-malware-protection-command-line-utility-mpcmdrunexe) 보호 명령줄 유틸리티(MPCmdRun.exe)를 사용하여 디바이스에서 일부 MPCmdRun.exe. 예를 들어 일부 설정은 Microsoft Defender 바이러스 백신 있습니다. 또한 경우에 따라 공격 표면 감소 규칙을 사용자 지정하고 보호 설정을 악용할 수 있습니다.
@@ -68,7 +69,7 @@ WMI는 설정을 검색, 수정 및 업데이트할 수 있는 스크립팅 인�
 |작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
 |**장치에서 클라우드 제공** 보호 사용|[WMI(Windows 관리 지침)를 사용하여 클라우드 제공 보호를 사용하도록 설정](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-windows-management-instruction-wmi-to-enable-cloud-delivered-protection)|
-|**사용자 지정에 대한** 설정 검색, 수정 및 Microsoft Defender 바이러스 백신|[WMI를 사용하여 서버 구성 및 Microsoft Defender 바이러스 백신] (/windows/security/threat-protection/microsoft-defender-antivirus/use-wmi-microsoft-defender-antivirus <br/><br/> [사용 가능한 WMI 클래스 및 예제 스크립트 목록 검토](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal) <br/><br/> 또한 보관된 [WMIv2 Windows Defender 참조 정보도 참조하세요.](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal?redirectedfrom=MSDN)|
+|**사용자 지정에 대한** 설정 검색, 수정 및 Microsoft Defender 바이러스 백신|[WMI를 사용하여 Microsoft Defender 바이러스 백신 구성 및 관리](/windows/security/threat-protection/microsoft-defender-antivirus/use-wmi-microsoft-defender-antivirus <br/><br/> [사용 가능한 WMI 클래스 및 예제 스크립트 목록 검토](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal) <br/><br/> 또한 보관된 [WMIv2 Windows Defender 참조 정보도 참조하세요.](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal?redirectedfrom=MSDN)|
 
 ## <a name="configure-microsoft-defender-for-endpoint-with-microsoft-malware-protection-command-line-utility-mpcmdrunexe"></a>Microsoft 맬웨어 보호 유틸리티(Command-Line 유틸리티)를 사용하여 끝점에 대한 Microsoft Defender MPCmdRun.exe)
 
@@ -78,7 +79,7 @@ WMI는 설정을 검색, 수정 및 업데이트할 수 있는 스크립팅 인�
 
 ## <a name="configure-your-microsoft-365-defender-portal"></a>사용자 Microsoft 365 Defender 구성
 
-아직 수행하지 않은 경우 경고를 [보고Microsoft 365 Defender](https://security.microsoft.com/) 위협 방지 기능을 구성하고 조직의 전반적인 보안 상태와 관련한 자세한 정보를 볼 수 있도록 Microsoft 365 Defender 포털을 구성합니다.
+아직 수행하지 않은 경우 경고를 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">보고Microsoft 365 Defender</a> 위협 방지 기능을 구성하고 조직의 전반적인 보안 상태와 관련한 자세한 정보를 볼 수 있도록 Microsoft 365 Defender 포털을 구성합니다.
 
 또한 최종 사용자가 2013에서 볼 수 있는 기능의 여부와 기능을 Microsoft Defender 보안 센터.
 

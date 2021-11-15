@@ -20,13 +20,15 @@ ms.collection:
 ms.topic: how-to
 ms.date: 10/19/2021
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
-ms.custom: FPFN
-ms.openlocfilehash: 8023bcea4eb12689706790af41ead359e302898d
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.custom:
+- FPFN
+- admindeeplinkDEFENDER
+ms.openlocfilehash: 8dae7d3ce3c9473f99d8060dd35c3c6c4af1ea39
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882864"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962473"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에서 가양성/가음성 문제 해결
 
@@ -65,7 +67,7 @@ ms.locfileid: "60882864"
 
 경고를 분류하거나 표시하지 말고 경고가 정확한지, 가음성인지 또는 양성인지 여부를 결정해야 합니다.
 
-1. Microsoft 365 Defender 포털()로 <https://security.microsoft.com> 이동하여 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털로 이동하여</a> 로그인합니다.
 
 2. 탐색 창에서 경고 큐 **를 선택 합니다.**
 
@@ -85,7 +87,7 @@ ms.locfileid: "60882864"
 
 알림은 알림에서 가짓 긍정 또는 참 긍정으로 분류될 Microsoft 365 Defender. 경고를 분류하면 시간이 지날수록 더 많은 참 경고와 더 적은 거짓 경고를 볼 수 있도록 끝점에 대해 Microsoft Defender를 교육하는 데 도움이 됩니다.
 
-1. Microsoft 365 Defender 포털()로 <https://security.microsoft.com> 이동하여 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털로 이동하여</a> 로그인합니다.
 
 2. 경고 **큐 를** 선택한 다음 경고를 선택합니다.
 
@@ -100,7 +102,7 @@ ms.locfileid: "60882864"
 
 가음성 또는 참 긍정이지만 미미한 이벤트에 대한 경고가 있는 경우 경고를 표시하지 Microsoft 365 Defender. 경고를 표시하지는 것은 보안 작업 대시보드에서 노이즈를 줄이는 데 도움이 됩니다.
 
-1. Microsoft 365 Defender 포털()로 <https://security.microsoft.com> 이동하여 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털로 이동하여</a> 로그인합니다.
 
 2. 탐색 창에서 경고 큐 **를 선택합니다.**
 
@@ -126,7 +128,7 @@ ms.locfileid: "60882864"
 
 바이러스 백신 검사 시작 또는 조사 패키지 수집과 같은 기타 작업은 수동 또는 [라이브 응답을 통해 수행됩니다.](live-response.md) Live Response를 통해 수행된 작업은 다시 수행할 수 없습니다.
 
-알림을 검토한 후 다음 단계는 수정 작업을 [검토하는 것입니다.](manage-auto-investigation.md) 가짓 긍정으로 인해 작업이 수행된 경우 대부분의 종류의 수정 작업을 취소할 수 있습니다. 특히 다음을 할 수 있습니다.
+알림을 검토한 후 다음 단계는 수정 작업을 [검토하는 것입니다.](manage-auto-investigation.md) 가짓 긍정으로 인해 작업이 수행된 경우 대부분의 종류의 수정 작업을 취소할 수 있습니다. 특히 다음을 수행할 수 있습니다.
 
 - [작업 센터에서 고지된 파일 복원](#restore-a-quarantined-file-from-the-action-center)
 - [한 번씩 여러 작업 취소](#undo-multiple-actions-at-one-time)
@@ -137,7 +139,7 @@ ms.locfileid: "60882864"
 
 ### <a name="review-completed-actions"></a>완료된 작업 검토
 
-1. 포털의 왼쪽 탐색 창에서 Microsoft 365 Defender **센터를 클릭합니다.**
+1. 사이트 포털의 왼쪽 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">탐색 창에서</a>Microsoft 365 Defender **센터 를 클릭합니다.**
 
 2. 사용 기록 **탭을** 선택하여 수행된 작업 목록을 볼 수 있습니다.
 
@@ -153,7 +155,7 @@ ms.locfileid: "60882864"
 
 ### <a name="undo-multiple-actions-at-one-time"></a>한 번씩 여러 작업 취소
 
-1. 포털의 왼쪽 탐색 창에서 Microsoft 365 Defender **센터를 클릭합니다.**
+1. 사이트 포털의 왼쪽 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">탐색 창에서</a>Microsoft 365 Defender **센터 를 클릭합니다.**
 
 2. 사용 **기록 탭에서** 취소할 작업을 선택합니다.
 
@@ -164,7 +166,7 @@ ms.locfileid: "60882864"
 > [!div class="mx-imgBorder"]
 > ![파일을 Quarantine file.](images/autoir-quarantine-file-1.png)
 
-1. 포털의 왼쪽 탐색 창에서 Microsoft 365 Defender **센터를 클릭합니다.**
+1. 사이트 포털의 왼쪽 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">탐색 창에서</a>Microsoft 365 Defender **센터 를 클릭합니다.**
 
 2. 사용 기록 **탭에서** 작업 유형이 **Quarantine** file인 파일을 선택합니다.
 
@@ -208,7 +210,7 @@ ms.locfileid: "60882864"
 
 ### <a name="exclusions-for-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신
 
-일반적으로는 사용자에 대한 제외를 정의할 필요가 Microsoft Defender 바이러스 백신. 제외는 반드시 정의해야 합니다. 그리고 가을의 결과로 생성되는 파일, 폴더, 프로세스 및 프로세스에서 연 파일만 포함해야 합니다. 또한 정의된 제외를 정기적으로 검토해야 합니다. 바이러스 백신 제외 [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) 정의하거나 편집하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
+일반적으로는 사용자에 대한 제외를 정의할 필요가 Microsoft Defender 바이러스 백신. 제외는 반드시 정의해야 합니다. 그리고 가을의 결과로 생성되는 파일, 폴더, 프로세스 및 프로세스에서 연 파일만 포함해야 합니다. 또한 정의된 제외를 정기적으로 검토해야 합니다. 이 Microsoft Endpoint Manager [](/mem/endpoint-manager-overview) 사용하여 바이러스 백신 제외를 정의하거나 편집하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 방법을 사용할 수 [](/azure/active-directory-domain-services/manage-group-policy) [있습니다(끝점용 Microsoft Defender 관리](manage-atp-post-migration.md)참조).
 
 > [!TIP]
 > 바이러스 백신 제외에 대한 도움이 필요하세요? 자세한 [내용은 Configure and validate exclusions for Microsoft Defender 바이러스 백신 참조.](configure-exclusions-microsoft-defender-antivirus.md)
@@ -352,7 +354,7 @@ IP 주소, URL 또는 도메인에 대한 표시기를 만들기 전에 다음 �
 > [!TIP]
 > 클라우드 제공 보호 구성에 대한 자세한 내용은 클라우드 제공 보호 수준 [지정을 참조합니다.](/windows/security/threat-protection/microsoft-defender-antivirus/specify-cloud-protection-level-microsoft-defender-antivirus)
 
-클라우드 제공 보호 [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) 편집하거나 설정하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
+클라우드 [제공](/mem/endpoint-manager-overview) 보호 Microsoft Endpoint Manager 편집하거나 설정하는 것이 좋습니다. 그러나 그룹 정책과 같은 [](/azure/active-directory-domain-services/manage-group-policy) 다른 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리](manage-atp-post-migration.md)참조).
 
 #### <a name="use-microsoft-endpoint-manager-to-review-and-edit-cloud-delivered-protection-settings-for-existing-policies"></a>이 Microsoft Endpoint Manager 사용하여 클라우드 제공 보호 설정 검토 및 편집(기존 정책의 경우)
 
@@ -396,7 +398,7 @@ PUA(사용자 없이도 사용 가능한 응용 프로그램)는 장치가 느�
 
 조직에서 사용하는 앱에 따라 PUA 보호 설정의 결과로 가극적 긍정을 가지게 될 수 있습니다. 필요한 경우 한 동안 감사 모드에서 PUA 보호를 실행하거나 조직의 디바이스 하위 집합에 PUA 보호를 적용하는 것이 좋습니다. PUA 보호는 MICROSOFT EDGE 및 사용자에 대해 구성할 수 Microsoft Defender 바이러스 백신.
 
-PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집하거나 설정하는 것이 좋습니다. 그러나 그룹 정책과 같은 다른 [](/azure/active-directory-domain-services/manage-group-policy) 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리 참조).](manage-atp-post-migration.md)
+PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집하거나 설정하는 것이 좋습니다. 그러나 그룹 정책과 같은 [](/azure/active-directory-domain-services/manage-group-policy) 다른 방법을 사용할 수 [있습니다(끝점용 Microsoft Defender 관리](manage-atp-post-migration.md)참조).
 
 #### <a name="use-microsoft-endpoint-manager-to-edit-pua-protection-for-existing-configuration-profiles"></a>추가 Microsoft Endpoint Manager 사용하여 PUA 보호 편집(기존 구성 프로필의 경우)
 
@@ -448,7 +450,7 @@ PUA [보호](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 편집�
 
 이 문서의 모든 단계를 수행한 후 여전히 도움이 필요한 경우 기술 지원에 문의하세요.
 
-1. 다음으로 Microsoft 365 Defender <https://security.microsoft.com> ( ) 로 이동하고 로그인합니다.
+1. 이동하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> 로그인합니다.
 
 2. 오른쪽 위 모서리에서 물음표(**?**)를 선택한 다음 Microsoft 지원 **을 선택합니다.**
 

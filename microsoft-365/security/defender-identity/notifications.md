@@ -6,13 +6,14 @@ ms.topic: how-to
 author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
+ms.custom: admindeeplinkDEFENDER
 manager: raynew
-ms.openlocfilehash: dfb3c5e1edbbf77a95a1e1d5888b070a12bfd7a7
-ms.sourcegitcommit: f88a0ec621e7d9bc5f376eeaf70c8a9800711f88
+ms.openlocfilehash: b33ee0f59ca02d305ec703ab47aa1d0f2f95b8da
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353625"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963338"
 ---
 # <a name="defender-for-identity-notifications-in-microsoft-365-defender"></a>2013의 ID 알림에 대한 defender Microsoft 365 Defender
 
@@ -30,7 +31,7 @@ ms.locfileid: "59353625"
 
 다음 Microsoft 365 Defender Id에 대한 Defender의 상태 문제 전자 메일 알림에 대한 받는 사람을 추가할 수 있습니다.
 
-1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a>에서  설정 **ID로 이동합니다.**
 
     ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
@@ -51,7 +52,7 @@ ms.locfileid: "59353625"
 
 검색된 Microsoft 365 Defender 전자 메일 알림에 대한 받는 사람을 추가할 수 있습니다.
 
-1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a>에서  설정 **ID로 이동합니다.**
 
     ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
@@ -65,7 +66,7 @@ ms.locfileid: "59353625"
 
 ID에 대한 Defender는 지명된 센서를 통해 Syslog 서버에 보안 및 상태 알림을 보내 의심스러운 활동을 감지할 때 이를 알릴 수 있습니다.
 
-1. 에서 [Microsoft 365 Defender](https://security.microsoft.com/)에서  설정 **ID로 이동합니다.**
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a>에서  설정 **ID로 이동합니다.**
 
     ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 

@@ -11,15 +11,16 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: conceptual
 ms.technology: mde
 ms.date: 11/02/2021
-ms.openlocfilehash: e62f40b7d7b0d1f194c1549173edcb3ec3ec3634
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: b9634b616214d62a540ffba59fabd4996de3c3b6
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882720"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962485"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어
 
@@ -35,7 +36,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 |권한|사용 권한|
 |---|---|
-|액세스|읽기, 쓰기, 실행|
+|접근|읽기, 쓰기, 실행|
 |작업 모드|감사, 허용, 방지|
 |CSP 지원|예|
 |GPO 지원|예|
@@ -48,7 +49,7 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제�
 
 - **4.18.2104** 이상 : SerialNumberId 추가, VID_PID, 파일 경로 기반 GPO 지원, ComputerSid
 - **4.18.2105** 이상 : HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId에 대한 와일드카드 지원 추가, 특정 컴퓨터의 특정 사용자 조합, 제거 가능한 SSD(SanDisk Extreme SSD)/UAS(USB 연결된 SCSI) 지원
-- **4.18.2107** 이상: WPD(Windows 이동식 장치) 지원 추가(태블릿 등의 모바일 장치용) 고급 헌팅에 AccountName [추가](device-control-removable-storage-access-control.md#view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint)
+- **4.18.2107** 이상: Windows 이동식 장치(태블릿) 지원 추가(태블릿 등의 모바일 장치용) 추가, 고급 헌팅에 AccountName [추가](device-control-removable-storage-access-control.md#view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint)
 
 :::image type="content" source="images/powershell.png" alt-text="PowerShell 인터페이스.":::
 
@@ -146,7 +147,7 @@ Microsoft Defender for Endpoint 이동식 Storage 액세스 제어에 익숙해�
 
     :::image type="content" source="images/usage-sid-property.png" alt-text="SID 속성 특성의 사용을 나타내는 코드를 표시하는 화면입니다.":::
 
-3. 네트워크 공유 폴더에 규칙 및 그룹 XML 파일을 저장하고 네트워크 공유 폴더 경로를 그룹 정책 설정에 넣습니다. **컴퓨터** 구성 관리 템플릿 Windows 구성 요소 Microsoft Defender 바이러스 백신 장치 \>  \>  \>  \> 제어: **'장치** 제어 정책 그룹 정의' 및 **'장치 제어 정책 정의' rules'**.
+3. 네트워크 공유 폴더에 규칙 및 그룹 XML 파일을 저장하고 네트워크 공유 폴더 경로를 그룹 정책 설정에 넣습니다. **컴퓨터** 구성 관리 템플릿 Windows 구성 요소 Microsoft Defender 바이러스 백신 장치 \>  \>  \>  \> 제어: **'장치** 제어 **정책 그룹 정의' 및 '장치 제어 정책 규칙 정의'**.
 
    그룹 정책에서 정책 구성 UX를 찾을 수 없는 경우 원시를 선택한 다음 로 저장을 선택하여  [WindowsDefender.adml](https://github.com/microsoft/mdatp-devicecontrol/blob/main/Removable%20Storage%20Access%20Control%20Samples/WindowsDefender.adml) 및 [WindowsDefender.admx](https://github.com/microsoft/mdatp-devicecontrol/blob/main/Removable%20Storage%20Access%20Control%20Samples/WindowsDefender.admx) 파일을 다운로드할 **수 있습니다.**
 

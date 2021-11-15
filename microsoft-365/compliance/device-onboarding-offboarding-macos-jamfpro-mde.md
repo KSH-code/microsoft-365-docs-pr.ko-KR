@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Defender for Endpoint 고객을 위한 JAMF Pro 사용하여 macOS 장치를 Microsoft 365 준수 솔루션에 온보딩하고 오프보딩하는 방법(미리 보기)
-ms.openlocfilehash: 31ff2803a1180d7a43b462f3a78cc52c894f23a6
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: cfe008e7d1334be58e9aabf45d441b2553cb0fe2
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792319"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963314"
 ---
 # <a name="onboard-and-offboard-macos-devices-into-compliance-solutions-using-jamf-pro-for-microsoft-defender-for-endpoint-customers-preview"></a>엔드포인트용 Microsoft Defender 고객을 위한 JAMF Pro를 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
 
@@ -28,14 +28,10 @@ JAMF 디바이스를 사용하여 Pro 규정 준수 솔루션에 macOS 장치를
 > [!IMPORTANT]
 > MacOS  장치에 끝점용 Microsoft Defender(MDE)를 배포한 경우 이 절차를 사용합니다.
 
-## <a name="get-registered"></a>등록하기
-
-이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/EndpointDLPIgnite21-Previews)
-
 **적용 대상:**
 
 - MDE가 macOS 장치에 배포된 고객.
-- [Microsoft 365 끝점 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
+- [Microsoft 365 엔드포인트 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
 - [내부자 위험 관리](insider-risk-management.md#learn-about-insider-risk-management-in-microsoft-365)
 
 

@@ -11,14 +11,15 @@ ms.service: O365-seccomp
 ms.collection:
 - m365-security-compliance
 - m365initiative-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.localizationpriority: medium
 description: 2013에서 규정 준수를 빠르게 시작하는 데 도움이 되는 작업에 대해 Microsoft 365.
-ms.openlocfilehash: 422459bb9831fff265e67c3887fab4288f468f0f
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: 640569aef5ed1b632d11523af1d73321579f276e
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335445"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963014"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 
@@ -47,7 +48,7 @@ ms.locfileid: "60335445"
 > [!IMPORTANT]
 > 보안 및 규정 준수는 대부분의 조직에 긴밀하게 통합되어 있습니다. 조직에서 기본 보안, 위협 방지 및 ID 및 액세스 관리 영역을 해결하여 보안 및 규정 준수에 대한 심층 방어를 제공하는 것이 중요합니다.
 >
-> Microsoft 365 [보안](../security/defender/microsoft-secure-score.md) 센터에서 Microsoft 365 보안 점수를 확인하고 다음 문서에 설명된 작업을 완료합니다.
+> Microsoft 365 [보안](../security/defender/microsoft-secure-score.md) 센터에서 Microsoft 365 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a> 점수를 확인하고 다음 문서에 설명된 작업을 완료합니다.
 >
 > - [보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위](../security/office-365-security/security-roadmap.md)
 > - [보안 팀이 집에서 작업할 수 있는 상위 12개 작업](../security/top-security-tasks-for-remote-work.md)
@@ -156,6 +157,6 @@ DLP 정책을 구성하기 위한 단계별 지침은 DLP 정책 만들기, 테�
 
 더 많은 직원이 광범위한 플랫폼 및 서비스에서 데이터를 만들고 관리하고 공유할 수 있는 액세스 권한을 늘려가고 있습니다. 대부분의 경우 조직은 규정 준수 요구 사항 및 직원 개인 정보 보호 표준을 충족하면서 조직 전체의 위험을 식별하고 완화할 수 있는 제한된 리소스와 도구가 있습니다. 이러한 위험에는 직원을 퇴사하여 데이터 도난 및 실수로 과도하게 공유하거나 악의적인 의도로 조직 외부의 정보가 누출될 수 있습니다.
 
-[Microsoft 365](insider-risk-management-policies.md) 내부자 위험 관리는 모든 서비스 및 제3자 지표를 사용하여 위험한 사용자 활동을 빠르게 식별, 평가 및 작업할 수 있도록 합니다. 내부자 위험 관리는 Microsoft 365 Microsoft Graph 사용하여 위험 지표를 식별하고 이러한 위험을 완화하기 위한 조치를 취할 수 있는 특정 정책을 정의할 수 있습니다.
+[Microsoft 365](insider-risk-management-policies.md) 내부자 위험 관리는 모든 서비스 및 제3자 지표를 사용하여 위험한 사용자 활동을 빠르게 식별, 평가 및 작업할 수 있도록 합니다. Microsoft 365와 Microsoft Graph 로그를 사용해 내부자 위험 관리는 위험 지표를 식별하고 이러한 위험을 완화하기 위한 조치를 취할 수 있도록 특정 정책을 정의합니다.
 
 내부자 위험 관리 정책을 계획하고 구성하는 단계별 지침은 [Plan for insider risk management](insider-risk-management-plan.md) 및 Get [started with insider risk management을 참조하세요.](insider-risk-management-configure.md) 내부자 위험 관리 라이선스 정보는 보안 Microsoft 365 규정 준수에 대한 & [참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#insider-risk-management)

@@ -14,14 +14,15 @@ ms.collection: M365-security-compliance
 ms.custom:
 - Ent_TLGs
 - admindeeplinkMAC
+- admindeeplinkDEFENDER
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경용 웹 응용 Microsoft 365 보존 레이블을 만들고 사용할 수 있습니다.
-ms.openlocfilehash: 6f6e57ec31d889fac031caf6cb6be94f483a93e9
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 517183ca8e61415ec2817683c4a1ce88c251301b
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60198508"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962570"
 ---
 # <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경에 Microsoft 365 데이터 분류
 
@@ -80,7 +81,7 @@ ms.locfileid: "60198508"
 
 먼저 온라인 팀 SharePoint 중요한 수준으로 만들어야 합니다.
   
-1. 브라우저의 개인 인스턴스를 사용하여 전역 관리자 계정을 [Microsoft 365 관리 센터](https://admin.microsoft.com) 로그인합니다.
+1. 브라우저의 개인 인스턴스를 사용하여 전역 관리자 계정을 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 로그인합니다.
 1. 타일 목록에서 를 **SharePoint.**
 1. 브라우저의 **새** SharePoint 탭에서 사이트 **만들기 를 선택합니다.**
 1. 사이트 **만들기 페이지에서** 팀 사이트를 **선택합니다.**

@@ -14,14 +14,15 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 936f92b796db275eaaf697a4028e670b902c6e5d
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 4965936f4619f7fad76df203c97e4674ef408a39
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60205082"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963103"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hub"></a>Azure Microsoft 365 Defender 고급 헌팅 이벤트를 스트리밍하도록 구성
 
@@ -53,7 +54,7 @@ ms.locfileid: "60205082"
 
 ## <a name="enable-raw-data-streaming"></a>원시 데이터 스트리밍 사용
 
-1. * Microsoft 365 Defender [](https://security.microsoft.com) 보안 센터에 ***전역** 관리자 _ 또는 _* 보안 관리자 **로 _로그인합니다._
+1. *전역 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> **_** 또는 __*_ 보안 관리자 **로 로그인합니다.
 
 2. 스트리밍 [API 설정 페이지로 이동합니다.](https://security.microsoft.com/settings/mtp_settings/raw_data_export)
 
@@ -103,7 +104,7 @@ ms.locfileid: "60205082"
 
 이벤트 속성에 대한 데이터 형식을 얻습니다.
 
-1. Microsoft 365 Defender [포털에 로그인하고](https://security.microsoft.com) 고급 헌팅 [페이지로 이동합니다.](https://security.microsoft.com/hunting-package)
+1. 로그인하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank"></a> Microsoft 365 Defender [헌팅 페이지로 이동합니다.](https://security.microsoft.com/hunting-package)
 
 2. 다음 쿼리를 실행하여 각 이벤트에 대한 데이터 형식 매핑을 구합니다.
 
@@ -117,7 +118,7 @@ ms.locfileid: "60205082"
 
   ![이벤트 허브 리소스 Id2의 이미지입니다.](../defender-endpoint/images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [Microsoft 365 Defender 스트리밍 API](streaming-api.md)

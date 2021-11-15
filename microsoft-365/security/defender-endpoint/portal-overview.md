@@ -14,14 +14,15 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c53cce4cb12d08d59b09b041883531b4dee11ce9
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 01914a99c627237568cadbc5b5a3f6205ac3ce55
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60554939"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963410"
 ---
 # <a name="microsoft-365-defender-portal-overview"></a>Microsoft 365 Defender 포털 개요
 
@@ -37,7 +38,7 @@ ms.locfileid: "60554939"
 
 Enterprise 보안 팀은 보안 팀을 사용하여 Microsoft 365 Defender 지속적인 잠재적인 위협 활동 또는 데이터 위반 경고에 대한 대응을 모니터링하고 지원할 수 있습니다.
 
-다음을 위해 [Microsoft 365 Defender](https://security.microsoft.com) 있습니다.
+다음을 위해 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> 있습니다.
 
 - 끝점에서 경고 보기, 정렬 및 분류
 - 파일 및 IP 주소와 같은 관찰된 지표에 대한 자세한 정보 검색
@@ -130,7 +131,7 @@ Enterprise 보안 팀은 보안 팀을 사용하여 Microsoft 365 Defender 지�
 ![가능한 활성 경고 아이콘입니다.](images/tvm_alert_icon.png)|위협 & 취약성 관리 - 가능한 활성 경고
 ![추천 인사이트 아이콘.](images/tvm_insight_icon.png)|위협 & 취약성 관리 - 권장 정보
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [개요 Microsoft 365 Defender](use.md)
 - [보안 작업 대시보드 보기](security-operations-dashboard.md)

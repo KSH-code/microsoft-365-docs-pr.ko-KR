@@ -19,12 +19,12 @@ ms.collection:
 recommendations: false
 description: DLP(데이터 손실 방지) 정책에 정책 팁을 추가하여 사용자에게 DLP 정책과 충돌하는 콘텐츠를 사용 중일 때 이를 알리는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: f4aeefca80412c225da1b2f589d109355be21305
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 227a6438bf1eb645e5bd85acfafeb8222d0b1427
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701986"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963242"
 ---
 # <a name="data-loss-prevention-policy-tips-reference"></a>데이터 손실 방지 정책 팁 참조
 
@@ -394,14 +394,14 @@ Outlook Web Access의 DLP 정책 팁은 다음을 제외한 DLP 정책의 Exchan
 
 |**앱 및 플랫폼**|**DLP 정책 팁 지원**|**지원되는 중요한 정보 유형**|**지원되는 사전 및 작업**|**Comments**|
 |:--|:--|:--|:--|:--|
-|**Outlook 웹에서**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|하위 집합||
-|**Outlook Win32(ver. 2105 빌드 14026.20000 및 반기 채널 ver. 2102 빌드 13801.20862)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|하위 집합|Outlook [2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) 이상에서는 일부 조건 및 예외에 대한 정책 팁만 표시하고 [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) 이상 및 데스크톱의 Office 앱 지원 지원에서는 중요한 정보 유형 및 DLP 조건에 대한 지원에 대한 자세한 내용과 Outlook Win32에 대한 DLP 정책 팁을 표시하는 데 지원되는 작업에 대한 일부 중요한 정보 유형에 대한 정책 팁만 보여 주실 수 있습니다. .|
-|**Outlook 모바일(iOS, Android)/Outlook Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|DLP 정책 팁은 모바일에서 Outlook 지원되지 않습니다.|
-|**SharePoint 온라인/비즈니스용 OneDrive 웹 클라이언트**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|DLP의 모든 SPO/ODB 프레디트 및 작업||
+|**Outlook 웹에서 사용**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|하위 집합||
+|**Outlook Win32(ver. 2105 빌드 14026.20000 및 반기 채널 ver. 2102 빌드 13801.20862)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|하위 집합|하위 집합|자세한 내용은 [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) 이상을 참조하세요. 일부 조건 및 예외에 대한 정책 팁만 표시하고 [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) 이상 및 데스크톱의 Office 앱 지원 지원에서는 중요한 정보 유형 및 DLP 조건에 대한 지원에 대한 자세한 내용은 일부 중요한 정보 유형에 대한 정책 팁과 해당 정책 팁을 표시하는 데 지원되는 작업만 Outlook  Win32.|
+|**Outlook Mobile(iOS, Android)/Outlook Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|DLP 정책 팁은 모바일에서 Outlook 지원되지 않습니다.|
+|**SharePoint/비즈니스용 OneDrive 웹 클라이언트**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|DLP의 모든 SPO/ODB 프레디트 및 작업||
 |**SharePoint Win32/ 비즈니스용 OneDrive Win32 클라이언트**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|DLP 정책 팁은 데스크톱 클라이언트 SharePoint OneDrive 지원되지 않습니다.|
 |**Word, Excel, PowerPoint 웹 클라이언트**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|DLP의 모든 SPO/ODB 프레디트 및 작업|문서가 SPO 또는 ODB 웹앱에 호스트되어 있으며 DLP 정책이 이미 스탬프 처리된 경우 DLP 정책 팁이 지원됩니다.|
 |**Word, Excel, PowerPoint Mobile 클라이언트**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|DLP 정책 팁은 모바일 앱에 지원되지 Office.|
-|**Teams Web/Teams Desktop/Teams Mobile/Teams Mac**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|모든 Teams DLP 정책의 모든 Teams|정책 팁은 메시지가 "이 메시지에 플래그가 지정된 경우 표시됩니다. 어떻게 해야 나요?" 링크를 클릭할 때 사용자는 감지된 중요한 정보 유형을 검토하고 관리자가 허용하는 경우 문제를 재지정하거나 보고할 수 있습니다. 파일에 대한 정책 팁은 표시하지 않습니다. 받는 사람이 문서에 액세스하는 경우 허용되지 않는 경우 액세스가 거부될 수 있습니다.|
+|**Teams/ Teams Desktop/Teams Mobile/Teams Mac**|:::image type="icon" source="../media/rightmrk.png" border="false":::|all|모든 Teams DLP 정책의 모든 Teams|정책 팁은 메시지가 "이 메시지에 플래그가 지정된 경우 표시됩니다. 어떻게 해야 나요?" 링크를 클릭할 때 사용자는 감지된 중요한 정보 유형을 검토하고 관리자가 허용하는 경우 문제를 재지정하거나 보고할 수 있습니다. 파일에 대한 정책 팁은 표시하지 않습니다. 받는 사람이 문서에 액세스하는 경우 허용되지 않는 경우 액세스가 거부될 수 있습니다.|
 |**Win32 끝점 장치**|:::image type="icon" source="../media/rightmrk.png" border="false":::|하위 집합|DLP 정책의 모든 끝점 DLP 사문자 및 작업|일부 중요한 정보 유형에 대한 정책 팁 지원 끝점의 데이터 손실 [방지를 참조하세요.](#data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types)|
 |**macOS 장치(미리 보기)**|기본 팁만|all|하위 집합|데이터 손실 방지 정책은 macOS 장치에서 적용할 수 있습니다. 사용자 지정 정책 팁은 지원되지 않습니다.|
 |**제3자 클라우드 앱**|:::image type="icon" source="../media/crsmrk.png" border="false":::|없음|없음|데이터 손실 방지 정책 팁은 제3자 클라우드 앱에서 지원되지 않습니다.|

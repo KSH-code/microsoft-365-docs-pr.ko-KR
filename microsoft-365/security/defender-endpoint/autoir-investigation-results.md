@@ -19,14 +19,16 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.custom: autoir
+ms.custom:
+- autoir
+- admindeeplinkDEFENDER
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: e089a38d0a9abc6a6713b82a77d3678d781ed456
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: dd5a8d4db47eb0f26f7bdf7ef992fba18a6c3aa5
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60197080"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963194"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>자동화 조사 세부정보 및 결과 보기
 
@@ -53,7 +55,7 @@ ms.locfileid: "60197080"
 
 향상된 [알림](auto-investigation-action-center.md) 센터는 [](manage-auto-investigation.md#remediation-actions) 장치, 전자 메일 및 공동 작업 콘텐츠 및 & 수정 작업을 함께 제공합니다. 나열된 작업에는 자동으로 또는 수동으로 수행된 수정 작업이 포함됩니다. 알림 센터에서 승인 대기 중인 작업과 이미 승인되거나 완료된 작업을 볼 수 있습니다. 조사 페이지와 같은 자세한 정보로 이동할 수 있습니다.
 
-1. <https://security.microsoft.com>으로 이동하여 로그인합니다.
+1. 이동하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> 로그인합니다.
 2. 탐색 창에서 **작업 센터** 를 선택합니다.
 3. **보류 중인** 또는 **기록** 탭에서 항목을 선택 합니다. 플라이아웃 창이 열립니다.
 4. 플라이아웃 창의 정보를 검토한 후 다음 단계 중 하나를 수행합니다.
@@ -66,7 +68,7 @@ ms.locfileid: "60197080"
 
 세부정보 페이지를 통해 알람 원인 장치, 사용자, 사서함 등 사건에 대한 세부 정보를 확인할 수 있습니다. 
 
-1. <https://security.microsoft.com>으로 이동하여 로그인합니다.
+1. 이동하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender</a> 로그인합니다.
 2. 탐색 창에서 인시던트 및 **인시던트** & \> **를 선택 합니다.**
 3. 목록에서 항목을 선택한 다음 문제 페이지 **열기 를 선택합니다.**
 4. 조사 **탭을** 선택한 다음 목록에서 조사를 선택합니다. 플라이아웃 창이 열립니다.

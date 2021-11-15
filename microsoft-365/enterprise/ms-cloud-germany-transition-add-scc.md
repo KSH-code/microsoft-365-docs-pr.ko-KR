@@ -17,13 +17,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
+- admindeeplinkDEFENDER
 description: '요약: 도이치란드 Microsoft 클라우드에서 마이그레이션하기 위한 eDiscovery 마이그레이션 단계입니다.'
-ms.openlocfilehash: afea899e06a732ff0ab13bf416410aa94bc3c191
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 08c44374b834796bce5f624008dd2f7493e7c3f7
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60168449"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963074"
 ---
 # <a name="information-about-the-ediscovery-experience-during-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하는 동안의 eDiscovery 경험에 대한 정보
 다음 섹션에서는 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 eDiscovery 경험에 대한 추가 정보를 제공합니다.
@@ -50,7 +51,7 @@ ms.locfileid: "60168449"
 **다음에 적용됩니다.** eDiscovery를 사용하는 모든 고객
 
 9단계에서 새 독일 데이터 센터 지역으로 이동하는 최종 단계가 완료됩니다. 이 단계에서는 나머지 모든 서비스 구성 요소가 마이그레이션됩니다.
-9단계 이후에는 Microsoft 클라우드 독일(protection.office.de)의 보안 및 준수 센터 사용이 더 이상 지원되지 않습니다. 대신 새 [보안](https://security.microsoft.com/) 센터 또는 [규정 준수 센터를 사용하세요.](https://compliance.microsoft.com/) 모든 데이터가 새 관리 포털로 마이그레이션됩니다.
+9단계 이후에는 Microsoft 클라우드 독일(protection.office.de)의 보안 및 준수 센터 사용이 더 이상 지원되지 않습니다. 새 보안 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 보안</a> 센터 또는 Microsoft 365 규정 준수 센터 사용합니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank"></a> 모든 데이터가 새 관리 포털로 마이그레이션됩니다.
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|

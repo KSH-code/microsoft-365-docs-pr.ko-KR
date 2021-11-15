@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 432819930a1472d6241c62b275a940cb35c3cb37
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ba613d2368bbb7cbefdaaaea30595bdc235a41ef
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60211432"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963230"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -116,7 +116,7 @@ PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 �
 
 이 기능을 켜면 IP 주소, 도메인 또는 URL에 대한 표시기를 만들어 사용자 지정 표시기 목록에 따라 허용할지 차단할지 여부를 결정할 수 있습니다.
 
-이 기능을 사용하려면 장치에서 버전 1709 이상 또는 Windows 10 11 이상을 Windows 합니다. 또한 맬웨어 방지 플랫폼의 차단 모드 및 버전 4.18.1906.3 이상에서 네트워크 보호를 사용할 수도 있습니다. 자세한 내용은 [KB](https://go.microsoft.com/fwlink/?linkid=2099834)4052623.
+이 기능을 사용하려면 장치에서 버전 1709 이상 또는 Windows 10 실행되고 있어야 Windows 11. 또한 맬웨어 방지 플랫폼의 차단 모드 및 버전 4.18.1906.3 이상에서 네트워크 보호를 사용할 수도 있습니다. 자세한 내용은 [KB](https://go.microsoft.com/fwlink/?linkid=2099834)4052623.
 
 자세한 내용은 [지표 관리를 참조하세요.](manage-indicators.md)
 
@@ -179,7 +179,7 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 이 설정을 사용하도록 설정하면 끝점용 Defender 신호가 클라우드 응용 Microsoft Cloud App Security 더 심층적으로 표시될 수 있습니다. 전달된 데이터는 사용자 데이터와 동일한 위치에 저장되고 Cloud App Security 처리됩니다.
 
 > [!NOTE]
-> 이 기능은 Windows 10 버전 1709(OS 빌드 16299.1085(KB4493441), Windows 10 버전 [](https://support.microsoft.com/help/4493441)1803(OS 빌드 17134.704 및 [KB4493464)을](https://support.microsoft.com/help/4493464)실행하는 장치에서 Enterprise Mobility + Security용 E5 라이선스와 함께 사용할 Windows 10, 버전 1809 수 있습니다( [](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) OS 빌드 [17763.379(KB4489899),](https://support.microsoft.com/help/4489899)이후 Windows 10 버전 또는 Windows 11입니다.
+> 이 기능은 Enterprise Mobility + Security Windows 10 버전 1709(OS 빌드 16299.1085(KB4493441), [](https://support.microsoft.com/help/4493441)Windows 10 버전 1803(OS 빌드 17134.704 및 [KB4493464)을](https://support.microsoft.com/help/4493464)실행하는 디바이스에서 사용할 수 Windows 10, 버전 1809 [](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)  (OS 빌드 17763.379 [및 KB4489899](https://support.microsoft.com/help/4489899)), 이후 버전 Windows 10 또는 Windows 11.
 
 ## <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -200,7 +200,6 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 ## <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
 원치 않는 콘텐츠가 포함된 웹 사이트에 대한 액세스를 차단하고 모든 도메인에서 웹 활동을 추적합니다. 차단할 웹 콘텐츠 범주를 지정하려는 경우 웹 콘텐츠 필터링 [정책을 만들어야 합니다.](https://security.microsoft.com/preferences2/web_content_filtering_policy) 끝점용 Microsoft Defender 보안 기준을 배포할 때 차단 모드에서 네트워크 [보호를 설정해야 합니다.](https://devicemanagement.microsoft.com/#blade/Microsoft_Intune_Workflows/SecurityBaselineSummaryMenu/overview/templateType/2)
-
 
 ## <a name="share-endpoint-alerts-with-microsoft-compliance-center"></a>Microsoft 준수 센터와 끝점 경고 공유
 
@@ -244,7 +243,7 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 자�
 
 보안 및 규격 위치에 보관된 파일을 백업하여 해당 파일을 검지에서 직접 다운로드할 수 있습니다. 파일 **다운로드 단추는** 항상 파일 페이지에서 사용할 수 있습니다. 이 설정은 기본적으로 켜져 있습니다. [요구 사항에 대해 자세히 알아보시다](respond-file-alerts.md#download-quarantined-files)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [데이터 보존 설정 업데이트](data-retention-settings.md)
 - [경고 알림 구성](configure-email-notifications.md)

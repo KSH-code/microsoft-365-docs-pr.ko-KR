@@ -1,5 +1,5 @@
 ---
-title: JAMF 2013을 사용하여 macOS 장치를 Microsoft 365 준수 솔루션에 Pro(미리 보기)
+title: JAMF Pro를 사용하여 macOS 장치를 Microsoft 365 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
 f1.keywords: NOCSH
 ms.author: chrfox
 author: chrfox
@@ -14,27 +14,23 @@ ms.collection:
 search.appverid:
 - MET150
 description: JAMF 2013(미리 보기)을 사용하여 macOS 장치를 Microsoft 365 규정 준수 솔루션에 Pro 방법 확인
-ms.openlocfilehash: 5335ceb47475a633e8f7ba000f8690ca3b9b8b6c
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: 705882af6ebbc7309fb704e215443f807533c6f1
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792511"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962666"
 ---
-# <a name="onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-jamf-pro-preview"></a>JAMF 2013을 사용하여 macOS 장치를 Microsoft 365 준수 솔루션에 Pro(미리 보기)
+# <a name="onboard-and-offboard-macos-devices-into-microsoft-365-compliance-solutions-using-jamf-pro-preview"></a>JAMF Pro를 사용하여 macOS 장치를 Microsoft 365 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
 
 JAMF 디바이스를 Pro 끝점 데이터 손실 방지와 같은 Microsoft 365 규정 준수 솔루션에 macOS 장치를 온보드할 수 있습니다.
 
 > [!IMPORTANT]
 > MacOS 장치에  끝점용 Microsoft Defender(MDE)가 배포되지 않은 경우 이 절차를 사용합니다.
 
-## <a name="get-registered"></a>등록하기
-
-이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. macOS [지원에 등록을 Microsoft 365 참조.](https://aka.ms/EndpointDLPIgnite21-Previews)
-
 **적용 대상:**
 
-- [Microsoft 365 끝점 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
+- [Microsoft 365 엔드포인트 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
 - [내부자 위험 관리](insider-risk-management.md#learn-about-insider-risk-management-in-microsoft-365)
 
 ## <a name="before-you-begin"></a>시작하기 전에
@@ -47,7 +43,7 @@ JAMF 디바이스를 Pro 끝점 데이터 손실 방지와 같은 Microsoft 365 
 
 1. 이 절차를 수행하려면 이러한 파일이 필요합니다.
 
-|필요한 파일 |source |
+|필요한 파일 |원본 |
 |---------|---------|
 |온보더링 패키지    |준수 포털 **온보더링 패키지,** 파일 이름 *DeviceComplianceOnboarding.plist에서 다운로드* |
 |접근성 |[accessibility.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/accessibility.mobileconfig)|
@@ -67,7 +63,7 @@ JAMF 디바이스를 Pro 끝점 데이터 손실 방지와 같은 Microsoft 365 
 >
 >이러한 개별 파일이 업데이트되는 경우 결합된 파일을 다시 다운로드하거나 업데이트된 단일 파일을 개별적으로 다운로드해야 합니다.
 
-MacOS 장치를 준수 솔루션에 온보드하는 것은 여러 단계 프로세스입니다.
+MacOS 장치를 준수 솔루션에 온보드하는 것은 다단계 프로세스입니다.
 
 ### <a name="get-the-device-onboarding-package"></a>장치 온보더링 패키지를 얻습니다.
 
@@ -79,7 +75,7 @@ MacOS 장치를 준수 솔루션에 온보드하는 것은 여러 단계 프로�
  
 1. **온보더링 패키지 다운로드 선택**
  
-1. 장치 온보더링 패키지의 콘텐츠를 추출합니다. **JAMF 폴더에** *DeviceComplainceOnboarding.plist 파일이 표시됩니다.*
+1. 장치 온보더링 패키지의 콘텐츠를 추출합니다. JAMF 폴더에 *DeviceComplainceOnboarding.plist 파일이 표시됩니다.*
 
 ### <a name="create-a-jamf-pro-configuration-profile-for-the-onboarding-package"></a>온보 Pro 대한 JAMF 구성 프로필 만들기
 

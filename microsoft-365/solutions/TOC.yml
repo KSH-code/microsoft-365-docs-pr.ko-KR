@@ -33,7 +33,7 @@
       items:
         - name: 개요
           href: setup-secure-collaboration-with-teams.md
-        - name: 1단계. Microsoft Teams의 세 가지 보호 계층 구성
+        - name: Microsoft Teams의 3단계 보호 구성
           items:
             - name: 3단계 보호 개요
               href: configure-teams-three-tiers-protection.md
@@ -45,7 +45,7 @@
               href: configure-teams-highly-sensitive-protection.md
             - name: 보안 격리를 사용하여 팀 구성하기
               href: secure-teams-security-isolation.md
-        - name: 2단계. 외부 공유 구성
+        - name: 외부 공유 구성
           items:
             - name: 외부 공유 개요
               href: collaborate-with-people-outside-your-organization.md

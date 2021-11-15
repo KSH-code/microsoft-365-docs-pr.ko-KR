@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 description: Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d920ed0bfcbe5f341395740b01ad17c7eed4ff77
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6e883d4d6aea6af739a8156027ffa6968638ef4d
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60169458"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962606"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 단계별 위협 방지
 
@@ -117,7 +117,7 @@ Edge 블록은 자동으로 디자인됩니다. 가짓 긍정의 경우 보낸 �
 
 3. **맬웨어에 대한 ZAP** 는 이미 Exchange Online 사서함으로 배달된 악성 맬웨어 메시지를 소급하여 감지하고 없앱니다.
 
-4. 피싱 소수 **자제용 ZAP는** 이미 사서함에 배달된 악성 스팸 메시지를 Exchange Online 중화합니다.
+4. **스팸에 대한 ZAP** 는 이미 Exchange Online 사서함으로 배달된 악성 스팸 메시지를 소급하여 감지하고 없앱니다.
 
 5. **캠페인 보기를** 통해 관리자는 자동화 없이 모든 팀보다 더 빠르고 완벽하게 공격의 큰 그림을 볼 수 있습니다. Microsoft는 전체 서비스에서 방대한 양의 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용하여 캠페인을 식별하고, 관리자는 다운로드 가능한 캠페인 쓰기에서 사용할 수 있는 대상, 영향 및 흐름을 포함하여 시작부터 끝까지 조사할 수 있도록 합니다.
 

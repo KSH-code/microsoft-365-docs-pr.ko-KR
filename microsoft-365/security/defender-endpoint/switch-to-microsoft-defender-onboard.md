@@ -17,16 +17,18 @@ ms.collection:
 - m365solution-migratetomdatp
 - m365solution-mcafeemigrate
 - m365solution-symantecmigrate
-ms.custom: migrationguides
+ms.custom:
+- migrationguides
+- admindeeplinkDEFENDER
 ms.topic: article
 ms.date: 10/07/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 3ce62eb9019b233bf2c52f9ce990813650ac4bbe
-ms.sourcegitcommit: 166bf635c0905ae12c04b1865cb17aadef81e82a
+ms.openlocfilehash: ee864bb33b03f51f2529bca0026290fa675c1c4e
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60245708"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962521"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Endpoint용 Microsoft Defender로 전환 - 3단계: 온보딩
 
@@ -49,7 +51,7 @@ ms.locfileid: "60245708"
 
 ## <a name="onboard-devices-to-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에 장치 온보딩
 
-1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털로 이동하여</a> 로그인합니다.
 
 2. 끝점 **설정(장치** 관리 \>  \>  아래)를 **선택하세요.**
 
@@ -66,7 +68,7 @@ ms.locfileid: "60245708"
 
 |운영 체제  |메서드  |
 |---------|---------|
-|Windows 10 이상<br/><br/>Windows Server 2019 이상<br/><br/>Windows 서버, 버전 1803 이상<br/><br/>Windows Server 2012 R2 및 2016 <sup> [[1]](#fn1)<sup>  |   [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md)<br><br/>   [그룹 정책](configure-endpoints-gp.md)<br/><br/>[Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)<br/><br/>[Microsoft Endpoint Manager/ 모바일 장치 관리(Intune)](configure-endpoints-mdm.md)<br>    [VDI 스크립트](configure-endpoints-vdi.md) <br><br> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.
+|Windows 10 이상<br/><br/>Windows Server 2019 이상<br/><br/>Windows Server, 버전 1803 이상<br/><br/>Windows Server 2012 R2 및 2016 <sup> [[1]](#fn1)<sup>  |   [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md)<br><br/>   [그룹 정책](configure-endpoints-gp.md)<br/><br/>[Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)<br/><br/>[Microsoft Endpoint Manager/ 모바일 장치 관리(Intune)](configure-endpoints-mdm.md)<br>    [VDI 스크립트](configure-endpoints-vdi.md) <br><br> **참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.
 |Windows Server 2008 R2 SP1 | [Microsoft Monitoring Agent(MMA)](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma) [또는 Azure Defender](/azure/security-center/security-center-wdatp) <br><br> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)  
 |Windows 8.1 Enterprise<br/><br/>Windows 8.1 Pro<br/><br/>Windows 7 SP1 Pro<br/><br/>Windows 7 SP1| [Microsoft Monitoring Agent(MMA)](onboard-downlevel.md) <br><br> **참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)  
 | macOS:<br/>11.3.1(Big Sur)<br/>10.15(카탈로나)<br/>10.14(모잡) | [로컬 스크립트](mac-install-manually.md)<br/><br/>[Microsoft Endpoint Manager ](mac-install-with-intune.md)<br/><br/>[JAMF Pro](mac-install-with-jamf.md)<br/><br/>[모바일 장치 관리](mac-install-with-other-mdm.md)   |
@@ -88,7 +90,7 @@ ms.locfileid: "60245708"
 
 |운영 체제|지침|
 |---|---|
-|Windows 10 이상<br/><br/>Windows Server 2022<br/><br/>Windows Server 2019<br/><br/>Windows 서버, 버전 1803 이상<br/><br/>Windows Server 2016<br/><br/>Windows Server 2012 R2|검색 [테스트 실행을 참조합니다.](run-detection-test.md)<br/><br/>Endpoint용 Defender 데모 시나리오 사이트( )를 방문하여 하나 이상의 <https://demo.wd.microsoft.com> 시나리오를 시도해 봤습니다. 예를 들어 클라우드 제공 보호 **데모 시나리오를 시도해** 보겠습니다.|
+|Windows 10 이상<br/><br/>Windows Server 2022<br/><br/>Windows Server 2019<br/><br/>Windows Server, 버전 1803 이상<br/><br/>Windows Server 2016<br/><br/>Windows Server 2012 R2|검색 [테스트 실행을 참조합니다.](run-detection-test.md)<br/><br/>Endpoint용 Defender 데모 시나리오 사이트( )를 방문하여 하나 이상의 <https://demo.wd.microsoft.com> 시나리오를 시도해 봤습니다. 예를 들어 클라우드 제공 보호 **데모 시나리오를 시도해** 보겠습니다.|
 |macOS:<br/> 11.3.1(Big Sur)<br/>10.15(카탈로나)<br/>10.14(모잡)|에서 DIY 앱을 다운로드하여 <https://aka.ms/mdatpmacosdiy> 사용하세요. <br/><br/> 자세한 내용은 [macOS의 Endpoint용 Defender를 참조하세요.](microsoft-defender-endpoint-mac.md)|
 |Linux:<br/> RHEL 7.2+<br/>CentOS Linux 7.2+<br/>Ubuntu 16 LTS 이상<br/>SLES 12+<br/>데비안 9+<br/>Oracle Linux 7.2|1. 다음 명령을 실행하고 1 : **의 결과를 찾아야** `mdatp health --field real_time_protection_enabled` 합니다.<br/><br/>2. 터미널 창을 열고 다음 명령을 `curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt` 실행합니다. .<br/><br/>3. 다음 명령을 실행하여 감지된 위협을 `mdatp threat list` 나열합니다. .<br/><br/>자세한 내용은 [Linux의 끝점용 Defender를 참조하세요.](microsoft-defender-endpoint-linux.md)|
 

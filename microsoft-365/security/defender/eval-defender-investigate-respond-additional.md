@@ -1,7 +1,7 @@
 ---
 title: 파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 description: 인시던트 대응 기능을 Microsoft 365 Defender 우선 순위를 지정하고 관리하고, 조사를 자동화하고, 위협 감지에서 고급 헌팅을 사용 합니다.
-keywords: Microsoft 365 Defender 평가, Microsoft 365 Defender 평가, Microsoft 365 Defender 평가Microsoft 365 Defender 평가 랩, Microsoft 365 Defender, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+keywords: Microsoft 365 Defender 평가판, Microsoft 365 Defender 평가, Microsoft 365 Defender Microsoft 365 Defender 평가 랩, Microsoft 365 Defender  파일럿, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,14 +20,15 @@ ms.collection:
 - M365-security-compliance
 - m365solution-overview
 - m365solution-evalutatemtp
+ms.custom: admindeeplinkDEFENDER
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: e412852e7184a4f9b520ed777938836a44b62b5c
-ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
+ms.openlocfilehash: 0c4e3a2dbaeedc1ebf45e54d29217e9377dca247
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60786184"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962774"
 ---
 # <a name="try-microsoft-365-defender-incident-response-capabilities-in-a-pilot-environment"></a>파일럿 Microsoft 365 Defender 인시던트 대응 기능 테스트
 
@@ -48,7 +49,7 @@ ms.locfileid: "60786184"
 
 ## <a name="prioritize-incidents"></a>인시던트 우선 순위 지정
 
-인시던트 및  인시던트 & 포털(>)의 빠른 실행에서 인시던트 Microsoft 365 Defender 큐로[security.microsoft.com.](https://security.microsoft.com) 다음은 예입니다.
+인시던트 **포털의 빠른** 실행에 있는 인시던트 & > 인시던트 큐로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender 있습니다.</a> 다음은 예입니다.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예입니다.":::
 
@@ -165,7 +166,7 @@ ms.locfileid: "60786184"
 
 #### <a name="go-hunting"></a>헌팅으로 이동
 
-1. 웹 Microsoft 365 Defender [를 열 수 있습니다.](https://security.microsoft.com/)
+1. 웹 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">를 열 수 있습니다.</a>
 
 2. 탐색 창에서 고급 헌팅 **> 선택합니다.**
 

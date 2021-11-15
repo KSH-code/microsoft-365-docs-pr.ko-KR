@@ -14,12 +14,13 @@ audience: ITPro
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: bb2c66c8ebb04b32fb409a749b7f1872361dd4a4
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.custom: admindeeplinkDEFENDER
+ms.openlocfilehash: f97a5ae486ff2ebd39a1adedeb008ac675ee9941
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882240"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962822"
 ---
 # <a name="device-control-printer-protection"></a>장치 제어 프린터 보호
 
@@ -135,7 +136,7 @@ CSP 지원 문자열은 `<enabled/>` 입니다.
 
 ## <a name="view-device-control-printer-protection-data-in-microsoft-defender-for-endpoint-portal"></a>끝점 포털용 Microsoft Defender에서 장치 제어 프린터 보호 데이터 보기
 
-Microsoft 365 [보안 센터에는](https://security.microsoft.com) 위의 장치 제어 프린터 보호 정책에 의해 차단된 인쇄가 표시됩니다.
+Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">보안 센터에는</a> 위의 장치 제어 프린터 보호 정책에 의해 차단된 인쇄가 표시됩니다.
 
 ```kusto
 DeviceEvents

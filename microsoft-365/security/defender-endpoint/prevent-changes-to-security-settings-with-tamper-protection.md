@@ -13,16 +13,18 @@ audience: ITPro
 ms.topic: article
 author: denisebmsft
 ms.author: deniseb
-ms.custom: nextgen
+ms.custom:
+- nextgen
+- admindeeplinkDEFENDER
 ms.technology: mde
 ms.date: 10/18/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ee4ad26b534ff132a00ca07fdd0b55494445c580
-ms.sourcegitcommit: 16e3a6e6df253de1153e46d058941cd9a2bbf2b2
+ms.openlocfilehash: 34f46ea019dfeb86667635a1d1252447168a4f81
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60889774"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960781"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
@@ -36,7 +38,7 @@ ms.locfileid: "60889774"
 - Windows 11
 - Windows Server 2019
 - Windows Server 2022
-- Windows 서버, 버전 1803 이상
+- Windows Server, 버전 1803 이상
 - Windows Server 2016
 - Windows Server 2012 R2
 
@@ -64,7 +66,7 @@ ms.locfileid: "60889774"
 - PowerShell cmdlet을 통해 설정 변경
 - 그룹 정책을 통해 보안 설정 편집 또는 제거
 
-변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 비 Microsoft 바이러스 백신 앱이 앱에 등록되는 Windows 보안 않습니다. 조직에서 E5를 Windows 10 Enterprise 경우 개별 사용자는 변조 보호 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
+변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 비 Microsoft 바이러스 백신 앱이 앱에 등록되는 Windows 보안 않습니다. 조직에서 E5를 Windows 10 Enterprise 경우 개별 사용자는 변조 방지 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
 
 ### <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
 
@@ -94,7 +96,7 @@ ms.locfileid: "60889774"
 |변조 방지를 사용하는 방법|MAPS(클라우드 제공 보호)에 대한 종속성|
 |---|---|
 |Microsoft Intune|아니오|
-|Microsoft Endpoint Configuration Manager + 테넌트 첨부|아니요|
+|Microsoft Endpoint Configuration Manager + 테넌트 첨부|아니오|
 |Microsoft 365 Defender 포털( [https://security.microsoft.com](https://security.microsoft.com) )|예|
 |
 
@@ -102,11 +104,11 @@ ms.locfileid: "60889774"
 
 테넌트 포털()을 사용하여 테넌트에 대해 변조 보호를 켜거나 Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) 있습니다. 다음은 유의해야 할 몇 가지 사항입니다.
 
-- 현재 새 배포의 경우 Microsoft 365 Defender 포털에서 변조 방지를 관리하는 옵션이 기본적으로 설정되어 있습니다. 기존 배포의 경우 옵트인(opt in)으로 변조 보호를 사용할 수 있습니다. 옵트인(opt in)을  Microsoft 365 Defender 끝점 고급 설정 변조 \>  \>  \> **보호를 선택 합니다.**
+- 현재 새 배포의 경우 Microsoft 365 Defender 포털에서 변조 방지를 관리하는 옵션이 기본적으로 설정되어 있습니다. 기존 배포의 경우 옵트인(opt in)으로 변조 보호를 사용할 수 있습니다. 옵트인(opt <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">in)Microsoft 365 Defender 끝점</a>고급 기능 변조 설정 를  \>  \>  \> **선택 합니다.**
 
 - Microsoft 365 Defender 포털을 사용하여 변조 방지를 관리할 때 Intune 또는 테넌트 연결 방법을 사용할 필요가 없습니다.
 
-- Microsoft Defender 보안 센터 변조 보호를 관리하는 경우 이 설정은 테넌트 전체에 적용되어 Windows 10, Windows 11, R2, Windows Server 2012 실행 중인 모든 장치에 영향을 Windows Server 2016. Windows Server 2019 또는 Windows Server 2022. 변조 방지를 미세 조정하려면(예: 일부 장치에 대해 변조 보호를 설정하고 다른 장치에는 사용하지 않는 경우) 테넌트 연결과 함께 [Intune](#manage-tamper-protection-for-your-organization-using-intune) 또는 [Configuration Manager를 사용 합니다.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
+- Microsoft Defender 보안 센터 변조 보호를 관리하는 경우 설정은 테넌트 전체에 적용되어 R2, R2 또는 Windows 10, Windows 11 Windows Server 2012 실행 중인 모든 장치에 영향을 Windows Server 2016 는 Windows Server 2019 또는 Windows Server 2022를 설치합니다. 변조 방지를 미세 조정하려면(예: 일부 장치에 대해 변조 보호를 설정하고 다른 장치에는 사용하지 않는 경우) 테넌트 연결과 함께 [Intune](#manage-tamper-protection-for-your-organization-using-intune) 또는 [Configuration Manager를 사용 합니다.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - 하이브리드 환경이 있는 경우 Intune에서 구성된 변조 보호 설정이 Microsoft 365 Defender 구성한 설정보다 우선합니다.
 
@@ -119,7 +121,7 @@ ms.locfileid: "60889774"
   - Windows 11
   - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
   - Windows Server 2022
-  - Windows 서버, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
+  - Windows Server, 버전 [1803](/windows/release-health/status-windows-10-1803) 이상
   - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
   - [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)
 
@@ -136,7 +138,7 @@ ms.locfileid: "60889774"
 
 :::image type="content" source="../../media/mde-turn-tamperprotectionon.png" alt-text="웹 사이트 포털에서 변조 Microsoft 365 Defender 끄기":::
 
-1. Microsoft 365 Defender 포털()로 [https://security.microsoft.com](https://security.microsoft.com) 이동하여 로그인합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털로 이동하여</a> 로그인합니다.
 
 2. 끝점 **설정** \> **를 선택 합니다.**
 
@@ -191,7 +193,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 ## <a name="manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006"></a>Configuration Manager 버전 2006을 사용하여 조직의 변조 보호 관리
 
-[Configuration Manager 버전 2006을](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2006)사용하는 경우 방법을 사용하여 Windows 10, Windows 11, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019 및 Windows Server 2022에서 변조 보호 설정을 관리할 수 있습니다. *테넌트 연결이라고 부를 수 있습니다.* 테넌트 연결 기능을 사용하면 프레미스 전용 Configuration Manager 장치를 Microsoft Endpoint Manager 관리 센터에 동기화한 다음 끝점 보안 구성 정책을 장치용 & 있습니다.
+[Configuration Manager 버전 2006을](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2006)사용하는 경우 를 사용하여 Windows 10, Windows 11, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019 및 Windows Server 2022에서 변조 보호 설정을 관리할 수 있습니다. 메서드를 *테넌트 연결이라고 합니다.* 테넌트 연결 기능을 사용하면 프레미스 전용 Configuration Manager 장치를 Microsoft Endpoint Manager 관리 센터에 동기화한 다음 끝점 보안 구성 정책을 장치용 & 있습니다.
 
 > [!NOTE]
 > 이 절차를 사용하여 Windows 10, Windows 11, Windows Server 2022를 실행하는 장치로 변조 Windows 확장할 수 있습니다. 이 절차에 언급된 리소스의 선행 절차 및 기타 정보를 검토해야 합니다.
@@ -255,7 +257,7 @@ Windows Server 2016, Windows 10 버전 1709, 1803 또는 [1809를](/windows/rele
 
 ### <a name="on-which-versions-of-windows-can-i-configure-tamper-protection"></a>어떤 버전의 변조 Windows 구성할 수 있나요?
 
-Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/windows/release-health/status-windows-10-1803), [1809](/windows/release-health/status-windows-10-1809-and-windows-server-2019)이상과 [끝점용 Microsoft Defender](/microsoft-365/security/defender-endpoint).
+Windows 10 Microsoft [Defender for Endpoint와](/microsoft-365/security/defender-endpoint)함께 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/windows/release-health/status-windows-10-1803), [1809](/windows/release-health/status-windows-10-1809-and-windows-server-2019)이상을 사용할 수 있습니다.
 
 Windows 11
 

@@ -1,5 +1,5 @@
 ---
-title: 모바일 Windows 도구를 사용하여 장치 온보드
+title: 모바일 장치 관리 도구를 사용한 Windows 장치 온보딩
 description: 모바일 장치 관리 도구를 사용하여 끝점용 Defender 서비스에 온보딩할 수 있도록 장치에 구성 패키지를 배포합니다.
 keywords: mdm을 사용하여 장치 온보딩, 장치 관리, Endpoint 장치용 Microsoft Defender 온보딩, mdm
 ms.prod: m365-security
@@ -12,16 +12,17 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a92b663eeddfcfb8ccf17bad204074764711685d
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: 1d0bfb7070f06b94aeaea69f0563e4f5e5d1ca67
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60239880"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963086"
 ---
-# <a name="onboard-windows-devices-using-mobile-device-management-tools"></a>모바일 Windows 도구를 사용하여 장치 온보드
+# <a name="onboard-windows-devices-using-mobile-device-management-tools"></a>모바일 장치 관리 도구를 사용한 Windows 장치 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -69,11 +70,11 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
+1. 에서 오프보더 패키지를 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털</a>:
 
    1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**
 
-   1. 운영 Windows 10 Windows 또는 11을 선택합니다.
+   1. 운영 Windows 10 Windows 11 선택하거나 선택합니다.
 
    1. 배포 **방법 필드에서** 모바일 장치 관리 **/를 Microsoft Intune.**
 
@@ -94,10 +95,10 @@ Endpoint CSP용 Defender 사용에 대한 자세한 내용은 [WindowsAdvancedTh
 > [!IMPORTANT]
 > 오프보더링을 통해 디바이스가 포털에 센서 데이터 전송을 중지하지만, 디바이스에서 전송한 모든 경고에 대한 참조를 포함하여 장치의 데이터는 최대 6개월 동안 보존됩니다.
 
-## <a name="related-topics"></a>관련 항목
-- [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
-- [Windows 사용하여 장치 온보드 Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-- [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)
+## <a name="related-topics"></a>관련 주제
+- [그룹 정책을 사용하여 Windows 장치 온보딩](configure-endpoints-gp.md)
+- [Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩](configure-endpoints-sccm.md)
+- [로컬 스크립트를 사용하여 Windows 장치 온보딩](configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

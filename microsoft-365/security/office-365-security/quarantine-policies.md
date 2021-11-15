@@ -13,15 +13,16 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 description: 관리자는 사용자가 메시지를 검사하기 위해 할 수 있는 작업을 제어하기 위해 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1849e131573b0c7a09bec0be665bad43acdf911a
-ms.sourcegitcommit: e110f00dc6949a7a1345187375547beeb64225b2
+ms.openlocfilehash: 5bfb89d73649c3607909c6a66d4344b6d63b6470
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2021
-ms.locfileid: "60804956"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963026"
 ---
 # <a name="quarantine-policies"></a>격리 정책
 
@@ -69,7 +70,7 @@ EOP(Exchange Online Protection(Exchange Online Protection) 및 Microsoft Defende
 
 미리 설정한 사용 권한 그룹에서 기본 사용 권한을 원하지 않는 경우 또는 알림을 사용하도록 설정하려면 사용자 지정 검지 정책을 만들고 사용 합니다. 각 사용 권한의 작동에 대한 자세한 내용은 이 문서 의 부분에 있는 정책 사용 권한 세부 정보 [섹션을](#quarantine-policy-permission-details) 참조하십시오.
 
-Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직, Exchange Online 사서함이 없는 EOP 조직의 독립 실행형 EOP PowerShell)에서 Exchange Online 정책을 만들고 할당합니다.
+Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, 없는 EOP 조직의 독립 실행형 EOP PowerShell)에서 정책을 만들고 할당합니다. Exchange Online)
 
 > [!NOTE]
 > 이 기간 동안 스팸 방지 정책에서 스팸 보존(QuarantineRetentionPeriod)에 의해 만료되기전까지의 메시지 보존 기간은 스팸 방지 정책의 스팸 보존에 의해 제어됩니다.  자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
@@ -89,7 +90,7 @@ DefaultFullAccessPolicy의 사용 권한을 제공하지만, 검역 알림이 �
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://security.microsoft.com>에서 Microsoft 365 Defender 포털을 엽니다. 또는 **Quarantine policies(정책)** 페이지로 직접 이동하여 를 를 를 니다. <https://security.microsoft.com/quarantinePolicies>
+- 에서 Microsoft 365 Defender 포털을 열 수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">https://security.microsoft.com</a> 있습니다. 또는 **Quarantine policies(정책)** 페이지로 직접 이동하여 를 를 를 니다. <https://security.microsoft.com/quarantinePolicies>
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -97,7 +98,7 @@ DefaultFullAccessPolicy의 사용 권한을 제공하지만, 검역 알림이 �
 
 ## <a name="step-1-create-quarantine-policies-in-the-microsoft-365-defender-portal"></a>1단계: 사이트 포털에서 Microsoft 365 Defender 만들기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 &  위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 **&** 공동 작업 위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
 
 2. **Quarantine policy 페이지에서** Add custom policy icon(사용자 지정 정책 ![ 추가) 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **사용자 지정 정책 추가**.
 
@@ -265,7 +266,7 @@ New-QuarantinePolicy -Name LimitedAccess -EndUserQuarantinePermissions $LimitedA
 
 ### <a name="anti-spam-policies"></a>스팸 방지 정책.
 
-1. Microsoft 365 Defender 포털의 규칙 섹션에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 스팸 \>  \>  \>  방지 **섹션으로** 이동하세요.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 & **공동** 작업 정책 & 규칙 규칙 섹션에서 위협 정책 스팸 \>  \>  \>  **방지로** 이동하세요.
 
    또는 **Ant-spam 정책 페이지로 직접 이동하기 위해 를** <https://security.microsoft.com/antispam> 사용하세요.
 
@@ -334,7 +335,7 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
 스푸핑 인텔리전스는 EOP 및 Defender에서 사용할 수 Office 365. 사용자 가장 보호, 도메인 가장 보호 및 사서함 인텔리전스는 사용자 가장을 위해 Defender에서만 사용할 수 Office 365. 자세한 내용은 [Microsoft 365의 피싱 방지 정책](set-up-anti-phishing-policies.md)을 참조하세요.
 
-1. Microsoft 365 Defender 포털의 규칙 섹션에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 피싱 \>  \>  \>  **방지 섹션으로** 이동하세요.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 **&** 공동 작업 정책 & 규칙 규칙 섹션에서 위협 정책 \>  \>  \> **피싱** **방지로** 이동하세요.
 
    또는 **Ant-spam 정책 페이지로 직접 이동하기 위해 를** <https://security.microsoft.com/antiphishing> 사용하세요.
 
@@ -417,7 +418,7 @@ Set-AntiPhishPolicy -Identity "Human Resources" -EnableTargetedDomainsProtection
 
 ### <a name="anti-malware-policies"></a>맬웨어 방지 정책
 
-1. Microsoft 365 Defender 포털의 규칙 섹션에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 맬웨어 \>  \>  \>  **방지 섹션으로** 이동하세요.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털의</a>규칙 섹션에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 정책 맬웨어 \>  \>  \>  **방지로** 이동하세요.
 
    또는 맬웨어 방지 페이지로 직접 **이동하기** 위해 를 <https://security.microsoft.com/antimalwarev2> 사용하세요.
 
@@ -471,9 +472,9 @@ New-MalwareFilterPolicy -Identity "Human Resources" -QuarantineTag NoAccess
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-MalwareFilterPolicy를 참조하십시오.](/powershell/module/exchange/set-malwarefilterpolicy)
 
-### <a name="safe-attachments-policies-in-defender-for-office-365"></a>금고 Defender for Office 365
+### <a name="safe-attachments-policies-in-defender-for-office-365"></a>금고 Defender의 첨부 파일 정책 Office 365
 
-1. Microsoft 365 Defender 포털에서 정책 섹션의 **전자** 메일 & 공동 작업 정책 & 규칙 위협 금고 정책으로 \>  \>  \>  이동하세요. 
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털의</a>정책 섹션에서 전자 메일 **&** 공동 작업 정책 & 규칙 위협 금고 정책 \>  \>  \>  **섹션으로** 이동하십시오.
 
    또는 첨부 파일 페이지로 직접 금고 **를** <https://security.microsoft.com/safeattachmentv2> 사용하세요.
 
@@ -575,7 +576,7 @@ Set-SafeAttachmentPolicy -Identity "Human Resources" -QuarantineTag NoAccess
 
 ## <a name="view-quarantine-policies-in-the-microsoft-365-defender-portal"></a>사이트 포털에서 Microsoft 365 Defender 보기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 &  위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 **&** 공동 작업 위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
 
 2. **Quarantine policy** page shows the list of policies by **Name** and **Last updated** date.
 
@@ -611,7 +612,7 @@ PowerShell을 사용하여 정책을 보시고자 하는 경우 다음 단계를
 
 AdminOnlyAccessPolicy 또는 DefaultFullAccessPolicy라는 기본 제공 검지 정책을 수정할 수 없습니다. NotificationEnabledPolicy(있는 경우) 및 사용자[](#full-access-permissions-and-quarantine-notifications)지정 검지 정책이라는 기본 제공 정책을 수정할 수 있습니다.
 
-1. Microsoft 365 Defender 포털에서 전자 메일 &  위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 **&** 공동 작업 위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
 
 2. **Quarantine policies 페이지에서** 이름을 클릭하여 정책을 선택합니다.
 
@@ -648,7 +649,7 @@ Set-QuarantinePolicy -Identity "<QuarantinePolicyName>" [Settings]
 
   정책을 사용 중이면 할당된 [](#step-2-assign-a-quarantine-policy-to-supported-features) 분리 정책을 제거하기 전에 바꾸어야 합니다.
 
-1. Microsoft 365 Defender 포털에서 전자 메일 &  위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 **&** 공동 작업 위협 정책 규칙 섹션으로 이동한 다음 정책 검지 \>  \>  \>  **를 선택합니다.**
 
 2. **Quarantine policy 페이지에서** 이름을 클릭하여 제거할 사용자 지정 분리 정책을 선택합니다.
 

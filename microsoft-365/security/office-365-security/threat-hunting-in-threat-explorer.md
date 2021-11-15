@@ -13,15 +13,17 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 위협 탐색기 또는 실시간 Microsoft 365 Defender 사용하여 위협을 효율적으로 조사하고 대응합니다.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- admindeeplinkDEFENDER
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 28da09d799b035a79a661eaf28912de29ad2f43f
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a12d83e3345936e0eb02e3d5f687dbda67715d00
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196360"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963206"
 ---
 # <a name="threat-hunting-in-threat-explorer-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Microsoft Defender의 위협 탐색기에서 위협 Office 365
 
@@ -42,7 +44,7 @@ ms.locfileid: "60196360"
 
 조직에 microsoft [Defender for Office 365](defender-for-office-365.md)권한이 있는 경우 [](#required-licenses-and-permissions)탐색기 또는  실시간  검색을 사용하여 위협을 감지하고 치료할 수 있습니다.
 
-in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ) go to Email & **collaboration**, and then choose **Explorer** or **Real-time detections**. 페이지로 직접 이동하기 위해 또는 <https://security.microsoft.com/threatexplorer><https://security.microsoft.com/realtimereports>
+Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 & 공동 작업으로 이동한 다음 **탐색기** **또는** 실시간 검색 **을 선택하세요.** 페이지로 직접 이동하기 위해 또는 <https://security.microsoft.com/threatexplorer><https://security.microsoft.com/realtimereports>
 
 다음 도구를 사용하여 다음을 수행할 수 있습니다.
 
@@ -212,12 +214,12 @@ Defender for Office 365 Plan 1은 계획 2의 위협 탐색기(탐색기라고�
 > [!IMPORTANT]
 > Exchange 규칙 검색 및 이름 사용 가능 여부는 사용자에게 할당된 특정 역할에 따라 달라집니다. 전송 규칙 이름을 보고 검색하려면 다음 역할 또는 사용 권한 중 하나를 설정해야 합니다. 그러나 아래의 역할이나 사용 권한이 없는 경우에도 분석가가 전자 메일 세부 정보에서 전송 규칙 레이블 및 GUID 정보를 볼 수 있습니다. 전자 메일 그리드, 전자 메일 플라이아웃, 필터 및 내보내기의 기타 레코드 보기 환경은 영향을 받지 않습니다.
 >
-> - Exchange Online Only - 데이터 손실 방지: 모두
-> - Exchange Online Only - O365SupportViewConfig: All
+> - Exchange Online - 데이터 손실 방지: 모두
+> - Exchange Online - O365SupportViewConfig: 모두
 > - Microsoft Azure Active Directory 또는 Exchange Online - 보안 관리자: 모두
 > - Azure Active Directory 또는 Exchange Online - 보안 판독기: 모두
-> - Exchange Online Only - 전송 규칙: 모두
-> - Exchange Online Only - View-Only 구성: 모두
+> - Exchange Online - 전송 규칙: 모두
+> - Exchange Online - View-Only 구성: 모두
 >
 > 전자 메일 그리드, 세부 정보 플라이아웃 및 내보내는 CSV 내에서 ETRS에는 아래 표시된 이름/GUID가 표시됩니다.
 >
@@ -243,7 +245,7 @@ Defender for Office 365 Plan 1은 계획 2의 위협 탐색기(탐색기라고�
 
 탐색기 또는 실시간 검색을 보고 사용하려면 다음 권한이 있어야 합니다.
 
-- Microsoft 365 Defender 포털의 경우:
+- Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털의 경우</a>:
   - 조직 관리
   - 보안 관리자(Azure Active Directory 관리 센터에서 할당할 수 있습니다. <https://aad.portal.azure.com> )
   - 보안 읽기 권한자

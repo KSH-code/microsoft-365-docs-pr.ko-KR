@@ -12,16 +12,18 @@ author: jweston-1
 ms.author: v-jweston
 ms.reviewer: oogunrinde, sugamar, jcedola
 manager: dansimp
-ms.custom: asr
+ms.custom:
+- asr
+- admindeeplinkDEFENDER
 ms.technology: mde
 ms.topic: article
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 5392cf40a0d37e332d7b3bec260ab34e9a3a083e
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 6e42cdaa8ecd464581a786d47a4b2044b2907ca9
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882444"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962497"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -97,7 +99,7 @@ Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 �
 
 또한 특정 공격 표면 감소 규칙이 트리거되면 경고가 생성됩니다.
 
-알림 및 생성된 경고는 Microsoft 365 Defender 포털()(이전의 Microsoft 365 Defender)에서 볼 [https://security.microsoft.com](https://security.microsoft.com) [수 있습니다.](microsoft-defender-security-center.md)
+알림 및 생성된 경고는 알림 포털에서 볼 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender 있습니다.</a>
 
 ## <a name="advanced-hunting-and-attack-surface-reduction-events"></a>고급 헌팅 및 공격 표면 축소 이벤트
 
@@ -113,7 +115,7 @@ Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 �
 
 - Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
+- Windows Server, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
 - [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)
@@ -227,7 +229,7 @@ GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
 지원되는 운영 체제:
 
 - [Windows 10, 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
 - [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)
@@ -247,7 +249,7 @@ GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](/configmgr/core/servers/manage/updates)
 
@@ -269,7 +271,7 @@ LSASS는 Windows 인증합니다. Microsoft Defender Credential Guard는 Windows
 지원되는 운영 체제:
 
 - [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
@@ -291,7 +293,7 @@ GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Microsoft Endpoint Manager CB 1710](/configmgr/core/servers/manage/updates)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
@@ -330,7 +332,7 @@ GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)
 
@@ -349,7 +351,7 @@ GUID: `01443614-cd74-433a-b99e-2ecdc07bfc25`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](/configmgr/core/servers/manage/updates)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
@@ -370,7 +372,7 @@ GUID: `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](/configmgr/core/servers/manage/updates)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
@@ -390,7 +392,7 @@ GUID: `D3E037E1-3EB8-44C8-A917-57927947596D`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [](/configmgr/core/servers/manage/updates) System Center Configuration Manager(SCCM) CB 1710(SCCM이 현재 Microsoft Endpoint Configuration Manager)
 
@@ -413,7 +415,7 @@ GUID: `3B576869-A4EC-4529-8536-B80A7769E899`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](/configmgr/core/servers/manage/updates)
 
@@ -435,7 +437,7 @@ GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`
 지원되는 운영 체제:
 
 - [Windows 10, 버전 1809](/windows/whats-new/whats-new-windows-10-version-1809)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Intune 이름: `Process creation from Office communication products (beta)`
@@ -446,12 +448,12 @@ GUID: `26190899-1602-49e8-8b27-eb1d0a1ce869`
 
 ### <a name="block-persistence-through-wmi-event-subscription"></a>WMI 이벤트 구독을 통한 지속성 차단
 
-이 규칙은 맬웨어가 WMI를 부인하여 디바이스에서 지속성에 이를 수 없습니다.
+이 규칙은 맬웨어가 WMI를 악용하여 디바이스에서 지속성을 얻지 못하게 합니다.
 
 > [!IMPORTANT]
 > 파일 및 폴더 제외는 이 공격 표면 축소 규칙에 적용되지 않습니다.
 
-파일 없는 위협은 다양한 방법을 사용하여 숨김을 유지하여 파일 시스템에서 볼 수 없는 것을 방지하고 주기적인 실행 제어를 얻습니다. 일부 위협은 WMI 리포지토리 및 이벤트 모델을 남용하여 숨길 수 있습니다.
+파일리스 위협은 파일 시스템에 표시되지 않도록 하고 정기적인 실행 제어를 확보하기 위해 다양한 기법을 사용하여 숨은 상태를 유지합니다. 일부 위협은 WMI 리포지토리 및 이벤트 모델을 악용하여 계속 숨을 수 있습니다.
 
 지원되는 운영 체제:
 
@@ -474,7 +476,7 @@ GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
 - [Windows Server 2012 R2](/win32/srvnodes/what-s-new-for-windows-server-2012-r2)
@@ -492,7 +494,7 @@ GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)
 
@@ -506,12 +508,12 @@ GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`
 
 이 규칙은 VBA 매크로가 Win32 API를 호출하지 못하게 합니다.
 
-Office VBA는 Win32 API 호출을 가능하게 합니다. 맬웨어는 [Win32 API를](https://www.microsoft.com/security/blog/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/) 호출하여 디스크에 직접 아무것도 쓰지 않고 악성 셸 코드를 시작하는 등 이 기능을 남용할 수 있습니다. 대부분의 조직에서는 다른 방법으로 매크로를 사용하는 경우에도 매일 작동할 때 Win32 API를 호출하는 기능을 사용하지 않습니다.
+Office VBA에서 Win32 API 호출을 사용할 수 있도록 합니다. 맬웨어는 [Win32 API를](https://www.microsoft.com/security/blog/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/) 호출하여 디스크에 직접 아무것도 쓰지 않고 악성 셸 코드를 시작하는 등 이 기능을 남용할 수 있습니다. 대부분의 조직에서는 다른 방법으로 매크로를 사용하는 경우에도 매일 작동할 때 Win32 API를 호출하는 기능을 사용하지 않습니다.
 
 지원되는 운영 체제:
 
 - [Windows 10 버전 1709](/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](/configmgr/core/servers/manage/updates)
 
@@ -537,7 +539,7 @@ GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`
 지원되는 운영 체제:
 
 - [Windows 10 버전 1803](/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows 서버, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server, 버전 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](/configmgr/core/servers/manage/updates)
 - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)

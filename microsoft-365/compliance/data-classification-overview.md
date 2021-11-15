@@ -14,16 +14,17 @@ ms.collection:
 - M365-security-compliance
 - m365solution-mip
 - m365initiative-compliance
+ms.custom: admindeeplinkDEFENDER
 search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 중요한 데이터를 얼마나 많이 찾고 분류했는지 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: 67ceb75fd5062e422121588f7830fcd389202cb5
-ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
+ms.openlocfilehash: f6446fb61d0c38855a040da75a57ae85faafbb9f
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60914539"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962858"
 ---
 # <a name="learn-about-data-classification"></a>데이터 분류에 대한 자세한 정보
 
@@ -43,7 +44,7 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 - [콘텐츠 탐색기](data-classification-content-explorer.md)
 - [활동 탐색기](data-classification-activity-explorer.md)
 
-**Microsoft 365 규정 준수 센터** 또는 **Microsoft 365 보안 센터** > **분류** > **데이터 분류** 에서 데이터 분류를 찾을 수 있습니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 또는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 보안 센터</a> > **분류** > **데이터 분류** 에서 데이터 분류를 찾을 수 있습니다.
 
 비디오를 시청하여 데이터 분류 기능에 대해 알아보세요.
 

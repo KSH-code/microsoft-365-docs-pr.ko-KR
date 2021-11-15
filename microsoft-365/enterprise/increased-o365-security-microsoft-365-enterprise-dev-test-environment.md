@@ -14,14 +14,15 @@ ms.collection: M365-security-compliance
 ms.custom:
 - Ent_TLGs
 - admindeeplinkMAC
+- admindeeplinkDEFENDER
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈 테스트 환경에 Microsoft 365 추가 보안 Microsoft 365 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 2042148c0738ab1304ec721cdb00ce22b427dc72
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 3976ad11b6cac7ae74e0fd2d94ad35b610273052
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60200164"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960865"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 Microsoft 365 환경의 Microsoft 365 보안 강화
 
@@ -66,7 +67,7 @@ ms.locfileid: "60200164"
 
 조직에서 Office 365, SharePoint OneDrive Microsoft Teams 파일을 공유하지 못하게 조직을 보호합니다.
 
-1. 보안 및 준수 [& 이동하고](https://protection.office.com) 전역 관리자 계정으로 로그인합니다.
+1. 보안 및 준수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">& 이동하고</a> 전역 관리자 계정으로 로그인합니다.
 
 2. 왼쪽 탐색 창의 **위협** 관리에서 정책 을 **클릭한** 다음 첨부 **금고 클릭합니다.** 
 
@@ -96,7 +97,7 @@ Microsoft 365 맬웨어 및 스팸 필터링 기능이 내장되어 있으며 �
 
 보안 대시보드를 표시하는 데 사용할 수 있는 내용은 다음을 참조하세요.
 
-1. 필요한 경우 보안 및 준수 [&](https://protection.office.com) 이동하여 전역 관리자 계정으로 로그인합니다.
+1. 필요한 경우 보안 및 준수 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">&</a> 이동하여 전역 관리자 계정으로 로그인합니다.
 
 2. 왼쪽 탐색 창의 **위협** 관리에서 대시보드 를 **클릭합니다.**
 

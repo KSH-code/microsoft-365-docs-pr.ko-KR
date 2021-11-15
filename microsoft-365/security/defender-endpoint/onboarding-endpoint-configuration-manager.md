@@ -15,14 +15,15 @@ ms.collection:
 - M365-security-compliance
 - m365solution-endpointprotect
 - m365solution-scenario
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b60aca935af326680165a0ccc8669082b14f299d
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 0a2923f9e80a5ea5ee92110181af69a874d7fd25
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753788"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963422"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
@@ -122,7 +123,7 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 
 Microsoft 365 Defender 포털 내에서 정책을 만드는 데 사용할 수 있는 정책을 다운로드하여 System Center Configuration Manager 정책을 Windows 10 Windows 11 `.onboarding` 있습니다.
 
-1. Microsoft 365 Defender 포털에서 설정 [를 선택한 다음 온보더링을 선택합니다.](https://security.microsoft.com/preferences2/onboarding)
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>설정 [를 선택한 다음 온보더링을 선택합니다.](https://security.microsoft.com/preferences2/onboarding)
 
 2. 배포 방법에서 지원되는 버전의 **Microsoft Endpoint Configuration Manager.**
 
@@ -174,7 +175,7 @@ Microsoft 365 Defender 포털 내에서 정책을 만드는 데 사용할 수 �
 
 이전 버전의 작업 영역의 온보딩에 필요한 끝점 작업 영역 ID 및 작업 영역 키에 대한 Defender를 식별하려면 Windows.
 
-1. Microsoft 365 Defender 포털에서 **끝점** 설정(장치 관리 아래)를 \>  \>  **선택합니다.**
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a> **끝점 설정(장치** 관리 아래)를 \>  \>  **선택합니다.**
 
 2. 운영 체제에서 Windows **7 SP1 및 8.1 을 선택하십시오.**
 
@@ -288,7 +289,7 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 
 다음은 ASR 규칙이 끝점에 올바르게 적용되는지 확인하기 위한 추가 단계입니다. (이 경우 몇 분 정도 걸릴 수 있습니다.)
 
-1. 웹 브라우저에서 로 <https://security.microsoft.com> 이동합니다.
+1. 웹 브라우저에서 으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender.</a>
 
 2. 왼쪽 **메뉴에서** 구성 관리를 선택합니다.
 

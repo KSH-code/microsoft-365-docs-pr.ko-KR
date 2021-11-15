@@ -12,15 +12,16 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
+ms.custom: admindeeplinkDEFENDER
 ms.topic: article
 ms.date: 09/22/2021
 ms.technology: mde
-ms.openlocfilehash: 0faeb2039f0a66c014d0bb63e6bbc657206e3e16
-ms.sourcegitcommit: be095345257225394674698beb3feeb0696ec86d
+ms.openlocfilehash: bbaf1dbee85ac02c1ad44cff78a7434b611e3c20
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60240203"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962594"
 ---
 # <a name="onboard-windows-devices-using-configuration-manager"></a>Configuration Manager를 Windows 장치 온보드
 
@@ -143,9 +144,9 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 
 ### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>System Center 2012 R2 Configuration Manager를 사용하여 장치 오프보드
 
-1. 에서 오프보더 패키지를 Microsoft 365 Defender [포털](https://security.microsoft.com/):
+1. 에서 오프보더 패키지를 Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털</a>:
     1. 탐색 창에서 **끝점 설정** 관리 \>  \>  오프보링 \> **을 선택합니다.**  
-    1. 운영 Windows 10 Windows 또는 11을 선택합니다.
+    1. 운영 Windows 10 Windows 11 선택하거나 선택합니다.
     1. 배포 **방법 필드에서** System Center Configuration Manager **2012/2012 R2/1511/1602 를 선택합니다.**
     1. 패키지 **다운로드를** 선택하고 파일 .zip 저장합니다.
 
@@ -198,10 +199,10 @@ Value: "1"
 
 자세한 내용은 [System Center 2012 R2 Configuration Manager의](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))규정 준수 설정 소개를 참조하세요.
 
-## <a name="related-topics"></a>관련 항목
-- [그룹 정책을 Windows 장치 온보드](configure-endpoints-gp.md)
-- [모바일 Windows 도구를 사용하여 장치 온보드](configure-endpoints-mdm.md)
-- [로컬 스크립트를 Windows 장치 온보딩](configure-endpoints-script.md)
+## <a name="related-topics"></a>관련 주제
+- [그룹 정책을 사용하여 Windows 장치 온보딩](configure-endpoints-gp.md)
+- [모바일 장치 관리 도구를 사용한 Windows 장치 온보딩](configure-endpoints-mdm.md)
+- [로컬 스크립트를 사용하여 Windows 장치 온보딩](configure-endpoints-script.md)
 - [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

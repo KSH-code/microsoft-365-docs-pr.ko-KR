@@ -13,15 +13,17 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 맬웨어 피싱 시도를 보고 조사합니다.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- admindeeplinkDEFENDER
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 06053911642e455df956de3a17e3e2f448023328
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 9eb12db41e48fce814c2c0cb1c934d3fa388086f
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60203906"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962870"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
@@ -45,7 +47,7 @@ ms.locfileid: "60203906"
 
 전자 메일에서 검색된 맬웨어를 Microsoft 365 탐색기(또는 실시간 검색)의 전자 메일 맬웨어 보기를 사용합니다. [**\>**](threat-explorer-views.md#email--malware) 맬웨어는 기본 보기이기 때문에 탐색기를 여는 즉시 선택될 수 있습니다.
 
-1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ), choose Email & **collaboration** \> **Explorer** (or **Real-time detections**; 이 예제에서는 Explorer를 사용합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 & **공동** 작업 탐색기(또는 실시간 검색)를 \>  **선택하세요.** 이 예제에서는 Explorer를 사용합니다.
 
    여기에서 보기에서 시작하여 조사할 특정 시간 프레임(필요한 경우)을 선택하고 탐색기에서 진행하는 에 따라 필터에 [집중합니다.](threat-hunting-in-threat-explorer.md#threat-explorer-walk-through)
 
@@ -67,7 +69,8 @@ ms.locfileid: "60203906"
 
 허용, 차단 및 재지정된 URL 목록을 포함하여 전자 메일의 URL을 통해 피싱 시도를 볼 수 있습니다. 클릭된 URL을 식별하려면 링크 금고 [구성해야](safe-links.md) 합니다. 클릭 시간 보호 [](set-up-safe-links-policies.md) 및 금고 링크를 통해 클릭 판정 로깅에 대한 링크 금고 있는지 금고 합니다.
 
-1. in the Microsoft 365 Defender portal ( <https://security.microsoft.com> ), choose Email & **collaboration** \> **Explorer** (or **Real-time detections**; 이 예제에서는 Explorer를 사용합니다.
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 & **공동** 작업 탐색기(또는 실시간 검색)를 \>  **선택하세요.** 이 예제에서는 Explorer를 사용합니다.
+에서 **전자 메일 &** \> **탐색기(또는** 실시간 **검색) 를 선택하세요.** 이 예제에서는 Explorer를 사용합니다.
 
 2. 보기 **드롭다운** 목록에서 전자 **메일** \> **피싱 을 선택합니다.**
 

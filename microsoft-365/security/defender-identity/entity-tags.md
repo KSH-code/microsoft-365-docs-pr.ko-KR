@@ -6,13 +6,14 @@ ms.topic: how-to
 author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
+ms.custom: admindeeplinkDEFENDER
 manager: raynew
-ms.openlocfilehash: 7b09c12c1d4c519a47fc60057ab26741a7145469
-ms.sourcegitcommit: d08fe0282be75483608e96df4e6986d346e97180
+ms.openlocfilehash: e53c14405d3d190715b49e58061aee8ba771180a
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59212005"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962846"
 ---
 # <a name="defender-for-identity-entity-tags-in-microsoft-365-defender"></a>Id 엔터티 태그에 대한 defender Microsoft 365 Defender
 
@@ -30,7 +31,7 @@ ms.locfileid: "59212005"
 
 이 Microsoft 365 Defender Id 엔터티 태그에 대해 세 가지 유형의 Defender( **중요** 태그, **Honeytoken** 태그 및 서버 태그 **)를** Exchange 수 있습니다.
 
-이러한 태그를 설정하기 [위해](https://security.microsoft.com/)Microsoft 365 Defender 에서 설정  **ID로 이동합니다.**
+이러한 태그를 설정하기 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">위해</a>Microsoft 365 Defender 에서 설정  **ID로 이동합니다.**
 
 ![id로 설정 다음 ID로 이동합니다.](../../media/defender-identity/settings-identities.png)
 
