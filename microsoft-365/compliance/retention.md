@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: a66ef59df6f05ec0e03fa5b9388f2fd3e0fd9a58
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: a284ec91151028e30af414b85c4fff66658c23e9
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792571"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950596"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -298,6 +298,8 @@ Microsoft 365 규정 준수 센터에서 **데이터 분류** 및 **개요** 페
 - 쿼리 기반 구성원은 부서 간 통신에 의존하는 그룹 구성원 또는 외부 프로세스에 안정적으로 반영되지 않을 수 있는 비즈니스 변경 사항에 대한 복원력을 제공합니다.
 
 - 단일 보존 정책에는 Microsoft Teams와 Yammer 모두에 대한 위치가 포함될 수 있지만 정적 범위를 사용하는 경우 이러한 위치에는 자체 보존 정책이 필요합니다.
+    
+- 비활성 사서함에만 특정 보존 설정을 적용할 수 있습니다. 정적 범위는 정책 할당 시점에 비활성 사서함의 특정 수신자 포함을 지원하지 않으므로 이 구성은 정적 범위에 사용할 수 없습니다.
 
 정적 범위 사용의 장점:
 

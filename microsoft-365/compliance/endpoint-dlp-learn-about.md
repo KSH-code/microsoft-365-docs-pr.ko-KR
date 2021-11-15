@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일이 준수 솔루션에 표시됨 '
-ms.openlocfilehash: afe6b7c2454a52428e633bca55e72055308a1f74
-ms.sourcegitcommit: 854f20e8b7d3ef8f4c14cf189560f76056552334
+ms.openlocfilehash: 77f4e4f0312b68941eb4a7421ea0658d925962d9
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60825590"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950704"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
 
@@ -163,8 +163,9 @@ Microsoft Endpoint DLP를 사용하면 사용자가 Windows 10, Windows 11 또�
 
 이제 끝점 DLP에 대해 살펴보았으므로 다음 단계는 다음과 같습니다.
 
-1. [Microsoft 끝점 데이터 손실 방지(미리 보기) 시작하기](endpoint-dlp-getting-started.md)
-2. [Microsoft 끝점 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
+1. [Microsoft 365에 Windows 10 또는 Windows 11 장치 온보딩 개요](device-onboarding-overview.md)
+1. [macOS 디바이스를 Microsoft 365 개요에 온보딩(미리 보기)](device-onboarding-macos-overview.md#onboard-macos-devices-into-microsoft-365-overview-preview)
+1. [Microsoft 끝점 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>참고 항목
 

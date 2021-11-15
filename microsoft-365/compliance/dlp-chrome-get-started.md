@@ -20,12 +20,12 @@ ms.custom: admindeeplinkCOMPLIANCE
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: 1ac08dc558806d47c382db7c3b4a58f43ff3c4f4
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 295e811e6437bb931e1b735725f3c69016cfae8a
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754354"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950680"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Microsoft 규정 준수 확장 시작하기
 
@@ -41,8 +41,8 @@ Microsoft 규정 준수 확장을 사용하려면 장치가 엔드포인트 DLP�
 - [서식 파일에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md)
-- [Windows 10 장치용 온보딩 도구 및 방법](dlp-configure-endpoints.md)
-- [끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정 구성하기](endpoint-dlp-configure-proxy.md)
+- [Windows 10 장치용 온보딩 도구 및 방법](device-onboarding-overview.md)
+- [정보 보호를 위한 장치 프록시 및 인터넷 연결 설정 구성](device-onboarding-configure-proxy.md#configure-device-proxy-and-internet-connection-settings-for-information-protection)
 - [엔드포인트 데이터 손실 방지 사용](endpoint-dlp-using.md)
 
 ### <a name="skusubscriptions-licensing"></a>SKU/구독 라이선싱
@@ -95,8 +95,8 @@ Microsoft 규정 준수 확장 배포는 다단계 프로세스입니다. 한 �
 
 1. 다음 항목의 절차를 사용하여 장치를 온보드합니다.
     1. [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md)
-    1. [Windows 10 장치용 온보딩 도구 및 방법](dlp-configure-endpoints.md)
-    1. [끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정 구성하기](endpoint-dlp-configure-proxy.md)
+    1. [Windows 10 및 Windows 11 장치 온보딩](device-onboarding-overview.md)
+    1. [정보 보호를 위한 장치 프록시 및 인터넷 연결 설정 구성](device-onboarding-configure-proxy.md#configure-device-proxy-and-internet-connection-settings-for-information-protection)
 
 ### <a name="basic-setup-single-machine-selfhost"></a>기본 설정 단일 컴퓨터 셀프호스트
 

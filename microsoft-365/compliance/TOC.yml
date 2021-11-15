@@ -26,6 +26,34 @@
       href: plan-for-security-and-compliance.md
     - name: 규정 준수 확장성
       href: compliance-extensibility.md
+- name: 솔루션 간 기능
+  items:
+    - name: Windows 10 및 Windows 11 장치 온보딩
+      items:
+        - name: Windows 10 및 Windows 11 장치의 Microsoft 365 온보딩 개요
+          href: device-onboarding-overview.md
+        - name: 그룹 정책을 통한 Windows 10 및 Windows 11 장치 온보딩
+          href: device-onboarding-gp.md
+        - name: 모바일 장치 관리 도구를 사용하여 Windows 10 및 Windows 11 장치 온보딩
+          href: device-onboarding-mdm.md
+        - name: 구성 관리자를 사용하여 Windows 10 및 Windows 11 장치 온보딩
+          href: device-onboarding-sccm.md
+        - name: 로컬 스크립트를 사용하여 Windows 10 및 Windows 11 장치 온보딩
+          href: device-onboarding-script.md
+        - name: 비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
+          href: device-onboarding-vdi.md
+    - name: macOS 장치 온보딩(미리 보기)
+      items:
+        - name: macOS 디바이스를 Microsoft 365 개요에 온보딩(미리 보기)
+          href: device-onboarding-macos-overview.md
+        - name: Microsoft Intune 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
+          href: device-onboarding-offboarding-macos-intune.md
+        - name: 엔드포인트용 Microsoft Defender 고객을 위한 Intune을 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
+          href: device-onboarding-offboarding-macos-intune-mde.md
+        - name: JAMF Pro(미리 보기)를 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩
+          href: device-onboarding-offboarding-macos-jamfpro.md
+        - name: 엔드포인트용 Microsoft Defender 고객을 위한 JAMF Pro를 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
+          href: device-onboarding-offboarding-macos-jamfpro-mde.md
 - name: 참가자 위험 관리
   items:
     - name: Microsoft 365 참가자 위험 솔루션
@@ -319,36 +347,12 @@
               href: dlp-on-premises-scanner-get-started.md
             - name: 끝점 데이터 손실 방지 시작하기
               href: endpoint-dlp-getting-started.md
-            - name: 끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
-              href: endpoint-dlp-configure-proxy.md
+            - name: Information Protection의 장치 프록시 및 인터넷 연결 설정 구성
+              href: device-onboarding-configure-proxy.md
             - name: Microsoft 규정 준수 확장 시작
               href: dlp-chrome-get-started.md
             - name: 데이터 손실 방지 경고 대시보드 시작
               href: dlp-alerts-dashboard-get-started.md
-            - name: 엔드포인트 DLP 장치 온보딩 도구 및 메서드
-              items:
-                - name: Windows 10 장치용 온보딩 도구 및 방법
-                  href: dlp-configure-endpoints.md
-                - name: 그룹 정책을 통한 Windows 10 장치 온보딩
-                  href: dlp-configure-endpoints-gp.md
-                - name: 모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩
-                  href: dlp-configure-endpoints-mdm.md
-                - name: 구성 관리자를 사용하여 Windows 10 장치 온보딩
-                  href: dlp-configure-endpoints-sccm.md
-                - name: 로컬 스크립트를 사용하여 Windows 10 장치 온보딩
-                  href: dlp-configure-endpoints-script.md
-                - name: 비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
-                  href: dlp-configure-endpoints-vdi.md
-            - name: macOS 디바이스를 Microsoft 365 개요에 온보딩(미리 보기)
-              href: device-onboarding-macos-overview.md
-            - name: Microsoft Intune 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
-              href: device-onboarding-offboarding-macos-intune.md
-            - name: 엔드포인트용 Microsoft Defender 고객을 위한 Intune을 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
-              href: device-onboarding-offboarding-macos-intune-mde.md
-            - name: JAMF Pro(미리 보기)를 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩
-              href: device-onboarding-offboarding-macos-jamfpro.md
-            - name: 엔드포인트용 Microsoft Defender 고객을 위한 JAMF Pro를 사용하여 macOS 디바이스를 규정 준수 솔루션에 온보딩 및 오프보딩(미리 보기)
-              href: device-onboarding-offboarding-macos-jamfpro-mde.md
         - name: DLP 사용
           items:
             - name: DLP 및 Microsoft Teams

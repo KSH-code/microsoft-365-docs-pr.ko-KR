@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 또는 보존 레이블 정책에서 구성할 수 있는 설정을 이해하여 원하는 항목을 보존하고 원하지 않는 항목을 제거합니다.
-ms.openlocfilehash: a1ac660e9abb389fb45b29b9934d4aa949bfb69c
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 911b80b13d9d091d0161ddce0fff4d1dbd7dbc0b
+ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60703242"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60950512"
 ---
 # <a name="common-settings-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 공통 설정
 
@@ -58,7 +58,7 @@ ms.locfileid: "60703242"
 
 적응형 범위를 사용하기로 선택하는 경우 원하는 적응형 범위 유형을 선택하라는 메시지가 표시됩니다. 적응형 범위에는 세 가지 유형이 있으며 각 유형은 서로 다른 특성 또는 속성을 지원합니다.
 
-| 적응형 범위 유형 | 지원되는 특성 또는 속성 |
+| 적응형 범위 유형 | 지원되는 특성 또는 속성에는 다음이 포함됩니다. |
 |:-----|:-----|
 |**사용자** - 다음에 적용됩니다.  <br/> - Exchange 전자 메일 <br/> - OneDrive 계정 <br/> - Teams 채팅 <br/> - Teams 비공개 채널 메시지 <br/> - Yammer 사용자 메시지| 이름 <br/> 성 <br/>표시 이름 <br/> 직위 <br/> 부서 <br/> 사무실 <br/>나머지 주소 <br/> 구/군/시 <br/>시/도 <br/>우편 번호 <br/> 국가 또는 지역 <br/> 전자 메일 주소 <br/> 별칭 <br/> Exchange 사용자 지정 특성: CustomAttribute1 - CustomAttribute15|
 |**SharePoint** - 다음에 적용됩니다.  <br/> - SharePoint 사이트 <br/> - OneDrive 계정 |사이트 URL <br/>사이트 이름 <br/> SharePoint 사용자 지정 속성: RefinableString00 - RefinableString99 |
@@ -68,6 +68,11 @@ ms.locfileid: "60703242"
 
 - **별칭** 은 Azure Active Directory 관리 센터에서 **전자 메일** 로 표시되는 **mailNickname** LDAP 이름에 매핑됩니다.
 - **전자 메일 주소** 는 Azure Active Directory 관리 센터에서 **프록시 주소** 로 표시되는 LDAP 이름 **proxyAddresses** 에 매핑됩니다.
+
+간단한 쿼리 작성기를 사용하여 적응 범위를 구성할 때 테이블에 나열된 특성 및 속성을 쉽게 지정할 수 있습니다. 추가 특성 및 속성은 다음 섹션에 설명된 대로 고급 쿼리 작성기에서 지원됩니다.
+
+> [!TIP]
+> 고급 쿼리 작성기를 사용하는 방법에 대한 자세한 내용은 [적응형 정책 범위를 사용하여 사용자 및 그룹에 대한 고급 쿼리 빌드](https://mipc.eventbuilder.com/event/52683/occurrence/49452/recording?rauth=853.3181650.1f2b6e8b4a05b4441f19b890dfeadcec24c4325e90ac492b7a58eb3045c546ea) 웹 세미나를 참조하세요
 
 단일 보존 정책은 하나 또는 여러 개의 적응형 범위를 가질 수 있습니다.
 
@@ -120,6 +125,12 @@ ms.locfileid: "60703242"
     - **notlike**(문자열 비교
     
     범위 구성과 독립적으로 [이러한 고급 쿼리의 유효성을 검사](#validating-advanced-queries)할 수 있습니다.
+    
+    > [!TIP]
+    > 비활성 사서함을 제외하려면 고급 쿼리 작성기를 사용해야 합니다. 반대로 비활성 사서함만 대상으로 지정합니다. 이 구성의 경우 OPATH 속성 *IsInactiveMailbox* 를 사용합니다.
+    > 
+    > - 비활성 사서함을 제외하려면 쿼리에 다음이 포함되어 있는지 확인합니다. `(IsInactiveMailbox -eq "False")`
+    > - 비활성 사서함만 대상으로 지정하려면 다음을 지정합니다. `(IsInactiveMailbox -eq "True")`
 
 3. 필요한 만큼 많이 적응형 범위를 만드세요. 보존 정책을 만들 때 하나 이상의 적응형 범위를 선택할 수 있습니다.
 
@@ -198,9 +209,17 @@ SharePoint 검색을 사용하여 쿼리를 실행하려면 다음을 수행합�
 
 리소스 사서함, 연락처 및 Microsoft 365 그룹 사서함은 Exchange 전자 메일에 지원되지 않습니다. Microsoft 365 그룹 사서함의 경우 대신 **Microsoft 365 그룹** 위치를 선택합니다.
 
-정적 정책 범위를 사용하고 보존 설정을 **모든 수신자** 에게 적용하는 경우 모든 [비활성 사서함](create-and-manage-inactive-mailboxes.md)이 포함됩니다. 그러나 이 기본값을 변경하고 [특정 포함 또는 제외](#a-policy-with-specific-inclusions-or-exclusions)를 구성하는 경우 비활성 사서함은 지원되지 않으며 해당 사서함에 보존 설정을 적용하거나 제외할 수 없습니다.
+정책 구성에 따라 [비활성 사서함](create-and-manage-inactive-mailboxes.md)에는 다음이 포함되거나 포함되지 않을 수 있습니다.
 
-정적 정책 범위에 포함하거나 제외할 수신자를 선택하는 경우 수신자를 하나씩 선택하는 대신, 여러 수신자를 선택하는 효율적인 방법으로 배포 목록과 전자 메일 지원 보안 그룹을 선택할 수 있습니다. 이 옵션을 사용하는 경우 이러한 그룹은 백그라운드에서 구성 시 자동으로 확장하여 그룹에 있는 사용자 사서함을 선택합니다. 해당 그룹의 멤버십이 나중에 변경되는 경우 기존 보존 정책이 자동으로 업데이트되지 않습니다.
+- 기본 **모든 받는 사람** 구성을 사용하는 경우 정적 정책 범위에는 비활성 사서함이 포함되지만 [특정 포함 또는 제외](#a-policy-with-specific-inclusions-or-exclusions)에 대해서는 지원되지 않습니다. 그러나 정책이 적용될 때 활성 사서함이 있는 받는 사람을 포함하거나 제외하고 나중에 사서함이 비활성화되면 보존 설정이 계속 적용되거나 제외됩니다.
+
+- 적응형 정책 범위에는 기본적으로 비활성 사서함이 포함됩니다. 고급 쿼리 작성기 및 OPATH 속성 *IsInactiveMailbox* 를 사용하여 이 동작을 제어할 수 있습니다.
+    
+    ```console
+    (IsInactiveMailbox -eq "False")
+    ```
+
+정적 정책 범위를 사용하고 포함하거나 제외할 받는 사람을 선택하는 경우 메일 그룹 및 전자 메일 사용 보안 그룹을 선택하여 여러 받는 사람을 하나씩 선택하는 대신 효율적으로 선택할 수 있습니다.. 이 옵션을 사용하는 경우 이러한 그룹은 백그라운드에서 구성 시 자동으로 확장하여 그룹에 있는 사용자 사서함을 선택합니다. 나중에 해당 그룹의 구성원이 변경되면 적응형 정책 범위와 달리 기존 보존 정책이 자동으로 업데이트되지 않습니다.
 
 Exchange에 대한 보존 설정을 구성할 때 포함 및 제외되는 사서함 항목에 대한 자세한 내용은 [보존 및 삭제에 포함된 항목](retention-policies-exchange.md#whats-included-for-retention-and-deletion)을 참조하세요.
 
