@@ -17,15 +17,16 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkDEFENDER
 description: 사용자가 Office 365용 Microsoft Defender에서 상승된 권한 작업을 수행하여 데이터에 대한 위험을 낮출 수 있도록 시간이 제한된 Just-In-Time 액세스 권한을 부여하기 위해 Azure PIM을 통합하는 방법을 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9ea618a24c14aa49973ae05287a65cbb756f5467
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 5a5088b72cd7739c5f203293a8ac569af093bf4b
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196288"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960997"
 ---
 <!--A-->
 # <a name="privileged-identity-management-pim-and-why-to-use-it-with-microsoft-defender-for-office-365"></a>PIM(Privileged Identity Management) 및 Office 365용 Microsoft Defender와 함께 사용해야 하는 이유
@@ -68,7 +69,7 @@ PIM(Privileged Identity Management)은 일단 설정되면 특정 작업을 수�
 
 보안 포털에서 원하는 권한이 포함된 사용자 지정 역할 그룹을 만듭니다.
 
-1. Microsoft 365 Defender 포털(https://security.microsoft.com)로 이동하여  > **권한 및 역할** > 이메일 및 공동 작업 **역할** > **만들기** 를 선택합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 Defender 포털</a> > **권한 및 역할** 으로 이동하여 > 이메일 및 공동 작업 > **만들기** 의 **역할** 을 선택합니다.
 2. 'PIM 검색 및 제거'와 같은 목적을 반영하도록 그룹 이름을 지정합니다.
 3. 구성원을 추가하지 말고 그룹을 저장하고 다음 부분으로 이동하세요!
 

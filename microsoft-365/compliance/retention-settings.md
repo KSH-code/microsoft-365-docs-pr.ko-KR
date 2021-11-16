@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 또는 보존 레이블 정책에서 구성할 수 있는 설정을 이해하여 원하는 항목을 보존하고 원하지 않는 항목을 제거합니다.
-ms.openlocfilehash: 911b80b13d9d091d0161ddce0fff4d1dbd7dbc0b
-ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
+ms.openlocfilehash: 20167d9c1559403f1acbbfee5766ab09a4a1e3ef
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60950512"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962978"
 ---
 # <a name="common-settings-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 공통 설정
 
@@ -213,7 +213,7 @@ SharePoint 검색을 사용하여 쿼리를 실행하려면 다음을 수행합�
 
 - 기본 **모든 받는 사람** 구성을 사용하는 경우 정적 정책 범위에는 비활성 사서함이 포함되지만 [특정 포함 또는 제외](#a-policy-with-specific-inclusions-or-exclusions)에 대해서는 지원되지 않습니다. 그러나 정책이 적용될 때 활성 사서함이 있는 받는 사람을 포함하거나 제외하고 나중에 사서함이 비활성화되면 보존 설정이 계속 적용되거나 제외됩니다.
 
-- 적응형 정책 범위에는 기본적으로 비활성 사서함이 포함됩니다. 고급 쿼리 작성기 및 OPATH 속성 *IsInactiveMailbox* 를 사용하여 이 동작을 제어할 수 있습니다.
+- 적응형 정책 범위는 기본적으로 범위의 쿼리를 충족하는 비활성 사서함을 포함합니다. 고급 쿼리 작성기 및 OPATH 속성 *IsInactiveMailbox* 를 사용하여 이 해당 항목을 제외할 수 있습니다.
     
     ```console
     (IsInactiveMailbox -eq "False")

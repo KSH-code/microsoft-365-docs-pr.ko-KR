@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 122831c83c7121d91b61c86828634db575208edd
-ms.sourcegitcommit: 27bf284b3bfe334eb98847798734625bd2ffafb1
+ms.openlocfilehash: ef03bd502b0951416ad9e8be27e6da7281f63811
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60792439"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962678"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -44,8 +44,8 @@ ms.locfileid: "60792439"
 
 3. **레이블을 게시합니다.** 민감도 레이블이 구성되 면 레이블 정책을 사용하 여 해당 레이블을 게시합니다. 어떤 사용자와 그룹에 레이블과 정책 설정을 사용할지 결정합니다. 단일 레이블은 다시 사용할 수 있습니다. 한번 정의한 후 다양한 사용자에게 할당된 여러 레이블 정책에 이를 포함시킬 수 있습니다. 예를 들어, 소수의 사용자 에게만 레이블 정책을 할당하여 민감도 레이블을 파일럿 할 수 있습니다. 그런 다음 조직 전체에 레이블을 롤아웃할 준비가되면 레이블에 대한 새 레이블 정책을 작성하고 이번에는 모든 사용자를 지정하십시오.
 
-> [!TIP]
-> 기본 레이블 및 1-3단계를 관리하는 기본 레이블 정책을 사용할 수 있습니다. 자세한 내용은 [Microsoft Information Protection에 대한 기본 레이블 및 정책](mip-easy-trials.md)을 참조하세요.
+
+> 기본 레이블의 자동 생성 및 1-3단계를 처리하는 기본 레이블 정책에 대한 자격이 있을 수 있습니다. 자세한 내용은 [Microsoft Information Protection에 대한 기본 레이블 및 정책](mip-easy-trials.md)을 참조하세요.
 
 민감도 레이블을 배포하고 적용하기 위한 기본 흐름:
 
