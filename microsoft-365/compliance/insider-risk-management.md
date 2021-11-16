@@ -15,14 +15,14 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 455c60e925fe9563fff26699e6f023b0971bb96c
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 6a1698be8d0221987d3e70ed0004feb1148e03d2
+ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60662519"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "60972063"
 ---
-# <a name="learn-about-insider-risk-management-in-microsoft-365"></a>내부자 위험 관리에 대해 Microsoft 365
+# <a name="learn-about-insider-risk-management-in-microsoft-365"></a>Microsoft 365의 내부 위험 관리에 관한 자세한 정보
 
 내부자 위험 관리는 조직에서 Microsoft 365 부수적이지 않은 활동을 감지, 조사 및 작업할 수 있도록 하여 내부 위험을 최소화하는 데 도움이 되는 조직의 규정 준수 솔루션입니다. 내부자 위험 정책을 사용하면 사례에 대한 작업 및 필요한 경우 Microsoft로 사례를 에스컬레이터하는 것을 포함하여 조직에서 식별하고 감지할 수 있는 위험 유형을 정의할 Advanced eDiscovery 있습니다. 조직의 위험 분석가가 신속하게 적절한 조치를 취하여 사용자가 조직의 규정 준수 표준을 준수하도록 할 수 있습니다.
 
@@ -88,7 +88,7 @@ Microsoft 365의 내부 위험 관리를 통해 내부 위험 활동 및 규정 
 - [우선순위 사용자의 데이터 유출(미리 보기)](insider-risk-management-policies.md#data-leaks-by-priority-users-preview)
 - [불만을 품은 사용자의 데이터 유출(미리 보기)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
 - [일반 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#general-security-policy-violations-preview)
-- [일반 환자 데이터 오용(미리 보기)](insider-risk-management-policies.md#general-patient-data-misuse-preview))
+- [일반 환자 데이터 오용(미리 보기)](insider-risk-management-policies.md#general-patient-data-misuse-preview)
 - [퇴사하는 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-departing-users-preview)
 - [우선순위 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
 - [불만을 품은 사용자의 보안 정책 위반(미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-disgruntled-users-preview)

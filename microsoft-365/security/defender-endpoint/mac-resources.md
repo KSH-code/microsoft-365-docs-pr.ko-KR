@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1df9efd022f58ef68ed06c8271e140b33dcb0f67
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3e37ac8876b28e55faca4282245a633a16cb06fa
+ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60646931"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "60971931"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 리소스
 
@@ -110,7 +110,6 @@ macOS에서 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가
 |구성|바이러스 백신 수동 모드 켜기/끄기|`mdatp config passive-mode --value [enabled/disabled]`|
 |구성|요구 시 검사에 대한 병렬 처리 수준 구성|`mdatp config maximum-on-demand-scan-threads --value [numerical-value-between-1-and-64]`|
 |구성|보안 인텔리전스 업데이트 후 검사 켜기/끄기|`mdatp config scan-after-definition-update --value [enabled/disabled]`|
-|구성|보관 검색 켜기/끄기(요구 시 검사만 해당)|`mdatp config scan-archives --value [enabled/disabled]`|
 |진단|로그 수준 변경|`mdatp log level set --level [error/warning/info/verbose]`|
 |진단|진단 로그 생성|`mdatp diagnostic create --path [directory]`|
 |상태|제품의 상태 확인|`mdatp health`|

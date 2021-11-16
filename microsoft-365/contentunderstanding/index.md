@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 ms.localizationpriority: medium
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 6e738a90486b0aa1d37c483a6e369a84a2196a9d
-ms.sourcegitcommit: e3b0515fd8f2aad7b8cb308159c7bcecc2bcaa24
+ms.openlocfilehash: 51904d626b76f9e013952816a1ec9af01856dfca
+ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60264711"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "60971943"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
@@ -51,10 +51,11 @@ SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이 되는 Mi
 |Microsoft Tech 커뮤니티 리소스 센터의 리소스 참조|[SharePoint Syntex - Microsoft 365의 콘텐츠 서비스](https://techcommunity.microsoft.com/t5/sharepoint-syntex/bg-p/SharePointSyntex)|
 |Microsoft Tech 커뮤니티 리소스 센터의 SharePoint Syntex FAQ |[SharePoint Syntex - FAQ](https://resources.techcommunity.microsoft.com/sharepoint-syntex/faq/)|
 |SharePoint Syntex를 다운로드하는 방법 |[SharePoint Syntex 제품 페이지](https://www.microsoft.com/microsoft-365/enterprise/sharepoint-syntex)|
+|사용 방법을 SharePoint Syntex |[SharePoint Syntex 학습 경로](/learn/paths/syntex-get-started)|
 
 ## <a name="adoption"></a>채택
 
-조직에서 SharePoint Syntex를 사용하고 구현하는 방법에 대해 자세히 알아보고 비즈니스 문제를 해결하는 데 도움을 받으세요. 
+비즈니스 문제를 해결하는 데 도움이 되는 조직에서 SharePoint Syntex 및 구현하는 방법에 대해 자세히 알아보고 이에 대해 자세히 알아보아야 합니다.
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
@@ -79,9 +80,11 @@ SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이 되는 Mi
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|모델을 사용하여 작업하는 방법 알아보기|[콘텐츠 센터 만들기](./create-a-content-center.md)<br><br>[분류자 만들기](./create-a-classifier.md)<br><br>[추출기 만들기](./create-an-extractor.md)<br><br>[양식 처리 모델 만들기](./create-a-form-processing-model.md)<br><br>[설명 유형](./explanation-types-overview.md)<br><br>[문서 이해 모델 적용](./apply-a-model.md)<br><br>[샘플 모델을 통해 문서 이해 모델에 대해 알아보기](./learn-about-document-understanding-models-through-the-sample-model.md)<br><br>|
+|모델을 사용하여 작업하는 방법 알아보기|[콘텐츠 센터 만들기](./create-a-content-center.md)<br><br>[분류자 만들기](./create-a-classifier.md)<br><br>[모델 복제](./duplicate-a-model.md)<br><br>[모델 이름 변경](./rename-a-model.md)<br><br>[추출자 만들기](./create-an-extractor.md)<br><br>[추출기 이름 변경](./rename-an-extractor.md)<br><br>[양식 처리 모델 만들기](./create-a-form-processing-model.md)<br><br>[설명 유형](./explanation-types-overview.md)<br><br>[설명 서식 파일 사용](./explanation-templates.md)<br><br>[문서 이해 모델 적용](./apply-a-model.md)<br><br>[샘플 모델을 통해 문서 이해 모델에 대해 알아보기](./learn-about-document-understanding-models-through-the-sample-model.md)<br><br>|
 |모델에 보존 레이블 적용|[문서 이해 모델에 보존 레이블 적용](./apply-a-retention-label-to-a-model.md)|
 |모델에 민감도 레이블 적용|[문서 이해 모델에 민감도 레이블 적용](./apply-a-sensitivity-label-to-a-model.md)|
+|다른 콘텐츠 센터에서 학습된 모델 사용 |[문서 이해 모델 게시 및 검색](./model-discovery.md)|
+|문서 라이브러리에 대해 메타데이터 기반 쿼리 수행|[문서 라이브러리에서 메타데이터 검색](./metadata-search.md)|
 |추출기를 만들 때 관리되는 메타 데이터 서비스 용어 저장소 분류 사용|[추출기를 만들 때 용어 저장소 분류 활용](./leverage-term-store-taxonomy.md)|
 |모델에 대한 데이터를 확인하는 방법 알아보기|[모델 사용량 분석](./model-usage-analytics.md)|
 |모델을 교육할 때 접근성 모드를 사용하는 방법 알아보기|[SharePoint Syntex 접근성 모드](./accessibility-mode.md)|

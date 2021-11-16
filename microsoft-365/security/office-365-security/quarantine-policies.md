@@ -17,17 +17,14 @@ ms.custom: admindeeplinkDEFENDER
 description: 관리자는 사용자가 메시지를 검사하기 위해 할 수 있는 작업을 제어하기 위해 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5bfb89d73649c3607909c6a66d4344b6d63b6470
-ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
+ms.openlocfilehash: 77e24e4c1f4040ee97fbbdfd3b7c0208955c17d9
+ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60963026"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "60972051"
 ---
 # <a name="quarantine-policies"></a>격리 정책
-
-> [!NOTE]
-> 이 문서에서 설명하는 기능은 롤아웃 중이기 때문에 아직 사용할 수 없습니다. 전 세계 출시의 대상 날짜는 2021년 10월 31일입니다.
 
 EOP(Exchange Online Protection(Exchange Online Protection) 및 Microsoft Defender for Office 365 정책은 관리자가 메시지가 검사된 이유에 따라 사용자가 메시지를 검사할 수 있는 작업을 제어할 수 있도록 합니다.
 
@@ -74,6 +71,8 @@ Microsoft 365 Defender 포털 또는 PowerShell(Exchange Online 사서함이 있
 
 > [!NOTE]
 > 이 기간 동안 스팸 방지 정책에서 스팸 보존(QuarantineRetentionPeriod)에 의해 만료되기전까지의 메시지 보존 기간은 스팸 방지 정책의 스팸 보존에 의해 제어됩니다.  자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+>
+> 지원되는 보호 기능에 할당된 검역 정책을 변경하면 변경한 후 검역된 메시지에 영향을  미치게 됩니다. 이전에 보호 기능으로 검역된 메시지는 새 검역 정책 할당 설정의 영향을 받지 않습니다.
 
 ## <a name="full-access-permissions-and-quarantine-notifications"></a>모든 액세스 권한 및 알림 검지
 

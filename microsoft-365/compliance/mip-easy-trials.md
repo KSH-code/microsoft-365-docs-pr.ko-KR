@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.service: O365-seccomp
 ms.localizationpriority: high
 description: 중요한 콘텐츠를 분류하고 보호하기 위한 MIP(Microsoft Information Protection)의 기본 레이블 및 정책에 대해 알아봅니다.
-ms.openlocfilehash: 55657221c86aef13c9a6a5192a89ffe4f78ef2a3
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: ffa0be4d64218fde0e88da4646d93a57f7a3a0b1
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60677276"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962834"
 ---
 # <a name="default-labels-and-policies-for-microsoft-information-protection"></a>Microsoft Information Protection에 대한 기본 레이블 및 정책
 
@@ -31,7 +31,7 @@ ms.locfileid: "60677276"
 
 이러한 기본 구성은 Microsoft 365 규정 준수의 Microsoft Information Protection을 빠르게 시작하고 실행하는 데 도움이 됩니다. 그대로 사용하거나, 몇 가지 변경을 하거나, 비즈니스 요구 사항에 맞게 완전히 사용자 지정할 수 있습니다. 
 
-자격에는 [Microsoft 365 규정 준수에 대한 무료 평가판](compliance-easy-trials.md)이 있는 고객 및 Microsoft 365 E5 플랜이 이미 있는 고객이 포함됩니다.
+자격에는 [Microsoft 365 규정 준수에 대한 무료 평가판](compliance-easy-trials.md)이 있는 고객 및 Microsoft 365 E5 플랜이 이미 있는 일부 고객이 포함됩니다.
 
 - **신규 고객**: Microsoft 365 규정 준수를 30일 미만으로 사용한 경우 테넌트는 나열된 모든 기본 구성을 활성화할 수 있습니다. 언제든지 사용하지 않도록 설정하거나, 제거하거나, 편집할 수 있습니다.
 
@@ -55,7 +55,9 @@ ms.locfileid: "60677276"
     
 2. Microsoft Information Protection 기본 레이블 및 정책을 사용할 수 있는 경우 기본 레이블 및 정책을 활성화할 수 있는 다음 정보가 표시됩니다. 예제:
     
-    :::image type="content" alt-text="미리 구성된 정책이 있는 Microsoft Information Protection 무료 평가판." source="../media/mip-preconfigured.png" lightbox="../media/mip-preconfigured.png":::
+    :::image type="content" alt-text="미리 구성된 레이블과 정책의 Microsoft Information Protection 활성화." source="../media/mip-preconfigured.png" lightbox="../media/mip-preconfigured.png":::
+    
+    활성화 옵션과 함께 이 정보가 표시되지 않는 경우 민감도 레이블 및 정책을 자동으로 만들 수 없습니다. 나중에 다시 이 상태가 변경됐는지 확인하거나, 다음 설정 정보를 사용하여 동일한 레이블 및 정책을 수동으로 만들 수 있습니다.
 
 ## <a name="default-sensitivity-labels"></a>기본 민감도 레이블
 

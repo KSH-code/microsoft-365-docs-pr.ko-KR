@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: b354e578c40845a89b7bb837854f6dd7fa5bb4d3
-ms.sourcegitcommit: 7b83e2605895fee5c73cd1d01f4cd16e1457a69f
+ms.openlocfilehash: 03f16c9a914ce0a5cd1193919a962307b97435b2
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60907804"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60962990"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -45,10 +45,6 @@ ms.locfileid: "60907804"
 
 ### <a name="advanced-classification-scanning-and-protection"></a>고급 분류 검색 및 보호
 
-#### <a name="get-registered"></a>등록하기
-
-이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. [등록하기](https://aka.ms/Ignite2021DLP)를 참조하세요.
-
 사용하도록 설정하면 **고급 분류 검색 및 보호** 를 통해 고급 Microsoft 365 클라우드 기반 데이터 분류 서비스가 항목을 검색하고 분류하고 결과를 로컬 시스템에 반환할 수 있습니다. 즉, DLP 정책에서 [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) 분류, [명명된 항목(미리보기)](named-entities-learn.md#learn-about-named-entities-preview) 분류 기술을 활용할 수 있습니다.
 
 고급 분류에서 콘텐츠는 스캔 및 분류를 위해 로컬 장치에서 클라우드 서비스로 전송됩니다. 대역폭 사용이 우려되는 경우 24시간 동안 사용할 수 있는 양에 대해 장치별로 적용되는 이 전역 설정에서 제한을 설정할 수 있습니다. 대역폭 사용 제한을 설정하고 이를 초과하면 DLP가 사용자 콘텐츠를 클라우드로 보내는 것을 중지하고 데이터 분류가 장치에서 로컬로 계속됩니다. 누적 대역폭 사용률이 롤링 24시간 제한 아래로 떨어지면 클라우드 서비스와의 통신이 다시 시작됩니다.
@@ -65,8 +61,6 @@ ms.locfileid: "60907804"
 > DLP 정책 평가는 사용자 콘텐츠가 전송되지 않는 경우에도 항상 클라우드에서 발생합니다.
 
 ### <a name="endpoint-dlp-windows-10-and-macos-settings"></a>Endpoint DLP Windows 10 및 macOS 설정
-
-macOS 지원에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. [등록하기](https://aka.ms/EndpointDLPIgnite21-Previews)를 참조하세요.
 
 |설정 |Windows 10, 1809 이상  |macOS Catalina 10.15 이상(미리 보기)  |메모  |
 |---------|---------|---------|---------|
@@ -89,19 +83,19 @@ macOS 지원에 액세스하려면 Microsoft에 테넌트를 등록해야 합니
 
 이 논리를 사용하여 Windows 10 장치에 대한 제외 경로를 구성할 수 있습니다.
 
-- ‘\로 끝나는 올바른 파일 경로입니다. 이는 폴더 바로 아래에 있는 파일만을 의미합니다. <br/>예시: C:\Temp\
+- `\`(으)로 끝나는 유효한 파일 경로(즉, 폴더 바로 아래의 파일만 의미). <br/>예: `C:\Temp\`
 
-- 폴더 바로 아래에 있는 파일 외에 하위 폴더 아래에 있는 파일만 의미하는 '\*'로 끝나는 유효한 파일 경로입니다. <br/>예시: C:\Temp\*
+- `\*`(으)로 끝나는 유효한 파일 경로(즉, 해당 폴더 바로 아래의 파일 외 하위 폴더아래의 파일만 의미). <br/>예: `C:\Temp\*`
 
-- '\' 또는 '\*' 없이 끝나는 유효한 파일 경로는 폴더 및 모든 하위 폴더 바로 아래에 있는 모든 파일을 의미합니다. <br/>예시: C:\Temp
+- `\` 또는 `\*`(으)로 끝나는 유효한 파일 경로(즉, 폴더와 모든 하위 폴더 바로 아래의 모든 파일을 의미) <br/>예: `C:\Temp`
 
-- 각 면의 '\' 사이에 와일드카드가 있는 경로입니다. <br/>예시: C:\Users\*\Desktop\
+- 각 면의 `\` 사이에 와일드카드가 있는 경로. <br/>예: `C:\Users\*\Desktop\`
 
-- 정확한 하위 폴더 수를 제공하기 위해 각 면의 '\' 사이에 와일드카드와 '(숫자)'가 있는 경로입니다. <br/>예시: C:\Users\*(1)\Downloads\
+- 정확한 하위 폴더 수를 제공하기 위해 각 면의 `\` 사이에 와일드카드와 `(number)`이(가) 있는 경로. <br/>예: `C:\Users\*(1)\Downloads\`
 
-- 시스템 환경 변수를 사용하는 경로입니다. <br/>예시: %SystemDrive%\Test\*
+- 시스템 환경 변수를 사용하는 경로입니다. <br/>예: `%SystemDrive%\Test\*`
 
-- 위의 모든 것을 혼합한 것입니다. <br/>예시: %SystemDrive%\Users\*\Documents\*(2)\Sub\
+- 위의 모든 것을 혼합한 것입니다. <br/>예: `%SystemDrive%\Users\*\Documents\*(2)\Sub\`
 
 #### <a name="macos-devices-preview"></a>macOS 장치(미리 보기)
 
@@ -158,7 +152,7 @@ Mac 앱의 전체 경로를 찾으려면:
 
 활성화하면 허용되지 않은 앱이 DLP로 보호되는 중요한 항목에 액세스하려고 할 때 자동 격리가 시작됩니다. 자동 격리는 중요한 항목을 관리자가 구성한 폴더로 이동하고 원본 위치에 자리 표시자 **.txt** 파일을 남길 수 있습니다. 항목이 이동된 위치 및 기타 관련 정보를 사용자에게 알리도록 자리 표시자 파일의 텍스트를 구성할 수 있습니다.  
 
-자동 격리를 사용하여 사용자와 관리자에 대한 DLP 알림의 끝없는 체인을 방지할 수 있습니다. [시나리오 4: 자동 격리를 사용하여 클라우드 동기화 앱에서 DLP 알림 반복 방지(미리 보기)](#scenario-4-avoid-looping-dlp-notifications-from-cloud-synchronization-apps-with-auto-quarantine-preview)를 참조하세요.
+자동 격리를 사용하여 사용자와 관리자 사이에 무한 DLP 알림 체인이 생기는 걸 방지할 수 있습니다. [시나리오 4: 자동 격리를 사용하여 클라우드 동기화 앱에서 DLP 알림 반복 방지(미리 보기)](#scenario-4-avoid-looping-dlp-notifications-from-cloud-synchronization-apps-with-auto-quarantine-preview)를 참조하세요.
 
 ### <a name="unallowed-bluetooth-apps"></a>허용되지 않는 Bluetooth 앱
 
@@ -173,6 +167,9 @@ Mac 앱의 전체 경로를 찾으려면:
 클라우드 서비스 제한에 업로드가 차단 또는 재설정을 차단하는 것으로 설정되어 있는 적용된 DLP 정책의 조건과 일치하는 파일에 액세스하지 못하도록 차단된 실행 파일 이름으로 식별되는 브라우저를 추가합니다. 이 브라우저가 파일에 액세스하지 못하도록 차단되면 최종 사용자에게 Edge Chromium를 통해 파일을 열도록 요청하는 알림 메시지가 표시됩니다.
 
 #### <a name="service-domains"></a>서비스 도메인
+
+> [!NOTE]
+> **서비스 도메인** 설정은 [Microsoft 규정 준수 확장](dlp-chrome-learn-about.md#learn-about-the-microsoft-compliance-extension)이 설치된 Microsoft Edge 또는 Google Chrome을 사용하여 업로드된 파일에만 적용됩니다.
 
 정책으로 보호되는 중요한 파일을 Microsoft Edge의 특정 서비스 도메인에 업로드할 수 있는지 여부를 제어할 수 있습니다.
 
@@ -206,7 +203,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 |가양성 옵션 표시     |**이 파일의 정보는 중요하지 않습니다** 또는 사용자 지정된 텍스트를 입력할 수 있습니다.          |
 |옵션 5    |**기타** 또는 사용자 지정된 텍스트를 입력할 수 있습니다.         |
 
-<!--See, [Scenario 5: Configure a policy to use the customized business justification](#scenario-5-configure-a-policy-to-use-the-customized-business-justification)-->
+<!--See [Scenario 5: Configure a policy to use the customized business justification](#scenario-5-configure-a-policy-to-use-the-customized-business-justification)-->
 
 ### <a name="always-audit-file-activity-for-devices"></a>장치에 대한 파일 활동 항상 감사
 
@@ -238,7 +235,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 > [!IMPORTANT]
 > 이러한 끝점 DLP 시나리오는 DLP 정책을 만들고 조정하는 공식 절차가 아닙니다. 일반적으로 DLP 정책을 사용해야 하는 경우 다음 항목을 참조하세요.
-
+>
 >- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 >- [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)
 >- [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
@@ -268,7 +265,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 10. 새 DLP 정책이 정책 목록에 표시됩니다.
 
-11. 모니터링되는 끝점에서 데이터에 대한 활동 탐색기를 확인합니다. 장치에 대한 위치 필터를 설정하고 정책을 추가한 다음 정책 이름을 기준으로 필터링하여 정책의 영향을 확인합니다. 필요한 경우 [활동 탐색기로 시작](data-classification-activity-explorer.md)을 참조하세요.
+11. 모니터링되는 끝점에서 데이터에 대한 활동 탐색기를 확인합니다. 장치에 위치 필터를 설정하고 정책을 추가한 다음 정책 이름으로 필터링하여 이 정책의 영향을 확인합니다. 필요한 경우 [활동 탐색기 시작하기](data-classification-activity-explorer.md)를 참조하세요.
 
 12. 조직 외부의 사용자와 미국 PII(개인 식별 정보) 데이터 조건을 트리거하는 콘텐츠가 포함된 테스트를 공유합니다. 이 경우 정책이 트리거되어야 합니다.
 
@@ -337,7 +334,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 - 대상 AAD 사용자 계정 및 이미 로컬 OneDrive 폴더를 OneDrive 클라우드 저장소와 동기화하고 있는 온보드 Windows 10 컴퓨터.
 - 대상 Windows 10 컴퓨터에 설치된 Microsoft Word
-- 민감도 레이블이 구성 및 게시되었습니다. [민감도 레이블 시작하기](get-started-with-sensitivity-labels.md#get-started-with-sensitivity-labels) 및 [민감도 레이블 및 해당 정책 만들기 및 구성](create-sensitivity-labels.md#create-and-configure-sensitivity-labels-and-their-policies)을 참조하세요.
+- 구성 및 게시된 민감도 레이블은 [민감도 레이블 시작](get-started-with-sensitivity-labels.md#get-started-with-sensitivity-labels) 및 [민감도 레이블 및 정책 만들기 및 구성](create-sensitivity-labels.md#create-and-configure-sensitivity-labels-and-their-policies)을 참조합니다.
 
 세 가지 절차가 있습니다.
 
@@ -361,20 +358,22 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 7. 원래 중요한 파일을 이동할 로컬 시스템의 폴더 경로를 입력합니다. 예를 들면 다음과 같습니다.
    
-**'%homedrive%%homepath%\Microsoft DLP\Quarantine'** 은 사용자 이름 *이사야 랑거* 에 대해 이동된 항목을 
+    사용자 이름 *Isaiah langer* 의 **'%homedrive%%homepath%\Microsoft DLP\Quarantine'** 이 이동된 항목을  
 
-*C:\Users\IsaiahLanger\Microsoft DLP\Quarantine\OneDrive* 폴더로 이동하고 원본 파일 이름에 날짜 및 시간 스탬프를 추가합니다.
+    *C:\Users\IsaiahLanger\Microsoft DLP\Quarantine\OneDrive* 폴더에 배치하고
 
-> [!NOTE]
-> DLP 자동 격리는 허용되지 않는 각 앱의 파일에 대한 하위 폴더를 생성합니다. 따라서 허용되지 않는 앱 목록에 *메모장* 과 *OneDrive* 가 모두 있는 경우 **\OneDrive** 에 대한 하위 폴더와 **\Notepad** 에 대한 다른 하위 폴더가 생성됩니다.
+    날짜 및 시간 스탬프를 원래 파일 이름에 추가합니다.
+    
+    > [!NOTE]
+    > DLP 자동 격리는 허용되지 않는 각 앱의 파일에 대한 하위 폴더를 생성합니다. 따라서 허용되지 않는 앱 목록에 *메모장* 과 *OneDrive* 가 모두 있는 경우 **\OneDrive** 에 대한 하위 폴더와 **\Notepad** 에 대한 다른 하위 폴더가 생성됩니다.
 
 8. **다음 텍스트가 포함된 .txt 파일로 파일 바꾸기** 를 선택하고 자리 표시자 파일에 원하는 텍스트를 입력합니다. 예를 들어 *auto quar 1.docx* 라는 파일의 경우, 다음과 같이 작업을 수행합니다.
     
-**%%FileName%%에는 조직에서 DLP(데이터 손실 방지) 정책 %%PolicyName%%으로 보호하는 중요한 정보가 포함되어 있으며 격리 폴더: %%QuarantinePath%%로 이동되었습니다.** 
-
-이 메시지가 포함된 .txt 파일을 남깁니다.
-
-*auto quar 1.docx에는 조직에서 DLP(데이터 손실 방지) 정책으로 보호하는 중요한 정보가 포함되어 있으며 격리 폴더: C:\Users\IsaiahLanger\Microsoft DLP\Quarantine\OneDrive\auto quar 1_20210728_151541.docx로 이동되었습니다.*
+    > %%FileName%%은(는) 조직이 %%PolicyName% DLP(데이터 손실 방지) 정책을 사용하여 보호하고 %%QuarantinePath%% 격리 폴더로 이동한 중요한 정보를 포함합니다.
+    
+    다음 메시지를 포함하는 텍스트 파일을 남깁니다.
+    
+    > auto quar 1.docx에는 조직에서 DLP(데이터 손실 방지) 정책으로 보호하는 중요한 정보가 포함되어 있으며 격리 폴더: C:\Users\IsaiahLanger\Microsoft DLP\Quarantine\OneDrive\auto quar 1_20210728_151541.docx로 이동되었습니다.
 
 9. **저장** 을 선택합니다.
 
@@ -393,10 +392,10 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 6. 기본 **고급 DLP 규칙 만들기 또는 사용자 지정** 선택 항목을 수락하고 **다음** 을 선택합니다.
 
 7. 이 값으로 다음과 같이 규칙을 만듭니다.
-    1. **이름** > *시나리오 4 자동 격리*
-    1. **조건** > **콘텐츠 포함** > **민감도 레이블** > **기밀**
+    1. **이름** > *시나리오 4 자동 격리*.
+    1. **조건** > **콘텐츠 포함** > **민감도 레이블** > **극비**.
     1.  **작업** > **Windows 장치의 활동을 감사 또는 제한** > **허용되지 않는 앱의 액세스** > **차단**. 이 시나리오의 목적을 위해 다른 모든 활동을 지우세요.
-    1. **사용자 알림** > **켜짐**
+    1. **사용자 알림** > **켜짐**.
     1. **엔드포인트 장치** > 아직 활성화되지 않은 경우 **활동 시 사용자에게 정책 팁 알림 표시** 를 선택합니다.
     
 8. **저장** 및 **다음** 을 선택합니다.
@@ -405,8 +404,8 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 10. 설정을 검토하고 **제출** 을 선택합니다.
 
-> [!NOTE]
-> 새 정책이 복제되고 대상 Windows 10 컴퓨터에 적용되는 데 최소 1시간이 걸립니다.
+    > [!NOTE]
+    > 새 정책이 복제되고 대상 Windows 10 컴퓨터에 적용되는 데 최소 1시간이 걸립니다.
 
 11. 새 DLP 정책이 정책 목록에 표시됩니다.
 
@@ -418,23 +417,23 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
     *C:\auto-quarantine 원본 폴더*
 
-3. Microsoft Word를 열고 자동 격리 원본 폴더에 파일을 만듭니다. **극비** 민감도 레이블을 적용합니다. [Office에서 파일 및 이메일에 민감도 레이블 적용](https://support.microsoft.com/topic/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)을 참조하세요.
+3. Microsoft Word를 열고 자동 격리 원본 폴더에 파일을 만듭니다. **극비** 민감도 레이블을 적용합니다. [Office 파일 및 전자 메일에 민감도 레이블 적용](https://support.microsoft.com/topic/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)을 참조합니다.
 
 4. 방금 만든 파일을 OneDrive 동기화 폴더에 복사합니다. 작업이 허용되지 않으며 파일이 격리될 것임을 알리는 사용자 알림 알림이 표시되어야 합니다. 예를 들어 사용자 이름이 *Isaiah Langer* 이고 제목이 *auto-quarantine doc 1.docx* 인 문서의 경우 다음 메시지가 표시됩니다.
 
-![지정된 파일에 대해 OneDrive 동기화 작업이 허용되지 않으며 파일이 격리될 것임을 나타내는 데이터 손실 방지 사용자 알림 팝업.](../media/auto-quarantine-user-notification-toast.png)
+    ![지정된 파일에 대해 OneDrive 동기화 작업이 허용되지 않으며 파일이 격리될 것임을 나타내는 데이터 손실 방지 사용자 알림 팝업.](../media/auto-quarantine-user-notification-toast.png)
+    
+    메시지는 다음과 같습니다.
+    
+    > 이 앱으로는 자동 격리 문서 1.docx를 열 수 없습니다. 파일이 'C:\Users\IsaiahLanger\Microsoft DLP\OneDrive'에 격리됩니다.
 
-메시지는 다음과 같습니다.
+5. **해제** 를 선택합니다.
 
-"이 앱으로 자동 격리 문서 1.docx를 여는 것은 허용되지 않습니다. 파일은 'C:\Users\IsaLanger\Microsoft DLP\OneDrive'로 격리됩니다"
-
-5. **닫기** 선택
-
-6. 자리 표시자 .txt 파일을 엽니다. 이름은 **auto-quarantine doc 1.docx_ *date_time*.txt** 입니다. 
+6. 자리 표시자 텍스트 파일을 엽니다. 이름은 **auto-quarantine doc 1.docx_ *date_time*.txt** 입니다. 
 
 7. 격리 폴더를 열고 원본 파일이 있는지 확인합니다.
  
-8. 모니터링되는 끝점에서 데이터에 대한 활동 탐색기를 확인합니다. 장치에 대한 위치 필터를 설정하고 정책을 추가한 다음 정책 이름을 기준으로 필터링하여 정책의 영향을 확인합니다. 필요한 경우 [활동 탐색기로 시작](data-classification-activity-explorer.md)을 참조하세요.
+8. 모니터링되는 끝점에서 데이터에 대한 활동 탐색기를 확인합니다. 장치에 위치 필터를 설정하고 정책을 추가한 다음 정책 이름으로 필터링하여 이 정책의 영향을 확인합니다. 필요한 경우 [활동 탐색기 시작하기](data-classification-activity-explorer.md)를 참조하세요.
 
 9. 이벤트에 대한 활동 탐색기를 확인합니다.
 
@@ -443,7 +442,7 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md)
 - [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
-- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
 - [Windows 10 컴퓨터용 온보딩 도구 및 방법](/microsoft-365/compliance/dlp-configure-endpoints)

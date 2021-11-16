@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: reference
 ms.technology: mde
-ms.openlocfilehash: 172b23ee84c8a8a9518e2e3df000dedfa998dc16
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 53230a4361bc74207fd630bf6f4631e87055dda8
+ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555155"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "60972003"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
@@ -47,7 +47,6 @@ ms.locfileid: "60555155"
 - 명령줄 도구에 새 스위치가 추가되었습니다.
   - On-Demand 검사에 대한 병렬 처리 정도를 제어합니다. 를 통해 구성할 수 `mdatp config maximum-on-demand-scan-threads --value [number-between-1-and-64]` 있습니다. 기본적으로 병렬 처리 `2` 정도가 사용됩니다.
   - 보안 인텔리전스 업데이트를 사용할지 여부를 제어합니다. 를 통해 구성할 수 `mdatp config scan-after-definition-update --value [enabled/disabled]` 있습니다. 기본적으로 이 설정은 로 `enabled` 설정됩니다.
-  - 요구 시 검사 중에 보관 파일을 검사할지 여부를 제어합니다. 를 통해 구성할 수 `mdatp config scan-archives --value [enabled/disabled]` 있습니다. 기본적으로 이 설정은 로 `enabled` 설정됩니다.
 - 이제 제품 로그 수준을 변경하려면 권한 상승 필요
 - 버그 수정을 & 성능 개선
 

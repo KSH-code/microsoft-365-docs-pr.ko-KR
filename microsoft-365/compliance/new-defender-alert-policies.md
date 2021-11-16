@@ -16,14 +16,15 @@ search.appverid:
 - MOE150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkDEFENDER
 ROBOTS: noindex,nofollow
 description: Office 365용 Microsoft Defender에 대한 새 경고 정책을 릴리스합니다. 또한 기존 경고 정책 2개를 새 경고 정책으로 대체했습니다.
-ms.openlocfilehash: 2983ab2affe3c938062442e53a8f14c5bb0caa57
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 6ff33c64319e5fe9f9b3af655dcfc3bde7dd158f
+ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190728"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60963302"
 ---
 # <a name="new-alert-policies-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새 경고 정책
 
@@ -99,7 +100,7 @@ Office 365용 Microsoft Defender ZAP(제로 아워 자동 제거)가 받은 편�
 
 ## <a name="what-you-need-to-do-to-prepare-for-these-changes"></a>이러한 변경 사항에 대해 대비하는 데 필요한 작업
 
-조직에서 이러한 경고를 활용하는 방법에 따라 준비해야 할 작업이 결정됩니다. 경고를 작동하여 API, 경고 전자 메일 알림을 통해 사용하거나 Microsoft 365 규정 준수 센터(`https://compliance.mmicrosoft.com/viewalerts`) 또는 Microsoft 보안 센터(`https://security.microsoft.com/viewalerts`)에서 경고를 사용하고 있는 경우 워크플로를 수정해야 합니다.
+조직에서 이러한 경고를 활용하는 방법에 따라 준비해야 할 작업이 결정됩니다. 경고를 작동하고 API, 경고 전자 메일 알림, <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Microsoft 365 규정 준수 센터</a> 또는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">Microsoft 365 보안 센터</a>를 통해 사용 중이라면 워크플로를 수정해야 합니다.
 
 **이러한 경고를 운영하지 않은 경우 다음 중 하나를 수행할 수 있습니다.**
 

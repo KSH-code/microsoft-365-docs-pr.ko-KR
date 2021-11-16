@@ -2,7 +2,7 @@
 title: Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성
 ms.reviewer: pahuijbr
 manager: dansimp
-description: Windows 서버에는 서버 역할에 따라 자동 제외가 포함됩니다. 사용자 지정 제외를 추가할 수도 있습니다.
+description: Windows 서버 역할에 따라 자동 제외가 포함됩니다. 사용자 지정 제외를 추가할 수도 있습니다.
 keywords: 제외, 서버, 자동 제외, 자동, 사용자 지정, 검사, Microsoft Defender 바이러스 백신
 ms.prod: m365-security
 ms.technology: mde
@@ -14,14 +14,14 @@ author: denisebmsft
 ms.author: deniseb
 ms.topic: article
 ms.custom: nextgen
-ms.date: 11/10/2021
+ms.date: 11/15/2021
 ms.collection: M365-security-compliance
-ms.openlocfilehash: fad476d132e00dd7e01ab7876ec9bee0224f4e72
-ms.sourcegitcommit: 6722f66915dfe30c3d0ade97b3e9080a9592251b
+ms.openlocfilehash: 616c2376e8180a74380f1d6569c4e4612269f562
+ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60899578"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "60972027"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성
 
@@ -33,9 +33,6 @@ ms.locfileid: "60899578"
 
 Microsoft Defender 바이러스 백신 및 Windows Server 2016 Windows Server 2019에서 지정한 서버 역할에 정의된 특정 제외에 자동으로 등록합니다. 이러한 제외는 Windows 보안 앱에 표시되는 표준 제외 [목록에는 나타나지 않습니다.](microsoft-defender-security-center-antivirus.md)
 
-> [!NOTE]
-> 자동 제외는 RTP(실시간 보호) 검사에만 적용됩니다. 자동 제외는 전체/빠른 또는 수동 검사 중에 사용되지 않습니다.
-
 서버 역할 정의 자동 제외 외에도 사용자 지정 제외를 추가하거나 제거할 수 있습니다. 이렇게 하여 다음 문서를 참조합니다.
 - [파일 이름, 확장명 및 폴더 위치를 기반으로 제외 구성 및 유효성 검사](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [프로세스에서 연 파일에 대한 제외 구성 및 유효성 검사](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
@@ -45,10 +42,10 @@ Microsoft Defender 바이러스 백신 및 Windows Server 2016 Windows Server 20
 다음과 같은 중요한 점에 유의하십시오.
 
 - 사용자 지정 제외는 자동 제외보다 우선합니다.
-- 자동 제외는 RTP(실시간 보호) 검사에만 적용됩니다. 자동 제외는 전체/빠른 또는 수동 검사 중에 사용되지 않습니다.
+- 자동 제외는 RTP(실시간 보호) 검사에만 적용됩니다. 자동 제외는 전체, 빠른 또는 수동 검사 중에 사용할 수 없습니다.
 - 사용자 지정 및 중복 제외는 자동 제외와 충돌하지 않습니다.
 - Microsoft Defender 바이러스 백신 DISM(배포 이미지 서비스 및 관리) 도구를 사용하여 컴퓨터에 설치된 역할을 확인합니다.
-- 서버 역할에 대한 자동 제외는 R2에서 Windows Server 2012 않습니다.
+- 서버 역할에 대한 자동 제외는 끝점용 Defender에 Windows Server 2012 R2에서 작동하지 않습니다. (Microsoft [Defender for Endpoint Windows 서버 온보딩을 참조합니다.)](configure-server-endpoints.md)
 
 이 문서에서는 Microsoft Defender 바이러스 백신 이상에서 제외하는 Windows Server 2016 제공합니다.
 
@@ -64,18 +61,7 @@ Microsoft Defender 바이러스 백신 및 Windows Server 2016 Windows Server 20
 |[자동 제외 옵트아웃](#opting-out-of-automatic-exclusions)|자동 제외를 옵트아웃하는 방법을 설명하는 중요한 고려 사항 및 절차가 포함되어 있습니다.|
 |[사용자 지정 제외 정의](#defining-custom-exclusions)|사용자 지정 제외를 정의하는 방법 정보에 대한 링크를 제공합니다.|
 
-> [!IMPORTANT]
-> 다음 점에 유의하십시오.
->
-> - 사용자 지정 제외는 자동 제외보다 우선합니다.
-> - 자동 제외는 RTP(실시간 보호) 검사에만 적용됩니다. 전체 검사, 빠른 검사 또는 수동 검사 중에는 자동 제외가 사용되지 않습니다.
-> - 사용자 지정 및 중복 제외는 자동 제외와 충돌하지 않습니다.
-> - Microsoft Defender 바이러스 백신 DISM(배포 이미지 서비스 및 관리) 도구를 사용하여 컴퓨터에 설치된 역할을 확인합니다.
-
 ## <a name="automatic-exclusions-on-windows-server-2016-or-later"></a>Windows Server 2016 이상에서 자동 제외
-
-> [!NOTE]
-> 자동 제외는 RTP(실시간 보호) 검사에만 적용됩니다. 전체 검사, 빠른 검사 또는 수동 검사 중에는 자동 제외가 사용되지 않습니다.
 
 Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습니다.
 
@@ -86,7 +72,9 @@ Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습�
 
 운영 체제 제외 및 서버 역할 제외는 Windows 보안 앱에 표시된 표준 제외 [목록에 나타나지 않습니다.](microsoft-defender-security-center-antivirus.md)
 
-서버 역할 및 운영 체제 파일에 대한 자동 제외는 R2 또는 Windows Server 2012 Windows Server 2012 않습니다.
+> [!NOTE]
+> 서버 역할 및 운영 체제 파일에 대한 자동 제외는 서버 역할 및 운영 체제 파일에 Windows Server 2012. R2를 실행하는 서버가 끝점용 Defender에 Windows Server 2012 자동 제외가 적용될 수 있습니다. (Microsoft [Defender for Endpoint Windows 서버 온보딩을 참조합니다.)](configure-server-endpoints.md)
+
 
 ### <a name="the-list-of-automatic-exclusions"></a>자동 제외 목록
 
@@ -104,7 +92,7 @@ Windows Server 2016 이상에서는 다음 제외를 정의할 필요가 없습�
 - `%windir%\SoftwareDistribution\Datastore\*\tmp.edb`
 - `%ProgramData%\Microsoft\Search\Data\Applications\Windows\windows.edb`
 
-##### <a name="windows-update-files-or-automatic-update-files"></a>Windows 파일 업데이트 또는 자동 업데이트 파일
+##### <a name="windows-update-files-or-automatic-update-files"></a>Windows 또는 자동 업데이트 파일 업데이트
 
 - `%windir%\SoftwareDistribution\Datastore\*\Datastore.edb`
 - `%windir%\SoftwareDistribution\Datastore\*\edb.chk`

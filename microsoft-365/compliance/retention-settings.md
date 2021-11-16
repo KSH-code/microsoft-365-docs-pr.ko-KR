@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 또는 보존 레이블 정책에서 구성할 수 있는 설정을 이해하여 원하는 항목을 보존하고 원하지 않는 항목을 제거합니다.
-ms.openlocfilehash: 20167d9c1559403f1acbbfee5766ab09a4a1e3ef
-ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
+ms.openlocfilehash: 28aa92e7374815404eaffb1abe908aa2fe60343f
+ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60962978"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "60972015"
 ---
 # <a name="common-settings-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 공통 설정
 
@@ -156,15 +156,26 @@ PowerShell 및 SharePoint 검색을 사용하여 고급 쿼리의 유효성을 �
 
 PowerShell을 사용하여 쿼리를 실행하려면 다음을 수행합니다.
 
-1. 전역 관리자 계정을 사용하여 [PowerShell을 Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)합니다.
+1. [적절한 Exchange Online 관리자 권한](/powershell/exchange/find-exchange-cmdlet-permissions#use-powershell-to-find-the-permissions-required-to-run-a-cmdlet)이 있는 계정을 사용하여 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)합니다.
 
-2. [Get-Recipient](/powershell/module/exchange/get-recipient) 또는 [Get-Mailbox](/powershell/module/exchange/get-mailbox)를 *-Filter* 매개 변수와 사용하여 [OPATH 쿼리](/powershell/exchange/filter-properties)를 지정한 다음, 적응형 범위에 대한 OPATH 쿼리를 큰따옴표로 묶습니다. 특성 값에 스페이스가 포함된 경우 이러한 값을 작은따옴표로 묶습니다.
-    
-    예제:
+2. [Get-Recipient](/powershell/module/exchange/get-recipient) 또는 [Get-Mailbox](/powershell/module/exchange/get-mailbox)를 *-Filter* 매개 변수와 함께 사용하고 `{`중괄호(,)`}`로 묶인 적응 범위에 대한 [OPATH 쿼리](/powershell/exchange/filter-properties)를 사용합니다. 특성 값에 스페이스가 포함된 경우 이러한 값을 큰 따옴표 또는 작은 따옴표로 묶습니다. 
+
+    **사용자** 범위의 유효성을 검사하는 경우 명령에 `-RecipientTypeDetails UserMailbox`을(를) 포함하고, 그렇지 않으면 **Microsoft 365 그룹** 범위에 대해 `-RecipientTypeDetails GroupMailbox`을(를) 포함합니다.
+
+    > [!TIP]
+    > 쿼리에서 사용하도록 선택한 [OPATH 속성](/powershell/exchange/filter-properties)에 따라 `Get-Mailbox` 또는 `Get-Recipient` cmdlet을 사용하여 유효성을 검사할지 여부를 결정할 수 있습니다.
+
+    예를 들어 **사용자** 범위의 유효성을 검사하려면 다음을 사용할 수 있습니다.
     
     ````PowerShell
-    Get-Recipient -Filter "Department -eq 'Sales and Marketing'" -ResultSize unlimited
+    Get-Recipient -RecipientTypeDetails UserMailbox -Filter {Department -eq "Sales and Marketing"} -ResultSize Unlimited
     ````
+    
+    **Microsoft 365 그룹** 범위의 유효성을 검사하려면 다음을 사용할 수 있습니다.
+    
+    ```PowerShell
+    Get-Mailbox -RecipientTypeDetails GroupMailbox -Filter {CustomAttribute15 -eq "Sales and Marketing"} -ResultSize Unlimited
+    ```
 
 3. 출력이 적응형 범위의 예상 사용자 또는 그룹과 일치하는지 확인합니다. 그렇지 않은 경우 Azure Active Directory 또는 Exchange의 관련 관리자와 쿼리 및 값을 확인합니다.
  
