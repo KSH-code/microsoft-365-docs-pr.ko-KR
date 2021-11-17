@@ -22,7 +22,7 @@ ms.sourcegitcommit: bd43f08b4719ba984ea6712227508d4a281148cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/16/2021
-ms.locfileid: "61036134"
+ms.locfileid: "61041937"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 

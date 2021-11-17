@@ -20,7 +20,7 @@ ms.sourcegitcommit: bd43f08b4719ba984ea6712227508d4a281148cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/16/2021
-ms.locfileid: "61036040"
+ms.locfileid: "61041988"
 ---
 # <a name="microsoft-threat-experts-in-microsoft-365-overview"></a>Microsoft 위협 전문가 Microsoft 365 개요
 
