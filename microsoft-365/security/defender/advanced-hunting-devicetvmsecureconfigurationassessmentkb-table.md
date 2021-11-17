@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8372275655c9b4f75feaff8f2f8c8f2aace78d1e
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: bf65634e38d7676eaef20386b3effa828aa46f4b
+ms.sourcegitcommit: bd43f08b4719ba984ea6712227508d4a281148cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60658697"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041880"
 ---
 # <a name="devicetvmsecureconfigurationassessmentkb"></a>DeviceTvmSecureConfigurationAssessmentKB
 
@@ -35,8 +35,11 @@ ms.locfileid: "60658697"
 - 끝점용 Microsoft Defender
 
 
+고급 헌팅 계획의 표에는 위협 및 취약성 관리에서 확인한 다양한 보안 `DeviceTvmSecureConfigurationAssessmentKB` [구성에 대한 & 포함되어 있습니다.](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 또한 위험 정보, 관련 산업 벤치마크 및 해당 MITRE ATT&CK 기법 및 전술을 포함합니다.
 
-고급 헌팅 스키마의 `DeviceTvmSecureConfigurationAssessmentKB` 표에는 [Threat & Vulnerability Management](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)에서 확인되는 장치가 자동 업데이트를 보유하고 있는지에 대한 정보 등의 다양한 보안 구성 관련 정보가 포함되어 있습니다. 또한 위험 정보, 관련 산업 벤치마크 및 해당 MITRE ATT&CK 기법 및 전술을 포함합니다. 이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다.
+이 테이블은 이벤트나 레코드를 반환하지 않습니다. 반환된 평가에서 보안 구성에 대한 텍스트 정보를 보는 데 이 테이블을 [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) 테이블에 가입하는 `ConfigurationId` 것이 좋습니다.
+
+예를 들어 테이블을 쿼리할 때 평가 결과에 나올 보안 구성을 `DeviceTvmSecureConfigurationAssessment` `ConfigurationDescription` 볼 수 있습니다. 이 테이블을 using 및 project에 조인하여 `DeviceTvmSecureConfigurationAssessment` 이 정보를 볼 수 `ConfigurationId` `ConfigurationDescription` 있습니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -53,7 +56,20 @@ ms.locfileid: "60658697"
 | `Tags` | 문자열 | 보안 구성을 식별하거나 분류하는 데 사용되는 다양한 특성을 나타내는 레이블 |
 | `RemediationOptions` | 문자열 | 관련 위험을 줄이거나 해결하기 위해 권장되는 작업 |
 
-## <a name="related-topics"></a>관련 항목
+이 예제 쿼리를 실행하여 관련 구성 메타데이터와 비호환 바이러스 백신 구성이 표에 있는 장치에 대한 정보를 반환할 수 `DeviceTvmSecureConfigurationAssessment` 있습니다.
+
+```kusto
+// Get information on devices with antivirus configurations issues
+DeviceTvmSecureConfigurationAssessment
+| where ConfigurationSubcategory == 'Antivirus' and IsApplicable == 1 and IsCompliant == 0
+| join kind=leftouter (
+    DeviceTvmSecureConfigurationAssessmentKB
+    | project ConfigurationId, ConfigurationName, ConfigurationDescription, RiskDescription, Tags, ConfigurationImpact
+) on ConfigurationId
+| project DeviceName, OSPlatform, ConfigurationId, ConfigurationName, ConfigurationCategory, ConfigurationSubcategory, ConfigurationDescription, RiskDescription, ConfigurationImpact, Tags
+```
+
+## <a name="related-topics"></a>관련 주제
 
 - [사전 대응식 위협 탐지](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)

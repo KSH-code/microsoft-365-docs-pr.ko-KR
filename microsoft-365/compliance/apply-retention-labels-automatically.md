@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: c84add5ddc1b96d2a5ab3dfd713722522211bfa2
-ms.sourcegitcommit: 8410a49995a084e4cc9b3f7286c8d506b7a85d79
+ms.openlocfilehash: 740c1c2a86b089f911fdbed7b8fce667de5e6f5c
+ms.sourcegitcommit: bd43f08b4719ba984ea6712227508d4a281148cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60914587"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61036134"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -364,11 +364,11 @@ Get-Label | Format-Table -Property DisplayName, Name, Guid
 
 ## <a name="how-long-it-takes-for-retention-labels-to-take-effect"></a>보존 레이블이 적용되는 데 걸리는 시간
 
-중요한 정보, 키워드 또는 검색 가능한 속성 또는 학습 가능한 분류자를 기반으로 보존 레이블을 자동으로 적용하는 경우 보존 레이블을 적용하는 데 최대 7일이 걸릴 수 있습니다.
+중요한 정보, 키워드 또는 검색 가능한 속성 또는 학습 가능한 분류자를 기반으로 보존 레이블을 자동으로 적용하는 경우 보존 레이블을 적용하는 데 최대 8일이 걸릴 수 있습니다.
   
-![자동 적용 레이블이 적용되는 경우를 나타내는 다이어그램.](../media/b8c00657-477a-4ade-b914-e643ef97a10d.png)
+![자동 적용 레이블이 적용되는 경우를 나타내는 다이어그램.](../media/retention-labels-autoapply-timings.png)
 
-7일 후에 레이블이 표시되지 않는 경우, 준수 센터의 **레이블 정책** 페이지에서 자동 적용 정책을 선택하여 그 **상태** 를 확인합니다. **꺼짐(오류)** 의 상태가 표시되고 위치에 대한 세부 정보에 정책을 배포하거나(SharePoint의 경우) 혹은 정책 재배포를 시도하는 데(OneDrive의 경우) 예상보다 시간이 오래 걸리고 있다는 메시지가 표시되는 경우, [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell 명령을 실행하여 정책 배포를 다시 시도하세요.
+8일 후에 레이블이 표시되지 않는 경우, 준수 센터의 **레이블 정책** 페이지에서 자동 적용 정책을 선택하여 그 **상태** 를 확인합니다. **꺼짐(오류)** 의 상태가 표시되고 위치에 대한 세부 정보에 정책을 배포하거나(SharePoint의 경우) 혹은 정책 재배포를 시도하는 데(OneDrive의 경우) 예상보다 시간이 오래 걸리고 있다는 메시지가 표시되는 경우, [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell 명령을 실행하여 정책 배포를 다시 시도하세요.
 
 1. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)합니다.
 

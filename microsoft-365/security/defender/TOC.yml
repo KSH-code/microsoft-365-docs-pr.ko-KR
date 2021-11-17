@@ -303,9 +303,9 @@
         - name: Microsoft 위협 전문가와 공동 작업
           items:
             - name: 개요
-              href: ../mtp/microsoft-threat-experts.md
+              href: microsoft-threat-experts.md
             - name: Microsoft 위협 전문가 기능 구성 및 관리
-              href: ../mtp/configure-microsoft-threat-experts.md
+              href: configure-microsoft-threat-experts.md
     - name: 보안 작업 가이드
       items:
         - name: 개요

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침입니다.
-ms.openlocfilehash: 8c8fac9d8cfa5ff0a8b2ad8d5c3e42f614a3932b
-ms.sourcegitcommit: dc26169e485c3a31e1af9a5f495be9db75c49760
+ms.openlocfilehash: 3e0a516155d0b318e8f5d3b022b1546d9fe8e11b
+ms.sourcegitcommit: bd43f08b4719ba984ea6712227508d4a281148cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753108"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61036018"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>보존 레이블을 만들고 앱에 적용
 
@@ -120,16 +120,13 @@ SharePoint 및 Outlook과 같은 앱에서 사용자가 적용할 수 있도록 
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>보존 레이블을 적용할 수 있게 되면
 
-SharePoint 또는 OneDrive에 보존 레이블을 게시하면 일반적으로 1일 이내에 최종 사용자가 선택하도록 레이블이 표시됩니다. 그러나 최대 7일까지 걸릴 수 있습니다. 
+OneDrive 및 SharePoint 위치의 경우 게시된 레이블은 일반적으로 사용자가 1~2일 이내에 선택할 수 있도록 표시됩니다. 그러나 최대 8일까지 걸릴 수 있습니다.
 
-보존 레이블을 Exchange에 게시하는 경우 해당 보존 레이블이 최종 사용자에게 표시되기까지 최대 7일이 걸릴 수 있으며 사서함에 10MB 이상의 데이터를 저장할 수 있어야 합니다.
+Exchange 및 Microsoft 365 그룹 위치의 경우 Outlook에서 사용자에게 게시된 보존 레이블이 표시되는 데 최대 8일이 걸릴 수 있으며 사서함에는 10MB 이상의 데이터가 포함되어야 합니다.
 
-예제:
-  
-![수동 레이블이 적용되는 경우를 나타내는 다이어그램.](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
-  
+![게시된 레이블이 적용되는 경우의 다이어그램입니다.](../media/retention-labels-published-timings.png)
 
-7일 후에 레이블이 표시되지 않는 경우, 준수 센터의 **레이블 정책** 페이지에서 레이블 정책을 선택하여 그 **상태** 를 확인합니다. **꺼짐(오류)** 의 상태가 표시되고 위치에 대한 세부 정보에 정책을 배포하거나(SharePoint의 경우) 혹은 정책 재배포를 시도하는 데(OneDrive의 경우) 예상보다 시간이 오래 걸리고 있다는 메시지가 표시되는 경우, [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell 명령을 실행하여 정책 배포를 다시 시도하세요.
+8일 후에 레이블이 표시되지 않는 경우, 준수 센터의 **레이블 정책** 페이지에서 레이블 정책을 선택하여 그 **상태** 를 확인합니다. **꺼짐(오류)** 의 상태가 표시되고 위치에 대한 세부 정보에 정책을 배포하거나(SharePoint의 경우) 혹은 정책 재배포를 시도하는 데(OneDrive의 경우) 예상보다 시간이 오래 걸리고 있다는 메시지가 표시되는 경우, [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell 명령을 실행하여 정책 배포를 다시 시도하세요.
 
 1. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)
 
@@ -205,7 +202,7 @@ After the retention label is applied, you can view that retention label and what
 
 You can apply retention labels to Outlook folders as a default label that can be inherited by messages in that folder. Right-click the folder, select **Properties**, the **Policy** tab, and select the retention label you want to use as that folder's default retention label.
 
-When you use a a standard retention label as your default label for an Outlook folder:
+When you use a standard retention label as your default label for an Outlook folder:
   
 - All unlabeled items in the folder have this retention label applied.
 

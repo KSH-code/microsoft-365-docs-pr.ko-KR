@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: medium
 description: 사용자용 학습 콘텐츠 SharePoint 추가하는 방법을 Microsoft Viva Learning.
-ms.openlocfilehash: 64a78979814a4708a6c1471a83d3468c9edb1b72
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 11cf1375d077acdb72e4a032236a0888d6c98101
+ms.sourcegitcommit: bd43f08b4719ba984ea6712227508d4a281148cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60701874"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041904"
 ---
 # <a name="add-sharepoint-as-a-content-source-for-microsoft-viva-learning"></a>웹 SharePoint 콘텐츠 원본으로 Microsoft Viva Learning
 
@@ -79,7 +79,7 @@ Viva SharePoint 학습 콘텐츠 원본으로 Learning 다음 단계를 수행�
 
      ![설정 Viva Microsoft 365 관리 센터 표시하는 페이지의 Learning.](../media/learning/clcs-services.png)
 
-3. **Viva Learning** 패널의 SharePoint Viva SharePoint 중앙 저장소를 만들 Learning 사이트 URL을 제공합니다. 새 SharePoint 사이트가 새로 추가된 경우 사이트 만들기 후 1시간을 기다렸다가 여기에 추가해야 합니다.
+3. **Viva Learning** 패널의 SharePoint Viva SharePoint 중앙 저장소를 만들 Learning 사이트 URL을 제공합니다. 새 SharePoint 사이트가 새로 추가된 경우 사이트 만들기 후 1시간을 기다렸다가 여기에 추가해야 합니다. 또한 사이트 소유자가 되어야 SharePoint 합니다.
 
      ![Learning 선택된 Microsoft 365 관리 센터 표시 SharePoint 패널입니다.](../media/learning/sharepoint-1.png)
 
@@ -97,7 +97,7 @@ Viva SharePoint 학습 콘텐츠 원본으로 Learning 다음 단계를 수행�
 
    1. 새로 **보기를** 선택하여 새 항목 **패널을** 볼 수 있습니다.
 
-       ![Learning 새 옵션을 SharePoint 페이지의 콘텐츠 저장소 페이지입니다.](../media/learning/learning-sharepoint-configure5.png)
+       ![Learning 옵션을 보여 SharePoint 콘텐츠 리포지토리 페이지의 목록입니다.](../media/learning/learning-sharepoint-configure5.png)
 
    2. 새 **항목 패널의** **제목** 필드에 선택한 디렉터리 이름을 추가합니다. 폴더 **URL 필드에서** 학습 콘텐츠 폴더에 URL을 추가합니다. **저장** 을 선택합니다. [폴더 URL을 만드는 방법에 대해 자세히 알아보세요.](#folder-url-document-library-curation)
 
@@ -105,7 +105,7 @@ Viva SharePoint 학습 콘텐츠 원본으로 Learning 다음 단계를 수행�
 
    3. 앱 **Learning 리포지토리** 페이지가 새 학습 콘텐츠로 업데이트됩니다.
 
-       ![Learning 업데이트된 정보를 SharePoint 페이지의 콘텐츠 저장소 페이지입니다.](../media/learning/learning-sharepoint-configure7.png)
+       ![Learning 정보를 표시하는 SharePoint 리포지토리 페이지입니다.](../media/learning/learning-sharepoint-configure7.png)
 
    4. 조직에서 [Microsoft 365 Multi-geo를](/microsoft-365/enterprise/microsoft-365-multi-geo) 사용하는 경우 중앙 위치에 속하지 않는 폴더에 대한 링크를 추가하려고 시도하면 오류 메시지가 표시됩니다. 모든 폴더는 중앙 위치에 속해야 합니다.
        ![업로드된 모든 폴더가 중앙 위치에 위치해야 하다는 오류 메시지가 새 항목 패널에 표시됩니다.](../media/learning/learning-sharepoint-configure-geo2.png)

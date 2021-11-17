@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(2016년 8월 2일)의 최종 사용자 스팸 알림에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b08a89adb5f2cc8f02cdce4e5150b82838f287cf
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 3a996b3c6f65ed978dda3c5038b522e09b09dbfa
+ms.sourcegitcommit: bd43f08b4719ba984ea6712227508d4a281148cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60702860"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041916"
 ---
 # <a name="use-quarantine-notifications-to-release-and-report-quarantined-messages"></a>검란 알림을 사용하여 검란된 메시지 릴리스 및 보고
 
@@ -50,7 +50,7 @@ _Quarantine policies_ define what users are allowed to do to quarantined message
 > [!NOTE]
 > 기본적으로 높은 신뢰도 피싱, 맬웨어, 메일 흐름 규칙(전송 규칙)에 의해 또는 금고 Attachments 정책(Office 365 for Office 365)으로 검열된 메시지는 관리자만 사용할 수 있습니다(기본적으로 AdminOnlyAccessPolicy 검지 정책이 사용). 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 >
-> 그룹에 대해 알림이 지원되지 않습니다.
+> 현재는 그룹 또는 높은 신뢰도의 피싱 메시지에 대해 알림이 지원되지 않습니다. 
 
 검지 알림을 받으면 다음 정보를 항상 각 메시지에 대해 사용할 수 있습니다.
 
