@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 817eb57df116de18e8add5d18eac0ea32f08da7f
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 4540336aeea4283f1b5adcab3164e0405ae075c7
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60677227"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064442"
 ---
 # <a name="troubleshoot-onboarding-issues-related-to-security-management-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 보안 관리와 관련된 온보딩 문제 해결 
 
@@ -122,30 +122,25 @@ AAD 또는 MEM에서 등록된 장치를 식별할 수 없는 경우 등록 중�
 다음 표에는 오류를 해결하기 위해 시도/확인할 오류 및 길안이 나열됩니다. 오류 목록은 완료되지 않은 것으로, 과거에 고객이 발생한 일반적인 오류를 기반으로 합니다. 
 
 
-
-| 오류 코드  |관리자 작업                                                                                                                                                                                                                                                                                                  |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ``10``          |이 오류는 OS가 하이브리드 조인을 수행하지 못했다는 것입니다. OS [수준 하이브리드 Azure Active Directory](/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current) 문제 해결을 위한 가이드로 하이브리드 연결 장치 문제 해결을 참조하세요.                                                            |
-| ``13-14``       |끝점 Windows Microsoft Endpoint Manager 끝점에 대한 [Microsoft Defender의](/microsoft-365/security/defender-endpoint/security-config-management#onboard-devices) Windows 장치를 검토하여 완료할 끝점과 하이브리드 Azure Active Directory 가입을 사용할 수 있도록 합니다.                   |
-| ``15``          |MDE AAD 테넌트의 테넌트 ID가 도메인의 SCP 항목의 테넌트 ID와 일치하는지 확인                                                                                                                                                                                                                     |
-| ``16``          |설명서를 [Azure Active Directory 검토합니다.](/azure/active-directory/devices/hybrid-azuread-join-manual#configure-a-service-connection-point) 조직의 ID 팀과 협의하여 HAADJ에 필요한 구성 방법을 배포합니다.                                                                     |
-| ``17``          |Active Directory 환경의 장치 등록 구성을 검토하고 DRS 또는 Azure DRS를 Enterprise 확인합니다.                                                                                                                                                                                 |
-| ``18``          |Azure AD 커넥트 구성을 검토하고 관리하도록 구성되는 장치가 동기화 범위 내에 있는지 검토합니다.                                                                                                                                                                                              |
-| ``25``          |네트워크 토폴로지 검토 및 도메인 컨트롤러를 사용하여 하이브리드 가입 요청을 완료할 수 있도록 합니다.                                                                                                                                                                                                                       |
-| ``26-32``       |페더타 조인을 완료하기 위한 필수 클레임에 대한 설명서를 검토합니다. 환경에 대한 끝점을 수동으로 확인할 수 있습니다.                                                                                                                                                                                |
-| ``36``          |네트워크 토폴로지 검토 및 하이브리드 조인 요청을 완료하기 위해 LDAP API를 사용할 수 있도록 합니다.                                                                                                                                                                                                                                  |
-| ``37``          |도메인에 가입된 컴퓨터의 경우 컴퓨터가 Azure AD 2013에서 동기화 범위에 커넥트.                                                                                                                                                                                                                    |
-| ``38``          |Workstation 쪽에서 잘못된 DNS 설정: Active Directory를 사용하려면 도메인 DNS를 사용하여 제대로 작동해야 합니다(라우터의 주소가 아니라).                                                                                                                                                                                |
-| ``40``          |오류가 발생하는 장치에서 시계가 올바르게 설정/동기화되어 있는지 확인합니다.                                                                                                                          |
-| ``41``          |이 오류가 일관성이 있는지 확인을 다시 시도합니다. 다시 검색이 도움이 되지 않는 경우 OS 수준 [하이브리드](/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current) Azure Active Directory 문제 해결 가이드로 하이브리드 연결 장치 문제 해결을 사용하세요.                                                    |
-| ``42``          |이 오류는 OS가 하이브리드 조인을 수행하지 못했다는 것입니다. OS [수준 하이브리드 Azure Active Directory](/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current) 문제 해결을 위한 가이드로 하이브리드 연결 장치 문제 해결을 참조하세요.                                                            |
+| 오류 코드                    | 등록 상태                     | 관리자 작업                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-------------------------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ``5-9``,``11-12``, ``26-33``  |일반 오류                          |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 보안 구성 관리 흐름에 오류가 발생했습니다. 디바이스가 끝점 관리 채널용 Microsoft Defender에 대한 사전 사전을 모임하지 [못하기 때문일 수 있습니다.](security-config-management.md) 장치에서 [클라이언트 분석기를](https://aka.ms/BetaMDEAnalyzer) 실행하면 문제의 근본 원인을 파악하는 데 도움이 될 수 있습니다. 도움이되지 않는 경우 지원에 문의하시기 바랍니다.   |
+| ``13-14``,``20``,``24``,``25``|연결 문제                     |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 연결 문제로 인해 보안 구성 관리 흐름에 오류가 발생했습니다. 방화벽에서 Azure Active Directory [Microsoft Endpoint Manager 끝점이](security-config-management.md#connectivity-requirements) 열립니다.                                                                                       |
+| ``10``,``42``                 |일반 하이브리드 조인 실패            |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 보안 구성 관리 흐름에 오류가 발생하고 OS가 하이브리드 조인을 수행하지 못했습니다. OS [수준 하이브리드 Azure Active Directory 문제를](/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current) 해결하기 위해 하이브리드 연결 장치 문제 해결을 사용 합니다.                                                                                                                               |
+| ``15``                        |테넌트 불일치                        |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 끝점 테넌트 ID에 대한 Microsoft Defender가 Azure Active Directory 테넌트 ID와 일치하지 않는 경우 보안 구성 관리 흐름에 오류가 발생했습니다. 끝점 테넌트용 Defender의 Azure Active Directory 테넌트 ID가 도메인의 SCP 항목의 테넌트 ID와 일치하는지 확인 자세한 내용은 [Endpoint용 Microsoft Defender의](troubleshoot-security-config-mgt.md)보안 관리와 관련된 온보딩 문제 해결을 참조합니다.|
+| ``16``,``17``                 |하이브리드 오류 - 서비스 연결 지점|장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 SCP(서비스 연결 지점) 레코드가 올바르게 구성되지 않은 경우 장치를 Azure AD에 가입할 수 없습니다. DRS에 가입하도록 SCP가 Enterprise 있습니다. SCP 레코드가 해당 레코드를 AAD 모범 사례에 따라 구성해야 합니다. 자세한 내용은 [Configure a service connection point을 참조하십시오.](/azure/active-directory/devices/hybrid-azuread-join-manual#configure-a-service-connection-point)                                                      |
+| ``18``                        |인증서 오류                      |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 장치 인증서 오류로 인해 보안 구성 관리 흐름에 오류가 발생했습니다. 장치 인증서는 다른 테넌트에 속합니다. 신뢰할 수 있는 인증서 프로필을 만들 때 모범 [사례가 따르는지 확인](/mem/intune/protect/certificates-trusted-root#create-trusted-certificate-profiles)                                                                                                    |
+| ``36``                        |LDAP API 오류                         |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 보안 구성 관리 흐름에 오류가 발생했습니다. 네트워크 토폴로지 확인 및 하이브리드 조인 요청을 완료하는 데 LDAP API를 사용할 수 있는지 확인합니다.     |
+| ``37``                        |사내 동기화 문제                  |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 보안 구성 관리 흐름에 오류가 발생했습니다. 나중에 다시 시도합니다. 그래도 도움이되지 않는 경우 Azure AD와 개체 동기화 문제 해결을 [커넥트 참조하세요.](/azure/active-directory/hybrid/tshoot-connect-objectsync)|
+| ``38``,``41``                 |DNS 오류                              |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 DNS 오류로 인해 보안 구성 관리 흐름에 오류가 발생했습니다. 장치에서 인터넷 연결 및/또는 DNS 설정을 확인합니다. 잘못된 DNS 설정이 Workstation 쪽에 있을 수 있습니다. Active Directory를 사용하려면 도메인 DNS를 사용하여 제대로 작동해야 합니다(라우터의 주소가 아니라). 자세한 내용은 [Endpoint용 Microsoft Defender의](troubleshoot-security-config-mgt.md)보안 관리와 관련된 온보딩 문제 해결을 참조하세요.             |
+| ``40``                        |시계 동기화 문제                       |장치가 끝점용 Microsoft Defender에 성공적으로 온보딩된 경우 그러나 보안 구성 관리 흐름에 오류가 발생했습니다. 시계가 올바르게 설정되어 있으며 오류가 발생하는 디바이스에서 동기화되어 있는지 확인합니다.    |
 
 
 ## <a name="azure-active-directory-runtime-troubleshooting"></a>Azure Active Directory 런타임 문제 해결 
 
 ### <a name="azure-active-directory-runtime"></a>Azure Active Directory 런타임  
 
-AADRT(Azure Active Directory 런타임)의 문제를 해결하는 주요 메커니즘은 디버그 추적을 수집하는 것입니다. Azure Active Directory 런타임 Windows **ID가 bd67e65c-9cc2-51d8-7399-0bb9899e75c1인 ETW** 공급자를 사용합니다. ETW 추적은 실패를 재현하여 캡처해야 합니다(예: 조인 실패가 발생하는 경우 조인을 수행하기 위해 AADRT API 호출을 다루는 기간 동안 추적을 사용하도록 설정해야 합니다.  
+AADRT(Azure Active Directory 런타임)의 문제를 해결하는 주요 메커니즘은 디버그 추적을 수집하는 것입니다. Azure Active Directory Windows 런타임에서는 **ID가 bd67e65c-9cc2-51d8-7399-0bb9899e75c1인 ETW** 공급자를 사용합니다. ETW 추적은 실패를 재현하여 캡처해야 합니다(예: 조인 실패가 발생하는 경우 조인을 수행하기 위해 AADRT API 호출을 다루는 기간 동안 추적을 사용하도록 설정해야 합니다.  
 
 AADRT 로그의 일반적인 오류와 이 오류를 읽는 방법에 대한 자세한 내용은 아래를 참조하세요. 
 

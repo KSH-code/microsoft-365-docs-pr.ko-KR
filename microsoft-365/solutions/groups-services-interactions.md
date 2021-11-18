@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 그룹 서비스 상호 작용
-ms.openlocfilehash: f20f8199811b8b34b4cb74ac18a989a79dde7759
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 226c1588c0275c3349d0fd996dd68f5748f11cd6
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207466"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064370"
 ---
 # <a name="groups-services-interactions"></a>그룹 서비스 상호 작용
 
@@ -33,7 +33,7 @@ Microsoft 365 그룹은 최종 사용자에게 연결된 환경을 제공하기 
 - 일정(일정 Exchange)
 - 메모 캡처용 전자 필기장(OneNote)
 
-그룹 만들기 시점에는 여러 다른 리소스도 프로비전됩니다. 그러나 서비스에서 처음으로 액세스할 때까지는 표시되지 않습니다.
+그룹을 만들 때 다른 여러 리소스도 프로비전됩니다. 그러나 서비스에서 처음으로 액세스할 때까지는 표시되지 않습니다.
 
 - 그룹 작업 관리용 보드(Planner)
 - 보고를 위한 작업 영역(Power BI)
@@ -51,7 +51,7 @@ Microsoft 365 그룹은 최종 사용자에게 연결된 환경을 제공하기 
 
 ## <a name="user-interactions-with-groups"></a>사용자와 그룹 상호 작용
 
-Microsoft 365 그룹은 관리자와 최종 사용자가 모두 다양한 인터페이스에서 만들어 관리할 수 있습니다. 
+Microsoft 365 그룹은 관리자와 최종 사용자가 다양한 인터페이스에서 만들어 관리할 수 있습니다. 
 
 ### <a name="administrative-experiences"></a>관리 환경
 
@@ -69,11 +69,11 @@ Microsoft 365 그룹은 관리자와 최종 사용자가 모두 다양한 인터
 
 Azure AD 관리 센터는 사용자가 Azure Portal에서 그룹을 만들거나 소유자를 할당할 수 있는지 여부와 만료 및 이름 지정 정책 설정에 대한 컨트롤을 제공합니다.
 
-또한 관리 센터는 비소유자도 게스트를 초대할 수 있는지 여부를 제한할 수 있는 Microsoft 365 관리 센터 같은 다양한 게스트 초대 제어 조치를 제공합니다.
+또한 관리 센터는 비소유자도 게스트를 초대할 수 있는지 여부를 제한하는 Microsoft 365 관리 센터 등 게스트 초대 제어 방안을 제공합니다.
 
 **SharePoint**
 
-SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 만들어지며 처음 두 사이트는 해당 그룹 Microsoft 365 일치합니다. SharePoint Online 사이트의 멤버 자격은 일반적으로 연결된 Microsoft 365 그룹에서 관리하기는 하지만 양방향 관계는 않습니다. Microsoft 365 그룹의 구성원에 대한 변경 내용은 SharePoint 반영됩니다. 그러나 SharePoint 그룹에서 구성원을 변경하면 Microsoft 365 그룹에 반영되지 않습니다.
+SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 만들어지며 처음 두 사이트는 해당 그룹 Microsoft 365 일치합니다. SharePoint 온라인 사이트의 멤버 자격은 일반적으로 연결된 Microsoft 365 관리되는 반면 양방향 관계는 않습니다. Microsoft 365 그룹의 구성원에 대한 변경 내용은 SharePoint 반영됩니다. 그러나 SharePoint 그룹에서 구성원을 변경하면 Microsoft 365 그룹에 반영되지 않습니다.
 
 ### <a name="user-experiences"></a>사용자 환경
 
@@ -91,7 +91,7 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 
 #### <a name="restriction-of-group-creation"></a>그룹 만들기 제한
 
-팀의 돌출을 제어하는 일반적인 방법은 팀을 만들 수 있는 사용자를 제한하는 것입니다. 그룹 만들기를 제한해야만 이행할 수 있습니다. 이렇게 하면 최종 사용자에게 필요한 다른 서비스에서 그룹을 만드는 능력에 영향을 미치게 됩니다. Microsoft 365 그룹은 일부 앱이나 서비스에서 그룹을 만들지 못하도록 제한하는 기능을 지원하지 않습니다.
+팀의 돌출을 제어하는 일반적인 방법은 팀을 만들 수 있는 사용자를 제한하는 것입니다. 그룹 만들기를 제한해야만 이행할 수 있습니다. 이렇게 하면 최종 사용자에게 필요한 다른 서비스에서 그룹을 만드는 능력에 영향을 미치게 됩니다. Microsoft 365 그룹은 일부 앱 또는 서비스에서 그룹을 만들지 못하도록 제한하는 기능을 지원하지 않습니다.
 
 그룹 만들기 제한의 환경은 앱과 서비스에 따라 다릅니다.
 
@@ -115,7 +115,7 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 
 다음 표에서는 다양한 서비스와의 Microsoft 365 그룹 상호 작용에 대한 개요를 제공합니다.
 
-|제품|기능|서비스<br>그룹이 없는 경우|서비스할 수 있습니다.<br>그룹을 만들나요?|를 삭제하지 않습니다.<br>인스턴스가 그룹을 삭제하나요?|
+|제품|기능|그룹이 없는 서비스가 있습니까?|서비스에서 그룹을 만들 수 있나요?|인스턴스를 삭제하면 그룹이 삭제하나요?|
 |---|---|---|---|---|
 |Azure AD|멤버 자격, 그룹 컨트롤, 게스트|예|예|예|
 |Exchange|일정, 사서함|예|예|예|
@@ -133,7 +133,7 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 |Teams|팀|아니요|예|예|
 |Yammer|그룹|예|예|예|
 
-위의 표에서는 Microsoft 365 서비스와의 그룹 상호 작용에 대한 개략적인 개요를 제공하나, 이해해야 할 미소와 복잡도는 매우 높습니다. 다음 섹션에서는 특정 워크로드 및 그룹과의 상호 작용에 대해 좀 더 깊이 있게 살펴 봐야 합니다.
+위의 표에서는 Microsoft 365 서비스와의 그룹 상호 작용에 대한 개략적인 개요를 제공하나 이해해야 하는 몇 가지 미미와 복잡도도 있습니다. 다음 섹션에서는 특정 워크로드 및 그룹과의 상호 작용에 대해 좀 더 깊이 있게 살펴 봐야 합니다.
 
 ## <a name="azure-ad"></a>Azure AD
 
@@ -175,7 +175,7 @@ Azure AD에서 그룹을 삭제하면 관련 그룹 관련 서비스 및 콘텐�
 
 Teams Microsoft 및 타사 서비스와 상호 작용할 수 있는 단수 인터페이스를 제공하여 공동 작업을 향상하기 위한 채팅 중심 작업 영역입니다.
 
-기본적으로 팀을 만들면 Microsoft 365 그룹과 연결된 사서함 및 일정이 Exchange 전체 주소 목록과 Outlook. 사용자가 동일한 그룹에서 Outlook 및 Teams 둘 다 사용하려면 관리자가 수동으로 Microsoft 365 있습니다.
+기본적으로 팀을 만들면 Microsoft 365 그룹과 연결된 사서함 및 일정이 Exchange 전체 주소 목록과 Outlook. 사용자가 동일한 그룹에서 Outlook 및 Teams 둘 다 사용하려면 관리자가 Microsoft 365 수 있습니다.
 
 **그룹에 제공되는 주요 기능**
 
@@ -223,7 +223,7 @@ Exchange Online, 일정, 연락처 및 관련 기능을 제공합니다. Group�
 
 **그룹이 Exchange 없는지 여부**
 
-예Exchange Online 그룹 연결 없이 공유 사서함 및 일정을 비롯한 여러 서비스를 제공합니다.
+예Exchange Online 연결 없이 공유 사서함 및 일정을 비롯한 여러 서비스를 제공합니다.
 
 **그룹당 사서함 또는 일정 Exchange 인스턴스가 여러 개 있을 수 있나요?**
 
@@ -445,7 +445,7 @@ Power BI 데이터 기반의 대화형 대시보드 및 보고서를 제공합�
 
 Power BI 데이터 기반의 대화형 대시보드 및 보고서를 제공합니다.
 
-Power BI 새 작업 환경을 만들면 Microsoft 365 Group이 만들어지지는 않습니다. 다른 수단으로 그룹을 만들면 새 작업 영역(클래식이 아닌 작업 영역)이 Power BI.
+Power BI 새 작업 환경을 만들면 Microsoft 365 그룹이 만들어지지는 않습니다. 다른 수단으로 그룹을 만들면 새 작업 영역(클래식이 아닌 작업 영역)이 Power BI.
 
 **그룹에 제공되는 주요 기능**
 
@@ -540,7 +540,7 @@ Project 프로젝트 계획, Gantt 차트 및 로드맵을 만들 수 있는 기
 
 ## <a name="sharepoint"></a>SharePoint
 
-SharePoint 다양한 서비스용 저장소 서비스를 제공하는 웹 기반 콘텐츠 Microsoft 365 플랫폼입니다.
+SharePoint 여러 웹 서비스용 저장소 서비스를 제공하는 웹 기반 Microsoft 365 플랫폼입니다.
 
 **그룹에 제공되는 주요 기능**
 
@@ -554,7 +554,7 @@ SharePoint 다양한 서비스용 저장소 서비스를 제공하는 웹 기반
 
 **사이트 SharePoint 없는 사이트가 있습니까?**
 
-예SharePoint, 통신 및 허브 사이트와 같은 그룹과 관련되지 않은 여러 서비스 및 사이트를 제공합니다. 
+예SharePoint, 통신 및 허브 사이트와 같은 여러 비 그룹 관련 서비스 및 사이트를 제공합니다. 
 
 **그룹당 여러 사이트가 있을 수 있나요?**
 
@@ -646,8 +646,8 @@ Yammer 플랫폼이 Microsoft 365 그룹에 연결되지 않은 경우 또는 �
 
 예, 그룹에서 그룹을 삭제하면 Yammer Microsoft 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 recommendations: false
 description: 그룹 구성원이 전자 메일을 그룹으로 보내거나 Microsoft 365 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용하는 Microsoft 365 있습니다.
-ms.openlocfilehash: c06f8aa82f0c112e448e607d7fbc75f13e7d3b6c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 54fe4691f4523934e1850ebbf0711efaa3eb6034
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60174198"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064066"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹으로 보내거나 그룹을 대신하여 보내기 허용
 
@@ -79,7 +79,7 @@ ms.locfileid: "60174198"
 
 ## <a name="related-articles"></a>관련 문서
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 

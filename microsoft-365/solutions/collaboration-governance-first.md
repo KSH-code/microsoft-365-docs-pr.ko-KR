@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 공동 작업 거버넌스 계획을 만드는 방법 학습
-ms.openlocfilehash: cce044aecfdc8c905ecd7aa9d87236db5c8f07ea
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ac7656bc50ad89ffad7bcaa716ce60bcbc4f00be
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60206424"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064394"
 ---
 # <a name="create-your-collaboration-governance-plan"></a>공동 작업 거버넌스 계획 만들기
 
@@ -133,9 +133,9 @@ Microsoft 365 거버넌스가 "한 번은 완료"되지 않습니다. 필요한 
 
 - 조직에 대한 Microsoft 365 챔피언 프로그램을 만들 수 있나요? 또한 전 세계 Microsoft 365 [](https://aka.ms/O365Champions) 챔피언 프로그램에 참여하여 자신만의 챔피언 프로그램에 대한 아이디어와 접근 방식을 받고, Microsoft 내부 및 주변의 사용자 및 생각이 있는 리더와 연결할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [Azure용 Microsoft 클라우드 채택 프레임워크의 거버넌스](/azure/cloud-adoption-framework/govern)
 

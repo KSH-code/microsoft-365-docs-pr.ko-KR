@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 관리자가 해당 사서함이 법적 보유 상태인 경우에도 Exchange Online 사서함에 대한 사용자의 복구 가능한 항목 폴더에 있는 항목을 삭제하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8e23c8628fc5985863c206bc3c7589e9cc4d2024
-ms.sourcegitcommit: 16e3a6e6df253de1153e46d058941cd9a2bbf2b2
+ms.openlocfilehash: c1be368bb57e16f657d70b701d29265a6dbc1316
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60889738"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61063336"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -44,18 +44,20 @@ ms.locfileid: "60889738"
 [6단계: 사서함을 이전 상태로 되전](#step-6-revert-the-mailbox-to-its-previous-state)
   
 > [!CAUTION]
-> 이 문서에 설명된 절차에 따라 데이터가 사서함에서 영구적으로 삭제(제거)Exchange Online 됩니다. 즉, 복구 가능한 항목 폴더에서 삭제한 메시지는 복구할 수 없습니다. 법적 검색 또는 기타 규정 준수 목적으로 사용할 수 없습니다. 보안 및 준수 센터에서 만든 소송 보존, In-Place 보류, eDiscovery 보류 또는 보존 정책의 일부로 보류된 사서함에서 메시지를 삭제하려면 보류를 제거하기 전에 레코드 관리 또는 법률 부서에 문의하십시오. 조직에 보류된 사서함 또는 데이터 유출 인시던트가 우선적으로 적용될지 여부를 정의하는 정책이 있을 수 있습니다.
+> 이 문서에 설명된 절차에 따라 데이터가 사서함에서 영구적으로 삭제(제거)Exchange Online 됩니다. 즉, 복구 가능한 항목 폴더에서 삭제한 메시지는 복구할 수 없습니다. 법적 검색 또는 기타 규정 준수 목적으로 사용할 수 없습니다. 소송 보존, In-Place 보존, eDiscovery 보류 또는 보존 정책의 일부로 보류된 사서함에서 메시지를 삭제하려면 Microsoft 365 규정 준수 센터 보류를 제거하기 전에 레코드 관리 또는 법률 부서에 문의하십시오. 조직에 보류된 사서함 또는 데이터 유출 인시던트가 우선적으로 적용될지 여부를 정의하는 정책이 있을 수 있습니다.
   
 ## <a name="before-you-delete-items"></a>항목을 삭제하기 전에
 
 - 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 데 대한 자세한 내용은 [eDiscovery](./assign-ediscovery-permissions.md)사용 권한 할당을 참조하세요.
 
+- 사서함이 조직 전체 보존 정책에 할당된 경우 복구 가능한 항목 폴더에서 항목을 삭제하려면 먼저 정책에서 사서함을 제외해야 합니다. 정책 변경을 동기화하고 정책에서 사서함을 제거하는 데 최대 24시간이 걸릴 수 있습니다. 자세한 내용은 이 문서의 사서함에서 모든 [](#organization-wide-retention-policies) 보류 제거 섹션의 "조직 전체 보존 정책"을 참조하세요.
+
+- 보존 잠금을 사용하여 잠긴 보존 정책을 사용하여 보존 설정이 할당된 사서함에는 이 절차를 수행할 수 없습니다. 이 잠금으로 인해 정책에서 사서함을 제거하거나 제외할 수 있으며 사서함의 관리되는 폴더 도우미를 사용할 수 없습니다. 보존 정책 잠금에 대한 자세한 내용은 [Use Preservation Lock to restrict changes to retention policies and retention label policies 을 참조하십시오.](retention-preservation-lock.md)
+
 - 이 문서에 설명된 절차는 비활성 사서함에 대해 지원되지 않습니다. 제거한 후 비활성 사서함에 보류(또는 보존 정책)를 다시 적용할 수 없습니다. 비활성 사서함에서 보류를 제거하면 해당 사서함이 소프트 삭제된 일반 사서함으로 변경되고 관리되는 폴더 도우미가 처리한 후 조직에서 영구적으로 삭제됩니다.
 
-- 보존 잠금을 사용하여 잠긴 정책을 사용하여 보존 설정이 할당된 사서함에는 이 절차를 수행할 수 없습니다. 이 잠금으로 인해 정책에서 사서함을 제거하거나 제외할 수 있으며 사서함의 관리되는 폴더 도우미를 사용할 수 없습니다. 보존 정책 잠금에 대한 자세한 내용은 [Use Preservation Lock to restrict changes to retention policies and retention label policies 을 참조하십시오.](retention-preservation-lock.md)
-
 - 사서함이 보류되지 않은 경우(또는 단일 항목 복구를 사용하도록 설정하지 않은 경우) 복구할 수 있는 항목 폴더에서 항목을 삭제할 수 있습니다. 이 작업을 하는 방법에 대한 자세한 내용은 조직에서 전자 메일 메시지 검색 및 [삭제를 참조하세요.](./search-for-and-delete-messages-in-your-organization.md)
-  
+
 ## <a name="step-1-collect-information-about-the-mailbox"></a>1단계: 사서함에 대한 정보 수집
 
 이 첫 번째 단계는 이 절차에 영향을 줄 대상 사서함에서 선택한 속성을 수집하는 것입니다. 이러한 설정 중 일부를 변경한 다음 복구 가능한 항목 폴더에서 항목을 삭제한 후 6단계에서 원래 값으로 되돌리게 예정이기 때문에 이러한 설정을 적어 두거나 텍스트 파일에 저장해야 합니다. 다음은 수집해야 하는 사서함 속성 목록입니다.
@@ -177,7 +179,7 @@ PowerShell에서 다음 Exchange Online 수행합니다.
 복구 가능한 항목 폴더에서 항목을 삭제할 수 있는 마지막 단계는 사서함에 있는 모든 보류(1단계에서 식별)를 제거하는 것입니다. 복구 가능한 항목 폴더에서 항목을 삭제한 후에도 항목이 보존되지 못하게 모든 보류를 제거해야 합니다. 다음 섹션에는 사서함에서 여러 유형의 보류를 제거하는 데 대한 정보가 포함되어 있습니다. 사서함에 [배치될](#more-information) 수 있는 형식 보류를 식별하는 방법에 대한 팁은 추가 정보 섹션을 참조하세요. 자세한 내용은 사서함에 배치된 보류 유형을 식별하는 [Exchange Online 참조하세요.](identify-a-hold-on-an-exchange-online-mailbox.md)
   
 > [!CAUTION]
-> 앞서 설명한 것 처럼 사서함에서 보류를 제거 하기 전에 레코드 관리 또는 법률 부서에 확인 합니다. 
+> 앞서 설명한 것 처럼 사서함에서 보류를 제거 하기 전에 레코드 관리 또는 법률 부서에 확인 합니다.
   
 ### <a name="litigation-hold"></a>소송 대기
   
@@ -218,7 +220,10 @@ Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-조직 전체 보존 정책을 식별한 후 Microsoft 365 규정 준수 센터 페이지의 정보 거버넌스 보존 페이지로 이동하여 이전 단계에서 식별한 각 조직 전체 보존 정책을 편집하고 제외된 받는 사람 목록에 사서함을  >   추가합니다. 이렇게 하면 보존 정책에서 사용자의 사서함이 제거됩니다. 변경을 복제하는 데 최대 24시간이 걸릴 수 있습니다.
+조직 전체 보존 정책을 식별한 후 Microsoft 365 규정 준수 센터 페이지의 정보 거버넌스 보존 페이지로 이동하여 이전 단계에서 식별한 각 조직 전체 보존 정책을 편집하고 제외된 받는 사람 목록에 사서함을  >   추가합니다. 이렇게 하면 보존 정책에서 사용자의 사서함이 제거됩니다.
+
+> [!IMPORTANT]
+> 조직 전체 보존 정책에서 사서함을 제외한 후 이 변경을 동기화하고 정책에서 사서함을 제거하는 데 최대 24시간이 걸릴 수 있습니다.
 
 ### <a name="retention-labels"></a>보존 레이블
 
@@ -230,7 +235,11 @@ Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
 ```
 
-보존 레이블이 폴더 또는 항목에 적용되어 사서함이 보류 중으로 확인되면 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 ComplianceTag 검색 조건을 사용하여 레이블이 지정된 항목을 검색할 수 있습니다. 자세한 내용은 콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건의 "검색 조건" [섹션을 참조하세요.](keyword-queries-and-search-conditions.md#conditions-for-common-properties)
+보존 레이블이 폴더 또는 항목에 적용되어 사서함이 보류 중으로 확인되면 보존 레이블 조건을 사용하여 Microsoft 365 규정 준수 센터 항목을 검색할 수 있습니다.  자세한 내용은 다음을 참조하세요.
+
+- 보존 정책 및 보존 레이블에 대해 자세히의 "콘텐츠 검색을 사용하여 특정 보존 레이블이 있는 모든 콘텐츠 [찾기" 섹션](retention.md#using-content-search-to-find-all-content-with-a-specific-retention-label)
+
+- 콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건의 "검색 [조건" 섹션](keyword-queries-and-search-conditions.md#conditions-for-common-properties)
 
 레이블에 대한 자세한 내용은 보존 정책 및 보존 레이블에 대해 [자세히를 참조하세요.](retention.md)
 

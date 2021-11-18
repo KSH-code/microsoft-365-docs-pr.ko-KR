@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 98ae7b53ce793809ae93cf32d574d979e5b7c6e5
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: c8bf6f37d837d46bfdcca98296c8ca09747276cc
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60335565"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064214"
 ---
 # <a name="add-allows-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록에 허용 추가
 
@@ -32,10 +32,9 @@ ms.locfileid: "60335565"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-관리자는 테넌트 허용/차단 목록에 직접 허용할 수 없습니다. 대신 관리 제출 프로세스를 사용하여 해당 URL, 파일 및/또는 보낸 사람이 테넌트 허용/차단 목록에 추가될 수 있도록 차단된 메시지를 제출합니다. 메시지가 잘못 차단된 가짓 긍정으로 확인된 대부분의 경우 허용은 시스템에 자연스럽게 허용하는 데 필요한 기간 동안 유지됩니다.
+관리자는 테넌트 허용/차단 목록에 직접 허용할 수 없습니다. 대신 관리 제출 프로세스를 사용하여 해당 URL, 파일 및/또는 보낸 사람이 테넌트 허용/차단 목록에 추가될 수 있도록 차단된 메시지를 제출합니다. 파일, URL 또는 보낸 사람 블록이 발생하지 않은 경우 허용이 만들어지지 않습니다. 메시지가 잘못 차단된 가짓 긍정으로 확인된 대부분의 경우 허용은 시스템에 자연스럽게 허용하는 데 필요한 기간 동안 유지됩니다.
 
 > [!IMPORTANT]
->
 > Microsoft는 필요하지 않은 사용자, 보낸 사람, URL 또는 파일을 허용하는 허용을 관리하기 때문에 불량으로 간주되는 파일이 제거됩니다. 이는 환경을 보호하고 허용이 잘못 구성되지 않도록 방지하기 위한 것입니다. 동의하지 않을 수 있는 경우 메시지가 여전히 잘못된 것으로 간주되는 이유를 확인하는 데 도움이 되는 지원 사례가 필요할 수 있습니다.
 
 ## <a name="add-allows-using-the-submissions-portal"></a>Add를 사용하면 제출 포털을 사용할 수 있습니다. 

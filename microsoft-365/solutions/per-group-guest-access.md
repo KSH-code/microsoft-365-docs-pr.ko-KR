@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 게스트가 특정 그룹에 추가되지 않도록 하는 방법에 대해 자세히 알아보기
-ms.openlocfilehash: 68f404cf86d6e8fe797b22fdf2a64f5d86162b56
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 8a8a62b2a320fe000580651a2577f625a9ce1b90
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60196228"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064490"
 ---
 # <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>게스트가 특정 Microsoft 365 또는 팀에 추가되지 Microsoft Teams 방지
 
@@ -105,9 +105,9 @@ Get-AzureADUser -Filter "userType eq 'Guest'"
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 

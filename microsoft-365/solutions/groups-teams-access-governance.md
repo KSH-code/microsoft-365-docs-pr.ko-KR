@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: Microsoft 365, 그룹 및 Teams 액세스 제어에 대해 SharePoint.
-ms.openlocfilehash: 2a0da02385e3fc325bb4f25b4ac8a538f950d820
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: e01326093476f341c6c4c75448efbdf8c745779f
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207454"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064334"
 ---
 # <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Microsoft 365, Teams 및 SharePoint
 
@@ -96,7 +96,7 @@ SharePoint 사이트는 그룹 또는 팀 구성원과는 별도로 소유자, �
 
 ## <a name="guest-access"></a>게스트 액세스
 
-전자 메일 주소의 도메인에 따라 게스트를 제한할 수 있습니다. SharePoint 조직 전체 및 사이트별 도메인 제한 설정을 제공합니다. 그룹 및 Teams Azure AD의 도메인 허용 및 거부 목록을 사용하세요. 원치 않는 공유를 방지하고 일관된 사용자 환경을 보장하도록 두 설정을 모두 구성해야 합니다.
+전자 메일 주소의 도메인에 따라 게스트를 제한할 수 있습니다. SharePoint 조직 전체 및 사이트별 도메인 제한 설정을 제공합니다. 그룹 및 Teams Azure AD의 도메인 허용 목록 또는 차단 목록을 사용하세요. 원치 않는 공유를 방지하고 일관된 사용자 환경을 보장하도록 두 설정을 모두 구성해야 합니다.
 
 - [도메인별 SharePoint 및 OneDrive 콘텐츠의 공유 제한](/sharepoint/restricted-domains-sharing)
 
@@ -154,7 +154,7 @@ Microsoft 365 정보를 공유하는 다양한 방법을 제공합니다. 중요
 
 비공개 채널은 Teams 구성원의 하위 집합 간에 범위가 지정되는 대화 및 파일 공유를 허용합니다. 특정 비즈니스 요구에 따라 이 기능을 허용하거나 차단할 수 있습니다.
 
-- [개인 채널의 Microsoft Teams](/MicrosoftTeams/private-channels)
+- [Microsoft Teams의 비공개 채널](/MicrosoftTeams/private-channels)
 
 - [개인 채널의 수명 주기를 Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management)
 
@@ -162,9 +162,9 @@ Microsoft 365 정보를 공유하는 다양한 방법을 제공합니다. 중요
 
 - [Azure Active Directory ID 거버넌스](/azure/active-directory/governance)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 

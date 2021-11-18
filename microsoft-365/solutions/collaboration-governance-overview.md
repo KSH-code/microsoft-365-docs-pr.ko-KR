@@ -1,5 +1,5 @@
 ---
-title: 공동 작업 거버넌스란 무엇인가요?
+title: 공동 작업 거버넌스 프레임워크를 Microsoft 365
 ms.reviewer: mmclean
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,13 +16,13 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 recommendations: false
-description: 사용자 그룹, Microsoft 365, Teams, SharePoint 및 관리 Yammer 대해 Yammer.
-ms.openlocfilehash: 31b97403b955cb92a7e4cf4b79bb2cd31927b73b
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+description: Microsoft 365 그룹, Teams, SharePoint 및 도구를 비롯한 Microsoft 365 공동 작업 도구에 대한 거버넌스 모범 Yammer.
+ms.openlocfilehash: 62030dcb9b89105f87a0cf50f1b950b816727015
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60190236"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064382"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란 무엇인가요?
 
@@ -36,17 +36,17 @@ Microsoft 365 그룹, Teams 및 Yammer 같은 서비스는 사용자가 공동 �
 
 ![2013의 공동 작업 거버넌스 옵션을 Microsoft 365.](../media/collaboration-governance-overview.png)
 
-이 문서 시리즈는 그룹, 팀 및 SharePoint 설정이 상호 작용하는 방식, 사용 가능한 거버넌스 기능 및 그룹에서 공동 작업 기능에 대한 거버넌스 계획을 만들고 구현하는 방법을 이해하는 데 Microsoft 365.
+이 문서 시리즈는 그룹, 팀 및 SharePoint 설정이 상호 작용하는 방법, 사용 가능한 거버넌스 기능 및 그룹에서 공동 작업 기능에 대한 거버넌스 프레임워크를 만들고 구현하는 방법을 이해하는 데 Microsoft 365.
 
 ### <a name="setting-up-secure-collaboration-with-microsoft-365"></a>사용자와의 보안 공동 작업 Microsoft 365
 
-조직에서 안전한 공동 작업을 위해 Microsoft 365 그룹 및 Teams 배포할 수 있는 여러 옵션이 있습니다. 이 거버넌스 콘텐츠를 조직에 가장 적합한 공동 작업 솔루션을 만들 수 있도록 Microsoft 365 문서와 함께 이 거버넌스 콘텐츠를 사용하는 것이 좋습니다. [](setup-secure-collaboration-with-teams.md)
+조직에서 안전한 공동 작업을 위해 Microsoft 365 그룹 및 Teams 배포할 수 있는 여러 옵션이 있습니다. 보안 파일 공유 및 공동 [](setup-secure-collaboration-with-teams.md) 작업 설정과 함께 이 거버넌스 콘텐츠를 Microsoft Teams 문서와 함께 사용하여 조직에 가장 적합한 공동 작업 솔루션을 만드는 것이 좋습니다.
 
-### <a name="data-residency"></a>데이터 보존
+### <a name="data-residency-governance"></a>데이터 레지던시 거버넌스
 
 조직이 다국적 국가인 경우 여러 지리적 위치의 데이터 상주 요구 사항이 있는 경우 공동 작업 거버넌스 계획의 일부로 Microsoft 365 [Multi-Geo를](/microsoft-365/enterprise/microsoft-365-multi-geo) 포함합니다.
 
-## <a name="why-microsoft-365-groups-are-important"></a>그룹 Microsoft 365 중요한 이유
+## <a name="why-microsoft-365-groups-are-important-in-collaboration-governance"></a>Microsoft 365 그룹이 공동 작업 거버넌스에서 중요한 이유
 
 Microsoft 365 그룹을 사용하면 공동 작업할 사용자 집합을 선택하고 해당 사용자가 공유할 리소스 모음을 쉽게 설정할 수 있습니다. 그룹에 구성원을 추가하면 그룹에서 제공하는 모든 자산에 필요한 사용 권한이 자동으로 부여됩니다. 사용자 Teams Yammer 그룹 Microsoft 365 사용하여 구성원을 관리합니다.
 
@@ -67,9 +67,9 @@ Microsoft 365 그룹에는 사용자가 통신 및 공동 작업을 위해 사�
 |[Teams](https://support.microsoft.com/teams)|Microsoft 365|
 |[Yammer 그룹](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)|대화를 나누고 정보를 공유하는 일반적인 장소|
 
-Microsoft 365 그룹에는 만료 정책, 이름 규칙 및 차단된 단어 정책을 포함하여 조직의 그룹을 관리하는 데 도움이 되는 다양한 거버넌스 제어가 포함됩니다. 그룹은 이 리소스 제품군에 대한 구성원 자격 및 액세스를 제어하기 때문에 그룹 관리는 그룹 관리의 핵심적인 Microsoft 365.
+Microsoft 365 그룹에는 만료 정책, 이름 규칙 및 차단된 단어 정책을 비롯한 다양한 거버넌스 제어가 포함되어 조직의 그룹을 관리하는 데 도움이 됩니다. 그룹은 이 리소스 제품군에 대한 구성원 자격 및 액세스를 제어하기 때문에 그룹 관리는 그룹 관리의 핵심적인 Microsoft 365.
 
-## <a name="define-a-collaboration-strategy-for-your-organization"></a>조직의 공동 작업 전략 정의
+## <a name="define-collaboration-governance-best-practices-for-your-organization"></a>조직에 대한 공동 작업 거버넌스 모범 사례 정의
 
 여러 장소에서 공동 작업하고 대화할 수 Microsoft 365. 사용자가 대화를 시작할 수 있는 위치를 이해하면 커뮤니케이션 전략을 정의하는 데 도움이 될 수 있습니다.
 
@@ -100,8 +100,7 @@ Microsoft 365 그룹에는 만료 정책, 이름 규칙 및 차단된 단어 정
 > [!NOTE]
 > Office 365 또는 Yammer 또는 Teams 통해 새 Outlook 그룹을 만들면 해당 사용자 간의 기본 통신이 각 클라이언트에서 발생하기 때문에 그룹이 Outlook 또는 주소 기록부에 표시되지 않습니다. Yammer 그룹에 연결할 수 Teams.
 
-
-## <a name="best-practices"></a>모범 사례
+## <a name="collaboration-governance-best-practices-checklist"></a>공동 작업 거버넌스 모범 사례 검사 목록
 
 거버넌스 계획 프로세스를 시작할 때 다음 모범 사례를 염두에 두어야 합니다.
 
@@ -138,7 +137,7 @@ Microsoft 365 그룹에는 만료 정책, 이름 규칙 및 차단된 단어 정
 
 이렇게 하면 사용자가 그룹이 관련 서비스와 연관된 방식에 익숙하지 않은 경우 혼동을 피할 수 있습니다. 사용자와 그룹에 대해 이야기하는 방법에 대한 자세한 내용은 사용자에게 그룹에 대한 Microsoft 365 [설명을 참조하세요.](../admin/create-groups/explain-groups-knowledge-worker.md)
 
-## <a name="key-governance-capabilities-and-licensing-requirements"></a>주요 거버넌스 기능 및 라이선스 요구 사항
+## <a name="key-collaboration-governance-capabilities-and-licensing-requirements"></a>주요 공동 작업 거버넌스 기능 및 라이선스 요구 사항
 
 Microsoft 365 공동 작업을 위한 거버넌스 기능에는 Microsoft 365, Teams, SharePoint 및 Azure Active Directory.
 
@@ -153,7 +152,7 @@ Microsoft 365 공동 작업을 위한 거버넌스 기능에는 Microsoft 365, T
 |그룹 만료 정책|비활성 그룹 및 팀이 만료되고 지정된 기간 후에 삭제될 수 있습니다.|Microsoft 365 E5 라이선스가 있는 Azure AD Premium 또는 E3|
 |그룹별 게스트 액세스|그룹 기준으로 조직 외부의 사용자와 팀 및 그룹 공유를 허용하거나 차단합니다.|Microsoft 365 E5 또는 E3|
 
-## <a name="collaboration-governance-planning-step-by-step"></a>공동 작업 거버넌스 계획 단계별
+## <a name="collaboration-governance-planning-recommendations"></a>공동 작업 거버넌스 계획 권장 사항
 
 다음 기본 단계에 따라 거버넌스 계획을 만들 수 있습니다.
 

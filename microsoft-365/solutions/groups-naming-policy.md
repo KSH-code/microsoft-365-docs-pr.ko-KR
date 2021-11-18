@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 recommendations: false
 description: 사용자 그룹에 대한 이름 정책을 만드는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9fb75feb255ee6d58313f4cfaf3486c4a8cd63b4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: acc521dd5be1dcf630b4801eeb914c45e765e00f
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60213412"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064514"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 그룹 이름 정책
 
@@ -130,9 +130,9 @@ GAL 및 그룹 워크로드의 왼쪽 탐색에서 그룹을 차별화하는 데
 
 ![Screenshot of the groups naming policy settings in Azure Active Directory.](../media/groups-naming-policy-azure.png)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 

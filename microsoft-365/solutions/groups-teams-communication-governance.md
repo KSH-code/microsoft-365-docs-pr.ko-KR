@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 통신 거버넌스 공동 작업 시나리오에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: cc90130a9cb841291872898ca0ca53a4b515b4fb
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: ace313ce20445aafc06b184a72cc45c2ce0118ef
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60207430"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064502"
 ---
 # <a name="communications-governance-for-collaboration-scenarios"></a>공동 작업 시나리오를 위한 통신 거버넌스
 
@@ -67,9 +67,9 @@ Microsoft 365 메시징 및 모임 설정을 포함하여 조직의 통신을 �
 
 [Microsoft 365의 커뮤니케이션 규정 준수](../compliance/communication-compliance.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 

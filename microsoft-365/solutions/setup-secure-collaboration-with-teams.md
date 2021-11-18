@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365를 사용하여 안전한 공동 작업 설정
+title: 보안 파일 및 문서 공유 및 공동 작업을 Teams Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -16,33 +16,33 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 recommendations: false
-description: 민감도에 따라 데이터를 보호하기 위해 Teams 콘텐츠 공동 작업을 설정하는 방법을 알아보겠습니다.
-ms.openlocfilehash: f8475cd2f832bf2b634a8e60c819927fb8f2769c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+description: 보안 파일 공동 작업 및 공유를 설정하는 모범 사례를 Teams 민감도에 따라 데이터를 보호합니다.
+ms.openlocfilehash: 4bf18635b0c345e18c1ed5db8c7072ca6225e33c
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60158997"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064286"
 ---
-# <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>보안 및 보안 Microsoft 365 설정 Microsoft Teams
+# <a name="set-up-secure-file-sharing-and-collaboration-with-microsoft-teams"></a>보안 파일 공유 및 공동 작업 Microsoft Teams
 
-과부하를 방지하면서 올바른 사용자와 정보를 쉽게 공유할 수 있는 것은 조직의 성공에 핵심입니다. 여기에는 중요한 데이터를 액세스 권한이 있는 사용자와만 안전하게 공유할 수 있습니다. 프로젝트에 따라 조직 외부의 사용자와 중요한 데이터를 공유하는 것이 포함됩니다.
+조직에서 과도하게 공유하는 것을 방지하면서 올바른 사용자와 파일 및 문서를 쉽게 공유할 수 있는 것은 조직의 성공에 핵심입니다. 여기에는 기밀 또는 기타 중요한 데이터를 액세스 권한이 있는 사용자만 안전하게 공유할 수 있습니다. 프로젝트에 따라 조직 외부의 사용자와 중요한 데이터를 공유하는 것이 포함됩니다.
 
 이 공동 작업 솔루션 지침에는 다음 두 가지 구성 요소가 포함되어 있습니다.
 
-- 각 Microsoft Teams 대한 올바른 수준의 보호를 통해 배포
+- 각 Teams 대한 올바른 수준의 보호를 통해 배포
 - 각 프로젝트에 대해 적절한 보안 설정을 사용하여 외부 공유 구성
 
 ![적절한 Teams 사용하여 보안 설정을 배포하고 적절한 보안 설정을 사용하여 외부 공유를 구성합니다.](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
-다용도 및 사용이 간편한 콘텐츠 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 전자 메일로 보내 공동 작업을 하는 경우가 종종 있습니다. 이는 공동 작업의 지우고 오류가 발생할 수 있는 방법일 수 있으며 부적절한 정보 공유의 위험을 증가할 수 있습니다. 정보 공유가 너무 어렵다는 것을 발견하면 IT에서 관리하지 않는 소비자 제품을 사용하게 되찾을 수 있습니다. 이로인하면 위험이 훨씬 커질 수 있습니다.
+다양하고 사용하기 쉬운 파일 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 전자 메일로 보내 공동 작업을 하는 경우가 종종 있습니다. 이는 공동 작업의 지우고 오류가 발생할 수 있는 방법일 수 있으며 부적절한 정보 공유의 위험을 증가할 수 있습니다. 사용자가 파일을 공유하기가 너무 어렵다는 것을 발견하면 IT에서 관리하지 않는 소비자 제품을 사용하게 되찾을 수 있습니다. 이로인하면 위험이 훨씬 커질 수 있습니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 이 Microsoft 365 사용하여 다음을 Teams 구성을 사용하여 배포할 수 있습니다.
 
 - 지적 재산 보호
-- 간편한 공동 작업 사용
+- 문서 및 기타 파일과의 간편한 공동 작업 사용
 - 보안과 사용성 간의 균형을 유지하여 사용자 만족도를 향상하고 섀도 IT의 위험을 줄입니다.
 
 대부분의 조직에서는 정보가 부적절하게 공유되는 경우 민감도 및 비즈니스 영향 정도가 다양하며 다양한 정보를 제공합니다. 특정 정보의 민감도에 따라 다음과의 공유를 허용할 수 있습니다.
@@ -68,16 +68,16 @@ ms.locfileid: "60158997"
 
 |제품 또는 구성 요소|기능 또는 특징|라이선싱|
 |---|---|---|
-|Office 365용 Microsoft Defender|금고 SPO, OneDrive 및 Teams; 금고 문서; 금고 Teams|Microsoft 365 E1, E3 및 E5|
+|Office 365용 Microsoft Defender|금고 SPO, OneDrive 및 Teams. 금고 문서; 금고 링크를 Teams|Microsoft 365 E1, E3 및 E5|
 |SharePoint|사이트 및 파일 공유 정책, 사이트 공유 권한, 공유 링크, 액세스 요청, 사이트 게스트 공유 설정|Microsoft 365 E1, E3 및 E5|
 |Microsoft Teams|게스트 액세스, 비공개 팀, 비공개 채널|Microsoft 365 E1, E3 및 E5|
 |Microsoft 365 규정 준수|민감도 레이블|Microsoft 365 E3 및 E5|
 
-## <a name="collaboration-governance"></a>공동 작업 거버넌스
+## <a name="collaboration-governance-framework-for-teams-and-microsoft-365"></a>관리 및 Teams 위한 공동 작업 거버넌스 Microsoft 365
 
 Microsoft 365 솔루션을 관리하기 위한 다양한 옵션을 제공합니다. 이 배포 콘텐츠를 공동 작업 [](collaboration-governance-overview.md) 거버넌스 콘텐츠와 함께 사용하여 조직에 가장 적합한 공동 작업 솔루션을 만드는 것이 좋습니다.
 
-### <a name="using-teams-for-all-kinds-of-data"></a>모든 Teams 대한 사용자 정보 사용
+### <a name="securing-teams-for-sensitive-and-highly-sensitive-data"></a>중요하고 Teams 데이터에 대한 보안 보호
 
 민감도가 다른 정보에 대한 액세스를 관리하기 위해 에 대한 세 가지 다른 보호 [계층을 Teams.](configure-teams-three-tiers-protection.md) 이러한 계층을 사용자 지정하여 요구 또는 비즈니스를 보다 잘 해결할 수 있습니다.
 

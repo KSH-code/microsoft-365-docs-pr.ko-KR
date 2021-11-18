@@ -16,12 +16,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: 공동 작업 도구에 대한 수명 주기 거버넌스 옵션에 대해 Microsoft 365
-ms.openlocfilehash: c1389b7dd787df6b4aab4cd5bb00377e05b99ff6
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: a0f4622afd1a22b8cd6574865012b7f636fc06c5
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199276"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61063323"
 ---
 # <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 및 사용자에 대한 조직 및 수명 주기 거버넌스 Microsoft Teams
 
@@ -76,10 +76,10 @@ Microsoft 365 그룹이 삭제되면 기본적으로 30일 동안 보존됩니�
 
 만료 정책은 더 이상 사용되지 않는 그룹을 삭제하도록 하여 그룹 스플로링을 제한하는 좋은 방법입니다. 그룹 만료 정책을 만들 경우 그룹 만료 [정책 Microsoft 365 참조합니다.](microsoft-365-groups-expiration-policy.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
-[이전 직원 제거 및 보안 데이터](/microsoft-365/admin/add-users/remove-former-employee)
+[이전 직원 제거 및 데이터 보안](/microsoft-365/admin/add-users/remove-former-employee)

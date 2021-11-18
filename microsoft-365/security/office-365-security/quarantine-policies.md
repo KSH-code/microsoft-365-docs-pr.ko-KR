@@ -17,12 +17,12 @@ ms.custom: admindeeplinkDEFENDER
 description: 관리자는 사용자가 메시지를 검사하기 위해 할 수 있는 작업을 제어하기 위해 정책을 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 77e24e4c1f4040ee97fbbdfd3b7c0208955c17d9
-ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
+ms.openlocfilehash: 9e31d0a75e8b891e4ab0e0293d7c0be98e625134
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "60972051"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064310"
 ---
 # <a name="quarantine-policies"></a>격리 정책
 
@@ -61,8 +61,8 @@ EOP(Exchange Online Protection(Exchange Online Protection) 및 Microsoft Defende
 
 |기본 검지 정책|사용된 사용 권한 그룹|알림을 검사할 수 있나요?|
 |---|---|---|
-|AdminOnlyAccessPolicy|액세스 권한 없음|아니오|
-|DefaultFullAccessPolicy|모든 액세스|아니오|
+|AdminOnlyAccessPolicy|액세스 권한 없음|아니요|
+|DefaultFullAccessPolicy|모든 액세스|아니요|
 |NotificationEnabledPolicy<sup>\*</sup>|모든 액세스|예|
 
 미리 설정한 사용 권한 그룹에서 기본 사용 권한을 원하지 않는 경우 또는 알림을 사용하도록 설정하려면 사용자 지정 검지 정책을 만들고 사용 합니다. 각 사용 권한의 작동에 대한 자세한 내용은 이 문서 의 부분에 있는 정책 사용 권한 세부 정보 [섹션을](#quarantine-policy-permission-details) 참조하십시오.
@@ -134,15 +134,10 @@ DefaultFullAccessPolicy의 사용 권한을 제공하지만, 검역 알림이 �
 
 ### <a name="create-quarantine-policies-in-powershell"></a>PowerShell에서 검사 정책 만들기
 
-PowerShell을 사용하여 정책을 만드는 대신 PowerShell을 사용하여 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에 연결하고 **New-QuarantinePolicy** cmdlet을 사용 합니다. 다음 두 가지 방법으로 선택할 수 있습니다.
-
-- [ _EndUserQuarantinePermissionsValue_ 매개 변수를 사용합니다.](#use-the-enduserquarantinepermissionsvalue-parameter)
-- [ _EndUserQuarantinePermissions_ 매개 변수를 사용합니다.](#use-the-enduserquarantinepermissions-parameter)
-
-이러한 메서드에 대한 설명은 다음 섹션에 설명되어 있습니다.
+PowerShell을 사용하여 정책을 만드는 대신 PowerShell을 사용하여 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에 연결하고 **New-QuarantinePolicy** cmdlet을 사용 합니다.
 
 > [!NOTE]
-> _정책에서 ESNEnabled_ 매개 변수와 값의 사용은 두 방법 모두에서 `$true` 동일합니다. 이 매개 변수를 사용하지 않는 경우 알림은 해제됩니다.
+> _ESNEnabled_ 매개 변수와 값을 사용하지 않는 경우 알림의 `$true` 검지가 해제됩니다.
 
 #### <a name="use-the-enduserquarantinepermissionsvalue-parameter"></a>EndUserQuarantinePermissionsValue 매개 변수 사용
 
@@ -187,56 +182,6 @@ New-QuarantinePolicy -Name LimitedAccess -EndUserQuarantinePermissionsValue 106 
 
 구문과 매개 변수에 대한 자세한 내용은 [New-QuarantinePolicy 를 참조하십시오.](/powershell/module/exchange/new-quarantinepolicy)
 
-#### <a name="use-the-enduserquarantinepermissions-parameter"></a>EndUserQuarantinePermissions 매개 변수 사용
-
-_EndUserQuarantinePermissionsValue_ 매개 변수를 사용하여 검지 정책을 만들 경우 다음 단계를 수행합니다.
-
-대답. **New-QuarantinePermissions** cmdlet을 사용하여 변수에 quarantine permissions 개체를 저장합니다.
-
-<p>
-
-B. **변수를 New-QuarantinePolicy** 명령에서 _EndUserQuarantinePermissions_ 값으로 사용 합니다.
-
-##### <a name="step-a-store-a-quarantine-permissions-object-in-a-variable"></a>A단계: 변수에 검지 권한 개체 저장
-
-다음 구문을 사용합니다.
-
-```powershell
-$<VariableName> = New-QuarantinePermissions [-PermissionToBlockSender <$true | $False>] [-PermissionToDelete <$true | $False>] [-PermissionToPreview <$true | $False>] [-PermissionToRelease <$true | $False>] [-PermissionToRequestRelease <$true | $False>]
-```
-
-사용하지 않는 매개 변수의 기본값은 입니다. 따라서 값을 로 설정하려는 매개 변수만 `$false` 사용하면 `$true` 됩니다.
-
-다음 예에서는 제한된 액세스 미리 설정  권한 그룹에 해당하는 사용 권한 개체를 만드는 방법을 보여 주며,
-
-```powershell
-$LimitedAccess = New-QuarantinePermissions -PermissionToBlockSender $true -PermissionToDelete $true -PermissionToPreview $true -PermissionToRequestRelease $true
-```
-
-설정한 값을 표시하기 위해 변수 이름을 명령으로 실행합니다(예: 명령을 `$LimitedAccess` 실행).
-
-사용자 지정 권한의 경우 _PermissionToRelease_ 및 _PermissionToRequestRelease_ 매개 변수를 로 설정하지 `$true` 않습니다. 를 로 설정하고 다른 를 로 설정하거나 두 가지 모두 로 `$true` `$false` 를 그대로 . `$false`
-
-**Set-QuarantinePermissions** cmdlet을 사용하여 기존 사용 권한 개체 변수를 만든 후 사용하기 전에 수정할 수도 있습니다.
-
-구문과 매개 변수에 대한 자세한 내용은 [New-QuarantinePermissions](/powershell/module/exchange/new-quarantinepermissions) 및 [Set-QuarantinePermissions를 참조하십시오.](/powershell/module/exchange/set-quarantinepermissions)
-
-##### <a name="step-b-use-the-variable-in-the-new-quarantinepolicy-command"></a>B단계: 다음 명령에서 변수 New-QuarantinePolicy 사용
-
-permissions 개체를 만들어 변수에 저장한 후 다음 **New-QuarantinePolicy** 명령에서 _EndUserQuarantinePermission_ 매개 변수 값에 변수를 사용합니다.
-
-```powershell
-New-QuarantinePolicy -Name "<UniqueName>" -EndUserQuarantinePermissions $<VariableName> [-EsnEnabled $true]
-```
-
-이 예에서는 이전 단계에서 설명하고 만든 permissions 개체를 사용하여 이름이 LimitedAccess인 제한된Access에 대한 알림을 설정하여 새 검지 정책을 `$LimitedAccess` 만듭니다.
-
-```powershell
-New-QuarantinePolicy -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAccess -EsnEnabled $true
-```
-
-구문과 매개 변수에 대한 자세한 내용은 [New-QuarantinePolicy 를 참조하십시오.](/powershell/module/exchange/new-quarantinepolicy)
-
 ## <a name="step-2-assign-a-quarantine-policy-to-supported-features"></a>2단계: 지원되는 기능에 검지 정책 할당
 
 전자 _메일 메시지를_ 검역하는 지원되는 보호 기능에서 사용 가능한 검역 작업에 검역 정책을 할당할 수 있습니다. 다음 표에는 메시지를 검사하는 기능과 검지 정책의 가용성이 설명되어 있습니다.
@@ -251,7 +196,7 @@ New-QuarantinePolicy -Name LimitedAccess -EndUserQuarantinePermissions $LimitedA
 |피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호(](set-up-anti-phishing-policies.md#spoof-settings) _AuthenticationFailAction_)</li><li>[에 대한 Defender의](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)가장 Office 365:<ul><li>**가장된** 사용자로 메시지가 검색된 경우(_TargetedUserProtectionAction_)</li><li>**가장된** 도메인으로 메시지가 검색된 경우(_TargetedDomainProtectionAction_)</li><li>**사서함 인텔리전스가** 사용자를 검색하고 가장하는 경우(_MailboxIntelligenceProtectionAction_)</li></ul></li></ul>|예|<ul><li>DefaultFullAccessPolicy(모든 <sup>\*</sup> 액세스)</li><li>가장 보호:<ul><li>DefaultFullAccessPolicy(모든 <sup>\*</sup> 액세스)</li><li>DefaultFullAccessPolicy(모든 <sup>\*</sup> 액세스)</li><li>DefaultFullAccessPolicy(모든 <sup>\*</sup> 액세스)</li></ul></li></ul>|
 |[맬웨어 방지 정책:](configure-anti-malware-policies.md)검색된 모든 메시지는 항상 차단됩니다.|예|AdminOnlyAccessPolicy(액세스 없음)|
 |[금고 보호](safe-attachments.md): <ul><li>첨부 파일 정책에 의해 맬웨어로 금고 전자 메일 _메시지(사용_ 및 _작업)_</li><li>맬웨어로 금고, 파일 및 SharePoint, OneDrive 첨부 [파일로 Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li></ul>|<ul><li>예</li><li>아니요</li></ul>|<ul><li>AdminOnlyAccessPolicy(액세스 없음)</li><li>해당 없음</li></ul>|
-|[메일 흐름 규칙(전송](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 규칙)에 다음  작업을 수행하여 메시지를 호스팅된 검사(_Quarantine)로 배달합니다._|아니오|해당 없음|
+|[메일 흐름 규칙(전송](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 규칙)에 다음  작업을 수행하여 메시지를 호스팅된 검사(_Quarantine)로 배달합니다._|아니요|해당 없음|
 |
 
 <sup>\*</sup> 이 [문서에서 설명한 바와](#full-access-permissions-and-quarantine-notifications)같이 조직에서는 DefaultFullAccessPolicy 대신 NotificationEnabledPolicy를 사용할 수 있습니다. 이러한 두 개의 검사 정책 간의 유일한 차이점은 NotificationEnabledPolicy에서 알림을 설정하고 DefaultFullAccessPolicy에서 해제했다는 것입니다.

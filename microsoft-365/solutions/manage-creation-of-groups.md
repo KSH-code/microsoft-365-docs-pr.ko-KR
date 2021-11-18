@@ -18,18 +18,18 @@ search.appverid:
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 recommendations: false
 description: 그룹을 만들 수 있는 사용자를 제어하는 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: b78ff54c8ff475f96f10592a95a3f83255665727
-ms.sourcegitcommit: afee35210f8d68a7f20676ff2a829464b0b0adb2
+ms.openlocfilehash: cea1529071cce92e2b6fad74d4946d1e4c7f3594
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60217165"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064322"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
 기본적으로 모든 사용자는 그룹을 만들 Microsoft 365 있습니다. 이 방법은 사용자가 IT의 지원 없이 공동 작업을 시작할 수 있도록 하여 권장되는 접근 방식입니다.
 
-회사에서 그룹을 만들 수 있는 사용자만 제한해야 하는 경우 그룹 만들기를 특정 Microsoft 365 또는 보안 그룹의 구성원으로 제한할 Microsoft 365 있습니다.
+회사에서 그룹을 만들 수 있는 사용자만 제한해야 하는 경우 Microsoft 365 그룹 만들기를 특정 Microsoft 365 그룹 또는 보안 그룹의 구성원으로 제한할 수 있습니다.
 
 비즈니스 표준을 준수하지 않는 팀 또는 그룹을 만드는 사용자가 우려되는 경우 사용자에게 교육 과정을 완료한 다음 허용된 사용자 그룹에 추가하도록 요구하는 것이 고려됩니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "60217165"
 - Power BI(클래식)
 - Project/로드맵에 대한 자세한
 
-이 문서의 단계에서는 특정 역할의 구성원이 그룹을 만들 수 없습니다. Office 365 전역 관리자는 온라인에서 Microsoft 365 관리 센터, Planner, Exchange 및 SharePoint 있습니다. 다른 역할은 아래에 나열된 제한된 수단을 통해 그룹을 만들 수 있습니다.
+이 문서의 단계에서는 특정 역할의 구성원이 그룹을 만들 수 없습니다. Office 365 전역 관리자는 온라인에서 Microsoft 365 관리 센터, Planner, Exchange 및 SharePoint 만들 수 있습니다. 다른 역할은 아래에 나열된 제한된 수단을 통해 그룹을 만들 수 있습니다.
 
 - Exchange 관리자: Exchange 관리 센터, Azure AD
 - 파트너 계층 1 지원: Microsoft 365 관리 센터, Exchange 관리 센터, Azure AD
@@ -166,9 +166,9 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > 그룹의 구성원이 그룹을 만들 수 없는 경우 해당 OWA 사서함 정책을 통해 차단되지 [않는지 검사합니다.](/powershell/module/exchange/set-owamailboxpolicy)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획 권장 사항](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 

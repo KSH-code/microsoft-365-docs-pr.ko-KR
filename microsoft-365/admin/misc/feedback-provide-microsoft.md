@@ -10,12 +10,12 @@ ms.topic: article
 ms.service: o365-administration
 ms.localizationpriority: medium
 description: Microsoft 제품 및 서비스에 대한 피드백을 Microsoft에 제공할 수 있는 다양한 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6e28c41edeffa636b10b4366ee3a98a96ddcd2ef
-ms.sourcegitcommit: da11ffdf7a09490313dfc603355799f80b0c60f9
+ms.openlocfilehash: 0aba87571f4b4fddb38f9cd5cae526d62d2e2c64
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60588578"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064274"
 ---
 # <a name="learn-about-how-to-provide-feedback-to-microsoft"></a>Microsoft에 피드백을 제공하는 방법에 대해 자세히 알아보시고
 
@@ -48,7 +48,6 @@ Microsoft에 피드백을 제공할 수 있는 많은 위치가 있습니다.  �
 :::image type="content" source="../../media/sending-feedback-community-portal.png" alt-text="Screenshot: Selection of Microsoft products you can send feedback on":::
 
 포럼을 선택하면 해당 제품과 관련된 모든 피드백을 볼 수 있으며, 사용자와 일치하는 피드백을 지지하거나 의견을 남기면 됩니다.  자신과 비슷한 피드백이 없는 경우 포털 자체를 통해 새 피드백을 제출할 수 있습니다.
-스크린샷을 추가합니다.
 
 ### <a name="sending-feedback-from-windows-feedback-hub"></a>사용자로부터 피드백 Windows 피드백 허브
 

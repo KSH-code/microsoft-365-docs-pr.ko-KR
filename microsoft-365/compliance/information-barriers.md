@@ -16,12 +16,12 @@ ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5baff70cb3318b05092e940e8160029bc2be69af
-ms.sourcegitcommit: 7791c519bd8b68fc23433e13e1ecbdbeaddbebfa
+ms.openlocfilehash: 515983182bb5f44c08e7d8531656a7a4fb49d5c6
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60725612"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064103"
 ---
 # <a name="learn-about-information-barriers-in-microsoft-365"></a>정보 장벽에 대해 Microsoft 365
 
@@ -51,7 +51,7 @@ Microsoft Teams, SharePoint 온라인 및 비즈니스용 OneDrive 장벽을 지
 
 ## <a name="what-happens-with-information-barriers"></a>정보 장벽으로 발생하는 일
 
-정보 장벽 정책이 적용된 경우 다른 특정 사용자와 파일을 통신하거나 공유하면 안되는 사용자는 해당 사용자를 찾거나, 선택하거나, 채팅하거나, 전화를 걸 수 없습니다. 정보 장벽을 통해 무단 통신 및 공동 작업을 방지하기 위한 검사가 진행됩니다. 
+정보 장벽 정책이 적용된 경우 다른 특정 사용자와 파일을 통신하거나 공유하면 안되는 사용자는 해당 사용자를 찾거나, 선택하거나, 채팅하거나, 전화를 걸 수 없습니다. 정보 장벽을 통해 무단 통신 및 공동 작업을 방지하기 위한 검사가 진행됩니다.
 
 정보 장벽은 온라인 및 Microsoft Teams(채팅 및 채널), SharePoint OneDrive. Microsoft Teams에서는 정보 장벽 정책에 따라 다음과 같은 종류의 무단 통신을 결정하고 금지합니다.
 
@@ -80,13 +80,14 @@ SharePoint Online 및 OneDrive 정보 장벽 정책은 다음과 같은 종류�
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-이제 정보 장벽이 롤아웃 중으로, 다음과 같은 구독에 포함됩니다.
+내부자 위험 관리를 시작하기 전에 Microsoft 365 추가 [](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 기능을 확인해야 합니다. 정보 장벽에 액세스하고 사용하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
 
-- Microsoft 365 E5/A5/A3/A1
-- Office 365 E5/A5/A3/A1
-- Office 365 Advanced Compliance
-- Microsoft 365 준수 E5/A5
-- Microsoft 365 내부자 위험 관리
+- Microsoft 365 E5/A5 구독(유료 또는 평가판)
+- Office 365 Enterprise E5 구독(유료 또는 평가판)
+- Office 365 A5 구독(유료 또는 평가판)
+- Office 365 Advanced Compliance 추가 기능(새 구독에서 더 이상 사용할 수 없음)
+- Microsoft 365 E3/A3 구독 + Microsoft 365 E5/A5 준수 추가 기능
+- Microsoft 365 E3/A3 구독 + Microsoft 365 E5/A5 내부자 위험 관리 추가 기능
 
 자세한 내용은 보안 Microsoft 365 규정 준수에 대한 [& 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)
 

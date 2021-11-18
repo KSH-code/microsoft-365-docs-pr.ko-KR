@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 사례를 분석할 때 문서 집합을 구성하는 데 사용할 수 있는 Advanced eDiscovery 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e1a8f2986c31cdf710d65532eb64394bc34d7a0b
-ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
+ms.openlocfilehash: dc1bd7b8a717d5f53514209fe50499844644f27b
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "60971982"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064466"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>다음의 검토 집합에서 데이터 Advanced eDiscovery
 
@@ -75,7 +75,7 @@ ms.locfileid: "60971982"
 포괄 형식 및 문서 고유성에 대한 자세한 내용은 에서 전자 메일 [스레딩을 Advanced eDiscovery.](email-threading-in-advanced-ediscovery.md)
 
 > [!NOTE]
-> 2021년 [11월](advanced-ediscovery-large-cases.md)4일  Advanced eDiscovery 형식의 공개 미리 보기에서 검토용 필터 쿼리는 2021년 11월 4일 Teams 만들어진 검토 집합에 대한 Teams 대화를 반환하지 않습니다. 이 문제가 해결되었습니다. 즉, 검토용 쿼리를  검토 집합에 다시 적용하면 모든 검토 대화가 포함되어 있기 때문에 필터 쿼리와 일치하는 더 Teams 수 있습니다.
+> Advanced eDiscovery [](advanced-ediscovery-large-cases.md)형식의 공개 미리 보기 동안 검토용  필터 쿼리는 2021년 11월 4일 전에 만들어진 검토 집합에 대한 Teams 또는 Yammer 대화를 반환하지 않습니다. 이 문제가 해결되었습니다. 즉, 큰 사례 형식을 사용하는 경우 검토용 쿼리를 검토 집합에 다시 적용하면 모든 Teams 또는 Yammer 쿼리와 일치하는 항목이 더 표시될 수 있습니다. 
 
 ## <a name="analytics-report"></a>분석 보고서
 

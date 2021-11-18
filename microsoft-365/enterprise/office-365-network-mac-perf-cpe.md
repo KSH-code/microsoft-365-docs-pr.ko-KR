@@ -3,7 +3,7 @@ title: Microsoft 365 네트워크 라우팅 정보
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/10/2021
+ms.date: 11/12/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,19 +14,16 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 라우팅 정보
-ms.openlocfilehash: 4781acd78e314592ca33cdad77e1f270e86e002c
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 84b16d696c5c99a7f917e8d1dacc6f1f27626f37
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60199912"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064406"
 ---
-# <a name="microsoft-365-informed-network-routing-preview"></a>Microsoft 365 네트워크 라우팅(미리 보기)
+# <a name="microsoft-365-informed-network-routing"></a>Microsoft 365 네트워크 라우팅 정보
 
 정보 네트워크 라우팅은 Microsoft 서비스 끝점에 대한 네트워크 연결을 최적화하고 개선하기 위해 다양한 Microsoft 365 응용 프로그램을 타사 SD-WAN(소프트웨어 정의 네트워크) 솔루션과 통합하는 기능입니다. 최적화된 SD-WAN 연결로 인해 사용자 환경 및 성능이 향상될 수 있습니다.
-
->[!IMPORTANT]
->Microsoft 365 네트워크 라우팅이 현재 미리 보기 상태입니다. 지원을 받는 지침을 포함하여 이 미리 보기에 대한 자세한 내용은 Microsoft 365 네트워크 라우팅 공개 미리 보기를 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=2151565)
 
 ## <a name="overview"></a>개요
 
@@ -75,11 +72,11 @@ Microsoft는 다양한 파트너와 협력하여 정보를 Microsoft 365 네트�
 
 왼쪽 [Microsoft 365 관리 센터](https://admin.microsoft.com/)창에서 상태  > 네트워크 연결을 선택합니다.
 
-관리 센터의 이 섹션에서는 조직에 대한 집계된 네트워크 연결 메트릭과 연결을 개선하는 방법에 대한 지침을 제공합니다. 관리 [센터에서](office-365-network-mac-perf-overview.md) 사용할 수 있는 이러한 기능에 대한 자세한 내용은 Microsoft 365 관리 센터의 네트워크 연결(미리 보기)을 참조하세요.
+관리 센터의 이 섹션에서는 조직에 대한 집계된 네트워크 연결 메트릭과 연결을 개선하는 방법에 대한 지침을 제공합니다. 관리 센터에서 사용할 수 Microsoft 365 관리 기능에 대한 자세한 내용은 Microsoft 365 관리 [센터의](office-365-network-mac-perf-overview.md) 네트워크 연결을 참조하세요.
 
 **SD-WAN** 설정 > 솔루션을 선택하여 정보 제공된 네트워크 라우팅 구성 창을 열 수 있습니다. 관리 센터 아래에 **설정** 옵션은 관리 센터의 일반 네트워크 연결 지침에 적용될 수 있으며, 정보 제공된 네트워크 라우팅을 사용하도록 설정할 필요는 없습니다.
 
-구성 창에서 **SD-WAN 솔루션 추가(미리 보기)를 선택합니다.**
+구성 창에서 **SD-WAN 솔루션 추가를 선택합니다.**
 
 ### <a name="step-2-select-your-sd-wan-solution-and-data-storage-location"></a>2단계: SD-WAN 솔루션 및 데이터 저장소 위치 선택
 
@@ -162,15 +159,12 @@ SD-WAN 솔루션 설정을 다시 설정하여 전체 테넌트에 대해 정보
 
 Microsoft와 SD-WAN 솔루션 공급자 간에 교환되는 데이터는 정보 네트워크 라우팅을 처음 사용하도록 설정하는 동안 선택한 데이터 저장소 위치에 저장됩니다. 데이터 저장소 위치 옵션은 데이터가 Microsoft Azure 지역이 포함된 지리적 영역을 나타내며,
 
->[!NOTE]
->미리 보기 단계에서 사용할 수 있는 유일한 데이터 저장소 위치는 **북미입니다.** 정보 네트워크 라우팅이 일반적이기 전에 추가 데이터 저장소 위치를 사용할 수 있습니다.
-
 데이터는 최대 30일 동안 이 위치에 보존됩니다. 사용하지 않도록 설정하면 남은 모든 데이터가 이 30일 보존 기간 내에 제거됩니다.
 
 이 위치의 데이터는 선택한 SD-WAN 솔루션과 교환하며 구성된 SD-WAN 솔루션의 위치가 같은 지역에 있지 않을 수 있습니다. 고객은 SD-WAN 솔루션 공급자와 함께 프로덕션 배포 전에 데이터 저장소 위치 요구 사항을 평가해야 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[네트워크 연결의 Microsoft 365 관리 센터(미리 보기)](office-365-network-mac-perf-overview.md)
+[네트워크 연결의 Microsoft 365 관리 센터](office-365-network-mac-perf-overview.md)
 
-[Microsoft 365 네트워크 연결 위치 서비스(미리 보기)](office-365-network-mac-location-services.md)
+[Microsoft 365 연결 위치 서비스](office-365-network-mac-location-services.md)

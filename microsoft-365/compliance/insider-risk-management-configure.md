@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 ms.custom: admindeeplinkCOMPLIANCE
-ms.openlocfilehash: 2ab8d01ab8169e9da11d25f8f118d81ceffcfdd4
-ms.sourcegitcommit: ab5368888876d8796da7640553fc8426d040f470
+ms.openlocfilehash: 4764243e89fe5c8cc6f699a3ee917fa9ba20a610
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60787145"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064454"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -36,15 +36,9 @@ ms.locfileid: "60787145"
 
 내부자 위험 관리를 시작하기 전에 Microsoft 365 추가 [](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 기능을 확인해야 합니다. 내부자 위험 관리에 액세스하고 사용하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
 
-- Microsoft 365 E5 구독(유료 또는 평가판)
-- Microsoft 365 E3 구독 + Microsoft 365 E5 Compliance 추가 기능
-- Microsoft 365 E3 + Microsoft 365 E5 내부자 위험 관리 추가 기능
-- Microsoft 365 A5 구독(유료 또는 평가판)
-- Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
-- Microsoft 365 G5 구독(유료 또는 평가판 버전)
-- Microsoft 365 G3 구독 + Microsoft 365 G5 규정 준수 추가 기능
-- Microsoft 365 G3 구독 + Microsoft 365 G5 내부 위험 관리 추가 기능
+- Microsoft 365 E5/A5/G5 구독(유료 또는 평가판)
+- Microsoft 365 E3/A3/G3 구독 + Microsoft 365 E5/A5/G5 준수 추가 기능
+- Microsoft 365 E3/A3/G3 구독 + Microsoft 365 E5/A5/G5 내부자 위험 관리 추가 기능
 - Office 365 E3 구독 + Enterprise Mobility 및 Security E3 + Microsoft 365 E5 Compliance 추가 기능
 
 내부자 위험 관리 정책에 포함된 사용자에게 위의 라이선스 중 하나를 할당해야 합니다.

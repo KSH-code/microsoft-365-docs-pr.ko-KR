@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: 035ed3401323ae1221c7e7afd6f6c7d34b78aea4
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 99462adb9deb19ec54d9679451877b5398c9c820
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60172098"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064238"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>포털 시작 스케줄러를 SharePoint 포털 시작
 
@@ -40,9 +40,8 @@ ms.locfileid: "60172098"
 
 > [!NOTE]
 >
-> - 이 기능은 2021년 **5월부터** 대상 릴리스 고객을 위한 SharePoint 커뮤니케이션 사이트 홈 페이지의 설정 패널에서 액세스할 수 있으며 2021년 7월까지 모든 고객이 사용할 수 있습니다.
-> - 이 도구의 PowerShell 버전은 현재 사용할 수 있습니다.
-> - 이 기능은 최신 통신 사이트에서만 사용할 SharePoint 있습니다.
+> - 이 기능은 설정 사이트의  홈 페이지에 있는 SharePoint 액세스할 수 있습니다.
+> - 이 기능은 사이트 페이지를 사용하는 최신 SharePoint 사이트에서만 사용할 수 있습니다. 이 기능은 포털에 사용할 기본 권장 유형이기 때문에 사용할 수 있습니다.
 > - 포털 시작을 사용자 지정하고 예약하려면 사이트에 대한 사이트 소유자 권한이 있어야 합니다.
 > - 시작은 최소 7일 전에 예약해야 합니다. 각 웨이브는 1~7일 동안 지속될 수 있습니다.
 > - 필요한 물결 수는 예상되는 사용자 수에 따라 자동으로 결정됩니다.
@@ -93,7 +92,7 @@ ms.locfileid: "60172098"
    - 사용자 수가 10k명 미만: 2회
    - 10k ~ 30k 사용자: 세 가지 파도
    - 30k+ ~ 100k 사용자: 5회
-   - 사용자 수가 100k명 이상인 경우 포털 시작 섹션에 나열된 단계를 통해 5개의 단계로 Microsoft에 문의하세요.
+   - 사용자 수가 100k명 이상인 경우 포털 시작 섹션에 나열된 단계를 통해 5개의 단계로 Microsoft 지원에 문의하세요.
 
 5. 그런 다음 필요한 **리디렉션 유형을** 파악합니다.
 
@@ -128,12 +127,12 @@ ms.locfileid: "60172098"
 
 > [!NOTE]
 >
-> - 이 프로세스는 다음 요구 사항을 충족하는 경우만 따라야 합니다.
+> - 이 프로세스는 다음 요구 사항을 충족하는 경우에만 따라야 합니다.
 > - 시작 페이지가 완료되었습니다.
 > - [포털 상태 지침이](https://aka.ms/portalhealth) 따랐습니다.
 > - 시작 날짜는 14일 이내입니다.
 
-**다음 단계를 따릅니다:**
+**다음 단계를 따릅니다.**
 
 1. 관리자는 관리 센터에서 도움말 쿼리를 채우는 다음 링크를 클릭합니다. 
 
@@ -148,7 +147,8 @@ ms.locfileid: "60172098"
 5. 티켓이 생성되면 다음과 같은 정보를 고객 지원팀으로 보내주세요.
    - 포털 URL
    - 필요한 사용자 수
-   - 예상 시작 일정
+   - 예상 시작 일정(웨이브 크기 자세히 설명)
+   - 페이지 진단 도구를 사용하여 시작 페이지의 "HAR 파일 내보내기" 및 지원과 파일 공유
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>예약된 포털 시작 변경
 
@@ -185,7 +185,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
     > 
     > 다운로드 센터 페이지에서 언어를 선택하고 다운로드 단추를 클릭합니다. x64 및 x86 .msi 파일 다운로드 중에서 선택하라는 메시지가 표시됩니다. 64 비트 버전의 Windows를 실행하는 경우 x64 파일을, 32 비트 버전을 실행하는 경우 x86 파일을 다운로드합니다. 버전을 모르는 경우에는 [어떠한 Windows 운영 체제 버전을 실행 중인가요?](https://support.microsoft.com/help/13443/windows-which-operating-system)를 참조하세요. 파일을 다운로드한 후 파일을 실행하고 설정 마법사의 단계를 따릅니다.
 
-2. Microsoft 365에서 [전역 관리자 또는 SharePoint 관리자](/sharepoint/sharepoint-admin-role)로 SharePoint에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
+2. Microsoft 365에서 [전역 관리자 또는 SharePoint 관리자](/sharepoint/sharepoint-admin-role)로 SharePoint에 연결합니다. 방법을 알아보려면 [SharePoint Online Management Shell 시작하기](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)를 참조하세요.
 
 ### <a name="view-any-existing-portal-launch-setups"></a>기존 포털 시작 설정 보기
 
@@ -218,7 +218,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
    ```
 
-   예제:
+   예:
 
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType Bidirectional -RedirectUrl "https://contoso.sharepoint.com/teams/oldsite" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
@@ -239,7 +239,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
    ```
 
-   예제:
+   예:
 
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType ToTemporaryPage -RedirectUrl "https://portal.contoso.com/UnderConstruction.aspx" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
@@ -278,7 +278,7 @@ SharePoint 포털 시작 스케줄러 도구는 원래 SharePoint [PowerShell을
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 유효성을 검사합니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [SharePoint Online에서 포털 시작 롤아웃 계획](./planportallaunchroll-out.md)
 

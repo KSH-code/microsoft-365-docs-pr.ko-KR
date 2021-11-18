@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 856fc5b076189e68669c75d740c7320f418597f9
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 158eb05c5c96712175dba6ba0b3a1b6011a26348
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555263"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61063348"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>엔드포인트용 Microsoft Defender(미국 정부 고객용)
 
@@ -47,10 +47,10 @@ Azure US Government 환경에서 구축된 미국 정부 고객을 위한 끝점
 
 |GCC|GCC 높음|DoD|
 |---|---|---|
-|Microsoft 365 GCC G5|Microsoft 365 E5 대한 GCC 높음|Microsoft 365 DOD용 G5|
-|Microsoft 365 G5 보안 GCC|Microsoft 365 G5 High용 GCC 보안|Microsoft 365 DOD용 G5 보안|
+|Microsoft 365 GCC G5|Microsoft 365 E5 대한 GCC 높음|Microsoft 365 G5 for DOD|
+|Microsoft 365 G5 보안 GCC|Microsoft 365 High를 위한 GCC G5 보안|Microsoft 365 G5 Security for DOD|
 |끝점용 Microsoft Defender - GCC|Microsoft Defender for Endpoint for GCC High|DOD용 끝점용 Microsoft Defender|
-|Windows 10 Enterprise E5 GCC|Windows 10 Enterprise E5 for GCC High|Windows 10 Enterprise DOD용 E5|
+|Windows 10 Enterprise E5 GCC|Windows 10 Enterprise E5 for GCC High|Windows 10 Enterprise E5 for DOD|
 |
 
 ### <a name="server-licensing"></a>서버 라이선스
@@ -75,10 +75,12 @@ Azure US Government 환경에서 구축된 미국 정부 고객을 위한 끝점
 
 |고객 유형|포털 URL|
 |---|---|
-|GCC|<https://gcc.securitycenter.microsoft.us>|
+|GCC|<https://security.microsoft.com>|
 |GCC 높음|<https://securitycenter.microsoft.us>|
 |DoD|<https://securitycenter.microsoft.us>|
 |
+> [!NOTE]
+> 파트너가 GCC Microsoft Defender에서 끝점 상업용 Microsoft Defender로 이동하는 GCC 끝점 상용 데이터에 액세스하는 데 https://transition.security.microsoft.com 사용할 수 있습니다.
 
 ## <a name="endpoint-versions"></a>끝점 버전
 
@@ -109,10 +111,10 @@ Windows Server 2012 R2(최신) <sup>2</sup>|![예.](images/svg/check-yes.svg) <b
 Windows Server 2016(레거시) <sup>3</sup>|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 Windows Server 2012 R2(레거시) <sup>3</sup>|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 Windows Server 2008 R2 SP1(레거시) <sup>3</sup>|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
-Windows 8.1 Enterprise|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
-Windows 8 Pro|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
-Windows 7 SP1 Enterprise|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
-Windows 7 SP1 Pro|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
+Windows 8.1 Enterprise(레거시) <sup>3</sup>|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
+Windows 8 Pro(레거시) <sup>3</sup>|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
+Windows 7 SP1 Enterprise(레거시) <sup>3</sup>|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
+Windows 7 SP1 Pro(레거시) <sup>3</sup>|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 Linux|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 macOS|![예.](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg)
 Android|![아니요.](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중
@@ -124,11 +126,11 @@ iOS|![아니요.](images/svg/check-no.svg) 개발 중|![아니요](images/svg/ch
 >
 > <sup>2</sup> Windows [2016 및 2012 R2에](configure-server-endpoints.md#new-functionality-in-the-modern-unified-solution-for-windows-server-2012-r2-and-2016-preview)대한 통합 최신 솔루션에 대해 자세히 알아보십시오. 이전에 MMA를 사용하여 서버를 온보드한 경우 서버 [](server-migration.md) 마이그레이션에 제공된 지침을 따라 새 솔루션으로 마이그레이션합니다.
 >
-> <sup>3</sup> [Microsoft Monitoring Agent](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma) 사용하는 경우 설치 마법사를 사용하는 경우 또는 명령줄 또는 스크립트를 [](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)사용하는 경우 "Azure [](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) Cloud"에서 "Azure US Government"를 선택해야 합니다. "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" 매개 변수를 1로 설정해야 합니다. [](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
+> <sup>3</sup> [Microsoft Monitoring Agent](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma) 사용하는 경우 설치 마법사를 사용하는 경우 또는 명령줄 또는 스크립트를 [](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)사용하는 경우 "Azure [](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) Cloud"에서 "Azure US Government"를 선택해야 합니다. "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" 매개 변수를 1로 설정해야 합니다. [](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) <br /> 최소 MMA 지원 버전은 10.20.18029(2020년 3월)입니다.
 
-### <a name="os-versions-when-using-azure-defender-for-servers"></a>서버용 Azure Defender를 사용하는 경우 OS 버전
+### <a name="os-versions-when-using-microsoft-defender-for-cloud"></a>클라우드용 Microsoft Defender를 사용하는 경우 OS 버전
 
-다음 OS 버전은 [서버용 Azure Defender를 사용할 때 지원됩니다.](/azure/security-center/security-center-wdatp)
+클라우드용 Microsoft Defender를 사용하는 경우 다음 OS [버전이 지원됩니다.](/azure/security-center/security-center-wdatp)
 
 <br />
 
@@ -187,6 +189,7 @@ Windows Server 2008 R2 SP1|![예.](images/svg/check-yes.svg)|![예](images/svg/c
 
 |기능 이름|GCC|GCC 높음|DoD|
 |---|:---:|:---:|:---:|
+|네트워크 평가|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
 |네트워크 검색|![예](images/svg/check-yes.svg)|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
 |웹 컨텐츠 필터링|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|![아니요](images/svg/check-no.svg) 개발 중|
 |통합: Azure Sentinel|![예](images/svg/check-yes.svg)|![예](images/svg/check-yes.svg) 경고 <br /> ![예](images/svg/check-yes.svg) 인시던트 & 데이터: 비공개 미리 보기|![예](images/svg/check-yes.svg) 경고 <br /> ![예](images/svg/check-yes.svg) 인시던트 & 데이터: 비공개 미리 보기|

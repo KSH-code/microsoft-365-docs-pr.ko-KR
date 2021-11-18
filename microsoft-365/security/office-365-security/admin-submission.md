@@ -15,15 +15,16 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkDEFENDER
 description: 관리자는 Microsoft 365 Defender 포털에서 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 전자 메일 첨부 파일을 다시 검색하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 76eb0f56ca5cc5f4554a03fa3e11bbc6f9f684e0
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: 42cac5be8879b7db49175800b9c2b297bc91c569
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60705060"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064418"
 ---
 # <a name="use-the-submissions-portal-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>제출 포털을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -68,7 +69,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Microsoft에 의심스러운 콘텐츠 보고
 
-1. Microsoft 365 Defender 포털에서 전자 메일 &  \> **제출로 이동하세요.**
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 &  \> **제출으로 이동하세요.**
 
 2. 제출 **페이지에서** 분석용 **제출** 탭이 선택되어 있는지 확인한 다음 광고 ![ 아이콘을 클릭합니다.](../../media/m365-cc-sc-create-icon.png) **분석을 위해 Microsoft에 제출합니다.**
 
@@ -76,6 +77,19 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
    > [!NOTE]
    > 클라우드에서 데이터가 환경을 떠날 수 없는 경우 파일 및 URL 전송을 사용할 수 없습니다. 파일 또는 URL을 선택할 수 있는 능력은 회색으로 표시됩니다.
+
+### <a name="notify-users-from-within-the-portal"></a>포털 내에서 사용자에게 알림
+
+1. Microsoft 365 Defender 포털에서 의 제출 **페이지로** <https://security.microsoft.com/reportsubmission> 이동합니다.
+
+2. 사용자가 **보고한 메시지를** 선택한 다음 표시하고 알릴 메시지를 선택합니다.
+
+3. **다음으로 표시 및** 알림 드롭다운을 선택한 다음 피싱 또는 정크를 찾을 수 **없는** 위협 \>  없음을 **선택합니다.**
+
+   > [!div class="mx-imgBorder"]
+   > ![포털에서 메시지 보내기](../../media/admin-review-send-message-from-portal.png)
+
+보고된 메시지는 가짓 긍정 또는 거짓 부정으로 표시됩니다. 전자 메일 알림은 포털 내에서 메시지를 보고한 사용자에게 자동으로 전송됩니다.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Microsoft에 질문이 있는 전자 메일 제출
 
@@ -134,7 +148,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 ## <a name="view-admin-submissions-to-microsoft"></a>Microsoft에 대한 관리자 제출 보기
 
-1. Microsoft 365 Defender 포털에서 전자 메일 &  \> **제출로 이동하세요.**
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 &  \> **제출으로 이동하세요.**
 
 2. 제출 **페이지에서** 분석을 위해 제출된 **탭이** 선택되어 있는지 확인하십시오.
 
@@ -197,7 +211,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 보고서 메시지 추가 기능, 피싱 보고 [](enable-the-report-phish-add-in.md)추가 기능 또는 웹용 Outlook 기본 제공 [](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)보고를 사용하는 경우 사용자가 보고하는 메시지를 사용자 보고 탭에서 볼 수 **있습니다.** [](enable-the-report-message-add-in.md)
 
-1. Microsoft 365 Defender 포털에서 전자 메일 &  \> **제출로 이동하세요.**
+1. Microsoft 365 Defender <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">포털에서</a>전자 메일 &  \> **제출으로 이동하세요.**
 
 2. 제출 **페이지에서** 사용자가 보고한 **메시지 탭을** 선택합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 샘플 모델을 통해 문서 이해 모델 알아보기
+title: Microsoft 365의 샘플 모델을 통해 문서 이해 모델을 SharePoint Syntex
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-syntex
 ms.localizationpriority: medium
 description: 샘플 모델을 통해 문서 이해 모델에 대해 알아봅니다.
-ms.openlocfilehash: f17f768d5c56b036662ea717f394129c28935bcb
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 51eb92a2b6a511dd5b1340c9c435f63dd56299e5
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60172110"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064430"
 ---
-# <a name="learn-about-document-understanding-models-through-a-sample-model"></a>샘플 모델을 통해 문서 이해 모델 알아보기
+# <a name="learn-about-document-understanding-models-through-the-sample-model-in-microsoft-sharepoint-syntex"></a>Microsoft 365의 샘플 모델을 통해 문서 이해 모델을 SharePoint Syntex
 
-Microsoft SharePoint Syntex에서 제공하는 샘플 모델을 사용하여 사용자가 모델을 직접 작성하는 방법에 대해 자세히 알아볼 수 있습니다. 샘플 모델을 사용하여 분류자, 추출자 및 설명자와 같은 모델 구성 요소를 검토할 수도 있습니다. 샘플 파일을 사용하여 모델을 훈련 할 수도 있습니다.
+SharePoint Syntex 모델을 만드는 방법을 보다 잘 이해할 수 있도록 검사하는 데 사용할 수 있는 샘플 모델을 제공합니다. 샘플 모델을 사용하여 분류자, 추출자 및 설명자와 같은 모델 구성 요소를 검토할 수도 있습니다. 샘플 파일을 사용하여 모델을 훈련 할 수도 있습니다.
 
 ## <a name="import-the-sample-model"></a>샘플 모델 가져오기
 
@@ -42,6 +42,9 @@ Microsoft SharePoint Syntex에서 제공하는 샘플 모델을 사용하여 사
 - 다른 추출기 추가 예를 들어 *할인율* 을 추출 하는 항목을 추가합니다.
 - 문서 라이브러리에 모델을 적용하고 교육 파일을 업로드 하여 모델이 파일을 분류하고 데이터를 추출하는 방법을 확인합니다.
 
+## <a name="get-sample-models"></a>샘플 모델 사용
+
+문서 이해 [모델의 다양한 사용 패턴을 SharePoint Syntex](https://github.com/pnp/syntex-samples)커뮤니티 샘플이 포함된 샘플 리포지토리의 샘플 리포지토리에 액세스할 수 있습니다. 이 리포지토리의 샘플에는 문서 이해 모델 파일과 모델을 학습하는 데 사용되는 파일이 모두 포함되어 있습니다. 가져온 후 이러한 모델을 사용하여 파일을 처리하고 분류자 및 추출기를 보고 편집할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)

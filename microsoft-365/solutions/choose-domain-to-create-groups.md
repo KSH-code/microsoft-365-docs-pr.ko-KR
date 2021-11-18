@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 recommendations: false
 description: PowerShell을 사용하여 전자 메일 주소 정책을 구성하여 Microsoft 365 그룹을 만들 때 사용할 도메인을 선택하는 방법을 학습합니다.
-ms.openlocfilehash: f909decd81c94ea04adb3a714dd1dfd282e7f40e
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: 31b84304643190f343ae9ee74a947ecf6741f135
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60149565"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61063315"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>그룹을 만들 때 사용할 도메인 Microsoft 365 선택
 
@@ -121,7 +121,7 @@ EAP를 변경하는 경우 이미 프로비전된 그룹에는 영향이 없습�
     
 ## <a name="related-content"></a>관련 콘텐츠
 
-[공동 작업 거버넌스 계획](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step) 단계별(문서)
+[공동 작업 거버넌스 계획 권장](collaboration-governance-overview.md#collaboration-governance-planning-recommendations) 사항(문서)
 
 [공동 작업 거버넌스 계획](collaboration-governance-first.md) 만들기(문서)
 

@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-overview
-ms.openlocfilehash: 5028b2f577d5eb67a3e1316048878d1020a7e53c
-ms.sourcegitcommit: be074f57e33c811bb3857043152825209bc8af07
+ms.openlocfilehash: d9608db071f347b16b36ca3e749012d8a9955ac0
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60334677"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61063475"
 ---
 # <a name="insider-risk-solutions-in-microsoft-365"></a>Microsoft 365의 참가자 위험 솔루션
 
@@ -33,18 +33,18 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 
 | 위험 아이콘 | 위험 | 커뮤니케이션 규정 준수 | 내부자 위험 관리 | 정보 장벽 | 권한이 부여된 액세스 관리 |
 | :---- | :-------- | :--------------------------- | :-------------------------- |:-------------------------| :--------------------------------|
-| ![데이터 유출 아이콘입니다.](../media/ir-risk-data-spillage.png)| 데이터 유출 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |  |
-| ![기밀 위반 아이콘.](../media/ir-risk-confidentiality-violations.png)| 기밀 위반 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |
-| ![IP 도난 아이콘.](../media/ir-risk-ip-theft.png)| IP 도난 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |
-| ![직장 폭력 아이콘.](../media/ir-risk-workplace-violence.png)| 직장 폭력 | ![않음](../media/check-mark.png) |  |  |  |
-| ![사기/도둑 아이콘.](../media/ir-risk-fraud.png)| 사기 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |  |
-| ![정책 위반 아이콘입니다.](../media/ir-risk-policy-violations.png)| 정책 위반 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |
-| ![내부자 거래/핸드사이크 아이콘.](../media/ir-risk-insider-trading.png)| 내부자 거래 | ![않음](../media/check-mark.png) |  |  |  |
-| ![관심 있는 충돌 아이콘입니다.](../media/ir-risk-conflicts-of-interest.png)| 이해 상충 | ![않음](../media/check-mark.png) |  | ![않음](../media/check-mark.png) |  |
-| ![중요한 데이터 누수/장치 아이콘입니다.](../media/ir-risk-sensitive-data-leaks.png)| 중요한 데이터 누수 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |  |
-| ![직장 희롱/사람 아이콘.](../media/ir-risk-workplace-harassment.png)| 직장 희롱 | ![않음](../media/check-mark.png) |  |  |  |
-| ![보안 위반 아이콘.](../media/ir-risk-security-violations.png)| 보안 위반 |  | ![않음](../media/check-mark.png) |  | ![않음](../media/check-mark.png) |
-| ![규정 준수 위반 아이콘입니다.](../media/ir-risk-regulatory-compliance-violations.png)| 규정 준수 위반 | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) | ![않음](../media/check-mark.png) |  |
+| ![데이터 유출 아이콘입니다.](../media/ir-risk-data-spillage.png)| 데이터 유출 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |  |
+| ![기밀 위반 아이콘.](../media/ir-risk-confidentiality-violations.png)| 기밀 위반 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |
+| ![IP 도난 아이콘.](../media/ir-risk-ip-theft.png)| IP 도난 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |
+| ![직장 폭력 아이콘.](../media/ir-risk-workplace-violence.png)| 직장 폭력 | ![지원](../media/check-mark.png) |  |  |  |
+| ![사기/도둑 아이콘.](../media/ir-risk-fraud.png)| 사기 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |  |
+| ![정책 위반 아이콘입니다.](../media/ir-risk-policy-violations.png)| 정책 위반 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
+| ![내부자 거래/핸드사이크 아이콘.](../media/ir-risk-insider-trading.png)| 내부자 거래 | ![지원](../media/check-mark.png) |  |  |  |
+| ![관심 있는 충돌 아이콘입니다.](../media/ir-risk-conflicts-of-interest.png)| 이해 상충 | ![지원](../media/check-mark.png) |  | ![지원](../media/check-mark.png) |  |
+| ![중요한 데이터 누수/장치 아이콘입니다.](../media/ir-risk-sensitive-data-leaks.png)| 중요한 데이터 누수 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |  |
+| ![직장 희롱/사람 아이콘.](../media/ir-risk-workplace-harassment.png)| 직장 희롱 | ![지원](../media/check-mark.png) |  |  |  |
+| ![보안 위반 아이콘.](../media/ir-risk-security-violations.png)| 보안 위반 |  | ![지원](../media/check-mark.png) |  | ![지원](../media/check-mark.png) |
+| ![규정 준수 위반 아이콘입니다.](../media/ir-risk-regulatory-compliance-violations.png)| 규정 준수 위반 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |
 
 ## <a name="microsoft-365-insider-risk-solutions"></a>Microsoft 365 참가자 위험 솔루션
 
@@ -54,15 +54,9 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 
 커뮤니케이션 규정 준수는 조직에서 부적절한 메시지를 검색, 캡처 및 처리하도록 하여 통신 위험을 최소화하는 데 도움이 됩니다. 통신 규정 준수는 다음 구독에서 사용할 수 있습니다.
 
-- Microsoft 365 E5 구독(유료 또는 평가판)
-- Microsoft 365 E3 구독 + Microsoft 365 E5 Compliance 추가 기능
-- Microsoft 365 E3 + Microsoft 365 E5 내부자 위험 관리 추가 기능
-- Microsoft 365 A5 구독(유료 또는 평가판)
-- Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
-- Microsoft 365 G5 구독(유료 또는 평가판 버전)
-- Microsoft 365 G5 구독 + Microsoft 365 G5 준수 추가 기능
-- Microsoft 365 G5 구독 + Microsoft 365 G5 내부자 위험 관리 추가 기능
+- Microsoft 365 E5/A5/G5 구독(유료 또는 평가판)
+- Microsoft 365 E3/A3/G5 구독 + Microsoft 365 E5/A5/G5 준수 추가 기능
+- Microsoft 365 E3/A3/G5 구독 + Microsoft 365 E5/A5/G5 내부자 위험 관리 추가 기능
 - Office 365 Enterprise E5 구독(유료 또는 평가판)
 - Office 365 A5 구독(유료 또는 평가판)
 - Office 365 Enterprise E3 구독 + Office 365 Advanced Compliance 추가 기능(더 이상 새 구독에는 사용할 수 없음)
@@ -73,15 +67,9 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 
 내부자 위험 관리는 다음 구독에서 사용할 수 있습니다.
 
-- Microsoft 365 E5 구독(유료 또는 평가판)
-- Microsoft 365 E3 구독 + Microsoft 365 E5 Compliance 추가 기능
-- Microsoft 365 E3 + Microsoft 365 E5 내부자 위험 관리 추가 기능
-- Microsoft 365 A5 구독(유료 또는 평가판)
-- Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
-- Microsoft 365 G5 구독(유료 또는 평가판 버전)
-- Microsoft 365 G3 구독 + Microsoft 365 G5 규정 준수 추가 기능
-- Microsoft 365 G3 구독 + Microsoft 365 G5 내부 위험 관리 추가 기능
+- Microsoft 365 E5/A5/G5 구독(유료 또는 평가판)
+- Microsoft 365 E3/A3/G3 구독 + Microsoft 365 E5/A5/G5 준수 추가 기능
+- Microsoft 365 E3/A3/G3 구독 + Microsoft 365 E5/A5/G5 내부자 위험 관리 추가 기능
 - Office 365 E3 구독 + Enterprise Mobility 및 Security E3 + Microsoft 365 E5 Compliance 추가 기능
 
 ### <a name="information-barriers"></a>정보 장벽
@@ -90,15 +78,12 @@ Microsoft 365 방지 기능은 내부자 위험 제품 및 솔루션에 디자�
 
 정보 장벽은 다음 구독에서 사용할 수 있습니다.
 
-- Microsoft 365 E5 구독(유료 또는 평가판)
-- Microsoft 365 A5 구독(유료 또는 평가판)
+- Microsoft 365 E5/A5 구독(유료 또는 평가판)
 - Office 365 Enterprise E5 구독(유료 또는 평가판)
 - Office 365 A5 구독(유료 또는 평가판)
 - Office 365 Advanced Compliance 추가 기능(새 구독에서 더 이상 사용할 수 없음)
-- Microsoft 365 E3 구독 + Microsoft 365 E5 Compliance 추가 기능
-- Microsoft 365 E3 + Microsoft 365 E5 내부자 위험 관리 추가 기능
-- Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
-- Microsoft 365 A3 + Microsoft 365 A5 내부자 위험 관리 추가 기능
+- Microsoft 365 E3/A3 구독 + Microsoft 365 E5/A5 준수 추가 기능
+- Microsoft 365 E3/A3 구독 + Microsoft 365 E5/A5 내부자 위험 관리 추가 기능
 
 ### <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
 

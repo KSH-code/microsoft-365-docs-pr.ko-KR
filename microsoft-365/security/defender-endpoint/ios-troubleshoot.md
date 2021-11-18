@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9245062a0906186ce779383725cecc8209655c6f
-ms.sourcegitcommit: e09ced3e3628bf2ccb84d205d9699483cbb4b3b0
+ms.openlocfilehash: 144cc0159fbd717015a16251f21ac32d0601fcf4
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60882756"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064127"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>iOS의 엔드포인트용 Microsoft Defender에서 문제 해결 및 FAQ에 대한 답변 찾기
 
@@ -99,6 +99,12 @@ Apple iOS는 동시에  활성화하기 위해 여러 장치 전체의 VPN을 �
 ## <a name="data-and-privacy"></a>데이터 및 개인 정보
 
 수집된 데이터 및 개인 정보 보호에 대한 자세한 내용은 개인 정보 보호 [정보 - iOS의 끝점용 Microsoft Defender를 참조하세요.](ios-privacy.md)
+
+## <a name="connectivity-issue-on-cellular-network"></a>셀룰러 네트워크의 연결 문제
+
+셀룰러 네트워크에서 인터넷 연결 문제가 있는 경우 Microsoft Defender for Endpoint에서 셀룰러 데이터를 사용하도록 설정되어 있는지 확인합니다. 설정 앱 > MS Defender > "셀룰러 데이터"가 MS Defender에 대해 사용하도록 설정되어 있는지 확인합니다.
+
+Airplane 모드를 켜고 끄면 문제를 해결하는 데 도움이 되지 않습니다. 그래도 문제가 계속되면 [로그를 보내주시고.](ios-troubleshoot.md#send-in-app-feedback)
 
 ## <a name="issues-on-supervised-devices-with-content-filter-profile-installed"></a>콘텐츠 필터 프로필이 설치된 감독되는 디바이스의 문제
 
