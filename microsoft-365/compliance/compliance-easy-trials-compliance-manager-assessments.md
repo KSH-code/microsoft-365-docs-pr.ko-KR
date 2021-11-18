@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 프리미엄 평가 평가판 정보.
-ms.openlocfilehash: 3ef0cbf795c434018d049998744fe76aa222fbe2
-ms.sourcegitcommit: bf3965b46487f6f8cf900dd9a3af8b213a405989
+ms.openlocfilehash: ec7dec74e8f90b13bd68eb8a6e13917d9fe18b0d
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60677172"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61063300"
 ---
 # <a name="about-the-free-trial-for-microsoft-compliance-manager-premium-assessments"></a>Microsoft 준수 관리자 프리미엄 평가 무료 평가판 정보
 
@@ -38,6 +38,9 @@ Microsoft 365 규정 준수 평가판의 [사용 약관](terms-conditions.md)을
 이 프리미엄 평가 평가판은 상업용 라이선스로 준수 관리자를 사용하는 조직에서 사용할 수 있습니다. 자세한 GCC 및 평가판 옵션에 대한 자세한 내용은 [준수 관리자 템플릿 작업](compliance-manager-templates.md)을 참조하세요.
 
 준수 관리자 기능에 대한 모든 액세스 권한은 준수 관리자에 대한 라이선스 계약에 따라 달라질 수 있습니다. 준수 관리자를 포함하여 무료 규정 준수 평가판에 대한 자세한 내용은 [Microsoft 365 규정 준수 무료 평가판 정보](compliance-easy-trials.md)를 참조하세요.
+
+> [!NOTE]
+> 평가판 등록을 용이하게 하려면 Microsoft 365 관리 센터 설정을 확인하세요. Microsoft 365 관리 센터에서 **설정 > 조직 설정 > 서비스** 페이지로 이동하고 **사용자 소유 앱 및 서비스** 를 선택합니다. 그런 다음 사용자가 조직을 대신하여 평가판을 시작할 수 있도록 확인란을 선택합니다. 약 2분 후에 설정이 완료되면 돌아가서 확인란을 선택 취소하여 이 설정을 비활성화할 수 있습니다. **청구 > 서비스 구매** 페이지로 이동하고 규정 준수 관리자 프리미엄 평가 평가판을 검색하여 조직 설정을 조정하지 않고 평가판을 시작할 수도 있습니다.
 
 ## <a name="template-licensing"></a>템플릿 라이선스
 

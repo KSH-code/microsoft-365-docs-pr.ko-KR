@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: a284ec91151028e30af414b85c4fff66658c23e9
-ms.sourcegitcommit: 8eca41cd21280ffcb1f50cafce7a934e5544f302
+ms.openlocfilehash: 387dc9074808c6ee463b2402e98358d77cf1d24b
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60950596"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064054"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -582,6 +582,10 @@ eDiscovery 보류가 적용되는 항목도 보존의 첫 번째 원칙에 속�
     - 지정된 기간 후에 사용자의 기본 사서함에서 보관 사서함으로 전자 메일을 자동으로 이동하는 [보관 사서함](enable-archive-mailboxes.md)에 대한 보관 정책입니다. 보관 정책(모든 설정 포함)은 사용자의 기본 및 보관 사서함에 적용되는 Microsoft 365 보존 정책과 함께 사용할 수 있습니다.
     
     - 관리자가 사서함 내의 특정 폴더에 적용한 보존 정책입니다. Microsoft 365 보존 정책은 사서함의 모든 폴더에 적용됩니다. 하지만 관리자는 사용자가 [기본 보존 레이블](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)로 Outlook 폴더에 적용할 수 있는 보존 레이블을 사용해 다른 보존 설정을 구성할 수 있습니다.
+
+- [소송 보존](create-a-litigation-hold.md)(보존만 해당)
+    
+   소송 보존은 계속 지원되지만 Microsoft 365 보존 또는 eDiscovery 보존을 [적절하게](#when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds) 사용하는 것이 좋습니다. 
 
 **SharePoint 및 OneDrive의 이전 기능:**
 

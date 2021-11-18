@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 03f16c9a914ce0a5cd1193919a962307b97435b2
-ms.sourcegitcommit: 542e6b5d12a8d400c3b9be44d849676845609c5f
+ms.openlocfilehash: 17fda6ff5deb8c5f16513a5b3a823bcf584f2373
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60962990"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064538"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -44,6 +44,10 @@ ms.locfileid: "60962990"
   > ![DLP 설정](../media/endpoint-dlp-1-using-dlp-settings.png).
 
 ### <a name="advanced-classification-scanning-and-protection"></a>고급 분류 검색 및 보호
+
+## <a name="get-registered"></a>등록하기
+
+이 기능에 액세스하려면 Microsoft에 테넌트를 등록해야 합니다. [Microsoft 365 macOS 지원 등록](https://aka.ms/EndpointDLPIgnite21-Previews)을 참조하세요.
 
 사용하도록 설정하면 **고급 분류 검색 및 보호** 를 통해 고급 Microsoft 365 클라우드 기반 데이터 분류 서비스가 항목을 검색하고 분류하고 결과를 로컬 시스템에 반환할 수 있습니다. 즉, DLP 정책에서 [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) 분류, [명명된 항목(미리보기)](named-entities-learn.md#learn-about-named-entities-preview) 분류 기술을 활용할 수 있습니다.
 

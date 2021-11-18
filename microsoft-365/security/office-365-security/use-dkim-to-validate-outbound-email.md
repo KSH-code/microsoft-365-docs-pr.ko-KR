@@ -17,15 +17,16 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkDEFENDER
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1906d9bbb7e36c95ed74c7eea2b66d3afb70e5a3
-ms.sourcegitcommit: 3140e2866de36d57a27d27f70d47e8167c9cc907
+ms.openlocfilehash: 9e2ae9e71764895cd87deefad1e01aacf965dcf7
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "60555527"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064526"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -235,7 +236,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-in-the-microsoft-365-defender-portal"></a>Microsoft 365 Defender 포털에서 사용자 지정 도메인에 DKIM 서명을 사용하도록 설정하려면
 
-1. [직장 또는 학교 계정을 사용](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)하여 Microsoft 365 Defender 포털을 엽니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2077139" target="_blank">직장 또는 학교 계정을 사용</a>하여 Microsoft 365 Defender 포털을 엽니다.
 
 2. **규칙** 섹션에서 **전자 메일 및 공동 작업** \> **정책 및 규칙** \> **위협 정책** \> **DKIM** 으로 이동합니다. 또는 <https://security.microsoft.com/dkimv2> 페이지를 통해 DKIM 페이지로 직접 이동할 수 있습니다.
 
@@ -335,7 +336,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 ## <a name="default-behavior-for-dkim-and-microsoft-365"></a>DKIM 및 Microsoft 365의 기본 동작
 <a name="DefaultDKIMbehavior"> </a>
 
-DKIM을 사용하지 않도록 설정하면 Microsoft 365는 MOERA(Microsoft 온라인 전자 메일 라우팅 주소)/초기 도메인에 대해 1024 비트 DKIM 공개 키와 데이터 센터에 내부적으로 저장되는 관련 개인 키를 자동으로 만듭니다. 기본적으로 Microsoft 365는 정책이 없는 도메인에 대해 기본 서명 구성을 사용합니다. 즉, DKIM을 직접 설정하지 않으면 Microsoft 365는 도메인에 DKIM을 사용하기 위해 만든 기본 정책과 키를 사용합니다.
+DKIM을 사용하지 않도록 설정하면 Microsoft 365는 MOERA(Microsoft 온라인 전자 메일 라우팅 주소)/초기 도메인에 대해 2048비트 DKIM 공개 키와 데이터 센터에 내부적으로 저장되는 관련 개인 키를 자동으로 만듭니다. 기본적으로 Microsoft 365는 정책이 없는 도메인에 대해 기본 서명 구성을 사용합니다. 즉, DKIM을 직접 설정하지 않으면 Microsoft 365는 도메인에 DKIM을 사용하기 위해 만든 기본 정책과 키를 사용합니다.
 
 또한 사용자 지정 도메인에서 DKIM 서명을 사용하도록 설정 한 후 다시 사용하지 않도록 설정할 경우 일정 시간이 지나면 Microsoft 365가 사용자 지정 도메인에 대해 MOERA/초기 도메인 정책을 자동으로 적용합니다.
 
@@ -402,11 +403,11 @@ DKIM을 설정한 후에 SPF를 아직 설정하지 않은 경우 설정을 수�
 **이 테스트는** DKIM 서명 구성이 올바르게 구성되었고 적절한 DNS 항목이 게시되었는지 유효성을 검사합니다.
 
 <div class="nextstepaction">
-<p><a href="https://aka.ms/diagdkim" data-linktype="external">테스트 실행: DKIM</a></p>
+<p><a href="https://admin.microsoft.com/AdminPortal/?searchSolutions=DKIM#/homepage" data-linktype="external">테스트 실행: DKIM</a></p>
 </div>
 
 ## <a name="more-information"></a>추가 정보
 
 PowerShell을 통한 키 회전: [Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig)
 
-[DMARC를 사용하여 전자 메일의 유효성 검사](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide)
+[DMARC를 사용하여 전자 메일의 유효성 검사](/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide)

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 또는 보존 레이블 정책에서 구성할 수 있는 설정을 이해하여 원하는 항목을 보존하고 원하지 않는 항목을 제거합니다.
-ms.openlocfilehash: 28aa92e7374815404eaffb1abe908aa2fe60343f
-ms.sourcegitcommit: d40b8c506c34a661a275f756081a27ef9ad5bf4f
+ms.openlocfilehash: d80ae2a6f3fac26acfc5d9f8a324e578677cb962
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "60972015"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61063528"
 ---
 # <a name="common-settings-for-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책에 대한 공통 설정
 
@@ -302,6 +302,9 @@ Microsoft 365 그룹에 보존 정책을 적용한 후 해당 그룹이 Azure Ac
 - 삭제된 그룹의 사서함은 비활성화되고 SharePoint 사이트와 마찬가지로 보존 설정이 적용됩니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요.
 
 ### <a name="configuration-information-for-skype-for-business"></a>비즈니스용 Skype에 대한 구성 정보
+
+> [!NOTE]
+> 비즈니스용 Skype는 [2021년 7월 31일에 중단](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833)되었으며 고객은 Microsoft Teams로 마이그레이션하는 것이 좋습니다. 그러나 비즈니스용 Skype에 대한 보존 정책은 기존 고객에게 계속 지원됩니다.
 
 Exchange 전자 메일과 달리, Skype 위치의 상태는 간단히 설정으로 전환하여 모든 사용자를 자동으로 포함할 수 없습니다. 그렇지만 해당 위치를 켜면 해당 대화를 보존하려는 사용자를 수동으로 선택할 수 있습니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 description: 사용자의 조직에서 보낸 메시지의 유효성을 검사하기 위해 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)을 구성하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 242c0e7573c9f5c61ba23b8a99ed27793ea58019
-ms.sourcegitcommit: d4b867e37bf741528ded7fb289e4f6847228d2c5
+ms.openlocfilehash: f80d4521f8d5faf3b126db93b9ad9d3397a12d73
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60208952"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064298"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC를 사용하여 전자 메일의 유효성 검사
 
@@ -87,10 +87,10 @@ SPF의 DNS 레코드와 마찬가지로 DMARC의 레코드는 스푸핑 및 피�
 Microsoft의 DMARC TXT 레코드는 다음과 같습니다.
 
 ```console
-_dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"
+_dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.contoso.com; ruf=mailto:d@ruf.contoso.com; fo=1"
 ```
 
-Microsoft는 자사의 DMARC 보고서를 타사인 [Agari](https://agari.com)에게 보냅니다. Agari는 DMARC 보고서를 수집하고 분석합니다. [MISA 카탈로그](https://www.microsoft.com/misapartnercatalog)에 방문하여 Microsoft 365에 대해 DMARC 보고를 제공하는 타사 공급 업체를 확인하세요.
+Microsoft 365용 DMARC 보고 기능을 제공하는 더 많은 타사 공급자는 [MISA 카탈로그](https://www.microsoft.com/misapartnercatalog?IntegratedProducts=DMARCReportingforOffice365)를 참조하세요.
 
 ## <a name="set-up-dmarc-for-inbound-mail"></a>인바운드 메일에 대해 DMARC 설정
 
@@ -181,13 +181,14 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 레코드를 구성한 후에는 도메인 등록 기관에서 레코드를 업데이트해야 합니다.
 
 ## <a name="dmarc-mail-public-preview-feature"></a>DMARC 메일(공개 미리 보기 기능)
-> [!CAUTION]
-> 매일 메일을 보내지 않을 수 있으며 공개 미리 보기 중에 보고서 자체가 변경될 수 있습니다.  DMARC 집계 보고서 전자 메일은 소비자 계정(예: hotmail.com, outlook.com 또는 live.com 계정)에서 예상할 수 있습니다.
 
-이 DMARC TXT 레코드 **_dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"** 예제에서, 이 경우에는 타사인 Agari가 처리한 *rua* 주소를 확인할 수 있습니다. 이 주소는 분석을 위해 '집계 피드백'을 보내는 데 사용되며 보고서를 생성하는 데 사용됩니다.
+> [!CAUTION]
+> 매일 메일을 보내지 않을 수 있으며 공개 미리 보기 중에 보고서 자체가 변경될 수 있습니다. DMARC 집계 보고서 전자 메일은 소비자 계정(예: hotmail.com, outlook.com 또는 live.com 계정)에서 예상할 수 있습니다.
+
+DMARC TXT 레코드 `dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"`의 예에서 *rua* 주소를 볼 수 있습니다. 이 경우 타사 회사 Agari에서 처리합니다. 이 주소는 분석을 위해 '집계 피드백'을 보내는 데 사용되며 보고서를 생성하는 데 사용됩니다.
 
 > [!TIP]
-> [MISA 카탈로그](https://www.microsoft.com/misapartnercatalog)에 방문하여 Microsoft 365에 대해 DMARC 보고를 제공하는 타사 공급 업체를 확인하세요. DMARC 'rua' 주소에 대한 자세한 내용은 [ IETF.org의 '도메인 기반 메시지 인증, 보고 및 적합성(DMARC)'](https://datatracker.ietf.org/doc/html/rfc7489)을 참조하세요.
+> Microsoft 365용 DMARC 보고 기능을 제공하는 더 많은 타사 공급자는 [MISA 카탈로그](https://www.microsoft.com/misapartnercatalog?IntegratedProducts=DMARCReportingforOffice365)를 참조하세요. DMARC 'rua' 주소에 대한 자세한 내용은 [RFC 74890](https://datatracker.ietf.org/doc/html/rfc7489)을 참조하세요.
 
 ## <a name="best-practices-for-implementing-dmarc-in-microsoft-365"></a>Microsoft 365에서 DMARC를 구현하기 위한 모범 사례
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 740c1c2a86b089f911fdbed7b8fce667de5e6f5c
-ms.sourcegitcommit: bd43f08b4719ba984ea6712227508d4a281148cf
+ms.openlocfilehash: 670dc6c4b095ca8d124b80bb0bade0ee3db22a7f
+ms.sourcegitcommit: c2b5ce3150ae998e18a51bad23277cedad1f06c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "61041937"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064262"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -320,7 +320,7 @@ Get-Label | Format-Table -Property DisplayName, Name, Guid
 > [!NOTE]
 > 이 옵션은 미리 보기에서 점진적으로 출시되며 변경될 수 있습니다.
 
-통신을 통해 전송되는 테넌트의 모든 파일 복사본을 캡처하고 유지해야 하는 경우 이 옵션을 사용해야 할 수 있습니다. 통신 서비스 자체, Exchange 및 Teams에 대한 보존 정책과 함께 이 옵션을 사용합니다.
+사용자가 통신을 통해 전송하는 테넌트의 모든 파일 복사본을 캡처하고 유지해야 하는 경우 이 옵션을 사용해야 할 수 있습니다. 통신 서비스 자체, Exchange 및 Teams에 대한 보존 정책과 함께 이 옵션을 사용합니다.
 
 > [!IMPORTANT]
 > 클라우드 첨부 파일에 보존 레이블을 자동 적용하는 데 사용할 레이블을 선택할 때 레이블 보존 설정 **보존 기간 시작 기준** 이 **항목에 레이블이 지정된 경우** 인지 확인하세요.
@@ -331,7 +331,7 @@ Get-Label | Format-Table -Property DisplayName, Name, Guid
 
 파일을 수정하고 다시 공유하면 파일의 새 복사본이 자료 보존 라이브러리에 새 버전으로 저장됩니다. **항목에 레이블이 지정된 경우** 레이블 설정을 사용해야 하는 이유를 비롯한 자세한 내용은 [클라우드 첨부 파일에서 보존 기능이 작동하는 방식](retention-policies-sharepoint.md#how-retention-works-with-cloud-attachments)을 참조하세요.
 
-이 옵션에 대해 지원되는 클라우드 첨부 파일은 SharePoint 및 OneDrive에 저장된 문서, 비디오 및 이미지와 같은 파일입니다. Teams의 경우 채팅 메시지에서 공유되는 클라우드 첨부 파일과 표준 및 비공개 채널이 지원됩니다. Teams 또는 Outlook 이외의 모임 초대 및 앱을 통해 공유되는 클라우드 첨부 파일은 지원되지 않습니다.
+이 옵션에 대해 지원되는 클라우드 첨부 파일은 SharePoint 및 OneDrive에 저장된 문서, 비디오 및 이미지와 같은 파일입니다. Teams의 경우 채팅 메시지에서 공유되는 클라우드 첨부 파일과 표준 및 비공개 채널이 지원됩니다. Teams 또는 Outlook 이외의 모임 초대 및 앱을 통해 공유되는 클라우드 첨부 파일은 지원되지 않습니다. 클라우드 첨부 파일은 사용자가 공유해야 합니다. 봇을 통해 전송되는 클라우드 첨부 파일은 지원되지 않습니다.
 
 이 옵션에 필수는 아니지만 공유 버전을 정확하게 캡처할 수 있도록 SharePoint 사이트 및 OneDrive 계정에 대해 버전 관리가 활성화되어 있는지 확인하는 것이 좋습니다. 버전 관리가 사용하도록 설정되지 않은 경우 사용 가능한 마지막 버전이 유지됩니다. 초안 또는 게시된 적이 없는 문서는 지원되지 않습니다.
 
